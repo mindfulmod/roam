@@ -36,6 +36,12 @@ The build inlines the CSS, Leaflet, the assembled `DATA` object and `app.js` int
 or change a city, edit its JSON file in `data/cities/` (add new cities to `cityOrder` in
 `data/meta.json` too) and rebuild.
 
+## Deploy
+
+Every push to `main` builds the hosted version and publishes it to GitHub Pages
+(`.github/workflows/pages.yml`). One-time setup: in the repo's **Settings → Pages**, set **Source** to
+**GitHub Actions**. The site is then at `https://mindfulmod.github.io/roam/`.
+
 ## Popularity rankings
 
 A place's rank is computed in `src/app.js` (see `SIGNALS` and `poolStats`). Each source becomes a
