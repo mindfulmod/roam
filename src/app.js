@@ -368,8 +368,14 @@ function toast(t) {
   toastTimer = setTimeout(() => x.remove(), 3500);
 }
 function updateCounts() {
-  $$('.saved-count').forEach((e) => (e.textContent = S.saved.length));
-  $$('.trip-count').forEach((e) => (e.textContent = S.trip.length));
+  $$('.saved-count').forEach((e) => {
+    e.textContent = S.saved.length;
+    e.toggleAttribute('data-zero', !S.saved.length);
+  });
+  $$('.trip-count').forEach((e) => {
+    e.textContent = S.trip.length;
+    e.toggleAttribute('data-zero', !S.trip.length);
+  });
 }
 function headerActive(page) {
   $$('.nav a').forEach((a) => a.classList.toggle('active', a.dataset.nav === page));
@@ -544,26 +550,93 @@ function cityTabLegacy(c, tab) {
       '',
     )}</div><select id="place-sort" aria-label="Sort places" style="padding:9px;border:1px solid var(--line);border-radius:8px;color:var(--ink);background:white"><option value="recommended" ${placeSort === 'recommended' ? 'selected' : ''}>Suggested visit priority</option><option value="rating" ${placeSort === 'rating' ? 'selected' : ''}>Visitor rating snapshots</option><option value="cost" ${placeSort === 'cost' ? 'selected' : ''}>Lowest starting cost</option></select></div><div class="placegrid" id="city-places">${getCityPlaces(c).map(placeCard).join('') || '<div class="no-results">No saved places here yet. Tap a heart to keep a place.</div>'}</div>`;
 }
+// Phone layout breakpoint; keep in sync with the 760px media queries in styles.css.
+const isMobile = () => matchMedia('(max-width: 760px)').matches;
+let modalHistory = false;
 function showModal(content, label = 'Details') {
   closeStayMap();
-  if (!$('.modal-backdrop')) modalFocus = document.activeElement;
+  const reopening = Boolean($('.modal-backdrop'));
+  if (!reopening) modalFocus = document.activeElement;
   $('.modal-backdrop')?.remove();
   const x = document.createElement('div');
   x.className = 'modal-backdrop';
-  x.innerHTML = `<section class="modal" role="dialog" aria-modal="true" aria-label="${esc(label)}"><button class="iconbtn close" data-action="close-modal" aria-label="Close dialog">${icon('close')}</button>${content}</section>`;
+  // The header bar is sticky, so Close stays in reach however far the sheet is scrolled.
+  x.innerHTML = `<section class="modal" role="dialog" aria-modal="true" aria-label="${esc(label)}"><div class="modal-bar"><span class="modal-grab" aria-hidden="true"></span><span class="modal-bar-title" aria-hidden="true">${esc(label)}</span><button class="iconbtn close" data-action="close-modal" aria-label="Close dialog">${icon('close')}</button></div>${content}</section>`;
   document.body.appendChild(x);
   document.body.style.overflow = 'hidden';
-  x.querySelector('.close').focus();
-  x.addEventListener('click', (e) => {
-    if (e.target === x) closeModal();
+  const m = x.querySelector('.modal');
+  m.addEventListener('scroll', () => m.classList.toggle('scrolled', m.scrollTop > 140), {
+    passive: true,
   });
+  sheetSwipe(m);
+  x.querySelector('.close').focus({ preventScroll: true });
+  x.addEventListener('click', (e) => {
+    if (e.target === x) closeModal('user');
+  });
+  // Give the sheet its own history entry so the phone's Back gesture closes it.
+  if (!reopening && !modalHistory) {
+    history.pushState({ roamModal: 1 }, '');
+    modalHistory = true;
+  }
 }
-function closeModal() {
+// how: 'user' when the person dismisses the sheet (Close, backdrop, Escape, swipe), which
+// also steps back past the sheet's history entry; 'history' when Back already did that.
+// Anything else is a programmatic close that may navigate next, so it must not go back.
+function closeModal(how = '') {
   closeStayMap();
   $('.modal-backdrop')?.remove();
   document.body.style.overflow = '';
-  if (modalFocus?.isConnected) modalFocus.focus();
+  if (modalFocus?.isConnected) modalFocus.focus({ preventScroll: true });
+  if (!modalHistory) return;
+  modalHistory = false;
+  if (how === 'history' || !history.state?.roamModal) return;
+  if (how === 'user') history.back();
+  else history.replaceState(null, '');
 }
+// Drag a sheet down from its top edge to dismiss it, as in Apple Maps and Google Maps.
+function sheetSwipe(m) {
+  let y0 = null,
+    x0 = 0,
+    dy = 0;
+  m.addEventListener(
+    'touchstart',
+    (e) => {
+      y0 = null;
+      if (!isMobile() || m.scrollTop > 0 || e.touches.length > 1) return;
+      if (e.target.closest('input,textarea,select,.leaflet-container')) return;
+      y0 = e.touches[0].clientY;
+      x0 = e.touches[0].clientX;
+      dy = 0;
+    },
+    { passive: true },
+  );
+  m.addEventListener(
+    'touchmove',
+    (e) => {
+      if (y0 === null) return;
+      dy = e.touches[0].clientY - y0;
+      const dx = Math.abs(e.touches[0].clientX - x0);
+      if (dy <= 0 || dx > dy || m.scrollTop > 0) {
+        m.style.transform = '';
+        y0 = null;
+        return;
+      }
+      e.preventDefault();
+      m.style.transition = 'none';
+      m.style.transform = `translateY(${dy}px)`;
+    },
+    { passive: false },
+  );
+  m.addEventListener('touchend', () => {
+    m.style.transition = '';
+    if (y0 !== null && dy > 110) closeModal('user');
+    else m.style.transform = '';
+    y0 = null;
+  });
+}
+window.addEventListener('popstate', () => {
+  if (modalHistory && !history.state?.roamModal && $('.modal-backdrop')) closeModal('history');
+});
 function toggleSave(id) {
   if (!validPlace(id)) return;
   S.saved = saved(id) ? S.saved.filter((x) => x !== id) : [...S.saved, id];
@@ -1117,7 +1190,7 @@ function renderMap(id = '') {
   mapQuery = '';
   mapDiet = 'all';
   $('#app').innerHTML =
-    `<section class="map-layout"><aside class="mapaside"><h1>Follow your curiosity.</h1><p class="muted">Find a place, open its story, then make it part of your journey.</p><select id="map-city" aria-label="Map destination"><option value="">All ${CITIES.length} destinations</option>${CITIES.map((c) => `<option value="${c.id}" ${mapCity === c.id ? 'selected' : ''}>${esc(c.name)}, ${esc(c.country)}</option>`).join('')}</select><button class="map-mobile-toggle" data-action="map-list" aria-label="Show places list">${icon('list')}</button><div class="searchbox">${icon('search')}<input id="map-search" type="search" placeholder="Search map places…" aria-label="Search map places"></div><div class="chips">${[
+    `<section class="map-layout"><aside class="mapaside"><h1>Follow your curiosity.</h1><p class="muted">Find a place, open its story, then make it part of your journey.</p><select id="map-city" aria-label="Map destination"><option value="">All ${CITIES.length} destinations</option>${CITIES.map((c) => `<option value="${c.id}" ${mapCity === c.id ? 'selected' : ''}>${esc(c.name)}, ${esc(c.country)}</option>`).join('')}</select><button class="map-mobile-toggle" data-action="map-list" aria-label="Show places list">${icon('list')}</button><div class="searchbox">${icon('search')}<input id="map-search" type="search" placeholder="Search places…" aria-label="Search map places"></div><div class="chips">${[
       ['all', 'All'],
       ['see', 'See'],
       ['eat', 'Eat'],
@@ -1130,9 +1203,9 @@ function renderMap(id = '') {
       )
       .join(
         '',
-      )}</div><select id="map-diet" aria-label="Map dietary filter"><option value="all">All dietary choices</option><option value="halal">Sourced halal choices</option><option value="vegetarian">Vegetarian options</option><option value="vegan">Plant-based menus</option></select><div id="map-stay-control">${mapCity ? `<button class="btn light small" data-action="edit-stay" data-id="${mapCity}">${icon('pin')} ${S.stays[mapCity] ? 'Change my stay' : 'Add my stay'}</button>` : ''}</div><div id="map-list" class="maplist"></div></aside><div class="mapcanvas"><div id="atlasmap" aria-label="Interactive destination and attraction map"></div><div class="map-top"><div class="actions"><button class="btn light small" data-action="map-reset">${icon('globe')} Overview</button><button class="btn light small" data-action="tiles" id="tile-toggle">${icon('map')} Street detail: ${S.street ? 'on' : 'off'}</button></div><button class="btn light small" data-action="locate">${icon('locate')} Near me</button></div><div class="map-bottom" id="map-note">Numbered pins show review-volume ranks within each place category. Lines show order, not roads.</div></div></section>`;
+      )}<select id="map-diet" aria-label="Map dietary filter"><option value="all">All dietary choices</option><option value="halal">Sourced halal choices</option><option value="vegetarian">Vegetarian options</option><option value="vegan">Plant-based menus</option></select><div id="map-stay-control">${mapCity ? `<button class="btn light small" data-action="edit-stay" data-id="${mapCity}">${icon('pin')} ${S.stays[mapCity] ? 'Change my stay' : 'Add my stay'}</button>` : ''}</div></div><div id="map-card" class="map-card" hidden></div><div class="map-sheet" id="map-sheet"><button class="sheet-handle" data-action="map-list" aria-expanded="false" aria-controls="map-list"><span class="modal-grab" aria-hidden="true"></span><span class="sheet-count" id="map-count"></span><span class="sheet-hint">${icon('list')}<span>List</span></span></button><div id="map-list" class="maplist"></div></div></aside><div class="mapcanvas"><div id="atlasmap" aria-label="Interactive destination and attraction map"></div><div class="map-top"><div class="actions"><button class="btn light small" data-action="map-reset" aria-label="World overview" title="World overview">${icon('globe')}<span class="lbl"> Overview</span></button><button class="btn light small ${S.street ? 'on' : ''}" data-action="tiles" id="tile-toggle" aria-label="Street detail ${S.street ? 'on' : 'off'}" title="Street detail">${icon('map')}<span class="lbl"> Street detail: ${S.street ? 'on' : 'off'}</span></button></div><button class="btn light small" data-action="locate" aria-label="Near me" title="Near me">${icon('locate')}<span class="lbl"> Near me</span></button></div><div class="map-bottom" id="map-note">Numbered pins show review-volume ranks within each place category. Lines show order, not roads.</div></div></section>`;
   map = L.map('atlasmap', {
-    zoomControl: true,
+    zoomControl: !isMobile(),
     minZoom: 1,
     maxZoom: 18,
     worldCopyJump: true,
@@ -1150,6 +1223,7 @@ function renderMap(id = '') {
   );
   markerLayer = L.layerGroup().addTo(map);
   routeLayer = L.layerGroup().addTo(map);
+  map.on('click', () => hideMapCard());
   if (S.street && navigator.onLine) enableStreet();
   renderMapPins(true);
   if (id === 'trip' && S.trip.length) {
@@ -1217,7 +1291,7 @@ function mapItems() {
     );
 }
 function popupHtml(p, isCity) {
-  return `<div class="map-popup">${photoTag(p.id)}<h3>${esc(p.name)}</h3><p>${esc(isCity ? p.tagline : p.area + ' · ' + priceLabel(p))}</p>${isCity ? '' : typeChips(p) + rankBadge(p)}<div class="actions"><button class="btn small" data-action="${isCity ? 'map-city-open' : 'place'}" data-id="${p.id}">${isCity ? 'Explore places' : 'View details'} ${icon('arrow')}</button>${isCity ? '' : external(mapsPin(p), icon('pin'), 'btn light small')}</div></div>`;
+  return `<div class="map-popup">${photoTag(p.id)}<div class="map-popup-body"><h3>${esc(p.name)}</h3><p>${esc(isCity ? p.tagline : p.area + ' · ' + priceLabel(p))}</p>${isCity ? '' : `<div class="map-popup-tags">${typeChips(p)}${rankBadge(p)}</div>`}</div><div class="actions"><button class="btn small" data-action="${isCity ? 'map-city-open' : 'place'}" data-id="${p.id}">${isCity ? 'Explore places' : 'View details'} ${icon('arrow')}</button>${isCity ? cityAdd(p.id, true) : external(mapsPin(p), icon('pin') + '<span class="visually-hidden">Open in Google Maps</span>', 'btn light small')}</div></div>`;
 }
 function renderMapPins(fit = false) {
   if (!map) return;
@@ -1234,9 +1308,15 @@ function renderMapPins(fit = false) {
         iconSize: isCity ? [13, 13] : [32, 32],
         iconAnchor: isCity ? [6, 6] : [16, 16],
       }),
-    }).bindPopup(popupHtml(p, isCity));
+    });
+    if (isMobile())
+      m.on('click', (e) => {
+        L.DomEvent.stopPropagation(e);
+        showMapCard(p.id);
+      });
+    else m.bindPopup(popupHtml(p, isCity));
     m.addTo(markerLayer);
-    if (isCity) m.bindTooltip(p.name, { direction: 'top', offset: [0, -5] });
+    if (isCity && !isMobile()) m.bindTooltip(p.name, { direction: 'top', offset: [0, -5] });
     mapMarkers[p.id] = m;
   });
   $('#map-list').innerHTML = items.length
@@ -1247,6 +1327,11 @@ function renderMapPins(fit = false) {
         )
         .join('')
     : '<p class="muted">No matching places. Try another filter.</p>';
+  if ($('#map-count'))
+    $('#map-count').textContent =
+      `${items.length} ${isCity ? 'destinations' : items.length === 1 ? 'place' : 'places'}` +
+      (mapCity ? ' in ' + C[mapCity].name : '');
+  hideMapCard();
   if (mapCity && S.stays[mapCity]) {
     const stay = S.stays[mapCity];
     L.marker([stay.lat, stay.lon], {
@@ -1275,6 +1360,40 @@ function renderMapPins(fit = false) {
     }
   }
 }
+function setMapSheet(open) {
+  $('#map-sheet')?.classList.toggle('open', open);
+  $('#map-list')?.classList.toggle('visible', open);
+  $('.sheet-handle')?.setAttribute('aria-expanded', String(open));
+  if (open) hideMapCard();
+}
+// Phones get a docked preview card (Apple/Google Maps style) instead of a floating popup.
+function showMapCard(id) {
+  const card = $('#map-card');
+  if (!card) return;
+  const isCity = !P[id];
+  card.innerHTML = `<button class="iconbtn close" data-action="map-card-close" aria-label="Close preview">${icon('close')}</button>${popupHtml(P[id] || C[id], isCity)}`;
+  card.hidden = false;
+  setMapSheet(false);
+  $('.mapaside')?.classList.add('has-card');
+  $$('.map-pin.focused').forEach((x) => x.classList.remove('focused'));
+  const marker = mapMarkers[id];
+  marker?.getElement()?.querySelector('.map-pin')?.classList.add('focused');
+  if (map && marker) {
+    const pt = map.latLngToContainerPoint(marker.getLatLng()),
+      size = map.getSize(),
+      free = size.y - card.offsetHeight - 24;
+    if (pt.y > free - 30 || pt.y < 130 || pt.x < 20 || pt.x > size.x - 20)
+      map.panBy([pt.x - size.x / 2, pt.y - (130 + free) / 2]);
+  }
+}
+function hideMapCard() {
+  const card = $('#map-card');
+  if (!card || card.hidden) return;
+  card.hidden = true;
+  card.innerHTML = '';
+  $('.mapaside')?.classList.remove('has-card');
+  $$('.map-pin.focused').forEach((x) => x.classList.remove('focused'));
+}
 function setMapCity(id) {
   if (!validCity(id)) return;
   mapCity = id;
@@ -1289,7 +1408,7 @@ function setMapCity(id) {
   );
   routeLayer.clearLayers();
   renderMapPins(true);
-  $('#map-list').classList.remove('visible');
+  setMapSheet(false);
   history.replaceState(null, '', '#/map/' + id);
 }
 function mapLocate() {
@@ -1937,7 +2056,7 @@ function renderCity(id, tab = 'places') {
   const r = cityRanking(c, 'tourism'),
     a = cityRanking(c, 'arrivals');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="backline"><a href="#/">${icon('left')} Compare destinations</a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}<div class="destination-evidence">${r ? external(r.source, `<b>#${r.rank}</b> global tourism index · 2025`) : '<span>Special-interest destination · no published index rank</span>'}${a ? external(a.source, `<b>#${a.rank}</b> international arrivals · ${esc(a.value)}`) : ''}<button class="inline-link" data-action="ranking-method">Understand the numbers ↗</button></div><div class="citysummary"><div class="summarycell"><label>Make time for</label><strong>${c.days} days</strong><small>City time, before transfers</small></div><div class="summarycell"><label>Daily spending estimate</label><strong>${range(c.dailyBudget, c.currency)}</strong><small>Per person · hotels & major excursions extra</small></div><div class="summarycell"><label>Cash on hand</label><strong>${range(c.cashPerDay, c.currency)}</strong><small>Per day · part of spending</small></div><div class="summarycell"><label>Good months to consider</label><strong>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</strong><small>Typical seasons</small></div></div>${stayPanel(c)}<div class="citytabs">${[
+    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}<div class="destination-evidence">${r ? external(r.source, `<b>#${r.rank}</b> global tourism index · 2025`) : '<span>Special-interest destination · no published index rank</span>'}${a ? external(a.source, `<b>#${a.rank}</b> international arrivals · ${esc(a.value)}`) : ''}<button class="inline-link" data-action="ranking-method">Understand the numbers ↗</button></div><div class="citysummary"><div class="summarycell"><label>Make time for</label><strong>${c.days} days</strong><small>City time, before transfers</small></div><div class="summarycell"><label>Daily spending estimate</label><strong>${range(c.dailyBudget, c.currency)}</strong><small>Per person · hotels & major excursions extra</small></div><div class="summarycell"><label>Cash on hand</label><strong>${range(c.cashPerDay, c.currency)}</strong><small>Per day · part of spending</small></div><div class="summarycell"><label>Good months to consider</label><strong>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</strong><small>Typical seasons</small></div></div>${stayPanel(c)}<div class="citytabs">${[
       ['places', 'Places & rankings'],
       ['food', 'Eat & dietary options'],
       ['arrival', 'When you land'],
@@ -1972,7 +2091,7 @@ function openPlace(id) {
       .map((x) => `<li>${esc(x)}</li>`)
       .join(
         '',
-      )}</ol></section><section><h3>Is it your kind of place?</h3><p><strong>Best for:</strong> ${esc(bullets(p.bestFor).join(' · ') || typesFor(p).join(', ') + ' enthusiasts')}</p><p><strong>Trade-offs:</strong> ${esc(bullets(p.tradeoffs).join(' ') || p.tip)}</p></section></div>${p.mustOrder?.length ? `<section class="must-order-box"><h3>What to order</h3><p>${p.mustOrder.map((x) => esc(x)).join(' · ')}</p><small>${esc(p.cuisine || '')} · Confirm the current menu and your dietary requirements.</small></section>` : ''}${dietaryDetail(p)}<div class="modalstats"><div><label>Allow</label><strong>${p.duration} hours${p.duration > 16 ? ' · multi-day' : ''}</strong></div><div><label>Planning cost</label><strong>${priceLabel(p)}</strong></div><div><label>Good timing</label><strong>${esc(p.bestTime)}</strong></div><div><label>Booking</label><strong>${esc(p.reservation)}</strong></div></div><p class="price-note">${esc(p.priceNote)}</p><div class="detailgrid"><section><h3>What to expect</h3><p>${esc(p.expect)}</p></section><section><h3>Make the visit work</h3><p>${esc(p.tip)}</p></section></div>${stay ? `<div class="stay-to-place"><strong>${distanceText(hav(stay, p))} from ${esc(stay.label)}</strong><span>Straight-line distance. Check the real route below.</span><div class="actions">${p.excursion || hav(c, p) > 40 ? external(p.sourceUrls?.[0] || mapsPin(p), icon('external') + ' Check excursion access', 'btn light small') + external(mapsPin(p), 'View destination pin', 'btn light small') : external(mapsDirections([stay, p], 'walking'), icon('route') + ' Walk from my stay', 'btn light small') + external(mapsDirections([stay, p], 'transit'), icon('train') + ' Transit from my stay', 'btn light small')}</div></div>` : `<button class="btn light small" data-action="edit-stay" data-id="${c.id}">${icon('pin')} Add your stay to check distance</button>`}<div class="actions modal-main-actions">${saveButton(id)}${external(mapsPin(p), icon('pin') + ' Open in Google Maps', 'btn')}${external(mapsCoordinate(p), 'Coordinate pin', 'btn light')}<button class="btn ghost" data-action="map-place" data-id="${id}">${icon('map')} Map</button></div><p class="price-note">In Google Maps, tap <strong>Save</strong> to pin it to your list. The heart here saves it in Roam Atlas.</p><div class="field"><label>Your note</label><textarea data-note="${id}" placeholder="Booked time, must-try dish or reminder…">${esc(S.notes[id] || '')}</textarea></div><div class="source-links">Place sources: ${(p.sourceUrls || []).map((u) => external(u, esc(new URL(u).hostname) + ' ↗')).join(' ')}<br>Map points are approximate. Confirm the entrance or meeting point with the venue.</div></div>`,
+      )}</ol></section><section><h3>Is it your kind of place?</h3><p><strong>Best for:</strong> ${esc(bullets(p.bestFor).join(' · ') || typesFor(p).join(', ') + ' enthusiasts')}</p><p><strong>Trade-offs:</strong> ${esc(bullets(p.tradeoffs).join(' ') || p.tip)}</p></section></div>${p.mustOrder?.length ? `<section class="must-order-box"><h3>What to order</h3><p>${p.mustOrder.map((x) => esc(x)).join(' · ')}</p><small>${esc(p.cuisine || '')} · Confirm the current menu and your dietary requirements.</small></section>` : ''}${dietaryDetail(p)}<div class="modalstats"><div><label>Allow</label><strong>${p.duration} hours${p.duration > 16 ? ' · multi-day' : ''}</strong></div><div><label>Planning cost</label><strong>${priceLabel(p)}</strong></div><div><label>Good timing</label><strong>${esc(p.bestTime)}</strong></div><div><label>Booking</label><strong>${esc(p.reservation)}</strong></div></div><p class="price-note">${esc(p.priceNote)}</p><div class="detailgrid"><section><h3>What to expect</h3><p>${esc(p.expect)}</p></section><section><h3>Make the visit work</h3><p>${esc(p.tip)}</p></section></div>${stay ? `<div class="stay-to-place"><strong>${distanceText(hav(stay, p))} from ${esc(stay.label)}</strong><span>Straight-line distance. Check the real route below.</span><div class="actions">${p.excursion || hav(c, p) > 40 ? external(p.sourceUrls?.[0] || mapsPin(p), icon('external') + ' Check excursion access', 'btn light small') + external(mapsPin(p), 'View destination pin', 'btn light small') : external(mapsDirections([stay, p], 'walking'), icon('route') + ' Walk from my stay', 'btn light small') + external(mapsDirections([stay, p], 'transit'), icon('train') + ' Transit from my stay', 'btn light small')}</div></div>` : `<button class="btn light small" data-action="edit-stay" data-id="${c.id}">${icon('pin')} Add your stay to check distance</button>`}<div class="actions modal-main-actions">${saveButton(id)}${external(mapsPin(p), icon('pin') + '<span><span class="lbl-long"> Open in</span> Google Maps</span>', 'btn')}${external(mapsCoordinate(p), `${icon('locate')}<span class="lbl"> Coordinate pin</span>`, 'btn light coord-pin')}<button class="btn ghost" data-action="map-place" data-id="${id}">${icon('map')} Map</button></div><p class="price-note">In Google Maps, tap <strong>Save</strong> to pin it to your list. The heart here saves it in Roam Atlas.</p><div class="field"><label>Your note</label><textarea data-note="${id}" placeholder="Booked time, must-try dish or reminder…">${esc(S.notes[id] || '')}</textarea></div><div class="source-links">Place sources: ${(p.sourceUrls || []).map((u) => external(u, esc(new URL(u).hostname) + ' ↗')).join(' ')}<br>Map points are approximate. Confirm the entrance or meeting point with the venue.</div></div>`,
     p.name,
   );
 }
@@ -2088,7 +2207,7 @@ function renderExplore() {
       )
       .join(
         '',
-      )}</div><p id="city-ranking-note" class="ranking-note"></p><div class="searchrow"><div class="searchbox">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="City, country, landmark or food…" value="${esc(browseQuery)}"></div><a class="btn ghost" href="#/map">${icon('map')} Explore map</a></div><div class="chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'All destinations' : r}</button>`).join('')}</div><div id="browse-results"></div>${vibeSection()}<div class="sectionhead"><div><span class="eyebrow">GO FOR THE ICON. STAY FOR THE JOURNEY.</span><h2>Make it a bigger trip.</h2></div><a href="#/trip" class="btn text">All trip starters ${icon('arrow')}</a></div><div class="tripinspiration">${[TEMPLATES[0], TEMPLATES[1], TEMPLATES[2]].map((t) => `<article class="tripteaser">${starterArt(t)}<div class="teaser-body"><div class="tag">${t.tag}</div><h3>${t.title}</h3><p>${t.highlights}</p><button class="btn text" data-action="template" data-id="${t.id}">Plan this journey ${icon('arrow')}</button></div></article>`).join('')}</div>${footer()}</div>`;
+      )}</div><p id="city-ranking-note" class="ranking-note"></p><div class="searchrow"><div class="searchbox">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="City, country, landmark or food…" value="${esc(browseQuery)}"></div><a class="btn ghost explore-map" href="#/map" aria-label="Explore map">${icon('map')}<span class="lbl"> Explore map</span></a></div><div class="chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'All destinations' : r}</button>`).join('')}</div><div id="browse-results"></div>${vibeSection()}<div class="sectionhead"><div><span class="eyebrow">GO FOR THE ICON. STAY FOR THE JOURNEY.</span><h2>Make it a bigger trip.</h2></div><a href="#/trip" class="btn text">All trip starters ${icon('arrow')}</a></div><div class="tripinspiration">${[TEMPLATES[0], TEMPLATES[1], TEMPLATES[2]].map((t) => `<article class="tripteaser">${starterArt(t)}<div class="teaser-body"><div class="tag">${t.tag}</div><h3>${t.title}</h3><p>${t.highlights}</p><button class="btn text" data-action="template" data-id="${t.id}">Plan this journey ${icon('arrow')}</button></div></article>`).join('')}</div>${footer()}</div>`;
   renderBrowse();
 }
 function renderBrowse() {
@@ -2478,7 +2597,7 @@ document.addEventListener('click', (e) => {
     toggleTrip(id);
   } else if (a === 'city') location.hash = '#/city/' + id;
   else if (a === 'place') openPlace(id);
-  else if (a === 'close-modal') closeModal();
+  else if (a === 'close-modal') closeModal('user');
   else if (a === 'region') {
     browseRegion = id;
     $$('#region-chips .chip').forEach((x) => x.classList.toggle('active', x.dataset.id === id));
@@ -2538,8 +2657,9 @@ document.addEventListener('click', (e) => {
   else if (a === 'map-focus') {
     const p = P[id] || C[id];
     map.setView([p.lat, p.lon], P[id] ? Math.max(13, map.getZoom()) : 6);
-    mapMarkers[id]?.openPopup();
-    $('#map-list').classList.remove('visible');
+    setMapSheet(false);
+    if (isMobile()) showMapCard(id);
+    else mapMarkers[id]?.openPopup();
   } else if (a === 'map-reset') {
     mapCity = '';
     mapKind = 'all';
@@ -2554,7 +2674,8 @@ document.addEventListener('click', (e) => {
     routeLayer.clearLayers();
     renderMapPins(true);
     history.replaceState(null, '', '#/map');
-  } else if (a === 'map-list') $('#map-list').classList.toggle('visible');
+  } else if (a === 'map-list') setMapSheet(!$('#map-sheet').classList.contains('open'));
+  else if (a === 'map-card-close') hideMapCard();
   else if (a === 'tiles') {
     S.street = !S.street;
     persist();
@@ -2563,7 +2684,10 @@ document.addEventListener('click', (e) => {
       map.removeLayer(streetLayer);
       streetLayer = null;
     }
-    $('#tile-toggle').innerHTML = icon('map') + ' Street detail: ' + (S.street ? 'on' : 'off');
+    $('#tile-toggle').innerHTML =
+      icon('map') + `<span class="lbl"> Street detail: ${S.street ? 'on' : 'off'}</span>`;
+    $('#tile-toggle').classList.toggle('on', S.street);
+    $('#tile-toggle').setAttribute('aria-label', 'Street detail ' + (S.street ? 'on' : 'off'));
     $('#map-note').textContent = S.street
       ? 'Online street detail. Lines show stop order, not turn-by-turn routes.'
       : 'Offline map: planning pins and country outlines. Enable street detail when online.';
@@ -2571,16 +2695,18 @@ document.addEventListener('click', (e) => {
   else if (a === 'map-place') {
     const p = P[id];
     closeModal();
+    const reveal = () => {
+      if (!map) return;
+      map.setView([p.lat, p.lon], 13, { animate: false });
+      if (isMobile()) showMapCard(id);
+      else mapMarkers[id]?.openPopup();
+    };
     if (map) {
       setMapCity(p.cityId);
-      mapMarkers[id]?.openPopup();
-      map.setView([p.lat, p.lon], 13);
+      reveal();
     } else {
       location.hash = '#/map/' + p.cityId;
-      setTimeout(() => {
-        mapMarkers[id]?.openPopup();
-        if (map) map.setView([p.lat, p.lon], 13);
-      }, 150);
+      setTimeout(reveal, 150);
     }
   }
 });
@@ -2663,7 +2789,7 @@ $('#import-file').addEventListener('change', async (e) => {
   e.target.value = '';
 });
 document.addEventListener('keydown', (e) => {
-  if (e.key === 'Escape' && $('.modal-backdrop')) closeModal();
+  if (e.key === 'Escape' && $('.modal-backdrop')) closeModal('user');
   if (
     (e.key === 'Enter' || e.key === ' ') &&
     e.target.matches('[role="button"][data-action],[role="link"][data-action]')

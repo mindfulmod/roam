@@ -3912,3 +3912,794 @@ small.rankwhy {
     height: 140px;
   }
 }
+
+/* ------------------------------------------------------------------
+   Sheet header bar (all sizes). Close sits in a sticky bar, so it stays
+   reachable however far a place sheet is scrolled. Once the photo has
+   scrolled away the bar turns solid and shows the title (Apple Maps).
+   ------------------------------------------------------------------ */
+.modal-bar {
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  height: 60px;
+  margin-bottom: -60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  padding: 0 14px 0 20px;
+  pointer-events: none;
+  transition:
+    background 0.2s,
+    box-shadow 0.2s;
+}
+.modal-bar > * {
+  pointer-events: auto;
+}
+.modal .modal-bar .close {
+  position: static;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  background: #fffffff2;
+  border-color: transparent;
+  box-shadow: 0 2px 10px #0b292930;
+}
+.modal-bar-title {
+  flex: 1;
+  min-width: 0;
+  font-weight: 700;
+  font-size: 15px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.modal.scrolled .modal-bar {
+  background: #f6f5f0f7;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 0 var(--line);
+}
+.modal.scrolled .modal-bar-title {
+  opacity: 1;
+}
+.modal.scrolled .modal-bar .close {
+  box-shadow: none;
+  border-color: var(--line);
+}
+.modal-grab {
+  display: none;
+}
+/* Content that starts without a photo needs room under the bar. */
+.modal-bar + .modalcontent {
+  padding-top: 64px;
+}
+.lbl-short {
+  display: none;
+}
+.nav .count[data-zero] {
+  display: none;
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+.map-popup .btn.light {
+  color: var(--teal);
+}
+.map-popup-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  align-items: center;
+  margin-bottom: 4px;
+}
+.map-sheet {
+  display: contents;
+}
+.mapaside .chips > #map-diet,
+.mapaside .chips > #map-stay-control {
+  flex-basis: 100%;
+}
+.mapaside .chips > #map-stay-control:empty {
+  display: none;
+}
+.sheet-handle,
+.map-card {
+  display: none;
+}
+.map-pin.focused {
+  transform: scale(1.35);
+  background: var(--orange);
+  z-index: 5;
+}
+
+/* ------------------------------------------------------------------
+   Phone layout pass (Google Maps / Apple Maps / Tripadvisor patterns)
+   ------------------------------------------------------------------ */
+@media (max-width: 760px) {
+  :root {
+    --topbar-h: 54px;
+    --tabbar-h: calc(58px + env(safe-area-inset-bottom));
+  }
+  body {
+    padding-bottom: var(--tabbar-h);
+  }
+
+  /* Top bar: a slim brand bar. backdrop-filter is removed because it made the
+     tab bar's position:fixed resolve against the header, pinning the tabs to
+     the top of the page instead of the bottom. */
+  .topbar {
+    height: var(--topbar-h);
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: #f6f5f0;
+    padding-top: env(safe-area-inset-top);
+  }
+  .topend {
+    display: none;
+  }
+  .brand {
+    font-size: 19px;
+  }
+  .brandmark {
+    width: 24px;
+    height: 28px;
+  }
+
+  /* Bottom tab bar, thumb reachable. */
+  .nav {
+    height: var(--tabbar-h);
+    box-sizing: border-box;
+    padding: 6px 4px env(safe-area-inset-bottom);
+    align-items: stretch;
+    justify-content: space-around;
+    box-shadow: 0 -4px 20px #173b3910;
+  }
+  .nav a {
+    position: relative;
+    flex: 1;
+    min-width: 0;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    padding: 4px 2px;
+    font-size: 10.5px;
+    border-radius: 12px;
+    white-space: nowrap;
+  }
+  .nav a.active {
+    background: transparent;
+  }
+  .nav a .icon {
+    width: 22px;
+    height: 22px;
+    padding: 3px 14px;
+    border-radius: 14px;
+    box-sizing: content-box;
+  }
+  .nav a.active .icon {
+    background: var(--teal2);
+  }
+  .nav a .count {
+    position: absolute;
+    top: 2px;
+    left: calc(50% + 8px);
+    margin: 0;
+    min-width: 16px;
+    line-height: 16px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  .nav a .count:empty,
+  .nav a .count[data-zero] {
+    display: none;
+  }
+  .toast {
+    bottom: calc(var(--tabbar-h) + 14px);
+  }
+
+  /* ---------- Map: full-bleed map, floating search, bottom sheet ---------- */
+  .map-layout {
+    display: block;
+    position: relative;
+    height: calc(100dvh - var(--topbar-h) - var(--tabbar-h));
+    min-height: 380px;
+    overflow: hidden;
+  }
+  .mapcanvas {
+    position: absolute;
+    inset: 0;
+  }
+  .mapaside,
+  .mapaside:has(.maplist) {
+    position: absolute;
+    inset: 0;
+    z-index: 800;
+    padding: 10px 10px 0;
+    background: transparent;
+    border: 0;
+    overflow: visible;
+    display: grid;
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    grid-template-rows: auto auto minmax(0, 1fr) auto;
+    align-items: start;
+    gap: 8px;
+    pointer-events: none;
+  }
+  .mapaside > * {
+    pointer-events: auto;
+  }
+  .mapaside > .map-mobile-toggle {
+    display: none;
+  }
+  .mapaside > #map-city,
+  .mapaside > .searchbox {
+    grid-row: 1;
+    margin: 0;
+    width: 100%;
+    min-width: 0;
+    height: 46px;
+    box-shadow: 0 3px 14px #173b3926;
+    border-radius: 23px;
+  }
+  .mapaside > #map-city {
+    grid-column: 1;
+    border: 0;
+    padding: 0 30px 0 14px;
+    font-size: 13px;
+    font-weight: 650;
+    text-overflow: ellipsis;
+  }
+  .mapaside > .searchbox {
+    grid-column: 2;
+    display: block;
+  }
+  .mapaside > .searchbox input {
+    height: 46px;
+    min-height: 46px;
+    border: 0;
+    border-radius: 23px;
+    font-size: 14px;
+    padding: 0 12px 0 38px;
+  }
+  .mapaside > .searchbox .icon {
+    left: 13px;
+    top: 14px;
+  }
+  /* Filter chips scroll sideways in one row, like Google Maps. */
+  .mapaside > .chips {
+    grid-row: 2;
+    grid-column: 1 / span 2;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin: 0 -10px;
+    padding: 0 10px 4px;
+    gap: 6px;
+    pointer-events: none;
+  }
+  .mapaside > .chips::-webkit-scrollbar {
+    display: none;
+  }
+  .mapaside > .chips > * {
+    pointer-events: auto;
+  }
+  .mapaside .chip {
+    flex-shrink: 0;
+    font-size: 13px;
+    font-weight: 600;
+    min-height: 36px;
+    padding: 6px 15px;
+    background: #fff;
+    color: var(--ink);
+    border-color: transparent;
+    box-shadow: 0 2px 8px #173b3922;
+  }
+  .mapaside .chip.active {
+    background: var(--teal);
+    color: #fff;
+  }
+  /* Diet filter and stay button ride along at the end of the chip row. */
+  .mapaside .chips > #map-diet {
+    flex-basis: auto;
+    flex-shrink: 0;
+    width: auto;
+    margin: 0;
+    min-height: 36px;
+    padding: 0 28px 0 14px;
+    border: 0;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 600;
+    background-color: #fff;
+    box-shadow: 0 2px 8px #173b3922;
+  }
+  .mapaside .chips > #map-stay-control {
+    flex-basis: auto;
+    flex-shrink: 0;
+    margin: 0;
+  }
+  .mapaside .chips > #map-stay-control .btn {
+    min-height: 36px;
+    border-radius: 30px;
+    border-color: transparent;
+    font-size: 13px;
+    padding: 6px 14px;
+    box-shadow: 0 2px 8px #173b3922;
+  }
+  .mapaside > #map-card,
+  .mapaside > .map-sheet {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    margin: 0 -10px;
+  }
+  .map-sheet {
+    display: flex;
+    flex-direction: column;
+    background: var(--paper);
+    border-radius: 20px 20px 0 0;
+    box-shadow: 0 -6px 24px #173b3926;
+    max-height: calc(100dvh - var(--topbar-h) - var(--tabbar-h) - 120px);
+    overflow: hidden;
+  }
+  .mapaside.has-card .map-sheet {
+    display: none;
+  }
+  .sheet-handle {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    align-items: center;
+    gap: 2px 10px;
+    width: 100%;
+    border: 0;
+    background: transparent;
+    padding: 6px 18px 12px;
+    color: var(--ink);
+    text-align: left;
+  }
+  .sheet-handle .modal-grab {
+    grid-column: 1 / span 2;
+    justify-self: center;
+    margin-bottom: 6px;
+  }
+  .sheet-count {
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .sheet-hint {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 13px;
+    font-weight: 650;
+    color: var(--teal);
+    background: var(--teal2);
+    border-radius: 18px;
+    padding: 6px 12px;
+  }
+  .map-sheet.open .sheet-hint > span::before {
+    content: 'Hide ';
+  }
+  .mapaside .maplist,
+  .mapaside .maplist.visible,
+  .mapaside .maplist.visible:has(~ *) {
+    display: none;
+    position: static;
+    inset: auto;
+    border: 0;
+    border-top: 1px solid var(--line);
+    border-radius: 0;
+    background: transparent;
+    backdrop-filter: none;
+    padding: 4px 16px 12px;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    min-height: 0;
+    flex: 1;
+  }
+  .map-sheet.open .maplist {
+    display: block;
+  }
+  .maplistitem {
+    min-height: 60px;
+  }
+  .maplistitem img {
+    width: 56px;
+    height: 56px;
+    border-radius: 10px;
+  }
+  .maplistitem h4 {
+    font-size: 14px;
+  }
+  .maplistitem p {
+    font-size: 12px;
+  }
+  /* Docked preview card replaces the floating popup on phones. */
+  .map-card:not([hidden]) {
+    display: block;
+    position: relative;
+    margin: 0 0 10px !important;
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 8px 30px #173b393d;
+    padding: 12px;
+    max-height: 52dvh;
+    overflow-y: auto;
+  }
+  .map-card .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 2;
+    width: 34px;
+    height: 34px;
+    background: #fffffff0;
+    border-color: transparent;
+    box-shadow: 0 2px 8px #0003;
+  }
+  .map-card .map-popup {
+    width: auto;
+    display: grid;
+    grid-template-columns: 96px minmax(0, 1fr);
+    column-gap: 12px;
+    align-items: start;
+  }
+  .map-card .map-popup > img,
+  .map-card .map-popup > :first-child {
+    width: 96px;
+    height: 96px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin: 0;
+  }
+  .map-card .map-popup-body {
+    min-width: 0;
+    padding-right: 40px;
+  }
+  .map-card .map-popup h3 {
+    margin: 2px 0 3px;
+    font-size: 17px;
+    line-height: 1.25;
+  }
+  .map-card .map-popup p {
+    margin: 0 0 6px;
+    font-size: 13px;
+    color: var(--muted);
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+  .map-card .map-popup .actions {
+    grid-column: 1 / span 2;
+    margin-top: 12px;
+    flex-wrap: nowrap;
+    gap: 8px;
+  }
+  .map-card .map-popup .actions .btn {
+    min-height: 46px;
+    font-size: 14px;
+  }
+  .map-card .map-popup .actions .btn:first-child {
+    flex: 1;
+  }
+  .map-card .map-popup .actions .iconbtn {
+    width: 46px;
+    height: 46px;
+    flex-shrink: 0;
+  }
+  .map-card .map-popup .actions .btn.light {
+    width: 46px;
+    flex-shrink: 0;
+  }
+  /* Map controls: a compact icon column on the right, under the search. */
+  .map-top {
+    top: 114px;
+    left: auto;
+    right: 10px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 8px;
+  }
+  .map-top .actions {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .map-top .btn {
+    width: 44px;
+    height: 44px;
+    min-height: 44px;
+    padding: 0;
+    border-radius: 12px;
+    box-shadow: 0 3px 12px #173b3929;
+  }
+  .map-top .btn .icon {
+    width: 20px;
+    height: 20px;
+  }
+  .map-top .btn.on {
+    color: var(--teal);
+    background: var(--teal2);
+  }
+  .map-top .lbl,
+  .map-bottom {
+    display: none;
+  }
+  .mapcanvas .leaflet-bottom {
+    bottom: 64px;
+  }
+  .mapcanvas .leaflet-control-attribution {
+    font-size: 9px;
+  }
+  .map-pin {
+    height: 32px;
+    min-width: 32px;
+    line-height: 28px;
+  }
+  .map-pin.city {
+    width: 16px;
+    height: 16px;
+    min-width: 16px;
+  }
+
+  /* ---------- City page ---------- */
+  .backline {
+    padding: 10px 0;
+    gap: 8px;
+  }
+  .backline > a {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 14px;
+    font-weight: 650;
+    min-height: 44px;
+    white-space: nowrap;
+  }
+  .backline .lbl-long {
+    display: none;
+  }
+  .backline .lbl-short {
+    display: inline;
+  }
+  .backline .actions {
+    flex-wrap: nowrap;
+    gap: 6px;
+  }
+  .backline .actions .btn {
+    min-height: 40px;
+    padding: 6px 12px;
+    font-size: 12px;
+    white-space: nowrap;
+  }
+  .cityhero {
+    height: 360px;
+    border-radius: 18px;
+  }
+  .cityhero .hero-credit {
+    top: 10px;
+    bottom: auto;
+    right: 10px;
+    max-width: 60%;
+    opacity: 0.85;
+  }
+  .cityherotext h1 {
+    font-size: 40px;
+  }
+  .cityphotos-head {
+    flex-wrap: wrap;
+    gap: 2px 10px;
+  }
+  .destination-evidence {
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+  /* Section tabs stay pinned under the top bar while scrolling (Tripadvisor). */
+  .citytabs {
+    position: sticky;
+    top: var(--topbar-h);
+    z-index: 50;
+    background: var(--paper);
+    margin: 18px -18px 20px;
+    padding: 0 18px;
+    scrollbar-width: none;
+    scroll-padding-inline: 18px;
+  }
+  .citytabs::-webkit-scrollbar {
+    display: none;
+  }
+  .citytabs button {
+    font-size: 13px;
+    padding: 14px 12px;
+    min-height: 48px;
+  }
+  .placeimage {
+    height: 200px;
+  }
+  .placeimage .iconbtn,
+  .iconbtn {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  .chips {
+    scrollbar-width: none;
+  }
+
+  /* ---------- Sheets (place details, stay, ranking guide) ---------- */
+  .modal-backdrop {
+    align-items: flex-end;
+    padding: 0;
+    padding-top: env(safe-area-inset-top);
+  }
+  .modal {
+    width: 100%;
+    max-height: calc(100dvh - 24px - env(safe-area-inset-top));
+    border-radius: 20px 20px 0 0;
+    overscroll-behavior: contain;
+    padding-bottom: env(safe-area-inset-bottom);
+    transition: transform 0.25s ease;
+    animation: sheet-up 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  @keyframes sheet-up {
+    from {
+      transform: translateY(40%);
+      opacity: 0.4;
+    }
+  }
+  .modal-bar {
+    height: 56px;
+    margin-bottom: -56px;
+    padding: 0 10px 0 18px;
+  }
+  .modal-grab {
+    display: block;
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    width: 38px;
+    height: 5px;
+    margin-left: -19px;
+    border-radius: 3px;
+    background: #ffffffd0;
+    box-shadow: 0 0 4px #0004;
+  }
+  .modal.scrolled .modal-grab {
+    background: #c9ccc2;
+    box-shadow: none;
+  }
+  .sheet-handle .modal-grab {
+    position: static;
+    margin-left: 0;
+    background: #c9ccc2;
+    box-shadow: none;
+  }
+  .modal-bar + .modalcontent {
+    padding-top: 60px;
+  }
+  /* Gallery counter sits left, Close right: keep them clear of each other. */
+  .modalphoto .gcount {
+    top: 14px;
+    left: 14px;
+  }
+  .modalphoto.gallery,
+  .modalphoto {
+    height: 260px;
+  }
+  .modalcontent {
+    padding: 20px 18px 0;
+  }
+  .modalcontent h2 {
+    font-size: 30px;
+    line-height: 1.1;
+  }
+  .modalstats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .modalstats > div {
+    min-width: 0;
+  }
+  /* Primary actions stay docked at the bottom of the sheet. */
+  .modal-main-actions {
+    position: sticky;
+    bottom: 0;
+    z-index: 10;
+    margin: 18px -18px 0;
+    padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
+    background: #f6f5f0f7;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-top: 1px solid var(--line);
+    display: grid;
+    grid-template-columns: 46px minmax(0, 1fr) 46px auto;
+    gap: 8px;
+  }
+  .modal-main-actions .coord-pin {
+    padding: 0;
+  }
+  .modal-main-actions .coord-pin .lbl {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+  .modal-main-actions > .iconbtn {
+    width: 46px;
+    height: 46px;
+  }
+  .modal-main-actions .btn {
+    min-height: 46px;
+    padding: 8px 10px;
+    font-size: 13px;
+    white-space: nowrap;
+  }
+  .modal .source-links {
+    padding-bottom: 24px;
+  }
+  .stay-modal .actions .btn {
+    flex: 1;
+    min-height: 46px;
+  }
+
+  /* ---------- Shared touch targets ---------- */
+  .btn.small {
+    min-height: 40px;
+  }
+  .chip {
+    min-height: 38px;
+  }
+  .wrap > footer,
+  footer {
+    padding-bottom: 20px;
+  }
+  .stepper button,
+  .reorder button {
+    min-width: 40px;
+    min-height: 40px;
+  }
+  /* Trip: your cities first, the summary and budget panels after them. */
+  .trip-layout > aside {
+    grid-row: 2;
+  }
+  /* Keep snackbars clear of the map's bottom sheet. */
+  body:has(.map-layout) .toast {
+    bottom: calc(var(--tabbar-h) + 84px);
+  }
+  .searchrow .explore-map {
+    width: 51px;
+    height: 51px;
+    padding: 0;
+    flex-shrink: 0;
+  }
+  .searchrow .explore-map .lbl {
+    display: none;
+  }
+  #region-chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-left: -18px;
+    margin-right: -18px;
+    padding: 0 18px 4px;
+  }
+  #region-chips .chip {
+    flex-shrink: 0;
+  }
+}
+@media (max-width: 380px) {
+  .modal-main-actions .lbl-long {
+    display: none;
+  }
+}
