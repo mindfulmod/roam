@@ -16,6 +16,7 @@ no framework and no backend. Your saved places and trips stay in the browser (`l
 | `data/cities/<id>.json` | One file per city, including its places (`items`) |
 | `data/meta.json` | Data version, retrieval date and city order |
 | `data/photos.json`, `data/art.json` | Image metadata and credits; `data` points to a file in `images/` |
+| `data/gallery.json` | Extra Wikimedia Commons photos per city/place (hotlinked thumbnails, author and licence); rebuilt by `node scripts/refresh-gallery.mjs` |
 | `data/popularity.json` | Sources behind the popularity ranking |
 | `data/world.geojson` | Country outlines (Natural Earth 1:110m) |
 | `images/` | Photos (Pexels) and illustrations, as WebP |
