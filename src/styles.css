@@ -10,6 +10,8 @@
   --gold: #e8b96b;
   --shadow: 0 16px 45px #173b3912;
   --radius: 20px;
+  /* Photos are punched up a little so destinations look as vivid as they feel in person. */
+  --photo-filter: saturate(1.3) contrast(1.06) brightness(1.03);
 }
 * {
   box-sizing: border-box;
@@ -64,6 +66,9 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+img.photo {
+  filter: var(--photo-filter);
 }
 h1,
 h2,
@@ -350,7 +355,7 @@ small {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(0deg, #0b2728b8, transparent 65%);
+  background: linear-gradient(0deg, #000a, transparent 55%);
 }
 .hero-caption {
   position: absolute;
@@ -495,8 +500,8 @@ small {
 .cityimage:after {
   content: '';
   position: absolute;
-  inset: 40% 0 0;
-  background: linear-gradient(transparent, #0b2329a6);
+  inset: 45% 0 0;
+  background: linear-gradient(transparent, #0009);
 }
 .cityimage .pill {
   position: absolute;
@@ -637,8 +642,7 @@ small {
   position: absolute;
   inset: 0;
   background:
-    linear-gradient(90deg, #082c2cbb, transparent),
-    linear-gradient(0deg, #082c2c88, transparent 60%);
+    linear-gradient(90deg, #0008, transparent 60%), linear-gradient(0deg, #0009, transparent 55%);
 }
 .cityherotext {
   position: absolute;
@@ -3723,4 +3727,188 @@ small.rankwhy {
 }
 .alsobody .inline-link {
   text-align: left;
+}
+
+/* Photo galleries */
+.modalphoto.gallery {
+  overflow: hidden;
+  border-radius: 22px 22px 0 0;
+}
+.modalphoto.gallery.tall {
+  height: min(62vh, 520px);
+}
+.gtrack {
+  display: flex;
+  height: 100%;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+.gtrack::-webkit-scrollbar {
+  display: none;
+}
+.gtrack:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: -3px;
+}
+.gslide {
+  position: relative;
+  flex: 0 0 100%;
+  height: 100%;
+  margin: 0;
+  scroll-snap-align: start;
+  background: #1a1f1e;
+}
+.modalphoto .gslide img {
+  height: 100%;
+  border-radius: 0;
+}
+.gnav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 2;
+  width: 38px;
+  height: 38px;
+  border: 0;
+  border-radius: 50%;
+  background: #fffffff0;
+  color: var(--ink);
+  display: grid;
+  place-items: center;
+  box-shadow: 0 4px 14px #0003;
+  opacity: 0.92;
+}
+.gnav:hover {
+  opacity: 1;
+}
+.gnav.prev {
+  left: 12px;
+}
+.gnav.next {
+  right: 12px;
+}
+.gnav .icon {
+  width: 18px;
+  height: 18px;
+}
+.gcount {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 2;
+  background: #000a;
+  color: white;
+  font-size: 11px;
+  font-weight: 650;
+  padding: 3px 9px;
+  border-radius: 20px;
+}
+.gthumbs {
+  display: flex;
+  gap: 6px;
+  padding: 8px 10px 0;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+.gthumb {
+  flex: 0 0 74px;
+  height: 52px;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 9px;
+  overflow: hidden;
+  background: var(--teal2);
+  opacity: 0.7;
+}
+.gthumb.active,
+.gthumb:hover {
+  border-color: var(--orange);
+  opacity: 1;
+}
+.gthumb img {
+  height: 100%;
+}
+.photo-count {
+  position: absolute;
+  right: 8px;
+  bottom: 8px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  background: #000a;
+  color: white;
+  font-size: 10px;
+  font-weight: 650;
+  padding: 3px 8px;
+  border-radius: 20px;
+}
+.photo-count .icon {
+  width: 12px;
+  height: 12px;
+}
+.cityphotos {
+  margin: 18px 0 6px;
+}
+.cityphotos-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 10px;
+}
+.cityphotos-head h3 {
+  margin: 0;
+  font-size: 17px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+.cityphotos-head small {
+  color: var(--muted);
+  font-size: 11px;
+}
+.cityphotos-row {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(220px, 1fr);
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding-bottom: 6px;
+}
+.cityphoto {
+  height: 160px;
+  padding: 0;
+  border: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  scroll-snap-align: start;
+  background: var(--teal2);
+}
+.cityphoto img {
+  height: 100%;
+  transition: transform 0.3s;
+}
+.cityphoto:hover img {
+  transform: scale(1.04);
+}
+@media (max-width: 700px) {
+  .modalphoto.gallery {
+    border-radius: 20px 20px 0 0;
+  }
+  .modalphoto.gallery.tall {
+    height: 46vh;
+  }
+  .gnav {
+    width: 32px;
+    height: 32px;
+  }
+  .cityphotos-row {
+    grid-auto-columns: 70%;
+  }
+  .cityphoto {
+    height: 140px;
+  }
 }

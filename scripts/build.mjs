@@ -14,6 +14,8 @@ const meta = await readJson('data/meta.json');
 const cities = await Promise.all(meta.cityOrder.map((id) => readJson(`data/cities/${id}.json`)));
 const photos = await readJson('data/photos.json');
 const art = await readJson('data/art.json');
+// Extra Wikimedia Commons photos per place; hotlinked, so never inlined (see scripts/gallery/).
+const gallery = await readJson('data/gallery.json');
 
 const mime = {
   webp: 'image/webp',
@@ -35,6 +37,7 @@ const parts = {
   cities,
   photos,
   art,
+  gallery,
   popularity: await readJson('data/popularity.json'),
   world: await readJson('data/world.geojson'),
   retrieved: meta.retrieved,

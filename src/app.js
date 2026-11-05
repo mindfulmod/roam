@@ -24,6 +24,8 @@ const esc = (s) =>
 const paths = {
   search: 'm21 21-4.5-4.5M10.5 18a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15',
   arrow: 'M5 12h14m-5-5 5 5-5 5',
+  camera:
+    'M3 8a2 2 0 0 1 2-2h2.5l1.5-2h6l1.5 2H19a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2ZM15.5 13a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0',
   left: 'M19 12H5m5-5-5 5 5 5',
   pin: 'M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0ZM15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0',
   map: 'm3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2Zm6-2v16m6-14v16',
@@ -164,8 +166,122 @@ function imageFor(id) {
 function photoTag(id, cls = '', lazy = true) {
   const p = PHOTO[id];
   return p
-    ? `<img src="${p.data}" alt="${esc(p.alt || p.title)}" ${cls ? `class="${cls}"` : ''} ${lazy ? 'loading="lazy"' : ''} decoding="async">`
+    ? `<img src="${p.data}" alt="${esc(p.alt || p.title)}" class="photo${cls ? ' ' + cls : ''}" ${lazy ? 'loading="lazy"' : ''} decoding="async">`
     : '';
+}
+// Extra photos per place/city from Wikimedia Commons (hotlinked thumbnails, loaded on demand).
+// data/gallery.json stores each photo as [file, hash, width, height, author, licence].
+const GALLERY = Object.fromEntries(
+  Object.entries(DATA.gallery || {}).map(([id, list]) => [
+    id,
+    list.map(([f, hh, w, h, a, l]) => ({ f, hh, w, h, a, l })),
+  ]),
+);
+const commonsName = (f) =>
+  encodeURIComponent(f.replace(/ /g, '_')).replace(
+    /[!'()*]/g,
+    (ch) => '%' + ch.charCodeAt(0).toString(16).toUpperCase(),
+  );
+function licenceUrl(l) {
+  const m = l.match(/^CC (BY(?:-SA)?) ([0-9.]+)/i);
+  if (m) return `https://creativecommons.org/licenses/${m[1].toLowerCase()}/${m[2]}/`;
+  if (/^CC0/i.test(l)) return 'https://creativecommons.org/publicdomain/zero/1.0/';
+  return '';
+}
+function galleryFor(id) {
+  return GALLERY[id] || [];
+}
+function galleryUrl(g, w = 960) {
+  const n = commonsName(g.f);
+  return `https://upload.wikimedia.org/wikipedia/commons/thumb/${g.hh[0]}/${g.hh}/${n}/${w}px-${n}`;
+}
+function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
+  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide],.cityphoto')?.remove()">`;
+}
+function galleryCredit(g) {
+  const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f),
+    lu = licenceUrl(g.l);
+  return `<a href="${esc(page)}" target="_blank" rel="noopener noreferrer">Photo: ${esc(g.a)} / Wikimedia Commons</a> · <a href="${esc(lu || page)}" target="_blank" rel="noopener noreferrer">${esc(g.l)}</a>`;
+}
+function photoCount(id) {
+  const n = galleryFor(id).length;
+  return n
+    ? `<span class="photo-count" title="${n + 1} photos">${icon('camera')}${n + 1}</span>`
+    : '';
+}
+// Swipeable carousel: first slide is the existing main visual, then the Commons photos.
+function galleryCarousel(id, firstSlide, label) {
+  const gal = galleryFor(id);
+  const slides =
+    `<figure class="gslide" data-gslide id="place-visual-main">${firstSlide}</figure>` +
+    gal
+      .map(
+        (g) =>
+          `<figure class="gslide" data-gslide>${galleryImg(g)}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
+      )
+      .join('');
+  if (!gal.length) return `<div class="gtrack single">${slides}</div>`;
+  return `<div class="gtrack" tabindex="0" aria-label="${esc(label)}" data-gtrack>${slides}</div><button class="gnav prev" data-action="gal-step" data-dir="-1" aria-label="Previous photo">${icon('left')}</button><button class="gnav next" data-action="gal-step" data-dir="1" aria-label="Next photo">${icon('arrow')}</button><span class="gcount" aria-live="polite">1 / ${gal.length + 1}</span>`;
+}
+function galleryThumbs(id, mainThumb) {
+  const gal = galleryFor(id);
+  if (!gal.length) return '';
+  return `<div class="gthumbs" role="group" aria-label="Choose a photo"><button class="gthumb active" data-action="gal-go" data-i="0" aria-label="Photo 1">${mainThumb}</button>${gal.map((g, i) => `<button class="gthumb" data-action="gal-go" data-i="${i + 1}" aria-label="Photo ${i + 2}"><img class="photo" src="${esc(galleryUrl(g, 500))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentElement.remove()"></button>`).join('')}</div>`;
+}
+function galleryScope(el) {
+  return el.closest('[data-gscope]') || document;
+}
+function galleryGo(scope, i) {
+  const t = scope.querySelector('[data-gtrack]');
+  if (!t) return;
+  const slides = t.querySelectorAll('[data-gslide]');
+  i = Math.max(0, Math.min(slides.length - 1, i));
+  t.scrollTo({ left: slides[i].offsetLeft, behavior: 'smooth' });
+}
+function galleryIndex(t) {
+  return Math.round(t.scrollLeft / Math.max(1, t.clientWidth));
+}
+document.addEventListener(
+  'scroll',
+  (e) => {
+    const t = e.target;
+    if (!(t instanceof Element) || !t.matches('[data-gtrack]')) return;
+    const scope = galleryScope(t),
+      i = galleryIndex(t),
+      n = t.querySelectorAll('[data-gslide]').length;
+    const c = scope.querySelector('.gcount');
+    if (c) c.textContent = `${i + 1} / ${n}`;
+    scope
+      .querySelectorAll('.gthumb')
+      .forEach((b) => b.classList.toggle('active', +b.dataset.i === i));
+  },
+  true,
+);
+document.addEventListener('keydown', (e) => {
+  const t = e.target;
+  if (!(t instanceof Element) || !t.matches('[data-gtrack]')) return;
+  if (e.key === 'ArrowRight' || e.key === 'ArrowLeft') {
+    e.preventDefault();
+    galleryGo(galleryScope(t), galleryIndex(t) + (e.key === 'ArrowRight' ? 1 : -1));
+  }
+});
+function cityPhotos(c) {
+  const gal = galleryFor(c.id);
+  if (!gal.length) return '';
+  return `<section class="cityphotos" aria-label="Photos of ${esc(c.name)}"><div class="cityphotos-head"><h3>${icon('camera')} See what to expect</h3><small>${gal.length} more photos · Wikimedia Commons</small></div><div class="cityphotos-row">${gal.map((g, i) => `<button class="cityphoto" data-action="city-photos" data-id="${c.id}" data-i="${i + 1}" aria-label="Open photo ${i + 2} of ${esc(c.name)}">${galleryImg(g, true, '(max-width: 700px) 70vw, 320px')}</button>`).join('')}</div></section>`;
+}
+function openCityPhotos(id, i = 0) {
+  if (!validCity(id)) return;
+  const c = C[id];
+  showModal(
+    `<div data-gscope><div class="modalphoto gallery tall">${galleryCarousel(id, `${photoTag(id, '', false)}<figcaption class="photo-caption">${photoCredit(id)}</figcaption>`, 'Photos of ' + c.name)}</div>${galleryThumbs(id, photoTag(id))}</div><div class="modalcontent"><h2 id="modal-heading">${esc(c.name)}</h2><p class="lead">${esc(c.tagline)}</p><p class="filter-note">Extra photos come from the Wikipedia article about ${esc(c.name)} and are hosted by Wikimedia Commons under the licences shown on each photo. They need an internet connection.</p></div>`,
+    'Photos of ' + c.name,
+  );
+  requestAnimationFrame(() => {
+    const t = $('.modal [data-gtrack]');
+    const s = t?.querySelectorAll('[data-gslide]')[i];
+    if (s) t.scrollLeft = s.offsetLeft;
+  });
 }
 function photoCredit(id) {
   const p = PHOTO[id];
@@ -400,7 +516,19 @@ function cityTabLegacy(c, tab) {
         '',
       )}<section class="infocard wide"><h3>${icon('wallet')}Your daily planning allowance</h3><p>${range(c.dailyBudget, c.currency)} per person/day. ${esc(c.budgetNote || 'Planning estimate for food, local transport and ordinary sightseeing.')} Hotels, intercity transport, shopping and premium excursions are extra. Amounts are editorial planning ranges, not current quotes. Adjust accommodation and special-excursion allowances in your trip.</p></section></div>`;
   if (tab === 'sources')
-    return `<div class="reviewstrip">${icon('star')}<p>${esc(c.reviewSummary)}<br>${external(c.reviewSource, 'Open visitor evidence ↗')}</p></div><div class="source-list">${c.sources.map((s) => `<div class="source-row"><div>${external(s.url, esc(s.title) + ' ↗')}<br><small>${esc(new URL(s.url).hostname)}</small></div><span class="pill ${s.type === 'reviews' ? 'warm' : 'gray'}">${s.type}</span></div>`).join('')}</div><div class="info-note">Retrieved ${CHECKED}. “Retrieved” is the research access date; some indexed pages and review counts may have been crawled earlier. Recheck official hours, ticket types and current visitor reviews before committing.</div><h3 style="margin-top:30px">Photography</h3><div class="source-list">${[c.id, ...c.items.map((p) => p.id)].map((id) => `<div class="source-row"><div>${esc(id === c.id ? c.name : P[id].name)}<br><small>${photoCredit(id)}${PHOTO[id]?.context ? ' · representative image' : ''}</small></div></div>`).join('')}</div>`;
+    return `<div class="reviewstrip">${icon('star')}<p>${esc(c.reviewSummary)}<br>${external(c.reviewSource, 'Open visitor evidence ↗')}</p></div><div class="source-list">${c.sources.map((s) => `<div class="source-row"><div>${external(s.url, esc(s.title) + ' ↗')}<br><small>${esc(new URL(s.url).hostname)}</small></div><span class="pill ${s.type === 'reviews' ? 'warm' : 'gray'}">${s.type}</span></div>`).join('')}</div><div class="info-note">Retrieved ${CHECKED}. “Retrieved” is the research access date; some indexed pages and review counts may have been crawled earlier. Recheck official hours, ticket types and current visitor reviews before committing.</div><h3 style="margin-top:30px">Photography</h3><div class="source-list">${[
+      c.id,
+      ...c.items.map((p) => p.id),
+    ]
+      .map(
+        (id) =>
+          `<div class="source-row"><div>${esc(id === c.id ? c.name : P[id].name)}<br><small>${photoCredit(id)}${PHOTO[id]?.context ? ' · representative image' : ''}</small>${galleryFor(
+            id,
+          )
+            .map((g) => `<br><small>Gallery · ${galleryCredit(g)}</small>`)
+            .join('')}</div></div>`,
+      )
+      .join('')}</div>`;
   return `<div class="reviewstrip">${icon('star')}<p><strong>Why these places?</strong> ${esc(c.reviewSummary)} ${external(c.reviewSource, 'Visitor evidence ↗')}</p></div><div class="searchrow" style="justify-content:space-between;flex-wrap:wrap"><div class="chips" style="margin:0">${[
     ['all', 'All places'],
     ['see', 'See & do'],
@@ -966,7 +1094,7 @@ const CHECKLIST = [
 function renderGuide() {
   headerActive('guide');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="pagehead"><div><div class="eyebrow">A GUIDE YOU CAN UNDERSTAND AND CHECK</div><h1>A few things worth knowing.</h1><p>How this guide makes its choices, where the information comes from, and how to take your plan with you.</p></div></div><div class="methodology"><h2>Start here.</h2><ol><li><strong>Compare cities.</strong> Choose a published tourism ranking or your Japan-first priorities, then open a city.</li><li><strong>Understand the places.</strong> Use the popularity list, experience-type filters and “Why go?” pages to see the appeal and trade-offs. Switch to Food for named venues and halal/vegetarian filters.</li><li><strong>Add your stay.</strong> Search an address, paste coordinates or pin the map. Sort by distance and start local routes at your accommodation.</li><li><strong>Save the places that interest you.</strong> Your saved places become that city’s day-plan inputs. With no saved picks, the planner offers a shortlist.</li><li><strong>Add cities to your trip.</strong> Set the number of days and your pace. Put your arrival city first before suggesting an order.</li><li><strong>Use the map.</strong> Tap destination or place markers, filter by activity and open a pin in Google Maps.</li><li><strong>Keep a backup.</strong> Export your trip JSON, then import it in the app on another device. Browser storage is local to each browser/origin.</li></ol><h2>What “popular” means here.</h2><p>The ${CITIES.length} destinations combine your Japan-first priorities with Asia, Europe, Africa, Latin America and six U.S. park gateways. The city comparison offers the 2025 Euromonitor overall tourism index and a separate international-arrivals view. Their scope and definitions differ. <button class="inline-link" data-action="ranking-method">Read the ranking methods and source links ↗</button></p><p>Numeric ratings and review counts are shown only where a snapshot was retrieved. They are dated, platform-specific and may reflect an earlier crawl. Missing ratings remain missing. Most-reviewed order uses descending review counts; highest-rated order uses satisfaction ratings. Category ranks compare the places covered in this guide, not every venue in the city. Unknown counts stay unranked. The separate first-visit order is editorial. “Curated pick” does not imply a verified rating.</p><h2>What the route planner can tell you.</h2><p>The visit-order button uses geographic distance, keeps your first city fixed and makes a local improvement pass. It is useful for spotting backtracking. It does not solve for the cheapest airfare, shortest road journey, visas, train timetables or ferry availability. Where a researched connection is available, its mode and approximate service duration appear; otherwise the app explicitly asks you to check connections.</p><p>Daily plans use researched day groups where available and otherwise group nearby places under a time budget. Authored park days stay together to avoid repeat journeys; a visible note identifies any day above your selected pace. Shorten those days or save fewer stops to adapt them. Full-day and distant excursions get separate days. Each city-to-city move receives a one-day transfer placeholder; some long-haul or limited-frequency journeys need more. Closing days and timed reservations are not automatically scheduled. Map lines show the order of stops, not navigable roads or trails.</p><h2>Costs without false precision.</h2><p>Most prices are planning ranges in the destination’s currency. An official fee is labelled when it was specifically verified. Daily spending ranges cover food, local transport and ordinary sightseeing. Hotels, international and intercity travel, transfer days, shopping and major excursions require additional allowances. The cash suggestion sits within spending and is not added to the total.</p><p>Vehicle-based park fees, nonresident supplements and multi-day passes do not behave like ordinary per-person attraction tickets. Read each park card’s price note. Group totals in the planner apply to baseline daily budgets and your own entered per-person allowances, not automatically to park tickets.</p><h2>Google Maps and offline use.</h2><p>“Open in Google Maps” launches a place search; tap <strong>Save</strong> in Google Maps to add it to your own list. This app cannot write directly to your Google account. The CSV export contains names, cities, coordinates, notes and source links. Import it at ${external('https://www.google.com/mymaps', 'Google My Maps ↗')}, choosing Latitude and Longitude for locations and Name for labels. My Maps is separate from your personal saved-place lists.</p><p>The HTML file embeds the guide, photographs, map library and a world outline, so the core app can open without a connection. Street-map tiles, external booking/review pages and Google Maps need internet. Download local Google Maps areas separately when appropriate. Location access is optional and requested only when you press “Near me” or “Use my location”. Accommodation address searches are sent to Photon only when you press Find location; no search runs as you type. Search results require your confirmation. You can use map pins and coordinates instead. Accommodation, preferences and notes are stored locally and exported with your trip backup. Coordinates are approximate planning pins, not guaranteed entrances.</p><h2>Illustrations, photography & map credits.</h2><p>Trip starters and selected signature places have original AI illustrations. They are labelled and interpretive: a trip cover may combine locations and seasons, and a place illustration is not documentary evidence of its current layout. Where an illustration is used, the place page also offers a photographic view. Restaurant imagery never verifies the food’s ingredients or dietary suitability.</p><p>Every city and place has its own image asset. Photos include photographer, source and licence links. Sources include Pexels and Wikimedia Commons; each Commons photograph retains its stated licence, including share-alike terms on the adapted image where applicable. Images are resized, cropped and converted to WebP. Where an exact venue could not be verified, the image is marked as representative dish, craft or destination context. Historical photographs do not verify current vendors or conditions. The downloadable edition embeds every image; the hosted edition bundles the same images as local assets.</p><p>Interactive mapping uses bundled ${external('https://leafletjs.com/', 'Leaflet')} (BSD 2-Clause). Offline country outlines are ${external('https://www.naturalearthdata.com/about/terms-of-use/', 'Natural Earth public-domain data')}. Optional street tiles are © ${external('https://www.openstreetmap.org/copyright', 'OpenStreetMap contributors')}. Optional address lookup uses ${external('https://github.com/komoot/photon', 'Photon')} with OpenStreetMap data. It has no uptime guarantee; map pinning and coordinate entry remain available if it fails. No map API key or external script is needed.</p><h2>Before you go.</h2><div class="resourcebox">${CHECKLIST.map(([id, label]) => `<label class="checkrow"><input type="checkbox" data-checklist="${id}" ${S.checklist.includes(id) ? 'checked' : ''}><span>${label}</span></label>`).join('')}</div><div class="actions"><button class="btn" data-action="export">${icon('download')} Export your trip</button><button class="btn ghost" data-action="import">${icon('upload')} Import a backup</button></div><h2>The sourcebook.</h2><p>${sourceRecords().length} unique linked travel/review sources across the guide. Research retrieved ${CHECKED}. Photo-source pages are listed in each destination’s Sources tab. This static edition does not refresh itself automatically.</p><div class="sourcefilters"><select id="source-city" aria-label="Filter sourcebook by destination"><option value="">All destinations</option>${CITIES.map((c) => `<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select><select id="source-type" aria-label="Filter sourcebook by source type"><option value="">All source types</option><option value="official">Official</option><option value="reviews">Visitor reviews</option><option value="reference">Other reference</option></select></div><div id="source-results"></div></div>${footer()}</div>`;
+    `<div class="wrap"><div class="pagehead"><div><div class="eyebrow">A GUIDE YOU CAN UNDERSTAND AND CHECK</div><h1>A few things worth knowing.</h1><p>How this guide makes its choices, where the information comes from, and how to take your plan with you.</p></div></div><div class="methodology"><h2>Start here.</h2><ol><li><strong>Compare cities.</strong> Choose a published tourism ranking or your Japan-first priorities, then open a city.</li><li><strong>Understand the places.</strong> Use the popularity list, experience-type filters and “Why go?” pages to see the appeal and trade-offs. Switch to Food for named venues and halal/vegetarian filters.</li><li><strong>Add your stay.</strong> Search an address, paste coordinates or pin the map. Sort by distance and start local routes at your accommodation.</li><li><strong>Save the places that interest you.</strong> Your saved places become that city’s day-plan inputs. With no saved picks, the planner offers a shortlist.</li><li><strong>Add cities to your trip.</strong> Set the number of days and your pace. Put your arrival city first before suggesting an order.</li><li><strong>Use the map.</strong> Tap destination or place markers, filter by activity and open a pin in Google Maps.</li><li><strong>Keep a backup.</strong> Export your trip JSON, then import it in the app on another device. Browser storage is local to each browser/origin.</li></ol><h2>What “popular” means here.</h2><p>The ${CITIES.length} destinations combine your Japan-first priorities with Asia, Europe, Africa, Latin America and six U.S. park gateways. The city comparison offers the 2025 Euromonitor overall tourism index and a separate international-arrivals view. Their scope and definitions differ. <button class="inline-link" data-action="ranking-method">Read the ranking methods and source links ↗</button></p><p>Numeric ratings and review counts are shown only where a snapshot was retrieved. They are dated, platform-specific and may reflect an earlier crawl. Missing ratings remain missing. Most-reviewed order uses descending review counts; highest-rated order uses satisfaction ratings. Category ranks compare the places covered in this guide, not every venue in the city. Unknown counts stay unranked. The separate first-visit order is editorial. “Curated pick” does not imply a verified rating.</p><h2>What the route planner can tell you.</h2><p>The visit-order button uses geographic distance, keeps your first city fixed and makes a local improvement pass. It is useful for spotting backtracking. It does not solve for the cheapest airfare, shortest road journey, visas, train timetables or ferry availability. Where a researched connection is available, its mode and approximate service duration appear; otherwise the app explicitly asks you to check connections.</p><p>Daily plans use researched day groups where available and otherwise group nearby places under a time budget. Authored park days stay together to avoid repeat journeys; a visible note identifies any day above your selected pace. Shorten those days or save fewer stops to adapt them. Full-day and distant excursions get separate days. Each city-to-city move receives a one-day transfer placeholder; some long-haul or limited-frequency journeys need more. Closing days and timed reservations are not automatically scheduled. Map lines show the order of stops, not navigable roads or trails.</p><h2>Costs without false precision.</h2><p>Most prices are planning ranges in the destination’s currency. An official fee is labelled when it was specifically verified. Daily spending ranges cover food, local transport and ordinary sightseeing. Hotels, international and intercity travel, transfer days, shopping and major excursions require additional allowances. The cash suggestion sits within spending and is not added to the total.</p><p>Vehicle-based park fees, nonresident supplements and multi-day passes do not behave like ordinary per-person attraction tickets. Read each park card’s price note. Group totals in the planner apply to baseline daily budgets and your own entered per-person allowances, not automatically to park tickets.</p><h2>Google Maps and offline use.</h2><p>“Open in Google Maps” launches a place search; tap <strong>Save</strong> in Google Maps to add it to your own list. This app cannot write directly to your Google account. The CSV export contains names, cities, coordinates, notes and source links. Import it at ${external('https://www.google.com/mymaps', 'Google My Maps ↗')}, choosing Latitude and Longitude for locations and Name for labels. My Maps is separate from your personal saved-place lists.</p><p>The HTML file embeds the guide, photographs, map library and a world outline, so the core app can open without a connection. Street-map tiles, external booking/review pages and Google Maps need internet. Download local Google Maps areas separately when appropriate. Location access is optional and requested only when you press “Near me” or “Use my location”. Accommodation address searches are sent to Photon only when you press Find location; no search runs as you type. Search results require your confirmation. You can use map pins and coordinates instead. Accommodation, preferences and notes are stored locally and exported with your trip backup. Coordinates are approximate planning pins, not guaranteed entrances.</p><h2>Illustrations, photography & map credits.</h2><p>Trip starters and selected signature places have original AI illustrations. They are labelled and interpretive: a trip cover may combine locations and seasons, and a place illustration is not documentary evidence of its current layout. Where an illustration is used, the place page also offers a photographic view. Restaurant imagery never verifies the food’s ingredients or dietary suitability.</p><p>Every city and place has its own image asset. Photos include photographer, source and licence links. Sources include Pexels and Wikimedia Commons; each Commons photograph retains its stated licence, including share-alike terms on the adapted image where applicable. Images are resized, cropped and converted to WebP. Where an exact venue could not be verified, the image is marked as representative dish, craft or destination context. Historical photographs do not verify current vendors or conditions. The downloadable edition embeds every image; the hosted edition bundles the same images as local assets. Many cities and places also have a swipeable gallery of up to five extra photos taken from the photos used in their Wikipedia article and hosted by Wikimedia Commons. Each one is credited with its author and licence, and only freely licensed photographs are used. Gallery photos load from Commons when you open a place, so they need a connection. Photos are displayed with a small colour and contrast boost; the source files are unchanged.</p><p>Interactive mapping uses bundled ${external('https://leafletjs.com/', 'Leaflet')} (BSD 2-Clause). Offline country outlines are ${external('https://www.naturalearthdata.com/about/terms-of-use/', 'Natural Earth public-domain data')}. Optional street tiles are © ${external('https://www.openstreetmap.org/copyright', 'OpenStreetMap contributors')}. Optional address lookup uses ${external('https://github.com/komoot/photon', 'Photon')} with OpenStreetMap data. It has no uptime guarantee; map pinning and coordinate entry remain available if it fails. No map API key or external script is needed.</p><h2>Before you go.</h2><div class="resourcebox">${CHECKLIST.map(([id, label]) => `<label class="checkrow"><input type="checkbox" data-checklist="${id}" ${S.checklist.includes(id) ? 'checked' : ''}><span>${label}</span></label>`).join('')}</div><div class="actions"><button class="btn" data-action="export">${icon('download')} Export your trip</button><button class="btn ghost" data-action="import">${icon('upload')} Import a backup</button></div><h2>The sourcebook.</h2><p>${sourceRecords().length} unique linked travel/review sources across the guide. Research retrieved ${CHECKED}. Photo-source pages are listed in each destination’s Sources tab. This static edition does not refresh itself automatically.</p><div class="sourcefilters"><select id="source-city" aria-label="Filter sourcebook by destination"><option value="">All destinations</option>${CITIES.map((c) => `<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select><select id="source-type" aria-label="Filter sourcebook by source type"><option value="">All source types</option><option value="official">Official</option><option value="reviews">Visitor reviews</option><option value="reference">Other reference</option></select></div><div id="source-results"></div></div>${footer()}</div>`;
   renderSources();
 }
 function renderSources() {
@@ -1733,7 +1861,7 @@ function cityCard(c) {
 }
 function placeCard(p) {
   const d = fromStay(p);
-  return `<article class="placecard"><div class="placeimage" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}">${visualTag(p.id)}<span class="pill">${icon(p.kind === 'eat' ? 'food' : p.kind === 'shop' ? 'bag' : 'pin')}${p.venueType === 'restaurant' ? 'Restaurant' : p.kind === 'see' ? 'See & do' : p.kind === 'eat' ? 'Food experience' : 'Shopping'}</span>${saveButton(p.id)}${visualBadge(p.id)}</div><div class="placebody">${rankBadge(p)}<div class="typechips">${typeChips(p)}</div><h3 data-action="place" data-id="${p.id}" tabindex="0" role="button">${esc(p.name)}</h3><p class="rankwhy">${esc(rankReason(p))}</p><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="area">${esc(p.area)} · ${p.duration} h${d !== null ? `<br><span class="near-label">${distanceText(d)} from your stay · straight line</span>` : ''}</div><div class="placemeta"><span>${priceLabel(p)}</span>${rating(p)}</div><div class="placeactions"><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${external(mapsPin(p), icon('pin') + ' Maps', 'btn ghost small')}</div></div></article>`;
+  return `<article class="placecard"><div class="placeimage" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}">${visualTag(p.id)}<span class="pill">${icon(p.kind === 'eat' ? 'food' : p.kind === 'shop' ? 'bag' : 'pin')}${p.venueType === 'restaurant' ? 'Restaurant' : p.kind === 'see' ? 'See & do' : p.kind === 'eat' ? 'Food experience' : 'Shopping'}</span>${saveButton(p.id)}${visualBadge(p.id)}${photoCount(p.id)}</div><div class="placebody">${rankBadge(p)}<div class="typechips">${typeChips(p)}</div><h3 data-action="place" data-id="${p.id}" tabindex="0" role="button">${esc(p.name)}</h3><p class="rankwhy">${esc(rankReason(p))}</p><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="area">${esc(p.area)} · ${p.duration} h${d !== null ? `<br><span class="near-label">${distanceText(d)} from your stay · straight line</span>` : ''}</div><div class="placemeta"><span>${priceLabel(p)}</span>${rating(p)}</div><div class="placeactions"><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${external(mapsPin(p), icon('pin') + ' Maps', 'btn ghost small')}</div></div></article>`;
 }
 function rankingRows(items) {
   return `<div class="ranking-list">${items.map((p) => `<article class="ranking-row"><div class="ranking-number">${popularityRank(p) ? '#' + popularityRank(p) : '—'}</div><button class="ranking-thumb" data-action="place" data-id="${p.id}" aria-label="View ${esc(p.name)}">${visualTag(p.id)}</button><div class="ranking-main"><button class="inline-link" data-action="place" data-id="${p.id}">${esc(p.name)}</button><div class="typechips">${typeChips(p)}</div><small class="rankwhy">${esc(rankReason(p))}</small><small>${esc(rankCategory(p))} · ${esc(p.area)}${fromStay(p) !== null ? ' · ' + distanceText(fromStay(p)) + ' from stay' : ''}</small></div><div class="ranking-stat"><strong>${reviewCount(p) !== null ? num(reviewCount(p)) : '—'}</strong><small>${reviewCount(p) !== null ? 'reviews' : 'no count verified'}</small>${rating(p)}</div><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${saveButton(p.id)}</article>`).join('')}</div>`;
@@ -1809,7 +1937,7 @@ function renderCity(id, tab = 'places') {
   const r = cityRanking(c, 'tourism'),
     a = cityRanking(c, 'arrivals');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="backline"><a href="#/">${icon('left')} Compare destinations</a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section><div class="destination-evidence">${r ? external(r.source, `<b>#${r.rank}</b> global tourism index · 2025`) : '<span>Special-interest destination · no published index rank</span>'}${a ? external(a.source, `<b>#${a.rank}</b> international arrivals · ${esc(a.value)}`) : ''}<button class="inline-link" data-action="ranking-method">Understand the numbers ↗</button></div><div class="citysummary"><div class="summarycell"><label>Make time for</label><strong>${c.days} days</strong><small>City time, before transfers</small></div><div class="summarycell"><label>Daily spending estimate</label><strong>${range(c.dailyBudget, c.currency)}</strong><small>Per person · hotels & major excursions extra</small></div><div class="summarycell"><label>Cash on hand</label><strong>${range(c.cashPerDay, c.currency)}</strong><small>Per day · part of spending</small></div><div class="summarycell"><label>Good months to consider</label><strong>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</strong><small>Typical seasons</small></div></div>${stayPanel(c)}<div class="citytabs">${[
+    `<div class="wrap"><div class="backline"><a href="#/">${icon('left')} Compare destinations</a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}<div class="destination-evidence">${r ? external(r.source, `<b>#${r.rank}</b> global tourism index · 2025`) : '<span>Special-interest destination · no published index rank</span>'}${a ? external(a.source, `<b>#${a.rank}</b> international arrivals · ${esc(a.value)}`) : ''}<button class="inline-link" data-action="ranking-method">Understand the numbers ↗</button></div><div class="citysummary"><div class="summarycell"><label>Make time for</label><strong>${c.days} days</strong><small>City time, before transfers</small></div><div class="summarycell"><label>Daily spending estimate</label><strong>${range(c.dailyBudget, c.currency)}</strong><small>Per person · hotels & major excursions extra</small></div><div class="summarycell"><label>Cash on hand</label><strong>${range(c.cashPerDay, c.currency)}</strong><small>Per day · part of spending</small></div><div class="summarycell"><label>Good months to consider</label><strong>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</strong><small>Typical seasons</small></div></div>${stayPanel(c)}<div class="citytabs">${[
       ['places', 'Places & rankings'],
       ['food', 'Eat & dietary options'],
       ['arrival', 'When you land'],
@@ -1832,7 +1960,7 @@ function openPlace(id) {
     stay = S.stays[c.id];
   const bullets = (x) => (Array.isArray(x) ? x : x ? [x] : []);
   showModal(
-    `<div class="modalphoto" id="place-visual">${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div></div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><section class="rank-reason"><h3>${icon('star')} Why it ranks here</h3>${rankBreakdown(p)}${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section><div class="quick-facts"><span>${icon('clock')} ${p.duration} hours</span><span>${icon('wallet')} ${priceLabel(p)}</span><span>${icon('sun')} ${esc(p.bestTime)}</span></div><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
+    `<div data-gscope><div class="modalphoto gallery" id="place-visual">${galleryCarousel(id, `${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div>`, 'Photos of ' + p.name)}</div>${galleryThumbs(id, visualTag(id))}</div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><section class="rank-reason"><h3>${icon('star')} Why it ranks here</h3>${rankBreakdown(p)}${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section><div class="quick-facts"><span>${icon('clock')} ${p.duration} hours</span><span>${icon('wallet')} ${priceLabel(p)}</span><span>${icon('sun')} ${esc(p.bestTime)}</span></div><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
       p.whyVisit || p.expect,
     )
       .map((x) => `<li>${esc(x)}</li>`)
@@ -2224,8 +2352,9 @@ function changeCityFilter(id) {
   }
 }
 function switchPlaceVisual(id, useArt) {
-  if (!validPlace(id) || !$('#place-visual')) return;
-  $('#place-visual').innerHTML =
+  if (!validPlace(id) || !$('#place-visual-main')) return;
+  galleryGo(galleryScope($('#place-visual-main')), 0);
+  $('#place-visual-main').innerHTML =
     `${useArt ? artTag(id, '', false) : photoTag(id, '', false)}<div class="photo-caption">${useArt ? artCaption(id) : photoCredit(id) + (PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : '')}</div>`;
   $$('.visual-toggle button').forEach((x) =>
     x.classList.toggle('active', x.dataset.action === (useArt ? 'place-art' : 'place-photo')),
@@ -2299,6 +2428,12 @@ document.addEventListener('click', (e) => {
     $('.citytabs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
   } else if (a === 'place-art') switchPlaceVisual(id, true);
   else if (a === 'place-photo') switchPlaceVisual(id, false);
+  else if (a === 'gal-step') {
+    const scope = galleryScope(b),
+      t = scope.querySelector('[data-gtrack]');
+    if (t) galleryGo(scope, galleryIndex(t) + Number(b.dataset.dir));
+  } else if (a === 'gal-go') galleryGo(galleryScope(b), Number(b.dataset.i));
+  else if (a === 'city-photos') openCityPhotos(id, Number(b.dataset.i) || 0);
 });
 document.addEventListener('input', (e) => {
   if (e.target.id === 'place-search') {
