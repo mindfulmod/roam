@@ -42,6 +42,22 @@ Every push to `main` builds the hosted version and publishes it to GitHub Pages
 (`.github/workflows/pages.yml`). One-time setup: in the repo's **Settings → Pages**, set **Source** to
 **GitHub Actions**. The site is then at `https://mindfulmod.github.io/roam/`.
 
+## Popularity rankings
+
+A place's rank is computed in `src/app.js` (see `SIGNALS` and `poolStats`). Each source becomes a
+percentile among the same kind of place in the same city, and the rank is the weighted average of
+those percentiles. Cards show the one-line reason, and the place popup shows each source with its number,
+position and link.
+
+| Source | Where it lives | How it is refreshed |
+| --- | --- | --- |
+| Tripadvisor reviews | `review` on each place | By hand (snapshot from 2026-11-04) |
+| Wikipedia readers, last 12 months | `signals.wikipedia` | `node scripts/refresh-signals.mjs` |
+| Google Maps reviews | `signals.google` | Same script, when `GOOGLE_MAPS_API_KEY` is set |
+
+`.github/workflows/refresh-signals.yml` runs the script every Monday, commits any changes to `main` and
+redeploys. To include Google, add a `GOOGLE_MAPS_API_KEY` repository secret (Places API (New) enabled).
+
 ## Origin
 
 This was first built as a single HTML file in ChatGPT. The original file was split into this
