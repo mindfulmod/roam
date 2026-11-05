@@ -3631,3 +3631,96 @@ small.rankwhy {
   color: var(--muted);
   font-size: 0.78rem;
 }
+
+/* Inspiration: browse by vibe */
+.vibegrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 16px 0 48px;
+}
+.vibecard,
+.alsocard {
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+.vibeimage {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  padding: 0;
+  border: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+.vibeimage img,
+.alsoimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.vibebody,
+.alsobody {
+  padding: 12px 14px 14px;
+}
+.vibebody h3 {
+  margin: 8px 0 4px;
+  font-size: 1.05rem;
+}
+.vibebody h3 .inline-link {
+  font: inherit;
+  text-align: left;
+}
+
+/* Inspiration: since you're heading there */
+.alsofrom {
+  margin: 40px 0;
+}
+.alsoh {
+  margin: 20px 0 10px;
+  font-size: 1rem;
+}
+.alsotrips,
+.alsogrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 12px;
+}
+.alsotrip {
+  display: grid;
+  gap: 4px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.alsotrip small {
+  color: var(--teal);
+}
+.alsoimage {
+  display: block;
+  aspect-ratio: 16 / 9;
+  overflow: hidden;
+}
+.alsobody h3 {
+  margin: 6px 0 4px;
+}
+.alsobody p {
+  margin: 0 0 8px;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.alsobody ul {
+  margin: 0;
+  padding-left: 18px;
+  font-size: 0.9rem;
+}
+.alsobody .inline-link {
+  text-align: left;
+}
