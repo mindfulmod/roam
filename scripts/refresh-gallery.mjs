@@ -13,9 +13,10 @@
 //
 // The article must be about the place: it is resolved through redirects,
 // disambiguation pages are dropped, and when the article has coordinates they
-// must lie within MAX_KM of the place (MAX_CITY_KM for cities). Food items are
-// skipped when their main photo is "representative" or their article is shared
-// with other items, because that article is about a dish, not the venue.
+// must lie within MAX_KM of the place (MAX_CITY_KM for cities). Food and
+// shopping items need an article with coordinates, and food items are skipped
+// when their main photo is "representative" or their article is shared with
+// other items, because that article is about a dish or craft, not the venue.
 //
 // Images are not downloaded: the app hotlinks Commons thumbnails (500px and
 // 960px) and loads them only when someone opens a place, so the repo and the
@@ -42,7 +43,7 @@ const PEOPLE =
   /\b(President|King|Queen|Emperor|Prince|Princess|Obama|Bourdain|Minister|visit(s|ed)? by|meets|with his|with her)\b/i;
 const ARCHIVE = /\(PV\d+|Musée Guimet|museum collection/i;
 // Big parks and natural features have article coordinates far from any single viewpoint.
-const BIG = /National Park|Falls|Canyon|Valley/i;
+const BIG = /National Park|Conservation Area|Falls|Canyon|Valley/i;
 const OK_LICENCE = /^(CC BY|CC0|Public domain|PD|Attribution)/i;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -98,6 +99,9 @@ async function resolve(title) {
 async function photosFor(item, maxKm, mainFile) {
   const page = await resolve(item.wiki);
   if (!page) return [];
+  // Food and shopping titles are often a dish or craft; only trust them when the
+  // article has coordinates near the venue.
+  if (!page.coords && (item.kind === 'eat' || item.kind === 'shop')) return [];
   if (page.coords && km(item, page.coords) > maxKm) return [];
   const list = await getJson(
     'https://en.wikipedia.org/api/rest_v1/page/media-list/' +

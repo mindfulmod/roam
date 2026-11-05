@@ -196,7 +196,7 @@ function galleryUrl(g, w = 960) {
   return `https://upload.wikimedia.org/wikipedia/commons/thumb/${g.hh[0]}/${g.hh}/${n}/${w}px-${n}`;
 }
 function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
-  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide]')?.remove()">`;
+  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide],.cityphoto')?.remove()">`;
 }
 function galleryCredit(g) {
   const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f),
