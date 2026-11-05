@@ -36,8 +36,15 @@ function km(a, b) {
     Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLon / 2) ** 2;
   return 2 * R * Math.asin(Math.sqrt(h));
 }
-async function getJson(url, init = {}, tries = 3) {
+// Wikimedia rate-limits bursts, so space out calls and back off on 429,
+// honouring Retry-After when it is sent.
+const GAP_MS = 250;
+let lastCall = 0;
+async function getJson(url, init = {}, tries = 6) {
   for (let i = 1; ; i++) {
+    const wait = lastCall + GAP_MS - Date.now();
+    if (wait > 0) await sleep(wait);
+    lastCall = Date.now();
     const res = await fetch(url, {
       ...init,
       headers: { 'User-Agent': UA, ...(init.headers || {}) },
@@ -46,7 +53,8 @@ async function getJson(url, init = {}, tries = 3) {
     if (res.status === 404) return null;
     if (i >= tries || (res.status < 500 && res.status !== 429))
       throw new Error(`${res.status} ${url}`);
-    await sleep(1000 * 2 ** i);
+    const retryAfter = Number(res.headers.get('retry-after'));
+    await sleep(retryAfter > 0 ? retryAfter * 1000 : 1000 * 2 ** i);
   }
 }
 
@@ -138,13 +146,22 @@ for (const file of files) {
   const fp = path.join(citiesDir, file);
   const city = JSON.parse(await readFile(fp, 'utf8'));
   const sights = city.items.filter((p) => p.kind === 'see' && p.wiki);
-  const resolved = await resolveTitles([...new Set(sights.map((p) => p.wiki))]);
+  const resolved = await resolveTitles([...new Set(sights.map((p) => p.wiki))]).catch((e) => {
+    console.warn(
+      `${city.name}: title lookup failed, keeping previous Wikipedia data (${e.message})`,
+    );
+    return null;
+  });
   for (const p of city.items) {
     p.signals ||= {};
-    if (p.kind === 'see' && p.wiki) {
+    if (p.kind === 'see' && p.wiki && resolved) {
       const r = resolved.get(p.wiki);
       if (r && (!r.coords || km(p, r.coords) <= MAX_KM || p.pinApproximate)) {
-        const views = await wikipediaViews(r.title);
+        // One failed lookup keeps the previous value instead of aborting the run.
+        const views = await wikipediaViews(r.title).catch((e) => {
+          console.warn(`wikipedia ${p.id}: ${e.message}`);
+          return undefined;
+        });
         if (views) {
           p.signals.wikipedia = {
             views,
