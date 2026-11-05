@@ -1,0 +1,823 @@
+{
+  "id": "seoul",
+  "name": "Seoul",
+  "country": "South Korea",
+  "region": "Asia",
+  "lat": 37.5665,
+  "lon": 126.978,
+  "wiki": "Seoul",
+  "tagline": "Palace mornings, neighbourhood evenings",
+  "summary": "Layer royal palaces, hillside hanok streets and night markets across a very efficient metro network. Group Jongno sights together, then spend a separate afternoon on Namsan and Myeongdong.",
+  "days": 4,
+  "bestMonths": [
+    4,
+    5,
+    9,
+    10
+  ],
+  "seasonNote": "Spring blossom and autumn colour bring crowds; winter is cold and summer humid with heavy rain.",
+  "arrival": "From Incheon, take AREX toward Seoul Station; check whether your train is express or all-stop. Gimpo also connects to the metro.",
+  "gettingAround": "Use a T-money transit card; Naver Map or KakaoMap is useful for local routing. Cluster sights to reduce transfers.",
+  "cashTip": "Keep won for traditional markets and transit-card top-ups; cards work widely in shops.",
+  "dailyBudget": [
+    45000,
+    90000
+  ],
+  "currency": "KRW",
+  "cashPerDay": [
+    20000,
+    40000
+  ],
+  "foodTip": "Try bindaetteok, gimbap and hotteok; ask about pork, seafood and broths if relevant.",
+  "buyTip": "Compare skincare prices and buy sealed products from established shops; Insadong suits paper and ceramics.",
+  "baseArea": "Jongno for heritage; Myeongdong for easy transport.",
+  "connections": [
+    {
+      "to": "tokyo",
+      "mode": "Flight",
+      "minutes": 150,
+      "note": "Approximate airborne time; add airport transfers and check current flights."
+    },
+    {
+      "to": "taipei",
+      "mode": "Flight",
+      "minutes": 150,
+      "note": "Approximate flight time, plus airport formalities."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Visit Seoul: first-visit guide",
+      "url": "https://english.visitseoul.net/mvp/IfyouvisitSeoulforthefirsttime_/43817",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Gyeongbokgung visitor information",
+      "url": "https://english.visitseoul.net/area/Gyeongbokgung/ENP000072",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Bukchon access restrictions",
+      "url": "https://english.visitseoul.net/area/Bukchon-Hanok-Village/ENP000261",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Gwangjang Market guide",
+      "url": "https://english.visitseoul.net/area/Gwangjang-Market/ENP000286",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor visitor favourites and review snapshots",
+      "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://english.visitseoul.net/area/MyeongdongBusanjib/ENPf6pbif",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://english.visitseoul.net/tours/seoul-recommended-halal-restaurants/ENN023531",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://english.visitseoul.net/eat/Myeongdong-Kyoja-EN/ENP008570",
+      "type": "official",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "Visitor listings strongly support Gyeongbokgung and Cheonggyecheon. The palace snapshot was 4.4/5 from 11,157 reviews; this is a dated observation, not a live ranking.",
+  "reviewSource": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+  "items": [
+    {
+      "id": "seoul-gyeongbokgung-palace",
+      "name": "Gyeongbokgung Palace",
+      "kind": "see",
+      "lat": 37.5796,
+      "lon": 126.977,
+      "wiki": "Gyeongbokgung",
+      "summary": "A spacious introduction to Joseon royal architecture.",
+      "expect": "Large courtyards, palace halls and considerable walking.",
+      "tip": "Usually closed Tuesday; holiday exceptions apply. Arrive early and check guard-ceremony times.",
+      "area": "Jongno",
+      "duration": 2.5,
+      "price": [
+        3000,
+        5000
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Opening time",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://english.visitseoul.net/area/Gyeongbokgung/ENP000072",
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 11157,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Gyeongbokgung Palace"
+      },
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A spacious introduction to Joseon royal architecture.",
+        "The sequence of gates and ceremonial courtyards makes Joseon royal hierarchy visible."
+      ],
+      "visitFlow": [
+        "Walk the main gate-to-hall axis.",
+        "Allow time for side courtyards and a guard ceremony only if currently scheduled."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": [
+        "Large courtyards, palace halls and considerable walking."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-bukchon-hanok-village",
+      "name": "Bukchon Hanok Village",
+      "kind": "see",
+      "lat": 37.5826,
+      "lon": 126.983,
+      "wiki": "Bukchon Hanok Village",
+      "summary": "Historic lanes with traditional hanok roofs and city views.",
+      "expect": "Steep residential streets, photographers and limited public space.",
+      "tip": "Respect the restricted red zone: tourist visits are limited to 10:00–17:00. Keep voices low.",
+      "area": "Jongno",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "10:00–11:00",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://english.visitseoul.net/area/Bukchon-Hanok-Village/ENP000261",
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "review": {
+        "rating": 4.2,
+        "count": 5431,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Bukchon Hanok Village"
+      },
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Historic lanes with traditional hanok roofs and city views.",
+        "Traditional rooflines sit on lived-in hillsides above the modern city."
+      ],
+      "visitFlow": [
+        "Follow permitted public lanes within visitor hours.",
+        "Pause at designated viewpoints and move quietly through residential sections."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": [
+        "Steep residential streets, photographers and limited public space."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-n-seoul-tower",
+      "name": "N Seoul Tower",
+      "kind": "see",
+      "lat": 37.5512,
+      "lon": 126.9882,
+      "wiki": "N Seoul Tower",
+      "summary": "A hilltop panorama that explains Seoul’s scale.",
+      "expect": "Outdoor terraces, a paid observatory and queues near sunset.",
+      "tip": "Check visibility before paying; hill access and the observatory are separate costs.",
+      "area": "Namsan",
+      "duration": 2,
+      "price": [
+        0,
+        35000
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Clear late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.visitseoul.net/nature/NSeoulToweratNight/ENP016321",
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "review": {
+        "rating": 4.2,
+        "count": 9689,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "N Seoul Tower"
+      },
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A hilltop panorama that explains Seoul’s scale.",
+        "The tower combines a city panorama with the green setting of Namsan."
+      ],
+      "visitFlow": [
+        "Choose a bus, cable car or walking approach.",
+        "View the city from the public surroundings or buy a separate observatory ticket."
+      ],
+      "bestFor": "Viewpoint, Architecture interests",
+      "tradeoffs": [
+        "Outdoor terraces, a paid observatory and queues near sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-changdeokgung-palace",
+      "name": "Changdeokgung Palace",
+      "kind": "see",
+      "lat": 37.5794,
+      "lon": 126.991,
+      "wiki": "Changdeokgung",
+      "summary": "Wooden royal halls and a quieter landscape-focused palace.",
+      "expect": "A separate Secret Garden visit may have timed admission.",
+      "tip": "Book the garden if it matters to you; do not assume the main palace ticket covers it.",
+      "area": "Jongno",
+      "duration": 2.5,
+      "price": [
+        3000,
+        10000
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.visitseoul.net/mvp/IfyouvisitSeoulforthefirsttime_/43817",
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 4750,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Changdeokgung Palace"
+      },
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Wooden royal halls and a quieter landscape-focused palace.",
+        "Palace buildings and landscaped grounds follow a more intimate layout than Seoul’s largest palace."
+      ],
+      "visitFlow": [
+        "Visit the main palace route.",
+        "Add the Secret Garden only with the required separate access."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": [
+        "A separate Secret Garden visit may have timed admission."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-cheonggyecheon-stream",
+      "name": "Cheonggyecheon Stream",
+      "kind": "see",
+      "lat": 37.5691,
+      "lon": 126.9787,
+      "wiki": "Cheonggyecheon",
+      "summary": "A relaxed streamside walk beneath central Seoul’s traffic.",
+      "expect": "Steps down to a paved promenade and busier evening sections.",
+      "tip": "Use signed ramps where needed; avoid stream paths during severe weather.",
+      "area": "Central Seoul",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Early evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://english.visitseoul.net/mvp/IfyouvisitSeoulforthefirsttime_/43817",
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "review": {
+        "rating": 4.3,
+        "count": 4047,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Cheonggyecheon Stream"
+      },
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A relaxed streamside walk beneath central Seoul’s traffic.",
+        "A pedestrian route below street level gives a quieter way to cross central Seoul."
+      ],
+      "visitFlow": [
+        "Enter at an accessible stream-side stair or ramp.",
+        "Follow a short stretch between bridges and return to street level near your next stop."
+      ],
+      "bestFor": "Nature interests",
+      "tradeoffs": [
+        "Steps down to a paved promenade and busier evening sections."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-gwangjang-market-food-lanes",
+      "name": "Gwangjang Market food lanes",
+      "kind": "eat",
+      "lat": 37.5701,
+      "lon": 126.9996,
+      "wiki": "Gwangjang Market",
+      "summary": "Browse stalls for mung-bean pancakes and small rice rolls.",
+      "expect": "Shared seating, visible prices and busy meal periods.",
+      "tip": "Agree portions and price before ordering; take small notes.",
+      "area": "Jongno",
+      "duration": 1,
+      "price": [
+        10000,
+        25000
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Late morning or early dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://english.visitseoul.net/area/Gwangjang-Market/ENP000286",
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Browse stalls for mung-bean pancakes and small rice rolls.",
+        "Prepared-food counters and textile stalls make the market a working commercial place as well as a food stop."
+      ],
+      "visitFlow": [
+        "Choose a bindaetteok or other named dish after checking ingredients.",
+        "Use a stall seat and pay before continuing through the lanes."
+      ],
+      "bestFor": "Food interests",
+      "tradeoffs": [
+        "Shared seating, visible prices and busy meal periods."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-myeongdong-shopping-streets",
+      "name": "Myeongdong shopping streets",
+      "kind": "shop",
+      "lat": 37.5638,
+      "lon": 126.9833,
+      "wiki": "Myeong-dong",
+      "summary": "A compact stop for skincare, snacks and everyday gifts.",
+      "expect": "Chain stores, illuminated lanes and street-food vendors.",
+      "tip": "Check tax-refund conditions and airline liquid limits before buying.",
+      "area": "Myeongdong",
+      "duration": 1.5,
+      "price": [
+        15000,
+        60000
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://english.visitseoul.net/mvp/IfyouvisitSeoulforthefirsttime_/43817",
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "review": {
+        "rating": 4.3,
+        "count": 10587,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Myeongdong Shopping Street"
+      },
+      "experienceTypes": [
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A compact stop for skincare, snacks and everyday gifts.",
+        "Beauty retailers, fashion shops and evening food stalls are concentrated in a walkable central district."
+      ],
+      "visitFlow": [
+        "Compare the same product across established shops.",
+        "Check sealed packaging, expiry dates and tax-refund conditions."
+      ],
+      "bestFor": "Shopping interests",
+      "tradeoffs": [
+        "Chain stores, illuminated lanes and street-food vendors."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-national-museum-of-korea",
+      "name": "National Museum of Korea",
+      "kind": "see",
+      "lat": 37.523,
+      "lon": 126.98,
+      "wiki": "National Museum of Korea",
+      "area": "Yongsan",
+      "duration": 2.5,
+      "price": [
+        0,
+        15000
+      ],
+      "summary": "Korean archaeology, sculpture and painting explain the culture behind the palaces.",
+      "expect": "The large permanent collection includes carefully staged contemplative gallery spaces.",
+      "tip": "Permanent galleries are generally free; special shows may need separate tickets.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.5,
+        "count": 2525,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "National Museum Of Korea"
+      },
+      "experienceTypes": [
+        "History",
+        "Art"
+      ],
+      "whyVisit": [
+        "Korean archaeology, sculpture and painting explain the culture behind the palaces.",
+        "The large permanent collection includes carefully staged contemplative gallery spaces."
+      ],
+      "visitFlow": [
+        "Choose the history galleries first.",
+        "Continue to Buddhist sculpture and the outdoor grounds."
+      ],
+      "bestFor": "History, Art enthusiasts",
+      "tradeoffs": [
+        "Permanent galleries are generally free; special shows may need separate tickets."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-war-memorial-of-korea",
+      "name": "War Memorial of Korea",
+      "kind": "see",
+      "lat": 37.536,
+      "lon": 126.977,
+      "wiki": "War Memorial of Korea",
+      "area": "Yongsan",
+      "duration": 2.5,
+      "price": [
+        0,
+        0
+      ],
+      "summary": "Exhibits trace military conflict on the Korean peninsula.",
+      "expect": "Large aircraft and other equipment make the outdoor collection visually immediate.",
+      "tip": "War imagery can be distressing; allow time to read rather than rush.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.6,
+        "count": 4398,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "The War Memorial of Korea"
+      },
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Exhibits trace military conflict on the Korean peninsula.",
+        "Large aircraft and other equipment make the outdoor collection visually immediate."
+      ],
+      "visitFlow": [
+        "Read the Korean War context galleries.",
+        "Finish with the outdoor equipment and memorial spaces."
+      ],
+      "bestFor": "History enthusiasts",
+      "tradeoffs": [
+        "War imagery can be distressing; allow time to read rather than rush."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seoul-bukhansan-national-park",
+      "name": "Bukhansan National Park",
+      "kind": "see",
+      "lat": 37.658,
+      "lon": 126.977,
+      "wiki": "Bukhansan National Park",
+      "area": "Northern Seoul",
+      "duration": 5,
+      "price": [
+        0,
+        5000
+      ],
+      "summary": "Granite peaks rise above forest and the edge of Seoul.",
+      "expect": "Trails combine a mountain outing with views back toward the city.",
+      "tip": "Steep rocky sections, weather and closures matter; this is a separate hiking day.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.7,
+        "count": 1136,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294197-Activities-Seoul.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Bukhansan National Park"
+      },
+      "experienceTypes": [
+        "Nature",
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Granite peaks rise above forest and the edge of Seoul.",
+        "Trails combine a mountain outing with views back toward the city."
+      ],
+      "visitFlow": [
+        "Select a trail suited to your fitness.",
+        "Start early with water and return before dark."
+      ],
+      "bestFor": "Nature, Adventure enthusiasts",
+      "tradeoffs": [
+        "Steep rocky sections, weather and closures matter; this is a separate hiking day."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "seoul-myeongdong-busanjib",
+      "name": "Myeongdong Busanjib",
+      "kind": "eat",
+      "lat": 37.562,
+      "lon": 126.985,
+      "wiki": "Myeongdong Busanjib",
+      "area": "Myeongdong",
+      "duration": 1,
+      "price": [
+        15000,
+        30000
+      ],
+      "summary": "Korean everyday dishes are offered with halal ingredients in central Myeongdong.",
+      "expect": "It lets a sightseeing meal include local flavours without relying on generic pork-free assumptions.",
+      "tip": "The official Seoul tourism listing describes halal preparation; no current independent certificate was inspected. Confirm the particular dish and branch.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.visitseoul.net/area/MyeongdongBusanjib/ENPf6pbif"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Korean everyday dishes are offered with halal ingredients in central Myeongdong.",
+        "It lets a sightseeing meal include local flavours without relying on generic pork-free assumptions."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Bibimbap, Korean stew."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "The official Seoul tourism listing describes halal preparation; no current independent certificate was inspected. Confirm the particular dish and branch."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Korean halal-focused cooking",
+      "mustOrder": [
+        "Bibimbap",
+        "Korean stew"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://english.visitseoul.net/area/MyeongdongBusanjib/ENPf6pbif",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "The official Seoul tourism listing describes halal preparation; no current independent certificate was inspected. Confirm the particular dish and branch."
+      },
+      "photoQuery": "Bibimbap Korean halal-focused cooking",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "seoul-osegyehyang",
+      "name": "Osegyehyang",
+      "kind": "eat",
+      "lat": 37.575,
+      "lon": 126.984,
+      "wiki": "Osegyehyang",
+      "area": "Insadong",
+      "duration": 1,
+      "price": [
+        12000,
+        22000
+      ],
+      "summary": "Black-bean noodles and Korean-style plates are prepared in vegetarian versions.",
+      "expect": "The Insadong location works well after the palaces and craft streets.",
+      "tip": "Seoul’s official guide lists vegan cuisine; KTO describes some halal dishes. Ask about sauces and preparation rather than treating every vegan dish as certified halal.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.visitseoul.net/tours/seoul-recommended-halal-restaurants/ENN023531"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Black-bean noodles and Korean-style plates are prepared in vegetarian versions.",
+        "The Insadong location works well after the palaces and craft streets."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Vegan jjajangmyeon, Soy-based barbecue."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Seoul’s official guide lists vegan cuisine; KTO describes some halal dishes. Ask about sauces and preparation rather than treating every vegan dish as certified halal."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Vegan Korean and Chinese-Korean",
+      "mustOrder": [
+        "Vegan jjajangmyeon",
+        "Soy-based barbecue"
+      ],
+      "dietary": {
+        "halal": "options",
+        "vegetarian": "vegan",
+        "evidence": [
+          {
+            "url": "https://english.visitseoul.net/tours/seoul-recommended-halal-restaurants/ENN023531",
+            "label": "Official Seoul guide: Vegan/Korean cuisine",
+            "checked": "2026-11-04"
+          },
+          {
+            "url": "https://english.visitkorea.or.kr/svc/contents/contentsView.do?vcontsId=138325",
+            "label": "KTO: some halal dishes",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Seoul’s official guide lists vegan cuisine; KTO describes some halal dishes. Ask about sauces and preparation rather than treating every vegan dish as certified halal."
+      },
+      "photoQuery": "Vegan jjajangmyeon Vegan Korean and Chinese-Korean",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "seoul-myeongdong-kyoja",
+      "name": "Myeongdong Kyoja",
+      "kind": "eat",
+      "lat": 37.562,
+      "lon": 126.985,
+      "wiki": "Myeongdong Kyoja",
+      "area": "Myeongdong",
+      "duration": 1,
+      "price": [
+        12000,
+        22000
+      ],
+      "summary": "A focused noodle-and-dumpling menu makes ordering straightforward on a first Seoul visit.",
+      "expect": "A bowl of kalguksu and shared mandu provide a substantial central-city lunch.",
+      "tip": "Meat broth and meat-filled dumplings are central; do not assume noodles or kimchi are vegetarian.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.visitseoul.net/eat/Myeongdong-Kyoja-EN/ENP008570"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A focused noodle-and-dumpling menu makes ordering straightforward on a first Seoul visit.",
+        "A bowl of kalguksu and shared mandu provide a substantial central-city lunch."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Kalguksu, Mandu."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Meat broth and meat-filled dumplings are central; do not assume noodles or kimchi are vegetarian."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Korean noodles and dumplings",
+      "mustOrder": [
+        "Kalguksu",
+        "Mandu"
+      ],
+      "dietary": {
+        "halal": "none",
+        "vegetarian": "none",
+        "evidence": [
+          {
+            "url": "https://english.visitseoul.net/eat/Myeongdong-Kyoja-EN/ENP008570",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Meat broth and meat-filled dumplings are central; do not assume noodles or kimchi are vegetarian."
+      },
+      "photoQuery": "Kalguksu Korean noodles and dumplings",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    }
+  ],
+  "popularity": {
+    "tourism": {
+      "rank": 10,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "roam-atlas",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Roam Atlas: city guides, food and dietary filters, maps and a multi-city trip planner.",
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "build:single": "node scripts/build.mjs --single",
+    "dev": "node scripts/build.mjs && npx --yes serve@14 dist",
+    "format": "prettier --write src scripts data/cities data/*.json"
+  },
+  "devDependencies": {
+    "prettier": "3.6.2"
+  }
+}

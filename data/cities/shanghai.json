@@ -1,0 +1,805 @@
+{
+  "id": "shanghai",
+  "name": "Shanghai",
+  "country": "China",
+  "region": "Asia",
+  "lat": 31.2304,
+  "lon": 121.4737,
+  "wiki": "Shanghai",
+  "tagline": "Riverfront contrasts and garden lanes",
+  "summary": "Start with the Bund and cross to Lujiazui for the skyline contrast. Spend another day around Yuyuan and the older neighbourhoods rather than repeatedly crossing the river.",
+  "days": 4,
+  "bestMonths": [
+    4,
+    5,
+    10,
+    11
+  ],
+  "seasonNote": "Spring and autumn are often pleasant; summer is hot and humid with storm risk, and national holidays bring crowds.",
+  "arrival": "Pudong and Hongqiao airports have different city connections; follow the route for your actual airport.",
+  "gettingAround": "Metro is extensive; prepare mobile payment if useful and keep a cash/card backup.",
+  "cashTip": "Keep some yuan for payment failures; many venues favour mobile payment.",
+  "dailyBudget": [
+    220,
+    550
+  ],
+  "currency": "CNY",
+  "cashPerDay": [
+    100,
+    250
+  ],
+  "foodTip": "Try xiaolongbao and shengjianbao; soup dumplings are hot inside and often contain pork.",
+  "buyTip": "Tea, stationery and locally designed goods are practical; bargain novelty markets do not guarantee authenticity.",
+  "baseArea": "People’s Square or a central metro corridor.",
+  "connections": [
+    {
+      "to": "beijing",
+      "mode": "High-speed rail",
+      "minutes": 300,
+      "note": "Fast trains roughly 4.5–6 hours; compare the exact service and stations."
+    },
+    {
+      "to": "hong-kong",
+      "mode": "Flight",
+      "minutes": 150,
+      "note": "Approximate airborne time."
+    },
+    {
+      "to": "osaka",
+      "mode": "Flight",
+      "minutes": 135,
+      "note": "Approximate airborne time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official Shanghai iconic-sights guide",
+      "url": "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor visitor favourites and review snapshots",
+      "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://www.zabihah.com/restaurants/ca8a961d-7767-11ef-95ae-6045bdeb9f57/hong-chang-xing-huangpu-shanghai-shi",
+      "type": "reference",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://guide.michelin.com/us/en/shanghai-municipality/shanghai/restaurant/fu-he-hui",
+      "type": "reference",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://english.shanghai.gov.cn/en-CityTour/20251217/76a0a060c63f4fe69e592e2aff8382d0.html",
+      "type": "official",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "The official city guide and visitor favourites overlap on the Bund, Yuyuan and Nanjing Road. The Nanjing Road review snapshot was 4.0/5 from 4,746 reviews; treat it as a shopping atmosphere stop rather than a must-buy destination.",
+  "reviewSource": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+  "items": [
+    {
+      "id": "shanghai-the-bund",
+      "name": "The Bund",
+      "kind": "see",
+      "lat": 31.2401,
+      "lon": 121.4904,
+      "wiki": "The Bund",
+      "summary": "A river promenade contrasting historic façades and modern towers.",
+      "expect": "Busy waterfront paths, especially after sunset.",
+      "tip": "Walk a short section at daylight and return after dusk if time permits.",
+      "area": "Huangpu",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Dusk",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "review": {
+        "rating": 4.6,
+        "count": 19623,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "The Bund (Wai Tan)"
+      },
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A river promenade contrasting historic façades and modern towers.",
+        "The river places historic commercial architecture opposite Pudong’s modern skyline."
+      ],
+      "visitFlow": [
+        "Walk a manageable promenade section in daylight.",
+        "Return after dusk if you want the illuminated skyline as well."
+      ],
+      "bestFor": "Viewpoint, Architecture interests",
+      "tradeoffs": [
+        "Busy waterfront paths, especially after sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-yu-garden",
+      "name": "Yu Garden",
+      "kind": "see",
+      "lat": 31.2272,
+      "lon": 121.4921,
+      "wiki": "Yu Garden",
+      "summary": "Classical garden scenes within the old-city area.",
+      "expect": "Crowded paths and separate bazaar and garden spaces.",
+      "tip": "The surrounding shopping area is not the paid historic garden; check your ticket.",
+      "area": "Old City",
+      "duration": 2,
+      "price": [
+        30,
+        60
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "At opening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "review": {
+        "rating": 4.3,
+        "count": 10682,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Yu Garden"
+      },
+      "experienceTypes": [
+        "Nature",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Classical garden scenes within the old-city area.",
+        "Rocks, water and framed views compress a classical garden landscape into a city-centre site."
+      ],
+      "visitFlow": [
+        "Buy the garden ticket only if entering the historic grounds.",
+        "Walk the garden circuit before browsing the separate bazaar."
+      ],
+      "bestFor": "Nature, Architecture interests",
+      "tradeoffs": [
+        "Crowded paths and separate bazaar and garden spaces."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-shanghai-tower-observation-deck",
+      "name": "Shanghai Tower observation deck",
+      "kind": "see",
+      "lat": 31.2336,
+      "lon": 121.5055,
+      "wiki": "Shanghai Tower",
+      "summary": "A high observation point over Lujiazui and the river.",
+      "expect": "Paid viewing, lift queues and clouds that can erase the panorama.",
+      "tip": "Check visibility before committing to a premium ticket.",
+      "area": "Lujiazui",
+      "duration": 1.5,
+      "price": [
+        180,
+        300
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Clear late afternoon",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A high observation point over Lujiazui and the river.",
+        "A very high observation floor gives a different city perspective from the river promenade."
+      ],
+      "visitFlow": [
+        "Check weather and the exact ticket level.",
+        "Follow the observation circuit and compare the river’s two banks."
+      ],
+      "bestFor": "Viewpoint, Architecture interests",
+      "tradeoffs": [
+        "Paid viewing, lift queues and clouds that can erase the panorama."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-french-concession-neighbourhood-walk",
+      "name": "French Concession neighbourhood walk",
+      "kind": "see",
+      "lat": 31.2152,
+      "lon": 121.463,
+      "wiki": "Shanghai French Concession",
+      "summary": "Tree-lined streets, cafés and historic residential architecture.",
+      "expect": "An extended neighbourhood rather than one ticketed attraction.",
+      "tip": "Choose a modest walking loop and respect residential entrances.",
+      "area": "Xuhui",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "review": {
+        "rating": 4.3,
+        "count": 3978,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Former French Concession"
+      },
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Tree-lined streets, cafés and historic residential architecture.",
+        "Tree-lined streets and older residential architecture make a slower urban walk."
+      ],
+      "visitFlow": [
+        "Choose a short public-street loop.",
+        "Stop at a café or small shop without entering private courtyards."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": [
+        "An extended neighbourhood rather than one ticketed attraction."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-zhujiajiao-water-town",
+      "name": "Zhujiajiao water town",
+      "kind": "see",
+      "lat": 31.1086,
+      "lon": 121.0553,
+      "wiki": "Zhujiajiao",
+      "summary": "Canals and old bridges on Shanghai’s western edge.",
+      "expect": "A long metro/road outing with paid interiors and optional boats.",
+      "tip": "Allow a half-to-full day; some combined tickets include sites you may not need.",
+      "area": "Qingpu",
+      "duration": 6,
+      "price": [
+        0,
+        100
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Weekday morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "review": {
+        "rating": 4.2,
+        "count": 1879,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Zhujiajiao Ancient Town"
+      },
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Canals and old bridges on Shanghai’s western edge.",
+        "Canals and bridges create a historic water-town setting beyond central Shanghai."
+      ],
+      "visitFlow": [
+        "Plan the outward and return transfer.",
+        "Walk the public canal lanes and choose any separate paid historic-house visit."
+      ],
+      "bestFor": "Nature, Adventure interests",
+      "tradeoffs": [
+        "A long metro/road outing with paid interiors and optional boats."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-xiaolongbao-near-yuyuan",
+      "name": "Xiaolongbao near Yuyuan",
+      "kind": "eat",
+      "lat": 31.2278,
+      "lon": 121.4916,
+      "wiki": "Xiaolongbao",
+      "summary": "Steamed soup dumplings in the old-city dining area.",
+      "expect": "Queues at famous shops and variable serving sizes.",
+      "tip": "Let dumplings cool and compare menus; pin marks the dining district, not a restaurant endorsement.",
+      "area": "Old City",
+      "duration": 1,
+      "price": [
+        40,
+        120
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Before lunch rush",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Steamed soup dumplings in the old-city dining area.",
+        "Soup-filled dumplings make a compact tasting stop around the old-city district."
+      ],
+      "visitFlow": [
+        "Choose a named dumpling shop with a clear menu.",
+        "Let each dumpling cool and release the soup carefully before eating."
+      ],
+      "bestFor": "Food interests",
+      "tradeoffs": [
+        "Queues at famous shops and variable serving sizes."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-nanjing-road",
+      "name": "Nanjing Road",
+      "kind": "shop",
+      "lat": 31.2353,
+      "lon": 121.4775,
+      "wiki": "Nanjing Road",
+      "summary": "A central shopping boulevard with major stores and bright evening signage.",
+      "expect": "Crowds, chain retail and a changing pedestrian atmosphere.",
+      "tip": "Use it as a route toward the Bund; ignore unsolicited tea-house invitations.",
+      "area": "Huangpu",
+      "duration": 1.5,
+      "price": [
+        50,
+        400
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Early evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.meet-in-shanghai.net/en/guide/explore-shanghais-most-iconic-sights-classic-sights-and-skyline-views-919070/",
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "review": {
+        "rating": 4.0,
+        "count": 4732,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Nanjing Lu (Nanjing Road)"
+      },
+      "experienceTypes": [
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A central shopping boulevard with major stores and bright evening signage.",
+        "A long commercial axis connects major shops with the approach toward the Bund."
+      ],
+      "visitFlow": [
+        "Walk a selected stretch rather than the entire road by default.",
+        "Compare products and keep a clear plan for the next metro or waterfront stop."
+      ],
+      "bestFor": "Shopping interests",
+      "tradeoffs": [
+        "Crowds, chain retail and a changing pedestrian atmosphere."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-shanghai-museum-peoples-square",
+      "name": "Shanghai Museum, People’s Square",
+      "kind": "see",
+      "lat": 31.229,
+      "lon": 121.476,
+      "wiki": "Shanghai Museum, People’s Square",
+      "area": "People’s Square",
+      "duration": 2.5,
+      "price": [
+        0,
+        100
+      ],
+      "summary": "Chinese antiquities and themed exhibitions offer cultural context beyond the skyline.",
+      "expect": "The central museum is easy to pair with a People’s Square walk.",
+      "tip": "Collections and reservation rules differ between People’s Square and the East Museum.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.4,
+        "count": 4868,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Shanghai Museum (Shanghai Bowuguan)"
+      },
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "Chinese antiquities and themed exhibitions offer cultural context beyond the skyline.",
+        "The central museum is easy to pair with a People’s Square walk."
+      ],
+      "visitFlow": [
+        "Check the current location-specific exhibition programme.",
+        "Reserve if required and focus on two galleries."
+      ],
+      "bestFor": "Art, History enthusiasts",
+      "tradeoffs": [
+        "Collections and reservation rules differ between People’s Square and the East Museum."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-oriental-pearl-tower",
+      "name": "Oriental Pearl Tower",
+      "kind": "see",
+      "lat": 31.239,
+      "lon": 121.5,
+      "wiki": "Oriental Pearl Tower",
+      "area": "Lujiazui",
+      "duration": 2,
+      "price": [
+        180,
+        350
+      ],
+      "summary": "The tower’s spherical forms are a distinctive part of Shanghai’s skyline.",
+      "expect": "Observation levels look across the Huangpu toward the Bund.",
+      "tip": "Packages vary; clear weather and shorter queues improve the value.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.3,
+        "count": 6654,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Oriental Pearl Tower (Dongfang Mingzhu)"
+      },
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The tower’s spherical forms are a distinctive part of Shanghai’s skyline.",
+        "Observation levels look across the Huangpu toward the Bund."
+      ],
+      "visitFlow": [
+        "Choose the ticket package carefully.",
+        "Visit the observation floors included in your ticket."
+      ],
+      "bestFor": "Architecture, Viewpoint enthusiasts",
+      "tradeoffs": [
+        "Packages vary; clear weather and shorter queues improve the value."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-tianzifang",
+      "name": "Tianzifang",
+      "kind": "see",
+      "lat": 31.21,
+      "lon": 121.468,
+      "wiki": "Tianzifang",
+      "area": "Former French Concession",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "summary": "Narrow lanes reuse older Shanghai buildings as small shops and studios.",
+      "expect": "The compact network rewards wandering rather than following a single monument route.",
+      "tip": "Small lanes can be crowded and souvenir quality varies.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.2,
+        "count": 3031,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g308272-Activities-Shanghai.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Tian Zi Fang"
+      },
+      "experienceTypes": [
+        "Architecture",
+        "Shopping",
+        "Art"
+      ],
+      "whyVisit": [
+        "Narrow lanes reuse older Shanghai buildings as small shops and studios.",
+        "The compact network rewards wandering rather than following a single monument route."
+      ],
+      "visitFlow": [
+        "Enter through one of the public lanes.",
+        "Browse craft shops and pause in a café."
+      ],
+      "bestFor": "Architecture, Shopping enthusiasts",
+      "tradeoffs": [
+        "Small lanes can be crowded and souvenir quality varies."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "shanghai-hong-chang-xing-yunnan-south-road",
+      "name": "Hong Chang Xing, Yunnan South Road",
+      "kind": "eat",
+      "lat": 31.228,
+      "lon": 121.482,
+      "wiki": "Hong Chang Xing, Yunnan South Road",
+      "area": "Huangpu",
+      "duration": 1,
+      "price": [
+        120,
+        250
+      ],
+      "summary": "A long-established hotpot house offers thin-sliced mutton in the northern Chinese style.",
+      "expect": "It gives a named halal-focused option near the central Huangpu sightseeing area.",
+      "tip": "The halal directory records the restaurant’s own halal claim and notes alcohol is served. No current certificate independently verified; confirm the Yunnan South Road branch.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.zabihah.com/restaurants/ca8a961d-7767-11ef-95ae-6045bdeb9f57/hong-chang-xing-huangpu-shanghai-shi"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A long-established hotpot house offers thin-sliced mutton in the northern Chinese style.",
+        "It gives a named halal-focused option near the central Huangpu sightseeing area."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Mutton copper-pot hotpot, Sesame dipping sauce."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "The halal directory records the restaurant’s own halal claim and notes alcohol is served. No current certificate independently verified; confirm the Yunnan South Road branch."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Chinese Muslim hotpot",
+      "mustOrder": [
+        "Mutton copper-pot hotpot",
+        "Sesame dipping sauce"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://www.zabihah.com/restaurants/ca8a961d-7767-11ef-95ae-6045bdeb9f57/hong-chang-xing-huangpu-shanghai-shi",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "The halal directory records the restaurant’s own halal claim and notes alcohol is served. No current certificate independently verified; confirm the Yunnan South Road branch."
+      },
+      "photoQuery": "Mutton copper-pot hotpot Chinese Muslim hotpot",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "shanghai-fu-he-hui",
+      "name": "Fu He Hui",
+      "kind": "eat",
+      "lat": 31.222,
+      "lon": 121.434,
+      "wiki": "Fu He Hui",
+      "area": "Changning / Yuyuan Road",
+      "duration": 2.5,
+      "price": [
+        1000,
+        2000
+      ],
+      "summary": "A multi-course menu explores mushrooms, vegetables and fine-dining technique.",
+      "expect": "The townhouse dining rooms create a quiet destination meal apart from the Bund crowds.",
+      "tip": "Michelin lists vegetarian cuisine. Confirm vegan requirements before booking; wine service and vegetarian cooking do not establish halal status.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://guide.michelin.com/us/en/shanghai-municipality/shanghai/restaurant/fu-he-hui"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A multi-course menu explores mushrooms, vegetables and fine-dining technique.",
+        "The townhouse dining rooms create a quiet destination meal apart from the Bund crowds."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Seasonal vegetarian tasting menu."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Michelin lists vegetarian cuisine. Confirm vegan requirements before booking; wine service and vegetarian cooking do not establish halal status."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Vegetarian fine dining",
+      "mustOrder": [
+        "Seasonal vegetarian tasting menu"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "fully-vegetarian",
+        "evidence": [
+          {
+            "url": "https://guide.michelin.com/us/en/shanghai-municipality/shanghai/restaurant/fu-he-hui",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Michelin lists vegetarian cuisine. Confirm vegan requirements before booking; wine service and vegetarian cooking do not establish halal status."
+      },
+      "photoQuery": "Seasonal vegetarian tasting menu Vegetarian fine dining",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "shanghai-yangs-fry-dumpling-wujiang-road",
+      "name": "Yang’s Fry-Dumpling, Wujiang Road",
+      "kind": "eat",
+      "lat": 31.23,
+      "lon": 121.46,
+      "wiki": "Yang’s Fry-Dumpling, Wujiang Road",
+      "area": "Jing’an / Wujiang Road",
+      "duration": 0.6,
+      "price": [
+        25,
+        60
+      ],
+      "summary": "Crisp-bottomed soup-filled buns introduce Shanghai’s shengjian style.",
+      "expect": "The Wujiang Road branch fits a central-city food and architecture walk.",
+      "tip": "Pork filling is central. Bite carefully to release the hot soup; verify the current branch entrance.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.shanghai.gov.cn/en-CityTour/20251217/76a0a060c63f4fe69e592e2aff8382d0.html"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Crisp-bottomed soup-filled buns introduce Shanghai’s shengjian style.",
+        "The Wujiang Road branch fits a central-city food and architecture walk."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Pan-fried pork buns, Vermicelli soup."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Pork filling is central. Bite carefully to release the hot soup; verify the current branch entrance."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Shanghai shengjian",
+      "mustOrder": [
+        "Pan-fried pork buns",
+        "Vermicelli soup"
+      ],
+      "dietary": {
+        "halal": "none",
+        "vegetarian": "none",
+        "evidence": [
+          {
+            "url": "https://english.shanghai.gov.cn/en-CityTour/20251217/76a0a060c63f4fe69e592e2aff8382d0.html",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Pork filling is central. Bite carefully to release the hot soup; verify the current branch entrance."
+      },
+      "photoQuery": "Pan-fried pork buns Shanghai shengjian",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    }
+  ],
+  "popularity": {
+    "tourism": {
+      "rank": 34,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    }
+  }
+}

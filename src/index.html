@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+    <meta name="theme-color" content="#165b4e" />
+    <meta
+      name="description"
+      content="60 remarkable destinations, transparent popularity rankings, food and dietary guides, maps and a practical multi-city trip planner."
+    />
+    <title>Roam Atlas — Your world, ready to explore</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='10' fill='%23165b4e'/%3E%3Cpath d='m20 6 12 28-12-7-12 7Z' fill='%23f6f5f0'/%3E%3C/svg%3E"
+    />
+    <!-- build:css -->
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="wrap topinner">
+        <a href="#/" class="brand" aria-label="Roam Atlas home"
+          ><svg class="brandmark" viewBox="0 0 36 42" fill="none" aria-hidden="true">
+            <path d="M18 2 33 11v20l-15 9L3 31V11L18 2Z" stroke="currentColor" stroke-width="1.5" />
+            <path d="m18 8 8 23-8-5-8 5 8-23Z" fill="currentColor" />
+            <path d="m18 12 0 14" stroke="#f6f5f0" stroke-width="1.5" /></svg
+          >roam<span>atlas</span></a
+        >
+        <nav class="nav" aria-label="Main navigation">
+          <a href="#/" data-nav="explore"
+            ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m16 8-2 6-6 2 2-6Zm6 4a10 10 0 1 1-20 0 10 10 0 0 1 20 0" /></svg
+            >Discover</a
+          ><a href="#/map" data-nav="map"
+            ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="m3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2Zm6-2v16m6-14v16" /></svg
+            >Map</a
+          ><a href="#/trip" data-nav="trip"
+            ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M5 3v12a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V8M8 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M22 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0"
+              /></svg
+            >My trip<span class="count trip-count">0</span></a
+          ><a href="#/saved" data-nav="saved"
+            ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path
+                d="M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z"
+              /></svg
+            >Saved<span class="count saved-count">0</span></a
+          ><a href="#/guide" data-nav="guide"
+            ><svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+              <path d="M12 11v6M12 7h.01M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0" /></svg
+            >Field notes</a
+          >
+        </nav>
+        <div class="topend">
+          <span class="statusdot"></span><span id="connection-label">Ready for your next stop</span>
+        </div>
+      </div>
+    </header>
+    <main id="app"></main>
+    <input type="file" id="import-file" accept="application/json,.json" hidden /><noscript
+      ><div style="padding: 40px; font-family: sans-serif">
+        <h1>Roam Atlas</h1>
+        <p>
+          Enable JavaScript to use this self-contained travel app. If your phone’s file preview is
+          blank, open the hosted app in Safari or Chrome.
+        </p>
+      </div></noscript
+    >
+    <!-- build:js -->
+  </body>
+</html>

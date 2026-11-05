@@ -1,0 +1,816 @@
+{
+  "id": "bangkok",
+  "name": "Bangkok",
+  "country": "Thailand",
+  "region": "Asia",
+  "lat": 13.7563,
+  "lon": 100.5018,
+  "wiki": "Bangkok",
+  "tagline": "Temple mornings and riverside evenings",
+  "summary": "Start with the old-city temples and cross the river for Wat Arun. Keep shopping and modern-city sights for another day because traffic can turn short distances into long transfers.",
+  "days": 4,
+  "bestMonths": [
+    11,
+    12,
+    1,
+    2
+  ],
+  "seasonNote": "Cooler dry-season months are easiest; April is very hot and rainy-season downpours can flood streets.",
+  "arrival": "Airport Rail Link from Suvarnabhumi connects with the city rail network; Don Mueang has separate rail and bus options.",
+  "gettingAround": "Mix BTS/MRT with river boats; use metered taxis or app bookings when needed.",
+  "cashTip": "Carry small baht notes for boats, markets and food; use ATMs thoughtfully because fees can be high.",
+  "dailyBudget": [
+    1200,
+    2800
+  ],
+  "currency": "THB",
+  "cashPerDay": [
+    700,
+    1500
+  ],
+  "foodTip": "Try boat noodles, pad krapao and mango sticky rice; ask how spicy dishes are and check seafood/pork ingredients.",
+  "buyTip": "Markets suit textiles and small crafts; avoid expensive gemstones bought under pressure.",
+  "baseArea": "Siam/Sukhumvit for trains; riverside or old city for temples.",
+  "connections": [
+    {
+      "to": "chiang-mai",
+      "mode": "Flight",
+      "minutes": 75,
+      "note": "Approximate flight time; overnight sleeper rail is a separate slower option."
+    },
+    {
+      "to": "siem-reap",
+      "mode": "Flight",
+      "minutes": 60,
+      "note": "Check that your flight uses Siem Reap–Angkor airport; road border conditions vary."
+    },
+    {
+      "to": "hanoi",
+      "mode": "Flight",
+      "minutes": 110,
+      "note": "Approximate airborne time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tourism Authority of Thailand temple guide",
+      "url": "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor visitor favourites and review snapshots",
+      "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://thic.or.th/en/tourist/detail/restaurants/640",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://www.maykaidee.com/restaurants/bangkok",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://thipsamai.com/",
+      "type": "official",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "The Grand Palace appeared in visitor favourites with a retrieved 4.2/5 from 36,107 reviews. Temple stops are best grouped geographically; heat, clothing rules and queues affect the experience.",
+  "reviewSource": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+  "items": [
+    {
+      "id": "bangkok-grand-palace-and-wat-phra-kaew",
+      "name": "Grand Palace and Wat Phra Kaew",
+      "kind": "see",
+      "lat": 13.7501,
+      "lon": 100.4913,
+      "wiki": "Grand Palace",
+      "summary": "Ceremonial royal buildings and the Temple of the Emerald Buddha.",
+      "expect": "Crowded courtyards, security checks and strict dress rules.",
+      "tip": "Verify opening with the official venue; ignore unsolicited claims that the palace is closed.",
+      "area": "Old City",
+      "duration": 3,
+      "price": [
+        500,
+        700
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "At opening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "review": {
+        "rating": 4.2,
+        "count": 36102,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. Review entity is The Grand Palace; the separate Emerald Buddha listing is not added.",
+        "entityName": "The Grand Palace"
+      },
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "Ceremonial royal buildings and the Temple of the Emerald Buddha.",
+        "Detailed royal and religious architecture concentrates several visual traditions in one precinct."
+      ],
+      "visitFlow": [
+        "Check official access and dress rules.",
+        "Follow the palace and temple visitor route without accepting unsolicited closure claims."
+      ],
+      "bestFor": "Spiritual, Architecture interests",
+      "tradeoffs": [
+        "Crowded courtyards, security checks and strict dress rules."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-wat-pho",
+      "name": "Wat Pho",
+      "kind": "see",
+      "lat": 13.7465,
+      "lon": 100.4927,
+      "wiki": "Wat Pho",
+      "summary": "The Reclining Buddha and a large temple complex.",
+      "expect": "Temple halls, shoe removal and hot outdoor paths.",
+      "tip": "Bring socks if useful and allow time beyond the main reclining statue.",
+      "area": "Old City",
+      "duration": 1.5,
+      "price": [
+        300,
+        400
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "review": {
+        "rating": 4.6,
+        "count": 51495,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Wat Phra Chetuphon Wimonmangkalaram Ratchaworamahaviharn"
+      },
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "The Reclining Buddha and a large temple complex.",
+        "The monumental reclining image is only one part of a larger decorated temple complex."
+      ],
+      "visitFlow": [
+        "Visit the reclining Buddha hall.",
+        "Continue through open courtyards and quieter temple areas."
+      ],
+      "bestFor": "Spiritual, Architecture interests",
+      "tradeoffs": [
+        "Temple halls, shoe removal and hot outdoor paths."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-wat-arun",
+      "name": "Wat Arun",
+      "kind": "see",
+      "lat": 13.7437,
+      "lon": 100.4889,
+      "wiki": "Wat Arun",
+      "summary": "Porcelain-covered towers on the west bank of the river.",
+      "expect": "Steep steps and exposed surfaces in sun or rain.",
+      "tip": "Use the cross-river ferry where operating; riverbank views are also appealing near dusk.",
+      "area": "Thonburi",
+      "duration": 1.5,
+      "price": [
+        200,
+        300
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Early morning or late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 21551,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Temple Of Dawn (Wat Arun)"
+      },
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "Porcelain-covered towers on the west bank of the river.",
+        "The riverside tower is covered in intricate decorative surfaces that reward close viewing."
+      ],
+      "visitFlow": [
+        "Approach the temple by a sensible river or road route.",
+        "View permitted tower areas and the riverfront before returning."
+      ],
+      "bestFor": "Spiritual, Architecture interests",
+      "tradeoffs": [
+        "Steep steps and exposed surfaces in sun or rain."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-jim-thompson-house",
+      "name": "Jim Thompson House",
+      "kind": "see",
+      "lat": 13.7492,
+      "lon": 100.5282,
+      "wiki": "Jim Thompson House",
+      "summary": "A collection of Thai-style houses and decorative arts.",
+      "expect": "Guided visits and timed group movement through interiors.",
+      "tip": "Check current tour languages and keep a modest buffer for the next group.",
+      "area": "Siam",
+      "duration": 1.5,
+      "price": [
+        200,
+        350
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "review": {
+        "rating": 4.3,
+        "count": 14614,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Jim Thompson House"
+      },
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A collection of Thai-style houses and decorative arts.",
+        "Traditional houses, collected art and the silk-industry story meet in a landscaped urban compound."
+      ],
+      "visitFlow": [
+        "Check the house-tour language and access.",
+        "Follow the interior visit, then explore the garden and shop separately."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": [
+        "Guided visits and timed group movement through interiors."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-lumphini-park",
+      "name": "Lumphini Park",
+      "kind": "see",
+      "lat": 13.731,
+      "lon": 100.5417,
+      "wiki": "Lumphini Park",
+      "summary": "A green pause from Bangkok traffic with lakeside paths.",
+      "expect": "Joggers, exercise groups and resident monitor lizards.",
+      "tip": "Choose cooler hours and give wildlife space.",
+      "area": "Silom",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "review": {
+        "rating": 4.3,
+        "count": 7831,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Lumpini Park"
+      },
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A green pause from Bangkok traffic with lakeside paths.",
+        "Paths, lawns and water give central Bangkok a breathing space with everyday exercise culture."
+      ],
+      "visitFlow": [
+        "Walk a shaded loop in the morning or evening.",
+        "Pause by the lake while keeping distance from wildlife."
+      ],
+      "bestFor": "Nature interests",
+      "tradeoffs": [
+        "Joggers, exercise groups and resident monitor lizards."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-yaowarat-food-walk",
+      "name": "Yaowarat food walk",
+      "kind": "eat",
+      "lat": 13.7395,
+      "lon": 100.5107,
+      "wiki": "Yaowarat Road",
+      "summary": "An evening circuit of Thai-Chinese dishes and desserts.",
+      "expect": "Hot cooking stations, queues and traffic beside the stalls.",
+      "tip": "Pick busy stalls with clearly displayed prices; carry cash and order in small portions.",
+      "area": "Chinatown",
+      "duration": 2,
+      "price": [
+        250,
+        700
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "An evening circuit of Thai-Chinese dishes and desserts.",
+        "Dense Chinese-Thai food businesses turn a short street walk into a varied tasting route."
+      ],
+      "visitFlow": [
+        "Choose a handful of stalls with clear prices.",
+        "Eat modest portions and use designated crossings between stops."
+      ],
+      "bestFor": "Food interests",
+      "tradeoffs": [
+        "Hot cooking stations, queues and traffic beside the stalls."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-chatuchak-weekend-market",
+      "name": "Chatuchak Weekend Market",
+      "kind": "shop",
+      "lat": 13.799,
+      "lon": 100.5503,
+      "wiki": "Chatuchak Weekend Market",
+      "summary": "A vast weekend market for clothes, crafts and household goods.",
+      "expect": "Heat, dense lanes and many sections to navigate.",
+      "tip": "Plan a short shopping list and note your gate; the main market is a weekend visit.",
+      "area": "Chatuchak",
+      "duration": 2.5,
+      "price": [
+        200,
+        1500
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Weekend morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tourismthailand.org/Articles/top-5-must-visit-temples-in-bangkok-once-in-a-lifetime",
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "review": {
+        "rating": 4.3,
+        "count": 18373,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Chatuchak Weekend Market"
+      },
+      "experienceTypes": [
+        "Shopping",
+        "Food"
+      ],
+      "whyVisit": [
+        "A vast weekend market for clothes, crafts and household goods.",
+        "A vast multi-section market offers crafts, clothing and homewares in one place."
+      ],
+      "visitFlow": [
+        "Choose the sections you care about.",
+        "Compare prices and buy only after checking quality and packing needs."
+      ],
+      "bestFor": "Shopping, Food interests",
+      "tradeoffs": [
+        "Heat, dense lanes and many sections to navigate."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-wat-traimit",
+      "name": "Wat Traimit",
+      "kind": "see",
+      "lat": 13.738,
+      "lon": 100.514,
+      "wiki": "Wat Traimit",
+      "area": "Chinatown",
+      "duration": 1,
+      "price": [
+        100,
+        200
+      ],
+      "summary": "A large gold Buddha image anchors this temple near Chinatown.",
+      "expect": "The visit connects easily with a walk through Bangkok’s Chinese commercial neighbourhood.",
+      "tip": "Dress appropriately; museum areas may charge separately.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.4,
+        "count": 8208,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Temple of the Golden Buddha (Wat Traimit)"
+      },
+      "experienceTypes": [
+        "Spiritual",
+        "History"
+      ],
+      "whyVisit": [
+        "A large gold Buddha image anchors this temple near Chinatown.",
+        "The visit connects easily with a walk through Bangkok’s Chinese commercial neighbourhood."
+      ],
+      "visitFlow": [
+        "Visit the Buddha hall respectfully.",
+        "Continue toward Chinatown after checking any museum access."
+      ],
+      "bestFor": "Spiritual, History enthusiasts",
+      "tradeoffs": [
+        "Dress appropriately; museum areas may charge separately."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-king-power-mahanakhon-skywalk",
+      "name": "King Power Mahanakhon SkyWalk",
+      "kind": "see",
+      "lat": 13.723,
+      "lon": 100.529,
+      "wiki": "King Power Mahanakhon SkyWalk",
+      "area": "Silom",
+      "duration": 1.5,
+      "price": [
+        900,
+        1400
+      ],
+      "summary": "An elevated observation deck surveys Bangkok’s dense skyline.",
+      "expect": "The outdoor glass-floor section adds a deliberate thrill to the view.",
+      "tip": "Outdoor access depends on weather and is unsuitable for some visitors afraid of heights.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.5,
+        "count": 1166,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "King Power Mahanakhon"
+      },
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "An elevated observation deck surveys Bangkok’s dense skyline.",
+        "The outdoor glass-floor section adds a deliberate thrill to the view."
+      ],
+      "visitFlow": [
+        "Choose an entry time with good visibility.",
+        "Visit the indoor deck and outdoor areas if open."
+      ],
+      "bestFor": "Architecture, Viewpoint enthusiasts",
+      "tradeoffs": [
+        "Outdoor access depends on weather and is unsuitable for some visitors afraid of heights."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-rajadamnern-muay-thai-stadium",
+      "name": "Rajadamnern Muay Thai Stadium",
+      "kind": "see",
+      "lat": 13.761,
+      "lon": 100.509,
+      "wiki": "Rajadamnern Muay Thai Stadium",
+      "area": "Old Bangkok",
+      "duration": 3,
+      "price": [
+        1500,
+        3500
+      ],
+      "summary": "Watching bouts introduces Thailand’s boxing traditions and live sporting atmosphere.",
+      "expect": "A scheduled fight card creates a focused evening activity beyond markets and temples.",
+      "tip": "This is a contact sport; schedule, rules and seat prices vary.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.9,
+        "count": 3918,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g293916-Activities-Bangkok.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Rajadamnern Muay Thai Stadium"
+      },
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Watching bouts introduces Thailand’s boxing traditions and live sporting atmosphere.",
+        "A scheduled fight card creates a focused evening activity beyond markets and temples."
+      ],
+      "visitFlow": [
+        "Check the official fight programme.",
+        "Choose seating and arrive before the opening bouts."
+      ],
+      "bestFor": "Entertainment enthusiasts",
+      "tradeoffs": [
+        "This is a contact sport; schedule, rules and seat prices vary."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bangkok-usman-thai-muslim-food",
+      "name": "Usman Thai Muslim Food",
+      "kind": "eat",
+      "lat": 13.728,
+      "lon": 100.566,
+      "wiki": "Usman Thai Muslim Food",
+      "area": "Sukhumvit 22",
+      "duration": 1,
+      "price": [
+        250,
+        600
+      ],
+      "summary": "A Thai-Muslim kitchen offers local curries and soups in a sit-down setting.",
+      "expect": "It gives a specific halal-focused option near the Sukhumvit hotel districts.",
+      "tip": "Thailand Halal Information Center describes the venue as halal. No current independent certificate was inspected in this dataset; confirm requested dishes.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://thic.or.th/en/tourist/detail/restaurants/640"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A Thai-Muslim kitchen offers local curries and soups in a sit-down setting.",
+        "It gives a specific halal-focused option near the Sukhumvit hotel districts."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Tom yum, Thai curry with rice."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Thailand Halal Information Center describes the venue as halal. No current independent certificate was inspected in this dataset; confirm requested dishes."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Thai Muslim cuisine",
+      "mustOrder": [
+        "Tom yum",
+        "Thai curry with rice"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://thic.or.th/en/tourist/detail/restaurants/640",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Thailand Halal Information Center describes the venue as halal. No current independent certificate was inspected in this dataset; confirm requested dishes."
+      },
+      "photoQuery": "Tom yum Thai Muslim cuisine",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "bangkok-may-kaidee-bangkok",
+      "name": "May Kaidee Bangkok",
+      "kind": "eat",
+      "lat": 13.762,
+      "lon": 100.499,
+      "wiki": "May Kaidee Bangkok",
+      "area": "Old Bangkok",
+      "duration": 1,
+      "price": [
+        200,
+        450
+      ],
+      "summary": "A vegan Thai menu provides alternatives to dishes usually built with fish sauce or meat stock.",
+      "expect": "The restaurant and cooking-school background make it useful for learning unfamiliar dishes.",
+      "tip": "The operator identifies the Bangkok restaurant as vegan and reports a new location near its older premises. Follow the official map before travelling; no halal certification verified.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.maykaidee.com/restaurants/bangkok"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A vegan Thai menu provides alternatives to dishes usually built with fish sauce or meat stock.",
+        "The restaurant and cooking-school background make it useful for learning unfamiliar dishes."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Vegan pad thai, Pumpkin hummus or seasonal curry."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "The operator identifies the Bangkok restaurant as vegan and reports a new location near its older premises. Follow the official map before travelling; no halal certification verified."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Vegan Thai",
+      "mustOrder": [
+        "Vegan pad thai",
+        "Pumpkin hummus or seasonal curry"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "vegan",
+        "evidence": [
+          {
+            "url": "https://www.maykaidee.com/restaurants/bangkok",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "The operator identifies the Bangkok restaurant as vegan and reports a new location near its older premises. Follow the official map before travelling; no halal certification verified."
+      },
+      "photoQuery": "Vegan pad thai Vegan Thai",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "bangkok-thipsamai-maha-chai-road",
+      "name": "Thipsamai, Maha Chai Road",
+      "kind": "eat",
+      "lat": 13.753,
+      "lon": 100.505,
+      "wiki": "Thipsamai, Maha Chai Road",
+      "area": "Samran Rat",
+      "duration": 1,
+      "price": [
+        150,
+        450
+      ],
+      "summary": "A specialist pad-thai menu highlights wok-fried noodles and shrimp-rich versions.",
+      "expect": "The Maha Chai Road location is convenient after Old Bangkok sightseeing.",
+      "tip": "Shrimp oil, seafood and sauces affect dietary suitability. Ask about current options; no halal or vegetarian preparation verified.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://thipsamai.com/"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A specialist pad-thai menu highlights wok-fried noodles and shrimp-rich versions.",
+        "The Maha Chai Road location is convenient after Old Bangkok sightseeing."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Egg-wrapped shrimp pad thai, Orange juice."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Shrimp oil, seafood and sauces affect dietary suitability. Ask about current options; no halal or vegetarian preparation verified."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Thai pad thai",
+      "mustOrder": [
+        "Egg-wrapped shrimp pad thai",
+        "Orange juice"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://thipsamai.com/",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Shrimp oil, seafood and sauces affect dietary suitability. Ask about current options; no halal or vegetarian preparation verified."
+      },
+      "photoQuery": "Egg-wrapped shrimp pad thai Thai pad thai",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    }
+  ],
+  "popularity": {
+    "tourism": {
+      "rank": 20,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    },
+    "arrivals": {
+      "rank": 1,
+      "count": 30300000,
+      "year": 2025,
+      "url": "https://www.statista.com/chart/35880/top-cities-for-international-visitors-in-2025/",
+      "publisher": "Euromonitor International, figures republished by Statista",
+      "status": "year-end estimate"
+    }
+  }
+}

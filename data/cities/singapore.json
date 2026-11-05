@@ -1,0 +1,821 @@
+{
+  "id": "singapore",
+  "name": "Singapore",
+  "country": "Singapore",
+  "region": "Asia",
+  "lat": 1.3521,
+  "lon": 103.8198,
+  "wiki": "Singapore",
+  "tagline": "Garden architecture and hawker tables",
+  "summary": "Plan outdoor districts early and late, using galleries or conservatories for the hottest hours. Marina Bay, Chinatown and Little India each make coherent walking clusters.",
+  "days": 4,
+  "bestMonths": [
+    2,
+    3,
+    6,
+    7
+  ],
+  "seasonNote": "Hot and humid year-round; sudden rain is normal, and late-year monsoon weather can be wetter.",
+  "arrival": "Changi is linked to the MRT with a transfer at Tanah Merah; taxis are simpler with heavy luggage.",
+  "gettingAround": "MRT and buses cover most visits; contactless payment is useful, with foreign-card fees possible.",
+  "cashTip": "Keep SGD for hawker stalls and small vendors; card acceptance is widespread elsewhere.",
+  "dailyBudget": [
+    55,
+    130
+  ],
+  "currency": "SGD",
+  "cashPerDay": [
+    20,
+    40
+  ],
+  "foodTip": "Hawker centres are ideal for chicken rice, laksa and roti prata; halal-certified and vegetarian stalls are available.",
+  "buyTip": "Look for local design, tea and kaya; check liquids and food-import limits.",
+  "baseArea": "Bugis/City Hall for central links or Chinatown for food.",
+  "connections": [
+    {
+      "to": "kuala-lumpur",
+      "mode": "Flight",
+      "minutes": 65,
+      "note": "Airborne time only; a coach takes much longer and border queues vary."
+    },
+    {
+      "to": "ubud",
+      "mode": "Flight + road",
+      "minutes": 300,
+      "note": "Approximate flight to Denpasar plus road transfer to Ubud; traffic can add hours."
+    },
+    {
+      "to": "bangkok",
+      "mode": "Flight",
+      "minutes": 150,
+      "note": "Approximate airborne time."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Singapore official two-day city guide",
+      "url": "https://www.visitsingapore.com/content/visitsingapore/en/travel-tips/travelling-to-singapore/itineraries/singapore-city-tour-guide/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Gardens by the Bay guide",
+      "url": "https://www.visitsingapore.com/see-do-singapore/nature-wildlife/parks-gardens/gardens-by-the-bay/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "National Gallery guide",
+      "url": "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/civic-district/national-gallery-singapore/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official dining guide",
+      "url": "https://www.visitsingapore.com/things-to-do/dining/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor visitor favourites and review snapshots",
+      "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://www.zamzam.com.sg/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://komalavilas.com.sg/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://guide.michelin.com/us/en/singapore-region/singapore/restaurant/tian-tian-hainanese-chicken-rice",
+      "type": "reference",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "Gardens by the Bay has substantial review evidence: a retrieved snapshot showed 4.7/5 from 62,646 reviews. Compare paid conservatory bundles with the free outdoor gardens to control costs.",
+  "reviewSource": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+  "items": [
+    {
+      "id": "singapore-gardens-by-the-bay",
+      "name": "Gardens by the Bay",
+      "kind": "see",
+      "lat": 1.2816,
+      "lon": 103.8636,
+      "wiki": "Gardens by the Bay",
+      "summary": "Supertrees and major conservatories beside Marina Bay.",
+      "expect": "Outdoor gardens plus separately priced indoor experiences.",
+      "tip": "Check the specific bundle; outdoor wandering and paid domes are different products.",
+      "area": "Marina Bay",
+      "duration": 3,
+      "price": [
+        0,
+        90
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Late afternoon into evening",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.visitsingapore.com/see-do-singapore/nature-wildlife/parks-gardens/gardens-by-the-bay/",
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "review": {
+        "rating": 4.7,
+        "count": 62621,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Gardens by the Bay"
+      },
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Supertrees and major conservatories beside Marina Bay.",
+        "Large-scale planting and engineered Supertrees combine landscape design with spectacle."
+      ],
+      "visitFlow": [
+        "Explore the free outdoor grounds.",
+        "Choose specific paid conservatories or elevated walks according to your interests."
+      ],
+      "bestFor": "Nature interests",
+      "tradeoffs": [
+        "Outdoor gardens plus separately priced indoor experiences."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-marina-bay-sands-skypark",
+      "name": "Marina Bay Sands SkyPark",
+      "kind": "see",
+      "lat": 1.2834,
+      "lon": 103.8607,
+      "wiki": "Marina Bay Sands",
+      "summary": "A paid rooftop observation deck above the bay.",
+      "expect": "Timed admission, open-air heat and weather-sensitive views.",
+      "tip": "An observation ticket does not grant hotel-pool access.",
+      "area": "Marina Bay",
+      "duration": 1.5,
+      "price": [
+        30,
+        45
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Clear sunset",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.visitsingapore.com/content/visitsingapore/en/travel-tips/travelling-to-singapore/itineraries/singapore-city-tour-guide/",
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 17076,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Sands Skypark Observation Deck"
+      },
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A paid rooftop observation deck above the bay.",
+        "The rooftop deck provides an open-air view directly over the bay’s main landmarks."
+      ],
+      "visitFlow": [
+        "Book the observation product rather than assuming pool access.",
+        "Visit when visibility is good and take a full viewing circuit."
+      ],
+      "bestFor": "Viewpoint, Architecture interests",
+      "tradeoffs": [
+        "Timed admission, open-air heat and weather-sensitive views."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-singapore-botanic-gardens",
+      "name": "Singapore Botanic Gardens",
+      "kind": "see",
+      "lat": 1.3138,
+      "lon": 103.8159,
+      "wiki": "Singapore Botanic Gardens",
+      "summary": "A broad tropical garden with lakes and shaded paths.",
+      "expect": "Free main gardens; the orchid garden is separately ticketed.",
+      "tip": "Start early with water and use the nearest MRT exit for your chosen section.",
+      "area": "Tanglin",
+      "duration": 2.5,
+      "price": [
+        0,
+        20
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.visitsingapore.com/content/visitsingapore/en/travel-tips/travelling-to-singapore/itineraries/singapore-city-tour-guide/",
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "review": {
+        "rating": 4.7,
+        "count": 20256,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Singapore Botanic Gardens"
+      },
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A broad tropical garden with lakes and shaded paths.",
+        "Mature tropical planting and spacious paths provide a quieter contrast to Marina Bay."
+      ],
+      "visitFlow": [
+        "Choose a manageable garden loop.",
+        "Add the separately ticketed orchid garden if that is a priority."
+      ],
+      "bestFor": "Nature interests",
+      "tradeoffs": [
+        "Free main gardens; the orchid garden is separately ticketed."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-national-gallery-singapore",
+      "name": "National Gallery Singapore",
+      "kind": "see",
+      "lat": 1.2902,
+      "lon": 103.8515,
+      "wiki": "National Gallery Singapore",
+      "summary": "Southeast Asian art in two restored civic buildings.",
+      "expect": "Large galleries and changing special exhibitions.",
+      "tip": "Check exhibition inclusions and allow a relaxed indoor half day.",
+      "area": "Civic District",
+      "duration": 2.5,
+      "price": [
+        20,
+        40
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Hot or rainy afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.visitsingapore.com/neighbourhood/featured-neighbourhood/civic-district/national-gallery-singapore/",
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Southeast Asian art in two restored civic buildings.",
+        "Art collections are presented inside two major civic buildings."
+      ],
+      "visitFlow": [
+        "Check the current Southeast Asian art galleries.",
+        "Leave time to look at the adapted historic architecture."
+      ],
+      "bestFor": "Art, Architecture interests",
+      "tradeoffs": [
+        "Large galleries and changing special exhibitions."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-little-india-heritage-walk",
+      "name": "Little India heritage walk",
+      "kind": "see",
+      "lat": 1.3068,
+      "lon": 103.8519,
+      "wiki": "Little India, Singapore",
+      "summary": "Temples, colourful shopfronts and a lively cultural district.",
+      "expect": "Busy streets and active places of worship.",
+      "tip": "Wear temple-appropriate clothing and pair a short walk with a food stop.",
+      "area": "Little India",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.visitsingapore.com/content/visitsingapore/en/travel-tips/travelling-to-singapore/itineraries/singapore-city-tour-guide/",
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "History",
+        "Food",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Temples, colourful shopfronts and a lively cultural district.",
+        "Temple façades, produce shops and food businesses show the neighbourhood’s cultural layers at street level."
+      ],
+      "visitFlow": [
+        "Walk a short Serangoon Road side-street circuit.",
+        "Pair it with a named vegetarian meal or respectful public temple visit."
+      ],
+      "bestFor": "History, Food interests",
+      "tradeoffs": [
+        "Busy streets and active places of worship."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-maxwell-food-centre",
+      "name": "Maxwell Food Centre",
+      "kind": "eat",
+      "lat": 1.2803,
+      "lon": 103.8448,
+      "wiki": "Maxwell Food Centre",
+      "summary": "A useful hawker introduction, especially for chicken rice and local drinks.",
+      "expect": "Shared tables, individual stall queues and limited card acceptance.",
+      "tip": "Have cash and choose a backup stall; one famous queue need not consume lunch.",
+      "area": "Chinatown",
+      "duration": 1,
+      "price": [
+        8,
+        18
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Before midday rush",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.visitsingapore.com/things-to-do/dining/",
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A useful hawker introduction, especially for chicken rice and local drinks.",
+        "Many independent hawker stalls make it easy to build a modest meal from different local traditions."
+      ],
+      "visitFlow": [
+        "Choose a specific stall and check its current opening.",
+        "Order one main dish, then find shared seating and return your tray."
+      ],
+      "bestFor": "Food interests",
+      "tradeoffs": [
+        "Shared tables, individual stall queues and limited card acceptance."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-bugis-street-market",
+      "name": "Bugis Street market",
+      "kind": "shop",
+      "lat": 1.3008,
+      "lon": 103.8552,
+      "wiki": "Bugis Street",
+      "summary": "Budget fashion, accessories and small souvenirs near major MRT lines.",
+      "expect": "A dense shopping area with varied quality.",
+      "tip": "Compare identical items and leave room for luggage; browsing costs nothing.",
+      "area": "Bugis",
+      "duration": 1.5,
+      "price": [
+        10,
+        50
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.visitsingapore.com/content/visitsingapore/en/travel-tips/travelling-to-singapore/itineraries/singapore-city-tour-guide/",
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Shopping",
+        "Food"
+      ],
+      "whyVisit": [
+        "Budget fashion, accessories and small souvenirs near major MRT lines.",
+        "A dense retail area offers inexpensive fashion and souvenirs close to other central districts."
+      ],
+      "visitFlow": [
+        "Browse one level or section before buying.",
+        "Check size, quality and return terms because inexpensive items may be final sale."
+      ],
+      "bestFor": "Shopping, Food interests",
+      "tradeoffs": [
+        "A dense shopping area with varied quality."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-singapore-zoo",
+      "name": "Singapore Zoo",
+      "kind": "see",
+      "lat": 1.404,
+      "lon": 103.793,
+      "wiki": "Singapore Zoo",
+      "area": "Mandai",
+      "duration": 5,
+      "price": [
+        45,
+        70
+      ],
+      "summary": "Landscaped animal habitats make the zoo a substantial outdoor family visit.",
+      "expect": "Keepers’ talks and walking routes offer more than a quick photo stop.",
+      "tip": "Mandai is outside the downtown cluster; heat, rain and transport time matter.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.5,
+        "count": 22717,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Singapore Zoo"
+      },
+      "experienceTypes": [
+        "Nature",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Landscaped animal habitats make the zoo a substantial outdoor family visit.",
+        "Keepers’ talks and walking routes offer more than a quick photo stop."
+      ],
+      "visitFlow": [
+        "Reserve a visit date.",
+        "Plan a loop around the habitats and scheduled talks."
+      ],
+      "bestFor": "Nature, Entertainment enthusiasts",
+      "tradeoffs": [
+        "Mandai is outside the downtown cluster; heat, rain and transport time matter."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-merlion-park",
+      "name": "Merlion Park",
+      "kind": "see",
+      "lat": 1.286,
+      "lon": 103.854,
+      "wiki": "Merlion Park",
+      "area": "Marina Bay",
+      "duration": 0.7,
+      "price": [
+        0,
+        0
+      ],
+      "summary": "The Merlion statue gives a recognisable foreground to Marina Bay views.",
+      "expect": "A short promenade links the waterfront with the central business district.",
+      "tip": "The statue area can be crowded and offers little shade.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.2,
+        "count": 9804,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Merlion Park"
+      },
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The Merlion statue gives a recognisable foreground to Marina Bay views.",
+        "A short promenade links the waterfront with the central business district."
+      ],
+      "visitFlow": [
+        "View the statue from the waterfront.",
+        "Continue along the bay promenade."
+      ],
+      "bestFor": "Viewpoint, Architecture enthusiasts",
+      "tradeoffs": [
+        "The statue area can be crowded and offers little shade."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-jewel-changi-airport",
+      "name": "Jewel Changi Airport",
+      "kind": "see",
+      "lat": 1.36,
+      "lon": 103.989,
+      "wiki": "Jewel Changi Airport",
+      "area": "Changi Airport",
+      "duration": 2.5,
+      "price": [
+        0,
+        60
+      ],
+      "summary": "An indoor waterfall is surrounded by a multi-level planted landscape.",
+      "expect": "It can turn airport transfer time into a compact garden and dining visit.",
+      "tip": "Jewel is landside; allow time for immigration and your actual departure terminal.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.5,
+        "count": 1758,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294265-Activities-Singapore.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Jewel Changi Airport"
+      },
+      "experienceTypes": [
+        "Architecture",
+        "Nature",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "An indoor waterfall is surrounded by a multi-level planted landscape.",
+        "It can turn airport transfer time into a compact garden and dining visit."
+      ],
+      "visitFlow": [
+        "Check public-area access and waterfall operating times.",
+        "Walk the free viewing levels before choosing paid attractions."
+      ],
+      "bestFor": "Architecture, Nature enthusiasts",
+      "tradeoffs": [
+        "Jewel is landside; allow time for immigration and your actual departure terminal."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "singapore-singapore-zam-zam",
+      "name": "Singapore Zam Zam",
+      "kind": "eat",
+      "lat": 1.302,
+      "lon": 103.859,
+      "wiki": "Singapore Zam Zam",
+      "area": "Kampong Gelam",
+      "duration": 1,
+      "price": [
+        10,
+        25
+      ],
+      "summary": "Murtabak offers a crisp stuffed flatbread meal in the Kampong Gelam district.",
+      "expect": "The established Indian-Muslim restaurant is directly useful for a Sultan Mosque area visit.",
+      "tip": "Operator describes the restaurant as Indian-Muslim. Do not read this as MUIS certification; no current MUIS certificate was verified.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.zamzam.com.sg/"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Murtabak offers a crisp stuffed flatbread meal in the Kampong Gelam district.",
+        "The established Indian-Muslim restaurant is directly useful for a Sultan Mosque area visit."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Murtabak, Biryani."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Operator describes the restaurant as Indian-Muslim. Do not read this as MUIS certification; no current MUIS certificate was verified."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Indian-Muslim Singaporean",
+      "mustOrder": [
+        "Murtabak",
+        "Biryani"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://www.zamzam.com.sg/",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Operator describes the restaurant as Indian-Muslim. Do not read this as MUIS certification; no current MUIS certificate was verified."
+      },
+      "photoQuery": "Murtabak Indian-Muslim Singaporean",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "singapore-komala-vilas",
+      "name": "Komala Vilas",
+      "kind": "eat",
+      "lat": 1.306,
+      "lon": 103.852,
+      "wiki": "Komala Vilas",
+      "area": "Little India",
+      "duration": 1,
+      "price": [
+        10,
+        22
+      ],
+      "summary": "South Indian rice meals and thosai make a complete dedicated-vegetarian meal.",
+      "expect": "Its long-running Little India setting adds food context to the neighbourhood walk.",
+      "tip": "The official site describes vegetarian cuisine. Dairy is used in some dishes; confirm vegan choices. No halal certification was verified.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://komalavilas.com.sg/"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "South Indian rice meals and thosai make a complete dedicated-vegetarian meal.",
+        "Its long-running Little India setting adds food context to the neighbourhood walk."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Thosai, Vegetarian rice meal."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "The official site describes vegetarian cuisine. Dairy is used in some dishes; confirm vegan choices. No halal certification was verified."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "South Indian vegetarian",
+      "mustOrder": [
+        "Thosai",
+        "Vegetarian rice meal"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "fully-vegetarian",
+        "evidence": [
+          {
+            "url": "https://komalavilas.com.sg/",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "The official site describes vegetarian cuisine. Dairy is used in some dishes; confirm vegan choices. No halal certification was verified."
+      },
+      "photoQuery": "Thosai South Indian vegetarian",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "singapore-tian-tian-hainanese-chicken-rice",
+      "name": "Tian Tian Hainanese Chicken Rice",
+      "kind": "eat",
+      "lat": 1.281,
+      "lon": 103.845,
+      "wiki": "Tian Tian Hainanese Chicken Rice",
+      "area": "Maxwell Food Centre",
+      "duration": 0.7,
+      "price": [
+        6,
+        12
+      ],
+      "summary": "Poached chicken, aromatic rice and dipping sauces show how much flavour a simple hawker plate can carry.",
+      "expect": "The Maxwell stall gives a specific first order within a large food centre.",
+      "tip": "The stall is #01-10/11. Chicken rice is not vegetarian and no halal certification was verified. Queues can be long.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://guide.michelin.com/us/en/singapore-region/singapore/restaurant/tian-tian-hainanese-chicken-rice"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Poached chicken, aromatic rice and dipping sauces show how much flavour a simple hawker plate can carry.",
+        "The Maxwell stall gives a specific first order within a large food centre."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Chicken rice."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "The stall is #01-10/11. Chicken rice is not vegetarian and no halal certification was verified. Queues can be long."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Singaporean hawker chicken rice",
+      "mustOrder": [
+        "Chicken rice"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "none",
+        "evidence": [
+          {
+            "url": "https://guide.michelin.com/us/en/singapore-region/singapore/restaurant/tian-tian-hainanese-chicken-rice",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "The stall is #01-10/11. Chicken rice is not vegetarian and no halal certification was verified. Queues can be long."
+      },
+      "photoQuery": "Chicken rice Singaporean hawker chicken rice",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    }
+  ],
+  "popularity": {
+    "tourism": {
+      "rank": 9,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    }
+  }
+}

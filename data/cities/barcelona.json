@@ -1,0 +1,843 @@
+{
+  "id": "barcelona",
+  "name": "Barcelona",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 41.3874,
+  "lon": 2.1686,
+  "wiki": "Barcelona",
+  "tagline": "Gaudí, Gothic lanes and a Mediterranean table",
+  "summary": "Begin with a timed Sagrada Família visit, then group the Gaudí houses along Passeig de Gràcia. Save a separate walking half-day for the Gothic Quarter and El Born, with food stops and a hilltop or waterfront break.",
+  "days": 4,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn suit long walks; summer can be hot, busy and expensive. Timed attractions benefit from advance booking.",
+  "arrival": "Barcelona–El Prat airport connects by rail, metro, bus and taxi. Choose the route closest to your accommodation and account for terminal transfers.",
+  "gettingAround": "Use metro and buses between districts, then walk within each cluster. Park Güell and Montjuïc involve hills.",
+  "dailyBudget": [
+    60,
+    120
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    20,
+    40
+  ],
+  "cashTip": "Carry a modest amount of local cash for small purchases; use cards where accepted and check menu or ticket prices before paying.",
+  "foodTip": "Try Catalan market cooking and tapas, then use specific vegetarian or operator-stated halal venues when needed.",
+  "buyTip": "Look for ceramics, local design and packaged food; compare products away from the busiest tourist stalls.",
+  "baseArea": "Eixample for transport and Gaudí; El Born or the Gothic Quarter for a walkable old-town base.",
+  "connections": [
+    {
+      "to": "paris",
+      "mode": "Train",
+      "minutes": 390,
+      "note": "Direct high-speed trains are possible; check date-specific departures and book ahead."
+    },
+    {
+      "to": "milan",
+      "mode": "Flight",
+      "minutes": 100,
+      "note": "Air time is an estimate; add airport transfers and check-in."
+    },
+    {
+      "to": "rome",
+      "mode": "Flight",
+      "minutes": 110,
+      "note": "Compare the full airport-to-hotel journey, not air time alone."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gothic Quarter Walk — visitor or menu information",
+      "url": "https://www.barcelonaturisme.com/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor dated review snapshot",
+      "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Sagrada Familia — visitor or menu information",
+      "url": "https://sagradafamilia.org/en/faqs",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Park Guell — visitor or menu information",
+      "url": "https://parkguell.barcelona/en",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Casa Batllo — visitor or menu information",
+      "url": "https://www.casabatllo.es/en/visit/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "La Pedrera Casa Mila — visitor or menu information",
+      "url": "https://www.lapedrera.com/en",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Picasso Museum Barcelona — visitor or menu information",
+      "url": "https://museupicassobcn.cat/en",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Montjuic Castle — visitor or menu information",
+      "url": "https://ajuntament.barcelona.cat/castelldemontjuic/en",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Cal Pep — visitor or menu information",
+      "url": "https://www.calpep.com/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Can Culleretes — visitor or menu information",
+      "url": "https://culleretes.com/en/set-menus/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Vegetalia Born — visitor or menu information",
+      "url": "https://restaurantvegetalia.com/en/born-en/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Cafe Arabia — visitor or menu information",
+      "url": "https://www.cafearabiabarcelona.com/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "La Boqueria Market — visitor or menu information",
+      "url": "https://www.boqueria.barcelona/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor dated review snapshot",
+      "url": "https://www.tripadvisor.co.uk/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor dated review snapshot",
+      "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-c49-t28-Barcelona_Catalonia.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor dated review snapshot",
+      "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-zfr7917633-Barcelona_Catalonia.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "Popularity uses recorded review volume, not measured visitor attendance. Missing snapshots are kept unknown; read the appeal and tradeoffs before choosing.",
+  "reviewSource": "https://www.tripadvisor.com/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+  "items": [
+    {
+      "id": "barcelona-sagrada-familia",
+      "name": "Sagrada Familia",
+      "kind": "see",
+      "lat": 41.4036,
+      "lon": 2.1744,
+      "area": "Eixample",
+      "duration": 2,
+      "price": [
+        26,
+        45
+      ],
+      "wiki": "Sagrada Família",
+      "summary": "Gaudí’s basilica pairs branching columns with stained glass that changes the interior light.",
+      "expect": "The contrasting facades turn biblical stories into sculptural architecture on a vast scale.",
+      "tip": "Tower access is an optional extra with restrictions; timed tickets and worship rules matter.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 1,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://sagradafamilia.org/en/faqs"
+      ],
+      "review": {
+        "rating": 4.7,
+        "count": 168065,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.co.uk/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Architecture",
+        "Art",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Gaudí’s basilica pairs branching columns with stained glass that changes the interior light.",
+        "The contrasting facades turn biblical stories into sculptural architecture on a vast scale."
+      ],
+      "visitFlow": [
+        "Book an official timed ticket.",
+        "Compare the Nativity and Passion facades.",
+        "Spend time inside looking upward and across the coloured light."
+      ],
+      "bestFor": "Visitors interested in architecture and design and art and craft",
+      "tradeoffs": [
+        "Tower access is an optional extra with restrictions; timed tickets and worship rules matter."
+      ]
+    },
+    {
+      "id": "barcelona-park-guell",
+      "name": "Park Guell",
+      "kind": "see",
+      "lat": 41.4145,
+      "lon": 2.1527,
+      "area": "Gràcia hills",
+      "duration": 2,
+      "price": [
+        18,
+        25
+      ],
+      "wiki": "Park Güell",
+      "summary": "Mosaic surfaces and curved structures merge Gaudí’s architecture with a hillside park.",
+      "expect": "The monumental terrace combines close-up craft detail with a broad city outlook.",
+      "tip": "The area is hilly and popular; drainage works or restoration may alter routes.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 2,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://parkguell.barcelona/en"
+      ],
+      "review": {
+        "rating": 4.2,
+        "count": 78894,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.co.uk/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Architecture",
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Mosaic surfaces and curved structures merge Gaudí’s architecture with a hillside park.",
+        "The monumental terrace combines close-up craft detail with a broad city outlook."
+      ],
+      "visitFlow": [
+        "Book entry before climbing to the park.",
+        "Follow the dragon stairway and colonnades.",
+        "Walk to the terrace and quieter paths."
+      ],
+      "bestFor": "Visitors interested in architecture and design and landscapes and wildlife",
+      "tradeoffs": [
+        "The area is hilly and popular; drainage works or restoration may alter routes."
+      ]
+    },
+    {
+      "id": "barcelona-casa-batllo",
+      "name": "Casa Batllo",
+      "kind": "see",
+      "lat": 41.3916,
+      "lon": 2.165,
+      "area": "Passeig de Gràcia",
+      "duration": 1.5,
+      "price": [
+        30,
+        50
+      ],
+      "wiki": "Casa Batlló",
+      "summary": "Organic shapes, coloured light and imaginative ventilation turn a city house into an immersive architectural visit.",
+      "expect": "The facade, stairwell and roof show Gaudí working at the scale of everyday domestic space.",
+      "tip": "Premium multimedia packages cost more; busy rooms can reduce the sense of a quiet house visit.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 3,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://www.casabatllo.es/en/visit/"
+      ],
+      "review": {
+        "rating": 4.6,
+        "count": 59609,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.co.uk/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Architecture",
+        "Art",
+        "Technology"
+      ],
+      "whyVisit": [
+        "Organic shapes, coloured light and imaginative ventilation turn a city house into an immersive architectural visit.",
+        "The facade, stairwell and roof show Gaudí working at the scale of everyday domestic space."
+      ],
+      "visitFlow": [
+        "Reserve a time and the ticket format you actually want.",
+        "Follow the interior route and light well.",
+        "Finish at the roof if your ticket includes access."
+      ],
+      "bestFor": "Visitors interested in architecture and design and art and craft",
+      "tradeoffs": [
+        "Premium multimedia packages cost more; busy rooms can reduce the sense of a quiet house visit."
+      ]
+    },
+    {
+      "id": "barcelona-la-pedrera-casa-mila",
+      "name": "La Pedrera Casa Mila",
+      "kind": "see",
+      "lat": 41.3953,
+      "lon": 2.1619,
+      "area": "Passeig de Gràcia",
+      "duration": 1.5,
+      "price": [
+        25,
+        40
+      ],
+      "wiki": "Casa Milà",
+      "summary": "A sculptural apartment building reveals Gaudí’s structural ideas and wave-like stone facade.",
+      "expect": "The rooftop chimneys and attic displays connect engineering with imaginative form.",
+      "tip": "Roof access is weather-dependent and uneven; special evening visits differ from the standard route.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 4,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://www.lapedrera.com/en"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 24261,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Architecture",
+        "Art"
+      ],
+      "whyVisit": [
+        "A sculptural apartment building reveals Gaudí’s structural ideas and wave-like stone facade.",
+        "The rooftop chimneys and attic displays connect engineering with imaginative form."
+      ],
+      "visitFlow": [
+        "Choose a daytime or special-event ticket.",
+        "Visit the apartment and attic displays.",
+        "Walk the roof route if weather permits."
+      ],
+      "bestFor": "Visitors interested in architecture and design and art and craft",
+      "tradeoffs": [
+        "Roof access is weather-dependent and uneven; special evening visits differ from the standard route."
+      ]
+    },
+    {
+      "id": "barcelona-gothic-quarter-walk",
+      "name": "Gothic Quarter Walk",
+      "kind": "see",
+      "lat": 41.3833,
+      "lon": 2.1761,
+      "area": "Barri Gòtic",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "wiki": "Gothic Quarter, Barcelona",
+      "summary": "Medieval lanes, civic squares and traces of Roman Barcelona make a layered walking route.",
+      "expect": "The compact street pattern lets visitors notice carved details, courtyards and changes in building periods.",
+      "tip": "The district is busy and some famous details are later restorations; paid interiors are separate.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 5,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://www.barcelonaturisme.com/"
+      ],
+      "review": {
+        "rating": 4.6,
+        "count": 40626,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.co.uk/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance. Scope: Gothic Quarter neighbourhood; not a guided walking-tour product.",
+        "scope": "Gothic Quarter neighbourhood; not a guided walking-tour product."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Medieval lanes, civic squares and traces of Roman Barcelona make a layered walking route.",
+        "The compact street pattern lets visitors notice carved details, courtyards and changes in building periods."
+      ],
+      "visitFlow": [
+        "Begin near the cathedral exterior.",
+        "Walk through Plaça del Rei and Plaça Sant Jaume.",
+        "Pause in smaller lanes before continuing to El Born."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "The district is busy and some famous details are later restorations; paid interiors are separate."
+      ]
+    },
+    {
+      "id": "barcelona-picasso-museum-barcelona",
+      "name": "Picasso Museum Barcelona",
+      "kind": "see",
+      "lat": 41.3851,
+      "lon": 2.1809,
+      "area": "El Born",
+      "duration": 2,
+      "price": [
+        14,
+        22
+      ],
+      "wiki": "Museu Picasso",
+      "summary": "Early work and later series reveal Picasso’s development and his ties to Barcelona.",
+      "expect": "Historic palaces provide an intimate setting distinct from a modern white-box gallery.",
+      "tip": "This is especially useful for artistic development; do not expect every globally famous Picasso painting.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 6,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://museupicassobcn.cat/en"
+      ],
+      "review": {
+        "rating": 4.2,
+        "count": 10206,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-c49-t28-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "Early work and later series reveal Picasso’s development and his ties to Barcelona.",
+        "Historic palaces provide an intimate setting distinct from a modern white-box gallery."
+      ],
+      "visitFlow": [
+        "Book a timed entry.",
+        "Follow the early-career rooms.",
+        "Spend time with the Las Meninas series."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "This is especially useful for artistic development; do not expect every globally famous Picasso painting."
+      ]
+    },
+    {
+      "id": "barcelona-montjuic-castle",
+      "name": "Montjuic Castle",
+      "kind": "see",
+      "lat": 41.3633,
+      "lon": 2.166,
+      "area": "Montjuïc",
+      "duration": 2.5,
+      "price": [
+        12,
+        20
+      ],
+      "wiki": "Montjuïc Castle",
+      "summary": "A hilltop fortress links harbour panoramas with a complicated military history.",
+      "expect": "Ramparts and open courtyards provide space and views beyond the dense old city.",
+      "tip": "Cable cars and transport are extra; allow for the uphill approach and exposed weather.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 7,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://ajuntament.barcelona.cat/castelldemontjuic/en"
+      ],
+      "review": {
+        "rating": 4.1,
+        "count": 4181,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-zfr7917633-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A hilltop fortress links harbour panoramas with a complicated military history.",
+        "Ramparts and open courtyards provide space and views beyond the dense old city."
+      ],
+      "visitFlow": [
+        "Choose a bus, walk or separately paid cable car approach.",
+        "Explore the fortress interpretation.",
+        "Walk the permitted ramparts overlooking the port."
+      ],
+      "bestFor": "Visitors interested in history and context and scenic views",
+      "tradeoffs": [
+        "Cable cars and transport are extra; allow for the uphill approach and exposed weather."
+      ]
+    },
+    {
+      "id": "barcelona-cal-pep",
+      "name": "Cal Pep",
+      "kind": "eat",
+      "lat": 41.3839,
+      "lon": 2.1823,
+      "area": "Plaça de les Olles 8",
+      "duration": 1.25,
+      "price": [
+        40,
+        70
+      ],
+      "wiki": "Tapas",
+      "summary": "A lively counter makes the cooking and sharing of tapas part of the meal.",
+      "expect": "The operator describes fresh seasonal produce and a staff-guided selection rather than a fixed tasting checklist.",
+      "tip": "Menus, opening days and queues change; contact the named branch before making a special journey.",
+      "bestTime": "Lunch or early dinner",
+      "reservation": "Recommended",
+      "priority": 8,
+      "priceNote": "Planning allowance per adult for a meal excluding alcohol and optional service; recheck the current menu.",
+      "sourceUrls": [
+        "https://www.calpep.com/"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "No verified item-rating snapshot. Open the source for current visitor reviews."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A lively counter makes the cooking and sharing of tapas part of the meal.",
+        "The operator describes fresh seasonal produce and a staff-guided selection rather than a fixed tasting checklist."
+      ],
+      "visitFlow": [
+        "Check today’s menu and ask about seasonal tapas chosen with the staff.",
+        "Confirm dietary ingredients and the full price before ordering.",
+        "Allow time to eat here before the next sightseeing stop."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Menus, opening days and queues change; contact the named branch before making a special journey."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Catalan tapas",
+      "mustOrder": [
+        "Seasonal tapas chosen with the staff",
+        "Seafood plate if suitable"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://www.calpep.com/",
+            "label": "Menu or dietary information; status scope explained below",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Seafood, meat and alcohol may feature. Explain dietary needs before accepting a chef-selected meal; no halal or fully vegetarian assurance was verified."
+      },
+      "imageSubject": "Illustration of Seasonal tapas chosen with the staff at Cal Pep, Barcelona"
+    },
+    {
+      "id": "barcelona-can-culleretes",
+      "name": "Can Culleretes",
+      "kind": "eat",
+      "lat": 41.3802,
+      "lon": 2.1753,
+      "area": "Carrer d’en Quintana 5",
+      "duration": 1.25,
+      "price": [
+        25,
+        45
+      ],
+      "wiki": "Catalan cuisine",
+      "summary": "A historic dining room serves traditional Catalan market cooking.",
+      "expect": "Fixed-price menus and daily dishes make a more structured alternative to grazing on tapas.",
+      "tip": "Menus, opening days and queues change; contact the named branch before making a special journey.",
+      "bestTime": "Lunch or early dinner",
+      "reservation": "Recommended",
+      "priority": 9,
+      "priceNote": "Planning allowance per adult for a meal excluding alcohol and optional service; recheck the current menu.",
+      "sourceUrls": [
+        "https://culleretes.com/en/set-menus/"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "No verified item-rating snapshot. Open the source for current visitor reviews."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A historic dining room serves traditional Catalan market cooking.",
+        "Fixed-price menus and daily dishes make a more structured alternative to grazing on tapas."
+      ],
+      "visitFlow": [
+        "Check today’s menu and ask about catalan daily main.",
+        "Confirm dietary ingredients and the full price before ordering.",
+        "Allow time to eat here before the next sightseeing stop."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Menus, opening days and queues change; contact the named branch before making a special journey."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Traditional Catalan",
+      "mustOrder": [
+        "Catalan daily main",
+        "Homemade dessert"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://culleretes.com/en/set-menus/",
+            "label": "Menu or dietary information; status scope explained below",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Ask for current vegetarian adaptations and stock ingredients. No halal assurance was verified; traditional recipes may contain pork or wine."
+      },
+      "imageSubject": "Illustration of Catalan daily main at Can Culleretes, Barcelona"
+    },
+    {
+      "id": "barcelona-vegetalia-born",
+      "name": "Vegetalia Born",
+      "kind": "eat",
+      "lat": 41.3833,
+      "lon": 2.1826,
+      "area": "Plaça del Fossar de les Moreres",
+      "duration": 1.25,
+      "price": [
+        18,
+        30
+      ],
+      "wiki": "Vegetarian cuisine",
+      "summary": "A dedicated vegetarian restaurant makes a full meal simple near Santa Maria del Mar.",
+      "expect": "The operator identifies both vegetarian and vegan cooking at this specific Born branch.",
+      "tip": "Menus, opening days and queues change; contact the named branch before making a special journey.",
+      "bestTime": "Lunch or early dinner",
+      "reservation": "Recommended",
+      "priority": 10,
+      "priceNote": "Planning allowance per adult for a meal excluding alcohol and optional service; recheck the current menu.",
+      "sourceUrls": [
+        "https://restaurantvegetalia.com/en/born-en/"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "No verified item-rating snapshot. Open the source for current visitor reviews."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A dedicated vegetarian restaurant makes a full meal simple near Santa Maria del Mar.",
+        "The operator identifies both vegetarian and vegan cooking at this specific Born branch."
+      ],
+      "visitFlow": [
+        "Check today’s menu and ask about seasonal vegetarian plate.",
+        "Confirm dietary ingredients and the full price before ordering.",
+        "Allow time to eat here before the next sightseeing stop."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Menus, opening days and queues change; contact the named branch before making a special journey."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Vegetarian Mediterranean",
+      "mustOrder": [
+        "Seasonal vegetarian plate",
+        "Vegan main from the current menu"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "fully-vegetarian",
+        "evidence": [
+          {
+            "url": "https://restaurantvegetalia.com/en/born-en/",
+            "label": "Menu or dietary information; status scope explained below",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Operator describes vegetarian and vegan cuisine. Choose vegan dishes explicitly; halal assurance is unverified."
+      },
+      "imageSubject": "Illustration of Seasonal vegetarian plate at Vegetalia Born, Barcelona"
+    },
+    {
+      "id": "barcelona-cafe-arabia",
+      "name": "Cafe Arabia",
+      "kind": "eat",
+      "lat": 41.3794,
+      "lon": 2.1773,
+      "area": "Carrer dels Escudellers 25",
+      "duration": 1.25,
+      "price": [
+        25,
+        45
+      ],
+      "wiki": "Meze",
+      "summary": "A central Lebanese restaurant offers named mezze dishes and grilled mains.",
+      "expect": "The operator explicitly identifies itself as halal and publishes vegetable-based starters.",
+      "tip": "Menus, opening days and queues change; contact the named branch before making a special journey.",
+      "bestTime": "Lunch or early dinner",
+      "reservation": "Recommended",
+      "priority": 11,
+      "priceNote": "Planning allowance per adult for a meal excluding alcohol and optional service; recheck the current menu.",
+      "sourceUrls": [
+        "https://www.cafearabiabarcelona.com/"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "No verified item-rating snapshot. Open the source for current visitor reviews."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A central Lebanese restaurant offers named mezze dishes and grilled mains.",
+        "The operator explicitly identifies itself as halal and publishes vegetable-based starters."
+      ],
+      "visitFlow": [
+        "Check today’s menu and ask about hummus and mutabal.",
+        "Confirm dietary ingredients and the full price before ordering.",
+        "Allow time to eat here before the next sightseeing stop."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Menus, opening days and queues change; contact the named branch before making a special journey."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Lebanese and Middle Eastern",
+      "mustOrder": [
+        "Hummus and mutabal",
+        "Falafel",
+        "Spinach fatayer"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "options",
+        "evidence": [
+          {
+            "url": "https://www.cafearabiabarcelona.com/menu-2/",
+            "label": "Menu or dietary information; status scope explained below",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Operator calls the restaurant halal; independent certification was not examined. Spain’s official Muslim-traveller guide notes alcohol is served. Confirm preparation and individual dishes."
+      },
+      "imageSubject": "Illustration of Hummus and mutabal at Cafe Arabia, Barcelona"
+    },
+    {
+      "id": "barcelona-la-boqueria-market",
+      "name": "La Boqueria Market",
+      "kind": "shop",
+      "lat": 41.3817,
+      "lon": 2.1715,
+      "area": "La Rambla",
+      "duration": 1,
+      "price": [
+        0,
+        25
+      ],
+      "wiki": "La Boqueria",
+      "summary": "A large covered market brings produce, spices, sweets and prepared food into one colourful walk.",
+      "expect": "It is a useful place to compare small food purchases before choosing a meal elsewhere.",
+      "tip": "Entry is free; spending is optional and tourist-facing stalls can be expensive. Respect vendors and shoppers.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 12,
+      "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
+      "sourceUrls": [
+        "https://www.boqueria.barcelona/"
+      ],
+      "review": {
+        "rating": 4.5,
+        "count": 27330,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.co.uk/Attractions-g187497-Activities-Barcelona_Catalonia.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot retrieved 4 Nov 2026. Review counts measure platform activity, not visitor attendance."
+      },
+      "sourceNote": "Linked operator, destination, review or directory evidence supports the description; check each source’s provenance. Spending, durations and approximate coordinates are planning estimates.",
+      "experienceTypes": [
+        "Shopping",
+        "Food"
+      ],
+      "whyVisit": [
+        "A large covered market brings produce, spices, sweets and prepared food into one colourful walk.",
+        "It is a useful place to compare small food purchases before choosing a meal elsewhere."
+      ],
+      "visitFlow": [
+        "Visit earlier for a working-market atmosphere.",
+        "Browse a few aisles away from the main entrance.",
+        "Ask prices before buying a small snack or packaged gift."
+      ],
+      "bestFor": "Visitors interested in local shopping and regional food",
+      "tradeoffs": [
+        "Entry is free; spending is optional and tourist-facing stalls can be expensive. Respect vendors and shoppers."
+      ]
+    }
+  ],
+  "popularity": {
+    "tourism": {
+      "rank": 8,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    }
+  }
+}

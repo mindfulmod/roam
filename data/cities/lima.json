@@ -1,0 +1,849 @@
+{
+  "id": "lima",
+  "name": "Lima",
+  "country": "Peru",
+  "region": "South America",
+  "lat": -12.0464,
+  "lon": -77.0428,
+  "wiki": "Lima",
+  "tagline": "Coastal walks and a food-first arrival",
+  "summary": "Use Lima for a gentle landing, coastal neighbourhoods and Peru’s archaeological context. Give its food and museums two real days before flying inland.",
+  "days": 3,
+  "bestMonths": [
+    1,
+    2,
+    3,
+    4,
+    11,
+    12
+  ],
+  "seasonNote": "Coastal summer is sunnier; winter often has cool grey skies but remains good for museums and food.",
+  "arrival": "LIM is outside the main visitor districts; use an authorized transfer and allow generous traffic time.",
+  "gettingAround": "Group visits by Miraflores/Barranco, central Lima and Pueblo Libre; cross-city journeys can be slow.",
+  "cashTip": "Cards are common in established restaurants; small soles notes help for markets and taxis.",
+  "dailyBudget": [
+    140,
+    300
+  ],
+  "currency": "PEN",
+  "cashPerDay": [
+    50,
+    100
+  ],
+  "foodTip": "Ceviche is a classic lunch; also try causa, lomo saltado and picarones.",
+  "buyTip": "Buy packaged coffee, chocolate, textiles or contemporary craft; confirm food import rules.",
+  "baseArea": "Miraflores for convenience; Barranco for galleries and atmosphere.",
+  "connections": [
+    {
+      "to": "cusco",
+      "mode": "Flight",
+      "minutes": 90,
+      "note": "Approximate air time; book a separate transfer buffer."
+    },
+    {
+      "to": "arequipa",
+      "mode": "Flight",
+      "minutes": 95,
+      "note": "Approximate air time, plus airport processes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official Lima destination guide",
+      "url": "https://www.peru.travel/destinations/lima",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Huacas Pucllana and Huallamarca",
+      "url": "https://www.peru.travel/attractions/huaca-pucllana-and-huaca-huallamarca",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Visitor attraction listings",
+      "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://www.peru.travel/es/inspirate/circuito-magico-del-agua-hermoso-conjunto-de-fuentes-ubicado-en-lima",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://mali.pe/es/visitas/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://museos.cultura.pe/index.php/museos/museo-de-sitio-pachacamac",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Visitor listing / dietary listing",
+      "url": "https://server.happycow.net/reviews/el-jardin-de-jazmin-lima-58946",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://www.dhaasucocina.com/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://www.dhaasucocina.com/menu",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://isolina.pe/",
+      "type": "official",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "Miraflores has a 4.6/5 indexed snapshot with 15,857 reviews; visitor listings also foreground Museo Larco and culinary experiences.",
+  "reviewSource": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+  "items": [
+    {
+      "id": "lima-larco",
+      "name": "Museo Larco",
+      "kind": "see",
+      "lat": -12.072,
+      "lon": -77.07,
+      "wiki": "Larco Museum",
+      "summary": "A strong introduction to pre-Columbian Peru in an elegant museum setting.",
+      "expect": "Ceramics, metalwork and gardens; allow time before continuing to another district.",
+      "tip": "Useful early in a Peru trip so later archaeological visits have context.",
+      "area": "Pueblo Libre",
+      "duration": 2,
+      "price": [
+        40,
+        60
+      ],
+      "priceNote": "Planning estimate per adult; check the current official price.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.peru.travel/destinations/lima",
+        "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html"
+      ],
+      "review": {
+        "rating": 4.8,
+        "count": 12852,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "History",
+        "Art"
+      ],
+      "whyVisit": [
+        "Ceramics and metalwork give a visual introduction to pre-Columbian Peru.",
+        "The museum setting and gardens make the context easier to absorb before a larger archaeology trip."
+      ],
+      "visitFlow": [
+        "Start with the introductory galleries.",
+        "Look closely at selected ceramic and metal objects, then pause in the gardens."
+      ],
+      "bestFor": "Context before visiting Peruvian ruins",
+      "tradeoffs": "Ceramics, metalwork and gardens; allow time before continuing to another district."
+    },
+    {
+      "id": "lima-miraflores",
+      "name": "Miraflores Malecón",
+      "kind": "see",
+      "lat": -12.129,
+      "lon": -77.033,
+      "wiki": "Miraflores District, Lima",
+      "summary": "Clifftop paths connect ocean views, parks and cafés.",
+      "expect": "Mostly easy walking with wind and changing coastal visibility.",
+      "tip": "Walk between Parque del Amor and Larcomar; use sun protection even with cloud.",
+      "area": "Miraflores",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Public coastal paths are free.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.peru.travel/destinations/lima",
+        "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html"
+      ],
+      "review": {
+        "rating": 4.6,
+        "count": 5484,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Miraflores Boardwalk listing, matching this coastal walking stop; not the broader Miraflores district. Review count is not footfall."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Clifftop paths link several parks with continuous Pacific views.",
+        "It is a flexible, low-commitment way to understand Lima’s coastal setting."
+      ],
+      "visitFlow": [
+        "Start near Parque del Amor.",
+        "Follow the coastal paths toward Larcomar and stop where visibility is clearest."
+      ],
+      "bestFor": "An easy outdoor orientation walk",
+      "tradeoffs": "Mostly easy walking with wind and changing coastal visibility."
+    },
+    {
+      "id": "lima-barranco",
+      "name": "Barranco & Bridge of Sighs",
+      "kind": "see",
+      "lat": -12.149,
+      "lon": -77.021,
+      "wiki": "Barranco District",
+      "summary": "Colourful streets, galleries and the little bridge make an atmospheric neighbourhood walk.",
+      "expect": "Street art, cafés and slopes toward the coast.",
+      "tip": "Visit in daylight, then have an early dinner; ask before photographing residents.",
+      "area": "Barranco",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Street walk is free; galleries and food extra.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.peru.travel/destinations/lima",
+        "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 6895,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Colourful streets, galleries and murals make visual culture part of the neighbourhood walk.",
+        "The Bridge of Sighs and coastal slopes give the route a distinct small-scale setting."
+      ],
+      "visitFlow": [
+        "Walk the central streets in daylight.",
+        "Cross the bridge, browse a gallery if open and finish with a planned meal."
+      ],
+      "bestFor": "Street art and neighbourhood atmosphere",
+      "tradeoffs": "Street art, cafés and slopes toward the coast."
+    },
+    {
+      "id": "lima-historic",
+      "name": "Plaza Mayor & historic centre",
+      "kind": "see",
+      "lat": -12.0453,
+      "lon": -77.0306,
+      "wiki": "Plaza Mayor, Lima",
+      "summary": "Colonial plazas and monumental buildings show another side of the capital.",
+      "expect": "Traffic-heavy transfers and crowded streets; many interiors charge separately.",
+      "tip": "Arrange transport both ways and stay on established visitor routes.",
+      "area": "Centro Histórico",
+      "duration": 3,
+      "price": [
+        0,
+        50
+      ],
+      "priceNote": "Planning allowance for optional church or museum entry; square itself free.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.peru.travel/destinations/lima",
+        "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 8255,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The main plaza gathers monumental civic and religious architecture.",
+        "It shows a different historical layer from the modern coastal districts."
+      ],
+      "visitFlow": [
+        "Arrange transport into the centre.",
+        "Walk the plaza and nearby established visitor streets, choosing any paid interior separately."
+      ],
+      "bestFor": "Colonial city architecture",
+      "tradeoffs": "Traffic-heavy transfers and crowded streets; many interiors charge separately."
+    },
+    {
+      "id": "lima-pucllana",
+      "name": "Huaca Pucllana",
+      "kind": "see",
+      "lat": -12.111,
+      "lon": -77.033,
+      "wiki": "Huaca Pucllana",
+      "summary": "An adobe ceremonial pyramid stands amid modern Miraflores.",
+      "expect": "A guided archaeological visit with exposed paths.",
+      "tip": "Check language, tour times and booking before walking over.",
+      "area": "Miraflores",
+      "duration": 1.5,
+      "price": [
+        15,
+        35
+      ],
+      "priceNote": "Planning estimate per adult; check the current official price.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.peru.travel/attractions/huaca-pucllana-and-huaca-huallamarca"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 7598,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "An adobe ceremonial pyramid stands among modern Miraflores buildings.",
+        "The urban setting makes the contrast between ancient and current Lima immediately clear."
+      ],
+      "visitFlow": [
+        "Book the appropriate tour language and time.",
+        "Follow the archaeological circuit and compare the construction with the surrounding city."
+      ],
+      "bestFor": "Archaeology without a full-day transfer",
+      "tradeoffs": "A guided archaeological visit with exposed paths."
+    },
+    {
+      "id": "lima-ceviche",
+      "name": "Ceviche lunch in Miraflores",
+      "kind": "eat",
+      "lat": -12.122,
+      "lon": -77.03,
+      "wiki": "Ceviche",
+      "summary": "Taste lime-cured fish with corn and sweet potato, or choose a cooked seafood alternative.",
+      "expect": "Lunch is the natural time; menus and spice levels vary.",
+      "tip": "Pick an established busy restaurant and ask about seafood allergens and raw preparation.",
+      "area": "Miraflores",
+      "duration": 1.5,
+      "price": [
+        45,
+        100
+      ],
+      "priceNote": "Planning estimate for one casual meal or snack; purchases optional.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.peru.travel/destinations/lima",
+        "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Included in the researched destination shortlist; no verified numeric rating snapshot. Open current visitor reviews."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Taste lime-cured fish with corn and sweet potato, or choose a cooked seafood alternative.",
+        "This stop introduces everyday food and ingredients in the neighbourhood you are already exploring."
+      ],
+      "visitFlow": [
+        "Choose a busy named stall or restaurant and check the current menu.",
+        "Pick an established busy restaurant and ask about seafood allergens and raw preparation."
+      ],
+      "bestFor": "Casual regional food during a sightseeing day",
+      "tradeoffs": "Lunch is the natural time; menus and spice levels vary.",
+      "venueType": "food-area",
+      "cuisine": "Regional food",
+      "mustOrder": [],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [],
+        "note": "This is a general food area or supply stop, not a verified restaurant. Choose a named venue for dietary evidence; do not infer halal or vegetarian suitability from the dish name."
+      }
+    },
+    {
+      "id": "lima-indian-market",
+      "name": "Miraflores artisan market",
+      "kind": "shop",
+      "lat": -12.115,
+      "lon": -77.028,
+      "wiki": "Peruvian handicrafts",
+      "summary": "Browse textiles, ceramics and souvenirs near Petit Thouars.",
+      "expect": "Many similar stalls; quality and fibres differ considerably.",
+      "tip": "Compare several stalls, check labels and prefer makers who explain provenance.",
+      "area": "Miraflores / Petit Thouars",
+      "duration": 1,
+      "price": [
+        0,
+        180
+      ],
+      "priceNote": "Free to browse; planning allowance for optional purchases.",
+      "bestTime": "Daytime",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.peru.travel/attractions/huaca-pucllana-and-huaca-huallamarca"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Included in the researched destination shortlist; no verified numeric rating snapshot. Open current visitor reviews."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Shopping",
+        "Art"
+      ],
+      "whyVisit": [
+        "Browse textiles, ceramics and souvenirs near Petit Thouars.",
+        "Comparing several makers or stalls makes it easier to choose something connected to the place."
+      ],
+      "visitFlow": [
+        "Browse a small selection before choosing.",
+        "Compare several stalls, check labels and prefer makers who explain provenance."
+      ],
+      "bestFor": "Local crafts and practical souvenirs",
+      "tradeoffs": "Many similar stalls; quality and fibres differ considerably."
+    },
+    {
+      "id": "lima-water-circuit",
+      "name": "Circuito Mágico del Agua",
+      "kind": "see",
+      "lat": -12.0704,
+      "lon": -77.0334,
+      "wiki": "Circuito Mágico del Agua",
+      "summary": "An evening park of illuminated fountains, music and projected water shows.",
+      "expect": "Families, crowds and occasional spray; this is a show park, not an archaeological site.",
+      "tip": "Check the official page before setting out.",
+      "area": "Parque de la Reserva",
+      "duration": 2,
+      "price": [
+        5,
+        20
+      ],
+      "priceNote": "Planning estimate in local currency; confirm the current price and what is included.",
+      "bestTime": "After dusk",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.peru.travel/es/inspirate/circuito-magico-del-agua-hermoso-conjunto-de-fuentes-ubicado-en-lima"
+      ],
+      "review": {
+        "rating": 4.6,
+        "count": 19358,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Entertainment",
+        "Technology"
+      ],
+      "whyVisit": [
+        "Thirteen fountains turn water, light and movement into an accessible evening spectacle.",
+        "It offers a family-oriented outdoor experience different from Lima’s museums and ruins."
+      ],
+      "visitFlow": [
+        "Check the show time and enter before your chosen display.",
+        "Walk the fountain circuit and watch from the dry viewing areas."
+      ],
+      "bestFor": "Entertainment, Technology interests",
+      "tradeoffs": "The main appeal depends on darkness and show operations."
+    },
+    {
+      "id": "lima-mali",
+      "name": "MALI · Museo de Arte de Lima",
+      "kind": "see",
+      "lat": -12.0605,
+      "lon": -77.0368,
+      "wiki": "Lima Art Museum",
+      "summary": "Explore Peruvian art in the city’s historic exhibition palace.",
+      "expect": "An indoor museum visit with a changing exhibition programme.",
+      "tip": "Check the official page before setting out.",
+      "area": "Parque de la Exposición",
+      "duration": 2,
+      "price": [
+        40,
+        40
+      ],
+      "priceNote": "Planning estimate in local currency; confirm the current price and what is included.",
+      "bestTime": "Daytime",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://mali.pe/es/visitas/"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Art",
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Collections connect different periods of Peruvian artistic production.",
+        "A single admission covers the collection and current temporary exhibitions."
+      ],
+      "visitFlow": [
+        "Choose the collection rooms that match your interests.",
+        "Leave time for the temporary exhibition before returning to the park."
+      ],
+      "bestFor": "Art, History, Architecture interests",
+      "tradeoffs": "Museum opening days matter; foreign-resident and nonresident rates differ."
+    },
+    {
+      "id": "lima-pachacamac",
+      "name": "Pachacámac sanctuary & site museum",
+      "kind": "see",
+      "lat": -12.2568,
+      "lon": -76.9002,
+      "wiki": "Pachacámac",
+      "summary": "Visit a major pre-Hispanic pilgrimage complex in an open coastal-desert landscape.",
+      "expect": "A substantial road transfer plus exposed walking; not a quick Miraflores stop.",
+      "tip": "Check the official page before setting out.",
+      "area": "Lurín · south of Lima",
+      "duration": 3,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Planning estimate in local currency; confirm the current price and what is included.",
+      "bestTime": "Daytime",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://museos.cultura.pe/index.php/museos/museo-de-sitio-pachacamac"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": true,
+      "optional": true,
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The archaeological sanctuary expands Peru’s story beyond the Inca heartland.",
+        "The site museum supplies context before the large outdoor ruins."
+      ],
+      "visitFlow": [
+        "Start in the site museum.",
+        "Follow the open archaeological circuit with sun protection and water."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": "Traffic and heat can dominate the outing; arrange the return journey."
+    },
+    {
+      "id": "lima-jardin-jazmin",
+      "name": "El Jardín de Jazmín",
+      "kind": "eat",
+      "lat": -12.1238,
+      "lon": -77.0297,
+      "wiki": "El Jardín de Jazmín",
+      "summary": "A vegan Miraflores choice for a casual burger or substantial sandwich.",
+      "expect": "A specific venue rather than a broad food district; menus and table availability change.",
+      "tip": "Check the menu and booking policy before travelling to the restaurant.",
+      "area": "Miraflores · Av. Benavides571 int107",
+      "duration": 1.25,
+      "price": [
+        25,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner during current opening hours",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://server.happycow.net/reviews/el-jardin-de-jazmin-lima-58946"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A vegan Miraflores choice for a casual burger or substantial sandwich.",
+        "The vegan format offers a clear starting point for diners seeking a meal beyond side dishes."
+      ],
+      "visitFlow": [
+        "Confirm your dietary needs with the server before ordering.",
+        "Order the suggested dish and allow time for a relaxed meal."
+      ],
+      "bestFor": "Vegan comfort food and a planned meal stop",
+      "tradeoffs": "Allow for queues or reservations; dietary suitability is dish-specific.",
+      "venueType": "restaurant",
+      "cuisine": "Vegan comfort food",
+      "mustOrder": [
+        "Plant-based burger",
+        "Lentil or chickpea sandwich"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "vegan",
+        "evidence": [
+          {
+            "url": "https://server.happycow.net/reviews/el-jardin-de-jazmin-lima-58946",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "HappyCow classifies this venue as vegan; listing reports relocation to Benavides571. No halal assurance. Confirm the current entrance before travelling."
+      },
+      "photoQuery": "vegan burger",
+      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+    },
+    {
+      "id": "lima-dhaasu",
+      "name": "Dhaasu Cocina India",
+      "kind": "eat",
+      "lat": -12.1104,
+      "lon": -77.0492,
+      "wiki": "Dhaasu Cocina India",
+      "summary": "An Indian menu with clearly identifiable chickpea and paneer choices in Miraflores.",
+      "expect": "A specific venue rather than a broad food district; menus and table availability change.",
+      "tip": "Check the menu and booking policy before travelling to the restaurant.",
+      "area": "Miraflores · Av. Mariscal La Mar1167",
+      "duration": 1.25,
+      "price": [
+        35,
+        75
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner during current opening hours",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.dhaasucocina.com/",
+        "https://www.dhaasucocina.com/menu"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "An Indian menu with clearly identifiable chickpea and paneer choices in Miraflores.",
+        "The official menu separates identifiable chickpea and paneer choices, making meal selection easier."
+      ],
+      "visitFlow": [
+        "Confirm your dietary needs with the server before ordering.",
+        "Order the suggested dish and allow time for a relaxed meal."
+      ],
+      "bestFor": "Indian and a planned meal stop",
+      "tradeoffs": "Allow for queues or reservations; dietary suitability is dish-specific.",
+      "venueType": "restaurant",
+      "cuisine": "Indian",
+      "mustOrder": [
+        "Chana masala",
+        "Paneer tikka masala"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [
+          {
+            "url": "https://www.dhaasucocina.com/",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          },
+          {
+            "url": "https://www.dhaasucocina.com/menu",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Official menu labels chana masala vegan and lists paneer dishes. No official halal claim found; Indian cuisine is not evidence of halal status."
+      },
+      "photoQuery": "chana masala",
+      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+    },
+    {
+      "id": "lima-isolina",
+      "name": "Isolina Taberna Peruana",
+      "kind": "eat",
+      "lat": -12.1491,
+      "lon": -77.0235,
+      "wiki": "Isolina Taberna Peruana",
+      "summary": "A Barranco tavern for substantial Peruvian home-style dishes, often suited to sharing.",
+      "expect": "A specific venue rather than a broad food district; menus and table availability change.",
+      "tip": "Check the menu and booking policy before travelling to the restaurant.",
+      "area": "Barranco · Prolongación San Martín101",
+      "duration": 1.25,
+      "price": [
+        70,
+        160
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner during current opening hours",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://isolina.pe/"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g294316-Activities-Lima_Lima_Region.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A Barranco tavern for substantial Peruvian home-style dishes, often suited to sharing.",
+        "Generous tavern-style dishes make sharing useful when you want to sample more than one preparation."
+      ],
+      "visitFlow": [
+        "Confirm your dietary needs with the server before ordering.",
+        "Order the suggested dish and allow time for a relaxed meal."
+      ],
+      "bestFor": "Peruvian criollo tavern and a planned meal stop",
+      "tradeoffs": "Allow for queues or reservations; dietary suitability is dish-specific.",
+      "venueType": "restaurant",
+      "cuisine": "Peruvian criollo tavern",
+      "mustOrder": [
+        "Seasonal criollo stew",
+        "Causa when offered"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://isolina.pe/",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "A meat-focused traditional menu; ask for a current vegetarian dish. No halal assurance found."
+      },
+      "photoQuery": "Peruvian seco stew",
+      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+    }
+  ],
+  "budgetNote": "Per-person daily planning estimate for meals, local transport and modest sightseeing; lodging, intercity travel and major excursions are additional.",
+  "popularity": {
+    "tourism": {
+      "rank": 84,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    }
+  },
+  "dayClusters": [
+    {
+      "label": "Miraflores archaeology, crafts and coast",
+      "items": [
+        "lima-pucllana",
+        "lima-indian-market",
+        "lima-miraflores"
+      ],
+      "days": 1,
+      "note": "Check the Huaca tour slot first, browse nearby craft stalls, then walk the coastal paths. Use short rides between inland Miraflores and the cliffs as needed."
+    },
+    {
+      "label": "Historic Lima and Museo Larco",
+      "items": [
+        "lima-historic",
+        "lima-larco"
+      ],
+      "days": 1,
+      "note": "Visit the central streets in daylight, then transfer to Pueblo Libre for Museo Larco. These are two districts: allow a substantial taxi/traffic buffer rather than treating them as one walking route."
+    },
+    {
+      "label": "A coastal lunch and Barranco afternoon",
+      "items": [
+        "lima-ceviche",
+        "lima-barranco"
+      ],
+      "days": 1,
+      "note": "Have lunch in Miraflores, then transfer to Barranco for galleries and the neighbourhood walk. The spare time is useful for restaurant reservations or weather changes."
+    }
+  ]
+}

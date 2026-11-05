@@ -1,0 +1,2343 @@
+'use strict';
+const CITIES = DATA.cities,
+  C = Object.fromEntries(CITIES.map((c) => [c.id, c]));
+const PLACES = CITIES.flatMap((c) =>
+    c.items.map((p) => ({ ...p, cityId: c.id, cityName: c.name, currency: c.currency })),
+  ),
+  P = Object.fromEntries(PLACES.map((p) => [p.id, p]));
+const PHOTO = DATA.photos,
+  CHECKED = '4 November 2026';
+const validCity = (id) => typeof id === 'string' && Object.hasOwn(C, id),
+  validPlace = (id) => typeof id === 'string' && Object.hasOwn(P, id);
+function validDate(value) {
+  if (typeof value !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(value)) return false;
+  const d = new Date(value + 'T12:00:00Z');
+  return Number.isFinite(d.getTime()) && d.toISOString().slice(0, 10) === value;
+}
+const $ = (s) => document.querySelector(s),
+  $$ = (s) => Array.from(document.querySelectorAll(s));
+const esc = (s) =>
+  String(s ?? '').replace(
+    /[&<>"']/g,
+    (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
+  );
+const paths = {
+  search: 'm21 21-4.5-4.5M10.5 18a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15',
+  arrow: 'M5 12h14m-5-5 5 5-5 5',
+  left: 'M19 12H5m5-5-5 5 5 5',
+  pin: 'M20 10c0 6-8 12-8 12S4 16 4 10a8 8 0 0 1 16 0ZM15 10a3 3 0 1 1-6 0 3 3 0 0 1 6 0',
+  map: 'm3 5 6-2 6 2 6-2v16l-6 2-6-2-6 2Zm6-2v16m6-14v16',
+  heart:
+    'M20.8 4.6a5.5 5.5 0 0 0-7.8 0L12 5.7l-1.1-1.1a5.5 5.5 0 0 0-7.8 7.8L12 21l8.8-8.6a5.5 5.5 0 0 0 0-7.8Z',
+  plus: 'M12 5v14M5 12h14',
+  check: 'm5 12 4 4L19 6',
+  clock: 'M12 8v5l3 2M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0',
+  route:
+    'M5 3v12a4 4 0 0 0 4 4h6a4 4 0 0 0 4-4V9M8 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0M22 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0',
+  compass: 'm16 8-2 6-6 2 2-6Zm6 4a10 10 0 1 1-20 0 10 10 0 0 1 20 0',
+  book: 'M4 3h6a3 3 0 0 1 3 3v15a4 4 0 0 0-4-3H3V3Zm9 3a3 3 0 0 1 3-3h5v15h-4a4 4 0 0 0-4 3',
+  download: 'M12 3v12m-5-5 5 5 5-5M4 16v5h16v-5',
+  upload: 'M12 16V4m-5 5 5-5 5 5M4 16v5h16v-5',
+  external: 'M14 3h7v7M21 3l-9 9M10 3H4v17h17v-6',
+  close: 'm6 6 12 12M6 18 18 6',
+  star: 'm12 3 2.8 5.8 6.4.9-4.6 4.5 1.1 6.4-5.7-3-5.7 3 1.1-6.4L2.8 9.7l6.4-.9Z',
+  sun: 'M12 2v2m0 16v2M2 12h2m16 0h2M5 5l1.5 1.5m11 11L19 19M5 19l1.5-1.5m11-11L19 5M17 12a5 5 0 1 1-10 0 5 5 0 0 1 10 0',
+  wallet: 'M3 6h17v15H3V6Zm0 0V3h14v3M20 11h-6v5h6',
+  train:
+    'M7 3h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V6a3 3 0 0 1 3-3ZM4 10h16M8 15h.01M16 15h.01M7 19l-2 3m12-3 2 3',
+  food: 'M4 2v6c0 3 6 3 6 0V2M7 2v20M19 2c-4 4-4 10 0 10V2Zm0 10v10',
+  bag: 'M4 7h16l1 15H3Zm4 0V5a4 4 0 0 1 8 0v2',
+  list: 'M8 6h13M8 12h13M8 18h13M3 6h.01M3 12h.01M3 18h.01',
+  up: 'm6 15 6-6 6 6',
+  down: 'm6 9 6 6 6-6',
+  trash: 'M3 6h18M9 6V3h6v3M5 6l1 15h12l1-15M10 10v7m4-7v7',
+  info: 'M12 11v6M12 7h.01M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0',
+  locate: 'M12 2v3m0 14v3M2 12h3m14 0h3M19 12a7 7 0 1 1-14 0 7 7 0 0 1 14 0',
+  print: 'M7 9V3h10v6M7 17H3V9h18v8h-4M7 14h10v8H7Z',
+  shuffle: 'm3 5 4 0 10 14h4m-4-4 4 4-4 3M3 19h4L17 5h4m-4-3 4 3-4 4',
+  globe: 'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M2 12h20M12 2c5 5 5 15 0 20-5-5-5-15 0-20',
+};
+function icon(name) {
+  return `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name] || paths.pin}"/></svg>`;
+}
+const defaultState = () => ({
+  saved: [],
+  trip: [],
+  days: {},
+  visited: [],
+  notes: {},
+  startDate: '',
+  pace: 'balanced',
+  people: 1,
+  lodging: {},
+  extra: {},
+  street: true,
+  checklist: [],
+  stays: {},
+});
+let S = defaultState(),
+  storageOK = true;
+try {
+  const s = JSON.parse(localStorage.getItem('roam-atlas-v1') || 'null');
+  if (s) S = cleanState(s);
+} catch (e) {
+  storageOK = false;
+}
+function cleanState(s) {
+  if (!s || typeof s !== 'object' || Array.isArray(s)) return defaultState();
+  const d = defaultState();
+  d.saved = [...new Set(Array.isArray(s.saved) ? s.saved : [])]
+    .filter(validPlace)
+    .slice(0, PLACES.length);
+  d.trip = [...new Set(Array.isArray(s.trip) ? s.trip : [])]
+    .filter(validCity)
+    .slice(0, CITIES.length);
+  d.visited = [...new Set(Array.isArray(s.visited) ? s.visited : [])].filter(validPlace);
+  for (const id of CITIES.map((c) => c.id)) {
+    if (Number.isFinite(Number(s.days?.[id])))
+      d.days[id] = Math.min(21, Math.max(1, Math.round(Number(s.days[id]))));
+    if (Number.isFinite(Number(s.lodging?.[id])))
+      d.lodging[id] = Math.min(1e8, Math.max(0, Number(s.lodging[id])));
+    if (Number.isFinite(Number(s.extra?.[id])))
+      d.extra[id] = Math.min(1e9, Math.max(0, Number(s.extra[id])));
+  }
+  for (const id of [...CITIES.map((c) => c.id), ...PLACES.map((p) => p.id)]) {
+    if (typeof s.notes?.[id] === 'string') d.notes[id] = s.notes[id].slice(0, 4000);
+  }
+  for (const id of CITIES.map((c) => c.id)) {
+    const stay = normalStay(s.stays?.[id]);
+    if (stay) d.stays[id] = stay;
+  }
+  d.startDate = validDate(s.startDate) ? s.startDate : '';
+  d.pace = ['relaxed', 'balanced', 'full'].includes(s.pace) ? s.pace : 'balanced';
+  d.people = Math.min(20, Math.max(1, Math.round(Number(s.people) || 1)));
+  d.street = s.street !== false;
+  d.checklist = Array.isArray(s.checklist)
+    ? s.checklist.filter((x) => typeof x === 'string' && x.length < 80).slice(0, 30)
+    : [];
+  return d;
+}
+function persist() {
+  try {
+    localStorage.setItem('roam-atlas-v1', JSON.stringify(S));
+  } catch (e) {
+    storageOK = false;
+    toast('Browser saving is unavailable. Export your trip to keep it.');
+  }
+  updateCounts();
+}
+let browseQuery = '',
+  browseRegion = 'All',
+  cityFilter = 'see',
+  placeSort = 'popularity',
+  map = null,
+  markerLayer = null,
+  streetLayer = null,
+  routeLayer = null,
+  mapMarkers = {},
+  mapCity = '',
+  mapKind = 'all',
+  mapQuery = '',
+  mapDiet = 'all',
+  modalFocus = null,
+  toastTimer = null;
+const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+function num(n) {
+  return Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
+}
+function money(n, c) {
+  return `${c} ${num(n)}`;
+}
+function range(r, c) {
+  return r[0] === r[1] ? money(r[0], c) : `${c} ${num(r[0])}–${num(r[1])}`;
+}
+function priceLabel(p) {
+  if (p.price[1] === 0)
+    return /pass|admission|included|ticket/i.test(p.priceNote || '')
+      ? 'Covered by entry / pass'
+      : 'Free to explore';
+  return range(p.price, p.currency);
+}
+function imageFor(id) {
+  return PHOTO[id]?.data || '';
+}
+function photoTag(id, cls = '', lazy = true) {
+  const p = PHOTO[id];
+  return p
+    ? `<img src="${p.data}" alt="${esc(p.alt || p.title)}" ${cls ? `class="${cls}"` : ''} ${lazy ? 'loading="lazy"' : ''} decoding="async">`
+    : '';
+}
+function photoCredit(id) {
+  const p = PHOTO[id];
+  if (!p) return '';
+  const provider = p.provider || 'Pexels';
+  return `<a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer" title="${esc(p.title)}">Photo: ${esc(p.author || provider + ' contributor')} / ${esc(provider)}</a> · <a href="${esc(p.licenseUrl || p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.license || 'Photo licence')}</a> · resized / cropped`;
+}
+function photoContext(id) {
+  const p = PHOTO[id];
+  if (!p?.context) return '';
+  return (
+    p.contextNote ||
+    (P[id]?.kind === 'eat'
+      ? 'Representative cuisine, not the named venue or proof of dietary suitability. Shown: ' +
+        p.title +
+        '.'
+      : 'Representative location context. Shown: ' +
+        p.title +
+        '. The exact place is not verified in this image.')
+  );
+}
+function contextBadge(id) {
+  return PHOTO[id]?.context
+    ? `<span class="photo-context" title="${esc(photoContext(id))}">Representative ${P[id]?.kind === 'eat' ? 'cuisine' : 'location'} photo</span>`
+    : '';
+}
+function saved(id) {
+  return S.saved.includes(id);
+}
+function inTrip(id) {
+  return S.trip.includes(id);
+}
+function saveButton(id) {
+  return `<button class="iconbtn ${saved(id) ? 'saved' : ''}" data-action="save" data-id="${id}" aria-label="${saved(id) ? 'Unsave' : 'Save'} ${esc(P[id]?.name || 'place')}" title="${saved(id) ? 'Saved' : 'Save place'}">${icon(saved(id) ? 'check' : 'heart')}</button>`;
+}
+function cityAdd(id, small = false) {
+  return `<button class="${small ? 'iconbtn addcity' : 'btn light small'} ${inTrip(id) && small ? 'saved' : ''}" data-action="trip-toggle" data-id="${id}" aria-label="${inTrip(id) ? 'Remove' : 'Add'} ${esc(C[id].name)} ${inTrip(id) ? 'from' : 'to'} trip">${icon(inTrip(id) ? 'check' : 'plus')}${small ? '' : inTrip(id) ? 'In your trip' : 'Add to trip'}</button>`;
+}
+function mapsPin(p) {
+  return (
+    'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent(`${p.name}, ${p.cityName || p.name}, ${C[p.cityId]?.country || p.country}`)
+  );
+}
+function mapsCoordinate(p) {
+  return (
+    'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${p.lat},${p.lon}`)
+  );
+}
+function mapsDirections(points, mode) {
+  if (!points.length) return '#';
+  const q = new URLSearchParams({
+    api: '1',
+    destination: `${points.at(-1).lat},${points.at(-1).lon}`,
+    travelmode: mode || 'walking',
+  });
+  if (points.length > 1) q.set('origin', `${points[0].lat},${points[0].lon}`);
+  if (points.length > 2)
+    q.set(
+      'waypoints',
+      points
+        .slice(1, -1)
+        .map((p) => `${p.lat},${p.lon}`)
+        .join('|'),
+    );
+  return 'https://www.google.com/maps/dir/?' + q;
+}
+function external(url, text, cls = '') {
+  return `<a ${cls ? `class="${cls}"` : ''} href="${esc(url)}" target="_blank" rel="noopener noreferrer">${text}</a>`;
+}
+function rating(p) {
+  return p.review?.rating
+    ? `<span class="rating">★ ${Number(p.review.rating).toFixed(1)} <span class="muted">(${num(p.review.count || 0)})</span></span>`
+    : '<span class="muted">Curated pick</span>';
+}
+function toast(t) {
+  $('.toast')?.remove();
+  const x = document.createElement('div');
+  x.className = 'toast';
+  x.setAttribute('role', 'status');
+  x.textContent = t;
+  document.body.appendChild(x);
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(() => x.remove(), 3500);
+}
+function updateCounts() {
+  $$('.saved-count').forEach((e) => (e.textContent = S.saved.length));
+  $$('.trip-count').forEach((e) => (e.textContent = S.trip.length));
+}
+function headerActive(page) {
+  $$('.nav a').forEach((a) => a.classList.toggle('active', a.dataset.nav === page));
+  updateCounts();
+}
+function footer() {
+  return `<footer class="footer"><div>Roam Atlas · Made for the journey.<br>Research retrieved ${CHECKED}. Fees and availability can change.</div><div><a href="#/guide">Sources & how this works</a> · <button class="inline-link" data-action="export">Export your trip</button><br>Guide, photos and pins work offline. Street tiles and external links need internet.</div></footer>`;
+}
+const TEMPLATES = [
+  {
+    id: 'japan',
+    title: 'The Japan first-timer',
+    tag: '12 city days + 2 transfer days · rail',
+    cities: ['tokyo', 'kyoto', 'osaka'],
+    days: [5, 4, 3],
+    note: 'Tokyo → Kyoto → Osaka. Consider arriving in Tokyo and flying home from Kansai to reduce backtracking. Allow two travel days in addition to these city days.',
+    highlights: 'Asakusa mornings, Kyoto temple trails and Osaka food streets.',
+    warning:
+      'Book popular timed attractions early. Nara is a separate day trip; compare point-to-point rail fares before buying a pass.',
+  },
+  {
+    id: 'peru',
+    title: 'Peru beyond Machu Picchu',
+    tag: '12 city days + 2 transfer days',
+    cities: ['lima', 'arequipa', 'cusco'],
+    days: [3, 3, 6],
+    note: 'Lima → Arequipa → Cusco, then Sacred Valley and Machu Picchu from Cusco. International flights commonly connect through Lima; add travel days and a return buffer.',
+    highlights: 'Coastal food, white-stone Arequipa and the Sacred Valley.',
+    warning:
+      'Keep arrival in Cusco gentle and allow adjustment to altitude. Secure the precise Machu Picchu circuit and timed ticket before train or tour commitments. Machu Picchu needs 1–2 days.',
+  },
+  {
+    id: 'southwest',
+    title: 'The great Southwest loop',
+    tag: '13 city days + 3 transfer days',
+    cities: ['las-vegas', 'springdale', 'moab', 'flagstaff'],
+    days: [2, 4, 4, 3],
+    note: 'Las Vegas → Springdale/Zion → Moab → Flagstaff/Grand Canyon. This is an open route; add the return to Las Vegas if your rental requires it.',
+    highlights: 'Zion walls, red-rock arches and Grand Canyon horizons.',
+    warning:
+      'Long driving days need buffers. Check road conditions, heat, trail permits and the current U.S. nonresident park fee/pass rules before buying.',
+  },
+  {
+    id: 'italy',
+    title: 'Italy by rail',
+    tag: '13 city days + 3 transfer days',
+    cities: ['venice', 'florence', 'rome', 'naples'],
+    days: [3, 3, 4, 3],
+    note: 'A north-to-south sequence with Venice, Florence, Rome and Naples. Open-jaw flights can avoid a return journey.',
+    highlights: 'Canals, Renaissance art, Roman history and Neapolitan food.',
+    warning:
+      'Book major museums and ruins in advance. Add intercity travel time; do not schedule a timed attraction immediately after a train arrival.',
+  },
+  {
+    id: 'greece',
+    title: 'Greece: city to islands',
+    tag: '11 city days + 2 transfer days',
+    cities: ['athens', 'santorini', 'chania'],
+    days: [3, 3, 5],
+    note: 'Athens → Santorini → Crete/Chania. Ferries to Crete may arrive at Heraklion; Chania is then a separate transfer.',
+    highlights: 'Classical sites, caldera paths and Cretan food.',
+    warning:
+      'Ferry routes are seasonal and weather-sensitive. Confirm your exact ports and sailing dates; avoid a tight island-to-international-flight connection.',
+  },
+  {
+    id: 'southeast',
+    title: 'A Southeast Asia sampler',
+    tag: '12 city days + 3 transfer days',
+    cities: ['bangkok', 'chiang-mai', 'siem-reap', 'hanoi'],
+    days: [3, 3, 3, 3],
+    note: 'Bangkok and Chiang Mai pair naturally. Continue to Siem Reap and Hanoi after checking whether flights require connections.',
+    highlights: 'Temples, northern Thai food, Angkor and Old Quarter lanes.',
+    warning:
+      'This is a multi-country route. Check entry requirements for your passport, flight connections and seasonal smoke/rain before booking.',
+  },
+  {
+    id: 'egypt',
+    title: 'Egypt’s ancient corridor',
+    tag: '8 city days + 1 transfer day',
+    cities: ['cairo', 'luxor'],
+    days: [4, 4],
+    note: 'Cairo → Luxor. Add an optional Nile cruise or Aswan extension beyond this guide.',
+    highlights: 'Pyramids, museum collections and the Valley of the Kings.',
+    warning:
+      'Check exactly which tombs and museum sections a ticket includes; special entries can cost extra.',
+  },
+  {
+    id: 'east-africa',
+    title: 'East Africa city & safari',
+    tag: '10–14+ days · guided overland / flights',
+    cities: ['nairobi', 'arusha'],
+    days: [4, 5],
+    note: 'Start in Nairobi, then cross into Tanzania for Arusha and an individually quoted safari. Reserve separate multi-day safari blocks.',
+    highlights: 'Wildlife close to Nairobi and the northern Tanzania circuit.',
+    warning:
+      'Safari quotes must spell out park/concession fees, vehicle, guide, lodging and transfers. Budget substantially beyond ordinary city spending.',
+  },
+  {
+    id: 'morocco',
+    title: 'Morocco’s medinas',
+    tag: '8 city days + 1 transfer day',
+    cities: ['marrakech', 'fez'],
+    days: [4, 4],
+    note: 'Marrakech → Fez; the transfer is long. Consider a stop in Rabat or a deliberately booked desert circuit beyond the covered destinations.',
+    highlights: 'Craft traditions, courtyard architecture and market food.',
+    warning:
+      'A Sahara trip is not a quick detour from either city. Agree prices for guides and purchases before committing.',
+  },
+  {
+    id: 'yellowstone',
+    title: 'The northern park pair',
+    tag: '7+ days · rental car',
+    cities: ['jackson'],
+    days: [7],
+    note: 'Base the Grand Teton section near Jackson, then move accommodation closer to the Yellowstone areas you plan to visit.',
+    highlights: 'Teton views, geyser basins and wildlife at a distance.',
+    warning:
+      'Jackson is not a practical daily base for every part of Yellowstone. Seasonal road openings, wildfire conditions and lodging availability shape the route.',
+  },
+];
+function cityTabLegacy(c, tab) {
+  if (tab === 'arrival')
+    return `<div class="infogrid">${[
+      ['train', 'From the airport / station', c.arrival],
+      ['route', 'Getting around', c.gettingAround],
+      ['pin', 'Where to base yourself', c.baseArea],
+      [
+        'wallet',
+        'Cash to carry',
+        c.cashTip +
+          ' Suggested accessible cash: ' +
+          range(c.cashPerDay, c.currency) +
+          ' per person/day. This is part of your spending budget, not an additional charge.',
+      ],
+      ['food', 'What to eat', c.foodTip],
+      ['bag', 'What to bring home', c.buyTip],
+      ['sun', 'When to go', c.seasonNote],
+    ]
+      .map(
+        ([i, t, b]) =>
+          `<section class="infocard"><h3>${icon(i)}${esc(t)}</h3><p>${esc(b)}</p></section>`,
+      )
+      .join(
+        '',
+      )}<section class="infocard wide"><h3>${icon('wallet')}Your daily planning allowance</h3><p>${range(c.dailyBudget, c.currency)} per person/day. ${esc(c.budgetNote || 'Planning estimate for food, local transport and ordinary sightseeing.')} Hotels, intercity transport, shopping and premium excursions are extra. Amounts are editorial planning ranges, not current quotes. Adjust accommodation and special-excursion allowances in your trip.</p></section></div>`;
+  if (tab === 'sources')
+    return `<div class="reviewstrip">${icon('star')}<p>${esc(c.reviewSummary)}<br>${external(c.reviewSource, 'Open visitor evidence ↗')}</p></div><div class="source-list">${c.sources.map((s) => `<div class="source-row"><div>${external(s.url, esc(s.title) + ' ↗')}<br><small>${esc(new URL(s.url).hostname)}</small></div><span class="pill ${s.type === 'reviews' ? 'warm' : 'gray'}">${s.type}</span></div>`).join('')}</div><div class="info-note">Retrieved ${CHECKED}. “Retrieved” is the research access date; some indexed pages and review counts may have been crawled earlier. Recheck official hours, ticket types and current visitor reviews before committing.</div><h3 style="margin-top:30px">Photography</h3><div class="source-list">${[c.id, ...c.items.map((p) => p.id)].map((id) => `<div class="source-row"><div>${esc(id === c.id ? c.name : P[id].name)}<br><small>${photoCredit(id)}${PHOTO[id]?.context ? ' · representative image' : ''}</small></div></div>`).join('')}</div>`;
+  return `<div class="reviewstrip">${icon('star')}<p><strong>Why these places?</strong> ${esc(c.reviewSummary)} ${external(c.reviewSource, 'Visitor evidence ↗')}</p></div><div class="searchrow" style="justify-content:space-between;flex-wrap:wrap"><div class="chips" style="margin:0">${[
+    ['all', 'All places'],
+    ['see', 'See & do'],
+    ['eat', 'Eat & drink'],
+    ['shop', 'Shop'],
+    ['saved', 'Saved'],
+  ]
+    .map(
+      ([k, t]) =>
+        `<button class="chip ${cityFilter === k ? 'active' : ''}" data-action="city-filter" data-id="${k}">${t}</button>`,
+    )
+    .join(
+      '',
+    )}</div><select id="place-sort" aria-label="Sort places" style="padding:9px;border:1px solid var(--line);border-radius:8px;color:var(--ink);background:white"><option value="recommended" ${placeSort === 'recommended' ? 'selected' : ''}>Suggested visit priority</option><option value="rating" ${placeSort === 'rating' ? 'selected' : ''}>Visitor rating snapshots</option><option value="cost" ${placeSort === 'cost' ? 'selected' : ''}>Lowest starting cost</option></select></div><div class="placegrid" id="city-places">${getCityPlaces(c).map(placeCard).join('') || '<div class="no-results">No saved places here yet. Tap a heart to keep a place.</div>'}</div>`;
+}
+function showModal(content, label = 'Details') {
+  closeStayMap();
+  if (!$('.modal-backdrop')) modalFocus = document.activeElement;
+  $('.modal-backdrop')?.remove();
+  const x = document.createElement('div');
+  x.className = 'modal-backdrop';
+  x.innerHTML = `<section class="modal" role="dialog" aria-modal="true" aria-label="${esc(label)}"><button class="iconbtn close" data-action="close-modal" aria-label="Close dialog">${icon('close')}</button>${content}</section>`;
+  document.body.appendChild(x);
+  document.body.style.overflow = 'hidden';
+  x.querySelector('.close').focus();
+  x.addEventListener('click', (e) => {
+    if (e.target === x) closeModal();
+  });
+}
+function closeModal() {
+  closeStayMap();
+  $('.modal-backdrop')?.remove();
+  document.body.style.overflow = '';
+  if (modalFocus?.isConnected) modalFocus.focus();
+}
+function toggleSave(id) {
+  if (!validPlace(id)) return;
+  S.saved = saved(id) ? S.saved.filter((x) => x !== id) : [...S.saved, id];
+  persist();
+  $$(`[data-action="save"][data-id="${id}"]`).forEach((b) => {
+    b.classList.toggle('saved', saved(id));
+    b.innerHTML = icon(saved(id) ? 'check' : 'heart');
+    b.setAttribute('aria-label', (saved(id) ? 'Unsave ' : 'Save ') + P[id].name);
+    b.title = saved(id) ? 'Saved' : 'Save place';
+  });
+  toast(saved(id) ? 'Saved to your places.' : 'Removed from saved places.');
+  if (location.hash.startsWith('#/saved')) renderSaved();
+  else if (location.hash.startsWith('#/city') && cityFilter === 'saved') refreshCityResults();
+  if (map) {
+    if (mapKind === 'saved') renderMapPins(false);
+    else
+      mapMarkers[id]
+        ?.getElement()
+        ?.querySelector('.map-pin')
+        ?.classList.toggle('selected', saved(id));
+  }
+}
+function toggleTrip(id) {
+  if (!validCity(id)) return;
+  const had = inTrip(id);
+  S.trip = had ? S.trip.filter((x) => x !== id) : [...S.trip, id];
+  if (!S.days[id]) S.days[id] = C[id].days;
+  persist();
+  $$(`[data-action="trip-toggle"][data-id="${id}"]`).forEach((b) => {
+    const sm = b.classList.contains('addcity');
+    b.classList.toggle('saved', !had && sm);
+    b.innerHTML = icon(had ? 'plus' : 'check') + (sm ? '' : had ? 'Add to trip' : 'In your trip');
+    b.setAttribute(
+      'aria-label',
+      `${had ? 'Add' : 'Remove'} ${C[id].name} ${had ? 'to' : 'from'} trip`,
+    );
+  });
+  if (location.hash.startsWith('#/trip')) renderTrip();
+  toast(had ? `${C[id].name} removed from trip.` : `${C[id].name} added to your trip.`);
+}
+function hav(a, b) {
+  const r = Math.PI / 180,
+    dl = (b.lat - a.lat) * r,
+    dn = (b.lon - a.lon) * r;
+  const x =
+    Math.sin(dl / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dn / 2) ** 2;
+  return 6371 * 2 * Math.atan2(Math.sqrt(x), Math.sqrt(Math.max(0, 1 - x)));
+}
+function routeDist(ids) {
+  return ids.slice(1).reduce((s, id, i) => s + hav(C[ids[i]], C[id]), 0);
+}
+function optimizeRoute() {
+  if (S.trip.length < 3) {
+    toast('Add at least three destinations to compare the order.');
+    return;
+  }
+  const original = [...S.trip],
+    left = S.trip.slice(1),
+    out = [S.trip[0]];
+  while (left.length) {
+    left.sort((a, b) => hav(C[out.at(-1)], C[a]) - hav(C[out.at(-1)], C[b]));
+    out.push(left.shift());
+  }
+  let changed = true,
+    rounds = 0;
+  while (changed && rounds++ < 20) {
+    changed = false;
+    for (let i = 1; i < out.length - 1; i++) {
+      for (let j = i + 1; j < out.length; j++) {
+        const cand = [...out.slice(0, i), ...out.slice(i, j + 1).reverse(), ...out.slice(j + 1)];
+        if (routeDist(cand) < routeDist(out) - 0.1) {
+          out.splice(0, out.length, ...cand);
+          changed = true;
+        }
+      }
+    }
+  }
+  if (routeDist(out) > routeDist(original)) S.trip = original;
+  else S.trip = out;
+  persist();
+  renderTrip();
+  toast('Suggested order updated. First city kept fixed; check actual transport links.');
+}
+function leg(a, b) {
+  const known =
+    a.connections?.find((x) => x.to === b.id) || b.connections?.find((x) => x.to === a.id);
+  const d = hav(a, b);
+  if (known)
+    return { mode: known.mode, minutes: known.minutes, note: known.note, known: true, distance: d };
+  return {
+    mode:
+      d > 850 || a.region !== b.region
+        ? 'Check flights / connections'
+        : 'Check rail, road or ferry',
+    minutes: null,
+    note: 'No verified direct transport link is stored for this pair. Geographic proximity alone does not establish a usable route.',
+    known: false,
+    distance: d,
+  };
+}
+function durationLabel(m) {
+  if (!m || !Number.isFinite(Number(m))) return '';
+  return m >= 60
+    ? `${Math.floor(m / 60)} h${m % 60 ? ' ' + Math.round(m % 60) + ' min' : ''}`
+    : `${Math.round(m)} min`;
+}
+function transferDays() {
+  return Math.max(0, S.trip.length - 1);
+}
+function totalDays() {
+  return S.trip.reduce((s, id) => s + (S.days[id] || C[id].days), 0);
+}
+function tripBudgets() {
+  const out = {};
+  for (const id of S.trip) {
+    const c = C[id],
+      d = S.days[id] || c.days,
+      extra = Number(S.extra[id]) || 0,
+      hotel = (Number(S.lodging[id]) || 0) * d,
+      k = c.currency;
+    out[k] ??= [0, 0];
+    out[k][0] += (c.dailyBudget[0] * d + extra + hotel) * S.people;
+    out[k][1] += (c.dailyBudget[1] * d + extra + hotel) * S.people;
+  }
+  return out;
+}
+function timeRank(p) {
+  const t = (p.bestTime || '').toLowerCase();
+  if (/before departure|buy.*before|prepare|supplies/.test(t)) return -1;
+  if (/breakfast|sunrise|dawn|early morning|opening|early start/.test(t)) return 0;
+  if (/morning/.test(t)) return 1;
+  if (/lunch|midday/.test(t)) return 2;
+  if (/sunset|late afternoon/.test(t)) return 4;
+  if (/evening|night|dusk/.test(t)) return 5;
+  if (/afternoon/.test(t)) return 3;
+  return 2;
+}
+function plannedHours(items) {
+  return (
+    items.reduce((n, p) => n + p.duration, 0) +
+    items.slice(1).reduce((n, p, i) => {
+      const d = hav(items[i], p);
+      return n + Math.max(0.2, d < 2 ? d / 4 : 0.35 + d / 22);
+    }, 0)
+  );
+}
+function citySchedule(c) {
+  const days = S.days[c.id] || c.days,
+    cap = S.pace === 'relaxed' ? 5 : S.pace === 'full' ? 9 : 7,
+    maxStops = S.pace === 'relaxed' ? 2 : S.pace === 'full' ? 4 : 3;
+  let chosen = c.items.map((p) => P[p.id]).filter((p) => saved(p.id));
+  const manual = chosen.length > 0;
+  if (!manual) chosen = c.items.map((p) => P[p.id]).sort((a, b) => a.priority - b.priority);
+  const wanted = new Set(chosen.map((p) => p.id));
+  const byTime = (items) => [...items].sort((a, b) => timeRank(a) - timeRank(b));
+  let groups = [];
+  if (c.dayClusters?.length) {
+    groups = c.dayClusters
+      .map((g) => ({
+        ...g,
+        curated: true,
+        items: g.items.filter((id) => wanted.has(id)).map((id) => P[id]),
+      }))
+      .filter((g) => g.items.length);
+    const grouped = new Set(groups.flatMap((g) => g.items.map((p) => p.id)));
+    for (const p of chosen.filter((p) => !grouped.has(p.id)))
+      groups.push({
+        label: p.area,
+        items: [p],
+        days: p.duration > 16 ? Math.ceil(p.duration / 12) : 1,
+        note: '',
+      });
+  } else {
+    const local = chosen.filter((p) => !p.excursion && p.duration < 6 && hav(c, p) < 40);
+    let left = [...local];
+    while (left.length) {
+      left.sort((a, b) => a.priority - b.priority || (a.kind === 'see' ? -1 : 1));
+      let items = [left.shift()];
+      while (items.length < maxStops && left.length) {
+        const prev = items.at(-1);
+        left.sort((a, b) => hav(prev, a) - hav(prev, b));
+        const j = left.findIndex(
+          (p) => hav(prev, p) < 5 && plannedHours(byTime([...items, p])) <= cap,
+        );
+        if (j < 0) break;
+        items = byTime([...items, left.splice(j, 1)[0]]);
+      }
+      groups.push({
+        label: [...new Set(items.map((p) => p.area))].join(' / '),
+        items,
+        days: 1,
+        note: 'Check opening hours and any reserved entry slot before following this sequence.',
+      });
+    }
+    for (const p of chosen.filter((p) => !local.includes(p)))
+      groups.push({
+        label: p.area,
+        items: [p],
+        days: p.duration > 16 ? Math.ceil(p.duration / 12) : 1,
+        note:
+          p.duration > 16
+            ? 'Reserve consecutive days and an overnight stay.'
+            : 'Dedicate this day to the excursion and confirm access/transport.',
+      });
+  }
+  const bins = [],
+    used = new Set();
+  function addDay(g, items, extra = {}) {
+    const hours = plannedHours(items);
+    // A curated park group is an editorial day, not a bag of independent outings.
+    // Keep its order. Surface a pace warning instead of secretly splitting it.
+    const paceWarning = items.length > maxStops || hours > cap;
+    const note = [
+      g.note || '',
+      paceWarning
+        ? `This recommended day is longer than your ${S.pace} pace or has more stops. Shorten the visits, omit a stop, or add time; the group is kept together to avoid repeat journeys. Summed time estimates may overlap within a park excursion.`
+        : '',
+    ]
+      .filter(Boolean)
+      .join(' ');
+    items.forEach((p) => used.add(p.id));
+    bins.push({
+      items,
+      hours,
+      excursion: items.some((p) => p.excursion || p.duration >= 6 || hav(c, p) > 40),
+      label: g.label,
+      note,
+      paceWarning,
+      curated: !!g.curated,
+      ...extra,
+    });
+  }
+  for (const g of groups) {
+    let items = g.curated ? [...g.items] : byTime(g.items);
+    const blockDays = Math.max(
+      g.days || 1,
+      ...items.map((p) => (p.duration > 16 ? Math.ceil(p.duration / 12) : 1)),
+    );
+    if (blockDays > 1) {
+      if (bins.length + blockDays > days) continue;
+      // Yellowstone's two basin items can be shown on separate days.
+      // A single Machu Picchu/Colca item represents the whole booked excursion.
+      if (items.length === blockDays && items.every((p) => p.duration <= 12)) {
+        items.forEach((p, k) =>
+          addDay({ ...g, label: `${g.label} · day ${k + 1} of ${blockDays}` }, [p], {
+            excursion: true,
+            blockDays,
+            blockDay: k + 1,
+          }),
+        );
+      } else {
+        addDay(
+          {
+            ...g,
+            note: [
+              g.note || '',
+              `This is a ${blockDays}-day block. Item durations and excursion prices apply to the complete trip; the following days are reserved for its continuation.`,
+            ]
+              .filter(Boolean)
+              .join(' '),
+          },
+          items,
+          {
+            hours: Math.min(
+              12,
+              items.reduce((h, p) => h + p.duration, 0),
+            ),
+            excursion: true,
+            blockDays,
+            blockDay: 1,
+          },
+        );
+        for (let k = 1; k < blockDays; k++)
+          bins.push({
+            items: [],
+            hours: 0,
+            excursion: true,
+            continuation: true,
+            blockDays,
+            blockDay: k + 1,
+            label: g.label + ' · continuation',
+            note: 'Continue the same excursion and return or move onward as arranged. Do not add a full city sightseeing day here.',
+          });
+      }
+      continue;
+    }
+    if (g.curated) {
+      if (bins.length < days) addDay(g, items);
+      continue;
+    }
+    while (items.length && bins.length < days) {
+      const chunk = [];
+      while (items.length && chunk.length < maxStops) {
+        const p = items[0];
+        if (chunk.length && plannedHours([...chunk, p]) > cap) break;
+        chunk.push(items.shift());
+        if (p.duration >= 6 || p.excursion) break;
+      }
+      if (!chunk.length) break;
+      addDay(g, chunk);
+    }
+  }
+  while (bins.length < days)
+    bins.push({ items: [], hours: 0, excursion: false, label: 'Room to explore', note: '' });
+  return { bins, manual, unplaced: chosen.filter((p) => !used.has(p.id)) };
+}
+
+function dayDirections(points, stay = null) {
+  if (stay && points.length)
+    return `<div class="day-origin">${icon('pin')} Start at ${esc(stay.label)} · ${external(mapsDirections([stay, points[0]], 'transit'), 'Check first leg / transit ↗')}</div><div class="actions">${external(mapsDirections([stay, ...points].slice(0, 5), 'walking'), icon('route') + ' Walk from my stay', 'btn ghost small')}</div><small class="muted">Walking route preview from your accommodation. Check transit, entrances and actual journey times in Maps.</small>`;
+  if (!points.length) return '';
+  if (points.length === 1) {
+    const p = points[0];
+    return `<div class="actions">${external(mapsPin(p), icon('pin') + ' Locate in Google Maps', 'btn ghost small')}${p.sourceUrls?.[0] ? external(p.sourceUrls[0], icon('external') + ' Check official access / source', 'btn ghost small') : ''}</div><small class="muted">Check the actual entrance, trailhead, rail/shuttle or tour meeting point. A site pin is not a driving destination.</small>`;
+  }
+  const maxLeg = points.slice(1).reduce((m, p, i) => Math.max(m, hav(points[i], p)), 0),
+    mode = maxLeg > 2 ? 'driving' : 'walking',
+    chunks = [];
+  for (let i = 0; i < points.length - 1; i += 4) chunks.push(points.slice(i, i + 5));
+  return `<div class="actions">${chunks.map((g, i) => external(mapsDirections(g, mode), icon('route') + ` Open ${chunks.length > 1 ? 'segment ' + (i + 1) : 'route'} in Maps`, 'btn ghost small')).join('')}</div><small class="muted">${mode === 'walking' ? 'Check walking access and entrances.' : 'Driving is a preview; compare transit or a guided transfer in Maps.'} Confirm opening hours separately.</small>`;
+}
+function buildDaysHtml() {
+  let n = 1;
+  const start = S.startDate ? new Date(S.startDate + 'T12:00:00') : null;
+  function datelabel(day) {
+    if (!start) return '';
+    const d = new Date(start);
+    d.setDate(start.getDate() + day - 1);
+    return d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' });
+  }
+  let html = '';
+  for (let ci = 0; ci < S.trip.length; ci++) {
+    const c = C[S.trip[ci]],
+      sch = citySchedule(c);
+    html += `<div class="sectionhead"><div><div class="eyebrow">${esc(c.country)}</div><h2>${esc(c.name)}</h2></div><p>${sch.manual ? 'Using your saved places in this destination.' : 'A starting plan from the curated highlights. Save specific places to choose your own.'}</p></div>`;
+    for (const [cityDay, day] of sch.bins.entries()) {
+      const labels = day.items.map((p) => p.area).filter((x, i, a) => a.indexOf(x) === i);
+      html += `<article class="daycard ${day.continuation ? 'continuation' : ''}"><div class="daytitle"><h3>Day ${n} ${datelabel(n) ? '· ' + datelabel(n) : ''}</h3><span>${day.blockDays ? `Excursion day ${day.blockDay} of ${day.blockDays}` : day.continuation ? 'Overnight trip continues' : day.excursion ? 'Dedicated excursion' : day.items.length ? `About ${Math.ceil(day.hours)} h planned` : 'A flexible day'}</span></div>${day.label ? `<h4 style="font-size:13px;margin:0 0 8px">${esc(day.label)}</h4>` : ''}${day.note ? `<p class="day-context">${esc(day.note)}</p>` : ''}${day.items.length ? `<p class="muted" style="font-size:11px">${esc(labels.join(' → '))}${c.id === 'cusco' && cityDay === 0 ? ' · keep your first day gentle' : ''}</p>` : day.continuation ? '' : '<p class="muted" style="font-size:12px">Use this day to rest, explore beyond the shortlist or add a guided excursion. No extra places have been invented to fill the schedule.</p>'}${day.items.map((p) => `<div class="day-stop"><input class="tick" type="checkbox" data-visited="${p.id}" aria-label="Mark ${esc(p.name)} visited" ${S.visited.includes(p.id) ? 'checked' : ''}>${photoTag(p.id)}<div class="stoptext"><h4><button class="inline-link" data-action="place" data-id="${p.id}">${esc(p.name)}</button></h4><p>${p.duration} h${day.blockDays > 1 && day.items.length === 1 && p.duration > 12 ? ' for the whole excursion' : ''} · ${esc(p.bestTime)} · ${priceLabel(p)}</p>${p.reservation !== 'Usually not needed' ? `<span class="pill warm">${esc(p.reservation)} booking</span>` : ''}<p>${esc(p.tip)}</p><p class="price-note-inline">${esc(p.priceNote)}</p>${S.notes[p.id] ? `<p><strong>Your note:</strong> ${esc(S.notes[p.id])}</p>` : ''}</div>${external(mapsPin(p), icon('external'), 'btn light small')}</div>`).join('')}${dayDirections(day.items, day.excursion ? null : S.stays[c.id])}</article>`;
+      n++;
+    }
+    if (sch.unplaced.length)
+      html += `<div class="info-note"><strong>${sch.unplaced.length} more option${sch.unplaced.length > 1 ? 's' : ''} not fitted into these days:</strong> ${sch.unplaced.map((p) => esc(p.name)).join(', ')}. Add days or save only your priorities. The app leaves these visible rather than silently overfilling your itinerary.</div>`;
+    if (ci < S.trip.length - 1) {
+      const next = C[S.trip[ci + 1]],
+        l = leg(c, next);
+      html += `<article class="daycard" style="background:#edf0e7"><div class="daytitle"><h3>Day ${n} ${datelabel(n) ? '· ' + datelabel(n) : ''} · Transfer buffer</h3><span>${esc(c.name)} → ${esc(next.name)}</span></div><p style="font-size:12px;color:var(--muted)">${esc(l.mode)}${l.minutes ? ' · approximate service time ' + durationLabel(l.minutes) : ''}. ${esc(l.note)} One buffer day is reserved here; long-haul connections, border formalities or limited services can need more. Short regional trips may let you reclaim part of this day.</p></article>`;
+      n++;
+    }
+  }
+  return html;
+}
+function cityArrivalDate(id) {
+  if (!S.startDate) return null;
+  const d = new Date(S.startDate + 'T12:00:00');
+  const index = S.trip.indexOf(id);
+  let offset = 0;
+  for (let i = 0; i < index; i++) offset += (S.days[S.trip[i]] || C[S.trip[i]].days) + 1;
+  d.setDate(d.getDate() + offset);
+  return d;
+}
+function intercityLink(a, b, l) {
+  if (/flight|fly|air/i.test(l.mode) || (!l.known && l.distance > 850))
+    return external(
+      'https://www.google.com/search?q=' +
+        encodeURIComponent('flights ' + a.name + ' to ' + b.name),
+      'Check flights / connections ↗',
+    );
+  if (/ferry|boat/i.test(l.mode))
+    return external(
+      'https://www.google.com/search?q=' +
+        encodeURIComponent(a.name + ' ' + b.name + ' official ferry schedule'),
+      'Check ferry dates and ports ↗',
+    );
+  if (!l.known)
+    return external(
+      'https://www.google.com/search?q=' +
+        encodeURIComponent('how to travel from ' + a.name + ' to ' + b.name),
+      'Check transport options ↗',
+    );
+  return external(
+    mapsDirections(
+      [S.stays[a.id] || a, S.stays[b.id] || b],
+      /train|rail|shinkansen/i.test(l.mode) ? 'transit' : 'driving',
+    ),
+    'Check route options ↗',
+  );
+}
+function parkNotice(c) {
+  if (!['springdale', 'flagstaff', 'moab', 'jackson', 'mariposa', 'las-vegas'].includes(c.id))
+    return c.budgetNote
+      ? `<div class="info-note"><strong>Budget scope:</strong> ${esc(c.budgetNote)}</div>`
+      : '';
+  return `<div class="info-note"><strong>Park travel has a separate budget.</strong> ${esc(c.budgetNote || 'Rental car, fuel and admission/pass costs are extra.')} For 2026, designated parks add USD 100 per eligible non-U.S. resident aged 16+ unless covered by a valid qualifying pass. The nonresident annual pass is USD 250; coverage depends on vehicle/party rules. ${external('https://www.nps.gov/aboutus/nonresident-fees.htm', 'Read current NPS fee and eligibility rules ↗')}</div>`;
+}
+function renderTrip() {
+  headerActive('trip');
+  const totals = tripBudgets();
+  $('#app').innerHTML =
+    `<div class="wrap"><div class="pagehead"><div><div class="eyebrow">A GOOD JOURNEY HAS ROOM TO BREATHE</div><h1>Your trip, taking shape.</h1><p>Pick your cities, keep the first stop fixed, and try a geographic order that reduces backtracking. Then check the real transport links.</p></div><div class="actions"><button class="btn ghost small" data-action="import">${icon('upload')} Import</button><button class="btn ghost small" data-action="export">${icon('download')} Export</button><button class="btn ghost small" data-action="print">${icon('print')} Print</button></div></div>${
+      S.trip.length
+        ? `<div class="trip-layout"><section><div class="trip-controls"><div class="field"><label for="trip-date">Start date</label><input type="date" id="trip-date" value="${S.startDate}"></div><div class="field"><label for="trip-pace">Daily pace</label><select id="trip-pace">${[
+            ['relaxed', 'Unhurried · aim for 5 hours'],
+            ['balanced', 'Balanced · aim for 7 hours'],
+            ['full', 'Full days · aim for 9 hours'],
+          ]
+            .map(([v, l]) => `<option value="${v}" ${S.pace === v ? 'selected' : ''}>${l}</option>`)
+            .join(
+              '',
+            )}</select></div><div class="field smallfield"><label for="trip-people">Travellers</label><input type="number" id="trip-people" min="1" max="20" value="${S.people}"></div></div><div class="actions" style="margin-bottom:17px"><button class="btn small" data-action="optimize">${icon('shuffle')} Suggest visit order</button><a class="btn ghost small" href="#/map/trip">${icon('map')} View route</a></div><p class="scrollhint">Move your arrival city to the top before suggesting an order. This heuristic uses geographic distance, not live flight prices, ferry dates or road travel times.</p>${S.trip
+            .map((id, i) => {
+              const c = C[id],
+                l = i ? leg(C[S.trip[i - 1]], c) : null;
+              const arrivalDate = cityArrivalDate(id);
+              const m = arrivalDate ? arrivalDate.getMonth() + 1 : 0;
+              return `${l ? `<div class="leg"><strong>${icon('route')} ${esc(l.mode)} ${l.minutes ? '· about ' + durationLabel(l.minutes) : ''}</strong>${esc(l.note)}<br>${intercityLink(C[S.trip[i - 1]], c, l)}</div>` : ''}<article class="routecard"><div class="routecardtop"><div class="route-number">${i + 1}</div>${photoTag(id)}<div class="routeinfo"><h3>${esc(c.name)}</h3><p>${esc(c.country)} · ${i === 0 ? 'Arrival city' : `${c.items.length} researched places`}</p></div><div class="reorder"><button data-action="move" data-id="${id}" data-dir="-1" aria-label="Move ${esc(c.name)} earlier" ${i === 0 ? 'disabled' : ''}>${icon('up')}</button><button data-action="move" data-id="${id}" data-dir="1" aria-label="Move ${esc(c.name)} later" ${i === S.trip.length - 1 ? 'disabled' : ''}>${icon('down')}</button><button data-action="trip-toggle" data-id="${id}" aria-label="Remove ${esc(c.name)} from trip">${icon('close')}</button></div></div><div class="actions"><div class="stepper"><button data-action="days" data-id="${id}" data-dir="-1" aria-label="Fewer days in ${esc(c.name)}">−</button><strong>${S.days[id] || c.days} city days</strong><button data-action="days" data-id="${id}" data-dir="1" aria-label="More days in ${esc(c.name)}">+</button></div><a class="btn text small" href="#/city/${id}">Choose places ${icon('arrow')}</a></div>${stayPanel(c, true)}${m && !c.bestMonths.includes(m) ? `<p class="season-warning">Your arrival month is outside this guide’s typical preferred months. ${esc(c.seasonNote)}</p>` : ''}<details style="margin-top:10px"><summary style="font-size:11px;cursor:pointer;color:var(--muted)">Adjust hotel & major-excursion allowances (${c.currency})</summary><div class="budget-custom"><div class="field"><label>Hotel / person / night</label><input type="number" min="0" data-lodging="${id}" value="${S.lodging[id] || 0}" aria-label="Hotel per person per night in ${esc(c.name)}"></div><div class="field"><label>Extra / person / stay</label><input type="number" min="0" data-extra="${id}" value="${S.extra[id] || 0}" aria-label="Extra excursion allowance in ${esc(c.name)}"></div></div><small class="muted">Optional allowances in local currency. Nights are assumed equal to city days; adjust for your booking. Extra is for major tours, shopping or costs beyond the daily baseline.</small></details></article>`;
+            })
+            .join(
+              '',
+            )}<button class="selectcities" data-action="choose-cities">${icon('plus')} Add another destination</button></section><aside><div class="sidepanel"><div class="eyebrow">YOUR JOURNEY AT A GLANCE</div><h3 style="margin-top:12px">${totalDays() + transferDays()} days to work with.</h3><div class="siderow"><span>Destinations</span><strong>${S.trip.length}</strong></div><div class="siderow"><span>City / excursion days</span><strong>${totalDays()}</strong></div><div class="siderow"><span>Transfer buffer days</span><strong>${transferDays()}</strong></div><div class="siderow"><span>Saved places in this trip</span><strong>${S.saved.filter((id) => S.trip.includes(P[id]?.cityId)).length}</strong></div><p>Each transfer has a one-day placeholder. Long-haul flights and infrequent connections may need more.</p></div><div class="sidepanel"><h3>What to budget.</h3>${Object.entries(
+            totals,
+          )
+            .map(
+              ([c, r]) =>
+                `<div class="siderow"><span>${c}</span><strong>${num(r[0])}–${num(r[1])}</strong></div>`,
+            )
+            .join(
+              '',
+            )}<p>For ${S.people} traveller${S.people > 1 ? 's' : ''}. Includes city-day spending plus your entered hotel/extra allowances. Different currencies stay separate; no hidden exchange-rate assumptions.</p><p><strong>Not included by default:</strong> hotels, international/intercity transport, transfer-day spending, rental cars, fuel, park fees/passes, shopping, safari packages and other major excursions. Compare those separately.</p><button class="btn light" data-action="budget-detail">${icon('wallet')} Cost breakdown</button></div><div class="sidepanel"><h3>Your portable plan.</h3><p>Export preserves cities, saved places, notes, checklists and budget inputs. Re-import it on your phone.</p><button class="btn" data-action="export">${icon('download')} Export trip JSON</button><button class="btn light" data-action="csv">${icon('pin')} Export Google My Maps pins</button></div></aside></div><div class="plan-toolbar"><div><span class="eyebrow">A PRACTICAL STARTING POINT</span><h2>Your day-by-day outline.</h2></div><div class="actions"><button class="btn ghost small" data-action="print">${icon('print')} Print plan</button></div></div><div class="info-note">This is a draft sequence, not a reservation or turn-by-turn navigation plan. Timed tickets, opening days, weather and long excursions can change the order. Saved places take priority; full-day trips stay separate from city sightseeing.</div><section id="day-plans">${buildDaysHtml()}</section>`
+        : `<div class="empty">${icon('route')}<h2>Start with the places calling you.</h2><p>Add your own destinations, or choose a trip starter below. You can change the order, days and places whenever you like.</p><button class="btn" data-action="choose-cities">${icon('plus')} Choose destinations</button></div>`
+    }<div class="sectionhead"><div><span class="eyebrow">GREAT JOURNEYS, ALREADY CONNECTED</span><h2>Trip starters.</h2></div></div><div class="trip-template-grid">${TEMPLATES.map((t) => `<article class="template-mini">${starterArt(t)}<div class="template-body"><span class="eyebrow" style="font-size:9px">${t.tag}</span><h3 style="margin-top:10px">${t.title}</h3><p>${t.note}</p><p><strong>Plan around:</strong> ${t.warning}</p><button class="btn light small" data-action="template" data-id="${t.id}">Add this journey ${icon('arrow')}</button></div></article>`).join('')}</div>${footer()}</div>`;
+}
+function chooseCities() {
+  showModal(
+    `<div class="modalcontent"><span class="eyebrow">ONE CITY OR A GRAND ADVENTURE</span><h2>Where would you like to go?</h2><div class="searchbox" style="margin-bottom:20px">${icon('search')}<input id="choose-city-search" type="search" placeholder="Search destinations…" aria-label="Search destinations to add"></div><div class="compact-citylist" id="choose-city-list">${chooseCityList('')}</div><div class="actions" style="margin-top:20px"><button class="btn" data-action="finish-cities">See my trip ${icon('arrow')}</button></div></div>`,
+    'Choose destinations',
+  );
+}
+function chooseCityList(q) {
+  return CITIES.filter((c) => (c.name + ' ' + c.country).toLowerCase().includes(q.toLowerCase()))
+    .map(
+      (c) =>
+        `<div class="compactcity">${photoTag(c.id)}<div class="text"><h4>${esc(c.name)}</h4><p>${esc(c.country)} · ${c.days} suggested days</p></div>${cityAdd(c.id)}</div>`,
+    )
+    .join('');
+}
+function applyTemplate(id) {
+  const t = TEMPLATES.find((x) => x.id === id);
+  if (!t) return;
+  for (let i = 0; i < t.cities.length; i++) {
+    const id = t.cities[i];
+    if (!C[id]) continue;
+    if (!inTrip(id)) {
+      S.trip.push(id);
+      S.days[id] = t.days[i];
+    }
+  }
+  persist();
+  closeModal();
+  location.hash = '#/trip';
+  if (location.hash === '#/trip') renderTrip();
+  toast('Journey added. Existing destinations and notes were kept.');
+}
+function budgetDetail() {
+  showModal(
+    `<div class="modalcontent"><h2>Your spending assumptions.</h2><p class="muted">Local currency amounts for ${S.people} traveller${S.people > 1 ? 's' : ''}. Cash guidance is a subset of spending, not another expense.</p><div style="overflow:auto"><table class="budgettable"><thead><tr><th>Destination</th><th>Days</th><th>Daily / person</th><th>Cash / person / day</th></tr></thead><tbody>${S.trip
+      .map((id) => {
+        const c = C[id];
+        return `<tr><td>${esc(c.name)}</td><td>${S.days[id] || c.days}</td><td>${range(c.dailyBudget, c.currency)}</td><td>${range(c.cashPerDay, c.currency)}</td></tr>`;
+      })
+      .join(
+        '',
+      )}</tbody></table></div><div class="info-note">Do not carry the entire trip budget in cash. These are editable planning allowances. Premium excursions—especially safaris, Machu Picchu rail packages and theme-park upgrades—can materially exceed the baseline. Your exact itinerary needs a booking-by-booking budget.</div><h3>Currency totals with your entered extras</h3>${Object.entries(
+      tripBudgets(),
+    )
+      .map(([c, r]) => `<p><strong>${range(r, c)}</strong></p>`)
+      .join(
+        '',
+      )}<p class="muted" style="font-size:12px">The app deliberately does not add different currencies together. A zero hotel or extra allowance means those costs have not been supplied.</p></div>`,
+    'Budget breakdown',
+  );
+}
+function renderSaved() {
+  headerActive('saved');
+  const places = S.saved.map((id) => P[id]).filter(Boolean);
+  $('#app').innerHTML =
+    `<div class="wrap"><div class="pagehead"><div><div class="eyebrow">THE PLACES YOU WANT TO REMEMBER</div><h1>Keep the good ones.</h1><p>Your saved places, ready to turn into a trip. Open any card for practical details and its Google Maps pin.</p></div><div class="actions"><button class="btn light small" data-action="csv">${icon('download')} Export pins</button><button class="btn small" data-action="saved-to-trip">${icon('route')} Add cities to trip</button></div></div>${places.length ? `<div class="chips">${[...new Set(places.map((p) => p.cityId))].map((id) => `<a class="chip" style="text-decoration:none" href="#/city/${id}">${esc(C[id].name)} · ${places.filter((p) => p.cityId === id).length}</a>`).join('')}</div><div class="placegrid">${places.map(placeCard).join('')}</div>` : `<div class="empty">${icon('heart')}<h2>A little room for possibility.</h2><p>Tap a heart on any place to save it here. Your trip planner uses those saved places when it builds that city’s days.</p><a href="#/city/tokyo" class="btn">Discover Tokyo ${icon('arrow')}</a></div>`}${footer()}</div>`;
+}
+function sourceRecords() {
+  const records = new Map();
+  for (const c of CITIES) {
+    for (const s of c.sources) {
+      const previous = records.get(s.url),
+        cities = new Set([...(previous?.cities || []), c.name]);
+      records.set(s.url, { ...s, cities: [...cities] });
+    }
+    for (const p of c.items) {
+      for (const u of [
+        ...(p.sourceUrls || []),
+        ...(p.review?.url ? [p.review.url] : []),
+        ...(p.dietary?.evidence || []).map((e) => e.url),
+      ]) {
+        if (records.has(u)) {
+          const r = records.get(u);
+          if (!r.cities.includes(c.name)) r.cities.push(c.name);
+        } else
+          records.set(u, {
+            title: new URL(u).hostname,
+            url: u,
+            type: 'reference',
+            cities: [c.name],
+            checked: '2026-11-04',
+          });
+      }
+    }
+  }
+  return [...records.values()];
+}
+const CHECKLIST = [
+  ['tickets', 'Book critical timed entries and permits'],
+  ['transport', 'Confirm intercity routes and transfer buffers'],
+  ['entry', 'Check passport, entry and transit requirements'],
+  ['cash', 'Check payment options and cash access'],
+  ['offline', 'Download the app and export the trip backup'],
+  ['weather', 'Recheck weather, closures and seasonal roads'],
+  ['insurance', 'Arrange suitable travel insurance'],
+  ['bookings', 'Keep booking confirmations available offline'],
+];
+function renderGuide() {
+  headerActive('guide');
+  $('#app').innerHTML =
+    `<div class="wrap"><div class="pagehead"><div><div class="eyebrow">A GUIDE YOU CAN UNDERSTAND AND CHECK</div><h1>A few things worth knowing.</h1><p>How this guide makes its choices, where the information comes from, and how to take your plan with you.</p></div></div><div class="methodology"><h2>Start here.</h2><ol><li><strong>Compare cities.</strong> Choose a published tourism ranking or your Japan-first priorities, then open a city.</li><li><strong>Understand the places.</strong> Use the popularity list, experience-type filters and “Why go?” pages to see the appeal and trade-offs. Switch to Food for named venues and halal/vegetarian filters.</li><li><strong>Add your stay.</strong> Search an address, paste coordinates or pin the map. Sort by distance and start local routes at your accommodation.</li><li><strong>Save the places that interest you.</strong> Your saved places become that city’s day-plan inputs. With no saved picks, the planner offers a shortlist.</li><li><strong>Add cities to your trip.</strong> Set the number of days and your pace. Put your arrival city first before suggesting an order.</li><li><strong>Use the map.</strong> Tap destination or place markers, filter by activity and open a pin in Google Maps.</li><li><strong>Keep a backup.</strong> Export your trip JSON, then import it in the app on another device. Browser storage is local to each browser/origin.</li></ol><h2>What “popular” means here.</h2><p>The ${CITIES.length} destinations combine your Japan-first priorities with Asia, Europe, Africa, Latin America and six U.S. park gateways. The city comparison offers the 2025 Euromonitor overall tourism index and a separate international-arrivals view. Their scope and definitions differ. <button class="inline-link" data-action="ranking-method">Read the ranking methods and source links ↗</button></p><p>Numeric ratings and review counts are shown only where a snapshot was retrieved. They are dated, platform-specific and may reflect an earlier crawl. Missing ratings remain missing. Most-reviewed order uses descending review counts; highest-rated order uses satisfaction ratings. Category ranks compare the places covered in this guide, not every venue in the city. Unknown counts stay unranked. The separate first-visit order is editorial. “Curated pick” does not imply a verified rating.</p><h2>What the route planner can tell you.</h2><p>The visit-order button uses geographic distance, keeps your first city fixed and makes a local improvement pass. It is useful for spotting backtracking. It does not solve for the cheapest airfare, shortest road journey, visas, train timetables or ferry availability. Where a researched connection is available, its mode and approximate service duration appear; otherwise the app explicitly asks you to check connections.</p><p>Daily plans use researched day groups where available and otherwise group nearby places under a time budget. Authored park days stay together to avoid repeat journeys; a visible note identifies any day above your selected pace. Shorten those days or save fewer stops to adapt them. Full-day and distant excursions get separate days. Each city-to-city move receives a one-day transfer placeholder; some long-haul or limited-frequency journeys need more. Closing days and timed reservations are not automatically scheduled. Map lines show the order of stops, not navigable roads or trails.</p><h2>Costs without false precision.</h2><p>Most prices are planning ranges in the destination’s currency. An official fee is labelled when it was specifically verified. Daily spending ranges cover food, local transport and ordinary sightseeing. Hotels, international and intercity travel, transfer days, shopping and major excursions require additional allowances. The cash suggestion sits within spending and is not added to the total.</p><p>Vehicle-based park fees, nonresident supplements and multi-day passes do not behave like ordinary per-person attraction tickets. Read each park card’s price note. Group totals in the planner apply to baseline daily budgets and your own entered per-person allowances, not automatically to park tickets.</p><h2>Google Maps and offline use.</h2><p>“Open in Google Maps” launches a place search; tap <strong>Save</strong> in Google Maps to add it to your own list. This app cannot write directly to your Google account. The CSV export contains names, cities, coordinates, notes and source links. Import it at ${external('https://www.google.com/mymaps', 'Google My Maps ↗')}, choosing Latitude and Longitude for locations and Name for labels. My Maps is separate from your personal saved-place lists.</p><p>The HTML file embeds the guide, photographs, map library and a world outline, so the core app can open without a connection. Street-map tiles, external booking/review pages and Google Maps need internet. Download local Google Maps areas separately when appropriate. Location access is optional and requested only when you press “Near me” or “Use my location”. Accommodation address searches are sent to Photon only when you press Find location; no search runs as you type. Search results require your confirmation. You can use map pins and coordinates instead. Accommodation, preferences and notes are stored locally and exported with your trip backup. Coordinates are approximate planning pins, not guaranteed entrances.</p><h2>Illustrations, photography & map credits.</h2><p>Trip starters and selected signature places have original AI illustrations. They are labelled and interpretive: a trip cover may combine locations and seasons, and a place illustration is not documentary evidence of its current layout. Where an illustration is used, the place page also offers a photographic view. Restaurant imagery never verifies the food’s ingredients or dietary suitability.</p><p>Every city and place has its own image asset. Photos include photographer, source and licence links. Sources include Pexels and Wikimedia Commons; each Commons photograph retains its stated licence, including share-alike terms on the adapted image where applicable. Images are resized, cropped and converted to WebP. Where an exact venue could not be verified, the image is marked as representative dish, craft or destination context. Historical photographs do not verify current vendors or conditions. The downloadable edition embeds every image; the hosted edition bundles the same images as local assets.</p><p>Interactive mapping uses bundled ${external('https://leafletjs.com/', 'Leaflet')} (BSD 2-Clause). Offline country outlines are ${external('https://www.naturalearthdata.com/about/terms-of-use/', 'Natural Earth public-domain data')}. Optional street tiles are © ${external('https://www.openstreetmap.org/copyright', 'OpenStreetMap contributors')}. Optional address lookup uses ${external('https://github.com/komoot/photon', 'Photon')} with OpenStreetMap data. It has no uptime guarantee; map pinning and coordinate entry remain available if it fails. No map API key or external script is needed.</p><h2>Before you go.</h2><div class="resourcebox">${CHECKLIST.map(([id, label]) => `<label class="checkrow"><input type="checkbox" data-checklist="${id}" ${S.checklist.includes(id) ? 'checked' : ''}><span>${label}</span></label>`).join('')}</div><div class="actions"><button class="btn" data-action="export">${icon('download')} Export your trip</button><button class="btn ghost" data-action="import">${icon('upload')} Import a backup</button></div><h2>The sourcebook.</h2><p>${sourceRecords().length} unique linked travel/review sources across the guide. Research retrieved ${CHECKED}. Photo-source pages are listed in each destination’s Sources tab. This static edition does not refresh itself automatically.</p><div class="sourcefilters"><select id="source-city" aria-label="Filter sourcebook by destination"><option value="">All destinations</option>${CITIES.map((c) => `<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select><select id="source-type" aria-label="Filter sourcebook by source type"><option value="">All source types</option><option value="official">Official</option><option value="reviews">Visitor reviews</option><option value="reference">Other reference</option></select></div><div id="source-results"></div></div>${footer()}</div>`;
+  renderSources();
+}
+function renderSources() {
+  const cid = $('#source-city')?.value || '',
+    type = $('#source-type')?.value || '';
+  const records = sourceRecords().filter(
+    (s) => (!cid || s.cities.includes(C[cid].name)) && (!type || s.type === type),
+  );
+  $('#source-results').innerHTML = records
+    .map(
+      (s) =>
+        `<div class="source-row"><div>${external(s.url, esc(s.title) + ' ↗')}<br><small>${esc(s.cities.join(', '))} · ${esc(new URL(s.url).hostname)}</small></div><span class="pill ${s.type === 'reviews' ? 'warm' : 'gray'}">${s.type}</span></div>`,
+    )
+    .join('');
+}
+function renderMap(id = '') {
+  headerActive('map');
+  mapCity = id === 'trip' ? '' : validCity(id) ? id : '';
+  mapKind = 'all';
+  mapQuery = '';
+  mapDiet = 'all';
+  $('#app').innerHTML =
+    `<section class="map-layout"><aside class="mapaside"><h1>Follow your curiosity.</h1><p class="muted">Find a place, open its story, then make it part of your journey.</p><select id="map-city" aria-label="Map destination"><option value="">All ${CITIES.length} destinations</option>${CITIES.map((c) => `<option value="${c.id}" ${mapCity === c.id ? 'selected' : ''}>${esc(c.name)}, ${esc(c.country)}</option>`).join('')}</select><button class="map-mobile-toggle" data-action="map-list" aria-label="Show places list">${icon('list')}</button><div class="searchbox">${icon('search')}<input id="map-search" type="search" placeholder="Search map places…" aria-label="Search map places"></div><div class="chips">${[
+      ['all', 'All'],
+      ['see', 'See'],
+      ['eat', 'Eat'],
+      ['shop', 'Shop'],
+      ['saved', 'Saved'],
+    ]
+      .map(
+        ([k, t]) =>
+          `<button class="chip ${k === 'all' ? 'active' : ''}" data-action="map-kind" data-id="${k}">${t}</button>`,
+      )
+      .join(
+        '',
+      )}</div><select id="map-diet" aria-label="Map dietary filter"><option value="all">All dietary choices</option><option value="halal">Sourced halal choices</option><option value="vegetarian">Vegetarian options</option><option value="vegan">Plant-based menus</option></select><div id="map-stay-control">${mapCity ? `<button class="btn light small" data-action="edit-stay" data-id="${mapCity}">${icon('pin')} ${S.stays[mapCity] ? 'Change my stay' : 'Add my stay'}</button>` : ''}</div><div id="map-list" class="maplist"></div></aside><div class="mapcanvas"><div id="atlasmap" aria-label="Interactive destination and attraction map"></div><div class="map-top"><div class="actions"><button class="btn light small" data-action="map-reset">${icon('globe')} Overview</button><button class="btn light small" data-action="tiles" id="tile-toggle">${icon('map')} Street detail: ${S.street ? 'on' : 'off'}</button></div><button class="btn light small" data-action="locate">${icon('locate')} Near me</button></div><div class="map-bottom" id="map-note">Numbered pins show review-volume ranks within each place category. Lines show order, not roads.</div></div></section>`;
+  map = L.map('atlasmap', {
+    zoomControl: true,
+    minZoom: 1,
+    maxZoom: 18,
+    worldCopyJump: true,
+    attributionControl: true,
+  }).setView([21, 40], 2);
+  map.createPane('offline-outline');
+  map.getPane('offline-outline').style.zIndex = '150';
+  L.geoJSON(DATA.world, {
+    pane: 'offline-outline',
+    style: { color: '#bbccc1', weight: 1, fillColor: '#eef0df', fillOpacity: 1 },
+    interactive: false,
+  }).addTo(map);
+  map.attributionControl.addAttribution(
+    'Offline outline: <a href="https://www.naturalearthdata.com/">Natural Earth</a>',
+  );
+  markerLayer = L.layerGroup().addTo(map);
+  routeLayer = L.layerGroup().addTo(map);
+  if (S.street && navigator.onLine) enableStreet();
+  renderMapPins(true);
+  if (id === 'trip' && S.trip.length) {
+    const pts = S.trip.map((id) => [C[id].lat, C[id].lon]);
+    if (pts.length > 1) {
+      L.polyline(pts, { color: '#e7764b', weight: 3, dashArray: '7 7' }).addTo(routeLayer);
+      map.fitBounds(pts, { padding: [50, 65], maxZoom: 6 });
+    } else map.setView(pts[0], 7);
+  }
+  setTimeout(() => map?.invalidateSize(), 100);
+}
+function enableStreet() {
+  if (!map) return;
+  if (streetLayer) return;
+  streetLayer = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:
+      '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+    maxZoom: 19,
+    updateWhenIdle: true,
+  });
+  let failures = 0;
+  streetLayer.on('tileerror', () => {
+    failures++;
+    if (failures >= 3 && $('#map-note'))
+      $('#map-note').textContent =
+        'Street tiles are unavailable. Embedded map outline and planning pins still work.';
+  });
+  streetLayer.addTo(map);
+}
+function mapUsesPlaces() {
+  return Boolean(mapCity || mapKind !== 'all' || mapDiet !== 'all' || mapQuery.trim());
+}
+function mapItems() {
+  const q = mapQuery.toLowerCase().trim();
+  let items = mapCity
+    ? C[mapCity].items.map((p) => P[p.id])
+    : mapUsesPlaces()
+      ? mapKind === 'saved'
+        ? S.saved.map((id) => P[id])
+        : PLACES
+      : CITIES;
+  if (!mapUsesPlaces()) return items;
+  return items
+    .filter(
+      (p) =>
+        (mapKind === 'all' || p.kind === mapKind || (mapKind === 'saved' && saved(p.id))) &&
+        (!q ||
+          [p.name, p.cityName, p.area, C[p.cityId].country, p.summary, ...typesFor(p)]
+            .join(' ')
+            .toLowerCase()
+            .includes(q)) &&
+        (mapDiet === 'all' ||
+          (p.kind === 'eat' &&
+            p.dietary?.evidence?.length &&
+            (mapDiet === 'halal'
+              ? ['certified', 'operator-stated', 'options'].includes(p.dietary.halal)
+              : mapDiet === 'vegan'
+                ? p.dietary.vegetarian === 'vegan'
+                : ['fully-vegetarian', 'vegan', 'options'].includes(p.dietary.vegetarian)))),
+    )
+    .sort((a, b) =>
+      mapCity && S.stays[mapCity]
+        ? hav(S.stays[mapCity], a) - hav(S.stays[mapCity], b)
+        : comparePlaces(a, b, 'popularity'),
+    );
+}
+function popupHtml(p, isCity) {
+  return `<div class="map-popup">${photoTag(p.id)}<h3>${esc(p.name)}</h3><p>${esc(isCity ? p.tagline : p.area + ' · ' + priceLabel(p))}</p>${isCity ? '' : typeChips(p) + rankBadge(p)}<div class="actions"><button class="btn small" data-action="${isCity ? 'map-city-open' : 'place'}" data-id="${p.id}">${isCity ? 'Explore places' : 'View details'} ${icon('arrow')}</button>${isCity ? '' : external(mapsPin(p), icon('pin'), 'btn light small')}</div></div>`;
+}
+function renderMapPins(fit = false) {
+  if (!map) return;
+  markerLayer.clearLayers();
+  mapMarkers = {};
+  const items = mapItems(),
+    isCity = !mapUsesPlaces();
+  items.forEach((p, i) => {
+    const m = L.marker([p.lat, p.lon], {
+      title: p.name,
+      icon: L.divIcon({
+        className: '',
+        html: `<div class="map-pin ${isCity ? 'city' : p.kind} ${saved(p.id) ? 'selected' : ''}">${isCity ? '' : popularityRank(p) || '•'}</div>`,
+        iconSize: isCity ? [13, 13] : [32, 32],
+        iconAnchor: isCity ? [6, 6] : [16, 16],
+      }),
+    }).bindPopup(popupHtml(p, isCity));
+    m.addTo(markerLayer);
+    if (isCity) m.bindTooltip(p.name, { direction: 'top', offset: [0, -5] });
+    mapMarkers[p.id] = m;
+  });
+  $('#map-list').innerHTML = items.length
+    ? items
+        .map(
+          (p, i) =>
+            `<div class="maplistitem"><div data-action="map-focus" data-id="${p.id}" style="display:flex;align-items:center;gap:11px;flex:1;min-width:0" tabindex="0" role="button" aria-label="Find ${esc(p.name)} on the map">${photoTag(p.id)}<div class="text"><h4>${isCity ? '' : popularityRank(p) ? '#' + popularityRank(p) + ' ' : ''}${esc(p.name)}</h4><p>${esc(isCity ? p.country : (mapCity ? p.area : p.cityName) + ' · ' + p.duration + ' h')}</p></div></div>${isCity ? cityAdd(p.id, true) : saveButton(p.id)}</div>`,
+        )
+        .join('')
+    : '<p class="muted">No matching places. Try another filter.</p>';
+  if (mapCity && S.stays[mapCity]) {
+    const stay = S.stays[mapCity];
+    L.marker([stay.lat, stay.lon], {
+      icon: L.divIcon({
+        className: '',
+        html: '<div class="stay-pin">⌂</div>',
+        iconSize: [34, 34],
+        iconAnchor: [17, 17],
+      }),
+    })
+      .bindPopup('<strong>' + esc(stay.label) + '</strong><br>Your saved stay')
+      .addTo(markerLayer);
+  }
+  if ($('#map-stay-control'))
+    $('#map-stay-control').innerHTML = mapCity
+      ? `<button class="btn light small" data-action="edit-stay" data-id="${mapCity}">${icon('pin')} ${S.stays[mapCity] ? 'Change my stay' : 'Add my stay'}</button>`
+      : '';
+  if (fit && items.length) {
+    if (isCity) {
+      map.setView([21, 35], 2);
+    } else {
+      map.fitBounds(
+        items.map((p) => [p.lat, p.lon]),
+        { padding: [50, 70], maxZoom: 13 },
+      );
+    }
+  }
+}
+function setMapCity(id) {
+  if (!validCity(id)) return;
+  mapCity = id;
+  mapKind = 'all';
+  mapQuery = '';
+  mapDiet = 'all';
+  $('#map-diet').value = 'all';
+  $('#map-city').value = id;
+  $('#map-search').value = '';
+  $$('[data-action="map-kind"]').forEach((b) =>
+    b.classList.toggle('active', b.dataset.id === 'all'),
+  );
+  routeLayer.clearLayers();
+  renderMapPins(true);
+  $('#map-list').classList.remove('visible');
+  history.replaceState(null, '', '#/map/' + id);
+}
+function mapLocate() {
+  if (!navigator.geolocation) {
+    toast('This browser does not offer location. Choose your city instead.');
+    return;
+  }
+  toast('Requesting your location…');
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      if (!map) return;
+      const here = { lat: pos.coords.latitude, lon: pos.coords.longitude };
+      const nearest = [...CITIES].sort((a, b) => hav(here, a) - hav(here, b))[0];
+      const distance = hav(here, nearest);
+      if (distance < 180) {
+        setMapCity(nearest.id);
+        L.circleMarker([here.lat, here.lon], {
+          radius: 7,
+          color: '#fff',
+          weight: 3,
+          fillColor: '#348dc8',
+          fillOpacity: 1,
+        })
+          .addTo(map)
+          .bindPopup('Your approximate position');
+        map.setView([here.lat, here.lon], Math.max(9, map.getZoom()));
+        toast('Showing the nearest covered destination: ' + nearest.name);
+      } else {
+        map.setView([here.lat, here.lon], 4);
+        toast(
+          `Nearest covered destination: ${nearest.name}, about ${Math.round(distance)} km away.`,
+        );
+      }
+    },
+    () => toast('Location unavailable. Select a destination from the map menu.'),
+    { enableHighAccuracy: false, timeout: 12000, maximumAge: 300000 },
+  );
+}
+function download(name, content, type) {
+  const blob = new Blob([content], { type });
+  const u = URL.createObjectURL(blob),
+    a = document.createElement('a');
+  a.href = u;
+  a.download = name;
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+  setTimeout(() => URL.revokeObjectURL(u), 1500);
+}
+function exportTrip() {
+  download(
+    'Roam-Atlas-Trip.json',
+    JSON.stringify(
+      { app: 'Roam Atlas', schema: 1, exportedAt: new Date().toISOString(), state: S },
+      null,
+      2,
+    ),
+    'application/json',
+  );
+  toast('Trip backup exported. Import it in this app on your other device.');
+}
+function exportCSV() {
+  let items;
+  if (location.hash.startsWith('#/trip')) {
+    items = S.trip.flatMap((id) => {
+      const picks = S.saved.map((pid) => P[pid]).filter((p) => p.cityId === id);
+      return picks.length ? picks : C[id].items.map((p) => P[p.id]);
+    });
+  } else items = S.saved.map((id) => P[id]);
+  if (!items.length) {
+    toast('Save some places or add destinations first.');
+    return;
+  }
+  const csvcell = (x) => {
+    let v = String(x ?? '');
+    if (/^[=+@]/.test(v) || (/^\-/.test(v) && !/^\-\d+(\.\d+)?$/.test(v))) v = "'" + v;
+    return '"' + v.replace(/"/g, '""') + '"';
+  };
+  const rows = [
+    [
+      'Name',
+      'City',
+      'Country',
+      'Latitude',
+      'Longitude',
+      'Category',
+      'Notes',
+      'Google Maps',
+      'Source',
+    ],
+    ...items.map((p) => [
+      p.name,
+      p.cityName,
+      C[p.cityId].country,
+      p.lat,
+      p.lon,
+      typesFor(p).join(' / '),
+      [p.summary, (p.mustOrder || []).join(', '), p.tip, S.notes[p.id] || ''].join(' '),
+      mapsPin(p),
+      p.sourceUrls?.[0] || '',
+    ]),
+  ];
+  download(
+    'Roam-Atlas-Google-My-Maps-Pins.csv',
+    '\uFEFF' + rows.map((r) => r.map(csvcell).join(',')).join('\r\n'),
+    'text/csv;charset=utf-8',
+  );
+  toast(`${items.length} pins exported. Import the CSV in Google My Maps.`);
+}
+function importTrip() {
+  $('#import-file').click();
+}
+function importPreview(obj) {
+  if (
+    !obj ||
+    obj.app !== 'Roam Atlas' ||
+    obj.schema !== 1 ||
+    typeof obj.state !== 'object' ||
+    obj.state === null ||
+    Array.isArray(obj.state)
+  )
+    throw Error('This is not a supported Roam Atlas trip backup.');
+  const incoming = cleanState(obj.state);
+  window.pendingImport = incoming;
+  showModal(
+    `<div class="modalcontent"><span class="eyebrow">BRING YOUR JOURNEY WITH YOU</span><h2>Import this trip?</h2><p class="muted">This backup contains ${incoming.trip.length} destinations, ${incoming.saved.length} saved places, ${Object.keys(incoming.stays).length} stays and ${Object.keys(incoming.notes).length} notes.</p><p style="font-size:13px">Merge keeps your current destinations and saved places, and applies the imported days and notes. Replace starts from the backup.</p><div class="actions"><button class="btn" data-action="import-merge">Merge with this device</button><button class="btn light" data-action="import-replace">Replace this device’s plan</button></div></div>`,
+    'Import trip backup',
+  );
+}
+function doImport(merge) {
+  const incoming = window.pendingImport;
+  if (!incoming) return;
+  if (merge)
+    S = cleanState({
+      ...incoming,
+      saved: [...new Set([...S.saved, ...incoming.saved])],
+      trip: [...new Set([...S.trip, ...incoming.trip])],
+      visited: [...new Set([...S.visited, ...incoming.visited])],
+      days: { ...S.days, ...incoming.days },
+      notes: { ...S.notes, ...incoming.notes },
+      lodging: { ...S.lodging, ...incoming.lodging },
+      extra: { ...S.extra, ...incoming.extra },
+      stays: { ...S.stays, ...incoming.stays },
+      checklist: [...new Set([...S.checklist, ...incoming.checklist])],
+    });
+  else S = incoming;
+  window.pendingImport = null;
+  persist();
+  closeModal();
+  location.hash = '#/trip';
+  renderTrip();
+  toast('Your trip is ready on this device.');
+}
+function route() {
+  closeModal();
+  if (map) {
+    map.remove();
+    map = null;
+    streetLayer = null;
+    markerLayer = null;
+    routeLayer = null;
+  }
+  const raw = location.hash.replace(/^#\/?/, '');
+  const [path, query] = raw.split('?'),
+    parts = path.split('/'),
+    params = new URLSearchParams(query || '');
+  window.scrollTo(0, 0);
+  if (parts[0] === 'city') {
+    const tab = params.get('tab') || 'places';
+    if (tab === 'places' || tab === 'food') {
+      cityFilter = tab === 'food' ? 'restaurants' : 'see';
+      experienceFilter = 'all';
+      foodHalal = 'all';
+      foodVeg = 'all';
+      placeQuery = '';
+    }
+    renderCity(parts[1], tab);
+  } else if (parts[0] === 'map') renderMap(parts[1] || '');
+  else if (parts[0] === 'trip') renderTrip();
+  else if (parts[0] === 'saved') renderSaved();
+  else if (parts[0] === 'guide') renderGuide();
+  else renderExplore();
+}
+// Discovery, transparent rankings, dietary evidence and accommodation origins.
+const ART = DATA.art || {},
+  POP = DATA.popularity || {};
+const TYPES = [
+  'Nature',
+  'Architecture',
+  'History',
+  'Technology',
+  'Art',
+  'Food',
+  'Shopping',
+  'Adventure',
+  'Spiritual',
+  'Viewpoint',
+  'Entertainment',
+];
+let browseSort = 'tourism',
+  experienceFilter = 'all',
+  placeQuery = '',
+  foodHalal = 'all',
+  foodVeg = 'all',
+  placeView = 'cards',
+  activeCityId = '';
+let stayMap = null,
+  stayMarker = null,
+  stayDraft = null,
+  stayCity = '',
+  staySearchResults = [],
+  staySearchAbort = null,
+  staySearchTime = 0,
+  staySearchSequence = 0;
+const geocodeCache = new Map();
+function validCoords(lat, lon) {
+  return (
+    typeof lat === 'number' &&
+    typeof lon === 'number' &&
+    Number.isFinite(lat) &&
+    Number.isFinite(lon) &&
+    Math.abs(lat) <= 90 &&
+    Math.abs(lon) <= 180
+  );
+}
+function normalStay(v) {
+  if (!v || typeof v !== 'object' || Array.isArray(v) || !validCoords(v.lat, v.lon)) return null;
+  return {
+    label: String(v.label || 'My stay').slice(0, 180),
+    address: String(v.address || '').slice(0, 350),
+    lat: v.lat,
+    lon: v.lon,
+  };
+}
+function parseStayCoordinates(value) {
+  const s = String(value || '').trim();
+  let m = s.match(/^\s*(-?\d{1,3}(?:\.\d+)?)\s*[,;]\s*(-?\d{1,3}(?:\.\d+)?)\s*$/);
+  if (!m) {
+    try {
+      const u = new URL(s);
+      if (!/(^|\.)google\.[a-z.]+$/.test(u.hostname) && u.hostname !== 'maps.google.com')
+        return null;
+      const pin = u.href.match(/!3d(-?[\d.]+)!4d(-?[\d.]+)/);
+      m = pin || u.href.match(/@(-?[\d.]+),(-?[\d.]+)/);
+      if (!m) {
+        const q =
+          u.searchParams.get('query') || u.searchParams.get('q') || u.searchParams.get('ll') || '';
+        m = q.match(/^(-?[\d.]+),\s*(-?[\d.]+)$/);
+      }
+    } catch (e) {
+      return null;
+    }
+  }
+  if (!m) return null;
+  const lat = Number(m[1]),
+    lon = Number(m[2]);
+  return validCoords(lat, lon) ? { lat, lon } : null;
+}
+function fromStay(p) {
+  return S.stays?.[p.cityId] ? hav(S.stays[p.cityId], p) : null;
+}
+function distanceText(km) {
+  return km < 1
+    ? `${Math.round((km * 1000) / 10) * 10} m`
+    : `${km < 10 ? km.toFixed(1) : Math.round(km)} km`;
+}
+function typesFor(p) {
+  return Array.isArray(p.experienceTypes) && p.experienceTypes.length
+    ? p.experienceTypes
+    : [p.kind === 'eat' ? 'Food' : p.kind === 'shop' ? 'Shopping' : 'History'];
+}
+function typeChips(p) {
+  return typesFor(p)
+    .map((t) => `<span class="typechip type-${t.toLowerCase()}">${esc(t)}</span>`)
+    .join('');
+}
+function artTag(id, cls = '', lazy = true) {
+  const a = ART[id];
+  return a
+    ? `<img src="${esc(a.data)}" alt="${esc(a.alt)}" ${cls ? `class="${esc(cls)}"` : ''} ${lazy ? 'loading="lazy"' : ''} decoding="async">`
+    : '';
+}
+function visualTag(id, cls = '', lazy = true) {
+  return ART[id] ? artTag(id, cls, lazy) : photoTag(id, cls, lazy);
+}
+function artCaption(id) {
+  return P[id]?.kind === 'eat'
+    ? 'Original AI cuisine illustration · not a photograph of the venue, its current menu or proof of dietary suitability'
+    : 'Original AI illustration · interpretive scene, not a documentary photograph';
+}
+function visualBadge(id) {
+  return ART[id]
+    ? '<span class="photo-context art-badge">Original AI illustration</span>'
+    : contextBadge(id);
+}
+function starterArt(t) {
+  return `<div class="starter-art">${artTag('starter-' + t.id)}<span>Original AI illustration</span></div>`;
+}
+function reviewCount(p) {
+  return Number.isFinite(p.review?.count) && p.review.count > 0 ? p.review.count : null;
+}
+function rankPool(p) {
+  return C[p.cityId].items
+    .map((x) => P[x.id])
+    .filter(
+      (x) =>
+        x.kind === p.kind &&
+        (p.kind !== 'eat' || (x.venueType === 'restaurant') === (p.venueType === 'restaurant')),
+    );
+}
+function popularityRank(p) {
+  const n = reviewCount(p);
+  if (n === null) return null;
+  return 1 + rankPool(p).filter((x) => reviewCount(x) !== null && reviewCount(x) > n).length;
+}
+function rankCategory(p) {
+  return p.kind === 'eat'
+    ? p.venueType === 'restaurant'
+      ? 'listed restaurants'
+      : 'listed food experiences'
+    : p.kind === 'shop'
+      ? 'listed shopping stops'
+      : 'listed sights';
+}
+function rankBadge(p) {
+  const n = popularityRank(p);
+  return n
+    ? `<span class="rankbadge"><b>#${n}</b> ${rankCategory(p)} · review volume</span>`
+    : '<span class="rankbadge unranked">Review count unavailable</span>';
+}
+function comparePlaces(a, b, sort = placeSort) {
+  if (sort === 'nearby') {
+    const x = fromStay(a),
+      y = fromStay(b);
+    return (x ?? Infinity) - (y ?? Infinity) || a.priority - b.priority;
+  }
+  if (sort === 'rating')
+    return (
+      (b.review?.rating ?? -1) - (a.review?.rating ?? -1) ||
+      (reviewCount(b) ?? -1) - (reviewCount(a) ?? -1)
+    );
+  if (sort === 'cost') return a.price[0] - b.price[0];
+  if (sort === 'recommended') return a.priority - b.priority;
+  return (
+    (reviewCount(b) ?? -1) - (reviewCount(a) ?? -1) ||
+    (b.review?.rating ?? -1) - (a.review?.rating ?? -1) ||
+    a.priority - b.priority
+  );
+}
+function matchesDiet(p) {
+  const d = p.dietary || {},
+    hasEvidence = Array.isArray(d.evidence) && d.evidence.length > 0;
+  if (
+    foodHalal !== 'all' &&
+    (!hasEvidence ||
+      !(
+        foodHalal === 'certified' ? ['certified'] : ['certified', 'operator-stated', 'options']
+      ).includes(d.halal))
+  )
+    return false;
+  if (
+    foodVeg !== 'all' &&
+    (!hasEvidence ||
+      !(
+        foodVeg === 'vegan'
+          ? ['vegan']
+          : foodVeg === 'fully'
+            ? ['fully-vegetarian', 'vegan']
+            : ['fully-vegetarian', 'vegan', 'options']
+      ).includes(d.vegetarian))
+  )
+    return false;
+  return true;
+}
+function dietaryLabels(p) {
+  const d = p.dietary || {},
+    labels = [];
+  if (d.halal === 'certified') labels.push(['Halal · certified', 'halal']);
+  else if (d.halal === 'operator-stated') labels.push(['Halal · operator stated', 'halal']);
+  else if (d.halal === 'options') labels.push(['Halal options · check dish', 'halal']);
+  if (d.vegetarian === 'vegan') labels.push(['Plant-based menu', 'veggie']);
+  else if (d.vegetarian === 'fully-vegetarian') labels.push(['Vegetarian menu', 'veggie']);
+  else if (d.vegetarian === 'options') labels.push(['Vegetarian options', 'veggie']);
+  return labels.map(([x, k]) => `<span class="dietchip ${k}">${x}</span>`).join('');
+}
+function dietaryDetail(p) {
+  if (p.kind !== 'eat') return '';
+  const d = p.dietary || {};
+  return `<section class="dietary-detail"><h3>Food that fits you</h3><div class="actions">${dietaryLabels(p) || '<span class="pill gray">Dietary status unverified</span>'}</div><p>${esc(d.note || 'Ask this venue about the specific dish, ingredients and preparation. No halal or vegetarian evidence has been verified for this stop.')}</p><small>Halal: ${esc({ certified: 'certifier evidence linked', 'operator-stated': 'operator claim; no independent certification established', options: 'specific options only; verify preparation', none: 'not halal', unverified: 'not verified' }[d.halal] || 'not verified')}. Vegetarian: ${esc({ vegan: 'plant-based menu', 'fully-vegetarian': 'vegetarian menu', options: 'some dishes only', none: 'no verified options', unverified: 'not verified' }[d.vegetarian] || 'not verified')}. Vegetarian food may contain alcohol and is not automatically halal. Check sauces, stock, shared preparation and the current branch menu.</small><div class="source-links">${(d.evidence || []).map((x) => external(x.url, esc(x.label || x.title || 'Dietary source') + ' ↗') + ` <span>retrieved ${esc(x.checked || DATA.retrieved)}</span>`).join('<br>')}</div></section>`;
+}
+function getCityPlaces(c) {
+  const q = placeQuery.trim().toLowerCase();
+  return c.items
+    .map((p) => P[p.id])
+    .filter(
+      (p) =>
+        (cityFilter === 'all' ||
+          p.kind === cityFilter ||
+          (cityFilter === 'saved' && saved(p.id)) ||
+          (cityFilter === 'restaurants' && p.kind === 'eat' && p.venueType === 'restaurant')) &&
+        (experienceFilter === 'all' || typesFor(p).includes(experienceFilter)) &&
+        (!(foodHalal !== 'all' || foodVeg !== 'all') || (p.kind === 'eat' && matchesDiet(p))) &&
+        (!q ||
+          [p.name, p.area, p.summary, p.cuisine, ...(p.mustOrder || [])]
+            .join(' ')
+            .toLowerCase()
+            .includes(q)),
+    )
+    .sort(comparePlaces);
+}
+function cityRanking(c, metric = browseSort) {
+  if (metric === 'arrivals') {
+    const a = c.popularity?.arrivals;
+    return a
+      ? {
+          rank: a.rank,
+          value: (a.count / 1e6).toFixed(1) + 'm international arrivals',
+          label: 'Global arrivals rank · ' + a.year,
+          source: a.url,
+        }
+      : null;
+  }
+  const a = c.popularity?.tourism;
+  return a
+    ? {
+        rank: a.rank,
+        value: 'Global tourism index · ' + a.year,
+        label: 'Euromonitor overall destination index',
+        source: a.url,
+      }
+    : null;
+}
+function cityCard(c) {
+  const rank = cityRanking(c);
+  return `<article class="citycard"><div class="cityimage" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}">${photoTag(c.id)}<span class="pill dark">${esc(c.region)}</span>${cityAdd(c.id, true)}<div class="citytitle"><span>${esc(c.country)}</span><h3>${esc(c.name)}</h3></div></div><div class="citybody"><div class="city-rank">${rank ? `<strong>#${rank.rank}</strong><span>${esc(rank.value)}<small>${esc(rank.label)}</small></span>` : `<span class="unranked-city">${browseSort === 'arrivals' ? 'Outside the published arrivals top 10' : 'No rank in this 100-city index'}<small>Explore on its own merits</small></span>`}</div><p>${esc(c.tagline)}</p><div class="citymeta"><span>${c.days} days · ${c.items.filter((x) => x.kind === 'see').length} sights · ${c.items.filter((x) => x.venueType === 'restaurant').length} restaurants</span><a href="#/city/${c.id}" aria-label="Explore ${esc(c.name)}"><strong>Explore ↗</strong></a></div></div></article>`;
+}
+function placeCard(p) {
+  const d = fromStay(p);
+  return `<article class="placecard"><div class="placeimage" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}">${visualTag(p.id)}<span class="pill">${icon(p.kind === 'eat' ? 'food' : p.kind === 'shop' ? 'bag' : 'pin')}${p.venueType === 'restaurant' ? 'Restaurant' : p.kind === 'see' ? 'See & do' : p.kind === 'eat' ? 'Food experience' : 'Shopping'}</span>${saveButton(p.id)}${visualBadge(p.id)}</div><div class="placebody">${rankBadge(p)}<div class="typechips">${typeChips(p)}</div><h3 data-action="place" data-id="${p.id}" tabindex="0" role="button">${esc(p.name)}</h3><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="area">${esc(p.area)} · ${p.duration} h${d !== null ? `<br><span class="near-label">${distanceText(d)} from your stay · straight line</span>` : ''}</div><div class="placemeta"><span>${priceLabel(p)}</span>${rating(p)}</div><div class="placeactions"><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${external(mapsPin(p), icon('pin') + ' Maps', 'btn ghost small')}</div></div></article>`;
+}
+function rankingRows(items) {
+  return `<div class="ranking-list">${items.map((p) => `<article class="ranking-row"><div class="ranking-number">${popularityRank(p) ? '#' + popularityRank(p) : '—'}</div><button class="ranking-thumb" data-action="place" data-id="${p.id}" aria-label="View ${esc(p.name)}">${visualTag(p.id)}</button><div class="ranking-main"><button class="inline-link" data-action="place" data-id="${p.id}">${esc(p.name)}</button><div class="typechips">${typeChips(p)}</div><small>${esc(rankCategory(p))} · ${esc(p.area)}${fromStay(p) !== null ? ' · ' + distanceText(fromStay(p)) + ' from stay' : ''}</small></div><div class="ranking-stat"><strong>${reviewCount(p) !== null ? num(reviewCount(p)) : '—'}</strong><small>${reviewCount(p) !== null ? 'reviews' : 'no count verified'}</small>${rating(p)}</div><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${saveButton(p.id)}</article>`).join('')}</div>`;
+}
+function cityResults(c) {
+  const places = getCityPlaces(c);
+  if (!places.length)
+    return '<div class="no-results"><h3>No matches for these filters.</h3><p>Missing dietary evidence means “unverified”, not “no suitable food exists”. Clear a filter, check a venue’s current menu, or search nearby on Google Maps.</p><button class="btn light" data-action="clear-place-filters">Clear filters</button></div>';
+  return placeView === 'ranking'
+    ? rankingRows(places)
+    : `<div class="placegrid">${places.map(placeCard).join('')}</div>`;
+}
+function refreshCityResults() {
+  const c = C[activeCityId];
+  if (!c) return;
+  const el = $('#city-places');
+  if (el) el.innerHTML = cityResults(c);
+  const n = $('#place-result-count');
+  if (n) n.textContent = getCityPlaces(c).length + ' matching places';
+}
+function stayPanel(c, compact = false) {
+  const s = S.stays[c.id],
+    near = s
+      ? c.items
+          .map((p) => P[p.id])
+          .filter((p) => p.kind === 'see' && !p.excursion && p.duration < 6 && hav(c, p) < 40)
+          .sort((a, b) => hav(s, a) - hav(s, b))
+          .slice(0, 3)
+      : [];
+  return `<section class="stay-panel ${compact ? 'compact' : ''}"><div class="stay-heading">${icon('pin')}<div><h3>${s ? 'Start from ' + esc(s.label) : 'Where are you staying?'}</h3><p>${s ? esc(s.address || `${s.lat.toFixed(5)}, ${s.lon.toFixed(5)}`) : 'Add a hotel, address or map pin to find nearby places and begin your local routes there.'}</p></div><button class="btn ${s ? 'light' : 'small'}" data-action="edit-stay" data-id="${c.id}">${s ? 'Change stay' : 'Add your stay'}</button></div>${s && !compact ? `<div class="nearby-preview"><span class="eyebrow">CLOSE TO YOUR DOOR · STRAIGHT-LINE DISTANCE</span><div class="nearby-options">${near.map((p) => `<button data-action="place" data-id="${p.id}"><span>${esc(p.name)}</span><strong>${distanceText(hav(s, p))}</strong></button>`).join('')}</div><button class="inline-link" data-action="nearby-first" data-id="${c.id}">Show nearby places first ${icon('arrow')}</button><span class="muted"> Actual travel time and accessible routes are checked in Maps.</span></div>` : ''}</section>`;
+}
+function cityTabHtml(c, tab) {
+  if (tab === 'arrival' || tab === 'sources') return cityTabLegacy(c, tab);
+  if (tab === 'food' && cityFilter !== 'restaurants' && cityFilter !== 'eat')
+    cityFilter = 'restaurants';
+  const food = tab === 'food' || cityFilter === 'restaurants' || cityFilter === 'eat';
+  const rated = c.items.filter((p) => p.kind === 'see' && reviewCount(p) !== null).length,
+    mixed = ['all', 'saved'].includes(cityFilter);
+  return `<div class="discovery-heading"><div><div class="eyebrow">${food ? 'WHAT TO EAT & WHERE' : 'KNOW WHAT YOU ARE WALKING INTO'}</div><h2>${food ? 'Food worth a stop.' : 'Find your kind of remarkable.'}</h2><p>${food ? 'Named venues, must-order dishes and sourced dietary details.' : 'Start with the most-reviewed sights, then narrow by the experience you want.'}</p></div><button class="btn ghost small" data-action="ranking-method">${icon('info')} How rankings work</button></div><div class="ranking-explainer"><strong>${placeSort === 'nearby' ? 'Nearby first' : placeSort === 'rating' ? 'Highest rating first' : placeSort === 'recommended' ? 'Editorial visit priority' : placeSort === 'cost' ? 'Lowest starting cost' : 'Most reviewed → least reviewed'}</strong><span>${placeSort === 'nearby' ? 'Distance from your saved stay is straight-line, not walking time.' : `${mixed ? 'Ranks remain within each category: sights, restaurants, food experiences or shopping.' : 'Ranks compare ' + (food ? 'food stops' : 'sights') + ' covered in this city.'} Review count is a popularity signal, not a measured visitor total. ${rated} sights have counts; unknown counts remain unranked.`}</span></div><div class="searchrow"><div class="searchbox">${icon('search')}<input id="place-search" type="search" placeholder="Search places, neighbourhoods or dishes…" aria-label="Search places in this city" value="${esc(placeQuery)}"></div><select id="place-sort" aria-label="Sort city places"><option value="popularity" ${placeSort === 'popularity' ? 'selected' : ''}>Most reviewed first</option><option value="rating" ${placeSort === 'rating' ? 'selected' : ''}>Highest visitor rating</option><option value="recommended" ${placeSort === 'recommended' ? 'selected' : ''}>First-visit recommendations</option><option value="nearby" ${placeSort === 'nearby' ? 'selected' : ''} ${S.stays[c.id] ? '' : 'disabled'}>Closest to my stay</option><option value="cost" ${placeSort === 'cost' ? 'selected' : ''}>Lowest starting cost</option></select></div><div class="chips">${[
+    ['see', 'Sights & experiences'],
+    ['restaurants', 'Restaurants'],
+    ['eat', 'All food stops'],
+    ['shop', 'Shopping'],
+    ['all', 'Everything'],
+    ['saved', 'Saved'],
+  ]
+    .map(
+      ([k, t]) =>
+        `<button class="chip ${cityFilter === k ? 'active' : ''}" data-action="city-filter" data-id="${k}">${t}</button>`,
+    )
+    .join(
+      '',
+    )}</div><div class="filter-line"><label>Experience <select id="experience-filter"><option value="all">Every type</option>${TYPES.map((t) => `<option ${experienceFilter === t ? 'selected' : ''}>${t}</option>`).join('')}</select></label>${food ? `<label>Halal <select id="food-halal"><option value="all">Any / unverified</option><option value="stated" ${foodHalal === 'stated' ? 'selected' : ''}>Sourced halal choices</option><option value="certified" ${foodHalal === 'certified' ? 'selected' : ''}>Certification evidence only</option></select></label><label>Vegetarian <select id="food-veg"><option value="all">Any / unverified</option><option value="options" ${foodVeg === 'options' ? 'selected' : ''}>Vegetarian options</option><option value="fully" ${foodVeg === 'fully' ? 'selected' : ''}>Fully vegetarian / plant-based</option><option value="vegan" ${foodVeg === 'vegan' ? 'selected' : ''}>Plant-based menu</option></select></label>` : ''}<div class="view-switch"><button class="${placeView === 'cards' ? 'active' : ''}" data-action="place-view" data-id="cards">Cards</button><button class="${placeView === 'ranking' ? 'active' : ''}" data-action="place-view" data-id="ranking">Ranked list</button></div></div>${food ? '<p class="filter-note">Halal certification, operator claims and particular halal dishes are labelled separately. Vegetarian does not automatically mean halal. Both filters apply together.</p>' : ''}<p class="muted result-count" id="place-result-count">${getCityPlaces(c).length} matching places</p><div id="city-places">${cityResults(c)}</div>`;
+}
+function renderCity(id, tab = 'places') {
+  if (!validCity(id)) {
+    location.hash = '#/';
+    return;
+  }
+  const c = C[id];
+  if (placeSort === 'nearby' && !S.stays[id]) placeSort = 'popularity';
+  if (activeCityId !== id) {
+    activeCityId = id;
+    cityFilter = tab === 'food' ? 'restaurants' : 'see';
+    experienceFilter = 'all';
+    placeQuery = '';
+    foodHalal = 'all';
+    foodVeg = 'all';
+    placeSort = 'popularity';
+  }
+  if (tab === 'food' && !['eat', 'restaurants'].includes(cityFilter)) cityFilter = 'restaurants';
+  headerActive('explore');
+  const r = cityRanking(c, 'tourism'),
+    a = cityRanking(c, 'arrivals');
+  $('#app').innerHTML =
+    `<div class="wrap"><div class="backline"><a href="#/">${icon('left')} Compare destinations</a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section><div class="destination-evidence">${r ? external(r.source, `<b>#${r.rank}</b> global tourism index · 2025`) : '<span>Special-interest destination · no published index rank</span>'}${a ? external(a.source, `<b>#${a.rank}</b> international arrivals · ${esc(a.value)}`) : ''}<button class="inline-link" data-action="ranking-method">Understand the numbers ↗</button></div><div class="citysummary"><div class="summarycell"><label>Make time for</label><strong>${c.days} days</strong><small>City time, before transfers</small></div><div class="summarycell"><label>Daily spending estimate</label><strong>${range(c.dailyBudget, c.currency)}</strong><small>Per person · hotels & major excursions extra</small></div><div class="summarycell"><label>Cash on hand</label><strong>${range(c.cashPerDay, c.currency)}</strong><small>Per day · part of spending</small></div><div class="summarycell"><label>Good months to consider</label><strong>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</strong><small>Typical seasons</small></div></div>${stayPanel(c)}<div class="citytabs">${[
+      ['places', 'Places & rankings'],
+      ['food', 'Eat & dietary options'],
+      ['arrival', 'When you land'],
+      ['sources', 'Evidence & images'],
+    ]
+      .map(
+        ([k, t]) =>
+          `<button class="${tab === k ? 'active' : ''}" data-action="city-tab" data-id="${id}" data-tab="${k}">${t}</button>`,
+      )
+      .join(
+        '',
+      )}</div>${parkNotice(c)}${cityTabHtml(c, tab)}<div class="resourcebox"><h3>${icon('book')}Your notes for ${esc(c.name)}</h3><div class="field"><textarea data-note="${id}" placeholder="Reservation times, a local tip, reminders…" aria-label="Notes for ${esc(c.name)}">${esc(S.notes[id] || '')}</textarea></div><small class="muted">Your stay and notes are saved in this browser and included in trip backups.</small></div>${footer()}</div>`;
+}
+function openPlace(id) {
+  if (!validPlace(id)) return;
+  const p = P[id],
+    c = C[p.cityId],
+    r = p.review,
+    rank = popularityRank(p),
+    stay = S.stays[c.id];
+  const bullets = (x) => (Array.isArray(x) ? x : x ? [x] : []);
+  showModal(
+    `<div class="modalphoto" id="place-visual">${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div></div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><div class="quick-facts"><span>${icon('clock')} ${p.duration} hours</span><span>${icon('wallet')} ${priceLabel(p)}</span><span>${icon('sun')} ${esc(p.bestTime)}</span></div><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
+      p.whyVisit || p.expect,
+    )
+      .map((x) => `<li>${esc(x)}</li>`)
+      .join(
+        '',
+      )}</ul></section><div class="detailgrid"><section><h3>Your visit, in plain English</h3><ol class="visit-flow">${bullets(
+      p.visitFlow || p.expect,
+    )
+      .map((x) => `<li>${esc(x)}</li>`)
+      .join(
+        '',
+      )}</ol></section><section><h3>Is it your kind of place?</h3><p><strong>Best for:</strong> ${esc(bullets(p.bestFor).join(' · ') || typesFor(p).join(', ') + ' enthusiasts')}</p><p><strong>Trade-offs:</strong> ${esc(bullets(p.tradeoffs).join(' ') || p.tip)}</p></section></div><section class="rank-reason"><h3>Why it ranks here</h3><p>${rank ? `<strong>#${rank} among ${rankCategory(p)} in ${esc(c.name)}</strong> by recorded ${esc(r.source || 'visitor')} review volume. ${num(r.count)} reviews give it this position; ${Number.isFinite(r.rating) ? 'its ' + Number(r.rating).toFixed(1) + '/5 rating shows visitor satisfaction. These measure different things.' : 'no numeric satisfaction rating is verified.'}` : 'No comparable numeric review count is verified, so this place has no popularity rank. It is included as an editorial recommendation based on the linked visitor and destination evidence.'}</p>${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section>${p.mustOrder?.length ? `<section class="must-order-box"><h3>What to order</h3><p>${p.mustOrder.map((x) => esc(x)).join(' · ')}</p><small>${esc(p.cuisine || '')} · Confirm the current menu and your dietary requirements.</small></section>` : ''}${dietaryDetail(p)}<div class="modalstats"><div><label>Allow</label><strong>${p.duration} hours${p.duration > 16 ? ' · multi-day' : ''}</strong></div><div><label>Planning cost</label><strong>${priceLabel(p)}</strong></div><div><label>Good timing</label><strong>${esc(p.bestTime)}</strong></div><div><label>Booking</label><strong>${esc(p.reservation)}</strong></div></div><p class="price-note">${esc(p.priceNote)}</p><div class="detailgrid"><section><h3>What to expect</h3><p>${esc(p.expect)}</p></section><section><h3>Make the visit work</h3><p>${esc(p.tip)}</p></section></div>${stay ? `<div class="stay-to-place"><strong>${distanceText(hav(stay, p))} from ${esc(stay.label)}</strong><span>Straight-line distance. Check the real route below.</span><div class="actions">${p.excursion || hav(c, p) > 40 ? external(p.sourceUrls?.[0] || mapsPin(p), icon('external') + ' Check excursion access', 'btn light small') + external(mapsPin(p), 'View destination pin', 'btn light small') : external(mapsDirections([stay, p], 'walking'), icon('route') + ' Walk from my stay', 'btn light small') + external(mapsDirections([stay, p], 'transit'), icon('train') + ' Transit from my stay', 'btn light small')}</div></div>` : `<button class="btn light small" data-action="edit-stay" data-id="${c.id}">${icon('pin')} Add your stay to check distance</button>`}<div class="actions modal-main-actions">${saveButton(id)}${external(mapsPin(p), icon('pin') + ' Open in Google Maps', 'btn')}${external(mapsCoordinate(p), 'Coordinate pin', 'btn light')}<button class="btn ghost" data-action="map-place" data-id="${id}">${icon('map')} Map</button></div><p class="price-note">In Google Maps, tap <strong>Save</strong> to pin it to your list. The heart here saves it in Roam Atlas.</p><div class="field"><label>Your note</label><textarea data-note="${id}" placeholder="Booked time, must-try dish or reminder…">${esc(S.notes[id] || '')}</textarea></div><div class="source-links">Place sources: ${(p.sourceUrls || []).map((u) => external(u, esc(new URL(u).hostname) + ' ↗')).join(' ')}<br>Map points are approximate. Confirm the entrance or meeting point with the venue.</div></div>`,
+    p.name,
+  );
+}
+function showRankingMethod() {
+  showModal(
+    `<div class="modalcontent"><span class="eyebrow">POPULARITY, WITH CONTEXT</span><h2>Every number has a meaning.</h2><section class="method-block"><h3>City tourism index</h3><p>Euromonitor’s 2025 Top 100 City Destinations Index combines tourism performance with infrastructure, policy, business, safety and sustainability. The rank is global within its 100-city study. It is not an ordering by visitor numbers.</p>${external(POP.indexSource || 'https://www.euromonitor.com/article/top-100-city-destinations-index-2025-driving-growth-and-innovation', 'Euromonitor methodology ↗')} · ${external(POP.indexTableSource || 'https://www.vacationstravel.com/top-100-city-destinations/', 'Published rank table ↗')}</section><section class="method-block"><h3>Most visited cities</h3><p>The separate arrivals view uses the public 2025 top 10 for international arrivals. These were year-end estimates published in December 2025. Repeat trips count; domestic visitors are excluded. Only the covered cities in that published table receive a rank. Unranked destinations are not “least popular”.</p>${external(POP.arrivalsSource || 'https://www.statista.com/chart/35880/top-cities-for-international-visitors-in-2025/', 'Published arrivals figures ↗')}</section><section class="method-block"><h3>Place popularity</h3><p>“Most reviewed” orders verified review counts from highest to lowest, within this guide’s sights, restaurants, food experiences or shopping stops for that city. Ties share a rank. Filtering by experience or distance keeps the original category rank so the number does not jump around.</p><p>Review volume is a useful visibility signal, but it is not footfall. Older venues and different review platforms can attract different reviewing behaviour. Ratings show satisfaction, not how many people visited. Missing counts are explicitly unranked.</p></section><section class="method-block"><h3>Why go?</h3><p>The appeal and visit-flow notes are editorial explanations grounded in the linked venue and destination sources. Review observations are identified in the visitor-evidence section. Costs are planning ranges. Original AI illustrations communicate the experience and are labelled; photographic sources remain available.</p></section><button class="btn" data-action="close-modal">Got it</button></div>`,
+    'How popularity rankings work',
+  );
+}
+function renderExplore() {
+  headerActive('explore');
+  $('#app').innerHTML =
+    `<div class="wrap"><section class="hero"><div class="hero-copy"><div class="eyebrow">YOUR WORLD, READY TO EXPLORE</div><h1>Land somewhere.<br>Know why to go.</h1><p>Compare popular cities. Understand their standout places. Find food that fits you, then start from your own doorstep.</p><div class="actions"><button class="btn" data-action="browse-scroll">Compare cities ${icon('arrow')}</button><a class="btn ghost" href="#/city/tokyo">Start with Tokyo</a></div></div><div class="hero-photo">${photoTag('tokyo', '', false)}<span class="hero-credit">${photoCredit('tokyo')}</span><div class="hero-caption"><div><span class="eyebrow">YOUR FIRST CHAPTER · JAPAN</span><h3>Tokyo → Kyoto → Osaka</h3><p>Temple mornings. Skyline evenings. One more bowl of ramen.</p></div><button class="iconbtn" data-action="template" data-id="japan" aria-label="Build the Japan trip">${icon('arrow')}</button></div></div></section><div class="onboarding-steps"><div><b>01</b><span><strong>Find your city</strong><small>Compare sourced tourism rankings</small></span></div><div><b>02</b><span><strong>Find your kind of place</strong><small>See the appeal, reviews & real trade-offs</small></span></div><div><b>03</b><span><strong>Start from your stay</strong><small>Nearby sights, food & routes</small></span></div></div><div class="statbar"><div class="stat"><strong>${CITIES.length}</strong><span>destinations & park gateways</span></div><div class="stat"><strong>${PLACES.filter((p) => p.kind === 'see').length}</strong><span>sights & experiences</span></div><div class="stat"><strong>${PLACES.filter((p) => p.venueType === 'restaurant').length}</strong><span>named places to eat</span></div><div class="stat"><strong>${TEMPLATES.length}</strong><span>illustrated trip starters</span></div></div><div class="sectionhead" id="browse"><div><span class="eyebrow">CHOOSE YOUR NEXT CHAPTER</span><h2>How do the cities compare?</h2></div><button class="btn ghost small" data-action="ranking-method">${icon('info')} Ranking guide</button></div><div class="ranking-tabs">${[
+      ['tourism', 'Global tourism index'],
+      ['arrivals', 'Most visited · international'],
+      ['personal', 'Japan & your priorities'],
+    ]
+      .map(
+        ([k, t]) =>
+          `<button class="${browseSort === k ? 'active' : ''}" data-action="browse-sort" data-id="${k}">${t}</button>`,
+      )
+      .join(
+        '',
+      )}</div><p id="city-ranking-note" class="ranking-note"></p><div class="searchrow"><div class="searchbox">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="City, country, landmark or food…" value="${esc(browseQuery)}"></div><a class="btn ghost" href="#/map">${icon('map')} Explore map</a></div><div class="chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'All destinations' : r}</button>`).join('')}</div><div id="browse-results"></div><div class="sectionhead"><div><span class="eyebrow">GO FOR THE ICON. STAY FOR THE JOURNEY.</span><h2>Make it a bigger trip.</h2></div><a href="#/trip" class="btn text">All trip starters ${icon('arrow')}</a></div><div class="tripinspiration">${[TEMPLATES[0], TEMPLATES[1], TEMPLATES[2]].map((t) => `<article class="tripteaser">${starterArt(t)}<div class="teaser-body"><div class="tag">${t.tag}</div><h3>${t.title}</h3><p>${t.highlights}</p><button class="btn text" data-action="template" data-id="${t.id}">Plan this journey ${icon('arrow')}</button></div></article>`).join('')}</div>${footer()}</div>`;
+  renderBrowse();
+}
+function renderBrowse() {
+  const q = browseQuery.toLowerCase().trim();
+  const list = CITIES.filter(
+    (c) =>
+      (browseRegion === 'All' || c.region === browseRegion) &&
+      (!q ||
+        [c.name, c.country, c.tagline, ...c.items.map((p) => p.name + ' ' + p.summary)]
+          .join(' ')
+          .toLowerCase()
+          .includes(q)),
+  );
+  const ranked = list.filter((c) => cityRanking(c)),
+    unranked = list.filter((c) => !cityRanking(c));
+  ranked.sort((a, b) => cityRanking(a).rank - cityRanking(b).rank);
+  const note = $('#city-ranking-note');
+  if (note)
+    note.innerHTML =
+      browseSort === 'arrivals'
+        ? '2025 international arrivals, highest first. Only cities in the published global top 10 have comparable figures here. Domestic travel is excluded.'
+        : browseSort === 'personal'
+          ? 'Your Japan-first collection, followed by Asia, Europe, Africa and the Americas. Numbered badges still show published global tourism-index ranks.'
+          : 'Euromonitor 2025 overall tourism index. A broad measure of a destination’s tourism offer; it is not a visitor-count ranking. Lower rank numbers place higher in the index.';
+  $('#browse-results').innerHTML = !list.length
+    ? '<div class="no-results">No matching destinations. Try a city, country or landmark.</div>'
+    : browseSort === 'personal'
+      ? `<div class="citygrid">${list.map(cityCard).join('')}</div>`
+      : `${ranked.length ? `<div class="citygrid">${ranked.map(cityCard).join('')}</div>` : ''}${unranked.length ? `<div class="unranked-heading"><h3>More places to make a journey for.</h3><p>These ${unranked.length} destinations have no comparable rank in this ${browseSort === 'arrivals' ? 'published arrivals top 10' : '100-city index'}. This does not place them below the ranked cities in popularity.</p></div><div class="citygrid">${unranked.map(cityCard).join('')}</div>` : ''}`;
+}
+function openStay(id) {
+  if (!validCity(id)) return;
+  const c = C[id],
+    s = S.stays[id];
+  stayCity = id;
+  stayDraft = s ? { ...s } : null;
+  staySearchResults = [];
+  showModal(
+    `<div class="modalcontent stay-modal"><span class="eyebrow">YOUR STARTING POINT IN ${esc(c.name.toUpperCase())}</span><h2>Where are you staying?</h2><p>Search for your hotel or address, paste coordinates, or tap the map to place a pin. Confirm the location before saving.</p><div class="field"><label for="stay-label">Name to remember</label><input id="stay-label" maxlength="180" placeholder="My hotel / apartment" value="${esc(s?.label || '')}"></div><div class="stay-search-line"><div class="field"><label for="stay-query">Hotel, address, coordinates or full Google Maps link</label><input id="stay-query" maxlength="500" placeholder="e.g. hotel name, Tokyo · or 35.71, 139.80" value="${esc(s?.address || '')}"></div><button class="btn small" data-action="stay-search">Find location</button></div><p class="filter-note">Address search sends your query to Photon / OpenStreetMap. Pinning the map or pasting coordinates works without address search. Your saved stay remains in this browser and your exported backups.</p><div id="stay-search-status" role="status" class="filter-note"></div><div id="stay-search-results" class="stay-search-results"></div><div id="stay-map" aria-label="Choose your accommodation location on the map"></div><div class="stay-coordinate-line"><label>Latitude <input id="stay-lat" type="number" min="-90" max="90" step="any" value="${s?.lat ?? ''}" placeholder="35.71"></label><label>Longitude <input id="stay-lon" type="number" min="-180" max="180" step="any" value="${s?.lon ?? ''}" placeholder="139.80"></label><button class="btn light small" data-action="stay-coords">Use coordinates</button><button class="btn light small" data-action="stay-location">${icon('locate')} Use my location</button></div><p id="stay-confirm" class="stay-confirm" role="status">${s ? 'Current saved point. Move it if needed.' : 'No location selected yet. Tap the map or choose a search result.'}</p><div class="actions"><button class="btn" data-action="stay-save" id="stay-save" ${s ? '' : 'disabled'}>Save my stay</button>${s ? '<button class="btn ghost" data-action="stay-remove">Remove stay</button>' : ''}<button class="btn ghost" data-action="close-modal">Cancel</button></div><small class="muted">Map/search © OpenStreetMap contributors. Search is an optional online service with no availability guarantee. Check hotel names and entrances carefully.</small></div>`,
+    'Set your accommodation',
+  );
+  stayMap = L.map('stay-map', { zoomControl: true, minZoom: 1, maxZoom: 19 }).setView(
+    [s?.lat ?? c.lat, s?.lon ?? c.lon],
+    13,
+  );
+  L.geoJSON(DATA.world, {
+    style: { color: '#bbccc1', weight: 1, fillColor: '#eef0df', fillOpacity: 1 },
+    interactive: false,
+  }).addTo(stayMap);
+  if (navigator.onLine)
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+    }).addTo(stayMap);
+  stayMap.on('click', (e) =>
+    selectStayPoint({ lat: e.latlng.lat, lon: e.latlng.lng, address: 'Pinned on the map' }),
+  );
+  if (s) selectStayPoint(s, false);
+  setTimeout(() => stayMap?.invalidateSize(), 100);
+}
+function selectStayPoint(point, move = true) {
+  if (!stayMap || !validCoords(point.lat, point.lon)) return;
+  staySearchSequence++;
+  staySearchAbort?.abort();
+  staySearchAbort = null;
+  stayDraft = {
+    lat: point.lat,
+    lon: point.lon,
+    label: point.label || $('#stay-label')?.value || 'My stay',
+    address: point.address || '',
+  };
+  if (stayMarker) stayMap.removeLayer(stayMarker);
+  stayMarker = L.circleMarker([point.lat, point.lon], {
+    radius: 10,
+    color: '#fff',
+    weight: 3,
+    fillColor: '#e7764b',
+    fillOpacity: 1,
+  }).addTo(stayMap);
+  if (move) stayMap.setView([point.lat, point.lon], Math.max(14, stayMap.getZoom()));
+  $('#stay-lat').value = point.lat.toFixed(6);
+  $('#stay-lon').value = point.lon.toFixed(6);
+  if (!$('#stay-label').value && point.label) $('#stay-label').value = point.label;
+  const d = hav(C[stayCity], point);
+  $('#stay-confirm').textContent =
+    (point.address ? point.address + ' · ' : '') +
+    point.lat.toFixed(5) +
+    ', ' +
+    point.lon.toFixed(5) +
+    (d > 80
+      ? ' · This is ' +
+        Math.round(d) +
+        ' km from the city centre. Check that you selected the correct city.'
+      : ' · Check the pin, then save.');
+  $('#stay-save').disabled = false;
+  if ($('#stay-search-status'))
+    $('#stay-search-status').textContent = 'Location selected. Check the pin and save.';
+}
+async function searchStay() {
+  const q = $('#stay-query')?.value.trim();
+  if (!q) return;
+  const sequence = ++staySearchSequence;
+  staySearchAbort?.abort();
+  staySearchAbort = null;
+  const parsed = parseStayCoordinates(q);
+  if (parsed) {
+    selectStayPoint({ ...parsed, address: 'Point from coordinates / map link' });
+    return;
+  }
+  if (/^https?:\/\//i.test(q)) {
+    toast(
+      'Use a full Maps URL containing coordinates, or paste latitude and longitude. Short share links cannot be located here.',
+    );
+    return;
+  }
+  if (!navigator.onLine) {
+    $('#stay-search-status').textContent =
+      'You are offline. Use coordinates or place a pin on the map.';
+    return;
+  }
+  if (Date.now() - staySearchTime < 1500) {
+    $('#stay-search-status').textContent = 'Please wait a moment, then press Find location again.';
+    return;
+  }
+  staySearchTime = Date.now();
+  const city = stayCity,
+    query = q + ', ' + C[city].name,
+    key = city + '|' + q.toLowerCase();
+  $('#stay-search-status').textContent = 'Looking for matching locations…';
+  $('#stay-search-results').innerHTML = '';
+  staySearchResults = [];
+  try {
+    let rows = geocodeCache.get(key);
+    if (!rows) {
+      const controller = new AbortController();
+      staySearchAbort = controller;
+      const timer = setTimeout(() => controller.abort(), 12000);
+      let response;
+      try {
+        response = await fetch(
+          'https://photon.komoot.io/api/?' +
+            new URLSearchParams({
+              q: query,
+              lat: C[city].lat,
+              lon: C[city].lon,
+              limit: 6,
+              lang: 'en',
+            }),
+          { signal: controller.signal, referrerPolicy: 'no-referrer' },
+        );
+      } finally {
+        clearTimeout(timer);
+      }
+      if (!response.ok) throw Error('Search is temporarily unavailable');
+      const data = await response.json();
+      rows = (data.features || [])
+        .filter(
+          (f) =>
+            f.geometry?.type === 'Point' &&
+            validCoords(f.geometry.coordinates[1], f.geometry.coordinates[0]),
+        )
+        .map((f) => ({
+          lat: f.geometry.coordinates[1],
+          lon: f.geometry.coordinates[0],
+          label: f.properties?.name || q,
+          address: [
+            f.properties?.housenumber,
+            f.properties?.street,
+            f.properties?.district,
+            f.properties?.city,
+            f.properties?.country,
+          ]
+            .filter(Boolean)
+            .join(', '),
+        }));
+      geocodeCache.set(key, rows);
+    }
+    if (!stayMap || stayCity !== city || sequence !== staySearchSequence) return;
+    staySearchResults = rows;
+    $('#stay-search-status').textContent = rows.length
+      ? 'Choose the matching address, check its map pin, then save.'
+      : 'No matches found. Try a street address or place a pin yourself.';
+    $('#stay-search-results').innerHTML = rows
+      .map(
+        (p, i) =>
+          `<button data-action="stay-result" data-id="${i}"><strong>${esc(p.label)}</strong><span>${esc(p.address)}</span><small>${distanceText(hav(C[city], p))} from ${esc(C[city].name)} centre</small></button>`,
+      )
+      .join('');
+  } catch (e) {
+    if (sequence !== staySearchSequence) return;
+    if ($('#stay-search-status'))
+      $('#stay-search-status').textContent =
+        'Address search is unavailable. Paste coordinates or tap the map to set your stay.';
+  }
+}
+function saveStay() {
+  if (!stayDraft || !validCity(stayCity)) return;
+  S.stays[stayCity] = normalStay({
+    ...stayDraft,
+    label: $('#stay-label')?.value.trim() || stayDraft.label || 'My stay',
+  });
+  const id = stayCity;
+  persist();
+  closeModal();
+  if (location.hash.startsWith('#/trip')) renderTrip();
+  else if (map) {
+    renderMapPins(false);
+    toast('Stay saved. Open the city guide for nearby recommendations.');
+  } else {
+    const tab =
+      activeCityId === id && ['eat', 'restaurants'].includes(cityFilter) ? 'food' : 'places';
+    if (tab === 'places') cityFilter = 'see';
+    activeCityId = id;
+    placeSort = 'nearby';
+    history.replaceState(null, '', '#/city/' + id + '?tab=' + tab);
+    renderCity(id, tab);
+  }
+  toast('Your stay is saved. Nearby choices and local route origins are ready.');
+}
+function stayUseLocation() {
+  if (!navigator.geolocation) {
+    toast('Location is unavailable. Pin the map instead.');
+    return;
+  }
+  const id = stayCity;
+  navigator.geolocation.getCurrentPosition(
+    (pos) => {
+      if (stayMap && stayCity === id)
+        selectStayPoint({
+          lat: pos.coords.latitude,
+          lon: pos.coords.longitude,
+          address: 'Current device location',
+        });
+    },
+    () => toast('Location unavailable. Search or pin the map instead.'),
+    { enableHighAccuracy: true, timeout: 12000, maximumAge: 60000 },
+  );
+}
+function closeStayMap() {
+  staySearchSequence++;
+  staySearchAbort?.abort();
+  staySearchAbort = null;
+  if (stayMap) {
+    stayMap.remove();
+    stayMap = null;
+  }
+  stayMarker = null;
+}
+
+function changeCityFilter(id) {
+  cityFilter = id;
+  experienceFilter = 'all';
+  foodHalal = 'all';
+  foodVeg = 'all';
+  const cid = location.hash.split('/')[2]?.split('?')[0];
+  if (validCity(cid)) {
+    const tab = ['eat', 'restaurants'].includes(id) ? 'food' : 'places';
+    history.replaceState(null, '', '#/city/' + cid + '?tab=' + tab);
+    renderCity(cid, tab);
+    $('.citytabs')?.scrollIntoView({ block: 'start' });
+  }
+}
+function switchPlaceVisual(id, useArt) {
+  if (!validPlace(id) || !$('#place-visual')) return;
+  $('#place-visual').innerHTML =
+    `${useArt ? artTag(id, '', false) : photoTag(id, '', false)}<div class="photo-caption">${useArt ? artCaption(id) : photoCredit(id) + (PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : '')}</div>`;
+  $$('.visual-toggle button').forEach((x) =>
+    x.classList.toggle('active', x.dataset.action === (useArt ? 'place-art' : 'place-photo')),
+  );
+}
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-action]');
+  if (!b || b.disabled) return;
+  const a = b.dataset.action,
+    id = b.dataset.id;
+  if (a === 'ranking-method') showRankingMethod();
+  else if (a === 'browse-scroll')
+    $('#browse')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  else if (a === 'browse-sort') {
+    browseSort = id;
+    $$('[data-action="browse-sort"]').forEach((x) =>
+      x.classList.toggle('active', x.dataset.id === id),
+    );
+    renderBrowse();
+  } else if (a === 'place-view') {
+    placeView = id;
+    $$('[data-action="place-view"]').forEach((x) =>
+      x.classList.toggle('active', x.dataset.id === id),
+    );
+    refreshCityResults();
+  } else if (a === 'clear-place-filters') {
+    experienceFilter = 'all';
+    foodHalal = 'all';
+    foodVeg = 'all';
+    placeQuery = '';
+    renderCity(activeCityId, cityFilter === 'restaurants' ? 'food' : 'places');
+  } else if (a === 'city-tab') {
+    if (b.dataset.tab === 'places') cityFilter = 'see';
+    if (b.dataset.tab === 'food') cityFilter = 'restaurants';
+    experienceFilter = 'all';
+    foodHalal = 'all';
+    foodVeg = 'all';
+    placeQuery = '';
+  } else if (a === 'edit-stay') openStay(id);
+  else if (a === 'stay-search') searchStay();
+  else if (a === 'stay-result') {
+    const p = staySearchResults[Number(id)];
+    if (p) selectStayPoint(p);
+  } else if (a === 'stay-coords') {
+    const la = $('#stay-lat').value,
+      lo = $('#stay-lon').value;
+    if (!la.trim() || !lo.trim() || !validCoords(Number(la), Number(lo)))
+      toast('Enter latitude between −90 and 90, and longitude between −180 and 180.');
+    else selectStayPoint({ lat: Number(la), lon: Number(lo), address: 'Entered coordinates' });
+  } else if (a === 'stay-location') stayUseLocation();
+  else if (a === 'stay-save') saveStay();
+  else if (a === 'stay-remove') {
+    const cid = stayCity;
+    delete S.stays[cid];
+    persist();
+    closeModal();
+    if (location.hash.startsWith('#/trip')) renderTrip();
+    else if (map) renderMapPins(false);
+    else {
+      if (placeSort === 'nearby') placeSort = 'popularity';
+      renderCity(cid);
+    }
+    toast('Saved accommodation removed.');
+  } else if (a === 'nearby-first') {
+    placeSort = 'nearby';
+    cityFilter = 'see';
+    experienceFilter = 'all';
+    foodHalal = 'all';
+    foodVeg = 'all';
+    renderCity(id);
+    $('.citytabs')?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  } else if (a === 'place-art') switchPlaceVisual(id, true);
+  else if (a === 'place-photo') switchPlaceVisual(id, false);
+});
+document.addEventListener('input', (e) => {
+  if (e.target.id === 'place-search') {
+    placeQuery = e.target.value;
+    refreshCityResults();
+  }
+});
+document.addEventListener('change', (e) => {
+  const t = e.target;
+  if (t.id === 'experience-filter') {
+    experienceFilter = t.value;
+    refreshCityResults();
+  } else if (t.id === 'food-halal') {
+    foodHalal = t.value;
+    refreshCityResults();
+  } else if (t.id === 'food-veg') {
+    foodVeg = t.value;
+    refreshCityResults();
+  } else if (t.id === 'map-diet') {
+    mapDiet = t.value;
+    renderMapPins(true);
+  }
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && e.target.id === 'stay-query') {
+    e.preventDefault();
+    searchStay();
+  }
+});
+
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-action]');
+  if (!b) return;
+  const a = b.dataset.action,
+    id = b.dataset.id;
+  if (b.disabled) return;
+  if (a === 'save') {
+    e.stopPropagation();
+    toggleSave(id);
+  } else if (a === 'trip-toggle') {
+    e.stopPropagation();
+    toggleTrip(id);
+  } else if (a === 'city') location.hash = '#/city/' + id;
+  else if (a === 'place') openPlace(id);
+  else if (a === 'close-modal') closeModal();
+  else if (a === 'region') {
+    browseRegion = id;
+    $$('#region-chips .chip').forEach((x) => x.classList.toggle('active', x.dataset.id === id));
+    renderBrowse();
+  } else if (a === 'city-tab') {
+    const target = '#/city/' + id + '?tab=' + b.dataset.tab;
+    if (location.hash === target) renderCity(id, b.dataset.tab);
+    else location.hash = target;
+  } else if (a === 'city-filter') changeCityFilter(id);
+  else if (a === 'template') applyTemplate(id);
+  else if (a === 'choose-cities') chooseCities();
+  else if (a === 'finish-cities') {
+    closeModal();
+    location.hash = '#/trip';
+    renderTrip();
+  } else if (a === 'days') {
+    S.days[id] = Math.max(1, Math.min(21, (S.days[id] || C[id].days) + Number(b.dataset.dir)));
+    persist();
+    const y = window.scrollY;
+    renderTrip();
+    window.scrollTo(0, y);
+  } else if (a === 'move') {
+    const i = S.trip.indexOf(id),
+      j = i + Number(b.dataset.dir);
+    if (j >= 0 && j < S.trip.length) {
+      [S.trip[i], S.trip[j]] = [S.trip[j], S.trip[i]];
+      persist();
+      const y = window.scrollY;
+      renderTrip();
+      window.scrollTo(0, y);
+    }
+  } else if (a === 'optimize') optimizeRoute();
+  else if (a === 'export') exportTrip();
+  else if (a === 'csv') exportCSV();
+  else if (a === 'import') importTrip();
+  else if (a === 'import-merge') doImport(true);
+  else if (a === 'import-replace') doImport(false);
+  else if (a === 'print') window.print();
+  else if (a === 'budget-detail') budgetDetail();
+  else if (a === 'saved-to-trip') {
+    for (const pid of S.saved) {
+      const cid = P[pid].cityId;
+      if (!inTrip(cid)) {
+        S.trip.push(cid);
+        S.days[cid] ??= C[cid].days;
+      }
+    }
+    persist();
+    location.hash = '#/trip';
+  } else if (a === 'map-kind') {
+    mapKind = id;
+    $$('[data-action="map-kind"]').forEach((x) =>
+      x.classList.toggle('active', x.dataset.id === id),
+    );
+    renderMapPins(true);
+  } else if (a === 'map-city-open') setMapCity(id);
+  else if (a === 'map-focus') {
+    const p = P[id] || C[id];
+    map.setView([p.lat, p.lon], P[id] ? Math.max(13, map.getZoom()) : 6);
+    mapMarkers[id]?.openPopup();
+    $('#map-list').classList.remove('visible');
+  } else if (a === 'map-reset') {
+    mapCity = '';
+    mapKind = 'all';
+    mapQuery = '';
+    mapDiet = 'all';
+    $('#map-diet').value = 'all';
+    $('#map-city').value = '';
+    $('#map-search').value = '';
+    $$('[data-action="map-kind"]').forEach((x) =>
+      x.classList.toggle('active', x.dataset.id === 'all'),
+    );
+    routeLayer.clearLayers();
+    renderMapPins(true);
+    history.replaceState(null, '', '#/map');
+  } else if (a === 'map-list') $('#map-list').classList.toggle('visible');
+  else if (a === 'tiles') {
+    S.street = !S.street;
+    persist();
+    if (S.street) enableStreet();
+    else if (streetLayer) {
+      map.removeLayer(streetLayer);
+      streetLayer = null;
+    }
+    $('#tile-toggle').innerHTML = icon('map') + ' Street detail: ' + (S.street ? 'on' : 'off');
+    $('#map-note').textContent = S.street
+      ? 'Online street detail. Lines show stop order, not turn-by-turn routes.'
+      : 'Offline map: planning pins and country outlines. Enable street detail when online.';
+  } else if (a === 'locate') mapLocate();
+  else if (a === 'map-place') {
+    const p = P[id];
+    closeModal();
+    if (map) {
+      setMapCity(p.cityId);
+      mapMarkers[id]?.openPopup();
+      map.setView([p.lat, p.lon], 13);
+    } else {
+      location.hash = '#/map/' + p.cityId;
+      setTimeout(() => {
+        mapMarkers[id]?.openPopup();
+        if (map) map.setView([p.lat, p.lon], 13);
+      }, 150);
+    }
+  }
+});
+document.addEventListener('input', (e) => {
+  const t = e.target;
+  if (t.id === 'browse-search') {
+    browseQuery = t.value;
+    renderBrowse();
+  } else if (t.id === 'map-search') {
+    mapQuery = t.value;
+    renderMapPins(false);
+  } else if (t.id === 'choose-city-search')
+    $('#choose-city-list').innerHTML = chooseCityList(t.value);
+  else if (t.dataset.note) {
+    S.notes[t.dataset.note] = t.value.slice(0, 4000);
+    persist();
+  }
+});
+document.addEventListener('change', (e) => {
+  const t = e.target;
+  let tripChange = false;
+  if (t.id === 'place-sort') {
+    placeSort = t.value;
+    const cid = location.hash.split('/')[2]?.split('?')[0];
+    if (validCity(cid)) {
+      const y = window.scrollY;
+      renderCity(cid, ['eat', 'restaurants'].includes(cityFilter) ? 'food' : 'places');
+      window.scrollTo(0, y);
+    }
+  } else if (t.id === 'map-city') {
+    if (t.value) setMapCity(t.value);
+    else {
+      mapCity = '';
+      history.replaceState(null, '', '#/map');
+      renderMapPins(true);
+    }
+  } else if (t.id === 'trip-date') {
+    S.startDate = t.value;
+    tripChange = true;
+  } else if (t.id === 'trip-pace') {
+    S.pace = t.value;
+    tripChange = true;
+  } else if (t.id === 'trip-people') {
+    S.people = Math.max(1, Math.min(20, Math.round(Number(t.value) || 1)));
+    tripChange = true;
+  } else if (t.dataset.lodging) {
+    S.lodging[t.dataset.lodging] = Math.max(0, Math.min(1e8, Number(t.value) || 0));
+    tripChange = true;
+  } else if (t.dataset.extra) {
+    S.extra[t.dataset.extra] = Math.max(0, Math.min(1e9, Number(t.value) || 0));
+    tripChange = true;
+  } else if (t.dataset.visited) {
+    S.visited = t.checked
+      ? [...new Set([...S.visited, t.dataset.visited])]
+      : S.visited.filter((x) => x !== t.dataset.visited);
+    persist();
+  } else if (t.dataset.checklist) {
+    S.checklist = t.checked
+      ? [...new Set([...S.checklist, t.dataset.checklist])]
+      : S.checklist.filter((x) => x !== t.dataset.checklist);
+    persist();
+  } else if (t.id === 'source-city' || t.id === 'source-type') renderSources();
+  if (tripChange) {
+    persist();
+    const y = window.scrollY;
+    renderTrip();
+    window.scrollTo(0, y);
+  }
+});
+$('#import-file').addEventListener('change', async (e) => {
+  const f = e.target.files[0];
+  if (!f) return;
+  try {
+    if (f.size > 5e6)
+      throw Error('This backup is too large. Choose a Roam Atlas trip JSON under 5 MB.');
+    importPreview(JSON.parse(await f.text()));
+  } catch (err) {
+    toast(err.message || 'Could not read this backup.');
+  }
+  e.target.value = '';
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape' && $('.modal-backdrop')) closeModal();
+  if (
+    (e.key === 'Enter' || e.key === ' ') &&
+    e.target.matches('[role="button"][data-action],[role="link"][data-action]')
+  ) {
+    e.preventDefault();
+    e.target.click();
+  }
+  if (e.key === 'Tab' && $('.modal-backdrop')) {
+    const focusables = $$(
+      '.modal button:not(:disabled),.modal a[href],.modal input,.modal select,.modal textarea,.modal [tabindex="0"]',
+    );
+    const first = focusables[0],
+      last = focusables.at(-1);
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last?.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first?.focus();
+    }
+  }
+});
+window.addEventListener('hashchange', route);
+window.addEventListener('online', () => {
+  $('#connection-label').textContent = 'Ready for your next stop';
+  if (map && S.street) enableStreet();
+});
+window.addEventListener('offline', () => {
+  $('#connection-label').textContent = 'Offline guide ready';
+  if (map && $('#map-note'))
+    $('#map-note').textContent =
+      'Offline: your guide, photos and pins remain available. Street tiles need a connection.';
+});
+if (!navigator.onLine) $('#connection-label').textContent = 'Offline guide ready';
+route();
+if (!storageOK)
+  setTimeout(() => toast('Browser storage is unavailable. Use Export to keep your trip.'), 500);

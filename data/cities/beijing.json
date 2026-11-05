@@ -1,0 +1,835 @@
+{
+  "id": "beijing",
+  "name": "Beijing",
+  "country": "China",
+  "region": "Asia",
+  "lat": 39.9042,
+  "lon": 116.4074,
+  "wiki": "Beijing",
+  "tagline": "Imperial scale and a Great Wall day",
+  "summary": "Build the itinerary around the Palace Museum reservation and give the Great Wall its own day. Beijing’s distances are large, so group central heritage, northwest gardens and outer-city excursions separately.",
+  "days": 5,
+  "bestMonths": [
+    4,
+    5,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn can be comfortable; winter is cold, summer hot, and major national holidays bring heavy crowds.",
+  "arrival": "Airport choice matters: Capital and Daxing are far apart. Use the airport rail link or a licensed transfer matched to your terminal.",
+  "gettingAround": "Metro is efficient; set up a usable payment method and keep your passport available for major attractions.",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+    200,
+    500
+  ],
+  "currency": "CNY",
+  "cashPerDay": [
+    100,
+    250
+  ],
+  "foodTip": "Try roast duck, jiaozi and noodles; book a reputable duck restaurant if it is a highlight.",
+  "buyTip": "Tea and small crafts make useful souvenirs; avoid high-pressure tea-house invitations and authenticity claims.",
+  "baseArea": "Dongcheng near a metro stop.",
+  "connections": [
+    {
+      "to": "shanghai",
+      "mode": "High-speed rail",
+      "minutes": 300,
+      "note": "Typical fast-train journey is roughly 4.5–6 hours; station transfers and booking extra."
+    },
+    {
+      "to": "seoul",
+      "mode": "Flight",
+      "minutes": 120,
+      "note": "Approximate airborne time."
+    },
+    {
+      "to": "hong-kong",
+      "mode": "Flight",
+      "minutes": 210,
+      "note": "Approximate airborne time; rail is a different longer option."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Beijing government visitor and ticketing directory",
+      "url": "https://english.beijing.gov.cn/specials/ticketing/index.html",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Palace Museum official visitor rules",
+      "url": "https://intl.dpm.org.cn/visit",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Palace Museum booking window",
+      "url": "https://young.dpm.org.cn/en/category/279",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Tripadvisor visitor favourites and review snapshots",
+      "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Beijing official cuisine guide",
+      "url": "https://english.beijing.gov.cn/beijinginfo/culture/202005/t20200525_1908295.html",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Beijing central-axis walking routes",
+      "url": "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260901_4844980.html",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://english.visitbeijing.com.cn/article/47ONG6HObuT",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://guide.michelin.com/us/en/beijing-municipality/beijing/restaurant/king-s-joy",
+      "type": "reference",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Attraction source",
+      "url": "https://english.beijing.gov.cn/latest/news/202602/t20260219_4526516.html",
+      "type": "official",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "Visitor-favourite pages prominently feature the Great Wall and Summer Palace. For planning, the Palace Museum’s reservation rule is more important than a small difference in review score.",
+  "reviewSource": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+  "items": [
+    {
+      "id": "beijing-forbidden-city-palace-museum",
+      "name": "Forbidden City / Palace Museum",
+      "kind": "see",
+      "lat": 39.9163,
+      "lon": 116.3972,
+      "wiki": "Forbidden City",
+      "summary": "A huge sequence of imperial courtyards and palace halls.",
+      "expect": "Security, extensive walking and restricted exhibition areas.",
+      "tip": "No same-day ticket sales. Official booking opens seven days ahead at 20:00 Beijing time; book using passport details.",
+      "area": "Dongcheng",
+      "duration": 4,
+      "price": [
+        40,
+        100
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "First available morning slot",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://young.dpm.org.cn/en/category/279",
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 14298,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "The Palace Museum"
+      },
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A huge sequence of imperial courtyards and palace halls.",
+        "A sequence of courts and ceremonial buildings makes imperial power visible through architecture."
+      ],
+      "visitFlow": [
+        "Secure an official booking using the required identity details.",
+        "Follow a planned main-axis route with time for one additional gallery."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": [
+        "Security, extensive walking and restricted exhibition areas."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-badaling-great-wall",
+      "name": "Badaling Great Wall",
+      "kind": "see",
+      "lat": 40.354,
+      "lon": 116.005,
+      "wiki": "Badaling",
+      "summary": "A well-developed section of the Great Wall outside Beijing.",
+      "expect": "Steep stone slopes, crowds and separate cable-car options.",
+      "tip": "Reserve transport and tickets; wear grippy shoes and leave a full excursion window.",
+      "area": "Outer Beijing",
+      "duration": 8,
+      "price": [
+        40,
+        250
+      ],
+      "priceNote": "Estimated attraction and optional cable-car spend; intercity/local transport to the wall is extra.",
+      "bestTime": "Early weekday",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://english.beijing.gov.cn/specials/ticketing/index.html",
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "review": {
+        "rating": 4.5,
+        "count": 11101,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "The Great Wall at Badaling"
+      },
+      "experienceTypes": [
+        "History",
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A well-developed section of the Great Wall outside Beijing.",
+        "Fortified ridges show the wall’s scale in a developed, accessible excursion area."
+      ],
+      "visitFlow": [
+        "Choose the permitted wall section and transport.",
+        "Walk only as far as comfortable before returning to the agreed meeting point."
+      ],
+      "bestFor": "History, Adventure interests",
+      "tradeoffs": [
+        "Steep stone slopes, crowds and separate cable-car options."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-temple-of-heaven",
+      "name": "Temple of Heaven",
+      "kind": "see",
+      "lat": 39.8822,
+      "lon": 116.4066,
+      "wiki": "Temple of Heaven",
+      "summary": "Imperial ritual architecture set within a large park.",
+      "expect": "A basic park entry and separate access to major halls.",
+      "tip": "Choose the ticket combination you actually want; mornings also show local park life.",
+      "area": "Dongcheng",
+      "duration": 2.5,
+      "price": [
+        15,
+        50
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://english.beijing.gov.cn/specials/ticketing/index.html",
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "review": {
+        "rating": 4.5,
+        "count": 12310,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Temple of Heaven"
+      },
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "Imperial ritual architecture set within a large park.",
+        "Circular ceremonial architecture and surrounding parkland explain an important imperial ritual setting."
+      ],
+      "visitFlow": [
+        "Check which structures your ticket covers.",
+        "Visit the principal halls and then walk the park paths."
+      ],
+      "bestFor": "Spiritual, Architecture interests",
+      "tradeoffs": [
+        "A basic park entry and separate access to major halls."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-summer-palace",
+      "name": "Summer Palace",
+      "kind": "see",
+      "lat": 39.9999,
+      "lon": 116.2755,
+      "wiki": "Summer Palace",
+      "summary": "Lakeside imperial gardens with pavilions and hill paths.",
+      "expect": "Long distances and separate boat or attraction charges.",
+      "tip": "Pick a route rather than trying to circle everything; check boating conditions.",
+      "area": "Haidian",
+      "duration": 4,
+      "price": [
+        30,
+        100
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://english.beijing.gov.cn/specials/ticketing/index.html",
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "review": {
+        "rating": 4.5,
+        "count": 15146,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Summer Palace"
+      },
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Lakeside imperial gardens with pavilions and hill paths.",
+        "A large lake, long painted corridor and hillside buildings turn palace architecture into a landscape visit."
+      ],
+      "visitFlow": [
+        "Choose a route around the main lake-side structures.",
+        "Add a hill climb or boat only if time and conditions allow."
+      ],
+      "bestFor": "History, Architecture interests",
+      "tradeoffs": [
+        "Long distances and separate boat or attraction charges."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-jingshan-park",
+      "name": "Jingshan Park",
+      "kind": "see",
+      "lat": 39.9252,
+      "lon": 116.3964,
+      "wiki": "Jingshan Park",
+      "summary": "A hilltop overview of the Forbidden City and central Beijing.",
+      "expect": "A short uphill climb and views dependent on haze.",
+      "tip": "Pair with the Palace Museum exit when energy and visibility permit.",
+      "area": "Xicheng",
+      "duration": 1,
+      "price": [
+        2,
+        20
+      ],
+      "priceNote": "Planning estimate per adult, not a live ticket quote; check current inclusions.",
+      "bestTime": "Clear late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.beijing.gov.cn/travellinginbeijing/routes/202609/t20260901_4844980.html",
+        "https://english.beijing.gov.cn/specials/ticketing/index.html",
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "review": {
+        "rating": 4.5,
+        "count": 2996,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Jingshan Park"
+      },
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A hilltop overview of the Forbidden City and central Beijing.",
+        "A short climb opens a view directly over the Forbidden City’s roofscape."
+      ],
+      "visitFlow": [
+        "Enter the park and climb gradually to an open pavilion.",
+        "Use the view to understand the palace’s north-south axis."
+      ],
+      "bestFor": "Nature interests",
+      "tradeoffs": [
+        "A short uphill climb and views dependent on haze."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-roast-duck-near-qianmen",
+      "name": "Roast duck near Qianmen",
+      "kind": "eat",
+      "lat": 39.8992,
+      "lon": 116.3962,
+      "wiki": "Peking duck",
+      "summary": "A shared roast-duck meal with pancakes and accompaniments.",
+      "expect": "Restaurant prices depend on duck size, service and extras.",
+      "tip": "Book for peak times and check whether the quoted price is per duck or diner; pin marks the restaurant district.",
+      "area": "Qianmen",
+      "duration": 1.5,
+      "price": [
+        120,
+        300
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Dinner",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://english.beijing.gov.cn/beijinginfo/culture/202005/t20200525_1908295.html",
+        "https://english.beijing.gov.cn/specials/ticketing/index.html",
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Open current visitor reviews; no verified rating snapshot."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A shared roast-duck meal with pancakes and accompaniments.",
+        "Crisp duck, pancakes and condiments form a recognisable shared Beijing meal."
+      ],
+      "visitFlow": [
+        "Choose a named roast-duck restaurant.",
+        "Ask how many diners the duck portion serves and order sides accordingly."
+      ],
+      "bestFor": "Food interests",
+      "tradeoffs": [
+        "Restaurant prices depend on duck size, service and extras."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-panjiayuan-market",
+      "name": "Panjiayuan market",
+      "kind": "shop",
+      "lat": 39.8761,
+      "lon": 116.4518,
+      "wiki": "Panjiayuan Market",
+      "summary": "A browsing destination for crafts, prints and collectible-style objects.",
+      "expect": "Wide variation in quality and authenticity claims.",
+      "tip": "Treat objects as souvenirs unless independently authenticated; do not buy restricted cultural artefacts.",
+      "area": "Chaoyang",
+      "duration": 2,
+      "price": [
+        50,
+        400
+      ],
+      "priceNote": "Estimated spend per person; browsing is free and purchases vary.",
+      "bestTime": "Weekend morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://english.beijing.gov.cn/specials/ticketing/index.html",
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "review": {
+        "rating": 4.1,
+        "count": 451,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Panjiayuan Antique Market"
+      },
+      "experienceTypes": [
+        "Shopping",
+        "Food"
+      ],
+      "whyVisit": [
+        "A browsing destination for crafts, prints and collectible-style objects.",
+        "Stalls of crafts and collectables offer an absorbing browse even without buying antiques."
+      ],
+      "visitFlow": [
+        "Compare stalls before negotiating.",
+        "Treat age and authenticity claims cautiously and check export rules for any significant purchase."
+      ],
+      "bestFor": "Shopping, Food interests",
+      "tradeoffs": [
+        "Wide variation in quality and authenticity claims."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-mutianyu-great-wall",
+      "name": "Mutianyu Great Wall",
+      "kind": "see",
+      "lat": 40.432,
+      "lon": 116.57,
+      "wiki": "Mutianyu Great Wall",
+      "area": "Huairou excursion",
+      "duration": 7,
+      "price": [
+        60,
+        350
+      ],
+      "summary": "Restored wall sections climb forested ridgelines beyond urban Beijing.",
+      "expect": "A ridge walk offers a different day-trip option from Badaling.",
+      "tip": "Steep stairs and long transfers matter; lifts and other rides cost extra.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.8,
+        "count": 24535,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Mutianyu Great Wall"
+      },
+      "experienceTypes": [
+        "History",
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Restored wall sections climb forested ridgelines beyond urban Beijing.",
+        "A ridge walk offers a different day-trip option from Badaling."
+      ],
+      "visitFlow": [
+        "Book transport and an official entry.",
+        "Choose a feasible wall section and return before your transfer."
+      ],
+      "bestFor": "History, Adventure enthusiasts",
+      "tradeoffs": [
+        "Steep stairs and long transfers matter; lifts and other rides cost extra."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "beijing-yonghe-lama-temple",
+      "name": "Yonghe Lama Temple",
+      "kind": "see",
+      "lat": 39.948,
+      "lon": 116.417,
+      "wiki": "Yonghe Lama Temple",
+      "area": "Dongcheng",
+      "duration": 1.5,
+      "price": [
+        25,
+        50
+      ],
+      "summary": "Colourful halls and Buddhist sculpture fill an active temple complex.",
+      "expect": "Its north-central location pairs well with nearby hutong streets.",
+      "tip": "Incense and crowds can be intense; some photography is restricted.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.5,
+        "count": 4245,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "Lama Temple (Yonghegong)"
+      },
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "Art"
+      ],
+      "whyVisit": [
+        "Colourful halls and Buddhist sculpture fill an active temple complex.",
+        "Its north-central location pairs well with nearby hutong streets."
+      ],
+      "visitFlow": [
+        "Move through the courtyards in order.",
+        "Pause at the major halls while respecting worshippers."
+      ],
+      "bestFor": "Spiritual, Architecture enthusiasts",
+      "tradeoffs": [
+        "Incense and crowds can be intense; some photography is restricted."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-798-art-zone",
+      "name": "798 Art Zone",
+      "kind": "see",
+      "lat": 39.985,
+      "lon": 116.496,
+      "wiki": "798 Art Zone",
+      "area": "Dashanzi",
+      "duration": 3,
+      "price": [
+        0,
+        200
+      ],
+      "summary": "Converted industrial buildings house contemporary galleries, shops and cafés.",
+      "expect": "Factory-scale spaces give modern Beijing a different visual character from imperial monuments.",
+      "tip": "Many exhibitions charge separately and individual galleries may close on Mondays.",
+      "bestTime": "Early in the day; check the official opening calendar.",
+      "reservation": "Check the venue’s current ticket and entry rules.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html"
+      ],
+      "priceNote": "Planning estimate per adult in local currency; current admission, transport and optional activities may differ.",
+      "review": {
+        "rating": 4.3,
+        "count": 2406,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.com/Attractions-g294212-Activities-Beijing.html",
+        "checked": "2026-11-04",
+        "note": "Dated indexed review snapshot; review count is a popularity proxy, not measured footfall. ",
+        "entityName": "798 Art Zone"
+      },
+      "experienceTypes": [
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Converted industrial buildings house contemporary galleries, shops and cafés.",
+        "Factory-scale spaces give modern Beijing a different visual character from imperial monuments."
+      ],
+      "visitFlow": [
+        "Check the exhibitions you want before travelling.",
+        "Walk between galleries and industrial courtyards."
+      ],
+      "bestFor": "Art, Architecture enthusiasts",
+      "tradeoffs": [
+        "Many exhibitions charge separately and individual galleries may close on Mondays."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "beijing-dong-lai-shun-wangfujing",
+      "name": "Dong Lai Shun, Wangfujing",
+      "kind": "eat",
+      "lat": 39.915,
+      "lon": 116.412,
+      "wiki": "Dong Lai Shun, Wangfujing",
+      "area": "Wangfujing",
+      "duration": 1,
+      "price": [
+        150,
+        300
+      ],
+      "summary": "Copper-pot mutton hotpot introduces a Chinese Muslim dining tradition.",
+      "expect": "The simple broth keeps the focus on sliced meat and dipping sauces.",
+      "tip": "Official Beijing tourism identifies a Muslim restaurant; no current independent halal certificate was inspected. Confirm the exact branch and alcohol/condiment preferences.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.visitbeijing.com.cn/article/47ONG6HObuT"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Copper-pot mutton hotpot introduces a Chinese Muslim dining tradition.",
+        "The simple broth keeps the focus on sliced meat and dipping sauces."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Thin-sliced mutton hotpot, Sesame dipping sauce."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Official Beijing tourism identifies a Muslim restaurant; no current independent halal certificate was inspected. Confirm the exact branch and alcohol/condiment preferences."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Chinese Muslim mutton hotpot",
+      "mustOrder": [
+        "Thin-sliced mutton hotpot",
+        "Sesame dipping sauce"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://english.visitbeijing.com.cn/article/47ONG6HObuT",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Official Beijing tourism identifies a Muslim restaurant; no current independent halal certificate was inspected. Confirm the exact branch and alcohol/condiment preferences."
+      },
+      "photoQuery": "Thin-sliced mutton hotpot Chinese Muslim mutton hotpot",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "beijing-kings-joy",
+      "name": "King’s Joy",
+      "kind": "eat",
+      "lat": 39.946,
+      "lon": 116.415,
+      "wiki": "King’s Joy",
+      "area": "Wudaoying / Yonghegong",
+      "duration": 2.5,
+      "price": [
+        1000,
+        2500
+      ],
+      "summary": "A multi-course vegetarian menu treats seasonal plants as the centre of a formal meal.",
+      "expect": "The courtyard setting pairs with the nearby Lama Temple and hutong area.",
+      "tip": "Michelin describes lacto-ovo vegetarian menus that can be made vegan on request. Book well ahead and state dietary needs; halal certification not verified.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://guide.michelin.com/us/en/beijing-municipality/beijing/restaurant/king-s-joy"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A multi-course vegetarian menu treats seasonal plants as the centre of a formal meal.",
+        "The courtyard setting pairs with the nearby Lama Temple and hutong area."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Seasonal vegetarian tasting menu."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Michelin describes lacto-ovo vegetarian menus that can be made vegan on request. Book well ahead and state dietary needs; halal certification not verified."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Vegetarian fine dining",
+      "mustOrder": [
+        "Seasonal vegetarian tasting menu"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "fully-vegetarian",
+        "evidence": [
+          {
+            "url": "https://guide.michelin.com/us/en/beijing-municipality/beijing/restaurant/king-s-joy",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Michelin describes lacto-ovo vegetarian menus that can be made vegan on request. Book well ahead and state dietary needs; halal certification not verified."
+      },
+      "photoQuery": "Seasonal vegetarian tasting menu Vegetarian fine dining",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    },
+    {
+      "id": "beijing-siji-minfu-forbidden-city-branch",
+      "name": "Siji Minfu, Forbidden City branch",
+      "kind": "eat",
+      "lat": 39.92,
+      "lon": 116.406,
+      "wiki": "Siji Minfu, Forbidden City branch",
+      "area": "Nanchizi",
+      "duration": 1.5,
+      "price": [
+        150,
+        300
+      ],
+      "summary": "Hang-roasted duck is served with pancakes and traditional accompaniments.",
+      "expect": "The Nanchizi branch connects a classic Beijing meal with the Forbidden City area.",
+      "tip": "Meat preparation and sauces are not halal-verified. Queue time can be substantial; use the exact branch at 11 Nanchizi Street.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 2,
+      "sourceUrls": [
+        "https://english.beijing.gov.cn/latest/news/202602/t20260219_4526516.html"
+      ],
+      "priceNote": "Estimated per-person meal budget in local currency; menu changes, drinks, taxes and service can add to it.",
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": null,
+        "checked": "2026-11-04",
+        "note": "No comparable numeric review snapshot verified; omitted from review-volume ranking."
+      },
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Hang-roasted duck is served with pancakes and traditional accompaniments.",
+        "The Nanchizi branch connects a classic Beijing meal with the Forbidden City area."
+      ],
+      "visitFlow": [
+        "Check the day’s menu and dietary preparation before ordering.",
+        "Order Roast duck with pancakes."
+      ],
+      "bestFor": "Food enthusiasts",
+      "tradeoffs": [
+        "Meat preparation and sauces are not halal-verified. Queue time can be substantial; use the exact branch at 11 Nanchizi Street."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Beijing roast duck",
+      "mustOrder": [
+        "Roast duck with pancakes"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://english.beijing.gov.cn/latest/news/202602/t20260219_4526516.html",
+            "label": "Operator, tourism or review-platform dietary evidence; see note",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Meat preparation and sauces are not halal-verified. Queue time can be substantial; use the exact branch at 11 Nanchizi Street."
+      },
+      "photoQuery": "Roast duck with pancakes Beijing roast duck",
+      "photoCaption": "Representative cuisine image; not a photograph of this venue or evidence of ingredients."
+    }
+  ],
+  "popularity": {
+    "tourism": {
+      "rank": 42,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    }
+  }
+}

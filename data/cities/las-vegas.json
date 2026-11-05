@@ -1,0 +1,932 @@
+{
+  "id": "las-vegas",
+  "name": "Las Vegas",
+  "country": "United States",
+  "region": "North America",
+  "lat": 36.17,
+  "lon": -115.14,
+  "wiki": "Las Vegas",
+  "tagline": "A desert-road-trip launchpad",
+  "summary": "Use Las Vegas for an easy airport base, an evening on the Strip and carefully chosen desert day trips. It links well to Zion and the Grand Canyon, which deserve separate overnight bases.",
+  "days": 3,
+  "bestMonths": [
+    2,
+    3,
+    4,
+    10,
+    11
+  ],
+  "seasonNote": "Desert summer heat can be extreme; visit outdoor areas in cooler months and check trail closures.",
+  "arrival": "LAS is close to the Strip; verify hotel pickup zones and resort fees before arrival.",
+  "gettingAround": "Walk short Strip sections, use booked rides or transit, and rent a car for regional park travel.",
+  "cashTip": "Cards are widely used; include tax, tips and resort/parking charges where relevant. Day budget excludes rental car and long excursions.",
+  "dailyBudget": [
+    80,
+    180
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    30,
+    60
+  ],
+  "foodTip": "Explore Chinatown for varied Asian food; do not assume a hotel buffet is the best-value meal.",
+  "buyTip": "Use the Arts District for independent shops; compare outlet prices against actual normal prices.",
+  "baseArea": "Central Strip for a brief first visit; quieter bases suit a driving trip.",
+  "connections": [
+    {
+      "to": "springdale",
+      "mode": "Drive",
+      "minutes": 165,
+      "note": "Approximate drive; Utah time differs from Nevada at some times of year."
+    },
+    {
+      "to": "flagstaff",
+      "mode": "Drive",
+      "minutes": 250,
+      "note": "Approximate drive; Grand Canyon is a separate excursion from Flagstaff."
+    },
+    {
+      "to": "mariposa",
+      "mode": "Drive",
+      "minutes": 480,
+      "note": "Seasonal mountain roads affect routing; confirm Tioga Road before choosing this route."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Las Vegas official destination guide",
+      "url": "https://www.visitlasvegas.com/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "BLM Red Rock timed-entry information",
+      "url": "https://www.blm.gov/visit/red-rock-canyon-national-conservation-area",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Hoover Dam official visitor information",
+      "url": "https://www.usbr.gov/lc/hooverdam/service/index.html",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Visitor attraction listings",
+      "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Nevada State Parks: Valley of Fire",
+      "url": "https://parks.nv.gov/parks/valley-of-fire",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Death Valley official safety",
+      "url": "https://www.nps.gov/deva/planyourvisit/safety.htm",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Death Valley official fees",
+      "url": "https://www.nps.gov/deva/planyourvisit/fees.htm",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://neonmuseum.org/tickets-and-experiences/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://www.thesphere.com/shows",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://thesphere.com/faqs",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://themobmuseum.org/plan-your-visit/purchase-tickets/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://admission.themobmuseum.org/",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://www.lotusofsiamlv.com/menu/food",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://eattacotarian.com/pages/vegan-tacos-downtown-las-vegas-tacotarian-arts-district",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://eattacotarian.com/pages/menu",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Official visitor or restaurant information",
+      "url": "https://www.istanbullv.com/halal",
+      "type": "official",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Visitor listing / dietary listing",
+      "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-zfr7917577-Las_Vegas_Nevada.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Visitor listing / dietary listing",
+      "url": "https://www.tripadvisor.ca/Attraction_Review-g60881-d150546-Reviews-Hoover_Dam-Boulder_City_Nevada.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    },
+    {
+      "title": "Visitor listing / dietary listing",
+      "url": "https://www.tripadvisor.ca/Attraction_Review-g45984-d102670-Reviews-Valley_of_Fire_State_Park-Overton_Nevada.html",
+      "type": "reviews",
+      "checked": "2026-11-04"
+    }
+  ],
+  "reviewSummary": "Indexed visitor snapshots show Red Rock Canyon at 4.7/5 from 26,569 reviews and Bellagio fountains at 4.7/5 from 92,363, giving a strong outdoor/urban pairing.",
+  "reviewSource": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+  "items": [
+    {
+      "id": "las-vegas-bellagio",
+      "name": "Bellagio fountains & conservatory",
+      "kind": "see",
+      "lat": 36.112,
+      "lon": -115.174,
+      "wiki": "Fountains of Bellagio",
+      "summary": "A simple first evening stop for the choreographed fountains and indoor garden.",
+      "expect": "Busy viewing areas; fountain operation depends on weather and schedule.",
+      "tip": "Check the actual show timetable and allow time to walk between large hotel blocks.",
+      "area": "Las Vegas Strip",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Public fountain viewing and conservatory access free.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.visitlasvegas.com/",
+        "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html"
+      ],
+      "review": {
+        "rating": 4.7,
+        "count": 92363,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot; check live reviews for changes."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Entertainment",
+        "Art"
+      ],
+      "whyVisit": [
+        "Choreographed water and light create a readily accessible evening spectacle.",
+        "The indoor conservatory adds a separate changing garden display nearby."
+      ],
+      "visitFlow": [
+        "Check the actual fountain schedule and weather.",
+        "Watch a show, then walk to the conservatory display."
+      ],
+      "bestFor": "An easy first Las Vegas evening",
+      "tradeoffs": "Busy viewing areas; fountain operation depends on weather and schedule."
+    },
+    {
+      "id": "las-vegas-red-rock",
+      "name": "Red Rock Canyon scenic drive",
+      "kind": "see",
+      "lat": 36.136,
+      "lon": -115.427,
+      "wiki": "Red Rock Canyon National Conservation Area",
+      "summary": "A scenic loop and selected trails offer desert landscapes close to town.",
+      "expect": "Timed entry is required October–May during specified daytime hours; heat and trail conditions matter.",
+      "tip": "Reserve the correct time and vehicle entry; a pass does not replace the timed reservation.",
+      "area": "Red Rock Canyon",
+      "duration": 5,
+      "price": [
+        20,
+        30
+      ],
+      "priceNote": "Planning allowance for private-vehicle access and reservation; verify pass eligibility and current booking fee.",
+      "bestTime": "Cool early morning",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.blm.gov/visit/red-rock-canyon-national-conservation-area"
+      ],
+      "review": {
+        "rating": 4.7,
+        "count": 26569,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Indexed visitor-rating snapshot; check live reviews for changes."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Nature",
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The scenic loop gives close access to a striking desert-rock landscape.",
+        "A chosen short trail adds texture beyond the windshield views."
+      ],
+      "visitFlow": [
+        "Reserve timed entry when required and check the correct vehicle product.",
+        "Drive the loop and stop for one suitable marked walk."
+      ],
+      "bestFor": "Desert scenery near the city",
+      "tradeoffs": "Timed entry is required October–May during specified daytime hours; heat and trail conditions matter."
+    },
+    {
+      "id": "las-vegas-hoover",
+      "name": "Hoover Dam",
+      "kind": "see",
+      "lat": 36.0156,
+      "lon": -114.7378,
+      "wiki": "Hoover Dam",
+      "summary": "A major engineering landmark with viewpoints and optional guided interiors.",
+      "expect": "Security rules, parking charges and tour availability vary.",
+      "tip": "Read official bag and tour restrictions; some tour products are sold on-site.",
+      "area": "Boulder City / Hoover Dam",
+      "duration": 5,
+      "price": [
+        10,
+        45
+      ],
+      "priceNote": "Planning allowance for parking and optional official tour; transport from Las Vegas additional.",
+      "bestTime": "Morning",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.usbr.gov/lc/hooverdam/service/index.html"
+      ],
+      "review": {
+        "rating": 4.5,
+        "count": 9696,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attraction_Review-g60881-d150546-Reviews-Hoover_Dam-Boulder_City_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Technology",
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The dam makes major water and power engineering visible at monumental scale.",
+        "Optional guided interiors provide technical context beyond the exterior viewpoints."
+      ],
+      "visitFlow": [
+        "Check official tour availability and security restrictions.",
+        "Combine exterior viewpoints with the tour product you actually booked."
+      ],
+      "bestFor": "Engineering and infrastructure history",
+      "tradeoffs": "Security rules, parking charges and tour availability vary."
+    },
+    {
+      "id": "las-vegas-valley-fire",
+      "name": "Valley of Fire State Park",
+      "kind": "see",
+      "lat": 36.43,
+      "lon": -114.515,
+      "wiki": "Valley of Fire State Park",
+      "summary": "Red sandstone scenery and short walks make a distinct state-park day.",
+      "expect": "A driving excursion with severe summer heat and possible seasonal trail closures.",
+      "tip": "Official site lists an annual park closure December 1–14 and many trail closures May 15–September 30. Check current gate construction and access before driving.",
+      "area": "Valley of Fire",
+      "duration": 7,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Planning estimate per private vehicle; state park is separate from federal passes.",
+      "bestTime": "Cool early morning",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.visitlasvegas.com/",
+        "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "https://parks.nv.gov/parks/valley-of-fire",
+        "https://parks.nv.gov/news/temporary-closure-of-the-west-entrance-at-valley-of-fire"
+      ],
+      "review": {
+        "rating": 4.8,
+        "count": 4892,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attraction_Review-g45984-d102670-Reviews-Valley_of_Fire_State_Park-Overton_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": true,
+      "experienceTypes": [
+        "Nature",
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Red sandstone and petroglyph sites give this state park a distinct desert character.",
+        "Selected short walks add a close look at forms seen from the scenic roads."
+      ],
+      "visitFlow": [
+        "Verify the current seasonal gate and trail closures.",
+        "Visit open viewpoints and keep walks within safe temperatures."
+      ],
+      "bestFor": "A separate red-sandstone park day",
+      "tradeoffs": "A driving excursion with severe summer heat and possible seasonal trail closures."
+    },
+    {
+      "id": "las-vegas-death-valley",
+      "name": "Death Valley highlights",
+      "kind": "see",
+      "lat": 36.24,
+      "lon": -116.825,
+      "wiki": "Death Valley National Park",
+      "summary": "Badwater Basin and nearby viewpoints reveal a striking desert landscape.",
+      "expect": "A very long day or preferably overnight extension; extreme heat and flash floods affect access.",
+      "tip": "Travel in a suitable season with fuel, water and verified road conditions. Avoid remote unpaved shortcuts.",
+      "area": "Death Valley",
+      "duration": 12,
+      "price": [
+        0,
+        30
+      ],
+      "priceNote": "Official base admission USD 30 per private vehicle for seven days, including non-US visitors; USD 0 incremental with a valid covering pass. Fuel and lodging extra.",
+      "bestTime": "Cool-season overnight",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.visitlasvegas.com/",
+        "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "https://www.nps.gov/deva/planyourvisit/safety.htm",
+        "https://www.nps.gov/deva/planyourvisit/fees.htm"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Included in the researched destination shortlist; no verified numeric rating snapshot. Open current visitor reviews."
+      },
+      "excursion": true,
+      "experienceTypes": [
+        "Nature",
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Salt flats and broad desert viewpoints show a landscape very different from the Strip.",
+        "A well-planned overnight allows more time than a rushed out-and-back drive."
+      ],
+      "visitFlow": [
+        "Check roads, fuel, weather and water before departure.",
+        "Choose a small set of accessible highlights and avoid unpaved shortcuts."
+      ],
+      "bestFor": "A major desert extension in a suitable season",
+      "tradeoffs": "A very long day or preferably overnight extension; extreme heat and flash floods affect access."
+    },
+    {
+      "id": "las-vegas-chinatown",
+      "name": "Chinatown food crawl",
+      "kind": "eat",
+      "lat": 36.126,
+      "lon": -115.209,
+      "wiki": "Chinatown, Las Vegas",
+      "summary": "Explore the Spring Mountain corridor for Chinese, Japanese, Korean and other Asian food.",
+      "expect": "Restaurants are spread across plazas rather than one compact pedestrian market.",
+      "tip": "Pick one cluster and check menu/pricing; book popular dinner spots.",
+      "area": "Spring Mountain Road",
+      "duration": 2,
+      "price": [
+        25,
+        65
+      ],
+      "priceNote": "Planning estimate for one casual meal or snack; purchases optional.",
+      "bestTime": "Lunch or dinner",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.visitlasvegas.com/",
+        "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Included in the researched destination shortlist; no verified numeric rating snapshot. Open current visitor reviews."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Explore the Spring Mountain corridor for Chinese, Japanese, Korean and other Asian food.",
+        "This stop introduces everyday food and ingredients in the neighbourhood you are already exploring."
+      ],
+      "visitFlow": [
+        "Choose a busy named stall or restaurant and check the current menu.",
+        "Pick one cluster and check menu/pricing; book popular dinner spots."
+      ],
+      "bestFor": "Casual regional food during a sightseeing day",
+      "tradeoffs": "Restaurants are spread across plazas rather than one compact pedestrian market.",
+      "venueType": "food-area",
+      "cuisine": "Regional food",
+      "mustOrder": [],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [],
+        "note": "This is a general food area or supply stop, not a verified restaurant. Choose a named venue for dietary evidence; do not infer halal or vegetarian suitability from the dish name."
+      }
+    },
+    {
+      "id": "las-vegas-arts-district",
+      "name": "Arts District vintage & maker shops",
+      "kind": "shop",
+      "lat": 36.158,
+      "lon": -115.153,
+      "wiki": "18b Arts District",
+      "summary": "Independent galleries and shops offer a break from casino retail.",
+      "expect": "A smaller district with event-dependent opening and crowds.",
+      "tip": "Check shop hours and organize a safe return after evening events.",
+      "area": "Downtown Arts District",
+      "duration": 2,
+      "price": [
+        0,
+        150
+      ],
+      "priceNote": "Free to browse; planning allowance for optional purchases.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.visitlasvegas.com/",
+        "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Included in the researched destination shortlist; no verified numeric rating snapshot. Open current visitor reviews."
+      },
+      "excursion": false,
+      "experienceTypes": [
+        "Shopping",
+        "Art"
+      ],
+      "whyVisit": [
+        "Independent galleries and shops offer a break from casino retail.",
+        "Comparing several makers or stalls makes it easier to choose something connected to the place."
+      ],
+      "visitFlow": [
+        "Browse a small selection before choosing.",
+        "Check shop hours and organize a safe return after evening events."
+      ],
+      "bestFor": "Local crafts and practical souvenirs",
+      "tradeoffs": "A smaller district with event-dependent opening and crowds."
+    },
+    {
+      "id": "las-vegas-neon-museum",
+      "name": "The Neon Museum",
+      "kind": "see",
+      "lat": 36.1766,
+      "lon": -115.135,
+      "wiki": "Neon Museum",
+      "summary": "Explore the neon signs that tell the story of earlier Las Vegas.",
+      "expect": "Mostly outdoors; admission sessions and illumination differ.",
+      "tip": "Check the official page before setting out.",
+      "area": "Downtown ·770Las Vegas Boulevard North",
+      "duration": 1.5,
+      "price": [
+        25,
+        45
+      ],
+      "priceNote": "Planning estimate in local currency; confirm the current price and what is included.",
+      "bestTime": "Daytime",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://neonmuseum.org/tickets-and-experiences/"
+      ],
+      "review": {
+        "rating": 4.4,
+        "count": 5595,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-zfr7917577-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "Retired signs turn commercial design into a visual history collection.",
+        "Evening lighting changes the experience from daytime inspection to illuminated atmosphere."
+      ],
+      "visitFlow": [
+        "Choose daytime or evening admission deliberately.",
+        "Follow the museum route and read the stories attached to the signs."
+      ],
+      "bestFor": "Art, History interests",
+      "tradeoffs": "Heat in daytime and limited ticket capacity; special experiences may cost more."
+    },
+    {
+      "id": "las-vegas-sphere",
+      "name": "Sphere · immersive show",
+      "kind": "see",
+      "lat": 36.1206,
+      "lon": -115.1619,
+      "wiki": "Sphere (venue)",
+      "summary": "Book an immersive film or concert in the spherical screen-and-sound venue.",
+      "expect": "A ticketed seated event; simply seeing the exterior does not include an interior visit.",
+      "tip": "Cashless venue and mobile tickets; show prices, accessibility and content vary.",
+      "area": "East of the Strip ·255Sands Avenue",
+      "duration": 2,
+      "price": [
+        80,
+        250
+      ],
+      "priceNote": "Planning estimate in local currency; confirm the current price and what is included.",
+      "bestTime": "Daytime",
+      "reservation": "Essential",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.thesphere.com/shows",
+        "https://thesphere.com/faqs"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Technology",
+        "Entertainment",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The wraparound interior display makes the building itself part of the performance.",
+        "The exterior LED surface gives the city a separate large-scale visual landmark."
+      ],
+      "visitFlow": [
+        "Choose the actual show and seat location from the current programme.",
+        "Download the mobile ticket and arrive within the event’s entry window."
+      ],
+      "bestFor": "Technology, Entertainment, Architecture interests",
+      "tradeoffs": "High variable ticket cost; immersive images and motion can be intense."
+    },
+    {
+      "id": "las-vegas-mob-museum",
+      "name": "The Mob Museum",
+      "kind": "see",
+      "lat": 36.1728,
+      "lon": -115.1412,
+      "wiki": "Mob Museum",
+      "summary": "Explore organised crime and law enforcement in a historic federal courthouse.",
+      "expect": "A substantial indoor museum with mature crime-related themes.",
+      "tip": "Check the official page before setting out.",
+      "area": "Downtown ·300Stewart Avenue",
+      "duration": 2.5,
+      "price": [
+        37.95,
+        54.95
+      ],
+      "priceNote": "Planning estimate in local currency; confirm the current price and what is included.",
+      "bestTime": "Daytime",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://themobmuseum.org/plan-your-visit/purchase-tickets/",
+        "https://admission.themobmuseum.org/"
+      ],
+      "review": {
+        "rating": 4.5,
+        "count": 10332,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-zfr7917577-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "Exact attraction listing snapshot; review volume is not visitor count."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "History",
+        "Technology"
+      ],
+      "whyVisit": [
+        "The 1933 courthouse is itself part of the story.",
+        "Artifacts and interactive exhibits connect national criminal history with Las Vegas."
+      ],
+      "visitFlow": [
+        "Choose standard entry or an experience bundle.",
+        "Allow time for the core galleries before optional interactive sections."
+      ],
+      "bestFor": "History, Technology interests",
+      "tradeoffs": "Some content can be disturbing; interactive extras have separate capacity and pricing."
+    },
+    {
+      "id": "las-vegas-lotus-siam",
+      "name": "Lotus of Siam · Flamingo",
+      "kind": "eat",
+      "lat": 36.1151,
+      "lon": -115.1344,
+      "wiki": "Lotus of Siam · Flamingo",
+      "summary": "A destination Thai meal off the Strip, known for its northern-Thai menu focus.",
+      "expect": "A specific venue rather than a broad food district; menus and table availability change.",
+      "tip": "Check the menu and booking policy before travelling to the restaurant.",
+      "area": "Off Strip ·620E Flamingo Road",
+      "duration": 1.25,
+      "price": [
+        30,
+        65
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner during current opening hours",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.lotusofsiamlv.com/menu/food"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A destination Thai meal off the Strip, known for its northern-Thai menu focus.",
+        "Northern-Thai dishes give the meal a specific regional focus beyond a generic Thai menu."
+      ],
+      "visitFlow": [
+        "Confirm your dietary needs with the server before ordering.",
+        "Order the suggested dish and allow time for a relaxed meal."
+      ],
+      "bestFor": "Northern Thai and a planned meal stop",
+      "tradeoffs": "Allow for queues or reservations; dietary suitability is dish-specific.",
+      "venueType": "restaurant",
+      "cuisine": "Northern Thai",
+      "mustOrder": [
+        "Khao soi",
+        "Current northern-Thai speciality"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [
+          {
+            "url": "https://www.lotusofsiamlv.com/menu/food",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Menu includes pork, fish and seafood. Ask about fish sauce, shrimp paste and animal stock for vegetarian dishes; halal unverified."
+      },
+      "photoQuery": "khao soi",
+      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+    },
+    {
+      "id": "las-vegas-tacotarian",
+      "name": "Tacotarian · Arts District",
+      "kind": "eat",
+      "lat": 36.1582,
+      "lon": -115.1536,
+      "wiki": "Tacotarian · Arts District",
+      "summary": "A fully plant-based taquería whose seitan and jackfruit fillings make a substantial city meal.",
+      "expect": "A specific venue rather than a broad food district; menus and table availability change.",
+      "tip": "Check the menu and booking policy before travelling to the restaurant.",
+      "area": "Arts District ·1130S Casino Center Boulevard",
+      "duration": 1.25,
+      "price": [
+        18,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner during current opening hours",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://eattacotarian.com/pages/vegan-tacos-downtown-las-vegas-tacotarian-arts-district",
+        "https://eattacotarian.com/pages/menu"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A fully plant-based taquería whose seitan and jackfruit fillings make a substantial city meal.",
+        "Seitan and jackfruit fillings make tacos the centre of a complete plant-based meal."
+      ],
+      "visitFlow": [
+        "Confirm your dietary needs with the server before ordering.",
+        "Order the suggested dish and allow time for a relaxed meal."
+      ],
+      "bestFor": "Plant-based Mexican and a planned meal stop",
+      "tradeoffs": "Allow for queues or reservations; dietary suitability is dish-specific.",
+      "venueType": "restaurant",
+      "cuisine": "Plant-based Mexican",
+      "mustOrder": [
+        "Jackfruit barbacoa tacos",
+        "Seitan al pastor tacos"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "vegan",
+        "evidence": [
+          {
+            "url": "https://eattacotarian.com/pages/vegan-tacos-downtown-las-vegas-tacotarian-arts-district",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          },
+          {
+            "url": "https://eattacotarian.com/pages/menu",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Operator states100% plant-based. Alcohol is served and a brunch dish includes triple sec; ask about the specific preparation. Halal unverified."
+      },
+      "photoQuery": "vegan tacos jackfruit",
+      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+    },
+    {
+      "id": "las-vegas-istanbul-mediterranean",
+      "name": "Istanbul Mediterranean",
+      "kind": "eat",
+      "lat": 36.1141,
+      "lon": -115.1724,
+      "wiki": "Istanbul Mediterranean",
+      "summary": "A Strip-side Turkish counter with an explicit halal sourcing and dedicated-kitchen statement.",
+      "expect": "A specific venue rather than a broad food district; menus and table availability change.",
+      "tip": "Check the menu and booking policy before travelling to the restaurant.",
+      "area": "Strip · Grand Bazaar Shops ·3615S Las Vegas Boulevard",
+      "duration": 1.25,
+      "price": [
+        17,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner during current opening hours",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.istanbullv.com/halal"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": "https://www.tripadvisor.ca/Attractions-g45963-Activities-Las_Vegas_Nevada.html",
+        "checked": "2026-11-04",
+        "note": "No verified numeric snapshot for this exact listing; open current reviews. This is an editorial recommendation, not measured footfall."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A Strip-side Turkish counter with an explicit halal sourcing and dedicated-kitchen statement.",
+        "The operator describes meat sourcing and a dedicated no-pork, no-alcohol kitchen."
+      ],
+      "visitFlow": [
+        "Confirm your dietary needs with the server before ordering.",
+        "Order the suggested dish and allow time for a relaxed meal."
+      ],
+      "bestFor": "Turkish and Mediterranean and a planned meal stop",
+      "tradeoffs": "Allow for queues or reservations; dietary suitability is dish-specific.",
+      "venueType": "restaurant",
+      "cuisine": "Turkish and Mediterranean",
+      "mustOrder": [
+        "Beef-and-lamb döner pita",
+        "Falafel pita"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "options",
+        "evidence": [
+          {
+            "url": "https://www.istanbullv.com/halal",
+            "label": "Venue menu / operator dietary information",
+            "checked": "2026-11-04"
+          }
+        ],
+        "note": "Operator says100% Zabiha halal certified, hand-slaughtered meat, no pork and no alcohol. This is an operator claim; an independent certificate was not inspected. Falafel is listed."
+      },
+      "photoQuery": "Turkish doner pita",
+      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+    }
+  ],
+  "budgetNote": "Per-person daily planning estimate for meals, local transport and modest sightseeing; lodging, intercity travel and major excursions are additional.",
+  "popularity": {
+    "tourism": {
+      "rank": 27,
+      "year": 2025,
+      "url": "https://www.vacationstravel.com/top-100-city-destinations/",
+      "publisher": "Euromonitor International, table republished by Vacations & Travel"
+    }
+  },
+  "dayClusters": [
+    {
+      "label": "City districts, dinner and an evening on the Strip",
+      "items": [
+        "las-vegas-arts-district",
+        "las-vegas-chinatown",
+        "las-vegas-bellagio"
+      ],
+      "days": 1,
+      "note": "Use the Arts District in daylight, travel to Chinatown for dinner, then see the fountains in the evening. These are spread-out districts: use booked rides and choose fewer stops if arriving late."
+    },
+    {
+      "label": "Red Rock Canyon day",
+      "items": [
+        "las-vegas-red-rock"
+      ],
+      "days": 1,
+      "note": "Keep the scenic loop and selected trails together. Confirm the timed reservation and entry charge; choose a cool weather window and return to town before fatigue or heat becomes a problem."
+    },
+    {
+      "label": "Optional Hoover Dam excursion",
+      "items": [
+        "las-vegas-hoover"
+      ],
+      "days": 1,
+      "note": "The next choice for a third day if you want an engineering outing. Verify tour products, security rules and parking before leaving; use a flexible city day instead if you prefer a slower trip."
+    },
+    {
+      "label": "Alternative Valley of Fire day",
+      "items": [
+        "las-vegas-valley-fire"
+      ],
+      "days": 1,
+      "note": "An additional desert day or replacement for Hoover Dam. Check the annual December 1–14 park closure, summer trail closures and current gate construction; do not combine it with Red Rock as one hiking day."
+    },
+    {
+      "label": "Death Valley overnight extension",
+      "items": [
+        "las-vegas-death-valley"
+      ],
+      "days": 2,
+      "note": "Prefer an overnight extension rather than adding another very long return day to a short Vegas visit. Check heat, roads, fuel and accommodation; the second day is the continuation/return, and costs beyond park entry remain additional."
+    }
+  ]
+}
