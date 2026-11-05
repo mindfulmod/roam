@@ -1472,10 +1472,143 @@ function rankPool(p) {
         (p.kind !== 'eat' || (x.venueType === 'restaurant') === (p.venueType === 'restaurant')),
     );
 }
+// ---------------------------------------------------------------------------
+// Popularity: every place is scored from whichever sources it has, so the
+// rank can always be explained. Each source becomes a percentile within the
+// same city and category ("pool"); the score is the weighted mean of those
+// percentiles. Add a source by adding an entry to SIGNALS and the matching
+// data under place.signals.<key> (or review for Tripadvisor).
+// ---------------------------------------------------------------------------
+const SIGNALS = [
+  {
+    key: 'tripadvisor',
+    label: 'Tripadvisor reviews',
+    short: 'Tripadvisor reviews',
+    weight: 1,
+    value: (p) => (p.review?.source === 'Tripadvisor' || !p.review?.source ? reviewCount(p) : null),
+    display: (p) =>
+      num(reviewCount(p)) +
+      ' reviews' +
+      (p.review?.rating ? ' · ★ ' + Number(p.review.rating).toFixed(1) : ''),
+    url: (p) => p.review?.url,
+    checked: (p) => p.review?.checked,
+  },
+  {
+    key: 'google',
+    label: 'Google Maps reviews',
+    short: 'Google reviews',
+    weight: 1,
+    value: (p) => (p.signals?.google?.count > 0 ? p.signals.google.count : null),
+    display: (p) =>
+      num(p.signals.google.count) +
+      ' reviews' +
+      (p.signals.google.rating ? ' · ★ ' + Number(p.signals.google.rating).toFixed(1) : ''),
+    url: (p) => p.signals?.google?.url || mapsPin(p),
+    checked: (p) => p.signals?.google?.checked,
+  },
+  {
+    key: 'wikipedia',
+    label: 'Wikipedia readers, last 12 months',
+    short: 'Wikipedia readers',
+    weight: 0.6,
+    value: (p) => (p.signals?.wikipedia?.views > 0 ? p.signals.wikipedia.views : null),
+    display: (p) => num(p.signals.wikipedia.views) + ' page views',
+    url: (p) => p.signals?.wikipedia?.url,
+    checked: (p) => p.signals?.wikipedia?.checked,
+  },
+];
+const poolKey = (p) =>
+  p.cityId + '|' + p.kind + (p.kind === 'eat' ? '|' + (p.venueType === 'restaurant') : '');
+const poolCache = new Map();
+function poolStats(p) {
+  const k = poolKey(p);
+  if (poolCache.has(k)) return poolCache.get(k);
+  const pool = rankPool(p);
+  // Percentile of each place for each source: share of places in the pool
+  // with that source that it beats or ties (1 = most in the pool).
+  const pct = new Map(pool.map((x) => [x.id, {}]));
+  for (const sig of SIGNALS) {
+    const have = pool.filter((x) => sig.value(x) !== null);
+    for (const x of have) {
+      const v = sig.value(x);
+      const beaten = have.filter((y) => sig.value(y) <= v).length;
+      pct.get(x.id)[sig.key] = {
+        pct: beaten / have.length,
+        of: have.length,
+        place: 1 + have.filter((y) => sig.value(y) > v).length,
+      };
+    }
+  }
+  const score = new Map();
+  for (const x of pool) {
+    const parts = pct.get(x.id);
+    let w = 0,
+      t = 0;
+    for (const sig of SIGNALS)
+      if (parts[sig.key]) {
+        w += sig.weight;
+        t += sig.weight * parts[sig.key].pct;
+      }
+    if (w) score.set(x.id, t / w + (x.review?.rating ?? 0) / 1e4); // rating only breaks ties
+  }
+  const ranked = [...score.keys()].sort((a, b) => score.get(b) - score.get(a));
+  const stats = {
+    pct,
+    score,
+    rank: new Map(ranked.map((id, i) => [id, i + 1])),
+    ranked: ranked.length,
+    size: pool.length,
+  };
+  poolCache.set(k, stats);
+  return stats;
+}
 function popularityRank(p) {
-  const n = reviewCount(p);
-  if (n === null) return null;
-  return 1 + rankPool(p).filter((x) => reviewCount(x) !== null && reviewCount(x) > n).length;
+  return poolStats(p).rank.get(p.id) ?? null;
+}
+function popularityScore(p) {
+  const s = poolStats(p).score.get(p.id);
+  return s === undefined ? null : s;
+}
+function placeSignals(p) {
+  const parts = poolStats(p).pct.get(p.id) || {};
+  return SIGNALS.filter((sig) => parts[sig.key]).map((sig) => ({ ...sig, ...parts[sig.key] }));
+}
+function topLabel(pct) {
+  const top = Math.max(1, Math.round((1 - pct) * 100));
+  return top <= 50
+    ? 'top ' + (top <= 5 ? 5 : top <= 10 ? 10 : top <= 25 ? 25 : 50) + '%'
+    : 'lower half';
+}
+const compact = (n) =>
+  n >= 1e6
+    ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1) + 'm'
+    : n >= 1e3
+      ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1) + 'k'
+      : String(n);
+// One line that says why a place sits where it does, for cards and lists.
+function rankReason(p) {
+  const sigs = placeSignals(p);
+  if (!sigs.length) return 'Editorial pick · no comparable review counts yet';
+  return sigs
+    .sort((a, b) => b.pct - a.pct)
+    .map((s) => `#${s.place} of ${s.of} for ${s.short} (${compact(s.value(p))})`)
+    .join(' · ');
+}
+function rankBreakdown(p) {
+  const sigs = placeSignals(p),
+    c = C[p.cityId],
+    rank = popularityRank(p),
+    st = poolStats(p);
+  if (!sigs.length)
+    return `<p>No comparable review counts are verified for this place yet, so it has no popularity rank. It is in the guide as an editorial recommendation based on the linked sources.</p>`;
+  const rows = sigs
+    .map(
+      (s) =>
+        `<div class="signal-row"><div class="signal-head"><strong>${esc(s.label)}</strong><span>${esc(s.display(p))}</span></div><div class="signal-bar" role="img" aria-label="${esc(topLabel(s.pct))} of ${s.of} ${esc(rankCategory(p))}"><i style="width:${Math.round(s.pct * 100)}%"></i></div><small>#${s.place} of ${s.of} ${esc(rankCategory(p))} in ${esc(c.name)} with this data${s.url(p) ? ' · ' + external(s.url(p), 'source ↗') : ''}${s.checked(p) ? ' · checked ' + esc(s.checked(p)) : ''}</small></div>`,
+    )
+    .join('');
+  const missing = SIGNALS.filter((s) => !sigs.some((x) => x.key === s.key)).map((s) => s.short);
+  return `<p class="rank-headline"><strong>#${rank} of ${st.ranked}</strong> ${esc(rankCategory(p))} in ${esc(c.name)}, combining ${sigs.length === 1 ? 'one source' : sigs.length + ' sources'}.</p><div class="signals">${rows}</div>${missing.length ? `<small class="signal-missing">Not yet included for this place: ${esc(missing.join(', '))}.</small>` : ''}`;
 }
 function rankCategory(p) {
   return p.kind === 'eat'
@@ -1489,8 +1622,8 @@ function rankCategory(p) {
 function rankBadge(p) {
   const n = popularityRank(p);
   return n
-    ? `<span class="rankbadge"><b>#${n}</b> ${rankCategory(p)} · review volume</span>`
-    : '<span class="rankbadge unranked">Review count unavailable</span>';
+    ? `<span class="rankbadge"><b>#${n}</b> ${rankCategory(p)} · popularity</span>`
+    : '<span class="rankbadge unranked">Editorial pick</span>';
 }
 function comparePlaces(a, b, sort = placeSort) {
   if (sort === 'nearby') {
@@ -1506,7 +1639,7 @@ function comparePlaces(a, b, sort = placeSort) {
   if (sort === 'cost') return a.price[0] - b.price[0];
   if (sort === 'recommended') return a.priority - b.priority;
   return (
-    (reviewCount(b) ?? -1) - (reviewCount(a) ?? -1) ||
+    (popularityScore(b) ?? -1) - (popularityScore(a) ?? -1) ||
     (b.review?.rating ?? -1) - (a.review?.rating ?? -1) ||
     a.priority - b.priority
   );
@@ -1600,10 +1733,10 @@ function cityCard(c) {
 }
 function placeCard(p) {
   const d = fromStay(p);
-  return `<article class="placecard"><div class="placeimage" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}">${visualTag(p.id)}<span class="pill">${icon(p.kind === 'eat' ? 'food' : p.kind === 'shop' ? 'bag' : 'pin')}${p.venueType === 'restaurant' ? 'Restaurant' : p.kind === 'see' ? 'See & do' : p.kind === 'eat' ? 'Food experience' : 'Shopping'}</span>${saveButton(p.id)}${visualBadge(p.id)}</div><div class="placebody">${rankBadge(p)}<div class="typechips">${typeChips(p)}</div><h3 data-action="place" data-id="${p.id}" tabindex="0" role="button">${esc(p.name)}</h3><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="area">${esc(p.area)} · ${p.duration} h${d !== null ? `<br><span class="near-label">${distanceText(d)} from your stay · straight line</span>` : ''}</div><div class="placemeta"><span>${priceLabel(p)}</span>${rating(p)}</div><div class="placeactions"><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${external(mapsPin(p), icon('pin') + ' Maps', 'btn ghost small')}</div></div></article>`;
+  return `<article class="placecard"><div class="placeimage" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}">${visualTag(p.id)}<span class="pill">${icon(p.kind === 'eat' ? 'food' : p.kind === 'shop' ? 'bag' : 'pin')}${p.venueType === 'restaurant' ? 'Restaurant' : p.kind === 'see' ? 'See & do' : p.kind === 'eat' ? 'Food experience' : 'Shopping'}</span>${saveButton(p.id)}${visualBadge(p.id)}</div><div class="placebody">${rankBadge(p)}<div class="typechips">${typeChips(p)}</div><h3 data-action="place" data-id="${p.id}" tabindex="0" role="button">${esc(p.name)}</h3><p class="rankwhy">${esc(rankReason(p))}</p><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="area">${esc(p.area)} · ${p.duration} h${d !== null ? `<br><span class="near-label">${distanceText(d)} from your stay · straight line</span>` : ''}</div><div class="placemeta"><span>${priceLabel(p)}</span>${rating(p)}</div><div class="placeactions"><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${external(mapsPin(p), icon('pin') + ' Maps', 'btn ghost small')}</div></div></article>`;
 }
 function rankingRows(items) {
-  return `<div class="ranking-list">${items.map((p) => `<article class="ranking-row"><div class="ranking-number">${popularityRank(p) ? '#' + popularityRank(p) : '—'}</div><button class="ranking-thumb" data-action="place" data-id="${p.id}" aria-label="View ${esc(p.name)}">${visualTag(p.id)}</button><div class="ranking-main"><button class="inline-link" data-action="place" data-id="${p.id}">${esc(p.name)}</button><div class="typechips">${typeChips(p)}</div><small>${esc(rankCategory(p))} · ${esc(p.area)}${fromStay(p) !== null ? ' · ' + distanceText(fromStay(p)) + ' from stay' : ''}</small></div><div class="ranking-stat"><strong>${reviewCount(p) !== null ? num(reviewCount(p)) : '—'}</strong><small>${reviewCount(p) !== null ? 'reviews' : 'no count verified'}</small>${rating(p)}</div><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${saveButton(p.id)}</article>`).join('')}</div>`;
+  return `<div class="ranking-list">${items.map((p) => `<article class="ranking-row"><div class="ranking-number">${popularityRank(p) ? '#' + popularityRank(p) : '—'}</div><button class="ranking-thumb" data-action="place" data-id="${p.id}" aria-label="View ${esc(p.name)}">${visualTag(p.id)}</button><div class="ranking-main"><button class="inline-link" data-action="place" data-id="${p.id}">${esc(p.name)}</button><div class="typechips">${typeChips(p)}</div><small class="rankwhy">${esc(rankReason(p))}</small><small>${esc(rankCategory(p))} · ${esc(p.area)}${fromStay(p) !== null ? ' · ' + distanceText(fromStay(p)) + ' from stay' : ''}</small></div><div class="ranking-stat"><strong>${reviewCount(p) !== null ? num(reviewCount(p)) : '—'}</strong><small>${reviewCount(p) !== null ? 'reviews' : 'no count verified'}</small>${rating(p)}</div><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${saveButton(p.id)}</article>`).join('')}</div>`;
 }
 function cityResults(c) {
   const places = getCityPlaces(c);
@@ -1637,9 +1770,9 @@ function cityTabHtml(c, tab) {
   if (tab === 'food' && cityFilter !== 'restaurants' && cityFilter !== 'eat')
     cityFilter = 'restaurants';
   const food = tab === 'food' || cityFilter === 'restaurants' || cityFilter === 'eat';
-  const rated = c.items.filter((p) => p.kind === 'see' && reviewCount(p) !== null).length,
+  const rated = c.items.filter((p) => p.kind === 'see' && popularityRank(P[p.id]) !== null).length,
     mixed = ['all', 'saved'].includes(cityFilter);
-  return `<div class="discovery-heading"><div><div class="eyebrow">${food ? 'WHAT TO EAT & WHERE' : 'KNOW WHAT YOU ARE WALKING INTO'}</div><h2>${food ? 'Food worth a stop.' : 'Find your kind of remarkable.'}</h2><p>${food ? 'Named venues, must-order dishes and sourced dietary details.' : 'Start with the most-reviewed sights, then narrow by the experience you want.'}</p></div><button class="btn ghost small" data-action="ranking-method">${icon('info')} How rankings work</button></div><div class="ranking-explainer"><strong>${placeSort === 'nearby' ? 'Nearby first' : placeSort === 'rating' ? 'Highest rating first' : placeSort === 'recommended' ? 'Editorial visit priority' : placeSort === 'cost' ? 'Lowest starting cost' : 'Most reviewed → least reviewed'}</strong><span>${placeSort === 'nearby' ? 'Distance from your saved stay is straight-line, not walking time.' : `${mixed ? 'Ranks remain within each category: sights, restaurants, food experiences or shopping.' : 'Ranks compare ' + (food ? 'food stops' : 'sights') + ' covered in this city.'} Review count is a popularity signal, not a measured visitor total. ${rated} sights have counts; unknown counts remain unranked.`}</span></div><div class="searchrow"><div class="searchbox">${icon('search')}<input id="place-search" type="search" placeholder="Search places, neighbourhoods or dishes…" aria-label="Search places in this city" value="${esc(placeQuery)}"></div><select id="place-sort" aria-label="Sort city places"><option value="popularity" ${placeSort === 'popularity' ? 'selected' : ''}>Most reviewed first</option><option value="rating" ${placeSort === 'rating' ? 'selected' : ''}>Highest visitor rating</option><option value="recommended" ${placeSort === 'recommended' ? 'selected' : ''}>First-visit recommendations</option><option value="nearby" ${placeSort === 'nearby' ? 'selected' : ''} ${S.stays[c.id] ? '' : 'disabled'}>Closest to my stay</option><option value="cost" ${placeSort === 'cost' ? 'selected' : ''}>Lowest starting cost</option></select></div><div class="chips">${[
+  return `<div class="discovery-heading"><div><div class="eyebrow">${food ? 'WHAT TO EAT & WHERE' : 'KNOW WHAT YOU ARE WALKING INTO'}</div><h2>${food ? 'Food worth a stop.' : 'Find your kind of remarkable.'}</h2><p>${food ? 'Named venues, must-order dishes and sourced dietary details.' : 'Start with the most popular sights, then narrow by the experience you want.'}</p></div><button class="btn ghost small" data-action="ranking-method">${icon('info')} How rankings work</button></div><div class="ranking-explainer"><strong>${placeSort === 'nearby' ? 'Nearby first' : placeSort === 'rating' ? 'Highest rating first' : placeSort === 'recommended' ? 'Editorial visit priority' : placeSort === 'cost' ? 'Lowest starting cost' : 'Most popular first'}</strong><span>${placeSort === 'nearby' ? 'Distance from your saved stay is straight-line, not walking time.' : `${mixed ? 'Ranks remain within each category: sights, restaurants, food experiences or shopping.' : 'Ranks compare ' + (food ? 'food stops' : 'sights') + ' covered in this city.'} Popularity combines every review and interest source we have for each place; open a place to see the breakdown. ${rated} sights have data; the rest are editorial picks.`}</span></div><div class="searchrow"><div class="searchbox">${icon('search')}<input id="place-search" type="search" placeholder="Search places, neighbourhoods or dishes…" aria-label="Search places in this city" value="${esc(placeQuery)}"></div><select id="place-sort" aria-label="Sort city places"><option value="popularity" ${placeSort === 'popularity' ? 'selected' : ''}>Most popular first</option><option value="rating" ${placeSort === 'rating' ? 'selected' : ''}>Highest visitor rating</option><option value="recommended" ${placeSort === 'recommended' ? 'selected' : ''}>First-visit recommendations</option><option value="nearby" ${placeSort === 'nearby' ? 'selected' : ''} ${S.stays[c.id] ? '' : 'disabled'}>Closest to my stay</option><option value="cost" ${placeSort === 'cost' ? 'selected' : ''}>Lowest starting cost</option></select></div><div class="chips">${[
     ['see', 'Sights & experiences'],
     ['restaurants', 'Restaurants'],
     ['eat', 'All food stops'],
@@ -1699,7 +1832,7 @@ function openPlace(id) {
     stay = S.stays[c.id];
   const bullets = (x) => (Array.isArray(x) ? x : x ? [x] : []);
   showModal(
-    `<div class="modalphoto" id="place-visual">${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div></div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><div class="quick-facts"><span>${icon('clock')} ${p.duration} hours</span><span>${icon('wallet')} ${priceLabel(p)}</span><span>${icon('sun')} ${esc(p.bestTime)}</span></div><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
+    `<div class="modalphoto" id="place-visual">${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div></div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><section class="rank-reason"><h3>${icon('star')} Why it ranks here</h3>${rankBreakdown(p)}${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section><div class="quick-facts"><span>${icon('clock')} ${p.duration} hours</span><span>${icon('wallet')} ${priceLabel(p)}</span><span>${icon('sun')} ${esc(p.bestTime)}</span></div><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
       p.whyVisit || p.expect,
     )
       .map((x) => `<li>${esc(x)}</li>`)
@@ -1711,13 +1844,13 @@ function openPlace(id) {
       .map((x) => `<li>${esc(x)}</li>`)
       .join(
         '',
-      )}</ol></section><section><h3>Is it your kind of place?</h3><p><strong>Best for:</strong> ${esc(bullets(p.bestFor).join(' · ') || typesFor(p).join(', ') + ' enthusiasts')}</p><p><strong>Trade-offs:</strong> ${esc(bullets(p.tradeoffs).join(' ') || p.tip)}</p></section></div><section class="rank-reason"><h3>Why it ranks here</h3><p>${rank ? `<strong>#${rank} among ${rankCategory(p)} in ${esc(c.name)}</strong> by recorded ${esc(r.source || 'visitor')} review volume. ${num(r.count)} reviews give it this position; ${Number.isFinite(r.rating) ? 'its ' + Number(r.rating).toFixed(1) + '/5 rating shows visitor satisfaction. These measure different things.' : 'no numeric satisfaction rating is verified.'}` : 'No comparable numeric review count is verified, so this place has no popularity rank. It is included as an editorial recommendation based on the linked visitor and destination evidence.'}</p>${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section>${p.mustOrder?.length ? `<section class="must-order-box"><h3>What to order</h3><p>${p.mustOrder.map((x) => esc(x)).join(' · ')}</p><small>${esc(p.cuisine || '')} · Confirm the current menu and your dietary requirements.</small></section>` : ''}${dietaryDetail(p)}<div class="modalstats"><div><label>Allow</label><strong>${p.duration} hours${p.duration > 16 ? ' · multi-day' : ''}</strong></div><div><label>Planning cost</label><strong>${priceLabel(p)}</strong></div><div><label>Good timing</label><strong>${esc(p.bestTime)}</strong></div><div><label>Booking</label><strong>${esc(p.reservation)}</strong></div></div><p class="price-note">${esc(p.priceNote)}</p><div class="detailgrid"><section><h3>What to expect</h3><p>${esc(p.expect)}</p></section><section><h3>Make the visit work</h3><p>${esc(p.tip)}</p></section></div>${stay ? `<div class="stay-to-place"><strong>${distanceText(hav(stay, p))} from ${esc(stay.label)}</strong><span>Straight-line distance. Check the real route below.</span><div class="actions">${p.excursion || hav(c, p) > 40 ? external(p.sourceUrls?.[0] || mapsPin(p), icon('external') + ' Check excursion access', 'btn light small') + external(mapsPin(p), 'View destination pin', 'btn light small') : external(mapsDirections([stay, p], 'walking'), icon('route') + ' Walk from my stay', 'btn light small') + external(mapsDirections([stay, p], 'transit'), icon('train') + ' Transit from my stay', 'btn light small')}</div></div>` : `<button class="btn light small" data-action="edit-stay" data-id="${c.id}">${icon('pin')} Add your stay to check distance</button>`}<div class="actions modal-main-actions">${saveButton(id)}${external(mapsPin(p), icon('pin') + ' Open in Google Maps', 'btn')}${external(mapsCoordinate(p), 'Coordinate pin', 'btn light')}<button class="btn ghost" data-action="map-place" data-id="${id}">${icon('map')} Map</button></div><p class="price-note">In Google Maps, tap <strong>Save</strong> to pin it to your list. The heart here saves it in Roam Atlas.</p><div class="field"><label>Your note</label><textarea data-note="${id}" placeholder="Booked time, must-try dish or reminder…">${esc(S.notes[id] || '')}</textarea></div><div class="source-links">Place sources: ${(p.sourceUrls || []).map((u) => external(u, esc(new URL(u).hostname) + ' ↗')).join(' ')}<br>Map points are approximate. Confirm the entrance or meeting point with the venue.</div></div>`,
+      )}</ol></section><section><h3>Is it your kind of place?</h3><p><strong>Best for:</strong> ${esc(bullets(p.bestFor).join(' · ') || typesFor(p).join(', ') + ' enthusiasts')}</p><p><strong>Trade-offs:</strong> ${esc(bullets(p.tradeoffs).join(' ') || p.tip)}</p></section></div>${p.mustOrder?.length ? `<section class="must-order-box"><h3>What to order</h3><p>${p.mustOrder.map((x) => esc(x)).join(' · ')}</p><small>${esc(p.cuisine || '')} · Confirm the current menu and your dietary requirements.</small></section>` : ''}${dietaryDetail(p)}<div class="modalstats"><div><label>Allow</label><strong>${p.duration} hours${p.duration > 16 ? ' · multi-day' : ''}</strong></div><div><label>Planning cost</label><strong>${priceLabel(p)}</strong></div><div><label>Good timing</label><strong>${esc(p.bestTime)}</strong></div><div><label>Booking</label><strong>${esc(p.reservation)}</strong></div></div><p class="price-note">${esc(p.priceNote)}</p><div class="detailgrid"><section><h3>What to expect</h3><p>${esc(p.expect)}</p></section><section><h3>Make the visit work</h3><p>${esc(p.tip)}</p></section></div>${stay ? `<div class="stay-to-place"><strong>${distanceText(hav(stay, p))} from ${esc(stay.label)}</strong><span>Straight-line distance. Check the real route below.</span><div class="actions">${p.excursion || hav(c, p) > 40 ? external(p.sourceUrls?.[0] || mapsPin(p), icon('external') + ' Check excursion access', 'btn light small') + external(mapsPin(p), 'View destination pin', 'btn light small') : external(mapsDirections([stay, p], 'walking'), icon('route') + ' Walk from my stay', 'btn light small') + external(mapsDirections([stay, p], 'transit'), icon('train') + ' Transit from my stay', 'btn light small')}</div></div>` : `<button class="btn light small" data-action="edit-stay" data-id="${c.id}">${icon('pin')} Add your stay to check distance</button>`}<div class="actions modal-main-actions">${saveButton(id)}${external(mapsPin(p), icon('pin') + ' Open in Google Maps', 'btn')}${external(mapsCoordinate(p), 'Coordinate pin', 'btn light')}<button class="btn ghost" data-action="map-place" data-id="${id}">${icon('map')} Map</button></div><p class="price-note">In Google Maps, tap <strong>Save</strong> to pin it to your list. The heart here saves it in Roam Atlas.</p><div class="field"><label>Your note</label><textarea data-note="${id}" placeholder="Booked time, must-try dish or reminder…">${esc(S.notes[id] || '')}</textarea></div><div class="source-links">Place sources: ${(p.sourceUrls || []).map((u) => external(u, esc(new URL(u).hostname) + ' ↗')).join(' ')}<br>Map points are approximate. Confirm the entrance or meeting point with the venue.</div></div>`,
     p.name,
   );
 }
 function showRankingMethod() {
   showModal(
-    `<div class="modalcontent"><span class="eyebrow">POPULARITY, WITH CONTEXT</span><h2>Every number has a meaning.</h2><section class="method-block"><h3>City tourism index</h3><p>Euromonitor’s 2025 Top 100 City Destinations Index combines tourism performance with infrastructure, policy, business, safety and sustainability. The rank is global within its 100-city study. It is not an ordering by visitor numbers.</p>${external(POP.indexSource || 'https://www.euromonitor.com/article/top-100-city-destinations-index-2025-driving-growth-and-innovation', 'Euromonitor methodology ↗')} · ${external(POP.indexTableSource || 'https://www.vacationstravel.com/top-100-city-destinations/', 'Published rank table ↗')}</section><section class="method-block"><h3>Most visited cities</h3><p>The separate arrivals view uses the public 2025 top 10 for international arrivals. These were year-end estimates published in December 2025. Repeat trips count; domestic visitors are excluded. Only the covered cities in that published table receive a rank. Unranked destinations are not “least popular”.</p>${external(POP.arrivalsSource || 'https://www.statista.com/chart/35880/top-cities-for-international-visitors-in-2025/', 'Published arrivals figures ↗')}</section><section class="method-block"><h3>Place popularity</h3><p>“Most reviewed” orders verified review counts from highest to lowest, within this guide’s sights, restaurants, food experiences or shopping stops for that city. Ties share a rank. Filtering by experience or distance keeps the original category rank so the number does not jump around.</p><p>Review volume is a useful visibility signal, but it is not footfall. Older venues and different review platforms can attract different reviewing behaviour. Ratings show satisfaction, not how many people visited. Missing counts are explicitly unranked.</p></section><section class="method-block"><h3>Why go?</h3><p>The appeal and visit-flow notes are editorial explanations grounded in the linked venue and destination sources. Review observations are identified in the visitor-evidence section. Costs are planning ranges. Original AI illustrations communicate the experience and are labelled; photographic sources remain available.</p></section><button class="btn" data-action="close-modal">Got it</button></div>`,
+    `<div class="modalcontent"><span class="eyebrow">POPULARITY, WITH CONTEXT</span><h2>Every number has a meaning.</h2><section class="method-block"><h3>City tourism index</h3><p>Euromonitor’s 2025 Top 100 City Destinations Index combines tourism performance with infrastructure, policy, business, safety and sustainability. The rank is global within its 100-city study. It is not an ordering by visitor numbers.</p>${external(POP.indexSource || 'https://www.euromonitor.com/article/top-100-city-destinations-index-2025-driving-growth-and-innovation', 'Euromonitor methodology ↗')} · ${external(POP.indexTableSource || 'https://www.vacationstravel.com/top-100-city-destinations/', 'Published rank table ↗')}</section><section class="method-block"><h3>Most visited cities</h3><p>The separate arrivals view uses the public 2025 top 10 for international arrivals. These were year-end estimates published in December 2025. Repeat trips count; domestic visitors are excluded. Only the covered cities in that published table receive a rank. Unranked destinations are not “least popular”.</p>${external(POP.arrivalsSource || 'https://www.statista.com/chart/35880/top-cities-for-international-visitors-in-2025/', 'Published arrivals figures ↗')}</section><section class="method-block"><h3>Place popularity</h3><p>Each place is scored from every source we have for it: Tripadvisor review counts, Google Maps review counts and how many people read its Wikipedia page over the last 12 months. For each source, the place gets a percentile against the other sights, restaurants, food experiences or shopping stops in the same city. The score is the average of those percentiles, with review sources counting more than Wikipedia readership. Ratings only break ties.</p><p>Open any place to see each source, its number and where it puts the place. Review volume and page views signal visibility, not measured footfall. Places with no comparable data are editorial picks and stay unranked.</p></section><section class="method-block"><h3>Why go?</h3><p>The appeal and visit-flow notes are editorial explanations grounded in the linked venue and destination sources. Review observations are identified in the visitor-evidence section. Costs are planning ranges. Original AI illustrations communicate the experience and are labelled; photographic sources remain available.</p></section><button class="btn" data-action="close-modal">Got it</button></div>`,
     'How popularity rankings work',
   );
 }

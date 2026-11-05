@@ -3581,3 +3581,53 @@ small {
 .mapcanvas {
   isolation: isolate;
 }
+
+/* Popularity: why a place ranks where it does */
+.rankwhy {
+  margin: 2px 0 8px;
+  color: var(--teal);
+  font-size: 0.8rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+small.rankwhy {
+  display: block;
+  margin: 2px 0;
+}
+.rank-reason .rank-headline {
+  margin-bottom: 12px;
+}
+.signals {
+  display: grid;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+.signal-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+}
+.signal-head span {
+  color: var(--muted);
+}
+.signal-bar {
+  height: 8px;
+  margin: 6px 0 4px;
+  border-radius: 99px;
+  background: var(--line);
+  overflow: hidden;
+}
+.signal-bar i {
+  display: block;
+  height: 100%;
+  border-radius: inherit;
+  background: var(--teal);
+}
+.signal-row small,
+.signal-missing {
+  display: block;
+  color: var(--muted);
+  font-size: 0.78rem;
+}

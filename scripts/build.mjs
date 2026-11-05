@@ -15,13 +15,20 @@ const cities = await Promise.all(meta.cityOrder.map((id) => readJson(`data/citie
 const photos = await readJson('data/photos.json');
 const art = await readJson('data/art.json');
 
-const mime = { webp: 'image/webp', jpg: 'image/jpeg', jpeg: 'image/jpeg', png: 'image/png', gif: 'image/gif' };
+const mime = {
+  webp: 'image/webp',
+  jpg: 'image/jpeg',
+  jpeg: 'image/jpeg',
+  png: 'image/png',
+  gif: 'image/gif',
+};
 async function inline(file) {
   const buf = await readFile(path.join(root, file));
   return `data:${mime[path.extname(file).slice(1)]};base64,${buf.toString('base64')}`;
 }
 if (single) {
-  for (const set of [photos, art]) for (const v of Object.values(set)) v.data = await inline(v.data);
+  for (const set of [photos, art])
+    for (const v of Object.values(set)) v.data = await inline(v.data);
 }
 
 const parts = {
@@ -52,4 +59,6 @@ if (single) {
   await writeFile(path.join(dist, 'index.html'), html);
   await cp(path.join(root, 'images'), path.join(dist, 'images'), { recursive: true });
 }
-console.log(`Built ${single ? 'dist/roam-atlas.html' : 'dist/index.html'} (${(Buffer.byteLength(html) / 1e6).toFixed(1)} MB HTML)`);
+console.log(
+  `Built ${single ? 'dist/roam-atlas.html' : 'dist/index.html'} (${(Buffer.byteLength(html) / 1e6).toFixed(1)} MB HTML)`,
+);
