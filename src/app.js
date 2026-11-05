@@ -170,20 +170,38 @@ function photoTag(id, cls = '', lazy = true) {
     : '';
 }
 // Extra photos per place/city from Wikimedia Commons (hotlinked thumbnails, loaded on demand).
-const GALLERY = DATA.gallery || {};
+// data/gallery.json stores each photo as [file, hash, width, height, author, licence].
+const GALLERY = Object.fromEntries(
+  Object.entries(DATA.gallery || {}).map(([id, list]) => [
+    id,
+    list.map(([f, hh, w, h, a, l]) => ({ f, hh, w, h, a, l })),
+  ]),
+);
+const commonsName = (f) =>
+  encodeURIComponent(f.replace(/ /g, '_')).replace(
+    /[!'()*]/g,
+    (ch) => '%' + ch.charCodeAt(0).toString(16).toUpperCase(),
+  );
+function licenceUrl(l) {
+  const m = l.match(/^CC (BY(?:-SA)?) ([0-9.]+)/i);
+  if (m) return `https://creativecommons.org/licenses/${m[1].toLowerCase()}/${m[2]}/`;
+  if (/^CC0/i.test(l)) return 'https://creativecommons.org/publicdomain/zero/1.0/';
+  return '';
+}
 function galleryFor(id) {
   return GALLERY[id] || [];
 }
 function galleryUrl(g, w = 960) {
-  return g.t.replace(/\/\d+px-/, `/${w}px-`);
+  const n = commonsName(g.f);
+  return `https://upload.wikimedia.org/wikipedia/commons/thumb/${g.hh[0]}/${g.hh}/${n}/${w}px-${n}`;
 }
 function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
-  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.d || g.f.replace(/\.[a-z]+$/i, ''))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide]')?.remove()">`;
+  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide]')?.remove()">`;
 }
 function galleryCredit(g) {
-  const page =
-    'https://commons.wikimedia.org/wiki/File:' + encodeURIComponent(g.f.replace(/ /g, '_'));
-  return `<a href="${esc(page)}" target="_blank" rel="noopener noreferrer">Photo: ${esc(g.a)} / Wikimedia Commons</a> · ${g.u ? `<a href="${esc(g.u)}" target="_blank" rel="noopener noreferrer">${esc(g.l)}</a>` : esc(g.l)}`;
+  const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f),
+    lu = licenceUrl(g.l);
+  return `<a href="${esc(page)}" target="_blank" rel="noopener noreferrer">Photo: ${esc(g.a)} / Wikimedia Commons</a> · <a href="${esc(lu || page)}" target="_blank" rel="noopener noreferrer">${esc(g.l)}</a>`;
 }
 function photoCount(id) {
   const n = galleryFor(id).length;

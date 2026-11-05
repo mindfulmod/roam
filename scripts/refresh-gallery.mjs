@@ -27,6 +27,7 @@ import { fileURLToPath } from 'node:url';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const UA = 'RoamAtlas/2.0 (https://github.com/mindfulmod/roam)';
 const MAX_KM = 15;
+const MAX_BIG_KM = 100;
 const MAX_CITY_KM = 60;
 const PER_ITEM = 5;
 const onlyCity = process.argv.includes('--city')
@@ -35,6 +36,13 @@ const onlyCity = process.argv.includes('--city')
 
 const BAD =
   /(map|logo|flag|icon|plan|diagram|coat[_ ]of[_ ]arms|seal|locator|location|symbol|emblem|banner|signature|chart|graph|portrait|bust|ukiyo|painting|drawing|engraving|stamp|coin|banknote|poster)/i;
+// Old archive shots and photos of people (visits, portraits) don't show what a visitor will see.
+const OLD = /\b(1[0-8]\d\d|19[0-8]\d)\b/;
+const PEOPLE =
+  /\b(President|King|Queen|Emperor|Prince|Princess|Obama|Bourdain|Minister|visit(s|ed)? by|meets|with his|with her)\b/i;
+const ARCHIVE = /\(PV\d+|Musée Guimet|museum collection/i;
+// Big parks and natural features have article coordinates far from any single viewpoint.
+const BIG = /National Park|Falls|Canyon|Valley/i;
 const OK_LICENCE = /^(CC BY|CC0|Public domain|PD|Attribution)/i;
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -127,16 +135,15 @@ async function photosFor(item, maxKm, mainFile) {
     const m = ii.extmetadata || {};
     const licence = m.LicenseShortName?.value || '';
     if (!OK_LICENCE.test(licence)) continue;
-    out.push({
-      f: f.replace(/^File:/, ''),
-      t: ii.thumburl.split('?')[0],
-      w: ii.thumbwidth,
-      h: ii.thumbheight,
-      a: strip(m.Artist?.value) || 'Wikimedia Commons contributor',
-      l: licence,
-      u: m.LicenseUrl?.value || '',
-      d: strip(m.ImageDescription?.value || m.ObjectName?.value),
-    });
+    const name = f.replace(/^File:/, '');
+    const desc = strip(m.ImageDescription?.value || m.ObjectName?.value);
+    if (OLD.test(name) || ARCHIVE.test(name) || PEOPLE.test(name + ' ' + desc)) continue;
+    // The two-character hash directory lets the app build any thumbnail width.
+    const hash = ii.thumburl?.match(/\/commons\/thumb\/[0-9a-f]\/([0-9a-f]{2})\//)?.[1];
+    if (!hash) continue;
+    const author = strip(m.Artist?.value) || 'Wikimedia Commons contributor';
+    // Stored compactly as [file, hash, width, height, author, licence].
+    out.push([name, hash, ii.thumbwidth, ii.thumbheight, author, licence]);
     if (out.length >= PER_ITEM) break;
   }
   return out;
@@ -158,7 +165,7 @@ for (const c of cities) {
   for (const p of c.items) {
     if (cityWikis.has(p.wiki)) continue;
     if (p.kind === 'eat' && (photos[p.id]?.context || wikiUses.get(p.wiki) > 1)) continue;
-    jobs.push([p, MAX_KM]);
+    jobs.push([p, BIG.test(p.wiki) ? MAX_BIG_KM : MAX_KM]);
   }
   let n = 0;
   for (const [item, maxKm] of jobs) {
@@ -176,5 +183,8 @@ for (const c of cities) {
   console.log(`${c.id}: ${n} of ${jobs.length} with photos`);
 }
 const sorted = Object.fromEntries(Object.entries(gallery).sort(([a], [b]) => a.localeCompare(b)));
-await writeFile(path.join(root, 'data/gallery.json'), JSON.stringify(sorted, null, 1) + '\n');
+const lines = Object.entries(sorted).map(
+  ([k, v]) => `  ${JSON.stringify(k)}: ${JSON.stringify(v)}`,
+);
+await writeFile(path.join(root, 'data/gallery.json'), '{\n' + lines.join(',\n') + '\n}\n');
 console.log(`Wrote data/gallery.json (${Object.keys(sorted).length} entries)`);
