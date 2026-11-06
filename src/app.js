@@ -77,6 +77,7 @@ const defaultState = () => ({
   street: true,
   checklist: [],
   stays: {},
+  budget: defaultBudget(),
 });
 let S = defaultState(),
   storageOK = true;
@@ -115,6 +116,7 @@ function cleanState(s) {
   d.pace = ['relaxed', 'balanced', 'full'].includes(s.pace) ? s.pace : 'balanced';
   d.people = Math.min(20, Math.max(1, Math.round(Number(s.people) || 1)));
   d.street = s.street !== false;
+  d.budget = cleanBudget(s.budget);
   d.checklist = Array.isArray(s.checklist)
     ? s.checklist.filter((x) => typeof x === 'string' && x.length < 80).slice(0, 30)
     : [];
@@ -1596,6 +1598,7 @@ function route() {
   else if (parts[0] === 'trip') renderTrip();
   else if (parts[0] === 'saved') renderSaved();
   else if (parts[0] === 'guide') renderGuide();
+  else if (parts[0] === 'budget') renderBudget();
   else renderExplore();
 }
 // Discovery, transparent rankings, dietary evidence and accommodation origins.
@@ -2123,7 +2126,7 @@ function renderCity(id, tab = 'places') {
   const r = cityRanking(c, 'tourism'),
     a = cityRanking(c, 'arrivals');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}<div class="cityfacts">${r ? `<button class="fact" data-action="ranking-method"><b>#${r.rank}</b><span>tourism index</span></button>` : ''}${a ? `<button class="fact" data-action="ranking-method"><b>#${a.rank}</b><span>most visited</span></button>` : ''}<span class="fact"><b>${c.days} days</b><span>to see it well</span></span><span class="fact"><b>${range(c.dailyBudget, c.currency)}</b><span>per person a day</span></span><span class="fact"><b>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</b><span>best months</span></span></div>${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
+    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}<div class="cityfacts">${r ? `<button class="fact" data-action="ranking-method"><b>#${r.rank}</b><span>tourism index</span></button>` : ''}${a ? `<button class="fact" data-action="ranking-method"><b>#${a.rank}</b><span>most visited</span></button>` : ''}<span class="fact"><b>${c.days} days</b><span>to see it well</span></span>${budgetFact(c)}<span class="fact"><b>${range(c.dailyBudget, c.currency)}</b><span>per person a day</span></span><span class="fact"><b>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</b><span>best months</span></span></div>${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
       ['places', 'Sights'],
       ['food', 'Food'],
       ['arrival', 'Practical'],
@@ -2263,7 +2266,7 @@ document.addEventListener('click', (e) => {
 function renderExplore() {
   headerActive('explore');
   $('#app').innerHTML =
-    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1><p>${CITIES.length} places worth the trip, ranked so you can see why.</p><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="Search a city, country or landmark" value="${esc(browseQuery)}"></div><div class="quickacts"><button class="quickact" data-action="surprise">${icon('shuffle')} Surprise me</button><a class="quickact" href="#/map">${icon('map')} Browse the map</a><a class="quickact" href="#/trip">${icon('route')} Plan a trip</a></div></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div><div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
+    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1><p>${CITIES.length} places worth the trip, ranked so you can see why.</p><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="Search a city, country or landmark" value="${esc(browseQuery)}"></div><div class="quickacts"><button class="quickact" data-action="surprise">${icon('shuffle')} Surprise me</button><a class="quickact" href="#/budget">${icon('wallet')} Trips for my budget</a><a class="quickact" href="#/map">${icon('map')} Browse the map</a><a class="quickact" href="#/trip">${icon('route')} Plan a trip</a></div></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div><div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
       ['tourism', 'Tourism index'],
       ['arrivals', 'Most visited'],
       ['personal', 'Japan first'],
@@ -2314,6 +2317,7 @@ function renderBrowse() {
     const top = list.filter((c) => cityRanking(c)).slice(0, 10);
     const regions = ['Asia', 'Europe', 'Africa', 'South America', 'North America'];
     el.innerHTML =
+      budgetHomeRow() +
       (browseSort === 'personal'
         ? ''
         : cityRow(
