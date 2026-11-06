@@ -4703,3 +4703,638 @@ small.rankwhy {
     display: none;
   }
 }
+
+/* ==========================================================================
+   Simplified navigation and feel (2026-11). Patterns borrowed from Airbnb
+   (search first, horizontal rows, whole-card taps), Google Maps (chip rows,
+   filters in a sheet, sticky actions) and AllTrails (verb-led quick actions).
+   This layer sits last so it wins over the older blocks above.
+   ========================================================================== */
+
+.about-link {
+  color: var(--muted);
+  font-size: 12px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 30px;
+}
+.about-link:hover,
+.about-link.active {
+  color: var(--teal);
+  background: var(--teal2);
+}
+
+/* ---------- Home ---------- */
+.home-hero {
+  position: relative;
+  border-radius: 26px;
+  overflow: hidden;
+  min-height: 360px;
+  margin: 22px 0 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+}
+.home-hero > img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home-hero:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #0000 25%, #0b201eb8 100%);
+}
+.home-hero-copy {
+  position: relative;
+  z-index: 1;
+  padding: 34px;
+  width: min(640px, 100%);
+}
+.home-hero-copy h1 {
+  font:
+    52px/1.05 Georgia,
+    serif;
+  margin: 0 0 6px;
+}
+.home-hero-copy p {
+  margin: 0 0 18px;
+  font-size: 15px;
+  opacity: 0.92;
+}
+.home-hero .hero-credit {
+  position: absolute;
+  right: 12px;
+  top: 12px;
+  z-index: 1;
+}
+.hero-search {
+  background: #fff;
+  border-radius: 40px;
+  box-shadow: 0 10px 30px #0003;
+  border: 0;
+  color: var(--ink);
+}
+.hero-search input {
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.quickacts {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+.quickact {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 14px;
+  border-radius: 30px;
+  border: 1px solid #ffffff66;
+  background: #ffffff22;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+  color: #fff;
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.quickact .icon {
+  width: 16px;
+  height: 16px;
+}
+.region-chips {
+  margin: 0 0 6px;
+}
+.browse-tools {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin: 4px 0 6px;
+  font-size: 13px;
+  color: var(--muted);
+  scroll-margin-top: 80px;
+}
+.sortpick {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 600;
+}
+.sortpick select {
+  border: 1px solid var(--line);
+  border-radius: 30px;
+  padding: 7px 12px;
+  background: #fff;
+  color: var(--ink);
+  font-weight: 600;
+}
+.browse-tools .inline-link .icon {
+  width: 15px;
+  height: 15px;
+}
+.rowhead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 34px 0 12px;
+}
+.rowhead h2 {
+  font:
+    26px/1.15 Georgia,
+    serif;
+  margin: 0;
+}
+.rowhead .inline-link {
+  white-space: nowrap;
+  font-weight: 600;
+}
+.rowhead .inline-link .icon {
+  width: 15px;
+  height: 15px;
+}
+.cityrow .rowhead {
+  margin-top: 24px;
+}
+
+/* Horizontal, swipeable rows. */
+.hrow {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% - 3 * 18px) / 4);
+  gap: 18px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  padding-bottom: 4px;
+}
+.hrow::-webkit-scrollbar {
+  display: none;
+}
+.hrow > * {
+  scroll-snap-align: start;
+  min-width: 0;
+}
+
+/* City card: photo first, a few words under it, the whole card is the link. */
+.citycard,
+.citygrid .citycard {
+  border: 0;
+  background: transparent;
+  border-radius: 0;
+  overflow: visible;
+  cursor: pointer;
+}
+.citycard:hover {
+  transform: none;
+  box-shadow: none;
+}
+.citycard .cityimage {
+  height: auto;
+  aspect-ratio: 4 / 3.4;
+  border-radius: 18px;
+  overflow: hidden;
+}
+.citycard .cityimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.35s;
+}
+.citycard:hover .cityimage img {
+  transform: scale(1.04);
+}
+.citycard .cityimage:after {
+  display: none;
+}
+.city-rankpill,
+.place-rankpill {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+  background: #fffffff2;
+  color: var(--ink);
+  border-radius: 30px;
+  padding: 3px 10px;
+  font-size: 12px;
+  font-weight: 750;
+  box-shadow: 0 2px 8px #0002;
+}
+.city-rankpill small {
+  font-weight: 500;
+  color: var(--muted);
+  font-size: 11px;
+}
+.citycard .citybody {
+  padding: 10px 2px 0;
+}
+.citycard .citybody h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  display: inline;
+}
+.citycountry {
+  color: var(--muted);
+  font-size: 13px;
+  margin-left: 6px;
+}
+.citycard .citybody p {
+  margin: 2px 0 2px;
+  min-height: 0;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.citycard .citymeta {
+  display: block;
+  border: 0;
+  padding: 0;
+  font-size: 12px;
+}
+.citygrid {
+  grid-template-columns: repeat(4, 1fr);
+  gap: 26px 18px;
+}
+
+/* Vibe and trip rows reuse the same quiet card. */
+.vibegrid.hrow {
+  display: grid;
+}
+.vibecard {
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.vibecard .vibeimage {
+  aspect-ratio: 4 / 3.4;
+  border-radius: 18px;
+  overflow: hidden;
+  height: auto;
+}
+.vibecard .vibeimage img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.vibecard .vibebody {
+  padding: 10px 2px 0;
+}
+.vibecity {
+  font-size: 12px;
+  color: var(--muted);
+  font-weight: 600;
+}
+.vibecard h3 {
+  font-size: 15px;
+  margin: 1px 0 2px;
+  font-family: inherit;
+  font-weight: 700;
+}
+.hrow .tripteaser {
+  cursor: pointer;
+  margin: 0;
+  transform: none;
+  background: #fff;
+}
+.hrow .tripteaser .teaser-body p {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+/* ---------- City page ---------- */
+.cityfacts {
+  display: flex;
+  gap: 8px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  margin: 14px 0 12px;
+}
+.cityfacts::-webkit-scrollbar {
+  display: none;
+}
+.fact {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+  padding: 9px 14px;
+  border-radius: 14px;
+  background: #fff;
+  border: 1px solid var(--line);
+  font-size: 11px;
+  color: var(--muted);
+  text-align: left;
+  line-height: 1.35;
+}
+.fact b {
+  font-size: 14px;
+  color: var(--ink);
+}
+button.fact {
+  cursor: pointer;
+}
+button.fact b {
+  color: var(--teal);
+}
+.stay-prompt {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  padding: 12px 16px;
+  margin: 4px 0 14px;
+  border-radius: 16px;
+  border: 1px dashed #b9c9c3;
+  background: #fff;
+  color: var(--ink);
+  text-align: left;
+  cursor: pointer;
+}
+.stay-prompt span {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.35;
+}
+.stay-prompt small {
+  color: var(--muted);
+}
+.stay-prompt > .icon:first-child {
+  color: var(--teal);
+}
+.citytabs {
+  position: sticky;
+  top: var(--topbar-h, 84px);
+  z-index: 20;
+  background: var(--paper);
+}
+.placetools {
+  margin-top: 16px;
+}
+.placetools .searchrow {
+  display: flex;
+  gap: 10px;
+  align-items: stretch;
+  margin-bottom: 10px;
+}
+.placetools .searchbox {
+  flex: 1;
+  margin: 0;
+}
+.filterbtn {
+  position: relative;
+  height: 100%;
+  white-space: nowrap;
+}
+.filterbtn.on {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+.filterbtn .count {
+  background: var(--teal);
+  color: #fff;
+  border-radius: 20px;
+  min-width: 18px;
+  line-height: 18px;
+  font-size: 11px;
+  text-align: center;
+  margin-left: 4px;
+}
+.result-count {
+  font-size: 13px;
+  margin: 4px 0 14px;
+}
+.result-count .inline-link {
+  margin-left: 4px;
+}
+
+/* Place card: one tap target, the reason it ranks, then the essentials. */
+.placecard {
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.placecard:hover {
+  box-shadow: var(--shadow);
+}
+.placecard .placebody {
+  padding: 14px 16px 16px;
+}
+.placecard .placebody h3 {
+  margin: 0 0 3px;
+}
+.placecard .rankwhy {
+  font-size: 12px;
+  color: var(--teal);
+  font-weight: 600;
+  margin: 0 0 6px;
+}
+.placecard .placebody > p:not(.rankwhy):not(.must-order) {
+  font-size: 13px;
+  margin: 0 0 8px;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.placecard .placemeta {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+  color: var(--muted);
+}
+
+/* Filters sheet. */
+.filtersheet .field {
+  margin-bottom: 14px;
+}
+.filtersheet select {
+  width: 100%;
+}
+.filtersheet .view-switch {
+  display: inline-flex;
+  margin: 0;
+}
+.filter-actions {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 14px 0 4px;
+  background: #fff;
+  border-top: 1px solid var(--line);
+  margin-top: 8px;
+}
+.filter-actions .btn:last-child {
+  flex: 1;
+  justify-content: center;
+}
+
+/* Place sheet: actions stay in reach at the bottom. */
+.sheet-actions {
+  position: sticky;
+  bottom: 0;
+  z-index: 3;
+  display: flex;
+  gap: 8px;
+  padding: 12px 24px calc(12px + env(safe-area-inset-bottom));
+  background: #fffffff5;
+  border-top: 1px solid var(--line);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+.sheet-actions .btn {
+  flex: 1;
+  justify-content: center;
+}
+.savewide.saved {
+  background: var(--teal2);
+  color: var(--teal);
+}
+
+/* Trip and about pages. */
+.backup-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+  margin: 30px 0 0;
+  padding: 14px 0;
+  border-top: 1px solid var(--line);
+  font-size: 13px;
+  color: var(--muted);
+}
+.backup-row span {
+  font-weight: 650;
+}
+.backup-row .icon {
+  width: 15px;
+  height: 15px;
+}
+.sourcebook summary {
+  cursor: pointer;
+  list-style: none;
+}
+.sourcebook summary::-webkit-details-marker {
+  display: none;
+}
+.sourcebook summary h2 {
+  display: inline;
+}
+.sourcebook summary:after {
+  content: ' ▾';
+  color: var(--muted);
+}
+.sourcebook[open] summary:after {
+  content: ' ▴';
+}
+
+@media (max-width: 1100px) {
+  .hrow {
+    grid-auto-columns: calc((100% - 2 * 18px) / 3);
+  }
+  .citygrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 760px) {
+  .home-hero {
+    min-height: 300px;
+    margin: 10px 0 12px;
+    border-radius: 22px;
+  }
+  .home-hero-copy {
+    padding: 20px 16px;
+  }
+  .home-hero-copy h1 {
+    font-size: 36px;
+  }
+  .home-hero-copy p {
+    font-size: 14px;
+    margin-bottom: 14px;
+  }
+  .quickacts {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    margin-right: -16px;
+    padding-right: 16px;
+  }
+  .quickact {
+    flex: none;
+  }
+  .rowhead {
+    margin: 26px 0 10px;
+  }
+  .rowhead h2 {
+    font-size: 22px;
+  }
+  /* Rows bleed to the screen edge and peek the next card, so it is obvious they scroll. */
+  .hrow {
+    grid-auto-columns: 72%;
+    gap: 12px;
+    margin: 0 -16px;
+    padding: 0 16px 4px;
+    scroll-padding: 0 16px;
+  }
+  .vibegrid.hrow {
+    grid-auto-columns: 62%;
+  }
+  .citygrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 12px;
+  }
+  .citygrid .citycard .citybody p {
+    display: none;
+  }
+  .citycountry {
+    display: block;
+    margin: 0;
+    font-size: 12px;
+  }
+  .topinner {
+    justify-content: space-between;
+  }
+  .topend {
+    display: flex !important;
+  }
+  .about-link {
+    font-size: 12px;
+    padding: 6px 10px;
+  }
+  .citytabs {
+    top: calc(var(--topbar-h) + env(safe-area-inset-top));
+  }
+  .placegrid {
+    gap: 14px;
+  }
+  .sheet-actions {
+    padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  }
+  .sheet-actions .btn {
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+}
