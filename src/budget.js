@@ -144,34 +144,37 @@ function budgetReady() {
 }
 
 // ---------- Page ----------
+function budgetForm() {
+  const b = B(),
+    cur = budgetCurrency();
+  const byCountry = ORIGINS.reduce((m, o) => ((m[o.country] ??= []).push(o), m), {});
+  return `<section class="budget-form" aria-label="Your budget"><div class="field budget-amount"><label for="bud-amount">Total budget</label><div class="money-input"><select id="bud-cur" aria-label="Currency">${BUDGET_CURRENCIES.map((c) => `<option ${c === cur ? 'selected' : ''}>${c}</option>`).join('')}</select><input id="bud-amount" type="number" inputmode="numeric" min="0" step="100" placeholder="e.g. 2000" value="${b.amount || ''}"></div></div><div class="field"><label for="bud-origin">Leaving from</label><select id="bud-origin"><option value="">Choose the nearest city</option>${Object.entries(
+    byCountry,
+  )
+    .map(
+      ([country, list]) =>
+        `<optgroup label="${esc(country)}">${list.map((o) => `<option value="${o.id}" ${o.id === b.origin ? 'selected' : ''}>${esc(o.name)}</option>`).join('')}</optgroup>`,
+    )
+    .join(
+      '',
+    )}</select></div><div class="budget-line"><div class="budget-group"><span class="budget-label">Trip length</span><div class="chips" role="group" aria-label="Trip length">${BUDGET_DAYS.map((d) => `<button class="chip ${b.days === d ? 'active' : ''}" data-action="bud-days" data-id="${d}">${d} days</button>`).join('')}</div></div><div class="budget-group"><span class="budget-label">Travellers</span><div class="stepper"><button data-action="bud-people" data-dir="-1" aria-label="Fewer travellers">−</button><strong id="bud-people">${b.people}</strong><button data-action="bud-people" data-dir="1" aria-label="More travellers">+</button></div></div><div class="budget-group"><span class="budget-label">Style</span><div class="chips" role="group" aria-label="Travel style">${[
+    ['thrifty', 'Thrifty'],
+    ['comfort', 'Comfortable'],
+  ]
+    .map(
+      ([k, t]) =>
+        `<button class="chip ${b.style === k ? 'active' : ''}" data-action="bud-style" data-id="${k}">${t}</button>`,
+    )
+    .join('')}</div></div></div></section>`;
+}
 function renderBudget() {
   headerActive('explore');
   if (!B().origin) {
     B().origin = guessOrigin();
     if (B().origin) persist();
   }
-  const b = B(),
-    cur = budgetCurrency();
-  const byCountry = ORIGINS.reduce((m, o) => ((m[o.country] ??= []).push(o), m), {});
   $('#app').innerHTML =
-    `<div class="wrap budget-page"><div class="backline"><a href="#/">${icon('left')} Explore</a></div><div class="budget-head"><h1>Where can my budget take me?</h1><p>Tell us roughly what you’d spend and where you’re leaving from. We’ll show the places that fit, flights and hotels included.</p></div><section class="budget-form" aria-label="Your budget"><div class="field budget-amount"><label for="bud-amount">Total budget</label><div class="money-input"><select id="bud-cur" aria-label="Currency">${BUDGET_CURRENCIES.map((c) => `<option ${c === cur ? 'selected' : ''}>${c}</option>`).join('')}</select><input id="bud-amount" type="number" inputmode="numeric" min="0" step="100" placeholder="e.g. 2000" value="${b.amount || ''}"></div></div><div class="field"><label for="bud-origin">Leaving from</label><select id="bud-origin"><option value="">Choose the nearest city</option>${Object.entries(
-      byCountry,
-    )
-      .map(
-        ([country, list]) =>
-          `<optgroup label="${esc(country)}">${list.map((o) => `<option value="${o.id}" ${o.id === b.origin ? 'selected' : ''}>${esc(o.name)}</option>`).join('')}</optgroup>`,
-      )
-      .join(
-        '',
-      )}</select></div><div class="budget-line"><div class="budget-group"><span class="budget-label">Trip length</span><div class="chips" role="group" aria-label="Trip length">${BUDGET_DAYS.map((d) => `<button class="chip ${b.days === d ? 'active' : ''}" data-action="bud-days" data-id="${d}">${d} days</button>`).join('')}</div></div><div class="budget-group"><span class="budget-label">Travellers</span><div class="stepper"><button data-action="bud-people" data-dir="-1" aria-label="Fewer travellers">−</button><strong id="bud-people">${b.people}</strong><button data-action="bud-people" data-dir="1" aria-label="More travellers">+</button></div></div><div class="budget-group"><span class="budget-label">Style</span><div class="chips" role="group" aria-label="Travel style">${[
-      ['thrifty', 'Thrifty'],
-      ['comfort', 'Comfortable'],
-    ]
-      .map(
-        ([k, t]) =>
-          `<button class="chip ${b.style === k ? 'active' : ''}" data-action="bud-style" data-id="${k}">${t}</button>`,
-      )
-      .join('')}</div></div></div></section><div id="budget-results"></div>${footer()}</div>`;
+    `<div class="wrap budget-page"><div class="backline"><a href="#/">${icon('left')} Explore</a></div><div class="budget-head"><h1>Where can my budget take me?</h1><p>Tell us roughly what you’d spend and where you’re leaving from. We’ll show the places that fit, flights and hotels included.</p></div>${budgetForm()}<div id="budget-results"></div>${footer()}</div>`;
   renderBudgetResults();
 }
 function budgetCard(x) {
@@ -286,7 +289,9 @@ function budgetHomeRow() {
 }
 // On the city page, once a home city is known: the trip estimate with its parts in plain view.
 function budgetPanel(c) {
-  if (!budgetReady()) return '';
+  if (!B().origin) B().origin = guessOrigin();
+  if (!budgetReady())
+    return `<section class="citycost" data-id="${c.id}"><button class="inline-link" data-action="bud-edit">${icon('wallet')} What would a trip here cost?</button></section>`;
   const x = cityCost(c),
     b = B(),
     est = pick(x.total),
@@ -297,7 +302,7 @@ function budgetPanel(c) {
       .filter(([, v]) => v > 0)
       .map(([p, v]) => `<i class="seg-${p}" style="flex:${v.toFixed(0)}"></i>`)
       .join('');
-  return `<section class="citycost" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p>${x.days} days · ${b.people} traveller${b.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <a href="#/budget" class="inline-link">Change</a></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button></section>`;
+  return `<section class="citycost" data-id="${c.id}" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p>${x.days} days · ${b.people} traveller${b.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <button class="inline-link" data-action="bud-edit">Change</button></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button></section>`;
 }
 function showBudgetMath(id) {
   const x = cityCost(C[id]),
@@ -327,6 +332,8 @@ function showBudgetMethod() {
 function budgetChanged() {
   persist();
   renderBudgetResults();
+  const panel = $('.citycost[data-id]');
+  if (panel) panel.outerHTML = budgetPanel(C[panel.dataset.id]);
 }
 document.addEventListener('click', (e) => {
   const t = e.target.closest('[data-action]');
@@ -336,6 +343,11 @@ document.addEventListener('click', (e) => {
     e.stopPropagation();
     showBudgetMath(t.dataset.id);
   } else if (a === 'bud-method') showBudgetMethod();
+  else if (a === 'bud-edit')
+    showModal(
+      `<div class="modalcontent budget-edit"><h2>Your trip</h2><p class="muted">Change these and the estimate updates. They apply to every city.</p>${budgetForm()}<button class="btn" data-action="close-modal">Done</button></div>`,
+      'Your trip',
+    );
   else if (a === 'bud-try') {
     if (t.dataset.days) B().days = Number(t.dataset.days);
     if (t.dataset.style) B().style = t.dataset.style;

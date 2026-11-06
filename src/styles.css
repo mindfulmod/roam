@@ -5645,3 +5645,15 @@ a.fact b {
 .citycost-total small {
   display: block;
 }
+.budget-edit .budget-form {
+  grid-template-columns: 1fr;
+  border: 0;
+  padding: 0;
+  margin: 16px 0 20px;
+  background: transparent;
+}
+.citycost .inline-link .icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: -3px;
+}
