@@ -1,0 +1,52 @@
+name: City cover photos
+
+# Commons is not reachable from every dev environment, so cover photos are fetched here.
+# Push a change to scripts/covers/requests.json to get candidate contact sheets, or to
+# scripts/covers/picks.json to download the chosen photos. Results are committed back.
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['scripts/covers/requests.json', 'scripts/covers/picks.json']
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: candidates or apply
+        default: apply
+
+permissions:
+  contents: write
+
+concurrency:
+  group: covers-${{ github.ref }}
+
+jobs:
+  covers:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm i --no-save sharp@0.34.3
+      - name: Pick mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "mode=${{ inputs.mode }}" >> "$GITHUB_OUTPUT"
+          elif git diff --name-only "${{ github.event.before }}" "${{ github.sha }}" | grep -q 'scripts/covers/picks.json'; then
+            echo "mode=apply" >> "$GITHUB_OUTPUT"
+          else
+            echo "mode=candidates" >> "$GITHUB_OUTPUT"
+          fi
+      - run: node scripts/covers/run.mjs ${{ steps.mode.outputs.mode }}
+      - run: npm run build
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A scripts/covers images/photos data/photos.json
+          git diff --cached --quiet && exit 0
+          git commit -m "Cover photos: ${{ steps.mode.outputs.mode }} (automated)"
+          git push origin HEAD:${{ github.ref_name }}
