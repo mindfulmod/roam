@@ -5563,3 +5563,31 @@ a.fact b {
     columns: 1;
   }
 }
+.costlist {
+  list-style: none;
+  margin: 4px 0 2px;
+  padding: 0;
+  font-size: 12px;
+  color: var(--muted);
+}
+.costlist li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  line-height: 1.6;
+}
+.costlist i {
+  flex: none;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.costlist b {
+  margin-left: auto;
+  color: var(--ink);
+  font-weight: 650;
+}
+.budgetcard .fitnote {
+  display: block;
+  font-size: 12px;
+}
