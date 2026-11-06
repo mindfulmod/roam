@@ -284,11 +284,20 @@ function budgetHomeRow() {
     .sort((a, b) => (cityRanking(a.c)?.rank ?? 1e4) - (cityRanking(b.c)?.rank ?? 1e4));
   return `<section class="cityrow"><div class="rowhead"><h2>Fits your ${cash(budgetUSD())} budget</h2><a href="#/budget" class="inline-link">${fits.length ? `See all ${fits.length}` : 'Adjust'} ${icon('arrow')}</a></div>${fits.length ? `<div class="hrow">${fits.slice(0, 10).map(budgetCard).join('')}</div>` : `<p class="muted">Nothing fits yet. <a href="#/budget">Adjust your budget</a>.</p>`}</section>`;
 }
-// One fact on the city page, once a home city is known.
-function budgetFact(c) {
+// On the city page, once a home city is known: the trip estimate with its parts in plain view.
+function budgetPanel(c) {
   if (!budgetReady()) return '';
-  const x = cityCost(c);
-  return `<a class="fact" href="#/budget"><b>≈ ${cash(pick(x.total))}</b><span>${x.days} days from ${esc(budgetOrigin().name)}</span></a>`;
+  const x = cityCost(c),
+    b = B(),
+    est = pick(x.total),
+    budget = budgetUSD(),
+    st = fitState(est, budget),
+    bar = ['travel', 'stay', 'daily', 'car']
+      .map((p) => [p, pick(x.parts[p])])
+      .filter(([, v]) => v > 0)
+      .map(([p, v]) => `<i class="seg-${p}" style="flex:${v.toFixed(0)}"></i>`)
+      .join('');
+  return `<section class="citycost" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p>${x.days} days · ${b.people} traveller${b.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <a href="#/budget" class="inline-link">Change</a></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button></section>`;
 }
 function showBudgetMath(id) {
   const x = cityCost(C[id]),
