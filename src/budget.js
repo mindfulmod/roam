@@ -94,7 +94,7 @@ function dailyUSD(c) {
   return c.dailyBudget.map((n) => toUSD(n, c.currency));
 }
 // Cost of one city for the whole party, as [low, high] in USD per part.
-function cityCost(c, days = B().days, people = B().people, o = budgetOrigin()) {
+function cityCost(c, days = B().days, people = S.people, o = budgetOrigin()) {
   const k = COSTS.cities[c.id] || { hotel: [80, 160] },
     f = fareUSD(o, c),
     rooms = Math.ceil(people / 2),
@@ -113,7 +113,7 @@ function sumParts(parts) {
 }
 const pick = (r) => (B().style === 'comfort' ? r[1] : r[0]);
 // A ready-made trip: fly into the first city and home from it, with a hop between cities.
-function templateCost(t, people = B().people, o = budgetOrigin()) {
+function templateCost(t, people = S.people, o = budgetOrigin()) {
   const legs = t.cities.length - 1,
     parts = { travel: [0, 0], stay: [0, 0], daily: [0, 0], car: [0, 0] };
   t.cities.forEach((id, i) => {
@@ -157,7 +157,7 @@ function budgetForm() {
     )
     .join(
       '',
-    )}</select></div><div class="budget-line"><div class="budget-group"><span class="budget-label">Trip length</span><div class="chips" role="group" aria-label="Trip length">${BUDGET_DAYS.map((d) => `<button class="chip ${b.days === d ? 'active' : ''}" data-action="bud-days" data-id="${d}">${d} days</button>`).join('')}</div></div><div class="budget-group"><span class="budget-label">Travellers</span><div class="stepper"><button data-action="bud-people" data-dir="-1" aria-label="Fewer travellers">−</button><strong id="bud-people">${b.people}</strong><button data-action="bud-people" data-dir="1" aria-label="More travellers">+</button></div></div><div class="budget-group"><span class="budget-label">Style</span><div class="chips" role="group" aria-label="Travel style">${[
+    )}</select></div><div class="budget-line"><div class="budget-group days-group"><span class="budget-label">Trip length</span><div class="chips" role="group" aria-label="Trip length">${BUDGET_DAYS.map((d) => `<button class="chip ${b.days === d ? 'active' : ''}" data-action="bud-days" data-id="${d}">${d} days</button>`).join('')}</div></div><div class="budget-group"><span class="budget-label">Travellers</span><div class="stepper"><button data-action="bud-people" data-dir="-1" aria-label="Fewer travellers">−</button><strong id="bud-people">${S.people}</strong><button data-action="bud-people" data-dir="1" aria-label="More travellers">+</button></div></div><div class="budget-group"><span class="budget-label">Style</span><div class="chips" role="group" aria-label="Travel style">${[
     ['thrifty', 'Thrifty'],
     ['comfort', 'Comfortable'],
   ]
@@ -228,7 +228,7 @@ function renderBudgetResults() {
   }
   const all = budgetCosts(),
     budget = budgetUSD(),
-    who = `${b.days} days · ${b.people} traveller${b.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'}`,
+    who = `${b.days} days · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'}`,
     how = `<button class="inline-link" data-action="bud-method">${icon('info')} How we estimate</button>`;
   if (!budget) {
     el.innerHTML = `<p class="muted result-count">From ${esc(o.name)}, cheapest first · ${who} · ${how}</p><div class="citygrid">${all.map(budgetCard).join('')}</div>`;
@@ -292,7 +292,7 @@ function budgetPanel(c) {
   if (!B().origin) B().origin = guessOrigin();
   if (!budgetReady())
     return `<section class="citycost" data-id="${c.id}"><button class="inline-link" data-action="bud-edit">${icon('wallet')} What would a trip here cost?</button></section>`;
-  const x = cityCost(c),
+  const x = cityCost(c, S.days[c.id] || c.days),
     b = B(),
     est = pick(x.total),
     budget = budgetUSD(),
@@ -302,7 +302,92 @@ function budgetPanel(c) {
       .filter(([, v]) => v > 0)
       .map(([p, v]) => `<i class="seg-${p}" style="flex:${v.toFixed(0)}"></i>`)
       .join('');
-  return `<section class="citycost" data-id="${c.id}" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p>${x.days} days · ${b.people} traveller${b.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <button class="inline-link" data-action="bud-edit">Change</button></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button></section>`;
+  return `<section class="citycost" data-id="${c.id}" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p><span class="stepper mini"><button data-action="bud-citydays" data-id="${c.id}" data-dir="-1" aria-label="Fewer days">−</button><strong>${x.days} days</strong><button data-action="bud-citydays" data-id="${c.id}" data-dir="1" aria-label="More days">+</button></span> · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <button class="inline-link" data-action="bud-edit">Change</button></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button></section>`;
+}
+// The Trip page as a checkout: every cost of the planned trip in one currency, with one total.
+// Flights go out to the first city and home from the last; transfer days sleep in the next city.
+function tripReceipt() {
+  const o = budgetOrigin(),
+    n = S.people,
+    style = B().style,
+    ids = S.trip,
+    lines = [],
+    add = (label, sub, r, cls = '') => {
+      lines.push({ label, sub, r, cls });
+      return r;
+    };
+  let total = [0, 0];
+  const plus = (r) => (total = [total[0] + r[0], total[1] + r[1]]);
+  if (o) {
+    const a = fareUSD(o, C[ids[0]]),
+      z = fareUSD(o, C[ids.at(-1)]),
+      r = [((a.lo + z.lo) / 2) * n, ((a.hi + z.hi) / 2) * n];
+    plus(
+      add(
+        a.ground && z.ground ? 'Getting there' : 'Flights',
+        ids.length > 1 && ids[0] !== ids.at(-1)
+          ? `${esc(o.name)} → ${esc(C[ids[0]].name)}, home from ${esc(C[ids.at(-1)].name)}`
+          : `${esc(o.name)} ⇄ ${esc(C[ids[0]].name)}, round trip`,
+        r,
+        'big',
+      ),
+    );
+  }
+  if (ids.length > 1) {
+    const hops = ids
+      .slice(1)
+      .map((id, i) => (hav(C[ids[i]], C[id]) < COSTS.groundKm ? COSTS.ground : COSTS.leg));
+    plus(
+      add(
+        'Between cities',
+        `${hops.length} hop${hops.length > 1 ? 's' : ''} by train, bus or short flight`,
+        hops.reduce((t, h) => [t[0] + h[0] * n, t[1] + h[1] * n], [0, 0]),
+        'big',
+      ),
+    );
+  }
+  ids.forEach((id, i) => {
+    const c = C[id],
+      nights = (S.days[id] || c.days) + (i ? 1 : 0),
+      x = cityCost(c, nights, n, o || c),
+      own = Number(S.lodging[id]) || 0,
+      extra = Number(S.extra[id]) || 0;
+    lines.push({ head: `${esc(c.name)} · ${nights} night${nights > 1 ? 's' : ''}` });
+    const stay = own ? Array(2).fill(toUSD(own, c.currency) * n * nights) : x.parts.stay;
+    plus(
+      add(
+        'Hotel',
+        own
+          ? 'your own hotel amount'
+          : `${x.rooms} room${x.rooms > 1 ? 's' : ''} · ${cash(x.k.hotel[0])}–${cash(x.k.hotel[1])} a night`,
+        stay,
+      ),
+    );
+    plus(
+      add(
+        'Food, local transport & sights',
+        `${range(c.dailyBudget, c.currency)} a person a day`,
+        x.parts.daily,
+      ),
+    );
+    if (x.k.car) plus(add('Rental car', 'with fuel', x.parts.car));
+    if (extra)
+      plus(
+        add(
+          'Your extras',
+          'tours and other allowances you added',
+          Array(2).fill(toUSD(extra, c.currency) * n),
+        ),
+      );
+  });
+  const est = style === 'comfort' ? total[1] : total[0],
+    budget = budgetUSD(),
+    st = fitState(est, budget);
+  const row = (l) =>
+    l.head
+      ? `<div class="rc-city">${l.head}</div>`
+      : `<div class="rc-line ${l.cls}"><span>${l.label}<small>${l.sub}</small></span><b>${cash(style === 'comfort' ? l.r[1] : l.r[0])}</b></div>`;
+  return `<div class="sidepanel receipt"><div class="rc-top"><h3>Trip cost</h3><button class="inline-link" data-action="bud-edit">Change</button></div><p class="rc-who">${o ? `From ${esc(o.name)} · ` : ''}${n} traveller${n > 1 ? 's' : ''} · ${style === 'comfort' ? 'comfortable' : 'thrifty'}</p>${o ? '' : `<button class="btn light small" data-action="bud-edit">Add where you’re leaving from</button>`}${lines.map(row).join('')}<div class="rc-total"><span>Estimated total</span><b>≈ ${cash(est)}</b></div><p class="rc-sub">${n > 1 ? `About ${cash(est / n)} a person · ` : ''}range ${cash(total[0])}–${cash(total[1])}</p>${budget ? `<p class="rc-fit fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} under your ${cash(budget)} budget` : `${cash(est - budget)} over your ${cash(budget)} budget`}</p>` : ''}<p class="rc-note">Rough averages, not live prices. Not included: shopping, big tours, park fees, insurance. <button class="inline-link" data-action="bud-method">How we estimate</button></p></div>`;
 }
 function showBudgetMath(id) {
   const x = cityCost(C[id]),
@@ -310,7 +395,7 @@ function showBudgetMath(id) {
     b = B(),
     row = (label, sub, r) =>
       `<tr><th>${label}<small>${sub}</small></th><td>${cash(r[0])}–${cash(r[1])}</td></tr>`;
-  const per = `${b.people} traveller${b.people > 1 ? 's' : ''}`;
+  const per = `${S.people} traveller${S.people > 1 ? 's' : ''}`;
   showModal(
     `<div class="modalcontent budget-math"><span class="eyebrow">${esc(c.country.toUpperCase())} · FROM ${esc(budgetOrigin().name.toUpperCase())}</span><h2>${esc(c.name)} for ${x.days} days</h2><p class="muted">Thrifty to comfortable, for ${per}. You chose ${b.style === 'comfort' ? 'comfortable, so we use the higher number' : 'thrifty, so we use the lower number'}.</p><table class="mathtable"><tbody>${row(
       x.f.ground ? 'Getting there' : 'Flights',
@@ -332,6 +417,7 @@ function showBudgetMethod() {
 function budgetChanged() {
   persist();
   renderBudgetResults();
+  if (location.hash.startsWith('#/trip')) renderTrip();
   const panel = $('.citycost[data-id]');
   if (panel) panel.outerHTML = budgetPanel(C[panel.dataset.id]);
 }
@@ -343,9 +429,16 @@ document.addEventListener('click', (e) => {
     e.stopPropagation();
     showBudgetMath(t.dataset.id);
   } else if (a === 'bud-method') showBudgetMethod();
+  else if (a === 'bud-citydays') {
+    const id = t.dataset.id;
+    S.days[id] = Math.max(1, Math.min(21, (S.days[id] || C[id].days) + Number(t.dataset.dir)));
+    budgetChanged();
+  } else if (a === 'trip-toggle' && t.closest('.budgetcard') && !inTrip(t.dataset.id))
+    // Adding from a budget card keeps the trip length the estimate was shown for.
+    S.days[t.dataset.id] = B().days;
   else if (a === 'bud-edit')
     showModal(
-      `<div class="modalcontent budget-edit"><h2>Your trip</h2><p class="muted">Change these and the estimate updates. They apply to every city.</p>${budgetForm()}<button class="btn" data-action="close-modal">Done</button></div>`,
+      `<div class="modalcontent budget-edit ${location.hash.startsWith('#/budget') ? '' : 'no-days'}"><h2>Your trip</h2><p class="muted">Change these and the estimate updates. They apply to every city.</p>${budgetForm()}<button class="btn" data-action="close-modal">Done</button></div>`,
       'Your trip',
     );
   else if (a === 'bud-try') {
@@ -359,8 +452,8 @@ document.addEventListener('click', (e) => {
     t.parentElement.querySelectorAll('.chip').forEach((x) => x.classList.toggle('active', x === t));
     budgetChanged();
   } else if (a === 'bud-people') {
-    B().people = Math.min(12, Math.max(1, B().people + Number(t.dataset.dir)));
-    $('#bud-people').textContent = B().people;
+    S.people = Math.min(20, Math.max(1, S.people + Number(t.dataset.dir)));
+    $('#bud-people').textContent = S.people;
     budgetChanged();
   }
 });

@@ -5657,3 +5657,90 @@ a.fact b {
   height: 16px;
   vertical-align: -3px;
 }
+
+/* Trip cost receipt on the Trip page. */
+.receipt .rc-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+.receipt .rc-top h3 {
+  margin: 0;
+}
+.receipt .rc-who {
+  margin: 2px 0 10px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.rc-city {
+  margin: 14px 0 2px;
+  font-weight: 700;
+  font-size: 13px;
+  color: var(--ink);
+}
+.rc-line {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 0;
+  border-bottom: 1px dashed var(--line);
+  font-size: 13px;
+}
+.rc-line span {
+  color: var(--ink);
+}
+.rc-line small {
+  display: block;
+  color: var(--muted);
+  font-size: 11px;
+  line-height: 1.35;
+}
+.rc-line b {
+  white-space: nowrap;
+  font-weight: 650;
+}
+.rc-line.big span {
+  font-weight: 650;
+}
+.rc-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-top: 14px;
+  padding-top: 10px;
+  border-top: 2px solid var(--ink);
+  font-weight: 700;
+}
+.rc-total b {
+  font-size: 22px;
+}
+.rc-sub,
+.rc-note {
+  font-size: 12px;
+  color: var(--muted);
+  margin: 4px 0 0;
+}
+.rc-fit {
+  display: block;
+  margin: 6px 0 0;
+  font-size: 13px;
+}
+.rc-note {
+  margin-top: 12px;
+}
+.budget-edit.no-days .days-group {
+  display: none;
+}
+.stepper.mini {
+  gap: 6px;
+  vertical-align: middle;
+}
+.stepper.mini button {
+  width: 24px;
+  height: 24px;
+  line-height: 1;
+  padding: 0;
+}
+.stepper.mini strong {
+  color: var(--ink);
+}
