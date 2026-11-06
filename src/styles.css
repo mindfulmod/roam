@@ -5338,3 +5338,228 @@ button.fact b {
     padding-right: 8px;
   }
 }
+
+/* ---------- Budget finder ---------- */
+.budget-head {
+  margin: 8px 0 18px;
+}
+.budget-head h1 {
+  font-size: 40px;
+  line-height: 1.1;
+  margin: 6px 0 8px;
+}
+.budget-head p {
+  color: var(--muted);
+  margin: 0;
+  max-width: 620px;
+}
+.budget-form {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 16px 18px;
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  padding: 18px;
+  margin-bottom: 18px;
+}
+.money-input {
+  display: flex;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  overflow: hidden;
+}
+.field .money-input select {
+  flex: none;
+  width: auto;
+  border: 0;
+  border-right: 1px solid var(--line);
+  border-radius: 0;
+  background: var(--teal2);
+  font-weight: 650;
+}
+.field .money-input input {
+  border: 0;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 650;
+}
+.budget-line {
+  grid-column: 1 / -1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 14px 28px;
+  align-items: flex-start;
+}
+.budget-group {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.budget-label {
+  font-size: 10px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.budget-group .chips {
+  margin: 0;
+  gap: 6px;
+}
+.budget-group .stepper {
+  min-height: 37px;
+}
+.budget-group .stepper strong {
+  min-width: 18px;
+  text-align: center;
+  font-size: 15px;
+}
+.budget-pill.fit {
+  background: var(--teal);
+  color: #fff;
+}
+.budget-pill.stretch {
+  background: var(--gold);
+  color: var(--ink);
+}
+.budgetcard .citymeta {
+  margin-top: 2px;
+}
+.fitnote.fit {
+  color: var(--teal);
+  font-weight: 650;
+}
+.fitnote.stretch,
+.fitnote.over {
+  color: #b5532c;
+  font-weight: 650;
+}
+.costbar {
+  display: flex;
+  gap: 2px;
+  height: 5px;
+  margin: 7px 0 3px;
+  border-radius: 4px;
+  overflow: hidden;
+}
+.costbar i {
+  display: block;
+  min-width: 3px;
+}
+.seg-travel {
+  background: var(--teal);
+}
+.seg-stay {
+  background: var(--gold);
+}
+.seg-daily {
+  background: var(--orange);
+}
+.seg-car {
+  background: var(--muted);
+}
+.mathlink {
+  font-size: 12px;
+  padding: 0;
+}
+.budget-empty {
+  margin-bottom: 10px;
+}
+.budget-over {
+  margin: 26px 0 6px;
+  border-top: 1px solid var(--line);
+  padding-top: 14px;
+}
+.budget-over summary {
+  cursor: pointer;
+  font-weight: 650;
+  color: var(--muted);
+}
+.budget-over ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+  columns: 2;
+  column-gap: 28px;
+}
+.budget-over li {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  padding: 6px 0;
+  border-bottom: 1px solid var(--line);
+  font-size: 13px;
+  break-inside: avoid;
+}
+.budget-over li span {
+  color: var(--muted);
+  text-align: right;
+}
+a.fact {
+  text-decoration: none;
+}
+a.fact b {
+  color: var(--teal);
+}
+.mathtable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 14px 0;
+  font-size: 14px;
+}
+.mathtable th,
+.mathtable td {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--line);
+  vertical-align: top;
+}
+.mathtable th {
+  text-align: left;
+  font-weight: 650;
+}
+.mathtable th small {
+  display: block;
+  font-weight: 400;
+  color: var(--muted);
+  font-size: 12px;
+}
+.mathtable td {
+  text-align: right;
+  white-space: nowrap;
+  padding-left: 12px;
+}
+.mathtable tfoot th,
+.mathtable tfoot td {
+  border-bottom: 0;
+  font-size: 16px;
+  font-weight: 750;
+}
+.small-print {
+  font-size: 12px;
+}
+.method-list {
+  padding-left: 18px;
+}
+.method-list li {
+  margin-bottom: 6px;
+}
+.method-sources {
+  font-size: 13px;
+  padding-left: 18px;
+}
+@media (max-width: 760px) {
+  .budget-head h1 {
+    font-size: 30px;
+  }
+  .budget-form {
+    grid-template-columns: 1fr;
+    padding: 14px;
+    gap: 14px;
+  }
+  .budget-line {
+    gap: 14px 22px;
+  }
+  .budget-over ul {
+    columns: 1;
+  }
+}

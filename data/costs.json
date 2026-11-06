@@ -1,0 +1,756 @@
+{
+  "about": "Rough planning estimates for the budget finder. Not live prices. Flights come from a distance-based fare curve calibrated to typical round-trip economy fares; hotels are typical nightly prices for a double room; daily spending reuses each city's dailyBudget.",
+  "retrieved": "2026-11-06",
+  "fx": {
+    "USD": 1,
+    "CAD": 0.72,
+    "GBP": 1.33,
+    "EUR": 1.15,
+    "AUD": 0.65,
+    "NZD": 0.59,
+    "INR": 0.0114,
+    "AED": 0.272,
+    "SGD": 0.77,
+    "HKD": 0.128,
+    "JPY": 0.0067,
+    "KRW": 0.00072,
+    "TWD": 0.031,
+    "THB": 0.03,
+    "VND": 3.9e-5,
+    "IDR": 6.1e-5,
+    "MYR": 0.23,
+    "CNY": 0.139,
+    "NPR": 0.0072,
+    "TRY": 0.024,
+    "EGP": 0.02,
+    "MAD": 0.11,
+    "ZAR": 0.056,
+    "KES": 0.0077,
+    "TZS": 0.0004,
+    "NGN": 0.00065,
+    "PEN": 0.28,
+    "BOB": 0.145,
+    "BRL": 0.18,
+    "ARS": 0.0008,
+    "CLP": 0.00105,
+    "COP": 0.00025,
+    "MXN": 0.054
+  },
+  "fareCurve": [
+    [350, 60],
+    [1000, 120],
+    [2000, 180],
+    [4000, 330],
+    [6000, 600],
+    [8000, 800],
+    [10000, 1000],
+    [12000, 1150],
+    [15000, 1350],
+    [20000, 1700]
+  ],
+  "fareHigh": 1.6,
+  "sameRegionShortHaul": 0.85,
+  "ground": [20, 80],
+  "groundKm": 350,
+  "car": [55, 95],
+  "leg": [40, 150],
+  "origins": [
+    {
+      "id": "toronto",
+      "name": "Toronto",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 43.68,
+      "lon": -79.63,
+      "tz": ["America/Toronto"]
+    },
+    {
+      "id": "montreal",
+      "name": "Montréal",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 45.47,
+      "lon": -73.74,
+      "tz": ["America/Montreal"]
+    },
+    {
+      "id": "ottawa",
+      "name": "Ottawa",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 45.32,
+      "lon": -75.67
+    },
+    {
+      "id": "halifax",
+      "name": "Halifax",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 44.88,
+      "lon": -63.51,
+      "tz": ["America/Halifax"]
+    },
+    {
+      "id": "winnipeg",
+      "name": "Winnipeg",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 49.91,
+      "lon": -97.24,
+      "tz": ["America/Winnipeg"]
+    },
+    {
+      "id": "calgary",
+      "name": "Calgary",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 51.13,
+      "lon": -114.01,
+      "tz": ["America/Edmonton"]
+    },
+    {
+      "id": "edmonton",
+      "name": "Edmonton",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 53.31,
+      "lon": -113.58
+    },
+    {
+      "id": "vancouver",
+      "name": "Vancouver",
+      "country": "Canada",
+      "currency": "CAD",
+      "region": "North America",
+      "lat": 49.19,
+      "lon": -123.18,
+      "tz": ["America/Vancouver"]
+    },
+    {
+      "id": "new-york",
+      "name": "New York",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 40.64,
+      "lon": -73.78,
+      "tz": ["America/New_York", "America/Detroit"]
+    },
+    {
+      "id": "boston",
+      "name": "Boston",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 42.36,
+      "lon": -71.01
+    },
+    {
+      "id": "washington",
+      "name": "Washington, DC",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 38.95,
+      "lon": -77.46
+    },
+    {
+      "id": "atlanta",
+      "name": "Atlanta",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 33.64,
+      "lon": -84.43
+    },
+    {
+      "id": "miami",
+      "name": "Miami",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 25.79,
+      "lon": -80.29
+    },
+    {
+      "id": "chicago",
+      "name": "Chicago",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 41.97,
+      "lon": -87.91,
+      "tz": ["America/Chicago"]
+    },
+    {
+      "id": "dallas",
+      "name": "Dallas",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 32.9,
+      "lon": -97.04
+    },
+    {
+      "id": "houston",
+      "name": "Houston",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 29.98,
+      "lon": -95.34
+    },
+    {
+      "id": "denver",
+      "name": "Denver",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 39.86,
+      "lon": -104.67,
+      "tz": ["America/Denver"]
+    },
+    {
+      "id": "phoenix",
+      "name": "Phoenix",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 33.43,
+      "lon": -112.01,
+      "tz": ["America/Phoenix"]
+    },
+    {
+      "id": "los-angeles",
+      "name": "Los Angeles",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 33.94,
+      "lon": -118.41,
+      "tz": ["America/Los_Angeles"]
+    },
+    {
+      "id": "san-francisco",
+      "name": "San Francisco",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 37.62,
+      "lon": -122.38
+    },
+    {
+      "id": "seattle",
+      "name": "Seattle",
+      "country": "United States",
+      "currency": "USD",
+      "region": "North America",
+      "lat": 47.45,
+      "lon": -122.31
+    },
+    {
+      "id": "mexico-city",
+      "name": "Mexico City",
+      "country": "Mexico",
+      "currency": "MXN",
+      "region": "North America",
+      "lat": 19.44,
+      "lon": -99.07,
+      "tz": ["America/Mexico_City"]
+    },
+    {
+      "id": "bogota",
+      "name": "Bogotá",
+      "country": "Colombia",
+      "currency": "COP",
+      "region": "South America",
+      "lat": 4.7,
+      "lon": -74.15,
+      "tz": ["America/Bogota"]
+    },
+    {
+      "id": "lima",
+      "name": "Lima",
+      "country": "Peru",
+      "currency": "PEN",
+      "region": "South America",
+      "lat": -12.02,
+      "lon": -77.11,
+      "tz": ["America/Lima"]
+    },
+    {
+      "id": "sao-paulo",
+      "name": "São Paulo",
+      "country": "Brazil",
+      "currency": "BRL",
+      "region": "South America",
+      "lat": -23.43,
+      "lon": -46.47,
+      "tz": ["America/Sao_Paulo"]
+    },
+    {
+      "id": "london",
+      "name": "London",
+      "country": "United Kingdom",
+      "currency": "GBP",
+      "region": "Europe",
+      "lat": 51.47,
+      "lon": -0.45,
+      "tz": ["Europe/London"]
+    },
+    {
+      "id": "manchester",
+      "name": "Manchester",
+      "country": "United Kingdom",
+      "currency": "GBP",
+      "region": "Europe",
+      "lat": 53.35,
+      "lon": -2.27
+    },
+    {
+      "id": "dublin",
+      "name": "Dublin",
+      "country": "Ireland",
+      "currency": "EUR",
+      "region": "Europe",
+      "lat": 53.42,
+      "lon": -6.27,
+      "tz": ["Europe/Dublin"]
+    },
+    {
+      "id": "paris",
+      "name": "Paris",
+      "country": "France",
+      "currency": "EUR",
+      "region": "Europe",
+      "lat": 49.01,
+      "lon": 2.55,
+      "tz": ["Europe/Paris"]
+    },
+    {
+      "id": "amsterdam",
+      "name": "Amsterdam",
+      "country": "Netherlands",
+      "currency": "EUR",
+      "region": "Europe",
+      "lat": 52.31,
+      "lon": 4.76,
+      "tz": ["Europe/Amsterdam", "Europe/Brussels"]
+    },
+    {
+      "id": "frankfurt",
+      "name": "Frankfurt",
+      "country": "Germany",
+      "currency": "EUR",
+      "region": "Europe",
+      "lat": 50.04,
+      "lon": 8.56,
+      "tz": ["Europe/Berlin", "Europe/Vienna", "Europe/Zurich"]
+    },
+    {
+      "id": "madrid",
+      "name": "Madrid",
+      "country": "Spain",
+      "currency": "EUR",
+      "region": "Europe",
+      "lat": 40.47,
+      "lon": -3.56,
+      "tz": ["Europe/Madrid", "Europe/Lisbon"]
+    },
+    {
+      "id": "dubai",
+      "name": "Dubai",
+      "country": "United Arab Emirates",
+      "currency": "AED",
+      "region": "Asia",
+      "lat": 25.25,
+      "lon": 55.36,
+      "tz": ["Asia/Dubai", "Asia/Qatar", "Asia/Riyadh"]
+    },
+    {
+      "id": "delhi",
+      "name": "Delhi",
+      "country": "India",
+      "currency": "INR",
+      "region": "Asia",
+      "lat": 28.56,
+      "lon": 77.1,
+      "tz": ["Asia/Kolkata", "Asia/Calcutta"]
+    },
+    {
+      "id": "mumbai",
+      "name": "Mumbai",
+      "country": "India",
+      "currency": "INR",
+      "region": "Asia",
+      "lat": 19.09,
+      "lon": 72.87
+    },
+    {
+      "id": "singapore",
+      "name": "Singapore",
+      "country": "Singapore",
+      "currency": "SGD",
+      "region": "Asia",
+      "lat": 1.36,
+      "lon": 103.99,
+      "tz": ["Asia/Singapore"]
+    },
+    {
+      "id": "hong-kong",
+      "name": "Hong Kong",
+      "country": "Hong Kong SAR",
+      "currency": "HKD",
+      "region": "Asia",
+      "lat": 22.31,
+      "lon": 113.92,
+      "tz": ["Asia/Hong_Kong"]
+    },
+    {
+      "id": "seoul",
+      "name": "Seoul",
+      "country": "South Korea",
+      "currency": "KRW",
+      "region": "Asia",
+      "lat": 37.46,
+      "lon": 126.44,
+      "tz": ["Asia/Seoul"]
+    },
+    {
+      "id": "tokyo",
+      "name": "Tokyo",
+      "country": "Japan",
+      "currency": "JPY",
+      "region": "Asia",
+      "lat": 35.55,
+      "lon": 139.78,
+      "tz": ["Asia/Tokyo"]
+    },
+    {
+      "id": "sydney",
+      "name": "Sydney",
+      "country": "Australia",
+      "currency": "AUD",
+      "region": "Oceania",
+      "lat": -33.95,
+      "lon": 151.18,
+      "tz": ["Australia/Sydney", "Australia/Brisbane"]
+    },
+    {
+      "id": "melbourne",
+      "name": "Melbourne",
+      "country": "Australia",
+      "currency": "AUD",
+      "region": "Oceania",
+      "lat": -37.67,
+      "lon": 144.84,
+      "tz": ["Australia/Melbourne"]
+    },
+    {
+      "id": "auckland",
+      "name": "Auckland",
+      "country": "New Zealand",
+      "currency": "NZD",
+      "region": "Oceania",
+      "lat": -37.01,
+      "lon": 174.79,
+      "tz": ["Pacific/Auckland"]
+    },
+    {
+      "id": "johannesburg",
+      "name": "Johannesburg",
+      "country": "South Africa",
+      "currency": "ZAR",
+      "region": "Africa",
+      "lat": -26.14,
+      "lon": 28.25,
+      "tz": ["Africa/Johannesburg"]
+    },
+    {
+      "id": "nairobi",
+      "name": "Nairobi",
+      "country": "Kenya",
+      "currency": "KES",
+      "region": "Africa",
+      "lat": -1.32,
+      "lon": 36.93,
+      "tz": ["Africa/Nairobi"]
+    },
+    {
+      "id": "lagos",
+      "name": "Lagos",
+      "country": "Nigeria",
+      "currency": "NGN",
+      "region": "Africa",
+      "lat": 6.58,
+      "lon": 3.32,
+      "tz": ["Africa/Lagos"]
+    }
+  ],
+  "cities": {
+    "tokyo": {
+      "hotel": [90, 180]
+    },
+    "kyoto": {
+      "hotel": [90, 190]
+    },
+    "osaka": {
+      "hotel": [75, 150]
+    },
+    "seoul": {
+      "hotel": [70, 150]
+    },
+    "taipei": {
+      "hotel": [70, 140]
+    },
+    "hong-kong": {
+      "hotel": [100, 200]
+    },
+    "singapore": {
+      "hotel": [130, 250]
+    },
+    "bangkok": {
+      "hotel": [40, 100]
+    },
+    "chiang-mai": {
+      "hotel": [30, 80]
+    },
+    "hanoi": {
+      "hotel": [30, 75]
+    },
+    "ho-chi-minh-city": {
+      "hotel": [35, 85]
+    },
+    "siem-reap": {
+      "hotel": [25, 70],
+      "hop": [80, 200],
+      "via": "Usually via Bangkok or Singapore"
+    },
+    "ubud": {
+      "hotel": [35, 100],
+      "via": "Fly into Bali (Denpasar), then about an hour by road"
+    },
+    "kuala-lumpur": {
+      "hotel": [40, 95]
+    },
+    "beijing": {
+      "hotel": [55, 120]
+    },
+    "shanghai": {
+      "hotel": [65, 140]
+    },
+    "kathmandu": {
+      "hotel": [25, 65],
+      "fare": 1.1
+    },
+    "istanbul": {
+      "hotel": [60, 140]
+    },
+    "rome": {
+      "hotel": [110, 210]
+    },
+    "florence": {
+      "hotel": [110, 210]
+    },
+    "venice": {
+      "hotel": [130, 260],
+      "note": "Day-tripper access fee and gondolas are extra."
+    },
+    "naples": {
+      "hotel": [80, 150]
+    },
+    "athens": {
+      "hotel": [80, 160]
+    },
+    "santorini": {
+      "hotel": [130, 300],
+      "hop": [60, 160],
+      "via": "Usually via Athens, or by ferry",
+      "note": "Summer prices run well above these, especially for caldera views."
+    },
+    "chania": {
+      "hotel": [70, 150],
+      "hop": [40, 120],
+      "via": "Usually via Athens"
+    },
+    "paris": {
+      "hotel": [130, 250]
+    },
+    "london": {
+      "hotel": [130, 250]
+    },
+    "cairo": {
+      "hotel": [40, 100],
+      "fare": 1.1
+    },
+    "luxor": {
+      "hotel": [30, 80],
+      "hop": [60, 150],
+      "via": "Usually via Cairo",
+      "fare": 1.1
+    },
+    "marrakech": {
+      "hotel": [50, 130],
+      "fare": 1.0
+    },
+    "fez": {
+      "hotel": [40, 100],
+      "hop": [40, 120],
+      "via": "Often via Casablanca or a European hub",
+      "fare": 1.0
+    },
+    "cape-town": {
+      "hotel": [60, 140],
+      "fare": 1.1
+    },
+    "nairobi": {
+      "hotel": [60, 130],
+      "fare": 1.15
+    },
+    "arusha": {
+      "hotel": [50, 120],
+      "hop": [100, 250],
+      "via": "Kilimanjaro airport, usually via Nairobi, Addis Ababa or Doha",
+      "fare": 1.15,
+      "note": "Safari packages are extra and usually USD 250–500 a person a day."
+    },
+    "cusco": {
+      "hotel": [45, 110],
+      "hop": [100, 220],
+      "via": "Usually via Lima",
+      "note": "Machu Picchu train and entry are extra, roughly USD 150–300 a person."
+    },
+    "lima": {
+      "hotel": [55, 120]
+    },
+    "arequipa": {
+      "hotel": [40, 90],
+      "hop": [80, 180],
+      "via": "Usually via Lima"
+    },
+    "la-paz": {
+      "hotel": [35, 80],
+      "hop": [80, 200],
+      "via": "Usually via Lima or Bogotá",
+      "fare": 1.1
+    },
+    "rio-de-janeiro": {
+      "hotel": [60, 140]
+    },
+    "buenos-aires": {
+      "hotel": [50, 110]
+    },
+    "santiago": {
+      "hotel": [60, 120]
+    },
+    "cartagena": {
+      "hotel": [60, 150]
+    },
+    "quito": {
+      "hotel": [40, 90]
+    },
+    "puerto-iguazu": {
+      "hotel": [50, 110],
+      "hop": [80, 200],
+      "via": "Usually via Buenos Aires"
+    },
+    "springdale": {
+      "hotel": [150, 280],
+      "via": "Fly into Las Vegas, then drive",
+      "car": true,
+      "note": "Park entry is extra; non-U.S. residents pay a USD 100 supplement at some parks."
+    },
+    "flagstaff": {
+      "hotel": [100, 190],
+      "via": "Fly into Phoenix, then drive",
+      "car": true,
+      "note": "Grand Canyon entry is extra; non-U.S. residents pay a USD 100 supplement."
+    },
+    "moab": {
+      "hotel": [130, 250],
+      "via": "Fly into Salt Lake City, then drive",
+      "car": true,
+      "note": "Park entry is extra; non-U.S. residents pay a USD 100 supplement at some parks."
+    },
+    "jackson": {
+      "hotel": [180, 350],
+      "hop": [100, 250],
+      "via": "Small mountain airport with higher fares",
+      "car": true,
+      "note": "Park entry is extra; non-U.S. residents pay a USD 100 supplement at some parks."
+    },
+    "mariposa": {
+      "hotel": [140, 260],
+      "via": "Fly into San Francisco or Fresno, then drive",
+      "car": true,
+      "note": "Park entry is extra; non-U.S. residents pay a USD 100 supplement at some parks."
+    },
+    "las-vegas": {
+      "hotel": [80, 180]
+    },
+    "medellin": {
+      "hotel": [40, 100]
+    },
+    "mexico-city": {
+      "hotel": [60, 130]
+    },
+    "hiroshima": {
+      "hotel": [70, 140]
+    },
+    "nara": {
+      "hotel": [80, 160],
+      "via": "Reach it by train from Osaka or Kyoto"
+    },
+    "busan": {
+      "hotel": [60, 130]
+    },
+    "da-nang": {
+      "hotel": [30, 80]
+    },
+    "dubai": {
+      "hotel": [90, 200]
+    },
+    "barcelona": {
+      "hotel": [110, 210]
+    },
+    "milan": {
+      "hotel": [110, 210]
+    },
+    "zanzibar": {
+      "hotel": [60, 150],
+      "hop": [80, 200],
+      "via": "Usually via Nairobi, Dar es Salaam or the Gulf",
+      "fare": 1.15,
+      "note": "Diving and boat trips are extra."
+    }
+  },
+  "sources": [
+    {
+      "name": "Google Flights price insights (typical price ranges)",
+      "url": "https://www.google.com/travel/flights"
+    },
+    {
+      "name": "Kayak travel price trends",
+      "url": "https://www.kayak.com/travel-trends"
+    },
+    {
+      "name": "Budget Your Trip traveller-reported averages",
+      "url": "https://www.budgetyourtrip.com/"
+    },
+    {
+      "name": "Numbeo cost of living and hotel indexes",
+      "url": "https://www.numbeo.com/cost-of-living/"
+    },
+    {
+      "name": "European Central Bank reference exchange rates",
+      "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    }
+  ]
+}

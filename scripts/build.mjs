@@ -39,6 +39,7 @@ const parts = {
   art,
   gallery,
   popularity: await readJson('data/popularity.json'),
+  costs: await readJson('data/costs.json'),
   world: await readJson('data/world.geojson'),
   retrieved: meta.retrieved,
   version: meta.version,
@@ -48,7 +49,12 @@ const DATA = Object.fromEntries(meta.keyOrder.map((k) => [k, parts[k]]));
 const dataJs = 'const DATA=' + JSON.stringify(DATA).replaceAll('</', '<\\/') + ';';
 
 const css = (await read('vendor/leaflet/leaflet.css')) + '\n' + (await read('src/styles.css'));
-const js = [await read('vendor/leaflet/leaflet.js'), dataJs, await read('src/app.js')];
+const js = [
+  await read('vendor/leaflet/leaflet.js'),
+  dataJs,
+  await read('src/budget.js'),
+  await read('src/app.js'),
+];
 let html = await read('src/index.html');
 html = html.replace('<!-- build:css -->', () => `<style>${css}</style>`);
 html = html.replace('<!-- build:js -->', () => js.map((s) => `<script>${s}</script>`).join(''));
