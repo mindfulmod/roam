@@ -184,13 +184,26 @@ function budgetCard(x) {
       : st === 'fit'
         ? `${cash(budget - est)} to spare`
         : `${cash(est - budget)} over`;
-  const travel = pick(x.parts.travel),
-    bar = ['travel', 'stay', 'daily', 'car']
-      .map((p) => [p, pick(x.parts[p])])
-      .filter(([, v]) => v > 0)
-      .map(([p, v]) => `<i class="seg-${p}" style="flex:${v.toFixed(0)}"></i>`)
-      .join('');
-  return `<article class="citycard budgetcard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}, about ${cash(est)}"><div class="cityimage">${photoTag(c.id)}${cityAdd(c.id, true)}<span class="city-rankpill budget-pill ${st}">≈ ${cash(est)}</span></div><div class="citybody"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><div class="costbar" aria-hidden="true">${bar}</div><small class="citymeta">${x.f.ground ? 'Train or bus' : 'Flights'} ${cash(travel)}${note ? ` · <span class="fitnote ${st}">${note}</span>` : ''}</small><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the math</button></div></article>`;
+  const bar = ['travel', 'stay', 'daily', 'car']
+    .map((p) => [p, pick(x.parts[p])])
+    .filter(([, v]) => v > 0)
+    .map(([p, v]) => `<i class="seg-${p}" style="flex:${v.toFixed(0)}"></i>`)
+    .join('');
+  return `<article class="citycard budgetcard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}, about ${cash(est)}"><div class="cityimage">${photoTag(c.id)}${cityAdd(c.id, true)}<span class="city-rankpill budget-pill ${st}">≈ ${cash(est)}</span></div><div class="citybody"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul>${note ? `<small class="fitnote ${st}">${note}</small>` : ''}<button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the math</button></div></article>`;
+}
+// The breakdown under each card, each line colour-matched to its slice of the bar.
+function costRows(x) {
+  const labels = {
+    travel: x.f.ground ? 'Train or bus' : 'Flights',
+    stay: 'Hotel',
+    daily: 'Food & fun',
+    car: 'Rental car',
+  };
+  return Object.keys(labels)
+    .map((p) => [p, pick(x.parts[p])])
+    .filter(([, v]) => v > 0)
+    .map(([p, v]) => `<li><i class="seg-${p}"></i>${labels[p]}<b>${cash(v)}</b></li>`)
+    .join('');
 }
 function templateTeaser(x) {
   const t = x.t,
