@@ -5591,3 +5591,57 @@ a.fact b {
   display: block;
   font-size: 12px;
 }
+.citycost {
+  background: #fff;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  padding: 14px 16px 12px;
+  margin: 0 0 12px;
+}
+.citycost-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+}
+.citycost-head p {
+  margin: 2px 0 0;
+  font-size: 13px;
+  color: var(--muted);
+}
+.citycost-head .inline-link {
+  font-size: 13px;
+  margin-left: 4px;
+}
+.citycost-total {
+  text-align: right;
+}
+.citycost-total b {
+  display: block;
+  font-size: 22px;
+  line-height: 1.2;
+}
+.citycost .costlist {
+  font-size: 13px;
+  max-width: 420px;
+}
+.citycost .mathlink {
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+}
+.citycost .mathlink .icon {
+  width: 14px;
+  height: 14px;
+}
+.citycost-head h3 {
+  margin: 0;
+  font-size: 16px;
+}
+.citycost-total {
+  white-space: nowrap;
+}
+.citycost-total small {
+  display: block;
+}
