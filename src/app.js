@@ -59,7 +59,27 @@ const paths = {
   shuffle: 'm3 5 4 0 10 14h4m-4-4 4 4-4 3M3 19h4L17 5h4m-4-3 4 3-4 4',
   sliders: 'M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0M14 4v4M8 10v4M16 16v4',
   globe: 'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M2 12h20M12 2c5 5 5 15 0 20-5-5-5-15 0-20',
+  moon: 'M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10Z',
+  contrast: 'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 2v20',
+  share: 'M12 15V3m-4 4 4-4 4 4M6 11H4v10h16V11h-2',
+  calendar: 'M4 5h16v16H4ZM4 10h16M8 3v4m8-4v4',
+  link: 'M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1m2 5a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1',
 };
+// The offline world outline, painted in the current theme's land and border colours.
+function outlineStyle() {
+  return {
+    color: themeColor('--map-border', '#bbccc1'),
+    weight: 1,
+    fillColor: themeColor('--map-land', '#eef0df'),
+    fillOpacity: 1,
+  };
+}
+function repaintMapTheme() {
+  for (const m of [map, stayMap])
+    m?.eachLayer((l) => {
+      if (l.feature || l instanceof L.GeoJSON) l.setStyle?.(outlineStyle());
+    });
+}
 function icon(name) {
   return `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name] || paths.pin}"/></svg>`;
 }
@@ -1042,7 +1062,7 @@ function parkNotice(c) {
 function renderTrip() {
   headerActive('trip');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="pagehead"><div><h1>Your trip</h1><p>${S.trip.length ? 'Set your dates and pace, then check the day-by-day outline below.' : 'Pick a ready-made trip or add your own cities.'}</p></div></div>${
+    `<div class="wrap"><div class="pagehead"><div><h1>Your trip</h1><p>${S.trip.length ? 'Set your dates and pace, then check the day-by-day outline below.' : 'Pick a ready-made trip or add your own cities.'}</p></div>${S.trip.length ? `<div class="actions"><button class="btn small" data-action="share">${icon('share')} Share trip</button></div>` : ''}</div>${
       S.trip.length
         ? `<div class="trip-layout"><section><div class="trip-controls"><div class="field"><label for="trip-date">Start date</label><input type="date" id="trip-date" value="${S.startDate}"></div><div class="field"><label for="trip-pace">Daily pace</label><select id="trip-pace">${[
             ['relaxed', 'Unhurried · aim for 5 hours'],
@@ -1062,7 +1082,7 @@ function renderTrip() {
             })
             .join(
               '',
-            )}<button class="selectcities" data-action="choose-cities">${icon('plus')} Add another destination</button></section><aside><div class="sidepanel"><div class="eyebrow">YOUR JOURNEY AT A GLANCE</div><h3 style="margin-top:12px">${totalDays() + transferDays()} days to work with.</h3><div class="siderow"><span>Destinations</span><strong>${S.trip.length}</strong></div><div class="siderow"><span>City / excursion days</span><strong>${totalDays()}</strong></div><div class="siderow"><span>Transfer buffer days</span><strong>${transferDays()}</strong></div><div class="siderow"><span>Saved places in this trip</span><strong>${S.saved.filter((id) => S.trip.includes(P[id]?.cityId)).length}</strong></div><p>Each transfer has a one-day placeholder. Long-haul flights and infrequent connections may need more.</p></div>${tripReceipt()}<div class="sidepanel"><h3>Your portable plan.</h3><p>Export preserves cities, saved places, notes, checklists and budget inputs. Re-import it on your phone.</p><button class="btn" data-action="export">${icon('download')} Export trip JSON</button><button class="btn light" data-action="csv">${icon('pin')} Export Google My Maps pins</button></div></aside></div><div class="plan-toolbar"><div><span class="eyebrow">A PRACTICAL STARTING POINT</span><h2>Your day-by-day outline.</h2></div><div class="actions"><button class="btn ghost small" data-action="print">${icon('print')} Print plan</button></div></div><div class="info-note">This is a draft sequence, not a reservation or turn-by-turn navigation plan. Timed tickets, opening days, weather and long excursions can change the order. Saved places take priority; full-day trips stay separate from city sightseeing.</div><section id="day-plans">${buildDaysHtml()}</section>`
+            )}<button class="selectcities" data-action="choose-cities">${icon('plus')} Add another destination</button></section><aside><div class="sidepanel"><div class="eyebrow">YOUR JOURNEY AT A GLANCE</div><h3 style="margin-top:12px">${totalDays() + transferDays()} days to work with.</h3><div class="siderow"><span>Destinations</span><strong>${S.trip.length}</strong></div><div class="siderow"><span>City / excursion days</span><strong>${totalDays()}</strong></div><div class="siderow"><span>Transfer buffer days</span><strong>${transferDays()}</strong></div><div class="siderow"><span>Saved places in this trip</span><strong>${S.saved.filter((id) => S.trip.includes(P[id]?.cityId)).length}</strong></div><p>Each transfer has a one-day placeholder. Long-haul flights and infrequent connections may need more.</p></div>${tripReceipt()}<div class="sidepanel"><h3>Your portable plan.</h3><p>Send a link to friends and family, or export a full backup with your notes, checklists and budget to re-import on your phone.</p><button class="btn" data-action="share">${icon('share')} Share trip link</button><button class="btn light" data-action="export">${icon('download')} Export trip JSON</button><button class="btn light" data-action="csv">${icon('pin')} Export Google My Maps pins</button></div></aside></div><div class="plan-toolbar"><div><span class="eyebrow">A PRACTICAL STARTING POINT</span><h2>Your day-by-day outline.</h2></div><div class="actions"><button class="btn ghost small" data-action="print">${icon('print')} Print plan</button></div></div><div class="info-note">This is a draft sequence, not a reservation or turn-by-turn navigation plan. Timed tickets, opening days, weather and long excursions can change the order. Saved places take priority; full-day trips stay separate from city sightseeing.</div><section id="day-plans">${buildDaysHtml()}</section>`
         : `<div class="empty">${icon('route')}<h2>Start with the places calling you.</h2><p>Add your own destinations, or choose a trip starter below. You can change the order, days and places whenever you like.</p><button class="btn" data-action="choose-cities">${icon('plus')} Choose destinations</button></div>`
     }<div class="rowhead"><h2>Ready-made trips</h2></div><div class="trip-template-grid">${TEMPLATES.map((t) => `<article class="template-mini">${starterArt(t)}<div class="template-body"><span class="eyebrow" style="font-size:9px">${t.tag}</span><h3 style="margin-top:10px">${t.title}</h3><p>${t.note}</p><p><strong>Plan around:</strong> ${t.warning}</p><button class="btn light small" data-action="template" data-id="${t.id}">Add this journey ${icon('arrow')}</button></div></article>`).join('')}</div><div class="backup-row"><span>Backup & share</span><button class="inline-link" data-action="export">${icon('download')} Export</button><button class="inline-link" data-action="import">${icon('upload')} Import</button><button class="inline-link" data-action="print">${icon('print')} Print</button></div>${footer()}</div>`;
 }
@@ -1213,7 +1233,7 @@ function renderMap(id = '') {
   map.getPane('offline-outline').style.zIndex = '150';
   L.geoJSON(DATA.world, {
     pane: 'offline-outline',
-    style: { color: '#bbccc1', weight: 1, fillColor: '#eef0df', fillOpacity: 1 },
+    style: outlineStyle(),
     interactive: false,
   }).addTo(map);
   map.attributionControl.addAttribution(
@@ -1589,6 +1609,7 @@ function route() {
   else if (parts[0] === 'saved') renderSaved();
   else if (parts[0] === 'guide') renderGuide();
   else if (parts[0] === 'budget') renderBudget();
+  else if (parts[0] === 't' && parts[1]) renderShared(parts[1]);
   else renderExplore();
 }
 // Discovery, transparent rankings, dietary evidence and accommodation origins.
@@ -1985,7 +2006,7 @@ function cityRanking(c, metric = browseSort) {
 function cityCard(c) {
   const rank = cityRanking(c),
     sights = c.items.filter((x) => x.kind === 'see').length;
-  return `<article class="citycard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}"><div class="cityimage">${photoTag(c.id)}${cityAdd(c.id, true)}${rank ? `<span class="city-rankpill">#${rank.rank} <small>${browseSort === 'arrivals' ? 'most visited' : 'tourism index'}</small></span>` : ''}</div><div class="citybody"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><p>${esc(c.tagline)}</p><small class="citymeta">${c.days} days · ${sights} sights</small></div></article>`;
+  return `<article class="citycard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}"><div class="cityimage">${photoTag(c.id)}${cityAdd(c.id, true)}${rank ? `<span class="city-rankpill">#${rank.rank} <small>${browseSort === 'arrivals' ? 'most visited' : 'tourism index'}</small></span>` : ''}</div><div class="citybody"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><p>${esc(c.tagline)}</p><small class="citymeta">${c.days} days · ${sights} sights${budgetMonth() && bestIn(c, budgetMonth()) ? ` · <span class="bestpill">${icon('sun')} Best in ${MONTHS[budgetMonth() - 1]}</span>` : ''}</small></div></article>`;
 }
 function placeCard(p) {
   const d = fromStay(p),
@@ -2256,7 +2277,7 @@ document.addEventListener('click', (e) => {
 function renderExplore() {
   headerActive('explore');
   $('#app').innerHTML =
-    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1><p>${CITIES.length} places worth the trip, ranked so you can see why.</p><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="Search a city, country or landmark" value="${esc(browseQuery)}"></div><div class="quickacts"><button class="quickact" data-action="surprise">${icon('shuffle')} Surprise me</button><a class="quickact" href="#/budget">${icon('wallet')} Trips for my budget</a><a class="quickact" href="#/map">${icon('map')} Browse the map</a><a class="quickact" href="#/trip">${icon('route')} Plan a trip</a></div></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div><div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
+    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1><p>${CITIES.length} places worth the trip, ranked so you can see why.</p><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="Search a city, country or landmark" value="${esc(browseQuery)}"></div><div class="quickacts"><button class="quickact" data-action="surprise">${icon('shuffle')} Surprise me</button><a class="quickact" href="#/budget">${icon('wallet')} Trips for my budget</a><a class="quickact" href="#/map">${icon('map')} Browse the map</a><a class="quickact" href="#/trip">${icon('route')} Plan a trip</a></div></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div>${monthChips()}<div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
       ['tourism', 'Tourism index'],
       ['arrivals', 'Most visited'],
       ['personal', 'Japan first'],
@@ -2275,6 +2296,20 @@ function renderExplore() {
       .join('')}</div>${footer()}</div>`;
   renderBrowse();
 }
+// "When can I go?": one row of months. The pick also prices every estimate for that month.
+function monthChips() {
+  const m = budgetMonth();
+  return `<div class="month-pick" id="month-chips" role="group" aria-label="When are you going?"><span class="month-label">${icon('calendar')} When</span><div class="chips month-chips"><button class="chip ${m ? '' : 'active'}" data-action="month" data-id="0" aria-pressed="${!m}">Any time</button>${MONTHS.map((t, i) => `<button class="chip ${m === i + 1 ? 'active' : ''}" data-action="month" data-id="${i + 1}" aria-pressed="${m === i + 1}">${t}</button>`).join('')}</div></div>`;
+}
+function syncMonthChips() {
+  const m = budgetMonth();
+  $$('#month-chips .chip').forEach((x) => {
+    const on = Number(x.dataset.id) === m;
+    x.classList.toggle('active', on);
+    x.setAttribute('aria-pressed', on);
+  });
+}
+const bestIn = (c, m) => c.bestMonths.includes(m);
 function browseOrder(list) {
   if (browseSort === 'personal') return list;
   return [...list].sort((a, b) => (cityRanking(a)?.rank ?? 1e4) - (cityRanking(b)?.rank ?? 1e4));
@@ -2306,7 +2341,16 @@ function renderBrowse() {
   if (browseRegion === 'All' && !q) {
     const top = list.filter((c) => cityRanking(c)).slice(0, 10);
     const regions = ['Asia', 'Europe', 'Africa', 'South America', 'North America'];
+    const m = budgetMonth(),
+      best = m ? list.filter((c) => bestIn(c, m)) : [],
+      quiet = best.filter((c) => 'LS'.includes(COSTS.seasons?.[c.id]?.[m - 1] || 'H'));
     el.innerHTML =
+      (m
+        ? best.length
+          ? cityRow(`At their best in ${MONTHS_LONG[m - 1]}`, best) +
+            (quiet.length >= 3 ? cityRow('Good weather, fewer crowds', quiet) : '')
+          : `<p class="muted">No destination here lists ${MONTHS_LONG[m - 1]} among its best months.</p>`
+        : '') +
       budgetHomeRow() +
       (browseSort === 'personal'
         ? ''
@@ -2321,7 +2365,9 @@ function renderBrowse() {
         .join('');
     return;
   }
-  el.innerHTML = `<p class="muted result-count">${list.length} destination${list.length > 1 ? 's' : ''}${browseRegion !== 'All' ? ' in ' + esc(browseRegion) + ` · <button class="inline-link" data-action="region" data-id="All">Show everywhere</button>` : ''}</p><div class="citygrid">${list.map(cityCard).join('')}</div>`;
+  const m = budgetMonth();
+  if (m) list.sort((a, b) => bestIn(b, m) - bestIn(a, m));
+  el.innerHTML = `<p class="muted result-count">${list.length} destination${list.length > 1 ? 's' : ''}${m ? ` · ${list.filter((c) => bestIn(c, m)).length} at their best in ${MONTHS_LONG[m - 1]}` : ''}${browseRegion !== 'All' ? ' in ' + esc(browseRegion) + ` · <button class="inline-link" data-action="region" data-id="All">Show everywhere</button>` : ''}</p><div class="citygrid">${list.map(cityCard).join('')}</div>`;
 }
 function openStay(id) {
   if (!validCity(id)) return;
@@ -2339,7 +2385,7 @@ function openStay(id) {
     13,
   );
   L.geoJSON(DATA.world, {
-    style: { color: '#bbccc1', weight: 1, fillColor: '#eef0df', fillOpacity: 1 },
+    style: outlineStyle(),
     interactive: false,
   }).addTo(stayMap);
   if (navigator.onLine)
@@ -2689,6 +2735,7 @@ document.addEventListener('click', (e) => {
   } else if (a === 'city') location.hash = '#/city/' + id;
   else if (a === 'place') openPlace(id);
   else if (a === 'close-modal') closeModal('user');
+  else if (a === 'month') setMonth(Number(id));
   else if (a === 'region') {
     browseRegion = id;
     $$('#region-chips .chip').forEach((x) => x.classList.toggle('active', x.dataset.id === id));
@@ -2911,6 +2958,7 @@ window.addEventListener('offline', () => {
     $('#map-note').textContent =
       'Offline: your guide, photos and pins remain available. Street tiles need a connection.';
 });
+applyTheme();
 route();
 if (!storageOK)
   setTimeout(() => toast('Browser storage is unavailable. Use Export to keep your trip.'), 500);
