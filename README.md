@@ -59,6 +59,16 @@ position and link.
 `.github/workflows/refresh-signals.yml` runs the script every Monday, commits any changes to `main` and
 redeploys. To include Google, add a `GOOGLE_MAPS_API_KEY` repository secret (Places API (New) enabled).
 
+### MICHELIN Guide
+
+Restaurants in the MICHELIN Guide carry a `michelin` object (`distinction`, `stars`, `label`, `url`,
+`checked`). It is a quality award from inspectors, not a popularity count, so it is shown next to the
+rank (card pill, a row in "Why it ranks here", a MICHELIN Guide food filter) and never mixed into the
+percentiles. Unranked MICHELIN places sort after ranked places and before other editorial picks. Prices
+for these restaurants are per-person planning estimates from the guide's price band, and each city lists
+its MICHELIN selection page under Sources. Distinctions change every year, so re-check them against the
+guide when the new selections come out.
+
 ## Origin
 
 This was first built as a single HTML file in ChatGPT. The original file was split into this

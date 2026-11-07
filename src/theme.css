@@ -5,6 +5,8 @@
   color-scheme: light;
   --map-land: #eef0df;
   --map-border: #bbccc1;
+  --michelin: #b3122e;
+  --michelin-bg: #fbeaec;
 }
 :root[data-theme='dark'] {
   color-scheme: dark;
@@ -19,6 +21,8 @@
   --photo-filter: saturate(1.2) contrast(1.04) brightness(0.94);
   --map-land: #1d2826;
   --map-border: #3a4a47;
+  --michelin: #ff8a9b;
+  --michelin-bg: #3a1a20;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
@@ -34,6 +38,8 @@
     --photo-filter: saturate(1.2) contrast(1.04) brightness(0.94);
     --map-land: #1d2826;
     --map-border: #3a4a47;
+    --michelin: #ff8a9b;
+    --michelin-bg: #3a1a20;
   }
 }
 /* Street tiles have no dark style, so they are inverted and turned back to true hues. */

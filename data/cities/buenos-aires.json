@@ -137,6 +137,12 @@
       "url": "https://www.tripadvisor.ca/Attraction_Review-g312741-d312325-Reviews-Museo_de_Arte_Latinoamericano_de_Buenos_Aires-Buenos_Aires_Capital_Federal_Distric.html",
       "type": "reviews",
       "checked": "2026-11-04"
+    },
+    {
+      "title": "MICHELIN Guide selection for Buenos Aires",
+      "url": "https://guide.michelin.com/en/ar/ciudad-autonoma-de-buenos-aires/buenos-aires_7770009/restaurants",
+      "type": "reference",
+      "checked": "2026-11-07"
     }
   ],
   "reviewSummary": "Official and visitor lists converge on historic neighbourhoods, major architecture and tango. Ratings for tour packages are not used as ratings for the underlying sights.",
@@ -726,6 +732,7 @@
       "reservation": "Recommended",
       "priority": 3,
       "sourceUrls": [
+        "https://guide.michelin.com/en/ciudad-autonoma-de-buenos-aires/buenos-aires_777009/restaurant/don-julio",
         "https://guide.michelin.com/ar/es/ciudad-autonoma-de-buenos-aires/buenos-aires_777009/restaurante/don-julio"
       ],
       "review": {
@@ -770,7 +777,14 @@
         "note": "A steak-focused mixed kitchen with no halal assurance. Request vegetarian dishes and preparation details directly."
       },
       "photoQuery": "Argentine parrilla steak",
-      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+      "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability.",
+      "michelin": {
+        "distinction": "stars",
+        "stars": 1,
+        "label": "One MICHELIN Star",
+        "url": "https://guide.michelin.com/en/ciudad-autonoma-de-buenos-aires/buenos-aires_777009/restaurant/don-julio",
+        "checked": "2026-11-07"
+      }
     },
     {
       "id": "buenos-aires-hierbabuena",
@@ -905,6 +919,137 @@
       },
       "photoQuery": "Uzbek plov",
       "photoContext": "Representative cuisine or dish; not an image of this venue or evidence of dietary suitability."
+    },
+    {
+      "id": "buenos-aires-aramburu",
+      "name": "Aramburu",
+      "kind": "eat",
+      "lat": -34.5917,
+      "lon": -58.3925,
+      "wiki": "Aramburu",
+      "summary": "Gonzalo Aramburu’s two-star restaurant, with a long creative tasting menu of small, surprising dishes.",
+      "expect": "A long tasting-menu meal. Deposits, cancellation fees and smart-casual dress codes are common at this level.",
+      "tip": "Book through the restaurant’s own site or official booking partner as soon as your dates are set.",
+      "area": "Recoleta",
+      "duration": 2.5,
+      "price": [
+        220000,
+        560000
+      ],
+      "priceNote": "Per-person planning estimate from the MICHELIN price band ($$$$), not a menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner by reservation; check the current service days",
+      "reservation": "Essential",
+      "priority": 2,
+      "sourceUrls": [
+        "https://guide.michelin.com/en/ciudad-autonoma-de-buenos-aires/buenos-aires_777009/restaurant/aramburu"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": null,
+        "checked": "2026-11-07",
+        "note": "No verified review-count snapshot yet. The MICHELIN Guide entry is the source for this listing; open current reviews before booking."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Gonzalo Aramburu’s two-star restaurant, with a long creative tasting menu of small, surprising dishes.",
+        "The MICHELIN Guide awards it Two MICHELIN Stars (excellent cooking), a rare level of recognition."
+      ],
+      "visitFlow": [
+        "Book through the restaurant’s own site or official booking partner as soon as your dates are set.",
+        "Share allergies and dietary needs when booking; tasting menus are hard to change on the night.",
+        "Allow about three hours and plan a taxi or short walk back."
+      ],
+      "bestFor": "A once-in-a-trip special-occasion meal",
+      "tradeoffs": "Among the most expensive meals of a trip, and tables can sell out weeks or months ahead. Menus are set by the kitchen.",
+      "venueType": "restaurant",
+      "cuisine": "Creative",
+      "mustOrder": [],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [],
+        "note": "No dietary evidence collected yet. Ask the restaurant directly about halal, vegetarian and allergy needs; tasting menus need notice."
+      },
+      "michelin": {
+        "distinction": "stars",
+        "stars": 2,
+        "label": "Two MICHELIN Stars",
+        "url": "https://guide.michelin.com/en/ciudad-autonoma-de-buenos-aires/buenos-aires_777009/restaurant/aramburu",
+        "checked": "2026-11-07"
+      },
+      "pinApproximate": true,
+      "sourceNote": "Map pin placed from the published address; confirm the entrance in Google Maps."
+    },
+    {
+      "id": "buenos-aires-caseros",
+      "name": "Caseros",
+      "kind": "eat",
+      "lat": -34.629,
+      "lon": -58.372,
+      "wiki": "Caseros",
+      "summary": "An honest, inexpensive neighbourhood restaurant in San Telmo cooking traditional Argentine home food.",
+      "expect": "A relaxed neighbourhood restaurant with honest cooking at a moderate price.",
+      "tip": "Check current opening hours before you go; small places close on irregular days.",
+      "area": "San Telmo · Av. Caseros",
+      "duration": 1.25,
+      "price": [
+        12000,
+        31000
+      ],
+      "priceNote": "Per-person planning estimate from the MICHELIN price band ($), not a menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner",
+      "reservation": "Reserve if offered; small counters and popular lunch spots can have queues.",
+      "priority": 3,
+      "sourceUrls": [
+        "https://guide.michelin.com/en/ciudad-autonoma-de-buenos-aires/buenos-aires_777009/restaurant/caseros"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": "Tripadvisor",
+        "url": null,
+        "checked": "2026-11-07",
+        "note": "No verified review-count snapshot yet. The MICHELIN Guide entry is the source for this listing; open current reviews before booking."
+      },
+      "excursion": false,
+      "optional": true,
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "An honest, inexpensive neighbourhood restaurant in San Telmo cooking traditional Argentine home food.",
+        "It holds a MICHELIN Bib Gourmand (good quality, good value cooking), the guide’s value award."
+      ],
+      "visitFlow": [
+        "Check current opening hours before you go; small places close on irregular days.",
+        "Order the house speciality and ask about dietary needs at the counter."
+      ],
+      "bestFor": "Great local food at a fair price",
+      "tradeoffs": "Popular since the Bib Gourmand award; queues and sell-outs are possible.",
+      "venueType": "restaurant",
+      "cuisine": "Traditional, Home Cooking",
+      "mustOrder": [],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "unverified",
+        "evidence": [],
+        "note": "No dietary evidence collected yet. Ask the restaurant directly about halal, vegetarian and allergy needs; tasting menus need notice."
+      },
+      "michelin": {
+        "distinction": "bib",
+        "stars": 0,
+        "label": "Bib Gourmand",
+        "url": "https://guide.michelin.com/en/ciudad-autonoma-de-buenos-aires/buenos-aires_777009/restaurant/caseros",
+        "checked": "2026-11-07"
+      },
+      "pinApproximate": true,
+      "sourceNote": "Map pin placed from the published address; confirm the entrance in Google Maps."
     }
   ],
   "budgetNote": "Per-person daily planning estimate for meals, local transport and modest sightseeing; lodging, intercity travel and major excursions are additional.",
