@@ -422,7 +422,7 @@ function openViewer(id, start = 0, from) {
     x.querySelector('[data-vw="close"]').focus({ preventScroll: true });
   });
 }
-// Try the 1920px rendition; Commons refuses one wider than the file, so fall back to the original.
+// Show the 1920px rendition; if it can't load, try the original file before giving up.
 function viewerImgFailed(img) {
   const it = VW?.items[+img.closest('.vw-slide').dataset.i];
   if (it?.g && img.dataset.tried !== 'orig') {
@@ -525,24 +525,19 @@ function viewerPan(dx, dy, box = viewerBox(), animate = false) {
   b.innerHTML = icon(zoomed ? 'zoomout' : 'zoomin');
   b.setAttribute('aria-label', zoomed ? 'Zoom out' : 'Zoom in');
 }
-// Zoomed in on a Commons photo: swap in a bigger rendition so detail stays sharp.
+// Zoomed in on a Commons photo: swap in the original file so the detail is real. Commons
+// upscales thumbnails wider than the file, so a bigger thumbnail wouldn't add detail.
 function viewerSharpen() {
   const it = VW.items[VW.i],
     img = viewerBox().img;
-  if (!it.g || img.dataset.tried || !img.complete || img.naturalWidth < 1900) return;
+  if (!it.g || img.dataset.tried || !img.complete) return;
+  img.dataset.tried = 'orig';
   const big = new Image();
   big.referrerPolicy = 'no-referrer';
   big.onload = () => {
-    img.dataset.tried = 'big';
-    img.src = big.src;
+    if (big.naturalWidth > img.naturalWidth) img.src = big.src;
   };
-  big.onerror = () => {
-    img.dataset.tried = 'orig';
-    big.onerror = null;
-    big.src = commonsOriginal(it.g);
-  };
-  img.dataset.tried = 'trying';
-  big.src = galleryUrl(it.g, 3840);
+  big.src = commonsOriginal(it.g);
 }
 function viewerPoint(e) {
   const r = viewerBox().slide.getBoundingClientRect();
