@@ -2035,6 +2035,8 @@ let browseSort = 'tourism',
   foodHalal = 'all',
   foodVeg = 'all',
   placeView = 'cards',
+  shopTier = 'all',
+  shopStyle = 'all',
   activeCityId = '';
 let stayMap = null,
   stayMarker = null,
@@ -2493,6 +2495,8 @@ function openFilters() {
 }
 function cityTabHtml(c, tab) {
   if (tab === 'arrival' || tab === 'sources') return cityTabLegacy(c, tab);
+  if (tab === 'shop')
+    return `${shoppingGuide(c)}${getCityPlaces(c).length ? `<h3 class="shopstops-h">Shopping stops with full details</h3><p class="muted result-count" id="place-result-count">${resultLine(c)}</p><div id="city-places">${cityResults(c)}</div>` : ''}`;
   if (tab === 'food' && cityFilter !== 'restaurants' && cityFilter !== 'eat')
     cityFilter = 'restaurants';
   const food = tab === 'food' || cityFilter === 'restaurants' || cityFilter === 'eat';
@@ -2504,7 +2508,6 @@ function cityTabHtml(c, tab) {
       ]
     : [
         ['see', 'Sights'],
-        ['shop', 'Shopping'],
         ['all', 'Everything'],
         ['saved', 'Saved'],
       ];
@@ -2517,6 +2520,81 @@ function cityTabHtml(c, tab) {
       '',
     )}</div></div><p class="muted result-count" id="place-result-count">${resultLine(c)}</p><div id="city-places">${cityResults(c)}</div>`;
 }
+const SHOP_TIERS = {
+  budget: ['$', 'Budget'],
+  mid: ['$$', 'Mid-range'],
+  high: ['$$$', 'High-end'],
+};
+const SHOP_STYLES = {
+  streetwear: 'Streetwear',
+  vintage: 'Vintage & thrift',
+  designer: 'Designer',
+  luxury: 'Luxury',
+  'local-design': 'Local design',
+  crafts: 'Crafts',
+  markets: 'Markets',
+  souvenirs: 'Souvenirs',
+  food: 'Food to take home',
+  malls: 'Malls',
+  'department-store': 'Department stores',
+  textiles: 'Textiles & tailoring',
+  jewelry: 'Jewellery',
+  homeware: 'Homeware',
+  antiques: 'Antiques',
+  books: 'Books',
+  outdoor: 'Outdoor gear',
+  anime: 'Anime & games',
+  electronics: 'Electronics',
+  outlets: 'Outlets',
+};
+function shopMapsUrl(c, s) {
+  return (
+    'https://www.google.com/maps/search/?api=1&query=' +
+    encodeURIComponent(`${s.name}, ${c.name}, ${c.country}`)
+  );
+}
+function shoppingGuide(c) {
+  const g = c.shopping;
+  if (!g?.spots?.length) return '';
+  const count = {};
+  g.spots.forEach((s) => s.styles.forEach((t) => (count[t] = (count[t] || 0) + 1)));
+  // Streetwear leads when a city has it; otherwise the most common styles come first.
+  const styles = Object.keys(count).sort(
+    (a, b) => (b === 'streetwear') - (a === 'streetwear') || count[b] - count[a],
+  );
+  const chip = (action, k, label, on) =>
+    `<button class="chip ${on ? 'active' : ''}" data-action="${action}" data-id="${k}" aria-pressed="${on}">${label}</button>`;
+  return `<section class="shopguide" aria-labelledby="shopguide-h"><div class="shopguide-head"><span class="eyebrow">WHERE TO SHOP</span><h3 id="shopguide-h">${icon('bag')} Shopping in ${esc(c.name)}</h3><p>${esc(g.note)}</p></div><div class="shopfilters"><div class="chips" role="group" aria-label="Price level">${chip('shop-tier', 'all', 'Every budget', shopTier === 'all')}${Object.entries(
+    SHOP_TIERS,
+  )
+    .map(([k, [sym, t]]) => chip('shop-tier', k, `${sym} ${t}`, shopTier === k))
+    .join(
+      '',
+    )}</div><div class="chips shopstyles" role="group" aria-label="Style">${chip('shop-style', 'all', 'Any style', shopStyle === 'all')}${styles.map((k) => chip('shop-style', k, esc(SHOP_STYLES[k] || k), shopStyle === k)).join('')}</div></div><div id="shop-spots">${shopSpots(c)}</div><small class="muted shopguide-note">Editorial picks, checked ${esc(g.checked || DATA.retrieved)}. Opening days and prices change, so confirm before you go. Tap a stop below for photos, rankings and visit details.</small></section>`;
+}
+function shopSpots(c) {
+  const list = (c.shopping?.spots || []).filter(
+    (s) =>
+      (shopTier === 'all' || s.tier === shopTier) &&
+      (shopStyle === 'all' || s.styles.includes(shopStyle)),
+  );
+  if (!list.length)
+    return '<p class="muted shop-empty">No picks match both filters here. Try another price level or style.</p>';
+  return `<div class="shopgrid">${list
+    .map((s) => {
+      const [sym, t] = SHOP_TIERS[s.tier] || ['', s.tier];
+      return `<article class="shopcard"><div class="shopcard-top"><span class="pill ${s.tier === 'mid' ? 'warm' : ''} shoptier tier-${s.tier}" title="${t}">${sym} ${t}</span><small>${esc(s.area)}</small></div><h4>${esc(s.name)}</h4><p>${esc(s.summary)}</p><div class="shoptags">${s.styles.map((k) => `<span class="pill ${k === 'streetwear' ? 'warm' : 'gray'}">${esc(SHOP_STYLES[k] || k)}</span>`).join('')}</div><p class="shoptip"><strong>Tip:</strong> ${esc(s.tip)}</p>${external(shopMapsUrl(c, s), icon('pin') + ' Find on Google Maps', 'inline-link shopmap')}</article>`;
+    })
+    .join('')}</div>`;
+}
+function setShopFilter(kind, id) {
+  if (kind === 'tier') shopTier = id;
+  else shopStyle = id;
+  const c = C[activeCityId];
+  const el = $('.shopguide');
+  if (!c || !el) return;
+  el.outerHTML = shoppingGuide(c);
+}
 function renderCity(id, tab = 'places') {
   if (!validCity(id)) {
     location.hash = '#/';
@@ -2526,14 +2604,21 @@ function renderCity(id, tab = 'places') {
   if (placeSort === 'nearby' && !S.stays[id]) placeSort = 'popularity';
   if (activeCityId !== id) {
     activeCityId = id;
-    cityFilter = tab === 'food' ? 'restaurants' : 'see';
+    cityFilter = tab === 'food' ? 'restaurants' : tab === 'shop' ? 'shop' : 'see';
     experienceFilter = 'all';
     placeQuery = '';
+    shopTier = 'all';
+    shopStyle = 'all';
     foodHalal = 'all';
     foodVeg = 'all';
     placeSort = 'popularity';
   }
   if (tab === 'food' && !['eat', 'restaurants'].includes(cityFilter)) cityFilter = 'restaurants';
+  if (tab === 'shop') {
+    cityFilter = 'shop';
+    placeQuery = '';
+    experienceFilter = 'all';
+  } else if (cityFilter === 'shop') cityFilter = 'see';
   headerActive('explore');
   const r = cityRanking(c, 'tourism'),
     a = cityRanking(c, 'arrivals');
@@ -2541,6 +2626,7 @@ function renderCity(id, tab = 'places') {
     `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}<div class="cityfacts">${r ? `<button class="fact" data-action="ranking-method"><b>#${r.rank}</b><span>tourism index</span></button>` : ''}${a ? `<button class="fact" data-action="ranking-method"><b>#${a.rank}</b><span>most visited</span></button>` : ''}<span class="fact"><b>${c.days} days</b><span>to see it well</span></span><span class="fact"><b>${range(c.dailyBudget, c.currency)}</b><span>per person a day</span></span><span class="fact"><b>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</b><span>best months</span></span></div>${budgetPanel(c)}${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
       ['places', 'Sights'],
       ['food', 'Food'],
+      ['shop', 'Shopping'],
       ['arrival', 'Practical'],
       ['sources', 'Sources'],
     ]
@@ -2996,7 +3082,7 @@ function changeCityFilter(id) {
   foodVeg = 'all';
   const cid = location.hash.split('/')[2]?.split('?')[0];
   if (validCity(cid)) {
-    const tab = ['eat', 'restaurants'].includes(id) ? 'food' : 'places';
+    const tab = ['eat', 'restaurants'].includes(id) ? 'food' : id === 'shop' ? 'shop' : 'places';
     history.replaceState(null, '', '#/city/' + cid + '?tab=' + tab);
     renderCity(cid, tab);
     $('.citytabs')?.scrollIntoView({ block: 'start' });
@@ -3041,10 +3127,15 @@ document.addEventListener('click', (e) => {
     if (inSheet) {
       refreshCityResults();
       openFilters();
-    } else renderCity(activeCityId, cityFilter === 'restaurants' ? 'food' : 'places');
+    } else
+      renderCity(
+        activeCityId,
+        cityFilter === 'restaurants' ? 'food' : cityFilter === 'shop' ? 'shop' : 'places',
+      );
   } else if (a === 'city-tab') {
     if (b.dataset.tab === 'places') cityFilter = 'see';
     if (b.dataset.tab === 'food') cityFilter = 'restaurants';
+    if (b.dataset.tab === 'shop') cityFilter = 'shop';
     experienceFilter = 'all';
     foodHalal = 'all';
     foodVeg = 'all';
@@ -3146,6 +3237,8 @@ document.addEventListener('click', (e) => {
     if (location.hash === target) renderCity(id, b.dataset.tab);
     else location.hash = target;
   } else if (a === 'city-filter') changeCityFilter(id);
+  else if (a === 'shop-tier') setShopFilter('tier', id);
+  else if (a === 'shop-style') setShopFilter('style', id);
   else if (a === 'template') applyTemplate(id);
   else if (a === 'choose-cities') chooseCities();
   else if (a === 'finish-cities') {
