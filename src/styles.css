@@ -6554,3 +6554,84 @@ a.fact b {
     transition: none;
   }
 }
+/* MICHELIN Guide recognition and the no-photo placeholder */
+.michelin-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 2px 8px;
+  border-radius: 30px;
+  background: var(--michelin-bg);
+  color: var(--michelin);
+  font-size: 11px;
+  font-weight: 750;
+  letter-spacing: 0.02em;
+  white-space: nowrap;
+}
+.michelin-pill.bib {
+  font-weight: 650;
+}
+.michelin-line {
+  margin: 2px 0 4px;
+}
+.actions .michelin-pill {
+  margin: 0 0 12px;
+}
+.recognition {
+  margin-top: 14px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-left: 3px solid var(--michelin);
+  border-radius: 10px;
+}
+.recognition p {
+  margin: 8px 0 6px;
+  font-size: 13px;
+}
+.recognition small {
+  color: var(--muted);
+}
+.nophoto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  text-align: center;
+  background: linear-gradient(135deg, var(--teal2), var(--paper));
+  color: var(--ink);
+}
+.nophoto.michelin {
+  background: linear-gradient(135deg, var(--michelin-bg), var(--paper));
+}
+.nophoto span {
+  font:
+    600 18px Georgia,
+    serif;
+}
+.nophoto b {
+  color: var(--michelin);
+  font-size: 12px;
+}
+.nophoto small {
+  color: var(--muted);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.ranking-thumb .nophoto span,
+.ranking-thumb .nophoto small,
+.map-popup .nophoto small {
+  display: none;
+}
+.ranking-thumb .nophoto {
+  padding: 4px;
+}
+.modalphoto .nophoto {
+  min-height: 220px;
+}

@@ -192,9 +192,36 @@ function imageFor(id) {
 }
 function photoTag(id, cls = '', lazy = true) {
   const p = PHOTO[id];
-  return p
-    ? `<img src="${p.data}" alt="${esc(p.alt || p.title)}" class="photo${cls ? ' ' + cls : ''}" ${lazy ? 'loading="lazy"' : ''} decoding="async">`
-    : '';
+  if (p)
+    return `<img src="${p.data}" alt="${esc(p.alt || p.title)}" class="photo${cls ? ' ' + cls : ''}" ${lazy ? 'loading="lazy"' : ''} decoding="async">`;
+  // Newer listings may not have a vetted photo yet: show an honest placeholder, never a borrowed image.
+  const x = P[id];
+  if (!x) return '';
+  const m = x.michelin;
+  return `<div class="nophoto${m ? ' michelin' : ''}${cls ? ' ' + cls : ''}" role="img" aria-label="No photo yet for ${esc(x.name)}"><span>${esc(x.cuisine || x.area || x.name)}</span>${m ? `<b>${esc(michelinShort(x))}</b>` : ''}<small>No photo yet</small></div>`;
+}
+// MICHELIN Guide recognition is an inspector award for cooking, kept apart from popularity.
+const FOOD_FILTERS = ['restaurants', 'eat', 'michelin'];
+function michelinShort(p) {
+  const m = p.michelin;
+  if (!m) return '';
+  return m.stars ? `${m.stars} MICHELIN Star${m.stars > 1 ? 's' : ''}` : 'Bib Gourmand';
+}
+function michelinPill(p) {
+  const m = p.michelin;
+  if (!m) return '';
+  return `<span class="michelin-pill${m.stars ? '' : ' bib'}" title="${esc(m.label)} · MICHELIN Guide">${m.stars ? '✦'.repeat(m.stars) + ' MICHELIN' : 'Bib Gourmand'}</span>`;
+}
+const MICHELIN_MEANING = {
+  3: 'exceptional cuisine, worth a special journey',
+  2: 'excellent cooking, worth a detour',
+  1: 'high-quality cooking',
+  0: 'good quality, good value cooking',
+};
+function michelinRow(p) {
+  const m = p.michelin;
+  if (!m) return '';
+  return `<div class="recognition"><div class="signal-head"><strong>MICHELIN Guide</strong>${michelinPill(p)}</div><p>${esc(m.label)}: ${esc(MICHELIN_MEANING[m.stars] || '')}. Awarded by the guide’s anonymous inspectors for the cooking. It is a quality award, not a popularity count, so it is shown alongside the rank rather than mixed into it.</p><small>${external(m.url, 'MICHELIN Guide entry ↗')}${m.checked ? ' · checked ' + esc(m.checked) : ''}</small></div>`;
 }
 // Extra photos per place/city from Wikimedia Commons (hotlinked thumbnails, loaded on demand).
 // data/gallery.json stores each photo as [file, hash, width, height, author, licence].
@@ -782,7 +809,9 @@ function external(url, text, cls = '') {
 function rating(p) {
   return p.review?.rating
     ? `<span class="rating">★ ${Number(p.review.rating).toFixed(1)} <span class="muted">(${num(p.review.count || 0)})</span></span>`
-    : '<span class="muted">Curated pick</span>';
+    : p.michelin
+      ? '<span class="muted">MICHELIN Guide</span>'
+      : '<span class="muted">Curated pick</span>';
 }
 function toast(t) {
   $('.toast')?.remove();
@@ -1586,7 +1615,7 @@ const CHECKLIST = [
 function renderGuide() {
   headerActive('guide');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="pagehead"><div><h1>About & sources</h1><p>How this guide makes its choices, where the information comes from, and how to take your plan with you.</p></div></div><div class="methodology"><h2>Start here.</h2><ol><li><strong>Compare cities.</strong> Choose a published tourism ranking or your Japan-first priorities, then open a city.</li><li><strong>Understand the places.</strong> Open any place to see why it ranks where it does, its appeal and trade-offs. Use Filters for experience type, and the Food tab for named venues with halal and vegetarian filters.</li><li><strong>Add your stay.</strong> Search an address, paste coordinates or pin the map. Sort by distance and start local routes at your accommodation.</li><li><strong>Save the places that interest you.</strong> Your saved places become that city’s day-plan inputs. With no saved picks, the planner offers a shortlist.</li><li><strong>Add cities to your trip.</strong> Set the number of days and your pace. Put your arrival city first before suggesting an order.</li><li><strong>Use the map.</strong> Tap destination or place markers, filter by activity and open a pin in Google Maps.</li><li><strong>Keep a backup.</strong> Export your trip JSON, then import it in the app on another device. Browser storage is local to each browser/origin.</li></ol><h2>What “popular” means here.</h2><p>The ${CITIES.length} destinations combine your Japan-first priorities with Asia, Europe, Africa, Latin America and six U.S. park gateways. The city comparison offers the 2025 Euromonitor overall tourism index and a separate international-arrivals view. Their scope and definitions differ. <button class="inline-link" data-action="ranking-method">Read the ranking methods and source links ↗</button></p><p>Numeric ratings and review counts are shown only where a snapshot was retrieved. They are dated, platform-specific and may reflect an earlier crawl. Missing ratings remain missing. Most-reviewed order uses descending review counts; highest-rated order uses satisfaction ratings. Category ranks compare the places covered in this guide, not every venue in the city. Unknown counts stay unranked. The separate first-visit order is editorial. “Curated pick” does not imply a verified rating.</p><h2>What the route planner can tell you.</h2><p>The visit-order button uses geographic distance, keeps your first city fixed and makes a local improvement pass. It is useful for spotting backtracking. It does not solve for the cheapest airfare, shortest road journey, visas, train timetables or ferry availability. Where a researched connection is available, its mode and approximate service duration appear; otherwise the app explicitly asks you to check connections.</p><p>Daily plans use researched day groups where available and otherwise group nearby places under a time budget. Authored park days stay together to avoid repeat journeys; a visible note identifies any day above your selected pace. Shorten those days or save fewer stops to adapt them. Full-day and distant excursions get separate days. Each city-to-city move receives a one-day transfer placeholder; some long-haul or limited-frequency journeys need more. Closing days and timed reservations are not automatically scheduled. Map lines show the order of stops, not navigable roads or trails.</p><h2>Costs without false precision.</h2><p>Most prices are planning ranges in the destination’s currency. An official fee is labelled when it was specifically verified. Daily spending ranges cover food, local transport and ordinary sightseeing. Hotels, international and intercity travel, transfer days, shopping and major excursions require additional allowances. The cash suggestion sits within spending and is not added to the total.</p><p>Vehicle-based park fees, nonresident supplements and multi-day passes do not behave like ordinary per-person attraction tickets. Read each park card’s price note. Group totals in the planner apply to baseline daily budgets and your own entered per-person allowances, not automatically to park tickets.</p><h2>Google Maps and offline use.</h2><p>“Open in Google Maps” launches a place search; tap <strong>Save</strong> in Google Maps to add it to your own list. This app cannot write directly to your Google account. The CSV export contains names, cities, coordinates, notes and source links. Import it at ${external('https://www.google.com/mymaps', 'Google My Maps ↗')}, choosing Latitude and Longitude for locations and Name for labels. My Maps is separate from your personal saved-place lists.</p><p>The HTML file embeds the guide, photographs, map library and a world outline, so the core app can open without a connection. Street-map tiles, external booking/review pages and Google Maps need internet. Download local Google Maps areas separately when appropriate. Location access is optional and requested only when you press “Near me” or “Use my location”. Accommodation address searches are sent to Photon only when you press Find location; no search runs as you type. Search results require your confirmation. You can use map pins and coordinates instead. Accommodation, preferences and notes are stored locally and exported with your trip backup. Coordinates are approximate planning pins, not guaranteed entrances.</p><h2>Illustrations, photography & map credits.</h2><p>Trip starters and selected signature places have original AI illustrations. They are labelled and interpretive: a trip cover may combine locations and seasons, and a place illustration is not documentary evidence of its current layout. Where an illustration is used, the place page also offers a photographic view. Restaurant imagery never verifies the food’s ingredients or dietary suitability.</p><p>Every city and place has its own image asset. Photos include photographer, source and licence links. Sources include Pexels and Wikimedia Commons; each Commons photograph retains its stated licence, including share-alike terms on the adapted image where applicable. Images are resized, cropped and converted to WebP. Where an exact venue could not be verified, the image is marked as representative dish, craft or destination context. Historical photographs do not verify current vendors or conditions. The downloadable edition embeds every image; the hosted edition bundles the same images as local assets. Many cities and places also have a swipeable gallery of up to five extra photos taken from the photos used in their Wikipedia article and hosted by Wikimedia Commons. Each one is credited with its author and licence, and only freely licensed photographs are used. Gallery photos load from Commons when you open a place, so they need a connection. Photos are displayed with a small colour and contrast boost; the source files are unchanged.</p><p>Interactive mapping uses bundled ${external('https://leafletjs.com/', 'Leaflet')} (BSD 2-Clause). Offline country outlines are ${external('https://www.naturalearthdata.com/about/terms-of-use/', 'Natural Earth public-domain data')}. Optional street tiles are © ${external('https://www.openstreetmap.org/copyright', 'OpenStreetMap contributors')}. Optional address lookup uses ${external('https://github.com/komoot/photon', 'Photon')} with OpenStreetMap data. It has no uptime guarantee; map pinning and coordinate entry remain available if it fails. No map API key or external script is needed.</p><h2>Before you go.</h2><div class="resourcebox">${CHECKLIST.map(([id, label]) => `<label class="checkrow"><input type="checkbox" data-checklist="${id}" ${S.checklist.includes(id) ? 'checked' : ''}><span>${label}</span></label>`).join('')}</div><div class="actions"><button class="btn" data-action="export">${icon('download')} Export your trip</button><button class="btn ghost" data-action="import">${icon('upload')} Import a backup</button></div><details class="sourcebook"><summary><h2>The sourcebook</h2></summary><p>${sourceRecords().length} unique linked travel/review sources across the guide. Research retrieved ${CHECKED}. Photo-source pages are listed in each destination’s Sources tab. This static edition does not refresh itself automatically.</p><div class="sourcefilters"><select id="source-city" aria-label="Filter sourcebook by destination"><option value="">All destinations</option>${CITIES.map((c) => `<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select><select id="source-type" aria-label="Filter sourcebook by source type"><option value="">All source types</option><option value="official">Official</option><option value="reviews">Visitor reviews</option><option value="reference">Other reference</option></select></div><div id="source-results"></div></details></div>${footer()}</div>`;
+    `<div class="wrap"><div class="pagehead"><div><h1>About & sources</h1><p>How this guide makes its choices, where the information comes from, and how to take your plan with you.</p></div></div><div class="methodology"><h2>Start here.</h2><ol><li><strong>Compare cities.</strong> Choose a published tourism ranking or your Japan-first priorities, then open a city.</li><li><strong>Understand the places.</strong> Open any place to see why it ranks where it does, its appeal and trade-offs. Use Filters for experience type, and the Food tab for named venues with halal and vegetarian filters.</li><li><strong>Add your stay.</strong> Search an address, paste coordinates or pin the map. Sort by distance and start local routes at your accommodation.</li><li><strong>Save the places that interest you.</strong> Your saved places become that city’s day-plan inputs. With no saved picks, the planner offers a shortlist.</li><li><strong>Add cities to your trip.</strong> Set the number of days and your pace. Put your arrival city first before suggesting an order.</li><li><strong>Use the map.</strong> Tap destination or place markers, filter by activity and open a pin in Google Maps.</li><li><strong>Keep a backup.</strong> Export your trip JSON, then import it in the app on another device. Browser storage is local to each browser/origin.</li></ol><h2>What “popular” means here.</h2><p>The ${CITIES.length} destinations combine your Japan-first priorities with Asia, Europe, Africa, Latin America and six U.S. park gateways. The city comparison offers the 2025 Euromonitor overall tourism index and a separate international-arrivals view. Their scope and definitions differ. <button class="inline-link" data-action="ranking-method">Read the ranking methods and source links ↗</button></p><p>Numeric ratings and review counts are shown only where a snapshot was retrieved. They are dated, platform-specific and may reflect an earlier crawl. Missing ratings remain missing. Most-reviewed order uses descending review counts; highest-rated order uses satisfaction ratings. Category ranks compare the places covered in this guide, not every venue in the city. Unknown counts stay unranked. The separate first-visit order is editorial. “Curated pick” does not imply a verified rating.</p><p>Restaurants recognised by the ${external('https://guide.michelin.com/', 'MICHELIN Guide ↗')} carry their current distinction (one to three Stars, or Bib Gourmand for good value), linked to the guide’s own entry with the date it was checked. MICHELIN is an inspector award for cooking quality, so it is shown next to the popularity rank and never mixed into it. Unranked MICHELIN restaurants are listed after ranked places and ahead of other editorial picks. Their prices are planning estimates from the guide’s price band, not menu quotes.</p><h2>What the route planner can tell you.</h2><p>The visit-order button uses geographic distance, keeps your first city fixed and makes a local improvement pass. It is useful for spotting backtracking. It does not solve for the cheapest airfare, shortest road journey, visas, train timetables or ferry availability. Where a researched connection is available, its mode and approximate service duration appear; otherwise the app explicitly asks you to check connections.</p><p>Daily plans use researched day groups where available and otherwise group nearby places under a time budget. Authored park days stay together to avoid repeat journeys; a visible note identifies any day above your selected pace. Shorten those days or save fewer stops to adapt them. Full-day and distant excursions get separate days. Each city-to-city move receives a one-day transfer placeholder; some long-haul or limited-frequency journeys need more. Closing days and timed reservations are not automatically scheduled. Map lines show the order of stops, not navigable roads or trails.</p><h2>Costs without false precision.</h2><p>Most prices are planning ranges in the destination’s currency. An official fee is labelled when it was specifically verified. Daily spending ranges cover food, local transport and ordinary sightseeing. Hotels, international and intercity travel, transfer days, shopping and major excursions require additional allowances. The cash suggestion sits within spending and is not added to the total.</p><p>Vehicle-based park fees, nonresident supplements and multi-day passes do not behave like ordinary per-person attraction tickets. Read each park card’s price note. Group totals in the planner apply to baseline daily budgets and your own entered per-person allowances, not automatically to park tickets.</p><h2>Google Maps and offline use.</h2><p>“Open in Google Maps” launches a place search; tap <strong>Save</strong> in Google Maps to add it to your own list. This app cannot write directly to your Google account. The CSV export contains names, cities, coordinates, notes and source links. Import it at ${external('https://www.google.com/mymaps', 'Google My Maps ↗')}, choosing Latitude and Longitude for locations and Name for labels. My Maps is separate from your personal saved-place lists.</p><p>The HTML file embeds the guide, photographs, map library and a world outline, so the core app can open without a connection. Street-map tiles, external booking/review pages and Google Maps need internet. Download local Google Maps areas separately when appropriate. Location access is optional and requested only when you press “Near me” or “Use my location”. Accommodation address searches are sent to Photon only when you press Find location; no search runs as you type. Search results require your confirmation. You can use map pins and coordinates instead. Accommodation, preferences and notes are stored locally and exported with your trip backup. Coordinates are approximate planning pins, not guaranteed entrances.</p><h2>Illustrations, photography & map credits.</h2><p>Trip starters and selected signature places have original AI illustrations. They are labelled and interpretive: a trip cover may combine locations and seasons, and a place illustration is not documentary evidence of its current layout. Where an illustration is used, the place page also offers a photographic view. Restaurant imagery never verifies the food’s ingredients or dietary suitability.</p><p>Every city and place has its own image asset. Photos include photographer, source and licence links. Sources include Pexels and Wikimedia Commons; each Commons photograph retains its stated licence, including share-alike terms on the adapted image where applicable. Images are resized, cropped and converted to WebP. Where an exact venue could not be verified, the image is marked as representative dish, craft or destination context. Historical photographs do not verify current vendors or conditions. The downloadable edition embeds every image; the hosted edition bundles the same images as local assets. Many cities and places also have a swipeable gallery of up to five extra photos taken from the photos used in their Wikipedia article and hosted by Wikimedia Commons. Each one is credited with its author and licence, and only freely licensed photographs are used. Gallery photos load from Commons when you open a place, so they need a connection. Photos are displayed with a small colour and contrast boost; the source files are unchanged.</p><p>Interactive mapping uses bundled ${external('https://leafletjs.com/', 'Leaflet')} (BSD 2-Clause). Offline country outlines are ${external('https://www.naturalearthdata.com/about/terms-of-use/', 'Natural Earth public-domain data')}. Optional street tiles are © ${external('https://www.openstreetmap.org/copyright', 'OpenStreetMap contributors')}. Optional address lookup uses ${external('https://github.com/komoot/photon', 'Photon')} with OpenStreetMap data. It has no uptime guarantee; map pinning and coordinate entry remain available if it fails. No map API key or external script is needed.</p><h2>Before you go.</h2><div class="resourcebox">${CHECKLIST.map(([id, label]) => `<label class="checkrow"><input type="checkbox" data-checklist="${id}" ${S.checklist.includes(id) ? 'checked' : ''}><span>${label}</span></label>`).join('')}</div><div class="actions"><button class="btn" data-action="export">${icon('download')} Export your trip</button><button class="btn ghost" data-action="import">${icon('upload')} Import a backup</button></div><details class="sourcebook"><summary><h2>The sourcebook</h2></summary><p>${sourceRecords().length} unique linked travel/review sources across the guide. Research retrieved ${CHECKED}. Photo-source pages are listed in each destination’s Sources tab. This static edition does not refresh itself automatically.</p><div class="sourcefilters"><select id="source-city" aria-label="Filter sourcebook by destination"><option value="">All destinations</option>${CITIES.map((c) => `<option value="${c.id}">${esc(c.name)}</option>`).join('')}</select><select id="source-type" aria-label="Filter sourcebook by source type"><option value="">All source types</option><option value="official">Official</option><option value="reviews">Visitor reviews</option><option value="reference">Other reference</option></select></div><div id="source-results"></div></details></div>${footer()}</div>`;
   renderSources();
 }
 function renderSources() {
@@ -2257,20 +2286,30 @@ const compact = (n) =>
       : String(n);
 // One line that says why a place sits where it does, for cards and lists.
 function rankReason(p) {
-  const sigs = placeSignals(p);
-  if (!sigs.length) return 'Editorial pick · no comparable review counts yet';
-  return sigs
-    .sort((a, b) => b.pct - a.pct)
-    .map((s) => `#${s.place} of ${s.of} for ${s.short} (${compact(s.value(p))})`)
+  const sigs = placeSignals(p),
+    m = michelinShort(p);
+  if (!sigs.length) return (m || 'Editorial pick') + ' · no comparable review counts yet';
+  return [
+    m,
+    ...sigs
+      .sort((a, b) => b.pct - a.pct)
+      .map((s) => `#${s.place} of ${s.of} for ${s.short} (${compact(s.value(p))})`),
+  ]
+    .filter(Boolean)
     .join(' · ');
 }
-function rankShort(p) {
-  const sigs = placeSignals(p);
-  if (!sigs.length) return 'Editorial pick';
-  return sigs
-    .sort((a, b) => b.pct - a.pct)
-    .slice(0, 2)
-    .map((s) => `#${s.place} of ${s.of} for ${s.short}`)
+function rankShort(p, withMichelin = true) {
+  const sigs = placeSignals(p),
+    m = withMichelin ? michelinShort(p) : '';
+  if (!sigs.length) return m || (p.michelin ? 'No review counts yet' : 'Editorial pick');
+  return [
+    m,
+    ...sigs
+      .sort((a, b) => b.pct - a.pct)
+      .slice(0, m ? 1 : 2)
+      .map((s) => `#${s.place} of ${s.of} for ${s.short}`),
+  ]
+    .filter(Boolean)
     .join(' · ');
 }
 function rankBreakdown(p) {
@@ -2279,7 +2318,9 @@ function rankBreakdown(p) {
     rank = popularityRank(p),
     st = poolStats(p);
   if (!sigs.length)
-    return `<p>No comparable review counts are verified for this place yet, so it has no popularity rank. It is in the guide as an editorial recommendation based on the linked sources.</p>`;
+    return p.michelin
+      ? `<p>No comparable review counts are verified for this place yet, so it has no popularity rank. It is in the guide because the MICHELIN Guide recognises it.</p>${michelinRow(p)}`
+      : `<p>No comparable review counts are verified for this place yet, so it has no popularity rank. It is in the guide as an editorial recommendation based on the linked sources.</p>`;
   const rows = sigs
     .map(
       (s) =>
@@ -2287,7 +2328,7 @@ function rankBreakdown(p) {
     )
     .join('');
   const missing = SIGNALS.filter((s) => !sigs.some((x) => x.key === s.key)).map((s) => s.short);
-  return `<p class="rank-headline"><strong>#${rank} of ${st.ranked}</strong> ${esc(rankCategory(p))} in ${esc(c.name)}, combining ${sigs.length === 1 ? 'one source' : sigs.length + ' sources'}.</p><div class="signals">${rows}</div>${missing.length ? `<small class="signal-missing">Not yet included for this place: ${esc(missing.join(', '))}.</small>` : ''}`;
+  return `<p class="rank-headline"><strong>#${rank} of ${st.ranked}</strong> ${esc(rankCategory(p))} in ${esc(c.name)}, combining ${sigs.length === 1 ? 'one source' : sigs.length + ' sources'}.</p><div class="signals">${rows}</div>${michelinRow(p)}${missing.length ? `<small class="signal-missing">Not yet included for this place: ${esc(missing.join(', '))}.</small>` : ''}`;
 }
 function rankCategory(p) {
   return p.kind === 'eat'
@@ -2300,9 +2341,13 @@ function rankCategory(p) {
 }
 function rankBadge(p) {
   const n = popularityRank(p);
-  return n
-    ? `<span class="rankbadge"><b>#${n}</b> ${rankCategory(p)} · popularity</span>`
-    : '<span class="rankbadge unranked">Editorial pick</span>';
+  return (
+    (n
+      ? `<span class="rankbadge"><b>#${n}</b> ${rankCategory(p)} · popularity</span>`
+      : p.michelin
+        ? ''
+        : '<span class="rankbadge unranked">Editorial pick</span>') + michelinPill(p)
+  );
 }
 function comparePlaces(a, b, sort = placeSort) {
   if (sort === 'nearby') {
@@ -2317,8 +2362,10 @@ function comparePlaces(a, b, sort = placeSort) {
     );
   if (sort === 'cost') return a.price[0] - b.price[0];
   if (sort === 'recommended') return a.priority - b.priority;
+  // Unranked MICHELIN picks sit after ranked places but ahead of plain editorial picks.
+  const fallback = (p) => (p.michelin ? -0.9 + p.michelin.stars * 0.1 : -1);
   return (
-    (popularityScore(b) ?? -1) - (popularityScore(a) ?? -1) ||
+    (popularityScore(b) ?? fallback(b)) - (popularityScore(a) ?? fallback(a)) ||
     (b.review?.rating ?? -1) - (a.review?.rating ?? -1) ||
     a.priority - b.priority
   );
@@ -2373,11 +2420,19 @@ function getCityPlaces(c) {
         (cityFilter === 'all' ||
           p.kind === cityFilter ||
           (cityFilter === 'saved' && saved(p.id)) ||
-          (cityFilter === 'restaurants' && p.kind === 'eat' && p.venueType === 'restaurant')) &&
+          (cityFilter === 'restaurants' && p.kind === 'eat' && p.venueType === 'restaurant') ||
+          (cityFilter === 'michelin' && p.michelin)) &&
         (experienceFilter === 'all' || typesFor(p).includes(experienceFilter)) &&
         (!(foodHalal !== 'all' || foodVeg !== 'all') || (p.kind === 'eat' && matchesDiet(p))) &&
         (!q ||
-          [p.name, p.area, p.summary, p.cuisine, ...(p.mustOrder || [])]
+          [
+            p.name,
+            p.area,
+            p.summary,
+            p.cuisine,
+            ...(p.mustOrder || []),
+            p.michelin ? 'michelin star ' + p.michelin.label : '',
+          ]
             .join(' ')
             .toLowerCase()
             .includes(q)),
@@ -2414,7 +2469,7 @@ function cityCard(c) {
 function placeCard(p) {
   const d = fromStay(p),
     n = popularityRank(p);
-  return `<article class="placecard" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}"><div class="placeimage">${visualTag(p.id)}${saveButton(p.id)}${visualBadge(p.id)}${photoCount(p.id)}${n ? `<span class="place-rankpill">#${n}</span>` : ''}</div><div class="placebody"><h3>${esc(p.name)}</h3><p class="rankwhy">${n ? esc(rankShort(p)) : 'Editorial pick'}</p><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="placemeta"><span>${esc(p.area)} · ${p.duration} h · ${priceLabel(p)}${d !== null ? ` · <span class="near-label">${distanceText(d)} away</span>` : ''}</span>${rating(p)}</div></div></article>`;
+  return `<article class="placecard" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}"><div class="placeimage">${visualTag(p.id)}${saveButton(p.id)}${visualBadge(p.id)}${photoCount(p.id)}${n ? `<span class="place-rankpill">#${n}</span>` : ''}</div><div class="placebody"><h3>${esc(p.name)}</h3>${p.michelin ? `<div class="michelin-line">${michelinPill(p)}</div>` : ''}<p class="rankwhy">${esc(rankShort(p, false))}</p><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="placemeta"><span>${esc(p.area)} · ${p.duration} h · ${priceLabel(p)}${d !== null ? ` · <span class="near-label">${distanceText(d)} away</span>` : ''}</span>${rating(p)}</div></div></article>`;
 }
 function rankingRows(items) {
   return `<div class="ranking-list">${items.map((p) => `<article class="ranking-row"><div class="ranking-number">${popularityRank(p) ? '#' + popularityRank(p) : '—'}</div><button class="ranking-thumb" data-action="place" data-id="${p.id}" aria-label="View ${esc(p.name)}">${visualTag(p.id)}</button><div class="ranking-main"><button class="inline-link" data-action="place" data-id="${p.id}">${esc(p.name)}</button><div class="typechips">${typeChips(p)}</div><small class="rankwhy">${esc(rankReason(p))}</small><small>${esc(rankCategory(p))} · ${esc(p.area)}${fromStay(p) !== null ? ' · ' + distanceText(fromStay(p)) + ' from stay' : ''}</small></div><div class="ranking-stat"><strong>${reviewCount(p) !== null ? num(reviewCount(p)) : '—'}</strong><small>${reviewCount(p) !== null ? 'reviews' : 'no count verified'}</small>${rating(p)}</div><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${saveButton(p.id)}</article>`).join('')}</div>`;
@@ -2478,7 +2533,7 @@ function resultLine(c) {
 function openFilters() {
   const c = C[activeCityId];
   if (!c) return;
-  const food = ['restaurants', 'eat'].includes(cityFilter);
+  const food = FOOD_FILTERS.includes(cityFilter);
   showModal(
     `<div class="modalcontent filtersheet"><h2 id="modal-heading">Sort & filter</h2><div class="field"><label for="place-sort">Sort by</label><select id="place-sort">${Object.entries(
       SORT_LABELS,
@@ -2497,12 +2552,12 @@ function cityTabHtml(c, tab) {
   if (tab === 'arrival' || tab === 'sources') return cityTabLegacy(c, tab);
   if (tab === 'shop')
     return `${shoppingGuide(c)}${getCityPlaces(c).length ? `<h3 class="shopstops-h">Shopping stops with full details</h3><p class="muted result-count" id="place-result-count">${resultLine(c)}</p><div id="city-places">${cityResults(c)}</div>` : ''}`;
-  if (tab === 'food' && cityFilter !== 'restaurants' && cityFilter !== 'eat')
-    cityFilter = 'restaurants';
-  const food = tab === 'food' || cityFilter === 'restaurants' || cityFilter === 'eat';
+  if (tab === 'food' && !FOOD_FILTERS.includes(cityFilter)) cityFilter = 'restaurants';
+  const food = tab === 'food' || FOOD_FILTERS.includes(cityFilter);
   const chips = food
     ? [
         ['restaurants', 'Restaurants'],
+        ...(c.items.some((x) => x.michelin) ? [['michelin', 'MICHELIN Guide']] : []),
         ['eat', 'All food stops'],
         ['saved', 'Saved'],
       ]
@@ -2613,7 +2668,7 @@ function renderCity(id, tab = 'places') {
     foodVeg = 'all';
     placeSort = 'popularity';
   }
-  if (tab === 'food' && !['eat', 'restaurants'].includes(cityFilter)) cityFilter = 'restaurants';
+  if (tab === 'food' && !FOOD_FILTERS.includes(cityFilter)) cityFilter = 'restaurants';
   if (tab === 'shop') {
     cityFilter = 'shop';
     placeQuery = '';
@@ -3035,8 +3090,7 @@ function saveStay() {
     renderMapPins(false);
     toast('Stay saved. Open the city guide for nearby recommendations.');
   } else {
-    const tab =
-      activeCityId === id && ['eat', 'restaurants'].includes(cityFilter) ? 'food' : 'places';
+    const tab = activeCityId === id && FOOD_FILTERS.includes(cityFilter) ? 'food' : 'places';
     if (tab === 'places') cityFilter = 'see';
     activeCityId = id;
     placeSort = 'nearby';
@@ -3082,7 +3136,7 @@ function changeCityFilter(id) {
   foodVeg = 'all';
   const cid = location.hash.split('/')[2]?.split('?')[0];
   if (validCity(cid)) {
-    const tab = ['eat', 'restaurants'].includes(id) ? 'food' : id === 'shop' ? 'shop' : 'places';
+    const tab = FOOD_FILTERS.includes(id) ? 'food' : id === 'shop' ? 'shop' : 'places';
     history.replaceState(null, '', '#/city/' + cid + '?tab=' + tab);
     renderCity(cid, tab);
     $('.citytabs')?.scrollIntoView({ block: 'start' });
@@ -3130,7 +3184,7 @@ document.addEventListener('click', (e) => {
     } else
       renderCity(
         activeCityId,
-        cityFilter === 'restaurants' ? 'food' : cityFilter === 'shop' ? 'shop' : 'places',
+        FOOD_FILTERS.includes(cityFilter) ? 'food' : cityFilter === 'shop' ? 'shop' : 'places',
       );
   } else if (a === 'city-tab') {
     if (b.dataset.tab === 'places') cityFilter = 'see';
