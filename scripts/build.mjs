@@ -12,6 +12,10 @@ const readJson = async (p) => JSON.parse(await read(p));
 
 const meta = await readJson('data/meta.json');
 const cities = await Promise.all(meta.cityOrder.map((id) => readJson(`data/cities/${id}.json`)));
+// Shopping guide lives in its own file so city data edits don't collide; attach it per city.
+const shopping = await readJson('data/shopping.json');
+for (const c of cities)
+  if (shopping.cities[c.id]) c.shopping = { ...shopping.cities[c.id], checked: shopping.checked };
 const photos = await readJson('data/photos.json');
 const art = await readJson('data/art.json');
 // Extra Wikimedia Commons photos per place; hotlinked, so never inlined (see scripts/gallery/).
