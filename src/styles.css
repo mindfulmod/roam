@@ -3805,31 +3805,6 @@ small.rankwhy {
   padding: 3px 9px;
   border-radius: 20px;
 }
-.gthumbs {
-  display: flex;
-  gap: 6px;
-  padding: 8px 10px 0;
-  overflow-x: auto;
-  scrollbar-width: thin;
-}
-.gthumb {
-  flex: 0 0 74px;
-  height: 52px;
-  padding: 0;
-  border: 2px solid transparent;
-  border-radius: 9px;
-  overflow: hidden;
-  background: var(--teal2);
-  opacity: 0.7;
-}
-.gthumb.active,
-.gthumb:hover {
-  border-color: var(--orange);
-  opacity: 1;
-}
-.gthumb img {
-  height: 100%;
-}
 .photo-count {
   position: absolute;
   right: 8px;
@@ -6067,5 +6042,394 @@ a.fact b {
   }
   .share-line {
     flex-direction: column;
+  }
+}
+
+/* ------------------------------------------------------------------
+   Sheet photo mosaic (desktop) and full-screen viewer. See openViewer.
+   ------------------------------------------------------------------ */
+.modalphoto.gallery:has(.gmosaic) {
+  height: auto;
+  border-radius: 22px 22px 0 0;
+}
+.gmosaic {
+  position: relative;
+  display: grid;
+  gap: 6px;
+  height: clamp(320px, 54vh, 470px);
+  grid-template-columns: 2fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  border-radius: 22px 22px 0 0;
+  overflow: hidden;
+}
+.gmosaic.n2 {
+  grid-template-columns: 3fr 2fr;
+  grid-template-rows: 1fr;
+}
+.gmosaic.n3 {
+  grid-template-columns: 2fr 1fr;
+}
+.gmosaic.n4 > .gtile:nth-child(2) {
+  grid-row: span 2;
+}
+.gtile {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  background: #1a1f1e;
+  cursor: zoom-in;
+  min-height: 0;
+}
+.gtile.main {
+  grid-row: 1 / -1;
+}
+.gmosaic .gtile img {
+  height: 100%;
+  border-radius: 0;
+  transition:
+    transform 0.4s,
+    filter 0.2s;
+}
+.gtile:hover img {
+  transform: scale(1.03);
+}
+.gtile::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: #000;
+  opacity: 0;
+  transition: opacity 0.2s;
+  pointer-events: none;
+}
+.gtile:hover::after {
+  opacity: 0.12;
+}
+.gtile:focus-visible {
+  outline: 3px solid var(--orange);
+  outline-offset: -3px;
+}
+.gtile .photo-caption {
+  z-index: 1;
+}
+.gmosaic .gtile:not(.main) .photo-caption {
+  display: none;
+}
+.gall {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  z-index: 3;
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  padding: 8px 14px;
+  border: 1px solid #0b292926;
+  border-radius: 10px;
+  background: #fffffff2;
+  color: var(--ink);
+  font-weight: 650;
+  font-size: 13px;
+  box-shadow: 0 4px 16px #0003;
+}
+.gall:hover {
+  background: #fff;
+}
+.gall .icon {
+  width: 15px;
+  height: 15px;
+}
+/* The large photo's credit sits bottom-left so it doesn't collide with the button. */
+.gmosaic .gtile.main .photo-caption {
+  text-align: left;
+}
+.gslide[data-action] {
+  cursor: zoom-in;
+}
+.gexpand {
+  position: absolute;
+  right: 12px;
+  bottom: 40px;
+  z-index: 2;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #0009;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  pointer-events: none;
+}
+.gexpand .icon {
+  width: 15px;
+  height: 15px;
+}
+
+.viewer {
+  --vw-fade: 1;
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: grid;
+  grid-template-rows: auto minmax(0, 1fr) auto;
+  background: rgb(10 12 12 / var(--vw-fade));
+  color: #fff;
+  opacity: 0;
+  transition: opacity 0.18s;
+  overscroll-behavior: contain;
+}
+.viewer.open {
+  opacity: 1;
+}
+.vw-top {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 16px;
+  padding-top: max(12px, env(safe-area-inset-top));
+  min-height: 64px;
+}
+.vw-count {
+  font-size: 13px;
+  font-weight: 650;
+  font-variant-numeric: tabular-nums;
+  color: #fffc;
+  min-width: 44px;
+}
+.vw-title {
+  flex: 1;
+  min-width: 0;
+  font-weight: 700;
+  font-size: 15px;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.vw-tools {
+  display: flex;
+  gap: 8px;
+}
+.vw-btn,
+.vw-nav {
+  width: 42px;
+  height: 42px;
+  border: 0;
+  border-radius: 50%;
+  background: #ffffff1f;
+  color: #fff;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.vw-btn:hover,
+.vw-nav:hover:not(:disabled) {
+  background: #ffffff3d;
+}
+.vw-btn:focus-visible,
+.vw-nav:focus-visible,
+.vw-thumb:focus-visible {
+  outline: 2px solid #fff;
+  outline-offset: 2px;
+}
+.vw-btn .icon,
+.vw-nav .icon {
+  width: 20px;
+  height: 20px;
+}
+.vw-track {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overscroll-behavior: contain;
+  touch-action: pan-x;
+  min-height: 0;
+}
+.vw-track::-webkit-scrollbar {
+  display: none;
+}
+.viewer.zoomed .vw-track {
+  overflow: hidden;
+  touch-action: none;
+}
+.vw-slide {
+  position: relative;
+  flex: 0 0 100%;
+  height: 100%;
+  scroll-snap-align: center;
+  scroll-snap-stop: always;
+  padding: 0 72px;
+  overflow: hidden;
+  display: grid;
+  place-items: center;
+}
+.vw-slide::before {
+  content: '';
+  position: absolute;
+  width: 28px;
+  height: 28px;
+  border: 3px solid #ffffff40;
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: vw-spin 0.8s linear infinite;
+}
+.vw-slide.loaded::before,
+.vw-slide.missing::before {
+  display: none;
+}
+@keyframes vw-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.vw-img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  user-select: none;
+  -webkit-user-drag: none;
+  cursor: zoom-in;
+  transition: transform 0.25s ease;
+  will-change: transform;
+}
+.viewer.zoomed .vw-img {
+  cursor: grab;
+}
+.viewer.zoomed .vw-img:active {
+  cursor: grabbing;
+}
+.vw-miss {
+  display: none;
+  position: absolute;
+  color: #fffb;
+  font-size: 14px;
+}
+.vw-slide.missing .vw-miss {
+  display: block;
+}
+.vw-slide.missing img {
+  visibility: hidden;
+}
+.vw-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 52px;
+  height: 52px;
+  z-index: 2;
+}
+.vw-nav.prev {
+  left: 14px;
+}
+.vw-nav.next {
+  right: 14px;
+}
+.vw-nav:disabled {
+  opacity: 0;
+  pointer-events: none;
+}
+.viewer.one .vw-nav {
+  display: none;
+}
+.vw-foot {
+  display: grid;
+  gap: 10px;
+  justify-items: center;
+  padding: 10px 16px 14px;
+  padding-bottom: max(14px, env(safe-area-inset-bottom));
+  min-width: 0;
+}
+.vw-credit {
+  font-size: 11px;
+  color: #fffa;
+  text-align: center;
+  max-width: 900px;
+  line-height: 1.5;
+}
+.vw-credit a {
+  color: #fffd;
+}
+.vw-strip {
+  display: flex;
+  gap: 8px;
+  max-width: 100%;
+  overflow-x: auto;
+  scrollbar-width: none;
+  padding: 3px;
+}
+.vw-strip::-webkit-scrollbar {
+  display: none;
+}
+.vw-thumb {
+  flex: 0 0 auto;
+  width: 84px;
+  height: 58px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #ffffff14;
+  opacity: 0.5;
+  cursor: pointer;
+  transition:
+    opacity 0.15s,
+    box-shadow 0.15s;
+}
+.vw-thumb:hover {
+  opacity: 0.85;
+}
+.vw-thumb.active {
+  opacity: 1;
+  box-shadow: 0 0 0 2px #fff;
+}
+.vw-thumb img {
+  height: 100%;
+  filter: var(--photo-filter);
+}
+.vw-top,
+.vw-foot,
+.vw-nav {
+  transition: opacity 0.2s;
+}
+.viewer.zoomed .vw-foot,
+.viewer.zoomed .vw-nav {
+  opacity: 0;
+  pointer-events: none;
+}
+.viewer.bare .vw-top,
+.viewer.bare .vw-foot {
+  opacity: 0;
+  pointer-events: none;
+}
+@media (max-width: 760px) {
+  .vw-top {
+    min-height: 56px;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
+  .vw-slide {
+    padding: 0;
+  }
+  .vw-nav {
+    display: none;
+  }
+  .vw-thumb {
+    width: 56px;
+    height: 42px;
+  }
+  .vw-credit {
+    font-size: 10px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .viewer,
+  .vw-img,
+  .gtile img {
+    transition: none;
   }
 }
