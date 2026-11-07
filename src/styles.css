@@ -537,17 +537,9 @@ small {
   border-radius: 30px;
   padding: 3px 9px;
 }
-.shoptier.tier-budget {
-  background: var(--teal2);
-  color: var(--teal);
-}
-.shoptier.tier-mid {
-  background: #f9ebd8;
-  color: #8b6024;
-}
 .shoptier.tier-high {
   background: var(--ink);
-  color: #fff;
+  color: var(--paper);
 }
 .shoptags {
   display: flex;

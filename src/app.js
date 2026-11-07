@@ -2583,7 +2583,7 @@ function shopSpots(c) {
   return `<div class="shopgrid">${list
     .map((s) => {
       const [sym, t] = SHOP_TIERS[s.tier] || ['', s.tier];
-      return `<article class="shopcard"><div class="shopcard-top"><span class="shoptier tier-${s.tier}" title="${t}">${sym} ${t}</span><small>${esc(s.area)}</small></div><h4>${esc(s.name)}</h4><p>${esc(s.summary)}</p><div class="shoptags">${s.styles.map((k) => `<span class="pill ${k === 'streetwear' ? 'warm' : 'gray'}">${esc(SHOP_STYLES[k] || k)}</span>`).join('')}</div><p class="shoptip"><strong>Tip:</strong> ${esc(s.tip)}</p>${external(shopMapsUrl(c, s), icon('pin') + ' Find on Google Maps', 'inline-link shopmap')}</article>`;
+      return `<article class="shopcard"><div class="shopcard-top"><span class="pill ${s.tier === 'mid' ? 'warm' : ''} shoptier tier-${s.tier}" title="${t}">${sym} ${t}</span><small>${esc(s.area)}</small></div><h4>${esc(s.name)}</h4><p>${esc(s.summary)}</p><div class="shoptags">${s.styles.map((k) => `<span class="pill ${k === 'streetwear' ? 'warm' : 'gray'}">${esc(SHOP_STYLES[k] || k)}</span>`).join('')}</div><p class="shoptip"><strong>Tip:</strong> ${esc(s.tip)}</p>${external(shopMapsUrl(c, s), icon('pin') + ' Find on Google Maps', 'inline-link shopmap')}</article>`;
     })
     .join('')}</div>`;
 }
