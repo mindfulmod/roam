@@ -751,6 +751,93 @@
     {
       "name": "European Central Bank reference exchange rates",
       "url": "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html"
+    },
+    {
+      "name": "Kayak: best time to travel (monthly price lows and highs)",
+      "url": "https://www.kayak.com/news/best-time-to-travel/"
+    },
+    {
+      "name": "Google Flights: cheapest times to book and fly",
+      "url": "https://www.google.com/travel/flights/booking-guide"
     }
-  ]
+  ],
+  "seasonAbout": "Each city's months are rated L (low), S (shoulder), H (high) or P (peak) for hotel demand, from tourism-board calendars, school holidays, festivals and typical hotel price swings. A city's hotel numbers are its year-round average; the month factors are rescaled so they average 1 across the year.",
+  "seasonHotel": {
+    "L": 0.78,
+    "S": 1,
+    "H": 1.2,
+    "P": 1.5
+  },
+  "seasonFare": {
+    "L": 0.93,
+    "S": 1,
+    "H": 1.04,
+    "P": 1.1
+  },
+  "fareMonths": {
+    "north": [0.88, 0.86, 0.94, 1.0, 0.98, 1.14, 1.24, 1.14, 0.9, 0.92, 0.9, 1.1],
+    "south": [1.16, 1.02, 0.92, 0.98, 0.9, 0.94, 1.12, 0.96, 0.92, 0.96, 1.0, 1.22]
+  },
+  "seasons": {
+    "tokyo": "LLHPHSHHSHHS",
+    "kyoto": "LLHPHSSSSHPS",
+    "osaka": "LLHPHSSSSHHS",
+    "seoul": "LLSHHSHHSHSS",
+    "taipei": "SHSHSSHHSHSS",
+    "hong-kong": "SHHSSLLLSHHP",
+    "singapore": "SHSSSSHSHSSH",
+    "bangkok": "PHSLLLSSLSHP",
+    "chiang-mai": "PHSLLLLLLSPP",
+    "hanoi": "SHSHSLLLSHHS",
+    "ho-chi-minh-city": "HPHSLLLLLSSH",
+    "siem-reap": "PHSLLLLLLSHP",
+    "ubud": "SLSSHHPPHSSP",
+    "kuala-lumpur": "SSSSSSHSSSSH",
+    "beijing": "LLSHPSHHSPLL",
+    "shanghai": "LHSHPSHHSPSL",
+    "kathmandu": "LLHHSLLLSPPS",
+    "istanbul": "LLSHHHPPHHSS",
+    "rome": "LLSHPHHHPHSS",
+    "florence": "LLSHPPHHPHSS",
+    "venice": "LHSHPPHHPHSS",
+    "naples": "LLSHHHPPHSLS",
+    "athens": "LLSHHPPPHSLL",
+    "santorini": "LLLSHPPPPHLL",
+    "chania": "LLLSHPPPHSLL",
+    "paris": "LLSHHPHSHHSH",
+    "london": "LLSSHHPPSSSH",
+    "cairo": "HHHSSLLLSHHP",
+    "luxor": "PHHSLLLLSHHP",
+    "marrakech": "SSPHSLLSSHSP",
+    "fez": "SSHHSLLLSHSH",
+    "cape-town": "PPHSLLLLSHHP",
+    "nairobi": "HHSLLHPPHSSH",
+    "arusha": "HHHLLHPPHHSP",
+    "cusco": "LLLSHPPPHSSS",
+    "lima": "HHSSSSHSSSSH",
+    "arequipa": "SSSSSHHHSSSS",
+    "la-paz": "SSSSSHHHSSSS",
+    "rio-de-janeiro": "HPSSSLHLSSSP",
+    "buenos-aires": "HHSSSLHLSHHH",
+    "santiago": "HHSSSLHLSSHH",
+    "cartagena": "PHHHSHHSLLSP",
+    "quito": "SSSSSHHHSSSH",
+    "puerto-iguazu": "HSSHSSHSSHSS",
+    "springdale": "LLHHPPPHHHSL",
+    "flagstaff": "LLHHHPPPHSLL",
+    "moab": "LLHPPHSSHPSL",
+    "jackson": "HHHLLPPPHLLP",
+    "mariposa": "LLSSHPPPHSLL",
+    "las-vegas": "SHHSSSSSSSHS",
+    "medellin": "HSSSSSHPSSSP",
+    "mexico-city": "SSHHSSHSSSHH",
+    "hiroshima": "LLHPHSSHSHHS",
+    "nara": "LLHPHSSSSHPS",
+    "busan": "LLSSHHPPSHSS",
+    "da-nang": "SHSSHPPPLLLS",
+    "dubai": "PPHSLLLLLSHP",
+    "barcelona": "LLSHHPPPHHSS",
+    "milan": "SHSPSSSLHSSS",
+    "zanzibar": "PHSLLSPPHSSP"
+  }
 }

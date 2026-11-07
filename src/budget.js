@@ -10,7 +10,7 @@ const COSTS = DATA.costs || { fx: { USD: 1 }, origins: [], cities: {} },
   BUDGET_CURRENCIES = [...new Set(['USD', ...ORIGINS.map((o) => o.currency)])];
 
 function defaultBudget() {
-  return { amount: 0, currency: '', origin: '', days: 7, people: 1, style: 'thrifty' };
+  return { amount: 0, currency: '', origin: '', days: 7, people: 1, style: 'thrifty', month: 0 };
 }
 function cleanBudget(b) {
   const d = defaultBudget();
@@ -22,6 +22,8 @@ function cleanBudget(b) {
   d.days = Math.min(30, Math.max(1, Math.round(Number(b.days) || 7)));
   d.people = Math.min(12, Math.max(1, Math.round(Number(b.people) || 1)));
   d.style = b.style === 'comfort' ? 'comfort' : 'thrifty';
+  const m = Math.round(Number(b.month));
+  d.month = m >= 1 && m <= 12 ? m : 0;
   return d;
 }
 // A first guess at the home city from the browser's time zone, so most people never touch it.
@@ -64,9 +66,49 @@ function cash(usd, cur = budgetCurrency()) {
   }
 }
 
+// ---------- Seasons ----------
+// Month 1-12, or 0 for "any time" (the year-round average). Hotels swing with each city's own
+// season; fares swing with the traveller's home hemisphere and, a little, the destination's.
+const MONTHS = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
+  MONTHS_LONG = [
+    'January',
+    'February',
+    'March',
+    'April',
+    'May',
+    'June',
+    'July',
+    'August',
+    'September',
+    'October',
+    'November',
+    'December',
+  ];
+const budgetMonth = () => B().month || 0;
+function seasonOf(c, m) {
+  return m ? COSTS.seasons?.[c.id]?.[m - 1] || 'S' : '';
+}
+const SEASON_LABEL = { L: 'Low season', S: 'Shoulder season', H: 'High season', P: 'Peak season' };
+function hotelFactor(c, m) {
+  const code = COSTS.seasons?.[c.id];
+  if (!m || !code) return 1;
+  const f = (k) => COSTS.seasonHotel[k] ?? 1,
+    mean = [...code].reduce((t, k) => t + f(k), 0) / 12;
+  return f(code[m - 1]) / mean;
+}
+function fareFactor(o, c, m) {
+  if (!m || !o) return 1;
+  const curve = COSTS.fareMonths?.[o.lat < 0 ? 'south' : 'north'];
+  return (curve?.[m - 1] ?? 1) * (COSTS.seasonFare?.[seasonOf(c, m)] ?? 1);
+}
+// The month a trip starting on this date is mostly in.
+function monthOfDate(d) {
+  return d ? d.getMonth() + 1 : 0;
+}
+
 // Typical round-trip economy fare per person, from a distance curve. Very short hops are
 // treated as a train or bus; smaller airports add a connecting leg.
-function fareUSD(o, c) {
+function fareUSD(o, c, m = budgetMonth()) {
   const km = hav(o, c),
     k = COSTS.cities[c.id] || {};
   if (km < COSTS.groundKm) return { lo: COSTS.ground[0], hi: COSTS.ground[1], km, ground: true };
@@ -80,7 +122,7 @@ function fareUSD(o, c) {
       break;
     }
   }
-  lo *= k.fare || 1;
+  lo *= (k.fare || 1) * fareFactor(o, c, m);
   if (o.region === c.region && km < 4000) lo *= COSTS.sameRegionShortHaul;
   let hi = lo * COSTS.fareHigh;
   const hop = km > 1500 && k.hop;
@@ -94,9 +136,11 @@ function dailyUSD(c) {
   return c.dailyBudget.map((n) => toUSD(n, c.currency));
 }
 // Cost of one city for the whole party, as [low, high] in USD per part.
-function cityCost(c, days = B().days, people = S.people, o = budgetOrigin()) {
-  const k = COSTS.cities[c.id] || { hotel: [80, 160] },
-    f = fareUSD(o, c),
+function cityCost(c, days = B().days, people = S.people, o = budgetOrigin(), m = budgetMonth()) {
+  const base = COSTS.cities[c.id] || { hotel: [80, 160] },
+    hf = hotelFactor(c, m),
+    k = { ...base, hotel: base.hotel.map((n) => n * hf) },
+    f = fareUSD(o, c, m),
     rooms = Math.ceil(people / 2),
     cars = Math.ceil(people / 5),
     d = dailyUSD(c);
@@ -106,12 +150,19 @@ function cityCost(c, days = B().days, people = S.people, o = budgetOrigin()) {
     daily: [d[0] * people * days, d[1] * people * days],
     car: k.car ? [COSTS.car[0] * cars * days, COSTS.car[1] * cars * days] : [0, 0],
   };
-  return { c, f, k, days, people, rooms, parts, total: sumParts(parts) };
+  return { c, f, k, m, season: seasonOf(c, m), days, people, rooms, parts, total: sumParts(parts) };
 }
 function sumParts(parts) {
   return Object.values(parts).reduce((t, [a, b]) => [t[0] + a, t[1] + b], [0, 0]);
 }
 const pick = (r) => (B().style === 'comfort' ? r[1] : r[0]);
+// The whole year for one city, so people can see when their money goes furthest.
+function cityYear(c, days = S.days[c.id] || c.days) {
+  return MONTHS.map((_, i) => ({
+    m: i + 1,
+    est: pick(cityCost(c, days, S.people, budgetOrigin(), i + 1).total),
+  }));
+}
 // A ready-made trip: fly into the first city and home from it, with a hop between cities.
 function templateCost(t, people = S.people, o = budgetOrigin()) {
   const legs = t.cities.length - 1,
@@ -157,7 +208,7 @@ function budgetForm() {
     )
     .join(
       '',
-    )}</select></div><div class="budget-line"><div class="budget-group days-group"><span class="budget-label">Trip length</span><div class="chips" role="group" aria-label="Trip length">${BUDGET_DAYS.map((d) => `<button class="chip ${b.days === d ? 'active' : ''}" data-action="bud-days" data-id="${d}">${d} days</button>`).join('')}</div></div><div class="budget-group"><span class="budget-label">Travellers</span><div class="stepper"><button data-action="bud-people" data-dir="-1" aria-label="Fewer travellers">−</button><strong id="bud-people">${S.people}</strong><button data-action="bud-people" data-dir="1" aria-label="More travellers">+</button></div></div><div class="budget-group"><span class="budget-label">Style</span><div class="chips" role="group" aria-label="Travel style">${[
+    )}</select></div><div class="field"><label for="bud-month">When</label><select id="bud-month"><option value="0">Any time (yearly average)</option>${MONTHS_LONG.map((m, i) => `<option value="${i + 1}" ${b.month === i + 1 ? 'selected' : ''}>${m}</option>`).join('')}</select></div><div class="budget-line"><div class="budget-group days-group"><span class="budget-label">Trip length</span><div class="chips" role="group" aria-label="Trip length">${BUDGET_DAYS.map((d) => `<button class="chip ${b.days === d ? 'active' : ''}" data-action="bud-days" data-id="${d}">${d} days</button>`).join('')}</div></div><div class="budget-group"><span class="budget-label">Travellers</span><div class="stepper"><button data-action="bud-people" data-dir="-1" aria-label="Fewer travellers">−</button><strong id="bud-people">${S.people}</strong><button data-action="bud-people" data-dir="1" aria-label="More travellers">+</button></div></div><div class="budget-group"><span class="budget-label">Style</span><div class="chips" role="group" aria-label="Travel style">${[
     ['thrifty', 'Thrifty'],
     ['comfort', 'Comfortable'],
   ]
@@ -228,7 +279,7 @@ function renderBudgetResults() {
   }
   const all = budgetCosts(),
     budget = budgetUSD(),
-    who = `${b.days} days · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'}`,
+    who = `${b.days} days · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} · ${b.month ? 'in ' + MONTHS_LONG[b.month - 1] : 'any time'}`,
     how = `<button class="inline-link" data-action="bud-method">${icon('info')} How we estimate</button>`;
   if (!budget) {
     el.innerHTML = `<p class="muted result-count">From ${esc(o.name)}, cheapest first · ${who} · ${how}</p><div class="citygrid">${all.map(budgetCard).join('')}</div>`;
@@ -302,7 +353,111 @@ function budgetPanel(c) {
       .filter(([, v]) => v > 0)
       .map(([p, v]) => `<i class="seg-${p}" style="flex:${v.toFixed(0)}"></i>`)
       .join('');
-  return `<section class="citycost" data-id="${c.id}" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p><span class="stepper mini"><button data-action="bud-citydays" data-id="${c.id}" data-dir="-1" aria-label="Fewer days">−</button><strong>${x.days} days</strong><button data-action="bud-citydays" data-id="${c.id}" data-dir="1" aria-label="More days">+</button></span> · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <button class="inline-link" data-action="bud-edit">Change</button></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button></section>`;
+  return `<section class="citycost" data-id="${c.id}" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p><span class="stepper mini"><button data-action="bud-citydays" data-id="${c.id}" data-dir="-1" aria-label="Fewer days">−</button><strong>${x.days} days</strong><button data-action="bud-citydays" data-id="${c.id}" data-dir="1" aria-label="More days">+</button></span> · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <button class="inline-link" data-action="bud-edit">Change</button></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button>${yearStrip(c, x.days)}${cityPriceLinks(c, x.days)}</section>`;
+}
+// Twelve bars, one per month: what this trip would cost if you left then. Tap one to price it.
+function yearStrip(c, days) {
+  const year = cityYear(c, days),
+    lo = Math.min(...year.map((y) => y.est)),
+    hi = Math.max(...year.map((y) => y.est)),
+    cheap = year.find((y) => y.est === lo),
+    dear = year.find((y) => y.est === hi),
+    m = budgetMonth();
+  const bars = year
+    .map((y) => {
+      const h = hi > lo ? 28 + ((y.est - lo) / (hi - lo)) * 72 : 60,
+        best = c.bestMonths.includes(y.m);
+      return `<button class="ybar ${y.m === m ? 'active' : ''} ${best ? 'best' : ''}" data-action="bud-month-pick" data-id="${y.m === m ? 0 : y.m}" aria-pressed="${y.m === m}" aria-label="${MONTHS_LONG[y.m - 1]}: about ${cash(y.est)}${best ? ', one of the best months to visit' : ''}"><i style="height:${h.toFixed(0)}%"></i><span>${MONTHS[y.m - 1][0]}</span></button>`;
+    })
+    .join('');
+  return `<div class="yearstrip"><div class="yearstrip-head"><strong>When is it cheapest?</strong><small>Cheapest in ${MONTHS_LONG[cheap.m - 1]} (≈ ${cash(cheap.est)}), priciest in ${MONTHS_LONG[dear.m - 1]} (≈ ${cash(dear.est)})</small></div><div class="ybars" role="group" aria-label="Estimated cost by month">${bars}</div><small class="yearstrip-key"><i></i> best months to visit · tap a month to price it${m ? ` · <button class="inline-link" data-action="bud-month-pick" data-id="0">Any time</button>` : ''}</small></div>`;
+}
+
+// ---------- Real prices ----------
+// Our numbers are estimates, so every estimate offers a one-tap hand-off to live search with the
+// cities, dates and travellers already filled in. No API, just prefilled search links.
+const isoDate = (d) =>
+  `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+function addDays(d, n) {
+  const x = new Date(d);
+  x.setDate(x.getDate() + n);
+  return x;
+}
+// A start date for a price search: the trip's own date, else the 10th of the next picked month.
+function searchStart(id) {
+  if (S.startDate && S.trip.includes(id)) return cityArrivalDate(id);
+  const m = budgetMonth();
+  if (!m) return null;
+  const now = new Date(),
+    d = new Date(now.getFullYear(), m - 1, 10);
+  if (d < addDays(now, 14)) d.setFullYear(d.getFullYear() + 1);
+  return d;
+}
+function flightsUrl(from, to, out, back) {
+  const q = `Flights from ${from} to ${to}${out ? ` on ${isoDate(out)}` : ''}${back ? ` through ${isoDate(back)}` : out ? ' one way' : ''}`;
+  return 'https://www.google.com/travel/flights?q=' + encodeURIComponent(q);
+}
+function hotelsUrl(c, inD, outD, people = S.people) {
+  const u = new URL('https://www.booking.com/searchresults.html');
+  u.searchParams.set('ss', `${c.name}, ${c.country}`);
+  if (inD) {
+    u.searchParams.set('checkin', isoDate(inD));
+    u.searchParams.set('checkout', isoDate(outD));
+  }
+  u.searchParams.set('group_adults', people);
+  u.searchParams.set('no_rooms', Math.ceil(people / 2));
+  return u.href;
+}
+function homesUrl(c, inD, outD, people = S.people) {
+  const u = new URL(
+    `https://www.airbnb.com/s/${encodeURIComponent(`${c.name}, ${c.country}`.replaceAll(', ', '--').replaceAll(' ', '-'))}/homes`,
+  );
+  if (inD) {
+    u.searchParams.set('checkin', isoDate(inD));
+    u.searchParams.set('checkout', isoDate(outD));
+  }
+  u.searchParams.set('adults', people);
+  return u.href;
+}
+const priceBtn = (url, label) =>
+  `<a class="pricebtn" href="${esc(url)}" target="_blank" rel="noopener noreferrer">${label} ${icon('external')}</a>`;
+function cityPriceLinks(c, days) {
+  const o = budgetOrigin(),
+    d = searchStart(c.id),
+    back = d && addDays(d, days);
+  return `<div class="pricelinks"><span>Check real prices${d ? ` for ${d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}–${back.toLocaleDateString('en-GB', { day: 'numeric', month: 'short' })}` : ''}</span><div>${o && hav(o, c) >= COSTS.groundKm ? priceBtn(flightsUrl(o.name, c.name, d, back), 'Flights') : ''}${priceBtn(hotelsUrl(c, d, back), 'Hotels')}${priceBtn(homesUrl(c, d, back), 'Homes')}</div></div>`;
+}
+function tripPriceLinks() {
+  const o = budgetOrigin(),
+    ids = S.trip;
+  if (!ids.length) return '';
+  const first = C[ids[0]],
+    last = C[ids.at(-1)],
+    start = searchStart(ids[0]),
+    end = start && addDays(start, totalDays() + transferDays()),
+    flights = !o
+      ? ''
+      : first.id === last.id
+        ? priceBtn(flightsUrl(o.name, first.name, start, end), 'Flights')
+        : priceBtn(flightsUrl(o.name, first.name, start), `Flight to ${esc(first.name)}`) +
+          priceBtn(flightsUrl(last.name, o.name, end), 'Flight home');
+  const stays = ids
+    .map((id, i) => {
+      const c = C[id],
+        nights = (S.days[id] || c.days) + (i ? 1 : 0),
+        inD =
+          start &&
+          (S.startDate
+            ? cityArrivalDate(id)
+            : addDays(
+                start,
+                ids.slice(0, i).reduce((t, x) => t + (S.days[x] || C[x].days) + 1, 0),
+              )),
+        outD = inD && addDays(inD, nights);
+      return priceBtn(hotelsUrl(c, inD, outD), `Hotels in ${esc(c.name)}`);
+    })
+    .join('');
+  return `<div class="pricelinks trip"><span>Check real prices${start ? '' : '<small>Set a start date to fill in your dates</small>'}</span><div>${flights}${stays}</div></div>`;
 }
 // The Trip page as a checkout: every cost of the planned trip in one currency, with one total.
 // Flights go out to the first city and home from the last; transfer days sleep in the next city.
@@ -319,8 +474,8 @@ function tripReceipt() {
   let total = [0, 0];
   const plus = (r) => (total = [total[0] + r[0], total[1] + r[1]]);
   if (o) {
-    const a = fareUSD(o, C[ids[0]]),
-      z = fareUSD(o, C[ids.at(-1)]),
+    const a = fareUSD(o, C[ids[0]], tripMonth(ids[0])),
+      z = fareUSD(o, C[ids.at(-1)], tripMonth(ids[0])),
       r = [((a.lo + z.lo) / 2) * n, ((a.hi + z.hi) / 2) * n];
     plus(
       add(
@@ -349,10 +504,12 @@ function tripReceipt() {
   ids.forEach((id, i) => {
     const c = C[id],
       nights = (S.days[id] || c.days) + (i ? 1 : 0),
-      x = cityCost(c, nights, n, o || c),
+      x = cityCost(c, nights, n, o || c, tripMonth(id)),
       own = Number(S.lodging[id]) || 0,
       extra = Number(S.extra[id]) || 0;
-    lines.push({ head: `${esc(c.name)} · ${nights} night${nights > 1 ? 's' : ''}` });
+    lines.push({
+      head: `${esc(c.name)} · ${nights} night${nights > 1 ? 's' : ''}${x.m ? ` · ${MONTHS[x.m - 1]}, ${SEASON_LABEL[x.season].toLowerCase()}` : ''}`,
+    });
     const stay = own ? Array(2).fill(toUSD(own, c.currency) * n * nights) : x.parts.stay;
     plus(
       add(
@@ -387,7 +544,12 @@ function tripReceipt() {
     l.head
       ? `<div class="rc-city">${l.head}</div>`
       : `<div class="rc-line ${l.cls}"><span>${l.label}<small>${l.sub}</small></span><b>${cash(style === 'comfort' ? l.r[1] : l.r[0])}</b></div>`;
-  return `<div class="sidepanel receipt"><div class="rc-top"><h3>Trip cost</h3><button class="inline-link" data-action="bud-edit">Change</button></div><p class="rc-who">${o ? `From ${esc(o.name)} · ` : ''}${n} traveller${n > 1 ? 's' : ''} · ${style === 'comfort' ? 'comfortable' : 'thrifty'}</p>${o ? '' : `<button class="btn light small" data-action="bud-edit">Add where you’re leaving from</button>`}${lines.map(row).join('')}<div class="rc-total"><span>Estimated total</span><b>≈ ${cash(est)}</b></div><p class="rc-sub">${n > 1 ? `About ${cash(est / n)} a person · ` : ''}range ${cash(total[0])}–${cash(total[1])}</p>${budget ? `<p class="rc-fit fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} under your ${cash(budget)} budget` : `${cash(est - budget)} over your ${cash(budget)} budget`}</p>` : ''}<p class="rc-note">Rough averages, not live prices. Not included: shopping, big tours, park fees, insurance. <button class="inline-link" data-action="bud-method">How we estimate</button></p></div>`;
+  return `<div class="sidepanel receipt"><div class="rc-top"><h3>Trip cost</h3><button class="inline-link" data-action="bud-edit">Change</button></div><p class="rc-who">${o ? `From ${esc(o.name)} · ` : ''}${n} traveller${n > 1 ? 's' : ''} · ${style === 'comfort' ? 'comfortable' : 'thrifty'} · ${S.startDate ? 'priced for your dates' : budgetMonth() ? `priced for ${MONTHS_LONG[budgetMonth() - 1]}` : 'year-round average'}</p>${o ? '' : `<button class="btn light small" data-action="bud-edit">Add where you’re leaving from</button>`}${lines.map(row).join('')}<div class="rc-total"><span>Estimated total</span><b>≈ ${cash(est)}</b></div><p class="rc-sub">${n > 1 ? `About ${cash(est / n)} a person · ` : ''}range ${cash(total[0])}–${cash(total[1])}</p>${budget ? `<p class="rc-fit fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} under your ${cash(budget)} budget` : `${cash(est - budget)} over your ${cash(budget)} budget`}</p>` : ''}<p class="rc-note">Rough averages, not live prices. Not included: shopping, big tours, park fees, insurance. <button class="inline-link" data-action="bud-method">How we estimate</button></p>${tripPriceLinks()}</div>`;
+}
+// Which month a city in the planned trip is priced for: its arrival month once the trip has a
+// start date, otherwise the month picked in the budget settings (or the yearly average).
+function tripMonth(id) {
+  return S.startDate ? monthOfDate(cityArrivalDate(id)) : budgetMonth();
 }
 function showBudgetMath(id) {
   const x = cityCost(C[id]),
@@ -397,7 +559,7 @@ function showBudgetMath(id) {
       `<tr><th>${label}<small>${sub}</small></th><td>${cash(r[0])}–${cash(r[1])}</td></tr>`;
   const per = `${S.people} traveller${S.people > 1 ? 's' : ''}`;
   showModal(
-    `<div class="modalcontent budget-math"><span class="eyebrow">${esc(c.country.toUpperCase())} · FROM ${esc(budgetOrigin().name.toUpperCase())}</span><h2>${esc(c.name)} for ${x.days} days</h2><p class="muted">Thrifty to comfortable, for ${per}. You chose ${b.style === 'comfort' ? 'comfortable, so we use the higher number' : 'thrifty, so we use the lower number'}.</p><table class="mathtable"><tbody>${row(
+    `<div class="modalcontent budget-math"><span class="eyebrow">${esc(c.country.toUpperCase())} · FROM ${esc(budgetOrigin().name.toUpperCase())}</span><h2>${esc(c.name)} for ${x.days} days</h2><p class="muted">${x.m ? `Priced for ${MONTHS_LONG[x.m - 1]}, ${SEASON_LABEL[x.season].toLowerCase()} in ${esc(c.name)}. ` : 'Year-round average. '}Thrifty to comfortable, for ${per}. You chose ${b.style === 'comfort' ? 'comfortable, so we use the higher number' : 'thrifty, so we use the lower number'}.</p><table class="mathtable"><tbody>${row(
       x.f.ground ? 'Getting there' : 'Flights',
       x.f.ground
         ? 'Round trip by train or bus'
@@ -409,15 +571,24 @@ function showBudgetMath(id) {
 }
 function showBudgetMethod() {
   showModal(
-    `<div class="modalcontent budget-math"><span class="eyebrow">HOW WE ESTIMATE</span><h2>Good enough to dream with.</h2><p>These are rough planning numbers, not prices you can book. They’re here to tell you what’s realistic, like whether flights alone will eat a $1,000 budget.</p><ul class="method-list"><li><strong>Flights</strong> come from the distance between your city and the destination, matched to typical round-trip economy fares. Places with small airports add a connecting flight. Trips under about ${COSTS.groundKm} km assume a train or bus.</li><li><strong>Hotels</strong> are typical nightly prices for a double room, from a good guesthouse (thrifty) to a comfortable mid-range hotel. Two travellers share a room.</li><li><strong>Daily spending</strong> covers food, local transport and ordinary sightseeing, from each city guide.</li><li><strong>National park towns</strong> add a rental car.</li><li><strong>Ready-made trips</strong> fly into the first city and home from it, with a short hop between cities.</li><li><strong>Exchange rates</strong> are fixed approximations, last set ${esc(COSTS.retrieved)}.</li></ul><p class="muted">Rounded editorial estimates informed by typical prices published on these sites. Check live prices before you book.</p><ul class="method-sources">${COSTS.sources.map((s) => `<li>${external(s.url, s.name + ' ↗')}</li>`).join('')}</ul></div>`,
+    `<div class="modalcontent budget-math"><span class="eyebrow">HOW WE ESTIMATE</span><h2>Good enough to dream with.</h2><p>These are rough planning numbers, not prices you can book. They’re here to tell you what’s realistic, like whether flights alone will eat a $1,000 budget.</p><ul class="method-list"><li><strong>Flights</strong> come from the distance between your city and the destination, matched to typical round-trip economy fares. Places with small airports add a connecting flight. Trips under about ${COSTS.groundKm} km assume a train or bus.</li><li><strong>Hotels</strong> are typical nightly prices for a double room, from a good guesthouse (thrifty) to a comfortable mid-range hotel. Two travellers share a room.</li><li><strong>Daily spending</strong> covers food, local transport and ordinary sightseeing, from each city guide.</li><li><strong>National park towns</strong> add a rental car.</li><li><strong>Ready-made trips</strong> fly into the first city and home from it, with a short hop between cities.</li><li><strong>Seasons</strong> change the price when you pick a month or set trip dates. Each city has its own calendar of low, shoulder, high and peak months, from tourism-board calendars, school holidays and festivals. Hotels in peak season cost about ${Math.round((COSTS.seasonHotel.P / COSTS.seasonHotel.L - 1) * 100)}% more than in low season. Fares follow the summer and December holidays where you live. With no month picked, you see the year-round average.</li><li><strong>Exchange rates</strong> are fixed approximations, last set ${esc(COSTS.retrieved)}.</li></ul><p class="muted">Rounded editorial estimates informed by typical prices published on these sites. Check live prices before you book.</p><ul class="method-sources">${COSTS.sources.map((s) => `<li>${external(s.url, s.name + ' ↗')}</li>`).join('')}</ul></div>`,
     'How we estimate',
   );
 }
 
+// One "when" for the whole app: the Explore month picker, budget settings and every estimate.
+function setMonth(m) {
+  B().month = m >= 1 && m <= 12 ? m : 0;
+  budgetChanged();
+  if (!location.hash.startsWith('#/budget') && typeof renderBrowse === 'function') renderBrowse();
+  if (typeof syncMonthChips === 'function') syncMonthChips();
+}
 function budgetChanged() {
   persist();
   renderBudgetResults();
   if (location.hash.startsWith('#/trip')) renderTrip();
+  else if (location.hash.startsWith('#/t/') && sharedTrip && $('.shared-page aside'))
+    $('.shared-page aside').innerHTML = sharedCost(sharedTrip);
   const panel = $('.citycost[data-id]');
   if (panel) panel.outerHTML = budgetPanel(C[panel.dataset.id]);
 }
@@ -425,7 +596,10 @@ document.addEventListener('click', (e) => {
   const t = e.target.closest('[data-action]');
   if (!t) return;
   const a = t.dataset.action;
-  if (a === 'bud-math') {
+  if (a === 'bud-month-pick') {
+    e.stopPropagation();
+    setMonth(Number(t.dataset.id));
+  } else if (a === 'bud-math') {
     e.stopPropagation();
     showBudgetMath(t.dataset.id);
   } else if (a === 'bud-method') showBudgetMethod();
@@ -468,6 +642,8 @@ document.addEventListener('change', (e) => {
   if (t.id === 'bud-cur') {
     B().currency = t.value === budgetOrigin()?.currency ? '' : t.value;
     budgetChanged();
+  } else if (t.id === 'bud-month') {
+    setMonth(Number(t.value));
   } else if (t.id === 'bud-origin') {
     B().origin = t.value;
     // The currency follows the home city unless the person picked one themselves.

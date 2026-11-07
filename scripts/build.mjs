@@ -48,11 +48,18 @@ const DATA = Object.fromEntries(meta.keyOrder.map((k) => [k, parts[k]]));
 // Escape "</" so data can never close the surrounding <script> tag.
 const dataJs = 'const DATA=' + JSON.stringify(DATA).replaceAll('</', '<\\/') + ';';
 
-const css = (await read('vendor/leaflet/leaflet.css')) + '\n' + (await read('src/styles.css'));
+const css =
+  (await read('vendor/leaflet/leaflet.css')) +
+  '\n' +
+  (await read('src/styles.css')) +
+  '\n' +
+  (await read('src/theme.css'));
 const js = [
   await read('vendor/leaflet/leaflet.js'),
   dataJs,
   await read('src/budget.js'),
+  await read('src/theme.js'),
+  await read('src/share.js'),
   await read('src/app.js'),
 ];
 let html = await read('src/index.html');
