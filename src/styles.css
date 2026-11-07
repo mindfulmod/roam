@@ -471,6 +471,135 @@ small {
 .chip:hover {
   border-color: var(--teal);
 }
+/* City shopping guide (Shopping filter on a city page) */
+.shopguide {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  padding: 22px;
+  margin: 0 0 26px;
+}
+.shopguide-head h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0 4px;
+}
+.shopguide-head p {
+  margin: 0 0 16px;
+  color: var(--muted);
+}
+.shopfilters .chips {
+  margin: 0 0 10px;
+}
+.shopfilters .shopstyles .chip {
+  min-height: 32px;
+  padding: 5px 11px;
+}
+.shopgrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 14px;
+  margin: 8px 0 14px;
+}
+.shopcard {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 14px 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.shopcard h4 {
+  margin: 0;
+  font-size: 15px;
+}
+.shopcard p {
+  margin: 0;
+  font-size: 13px;
+}
+.shopcard-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 8px;
+}
+.shopcard-top small {
+  color: var(--muted);
+  font-size: 11px;
+  text-align: right;
+}
+.shoptier {
+  flex: none;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 30px;
+  padding: 3px 9px;
+}
+.shoptier.tier-budget {
+  background: var(--teal2);
+  color: var(--teal);
+}
+.shoptier.tier-mid {
+  background: #f9ebd8;
+  color: #8b6024;
+}
+.shoptier.tier-high {
+  background: var(--ink);
+  color: #fff;
+}
+.shoptags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.shoptags .pill {
+  padding: 2px 8px;
+  font-size: 10px;
+}
+.shopcard .shoptip {
+  color: var(--muted);
+  font-size: 12px;
+}
+.shopcard .shopmap {
+  margin-top: auto;
+  font-size: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+}
+.shopguide-note {
+  display: block;
+  font-size: 11px;
+}
+.shopstops-h {
+  margin: 0 0 4px;
+}
+@media (max-width: 1100px) {
+  .shopgrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 760px) {
+  .shopguide {
+    padding: 16px;
+    margin-left: -2px;
+    margin-right: -2px;
+  }
+  .shopgrid {
+    grid-template-columns: 1fr;
+  }
+  .shopfilters .chips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+    padding-bottom: 2px;
+  }
+  .shopfilters .chip {
+    flex: none;
+  }
+}
 .citygrid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
