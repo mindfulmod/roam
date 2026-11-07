@@ -58,6 +58,10 @@ const paths = {
   print: 'M7 9V3h10v6M7 17H3V9h18v8h-4M7 14h10v8H7Z',
   shuffle: 'm3 5 4 0 10 14h4m-4-4 4 4-4 3M3 19h4L17 5h4m-4-3 4 3-4 4',
   sliders: 'M4 6h10M18 6h2M4 12h4M12 12h8M4 18h12M20 18h0M14 4v4M8 10v4M16 16v4',
+  expand: 'M15 3h6v6M21 3l-7 7M9 21H3v-6M3 21l7-7',
+  grid: 'M3 3h7v7H3ZM14 3h7v7h-7ZM3 14h7v7H3ZM14 14h7v7h-7Z',
+  zoomin: 'm21 21-4.3-4.3M11 8v6M8 11h6M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0',
+  zoomout: 'm21 21-4.3-4.3M8 11h6M19 11a8 8 0 1 1-16 0 8 8 0 0 1 16 0',
   globe: 'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M2 12h20M12 2c5 5 5 15 0 20-5-5-5-15 0-20',
   moon: 'M21 13A9 9 0 1 1 11 3a7 7 0 0 0 10 10Z',
   contrast: 'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 2v20',
@@ -219,7 +223,7 @@ function galleryUrl(g, w = 960) {
   return `https://upload.wikimedia.org/wikipedia/commons/thumb/${g.hh[0]}/${g.hh}/${n}/${w}px-${n}`;
 }
 function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
-  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide],.cityphoto')?.remove()">`;
+  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide],.cityphoto,.gtile')?.remove()">`;
 }
 function galleryCredit(g) {
   const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f),
@@ -232,24 +236,43 @@ function photoCount(id) {
     ? `<span class="photo-count" title="${n + 1} photos">${icon('camera')}${n + 1}</span>`
     : '';
 }
+// Photo area of a place or city sheet. Desktop gets a mosaic (one large photo and up to
+// four beside it, as Airbnb and Booking do); phones get a swipeable carousel (Instagram).
+// Either way, any photo opens the full-screen viewer below.
+function galleryHero(id, firstSlide, label) {
+  return galleryFor(id).length && !isMobile()
+    ? galleryMosaic(id, firstSlide)
+    : galleryCarousel(id, firstSlide, label);
+}
+function galleryMosaic(id, first) {
+  const gal = galleryFor(id),
+    n = gal.length + 1,
+    shown = Math.min(n, 5);
+  const tiles = gal
+    .slice(0, shown - 1)
+    .map(
+      (g, i) =>
+        `<button class="gtile" data-action="gal-open" data-id="${id}" data-i="${i + 1}" aria-label="View photo ${i + 2} of ${n} full screen">${galleryImg(g, false, '(max-width: 1100px) 25vw, 240px')}</button>`,
+    )
+    .join('');
+  return `<div class="gmosaic n${shown}"><figure class="gtile main" id="place-visual-main" data-action="gal-open" data-id="${id}" data-i="0" role="button" tabindex="0" aria-label="View photo 1 of ${n} full screen">${first}</figure>${tiles}<button class="gall" data-action="gal-open" data-id="${id}" data-i="0">${icon('grid')} Show all ${n} photos</button></div>`;
+}
 // Swipeable carousel: first slide is the existing main visual, then the Commons photos.
 function galleryCarousel(id, firstSlide, label) {
-  const gal = galleryFor(id);
+  const gal = galleryFor(id),
+    open = (i) =>
+      `data-action="gal-open" data-id="${id}" data-i="${i}" role="button" tabindex="-1" aria-label="View photo ${i + 1} full screen"`;
   const slides =
-    `<figure class="gslide" data-gslide id="place-visual-main">${firstSlide}</figure>` +
+    `<figure class="gslide" data-gslide id="place-visual-main" ${open(0)}>${firstSlide}</figure>` +
     gal
       .map(
-        (g) =>
-          `<figure class="gslide" data-gslide>${galleryImg(g)}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
+        (g, i) =>
+          `<figure class="gslide" data-gslide ${open(i + 1)}>${galleryImg(g)}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
       )
       .join('');
-  if (!gal.length) return `<div class="gtrack single">${slides}</div>`;
-  return `<div class="gtrack" tabindex="0" aria-label="${esc(label)}" data-gtrack>${slides}</div><button class="gnav prev" data-action="gal-step" data-dir="-1" aria-label="Previous photo">${icon('left')}</button><button class="gnav next" data-action="gal-step" data-dir="1" aria-label="Next photo">${icon('arrow')}</button><span class="gcount" aria-live="polite">1 / ${gal.length + 1}</span>`;
-}
-function galleryThumbs(id, mainThumb) {
-  const gal = galleryFor(id);
-  if (!gal.length) return '';
-  return `<div class="gthumbs" role="group" aria-label="Choose a photo"><button class="gthumb active" data-action="gal-go" data-i="0" aria-label="Photo 1">${mainThumb}</button>${gal.map((g, i) => `<button class="gthumb" data-action="gal-go" data-i="${i + 1}" aria-label="Photo ${i + 2}"><img class="photo" src="${esc(galleryUrl(g, 500))}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" onerror="this.parentElement.remove()"></button>`).join('')}</div>`;
+  const expand = `<span class="gexpand" aria-hidden="true">${icon('expand')}</span>`;
+  if (!gal.length) return `<div class="gtrack single">${slides}</div>${expand}`;
+  return `<div class="gtrack" tabindex="0" aria-label="${esc(label)}" data-gtrack>${slides}</div><button class="gnav prev" data-action="gal-step" data-dir="-1" aria-label="Previous photo">${icon('left')}</button><button class="gnav next" data-action="gal-step" data-dir="1" aria-label="Next photo">${icon('arrow')}</button><span class="gcount" aria-live="polite">1 / ${gal.length + 1}</span>${expand}`;
 }
 function galleryScope(el) {
   return el.closest('[data-gscope]') || document;
@@ -274,9 +297,6 @@ document.addEventListener(
       n = t.querySelectorAll('[data-gslide]').length;
     const c = scope.querySelector('.gcount');
     if (c) c.textContent = `${i + 1} / ${n}`;
-    scope
-      .querySelectorAll('.gthumb')
-      .forEach((b) => b.classList.toggle('active', +b.dataset.i === i));
   },
   true,
 );
@@ -293,19 +313,400 @@ function cityPhotos(c) {
   if (!gal.length) return '';
   return `<section class="cityphotos" aria-label="Photos of ${esc(c.name)}"><div class="cityphotos-head"><h3>${icon('camera')} See what to expect</h3><small>${gal.length} more photos · Wikimedia Commons</small></div><div class="cityphotos-row">${gal.map((g, i) => `<button class="cityphoto" data-action="city-photos" data-id="${c.id}" data-i="${i + 1}" aria-label="Open photo ${i + 2} of ${esc(c.name)}">${galleryImg(g, true, '(max-width: 700px) 70vw, 320px')}</button>`).join('')}</div></section>`;
 }
-function openCityPhotos(id, i = 0) {
-  if (!validCity(id)) return;
-  const c = C[id];
-  showModal(
-    `<div data-gscope><div class="modalphoto gallery tall">${galleryCarousel(id, `${photoTag(id, '', false)}<figcaption class="photo-caption">${photoCredit(id)}</figcaption>`, 'Photos of ' + c.name)}</div>${galleryThumbs(id, photoTag(id))}</div><div class="modalcontent"><h2 id="modal-heading">${esc(c.name)}</h2><p class="lead">${esc(c.tagline)}</p><p class="filter-note">Extra photos come from the Wikipedia article about ${esc(c.name)} and are hosted by Wikimedia Commons under the licences shown on each photo. They need an internet connection.</p></div>`,
-    'Photos of ' + c.name,
+/* ------------------------------------------------------------------
+   Full-screen photo viewer (Google Photos, Instagram, Unsplash).
+   Dark backdrop, the whole photo uncropped at the largest size that
+   fits, a filmstrip and credit underneath. Click or double-tap to zoom
+   where you point, scroll or pinch to zoom further, drag to pan. Swipe
+   or arrow keys to move, swipe down / Esc / Back to close.
+   ------------------------------------------------------------------ */
+let VW = null;
+const commonsOriginal = (g) =>
+  `https://upload.wikimedia.org/wikipedia/commons/${g.hh[0]}/${g.hh}/${commonsName(g.f)}`;
+function viewerItems(id, scope) {
+  const name = P[id]?.name || C[id]?.name || '';
+  // The first photo is whatever the sheet shows now (a place may be on its illustration).
+  const main = scope?.querySelector('#place-visual-main');
+  const mainImg = main?.querySelector('img');
+  const first = mainImg
+    ? {
+        src: mainImg.currentSrc || mainImg.src,
+        alt: mainImg.alt,
+        vivid: mainImg.classList.contains('photo'),
+        credit: main.querySelector('.photo-caption')?.innerHTML || '',
+      }
+    : PHOTO[id]
+      ? { src: PHOTO[id].data, alt: PHOTO[id].alt || name, vivid: true, credit: photoCredit(id) }
+      : ART[id]
+        ? { src: ART[id].data, alt: ART[id].alt, vivid: false, credit: artCaption(id) }
+        : null;
+  const items = first ? [{ ...first, thumb: first.src, r: 0 }] : [];
+  for (const g of galleryFor(id))
+    items.push({
+      g,
+      src: galleryUrl(g, 1920),
+      thumb: galleryUrl(g, 500),
+      alt: g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '),
+      vivid: true,
+      credit: galleryCredit(g),
+      r: g.w / g.h,
+    });
+  return { name, items };
+}
+function openViewer(id, start = 0, from) {
+  const scope = from?.closest('[data-gscope]');
+  const { name, items } = viewerItems(id, scope);
+  if (!items.length) return;
+  closeViewer('swap');
+  const n = items.length,
+    one = n < 2;
+  const x = document.createElement('div');
+  x.className = 'viewer' + (one ? ' one' : '');
+  x.setAttribute('role', 'dialog');
+  x.setAttribute('aria-modal', 'true');
+  x.setAttribute('aria-label', 'Photos of ' + name);
+  x.innerHTML = `<div class="vw-top"><span class="vw-count" aria-live="polite"></span><span class="vw-title">${esc(name)}</span><div class="vw-tools"><button class="vw-btn" data-vw="zoom" aria-label="Zoom in" title="Zoom (Z)">${icon('zoomin')}</button><button class="vw-btn" data-vw="close" aria-label="Close photos" title="Close (Esc)">${icon('close')}</button></div></div><div class="vw-track">${items
+    .map(
+      (it, i) =>
+        `<div class="vw-slide" data-i="${i}"><img class="vw-img${it.vivid ? ' photo' : ''}" data-src="${esc(it.src)}" alt="${esc(it.alt)}" draggable="false" decoding="async" referrerpolicy="no-referrer"><span class="vw-miss">This photo needs an internet connection.</span></div>`,
+    )
+    .join(
+      '',
+    )}</div><button class="vw-nav prev" data-vw="prev" aria-label="Previous photo">${icon('left')}</button><button class="vw-nav next" data-vw="next" aria-label="Next photo">${icon('arrow')}</button><div class="vw-foot"><div class="vw-credit"></div>${
+    one
+      ? ''
+      : `<div class="vw-strip" role="group" aria-label="Choose a photo">${items
+          .map(
+            (it, i) =>
+              `<button class="vw-thumb" data-vw="go" data-i="${i}" aria-label="Photo ${i + 1} of ${n}"><img src="${esc(it.thumb)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" draggable="false"></button>`,
+          )
+          .join('')}</div>`
+  }</div>`;
+  document.body.appendChild(x);
+  const track = x.querySelector('.vw-track');
+  VW = {
+    x,
+    track,
+    items,
+    i: -1,
+    z: { s: 1, x: 0, y: 0 },
+    id,
+    scope,
+    focus: document.activeElement,
+    overflow: document.body.style.overflow,
+  };
+  document.body.style.overflow = 'hidden';
+  x.querySelectorAll('.vw-img').forEach((img) => {
+    img.addEventListener('load', () => img.parentElement.classList.add('loaded'));
+    img.addEventListener('error', () => viewerImgFailed(img));
+  });
+  track.addEventListener(
+    'scroll',
+    () => {
+      // While an arrow or thumbnail click is gliding to a photo, ignore the frames in between.
+      if (VW?.target != null) {
+        if (Math.round(track.scrollLeft / Math.max(1, track.clientWidth)) !== VW.target) return;
+        VW.target = null;
+      }
+      viewerSync();
+    },
+    { passive: true },
   );
+  viewerGestures(x, track);
+  history.pushState({ ...(history.state || {}), roamViewer: 1 }, '');
+  VW.history = true;
   requestAnimationFrame(() => {
-    const t = $('.modal [data-gtrack]');
-    const s = t?.querySelectorAll('[data-gslide]')[i];
-    if (s) t.scrollLeft = s.offsetLeft;
+    track.scrollLeft = start * track.clientWidth;
+    viewerSync(start);
+    x.classList.add('open');
+    x.querySelector('[data-vw="close"]').focus({ preventScroll: true });
   });
 }
+// Show the 1920px rendition; if it can't load, try the original file before giving up.
+function viewerImgFailed(img) {
+  const it = VW?.items[+img.closest('.vw-slide').dataset.i];
+  if (it?.g && img.dataset.tried !== 'orig') {
+    img.dataset.tried = 'orig';
+    img.src = commonsOriginal(it.g);
+  } else img.parentElement.classList.add('missing');
+}
+function viewerLoad(i) {
+  const img = VW.x.querySelectorAll('.vw-img')[i];
+  if (img && !img.getAttribute('src')) img.src = img.dataset.src;
+}
+function viewerSync(force) {
+  if (!VW) return;
+  const { x, track, items } = VW;
+  const i =
+    force ??
+    Math.max(
+      0,
+      Math.min(items.length - 1, Math.round(track.scrollLeft / Math.max(1, track.clientWidth))),
+    );
+  if (i === VW.i) return;
+  if (VW.i >= 0) viewerZoom(1);
+  VW.i = i;
+  [i, i + 1, i - 1].forEach((k) => k >= 0 && k < items.length && viewerLoad(k));
+  x.querySelector('.vw-count').textContent = items.length > 1 ? `${i + 1} / ${items.length}` : '';
+  x.querySelector('.vw-credit').innerHTML = items[i].credit;
+  x.querySelector('.prev').disabled = i === 0;
+  x.querySelector('.next').disabled = i === items.length - 1;
+  x.querySelectorAll('.vw-thumb').forEach((b) => {
+    const on = +b.dataset.i === i;
+    b.classList.toggle('active', on);
+    if (on) b.setAttribute('aria-current', 'true');
+    else b.removeAttribute('aria-current');
+    if (on) {
+      const s = b.parentElement;
+      s.scrollTo({ left: b.offsetLeft - (s.clientWidth - b.offsetWidth) / 2, behavior: 'smooth' });
+    }
+  });
+}
+function viewerGo(i) {
+  if (!VW) return;
+  i = Math.max(0, Math.min(VW.items.length - 1, i));
+  viewerZoom(1);
+  VW.target = i;
+  clearTimeout(VW.targetTimer);
+  VW.targetTimer = setTimeout(() => VW && (VW.target = null), 900);
+  VW.track.scrollTo({ left: i * VW.track.clientWidth, behavior: 'smooth' });
+  viewerSync(i);
+}
+function closeViewer(how = 'user') {
+  if (!VW) return;
+  const v = VW;
+  VW = null;
+  v.x.remove();
+  document.body.style.overflow = v.overflow;
+  // Leave the sheet's carousel on the photo you were last looking at.
+  const t = v.scope?.querySelector('[data-gtrack]');
+  const s = t?.querySelectorAll('[data-gslide]')[v.i];
+  if (s) t.scrollLeft = s.offsetLeft;
+  if (how !== 'swap' && v.focus?.isConnected) v.focus.focus({ preventScroll: true });
+  if (v.history && how !== 'history' && history.state?.roamViewer) history.back();
+}
+window.addEventListener('popstate', () => {
+  if (VW && !history.state?.roamViewer) closeViewer('history');
+});
+// The photo's on-screen box inside its slide (the image is object-fit: contain).
+function viewerBox() {
+  const slide = VW.x.querySelectorAll('.vw-slide')[VW.i],
+    img = slide.querySelector('img'),
+    W = slide.clientWidth,
+    H = slide.clientHeight,
+    r = img.naturalWidth ? img.naturalWidth / img.naturalHeight : VW.items[VW.i].r || W / H,
+    w = Math.min(W, H * r);
+  return { slide, img, W, H, w, h: w / r };
+}
+// Zoom to scale s, keeping the point (px, py), measured from the slide's centre, still.
+function viewerZoom(s, px = 0, py = 0, animate = true) {
+  if (!VW || VW.i < 0) return;
+  const { img, W, H, w, h } = viewerBox(),
+    z = VW.z;
+  s = Math.max(1, Math.min(5, s));
+  z.x = px - ((px - z.x) * s) / z.s;
+  z.y = py - ((py - z.y) * s) / z.s;
+  z.s = s;
+  viewerPan(0, 0, { img, W, H, w, h }, animate);
+  if (s > 1.6) viewerSharpen();
+}
+function viewerPan(dx, dy, box = viewerBox(), animate = false) {
+  const z = VW.z,
+    mx = Math.max(0, (box.w * z.s - box.W) / 2),
+    my = Math.max(0, (box.h * z.s - box.H) / 2);
+  z.x = Math.max(-mx, Math.min(mx, z.x + dx));
+  z.y = Math.max(-my, Math.min(my, z.y + dy));
+  if (z.s === 1) z.x = z.y = 0;
+  box.img.style.transition = animate ? '' : 'none';
+  box.img.style.transform = z.s === 1 ? '' : `translate(${z.x}px, ${z.y}px) scale(${z.s})`;
+  const zoomed = z.s > 1;
+  VW.x.classList.toggle('zoomed', zoomed);
+  const b = VW.x.querySelector('[data-vw="zoom"]');
+  b.innerHTML = icon(zoomed ? 'zoomout' : 'zoomin');
+  b.setAttribute('aria-label', zoomed ? 'Zoom out' : 'Zoom in');
+}
+// Zoomed in on a Commons photo: swap in the original file so the detail is real. Commons
+// upscales thumbnails wider than the file, so a bigger thumbnail wouldn't add detail.
+function viewerSharpen() {
+  const it = VW.items[VW.i],
+    img = viewerBox().img;
+  if (!it.g || img.dataset.tried || !img.complete) return;
+  img.dataset.tried = 'orig';
+  const big = new Image();
+  big.referrerPolicy = 'no-referrer';
+  big.onload = () => {
+    if (big.naturalWidth > img.naturalWidth) img.src = big.src;
+  };
+  big.src = commonsOriginal(it.g);
+}
+function viewerPoint(e) {
+  const r = viewerBox().slide.getBoundingClientRect();
+  return [e.clientX - r.left - r.width / 2, e.clientY - r.top - r.height / 2];
+}
+function viewerToggleZoom(e) {
+  if (VW.z.s > 1) viewerZoom(1);
+  else viewerZoom(2.5, ...(e ? viewerPoint(e) : [0, 0]));
+}
+function viewerGestures(x, track) {
+  const pts = new Map();
+  let g = null,
+    lastTap = 0,
+    tapTimer = 0;
+  track.addEventListener('pointerdown', (e) => {
+    if (!e.target.closest('.vw-slide') || !VW) return;
+    pts.set(e.pointerId, [e.clientX, e.clientY]);
+    const z = VW.z;
+    if (pts.size === 2) {
+      const [a, b] = [...pts.values()];
+      g = {
+        pinch: true,
+        d0: Math.hypot(a[0] - b[0], a[1] - b[1]),
+        s0: z.s,
+        moved: true,
+      };
+    } else if (pts.size === 1) {
+      g = { x0: e.clientX, y0: e.clientY, zx: z.x, zy: z.y, moved: false, type: e.pointerType };
+      if (z.s > 1 || e.pointerType === 'mouse') track.setPointerCapture(e.pointerId);
+    }
+  });
+  track.addEventListener('pointermove', (e) => {
+    if (!g || !pts.has(e.pointerId) || !VW) return;
+    pts.set(e.pointerId, [e.clientX, e.clientY]);
+    const z = VW.z;
+    if (g.pinch && pts.size === 2) {
+      const [a, b] = [...pts.values()];
+      const d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+      viewerZoom(
+        (g.s0 * d) / g.d0,
+        ...viewerPoint({ clientX: (a[0] + b[0]) / 2, clientY: (a[1] + b[1]) / 2 }),
+        false,
+      );
+      return;
+    }
+    const dx = e.clientX - g.x0,
+      dy = e.clientY - g.y0;
+    if (Math.hypot(dx, dy) > 6) g.moved = true;
+    if (z.s > 1) {
+      z.x = g.zx;
+      z.y = g.zy;
+      viewerPan(dx, dy);
+    } else if (g.type !== 'mouse' && (g.down || (g.moved && Math.abs(dy) > Math.abs(dx)))) {
+      // Swipe down to put the photo away.
+      g.down = true;
+      const img = viewerBox().img;
+      img.style.transition = 'none';
+      img.style.transform = `translate(${dx * 0.4}px, ${Math.max(0, dy)}px) scale(${1 - Math.min(0.25, Math.max(0, dy) / 1200)})`;
+      x.style.setProperty('--vw-fade', String(Math.max(0.3, 1 - Math.max(0, dy) / 400)));
+    }
+  });
+  const end = (e) => {
+    if (!pts.has(e.pointerId)) return;
+    pts.delete(e.pointerId);
+    if (!g || !VW) return;
+    if (g.pinch) {
+      if (!pts.size) g = null;
+      return;
+    }
+    if (g.down) {
+      const dy = e.clientY - g.y0;
+      x.style.removeProperty('--vw-fade');
+      if (dy > 110 && e.type === 'pointerup') return closeViewer();
+      const img = viewerBox().img;
+      img.style.transition = '';
+      img.style.transform = '';
+    } else if (!g.moved && e.type === 'pointerup') {
+      if (g.type === 'mouse') {
+        // Click the photo to zoom there; click the dark space around it to close.
+        const [px, py] = viewerPoint(e),
+          { w, h } = viewerBox();
+        if (VW.z.s === 1 && (Math.abs(px) > w / 2 + 4 || Math.abs(py) > h / 2 + 4)) closeViewer();
+        else viewerToggleZoom(e);
+      } else {
+        const now = Date.now(),
+          ev = { clientX: e.clientX, clientY: e.clientY };
+        if (now - lastTap < 300) {
+          clearTimeout(tapTimer);
+          lastTap = 0;
+          viewerToggleZoom(ev);
+        } else {
+          lastTap = now;
+          // A single tap hides the controls so the photo has the whole screen.
+          tapTimer = setTimeout(() => x.classList.toggle('bare'), 300);
+        }
+      }
+    }
+    g = null;
+  };
+  track.addEventListener('pointerup', end);
+  track.addEventListener('pointercancel', end);
+  track.addEventListener(
+    'wheel',
+    (e) => {
+      if (!VW) return;
+      // Sideways trackpad swipes still page through photos; vertical scroll and pinch zoom.
+      if (VW.z.s === 1 && !e.ctrlKey && Math.abs(e.deltaX) > Math.abs(e.deltaY)) return;
+      e.preventDefault();
+      const k = e.deltaMode === 1 ? 0.05 : 0.0025;
+      viewerZoom(VW.z.s * Math.exp(-e.deltaY * k * (e.ctrlKey ? 4 : 1)), ...viewerPoint(e), false);
+    },
+    { passive: false },
+  );
+  x.addEventListener('dragstart', (e) => e.preventDefault());
+  x.addEventListener('click', (e) => {
+    const b = e.target.closest('[data-vw]');
+    if (!b) {
+      // Clicking the dark area around the photo (not the photo) closes, as in most lightboxes.
+      if (e.target === x || e.target.classList.contains('vw-foot')) closeViewer();
+      return;
+    }
+    const a = b.dataset.vw;
+    if (a === 'close') closeViewer();
+    else if (a === 'prev') viewerGo(VW.i - 1);
+    else if (a === 'next') viewerGo(VW.i + 1);
+    else if (a === 'go') viewerGo(+b.dataset.i);
+    else if (a === 'zoom') viewerToggleZoom();
+  });
+}
+// Runs before the sheet's own key handling, so Esc closes only the viewer.
+window.addEventListener(
+  'keydown',
+  (e) => {
+    if (!VW) return;
+    const k = e.key;
+    if (k === 'Escape') closeViewer();
+    else if (k === 'ArrowRight' || k === 'ArrowLeft') {
+      if (VW.z.s > 1) viewerPan(k === 'ArrowRight' ? -80 : 80, 0);
+      else viewerGo(VW.i + (k === 'ArrowRight' ? 1 : -1));
+    } else if ((k === 'ArrowUp' || k === 'ArrowDown') && VW.z.s > 1)
+      viewerPan(0, k === 'ArrowDown' ? -80 : 80);
+    else if (k === '+' || k === '=') viewerZoom(VW.z.s * 1.5);
+    else if (k === '-') viewerZoom(VW.z.s / 1.5);
+    else if (k === '0') viewerZoom(1);
+    else if (k === 'z' || k === 'Z') viewerToggleZoom();
+    else if (k === 'Tab') {
+      const f = [...VW.x.querySelectorAll('button:not(:disabled),a[href]')].filter(
+        (el) => el.offsetParent,
+      );
+      const at = f.indexOf(document.activeElement);
+      e.preventDefault();
+      f[(at + (e.shiftKey ? -1 : 1) + f.length) % f.length]?.focus();
+    } else return;
+    e.preventDefault();
+    e.stopPropagation();
+  },
+  true,
+);
+window.addEventListener('resize', () => {
+  if (!VW) return;
+  viewerZoom(1, 0, 0, false);
+  VW.track.scrollLeft = VW.i * VW.track.clientWidth;
+});
+// Photo tiles in a sheet, the sheet carousel and the city page's photo row open the viewer.
+document.addEventListener('click', (e) => {
+  const b = e.target.closest('[data-action="gal-open"]');
+  if (!b || e.target.closest('a')) return;
+  openViewer(b.dataset.id, Number(b.dataset.i) || 0, b);
+});
 function photoCredit(id) {
   const p = PHOTO[id];
   if (!p) return '';
@@ -2160,7 +2561,7 @@ function openPlace(id) {
     stay = S.stays[c.id];
   const bullets = (x) => (Array.isArray(x) ? x : x ? [x] : []);
   showModal(
-    `<div data-gscope><div class="modalphoto gallery" id="place-visual">${galleryCarousel(id, `${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div>`, 'Photos of ' + p.name)}</div>${galleryThumbs(id, visualTag(id))}</div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><section class="rank-reason"><h3>${icon('star')} Why it ranks here</h3>${rankBreakdown(p)}${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
+    `<div data-gscope><div class="modalphoto gallery" id="place-visual">${galleryHero(id, `${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div>`, 'Photos of ' + p.name)}</div></div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><section class="rank-reason"><h3>${icon('star')} Why it ranks here</h3>${rankBreakdown(p)}${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
       p.whyVisit || p.expect,
     )
       .map((x) => `<li>${esc(x)}</li>`)
@@ -2688,7 +3089,7 @@ document.addEventListener('click', (e) => {
       t = scope.querySelector('[data-gtrack]');
     if (t) galleryGo(scope, galleryIndex(t) + Number(b.dataset.dir));
   } else if (a === 'gal-go') galleryGo(galleryScope(b), Number(b.dataset.i));
-  else if (a === 'city-photos') openCityPhotos(id, Number(b.dataset.i) || 0);
+  else if (a === 'city-photos') openViewer(id, Number(b.dataset.i) || 0);
   else if (a === 'place-filters') openFilters();
 });
 document.addEventListener('input', (e) => {
