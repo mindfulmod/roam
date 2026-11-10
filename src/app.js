@@ -2012,6 +2012,8 @@ function doImport(merge) {
 }
 function route() {
   closeModal();
+  storyLeave();
+  document.title = 'Roam Atlas — Your world, ready to explore';
   if (map) {
     map.remove();
     map = null;
@@ -2040,6 +2042,7 @@ function route() {
   else if (parts[0] === 'guide') renderGuide();
   else if (parts[0] === 'budget') renderBudget();
   else if (parts[0] === 't' && parts[1]) renderShared(parts[1]);
+  else if (parts[0] === 'story') renderStory(parts[1] || '');
   else renderExplore();
 }
 // Discovery, transparent rankings, dietary evidence and accommodation origins.
@@ -2819,7 +2822,7 @@ document.addEventListener('click', (e) => {
 function renderExplore() {
   headerActive('explore');
   $('#app').innerHTML =
-    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1><p>${CITIES.length} places worth the trip, ranked so you can see why.</p><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="Search a city, country or landmark" value="${esc(browseQuery)}"></div><div class="quickacts"><button class="quickact" data-action="surprise">${icon('shuffle')} Surprise me</button><a class="quickact" href="#/budget">${icon('wallet')} Trips for my budget</a><a class="quickact" href="#/map">${icon('map')} Browse the map</a><a class="quickact" href="#/trip">${icon('route')} Plan a trip</a></div></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div>${monthChips()}<div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
+    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1><p>${CITIES.length} places worth the trip, ranked so you can see why.</p><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="Search a city, country or landmark" value="${esc(browseQuery)}"></div><div class="quickacts"><button class="quickact" data-action="surprise">${icon('shuffle')} Surprise me</button><a class="quickact" href="#/budget">${icon('wallet')} Trips for my budget</a><a class="quickact" href="#/map">${icon('map')} Browse the map</a><a class="quickact" href="#/trip">${icon('route')} Plan a trip</a></div></div><span class="hero-credit">${photoCredit('kyoto')}</span></section>${storyTeaser()}<div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div>${monthChips()}<div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
       ['tourism', 'Tourism index'],
       ['arrivals', 'Most visited'],
       ['personal', 'Japan first'],

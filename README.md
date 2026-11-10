@@ -18,6 +18,7 @@ no framework and no backend. Your saved places and trips stay in the browser (`l
 | `data/photos.json`, `data/art.json` | Image metadata and credits; `data` points to a file in `images/` |
 | `data/gallery.json` | Extra Wikimedia Commons photos per city/place (hotlinked thumbnails, author and licence); rebuilt by `node scripts/refresh-gallery.mjs` |
 | `data/popularity.json` | Sources behind the popularity ranking |
+| `data/stories.json`, `src/story.js`, `src/story.css` | Trip stories (`#/story/<id>`): a logged trip as a route map and timeline. The only one so far is a made-up sample |
 | `data/world.geojson` | Country outlines (Natural Earth 1:110m) |
 | `images/` | Photos (Pexels) and illustrations, as WebP |
 | `vendor/leaflet/` | Leaflet 1.9.4 |

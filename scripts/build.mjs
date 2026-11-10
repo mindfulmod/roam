@@ -45,6 +45,7 @@ const parts = {
   popularity: await readJson('data/popularity.json'),
   costs: await readJson('data/costs.json'),
   world: await readJson('data/world.geojson'),
+  stories: await readJson('data/stories.json'),
   retrieved: meta.retrieved,
   version: meta.version,
 };
@@ -57,6 +58,8 @@ const css =
   '\n' +
   (await read('src/styles.css')) +
   '\n' +
+  (await read('src/story.css')) +
+  '\n' +
   (await read('src/theme.css'));
 const js = [
   await read('vendor/leaflet/leaflet.js'),
@@ -64,6 +67,7 @@ const js = [
   await read('src/budget.js'),
   await read('src/theme.js'),
   await read('src/share.js'),
+  await read('src/story.js'),
   await read('src/app.js'),
 ];
 let html = await read('src/index.html');

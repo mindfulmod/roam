@@ -1,0 +1,487 @@
+{
+  "japan-sample": {
+    "sample": true,
+    "title": "Japan, the four of us",
+    "blurb": "Nine days from Tokyo to Osaka, logged as we went.",
+    "cover": "kyoto-fushimi",
+    "country": "Japan",
+    "travellers": [
+      { "id": "alex", "name": "Alex", "color": "#165b4e" },
+      { "id": "sam", "name": "Sam", "color": "#c2562b" },
+      { "id": "noor", "name": "Noor", "color": "#7a4fa3" },
+      { "id": "jo", "name": "Jo", "color": "#2f6fa8" }
+    ],
+    "audience": "invited",
+    "viewers": ["Maya", "Leo"],
+    "days": [
+      {
+        "date": "2027-07-10",
+        "city": "Tokyo",
+        "title": "Landing and lanterns",
+        "stops": [
+          {
+            "place": "tokyo-sensoji",
+            "in": "15:20",
+            "out": "17:00",
+            "by": "sam",
+            "note": "Bags dropped, straight here. Jet lag lost to incense and melon bread.",
+            "photos": [
+              { "id": "tokyo-sensoji", "by": "sam", "caption": "First stop of the trip." }
+            ],
+            "loves": 3,
+            "comments": [{ "by": "Maya", "text": "This is where I'd start too. Saving it." }]
+          },
+          {
+            "place": "tokyo-kappabashi",
+            "in": "17:15",
+            "out": "18:10",
+            "by": "noor",
+            "note": "Noor bought a knife. Alex bought a plastic bowl of ramen.",
+            "photos": [
+              { "id": "tokyo-kappabashi", "by": "noor", "caption": "Kitchenware street." }
+            ],
+            "loves": 1
+          },
+          {
+            "place": "tokyo-asakusa-imahan-kokusai-street-head-restaurant",
+            "in": "18:40",
+            "out": "20:15",
+            "by": "alex",
+            "note": "First dinner together. Nobody spoke for the first ten minutes.",
+            "loves": 2
+          },
+          {
+            "place": "tokyo-skytree",
+            "in": "20:45",
+            "out": "22:10",
+            "by": "jo",
+            "note": "The whole city lit up below us. Worth staying awake for.",
+            "photos": [{ "id": "tokyo-skytree", "by": "jo", "caption": "Night one." }],
+            "loves": 4
+          }
+        ]
+      },
+      {
+        "date": "2027-07-11",
+        "city": "Tokyo",
+        "title": "The west side on foot",
+        "stops": [
+          {
+            "place": "tokyo-meiji",
+            "in": "08:40",
+            "out": "10:05",
+            "by": "alex",
+            "note": "Quiet enough to hear the gravel. We saw a wedding procession.",
+            "photos": [{ "id": "tokyo-meiji", "by": "alex", "caption": "Before the heat." }],
+            "loves": 2
+          },
+          {
+            "name": "Crepe stop, Takeshita Street",
+            "area": "Harajuku",
+            "city": "tokyo",
+            "lat": 35.6716,
+            "lon": 139.7031,
+            "in": "10:20",
+            "out": "10:55",
+            "by": "jo",
+            "note": "Not in any guide. Jo insisted, Jo was right.",
+            "loves": 2
+          },
+          {
+            "place": "tokyo-gyoen",
+            "in": "11:30",
+            "out": "13:20",
+            "by": "noor",
+            "note": "Lay on the lawn for an hour. The best decision of the day.",
+            "photos": [{ "id": "tokyo-gyoen", "by": "noor", "caption": "An hour doing nothing." }],
+            "loves": 3
+          },
+          {
+            "place": "tokyo-afuri-ebisu",
+            "in": "13:55",
+            "out": "14:50",
+            "by": "sam",
+            "note": "Yuzu ramen. Sam is still talking about it.",
+            "loves": 2,
+            "comments": [{ "by": "Leo", "text": "Adding this to my list for March." }]
+          },
+          {
+            "place": "tokyo-shibuya",
+            "in": "17:40",
+            "out": "19:50",
+            "by": "alex",
+            "note": "Crossed four times just to cross it, then watched sunset from the roof.",
+            "photos": [{ "id": "tokyo-shibuya", "by": "alex", "caption": "From above." }],
+            "loves": 4
+          }
+        ]
+      },
+      {
+        "date": "2027-07-12",
+        "city": "Tokyo",
+        "title": "Markets and museums",
+        "stops": [
+          {
+            "place": "tokyo-tsukiji",
+            "in": "07:30",
+            "out": "09:10",
+            "by": "sam",
+            "note": "Breakfast was grilled scallops, standing up.",
+            "photos": [{ "id": "tokyo-tsukiji", "by": "sam", "caption": "Breakfast." }],
+            "loves": 3
+          },
+          {
+            "place": "tokyo-hama-rikyu-gardens",
+            "in": "09:35",
+            "out": "10:50",
+            "by": "noor",
+            "note": "Matcha in the teahouse on the pond, towers all around.",
+            "photos": [
+              { "id": "tokyo-hama-rikyu-gardens", "by": "noor", "caption": "Tea on the water." }
+            ],
+            "loves": 2
+          },
+          {
+            "place": "tokyo-museum",
+            "in": "12:10",
+            "out": "14:45",
+            "by": "jo",
+            "note": "Went in for the air conditioning, stayed for the swords.",
+            "loves": 1
+          },
+          {
+            "place": "tokyo-akihabara",
+            "in": "15:15",
+            "out": "17:30",
+            "by": "alex",
+            "note": "Lost Sam in a seven-floor arcade for forty minutes.",
+            "photos": [{ "id": "tokyo-akihabara", "by": "alex", "caption": "Where we lost Sam." }],
+            "loves": 2
+          },
+          {
+            "place": "tokyo-tokyo-tower",
+            "in": "19:10",
+            "out": "20:25",
+            "by": "jo",
+            "note": "Last Tokyo night. We walked back instead of taking the train.",
+            "photos": [{ "id": "tokyo-tokyo-tower", "by": "jo", "caption": "Goodbye, Tokyo." }],
+            "loves": 3
+          }
+        ]
+      },
+      {
+        "date": "2027-07-13",
+        "city": "Tokyo to Kyoto",
+        "title": "Bullet train day",
+        "stops": [
+          {
+            "place": "tokyo-teamlab",
+            "in": "09:00",
+            "out": "11:20",
+            "by": "noor",
+            "note": "Barefoot through water and light. Booked two months ahead.",
+            "loves": 4,
+            "comments": [{ "by": "Maya", "text": "How far ahead did you book this?" }]
+          },
+          {
+            "place": "tokyo-ts-tantan-tokyo-station",
+            "in": "12:15",
+            "out": "13:00",
+            "by": "sam",
+            "note": "Quick bowls inside the station before the train.",
+            "loves": 1
+          },
+          {
+            "leg": "Shinkansen, Tokyo to Kyoto",
+            "in": "13:30",
+            "out": "15:45",
+            "note": "Sat on the right side for the mountain. Clouds won."
+          },
+          {
+            "place": "kyoto-nishiki",
+            "in": "16:40",
+            "out": "18:00",
+            "by": "jo",
+            "note": "Ate dinner one skewer at a time.",
+            "photos": [{ "id": "kyoto-nishiki", "by": "jo", "caption": "Dinner, in pieces." }],
+            "loves": 2
+          },
+          {
+            "place": "kyoto-gion",
+            "in": "18:30",
+            "out": "20:10",
+            "by": "alex",
+            "note": "Lanterns coming on as we walked. A different country from this morning.",
+            "photos": [{ "id": "kyoto-gion", "by": "alex", "caption": "First Kyoto evening." }],
+            "loves": 3
+          }
+        ]
+      },
+      {
+        "date": "2027-07-14",
+        "city": "Kyoto",
+        "title": "Gates before the crowds",
+        "stops": [
+          {
+            "place": "kyoto-fushimi",
+            "in": "06:45",
+            "out": "09:30",
+            "by": "alex",
+            "note": "Up at five. We had the upper gates to ourselves, and Jo lost count somewhere past 800.",
+            "photos": [
+              { "id": "kyoto-fushimi", "by": "alex", "caption": "Worth the alarm." },
+              { "id": "kyoto-fushimi", "by": "jo", "caption": "Still counting." }
+            ],
+            "loves": 4,
+            "comments": [
+              { "by": "Leo", "text": "The early start convinced me. Want to go." },
+              { "by": "Maya", "text": "Best photo of the trip." }
+            ]
+          },
+          {
+            "place": "kyoto-kiyomizu",
+            "in": "10:20",
+            "out": "12:40",
+            "by": "noor",
+            "note": "Busy by now, but the view from the stage silenced all four of us.",
+            "photos": [{ "id": "kyoto-kiyomizu", "by": "noor", "caption": "The stage." }],
+            "loves": 3
+          },
+          {
+            "place": "kyoto-gion-tokuya",
+            "in": "13:05",
+            "out": "13:40",
+            "by": "sam",
+            "note": "Warabi mochi after a twenty-minute queue. Gone in four.",
+            "loves": 2
+          },
+          {
+            "place": "kyoto-ginkaku-ji",
+            "in": "14:10",
+            "out": "15:20",
+            "by": "jo",
+            "note": "The sand garden looks raked by a machine. It isn't.",
+            "photos": [{ "id": "kyoto-ginkaku-ji", "by": "jo", "caption": "Silver Pavilion." }],
+            "loves": 2
+          },
+          {
+            "place": "kyoto-philosophers-path",
+            "in": "15:25",
+            "out": "16:40",
+            "by": "alex",
+            "note": "Slowest walk of the trip, on purpose.",
+            "photos": [{ "id": "kyoto-philosophers-path", "by": "alex", "caption": "No rush." }],
+            "loves": 2
+          },
+          {
+            "place": "kyoto-nanzen-ji",
+            "in": "16:45",
+            "out": "17:30",
+            "by": "noor",
+            "note": "A brick aqueduct in a temple garden. Nobody warned us.",
+            "photos": [{ "id": "kyoto-nanzen-ji", "by": "noor", "caption": "The aqueduct." }],
+            "loves": 3
+          }
+        ]
+      },
+      {
+        "date": "2027-07-15",
+        "city": "Kyoto",
+        "title": "Bamboo, tofu and gold",
+        "stops": [
+          {
+            "place": "kyoto-arashiyama",
+            "in": "07:30",
+            "out": "10:20",
+            "by": "jo",
+            "note": "The grove at half seven, then down to the river.",
+            "photos": [{ "id": "kyoto-arashiyama", "by": "jo", "caption": "Before anyone else." }],
+            "loves": 4
+          },
+          {
+            "place": "kyoto-yudofu-sagano",
+            "in": "11:00",
+            "out": "12:25",
+            "by": "noor",
+            "note": "A whole lunch built around tofu, and we'd order it again.",
+            "loves": 2
+          },
+          {
+            "place": "kyoto-ryoan-ji",
+            "in": "13:20",
+            "out": "14:25",
+            "by": "alex",
+            "note": "Fifteen rocks. We each counted fourteen.",
+            "photos": [{ "id": "kyoto-ryoan-ji", "by": "alex", "caption": "Count them." }],
+            "loves": 2
+          },
+          {
+            "place": "kyoto-kinkakuji",
+            "in": "14:50",
+            "out": "16:10",
+            "by": "sam",
+            "note": "Sun came out the minute we reached the pond.",
+            "photos": [{ "id": "kyoto-kinkakuji", "by": "sam", "caption": "Right on cue." }],
+            "loves": 4
+          },
+          {
+            "place": "kyoto-teramachi",
+            "in": "17:30",
+            "out": "19:00",
+            "by": "jo",
+            "note": "Gifts sorted. Suitcases no longer close.",
+            "loves": 1
+          }
+        ]
+      },
+      {
+        "date": "2027-07-16",
+        "city": "Nara to Osaka",
+        "title": "Deer by day, neon by night",
+        "stops": [
+          {
+            "place": "nara-nara-park",
+            "in": "09:40",
+            "out": "11:10",
+            "by": "sam",
+            "note": "A deer bowed to Sam, then ate his map.",
+            "photos": [{ "id": "nara-nara-park", "by": "sam", "caption": "Polite, then not." }],
+            "loves": 4,
+            "comments": [{ "by": "Maya", "text": "The map! I need the full story." }]
+          },
+          {
+            "place": "nara-todai-ji-great-buddha-hall",
+            "in": "11:15",
+            "out": "12:35",
+            "by": "alex",
+            "note": "Photos don't carry the size of it. We tried anyway.",
+            "photos": [
+              {
+                "id": "nara-todai-ji-great-buddha-hall",
+                "by": "alex",
+                "caption": "It doesn't fit."
+              }
+            ],
+            "loves": 3
+          },
+          {
+            "place": "nara-nakatanidou",
+            "in": "13:00",
+            "out": "13:20",
+            "by": "jo",
+            "note": "Watched the mochi pounding, ate it still warm.",
+            "loves": 2
+          },
+          {
+            "place": "nara-kasuga-taisha",
+            "in": "13:50",
+            "out": "15:05",
+            "by": "noor",
+            "note": "Hundreds of stone lanterns along the forest path.",
+            "photos": [{ "id": "nara-kasuga-taisha", "by": "noor", "caption": "Lantern path." }],
+            "loves": 2
+          },
+          {
+            "leg": "Train, Nara to Osaka",
+            "in": "15:50",
+            "out": "16:35",
+            "note": "All four asleep before the second stop."
+          },
+          {
+            "place": "osaka-dotonbori",
+            "in": "18:30",
+            "out": "20:40",
+            "by": "jo",
+            "note": "Loud, bright and exactly what we needed after temples.",
+            "photos": [{ "id": "osaka-dotonbori", "by": "jo", "caption": "Hello, Osaka." }],
+            "loves": 4
+          },
+          {
+            "place": "osaka-mizuno",
+            "in": "20:45",
+            "out": "21:40",
+            "by": "sam",
+            "note": "Okonomiyaki cooked in front of us at the counter.",
+            "loves": 3
+          }
+        ]
+      },
+      {
+        "date": "2027-07-17",
+        "city": "Osaka",
+        "title": "Castle to skyline",
+        "stops": [
+          {
+            "place": "osaka-castle",
+            "in": "09:00",
+            "out": "11:20",
+            "by": "alex",
+            "note": "Walked the moat first, then climbed to the top floor.",
+            "photos": [{ "id": "osaka-castle", "by": "alex", "caption": "From the moat." }],
+            "loves": 3
+          },
+          {
+            "place": "osaka-kuromon",
+            "in": "12:00",
+            "out": "13:25",
+            "by": "noor",
+            "note": "Lunch by pointing at things.",
+            "photos": [{ "id": "osaka-kuromon", "by": "noor", "caption": "Lunch." }],
+            "loves": 2
+          },
+          {
+            "place": "osaka-shinsekai",
+            "in": "14:10",
+            "out": "16:00",
+            "by": "jo",
+            "note": "Kushikatsu and a retro arcade. Alex won a fish-shaped cushion.",
+            "photos": [{ "id": "osaka-shinsekai", "by": "jo", "caption": "Old Osaka." }],
+            "loves": 3
+          },
+          {
+            "place": "osaka-umeda",
+            "in": "18:20",
+            "out": "19:50",
+            "by": "sam",
+            "note": "Open-air deck at sunset for our last full evening.",
+            "photos": [{ "id": "osaka-umeda", "by": "sam", "caption": "Last sunset." }],
+            "loves": 4
+          }
+        ]
+      },
+      {
+        "date": "2027-07-18",
+        "city": "Osaka",
+        "title": "One more morning",
+        "stops": [
+          {
+            "place": "osaka-aquarium",
+            "in": "09:30",
+            "out": "12:20",
+            "by": "noor",
+            "note": "Sat in front of the big tank for half an hour without talking.",
+            "photos": [{ "id": "osaka-aquarium", "by": "noor", "caption": "The big tank." }],
+            "loves": 3
+          },
+          {
+            "place": "osaka-doguyasuji",
+            "in": "13:30",
+            "out": "14:35",
+            "by": "alex",
+            "note": "A takoyaki pan is now flying home with us.",
+            "loves": 1
+          },
+          {
+            "place": "osaka-takoyaki-doraku-wanaka-sennichimae",
+            "in": "14:45",
+            "out": "15:10",
+            "by": "sam",
+            "note": "Final snack of the trip. Too hot, eaten anyway.",
+            "loves": 4,
+            "comments": [{ "by": "Leo", "text": "Great ending. When are we all going?" }]
+          }
+        ]
+      }
+    ]
+  }
+}
