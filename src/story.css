@@ -715,3 +715,542 @@
     display: none;
   }
 }
+
+/* ------------------------------------------------------------------
+   The journey in one line on the cover
+   ------------------------------------------------------------------ */
+.st-ribbon {
+  list-style: none;
+  display: flex;
+  margin: 18px 0 0;
+  padding: 0;
+  max-width: 540px;
+}
+.st-ribbon li {
+  position: relative;
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 22px 6px 0 0;
+  color: #ffffffd9;
+  font-size: 12px;
+}
+.st-ribbon li::before {
+  content: '';
+  position: absolute;
+  top: 6px;
+  left: 4px;
+  right: -4px;
+  height: 3px;
+  border-radius: 2px;
+  background: #fff;
+  transform-origin: left;
+  animation: st-draw 0.45s ease-out both;
+  animation-delay: calc(var(--i) * 0.4s + 0.5s);
+}
+.st-ribbon li:last-child::before {
+  display: none;
+}
+.st-ribbon i {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 15px;
+  height: 15px;
+  box-sizing: border-box;
+  border-radius: 50%;
+  background: var(--day);
+  border: 2.5px solid #fff;
+  animation: st-pop 0.3s ease-out both;
+  animation-delay: calc(var(--i) * 0.4s + 0.3s);
+}
+.st-ribbon strong {
+  display: block;
+  color: #fff;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@keyframes st-draw {
+  from {
+    transform: scaleX(0);
+  }
+}
+@keyframes st-pop {
+  from {
+    transform: scale(0);
+  }
+}
+
+/* ------------------------------------------------------------------
+   Phone layout prototypes (sample story only)
+   ------------------------------------------------------------------ */
+.st-proto,
+.st-expand {
+  display: none;
+}
+body.st-noscroll {
+  overflow: hidden;
+}
+@media (max-width: 900px) {
+  .st-proto {
+    display: block;
+    margin: -6px 0 16px;
+    padding: 12px;
+    border: 1px dashed var(--muted);
+    border-radius: 14px;
+    background: var(--white);
+    scroll-margin-top: 62px;
+  }
+  .st-proto strong {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .st-proto .chips {
+    margin: 0;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scrollbar-width: none;
+  }
+  .st-proto .chips::-webkit-scrollbar {
+    display: none;
+  }
+  .st-proto .chip {
+    flex: none;
+  }
+
+  /* A · Map first: the map takes the screen, stops are a row of cards you swipe sideways. */
+  .story-page[data-layout='map'] .story-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    height: calc(100svh - var(--topbar-h, 84px) - var(--tabbar-h, 0px));
+    margin: 0 -18px;
+    border-top: 1px solid var(--line);
+    border-bottom: 1px solid var(--line);
+  }
+  .story-page[data-layout='map'] .story-mapcol {
+    position: relative;
+    top: auto;
+    flex: 1 1 auto;
+    min-height: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border: 0;
+  }
+  .story-page[data-layout='map'] .story-mapbox {
+    flex: 1 1 auto;
+    height: auto;
+    min-height: 0;
+    border: 0;
+    border-radius: 0;
+  }
+  .story-page[data-layout='map'] .story-days {
+    flex: none;
+    margin: 0;
+    padding: 8px 18px;
+  }
+  .story-page[data-layout='map'] .story-timeline {
+    position: relative;
+    min-width: 0;
+    flex: none;
+    display: flex;
+    gap: 10px;
+    height: min(40svh, 290px);
+    padding: 2px 18px 12px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    scroll-padding: 0 18px;
+    scrollbar-width: none;
+    overscroll-behavior-x: contain;
+  }
+  .story-page[data-layout='map'] .story-timeline::-webkit-scrollbar {
+    display: none;
+  }
+  .story-page[data-layout='map'] .story-timeline > * {
+    flex: 0 0 84%;
+    box-sizing: border-box;
+    margin: 0;
+    overflow-y: auto;
+    scroll-snap-align: center;
+  }
+  .story-page[data-layout='map'] .st-gap {
+    display: none;
+  }
+  .story-page[data-layout='map'] .st-day {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+    border: 1px solid var(--line);
+    border-left: 6px solid var(--day);
+    border-radius: 16px;
+    background: var(--white);
+  }
+  .story-page[data-layout='map'] .st-leg {
+    align-items: center;
+    padding: 16px;
+    border: 1px dashed var(--muted);
+    border-radius: 16px;
+  }
+  .story-page[data-layout='map'] .st-stop {
+    grid-template-columns: 56px minmax(0, 1fr);
+    align-content: start;
+  }
+  .story-page[data-layout='map'] .st-photos {
+    display: flex;
+    gap: 6px;
+  }
+  .story-page[data-layout='map'] .st-photo,
+  .story-page[data-layout='map'] .st-photos.n2 .st-photo {
+    flex: 0 0 104px;
+    height: 76px;
+    aspect-ratio: auto;
+  }
+  .story-page[data-layout='map'] .st-cap {
+    display: none;
+  }
+
+  /* B · Photos first: a thin map strip that opens to full screen, and big photo cards. */
+  .story-page[data-layout='photo'] .story-mapcol {
+    padding: 6px 18px 8px;
+  }
+  .story-page[data-layout='photo'] .story-mapbox {
+    height: 104px;
+    min-height: 0;
+  }
+  .story-page[data-layout='photo'] .story-days,
+  .story-page[data-layout='photo'] #story-play {
+    display: none;
+  }
+  .story-page[data-layout='photo'] .story-maptools {
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+  }
+  .story-page[data-layout='photo'] .st-expand {
+    position: absolute;
+    z-index: 600;
+    top: 8px;
+    right: 8px;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    min-height: 34px;
+    padding: 4px 12px;
+    border: 0;
+    border-radius: 999px;
+    background: var(--teal);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    box-shadow: var(--shadow);
+  }
+  .story-page[data-layout='photo'] .st-expand .icon {
+    width: 15px;
+    height: 15px;
+  }
+  .story-page[data-layout='photo'] .story-mapcol.open {
+    position: fixed;
+    z-index: 40;
+    top: var(--topbar-h, 84px);
+    right: 0;
+    bottom: var(--tabbar-h, 0px);
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 10px 14px;
+  }
+  .story-page[data-layout='photo'] .story-mapcol.open .story-mapbox {
+    flex: 1 1 auto;
+    height: auto;
+  }
+  .story-page[data-layout='photo'] .story-mapcol.open .story-days {
+    display: flex;
+    flex: none;
+  }
+  .story-page[data-layout='photo'] .story-mapcol.open #story-play {
+    display: inline-flex;
+  }
+  .story-page[data-layout='photo'] .st-stop {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    padding: 0 0 14px;
+    overflow: hidden;
+  }
+  .story-page[data-layout='photo'] .st-body {
+    display: contents;
+  }
+  .story-page[data-layout='photo'] .st-time {
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin: 12px 14px 6px;
+  }
+  .story-page[data-layout='photo'] .st-num {
+    margin-bottom: 0;
+  }
+  .story-page[data-layout='photo'] .st-bar {
+    display: none;
+  }
+  .story-page[data-layout='photo'] .st-body > * {
+    margin-left: 14px;
+    margin-right: 14px;
+  }
+  .story-page[data-layout='photo'] .st-body > .st-photos {
+    order: -1;
+    margin: 0;
+    gap: 2px;
+  }
+  .story-page[data-layout='photo'] .st-photo {
+    border-radius: 0;
+    aspect-ratio: 4 / 3;
+  }
+  .story-page[data-layout='photo'] .st-photos.n2 .st-photo {
+    aspect-ratio: 3 / 4;
+  }
+  .story-page[data-layout='photo'] .st-body h4 {
+    font-size: 20px;
+  }
+  .story-page[data-layout='photo'] .st-cap {
+    padding: 30px 14px 10px;
+    font-size: 13px;
+  }
+  .story-page[data-layout='photo'] .st-gap,
+  .story-page[data-layout='photo'] .st-leg {
+    margin-left: 26px;
+  }
+}
+
+/* C · Tap through: one full screen per day and per stop. */
+.st-tap {
+  position: fixed;
+  inset: 0;
+  z-index: 5000;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  overflow: hidden;
+  background: #0c1413;
+  color: #fff;
+}
+.st-tap-bg {
+  position: absolute;
+  inset: 0;
+}
+.st-tap-bg img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: var(--photo-filter);
+}
+.st-tap-bg::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(180deg, #000b 0, #0000 24%, #0000 38%, #000e 100%);
+}
+.st-tap-bg.plain {
+  background: linear-gradient(160deg, var(--day), #0c1413 80%);
+}
+.st-tap-zone {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  bottom: 0;
+  padding: 0;
+  border: 0;
+  background: none;
+}
+.st-tap-zone.prev {
+  left: 0;
+  width: 30%;
+}
+.st-tap-zone.next {
+  left: 30%;
+  right: 0;
+}
+.st-tap-top {
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: max(10px, env(safe-area-inset-top)) 14px 0;
+  pointer-events: none;
+}
+.st-tap-bars {
+  display: flex;
+  gap: 4px;
+}
+.st-tap-bars i {
+  flex: 1;
+  height: 3px;
+  border-radius: 2px;
+  background: #ffffff59;
+}
+.st-tap-bars i.on {
+  background: #fff;
+}
+.st-tap-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 8px;
+  font-size: 13px;
+  font-weight: 650;
+}
+.st-tap-head span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.st-tap-x {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 40px;
+  height: 40px;
+  border: 0;
+  border-radius: 50%;
+  background: #0007;
+  color: #fff;
+  pointer-events: auto;
+}
+.st-tap-route {
+  position: absolute;
+  z-index: 2;
+  top: calc(max(10px, env(safe-area-inset-top)) + 62px);
+  right: 14px;
+  width: 132px;
+  border: 1px solid #ffffff40;
+  border-radius: 14px;
+  background: #000000a6;
+  pointer-events: none;
+}
+.st-tap-route.big {
+  position: relative;
+  top: auto;
+  right: auto;
+  width: min(74%, 300px);
+  margin: 0 auto 20px;
+}
+.st-mini {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.st-mini polyline {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 2;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  opacity: 0.85;
+}
+.st-mini circle {
+  fill: #fff;
+  opacity: 0.8;
+}
+.st-mini circle.on {
+  fill: var(--day);
+  stroke: #fff;
+  stroke-width: 2;
+  opacity: 1;
+}
+.st-mini text {
+  fill: #fff;
+  font-size: 9px;
+  font-weight: 800;
+  text-anchor: middle;
+}
+.st-tap-copy {
+  position: relative;
+  z-index: 2;
+  padding: 0 18px calc(24px + env(safe-area-inset-bottom));
+  pointer-events: none;
+}
+.st-tap-copy a,
+.st-tap-copy button {
+  pointer-events: auto;
+}
+.st-tap-copy h2 {
+  margin: 8px 0 4px;
+  color: #fff;
+  font-size: 28px;
+  line-height: 1.1;
+}
+.st-tap-when {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 650;
+}
+.st-tap .st-num {
+  margin: 0;
+  border: 2px solid #fff;
+  box-sizing: content-box;
+}
+.st-tap-area {
+  margin: 0;
+  color: #ffffffcc;
+  font-size: 13px;
+}
+.st-tap-note {
+  margin: 10px 0 0;
+  font-size: 17px;
+  line-height: 1.45;
+}
+.st-tap-by {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 10px 0 0;
+  color: #ffffffd9;
+  font-size: 13px;
+}
+.st-tap-acts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 14px;
+}
+.st-tap .st-act {
+  border-color: #ffffff66;
+  background: #ffffff24;
+  color: #fff;
+}
+.st-tap-list {
+  list-style: none;
+  display: grid;
+  gap: 7px;
+  margin: 14px 0 0;
+  padding: 0;
+  font-size: 15px;
+}
+.st-tap-list li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+@media (prefers-reduced-motion: reduce) {
+  .st-ribbon li::before,
+  .st-ribbon i {
+    animation: none;
+  }
+}
