@@ -103,7 +103,15 @@ function storyModel(id) {
 const stAvatar = (t, cls = '') =>
   `<span class="st-avatar ${cls}" style="--who:${esc(t.color)}" title="${esc(t.name)}" aria-hidden="true">${esc(t.name[0])}</span>`;
 
-// Outside links for a stop: where it is, and what other visitors say.
+// Brand marks for the outside links (paths from Simple Icons, CC0).
+const ST_BRANDS = {
+  maps: 'M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z',
+  tripadvisor:
+    'M12.006 4.295c-2.67 0-5.338.784-7.645 2.353H0l1.963 2.135a5.997 5.997 0 0 0 4.04 10.43 5.976 5.976 0 0 0 4.075-1.6L12 19.705l1.922-2.09a5.972 5.972 0 0 0 4.072 1.598 6 6 0 0 0 6-5.998 5.982 5.982 0 0 0-1.957-4.432L24 6.648h-4.35a13.573 13.573 0 0 0-7.644-2.353zM12 6.255c1.531 0 3.063.303 4.504.903C13.943 8.138 12 10.43 12 13.1c0-2.671-1.942-4.962-4.504-5.942A11.72 11.72 0 0 1 12 6.256zM6.002 9.157a4.059 4.059 0 1 1 0 8.118 4.059 4.059 0 0 1 0-8.118zm11.992.002a4.057 4.057 0 1 1 .003 8.115 4.057 4.057 0 0 1-.003-8.115zm-11.992 1.93a2.128 2.128 0 0 0 0 4.256 2.128 2.128 0 0 0 0-4.256zm11.992 0a2.128 2.128 0 0 0 0 4.256 2.128 2.128 0 0 0 0-4.256z',
+};
+const stBrand = (k) =>
+  `<svg class="st-brand-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${ST_BRANDS[k]}"/></svg>`;
+// Outside links for a stop, as two small marks beside its name: where it is, and what others say.
 function stLinks(s) {
   const maps = s.id
     ? mapsPin(P[s.id])
@@ -111,33 +119,32 @@ function stLinks(s) {
   const ta = s.id
     ? 'https://www.tripadvisor.com/Search?q=' + encodeURIComponent(`${s.name} ${P[s.id].cityName}`)
     : '';
-  return (
+  const link = (url, k, label) =>
     external(
-      maps,
-      `${icon('pin')}<span>Maps</span>`,
-      'st-act st-link" aria-label="' + esc(s.name) + ' on Google Maps',
-    ) +
-    (ta
-      ? external(
-          ta,
-          `${icon('star')}<span>Tripadvisor</span>`,
-          'st-act st-link" aria-label="' + esc(s.name) + ' on Tripadvisor',
-        )
-      : '')
-  );
+      url,
+      stBrand(k),
+      `st-brand ${k}" title="${label}" aria-label="${esc(s.name)} on ${label}`,
+    );
+  return `<span class="st-brands">${link(maps, 'maps', 'Google Maps')}${ta ? link(ta, 'tripadvisor', 'Tripadvisor') : ''}</span>`;
 }
-function stStopHtml(s, max) {
+const stLoveBtn = (s) => {
   const mine = stLoves().has(storyNow.id + ':' + s.i);
+  return `<button class="st-act ${mine ? 'on' : ''}" data-action="story-love" data-i="${s.i}" aria-pressed="${mine}" aria-label="Love this stop">${icon('heart')}<span>${s.loves + (mine ? 1 : 0)}</span></button>`;
+};
+const stWantBtn = (s) => {
   const want = s.id && saved(s.id);
-  return `<article class="st-stop" id="st-stop-${s.i}" data-i="${s.i}" style="--day:${stColor(s.day)}"><div class="st-time"><b class="st-num" aria-label="Stop ${s.n} of day ${s.day + 1}">${s.n}</b><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><h4>${s.id ? `<button class="inline-link" data-action="place" data-id="${s.id}">${esc(s.name)}</button>` : esc(s.name)}</h4><p class="st-area">${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
+  return s.id
+    ? `<button class="st-act ${want ? 'on' : ''}" data-action="story-want" data-id="${s.id}" aria-pressed="${want}">${icon(want ? 'check' : 'plus')}<span>${want ? 'On my list' : 'Want to go'}</span></button>`
+    : '';
+};
+const stCommentWord = (n) => `${n} comment${n === 1 ? '' : 's'}`;
+// A stop's card in the timeline. The whole card opens the stop's own page (storyStop).
+function stStopHtml(s, max) {
+  return `<article class="st-stop" id="st-stop-${s.i}" data-i="${s.i}" data-action="story-stop" style="--day:${stColor(s.day)}"><div class="st-time"><b class="st-num" aria-label="Stop ${s.n} of day ${s.day + 1}">${s.n}</b><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><div class="st-head"><h4><button class="inline-link" data-action="story-stop" data-i="${s.i}">${esc(s.name)}</button></h4>${stLinks(s)}</div><p class="st-area">${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
     s.photos.length
-      ? `<div class="st-photos n${s.photos.length}">${s.photos.map((x) => `<button class="st-photo" data-action="story-photo" data-id="${x.id}" aria-label="Open photo: ${esc(x.caption)}">${photoTag(x.id)}<span class="st-cap">${stAvatar(x.by, 'tiny')} ${esc(x.caption)}</span></button>`).join('')}</div>`
+      ? `<div class="st-photos n${s.photos.length}">${s.photos.map((x, k) => `<button class="st-photo" data-action="story-stop" data-i="${s.i}" data-k="${k}" aria-label="Open photo: ${esc(x.caption)}">${photoTag(x.id)}<span class="st-cap">${stAvatar(x.by, 'tiny')} ${esc(x.caption)}</span></button>`).join('')}</div>`
       : ''
-  }<div class="st-acts"><button class="st-act ${mine ? 'on' : ''}" data-action="story-love" data-i="${s.i}" aria-pressed="${mine}" aria-label="Love this stop">${icon('heart')}<span>${s.loves + (mine ? 1 : 0)}</span></button>${s.id ? `<button class="st-act ${want ? 'on' : ''}" data-action="story-want" data-id="${s.id}" aria-pressed="${want}">${icon(want ? 'check' : 'plus')}<span>${want ? 'On my list' : 'Want to go'}</span></button>` : ''}${stLinks(s)}</div>${
-    s.comments.length
-      ? `<ul class="st-comments">${s.comments.map((c) => `<li><strong>${esc(c.by)}</strong> ${esc(c.text)}</li>`).join('')}</ul>`
-      : ''
-  }</div></article>`;
+  }<div class="st-acts">${stLoveBtn(s)}${stWantBtn(s)}${s.comments.length ? `<button class="st-act st-talk" data-action="story-stop" data-i="${s.i}" data-to="comments">${stCommentWord(s.comments.length)}</button>` : ''}</div></div></article>`;
 }
 
 function stDayHtml(day, max) {
@@ -429,8 +436,10 @@ function storyScroll(el) {
   if (!el) return;
   const r = el.getBoundingClientRect(),
     stacked = stStacked();
+  // Measured from where the map sits once pinned, which it may not be yet near the top of the page.
+  const col = $('.story-mapcol');
   const offset = stacked
-    ? $('.story-mapcol').getBoundingClientRect().bottom + 12
+    ? parseFloat(getComputedStyle(col).top) + col.offsetHeight + 12
     : Math.max(110, (innerHeight - r.height) / 2);
   window.scrollTo({
     top: r.top + window.scrollY - offset,
@@ -533,7 +542,7 @@ function storyTap(k) {
   if (cover)
     copy = `<p class="st-tap-when">${esc(stRange(m))}</p><h2>${esc(m.st.title)}</h2><p class="st-tap-area">${esc(m.st.blurb)}</p>${stRibbon(m)}<p class="st-tap-hint">Tap to start ${icon('arrow')}</p>`;
   else if (stop)
-    copy = `<p class="st-tap-when"><b class="st-num">${stop.n}</b>${stop.in} · ${stDur(stop.mins)} here</p><h2>${esc(stop.name)}</h2>${stop.note ? `<p class="st-tap-note">${esc(stop.note)}</p>` : ''}<p class="st-tap-by">${stAvatar(shot ? shot.by : stop.by, 'tiny')} ${shot ? esc(shot.caption) : 'Logged by ' + esc(stop.by.name)} · ${esc(stop.area)}</p><div class="st-tap-acts"><button class="st-act" data-action="story-tap-close">${icon('list')}<span>Details</span></button>${stLinks(stop)}</div>`;
+    copy = `<p class="st-tap-when"><b class="st-num">${stop.n}</b>${stop.in} · ${stDur(stop.mins)} here</p><h2>${esc(stop.name)}</h2>${stop.note ? `<p class="st-tap-note">${esc(stop.note)}</p>` : ''}<p class="st-tap-by">${stAvatar(shot ? shot.by : stop.by, 'tiny')} ${shot ? esc(shot.caption) : 'Logged by ' + esc(stop.by.name)} · ${esc(stop.area)}</p><div class="st-tap-acts"><button class="st-act" data-action="story-stop" data-i="${stop.i}">${icon('list')}<span>${stop.comments.length ? stCommentWord(stop.comments.length) : 'Details'}</span></button>${stLinks(stop)}</div>`;
   else
     copy = `<p class="st-tap-when">Day ${day.i + 1} of ${m.days.length} · ${stDate(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}</p><h2>${esc(day.title)}</h2><p class="st-tap-area">${esc(day.city)} · ${day.places} places · ${stDur(day.mins)} at places</p><ol class="st-tap-list">${dayStops.map((s) => `<li><b class="st-num">${s.n}</b>${esc(s.name)}</li>`).join('')}</ol>`;
   el.style.setProperty('--day', cover ? 'var(--teal)' : stColor(day.i));
@@ -585,6 +594,70 @@ function storyTapClose(follow = true) {
     storyGoto(stop.i);
   } else storyDay(String(day.i));
 }
+// A stop's own page: its photos, the note, who loved it and what people said. Opens over the
+// timeline or the tap-through view, so looking closer never leaves the trip.
+function storyStop(i, k = 0, to = '') {
+  const m = storyNow;
+  if (!m) return;
+  storyPlay(false);
+  const s = m.stops[i],
+    day = m.days[s.day],
+    dayStops = m.stops.filter((x) => x.day === s.day);
+  let el = $('.st-sheet');
+  if (!el) {
+    el = document.createElement('div');
+    el.className = 'st-sheet';
+    el.setAttribute('role', 'dialog');
+    el.setAttribute('aria-modal', 'true');
+    m.sheetFocus = document.activeElement;
+    document.body.append(el);
+    document.body.classList.add('st-noscroll');
+    history.pushState({ ...(history.state || {}), roamStop: 1 }, '');
+  }
+  m.sheet = i;
+  el.setAttribute('aria-label', s.name);
+  el.style.setProperty('--day', stColor(s.day));
+  const n = s.photos.length;
+  el.innerHTML = `<div class="st-sheet-panel"><header class="st-sheet-bar"><button class="iconbtn" data-action="story-stop-close" aria-label="Back to the trip">${icon('left')}</button><span><b class="st-num">${s.n}</b>Day ${s.day + 1} · stop ${s.n} of ${dayStops.length}</span><span class="st-sheet-nav"><button class="iconbtn" data-action="story-stop" data-i="${i - 1}" aria-label="Previous stop" ${i ? '' : 'disabled'}>${icon('up')}</button><button class="iconbtn" data-action="story-stop" data-i="${i + 1}" aria-label="Next stop" ${i < m.stops.length - 1 ? '' : 'disabled'}>${icon('down')}</button></span></header><div class="st-sheet-scroll">${
+    n
+      ? `<div class="st-sheet-photos" id="st-sheet-photos">${s.photos.map((x) => `<figure><button data-action="story-photo" data-id="${x.id}" aria-label="Zoom photo: ${esc(x.caption)}">${photoTag(x.id, '', false)}</button><figcaption>${stAvatar(x.by, 'tiny')}<span>${esc(x.caption)}</span><small>${esc(x.by.name)}</small></figcaption></figure>`).join('')}</div>${n > 1 ? `<div class="st-sheet-dots" aria-hidden="true">${s.photos.map((_, j) => `<i class="${j === k ? 'on' : ''}"></i>`).join('')}</div>` : ''}`
+      : ''
+  }<div class="st-sheet-body"><div class="st-head"><h2>${esc(s.name)}</h2>${stLinks(s)}</div><p class="st-area">${esc(s.area)} · ${esc(day.city)}${s.id ? '' : ' · added by the group'}</p><p class="st-sheet-time"><strong>${s.in} to ${s.out}</strong> · ${stDur(s.mins)} here · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${s.note ? `<p class="st-sheet-note">${esc(s.note)}</p>` : ''}<div class="st-acts">${stLoveBtn(s)}${stWantBtn(s)}${s.id ? `<button class="st-act" data-action="place" data-id="${s.id}">${icon('book')}<span>Guide entry</span></button>` : ''}</div><section class="st-sheet-talk" id="st-sheet-talk"><h3>${s.comments.length ? stCommentWord(s.comments.length) : 'No comments yet'}</h3>${
+    s.comments.length
+      ? `<ul>${s.comments.map((c) => `<li><span class="st-avatar tiny" style="--who:var(--muted)" aria-hidden="true">${esc(c.by[0])}</span><div><strong>${esc(c.by)}</strong><p>${esc(c.text)}</p></div></li>`).join('')}</ul>`
+      : ''
+  }<p class="filter-note">${m.st.sample ? 'This is a sample, so you cannot add a comment yet. Commenting opens with accounts.' : ''}</p></section></div></div></div>`;
+  const row = $('#st-sheet-photos');
+  if (row) {
+    row.scrollLeft = k * row.clientWidth;
+    row.addEventListener(
+      'scroll',
+      () => {
+        const at = Math.round(row.scrollLeft / row.clientWidth);
+        $$('.st-sheet-dots i').forEach((d, j) => d.classList.toggle('on', j === at));
+      },
+      { passive: true },
+    );
+  }
+  if (to === 'comments') $('#st-sheet-talk').scrollIntoView({ block: 'start' });
+  el.querySelector('.iconbtn').focus({ preventScroll: true });
+}
+function storyStopClose(how = 'user') {
+  const el = $('.st-sheet'),
+    m = storyNow;
+  if (!el) return;
+  el.remove();
+  if (!$('.st-tap')) document.body.classList.remove('st-noscroll');
+  if (how !== 'history' && history.state?.roamStop) history.back();
+  if (!m) return;
+  // Leave whatever is underneath on the stop that was last open.
+  if ($('.st-tap')) storyTap(m.slides.findIndex((x) => x.stop?.i === m.sheet));
+  else if (how !== 'leave') storyGoto(m.sheet);
+  m.sheetFocus?.focus?.({ preventScroll: true });
+}
+window.addEventListener('popstate', () => {
+  if ($('.st-sheet') && !history.state?.roamStop) storyStopClose('history');
+});
 function storyAudience() {
   const { st } = storyNow;
   showModal(
@@ -600,9 +673,11 @@ function storyLove(i, b) {
     localStorage.setItem(LOVES_KEY, JSON.stringify([...set]));
   } catch {}
   const on = set.has(key);
-  b.classList.toggle('on', on);
-  b.setAttribute('aria-pressed', String(on));
-  b.querySelector('span').textContent = storyNow.stops[i].loves + (on ? 1 : 0);
+  $$(`[data-action="story-love"][data-i="${i}"]`).forEach((x) => {
+    x.classList.toggle('on', on);
+    x.setAttribute('aria-pressed', String(on));
+    x.querySelector('span').textContent = storyNow.stops[i].loves + (on ? 1 : 0);
+  });
 }
 function storyWant(id) {
   toggleSave(id);
@@ -621,7 +696,8 @@ function storyLeave() {
     storyNow.io?.disconnect();
   }
   $('.st-tap')?.remove();
-  document.body.classList.remove('st-noscroll');
+  $('.st-sheet')?.remove();
+  document.body.classList.remove('st-noscroll', 'nav-away');
   storyMap?.remove();
   storyMap = null;
   storyNow = null;
@@ -635,6 +711,8 @@ function storyTeaser() {
 document.addEventListener('click', (e) => {
   const b = e.target.closest('[data-action^="story-"]');
   if (!b || !storyNow) return;
+  // On a card, its own buttons and links act for themselves; anywhere else opens the stop.
+  if (b.matches('.st-stop') && e.target.closest('a, button')) return;
   const a = b.dataset.action;
   if (a === 'story-play') {
     // Phones get the tap-through view, picking up from the stop being read.
@@ -655,6 +733,9 @@ document.addEventListener('click', (e) => {
   else if (a === 'story-love') storyLove(Number(b.dataset.i), b);
   else if (a === 'story-want') storyWant(b.dataset.id);
   else if (a === 'story-photo') openViewer(b.dataset.id, 0);
+  else if (a === 'story-stop')
+    storyStop(Number(b.dataset.i), Number(b.dataset.k || 0), b.dataset.to || '');
+  else if (a === 'story-stop-close') storyStopClose();
 });
 // Any deliberate scroll or key press hands control back from Play.
 for (const ev of ['wheel', 'touchmove', 'keydown'])
@@ -667,8 +748,24 @@ for (const ev of ['wheel', 'touchmove', 'keydown'])
   );
 // Arrow keys and Escape drive the tap-through view.
 window.addEventListener('keydown', (e) => {
+  if (storyNow && $('.st-sheet')) {
+    if (e.key === 'Escape' && !$('.viewer')) storyStopClose();
+    return;
+  }
   if (!storyNow || !$('.st-tap')) return;
   if (e.key === 'ArrowRight') storyTap(storyNow.tap + 1);
   else if (e.key === 'ArrowLeft') storyTap(storyNow.tap - 1);
   else if (e.key === 'Escape') storyTapClose();
 });
+// In a story the bottom bar steps aside while you read down and returns when you scroll back up.
+let stLastY = 0;
+window.addEventListener(
+  'scroll',
+  () => {
+    const y = scrollY;
+    if (storyNow && Math.abs(y - stLastY) > 10)
+      document.body.classList.toggle('nav-away', y > stLastY && y > 120);
+    if (Math.abs(y - stLastY) > 10) stLastY = y;
+  },
+  { passive: true },
+);

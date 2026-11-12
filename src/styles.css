@@ -6635,3 +6635,80 @@ a.fact b {
 .modalphoto .nophoto {
   min-height: 220px;
 }
+
+/* ------------------------------------------------------------------
+   Photo credits sit behind a small "i" until tapped
+   ------------------------------------------------------------------ */
+.hero-credit:has(a),
+.photo-caption:has(a):not(:has(br)) {
+  cursor: pointer;
+}
+.hero-credit:has(a):not(.open),
+.photo-caption:has(a):not(:has(br)):not(.open) {
+  box-sizing: border-box;
+  width: 24px;
+  height: 24px;
+  max-width: none;
+  padding: 0;
+  left: auto;
+  border-radius: 50%;
+  background: #0000008c;
+  color: transparent;
+  font-size: 0;
+  text-shadow: none;
+}
+.hero-credit:has(a):not(.open) > *,
+.photo-caption:has(a):not(:has(br)):not(.open) > * {
+  display: none;
+}
+.hero-credit:has(a):not(.open)::after,
+.photo-caption:has(a):not(:has(br)):not(.open)::after {
+  content: 'i';
+  display: grid;
+  place-items: center;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  font:
+    italic 800 13px/1 Georgia,
+    'Times New Roman',
+    serif;
+}
+.hero-credit:has(a):not(.open)::before,
+.photo-caption:has(a):not(:has(br)):not(.open)::before {
+  content: '';
+  position: absolute;
+  inset: -10px;
+}
+.gmosaic .gtile.main .photo-caption:has(a):not(.open) {
+  left: 12px;
+  right: auto;
+}
+
+/* ------------------------------------------------------------------
+   Phone tab bar: a floating rounded bar
+   ------------------------------------------------------------------ */
+@media (max-width: 760px) {
+  :root {
+    --tabbar-h: calc(76px + env(safe-area-inset-bottom));
+  }
+  .nav {
+    left: 12px;
+    right: 12px;
+    bottom: calc(8px + env(safe-area-inset-bottom));
+    height: 60px;
+    padding: 5px 6px;
+    border: 1px solid var(--line);
+    border-radius: 24px;
+    box-shadow: 0 8px 28px #0b292930;
+    transition: transform 0.25s ease;
+  }
+  body.nav-away .nav {
+    transform: translateY(calc(100% + 28px + env(safe-area-inset-bottom)));
+  }
+}
+@media (max-width: 760px) and (prefers-reduced-motion: reduce) {
+  .nav {
+    transition: none;
+  }
+}
