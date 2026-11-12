@@ -3,6 +3,19 @@
 // so the format can be judged before accounts and real logging exist.
 const STORIES = DATA.stories || {};
 const LOVES_KEY = 'roam-story-loves';
+// One colour per day, so the route reads in order on the map and in the timeline.
+const ST_COLORS = [
+  '#d1495b',
+  '#e07a1f',
+  '#a9820c',
+  '#3a8f5a',
+  '#16808a',
+  '#2f6fd0',
+  '#6a4fc4',
+  '#b0429f',
+  '#7a5a43',
+];
+const stColor = (day) => ST_COLORS[day % ST_COLORS.length];
 let storyMap = null,
   storyNow = null;
 
@@ -51,6 +64,7 @@ function storyModel(id) {
       const stop = {
         i: stops.length,
         day: di,
+        n: day.places + 1,
         id: p?.id || '',
         name: p?.name || s.name,
         area: p?.area || s.area || '',
@@ -82,14 +96,37 @@ function storyModel(id) {
 const stAvatar = (t, cls = '') =>
   `<span class="st-avatar ${cls}" style="--who:${esc(t.color)}" title="${esc(t.name)}" aria-hidden="true">${esc(t.name[0])}</span>`;
 
+// Outside links for a stop: where it is, and what other visitors say.
+function stLinks(s) {
+  const maps = s.id
+    ? mapsPin(P[s.id])
+    : 'https://www.google.com/maps/search/?api=1&query=' + encodeURIComponent(`${s.lat},${s.lon}`);
+  const ta = s.id
+    ? 'https://www.tripadvisor.com/Search?q=' + encodeURIComponent(`${s.name} ${P[s.id].cityName}`)
+    : '';
+  return (
+    external(
+      maps,
+      `${icon('pin')}<span>Maps</span>`,
+      'st-act st-link" aria-label="' + esc(s.name) + ' on Google Maps',
+    ) +
+    (ta
+      ? external(
+          ta,
+          `${icon('star')}<span>Tripadvisor</span>`,
+          'st-act st-link" aria-label="' + esc(s.name) + ' on Tripadvisor',
+        )
+      : '')
+  );
+}
 function stStopHtml(s, max) {
   const mine = stLoves().has(storyNow.id + ':' + s.i);
   const want = s.id && saved(s.id);
-  return `<article class="st-stop" id="st-stop-${s.i}" data-i="${s.i}"><div class="st-time"><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><h4>${s.id ? `<button class="inline-link" data-action="place" data-id="${s.id}">${esc(s.name)}</button>` : esc(s.name)}</h4><p class="st-area">${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
+  return `<article class="st-stop" id="st-stop-${s.i}" data-i="${s.i}" style="--day:${stColor(s.day)}"><div class="st-time"><b class="st-num" aria-label="Stop ${s.n} of day ${s.day + 1}">${s.n}</b><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><h4>${s.id ? `<button class="inline-link" data-action="place" data-id="${s.id}">${esc(s.name)}</button>` : esc(s.name)}</h4><p class="st-area">${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
     s.photos.length
       ? `<div class="st-photos n${s.photos.length}">${s.photos.map((x) => `<button class="st-photo" data-action="story-photo" data-id="${x.id}" aria-label="Open photo: ${esc(x.caption)}">${photoTag(x.id)}<span class="st-cap">${stAvatar(x.by, 'tiny')} ${esc(x.caption)}</span></button>`).join('')}</div>`
       : ''
-  }<div class="st-acts"><button class="st-act ${mine ? 'on' : ''}" data-action="story-love" data-i="${s.i}" aria-pressed="${mine}" aria-label="Love this stop">${icon('heart')}<span>${s.loves + (mine ? 1 : 0)}</span></button>${s.id ? `<button class="st-act ${want ? 'on' : ''}" data-action="story-want" data-id="${s.id}" aria-pressed="${want}">${icon(want ? 'check' : 'plus')}<span>${want ? 'On my list' : 'Want to go'}</span></button>` : ''}</div>${
+  }<div class="st-acts"><button class="st-act ${mine ? 'on' : ''}" data-action="story-love" data-i="${s.i}" aria-pressed="${mine}" aria-label="Love this stop">${icon('heart')}<span>${s.loves + (mine ? 1 : 0)}</span></button>${s.id ? `<button class="st-act ${want ? 'on' : ''}" data-action="story-want" data-id="${s.id}" aria-pressed="${want}">${icon(want ? 'check' : 'plus')}<span>${want ? 'On my list' : 'Want to go'}</span></button>` : ''}${stLinks(s)}</div>${
     s.comments.length
       ? `<ul class="st-comments">${s.comments.map((c) => `<li><strong>${esc(c.by)}</strong> ${esc(c.text)}</li>`).join('')}</ul>`
       : ''
@@ -97,7 +134,7 @@ function stStopHtml(s, max) {
 }
 
 function stDayHtml(day, max) {
-  let html = `<header class="st-day" id="st-day-${day.i}" data-day="${day.i}"><span class="eyebrow">Day ${day.i + 1} · ${stDate(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}</span><h3>${esc(day.title)}</h3><p>${esc(day.city)} · ${day.places} places · ${stDur(day.mins)} at places</p></header>`;
+  let html = `<header class="st-day" id="st-day-${day.i}" data-day="${day.i}" style="--day:${stColor(day.i)}"><span class="eyebrow">Day ${day.i + 1} · ${stDate(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}</span><h3>${esc(day.title)}</h3><p>${esc(day.city)} · ${day.places} places · ${stDur(day.mins)} at places</p></header>`;
   day.rows.forEach((r, i) => {
     const prev = day.rows[i - 1];
     if (prev && !r.leg && !prev.leg) {
@@ -142,7 +179,7 @@ function renderStory(id) {
   $('#app').innerHTML =
     `<div class="wrap story-page"><section class="shared-hero story-hero">${photoTag(st.cover, '', false)}<div class="shared-hero-copy">${st.sample ? '<span class="st-sample">Sample story</span>' : ''}<h1>${esc(st.title)}</h1><p>${esc(range)} · ${esc(st.blurb)}</p><div class="st-people">${st.travellers.map((t) => stAvatar(t)).join('')}<span>${st.travellers.map((t) => esc(t.name)).join(', ')}</span></div></div><span class="hero-credit">${photoCredit(st.cover)}</span></section>` +
     `<div class="st-facts"><div><strong>${days.length}</strong><span>days</span></div><div><strong>${m.cityIds.length}</strong><span>cities</span></div><div><strong>${stops.length}</strong><span>places</span></div><div><strong>${Math.round(m.km / 10) * 10}</strong><span>km between stops</span></div><button class="st-lock" data-action="story-audience">${icon('info')}<span>Only ${seen} people can see this</span></button></div>` +
-    `<div class="story-layout"><div class="story-mapcol"><div class="story-mapbox"><div id="story-map" aria-label="Map of the trip route"></div><div class="story-maptools"><button class="btn small" data-action="story-play" id="story-play" aria-pressed="false">${icon('route')}<span>Play the trip</span></button><span class="story-now" id="story-now" aria-live="polite"></span></div></div><div class="chips story-days" id="story-days"><button class="chip active" data-action="story-day" data-id="all">Whole trip</button>${days.map((d) => `<button class="chip" data-action="story-day" data-id="${d.i}">Day ${d.i + 1}</button>`).join('')}</div></div>` +
+    `<div class="story-layout"><div class="story-mapcol"><div class="story-mapbox"><div id="story-map" aria-label="Map of the trip route"></div><div class="story-maptools"><button class="btn small" data-action="story-play" id="story-play" aria-pressed="false">${icon('route')}<span>Play the trip</span></button><span class="story-now" id="story-now" aria-live="polite"></span></div></div><div class="chips story-days" id="story-days"><button class="chip active" data-action="story-day" data-id="all">Whole trip</button>${days.map((d) => `<button class="chip" data-action="story-day" data-id="${d.i}"><i class="st-dot" style="--day:${stColor(d.i)}"></i>Day ${d.i + 1}</button>`).join('')}</div></div>` +
     `<div class="story-timeline" id="story-timeline">${days.map((d) => stDayHtml(d, max)).join('')}</div></div>` +
     `<section class="st-after"><div class="st-panel"><h2>Where the time went</h2><div class="st-citybars">${cityMins.map((x) => `<div class="st-citybar"><span>${esc(x.c.name)}</span><i style="--w:${Math.round((x.mins / topMins) * 100)}%"></i><em>${stDur(x.mins)}</em></div>`).join('')}</div><h3>Longest stops</h3><ol class="st-longest">${longest.map((s) => `<li><button class="inline-link" data-action="story-goto" data-i="${s.i}">${esc(s.name)}</button><span>${stDur(s.mins)}</span></li>`).join('')}</ol></div>` +
     `<div class="st-panel"><h2>What this trip left behind</h2><p class="muted">${esc(st.country)} is now filled in on ${st.travellers.length} maps, and each traveller's passport has ${cityMins.length} new stamps.</p><div class="st-stamps">${cityMins.map((x, i) => stStamp(x.c, stDate(x.date, { day: 'numeric', month: 'short', year: 'numeric' }), i)).join('')}</div><p class="filter-note">A preview. Maps and passports arrive in a later step.</p></div></section>` +
@@ -171,29 +208,23 @@ function storyMapInit(m) {
     style: outlineStyle(),
     interactive: false,
   }).addTo(storyMap);
-  if (S.street && navigator.onLine)
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution:
-        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-      maxZoom: 19,
-      updateWhenIdle: true,
-    }).addTo(storyMap);
+  if (S.street && navigator.onLine) storyTiles();
   const pts = m.stops.map((s) => [s.lat, s.lon]);
   // One line per day, so the day being read stands out from the rest of the route.
-  L.polyline(pts, { color: '#e7764b', weight: 2, opacity: 0.35, dashArray: '2 7' }).addTo(storyMap);
+  L.polyline(pts, { color: '#6b7a78', weight: 2, opacity: 0.55, dashArray: '2 7' }).addTo(storyMap);
   m.lines = m.days.map((d) =>
     L.polyline(
       m.stops.filter((s) => s.day === d.i).map((s) => [s.lat, s.lon]),
-      { color: '#e7764b', weight: 3, opacity: 0.9, lineJoin: 'round' },
+      { color: stColor(d.i), weight: 3, opacity: 0.95, lineJoin: 'round' },
     ).addTo(storyMap),
   );
   m.markers = m.stops.map((s) =>
     L.marker([s.lat, s.lon], {
-      title: s.name,
+      title: `Day ${s.day + 1}, stop ${s.n}: ${s.name}`,
       keyboard: false,
       icon: L.divIcon({
         className: '',
-        html: `<div class="st-pin" data-pin="${s.i}"></div>`,
+        html: `<div class="st-pin" data-pin="${s.i}" style="--day:${stColor(s.day)}">${s.n}</div>`,
         iconSize: [28, 28],
         iconAnchor: [14, 14],
       }),
@@ -203,10 +234,98 @@ function storyMapInit(m) {
   );
   m.calm = calm;
   m.bounds = L.latLngBounds(pts);
-  storyMap.fitBounds(m.bounds, { padding: [28, 28] });
-  setTimeout(() => storyMap?.invalidateSize(), 120);
+  storyFitAll(false);
+  storyCityLabels(m);
+  setTimeout(() => {
+    if (!storyMap) return;
+    storyMap.invalidateSize();
+    if (storyNow === m && m.active < 0) storyFitAll(false);
+  }, 120);
 }
 
+// Street tiles with English labels everywhere. OpenStreetMap's own tiles label places in the local
+// script, so they are only the fallback if the English ones fail to load.
+function storyTiles() {
+  const osm = () =>
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution:
+        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+      maxZoom: 19,
+      updateWhenIdle: true,
+    });
+  const english = L.tileLayer(
+    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
+    {
+      attribution:
+        'Tiles © <a href="https://www.esri.com/">Esri</a> and its data providers, including OpenStreetMap contributors',
+      maxZoom: 19,
+      updateWhenIdle: true,
+    },
+  );
+  let failed = 0,
+    loaded = 0;
+  english.on('tileload', () => loaded++);
+  english.on('tileerror', () => {
+    if (++failed < 4 || loaded || !storyMap) return;
+    english.off('tileerror');
+    storyMap.removeLayer(english);
+    osm().addTo(storyMap);
+  });
+  english.addTo(storyMap);
+}
+// City labels for the zoomed-out view, where single stops are too close together to tell apart.
+function storyCityLabels(m) {
+  // Cities close enough to overlap at this zoom (Kyoto, Nara, Osaka) share one label.
+  const groups = [];
+  m.cityIds.forEach((cid) => {
+    const mine = m.stops.filter((s) => s.cityId === cid),
+      at = { lat: mine[0].lat, lon: mine[0].lon },
+      g = groups.find((o) => stKm(o.at, at) < 120);
+    if (g) (g.names.push(C[cid].name), g.mine.push(...mine));
+    else groups.push({ at, names: [C[cid].name], mine: [...mine] });
+  });
+  groups.forEach((g) => {
+    const ds = g.mine.map((s) => s.day + 1),
+      a = Math.min(...ds),
+      b = Math.max(...ds),
+      lat = g.mine.reduce((t, s) => t + s.lat, 0) / g.mine.length,
+      lon = g.mine.reduce((t, s) => t + s.lon, 0) / g.mine.length;
+    L.marker([lat, lon], {
+      keyboard: false,
+      icon: L.divIcon({
+        className: '',
+        html: `<div class="st-citydot" style="--day:${stColor(g.mine[0].day)}"></div>`,
+        iconSize: [18, 18],
+        iconAnchor: [9, 9],
+      }),
+      zIndexOffset: 2000,
+    })
+      .bindTooltip(
+        `<strong>${esc(g.names.join(' · '))}</strong> ${a === b ? `Day ${a}` : `Days ${a}–${b}`} · ${g.mine.length} places`,
+        {
+          permanent: true,
+          direction: 'top',
+          offset: [0, -8],
+          className: 'st-citytip',
+          interactive: true,
+        },
+      )
+      .on('click', () => storyCity(g))
+      .addTo(storyMap);
+  });
+  const far = () => $('.story-mapbox')?.classList.toggle('far', storyMap.getZoom() < 10);
+  storyMap.on('zoomend', far);
+  far();
+}
+function storyCity(g) {
+  storyPlay(false);
+  storyNow.hold = Date.now() + 1200;
+  storyMap.fitBounds(L.latLngBounds(g.mine.map((s) => [s.lat, s.lon])), {
+    padding: [36, 36],
+    maxZoom: 14,
+    animate: !storyNow.calm,
+  });
+}
 // The stop nearest the reading line becomes the active one, and the map follows it.
 function storyWatch() {
   const m = storyNow;
@@ -237,7 +356,7 @@ function storyActive(i, zoom = true) {
   m.markers.forEach((mk, k) => mk.setZIndexOffset(k === i ? 1000 : 0));
   storyDayLines(s.day);
   const now = $('#story-now');
-  if (now) now.textContent = `Day ${s.day + 1} · ${s.in} · ${s.name}`;
+  if (now) now.textContent = `Day ${s.day + 1}, stop ${s.n} · ${s.name}`;
   $$('#story-days .chip').forEach((c) =>
     c.classList.toggle('active', c.dataset.id === String(s.day)),
   );
@@ -288,6 +407,14 @@ function storyGoto(i) {
   storyScroll($('#st-stop-' + i));
   storyActive(i);
 }
+// Whole-trip view, with room left around the route for the city labels and the play button.
+function storyFitAll(animate) {
+  storyMap.fitBounds(storyNow.bounds, {
+    paddingTopLeft: [64, 48],
+    paddingBottomRight: [64, 62],
+    animate,
+  });
+}
 function storyDay(id) {
   const m = storyNow;
   if (!m || !storyMap) return;
@@ -298,7 +425,7 @@ function storyDay(id) {
     $$('.st-stop.active, .st-pin.active').forEach((el) => el.classList.remove('active'));
     $('#story-now').textContent = '';
     storyDayLines(-1);
-    storyMap.fitBounds(m.bounds, { padding: [28, 28], animate: !m.calm });
+    storyFitAll(!m.calm);
     return;
   }
   const dayStops = m.stops.filter((s) => s.day === Number(id));

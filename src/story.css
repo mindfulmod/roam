@@ -208,13 +208,19 @@
   flex: none;
 }
 .st-pin {
-  width: 14px;
-  height: 14px;
-  margin: 7px;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  margin: 3px;
   border-radius: 50%;
-  background: #fff;
-  border: 3px solid #e7764b;
-  box-shadow: 0 1px 4px #0005;
+  background: var(--day);
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 800;
+  line-height: 1;
+  box-shadow: 0 1px 4px #0006;
   transition:
     transform 0.2s cubic-bezier(0.23, 1, 0.32, 1),
     background-color 0.2s;
@@ -223,9 +229,80 @@
   opacity: 0.45;
 }
 .st-pin.active {
-  background: #e7764b;
-  border-color: #fff;
-  transform: scale(1.7);
+  transform: scale(1.45);
+  box-shadow:
+    0 0 0 3px var(--day),
+    0 2px 8px #0007;
+}
+/* Zoomed out, stops shrink to dots and the city labels take over. */
+.story-mapbox.far .st-pin {
+  width: 10px;
+  height: 10px;
+  margin: 9px;
+  border-width: 1.5px;
+  font-size: 0;
+}
+.story-mapbox.far .st-pin.active {
+  transform: scale(1.3);
+}
+.st-citydot {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: var(--day);
+  border: 3px solid #fff;
+  box-shadow: 0 1px 5px #0007;
+  cursor: pointer;
+}
+.story-mapbox:not(.far) .st-citydot,
+.story-mapbox:not(.far) .st-citytip {
+  visibility: hidden;
+  pointer-events: none;
+}
+.leaflet-tooltip.st-citytip {
+  background: var(--white);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  padding: 4px 9px;
+  font-size: 12px;
+  line-height: 1.35;
+  box-shadow: var(--shadow);
+  cursor: pointer;
+}
+.leaflet-tooltip.st-citytip::before {
+  display: none;
+}
+.st-citytip strong {
+  display: block;
+  font-size: 13px;
+}
+.st-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--day);
+  margin-right: 6px;
+}
+.chip.active .st-dot {
+  box-shadow: 0 0 0 1.5px #fff;
+}
+.st-num {
+  display: grid;
+  place-items: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: var(--day);
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  margin-bottom: 4px;
+}
+.st-link {
+  text-decoration: none;
+  color: var(--ink);
 }
 
 .story-timeline {
@@ -240,7 +317,8 @@
   padding-top: 0;
 }
 .st-day .eyebrow {
-  color: var(--orange);
+  color: var(--day);
+  filter: brightness(0.92);
 }
 .st-day h3 {
   font-size: 26px;
@@ -265,8 +343,8 @@
     box-shadow 0.2s;
 }
 .st-stop.active {
-  border-color: var(--orange);
-  box-shadow: 0 0 0 1px var(--orange);
+  border-color: var(--day);
+  box-shadow: 0 0 0 1px var(--day);
 }
 .st-time {
   display: flex;
@@ -287,7 +365,7 @@
   width: var(--w);
   margin-top: 5px;
   border-radius: 3px;
-  background: var(--orange);
+  background: var(--day);
 }
 .st-body h4 {
   margin: 0;
@@ -353,6 +431,7 @@
 }
 .st-acts {
   display: flex;
+  flex-wrap: wrap;
   gap: 8px;
   margin-top: 11px;
 }
