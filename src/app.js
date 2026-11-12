@@ -515,6 +515,20 @@ function closeViewer(how = 'user') {
 window.addEventListener('popstate', () => {
   if (VW && !history.state?.roamViewer) closeViewer('history');
 });
+// Photo credits and map credits stay behind a small "i" until asked for.
+document.addEventListener(
+  'click',
+  (e) => {
+    const c = e.target.closest?.('.hero-credit, .photo-caption');
+    if (!c || !c.querySelector('a') || c.querySelector('br')) return;
+    const open = c.classList.contains('open');
+    if (open && e.target.closest('a')) return;
+    e.preventDefault();
+    e.stopPropagation();
+    c.classList.toggle('open', !open);
+  },
+  true,
+);
 // The photo's on-screen box inside its slide (the image is object-fit: contain).
 function viewerBox() {
   const slide = VW.x.querySelectorAll('.vw-slide')[VW.i],
