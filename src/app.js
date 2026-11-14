@@ -93,6 +93,7 @@ function icon(name) {
 const defaultState = () => ({
   saved: [],
   shops: [],
+  moods: [],
   trip: [],
   days: {},
   visited: [],
@@ -124,6 +125,9 @@ function cleanState(s) {
   d.shops = [...new Set(Array.isArray(s.shops) ? s.shops : [])].filter((id) =>
     Object.hasOwn(SHOPS, id),
   );
+  d.moods = (Array.isArray(s.moods) ? s.moods : [])
+    .filter((m) => ['food', 'nature', 'history', 'beach', 'bigcity', 'quiet'].includes(m))
+    .slice(0, 2);
   d.trip = [...new Set(Array.isArray(s.trip) ? s.trip : [])]
     .filter(validCity)
     .slice(0, CITIES.length);
@@ -2302,6 +2306,10 @@ function route() {
     tripMap.remove();
     tripMap = null;
   }
+  if (chooseMap) {
+    chooseMap.remove();
+    chooseMap = null;
+  }
   document.title = 'Roam Atlas — Your world, ready to explore';
   if (map) {
     map.remove();
@@ -2330,6 +2338,7 @@ function route() {
   else if (parts[0] === 'saved') renderSaved();
   else if (parts[0] === 'guide') renderGuide();
   else if (parts[0] === 'budget') renderBudget();
+  else if (parts[0] === 'choose') renderChoose(params);
   else if (parts[0] === 't' && parts[1]) renderShared(parts[1]);
   else if (parts[0] === 'story') renderStory(parts[1] || '');
   else renderExplore();
@@ -3212,7 +3221,7 @@ document.addEventListener('click', (e) => {
 function renderExplore() {
   headerActive('explore');
   $('#app').innerHTML =
-    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1><p>${CITIES.length} places worth the trip, ranked so you can see why.</p><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" aria-label="Search destinations and attractions" placeholder="Search a city, country or landmark" value="${esc(browseQuery)}"></div><div class="quickacts"><button class="quickact" data-action="surprise">${icon('shuffle')} Surprise me</button><a class="quickact" href="#/budget">${icon('wallet')} Trips for my budget</a><a class="quickact" href="#/map">${icon('map')} Browse the map</a><a class="quickact" href="#/trip">${icon('route')} Plan a trip</a></div></div><span class="hero-credit">${photoCredit('kyoto')}</span></section>${storyTeaser()}<div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div>${monthChips()}<div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
+    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><section class="doors"><div class="door door-search"><label for="browse-search">I have a place in mind</label><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" autocomplete="off" aria-label="Search cities, sights and dishes" placeholder="City, sight or dish"></div><div class="suggest" id="search-suggest" role="listbox" hidden></div></div><a class="door door-choose" href="#/choose"><i>${icon('compass')}</i><span><strong>Help me choose</strong><small>${CITIES.length} places, matched to your time, budget and mood</small></span>${icon('arrow')}</a></section>${choosePill()}${loopStrip()}${storyTeaser()}<div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div>${monthChips()}<div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
       ['tourism', 'Tourism index'],
       ['arrivals', 'Most visited'],
       ['personal', 'Japan first'],
@@ -3226,7 +3235,7 @@ function renderExplore() {
     )
       .map(
         (t) =>
-          `<article class="tripteaser" data-action="template" data-id="${t.id}" tabindex="0" role="button" aria-label="Plan ${esc(t.title)}">${starterArt(t)}<div class="teaser-body"><div class="tag">${t.tag}</div><h3>${t.title}</h3><p>${t.highlights}</p></div></article>`,
+          `<article class="tripteaser" data-action="template" data-id="${t.id}" tabindex="0" role="button" aria-label="Plan ${esc(t.title)}"><div class="starter-art">${photoTag(t.cities[0])}</div><div class="teaser-body"><div class="tag">${t.tag}</div><h3>${t.title}</h3><p>${t.highlights}</p></div></article>`,
       )
       .join('')}</div>${footer()}</div>`;
   renderBrowse();
@@ -3803,10 +3812,8 @@ document.addEventListener('click', (e) => {
 });
 document.addEventListener('input', (e) => {
   const t = e.target;
-  if (t.id === 'browse-search') {
-    browseQuery = t.value;
-    renderBrowse();
-  } else if (t.id === 'map-search') {
+  if (t.id === 'browse-search') renderSuggest(t.value);
+  else if (t.id === 'map-search') {
     mapQuery = t.value;
     renderMapPins(false);
   } else if (t.id === 'choose-city-search')

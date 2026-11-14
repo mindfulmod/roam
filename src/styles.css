@@ -7648,3 +7648,584 @@ a.srcchip:hover {
     font-size: 14px;
   }
 }
+
+/* ==========================================================================
+   Find and save flow, step 3: two-door home and Help me choose.
+   ========================================================================== */
+.home-hero {
+  min-height: 230px;
+  margin-bottom: 0;
+}
+.home-hero:after {
+  background: linear-gradient(180deg, #0b201e33 0%, var(--k-0b201ed9-s) 100%);
+}
+.home-hero-copy {
+  padding: 28px 30px 64px;
+}
+.home-hero-copy h1 {
+  margin: 0;
+  text-shadow: 0 2px 14px #0008;
+}
+.doors {
+  position: relative;
+  z-index: 5;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: -44px 18px 18px;
+}
+.door {
+  position: relative;
+  background: var(--k-fff-s);
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  padding: 16px;
+  box-shadow: 0 10px 30px #14382e1f;
+  color: var(--ink);
+  text-decoration: none;
+  min-width: 0;
+}
+.door > label {
+  display: block;
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.door .hero-search {
+  box-shadow: none;
+  border: 1px solid var(--line);
+}
+.door-choose {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+.door-choose i {
+  width: 46px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.door-choose > span {
+  flex: 1;
+  min-width: 0;
+}
+.door-choose strong {
+  display: block;
+  font-size: 17px;
+}
+.door-choose small {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 2px;
+}
+.door-choose > .icon {
+  color: var(--teal);
+}
+.suggest {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(100% + 6px);
+  z-index: 20;
+  background: var(--k-fff-s);
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  box-shadow: 0 14px 40px #14382e33;
+  padding: 6px;
+  max-height: 60vh;
+  overflow: auto;
+}
+.suggest button {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  width: 100%;
+  border: 0;
+  background: none;
+  border-radius: 11px;
+  padding: 8px;
+  text-align: left;
+  color: var(--ink);
+  cursor: pointer;
+}
+.suggest button:hover,
+.suggest button:focus-visible {
+  background: var(--teal2);
+}
+.suggest img {
+  width: 44px;
+  height: 44px;
+  border-radius: 10px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.suggest span {
+  flex: 1;
+  min-width: 0;
+}
+.suggest strong,
+.suggest small {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.suggest strong {
+  font-size: 15px;
+}
+.suggest small {
+  font-size: 13px;
+  color: var(--muted);
+}
+.suggest .icon {
+  color: var(--muted);
+}
+.sg-none {
+  margin: 0;
+  padding: 12px;
+  font-size: 14px;
+  color: var(--muted);
+}
+.choosepill {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--teal2);
+  color: var(--ink);
+  text-decoration: none;
+  padding: 11px 14px;
+  margin-bottom: 14px;
+  font-size: 14px;
+}
+.choosepill span {
+  flex: 1;
+  min-width: 0;
+}
+.choosepill b {
+  color: var(--teal);
+  font-size: 13px;
+}
+.loopstrip {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin-bottom: 22px;
+}
+.loopstrip a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--k-fff-s);
+  padding: 10px 12px;
+  color: var(--ink);
+  text-decoration: none;
+  min-width: 0;
+}
+.loopstrip b {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--teal2);
+  color: var(--teal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 13px;
+}
+.loopstrip b .icon {
+  width: 15px;
+  height: 15px;
+}
+.loopstrip a.current {
+  border-color: var(--teal);
+}
+.loopstrip a.current b,
+.loopstrip a.done b {
+  background: var(--teal);
+  color: #fff;
+}
+.loopstrip span {
+  min-width: 0;
+}
+.loopstrip strong,
+.loopstrip small {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.loopstrip strong {
+  font-size: 14px;
+}
+.loopstrip small {
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Help me choose. */
+.choose-head h1 {
+  font:
+    44px/1.05 Georgia,
+    serif;
+  margin: 8px 0 6px;
+}
+.choose-head p {
+  color: var(--muted);
+  margin: 0 0 18px;
+  font-size: 15px;
+}
+.cq {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--k-fff-s);
+  padding: 18px;
+  margin-bottom: 12px;
+}
+.cq h2 {
+  font-size: 19px;
+  margin: 0 0 10px;
+}
+.cq .chips + h2 {
+  margin-top: 18px;
+}
+.cq-note {
+  font-size: 13px;
+  color: var(--muted);
+  margin: -6px 0 12px;
+}
+.cq .chip {
+  font-size: 14px;
+  padding: 9px 14px;
+}
+.cq-from {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-top: 16px;
+  font-size: 14px;
+}
+.cq-from select {
+  margin-left: 6px;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+  background: var(--k-fff-s);
+  color: var(--ink);
+  padding: 8px 10px;
+  font: inherit;
+  max-width: 190px;
+}
+.moodgrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+}
+.moodtile {
+  position: relative;
+  aspect-ratio: 1;
+  border: 0;
+  border-radius: 14px;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  background: var(--teal);
+  outline: 3px solid transparent;
+  outline-offset: 2px;
+}
+.moodtile img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.moodtile:after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(#0b201e00 35%, var(--k-0b201ed9-s));
+}
+.moodtile span {
+  position: absolute;
+  left: 10px;
+  right: 10px;
+  bottom: 9px;
+  z-index: 1;
+  color: #fff;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: left;
+}
+.moodtile > .icon {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  z-index: 1;
+  width: 26px;
+  height: 26px;
+  padding: 5px;
+  border-radius: 50%;
+  background: var(--teal);
+  color: #fff;
+  display: none;
+}
+.moodtile.active {
+  outline-color: var(--teal);
+}
+.moodtile.active > .icon {
+  display: block;
+}
+.choosehead {
+  margin-top: 26px;
+}
+.viewtoggle {
+  display: inline-flex;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--k-fff-s);
+}
+.viewtoggle button {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border: 0;
+  background: none;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+.viewtoggle button.active {
+  background: var(--teal);
+  color: #fff;
+}
+.viewtoggle .icon {
+  width: 16px;
+  height: 16px;
+}
+.choosefix {
+  border-radius: 12px;
+  background: var(--teal2);
+  padding: 12px 14px;
+  font-size: 14px;
+  margin-bottom: 14px;
+}
+.pickgrid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.pickcard {
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--k-fff-s);
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+}
+.pk-photo {
+  position: relative;
+  height: 190px;
+}
+.pk-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.pk-price {
+  position: absolute;
+  left: 12px;
+  bottom: 12px;
+  background: var(--k-fff-s);
+  color: var(--ink);
+  border-radius: 10px;
+  padding: 6px 10px;
+  font-weight: 700;
+  font-size: 14px;
+  box-shadow: 0 2px 8px #0003;
+}
+.pk-price.over {
+  color: var(--k-b3412f-t);
+}
+.pk-body {
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.pk-body h3 {
+  font-size: 22px;
+  margin: 0;
+}
+.pk-why {
+  list-style: none;
+  padding: 0;
+  margin: 12px 0 14px;
+  display: grid;
+  gap: 6px;
+  flex: 1;
+  align-content: start;
+}
+.pk-why li {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 1.35;
+}
+.pk-why .icon {
+  width: 16px;
+  height: 16px;
+  margin-top: 2px;
+  color: var(--teal);
+}
+.chooseactions {
+  margin: 20px 0 10px;
+}
+#choose-map {
+  height: min(560px, 62vh);
+  border-radius: 18px;
+  border: 1px solid var(--line);
+  background: var(--map-water, var(--k-dfeaea-s));
+  z-index: 0;
+}
+.price-pin-wrap {
+  overflow: visible;
+}
+.price-pin {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  white-space: nowrap;
+  background: var(--k-fff-s);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 4px 9px;
+  font-size: 13px;
+  font-weight: 700;
+  box-shadow: 0 2px 6px #0003;
+}
+.price-pin.top {
+  background: var(--teal);
+  border-color: var(--teal);
+  color: #fff;
+}
+.surprise .sp-main {
+  height: 260px;
+}
+.surprise .sp-main img,
+.sp-row img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.sp-row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 4px;
+  margin-top: 4px;
+}
+.sp-row figure {
+  position: relative;
+  margin: 0;
+  height: 110px;
+}
+.sp-row figcaption {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 14px 8px 6px;
+  font-size: 13px;
+  color: #fff;
+  background: linear-gradient(#0000, #000b);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.sharelink {
+  width: 100%;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: 12px;
+  font: inherit;
+  font-size: 14px;
+}
+@media (max-width: 900px) {
+  .pickgrid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .moodgrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 760px) {
+  .home-hero {
+    min-height: 170px;
+    margin-top: 12px;
+    border-radius: 20px;
+  }
+  .home-hero-copy {
+    padding: 18px 18px 56px;
+  }
+  .home-hero-copy h1 {
+    font-size: 34px;
+  }
+  .doors {
+    grid-template-columns: minmax(0, 1fr);
+    margin: -40px 10px 14px;
+    gap: 10px;
+  }
+  .door {
+    padding: 13px;
+  }
+  .loopstrip a {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+    padding: 10px;
+  }
+  .choose-head h1 {
+    font-size: 34px;
+  }
+  .cq {
+    padding: 15px;
+  }
+  .rowchips {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    margin-right: -15px;
+    padding-right: 15px;
+    scrollbar-width: none;
+  }
+  .rowchips::-webkit-scrollbar {
+    display: none;
+  }
+  .rowchips .chip {
+    flex-shrink: 0;
+  }
+  .chooseactions .btn {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+  #choose-map {
+    height: 56vh;
+  }
+}
