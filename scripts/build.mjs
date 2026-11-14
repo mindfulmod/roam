@@ -68,6 +68,7 @@ const js = [
   await read('src/theme.js'),
   await read('src/share.js'),
   await read('src/story.js'),
+  await read('src/choose.js'),
   await read('src/app.js'),
 ];
 let html = await read('src/index.html');
