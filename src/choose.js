@@ -171,7 +171,9 @@ function pickCard(x) {
   return `<article class="pickcard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}"><div class="pk-photo">${photoTag(c.id)}${x.est !== null ? `<span class="pk-price ${x.st}">About ${cash(x.est / S.people)}${S.people > 1 ? ' each' : ''}</span>` : ''}</div><div class="pk-body"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><ul class="pk-why">${x.why
     .slice(0, 3)
     .map((w) => `<li>${icon('check')}${esc(w)}</li>`)
-    .join('')}</ul><div class="actions">${cityAdd(c.id)}</div></div></article>`;
+    .join(
+      '',
+    )}</ul><div class="actions">${cityAdd(c.id)}<button class="cmpbtn ${compareIds.includes(c.id) ? 'on' : ''}" data-action="cmp" data-id="${c.id}" aria-pressed="${compareIds.includes(c.id)}">${icon(compareIds.includes(c.id) ? 'check' : 'plus')} Compare</button></div></div></article>`;
 }
 function chooseFix(list) {
   const b = B(),
@@ -354,6 +356,78 @@ function loopStrip() {
   return `<nav class="loopstrip" aria-label="How it works">${step(1, '#/choose', 'Dream', 'Find a place', saved > 0 || trip > 0, !saved && !trip)}${step(2, '#/saved', 'Save', saved ? `${saved} saved` : 'Tap a heart', saved > 0 && trip > 0, saved === 0 ? false : !trip)}${step(3, '#/trip', 'Trip', trip ? `${trip} ${trip > 1 ? 'cities' : 'city'}` : 'Add a city', false, trip > 0)}</nav>`;
 }
 
+// ---------- Compare up to three cities, with bars ----------
+let compareIds = [];
+function updateCompareBar() {
+  let el = $('#cmpbar');
+  if (!el) {
+    el = document.createElement('div');
+    el.id = 'cmpbar';
+    el.className = 'cmpbar no-print';
+    document.body.appendChild(el);
+  }
+  el.hidden = !compareIds.length;
+  document.body.classList.toggle('has-compare', compareIds.length > 0);
+  el.innerHTML = compareIds.length
+    ? `<span class="cmp-thumbs">${compareIds.map((id) => photoTag(id)).join('')}</span><span class="cmp-text">${compareIds.length === 1 ? 'Pick one or two more' : listNames(compareIds.map((id) => C[id].name))}</span><button class="cmp-clear" data-action="cmp-clear" aria-label="Clear comparison">${icon('close')}</button><button class="btn small" data-action="cmp-open" ${compareIds.length < 2 ? 'disabled' : ''}>Compare</button>`
+    : '';
+}
+function toggleCompare(id) {
+  if (compareIds.includes(id)) compareIds = compareIds.filter((x) => x !== id);
+  else if (compareIds.length >= 3) return toast('Compare up to three at a time.');
+  else compareIds.push(id);
+  $$(`[data-action="cmp"][data-id="${id}"]`).forEach((b) => {
+    const on = compareIds.includes(id);
+    b.classList.toggle('on', on);
+    b.setAttribute('aria-pressed', on);
+    b.innerHTML = icon(on ? 'check' : 'plus') + ' Compare';
+  });
+  updateCompareBar();
+}
+function openCompare() {
+  const cs = compareIds.map((id) => C[id]),
+    o = budgetOrigin(),
+    ms = moodScores(),
+    rows = (title, vals, fmt, lowBest = true) => {
+      if (vals.some((v) => v === null)) return '';
+      const max = Math.max(...vals, 1),
+        best = lowBest ? Math.min(...vals) : Math.max(...vals);
+      return `<section class="cmp-metric"><h3>${title}</h3>${cs.map((c, i) => `<div class="cmp-row"><span>${esc(c.name)}</span><div class="cmp-track"><i class="${vals[i] === best ? 'best' : ''}" style="width:${Math.max(4, Math.round((vals[i] / max) * 100))}%"></i></div><b>${fmt(vals[i])}</b></div>`).join('')}</section>`;
+    };
+  showModal(
+    `<div class="modalcontent comparesheet"><h2>Side by side</h2><div class="cmp-heads">${cs.map((c) => `<a href="#/city/${c.id}">${photoTag(c.id)}<strong>${esc(c.name)}</strong><small>${esc(c.country)}</small></a>`).join('')}</div>${rows(
+      `Price for ${B().days} days${S.people > 1 ? ', each' : ''}`,
+      cs.map((c) => (o ? pick(cityCost(c).total) / S.people : null)),
+      (v) => cash(v),
+    )}${rows(
+      o ? `Travel time from ${esc(o.name)}` : '',
+      cs.map((c) => {
+        const f = flightHours(c);
+        return f ? (f.ground ? 2 : f.h) : null;
+      }),
+      (v) => `${v} h`,
+    )}${rows(
+      'Days needed',
+      cs.map((c) => c.days),
+      (v) => `${v} days`,
+    )}<section class="cmp-metric"><h3>Best months</h3>${cs.map((c) => `<div class="cmp-row"><span>${esc(c.name)}</span><div class="cmp-months">${MONTHS.map((m, i) => `<i class="${c.bestMonths.includes(i + 1) ? 'on' : ''}" title="${m}">${m[0]}</i>`).join('')}</div></div>`).join('')}</section><section class="cmp-metric"><h3>Strongest for</h3>${cs
+      .map(
+        (c) =>
+          `<div class="cmp-row"><span>${esc(c.name)}</span><div class="cmp-moods">${MOODS.map(
+            ([k]) => k,
+          )
+            .sort((a, b) => ms[c.id][b] - ms[c.id][a])
+            .slice(0, 2)
+            .map((k) => `<em>${MOOD_WORD[k]}</em>`)
+            .join('')}</div></div>`,
+      )
+      .join(
+        '',
+      )}</section><div class="actions cmp-add">${cs.map((c) => cityAdd(c.id)).join('')}</div></div>`,
+    'Compare',
+  );
+}
+
 // ---------- Search: cities, places and dishes, forgiving of typos ----------
 let searchIndex = null;
 function plain(t) {
@@ -508,6 +582,18 @@ document.addEventListener('click', (e) => {
     renderChooseResults();
   } else if (a === 'ch-surprise') chooseSurprise();
   else if (a === 'ch-send') chooseSend();
+  else if (a === 'cmp') {
+    e.stopPropagation();
+    toggleCompare(id);
+  } else if (a === 'cmp-clear') {
+    const was = compareIds;
+    compareIds = [];
+    was.forEach((x) => {
+      compareIds = [x];
+      toggleCompare(x);
+    });
+    updateCompareBar();
+  } else if (a === 'cmp-open') openCompare();
   else if (a === 'sg') {
     if (t.dataset.kind === 'city') location.hash = '#/city/' + id;
     else {
