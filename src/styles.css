@@ -6738,10 +6738,12 @@ a.fact b {
   cursor: pointer;
 }
 .iconbtn[data-action='save'].saved .icon,
+.shopheart.saved .icon,
 .savewide.saved .icon {
   fill: currentColor;
 }
-.iconbtn[data-action='save'].saved {
+.iconbtn[data-action='save'].saved,
+.shopheart.saved {
   background: var(--k-fff-s);
   color: var(--k-d9534f-t);
   border-color: var(--line);
@@ -7313,5 +7315,336 @@ a.fact b {
   }
   .sg-city strong {
     font-size: 19px;
+  }
+}
+
+/* ==========================================================================
+   Find and save flow, step 2: the visual place page.
+   ========================================================================== */
+.place-rankpill.t-must {
+  background: var(--teal);
+  color: #fff;
+}
+.place-rankpill.t-maybe,
+.place-rankpill.t-pick {
+  font-weight: 600;
+}
+.tierpill {
+  font-weight: 700;
+  font-size: 13px;
+}
+.tierpill.t-must {
+  background: var(--teal);
+  color: #fff;
+}
+.place-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+.place-nav {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+}
+.place-nav .iconbtn {
+  width: 34px;
+  height: 34px;
+}
+.place-nav .iconbtn:disabled {
+  opacity: 0.35;
+}
+.placesheet h2 {
+  margin: 14px 0 6px;
+}
+.placesheet > .lead {
+  margin: 0 0 18px;
+}
+.glance {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.g-tile {
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--k-fff-s);
+  padding: 12px 14px;
+  min-width: 0;
+}
+.g-tile {
+  flex: 1 1 150px;
+}
+.g-tile.g-wide {
+  flex-basis: 100%;
+}
+.g-tile label {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+  margin-bottom: 8px;
+}
+.g-tile strong {
+  display: block;
+  font-size: 14px;
+  line-height: 1.3;
+}
+.g-tile small {
+  display: block;
+  font-size: 13px;
+  color: var(--muted);
+  margin-top: 8px;
+}
+.dayparts {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 4px;
+}
+.dayparts span {
+  text-align: center;
+  font-size: 13px;
+  padding: 7px 2px;
+  border-radius: 8px;
+  background: var(--teal2);
+  color: var(--muted);
+}
+.dayparts span.on {
+  background: var(--teal);
+  color: #fff;
+  font-weight: 700;
+}
+.meter {
+  display: flex;
+  align-items: flex-end;
+  gap: 4px;
+  height: 26px;
+  margin-bottom: 8px;
+}
+.meter i {
+  flex: 1;
+  border-radius: 3px;
+  background: var(--teal2);
+}
+.meter i:nth-child(1) {
+  height: 40%;
+}
+.meter i:nth-child(2) {
+  height: 60%;
+}
+.meter i:nth-child(3) {
+  height: 80%;
+}
+.meter i:nth-child(4) {
+  height: 100%;
+}
+.meter i.on {
+  background: var(--k-e7764b-s);
+}
+.g-bar {
+  height: 8px;
+  border-radius: 4px;
+  background: var(--teal2);
+  margin: 9px 0 17px;
+}
+.g-bar i {
+  display: block;
+  height: 100%;
+  border-radius: 4px;
+  background: var(--teal);
+}
+.keytip {
+  display: flex;
+  gap: 10px;
+  align-items: flex-start;
+  font-size: 14px;
+  line-height: 1.45;
+  margin: 16px 0 0;
+}
+.keytip .icon {
+  color: var(--teal);
+  margin-top: 2px;
+}
+.minimap {
+  position: relative;
+  margin-top: 18px;
+  border-radius: 14px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  cursor: pointer;
+}
+.minimap.notiles {
+  display: none;
+}
+#place-minimap {
+  height: 150px;
+  z-index: 0;
+  pointer-events: none;
+}
+.minimap > span {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  z-index: 1;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: var(--k-fff-s);
+  border-radius: 9px;
+  padding: 6px 10px;
+  font-size: 13px;
+  font-weight: 600;
+  box-shadow: 0 1px 5px #0002;
+}
+.minimap .trip-pin b {
+  width: 22px;
+  height: 22px;
+}
+.rank-reason {
+  padding: 18px;
+  margin: 18px 0;
+}
+.rr-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 10px;
+}
+.rr-head h3 {
+  margin: 0;
+}
+.rr-head .inline-link {
+  font-size: 13px;
+}
+.rank-reason p.verdict {
+  font-size: 14px;
+  line-height: 1.5;
+  margin: 10px 0 12px;
+}
+.tierword {
+  color: var(--teal);
+  margin-right: 4px;
+}
+.srcchips {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
+  gap: 8px;
+}
+.srcchip {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--k-fff-s);
+  padding: 10px 12px;
+  color: var(--ink);
+  text-decoration: none;
+  min-width: 0;
+}
+a.srcchip:hover {
+  border-color: var(--teal);
+}
+.srcchip > span {
+  flex: 1;
+  min-width: 0;
+}
+.srcchip strong,
+.srcchip small {
+  display: block;
+}
+.srcchip strong {
+  font-size: 14px;
+}
+.srcchip small {
+  font-size: 13px;
+  color: var(--muted);
+}
+.srcchip > .icon {
+  color: var(--teal);
+}
+.src-logo {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  color: #fff;
+  background: var(--k-627572-s);
+}
+.src-tripadvisor {
+  background: var(--k-1f8f63-s);
+}
+.src-google {
+  background: var(--k-3b78e7-s);
+}
+.readmore {
+  border-top: 1px solid var(--line);
+  margin-top: 18px;
+}
+.readmore > summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  color: var(--teal);
+  padding: 14px 0;
+}
+.readmore h3 {
+  font-size: 16px;
+  margin: 14px 0 6px;
+}
+.readmore p,
+.readmore li {
+  font-size: 14px;
+  line-height: 1.55;
+}
+.placenote {
+  margin-top: 14px;
+}
+.sheet-actions .btn.maponly {
+  flex: 0 0 52px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.sheet-actions .btn.gmaps {
+  white-space: nowrap;
+}
+.shopcard {
+  position: relative;
+}
+.shopheart {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.shopcard-top {
+  padding-right: 46px;
+}
+.savedshops {
+  margin-top: 14px;
+}
+@media (max-width: 760px) {
+  .modal {
+    transition:
+      transform 0.25s ease,
+      max-height 0.28s ease;
+  }
+  .modal.peek {
+    max-height: 64dvh;
+  }
+  .g-tile {
+    flex-basis: 130px;
+  }
+  .placesheet h2 {
+    font-size: 28px;
+  }
+  .placesheet > .lead {
+    font-size: 14px;
   }
 }

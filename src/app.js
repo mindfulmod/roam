@@ -4,7 +4,10 @@ const CITIES = DATA.cities,
 const PLACES = CITIES.flatMap((c) =>
     c.items.map((p) => ({ ...p, cityId: c.id, cityName: c.name, currency: c.currency })),
   ),
-  P = Object.fromEntries(PLACES.map((p) => [p.id, p]));
+  P = Object.fromEntries(PLACES.map((p) => [p.id, p])),
+  SHOPS = Object.fromEntries(
+    CITIES.flatMap((c) => (c.shopping?.spots || []).map((x) => [x.id, { ...x, cityId: c.id }])),
+  );
 const PHOTO = DATA.photos,
   CHECKED = '4 November 2026';
 const validCity = (id) => typeof id === 'string' && Object.hasOwn(C, id),
@@ -89,6 +92,7 @@ function icon(name) {
 }
 const defaultState = () => ({
   saved: [],
+  shops: [],
   trip: [],
   days: {},
   visited: [],
@@ -117,6 +121,9 @@ function cleanState(s) {
   d.saved = [...new Set(Array.isArray(s.saved) ? s.saved : [])]
     .filter(validPlace)
     .slice(0, PLACES.length);
+  d.shops = [...new Set(Array.isArray(s.shops) ? s.shops : [])].filter((id) =>
+    Object.hasOwn(SHOPS, id),
+  );
   d.trip = [...new Set(Array.isArray(s.trip) ? s.trip : [])]
     .filter(validCity)
     .slice(0, CITIES.length);
@@ -871,6 +878,38 @@ function topFive(cid) {
     .sort((a, b) => (popularityRank(a) ?? 999) - (popularityRank(b) ?? 999))
     .slice(0, 5);
 }
+function savedCount() {
+  return S.saved.length + S.shops.length;
+}
+function shopSave(id) {
+  const on = S.shops.includes(id);
+  return `<button class="iconbtn shopheart ${on ? 'saved' : ''}" data-action="save-shop" data-id="${id}" aria-label="${on ? 'Unsave' : 'Save'} ${esc(SHOPS[id].name)}" title="${on ? 'Saved' : 'Save shop'}">${icon('heart')}</button>`;
+}
+function toggleShop(id, quiet = false) {
+  if (!Object.hasOwn(SHOPS, id)) return;
+  const had = S.shops.includes(id),
+    cid = SHOPS[id].cityId;
+  S.shops = had ? S.shops.filter((x) => x !== id) : [...S.shops, id];
+  persist();
+  $$(`[data-action="save-shop"][data-id="${id}"]`).forEach((b) => {
+    b.classList.toggle('saved', !had);
+    b.classList.toggle('pop', !had);
+    b.setAttribute('aria-label', (had ? 'Save ' : 'Unsave ') + SHOPS[id].name);
+  });
+  if (!quiet) {
+    if (had) toast('Removed from Saved.', { label: 'Undo', run: () => toggleShop(id, true) });
+    else {
+      navigator.vibrate?.(10);
+      if (inTrip(cid)) toast('Saved.', { label: 'Undo', run: () => toggleShop(id, true) });
+      else
+        toast(`Saved. Add ${C[cid].name} to your trip?`, {
+          label: `Add ${C[cid].name}`,
+          run: () => toggleTrip(cid),
+        });
+    }
+  }
+  if (location.hash.startsWith('#/saved')) renderSaved();
+}
 function savedIn(cid) {
   return S.saved.map((id) => P[id]).filter((p) => p && p.cityId === cid);
 }
@@ -879,8 +918,7 @@ function updateMiniCart() {
   const el = $('#minicart');
   if (!el) return;
   const page = location.hash.replace(/^#\/?/, '').split(/[/?]/)[0];
-  const hidden =
-    (!S.trip.length && !S.saved.length) || ['trip', 'map', 'story', 't'].includes(page);
+  const hidden = (!S.trip.length && !savedCount()) || ['trip', 'map', 'story', 't'].includes(page);
   document.body.classList.toggle('has-minicart', !hidden);
   el.hidden = hidden;
   if (hidden) return;
@@ -892,13 +930,13 @@ function updateMiniCart() {
     el.innerHTML = `<span class="mc-text"><strong>${esc(first)}${S.trip.length > 1 ? ` +${S.trip.length - 1}` : ''}</strong><small>${places} place${places === 1 ? '' : 's'} · about ${cash(cost.est)}</small></span><span class="mc-go">View trip ${icon('arrow')}</span>`;
   } else {
     el.href = '#/saved';
-    el.innerHTML = `<span class="mc-text"><strong>${S.saved.length} saved</strong><small>No city in your trip yet</small></span><span class="mc-go">Add to trip ${icon('arrow')}</span>`;
+    el.innerHTML = `<span class="mc-text"><strong>${savedCount()} saved</strong><small>No city in your trip yet</small></span><span class="mc-go">Add to trip ${icon('arrow')}</span>`;
   }
 }
 function updateCounts() {
   $$('.saved-count').forEach((e) => {
-    e.textContent = S.saved.length;
-    e.toggleAttribute('data-zero', !S.saved.length);
+    e.textContent = savedCount();
+    e.toggleAttribute('data-zero', !savedCount());
   });
   $$('.trip-count').forEach((e) => {
     e.textContent = S.trip.length;
@@ -1082,8 +1120,15 @@ function cityTabLegacy(c, tab) {
 // Phone layout breakpoint; keep in sync with the 760px media queries in styles.css.
 const isMobile = () => matchMedia('(max-width: 760px)').matches;
 let modalHistory = false;
+function closePlaceMap() {
+  if (placeMap) {
+    placeMap.remove();
+    placeMap = null;
+  }
+}
 function showModal(content, label = 'Details') {
   closeStayMap();
+  closePlaceMap();
   const reopening = Boolean($('.modal-backdrop'));
   if (!reopening) modalFocus = document.activeElement;
   $('.modal-backdrop')?.remove();
@@ -1113,6 +1158,7 @@ function showModal(content, label = 'Details') {
 // Anything else is a programmatic close that may navigate next, so it must not go back.
 function closeModal(how = '') {
   closeStayMap();
+  closePlaceMap();
   $('.modal-backdrop')?.remove();
   document.body.style.overflow = '';
   if (modalFocus?.isConnected) modalFocus.focus({ preventScroll: true });
@@ -1796,14 +1842,16 @@ function starterPlaces() {
 function renderSaved() {
   headerActive('saved');
   const places = S.saved.map((id) => P[id]).filter(Boolean),
-    cities = [...new Set(places.map((p) => p.cityId))];
+    shops = S.shops.map((id) => SHOPS[id]).filter(Boolean),
+    cities = [...new Set([...places, ...shops].map((p) => p.cityId))];
   $('#app').innerHTML =
-    `<div class="wrap savedpage"><div class="pagehead"><div><h1>Saved</h1><p>${places.length ? 'Your places, by city. Add a city to your trip to start planning it.' : 'Tap the heart on any place to keep it here.'}</p></div></div>${
-      places.length
+    `<div class="wrap savedpage"><div class="pagehead"><div><h1>Saved</h1><p>${cities.length ? 'Your places, by city. Add a city to your trip to start planning it.' : 'Tap the heart on any place to keep it here.'}</p></div></div>${
+      cities.length
         ? cities
             .map((id) => {
-              const mine = places.filter((p) => p.cityId === id);
-              return `<section class="savedgroup"><div class="sg-head"><a class="sg-city" href="#/city/${id}">${photoTag(id)}<span><strong>${esc(C[id].name)}</strong><small>${mine.length} saved</small></span></a>${cityAdd(id)}</div><div class="placegrid">${mine.map(placeCard).join('')}</div></section>`;
+              const mine = places.filter((p) => p.cityId === id),
+                shop = shops.filter((x) => x.cityId === id);
+              return `<section class="savedgroup"><div class="sg-head"><a class="sg-city" href="#/city/${id}">${photoTag(id)}<span><strong>${esc(C[id].name)}</strong><small>${mine.length + shop.length} saved</small></span></a>${cityAdd(id)}</div>${mine.length ? `<div class="placegrid">${mine.map(placeCard).join('')}</div>` : ''}${shop.length ? `<div class="shopgrid savedshops">${shop.map((x) => `<article class="shopcard">${shopSave(x.id)}<div class="shopcard-top"><span class="pill gray">${icon('bag')} Shopping</span><small>${esc(x.area)}</small></div><h4>${esc(x.name)}</h4><p>${esc(x.summary)}</p>${external(shopMapsUrl(C[id], x), icon('pin') + ' Google Maps', 'inline-link shopmap')}</article>`).join('')}</div>` : ''}</section>`;
             })
             .join('')
         : `<div class="rowhead"><h2>Start with one of these</h2></div><div class="placegrid">${starterPlaces().map(placeCard).join('')}</div><div class="actions trip-start"><a href="#/" class="btn">Explore more ${icon('arrow')}</a></div>`
@@ -1976,7 +2024,7 @@ function mapItems() {
     );
 }
 function popupHtml(p, isCity) {
-  return `<div class="map-popup">${photoTag(p.id)}<div class="map-popup-body"><h3>${esc(p.name)}</h3><p>${esc(isCity ? p.tagline : p.area + ' · ' + priceLabel(p))}</p>${isCity ? '' : `<div class="map-popup-tags">${typeChips(p)}${rankBadge(p)}</div>`}</div><div class="actions"><button class="btn small" data-action="${isCity ? 'map-city-open' : 'place'}" data-id="${p.id}">${isCity ? 'Explore places' : 'View details'} ${icon('arrow')}</button>${isCity ? cityAdd(p.id, true) : external(mapsPin(p), icon('pin') + '<span class="visually-hidden">Open in Google Maps</span>', 'btn light small')}</div></div>`;
+  return `<div class="map-popup">${photoTag(p.id)}<div class="map-popup-body"><h3>${esc(p.name)}</h3><p>${esc(isCity ? p.tagline : p.area + ' · ' + priceLabel(p))}</p>${isCity ? '' : `<div class="map-popup-tags">${typeChips(p)}<span class="pill tierpill t-${tier(p).key}">${tier(p).label}</span></div>`}</div><div class="actions"><button class="btn small" data-action="${isCity ? 'map-city-open' : 'place'}" data-id="${p.id}">${isCity ? 'Explore places' : 'View details'} ${icon('arrow')}</button>${isCity ? cityAdd(p.id, true) : external(mapsPin(p), icon('pin') + '<span class="visually-hidden">Open in Google Maps</span>', 'btn light small')}</div></div>`;
 }
 function renderMapPins(fit = false) {
   if (!map) return;
@@ -2387,8 +2435,12 @@ function artTag(id, cls = '', lazy = true) {
     ? `<img src="${esc(a.data)}" alt="${esc(a.alt)}" ${cls ? `class="${esc(cls)}"` : ''} ${lazy ? 'loading="lazy"' : ''} decoding="async">`
     : '';
 }
+// An illustration only leads when there is no real photograph of the place itself.
+function leadsWithArt(id) {
+  return Boolean(ART[id]) && !(PHOTO[id] && !PHOTO[id].context);
+}
 function visualTag(id, cls = '', lazy = true) {
-  return ART[id] ? artTag(id, cls, lazy) : photoTag(id, cls, lazy);
+  return leadsWithArt(id) ? artTag(id, cls, lazy) : photoTag(id, cls, lazy);
 }
 function artCaption(id) {
   return P[id]?.kind === 'eat'
@@ -2396,7 +2448,7 @@ function artCaption(id) {
     : 'Original AI illustration · interpretive scene, not a documentary photograph';
 }
 function visualBadge(id) {
-  return ART[id]
+  return leadsWithArt(id)
     ? '<span class="photo-context art-badge">Original AI illustration</span>'
     : contextBadge(id);
 }
@@ -2516,19 +2568,6 @@ function placeSignals(p) {
   const parts = poolStats(p).pct.get(p.id) || {};
   return SIGNALS.filter((sig) => parts[sig.key]).map((sig) => ({ ...sig, ...parts[sig.key] }));
 }
-function topLabel(pct) {
-  const top = Math.max(1, Math.round((1 - pct) * 100));
-  return top <= 50
-    ? 'top ' + (top <= 5 ? 5 : top <= 10 ? 10 : top <= 25 ? 25 : 50) + '%'
-    : 'lower half';
-}
-const compact = (n) =>
-  n >= 1e6
-    ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1) + 'm'
-    : n >= 1e3
-      ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1) + 'k'
-      : String(n);
-// One line that says why a place sits where it does, for cards and lists.
 function rankReason(p) {
   const sigs = placeSignals(p),
     m = michelinShort(p);
@@ -2556,24 +2595,6 @@ function rankShort(p, withMichelin = true) {
     .filter(Boolean)
     .join(' · ');
 }
-function rankBreakdown(p) {
-  const sigs = placeSignals(p),
-    c = C[p.cityId],
-    rank = popularityRank(p),
-    st = poolStats(p);
-  if (!sigs.length)
-    return p.michelin
-      ? `<p>No comparable review counts are verified for this place yet, so it has no popularity rank. It is in the guide because the MICHELIN Guide recognises it.</p>${michelinRow(p)}`
-      : `<p>No comparable review counts are verified for this place yet, so it has no popularity rank. It is in the guide as an editorial recommendation based on the linked sources.</p>`;
-  const rows = sigs
-    .map(
-      (s) =>
-        `<div class="signal-row"><div class="signal-head"><strong>${esc(s.label)}</strong><span>${esc(s.display(p))}</span></div><div class="signal-bar" role="img" aria-label="${esc(topLabel(s.pct))} of ${s.of} ${esc(rankCategory(p))}"><i style="width:${Math.round(s.pct * 100)}%"></i></div><small>#${s.place} of ${s.of} ${esc(rankCategory(p))} in ${esc(c.name)} with this data${s.url(p) ? ' · ' + external(s.url(p), 'source ↗') : ''}${s.checked(p) ? ' · checked ' + esc(s.checked(p)) : ''}</small></div>`,
-    )
-    .join('');
-  const missing = SIGNALS.filter((s) => !sigs.some((x) => x.key === s.key)).map((s) => s.short);
-  return `<p class="rank-headline"><strong>#${rank} of ${st.ranked}</strong> ${esc(rankCategory(p))} in ${esc(c.name)}, combining ${sigs.length === 1 ? 'one source' : sigs.length + ' sources'}.</p><div class="signals">${rows}</div>${michelinRow(p)}${missing.length ? `<small class="signal-missing">Not yet included for this place: ${esc(missing.join(', '))}.</small>` : ''}`;
-}
 function rankCategory(p) {
   return p.kind === 'eat'
     ? p.venueType === 'restaurant'
@@ -2582,16 +2603,6 @@ function rankCategory(p) {
     : p.kind === 'shop'
       ? 'listed shopping stops'
       : 'listed sights';
-}
-function rankBadge(p) {
-  const n = popularityRank(p);
-  return (
-    (n
-      ? `<span class="rankbadge"><b>#${n}</b> ${rankCategory(p)} · popularity</span>`
-      : p.michelin
-        ? ''
-        : '<span class="rankbadge unranked">Editorial pick</span>') + michelinPill(p)
-  );
 }
 function comparePlaces(a, b, sort = placeSort) {
   if (sort === 'nearby') {
@@ -2713,7 +2724,7 @@ function cityCard(c) {
 function placeCard(p) {
   const d = fromStay(p),
     n = popularityRank(p);
-  return `<article class="placecard" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}"><div class="placeimage">${visualTag(p.id)}${saveButton(p.id)}${visualBadge(p.id)}${photoCount(p.id)}${n ? `<span class="place-rankpill">#${n}</span>` : ''}</div><div class="placebody"><h3>${esc(p.name)}</h3>${p.michelin ? `<div class="michelin-line">${michelinPill(p)}</div>` : ''}<p class="rankwhy">${esc(rankShort(p, false))}</p><p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="placemeta"><span>${esc(p.area)} · ${p.duration} h · ${priceLabel(p)}${d !== null ? ` · <span class="near-label">${distanceText(d)} away</span>` : ''}</span>${rating(p)}</div></div></article>`;
+  return `<article class="placecard" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}"><div class="placeimage">${visualTag(p.id)}${saveButton(p.id)}${visualBadge(p.id)}${photoCount(p.id)}<span class="place-rankpill t-${tier(p).key}">${tier(p).label}</span></div><div class="placebody"><h3>${esc(p.name)}</h3>${p.michelin ? `<div class="michelin-line">${michelinPill(p)}</div>` : ''}<p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="placemeta"><span>${esc(p.area)} · ${p.duration} h · ${priceLabel(p)}${d !== null ? ` · <span class="near-label">${distanceText(d)} away</span>` : ''}</span>${rating(p)}</div></div></article>`;
 }
 function rankingRows(items) {
   return `<div class="ranking-list">${items.map((p) => `<article class="ranking-row"><div class="ranking-number">${popularityRank(p) ? '#' + popularityRank(p) : '—'}</div><button class="ranking-thumb" data-action="place" data-id="${p.id}" aria-label="View ${esc(p.name)}">${visualTag(p.id)}</button><div class="ranking-main"><button class="inline-link" data-action="place" data-id="${p.id}">${esc(p.name)}</button><div class="typechips">${typeChips(p)}</div><small class="rankwhy">${esc(rankReason(p))}</small><small>${esc(rankCategory(p))} · ${esc(p.area)}${fromStay(p) !== null ? ' · ' + distanceText(fromStay(p)) + ' from stay' : ''}</small></div><div class="ranking-stat"><strong>${reviewCount(p) !== null ? num(reviewCount(p)) : '—'}</strong><small>${reviewCount(p) !== null ? 'reviews' : 'no count verified'}</small>${rating(p)}</div><button class="btn light small" data-action="place" data-id="${p.id}">Why go? ${icon('arrow')}</button>${saveButton(p.id)}</article>`).join('')}</div>`;
@@ -2882,7 +2893,7 @@ function shopSpots(c) {
   return `<div class="shopgrid">${list
     .map((s) => {
       const [sym, t] = SHOP_TIERS[s.tier] || ['', s.tier];
-      return `<article class="shopcard"><div class="shopcard-top"><span class="pill ${s.tier === 'mid' ? 'warm' : ''} shoptier tier-${s.tier}" title="${t}">${sym} ${t}</span><small>${esc(s.area)}</small></div><h4>${esc(s.name)}</h4><p>${esc(s.summary)}</p><div class="shoptags">${s.styles.map((k) => `<span class="pill ${k === 'streetwear' ? 'warm' : 'gray'}">${esc(SHOP_STYLES[k] || k)}</span>`).join('')}</div><p class="shoptip"><strong>Tip:</strong> ${esc(s.tip)}</p>${external(shopMapsUrl(c, s), icon('pin') + ' Find on Google Maps', 'inline-link shopmap')}</article>`;
+      return `<article class="shopcard">${shopSave(s.id)}<div class="shopcard-top"><span class="pill ${s.tier === 'mid' ? 'warm' : ''} shoptier tier-${s.tier}" title="${t}">${sym} ${t}</span><small>${esc(s.area)}</small></div><h4>${esc(s.name)}</h4><p>${esc(s.summary)}</p><div class="shoptags">${s.styles.map((k) => `<span class="pill ${k === 'streetwear' ? 'warm' : 'gray'}">${esc(SHOP_STYLES[k] || k)}</span>`).join('')}</div><p class="shoptip"><strong>Tip:</strong> ${esc(s.tip)}</p>${external(shopMapsUrl(c, s), icon('pin') + ' Find on Google Maps', 'inline-link shopmap')}</article>`;
     })
     .join('')}</div>`;
 }
@@ -2937,30 +2948,168 @@ function renderCity(id, tab = 'places') {
         '',
       )}</div>${parkNotice(c)}${cityTabHtml(c, tab)}${alsoFromHere(c)}<div class="resourcebox"><h3>${icon('book')}Your notes for ${esc(c.name)}</h3><div class="field"><textarea data-note="${id}" placeholder="Reservation times, a local tip, reminders…" aria-label="Notes for ${esc(c.name)}">${esc(S.notes[id] || '')}</textarea></div><small class="muted">Your stay and notes are saved in this browser and included in trip backups.</small></div>${footer()}</div>`;
 }
+// Tiers in words, from where a place sits among its peers in the same city.
+function tier(p) {
+  const n = popularityRank(p),
+    of = poolStats(p).ranked;
+  if (!n) return { key: 'pick', label: p.michelin ? 'MICHELIN pick' : 'Editor’s pick' };
+  return n <= Math.ceil(of / 3)
+    ? { key: 'must', label: p.kind === 'see' ? 'Must see' : 'Must try' }
+    : n <= Math.ceil((2 * of) / 3)
+      ? { key: 'worth', label: 'Worth it' }
+      : { key: 'maybe', label: 'If you have time' };
+}
+// Which parts of the day a "best time" note points at, or null when it is not about a time.
+function dayparts(t = '') {
+  const x = t.toLowerCase(),
+    on = [false, false, false, false];
+  if (/^outside|avoid/.test(x)) return null;
+  if (/full day|all day|any ?time/.test(x)) return [true, true, true, true];
+  if (/morning|opening|first entry|early in the day|sunrise|dawn|beat the queue/.test(x))
+    on[0] = true;
+  if (/late morning|midday|noon|lunch/.test(x)) on[1] = true;
+  if (/afternoon/.test(x)) on[2] = true;
+  if (/daytime/.test(x)) on[0] = on[1] = on[2] = true;
+  if (/evening|dinner|sunset|night|dusk/.test(x)) on[3] = true;
+  return on.some(Boolean) ? on : null;
+}
+function placeGlance(p) {
+  const parts = dayparts(p.bestTime),
+    score = popularityScore(p),
+    crowd = score === null ? 0 : score >= 0.75 ? 4 : score >= 0.5 ? 3 : score >= 0.25 ? 2 : 1,
+    hours = p.duration > 16 ? 'Multi-day' : `${p.duration} hour${p.duration === 1 ? '' : 's'}`;
+  return `<div class="glance"><div class="g-tile g-wide"><label>Best time</label>${parts ? `<div class="dayparts" role="img" aria-label="${esc(p.bestTime)}">${['Morning', 'Midday', 'Afternoon', 'Evening'].map((l, i) => `<span class="${parts[i] ? 'on' : ''}">${l}</span>`).join('')}</div>` : ''}<small>${esc(p.bestTime)}</small></div>${crowd ? `<div class="g-tile"><label>Crowds</label><div class="meter" role="img" aria-label="${['', 'Lighter', 'Moderate', 'Busy', 'Very busy'][crowd]}">${[1, 2, 3, 4].map((i) => `<i class="${i <= crowd ? 'on' : ''}"></i>`).join('')}</div><strong>${['', 'Lighter', 'Moderate', 'Busy', 'Very busy'][crowd]}</strong></div>` : ''}<div class="g-tile"><label>Time needed</label><div class="g-bar"><i style="width:${Math.min(100, Math.round((p.duration / 8) * 100))}%"></i></div><strong>${hours}</strong></div><div class="g-tile"><label>Cost</label><strong class="g-cost">${priceLabel(p)}</strong></div><div class="g-tile"><label>Booking</label><strong class="g-book">${esc(p.reservation)}</strong></div></div>`;
+}
+// "Why it ranks here": one verdict line, then one chip per source. The whole chip is the link.
+function rankChips(p) {
+  const sigs = placeSignals(p),
+    c = C[p.cityId],
+    t = tier(p),
+    cat = rankCategory(p).replace('listed ', '');
+  if (!sigs.length)
+    return `<p class="verdict"><b class="tierword t-pick">${t.label}</b> No review counts to compare yet. It is here on the strength of the linked sources.</p>${michelinRow(p)}`;
+  const line =
+    t.key === 'must'
+      ? `Among the most popular ${cat} in ${esc(c.name)}.`
+      : t.key === 'worth'
+        ? `Well liked, in the middle of ${esc(c.name)}’s ${cat}.`
+        : `Less visited than most ${cat} in ${esc(c.name)}.`;
+  return `<p class="verdict"><b class="tierword t-${t.key}">${t.label}</b> ${line}</p><div class="srcchips">${sigs
+    .map((x) => {
+      const inner = `<b class="src-logo src-${x.key}" aria-hidden="true">${x.label[0]}</b><span><strong>${esc(x.display(p))}</strong><small>${esc(x.short.replace(/ (reviews|readers)$/, ''))} · #${x.place} of ${x.of}</small></span>`;
+      return x.url(p)
+        ? `<a class="srcchip" href="${esc(x.url(p))}" target="_blank" rel="noopener noreferrer">${inner}${icon('external')}</a>`
+        : `<span class="srcchip">${inner}</span>`;
+    })
+    .join('')}</div>${michelinRow(p)}`;
+}
+let placeList = [],
+  placeMap = null;
+function setPlaceList(el, id) {
+  if (el.closest('.modal')) {
+    if (!placeList.includes(id)) placeList = [];
+    return;
+  }
+  const box = el.closest('.savedpage, .placegrid, .ranking-list, .rc-places');
+  placeList = box
+    ? [
+        ...new Set(
+          [...box.querySelectorAll('[data-action="place"][data-id]')].map((x) => x.dataset.id),
+        ),
+      ]
+    : [];
+}
+function placeStep(dir) {
+  const id = $('.modal [data-place]')?.dataset.place,
+    next = placeList[placeList.indexOf(id) + dir];
+  if (placeList.includes(id) && next) openPlace(next);
+}
 function openPlace(id) {
   if (!validPlace(id)) return;
   const p = P[id],
     c = C[p.cityId],
     r = p.review,
-    rank = popularityRank(p),
-    stay = S.stays[c.id];
+    stay = S.stays[c.id],
+    at = placeList.indexOf(id),
+    wasFull = $('.modal [data-place]') && !$('.modal.peek'),
+    art = leadsWithArt(id);
   const bullets = (x) => (Array.isArray(x) ? x : x ? [x] : []);
   showModal(
-    `<div data-gscope><div class="modalphoto gallery" id="place-visual">${galleryHero(id, `${visualTag(id, '', false)}<div class="photo-caption">${ART[id] ? artCaption(id) : photoCredit(id)}${!ART[id] && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div>`, 'Photos of ' + p.name)}</div></div><div class="modalcontent">${ART[id] ? `<div class="visual-toggle"><button class="active" data-action="place-art" data-id="${id}">Illustration</button><button data-action="place-photo" data-id="${id}">Real photograph${PHOTO[id]?.context ? ' · representative' : ''}</button></div>` : ''}<div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a>${rankBadge(p)}</div><h2 id="modal-heading">${esc(p.name)}</h2><div class="typechips large">${typeChips(p)}</div><p class="lead">${esc(p.summary)}</p><section class="rank-reason"><h3>${icon('star')} Why it ranks here</h3>${rankBreakdown(p)}${p.reviewHighlights?.length ? `<div class="review-themes"><strong>What displayed reviewers mention</strong><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></div>` : ''}<p>${esc(r?.note || 'Read recent reviews for changing conditions and the experience you value.')}</p>${r?.url ? external(r.url, 'Read the visitor evidence ↗') : external(mapsPin(p), 'Check current visitor reviews ↗')}<small>Snapshot retrieved ${esc(r?.checked || DATA.retrieved)}. Indexed reviews may be older. Rank is within this guide’s coverage, not a complete citywide visitor census.</small>${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}</section><section class="why-go"><h3>${icon('compass')} Why this deserves your time</h3><ul>${bullets(
+    `<div data-gscope data-place="${id}"><div class="modalphoto gallery" id="place-visual">${galleryHero(id, `${visualTag(id, '', false)}<div class="photo-caption">${art ? artCaption(id) : photoCredit(id)}${!art && PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : ''}</div>`, 'Photos of ' + p.name)}</div></div><div class="modalcontent placesheet">${ART[id] ? `<div class="visual-toggle"><button class="${art ? '' : 'active'}" data-action="place-photo" data-id="${id}">Photo${PHOTO[id]?.context ? ' · representative' : ''}</button><button class="${art ? 'active' : ''}" data-action="place-art" data-id="${id}">Illustration</button></div>` : ''}<div class="place-top"><div class="actions"><a class="pill" href="#/city/${c.id}">${esc(c.name)}</a><span class="pill tierpill t-${tier(p).key}">${tier(p).label}</span>${michelinPill(p)}</div>${at >= 0 && placeList.length > 1 ? `<div class="place-nav"><button class="iconbtn" data-action="place-step" data-dir="-1" aria-label="Previous place" ${at === 0 ? 'disabled' : ''}>${icon('left')}</button><span>${at + 1} of ${placeList.length}</span><button class="iconbtn" data-action="place-step" data-dir="1" aria-label="Next place" ${at === placeList.length - 1 ? 'disabled' : ''}>${icon('arrow')}</button></div>` : ''}</div><h2 id="modal-heading">${esc(p.name)}</h2><p class="lead">${esc(p.summary)}</p>${placeGlance(p)}<p class="keytip">${icon('info')}<span>${esc(p.tip)}</span></p>${p.mustOrder?.length ? `<p class="keytip">${icon('food')}<span><strong>Try:</strong> ${p.mustOrder.map((x) => esc(x)).join(' · ')}</span></p>` : ''}${S.street && navigator.onLine ? `<div class="minimap" data-action="map-place" data-id="${id}" role="button" tabindex="0" aria-label="Show ${esc(p.name)} on the map"><div id="place-minimap"></div><span>${icon('map')} ${esc(p.area)}</span></div>` : ''}<section class="rank-reason"><div class="rr-head"><h3>Why it ranks here</h3><button class="inline-link" data-action="ranking-method">How ranks work</button></div>${rankChips(p)}</section>${stay ? `<div class="stay-to-place"><strong>${distanceText(hav(stay, p))} from ${esc(stay.label)}</strong><div class="actions">${p.excursion || hav(c, p) > 40 ? external(p.sourceUrls?.[0] || mapsPin(p), icon('external') + ' Check excursion access', 'btn light small') : external(mapsDirections([stay, p], 'walking'), icon('route') + ' Walk', 'btn light small') + external(mapsDirections([stay, p], 'transit'), icon('train') + ' Transit', 'btn light small')}</div></div>` : ''}<details class="readmore"><summary>Read more</summary><section class="why-go"><h3>Why go</h3><ul>${bullets(
       p.whyVisit || p.expect,
     )
       .map((x) => `<li>${esc(x)}</li>`)
-      .join(
-        '',
-      )}</ul></section><div class="detailgrid"><section><h3>Your visit, in plain English</h3><ol class="visit-flow">${bullets(
+      .join('')}</ul></section><section><h3>How a visit goes</h3><ol class="visit-flow">${bullets(
       p.visitFlow || p.expect,
     )
       .map((x) => `<li>${esc(x)}</li>`)
       .join(
         '',
-      )}</ol></section><section><h3>Is it your kind of place?</h3><p><strong>Best for:</strong> ${esc(bullets(p.bestFor).join(' · ') || typesFor(p).join(', ') + ' enthusiasts')}</p><p><strong>Trade-offs:</strong> ${esc(bullets(p.tradeoffs).join(' ') || p.tip)}</p></section></div>${p.mustOrder?.length ? `<section class="must-order-box"><h3>What to order</h3><p>${p.mustOrder.map((x) => esc(x)).join(' · ')}</p><small>${esc(p.cuisine || '')} · Confirm the current menu and your dietary requirements.</small></section>` : ''}${dietaryDetail(p)}<div class="modalstats"><div><label>Allow</label><strong>${p.duration} hours${p.duration > 16 ? ' · multi-day' : ''}</strong></div><div><label>Planning cost</label><strong>${priceLabel(p)}</strong></div><div><label>Good timing</label><strong>${esc(p.bestTime)}</strong></div><div><label>Booking</label><strong>${esc(p.reservation)}</strong></div></div><p class="price-note">${esc(p.priceNote)}</p><div class="detailgrid"><section><h3>What to expect</h3><p>${esc(p.expect)}</p></section><section><h3>Make the visit work</h3><p>${esc(p.tip)}</p></section></div>${stay ? `<div class="stay-to-place"><strong>${distanceText(hav(stay, p))} from ${esc(stay.label)}</strong><span>Straight-line distance. Check the real route below.</span><div class="actions">${p.excursion || hav(c, p) > 40 ? external(p.sourceUrls?.[0] || mapsPin(p), icon('external') + ' Check excursion access', 'btn light small') + external(mapsPin(p), 'View destination pin', 'btn light small') : external(mapsDirections([stay, p], 'walking'), icon('route') + ' Walk from my stay', 'btn light small') + external(mapsDirections([stay, p], 'transit'), icon('train') + ' Transit from my stay', 'btn light small')}</div></div>` : `<button class="btn light small" data-action="edit-stay" data-id="${c.id}">${icon('pin')} Add your stay to check distance</button>`}<p class="price-note">${external(mapsCoordinate(p), 'Exact coordinate pin ↗')} · In Google Maps, tap Save to add it to your own list.</p><div class="field"><label>Your note</label><textarea data-note="${id}" placeholder="Booked time, must-try dish or reminder…">${esc(S.notes[id] || '')}</textarea></div><div class="source-links">Place sources: ${(p.sourceUrls || []).map((u) => external(u, esc(new URL(u).hostname) + ' ↗')).join(' ')}<br>Map points are approximate. Confirm the entrance or meeting point with the venue.</div></div><div class="sheet-actions">${saveButtonWide(id)}<button class="btn ghost" data-action="map-place" data-id="${id}">${icon('map')} Map</button>${external(mapsPin(p), icon('pin') + ' Google Maps', 'btn')}</div>`,
+      )}</ol></section><section><h3>Is it your kind of place?</h3><p><strong>Best for:</strong> ${esc(bullets(p.bestFor).join(' · ') || typesFor(p).join(', ') + ' enthusiasts')}</p><p><strong>Trade-offs:</strong> ${esc(bullets(p.tradeoffs).join(' ') || p.tip)}</p><p>${esc(p.expect)}</p><p class="price-note">${esc(p.priceNote)}</p></section>${p.cuisine ? `<p class="price-note">${esc(p.cuisine)} · Confirm the current menu and your dietary requirements.</p>` : ''}${dietaryDetail(p)}${p.reviewHighlights?.length ? `<section class="review-themes"><h3>What reviewers mention</h3><ul>${p.reviewHighlights.map((x) => `<li>${esc(x)}</li>`).join('')}</ul><small>${esc(p.reviewHighlightsNote || '')}</small></section>` : ''}${p.annualVisits ? `<p><strong>Reported visits:</strong> ${num(p.annualVisits.count)} in ${p.annualVisits.year}. ${esc(p.annualVisits.note || '')} ${external(p.annualVisits.url, 'Official count ↗')}</p>` : ''}${stay ? '' : `<button class="btn light small" data-action="edit-stay" data-id="${c.id}">${icon('pin')} Add your stay to check distance</button>`}<div class="source-links">Sources: ${(p.sourceUrls || []).map((u) => external(u, esc(new URL(u).hostname) + ' ↗')).join(' ')}${r?.checked ? ` · review counts checked ${esc(r.checked)}` : ''}<br>Map points are approximate. ${external(mapsCoordinate(p), 'Exact coordinate pin ↗')}</div></details><div class="field placenote"><label>Your note</label><textarea data-note="${id}" placeholder="Booked time, must-try dish or reminder…">${esc(S.notes[id] || '')}</textarea></div></div><div class="sheet-actions">${saveButtonWide(id)}<button class="btn ghost maponly" data-action="map-place" data-id="${id}" aria-label="Show on the map">${icon('map')}</button>${external(mapsPin(p), icon('pin') + ' Google Maps', 'btn gmaps')}</div>`,
     p.name,
   );
+  const m = $('.modal');
+  // Phones: the sheet opens at about half height and grows as soon as it is scrolled.
+  if (isMobile() && !wasFull) {
+    m.classList.add('peek');
+    m.addEventListener('scroll', () => m.scrollTop > 2 && m.classList.remove('peek'), {
+      passive: true,
+    });
+  }
+  // Swipe sideways (outside the photos) for the next or previous place in the list.
+  let x0 = null,
+    y0 = 0;
+  m.addEventListener(
+    'touchstart',
+    (e) => {
+      x0 = e.target.closest('.gallery, .srcchips, .leaflet-container, textarea')
+        ? null
+        : e.touches[0].clientX;
+      y0 = e.touches[0].clientY;
+    },
+    { passive: true },
+  );
+  m.addEventListener(
+    'touchend',
+    (e) => {
+      if (x0 === null) return;
+      const dx = e.changedTouches[0].clientX - x0,
+        dy = e.changedTouches[0].clientY - y0;
+      if (Math.abs(dx) > 70 && Math.abs(dx) > 2 * Math.abs(dy)) placeStep(dx < 0 ? 1 : -1);
+    },
+    { passive: true },
+  );
+  if ($('#place-minimap') && typeof L !== 'undefined') {
+    placeMap = L.map('place-minimap', {
+      zoomControl: false,
+      attributionControl: true,
+      dragging: false,
+      touchZoom: false,
+      scrollWheelZoom: false,
+      doubleClickZoom: false,
+      boxZoom: false,
+      keyboard: false,
+    }).setView([p.lat, p.lon], 14);
+    placeMap.attributionControl.setPrefix(false);
+    let fails = 0;
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+    })
+      .on('tileerror', () => ++fails === 3 && $('.minimap')?.classList.add('notiles'))
+      .addTo(placeMap);
+    L.marker([p.lat, p.lon], {
+      icon: L.divIcon({
+        className: 'trip-pin',
+        html: '<b></b>',
+        iconSize: [22, 22],
+        iconAnchor: [11, 11],
+      }),
+      interactive: false,
+      keyboard: false,
+    }).addTo(placeMap);
+    setTimeout(() => placeMap?.invalidateSize(), 320);
+  }
 }
 function showRankingMethod() {
   showModal(
@@ -3523,8 +3672,14 @@ document.addEventListener('click', (e) => {
     e.stopPropagation();
     toggleTrip(id);
   } else if (a === 'city') location.hash = '#/city/' + id;
-  else if (a === 'place') openPlace(id);
-  else if (a === 'close-modal') closeModal('user');
+  else if (a === 'place') {
+    setPlaceList(b, id);
+    openPlace(id);
+  } else if (a === 'place-step') placeStep(Number(b.dataset.dir));
+  else if (a === 'save-shop') {
+    e.stopPropagation();
+    toggleShop(id);
+  } else if (a === 'close-modal') closeModal('user');
   else if (a === 'month') setMonth(Number(id));
   else if (a === 'region') {
     browseRegion = id;
