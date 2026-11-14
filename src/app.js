@@ -780,13 +780,24 @@ function inTrip(id) {
   return S.trip.includes(id);
 }
 function saveButton(id) {
-  return `<button class="iconbtn ${saved(id) ? 'saved' : ''}" data-action="save" data-id="${id}" aria-label="${saved(id) ? 'Unsave' : 'Save'} ${esc(P[id]?.name || 'place')}" title="${saved(id) ? 'Saved' : 'Save place'}">${icon(saved(id) ? 'check' : 'heart')}</button>`;
+  return `<button class="iconbtn ${saved(id) ? 'saved' : ''}" data-action="save" data-id="${id}" aria-label="${saved(id) ? 'Unsave' : 'Save'} ${esc(P[id]?.name || 'place')}" title="${saved(id) ? 'Saved' : 'Save place'}">${icon('heart')}</button>`;
 }
 function saveButtonWide(id) {
-  return `<button class="btn light savewide ${saved(id) ? 'saved' : ''}" data-action="save" data-id="${id}" aria-pressed="${saved(id)}">${icon(saved(id) ? 'check' : 'heart')} ${saved(id) ? 'Saved' : 'Save'}</button>`;
+  return `<button class="btn light savewide ${saved(id) ? 'saved' : ''}" data-action="save" data-id="${id}" aria-pressed="${saved(id)}">${icon('heart')} ${saved(id) ? 'Saved' : 'Save'}</button>`;
 }
-function cityAdd(id, small = false) {
-  return `<button class="${small ? 'iconbtn addcity' : 'btn light small'} ${inTrip(id) && small ? 'saved' : ''}" data-action="trip-toggle" data-id="${id}" aria-label="${inTrip(id) ? 'Remove' : 'Add'} ${esc(C[id].name)} ${inTrip(id) ? 'from' : 'to'} trip">${icon(inTrip(id) ? 'check' : 'plus')}${small ? '' : inTrip(id) ? 'In your trip' : 'Add to trip'}</button>`;
+// The one way to put a city in the trip. Wide buttons name the city ("Add Kyoto to trip");
+// `short` is for rows that already show the name beside the button.
+function tripLabel(id, short) {
+  return inTrip(id)
+    ? short
+      ? 'In trip'
+      : `${esc(C[id].name)} is in your trip`
+    : short
+      ? 'Add to trip'
+      : `Add ${esc(C[id].name)} to trip`;
+}
+function cityAdd(id, small = false, short = false) {
+  return `<button class="${small ? 'iconbtn addcity' : 'btn light small tripadd'} ${inTrip(id) ? 'saved' : ''}" data-action="trip-toggle" data-id="${id}" ${short ? 'data-short="1"' : ''} aria-label="${inTrip(id) ? 'Remove' : 'Add'} ${esc(C[id].name)} ${inTrip(id) ? 'from' : 'to'} trip">${icon(inTrip(id) ? 'check' : 'plus')}${small ? '' : tripLabel(id, short)}</button>`;
 }
 function mapsPin(p) {
   return (
@@ -827,15 +838,62 @@ function rating(p) {
       ? '<span class="muted">MICHELIN Guide</span>'
       : '<span class="muted">Curated pick</span>';
 }
-function toast(t) {
+// One short message above the tab bar. `action` adds a single button (Undo, or the next step).
+function toast(t, action, ms = 3500) {
   $('.toast')?.remove();
   const x = document.createElement('div');
   x.className = 'toast';
   x.setAttribute('role', 'status');
-  x.textContent = t;
+  const span = document.createElement('span');
+  span.textContent = t;
+  x.appendChild(span);
+  if (action) {
+    const b = document.createElement('button');
+    b.type = 'button';
+    b.textContent = action.label;
+    b.addEventListener('click', (e) => {
+      e.stopPropagation();
+      x.remove();
+      action.run();
+    });
+    x.appendChild(b);
+    x.classList.add('has-action');
+  }
   document.body.appendChild(x);
   clearTimeout(toastTimer);
-  toastTimer = setTimeout(() => x.remove(), 3500);
+  toastTimer = setTimeout(() => x.remove(), action ? Math.max(ms, 5000) : ms);
+}
+// The five most popular sights of a city, for "Save the top 5".
+function topFive(cid) {
+  return C[cid].items
+    .map((x) => P[x.id])
+    .filter((p) => p.kind === 'see')
+    .sort((a, b) => (popularityRank(a) ?? 999) - (popularityRank(b) ?? 999))
+    .slice(0, 5);
+}
+function savedIn(cid) {
+  return S.saved.map((id) => P[id]).filter((p) => p && p.cityId === cid);
+}
+// Phones: a small "cart" above the tab bar once something is saved, so the trip is one tap away.
+function updateMiniCart() {
+  const el = $('#minicart');
+  if (!el) return;
+  const page = location.hash.replace(/^#\/?/, '').split(/[/?]/)[0];
+  const hidden =
+    (!S.trip.length && !S.saved.length) || ['trip', 'map', 'story', 't'].includes(page);
+  document.body.classList.toggle('has-minicart', !hidden);
+  el.hidden = hidden;
+  if (hidden) return;
+  if (S.trip.length) {
+    const first = C[S.trip[0]].name,
+      places = S.saved.filter((id) => S.trip.includes(P[id]?.cityId)).length,
+      cost = tripCost();
+    el.href = '#/trip';
+    el.innerHTML = `<span class="mc-text"><strong>${esc(first)}${S.trip.length > 1 ? ` +${S.trip.length - 1}` : ''}</strong><small>${places} place${places === 1 ? '' : 's'} · about ${cash(cost.est)}</small></span><span class="mc-go">View trip ${icon('arrow')}</span>`;
+  } else {
+    el.href = '#/saved';
+    el.innerHTML = `<span class="mc-text"><strong>${S.saved.length} saved</strong><small>No city in your trip yet</small></span><span class="mc-go">Add to trip ${icon('arrow')}</span>`;
+  }
 }
 function updateCounts() {
   $$('.saved-count').forEach((e) => {
@@ -846,6 +904,7 @@ function updateCounts() {
     e.textContent = S.trip.length;
     e.toggleAttribute('data-zero', !S.trip.length);
   });
+  updateMiniCart();
 }
 function headerActive(page) {
   $$('[data-nav]').forEach((a) => a.classList.toggle('active', a.dataset.nav === page));
@@ -1107,20 +1166,35 @@ function sheetSwipe(m) {
 window.addEventListener('popstate', () => {
   if (modalHistory && !history.state?.roamModal && $('.modal-backdrop')) closeModal('history');
 });
-function toggleSave(id) {
+function toggleSave(id, quiet = false) {
   if (!validPlace(id)) return;
-  S.saved = saved(id) ? S.saved.filter((x) => x !== id) : [...S.saved, id];
+  const had = saved(id);
+  S.saved = had ? S.saved.filter((x) => x !== id) : [...S.saved, id];
   persist();
   $$(`[data-action="save"][data-id="${id}"]`).forEach((b) => {
-    b.classList.toggle('saved', saved(id));
+    b.classList.toggle('saved', !had);
+    b.classList.toggle('pop', !had);
     b.innerHTML =
-      icon(saved(id) ? 'check' : 'heart') +
-      (b.classList.contains('savewide') ? (saved(id) ? ' Saved' : ' Save') : '');
-    b.setAttribute('aria-label', (saved(id) ? 'Unsave ' : 'Save ') + P[id].name);
-    b.title = saved(id) ? 'Saved' : 'Save place';
+      icon('heart') + (b.classList.contains('savewide') ? (had ? ' Save' : ' Saved') : '');
+    b.setAttribute('aria-label', (had ? 'Save ' : 'Unsave ') + P[id].name);
+    if (b.hasAttribute('aria-pressed')) b.setAttribute('aria-pressed', String(!had));
+    b.title = had ? 'Save place' : 'Saved';
   });
-  toast(saved(id) ? 'Saved to your places.' : 'Removed from saved places.');
+  if (!quiet) {
+    const cid = P[id].cityId;
+    if (had) toast('Removed from Saved.', { label: 'Undo', run: () => toggleSave(id, true) });
+    else {
+      navigator.vibrate?.(10);
+      if (inTrip(cid)) toast('Saved.', { label: 'Undo', run: () => toggleSave(id, true) });
+      else
+        toast(`Saved. Add ${C[cid].name} to your trip?`, {
+          label: `Add ${C[cid].name}`,
+          run: () => toggleTrip(cid),
+        });
+    }
+  }
   if (location.hash.startsWith('#/saved')) renderSaved();
+  else if (location.hash.startsWith('#/trip')) rerenderTrip();
   else if (location.hash.startsWith('#/city') && cityFilter === 'saved') refreshCityResults();
   if (map) {
     if (mapKind === 'saved') renderMapPins(false);
@@ -1131,23 +1205,61 @@ function toggleSave(id) {
         ?.classList.toggle('selected', saved(id));
   }
 }
-function toggleTrip(id) {
+function saveTopFive(cid) {
+  const add = topFive(cid).filter((p) => !saved(p.id));
+  if (!add.length) return;
+  S.saved = [...S.saved, ...add.map((p) => p.id)];
+  persist();
+  add.forEach((p) =>
+    $$(`[data-action="save"][data-id="${p.id}"]`).forEach((b) => b.classList.add('saved')),
+  );
+  if (location.hash.startsWith('#/saved')) renderSaved();
+  else if (location.hash.startsWith('#/trip')) rerenderTrip();
+  toast(`Saved ${add.length} place${add.length === 1 ? '' : 's'} in ${C[cid].name}.`, {
+    label: 'Undo',
+    run: () => {
+      S.saved = S.saved.filter((x) => !add.some((p) => p.id === x));
+      persist();
+      route();
+    },
+  });
+}
+function toggleTrip(id, quiet = false) {
   if (!validCity(id)) return;
-  const had = inTrip(id);
+  const had = inTrip(id),
+    at = S.trip.indexOf(id);
   S.trip = had ? S.trip.filter((x) => x !== id) : [...S.trip, id];
   if (!S.days[id]) S.days[id] = C[id].days;
   persist();
   $$(`[data-action="trip-toggle"][data-id="${id}"]`).forEach((b) => {
+    if (b.closest('.reorder')) return;
     const sm = b.classList.contains('addcity');
-    b.classList.toggle('saved', !had && sm);
-    b.innerHTML = icon(had ? 'plus' : 'check') + (sm ? '' : had ? 'Add to trip' : 'In your trip');
+    b.classList.toggle('saved', !had);
+    b.innerHTML = icon(had ? 'plus' : 'check') + (sm ? '' : tripLabel(id, b.dataset.short));
     b.setAttribute(
       'aria-label',
       `${had ? 'Add' : 'Remove'} ${C[id].name} ${had ? 'to' : 'from'} trip`,
     );
   });
-  if (location.hash.startsWith('#/trip')) renderTrip();
-  toast(had ? `${C[id].name} removed from trip.` : `${C[id].name} added to your trip.`);
+  if (location.hash.startsWith('#/trip')) rerenderTrip();
+  else if (location.hash.startsWith('#/saved')) renderSaved();
+  if (quiet) return;
+  if (had)
+    toast(`${C[id].name} removed from your trip.`, {
+      label: 'Undo',
+      run: () => {
+        if (inTrip(id)) return;
+        S.trip.splice(Math.min(at, S.trip.length), 0, id);
+        persist();
+        route();
+      },
+    });
+  else if (topFive(id).some((p) => !saved(p.id)))
+    toast(`${C[id].name} added to your trip.`, {
+      label: 'Save the top 5',
+      run: () => saveTopFive(id),
+    });
+  else toast(`${C[id].name} added to your trip.`);
 }
 function hav(a, b) {
   const r = Math.PI / 180,
@@ -1503,32 +1615,122 @@ function parkNotice(c) {
       : '';
   return `<div class="info-note"><strong>Park travel has a separate budget.</strong> ${esc(c.budgetNote || 'Rental car, fuel and admission/pass costs are extra.')} For 2026, designated parks add USD 100 per eligible non-U.S. resident aged 16+ unless covered by a valid qualifying pass. The nonresident annual pass is USD 250; coverage depends on vehicle/party rules. ${external('https://www.nps.gov/aboutus/nonresident-fees.htm', 'Read current NPS fee and eligibility rules ↗')}</div>`;
 }
+// The Trip page opens on the trip itself: cover, route map, the cities with what you saved in
+// each, and the total. Dates, pace and travellers sit behind "Trip settings".
+let tripTab = 'plan',
+  tripMap = null;
+function listNames(names) {
+  return names.length < 3
+    ? names.join(' and ')
+    : names.slice(0, -1).join(', ') + ' and ' + names.at(-1);
+}
+function starterCard(t) {
+  const o = budgetOrigin(),
+    days = t.days.reduce((a, b) => a + b, 0),
+    est = o ? pick(templateCost(t).total) : 0;
+  return `<article class="startercard"><div class="sc-photo">${photoTag(t.cities[0])}</div><div class="sc-body"><h3>${esc(t.title)}</h3><p>${esc(listNames(t.cities.filter((id) => C[id]).map((id) => C[id].name)))}</p><small>${days} days${est ? ` · about ${cash(est)}` : ''}</small><button class="btn light small" data-action="template" data-id="${t.id}">Start with this trip</button></div></article>`;
+}
+function tripCityCard(id, i) {
+  const c = C[id],
+    l = i ? leg(C[S.trip[i - 1]], c) : null,
+    mine = savedIn(id),
+    arrivalDate = cityArrivalDate(id),
+    m = arrivalDate ? arrivalDate.getMonth() + 1 : 0,
+    days = S.days[id] || c.days;
+  return `${l ? `<div class="leg"><strong>${icon('route')} ${esc(l.mode)} ${l.minutes ? '· about ' + durationLabel(l.minutes) : ''}</strong>${intercityLink(C[S.trip[i - 1]], c, l)}</div>` : ''}<article class="routecard"><div class="routecardtop"><div class="route-number">${i + 1}</div>${photoTag(id)}<div class="routeinfo"><h3>${esc(c.name)}</h3><p>${days} day${days > 1 ? 's' : ''} · ${mine.length} saved</p></div><div class="reorder"><button data-action="move" data-id="${id}" data-dir="-1" aria-label="Move ${esc(c.name)} earlier" ${i === 0 ? 'disabled' : ''}>${icon('up')}</button><button data-action="move" data-id="${id}" data-dir="1" aria-label="Move ${esc(c.name)} later" ${i === S.trip.length - 1 ? 'disabled' : ''}>${icon('down')}</button><button data-action="trip-toggle" data-id="${id}" aria-label="Remove ${esc(c.name)} from trip">${icon('close')}</button></div></div><div class="rc-places">${mine.map((p) => `<button class="rc-place" data-action="place" data-id="${p.id}" aria-label="${esc(p.name)}">${visualTag(p.id)}<span>${esc(p.name)}</span></button>`).join('')}<a class="rc-place add" href="#/city/${id}"><i>${icon('plus')}</i><span>${mine.length ? 'Add places' : 'Choose places'}</span></a>${mine.length ? '' : `<button class="rc-place add" data-action="save-top5" data-id="${id}"><i>${icon('heart')}</i><span>Save the top 5</span></button>`}</div><div class="actions"><div class="stepper"><button data-action="days" data-id="${id}" data-dir="-1" aria-label="Fewer days in ${esc(c.name)}">−</button><strong>${days} day${days > 1 ? 's' : ''}</strong><button data-action="days" data-id="${id}" data-dir="1" aria-label="More days in ${esc(c.name)}">+</button></div></div>${m && !c.bestMonths.includes(m) ? `<p class="season-warning">${MONTHS[m - 1]} is outside the best months here. ${esc(c.seasonNote)}</p>` : ''}<details class="rc-more" data-keep="more-${id}"><summary>Hotel and extras</summary>${stayPanel(c, true)}<div class="budget-custom"><div class="field"><label>Hotel / person / night (${c.currency})</label><input type="number" min="0" data-lodging="${id}" value="${S.lodging[id] || 0}" aria-label="Hotel per person per night in ${esc(c.name)}"></div><div class="field"><label>Extras / person (${c.currency})</label><input type="number" min="0" data-extra="${id}" value="${S.extra[id] || 0}" aria-label="Extra excursion allowance in ${esc(c.name)}"></div></div></details></article>`;
+}
+function tripPlanTab() {
+  return `<div class="tripplan"><div class="tripmapwrap"><div id="trip-map" aria-label="Route map"></div><a class="btn light small tm-open" href="#/map/trip">${icon('map')} Open map</a></div><div class="tripcities">${S.trip.map(tripCityCard).join('')}<button class="selectcities" data-action="choose-cities">${icon('plus')} Add another city</button></div></div><details class="trip-settings" data-keep="settings"><summary>${icon('sliders')} Trip settings<small>${S.startDate ? esc(S.startDate) : 'No dates yet'} · ${S.people} traveller${S.people > 1 ? 's' : ''}</small></summary><div class="trip-controls"><div class="field"><label for="trip-date">Start date</label><input type="date" id="trip-date" value="${S.startDate}"></div><div class="field"><label for="trip-pace">Daily pace</label><select id="trip-pace">${[
+    ['relaxed', 'Unhurried · aim for 5 hours'],
+    ['balanced', 'Balanced · aim for 7 hours'],
+    ['full', 'Full days · aim for 9 hours'],
+  ]
+    .map(([v, l]) => `<option value="${v}" ${S.pace === v ? 'selected' : ''}>${l}</option>`)
+    .join(
+      '',
+    )}</select></div><div class="field smallfield"><label for="trip-people">Travellers</label><input type="number" id="trip-people" min="1" max="20" value="${S.people}"></div></div>${S.trip.length > 2 ? `<button class="btn light small" data-action="optimize">${icon('shuffle')} Suggest visit order</button>` : ''}</details><div class="plan-toolbar"><h2>Day by day</h2></div><section id="day-plans">${buildDaysHtml()}</section>`;
+}
+function tripShareTab() {
+  return `<div class="sharepanel"><h2>Share with friends</h2><p>One link shows your route, places and costs.</p><button class="btn" data-action="share">${icon('share')} Share with friends</button></div><details class="trip-more" data-keep="more"><summary>More</summary><div class="more-list"><button data-action="export">${icon('download')} Save a backup file</button><button data-action="import">${icon('upload')} Open a backup file</button><button data-action="csv">${icon('pin')} Export pins for Google My Maps</button><button data-action="print">${icon('print')} Print the plan</button></div></details>`;
+}
 function renderTrip() {
   headerActive('trip');
+  const keep = $('.trippage') && [...$$('.trippage details[open]')].map((d) => d.dataset.keep);
+  if (tripMap) {
+    tripMap.remove();
+    tripMap = null;
+  }
+  if (!S.trip.length) {
+    $('#app').innerHTML =
+      `<div class="wrap trippage"><div class="pagehead"><div><h1>Your trip</h1><p>Start from a ready-made trip, or pick your own cities.</p></div></div><div class="starter-grid">${TEMPLATES.slice(0, 3).map(starterCard).join('')}</div><div class="actions trip-start"><button class="btn" data-action="choose-cities">${icon('plus')} Choose my own cities</button><button class="inline-link" data-action="import">${icon('upload')} Open a backup file</button></div><details class="trip-more"><summary>More ready-made trips</summary><div class="starter-grid">${TEMPLATES.slice(3).map(starterCard).join('')}</div></details>${footer()}</div>`;
+    return;
+  }
+  const cost = tripCost(),
+    days = totalDays() + transferDays();
   $('#app').innerHTML =
-    `<div class="wrap"><div class="pagehead"><div><h1>Your trip</h1><p>${S.trip.length ? 'Set your dates and pace, then check the day-by-day outline below.' : 'Pick a ready-made trip or add your own cities.'}</p></div>${S.trip.length ? `<div class="actions"><button class="btn small" data-action="share">${icon('share')} Share trip</button></div>` : ''}</div>${
-      S.trip.length
-        ? `<div class="trip-layout"><section><div class="trip-controls"><div class="field"><label for="trip-date">Start date</label><input type="date" id="trip-date" value="${S.startDate}"></div><div class="field"><label for="trip-pace">Daily pace</label><select id="trip-pace">${[
-            ['relaxed', 'Unhurried · aim for 5 hours'],
-            ['balanced', 'Balanced · aim for 7 hours'],
-            ['full', 'Full days · aim for 9 hours'],
-          ]
-            .map(([v, l]) => `<option value="${v}" ${S.pace === v ? 'selected' : ''}>${l}</option>`)
-            .join(
-              '',
-            )}</select></div><div class="field smallfield"><label for="trip-people">Travellers</label><input type="number" id="trip-people" min="1" max="20" value="${S.people}"></div></div><div class="actions" style="margin-bottom:17px"><button class="btn small" data-action="optimize">${icon('shuffle')} Suggest visit order</button><a class="btn ghost small" href="#/map/trip">${icon('map')} View route</a></div><p class="scrollhint">Move your arrival city to the top before suggesting an order. This heuristic uses geographic distance, not live flight prices, ferry dates or road travel times.</p>${S.trip
-            .map((id, i) => {
-              const c = C[id],
-                l = i ? leg(C[S.trip[i - 1]], c) : null;
-              const arrivalDate = cityArrivalDate(id);
-              const m = arrivalDate ? arrivalDate.getMonth() + 1 : 0;
-              return `${l ? `<div class="leg"><strong>${icon('route')} ${esc(l.mode)} ${l.minutes ? '· about ' + durationLabel(l.minutes) : ''}</strong>${esc(l.note)}<br>${intercityLink(C[S.trip[i - 1]], c, l)}</div>` : ''}<article class="routecard"><div class="routecardtop"><div class="route-number">${i + 1}</div>${photoTag(id)}<div class="routeinfo"><h3>${esc(c.name)}</h3><p>${esc(c.country)} · ${i === 0 ? 'Arrival city' : `${c.items.length} researched places`}</p></div><div class="reorder"><button data-action="move" data-id="${id}" data-dir="-1" aria-label="Move ${esc(c.name)} earlier" ${i === 0 ? 'disabled' : ''}>${icon('up')}</button><button data-action="move" data-id="${id}" data-dir="1" aria-label="Move ${esc(c.name)} later" ${i === S.trip.length - 1 ? 'disabled' : ''}>${icon('down')}</button><button data-action="trip-toggle" data-id="${id}" aria-label="Remove ${esc(c.name)} from trip">${icon('close')}</button></div></div><div class="actions"><div class="stepper"><button data-action="days" data-id="${id}" data-dir="-1" aria-label="Fewer days in ${esc(c.name)}">−</button><strong>${S.days[id] || c.days} city days</strong><button data-action="days" data-id="${id}" data-dir="1" aria-label="More days in ${esc(c.name)}">+</button></div><a class="btn text small" href="#/city/${id}">Choose places ${icon('arrow')}</a></div>${stayPanel(c, true)}${m && !c.bestMonths.includes(m) ? `<p class="season-warning">Your arrival month is outside this guide’s typical preferred months. ${esc(c.seasonNote)}</p>` : ''}<details style="margin-top:10px"><summary style="font-size:11px;cursor:pointer;color:var(--muted)">Adjust hotel & major-excursion allowances (${c.currency})</summary><div class="budget-custom"><div class="field"><label>Hotel / person / night</label><input type="number" min="0" data-lodging="${id}" value="${S.lodging[id] || 0}" aria-label="Hotel per person per night in ${esc(c.name)}"></div><div class="field"><label>Extra / person / stay</label><input type="number" min="0" data-extra="${id}" value="${S.extra[id] || 0}" aria-label="Extra excursion allowance in ${esc(c.name)}"></div></div><small class="muted">Optional allowances in local currency. Nights are assumed equal to city days; adjust for your booking. Extra is for major tours, shopping or costs beyond the daily baseline.</small></details></article>`;
-            })
-            .join(
-              '',
-            )}<button class="selectcities" data-action="choose-cities">${icon('plus')} Add another destination</button></section><aside><div class="sidepanel"><div class="eyebrow">YOUR JOURNEY AT A GLANCE</div><h3 style="margin-top:12px">${totalDays() + transferDays()} days to work with.</h3><div class="siderow"><span>Destinations</span><strong>${S.trip.length}</strong></div><div class="siderow"><span>City / excursion days</span><strong>${totalDays()}</strong></div><div class="siderow"><span>Transfer buffer days</span><strong>${transferDays()}</strong></div><div class="siderow"><span>Saved places in this trip</span><strong>${S.saved.filter((id) => S.trip.includes(P[id]?.cityId)).length}</strong></div><p>Each transfer has a one-day placeholder. Long-haul flights and infrequent connections may need more.</p></div>${tripReceipt()}<div class="sidepanel"><h3>Your portable plan.</h3><p>Send a link to friends and family, or export a full backup with your notes, checklists and budget to re-import on your phone.</p><button class="btn" data-action="share">${icon('share')} Share trip link</button><button class="btn light" data-action="export">${icon('download')} Export trip JSON</button><button class="btn light" data-action="csv">${icon('pin')} Export Google My Maps pins</button></div></aside></div><div class="plan-toolbar"><div><span class="eyebrow">A PRACTICAL STARTING POINT</span><h2>Your day-by-day outline.</h2></div><div class="actions"><button class="btn ghost small" data-action="print">${icon('print')} Print plan</button></div></div><div class="info-note">This is a draft sequence, not a reservation or turn-by-turn navigation plan. Timed tickets, opening days, weather and long excursions can change the order. Saved places take priority; full-day trips stay separate from city sightseeing.</div><section id="day-plans">${buildDaysHtml()}</section>`
-        : `<div class="empty">${icon('route')}<h2>Start with the places calling you.</h2><p>Add your own destinations, or choose a trip starter below. You can change the order, days and places whenever you like.</p><button class="btn" data-action="choose-cities">${icon('plus')} Choose destinations</button></div>`
-    }<div class="rowhead"><h2>Ready-made trips</h2></div><div class="trip-template-grid">${TEMPLATES.map((t) => `<article class="template-mini">${starterArt(t)}<div class="template-body"><span class="eyebrow" style="font-size:9px">${t.tag}</span><h3 style="margin-top:10px">${t.title}</h3><p>${t.note}</p><p><strong>Plan around:</strong> ${t.warning}</p><button class="btn light small" data-action="template" data-id="${t.id}">Add this journey ${icon('arrow')}</button></div></article>`).join('')}</div><div class="backup-row"><span>Backup & share</span><button class="inline-link" data-action="export">${icon('download')} Export</button><button class="inline-link" data-action="import">${icon('upload')} Import</button><button class="inline-link" data-action="print">${icon('print')} Print</button></div>${footer()}</div>`;
+    `<div class="wrap trippage"><section class="tripcover">${photoTag(S.trip[0], '', false)}<div class="tc-copy"><span class="eyebrow">YOUR TRIP</span><h1>${esc(listNames(S.trip.map((id) => C[id].name)))}</h1><p>${days} days · ${S.people} traveller${S.people > 1 ? 's' : ''}</p></div><button class="tc-total" data-action="trip-tab" data-id="cost"><small>About</small><b>${cash(cost.est)}</b></button></section><div class="tripbar"><button class="btn" data-action="share">${icon('share')} Share with friends</button></div><div class="citytabs triptabs" role="tablist">${[
+      ['plan', 'Plan'],
+      ['cost', 'Cost'],
+      ['share', 'Share'],
+    ]
+      .map(
+        ([k, l]) =>
+          `<button role="tab" aria-selected="${tripTab === k}" class="${tripTab === k ? 'active' : ''}" data-action="trip-tab" data-id="${k}">${l}</button>`,
+      )
+      .join(
+        '',
+      )}</div><div class="triptab">${tripTab === 'cost' ? tripCostBar() + tripReceipt() : tripTab === 'share' ? tripShareTab() : tripPlanTab()}</div>${footer()}</div>`;
+  (keep || []).forEach((k) => $(`.trippage details[data-keep="${k}"]`)?.setAttribute('open', ''));
+  if (tripTab === 'plan') initTripMap();
+}
+function rerenderTrip() {
+  const y = window.scrollY;
+  renderTrip();
+  window.scrollTo(0, y);
+}
+function initTripMap() {
+  if (!$('#trip-map') || typeof L === 'undefined') return;
+  tripMap = L.map('trip-map', {
+    zoomControl: !isMobile(),
+    minZoom: 1,
+    maxZoom: 12,
+    scrollWheelZoom: false,
+    dragging: !isMobile(),
+    attributionControl: true,
+  });
+  tripMap.createPane('offline-outline');
+  tripMap.getPane('offline-outline').style.zIndex = '150';
+  L.geoJSON(DATA.world, {
+    pane: 'offline-outline',
+    style: outlineStyle(),
+    interactive: false,
+  }).addTo(tripMap);
+  tripMap.attributionControl.setPrefix(false);
+  if (S.street && navigator.onLine)
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution:
+        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+      maxZoom: 19,
+    }).addTo(tripMap);
+  const pts = S.trip.map((id) => [C[id].lat, C[id].lon]);
+  if (pts.length > 1)
+    L.polyline(pts, { color: '#e7764b', weight: 3, dashArray: '7 7' }).addTo(tripMap);
+  S.trip.forEach((id, i) =>
+    L.marker(pts[i], {
+      icon: L.divIcon({
+        className: 'trip-pin',
+        html: `<b>${i + 1}</b><span>${esc(C[id].name)}</span>`,
+        iconSize: [26, 26],
+        iconAnchor: [13, 13],
+      }),
+      keyboard: false,
+    })
+      .on('click', () => (location.hash = '#/city/' + id))
+      .addTo(tripMap),
+  );
+  if (pts.length > 1) tripMap.fitBounds(pts, { padding: [46, 46], maxZoom: 7 });
+  else tripMap.setView(pts[0], 6);
+  setTimeout(() => tripMap?.invalidateSize(), 100);
 }
 function chooseCities() {
   showModal(
@@ -1540,7 +1742,7 @@ function chooseCityList(q) {
   return CITIES.filter((c) => (c.name + ' ' + c.country).toLowerCase().includes(q.toLowerCase()))
     .map(
       (c) =>
-        `<div class="compactcity">${photoTag(c.id)}<div class="text"><h4>${esc(c.name)}</h4><p>${esc(c.country)} · ${c.days} suggested days</p></div>${cityAdd(c.id)}</div>`,
+        `<div class="compactcity">${photoTag(c.id)}<div class="text"><h4>${esc(c.name)}</h4><p>${esc(c.country)} · ${c.days} suggested days</p></div>${cityAdd(c.id, false, true)}</div>`,
     )
     .join('');
 }
@@ -1559,7 +1761,8 @@ function applyTemplate(id) {
   closeModal();
   location.hash = '#/trip';
   if (location.hash === '#/trip') renderTrip();
-  toast('Journey added. Existing destinations and notes were kept.');
+  tripTab = 'plan';
+  toast('Trip added.');
 }
 function budgetDetail() {
   showModal(
@@ -1580,11 +1783,31 @@ function budgetDetail() {
     'Budget breakdown',
   );
 }
+// Three real-photo places to start from when nothing is saved yet.
+function starterPlaces() {
+  const out = [];
+  for (const c of CITIES) {
+    const p = topFive(c.id).find((x) => !ART[x.id]);
+    if (p) out.push(p);
+    if (out.length === 3) break;
+  }
+  return out;
+}
 function renderSaved() {
   headerActive('saved');
-  const places = S.saved.map((id) => P[id]).filter(Boolean);
+  const places = S.saved.map((id) => P[id]).filter(Boolean),
+    cities = [...new Set(places.map((p) => p.cityId))];
   $('#app').innerHTML =
-    `<div class="wrap"><div class="pagehead"><div><h1>Saved</h1><p>Places you tapped the heart on. Add their cities to your trip and they become the plan for those days.</p></div><div class="actions"><button class="btn light small" data-action="csv">${icon('download')} Export pins</button><button class="btn small" data-action="saved-to-trip">${icon('route')} Add cities to trip</button></div></div>${places.length ? `<div class="chips">${[...new Set(places.map((p) => p.cityId))].map((id) => `<a class="chip" style="text-decoration:none" href="#/city/${id}">${esc(C[id].name)} · ${places.filter((p) => p.cityId === id).length}</a>`).join('')}</div><div class="placegrid">${places.map(placeCard).join('')}</div>` : `<div class="empty">${icon('heart')}<h2>Nothing saved yet.</h2><p>Tap a heart on any place to save it here. Your trip planner uses those saved places when it builds that city’s days.</p><a href="#/" class="btn">Start exploring ${icon('arrow')}</a></div>`}${footer()}</div>`;
+    `<div class="wrap savedpage"><div class="pagehead"><div><h1>Saved</h1><p>${places.length ? 'Your places, by city. Add a city to your trip to start planning it.' : 'Tap the heart on any place to keep it here.'}</p></div></div>${
+      places.length
+        ? cities
+            .map((id) => {
+              const mine = places.filter((p) => p.cityId === id);
+              return `<section class="savedgroup"><div class="sg-head"><a class="sg-city" href="#/city/${id}">${photoTag(id)}<span><strong>${esc(C[id].name)}</strong><small>${mine.length} saved</small></span></a>${cityAdd(id)}</div><div class="placegrid">${mine.map(placeCard).join('')}</div></section>`;
+            })
+            .join('')
+        : `<div class="rowhead"><h2>Start with one of these</h2></div><div class="placegrid">${starterPlaces().map(placeCard).join('')}</div><div class="actions trip-start"><a href="#/" class="btn">Explore more ${icon('arrow')}</a></div>`
+    }${footer()}</div>`;
 }
 function sourceRecords() {
   const records = new Map();
@@ -2027,6 +2250,10 @@ function doImport(merge) {
 function route() {
   closeModal();
   storyLeave();
+  if (tripMap) {
+    tripMap.remove();
+    tripMap = null;
+  }
   document.title = 'Roam Atlas — Your world, ready to explore';
   if (map) {
     map.remove();
@@ -2777,7 +3004,7 @@ function vibeCard(p) {
   return `<article class="vibecard" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Why go to ${esc(p.name)}"><div class="vibeimage">${visualTag(p.id)}</div><div class="vibebody"><span class="vibecity">${esc(p.cityName)} · #${popularityRank(p)} there</span><h3>${esc(p.name)}</h3><p class="rankwhy">${esc(rankShort(p))}</p></div></article>`;
 }
 function vibeSection() {
-  return `<div class="rowhead" id="vibes"><h2>In the mood for…</h2><button class="inline-link" data-action="surprise">${icon('shuffle')} Surprise me</button></div><div class="chips" id="vibe-chips">${VIBES.map((v) => `<button class="chip ${vibe === v ? 'active' : ''}" data-action="vibe" data-id="${v}">${v}</button>`).join('')}</div><div class="hrow vibegrid" id="vibe-results">${vibePlaces(vibe).map(vibeCard).join('')}</div>`;
+  return `<div class="rowhead" id="vibes"><h2>In the mood for…</h2></div><div class="chips" id="vibe-chips">${VIBES.map((v) => `<button class="chip ${vibe === v ? 'active' : ''}" data-action="vibe" data-id="${v}">${v}</button>`).join('')}</div><div class="hrow vibegrid" id="vibe-results">${vibePlaces(vibe).map(vibeCard).join('')}</div>`;
 }
 function surprise() {
   // A top-3 sight from a random city, so the surprise is always worth it.
@@ -3311,6 +3538,12 @@ document.addEventListener('click', (e) => {
   else if (a === 'shop-tier') setShopFilter('tier', id);
   else if (a === 'shop-style') setShopFilter('style', id);
   else if (a === 'template') applyTemplate(id);
+  else if (a === 'trip-tab') {
+    tripTab = id;
+    rerenderTrip();
+    if ($('.triptabs').getBoundingClientRect().top < 0 || b.classList.contains('tc-total'))
+      $('.triptabs').scrollIntoView({ block: 'start' });
+  } else if (a === 'save-top5') saveTopFive(id);
   else if (a === 'choose-cities') chooseCities();
   else if (a === 'finish-cities') {
     closeModal();

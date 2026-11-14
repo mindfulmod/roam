@@ -461,7 +461,7 @@ function tripPriceLinks() {
 }
 // The Trip page as a checkout: every cost of the planned trip in one currency, with one total.
 // Flights go out to the first city and home from the last; transfer days sleep in the next city.
-function tripReceipt() {
+function tripCost() {
   const o = budgetOrigin(),
     n = S.people,
     style = B().style,
@@ -538,8 +538,21 @@ function tripReceipt() {
       );
   });
   const est = style === 'comfort' ? total[1] : total[0],
-    budget = budgetUSD(),
-    st = fitState(est, budget);
+    budget = budgetUSD();
+  return { o, n, style, lines, total, est, budget, st: fitState(est, budget) };
+}
+// The whole trip as one bar against the budget; the receipt sits beneath it.
+function tripCostBar() {
+  const { est, budget, st, n } = tripCost();
+  if (!budget)
+    return `<div class="tripcost nobudget"><div class="tcb-top"><span>Estimated total</span><b>≈ ${cash(est)}</b></div><p>${n > 1 ? `About ${cash(est / n)} a person. ` : ''}Set a budget to see how this trip fits.</p><button class="btn light small" data-action="bud-edit">Set a budget</button></div>`;
+  const max = Math.max(est, budget) * 1.08,
+    w = Math.round((est / max) * 100),
+    mark = Math.round((budget / max) * 100);
+  return `<div class="tripcost ${st}"><div class="tcb-top"><span>Estimated total</span><b>≈ ${cash(est)}</b></div><div class="tcb-track" role="img" aria-label="Estimated ${cash(est)} against a budget of ${cash(budget)}"><i style="width:${w}%"></i><em style="left:${mark}%"></em></div><div class="tcb-legend"><span class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} under budget` : `${cash(est - budget)} over budget`}</span><span>Budget ${cash(budget)} <button class="inline-link" data-action="bud-edit">Change</button></span></div></div>`;
+}
+function tripReceipt() {
+  const { o, n, style, lines, total, est, budget, st } = tripCost();
   const row = (l) =>
     l.head
       ? `<div class="rc-city">${l.head}</div>`
