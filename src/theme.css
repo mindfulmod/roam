@@ -68,8 +68,10 @@
 }
 /* generated:tokens */
 :root {
+  --k-0b1f1ccc-s: #0b1f1ccc;
   --k-0b201eb8-s: #0b201eb8;
   --k-0b2827ab-s: #0b2827ab;
+  --k-12302f-t: #12302f;
   --k-153d36-s: #153d36;
   --k-183c32c9-s: #183c32c9;
   --k-183c32df-s: #183c32df;
@@ -106,11 +108,16 @@
   --k-d8ddd4-b: #d8ddd4;
   --k-d8e0d4-b: #d8e0d4;
   --k-d8e2d2-b: #d8e2d2;
+  --k-d9534f-s: #d9534f;
+  --k-d9534f-t: #d9534f;
+  --k-d99a2b-s: #d99a2b;
   --k-dce8e1-s: #dce8e1;
   --k-dde9e5-s: #dde9e5;
+  --k-dfeaea-s: #dfeaea;
   --k-e4eaf0-s: #e4eaf0;
   --k-e5eaf6-s: #e5eaf6;
   --k-e5eee6-s: #e5eee6;
+  --k-e7764b-s: #e7764b;
   --k-e7ece4-s: #e7ece4;
   --k-e8dcc8-b: #e8dcc8;
   --k-e8ece4-s: #e8ece4;
@@ -155,8 +162,10 @@
   --k-fffffff5-s: #fffffff5;
 }
 :root[data-theme='dark'] {
+  --k-0b1f1ccc-s: #1b4b44cc;
   --k-0b201eb8-s: #1a4c47b8;
   --k-0b2827ab-s: #16504eab;
+  --k-12302f-t: #ceedec;
   --k-153d36-s: #1a4c43;
   --k-183c32c9-s: #1d493dc9;
   --k-183c32df-s: #1d493ddf;
@@ -193,11 +202,16 @@
   --k-d8ddd4-b: #454e3e;
   --k-d8e0d4-b: #42513a;
   --k-d8e2d2-b: #425536;
+  --k-d9534f-s: #d9534f;
+  --k-d9534f-t: #d9534f;
+  --k-d99a2b-s: #d99a2b;
   --k-dce8e1-s: #1b2725;
   --k-dde9e5-s: #1b2725;
+  --k-dfeaea-s: #1b2725;
   --k-e4eaf0-s: #1b2725;
   --k-e5eaf6-s: #101715;
   --k-e5eee6-s: #1b2725;
+  --k-e7764b-s: #e7764b;
   --k-e7ece4-s: #1b2725;
   --k-e8dcc8-b: #634e2a;
   --k-e8ece4-s: #1b2725;
@@ -243,8 +257,10 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) {
+    --k-0b1f1ccc-s: #1b4b44cc;
     --k-0b201eb8-s: #1a4c47b8;
     --k-0b2827ab-s: #16504eab;
+    --k-12302f-t: #ceedec;
     --k-153d36-s: #1a4c43;
     --k-183c32c9-s: #1d493dc9;
     --k-183c32df-s: #1d493ddf;
@@ -281,11 +297,16 @@
     --k-d8ddd4-b: #454e3e;
     --k-d8e0d4-b: #42513a;
     --k-d8e2d2-b: #425536;
+    --k-d9534f-s: #d9534f;
+    --k-d9534f-t: #d9534f;
+    --k-d99a2b-s: #d99a2b;
     --k-dce8e1-s: #1b2725;
     --k-dde9e5-s: #1b2725;
+    --k-dfeaea-s: #1b2725;
     --k-e4eaf0-s: #1b2725;
     --k-e5eaf6-s: #101715;
     --k-e5eee6-s: #1b2725;
+    --k-e7764b-s: #e7764b;
     --k-e7ece4-s: #1b2725;
     --k-e8dcc8-b: #634e2a;
     --k-e8ece4-s: #1b2725;
