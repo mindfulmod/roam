@@ -1,6 +1,6 @@
-// Builds Roam Atlas from source.
+// Builds Tandem Roads from source.
 //   node scripts/build.mjs           -> dist/index.html + dist/images/ (for hosting)
-//   node scripts/build.mjs --single  -> dist/roam-atlas.html (one self-contained file, images inlined)
+//   node scripts/build.mjs --single  -> dist/tandem-roads.html (one self-contained file, images inlined)
 import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -79,11 +79,11 @@ const dist = path.join(root, 'dist');
 await rm(dist, { recursive: true, force: true });
 await mkdir(dist, { recursive: true });
 if (single) {
-  await writeFile(path.join(dist, 'roam-atlas.html'), html);
+  await writeFile(path.join(dist, 'tandem-roads.html'), html);
 } else {
   await writeFile(path.join(dist, 'index.html'), html);
   await cp(path.join(root, 'images'), path.join(dist, 'images'), { recursive: true });
 }
 console.log(
-  `Built ${single ? 'dist/roam-atlas.html' : 'dist/index.html'} (${(Buffer.byteLength(html) / 1e6).toFixed(1)} MB HTML)`,
+  `Built ${single ? 'dist/tandem-roads.html' : 'dist/index.html'} (${(Buffer.byteLength(html) / 1e6).toFixed(1)} MB HTML)`,
 );

@@ -26,7 +26,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-const UA = 'RoamAtlas/2.0 (https://github.com/mindfulmod/roam)';
+const UA = 'TandemRoads/2.0 (https://github.com/mindfulmod/roam)';
 const MAX_KM = 15;
 const MAX_BIG_KM = 100;
 const MAX_CITY_KM = 60;

@@ -1,10 +1,10 @@
-# Roam Atlas
+# Tandem Roads
 
 A travel guide and multi-city trip planner: 60 cities and 794 places with prices, tips, best times and
 sources, popularity rankings, food and dietary filters, a Leaflet map, and a trip planner that splits
 places into days, estimates budgets and exports to JSON or CSV. Plain HTML, CSS and JavaScript, with
 no framework and no backend. Your saved places and trips stay in the browser (`localStorage` key
-`roam-atlas-v1`).
+`roam-atlas-v1`, kept from the app's earlier name, Roam Atlas, so existing trips carry over).
 
 ## Project layout
 
@@ -30,7 +30,7 @@ Requires Node 18+.
 ```sh
 npm install
 npm run build          # dist/index.html + dist/images/ for hosting (about 3 MB of HTML; images load on demand)
-npm run build:single   # dist/roam-atlas.html, one self-contained file with every image inlined (about 49 MB)
+npm run build:single   # dist/tandem-roads.html, one self-contained file with every image inlined (about 49 MB)
 npm run dev            # build and serve dist/ locally
 ```
 

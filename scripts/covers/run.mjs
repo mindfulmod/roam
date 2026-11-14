@@ -14,7 +14,7 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..')
 const here = path.join(root, 'scripts/covers');
 const out = path.join(here, 'out');
 const API = 'https://commons.wikimedia.org/w/api.php';
-const UA = { 'User-Agent': 'RoamAtlasCoverBot/1.0 (https://github.com/mindfulmod/roam)' };
+const UA = { 'User-Agent': 'TandemRoadsCoverBot/1.0 (https://github.com/mindfulmod/roam)' };
 const readJson = async (p) => JSON.parse(await readFile(p, 'utf8'));
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 const strip = (h = '') =>

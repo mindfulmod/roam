@@ -351,7 +351,7 @@ function loopStrip() {
     trip = S.trip.length,
     step = (n, href, label, sub, done, cur) =>
       `<a href="${href}" class="${done ? 'done' : ''} ${cur ? 'current' : ''}"><b>${done ? icon('check') : n}</b><span><strong>${label}</strong><small>${sub}</small></span></a>`;
-  return `<nav class="loopstrip" aria-label="How Roam works">${step(1, '#/choose', 'Dream', 'Find a place', saved > 0 || trip > 0, !saved && !trip)}${step(2, '#/saved', 'Save', saved ? `${saved} saved` : 'Tap a heart', saved > 0 && trip > 0, saved === 0 ? false : !trip)}${step(3, '#/trip', 'Trip', trip ? `${trip} ${trip > 1 ? 'cities' : 'city'}` : 'Add a city', false, trip > 0)}</nav>`;
+  return `<nav class="loopstrip" aria-label="How it works">${step(1, '#/choose', 'Dream', 'Find a place', saved > 0 || trip > 0, !saved && !trip)}${step(2, '#/saved', 'Save', saved ? `${saved} saved` : 'Tap a heart', saved > 0 && trip > 0, saved === 0 ? false : !trip)}${step(3, '#/trip', 'Trip', trip ? `${trip} ${trip > 1 ? 'cities' : 'city'}` : 'Add a city', false, trip > 0)}</nav>`;
 }
 
 // ---------- Search: cities, places and dishes, forgiving of typos ----------
