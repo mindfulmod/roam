@@ -100,13 +100,13 @@ p {
   margin-bottom: 14px;
 }
 small {
-  font-size: 12px;
+  font-size: 13px;
 }
 .muted {
   color: var(--muted);
 }
 .eyebrow {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 750;
   letter-spacing: 0.15em;
   text-transform: uppercase;
@@ -176,10 +176,10 @@ small {
   color: #fff;
   border-radius: 20px;
   padding: 0 6px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .topend {
-  font-size: 11px;
+  font-size: 13px;
   display: flex;
   gap: 8px;
   align-items: center;
@@ -235,7 +235,7 @@ small {
 .btn.small {
   min-height: 36px;
   padding: 8px 12px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .btn.orange {
   background: var(--orange);
@@ -277,7 +277,7 @@ small {
   gap: 6px;
   border-radius: 30px;
   padding: 5px 10px;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.45;
   background: var(--teal2);
   color: var(--teal);
@@ -375,7 +375,7 @@ small {
   margin: 5px 0 0;
 }
 .hero-caption p {
-  font-size: 12px;
+  font-size: 13px;
   margin: 4px 0 0;
   color: #ffffffd4;
 }
@@ -393,7 +393,7 @@ small {
   background: #0005;
   border-radius: 5px;
   padding: 2px 7px;
-  font-size: 9px;
+  font-size: 13px;
   text-decoration: none;
 }
 .statbar {
@@ -418,7 +418,7 @@ small {
     serif;
 }
 .stat span {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   max-width: 95px;
   line-height: 1.4;
@@ -460,7 +460,7 @@ small {
   border-radius: 30px;
   background: transparent;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
   min-height: 37px;
 }
 .chip.active {
@@ -527,12 +527,12 @@ small {
 }
 .shopcard-top small {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   text-align: right;
 }
 .shoptier {
   flex: none;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   border-radius: 30px;
   padding: 3px 9px;
@@ -548,22 +548,22 @@ small {
 }
 .shoptags .pill {
   padding: 2px 8px;
-  font-size: 10px;
+  font-size: 13px;
 }
 .shopcard .shoptip {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 .shopcard .shopmap {
   margin-top: auto;
-  font-size: 12px;
+  font-size: 13px;
   display: inline-flex;
   align-items: center;
   gap: 5px;
 }
 .shopguide-note {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
 }
 .shopstops-h {
   margin: 0 0 4px;
@@ -650,7 +650,7 @@ small {
   margin: 0 0 1px;
 }
 .citytitle span {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
 }
@@ -658,7 +658,7 @@ small {
   padding: 18px 21px;
 }
 .citybody p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.65;
   color: var(--muted);
   margin: 6px 0 14px;
@@ -667,7 +667,7 @@ small {
 .citymeta {
   display: flex;
   justify-content: space-between;
-  font-size: 11px;
+  font-size: 13px;
   border-top: 1px solid var(--k-edf0e9-b);
   padding-top: 12px;
   color: var(--muted);
@@ -697,7 +697,7 @@ small {
   border-color: var(--k-d3dee8-b);
 }
 .tripteaser .tag {
-  font-size: 10px;
+  font-size: 13px;
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--muted);
@@ -709,7 +709,7 @@ small {
   margin: 16px 0 12px;
 }
 .tripteaser p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
 }
 .editor-note {
@@ -719,7 +719,7 @@ small {
   margin: 40px 0 20px;
   border-top: 1px solid var(--line);
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 .editor-note strong {
   color: var(--ink);
@@ -731,7 +731,7 @@ small {
   display: flex;
   justify-content: space-between;
   gap: 20px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .footer a {
@@ -746,7 +746,7 @@ small {
 }
 .backline a {
   text-decoration: none;
-  font-size: 12px;
+  font-size: 13px;
 }
 .cityhero {
   position: relative;
@@ -804,7 +804,7 @@ small {
 }
 .summarycell label {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -816,7 +816,7 @@ small {
 .summarycell small {
   display: block;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 13px;
   margin-top: 4px;
 }
 .citytabs {
@@ -881,7 +881,7 @@ small {
   flex-direction: column;
 }
 .placebody .area {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.07em;
@@ -892,7 +892,7 @@ small {
   cursor: pointer;
 }
 .placebody p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   margin: 0 0 15px;
   line-height: 1.65;
@@ -902,7 +902,7 @@ small {
   justify-content: space-between;
   gap: 6px;
   margin-top: auto;
-  font-size: 11px;
+  font-size: 13px;
   padding-top: 12px;
   border-top: 1px solid var(--k-eceee8-b);
 }
@@ -914,12 +914,12 @@ small {
 }
 .placeactions .btn {
   padding: 7px 10px;
-  font-size: 11px;
+  font-size: 13px;
   min-height: 33px;
 }
 .rating {
   color: var(--k-946529-t);
-  font-size: 11px;
+  font-size: 13px;
 }
 .reviewstrip {
   padding: 18px 21px;
@@ -928,7 +928,7 @@ small {
   display: flex;
   gap: 15px;
   margin-bottom: 22px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
 }
 .reviewstrip p {
@@ -970,7 +970,7 @@ small {
   padding: 13px 17px;
   background: var(--k-fff4e9-s);
   color: var(--k-765c3e-t);
-  font-size: 12px;
+  font-size: 13px;
   margin: 18px 0;
 }
 .source-list {
@@ -1033,7 +1033,7 @@ small {
   min-width: 110px;
 }
 .field label {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -1078,7 +1078,7 @@ small {
   margin: 0 0 2px;
 }
 .routecardtop p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin: 0;
 }
@@ -1087,7 +1087,7 @@ small {
   height: 27px;
   background: var(--teal2);
   border-radius: 50%;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
   display: flex;
   align-items: center;
@@ -1102,7 +1102,7 @@ small {
   display: inline-flex;
   align-items: center;
   gap: 11px;
-  font-size: 12px;
+  font-size: 13px;
 }
 .stepper button {
   width: 29px;
@@ -1132,7 +1132,7 @@ small {
   border-left: 1px dashed var(--k-9cb1a7-b);
   padding: 9px 15px;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 .leg strong {
   color: var(--ink);
@@ -1140,7 +1140,7 @@ small {
   margin-bottom: 4px;
 }
 .leg a {
-  font-size: 11px;
+  font-size: 13px;
 }
 .sidepanel {
   background: var(--k-e8eee5-s);
@@ -1159,12 +1159,12 @@ small {
   display: flex;
   justify-content: space-between;
   gap: 16px;
-  font-size: 12px;
+  font-size: 13px;
   padding: 10px 0;
   border-bottom: 1px solid var(--k-d5dfce-b);
 }
 .sidepanel p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin: 13px 0 0;
 }
@@ -1213,7 +1213,7 @@ small {
   margin: 0;
 }
 .daytitle span {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .day-stop {
@@ -1237,12 +1237,12 @@ small {
   font-size: 13px;
 }
 .day-stop p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin: 0 0 5px;
 }
 .day-stop a {
-  font-size: 11px;
+  font-size: 13px;
 }
 .day-stop .tick {
   accent-color: var(--teal);
@@ -1293,7 +1293,7 @@ small {
 .compactcity p {
   margin: 0;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 13px;
 }
 .map-layout {
   height: calc(100dvh - 84px);
@@ -1313,7 +1313,7 @@ small {
   margin: 0 0 8px;
 }
 .mapaside p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
 }
 .mapaside select {
@@ -1326,7 +1326,7 @@ small {
   margin: 10px 0;
 }
 .mapaside .searchbox input {
-  font-size: 12px;
+  font-size: 13px;
   min-height: 43px;
   padding-top: 9px;
   padding-bottom: 9px;
@@ -1340,7 +1340,7 @@ small {
 }
 .mapaside .chip {
   padding: 6px 10px;
-  font-size: 10px;
+  font-size: 13px;
   min-height: 31px;
 }
 .mapcanvas {
@@ -1376,7 +1376,7 @@ small {
   bottom: 25px;
   left: 19px;
   z-index: 700;
-  font-size: 10px;
+  font-size: 13px;
   background: var(--k-ffffffed-s);
   padding: 8px 12px;
   border-radius: 7px;
@@ -1393,7 +1393,7 @@ small {
   background: var(--teal);
   color: #fff;
   box-shadow: 0 3px 9px #16392c40;
-  font: 600 11px/26px sans-serif;
+  font: 600 13px/26px sans-serif;
   text-align: center;
   white-space: nowrap;
 }
@@ -1427,14 +1427,14 @@ small {
   margin: 0 0 5px;
 }
 .map-popup p {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin: 0 0 8px;
 }
 .map-popup .btn {
   min-height: 31px;
   padding: 6px 9px;
-  font-size: 11px;
+  font-size: 13px;
   color: #fff;
 }
 .leaflet-popup-content-wrapper {
@@ -1445,7 +1445,7 @@ small {
   border: 1px solid var(--k-d8ddd4-b) !important;
 }
 .leaflet-control-attribution {
-  font-size: 9px !important;
+  font-size: 13px !important;
 }
 .maplistitem {
   display: flex;
@@ -1467,12 +1467,12 @@ small {
   flex: 1;
 }
 .maplistitem h4 {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.4;
   margin: 0 0 3px;
 }
 .maplistitem p {
-  font-size: 10px;
+  font-size: 13px;
   margin: 0;
 }
 .maplistitem .iconbtn {
@@ -1524,7 +1524,7 @@ small {
   right: 12px;
   left: 12px;
   text-align: right;
-  font-size: 9px;
+  font-size: 13px;
   color: #fff;
   text-shadow: 0 1px 4px #000;
 }
@@ -1560,7 +1560,7 @@ small {
 }
 .modalstats label {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--muted);
@@ -1579,11 +1579,11 @@ small {
   margin: 0 0 8px;
 }
 .detailgrid p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
 }
 .source-links {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   margin-top: 23px;
 }
@@ -1592,7 +1592,7 @@ small {
   margin: 3px 12px 3px 0;
 }
 .modalcontent .price-note {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .toast {
@@ -1646,12 +1646,12 @@ small {
   color: var(--ink);
 }
 .review-evidence {
-  font-size: 11px;
+  font-size: 13px;
   padding-top: 15px;
   color: var(--muted);
 }
 .photo-context {
-  font-size: 9px;
+  font-size: 13px;
   background: var(--k-fff9-s);
   color: var(--ink);
   padding: 2px 6px;
@@ -1672,7 +1672,7 @@ small {
 .budgettable {
   width: 100%;
   border-collapse: collapse;
-  font-size: 12px;
+  font-size: 13px;
 }
 .budgettable td,
 .budgettable th {
@@ -1682,7 +1682,7 @@ small {
 }
 .budgettable th {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 13px;
   text-transform: uppercase;
 }
 .checkrow {
@@ -1697,7 +1697,7 @@ small {
   margin-top: 5px;
 }
 .scrollhint {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .printonly {
@@ -1708,7 +1708,7 @@ small {
   max-width: 100px;
 }
 .season-warning {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--k-94692e-t);
   margin: 10px 0 0;
 }
@@ -1752,7 +1752,7 @@ small {
   margin: 0 0 7px;
 }
 .template-mini p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
 }
 @keyframes toast-in {
@@ -1842,7 +1842,7 @@ small {
     gap: 1px;
   }
   .nav a {
-    font-size: 10px;
+    font-size: 13px;
     display: flex;
     flex-direction: column;
     gap: 3px;
@@ -1860,7 +1860,7 @@ small {
   }
   .topend {
     display: flex;
-    font-size: 9px;
+    font-size: 13px;
   }
   .hero {
     display: flex;
@@ -1894,13 +1894,13 @@ small {
     font-size: 32px;
   }
   .hero-copy .eyebrow {
-    font-size: 10px;
+    font-size: 13px;
   }
   .hero-copy .actions {
     width: 100%;
   }
   .hero-copy .btn {
-    font-size: 12px;
+    font-size: 13px;
     padding: 11px 15px;
   }
   .statbar {
@@ -1915,7 +1915,7 @@ small {
     font-size: 24px;
   }
   .stat span {
-    font-size: 10px;
+    font-size: 13px;
   }
   .sectionhead {
     align-items: start;
@@ -1928,7 +1928,7 @@ small {
     display: none;
   }
   .sectionhead .btn {
-    font-size: 10px;
+    font-size: 13px;
     min-height: 32px;
     padding: 7px 10px;
   }
@@ -1947,12 +1947,12 @@ small {
     font-size: 25px;
   }
   .citytitle span {
-    font-size: 8px;
+    font-size: 13px;
   }
   .cityimage .pill {
     left: 9px;
     top: 9px;
-    font-size: 8px;
+    font-size: 13px;
     padding: 4px 7px;
   }
   .cityimage .addcity {
@@ -1965,18 +1965,18 @@ small {
     padding: 13px;
   }
   .citybody p {
-    font-size: 11px;
+    font-size: 13px;
     min-height: 55px;
     margin: 0 0 12px;
     line-height: 1.5;
   }
   .citymeta {
-    font-size: 9px;
+    font-size: 13px;
     gap: 4px;
     flex-wrap: wrap;
   }
   .citymeta strong {
-    font-size: 10px;
+    font-size: 13px;
   }
   .tripinspiration {
     display: flex;
@@ -2013,12 +2013,12 @@ small {
   .chip {
     white-space: nowrap;
     padding: 7px 12px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .editor-note {
     padding-top: 20px;
     margin-top: 25px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .footer {
     flex-direction: column;
@@ -2034,7 +2034,7 @@ small {
     gap: 6px;
   }
   .backline .btn {
-    font-size: 10px;
+    font-size: 13px;
     padding: 8px 10px;
     min-height: 34px;
   }
@@ -2053,7 +2053,7 @@ small {
     margin: 10px 0;
   }
   .cityherotext p {
-    font-size: 12px;
+    font-size: 13px;
     line-height: 1.7;
   }
   .citysummary {
@@ -2074,10 +2074,10 @@ small {
     font-size: 14px;
   }
   .summarycell label {
-    font-size: 9px;
+    font-size: 13px;
   }
   .summarycell small {
-    font-size: 9px;
+    font-size: 13px;
   }
   .citytabs {
     gap: 23px;
@@ -2100,13 +2100,13 @@ small {
     font-size: 13px;
   }
   .placebody .area {
-    font-size: 10px;
+    font-size: 13px;
   }
   .placemeta {
-    font-size: 12px;
+    font-size: 13px;
   }
   .reviewstrip {
-    font-size: 11px;
+    font-size: 13px;
     padding: 16px;
     gap: 12px;
   }
@@ -2129,7 +2129,7 @@ small {
     margin: 10px 0;
   }
   .pagehead p {
-    font-size: 12px;
+    font-size: 13px;
   }
   .pagehead .actions {
     margin-top: 16px;
@@ -2170,11 +2170,11 @@ small {
     gap: 6px;
   }
   .routecard .btn {
-    font-size: 10px;
+    font-size: 13px;
   }
   .stepper {
     gap: 7px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .map-layout {
     height: calc(100dvh - 135px);
@@ -2209,7 +2209,7 @@ small {
     flex: 1;
     min-width: 180px;
     margin: 0;
-    font-size: 12px;
+    font-size: 13px;
     padding: 9px;
   }
   .mapaside .chips {
@@ -2219,7 +2219,7 @@ small {
     overflow: visible;
   }
   .mapaside .chip {
-    font-size: 9px;
+    font-size: 13px;
     padding: 5px 8px;
     min-height: 28px;
   }
@@ -2259,7 +2259,7 @@ small {
     gap: 5px;
   }
   .map-top .btn {
-    font-size: 10px;
+    font-size: 13px;
     padding: 9px;
     min-height: 34px;
     gap: 5px;
@@ -2272,7 +2272,7 @@ small {
     left: 11px;
     bottom: 23px;
     max-width: 260px;
-    font-size: 9px;
+    font-size: 13px;
     padding: 6px 9px;
   }
   .leaflet-control-zoom {
@@ -2318,7 +2318,7 @@ small {
   }
   .toast {
     bottom: 90px;
-    font-size: 12px;
+    font-size: 13px;
     padding: 11px 18px;
     width: max-content;
   }
@@ -2333,7 +2333,7 @@ small {
     height: 53px;
   }
   .day-stop h4 {
-    font-size: 12px;
+    font-size: 13px;
   }
   .day-stop .btn {
     padding: 6px;
@@ -2342,17 +2342,17 @@ small {
     grid-template-columns: 1fr;
   }
   .source-row {
-    font-size: 12px;
+    font-size: 13px;
     gap: 10px;
   }
   .source-row small {
-    font-size: 9px;
+    font-size: 13px;
   }
   .budget-custom {
     grid-template-columns: 1fr 1fr;
   }
   .budgettable {
-    font-size: 10px;
+    font-size: 13px;
   }
   .methodology h2 {
     font-size: 29px;
@@ -2365,10 +2365,10 @@ small {
     font-size: 29px;
   }
   .plan-toolbar .btn {
-    font-size: 10px;
+    font-size: 13px;
   }
   .photo-context {
-    font-size: 8px;
+    font-size: 13px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -2383,7 +2383,7 @@ small {
 @media print {
   body {
     background: var(--k-fff-s);
-    font-size: 11px;
+    font-size: 13px;
   }
   .topbar,
   .footer,
@@ -2465,7 +2465,7 @@ small {
   background: #0008;
 }
 .price-note-inline {
-  font-size: 10px !important;
+  font-size: 13px !important;
   color: var(--k-68756a-t) !important;
   padding: 7px 10px;
   background: var(--k-f0f2e9-s);
@@ -2473,7 +2473,7 @@ small {
   margin-top: 7px !important;
 }
 .day-context {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   margin: -3px 0 14px;
 }
@@ -2514,7 +2514,7 @@ small {
     font-size: 23px;
   }
   .hero-credit {
-    font-size: 8px;
+    font-size: 13px;
     max-width: calc(100% - 24px);
   }
 }
@@ -2547,7 +2547,7 @@ small {
   font-size: 13px;
 }
 .onboarding-steps small {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .ranking-tabs,
@@ -2569,7 +2569,7 @@ small {
   padding: 11px 17px;
   border-radius: 8px;
   color: var(--muted);
-  font: 600 12px inherit;
+  font: 600 13px inherit;
   cursor: pointer;
 }
 .ranking-tabs button.active,
@@ -2581,7 +2581,7 @@ small {
 }
 .ranking-note {
   max-width: 850px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.6;
   color: var(--muted);
   margin: 14px 0 24px;
@@ -2600,12 +2600,12 @@ small {
   color: var(--teal);
 }
 .city-rank span {
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 600;
 }
 .city-rank small {
   display: block;
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 400;
   color: var(--muted);
   margin-top: 3px;
@@ -2625,7 +2625,7 @@ small {
   margin: 0 0 8px;
 }
 .unranked-heading p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   max-width: 750px;
 }
@@ -2635,7 +2635,7 @@ small {
   gap: 12px 24px;
   align-items: center;
   padding: 14px 2px;
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .destination-evidence b {
@@ -2644,7 +2644,7 @@ small {
   margin-right: 3px;
 }
 .destination-evidence .inline-link {
-  font-size: 11px;
+  font-size: 13px;
 }
 .discovery-heading {
   display: flex;
@@ -2658,7 +2658,7 @@ small {
   margin: 8px 0;
 }
 .discovery-heading p {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   margin: 0;
 }
@@ -2668,7 +2668,7 @@ small {
   padding: 14px 18px;
   margin-bottom: 22px;
   border-radius: 0 10px 10px 0;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.6;
 }
 .ranking-explainer strong {
@@ -2685,7 +2685,7 @@ small {
   padding: 11px 13px;
   border-radius: 8px;
   color: var(--ink);
-  font: 12px inherit;
+  font: 13px inherit;
   min-height: 42px;
 }
 .filter-line {
@@ -2698,7 +2698,7 @@ small {
 .filter-line label {
   display: grid;
   gap: 7px;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--muted);
 }
@@ -2707,7 +2707,7 @@ small {
   max-width: 100%;
 }
 .filter-note {
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
   color: var(--muted);
   margin: 10px 0 17px;
@@ -2720,11 +2720,11 @@ small {
   border-radius: 9px;
 }
 .view-switch button {
-  font-size: 11px;
+  font-size: 13px;
   padding: 10px 14px;
 }
 .result-count {
-  font-size: 11px;
+  font-size: 13px;
   margin: 20px 0 12px;
 }
 .rankbadge {
@@ -2732,7 +2732,7 @@ small {
   align-items: center;
   gap: 5px;
   color: var(--teal);
-  font-size: 9px;
+  font-size: 13px;
   font-weight: 600;
   margin: 0 0 12px;
 }
@@ -2745,7 +2745,7 @@ small {
 .rankbadge.unranked {
   color: var(--muted);
   font-weight: 400;
-  font-size: 10px;
+  font-size: 13px;
 }
 .typechips {
   display: flex;
@@ -2756,7 +2756,7 @@ small {
 .typechip {
   padding: 4px 7px;
   border-radius: 5px;
-  font-size: 9px;
+  font-size: 13px;
   background: var(--k-eef0ea-s);
   color: var(--k-4b6358-t);
   font-weight: 600;
@@ -2789,11 +2789,11 @@ small {
   margin: 12px 0 22px;
 }
 .large .typechip {
-  font-size: 11px;
+  font-size: 13px;
   padding: 6px 11px;
 }
 .placebody .must-order {
-  font-size: 11px;
+  font-size: 13px;
   min-height: 0;
   color: var(--k-5b645b-t);
 }
@@ -2808,7 +2808,7 @@ small {
 .dietchip {
   display: inline-block;
   border-radius: 5px;
-  font-size: 9px;
+  font-size: 13px;
   padding: 5px 7px;
   background: var(--k-e5eee6-s);
   color: var(--k-386a4a-t);
@@ -2878,7 +2878,7 @@ small {
   margin: 6px 0;
 }
 .ranking-main > small {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
 }
 .ranking-stat {
@@ -2893,12 +2893,12 @@ small {
 }
 .ranking-stat > small {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   margin: 3px 0;
 }
 .ranking-stat .rating {
-  font-size: 10px;
+  font-size: 13px;
 }
 .ranking-stat .rating .muted {
   display: none;
@@ -2953,19 +2953,19 @@ small {
   margin: 0 0 13px;
 }
 .rank-reason p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.8;
   margin: 10px 0;
 }
 .rank-reason > a {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--teal);
   font-weight: 600;
 }
 .rank-reason > small {
   display: block;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.6;
   margin-top: 11px;
 }
@@ -2987,7 +2987,7 @@ small {
   line-height: 1.7;
 }
 .must-order-box small {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .dietary-detail {
@@ -3006,7 +3006,7 @@ small {
 }
 .dietary-detail > small {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.7;
   color: var(--muted);
 }
@@ -3029,7 +3029,7 @@ small {
   color: var(--muted);
 }
 .method-block a {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--teal);
 }
 .stay-panel {
@@ -3061,7 +3061,7 @@ small {
   margin: 0 0 5px;
 }
 .stay-heading p {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.5;
   color: var(--muted);
   margin: 0;
@@ -3076,7 +3076,7 @@ small {
   padding-top: 19px;
 }
 .nearby-preview .eyebrow {
-  font-size: 9px;
+  font-size: 13px;
 }
 .nearby-options {
   display: grid;
@@ -3096,7 +3096,7 @@ small {
   cursor: pointer;
   color: var(--ink);
   text-align: left;
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.5;
 }
 .nearby-options strong {
@@ -3104,12 +3104,12 @@ small {
   color: var(--teal);
 }
 .nearby-preview > .inline-link {
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--teal);
 }
 .nearby-preview > .muted {
-  font-size: 10px;
+  font-size: 13px;
   display: inline;
 }
 .stay-panel.compact {
@@ -3123,14 +3123,14 @@ small {
   font-weight: 600;
 }
 .stay-panel.compact p {
-  font-size: 10px;
+  font-size: 13px;
 }
 .stay-panel.compact .icon {
   width: 20px;
   height: 20px;
 }
 .stay-panel.compact .btn {
-  font-size: 10px;
+  font-size: 13px;
   padding: 8px 11px;
   min-height: 34px;
 }
@@ -3146,7 +3146,7 @@ small {
 }
 .stay-to-place > span {
   display: block;
-  font-size: 11px;
+  font-size: 13px;
   margin: 7px 0 13px;
   color: var(--muted);
 }
@@ -3155,7 +3155,7 @@ small {
   gap: 8px;
   align-items: center;
   flex-wrap: wrap;
-  font-size: 11px;
+  font-size: 13px;
   margin: 14px 0;
   color: var(--teal);
 }
@@ -3199,11 +3199,11 @@ small {
   font-size: 13px;
 }
 .stay-search-results span {
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
 }
 .stay-search-results small {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--teal);
 }
 #stay-map {
@@ -3226,7 +3226,7 @@ small {
 .stay-coordinate-line label {
   display: grid;
   gap: 6px;
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   flex: 1;
   min-width: 110px;
@@ -3237,15 +3237,15 @@ small {
   padding: 10px;
   border: 1px solid var(--line);
   border-radius: 7px;
-  font: 12px inherit;
+  font: 13px inherit;
   min-height: 40px;
 }
 .stay-coordinate-line .btn {
   min-height: 40px;
-  font-size: 11px;
+  font-size: 13px;
 }
 .stay-confirm {
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.6;
   padding: 13px 16px;
   background: var(--k-eef2e8-s);
@@ -3254,7 +3254,7 @@ small {
 }
 .stay-modal > .muted {
   display: block;
-  font-size: 10px;
+  font-size: 13px;
   line-height: 1.6;
   margin-top: 18px;
 }
@@ -3273,7 +3273,7 @@ small {
   margin: 10px 0;
 }
 #map-diet {
-  font-size: 11px;
+  font-size: 13px;
   min-height: 36px;
   margin: 0;
 }
@@ -3292,7 +3292,7 @@ small {
   position: absolute;
   bottom: 9px;
   right: 10px;
-  font-size: 8px;
+  font-size: 13px;
   color: #fff;
   padding: 5px 7px;
   border-radius: 5px;
@@ -3325,7 +3325,7 @@ small {
     gap: 14px;
   }
   .onboarding-steps small {
-    font-size: 10px;
+    font-size: 13px;
   }
   .ranking-row {
     gap: 10px;
@@ -3370,7 +3370,7 @@ small {
     font-size: 13px;
   }
   .onboarding-steps small {
-    font-size: 11px;
+    font-size: 13px;
   }
   .onboarding-steps b {
     font-size: 26px;
@@ -3384,23 +3384,23 @@ small {
   }
   .ranking-tabs button {
     text-align: left;
-    font-size: 12px;
+    font-size: 13px;
   }
   .ranking-note {
-    font-size: 11px;
+    font-size: 13px;
   }
   .city-rank small {
-    font-size: 10px;
+    font-size: 13px;
   }
   .city-rank span {
-    font-size: 12px;
+    font-size: 13px;
   }
   .citymeta {
     gap: 5px;
     flex-wrap: wrap;
   }
   .destination-evidence {
-    font-size: 10px;
+    font-size: 13px;
     gap: 10px;
   }
   .destination-evidence b {
@@ -3428,7 +3428,7 @@ small {
     font-size: 21px;
   }
   .stay-heading p {
-    font-size: 11px;
+    font-size: 13px;
   }
   .stay-panel.compact .stay-heading > .btn {
     margin-left: 32px;
@@ -3445,11 +3445,11 @@ small {
   }
   .ranking-explainer {
     padding: 13px 15px;
-    font-size: 11px;
+    font-size: 13px;
   }
   .searchrow > select {
     width: 100%;
-    font-size: 12px;
+    font-size: 13px;
   }
   .filter-line {
     gap: 11px;
@@ -3457,12 +3457,12 @@ small {
   }
   .filter-line > label {
     width: calc(50% - 6px);
-    font-size: 10px;
+    font-size: 13px;
   }
   .filter-line select {
     min-width: 0;
     width: 100%;
-    font-size: 11px;
+    font-size: 13px;
     padding: 10px 8px;
   }
   .view-switch {
@@ -3470,7 +3470,7 @@ small {
     align-self: flex-end;
   }
   .view-switch button {
-    font-size: 10px;
+    font-size: 13px;
     padding: 11px 14px;
   }
   .citytabs {
@@ -3481,7 +3481,7 @@ small {
   }
   .citytabs button {
     padding: 13px 10px;
-    font-size: 11px;
+    font-size: 13px;
     flex-shrink: 0;
   }
   .ranking-row {
@@ -3501,14 +3501,14 @@ small {
     min-width: 135px;
   }
   .ranking-main > .inline-link {
-    font-size: 12px;
+    font-size: 13px;
   }
   .ranking-main > .typechips .typechip {
-    font-size: 8px;
+    font-size: 13px;
     padding: 3px 5px;
   }
   .ranking-main > small {
-    font-size: 9px;
+    font-size: 13px;
   }
   .ranking-stat {
     width: 58px;
@@ -3517,7 +3517,7 @@ small {
     font-size: 14px;
   }
   .ranking-stat > small {
-    font-size: 8px;
+    font-size: 13px;
   }
   .ranking-row > .iconbtn {
     display: none;
@@ -3540,11 +3540,11 @@ small {
     padding: 18px;
   }
   .visual-toggle button {
-    font-size: 10px;
+    font-size: 13px;
     padding: 10px;
   }
   .modal-main-actions .btn {
-    font-size: 11px;
+    font-size: 13px;
   }
   .stay-search-line {
     display: block;
@@ -3618,7 +3618,7 @@ small {
   display: flex;
   gap: 10px 19px;
   flex-wrap: wrap;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--teal);
   margin: 17px 0;
 }
@@ -3638,18 +3638,18 @@ small {
   margin: 16px 0;
 }
 .review-themes > strong {
-  font-size: 12px;
+  font-size: 13px;
 }
 .review-themes ul {
   padding-left: 18px;
-  font-size: 12px;
+  font-size: 13px;
   line-height: 1.7;
 }
 .review-themes li {
   margin: 8px 0;
 }
 .review-themes > small {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   line-height: 1.6;
   display: block;
@@ -3700,7 +3700,7 @@ small {
     width: 100%;
   }
   .quick-facts {
-    font-size: 11px;
+    font-size: 13px;
   }
 }
 .mapcanvas {
@@ -3921,7 +3921,7 @@ small.rankwhy {
   z-index: 2;
   background: #000a;
   color: #fff;
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 650;
   padding: 3px 9px;
   border-radius: 20px;
@@ -3935,7 +3935,7 @@ small.rankwhy {
   gap: 4px;
   background: #000a;
   color: #fff;
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 650;
   padding: 3px 8px;
   border-radius: 20px;
@@ -3963,7 +3963,7 @@ small.rankwhy {
 }
 .cityphotos-head small {
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 .cityphotos-row {
   display: grid;
@@ -4168,7 +4168,7 @@ small.rankwhy {
     align-items: center;
     gap: 2px;
     padding: 4px 2px;
-    font-size: 10.5px;
+    font-size: 13px;
     border-radius: 12px;
     white-space: nowrap;
   }
@@ -4419,7 +4419,7 @@ small.rankwhy {
     font-size: 14px;
   }
   .maplistitem p {
-    font-size: 12px;
+    font-size: 13px;
   }
   /* Docked preview card replaces the floating popup on phones. */
   .map-card:not([hidden]) {
@@ -4536,7 +4536,7 @@ small.rankwhy {
     bottom: 64px;
   }
   .mapcanvas .leaflet-control-attribution {
-    font-size: 9px;
+    font-size: 13px;
   }
   .map-pin {
     height: 32px;
@@ -4576,7 +4576,7 @@ small.rankwhy {
   .backline .actions .btn {
     min-height: 40px;
     padding: 6px 12px;
-    font-size: 12px;
+    font-size: 13px;
     white-space: nowrap;
   }
   .cityhero {
@@ -4809,7 +4809,7 @@ small.rankwhy {
 
 .about-link {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   text-decoration: none;
   padding: 8px 12px;
@@ -5023,14 +5023,14 @@ small.rankwhy {
   color: var(--ink);
   border-radius: 30px;
   padding: 3px 10px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 750;
   box-shadow: 0 2px 8px #0002;
 }
 .city-rankpill small {
   font-weight: 500;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
 }
 .citycard .citybody {
   padding: 10px 2px 0;
@@ -5061,7 +5061,7 @@ small.rankwhy {
   display: block;
   border: 0;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
 }
 .citygrid {
   grid-template-columns: repeat(4, 1fr);
@@ -5093,7 +5093,7 @@ small.rankwhy {
   padding: 10px 2px 0;
 }
 .vibecity {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   font-weight: 600;
 }
@@ -5137,7 +5137,7 @@ small.rankwhy {
   border-radius: 14px;
   background: var(--k-fff-s);
   border: 1px solid var(--line);
-  font-size: 11px;
+  font-size: 13px;
   color: var(--muted);
   text-align: left;
   line-height: 1.35;
@@ -5212,7 +5212,7 @@ button.fact b {
   border-radius: 20px;
   min-width: 18px;
   line-height: 18px;
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
   margin-left: 4px;
 }
@@ -5239,7 +5239,7 @@ button.fact b {
   margin: 0 0 3px;
 }
 .placecard .rankwhy {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--teal);
   font-weight: 600;
   margin: 0 0 6px;
@@ -5257,7 +5257,7 @@ button.fact b {
   display: flex;
   justify-content: space-between;
   gap: 8px;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
 }
 
@@ -5408,7 +5408,7 @@ button.fact b {
   .citycountry {
     display: block;
     margin: 0;
-    font-size: 12px;
+    font-size: 13px;
   }
   .topinner {
     justify-content: space-between;
@@ -5417,7 +5417,7 @@ button.fact b {
     display: flex !important;
   }
   .about-link {
-    font-size: 12px;
+    font-size: 13px;
     padding: 6px 10px;
   }
   .citytabs {
@@ -5493,7 +5493,7 @@ button.fact b {
   gap: 6px;
 }
 .budget-label {
-  font-size: 10px;
+  font-size: 13px;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -5555,7 +5555,7 @@ button.fact b {
   background: var(--muted);
 }
 .mathlink {
-  font-size: 12px;
+  font-size: 13px;
   padding: 0;
 }
 .budget-empty {
@@ -5617,7 +5617,7 @@ a.fact b {
   display: block;
   font-weight: 400;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 .mathtable td {
   text-align: right;
@@ -5631,7 +5631,7 @@ a.fact b {
   font-weight: 750;
 }
 .small-print {
-  font-size: 12px;
+  font-size: 13px;
 }
 .method-list {
   padding-left: 18px;
@@ -5663,7 +5663,7 @@ a.fact b {
   list-style: none;
   margin: 4px 0 2px;
   padding: 0;
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
 }
 .costlist li {
@@ -5685,7 +5685,7 @@ a.fact b {
 }
 .budgetcard .fitnote {
   display: block;
-  font-size: 12px;
+  font-size: 13px;
 }
 .citycost {
   background: var(--k-fff-s);
@@ -5788,7 +5788,7 @@ a.fact b {
 .rc-line small {
   display: block;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.35;
 }
 .rc-line b {
@@ -5812,7 +5812,7 @@ a.fact b {
 }
 .rc-sub,
 .rc-note {
-  font-size: 12px;
+  font-size: 13px;
   color: var(--muted);
   margin: 4px 0 0;
 }
@@ -5852,7 +5852,7 @@ a.fact b {
   display: inline-flex;
   align-items: center;
   gap: 5px;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 600;
   color: var(--muted);
   flex-shrink: 0;
@@ -5910,7 +5910,7 @@ a.fact b {
 .yearstrip-head small,
 .yearstrip-key {
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 .ybars {
   display: grid;
@@ -5947,7 +5947,7 @@ a.fact b {
   background: var(--orange);
 }
 .ybar span {
-  font-size: 11px;
+  font-size: 13px;
   text-align: center;
   line-height: 1;
   height: 13px;
@@ -5985,7 +5985,7 @@ a.fact b {
   display: block;
   font-weight: 400;
   color: var(--muted);
-  font-size: 12px;
+  font-size: 13px;
 }
 .pricelinks > div {
   display: flex;
@@ -6466,7 +6466,7 @@ a.fact b {
   min-width: 0;
 }
 .vw-credit {
-  font-size: 11px;
+  font-size: 13px;
   color: #fffa;
   text-align: center;
   max-width: 900px;
@@ -6544,7 +6544,7 @@ a.fact b {
     height: 42px;
   }
   .vw-credit {
-    font-size: 10px;
+    font-size: 13px;
   }
 }
 @media (prefers-reduced-motion: reduce) {
@@ -6563,7 +6563,7 @@ a.fact b {
   border-radius: 30px;
   background: var(--michelin-bg);
   color: var(--michelin);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 750;
   letter-spacing: 0.02em;
   white-space: nowrap;
@@ -6616,11 +6616,11 @@ a.fact b {
 }
 .nophoto b {
   color: var(--michelin);
-  font-size: 12px;
+  font-size: 13px;
 }
 .nophoto small {
   color: var(--muted);
-  font-size: 10px;
+  font-size: 13px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
 }
@@ -8644,4 +8644,166 @@ a.srcchip:hover {
   .cmp-heads img {
     height: 70px;
   }
+}
+
+/* ==========================================================================
+   Find and save flow, step 5: motion, press states, edge fades, text rule.
+   ========================================================================== */
+.btn,
+.chip,
+.iconbtn,
+.cmpbtn,
+.door,
+.moodtile,
+.citycard,
+.placecard,
+.pickcard,
+.t5card,
+.startercard,
+.srcchip,
+.rc-place,
+.loopstrip a,
+.minicart {
+  transition:
+    transform 0.12s ease,
+    box-shadow 0.18s ease,
+    background-color 0.15s ease,
+    border-color 0.15s ease;
+}
+.btn:active,
+.chip:active,
+.iconbtn:active,
+.cmpbtn:active {
+  transform: scale(0.95);
+}
+.door:active,
+.moodtile:active,
+.citycard:active,
+.placecard:active,
+.pickcard:active,
+.t5card:active,
+.srcchip:active,
+.rc-place:active,
+.loopstrip a:active,
+.minicart:active {
+  transform: scale(0.98);
+}
+@media (hover: hover) {
+  .citycard:hover,
+  .placecard:hover,
+  .pickcard:hover {
+    box-shadow: 0 10px 28px #14382e24;
+    transform: translateY(-2px);
+  }
+}
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 0.2s;
+}
+::view-transition-group(cover) {
+  animation-duration: 0.28s;
+  animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+.minicart:not([hidden]),
+.cmpbar:not([hidden]) {
+  animation: bar-up 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+@keyframes bar-up {
+  from {
+    opacity: 0;
+    translate: 0 12px;
+  }
+}
+.pickcard,
+.t5card {
+  animation: card-in 0.26s ease both;
+}
+.pickcard:nth-child(2),
+.t5card:nth-child(2) {
+  animation-delay: 0.05s;
+}
+.pickcard:nth-child(3),
+.t5card:nth-child(3) {
+  animation-delay: 0.1s;
+}
+@keyframes card-in {
+  from {
+    opacity: 0;
+    translate: 0 10px;
+  }
+}
+.door.skeleton {
+  height: 96px;
+  background: linear-gradient(100deg, var(--k-fff-s) 40%, var(--teal2) 50%, var(--k-fff-s) 60%);
+  background-size: 200% 100%;
+  animation: shimmer 1.2s linear infinite;
+}
+@keyframes shimmer {
+  to {
+    background-position: -200% 0;
+  }
+}
+/* Text rule: at most two lines before the next picture, chart or button. */
+.placebody > p:not(.must-order),
+.pagehead p,
+.modalcontent > .lead {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+@media (max-width: 760px) {
+  /* Rows that scroll sideways fade at the edge, so it is clear there is more. */
+  .rowchips,
+  .region-chips,
+  .month-chips,
+  .citytabs,
+  .t5row,
+  .rc-places {
+    -webkit-mask-image: linear-gradient(90deg, #000 calc(100% - 34px), #0000);
+    mask-image: linear-gradient(90deg, #000 calc(100% - 34px), #0000);
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  ::view-transition-group(*),
+  ::view-transition-old(*),
+  ::view-transition-new(*) {
+    animation: none !important;
+  }
+}
+/* Narrow phones: long city names and the budget form stay inside the screen. */
+.backline .actions {
+  flex: 1;
+  min-width: 0;
+  justify-content: flex-end;
+}
+.backline .actions .btn {
+  flex: none;
+}
+.backline .actions .tripadd {
+  flex: 0 1 auto;
+  min-width: 0;
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.field .money-input input {
+  flex: 1;
+  min-width: 0;
+}
+@media (max-width: 760px) {
+  .budget-form {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .budget-form > * {
+    min-width: 0;
+  }
+}
+.budget-line > .budget-group {
+  min-width: 0;
+  max-width: 100%;
+}
+.budget-group .chips {
+  flex-wrap: wrap;
 }

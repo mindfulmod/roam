@@ -3,6 +3,7 @@
 //   node scripts/build.mjs --single  -> dist/tandem-roads.html (one self-contained file, images inlined)
 import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
 import path from 'node:path';
+import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -73,7 +74,39 @@ const js = [
 ];
 let html = await read('src/index.html');
 html = html.replace('<!-- build:css -->', () => `<style>${css}</style>`);
-html = html.replace('<!-- build:js -->', () => js.map((s) => `<script>${s}</script>`).join(''));
+// Hosted build: a small HTML shell that paints at once, with the data and the app code in
+// their own cacheable files. The single-file build keeps everything inline.
+const hash = (t) => createHash('sha256').update(t).digest('hex').slice(0, 10);
+const files = single
+  ? []
+  : [
+      [`data.${hash(dataJs)}.js`, dataJs],
+      [`app.${hash(js.filter((x) => x !== dataJs).join('\n'))}.js`, null],
+    ];
+if (single) {
+  html = html.replace('<!-- build:js -->', () => js.map((s) => `<script>${s}</script>`).join(''));
+  html = html.replace('<!-- build:boot -->', '').replace('<!-- build:preload -->', '');
+} else {
+  const lib = js[0],
+    app = js.slice(2).join('\n;\n');
+  files[1][1] = lib + '\n;\n' + app;
+  files[1][0] = `app.${hash(files[1][1])}.js`;
+  html = html.replace('<!-- build:js -->', () =>
+    files.map(([name]) => `<script defer src="${name}"></script>`).join(''),
+  );
+  html = html.replace(
+    '<!-- build:preload -->',
+    () =>
+      `<link rel="preload" as="image" href="${photos.kyoto.data}" />` +
+      files.map(([name]) => `<link rel="preload" as="script" href="${name}" />`).join(''),
+  );
+  // What a first-time visitor sees while the data arrives: the real home headline and photo.
+  html = html.replace(
+    '<!-- build:boot -->',
+    () =>
+      `<div class="wrap home" id="boot"><section class="home-hero"><img class="photo" src="${photos.kyoto.data}" alt="" /><div class="home-hero-copy"><h1>Where to next?</h1></div></section><section class="doors"><div class="door skeleton"></div><div class="door skeleton"></div></section></div><script>if (!/^#?\\/?$/.test(location.hash)) document.getElementById('boot').remove();</script>`,
+  );
+}
 
 const dist = path.join(root, 'dist');
 await rm(dist, { recursive: true, force: true });
@@ -82,6 +115,7 @@ if (single) {
   await writeFile(path.join(dist, 'tandem-roads.html'), html);
 } else {
   await writeFile(path.join(dist, 'index.html'), html);
+  for (const [name, text] of files) await writeFile(path.join(dist, name), text);
   await cp(path.join(root, 'images'), path.join(dist, 'images'), { recursive: true });
 }
 console.log(
