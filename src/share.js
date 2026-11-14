@@ -56,7 +56,7 @@ function tripPayload() {
 }
 // Back to a clean, validated plan; anything unknown is dropped.
 function cleanShared(x) {
-  if (!x || x.v !== 1 || !Array.isArray(x.t)) throw Error('Not a Roam Atlas trip link');
+  if (!x || x.v !== 1 || !Array.isArray(x.t)) throw Error('Not a Tandem Roads trip link');
   const st = cleanState({
     trip: x.t,
     days: x.d,
@@ -103,7 +103,7 @@ async function shareTrip() {
     }
   }
   showModal(
-    `<div class="modalcontent share-modal"><span class="eyebrow">SHARE YOUR TRIP</span><h2>${esc(title)}</h2><p class="muted">Anyone with this link can see your route, days, dates and saved places, and copy the trip into their own Roam Atlas.</p><div class="share-line"><input id="share-url" readonly value="${esc(url)}" aria-label="Trip link" onfocus="this.select()"><button class="btn" data-action="share-copy">${icon('link')} Copy link</button></div><p class="filter-note">Your notes, hotel addresses and budget aren’t included. If you change the trip later, share a new link.</p></div>`,
+    `<div class="modalcontent share-modal"><span class="eyebrow">SHARE YOUR TRIP</span><h2>${esc(title)}</h2><p class="muted">Anyone with this link can see your route, days, dates and saved places, and copy the trip into Tandem Roads.</p><div class="share-line"><input id="share-url" readonly value="${esc(url)}" aria-label="Trip link" onfocus="this.select()"><button class="btn" data-action="share-copy">${icon('link')} Copy link</button></div><p class="filter-note">Your notes, hotel addresses and budget aren’t included. If you change the trip later, share a new link.</p></div>`,
     'Share trip',
   );
   $('#share-url')?.select();

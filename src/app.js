@@ -949,7 +949,7 @@ function headerActive(page) {
   updateCounts();
 }
 function footer() {
-  return `<footer class="footer"><div>Roam Atlas · Made for the journey.<br>Research retrieved ${CHECKED}. Fees and availability can change.</div><div><a href="#/guide">About & sources</a> · <button class="inline-link" data-action="export">Export your trip</button><br>Guide, photos and pins work offline. Street tiles and external links need internet.</div></footer>`;
+  return `<footer class="footer"><div>Tandem Roads · Made for the journey.<br>Research retrieved ${CHECKED}. Fees and availability can change.</div><div><a href="#/guide">About & sources</a> · <button class="inline-link" data-action="export">Export your trip</button><br>Guide, photos and pins work offline. Street tiles and external links need internet.</div></footer>`;
 }
 const TEMPLATES = [
   {
@@ -2193,9 +2193,9 @@ function download(name, content, type) {
 }
 function exportTrip() {
   download(
-    'Roam-Atlas-Trip.json',
+    'Tandem-Roads-Trip.json',
     JSON.stringify(
-      { app: 'Roam Atlas', schema: 1, exportedAt: new Date().toISOString(), state: S },
+      { app: 'Tandem Roads', schema: 1, exportedAt: new Date().toISOString(), state: S },
       null,
       2,
     ),
@@ -2245,7 +2245,7 @@ function exportCSV() {
     ]),
   ];
   download(
-    'Roam-Atlas-Google-My-Maps-Pins.csv',
+    'Tandem-Roads-Google-My-Maps-Pins.csv',
     '\uFEFF' + rows.map((r) => r.map(csvcell).join(',')).join('\r\n'),
     'text/csv;charset=utf-8',
   );
@@ -2257,13 +2257,13 @@ function importTrip() {
 function importPreview(obj) {
   if (
     !obj ||
-    obj.app !== 'Roam Atlas' ||
+    !['Tandem Roads', 'Roam Atlas'].includes(obj.app) ||
     obj.schema !== 1 ||
     typeof obj.state !== 'object' ||
     obj.state === null ||
     Array.isArray(obj.state)
   )
-    throw Error('This is not a supported Roam Atlas trip backup.');
+    throw Error('This is not a supported Tandem Roads trip backup.');
   const incoming = cleanState(obj.state);
   window.pendingImport = incoming;
   showModal(
@@ -2302,7 +2302,7 @@ function route() {
     tripMap.remove();
     tripMap = null;
   }
-  document.title = 'Roam Atlas — Your world, ready to explore';
+  document.title = 'Tandem Roads — Your world, ready to explore';
   if (map) {
     map.remove();
     map = null;
@@ -3870,7 +3870,7 @@ $('#import-file').addEventListener('change', async (e) => {
   if (!f) return;
   try {
     if (f.size > 5e6)
-      throw Error('This backup is too large. Choose a Roam Atlas trip JSON under 5 MB.');
+      throw Error('This backup is too large. Choose a Tandem Roads trip JSON under 5 MB.');
     importPreview(JSON.parse(await f.text()));
   } catch (err) {
     toast(err.message || 'Could not read this backup.');

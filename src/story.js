@@ -194,7 +194,7 @@ function renderStory(id) {
   storyNow = m;
   headerActive('trip');
   const { st, stops, days } = m;
-  document.title = `${st.title} · Roam Atlas`;
+  document.title = `${st.title} · Tandem Roads`;
   const range = stRange(m);
   const max = 180;
   const cityMins = m.cityIds.map((cid) => ({
@@ -213,7 +213,7 @@ function renderStory(id) {
     `<section class="st-after"><div class="st-panel"><h2>Where the time went</h2><div class="st-citybars">${cityMins.map((x) => `<div class="st-citybar"><span>${esc(x.c.name)}</span><i style="--w:${Math.round((x.mins / topMins) * 100)}%"></i><em>${stDur(x.mins)}</em></div>`).join('')}</div><h3>Longest stops</h3><ol class="st-longest">${longest.map((s) => `<li><button class="inline-link" data-action="story-goto" data-i="${s.i}">${esc(s.name)}</button><span>${stDur(s.mins)}</span></li>`).join('')}</ol></div>` +
     `<div class="st-panel"><h2>What this trip left behind</h2><p class="muted">${esc(st.country)} is now filled in on ${st.travellers.length} maps, and each traveller's passport has ${cityMins.length} new stamps.</p><div class="st-stamps">${cityMins.map((x, i) => stStamp(x.c, stDate(x.date, { day: 'numeric', month: 'short', year: 'numeric' }), i)).join('')}</div><p class="filter-note">A preview. Maps and passports arrive in a later step.</p></div></section>` +
     (st.sample
-      ? `<p class="st-samplenote">${icon('info')} This is a sample. The travellers and their notes are made up, and Roam's own photos stand in for theirs. Loves and your want-to-go list are saved on this device only.</p>`
+      ? `<p class="st-samplenote">${icon('info')} This is a sample. The travellers and their notes are made up, and Tandem Roads' own photos stand in for theirs. Loves and your want-to-go list are saved on this device only.</p>`
       : '') +
     footer() +
     '</div>';
@@ -661,7 +661,7 @@ window.addEventListener('popstate', () => {
 function storyAudience() {
   const { st } = storyNow;
   showModal(
-    `<div class="modalcontent"><h2 id="modal-heading">Who can see this trip</h2><p class="lead">The travellers decide together, and nobody else can open it.</p><ul class="st-rules"><li><strong>Travellers:</strong> ${st.travellers.map((t) => esc(t.name)).join(', ')}.</li><li><strong>Invited viewers:</strong> ${st.viewers.map(esc).join(', ')}. Each one was approved by every traveller.</li><li>A trip starts visible to its travellers only.</li><li>Opening it up needs a yes from everyone. Any one traveller can close it again at once.</li><li>Any traveller can hide a photo from viewers.</li><li>There are no public links.</li></ul><p class="filter-note">In this sample the people are made up. The rules are the ones Roam will use.</p><div class="actions"><button class="btn" data-action="close-modal">Got it</button></div></div>`,
+    `<div class="modalcontent"><h2 id="modal-heading">Who can see this trip</h2><p class="lead">The travellers decide together, and nobody else can open it.</p><ul class="st-rules"><li><strong>Travellers:</strong> ${st.travellers.map((t) => esc(t.name)).join(', ')}.</li><li><strong>Invited viewers:</strong> ${st.viewers.map(esc).join(', ')}. Each one was approved by every traveller.</li><li>A trip starts visible to its travellers only.</li><li>Opening it up needs a yes from everyone. Any one traveller can close it again at once.</li><li>Any traveller can hide a photo from viewers.</li><li>There are no public links.</li></ul><p class="filter-note">In this sample the people are made up. The rules are the ones Tandem Roads will use.</p><div class="actions"><button class="btn" data-action="close-modal">Got it</button></div></div>`,
     'Who can see this trip',
   );
 }
