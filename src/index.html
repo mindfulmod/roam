@@ -19,6 +19,7 @@
         if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
       } catch (e) {}
     </script>
+    <!-- build:preload -->
     <!-- build:css -->
   </head>
   <body>
@@ -66,7 +67,7 @@
         </div>
       </div>
     </header>
-    <main id="app"></main>
+    <main id="app"><!-- build:boot --></main>
     <a id="minicart" class="minicart no-print" href="#/trip" hidden></a>
     <input type="file" id="import-file" accept="application/json,.json" hidden /><noscript
       ><div style="padding: 40px; font-family: sans-serif">

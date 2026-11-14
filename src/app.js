@@ -2578,6 +2578,12 @@ function placeSignals(p) {
   const parts = poolStats(p).pct.get(p.id) || {};
   return SIGNALS.filter((sig) => parts[sig.key]).map((sig) => ({ ...sig, ...parts[sig.key] }));
 }
+const compact = (n) =>
+  n >= 1e6
+    ? (n / 1e6).toFixed(n >= 1e7 ? 0 : 1) + 'm'
+    : n >= 1e3
+      ? (n / 1e3).toFixed(n >= 1e4 ? 0 : 1) + 'k'
+      : String(n);
 function rankReason(p) {
   const sigs = placeSignals(p),
     m = michelinShort(p);
@@ -3716,8 +3722,10 @@ document.addEventListener('click', (e) => {
   } else if (a === 'trip-toggle') {
     e.stopPropagation();
     toggleTrip(id);
-  } else if (a === 'city') location.hash = '#/city/' + id;
-  else if (a === 'place') {
+  } else if (a === 'city') {
+    growFrom = b.querySelector('.cityimage img, .pk-photo img');
+    location.hash = '#/city/' + id;
+  } else if (a === 'place') {
     setPlaceList(b, id);
     openPlace(id);
   } else if (a === 'place-step') placeStep(Number(b.dataset.dir));
@@ -3944,7 +3952,26 @@ document.addEventListener('keydown', (e) => {
     }
   }
 });
-window.addEventListener('hashchange', route);
+// Opening a city from a card: the card's photo grows into the page's cover (where the
+// browser supports it and the person has not asked for reduced motion).
+let growFrom = null;
+window.addEventListener('hashchange', () => {
+  const img = growFrom;
+  growFrom = null;
+  if (
+    !img?.isConnected ||
+    !document.startViewTransition ||
+    matchMedia('(prefers-reduced-motion: reduce)').matches
+  )
+    return route();
+  img.style.viewTransitionName = 'cover';
+  document.startViewTransition(() => {
+    img.style.viewTransitionName = '';
+    route();
+    const hero = $('.cityhero img');
+    if (hero) hero.style.viewTransitionName = 'cover';
+  });
+});
 window.addEventListener('online', () => {
   if (map && S.street) enableStreet();
 });
