@@ -1265,6 +1265,7 @@ function saveTopFive(cid) {
   );
   if (location.hash.startsWith('#/saved')) renderSaved();
   else if (location.hash.startsWith('#/trip')) rerenderTrip();
+  else if ($('.topfive')) $('.topfive').outerHTML = cityTopFive(C[cid]);
   toast(`Saved ${add.length} place${add.length === 1 ? '' : 's'} in ${C[cid].name}.`, {
     label: 'Undo',
     run: () => {
@@ -2725,10 +2726,29 @@ function cityRanking(c, metric = browseSort) {
       }
     : null;
 }
+// "Best Mar to May": the first run of best months, or the chosen month when it is one of them.
+function bestLabel(c) {
+  const m = budgetMonth(),
+    b = c.bestMonths;
+  if (m) return bestIn(c, m) ? `Best in ${MONTHS[m - 1]}` : '';
+  if (!b.length) return '';
+  let end = b[0];
+  for (const x of b.slice(1)) {
+    if (x !== end + 1) break;
+    end = x;
+  }
+  return end === b[0]
+    ? `Best in ${MONTHS[b[0] - 1]}`
+    : `Best ${MONTHS[b[0] - 1]} to ${MONTHS[end - 1]}`;
+}
+function cityPrice(c) {
+  return budgetOrigin() ? pick(cityCost(c).total) / S.people : null;
+}
 function cityCard(c) {
-  const rank = cityRanking(c),
-    sights = c.items.filter((x) => x.kind === 'see').length;
-  return `<article class="citycard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}"><div class="cityimage">${photoTag(c.id)}${cityAdd(c.id, true)}${rank ? `<span class="city-rankpill">#${rank.rank} <small>${browseSort === 'arrivals' ? 'most visited' : 'tourism index'}</small></span>` : ''}</div><div class="citybody"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><p>${esc(c.tagline)}</p><small class="citymeta">${c.days} days · ${sights} sights${budgetMonth() && bestIn(c, budgetMonth()) ? ` · <span class="bestpill">${icon('sun')} Best in ${MONTHS[budgetMonth() - 1]}</span>` : ''}</small></div></article>`;
+  const best = bestLabel(c),
+    price = cityPrice(c),
+    cmp = compareIds.includes(c.id);
+  return `<article class="citycard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}"><div class="cityimage">${photoTag(c.id)}${cityAdd(c.id, true)}${best ? `<span class="city-rankpill bestmark">${icon('sun')} ${best}</span>` : ''}</div><div class="citybody"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><p>${esc(c.tagline)}</p><div class="cardfoot"><span class="cardprice">${price !== null ? `<b>About ${cash(price)}</b><small>${B().days} days${S.people > 1 ? ', each' : ''}</small>` : `<b>${c.days} days</b><small>to see it well</small>`}</span><button class="cmpbtn ${cmp ? 'on' : ''}" data-action="cmp" data-id="${c.id}" aria-pressed="${cmp}">${icon(cmp ? 'check' : 'plus')} Compare</button></div></div></article>`;
 }
 function placeCard(p) {
   const d = fromStay(p),
@@ -2942,7 +2962,7 @@ function renderCity(id, tab = 'places') {
   const r = cityRanking(c, 'tourism'),
     a = cityRanking(c, 'arrivals');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}<div class="cityfacts">${r ? `<button class="fact" data-action="ranking-method"><b>#${r.rank}</b><span>tourism index</span></button>` : ''}${a ? `<button class="fact" data-action="ranking-method"><b>#${a.rank}</b><span>most visited</span></button>` : ''}<span class="fact"><b>${c.days} days</b><span>to see it well</span></span><span class="fact"><b>${range(c.dailyBudget, c.currency)}</b><span>per person a day</span></span><span class="fact"><b>${c.bestMonths.map((m) => months[m - 1]).join(' · ')}</b><span>best months</span></span></div>${budgetPanel(c)}${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
+    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}${cityTopFive(c)}${cityGlance(c)}${budgetPanel(c)}${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
       ['places', 'Sights'],
       ['food', 'Food'],
       ['shop', 'Shopping'],
@@ -3222,14 +3242,14 @@ function renderExplore() {
   headerActive('explore');
   $('#app').innerHTML =
     `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><section class="doors"><div class="door door-search"><label for="browse-search">I have a place in mind</label><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" autocomplete="off" aria-label="Search cities, sights and dishes" placeholder="City, sight or dish"></div><div class="suggest" id="search-suggest" role="listbox" hidden></div></div><a class="door door-choose" href="#/choose"><i>${icon('compass')}</i><span><strong>Help me choose</strong><small>${CITIES.length} places, matched to your time, budget and mood</small></span>${icon('arrow')}</a></section>${choosePill()}${loopStrip()}${storyTeaser()}<div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div>${monthChips()}<div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
-      ['tourism', 'Tourism index'],
+      ['tourism', 'Most loved'],
       ['arrivals', 'Most visited'],
       ['personal', 'Japan first'],
     ]
       .map(([k, t]) => `<option value="${k}" ${browseSort === k ? 'selected' : ''}>${t}</option>`)
       .join(
         '',
-      )}</select></label><button class="inline-link" data-action="ranking-method">${icon('info')} What do the ranks mean?</button></div><div id="browse-results"></div>${vibeSection()}<div class="rowhead"><h2>Ready-made trips</h2><a href="#/trip" class="inline-link">See all ${icon('arrow')}</a></div><div class="hrow">${TEMPLATES.slice(
+      )}</select></label><button class="inline-link" data-action="ranking-method">${icon('info')} How we order places</button></div><div id="browse-results"></div>${vibeSection()}<div class="rowhead"><h2>Ready-made trips</h2><a href="#/trip" class="inline-link">See all ${icon('arrow')}</a></div><div class="hrow">${TEMPLATES.slice(
       0,
       6,
     )
@@ -3257,6 +3277,22 @@ const bestIn = (c, m) => c.bestMonths.includes(m);
 function browseOrder(list) {
   if (browseSort === 'personal') return list;
   return [...list].sort((a, b) => (cityRanking(a)?.rank ?? 1e4) - (cityRanking(b)?.rank ?? 1e4));
+}
+// The city page opens on a saveable strip of its five most popular sights.
+function cityTopFive(c) {
+  const top = topFive(c.id);
+  if (!top.length) return '';
+  return `<section class="topfive"><div class="rowhead"><h2>Top 5 in ${esc(c.name)}</h2>${top.some((p) => !saved(p.id)) ? `<button class="inline-link" data-action="save-top5" data-id="${c.id}">${icon('heart')} Save all five</button>` : ''}</div><div class="t5row">${top.map((p, i) => `<article class="t5card" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="${esc(p.name)}">${visualTag(p.id)}${saveButton(p.id)}<span class="t5n">${i + 1}</span><strong>${esc(p.name)}</strong></article>`).join('')}</div></section>`;
+}
+// Days needed, flight time and daily spend as tiles, then the twelve-month strip.
+function cityGlance(c) {
+  const f = flightHours(c),
+    o = budgetOrigin(),
+    dots = Array.from(
+      { length: Math.min(10, Math.max(c.days, 7)) },
+      (_, i) => `<i class="${i < c.days ? 'on' : ''}"></i>`,
+    ).join('');
+  return `<section class="cityglance"><div class="glance"><div class="g-tile"><label>Days needed</label><div class="daydots">${dots}</div><strong>${c.days} days</strong></div>${f ? `<div class="g-tile"><label>From ${esc(o.name)}</label><div class="g-bar"><i style="width:${f.ground ? 6 : Math.min(100, Math.round((f.h / 24) * 100))}%"></i></div><strong>${f.label}${f.ground ? '' : f.hop ? ' with a connection' : ' in the air'}</strong></div>` : ''}<div class="g-tile"><label>Each day, per person</label><strong class="g-cost">${range(c.dailyBudget, c.currency)}</strong><small>food, transport and sights</small></div></div>${yearStrip(c)}</section>`;
 }
 function cityRow(title, list, region = '') {
   return `<section class="cityrow"><div class="rowhead"><h2>${title}</h2>${region ? `<button class="inline-link" data-action="region" data-id="${region}">See all ${list.length} ${icon('arrow')}</button>` : ''}</div><div class="hrow">${list.map(cityCard).join('')}</div></section>`;
@@ -3299,7 +3335,7 @@ function renderBrowse() {
       (browseSort === 'personal'
         ? ''
         : cityRow(
-            browseSort === 'arrivals' ? 'Most visited in the world' : 'Top of the tourism index',
+            browseSort === 'arrivals' ? 'Most visited in the world' : 'Most loved worldwide',
             top,
           )) +
       regions

@@ -353,24 +353,36 @@ function budgetPanel(c) {
       .filter(([, v]) => v > 0)
       .map(([p, v]) => `<i class="seg-${p}" style="flex:${v.toFixed(0)}"></i>`)
       .join('');
-  return `<section class="citycost" data-id="${c.id}" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p><span class="stepper mini"><button data-action="bud-citydays" data-id="${c.id}" data-dir="-1" aria-label="Fewer days">−</button><strong>${x.days} days</strong><button data-action="bud-citydays" data-id="${c.id}" data-dir="1" aria-label="More days">+</button></span> · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <button class="inline-link" data-action="bud-edit">Change</button></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button>${yearStrip(c, x.days)}${cityPriceLinks(c, x.days)}</section>`;
+  return `<section class="citycost" data-id="${c.id}" aria-label="Trip cost estimate"><div class="citycost-head"><div><h3>Trip from ${esc(budgetOrigin().name)}</h3><p><span class="stepper mini"><button data-action="bud-citydays" data-id="${c.id}" data-dir="-1" aria-label="Fewer days">−</button><strong>${x.days} days</strong><button data-action="bud-citydays" data-id="${c.id}" data-dir="1" aria-label="More days">+</button></span> · ${S.people} traveller${S.people > 1 ? 's' : ''} · ${b.style === 'comfort' ? 'comfortable' : 'thrifty'} <button class="inline-link" data-action="bud-edit">Change</button></p></div><div class="citycost-total"><b>≈ ${cash(est)}</b>${budget ? `<small class="fitnote ${st}">${st === 'fit' ? `${cash(budget - est)} to spare` : `${cash(est - budget)} over budget`}</small>` : ''}</div></div><div class="costbar" aria-hidden="true">${bar}</div><ul class="costlist">${costRows(x)}</ul><button class="inline-link mathlink" data-action="bud-math" data-id="${c.id}">See the full math ${icon('arrow')}</button>${cityPriceLinks(c, x.days)}</section>`;
 }
 // Twelve bars, one per month: what this trip would cost if you left then. Tap one to price it.
-function yearStrip(c, days) {
-  const year = cityYear(c, days),
+// Twelve months at a glance: bar height is the price (once a home city is known), colour is
+// how busy the season is, and a sun marks the best months to visit.
+function yearStrip(c, days = S.days[c.id] || c.days) {
+  const o = budgetOrigin(),
+    year = o ? cityYear(c, days) : MONTHS.map((_, i) => ({ m: i + 1, est: 0 })),
     lo = Math.min(...year.map((y) => y.est)),
     hi = Math.max(...year.map((y) => y.est)),
     cheap = year.find((y) => y.est === lo),
-    dear = year.find((y) => y.est === hi),
-    m = budgetMonth();
+    m = budgetMonth(),
+    busy = { L: 'Quiet', S: 'Moderate', H: 'Busy', P: 'Very busy' };
   const bars = year
     .map((y) => {
-      const h = hi > lo ? 28 + ((y.est - lo) / (hi - lo)) * 72 : 60,
-        best = c.bestMonths.includes(y.m);
-      return `<button class="ybar ${y.m === m ? 'active' : ''} ${best ? 'best' : ''}" data-action="bud-month-pick" data-id="${y.m === m ? 0 : y.m}" aria-pressed="${y.m === m}" aria-label="${MONTHS_LONG[y.m - 1]}: about ${cash(y.est)}${best ? ', one of the best months to visit' : ''}"><i style="height:${h.toFixed(0)}%"></i><span>${MONTHS[y.m - 1][0]}</span></button>`;
+      const h = o && hi > lo ? 28 + ((y.est - lo) / (hi - lo)) * 72 : 55,
+        best = c.bestMonths.includes(y.m),
+        sn = seasonOf(c, y.m) || 'S';
+      return `<button class="ybar s-${sn} ${y.m === m ? 'active' : ''} ${best ? 'best' : ''}" data-action="bud-month-pick" data-id="${y.m === m ? 0 : y.m}" aria-pressed="${y.m === m}" aria-label="${MONTHS_LONG[y.m - 1]}: ${busy[sn].toLowerCase()}${o ? `, about ${cash(y.est)}` : ''}${best ? ', one of the best months to visit' : ''}"><em>${best ? icon('sun') : ''}</em><i style="height:${h.toFixed(0)}%"></i><span>${MONTHS[y.m - 1][0]}</span></button>`;
     })
     .join('');
-  return `<div class="yearstrip"><div class="yearstrip-head"><strong>When is it cheapest?</strong><small>Cheapest in ${MONTHS_LONG[cheap.m - 1]} (≈ ${cash(cheap.est)}), priciest in ${MONTHS_LONG[dear.m - 1]} (≈ ${cash(dear.est)})</small></div><div class="ybars" role="group" aria-label="Estimated cost by month">${bars}</div><small class="yearstrip-key"><i></i> best months to visit · tap a month to price it${m ? ` · <button class="inline-link" data-action="bud-month-pick" data-id="0">Any time</button>` : ''}</small></div>`;
+  return `<div class="yearstrip"><div class="yearstrip-head"><strong>When to go</strong><small>${o ? `Cheapest in ${MONTHS_LONG[cheap.m - 1]}, about ${cash(cheap.est)}` : 'Tap a month to plan around it'}</small></div><div class="ybars" role="group" aria-label="The year by month">${bars}</div><div class="yearstrip-key"><span>${icon('sun')} best months</span><span><i class="s-L"></i> quiet</span><span><i class="s-S"></i> moderate</span><span><i class="s-H"></i> busy</span><span><i class="s-P"></i> very busy</span>${o ? '<span>taller = pricier</span>' : ''}${m ? `<button class="inline-link" data-action="bud-month-pick" data-id="0">Any time</button>` : ''}</div></div>`;
+}
+// Rough door-to-door flying time from the home city, from the distance.
+function flightHours(c, o = budgetOrigin()) {
+  if (!o) return null;
+  const f = fareUSD(o, c);
+  if (f.ground) return { ground: true, label: 'Train or bus' };
+  const h = Math.round(f.km / 850 + 0.75 + (f.hop ? 3 : 0));
+  return { h, label: `About ${h} h`, hop: f.hop };
 }
 
 // ---------- Real prices ----------
