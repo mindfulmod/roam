@@ -78,8 +78,8 @@
       "id": "dublin-trinity-book-of-kells",
       "name": "Trinity College and the Book of Kells",
       "kind": "see",
-      "lat": 53.3438,
-      "lon": -6.2546,
+      "lat": 53.3444,
+      "lon": -6.2577,
       "wiki": "Trinity College Dublin",
       "summary": "Ireland's oldest university, home to a 9th-century illuminated gospel and the Long Room library.",
       "expect": "Timed tickets; the library's books are being removed for conservation, so check what is on show.",
@@ -125,14 +125,22 @@
         "Timed tickets; the library's books are being removed for conservation, so check what is on show.",
         "Book the earliest slot."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 253157,
+          "period": "202511-202610",
+          "title": "Trinity College Dublin",
+          "url": "https://en.wikipedia.org/wiki/Trinity_College_Dublin",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "dublin-guinness-storehouse",
       "name": "Guinness Storehouse",
       "kind": "see",
-      "lat": 53.3419,
-      "lon": -6.2867,
+      "lat": 53.34187,
+      "lon": -6.28671,
       "wiki": "Guinness Storehouse",
       "summary": "A seven-floor brewery exhibition ending with a pint in a glass-walled rooftop bar.",
       "expect": "Very busy; the rooftop bar is crowded at peak times.",
@@ -178,14 +186,22 @@
         "Very busy; the rooftop bar is crowded at peak times.",
         "Book an early slot online for a lower price."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39683,
+          "period": "202511-202610",
+          "title": "Guinness Storehouse",
+          "url": "https://en.wikipedia.org/wiki/Guinness_Storehouse",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "dublin-kilmainham-gaol",
       "name": "Kilmainham Gaol",
       "kind": "see",
-      "lat": 53.3419,
-      "lon": -6.3099,
+      "lat": 53.34167,
+      "lon": -6.30944,
       "wiki": "Kilmainham Gaol",
       "summary": "The former prison where leaders of the 1916 Rising were held and executed.",
       "expect": "Guided tours only; tickets are released 28 days ahead and sell out.",
@@ -229,14 +245,22 @@
         "Guided tours only; tickets are released 28 days ahead and sell out.",
         "Book the moment tickets are released."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65985,
+          "period": "202511-202610",
+          "title": "Kilmainham Gaol",
+          "url": "https://en.wikipedia.org/wiki/Kilmainham_Gaol",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "dublin-st-patricks-cathedral",
       "name": "St Patrick's Cathedral",
       "kind": "see",
-      "lat": 53.3395,
-      "lon": -6.2715,
+      "lat": 53.33944,
+      "lon": -6.27139,
       "wiki": "St Patrick's Cathedral, Dublin",
       "summary": "Ireland's largest cathedral, where Jonathan Swift was dean.",
       "expect": "A ticketed, working church.",
@@ -282,14 +306,22 @@
         "A ticketed, working church.",
         "Pair it with Marsh's Library next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 95295,
+          "period": "202511-202610",
+          "title": "St Patrick's Cathedral, Dublin",
+          "url": "https://en.wikipedia.org/wiki/St_Patrick's_Cathedral%2C_Dublin",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "dublin-national-museum-archaeology",
       "name": "National Museum of Ireland – Archaeology",
       "kind": "see",
-      "lat": 53.3404,
-      "lon": -6.2549,
+      "lat": 53.34028,
+      "lon": -6.255,
       "wiki": "National Museum of Ireland – Archaeology",
       "summary": "A free museum of prehistoric gold, Viking finds and preserved bog bodies.",
       "expect": "Closed on some Mondays.",
@@ -334,14 +366,22 @@
         "Closed on some Mondays.",
         "Go straight to the gold and the bog bodies."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12343,
+          "period": "202511-202610",
+          "title": "National Museum of Ireland – Archaeology",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ireland_%E2%80%93_Archaeology",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "dublin-howth-cliff-walk",
       "name": "Howth cliff walk",
       "kind": "see",
-      "lat": 53.3786,
-      "lon": -6.057,
+      "lat": 53.386,
+      "lon": -6.066,
       "wiki": "Howth",
       "summary": "A fishing village on a headland, with a cliff path and seafood on the pier.",
       "expect": "Muddy and windy after rain.",
@@ -387,15 +427,23 @@
         "Muddy and windy after rain.",
         "Take the DART train, walk the loop, then eat on the pier."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 55730,
+          "period": "202511-202610",
+          "title": "Howth",
+          "url": "https://en.wikipedia.org/wiki/Howth",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "dublin-the-brazen-head",
       "name": "The Brazen Head",
       "kind": "eat",
-      "lat": 53.345,
-      "lon": -6.2764,
+      "lat": 53.34494,
+      "lon": -6.27631,
       "wiki": "The Brazen Head",
       "summary": "Dublin's oldest pub, claiming roots in 1198, with nightly live music.",
       "expect": "Full of visitors, but friendly.",
@@ -441,7 +489,6 @@
         "Full of visitors, but friendly.",
         "Come for early dinner and stay for the music."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Irish pub",
       "mustOrder": [
@@ -459,8 +506,8 @@
       "id": "dublin-leo-burdock",
       "name": "Leo Burdock",
       "kind": "eat",
-      "lat": 53.3432,
-      "lon": -6.2706,
+      "lat": 53.34528,
+      "lon": -6.26273,
       "wiki": "Fish and chips",
       "summary": "Dublin's oldest fish-and-chip shop, open since 1913.",
       "expect": "Takeaway only at the original shop.",
@@ -505,7 +552,6 @@
         "Takeaway only at the original shop.",
         "Eat in the grounds of Christ Church or St Patrick's nearby."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Fish and chips",
       "mustOrder": [
@@ -522,8 +568,8 @@
       "id": "dublin-the-woollen-mills",
       "name": "The Woollen Mills",
       "kind": "eat",
-      "lat": 53.3464,
-      "lon": -6.2634,
+      "lat": 53.3461,
+      "lon": -6.263,
       "wiki": "Ha'penny Bridge",
       "summary": "A modern Irish eating house beside the Ha'penny Bridge, with its own bakery.",
       "expect": "Busy at brunch.",
@@ -567,7 +613,6 @@
         "Busy at brunch.",
         "Ask for a window or rooftop table."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Modern Irish",
       "mustOrder": [
@@ -585,8 +630,8 @@
       "id": "dublin-the-cobblestone",
       "name": "The Cobblestone",
       "kind": "eat",
-      "lat": 53.3493,
-      "lon": -6.2783,
+      "lat": 53.34861,
+      "lon": -6.27833,
       "wiki": "Smithfield, Dublin",
       "summary": "A plain pub famous for nightly traditional music sessions.",
       "expect": "Standing room only later on; drinks, not food.",
@@ -631,7 +676,6 @@
         "Standing room only later on; drinks, not food.",
         "Arrive before 7 pm for a seat near the musicians."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Traditional music pub",
       "mustOrder": [
@@ -645,5 +689,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

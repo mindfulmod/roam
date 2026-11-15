@@ -90,8 +90,8 @@
       "id": "madrid-prado-museum",
       "name": "Prado Museum",
       "kind": "see",
-      "lat": 40.4138,
-      "lon": -3.6921,
+      "lat": 40.4139,
+      "lon": -3.6922,
       "wiki": "Museo del Prado",
       "summary": "Spain's national art museum: Velázquez, Goya, El Greco and Bosch.",
       "expect": "A huge collection; without a plan the visit becomes tiring.",
@@ -136,14 +136,22 @@
         "A huge collection; without a plan the visit becomes tiring.",
         "Book a timed ticket and pick 15 works; the last two hours are free but crowded."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 173147,
+          "period": "202511-202610",
+          "title": "Museo del Prado",
+          "url": "https://en.wikipedia.org/wiki/Museo_del_Prado",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "madrid-royal-palace-of-madrid",
       "name": "Royal Palace of Madrid",
       "kind": "see",
-      "lat": 40.418,
-      "lon": -3.7143,
+      "lat": 40.41806,
+      "lon": -3.71417,
       "wiki": "Royal Palace of Madrid",
       "summary": "The largest royal palace in western Europe, with state rooms, an armoury and a grand staircase.",
       "expect": "Security queues and occasional closures for state events.",
@@ -189,14 +197,22 @@
         "Security queues and occasional closures for state events.",
         "Check the closure calendar and book the first slot."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 165281,
+          "period": "202511-202610",
+          "title": "Royal Palace of Madrid",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Madrid",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "madrid-retiro-park",
       "name": "Retiro Park",
       "kind": "see",
-      "lat": 40.4153,
-      "lon": -3.6845,
+      "lat": 40.415,
+      "lon": -3.68389,
       "wiki": "Parque del Buen Retiro, Madrid",
       "summary": "The city's central park, with a boating lake, rose garden and the glass Crystal Palace.",
       "expect": "Lively at weekends, with buskers and families.",
@@ -241,14 +257,22 @@
         "Lively at weekends, with buskers and families.",
         "Rent a rowing boat early, then walk to the Crystal Palace."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4308,
+          "period": "202511-202610",
+          "title": "Parque del Buen Retiro",
+          "url": "https://en.wikipedia.org/wiki/Parque_del_Buen_Retiro",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "madrid-reina-sofia-museum",
       "name": "Reina Sofía Museum",
       "kind": "see",
       "lat": 40.4086,
-      "lon": -3.6943,
+      "lon": -3.694,
       "wiki": "Museo Nacional Centro de Arte Reina Sofía",
       "summary": "Modern Spanish art, centred on Picasso's Guernica, with Dalí and Miró.",
       "expect": "A crowd around Guernica; no photos in that room.",
@@ -293,14 +317,22 @@
         "A crowd around Guernica; no photos in that room.",
         "Go straight to the second floor for Guernica, then explore."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 60809,
+          "period": "202511-202610",
+          "title": "Museo Nacional Centro de Arte Reina Sofía",
+          "url": "https://en.wikipedia.org/wiki/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "madrid-plaza-mayor",
       "name": "Plaza Mayor and Puerta del Sol",
       "kind": "see",
-      "lat": 40.4155,
-      "lon": -3.7074,
+      "lat": 40.41536,
+      "lon": -3.70739,
       "wiki": "Plaza Mayor, Madrid",
       "summary": "The arcaded 17th-century main square and the busy crossroads beside it.",
       "expect": "Tourist-priced café terraces on the square itself.",
@@ -345,14 +377,22 @@
         "Tourist-priced café terraces on the square itself.",
         "Look, then eat in the side streets or the nearby market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 56734,
+          "period": "202511-202610",
+          "title": "Plaza Mayor, Madrid",
+          "url": "https://en.wikipedia.org/wiki/Plaza_Mayor%2C_Madrid",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "madrid-toledo",
       "name": "Toledo",
       "kind": "see",
-      "lat": 39.8628,
-      "lon": -4.0273,
+      "lat": 39.85667,
+      "lon": -4.02444,
       "wiki": "Toledo, Spain",
       "summary": "A hilltop former capital of churches, synagogues and mosques, half an hour away by fast train.",
       "expect": "Steep lanes and many day-trippers at midday.",
@@ -398,15 +438,23 @@
         "Steep lanes and many day-trippers at midday.",
         "Book the train both ways; they sell out at weekends."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 273433,
+          "period": "202511-202610",
+          "title": "Toledo, Spain",
+          "url": "https://en.wikipedia.org/wiki/Toledo%2C_Spain",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "madrid-chocolateria-san-gines",
       "name": "Chocolatería San Ginés",
       "kind": "eat",
-      "lat": 40.4167,
-      "lon": -3.7069,
+      "lat": 40.41667,
+      "lon": -3.70694,
       "wiki": "Chocolatería San Ginés",
       "summary": "Churros and thick hot chocolate, served almost around the clock since 1894.",
       "expect": "A queue that moves quickly; several rooms.",
@@ -451,7 +499,6 @@
         "A queue that moves quickly; several rooms.",
         "Come late at night or mid-afternoon for a shorter wait."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Churros café",
       "mustOrder": [
@@ -468,8 +515,8 @@
       "id": "madrid-sobrino-de-botin",
       "name": "Sobrino de Botín",
       "kind": "eat",
-      "lat": 40.4141,
-      "lon": -3.708,
+      "lat": 40.4142,
+      "lon": -3.70796,
       "wiki": "Sobrino de Botín",
       "summary": "Listed as the world's oldest restaurant (1725), roasting suckling pig in the original wood oven.",
       "expect": "A tourist favourite; the food is traditional and rich.",
@@ -515,7 +562,6 @@
         "A tourist favourite; the food is traditional and rich.",
         "Book well ahead and ask for the cellar dining room."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Castilian roast house",
       "mustOrder": [
@@ -533,8 +579,8 @@
       "id": "madrid-mercado-de-san-miguel",
       "name": "Mercado de San Miguel",
       "kind": "eat",
-      "lat": 40.4154,
-      "lon": -3.709,
+      "lat": 40.41544,
+      "lon": -3.70887,
       "wiki": "Mercado de San Miguel",
       "summary": "An iron-and-glass market hall of tapas, seafood and vermouth counters.",
       "expect": "Crowded and pricier than neighbourhood bars.",
@@ -579,7 +625,6 @@
         "Crowded and pricier than neighbourhood bars.",
         "Treat it as a quick tasting stop, not dinner."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Tapas market",
       "mustOrder": [
@@ -598,8 +643,8 @@
       "id": "madrid-casa-lucio",
       "name": "Casa Lucio",
       "kind": "eat",
-      "lat": 40.4127,
-      "lon": -3.7093,
+      "lat": 40.41209,
+      "lon": -3.70967,
       "wiki": "Cava Baja",
       "summary": "A classic tavern on Cava Baja famous for huevos rotos, broken eggs over fried potatoes.",
       "expect": "Old-school service and a dining room full of regulars.",
@@ -643,7 +688,6 @@
         "Old-school service and a dining room full of regulars.",
         "Reserve, or tapas-hop the rest of Cava Baja instead."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Traditional Madrid tavern",
       "mustOrder": [
@@ -657,5 +701,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

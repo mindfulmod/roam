@@ -113,14 +113,22 @@
         "A short queue for the lift.",
         "Go up near sunset for the coloured rooftops."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 131690,
+          "period": "202511-202610",
+          "title": "Hallgrímskirkja",
+          "url": "https://en.wikipedia.org/wiki/Hallgr%C3%ADmskirkja",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "reykjavik-harpa-sun-voyager",
       "name": "Harpa and the Sun Voyager",
       "kind": "see",
-      "lat": 64.1505,
-      "lon": -21.9327,
+      "lat": 64.15028,
+      "lon": -21.9325,
       "wiki": "Harpa (concert hall)",
       "summary": "A glass honeycomb concert hall, with a steel ship sculpture a short walk along the shore.",
       "expect": "Free to enter the foyer.",
@@ -165,7 +173,15 @@
         "Free to enter the foyer.",
         "Walk the seafront between the two around sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30406,
+          "period": "202511-202610",
+          "title": "Harpa (concert hall)",
+          "url": "https://en.wikipedia.org/wiki/Harpa_(concert_hall)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "reykjavik-golden-circle",
@@ -219,14 +235,23 @@
         "Drive it yourself, starting early or late."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 28022,
+          "period": "202511-202610",
+          "title": "Golden Circle (Iceland)",
+          "url": "https://en.wikipedia.org/wiki/Golden_Circle_(Iceland)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "reykjavik-blue-lagoon",
       "name": "Blue Lagoon",
       "kind": "see",
-      "lat": 63.8804,
-      "lon": -22.4495,
+      "lat": 63.88,
+      "lon": -22.44806,
       "wiki": "Blue Lagoon (geothermal spa)",
       "summary": "A milky-blue geothermal spa in a lava field near the airport.",
       "expect": "Expensive, and sometimes closed by volcanic activity nearby.",
@@ -271,15 +296,23 @@
         "Expensive, and sometimes closed by volcanic activity nearby.",
         "Book for your arrival or departure day, and check its status first."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 56731,
+          "period": "202511-202610",
+          "title": "Blue Lagoon (geothermal spa)",
+          "url": "https://en.wikipedia.org/wiki/Blue_Lagoon_(geothermal_spa)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "reykjavik-south-coast",
       "name": "South Coast waterfalls and black sand beach",
       "kind": "see",
-      "lat": 63.5321,
-      "lon": -19.5114,
+      "lat": 63.53211,
+      "lon": -19.51114,
       "wiki": "Skógafoss",
       "summary": "A long day to Seljalandsfoss and Skógafoss waterfalls and Reynisfjara black sand beach.",
       "expect": "About 370 km return; dangerous waves at Reynisfjara.",
@@ -325,8 +358,16 @@
         "About 370 km return; dangerous waves at Reynisfjara.",
         "Stay far from the water at Reynisfjara and bring waterproofs for the falls."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 32439,
+          "period": "202511-202610",
+          "title": "Skógafoss",
+          "url": "https://en.wikipedia.org/wiki/Sk%C3%B3gafoss",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "reykjavik-northern-lights",
@@ -379,14 +420,23 @@
         "Check the aurora and cloud forecast; tours usually offer a free retry."
       ],
       "pinApproximate": true,
-      "optional": true
+      "optional": true,
+      "signals": {
+        "wikipedia": {
+          "views": 818972,
+          "period": "202511-202610",
+          "title": "Aurora",
+          "url": "https://en.wikipedia.org/wiki/Aurora",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "reykjavik-b-jarins-beztu-pylsur",
       "name": "Bæjarins Beztu Pylsur",
       "kind": "eat",
-      "lat": 64.1484,
-      "lon": -21.9383,
+      "lat": 64.14806,
+      "lon": -21.93778,
       "wiki": "Bæjarins Beztu Pylsur",
       "summary": "A hot dog stand that has served lamb-based hot dogs since 1937.",
       "expect": "A short queue at an outdoor stand.",
@@ -430,7 +480,6 @@
         "A short queue at an outdoor stand.",
         "Order 'eina með öllu', one with everything."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Icelandic hot dogs",
       "mustOrder": [
@@ -510,8 +559,8 @@
       "id": "reykjavik-cafe-loki",
       "name": "Café Loki",
       "kind": "eat",
-      "lat": 64.142,
-      "lon": -21.9272,
+      "lat": 64.14243,
+      "lon": -21.92885,
       "wiki": "Icelandic cuisine",
       "summary": "A family café serving traditional home cooking opposite the church.",
       "expect": "Simple food; busy at lunch.",
@@ -555,7 +604,6 @@
         "Simple food; busy at lunch.",
         "Try the rye bread ice cream."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Traditional Icelandic",
       "mustOrder": [
@@ -569,5 +617,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

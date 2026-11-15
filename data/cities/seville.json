@@ -137,14 +137,23 @@
         "Timed tickets that sell out days ahead in spring.",
         "Book the first slot online and bring ID that matches the ticket."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 144563,
+          "period": "202511-202610",
+          "title": "Alcázar of Seville",
+          "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_of_Seville",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "seville-cathedral-giralda",
       "name": "Seville Cathedral and Giralda",
       "kind": "see",
-      "lat": 37.3858,
-      "lon": -5.9931,
+      "lat": 37.38589,
+      "lon": -5.99306,
       "wiki": "Seville Cathedral",
       "summary": "The world's largest Gothic cathedral, with a former minaret you climb by ramp.",
       "expect": "Queues without a timed ticket; shoulders and knees covered.",
@@ -191,14 +200,22 @@
         "Queues without a timed ticket; shoulders and knees covered.",
         "Book online; the Giralda's 35 ramps are easier than stairs."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 164575,
+          "period": "202511-202610",
+          "title": "Seville Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Seville_Cathedral",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "seville-plaza-de-espana",
       "name": "Plaza de España",
       "kind": "see",
-      "lat": 37.3772,
-      "lon": -5.9869,
+      "lat": 37.37694,
+      "lon": -5.98694,
       "wiki": "Plaza de España, Seville",
       "summary": "A sweeping 1929 semicircle of brick, bridges and tiled alcoves for each Spanish province.",
       "expect": "Open and sunny, with little shade at midday.",
@@ -243,14 +260,22 @@
         "Open and sunny, with little shade at midday.",
         "Visit early or near sunset and continue into María Luisa Park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 104537,
+          "period": "202511-202610",
+          "title": "Plaza de España, Seville",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_Espa%C3%B1a%2C_Seville",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "seville-barrio-santa-cruz",
       "name": "Barrio Santa Cruz",
       "kind": "see",
-      "lat": 37.3853,
-      "lon": -5.9893,
+      "lat": 37.385,
+      "lon": -5.99028,
       "wiki": "Santa Cruz, Seville",
       "summary": "The old Jewish quarter: whitewashed lanes, tiny squares and hidden patios.",
       "expect": "Easy to get lost, and busy with tour groups mid-morning.",
@@ -295,14 +320,22 @@
         "Easy to get lost, and busy with tour groups mid-morning.",
         "Wander in the evening when the day-trippers have gone."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5403,
+          "period": "202511-202610",
+          "title": "Santa Cruz, Seville",
+          "url": "https://en.wikipedia.org/wiki/Santa_Cruz%2C_Seville",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "seville-metropol-parasol",
       "name": "Metropol Parasol (Las Setas)",
       "kind": "see",
-      "lat": 37.3933,
-      "lon": -5.9917,
+      "lat": 37.39325,
+      "lon": -5.99188,
       "wiki": "Metropol Parasol",
       "summary": "A giant wooden canopy with a rooftop walkway over the old town.",
       "expect": "A short visit; the walkway is ticketed.",
@@ -347,14 +380,22 @@
         "A short visit; the walkway is ticketed.",
         "Go at sunset and stay for the lights after dark."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 54411,
+          "period": "202511-202610",
+          "title": "Metropol Parasol",
+          "url": "https://en.wikipedia.org/wiki/Metropol_Parasol",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "seville-triana",
       "name": "Triana",
       "kind": "see",
-      "lat": 37.3838,
-      "lon": -6.0027,
+      "lat": 37.38345,
+      "lon": -6.00407,
       "wiki": "Triana, Seville",
       "summary": "The potters' and flamenco quarter across the river, with a market and ceramic workshops.",
       "expect": "A local feel; workshops close for the afternoon break.",
@@ -400,14 +441,22 @@
         "A local feel; workshops close for the afternoon break.",
         "Cross Isabel II Bridge in the morning for the market, or at dusk for riverside bars."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12495,
+          "period": "202511-202610",
+          "title": "Triana, Seville",
+          "url": "https://en.wikipedia.org/wiki/Triana%2C_Seville",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "seville-el-rinconcillo",
       "name": "El Rinconcillo",
       "kind": "eat",
-      "lat": 37.3936,
-      "lon": -5.9879,
+      "lat": 37.39334,
+      "lon": -5.98829,
       "wiki": "El Rinconcillo",
       "summary": "Seville's oldest bar (1670), where waiters chalk your bill on the wooden counter.",
       "expect": "Standing room at the bar; tables are in a separate dining room.",
@@ -453,7 +502,6 @@
         "Standing room at the bar; tables are in a separate dining room.",
         "Stand at the bar for the full experience."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Andalusian tapas",
       "mustOrder": [
@@ -472,8 +520,8 @@
       "id": "seville-bodega-santa-cruz",
       "name": "Bodega Santa Cruz (Las Columnas)",
       "kind": "eat",
-      "lat": 37.3862,
-      "lon": -5.9906,
+      "lat": 37.38604,
+      "lon": -5.99077,
       "wiki": "Tapas",
       "summary": "A crowded, cheap tapas bar near the cathedral with orders shouted over the counter.",
       "expect": "Noise, elbows and no table service.",
@@ -517,7 +565,6 @@
         "Noise, elbows and no table service.",
         "Order at the bar and take plates to the street tables."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Andalusian tapas",
       "mustOrder": [
@@ -600,8 +647,8 @@
       "id": "seville-eslava",
       "name": "Eslava",
       "kind": "eat",
-      "lat": 37.3975,
-      "lon": -5.9967,
+      "lat": 37.39755,
+      "lon": -5.99692,
       "wiki": "Andalusian cuisine",
       "summary": "A popular tapas bar known for inventive, prize-winning small plates.",
       "expect": "A wait for the bar; it does not take bookings for tapas.",
@@ -645,7 +692,6 @@
         "A wait for the bar; it does not take bookings for tapas.",
         "Arrive right at opening."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Modern Andalusian tapas",
       "mustOrder": [
@@ -659,5 +705,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

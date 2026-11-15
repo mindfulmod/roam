@@ -78,8 +78,8 @@
       "id": "edinburgh-edinburgh-castle",
       "name": "Edinburgh Castle",
       "kind": "see",
-      "lat": 55.9486,
-      "lon": -3.1999,
+      "lat": 55.94861,
+      "lon": -3.20083,
       "wiki": "Edinburgh Castle",
       "summary": "A fortress on a volcanic crag, holding Scotland's crown jewels and the Stone of Destiny.",
       "expect": "Timed tickets that sell out in summer; windy and exposed.",
@@ -125,14 +125,22 @@
         "Timed tickets that sell out in summer; windy and exposed.",
         "Book the first slot and be there for the One o'Clock Gun."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 245031,
+          "period": "202511-202610",
+          "title": "Edinburgh Castle",
+          "url": "https://en.wikipedia.org/wiki/Edinburgh_Castle",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "edinburgh-royal-mile",
       "name": "Royal Mile and St Giles' Cathedral",
       "kind": "see",
-      "lat": 55.9495,
-      "lon": -3.1909,
+      "lat": 55.95056,
+      "lon": -3.18556,
       "wiki": "Royal Mile",
       "summary": "The spine of the Old Town from castle to palace, with narrow closes branching off.",
       "expect": "Souvenir shops and street performers on the main stretch.",
@@ -177,14 +185,22 @@
         "Souvenir shops and street performers on the main stretch.",
         "Duck into the closes and courtyards on either side."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 74761,
+          "period": "202511-202610",
+          "title": "Royal Mile",
+          "url": "https://en.wikipedia.org/wiki/Royal_Mile",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "edinburgh-arthurs-seat",
       "name": "Arthur's Seat",
       "kind": "see",
-      "lat": 55.9441,
-      "lon": -3.1618,
+      "lat": 55.94417,
+      "lon": -3.16194,
       "wiki": "Arthur's Seat",
       "summary": "An extinct volcano in the middle of the city, with a 251-metre summit.",
       "expect": "A real hill walk of 45 to 60 minutes up; rocky and windy on top.",
@@ -230,14 +246,22 @@
         "A real hill walk of 45 to 60 minutes up; rocky and windy on top.",
         "Wear proper shoes and take the gentler path from Dunsapie Loch if unsure."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 183285,
+          "period": "202511-202610",
+          "title": "Arthur's Seat",
+          "url": "https://en.wikipedia.org/wiki/Arthur's_Seat",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "edinburgh-national-museum-of-scotland",
       "name": "National Museum of Scotland",
       "kind": "see",
-      "lat": 55.947,
-      "lon": -3.1892,
+      "lat": 55.94694,
+      "lon": -3.19,
       "wiki": "National Museum of Scotland",
       "summary": "A free museum covering Scottish history, science and nature, with a rooftop terrace.",
       "expect": "Large; easy to spend half a day here.",
@@ -283,14 +307,22 @@
         "Large; easy to spend half a day here.",
         "Good for a rainy day; don't miss the roof terrace view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37037,
+          "period": "202511-202610",
+          "title": "National Museum of Scotland",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Scotland",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "edinburgh-calton-hill",
       "name": "Calton Hill",
       "kind": "see",
-      "lat": 55.9553,
-      "lon": -3.1828,
+      "lat": 55.95528,
+      "lon": -3.18222,
       "wiki": "Calton Hill",
       "summary": "A low hill of monuments with a classic skyline view of the castle and Old Town.",
       "expect": "A five-minute climb; busy at sunset.",
@@ -335,14 +367,22 @@
         "A five-minute climb; busy at sunset.",
         "Go at sunset or sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42523,
+          "period": "202511-202610",
+          "title": "Calton Hill",
+          "url": "https://en.wikipedia.org/wiki/Calton_Hill",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "edinburgh-palace-of-holyroodhouse",
       "name": "Palace of Holyroodhouse",
       "kind": "see",
-      "lat": 55.9527,
-      "lon": -3.1723,
+      "lat": 55.9525,
+      "lon": -3.1725,
       "wiki": "Holyrood Palace",
       "summary": "The monarch's official residence in Scotland, with Mary, Queen of Scots' chambers and a ruined abbey.",
       "expect": "Closed during royal visits.",
@@ -387,14 +427,22 @@
         "Closed during royal visits.",
         "Check opening dates and use the included audio guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 149101,
+          "period": "202511-202610",
+          "title": "Holyrood Palace",
+          "url": "https://en.wikipedia.org/wiki/Holyrood_Palace",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "edinburgh-the-witchery-by-the-castle",
       "name": "The Witchery by the Castle",
       "kind": "eat",
-      "lat": 55.9489,
-      "lon": -3.1956,
+      "lat": 55.95056,
+      "lon": -3.18556,
       "wiki": "Castlehill, Edinburgh",
       "summary": "A candlelit, oak-panelled dining room at the castle gates.",
       "expect": "High prices; the set lunch is better value.",
@@ -439,7 +487,6 @@
         "High prices; the set lunch is better value.",
         "Book the lunch menu well ahead."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Scottish fine dining",
       "mustOrder": [
@@ -457,8 +504,8 @@
       "id": "edinburgh-oink",
       "name": "Oink",
       "kind": "eat",
-      "lat": 55.9485,
-      "lon": -3.1936,
+      "lat": 55.94859,
+      "lon": -3.19425,
       "wiki": "Hog roast",
       "summary": "A tiny shop selling hog roast rolls carved from the pig in the window.",
       "expect": "Sells out by late afternoon.",
@@ -502,7 +549,6 @@
         "Sells out by late afternoon.",
         "Add haggis and apple sauce."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Scottish hog roast",
       "mustOrder": [
@@ -519,8 +565,8 @@
       "id": "edinburgh-the-scran-and-scallie",
       "name": "The Scran & Scallie",
       "kind": "eat",
-      "lat": 55.9585,
-      "lon": -3.2108,
+      "lat": 55.95972,
+      "lon": -3.20861,
       "wiki": "Stockbridge, Edinburgh",
       "summary": "A gastropub from chef Tom Kitchin, serving Scottish classics.",
       "expect": "Popular for Sunday roast; book.",
@@ -564,7 +610,6 @@
         "Popular for Sunday roast; book.",
         "Combine with a walk along the Water of Leith."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Scottish gastropub",
       "mustOrder": [
@@ -584,7 +629,7 @@
       "name": "Grassmarket pubs",
       "kind": "eat",
       "lat": 55.9475,
-      "lon": -3.1965,
+      "lon": -3.19611,
       "wiki": "Grassmarket",
       "summary": "A historic square below the castle lined with old pubs and terraces.",
       "expect": "Rowdy on weekend nights.",
@@ -629,7 +674,6 @@
         "Rowdy on weekend nights.",
         "Go in the afternoon for a pub lunch with a castle view."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Scottish pub food",
       "mustOrder": [
@@ -644,5 +688,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

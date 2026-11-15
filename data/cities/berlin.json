@@ -130,14 +130,22 @@
         "A quick stop that is always busy.",
         "Come at sunrise or after dark, and walk on to the Holocaust Memorial."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 336705,
+          "period": "202511-202610",
+          "title": "Brandenburg Gate",
+          "url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "berlin-reichstag-dome",
       "name": "Reichstag Dome",
       "kind": "see",
-      "lat": 52.5186,
-      "lon": 13.3762,
+      "lat": 52.51861,
+      "lon": 13.37611,
       "wiki": "Reichstag building",
       "summary": "The German parliament, topped by a glass dome with a spiral ramp and free audio guide.",
       "expect": "Free, but advance registration with passport details is required.",
@@ -183,14 +191,22 @@
         "Free, but advance registration with passport details is required.",
         "Register online weeks ahead and bring the same ID."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 310414,
+          "period": "202511-202610",
+          "title": "Reichstag building",
+          "url": "https://en.wikipedia.org/wiki/Reichstag_building",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "berlin-holocaust-memorial",
       "name": "Memorial to the Murdered Jews of Europe",
       "kind": "see",
-      "lat": 52.5139,
-      "lon": 13.3787,
+      "lat": 52.51389,
+      "lon": 13.37861,
       "wiki": "Memorial to the Murdered Jews of Europe",
       "summary": "A field of 2,711 concrete blocks, with an underground information centre.",
       "expect": "A sombre place; the centre has security checks and closes on Mondays.",
@@ -234,14 +250,22 @@
         "A sombre place; the centre has security checks and closes on Mondays.",
         "Walk into the middle of the field, then visit the centre below."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 141823,
+          "period": "202511-202610",
+          "title": "Memorial to the Murdered Jews of Europe",
+          "url": "https://en.wikipedia.org/wiki/Memorial_to_the_Murdered_Jews_of_Europe",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "berlin-museum-island",
       "name": "Museum Island and the Neues Museum",
       "kind": "see",
-      "lat": 52.5169,
-      "lon": 13.4019,
+      "lat": 52.52139,
+      "lon": 13.39556,
       "wiki": "Museum Island",
       "summary": "Five museums on a river island; the Neues Museum holds the bust of Nefertiti.",
       "expect": "The Pergamon Museum is closed for long-term renovation; check which halls are open.",
@@ -287,14 +311,22 @@
         "The Pergamon Museum is closed for long-term renovation; check which halls are open.",
         "Pick one or two museums; a day ticket covers all that are open."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 59193,
+          "period": "202511-202610",
+          "title": "Museum Island",
+          "url": "https://en.wikipedia.org/wiki/Museum_Island",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "berlin-east-side-gallery",
       "name": "East Side Gallery",
       "kind": "see",
-      "lat": 52.505,
-      "lon": 13.4397,
+      "lat": 52.50445,
+      "lon": 13.44084,
       "wiki": "East Side Gallery",
       "summary": "The longest surviving stretch of the Berlin Wall, painted with murals in 1990.",
       "expect": "A roadside walk of 1.3 km with selfie crowds at the famous panels.",
@@ -339,14 +371,22 @@
         "A roadside walk of 1.3 km with selfie crowds at the famous panels.",
         "Start at Ostbahnhof and finish at the Oberbaum Bridge."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 35062,
+          "period": "202511-202610",
+          "title": "East Side Gallery",
+          "url": "https://en.wikipedia.org/wiki/East_Side_Gallery",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "berlin-berlin-wall-memorial",
       "name": "Berlin Wall Memorial",
       "kind": "see",
       "lat": 52.535,
-      "lon": 13.3903,
+      "lon": 13.38972,
       "wiki": "Berlin Wall Memorial",
       "summary": "A preserved section of the border strip with a watchtower, viewing platform and documentation centre.",
       "expect": "Outdoor panels over several blocks; indoor centres close on Mondays.",
@@ -390,14 +430,22 @@
         "Outdoor panels over several blocks; indoor centres close on Mondays.",
         "Climb the viewing platform to see the death strip from above."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7230,
+          "period": "202511-202610",
+          "title": "Gedenkstätte Berliner Mauer",
+          "url": "https://en.wikipedia.org/wiki/Gedenkst%C3%A4tte_Berliner_Mauer",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "berlin-mustafas-gemuse-kebap",
       "name": "Mustafa's Gemüse Kebap",
       "kind": "eat",
-      "lat": 52.4936,
-      "lon": 13.388,
+      "lat": 52.49345,
+      "lon": 13.38852,
       "wiki": "Doner kebab",
       "summary": "A famous kiosk for chicken döner with roasted vegetables, feta and lemon.",
       "expect": "Queues of 30 minutes or more.",
@@ -441,7 +489,6 @@
         "Queues of 30 minutes or more.",
         "Go mid-afternoon on a weekday, or try a neighbourhood döner shop instead."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Turkish-German street food",
       "mustOrder": [
@@ -458,8 +505,8 @@
       "id": "berlin-curry-36",
       "name": "Curry 36",
       "kind": "eat",
-      "lat": 52.4935,
-      "lon": 13.3878,
+      "lat": 52.49349,
+      "lon": 13.38769,
       "wiki": "Currywurst",
       "summary": "A stand-up snack bar that is the reference point for Berlin currywurst.",
       "expect": "Standing tables on the pavement.",
@@ -503,7 +550,6 @@
         "Standing tables on the pavement.",
         "Order it 'ohne Darm' (without skin) with fries and mayonnaise."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "German snack bar",
       "mustOrder": [
@@ -646,5 +692,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

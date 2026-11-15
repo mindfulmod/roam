@@ -83,8 +83,8 @@
       "id": "krakow-main-market-square",
       "name": "Main Market Square",
       "kind": "see",
-      "lat": 50.0617,
-      "lon": 19.9373,
+      "lat": 50.06167,
+      "lon": 19.93722,
       "wiki": "Main Square, Kraków",
       "summary": "Europe's largest medieval square, with the Cloth Hall and St. Mary's Basilica.",
       "expect": "Pricey terraces and horse carriages.",
@@ -129,14 +129,22 @@
         "Pricey terraces and horse carriages.",
         "Listen for the trumpet call from St. Mary's tower on the hour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27693,
+          "period": "202511-202610",
+          "title": "Main Square, Kraków",
+          "url": "https://en.wikipedia.org/wiki/Main_Square%2C_Krak%C3%B3w",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "krakow-wawel",
       "name": "Wawel Castle and Cathedral",
       "kind": "see",
-      "lat": 50.0541,
-      "lon": 19.9354,
+      "lat": 50.05389,
+      "lon": 19.93472,
       "wiki": "Wawel Castle",
       "summary": "The hilltop seat of Polish kings, with a Renaissance courtyard and the coronation cathedral.",
       "expect": "Separate tickets for each exhibition, with limited numbers per day.",
@@ -182,14 +190,22 @@
         "Separate tickets for each exhibition, with limited numbers per day.",
         "Book the state rooms online; the grounds are free."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 95993,
+          "period": "202511-202610",
+          "title": "Wawel Castle",
+          "url": "https://en.wikipedia.org/wiki/Wawel_Castle",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "krakow-kazimierz",
       "name": "Kazimierz",
       "kind": "see",
-      "lat": 50.0515,
-      "lon": 19.9449,
+      "lat": 50.05167,
+      "lon": 19.94472,
       "wiki": "Kazimierz",
       "summary": "The historic Jewish quarter: synagogues, courtyards, cafés and nightlife.",
       "expect": "Quiet by day and lively late.",
@@ -235,14 +251,22 @@
         "Quiet by day and lively late.",
         "Visit the Old Synagogue and Remuh cemetery, then come back for dinner."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22539,
+          "period": "202511-202610",
+          "title": "Kazimierz",
+          "url": "https://en.wikipedia.org/wiki/Kazimierz",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "krakow-oskar-schindlers-enamel-factory",
       "name": "Oskar Schindler's Enamel Factory",
       "kind": "see",
       "lat": 50.0474,
-      "lon": 19.9617,
+      "lon": 19.96175,
       "wiki": "Oskar Schindler's Enamel Factory",
       "summary": "A museum of Kraków under Nazi occupation, in Schindler's former factory.",
       "expect": "Timed tickets that sell out; emotionally heavy.",
@@ -286,14 +310,22 @@
         "Timed tickets that sell out; emotionally heavy.",
         "Book online several days ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42694,
+          "period": "202511-202610",
+          "title": "Oskar Schindler's Enamel Factory",
+          "url": "https://en.wikipedia.org/wiki/Oskar_Schindler's_Enamel_Factory",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "krakow-auschwitz-birkenau-memorial",
       "name": "Auschwitz-Birkenau Memorial",
       "kind": "see",
-      "lat": 50.0343,
-      "lon": 19.21,
+      "lat": 50.03583,
+      "lon": 19.17833,
       "wiki": "Auschwitz concentration camp",
       "summary": "The preserved Nazi camp where over a million people were murdered, 70 km west of the city.",
       "expect": "A long, sobering day; entry needs a booked, named pass.",
@@ -337,15 +369,23 @@
         "A long, sobering day; entry needs a booked, named pass.",
         "Reserve through the official site months ahead, or join a tour with transport."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1263541,
+          "period": "202511-202610",
+          "title": "Auschwitz concentration camp",
+          "url": "https://en.wikipedia.org/wiki/Auschwitz_concentration_camp",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "krakow-wieliczka-salt-mine",
       "name": "Wieliczka Salt Mine",
       "kind": "see",
-      "lat": 49.9833,
-      "lon": 20.0556,
+      "lat": 49.97917,
+      "lon": 20.06389,
       "wiki": "Wieliczka Salt Mine",
       "summary": "A medieval mine with chapels, lakes and chandeliers carved from salt, 135 metres down.",
       "expect": "800 steps on a guided route of about 3 km; cool underground.",
@@ -391,8 +431,16 @@
         "800 steps on a guided route of about 3 km; cool underground.",
         "Take the train from the main station and bring a layer."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 174017,
+          "period": "202511-202610",
+          "title": "Wieliczka Salt Mine",
+          "url": "https://en.wikipedia.org/wiki/Wieliczka_Salt_Mine",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "krakow-plac-nowy-zapiekanki",
@@ -460,8 +508,8 @@
       "id": "krakow-pod-aniolami",
       "name": "Pod Aniołami",
       "kind": "eat",
-      "lat": 50.0577,
-      "lon": 19.9383,
+      "lat": 50.05825,
+      "lon": 19.93785,
       "wiki": "Polish cuisine",
       "summary": "A cellar restaurant on Grodzka Street grilling meats over beech wood.",
       "expect": "Hearty portions; popular with visitors.",
@@ -506,7 +554,6 @@
         "Hearty portions; popular with visitors.",
         "Reserve for dinner and ask for the vaulted cellar."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Traditional Polish",
       "mustOrder": [
@@ -585,5 +632,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

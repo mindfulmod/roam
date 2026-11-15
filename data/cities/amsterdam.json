@@ -84,7 +84,7 @@
       "name": "Rijksmuseum",
       "kind": "see",
       "lat": 52.36,
-      "lon": 4.8852,
+      "lon": 4.8853,
       "wiki": "Rijksmuseum",
       "summary": "The national museum, home to Rembrandt's Night Watch and Vermeer's Milkmaid.",
       "expect": "Timed entry and crowds in the Gallery of Honour.",
@@ -129,13 +129,21 @@
         "Timed entry and crowds in the Gallery of Honour.",
         "Book the first slot and go straight to the second floor."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 133012,
+          "period": "202511-202610",
+          "title": "Rijksmuseum",
+          "url": "https://en.wikipedia.org/wiki/Rijksmuseum",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amsterdam-van-gogh-museum",
       "name": "Van Gogh Museum",
       "kind": "see",
-      "lat": 52.3584,
+      "lat": 52.3583,
       "lon": 4.8811,
       "wiki": "Van Gogh Museum",
       "summary": "The world's largest Van Gogh collection, arranged through his life.",
@@ -180,14 +188,22 @@
         "Tickets only online, often sold out a week or more ahead.",
         "Book as soon as dates are fixed; late afternoon slots are calmer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 66853,
+          "period": "202511-202610",
+          "title": "Van Gogh Museum",
+          "url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amsterdam-anne-frank-house",
       "name": "Anne Frank House",
       "kind": "see",
-      "lat": 52.3752,
-      "lon": 4.884,
+      "lat": 52.37525,
+      "lon": 4.88432,
       "wiki": "Anne Frank House",
       "summary": "The canal house and secret annex where Anne Frank hid and wrote her diary.",
       "expect": "Tickets released online about six weeks ahead, gone within hours; steep stairs.",
@@ -231,14 +247,22 @@
         "Tickets released online about six weeks ahead, gone within hours; steep stairs.",
         "Set a reminder for the Tuesday ticket release."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 131591,
+          "period": "202511-202610",
+          "title": "Anne Frank House",
+          "url": "https://en.wikipedia.org/wiki/Anne_Frank_House",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amsterdam-canal-ring",
       "name": "Canal Ring and Jordaan",
       "kind": "see",
-      "lat": 52.3704,
-      "lon": 4.8851,
+      "lat": 52.365,
+      "lon": 4.88778,
       "wiki": "Canals of Amsterdam",
       "summary": "The 17th-century ring of canals, gabled houses and bridges, with the Jordaan's lanes beside it.",
       "expect": "Bikes everywhere; boats fill up on sunny days.",
@@ -284,14 +308,22 @@
         "Bikes everywhere; boats fill up on sunny days.",
         "Walk the Nine Streets, then take a small open-boat cruise near dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 47769,
+          "period": "202511-202610",
+          "title": "Canals of Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Canals_of_Amsterdam",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amsterdam-vondelpark",
       "name": "Vondelpark",
       "kind": "see",
       "lat": 52.358,
-      "lon": 4.8686,
+      "lon": 4.868,
       "wiki": "Vondelpark",
       "summary": "The city's favourite park, with ponds, lawns and café terraces.",
       "expect": "Fast cyclists on the main path.",
@@ -335,14 +367,22 @@
         "Fast cyclists on the main path.",
         "Pair it with the museums next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30641,
+          "period": "202511-202610",
+          "title": "Vondelpark",
+          "url": "https://en.wikipedia.org/wiki/Vondelpark",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amsterdam-zaanse-schans",
       "name": "Zaanse Schans",
       "kind": "see",
-      "lat": 52.4737,
-      "lon": 4.8217,
+      "lat": 52.47389,
+      "lon": 4.81639,
       "wiki": "Zaanse Schans",
       "summary": "Working windmills and green wooden houses on a river, 20 minutes by train.",
       "expect": "Coach-tour crowds from late morning.",
@@ -388,15 +428,23 @@
         "Coach-tour crowds from late morning.",
         "Arrive before 10 am and pay to go inside one working mill."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 42543,
+          "period": "202511-202610",
+          "title": "Zaanse Schans",
+          "url": "https://en.wikipedia.org/wiki/Zaanse_Schans",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amsterdam-winkel-43",
       "name": "Winkel 43",
       "kind": "eat",
-      "lat": 52.3795,
-      "lon": 4.8858,
+      "lat": 52.37908,
+      "lon": 4.88623,
       "wiki": "Appeltaart",
       "summary": "A corner café famous for deep apple pie with whipped cream.",
       "expect": "Queues on Saturday and Monday market days.",
@@ -440,7 +488,6 @@
         "Queues on Saturday and Monday market days.",
         "Take a slice on the terrace by Noordermarkt."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Dutch café",
       "mustOrder": [
@@ -521,8 +568,8 @@
       "id": "amsterdam-albert-cuyp-market",
       "name": "Albert Cuyp Market",
       "kind": "eat",
-      "lat": 52.3556,
-      "lon": 4.8919,
+      "lat": 52.35597,
+      "lon": 4.89536,
       "wiki": "Albert Cuyp Market",
       "summary": "The city's biggest street market, with stroopwafels made fresh, herring and poffertjes.",
       "expect": "Closed on Sunday; busiest at Saturday lunchtime.",
@@ -567,7 +614,6 @@
         "Closed on Sunday; busiest at Saturday lunchtime.",
         "Get a warm stroopwafel from the stall that presses them to order."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Dutch street food",
       "mustOrder": [
@@ -586,8 +632,8 @@
       "id": "amsterdam-cafe-t-smalle",
       "name": "Café 't Smalle",
       "kind": "eat",
-      "lat": 52.3766,
-      "lon": 4.8838,
+      "lat": 52.37672,
+      "lon": 4.88414,
       "wiki": "Brown café",
       "summary": "A 1786 'brown café' with a tiny canal-side terrace.",
       "expect": "Few seats; the terrace fills in good weather.",
@@ -632,7 +678,6 @@
         "Few seats; the terrace fills in good weather.",
         "Come mid-afternoon for a beer and bitterballen."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Dutch brown café",
       "mustOrder": [
@@ -646,5 +691,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

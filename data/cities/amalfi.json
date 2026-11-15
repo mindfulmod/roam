@@ -124,14 +124,23 @@
         "Hundreds of steps, high prices and summer crowds.",
         "Arrive by ferry for the best first view."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 116531,
+          "period": "202511-202610",
+          "title": "Positano",
+          "url": "https://en.wikipedia.org/wiki/Positano",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amalfi-amalfi-cathedral",
       "name": "Amalfi Cathedral",
       "kind": "see",
-      "lat": 40.6345,
-      "lon": 14.6031,
+      "lat": 40.63444,
+      "lon": 14.60306,
       "wiki": "Amalfi Cathedral",
       "summary": "A striped cathedral atop a grand staircase, with the Arab-Norman Cloister of Paradise.",
       "expect": "The main square is busy all day.",
@@ -177,14 +186,22 @@
         "The main square is busy all day.",
         "Pay the small fee for the cloister and crypt."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32114,
+          "period": "202511-202610",
+          "title": "Amalfi Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Amalfi_Cathedral",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amalfi-ravello-villas",
       "name": "Villa Rufolo and Villa Cimbrone, Ravello",
       "kind": "see",
-      "lat": 40.6491,
-      "lon": 14.6117,
+      "lat": 40.6442,
+      "lon": 14.6108,
       "wiki": "Villa Rufolo",
       "summary": "Two hilltop gardens in Ravello with terraces high above the sea.",
       "expect": "A winding bus ride or steep path from Amalfi.",
@@ -230,7 +247,15 @@
         "A winding bus ride or steep path from Amalfi.",
         "Walk to Villa Cimbrone's Terrace of Infinity near sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9302,
+          "period": "202511-202610",
+          "title": "Villa Rufolo",
+          "url": "https://en.wikipedia.org/wiki/Villa_Rufolo",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amalfi-path-of-the-gods",
@@ -289,8 +314,8 @@
       "id": "amalfi-capri",
       "name": "Capri",
       "kind": "see",
-      "lat": 40.5532,
-      "lon": 14.2222,
+      "lat": 40.55,
+      "lon": 14.23333,
       "wiki": "Capri",
       "summary": "A day by ferry to a glamorous island with sea stacks, gardens and a chairlift to its summit.",
       "expect": "Costly ferries and heavy midday crowds; the Blue Grotto often closes.",
@@ -335,8 +360,16 @@
         "Costly ferries and heavy midday crowds; the Blue Grotto often closes.",
         "Take the first ferry and go straight up to Anacapri and Monte Solaro."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 228229,
+          "period": "202511-202610",
+          "title": "Capri",
+          "url": "https://en.wikipedia.org/wiki/Capri",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amalfi-fiordo-di-furore",
@@ -388,7 +421,16 @@
         "A long staircase; access is sometimes closed for rockfall.",
         "Check that it is open before going."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5517,
+          "period": "202511-202610",
+          "title": "Furore",
+          "url": "https://en.wikipedia.org/wiki/Furore",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "amalfi-pasticceria-pansa",
@@ -580,5 +622,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }
