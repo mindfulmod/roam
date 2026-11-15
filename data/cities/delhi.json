@@ -83,8 +83,8 @@
       "id": "delhi-humayuns-tomb",
       "name": "Humayun's Tomb",
       "kind": "see",
-      "lat": 28.5933,
-      "lon": 77.2507,
+      "lat": 28.59328,
+      "lon": 77.25069,
       "wiki": "Humayun's Tomb",
       "summary": "A red sandstone and marble garden tomb from 1570, the model for the Taj Mahal.",
       "expect": "Higher entry price for foreign visitors; calm, large gardens.",
@@ -129,14 +129,22 @@
         "Higher entry price for foreign visitors; calm, large gardens.",
         "Go in the late afternoon and add the Sunder Nursery gardens next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 66286,
+          "period": "202511-202610",
+          "title": "Humayun's tomb",
+          "url": "https://en.wikipedia.org/wiki/Humayun's_tomb",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "delhi-red-fort",
       "name": "Red Fort",
       "kind": "see",
-      "lat": 28.6562,
-      "lon": 77.241,
+      "lat": 28.65583,
+      "lon": 77.24083,
       "wiki": "Red Fort",
       "summary": "The vast red sandstone palace-fort of the Mughal emperors.",
       "expect": "Closed on Mondays; security queues and a lot of walking.",
@@ -181,7 +189,15 @@
         "Closed on Mondays; security queues and a lot of walking.",
         "Buy the ticket online to skip the counter queue."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 344325,
+          "period": "202511-202610",
+          "title": "Red Fort",
+          "url": "https://en.wikipedia.org/wiki/Red_Fort",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "delhi-jama-masjid-chandni-chowk",
@@ -234,14 +250,22 @@
         "Intense crowds, noise and traffic; robes are lent to visitors at the mosque.",
         "Take a guided walk or a cycle rickshaw through the spice market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 117249,
+          "period": "202511-202610",
+          "title": "Jama Masjid, Delhi",
+          "url": "https://en.wikipedia.org/wiki/Jama_Masjid%2C_Delhi",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "delhi-qutub-minar",
       "name": "Qutub Minar",
       "kind": "see",
-      "lat": 28.5245,
-      "lon": 77.1855,
+      "lat": 28.52435,
+      "lon": 77.18525,
       "wiki": "Qutb Minar",
       "summary": "A 73-metre carved victory tower from 1193, surrounded by ruins and an iron pillar that does not rust.",
       "expect": "Busy at weekends.",
@@ -286,14 +310,22 @@
         "Busy at weekends.",
         "Come at opening for soft light on the carved stone."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 265048,
+          "period": "202511-202610",
+          "title": "Qutb Minar",
+          "url": "https://en.wikipedia.org/wiki/Qutb_Minar",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "delhi-india-gate",
       "name": "India Gate and Kartavya Path",
       "kind": "see",
-      "lat": 28.6129,
-      "lon": 77.2295,
+      "lat": 28.61286,
+      "lon": 77.22931,
       "wiki": "India Gate",
       "summary": "A war memorial arch at the end of the ceremonial avenue leading to the presidential palace.",
       "expect": "Crowds of families in the evening.",
@@ -338,14 +370,22 @@
         "Crowds of families in the evening.",
         "Visit after dark when it is lit and the air is cooler."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 210499,
+          "period": "202511-202610",
+          "title": "India Gate",
+          "url": "https://en.wikipedia.org/wiki/India_Gate",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "delhi-gurudwara-bangla-sahib",
       "name": "Gurudwara Bangla Sahib",
       "kind": "see",
-      "lat": 28.6263,
-      "lon": 77.2091,
+      "lat": 28.6267,
+      "lon": 77.2089,
       "wiki": "Gurdwara Bangla Sahib",
       "summary": "A gold-domed Sikh temple with a sacred pool and a free community kitchen feeding thousands daily.",
       "expect": "Cover your head and remove shoes; scarves are provided.",
@@ -390,14 +430,22 @@
         "Cover your head and remove shoes; scarves are provided.",
         "Sit down for the free langar meal, or volunteer in the kitchen."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 67781,
+          "period": "202511-202610",
+          "title": "Gurdwara Bangla Sahib",
+          "url": "https://en.wikipedia.org/wiki/Gurdwara_Bangla_Sahib",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "delhi-karims",
       "name": "Karim's",
       "kind": "eat",
-      "lat": 28.6497,
-      "lon": 77.2337,
+      "lat": 28.64943,
+      "lon": 77.23374,
       "wiki": "Karim's",
       "summary": "A Mughlai restaurant in a lane beside the Jama Masjid, open since 1913.",
       "expect": "Basic rooms and brisk service.",
@@ -442,7 +490,6 @@
         "Basic rooms and brisk service.",
         "Go for an early lunch after visiting the mosque."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Mughlai",
       "mustOrder": [
@@ -461,8 +508,8 @@
       "id": "delhi-paranthe-wali-gali",
       "name": "Paranthe Wali Gali",
       "kind": "eat",
-      "lat": 28.656,
-      "lon": 77.2303,
+      "lat": 28.65583,
+      "lon": 77.22972,
       "wiki": "Paranthe Wali Gali",
       "summary": "A narrow lane of shops frying stuffed parathas since the 1870s.",
       "expect": "Cramped benches and deep-fried food.",
@@ -507,7 +554,6 @@
         "Cramped benches and deep-fried food.",
         "Share two or three fillings between you."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Stuffed parathas",
       "mustOrder": [
@@ -526,8 +572,8 @@
       "id": "delhi-bukhara",
       "name": "Bukhara",
       "kind": "eat",
-      "lat": 28.5969,
-      "lon": 77.1734,
+      "lat": 28.5971,
+      "lon": 77.174,
       "wiki": "Bukhara (restaurant)",
       "summary": "A famous hotel restaurant for tandoor kebabs and slow-cooked black dal, eaten by hand.",
       "expect": "Very expensive by local standards; book well ahead.",
@@ -571,7 +617,6 @@
         "Very expensive by local standards; book well ahead.",
         "Order one kebab, the dal and a naan to share."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "North-West Frontier",
       "mustOrder": [
@@ -586,5 +631,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

@@ -66,8 +66,8 @@
       "id": "petra-siq-treasury",
       "name": "The Siq and the Treasury",
       "kind": "see",
-      "lat": 30.3222,
-      "lon": 35.4517,
+      "lat": 30.32208,
+      "lon": 35.45154,
       "wiki": "Al-Khazneh",
       "summary": "A 1.2 km slot canyon that opens onto the carved 40-metre façade of the Treasury.",
       "expect": "Crowds from 9 am; horse and cart drivers along the way.",
@@ -113,14 +113,22 @@
         "Crowds from 9 am; horse and cart drivers along the way.",
         "Enter at 6 am to have the Siq nearly to yourself."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 117719,
+          "period": "202511-202610",
+          "title": "Al-Khazneh",
+          "url": "https://en.wikipedia.org/wiki/Al-Khazneh",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "petra-monastery",
       "name": "The Monastery (Ad Deir)",
       "kind": "see",
-      "lat": 30.3377,
-      "lon": 35.4307,
+      "lat": 30.33778,
+      "lon": 35.43111,
       "wiki": "Ad Deir",
       "summary": "Petra's largest monument, reached by about 800 rock-cut steps.",
       "expect": "A steep 45 to 60 minute climb; donkeys share the path.",
@@ -166,14 +174,22 @@
         "A steep 45 to 60 minute climb; donkeys share the path.",
         "Climb in the afternoon when the façade is in sun and the steps in shade."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16667,
+          "period": "202511-202610",
+          "title": "Ed-Deir, Petra",
+          "url": "https://en.wikipedia.org/wiki/Ed-Deir%2C_Petra",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "petra-royal-tombs",
       "name": "Royal Tombs",
       "kind": "see",
-      "lat": 30.3312,
-      "lon": 35.4462,
+      "lat": 30.32882,
+      "lon": 35.44972,
       "wiki": "Royal Tombs (Petra)",
       "summary": "Four grand tomb façades carved side by side into a cliff of striped sandstone.",
       "expect": "Steps up to the terraces.",
@@ -217,8 +233,7 @@
       "tradeoffs": [
         "Steps up to the terraces.",
         "Go inside the Urn Tomb for the coloured rock ceiling."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "petra-high-place-of-sacrifice",
@@ -324,14 +339,23 @@
         "Hang back to walk the candlelit Siq in quiet."
       ],
       "pinApproximate": true,
-      "optional": true
+      "optional": true,
+      "signals": {
+        "wikipedia": {
+          "views": 900185,
+          "period": "202511-202610",
+          "title": "Petra",
+          "url": "https://en.wikipedia.org/wiki/Petra",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "petra-wadi-rum",
       "name": "Wadi Rum",
       "kind": "see",
-      "lat": 29.5765,
-      "lon": 35.4195,
+      "lat": 29.59306,
+      "lon": 35.42,
       "wiki": "Wadi Rum",
       "summary": "A protected desert of red sand and sandstone mountains, explored by jeep with a night in a Bedouin camp.",
       "expect": "Basic camps to luxury domes; cold nights in winter.",
@@ -376,15 +400,23 @@
         "Basic camps to luxury domes; cold nights in winter.",
         "Book a camp inside the protected area with a jeep tour and dinner included."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 106646,
+          "period": "202511-202610",
+          "title": "Wadi Rum",
+          "url": "https://en.wikipedia.org/wiki/Wadi_Rum",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "petra-al-wadi-restaurant",
       "name": "Al-Wadi Restaurant",
       "kind": "eat",
-      "lat": 30.3209,
-      "lon": 35.4795,
+      "lat": 30.32173,
+      "lon": 35.4803,
       "wiki": "Mansaf",
       "summary": "A simple town-centre restaurant serving Jordanian home dishes.",
       "expect": "Plain surroundings.",
@@ -428,7 +460,6 @@
         "Plain surroundings.",
         "Try the mansaf or maqluba."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Jordanian",
       "mustOrder": [
@@ -571,5 +602,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

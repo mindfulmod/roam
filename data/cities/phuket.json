@@ -79,8 +79,8 @@
       "id": "phuket-phang-nga-bay",
       "name": "Phang Nga Bay",
       "kind": "see",
-      "lat": 8.2748,
-      "lon": 98.5011,
+      "lat": 8.28333,
+      "lon": 98.6,
       "wiki": "Phang Nga Bay",
       "summary": "A bay of limestone towers rising from green water, explored by boat and sea kayak.",
       "expect": "James Bond Island is crowded; boats vary a lot in quality.",
@@ -126,15 +126,23 @@
         "James Bond Island is crowded; boats vary a lot in quality.",
         "Choose a small-group or late-start tour that includes kayaking the sea caves."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16564,
+          "period": "202511-202610",
+          "title": "Phang Nga Bay",
+          "url": "https://en.wikipedia.org/wiki/Phang_Nga_Bay",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "phuket-phi-phi-islands",
       "name": "Phi Phi Islands",
       "kind": "see",
-      "lat": 7.7407,
-      "lon": 98.7784,
+      "lat": 7.73333,
+      "lon": 98.76667,
       "wiki": "Phi Phi Islands",
       "summary": "Cliff-ringed islands with clear water for snorkelling, including Maya Bay.",
       "expect": "A long speedboat day; Maya Bay has visitor limits and closes for part of the low season.",
@@ -179,15 +187,23 @@
         "A long speedboat day; Maya Bay has visitor limits and closes for part of the low season.",
         "Take an early-bird tour to reach Maya Bay before the crowds."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 97918,
+          "period": "202511-202610",
+          "title": "Phi Phi Islands",
+          "url": "https://en.wikipedia.org/wiki/Phi_Phi_Islands",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "phuket-phuket-old-town",
       "name": "Phuket Old Town",
       "kind": "see",
-      "lat": 7.8846,
-      "lon": 98.3877,
+      "lat": 7.88478,
+      "lon": 98.38922,
       "wiki": "Phuket (city)",
       "summary": "Streets of pastel Sino-Portuguese shophouses, shrines, cafés and street art.",
       "expect": "Hot at midday; Sunday evening has a walking-street market.",
@@ -233,14 +249,22 @@
         "Hot at midday; Sunday evening has a walking-street market.",
         "Walk Thalang Road and Soi Romanee, ideally on Sunday evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 86178,
+          "period": "202511-202610",
+          "title": "Phuket (city)",
+          "url": "https://en.wikipedia.org/wiki/Phuket_(city)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "phuket-big-buddha",
       "name": "Big Buddha",
       "kind": "see",
-      "lat": 7.8276,
-      "lon": 98.3128,
+      "lat": 7.82752,
+      "lon": 98.31244,
       "wiki": "Big Buddha, Phuket",
       "summary": "A 45-metre white marble Buddha on a hilltop, visible across the south of the island.",
       "expect": "Dress modestly; sarongs are lent at the entrance.",
@@ -284,15 +308,14 @@
       "tradeoffs": [
         "Dress modestly; sarongs are lent at the entrance.",
         "Go early or late for cooler air."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "phuket-promthep-cape",
       "name": "Promthep Cape",
       "kind": "see",
-      "lat": 7.7594,
-      "lon": 98.3053,
+      "lat": 7.76244,
+      "lon": 98.30633,
       "wiki": "Laem Phromthep",
       "summary": "The island's southern tip and its most popular sunset viewpoint.",
       "expect": "Crowds and tour buses at sunset.",
@@ -336,15 +359,14 @@
       "tradeoffs": [
         "Crowds and tour buses at sunset.",
         "Walk down the path towards the tip to leave the crowd."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "phuket-kata-noi-beach",
       "name": "Kata Noi Beach",
       "kind": "see",
-      "lat": 7.8085,
-      "lon": 98.2977,
+      "lat": 7.80639,
+      "lon": 98.29889,
       "wiki": "Kata Noi Beach",
       "summary": "A small bay of fine sand and clear water at the quiet end of Kata.",
       "expect": "Limited parking and strong surf in monsoon months.",
@@ -388,7 +410,15 @@
         "Limited parking and strong surf in monsoon months.",
         "Swim only between the flags; red flags mean stay out."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4572,
+          "period": "202511-202610",
+          "title": "Hat Kata Noi",
+          "url": "https://en.wikipedia.org/wiki/Hat_Kata_Noi",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "phuket-raya-restaurant",
@@ -458,8 +488,8 @@
       "id": "phuket-one-chun",
       "name": "One Chun",
       "kind": "eat",
-      "lat": 7.8872,
-      "lon": 98.3893,
+      "lat": 7.88578,
+      "lon": 98.39069,
       "wiki": "Peranakan cuisine",
       "summary": "A retro café-restaurant for Phuket's Hokkien-influenced dishes at moderate prices.",
       "expect": "Queues at dinner.",
@@ -503,7 +533,6 @@
         "Queues at dinner.",
         "Go for lunch or put your name down early."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Phuket Peranakan",
       "mustOrder": [
@@ -582,5 +611,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

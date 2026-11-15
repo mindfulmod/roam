@@ -84,8 +84,8 @@
       "id": "fukuoka-dazaifu-tenmangu",
       "name": "Dazaifu Tenmangu",
       "kind": "see",
-      "lat": 33.5215,
-      "lon": 130.5349,
+      "lat": 33.52139,
+      "lon": 130.535,
       "wiki": "Dazaifu Tenmangū",
       "summary": "A major shrine to the god of learning, approached over arched bridges through plum trees.",
       "expect": "Students praying for exams and a shop-lined approach.",
@@ -131,15 +131,23 @@
         "Students praying for exams and a shop-lined approach.",
         "Try a grilled umegae mochi on the approach and see the Kengo Kuma-designed café."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7823,
+          "period": "202511-202610",
+          "title": "Dazaifu Tenmangū",
+          "url": "https://en.wikipedia.org/wiki/Dazaifu_Tenmang%C5%AB",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "fukuoka-ohori-park",
       "name": "Ohori Park",
       "kind": "see",
-      "lat": 33.5859,
-      "lon": 130.3764,
+      "lat": 33.58586,
+      "lon": 130.37625,
       "wiki": "Ōhori Park",
       "summary": "A large pond crossed by island bridges, with a Japanese garden and castle ruins next door.",
       "expect": "Joggers and families; calm on weekdays.",
@@ -184,14 +192,22 @@
         "Joggers and families; calm on weekdays.",
         "Walk the causeway across the pond, then climb to the Fukuoka Castle ruins."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2334,
+          "period": "202511-202610",
+          "title": "Ōhori Park",
+          "url": "https://en.wikipedia.org/wiki/%C5%8Chori_Park",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "fukuoka-kushida-shrine",
       "name": "Kushida Shrine",
       "kind": "see",
-      "lat": 33.5929,
-      "lon": 130.4105,
+      "lat": 33.59297,
+      "lon": 130.41047,
       "wiki": "Kushida Shrine (Fukuoka)",
       "summary": "Hakata's guardian shrine, displaying a towering Yamakasa festival float all year.",
       "expect": "A short stop in the old town.",
@@ -236,14 +252,22 @@
         "A short stop in the old town.",
         "Pair it with the Hakata Machiya Folk Museum across the lane."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5441,
+          "period": "202511-202610",
+          "title": "Kushida Shrine",
+          "url": "https://en.wikipedia.org/wiki/Kushida_Shrine",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "fukuoka-canal-city-hakata",
       "name": "Canal City Hakata",
       "kind": "see",
-      "lat": 33.5897,
-      "lon": 130.4108,
+      "lat": 33.59111,
+      "lon": 130.41056,
       "wiki": "Canal City Hakata",
       "summary": "A curving shopping complex built around an indoor canal with fountain shows.",
       "expect": "A mall, with a ramen floor on level five.",
@@ -289,14 +313,22 @@
         "A mall, with a ramen floor on level five.",
         "Use the Ramen Stadium to compare styles from around Japan."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8201,
+          "period": "202511-202610",
+          "title": "Canal City Hakata",
+          "url": "https://en.wikipedia.org/wiki/Canal_City_Hakata",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "fukuoka-fukuoka-tower",
       "name": "Fukuoka Tower and Momochi Seaside Park",
       "kind": "see",
-      "lat": 33.5933,
-      "lon": 130.3515,
+      "lat": 33.59325,
+      "lon": 130.35147,
       "wiki": "Fukuoka Tower",
       "summary": "A mirrored 234-metre tower beside an artificial beach, with a view over the bay.",
       "expect": "A bus ride from the centre.",
@@ -341,14 +373,22 @@
         "A bus ride from the centre.",
         "Time your visit for sunset over the bay."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8268,
+          "period": "202511-202610",
+          "title": "Fukuoka Tower",
+          "url": "https://en.wikipedia.org/wiki/Fukuoka_Tower",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "fukuoka-nanzoin-temple",
       "name": "Nanzoin Temple",
       "kind": "see",
-      "lat": 33.6197,
-      "lon": 130.5731,
+      "lat": 33.61984,
+      "lon": 130.57294,
       "wiki": "Nanzo-in",
       "summary": "A hillside temple with a 41-metre bronze reclining Buddha.",
       "expect": "Modest dress is required; large groups may be refused.",
@@ -393,8 +433,16 @@
         "Modest dress is required; large groups may be refused.",
         "Take the train to Kido Nanzoin-mae, 25 minutes from Hakata."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11469,
+          "period": "202511-202610",
+          "title": "Nanzo-in",
+          "url": "https://en.wikipedia.org/wiki/Nanzo-in",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "fukuoka-nakasu-yatai-stalls",
@@ -587,5 +635,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

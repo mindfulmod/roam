@@ -73,8 +73,8 @@
       "id": "sydney-sydney-opera-house",
       "name": "Sydney Opera House",
       "kind": "see",
-      "lat": -33.8568,
-      "lon": 151.2153,
+      "lat": -33.85681,
+      "lon": 151.21514,
       "wiki": "Sydney Opera House",
       "summary": "The sail-roofed performing arts centre on the harbour, open for tours and shows.",
       "expect": "Free to walk around; tours and performances need tickets.",
@@ -119,14 +119,22 @@
         "Free to walk around; tours and performances need tickets.",
         "Take the one-hour tour, or book any performance to see inside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 427911,
+          "period": "202511-202610",
+          "title": "Sydney Opera House",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "sydney-sydney-harbour-bridge",
       "name": "Sydney Harbour Bridge",
       "kind": "see",
-      "lat": -33.8523,
-      "lon": 151.2108,
+      "lat": -33.85222,
+      "lon": 151.21056,
       "wiki": "Sydney Harbour Bridge",
       "summary": "The steel arch 'Coathanger', which you can walk across for free or climb with a guide.",
       "expect": "BridgeClimb is expensive and takes about three hours.",
@@ -172,14 +180,22 @@
         "BridgeClimb is expensive and takes about three hours.",
         "Walk the free footpath and climb the Pylon Lookout for a cheap high view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 216218,
+          "period": "202511-202610",
+          "title": "Sydney Harbour Bridge",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "sydney-bondi-coogee-walk",
       "name": "Bondi to Coogee coastal walk",
       "kind": "see",
-      "lat": -33.8915,
-      "lon": 151.2767,
+      "lat": -33.89111,
+      "lon": 151.27417,
       "wiki": "Bondi Beach",
       "summary": "A 6 km cliff path linking Bondi Beach with Tamarama, Bronte and Coogee.",
       "expect": "Exposed to sun and busy on weekend mornings.",
@@ -225,14 +241,22 @@
         "Exposed to sun and busy on weekend mornings.",
         "Start at the Bondi Icebergs pool and swim at Bronte on the way."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 502192,
+          "period": "202511-202610",
+          "title": "Bondi Beach",
+          "url": "https://en.wikipedia.org/wiki/Bondi_Beach",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "sydney-manly-ferry",
       "name": "Manly ferry",
       "kind": "see",
-      "lat": -33.7969,
-      "lon": 151.2843,
+      "lat": -33.8001,
+      "lon": 151.28492,
       "wiki": "Manly ferry services",
       "summary": "A 30-minute public ferry across the harbour to a beach suburb.",
       "expect": "Outdoor decks fill up on sunny days.",
@@ -277,14 +301,22 @@
         "Outdoor decks fill up on sunny days.",
         "Sit outside on the right-hand side leaving Circular Quay."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7601,
+          "period": "202511-202610",
+          "title": "Manly ferry service",
+          "url": "https://en.wikipedia.org/wiki/Manly_ferry_service",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "sydney-royal-botanic-garden",
       "name": "Royal Botanic Garden and Mrs Macquarie's Chair",
       "kind": "see",
-      "lat": -33.8642,
-      "lon": 151.2166,
+      "lat": -33.86389,
+      "lon": 151.21694,
       "wiki": "Royal Botanic Garden, Sydney",
       "summary": "Harbourside gardens with a point that frames the Opera House and bridge together.",
       "expect": "Free and open daily.",
@@ -329,14 +361,22 @@
         "Free and open daily.",
         "Walk from the Opera House around Farm Cove to the Chair."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12866,
+          "period": "202511-202610",
+          "title": "Royal Botanic Garden, Sydney",
+          "url": "https://en.wikipedia.org/wiki/Royal_Botanic_Garden%2C_Sydney",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "sydney-blue-mountains",
       "name": "Blue Mountains",
       "kind": "see",
-      "lat": -33.7323,
-      "lon": 150.312,
+      "lat": -33.6,
+      "lon": 150.35,
       "wiki": "Blue Mountains (New South Wales)",
       "summary": "Sandstone cliffs, eucalyptus valleys and the Three Sisters rock formation, two hours west by train.",
       "expect": "Cooler than the city; mist can hide the views.",
@@ -382,15 +422,23 @@
         "Cooler than the city; mist can hide the views.",
         "Take an early train to Katoomba and walk part of the cliff-top track."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 104610,
+          "period": "202511-202610",
+          "title": "Blue Mountains (New South Wales)",
+          "url": "https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "sydney-sydney-fish-market",
       "name": "Sydney Fish Market",
       "kind": "eat",
-      "lat": -33.8731,
-      "lon": 151.1925,
+      "lat": -33.87274,
+      "lon": 151.19216,
       "wiki": "Sydney Fish Market",
       "summary": "A working fish market with counters selling oysters, sashimi and fish and chips.",
       "expect": "Very busy at weekend lunchtimes; the market has moved to a new building nearby.",
@@ -435,7 +483,6 @@
         "Very busy at weekend lunchtimes; the market has moved to a new building nearby.",
         "Go on a weekday and eat outside by the water."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Seafood market",
       "mustOrder": [
@@ -454,8 +501,8 @@
       "id": "sydney-bourke-street-bakery",
       "name": "Bourke Street Bakery",
       "kind": "eat",
-      "lat": -33.8869,
-      "lon": 151.2122,
+      "lat": -33.88611,
+      "lon": 151.21111,
       "wiki": "Surry Hills",
       "summary": "A tiny corner bakery famous for sausage rolls and ginger brûlée tarts.",
       "expect": "A queue out the door at weekends.",
@@ -499,7 +546,6 @@
         "A queue out the door at weekends.",
         "Take away and eat in a nearby park."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Bakery café",
       "mustOrder": [
@@ -517,8 +563,8 @@
       "id": "sydney-chinatown-spice-alley",
       "name": "Chinatown and Spice Alley",
       "kind": "eat",
-      "lat": -33.8792,
-      "lon": 151.2043,
+      "lat": -33.87878,
+      "lon": 151.20408,
       "wiki": "Chinatown, Sydney",
       "summary": "Dixon Street's restaurants and a nearby lantern-lit laneway of Asian hawker stalls.",
       "expect": "Mostly card-only; busy on Friday nights.",
@@ -562,7 +608,6 @@
         "Mostly card-only; busy on Friday nights.",
         "Friday has a night market on Dixon Street."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Pan-Asian hawker food",
       "mustOrder": [
@@ -577,5 +622,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

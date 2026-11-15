@@ -86,8 +86,8 @@
       "id": "hoi-an-ancient-town",
       "name": "Hoi An Ancient Town",
       "kind": "see",
-      "lat": 15.8773,
-      "lon": 108.3275,
+      "lat": 15.87795,
+      "lon": 108.32399,
       "wiki": "Hội An",
       "summary": "A 15th to 19th-century trading port of ochre shophouses, assembly halls and lanterns.",
       "expect": "A ticket covers five heritage buildings; evenings are crowded.",
@@ -131,15 +131,14 @@
       "tradeoffs": [
         "A ticket covers five heritage buildings; evenings are crowded.",
         "Walk it at 7 am before the groups arrive, then again after dark."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hoi-an-japanese-covered-bridge",
       "name": "Japanese Covered Bridge",
       "kind": "see",
-      "lat": 15.8771,
-      "lon": 108.326,
+      "lat": 15.87707,
+      "lon": 108.32601,
       "wiki": "Japanese Covered Bridge",
       "summary": "A small roofed bridge with a temple inside, built by Japanese merchants in the 1590s.",
       "expect": "Always busy for photos.",
@@ -184,7 +183,15 @@
         "Always busy for photos.",
         "See it lit at night from the riverside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19088,
+          "period": "202511-202610",
+          "title": "Japanese Bridge",
+          "url": "https://en.wikipedia.org/wiki/Japanese_Bridge",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "hoi-an-my-son-sanctuary",
@@ -238,14 +245,23 @@
         "Take a sunrise tour to arrive before the heat and buses."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 46423,
+          "period": "202511-202610",
+          "title": "Mỹ Sơn",
+          "url": "https://en.wikipedia.org/wiki/M%E1%BB%B9_S%C6%A1n",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "hoi-an-an-bang-beach",
       "name": "An Bang Beach",
       "kind": "see",
-      "lat": 15.9136,
-      "lon": 108.3406,
+      "lat": 15.91418,
+      "lon": 108.33966,
       "wiki": "An Bàng Beach",
       "summary": "A relaxed stretch of sand with loungers and seafood shacks, 5 km from town.",
       "expect": "Rough seas from October to February.",
@@ -288,8 +304,7 @@
       "tradeoffs": [
         "Rough seas from October to February.",
         "Cycle there through the rice fields and buy lunch for a free lounger."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hoi-an-tra-que-vegetable-village",
@@ -347,8 +362,8 @@
       "id": "hoi-an-lantern-boats",
       "name": "Lantern boat ride on the Thu Bon River",
       "kind": "see",
-      "lat": 15.8763,
-      "lon": 108.3285,
+      "lat": 15.863,
+      "lon": 108.283,
       "wiki": "Thu Bồn River",
       "summary": "A short evening ride in a small wooden boat hung with lanterns, releasing paper candles on the water.",
       "expect": "Dozens of boats at once; fixed prices are posted at the pier.",
@@ -393,14 +408,22 @@
         "Dozens of boats at once; fixed prices are posted at the pier.",
         "Pay at the official ticket booth rather than bargaining with touts."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3019,
+          "period": "202511-202610",
+          "title": "Thu Bồn River",
+          "url": "https://en.wikipedia.org/wiki/Thu_B%E1%BB%93n_River",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "hoi-an-banh-mi-phuong",
       "name": "Bánh Mì Phượng",
       "kind": "eat",
-      "lat": 15.8783,
-      "lon": 108.3322,
+      "lat": 15.87848,
+      "lon": 108.33201,
       "wiki": "Bánh mì",
       "summary": "The bánh mì shop made famous by Anthony Bourdain.",
       "expect": "A long queue at lunch and dinner.",
@@ -444,7 +467,6 @@
         "A long queue at lunch and dinner.",
         "Go mid-morning and order the mixed special."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Bánh mì",
       "mustOrder": [
@@ -461,8 +483,8 @@
       "id": "hoi-an-morning-glory",
       "name": "Morning Glory",
       "kind": "eat",
-      "lat": 15.8771,
-      "lon": 108.3266,
+      "lat": 15.87662,
+      "lon": 108.32766,
       "wiki": "Cao lầu",
       "summary": "A restaurant by local chef Trinh Diem Vy serving Hoi An street food classics.",
       "expect": "Popular with visitors; book for dinner.",
@@ -506,7 +528,6 @@
         "Popular with visitors; book for dinner.",
         "A good place to try cao lầu and white rose dumplings together."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Central Vietnamese",
       "mustOrder": [
@@ -585,5 +606,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

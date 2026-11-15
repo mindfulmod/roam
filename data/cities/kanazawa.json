@@ -83,8 +83,8 @@
       "id": "kanazawa-kenroku-en",
       "name": "Kenroku-en",
       "kind": "see",
-      "lat": 36.5621,
-      "lon": 136.6627,
+      "lat": 36.56194,
+      "lon": 136.6625,
       "wiki": "Kenroku-en",
       "summary": "One of Japan's three great landscape gardens, with ponds, teahouses and a famous two-legged stone lantern.",
       "expect": "Tour groups mid-morning.",
@@ -130,14 +130,22 @@
         "Tour groups mid-morning.",
         "Arrive at opening; early-morning entry before ticket hours is free."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22587,
+          "period": "202511-202610",
+          "title": "Kenroku-en",
+          "url": "https://en.wikipedia.org/wiki/Kenroku-en",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "kanazawa-kanazawa-castle-park",
       "name": "Kanazawa Castle Park",
       "kind": "see",
-      "lat": 36.5657,
-      "lon": 136.6594,
+      "lat": 36.56576,
+      "lon": 136.65945,
       "wiki": "Kanazawa Castle",
       "summary": "The white-walled gates and turrets of the Maeda lords' castle, carefully rebuilt in timber.",
       "expect": "Large open grounds; the reconstructed buildings are ticketed.",
@@ -182,14 +190,22 @@
         "Large open grounds; the reconstructed buildings are ticketed.",
         "Enter by the Ishikawa Gate straight from Kenroku-en."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20317,
+          "period": "202511-202610",
+          "title": "Kanazawa Castle",
+          "url": "https://en.wikipedia.org/wiki/Kanazawa_Castle",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "kanazawa-higashi-chaya-district",
       "name": "Higashi Chaya District",
       "kind": "see",
-      "lat": 36.5724,
-      "lon": 136.6665,
+      "lat": 36.57256,
+      "lon": 136.66668,
       "wiki": "Higashi Chaya District",
       "summary": "A preserved geisha quarter of latticed wooden teahouses, some open to visit.",
       "expect": "Crowded in the afternoon; many shops sell gold-leaf sweets.",
@@ -233,15 +249,14 @@
       "tradeoffs": [
         "Crowded in the afternoon; many shops sell gold-leaf sweets.",
         "Visit Shima teahouse, then stay until dusk when the street empties."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "kanazawa-21st-century-museum-of-contemporary-art",
       "name": "21st Century Museum of Contemporary Art",
       "kind": "see",
-      "lat": 36.5609,
-      "lon": 136.6583,
+      "lat": 36.56083,
+      "lon": 136.65806,
       "wiki": "21st Century Museum of Contemporary Art, Kanazawa",
       "summary": "A circular glass museum known for Leandro Erlich's Swimming Pool installation.",
       "expect": "The pool's lower level needs a same-day reservation.",
@@ -286,14 +301,22 @@
         "The pool's lower level needs a same-day reservation.",
         "Reserve the pool slot online in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10288,
+          "period": "202511-202610",
+          "title": "21st Century Museum of Contemporary Art, Kanazawa",
+          "url": "https://en.wikipedia.org/wiki/21st_Century_Museum_of_Contemporary_Art%2C_Kanazawa",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "kanazawa-nagamachi-samurai-district",
       "name": "Nagamachi Samurai District",
       "kind": "see",
-      "lat": 36.5633,
-      "lon": 136.6506,
+      "lat": 36.56363,
+      "lon": 136.65076,
       "wiki": "Nagamachi",
       "summary": "Lanes of earthen walls and canals where samurai families lived, with the Nomura house open to visit.",
       "expect": "A short walk; walls are covered with straw mats in winter.",
@@ -337,15 +360,14 @@
       "tradeoffs": [
         "A short walk; walls are covered with straw mats in winter.",
         "Go inside the Nomura residence for its small garden."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "kanazawa-dt-suzuki-museum",
       "name": "D.T. Suzuki Museum",
       "kind": "see",
-      "lat": 36.5576,
-      "lon": 136.6612,
+      "lat": 36.55782,
+      "lon": 136.66122,
       "wiki": "D. T. Suzuki Museum",
       "summary": "A minimalist museum to the Zen philosopher, built around a still reflecting pool.",
       "expect": "Small and quiet; more a space than a collection.",
@@ -390,7 +412,15 @@
         "Small and quiet; more a space than a collection.",
         "Sit by the Water Mirror Garden for a few minutes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2533,
+          "period": "202511-202610",
+          "title": "D. T. Suzuki Museum",
+          "url": "https://en.wikipedia.org/wiki/D._T._Suzuki_Museum",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "kanazawa-omicho-market",
@@ -584,5 +614,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

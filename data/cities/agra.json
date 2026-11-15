@@ -77,8 +77,8 @@
       "id": "agra-taj-mahal",
       "name": "Taj Mahal",
       "kind": "see",
-      "lat": 27.1751,
-      "lon": 78.0421,
+      "lat": 27.175,
+      "lon": 78.0419,
       "wiki": "Taj Mahal",
       "summary": "The white marble mausoleum built by Shah Jahan for Mumtaz Mahal.",
       "expect": "Closed on Fridays; strict security and a long list of banned items.",
@@ -124,13 +124,21 @@
         "Closed on Fridays; strict security and a long list of banned items.",
         "Queue at the east gate 30 minutes before sunrise with an online ticket."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1549822,
+          "period": "202511-202610",
+          "title": "Taj Mahal",
+          "url": "https://en.wikipedia.org/wiki/Taj_Mahal",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "agra-agra-fort",
       "name": "Agra Fort",
       "kind": "see",
-      "lat": 27.1795,
+      "lat": 27.17954,
       "lon": 78.0211,
       "wiki": "Agra Fort",
       "summary": "A red sandstone fortress of palaces and marble pavilions, where Shah Jahan was imprisoned.",
@@ -176,14 +184,22 @@
         "Large; a guide helps.",
         "Visit after the Taj and find the view of it across the river."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 151934,
+          "period": "202511-202610",
+          "title": "Agra Fort",
+          "url": "https://en.wikipedia.org/wiki/Agra_Fort",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "agra-baby-taj",
       "name": "Tomb of I'timād-ud-Daulah",
       "kind": "see",
-      "lat": 27.1929,
-      "lon": 78.031,
+      "lat": 27.1925,
+      "lon": 78.03194,
       "wiki": "Tomb of I'timād-ud-Daulah",
       "summary": "The 'Baby Taj': a small marble tomb covered in delicate stone inlay.",
       "expect": "Quiet, with few visitors.",
@@ -229,14 +245,22 @@
         "Quiet, with few visitors.",
         "Combine it with Mehtab Bagh on the same side of the river."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5052,
+          "period": "202511-202610",
+          "title": "Itmad Ud Daulah",
+          "url": "https://en.wikipedia.org/wiki/Itmad_Ud_Daulah",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "agra-mehtab-bagh",
       "name": "Mehtab Bagh",
       "kind": "see",
-      "lat": 27.18,
-      "lon": 78.0421,
+      "lat": 27.17972,
+      "lon": 78.04194,
       "wiki": "Mehtab Bagh",
       "summary": "A riverside garden directly across the Yamuna from the Taj Mahal.",
       "expect": "The riverbank itself is fenced off.",
@@ -281,13 +305,21 @@
         "The riverbank itself is fenced off.",
         "Come for sunset to see the Taj change colour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16368,
+          "period": "202511-202610",
+          "title": "Mehtab Bagh",
+          "url": "https://en.wikipedia.org/wiki/Mehtab_Bagh",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "agra-fatehpur-sikri",
       "name": "Fatehpur Sikri",
       "kind": "see",
-      "lat": 27.0945,
+      "lat": 27.091,
       "lon": 77.661,
       "wiki": "Fatehpur Sikri",
       "summary": "Akbar's abandoned red sandstone capital, with palaces and a great mosque gateway.",
@@ -333,15 +365,23 @@
         "Persistent touts at the mosque entrance.",
         "Hire a licensed guide at the ticket office only."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 148757,
+          "period": "202511-202610",
+          "title": "Fatehpur Sikri",
+          "url": "https://en.wikipedia.org/wiki/Fatehpur_Sikri",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "agra-pinch-of-spice",
       "name": "Pinch of Spice",
       "kind": "eat",
-      "lat": 27.1608,
-      "lon": 78.0396,
+      "lat": 27.15952,
+      "lon": 78.0432,
       "wiki": "Mughlai cuisine",
       "summary": "A popular modern restaurant for North Indian and Mughlai dishes.",
       "expect": "Busy with visitors at dinner.",
@@ -385,7 +425,6 @@
         "Busy with visitors at dinner.",
         "Book or arrive early."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "North Indian",
       "mustOrder": [
@@ -404,8 +443,8 @@
       "id": "agra-deviram-sweets",
       "name": "Deviram Sweets",
       "kind": "eat",
-      "lat": 27.1766,
-      "lon": 78.0092,
+      "lat": 27.1667,
+      "lon": 78.00873,
       "wiki": "Bedai",
       "summary": "A sweet shop known for Agra's breakfast of bedai puris with spicy potato curry and jalebi.",
       "expect": "A local crowd; counter service.",
@@ -449,7 +488,6 @@
         "A local crowd; counter service.",
         "Go for breakfast after the Taj sunrise."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Breakfast and sweets",
       "mustOrder": [
@@ -467,8 +505,8 @@
       "id": "agra-panchhi-petha",
       "name": "Panchhi Petha",
       "kind": "eat",
-      "lat": 27.1601,
-      "lon": 78.008,
+      "lat": 27.1592,
+      "lon": 78.01115,
       "wiki": "Petha",
       "summary": "The best-known maker of petha, Agra's translucent candied ash gourd.",
       "expect": "Many imitators use the name; look for the original branches.",
@@ -513,7 +551,6 @@
         "Many imitators use the name; look for the original branches.",
         "Buy a small mixed box; the saffron and paan flavours are popular."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Sweet shop",
       "mustOrder": [
@@ -527,5 +564,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

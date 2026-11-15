@@ -79,8 +79,8 @@
       "id": "jaipur-amber-fort",
       "name": "Amber Fort",
       "kind": "see",
-      "lat": 26.9855,
-      "lon": 75.8513,
+      "lat": 26.9859,
+      "lon": 75.8507,
       "wiki": "Amber Fort",
       "summary": "A hilltop fort-palace of courtyards, mirrored halls and ramparts above a lake.",
       "expect": "Hot, with many steps; elephant rides are offered but discouraged on welfare grounds.",
@@ -126,14 +126,22 @@
         "Hot, with many steps; elephant rides are offered but discouraged on welfare grounds.",
         "Walk or take a jeep up at 8 am."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 150675,
+          "period": "202511-202610",
+          "title": "Amber Fort",
+          "url": "https://en.wikipedia.org/wiki/Amber_Fort",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "jaipur-city-palace",
       "name": "City Palace",
       "kind": "see",
-      "lat": 26.9258,
-      "lon": 75.8237,
+      "lat": 26.9257,
+      "lon": 75.8236,
       "wiki": "City Palace, Jaipur",
       "summary": "The royal family's palace, with painted gateways, courtyards and a textile museum.",
       "expect": "A higher-priced ticket opens the private rooms.",
@@ -179,7 +187,15 @@
         "A higher-priced ticket opens the private rooms.",
         "Don't miss the four painted season gates in the inner courtyard."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 69924,
+          "period": "202511-202610",
+          "title": "City Palace, Jaipur",
+          "url": "https://en.wikipedia.org/wiki/City_Palace%2C_Jaipur",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "jaipur-hawa-mahal",
@@ -231,14 +247,22 @@
         "The famous view is from the street outside.",
         "Photograph it from a rooftop café opposite in the morning light."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 196413,
+          "period": "202511-202610",
+          "title": "Hawa Mahal",
+          "url": "https://en.wikipedia.org/wiki/Hawa_Mahal",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "jaipur-jantar-mantar",
       "name": "Jantar Mantar",
       "kind": "see",
-      "lat": 26.9248,
-      "lon": 75.8246,
+      "lat": 26.92472,
+      "lon": 75.82444,
       "wiki": "Jantar Mantar, Jaipur",
       "summary": "An 18th-century observatory of giant stone instruments, including the world's largest sundial.",
       "expect": "Little shade, and hard to follow without explanation.",
@@ -283,14 +307,22 @@
         "Little shade, and hard to follow without explanation.",
         "Hire a guide or audio guide at the gate."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 80327,
+          "period": "202511-202610",
+          "title": "Jantar Mantar, Jaipur",
+          "url": "https://en.wikipedia.org/wiki/Jantar_Mantar%2C_Jaipur",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "jaipur-nahargarh-fort",
       "name": "Nahargarh Fort",
       "kind": "see",
-      "lat": 26.9373,
-      "lon": 75.8153,
+      "lat": 26.93726,
+      "lon": 75.81549,
       "wiki": "Nahargarh Fort",
       "summary": "A ridge-top fort overlooking the whole city.",
       "expect": "A winding road; taxis back can be scarce after dark.",
@@ -335,7 +367,15 @@
         "A winding road; taxis back can be scarce after dark.",
         "Arrange a return ride and stay for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41199,
+          "period": "202511-202610",
+          "title": "Nahargarh Fort",
+          "url": "https://en.wikipedia.org/wiki/Nahargarh_Fort",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "jaipur-pink-city-bazaars",
@@ -578,5 +618,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }
