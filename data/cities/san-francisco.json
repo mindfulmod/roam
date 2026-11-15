@@ -77,8 +77,8 @@
       "id": "san-francisco-golden-gate-bridge",
       "name": "Golden Gate Bridge",
       "kind": "see",
-      "lat": 37.8199,
-      "lon": -122.4783,
+      "lat": 37.81972,
+      "lon": -122.47861,
       "wiki": "Golden Gate Bridge",
       "summary": "The 1937 suspension bridge across the mouth of the bay.",
       "expect": "Often in fog on summer mornings; windy and cold on the span.",
@@ -123,14 +123,22 @@
         "Often in fog on summer mornings; windy and cold on the span.",
         "Walk part-way from the Welcome Center, or cycle across to Sausalito and ferry back."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 649945,
+          "period": "202511-202610",
+          "title": "Golden Gate Bridge",
+          "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "san-francisco-alcatraz-island",
       "name": "Alcatraz Island",
       "kind": "see",
-      "lat": 37.827,
-      "lon": -122.423,
+      "lat": 37.82667,
+      "lon": -122.42278,
       "wiki": "Alcatraz Island",
       "summary": "The former federal prison on an island, visited with an excellent cellhouse audio tour.",
       "expect": "Tickets sell out weeks ahead in summer.",
@@ -174,7 +182,15 @@
         "Tickets sell out weeks ahead in summer.",
         "Book with the official ferry operator from Pier 33; the night tour is the best."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 362161,
+          "period": "202511-202610",
+          "title": "Alcatraz Island",
+          "url": "https://en.wikipedia.org/wiki/Alcatraz_Island",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "san-francisco-cable-cars-lombard",
@@ -227,14 +243,23 @@
         "Long queues at the Powell Street turnaround.",
         "Board a few stops up the line, or ride the quieter California Street line."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 122317,
+          "period": "202511-202610",
+          "title": "San Francisco cable car system",
+          "url": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "san-francisco-chinatown-north-beach",
       "name": "Chinatown and North Beach",
       "kind": "see",
-      "lat": 37.7941,
-      "lon": -122.4078,
+      "lat": 37.79417,
+      "lon": -122.40694,
       "wiki": "Chinatown, San Francisco",
       "summary": "The oldest Chinatown in North America, next to the Italian cafés and Beat-era bookshop of North Beach.",
       "expect": "Grant Avenue is for tourists; Stockton Street is where locals shop.",
@@ -280,7 +305,15 @@
         "Grant Avenue is for tourists; Stockton Street is where locals shop.",
         "Walk Stockton Street's markets, then cut to City Lights bookshop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 77958,
+          "period": "202511-202610",
+          "title": "Chinatown, San Francisco",
+          "url": "https://en.wikipedia.org/wiki/Chinatown%2C_San_Francisco",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "san-francisco-ferry-building",
@@ -333,14 +366,22 @@
         "The big market runs on Saturday mornings.",
         "Come on Saturday for the farmers' market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28125,
+          "period": "202511-202610",
+          "title": "San Francisco Ferry Building",
+          "url": "https://en.wikipedia.org/wiki/San_Francisco_Ferry_Building",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "san-francisco-painted-ladies",
       "name": "Painted Ladies and Alamo Square",
       "kind": "see",
-      "lat": 37.7763,
-      "lon": -122.4328,
+      "lat": 37.77639,
+      "lon": -122.43306,
       "wiki": "Painted ladies",
       "summary": "A row of pastel Victorian houses with the downtown skyline behind.",
       "expect": "A quick photo stop on a sloping park.",
@@ -385,14 +426,22 @@
         "A quick photo stop on a sloping park.",
         "Afternoon light falls on the house fronts."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 67290,
+          "period": "202511-202610",
+          "title": "Painted ladies",
+          "url": "https://en.wikipedia.org/wiki/Painted_ladies",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "san-francisco-muir-woods",
       "name": "Muir Woods",
       "kind": "see",
-      "lat": 37.8912,
-      "lon": -122.5719,
+      "lat": 37.89194,
+      "lon": -122.57083,
       "wiki": "Muir Woods National Monument",
       "summary": "A valley of old-growth coast redwoods 40 minutes north of the bridge.",
       "expect": "Parking or shuttle reservations are required.",
@@ -436,15 +485,23 @@
         "Parking or shuttle reservations are required.",
         "Reserve parking or the shuttle in advance and arrive early."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 96840,
+          "period": "202511-202610",
+          "title": "Muir Woods National Monument",
+          "url": "https://en.wikipedia.org/wiki/Muir_Woods_National_Monument",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "san-francisco-tartine-bakery",
       "name": "Tartine Bakery",
       "kind": "eat",
-      "lat": 37.7614,
-      "lon": -122.4241,
+      "lat": 37.76166,
+      "lon": -122.42368,
       "wiki": "Tartine",
       "summary": "A bakery famous across the US for country bread and morning buns.",
       "expect": "A queue most mornings.",
@@ -488,7 +545,6 @@
         "A queue most mornings.",
         "Take pastries to Dolores Park two blocks away."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Bakery",
       "mustOrder": [
@@ -551,7 +607,6 @@
         "A queue, shared tables and cash preferred.",
         "Ask for it 'dorado' to have the burrito griddled."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Mexican taqueria",
       "mustOrder": [
@@ -568,8 +623,8 @@
       "id": "san-francisco-swan-oyster-depot",
       "name": "Swan Oyster Depot",
       "kind": "eat",
-      "lat": 37.7909,
-      "lon": -122.4209,
+      "lat": 37.79094,
+      "lon": -122.42091,
       "wiki": "Swan Oyster Depot",
       "summary": "An 18-stool seafood counter open since 1912.",
       "expect": "Waits of an hour or more; cash only; closes mid-afternoon.",
@@ -614,7 +669,6 @@
         "Waits of an hour or more; cash only; closes mid-afternoon.",
         "Arrive before opening on a weekday."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Seafood counter",
       "mustOrder": [
@@ -629,5 +683,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

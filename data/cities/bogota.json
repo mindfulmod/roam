@@ -79,8 +79,8 @@
       "id": "bogota-monserrate",
       "name": "Monserrate",
       "kind": "see",
-      "lat": 4.6058,
-      "lon": -74.0556,
+      "lat": 4.60583,
+      "lon": -74.05639,
       "wiki": "Monserrate",
       "summary": "A church on a 3,152-metre peak above the city, reached by funicular or cable car.",
       "expect": "Thin air; queues at weekends when pilgrims visit.",
@@ -125,14 +125,22 @@
         "Thin air; queues at weekends when pilgrims visit.",
         "Go on a clear weekday afternoon and stay for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24974,
+          "period": "202511-202610",
+          "title": "Monserrate",
+          "url": "https://en.wikipedia.org/wiki/Monserrate",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "bogota-gold-museum",
       "name": "Gold Museum",
       "kind": "see",
-      "lat": 4.6018,
-      "lon": -74.0719,
+      "lat": 4.60192,
+      "lon": -74.072,
       "wiki": "Gold Museum, Bogotá",
       "summary": "More than 30,000 pre-Hispanic gold objects, shown in dramatic dark galleries.",
       "expect": "Closed on Mondays; free on Sundays and crowded.",
@@ -177,7 +185,15 @@
         "Closed on Mondays; free on Sundays and crowded.",
         "Save the Offering Room on the top floor for last."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15137,
+          "period": "202511-202610",
+          "title": "Gold Museum, Bogotá",
+          "url": "https://en.wikipedia.org/wiki/Gold_Museum%2C_Bogot%C3%A1",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "bogota-la-candelaria",
@@ -236,8 +252,8 @@
       "id": "bogota-botero-museum",
       "name": "Botero Museum",
       "kind": "see",
-      "lat": 4.5967,
-      "lon": -74.0731,
+      "lat": 4.59665,
+      "lon": -74.07323,
       "wiki": "Botero Museum",
       "summary": "A free museum of Fernando Botero's rounded figures, plus his collection of Picasso, Monet and Dalí.",
       "expect": "Closed on Tuesdays.",
@@ -281,14 +297,22 @@
         "Closed on Tuesdays.",
         "Combine it with the mint museum in the same complex."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6440,
+          "period": "202511-202610",
+          "title": "Museo Botero",
+          "url": "https://en.wikipedia.org/wiki/Museo_Botero",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "bogota-salt-cathedral-of-zipaquira",
       "name": "Salt Cathedral of Zipaquirá",
       "kind": "see",
-      "lat": 5.0189,
-      "lon": -74.0097,
+      "lat": 5.01876,
+      "lon": -74.0093,
       "wiki": "Salt Cathedral of Zipaquirá",
       "summary": "A cathedral carved 180 metres underground inside a salt mine, 50 km north of the city.",
       "expect": "Cool and dim, with a long walk underground.",
@@ -334,15 +358,23 @@
         "Cool and dim, with a long walk underground.",
         "Go on a weekday; Sundays are busy with worshippers."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 28014,
+          "period": "202511-202610",
+          "title": "Salt Cathedral of Zipaquirá",
+          "url": "https://en.wikipedia.org/wiki/Salt_Cathedral_of_Zipaquir%C3%A1",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "bogota-usaquen-sunday-market",
       "name": "Usaquén Sunday market",
       "kind": "shop",
-      "lat": 4.6944,
-      "lon": -74.0308,
+      "lat": 4.71972,
+      "lon": -74.03667,
       "wiki": "Usaquén",
       "summary": "A former village in the north with a Sunday craft market and good restaurants.",
       "expect": "Sunday only for the market.",
@@ -387,15 +419,14 @@
       "tradeoffs": [
         "Sunday only for the market.",
         "Come for brunch, then browse."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bogota-la-puerta-falsa",
       "name": "La Puerta Falsa",
       "kind": "eat",
-      "lat": 4.5982,
-      "lon": -74.0751,
+      "lat": 4.59792,
+      "lon": -74.07468,
       "wiki": "La Puerta Falsa",
       "summary": "A tiny eatery open since 1816, beside the cathedral.",
       "expect": "A queue and shared tables.",
@@ -440,7 +471,6 @@
         "A queue and shared tables.",
         "Order the tamal and chocolate completo."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Traditional Bogotá",
       "mustOrder": [
@@ -585,5 +615,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

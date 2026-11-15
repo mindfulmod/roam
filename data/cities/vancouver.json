@@ -72,8 +72,8 @@
       "id": "vancouver-stanley-park",
       "name": "Stanley Park Seawall",
       "kind": "see",
-      "lat": 49.3017,
-      "lon": -123.1417,
+      "lat": 49.3,
+      "lon": -123.14,
       "wiki": "Stanley Park",
       "summary": "A 9 km waterfront path around a forested peninsula, passing totem poles and beaches.",
       "expect": "The cycling lane is one-way, anticlockwise.",
@@ -119,14 +119,22 @@
         "The cycling lane is one-way, anticlockwise.",
         "Rent a bike on Denman Street and allow 90 minutes with stops."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 63426,
+          "period": "202511-202610",
+          "title": "Stanley Park",
+          "url": "https://en.wikipedia.org/wiki/Stanley_Park",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "vancouver-granville-island",
       "name": "Granville Island",
       "kind": "see",
-      "lat": 49.2712,
-      "lon": -123.134,
+      "lat": 49.27083,
+      "lon": -123.13417,
       "wiki": "Granville Island",
       "summary": "A former industrial site of artisan studios, theatres and a large public market.",
       "expect": "Very busy at weekends.",
@@ -172,14 +180,22 @@
         "Very busy at weekends.",
         "Arrive by the small Aquabus ferry."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27339,
+          "period": "202511-202610",
+          "title": "Granville Island",
+          "url": "https://en.wikipedia.org/wiki/Granville_Island",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "vancouver-capilano-suspension-bridge-park",
       "name": "Capilano Suspension Bridge Park",
       "kind": "see",
-      "lat": 49.3429,
-      "lon": -123.1149,
+      "lat": 49.34287,
+      "lon": -123.11513,
       "wiki": "Capilano Suspension Bridge",
       "summary": "A 137-metre footbridge swaying 70 metres above a river, with treetop and cliff walkways.",
       "expect": "Expensive and crowded; free shuttle from downtown.",
@@ -224,14 +240,22 @@
         "Expensive and crowded; free shuttle from downtown.",
         "Go at opening; Lynn Canyon is a free, smaller alternative."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36491,
+          "period": "202511-202610",
+          "title": "Capilano Suspension Bridge",
+          "url": "https://en.wikipedia.org/wiki/Capilano_Suspension_Bridge",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "vancouver-grouse-mountain",
       "name": "Grouse Mountain",
       "kind": "see",
-      "lat": 49.3806,
-      "lon": -123.0815,
+      "lat": 49.37956,
+      "lon": -123.0818,
       "wiki": "Grouse Mountain",
       "summary": "A gondola to a mountaintop with city views, grizzly bears in a refuge and winter skiing.",
       "expect": "Pointless in low cloud; check the webcam.",
@@ -277,14 +301,22 @@
         "Pointless in low cloud; check the webcam.",
         "Fit hikers can climb the steep Grouse Grind and ride down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30711,
+          "period": "202511-202610",
+          "title": "Grouse Mountain",
+          "url": "https://en.wikipedia.org/wiki/Grouse_Mountain",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "vancouver-gastown",
       "name": "Gastown",
       "kind": "see",
-      "lat": 49.2844,
-      "lon": -123.1089,
+      "lat": 49.28469,
+      "lon": -123.11095,
       "wiki": "Gastown",
       "summary": "The city's oldest neighbourhood: cobbles, Victorian warehouses and a steam-powered clock.",
       "expect": "It borders the troubled Downtown Eastside; stay on the main streets.",
@@ -330,14 +362,22 @@
         "It borders the troubled Downtown Eastside; stay on the main streets.",
         "Catch the steam clock on the quarter hour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 43325,
+          "period": "202511-202610",
+          "title": "Gastown",
+          "url": "https://en.wikipedia.org/wiki/Gastown",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "vancouver-museum-of-anthropology",
       "name": "Museum of Anthropology",
       "kind": "see",
-      "lat": 49.2694,
-      "lon": -123.2594,
+      "lat": 49.26947,
+      "lon": -123.25941,
       "wiki": "Museum of Anthropology at UBC",
       "summary": "A glass-and-concrete museum of Northwest Coast First Nations art and totem poles.",
       "expect": "A 30-minute bus ride from downtown; closed on Mondays in winter.",
@@ -383,14 +423,22 @@
         "A 30-minute bus ride from downtown; closed on Mondays in winter.",
         "Join a free gallery tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10967,
+          "period": "202511-202610",
+          "title": "Museum of Anthropology at UBC",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Anthropology_at_UBC",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "vancouver-granville-island-public-market",
       "name": "Granville Island Public Market",
       "kind": "eat",
-      "lat": 49.2725,
-      "lon": -123.1352,
+      "lat": 49.27083,
+      "lon": -123.13417,
       "wiki": "Granville Island Public Market",
       "summary": "A covered market of produce, bakeries, smoked salmon and food counters.",
       "expect": "Seats are scarce and seagulls bold.",
@@ -435,7 +483,6 @@
         "Seats are scarce and seagulls bold.",
         "Assemble a picnic and eat on the dock."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Market food",
       "mustOrder": [
@@ -454,8 +501,8 @@
       "id": "vancouver-miku",
       "name": "Miku",
       "kind": "eat",
-      "lat": 49.2869,
-      "lon": -123.1128,
+      "lat": 49.28706,
+      "lon": -123.11283,
       "wiki": "Aburi",
       "summary": "A waterfront restaurant that popularised flame-seared aburi sushi in Canada.",
       "expect": "Book ahead for dinner.",
@@ -500,7 +547,6 @@
         "Book ahead for dinner.",
         "Lunch sets are good value."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Japanese aburi sushi",
       "mustOrder": [
@@ -518,8 +564,8 @@
       "id": "vancouver-japadog",
       "name": "Japadog",
       "kind": "eat",
-      "lat": 49.2803,
-      "lon": -123.1183,
+      "lat": 49.2802,
+      "lon": -123.11827,
       "wiki": "Japadog",
       "summary": "A street cart turned local chain selling hot dogs with Japanese toppings.",
       "expect": "A short queue.",
@@ -563,7 +609,6 @@
         "A short queue.",
         "Try the Terimayo with seaweed and teriyaki sauce."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Japanese-style hot dogs",
       "mustOrder": [
@@ -576,5 +621,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

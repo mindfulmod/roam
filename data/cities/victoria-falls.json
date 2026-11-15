@@ -72,8 +72,8 @@
       "id": "victoria-falls-the-falls",
       "name": "Victoria Falls rainforest walk",
       "kind": "see",
-      "lat": -17.9243,
-      "lon": 25.8572,
+      "lat": -17.92444,
+      "lon": 25.85667,
       "wiki": "Victoria Falls",
       "summary": "A path along the gorge rim opposite the 1.7 km-wide curtain of falling water.",
       "expect": "You will be soaked at high water; viewpoints are slippery.",
@@ -118,7 +118,15 @@
         "You will be soaked at high water; viewpoints are slippery.",
         "Bring a raincoat and a waterproof phone pouch; go at opening or late afternoon for rainbows."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 305423,
+          "period": "202511-202610",
+          "title": "Victoria Falls",
+          "url": "https://en.wikipedia.org/wiki/Victoria_Falls",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "victoria-falls-zambezi-sunset-cruise",
@@ -170,14 +178,23 @@
         "Boats range from large and lively to small and quiet.",
         "Pay a little more for a smaller boat."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 147010,
+          "period": "202511-202610",
+          "title": "Zambezi",
+          "url": "https://en.wikipedia.org/wiki/Zambezi",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "victoria-falls-victoria-falls-bridge",
       "name": "Victoria Falls Bridge",
       "kind": "see",
-      "lat": -17.9285,
-      "lon": 25.8573,
+      "lat": -17.92833,
+      "lon": 25.85722,
       "wiki": "Victoria Falls Bridge",
       "summary": "A 1905 steel arch bridge over the gorge, with a bungy jump, swing and guided walk beneath it.",
       "expect": "You need your passport and a free bridge pass at the border post.",
@@ -223,7 +240,15 @@
         "You need your passport and a free bridge pass at the border post.",
         "Walk out for the view even if you don't jump."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16217,
+          "period": "202511-202610",
+          "title": "Victoria Falls Bridge",
+          "url": "https://en.wikipedia.org/wiki/Victoria_Falls_Bridge",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "victoria-falls-chobe",
@@ -276,14 +301,23 @@
         "Dry season (June to October) brings huge elephant herds to the river."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22524,
+          "period": "202511-202610",
+          "title": "Chobe National Park",
+          "url": "https://en.wikipedia.org/wiki/Chobe_National_Park",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "victoria-falls-devils-pool",
       "name": "Devil's Pool",
       "kind": "see",
-      "lat": -17.9247,
-      "lon": 25.8565,
+      "lat": -17.92444,
+      "lon": 25.85667,
       "wiki": "Devil's Pool (Victoria Falls)",
       "summary": "A natural rock pool on the very lip of the falls, reached by boat and a guided swim.",
       "expect": "Only at low water (about late August to December), on the Zambian side.",
@@ -328,8 +362,16 @@
         "Only at low water (about late August to December), on the Zambian side.",
         "Book well ahead and bring your passport for the border."
       ],
-      "pinApproximate": true,
-      "optional": true
+      "optional": true,
+      "signals": {
+        "wikipedia": {
+          "views": 305423,
+          "period": "202511-202610",
+          "title": "Victoria Falls",
+          "url": "https://en.wikipedia.org/wiki/Victoria_Falls",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "victoria-falls-the-lookout-cafe",
@@ -464,8 +506,8 @@
       "id": "victoria-falls-victoria-falls-hotel-terrace",
       "name": "Stanley's Terrace, Victoria Falls Hotel",
       "kind": "eat",
-      "lat": -17.9278,
-      "lon": 25.8413,
+      "lat": -17.9307,
+      "lon": 25.8426,
       "wiki": "Victoria Falls Hotel",
       "summary": "Afternoon tea on the lawn terrace of a 1904 hotel, facing the bridge and the spray.",
       "expect": "A formal, colonial-era setting.",
@@ -511,7 +553,6 @@
         "A formal, colonial-era setting.",
         "Book high tea for 3 pm."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Afternoon tea",
       "mustOrder": [
@@ -524,5 +565,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

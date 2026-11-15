@@ -78,8 +78,8 @@
       "id": "new-york-central-park",
       "name": "Central Park",
       "kind": "see",
-      "lat": 40.7812,
-      "lon": -73.9665,
+      "lat": 40.78222,
+      "lon": -73.96528,
       "wiki": "Central Park",
       "summary": "An 843-acre park of lawns, lakes and woodland in the middle of Manhattan.",
       "expect": "Bigger than it looks; cyclists on the loop road.",
@@ -124,14 +124,22 @@
         "Bigger than it looks; cyclists on the loop road.",
         "Enter at 72nd Street for Bethesda Terrace, Bow Bridge and the Ramble."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 512437,
+          "period": "202511-202610",
+          "title": "Central Park",
+          "url": "https://en.wikipedia.org/wiki/Central_Park",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "new-york-metropolitan-museum-of-art",
       "name": "Metropolitan Museum of Art",
       "kind": "see",
       "lat": 40.7794,
-      "lon": -73.9632,
+      "lon": -73.9631,
       "wiki": "Metropolitan Museum of Art",
       "summary": "One of the world's largest art museums, from an Egyptian temple to modern painting.",
       "expect": "Far too big for one visit.",
@@ -176,14 +184,22 @@
         "Far too big for one visit.",
         "Pick three sections; the roof garden is open in warm months."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 388866,
+          "period": "202511-202610",
+          "title": "Metropolitan Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Museum_of_Art",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "new-york-statue-of-liberty",
       "name": "Statue of Liberty and Ellis Island",
       "kind": "see",
-      "lat": 40.6892,
-      "lon": -74.0445,
+      "lat": 40.68917,
+      "lon": -74.04444,
       "wiki": "Statue of Liberty",
       "summary": "Ferries to Liberty Island and the immigration museum on Ellis Island.",
       "expect": "Airport-style security; crown and pedestal tickets sell out months ahead.",
@@ -228,14 +244,22 @@
         "Airport-style security; crown and pedestal tickets sell out months ahead.",
         "Book the first ferry with the official operator only; ignore street sellers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1445948,
+          "period": "202511-202610",
+          "title": "Statue of Liberty",
+          "url": "https://en.wikipedia.org/wiki/Statue_of_Liberty",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "new-york-brooklyn-bridge",
       "name": "Brooklyn Bridge and DUMBO",
       "kind": "see",
-      "lat": 40.7061,
-      "lon": -73.9969,
+      "lat": 40.7057,
+      "lon": -73.9964,
       "wiki": "Brooklyn Bridge",
       "summary": "A walk across the 1883 suspension bridge to cobbled waterfront streets with skyline views.",
       "expect": "Crowded at midday.",
@@ -281,14 +305,22 @@
         "Crowded at midday.",
         "Walk from Brooklyn towards Manhattan for the skyline ahead of you, at sunrise or dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 453250,
+          "period": "202511-202610",
+          "title": "Brooklyn Bridge",
+          "url": "https://en.wikipedia.org/wiki/Brooklyn_Bridge",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "new-york-9-11-memorial-and-museum",
       "name": "9/11 Memorial and Museum",
       "kind": "see",
-      "lat": 40.7115,
-      "lon": -74.0134,
+      "lat": 40.71167,
+      "lon": -74.01361,
       "wiki": "National September 11 Memorial & Museum",
       "summary": "Twin reflecting pools in the towers' footprints, with an underground museum.",
       "expect": "The memorial is free; the museum is ticketed and emotionally heavy.",
@@ -332,7 +364,15 @@
         "The memorial is free; the museum is ticketed and emotionally heavy.",
         "Allow two hours for the museum and book a timed ticket."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 292362,
+          "period": "202511-202610",
+          "title": "National September 11 Memorial & Museum",
+          "url": "https://en.wikipedia.org/wiki/National_September_11_Memorial_%26_Museum",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "new-york-high-line",
@@ -385,14 +425,23 @@
         "Slow-moving crowds at weekends.",
         "Walk north to south and finish with food at Chelsea Market."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 147937,
+          "period": "202511-202610",
+          "title": "High Line",
+          "url": "https://en.wikipedia.org/wiki/High_Line",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "new-york-top-of-the-rock",
       "name": "Top of the Rock",
       "kind": "see",
-      "lat": 40.7593,
-      "lon": -73.9794,
+      "lat": 40.75889,
+      "lon": -73.97917,
       "wiki": "30 Rockefeller Plaza",
       "summary": "Open-air observation decks on the 70th floor of Rockefeller Center.",
       "expect": "Timed tickets; sunset slots cost extra and sell out.",
@@ -437,14 +486,22 @@
         "Timed tickets; sunset slots cost extra and sell out.",
         "Choose this deck to see both the Empire State Building and Central Park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 169354,
+          "period": "202511-202610",
+          "title": "30 Rockefeller Plaza",
+          "url": "https://en.wikipedia.org/wiki/30_Rockefeller_Plaza",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "new-york-katzs-delicatessen",
       "name": "Katz's Delicatessen",
       "kind": "eat",
-      "lat": 40.7223,
-      "lon": -73.9874,
+      "lat": 40.72233,
+      "lon": -73.98742,
       "wiki": "Katz's Delicatessen",
       "summary": "A delicatessen from 1888 serving hand-carved pastrami on rye.",
       "expect": "Queues, and a ticket you must keep to pay on the way out.",
@@ -490,7 +547,6 @@
         "Queues, and a ticket you must keep to pay on the way out.",
         "Go to a carver's line, tip a dollar and share one sandwich."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Jewish delicatessen",
       "mustOrder": [
@@ -508,8 +564,8 @@
       "id": "new-york-joes-pizza",
       "name": "Joe's Pizza",
       "kind": "eat",
-      "lat": 40.7306,
-      "lon": -74.0021,
+      "lat": 40.73066,
+      "lon": -74.00219,
       "wiki": "Joe's Pizza",
       "summary": "A slice shop on Carmine Street since 1975.",
       "expect": "A queue and standing room.",
@@ -553,7 +609,6 @@
         "A queue and standing room.",
         "Order a plain cheese slice and eat it folded."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "New York pizza",
       "mustOrder": [
@@ -570,8 +625,8 @@
       "id": "new-york-russ-and-daughters",
       "name": "Russ & Daughters",
       "kind": "eat",
-      "lat": 40.7226,
-      "lon": -73.9883,
+      "lat": 40.72259,
+      "lon": -73.98832,
       "wiki": "Russ & Daughters",
       "summary": "A century-old 'appetizing' shop for smoked fish, bagels and cream cheese.",
       "expect": "Take a number; takeaway only at the shop.",
@@ -617,7 +672,6 @@
         "Take a number; takeaway only at the shop.",
         "Go on a weekday morning; the café on Orchard Street has tables."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Smoked fish and bagels",
       "mustOrder": [
@@ -634,7 +688,7 @@
       "id": "new-york-chinatown-dumplings",
       "name": "Chinatown dumplings",
       "kind": "eat",
-      "lat": 40.7158,
+      "lat": 40.715,
       "lon": -73.997,
       "wiki": "Chinatown, Manhattan",
       "summary": "Small shops around Mott, Doyers and Eldridge streets selling dumplings, noodles and roast meats.",
@@ -679,7 +733,6 @@
         "Some places are cash only.",
         "Eat at two or three shops rather than one."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Chinese",
       "mustOrder": [
@@ -694,5 +747,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }

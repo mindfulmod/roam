@@ -71,8 +71,8 @@
       "id": "banff-lake-louise",
       "name": "Lake Louise",
       "kind": "see",
-      "lat": 51.4168,
-      "lon": -116.2177,
+      "lat": 51.41167,
+      "lon": -116.22806,
       "wiki": "Lake Louise (Alberta)",
       "summary": "A turquoise glacial lake beneath Victoria Glacier.",
       "expect": "Parking is full by sunrise in summer.",
@@ -118,14 +118,22 @@
         "Parking is full by sunrise in summer.",
         "Book the Parks Canada shuttle and walk to the Lake Agnes Tea House."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 49288,
+          "period": "202511-202610",
+          "title": "Lake Louise (Alberta)",
+          "url": "https://en.wikipedia.org/wiki/Lake_Louise_(Alberta)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "banff-moraine-lake",
       "name": "Moraine Lake",
       "kind": "see",
-      "lat": 51.3217,
-      "lon": -116.186,
+      "lat": 51.3225,
+      "lon": -116.18556,
       "wiki": "Moraine Lake",
       "summary": "A vivid blue lake ringed by ten peaks.",
       "expect": "No private cars; shuttle or tour bus only, and it is closed in winter.",
@@ -170,14 +178,22 @@
         "No private cars; shuttle or tour bus only, and it is closed in winter.",
         "Book the shuttle the moment reservations open; climb the Rockpile for the view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 45154,
+          "period": "202511-202610",
+          "title": "Moraine Lake",
+          "url": "https://en.wikipedia.org/wiki/Moraine_Lake",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "banff-banff-gondola",
       "name": "Banff Gondola and Sulphur Mountain",
       "kind": "see",
-      "lat": 51.1445,
-      "lon": -115.5743,
+      "lat": 51.12361,
+      "lon": -115.55583,
       "wiki": "Sulphur Mountain (Alberta)",
       "summary": "A gondola to a 2,281-metre summit with a ridge boardwalk and views of six ranges.",
       "expect": "Pricey; cheaper off-peak slots.",
@@ -222,14 +238,22 @@
         "Pricey; cheaper off-peak slots.",
         "Hike up for free and ride down, or go late for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12434,
+          "period": "202511-202610",
+          "title": "Sulphur Mountain (Alberta)",
+          "url": "https://en.wikipedia.org/wiki/Sulphur_Mountain_(Alberta)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "banff-johnston-canyon",
       "name": "Johnston Canyon",
       "kind": "see",
-      "lat": 51.2454,
-      "lon": -115.8398,
+      "lat": 51.2417,
+      "lon": -115.8544,
       "wiki": "Johnston Canyon",
       "summary": "Catwalks bolted to canyon walls lead to two waterfalls.",
       "expect": "Very busy at midday; icy in winter.",
@@ -274,7 +298,15 @@
         "Very busy at midday; icy in winter.",
         "Go before 9 am or after 5 pm."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1730,
+          "period": "202511-202610",
+          "title": "Johnston Creek (Alberta)",
+          "url": "https://en.wikipedia.org/wiki/Johnston_Creek_(Alberta)",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "banff-icefields-parkway",
@@ -328,14 +360,23 @@
         "Drive as far as the Columbia Icefield and back, stopping at Bow and Peyto lakes."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12077,
+          "period": "202511-202610",
+          "title": "Alberta Highway 93",
+          "url": "https://en.wikipedia.org/wiki/Alberta_Highway_93",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "banff-banff-upper-hot-springs",
       "name": "Banff Upper Hot Springs",
       "kind": "see",
-      "lat": 51.1508,
-      "lon": -115.5613,
+      "lat": 51.15056,
+      "lon": -115.56083,
       "wiki": "Banff Upper Hot Springs",
       "summary": "An outdoor thermal pool with mountain views.",
       "expect": "A public pool, busy in the evening.",
@@ -380,14 +421,22 @@
         "A public pool, busy in the evening.",
         "Go after a hike or on a snowy evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7432,
+          "period": "202511-202610",
+          "title": "Banff Upper Hot Springs",
+          "url": "https://en.wikipedia.org/wiki/Banff_Upper_Hot_Springs",
+          "checked": "2026-11-15"
+        }
+      }
     },
     {
       "id": "banff-park-distillery",
       "name": "Park Distillery",
       "kind": "eat",
-      "lat": 51.1764,
-      "lon": -115.5712,
+      "lat": 51.17773,
+      "lon": -115.57128,
       "wiki": "Banff, Alberta",
       "summary": "A restaurant and distillery serving campfire-style cooking.",
       "expect": "Busy; book for dinner.",
@@ -431,7 +480,6 @@
         "Busy; book for dinner.",
         "Try a spirit flight made with glacier water."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Canadian campfire cooking",
       "mustOrder": [
@@ -513,8 +561,8 @@
       "id": "banff-beavertails",
       "name": "BeaverTails",
       "kind": "eat",
-      "lat": 51.1761,
-      "lon": -115.5709,
+      "lat": 51.17551,
+      "lon": -115.57074,
       "wiki": "BeaverTails",
       "summary": "A stand selling flat fried dough pastries with sweet toppings.",
       "expect": "A queue on summer evenings.",
@@ -558,7 +606,6 @@
         "A queue on summer evenings.",
         "The classic is cinnamon sugar with lemon."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Fried dough pastry",
       "mustOrder": [
@@ -571,5 +618,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-15"
 }
