@@ -208,7 +208,7 @@ function buildCity(s, costs) {
     connections: s.connections || [],
     sources: [],
     reviewSummary:
-      'These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership, and from Google Maps once it is connected; places without a number are kept unranked.',
+      'These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership; places without a number, including most restaurants, are kept unranked.',
     reviewSource: tripadvisor(`${s.name.split(' · ')[0]} things to do`),
     popularity: {},
     dayClusters: null,

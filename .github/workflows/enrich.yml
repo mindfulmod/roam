@@ -31,8 +31,6 @@ jobs:
       - run: npm i --no-save sharp@0.34.3
       - run: node scripts/add-city.mjs
       - run: node scripts/enrich.mjs ${{ inputs.cities && format('--city {0}', inputs.cities) || '' }}
-        env:
-          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
       - run: node scripts/check-data.mjs
       - run: npm run build
       - name: Commit results

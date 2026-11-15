@@ -31,6 +31,6 @@ Each city needs at least 5 sights and 3 food places. Aim for 6 sights, 3 or 4 fo
 ## Rules
 
 - Only places you are confident exist and are open. Prefer long-established venues. The enrich report lists venues the map could not find; check those by hand.
-- Ratings are never typed in. Popularity comes from Wikipedia readership and (when the key is set) Google Maps, fetched by script.
+- Ratings are never typed in. Popularity comes from Wikipedia readership, fetched by script. Google ratings are not used: Google's terms don't allow showing them here.
 - Photos come only from Wikimedia Commons with author and licence, and only from an article about that place. A place with no photo shows "No photo yet"; never borrow one.
 - Don't run prettier on `data/cities`.
