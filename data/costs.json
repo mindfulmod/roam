@@ -869,6 +869,37 @@
       "hop": [80, 220],
       "via": "Usually via Auckland or Sydney",
       "note": "Activities such as bungy, jet boats and Milford flights are the main cost and are not included."
+    },
+    "new-york": {
+      "hotel": [220, 450]
+    },
+    "san-francisco": {
+      "hotel": [170, 340]
+    },
+    "vancouver": {
+      "hotel": [160, 320]
+    },
+    "banff": {
+      "hotel": [200, 450],
+      "via": "Fly into Calgary, then about 90 minutes by road",
+      "car": true,
+      "note": "Park pass, shuttles and gondolas are extra."
+    },
+    "victoria-falls": {
+      "hotel": [120, 350],
+      "hop": [150, 350],
+      "via": "Usually via Johannesburg, Addis Ababa or Nairobi",
+      "fare": 1.15,
+      "note": "Park entry is about USD 50 and activities are priced in US dollars."
+    },
+    "bogota": {
+      "hotel": [50, 130]
+    },
+    "galapagos": {
+      "hotel": [90, 250],
+      "hop": [350, 550],
+      "via": "Via Quito or Guayaquil",
+      "note": "National park entry (USD 200 for most foreign adults) and day boats (USD 150 to 300 each) are extra."
     }
   },
   "sources": [
@@ -1006,6 +1037,13 @@
     "petra": "LLHPHSLLHPHL",
     "luang-prabang": "PHSLLLLLSHPP",
     "sydney": "PHHHSLLLSHHP",
-    "queenstown": "PPHSLSPPSSHP"
+    "queenstown": "PPHSLSPPSSHP",
+    "new-york": "LLSHHHSSPHHP",
+    "san-francisco": "LLSSHHHHPPSL",
+    "vancouver": "LLLSHHPPHSLS",
+    "banff": "HHSLSHPPHSLH",
+    "victoria-falls": "SSSSHHPPHHSH",
+    "bogota": "HSSSLSHHSLSH",
+    "galapagos": "HHHHSHHHSLSH"
   }
 }
