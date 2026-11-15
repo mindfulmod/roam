@@ -1,0 +1,590 @@
+{
+  "id": "delhi",
+  "name": "Delhi",
+  "country": "India",
+  "region": "Asia",
+  "lat": 28.6139,
+  "lon": 77.209,
+  "wiki": "Delhi",
+  "tagline": "Mughal tombs and old bazaars",
+  "summary": "Split Delhi into Old Delhi's bazaars and mosque, New Delhi's avenues and tombs, and the Qutb complex in the south. Use the metro to avoid traffic and start early to avoid heat.",
+  "days": 3,
+  "bestMonths": [
+    10,
+    11,
+    2,
+    3
+  ],
+  "seasonNote": "April to June is extremely hot; winter mornings can bring heavy smog and fog delays.",
+  "arrival": "The Airport Express metro reaches New Delhi station in about 20 minutes; use prepaid taxis or ride-hailing apps.",
+  "gettingAround": "The metro is clean, cheap and air-conditioned; use ride-hailing apps rather than street taxis.",
+  "cashTip": "Carry small rupee notes for rickshaws, street food and tips; UPI is everywhere but is difficult for visitors.",
+  "dailyBudget": [
+    2500,
+    6000
+  ],
+  "currency": "INR",
+  "cashPerDay": [
+    1000,
+    2500
+  ],
+  "foodTip": "Try chaat, parathas, butter chicken, kebabs and kulfi; choose busy stalls and drink bottled water.",
+  "buyTip": "Textiles, spices and handicrafts from fixed-price state emporiums or Dilli Haat.",
+  "baseArea": "Connaught Place, or South Delhi near a metro station",
+  "connections": [
+    {
+      "to": "agra",
+      "mode": "Train",
+      "minutes": 100,
+      "note": "Gatimaan and Vande Bharat expresses from Hazrat Nizamuddin or New Delhi; book ahead."
+    },
+    {
+      "to": "jaipur",
+      "mode": "Train",
+      "minutes": 270,
+      "note": "Several express trains daily; about 5 hours by road."
+    },
+    {
+      "to": "kathmandu",
+      "mode": "Flight",
+      "minutes": 100,
+      "note": "Air time only."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.delhitourism.gov.in",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Delhi on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Delhi",
+      "type": "reference",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Delhi%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-15"
+    }
+  ],
+  "reviewSummary": "These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership, and from Google Maps once it is connected; places without a number are kept unranked.",
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Delhi%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Humayun's Tomb",
+  "added": "2026-11-15",
+  "items": [
+    {
+      "id": "delhi-humayuns-tomb",
+      "name": "Humayun's Tomb",
+      "kind": "see",
+      "lat": 28.5933,
+      "lon": 77.2507,
+      "wiki": "Humayun's Tomb",
+      "summary": "A red sandstone and marble garden tomb from 1570, the model for the Taj Mahal.",
+      "expect": "Higher entry price for foreign visitors; calm, large gardens.",
+      "tip": "Go in the late afternoon and add the Sunder Nursery gardens next door.",
+      "area": "Nizamuddin",
+      "duration": 1.5,
+      "price": [
+        40,
+        600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Humayun's%20Tomb%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Humayun's%20Tomb%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Humayun's%20Tomb%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A red sandstone and marble garden tomb from 1570, the model for the Taj Mahal.",
+        "It is the first great Mughal garden tomb and Delhi's most beautiful monument."
+      ],
+      "visitFlow": [
+        "Enter through the west gate.",
+        "Walk the garden axis and climb to the tomb platform."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Higher entry price for foreign visitors; calm, large gardens.",
+        "Go in the late afternoon and add the Sunder Nursery gardens next door."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "delhi-red-fort",
+      "name": "Red Fort",
+      "kind": "see",
+      "lat": 28.6562,
+      "lon": 77.241,
+      "wiki": "Red Fort",
+      "summary": "The vast red sandstone palace-fort of the Mughal emperors.",
+      "expect": "Closed on Mondays; security queues and a lot of walking.",
+      "tip": "Buy the ticket online to skip the counter queue.",
+      "area": "Old Delhi",
+      "duration": 2,
+      "price": [
+        50,
+        600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Red%20Fort%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Red%20Fort%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Red%20Fort%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The vast red sandstone palace-fort of the Mughal emperors.",
+        "It was the seat of Mughal power for two centuries."
+      ],
+      "visitFlow": [
+        "Enter by the Lahori Gate and bazaar.",
+        "See the audience halls and marble pavilions."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Closed on Mondays; security queues and a lot of walking.",
+        "Buy the ticket online to skip the counter queue."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "delhi-jama-masjid-chandni-chowk",
+      "name": "Jama Masjid and Chandni Chowk",
+      "kind": "see",
+      "lat": 28.6507,
+      "lon": 77.2334,
+      "wiki": "Jama Masjid, Delhi",
+      "summary": "India's largest mosque, above the packed lanes and bazaars of Old Delhi.",
+      "expect": "Intense crowds, noise and traffic; robes are lent to visitors at the mosque.",
+      "tip": "Take a guided walk or a cycle rickshaw through the spice market.",
+      "area": "Old Delhi",
+      "duration": 2.5,
+      "price": [
+        0,
+        500
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Jama%20Masjid%20and%20Chandni%20Chowk%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Jama%20Masjid%20and%20Chandni%20Chowk%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Jama%20Masjid%20and%20Chandni%20Chowk%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "History",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "India's largest mosque, above the packed lanes and bazaars of Old Delhi.",
+        "It is the most vivid street life in the city."
+      ],
+      "visitFlow": [
+        "Visit the mosque outside prayer times.",
+        "Ride or walk through Chandni Chowk to the spice market."
+      ],
+      "bestFor": "Visitors interested in sacred places and history and context",
+      "tradeoffs": [
+        "Intense crowds, noise and traffic; robes are lent to visitors at the mosque.",
+        "Take a guided walk or a cycle rickshaw through the spice market."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "delhi-qutub-minar",
+      "name": "Qutub Minar",
+      "kind": "see",
+      "lat": 28.5245,
+      "lon": 77.1855,
+      "wiki": "Qutb Minar",
+      "summary": "A 73-metre carved victory tower from 1193, surrounded by ruins and an iron pillar that does not rust.",
+      "expect": "Busy at weekends.",
+      "tip": "Come at opening for soft light on the carved stone.",
+      "area": "Mehrauli",
+      "duration": 1.25,
+      "price": [
+        40,
+        600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Qutub%20Minar%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Qutub%20Minar%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Qutub%20Minar%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A 73-metre carved victory tower from 1193, surrounded by ruins and an iron pillar that does not rust.",
+        "It is the finest early Islamic monument in India."
+      ],
+      "visitFlow": [
+        "Circle the tower.",
+        "See the mosque ruins and iron pillar."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Busy at weekends.",
+        "Come at opening for soft light on the carved stone."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "delhi-india-gate",
+      "name": "India Gate and Kartavya Path",
+      "kind": "see",
+      "lat": 28.6129,
+      "lon": 77.2295,
+      "wiki": "India Gate",
+      "summary": "A war memorial arch at the end of the ceremonial avenue leading to the presidential palace.",
+      "expect": "Crowds of families in the evening.",
+      "tip": "Visit after dark when it is lit and the air is cooler.",
+      "area": "New Delhi",
+      "duration": 0.75,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=India%20Gate%20and%20Kartavya%20Path%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=India%20Gate%20and%20Kartavya%20Path%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=India%20Gate%20and%20Kartavya%20Path%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A war memorial arch at the end of the ceremonial avenue leading to the presidential palace.",
+        "It is the centrepiece of Lutyens' planned capital."
+      ],
+      "visitFlow": [
+        "Walk the lawns around the arch.",
+        "Look down the avenue to Rashtrapati Bhavan."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Crowds of families in the evening.",
+        "Visit after dark when it is lit and the air is cooler."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "delhi-gurudwara-bangla-sahib",
+      "name": "Gurudwara Bangla Sahib",
+      "kind": "see",
+      "lat": 28.6263,
+      "lon": 77.2091,
+      "wiki": "Gurdwara Bangla Sahib",
+      "summary": "A gold-domed Sikh temple with a sacred pool and a free community kitchen feeding thousands daily.",
+      "expect": "Cover your head and remove shoes; scarves are provided.",
+      "tip": "Sit down for the free langar meal, or volunteer in the kitchen.",
+      "area": "Connaught Place",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Gurudwara%20Bangla%20Sahib%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Gurudwara%20Bangla%20Sahib%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Gurudwara%20Bangla%20Sahib%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Food"
+      ],
+      "whyVisit": [
+        "A gold-domed Sikh temple with a sacred pool and a free community kitchen feeding thousands daily.",
+        "It is the most welcoming religious site in Delhi."
+      ],
+      "visitFlow": [
+        "Leave shoes at the counter.",
+        "Walk around the pool and visit the kitchen."
+      ],
+      "bestFor": "Visitors interested in sacred places and regional food",
+      "tradeoffs": [
+        "Cover your head and remove shoes; scarves are provided.",
+        "Sit down for the free langar meal, or volunteer in the kitchen."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "delhi-karims",
+      "name": "Karim's",
+      "kind": "eat",
+      "lat": 28.6497,
+      "lon": 77.2337,
+      "wiki": "Karim's",
+      "summary": "A Mughlai restaurant in a lane beside the Jama Masjid, open since 1913.",
+      "expect": "Basic rooms and brisk service.",
+      "tip": "Go for an early lunch after visiting the mosque.",
+      "area": "Old Delhi",
+      "duration": 1,
+      "price": [
+        400,
+        900
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Early lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Karim's%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Karim's%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Karim's%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "A Mughlai restaurant in a lane beside the Jama Masjid, open since 1913.",
+        "The family traces its recipes to the Mughal royal kitchens."
+      ],
+      "visitFlow": [
+        "Find the lane by Gate 1 of the mosque.",
+        "Order kebabs, mutton korma and roti."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "Basic rooms and brisk service.",
+        "Go for an early lunch after visiting the mosque."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Mughlai",
+      "mustOrder": [
+        "Mutton burra kebab",
+        "Mutton korma",
+        "Sheermal bread"
+      ],
+      "dietary": {
+        "halal": "operator-stated",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "delhi-paranthe-wali-gali",
+      "name": "Paranthe Wali Gali",
+      "kind": "eat",
+      "lat": 28.656,
+      "lon": 77.2303,
+      "wiki": "Paranthe Wali Gali",
+      "summary": "A narrow lane of shops frying stuffed parathas since the 1870s.",
+      "expect": "Cramped benches and deep-fried food.",
+      "tip": "Share two or three fillings between you.",
+      "area": "Chandni Chowk",
+      "duration": 0.5,
+      "price": [
+        100,
+        250
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Breakfast",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Paranthe%20Wali%20Gali%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Paranthe%20Wali%20Gali%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Paranthe%20Wali%20Gali%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "A narrow lane of shops frying stuffed parathas since the 1870s.",
+        "A classic vegetarian Old Delhi breakfast."
+      ],
+      "visitFlow": [
+        "Pick a shop with seats.",
+        "Order potato, paneer and a sweet rabri paratha."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "Cramped benches and deep-fried food.",
+        "Share two or three fillings between you."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Stuffed parathas",
+      "mustOrder": [
+        "Aloo paratha",
+        "Paneer paratha",
+        "Rabri paratha"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "fully-vegetarian",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "delhi-bukhara",
+      "name": "Bukhara",
+      "kind": "eat",
+      "lat": 28.5969,
+      "lon": 77.1734,
+      "wiki": "Bukhara (restaurant)",
+      "summary": "A famous hotel restaurant for tandoor kebabs and slow-cooked black dal, eaten by hand.",
+      "expect": "Very expensive by local standards; book well ahead.",
+      "tip": "Order one kebab, the dal and a naan to share.",
+      "area": "ITC Maurya, Chanakyapuri",
+      "duration": 1.5,
+      "price": [
+        4000,
+        7000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner by reservation",
+      "reservation": "Essential",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bukhara%2C%20Delhi",
+        "https://www.google.com/maps/search/?api=1&query=Bukhara%2C%20Delhi"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Bukhara%2C%20Delhi",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A famous hotel restaurant for tandoor kebabs and slow-cooked black dal, eaten by hand.",
+        "Its dal Bukhara is the benchmark version of the dish."
+      ],
+      "visitFlow": [
+        "Reserve in advance.",
+        "Share the sikandari raan or kebabs with dal Bukhara."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Very expensive by local standards; book well ahead.",
+        "Order one kebab, the dal and a naan to share."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "North-West Frontier",
+      "mustOrder": [
+        "Dal Bukhara",
+        "Sikandari raan",
+        "Tandoori jhinga"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ]
+}

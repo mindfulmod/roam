@@ -204,12 +204,15 @@ for (const id of meta.cityOrder) {
     const page = pages.get(p.wiki);
     if (photos[p.id] || !page?.image || p.wiki === city.wiki) continue;
     if (p.kind !== 'see' && !(page.coords && km(p, page.coords) <= 3)) continue;
-    if (p.kind === 'see' && page.coords && km(p, page.coords) > (p.excursion || p.duration >= 6 ? 100 : 15)) continue;
+    // An article without coordinates is about a thing (a dish, the aurora), not this place: its photo could be from anywhere.
+    if (!page.coords) continue;
+    if (p.kind === 'see' && km(p, page.coords) > (p.excursion || p.duration >= 6 ? 100 : 15)) continue;
     want.set(p.id, page.image);
   }
   const coverCandidates = [city.coverWiki, ...city.items.filter((p) => p.kind === 'see').sort((a, b) => a.priority - b.priority).map((p) => p.wiki), city.wiki]
-    .map((t) => pages.get(t)?.image)
-    .filter(Boolean);
+    .map((t) => pages.get(t))
+    .filter((pg) => pg?.image && pg.coords && km(city, pg.coords) <= 120)
+    .map((pg) => pg.image);
   const info = await imageInfo([...new Set([...want.values(), ...coverCandidates])], 960);
   const taken = new Set();
   let withPhoto = 0;
@@ -234,9 +237,8 @@ for (const id of meta.cityOrder) {
   city.enriched = today;
   await writeJson(file, city);
   await writeJson('data/photos.json', photos);
-  const sights = city.items.filter((p) => p.kind === 'see').length;
   report.push(
-    `## ${city.name}\n\n${fixed} of ${city.items.length} pins confirmed, ${withPhoto} of ${sights} sights with a photo, cover: ${photos[id] ? photos[id].commonsTitle : 'none'}.\n` +
+    `## ${city.name}\n\n${fixed} of ${city.items.length} pins confirmed, ${withPhoto} of ${city.items.length} places with a photo, cover: ${photos[id] ? photos[id].commonsTitle : 'none'}.\n` +
       (notes.length ? '\n' + notes.map((n) => `- ${n}`).join('\n') + '\n' : ''),
   );
   console.log(`${id}: ${fixed} pins, ${withPhoto} photos, ${notes.length} notes`);

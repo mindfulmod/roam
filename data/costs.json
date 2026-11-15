@@ -813,6 +813,62 @@
     },
     "krakow": {
       "hotel": [70, 150]
+    },
+    "sapporo": {
+      "hotel": [70, 160],
+      "hop": [60, 180],
+      "via": "Usually via Tokyo"
+    },
+    "kanazawa": {
+      "hotel": [70, 160],
+      "hop": [60, 150],
+      "via": "Usually by Shinkansen from Tokyo"
+    },
+    "fukuoka": {
+      "hotel": [65, 150],
+      "hop": [50, 150],
+      "via": "Direct flights from much of Asia, otherwise via Tokyo or Osaka"
+    },
+    "phuket": {
+      "hotel": [50, 150],
+      "hop": [60, 160],
+      "via": "Usually via Bangkok or Singapore"
+    },
+    "hoi-an": {
+      "hotel": [30, 90],
+      "via": "Fly into Da Nang, then about 45 minutes by road"
+    },
+    "delhi": {
+      "hotel": [45, 130]
+    },
+    "jaipur": {
+      "hotel": [40, 130],
+      "hop": [40, 120],
+      "via": "Usually via Delhi"
+    },
+    "agra": {
+      "hotel": [35, 120],
+      "via": "Usually by train or road from Delhi"
+    },
+    "petra": {
+      "hotel": [60, 180],
+      "hop": [60, 160],
+      "via": "Fly into Amman or Aqaba, then 2 to 3 hours by road",
+      "note": "Petra entry is 50 to 60 JOD for one to three days unless covered by a Jordan Pass."
+    },
+    "luang-prabang": {
+      "hotel": [35, 110],
+      "hop": [80, 200],
+      "via": "Usually via Bangkok, Hanoi or Vientiane"
+    },
+    "sydney": {
+      "hotel": [150, 300]
+    },
+    "queenstown": {
+      "hotel": [150, 320],
+      "hop": [80, 220],
+      "via": "Usually via Auckland or Sydney",
+      "note": "Activities such as bungy, jet boats and Milford flights are the main cost and are not included."
     }
   },
   "sources": [
@@ -938,6 +994,18 @@
     "dubrovnik": "LLLSHHPPHSLL",
     "reykjavik": "SSSLSHPPHSLH",
     "amalfi": "LLLSHPPPHSLL",
-    "krakow": "LLSSHHHHHSLH"
+    "krakow": "LLSSHHHHHSLH",
+    "sapporo": "HPSLSHHHSSLH",
+    "kanazawa": "LLSHHSSSSHHL",
+    "fukuoka": "LLHHHSHSSHHS",
+    "phuket": "PPHSLLSSLLHP",
+    "hoi-an": "SHHHHHHHSLLS",
+    "delhi": "HHHSLLLLSHHP",
+    "jaipur": "HHHSLLLLSHHP",
+    "agra": "HHHSLLLLSHHP",
+    "petra": "LLHPHSLLHPHL",
+    "luang-prabang": "PHSLLLLLSHPP",
+    "sydney": "PHHHSLLLSHHP",
+    "queenstown": "PPHSLSPPSSHP"
   }
 }
