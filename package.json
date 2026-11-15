@@ -8,9 +8,11 @@
     "build": "node scripts/build.mjs",
     "build:single": "node scripts/build.mjs --single",
     "dev": "node scripts/build.mjs && npx --yes serve@14 dist",
+    "test": "node scripts/build.mjs && node --test \"tests/*.test.mjs\"",
     "format": "prettier --write src scripts data/cities data/*.json"
   },
   "devDependencies": {
+    "playwright": "^1.63.0",
     "prettier": "3.6.2"
   }
 }
