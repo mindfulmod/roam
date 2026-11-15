@@ -70,6 +70,9 @@ const paths = {
   contrast: 'M22 12a10 10 0 1 1-20 0 10 10 0 0 1 20 0M12 2v20',
   share: 'M12 15V3m-4 4 4-4 4 4M6 11H4v10h16V11h-2',
   calendar: 'M4 5h16v16H4ZM4 10h16M8 3v4m8-4v4',
+  more: 'M5 12h.01M12 12h.01M19 12h.01',
+  friends:
+    'M16 20v-1.5a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4V20M9 10.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7M22 20v-1.5a4 4 0 0 0-3-3.9M15.5 3.7a3.5 3.5 0 0 1 0 6.6',
   link: 'M10 14a5 5 0 0 0 7 0l3-3a5 5 0 0 0-7-7l-1 1m2 5a5 5 0 0 0-7 0l-3 3a5 5 0 0 0 7 7l1-1',
 };
 // The offline world outline, painted in the current theme's land and border colours.
@@ -946,6 +949,7 @@ function updateCounts() {
     e.textContent = S.trip.length;
     e.toggleAttribute('data-zero', !S.trip.length);
   });
+  socHeader();
   updateMiniCart();
 }
 function headerActive(page) {
@@ -2303,6 +2307,7 @@ function doImport(merge) {
 function route() {
   closeModal();
   storyLeave();
+  socLeave();
   if (tripMap) {
     tripMap.remove();
     tripMap = null;
@@ -2342,6 +2347,10 @@ function route() {
   else if (parts[0] === 'choose') renderChoose(params);
   else if (parts[0] === 't' && parts[1]) renderShared(parts[1]);
   else if (parts[0] === 'story') renderStory(parts[1] || '');
+  else if (parts[0] === 'feed') renderFeed();
+  else if (parts[0] === 'me') renderProfile(socMe());
+  else if (parts[0] === 'people') renderProfile(parts[1] || '');
+  else if (parts[0] === 'account') renderAccount();
   else renderExplore();
 }
 // Discovery, transparent rankings, dietary evidence and accommodation origins.
