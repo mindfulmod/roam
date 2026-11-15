@@ -1,6 +1,6 @@
 # Tandem Roads
 
-A travel guide and multi-city trip planner: 60 cities and 794 places with prices, tips, best times and
+A travel guide and multi-city trip planner: 95 cities and 1178 places with prices, tips, best times and
 sources, popularity rankings, food and dietary filters, a Leaflet map, and a trip planner that splits
 places into days, estimates budgets and exports to JSON or CSV. Plain HTML, CSS and JavaScript, with
 no framework and no backend. Your saved places and trips stay in the browser (`localStorage` key
@@ -33,6 +33,14 @@ npm run build          # dist/index.html + dist/images/ for hosting (about 3 MB 
 npm run build:single   # dist/tandem-roads.html, one self-contained file with every image inlined (about 49 MB)
 npm run dev            # build and serve dist/ locally
 ```
+
+### Adding cities
+
+New cities come in through short seed files rather than hand-written city files: see
+[`seeds/README.md`](seeds/README.md). `node scripts/add-city.mjs` expands seeds into full city files,
+the **Enrich new cities** workflow adds pins, photos and readership from Wikipedia and OpenStreetMap,
+and `node scripts/check-data.mjs` (run on every pull request) checks the result. The list of cities
+still to add is in [`seeds/backlog.md`](seeds/backlog.md).
 
 The build inlines the CSS, Leaflet, the assembled `DATA` object and `app.js` into one HTML file. To add
 or change a city, edit its JSON file in `data/cities/` (add new cities to `cityOrder` in
