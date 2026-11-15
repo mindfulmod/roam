@@ -1,0 +1,666 @@
+{
+  "id": "vienna",
+  "name": "Vienna",
+  "country": "Austria",
+  "region": "Europe",
+  "lat": 48.2082,
+  "lon": 16.3738,
+  "wiki": "Vienna",
+  "tagline": "Imperial palaces, music and coffee houses",
+  "summary": "Mix one palace, one museum and one coffee house per day. The Ring boulevard holds most sights, and Schönbrunn needs a half day of its own.",
+  "days": 3,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    12
+  ],
+  "seasonNote": "December Christmas markets are a peak; January and February are cold and quiet.",
+  "arrival": "The S7 train and the City Airport Train reach the centre in 16 to 25 minutes.",
+  "gettingAround": "The U-Bahn and trams are excellent; a 24 to 72 hour pass is good value.",
+  "cashTip": "Cards are widely accepted, but some coffee houses, sausage stands and markets prefer cash.",
+  "dailyBudget": [
+    55,
+    110
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    15,
+    30
+  ],
+  "foodTip": "Have a Wiener schnitzel, a Käsekrainer from a sausage stand and cake with a melange.",
+  "buyTip": "Chocolates and Sachertorte to take home, Augarten porcelain and Manner wafers.",
+  "baseArea": "Inside or just outside the Ring; Neubau for a local feel",
+  "connections": [
+    {
+      "to": "prague",
+      "mode": "Train",
+      "minutes": 245,
+      "note": "Direct Railjet trains every two hours."
+    },
+    {
+      "to": "budapest",
+      "mode": "Train",
+      "minutes": 160,
+      "note": "Hourly direct trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.wien.info/en",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Vienna on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Vienna",
+      "type": "reference",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Vienna%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Figlmüller — visitor or menu information",
+      "url": "https://figlmueller.at/en/",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Café Central — visitor or menu information",
+      "url": "https://www.cafecentral.wien/en/",
+      "type": "official",
+      "checked": "2026-11-15"
+    }
+  ],
+  "reviewSummary": "These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership, and from Google Maps once it is connected; places without a number are kept unranked.",
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Vienna%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Schönbrunn Palace",
+  "added": "2026-11-15",
+  "items": [
+    {
+      "id": "vienna-schonbrunn-palace",
+      "name": "Schönbrunn Palace",
+      "kind": "see",
+      "lat": 48.1845,
+      "lon": 16.3122,
+      "wiki": "Schönbrunn Palace",
+      "summary": "The Habsburgs' summer palace: gilded state rooms and formal gardens climbing to the Gloriette.",
+      "expect": "Timed palace tickets that sell out by midday in season.",
+      "tip": "Book online; the gardens are free and the Gloriette has the view.",
+      "area": "Hietzing",
+      "duration": 3.5,
+      "price": [
+        24,
+        34
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "At opening",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sch%C3%B6nbrunn%20Palace%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Sch%C3%B6nbrunn%20Palace%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Sch%C3%B6nbrunn%20Palace%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture",
+        "Nature"
+      ],
+      "whyVisit": [
+        "The Habsburgs' summer palace: gilded state rooms and formal gardens climbing to the Gloriette.",
+        "It is Austria's most visited sight and the full picture of imperial life."
+      ],
+      "visitFlow": [
+        "Take the palace tour.",
+        "Walk up through the gardens to the Gloriette."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Timed palace tickets that sell out by midday in season.",
+        "Book online; the gardens are free and the Gloriette has the view."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "vienna-st-stephens-cathedral",
+      "name": "St. Stephen's Cathedral",
+      "kind": "see",
+      "lat": 48.2085,
+      "lon": 16.3731,
+      "wiki": "St. Stephen's Cathedral, Vienna",
+      "summary": "The Gothic cathedral at the city's centre, with a patterned tile roof and climbable towers.",
+      "expect": "Free to enter the back; the nave, towers and catacombs are ticketed.",
+      "tip": "Climb the 343 steps of the south tower for the roof view.",
+      "area": "Innere Stadt",
+      "duration": 1,
+      "price": [
+        0,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=St.%20Stephen's%20Cathedral%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=St.%20Stephen's%20Cathedral%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=St.%20Stephen's%20Cathedral%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The Gothic cathedral at the city's centre, with a patterned tile roof and climbable towers.",
+        "It has been the heart of Vienna for 700 years."
+      ],
+      "visitFlow": [
+        "Walk the nave.",
+        "Climb the south tower or take the north tower lift."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "Free to enter the back; the nave, towers and catacombs are ticketed.",
+        "Climb the 343 steps of the south tower for the roof view."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "vienna-hofburg",
+      "name": "Hofburg and Sisi Museum",
+      "kind": "see",
+      "lat": 48.2066,
+      "lon": 16.3655,
+      "wiki": "Hofburg",
+      "summary": "The Habsburgs' city palace, with the imperial apartments and the Sisi Museum.",
+      "expect": "A big complex with separate tickets for separate parts.",
+      "tip": "Choose between the apartments, the treasury and the Spanish Riding School.",
+      "area": "Innere Stadt",
+      "duration": 2,
+      "price": [
+        18,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hofburg%20and%20Sisi%20Museum%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Hofburg%20and%20Sisi%20Museum%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Hofburg%20and%20Sisi%20Museum%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The Habsburgs' city palace, with the imperial apartments and the Sisi Museum.",
+        "Six centuries of empire were run from these courtyards."
+      ],
+      "visitFlow": [
+        "Walk in from Michaelerplatz.",
+        "Visit the Sisi Museum and imperial apartments."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "A big complex with separate tickets for separate parts.",
+        "Choose between the apartments, the treasury and the Spanish Riding School."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "vienna-kunsthistorisches-museum",
+      "name": "Kunsthistorisches Museum",
+      "kind": "see",
+      "lat": 48.2038,
+      "lon": 16.3618,
+      "wiki": "Kunsthistorisches Museum",
+      "summary": "The imperial art collection, with the world's largest group of Bruegel paintings.",
+      "expect": "Closed on some Mondays; a lavish building that is a sight itself.",
+      "tip": "Have coffee under the dome between galleries.",
+      "area": "Museumsquartier",
+      "duration": 2.5,
+      "price": [
+        21,
+        21
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kunsthistorisches%20Museum%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Kunsthistorisches%20Museum%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Kunsthistorisches%20Museum%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The imperial art collection, with the world's largest group of Bruegel paintings.",
+        "Bruegel, Vermeer, Raphael and Velázquez hang in rooms built for them."
+      ],
+      "visitFlow": [
+        "Go up to the picture gallery.",
+        "Finish in the Kunstkammer."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "Closed on some Mondays; a lavish building that is a sight itself.",
+        "Have coffee under the dome between galleries."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "vienna-belvedere",
+      "name": "Belvedere",
+      "kind": "see",
+      "lat": 48.1915,
+      "lon": 16.3809,
+      "wiki": "Belvedere, Vienna",
+      "summary": "Two baroque palaces and a garden; the Upper Belvedere holds Klimt's The Kiss.",
+      "expect": "Timed entry and a crowd around The Kiss.",
+      "tip": "Book a morning slot and walk the gardens down to the Lower Belvedere.",
+      "area": "Landstrasse",
+      "duration": 2,
+      "price": [
+        17,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "At opening",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Belvedere%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Belvedere%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Belvedere%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Two baroque palaces and a garden; the Upper Belvedere holds Klimt's The Kiss.",
+        "It has the largest Klimt collection anywhere."
+      ],
+      "visitFlow": [
+        "See the Klimt rooms upstairs.",
+        "Walk down through the terraced garden."
+      ],
+      "bestFor": "Visitors interested in art and craft and architecture and design",
+      "tradeoffs": [
+        "Timed entry and a crowd around The Kiss.",
+        "Book a morning slot and walk the gardens down to the Lower Belvedere."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "vienna-vienna-state-opera",
+      "name": "Vienna State Opera",
+      "kind": "see",
+      "lat": 48.2029,
+      "lon": 16.3691,
+      "wiki": "Vienna State Opera",
+      "summary": "One of the world's great opera houses, with nightly performances and daytime tours.",
+      "expect": "Seats sell out; cheap standing tickets go on sale on the day.",
+      "tip": "Try for standing-room tickets, or take the 40-minute guided tour.",
+      "area": "Innere Stadt",
+      "duration": 1,
+      "price": [
+        13,
+        18
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon tour or evening performance",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Vienna%20State%20Opera%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Vienna%20State%20Opera%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Vienna%20State%20Opera%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "One of the world's great opera houses, with nightly performances and daytime tours.",
+        "Hearing music here is the essential Vienna evening."
+      ],
+      "visitFlow": [
+        "Take an afternoon tour.",
+        "Or queue for standing room before a performance."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and architecture and design",
+      "tradeoffs": [
+        "Seats sell out; cheap standing tickets go on sale on the day.",
+        "Try for standing-room tickets, or take the 40-minute guided tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "vienna-figlmuller",
+      "name": "Figlmüller",
+      "kind": "eat",
+      "lat": 48.2093,
+      "lon": 16.3745,
+      "wiki": "Wiener schnitzel",
+      "summary": "The best-known schnitzel house, serving plate-overhanging pork schnitzel since 1905.",
+      "expect": "Bookings fill weeks ahead; walk-ins queue.",
+      "tip": "Reserve online, and order potato salad on the side.",
+      "area": "Innere Stadt",
+      "duration": 1.25,
+      "price": [
+        25,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner by reservation",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://figlmueller.at/en/",
+        "https://www.tripadvisor.com/Search?q=Figlm%C3%BCller%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Figlm%C3%BCller%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Figlm%C3%BCller%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "The best-known schnitzel house, serving plate-overhanging pork schnitzel since 1905.",
+        "It is the classic place for the city's signature dish."
+      ],
+      "visitFlow": [
+        "Arrive for your booking.",
+        "Share a schnitzel with potato-lamb's lettuce salad."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Bookings fill weeks ahead; walk-ins queue.",
+        "Reserve online, and order potato salad on the side."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Viennese",
+      "mustOrder": [
+        "Figlmüller schnitzel",
+        "Erdäpfel-Vogerlsalat"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "vienna-cafe-central",
+      "name": "Café Central",
+      "kind": "eat",
+      "lat": 48.2104,
+      "lon": 16.3654,
+      "wiki": "Café Central",
+      "summary": "A vaulted 1876 coffee house once frequented by Freud and Trotsky.",
+      "expect": "A queue outside for much of the day.",
+      "tip": "Go at opening or book a table online.",
+      "area": "Innere Stadt",
+      "duration": 1,
+      "price": [
+        12,
+        28
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "At opening",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.cafecentral.wien/en/",
+        "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20Central%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Central%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20Central%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A vaulted 1876 coffee house once frequented by Freud and Trotsky.",
+        "It is the grandest of Vienna's coffee houses, with live piano in the afternoon."
+      ],
+      "visitFlow": [
+        "Wait to be seated.",
+        "Order a melange and a slice from the cake counter."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "A queue outside for much of the day.",
+        "Go at opening or book a table online."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Viennese coffee house",
+      "mustOrder": [
+        "Melange",
+        "Apfelstrudel",
+        "Central torte"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "vienna-naschmarkt",
+      "name": "Naschmarkt",
+      "kind": "eat",
+      "lat": 48.1986,
+      "lon": 16.3632,
+      "wiki": "Naschmarkt",
+      "summary": "A long open-air market of produce, spices, cheese and small restaurants.",
+      "expect": "Closed on Sunday; samples are pressed on you along the main aisle.",
+      "tip": "Eat at the far end where prices drop; a flea market runs on Saturdays.",
+      "area": "Wieden",
+      "duration": 1.25,
+      "price": [
+        10,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Naschmarkt%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Naschmarkt%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Naschmarkt%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A long open-air market of produce, spices, cheese and small restaurants.",
+        "It is Vienna's biggest market and an easy lunch between sights."
+      ],
+      "visitFlow": [
+        "Walk from the Secession end.",
+        "Stop for a plate at a stall restaurant."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Closed on Sunday; samples are pressed on you along the main aisle.",
+        "Eat at the far end where prices drop; a flea market runs on Saturdays."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Market food",
+      "mustOrder": [
+        "Falafel or mezze",
+        "Austrian cheese",
+        "Seafood plate"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "vienna-cafe-sacher",
+      "name": "Café Sacher",
+      "kind": "eat",
+      "lat": 48.2039,
+      "lon": 16.3694,
+      "wiki": "Hotel Sacher",
+      "summary": "The hotel café that serves the original Sachertorte, created in 1832.",
+      "expect": "A queue and a formal room; the cake is dense and not very sweet.",
+      "tip": "Always have it with unsweetened whipped cream.",
+      "area": "Innere Stadt",
+      "duration": 0.75,
+      "price": [
+        12,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Mid-morning",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20Sacher%2C%20Vienna",
+        "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20Sacher%2C%20Vienna"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20Sacher%2C%20Vienna",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "The hotel café that serves the original Sachertorte, created in 1832.",
+        "It is the home of the world's most famous chocolate cake."
+      ],
+      "visitFlow": [
+        "Queue or book.",
+        "Order Sachertorte with cream and coffee."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "A queue and a formal room; the cake is dense and not very sweet.",
+        "Always have it with unsweetened whipped cream."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Viennese coffee house",
+      "mustOrder": [
+        "Original Sacher-Torte"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ]
+}

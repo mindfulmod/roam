@@ -35,7 +35,9 @@ async function inline(file) {
 }
 if (single) {
   for (const set of [photos, art])
-    for (const v of Object.values(set)) v.data = await inline(v.data);
+    for (const v of Object.values(set))
+      // Newer place photos are hotlinked from Wikimedia Commons and stay as links.
+      if (!/^https?:/.test(v.data)) v.data = await inline(v.data);
 }
 
 const parts = {

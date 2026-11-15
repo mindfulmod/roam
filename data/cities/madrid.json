@@ -1,0 +1,661 @@
+{
+  "id": "madrid",
+  "name": "Madrid",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 40.4168,
+  "lon": -3.7038,
+  "wiki": "Madrid",
+  "tagline": "Great museums, late nights",
+  "summary": "Build Madrid around its three art museums and long, late meals. Mornings for the Prado or palace, afternoons in Retiro, evenings moving between tapas bars.",
+  "days": 3,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "July and August are very hot and many family restaurants close in August.",
+  "arrival": "Metro line 8, the airport express bus and Cercanías trains all reach the centre in 30 to 40 minutes.",
+  "gettingAround": "The centre is walkable and the metro covers the rest. Dinner starts after 9 pm.",
+  "cashTip": "Cards are accepted nearly everywhere, including most bars.",
+  "dailyBudget": [
+    50,
+    100
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    10,
+    25
+  ],
+  "foodTip": "Have a bocadillo de calamares, tortilla, jamón ibérico and churros with thick chocolate.",
+  "buyTip": "Espadrilles, saffron, good olive oil and vacuum-packed jamón (check customs rules for meat).",
+  "baseArea": "Sol, Barrio de las Letras or Malasaña",
+  "connections": [
+    {
+      "to": "barcelona",
+      "mode": "Train",
+      "minutes": 160,
+      "note": "High-speed AVE, Iryo and Ouigo trains from Atocha; book ahead."
+    },
+    {
+      "to": "seville",
+      "mode": "Train",
+      "minutes": 155,
+      "note": "High-speed AVE from Atocha."
+    },
+    {
+      "to": "lisbon",
+      "mode": "Flight",
+      "minutes": 80,
+      "note": "Air time only; add airport transfers."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.esmadrid.com/en",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Madrid on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Madrid",
+      "type": "reference",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Madrid%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Sobrino de Botín — visitor or menu information",
+      "url": "https://botin.es/en/",
+      "type": "official",
+      "checked": "2026-11-15"
+    }
+  ],
+  "reviewSummary": "These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership, and from Google Maps once it is connected; places without a number are kept unranked.",
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Madrid%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Royal Palace of Madrid",
+  "added": "2026-11-15",
+  "items": [
+    {
+      "id": "madrid-prado-museum",
+      "name": "Prado Museum",
+      "kind": "see",
+      "lat": 40.4138,
+      "lon": -3.6921,
+      "wiki": "Museo del Prado",
+      "summary": "Spain's national art museum: Velázquez, Goya, El Greco and Bosch.",
+      "expect": "A huge collection; without a plan the visit becomes tiring.",
+      "tip": "Book a timed ticket and pick 15 works; the last two hours are free but crowded.",
+      "area": "Paseo del Prado",
+      "duration": 2.5,
+      "price": [
+        15,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "At opening",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Prado%20Museum%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Prado%20Museum%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Prado%20Museum%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "Spain's national art museum: Velázquez, Goya, El Greco and Bosch.",
+        "Las Meninas, Goya's Black Paintings and The Garden of Earthly Delights are all here."
+      ],
+      "visitFlow": [
+        "Start with Velázquez on the first floor.",
+        "Finish with Goya's Black Paintings."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "A huge collection; without a plan the visit becomes tiring.",
+        "Book a timed ticket and pick 15 works; the last two hours are free but crowded."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "madrid-royal-palace-of-madrid",
+      "name": "Royal Palace of Madrid",
+      "kind": "see",
+      "lat": 40.418,
+      "lon": -3.7143,
+      "wiki": "Royal Palace of Madrid",
+      "summary": "The largest royal palace in western Europe, with state rooms, an armoury and a grand staircase.",
+      "expect": "Security queues and occasional closures for state events.",
+      "tip": "Check the closure calendar and book the first slot.",
+      "area": "Ópera",
+      "duration": 2,
+      "price": [
+        14,
+        18
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "At opening",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Royal%20Palace%20of%20Madrid%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Royal%20Palace%20of%20Madrid%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Royal%20Palace%20of%20Madrid%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture",
+        "Art"
+      ],
+      "whyVisit": [
+        "The largest royal palace in western Europe, with state rooms, an armoury and a grand staircase.",
+        "Its throne room and Tiepolo ceilings show Bourbon Spain at full scale."
+      ],
+      "visitFlow": [
+        "Tour the state apartments.",
+        "See the armoury, then the Sabatini Gardens."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Security queues and occasional closures for state events.",
+        "Check the closure calendar and book the first slot."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "madrid-retiro-park",
+      "name": "Retiro Park",
+      "kind": "see",
+      "lat": 40.4153,
+      "lon": -3.6845,
+      "wiki": "Parque del Buen Retiro, Madrid",
+      "summary": "The city's central park, with a boating lake, rose garden and the glass Crystal Palace.",
+      "expect": "Lively at weekends, with buskers and families.",
+      "tip": "Rent a rowing boat early, then walk to the Crystal Palace.",
+      "area": "Retiro",
+      "duration": 1.5,
+      "price": [
+        0,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Retiro%20Park%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Retiro%20Park%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Retiro%20Park%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The city's central park, with a boating lake, rose garden and the glass Crystal Palace.",
+        "It is where Madrid relaxes, and a calm break between museums."
+      ],
+      "visitFlow": [
+        "Enter by the Puerta de Alcalá.",
+        "Walk from the lake to the Crystal Palace."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and architecture and design",
+      "tradeoffs": [
+        "Lively at weekends, with buskers and families.",
+        "Rent a rowing boat early, then walk to the Crystal Palace."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "madrid-reina-sofia-museum",
+      "name": "Reina Sofía Museum",
+      "kind": "see",
+      "lat": 40.4086,
+      "lon": -3.6943,
+      "wiki": "Museo Nacional Centro de Arte Reina Sofía",
+      "summary": "Modern Spanish art, centred on Picasso's Guernica, with Dalí and Miró.",
+      "expect": "A crowd around Guernica; no photos in that room.",
+      "tip": "Go straight to the second floor for Guernica, then explore.",
+      "area": "Atocha",
+      "duration": 2,
+      "price": [
+        12,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Reina%20Sof%C3%ADa%20Museum%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Reina%20Sof%C3%ADa%20Museum%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Reina%20Sof%C3%ADa%20Museum%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "Modern Spanish art, centred on Picasso's Guernica, with Dalí and Miró.",
+        "Guernica is the 20th century's defining anti-war painting."
+      ],
+      "visitFlow": [
+        "See Guernica and its preparatory sketches.",
+        "Continue through the Dalí and Miró rooms."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "A crowd around Guernica; no photos in that room.",
+        "Go straight to the second floor for Guernica, then explore."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "madrid-plaza-mayor",
+      "name": "Plaza Mayor and Puerta del Sol",
+      "kind": "see",
+      "lat": 40.4155,
+      "lon": -3.7074,
+      "wiki": "Plaza Mayor, Madrid",
+      "summary": "The arcaded 17th-century main square and the busy crossroads beside it.",
+      "expect": "Tourist-priced café terraces on the square itself.",
+      "tip": "Look, then eat in the side streets or the nearby market.",
+      "area": "Centro",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning or evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Plaza%20Mayor%20and%20Puerta%20del%20Sol%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Plaza%20Mayor%20and%20Puerta%20del%20Sol%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Plaza%20Mayor%20and%20Puerta%20del%20Sol%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The arcaded 17th-century main square and the busy crossroads beside it.",
+        "It is the historic heart of Habsburg Madrid."
+      ],
+      "visitFlow": [
+        "Walk through the arches into the square.",
+        "Continue to Puerta del Sol and kilometre zero."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Tourist-priced café terraces on the square itself.",
+        "Look, then eat in the side streets or the nearby market."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "madrid-toledo",
+      "name": "Toledo",
+      "kind": "see",
+      "lat": 39.8628,
+      "lon": -4.0273,
+      "wiki": "Toledo, Spain",
+      "summary": "A hilltop former capital of churches, synagogues and mosques, half an hour away by fast train.",
+      "expect": "Steep lanes and many day-trippers at midday.",
+      "tip": "Book the train both ways; they sell out at weekends.",
+      "area": "Toledo",
+      "duration": 8,
+      "price": [
+        30,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Weekday",
+      "reservation": "Recommended",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Toledo%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Toledo%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Toledo%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "A hilltop former capital of churches, synagogues and mosques, half an hour away by fast train.",
+        "Three faiths left monuments side by side in one small walled city."
+      ],
+      "visitFlow": [
+        "Train from Atocha, then bus or escalators up.",
+        "Cathedral, Jewish quarter and the view from across the river."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Steep lanes and many day-trippers at midday.",
+        "Book the train both ways; they sell out at weekends."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "madrid-chocolateria-san-gines",
+      "name": "Chocolatería San Ginés",
+      "kind": "eat",
+      "lat": 40.4167,
+      "lon": -3.7069,
+      "wiki": "Chocolatería San Ginés",
+      "summary": "Churros and thick hot chocolate, served almost around the clock since 1894.",
+      "expect": "A queue that moves quickly; several rooms.",
+      "tip": "Come late at night or mid-afternoon for a shorter wait.",
+      "area": "Sol",
+      "duration": 0.5,
+      "price": [
+        5,
+        9
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Late night or mid-afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chocolater%C3%ADa%20San%20Gin%C3%A9s%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Chocolater%C3%ADa%20San%20Gin%C3%A9s%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Chocolater%C3%ADa%20San%20Gin%C3%A9s%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "Churros and thick hot chocolate, served almost around the clock since 1894.",
+        "It is the city's classic churros stop."
+      ],
+      "visitFlow": [
+        "Pay first at the till.",
+        "Take a marble table and dip."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "A queue that moves quickly; several rooms.",
+        "Come late at night or mid-afternoon for a shorter wait."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Churros café",
+      "mustOrder": [
+        "Chocolate con churros"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "madrid-sobrino-de-botin",
+      "name": "Sobrino de Botín",
+      "kind": "eat",
+      "lat": 40.4141,
+      "lon": -3.708,
+      "wiki": "Sobrino de Botín",
+      "summary": "Listed as the world's oldest restaurant (1725), roasting suckling pig in the original wood oven.",
+      "expect": "A tourist favourite; the food is traditional and rich.",
+      "tip": "Book well ahead and ask for the cellar dining room.",
+      "area": "La Latina",
+      "duration": 1.5,
+      "price": [
+        45,
+        75
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner by reservation",
+      "reservation": "Essential",
+      "priority": 2,
+      "sourceUrls": [
+        "https://botin.es/en/",
+        "https://www.tripadvisor.com/Search?q=Sobrino%20de%20Bot%C3%ADn%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Sobrino%20de%20Bot%C3%ADn%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Sobrino%20de%20Bot%C3%ADn%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "Listed as the world's oldest restaurant (1725), roasting suckling pig in the original wood oven.",
+        "The oven has not gone out in three centuries and the roasts are still very good."
+      ],
+      "visitFlow": [
+        "Arrive for your booked time.",
+        "Order roast suckling pig or lamb to share."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "A tourist favourite; the food is traditional and rich.",
+        "Book well ahead and ask for the cellar dining room."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Castilian roast house",
+      "mustOrder": [
+        "Cochinillo asado (roast suckling pig)",
+        "Sopa de ajo"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "none",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "madrid-mercado-de-san-miguel",
+      "name": "Mercado de San Miguel",
+      "kind": "eat",
+      "lat": 40.4154,
+      "lon": -3.709,
+      "wiki": "Mercado de San Miguel",
+      "summary": "An iron-and-glass market hall of tapas, seafood and vermouth counters.",
+      "expect": "Crowded and pricier than neighbourhood bars.",
+      "tip": "Treat it as a quick tasting stop, not dinner.",
+      "area": "Centro",
+      "duration": 0.75,
+      "price": [
+        12,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Outside the busiest lunch or dinner hour.",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mercado%20de%20San%20Miguel%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Mercado%20de%20San%20Miguel%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Mercado%20de%20San%20Miguel%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "An iron-and-glass market hall of tapas, seafood and vermouth counters.",
+        "It gathers a wide range of Spanish bites under one handsome 1916 roof."
+      ],
+      "visitFlow": [
+        "Do a lap first.",
+        "Pick two or three bites and a vermouth."
+      ],
+      "bestFor": "Visitors interested in regional food and architecture and design",
+      "tradeoffs": [
+        "Crowded and pricier than neighbourhood bars.",
+        "Treat it as a quick tasting stop, not dinner."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Tapas market",
+      "mustOrder": [
+        "Jamón ibérico",
+        "Croquetas",
+        "Vermouth on tap"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "madrid-casa-lucio",
+      "name": "Casa Lucio",
+      "kind": "eat",
+      "lat": 40.4127,
+      "lon": -3.7093,
+      "wiki": "Cava Baja",
+      "summary": "A classic tavern on Cava Baja famous for huevos rotos, broken eggs over fried potatoes.",
+      "expect": "Old-school service and a dining room full of regulars.",
+      "tip": "Reserve, or tapas-hop the rest of Cava Baja instead.",
+      "area": "La Latina",
+      "duration": 1.5,
+      "price": [
+        35,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch or dinner by reservation",
+      "reservation": "Recommended",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Casa%20Lucio%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Casa%20Lucio%2C%20Madrid"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Casa%20Lucio%2C%20Madrid",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A classic tavern on Cava Baja famous for huevos rotos, broken eggs over fried potatoes.",
+        "Its egg dish is copied all over Spain."
+      ],
+      "visitFlow": [
+        "Reserve a table.",
+        "Order huevos rotos to share, then a roast or stew."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Old-school service and a dining room full of regulars.",
+        "Reserve, or tapas-hop the rest of Cava Baja instead."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Traditional Madrid tavern",
+      "mustOrder": [
+        "Huevos rotos",
+        "Callos a la madrileña"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ]
+}
