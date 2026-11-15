@@ -1,0 +1,335 @@
+{
+  "sample": true,
+  "me": "alex",
+  "people": {
+    "alex": {
+      "name": "Alex",
+      "color": "#165b4e",
+      "home": "Toronto",
+      "line": "Window seat, early starts, one good meal a day.",
+      "since": "2027-06",
+      "style": ["Early starts", "Food first", "Four stops a day"],
+      "history": [
+        { "year": 2019, "country": "Italy", "cities": ["rome", "florence"], "with": [] },
+        { "year": 2022, "country": "Peru", "cities": ["cusco"], "with": ["sam"] },
+        { "year": 2024, "country": "Greece", "cities": ["athens", "santorini"], "with": ["noor"] },
+        {
+          "year": 2027,
+          "country": "Japan",
+          "cities": ["tokyo", "kyoto", "nara", "osaka"],
+          "with": ["sam", "noor", "jo"],
+          "story": "japan-sample",
+          "month": 7
+        }
+      ],
+      "favourites": [
+        "kyoto-fushimi",
+        "cusco-machu-picchu",
+        "santorini-fira-to-oia-caldera-walk",
+        "rome-pantheon"
+      ],
+      "wants": ["istanbul-hagia-sophia", "istanbul-galata-tower", "seoul-bukchon-hanok-village"],
+      "knows": ["kyoto", "tokyo", "cusco", "athens"],
+      "next": [{ "id": "seoul-2029", "city": "seoul", "month": "2029-04", "show": false }]
+    },
+    "sam": {
+      "name": "Sam",
+      "color": "#c2562b",
+      "home": "Toronto",
+      "line": "Will plan the whole day around lunch.",
+      "since": "2027-06",
+      "history": [
+        { "year": 2022, "country": "Peru", "cities": ["cusco", "arequipa"], "with": ["alex"] },
+        { "year": 2023, "country": "Mexico", "cities": ["mexico-city"], "with": [] },
+        { "year": 2026, "country": "Thailand", "cities": ["bangkok", "chiang-mai"], "with": [] },
+        {
+          "year": 2027,
+          "country": "Japan",
+          "cities": ["tokyo", "kyoto", "nara", "osaka"],
+          "with": ["alex", "noor", "jo"],
+          "story": "japan-sample",
+          "month": 7
+        }
+      ],
+      "favourites": [
+        "tokyo-tsukiji",
+        "mexico-city-teotihuacan",
+        "arequipa-santa-catalina",
+        "bangkok-wat-arun"
+      ],
+      "wants": ["istanbul-grand-bazaar", "seoul-gyeongbokgung-palace", "hanoi-hanoi-old-quarter"],
+      "knows": ["mexico-city", "bangkok", "arequipa", "osaka"],
+      "next": [{ "id": "seoul-2029", "city": "seoul", "month": "2029-04", "show": true }]
+    },
+    "noor": {
+      "name": "Noor",
+      "color": "#7a4fa3",
+      "home": "Montreal",
+      "line": "Gardens, tea, and a kitchen knife from every country.",
+      "since": "2027-06",
+      "history": [
+        { "year": 2023, "country": "United Kingdom", "cities": ["london"], "with": [] },
+        { "year": 2024, "country": "Greece", "cities": ["athens", "santorini"], "with": ["alex"] },
+        { "year": 2026, "country": "Morocco", "cities": ["marrakech", "fez"], "with": [] },
+        {
+          "year": 2027,
+          "country": "Japan",
+          "cities": ["tokyo", "kyoto", "nara", "osaka"],
+          "with": ["alex", "sam", "jo"],
+          "story": "japan-sample",
+          "month": 7
+        }
+      ],
+      "favourites": [
+        "tokyo-gyoen",
+        "marrakech-jardin-majorelle",
+        "kyoto-arashiyama",
+        "fez-fes-el-bali-medina"
+      ],
+      "wants": ["cusco-machu-picchu", "cusco-ollantaytambo", "istanbul-suleymaniye-mosque"],
+      "knows": ["marrakech", "fez", "london"],
+      "next": [{ "id": "peru-2029", "city": "cusco", "month": "2029-03", "show": true }]
+    },
+    "jo": {
+      "name": "Jo",
+      "color": "#2f6fa8",
+      "home": "Vancouver",
+      "line": "Not in any guide, usually right.",
+      "since": "2027-06",
+      "history": [
+        { "year": 2022, "country": "Spain", "cities": ["barcelona"], "with": [] },
+        { "year": 2025, "country": "Vietnam", "cities": ["hanoi", "da-nang"], "with": [] },
+        { "year": 2026, "country": "South Korea", "cities": ["seoul"], "with": [] },
+        {
+          "year": 2027,
+          "country": "Japan",
+          "cities": ["tokyo", "kyoto", "nara", "osaka"],
+          "with": ["alex", "sam", "noor"],
+          "story": "japan-sample",
+          "month": 7
+        }
+      ],
+      "favourites": [
+        "tokyo-skytree",
+        "hanoi-hoan-kiem-lake",
+        "seoul-bukchon-hanok-village",
+        "barcelona-park-guell"
+      ],
+      "wants": ["athens-acropolis-and-parthenon", "cusco-machu-picchu"],
+      "knows": ["seoul", "hanoi", "barcelona"],
+      "next": [{ "id": "seoul-2029", "city": "seoul", "month": "2029-04", "show": false }]
+    },
+    "maya": {
+      "name": "Maya",
+      "color": "#b0429f",
+      "home": "Ottawa",
+      "line": "Saves first, books later.",
+      "since": "2027-08",
+      "history": [
+        { "year": 2024, "country": "France", "cities": ["paris"], "with": [] },
+        { "year": 2025, "country": "Greece", "cities": ["athens"], "with": ["leo"] },
+        { "year": 2028, "country": "Japan", "cities": ["kyoto"], "with": [], "month": 9 },
+        {
+          "year": 2028,
+          "country": "Türkiye",
+          "cities": ["istanbul"],
+          "with": ["leo"],
+          "story": "istanbul-sample",
+          "month": 9
+        }
+      ],
+      "favourites": [
+        "kyoto-fushimi",
+        "istanbul-hagia-sophia",
+        "paris-musee-dorsay",
+        "athens-acropolis-museum"
+      ],
+      "wants": ["tokyo-teamlab", "tokyo-sensoji", "rome-pantheon"],
+      "knows": ["istanbul", "paris", "kyoto"],
+      "next": []
+    },
+    "leo": {
+      "name": "Leo",
+      "color": "#a9820c",
+      "home": "Ottawa",
+      "line": "Always orders a second plate.",
+      "since": "2027-09",
+      "history": [
+        { "year": 2023, "country": "Argentina", "cities": ["buenos-aires"], "with": [] },
+        { "year": 2025, "country": "Greece", "cities": ["athens"], "with": ["maya"] },
+        { "year": 2026, "country": "Italy", "cities": ["rome", "venice"], "with": [] },
+        {
+          "year": 2028,
+          "country": "Türkiye",
+          "cities": ["istanbul"],
+          "with": ["maya"],
+          "story": "istanbul-sample",
+          "month": 9
+        }
+      ],
+      "favourites": [
+        "istanbul-bosphorus-ferry-from-eminonu",
+        "rome-colosseum-and-roman-forum",
+        "venice-burano-island",
+        "buenos-aires-recoleta"
+      ],
+      "wants": [
+        "kyoto-fushimi",
+        "kyoto-arashiyama",
+        "kyoto-kinkakuji",
+        "kyoto-kiyomizu",
+        "kyoto-nishiki",
+        "kyoto-gion"
+      ],
+      "knows": ["istanbul", "rome", "buenos-aires"],
+      "next": [{ "id": "kyoto-2029", "city": "kyoto", "month": "2029-03", "show": true }]
+    }
+  },
+  "needs": [
+    {
+      "id": "poll-seoul-nights",
+      "kind": "poll",
+      "trip": "Seoul, spring 2029",
+      "city": "seoul",
+      "by": "sam",
+      "question": "Four nights in Seoul or five?",
+      "closes": "Closes in 2 days",
+      "options": ["Four nights", "Five nights", "Five, with a day in Busan"],
+      "votes": { "sam": 1 },
+      "waiting": ["jo"]
+    },
+    {
+      "id": "poll-seoul-budget",
+      "kind": "budget",
+      "trip": "Seoul, spring 2029",
+      "city": "seoul",
+      "by": "jo",
+      "question": "What is a comfortable budget for you, flights included?",
+      "closes": "Closes in 3 days",
+      "options": ["Up to $2,000", "$2,000 to $2,500", "$2,500 to $3,000", "Over $3,000"],
+      "answered": ["jo"],
+      "waiting": ["sam"]
+    },
+    {
+      "id": "viewer-priya",
+      "kind": "viewer",
+      "story": "japan-sample",
+      "by": "sam",
+      "viewer": "Priya",
+      "relation": "Sam's sister",
+      "yes": ["sam", "noor", "jo"]
+    },
+    {
+      "id": "fix-museum",
+      "kind": "fix",
+      "story": "japan-sample",
+      "place": "tokyo-museum",
+      "by": "noor",
+      "field": "Arrived",
+      "from": "12:10",
+      "to": "11:40",
+      "reason": "My ticket photo says 11:38."
+    }
+  ],
+  "lookback": {
+    "id": "look-leo-kyoto",
+    "kind": "friend-planning",
+    "who": "leo",
+    "city": "kyoto",
+    "when": "March",
+    "story": "japan-sample",
+    "year": 2027
+  },
+  "feed": [
+    {
+      "id": "f-istanbul",
+      "kind": "story",
+      "who": ["maya", "leo"],
+      "story": "istanbul-sample",
+      "when": "2 days ago",
+      "hearts": ["sam"]
+    },
+    {
+      "id": "f-ripple-fushimi",
+      "kind": "ripple",
+      "who": ["maya"],
+      "place": "kyoto-fushimi",
+      "story": "japan-sample",
+      "after": "14 months after your trip",
+      "mine": { "by": "alex", "date": "July 2027" },
+      "theirs": {
+        "by": "maya",
+        "date": "September 2028",
+        "note": "You were right about going at dawn."
+      },
+      "when": "5 days ago",
+      "hearts": ["noor", "jo", "sam"]
+    },
+    {
+      "id": "f-leo-kyoto",
+      "kind": "wants",
+      "who": ["leo"],
+      "city": "kyoto",
+      "places": [
+        "kyoto-fushimi",
+        "kyoto-arashiyama",
+        "kyoto-kinkakuji",
+        "kyoto-kiyomizu",
+        "kyoto-nishiki",
+        "kyoto-gion"
+      ],
+      "from": "japan-sample",
+      "when": "Last week",
+      "hearts": ["maya"]
+    },
+    {
+      "id": "f-noor-peru",
+      "kind": "plan",
+      "who": ["noor"],
+      "city": "cusco",
+      "month": "March",
+      "when": "Last week",
+      "hearts": ["sam", "jo"]
+    },
+    {
+      "id": "f-pick-afuri",
+      "kind": "pick",
+      "who": ["sam", "noor", "jo"],
+      "story": "japan-sample",
+      "place": "tokyo-afuri-ebisu",
+      "question": "Best meal of the trip?",
+      "when": "2 weeks ago",
+      "hearts": ["sam"]
+    },
+    {
+      "id": "f-jo-line",
+      "kind": "line",
+      "who": ["jo"],
+      "story": "japan-sample",
+      "place": "kyoto-arashiyama",
+      "text": "A year on, I still hear the bamboo creaking.",
+      "when": "3 weeks ago",
+      "hearts": ["noor"]
+    }
+  ],
+  "ripples": [
+    {
+      "who": "maya",
+      "place": "kyoto-fushimi",
+      "saved": "Saved from your Japan story",
+      "went": "Went 14 months later"
+    },
+    {
+      "who": "leo",
+      "place": "tokyo-afuri-ebisu",
+      "saved": "Saved from your Japan story",
+      "went": "Planning for March"
+    },
+    {
+      "who": "noor",
+      "place": "cusco-machu-picchu",
+      "saved": "Saved from your favourites",
+      "went": "Planning for March"
+    }
+  ]
+}
