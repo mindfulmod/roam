@@ -1,0 +1,696 @@
+{
+  "id": "amsterdam",
+  "name": "Amsterdam",
+  "country": "Netherlands",
+  "region": "Europe",
+  "lat": 52.3728,
+  "lon": 4.8936,
+  "wiki": "Amsterdam",
+  "tagline": "Canals, masters and bicycles",
+  "summary": "Book the Anne Frank House and Van Gogh Museum well ahead, then fill the gaps with canal walks and the Jordaan. Everything central is within a 30-minute walk or a short tram.",
+  "days": 3,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9
+  ],
+  "seasonNote": "Tulip season runs mid-March to early May; summer is busiest and winter is dark and damp.",
+  "arrival": "Trains from Schiphol reach Centraal in 15 to 20 minutes.",
+  "gettingAround": "Walk or take trams; watch for bike lanes before stepping off a kerb.",
+  "cashTip": "Many places are card-only; some do not take credit cards, so carry a debit card too.",
+  "dailyBudget": [
+    60,
+    120
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    5,
+    20
+  ],
+  "foodTip": "Try a fresh stroopwafel, herring from a stall, bitterballen with beer and Indonesian rijsttafel.",
+  "buyTip": "Aged Gouda, stroopwafels and Delft-style ceramics from reputable shops.",
+  "baseArea": "Jordaan, the canal ring or De Pijp",
+  "connections": [
+    {
+      "to": "paris",
+      "mode": "Train",
+      "minutes": 200,
+      "note": "Direct Eurostar high-speed trains; book ahead."
+    },
+    {
+      "to": "london",
+      "mode": "Train",
+      "minutes": 255,
+      "note": "Direct Eurostar; allow for check-in."
+    },
+    {
+      "to": "berlin",
+      "mode": "Train",
+      "minutes": 380,
+      "note": "Direct trains several times a day."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.iamsterdam.com/en",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Amsterdam on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Amsterdam",
+      "type": "reference",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Amsterdam%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-15"
+    }
+  ],
+  "reviewSummary": "These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership; places without a number, including most restaurants, are kept unranked.",
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Amsterdam%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Canals of Amsterdam",
+  "added": "2026-11-15",
+  "items": [
+    {
+      "id": "amsterdam-rijksmuseum",
+      "name": "Rijksmuseum",
+      "kind": "see",
+      "lat": 52.36,
+      "lon": 4.8853,
+      "wiki": "Rijksmuseum",
+      "summary": "The national museum, home to Rembrandt's Night Watch and Vermeer's Milkmaid.",
+      "expect": "Timed entry and crowds in the Gallery of Honour.",
+      "tip": "Book the first slot and go straight to the second floor.",
+      "area": "Museumplein",
+      "duration": 2.5,
+      "price": [
+        25,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "At opening",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rijksmuseum%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Rijksmuseum%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Rijksmuseum%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "The national museum, home to Rembrandt's Night Watch and Vermeer's Milkmaid.",
+        "It holds the greatest collection of Dutch Golden Age painting."
+      ],
+      "visitFlow": [
+        "Start in the Gallery of Honour.",
+        "Then the Delftware, ship models and library."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "Timed entry and crowds in the Gallery of Honour.",
+        "Book the first slot and go straight to the second floor."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 133012,
+          "period": "202511-202610",
+          "title": "Rijksmuseum",
+          "url": "https://en.wikipedia.org/wiki/Rijksmuseum",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "amsterdam-van-gogh-museum",
+      "name": "Van Gogh Museum",
+      "kind": "see",
+      "lat": 52.3583,
+      "lon": 4.8811,
+      "wiki": "Van Gogh Museum",
+      "summary": "The world's largest Van Gogh collection, arranged through his life.",
+      "expect": "Tickets only online, often sold out a week or more ahead.",
+      "tip": "Book as soon as dates are fixed; late afternoon slots are calmer.",
+      "area": "Museumplein",
+      "duration": 2,
+      "price": [
+        24,
+        24
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Van%20Gogh%20Museum%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Van%20Gogh%20Museum%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Van%20Gogh%20Museum%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "The world's largest Van Gogh collection, arranged through his life.",
+        "Sunflowers, The Bedroom and Almond Blossom hang with his letters and sketches."
+      ],
+      "visitFlow": [
+        "Follow the floors in date order.",
+        "Finish with the last paintings from Auvers."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Tickets only online, often sold out a week or more ahead.",
+        "Book as soon as dates are fixed; late afternoon slots are calmer."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 66853,
+          "period": "202511-202610",
+          "title": "Van Gogh Museum",
+          "url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "amsterdam-anne-frank-house",
+      "name": "Anne Frank House",
+      "kind": "see",
+      "lat": 52.37525,
+      "lon": 4.88432,
+      "wiki": "Anne Frank House",
+      "summary": "The canal house and secret annex where Anne Frank hid and wrote her diary.",
+      "expect": "Tickets released online about six weeks ahead, gone within hours; steep stairs.",
+      "tip": "Set a reminder for the Tuesday ticket release.",
+      "area": "Jordaan",
+      "duration": 1.25,
+      "price": [
+        16,
+        16
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Any booked slot",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Anne%20Frank%20House%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Anne%20Frank%20House%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Anne%20Frank%20House%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The canal house and secret annex where Anne Frank hid and wrote her diary.",
+        "It is one of the most moving historic sites in Europe."
+      ],
+      "visitFlow": [
+        "Walk through the warehouse and offices.",
+        "Pass the bookcase into the annex."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Tickets released online about six weeks ahead, gone within hours; steep stairs.",
+        "Set a reminder for the Tuesday ticket release."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 131591,
+          "period": "202511-202610",
+          "title": "Anne Frank House",
+          "url": "https://en.wikipedia.org/wiki/Anne_Frank_House",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "amsterdam-canal-ring",
+      "name": "Canal Ring and Jordaan",
+      "kind": "see",
+      "lat": 52.365,
+      "lon": 4.88778,
+      "wiki": "Canals of Amsterdam",
+      "summary": "The 17th-century ring of canals, gabled houses and bridges, with the Jordaan's lanes beside it.",
+      "expect": "Bikes everywhere; boats fill up on sunny days.",
+      "tip": "Walk the Nine Streets, then take a small open-boat cruise near dusk.",
+      "area": "Grachtengordel",
+      "duration": 2.5,
+      "price": [
+        0,
+        22
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon into dusk",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Canal%20Ring%20and%20Jordaan%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Canal%20Ring%20and%20Jordaan%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Canal%20Ring%20and%20Jordaan%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The 17th-century ring of canals, gabled houses and bridges, with the Jordaan's lanes beside it.",
+        "The planned canal belt is a World Heritage site and the city's defining sight."
+      ],
+      "visitFlow": [
+        "Walk Prinsengracht and the Nine Streets.",
+        "Take a one-hour canal cruise."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Bikes everywhere; boats fill up on sunny days.",
+        "Walk the Nine Streets, then take a small open-boat cruise near dusk."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 47769,
+          "period": "202511-202610",
+          "title": "Canals of Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Canals_of_Amsterdam",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "amsterdam-vondelpark",
+      "name": "Vondelpark",
+      "kind": "see",
+      "lat": 52.358,
+      "lon": 4.868,
+      "wiki": "Vondelpark",
+      "summary": "The city's favourite park, with ponds, lawns and café terraces.",
+      "expect": "Fast cyclists on the main path.",
+      "tip": "Pair it with the museums next door.",
+      "area": "Oud-Zuid",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Vondelpark%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Vondelpark%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Vondelpark%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "The city's favourite park, with ponds, lawns and café terraces.",
+        "An easy green pause that shows everyday Amsterdam."
+      ],
+      "visitFlow": [
+        "Enter from the Museumplein side.",
+        "Loop the ponds and stop at a terrace."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Fast cyclists on the main path.",
+        "Pair it with the museums next door."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 30641,
+          "period": "202511-202610",
+          "title": "Vondelpark",
+          "url": "https://en.wikipedia.org/wiki/Vondelpark",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "amsterdam-zaanse-schans",
+      "name": "Zaanse Schans",
+      "kind": "see",
+      "lat": 52.47389,
+      "lon": 4.81639,
+      "wiki": "Zaanse Schans",
+      "summary": "Working windmills and green wooden houses on a river, 20 minutes by train.",
+      "expect": "Coach-tour crowds from late morning.",
+      "tip": "Arrive before 10 am and pay to go inside one working mill.",
+      "area": "Zaandam",
+      "duration": 4,
+      "price": [
+        10,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Zaanse%20Schans%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Zaanse%20Schans%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Zaanse%20Schans%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture",
+        "Technology"
+      ],
+      "whyVisit": [
+        "Working windmills and green wooden houses on a river, 20 minutes by train.",
+        "It is the easiest place to see traditional Dutch windmills in action."
+      ],
+      "visitFlow": [
+        "Train to Zaandijk Zaanse Schans and walk over the bridge.",
+        "Visit a mill, the clog workshop and cheese farm."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Coach-tour crowds from late morning.",
+        "Arrive before 10 am and pay to go inside one working mill."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 42543,
+          "period": "202511-202610",
+          "title": "Zaanse Schans",
+          "url": "https://en.wikipedia.org/wiki/Zaanse_Schans",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "amsterdam-winkel-43",
+      "name": "Winkel 43",
+      "kind": "eat",
+      "lat": 52.37908,
+      "lon": 4.88623,
+      "wiki": "Appeltaart",
+      "summary": "A corner café famous for deep apple pie with whipped cream.",
+      "expect": "Queues on Saturday and Monday market days.",
+      "tip": "Take a slice on the terrace by Noordermarkt.",
+      "area": "Jordaan",
+      "duration": 0.5,
+      "price": [
+        6,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Mid-morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Winkel%2043%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Winkel%2043%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Winkel%2043%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A corner café famous for deep apple pie with whipped cream.",
+        "It is widely called the best apple pie in the city."
+      ],
+      "visitFlow": [
+        "Order at the bar if busy.",
+        "Have pie with cream and coffee."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Queues on Saturday and Monday market days.",
+        "Take a slice on the terrace by Noordermarkt."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Dutch café",
+      "mustOrder": [
+        "Appeltaart met slagroom"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "amsterdam-foodhallen",
+      "name": "Foodhallen",
+      "kind": "eat",
+      "lat": 52.3671,
+      "lon": 4.868,
+      "wiki": "De Hallen (Amsterdam)",
+      "summary": "An indoor food market in a former tram depot, with around 20 stalls.",
+      "expect": "Loud and full on weekend evenings.",
+      "tip": "Go for a late lunch and try the bitterballen stall.",
+      "area": "Oud-West",
+      "duration": 1,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Late lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Foodhallen%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Foodhallen%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Foodhallen%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "An indoor food market in a former tram depot, with around 20 stalls.",
+        "It suits groups who all want something different."
+      ],
+      "visitFlow": [
+        "Find seats, then split up to order.",
+        "Share small plates."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Loud and full on weekend evenings.",
+        "Go for a late lunch and try the bitterballen stall."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Food hall",
+      "mustOrder": [
+        "Bitterballen",
+        "Vietnamese street food",
+        "Local craft beer"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "amsterdam-albert-cuyp-market",
+      "name": "Albert Cuyp Market",
+      "kind": "eat",
+      "lat": 52.35597,
+      "lon": 4.89536,
+      "wiki": "Albert Cuyp Market",
+      "summary": "The city's biggest street market, with stroopwafels made fresh, herring and poffertjes.",
+      "expect": "Closed on Sunday; busiest at Saturday lunchtime.",
+      "tip": "Get a warm stroopwafel from the stall that presses them to order.",
+      "area": "De Pijp",
+      "duration": 1,
+      "price": [
+        5,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Albert%20Cuyp%20Market%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Albert%20Cuyp%20Market%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Albert%20Cuyp%20Market%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "The city's biggest street market, with stroopwafels made fresh, herring and poffertjes.",
+        "The best place to snack through Dutch street food classics."
+      ],
+      "visitFlow": [
+        "Walk the full length.",
+        "Stop for a stroopwafel, herring and fries."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Closed on Sunday; busiest at Saturday lunchtime.",
+        "Get a warm stroopwafel from the stall that presses them to order."
+      ],
+      "venueType": "food-area",
+      "cuisine": "Dutch street food",
+      "mustOrder": [
+        "Fresh stroopwafel",
+        "Hollandse nieuwe herring",
+        "Poffertjes"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "amsterdam-cafe-t-smalle",
+      "name": "Café 't Smalle",
+      "kind": "eat",
+      "lat": 52.37672,
+      "lon": 4.88414,
+      "wiki": "Brown café",
+      "summary": "A 1786 'brown café' with a tiny canal-side terrace.",
+      "expect": "Few seats; the terrace fills in good weather.",
+      "tip": "Come mid-afternoon for a beer and bitterballen.",
+      "area": "Jordaan",
+      "duration": 0.75,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Mid-afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20't%20Smalle%2C%20Amsterdam",
+        "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20't%20Smalle%2C%20Amsterdam"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20't%20Smalle%2C%20Amsterdam",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "A 1786 'brown café' with a tiny canal-side terrace.",
+        "It is a classic example of Amsterdam's old wood-panelled pubs."
+      ],
+      "visitFlow": [
+        "Take a table inside or on the water.",
+        "Order a local beer or jenever with snacks."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "Few seats; the terrace fills in good weather.",
+        "Come mid-afternoon for a beer and bitterballen."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Dutch brown café",
+      "mustOrder": [
+        "Bitterballen",
+        "Jenever"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ],
+  "enriched": "2026-11-15"
+}

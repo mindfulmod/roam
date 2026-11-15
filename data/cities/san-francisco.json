@@ -1,0 +1,688 @@
+{
+  "id": "san-francisco",
+  "name": "San Francisco",
+  "country": "United States",
+  "region": "North America",
+  "lat": 37.7749,
+  "lon": -122.4194,
+  "wiki": "San Francisco",
+  "tagline": "Fog, hills and a red bridge",
+  "summary": "A compact city of distinct neighbourhoods on steep hills. See the bridge and Alcatraz, eat in the Mission and Chinatown, and bring layers: summer is cold.",
+  "days": 3,
+  "bestMonths": [
+    4,
+    5,
+    9,
+    10
+  ],
+  "seasonNote": "June to August is foggy and chilly; September and October are the warmest, clearest months.",
+  "arrival": "BART trains run from SFO to downtown in about 30 minutes.",
+  "gettingAround": "Use Muni buses, streetcars and cable cars with a contactless card; hills make walking slower than maps suggest.",
+  "cashTip": "Cards work everywhere; tip 18 to 20% in restaurants.",
+  "dailyBudget": [
+    80,
+    170
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    10,
+    25
+  ],
+  "foodTip": "Try a Mission burrito, sourdough, Dungeness crab in season, dim sum and cioppino.",
+  "buyTip": "Books from City Lights, Ghirardelli or small-batch chocolate, local sourdough.",
+  "baseArea": "Union Square for transit; North Beach or Hayes Valley for character",
+  "connections": [
+    {
+      "to": "mariposa",
+      "mode": "Road",
+      "minutes": 210,
+      "note": "About 3.5 hours' drive towards Yosemite."
+    },
+    {
+      "to": "las-vegas",
+      "mode": "Flight",
+      "minutes": 90,
+      "note": "Air time only."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.sftravel.com",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "San Francisco on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/San_Francisco",
+      "type": "reference",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=San%20Francisco%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-15"
+    }
+  ],
+  "reviewSummary": "These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership; places without a number, including most restaurants, are kept unranked.",
+  "reviewSource": "https://www.tripadvisor.com/Search?q=San%20Francisco%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Golden Gate Bridge",
+  "added": "2026-11-15",
+  "items": [
+    {
+      "id": "san-francisco-golden-gate-bridge",
+      "name": "Golden Gate Bridge",
+      "kind": "see",
+      "lat": 37.81972,
+      "lon": -122.47861,
+      "wiki": "Golden Gate Bridge",
+      "summary": "The 1937 suspension bridge across the mouth of the bay.",
+      "expect": "Often in fog on summer mornings; windy and cold on the span.",
+      "tip": "Walk part-way from the Welcome Center, or cycle across to Sausalito and ferry back.",
+      "area": "Presidio",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon, when fog usually lifts",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Golden%20Gate%20Bridge%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Golden%20Gate%20Bridge%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Golden%20Gate%20Bridge%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The 1937 suspension bridge across the mouth of the bay.",
+        "The most recognisable bridge in the world."
+      ],
+      "visitFlow": [
+        "Start at the south-side plaza.",
+        "Walk to the first tower, or cross fully."
+      ],
+      "bestFor": "Visitors interested in architecture and design and big views",
+      "tradeoffs": [
+        "Often in fog on summer mornings; windy and cold on the span.",
+        "Walk part-way from the Welcome Center, or cycle across to Sausalito and ferry back."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 649945,
+          "period": "202511-202610",
+          "title": "Golden Gate Bridge",
+          "url": "https://en.wikipedia.org/wiki/Golden_Gate_Bridge",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-alcatraz-island",
+      "name": "Alcatraz Island",
+      "kind": "see",
+      "lat": 37.82667,
+      "lon": -122.42278,
+      "wiki": "Alcatraz Island",
+      "summary": "The former federal prison on an island, visited with an excellent cellhouse audio tour.",
+      "expect": "Tickets sell out weeks ahead in summer.",
+      "tip": "Book with the official ferry operator from Pier 33; the night tour is the best.",
+      "area": "San Francisco Bay",
+      "duration": 3,
+      "price": [
+        47,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "First boat or night tour",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alcatraz%20Island%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Alcatraz%20Island%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Alcatraz%20Island%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The former federal prison on an island, visited with an excellent cellhouse audio tour.",
+        "The audio tour, narrated by former guards and inmates, is superb."
+      ],
+      "visitFlow": [
+        "Ferry from Pier 33.",
+        "Do the cellhouse audio tour, then walk the grounds."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Tickets sell out weeks ahead in summer.",
+        "Book with the official ferry operator from Pier 33; the night tour is the best."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 362161,
+          "period": "202511-202610",
+          "title": "Alcatraz Island",
+          "url": "https://en.wikipedia.org/wiki/Alcatraz_Island",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-cable-cars-lombard",
+      "name": "Cable cars and Lombard Street",
+      "kind": "see",
+      "lat": 37.8021,
+      "lon": -122.4187,
+      "wiki": "San Francisco cable car system",
+      "summary": "A ride on the hand-operated cable cars over the hills, past the crooked block of Lombard Street.",
+      "expect": "Long queues at the Powell Street turnaround.",
+      "tip": "Board a few stops up the line, or ride the quieter California Street line.",
+      "area": "Russian Hill",
+      "duration": 1.25,
+      "price": [
+        8,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cable%20cars%20and%20Lombard%20Street%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Cable%20cars%20and%20Lombard%20Street%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Cable%20cars%20and%20Lombard%20Street%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Technology",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A ride on the hand-operated cable cars over the hills, past the crooked block of Lombard Street.",
+        "The last manually operated cable car system in the world."
+      ],
+      "visitFlow": [
+        "Take the Powell-Hyde line.",
+        "Get off at Lombard Street and walk down."
+      ],
+      "bestFor": "Visitors interested in history and context and science and technology",
+      "tradeoffs": [
+        "Long queues at the Powell Street turnaround.",
+        "Board a few stops up the line, or ride the quieter California Street line."
+      ],
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 122317,
+          "period": "202511-202610",
+          "title": "San Francisco cable car system",
+          "url": "https://en.wikipedia.org/wiki/San_Francisco_cable_car_system",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-chinatown-north-beach",
+      "name": "Chinatown and North Beach",
+      "kind": "see",
+      "lat": 37.79417,
+      "lon": -122.40694,
+      "wiki": "Chinatown, San Francisco",
+      "summary": "The oldest Chinatown in North America, next to the Italian cafés and Beat-era bookshop of North Beach.",
+      "expect": "Grant Avenue is for tourists; Stockton Street is where locals shop.",
+      "tip": "Walk Stockton Street's markets, then cut to City Lights bookshop.",
+      "area": "Chinatown",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chinatown%20and%20North%20Beach%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Chinatown%20and%20North%20Beach%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Chinatown%20and%20North%20Beach%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "The oldest Chinatown in North America, next to the Italian cafés and Beat-era bookshop of North Beach.",
+        "Two of the city's most characterful neighbourhoods back to back."
+      ],
+      "visitFlow": [
+        "Enter by the Dragon Gate.",
+        "Walk to Columbus Avenue and Washington Square."
+      ],
+      "bestFor": "Visitors interested in history and context and regional food",
+      "tradeoffs": [
+        "Grant Avenue is for tourists; Stockton Street is where locals shop.",
+        "Walk Stockton Street's markets, then cut to City Lights bookshop."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 77958,
+          "period": "202511-202610",
+          "title": "Chinatown, San Francisco",
+          "url": "https://en.wikipedia.org/wiki/Chinatown%2C_San_Francisco",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-ferry-building",
+      "name": "Ferry Building and Embarcadero",
+      "kind": "see",
+      "lat": 37.7955,
+      "lon": -122.3937,
+      "wiki": "San Francisco Ferry Building",
+      "summary": "An 1898 ferry terminal turned food hall, with a farmers' market outside.",
+      "expect": "The big market runs on Saturday mornings.",
+      "tip": "Come on Saturday for the farmers' market.",
+      "area": "Embarcadero",
+      "duration": 1.5,
+      "price": [
+        0,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Saturday morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ferry%20Building%20and%20Embarcadero%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Ferry%20Building%20and%20Embarcadero%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Ferry%20Building%20and%20Embarcadero%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Architecture",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "An 1898 ferry terminal turned food hall, with a farmers' market outside.",
+        "The best showcase of Northern California produce."
+      ],
+      "visitFlow": [
+        "Walk the food hall.",
+        "Follow the waterfront towards Pier 39's sea lions."
+      ],
+      "bestFor": "Visitors interested in regional food and architecture and design",
+      "tradeoffs": [
+        "The big market runs on Saturday mornings.",
+        "Come on Saturday for the farmers' market."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 28125,
+          "period": "202511-202610",
+          "title": "San Francisco Ferry Building",
+          "url": "https://en.wikipedia.org/wiki/San_Francisco_Ferry_Building",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-painted-ladies",
+      "name": "Painted Ladies and Alamo Square",
+      "kind": "see",
+      "lat": 37.77639,
+      "lon": -122.43306,
+      "wiki": "Painted ladies",
+      "summary": "A row of pastel Victorian houses with the downtown skyline behind.",
+      "expect": "A quick photo stop on a sloping park.",
+      "tip": "Afternoon light falls on the house fronts.",
+      "area": "Alamo Square",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Painted%20Ladies%20and%20Alamo%20Square%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Painted%20Ladies%20and%20Alamo%20Square%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Painted%20Ladies%20and%20Alamo%20Square%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A row of pastel Victorian houses with the downtown skyline behind.",
+        "The city's classic postcard view."
+      ],
+      "visitFlow": [
+        "Climb the park slope.",
+        "Photograph the row with the skyline."
+      ],
+      "bestFor": "Visitors interested in architecture and design and big views",
+      "tradeoffs": [
+        "A quick photo stop on a sloping park.",
+        "Afternoon light falls on the house fronts."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 67290,
+          "period": "202511-202610",
+          "title": "Painted ladies",
+          "url": "https://en.wikipedia.org/wiki/Painted_ladies",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-muir-woods",
+      "name": "Muir Woods",
+      "kind": "see",
+      "lat": 37.89194,
+      "lon": -122.57083,
+      "wiki": "Muir Woods National Monument",
+      "summary": "A valley of old-growth coast redwoods 40 minutes north of the bridge.",
+      "expect": "Parking or shuttle reservations are required.",
+      "tip": "Reserve parking or the shuttle in advance and arrive early.",
+      "area": "Marin County",
+      "duration": 4,
+      "price": [
+        15,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Essential",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Muir%20Woods%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Muir%20Woods%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Muir%20Woods%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A valley of old-growth coast redwoods 40 minutes north of the bridge.",
+        "The closest place to stand among giant redwoods."
+      ],
+      "visitFlow": [
+        "Drive or shuttle from Sausalito.",
+        "Walk the boardwalk loop to Cathedral Grove."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Parking or shuttle reservations are required.",
+        "Reserve parking or the shuttle in advance and arrive early."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 96840,
+          "period": "202511-202610",
+          "title": "Muir Woods National Monument",
+          "url": "https://en.wikipedia.org/wiki/Muir_Woods_National_Monument",
+          "checked": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "san-francisco-tartine-bakery",
+      "name": "Tartine Bakery",
+      "kind": "eat",
+      "lat": 37.76166,
+      "lon": -122.42368,
+      "wiki": "Tartine",
+      "summary": "A bakery famous across the US for country bread and morning buns.",
+      "expect": "A queue most mornings.",
+      "tip": "Take pastries to Dolores Park two blocks away.",
+      "area": "Mission District",
+      "duration": 0.5,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tartine%20Bakery%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Tartine%20Bakery%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Tartine%20Bakery%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A bakery famous across the US for country bread and morning buns.",
+        "One of America's most influential bakeries."
+      ],
+      "visitFlow": [
+        "Queue at the counter.",
+        "Order a morning bun and a croissant."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "A queue most mornings.",
+        "Take pastries to Dolores Park two blocks away."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Bakery",
+      "mustOrder": [
+        "Morning bun",
+        "Country loaf"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "san-francisco-la-taqueria",
+      "name": "La Taqueria",
+      "kind": "eat",
+      "lat": 37.7509,
+      "lon": -122.4181,
+      "wiki": "La Taqueria",
+      "summary": "A Mission taqueria known for rice-free burritos and crisp tacos.",
+      "expect": "A queue, shared tables and cash preferred.",
+      "tip": "Ask for it 'dorado' to have the burrito griddled.",
+      "area": "Mission District",
+      "duration": 0.6,
+      "price": [
+        12,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Off-peak lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=La%20Taqueria%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=La%20Taqueria%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=La%20Taqueria%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A Mission taqueria known for rice-free burritos and crisp tacos.",
+        "Often named the best burrito in America."
+      ],
+      "visitFlow": [
+        "Order at the counter.",
+        "Wait for your number."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "A queue, shared tables and cash preferred.",
+        "Ask for it 'dorado' to have the burrito griddled."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Mexican taqueria",
+      "mustOrder": [
+        "Carnitas burrito, dorado style"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "san-francisco-swan-oyster-depot",
+      "name": "Swan Oyster Depot",
+      "kind": "eat",
+      "lat": 37.79094,
+      "lon": -122.42091,
+      "wiki": "Swan Oyster Depot",
+      "summary": "An 18-stool seafood counter open since 1912.",
+      "expect": "Waits of an hour or more; cash only; closes mid-afternoon.",
+      "tip": "Arrive before opening on a weekday.",
+      "area": "Polk Gulch",
+      "duration": 1.5,
+      "price": [
+        40,
+        80
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Weekday morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Swan%20Oyster%20Depot%2C%20San%20Francisco",
+        "https://www.google.com/maps/search/?api=1&query=Swan%20Oyster%20Depot%2C%20San%20Francisco"
+      ],
+      "review": {
+        "rating": null,
+        "count": null,
+        "source": null,
+        "url": "https://www.tripadvisor.com/Search?q=Swan%20Oyster%20Depot%2C%20San%20Francisco",
+        "checked": "2026-11-15",
+        "note": "Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh."
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "An 18-stool seafood counter open since 1912.",
+        "A San Francisco institution for oysters and crab."
+      ],
+      "visitFlow": [
+        "Queue outside.",
+        "Order a combination salad, oysters and chowder."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "Waits of an hour or more; cash only; closes mid-afternoon.",
+        "Arrive before opening on a weekday."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Seafood counter",
+      "mustOrder": [
+        "Dungeness crab",
+        "Oysters",
+        "Clam chowder"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "none",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ],
+  "enriched": "2026-11-15"
+}

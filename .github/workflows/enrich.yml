@@ -1,0 +1,44 @@
+name: Enrich new cities
+
+# New cities arrive as seeds (see seeds/README.md). This fills in what needs the internet:
+# exact pins, photos, Wikipedia readership and photo galleries, then commits the results back
+# to the same branch with a report in seeds/reports/.
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['seeds/*.json']
+  workflow_dispatch:
+    inputs:
+      cities:
+        description: City ids, comma-separated (empty = every city not enriched yet)
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: enrich-${{ github.ref }}
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm i --no-save sharp@0.34.3
+      - run: node scripts/add-city.mjs
+      - run: node scripts/enrich.mjs ${{ inputs.cities && format('--city {0}', inputs.cities) || '' }}
+      - run: node scripts/check-data.mjs
+      - run: npm run build
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A data images/photos seeds
+          git diff --cached --quiet && exit 0
+          git commit -m "Enrich new cities: pins, photos, readership (automated)"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin HEAD:${{ github.ref_name }}
