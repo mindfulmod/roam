@@ -1,0 +1,45 @@
+name: Site health
+
+# Every morning: is the live site up? If not, an issue is opened and assigned so the owner
+# gets an email. When the site is back, the issue closes itself. See docs/RUNBOOK.md.
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TITLE: The live site is down
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - id: site
+        continue-on-error: true
+        run: node scripts/health.mjs 2>&1 | tee result.txt; exit "${PIPESTATUS[0]}"
+      - name: Open or close the alert
+        run: |
+          open=$(gh issue list --state open --search "\"$TITLE\" in:title" --json number --jq '.[0].number // empty')
+          if [ "${{ steps.site.outcome }}" = "failure" ]; then
+            body="$(cat result.txt)
+
+          What to do: docs/RUNBOOK.md, section \"The site is down\".
+          Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            if [ -z "$open" ]; then
+              gh issue create --title "$TITLE" --body "$body" --assignee "${{ github.repository_owner }}"
+            else
+              gh issue comment "$open" --body "Still down. $body"
+            fi
+            exit 1
+          elif [ -n "$open" ]; then
+            gh issue close "$open" --comment "The site is back up. $(cat result.txt)"
+          fi
