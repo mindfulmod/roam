@@ -1,16 +1,29 @@
 name: Check
 
-# Runs on every pull request: the data check and a full build.
+# Runs on every pull request: the app must build, the guide data must be sound, every screen
+# must open on a phone and a desktop, and typed or linked text must never run as code.
 on:
   pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: check-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
-  check:
+  test:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+          cache: npm
+      - run: npm ci
       - run: node scripts/check-data.mjs
-      - run: npm run build
+      - run: npx playwright install --with-deps chromium
+      - run: npm test
