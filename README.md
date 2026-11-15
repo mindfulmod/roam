@@ -75,3 +75,12 @@ guide when the new selections come out.
 
 This was first built as a single HTML file in ChatGPT. The original file was split into this
 layout without changing behaviour; both builds render the same as the original.
+
+## Checks
+
+`npm test` builds the app and runs the checks in `tests/`. The same checks run on every pull request (`.github/workflows/check.yml`).
+
+- `tests/data.test.mjs`: the guide data is sound (ids unique and link-safe, coordinates near their city, links are http(s) only).
+- `tests/app.test.mjs`: every screen opens on a phone and a desktop with no errors and no sideways scrolling; saving a place and adding a city to the trip works and survives a reload; text that was typed, or that arrives in a link or a backup file, is shown as text and never runs as code.
+
+New screens go in the `SCREENS` list. Anything that shows text written by a person gets a case in the hostile-text tests before it merges.
