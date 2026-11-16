@@ -83,6 +83,7 @@ function lgShow() {
 }
 function lgTab(tab) {
   LG.tab = tab;
+  $('.toast')?.remove();
   history.replaceState(history.state, '', `#/story/${LG.id}/log${tab === 'here' ? '' : '/' + tab}`);
   lgShow();
   if (stStacked()) window.scrollTo({ top: 0 });

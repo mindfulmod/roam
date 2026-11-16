@@ -32,6 +32,9 @@ const SCREENS = [
   '#/choose',
   '#/guide',
   '#/story/japan-sample',
+  '#/story/japan-sample/log',
+  '#/story/japan-sample/log/catchup',
+  '#/story/japan-sample/log/edit',
   '#/city/not-a-city',
   '#/story/not-a-story',
   '#/t/not-a-link',
@@ -138,7 +141,13 @@ test('hostile text in saved notes, stays and lists is shown as text on every scr
 });
 
 test('unreadable saved data falls back to a fresh start', async () => {
-  for (const state of ['{not json', '[]', '"text"', 'null', '{"saved":{"a":1},"trip":"x","notes":[]}']) {
+  for (const state of [
+    '{not json',
+    '[]',
+    '"text"',
+    'null',
+    '{"saved":{"a":1},"trip":"x","notes":[]}',
+  ]) {
     const page = await openApp(browser, origin, { state });
     for (const hash of ['#/', '#/saved', '#/trip']) await go(page, hash);
     assert.deepEqual(page.errors, [], 'error with saved data ' + state);
@@ -156,6 +165,8 @@ test('hostile text in the address bar is shown as text', async () => {
     `#/map/${h}`,
     `#/story/${h}`,
     `#/story/japan-sample/${h}`,
+    `#/story/japan-sample/log/${h}`,
+    `#/story/${h}/log`,
     `#/choose?${h}=${h}&when=${h}&mood=${h}&budget=${h}`,
     `#/t/${h}`,
     `#/${HOSTILE}`,
@@ -171,7 +182,15 @@ test('hostile text inside a shared trip link is shown as text', async () => {
   const page = await openApp(browser, origin);
   const b64 = (o) => Buffer.from(JSON.stringify(o)).toString('base64url');
   const links = [
-    { v: 1, t: ['kyoto', HOSTILE], d: { kyoto: HOSTILE }, s: [HOSTILE], sd: HOSTILE, p: HOSTILE, pc: HOSTILE },
+    {
+      v: 1,
+      t: ['kyoto', HOSTILE],
+      d: { kyoto: HOSTILE },
+      s: [HOSTILE],
+      sd: HOSTILE,
+      p: HOSTILE,
+      pc: HOSTILE,
+    },
     { v: 1, t: [HOSTILE], d: {}, s: [] },
     { v: HOSTILE, t: HOSTILE },
     HOSTILE,
@@ -235,5 +254,57 @@ test('hostile text in a trip backup file is shown as text after import', async (
     }
     assert.deepEqual(page.errors, []);
   }
+  await page.context().close();
+});
+
+// The logging mock is the first screen where a traveller types text that others will read
+// (a place name, a note, a caption), so it gets the same hostile-text check from the start.
+test('logging a trip: the three flows work and typed text is shown as text', async () => {
+  const page = await openApp(browser, origin, { hash: '#/story/japan-sample/log' });
+  const tap = async (sel) => {
+    await page.$eval(sel, (el) => el.click());
+    await page.waitForTimeout(150);
+  };
+  const count = (sel) => page.locator(sel).count();
+  // "I'm here", then undo, then a place the guide does not have, logged with no signal.
+  await tap('[data-action="lg-here"]');
+  assert.equal(await count('.lg-list li'), 1, 'the tap did not log a place');
+  await tap('.toast button');
+  assert.equal(await count('.lg-list li'), 0, 'undo did not remove the place');
+  await tap('[data-action="lg-signal"]');
+  await tap('[data-action="lg-else"]');
+  await page.fill('#lg-newplace', HOSTILE);
+  await tap('.lg-add .btn');
+  assert.equal(await count('.lg-wait'), 1, 'an offline tap is not marked as waiting');
+  await tap('[data-action="lg-signal"]');
+  assert.equal(await count('.lg-wait'), 0, 'coming back online did not send the place');
+  assert.deepEqual(await injected(page), clean, 'a typed place name ran as code');
+  // Catch up: six photos at one place is one too many, and a photo with no location asks where.
+  await tap('#lg-tabs [data-id="catchup"]');
+  await tap('[data-action="lg-build"]');
+  assert.equal(await page.locator('[data-action="lg-commit"]').isDisabled(), true);
+  await tap('.lg-group.needs [data-action="lg-unpick"]');
+  await tap('.btn[data-action="lg-where"]');
+  await tap('.lg-pick button');
+  await tap('[data-action="lg-commit"]');
+  assert.equal(await count('.lg-list li'), 5, 'the day was not built from the photos');
+  // The story: an edit can be undone, and it is finished only when all four say yes.
+  await tap('#lg-tabs [data-id="edit"]');
+  await tap('[data-action="lg-edit"]');
+  await page.fill('.lg-editform textarea', HOSTILE);
+  await page.fill('.lg-editform input[name="cap0"]', HOSTILE);
+  await tap('.lg-editform .btn');
+  assert.deepEqual(await injected(page), clean, 'a typed note or caption ran as code');
+  await tap('[data-action="lg-edit"]');
+  assert.deepEqual(await injected(page), clean, 'a typed note ran as code in the edit sheet');
+  await tap('[data-action="close-modal"]');
+  await tap('.lg-changes [data-action="lg-undo"]');
+  assert.equal(await count('.lg-changes li.undone'), 1, 'the edit was not undone');
+  await tap('[data-action="lg-week"]');
+  await tap('[data-action="lg-ok"]');
+  assert.equal(await count('.lg-done'), 0, 'the story finished without everyone');
+  await tap('[data-action="lg-jo"]');
+  assert.equal(await count('.lg-done'), 1, 'the story did not finish with four yeses');
+  assert.deepEqual(page.errors, []);
   await page.context().close();
 });
