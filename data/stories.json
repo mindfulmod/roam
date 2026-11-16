@@ -483,5 +483,170 @@
         ]
       }
     ]
+  },
+  "istanbul-sample": {
+    "sample": true,
+    "title": "Istanbul, a long weekend",
+    "blurb": "Three days, two continents and far too much tea.",
+    "cover": "istanbul-hagia-sophia",
+    "country": "Türkiye",
+    "travellers": [
+      { "id": "maya", "name": "Maya", "color": "#b0429f" },
+      { "id": "leo", "name": "Leo", "color": "#a9820c" }
+    ],
+    "audience": "invited",
+    "viewers": ["Alex", "Sam"],
+    "days": [
+      {
+        "date": "2028-09-08",
+        "city": "Istanbul",
+        "title": "The old city, slowly",
+        "stops": [
+          {
+            "place": "istanbul-hagia-sophia",
+            "in": "09:10",
+            "out": "10:50",
+            "by": "maya",
+            "note": "We stood under the dome and forgot to take the photo for a full five minutes.",
+            "photos": [{ "id": "istanbul-hagia-sophia", "by": "maya", "caption": "Looking up." }],
+            "loves": 3,
+            "comments": [{ "by": "Alex", "text": "That light. Saving this for October." }]
+          },
+          {
+            "place": "istanbul-basilica-cistern",
+            "in": "11:05",
+            "out": "11:55",
+            "by": "leo",
+            "note": "Cool, dark and quiet. Leo found both Medusa heads before reading the sign.",
+            "photos": [
+              { "id": "istanbul-basilica-cistern", "by": "leo", "caption": "Under the street." }
+            ],
+            "loves": 2
+          },
+          {
+            "place": "istanbul-buhara-ocakbasi-restaurant",
+            "in": "12:30",
+            "out": "13:40",
+            "by": "leo",
+            "note": "Lamb off the grill and bread that kept arriving.",
+            "loves": 2
+          },
+          {
+            "place": "istanbul-blue-mosque",
+            "in": "14:10",
+            "out": "15:00",
+            "by": "maya",
+            "note": "Shoes off, scarf on, six minarets against a very blue sky.",
+            "photos": [
+              { "id": "istanbul-blue-mosque", "by": "maya", "caption": "Between prayers." }
+            ],
+            "loves": 2
+          },
+          {
+            "place": "istanbul-grand-bazaar",
+            "in": "15:30",
+            "out": "17:20",
+            "by": "maya",
+            "note": "Went in for one lamp. Came out with two lamps and a rug we cannot carry.",
+            "photos": [
+              { "id": "istanbul-grand-bazaar", "by": "maya", "caption": "Lamp number one." }
+            ],
+            "loves": 3,
+            "comments": [{ "by": "Sam", "text": "How are you getting the rug home?" }]
+          }
+        ]
+      },
+      {
+        "date": "2028-09-09",
+        "city": "Istanbul",
+        "title": "Up the hill and across the water",
+        "stops": [
+          {
+            "place": "istanbul-suleymaniye-mosque",
+            "in": "08:40",
+            "out": "09:50",
+            "by": "leo",
+            "note": "The quietest place in the city, with the best view of it.",
+            "photos": [
+              {
+                "id": "istanbul-suleymaniye-mosque",
+                "by": "leo",
+                "caption": "The Golden Horn from the garden."
+              }
+            ],
+            "loves": 3
+          },
+          {
+            "place": "istanbul-spice-bazaar-tasting-stop",
+            "in": "10:20",
+            "out": "11:10",
+            "by": "maya",
+            "note": "Tasted everything twice. Bought saffron we will be using until 2031.",
+            "loves": 1
+          },
+          {
+            "place": "istanbul-bosphorus-ferry-from-eminonu",
+            "in": "11:40",
+            "out": "13:30",
+            "by": "leo",
+            "note": "Tea in a tulip glass on deck, Europe on one side and Asia on the other.",
+            "photos": [
+              {
+                "id": "istanbul-bosphorus-ferry-from-eminonu",
+                "by": "leo",
+                "caption": "Mid-crossing."
+              }
+            ],
+            "loves": 4
+          },
+          {
+            "place": "istanbul-ciya-sofrasi",
+            "in": "14:00",
+            "out": "15:20",
+            "by": "maya",
+            "note": "Point at the pots, sit down, be happy. The best meal of the weekend.",
+            "photos": [
+              { "id": "istanbul-ciya-sofrasi", "by": "maya", "caption": "Lunch in Kadıköy." }
+            ],
+            "loves": 3
+          },
+          {
+            "place": "istanbul-galata-tower",
+            "in": "18:10",
+            "out": "19:30",
+            "by": "leo",
+            "note": "Climbed for sunset and stayed for the call to prayer rolling across the roofs.",
+            "photos": [{ "id": "istanbul-galata-tower", "by": "leo", "caption": "Last light." }],
+            "loves": 4
+          }
+        ]
+      },
+      {
+        "date": "2028-09-10",
+        "city": "Istanbul",
+        "title": "One palace before the airport",
+        "stops": [
+          {
+            "place": "istanbul-dolmabahce-palace",
+            "in": "09:30",
+            "out": "11:40",
+            "by": "maya",
+            "note": "A chandelier the size of our flat. Maya wants one.",
+            "photos": [
+              { "id": "istanbul-dolmabahce-palace", "by": "maya", "caption": "The front gate." }
+            ],
+            "loves": 2
+          },
+          {
+            "place": "istanbul-vegan-istanbul",
+            "in": "12:20",
+            "out": "13:10",
+            "by": "leo",
+            "note": "Quick lunch before the airport. Leo ordered a second plate to go.",
+            "loves": 1
+          }
+        ]
+      }
+    ]
   }
 }

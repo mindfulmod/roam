@@ -1,0 +1,577 @@
+{
+  "id": "banff",
+  "name": "Banff",
+  "country": "Canada",
+  "region": "North America",
+  "lat": 51.1784,
+  "lon": -115.5708,
+  "wiki": "Banff, Alberta",
+  "tagline": "Turquoise lakes in the Canadian Rockies",
+  "summary": "Base in Banff town for the lakes and peaks of Canada's first national park. Lake Louise and Moraine Lake need shuttle bookings; the Icefields Parkway is a full-day drive.",
+  "days": 4,
+  "bestMonths": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "Lakes thaw in June; Moraine Lake's road is open roughly June to mid-October. December to March is ski season.",
+  "arrival": "Fly to Calgary; airport shuttles and the drive take about 90 minutes.",
+  "gettingAround": "Roam buses cover the town and Lake Louise; a car is best for the Icefields Parkway.",
+  "cashTip": "Cards work everywhere; a national park pass is needed per day.",
+  "dailyBudget": [
+    100,
+    200
+  ],
+  "currency": "CAD",
+  "cashPerDay": [
+    0,
+    20
+  ],
+  "foodTip": "Try Alberta beef, bison, a Caesar cocktail and a BeaverTail pastry.",
+  "buyTip": "Outdoor gear, maple products and local art.",
+  "baseArea": "Banff town; Canmore for value",
+  "connections": [
+    {
+      "to": "vancouver",
+      "mode": "Road",
+      "minutes": 540,
+      "note": "About 9 hours' drive, or fly from Calgary."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.banfflakelouise.com",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Banff on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Banff%2C_Alberta",
+      "type": "reference",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Banff%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-15"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Banff%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Moraine Lake",
+  "added": "2026-11-15",
+  "items": [
+    {
+      "id": "banff-lake-louise",
+      "name": "Lake Louise",
+      "kind": "see",
+      "lat": 51.41167,
+      "lon": -116.22806,
+      "wiki": "Lake Louise (Alberta)",
+      "summary": "A turquoise glacial lake beneath Victoria Glacier.",
+      "expect": "Parking is full by sunrise in summer.",
+      "tip": "Book the Parks Canada shuttle and walk to the Lake Agnes Tea House.",
+      "area": "Lake Louise",
+      "duration": 4,
+      "price": [
+        8,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning, June to September",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lake%20Louise%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Lake%20Louise%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "A turquoise glacial lake beneath Victoria Glacier.",
+        "The most famous view in the Rockies."
+      ],
+      "visitFlow": [
+        "Shuttle from the Park and Ride.",
+        "Walk the lakeshore, then hike to Lake Agnes."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Parking is full by sunrise in summer.",
+        "Book the Parks Canada shuttle and walk to the Lake Agnes Tea House."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 49288,
+          "period": "202511-202610",
+          "title": "Lake Louise (Alberta)",
+          "url": "https://en.wikipedia.org/wiki/Lake_Louise_(Alberta)",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lake%20Louise%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-moraine-lake",
+      "name": "Moraine Lake",
+      "kind": "see",
+      "lat": 51.3225,
+      "lon": -116.18556,
+      "wiki": "Moraine Lake",
+      "summary": "A vivid blue lake ringed by ten peaks.",
+      "expect": "No private cars; shuttle or tour bus only, and it is closed in winter.",
+      "tip": "Book the shuttle the moment reservations open; climb the Rockpile for the view.",
+      "area": "Valley of the Ten Peaks",
+      "duration": 2.5,
+      "price": [
+        8,
+        45
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunrise or morning, June to early October",
+      "reservation": "Essential",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Moraine%20Lake%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Moraine%20Lake%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A vivid blue lake ringed by ten peaks.",
+        "Many find it even more beautiful than Lake Louise."
+      ],
+      "visitFlow": [
+        "Take the shuttle from the Park and Ride.",
+        "Climb the Rockpile, then walk the shore."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "No private cars; shuttle or tour bus only, and it is closed in winter.",
+        "Book the shuttle the moment reservations open; climb the Rockpile for the view."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 45154,
+          "period": "202511-202610",
+          "title": "Moraine Lake",
+          "url": "https://en.wikipedia.org/wiki/Moraine_Lake",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Moraine%20Lake%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-banff-gondola",
+      "name": "Banff Gondola and Sulphur Mountain",
+      "kind": "see",
+      "lat": 51.12361,
+      "lon": -115.55583,
+      "wiki": "Sulphur Mountain (Alberta)",
+      "summary": "A gondola to a 2,281-metre summit with a ridge boardwalk and views of six ranges.",
+      "expect": "Pricey; cheaper off-peak slots.",
+      "tip": "Hike up for free and ride down, or go late for sunset.",
+      "area": "Banff",
+      "duration": 2,
+      "price": [
+        60,
+        80
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Banff%20Gondola%20and%20Sulphur%20Mountain%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Banff%20Gondola%20and%20Sulphur%20Mountain%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A gondola to a 2,281-metre summit with a ridge boardwalk and views of six ranges.",
+        "The best panorama near town."
+      ],
+      "visitFlow": [
+        "Ride the gondola.",
+        "Walk the boardwalk to Sanson's Peak."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Pricey; cheaper off-peak slots.",
+        "Hike up for free and ride down, or go late for sunset."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 12434,
+          "period": "202511-202610",
+          "title": "Sulphur Mountain (Alberta)",
+          "url": "https://en.wikipedia.org/wiki/Sulphur_Mountain_(Alberta)",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Banff%20Gondola%20and%20Sulphur%20Mountain%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-johnston-canyon",
+      "name": "Johnston Canyon",
+      "kind": "see",
+      "lat": 51.2417,
+      "lon": -115.8544,
+      "wiki": "Johnston Canyon",
+      "summary": "Catwalks bolted to canyon walls lead to two waterfalls.",
+      "expect": "Very busy at midday; icy in winter.",
+      "tip": "Go before 9 am or after 5 pm.",
+      "area": "Bow Valley Parkway",
+      "duration": 2.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Johnston%20Canyon%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Johnston%20Canyon%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Catwalks bolted to canyon walls lead to two waterfalls.",
+        "The most accessible canyon walk in the park."
+      ],
+      "visitFlow": [
+        "Walk to the Lower Falls.",
+        "Continue to the Upper Falls."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Very busy at midday; icy in winter.",
+        "Go before 9 am or after 5 pm."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 1730,
+          "period": "202511-202610",
+          "title": "Johnston Creek (Alberta)",
+          "url": "https://en.wikipedia.org/wiki/Johnston_Creek_(Alberta)",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Johnston%20Canyon%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-icefields-parkway",
+      "name": "Icefields Parkway",
+      "kind": "see",
+      "lat": 52.2206,
+      "lon": -117.2242,
+      "wiki": "Icefields Parkway",
+      "summary": "A 230 km mountain highway past glaciers, Peyto Lake and the Columbia Icefield.",
+      "expect": "No phone signal and one fuel stop; a full day.",
+      "tip": "Drive as far as the Columbia Icefield and back, stopping at Bow and Peyto lakes.",
+      "area": "Banff to Jasper",
+      "duration": 10,
+      "price": [
+        0,
+        120
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Clear summer day",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Icefields%20Parkway%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Icefields%20Parkway%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "A 230 km mountain highway past glaciers, Peyto Lake and the Columbia Icefield.",
+        "One of the world's great scenic drives."
+      ],
+      "visitFlow": [
+        "Start early from Lake Louise.",
+        "Stop at Bow Lake, Peyto Lake and the Athabasca Glacier."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "No phone signal and one fuel stop; a full day.",
+        "Drive as far as the Columbia Icefield and back, stopping at Bow and Peyto lakes."
+      ],
+      "pinApproximate": true,
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12077,
+          "period": "202511-202610",
+          "title": "Alberta Highway 93",
+          "url": "https://en.wikipedia.org/wiki/Alberta_Highway_93",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Icefields%20Parkway%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-banff-upper-hot-springs",
+      "name": "Banff Upper Hot Springs",
+      "kind": "see",
+      "lat": 51.15056,
+      "lon": -115.56083,
+      "wiki": "Banff Upper Hot Springs",
+      "summary": "An outdoor thermal pool with mountain views.",
+      "expect": "A public pool, busy in the evening.",
+      "tip": "Go after a hike or on a snowy evening.",
+      "area": "Banff",
+      "duration": 1.25,
+      "price": [
+        17,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Banff%20Upper%20Hot%20Springs%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Banff%20Upper%20Hot%20Springs%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "An outdoor thermal pool with mountain views.",
+        "The hot springs are the reason the park was founded."
+      ],
+      "visitFlow": [
+        "Rent a towel and locker.",
+        "Soak with a view of Mount Rundle."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and shows and nightlife",
+      "tradeoffs": [
+        "A public pool, busy in the evening.",
+        "Go after a hike or on a snowy evening."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 7432,
+          "period": "202511-202610",
+          "title": "Banff Upper Hot Springs",
+          "url": "https://en.wikipedia.org/wiki/Banff_Upper_Hot_Springs",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Banff%20Upper%20Hot%20Springs%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-park-distillery",
+      "name": "Park Distillery",
+      "kind": "eat",
+      "lat": 51.17773,
+      "lon": -115.57128,
+      "wiki": "Banff, Alberta",
+      "summary": "A restaurant and distillery serving campfire-style cooking.",
+      "expect": "Busy; book for dinner.",
+      "tip": "Try a spirit flight made with glacier water.",
+      "area": "Banff Avenue",
+      "duration": 1.5,
+      "price": [
+        35,
+        70
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Park%20Distillery%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Park%20Distillery%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A restaurant and distillery serving campfire-style cooking.",
+        "The town's most distinctive place to eat."
+      ],
+      "visitFlow": [
+        "Reserve a table.",
+        "Order rotisserie chicken or bison."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy; book for dinner.",
+        "Try a spirit flight made with glacier water."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Canadian campfire cooking",
+      "mustOrder": [
+        "Rotisserie chicken",
+        "Bison burger"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Park%20Distillery%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-lake-agnes-tea-house",
+      "name": "Lake Agnes Tea House",
+      "kind": "eat",
+      "lat": 51.4158,
+      "lon": -116.2444,
+      "wiki": "Lake Agnes",
+      "summary": "A log tea house from 1905 beside a mountain lake, reached only on foot.",
+      "expect": "A 3.5 km uphill hike; cash preferred; open June to early October.",
+      "tip": "Start by 8 am to get a table.",
+      "area": "Above Lake Louise",
+      "duration": 1,
+      "price": [
+        12,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lake%20Agnes%20Tea%20House%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=Lake%20Agnes%20Tea%20House%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A log tea house from 1905 beside a mountain lake, reached only on foot.",
+        "Tea and fresh bread taste better after the climb."
+      ],
+      "visitFlow": [
+        "Hike up from Lake Louise.",
+        "Order tea and a sandwich on the porch."
+      ],
+      "bestFor": "Visitors interested in regional food and landscapes and wildlife",
+      "tradeoffs": [
+        "A 3.5 km uphill hike; cash preferred; open June to early October.",
+        "Start by 8 am to get a table."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Mountain tea house",
+      "mustOrder": [
+        "Loose-leaf tea",
+        "Homemade soup and bread"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lake%20Agnes%20Tea%20House%2C%20Banff"
+      }
+    },
+    {
+      "id": "banff-beavertails",
+      "name": "BeaverTails",
+      "kind": "eat",
+      "lat": 51.17551,
+      "lon": -115.57074,
+      "wiki": "BeaverTails",
+      "summary": "A stand selling flat fried dough pastries with sweet toppings.",
+      "expect": "A queue on summer evenings.",
+      "tip": "The classic is cinnamon sugar with lemon.",
+      "area": "Banff Avenue",
+      "duration": 0.25,
+      "price": [
+        7,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=BeaverTails%2C%20Banff",
+        "https://www.google.com/maps/search/?api=1&query=BeaverTails%2C%20Banff"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A stand selling flat fried dough pastries with sweet toppings.",
+        "A Canadian treat for a walk along Banff Avenue."
+      ],
+      "visitFlow": [
+        "Order at the window.",
+        "Eat it warm."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "A queue on summer evenings.",
+        "The classic is cinnamon sugar with lemon."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Fried dough pastry",
+      "mustOrder": [
+        "Killaloe Sunrise (cinnamon, sugar, lemon)"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=BeaverTails%2C%20Banff"
+      }
+    }
+  ],
+  "enriched": "2026-11-15"
+}

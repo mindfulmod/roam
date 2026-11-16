@@ -26,7 +26,12 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm run build
+          cache: npm
+      # Nothing reaches the live site without passing the checks. Pull requests are checked
+      # before they merge, but the weekly data refresh commits straight to main.
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm test
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

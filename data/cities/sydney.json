@@ -1,0 +1,581 @@
+{
+  "id": "sydney",
+  "name": "Sydney",
+  "country": "Australia",
+  "region": "Oceania",
+  "lat": -33.8688,
+  "lon": 151.2093,
+  "wiki": "Sydney",
+  "tagline": "Harbour icons and ocean beaches",
+  "summary": "Spend a day around the harbour, a day at the beaches and a day in the Blue Mountains. Ferries are transport and sightseeing at once.",
+  "days": 4,
+  "bestMonths": [
+    10,
+    11,
+    12,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "Summer (December to February) is hot and busy; New Year's Eve is the price peak. Winter is mild.",
+  "arrival": "The airport train reaches the centre in about 15 minutes.",
+  "gettingAround": "Tap a contactless card on trains, ferries, light rail and buses; fares are capped daily.",
+  "cashTip": "Cards are used for everything; tipping is optional.",
+  "dailyBudget": [
+    90,
+    180
+  ],
+  "currency": "AUD",
+  "cashPerDay": [
+    0,
+    20
+  ],
+  "foodTip": "Try flat whites and brunch, fish and chips by the water, Sydney rock oysters and modern Asian cooking.",
+  "buyTip": "Aboriginal art from ethical, artist-owned galleries; sun-care and surf brands.",
+  "baseArea": "The Rocks, the CBD, Surry Hills or Bondi",
+  "connections": [
+    {
+      "to": "queenstown",
+      "mode": "Flight",
+      "minutes": 190,
+      "note": "Direct flights daily."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.sydney.com",
+      "type": "official",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Sydney on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sydney",
+      "type": "reference",
+      "checked": "2026-11-15"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Sydney%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-15"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Sydney%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Sydney Opera House",
+  "added": "2026-11-15",
+  "items": [
+    {
+      "id": "sydney-sydney-opera-house",
+      "name": "Sydney Opera House",
+      "kind": "see",
+      "lat": -33.85681,
+      "lon": 151.21514,
+      "wiki": "Sydney Opera House",
+      "summary": "The sail-roofed performing arts centre on the harbour, open for tours and shows.",
+      "expect": "Free to walk around; tours and performances need tickets.",
+      "tip": "Take the one-hour tour, or book any performance to see inside.",
+      "area": "Circular Quay",
+      "duration": 1.5,
+      "price": [
+        0,
+        48
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning tour or evening performance",
+      "reservation": "Recommended",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sydney%20Opera%20House%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Sydney%20Opera%20House%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "The sail-roofed performing arts centre on the harbour, open for tours and shows.",
+        "It is one of the 20th century's great buildings."
+      ],
+      "visitFlow": [
+        "Walk the forecourt and up the steps.",
+        "Join a guided tour or see a show."
+      ],
+      "bestFor": "Visitors interested in architecture and design and shows and nightlife",
+      "tradeoffs": [
+        "Free to walk around; tours and performances need tickets.",
+        "Take the one-hour tour, or book any performance to see inside."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 427911,
+          "period": "202511-202610",
+          "title": "Sydney Opera House",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Opera_House",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sydney%20Opera%20House%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-sydney-harbour-bridge",
+      "name": "Sydney Harbour Bridge",
+      "kind": "see",
+      "lat": -33.85222,
+      "lon": 151.21056,
+      "wiki": "Sydney Harbour Bridge",
+      "summary": "The steel arch 'Coathanger', which you can walk across for free or climb with a guide.",
+      "expect": "BridgeClimb is expensive and takes about three hours.",
+      "tip": "Walk the free footpath and climb the Pylon Lookout for a cheap high view.",
+      "area": "The Rocks",
+      "duration": 1.25,
+      "price": [
+        0,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sydney%20Harbour%20Bridge%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Sydney%20Harbour%20Bridge%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "The steel arch 'Coathanger', which you can walk across for free or climb with a guide.",
+        "The classic view of the Opera House is from the bridge."
+      ],
+      "visitFlow": [
+        "Take the Bridge Stairs from The Rocks.",
+        "Walk to the Pylon Lookout or across to Milsons Point."
+      ],
+      "bestFor": "Visitors interested in architecture and design and big views",
+      "tradeoffs": [
+        "BridgeClimb is expensive and takes about three hours.",
+        "Walk the free footpath and climb the Pylon Lookout for a cheap high view."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 216218,
+          "period": "202511-202610",
+          "title": "Sydney Harbour Bridge",
+          "url": "https://en.wikipedia.org/wiki/Sydney_Harbour_Bridge",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sydney%20Harbour%20Bridge%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-bondi-coogee-walk",
+      "name": "Bondi to Coogee coastal walk",
+      "kind": "see",
+      "lat": -33.89111,
+      "lon": 151.27417,
+      "wiki": "Bondi Beach",
+      "summary": "A 6 km cliff path linking Bondi Beach with Tamarama, Bronte and Coogee.",
+      "expect": "Exposed to sun and busy on weekend mornings.",
+      "tip": "Start at the Bondi Icebergs pool and swim at Bronte on the way.",
+      "area": "Eastern beaches",
+      "duration": 3,
+      "price": [
+        0,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bondi%20to%20Coogee%20coastal%20walk%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Bondi%20to%20Coogee%20coastal%20walk%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "A 6 km cliff path linking Bondi Beach with Tamarama, Bronte and Coogee.",
+        "It is the best urban coastal walk in Australia."
+      ],
+      "visitFlow": [
+        "Bus to Bondi Beach.",
+        "Walk south, stopping to swim, and bus back from Coogee."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Exposed to sun and busy on weekend mornings.",
+        "Start at the Bondi Icebergs pool and swim at Bronte on the way."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 502192,
+          "period": "202511-202610",
+          "title": "Bondi Beach",
+          "url": "https://en.wikipedia.org/wiki/Bondi_Beach",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bondi%20to%20Coogee%20coastal%20walk%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-manly-ferry",
+      "name": "Manly ferry",
+      "kind": "see",
+      "lat": -33.8001,
+      "lon": 151.28492,
+      "wiki": "Manly ferry services",
+      "summary": "A 30-minute public ferry across the harbour to a beach suburb.",
+      "expect": "Outdoor decks fill up on sunny days.",
+      "tip": "Sit outside on the right-hand side leaving Circular Quay.",
+      "area": "Sydney Harbour",
+      "duration": 3,
+      "price": [
+        10,
+        22
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon, returning at sunset",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Manly%20ferry%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Manly%20ferry%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A 30-minute public ferry across the harbour to a beach suburb.",
+        "It is the cheapest harbour cruise in the city."
+      ],
+      "visitFlow": [
+        "Board at Circular Quay.",
+        "Walk Manly's Corso to the ocean beach."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Outdoor decks fill up on sunny days.",
+        "Sit outside on the right-hand side leaving Circular Quay."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 7601,
+          "period": "202511-202610",
+          "title": "Manly ferry service",
+          "url": "https://en.wikipedia.org/wiki/Manly_ferry_service",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Manly%20ferry%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-royal-botanic-garden",
+      "name": "Royal Botanic Garden and Mrs Macquarie's Chair",
+      "kind": "see",
+      "lat": -33.86389,
+      "lon": 151.21694,
+      "wiki": "Royal Botanic Garden, Sydney",
+      "summary": "Harbourside gardens with a point that frames the Opera House and bridge together.",
+      "expect": "Free and open daily.",
+      "tip": "Walk from the Opera House around Farm Cove to the Chair.",
+      "area": "Farm Cove",
+      "duration": 1.25,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning or sunset",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Royal%20Botanic%20Garden%20and%20Mrs%20Macquarie's%20Chair%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Royal%20Botanic%20Garden%20and%20Mrs%20Macquarie's%20Chair%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Harbourside gardens with a point that frames the Opera House and bridge together.",
+        "It has the best single view of both icons."
+      ],
+      "visitFlow": [
+        "Follow the sea wall from the Opera House.",
+        "Reach Mrs Macquarie's Point."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Free and open daily.",
+        "Walk from the Opera House around Farm Cove to the Chair."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 12866,
+          "period": "202511-202610",
+          "title": "Royal Botanic Garden, Sydney",
+          "url": "https://en.wikipedia.org/wiki/Royal_Botanic_Garden%2C_Sydney",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Royal%20Botanic%20Garden%20and%20Mrs%20Macquarie's%20Chair%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-blue-mountains",
+      "name": "Blue Mountains",
+      "kind": "see",
+      "lat": -33.6,
+      "lon": 150.35,
+      "wiki": "Blue Mountains (New South Wales)",
+      "summary": "Sandstone cliffs, eucalyptus valleys and the Three Sisters rock formation, two hours west by train.",
+      "expect": "Cooler than the city; mist can hide the views.",
+      "tip": "Take an early train to Katoomba and walk part of the cliff-top track.",
+      "area": "Katoomba",
+      "duration": 9,
+      "price": [
+        15,
+        70
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Clear weekday",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Blue%20Mountains%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Blue%20Mountains%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Sandstone cliffs, eucalyptus valleys and the Three Sisters rock formation, two hours west by train.",
+        "A World Heritage wilderness within a day trip."
+      ],
+      "visitFlow": [
+        "Train to Katoomba.",
+        "Echo Point, then the cliff walk or Scenic World."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Cooler than the city; mist can hide the views.",
+        "Take an early train to Katoomba and walk part of the cliff-top track."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 104610,
+          "period": "202511-202610",
+          "title": "Blue Mountains (New South Wales)",
+          "url": "https://en.wikipedia.org/wiki/Blue_Mountains_(New_South_Wales)",
+          "checked": "2026-11-15"
+        }
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Blue%20Mountains%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-sydney-fish-market",
+      "name": "Sydney Fish Market",
+      "kind": "eat",
+      "lat": -33.87274,
+      "lon": 151.19216,
+      "wiki": "Sydney Fish Market",
+      "summary": "A working fish market with counters selling oysters, sashimi and fish and chips.",
+      "expect": "Very busy at weekend lunchtimes; the market has moved to a new building nearby.",
+      "tip": "Go on a weekday and eat outside by the water.",
+      "area": "Pyrmont / Blackwattle Bay",
+      "duration": 1.25,
+      "price": [
+        20,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Weekday late morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sydney%20Fish%20Market%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Sydney%20Fish%20Market%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A working fish market with counters selling oysters, sashimi and fish and chips.",
+        "The best place for Sydney rock oysters and fresh seafood."
+      ],
+      "visitFlow": [
+        "Walk the retailers.",
+        "Buy oysters and a seafood platter."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Very busy at weekend lunchtimes; the market has moved to a new building nearby.",
+        "Go on a weekday and eat outside by the water."
+      ],
+      "venueType": "food-area",
+      "cuisine": "Seafood market",
+      "mustOrder": [
+        "Sydney rock oysters",
+        "Sashimi",
+        "Fish and chips"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "none",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sydney%20Fish%20Market%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-bourke-street-bakery",
+      "name": "Bourke Street Bakery",
+      "kind": "eat",
+      "lat": -33.88611,
+      "lon": 151.21111,
+      "wiki": "Surry Hills",
+      "summary": "A tiny corner bakery famous for sausage rolls and ginger brûlée tarts.",
+      "expect": "A queue out the door at weekends.",
+      "tip": "Take away and eat in a nearby park.",
+      "area": "Surry Hills",
+      "duration": 0.4,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bourke%20Street%20Bakery%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Bourke%20Street%20Bakery%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A tiny corner bakery famous for sausage rolls and ginger brûlée tarts.",
+        "A Sydney café institution."
+      ],
+      "visitFlow": [
+        "Queue at the counter.",
+        "Order a sausage roll and a tart."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "A queue out the door at weekends.",
+        "Take away and eat in a nearby park."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Bakery café",
+      "mustOrder": [
+        "Pork and fennel sausage roll",
+        "Ginger brûlée tart"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bourke%20Street%20Bakery%2C%20Sydney"
+      }
+    },
+    {
+      "id": "sydney-chinatown-spice-alley",
+      "name": "Chinatown and Spice Alley",
+      "kind": "eat",
+      "lat": -33.87878,
+      "lon": 151.20408,
+      "wiki": "Chinatown, Sydney",
+      "summary": "Dixon Street's restaurants and a nearby lantern-lit laneway of Asian hawker stalls.",
+      "expect": "Mostly card-only; busy on Friday nights.",
+      "tip": "Friday has a night market on Dixon Street.",
+      "area": "Haymarket",
+      "duration": 1.25,
+      "price": [
+        15,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chinatown%20and%20Spice%20Alley%2C%20Sydney",
+        "https://www.google.com/maps/search/?api=1&query=Chinatown%20and%20Spice%20Alley%2C%20Sydney"
+      ],
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Dixon Street's restaurants and a nearby lantern-lit laneway of Asian hawker stalls.",
+        "Sydney's Asian food is among the best outside Asia."
+      ],
+      "visitFlow": [
+        "Walk Dixon Street.",
+        "Eat at Spice Alley's hawker stalls."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Mostly card-only; busy on Friday nights.",
+        "Friday has a night market on Dixon Street."
+      ],
+      "venueType": "food-area",
+      "cuisine": "Pan-Asian hawker food",
+      "mustOrder": [
+        "Laksa",
+        "Dumplings",
+        "Hainanese chicken rice"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      },
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chinatown%20and%20Spice%20Alley%2C%20Sydney"
+      }
+    }
+  ],
+  "enriched": "2026-11-15"
+}
