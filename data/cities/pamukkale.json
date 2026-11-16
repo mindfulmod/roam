@@ -83,8 +83,8 @@
       "id": "pamukkale-pamukkale-travertines",
       "name": "Pamukkale travertines",
       "kind": "see",
-      "lat": 37.9237,
-      "lon": 29.1233,
+      "lat": 37.92448,
+      "lon": 29.11901,
       "wiki": "Pamukkale",
       "summary": "A white hillside of calcium terraces and shallow warm pools that you climb barefoot.",
       "expect": "Shoes off for the whole climb; the surface is ridged and wet, and some pools are dry by rotation.",
@@ -124,14 +124,22 @@
         "Shoes off for the whole climb; the surface is ridged and wet, and some pools are dry by rotation.",
         "Enter by the lower gate late in the afternoon and walk up for sunset, or be first in at opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 133867,
+          "period": "202511-202610",
+          "title": "Pamukkale",
+          "url": "https://en.wikipedia.org/wiki/Pamukkale",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "pamukkale-hierapolis",
       "name": "Hierapolis",
       "kind": "see",
-      "lat": 37.927,
-      "lon": 29.127,
+      "lat": 37.92677,
+      "lon": 29.12918,
       "wiki": "Hierapolis",
       "summary": "A Roman spa city above the terraces with a superb theatre and a vast necropolis.",
       "expect": "Included in the travertine ticket; the site is spread out with little shade.",
@@ -171,7 +179,15 @@
         "Included in the travertine ticket; the site is spread out with little shade.",
         "Walk up to the theatre first, then out along the main street to the necropolis."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 77371,
+          "period": "202511-202610",
+          "title": "Hierapolis",
+          "url": "https://en.wikipedia.org/wiki/Hierapolis",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "pamukkale-pamukkale-antique-pool",
@@ -218,14 +234,23 @@
         "An extra fee, lockers and a busy cafe; crowded at midday.",
         "Bring a swimsuit and go before 10 am or after 5 pm."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 77371,
+          "period": "202511-202610",
+          "title": "Hierapolis",
+          "url": "https://en.wikipedia.org/wiki/Hierapolis",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "pamukkale-hierapolis-archaeology-museum",
       "name": "Hierapolis Archaeology Museum",
       "kind": "see",
-      "lat": 37.9247,
-      "lon": 29.1245,
+      "lat": 37.92495,
+      "lon": 29.12456,
       "wiki": "Hierapolis Archaeology Museum",
       "summary": "Sarcophagi and sculpture from Hierapolis and Laodicea, displayed in the vaulted Roman baths.",
       "expect": "Small; half an hour is enough.",
@@ -264,14 +289,13 @@
       "tradeoffs": [
         "Small; half an hour is enough.",
         "A cool break in the middle of the day."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "pamukkale-laodicea-on-the-lycus",
       "name": "Laodicea on the Lycus",
       "kind": "see",
-      "lat": 37.8358,
+      "lat": 37.83583,
       "lon": 29.1075,
       "wiki": "Laodicea on the Lycus",
       "summary": "A large, recently excavated city with re-erected colonnades and one of the Seven Churches of Revelation.",
@@ -312,14 +336,22 @@
         "Almost no crowds and active excavation.",
         "Stop on the way to or from Denizli; allow an hour and a half."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48858,
+          "period": "202511-202610",
+          "title": "Laodicea on the Lycus",
+          "url": "https://en.wikipedia.org/wiki/Laodicea_on_the_Lycus",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "pamukkale-aphrodisias",
       "name": "Aphrodisias",
       "kind": "see",
-      "lat": 37.7089,
-      "lon": 28.7239,
+      "lat": 37.70833,
+      "lon": 28.72361,
       "wiki": "Aphrodisias",
       "summary": "A city of sculptors with a 30,000-seat stadium, a monumental gateway and an outstanding museum.",
       "expect": "About 90 minutes each way by road; very few visitors.",
@@ -359,8 +391,16 @@
         "About 90 minutes each way by road; very few visitors.",
         "Hire a car or join a small tour, and leave an hour for the museum's Sebasteion reliefs."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 40789,
+          "period": "202511-202610",
+          "title": "Aphrodisias",
+          "url": "https://en.wikipedia.org/wiki/Aphrodisias",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "pamukkale-kayas-restaurant-and-bar",
@@ -484,8 +524,8 @@
       "id": "pamukkale-hiera-coffee-and-tea-house",
       "name": "Hiera Coffee & Tea House",
       "kind": "eat",
-      "lat": 37.9183,
-      "lon": 29.1188,
+      "lat": 37.91774,
+      "lon": 29.12228,
       "wiki": "Pamukkale",
       "summary": "A small family cafe-restaurant known for home-cooked plates and good coffee.",
       "expect": "Few tables and unhurried service.",
@@ -524,7 +564,6 @@
         "Few tables and unhurried service.",
         "Good for breakfast before the opening-time climb."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Turkish home cooking",
       "mustOrder": [
@@ -539,5 +578,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-16"
 }
