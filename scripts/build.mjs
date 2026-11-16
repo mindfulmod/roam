@@ -61,6 +61,8 @@ const css =
   '\n' +
   (await read('src/story.css')) +
   '\n' +
+  (await read('src/log.css')) +
+  '\n' +
   (await read('src/theme.css'));
 const js = [
   await read('vendor/leaflet/leaflet.js'),
@@ -69,6 +71,7 @@ const js = [
   await read('src/theme.js'),
   await read('src/share.js'),
   await read('src/story.js'),
+  await read('src/log.js'),
   await read('src/choose.js'),
   await read('src/app.js'),
 ];

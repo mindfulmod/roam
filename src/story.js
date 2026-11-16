@@ -208,6 +208,9 @@ function renderStory(id) {
   $('#app').innerHTML =
     `<div class="wrap story-page"><section class="shared-hero story-hero">${photoTag(st.cover, '', false)}<div class="shared-hero-copy">${st.sample ? '<span class="st-sample">Sample story</span>' : ''}<h1>${esc(st.title)}</h1><p>${esc(range)} · ${esc(st.blurb)}</p><div class="st-people">${st.travellers.map((t) => stAvatar(t)).join('')}<span>${st.travellers.map((t) => esc(t.name)).join(', ')}</span></div>${stRibbon(m)}</div><span class="hero-credit">${photoCredit(st.cover)}</span></section>` +
     `<div class="st-facts"><div><strong>${days.length}</strong><span>days</span></div><div><strong>${m.cityIds.length}</strong><span>cities</span></div><div><strong>${stops.length}</strong><span>places</span></div><div><strong>${Math.round(m.km / 10) * 10}</strong><span>km between stops</span></div><button class="st-lock" data-action="story-audience">${icon('info')}<span>Only ${seen} people can see this</span></button></div>` +
+    (st.sample
+      ? `<a class="lg-try" href="#/story/${esc(id)}/log">${icon('pin')}<span><strong>Try the travellers' side</strong><small>Log a place with one tap, catch up a day from photos, edit the story.</small></span>${icon('arrow')}</a>`
+      : '') +
     `<div class="story-layout"><div class="story-mapcol"><div class="story-mapbox"><div id="story-map" aria-label="Map of the trip route"></div><div class="story-maptools"><button class="btn small" data-action="story-play" id="story-play" aria-pressed="false">${icon('route')}<span>Play the trip</span></button><span class="story-now" id="story-now" aria-live="polite"></span></div></div><div class="chips story-days" id="story-days"><button class="chip st-playchip" data-action="story-play">${icon('route')}<span>Play</span></button><button class="chip active" data-action="story-day" data-id="all">Whole trip</button>${days.map((d) => `<button class="chip" data-action="story-day" data-id="${d.i}"><i class="st-dot" style="--day:${stColor(d.i)}"></i>Day ${d.i + 1}</button>`).join('')}</div></div>` +
     `<div class="story-timeline" id="story-timeline">${days.map((d) => stDayHtml(d, max)).join('')}</div></div>` +
     `<section class="st-after"><div class="st-panel"><h2>Where the time went</h2><div class="st-citybars">${cityMins.map((x) => `<div class="st-citybar"><span>${esc(x.c.name)}</span><i style="--w:${Math.round((x.mins / topMins) * 100)}%"></i><em>${stDur(x.mins)}</em></div>`).join('')}</div><h3>Longest stops</h3><ol class="st-longest">${longest.map((s) => `<li><button class="inline-link" data-action="story-goto" data-i="${s.i}">${esc(s.name)}</button><span>${stDur(s.mins)}</span></li>`).join('')}</ol></div>` +
@@ -285,7 +288,7 @@ function storyMapInit(m) {
 
 // Street tiles with English labels everywhere. OpenStreetMap's own tiles label places in the local
 // script, so they are only the fallback if the English ones fail to load.
-function storyTiles() {
+function storyTiles(map = storyMap) {
   const osm = () =>
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:
@@ -306,12 +309,12 @@ function storyTiles() {
     loaded = 0;
   english.on('tileload', () => loaded++);
   english.on('tileerror', () => {
-    if (++failed < 4 || loaded || !storyMap) return;
+    if (++failed < 4 || loaded || !map._loaded) return;
     english.off('tileerror');
-    storyMap.removeLayer(english);
-    osm().addTo(storyMap);
+    map.removeLayer(english);
+    osm().addTo(map);
   });
-  english.addTo(storyMap);
+  english.addTo(map);
 }
 // City labels for the zoomed-out view, where single stops are too close together to tell apart.
 function storyCityLabels(m) {

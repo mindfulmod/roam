@@ -1,0 +1,646 @@
+/* Logging a trip (src/log.js). Reuses the story page's map column and theme tokens, so the map
+   keeps its size and dark mode needs no extra pass. */
+.lg-try {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 12px;
+  align-items: center;
+  margin: 0 0 22px;
+  padding: 12px 16px;
+  border: 1px dashed var(--teal);
+  border-radius: 16px;
+  background: var(--teal2);
+  color: var(--ink);
+  text-decoration: none;
+}
+.lg-try span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.lg-try small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.4;
+}
+.lg-try .icon {
+  color: var(--teal);
+}
+.lg-head {
+  padding: 18px 0 16px;
+}
+.lg-head .inline-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 14px;
+}
+.lg-head .inline-link .icon {
+  width: 16px;
+  height: 16px;
+}
+.lg-head h1 {
+  font-size: clamp(28px, 3vw, 40px);
+  line-height: 1.1;
+  margin: 8px 0 6px;
+}
+.lg-head p {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.lg-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding-bottom: 96px;
+}
+.lg-panel .filter-note {
+  margin: 0;
+}
+.lg-card {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+}
+.lg-card h2 {
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 0;
+}
+.lg-card p {
+  margin: 0;
+  line-height: 1.5;
+}
+.lg-kicker {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--teal);
+  font-size: 13px;
+  font-weight: 700;
+}
+.lg-kicker .icon {
+  width: 16px;
+  height: 16px;
+}
+.lg-place {
+  display: grid;
+  grid-template-columns: 72px 1fr;
+  gap: 12px;
+  align-items: center;
+}
+.lg-place .muted {
+  font-size: 14px;
+}
+.lg-thumb {
+  display: block;
+  aspect-ratio: 1;
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--teal2);
+}
+.lg-thumb img,
+.lg-thumb .nophoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: var(--pos, 50%) 50%;
+  filter: var(--photo-filter);
+}
+.lg-thumb .nophoto {
+  font-size: 0;
+}
+.lg-big {
+  min-height: 64px;
+  font-size: 19px;
+  justify-content: center;
+  border-radius: 18px;
+}
+.lg-big .icon {
+  width: 22px;
+  height: 22px;
+}
+.lg-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+}
+.lg-note {
+  font-size: 14px;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: var(--teal2);
+}
+.lg-control {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px 12px;
+  margin-top: 4px;
+  padding: 10px 12px;
+  border: 1px dashed var(--line);
+  border-radius: 12px;
+}
+.lg-control > span {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.lg-clock {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 12px;
+}
+.lg-clock > div {
+  display: flex;
+  flex-direction: column;
+}
+.lg-clock strong {
+  font-size: 34px;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+}
+.lg-switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  min-height: 44px;
+  padding: 6px 14px;
+  border: 1px dashed var(--line);
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.lg-switch input {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--teal);
+}
+.lg-offline {
+  display: flex;
+  gap: 8px;
+  margin: 0;
+  padding: 10px 12px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--gold) 28%, var(--white));
+  font-size: 14px;
+  line-height: 1.45;
+}
+.lg-offline .icon {
+  flex: none;
+  width: 18px;
+  height: 18px;
+}
+.lg-sub {
+  font-size: 15px;
+  margin: 12px 0 0;
+}
+.lg-aside {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+}
+.lg-list,
+.lg-changes,
+.lg-oks,
+.lg-pick {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.lg-list li,
+.lg-changes li {
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
+  gap: 10px;
+  align-items: center;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--white);
+}
+.lg-list .st-num {
+  margin: 0;
+}
+.lg-list div,
+.lg-changes span {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+}
+.lg-changes span {
+  display: block;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.lg-list span,
+.lg-changes small {
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.lg-changes small {
+  display: block;
+}
+.lg-list p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  line-height: 1.45;
+}
+.lg-list li.gone {
+  grid-template-columns: 1fr;
+  border-style: dashed;
+  background: none;
+}
+.lg-list li.gone strong,
+.lg-changes li.undone strong,
+.lg-changes li.undone span {
+  text-decoration: line-through;
+  color: var(--muted);
+}
+.lg-changes li.undone small {
+  text-decoration: none;
+  display: inline-block;
+}
+.lg-wait {
+  font-style: normal;
+  font-weight: 700;
+  color: var(--orange);
+}
+.lg-you {
+  width: 16px;
+  height: 16px;
+  margin: 3px;
+  border-radius: 50%;
+  background: #2f6fd0;
+  border: 3px solid #fff;
+  box-shadow: 0 0 0 6px #2f6fd033;
+}
+.st-pin.lg-ghost {
+  background: #fff;
+  color: var(--day);
+  border: 2px dashed var(--day);
+}
+
+/* Camera roll and photo strips */
+.lg-roll,
+.lg-covers {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 6px;
+}
+.lg-covers {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.lg-strip {
+  display: flex;
+  gap: 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.lg-strip .lg-shot {
+  flex: 0 0 72px;
+}
+.lg-shot {
+  position: relative;
+  padding: 0;
+  border: 0;
+  border-radius: 12px;
+  background: none;
+  overflow: hidden;
+}
+.lg-shot time {
+  position: absolute;
+  left: 4px;
+  bottom: 4px;
+  padding: 1px 5px;
+  border-radius: 6px;
+  background: #000a;
+  color: #fff;
+  font-size: 13px;
+  font-variant-numeric: tabular-nums;
+}
+.lg-shot i {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  display: grid;
+  place-items: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fffc;
+  border: 1.5px solid #fff;
+  color: transparent;
+}
+.lg-shot i .icon {
+  width: 14px;
+  height: 14px;
+  stroke-width: 3;
+}
+.lg-roll .lg-shot:not(.on) .lg-thumb,
+.lg-covers .lg-shot:not(.on) .lg-thumb {
+  opacity: 0.55;
+}
+.lg-shot.on i {
+  background: var(--teal);
+  color: #fff;
+}
+.lg-strip .lg-shot i {
+  background: #000a;
+  border-color: #000a;
+}
+.lg-shot.on {
+  outline: 3px solid var(--teal);
+  outline-offset: -3px;
+}
+.lg-strip .lg-shot.on {
+  outline: 0;
+}
+.lg-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--day);
+  border-radius: 16px;
+  background: var(--white);
+}
+.lg-group.needs {
+  border-color: var(--orange);
+}
+.lg-group.dropped {
+  flex-direction: row;
+  justify-content: space-between;
+  border-style: dashed;
+  border-left-width: 1px;
+  background: none;
+  color: var(--muted);
+  font-size: 14px;
+}
+.lg-group header,
+.lg-group footer {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.lg-group header div,
+.lg-group footer span {
+  flex: 1;
+  min-width: 0;
+}
+.lg-group h3 {
+  font-size: 17px;
+  margin: 0;
+}
+.lg-group header p,
+.lg-group footer span {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.lg-group footer strong {
+  color: var(--ink);
+}
+.lg-warn {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--orange);
+  filter: brightness(0.82);
+}
+.lg-addrow {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 48px;
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  background: none;
+  color: var(--ink);
+  font-weight: 600;
+}
+.lg-addrow:disabled {
+  color: var(--muted);
+}
+.lg-addrow .icon {
+  width: 18px;
+  height: 18px;
+}
+.btn:disabled,
+.st-act:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+
+/* Finish and edit */
+.lg-oks li {
+  display: grid;
+  grid-template-columns: auto 1fr auto auto;
+  gap: 8px;
+  align-items: center;
+  min-height: 40px;
+}
+.lg-oks span {
+  color: var(--muted);
+  font-size: 14px;
+}
+.lg-oks span.yes {
+  color: var(--teal);
+  font-weight: 700;
+}
+.lg-done {
+  border-color: var(--teal);
+  background: var(--teal2);
+}
+.lg-dayhead {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 12px;
+}
+.lg-dayhead select {
+  max-width: 62%;
+  min-height: 44px;
+}
+.lg-modal form,
+.lg-modal fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.lg-modal fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.lg-modal legend,
+.lg-modal label {
+  font-size: 14px;
+  font-weight: 650;
+}
+.lg-modal label {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.lg-modal input:not([type='checkbox']),
+.lg-modal textarea {
+  width: 100%;
+  min-height: 44px;
+  padding: 9px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 400;
+}
+.lg-times {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+.lg-times .actions {
+  grid-column: 1 / -1;
+}
+.lg-add > div {
+  display: flex;
+  gap: 8px;
+}
+.lg-add {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+}
+.lg-pick button {
+  display: grid;
+  grid-template-columns: 52px 1fr;
+  gap: 12px;
+  align-items: center;
+  width: 100%;
+  padding: 6px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--white);
+  color: var(--ink);
+  text-align: left;
+}
+.lg-pick span:last-child {
+  display: flex;
+  flex-direction: column;
+}
+.lg-pick small {
+  color: var(--muted);
+  font-size: 13px;
+}
+.lg-photo {
+  display: grid;
+  grid-template-columns: 64px 1fr;
+  gap: 10px;
+  align-items: start;
+}
+.lg-photo.hidden .lg-thumb {
+  opacity: 0.4;
+}
+.lg-photo div {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  min-width: 0;
+}
+.lg-photo small {
+  color: var(--muted);
+  font-size: 13px;
+}
+.lg-photo div > span {
+  display: flex;
+  gap: 16px;
+  font-size: 14px;
+}
+.lg-danger {
+  color: #b3261e;
+}
+@media (max-width: 900px) {
+  .lg-head {
+    padding: 10px 0 12px;
+  }
+  .lg-panel {
+    padding-top: 14px;
+  }
+}
+@media (max-width: 760px) {
+  .lg-roll {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+  .lg-covers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .lg-card {
+    padding: 15px;
+  }
+  .lg-row .btn {
+    flex: 1 1 auto;
+    justify-content: center;
+  }
+}
+#log-map {
+  position: absolute;
+  inset: 0;
+  background: var(--teal2);
+}
+.lg-samplenote {
+  display: none;
+}
+/* On phones the button to tap has to be on the first screen, so the heading shrinks to one line
+   and the map gives up a little height. It still has nothing on top of it. */
+@media (max-width: 900px) {
+  .lg-head {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    padding: 8px 0 6px;
+  }
+  .lg-head h1 {
+    order: -1;
+    font-size: 22px;
+    margin: 0;
+  }
+  .lg-head .inline-link {
+    margin-left: auto;
+    max-width: 50%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .lg-head > p {
+    display: none;
+  }
+  .lg-samplenote {
+    display: block;
+  }
+  .log-page .story-mapbox {
+    height: 32vh;
+    height: 32svh;
+    min-height: 200px;
+  }
+}
