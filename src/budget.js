@@ -1,8 +1,8 @@
 'use strict';
 // Budget finder: "where can my budget take me?" from a home city, a total budget and a trip
 // length. Everything here is a rough planning estimate baked into data/costs.json, never a
-// live quote. Loaded before app.js, so top-level code may only touch DATA; everything else
-// runs later, once app.js has defined S, C, CITIES and the helpers.
+// live quote. Loaded before the files in src/app/, so top-level code may only touch DATA; everything else
+// runs later, once src/app/ has defined S, C, CITIES and the helpers.
 const COSTS = DATA.costs || { fx: { USD: 1 }, origins: [], cities: {} },
   ORIGINS = COSTS.origins,
   ORIGIN = Object.fromEntries(ORIGINS.map((o) => [o.id, o])),

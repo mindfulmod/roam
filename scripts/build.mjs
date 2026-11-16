@@ -1,7 +1,7 @@
 // Builds Tandem Roads from source.
 //   node scripts/build.mjs           -> dist/index.html + dist/images/ (for hosting)
 //   node scripts/build.mjs --single  -> dist/tandem-roads.html (one self-contained file, images inlined)
-import { readFile, writeFile, mkdir, cp, rm } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, cp, rm, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
@@ -34,8 +34,8 @@ async function inline(file) {
   return `data:${mime[path.extname(file).slice(1)]};base64,${buf.toString('base64')}`;
 }
 if (single) {
+  // Newer place photos are hotlinked from Wikimedia Commons and stay as links.
   for (const set of [photos, art])
-    // Newer place photos are hotlinked from Wikimedia Commons and stay as links.
     for (const v of Object.values(set)) if (!/^https?:/.test(v.data)) v.data = await inline(v.data);
 }
 
@@ -68,6 +68,12 @@ const css =
   (await read('src/log.css')) +
   '\n' +
   (await read('src/theme.css'));
+// The app itself lives in src/app/ as numbered parts, one per area of the app. They are joined in
+// name order into a single script, so they share one scope exactly as one file would.
+const appParts = (await readdir(path.join(root, 'src/app')))
+  .filter((f) => f.endsWith('.js'))
+  .sort();
+const appJs = (await Promise.all(appParts.map((f) => read('src/app/' + f)))).join('');
 const js = [
   await read('vendor/leaflet/leaflet.js'),
   dataJs,
@@ -78,7 +84,7 @@ const js = [
   await read('src/social.js'),
   await read('src/log.js'),
   await read('src/choose.js'),
-  await read('src/app.js'),
+  appJs,
 ];
 let html = await read('src/index.html');
 html = html.replace('<!-- build:css -->', () => `<style>${css}</style>`);

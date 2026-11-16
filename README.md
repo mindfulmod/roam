@@ -12,7 +12,7 @@ no framework and no backend. Your saved places and trips stay in the browser (`l
 | ----------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | `src/index.html`                                      | Page shell (header, nav, `#app` mount point)                                                                                                                                                           |
 | `src/styles.css`                                      | App styles                                                                                                                                                                                             |
-| `src/app.js`                                          | All app logic: routing, rendering, trip planner, map, import/export                                                                                                                                    |
+| `src/app/`                                            | The app itself, in numbered parts by area (see "Where the app code lives")                                                                                                                             |
 | `data/cities/<id>.json`                               | One file per city, including its places (`items`)                                                                                                                                                      |
 | `data/meta.json`                                      | Data version, retrieval date and city order                                                                                                                                                            |
 | `data/photos.json`, `data/art.json`                   | Image metadata and credits; `data` points to a file in `images/`                                                                                                                                       |
@@ -44,7 +44,7 @@ the **Enrich new cities** workflow adds pins, photos and readership from Wikiped
 and `node scripts/check-data.mjs` (run on every pull request) checks the result. The list of cities
 still to add is in [`seeds/backlog.md`](seeds/backlog.md).
 
-The build inlines the CSS, Leaflet, the assembled `DATA` object and `app.js` into one HTML file. To add
+The build inlines the CSS, Leaflet, the assembled `DATA` object and the app code into one HTML file. To add
 or change a city, edit its JSON file in `data/cities/` (add new cities to `cityOrder` in
 `data/meta.json` too) and rebuild.
 
@@ -56,7 +56,7 @@ Every push to `main` builds the hosted version and publishes it to GitHub Pages
 
 ## Popularity rankings
 
-A place's rank is computed in `src/app.js` (see `SIGNALS` and `poolStats`). Each source becomes a
+A place's rank is computed in `src/app/11-ranking.js` (see `SIGNALS` and `poolStats`). Each source becomes a
 percentile among the same kind of place in the same city, and the rank is the weighted average of
 those percentiles. Cards show the one-line reason, and the place popup shows each source with its number,
 position and link.
@@ -84,6 +84,31 @@ guide when the new selections come out.
 
 This was first built as a single HTML file in ChatGPT. The original file was split into this
 layout without changing behaviour; both builds render the same as the original.
+
+## Where the app code lives
+
+`src/app/` holds the app in numbered parts. The build joins them in name order into one script, so they share one scope and can call each other freely. The numbers only fix the order.
+
+| File                    | What is in it                                                                          |
+| ----------------------- | -------------------------------------------------------------------------------------- |
+| `01-core.js`            | Guide data lookups, small helpers, saved state, money and photo tags                   |
+| `02-photos.js`          | Photo galleries, the mosaic and carousel, the full-screen photo viewer                 |
+| `03-saving.js`          | Save and add-to-trip buttons, outside map links, the message bar, mini cart and counts |
+| `04-starter-trips.js`   | Ready-made starter trips                                                               |
+| `05-sheets.js`          | Sheets and pop-ups: open, close, back button, swipe down                               |
+| `06-trip.js`            | Saving, the trip, route and day planning, the Trip page                                |
+| `07-saved-and-about.js` | The Saved page and the About and sources page                                          |
+| `08-map.js`             | The Map page                                                                           |
+| `09-backup.js`          | Trip backup files: export and import                                                   |
+| `10-router.js`          | Which screen a link opens                                                              |
+| `11-ranking.js`         | Why a place ranks where it does: sources, popularity, dietary notes, stays             |
+| `12-city.js`            | City cards and the City page, with filters and shopping                                |
+| `13-place.js`           | The Place page and "Why it ranks here"                                                 |
+| `14-explore.js`         | The home page: vibes, surprise me, browsing and months                                 |
+| `15-stay.js`            | Adding where you are staying                                                           |
+| `16-events.js`          | Taps, typing and keys, and starting the app                                            |
+
+A new screen gets its own file. Put it before `16-events.js`, add its link to `10-router.js`, and add it to the `SCREENS` list in `tests/app.test.mjs`.
 
 ## Checks
 
