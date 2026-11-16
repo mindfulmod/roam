@@ -2306,6 +2306,7 @@ function route() {
   closeModal();
   storyLeave();
   socLeave();
+  logLeave();
   if (tripMap) {
     tripMap.remove();
     tripMap = null;
@@ -2344,6 +2345,7 @@ function route() {
   else if (parts[0] === 'budget') renderBudget();
   else if (parts[0] === 'choose') renderChoose(params);
   else if (parts[0] === 't' && parts[1]) renderShared(parts[1]);
+  else if (parts[0] === 'story' && parts[2] === 'log') renderLog(parts[1] || '', parts[3] || '');
   else if (parts[0] === 'story') renderStory(parts[1] || '');
   else if (parts[0] === 'feed') renderFeed();
   else if (parts[0] === 'me') renderProfile(socMe());

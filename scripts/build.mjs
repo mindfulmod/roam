@@ -35,9 +35,8 @@ async function inline(file) {
 }
 if (single) {
   for (const set of [photos, art])
-    for (const v of Object.values(set))
-      // Newer place photos are hotlinked from Wikimedia Commons and stay as links.
-      if (!/^https?:/.test(v.data)) v.data = await inline(v.data);
+    // Newer place photos are hotlinked from Wikimedia Commons and stay as links.
+    for (const v of Object.values(set)) if (!/^https?:/.test(v.data)) v.data = await inline(v.data);
 }
 
 const parts = {
@@ -66,6 +65,8 @@ const css =
   '\n' +
   (await read('src/social.css')) +
   '\n' +
+  (await read('src/log.css')) +
+  '\n' +
   (await read('src/theme.css'));
 const js = [
   await read('vendor/leaflet/leaflet.js'),
@@ -75,6 +76,7 @@ const js = [
   await read('src/share.js'),
   await read('src/story.js'),
   await read('src/social.js'),
+  await read('src/log.js'),
   await read('src/choose.js'),
   await read('src/app.js'),
 ];
