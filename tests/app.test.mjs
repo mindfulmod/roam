@@ -35,6 +35,12 @@ const SCREENS = [
   '#/story/japan-sample/log',
   '#/story/japan-sample/log/catchup',
   '#/story/japan-sample/log/edit',
+  '#/story/istanbul-sample',
+  '#/feed',
+  '#/me',
+  '#/people/sam',
+  '#/people/not-a-person',
+  '#/account',
   '#/city/not-a-city',
   '#/story/not-a-story',
   '#/t/not-a-link',
@@ -167,6 +173,7 @@ test('hostile text in the address bar is shown as text', async () => {
     `#/story/japan-sample/${h}`,
     `#/story/japan-sample/log/${h}`,
     `#/story/${h}/log`,
+    `#/story/istanbul-sample/log`,
     `#/choose?${h}=${h}&when=${h}&mood=${h}&budget=${h}`,
     `#/t/${h}`,
     `#/${HOSTILE}`,
@@ -305,6 +312,39 @@ test('logging a trip: the three flows work and typed text is shown as text', asy
   assert.equal(await count('.lg-done'), 0, 'the story finished without everyone');
   await tap('[data-action="lg-jo"]');
   assert.equal(await count('.lg-done'), 1, 'the story did not finish with four yeses');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
+test('the feed clears what needs you, and profile text a person typed is shown as text', async () => {
+  const page = await openApp(browser, origin, { hash: '#/feed' });
+  const needs = () => page.locator('.soc-need').count();
+  const before = await needs();
+  assert.ok(before > 0, 'nothing under Needs you');
+  await page.locator('[data-action="soc-vote"]').first().click();
+  assert.equal(await needs(), before - 1, 'answering a poll did not clear it');
+  assert.equal(await page.locator('.feed-count').first().textContent(), String(before - 1));
+  // People are never ranked: no item may show a heart total.
+  assert.equal(await page.locator('.soc-heart span').count(), 0, 'a heart shows a number');
+  await page.evaluate((text) => {
+    localStorage.setItem(
+      'tandem-social-v1',
+      JSON.stringify({
+        profile: { name: text, home: text, line: text, style: [text] },
+        muted: [text],
+        blocked: [text],
+        hidden: [text],
+        done: { [text]: text },
+        next: { [text]: text },
+      }),
+    );
+  }, HOSTILE);
+  await page.reload();
+  await page.waitForFunction(() => document.querySelector('#app')?.children.length > 0);
+  for (const hash of ['#/me', '#/account', '#/feed', '#/people/sam']) {
+    await go(page, hash);
+    assert.deepEqual(await injected(page), clean, 'hostile profile text ran on ' + hash);
+  }
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });

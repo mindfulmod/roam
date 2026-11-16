@@ -9,6 +9,7 @@
     "build:single": "node scripts/build.mjs --single",
     "dev": "node scripts/build.mjs && npx --yes serve@14 dist",
     "test": "node scripts/build.mjs && node --test \"tests/*.test.mjs\"",
+    "test:db": "./scripts/db-test.sh",
     "format": "prettier --write src scripts data/cities data/*.json"
   },
   "devDependencies": {

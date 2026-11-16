@@ -23,8 +23,11 @@ const lgControl = (html) => `<div class="lg-control"><span>Sample control</span>
 const lgThumb = (x, cls = '') =>
   `<span class="lg-thumb ${cls}" style="--pos:${x.pos ?? 50}%">${photoTag(x.id, '', false)}</span>`;
 
+// The mock is scripted around two Kyoto days, so it only opens on a story that has them.
+const logCan = (id) =>
+  [LG_HERE_DAY, LG_CATCH_DAY].every((d) => STORIES[id]?.days[d]?.city === 'Kyoto');
 function renderLog(id, tab) {
-  const m = storyModel(id);
+  const m = logCan(id) && storyModel(id);
   if (!m) return renderStory(id);
   if (!LG_TABS.some((t) => t[0] === tab)) tab = 'here';
   headerActive('trip');
