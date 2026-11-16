@@ -76,8 +76,8 @@
       "id": "chiang-rai-white-temple",
       "name": "Wat Rong Khun (White Temple)",
       "kind": "see",
-      "lat": 19.8243,
-      "lon": 99.7631,
+      "lat": 19.82467,
+      "lon": 99.76333,
       "wiki": "Wat Rong Khun",
       "summary": "A dazzling white and mirrored temple by artist Chalermchai Kositpipat, part shrine, part art project.",
       "expect": "One-way route with tour groups from 10 am; no photos inside the hall.",
@@ -118,14 +118,22 @@
         "One-way route with tour groups from 10 am; no photos inside the hall.",
         "Arrive at opening, 8 am."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 89909,
+          "period": "202511-202610",
+          "title": "Wat Rong Khun",
+          "url": "https://en.wikipedia.org/wiki/Wat_Rong_Khun",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "chiang-rai-blue-temple",
       "name": "Wat Rong Suea Ten (Blue Temple)",
       "kind": "see",
-      "lat": 19.9233,
-      "lon": 99.8417,
+      "lat": 19.92338,
+      "lon": 99.84171,
       "wiki": "Wat Rong Suea Ten",
       "summary": "A sapphire-blue and gold temple with a white seated Buddha inside.",
       "expect": "Small and free; busy midday.",
@@ -166,14 +174,22 @@
         "Small and free; busy midday.",
         "Try the blue coconut ice cream at the gate."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20321,
+          "period": "202511-202610",
+          "title": "Wat Rong Suea Ten",
+          "url": "https://en.wikipedia.org/wiki/Wat_Rong_Suea_Ten",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "chiang-rai-black-house",
       "name": "Baan Dam Museum (Black House)",
       "kind": "see",
-      "lat": 19.9918,
-      "lon": 99.8606,
+      "lat": 19.9921,
+      "lon": 99.8607,
       "wiki": "Baan Dam Museum",
       "summary": "About 40 dark wooden buildings filled with horns, skins and carved furniture by artist Thawan Duchanee.",
       "expect": "Dark and unsettling to some; closed for lunch.",
@@ -213,14 +229,22 @@
         "Dark and unsettling to some; closed for lunch.",
         "See it as the counterpart to the White Temple."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17,
+          "period": "202511-202610",
+          "title": "Baandam Museum",
+          "url": "https://en.wikipedia.org/wiki/Baandam_Museum",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "chiang-rai-golden-triangle",
       "name": "Golden Triangle",
       "kind": "see",
-      "lat": 20.3533,
-      "lon": 100.0817,
+      "lat": 20.35556,
+      "lon": 100.08139,
       "wiki": "Golden Triangle (Southeast Asia)",
       "summary": "The meeting point of Thailand, Laos and Myanmar on the Mekong, with an excellent opium museum.",
       "expect": "A long drive and a touristy riverfront.",
@@ -260,8 +284,16 @@
         "A long drive and a touristy riverfront.",
         "The Hall of Opium is the real reason to go."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 253660,
+          "period": "202511-202610",
+          "title": "Golden Triangle (Southeast Asia)",
+          "url": "https://en.wikipedia.org/wiki/Golden_Triangle_(Southeast_Asia)",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "chiang-rai-chiang-rai-clock-tower",
@@ -433,8 +465,8 @@
       "id": "chiang-rai-chivit-thamma-da",
       "name": "Chivit Thamma Da",
       "kind": "eat",
-      "lat": 19.9242,
-      "lon": 99.8442,
+      "lat": 19.92174,
+      "lon": 99.84521,
       "wiki": "Kok River",
       "summary": "A riverside colonial-style house serving coffee, cakes and Thai and Western dishes.",
       "expect": "Higher prices than town.",
@@ -473,7 +505,6 @@
         "Higher prices than town.",
         "Walk here from the Blue Temple."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Café and bistro",
       "mustOrder": [
@@ -487,5 +518,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-16"
 }

@@ -78,8 +78,8 @@
       "id": "koh-phi-phi-maya-bay",
       "name": "Maya Bay",
       "kind": "see",
-      "lat": 7.6779,
-      "lon": 98.7653,
+      "lat": 7.67889,
+      "lon": 98.765,
       "wiki": "Maya Bay",
       "summary": "A cove enclosed by 100-metre cliffs, made famous by the film 'The Beach'.",
       "expect": "No swimming; timed visits, a park fee, and closed around August and September.",
@@ -119,7 +119,15 @@
         "No swimming; timed visits, a park fee, and closed around August and September.",
         "Take a 7 am longtail to arrive before the Phuket speedboats."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 57421,
+          "period": "202511-202610",
+          "title": "Ko Phi Phi Le",
+          "url": "https://en.wikipedia.org/wiki/Ko_Phi_Phi_Le",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-phi-phi-phi-phi-viewpoint",
@@ -166,14 +174,23 @@
         "A steep 25-minute climb with a small fee.",
         "Go for sunrise or late afternoon."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10935,
+          "period": "202511-202610",
+          "title": "Ko Phi Phi Don",
+          "url": "https://en.wikipedia.org/wiki/Ko_Phi_Phi_Don",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-phi-phi-pileh-lagoon",
       "name": "Pileh Lagoon",
       "kind": "see",
-      "lat": 7.6817,
-      "lon": 98.7667,
+      "lat": 7.67889,
+      "lon": 98.765,
       "wiki": "Ko Phi Phi Le",
       "summary": "An emerald lagoon between vertical cliffs where boats stop for swimming.",
       "expect": "Many boats by mid-morning.",
@@ -213,14 +230,22 @@
         "Many boats by mid-morning.",
         "Visit on the same early trip as Maya Bay."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 57421,
+          "period": "202511-202610",
+          "title": "Ko Phi Phi Le",
+          "url": "https://en.wikipedia.org/wiki/Ko_Phi_Phi_Le",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-phi-phi-bamboo-island",
       "name": "Bamboo Island",
       "kind": "see",
-      "lat": 7.8153,
-      "lon": 98.7914,
+      "lat": 7.8167,
+      "lon": 98.79546,
       "wiki": "Ko Mai Phai",
       "summary": "A small flat island ringed by white sand and shallow reef.",
       "expect": "A national park fee.",
@@ -259,7 +284,15 @@
         "A national park fee.",
         "Combine with Mosquito Island for snorkelling."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1695,
+          "period": "202511-202610",
+          "title": "Ko Mai Phai",
+          "url": "https://en.wikipedia.org/wiki/Ko_Mai_Phai",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-phi-phi-long-beach",
@@ -305,7 +338,16 @@
         "Fewer facilities.",
         "Walk the coastal path at low tide or take a boat."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10935,
+          "period": "202511-202610",
+          "title": "Ko Phi Phi Don",
+          "url": "https://en.wikipedia.org/wiki/Ko_Phi_Phi_Don",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-phi-phi-tonsai-market",
@@ -483,5 +525,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-16"
 }

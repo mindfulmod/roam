@@ -71,7 +71,7 @@
       "name": "Wat Mahathat",
       "kind": "see",
       "lat": 14.3569,
-      "lon": 100.5676,
+      "lon": 100.5675,
       "wiki": "Wat Mahathat (Ayutthaya)",
       "summary": "A ruined monastery famous for a stone Buddha head held in the roots of a fig tree.",
       "expect": "A queue to photograph the head; crouch so you are lower than it.",
@@ -112,14 +112,22 @@
         "A queue to photograph the head; crouch so you are lower than it.",
         "Visit first thing in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15284,
+          "period": "202511-202610",
+          "title": "Wat Mahathat (Ayutthaya)",
+          "url": "https://en.wikipedia.org/wiki/Wat_Mahathat_(Ayutthaya)",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "ayutthaya-wat-phra-si-sanphet",
       "name": "Wat Phra Si Sanphet",
       "kind": "see",
-      "lat": 14.3559,
-      "lon": 100.5587,
+      "lat": 14.3558,
+      "lon": 100.5583,
       "wiki": "Wat Phra Si Sanphet",
       "summary": "Three bell-shaped chedis in a row, once the royal temple of the palace.",
       "expect": "Little shade.",
@@ -159,14 +167,22 @@
         "Little shade.",
         "See the giant bronze Buddha at Wihan Phra Mongkhon Bophit next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12846,
+          "period": "202511-202610",
+          "title": "Wat Phra Si Sanphet",
+          "url": "https://en.wikipedia.org/wiki/Wat_Phra_Si_Sanphet",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "ayutthaya-wat-chaiwatthanaram",
       "name": "Wat Chaiwatthanaram",
       "kind": "see",
-      "lat": 14.3431,
-      "lon": 100.5417,
+      "lat": 14.34306,
+      "lon": 100.54167,
       "wiki": "Wat Chaiwatthanaram",
       "summary": "A Khmer-style riverside temple with a tall central tower ringed by smaller spires.",
       "expect": "Off the island; many visitors come in rented Thai costume.",
@@ -207,14 +223,22 @@
         "Off the island; many visitors come in rented Thai costume.",
         "Come for sunset, when the brick glows."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28027,
+          "period": "202511-202610",
+          "title": "Wat Chaiwatthanaram",
+          "url": "https://en.wikipedia.org/wiki/Wat_Chaiwatthanaram",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "ayutthaya-wat-yai-chai-mongkhon",
       "name": "Wat Yai Chai Mongkhon",
       "kind": "see",
-      "lat": 14.3454,
-      "lon": 100.5923,
+      "lat": 14.3453,
+      "lon": 100.5925,
       "wiki": "Wat Yai Chai Mongkhon",
       "summary": "A working monastery with a huge climbable chedi and rows of saffron-draped Buddhas.",
       "expect": "Busy with Thai worshippers.",
@@ -254,14 +278,22 @@
         "Busy with Thai worshippers.",
         "Climb the chedi for a view over the grounds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9614,
+          "period": "202511-202610",
+          "title": "Wat Yai Chai Mongkhon",
+          "url": "https://en.wikipedia.org/wiki/Wat_Yai_Chai_Mongkhon",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "ayutthaya-bang-pa-in-royal-palace",
       "name": "Bang Pa-In Royal Palace",
       "kind": "see",
-      "lat": 14.2327,
-      "lon": 100.5792,
+      "lat": 14.2325,
+      "lon": 100.57917,
       "wiki": "Bang Pa-In Royal Palace",
       "summary": "A summer palace of Thai, Chinese and European pavilions around ornamental lakes.",
       "expect": "Strict dress code; 20 km south of the city.",
@@ -301,8 +333,16 @@
         "Strict dress code; 20 km south of the city.",
         "Stop on the way to or from Bangkok."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10262,
+          "period": "202511-202610",
+          "title": "Bang Pa-In Royal Palace",
+          "url": "https://en.wikipedia.org/wiki/Bang_Pa-In_Royal_Palace",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "ayutthaya-boat-noodles",
@@ -475,5 +515,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-16"
 }

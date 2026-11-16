@@ -74,8 +74,8 @@
       "id": "koh-samui-ang-thong-national-marine-park",
       "name": "Ang Thong National Marine Park",
       "kind": "see",
-      "lat": 9.6269,
-      "lon": 99.6747,
+      "lat": 9.62278,
+      "lon": 99.675,
       "wiki": "Mu Ko Ang Thong National Park",
       "summary": "An archipelago of 42 jungle islands, with a green lagoon and a steep viewpoint.",
       "expect": "A full day by boat; closed roughly November to mid-December.",
@@ -116,15 +116,23 @@
         "A full day by boat; closed roughly November to mid-December.",
         "Choose a tour that includes kayaking and the Koh Wua Talap viewpoint."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5012,
+          "period": "202511-202610",
+          "title": "Mu Ko Ang Thong National Park",
+          "url": "https://en.wikipedia.org/wiki/Mu_Ko_Ang_Thong_National_Park",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-samui-big-buddha",
       "name": "Wat Phra Yai (Big Buddha)",
       "kind": "see",
-      "lat": 9.5713,
-      "lon": 100.0603,
+      "lat": 9.5708,
+      "lon": 100.0606,
       "wiki": "Wat Phra Yai",
       "summary": "A 12-metre golden seated Buddha on a small island joined by a causeway.",
       "expect": "Cover shoulders and knees.",
@@ -164,14 +172,22 @@
         "Cover shoulders and knees.",
         "Pair it with Wat Plai Laem five minutes away."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11982,
+          "period": "202511-202610",
+          "title": "Wat Phra Yai",
+          "url": "https://en.wikipedia.org/wiki/Wat_Phra_Yai",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-samui-wat-plai-laem",
       "name": "Wat Plai Laem",
       "kind": "see",
-      "lat": 9.5715,
-      "lon": 100.0679,
+      "lat": 9.5716,
+      "lon": 100.0666,
       "wiki": "Wat Plai Laem",
       "summary": "A colourful lakeside temple with an 18-armed Guanyin statue.",
       "expect": "A short, photogenic stop.",
@@ -212,7 +228,15 @@
         "A short, photogenic stop.",
         "Buy fish food to feed the lake's catfish."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12414,
+          "period": "202511-202610",
+          "title": "Wat Plai Laem",
+          "url": "https://en.wikipedia.org/wiki/Wat_Plai_Laem",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "koh-samui-fishermans-village",
@@ -487,5 +511,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-16"
 }

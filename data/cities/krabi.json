@@ -78,8 +78,8 @@
       "id": "krabi-railay-beach",
       "name": "Railay Beach",
       "kind": "see",
-      "lat": 8.0115,
-      "lon": 98.8388,
+      "lat": 8.01142,
+      "lon": 98.83795,
       "wiki": "Railay Beach",
       "summary": "A peninsula of white beaches walled in by limestone cliffs, reachable only by boat.",
       "expect": "Day-trip crowds from 10 am to 3 pm; monkeys take food.",
@@ -119,7 +119,15 @@
         "Day-trip crowds from 10 am to 3 pm; monkeys take food.",
         "Go early by longtail and walk between West Railay, East Railay and Phra Nang."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27873,
+          "period": "202511-202610",
+          "title": "Railay Beach",
+          "url": "https://en.wikipedia.org/wiki/Railay_Beach",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "krabi-phra-nang-cave-beach",
@@ -221,8 +229,8 @@
       "id": "krabi-tiger-cave-temple",
       "name": "Tiger Cave Temple",
       "kind": "see",
-      "lat": 8.1273,
-      "lon": 98.9247,
+      "lat": 8.124,
+      "lon": 98.9252,
       "wiki": "Tiger Cave Temple",
       "summary": "A temple at the foot of a cliff, with 1,260 steep steps to a golden Buddha on the summit.",
       "expect": "A very hard, hot climb; dress modestly.",
@@ -263,14 +271,22 @@
         "A very hard, hot climb; dress modestly.",
         "Start by 7 am and carry water."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25849,
+          "period": "202511-202610",
+          "title": "Tiger Cave Temple",
+          "url": "https://en.wikipedia.org/wiki/Tiger_Cave_Temple",
+          "checked": "2026-11-16"
+        }
+      }
     },
     {
       "id": "krabi-emerald-pool",
       "name": "Emerald Pool",
       "kind": "see",
-      "lat": 7.9244,
-      "lon": 99.2664,
+      "lat": 7.9251,
+      "lon": 99.26819,
       "wiki": "Emerald Pool (Thailand)",
       "summary": "A clear green forest pool fed by warm springs, with a natural hot spring waterfall nearby.",
       "expect": "About an hour's drive; busy at weekends.",
@@ -309,15 +325,14 @@
         "About an hour's drive; busy at weekends.",
         "Combine it with the Khlong Thom hot springs on one trip."
       ],
-      "pinApproximate": true,
       "excursion": true
     },
     {
       "id": "krabi-krabi-town-night-market",
       "name": "Krabi Town Night Market",
       "kind": "eat",
-      "lat": 8.0629,
-      "lon": 98.9189,
+      "lat": 8.05917,
+      "lon": 98.91889,
       "wiki": "Krabi",
       "summary": "A weekend walking street of food stalls, crafts and a stage.",
       "expect": "Friday to Sunday evenings only.",
@@ -357,7 +372,6 @@
         "Friday to Sunday evenings only.",
         "Come hungry and share small plates."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Southern Thai street food",
       "mustOrder": [
@@ -490,5 +504,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-16"
 }
