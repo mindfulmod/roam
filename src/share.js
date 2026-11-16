@@ -2,7 +2,7 @@
 // Share a trip as a link. The whole plan (cities, days, dates, pace, travellers and the saved
 // places in those cities) is packed into the URL after #/t/, so there is no server and nothing
 // to sign up for. Notes, hotel addresses and budgets stay on the device.
-// Loaded before app.js: top-level code only defines functions.
+// Loaded before the files in src/app/: top-level code only defines functions.
 const SHARE_HOME = 'https://mindfulmod.github.io/roam/';
 
 function b64url(bytes) {
