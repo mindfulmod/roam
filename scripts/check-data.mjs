@@ -26,11 +26,61 @@ const err = (m) => errors.push(m),
   warn = (m) => warnings.push(m);
 
 const onDisk = (await readdir(path.join(root, 'data/cities'))).map((f) => f.replace('.json', ''));
-for (const id of onDisk) if (!meta.cityOrder.includes(id)) err(`${id}: file exists but is not in meta.cityOrder`);
+for (const id of onDisk)
+  if (!meta.cityOrder.includes(id)) err(`${id}: file exists but is not in meta.cityOrder`);
 if (new Set(meta.cityOrder).size !== meta.cityOrder.length) err('meta.cityOrder has duplicates');
 
-const CITY_KEYS = ['id', 'name', 'country', 'region', 'lat', 'lon', 'wiki', 'tagline', 'summary', 'days', 'bestMonths', 'seasonNote', 'arrival', 'gettingAround', 'cashTip', 'dailyBudget', 'currency', 'cashPerDay', 'foodTip', 'buyTip', 'baseArea', 'connections', 'sources', 'reviewSummary', 'reviewSource', 'items'];
-const ITEM_KEYS = ['id', 'name', 'kind', 'lat', 'lon', 'wiki', 'summary', 'expect', 'tip', 'area', 'duration', 'price', 'priceNote', 'bestTime', 'reservation', 'priority', 'sourceUrls', 'review', 'experienceTypes', 'whyVisit', 'visitFlow', 'bestFor', 'tradeoffs'];
+const CITY_KEYS = [
+  'id',
+  'name',
+  'country',
+  'region',
+  'lat',
+  'lon',
+  'wiki',
+  'tagline',
+  'summary',
+  'days',
+  'bestMonths',
+  'seasonNote',
+  'arrival',
+  'gettingAround',
+  'cashTip',
+  'dailyBudget',
+  'currency',
+  'cashPerDay',
+  'foodTip',
+  'buyTip',
+  'baseArea',
+  'connections',
+  'sources',
+  'reviewSource',
+  'items',
+];
+const ITEM_KEYS = [
+  'id',
+  'name',
+  'kind',
+  'lat',
+  'lon',
+  'wiki',
+  'summary',
+  'expect',
+  'tip',
+  'area',
+  'duration',
+  'price',
+  'priceNote',
+  'bestTime',
+  'reservation',
+  'priority',
+  'sourceUrls',
+  'experienceTypes',
+  'whyVisit',
+  'visitFlow',
+  'bestFor',
+  'tradeoffs',
+];
 const seen = new Set();
 let places = 0,
   noCover = 0;
@@ -57,7 +107,8 @@ for (const id of meta.cityOrder) {
     if (seen.has(p.id)) err(`${p.id}: duplicate place id`);
     seen.add(p.id);
     if (meta.cityOrder.includes(p.id)) err(`${p.id}: place id clashes with a city id`);
-    for (const k of ITEM_KEYS) if (p[k] === undefined || p[k] === null) err(`${p.id}: missing ${k}`);
+    for (const k of ITEM_KEYS)
+      if (p[k] === undefined || p[k] === null) err(`${p.id}: missing ${k}`);
     if (!['see', 'eat', 'shop'].includes(p.kind)) err(`${p.id}: kind ${p.kind}`);
     if (!Array.isArray(p.price) || p.price.length !== 2) err(`${p.id}: price must be [low, high]`);
     for (const t of p.experienceTypes || []) if (!TYPES[t]) err(`${p.id}: unknown type ${t}`);
@@ -65,7 +116,8 @@ for (const id of meta.cityOrder) {
     else {
       const d = km(c, p);
       if (d > 450) err(`${p.id}: pin is ${Math.round(d)} km from ${c.name}`);
-      else if (d > 60 && !p.excursion && p.duration < 6) warn(`${p.id}: ${Math.round(d)} km from the city but not marked as an excursion`);
+      else if (d > 60 && !p.excursion && p.duration < 6)
+        warn(`${p.id}: ${Math.round(d)} km from the city but not marked as an excursion`);
     }
     const ph = photos[p.id];
     if (ph && !/^https?:/.test(ph.data) && !existsSync(path.join(root, ph.data)))

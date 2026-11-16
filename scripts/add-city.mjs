@@ -73,8 +73,6 @@ const NOTES = {
   shop: 'Planning estimate per adult in local currency; shopping is a spend allowance.',
   source:
     'Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.',
-  review:
-    'Editorial selection; no verified review snapshot yet. Open current reviews before you go. Popularity numbers are added by the weekly refresh.',
   areaDiet:
     'This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose.',
   venueDiet:
@@ -96,14 +94,41 @@ const pair = (v, where, k) => {
 
 function buildItem(s, city, used) {
   const where = `${city.id} / ${s.name || '?'}`;
-  need(s, ['name', 'kind', 'at', 'wiki', 'area', 'summary', 'expect', 'tip', 'why', 'flow', 'hours', 'price', 'best', 'types'], where);
+  need(
+    s,
+    [
+      'name',
+      'kind',
+      'at',
+      'wiki',
+      'area',
+      'summary',
+      'expect',
+      'tip',
+      'why',
+      'flow',
+      'hours',
+      'price',
+      'best',
+      'types',
+    ],
+    where,
+  );
   if (!['see', 'eat', 'shop'].includes(s.kind)) fail(where, `kind "${s.kind}"`);
-  if (!Array.isArray(s.at) || s.at.length !== 2 || Math.abs(s.at[0]) > 90 || Math.abs(s.at[1]) > 180)
+  if (
+    !Array.isArray(s.at) ||
+    s.at.length !== 2 ||
+    Math.abs(s.at[0]) > 90 ||
+    Math.abs(s.at[1]) > 180
+  )
     fail(where, '"at" must be [latitude, longitude]');
   const [lat, lon] = s.at;
   const far = km(city, { lat, lon });
   if (far > (s.excursion ? 400 : 60))
-    fail(where, `pin is ${Math.round(far)} km from the city${s.excursion ? '' : ' (set "excursion": true for day trips)'}`);
+    fail(
+      where,
+      `pin is ${Math.round(far)} km from the city${s.excursion ? '' : ' (set "excursion": true for day trips)'}`,
+    );
   for (const t of s.types) if (!TYPES[t]) fail(where, `unknown type "${t}"`);
   if (!Array.isArray(s.flow) || s.flow.length < 2) fail(where, '"flow" needs two steps');
   pair(s.price, where, 'price');
@@ -129,14 +154,8 @@ function buildItem(s, city, used) {
     reservation: s.book || 'Usually not needed',
     priority: s.p || 2,
     sourceUrls: [...(s.url ? [s.url] : []), tripadvisor(label), gmaps(label)],
-    review: {
-      rating: null,
-      count: null,
-      source: null,
-      url: tripadvisor(label),
-      checked: today,
-      note: NOTES.review,
-    },
+    // A plain link only: Tripadvisor's terms do not allow storing its ratings or counts.
+    review: { url: tripadvisor(label) },
     sourceNote: NOTES.source,
     experienceTypes: s.types,
     whyVisit: [s.summary, s.why],
@@ -172,17 +191,48 @@ function buildItem(s, city, used) {
 
 function buildCity(s, costs) {
   const where = s.id || s.name || '?';
-  need(s, ['id', 'name', 'country', 'region', 'at', 'wiki', 'tagline', 'summary', 'days', 'bestMonths', 'seasonNote', 'arrival', 'gettingAround', 'cashTip', 'dailyBudget', 'currency', 'cashPerDay', 'foodTip', 'buyTip', 'baseArea', 'hotel', 'seasons', 'items'], where);
+  need(
+    s,
+    [
+      'id',
+      'name',
+      'country',
+      'region',
+      'at',
+      'wiki',
+      'tagline',
+      'summary',
+      'days',
+      'bestMonths',
+      'seasonNote',
+      'arrival',
+      'gettingAround',
+      'cashTip',
+      'dailyBudget',
+      'currency',
+      'cashPerDay',
+      'foodTip',
+      'buyTip',
+      'baseArea',
+      'hotel',
+      'seasons',
+      'items',
+    ],
+    where,
+  );
   if (s.id !== slug(s.id)) fail(where, 'id must be lower-case words joined by hyphens');
   if (!REGIONS.includes(s.region)) fail(where, `region must be one of ${REGIONS.join(', ')}`);
-  if (!costs.fx[s.currency]) fail(where, `currency ${s.currency} has no rate in data/costs.json "fx"`);
-  if (!/^[LSHP]{12}$/.test(s.seasons)) fail(where, '"seasons" must be 12 letters from L, S, H, P (Jan to Dec)');
+  if (!costs.fx[s.currency])
+    fail(where, `currency ${s.currency} has no rate in data/costs.json "fx"`);
+  if (!/^[LSHP]{12}$/.test(s.seasons))
+    fail(where, '"seasons" must be 12 letters from L, S, H, P (Jan to Dec)');
   pair(s.dailyBudget, where, 'dailyBudget');
   pair(s.cashPerDay, where, 'cashPerDay');
   pair(s.hotel, where, 'hotel');
   const sees = s.items.filter((i) => i.kind === 'see').length,
     eats = s.items.filter((i) => i.kind === 'eat').length;
-  if (sees < 5 || eats < 3) fail(where, `needs at least 5 sights and 3 food places (has ${sees} and ${eats})`);
+  if (sees < 5 || eats < 3)
+    fail(where, `needs at least 5 sights and 3 food places (has ${sees} and ${eats})`);
   const city = {
     id: s.id,
     name: s.name,
@@ -207,8 +257,6 @@ function buildCity(s, costs) {
     baseArea: s.baseArea,
     connections: s.connections || [],
     sources: [],
-    reviewSummary:
-      'These places are an editorial shortlist of the sights and food the city is best known for. Popularity numbers come from Wikipedia readership; places without a number, including most restaurants, are kept unranked.',
     reviewSource: tripadvisor(`${s.name.split(' · ')[0]} things to do`),
     popularity: {},
     dayClusters: null,
@@ -224,13 +272,30 @@ function buildCity(s, costs) {
   const plain = s.name.split(' · ')[0];
   city.sources = [
     ...(s.official
-      ? [{ title: 'Official visitor information', url: s.official, type: 'official', checked: today }]
+      ? [
+          {
+            title: 'Official visitor information',
+            url: s.official,
+            type: 'official',
+            checked: today,
+          },
+        ]
       : []),
     { title: `${plain} on Wikipedia`, url: wikiUrl(s.wiki), type: 'reference', checked: today },
-    { title: 'Tripadvisor visitor reviews', url: city.reviewSource, type: 'reviews', checked: today },
+    {
+      title: 'Tripadvisor visitor reviews',
+      url: city.reviewSource,
+      type: 'reviews',
+      checked: today,
+    },
     ...s.items
       .filter((i) => i.url)
-      .map((i) => ({ title: `${i.name} — visitor or menu information`, url: i.url, type: 'official', checked: today })),
+      .map((i) => ({
+        title: `${i.name} — visitor or menu information`,
+        url: i.url,
+        type: 'official',
+        checked: today,
+      })),
   ];
   const cost = { hotel: s.hotel };
   for (const k of ['hop', 'via', 'fare', 'car']) if (s[k] !== undefined) cost[k] = s[k];
