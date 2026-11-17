@@ -1,0 +1,648 @@
+{
+  "id": "strasbourg",
+  "name": "Strasbourg · Alsace",
+  "country": "France",
+  "region": "Europe",
+  "lat": 48.5734,
+  "lon": 7.7521,
+  "wiki": "Strasbourg",
+  "tagline": "Half-timbered canals and a pink cathedral",
+  "summary": "A French city with a German accent, on an island ringed by canals. See the cathedral and Petite France in a day, then take the train to Colmar and the wine villages. December brings France's oldest Christmas market.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    12
+  ],
+  "seasonNote": "The Christmas market runs from late November to 24 December and hotel prices double; January to March is cold and quiet.",
+  "arrival": "TGV trains from Paris take 1 hour 50 minutes. The small airport is 10 minutes away by train.",
+  "gettingAround": "The island centre is walkable; trams cover the rest. Trains reach Colmar in 30 minutes.",
+  "cashTip": "Cards everywhere; cash helps at Christmas market stalls.",
+  "dailyBudget": [
+    70,
+    160
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    10,
+    30
+  ],
+  "foodTip": "Tarte flambée (flammekueche), choucroute garnie, baeckeoffe and kougelhopf, with Riesling or Gewürztraminer.",
+  "buyTip": "Christmas decorations, Alsace wine, gingerbread and Soufflenheim pottery.",
+  "baseArea": "On the Grande Île, near the cathedral or Petite France",
+  "connections": [
+    {
+      "to": "paris",
+      "mode": "Train",
+      "minutes": 110,
+      "note": "Frequent TGVs from Gare de l'Est."
+    },
+    {
+      "to": "lyon",
+      "mode": "Train",
+      "minutes": 230,
+      "note": "Direct TGV."
+    },
+    {
+      "to": "berlin",
+      "mode": "Train",
+      "minutes": 400,
+      "note": "Via Frankfurt or Karlsruhe."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.visitstrasbourg.fr/en/",
+      "type": "official",
+      "checked": "2026-11-17"
+    },
+    {
+      "title": "Strasbourg on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Strasbourg",
+      "type": "reference",
+      "checked": "2026-11-17"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Strasbourg%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-17"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Strasbourg%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Petite France, Strasbourg",
+  "added": "2026-11-17",
+  "items": [
+    {
+      "id": "strasbourg-strasbourg-cathedral",
+      "name": "Strasbourg Cathedral",
+      "kind": "see",
+      "lat": 48.58167,
+      "lon": 7.75083,
+      "wiki": "Strasbourg Cathedral",
+      "summary": "A pink sandstone Gothic cathedral with a single spire that was the world's tallest building for two centuries.",
+      "expect": "The astronomical clock performs at 12:30; the platform is 330 steps up.",
+      "tip": "Visit early, then return for the clock, and climb the platform on a clear day.",
+      "area": "Grande Île",
+      "duration": 1.5,
+      "price": [
+        0,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Strasbourg%20Cathedral%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Strasbourg%20Cathedral%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Strasbourg%20Cathedral%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A pink sandstone Gothic cathedral with a single spire that was the world's tallest building for two centuries.",
+        "One of the great Gothic buildings of Europe."
+      ],
+      "visitFlow": [
+        "West front and nave.",
+        "Astronomical clock, then the platform."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "The astronomical clock performs at 12:30; the platform is 330 steps up.",
+        "Visit early, then return for the clock, and climb the platform on a clear day."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 157426,
+          "period": "202511-202610",
+          "title": "Strasbourg Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Strasbourg_Cathedral",
+          "checked": "2026-11-17"
+        }
+      }
+    },
+    {
+      "id": "strasbourg-petite-france",
+      "name": "Petite France",
+      "kind": "see",
+      "lat": 48.58083,
+      "lon": 7.74056,
+      "wiki": "Petite France, Strasbourg",
+      "summary": "The old tanners' quarter of half-timbered houses leaning over canals and locks.",
+      "expect": "Crowded at midday and all through December.",
+      "tip": "Walk it before 9 am or at dusk.",
+      "area": "Grande Île",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Petite%20France%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Petite%20France%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Petite%20France%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "The old tanners' quarter of half-timbered houses leaning over canals and locks.",
+        "The picture-postcard corner of Alsace."
+      ],
+      "visitFlow": [
+        "Follow the river from the cathedral.",
+        "Place Benjamin-Zix, the locks, then the covered bridges."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Crowded at midday and all through December.",
+        "Walk it before 9 am or at dusk."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 16968,
+          "period": "202511-202610",
+          "title": "Petite France, Strasbourg",
+          "url": "https://en.wikipedia.org/wiki/Petite_France%2C_Strasbourg",
+          "checked": "2026-11-17"
+        }
+      }
+    },
+    {
+      "id": "strasbourg-ponts-couverts-and-barrage-vauban",
+      "name": "Ponts Couverts and Barrage Vauban",
+      "kind": "see",
+      "lat": 48.58011,
+      "lon": 7.73933,
+      "wiki": "Ponts Couverts, Strasbourg",
+      "summary": "Three medieval bridges with towers, seen best from the roof terrace of a 17th-century dam.",
+      "expect": "The terrace is free.",
+      "tip": "Go up at sunset for the view back to the cathedral.",
+      "area": "Grande Île",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ponts%20Couverts%20and%20Barrage%20Vauban%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Ponts%20Couverts%20and%20Barrage%20Vauban%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ponts%20Couverts%20and%20Barrage%20Vauban%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "History"
+      ],
+      "whyVisit": [
+        "Three medieval bridges with towers, seen best from the roof terrace of a 17th-century dam.",
+        "The best free viewpoint in the city."
+      ],
+      "visitFlow": [
+        "West end of Petite France.",
+        "Walk through the dam and up to its roof."
+      ],
+      "bestFor": "Visitors interested in big views and history and context",
+      "tradeoffs": [
+        "The terrace is free.",
+        "Go up at sunset for the view back to the cathedral."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 5635,
+          "period": "202511-202610",
+          "title": "Ponts Couverts, Strasbourg",
+          "url": "https://en.wikipedia.org/wiki/Ponts_Couverts%2C_Strasbourg",
+          "checked": "2026-11-17"
+        }
+      }
+    },
+    {
+      "id": "strasbourg-palais-rohan",
+      "name": "Palais Rohan",
+      "kind": "see",
+      "lat": 48.58083,
+      "lon": 7.75222,
+      "wiki": "Palais Rohan, Strasbourg",
+      "summary": "An 18th-century bishops' palace housing three museums: fine arts, decorative arts and archaeology.",
+      "expect": "Closed on Tuesdays.",
+      "tip": "If short of time, choose the decorative arts apartments.",
+      "area": "Grande Île",
+      "duration": 1.5,
+      "price": [
+        8,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Midday",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Palais%20Rohan%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Palais%20Rohan%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Palais%20Rohan%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "An 18th-century bishops' palace housing three museums: fine arts, decorative arts and archaeology.",
+        "A small Versailles beside the cathedral."
+      ],
+      "visitFlow": [
+        "South side of the cathedral.",
+        "State apartments, then the paintings."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "Closed on Tuesdays.",
+        "If short of time, choose the decorative arts apartments."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 15103,
+          "period": "202511-202610",
+          "title": "Palais Rohan, Strasbourg",
+          "url": "https://en.wikipedia.org/wiki/Palais_Rohan%2C_Strasbourg",
+          "checked": "2026-11-17"
+        }
+      }
+    },
+    {
+      "id": "strasbourg-christkindelsmarik",
+      "name": "Christkindelsmärik",
+      "kind": "see",
+      "lat": 48.5835,
+      "lon": 7.746,
+      "wiki": "Christkindelsmärik, Strasbourg",
+      "summary": "France's oldest Christmas market, held since 1570, spread over a dozen squares.",
+      "expect": "Late November to 24 December only; very crowded at weekends, with security checks on the bridges.",
+      "tip": "Go on a weekday and see the great tree on Place Kléber after dark.",
+      "area": "Grande Île",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Weekday evening in December",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Christkindelsm%C3%A4rik%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Christkindelsm%C3%A4rik%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Christkindelsm%C3%A4rik%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping",
+        "Food",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "France's oldest Christmas market, held since 1570, spread over a dozen squares.",
+        "The reason Strasbourg calls itself the capital of Christmas."
+      ],
+      "visitFlow": [
+        "Place Broglie, then Place de la Cathédrale.",
+        "Finish at Place Kléber with mulled wine."
+      ],
+      "bestFor": "Visitors interested in local shopping and regional food",
+      "tradeoffs": [
+        "Late November to 24 December only; very crowded at weekends, with security checks on the bridges.",
+        "Go on a weekday and see the great tree on Place Kléber after dark."
+      ],
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7397,
+          "period": "202511-202610",
+          "title": "Christkindelsmärik, Strasbourg",
+          "url": "https://en.wikipedia.org/wiki/Christkindelsm%C3%A4rik%2C_Strasbourg",
+          "checked": "2026-11-17"
+        }
+      }
+    },
+    {
+      "id": "strasbourg-european-parliament",
+      "name": "European Parliament",
+      "kind": "see",
+      "lat": 48.5974,
+      "lon": 7.76882,
+      "wiki": "Seat of the European Parliament in Strasbourg",
+      "summary": "The glass home of the European Parliament, open for free visits with a multimedia exhibition.",
+      "expect": "Bring photo ID; plenary weeks need advance booking.",
+      "tip": "Combine with a walk in the Parc de l'Orangerie.",
+      "area": "European quarter",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Weekday",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=European%20Parliament%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=European%20Parliament%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=European%20Parliament%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "The glass home of the European Parliament, open for free visits with a multimedia exhibition.",
+        "A look inside one of Europe's capitals."
+      ],
+      "visitFlow": [
+        "Tram E to Parlement Européen.",
+        "Parlamentarium, then the chamber gallery."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Bring photo ID; plenary weeks need advance booking.",
+        "Combine with a walk in the Parc de l'Orangerie."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 27110,
+          "period": "202511-202610",
+          "title": "Seat of the European Parliament in Strasbourg",
+          "url": "https://en.wikipedia.org/wiki/Seat_of_the_European_Parliament_in_Strasbourg",
+          "checked": "2026-11-17"
+        }
+      }
+    },
+    {
+      "id": "strasbourg-strasbourg-colmar",
+      "name": "Colmar and the Alsace wine villages",
+      "kind": "see",
+      "lat": 48.0817,
+      "lon": 7.3556,
+      "wiki": "Colmar",
+      "summary": "A storybook town of canals and painted houses, gateway to villages like Riquewihr and Eguisheim.",
+      "expect": "30 minutes by train; the villages need a bus, tour or car.",
+      "tip": "See Little Venice and the Isenheim Altarpiece, then take bus 106 to Riquewihr.",
+      "area": "Colmar",
+      "duration": 8,
+      "price": [
+        25,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "May to October, or December",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Colmar%20and%20the%20Alsace%20wine%20villages%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Colmar%20and%20the%20Alsace%20wine%20villages%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Colmar%20and%20the%20Alsace%20wine%20villages%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Food",
+        "Art"
+      ],
+      "whyVisit": [
+        "A storybook town of canals and painted houses, gateway to villages like Riquewihr and Eguisheim.",
+        "The prettiest stretch of the Alsace wine route."
+      ],
+      "visitFlow": [
+        "Train to Colmar.",
+        "Old town and Unterlinden Museum, then a village."
+      ],
+      "bestFor": "Visitors interested in architecture and design and regional food",
+      "tradeoffs": [
+        "30 minutes by train; the villages need a bus, tour or car.",
+        "See Little Venice and the Isenheim Altarpiece, then take bus 106 to Riquewihr."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 162434,
+          "period": "202511-202610",
+          "title": "Colmar",
+          "url": "https://en.wikipedia.org/wiki/Colmar",
+          "checked": "2026-11-17"
+        }
+      }
+    },
+    {
+      "id": "strasbourg-maison-kammerzell",
+      "name": "Maison Kammerzell",
+      "kind": "eat",
+      "lat": 48.58194,
+      "lon": 7.74972,
+      "wiki": "Kammerzell House",
+      "summary": "A restaurant in an ornately carved 15th-century house on the cathedral square.",
+      "expect": "Touristy but handsome; several floors of dining rooms.",
+      "tip": "Order the choucroute with three fish, the house speciality.",
+      "area": "Grande Île",
+      "duration": 1.5,
+      "price": [
+        35,
+        65
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "A few days ahead",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Maison%20Kammerzell%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Maison%20Kammerzell%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Maison%20Kammerzell%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A restaurant in an ornately carved 15th-century house on the cathedral square.",
+        "The most famous building in Strasbourg after the cathedral."
+      ],
+      "visitFlow": [
+        "Reserve ahead.",
+        "Choucroute and a glass of Riesling."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Touristy but handsome; several floors of dining rooms.",
+        "Order the choucroute with three fish, the house speciality."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Alsatian",
+      "mustOrder": [
+        "Fish choucroute",
+        "Choucroute garnie",
+        "Kougelhopf glacé"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "strasbourg-chez-yvonne",
+      "name": "Chez Yvonne",
+      "kind": "eat",
+      "lat": 48.58277,
+      "lon": 7.74949,
+      "wiki": "Strasbourg",
+      "summary": "A classic winstub, a wood-panelled Alsatian wine tavern, open since 1873.",
+      "expect": "Close-set tables and big plates.",
+      "tip": "Book ahead, especially in December.",
+      "area": "Grande Île",
+      "duration": 1.5,
+      "price": [
+        30,
+        55
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "A few days ahead",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chez%20Yvonne%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Chez%20Yvonne%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chez%20Yvonne%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A classic winstub, a wood-panelled Alsatian wine tavern, open since 1873.",
+        "The archetype of the Strasbourg tavern."
+      ],
+      "visitFlow": [
+        "Reserve ahead.",
+        "Onion tart, then baeckeoffe or ham knuckle."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Close-set tables and big plates.",
+        "Book ahead, especially in December."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Alsatian winstub",
+      "mustOrder": [
+        "Tarte à l'oignon",
+        "Baeckeoffe",
+        "Coq au Riesling"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "strasbourg-binchstub",
+      "name": "Binchstub",
+      "kind": "eat",
+      "lat": 48.58317,
+      "lon": 7.75273,
+      "wiki": "Strasbourg",
+      "summary": "A small, modern tavern devoted to tarte flambée with seasonal toppings.",
+      "expect": "Tiny and full; book or come early.",
+      "tip": "Share two savoury tartes and one sweet.",
+      "area": "Grande Île",
+      "duration": 1.2,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "A day ahead",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Binchstub%2C%20Strasbourg",
+        "https://www.google.com/maps/search/?api=1&query=Binchstub%2C%20Strasbourg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Binchstub%2C%20Strasbourg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A small, modern tavern devoted to tarte flambée with seasonal toppings.",
+        "The best flammekueche in the centre."
+      ],
+      "visitFlow": [
+        "Reserve ahead.",
+        "Classic tarte first, then a seasonal one."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Tiny and full; book or come early.",
+        "Share two savoury tartes and one sweet."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Tarte flambée",
+      "mustOrder": [
+        "Classic flammekueche",
+        "Munster flammekueche",
+        "Apple and cinnamon flammekueche"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ],
+  "enriched": "2026-11-17"
+}
