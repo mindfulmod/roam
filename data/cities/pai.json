@@ -70,8 +70,8 @@
       "id": "pai-pai-canyon",
       "name": "Pai Canyon",
       "kind": "see",
-      "lat": 19.306,
-      "lon": 98.453,
+      "lat": 19.30469,
+      "lon": 98.4529,
       "wiki": "Pai, Thailand",
       "summary": "Narrow red-earth ridges with steep drops on both sides and a wide valley view.",
       "expect": "No railings; some ridges are a metre wide.",
@@ -110,15 +110,14 @@
       "tradeoffs": [
         "No railings; some ridges are a metre wide.",
         "Arrive 45 minutes before sunset and wear shoes with grip."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "pai-wat-phra-that-mae-yen",
       "name": "Wat Phra That Mae Yen",
       "kind": "see",
-      "lat": 19.353,
-      "lon": 98.459,
+      "lat": 19.34995,
+      "lon": 98.45443,
       "wiki": "Pai, Thailand",
       "summary": "A large white Buddha on the hillside above the valley, reached by 353 steps.",
       "expect": "Cover shoulders and knees.",
@@ -158,14 +157,22 @@
         "Cover shoulders and knees.",
         "Go for sunset over the town."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25549,
+          "period": "202511-202610",
+          "title": "Pai, Thailand",
+          "url": "https://en.wikipedia.org/wiki/Pai%2C_Thailand",
+          "checked": "2026-11-17"
+        }
+      }
     },
     {
       "id": "pai-yun-lai-viewpoint",
       "name": "Yun Lai Viewpoint",
       "kind": "see",
-      "lat": 19.376,
-      "lon": 98.4,
+      "lat": 19.36893,
+      "lon": 98.39555,
       "wiki": "Pai, Thailand",
       "summary": "A hilltop above the Chinese village of Santichon, known for a sea of mist at sunrise.",
       "expect": "A small entry fee that includes tea; cold before dawn.",
@@ -204,15 +211,14 @@
       "tradeoffs": [
         "A small entry fee that includes tea; cold before dawn.",
         "Be there by 6 am between November and February."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "pai-tha-pai-hot-springs",
       "name": "Tha Pai Hot Springs",
       "kind": "see",
-      "lat": 19.304,
-      "lon": 98.476,
+      "lat": 19.30741,
+      "lon": 98.47598,
       "wiki": "Huai Nam Dang National Park",
       "summary": "A forest stream fed by hot springs, with pools from 35 to 80°C.",
       "expect": "A national park fee for foreigners; the upper pools are too hot to enter.",
@@ -250,15 +256,14 @@
       "tradeoffs": [
         "A national park fee for foreigners; the upper pools are too hot to enter.",
         "Go early in the morning in the cool season."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "pai-mo-paeng-waterfall",
       "name": "Mo Paeng Waterfall",
       "kind": "see",
-      "lat": 19.376,
-      "lon": 98.378,
+      "lat": 19.37901,
+      "lon": 98.37546,
       "wiki": "Pai, Thailand",
       "summary": "A tiered waterfall with smooth rock that people slide down into the pool.",
       "expect": "Slippery rocks; low water from February to May.",
@@ -297,15 +302,14 @@
       "tradeoffs": [
         "Slippery rocks; low water from February to May.",
         "Best from July to November."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "pai-tham-lod-cave",
       "name": "Tham Lod Cave",
       "kind": "see",
-      "lat": 19.568,
-      "lon": 98.278,
+      "lat": 19.57194,
+      "lon": 98.27722,
       "wiki": "Tham Lot",
       "summary": "A river cave you cross by bamboo raft with a lantern guide, past ancient teak coffins.",
       "expect": "An hour's drive each way; a guide and raft are compulsory.",
@@ -346,8 +350,16 @@
         "An hour's drive each way; a guide and raft are compulsory.",
         "Stay until dusk to see thousands of swifts fly in as the bats fly out."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3447,
+          "period": "202511-202610",
+          "title": "Tham Lot cave",
+          "url": "https://en.wikipedia.org/wiki/Tham_Lot_cave",
+          "checked": "2026-11-17"
+        }
+      }
     },
     {
       "id": "pai-pai-walking-street",
@@ -413,8 +425,8 @@
       "id": "pai-nas-kitchen",
       "name": "Na's Kitchen",
       "kind": "eat",
-      "lat": 19.3585,
-      "lon": 98.4425,
+      "lat": 19.35759,
+      "lon": 98.44147,
       "wiki": "Pai, Thailand",
       "summary": "A small family kitchen with a short menu of Thai staples.",
       "expect": "A wait for a table at dinner; opens in the evening only.",
@@ -453,7 +465,6 @@
         "A wait for a table at dinner; opens in the evening only.",
         "Arrive when it opens."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Thai",
       "mustOrder": [
@@ -472,8 +483,8 @@
       "id": "pai-om-garden-cafe",
       "name": "Om Garden Cafe",
       "kind": "eat",
-      "lat": 19.3575,
-      "lon": 98.4415,
+      "lat": 19.35716,
+      "lon": 98.44083,
       "wiki": "Pai, Thailand",
       "summary": "A shady garden cafe serving breakfasts, salads and cakes.",
       "expect": "Closes mid-afternoon.",
@@ -512,7 +523,6 @@
         "Closes mid-afternoon.",
         "Good for a slow breakfast after a sunrise viewpoint."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Cafe",
       "mustOrder": [
@@ -527,5 +537,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-17"
 }
