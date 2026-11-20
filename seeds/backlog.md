@@ -36,7 +36,7 @@ Major: Los Angeles, San Diego, Seattle, Portland, Chicago, Boston, Washington DC
 
 US national parks still to cover: Yellowstone (West Yellowstone), Glacier (Whitefish), Great Smoky Mountains (Gatlinburg), Acadia (Bar Harbor), Rocky Mountain (Estes Park), Olympic (Port Angeles), Bryce Canyon, Sequoia, Joshua Tree, Death Valley, Everglades, Denali, Hawaii Volcanoes (Hilo), Page (Antelope Canyon), Monument Valley.
 
-Minor: Sedona, Lake Tahoe, Key West, Napa, Monterey, Palm Springs, Tofino, Lunenburg, Guanajuato, Puebla, San Cristóbal de las Casas, Bacalar, Holbox, Trinidad (Cuba), Roatán, Monteverde, Bocas del Toro, Lake Atitlán.
+Minor: Sedona, Lake Tahoe, Key West, Napa, Monterey, Palm Springs, Tofino, Lunenburg, Guanajuato, Puebla, San Cristóbal de las Casas, Bacalar, Holbox, Trinidad (Cuba), Roatán, Monteverde, Bocas del Toro, Granada (Nicaragua), Lake Atitlán.
 
 ## Oceania and the Pacific
 
