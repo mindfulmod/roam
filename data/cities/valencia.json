@@ -84,8 +84,8 @@
       "id": "valencia-city-of-arts-and-sciences",
       "name": "City of Arts and Sciences",
       "kind": "see",
-      "lat": 39.4545,
-      "lon": -0.3505,
+      "lat": 39.45417,
+      "lon": -0.35,
       "wiki": "City of Arts and Sciences",
       "summary": "Santiago Calatrava's complex of white futuristic buildings over shallow pools: science museum, opera house and Europe's largest aquarium.",
       "expect": "The outside is free; each building has its own ticket.",
@@ -126,14 +126,22 @@
         "The outside is free; each building has its own ticket.",
         "Choose the Oceanogràfic if you only do one, and come back after dark when it is lit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 69333,
+          "period": "202511-202610",
+          "title": "City of Arts and Sciences",
+          "url": "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "valencia-mercado-central",
       "name": "Mercado Central",
       "kind": "see",
-      "lat": 39.4735,
-      "lon": -0.379,
+      "lat": 39.47349,
+      "lon": -0.37891,
       "wiki": "Central Market of Valencia",
       "summary": "One of Europe's largest fresh markets, under a modernist dome of iron, glass and tiles.",
       "expect": "Open mornings Monday to Saturday.",
@@ -173,15 +181,14 @@
       "tradeoffs": [
         "Open mornings Monday to Saturday.",
         "Have breakfast at Central Bar inside the market."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "valencia-la-lonja-de-la-seda",
       "name": "La Lonja de la Seda",
       "kind": "see",
-      "lat": 39.4743,
-      "lon": -0.3784,
+      "lat": 39.47442,
+      "lon": -0.37844,
       "wiki": "Llotja de la Seda",
       "summary": "A 15th-century silk exchange with twisted stone columns rising like palm trees.",
       "expect": "Small and free on Sundays.",
@@ -221,14 +228,22 @@
         "Small and free on Sundays.",
         "Look at the carved gargoyles on the outside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6010,
+          "period": "202511-202610",
+          "title": "Lonja de la Seda",
+          "url": "https://en.wikipedia.org/wiki/Lonja_de_la_Seda",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "valencia-valencia-cathedral",
       "name": "Valencia Cathedral and the Micalet tower",
       "kind": "see",
-      "lat": 39.4755,
-      "lon": -0.3753,
+      "lat": 39.47583,
+      "lon": -0.375,
       "wiki": "Valencia Cathedral",
       "summary": "A cathedral that claims the Holy Grail, with a bell tower climb over the old town.",
       "expect": "207 spiral steps up the tower.",
@@ -269,7 +284,15 @@
         "207 spiral steps up the tower.",
         "On Thursdays at noon the 1,000-year-old Water Tribunal meets at the Door of the Apostles."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29786,
+          "period": "202511-202610",
+          "title": "Valencia Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Valencia_Cathedral",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "valencia-turia-gardens",
@@ -368,8 +391,8 @@
       "id": "valencia-albufera-natural-park",
       "name": "Albufera Natural Park",
       "kind": "see",
-      "lat": 39.332,
-      "lon": -0.352,
+      "lat": 39.33167,
+      "lon": -0.35222,
       "wiki": "Albufera",
       "summary": "A freshwater lagoon among rice fields where paella was born; boats take you out at sunset.",
       "expect": "A 30-minute bus ride; mosquitoes in summer.",
@@ -409,14 +432,22 @@
         "A 30-minute bus ride; mosquitoes in summer.",
         "Take the boat in El Palmar at sunset, then eat paella in the village."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8685,
+          "period": "202511-202610",
+          "title": "Albufera de València",
+          "url": "https://en.wikipedia.org/wiki/Albufera_de_Val%C3%A8ncia",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "valencia-casa-carmela",
       "name": "Casa Carmela",
       "kind": "eat",
-      "lat": 39.478,
-      "lon": -0.325,
+      "lat": 39.48225,
+      "lon": -0.32582,
       "wiki": "Paella",
       "summary": "A family restaurant cooking paella over orange-wood fires since 1922.",
       "expect": "Lunch only; paella for two or more.",
@@ -455,7 +486,6 @@
         "Lunch only; paella for two or more.",
         "Reserve and pre-order the paella valenciana."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Valencian rice",
       "mustOrder": [
@@ -474,8 +504,8 @@
       "id": "valencia-horchateria-santa-catalina",
       "name": "Horchatería Santa Catalina",
       "kind": "eat",
-      "lat": 39.4752,
-      "lon": -0.3767,
+      "lat": 39.47383,
+      "lon": -0.37626,
       "wiki": "Horchata",
       "summary": "A tiled 200-year-old café serving horchata, the cold drink made from tiger nuts.",
       "expect": "Busy in the afternoon.",
@@ -514,7 +544,6 @@
         "Busy in the afternoon.",
         "Dip fartons, long sugared buns, into the horchata."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Café",
       "mustOrder": [
@@ -533,8 +562,8 @@
       "id": "valencia-central-bar",
       "name": "Central Bar",
       "kind": "eat",
-      "lat": 39.4736,
-      "lon": -0.3792,
+      "lat": 39.47312,
+      "lon": -0.37906,
       "wiki": "Central Market of Valencia",
       "summary": "Chef Ricard Camarena's counter inside the Central Market, serving sandwiches and tapas from market produce.",
       "expect": "Stools only; no reservations.",
@@ -573,7 +602,6 @@
         "Stools only; no reservations.",
         "Order the esmorzaret, Valencia's mid-morning sandwich break."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Valencian tapas",
       "mustOrder": [
@@ -588,5 +616,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-20"
 }

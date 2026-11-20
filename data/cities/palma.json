@@ -82,8 +82,8 @@
       "id": "palma-palma-cathedral",
       "name": "Palma Cathedral (La Seu)",
       "kind": "see",
-      "lat": 39.5675,
-      "lon": 2.6483,
+      "lat": 39.56738,
+      "lon": 2.64814,
       "wiki": "Palma Cathedral",
       "summary": "A Gothic cathedral on the sea wall with one of the largest rose windows in the world and a canopy by Gaudí.",
       "expect": "Closed to visits on Sundays except for Mass.",
@@ -124,7 +124,15 @@
         "Closed to visits on Sundays except for Mass.",
         "Visit mid-morning for the coloured light from the rose window."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 72453,
+          "period": "202511-202610",
+          "title": "Palma Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Palma_Cathedral",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "palma-palma-old-town",
@@ -171,14 +179,23 @@
         "Quiet streets behind the cathedral.",
         "Peer into the patios on Carrer de la Almudaina and Carrer de Sant Miquel."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 264396,
+          "period": "202511-202610",
+          "title": "Palma de Mallorca",
+          "url": "https://en.wikipedia.org/wiki/Palma_de_Mallorca",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "palma-bellver-castle",
       "name": "Bellver Castle",
       "kind": "see",
-      "lat": 39.564,
-      "lon": 2.619,
+      "lat": 39.56375,
+      "lon": 2.61934,
       "wiki": "Bellver Castle",
       "summary": "A rare round Gothic castle on a wooded hill over the bay.",
       "expect": "Closed on Mondays; a steep climb or a short taxi.",
@@ -218,7 +235,15 @@
         "Closed on Mondays; a steep climb or a short taxi.",
         "Free on Sundays."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22882,
+          "period": "202511-202610",
+          "title": "Bellver Castle",
+          "url": "https://en.wikipedia.org/wiki/Bellver_Castle",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "palma-palma-soller-train",
@@ -266,14 +291,23 @@
         "Expensive and busy; the bus is faster and cheaper.",
         "Train one way, bus back over the mountains."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13240,
+          "period": "202511-202610",
+          "title": "Ferrocarril de Sóller",
+          "url": "https://en.wikipedia.org/wiki/Ferrocarril_de_S%C3%B3ller",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "palma-palma-valldemossa-deia",
       "name": "Valldemossa and Deià",
       "kind": "see",
-      "lat": 39.7105,
-      "lon": 2.622,
+      "lat": 39.71168,
+      "lon": 2.62258,
       "wiki": "Valldemossa",
       "summary": "Stone villages in the Tramuntana mountains, a UNESCO landscape; Chopin wintered in Valldemossa's monastery.",
       "expect": "Narrow mountain roads; tour buses fill Valldemossa at midday.",
@@ -314,14 +348,22 @@
         "Narrow mountain roads; tour buses fill Valldemossa at midday.",
         "Arrive early, have a coca de patata bun, then go on to Deià and its cove."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 49162,
+          "period": "202511-202610",
+          "title": "Valldemossa",
+          "url": "https://en.wikipedia.org/wiki/Valldemossa",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "palma-calo-des-moro",
       "name": "Caló des Moro",
       "kind": "see",
-      "lat": 39.315,
-      "lon": 3.128,
+      "lat": 39.35417,
+      "lon": 3.12833,
       "wiki": "Santanyí",
       "summary": "A tiny cove of turquoise water between pine-covered cliffs, the most photographed beach on the island.",
       "expect": "Very small, no facilities, a steep rocky path and huge summer crowds.",
@@ -360,15 +402,23 @@
         "Very small, no facilities, a steep rocky path and huge summer crowds.",
         "Go at 8 am or late afternoon, or swim at Cala S'Almunia next door."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21804,
+          "period": "202511-202610",
+          "title": "Santanyí",
+          "url": "https://en.wikipedia.org/wiki/Santany%C3%AD",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "palma-cap-de-formentor",
       "name": "Cap de Formentor",
       "kind": "see",
-      "lat": 39.962,
-      "lon": 3.213,
+      "lat": 39.94722,
+      "lon": 3.18083,
       "wiki": "Cap de Formentor",
       "summary": "A narrow headland of cliffs and a lighthouse at the island's northern tip.",
       "expect": "The road is closed to private cars in peak summer; take the shuttle bus.",
@@ -408,8 +458,16 @@
         "The road is closed to private cars in peak summer; take the shuttle bus.",
         "Stop at the Mirador Es Colomer viewpoint on the way."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 15103,
+          "period": "202511-202610",
+          "title": "Cap de Formentor",
+          "url": "https://en.wikipedia.org/wiki/Cap_de_Formentor",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "palma-mercat-de-lolivar",
@@ -475,8 +533,8 @@
       "id": "palma-can-joan-de-saigo",
       "name": "Ca'n Joan de s'Aigo",
       "kind": "eat",
-      "lat": 39.5705,
-      "lon": 2.653,
+      "lat": 39.56991,
+      "lon": 2.65262,
       "wiki": "Ensaïmada",
       "summary": "A tiled café open since 1700, famous for ensaïmadas and almond ice cream.",
       "expect": "A short queue at weekends.",
@@ -515,7 +573,6 @@
         "A short queue at weekends.",
         "Order an ensaïmada with hot chocolate."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Café",
       "mustOrder": [
@@ -590,5 +647,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-20"
 }

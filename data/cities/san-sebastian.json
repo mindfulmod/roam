@@ -83,8 +83,8 @@
       "id": "san-sebastian-la-concha-beach",
       "name": "La Concha Beach",
       "kind": "see",
-      "lat": 43.3178,
-      "lon": -1.989,
+      "lat": 43.31842,
+      "lon": -1.98696,
       "wiki": "La Concha",
       "summary": "A curving city beach with a white railing promenade, often called the most beautiful urban beach in Europe.",
       "expect": "Calm water and a lifeguarded swim season from June to September.",
@@ -123,8 +123,7 @@
       "tradeoffs": [
         "Calm water and a lifeguarded swim season from June to September.",
         "Walk the promenade from the town hall to Ondarreta at low tide."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-sebastian-san-sebastian-pintxos",
@@ -171,14 +170,23 @@
         "Packed from 8 pm; stand at the bar.",
         "Pick three or four bars and order one speciality at each."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 56710,
+          "period": "202511-202610",
+          "title": "Pincho",
+          "url": "https://en.wikipedia.org/wiki/Pincho",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "san-sebastian-monte-igueldo",
       "name": "Monte Igueldo",
       "kind": "see",
-      "lat": 43.3215,
-      "lon": -2.006,
+      "lat": 43.32104,
+      "lon": -2.00965,
       "wiki": "Monte Igueldo",
       "summary": "A hill at the end of the bay reached by a 1912 funicular, with an old-fashioned amusement park on top.",
       "expect": "Small fee for the funicular.",
@@ -217,15 +225,14 @@
       "tradeoffs": [
         "Small fee for the funicular.",
         "Go up at sunset for the view over the whole bay and Santa Clara island."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-sebastian-monte-urgull",
       "name": "Monte Urgull",
       "kind": "see",
-      "lat": 43.325,
-      "lon": -1.987,
+      "lat": 43.32472,
+      "lon": -1.98889,
       "wiki": "Monte Urgull",
       "summary": "A wooded hill above the old town with castle ruins and a statue of Christ.",
       "expect": "A 20-minute climb on shaded paths; free.",
@@ -266,14 +273,22 @@
         "A 20-minute climb on shaded paths; free.",
         "Walk up from the port and down to the aquarium."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4446,
+          "period": "202511-202610",
+          "title": "Urgull",
+          "url": "https://en.wikipedia.org/wiki/Urgull",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "san-sebastian-san-telmo-museum",
       "name": "San Telmo Museum",
       "kind": "see",
-      "lat": 43.3245,
-      "lon": -1.984,
+      "lat": 43.32492,
+      "lon": -1.98492,
       "wiki": "San Telmo Museoa",
       "summary": "A museum of Basque society in a 16th-century convent with a modern wing.",
       "expect": "Closed on Mondays.",
@@ -313,14 +328,22 @@
         "Closed on Mondays.",
         "See the painted chapel by Josep Maria Sert."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3934,
+          "period": "202511-202610",
+          "title": "San Telmo Museoa",
+          "url": "https://en.wikipedia.org/wiki/San_Telmo_Museoa",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "san-sebastian-san-sebastian-guggenheim",
       "name": "Guggenheim Museum Bilbao",
       "kind": "see",
-      "lat": 43.2687,
-      "lon": -2.934,
+      "lat": 43.26861,
+      "lon": -2.93389,
       "wiki": "Guggenheim Museum Bilbao",
       "summary": "Frank Gehry's titanium museum on the river, with Jeff Koons's flower Puppy at the door.",
       "expect": "An hour each way by bus; closed some Mondays.",
@@ -360,15 +383,23 @@
         "An hour each way by bus; closed some Mondays.",
         "Book online and eat pintxos in Bilbao's old town afterwards."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 200761,
+          "period": "202511-202610",
+          "title": "Guggenheim Museum Bilbao",
+          "url": "https://en.wikipedia.org/wiki/Guggenheim_Museum_Bilbao",
+          "checked": "2026-11-20"
+        }
+      }
     },
     {
       "id": "san-sebastian-gandarias",
       "name": "Gandarias",
       "kind": "eat",
-      "lat": 43.3233,
-      "lon": -1.9855,
+      "lat": 43.32399,
+      "lon": -1.98577,
       "wiki": "Pintxo",
       "summary": "A busy bar known for its sirloin pintxo and a long counter of cold bites.",
       "expect": "Crowded; pushing to the counter is normal.",
@@ -407,7 +438,6 @@
         "Crowded; pushing to the counter is normal.",
         "Order the solomillo from the kitchen."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Pintxos",
       "mustOrder": [
@@ -426,8 +456,8 @@
       "id": "san-sebastian-la-vina",
       "name": "La Viña",
       "kind": "eat",
-      "lat": 43.3237,
-      "lon": -1.9858,
+      "lat": 43.32439,
+      "lon": -1.98474,
       "wiki": "Basque cheesecake",
       "summary": "The bar that invented the burnt Basque cheesecake now copied around the world.",
       "expect": "A queue for slices; cakes are lined up on the counter.",
@@ -466,7 +496,6 @@
         "A queue for slices; cakes are lined up on the counter.",
         "Order a slice with a glass of sweet wine."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Pintxos and dessert",
       "mustOrder": [
@@ -485,8 +514,8 @@
       "id": "san-sebastian-bar-nestor",
       "name": "Bar Nestor",
       "kind": "eat",
-      "lat": 43.324,
-      "lon": -1.985,
+      "lat": 43.32388,
+      "lon": -1.9837,
       "wiki": "Pintxo",
       "summary": "A tiny bar with a short menu: tomato salad, steak by the kilo, and a Spanish omelette made twice a day.",
       "expect": "Tortilla is cut at 1 pm and 8 pm; put your name down well before.",
@@ -525,7 +554,6 @@
         "Tortilla is cut at 1 pm and 8 pm; put your name down well before.",
         "Arrive half an hour early to reserve a slice of tortilla."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Basque grill",
       "mustOrder": [
@@ -540,5 +568,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-20"
 }
