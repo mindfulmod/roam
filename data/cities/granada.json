@@ -1,0 +1,544 @@
+{
+  "id": "granada",
+  "name": "Granada",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 37.1773,
+  "lon": -3.5986,
+  "wiki": "Granada",
+  "tagline": "The Alhambra, the Albaicín and free tapas",
+  "summary": "The last Moorish kingdom in Spain, under the Sierra Nevada. Book the Alhambra first, then spend the rest of the time in the hillside lanes of the Albaicín, the cave quarter of Sacromonte and the tapas bars, where a free plate comes with every drink.",
+  "days": 3,
+  "bestMonths": [
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "seasonNote": "July and August pass 38°C; winter is cold at night but clear, with snow on the mountains behind the Alhambra.",
+  "arrival": "Fast trains from Madrid take about 3 hours 20 minutes; buses from Málaga airport take 1 hour 40 minutes. Granada's small airport has a bus to the cathedral.",
+  "gettingAround": "The centre is walkable but steep; small C1, C2 and C3 minibuses climb to the Albaicín, Sacromonte and the Alhambra.",
+  "cashTip": "Cards are accepted almost everywhere; carry coins for the minibuses if you have no card.",
+  "dailyBudget": [
+    60,
+    140
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    10,
+    25
+  ],
+  "foodTip": "Order a drink and a tapa arrives free; try remojón salad, habas con jamón and piononos pastries from Santa Fe.",
+  "buyTip": "Inlaid wooden boxes (taracea), Fajalauza ceramics and lanterns in the Alcaicería market.",
+  "baseArea": "Near Plaza Nueva, between the cathedral, the Albaicín and the Alhambra",
+  "connections": [
+    {
+      "to": "madrid",
+      "mode": "Train",
+      "minutes": 200,
+      "note": "Direct high-speed trains."
+    },
+    {
+      "to": "seville",
+      "mode": "Train",
+      "minutes": 150,
+      "note": "Trains via Antequera; buses take about 3 hours."
+    },
+    {
+      "to": "malaga",
+      "mode": "Bus",
+      "minutes": 100,
+      "note": "Frequent buses; trains via Antequera."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.granadatur.com/en/",
+      "type": "official",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Granada on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Granada",
+      "type": "reference",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Granada%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-20"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Granada%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Alhambra",
+  "added": "2026-11-20",
+  "items": [
+    {
+      "id": "granada-alhambra",
+      "name": "Alhambra",
+      "kind": "see",
+      "lat": 37.1761,
+      "lon": -3.5881,
+      "wiki": "Alhambra",
+      "summary": "A Nasrid palace-city of carved stucco, tiled halls and courtyard pools, with the Generalife gardens beside it.",
+      "expect": "Tickets sell out weeks ahead and the Nasrid Palaces entry is at a fixed half-hour; bring your passport.",
+      "tip": "Book on the official site only, take the earliest Nasrid slot, and see the Alcazaba and gardens around it.",
+      "area": "Alhambra hill",
+      "duration": 4,
+      "price": [
+        19,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "First entry, 8:30 am",
+      "reservation": "One to two months ahead",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alhambra%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Alhambra%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Alhambra%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture",
+        "Art"
+      ],
+      "whyVisit": [
+        "A Nasrid palace-city of carved stucco, tiled halls and courtyard pools, with the Generalife gardens beside it.",
+        "The finest Islamic palace in Europe and a UNESCO World Heritage site."
+      ],
+      "visitFlow": [
+        "Minibus C3 or walk up through the woods from Plaza Nueva.",
+        "Alcazaba, Nasrid Palaces at your slot, then the Generalife."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Tickets sell out weeks ahead and the Nasrid Palaces entry is at a fixed half-hour; bring your passport.",
+        "Book on the official site only, take the earliest Nasrid slot, and see the Alcazaba and gardens around it."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "granada-mirador-de-san-nicolas",
+      "name": "Mirador de San Nicolás",
+      "kind": "see",
+      "lat": 37.1812,
+      "lon": -3.5927,
+      "wiki": "Albaicín",
+      "summary": "The square in front of a church with the classic view of the Alhambra against the Sierra Nevada.",
+      "expect": "Packed at sunset with musicians and vendors; watch bags.",
+      "tip": "For a quieter version walk five minutes up to the Mirador de San Cristóbal or Mirador de la Vereda de Enmedio.",
+      "area": "Albaicín",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mirador%20de%20San%20Nicol%C3%A1s%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Mirador%20de%20San%20Nicol%C3%A1s%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mirador%20de%20San%20Nicol%C3%A1s%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The square in front of a church with the classic view of the Alhambra against the Sierra Nevada.",
+        "The most famous view in Spain."
+      ],
+      "visitFlow": [
+        "Minibus C1 or climb through the Albaicín.",
+        "Stay for the sunset, then tapas on the way down."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Packed at sunset with musicians and vendors; watch bags.",
+        "For a quieter version walk five minutes up to the Mirador de San Cristóbal or Mirador de la Vereda de Enmedio."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "granada-albaicin",
+      "name": "Albaicín",
+      "kind": "see",
+      "lat": 37.181,
+      "lon": -3.591,
+      "wiki": "Albaicín",
+      "summary": "The old Moorish quarter of whitewashed houses, walled gardens (carmenes) and cobbled lanes facing the Alhambra.",
+      "expect": "Steep and confusing; that is half the pleasure.",
+      "tip": "Walk up Carrera del Darro along the river and get lost on purpose, ending at San Nicolás.",
+      "area": "Albaicín",
+      "duration": 2.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Albaic%C3%ADn%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Albaic%C3%ADn%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Albaic%C3%ADn%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The old Moorish quarter of whitewashed houses, walled gardens (carmenes) and cobbled lanes facing the Alhambra.",
+        "A UNESCO World Heritage site along with the Alhambra."
+      ],
+      "visitFlow": [
+        "Start at Plaza Nueva.",
+        "Carrera del Darro, El Bañuelo baths, then up the lanes."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Steep and confusing; that is half the pleasure.",
+        "Walk up Carrera del Darro along the river and get lost on purpose, ending at San Nicolás."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "granada-granada-sacromonte",
+      "name": "Sacromonte caves",
+      "kind": "see",
+      "lat": 37.1835,
+      "lon": -3.583,
+      "wiki": "Sacromonte",
+      "summary": "A hillside of cave homes where the Roma community developed its own flamenco, the zambra.",
+      "expect": "Evening flamenco in the caves is intimate and touristy in equal measure.",
+      "tip": "Visit the Cuevas del Sacromonte museum by day, and book a show at a small cave venue.",
+      "area": "Sacromonte",
+      "duration": 2,
+      "price": [
+        5,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening show",
+      "reservation": "A day ahead for shows",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sacromonte%20caves%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Sacromonte%20caves%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sacromonte%20caves%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "History"
+      ],
+      "whyVisit": [
+        "A hillside of cave homes where the Roma community developed its own flamenco, the zambra.",
+        "The most atmospheric place to see flamenco in Andalusia."
+      ],
+      "visitFlow": [
+        "Minibus C2 from Plaza Nueva.",
+        "Cave museum, then return for an evening show."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and history and context",
+      "tradeoffs": [
+        "Evening flamenco in the caves is intimate and touristy in equal measure.",
+        "Visit the Cuevas del Sacromonte museum by day, and book a show at a small cave venue."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "granada-granada-royal-chapel",
+      "name": "Royal Chapel and Cathedral",
+      "kind": "see",
+      "lat": 37.176,
+      "lon": -3.599,
+      "wiki": "Royal Chapel of Granada",
+      "summary": "The tombs of Ferdinand and Isabella, the monarchs who took Granada in 1492, beside a vast Renaissance cathedral.",
+      "expect": "Two separate tickets; photos are not allowed in the chapel crypt.",
+      "tip": "See the chapel first: Isabella's own art collection is in the sacristy.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        6,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Royal%20Chapel%20and%20Cathedral%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Royal%20Chapel%20and%20Cathedral%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Royal%20Chapel%20and%20Cathedral%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Spiritual",
+        "Art"
+      ],
+      "whyVisit": [
+        "The tombs of Ferdinand and Isabella, the monarchs who took Granada in 1492, beside a vast Renaissance cathedral.",
+        "The end of Moorish Spain and the start of the Spanish empire in one room."
+      ],
+      "visitFlow": [
+        "Walk from Plaza Nueva.",
+        "Royal Chapel, then the cathedral, then the Alcaicería market."
+      ],
+      "bestFor": "Visitors interested in history and context and sacred places",
+      "tradeoffs": [
+        "Two separate tickets; photos are not allowed in the chapel crypt.",
+        "See the chapel first: Isabella's own art collection is in the sacristy."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "granada-monastery-of-san-jeronimo",
+      "name": "Monastery of San Jerónimo",
+      "kind": "see",
+      "lat": 37.179,
+      "lon": -3.604,
+      "wiki": "Monastery of Saint Jerome, Granada",
+      "summary": "A Renaissance monastery with an orange-tree cloister and a painted church interior.",
+      "expect": "Rarely busy; still home to an order of nuns.",
+      "tip": "A short walk from the cathedral; go at midday when other sights are full.",
+      "area": "Centre",
+      "duration": 0.7,
+      "price": [
+        5,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Midday",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Monastery%20of%20San%20Jer%C3%B3nimo%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Monastery%20of%20San%20Jer%C3%B3nimo%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Monastery%20of%20San%20Jer%C3%B3nimo%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A Renaissance monastery with an orange-tree cloister and a painted church interior.",
+        "One of the most richly decorated churches in Spain, with few visitors."
+      ],
+      "visitFlow": [
+        "Walk 10 minutes north-west of the cathedral.",
+        "Cloister, then the church."
+      ],
+      "bestFor": "Visitors interested in sacred places and art and craft",
+      "tradeoffs": [
+        "Rarely busy; still home to an order of nuns.",
+        "A short walk from the cathedral; go at midday when other sights are full."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "granada-bar-los-diamantes",
+      "name": "Bar Los Diamantes",
+      "kind": "eat",
+      "lat": 37.1755,
+      "lon": -3.5975,
+      "wiki": "Tapas",
+      "summary": "A standing-room bar famous for fried fish tapas.",
+      "expect": "Crowded and loud; order at the bar.",
+      "tip": "Each drink brings a free tapa; order a ración of the fried mix to share.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Early evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bar%20Los%20Diamantes%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Bar%20Los%20Diamantes%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bar%20Los%20Diamantes%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A standing-room bar famous for fried fish tapas.",
+        "The best-known tapas bar in Granada."
+      ],
+      "visitFlow": [
+        "Squeeze to the counter.",
+        "Beer, free tapa, then a plate of fried fish."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Crowded and loud; order at the bar.",
+        "Each drink brings a free tapa; order a ración of the fried mix to share."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Andalusian tapas",
+      "mustOrder": [
+        "Fried fish mix",
+        "Fried aubergine with cane honey",
+        "Prawns"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "granada-bodegas-castaneda",
+      "name": "Bodegas Castañeda",
+      "kind": "eat",
+      "lat": 37.177,
+      "lon": -3.5985,
+      "wiki": "Tapas",
+      "summary": "An old wine bar with barrels behind the counter and hams hanging above.",
+      "expect": "Busy from 8 pm.",
+      "tip": "Ask for a vermouth from the barrel.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bodegas%20Casta%C3%B1eda%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Bodegas%20Casta%C3%B1eda%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bodegas%20Casta%C3%B1eda%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "An old wine bar with barrels behind the counter and hams hanging above.",
+        "A classic Granada bar for cured meat and cheese."
+      ],
+      "visitFlow": [
+        "Near Plaza Nueva.",
+        "Drinks with free tapas, then a cheese board."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy from 8 pm.",
+        "Ask for a vermouth from the barrel."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Andalusian tapas",
+      "mustOrder": [
+        "Jamón",
+        "Manchego",
+        "House vermouth"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "granada-granada-teterias",
+      "name": "Calle Calderería Nueva tea houses",
+      "kind": "eat",
+      "lat": 37.1785,
+      "lon": -3.5965,
+      "wiki": "Albaicín",
+      "summary": "A narrow lane of Moroccan-style tea houses, bakeries and shawarma shops at the foot of the Albaicín.",
+      "expect": "Low cushioned seating and dozens of teas.",
+      "tip": "Stop here halfway up to San Nicolás.",
+      "area": "Albaicín",
+      "duration": 1,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Calle%20Calderer%C3%ADa%20Nueva%20tea%20houses%2C%20Granada",
+        "https://www.google.com/maps/search/?api=1&query=Calle%20Calderer%C3%ADa%20Nueva%20tea%20houses%2C%20Granada"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Calle%20Calderer%C3%ADa%20Nueva%20tea%20houses%2C%20Granada"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A narrow lane of Moroccan-style tea houses, bakeries and shawarma shops at the foot of the Albaicín.",
+        "Granada's Moorish past in a cup."
+      ],
+      "visitFlow": [
+        "Off Calle Elvira.",
+        "Mint tea and pastries, then on up the hill."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Low cushioned seating and dozens of teas.",
+        "Stop here halfway up to San Nicolás."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Moroccan tea house",
+      "mustOrder": [
+        "Mint tea",
+        "Baklava",
+        "Falafel wrap"
+      ],
+      "dietary": {
+        "halal": "options",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
