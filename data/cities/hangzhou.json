@@ -78,8 +78,8 @@
       "id": "hangzhou-hz-westlake",
       "name": "West Lake",
       "kind": "see",
-      "lat": 30.246,
-      "lon": 120.145,
+      "lat": 30.24694,
+      "lon": 120.14417,
       "wiki": "West Lake",
       "summary": "A lake of causeways, islands, pagodas and gardens, a World Heritage cultural landscape.",
       "expect": "Free; rent a bike or take a boat to the islands.",
@@ -120,14 +120,22 @@
         "Free; rent a bike or take a boat to the islands.",
         "Walk the Bai Causeway at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65170,
+          "period": "202511-202610",
+          "title": "West Lake",
+          "url": "https://en.wikipedia.org/wiki/West_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hangzhou-hz-sudi",
       "name": "Su Causeway",
       "kind": "see",
-      "lat": 30.248,
-      "lon": 120.142,
+      "lat": 30.24694,
+      "lon": 120.14417,
       "wiki": "Su Causeway",
       "summary": "A 3 km willow-lined causeway with six arched bridges across the lake.",
       "expect": "Lovely in spring blossom.",
@@ -166,14 +174,22 @@
         "Lovely in spring blossom.",
         "Cycle it end to end."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65170,
+          "period": "202511-202610",
+          "title": "West Lake",
+          "url": "https://en.wikipedia.org/wiki/West_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hangzhou-hz-lingyin",
       "name": "Lingyin Temple",
       "kind": "see",
-      "lat": 30.2408,
-      "lon": 120.0997,
+      "lat": 30.24278,
+      "lon": 120.09667,
       "wiki": "Lingyin Temple",
       "summary": "One of China's largest Buddhist temples, beside the carved Feilai Feng caves.",
       "expect": "Busy; separate park and temple tickets.",
@@ -213,14 +229,22 @@
         "Busy; separate park and temple tickets.",
         "See the laughing Buddha carvings at Feilai Feng."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30553,
+          "period": "202511-202610",
+          "title": "Lingyin Temple",
+          "url": "https://en.wikipedia.org/wiki/Lingyin_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hangzhou-hz-leifeng",
       "name": "Leifeng Pagoda",
       "kind": "see",
-      "lat": 30.2312,
-      "lon": 120.1488,
+      "lat": 30.23389,
+      "lon": 120.145,
       "wiki": "Leifeng Pagoda",
       "summary": "A rebuilt pagoda with lake views and the legend of the White Snake.",
       "expect": "Escalators to the top.",
@@ -260,7 +284,15 @@
         "Escalators to the top.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21133,
+          "period": "202511-202610",
+          "title": "Leifeng Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Leifeng_Pagoda",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hangzhou-hz-longjing",
@@ -307,14 +339,23 @@
         "Farmers will offer tastings.",
         "Visit in spring for picking season."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 70619,
+          "period": "202511-202610",
+          "title": "Longjing tea",
+          "url": "https://en.wikipedia.org/wiki/Longjing_tea",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hangzhou-hz-hefang",
       "name": "Hefang Street",
       "kind": "see",
-      "lat": 30.2425,
-      "lon": 120.169,
+      "lat": 30.24253,
+      "lon": 120.16897,
       "wiki": "Hefang Street",
       "summary": "An old street of traditional shops, medicine halls and snacks.",
       "expect": "Touristy but lively.",
@@ -353,15 +394,14 @@
       "tradeoffs": [
         "Touristy but lively.",
         "Visit the Huqingyutang pharmacy museum."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hangzhou-hz-xixi",
       "name": "Xixi Wetland",
       "kind": "see",
-      "lat": 30.27,
-      "lon": 120.06,
+      "lat": 30.27056,
+      "lon": 120.0625,
       "wiki": "Xixi National Wetland Park",
       "summary": "Wetlands of canals, persimmon trees and old villages explored by electric boat.",
       "expect": "Large; take the boat.",
@@ -400,14 +440,22 @@
         "Large; take the boat.",
         "Visit in autumn."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10299,
+          "period": "202511-202610",
+          "title": "Xixi National Wetland Park",
+          "url": "https://en.wikipedia.org/wiki/Xixi_National_Wetland_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hangzhou-hz-wuzhen",
       "name": "Wuzhen water town",
       "kind": "see",
-      "lat": 30.7444,
-      "lon": 120.4875,
+      "lat": 30.74275,
+      "lon": 120.48778,
       "wiki": "Wuzhen",
       "summary": "A canal town of stone bridges and wooden houses, beautiful when lit at night.",
       "expect": "About 1.5 hours by road.",
@@ -448,8 +496,16 @@
         "About 1.5 hours by road.",
         "Stay overnight in the West Scenic Zone."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 26763,
+          "period": "202511-202610",
+          "title": "Wuzhen",
+          "url": "https://en.wikipedia.org/wiki/Wuzhen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hangzhou-hz-dongpo",
@@ -623,5 +679,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

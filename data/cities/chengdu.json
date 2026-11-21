@@ -78,8 +78,8 @@
       "id": "chengdu-cd-panda",
       "name": "Giant Panda Breeding Base",
       "kind": "see",
-      "lat": 30.7333,
-      "lon": 104.1458,
+      "lat": 30.73861,
+      "lon": 104.14194,
       "wiki": "Chengdu Research Base of Giant Panda Breeding",
       "summary": "Bamboo-filled enclosures where giant and red pandas eat, climb and nap.",
       "expect": "Arrive at opening; pandas sleep by late morning.",
@@ -119,14 +119,22 @@
         "Arrive at opening; pandas sleep by late morning.",
         "Book tickets online and be there by 7:30."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41747,
+          "period": "202511-202610",
+          "title": "Chengdu Research Base of Giant Panda Breeding",
+          "url": "https://en.wikipedia.org/wiki/Chengdu_Research_Base_of_Giant_Panda_Breeding",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chengdu-cd-wenshu",
       "name": "Wenshu Monastery",
       "kind": "see",
-      "lat": 30.675,
-      "lon": 104.073,
+      "lat": 30.6779,
+      "lon": 104.07021,
       "wiki": "Wenshu Monastery",
       "summary": "A working Buddhist monastery with gardens, a teahouse and a vegetarian restaurant.",
       "expect": "Free; quiet and local.",
@@ -164,15 +172,14 @@
       "tradeoffs": [
         "Free; quiet and local.",
         "Have tea and a vegetarian lunch inside."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "chengdu-cd-peoplespark",
       "name": "People's Park teahouse",
       "kind": "see",
-      "lat": 30.6591,
-      "lon": 104.0573,
+      "lat": 30.6595,
+      "lon": 104.0549,
       "wiki": "People's Park (Chengdu)",
       "summary": "Locals drink tea, play mahjong and get their ears cleaned under the trees.",
       "expect": "Cheap tea; stay as long as you like.",
@@ -212,14 +219,22 @@
         "Cheap tea; stay as long as you like.",
         "Try the ear cleaning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11439,
+          "period": "202511-202610",
+          "title": "People's Park (Chengdu)",
+          "url": "https://en.wikipedia.org/wiki/People's_Park_(Chengdu)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chengdu-cd-kuanzhai",
       "name": "Kuanzhai Alley",
       "kind": "see",
-      "lat": 30.6694,
-      "lon": 104.0553,
+      "lat": 30.66471,
+      "lon": 104.04707,
       "wiki": "Kuanzhai Alley",
       "summary": "Restored Qing-era lanes of courtyards, snacks and teahouses.",
       "expect": "Very busy at weekends.",
@@ -258,8 +273,7 @@
       "tradeoffs": [
         "Very busy at weekends.",
         "Go in the evening."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "chengdu-cd-wuhou",
@@ -352,14 +366,23 @@
         "Shows nightly at several theatres.",
         "Book a seat near the front."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 35276,
+          "period": "202511-202610",
+          "title": "Bian lian",
+          "url": "https://en.wikipedia.org/wiki/Bian_lian",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chengdu-cd-jinsha",
       "name": "Jinsha Site Museum",
       "kind": "see",
-      "lat": 30.6833,
-      "lon": 104.0122,
+      "lat": 30.68118,
+      "lon": 104.0126,
       "wiki": "Jinsha site",
       "summary": "The remains of a 3,000-year-old Shu kingdom city with gold masks and the Sun Bird.",
       "expect": "Pair with Sanxingdui for the full story.",
@@ -399,14 +422,22 @@
         "Pair with Sanxingdui for the full story.",
         "See the golden Sun and Bird disc."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13366,
+          "period": "202511-202610",
+          "title": "Jinsha site",
+          "url": "https://en.wikipedia.org/wiki/Jinsha_site",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chengdu-cd-leshan",
       "name": "Leshan Giant Buddha",
       "kind": "see",
-      "lat": 29.5447,
-      "lon": 103.7733,
+      "lat": 29.54472,
+      "lon": 103.77333,
       "wiki": "Leshan Giant Buddha",
       "summary": "A 71 m Buddha carved into a cliff in the 8th century, the largest in the world.",
       "expect": "About an hour by fast train; long queues on the stairs.",
@@ -447,15 +478,23 @@
         "About an hour by fast train; long queues on the stairs.",
         "Take the boat for the full view."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 118251,
+          "period": "202511-202610",
+          "title": "Leshan Giant Buddha",
+          "url": "https://en.wikipedia.org/wiki/Leshan_Giant_Buddha",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chengdu-cd-dujiangyan",
       "name": "Dujiangyan irrigation system",
       "kind": "see",
-      "lat": 31.0019,
-      "lon": 103.605,
+      "lat": 31.00167,
+      "lon": 103.60528,
       "wiki": "Dujiangyan",
       "summary": "A 2,000-year-old irrigation system still watering the Sichuan plain.",
       "expect": "Pair with Mount Qingcheng.",
@@ -496,8 +535,16 @@
         "Pair with Mount Qingcheng.",
         "Visit Qingcheng's Taoist temples too."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 58495,
+          "period": "202511-202610",
+          "title": "Dujiangyan",
+          "url": "https://en.wikipedia.org/wiki/Dujiangyan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chengdu-cd-hotpot",
@@ -672,5 +719,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
