@@ -65,8 +65,8 @@
       "id": "austin-aus-bats",
       "name": "Congress Avenue Bridge bats",
       "kind": "see",
-      "lat": 30.2615,
-      "lon": -97.7451,
+      "lat": 30.26126,
+      "lon": -97.74531,
       "wiki": "Congress Avenue Bridge",
       "summary": "The largest urban bat colony emerges at dusk.",
       "expect": "March to October.",
@@ -105,14 +105,22 @@
         "March to October.",
         "Watch from a boat or the bank."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11193,
+          "period": "202511-202610",
+          "title": "Ann W. Richards Congress Avenue Bridge",
+          "url": "https://en.wikipedia.org/wiki/Ann_W._Richards_Congress_Avenue_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "austin-aus-barton",
       "name": "Barton Springs Pool",
       "kind": "see",
-      "lat": 30.264,
-      "lon": -97.771,
+      "lat": 30.2639,
+      "lon": -97.77,
       "wiki": "Barton Springs Pool",
       "summary": "Spring-fed pool at a constant 20°C.",
       "expect": "Small fee.",
@@ -151,14 +159,22 @@
         "Small fee.",
         "Go on a hot afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16978,
+          "period": "202511-202610",
+          "title": "Barton Springs Pool",
+          "url": "https://en.wikipedia.org/wiki/Barton_Springs_Pool",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "austin-aus-capitol",
       "name": "Texas State Capitol",
       "kind": "see",
-      "lat": 30.2747,
-      "lon": -97.7404,
+      "lat": 30.27472,
+      "lon": -97.74056,
       "wiki": "Texas State Capitol",
       "summary": "Taller than the US Capitol, with free tours.",
       "expect": "Free.",
@@ -198,7 +214,15 @@
         "Free.",
         "Look up into the dome."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 60987,
+          "period": "202511-202610",
+          "title": "Texas State Capitol",
+          "url": "https://en.wikipedia.org/wiki/Texas_State_Capitol",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "austin-aus-sixth",
@@ -244,14 +268,23 @@
         "Rowdy at weekends.",
         "Red River for indie bands."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14061,
+          "period": "202511-202610",
+          "title": "Sixth Street (Austin)",
+          "url": "https://en.wikipedia.org/wiki/Sixth_Street_(Austin)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "austin-aus-soco",
       "name": "South Congress",
       "kind": "see",
       "lat": 30.25,
-      "lon": -97.749,
+      "lon": -97.75,
       "wiki": "South Congress",
       "summary": "Vintage shops, food trucks and Capitol views.",
       "expect": "Strolling street.",
@@ -290,13 +323,21 @@
         "Strolling street.",
         "See the 'I love you so much' mural."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4111,
+          "period": "202511-202610",
+          "title": "South Congress",
+          "url": "https://en.wikipedia.org/wiki/South_Congress",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "austin-aus-lbj",
       "name": "LBJ Presidential Library",
       "kind": "see",
-      "lat": 30.2858,
+      "lat": 30.2857,
       "lon": -97.7292,
       "wiki": "Lyndon Baines Johnson Library and Museum",
       "summary": "Civil rights era history.",
@@ -336,7 +377,15 @@
         "Allow 2 hours.",
         "See the Oval Office replica."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25579,
+          "period": "202511-202610",
+          "title": "Lyndon Baines Johnson Library and Museum",
+          "url": "https://en.wikipedia.org/wiki/Lyndon_Baines_Johnson_Library_and_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "austin-aus-bbq",
@@ -511,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -64,8 +64,8 @@
       "id": "santa-fe-sfe-plaza",
       "name": "Plaza and Palace of the Governors",
       "kind": "see",
-      "lat": 35.687,
-      "lon": -105.9378,
+      "lat": 35.68778,
+      "lon": -105.9375,
       "wiki": "Palace of the Governors",
       "summary": "Native artists sell jewellery under the oldest public building in the US.",
       "expect": "Buy direct from artists.",
@@ -105,7 +105,15 @@
         "Buy direct from artists.",
         "Ask about the maker's work."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27851,
+          "period": "202511-202610",
+          "title": "Palace of the Governors",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_the_Governors",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-fe-sfe-canyon",
@@ -152,14 +160,23 @@
         "Walk up the hill.",
         "Go on a Friday art walk."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2615,
+          "period": "202511-202610",
+          "title": "Canyon Road",
+          "url": "https://en.wikipedia.org/wiki/Canyon_Road",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-fe-sfe-okeeffe",
       "name": "Georgia O'Keeffe Museum",
       "kind": "see",
-      "lat": 35.689,
-      "lon": -105.942,
+      "lat": 35.68915,
+      "lon": -105.94104,
       "wiki": "Georgia O'Keeffe Museum",
       "summary": "The largest collection of O'Keeffe's work.",
       "expect": "Timed tickets.",
@@ -198,7 +215,15 @@
         "Timed tickets.",
         "Combine with Abiquiú."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19039,
+          "period": "202511-202610",
+          "title": "Georgia O'Keeffe Museum",
+          "url": "https://en.wikipedia.org/wiki/Georgia_O'Keeffe_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-fe-sfe-meowwolf",
@@ -245,14 +270,23 @@
         "Timed entry.",
         "Look for secret passages."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 133263,
+          "period": "202511-202610",
+          "title": "Meow Wolf",
+          "url": "https://en.wikipedia.org/wiki/Meow_Wolf",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-fe-sfe-loretto",
       "name": "Loretto Chapel",
       "kind": "see",
-      "lat": 35.685,
-      "lon": -105.937,
+      "lat": 35.68556,
+      "lon": -105.93778,
       "wiki": "Loretto Chapel",
       "summary": "The 'Miraculous Staircase' with no central support.",
       "expect": "Small fee.",
@@ -292,14 +326,22 @@
         "Small fee.",
         "Look at the staircase spiral."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 189140,
+          "period": "202511-202610",
+          "title": "Loretto Chapel",
+          "url": "https://en.wikipedia.org/wiki/Loretto_Chapel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-fe-sfe-bandelier",
       "name": "Bandelier National Monument",
       "kind": "see",
-      "lat": 35.779,
-      "lon": -106.27,
+      "lat": 35.77889,
+      "lon": -106.32111,
       "wiki": "Bandelier National Monument",
       "summary": "Ancestral Pueblo cliff dwellings with ladders.",
       "expect": "45 minutes' drive.",
@@ -339,7 +381,15 @@
         "45 minutes' drive.",
         "Climb to Alcove House."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28329,
+          "period": "202511-202610",
+          "title": "Bandelier National Monument",
+          "url": "https://en.wikipedia.org/wiki/Bandelier_National_Monument",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-fe-sfe-chile",
@@ -512,5 +562,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

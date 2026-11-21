@@ -65,8 +65,8 @@
       "id": "charleston-chs-rainbow",
       "name": "Rainbow Row and the Battery",
       "kind": "see",
-      "lat": 32.775,
-      "lon": -79.927,
+      "lat": 32.77556,
+      "lon": -79.92722,
       "wiki": "Rainbow Row",
       "summary": "Pastel Georgian houses and the waterfront promenade.",
       "expect": "Free.",
@@ -107,14 +107,22 @@
         "Free.",
         "Walk at golden hour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18522,
+          "period": "202511-202610",
+          "title": "Rainbow Row",
+          "url": "https://en.wikipedia.org/wiki/Rainbow_Row",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "charleston-chs-sumter",
       "name": "Fort Sumter",
       "kind": "see",
-      "lat": 32.7522,
-      "lon": -79.8747,
+      "lat": 32.75222,
+      "lon": -79.87472,
       "wiki": "Fort Sumter",
       "summary": "Where the Civil War began, by ferry.",
       "expect": "Ferry from Liberty Square.",
@@ -153,14 +161,22 @@
         "Ferry from Liberty Square.",
         "Book the morning boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 211732,
+          "period": "202511-202610",
+          "title": "Fort Sumter",
+          "url": "https://en.wikipedia.org/wiki/Fort_Sumter",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "charleston-chs-mcleod",
       "name": "McLeod Plantation",
       "kind": "see",
-      "lat": 32.766,
-      "lon": -79.975,
+      "lat": 32.76278,
+      "lon": -79.97236,
       "wiki": "McLeod Plantation",
       "summary": "A plantation interpreted through the lives of the enslaved.",
       "expect": "Guided tours.",
@@ -199,14 +215,22 @@
         "Guided tours.",
         "Take the guided tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9361,
+          "period": "202511-202610",
+          "title": "McLeod Plantation",
+          "url": "https://en.wikipedia.org/wiki/McLeod_Plantation",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "charleston-chs-magnolia",
       "name": "Magnolia Plantation gardens",
       "kind": "see",
-      "lat": 32.874,
-      "lon": -80.086,
+      "lat": 32.87461,
+      "lon": -80.08324,
       "wiki": "Magnolia Plantation and Gardens",
       "summary": "America's oldest public gardens.",
       "expect": "Allow half a day.",
@@ -245,15 +269,14 @@
       "tradeoffs": [
         "Allow half a day.",
         "Spring blooms are stunning."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "charleston-chs-market",
       "name": "Charleston City Market",
       "kind": "see",
-      "lat": 32.7808,
-      "lon": -79.9302,
+      "lat": 32.78092,
+      "lon": -79.92931,
       "wiki": "Charleston City Market",
       "summary": "Market stalls with sweetgrass baskets.",
       "expect": "Busy.",
@@ -291,15 +314,14 @@
       "tradeoffs": [
         "Busy.",
         "Buy direct from weavers."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "charleston-chs-folly",
       "name": "Folly Beach",
       "kind": "see",
-      "lat": 32.655,
-      "lon": -79.94,
+      "lat": 32.64667,
+      "lon": -79.97806,
       "wiki": "Folly Beach, South Carolina",
       "summary": "Laid-back beach with a pier.",
       "expect": "20 minutes' drive.",
@@ -338,7 +360,15 @@
         "20 minutes' drive.",
         "Sunset on the pier."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16658,
+          "period": "202511-202610",
+          "title": "Folly Beach, South Carolina",
+          "url": "https://en.wikipedia.org/wiki/Folly_Beach%2C_South_Carolina",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "charleston-chs-shrimpgrits",
@@ -511,5 +541,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

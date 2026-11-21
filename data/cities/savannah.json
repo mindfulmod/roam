@@ -65,8 +65,8 @@
       "id": "savannah-sav-forsyth",
       "name": "Forsyth Park",
       "kind": "see",
-      "lat": 32.067,
-      "lon": -81.0957,
+      "lat": 32.0676,
+      "lon": -81.0963,
       "wiki": "Forsyth Park",
       "summary": "The city's big park with an iconic white fountain.",
       "expect": "Free.",
@@ -106,7 +106,15 @@
         "Free.",
         "Go Saturday for the farmers market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10907,
+          "period": "202511-202610",
+          "title": "Forsyth Park",
+          "url": "https://en.wikipedia.org/wiki/Forsyth_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "savannah-sav-squares",
@@ -153,14 +161,23 @@
         "Walk.",
         "See Chippewa and Monterey squares."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13335,
+          "period": "202511-202610",
+          "title": "Squares of Savannah, Georgia",
+          "url": "https://en.wikipedia.org/wiki/Squares_of_Savannah%2C_Georgia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "savannah-sav-bonaventure",
       "name": "Bonaventure Cemetery",
       "kind": "see",
-      "lat": 32.045,
-      "lon": -81.047,
+      "lat": 32.04389,
+      "lon": -81.04556,
       "wiki": "Bonaventure Cemetery",
       "summary": "Atmospheric cemetery with moss-draped oaks.",
       "expect": "Short drive.",
@@ -200,14 +217,22 @@
         "Short drive.",
         "Go in soft light."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23292,
+          "period": "202511-202610",
+          "title": "Bonaventure Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Bonaventure_Cemetery",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "savannah-sav-mercer",
       "name": "Mercer-Williams House",
       "kind": "see",
-      "lat": 32.0715,
-      "lon": -81.0955,
+      "lat": 32.0714,
+      "lon": -81.09555,
       "wiki": "Mercer House",
       "summary": "Mansion made famous by 'Midnight in the Garden of Good and Evil'.",
       "expect": "Tours.",
@@ -246,15 +271,14 @@
       "tradeoffs": [
         "Tours.",
         "Book a tour."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "savannah-sav-river",
       "name": "River Street",
       "kind": "see",
-      "lat": 32.081,
-      "lon": -81.09,
+      "lat": 32.08101,
+      "lon": -81.09052,
       "wiki": "River Street",
       "summary": "Cobbled riverfront of old cotton warehouses.",
       "expect": "Lively at night.",
@@ -293,15 +317,14 @@
       "tradeoffs": [
         "Lively at night.",
         "Watch the container ships pass."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "savannah-sav-tybee",
       "name": "Tybee Island",
       "kind": "see",
-      "lat": 32.001,
-      "lon": -80.846,
+      "lat": 32.0075,
+      "lon": -80.845,
       "wiki": "Tybee Island, Georgia",
       "summary": "Beach town with a lighthouse.",
       "expect": "30 minutes' drive.",
@@ -340,7 +363,15 @@
         "30 minutes' drive.",
         "Climb the lighthouse."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 49515,
+          "period": "202511-202610",
+          "title": "Tybee Island, Georgia",
+          "url": "https://en.wikipedia.org/wiki/Tybee_Island%2C_Georgia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "savannah-sav-chicken",
@@ -514,5 +545,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

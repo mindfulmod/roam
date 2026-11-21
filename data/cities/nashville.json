@@ -70,8 +70,8 @@
       "id": "nashville-nsh-broadway",
       "name": "Lower Broadway honky-tonks",
       "kind": "see",
-      "lat": 36.1612,
-      "lon": -86.7775,
+      "lat": 36.16111,
+      "lon": -86.77639,
       "wiki": "Lower Broadway",
       "summary": "Bars with free live country music from morning till late.",
       "expect": "No cover; tip the band.",
@@ -110,13 +110,21 @@
         "No cover; tip the band.",
         "Start at Robert's Western World."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29047,
+          "period": "202511-202610",
+          "title": "Broadway (Nashville, Tennessee)",
+          "url": "https://en.wikipedia.org/wiki/Broadway_(Nashville%2C_Tennessee)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nashville-nsh-ryman",
       "name": "Ryman Auditorium",
       "kind": "see",
-      "lat": 36.1612,
+      "lat": 36.16128,
       "lon": -86.7785,
       "wiki": "Ryman Auditorium",
       "summary": "The 'Mother Church of Country Music', a former tabernacle.",
@@ -157,14 +165,22 @@
         "Tours by day, shows at night.",
         "Catch a concert here."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 89786,
+          "period": "202511-202610",
+          "title": "Ryman Auditorium",
+          "url": "https://en.wikipedia.org/wiki/Ryman_Auditorium",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nashville-nsh-halloffame",
       "name": "Country Music Hall of Fame",
       "kind": "see",
-      "lat": 36.1583,
-      "lon": -86.776,
+      "lat": 36.15833,
+      "lon": -86.77611,
       "wiki": "Country Music Hall of Fame and Museum",
       "summary": "Elvis's gold Cadillac, costumes and instruments.",
       "expect": "Allow 2-3 hours.",
@@ -204,14 +220,22 @@
         "Allow 2-3 hours.",
         "Add the RCA Studio B tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 43103,
+          "period": "202511-202610",
+          "title": "Country Music Hall of Fame and Museum",
+          "url": "https://en.wikipedia.org/wiki/Country_Music_Hall_of_Fame_and_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nashville-nsh-opry",
       "name": "Grand Ole Opry",
       "kind": "see",
-      "lat": 36.2066,
-      "lon": -86.6922,
+      "lat": 36.20682,
+      "lon": -86.69226,
       "wiki": "Grand Ole Opry",
       "summary": "The world's longest-running radio show, live on stage.",
       "expect": "Shows most weekends.",
@@ -250,14 +274,22 @@
         "Shows most weekends.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 297041,
+          "period": "202511-202610",
+          "title": "Grand Ole Opry",
+          "url": "https://en.wikipedia.org/wiki/Grand_Ole_Opry",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nashville-nsh-parthenon",
       "name": "The Parthenon",
       "kind": "see",
-      "lat": 36.1497,
-      "lon": -86.8133,
+      "lat": 36.14972,
+      "lon": -86.81333,
       "wiki": "Parthenon (Nashville)",
       "summary": "A full-scale replica with a 42-foot Athena.",
       "expect": "Art museum inside.",
@@ -297,14 +329,22 @@
         "Art museum inside.",
         "See Athena."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 95205,
+          "period": "202511-202610",
+          "title": "Parthenon (Nashville)",
+          "url": "https://en.wikipedia.org/wiki/Parthenon_(Nashville)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nashville-nsh-eastnash",
       "name": "East Nashville",
       "kind": "see",
-      "lat": 36.178,
-      "lon": -86.75,
+      "lat": 36.18922,
+      "lon": -86.73363,
       "wiki": "East Nashville",
       "summary": "Indie bars, music venues and food.",
       "expect": "Local vibe.",
@@ -344,7 +384,15 @@
         "Local vibe.",
         "Catch a songwriter night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7708,
+          "period": "202511-202610",
+          "title": "East Nashville, Tennessee",
+          "url": "https://en.wikipedia.org/wiki/East_Nashville%2C_Tennessee",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nashville-nsh-hotchicken",
@@ -518,5 +566,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

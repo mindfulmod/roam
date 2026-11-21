@@ -71,7 +71,7 @@
       "id": "philadelphia-phl-independence",
       "name": "Independence Hall",
       "kind": "see",
-      "lat": 39.9489,
+      "lat": 39.94889,
       "lon": -75.15,
       "wiki": "Independence Hall",
       "summary": "Where the Declaration and Constitution were debated and signed.",
@@ -112,14 +112,22 @@
         "Free timed tickets.",
         "Book tickets online."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 153790,
+          "period": "202511-202610",
+          "title": "Independence Hall",
+          "url": "https://en.wikipedia.org/wiki/Independence_Hall",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "philadelphia-phl-libertybell",
       "name": "Liberty Bell",
       "kind": "see",
-      "lat": 39.9496,
-      "lon": -75.1503,
+      "lat": 39.94944,
+      "lon": -75.15028,
       "wiki": "Liberty Bell",
       "summary": "The cracked bell, icon of freedom.",
       "expect": "Free; security line.",
@@ -158,13 +166,21 @@
         "Free; security line.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 333096,
+          "period": "202511-202610",
+          "title": "Liberty Bell",
+          "url": "https://en.wikipedia.org/wiki/Liberty_Bell",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "philadelphia-phl-artmuseum",
       "name": "Philadelphia Museum of Art and Rocky Steps",
       "kind": "see",
-      "lat": 39.9656,
+      "lat": 39.966,
       "lon": -75.181,
       "wiki": "Philadelphia Museum of Art",
       "summary": "A great art museum with the famous Rocky Steps.",
@@ -205,13 +221,21 @@
         "Allow half a day.",
         "Run the steps at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 71721,
+          "period": "202511-202610",
+          "title": "Philadelphia Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Philadelphia_Museum_of_Art",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "philadelphia-phl-barnes",
       "name": "Barnes Foundation",
       "kind": "see",
-      "lat": 39.9606,
+      "lat": 39.9605,
       "lon": -75.1727,
       "wiki": "Barnes Foundation",
       "summary": "Renoirs, Cézannes and Matisses hung in quirky ensembles.",
@@ -251,14 +275,22 @@
         "Timed tickets.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 52731,
+          "period": "202511-202610",
+          "title": "Barnes Foundation",
+          "url": "https://en.wikipedia.org/wiki/Barnes_Foundation",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "philadelphia-phl-reading",
       "name": "Reading Terminal Market",
       "kind": "see",
-      "lat": 39.9533,
-      "lon": -75.159,
+      "lat": 39.9534,
+      "lon": -75.15901,
       "wiki": "Reading Terminal Market",
       "summary": "A historic indoor market with Amish stalls.",
       "expect": "Crowded at lunch.",
@@ -298,13 +330,21 @@
         "Crowded at lunch.",
         "Try a roast pork sandwich at DiNic's."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21590,
+          "period": "202511-202610",
+          "title": "Reading Terminal Market",
+          "url": "https://en.wikipedia.org/wiki/Reading_Terminal_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "philadelphia-phl-elfreth",
       "name": "Elfreth's Alley",
       "kind": "see",
-      "lat": 39.9527,
+      "lat": 39.9528,
       "lon": -75.1425,
       "wiki": "Elfreth's Alley",
       "summary": "America's oldest continuously inhabited street.",
@@ -344,14 +384,22 @@
         "Residents live here.",
         "Stay quiet."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34611,
+          "period": "202511-202610",
+          "title": "Elfreth's Alley",
+          "url": "https://en.wikipedia.org/wiki/Elfreth's_Alley",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "philadelphia-phl-murals",
       "name": "Mural Arts tours",
       "kind": "see",
-      "lat": 39.95,
-      "lon": -75.16,
+      "lat": 39.96531,
+      "lon": -75.16695,
       "wiki": "Mural Arts Program",
       "summary": "Thousands of murals across the city.",
       "expect": "Walking or trolley tours.",
@@ -390,7 +438,15 @@
         "Walking or trolley tours.",
         "Book a guided tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2253,
+          "period": "202511-202610",
+          "title": "Mural Arts Philadelphia",
+          "url": "https://en.wikipedia.org/wiki/Mural_Arts_Philadelphia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "philadelphia-phl-cheesesteak",
@@ -510,8 +566,8 @@
       "id": "philadelphia-phl-italianmarket",
       "name": "Italian Market",
       "kind": "eat",
-      "lat": 39.938,
-      "lon": -75.158,
+      "lat": 39.939,
+      "lon": -75.1578,
       "wiki": "Italian Market",
       "summary": "America's oldest outdoor market.",
       "expect": "Mornings.",
@@ -550,7 +606,6 @@
         "Mornings.",
         "Try cannoli."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Italian-American",
       "mustOrder": [
@@ -564,5 +619,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

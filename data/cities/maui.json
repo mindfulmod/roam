@@ -64,8 +64,8 @@
       "id": "maui-mau-haleakala",
       "name": "Haleakalā sunrise",
       "kind": "see",
-      "lat": 20.7097,
-      "lon": -156.2533,
+      "lat": 20.71667,
+      "lon": -156.16667,
       "wiki": "Haleakalā National Park",
       "summary": "Sunrise from the 3,055 m summit above the clouds.",
       "expect": "Sunrise reservation required; freezing at the top.",
@@ -106,14 +106,22 @@
         "Sunrise reservation required; freezing at the top.",
         "Book the reservation 60 days ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34037,
+          "period": "202511-202610",
+          "title": "Haleakalā National Park",
+          "url": "https://en.wikipedia.org/wiki/Haleakal%C4%81_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maui-mau-hana",
       "name": "Road to Hana",
       "kind": "see",
-      "lat": 20.7575,
-      "lon": -155.9884,
+      "lat": 20.7616,
+      "lon": -155.98732,
       "wiki": "Hana Highway",
       "summary": "620 curves, waterfalls and black-sand beaches.",
       "expect": "Full day; drive carefully.",
@@ -154,8 +162,16 @@
         "Full day; drive carefully.",
         "Reserve Waiʻānapanapa ahead."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16480,
+          "period": "202511-202610",
+          "title": "Hāna Highway",
+          "url": "https://en.wikipedia.org/wiki/H%C4%81na_Highway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maui-mau-molokini",
@@ -202,7 +218,16 @@
         "Morning boats.",
         "Go early for calm seas."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22285,
+          "period": "202511-202610",
+          "title": "Molokini",
+          "url": "https://en.wikipedia.org/wiki/Molokini",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maui-mau-whales",
@@ -248,14 +273,23 @@
         "December to April.",
         "Choose a non-profit tour."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 437497,
+          "period": "202511-202610",
+          "title": "Humpback whale",
+          "url": "https://en.wikipedia.org/wiki/Humpback_whale",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maui-mau-iao",
       "name": "ʻĪao Valley",
       "kind": "see",
-      "lat": 20.881,
-      "lon": -156.545,
+      "lat": 20.88059,
+      "lon": -156.54712,
       "wiki": "ʻĪao Valley State Monument",
       "summary": "A lush valley with the ʻĪao Needle.",
       "expect": "Reservations for non-residents.",
@@ -294,15 +328,14 @@
       "tradeoffs": [
         "Reservations for non-residents.",
         "Go early."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "maui-mau-wailea",
       "name": "Wailea beaches",
       "kind": "see",
       "lat": 20.69,
-      "lon": -156.442,
+      "lon": -156.43917,
       "wiki": "Wailea, Hawaii",
       "summary": "Golden beaches and coastal walk.",
       "expect": "Public access paths.",
@@ -341,7 +374,15 @@
         "Public access paths.",
         "Snorkel at Ulua Beach."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13493,
+          "period": "202511-202610",
+          "title": "Wailea, Hawaii",
+          "url": "https://en.wikipedia.org/wiki/Wailea%2C_Hawaii",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maui-mau-poke",
@@ -514,5 +555,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
