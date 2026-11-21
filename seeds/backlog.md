@@ -2,9 +2,9 @@
 
 Cities still to add, grouped by region and ordered roughly by how many visitors they draw. Tick a city when its seed is merged. "Minor" cities are smaller places people still travel for.
 
-## Done through the pipeline (77)
+## Done through the pipeline (80)
 
-Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla, Jerusalem, Tel Aviv, Haifa.
+Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla, Jerusalem, Tel Aviv, Haifa, Karbala, Najaf, Mashhad.
 
 ## Europe
 
