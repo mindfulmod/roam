@@ -1,0 +1,518 @@
+{
+  "id": "maui",
+  "name": "Maui",
+  "country": "United States",
+  "region": "North America",
+  "lat": 20.8893,
+  "lon": -156.4729,
+  "wiki": "Maui",
+  "tagline": "Volcano sunrises, the Road to Hana and whales",
+  "summary": "Maui is Hawaii's second-largest island: watch the sunrise above the clouds at Haleakalā, drive the winding Road to Hana past waterfalls, snorkel at Molokini and see humpback whales in winter. Respect areas recovering from the 2023 Lahaina fires.",
+  "days": 5,
+  "bestMonths": [
+    4,
+    5,
+    9,
+    10
+  ],
+  "seasonNote": "Whale season December to April; spring and autumn have fewer crowds.",
+  "arrival": "Kahului Airport (OGG); inter-island flights from Honolulu.",
+  "gettingAround": "Rent a car.",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+    150,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Poke, shave ice and plate lunch.",
+  "buyTip": "Maui-grown coffee and local crafts.",
+  "baseArea": "Kihei or Wailea",
+  "connections": [
+    {
+      "to": "honolulu",
+      "mode": "Flight",
+      "minutes": 40,
+      "note": "Frequent inter-island flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Maui on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Maui",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Maui%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Maui%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Haleakalā",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "maui-mau-haleakala",
+      "name": "Haleakalā sunrise",
+      "kind": "see",
+      "lat": 20.7097,
+      "lon": -156.2533,
+      "wiki": "Haleakalā National Park",
+      "summary": "Sunrise from the 3,055 m summit above the clouds.",
+      "expect": "Sunrise reservation required; freezing at the top.",
+      "tip": "Book the reservation 60 days ahead.",
+      "area": "Upcountry",
+      "duration": 5,
+      "price": [
+        30,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Haleakal%C4%81%20sunrise%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Haleakal%C4%81%20sunrise%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Haleakal%C4%81%20sunrise%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Sunrise from the 3,055 m summit above the clouds.",
+        "Unforgettable sunrise."
+      ],
+      "visitFlow": [
+        "Pre-dawn drive.",
+        "Sunrise.",
+        "Crater trail."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Sunrise reservation required; freezing at the top.",
+        "Book the reservation 60 days ahead."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "maui-mau-hana",
+      "name": "Road to Hana",
+      "kind": "see",
+      "lat": 20.7575,
+      "lon": -155.9884,
+      "wiki": "Hana Highway",
+      "summary": "620 curves, waterfalls and black-sand beaches.",
+      "expect": "Full day; drive carefully.",
+      "tip": "Reserve Waiʻānapanapa ahead.",
+      "area": "East Maui",
+      "duration": 10,
+      "price": [
+        10,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Road%20to%20Hana%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Road%20to%20Hana%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Road%20to%20Hana%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "620 curves, waterfalls and black-sand beaches.",
+        "Epic drive."
+      ],
+      "visitFlow": [
+        "Twin Falls.",
+        "Waiʻānapanapa.",
+        "Hana town."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Full day; drive carefully.",
+        "Reserve Waiʻānapanapa ahead."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "maui-mau-molokini",
+      "name": "Molokini snorkelling",
+      "kind": "see",
+      "lat": 20.633,
+      "lon": -156.496,
+      "wiki": "Molokini",
+      "summary": "Crescent crater reef with clear water.",
+      "expect": "Morning boats.",
+      "tip": "Go early for calm seas.",
+      "area": "Offshore",
+      "duration": 5,
+      "price": [
+        100,
+        180
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Molokini%20snorkelling%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Molokini%20snorkelling%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Molokini%20snorkelling%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Crescent crater reef with clear water.",
+        "Top snorkel site."
+      ],
+      "visitFlow": [
+        "Boat.",
+        "Snorkel."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Morning boats.",
+        "Go early for calm seas."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "maui-mau-whales",
+      "name": "Whale watching",
+      "kind": "see",
+      "lat": 20.75,
+      "lon": -156.55,
+      "wiki": "Humpback whale",
+      "summary": "Humpbacks breach in winter.",
+      "expect": "December to April.",
+      "tip": "Choose a non-profit tour.",
+      "area": "Maalaea",
+      "duration": 2,
+      "price": [
+        50,
+        80
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Whale%20watching%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Whale%20watching%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Whale%20watching%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Humpbacks breach in winter.",
+        "Whale nursery."
+      ],
+      "visitFlow": [
+        "Boat.",
+        "Whales."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "December to April.",
+        "Choose a non-profit tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "maui-mau-iao",
+      "name": "ʻĪao Valley",
+      "kind": "see",
+      "lat": 20.881,
+      "lon": -156.545,
+      "wiki": "ʻĪao Valley State Monument",
+      "summary": "A lush valley with the ʻĪao Needle.",
+      "expect": "Reservations for non-residents.",
+      "tip": "Go early.",
+      "area": "Wailuku",
+      "duration": 1.5,
+      "price": [
+        5,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=%CA%BB%C4%AAao%20Valley%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=%CA%BB%C4%AAao%20Valley%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=%CA%BB%C4%AAao%20Valley%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "History"
+      ],
+      "whyVisit": [
+        "A lush valley with the ʻĪao Needle.",
+        "Sacred site."
+      ],
+      "visitFlow": [
+        "Walk.",
+        "Needle view."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and history and context",
+      "tradeoffs": [
+        "Reservations for non-residents.",
+        "Go early."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "maui-mau-wailea",
+      "name": "Wailea beaches",
+      "kind": "see",
+      "lat": 20.69,
+      "lon": -156.442,
+      "wiki": "Wailea, Hawaii",
+      "summary": "Golden beaches and coastal walk.",
+      "expect": "Public access paths.",
+      "tip": "Snorkel at Ulua Beach.",
+      "area": "South Maui",
+      "duration": 4,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Wailea%20beaches%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Wailea%20beaches%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Wailea%20beaches%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Golden beaches and coastal walk.",
+        "Beach days."
+      ],
+      "visitFlow": [
+        "Swim.",
+        "Coastal walk."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Public access paths.",
+        "Snorkel at Ulua Beach."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "maui-mau-poke",
+      "name": "Poke",
+      "kind": "eat",
+      "lat": 20.89,
+      "lon": -156.47,
+      "wiki": "Poke (Hawaiian dish)",
+      "summary": "Cubed raw fish with soy and seaweed.",
+      "expect": "Grocery counters are great.",
+      "tip": "Try ahi shoyu.",
+      "area": "Kahului",
+      "duration": 0.5,
+      "price": [
+        12,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Poke%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Poke%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Poke%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cubed raw fish with soy and seaweed.",
+        "Hawaiian staple."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Grocery counters are great.",
+        "Try ahi shoyu."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Hawaiian",
+      "mustOrder": [
+        "Ahi poke"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "maui-mau-shaveice",
+      "name": "Shave ice",
+      "kind": "eat",
+      "lat": 20.76,
+      "lon": -156.45,
+      "wiki": "Shave ice",
+      "summary": "Fluffy ice with tropical syrups.",
+      "expect": "Afternoons.",
+      "tip": "Add ice cream base.",
+      "area": "Kihei",
+      "duration": 0.3,
+      "price": [
+        6,
+        10
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Shave%20ice%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Shave%20ice%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Shave%20ice%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fluffy ice with tropical syrups.",
+        "Island treat."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Afternoons.",
+        "Add ice cream base."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Hawaiian",
+      "mustOrder": [
+        "Shave ice"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "maui-mau-platelunch",
+      "name": "Plate lunch",
+      "kind": "eat",
+      "lat": 20.88,
+      "lon": -156.46,
+      "wiki": "Plate lunch",
+      "summary": "Rice, mac salad and kalua pork.",
+      "expect": "Cheap and filling.",
+      "tip": "Order kalua pig.",
+      "area": "Kahului",
+      "duration": 0.5,
+      "price": [
+        12,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Plate%20lunch%2C%20Maui",
+        "https://www.google.com/maps/search/?api=1&query=Plate%20lunch%2C%20Maui"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Plate%20lunch%2C%20Maui"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Rice, mac salad and kalua pork.",
+        "Local lunch."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Cheap and filling.",
+        "Order kalua pig."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Hawaiian",
+      "mustOrder": [
+        "Kalua pig plate"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
