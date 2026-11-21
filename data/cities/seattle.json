@@ -1,0 +1,578 @@
+{
+  "id": "seattle",
+  "name": "Seattle",
+  "country": "United States",
+  "region": "North America",
+  "lat": 47.6062,
+  "lon": -122.3321,
+  "wiki": "Seattle",
+  "tagline": "Pike Place, the Space Needle and mountain views",
+  "summary": "A green, waterfront city between Puget Sound and the Cascade mountains. See the fish fly at Pike Place Market, ride up the Space Needle, take a ferry across the Sound, and on clear days look up at Mount Rainier.",
+  "days": 3,
+  "bestMonths": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "July to September is dry and sunny, the peak season. The rest of the year is mild and often drizzly.",
+  "arrival": "Sea-Tac Airport is 40 minutes from Downtown on the Link light rail.",
+  "gettingAround": "Light rail, buses and the monorail; Downtown is walkable but hilly.",
+  "cashTip": "Cards work everywhere.",
+  "dailyBudget": [
+    150,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    15,
+    50
+  ],
+  "foodTip": "Fresh salmon and Dungeness crab, oysters, teriyaki, and coffee everywhere.",
+  "buyTip": "Smoked salmon from Pike Place, local coffee and outdoor gear.",
+  "baseArea": "Downtown or Belltown near Pike Place",
+  "connections": [
+    {
+      "to": "vancouver",
+      "mode": "Train",
+      "minutes": 240,
+      "note": "Amtrak Cascades."
+    },
+    {
+      "to": "san-francisco",
+      "mode": "Flight",
+      "minutes": 120
+    },
+    {
+      "to": "los-angeles",
+      "mode": "Flight",
+      "minutes": 165
+    }
+  ],
+  "sources": [
+    {
+      "title": "Seattle on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Seattle",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Seattle%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Seattle%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Pike Place Market",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "seattle-seattle-pike-place",
+      "name": "Pike Place Market",
+      "kind": "see",
+      "lat": 47.6097,
+      "lon": -122.3422,
+      "wiki": "Pike Place Market",
+      "summary": "A 1907 waterfront market of fish throwers, flower stalls, bakeries and the gum wall.",
+      "expect": "Busy at midday; quieter at 8am.",
+      "tip": "Come early to see the fish being thrown and eat your way through.",
+      "area": "Downtown",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Pike%20Place%20Market%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Pike%20Place%20Market%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Pike%20Place%20Market%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A 1907 waterfront market of fish throwers, flower stalls, bakeries and the gum wall.",
+        "Seattle's beating heart."
+      ],
+      "visitFlow": [
+        "Main arcade.",
+        "Lower levels and the gum wall."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Busy at midday; quieter at 8am.",
+        "Come early to see the fish being thrown and eat your way through."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seattle-seattle-space-needle",
+      "name": "Space Needle",
+      "kind": "see",
+      "lat": 47.6205,
+      "lon": -122.3493,
+      "wiki": "Space Needle",
+      "summary": "The 1962 World's Fair tower with a revolving glass floor and views of mountains and the Sound.",
+      "expect": "Timed tickets.",
+      "tip": "Buy a combo ticket with Chihuly Garden and Glass next door.",
+      "area": "Seattle Center",
+      "duration": 1.5,
+      "price": [
+        35,
+        45
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset on a clear day",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Space%20Needle%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Space%20Needle%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Space%20Needle%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The 1962 World's Fair tower with a revolving glass floor and views of mountains and the Sound.",
+        "Seattle's icon."
+      ],
+      "visitFlow": [
+        "Lift to the top.",
+        "Glass floor."
+      ],
+      "bestFor": "Visitors interested in big views and architecture and design",
+      "tradeoffs": [
+        "Timed tickets.",
+        "Buy a combo ticket with Chihuly Garden and Glass next door."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seattle-seattle-chihuly",
+      "name": "Chihuly Garden and Glass",
+      "kind": "see",
+      "lat": 47.6206,
+      "lon": -122.3505,
+      "wiki": "Chihuly Garden and Glass",
+      "summary": "Dale Chihuly's glass sculptures in galleries, a glasshouse and a garden.",
+      "expect": "About an hour; magical in evening light.",
+      "tip": "Visit at dusk when the garden glows.",
+      "area": "Seattle Center",
+      "duration": 1.5,
+      "price": [
+        35,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Dusk",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chihuly%20Garden%20and%20Glass%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Chihuly%20Garden%20and%20Glass%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chihuly%20Garden%20and%20Glass%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Dale Chihuly's glass sculptures in galleries, a glasshouse and a garden.",
+        "Glass art like nowhere else."
+      ],
+      "visitFlow": [
+        "Galleries.",
+        "Glasshouse and garden."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "About an hour; magical in evening light.",
+        "Visit at dusk when the garden glows."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seattle-seattle-kerry-park",
+      "name": "Kerry Park",
+      "kind": "see",
+      "lat": 47.6295,
+      "lon": -122.3599,
+      "wiki": "Kerry Park (Seattle)",
+      "summary": "A small hillside park with the classic view of the skyline, the Space Needle and Mount Rainier.",
+      "expect": "Crowded at sunset.",
+      "tip": "Come on a clear evening for Rainier glowing behind the city.",
+      "area": "Queen Anne",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 4,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kerry%20Park%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Kerry%20Park%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Kerry%20Park%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A small hillside park with the classic view of the skyline, the Space Needle and Mount Rainier.",
+        "The postcard view of Seattle."
+      ],
+      "visitFlow": [
+        "Bus or walk up Queen Anne Hill.",
+        "Watch the sunset."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Crowded at sunset.",
+        "Come on a clear evening for Rainier glowing behind the city."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seattle-seattle-mopop",
+      "name": "Museum of Pop Culture",
+      "kind": "see",
+      "lat": 47.6214,
+      "lon": -122.3481,
+      "wiki": "Museum of Pop Culture",
+      "summary": "A Frank Gehry building with galleries on Jimi Hendrix, Nirvana, science fiction and games.",
+      "expect": "Interactive; allow two hours.",
+      "tip": "Play instruments in the Sound Lab.",
+      "area": "Seattle Center",
+      "duration": 2,
+      "price": [
+        30,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 5,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Museum%20of%20Pop%20Culture%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Pop%20Culture%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Museum%20of%20Pop%20Culture%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "Art"
+      ],
+      "whyVisit": [
+        "A Frank Gehry building with galleries on Jimi Hendrix, Nirvana, science fiction and games.",
+        "Seattle's music story."
+      ],
+      "visitFlow": [
+        "Nirvana and Hendrix galleries.",
+        "Sound Lab."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and art and craft",
+      "tradeoffs": [
+        "Interactive; allow two hours.",
+        "Play instruments in the Sound Lab."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seattle-seattle-bainbridge-ferry",
+      "name": "Bainbridge Island ferry",
+      "kind": "see",
+      "lat": 47.6026,
+      "lon": -122.3393,
+      "wiki": "Washington State Ferries",
+      "summary": "A 35-minute ferry across Puget Sound with skyline and mountain views.",
+      "expect": "Pay only on the way out.",
+      "tip": "Ride at sunset and stay on deck.",
+      "area": "Colman Dock",
+      "duration": 3,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 6,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bainbridge%20Island%20ferry%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Bainbridge%20Island%20ferry%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bainbridge%20Island%20ferry%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A 35-minute ferry across Puget Sound with skyline and mountain views.",
+        "The best skyline view, from the water."
+      ],
+      "visitFlow": [
+        "Board at Colman Dock.",
+        "Walk Winslow, then return."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Pay only on the way out.",
+        "Ride at sunset and stay on deck."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "seattle-seattle-mount-rainier",
+      "name": "Mount Rainier National Park",
+      "kind": "see",
+      "lat": 46.786,
+      "lon": -121.735,
+      "wiki": "Mount Rainier National Park",
+      "summary": "The glacier-covered volcano that towers over Seattle, with wildflower meadows at Paradise.",
+      "expect": "About 2.5 hours each way; roads close in winter; timed entry in summer.",
+      "tip": "Hike the Skyline Trail in late July for wildflowers.",
+      "area": "Paradise",
+      "duration": 10,
+      "price": [
+        30,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late July to September",
+      "reservation": "Usually not needed",
+      "priority": 7,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mount%20Rainier%20National%20Park%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Mount%20Rainier%20National%20Park%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mount%20Rainier%20National%20Park%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "The glacier-covered volcano that towers over Seattle, with wildflower meadows at Paradise.",
+        "One of America's great mountains."
+      ],
+      "visitFlow": [
+        "Drive to Paradise.",
+        "Hike a meadow loop."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "About 2.5 hours each way; roads close in winter; timed entry in summer.",
+        "Hike the Skyline Trail in late July for wildflowers."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "seattle-seattle-pike-place-food",
+      "name": "Pike Place food stalls",
+      "kind": "eat",
+      "lat": 47.609,
+      "lon": -122.3415,
+      "wiki": "Pike Place Market",
+      "summary": "Chowder, piroshky, fresh crab and doughnuts from stalls around the market.",
+      "expect": "Queues at lunch.",
+      "tip": "Share a crab cocktail, a chowder and a piroshky.",
+      "area": "Pike Place",
+      "duration": 1,
+      "price": [
+        15,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Pike%20Place%20food%20stalls%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Pike%20Place%20food%20stalls%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Pike%20Place%20food%20stalls%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Chowder, piroshky, fresh crab and doughnuts from stalls around the market.",
+        "Seattle's best grazing."
+      ],
+      "visitFlow": [
+        "Walk the stalls.",
+        "Eat on the waterfront steps."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Queues at lunch.",
+        "Share a crab cocktail, a chowder and a piroshky."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood and snacks",
+      "mustOrder": [
+        "Clam chowder",
+        "Dungeness crab",
+        "Piroshky"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "seattle-seattle-ivars",
+      "name": "Ivar's Acres of Clams",
+      "kind": "eat",
+      "lat": 47.604,
+      "lon": -122.339,
+      "wiki": "Ivar's",
+      "summary": "A waterfront seafood institution since 1938, famous for fish and chips and clam chowder.",
+      "expect": "Casual; feed the gulls outside.",
+      "tip": "Order the cod and chips at the outdoor counter.",
+      "area": "Waterfront",
+      "duration": 1,
+      "price": [
+        15,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ivar's%20Acres%20of%20Clams%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Ivar's%20Acres%20of%20Clams%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ivar's%20Acres%20of%20Clams%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A waterfront seafood institution since 1938, famous for fish and chips and clam chowder.",
+        "A Seattle classic."
+      ],
+      "visitFlow": [
+        "Outdoor counter or dining room.",
+        "Watch the ferries."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Casual; feed the gulls outside.",
+        "Order the cod and chips at the outdoor counter."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Fish and chips",
+        "Clam chowder"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "seattle-seattle-coffee",
+      "name": "Coffee in Capitol Hill",
+      "kind": "eat",
+      "lat": 47.6145,
+      "lon": -122.32,
+      "wiki": "Coffee in Seattle",
+      "summary": "The neighbourhood where Seattle's coffee culture runs deepest, with roasters and cafés on every block.",
+      "expect": "Laid-back; laptop crowds.",
+      "tip": "Visit the Starbucks Reserve Roastery and an independent roaster.",
+      "area": "Capitol Hill",
+      "duration": 1.5,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Coffee%20in%20Capitol%20Hill%2C%20Seattle",
+        "https://www.google.com/maps/search/?api=1&query=Coffee%20in%20Capitol%20Hill%2C%20Seattle"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Coffee%20in%20Capitol%20Hill%2C%20Seattle"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "The neighbourhood where Seattle's coffee culture runs deepest, with roasters and cafés on every block.",
+        "The city that made coffee culture global."
+      ],
+      "visitFlow": [
+        "Walk Pike and Pine.",
+        "Coffee crawl."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Laid-back; laptop crowds.",
+        "Visit the Starbucks Reserve Roastery and an independent roaster."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Coffee",
+      "mustOrder": [
+        "Espresso",
+        "Pour-over",
+        "Pastry"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

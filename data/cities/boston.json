@@ -1,0 +1,579 @@
+{
+  "id": "boston",
+  "name": "Boston",
+  "country": "United States",
+  "region": "North America",
+  "lat": 42.3601,
+  "lon": -71.0589,
+  "wiki": "Boston",
+  "tagline": "Revolutionary history, seafood and autumn colour",
+  "summary": "One of America's oldest cities, where the Revolution began. Walk the Freedom Trail through red-brick streets, see world-class art, catch a game at Fenway, cross the river to Harvard, and eat lobster rolls and clam chowder by the harbour.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Late spring and autumn are best; October's foliage is peak season across New England. Winters are cold and snowy; July and August are warm and busy.",
+  "arrival": "Logan Airport is 10 minutes from Downtown by the Silver Line bus or Blue Line; Amtrak arrives at South Station.",
+  "gettingAround": "Compact and walkable; the 'T' subway reaches Cambridge and Fenway.",
+  "cashTip": "Cards work everywhere.",
+  "dailyBudget": [
+    150,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    15,
+    50
+  ],
+  "foodTip": "Lobster rolls, clam chowder and oysters, cannoli in the Italian North End.",
+  "buyTip": "Harvard and Red Sox merchandise, and the shops of Newbury Street.",
+  "baseArea": "Back Bay or Beacon Hill",
+  "connections": [
+    {
+      "to": "new-york",
+      "mode": "Train",
+      "minutes": 240,
+      "note": "Amtrak Acela."
+    },
+    {
+      "to": "washington-dc",
+      "mode": "Flight",
+      "minutes": 90
+    },
+    {
+      "to": "chicago",
+      "mode": "Flight",
+      "minutes": 150
+    }
+  ],
+  "sources": [
+    {
+      "title": "Boston on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boston",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Boston%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Boston%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Freedom Trail",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "boston-boston-freedom-trail",
+      "name": "Freedom Trail",
+      "kind": "see",
+      "lat": 42.3554,
+      "lon": -71.064,
+      "wiki": "Freedom Trail",
+      "summary": "A 4 km red-brick line past 16 sites of the American Revolution, from Boston Common to the USS Constitution.",
+      "expect": "Free to walk; some sites charge.",
+      "tip": "Join a costumed guide for the first half, then explore on your own.",
+      "area": "Downtown to Charlestown",
+      "duration": 3,
+      "price": [
+        0,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Freedom%20Trail%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Freedom%20Trail%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Freedom%20Trail%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "A 4 km red-brick line past 16 sites of the American Revolution, from Boston Common to the USS Constitution.",
+        "The best introduction to Boston."
+      ],
+      "visitFlow": [
+        "Start at Boston Common.",
+        "Follow the line to Bunker Hill."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free to walk; some sites charge.",
+        "Join a costumed guide for the first half, then explore on your own."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boston-boston-mfa",
+      "name": "Museum of Fine Arts",
+      "kind": "see",
+      "lat": 42.3394,
+      "lon": -71.094,
+      "wiki": "Museum of Fine Arts, Boston",
+      "summary": "One of America's great art museums, with Impressionists, Egyptian art and American masters.",
+      "expect": "Allow half a day.",
+      "tip": "Pair it with the Gardner Museum nearby.",
+      "area": "Fenway",
+      "duration": 3,
+      "price": [
+        27,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Museum%20of%20Fine%20Arts%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Fine%20Arts%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Museum%20of%20Fine%20Arts%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "One of America's great art museums, with Impressionists, Egyptian art and American masters.",
+        "World-class art in every gallery."
+      ],
+      "visitFlow": [
+        "Art of the Americas.",
+        "Impressionists."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Allow half a day.",
+        "Pair it with the Gardner Museum nearby."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boston-boston-gardner",
+      "name": "Isabella Stewart Gardner Museum",
+      "kind": "see",
+      "lat": 42.3382,
+      "lon": -71.0991,
+      "wiki": "Isabella Stewart Gardner Museum",
+      "summary": "A Venetian-style palace around a flowering courtyard, filled with art, and the scene of the world's biggest art theft.",
+      "expect": "Timed entry; closed Tuesdays.",
+      "tip": "Look for the empty frames from the 1990 theft.",
+      "area": "Fenway",
+      "duration": 1.5,
+      "price": [
+        22,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Isabella%20Stewart%20Gardner%20Museum%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Isabella%20Stewart%20Gardner%20Museum%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Isabella%20Stewart%20Gardner%20Museum%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A Venetian-style palace around a flowering courtyard, filled with art, and the scene of the world's biggest art theft.",
+        "The most atmospheric museum in the US."
+      ],
+      "visitFlow": [
+        "The courtyard.",
+        "Galleries upstairs."
+      ],
+      "bestFor": "Visitors interested in art and craft and architecture and design",
+      "tradeoffs": [
+        "Timed entry; closed Tuesdays.",
+        "Look for the empty frames from the 1990 theft."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boston-boston-harvard",
+      "name": "Harvard Yard and Cambridge",
+      "kind": "see",
+      "lat": 42.3744,
+      "lon": -71.1169,
+      "wiki": "Harvard Yard",
+      "summary": "The leafy heart of America's oldest university, with bookshops and cafés around Harvard Square.",
+      "expect": "Student-led tours run daily.",
+      "tip": "Take a student tour and rub John Harvard's shoe.",
+      "area": "Cambridge",
+      "duration": 2,
+      "price": [
+        0,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 4,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Harvard%20Yard%20and%20Cambridge%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Harvard%20Yard%20and%20Cambridge%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Harvard%20Yard%20and%20Cambridge%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The leafy heart of America's oldest university, with bookshops and cafés around Harvard Square.",
+        "The most famous campus in the world."
+      ],
+      "visitFlow": [
+        "Red Line to Harvard.",
+        "Yard, then the square."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Student-led tours run daily.",
+        "Take a student tour and rub John Harvard's shoe."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boston-boston-fenway",
+      "name": "Fenway Park",
+      "kind": "see",
+      "lat": 42.3467,
+      "lon": -71.0972,
+      "wiki": "Fenway Park",
+      "summary": "The Red Sox's 1912 ballpark with the Green Monster wall, the oldest in Major League Baseball.",
+      "expect": "Season April to October; tours year-round.",
+      "tip": "Catch a night game or the tour.",
+      "area": "Fenway",
+      "duration": 3.5,
+      "price": [
+        25,
+        150
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Summer evening",
+      "reservation": "Usually not needed",
+      "priority": 5,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fenway%20Park%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Fenway%20Park%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fenway%20Park%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "History"
+      ],
+      "whyVisit": [
+        "The Red Sox's 1912 ballpark with the Green Monster wall, the oldest in Major League Baseball.",
+        "Baseball's most loved ballpark."
+      ],
+      "visitFlow": [
+        "Green Line to Kenmore.",
+        "Game or tour."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and history and context",
+      "tradeoffs": [
+        "Season April to October; tours year-round.",
+        "Catch a night game or the tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boston-boston-beacon-hill",
+      "name": "Beacon Hill",
+      "kind": "see",
+      "lat": 42.3588,
+      "lon": -71.0707,
+      "wiki": "Beacon Hill, Boston",
+      "summary": "Gas-lit cobbled lanes of brick townhouses, including picture-perfect Acorn Street.",
+      "expect": "Residential; quiet.",
+      "tip": "Walk Acorn Street early, then Charles Street's cafés.",
+      "area": "Beacon Hill",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 6,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Beacon%20Hill%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Beacon%20Hill%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Beacon%20Hill%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "Gas-lit cobbled lanes of brick townhouses, including picture-perfect Acorn Street.",
+        "Boston's prettiest neighbourhood."
+      ],
+      "visitFlow": [
+        "State House.",
+        "Acorn Street, then Charles Street."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Residential; quiet.",
+        "Walk Acorn Street early, then Charles Street's cafés."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boston-boston-salem",
+      "name": "Salem",
+      "kind": "see",
+      "lat": 42.5195,
+      "lon": -70.8967,
+      "wiki": "Salem, Massachusetts",
+      "summary": "The town of the 1692 witch trials, with a maritime museum and old houses.",
+      "expect": "Very busy in October.",
+      "tip": "See the Peabody Essex Museum and the House of the Seven Gables.",
+      "area": "Salem",
+      "duration": 6,
+      "price": [
+        0,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Autumn weekday",
+      "reservation": "Usually not needed",
+      "priority": 7,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salem%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Salem%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salem%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The town of the 1692 witch trials, with a maritime museum and old houses.",
+        "A dark and fascinating piece of American history."
+      ],
+      "visitFlow": [
+        "Train or ferry from Boston.",
+        "Witch trials memorial and museums."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Very busy in October.",
+        "See the Peabody Essex Museum and the House of the Seven Gables."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "boston-boston-lobster-rolls",
+      "name": "Lobster rolls and oysters",
+      "kind": "eat",
+      "lat": 42.3634,
+      "lon": -71.0559,
+      "wiki": "Lobster roll",
+      "summary": "Buttered or mayo lobster rolls and raw oysters in the North End and harbour seafood shacks.",
+      "expect": "Expensive; queues at the best spots.",
+      "tip": "Try one hot with butter and one cold with mayo.",
+      "area": "North End",
+      "duration": 1,
+      "price": [
+        30,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lobster%20rolls%20and%20oysters%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Lobster%20rolls%20and%20oysters%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lobster%20rolls%20and%20oysters%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Buttered or mayo lobster rolls and raw oysters in the North End and harbour seafood shacks.",
+        "New England's signature seafood."
+      ],
+      "visitFlow": [
+        "Queue early.",
+        "Order rolls and chowder."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Expensive; queues at the best spots.",
+        "Try one hot with butter and one cold with mayo."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Lobster roll",
+        "Oysters",
+        "Clam chowder"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "boston-boston-union-oyster-house",
+      "name": "Union Oyster House",
+      "kind": "eat",
+      "lat": 42.3612,
+      "lon": -71.0569,
+      "wiki": "Union Oyster House",
+      "summary": "The oldest restaurant in the United States, serving chowder and oysters since 1826.",
+      "expect": "Historic, touristy and busy.",
+      "tip": "Sit at the oyster bar.",
+      "area": "Faneuil Hall",
+      "duration": 1,
+      "price": [
+        30,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Union%20Oyster%20House%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=Union%20Oyster%20House%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Union%20Oyster%20House%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "The oldest restaurant in the United States, serving chowder and oysters since 1826.",
+        "Dining in history."
+      ],
+      "visitFlow": [
+        "Oyster bar.",
+        "Chowder."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "Historic, touristy and busy.",
+        "Sit at the oyster bar."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "New England",
+      "mustOrder": [
+        "Oysters",
+        "Clam chowder",
+        "Scrod"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "boston-boston-north-end-pastry",
+      "name": "North End pastry shops",
+      "kind": "eat",
+      "lat": 42.364,
+      "lon": -71.0545,
+      "wiki": "North End, Boston",
+      "summary": "The Italian quarter's bakeries, famous for cannoli and sfogliatelle.",
+      "expect": "Queues out the door at the famous ones.",
+      "tip": "Compare a cannoli from two rival bakeries on Hanover Street.",
+      "area": "North End",
+      "duration": 0.5,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=North%20End%20pastry%20shops%2C%20Boston",
+        "https://www.google.com/maps/search/?api=1&query=North%20End%20pastry%20shops%2C%20Boston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=North%20End%20pastry%20shops%2C%20Boston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "The Italian quarter's bakeries, famous for cannoli and sfogliatelle.",
+        "Boston's sweetest tradition."
+      ],
+      "visitFlow": [
+        "Walk Hanover Street.",
+        "Cannoli to go."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Queues out the door at the famous ones.",
+        "Compare a cannoli from two rival bakeries on Hanover Street."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Italian pastry",
+      "mustOrder": [
+        "Cannoli",
+        "Sfogliatella",
+        "Espresso"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

@@ -1,0 +1,580 @@
+{
+  "id": "san-diego",
+  "name": "San Diego",
+  "country": "United States",
+  "region": "North America",
+  "lat": 32.7157,
+  "lon": -117.1611,
+  "wiki": "San Diego",
+  "tagline": "Beaches, Balboa Park and endless sunshine",
+  "summary": "California's sunniest big city, with 110 km of beaches, the gardens and museums of Balboa Park, one of the world's best zoos, sea lions at La Jolla and fish tacos everywhere.",
+  "days": 3,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+  ],
+  "seasonNote": "Mild all year. 'May gray' and 'June gloom' bring cloudy mornings; July to September is warmest and busiest.",
+  "arrival": "San Diego International Airport is 10 minutes from Downtown; Amtrak's Pacific Surfliner runs along the coast from Los Angeles.",
+  "gettingAround": "The trolley covers Downtown, Old Town and the border; rent a car or bike for the beaches.",
+  "cashTip": "Cards work everywhere.",
+  "dailyBudget": [
+    140,
+    400
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    15,
+    50
+  ],
+  "foodTip": "Fish tacos, California burritos, craft beer and Mexican food in Old Town and Barrio Logan.",
+  "buyTip": "Surfwear and local craft beer.",
+  "baseArea": "Gaslamp Quarter or Little Italy for the city; La Jolla or Pacific Beach for the coast",
+  "connections": [
+    {
+      "to": "los-angeles",
+      "mode": "Train",
+      "minutes": 180,
+      "note": "Amtrak Pacific Surfliner along the coast."
+    },
+    {
+      "to": "las-vegas",
+      "mode": "Flight",
+      "minutes": 70
+    },
+    {
+      "to": "san-francisco",
+      "mode": "Flight",
+      "minutes": 95
+    }
+  ],
+  "sources": [
+    {
+      "title": "San Diego on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/San_Diego",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=San%20Diego%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=San%20Diego%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Balboa Park",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "san-diego-san-diego-balboa-park",
+      "name": "Balboa Park",
+      "kind": "see",
+      "lat": 32.7341,
+      "lon": -117.1446,
+      "wiki": "Balboa Park (San Diego)",
+      "summary": "A huge park of Spanish Revival buildings, gardens and 17 museums.",
+      "expect": "Gardens are free; museums charge.",
+      "tip": "See the Botanical Building and the Japanese Friendship Garden.",
+      "area": "Balboa Park",
+      "duration": 3,
+      "price": [
+        0,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Balboa%20Park%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=Balboa%20Park%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Balboa%20Park%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Art",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A huge park of Spanish Revival buildings, gardens and 17 museums.",
+        "One of America's great urban parks."
+      ],
+      "visitFlow": [
+        "El Prado walkway.",
+        "Pick two museums."
+      ],
+      "bestFor": "Visitors interested in architecture and design and art and craft",
+      "tradeoffs": [
+        "Gardens are free; museums charge.",
+        "See the Botanical Building and the Japanese Friendship Garden."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "san-diego-san-diego-zoo",
+      "name": "San Diego Zoo",
+      "kind": "see",
+      "lat": 32.7353,
+      "lon": -117.149,
+      "wiki": "San Diego Zoo",
+      "summary": "A world-famous zoo in canyons inside Balboa Park.",
+      "expect": "Hilly; use the Skyfari aerial tram.",
+      "tip": "Ride the guided bus tour first to get your bearings.",
+      "area": "Balboa Park",
+      "duration": 5,
+      "price": [
+        70,
+        80
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=San%20Diego%20Zoo%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=San%20Diego%20Zoo%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=San%20Diego%20Zoo%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "A world-famous zoo in canyons inside Balboa Park.",
+        "One of the best zoos in the world."
+      ],
+      "visitFlow": [
+        "Guided bus tour.",
+        "Walk the canyons."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and shows and nightlife",
+      "tradeoffs": [
+        "Hilly; use the Skyfari aerial tram.",
+        "Ride the guided bus tour first to get your bearings."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "san-diego-san-diego-la-jolla",
+      "name": "La Jolla Cove",
+      "kind": "see",
+      "lat": 32.8503,
+      "lon": -117.2716,
+      "wiki": "La Jolla Cove",
+      "summary": "A small cove of sea lions, seals and tide pools below a clifftop village.",
+      "expect": "Do not touch the sea lions; it can smell strong.",
+      "tip": "Kayak the sea caves in the morning.",
+      "area": "La Jolla",
+      "duration": 3,
+      "price": [
+        0,
+        80
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=La%20Jolla%20Cove%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=La%20Jolla%20Cove%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=La%20Jolla%20Cove%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "A small cove of sea lions, seals and tide pools below a clifftop village.",
+        "Wild sea life in the middle of town."
+      ],
+      "visitFlow": [
+        "Walk the coastal path.",
+        "Kayak or snorkel."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Do not touch the sea lions; it can smell strong.",
+        "Kayak the sea caves in the morning."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "san-diego-san-diego-midway",
+      "name": "USS Midway Museum",
+      "kind": "see",
+      "lat": 32.7137,
+      "lon": -117.1751,
+      "wiki": "USS Midway Museum",
+      "summary": "A huge aircraft carrier turned museum, with planes on the flight deck and veteran guides.",
+      "expect": "Allow three hours.",
+      "tip": "Talk to the docents, many of whom served on carriers.",
+      "area": "Embarcadero",
+      "duration": 3,
+      "price": [
+        35,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 4,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=USS%20Midway%20Museum%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=USS%20Midway%20Museum%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=USS%20Midway%20Museum%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Technology"
+      ],
+      "whyVisit": [
+        "A huge aircraft carrier turned museum, with planes on the flight deck and veteran guides.",
+        "The most popular museum in San Diego."
+      ],
+      "visitFlow": [
+        "Hangar deck.",
+        "Flight deck and island tour."
+      ],
+      "bestFor": "Visitors interested in history and context and science and technology",
+      "tradeoffs": [
+        "Allow three hours.",
+        "Talk to the docents, many of whom served on carriers."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "san-diego-san-diego-old-town",
+      "name": "Old Town San Diego",
+      "kind": "see",
+      "lat": 32.7549,
+      "lon": -117.1979,
+      "wiki": "Old Town San Diego State Historic Park",
+      "summary": "The site of California's first European settlement, with adobe buildings, museums and Mexican restaurants.",
+      "expect": "Free state park; touristy shops around.",
+      "tip": "Stay for dinner and margaritas.",
+      "area": "Old Town",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 5,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Old%20Town%20San%20Diego%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=Old%20Town%20San%20Diego%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Old%20Town%20San%20Diego%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The site of California's first European settlement, with adobe buildings, museums and Mexican restaurants.",
+        "The birthplace of California."
+      ],
+      "visitFlow": [
+        "Historic buildings.",
+        "Dinner nearby."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free state park; touristy shops around.",
+        "Stay for dinner and margaritas."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "san-diego-san-diego-coronado",
+      "name": "Coronado and Hotel del Coronado",
+      "kind": "see",
+      "lat": 32.6859,
+      "lon": -117.1831,
+      "wiki": "Hotel del Coronado",
+      "summary": "A wide sparkling beach in front of the red-roofed 1888 Victorian resort.",
+      "expect": "Ferry or bridge from Downtown.",
+      "tip": "Take the ferry and rent bikes on the island.",
+      "area": "Coronado",
+      "duration": 3,
+      "price": [
+        0,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 6,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Coronado%20and%20Hotel%20del%20Coronado%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=Coronado%20and%20Hotel%20del%20Coronado%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Coronado%20and%20Hotel%20del%20Coronado%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A wide sparkling beach in front of the red-roofed 1888 Victorian resort.",
+        "One of America's best beaches."
+      ],
+      "visitFlow": [
+        "Ferry from Broadway Pier.",
+        "Bike to the hotel and beach."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and architecture and design",
+      "tradeoffs": [
+        "Ferry or bridge from Downtown.",
+        "Take the ferry and rent bikes on the island."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "san-diego-san-diego-torrey-pines",
+      "name": "Torrey Pines",
+      "kind": "see",
+      "lat": 32.92,
+      "lon": -117.253,
+      "wiki": "Torrey Pines State Natural Reserve",
+      "summary": "Clifftop trails among rare pines with views over the Pacific, down to a wild beach.",
+      "expect": "Parking fills early; no food in the reserve.",
+      "tip": "Hike the Guy Fleming Trail, then the Beach Trail down to the sand.",
+      "area": "North of La Jolla",
+      "duration": 2.5,
+      "price": [
+        15,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 7,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Torrey%20Pines%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=Torrey%20Pines%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Torrey%20Pines%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Clifftop trails among rare pines with views over the Pacific, down to a wild beach.",
+        "San Diego's most beautiful coast."
+      ],
+      "visitFlow": [
+        "Park at the beach lot.",
+        "Climb to the trails."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Parking fills early; no food in the reserve.",
+        "Hike the Guy Fleming Trail, then the Beach Trail down to the sand."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "san-diego-san-diego-fish-tacos",
+      "name": "Fish taco shops",
+      "kind": "eat",
+      "lat": 32.795,
+      "lon": -117.25,
+      "wiki": "Fish taco",
+      "summary": "Battered fish tacos with cabbage and crema, brought up from Baja and a local staple.",
+      "expect": "Casual taco shops by the beach.",
+      "tip": "Order one battered and one grilled.",
+      "area": "Pacific Beach and around",
+      "duration": 0.5,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fish%20taco%20shops%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=Fish%20taco%20shops%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fish%20taco%20shops%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Battered fish tacos with cabbage and crema, brought up from Baja and a local staple.",
+        "San Diego's signature food."
+      ],
+      "visitFlow": [
+        "Find a beach taco shop.",
+        "Eat by the sea."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Casual taco shops by the beach.",
+        "Order one battered and one grilled."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Baja Mexican",
+      "mustOrder": [
+        "Fish taco",
+        "California burrito",
+        "Horchata"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "san-diego-san-diego-liberty-market",
+      "name": "Liberty Public Market",
+      "kind": "eat",
+      "lat": 32.7395,
+      "lon": -117.21,
+      "wiki": "Liberty Station",
+      "summary": "A food hall in a former naval training centre, with dozens of local vendors.",
+      "expect": "Busy at weekends.",
+      "tip": "Share plates from several stalls.",
+      "area": "Point Loma",
+      "duration": 1,
+      "price": [
+        15,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Liberty%20Public%20Market%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=Liberty%20Public%20Market%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Liberty%20Public%20Market%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A food hall in a former naval training centre, with dozens of local vendors.",
+        "The city's food scene in one place."
+      ],
+      "visitFlow": [
+        "Walk the hall.",
+        "Pick a few vendors."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy at weekends.",
+        "Share plates from several stalls."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Food hall",
+      "mustOrder": [
+        "Tacos",
+        "Poke",
+        "Pastries"
+      ],
+      "dietary": {
+        "halal": "limited",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "san-diego-san-diego-breweries",
+      "name": "Craft breweries",
+      "kind": "eat",
+      "lat": 32.748,
+      "lon": -117.13,
+      "wiki": "Beer in San Diego County, California",
+      "summary": "San Diego has over 150 breweries; North Park has many within walking distance.",
+      "expect": "Taprooms with food trucks.",
+      "tip": "Order a flight to taste several.",
+      "area": "North Park",
+      "duration": 2,
+      "price": [
+        15,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Craft%20breweries%2C%20San%20Diego",
+        "https://www.google.com/maps/search/?api=1&query=Craft%20breweries%2C%20San%20Diego"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Craft%20breweries%2C%20San%20Diego"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "San Diego has over 150 breweries; North Park has many within walking distance.",
+        "One of America's craft beer capitals."
+      ],
+      "visitFlow": [
+        "Walk 30th Street.",
+        "Brewery hop."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Taprooms with food trucks.",
+        "Order a flight to taste several."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Brewpub",
+      "mustOrder": [
+        "IPA flight",
+        "Tacos from the truck"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
