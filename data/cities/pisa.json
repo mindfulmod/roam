@@ -1,0 +1,528 @@
+{
+  "id": "pisa",
+  "name": "Pisa",
+  "country": "Italy",
+  "region": "Europe",
+  "lat": 43.7228,
+  "lon": 10.4017,
+  "wiki": "Pisa",
+  "tagline": "The Leaning Tower and a lively university town",
+  "summary": "Pisa is famous for its Leaning Tower, part of the white-marble Piazza dei Miracoli. Beyond the tower, it's a lively university town on the Arno with Renaissance squares and an easy base for Lucca and the Tuscan coast.",
+  "days": 1,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Busy with day-trippers in summer; book tower slots ahead.",
+  "arrival": "Pisa Airport is 5 minutes from the centre; trains from Florence take about an hour.",
+  "gettingAround": "Walk; the centre is small.",
+  "cashTip": "Cards work almost everywhere; keep coins for church lights and espresso bars.",
+  "dailyBudget": [
+    80,
+    200
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    15,
+    40
+  ],
+  "foodTip": "Cecina chickpea flatbread and Tuscan soups.",
+  "buyTip": "Leather from Florence-style shops and Tuscan wine.",
+  "baseArea": "Near the Arno",
+  "connections": [
+    {
+      "to": "florence",
+      "mode": "Train",
+      "minutes": 60,
+      "note": "Frequent trains."
+    },
+    {
+      "to": "cinque-terre",
+      "mode": "Train",
+      "minutes": 75,
+      "note": "Via La Spezia."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Pisa on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pisa",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Pisa%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Pisa%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Piazza dei Miracoli",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "pisa-psa-tower",
+      "name": "Leaning Tower",
+      "kind": "see",
+      "lat": 43.723,
+      "lon": 10.3966,
+      "wiki": "Leaning Tower of Pisa",
+      "summary": "Climb 251 steps up the famous tilted bell tower.",
+      "expect": "Timed slots; no bags.",
+      "tip": "Book online a few days ahead.",
+      "area": "Piazza dei Miracoli",
+      "duration": 1,
+      "price": [
+        20,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Leaning%20Tower%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Leaning%20Tower%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Leaning%20Tower%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint",
+        "History"
+      ],
+      "whyVisit": [
+        "Climb 251 steps up the famous tilted bell tower.",
+        "World icon."
+      ],
+      "visitFlow": [
+        "Pick up tickets.",
+        "Climb.",
+        "Bells at the top."
+      ],
+      "bestFor": "Visitors interested in architecture and design and big views",
+      "tradeoffs": [
+        "Timed slots; no bags.",
+        "Book online a few days ahead."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "pisa-psa-duomo",
+      "name": "Cathedral and Baptistery",
+      "kind": "see",
+      "lat": 43.7233,
+      "lon": 10.3955,
+      "wiki": "Pisa Cathedral",
+      "summary": "Romanesque cathedral and the largest baptistery in Italy, with a singing echo.",
+      "expect": "Combined tickets.",
+      "tip": "Wait for the baptistery echo demonstration.",
+      "area": "Piazza dei Miracoli",
+      "duration": 2,
+      "price": [
+        0,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cathedral%20and%20Baptistery%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Cathedral%20and%20Baptistery%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cathedral%20and%20Baptistery%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Romanesque cathedral and the largest baptistery in Italy, with a singing echo.",
+        "Masterpieces around the tower."
+      ],
+      "visitFlow": [
+        "Cathedral.",
+        "Baptistery.",
+        "Camposanto."
+      ],
+      "bestFor": "Visitors interested in architecture and design and sacred places",
+      "tradeoffs": [
+        "Combined tickets.",
+        "Wait for the baptistery echo demonstration."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "pisa-psa-camposanto",
+      "name": "Camposanto",
+      "kind": "see",
+      "lat": 43.7239,
+      "lon": 10.3947,
+      "wiki": "Camposanto Monumentale",
+      "summary": "A marble cloister cemetery with restored medieval frescoes.",
+      "expect": "Quiet compared to the square.",
+      "tip": "See the Triumph of Death fresco.",
+      "area": "Piazza dei Miracoli",
+      "duration": 1,
+      "price": [
+        7,
+        7
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Camposanto%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Camposanto%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Camposanto%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "A marble cloister cemetery with restored medieval frescoes.",
+        "Hidden gem."
+      ],
+      "visitFlow": [
+        "Cloister.",
+        "Frescoes."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "Quiet compared to the square.",
+        "See the Triumph of Death fresco."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "pisa-psa-cavalieri",
+      "name": "Piazza dei Cavalieri",
+      "kind": "see",
+      "lat": 43.7194,
+      "lon": 10.4004,
+      "wiki": "Piazza dei Cavalieri",
+      "summary": "A Renaissance square with the sgraffito palace of the Scuola Normale.",
+      "expect": "Student life all around.",
+      "tip": "Walk here from the tower.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Piazza%20dei%20Cavalieri%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Piazza%20dei%20Cavalieri%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Piazza%20dei%20Cavalieri%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "A Renaissance square with the sgraffito palace of the Scuola Normale.",
+        "Pisa's real centre."
+      ],
+      "visitFlow": [
+        "Palazzo della Carovana.",
+        "Church of Santo Stefano."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Student life all around.",
+        "Walk here from the tower."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "pisa-psa-arno",
+      "name": "Lungarno and Santa Maria della Spina",
+      "kind": "see",
+      "lat": 43.7146,
+      "lon": 10.3991,
+      "wiki": "Santa Maria della Spina",
+      "summary": "A tiny Gothic church on the river and pastel palazzi along the Arno.",
+      "expect": "Lovely at sunset.",
+      "tip": "Stroll at dusk.",
+      "area": "Arno",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lungarno%20and%20Santa%20Maria%20della%20Spina%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Lungarno%20and%20Santa%20Maria%20della%20Spina%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lungarno%20and%20Santa%20Maria%20della%20Spina%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A tiny Gothic church on the river and pastel palazzi along the Arno.",
+        "Pisa beyond the tower."
+      ],
+      "visitFlow": [
+        "Riverside walk.",
+        "Spina church."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Lovely at sunset.",
+        "Stroll at dusk."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "pisa-psa-lucca",
+      "name": "Lucca day trip",
+      "kind": "see",
+      "lat": 43.8429,
+      "lon": 10.5027,
+      "wiki": "Lucca",
+      "summary": "A walled town where you can cycle the tree-lined ramparts.",
+      "expect": "30 minutes by train.",
+      "tip": "Rent a bike for the walls.",
+      "area": "Lucca",
+      "duration": 5,
+      "price": [
+        0,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lucca%20day%20trip%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Lucca%20day%20trip%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lucca%20day%20trip%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A walled town where you can cycle the tree-lined ramparts.",
+        "Tuscany's gentlest town."
+      ],
+      "visitFlow": [
+        "Walls by bike.",
+        "Piazza dell'Anfiteatro.",
+        "Guinigi Tower."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "30 minutes by train.",
+        "Rent a bike for the walls."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "pisa-psa-cecina",
+      "name": "Cecina",
+      "kind": "eat",
+      "lat": 43.717,
+      "lon": 10.401,
+      "wiki": "Farinata",
+      "summary": "Thin chickpea-flour flatbread, eaten hot in a focaccia.",
+      "expect": "Pizzerias sell it by the slice.",
+      "tip": "Try 'cinque e cinque' style.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        3,
+        6
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cecina%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Cecina%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cecina%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Thin chickpea-flour flatbread, eaten hot in a focaccia.",
+        "Pisan street food."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Pizzerias sell it by the slice.",
+        "Try 'cinque e cinque' style."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Tuscan",
+      "mustOrder": [
+        "Cecina"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "pisa-psa-trattoria",
+      "name": "Tuscan trattorie",
+      "kind": "eat",
+      "lat": 43.716,
+      "lon": 10.401,
+      "wiki": "Tuscan cuisine",
+      "summary": "Ribollita, pici pasta and wild boar ragù.",
+      "expect": "Eat away from the tower.",
+      "tip": "Go south of the river.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tuscan%20trattorie%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Tuscan%20trattorie%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tuscan%20trattorie%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Ribollita, pici pasta and wild boar ragù.",
+        "Tuscan comfort food."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Eat away from the tower.",
+        "Go south of the river."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Tuscan",
+      "mustOrder": [
+        "Ribollita",
+        "Pici al cinghiale"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "pisa-psa-gelato",
+      "name": "Gelato",
+      "kind": "eat",
+      "lat": 43.717,
+      "lon": 10.402,
+      "wiki": "Gelato",
+      "summary": "Artisan gelato along the arcaded Borgo Stretto.",
+      "expect": "Look for natural colours.",
+      "tip": "Try pistachio.",
+      "area": "Borgo Stretto",
+      "duration": 0.3,
+      "price": [
+        3,
+        5
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Gelato%2C%20Pisa",
+        "https://www.google.com/maps/search/?api=1&query=Gelato%2C%20Pisa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Gelato%2C%20Pisa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Artisan gelato along the arcaded Borgo Stretto.",
+        "Italian treat."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Look for natural colours.",
+        "Try pistachio."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Italian",
+      "mustOrder": [
+        "Gelato"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

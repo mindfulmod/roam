@@ -1,0 +1,2656 @@
+[
+ {
+  "country": "Spain",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a little cash for beach bars and markets.",
+  "dailyBudget": [
+   70,
+   200
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "ibiza",
+  "name": "Ibiza",
+  "at": [
+   38.9089,
+   1.4329
+  ],
+  "wiki": "Ibiza",
+  "cover": "Dalt Vila",
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "Famous clubs, quiet coves and a walled old town",
+  "summary": "Ibiza is two islands in one: the world's most famous club scene and a gentle Mediterranean island of pine-backed coves, whitewashed villages and sunset bars. Its walled old town, Dalt Vila, is a UNESCO World Heritage Site.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Clubs open from late May to early October. July and August are hot, crowded and expensive; June and September are the sweet spot.",
+  "arrival": "Ibiza Airport is 15 minutes from Ibiza Town. Ferries run from Barcelona, Valencia, Dénia and Palma.",
+  "gettingAround": "Buses link the main towns and beaches; rent a car or scooter to reach the quieter coves.",
+  "foodTip": "Bullit de peix fish stew, arroz a banda and flaó cheesecake.",
+  "buyTip": "Hippy-market crafts at Las Dalias and Es Canar, and Ibiza salt.",
+  "baseArea": "Ibiza Town or Santa Eulària for calm; San Antonio for party",
+  "hotel": [
+   120,
+   450
+  ],
+  "connections": [
+   {
+    "to": "palma",
+    "mode": "Ferry",
+    "minutes": 240,
+    "note": "Daily ferries; faster in summer."
+   },
+   {
+    "to": "barcelona",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Many daily flights; overnight ferries too."
+   },
+   {
+    "to": "valencia",
+    "mode": "Ferry",
+    "minutes": 330,
+    "note": "Daily ferries."
+   }
+  ],
+  "items": [
+   {
+    "name": "Dalt Vila",
+    "kind": "see",
+    "id": "ibz-daltvila",
+    "at": [
+     38.9067,
+     1.4362
+    ],
+    "wiki": "Dalt Vila",
+    "area": "Ibiza Town",
+    "summary": "Renaissance walls wrapping a hilltop old town with a cathedral and sea views.",
+    "expect": "Steep cobbles; wear good shoes.",
+    "tip": "Walk up at golden hour.",
+    "why": "UNESCO-listed old town.",
+    "flow": [
+     "Enter by Portal de ses Taules.",
+     "Climb to the cathedral.",
+     "Bastion views."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Cala Comte sunset",
+    "kind": "see",
+    "id": "ibz-cala-comte",
+    "at": [
+     38.9637,
+     1.2219
+    ],
+    "wiki": "Cala Comte",
+    "area": "West coast",
+    "summary": "Turquoise shallows and rocky islets facing the island's best sunset.",
+    "expect": "Busy in summer; arrive early.",
+    "tip": "Bring a towel and stay for sunset.",
+    "why": "The classic Ibiza sunset.",
+    "flow": [
+     "Swim in the shallows.",
+     "Find a rock for sunset."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Es Vedrà viewpoint",
+    "kind": "see",
+    "id": "ibz-es-vedra",
+    "at": [
+     38.8728,
+     1.2132
+    ],
+    "wiki": "Es Vedrà",
+    "area": "Southwest",
+    "summary": "A towering limestone islet wrapped in myth, seen from the cliffs at Torre des Savinar.",
+    "expect": "A short hike from the car park.",
+    "tip": "Go for sunset.",
+    "why": "Ibiza's most mystical view.",
+    "flow": [
+     "Park near Cala d'Hort.",
+     "Walk to the tower.",
+     "Watch the sun drop behind Es Vedrà."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Ses Salines",
+    "kind": "see",
+    "id": "ibz-ses-salines",
+    "at": [
+     38.8417,
+     1.3856
+    ],
+    "wiki": "Ses Salines Natural Park",
+    "area": "South",
+    "summary": "Salt flats, flamingos and a long sandy beach in a protected park.",
+    "expect": "Beach clubs at one end; wild dunes at the other.",
+    "tip": "Walk to Es Cavallet for calmer sand.",
+    "why": "Nature and beach in one.",
+    "flow": [
+     "See the salt pans.",
+     "Swim at Ses Salines beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Superclubs",
+    "kind": "see",
+    "id": "ibz-clubs",
+    "at": [
+     38.8806,
+     1.4038
+    ],
+    "wiki": "Nightlife in Ibiza",
+    "area": "Playa d'en Bossa",
+    "summary": "World-famous clubs like Ushuaïa, Hï and Pacha with top DJs.",
+    "expect": "Tickets €50-120; nights run till dawn.",
+    "tip": "Book big nights ahead online.",
+    "why": "Why many come to Ibiza.",
+    "flow": [
+     "Open-air party at Ushuaïa.",
+     "Move on to Hï or Pacha."
+    ],
+    "hours": 6,
+    "price": [
+     50,
+     120
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Las Dalias hippy market",
+    "kind": "see",
+    "id": "ibz-las-dalias",
+    "at": [
+     39.0331,
+     1.5345
+    ],
+    "wiki": "Sant Carles de Peralta",
+    "area": "Sant Carles",
+    "summary": "Ibiza's hippy heritage: crafts, clothes and music, plus a night market in summer.",
+    "expect": "Saturdays all year; night market on summer evenings.",
+    "tip": "Combine with nearby Cala Llenya.",
+    "why": "The island's bohemian side.",
+    "flow": [
+     "Browse the stalls.",
+     "Live music."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Inland villages",
+    "kind": "see",
+    "id": "ibz-santa-gertrudis",
+    "at": [
+     38.9989,
+     1.4317
+    ],
+    "wiki": "Santa Gertrudis de Fruitera",
+    "area": "Interior",
+    "summary": "Whitewashed churches and village squares among almond and olive groves.",
+    "expect": "Slow pace; cafés on the square.",
+    "tip": "Lunch in Santa Gertrudis.",
+    "why": "The quiet Ibiza.",
+    "flow": [
+     "Santa Gertrudis church.",
+     "Sant Miquel fortress church."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Formentera day trip",
+    "kind": "see",
+    "id": "ibz-formentera",
+    "at": [
+     38.7071,
+     1.4378
+    ],
+    "wiki": "Formentera",
+    "area": "Formentera",
+    "summary": "A 30-minute ferry to Caribbean-clear water at Ses Illetes.",
+    "expect": "Ferries from Ibiza Town; rent a bike or scooter there.",
+    "tip": "Go early to beat the crowds.",
+    "why": "Some of Europe's clearest water.",
+    "flow": [
+     "Ferry to La Savina.",
+     "Ses Illetes beach."
+    ],
+    "hours": 8,
+    "price": [
+     40,
+     70
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Bullit de peix",
+    "kind": "eat",
+    "id": "ibz-bullit",
+    "at": [
+     38.8735,
+     1.2185
+    ],
+    "wiki": "Bullit de peix",
+    "area": "Seaside restaurants",
+    "venue": "food-area",
+    "summary": "Fish stewed with potatoes, then rice cooked in the broth.",
+    "expect": "Two courses from one pot.",
+    "tip": "Try it at a cove restaurant like Es Boldado.",
+    "why": "Ibiza's classic dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ibizan",
+    "order": [
+     "Bullit de peix",
+     "Arroz a banda"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Flaó",
+    "kind": "eat",
+    "id": "ibz-flao",
+    "at": [
+     38.9089,
+     1.4329
+    ],
+    "wiki": "Flaó",
+    "area": "Bakeries",
+    "venue": "food-area",
+    "summary": "A mint-scented cheesecake made with sheep's and goat's cheese.",
+    "expect": "Sold by the slice.",
+    "tip": "Pair with hierbas liqueur.",
+    "why": "A taste of the island.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ibizan",
+    "order": [
+     "Flaó"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Beach chiringuitos",
+    "kind": "eat",
+    "id": "ibz-chiringuito",
+    "at": [
+     38.92,
+     1.3
+    ],
+    "wiki": "Beach bar",
+    "area": "Coves",
+    "venue": "food-area",
+    "summary": "Grilled fish and sangria with your feet in the sand.",
+    "expect": "Prices rise in high season.",
+    "tip": "Book sunset tables.",
+    "why": "The Ibiza lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     60
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mediterranean",
+    "order": [
+     "Grilled fish",
+     "Sangria"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Spain",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a little cash for beach bars and markets.",
+  "dailyBudget": [
+   70,
+   200
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "tenerife",
+  "name": "Tenerife",
+  "at": [
+   28.2916,
+   -16.6291
+  ],
+  "wiki": "Tenerife",
+  "cover": "Teide",
+  "seasons": "HHHSSSHHSSSH",
+  "tagline": "Spain's highest peak above year-round sunshine",
+  "summary": "Tenerife is the largest Canary Island, with spring weather all year. Ride the cable car up Mount Teide, Spain's highest peak, walk volcanic moonscapes, see whales offshore and explore colonial La Laguna.",
+  "days": 5,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Warm all year. Winter is high season for northern Europeans; Carnival in February is one of the world's biggest.",
+  "arrival": "Tenerife South Airport serves the resorts; Tenerife North is near La Laguna. Flights from across Europe.",
+  "gettingAround": "Good TITSA buses; rent a car to reach Teide and the northwest.",
+  "foodTip": "Papas arrugadas with mojo sauce, grilled cheese and fresh fish in guachinches.",
+  "buyTip": "Canarian wine, mojo sauces and aloe vera products.",
+  "baseArea": "Puerto de la Cruz or Costa Adeje",
+  "hotel": [
+   80,
+   300
+  ],
+  "connections": [
+   {
+    "to": "madrid",
+    "mode": "Flight",
+    "minutes": 165,
+    "note": "Many daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Teide National Park",
+    "kind": "see",
+    "id": "tfe-teide",
+    "at": [
+     28.2724,
+     -16.6425
+    ],
+    "wiki": "Teide National Park",
+    "area": "Centre",
+    "summary": "Spain's highest peak, 3,715 m, rising from a vast volcanic crater.",
+    "expect": "Cable car to near the top; summit permit needed for the last stretch.",
+    "tip": "Book the cable car and permit online.",
+    "why": "The island's star.",
+    "flow": [
+     "Drive through the crater.",
+     "Cable car up.",
+     "Walk to a viewpoint."
+    ],
+    "hours": 6,
+    "price": [
+     40,
+     45
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Teide stargazing",
+    "kind": "see",
+    "id": "tfe-stargazing",
+    "at": [
+     28.2995,
+     -16.5097
+    ],
+    "wiki": "Teide Observatory",
+    "area": "Teide",
+    "summary": "Some of Europe's clearest skies, with guided telescope tours.",
+    "expect": "Cold at night; bring layers.",
+    "tip": "Join a sunset-and-stars tour.",
+    "why": "Starlight Reserve skies.",
+    "flow": [
+     "Sunset above the clouds.",
+     "Telescopes."
+    ],
+    "hours": 4,
+    "price": [
+     60,
+     80
+    ],
+    "best": "Night",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Masca village and gorge",
+    "kind": "see",
+    "id": "tfe-masca",
+    "at": [
+     28.3067,
+     -16.8414
+    ],
+    "wiki": "Masca",
+    "area": "Northwest",
+    "summary": "A tiny village clinging to a ravine in the Teno mountains.",
+    "expect": "The gorge hike needs booking; the road is twisty.",
+    "tip": "Drive slowly, go early.",
+    "why": "Dramatic mountain scenery.",
+    "flow": [
+     "Drive the hairpins.",
+     "Walk the village.",
+     "Gorge hike (booked)."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Los Gigantes cliffs",
+    "kind": "see",
+    "id": "tfe-gigantes",
+    "at": [
+     28.2464,
+     -16.8411
+    ],
+    "wiki": "Acantilados de Los Gigantes",
+    "area": "West",
+    "summary": "Sheer 600 m cliffs best seen from a boat.",
+    "expect": "Boat trips include dolphin and whale watching.",
+    "tip": "Pick a small boat with a swim stop.",
+    "why": "Whales live here all year.",
+    "flow": [
+     "Boat trip.",
+     "Whale watching.",
+     "Swim stop."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "San Cristóbal de La Laguna",
+    "kind": "see",
+    "id": "tfe-laguna",
+    "at": [
+     28.4874,
+     -16.3159
+    ],
+    "wiki": "San Cristóbal de La Laguna",
+    "area": "North",
+    "summary": "A UNESCO colonial town whose grid inspired cities across Latin America.",
+    "expect": "Pedestrian streets and cafés.",
+    "tip": "Visit the cathedral and Plaza del Adelantado.",
+    "why": "Living colonial history.",
+    "flow": [
+     "Calle San Agustín.",
+     "Cathedral.",
+     "Market."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Anaga Rural Park",
+    "kind": "see",
+    "id": "tfe-anaga",
+    "at": [
+     28.5333,
+     -16.2
+    ],
+    "wiki": "Anaga Rural Park",
+    "area": "Northeast",
+    "summary": "Ancient laurel forest, misty ridges and black-sand beaches.",
+    "expect": "Cool and damp in the forest.",
+    "tip": "Walk the Sendero de los Sentidos.",
+    "why": "Prehistoric forest.",
+    "flow": [
+     "Cruz del Carmen.",
+     "Forest trail.",
+     "Benijo beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Loro Parque",
+    "kind": "see",
+    "id": "tfe-loro",
+    "at": [
+     28.4091,
+     -16.5642
+    ],
+    "wiki": "Loro Parque",
+    "area": "Puerto de la Cruz",
+    "summary": "A big zoo with parrots, penguins and orcas.",
+    "expect": "Allow most of a day.",
+    "tip": "Arrive at opening.",
+    "why": "Popular with families.",
+    "flow": [
+     "Penguin habitat.",
+     "Shows."
+    ],
+    "hours": 6,
+    "price": [
+     40,
+     45
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Papas arrugadas con mojo",
+    "kind": "eat",
+    "id": "tfe-papas",
+    "at": [
+     28.4166,
+     -16.55
+    ],
+    "wiki": "Papas arrugadas",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Salt-crusted wrinkled potatoes with red and green mojo sauces.",
+    "expect": "Served as a starter everywhere.",
+    "tip": "Try both mojos.",
+    "why": "Canarian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canarian",
+    "order": [
+     "Papas arrugadas",
+     "Mojo"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Guachinches",
+    "kind": "eat",
+    "id": "tfe-guachinche",
+    "at": [
+     28.39,
+     -16.5
+    ],
+    "wiki": "Guachinche",
+    "area": "North",
+    "venue": "food-area",
+    "summary": "Family-run wine-farm eateries serving home cooking with their own wine.",
+    "expect": "Cash, simple menus, often weekends.",
+    "tip": "Look for hand-written signs in the north.",
+    "why": "The real local food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canarian",
+    "order": [
+     "Carne fiesta",
+     "House wine"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Fresh fish in harbours",
+    "kind": "eat",
+    "id": "tfe-fish",
+    "at": [
+     28.0925,
+     -16.73
+    ],
+    "wiki": "Los Abrigos",
+    "area": "South",
+    "venue": "food-area",
+    "summary": "Grilled vieja and cherne in harbour restaurants at Los Abrigos.",
+    "expect": "Choose your fish by weight.",
+    "tip": "Go at sunset.",
+    "why": "Fish from the boats.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     45
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Vieja",
+     "Cherne"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "France",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; small cash helps at markets and bakeries.",
+  "dailyBudget": [
+   90,
+   230
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "marseille",
+  "name": "Marseille",
+  "at": [
+   43.2965,
+   5.3698
+  ],
+  "wiki": "Marseille",
+  "cover": "Notre-Dame de la Garde",
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "France's oldest city, gritty and sunny on the sea",
+  "summary": "Marseille is France's oldest city and its great Mediterranean port: noisy, multicultural and full of light. Climb to Notre-Dame de la Garde, wander the Panier quarter, eat bouillabaisse at the Old Port and hike to white limestone calanques.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Summer is hot; calanques may close in high fire risk. The mistral wind can blow cold in winter and spring.",
+  "arrival": "Trains from Paris take about 3 hours 20; Marseille Provence Airport has shuttle buses to Saint-Charles station.",
+  "gettingAround": "Metro, trams and buses; boats to the Frioul islands and calanques.",
+  "foodTip": "Bouillabaisse, panisse chickpea fries and navette biscuits.",
+  "buyTip": "Savon de Marseille soap and santons figurines.",
+  "baseArea": "Vieux-Port or Le Panier",
+  "hotel": [
+   90,
+   260
+  ],
+  "connections": [
+   {
+    "to": "paris",
+    "mode": "Train",
+    "minutes": 200,
+    "note": "Frequent TGVs."
+   },
+   {
+    "to": "nice",
+    "mode": "Train",
+    "minutes": 160,
+    "note": "Coastal trains."
+   },
+   {
+    "to": "avignon",
+    "mode": "Train",
+    "minutes": 35,
+    "note": "TGV."
+   }
+  ],
+  "items": [
+   {
+    "name": "Notre-Dame de la Garde",
+    "kind": "see",
+    "id": "mrs-garde",
+    "at": [
+     43.284,
+     5.3713
+    ],
+    "wiki": "Notre-Dame de la Garde",
+    "area": "Hilltop",
+    "summary": "A golden-Virgin basilica above the city with sweeping views.",
+    "expect": "Bus 60 or a steep walk up.",
+    "tip": "Go late afternoon for the light.",
+    "why": "Marseille's guardian.",
+    "flow": [
+     "Climb up.",
+     "Basilica interior.",
+     "Terrace views."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Vieux-Port",
+    "kind": "see",
+    "id": "mrs-vieuxport",
+    "at": [
+     43.2951,
+     5.3741
+    ],
+    "wiki": "Old Port of Marseille",
+    "area": "Centre",
+    "summary": "The old harbour with fish sellers, cafés and the mirrored Ombrière canopy.",
+    "expect": "Fish market each morning.",
+    "tip": "Ride the tiny cross-port ferry.",
+    "why": "The heart of the city.",
+    "flow": [
+     "Fish market.",
+     "Ombrière.",
+     "Forts at the mouth."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Le Panier",
+    "kind": "see",
+    "id": "mrs-panier",
+    "at": [
+     43.2995,
+     5.3678
+    ],
+    "wiki": "Le Panier",
+    "area": "Old town",
+    "summary": "Marseille's oldest quarter of steep lanes, street art and the Vieille Charité.",
+    "expect": "Hilly; small shops and cafés.",
+    "tip": "Get lost on purpose.",
+    "why": "Old Marseille.",
+    "flow": [
+     "Vieille Charité.",
+     "Lanes and murals."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "MuCEM and Fort Saint-Jean",
+    "kind": "see",
+    "id": "mrs-mucem",
+    "at": [
+     43.2966,
+     5.3608
+    ],
+    "wiki": "Museum of European and Mediterranean Civilisations",
+    "area": "J4",
+    "summary": "A lace-concrete museum linked by footbridge to a medieval fort.",
+    "expect": "The fort and rooftop are free.",
+    "tip": "Walk the bridge at sunset.",
+    "why": "Modern icon of the city.",
+    "flow": [
+     "Fort Saint-Jean.",
+     "Footbridge.",
+     "Exhibitions."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     11
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Calanques National Park",
+    "kind": "see",
+    "id": "mrs-calanques",
+    "at": [
+     43.2097,
+     5.4447
+    ],
+    "wiki": "Calanques National Park",
+    "area": "South coast",
+    "summary": "White limestone cliffs and turquoise inlets like Sugiton and En-Vau.",
+    "expect": "Hike or take a boat; some close on high fire-risk days.",
+    "tip": "Check access the day before.",
+    "why": "Wild coast right by the city.",
+    "flow": [
+     "Hike from Luminy to Sugiton.",
+     "Or a boat from Vieux-Port."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Château d'If",
+    "kind": "see",
+    "id": "mrs-if",
+    "at": [
+     43.2798,
+     5.3253
+    ],
+    "wiki": "Château d'If",
+    "area": "Frioul",
+    "summary": "An island fortress-prison made famous by The Count of Monte Cristo.",
+    "expect": "Boats from Vieux-Port.",
+    "tip": "Combine with the Frioul islands.",
+    "why": "Literary legend.",
+    "flow": [
+     "Boat out.",
+     "Cells.",
+     "Frioul swim."
+    ],
+    "hours": 3,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Cassis day trip",
+    "kind": "see",
+    "id": "mrs-cassis",
+    "at": [
+     43.2149,
+     5.5379
+    ],
+    "wiki": "Cassis",
+    "area": "Cassis",
+    "summary": "A pretty fishing port with boat tours of the calanques and white wine.",
+    "expect": "30 minutes by train or bus.",
+    "tip": "Take a calanques boat from the port.",
+    "why": "Easy seaside escape.",
+    "flow": [
+     "Harbour.",
+     "Boat to the calanques.",
+     "Wine."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Bouillabaisse",
+    "kind": "eat",
+    "id": "mrs-bouillabaisse",
+    "at": [
+     43.2935,
+     5.37
+    ],
+    "wiki": "Bouillabaisse",
+    "area": "Vieux-Port",
+    "venue": "food-area",
+    "summary": "The famous fish stew: broth with rouille-topped croutons, then the fish.",
+    "expect": "Real versions cost €60+; beware cheap ones.",
+    "tip": "Book at a restaurant signing the Bouillabaisse charter.",
+    "why": "Marseille's dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     55,
+     80
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Provençal",
+    "order": [
+     "Bouillabaisse"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Panisse",
+    "kind": "eat",
+    "id": "mrs-panisse",
+    "at": [
+     43.282,
+     5.35
+    ],
+    "wiki": "Panisse",
+    "area": "L'Estaque",
+    "venue": "food-area",
+    "summary": "Crisp fried chickpea fingers, a street snack by the sea.",
+    "expect": "Best at L'Estaque kiosks.",
+    "tip": "Pair with chichi fregi doughnuts.",
+    "why": "Local street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Provençal",
+    "order": [
+     "Panisse"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Noailles market",
+    "kind": "eat",
+    "id": "mrs-noailles",
+    "at": [
+     43.2965,
+     5.3798
+    ],
+    "wiki": "Noailles",
+    "area": "Noailles",
+    "venue": "food-area",
+    "summary": "A North African-style market of spices, flatbreads and stalls.",
+    "expect": "Busy and lively.",
+    "tip": "Grab mint tea and pastries.",
+    "why": "Marseille's multicultural belly.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "North African",
+    "order": [
+     "Msemen",
+     "Mint tea"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Belgium",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a few euros for fries stands and markets.",
+  "dailyBudget": [
+   80,
+   200
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "bruges",
+  "name": "Bruges",
+  "at": [
+   51.2093,
+   3.2247
+  ],
+  "wiki": "Bruges",
+  "cover": "Rozenhoedkaai",
+  "seasons": "LLSSHHHHSSLH",
+  "tagline": "A fairy-tale medieval town of canals",
+  "summary": "Bruges is one of Europe's best-preserved medieval towns: cobbled lanes, gabled houses, quiet canals and a towering belfry. It's a UNESCO World Heritage Site and the home of Flemish Primitive painting, lace, chocolate and beer.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10,
+   12
+  ],
+  "seasonNote": "Day-trippers crowd the centre from late morning; stay overnight for quiet evenings. Christmas markets in December.",
+  "arrival": "Trains from Brussels take about 1 hour, and from Ghent 25 minutes.",
+  "gettingAround": "Walk or cycle; canal boats run from several jetties.",
+  "foodTip": "Mussels and fries, Flemish stew and waffles.",
+  "buyTip": "Lace, pralines and local beer.",
+  "baseArea": "Inside the canal ring",
+  "hotel": [
+   110,
+   300
+  ],
+  "connections": [
+   {
+    "to": "ghent",
+    "mode": "Train",
+    "minutes": 25,
+    "note": "Several trains an hour."
+   },
+   {
+    "to": "brussels",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "Frequent trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Markt and Belfry",
+    "kind": "see",
+    "id": "brg-markt",
+    "at": [
+     51.2085,
+     3.2245
+    ],
+    "wiki": "Belfry of Bruges",
+    "area": "Markt",
+    "summary": "The main square with a 13th-century belfry; climb 366 steps for the view.",
+    "expect": "Timed tickets for the tower.",
+    "tip": "Book an early slot.",
+    "why": "Bruges' skyline symbol.",
+    "flow": [
+     "Markt.",
+     "Climb the belfry."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Canal boat tour",
+    "kind": "see",
+    "id": "brg-canals",
+    "at": [
+     51.2056,
+     3.226
+    ],
+    "wiki": "Canals of Bruges",
+    "area": "Centre",
+    "summary": "Half-hour boat rides under bridges past gabled houses.",
+    "expect": "March to November.",
+    "tip": "Sit at the front.",
+    "why": "Bruges from the water.",
+    "flow": [
+     "Board at Rozenhoedkaai.",
+     "Cruise."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Burg and Basilica of the Holy Blood",
+    "kind": "see",
+    "id": "brg-burg",
+    "at": [
+     51.2083,
+     3.2272
+    ],
+    "wiki": "Basilica of the Holy Blood",
+    "area": "Burg",
+    "summary": "A square of grand civic buildings and a chapel holding a relic of Christ's blood.",
+    "expect": "Relic shown daily.",
+    "tip": "See the Gothic town hall.",
+    "why": "Bruges' civic heart.",
+    "flow": [
+     "Town hall.",
+     "Basilica."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     8
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Groeninge Museum",
+    "kind": "see",
+    "id": "brg-groeninge",
+    "at": [
+     51.2055,
+     3.2265
+    ],
+    "wiki": "Groeningemuseum",
+    "area": "Centre",
+    "summary": "Flemish Primitives including Van Eyck's Madonna with Canon van der Paele.",
+    "expect": "Compact.",
+    "tip": "Focus on the early rooms.",
+    "why": "Flemish art at its peak.",
+    "flow": [
+     "Van Eyck.",
+     "Memling."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Church of Our Lady",
+    "kind": "see",
+    "id": "brg-church-lady",
+    "at": [
+     51.2048,
+     3.2245
+    ],
+    "wiki": "Church of Our Lady, Bruges",
+    "area": "Centre",
+    "summary": "Home to Michelangelo's Madonna and Child.",
+    "expect": "Small fee for the museum part.",
+    "tip": "Look for the marble Madonna.",
+    "why": "Michelangelo outside Italy.",
+    "flow": [
+     "Nave.",
+     "Madonna."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     8
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Beguinage and Minnewater",
+    "kind": "see",
+    "id": "brg-beguinage",
+    "at": [
+     51.2015,
+     3.2245
+    ],
+    "wiki": "Princely Beguinage Ten Wijngaarde",
+    "area": "South",
+    "summary": "A quiet white-walled courtyard and the 'Lake of Love'.",
+    "expect": "Keep silent inside.",
+    "tip": "Visit at spring daffodil time.",
+    "why": "Bruges at its calmest.",
+    "flow": [
+     "Beguinage.",
+     "Minnewater."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Windmills on the ramparts",
+    "kind": "see",
+    "id": "brg-windmills",
+    "at": [
+     51.2146,
+     3.2355
+    ],
+    "wiki": "Sint-Janshuismolen",
+    "area": "Kruisvest",
+    "summary": "Working windmills along the green city walls.",
+    "expect": "Pleasant walk or bike.",
+    "tip": "Cycle the full ring.",
+    "why": "Quiet countryside feel.",
+    "flow": [
+     "Kruispoort.",
+     "Windmills."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mussels and fries",
+    "kind": "eat",
+    "id": "brg-mussels",
+    "at": [
+     51.2085,
+     3.224
+    ],
+    "wiki": "Moules-frites",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Steaming pots of mussels with fries and mayonnaise.",
+    "expect": "Best September to April.",
+    "tip": "Avoid the Markt terraces.",
+    "why": "Belgian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Belgian",
+    "order": [
+     "Moules-frites"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Chocolatiers",
+    "kind": "eat",
+    "id": "brg-chocolate",
+    "at": [
+     51.207,
+     3.226
+    ],
+    "wiki": "Belgian chocolate",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Pralines from small makers along the lanes.",
+    "expect": "Dozens of shops.",
+    "tip": "Buy by weight.",
+    "why": "Bruges sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Belgian",
+    "order": [
+     "Pralines"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Beer cafés",
+    "kind": "eat",
+    "id": "brg-beer",
+    "at": [
+     51.2077,
+     3.2241
+    ],
+    "wiki": "De Halve Maan Brewery",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Brewery tours and bars with hundreds of Belgian beers.",
+    "expect": "Strong beers.",
+    "tip": "Try Brugse Zot at De Halve Maan.",
+    "why": "Belgian beer culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Belgian",
+    "order": [
+     "Brugse Zot",
+     "Trappist"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Malta",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted; buses take cards or the Tallinja card, and small kiosks like cash.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "valletta",
+  "name": "Valletta · Malta",
+  "at": [
+   35.8989,
+   14.5146
+  ],
+  "wiki": "Valletta",
+  "cover": "Valletta",
+  "seasons": "LLSSHHPPHSSL",
+  "tagline": "A golden fortress capital in the heart of the Mediterranean",
+  "summary": "Valletta, Malta's tiny honey-stone capital, was built by the Knights of St John and is a UNESCO World Heritage Site. From here explore the Grand Harbour, Caravaggio, prehistoric temples older than the pyramids, and the blue waters of Gozo and Comino.",
+  "days": 4,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Hot summers; spring and autumn are ideal. Village festas fill summer weekends.",
+  "arrival": "Malta International Airport is 20 minutes away by bus or taxi. Ferries from Sicily.",
+  "gettingAround": "Walk Valletta; buses cover the island; ferries to the Three Cities, Sliema and Gozo.",
+  "foodTip": "Pastizzi, rabbit stew and ftira sandwiches.",
+  "buyTip": "Maltese lace, filigree silver and Mdina glass.",
+  "baseArea": "Valletta or Sliema",
+  "hotel": [
+   90,
+   280
+  ],
+  "connections": [
+   {
+    "to": "palermo",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Or a ferry to Pozzallo then a drive."
+   }
+  ],
+  "items": [
+   {
+    "name": "St John's Co-Cathedral",
+    "kind": "see",
+    "id": "vlt-cocathedral",
+    "at": [
+     35.8977,
+     14.5126
+    ],
+    "wiki": "St. John's Co-Cathedral",
+    "area": "Valletta",
+    "summary": "A plain facade hiding a dazzling gilded interior and Caravaggio's Beheading of St John.",
+    "expect": "Shoulders covered; no heels.",
+    "tip": "Go at opening.",
+    "why": "Baroque at its richest.",
+    "flow": [
+     "Nave.",
+     "Caravaggio oratory."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Art"
+    ]
+   },
+   {
+    "name": "Upper Barrakka Gardens",
+    "kind": "see",
+    "id": "vlt-barrakka",
+    "at": [
+     35.8947,
+     14.5122
+    ],
+    "wiki": "Upper Barrakka Gardens",
+    "area": "Valletta",
+    "summary": "Arcaded gardens with the best view of the Grand Harbour; a cannon fires at noon.",
+    "expect": "Free.",
+    "tip": "Be there at 12:00 for the gun salute.",
+    "why": "Malta's classic view.",
+    "flow": [
+     "Gardens.",
+     "Saluting battery."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Three Cities",
+    "kind": "see",
+    "id": "vlt-threecities",
+    "at": [
+     35.8869,
+     14.5226
+    ],
+    "wiki": "Three Cities",
+    "area": "Birgu",
+    "summary": "Older fortified towns across the harbour, reached by a traditional dgħajsa boat.",
+    "expect": "Quieter than Valletta.",
+    "tip": "Take the water taxi across.",
+    "why": "Malta before Valletta.",
+    "flow": [
+     "Dgħajsa ride.",
+     "Birgu lanes.",
+     "Fort St Angelo."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mdina",
+    "kind": "see",
+    "id": "vlt-mdina",
+    "at": [
+     35.8857,
+     14.4031
+    ],
+    "wiki": "Mdina",
+    "area": "Centre",
+    "summary": "A silent walled hilltop city, Malta's old capital.",
+    "expect": "30 minutes by bus.",
+    "tip": "Visit at dusk when it's quiet.",
+    "why": "The silent city.",
+    "flow": [
+     "Main gate.",
+     "Bastion views.",
+     "Rabat catacombs."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Ħal Saflieni Hypogeum",
+    "kind": "see",
+    "id": "vlt-hypogeum",
+    "at": [
+     35.8694,
+     14.5072
+    ],
+    "wiki": "Ħal Saflieni Hypogeum",
+    "area": "Paola",
+    "summary": "A 5,000-year-old underground temple and burial site.",
+    "expect": "Only 80 visitors a day; book weeks ahead.",
+    "tip": "Book as soon as you have dates.",
+    "why": "Unique prehistoric site.",
+    "flow": [
+     "Guided group.",
+     "Chambers."
+    ],
+    "hours": 1,
+    "price": [
+     35,
+     35
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Comino Blue Lagoon",
+    "kind": "see",
+    "id": "vlt-blue-lagoon",
+    "at": [
+     36.0144,
+     14.3225
+    ],
+    "wiki": "Blue Lagoon (Comino)",
+    "area": "Comino",
+    "summary": "Startlingly clear turquoise water between two islands.",
+    "expect": "Very crowded midday in summer.",
+    "tip": "Take the first boat out.",
+    "why": "Malta's postcard.",
+    "flow": [
+     "Boat to Comino.",
+     "Swim."
+    ],
+    "hours": 5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Gozo day trip",
+    "kind": "see",
+    "id": "vlt-gozo",
+    "at": [
+     36.0443,
+     14.2394
+    ],
+    "wiki": "Gozo",
+    "area": "Gozo",
+    "summary": "Malta's greener sister island with the Citadel of Victoria and Ġgantija temples.",
+    "expect": "25-minute ferry from Ċirkewwa.",
+    "tip": "Rent a car or hop-on bus.",
+    "why": "Older than Stonehenge.",
+    "flow": [
+     "Ferry.",
+     "Citadel.",
+     "Ġgantija."
+    ],
+    "hours": 8,
+    "price": [
+     5,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Pastizzi",
+    "kind": "eat",
+    "id": "vlt-pastizzi",
+    "at": [
+     35.8975,
+     14.512
+    ],
+    "wiki": "Pastizz",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Flaky pastries filled with ricotta or peas, about 50 cents each.",
+    "expect": "Hot from pastizzerias.",
+    "tip": "Try Crystal Palace in Rabat.",
+    "why": "Malta's snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Maltese",
+    "order": [
+     "Pastizzi"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Stuffat tal-fenek",
+    "kind": "eat",
+    "id": "vlt-rabbit",
+    "at": [
+     35.8985,
+     14.513
+    ],
+    "wiki": "Fenkata",
+    "area": "Restaurants",
+    "venue": "food-area",
+    "summary": "Rabbit stewed in wine and garlic, the national dish.",
+    "expect": "Often served with spaghetti first.",
+    "tip": "Try it in a village restaurant.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Maltese",
+    "order": [
+     "Rabbit stew"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Ftira",
+    "kind": "eat",
+    "id": "vlt-ftira",
+    "at": [
+     35.899,
+     14.514
+    ],
+    "wiki": "Ftira",
+    "area": "Cafés",
+    "venue": "food-area",
+    "summary": "Ring-shaped Maltese bread stuffed with tuna, tomato and capers.",
+    "expect": "Gozo versions are like pizza.",
+    "tip": "Grab one for the ferry.",
+    "why": "Local lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Maltese",
+    "order": [
+     "Ftira"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Montenegro",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Montenegro uses the euro. Cards work in hotels and bigger restaurants; carry cash for boats, taxis and small cafés.",
+  "dailyBudget": [
+   50,
+   150
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "kotor",
+  "name": "Kotor",
+  "at": [
+   42.4247,
+   18.7712
+  ],
+  "wiki": "Kotor",
+  "cover": "Bay of Kotor",
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "A walled town at the end of a fjord-like bay",
+  "summary": "Kotor is a medieval walled town tucked at the end of the Bay of Kotor, below steep mountains. Climb the fortress walls for a famous view, wander marble lanes full of cats and churches, and boat to island churches and baroque Perast.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Cruise ships crowd the old town in summer; check cruise days. Spring and autumn are calmer.",
+  "arrival": "Tivat Airport is 20 minutes away; Dubrovnik Airport about 1.5 hours with a border crossing.",
+  "gettingAround": "Walk the old town; buses and boats around the bay; rent a car for the mountains.",
+  "foodTip": "Black risotto, mussels from the bay and Njeguši ham and cheese.",
+  "buyTip": "Local olive oil, Vranac wine and Njeguši prosciutto.",
+  "baseArea": "Old town or Dobrota",
+  "hotel": [
+   70,
+   250
+  ],
+  "connections": [
+   {
+    "to": "dubrovnik",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "Border crossing; can be slow in summer."
+   }
+  ],
+  "items": [
+   {
+    "name": "Fortress of San Giovanni",
+    "kind": "see",
+    "id": "ktr-fortress",
+    "at": [
+     42.4255,
+     18.7745
+    ],
+    "wiki": "Fortifications of Kotor",
+    "area": "Old town",
+    "summary": "Some 1,350 steps up the town walls to a fortress high above the bay.",
+    "expect": "Hot and steep; go early or late.",
+    "tip": "Start at dawn for cool air and light.",
+    "why": "Kotor's famous view.",
+    "flow": [
+     "Enter near the north gate.",
+     "Church of Our Lady of Remedy.",
+     "Summit fortress."
+    ],
+    "hours": 2.5,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Old town",
+    "kind": "see",
+    "id": "ktr-oldtown",
+    "at": [
+     42.4247,
+     18.7712
+    ],
+    "wiki": "Kotor",
+    "area": "Old town",
+    "summary": "A maze of squares, palaces and Romanesque churches inside the walls.",
+    "expect": "Crowded when ships are in.",
+    "tip": "Explore early or after ships leave.",
+    "why": "UNESCO medieval town.",
+    "flow": [
+     "Sea Gate.",
+     "Clock tower.",
+     "Squares."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "St Tryphon's Cathedral",
+    "kind": "see",
+    "id": "ktr-tryphon",
+    "at": [
+     42.4241,
+     18.7714
+    ],
+    "wiki": "Kotor Cathedral",
+    "area": "Old town",
+    "summary": "A 12th-century Romanesque cathedral with frescoes and a treasury.",
+    "expect": "Small fee.",
+    "tip": "Climb to the upper loggia.",
+    "why": "Heart of the old town.",
+    "flow": [
+     "Nave.",
+     "Treasury."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Perast and Our Lady of the Rocks",
+    "kind": "see",
+    "id": "ktr-perast",
+    "at": [
+     42.4867,
+     18.6989
+    ],
+    "wiki": "Our Lady of the Rocks",
+    "area": "Perast",
+    "summary": "A baroque village and an artificial island church reached by boat.",
+    "expect": "Short boat from Perast.",
+    "tip": "Combine with a bay cruise.",
+    "why": "The bay's iconic image.",
+    "flow": [
+     "Walk Perast.",
+     "Boat to the island church."
+    ],
+    "hours": 3,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Ladder of Kotor and Lovćen",
+    "kind": "see",
+    "id": "ktr-ladder",
+    "at": [
+     42.3995,
+     18.8381
+    ],
+    "wiki": "Lovćen",
+    "area": "Lovćen",
+    "summary": "Hairpin road up to Lovćen and the Njegoš mausoleum high above the bay.",
+    "expect": "25 hairpins; drive carefully.",
+    "tip": "Stop at Njeguši for ham.",
+    "why": "Epic views of the bay.",
+    "flow": [
+     "Serpentine road.",
+     "Njeguši village.",
+     "Mausoleum."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     8
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Blue Cave boat trip",
+    "kind": "see",
+    "id": "ktr-blue-cave",
+    "at": [
+     42.3989,
+     18.5547
+    ],
+    "wiki": "Plava špilja",
+    "area": "Luštica",
+    "summary": "A sea cave glowing blue on sunny days, with swims at bay beaches.",
+    "expect": "Speedboat tours from Kotor.",
+    "tip": "Pick a calm morning.",
+    "why": "Bay from the water.",
+    "flow": [
+     "Speedboat out.",
+     "Swim in the cave."
+    ],
+    "hours": 4,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Budva old town",
+    "kind": "see",
+    "id": "ktr-budva",
+    "at": [
+     42.2777,
+     18.8382
+    ],
+    "wiki": "Budva",
+    "area": "Budva",
+    "summary": "A walled seaside town and beaches on the open coast.",
+    "expect": "Busy beach resort.",
+    "tip": "Visit Sveti Stefan view nearby.",
+    "why": "Montenegro's riviera.",
+    "flow": [
+     "Old town.",
+     "Beach.",
+     "Sveti Stefan viewpoint."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Bay seafood",
+    "kind": "eat",
+    "id": "ktr-seafood",
+    "at": [
+     42.425,
+     18.77
+    ],
+    "wiki": "Montenegrin cuisine",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Black risotto with cuttlefish ink and mussels from bay farms.",
+    "expect": "Waterfront restaurants.",
+    "tip": "Order buzara-style mussels.",
+    "why": "The bay on a plate.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Montenegrin",
+    "order": [
+     "Black risotto",
+     "Mussels buzara"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Njeguški pršut",
+    "kind": "eat",
+    "id": "ktr-njegusi",
+    "at": [
+     42.432,
+     18.81
+    ],
+    "wiki": "Njeguški pršut",
+    "area": "Njeguši",
+    "venue": "food-area",
+    "summary": "Smoked mountain ham and cheese from Njeguši village.",
+    "expect": "Served as a starter.",
+    "tip": "Pair with Vranac wine.",
+    "why": "Local speciality.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Montenegrin",
+    "order": [
+     "Pršut",
+     "Cheese"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Burek",
+    "kind": "eat",
+    "id": "ktr-burek",
+    "at": [
+     42.426,
+     18.772
+    ],
+    "wiki": "Burek",
+    "area": "Bakeries",
+    "venue": "food-area",
+    "summary": "Flaky pastry filled with cheese or meat, with yogurt.",
+    "expect": "Morning bakeries.",
+    "tip": "Order with drinking yogurt.",
+    "why": "Balkan breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     4
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Balkan",
+    "order": [
+     "Burek"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; keep coins for church lights and espresso bars.",
+  "dailyBudget": [
+   80,
+   200
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "pisa",
+  "name": "Pisa",
+  "at": [
+   43.7228,
+   10.4017
+  ],
+  "wiki": "Pisa",
+  "cover": "Piazza dei Miracoli",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "The Leaning Tower and a lively university town",
+  "summary": "Pisa is famous for its Leaning Tower, part of the white-marble Piazza dei Miracoli. Beyond the tower, it's a lively university town on the Arno with Renaissance squares and an easy base for Lucca and the Tuscan coast.",
+  "days": 1,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Busy with day-trippers in summer; book tower slots ahead.",
+  "arrival": "Pisa Airport is 5 minutes from the centre; trains from Florence take about an hour.",
+  "gettingAround": "Walk; the centre is small.",
+  "foodTip": "Cecina chickpea flatbread and Tuscan soups.",
+  "buyTip": "Leather from Florence-style shops and Tuscan wine.",
+  "baseArea": "Near the Arno",
+  "hotel": [
+   80,
+   200
+  ],
+  "connections": [
+   {
+    "to": "florence",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "Frequent trains."
+   },
+   {
+    "to": "cinque-terre",
+    "mode": "Train",
+    "minutes": 75,
+    "note": "Via La Spezia."
+   }
+  ],
+  "items": [
+   {
+    "name": "Leaning Tower",
+    "kind": "see",
+    "id": "psa-tower",
+    "at": [
+     43.723,
+     10.3966
+    ],
+    "wiki": "Leaning Tower of Pisa",
+    "area": "Piazza dei Miracoli",
+    "summary": "Climb 251 steps up the famous tilted bell tower.",
+    "expect": "Timed slots; no bags.",
+    "tip": "Book online a few days ahead.",
+    "why": "World icon.",
+    "flow": [
+     "Pick up tickets.",
+     "Climb.",
+     "Bells at the top."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Cathedral and Baptistery",
+    "kind": "see",
+    "id": "psa-duomo",
+    "at": [
+     43.7233,
+     10.3955
+    ],
+    "wiki": "Pisa Cathedral",
+    "area": "Piazza dei Miracoli",
+    "summary": "Romanesque cathedral and the largest baptistery in Italy, with a singing echo.",
+    "expect": "Combined tickets.",
+    "tip": "Wait for the baptistery echo demonstration.",
+    "why": "Masterpieces around the tower.",
+    "flow": [
+     "Cathedral.",
+     "Baptistery.",
+     "Camposanto."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Camposanto",
+    "kind": "see",
+    "id": "psa-camposanto",
+    "at": [
+     43.7239,
+     10.3947
+    ],
+    "wiki": "Camposanto Monumentale",
+    "area": "Piazza dei Miracoli",
+    "summary": "A marble cloister cemetery with restored medieval frescoes.",
+    "expect": "Quiet compared to the square.",
+    "tip": "See the Triumph of Death fresco.",
+    "why": "Hidden gem.",
+    "flow": [
+     "Cloister.",
+     "Frescoes."
+    ],
+    "hours": 1,
+    "price": [
+     7,
+     7
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Piazza dei Cavalieri",
+    "kind": "see",
+    "id": "psa-cavalieri",
+    "at": [
+     43.7194,
+     10.4004
+    ],
+    "wiki": "Piazza dei Cavalieri",
+    "area": "Centre",
+    "summary": "A Renaissance square with the sgraffito palace of the Scuola Normale.",
+    "expect": "Student life all around.",
+    "tip": "Walk here from the tower.",
+    "why": "Pisa's real centre.",
+    "flow": [
+     "Palazzo della Carovana.",
+     "Church of Santo Stefano."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Lungarno and Santa Maria della Spina",
+    "kind": "see",
+    "id": "psa-arno",
+    "at": [
+     43.7146,
+     10.3991
+    ],
+    "wiki": "Santa Maria della Spina",
+    "area": "Arno",
+    "summary": "A tiny Gothic church on the river and pastel palazzi along the Arno.",
+    "expect": "Lovely at sunset.",
+    "tip": "Stroll at dusk.",
+    "why": "Pisa beyond the tower.",
+    "flow": [
+     "Riverside walk.",
+     "Spina church."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Lucca day trip",
+    "kind": "see",
+    "id": "psa-lucca",
+    "at": [
+     43.8429,
+     10.5027
+    ],
+    "wiki": "Lucca",
+    "area": "Lucca",
+    "summary": "A walled town where you can cycle the tree-lined ramparts.",
+    "expect": "30 minutes by train.",
+    "tip": "Rent a bike for the walls.",
+    "why": "Tuscany's gentlest town.",
+    "flow": [
+     "Walls by bike.",
+     "Piazza dell'Anfiteatro.",
+     "Guinigi Tower."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Cecina",
+    "kind": "eat",
+    "id": "psa-cecina",
+    "at": [
+     43.717,
+     10.401
+    ],
+    "wiki": "Farinata",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Thin chickpea-flour flatbread, eaten hot in a focaccia.",
+    "expect": "Pizzerias sell it by the slice.",
+    "tip": "Try 'cinque e cinque' style.",
+    "why": "Pisan street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tuscan",
+    "order": [
+     "Cecina"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Tuscan trattorie",
+    "kind": "eat",
+    "id": "psa-trattoria",
+    "at": [
+     43.716,
+     10.401
+    ],
+    "wiki": "Tuscan cuisine",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Ribollita, pici pasta and wild boar ragù.",
+    "expect": "Eat away from the tower.",
+    "tip": "Go south of the river.",
+    "why": "Tuscan comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tuscan",
+    "order": [
+     "Ribollita",
+     "Pici al cinghiale"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Gelato",
+    "kind": "eat",
+    "id": "psa-gelato",
+    "at": [
+     43.717,
+     10.402
+    ],
+    "wiki": "Gelato",
+    "area": "Borgo Stretto",
+    "venue": "food-area",
+    "summary": "Artisan gelato along the arcaded Borgo Stretto.",
+    "expect": "Look for natural colours.",
+    "tip": "Try pistachio.",
+    "why": "Italian treat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Italian",
+    "order": [
+     "Gelato"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
