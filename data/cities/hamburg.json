@@ -1,0 +1,574 @@
+{
+  "id": "hamburg",
+  "name": "Hamburg",
+  "country": "Germany",
+  "region": "Europe",
+  "lat": 53.5511,
+  "lon": 9.9937,
+  "wiki": "Hamburg",
+  "tagline": "A harbour city of canals and concert halls",
+  "summary": "Germany's great port city has more bridges than Venice, red-brick warehouses in the Speicherstadt and the soaring Elbphilharmonie concert hall. Its harbour, lakes and lively St. Pauli nightlife make it one of Europe's most underrated cities.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "seasonNote": "May to September is mildest. It's often grey and rainy. December brings Christmas markets, and the Hafengeburtstag harbour festival is in May.",
+  "arrival": "Hamburg Airport is 25 minutes from the centre by S-Bahn. Trains from Berlin take under 2 hours.",
+  "gettingAround": "U-Bahn, S-Bahn, buses and harbour ferries (lines 62 and 72) share one ticket.",
+  "cashTip": "Cards are now widely accepted, but many bakeries, beer halls and small shops still prefer cash.",
+  "dailyBudget": [
+    90,
+    250
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Fischbrötchen (fish sandwiches), Franzbrötchen cinnamon pastries and Labskaus.",
+  "buyTip": "Maritime goods, coffee and Hamburg design.",
+  "baseArea": "Altstadt, Neustadt or St. Georg",
+  "connections": [
+    {
+      "to": "berlin",
+      "mode": "Train",
+      "minutes": 110,
+      "note": "ICE trains."
+    },
+    {
+      "to": "copenhagen",
+      "mode": "Train",
+      "minutes": 280,
+      "note": "Direct trains."
+    },
+    {
+      "to": "amsterdam",
+      "mode": "Train",
+      "minutes": 320,
+      "note": "Direct trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hamburg on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hamburg",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Hamburg%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Hamburg%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Elbphilharmonie",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "hamburg-hamburg-elphi",
+      "name": "Elbphilharmonie",
+      "kind": "see",
+      "lat": 53.5413,
+      "lon": 9.9841,
+      "wiki": "Elbphilharmonie",
+      "summary": "A wave-topped glass concert hall on an old warehouse, with a free public plaza.",
+      "expect": "The plaza is free with a timed ticket; concerts sell out.",
+      "tip": "Go to the plaza at sunset.",
+      "area": "HafenCity",
+      "duration": 1,
+      "price": [
+        0,
+        2
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Elbphilharmonie%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Elbphilharmonie%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Elbphilharmonie%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A wave-topped glass concert hall on an old warehouse, with a free public plaza.",
+        "Hamburg's new icon."
+      ],
+      "visitFlow": [
+        "Escalator.",
+        "Plaza walk."
+      ],
+      "bestFor": "Visitors interested in architecture and design and big views",
+      "tradeoffs": [
+        "The plaza is free with a timed ticket; concerts sell out.",
+        "Go to the plaza at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hamburg-hamburg-speicherstadt",
+      "name": "Speicherstadt",
+      "kind": "see",
+      "lat": 53.544,
+      "lon": 9.99,
+      "wiki": "Speicherstadt",
+      "summary": "The world's largest warehouse district, red-brick buildings on canals.",
+      "expect": "Free to wander; prettiest when lit at night.",
+      "tip": "See the Wasserschloss at dusk.",
+      "area": "Speicherstadt",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Speicherstadt%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Speicherstadt%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Speicherstadt%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "The world's largest warehouse district, red-brick buildings on canals.",
+        "A World Heritage site."
+      ],
+      "visitFlow": [
+        "Canals.",
+        "Wasserschloss."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Free to wander; prettiest when lit at night.",
+        "See the Wasserschloss at dusk."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hamburg-hamburg-miniatur",
+      "name": "Miniatur Wunderland",
+      "kind": "see",
+      "lat": 53.5437,
+      "lon": 9.9886,
+      "wiki": "Miniatur Wunderland",
+      "summary": "The world's largest model railway, with tiny cities, airports and countries.",
+      "expect": "Book a time slot; it gets very busy.",
+      "tip": "Stay for the day-to-night light change.",
+      "area": "Speicherstadt",
+      "duration": 3,
+      "price": [
+        20,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Miniatur%20Wunderland%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Miniatur%20Wunderland%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Miniatur%20Wunderland%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "The world's largest model railway, with tiny cities, airports and countries.",
+        "Fun for every age."
+      ],
+      "visitFlow": [
+        "Model worlds.",
+        "Airport."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Book a time slot; it gets very busy.",
+        "Stay for the day-to-night light change."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hamburg-hamburg-harbour",
+      "name": "Harbour boat tour",
+      "kind": "see",
+      "lat": 53.542,
+      "lon": 9.97,
+      "wiki": "Port of Hamburg",
+      "summary": "Boats among giant container ships and old docks.",
+      "expect": "Public ferry 62 is a cheap tour.",
+      "tip": "Take ferry 62 to Finkenwerder.",
+      "area": "Landungsbrücken",
+      "duration": 1.5,
+      "price": [
+        4,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Harbour%20boat%20tour%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Harbour%20boat%20tour%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Harbour%20boat%20tour%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Boats among giant container ships and old docks.",
+        "Hamburg's working heart."
+      ],
+      "visitFlow": [
+        "Landungsbrücken.",
+        "Ferry 62."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Public ferry 62 is a cheap tour.",
+        "Take ferry 62 to Finkenwerder."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hamburg-hamburg-alster",
+      "name": "Alster lakes",
+      "kind": "see",
+      "lat": 53.56,
+      "lon": 10,
+      "wiki": "Außenalster",
+      "summary": "City lakes for sailing, paddling and lakeside walks.",
+      "expect": "Rent a pedal boat or canoe.",
+      "tip": "Take an Alster boat tour.",
+      "area": "Alster",
+      "duration": 2,
+      "price": [
+        0,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alster%20lakes%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Alster%20lakes%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Alster%20lakes%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "City lakes for sailing, paddling and lakeside walks.",
+        "Hamburg's lake life."
+      ],
+      "visitFlow": [
+        "Jungfernstieg.",
+        "Lake walk."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Rent a pedal boat or canoe.",
+        "Take an Alster boat tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hamburg-hamburg-reeperbahn",
+      "name": "St. Pauli and the Reeperbahn",
+      "kind": "see",
+      "lat": 53.5496,
+      "lon": 9.96,
+      "wiki": "Reeperbahn",
+      "summary": "The famous nightlife strip where the Beatles played.",
+      "expect": "Very busy on weekends.",
+      "tip": "Visit Beatles-Platz.",
+      "area": "St. Pauli",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=St.%20Pauli%20and%20the%20Reeperbahn%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=St.%20Pauli%20and%20the%20Reeperbahn%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=St.%20Pauli%20and%20the%20Reeperbahn%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "The famous nightlife strip where the Beatles played.",
+        "Hamburg's wild side."
+      ],
+      "visitFlow": [
+        "Reeperbahn.",
+        "Beatles-Platz."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Very busy on weekends.",
+        "Visit Beatles-Platz."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hamburg-hamburg-fischmarkt",
+      "name": "Fischmarkt",
+      "kind": "see",
+      "lat": 53.545,
+      "lon": 9.952,
+      "wiki": "Fischmarkt Hamburg",
+      "summary": "A Sunday-morning market from 5 am, with a brass band in the old fish auction hall.",
+      "expect": "Sunday mornings only.",
+      "tip": "Go early with the night owls.",
+      "area": "Altona",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fischmarkt%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Fischmarkt%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fischmarkt%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A Sunday-morning market from 5 am, with a brass band in the old fish auction hall.",
+        "A Hamburg ritual."
+      ],
+      "visitFlow": [
+        "Market.",
+        "Auction hall."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Sunday mornings only.",
+        "Go early with the night owls."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hamburg-hamburg-fischbroetchen",
+      "name": "Fischbrötchen",
+      "kind": "eat",
+      "lat": 53.5455,
+      "lon": 9.968,
+      "wiki": "Fischbrötchen",
+      "summary": "A bread roll with pickled herring, salmon or fried fish.",
+      "expect": "Stands along the harbour.",
+      "tip": "Try Bismarck herring.",
+      "area": "Landungsbrücken",
+      "duration": 0.25,
+      "price": [
+        3,
+        7
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fischbr%C3%B6tchen%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Fischbr%C3%B6tchen%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fischbr%C3%B6tchen%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A bread roll with pickled herring, salmon or fried fish.",
+        "Hamburg's street food."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Stands along the harbour.",
+        "Try Bismarck herring."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "North German",
+      "mustOrder": [
+        "Bismarckbrötchen"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "hamburg-hamburg-franzbroetchen",
+      "name": "Franzbrötchen",
+      "kind": "eat",
+      "lat": 53.55,
+      "lon": 9.99,
+      "wiki": "Franzbrötchen",
+      "summary": "A flattened cinnamon pastry, Hamburg's version of a croissant.",
+      "expect": "Bakeries everywhere.",
+      "tip": "Have one with coffee.",
+      "area": "Altstadt",
+      "duration": 0.25,
+      "price": [
+        2,
+        4
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Franzbr%C3%B6tchen%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Franzbr%C3%B6tchen%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Franzbr%C3%B6tchen%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A flattened cinnamon pastry, Hamburg's version of a croissant.",
+        "Hamburg's own pastry."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Bakeries everywhere.",
+        "Have one with coffee."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "North German",
+      "mustOrder": [
+        "Franzbrötchen"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "hamburg-hamburg-labskaus",
+      "name": "Labskaus",
+      "kind": "eat",
+      "lat": 53.546,
+      "lon": 9.97,
+      "wiki": "Labskaus",
+      "summary": "Sailors' corned beef and potato mash with beetroot, herring and egg.",
+      "expect": "Traditional harbour restaurants.",
+      "tip": "Try it once.",
+      "area": "Harbour",
+      "duration": 1,
+      "price": [
+        15,
+        22
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Labskaus%2C%20Hamburg",
+        "https://www.google.com/maps/search/?api=1&query=Labskaus%2C%20Hamburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Labskaus%2C%20Hamburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Sailors' corned beef and potato mash with beetroot, herring and egg.",
+        "A true sailors' dish."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Traditional harbour restaurants.",
+        "Try it once."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "North German",
+      "mustOrder": [
+        "Labskaus"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

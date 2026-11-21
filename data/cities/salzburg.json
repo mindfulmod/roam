@@ -1,0 +1,580 @@
+{
+  "id": "salzburg",
+  "name": "Salzburg",
+  "country": "Austria",
+  "region": "Europe",
+  "lat": 47.8095,
+  "lon": 13.055,
+  "wiki": "Salzburg",
+  "tagline": "Mozart's Baroque city under a fortress",
+  "summary": "Salzburg is a Baroque gem on the Salzach river, ringed by mountains and crowned by the Hohensalzburg fortress. Mozart was born here, the Sound of Music was filmed here, and its summer festival is one of the world's great music events.",
+  "days": 2,
+  "bestMonths": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "seasonNote": "The Salzburg Festival runs from late July to August, when prices rise. December brings Christmas markets. Spring and autumn are quieter.",
+  "arrival": "Trains from Vienna take 2.5 hours and from Munich 1.5 hours. Salzburg Airport is 20 minutes from the centre.",
+  "gettingAround": "The old town is walkable; buses cover the rest.",
+  "cashTip": "Cards work almost everywhere; carry a little cash for mountain huts and small cafés.",
+  "dailyBudget": [
+    90,
+    250
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Salzburger Nockerl soufflé, Mozartkugeln and beer at the Augustiner monastery brewery.",
+  "buyTip": "Mozartkugeln, dirndls and local schnapps.",
+  "baseArea": "Altstadt",
+  "connections": [
+    {
+      "to": "vienna",
+      "mode": "Train",
+      "minutes": 150,
+      "note": "Railjet trains."
+    },
+    {
+      "to": "munich",
+      "mode": "Train",
+      "minutes": 90,
+      "note": "Direct trains."
+    },
+    {
+      "to": "innsbruck",
+      "mode": "Train",
+      "minutes": 120,
+      "note": "Railjet trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Salzburg on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salzburg",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Salzburg%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Salzburg%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Hohensalzburg Fortress",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "salzburg-salzburg-fortress",
+      "name": "Hohensalzburg Fortress",
+      "kind": "see",
+      "lat": 47.7949,
+      "lon": 13.0477,
+      "wiki": "Hohensalzburg Fortress",
+      "summary": "One of Europe's largest medieval castles, high above the old town.",
+      "expect": "A funicular goes up.",
+      "tip": "Walk down through the Mönchsberg.",
+      "area": "Festungsberg",
+      "duration": 2,
+      "price": [
+        13,
+        18
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hohensalzburg%20Fortress%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Hohensalzburg%20Fortress%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hohensalzburg%20Fortress%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "One of Europe's largest medieval castles, high above the old town.",
+        "Salzburg's skyline."
+      ],
+      "visitFlow": [
+        "Funicular.",
+        "State rooms.",
+        "Views."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "A funicular goes up.",
+        "Walk down through the Mönchsberg."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "salzburg-salzburg-mozart",
+      "name": "Mozart's Birthplace",
+      "kind": "see",
+      "lat": 47.8,
+      "lon": 13.0433,
+      "wiki": "Mozart's birthplace",
+      "summary": "The yellow house where Mozart was born in 1756.",
+      "expect": "Small and busy.",
+      "tip": "Go at opening.",
+      "area": "Getreidegasse",
+      "duration": 1,
+      "price": [
+        13,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mozart's%20Birthplace%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Mozart's%20Birthplace%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mozart's%20Birthplace%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The yellow house where Mozart was born in 1756.",
+        "Mozart's first home."
+      ],
+      "visitFlow": [
+        "Rooms.",
+        "Instruments."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Small and busy.",
+        "Go at opening."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "salzburg-salzburg-mirabell",
+      "name": "Mirabell Gardens",
+      "kind": "see",
+      "lat": 47.8058,
+      "lon": 13.0419,
+      "wiki": "Mirabell Palace",
+      "summary": "Formal gardens with a fortress view, seen in The Sound of Music.",
+      "expect": "Free.",
+      "tip": "See the Do-Re-Mi steps.",
+      "area": "Neustadt",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mirabell%20Gardens%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Mirabell%20Gardens%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mirabell%20Gardens%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Formal gardens with a fortress view, seen in The Sound of Music.",
+        "The classic view of Salzburg."
+      ],
+      "visitFlow": [
+        "Gardens.",
+        "Pegasus fountain."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "See the Do-Re-Mi steps."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "salzburg-salzburg-getreidegasse",
+      "name": "Getreidegasse",
+      "kind": "see",
+      "lat": 47.8001,
+      "lon": 13.042,
+      "wiki": "Getreidegasse",
+      "summary": "A narrow shopping lane of wrought-iron signs.",
+      "expect": "Busy all day.",
+      "tip": "Look up at the signs.",
+      "area": "Altstadt",
+      "duration": 0.75,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Getreidegasse%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Getreidegasse%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Getreidegasse%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A narrow shopping lane of wrought-iron signs.",
+        "Salzburg's famous street."
+      ],
+      "visitFlow": [
+        "Lane.",
+        "Passageways."
+      ],
+      "bestFor": "Visitors interested in local shopping and architecture and design",
+      "tradeoffs": [
+        "Busy all day.",
+        "Look up at the signs."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "salzburg-salzburg-cathedral",
+      "name": "Salzburg Cathedral",
+      "kind": "see",
+      "lat": 47.798,
+      "lon": 13.047,
+      "wiki": "Salzburg Cathedral",
+      "summary": "A huge Baroque cathedral where Mozart was baptised.",
+      "expect": "A small fee.",
+      "tip": "Hear an organ concert.",
+      "area": "Domplatz",
+      "duration": 1,
+      "price": [
+        5,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salzburg%20Cathedral%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Salzburg%20Cathedral%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salzburg%20Cathedral%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A huge Baroque cathedral where Mozart was baptised.",
+        "Baroque grandeur."
+      ],
+      "visitFlow": [
+        "Nave.",
+        "Font."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "A small fee.",
+        "Hear an organ concert."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "salzburg-salzburg-hellbrunn",
+      "name": "Hellbrunn Palace",
+      "kind": "see",
+      "lat": 47.763,
+      "lon": 13.061,
+      "wiki": "Hellbrunn Palace",
+      "summary": "A palace with trick fountains that spray visitors.",
+      "expect": "Bus from the centre; summer is best.",
+      "tip": "Join the trick fountain tour.",
+      "area": "Hellbrunn",
+      "duration": 2,
+      "price": [
+        14,
+        16
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hellbrunn%20Palace%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Hellbrunn%20Palace%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hellbrunn%20Palace%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "A palace with trick fountains that spray visitors.",
+        "Playful Baroque fun."
+      ],
+      "visitFlow": [
+        "Trick fountains.",
+        "Gardens."
+      ],
+      "bestFor": "Visitors interested in history and context and shows and nightlife",
+      "tradeoffs": [
+        "Bus from the centre; summer is best.",
+        "Join the trick fountain tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "salzburg-salzburg-untersberg",
+      "name": "Untersberg cable car",
+      "kind": "see",
+      "lat": 47.727,
+      "lon": 13.008,
+      "wiki": "Untersberg",
+      "summary": "A cable car up a mountain over the Salzburg basin.",
+      "expect": "Weather dependent.",
+      "tip": "Go on a clear day.",
+      "area": "Grödig",
+      "duration": 3,
+      "price": [
+        25,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Untersberg%20cable%20car%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Untersberg%20cable%20car%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Untersberg%20cable%20car%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A cable car up a mountain over the Salzburg basin.",
+        "Alpine views near the city."
+      ],
+      "visitFlow": [
+        "Bus.",
+        "Cable car.",
+        "Summit walk."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Weather dependent.",
+        "Go on a clear day."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "salzburg-salzburg-nockerl",
+      "name": "Salzburger Nockerl",
+      "kind": "eat",
+      "lat": 47.799,
+      "lon": 13.045,
+      "wiki": "Salzburger Nockerl",
+      "summary": "A sweet soufflé shaped like Salzburg's three hills.",
+      "expect": "Made to order; takes 20 minutes.",
+      "tip": "Share one.",
+      "area": "Altstadt",
+      "duration": 0.75,
+      "price": [
+        12,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salzburger%20Nockerl%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Salzburger%20Nockerl%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salzburger%20Nockerl%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A sweet soufflé shaped like Salzburg's three hills.",
+        "Salzburg's dessert."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Made to order; takes 20 minutes.",
+        "Share one."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Austrian",
+      "mustOrder": [
+        "Salzburger Nockerl"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "salzburg-salzburg-mozartkugel",
+      "name": "Mozartkugel",
+      "kind": "eat",
+      "lat": 47.799,
+      "lon": 13.044,
+      "wiki": "Mozartkugel",
+      "summary": "Pistachio marzipan and nougat in chocolate, invented here.",
+      "expect": "Fürst makes the original.",
+      "tip": "Buy from Café Konditorei Fürst.",
+      "area": "Altstadt",
+      "duration": 0.25,
+      "price": [
+        2,
+        10
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mozartkugel%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Mozartkugel%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mozartkugel%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pistachio marzipan and nougat in chocolate, invented here.",
+        "The famous sweet."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Fürst makes the original.",
+        "Buy from Café Konditorei Fürst."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Austrian",
+      "mustOrder": [
+        "Mozartkugel"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "salzburg-salzburg-augustiner",
+      "name": "Augustiner Bräu",
+      "kind": "eat",
+      "lat": 47.807,
+      "lon": 13.035,
+      "wiki": "Augustiner Bräu Kloster Mülln",
+      "summary": "A monastery brewery with a huge beer garden and stone mugs.",
+      "expect": "Self-service.",
+      "tip": "Buy food from the stalls.",
+      "area": "Mülln",
+      "duration": 1.5,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Augustiner%20Br%C3%A4u%2C%20Salzburg",
+        "https://www.google.com/maps/search/?api=1&query=Augustiner%20Br%C3%A4u%2C%20Salzburg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Augustiner%20Br%C3%A4u%2C%20Salzburg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A monastery brewery with a huge beer garden and stone mugs.",
+        "Salzburg's best beer garden."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Self-service.",
+        "Buy food from the stalls."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Austrian",
+      "mustOrder": [
+        "Märzen beer",
+        "Pretzel"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
