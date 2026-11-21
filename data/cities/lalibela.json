@@ -71,8 +71,8 @@
       "id": "lalibela-lalibela-bete-giyorgis",
       "name": "Church of Saint George (Bete Giyorgis)",
       "kind": "see",
-      "lat": 12.031,
-      "lon": 39.041,
+      "lat": 12.03174,
+      "lon": 39.04113,
       "wiki": "Church of Saint George, Lalibela",
       "summary": "A perfect cross-shaped church carved straight down into the rock, seen from above as you arrive.",
       "expect": "One ticket covers all the churches for several days; shoes off inside every church.",
@@ -114,14 +114,22 @@
         "One ticket covers all the churches for several days; shoes off inside every church.",
         "Come in late afternoon when the light turns the rock gold."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44592,
+          "period": "202511-202610",
+          "title": "Church of Saint George, Lalibela",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Saint_George%2C_Lalibela",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lalibela-lalibela-medhane-alem",
       "name": "Bete Medhane Alem",
       "kind": "see",
       "lat": 12.0337,
-      "lon": 39.0418,
+      "lon": 39.0437,
       "wiki": "Biete Medhane Alem",
       "summary": "Thought to be the largest monolithic church in the world, ringed by massive carved columns.",
       "expect": "Covered by the same ticket; priests may show the Lalibela gold cross.",
@@ -161,14 +169,22 @@
         "Covered by the same ticket; priests may show the Lalibela gold cross.",
         "Visit early before tour groups."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6818,
+          "period": "202511-202610",
+          "title": "Biete Medhane Alem",
+          "url": "https://en.wikipedia.org/wiki/Biete_Medhane_Alem",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lalibela-lalibela-bete-maryam",
       "name": "Bete Maryam",
       "kind": "see",
-      "lat": 12.0333,
-      "lon": 39.0424,
+      "lat": 12.03371,
+      "lon": 39.04333,
       "wiki": "Biete Maryam",
       "summary": "Perhaps the oldest of the churches, with painted ceilings and carved crosses.",
       "expect": "Next to Medhane Alem, linked by a rock passage.",
@@ -208,14 +224,22 @@
         "Next to Medhane Alem, linked by a rock passage.",
         "Look up at the painted ceiling and the carved stars."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4410,
+          "period": "202511-202610",
+          "title": "Biete Maryam",
+          "url": "https://en.wikipedia.org/wiki/Biete_Maryam",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lalibela-lalibela-eastern-group",
       "name": "Eastern church group",
       "kind": "see",
-      "lat": 12.0315,
-      "lon": 39.0432,
+      "lat": 12.03182,
+      "lon": 39.04556,
       "wiki": "Biete Amanuel",
       "summary": "Bete Amanuel, Bete Gabriel-Rufael and others, linked by dark tunnels and narrow trenches.",
       "expect": "Uneven steps and a pitch-dark tunnel walk (the passage to hell, then light).",
@@ -256,7 +280,15 @@
         "Uneven steps and a pitch-dark tunnel walk (the passage to hell, then light).",
         "Bring a small torch and go with a guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3025,
+          "period": "202511-202610",
+          "title": "Biete Amanuel",
+          "url": "https://en.wikipedia.org/wiki/Biete_Amanuel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lalibela-lalibela-asheton",
@@ -305,7 +337,16 @@
         "About two hours up on foot; a small separate fee.",
         "Start early and bring water."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 80574,
+          "period": "202511-202610",
+          "title": "Lalibela",
+          "url": "https://en.wikipedia.org/wiki/Lalibela",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lalibela-lalibela-yemrehanna",
@@ -531,5 +572,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
