@@ -75,7 +75,7 @@
       "name": "Sanctuary and Grotto of Massabielle",
       "kind": "see",
       "lat": 43.0975,
-      "lon": -0.058,
+      "lon": -0.05833,
       "wiki": "Sanctuary of Our Lady of Lourdes",
       "summary": "The grotto where Bernadette saw the Virgin Mary, with the spring, the baths and three basilicas built above it.",
       "expect": "Free and open to all; queues to touch the grotto wall; quiet is asked near the grotto.",
@@ -115,7 +115,15 @@
         "Free and open to all; queues to touch the grotto wall; quiet is asked near the grotto.",
         "Pass through the grotto early morning, and collect spring water from the taps nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 87061,
+          "period": "202511-202610",
+          "title": "Sanctuary of Our Lady of Lourdes",
+          "url": "https://en.wikipedia.org/wiki/Sanctuary_of_Our_Lady_of_Lourdes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lourdes-lourdes-torchlight",
@@ -161,14 +169,23 @@
         "Daily at 9pm from April to October; buy a candle with a paper shade.",
         "Watch from the ramps above the Rosary Square for the river of lights."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 157991,
+          "period": "202511-202610",
+          "title": "Lourdes",
+          "url": "https://en.wikipedia.org/wiki/Lourdes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lourdes-lourdes-chateau-fort",
       "name": "Château fort de Lourdes",
       "kind": "see",
-      "lat": 43.0947,
-      "lon": -0.0464,
+      "lat": 43.09667,
+      "lon": -0.04917,
       "wiki": "Château fort de Lourdes",
       "summary": "A medieval castle on a rock above the town, now the Pyrenean museum of folk life.",
       "expect": "A lift goes up; good views of the sanctuary and mountains.",
@@ -208,7 +225,15 @@
         "A lift goes up; good views of the sanctuary and mountains.",
         "Come for the view over the basilicas."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4641,
+          "period": "202511-202610",
+          "title": "Château fort de Lourdes",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_fort_de_Lourdes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lourdes-lourdes-bernadette",
@@ -255,14 +280,23 @@
         "Small houses; short visits.",
         "Follow the 'In the footsteps of Bernadette' signs through the old town."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 340806,
+          "period": "202511-202610",
+          "title": "Bernadette Soubirous",
+          "url": "https://en.wikipedia.org/wiki/Bernadette_Soubirous",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lourdes-lourdes-pic-du-jer",
       "name": "Pic du Jer",
       "kind": "see",
-      "lat": 43.087,
-      "lon": -0.039,
+      "lat": 43.08386,
+      "lon": -0.04419,
       "wiki": "Pic du Jer",
       "summary": "A 1900 funicular climbs to a summit with views over Lourdes and the Pyrenees.",
       "expect": "Seasonal; check opening.",
@@ -301,15 +335,14 @@
       "tradeoffs": [
         "Seasonal; check opening.",
         "Go on a clear afternoon and walk down."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "lourdes-lourdes-gavarnie",
       "name": "Cirque de Gavarnie",
       "kind": "see",
-      "lat": 42.695,
-      "lon": -0.009,
+      "lat": 42.69694,
+      "lon": -0.00806,
       "wiki": "Cirque de Gavarnie",
       "summary": "A vast amphitheatre of cliffs and waterfalls, including one of Europe's highest falls.",
       "expect": "About an hour's drive; a flat walk of an hour each way.",
@@ -349,8 +382,16 @@
         "About an hour's drive; a flat walk of an hour each way.",
         "Go in June when the waterfalls are full."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11944,
+          "period": "202511-202610",
+          "title": "Cirque de Gavarnie",
+          "url": "https://en.wikipedia.org/wiki/Cirque_de_Gavarnie",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lourdes-lourdes-garbure",
@@ -529,5 +570,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

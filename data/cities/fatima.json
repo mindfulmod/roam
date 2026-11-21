@@ -69,8 +69,8 @@
       "id": "fatima-fatima-sanctuary",
       "name": "Sanctuary of Fátima",
       "kind": "see",
-      "lat": 39.6317,
-      "lon": -8.6726,
+      "lat": 39.63213,
+      "lon": -8.67179,
       "wiki": "Sanctuary of Fátima",
       "summary": "A huge esplanade between the Basilica of Our Lady of the Rosary and the modern Basilica of the Holy Trinity.",
       "expect": "Free and open to all; some pilgrims cross the esplanade on their knees.",
@@ -110,7 +110,15 @@
         "Free and open to all; some pilgrims cross the esplanade on their knees.",
         "Attend the evening rosary and candlelit procession."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 57936,
+          "period": "202511-202610",
+          "title": "Sanctuary of Fátima",
+          "url": "https://en.wikipedia.org/wiki/Sanctuary_of_F%C3%A1tima",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fatima-fatima-chapel",
@@ -156,7 +164,16 @@
         "Masses throughout the day; candles burn beside it.",
         "Join the 9:30pm rosary procession, which begins here."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9766,
+          "period": "202511-202610",
+          "title": "Chapel of the Apparitions",
+          "url": "https://en.wikipedia.org/wiki/Chapel_of_the_Apparitions",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fatima-fatima-aljustrel",
@@ -203,14 +220,23 @@
         "A 2 km walk from the sanctuary.",
         "Walk the Via Sacra and visit the Valinhos apparition site on the way."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 87066,
+          "period": "202511-202610",
+          "title": "Francisco and Jacinta Marto",
+          "url": "https://en.wikipedia.org/wiki/Francisco_and_Jacinta_Marto",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fatima-fatima-batalha",
       "name": "Batalha Monastery",
       "kind": "see",
-      "lat": 39.659,
-      "lon": -8.826,
+      "lat": 39.65917,
+      "lon": -8.82611,
       "wiki": "Batalha Monastery",
       "summary": "A Gothic masterpiece with lacy stone and the roofless 'Unfinished Chapels'.",
       "expect": "About 20 minutes by car.",
@@ -250,14 +276,22 @@
         "About 20 minutes by car.",
         "Don't miss the Unfinished Chapels."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29326,
+          "period": "202511-202610",
+          "title": "Batalha Monastery",
+          "url": "https://en.wikipedia.org/wiki/Batalha_Monastery",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fatima-fatima-tomar",
       "name": "Convent of Christ, Tomar",
       "kind": "see",
-      "lat": 39.6036,
-      "lon": -8.419,
+      "lat": 39.60472,
+      "lon": -8.4175,
       "wiki": "Convent of Christ (Tomar)",
       "summary": "The Knights Templar's castle-convent, with a round church and a famous Manueline window.",
       "expect": "About 30 minutes by car.",
@@ -297,13 +331,21 @@
         "About 30 minutes by car.",
         "See the round Charola and the Manueline window."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20086,
+          "period": "202511-202610",
+          "title": "Convent of Christ (Tomar)",
+          "url": "https://en.wikipedia.org/wiki/Convent_of_Christ_(Tomar)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fatima-fatima-alcobaca",
       "name": "Alcobaça Monastery",
       "kind": "see",
-      "lat": 39.548,
+      "lat": 39.54833,
       "lon": -8.98,
       "wiki": "Alcobaça Monastery",
       "summary": "A vast Cistercian monastery with the tombs of the tragic lovers Pedro and Inês.",
@@ -344,7 +386,15 @@
         "About 35 minutes by car.",
         "Combine with Batalha and Nazaré in one day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19780,
+          "period": "202511-202610",
+          "title": "Alcobaça Monastery",
+          "url": "https://en.wikipedia.org/wiki/Alcoba%C3%A7a_Monastery",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fatima-fatima-leitao",
@@ -523,5 +573,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

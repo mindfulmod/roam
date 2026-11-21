@@ -68,8 +68,8 @@
       "id": "santiago-de-compostela-santiago-de-compostela-cathedral",
       "name": "Santiago de Compostela Cathedral",
       "kind": "see",
-      "lat": 42.8806,
-      "lon": -8.5446,
+      "lat": 42.88056,
+      "lon": -8.54444,
       "wiki": "Santiago de Compostela Cathedral",
       "summary": "The Romanesque cathedral over the tomb of St James, with the Portico of Glory and the giant swinging censer.",
       "expect": "Free entry to the church; book for the Portico of Glory and the roof tour.",
@@ -110,14 +110,22 @@
         "Free entry to the church; book for the Portico of Glory and the roof tour.",
         "Check when the botafumeiro will swing (usually at the evening pilgrim Mass and on Fridays)."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 105606,
+          "period": "202511-202610",
+          "title": "Santiago de Compostela Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Santiago_de_Compostela_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santiago-de-compostela-santiago-de-compostela-obradoiro",
       "name": "Praza do Obradoiro",
       "kind": "see",
-      "lat": 42.8805,
-      "lon": -8.5455,
+      "lat": 42.8806,
+      "lon": -8.5458,
       "wiki": "Praza do Obradoiro",
       "summary": "The great square in front of the cathedral where pilgrims finish their walk.",
       "expect": "Emotional arrivals all day.",
@@ -157,7 +165,15 @@
         "Emotional arrivals all day.",
         "Sit on the stones at midday to watch pilgrims arrive."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4413,
+          "period": "202511-202610",
+          "title": "Plaza del Obradoiro",
+          "url": "https://en.wikipedia.org/wiki/Plaza_del_Obradoiro",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santiago-de-compostela-santiago-de-compostela-old-town",
@@ -204,7 +220,16 @@
         "Lively at night.",
         "Do a tapas crawl down Rúa do Franco."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 719,
+          "period": "202511-202610",
+          "title": "Old Town of Santiago de Compostela",
+          "url": "https://en.wikipedia.org/wiki/Old_Town_of_Santiago_de_Compostela",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santiago-de-compostela-santiago-de-compostela-museum",
@@ -250,14 +275,23 @@
         "Small; closed Mondays.",
         "Visit before walking the old town to understand it."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 296060,
+          "period": "202511-202610",
+          "title": "Santiago de Compostela",
+          "url": "https://en.wikipedia.org/wiki/Santiago_de_Compostela",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santiago-de-compostela-santiago-de-compostela-monte-do-gozo",
       "name": "Monte do Gozo",
       "kind": "see",
-      "lat": 42.889,
-      "lon": -8.495,
+      "lat": 42.8894,
+      "lon": -8.4938,
       "wiki": "Monte do Gozo",
       "summary": "The 'Hill of Joy' where pilgrims get their first sight of the cathedral spires.",
       "expect": "A walk or short bus ride.",
@@ -297,14 +331,22 @@
         "A walk or short bus ride.",
         "Walk the last 5 km of the Camino into town from here."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3483,
+          "period": "202511-202610",
+          "title": "Monte do Gozo",
+          "url": "https://en.wikipedia.org/wiki/Monte_do_Gozo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santiago-de-compostela-santiago-de-compostela-finisterre",
       "name": "Cape Finisterre",
       "kind": "see",
-      "lat": 42.8826,
-      "lon": -9.2715,
+      "lat": 42.8825,
+      "lon": -9.27222,
       "wiki": "Cape Finisterre",
       "summary": "The rocky cape once thought to be the end of the world, where many pilgrims continue to watch the sunset.",
       "expect": "About 90 minutes by car or bus.",
@@ -344,8 +386,16 @@
         "About 90 minutes by car or bus.",
         "Stay for sunset at the lighthouse."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 34733,
+          "period": "202511-202610",
+          "title": "Cape Finisterre",
+          "url": "https://en.wikipedia.org/wiki/Cape_Finisterre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santiago-de-compostela-santiago-de-compostela-pulpo",
@@ -410,8 +460,8 @@
       "id": "santiago-de-compostela-santiago-de-compostela-abastos",
       "name": "Mercado de Abastos",
       "kind": "eat",
-      "lat": 42.88,
-      "lon": -8.541,
+      "lat": 42.87997,
+      "lon": -8.54119,
       "wiki": "Galician cuisine",
       "summary": "The city's covered market, where stalls will cook the seafood you buy.",
       "expect": "Mornings; closed Sundays.",
@@ -451,7 +501,6 @@
         "Mornings; closed Sundays.",
         "Buy shellfish and have it cooked at the market bar."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -524,5 +573,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
