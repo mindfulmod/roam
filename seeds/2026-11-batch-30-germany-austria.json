@@ -1,0 +1,2678 @@
+[
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are now widely accepted, but many bakeries, beer halls and small shops still prefer cash.",
+  "seasons": "LLLSSHHHSSLS",
+  "id": "hamburg",
+  "name": "Hamburg",
+  "at": [
+   53.5511,
+   9.9937
+  ],
+  "wiki": "Hamburg",
+  "cover": "Elbphilharmonie",
+  "tagline": "A harbour city of canals and concert halls",
+  "summary": "Germany's great port city has more bridges than Venice, red-brick warehouses in the Speicherstadt and the soaring Elbphilharmonie concert hall. Its harbour, lakes and lively St. Pauli nightlife make it one of Europe's most underrated cities.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "May to September is mildest. It's often grey and rainy. December brings Christmas markets, and the Hafengeburtstag harbour festival is in May.",
+  "arrival": "Hamburg Airport is 25 minutes from the centre by S-Bahn. Trains from Berlin take under 2 hours.",
+  "gettingAround": "U-Bahn, S-Bahn, buses and harbour ferries (lines 62 and 72) share one ticket.",
+  "dailyBudget": [
+   90,
+   250
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Fischbrötchen (fish sandwiches), Franzbrötchen cinnamon pastries and Labskaus.",
+  "buyTip": "Maritime goods, coffee and Hamburg design.",
+  "baseArea": "Altstadt, Neustadt or St. Georg",
+  "hotel": [
+   100,
+   280
+  ],
+  "connections": [
+   {
+    "to": "berlin",
+    "mode": "Train",
+    "minutes": 110,
+    "note": "ICE trains."
+   },
+   {
+    "to": "copenhagen",
+    "mode": "Train",
+    "minutes": 280,
+    "note": "Direct trains."
+   },
+   {
+    "to": "amsterdam",
+    "mode": "Train",
+    "minutes": 320,
+    "note": "Direct trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Elbphilharmonie",
+    "kind": "see",
+    "id": "hamburg-elphi",
+    "at": [
+     53.5413,
+     9.9841
+    ],
+    "wiki": "Elbphilharmonie",
+    "area": "HafenCity",
+    "summary": "A wave-topped glass concert hall on an old warehouse, with a free public plaza.",
+    "expect": "The plaza is free with a timed ticket; concerts sell out.",
+    "tip": "Go to the plaza at sunset.",
+    "why": "Hamburg's new icon.",
+    "flow": [
+     "Escalator.",
+     "Plaza walk."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     2
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Speicherstadt",
+    "kind": "see",
+    "id": "hamburg-speicherstadt",
+    "at": [
+     53.544,
+     9.99
+    ],
+    "wiki": "Speicherstadt",
+    "area": "Speicherstadt",
+    "summary": "The world's largest warehouse district, red-brick buildings on canals.",
+    "expect": "Free to wander; prettiest when lit at night.",
+    "tip": "See the Wasserschloss at dusk.",
+    "why": "A World Heritage site.",
+    "flow": [
+     "Canals.",
+     "Wasserschloss."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Miniatur Wunderland",
+    "kind": "see",
+    "id": "hamburg-miniatur",
+    "at": [
+     53.5437,
+     9.9886
+    ],
+    "wiki": "Miniatur Wunderland",
+    "area": "Speicherstadt",
+    "summary": "The world's largest model railway, with tiny cities, airports and countries.",
+    "expect": "Book a time slot; it gets very busy.",
+    "tip": "Stay for the day-to-night light change.",
+    "why": "Fun for every age.",
+    "flow": [
+     "Model worlds.",
+     "Airport."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Harbour boat tour",
+    "kind": "see",
+    "id": "hamburg-harbour",
+    "at": [
+     53.542,
+     9.97
+    ],
+    "wiki": "Port of Hamburg",
+    "area": "Landungsbrücken",
+    "summary": "Boats among giant container ships and old docks.",
+    "expect": "Public ferry 62 is a cheap tour.",
+    "tip": "Take ferry 62 to Finkenwerder.",
+    "why": "Hamburg's working heart.",
+    "flow": [
+     "Landungsbrücken.",
+     "Ferry 62."
+    ],
+    "hours": 1.5,
+    "price": [
+     4,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Alster lakes",
+    "kind": "see",
+    "id": "hamburg-alster",
+    "at": [
+     53.56,
+     10.0
+    ],
+    "wiki": "Außenalster",
+    "area": "Alster",
+    "summary": "City lakes for sailing, paddling and lakeside walks.",
+    "expect": "Rent a pedal boat or canoe.",
+    "tip": "Take an Alster boat tour.",
+    "why": "Hamburg's lake life.",
+    "flow": [
+     "Jungfernstieg.",
+     "Lake walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "St. Pauli and the Reeperbahn",
+    "kind": "see",
+    "id": "hamburg-reeperbahn",
+    "at": [
+     53.5496,
+     9.96
+    ],
+    "wiki": "Reeperbahn",
+    "area": "St. Pauli",
+    "summary": "The famous nightlife strip where the Beatles played.",
+    "expect": "Very busy on weekends.",
+    "tip": "Visit Beatles-Platz.",
+    "why": "Hamburg's wild side.",
+    "flow": [
+     "Reeperbahn.",
+     "Beatles-Platz."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Fischmarkt",
+    "kind": "see",
+    "id": "hamburg-fischmarkt",
+    "at": [
+     53.545,
+     9.952
+    ],
+    "wiki": "Fischmarkt Hamburg",
+    "area": "Altona",
+    "summary": "A Sunday-morning market from 5 am, with a brass band in the old fish auction hall.",
+    "expect": "Sunday mornings only.",
+    "tip": "Go early with the night owls.",
+    "why": "A Hamburg ritual.",
+    "flow": [
+     "Market.",
+     "Auction hall."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Fischbrötchen",
+    "kind": "eat",
+    "id": "hamburg-fischbroetchen",
+    "at": [
+     53.5455,
+     9.968
+    ],
+    "wiki": "Fischbrötchen",
+    "area": "Landungsbrücken",
+    "venue": "food-area",
+    "summary": "A bread roll with pickled herring, salmon or fried fish.",
+    "expect": "Stands along the harbour.",
+    "tip": "Try Bismarck herring.",
+    "why": "Hamburg's street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     3,
+     7
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "North German",
+    "order": [
+     "Bismarckbrötchen"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Franzbrötchen",
+    "kind": "eat",
+    "id": "hamburg-franzbroetchen",
+    "at": [
+     53.55,
+     9.99
+    ],
+    "wiki": "Franzbrötchen",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "A flattened cinnamon pastry, Hamburg's version of a croissant.",
+    "expect": "Bakeries everywhere.",
+    "tip": "Have one with coffee.",
+    "why": "Hamburg's own pastry.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     2,
+     4
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "North German",
+    "order": [
+     "Franzbrötchen"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Labskaus",
+    "kind": "eat",
+    "id": "hamburg-labskaus",
+    "at": [
+     53.546,
+     9.97
+    ],
+    "wiki": "Labskaus",
+    "area": "Harbour",
+    "venue": "food-area",
+    "summary": "Sailors' corned beef and potato mash with beetroot, herring and egg.",
+    "expect": "Traditional harbour restaurants.",
+    "tip": "Try it once.",
+    "why": "A true sailors' dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     22
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "North German",
+    "order": [
+     "Labskaus"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are now widely accepted, but many bakeries, beer halls and small shops still prefer cash.",
+  "seasons": "LLLSSHHHSSLS",
+  "id": "cologne",
+  "name": "Cologne",
+  "at": [
+   50.9375,
+   6.9603
+  ],
+  "wiki": "Cologne",
+  "cover": "Cologne Cathedral",
+  "tagline": "A Gothic cathedral and Kölsch on the Rhine",
+  "summary": "Cologne's twin-spired cathedral is one of the largest Gothic churches in the world and Germany's most visited landmark. Around it are Roman ruins, great museums, Rhine-side beer halls pouring Kölsch, and one of Europe's biggest carnivals.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "Spring to autumn is best. Carnival peaks in February with street parties. Christmas markets fill the city in December.",
+  "arrival": "Cologne Hauptbahnhof is next to the cathedral. Trains come from Frankfurt (1 hour), Amsterdam (2.5 hours) and Brussels (2 hours).",
+  "gettingAround": "Walk the old town; trams and S-Bahn cover the rest.",
+  "dailyBudget": [
+   80,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Kölsch beer in small glasses, Himmel un Ääd, Halve Hahn and Rhine sauerbraten.",
+  "buyTip": "Eau de Cologne (4711), chocolate and carnival souvenirs.",
+  "baseArea": "Altstadt near the cathedral",
+  "hotel": [
+   90,
+   240
+  ],
+  "connections": [
+   {
+    "to": "amsterdam",
+    "mode": "Train",
+    "minutes": 160,
+    "note": "ICE trains."
+   },
+   {
+    "to": "brussels",
+    "mode": "Train",
+    "minutes": 110,
+    "note": "ICE or Eurostar."
+   },
+   {
+    "to": "berlin",
+    "mode": "Train",
+    "minutes": 270,
+    "note": "ICE trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cologne Cathedral",
+    "kind": "see",
+    "id": "cologne-cathedral",
+    "at": [
+     50.9413,
+     6.9583
+    ],
+    "wiki": "Cologne Cathedral",
+    "area": "Altstadt",
+    "summary": "A 157 m Gothic cathedral that took 600 years to finish, with the Shrine of the Three Kings.",
+    "expect": "Free; a fee for the 533-step tower.",
+    "tip": "Climb the south tower.",
+    "why": "Germany's most visited landmark.",
+    "flow": [
+     "Nave.",
+     "Shrine of the Three Kings.",
+     "Tower."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Hohenzollern Bridge",
+    "kind": "see",
+    "id": "cologne-bridge",
+    "at": [
+     50.9411,
+     6.9654
+    ],
+    "wiki": "Hohenzollern Bridge",
+    "area": "Rhine",
+    "summary": "A railway bridge covered in love locks, with views back to the cathedral.",
+    "expect": "Free to walk.",
+    "tip": "Walk across at sunset to the KölnTriangle.",
+    "why": "The classic Cologne view.",
+    "flow": [
+     "Walk across.",
+     "Riverbank view."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Museum Ludwig",
+    "kind": "see",
+    "id": "cologne-ludwig",
+    "at": [
+     50.9407,
+     6.9606
+    ],
+    "wiki": "Museum Ludwig",
+    "area": "Altstadt",
+    "summary": "Modern art with one of Europe's largest Picasso and pop art collections.",
+    "expect": "Next to the cathedral.",
+    "tip": "See the Warhol and Lichtenstein rooms.",
+    "why": "World-class modern art.",
+    "flow": [
+     "Pop art.",
+     "Picasso."
+    ],
+    "hours": 2,
+    "price": [
+     13,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Romano-Germanic Museum",
+    "kind": "see",
+    "id": "cologne-roman",
+    "at": [
+     50.9408,
+     6.9579
+    ],
+    "wiki": "Romano-Germanic Museum",
+    "area": "Altstadt",
+    "summary": "Roman Cologne's treasures, including the Dionysus mosaic.",
+    "expect": "Partly in a temporary home during renovations.",
+    "tip": "Look for the Dionysus mosaic.",
+    "why": "Cologne's 2,000-year history.",
+    "flow": [
+     "Mosaic.",
+     "Roman glass."
+    ],
+    "hours": 1.5,
+    "price": [
+     6,
+     8
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Chocolate Museum",
+    "kind": "see",
+    "id": "cologne-chocolate",
+    "at": [
+     50.9323,
+     6.9643
+    ],
+    "wiki": "Imhoff-Schokoladenmuseum",
+    "area": "Rheinauhafen",
+    "summary": "A museum of chocolate making with a chocolate fountain.",
+    "expect": "Popular with families.",
+    "tip": "Taste from the fountain.",
+    "why": "A sweet Cologne stop.",
+    "flow": [
+     "Exhibits.",
+     "Chocolate fountain."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     18
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Food"
+    ]
+   },
+   {
+    "name": "KölnTriangle viewing deck",
+    "kind": "see",
+    "id": "cologne-triangle",
+    "at": [
+     50.941,
+     6.974
+    ],
+    "wiki": "KölnTriangle",
+    "area": "Deutz",
+    "summary": "A tower across the Rhine with the best view of the cathedral.",
+    "expect": "Small fee.",
+    "tip": "Go at sunset.",
+    "why": "Cologne's best skyline view.",
+    "flow": [
+     "Lift up.",
+     "Deck."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Aachen Cathedral",
+    "kind": "see",
+    "id": "cologne-aachen",
+    "at": [
+     50.7747,
+     6.0839
+    ],
+    "wiki": "Aachen Cathedral",
+    "area": "Aachen",
+    "summary": "Charlemagne's chapel, the coronation church of German kings.",
+    "expect": "About an hour by train.",
+    "tip": "Visit the treasury.",
+    "why": "Germany's first World Heritage site.",
+    "flow": [
+     "Train to Aachen.",
+     "Cathedral.",
+     "Treasury."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kölsch beer hall",
+    "kind": "eat",
+    "id": "cologne-koelsch",
+    "at": [
+     50.94,
+     6.959
+    ],
+    "wiki": "Kölsch (beer)",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Small glasses of light Kölsch beer kept coming by waiters called Köbes.",
+    "expect": "Put a beer mat on your glass to stop.",
+    "tip": "Try Früh am Dom.",
+    "why": "Cologne's beer culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     2,
+     3
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Rhineland",
+    "order": [
+     "Kölsch"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Himmel un Ääd",
+    "kind": "eat",
+    "id": "cologne-himmel",
+    "at": [
+     50.939,
+     6.96
+    ],
+    "wiki": "Himmel und Erde",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "'Heaven and earth': mashed potato and apple with black pudding and fried onions.",
+    "expect": "On beer hall menus.",
+    "tip": "Try it with Kölsch.",
+    "why": "Rhineland home cooking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Rhineland",
+    "order": [
+     "Himmel un Ääd"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Halve Hahn",
+    "kind": "eat",
+    "id": "cologne-halve-hahn",
+    "at": [
+     50.94,
+     6.958
+    ],
+    "wiki": "Halve Hahn",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "A rye roll with Gouda cheese, mustard and onions, despite the name ('half chicken').",
+    "expect": "A beer hall snack.",
+    "tip": "Order one with a Kölsch.",
+    "why": "A Cologne joke dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Rhineland",
+    "order": [
+     "Halve Hahn"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are now widely accepted, but many bakeries, beer halls and small shops still prefer cash.",
+  "seasons": "LLLSSHHHSSLS",
+  "id": "dresden",
+  "name": "Dresden",
+  "at": [
+   51.0504,
+   13.7373
+  ],
+  "wiki": "Dresden",
+  "cover": "Frauenkirche, Dresden",
+  "tagline": "Florence on the Elbe, rebuilt",
+  "summary": "Dresden's Baroque skyline on the Elbe was destroyed in 1945 and lovingly rebuilt. The Frauenkirche, the Zwinger palace and the dazzling Green Vault treasury make it one of Germany's most beautiful cities, with the sandstone cliffs of Saxon Switzerland nearby.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "May to September is best. The Striezelmarkt, Germany's oldest Christmas market, runs in December.",
+  "arrival": "Trains from Berlin take about 2 hours and from Prague about 2.5 hours.",
+  "gettingAround": "The old town is walkable; trams cover the rest.",
+  "dailyBudget": [
+   80,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Dresdner Stollen, Eierschecke cake and Saxon sauerbraten.",
+  "buyTip": "Meissen porcelain, Stollen and wooden Christmas figures from the Ore Mountains.",
+  "baseArea": "Altstadt or Neustadt",
+  "hotel": [
+   80,
+   200
+  ],
+  "connections": [
+   {
+    "to": "berlin",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Direct trains."
+   },
+   {
+    "to": "prague",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "EuroCity trains along the Elbe."
+   }
+  ],
+  "items": [
+   {
+    "name": "Frauenkirche",
+    "kind": "see",
+    "id": "dresden-frauenkirche",
+    "at": [
+     51.0519,
+     13.7416
+    ],
+    "wiki": "Frauenkirche, Dresden",
+    "area": "Neumarkt",
+    "summary": "A Baroque domed church rebuilt from rubble and reopened in 2005.",
+    "expect": "Free; a fee to climb the dome.",
+    "tip": "Climb the dome for the view.",
+    "why": "A symbol of reconciliation.",
+    "flow": [
+     "Church.",
+     "Dome climb."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Zwinger",
+    "kind": "see",
+    "id": "dresden-zwinger",
+    "at": [
+     51.053,
+     13.734
+    ],
+    "wiki": "Zwinger",
+    "area": "Altstadt",
+    "summary": "A Baroque palace complex with the Old Masters gallery and Raphael's Sistine Madonna.",
+    "expect": "The courtyard is free.",
+    "tip": "See the Sistine Madonna.",
+    "why": "Saxon Baroque at its finest.",
+    "flow": [
+     "Courtyard.",
+     "Old Masters."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Green Vault",
+    "kind": "see",
+    "id": "dresden-green-vault",
+    "at": [
+     51.0525,
+     13.7365
+    ],
+    "wiki": "Green Vault",
+    "area": "Residenzschloss",
+    "summary": "One of Europe's richest treasure chambers, full of jewels and gold.",
+    "expect": "The Historic Green Vault needs a timed ticket.",
+    "tip": "Book the Historic Green Vault ahead.",
+    "why": "A dazzling royal treasury.",
+    "flow": [
+     "Historic Green Vault.",
+     "New Green Vault."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Semperoper",
+    "kind": "see",
+    "id": "dresden-semperoper",
+    "at": [
+     51.0545,
+     13.7356
+    ],
+    "wiki": "Semperoper",
+    "area": "Theaterplatz",
+    "summary": "A grand opera house with guided tours and world-class performances.",
+    "expect": "Tours by day; tickets for evening shows.",
+    "tip": "See an opera if you can.",
+    "why": "One of Europe's great opera houses.",
+    "flow": [
+     "Tour or show.",
+     "Theaterplatz."
+    ],
+    "hours": 1,
+    "price": [
+     13,
+     100
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Brühl's Terrace",
+    "kind": "see",
+    "id": "dresden-bruhl",
+    "at": [
+     51.053,
+     13.743
+    ],
+    "wiki": "Brühl's Terrace",
+    "area": "Elbe",
+    "summary": "The 'balcony of Europe', a promenade above the river.",
+    "expect": "Free.",
+    "tip": "Walk it at sunset.",
+    "why": "The best Elbe views.",
+    "flow": [
+     "Promenade.",
+     "River view."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Procession of Princes",
+    "kind": "see",
+    "id": "dresden-furstenzug",
+    "at": [
+     51.0527,
+     13.7378
+    ],
+    "wiki": "Fürstenzug",
+    "area": "Augustusstraße",
+    "summary": "A 102 m mural of Saxon rulers made of 23,000 porcelain tiles.",
+    "expect": "Free, outdoors.",
+    "tip": "Walk its full length.",
+    "why": "The world's largest porcelain artwork.",
+    "flow": [
+     "Walk the mural.",
+     "Find Augustus the Strong."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Bastei bridge",
+    "kind": "see",
+    "id": "dresden-bastei",
+    "at": [
+     50.962,
+     14.073
+    ],
+    "wiki": "Bastei",
+    "area": "Saxon Switzerland",
+    "summary": "A stone bridge among sandstone towers above the Elbe.",
+    "expect": "About 40 minutes by car or S-Bahn and walk.",
+    "tip": "Go early.",
+    "why": "Saxon Switzerland's famous view.",
+    "flow": [
+     "Travel to Rathen.",
+     "Walk up.",
+     "Bastei bridge."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Dresdner Stollen",
+    "kind": "eat",
+    "id": "dresden-stollen",
+    "at": [
+     51.0505,
+     13.739
+    ],
+    "wiki": "Stollen",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "A rich fruit bread dusted with sugar, a Christmas classic.",
+    "expect": "Best in December.",
+    "tip": "Buy a stollen with the official seal.",
+    "why": "Dresden's famous bake.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     5,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Saxon",
+    "order": [
+     "Stollen"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Eierschecke",
+    "kind": "eat",
+    "id": "dresden-eierschecke",
+    "at": [
+     51.051,
+     13.74
+    ],
+    "wiki": "Eierschecke",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "A three-layer custard cheesecake.",
+    "expect": "Cafés and bakeries.",
+    "tip": "Pair with coffee.",
+    "why": "A Saxon specialty.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Saxon",
+    "order": [
+     "Eierschecke",
+     "Coffee"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Saxon sauerbraten",
+    "kind": "eat",
+    "id": "dresden-sauerbraten",
+    "at": [
+     51.052,
+     13.738
+    ],
+    "wiki": "Sauerbraten",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Marinated pot roast with a raisin gravy and dumplings.",
+    "expect": "Traditional restaurants.",
+    "tip": "Try it with red cabbage.",
+    "why": "Saxon comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     16,
+     24
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Saxon",
+    "order": [
+     "Sauerbraten",
+     "Dumplings"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are now widely accepted, but many bakeries, beer halls and small shops still prefer cash.",
+  "seasons": "LLLSSHHHSSLS",
+  "id": "heidelberg",
+  "name": "Heidelberg",
+  "at": [
+   49.4094,
+   8.6942
+  ],
+  "wiki": "Heidelberg",
+  "cover": "Heidelberg Castle",
+  "tagline": "Germany's romantic university town",
+  "summary": "Heidelberg is Germany's oldest university town, with a red sandstone castle ruin above the Neckar river and a lively old town below. The Philosophers' Walk gives the classic view of the castle and the Old Bridge.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Spring to autumn is best; the castle is illuminated with fireworks three times each summer.",
+  "arrival": "Trains from Frankfurt take about an hour; Frankfurt Airport is about 1 hour by shuttle or train.",
+  "gettingAround": "Walk the old town; a funicular climbs to the castle.",
+  "dailyBudget": [
+   80,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Schnitzel, Maultaschen, Flammkuchen and the chocolate Studentenkuss.",
+  "buyTip": "Studentenkuss chocolates, local wine and university souvenirs.",
+  "baseArea": "Altstadt",
+  "hotel": [
+   90,
+   220
+  ],
+  "connections": [
+   {
+    "to": "munich",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Via Stuttgart or Mannheim."
+   },
+   {
+    "to": "cologne",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Via Mannheim."
+   },
+   {
+    "to": "strasbourg",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Via Karlsruhe."
+   }
+  ],
+  "items": [
+   {
+    "name": "Heidelberg Castle",
+    "kind": "see",
+    "id": "heidelberg-castle",
+    "at": [
+     49.4106,
+     8.7153
+    ],
+    "wiki": "Heidelberg Castle",
+    "area": "Schlossberg",
+    "summary": "A huge red sandstone castle ruin with the world's largest wine barrel.",
+    "expect": "Ticket includes the funicular.",
+    "tip": "Walk up the steps and take the funicular down.",
+    "why": "Germany's most famous ruin.",
+    "flow": [
+     "Funicular.",
+     "Courtyard.",
+     "Great Barrel."
+    ],
+    "hours": 2.5,
+    "price": [
+     9,
+     12
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old Bridge",
+    "kind": "see",
+    "id": "heidelberg-old-bridge",
+    "at": [
+     49.4136,
+     8.71
+    ],
+    "wiki": "Karl Theodor Bridge",
+    "area": "Neckar",
+    "summary": "An 18th-century stone bridge with a gate and a bronze monkey.",
+    "expect": "Free.",
+    "tip": "Touch the monkey's mirror for luck.",
+    "why": "The postcard view.",
+    "flow": [
+     "Bridge gate.",
+     "Monkey statue."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Philosophers' Walk",
+    "kind": "see",
+    "id": "heidelberg-philosophers",
+    "at": [
+     49.416,
+     8.705
+    ],
+    "wiki": "Philosophenweg",
+    "area": "Neuenheim",
+    "summary": "A hillside path with the classic view of the castle and old town.",
+    "expect": "A steep climb up the Snake Path.",
+    "tip": "Go late afternoon when the castle glows.",
+    "why": "Heidelberg's best view.",
+    "flow": [
+     "Snake Path.",
+     "Viewpoint."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Old town and Hauptstraße",
+    "kind": "see",
+    "id": "heidelberg-old-town",
+    "at": [
+     49.41,
+     8.7
+    ],
+    "wiki": "Hauptstraße (Heidelberg)",
+    "area": "Altstadt",
+    "summary": "One of Europe's longest pedestrian streets, with squares and the Church of the Holy Spirit.",
+    "expect": "Busy with students and shoppers.",
+    "tip": "Climb the church tower.",
+    "why": "The heart of Heidelberg.",
+    "flow": [
+     "Market square.",
+     "Holy Spirit Church."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Student Prison",
+    "kind": "see",
+    "id": "heidelberg-student-prison",
+    "at": [
+     49.41,
+     8.706
+    ],
+    "wiki": "Studentenkarzer",
+    "area": "University",
+    "summary": "Cells where unruly students were locked up, covered in their graffiti.",
+    "expect": "Ticket includes the university museum.",
+    "tip": "Read the old graffiti.",
+    "why": "A quirky slice of university life.",
+    "flow": [
+     "Prison.",
+     "Old Aula."
+    ],
+    "hours": 0.75,
+    "price": [
+     4,
+     4
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Königstuhl",
+    "kind": "see",
+    "id": "heidelberg-konigstuhl",
+    "at": [
+     49.4,
+     8.727
+    ],
+    "wiki": "Königstuhl (Odenwald)",
+    "area": "Königstuhl",
+    "summary": "A hilltop above the castle, reached by a historic funicular.",
+    "expect": "Higher funicular from the castle.",
+    "tip": "Ride the old wooden funicular.",
+    "why": "Views over the Rhine plain.",
+    "flow": [
+     "Funicular.",
+     "Summit."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Speyer Cathedral",
+    "kind": "see",
+    "id": "heidelberg-speyer",
+    "at": [
+     49.317,
+     8.442
+    ],
+    "wiki": "Speyer Cathedral",
+    "area": "Speyer",
+    "summary": "The world's largest surviving Romanesque church.",
+    "expect": "About 30 minutes by train.",
+    "tip": "Pair with the Technik Museum.",
+    "why": "A World Heritage cathedral.",
+    "flow": [
+     "Train to Speyer.",
+     "Cathedral.",
+     "Crypt."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Schnitzel",
+    "kind": "eat",
+    "id": "heidelberg-schnitzel",
+    "at": [
+     49.411,
+     8.708
+    ],
+    "wiki": "Schnitzel",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Thin breaded veal or pork with potato salad.",
+    "expect": "Old student taverns serve it.",
+    "tip": "Eat at a historic student tavern.",
+    "why": "A German classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     16,
+     24
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "German",
+    "order": [
+     "Schnitzel",
+     "Potato salad"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Maultaschen",
+    "kind": "eat",
+    "id": "heidelberg-maultaschen",
+    "at": [
+     49.4105,
+     8.705
+    ],
+    "wiki": "Maultasche",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Swabian pasta pockets filled with meat and spinach.",
+    "expect": "In broth or pan-fried.",
+    "tip": "Try them pan-fried with onions.",
+    "why": "Southwest German favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swabian",
+    "order": [
+     "Maultaschen"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Flammkuchen",
+    "kind": "eat",
+    "id": "heidelberg-flammkuchen",
+    "at": [
+     49.411,
+     8.7
+    ],
+    "wiki": "Tarte flambée",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Thin flatbread with crème fraîche, onions and bacon.",
+    "expect": "Wine bars serve it.",
+    "tip": "Share one with local wine.",
+    "why": "A Rhine-region snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "German",
+    "order": [
+     "Flammkuchen",
+     "Riesling"
+    ],
+    "veg": "some",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Austria",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a little cash for mountain huts and small cafés.",
+  "seasons": "LLLSSHPPSSLS",
+  "id": "salzburg",
+  "name": "Salzburg",
+  "at": [
+   47.8095,
+   13.055
+  ],
+  "wiki": "Salzburg",
+  "cover": "Hohensalzburg Fortress",
+  "tagline": "Mozart's Baroque city under a fortress",
+  "summary": "Salzburg is a Baroque gem on the Salzach river, ringed by mountains and crowned by the Hohensalzburg fortress. Mozart was born here, the Sound of Music was filmed here, and its summer festival is one of the world's great music events.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "The Salzburg Festival runs from late July to August, when prices rise. December brings Christmas markets. Spring and autumn are quieter.",
+  "arrival": "Trains from Vienna take 2.5 hours and from Munich 1.5 hours. Salzburg Airport is 20 minutes from the centre.",
+  "gettingAround": "The old town is walkable; buses cover the rest.",
+  "dailyBudget": [
+   90,
+   250
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Salzburger Nockerl soufflé, Mozartkugeln and beer at the Augustiner monastery brewery.",
+  "buyTip": "Mozartkugeln, dirndls and local schnapps.",
+  "baseArea": "Altstadt",
+  "hotel": [
+   100,
+   280
+  ],
+  "connections": [
+   {
+    "to": "vienna",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Railjet trains."
+   },
+   {
+    "to": "munich",
+    "mode": "Train",
+    "minutes": 90,
+    "note": "Direct trains."
+   },
+   {
+    "to": "innsbruck",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Railjet trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Hohensalzburg Fortress",
+    "kind": "see",
+    "id": "salzburg-fortress",
+    "at": [
+     47.7949,
+     13.0477
+    ],
+    "wiki": "Hohensalzburg Fortress",
+    "area": "Festungsberg",
+    "summary": "One of Europe's largest medieval castles, high above the old town.",
+    "expect": "A funicular goes up.",
+    "tip": "Walk down through the Mönchsberg.",
+    "why": "Salzburg's skyline.",
+    "flow": [
+     "Funicular.",
+     "State rooms.",
+     "Views."
+    ],
+    "hours": 2,
+    "price": [
+     13,
+     18
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mozart's Birthplace",
+    "kind": "see",
+    "id": "salzburg-mozart",
+    "at": [
+     47.8,
+     13.0433
+    ],
+    "wiki": "Mozart's birthplace",
+    "area": "Getreidegasse",
+    "summary": "The yellow house where Mozart was born in 1756.",
+    "expect": "Small and busy.",
+    "tip": "Go at opening.",
+    "why": "Mozart's first home.",
+    "flow": [
+     "Rooms.",
+     "Instruments."
+    ],
+    "hours": 1,
+    "price": [
+     13,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mirabell Gardens",
+    "kind": "see",
+    "id": "salzburg-mirabell",
+    "at": [
+     47.8058,
+     13.0419
+    ],
+    "wiki": "Mirabell Palace",
+    "area": "Neustadt",
+    "summary": "Formal gardens with a fortress view, seen in The Sound of Music.",
+    "expect": "Free.",
+    "tip": "See the Do-Re-Mi steps.",
+    "why": "The classic view of Salzburg.",
+    "flow": [
+     "Gardens.",
+     "Pegasus fountain."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Getreidegasse",
+    "kind": "see",
+    "id": "salzburg-getreidegasse",
+    "at": [
+     47.8001,
+     13.042
+    ],
+    "wiki": "Getreidegasse",
+    "area": "Altstadt",
+    "summary": "A narrow shopping lane of wrought-iron signs.",
+    "expect": "Busy all day.",
+    "tip": "Look up at the signs.",
+    "why": "Salzburg's famous street.",
+    "flow": [
+     "Lane.",
+     "Passageways."
+    ],
+    "hours": 0.75,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Salzburg Cathedral",
+    "kind": "see",
+    "id": "salzburg-cathedral",
+    "at": [
+     47.798,
+     13.047
+    ],
+    "wiki": "Salzburg Cathedral",
+    "area": "Domplatz",
+    "summary": "A huge Baroque cathedral where Mozart was baptised.",
+    "expect": "A small fee.",
+    "tip": "Hear an organ concert.",
+    "why": "Baroque grandeur.",
+    "flow": [
+     "Nave.",
+     "Font."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Hellbrunn Palace",
+    "kind": "see",
+    "id": "salzburg-hellbrunn",
+    "at": [
+     47.763,
+     13.061
+    ],
+    "wiki": "Hellbrunn Palace",
+    "area": "Hellbrunn",
+    "summary": "A palace with trick fountains that spray visitors.",
+    "expect": "Bus from the centre; summer is best.",
+    "tip": "Join the trick fountain tour.",
+    "why": "Playful Baroque fun.",
+    "flow": [
+     "Trick fountains.",
+     "Gardens."
+    ],
+    "hours": 2,
+    "price": [
+     14,
+     16
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Untersberg cable car",
+    "kind": "see",
+    "id": "salzburg-untersberg",
+    "at": [
+     47.727,
+     13.008
+    ],
+    "wiki": "Untersberg",
+    "area": "Grödig",
+    "summary": "A cable car up a mountain over the Salzburg basin.",
+    "expect": "Weather dependent.",
+    "tip": "Go on a clear day.",
+    "why": "Alpine views near the city.",
+    "flow": [
+     "Bus.",
+     "Cable car.",
+     "Summit walk."
+    ],
+    "hours": 3,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Salzburger Nockerl",
+    "kind": "eat",
+    "id": "salzburg-nockerl",
+    "at": [
+     47.799,
+     13.045
+    ],
+    "wiki": "Salzburger Nockerl",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "A sweet soufflé shaped like Salzburg's three hills.",
+    "expect": "Made to order; takes 20 minutes.",
+    "tip": "Share one.",
+    "why": "Salzburg's dessert.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Austrian",
+    "order": [
+     "Salzburger Nockerl"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Mozartkugel",
+    "kind": "eat",
+    "id": "salzburg-mozartkugel",
+    "at": [
+     47.799,
+     13.044
+    ],
+    "wiki": "Mozartkugel",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Pistachio marzipan and nougat in chocolate, invented here.",
+    "expect": "Fürst makes the original.",
+    "tip": "Buy from Café Konditorei Fürst.",
+    "why": "The famous sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     2,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Austrian",
+    "order": [
+     "Mozartkugel"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Augustiner Bräu",
+    "kind": "eat",
+    "id": "salzburg-augustiner",
+    "at": [
+     47.807,
+     13.035
+    ],
+    "wiki": "Augustiner Bräu Kloster Mülln",
+    "area": "Mülln",
+    "venue": "food-area",
+    "summary": "A monastery brewery with a huge beer garden and stone mugs.",
+    "expect": "Self-service.",
+    "tip": "Buy food from the stalls.",
+    "why": "Salzburg's best beer garden.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Austrian",
+    "order": [
+     "Märzen beer",
+     "Pretzel"
+    ],
+    "veg": "some",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Austria",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a little cash for mountain huts and small cafés.",
+  "seasons": "HHHSLSPPHSLH",
+  "id": "innsbruck",
+  "name": "Innsbruck",
+  "at": [
+   47.2692,
+   11.4041
+  ],
+  "wiki": "Innsbruck",
+  "cover": "Goldenes Dachl",
+  "tagline": "An imperial city in the Alps",
+  "summary": "Innsbruck sits in a valley ringed by Alpine peaks, with a cable car from the old town to 2,000 m. Its pastel old town has the Golden Roof and the Habsburg palace, and it's a base for skiing in winter and hiking in summer.",
+  "days": 2,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "December to March is ski season; summer is for hiking. Christmas markets fill the old town in December.",
+  "arrival": "Trains from Munich take about 1 hour 45 minutes and from Salzburg 2 hours. Innsbruck Airport is 15 minutes from the centre.",
+  "gettingAround": "Walk the old town; buses and the Nordkette railway go up the mountains. The Innsbruck Card covers lifts and museums.",
+  "dailyBudget": [
+   100,
+   280
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Tiroler Gröstl, Käsespätzle and Kaiserschmarrn.",
+  "buyTip": "Swarovski crystal, Tyrolean speck and schnapps.",
+  "baseArea": "Altstadt",
+  "hotel": [
+   100,
+   280
+  ],
+  "connections": [
+   {
+    "to": "munich",
+    "mode": "Train",
+    "minutes": 105,
+    "note": "Direct trains."
+   },
+   {
+    "to": "salzburg",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Railjet trains."
+   },
+   {
+    "to": "verona",
+    "mode": "Train",
+    "minutes": 210,
+    "note": "Over the Brenner Pass."
+   }
+  ],
+  "items": [
+   {
+    "name": "Golden Roof",
+    "kind": "see",
+    "id": "innsbruck-golden-roof",
+    "at": [
+     47.2686,
+     11.3933
+    ],
+    "wiki": "Goldenes Dachl",
+    "area": "Altstadt",
+    "summary": "A balcony roofed with 2,657 gilded copper tiles.",
+    "expect": "Small museum inside.",
+    "tip": "See it at night.",
+    "why": "The symbol of Innsbruck.",
+    "flow": [
+     "Square.",
+     "Museum."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Nordkette",
+    "kind": "see",
+    "id": "innsbruck-nordkette",
+    "at": [
+     47.308,
+     11.38
+    ],
+    "wiki": "Nordkette",
+    "area": "Nordkette",
+    "summary": "A funicular and cable cars from the city to 2,256 m.",
+    "expect": "Weather can change fast.",
+    "tip": "Go up to Hafelekar on a clear day.",
+    "why": "From city to peaks in 30 minutes.",
+    "flow": [
+     "Hungerburg funicular.",
+     "Seegrube.",
+     "Hafelekar."
+    ],
+    "hours": 3,
+    "price": [
+     45,
+     55
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Imperial Palace",
+    "kind": "see",
+    "id": "innsbruck-hofburg",
+    "at": [
+     47.269,
+     11.395
+    ],
+    "wiki": "Hofburg, Innsbruck",
+    "area": "Altstadt",
+    "summary": "The Habsburgs' Tyrolean palace with grand state rooms.",
+    "expect": "A ticket for the apartments.",
+    "tip": "See the Giant's Hall.",
+    "why": "Imperial Innsbruck.",
+    "flow": [
+     "State rooms.",
+     "Giant's Hall."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Court Church",
+    "kind": "see",
+    "id": "innsbruck-hofkirche",
+    "at": [
+     47.2683,
+     11.3955
+    ],
+    "wiki": "Hofkirche, Innsbruck",
+    "area": "Altstadt",
+    "summary": "A church with 28 larger-than-life bronze statues around an emperor's tomb.",
+    "expect": "Small fee.",
+    "tip": "Look for King Arthur among the statues.",
+    "why": "A unique royal tomb.",
+    "flow": [
+     "Bronze statues.",
+     "Tomb."
+    ],
+    "hours": 0.75,
+    "price": [
+     8,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Art"
+    ]
+   },
+   {
+    "name": "Ambras Castle",
+    "kind": "see",
+    "id": "innsbruck-ambras",
+    "at": [
+     47.256,
+     11.434
+    ],
+    "wiki": "Ambras Castle",
+    "area": "Amras",
+    "summary": "A Renaissance castle with an armour collection and a portrait gallery.",
+    "expect": "Tram and bus from the centre.",
+    "tip": "See the Chamber of Art and Curiosities.",
+    "why": "One of the world's oldest museums.",
+    "flow": [
+     "Armoury.",
+     "Spanish Hall."
+    ],
+    "hours": 2,
+    "price": [
+     16,
+     16
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Bergisel Ski Jump",
+    "kind": "see",
+    "id": "innsbruck-bergisel",
+    "at": [
+     47.249,
+     11.399
+    ],
+    "wiki": "Bergisel Ski Jump",
+    "area": "Bergisel",
+    "summary": "Zaha Hadid's ski jump tower with a café at the top.",
+    "expect": "Lift and stairs.",
+    "tip": "Visit in winter during competitions.",
+    "why": "Olympic history and design.",
+    "flow": [
+     "Lift up.",
+     "Panorama café."
+    ],
+    "hours": 1.5,
+    "price": [
+     11,
+     11
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Swarovski Crystal Worlds",
+    "kind": "see",
+    "id": "innsbruck-swarovski",
+    "at": [
+     47.295,
+     11.602
+    ],
+    "wiki": "Swarovski Crystal Worlds",
+    "area": "Wattens",
+    "summary": "Art installations and chambers of crystal behind a giant's head.",
+    "expect": "Shuttle bus from the centre.",
+    "tip": "Allow a half day.",
+    "why": "A dazzling fantasy.",
+    "flow": [
+     "Shuttle.",
+     "Chambers.",
+     "Garden."
+    ],
+    "hours": 3,
+    "price": [
+     25,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Tiroler Gröstl",
+    "kind": "eat",
+    "id": "innsbruck-groestl",
+    "at": [
+     47.268,
+     11.394
+    ],
+    "wiki": "Tiroler Gröstl",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Fried potatoes, bacon and onions topped with a fried egg.",
+    "expect": "On every Tyrolean menu.",
+    "tip": "Order it in a mountain hut.",
+    "why": "Tyrolean comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     12,
+     16
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tyrolean",
+    "order": [
+     "Gröstl"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Käsespätzle",
+    "kind": "eat",
+    "id": "innsbruck-spaetzle",
+    "at": [
+     47.2685,
+     11.393
+    ],
+    "wiki": "Spätzle",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Soft egg noodles with melted cheese and crispy onions.",
+    "expect": "Hearty and filling.",
+    "tip": "Share one after skiing.",
+    "why": "An Alpine favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     12,
+     16
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tyrolean",
+    "order": [
+     "Käsespätzle"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Kaiserschmarrn",
+    "kind": "eat",
+    "id": "innsbruck-kaiserschmarrn",
+    "at": [
+     47.308,
+     11.38
+    ],
+    "wiki": "Kaiserschmarrn",
+    "area": "Nordkette",
+    "venue": "food-area",
+    "summary": "Shredded fluffy pancake with powdered sugar and plum jam.",
+    "expect": "Mountain huts make it best.",
+    "tip": "Have it at Seegrube.",
+    "why": "The emperor's dessert.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     14
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Austrian",
+    "order": [
+     "Kaiserschmarrn"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Austria",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a little cash for mountain huts and small cafés.",
+  "seasons": "LLLSSHPPSSLS",
+  "id": "hallstatt",
+  "name": "Hallstatt",
+  "at": [
+   47.5622,
+   13.6493
+  ],
+  "wiki": "Hallstatt",
+  "cover": "Hallstätter See",
+  "tagline": "A lakeside village under the mountains",
+  "summary": "Hallstatt is a tiny village squeezed between a lake and steep mountains, with the world's oldest salt mine above it. Its pastel houses and church spire are among the most photographed scenes in Europe, so come early or stay overnight to enjoy it quietly.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "May, June, September and October are calmest. Summer is very busy with day-trippers and tour buses. Winter is snowy and magical, though some sights close.",
+  "arrival": "Trains reach Hallstatt station across the lake, with a short ferry to the village. Salzburg is about 1.5 hours by car. Please respect residents: it is a small village with many visitors.",
+  "gettingAround": "The village is tiny and car-free; ferries and buses link the lake.",
+  "dailyBudget": [
+   100,
+   280
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Lake fish (Reinanke), Kaiserschmarrn and strudel.",
+  "buyTip": "Hallstatt salt, local crafts and schnapps.",
+  "baseArea": "Hallstatt village or Obertraun",
+  "hotel": [
+   120,
+   350
+  ],
+  "connections": [
+   {
+    "to": "salzburg",
+    "mode": "Road",
+    "minutes": 75,
+    "note": "By car, or train and bus."
+   },
+   {
+    "to": "vienna",
+    "mode": "Train",
+    "minutes": 210,
+    "note": "Via Attnang-Puchheim."
+   }
+  ],
+  "items": [
+   {
+    "name": "Hallstatt village",
+    "kind": "see",
+    "id": "hallstatt-village",
+    "at": [
+     47.5622,
+     13.6493
+    ],
+    "wiki": "Hallstatt",
+    "area": "Hallstatt",
+    "summary": "A cluster of old houses and a church spire on the lake shore.",
+    "expect": "Very busy from 10 am to 4 pm.",
+    "tip": "Walk at dawn or dusk.",
+    "why": "One of Europe's most famous views.",
+    "flow": [
+     "Market square.",
+     "Lakeside path.",
+     "Classic viewpoint."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lake Hallstatt",
+    "kind": "see",
+    "id": "hallstatt-lake",
+    "at": [
+     47.57,
+     13.66
+    ],
+    "wiki": "Hallstätter See",
+    "area": "Hallstatt",
+    "summary": "A deep, clear Alpine lake for boat trips and swims.",
+    "expect": "Electric boats for hire.",
+    "tip": "Rent a boat for the village view.",
+    "why": "The village from the water.",
+    "flow": [
+     "Boat hire.",
+     "Lake cruise."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Salt mine",
+    "kind": "see",
+    "id": "hallstatt-salt-mine",
+    "at": [
+     47.562,
+     13.635
+    ],
+    "wiki": "Hallstatt",
+    "area": "Salzberg",
+    "summary": "The world's oldest salt mine, with wooden slides inside.",
+    "expect": "A funicular up; guided tours.",
+    "tip": "Ride the miners' slides.",
+    "why": "7,000 years of salt mining.",
+    "flow": [
+     "Funicular.",
+     "Mine tour.",
+     "Slides."
+    ],
+    "hours": 3,
+    "price": [
+     40,
+     45
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "World Heritage Skywalk",
+    "kind": "see",
+    "id": "hallstatt-skywalk",
+    "at": [
+     47.5615,
+     13.64
+    ],
+    "wiki": "Hallstatt",
+    "area": "Salzberg",
+    "summary": "A viewing platform 360 m above the village and lake.",
+    "expect": "At the top of the funicular.",
+    "tip": "Combine with the salt mine.",
+    "why": "The best view of Hallstatt.",
+    "flow": [
+     "Funicular.",
+     "Skywalk."
+    ],
+    "hours": 0.75,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Five Fingers platform",
+    "kind": "see",
+    "id": "hallstatt-five-fingers",
+    "at": [
+     47.528,
+     13.693
+    ],
+    "wiki": "Dachstein",
+    "area": "Krippenstein",
+    "summary": "A platform with five fingers sticking out over a 400 m drop.",
+    "expect": "Cable car from Obertraun.",
+    "tip": "Go on a clear day.",
+    "why": "A thrilling Alpine view.",
+    "flow": [
+     "Cable car.",
+     "Five Fingers."
+    ],
+    "hours": 3,
+    "price": [
+     35,
+     45
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Dachstein Giant Ice Cave",
+    "kind": "see",
+    "id": "hallstatt-ice-cave",
+    "at": [
+     47.532,
+     13.7
+    ],
+    "wiki": "Dachstein Giant Ice Cave",
+    "area": "Obertraun",
+    "summary": "A cave of ice halls and frozen waterfalls.",
+    "expect": "Open May to October; cold inside.",
+    "tip": "Bring a warm jacket.",
+    "why": "Underground ice cathedrals.",
+    "flow": [
+     "Cable car.",
+     "Guided cave tour."
+    ],
+    "hours": 2,
+    "price": [
+     35,
+     40
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Gosausee",
+    "kind": "see",
+    "id": "hallstatt-gosausee",
+    "at": [
+     47.532,
+     13.52
+    ],
+    "wiki": "Gosausee",
+    "area": "Gosau",
+    "summary": "A lake reflecting the Dachstein glacier.",
+    "expect": "About 30 minutes by car or bus.",
+    "tip": "Walk the lake loop.",
+    "why": "A mirror-like mountain lake.",
+    "flow": [
+     "Drive to Gosau.",
+     "Lake loop."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lake fish (Reinanke)",
+    "kind": "eat",
+    "id": "hallstatt-reinanke",
+    "at": [
+     47.5625,
+     13.649
+    ],
+    "wiki": "Austrian cuisine",
+    "area": "Hallstatt",
+    "venue": "food-area",
+    "summary": "Fresh whitefish from the lake, grilled or smoked.",
+    "expect": "Lakeside restaurants.",
+    "tip": "Order it smoked.",
+    "why": "The village's catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     18,
+     28
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Austrian",
+    "order": [
+     "Reinanke"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Kaiserschmarrn",
+    "kind": "eat",
+    "id": "hallstatt-kaiserschmarrn",
+    "at": [
+     47.5622,
+     13.648
+    ],
+    "wiki": "Kaiserschmarrn",
+    "area": "Hallstatt",
+    "venue": "food-area",
+    "summary": "Shredded pancake with plum jam.",
+    "expect": "Cafés by the lake.",
+    "tip": "Pair with coffee.",
+    "why": "Austria's sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     14
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Austrian",
+    "order": [
+     "Kaiserschmarrn"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Apple strudel",
+    "kind": "eat",
+    "id": "hallstatt-strudel",
+    "at": [
+     47.562,
+     13.6495
+    ],
+    "wiki": "Apple strudel",
+    "area": "Hallstatt",
+    "venue": "food-area",
+    "summary": "Warm apple strudel with vanilla sauce.",
+    "expect": "Cafés and bakeries.",
+    "tip": "Have it on a lake terrace.",
+    "why": "Austrian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Austrian",
+    "order": [
+     "Apfelstrudel"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
