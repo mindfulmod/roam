@@ -2,9 +2,9 @@
 
 Cities still to add, grouped by region and ordered roughly by how many visitors they draw. Tick a city when its seed is merged. "Minor" cities are smaller places people still travel for.
 
-## Done through the pipeline (64)
+## Done through the pipeline (69)
 
-Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca.
+Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato).
 
 ## Europe
 
@@ -32,11 +32,11 @@ Minor: Paraty, Ouro Preto, Jericoacoara, Fernando de Noronha, Bonito, El Chalté
 
 ## North America, Central America and the Caribbean
 
-Major: Los Angeles, San Diego, Seattle, Portland, Chicago, Boston, Washington DC, Philadelphia, Miami, Orlando, New Orleans, Nashville, Austin, Denver, Honolulu, Maui, Anchorage, Santa Fe, Savannah, Charleston, Toronto, Montréal, Québec City, Ottawa, Niagara Falls, Victoria, Whistler, Jasper, Halifax, Cancún, Tulum, Playa del Carmen, Oaxaca, Guadalajara, San Miguel de Allende, Puerto Vallarta, Los Cabos, Mérida, Havana, San Juan, Punta Cana, Nassau, Montego Bay, Panama City, San José (Costa Rica), La Fortuna, Antigua Guatemala, Belize (San Pedro).
+Major: Los Angeles, San Diego, Seattle, Portland, Chicago, Boston, Washington DC, Philadelphia, Miami, Orlando, New Orleans, Nashville, Austin, Denver, Honolulu, Maui, Anchorage, Santa Fe, Savannah, Charleston, Toronto, Montréal, Québec City, Ottawa, Niagara Falls, Victoria, Whistler, Jasper, Halifax, Playa del Carmen, Guadalajara, Puerto Vallarta, Los Cabos, Havana, San Juan, Punta Cana, Nassau, Montego Bay, Panama City, San José (Costa Rica), La Fortuna, Antigua Guatemala, Belize (San Pedro).
 
 US national parks still to cover: Yellowstone (West Yellowstone), Glacier (Whitefish), Great Smoky Mountains (Gatlinburg), Acadia (Bar Harbor), Rocky Mountain (Estes Park), Olympic (Port Angeles), Bryce Canyon, Sequoia, Joshua Tree, Death Valley, Everglades, Denali, Hawaii Volcanoes (Hilo), Page (Antelope Canyon), Monument Valley.
 
-Minor: Sedona, Lake Tahoe, Key West, Napa, Monterey, Palm Springs, Tofino, Lunenburg, Guanajuato, Puebla, San Cristóbal de las Casas, Bacalar, Holbox, Trinidad (Cuba), Roatán, Monteverde, Bocas del Toro, Granada (Nicaragua), Lake Atitlán.
+Minor: Sedona, Lake Tahoe, Key West, Napa, Monterey, Palm Springs, Tofino, Lunenburg, Puebla, San Cristóbal de las Casas, Bacalar, Holbox, Trinidad (Cuba), Roatán, Monteverde, Bocas del Toro, Granada (Nicaragua), Lake Atitlán.
 
 ## Oceania and the Pacific
 
