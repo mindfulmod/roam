@@ -1,0 +1,2625 @@
+[
+ {
+  "country": "Portugal",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and contactless work almost everywhere; carry a few euros for cafés, markets and small boats.",
+  "dailyBudget": [
+   60,
+   160
+  ],
+  "cashPerDay": [
+   15,
+   45
+  ],
+  "id": "lagos",
+  "name": "Lagos · Algarve",
+  "at": [
+   37.1028,
+   -8.673
+  ],
+  "wiki": "Lagos, Portugal",
+  "cover": "Ponta da Piedade",
+  "seasons": "LLSSHPPPHSLL",
+  "tagline": "Golden cliffs, sea caves and Algarve beaches",
+  "summary": "Lagos is the liveliest base on Portugal's Algarve coast, with a walled old town, golden sea stacks at Ponta da Piedade and beautiful cove beaches. From here you can kayak into sea caves, visit Benagil, hike the clifftop Seven Hanging Valleys trail and reach Europe's south-western tip at Sagres.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "June and September are warm and less crowded than July and August. Spring is green and great for hiking. Winter is mild and quiet.",
+  "arrival": "Faro Airport is about 1 hour by car. Trains and buses link Lisbon in about 4 hours.",
+  "gettingAround": "Walk the town; a rental car for beaches; boats and kayaks for the coast.",
+  "foodTip": "Cataplana seafood stew, grilled sardines and piri-piri chicken.",
+  "buyTip": "Cork goods, painted tiles and medronho brandy.",
+  "baseArea": "Lagos old town",
+  "hotel": [
+   70,
+   300
+  ],
+  "connections": [
+   {
+    "to": "lisbon",
+    "mode": "Train",
+    "minutes": 240,
+    "note": "Train or bus; about 3 hours by car."
+   },
+   {
+    "to": "seville",
+    "mode": "Bus",
+    "minutes": 330,
+    "note": "Direct buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Ponta da Piedade",
+    "kind": "see",
+    "id": "lagos-piedade",
+    "at": [
+     37.0806,
+     -8.6697
+    ],
+    "wiki": "Ponta da Piedade",
+    "area": "Lagos",
+    "summary": "Golden sea stacks, arches and grottoes, seen from cliff paths or by boat.",
+    "expect": "Stairs lead down to the water.",
+    "tip": "Take a kayak or small boat into the grottoes.",
+    "why": "The Algarve's most dramatic coast.",
+    "flow": [
+     "Cliff path.",
+     "Boat or kayak."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Benagil Cave",
+    "kind": "see",
+    "id": "lagos-benagil",
+    "at": [
+     37.0874,
+     -8.4267
+    ],
+    "wiki": "Benagil",
+    "area": "Benagil",
+    "summary": "A sea cave with a hole in its dome lighting a hidden beach.",
+    "expect": "Landing inside is no longer allowed; view by boat or kayak.",
+    "tip": "Go early to avoid boat traffic.",
+    "why": "The Algarve's famous cave.",
+    "flow": [
+     "Boat from Benagil.",
+     "Cave view."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Praia da Marinha",
+    "kind": "see",
+    "id": "lagos-marinha",
+    "at": [
+     37.0897,
+     -8.4128
+    ],
+    "wiki": "Praia da Marinha",
+    "area": "Lagoa",
+    "summary": "A cove beach of honey-coloured cliffs and clear water.",
+    "expect": "Steps down from the car park.",
+    "tip": "Swim early before crowds.",
+    "why": "One of Europe's best beaches.",
+    "flow": [
+     "Cliff view.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Seven Hanging Valleys trail",
+    "kind": "see",
+    "id": "lagos-hangingvalleys",
+    "at": [
+     37.09,
+     -8.44
+    ],
+    "wiki": "Seven Hanging Valleys Trail",
+    "area": "Lagoa",
+    "summary": "A 6 km cliff walk from Praia da Marinha to Vale Centeanes.",
+    "expect": "No shade; bring water.",
+    "tip": "Walk it in the morning.",
+    "why": "The best coastal hike.",
+    "flow": [
+     "Start at Marinha.",
+     "Clifftop path.",
+     "Benagil viewpoint."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old town and walls",
+    "kind": "see",
+    "id": "lagos-oldtown",
+    "at": [
+     37.102,
+     -8.674
+    ],
+    "wiki": "Castelo dos Governadores",
+    "area": "Old town",
+    "summary": "Cobbled lanes, city walls and the old slave market museum.",
+    "expect": "Lively at night.",
+    "tip": "Visit the slave market museum.",
+    "why": "Lagos's history.",
+    "flow": [
+     "Walls.",
+     "Slave market museum."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Sagres and Cape St Vincent",
+    "kind": "see",
+    "id": "lagos-sagres",
+    "at": [
+     37.023,
+     -8.997
+    ],
+    "wiki": "Cape St. Vincent",
+    "area": "Sagres",
+    "summary": "Windswept cliffs at Europe's south-west corner, with a lighthouse and fortress.",
+    "expect": "Windy; bring a jacket.",
+    "tip": "Go for sunset.",
+    "why": "The 'end of the world'.",
+    "flow": [
+     "Sagres fortress.",
+     "Cape lighthouse.",
+     "Sunset."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Praia Dona Ana",
+    "kind": "see",
+    "id": "lagos-donaana",
+    "at": [
+     37.09,
+     -8.669
+    ],
+    "wiki": "Praia de Dona Ana",
+    "area": "Lagos",
+    "summary": "A small beach framed by rock stacks, walkable from town.",
+    "expect": "Busy in summer.",
+    "tip": "Swim in the morning.",
+    "why": "The town beach.",
+    "flow": [
+     "Steps down.",
+     "Swim."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cataplana",
+    "kind": "eat",
+    "id": "lagos-cataplana",
+    "at": [
+     37.102,
+     -8.673
+    ],
+    "wiki": "Cataplana",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Seafood stewed in a copper clam-shaped pot.",
+    "expect": "Usually for two.",
+    "tip": "Share it with white wine.",
+    "why": "The Algarve classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Portuguese",
+    "order": [
+     "Cataplana de marisco"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Grilled sardines",
+    "kind": "eat",
+    "id": "lagos-sardines",
+    "at": [
+     37.1,
+     -8.67
+    ],
+    "wiki": "Sardine",
+    "area": "Harbour",
+    "venue": "food-area",
+    "summary": "Fresh sardines grilled over charcoal with bread and salad.",
+    "expect": "Best in summer.",
+    "tip": "Eat them on bread.",
+    "why": "Simple and perfect.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     16
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Portuguese",
+    "order": [
+     "Sardinhas assadas"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Piri-piri chicken",
+    "kind": "eat",
+    "id": "lagos-piripiri",
+    "at": [
+     37.105,
+     -8.67
+    ],
+    "wiki": "Peri-peri",
+    "area": "Lagos",
+    "venue": "food-area",
+    "summary": "Charcoal chicken with fiery piri-piri oil, famous in nearby Guia.",
+    "expect": "Cheap and filling.",
+    "tip": "Ask for extra sauce.",
+    "why": "Algarve's favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Portuguese",
+    "order": [
+     "Frango piri-piri"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Portugal",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and contactless work almost everywhere; carry a few euros for cafés, markets and small boats.",
+  "dailyBudget": [
+   60,
+   160
+  ],
+  "cashPerDay": [
+   15,
+   45
+  ],
+  "id": "funchal",
+  "name": "Funchal · Madeira",
+  "at": [
+   32.6669,
+   -16.9241
+  ],
+  "wiki": "Funchal",
+  "cover": "Funchal",
+  "seasons": "SSSHHSHPSSSP",
+  "tagline": "Madeira's capital of flowers, levadas and wine",
+  "summary": "Funchal is the capital of Madeira, a lush Atlantic island of cliffs, mountains and gardens. Ride a cable car up to Monte and toboggan down in a wicker sled, walk levada irrigation channels through laurel forest, hike between the highest peaks and taste Madeira wine.",
+  "days": 5,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Mild year-round. Spring brings the Flower Festival. New Year's Eve fireworks are world-famous. The north is wetter than the south.",
+  "arrival": "Madeira Airport is 25 minutes from Funchal with flights from Lisbon (under 2 hours) and across Europe.",
+  "gettingAround": "Walk Funchal; rent a car or join tours for the island.",
+  "foodTip": "Espetada beef skewers, black scabbard fish with banana, bolo do caco bread and poncha.",
+  "buyTip": "Madeira wine, embroidery and wicker.",
+  "baseArea": "Funchal old town or the Lido",
+  "hotel": [
+   60,
+   250
+  ],
+  "connections": [
+   {
+    "to": "lisbon",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Frequent flights."
+   },
+   {
+    "to": "porto",
+    "mode": "Flight",
+    "minutes": 120,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Monte cable car and toboggan",
+    "kind": "see",
+    "id": "fun-monte",
+    "at": [
+     32.676,
+     -16.902
+    ],
+    "wiki": "Monte (Funchal)",
+    "area": "Monte",
+    "summary": "A cable car up to Monte's palace gardens, then a ride down in a wicker toboggan steered by men in straw hats.",
+    "expect": "Toboggans run in the daytime.",
+    "tip": "Visit Monte Palace gardens before the toboggan.",
+    "why": "A Madeira classic.",
+    "flow": [
+     "Cable car up.",
+     "Monte gardens.",
+     "Toboggan down."
+    ],
+    "hours": 3,
+    "price": [
+     15,
+     45
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Entertainment",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mercado dos Lavradores",
+    "kind": "see",
+    "id": "fun-market",
+    "at": [
+     32.649,
+     -16.904
+    ],
+    "wiki": "Mercado dos Lavradores",
+    "area": "Centre",
+    "summary": "A tiled market of exotic fruit, flowers and a fish hall.",
+    "expect": "Fruit sellers charge tourist prices.",
+    "tip": "Visit the fish hall for scabbard fish.",
+    "why": "Funchal's colourful heart.",
+    "flow": [
+     "Fruit hall.",
+     "Fish hall."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Zona Velha old town",
+    "kind": "see",
+    "id": "fun-oldtown",
+    "at": [
+     32.648,
+     -16.902
+    ],
+    "wiki": "Funchal",
+    "area": "Old town",
+    "summary": "Lanes of painted doors, bars and restaurants.",
+    "expect": "Lively at night.",
+    "tip": "Walk Rua de Santa Maria.",
+    "why": "Art on every door.",
+    "flow": [
+     "Painted doors.",
+     "Dinner."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Art",
+     "Food"
+    ]
+   },
+   {
+    "name": "Levada walk",
+    "kind": "see",
+    "id": "fun-levada",
+    "at": [
+     32.748,
+     -17.13
+    ],
+    "wiki": "Levada",
+    "area": "Central mountains",
+    "summary": "Walks along irrigation channels through laurel forest to waterfalls, such as 25 Fontes.",
+    "expect": "Wear good shoes; some routes need a torch.",
+    "tip": "Book a guide or shuttle.",
+    "why": "Madeira's signature hike.",
+    "flow": [
+     "Trailhead.",
+     "Levada path.",
+     "Waterfalls."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Pico do Arieiro to Pico Ruivo",
+    "kind": "see",
+    "id": "fun-arieiro",
+    "at": [
+     32.7354,
+     -16.9286
+    ],
+    "wiki": "Pico do Arieiro",
+    "area": "Central peaks",
+    "summary": "A dramatic ridge hike between Madeira's highest peaks above the clouds.",
+    "expect": "Check trail status; some sections close.",
+    "tip": "Start at sunrise.",
+    "why": "One of Europe's great hikes.",
+    "flow": [
+     "Sunrise at Arieiro.",
+     "Ridge path.",
+     "Pico Ruivo."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Cabo Girão skywalk",
+    "kind": "see",
+    "id": "fun-cabogirao",
+    "at": [
+     32.656,
+     -17.005
+    ],
+    "wiki": "Cabo Girão",
+    "area": "Câmara de Lobos",
+    "summary": "A glass platform on one of Europe's highest sea cliffs.",
+    "expect": "Free.",
+    "tip": "Stop at Câmara de Lobos for poncha.",
+    "why": "A vertigo view.",
+    "flow": [
+     "Skywalk.",
+     "Fishing village."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Porto Moniz pools",
+    "kind": "see",
+    "id": "fun-portomoniz",
+    "at": [
+     32.867,
+     -17.17
+    ],
+    "wiki": "Porto Moniz",
+    "area": "North-west",
+    "summary": "Natural volcanic rock pools filled by the Atlantic.",
+    "expect": "Small entry fee.",
+    "tip": "Combine with the north coast drive.",
+    "why": "Swimming in lava pools.",
+    "flow": [
+     "Drive.",
+     "Pools."
+    ],
+    "hours": 4,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Espetada",
+    "kind": "eat",
+    "id": "fun-espetada",
+    "at": [
+     32.648,
+     -16.9
+    ],
+    "wiki": "Espetada",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Garlic beef skewers hung from a stand, with fried maize.",
+    "expect": "Traditional restaurants.",
+    "tip": "Order milho frito on the side.",
+    "why": "Madeira's feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     18,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Madeiran",
+    "order": [
+     "Espetada",
+     "Milho frito"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Black scabbard fish with banana",
+    "kind": "eat",
+    "id": "fun-espada",
+    "at": [
+     32.649,
+     -16.905
+    ],
+    "wiki": "Black scabbardfish",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Fried deep-sea fish served with banana and passion fruit sauce.",
+    "expect": "On most menus.",
+    "tip": "Try it once.",
+    "why": "A Madeiran oddity that works.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     22
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Madeiran",
+    "order": [
+     "Espada com banana"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Poncha and bolo do caco",
+    "kind": "eat",
+    "id": "fun-poncha",
+    "at": [
+     32.65,
+     -16.91
+    ],
+    "wiki": "Poncha",
+    "area": "Câmara de Lobos",
+    "venue": "food-area",
+    "summary": "Sugar-cane rum with honey and lemon, plus garlic-butter flatbread.",
+    "expect": "Poncha is strong.",
+    "tip": "Try the original at Câmara de Lobos.",
+    "why": "Island drinks and snacks.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     8
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Madeiran",
+    "order": [
+     "Poncha",
+     "Bolo do caco"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Portugal",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and contactless work almost everywhere; carry a few euros for cafés, markets and small boats.",
+  "dailyBudget": [
+   60,
+   160
+  ],
+  "cashPerDay": [
+   15,
+   45
+  ],
+  "id": "ponta-delgada",
+  "name": "Ponta Delgada · Azores",
+  "at": [
+   37.7412,
+   -25.6756
+  ],
+  "wiki": "Ponta Delgada",
+  "cover": "Lagoa das Sete Cidades",
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "Crater lakes, hot springs and whales mid-Atlantic",
+  "summary": "Ponta Delgada is the gateway to São Miguel, the largest island of the Azores. Volcanic crater lakes, steaming hot springs, tea plantations and whale-watching trips make it one of Europe's best nature escapes.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is warmest and calmest. Weather changes fast all year; bring layers. Whales are seen year-round, with most species in spring.",
+  "arrival": "Ponta Delgada Airport has flights from Lisbon (about 2 hours) and some from North America.",
+  "gettingAround": "Rent a car; buses are limited.",
+  "foodTip": "Cozido das Furnas cooked in volcanic ground, limpets, local cheese and pineapple.",
+  "buyTip": "Gorreana tea, Azorean pineapples and São Jorge cheese.",
+  "baseArea": "Ponta Delgada centre",
+  "hotel": [
+   60,
+   220
+  ],
+  "connections": [
+   {
+    "to": "lisbon",
+    "mode": "Flight",
+    "minutes": 135,
+    "note": "Frequent flights."
+   },
+   {
+    "to": "porto",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Sete Cidades lakes",
+    "kind": "see",
+    "id": "pdl-setecidades",
+    "at": [
+     37.859,
+     -25.788
+    ],
+    "wiki": "Lagoa das Sete Cidades",
+    "area": "Sete Cidades",
+    "summary": "Twin blue and green lakes in a huge volcanic crater.",
+    "expect": "Cloud can hide the view; check webcams.",
+    "tip": "See it from Vista do Rei.",
+    "why": "The Azores' iconic view.",
+    "flow": [
+     "Vista do Rei.",
+     "Crater rim walk."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Furnas hot springs",
+    "kind": "see",
+    "id": "pdl-furnas",
+    "at": [
+     37.772,
+     -25.311
+    ],
+    "wiki": "Furnas",
+    "area": "Furnas",
+    "summary": "A valley of fumaroles, thermal pools and stews cooked underground.",
+    "expect": "Bring an old swimsuit; iron water stains.",
+    "tip": "Bathe in Poça da Dona Beija at night.",
+    "why": "Volcanic wellness.",
+    "flow": [
+     "Fumaroles.",
+     "Thermal pools."
+    ],
+    "hours": 5,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lagoa do Fogo",
+    "kind": "see",
+    "id": "pdl-fogo",
+    "at": [
+     37.765,
+     -25.482
+    ],
+    "wiki": "Lagoa do Fogo",
+    "area": "Central",
+    "summary": "A wild crater lake with white beaches, high in the mountains.",
+    "expect": "Viewpoint off the road; trail down.",
+    "tip": "Hike down to the shore.",
+    "why": "Untouched nature.",
+    "flow": [
+     "Viewpoint.",
+     "Trail down."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Whale watching",
+    "kind": "see",
+    "id": "pdl-whales",
+    "at": [
+     37.73,
+     -25.67
+    ],
+    "wiki": "Whale watching",
+    "area": "Marina",
+    "summary": "Boat trips to see sperm whales, dolphins and seasonal blue whales.",
+    "expect": "Seasickness possible.",
+    "tip": "Choose an operator with lookouts.",
+    "why": "One of the world's best whale spots.",
+    "flow": [
+     "Marina.",
+     "Boat.",
+     "Sightings."
+    ],
+    "hours": 3,
+    "price": [
+     60,
+     70
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Terra Nostra Garden",
+    "kind": "see",
+    "id": "pdl-terranostra",
+    "at": [
+     37.772,
+     -25.317
+    ],
+    "wiki": "Terra Nostra Park",
+    "area": "Furnas",
+    "summary": "Botanical gardens with a warm iron-orange thermal pool.",
+    "expect": "Swimsuit will stain.",
+    "tip": "Swim, then lunch on cozido.",
+    "why": "A unique bath.",
+    "flow": [
+     "Gardens.",
+     "Thermal pool."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Gorreana tea plantation",
+    "kind": "see",
+    "id": "pdl-gorreana",
+    "at": [
+     37.82,
+     -25.404
+    ],
+    "wiki": "Gorreana Tea Estate",
+    "area": "North coast",
+    "summary": "Europe's oldest tea plantation, still working with free tastings.",
+    "expect": "Free.",
+    "tip": "Walk the tea rows.",
+    "why": "Tea in Europe.",
+    "flow": [
+     "Factory.",
+     "Tasting."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Portas da Cidade",
+    "kind": "see",
+    "id": "pdl-portas",
+    "at": [
+     37.7396,
+     -25.668
+    ],
+    "wiki": "Portas da Cidade",
+    "area": "Centre",
+    "summary": "Triple-arched city gates and black-and-white basalt streets.",
+    "expect": "Free.",
+    "tip": "Walk the waterfront at sunset.",
+    "why": "Ponta Delgada's symbol.",
+    "flow": [
+     "Gates.",
+     "Waterfront."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Cozido das Furnas",
+    "kind": "eat",
+    "id": "pdl-cozido",
+    "at": [
+     37.772,
+     -25.31
+    ],
+    "wiki": "Cozido",
+    "area": "Furnas",
+    "venue": "food-area",
+    "summary": "Meat and vegetables slow-cooked for hours in volcanic ground.",
+    "expect": "Pots come out around noon.",
+    "tip": "Watch them lift the pots.",
+    "why": "Cooked by the volcano.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     18,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Azorean",
+    "order": [
+     "Cozido das Furnas"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Lapas (limpets)",
+    "kind": "eat",
+    "id": "pdl-lapas",
+    "at": [
+     37.74,
+     -25.67
+    ],
+    "wiki": "Limpet",
+    "area": "Marina",
+    "venue": "food-area",
+    "summary": "Grilled limpets with garlic butter and lemon.",
+    "expect": "Seafood restaurants.",
+    "tip": "Mop up the butter with bread.",
+    "why": "An island treat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     16
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Azorean",
+    "order": [
+     "Lapas"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Azorean pineapple and queijadas",
+    "kind": "eat",
+    "id": "pdl-pineapple",
+    "at": [
+     37.75,
+     -25.64
+    ],
+    "wiki": "Pineapple",
+    "area": "Fajã de Baixo",
+    "venue": "food-area",
+    "summary": "Pineapples grown in glasshouses, plus sweet cheese tarts.",
+    "expect": "Visit a plantation.",
+    "tip": "Try pineapple liqueur.",
+    "why": "Island sweets.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Azorean",
+    "order": [
+     "Ananás",
+     "Queijadas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Croatia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted; carry euro cash for ferries, markets and small konobas.",
+  "dailyBudget": [
+   60,
+   170
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "split",
+  "name": "Split",
+  "at": [
+   43.5081,
+   16.4402
+  ],
+  "wiki": "Split, Croatia",
+  "cover": "Diocletian's Palace",
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "A living Roman palace on the Dalmatian coast",
+  "summary": "Split's old town grew inside the walls of Roman Emperor Diocletian's palace, where cafés now fill 1,700-year-old courtyards. It's Croatia's ferry hub for islands like Hvar and Brač, with Krka's waterfalls and medieval Trogir nearby.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "June and September are warm with fewer crowds. July and August are hot and packed. Winter is quiet and mild.",
+  "arrival": "Split Airport is 30 minutes away. Buses from Zagreb take about 5 hours; ferries link the islands.",
+  "gettingAround": "Walk the centre; buses and ferries for day trips.",
+  "foodTip": "Pašticada beef stew, black risotto, burek and peka.",
+  "buyTip": "Olive oil, lavender, wine and local jewellery.",
+  "baseArea": "Inside or near the palace",
+  "hotel": [
+   70,
+   250
+  ],
+  "connections": [
+   {
+    "to": "dubrovnik",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Catamarans in summer."
+   },
+   {
+    "to": "zagreb",
+    "mode": "Bus",
+    "minutes": 300,
+    "note": "Flights take about 50 minutes."
+   },
+   {
+    "to": "hvar",
+    "mode": "Ferry",
+    "minutes": 60,
+    "note": "Catamarans to Hvar town."
+   }
+  ],
+  "items": [
+   {
+    "name": "Diocletian's Palace",
+    "kind": "see",
+    "id": "split-palace",
+    "at": [
+     43.5083,
+     16.44
+    ],
+    "wiki": "Diocletian's Palace",
+    "area": "Old town",
+    "summary": "A 4th-century Roman palace whose walls hold the old town, with cellars and the Peristyle.",
+    "expect": "Free to wander; cellars have a fee.",
+    "tip": "Visit the cellars, then the Peristyle at night.",
+    "why": "A World Heritage living palace.",
+    "flow": [
+     "Peristyle.",
+     "Cellars.",
+     "Golden Gate."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Cathedral of St Domnius",
+    "kind": "see",
+    "id": "split-cathedral",
+    "at": [
+     43.5079,
+     16.4402
+    ],
+    "wiki": "Cathedral of Saint Domnius",
+    "area": "Old town",
+    "summary": "Diocletian's mausoleum turned cathedral, with a bell tower to climb.",
+    "expect": "Combined ticket.",
+    "tip": "Climb the bell tower.",
+    "why": "The oldest cathedral building in use.",
+    "flow": [
+     "Cathedral.",
+     "Bell tower."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Riva promenade",
+    "kind": "see",
+    "id": "split-riva",
+    "at": [
+     43.507,
+     16.438
+    ],
+    "wiki": "Split",
+    "area": "Waterfront",
+    "summary": "A palm-lined seafront of cafés facing the harbour.",
+    "expect": "Busy all day.",
+    "tip": "Have coffee here in the morning.",
+    "why": "Split's living room.",
+    "flow": [
+     "Promenade.",
+     "Café."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ]
+   },
+   {
+    "name": "Marjan hill",
+    "kind": "see",
+    "id": "split-marjan",
+    "at": [
+     43.51,
+     16.415
+    ],
+    "wiki": "Marjan (Split)",
+    "area": "West",
+    "summary": "A forested hill with views, chapels and swimming coves.",
+    "expect": "Steps from the old town.",
+    "tip": "Climb to the first viewpoint at sunset.",
+    "why": "Nature next to the city.",
+    "flow": [
+     "Steps up.",
+     "Viewpoints.",
+     "Coves."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Trogir",
+    "kind": "see",
+    "id": "split-trogir",
+    "at": [
+     43.517,
+     16.251
+    ],
+    "wiki": "Trogir",
+    "area": "Trogir",
+    "summary": "A medieval island town of churches and palaces.",
+    "expect": "Boat or bus from Split.",
+    "tip": "Visit the cathedral portal.",
+    "why": "A World Heritage town.",
+    "flow": [
+     "Bus or boat.",
+     "Old town.",
+     "Cathedral."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Krka National Park",
+    "kind": "see",
+    "id": "split-krka",
+    "at": [
+     43.806,
+     15.962
+    ],
+    "wiki": "Krka National Park",
+    "area": "Krka",
+    "summary": "Cascading waterfalls and boardwalks over turquoise pools.",
+    "expect": "Swimming no longer allowed.",
+    "tip": "Go early.",
+    "why": "Croatia's famous falls.",
+    "flow": [
+     "Drive.",
+     "Skradinski Buk falls.",
+     "Boardwalks."
+    ],
+    "hours": 7,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Klis Fortress",
+    "kind": "see",
+    "id": "split-klis",
+    "at": [
+     43.56,
+     16.524
+    ],
+    "wiki": "Klis Fortress",
+    "area": "Klis",
+    "summary": "A clifftop fortress used as Meereen in Game of Thrones.",
+    "expect": "15 minutes by bus.",
+    "tip": "Go late afternoon.",
+    "why": "Big views.",
+    "flow": [
+     "Bus.",
+     "Fortress."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Pašticada",
+    "kind": "eat",
+    "id": "split-pasticada",
+    "at": [
+     43.509,
+     16.44
+    ],
+    "wiki": "Pašticada",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Beef marinated and slow-cooked in wine and prunes, with gnocchi.",
+    "expect": "A Dalmatian feast dish.",
+    "tip": "Order it with gnocchi.",
+    "why": "Dalmatia's signature.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     18,
+     26
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dalmatian",
+    "order": [
+     "Pašticada"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Black risotto",
+    "kind": "eat",
+    "id": "split-crnirizot",
+    "at": [
+     43.507,
+     16.437
+    ],
+    "wiki": "Squid ink",
+    "area": "Riva",
+    "venue": "food-area",
+    "summary": "Risotto coloured black with cuttlefish ink.",
+    "expect": "Seafood konobas.",
+    "tip": "Pair with local white wine.",
+    "why": "A coastal classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dalmatian",
+    "order": [
+     "Crni rižot"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Burek",
+    "kind": "eat",
+    "id": "split-burek",
+    "at": [
+     43.51,
+     16.443
+    ],
+    "wiki": "Burek",
+    "area": "Market",
+    "venue": "food-area",
+    "summary": "Flaky pastry filled with cheese or meat.",
+    "expect": "Bakeries near the green market.",
+    "tip": "Grab one for breakfast.",
+    "why": "Cheap and tasty.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Balkan",
+    "order": [
+     "Burek sa sirom"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Croatia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted; carry euro cash for ferries, markets and small konobas.",
+  "dailyBudget": [
+   60,
+   170
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "zagreb",
+  "name": "Zagreb",
+  "at": [
+   45.815,
+   15.9819
+  ],
+  "wiki": "Zagreb",
+  "cover": "St. Mark's Church, Zagreb",
+  "seasons": "LLSSHSSSHSSH",
+  "tagline": "Croatia's café-loving capital with a quirky streak",
+  "summary": "Zagreb is a walkable Central European capital of Austro-Hungarian squares, a hilltop Upper Town with a tiled-roof church, lively markets and cafés. Its famous Advent market is one of Europe's best, and Plitvice Lakes is a day trip away.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10,
+   12
+  ],
+  "seasonNote": "Spring and autumn are pleasant. December brings award-winning Advent markets. Summer is warm and quieter.",
+  "arrival": "Zagreb Airport is 25 minutes by bus. Trains and buses link Ljubljana, Vienna and Budapest.",
+  "gettingAround": "Walk the centre; trams cover the city.",
+  "foodTip": "Štrukli cheese pastry, ćevapi and kremšnita custard cake.",
+  "buyTip": "Licitar hearts, neckties (the cravat is Croatian) and local brandies.",
+  "baseArea": "Lower Town near Ban Jelačić Square",
+  "hotel": [
+   60,
+   180
+  ],
+  "connections": [
+   {
+    "to": "split",
+    "mode": "Bus",
+    "minutes": 300,
+    "note": "Flights take about 50 minutes."
+   },
+   {
+    "to": "plitvice",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "Several daily buses."
+   },
+   {
+    "to": "vienna",
+    "mode": "Train",
+    "minutes": 360,
+    "note": "Buses are often faster."
+   }
+  ],
+  "items": [
+   {
+    "name": "St Mark's Church and Upper Town",
+    "kind": "see",
+    "id": "zag-stmarks",
+    "at": [
+     45.8164,
+     15.9737
+    ],
+    "wiki": "St. Mark's Church, Zagreb",
+    "area": "Upper Town",
+    "summary": "A church with a colourful tiled roof in the medieval Upper Town.",
+    "expect": "Exterior only most of the time.",
+    "tip": "Ride the funicular up.",
+    "why": "Zagreb's postcard.",
+    "flow": [
+     "Funicular.",
+     "St Mark's Square.",
+     "Stone Gate."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     1
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Museum of Broken Relationships",
+    "kind": "see",
+    "id": "zag-broken",
+    "at": [
+     45.8152,
+     15.973
+    ],
+    "wiki": "Museum of Broken Relationships",
+    "area": "Upper Town",
+    "summary": "Objects and stories donated by people after break-ups.",
+    "expect": "Small but moving.",
+    "tip": "Read the stories slowly.",
+    "why": "A world-famous quirky museum.",
+    "flow": [
+     "Galleries.",
+     "Café."
+    ],
+    "hours": 1,
+    "price": [
+     7,
+     7
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Dolac market",
+    "kind": "see",
+    "id": "zag-dolac",
+    "at": [
+     45.8139,
+     15.977
+    ],
+    "wiki": "Dolac Market",
+    "area": "Centre",
+    "summary": "An open-air market under red umbrellas, with a hall below.",
+    "expect": "Mornings only.",
+    "tip": "Try fresh cheese and cream.",
+    "why": "Zagreb's 'belly'.",
+    "flow": [
+     "Umbrellas.",
+     "Cheese hall."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Zagreb Cathedral",
+    "kind": "see",
+    "id": "zag-cathedral",
+    "at": [
+     45.8144,
+     15.9798
+    ],
+    "wiki": "Zagreb Cathedral",
+    "area": "Kaptol",
+    "summary": "Twin-spired Gothic cathedral, under restoration since the 2020 earthquake.",
+    "expect": "Parts may be closed.",
+    "tip": "View from Dolac.",
+    "why": "The city's landmark.",
+    "flow": [
+     "Exterior.",
+     "Interior if open."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Ban Jelačić Square",
+    "kind": "see",
+    "id": "zag-jelacic",
+    "at": [
+     45.8131,
+     15.9772
+    ],
+    "wiki": "Ban Jelačić Square",
+    "area": "Centre",
+    "summary": "The main square, a meeting point ringed by cafés.",
+    "expect": "Advent centre in December.",
+    "tip": "Meet 'under the clock'.",
+    "why": "The heart of Zagreb.",
+    "flow": [
+     "Square.",
+     "Café."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mirogoj Cemetery",
+    "kind": "see",
+    "id": "zag-mirogoj",
+    "at": [
+     45.835,
+     15.988
+    ],
+    "wiki": "Mirogoj Cemetery",
+    "area": "North",
+    "summary": "An arcaded cemetery park, one of Europe's most beautiful.",
+    "expect": "Free.",
+    "tip": "Walk the arcades.",
+    "why": "Peaceful and grand.",
+    "flow": [
+     "Arcades.",
+     "Park."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Tkalčićeva Street",
+    "kind": "see",
+    "id": "zag-tkalciceva",
+    "at": [
+     45.816,
+     15.976
+    ],
+    "wiki": "Tkalčićeva Street",
+    "area": "Centre",
+    "summary": "A curving street of bars and cafés built over an old stream.",
+    "expect": "Busy at night.",
+    "tip": "Have a drink in the evening.",
+    "why": "Zagreb's social street.",
+    "flow": [
+     "Cafés.",
+     "Bars."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Food"
+    ]
+   },
+   {
+    "name": "Štrukli",
+    "kind": "eat",
+    "id": "zag-strukli",
+    "at": [
+     45.8165,
+     15.974
+    ],
+    "wiki": "Štrukli",
+    "area": "Upper Town",
+    "venue": "food-area",
+    "summary": "Dough filled with fresh cheese, boiled or baked with cream.",
+    "expect": "A Zagreb speciality.",
+    "tip": "Order it baked.",
+    "why": "Comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     14
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Croatian",
+    "order": [
+     "Štrukli"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Ćevapi",
+    "kind": "eat",
+    "id": "zag-cevapi",
+    "at": [
+     45.812,
+     15.978
+    ],
+    "wiki": "Ćevapi",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Grilled minced meat fingers with flatbread and onions.",
+    "expect": "Quick and cheap.",
+    "tip": "Add ajvar pepper relish.",
+    "why": "Balkan grill.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     7,
+     12
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Balkan",
+    "order": [
+     "Ćevapi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Kremšnita",
+    "kind": "eat",
+    "id": "zag-kremsnita",
+    "at": [
+     45.814,
+     15.977
+    ],
+    "wiki": "Kremšnita",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Custard and cream cake in flaky pastry.",
+    "expect": "Most famous from nearby Samobor.",
+    "tip": "Have it with coffee.",
+    "why": "A sweet classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Croatian",
+    "order": [
+     "Kremšnita"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Croatia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted; carry euro cash for ferries, markets and small konobas.",
+  "dailyBudget": [
+   60,
+   170
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "plitvice",
+  "name": "Plitvice Lakes",
+  "at": [
+   44.88,
+   15.61
+  ],
+  "wiki": "Plitvice Lakes National Park",
+  "cover": "Plitvice Lakes National Park",
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "Sixteen turquoise lakes linked by waterfalls",
+  "summary": "Plitvice Lakes is Croatia's oldest national park: 16 terraced lakes in shades of turquoise, joined by waterfalls and crossed by wooden boardwalks through the forest. It's one of Europe's most beautiful natural sights.",
+  "days": 1,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring has the most water; autumn the best colours. Summer is crowded and tickets cost more. Winter brings frozen falls.",
+  "arrival": "Buses from Zagreb take about 2.5 hours and from Split about 4. Stay nearby to arrive at opening.",
+  "gettingAround": "Park boats and electric trains link the trails; included in the ticket.",
+  "foodTip": "Grilled trout, spit-roast lamb and Lika potatoes.",
+  "buyTip": "Local honey and cheese.",
+  "baseArea": "Guesthouses in Mukinje or Rastovača",
+  "hotel": [
+   50,
+   180
+  ],
+  "connections": [
+   {
+    "to": "zagreb",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "Several daily buses."
+   },
+   {
+    "to": "split",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Several daily buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Lower Lakes and Veliki Slap",
+    "kind": "see",
+    "id": "plit-lower",
+    "at": [
+     44.901,
+     15.609
+    ],
+    "wiki": "Veliki slap",
+    "area": "Entrance 1",
+    "summary": "Canyon lakes, boardwalks and the 78 m Great Waterfall.",
+    "expect": "Very busy late morning.",
+    "tip": "Enter at opening, around 7 am in summer.",
+    "why": "The park's most famous views.",
+    "flow": [
+     "Entrance 1.",
+     "Veliki Slap.",
+     "Boardwalks."
+    ],
+    "hours": 3,
+    "price": [
+     10,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Upper Lakes",
+    "kind": "see",
+    "id": "plit-upper",
+    "at": [
+     44.873,
+     15.607
+    ],
+    "wiki": "Plitvice Lakes National Park",
+    "area": "Upper Lakes",
+    "summary": "Terraced lakes and dozens of cascades through beech forest.",
+    "expect": "Long walk; follow route C or H.",
+    "tip": "Do the Upper Lakes after the boat.",
+    "why": "Waterfalls everywhere.",
+    "flow": [
+     "Boat across Kozjak.",
+     "Upper boardwalks."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Kozjak Lake boat",
+    "kind": "see",
+    "id": "plit-kozjak",
+    "at": [
+     44.885,
+     15.612
+    ],
+    "wiki": "Kozjak",
+    "area": "Kozjak",
+    "summary": "An electric boat across the park's largest lake.",
+    "expect": "Included in the ticket.",
+    "tip": "Sit at the front.",
+    "why": "A restful link.",
+    "flow": [
+     "Board.",
+     "Cross the lake."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Panorama viewpoint",
+    "kind": "see",
+    "id": "plit-viewpoint",
+    "at": [
+     44.9,
+     15.61
+    ],
+    "wiki": "Plitvice Lakes National Park",
+    "area": "Entrance 1",
+    "summary": "The famous overhead view of the lower lakes and waterfalls.",
+    "expect": "Short walk from Entrance 1.",
+    "tip": "Come back late afternoon for soft light.",
+    "why": "The postcard shot.",
+    "flow": [
+     "Walk to the rim.",
+     "Photo."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Rastoke",
+    "kind": "see",
+    "id": "plit-rastoke",
+    "at": [
+     45.12,
+     15.59
+    ],
+    "wiki": "Rastoke",
+    "area": "Slunj",
+    "summary": "A village of old watermills built over waterfalls.",
+    "expect": "On the road from Zagreb.",
+    "tip": "Stop on the way in.",
+    "why": "A mini Plitvice.",
+    "flow": [
+     "Mills.",
+     "Falls."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Barać Caves",
+    "kind": "see",
+    "id": "plit-barac",
+    "at": [
+     44.975,
+     15.62
+    ],
+    "wiki": "Barać Caves",
+    "area": "Rakovica",
+    "summary": "Guided tours through limestone caves.",
+    "expect": "Cool inside; bring a layer.",
+    "tip": "Combine with Rastoke.",
+    "why": "Underground Lika.",
+    "flow": [
+     "Guided tour.",
+     "Cave halls."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Grilled trout",
+    "kind": "eat",
+    "id": "plit-trout",
+    "at": [
+     44.88,
+     15.61
+    ],
+    "wiki": "Trout",
+    "area": "Park area",
+    "venue": "food-area",
+    "summary": "Local trout grilled with garlic and potatoes.",
+    "expect": "Restaurants near the entrances.",
+    "tip": "Pair with Lika potatoes.",
+    "why": "Freshwater classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Croatian",
+    "order": [
+     "Pastrva"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Spit-roast lamb",
+    "kind": "eat",
+    "id": "plit-lamb",
+    "at": [
+     44.95,
+     15.62
+    ],
+    "wiki": "Spit roast",
+    "area": "Roadside",
+    "venue": "food-area",
+    "summary": "Whole lamb roasted on a spit at roadside restaurants.",
+    "expect": "Sold by the kilo.",
+    "tip": "Order with bread and salad.",
+    "why": "Lika's favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Croatian",
+    "order": [
+     "Janjetina s ražnja"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cheese štrukli",
+    "kind": "eat",
+    "id": "plit-strukli",
+    "at": [
+     44.879,
+     15.61
+    ],
+    "wiki": "Štrukli",
+    "area": "Park area",
+    "venue": "food-area",
+    "summary": "Cheese-filled pastry, baked with cream.",
+    "expect": "Park restaurants.",
+    "tip": "Order it baked.",
+    "why": "Warm and filling.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     12
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Croatian",
+    "order": [
+     "Štrukli"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Croatia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted; carry euro cash for ferries, markets and small konobas.",
+  "dailyBudget": [
+   80,
+   250
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "hvar",
+  "name": "Hvar",
+  "at": [
+   43.1729,
+   16.4412
+  ],
+  "wiki": "Hvar",
+  "cover": "Hvar (town)",
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "Lavender, yachts and a Venetian harbour town",
+  "summary": "Hvar is Croatia's sunniest island, with a Venetian harbour town under a hilltop fortress, lavender fields, vineyards and the Pakleni islands offshore. It's known for chic nightlife but also has quiet villages and the UNESCO-listed Stari Grad Plain.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "June and September are ideal. July and August are packed and party-heavy. Lavender blooms in late June.",
+  "arrival": "Catamarans from Split reach Hvar town in about 1 hour; car ferries go to Stari Grad.",
+  "gettingAround": "Walk Hvar town; scooters, taxis and water taxis.",
+  "foodTip": "Gregada fish stew, peka and Plavac Mali red wine.",
+  "buyTip": "Lavender oil and sachets, and local wine.",
+  "baseArea": "Hvar town or quieter Stari Grad",
+  "hotel": [
+   90,
+   400
+  ],
+  "connections": [
+   {
+    "to": "split",
+    "mode": "Ferry",
+    "minutes": 60,
+    "note": "Catamarans."
+   },
+   {
+    "to": "dubrovnik",
+    "mode": "Ferry",
+    "minutes": 180,
+    "note": "Summer catamarans."
+   }
+  ],
+  "items": [
+   {
+    "name": "Fortica fortress",
+    "kind": "see",
+    "id": "hvar-fortica",
+    "at": [
+     43.176,
+     16.441
+    ],
+    "wiki": "Fortica (Hvar)",
+    "area": "Hvar town",
+    "summary": "A Venetian-Spanish fortress above town with sweeping views.",
+    "expect": "Steep 20-minute climb.",
+    "tip": "Go at sunset.",
+    "why": "Hvar's best view.",
+    "flow": [
+     "Climb.",
+     "Ramparts."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "St Stephen's Square",
+    "kind": "see",
+    "id": "hvar-square",
+    "at": [
+     43.172,
+     16.442
+    ],
+    "wiki": "Hvar Cathedral",
+    "area": "Hvar town",
+    "summary": "One of Dalmatia's largest squares, with the cathedral and harbour.",
+    "expect": "Lively at night.",
+    "tip": "Have coffee here in the morning.",
+    "why": "The town's heart.",
+    "flow": [
+     "Cathedral.",
+     "Harbour."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Pakleni Islands",
+    "kind": "see",
+    "id": "hvar-pakleni",
+    "at": [
+     43.154,
+     16.39
+    ],
+    "wiki": "Pakleni Islands",
+    "area": "Offshore",
+    "summary": "Pine-covered islets with coves and beach clubs, by water taxi.",
+    "expect": "Taxis leave the harbour all day.",
+    "tip": "Go to Palmižana.",
+    "why": "Island hopping.",
+    "flow": [
+     "Water taxi.",
+     "Swim.",
+     "Lunch."
+    ],
+    "hours": 5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lavender fields",
+    "kind": "see",
+    "id": "hvar-lavender",
+    "at": [
+     43.16,
+     16.52
+    ],
+    "wiki": "Lavandula",
+    "area": "Velo Grablje",
+    "summary": "Hillside lavender around an old village, with a June festival.",
+    "expect": "Blooms in late June.",
+    "tip": "Visit the Lavender Festival.",
+    "why": "Purple Hvar.",
+    "flow": [
+     "Drive.",
+     "Fields.",
+     "Village."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Stari Grad Plain",
+    "kind": "see",
+    "id": "hvar-starigrad",
+    "at": [
+     43.19,
+     16.6
+    ],
+    "wiki": "Stari Grad Plain",
+    "area": "Stari Grad",
+    "summary": "Ancient Greek field divisions still farmed after 2,400 years.",
+    "expect": "Cycle the plain.",
+    "tip": "Visit Stari Grad town too.",
+    "why": "A World Heritage landscape.",
+    "flow": [
+     "Cycle.",
+     "Stari Grad."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hvar Theatre and Arsenal",
+    "kind": "see",
+    "id": "hvar-theatre",
+    "at": [
+     43.1715,
+     16.441
+    ],
+    "wiki": "Hvar Theatre",
+    "area": "Hvar town",
+    "summary": "One of Europe's oldest public theatres, from 1612.",
+    "expect": "Small fee.",
+    "tip": "Combine with the square.",
+    "why": "Renaissance Hvar.",
+    "flow": [
+     "Arsenal.",
+     "Theatre."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Blue Cave",
+    "kind": "see",
+    "id": "hvar-bluecave",
+    "at": [
+     43.064,
+     16.21
+    ],
+    "wiki": "Blue Grotto (Biševo)",
+    "area": "Biševo",
+    "summary": "A sea cave glowing electric blue at midday.",
+    "expect": "Long boat trip; queues.",
+    "tip": "Visit around noon.",
+    "why": "A natural wonder.",
+    "flow": [
+     "Speedboat.",
+     "Blue Cave.",
+     "Island stops."
+    ],
+    "hours": 8,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Gregada",
+    "kind": "eat",
+    "id": "hvar-gregada",
+    "at": [
+     43.172,
+     16.44
+    ],
+    "wiki": "Gregada",
+    "area": "Hvar town",
+    "venue": "food-area",
+    "summary": "A white fish stew with potatoes and olive oil.",
+    "expect": "Konobas serve it.",
+    "tip": "Order for two.",
+    "why": "Island fishermen's dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dalmatian",
+    "order": [
+     "Gregada"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Peka",
+    "kind": "eat",
+    "id": "hvar-peka",
+    "at": [
+     43.18,
+     16.5
+    ],
+    "wiki": "Peka (cooking)",
+    "area": "Inland villages",
+    "venue": "food-area",
+    "summary": "Lamb or octopus slow-cooked under a bell of embers.",
+    "expect": "Order a day ahead.",
+    "tip": "Try octopus peka.",
+    "why": "Slow food at its best.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dalmatian",
+    "order": [
+     "Peka"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Plavac Mali wine",
+    "kind": "eat",
+    "id": "hvar-wine",
+    "at": [
+     43.17,
+     16.5
+    ],
+    "wiki": "Plavac Mali",
+    "area": "Island",
+    "venue": "food-area",
+    "summary": "Bold local red wine at village wineries.",
+    "expect": "Tastings by appointment.",
+    "tip": "Visit a family winery.",
+    "why": "Hvar's vines.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dalmatian",
+    "order": [
+     "Plavac Mali"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
