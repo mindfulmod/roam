@@ -66,8 +66,8 @@
       "id": "niagara-falls-nia-boat",
       "name": "Niagara City Cruises",
       "kind": "see",
-      "lat": 43.088,
-      "lon": -79.072,
+      "lat": 43.0865,
+      "lon": -79.0679,
       "wiki": "Maid of the Mist",
       "summary": "Boats into the mist of the Horseshoe Falls.",
       "expect": "You'll get wet; ponchos given.",
@@ -107,14 +107,22 @@
         "You'll get wet; ponchos given.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18805,
+          "period": "202511-202610",
+          "title": "Maid of the Mist",
+          "url": "https://en.wikipedia.org/wiki/Maid_of_the_Mist",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "niagara-falls-nia-journey",
       "name": "Journey Behind the Falls",
       "kind": "see",
-      "lat": 43.079,
-      "lon": -79.079,
+      "lat": 43.07952,
+      "lon": -79.07908,
       "wiki": "Table Rock",
       "summary": "Tunnels to portals behind the Horseshoe Falls.",
       "expect": "Wet and loud.",
@@ -152,15 +160,14 @@
       "tradeoffs": [
         "Wet and loud.",
         "Go off-peak."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "niagara-falls-nia-promenade",
       "name": "Falls promenade",
       "kind": "see",
-      "lat": 43.083,
-      "lon": -79.077,
+      "lat": 43.07731,
+      "lon": -79.07562,
       "wiki": "Horseshoe Falls",
       "summary": "Walk the edge for classic views; falls lit at night.",
       "expect": "Free.",
@@ -200,14 +207,22 @@
         "Free.",
         "Stay for the illuminations."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 69289,
+          "period": "202511-202610",
+          "title": "Horseshoe Falls",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_Falls",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "niagara-falls-nia-notl",
       "name": "Niagara-on-the-Lake",
       "kind": "see",
-      "lat": 43.255,
-      "lon": -79.071,
+      "lat": 43.25528,
+      "lon": -79.07167,
       "wiki": "Niagara-on-the-Lake",
       "summary": "A pretty heritage town with wineries.",
       "expect": "Bike between wineries.",
@@ -247,14 +262,22 @@
         "Bike between wineries.",
         "Taste icewine."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 60421,
+          "period": "202511-202610",
+          "title": "Niagara-on-the-Lake",
+          "url": "https://en.wikipedia.org/wiki/Niagara-on-the-Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "niagara-falls-nia-whirlpool",
       "name": "Whirlpool Aero Car",
       "kind": "see",
-      "lat": 43.118,
-      "lon": -79.07,
+      "lat": 43.11798,
+      "lon": -79.06877,
       "wiki": "Whirlpool Aero Car",
       "summary": "A cable car over the river's whirlpool.",
       "expect": "Seasonal.",
@@ -294,7 +317,15 @@
         "Seasonal.",
         "Combine with the White Water Walk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8140,
+          "period": "202511-202610",
+          "title": "Whirlpool Aero Car",
+          "url": "https://en.wikipedia.org/wiki/Whirlpool_Aero_Car",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "niagara-falls-nia-icewine",
@@ -467,5 +498,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

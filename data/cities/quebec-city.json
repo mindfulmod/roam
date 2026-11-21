@@ -66,8 +66,8 @@
       "id": "quebec-city-qc-frontenac",
       "name": "Château Frontenac and Dufferin Terrace",
       "kind": "see",
-      "lat": 46.8119,
-      "lon": -71.2052,
+      "lat": 46.81194,
+      "lon": -71.205,
       "wiki": "Château Frontenac",
       "summary": "The landmark hotel and boardwalk above the river.",
       "expect": "Free to walk the terrace.",
@@ -107,14 +107,22 @@
         "Free to walk the terrace.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 139593,
+          "period": "202511-202610",
+          "title": "Château Frontenac",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_Frontenac",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "quebec-city-qc-petit",
       "name": "Petit-Champlain",
       "kind": "see",
-      "lat": 46.8115,
-      "lon": -71.2025,
+      "lat": 46.81137,
+      "lon": -71.20336,
       "wiki": "Quartier Petit Champlain",
       "summary": "Cobbled lanes with boutiques and murals.",
       "expect": "Busy midday.",
@@ -153,15 +161,14 @@
       "tradeoffs": [
         "Busy midday.",
         "Ride the funicular down."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "quebec-city-qc-placeroyale",
       "name": "Place Royale",
       "kind": "see",
-      "lat": 46.813,
-      "lon": -71.2027,
+      "lat": 46.81317,
+      "lon": -71.20281,
       "wiki": "Place Royale",
       "summary": "Birthplace of French America.",
       "expect": "Free.",
@@ -199,15 +206,14 @@
       "tradeoffs": [
         "Free.",
         "See the fresco."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "quebec-city-qc-citadelle",
       "name": "La Citadelle",
       "kind": "see",
-      "lat": 46.8077,
-      "lon": -71.2066,
+      "lat": 46.80771,
+      "lon": -71.20837,
       "wiki": "Citadelle of Quebec",
       "summary": "A star-shaped fortress still in military use.",
       "expect": "Changing of the guard in summer.",
@@ -246,14 +252,22 @@
         "Changing of the guard in summer.",
         "Join a guided tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 45341,
+          "period": "202511-202610",
+          "title": "Citadelle of Quebec",
+          "url": "https://en.wikipedia.org/wiki/Citadelle_of_Quebec",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "quebec-city-qc-montmorency",
       "name": "Montmorency Falls",
       "kind": "see",
-      "lat": 46.8906,
-      "lon": -71.1478,
+      "lat": 46.89083,
+      "lon": -71.1475,
       "wiki": "Montmorency Falls",
       "summary": "Falls higher than Niagara with a cable car and bridge.",
       "expect": "15 minutes' drive.",
@@ -292,14 +306,22 @@
         "15 minutes' drive.",
         "Walk the suspension bridge."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25944,
+          "period": "202511-202610",
+          "title": "Montmorency Falls",
+          "url": "https://en.wikipedia.org/wiki/Montmorency_Falls",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "quebec-city-qc-plains",
       "name": "Plains of Abraham",
       "kind": "see",
-      "lat": 46.803,
-      "lon": -71.219,
+      "lat": 46.79972,
+      "lon": -71.22083,
       "wiki": "Plains of Abraham",
       "summary": "A battlefield park, now a vast green space.",
       "expect": "Free.",
@@ -339,7 +361,15 @@
         "Free.",
         "Picnic."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 55528,
+          "period": "202511-202610",
+          "title": "Plains of Abraham",
+          "url": "https://en.wikipedia.org/wiki/Plains_of_Abraham",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "quebec-city-qc-poutine",
@@ -513,5 +543,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

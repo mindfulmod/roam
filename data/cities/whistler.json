@@ -65,8 +65,8 @@
       "id": "whistler-wh-peak2peak",
       "name": "Peak 2 Peak Gondola",
       "kind": "see",
-      "lat": 50.0857,
-      "lon": -122.915,
+      "lat": 50.06944,
+      "lon": -122.94583,
       "wiki": "Peak 2 Peak Gondola",
       "summary": "A record-breaking gondola between Whistler and Blackcomb.",
       "expect": "Year-round.",
@@ -107,14 +107,22 @@
         "Year-round.",
         "Take the glass-floor cabin."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23324,
+          "period": "202511-202610",
+          "title": "Peak 2 Peak Gondola",
+          "url": "https://en.wikipedia.org/wiki/Peak_2_Peak_Gondola",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "whistler-wh-skiing",
       "name": "Skiing Whistler Blackcomb",
       "kind": "see",
-      "lat": 50.089,
-      "lon": -122.94,
+      "lat": 50.10833,
+      "lon": -122.9425,
       "wiki": "Whistler Blackcomb",
       "summary": "Over 200 runs across two mountains.",
       "expect": "Pricey passes.",
@@ -153,14 +161,22 @@
         "Pricey passes.",
         "Book lift tickets ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48559,
+          "period": "202511-202610",
+          "title": "Whistler Blackcomb",
+          "url": "https://en.wikipedia.org/wiki/Whistler_Blackcomb",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "whistler-wh-lakes",
       "name": "Alta Lake and Lost Lake",
       "kind": "see",
-      "lat": 50.121,
-      "lon": -122.96,
+      "lat": 50.11472,
+      "lon": -122.98194,
       "wiki": "Alta Lake (British Columbia)",
       "summary": "Lakes for paddling and swimming.",
       "expect": "Summer.",
@@ -199,14 +215,22 @@
         "Summer.",
         "Paddle at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1704,
+          "period": "202511-202610",
+          "title": "Alta Lake (British Columbia)",
+          "url": "https://en.wikipedia.org/wiki/Alta_Lake_(British_Columbia)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "whistler-wh-garibaldi",
       "name": "Garibaldi Lake",
       "kind": "see",
-      "lat": 49.935,
-      "lon": -123.03,
+      "lat": 49.925,
+      "lon": -123.01,
       "wiki": "Garibaldi Lake",
       "summary": "Turquoise alpine lake hike.",
       "expect": "Long hike; day pass needed.",
@@ -246,14 +270,22 @@
         "Long hike; day pass needed.",
         "Start early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8781,
+          "period": "202511-202610",
+          "title": "Garibaldi Lake",
+          "url": "https://en.wikipedia.org/wiki/Garibaldi_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "whistler-wh-squamish",
       "name": "Sea to Sky Gondola",
       "kind": "see",
-      "lat": 49.676,
-      "lon": -123.157,
+      "lat": 49.67528,
+      "lon": -123.15694,
       "wiki": "Sea to Sky Gondola",
       "summary": "Gondola with suspension bridge over Howe Sound.",
       "expect": "On the way from Vancouver.",
@@ -292,8 +324,16 @@
         "On the way from Vancouver.",
         "Stop on the drive."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7649,
+          "period": "202511-202610",
+          "title": "Sea to Sky Gondola",
+          "url": "https://en.wikipedia.org/wiki/Sea_to_Sky_Gondola",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "whistler-wh-bike",
@@ -513,5 +553,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

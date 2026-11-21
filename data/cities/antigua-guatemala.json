@@ -66,8 +66,8 @@
       "id": "antigua-guatemala-ant-arch",
       "name": "Santa Catalina Arch",
       "kind": "see",
-      "lat": 14.5598,
-      "lon": -90.7342,
+      "lat": 14.55958,
+      "lon": -90.73423,
       "wiki": "Arco de Santa Catalina",
       "summary": "The yellow arch framing Volcán de Agua.",
       "expect": "Free.",
@@ -107,14 +107,22 @@
         "Free.",
         "Go early for clear volcano views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27090,
+          "period": "202511-202610",
+          "title": "Arco de Santa Catalina",
+          "url": "https://en.wikipedia.org/wiki/Arco_de_Santa_Catalina",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antigua-guatemala-ant-acatenango",
       "name": "Acatenango overnight hike",
       "kind": "see",
-      "lat": 14.5012,
-      "lon": -90.8758,
+      "lat": 14.50083,
+      "lon": -90.87583,
       "wiki": "Acatenango",
       "summary": "Overnight hike to watch Fuego erupt at night.",
       "expect": "Tough; guided.",
@@ -155,14 +163,22 @@
         "Tough; guided.",
         "Book a reputable operator."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 40780,
+          "period": "202511-202610",
+          "title": "Acatenango",
+          "url": "https://en.wikipedia.org/wiki/Acatenango",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antigua-guatemala-ant-plaza",
       "name": "Parque Central and Cathedral",
       "kind": "see",
-      "lat": 14.557,
-      "lon": -90.7333,
+      "lat": 14.5567,
+      "lon": -90.7329,
       "wiki": "Antigua Guatemala Cathedral",
       "summary": "Main square with the cathedral and ruins.",
       "expect": "Lively at weekends.",
@@ -202,14 +218,22 @@
         "Lively at weekends.",
         "Visit the ruins behind."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5854,
+          "period": "202511-202610",
+          "title": "Antigua Guatemala Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Antigua_Guatemala_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antigua-guatemala-ant-cerro",
       "name": "Cerro de la Cruz",
       "kind": "see",
-      "lat": 14.566,
-      "lon": -90.731,
+      "lat": 14.56622,
+      "lon": -90.73097,
       "wiki": "Cerro de la Cruz",
       "summary": "Viewpoint over the city and Volcán de Agua.",
       "expect": "Short climb.",
@@ -247,15 +271,14 @@
       "tradeoffs": [
         "Short climb.",
         "Go at sunrise."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "antigua-guatemala-ant-merced",
       "name": "La Merced",
       "kind": "see",
-      "lat": 14.5622,
-      "lon": -90.7342,
+      "lat": 14.56277,
+      "lon": -90.73523,
       "wiki": "Iglesia de La Merced (Antigua Guatemala)",
       "summary": "Yellow baroque church covered in white stucco.",
       "expect": "Free.",
@@ -294,15 +317,14 @@
       "tradeoffs": [
         "Free.",
         "Go at dusk."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "antigua-guatemala-ant-atitlan",
       "name": "Lake Atitlán",
       "kind": "see",
-      "lat": 14.6907,
-      "lon": -91.2025,
+      "lat": 14.7,
+      "lon": -91.2,
       "wiki": "Lake Atitlán",
       "summary": "A volcano-ringed lake with Mayan villages.",
       "expect": "Long day; better overnight.",
@@ -342,8 +364,16 @@
         "Long day; better overnight.",
         "Boat between villages."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 72767,
+          "period": "202511-202610",
+          "title": "Lake Atitlán",
+          "url": "https://en.wikipedia.org/wiki/Lake_Atitl%C3%A1n",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antigua-guatemala-ant-coffee",
@@ -390,7 +420,16 @@
         "Half-day.",
         "Try fresh roast."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2973,
+          "period": "202511-202610",
+          "title": "Coffee production in Guatemala",
+          "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Guatemala",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antigua-guatemala-ant-pepian",
@@ -564,5 +603,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

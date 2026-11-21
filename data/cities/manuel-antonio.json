@@ -106,14 +106,23 @@
         "Book online; closed Tuesdays; no food bags.",
         "Hire a guide with a scope."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22214,
+          "period": "202511-202610",
+          "title": "Manuel Antonio National Park",
+          "url": "https://en.wikipedia.org/wiki/Manuel_Antonio_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manuel-antonio-mna-espadilla",
       "name": "Playa Espadilla",
       "kind": "see",
-      "lat": 9.394,
-      "lon": -84.145,
+      "lat": 9.39253,
+      "lon": -84.14764,
       "wiki": "Playa Espadilla",
       "summary": "Long beach outside the park.",
       "expect": "Rip currents; swim with care.",
@@ -151,15 +160,14 @@
       "tradeoffs": [
         "Rip currents; swim with care.",
         "Watch the sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "manuel-antonio-mna-catamaran",
       "name": "Sunset catamaran",
       "kind": "see",
-      "lat": 9.43,
-      "lon": -84.17,
+      "lat": 9.45707,
+      "lon": -84.13875,
       "wiki": "Quepos",
       "summary": "Snorkel and sail at sunset with dolphins.",
       "expect": "Includes dinner.",
@@ -199,7 +207,15 @@
         "Includes dinner.",
         "Book a smaller boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8793,
+          "period": "202511-202610",
+          "title": "Quepos",
+          "url": "https://en.wikipedia.org/wiki/Quepos",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manuel-antonio-mna-mangrove",
@@ -246,7 +262,16 @@
         "Tide-dependent.",
         "Kayak at high tide."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 250393,
+          "period": "202511-202610",
+          "title": "Mangrove",
+          "url": "https://en.wikipedia.org/wiki/Mangrove",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manuel-antonio-mna-nauyaca",
@@ -466,5 +491,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -70,8 +70,8 @@
       "id": "panama-city-pty2-miraflores",
       "name": "Miraflores Locks",
       "kind": "see",
-      "lat": 8.9969,
-      "lon": -79.5916,
+      "lat": 8.99708,
+      "lon": -79.59187,
       "wiki": "Miraflores Locks",
       "summary": "Watch ships rise through the canal locks.",
       "expect": "Ships pass at set times.",
@@ -111,14 +111,22 @@
         "Ships pass at set times.",
         "Check transit times; mornings busy."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7524,
+          "period": "202511-202610",
+          "title": "Miraflores (Panama)",
+          "url": "https://en.wikipedia.org/wiki/Miraflores_(Panama)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "panama-city-pty2-casco",
       "name": "Casco Viejo",
       "kind": "see",
-      "lat": 8.9526,
-      "lon": -79.5348,
+      "lat": 8.95255,
+      "lon": -79.53472,
       "wiki": "Casco Viejo",
       "summary": "Restored colonial streets, plazas and rooftop bars.",
       "expect": "Lively at night.",
@@ -158,15 +166,14 @@
       "tradeoffs": [
         "Lively at night.",
         "Rooftop sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "panama-city-pty2-causeway",
       "name": "Amador Causeway",
       "kind": "see",
-      "lat": 8.915,
-      "lon": -79.528,
+      "lat": 8.913,
+      "lon": -79.525,
       "wiki": "Amador Causeway",
       "summary": "A causeway to islands with skyline views and the Biomuseo.",
       "expect": "Rent a bike.",
@@ -206,14 +213,22 @@
         "Rent a bike.",
         "Cycle at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3805,
+          "period": "202511-202610",
+          "title": "Causeway Islands",
+          "url": "https://en.wikipedia.org/wiki/Causeway_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "panama-city-pty2-biomuseo",
       "name": "Biomuseo",
       "kind": "see",
-      "lat": 8.9324,
-      "lon": -79.5458,
+      "lat": 8.9325,
+      "lon": -79.5449,
       "wiki": "Biomuseo",
       "summary": "Frank Gehry's colourful biodiversity museum.",
       "expect": "Interactive.",
@@ -253,14 +268,22 @@
         "Interactive.",
         "Combine with the causeway."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10249,
+          "period": "202511-202610",
+          "title": "Biomuseo",
+          "url": "https://en.wikipedia.org/wiki/Biomuseo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "panama-city-pty2-metropark",
       "name": "Metropolitan Natural Park",
       "kind": "see",
-      "lat": 8.993,
-      "lon": -79.547,
+      "lat": 8.991,
+      "lon": -79.546,
       "wiki": "Metropolitan Natural Park",
       "summary": "Rainforest in the city with sloths and city views.",
       "expect": "Hot.",
@@ -300,14 +323,22 @@
         "Hot.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1975,
+          "period": "202511-202610",
+          "title": "Metropolitan Natural Park",
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Natural_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "panama-city-pty2-sanblas",
       "name": "San Blas Islands",
       "kind": "see",
-      "lat": 9.5667,
-      "lon": -78.8333,
+      "lat": 9.29611,
+      "lon": -78.34417,
       "wiki": "Guna Yala",
       "summary": "Palm islands of the Guna people.",
       "expect": "Long drive and boat; overnight best.",
@@ -347,8 +378,16 @@
         "Long drive and boat; overnight best.",
         "Respect Guna rules."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 45730,
+          "period": "202511-202610",
+          "title": "Guna Yala",
+          "url": "https://en.wikipedia.org/wiki/Guna_Yala",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "panama-city-pty2-ceviche",
@@ -521,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
