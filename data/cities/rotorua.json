@@ -106,14 +106,23 @@
         "Allow half a day.",
         "Stay for the evening show and hāngī."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2599,
+          "period": "202511-202610",
+          "title": "Te Puia Springs",
+          "url": "https://en.wikipedia.org/wiki/Te_Puia_Springs",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rotorua-rot-waiotapu",
       "name": "Wai-O-Tapu Thermal Wonderland",
       "kind": "see",
-      "lat": -38.357,
-      "lon": 176.37,
+      "lat": -38.35944,
+      "lon": 176.36972,
       "wiki": "Wai-O-Tapu",
       "summary": "Champagne Pool and Lady Knox Geyser in vivid colours.",
       "expect": "30 minutes' drive.",
@@ -153,7 +162,15 @@
         "30 minutes' drive.",
         "Arrive by 10am for the geyser."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7679,
+          "period": "202511-202610",
+          "title": "Waiotapu",
+          "url": "https://en.wikipedia.org/wiki/Waiotapu",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rotorua-rot-hangi",
@@ -207,8 +224,8 @@
       "id": "rotorua-rot-redwoods",
       "name": "Redwoods Treewalk",
       "kind": "see",
-      "lat": -38.155,
-      "lon": 176.275,
+      "lat": -38.15629,
+      "lon": 176.27443,
       "wiki": "Whakarewarewa Forest",
       "summary": "Suspension bridges among giant redwoods, lit with lanterns at night.",
       "expect": "Day or night tickets.",
@@ -246,15 +263,14 @@
       "tradeoffs": [
         "Day or night tickets.",
         "Go at night."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rotorua-rot-polynesian",
       "name": "Polynesian Spa",
       "kind": "see",
-      "lat": -38.138,
-      "lon": 176.258,
+      "lat": -38.13789,
+      "lon": 176.25807,
       "wiki": "Polynesian Spa",
       "summary": "Hot mineral pools by the lake.",
       "expect": "Book lake pools.",
@@ -293,14 +309,22 @@
         "Book lake pools.",
         "Go after dark."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1231,
+          "period": "202511-202610",
+          "title": "Polynesian Spa",
+          "url": "https://en.wikipedia.org/wiki/Polynesian_Spa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rotorua-rot-hobbiton",
       "name": "Hobbiton Movie Set",
       "kind": "see",
-      "lat": -37.858,
-      "lon": 175.68,
+      "lat": -37.8575,
+      "lon": 175.67972,
       "wiki": "Hobbiton Movie Set",
       "summary": "The Shire film set with hobbit holes and the Green Dragon Inn.",
       "expect": "Guided tours only.",
@@ -339,8 +363,16 @@
         "Guided tours only.",
         "Book the evening banquet tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 49199,
+          "period": "202511-202610",
+          "title": "Hobbiton Movie Set",
+          "url": "https://en.wikipedia.org/wiki/Hobbiton_Movie_Set",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rotorua-rot-gondola",
@@ -562,5 +594,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -71,8 +71,8 @@
       "id": "cairns-cns-reef",
       "name": "Outer Great Barrier Reef",
       "kind": "see",
-      "lat": -16.7,
-      "lon": 146.1,
+      "lat": -16.4,
+      "lon": 145.8,
       "wiki": "Great Barrier Reef",
       "summary": "Full-day boat to the outer reef for snorkelling and diving among coral and turtles.",
       "expect": "Book a small-group boat.",
@@ -113,8 +113,16 @@
         "Book a small-group boat.",
         "Take a stinger suit and seasickness tablets."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 414432,
+          "period": "202511-202610",
+          "title": "Great Barrier Reef",
+          "url": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cairns-cns-skyrail",
@@ -162,14 +170,23 @@
         "Combo tickets.",
         "Go up by Skyrail in the morning."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7492,
+          "period": "202511-202610",
+          "title": "Skyrail Rainforest Cableway",
+          "url": "https://en.wikipedia.org/wiki/Skyrail_Rainforest_Cableway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cairns-cns-daintree",
       "name": "Daintree and Cape Tribulation",
       "kind": "see",
-      "lat": -16.087,
-      "lon": 145.461,
+      "lat": -16.2,
+      "lon": 145.4,
       "wiki": "Daintree Rainforest",
       "summary": "The world's oldest rainforest meets the reef on wild beaches.",
       "expect": "Long day trip.",
@@ -209,15 +226,23 @@
         "Long day trip.",
         "Take a croc-spotting river cruise."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 63572,
+          "period": "202511-202610",
+          "title": "Daintree Rainforest",
+          "url": "https://en.wikipedia.org/wiki/Daintree_Rainforest",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cairns-cns-lagoon",
       "name": "Cairns Esplanade Lagoon",
       "kind": "see",
-      "lat": -16.92,
-      "lon": 145.779,
+      "lat": -16.91964,
+      "lon": 145.77798,
       "wiki": "Cairns Esplanade",
       "summary": "Free saltwater lagoon pool on the waterfront.",
       "expect": "Free.",
@@ -255,8 +280,7 @@
       "tradeoffs": [
         "Free.",
         "Swim here, not in the sea."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cairns-cns-greenisland",
@@ -304,14 +328,23 @@
         "Try the glass-bottom boat."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6912,
+          "period": "202511-202610",
+          "title": "Green Island (Queensland)",
+          "url": "https://en.wikipedia.org/wiki/Green_Island_(Queensland)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cairns-cns-crystal",
       "name": "Crystal Cascades",
       "kind": "see",
-      "lat": -16.959,
-      "lon": 145.68,
+      "lat": -16.96167,
+      "lon": 145.67944,
       "wiki": "Crystal Cascades",
       "summary": "Rainforest swimming holes near town.",
       "expect": "Free.",
@@ -350,7 +383,15 @@
         "Free.",
         "Go early on weekdays."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1312,
+          "period": "202511-202610",
+          "title": "Crystal Cascades",
+          "url": "https://en.wikipedia.org/wiki/Crystal_Cascades",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cairns-cns-atherton",
@@ -397,7 +438,16 @@
         "Swim at Lake Eacham."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29823,
+          "period": "202511-202610",
+          "title": "Atherton Tableland",
+          "url": "https://en.wikipedia.org/wiki/Atherton_Tableland",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cairns-cns-barra",
@@ -570,5 +620,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -72,8 +72,8 @@
       "id": "brisbane-bne-southbank",
       "name": "South Bank Parklands",
       "kind": "see",
-      "lat": -27.479,
-      "lon": 153.023,
+      "lat": -27.4787,
+      "lon": 153.0229,
       "wiki": "South Bank Parklands",
       "summary": "Riverside parkland with a free lagoon beach, gardens and the Wheel of Brisbane.",
       "expect": "Free.",
@@ -113,14 +113,22 @@
         "Free.",
         "Swim at Streets Beach, then walk the Grand Arbour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9265,
+          "period": "202511-202610",
+          "title": "South Bank Parklands",
+          "url": "https://en.wikipedia.org/wiki/South_Bank_Parklands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brisbane-bne-lonepine",
       "name": "Lone Pine Koala Sanctuary",
       "kind": "see",
-      "lat": -27.533,
-      "lon": 152.969,
+      "lat": -27.53293,
+      "lon": 152.9693,
       "wiki": "Lone Pine Koala Sanctuary",
       "summary": "The world's oldest koala sanctuary, with kangaroos to hand-feed.",
       "expect": "Allow half a day.",
@@ -160,7 +168,15 @@
         "Allow half a day.",
         "Arrive by the river cruise from the city."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7254,
+          "period": "202511-202610",
+          "title": "Lone Pine Koala Sanctuary",
+          "url": "https://en.wikipedia.org/wiki/Lone_Pine_Koala_Sanctuary",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brisbane-bne-goma",
@@ -212,8 +228,8 @@
       "id": "brisbane-bne-storybridge",
       "name": "Story Bridge Adventure Climb",
       "kind": "see",
-      "lat": -27.464,
-      "lon": 153.036,
+      "lat": -27.4635,
+      "lon": 153.0358,
       "wiki": "Story Bridge",
       "summary": "Climb the heritage bridge for city and river views.",
       "expect": "Booked climbs.",
@@ -254,14 +270,22 @@
         "Booked climbs.",
         "Go at twilight."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25925,
+          "period": "202511-202610",
+          "title": "Story Bridge",
+          "url": "https://en.wikipedia.org/wiki/Story_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brisbane-bne-mtcoottha",
       "name": "Mount Coot-tha Lookout",
       "kind": "see",
-      "lat": -27.484,
-      "lon": 152.957,
+      "lat": -27.4733,
+      "lon": 152.9511,
       "wiki": "Mount Coot-tha",
       "summary": "Lookout over the city to Moreton Bay, plus botanic gardens.",
       "expect": "Free.",
@@ -301,7 +325,15 @@
         "Free.",
         "Come at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1921,
+          "period": "202511-202610",
+          "title": "Mount Coot-tha",
+          "url": "https://en.wikipedia.org/wiki/Mount_Coot-tha",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brisbane-bne-citycat",
@@ -347,13 +379,22 @@
         "Tap on and off.",
         "Ride from UQ to Northshore end to end."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5900,
+          "period": "202511-202610",
+          "title": "RiverCity Ferries",
+          "url": "https://en.wikipedia.org/wiki/RiverCity_Ferries",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brisbane-bne-moreton",
       "name": "Moreton Island",
       "kind": "see",
-      "lat": -27.18,
+      "lat": -27.16667,
       "lon": 153.4,
       "wiki": "Moreton Island",
       "summary": "Sand island with dunes, the Tangalooma wrecks and dolphin feeding.",
@@ -395,15 +436,23 @@
         "Ferry day trip.",
         "Snorkel the wrecks."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 15692,
+          "period": "202511-202610",
+          "title": "Moreton Island",
+          "url": "https://en.wikipedia.org/wiki/Moreton_Island",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brisbane-bne-goldcoast",
       "name": "Gold Coast beaches",
       "kind": "see",
-      "lat": -28.002,
-      "lon": 153.431,
+      "lat": -28,
+      "lon": 153.4166,
       "wiki": "Surfers Paradise",
       "summary": "Golden surf beaches and high-rises an hour south.",
       "expect": "Train and tram.",
@@ -444,8 +493,16 @@
         "Train and tram.",
         "Learn to surf at Coolangatta or Burleigh."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 25822,
+          "period": "202511-202610",
+          "title": "Surfers Paradise",
+          "url": "https://en.wikipedia.org/wiki/Surfers_Paradise",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brisbane-bne-bugs",
@@ -565,8 +622,8 @@
       "id": "brisbane-bne-brunch",
       "name": "Brunch in West End",
       "kind": "eat",
-      "lat": -27.48,
-      "lon": 153.01,
+      "lat": -27.483,
+      "lon": 153.0066,
       "wiki": "West End, Queensland",
       "summary": "Laid-back cafés with smashed avo and flat whites.",
       "expect": "Weekend queues.",
@@ -605,7 +662,6 @@
         "Weekend queues.",
         "Go before 9."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Australian",
       "mustOrder": [
@@ -619,5 +675,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

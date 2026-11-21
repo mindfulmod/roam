@@ -70,8 +70,8 @@
       "id": "perth-per-rottnest",
       "name": "Rottnest Island",
       "kind": "see",
-      "lat": -32,
-      "lon": 115.51,
+      "lat": -32.005,
+      "lon": 115.515,
       "wiki": "Rottnest Island",
       "summary": "Car-free island of quokkas, turquoise bays and bike trails.",
       "expect": "Ferry from Fremantle or the city.",
@@ -111,8 +111,16 @@
         "Ferry from Fremantle or the city.",
         "Rent a bike and snorkel at the Basin."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 81204,
+          "period": "202511-202610",
+          "title": "Rottnest Island",
+          "url": "https://en.wikipedia.org/wiki/Rottnest_Island",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "perth-per-kingspark",
@@ -166,8 +174,8 @@
       "id": "perth-per-fremantle",
       "name": "Fremantle",
       "kind": "see",
-      "lat": -32.056,
-      "lon": 115.747,
+      "lat": -32.0542,
+      "lon": 115.7475,
       "wiki": "Fremantle",
       "summary": "Historic port with markets, a convict-built prison and craft breweries.",
       "expect": "Train from the city.",
@@ -208,14 +216,22 @@
         "Train from the city.",
         "Visit Fremantle Prison and the markets."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 106828,
+          "period": "202511-202610",
+          "title": "Fremantle",
+          "url": "https://en.wikipedia.org/wiki/Fremantle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "perth-per-cottesloe",
       "name": "Cottesloe Beach",
       "kind": "see",
-      "lat": -31.994,
-      "lon": 115.751,
+      "lat": -31.99583,
+      "lon": 115.7506,
       "wiki": "Cottesloe Beach",
       "summary": "Perth's favourite beach, with sunsets over the Indian Ocean.",
       "expect": "Free.",
@@ -254,14 +270,22 @@
         "Free.",
         "Stay for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11604,
+          "period": "202511-202610",
+          "title": "Cottesloe Beach",
+          "url": "https://en.wikipedia.org/wiki/Cottesloe_Beach",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "perth-per-pinnacles",
       "name": "The Pinnacles",
       "kind": "see",
-      "lat": -30.605,
-      "lon": 115.157,
+      "lat": -30.60583,
+      "lon": 115.1575,
       "wiki": "Pinnacles (Western Australia)",
       "summary": "Thousands of limestone spires in yellow desert.",
       "expect": "2.5 hours' drive.",
@@ -301,8 +325,16 @@
         "2.5 hours' drive.",
         "Go for sunset and stars."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 17132,
+          "period": "202511-202610",
+          "title": "The Pinnacles (Western Australia)",
+          "url": "https://en.wikipedia.org/wiki/The_Pinnacles_(Western_Australia)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "perth-per-margaret",
@@ -350,15 +382,23 @@
         "3 hours' drive; stay overnight.",
         "Do a cellar-door tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29899,
+          "period": "202511-202610",
+          "title": "Margaret River, Western Australia",
+          "url": "https://en.wikipedia.org/wiki/Margaret_River%2C_Western_Australia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "perth-per-elizabeth",
       "name": "Elizabeth Quay",
       "kind": "see",
-      "lat": -31.959,
-      "lon": 115.858,
+      "lat": -31.9575,
+      "lon": 115.857,
       "wiki": "Elizabeth Quay",
       "summary": "Waterfront promenade with the Spanda sculpture and ferries.",
       "expect": "Free.",
@@ -397,14 +437,22 @@
         "Free.",
         "Walk on to the Bell Tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7177,
+          "period": "202511-202610",
+          "title": "Elizabeth Quay",
+          "url": "https://en.wikipedia.org/wiki/Elizabeth_Quay",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "perth-per-fishchips",
       "name": "Fish and chips in Fremantle",
       "kind": "eat",
-      "lat": -32.057,
-      "lon": 115.747,
+      "lat": -32.06203,
+      "lon": 115.74582,
       "wiki": "Fremantle Fishing Boat Harbour",
       "summary": "Fish and chips by the harbour.",
       "expect": "Busy weekends.",
@@ -443,7 +491,6 @@
         "Busy weekends.",
         "Watch for seagulls."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -460,8 +507,8 @@
       "id": "perth-per-northbridge",
       "name": "Northbridge",
       "kind": "eat",
-      "lat": -31.947,
-      "lon": 115.858,
+      "lat": -31.946,
+      "lon": 115.854,
       "wiki": "Northbridge, Western Australia",
       "summary": "Perth's food and nightlife district.",
       "expect": "Evenings.",
@@ -500,7 +547,6 @@
         "Evenings.",
         "Try the small bars."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -570,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -101,14 +101,23 @@
         "Half or full day.",
         "Choose a tour with a motu lunch."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 382522,
+          "period": "202511-202610",
+          "title": "Bora Bora",
+          "url": "https://en.wikipedia.org/wiki/Bora_Bora",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bora-bora-bob-matira",
       "name": "Matira Beach",
       "kind": "see",
-      "lat": -16.542,
-      "lon": -151.733,
+      "lat": -16.53835,
+      "lon": -151.73884,
       "wiki": "Matira Point",
       "summary": "The island's best public beach, with soft sand and shallow water.",
       "expect": "Free.",
@@ -146,15 +155,14 @@
       "tradeoffs": [
         "Free.",
         "Stay for sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bora-bora-bob-otemanu",
       "name": "Mount Otemanu 4x4 tour",
       "kind": "see",
-      "lat": -16.51,
-      "lon": -151.74,
+      "lat": -16.5,
+      "lon": -151.73,
       "wiki": "Mount Otemanu",
       "summary": "Off-road trip to WWII cannons and lagoon views.",
       "expect": "Half day.",
@@ -195,7 +203,15 @@
         "Half day.",
         "Go in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10526,
+          "period": "202511-202610",
+          "title": "Mount Otemanu",
+          "url": "https://en.wikipedia.org/wiki/Mount_Otemanu",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bora-bora-bob-coral",
@@ -241,14 +257,23 @@
         "Snorkel tours.",
         "Bring reef-safe sunscreen."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 382522,
+          "period": "202511-202610",
+          "title": "Bora Bora",
+          "url": "https://en.wikipedia.org/wiki/Bora_Bora",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bora-bora-bob-vaitape",
       "name": "Vaitape village",
       "kind": "see",
-      "lat": -16.504,
-      "lon": -151.748,
+      "lat": -16.50639,
+      "lon": -151.74944,
       "wiki": "Vaitape",
       "summary": "Main village with pearl shops and a small market.",
       "expect": "Free.",
@@ -287,14 +312,22 @@
         "Free.",
         "Compare black pearl prices."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11269,
+          "period": "202511-202610",
+          "title": "Vaitape",
+          "url": "https://en.wikipedia.org/wiki/Vaitape",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bora-bora-bob-pahia",
       "name": "Mount Pahia hike",
       "kind": "see",
-      "lat": -16.51,
-      "lon": -151.747,
+      "lat": -16.49,
+      "lon": -151.74,
       "wiki": "Mount Pahia",
       "summary": "Steep guided hike to the summit for epic lagoon views.",
       "expect": "Guide recommended.",
@@ -334,7 +367,15 @@
         "Guide recommended.",
         "Start at dawn."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2564,
+          "period": "202511-202610",
+          "title": "Mount Pahia",
+          "url": "https://en.wikipedia.org/wiki/Mount_Pahia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bora-bora-bob-poissoncru",
@@ -508,5 +549,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

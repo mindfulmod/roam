@@ -72,8 +72,8 @@
       "id": "fiji-fji-mamanuca",
       "name": "Mamanuca Islands",
       "kind": "see",
-      "lat": -17.68,
-      "lon": 177.1,
+      "lat": -17.66667,
+      "lon": 177.08333,
       "wiki": "Mamanuca Islands",
       "summary": "Palm-fringed islands with resorts, snorkelling and Cloud 9's floating bar.",
       "expect": "Day cruise or stay.",
@@ -113,14 +113,22 @@
         "Day cruise or stay.",
         "Visit Monuriki, the Cast Away island."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65195,
+          "period": "202511-202610",
+          "title": "Mamanuca Islands",
+          "url": "https://en.wikipedia.org/wiki/Mamanuca_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fiji-fji-yasawa",
       "name": "Yasawa Islands",
       "kind": "see",
-      "lat": -16.9,
-      "lon": 177.4,
+      "lat": -16.91667,
+      "lon": 177.33333,
       "wiki": "Yasawa Group",
       "summary": "Remote volcanic islands with manta ray swims and caves.",
       "expect": "Stay several nights.",
@@ -161,8 +169,16 @@
         "Stay several nights.",
         "Swim with mantas May to October."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8004,
+          "period": "202511-202610",
+          "title": "Yasawa Islands",
+          "url": "https://en.wikipedia.org/wiki/Yasawa_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fiji-fji-sabeto",
@@ -208,7 +224,16 @@
         "Small fee.",
         "Combine with the Garden of the Sleeping Giant."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 47577,
+          "period": "202511-202610",
+          "title": "Nadi",
+          "url": "https://en.wikipedia.org/wiki/Nadi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fiji-fji-garden",
@@ -301,14 +326,23 @@
         "Wear a sulu, cover shoulders.",
         "Bring kava root as a gift."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13769,
+          "period": "202511-202610",
+          "title": "Kava culture",
+          "url": "https://en.wikipedia.org/wiki/Kava_culture",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fiji-fji-sritemple",
       "name": "Sri Siva Subramaniya Temple",
       "kind": "see",
-      "lat": -17.806,
-      "lon": 177.416,
+      "lat": -17.80731,
+      "lon": 177.41498,
       "wiki": "Sri Siva Subramaniya Temple",
       "summary": "The largest Hindu temple in the southern hemisphere.",
       "expect": "Small fee.",
@@ -348,7 +382,15 @@
         "Small fee.",
         "Dress modestly; shoes off."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10263,
+          "period": "202511-202610",
+          "title": "Sri Siva Subramaniya Temple",
+          "url": "https://en.wikipedia.org/wiki/Sri_Siva_Subramaniya_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fiji-fji-coral",
@@ -395,7 +437,16 @@
         "Walk the dunes early."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2117,
+          "period": "202511-202610",
+          "title": "Sigatoka Sand Dunes",
+          "url": "https://en.wikipedia.org/wiki/Sigatoka_Sand_Dunes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "fiji-fji-kokoda",
@@ -569,5 +620,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

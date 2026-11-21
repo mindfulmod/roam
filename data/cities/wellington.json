@@ -70,8 +70,8 @@
       "id": "wellington-wlg-tepapa",
       "name": "Te Papa Tongarewa",
       "kind": "see",
-      "lat": -41.29,
-      "lon": 174.782,
+      "lat": -41.2906,
+      "lon": 174.7819,
       "wiki": "Museum of New Zealand Te Papa Tongarewa",
       "summary": "The free national museum, with Māori treasures, a colossal squid and the Gallipoli exhibition.",
       "expect": "Free.",
@@ -112,14 +112,22 @@
         "Free.",
         "Do not miss Gallipoli: The Scale of Our War."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18282,
+          "period": "202511-202610",
+          "title": "Te Papa",
+          "url": "https://en.wikipedia.org/wiki/Te_Papa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "wellington-wlg-cablecar",
       "name": "Wellington Cable Car",
       "kind": "see",
-      "lat": -41.285,
-      "lon": 174.775,
+      "lat": -41.28535,
+      "lon": 174.76782,
       "wiki": "Wellington Cable Car",
       "summary": "Red funicular up to the Botanic Garden and views.",
       "expect": "Cheap.",
@@ -159,14 +167,22 @@
         "Cheap.",
         "Walk back down through the gardens."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10066,
+          "period": "202511-202610",
+          "title": "Wellington Cable Car",
+          "url": "https://en.wikipedia.org/wiki/Wellington_Cable_Car",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "wellington-wlg-victoria",
       "name": "Mount Victoria Lookout",
       "kind": "see",
-      "lat": -41.296,
-      "lon": 174.794,
+      "lat": -41.29604,
+      "lon": 174.79432,
       "wiki": "Mount Victoria, Wellington",
       "summary": "Panoramic city lookout with the Hobbit hideaway film spot nearby.",
       "expect": "Free.",
@@ -204,15 +220,14 @@
       "tradeoffs": [
         "Free.",
         "Go at sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "wellington-wlg-weta",
       "name": "Wētā Workshop",
       "kind": "see",
-      "lat": -41.307,
-      "lon": 174.825,
+      "lat": -41.3059,
+      "lon": 174.82379,
       "wiki": "Wētā Workshop",
       "summary": "Tour the special-effects workshop behind Lord of the Rings.",
       "expect": "Book a tour.",
@@ -251,14 +266,22 @@
         "Book a tour.",
         "Combine with the Miramar peninsula."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76340,
+          "period": "202511-202610",
+          "title": "Wētā Workshop",
+          "url": "https://en.wikipedia.org/wiki/W%C4%93t%C4%81_Workshop",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "wellington-wlg-zealandia",
       "name": "Zealandia Ecosanctuary",
       "kind": "see",
-      "lat": -41.29,
-      "lon": 174.753,
+      "lat": -41.29444,
+      "lon": 174.75,
       "wiki": "Zealandia (wildlife sanctuary)",
       "summary": "Predator-free valley full of rare native birds.",
       "expect": "Day or night tours.",
@@ -297,14 +320,22 @@
         "Day or night tours.",
         "Take the night tour for kiwi."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9308,
+          "period": "202511-202610",
+          "title": "Zealandia (wildlife sanctuary)",
+          "url": "https://en.wikipedia.org/wiki/Zealandia_(wildlife_sanctuary)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "wellington-wlg-parliament",
       "name": "Parliament and the Beehive",
       "kind": "see",
-      "lat": -41.278,
-      "lon": 174.776,
+      "lat": -41.2784,
+      "lon": 174.7767,
       "wiki": "Beehive (building)",
       "summary": "Free tours of NZ's Parliament.",
       "expect": "Free.",
@@ -343,14 +374,22 @@
         "Free.",
         "Take the guided tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7892,
+          "period": "202511-202610",
+          "title": "The Beehive",
+          "url": "https://en.wikipedia.org/wiki/The_Beehive",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "wellington-wlg-cuba",
       "name": "Cuba Street",
       "kind": "eat",
-      "lat": -41.295,
-      "lon": 174.775,
+      "lat": -41.2935,
+      "lon": 174.7756,
       "wiki": "Cuba Street",
       "summary": "Bohemian strip of cafés, bars and street food.",
       "expect": "Busy evenings.",
@@ -389,7 +428,6 @@
         "Busy evenings.",
         "See the Bucket Fountain."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "New Zealand",
       "mustOrder": [
@@ -517,5 +555,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
