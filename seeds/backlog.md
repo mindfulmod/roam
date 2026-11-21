@@ -2,9 +2,9 @@
 
 Cities still to add, grouped by region and ordered roughly by how many visitors they draw. Tick a city when its seed is merged. "Minor" cities are smaller places people still travel for.
 
-## Done through the pipeline (74)
+## Done through the pipeline (77)
 
-Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla.
+Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla, Jerusalem, Tel Aviv, Haifa.
 
 ## Europe
 
@@ -14,7 +14,7 @@ Minor: Sintra, Lagos (Algarve), Madeira (Funchal), Azores (Ponta Delgada), Córd
 
 ## Asia and the Middle East
 
-Major: Yokohama, Nagoya, Kobe, Nikko, Hakone, Takayama, Okinawa (Naha), Nagasaki, Jeju, Gyeongju, Guangzhou, Shenzhen, Chengdu, Xi'an, Guilin, Hangzhou, Suzhou, Macau, Kaohsiung, Tainan, Manila, Cebu, Boracay, Palawan (El Nido), Jakarta, Yogyakarta, Bali south (Seminyak, Uluwatu), Lombok, Penang, Langkawi, Malacca, Kota Kinabalu, Pattaya, Hue, Ha Long Bay, Sapa, Nha Trang, Phu Quoc, Phnom Penh, Vientiane, Yangon, Bagan, Mumbai, Goa, Udaipur, Jodhpur, Varanasi, Kochi, Bengaluru, Chennai, Kolkata, Amritsar, Colombo, Kandy, Galle, Malé (Maldives), Pokhara, Thimphu, Abu Dhabi, Doha, Muscat, Amman, Jerusalem, Tel Aviv, Beirut, Samarkand, Bukhara, Almaty.
+Major: Yokohama, Nagoya, Kobe, Nikko, Hakone, Takayama, Okinawa (Naha), Nagasaki, Jeju, Gyeongju, Guangzhou, Shenzhen, Chengdu, Xi'an, Guilin, Hangzhou, Suzhou, Macau, Kaohsiung, Tainan, Manila, Cebu, Boracay, Palawan (El Nido), Jakarta, Yogyakarta, Bali south (Seminyak, Uluwatu), Lombok, Penang, Langkawi, Malacca, Kota Kinabalu, Pattaya, Hue, Ha Long Bay, Sapa, Nha Trang, Phu Quoc, Phnom Penh, Vientiane, Yangon, Bagan, Mumbai, Goa, Udaipur, Jodhpur, Varanasi, Kochi, Bengaluru, Chennai, Kolkata, Amritsar, Colombo, Kandy, Galle, Malé (Maldives), Pokhara, Thimphu, Abu Dhabi, Doha, Muscat, Amman, Beirut, Samarkand, Bukhara, Almaty.
 
 Minor: Naoshima, Shirakawa-go, Koyasan, Miyajima, Kamakura, Matsumoto, Jiufen, Hualien, Zhangjiajie, Lijiang, Lhasa, Luang Namtha, Vang Vieng, Kampot, Ninh Binh, Da Lat, Ipoh, Komodo (Labuan Bajo), Rishikesh, Darjeeling, Leh, Hampi, Munnar, Ella, Sigiriya, Wadi Rum, Aqaba, Khiva.
 
