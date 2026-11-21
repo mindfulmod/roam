@@ -1,0 +1,2638 @@
+[
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are common; carry euro notes for small tavernas, kiosks and island buses.",
+  "id": "mykonos",
+  "name": "Mykonos",
+  "at": [
+   37.4467,
+   25.3289
+  ],
+  "wiki": "Mykonos",
+  "cover": "Little Venice Mykonos",
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "Whitewashed lanes, windmills and the Aegean's party island",
+  "summary": "Mykonos mixes a maze of white cube houses and blue doors with sandy beaches, sunset bars in Little Venice and famous nightlife. It's also the jumping-off point for Delos, the sacred island where Apollo was said to be born.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "June to August is hot, crowded and pricey, with the meltemi wind blowing. May, June and September are nicer. Most of the island closes from November to April.",
+  "arrival": "Mykonos Airport is 10 minutes from town with flights from Athens and across Europe in summer. Ferries from Piraeus or Rafina take 2.5 to 5 hours.",
+  "gettingAround": "Walk in town; buses, sea taxis, quad bikes and expensive taxis to the beaches.",
+  "dailyBudget": [
+   100,
+   350
+  ],
+  "cashPerDay": [
+   30,
+   80
+  ],
+  "foodTip": "Kopanisti cheese, louza cured pork, fresh fish and gyros late at night.",
+  "buyTip": "Local jewellery, linen and Mykonian almond sweets.",
+  "baseArea": "Mykonos Town (Chora) or Ornos",
+  "hotel": [
+   120,
+   600
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Ferry",
+    "minutes": 150,
+    "note": "Fast ferries from Rafina or Piraeus; flights take 40 minutes."
+   },
+   {
+    "to": "santorini",
+    "mode": "Ferry",
+    "minutes": 150,
+    "note": "Summer fast ferries."
+   },
+   {
+    "to": "paros",
+    "mode": "Ferry",
+    "minutes": 45,
+    "note": "Frequent in summer."
+   }
+  ],
+  "items": [
+   {
+    "name": "Little Venice",
+    "kind": "see",
+    "id": "myk-littlevenice",
+    "at": [
+     37.4456,
+     25.3256
+    ],
+    "wiki": "Little Venice (Mykonos)",
+    "area": "Chora",
+    "summary": "Old sea captains' houses with balconies over the waves, lined with sunset bars.",
+    "expect": "Crowded at sunset; arrive early.",
+    "tip": "Grab a seat by 7 pm in summer.",
+    "why": "Mykonos's sunset spot.",
+    "flow": [
+     "Walk the waterfront.",
+     "Sunset drink."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Kato Mili windmills",
+    "kind": "see",
+    "id": "myk-windmills",
+    "at": [
+     37.444,
+     25.327
+    ],
+    "wiki": "Mykonos",
+    "area": "Chora",
+    "summary": "A row of 16th-century windmills on a ridge above Little Venice.",
+    "expect": "Free.",
+    "tip": "Photograph them from Little Venice at sunset.",
+    "why": "The island's symbol.",
+    "flow": [
+     "Climb the ridge.",
+     "Windmill views."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Panagia Paraportiani",
+    "kind": "see",
+    "id": "myk-paraportiani",
+    "at": [
+     37.4462,
+     25.3254
+    ],
+    "wiki": "Panagia Paraportiani",
+    "area": "Chora",
+    "summary": "A lumpy, whitewashed church made of five chapels joined together.",
+    "expect": "Free to view.",
+    "tip": "Visit in the soft morning light.",
+    "why": "The most photographed church in Greece.",
+    "flow": [
+     "Walk around.",
+     "Kastro quarter."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Delos",
+    "kind": "see",
+    "id": "myk-delos",
+    "at": [
+     37.3966,
+     25.2687
+    ],
+    "wiki": "Delos",
+    "area": "Delos island",
+    "summary": "The sacred island of Apollo, covered in temples, mosaics and the Terrace of the Lions.",
+    "expect": "Boats leave from the old port; closed Mondays; no shade.",
+    "tip": "Bring water and a hat.",
+    "why": "One of Greece's great ancient sites.",
+    "flow": [
+     "Boat from the old port.",
+     "Terrace of the Lions.",
+     "House mosaics."
+    ],
+    "hours": 5,
+    "price": [
+     20,
+     45
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Chora lanes",
+    "kind": "see",
+    "id": "myk-chora",
+    "at": [
+     37.4455,
+     25.3285
+    ],
+    "wiki": "Mykonos",
+    "area": "Chora",
+    "summary": "A labyrinth of white lanes, blue doors and bougainvillea built to confuse pirates.",
+    "expect": "Get lost on purpose.",
+    "tip": "Wander Matoyianni Street, then the back lanes.",
+    "why": "Classic Cycladic charm.",
+    "flow": [
+     "Matoyianni Street.",
+     "Back lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "South coast beaches",
+    "kind": "see",
+    "id": "myk-beaches",
+    "at": [
+     37.409,
+     25.353
+    ],
+    "wiki": "Mykonos",
+    "area": "South coast",
+    "summary": "Sandy bays from family-friendly Ornos to party beaches like Paradise.",
+    "expect": "Sunbeds are expensive in high season.",
+    "tip": "Take a sea taxi from Platis Gialos.",
+    "why": "Mykonos beach life.",
+    "flow": [
+     "Sea taxi.",
+     "Beach hop."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Ano Mera and Panagia Tourliani",
+    "kind": "see",
+    "id": "myk-anomera",
+    "at": [
+     37.45,
+     25.395
+    ],
+    "wiki": "Ano Mera",
+    "area": "Ano Mera",
+    "summary": "The island's inland village, with a 16th-century monastery and a quiet square.",
+    "expect": "Few tourists.",
+    "tip": "Lunch in the square.",
+    "why": "Mykonos's quieter side.",
+    "flow": [
+     "Monastery.",
+     "Village square."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Kopanisti and louza",
+    "kind": "eat",
+    "id": "myk-kopanisti",
+    "at": [
+     37.446,
+     25.329
+    ],
+    "wiki": "Kopanisti",
+    "area": "Chora",
+    "venue": "food-area",
+    "summary": "A spicy, tangy local cheese and cured pork, served as meze.",
+    "expect": "On most taverna menus.",
+    "tip": "Order a meze platter.",
+    "why": "Mykonian flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Kopanisti",
+     "Louza"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Seafront fish taverna",
+    "kind": "eat",
+    "id": "myk-fish",
+    "at": [
+     37.4465,
+     25.327
+    ],
+    "wiki": "Greek cuisine",
+    "area": "Chora",
+    "venue": "food-area",
+    "summary": "Grilled fish, octopus and lobster pasta by the water.",
+    "expect": "Fish is priced per kilo; check first.",
+    "tip": "Try lobster spaghetti.",
+    "why": "Island seafood.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek seafood",
+    "order": [
+     "Grilled octopus",
+     "Lobster pasta"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Late-night gyros",
+    "kind": "eat",
+    "id": "myk-gyros",
+    "at": [
+     37.4458,
+     25.329
+    ],
+    "wiki": "Gyros",
+    "area": "Chora",
+    "venue": "food-area",
+    "summary": "Pork or chicken gyros wrapped in pita with tzatziki.",
+    "expect": "Open late for the party crowd.",
+    "tip": "Ask for extra tzatziki.",
+    "why": "Cheap fuel in an expensive town.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Gyros pita"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are common; carry euro notes for small tavernas, kiosks and island buses.",
+  "id": "corfu",
+  "name": "Corfu",
+  "at": [
+   39.6243,
+   19.9217
+  ],
+  "wiki": "Corfu",
+  "cover": "Corfu Old Town",
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "A green Ionian island with Venetian forts",
+  "summary": "Corfu is lush and green, with olive groves running down to clear bays. Its old town, a World Heritage site, shows centuries of Venetian, French and British rule, with fortresses, arcaded streets and cricket on the town green.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "May to June and September to October are warm and less crowded. July and August are busy and hot. Winters are green and rainy.",
+  "arrival": "Corfu Airport is 10 minutes from town with flights from Athens and across Europe. Ferries come from Igoumenitsa, Italy and Albania.",
+  "gettingAround": "Green buses for the island, blue buses for town; a rental car is best for beaches.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   25,
+   60
+  ],
+  "foodTip": "Pastitsada, sofrito, bourdeto fish stew and kumquat liqueur.",
+  "buyTip": "Kumquat liqueur and sweets, olive-wood crafts and olive oil.",
+  "baseArea": "Corfu Old Town, or Paleokastritsa for beaches",
+  "hotel": [
+   70,
+   250
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Approximate flight time."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old Fortress",
+    "kind": "see",
+    "id": "corfu-oldfort",
+    "at": [
+     39.6234,
+     19.9285
+    ],
+    "wiki": "Old Fortress, Corfu",
+    "area": "Old Town",
+    "summary": "A Venetian fortress on a rocky headland with views over the town and sea.",
+    "expect": "Climb to the lighthouse.",
+    "tip": "Go late afternoon.",
+    "why": "Corfu's defining landmark.",
+    "flow": [
+     "Moat bridge.",
+     "Lighthouse climb."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old Town and the Liston",
+    "kind": "see",
+    "id": "corfu-oldtown",
+    "at": [
+     39.6237,
+     19.9228
+    ],
+    "wiki": "Liston (Corfu)",
+    "area": "Old Town",
+    "summary": "Arcaded French-style cafés facing the Spianada green, and narrow Venetian lanes behind.",
+    "expect": "Cafés are pricey but atmospheric.",
+    "tip": "Have coffee on the Liston.",
+    "why": "A World Heritage old town.",
+    "flow": [
+     "Liston.",
+     "Spianada.",
+     "Kantounia lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Achilleion Palace",
+    "kind": "see",
+    "id": "corfu-achilleion",
+    "at": [
+     39.5625,
+     19.9042
+    ],
+    "wiki": "Achilleion (Corfu)",
+    "area": "Gastouri",
+    "summary": "Empress Sisi's palace dedicated to Achilles, with gardens and sea views.",
+    "expect": "Can be busy with cruise groups.",
+    "tip": "See the Dying Achilles statue.",
+    "why": "A romantic royal retreat.",
+    "flow": [
+     "Palace rooms.",
+     "Gardens."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Paleokastritsa",
+    "kind": "see",
+    "id": "corfu-paleokastritsa",
+    "at": [
+     39.674,
+     19.707
+    ],
+    "wiki": "Palaiokastritsa",
+    "area": "West coast",
+    "summary": "Coves of turquoise water under green cliffs, with a hilltop monastery.",
+    "expect": "Take a boat into the sea caves.",
+    "tip": "Visit the monastery, then swim.",
+    "why": "Corfu's most beautiful bay.",
+    "flow": [
+     "Monastery.",
+     "Cave boat.",
+     "Swim."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mouse Island and Vlacherna",
+    "kind": "see",
+    "id": "corfu-pontikonisi",
+    "at": [
+     39.585,
+     19.92
+    ],
+    "wiki": "Pontikonisi",
+    "area": "Kanoni",
+    "summary": "A tiny monastery on a causeway and an islet with a chapel, under the airport approach.",
+    "expect": "Watch planes land overhead.",
+    "tip": "View it from Kanoni.",
+    "why": "Corfu's postcard view.",
+    "flow": [
+     "Kanoni view.",
+     "Causeway walk."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "New Fortress",
+    "kind": "see",
+    "id": "corfu-newfort",
+    "at": [
+     39.6262,
+     19.918
+    ],
+    "wiki": "New Fortress, Corfu",
+    "area": "Old Town",
+    "summary": "A massive Venetian fort with tunnels and views over the old port.",
+    "expect": "Hours vary.",
+    "tip": "Explore the tunnels.",
+    "why": "Fewer crowds than the Old Fortress.",
+    "flow": [
+     "Tunnels.",
+     "Ramparts."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mount Pantokrator",
+    "kind": "see",
+    "id": "corfu-pantokrator",
+    "at": [
+     39.748,
+     19.871
+    ],
+    "wiki": "Pantokrator (Corfu)",
+    "area": "North",
+    "summary": "The island's highest peak, with views to Albania and a monastery on top.",
+    "expect": "Narrow road to the top.",
+    "tip": "Visit Old Perithia village on the way.",
+    "why": "The best view on Corfu.",
+    "flow": [
+     "Drive up.",
+     "Monastery.",
+     "Old Perithia."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Pastitsada",
+    "kind": "eat",
+    "id": "corfu-pastitsada",
+    "at": [
+     39.623,
+     19.922
+    ],
+    "wiki": "Pastitsada",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Beef or rooster slow-cooked in spiced tomato sauce over pasta.",
+    "expect": "A Sunday classic.",
+    "tip": "Try it at a family taverna.",
+    "why": "Corfu's Venetian-influenced dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Corfiot",
+    "order": [
+     "Pastitsada"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Sofrito",
+    "kind": "eat",
+    "id": "corfu-sofrito",
+    "at": [
+     39.624,
+     19.92
+    ],
+    "wiki": "Sofrito",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Veal cooked in white wine, garlic and parsley.",
+    "expect": "On most local menus.",
+    "tip": "Pair with local wine.",
+    "why": "A Corfiot staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Corfiot",
+    "order": [
+     "Sofrito"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Bourdeto",
+    "kind": "eat",
+    "id": "corfu-bourdeto",
+    "at": [
+     39.62,
+     19.925
+    ],
+    "wiki": "Bourdeto",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Spicy fish stew with red pepper and onion.",
+    "expect": "Fishermen's dish.",
+    "tip": "Ask for scorpion fish.",
+    "why": "Fiery island cooking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     14,
+     22
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Corfiot",
+    "order": [
+     "Bourdeto"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are common; carry euro notes for small tavernas, kiosks and island buses.",
+  "id": "thessaloniki",
+  "name": "Thessaloniki",
+  "at": [
+   40.6401,
+   22.9444
+  ],
+  "wiki": "Thessaloniki",
+  "cover": "White Tower of Thessaloniki",
+  "seasons": "SSSHHSSSHHSS",
+  "tagline": "Byzantine churches, Roman arches and Greece's best food city",
+  "summary": "Greece's second city is a lively seaside university town with layers of Roman, Byzantine and Ottoman history, from the Rotunda and Arch of Galerius to World Heritage churches. It's known as the food capital of Greece, with markets, bougatsa and meze bars.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are ideal. Summer is hot. The film festival is in November, and the city is lively all year.",
+  "arrival": "Makedonia Airport is 30 minutes from the centre by bus. Trains from Athens take about 4.5 hours.",
+  "gettingAround": "Walk the centre; a new metro and buses cover the rest.",
+  "dailyBudget": [
+   60,
+   150
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "foodTip": "Bougatsa for breakfast, koulouri bread rings, meze and seafood.",
+  "buyTip": "Spices and olives from the Kapani and Modiano markets.",
+  "baseArea": "Around Aristotelous Square or Ladadika",
+  "hotel": [
+   60,
+   180
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Train",
+    "minutes": 260,
+    "note": "Intercity trains; flights take about 50 minutes."
+   },
+   {
+    "to": "meteora",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Usually with a change at Palaiofarsalos; buses too."
+   }
+  ],
+  "items": [
+   {
+    "name": "White Tower",
+    "kind": "see",
+    "id": "thes-whitetower",
+    "at": [
+     40.6264,
+     22.9484
+    ],
+    "wiki": "White Tower of Thessaloniki",
+    "area": "Waterfront",
+    "summary": "An Ottoman tower on the seafront with a city history museum and rooftop view.",
+    "expect": "Small museum inside.",
+    "tip": "Climb for the bay view.",
+    "why": "The city's symbol.",
+    "flow": [
+     "Museum floors.",
+     "Rooftop."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Rotunda and Arch of Galerius",
+    "kind": "see",
+    "id": "thes-rotunda",
+    "at": [
+     40.6334,
+     22.953
+    ],
+    "wiki": "Rotunda (Thessaloniki)",
+    "area": "Centre",
+    "summary": "A Roman rotunda with Byzantine mosaics, beside a carved triumphal arch.",
+    "expect": "The arch is free to see.",
+    "tip": "Look up at the mosaics in the dome.",
+    "why": "4th-century Rome in the city centre.",
+    "flow": [
+     "Arch of Galerius.",
+     "Rotunda mosaics."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Hagios Demetrios",
+    "kind": "see",
+    "id": "thes-demetrios",
+    "at": [
+     40.639,
+     22.9475
+    ],
+    "wiki": "Hagios Demetrios",
+    "area": "Centre",
+    "summary": "The basilica of the city's patron saint, with a crypt over a Roman bath.",
+    "expect": "Free; dress modestly.",
+    "tip": "Visit the crypt.",
+    "why": "A World Heritage church.",
+    "flow": [
+     "Basilica.",
+     "Crypt."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Ano Poli and the walls",
+    "kind": "see",
+    "id": "thes-anopoli",
+    "at": [
+     40.644,
+     22.96
+    ],
+    "wiki": "Ano Poli",
+    "area": "Upper Town",
+    "summary": "The hillside old town of Ottoman houses, Byzantine walls and the Heptapyrgion fortress.",
+    "expect": "Uphill; take a taxi up and walk down.",
+    "tip": "Watch sunset from the walls.",
+    "why": "The city's old soul.",
+    "flow": [
+     "Heptapyrgion.",
+     "Walls.",
+     "Walk down the lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Archaeological Museum",
+    "kind": "see",
+    "id": "thes-museum",
+    "at": [
+     40.6252,
+     22.9541
+    ],
+    "wiki": "Archaeological Museum of Thessaloniki",
+    "area": "East",
+    "summary": "Macedonian gold, the Derveni krater and Roman finds.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the Derveni krater.",
+    "why": "Macedonia's treasures.",
+    "flow": [
+     "Gold of Macedon.",
+     "Derveni krater."
+    ],
+    "hours": 2,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Waterfront promenade",
+    "kind": "see",
+    "id": "thes-waterfront",
+    "at": [
+     40.6326,
+     22.941
+    ],
+    "wiki": "Aristotelous Square",
+    "area": "Waterfront",
+    "summary": "A long seafront walk from Aristotelous Square past the Umbrellas sculpture.",
+    "expect": "Free; locals stroll at sunset.",
+    "tip": "Walk to the Umbrellas at sunset.",
+    "why": "Thessaloniki's living room.",
+    "flow": [
+     "Aristotelous Square.",
+     "Promenade.",
+     "Umbrellas."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Royal Tombs of Vergina",
+    "kind": "see",
+    "id": "thes-vergina",
+    "at": [
+     40.485,
+     22.319
+    ],
+    "wiki": "Vergina",
+    "area": "Vergina",
+    "summary": "The underground museum of Philip II's tomb, with gold and ivory treasures.",
+    "expect": "About an hour by car.",
+    "tip": "Go early.",
+    "why": "Alexander the Great's family tomb.",
+    "flow": [
+     "Drive.",
+     "Tomb museum."
+    ],
+    "hours": 5,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Bougatsa",
+    "kind": "eat",
+    "id": "thes-bougatsa",
+    "at": [
+     40.6355,
+     22.944
+    ],
+    "wiki": "Bougatsa",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Flaky filo pie filled with custard, cheese or mince, dusted with sugar.",
+    "expect": "A breakfast institution.",
+    "tip": "Try the cream one with cinnamon.",
+    "why": "Thessaloniki's breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Bougatsa"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Modiano and Kapani markets",
+    "kind": "eat",
+    "id": "thes-modiano",
+    "at": [
+     40.6368,
+     22.9425
+    ],
+    "wiki": "Modiano Market",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Covered markets of fish, spices and olives with small meze bars.",
+    "expect": "Busiest in the morning.",
+    "tip": "Have ouzo and meze in the market.",
+    "why": "The city's food heart.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Meze",
+     "Ouzo"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Koulouri",
+    "kind": "eat",
+    "id": "thes-koulouri",
+    "at": [
+     40.633,
+     22.945
+    ],
+    "wiki": "Koulouri of Thessaloniki",
+    "area": "Street stalls",
+    "venue": "food-area",
+    "summary": "Sesame bread rings sold from street carts.",
+    "expect": "Cheap and fresh in the morning.",
+    "tip": "Eat it on the go.",
+    "why": "A street snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     1,
+     2
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Koulouri"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are common; carry euro notes for small tavernas, kiosks and island buses.",
+  "id": "meteora",
+  "name": "Meteora",
+  "at": [
+   39.7066,
+   21.63
+  ],
+  "wiki": "Meteora",
+  "cover": "Meteora",
+  "seasons": "LLSHHHSSHHSL",
+  "tagline": "Monasteries perched on towering rock pillars",
+  "summary": "Above the town of Kalambaka, giant sandstone pillars rise from the plain, and six monasteries still sit on top, built by monks from the 14th century. Hiking trails and sunset viewpoints make it one of the most spectacular places in Greece.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are best for hiking. Summer is hot and busy midday. Each monastery closes one or two days a week, so check before you go.",
+  "arrival": "Trains from Athens take about 4.5 to 5 hours to Kalambaka, usually changing at Palaiofarsalos. Buses also run via Trikala.",
+  "gettingAround": "Walk or hike up from Kalambaka or Kastraki, take a local bus, or join a tour.",
+  "dailyBudget": [
+   60,
+   140
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "foodTip": "Thessalian pies, spetzofai sausage stew and grilled meats.",
+  "buyTip": "Icons, local honey and tsipouro.",
+  "baseArea": "Kastraki village or Kalambaka",
+  "hotel": [
+   50,
+   150
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Train",
+    "minutes": 270,
+    "note": "Usually with a change at Palaiofarsalos."
+   },
+   {
+    "to": "thessaloniki",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Usually with a change; buses too."
+   }
+  ],
+  "items": [
+   {
+    "name": "Great Meteoron",
+    "kind": "see",
+    "id": "met-great",
+    "at": [
+     39.7217,
+     21.6306
+    ],
+    "wiki": "Great Meteoron Monastery",
+    "area": "Meteora",
+    "summary": "The largest and highest monastery, with a museum, frescoes and old kitchens.",
+    "expect": "Dress modestly; skirts are lent at the door.",
+    "tip": "Arrive at opening.",
+    "why": "The heart of Meteora.",
+    "flow": [
+     "Climb the steps.",
+     "Church.",
+     "Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Varlaam Monastery",
+    "kind": "see",
+    "id": "met-varlaam",
+    "at": [
+     39.72,
+     21.625
+    ],
+    "wiki": "Varlaam Monastery",
+    "area": "Meteora",
+    "summary": "A monastery with fine frescoes and the old rope-and-net winch tower.",
+    "expect": "Close to Great Meteoron.",
+    "tip": "Look at the winch tower.",
+    "why": "How monks were hauled up.",
+    "flow": [
+     "Winch tower.",
+     "Frescoes."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Roussanou Monastery",
+    "kind": "see",
+    "id": "met-roussanou",
+    "at": [
+     39.715,
+     21.633
+    ],
+    "wiki": "Roussanou Monastery",
+    "area": "Meteora",
+    "summary": "A nunnery built right to the edge of its pillar, reached by a bridge.",
+    "expect": "Small and busy.",
+    "tip": "Photograph it from the road bend.",
+    "why": "The most dramatic setting.",
+    "flow": [
+     "Bridge.",
+     "Chapel."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Holy Trinity Monastery",
+    "kind": "see",
+    "id": "met-trinity",
+    "at": [
+     39.713,
+     21.646
+    ],
+    "wiki": "Monastery of the Holy Trinity (Meteora)",
+    "area": "Meteora",
+    "summary": "A monastery on a sheer pillar, reached by 140 steps, seen in a James Bond film.",
+    "expect": "Steep path.",
+    "tip": "Walk up from Kalambaka.",
+    "why": "Breathtaking position.",
+    "flow": [
+     "Steps.",
+     "View terrace."
+    ],
+    "hours": 1.5,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "St Stephen's Monastery",
+    "kind": "see",
+    "id": "met-stephen",
+    "at": [
+     39.709,
+     21.646
+    ],
+    "wiki": "Monastery of St. Stephen (Meteora)",
+    "area": "Meteora",
+    "summary": "An easy-to-reach nunnery with views over Kalambaka.",
+    "expect": "No stairs.",
+    "tip": "Visit late afternoon.",
+    "why": "Accessible and peaceful.",
+    "flow": [
+     "Bridge in.",
+     "Chapel."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Sunset Rock",
+    "kind": "see",
+    "id": "met-sunset",
+    "at": [
+     39.714,
+     21.639
+    ],
+    "wiki": "Meteora",
+    "area": "Meteora",
+    "summary": "A rocky lookout with views over the pillars and monasteries at golden hour.",
+    "expect": "Busy at sunset.",
+    "tip": "Arrive 45 minutes early.",
+    "why": "Meteora's best sunset.",
+    "flow": [
+     "Walk out.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Monastery hiking trails",
+    "kind": "see",
+    "id": "met-hike",
+    "at": [
+     39.713,
+     21.615
+    ],
+    "wiki": "Meteora",
+    "area": "Kastraki",
+    "summary": "Old monk paths linking Kastraki and Kalambaka to the monasteries.",
+    "expect": "Good shoes; signs are basic.",
+    "tip": "Join a guided hike for the hermit caves.",
+    "why": "See Meteora on foot.",
+    "flow": [
+     "Kastraki start.",
+     "Forest path.",
+     "Monasteries."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Thessalian pies",
+    "kind": "eat",
+    "id": "met-pies",
+    "at": [
+     39.706,
+     21.63
+    ],
+    "wiki": "Spanakopita",
+    "area": "Kalambaka",
+    "venue": "food-area",
+    "summary": "Spinach, cheese or leek pies with homemade filo.",
+    "expect": "Bakeries open early.",
+    "tip": "Buy for a hiking picnic.",
+    "why": "Mountain comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Spanakopita",
+     "Tyropita"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Spetzofai",
+    "kind": "eat",
+    "id": "met-spetzofai",
+    "at": [
+     39.712,
+     21.616
+    ],
+    "wiki": "Spetzofai",
+    "area": "Kastraki",
+    "venue": "food-area",
+    "summary": "Country sausage stewed with peppers and tomato.",
+    "expect": "A Thessaly dish.",
+    "tip": "Order with tsipouro.",
+    "why": "Hearty local food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Spetzofai"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Taverna grill",
+    "kind": "eat",
+    "id": "met-grill",
+    "at": [
+     39.7065,
+     21.631
+    ],
+    "wiki": "Souvlaki",
+    "area": "Kalambaka",
+    "venue": "food-area",
+    "summary": "Grilled lamb chops, souvlaki and village salad.",
+    "expect": "Family tavernas in town.",
+    "tip": "Order paidakia (lamb chops).",
+    "why": "Simple and good.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Paidakia",
+     "Souvlaki"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are common; carry euro notes for small tavernas, kiosks and island buses.",
+  "id": "delphi",
+  "name": "Delphi",
+  "at": [
+   38.4824,
+   22.501
+  ],
+  "wiki": "Delphi",
+  "cover": "Tholos of Delphi",
+  "seasons": "LLSHHHSSHHSL",
+  "tagline": "The ancient oracle on the slopes of Mount Parnassus",
+  "summary": "Ancient Greeks believed Delphi was the centre of the world, and came to consult the oracle of Apollo. Its temple, theatre and stadium climb a mountainside above an olive-filled valley, with one of Greece's best museums nearby.",
+  "days": 1,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are ideal. Summer middays are hot; go early. Winter brings snow to nearby Parnassus ski slopes.",
+  "arrival": "Buses from Athens take about 3 hours; many people come on a day tour or by car.",
+  "gettingAround": "Walk; the village and the site are close together.",
+  "dailyBudget": [
+   60,
+   140
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "foodTip": "Formaela cheese, roast lamb and mountain honey.",
+  "buyTip": "Arachova rugs, honey and local cheese.",
+  "baseArea": "Delphi village or Arachova",
+  "hotel": [
+   50,
+   150
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Bus",
+    "minutes": 180,
+    "note": "KTEL buses; about 2.5 hours by car."
+   }
+  ],
+  "items": [
+   {
+    "name": "Sanctuary of Apollo",
+    "kind": "see",
+    "id": "delphi-sanctuary",
+    "at": [
+     38.4824,
+     22.501
+    ],
+    "wiki": "Temple of Apollo (Delphi)",
+    "area": "Delphi",
+    "summary": "The Sacred Way climbs past treasuries to the Temple of Apollo, theatre and stadium.",
+    "expect": "No shade; arrive at opening.",
+    "tip": "Climb to the stadium for the view.",
+    "why": "Home of the ancient oracle.",
+    "flow": [
+     "Sacred Way.",
+     "Temple.",
+     "Theatre and stadium."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Delphi Archaeological Museum",
+    "kind": "see",
+    "id": "delphi-museum",
+    "at": [
+     38.48,
+     22.496
+    ],
+    "wiki": "Delphi Archaeological Museum",
+    "area": "Delphi",
+    "summary": "The bronze Charioteer, the Sphinx of the Naxians and temple sculptures.",
+    "expect": "Included in the site ticket.",
+    "tip": "Save it for the hot midday.",
+    "why": "One of Greece's finest museums.",
+    "flow": [
+     "Charioteer.",
+     "Sphinx."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Tholos of Athena Pronaia",
+    "kind": "see",
+    "id": "delphi-tholos",
+    "at": [
+     38.48,
+     22.508
+    ],
+    "wiki": "Tholos of Delphi",
+    "area": "Marmaria",
+    "summary": "A graceful circular temple below the main site.",
+    "expect": "Free to visit.",
+    "tip": "Walk down from the Castalian Spring.",
+    "why": "Delphi's iconic image.",
+    "flow": [
+     "Path down.",
+     "Tholos."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Castalian Spring",
+    "kind": "see",
+    "id": "delphi-castalian",
+    "at": [
+     38.482,
+     22.504
+    ],
+    "wiki": "Castalian Spring",
+    "area": "Delphi",
+    "summary": "The sacred spring where pilgrims purified themselves.",
+    "expect": "Roadside; quick stop.",
+    "tip": "Stop on the way to the Tholos.",
+    "why": "Part of the oracle ritual.",
+    "flow": [
+     "Spring.",
+     "Fountain houses."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Arachova",
+    "kind": "see",
+    "id": "delphi-arachova",
+    "at": [
+     38.48,
+     22.585
+    ],
+    "wiki": "Arachova",
+    "area": "Arachova",
+    "summary": "A mountain village of stone houses, rugs and cafés on Parnassus.",
+    "expect": "Busy with skiers in winter.",
+    "tip": "Climb to the clock tower.",
+    "why": "Mountain charm.",
+    "flow": [
+     "Main street.",
+     "Clock tower."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Hosios Loukas Monastery",
+    "kind": "see",
+    "id": "delphi-hosiosloukas",
+    "at": [
+     38.395,
+     22.746
+    ],
+    "wiki": "Hosios Loukas",
+    "area": "Distomo",
+    "summary": "An 11th-century monastery with golden Byzantine mosaics.",
+    "expect": "About 40 minutes by car.",
+    "tip": "Combine with the drive from Athens.",
+    "why": "World Heritage mosaics.",
+    "flow": [
+     "Main church.",
+     "Mosaics."
+    ],
+    "hours": 2,
+    "price": [
+     4,
+     4
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Art"
+    ]
+   },
+   {
+    "name": "Galaxidi",
+    "kind": "see",
+    "id": "delphi-galaxidi",
+    "at": [
+     38.38,
+     22.38
+    ],
+    "wiki": "Galaxidi",
+    "area": "Galaxidi",
+    "summary": "A pretty harbour town of sea captains' mansions.",
+    "expect": "30 minutes by car.",
+    "tip": "Lunch by the harbour.",
+    "why": "A seaside escape.",
+    "flow": [
+     "Harbour.",
+     "Old town."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Formaela cheese",
+    "kind": "eat",
+    "id": "delphi-formaela",
+    "at": [
+     38.48,
+     22.583
+    ],
+    "wiki": "Formaela",
+    "area": "Arachova",
+    "venue": "food-area",
+    "summary": "A chewy local cheese, grilled and served with lemon.",
+    "expect": "A Parnassus speciality.",
+    "tip": "Order it grilled.",
+    "why": "Mountain cheese.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Grilled formaela"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Roast lamb",
+    "kind": "eat",
+    "id": "delphi-lamb",
+    "at": [
+     38.4815,
+     22.495
+    ],
+    "wiki": "Kleftiko",
+    "area": "Delphi village",
+    "venue": "food-area",
+    "summary": "Slow-roasted lamb with potatoes and herbs.",
+    "expect": "Terrace tavernas have valley views.",
+    "tip": "Ask for a terrace table.",
+    "why": "Classic Greek mountain food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Kleftiko"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Village salad with a view",
+    "kind": "eat",
+    "id": "delphi-salad",
+    "at": [
+     38.4812,
+     22.494
+    ],
+    "wiki": "Greek salad",
+    "area": "Delphi village",
+    "venue": "food-area",
+    "summary": "Tomato, cucumber, olives and feta with local olive oil.",
+    "expect": "Cheap and fresh.",
+    "tip": "Pair with local honey yoghurt.",
+    "why": "Simple Greek lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Horiatiki"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are common; carry euro notes for small tavernas, kiosks and island buses.",
+  "id": "nafplio",
+  "name": "Nafplio",
+  "at": [
+   37.5673,
+   22.8016
+  ],
+  "wiki": "Nafplion",
+  "cover": "Palamidi",
+  "seasons": "LLSHHHSSHHSL",
+  "tagline": "Greece's elegant first capital, with Mycenae next door",
+  "summary": "Nafplio is a seaside town of Venetian mansions, marble squares and bougainvillea, watched over by the Palamidi fortress. It was the first capital of modern Greece, and it's the best base for Mycenae and the theatre of Epidaurus.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are perfect. Summer is hot but the Epidaurus festival brings performances. Athenians visit at weekends.",
+  "arrival": "Buses from Athens take about 2.5 hours; it's about 2 hours by car.",
+  "gettingAround": "Walk the old town; buses or a car for Mycenae and Epidaurus.",
+  "dailyBudget": [
+   60,
+   150
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "foodTip": "Grilled fish, moussaka and loukoumades.",
+  "buyTip": "Komboloi worry beads, olive oil and Nemea wine.",
+  "baseArea": "The old town",
+  "hotel": [
+   60,
+   180
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "KTEL buses; about 2 hours by car."
+   }
+  ],
+  "items": [
+   {
+    "name": "Palamidi Fortress",
+    "kind": "see",
+    "id": "naf-palamidi",
+    "at": [
+     37.562,
+     22.808
+    ],
+    "wiki": "Palamidi",
+    "area": "Old town",
+    "summary": "A Venetian fortress reached by nearly 1,000 steps, with views over the gulf.",
+    "expect": "Hot climb; go early or drive up.",
+    "tip": "Climb in the morning.",
+    "why": "Nafplio's grand view.",
+    "flow": [
+     "Steps.",
+     "Bastions."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Bourtzi",
+    "kind": "see",
+    "id": "naf-bourtzi",
+    "at": [
+     37.569,
+     22.792
+    ],
+    "wiki": "Bourtzi",
+    "area": "Harbour",
+    "summary": "A small castle on an islet in the harbour.",
+    "expect": "Boats run from the quay.",
+    "tip": "See it lit at night.",
+    "why": "The town's emblem.",
+    "flow": [
+     "Quay view.",
+     "Boat trip."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old town and Syntagma Square",
+    "kind": "see",
+    "id": "naf-oldtown",
+    "at": [
+     37.567,
+     22.799
+    ],
+    "wiki": "Archaeological Museum of Nafplio",
+    "area": "Old town",
+    "summary": "Marble squares, Venetian buildings and lanes of flowering balconies.",
+    "expect": "Free to wander.",
+    "tip": "Visit the archaeological museum on the square.",
+    "why": "Greece's prettiest town.",
+    "flow": [
+     "Syntagma Square.",
+     "Lanes.",
+     "Museum."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Arvanitia promenade",
+    "kind": "see",
+    "id": "naf-arvanitia",
+    "at": [
+     37.564,
+     22.797
+    ],
+    "wiki": "Acronauplia",
+    "area": "Akronafplia",
+    "summary": "A clifftop walk around the headland to Arvanitia beach.",
+    "expect": "Free.",
+    "tip": "Walk it at sunset.",
+    "why": "Coastal views.",
+    "flow": [
+     "Promenade.",
+     "Beach swim."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mycenae",
+    "kind": "see",
+    "id": "naf-mycenae",
+    "at": [
+     37.7308,
+     22.7564
+    ],
+    "wiki": "Mycenae",
+    "area": "Mycenae",
+    "summary": "The citadel of Agamemnon, with the Lion Gate and beehive tombs.",
+    "expect": "No shade; go early.",
+    "tip": "See the Treasury of Atreus tomb.",
+    "why": "Bronze Age Greece.",
+    "flow": [
+     "Lion Gate.",
+     "Citadel.",
+     "Treasury of Atreus."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Theatre of Epidaurus",
+    "kind": "see",
+    "id": "naf-epidaurus",
+    "at": [
+     37.596,
+     23.079
+    ],
+    "wiki": "Ancient Theatre of Epidaurus",
+    "area": "Epidaurus",
+    "summary": "A 4th-century BC theatre with near-perfect acoustics.",
+    "expect": "Summer festival performances.",
+    "tip": "Drop a coin in the centre and listen from the top.",
+    "why": "The best-preserved Greek theatre.",
+    "flow": [
+     "Theatre.",
+     "Sanctuary of Asclepius."
+    ],
+    "hours": 3,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Tiryns",
+    "kind": "see",
+    "id": "naf-tiryns",
+    "at": [
+     37.599,
+     22.799
+    ],
+    "wiki": "Tiryns",
+    "area": "Tiryns",
+    "summary": "Mycenaean walls of giant 'cyclopean' stones.",
+    "expect": "Quiet and short.",
+    "tip": "Combine with Mycenae.",
+    "why": "Massive ancient walls.",
+    "flow": [
+     "Walls.",
+     "Galleries."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     4
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Harbour fish taverna",
+    "kind": "eat",
+    "id": "naf-fish",
+    "at": [
+     37.5685,
+     22.797
+    ],
+    "wiki": "Greek cuisine",
+    "area": "Harbour",
+    "venue": "food-area",
+    "summary": "Grilled sea bream, fried calamari and salads by the water.",
+    "expect": "Check fish prices per kilo.",
+    "tip": "Try fried calamari.",
+    "why": "Seafront dining.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     40
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek seafood",
+    "order": [
+     "Grilled fish",
+     "Calamari"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Moussaka",
+    "kind": "eat",
+    "id": "naf-moussaka",
+    "at": [
+     37.5665,
+     22.8
+    ],
+    "wiki": "Moussaka",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Layers of aubergine, spiced mince and béchamel.",
+    "expect": "Every taverna has it.",
+    "tip": "Try a family taverna.",
+    "why": "Greek home cooking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Moussaka"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Loukoumades",
+    "kind": "eat",
+    "id": "naf-loukoumades",
+    "at": [
+     37.567,
+     22.8
+    ],
+    "wiki": "Loukoumades",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Fried dough balls with honey and cinnamon.",
+    "expect": "Also try local gelato.",
+    "tip": "Have them warm.",
+    "why": "Sweet treat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Loukoumades"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are common; carry euro notes for small tavernas, kiosks and island buses.",
+  "id": "paros",
+  "name": "Paros",
+  "at": [
+   37.0856,
+   25.15
+  ],
+  "wiki": "Paros",
+  "cover": "Naousa Paros",
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "Relaxed Cycladic villages, beaches and Antiparos",
+  "summary": "Paros is the easygoing heart of the Cyclades, with white villages, a famous Byzantine church, the fishing harbour of Naoussa and good beaches for swimming and windsurfing. Ferries make it a hub for island hopping.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "June and September are warm and less crowded than July and August. The meltemi wind is strong in summer, great for windsurfing.",
+  "arrival": "Ferries from Piraeus take 3 to 4.5 hours. Small flights from Athens take 40 minutes.",
+  "gettingAround": "Island buses, scooters or a rental car.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   25,
+   60
+  ],
+  "foodTip": "Grilled octopus, gouna sun-dried mackerel and souma spirit.",
+  "buyTip": "Paros marble crafts and local wine.",
+  "baseArea": "Parikia for ferries, or Naoussa for charm",
+  "hotel": [
+   70,
+   300
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Ferry",
+    "minutes": 180,
+    "note": "Fast ferries from Piraeus."
+   },
+   {
+    "to": "mykonos",
+    "mode": "Ferry",
+    "minutes": 45,
+    "note": "Frequent in summer."
+   },
+   {
+    "to": "santorini",
+    "mode": "Ferry",
+    "minutes": 120,
+    "note": "Fast ferries."
+   }
+  ],
+  "items": [
+   {
+    "name": "Naoussa",
+    "kind": "see",
+    "id": "paros-naoussa",
+    "at": [
+     37.124,
+     25.237
+    ],
+    "wiki": "Naousa, Paros",
+    "area": "Naoussa",
+    "summary": "A fishing harbour of white houses, octopus drying in the sun and a small Venetian castle.",
+    "expect": "Busy in the evening.",
+    "tip": "Have dinner at the harbour.",
+    "why": "Paros's prettiest village.",
+    "flow": [
+     "Harbour.",
+     "Venetian castle.",
+     "Lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Food"
+    ]
+   },
+   {
+    "name": "Panagia Ekatontapiliani",
+    "kind": "see",
+    "id": "paros-ekatontapiliani",
+    "at": [
+     37.085,
+     25.153
+    ],
+    "wiki": "Panagia Ekatontapiliani",
+    "area": "Parikia",
+    "summary": "The 'Church of 100 Doors', one of Greece's oldest Byzantine churches.",
+    "expect": "Free; small museum.",
+    "tip": "Visit the baptistery.",
+    "why": "A 4th-century church.",
+    "flow": [
+     "Church.",
+     "Baptistery."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     2
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Lefkes and the Byzantine path",
+    "kind": "see",
+    "id": "paros-lefkes",
+    "at": [
+     37.057,
+     25.2
+    ],
+    "wiki": "Lefkes",
+    "area": "Lefkes",
+    "summary": "A hill village with marble lanes, and an old stone path down to Prodromos.",
+    "expect": "About an hour's walk downhill.",
+    "tip": "Walk the path in the morning.",
+    "why": "Inland Paros.",
+    "flow": [
+     "Village.",
+     "Byzantine path."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kolymbithres beach",
+    "kind": "see",
+    "id": "paros-kolymbithres",
+    "at": [
+     37.127,
+     25.22
+    ],
+    "wiki": "Paros",
+    "area": "Naoussa bay",
+    "summary": "Smooth granite rocks forming small pools and coves.",
+    "expect": "Small boat from Naoussa.",
+    "tip": "Go in the morning.",
+    "why": "A unique beach.",
+    "flow": [
+     "Boat.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Antiparos and its cave",
+    "kind": "see",
+    "id": "paros-antiparos",
+    "at": [
+     37.04,
+     25.08
+    ],
+    "wiki": "Antiparos",
+    "area": "Antiparos",
+    "summary": "A small island with a laid-back village and a huge stalactite cave.",
+    "expect": "Short car ferry from Pounta.",
+    "tip": "Visit the cave, then lunch in the village.",
+    "why": "An easy day trip.",
+    "flow": [
+     "Ferry.",
+     "Cave.",
+     "Village."
+    ],
+    "hours": 6,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Parikia old town and Kastro",
+    "kind": "see",
+    "id": "paros-parikia",
+    "at": [
+     37.086,
+     25.148
+    ],
+    "wiki": "Parikia",
+    "area": "Parikia",
+    "summary": "A Frankish castle wall built of ancient marble, and sunset bars on the seafront.",
+    "expect": "Free.",
+    "tip": "Watch the sunset from the seafront.",
+    "why": "The island's capital.",
+    "flow": [
+     "Kastro.",
+     "Seafront."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Golden Beach",
+    "kind": "see",
+    "id": "paros-goldenbeach",
+    "at": [
+     37.009,
+     25.24
+    ],
+    "wiki": "Paros",
+    "area": "South-east coast",
+    "summary": "A long sandy beach famous for windsurfing and kitesurfing.",
+    "expect": "Windy in summer.",
+    "tip": "Take a windsurf lesson.",
+    "why": "Paros's water sports.",
+    "flow": [
+     "Beach.",
+     "Lesson."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Grilled octopus",
+    "kind": "eat",
+    "id": "paros-octopus",
+    "at": [
+     37.1245,
+     25.236
+    ],
+    "wiki": "Octopus as food",
+    "area": "Naoussa",
+    "venue": "food-area",
+    "summary": "Sun-dried octopus grilled over charcoal with olive oil.",
+    "expect": "Harbour tavernas.",
+    "tip": "Pair with ouzo.",
+    "why": "Paros's signature.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek seafood",
+    "order": [
+     "Grilled octopus"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Gyros and souvlaki",
+    "kind": "eat",
+    "id": "paros-gyros",
+    "at": [
+     37.086,
+     25.15
+    ],
+    "wiki": "Gyros",
+    "area": "Parikia",
+    "venue": "food-area",
+    "summary": "Quick pita wraps by the port.",
+    "expect": "Cheap and fast.",
+    "tip": "Grab one before the ferry.",
+    "why": "Budget eating.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Gyros"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cycladic salad",
+    "kind": "eat",
+    "id": "paros-salad",
+    "at": [
+     37.123,
+     25.238
+    ],
+    "wiki": "Greek salad",
+    "area": "Naoussa",
+    "venue": "food-area",
+    "summary": "Tomato, caper and local cheese salads with rusks.",
+    "expect": "A light lunch.",
+    "tip": "Try it with local xinomyzithra cheese.",
+    "why": "Island freshness.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     12
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Dakos"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
