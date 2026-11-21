@@ -1,0 +1,2465 @@
+[
+ {
+  "id": "toronto",
+  "name": "Toronto",
+  "country": "Canada",
+  "region": "North America",
+  "at": [
+   43.6532,
+   -79.3832
+  ],
+  "wiki": "Toronto",
+  "cover": "CN Tower",
+  "tagline": "Canada's big, multicultural city on the lake",
+  "summary": "Canada's largest city sits on Lake Ontario, with the CN Tower over a skyline of glass towers. Half its people were born abroad, so its neighbourhoods and food come from all over the world, and Niagara Falls is an easy day trip.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "June to September is warm, with festivals almost every weekend, including the film festival (TIFF) in September. October brings autumn colours. Winters are cold and snowy, from December to March.",
+  "arrival": "Pearson Airport is 25 minutes from Union Station on the UP Express train. Billy Bishop Airport on the islands has flights from nearby cities, and trains run from Montreal (about 5 hours).",
+  "gettingAround": "The TTC subway, streetcars and buses use one fare with a Presto card or a tap of your bank card; ferries cross to the islands.",
+  "cashTip": "Cards and tap payments work everywhere; tip 15 to 20 percent in restaurants.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "currency": "CAD",
+  "cashPerDay": [
+   0,
+   40
+  ],
+  "foodTip": "Peameal bacon sandwiches, butter tarts, Caribbean roti and dim sum, plus food from almost every country.",
+  "buyTip": "Maple syrup, Canadian whisky, Indigenous art and ice wine.",
+  "baseArea": "Downtown near Union Station, or the Annex",
+  "hotel": [
+   120,
+   350
+  ],
+  "seasons": "LLLSSHPPHSLS",
+  "connections": [
+   {
+    "to": "new-york",
+    "mode": "Flight",
+    "minutes": 90,
+    "note": "Or about 12 hours by train."
+   },
+   {
+    "to": "chicago",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "vancouver",
+    "mode": "Flight",
+    "minutes": 300,
+    "note": "Several daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "CN Tower",
+    "kind": "see",
+    "id": "toronto-cn-tower",
+    "at": [
+     43.6426,
+     -79.3871
+    ],
+    "wiki": "CN Tower",
+    "area": "Harbourfront",
+    "summary": "A 553 m tower with a glass floor and an outdoor EdgeWalk around the top.",
+    "expect": "Timed tickets; queues at weekends.",
+    "tip": "Go at sunset to see the city both by day and lit up.",
+    "why": "Toronto's landmark.",
+    "flow": [
+     "Lift up.",
+     "Glass floor.",
+     "Sunset view."
+    ],
+    "hours": 1.5,
+    "price": [
+     45,
+     60
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Royal Ontario Museum",
+    "kind": "see",
+    "id": "toronto-rom",
+    "at": [
+     43.6677,
+     -79.3948
+    ],
+    "wiki": "Royal Ontario Museum",
+    "area": "Bloor-Yorkville",
+    "summary": "Canada's largest museum, from dinosaurs to world cultures, behind a crystal-shaped entrance.",
+    "expect": "Allow at least half a day.",
+    "tip": "Start with the dinosaur gallery.",
+    "why": "World-class collections.",
+    "flow": [
+     "Dinosaurs.",
+     "First Peoples galleries."
+    ],
+    "hours": 3,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Toronto Islands",
+    "kind": "see",
+    "id": "toronto-islands",
+    "at": [
+     43.6205,
+     -79.378
+    ],
+    "wiki": "Toronto Islands",
+    "area": "Toronto Islands",
+    "summary": "A car-free chain of islands with beaches, bike paths and skyline views.",
+    "expect": "A 15-minute ferry from the Jack Layton terminal.",
+    "tip": "Take the ferry to Ward's Island and walk back along the boardwalk.",
+    "why": "The best skyline view in the city.",
+    "flow": [
+     "Ferry over.",
+     "Bike or walk.",
+     "Skyline view."
+    ],
+    "hours": 3,
+    "price": [
+     9,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Distillery District",
+    "kind": "see",
+    "id": "toronto-distillery",
+    "at": [
+     43.6503,
+     -79.3596
+    ],
+    "wiki": "Distillery District",
+    "area": "Distillery District",
+    "summary": "Victorian brick distillery buildings turned into galleries, cafés and shops.",
+    "expect": "Pedestrian-only; Christmas market in December.",
+    "tip": "Visit in the evening when it's lit.",
+    "why": "Toronto's prettiest corner.",
+    "flow": [
+     "Cobbled lanes.",
+     "Galleries and cafés."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Art Gallery of Ontario",
+    "kind": "see",
+    "id": "toronto-ago",
+    "at": [
+     43.6536,
+     -79.3925
+    ],
+    "wiki": "Art Gallery of Ontario",
+    "area": "Grange Park",
+    "summary": "A major gallery redesigned by Frank Gehry, with Canadian and Indigenous art.",
+    "expect": "Free on Wednesday evenings.",
+    "tip": "See the Group of Seven paintings.",
+    "why": "Canada's art in one building.",
+    "flow": [
+     "Canadian galleries.",
+     "Gehry staircase."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Kensington Market",
+    "kind": "see",
+    "id": "toronto-kensington",
+    "at": [
+     43.6547,
+     -79.4005
+    ],
+    "wiki": "Kensington Market",
+    "area": "Kensington",
+    "summary": "A bohemian neighbourhood of vintage shops, street art and food from everywhere.",
+    "expect": "Car-free on some summer Sundays.",
+    "tip": "Graze from stall to stall.",
+    "why": "Toronto's multicultural spirit.",
+    "flow": [
+     "Market lanes.",
+     "Chinatown next door."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Niagara Falls",
+    "kind": "see",
+    "id": "toronto-niagara",
+    "at": [
+     43.0896,
+     -79.0849
+    ],
+    "wiki": "Niagara Falls",
+    "area": "Niagara Falls",
+    "summary": "The thundering Horseshoe Falls, seen up close from a boat.",
+    "expect": "About 1.5 hours by car or train; the boats run from spring to autumn.",
+    "tip": "Take the boat into the mist, then visit Niagara-on-the-Lake for wine.",
+    "why": "One of the world's great waterfalls.",
+    "flow": [
+     "Travel to Niagara.",
+     "Boat to the falls.",
+     "Niagara-on-the-Lake."
+    ],
+    "hours": 9,
+    "price": [
+     35,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Peameal bacon sandwich",
+    "kind": "eat",
+    "id": "toronto-peameal",
+    "at": [
+     43.6487,
+     -79.3716
+    ],
+    "wiki": "Peameal bacon",
+    "area": "St. Lawrence Market",
+    "venue": "food-area",
+    "summary": "Thick slices of cornmeal-crusted back bacon in a bun, a Toronto original.",
+    "expect": "At the famous St. Lawrence Market.",
+    "tip": "Get there before noon on Saturday.",
+    "why": "Toronto's own sandwich.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     14
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Peameal bacon sandwich"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Butter tarts",
+    "kind": "eat",
+    "id": "toronto-butter-tart",
+    "at": [
+     43.6487,
+     -79.3716
+    ],
+    "wiki": "Butter tart",
+    "area": "St. Lawrence Market",
+    "venue": "food-area",
+    "summary": "Small pastry tarts with a gooey butter, sugar and syrup filling.",
+    "expect": "Sold in bakeries everywhere.",
+    "tip": "Try one with and one without raisins.",
+    "why": "Canada's favourite sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Butter tart",
+     "Coffee"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Caribbean roti",
+    "kind": "eat",
+    "id": "toronto-roti",
+    "at": [
+     43.6905,
+     -79.4378
+    ],
+    "wiki": "Roti",
+    "area": "Little Jamaica",
+    "venue": "food-area",
+    "summary": "Flatbread wrapped around curried goat, chicken or chickpeas.",
+    "expect": "Small shops along Eglinton Avenue West.",
+    "tip": "Order a goat roti with hot sauce.",
+    "why": "Toronto's big Caribbean community.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Caribbean",
+    "order": [
+     "Goat roti",
+     "Doubles"
+    ],
+    "veg": "some",
+    "halal": "some"
+   }
+  ]
+ },
+ {
+  "id": "montreal",
+  "name": "Montreal",
+  "country": "Canada",
+  "region": "North America",
+  "at": [
+   45.5019,
+   -73.5674
+  ],
+  "wiki": "Montreal",
+  "cover": "Notre-Dame Basilica (Montreal)",
+  "tagline": "French North America with a festival in every season",
+  "summary": "Montreal is the world's second-largest French-speaking city, on an island in the St Lawrence. Its cobbled old town, the glowing Notre-Dame Basilica and Mount Royal park sit beside lively neighbourhoods, and it's famous for bagels, smoked meat, poutine and summer festivals.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "June to August is festival season, led by the Jazz Festival and Just for Laughs. September and October bring autumn colours. Winters are long and very cold, but the city has an underground network and winter festivals.",
+  "arrival": "Montréal–Trudeau Airport is 30 to 45 minutes from downtown by the 747 bus or taxi. Trains run from Toronto (about 5 hours), Quebec City (3 hours) and New York (11 hours).",
+  "gettingAround": "The metro is quick and simple; BIXI bikes are everywhere in summer, and the old town is walkable.",
+  "cashTip": "Cards work everywhere; tip 15 to 20 percent. French is the main language, but most people also speak English.",
+  "dailyBudget": [
+   140,
+   380
+  ],
+  "currency": "CAD",
+  "cashPerDay": [
+   0,
+   40
+  ],
+  "foodTip": "Poutine, wood-fired bagels, smoked meat sandwiches and maple treats.",
+  "buyTip": "Maple syrup, ice cider, Quebec cheese and local designer clothes.",
+  "baseArea": "Old Montreal or the Plateau",
+  "hotel": [
+   110,
+   320
+  ],
+  "seasons": "LLLLSHPPHHLS",
+  "connections": [
+   {
+    "to": "toronto",
+    "mode": "Train",
+    "minutes": 300,
+    "note": "VIA Rail trains or a 75-minute flight."
+   },
+   {
+    "to": "new-york",
+    "mode": "Train",
+    "minutes": 660,
+    "note": "Amtrak Adirondack, or a 90-minute flight."
+   },
+   {
+    "to": "boston",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old Montreal",
+    "kind": "see",
+    "id": "montreal-old-town",
+    "at": [
+     45.5075,
+     -73.5544
+    ],
+    "wiki": "Old Montreal",
+    "area": "Vieux-Montréal",
+    "summary": "Cobbled streets, 18th-century stone houses and the Old Port on the river.",
+    "expect": "Busy in summer; romantic in winter lights.",
+    "tip": "Walk Rue Saint-Paul and finish at the Old Port.",
+    "why": "The French heart of the city.",
+    "flow": [
+     "Place Jacques-Cartier.",
+     "Rue Saint-Paul.",
+     "Old Port."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Notre-Dame Basilica",
+    "kind": "see",
+    "id": "montreal-notre-dame",
+    "at": [
+     45.5045,
+     -73.5562
+    ],
+    "wiki": "Notre-Dame Basilica (Montreal)",
+    "area": "Vieux-Montréal",
+    "summary": "A Gothic Revival church with a deep-blue, gold-starred interior.",
+    "expect": "An entry fee; the AURA light show runs in the evenings.",
+    "tip": "Book the AURA show.",
+    "why": "One of North America's most beautiful churches.",
+    "flow": [
+     "Interior.",
+     "AURA light show."
+    ],
+    "hours": 1,
+    "price": [
+     16,
+     35
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Mount Royal",
+    "kind": "see",
+    "id": "montreal-mount-royal",
+    "at": [
+     45.5048,
+     -73.5874
+    ],
+    "wiki": "Mount Royal",
+    "area": "Mont-Royal",
+    "summary": "The park on the mountain the city is named for, with a lookout over downtown.",
+    "expect": "A 30-minute walk up from downtown.",
+    "tip": "Visit the Kondiaronk lookout at sunset; on summer Sundays join the Tam-Tams drum gathering.",
+    "why": "Montreal's green lung.",
+    "flow": [
+     "Walk up.",
+     "Kondiaronk lookout."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Saint Joseph's Oratory",
+    "kind": "see",
+    "id": "montreal-oratory",
+    "at": [
+     45.4925,
+     -73.6178
+    ],
+    "wiki": "Saint Joseph's Oratory",
+    "area": "Côte-des-Neiges",
+    "summary": "Canada's largest church, a domed shrine on the slope of Mount Royal.",
+    "expect": "Free entry; pilgrims climb the stairs on their knees.",
+    "tip": "Go up to the dome observatory.",
+    "why": "A major Catholic pilgrimage site.",
+    "flow": [
+     "Stairs.",
+     "Basilica.",
+     "Dome."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Montreal Museum of Fine Arts",
+    "kind": "see",
+    "id": "montreal-mbam",
+    "at": [
+     45.4985,
+     -73.5794
+    ],
+    "wiki": "Montreal Museum of Fine Arts",
+    "area": "Golden Square Mile",
+    "summary": "Canada's oldest art museum, with Quebec, Canadian and world art.",
+    "expect": "Five pavilions; free for under-21s.",
+    "tip": "See the Quebec and Canadian art pavilion.",
+    "why": "A great art collection.",
+    "flow": [
+     "Pavilions.",
+     "Sculpture garden."
+    ],
+    "hours": 2.5,
+    "price": [
+     24,
+     24
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Le Plateau and Mile End",
+    "kind": "see",
+    "id": "montreal-plateau",
+    "at": [
+     45.522,
+     -73.58
+    ],
+    "wiki": "Le Plateau-Mont-Royal",
+    "area": "Plateau",
+    "summary": "Colourful houses with winding outside staircases, cafés and boutiques.",
+    "expect": "Best explored on foot or by bike.",
+    "tip": "Walk Rue Saint-Denis, then Mile End's bagel shops.",
+    "why": "Montreal's most loved neighbourhoods.",
+    "flow": [
+     "Saint-Denis.",
+     "Mile End."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Food"
+    ]
+   },
+   {
+    "name": "Jean-Talon Market",
+    "kind": "see",
+    "id": "montreal-jean-talon",
+    "at": [
+     45.5363,
+     -73.6146
+    ],
+    "wiki": "Jean-Talon Market",
+    "area": "Little Italy",
+    "summary": "One of North America's biggest open-air markets, full of Quebec produce.",
+    "expect": "Open daily; best in late summer and autumn.",
+    "tip": "Taste maple products and Quebec cheeses.",
+    "why": "Quebec's harvest in one place.",
+    "flow": [
+     "Produce stalls.",
+     "Little Italy."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Quebec City",
+    "kind": "see",
+    "id": "montreal-quebec-city",
+    "at": [
+     46.8139,
+     -71.208
+    ],
+    "wiki": "Quebec City",
+    "area": "Quebec City",
+    "summary": "The walled old town of Quebec, with the Château Frontenac over the river.",
+    "expect": "About 3 hours by train or car.",
+    "tip": "Stay overnight if you can.",
+    "why": "North America's only walled city north of Mexico.",
+    "flow": [
+     "Train to Quebec.",
+     "Old Quebec.",
+     "Château Frontenac."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Poutine",
+    "kind": "eat",
+    "id": "montreal-poutine",
+    "at": [
+     45.5165,
+     -73.57
+    ],
+    "wiki": "Poutine",
+    "area": "Plateau",
+    "venue": "food-area",
+    "summary": "Fries topped with cheese curds and gravy.",
+    "expect": "Late-night favourite.",
+    "tip": "Try the classic before any fancy versions.",
+    "why": "Quebec's national comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Québécois",
+    "order": [
+     "Classic poutine"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Montreal bagels",
+    "kind": "eat",
+    "id": "montreal-bagel",
+    "at": [
+     45.5226,
+     -73.6018
+    ],
+    "wiki": "Montreal-style bagel",
+    "area": "Mile End",
+    "venue": "food-area",
+    "summary": "Small, sweet, wood-fired bagels boiled in honey water.",
+    "expect": "Shops open 24 hours.",
+    "tip": "Get them hot from St-Viateur or Fairmount.",
+    "why": "Montreal's famous bagels.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     1,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Montreal Jewish",
+    "order": [
+     "Sesame bagel",
+     "Cream cheese"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Smoked meat sandwich",
+    "kind": "eat",
+    "id": "montreal-smoked-meat",
+    "at": [
+     45.5165,
+     -73.5776
+    ],
+    "wiki": "Montreal-style smoked meat",
+    "area": "Plateau",
+    "venue": "food-area",
+    "summary": "Spiced, smoked beef brisket piled on rye bread with mustard.",
+    "expect": "There's usually a queue at the famous deli.",
+    "tip": "Order it 'medium' fat.",
+    "why": "A Montreal legend.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     14,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Montreal Jewish",
+    "order": [
+     "Smoked meat sandwich",
+     "Pickle",
+     "Black cherry soda"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "id": "melbourne",
+  "name": "Melbourne",
+  "country": "Australia",
+  "region": "Oceania",
+  "at": [
+   -37.8136,
+   144.9631
+  ],
+  "wiki": "Melbourne",
+  "cover": "Hosier Lane",
+  "tagline": "Laneway coffee, art and sport",
+  "summary": "Melbourne is Australia's culture capital, known for hidden laneway cafés and street art, great galleries and a passion for sport at the MCG. It's the start of the Great Ocean Road, and Phillip Island's little penguins come ashore nearby every evening.",
+  "days": 4,
+  "bestMonths": [
+   2,
+   3,
+   4,
+   10,
+   11,
+   12
+  ],
+  "seasonNote": "March to May and October to December are mild and pleasant. Summer (January and February) can be very hot. Winter is cool and grey. The weather changes fast, so 'four seasons in one day' is a local joke.",
+  "arrival": "Melbourne Airport is 30 minutes from the city by SkyBus. Flights from Sydney take about 1.5 hours; the overnight ferry runs to Tasmania.",
+  "gettingAround": "Trams are free inside the city centre; tap on with a myki card outside it.",
+  "cashTip": "Cards and tap payments work almost everywhere; tipping isn't expected.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "currency": "AUD",
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "foodTip": "Flat whites, brunch, Vietnamese and Greek food, Italian on Lygon Street, and dumplings in Chinatown.",
+  "buyTip": "Australian wine, design from local makers, Aboriginal art and Tim Tams.",
+  "baseArea": "CBD, Southbank or Fitzroy",
+  "hotel": [
+   110,
+   300
+  ],
+  "seasons": "PHHSLLLLSSHP",
+  "connections": [
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 90,
+    "note": "One of the world's busiest air routes."
+   },
+   {
+    "to": "queenstown",
+    "mode": "Flight",
+    "minutes": 200,
+    "note": "Seasonal direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Hosier Lane and the laneways",
+    "kind": "see",
+    "id": "melbourne-hosier-lane",
+    "at": [
+     -37.8166,
+     144.9692
+    ],
+    "wiki": "Hosier Lane",
+    "area": "CBD",
+    "summary": "Graffiti-covered lanes and hidden arcades full of tiny cafés.",
+    "expect": "Free; the art changes every week.",
+    "tip": "Walk from Hosier Lane to Degraves Street and the Block Arcade.",
+    "why": "The soul of Melbourne.",
+    "flow": [
+     "Hosier Lane.",
+     "Degraves Street.",
+     "Block Arcade."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Food"
+    ]
+   },
+   {
+    "name": "Federation Square",
+    "kind": "see",
+    "id": "melbourne-fed-square",
+    "at": [
+     -37.818,
+     144.9691
+    ],
+    "wiki": "Federation Square",
+    "area": "CBD",
+    "summary": "A public square of angular buildings with galleries and big screens.",
+    "expect": "Home of ACMI, the screen museum.",
+    "tip": "Visit ACMI; it's free.",
+    "why": "The city's meeting place.",
+    "flow": [
+     "Square.",
+     "ACMI."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "National Gallery of Victoria",
+    "kind": "see",
+    "id": "melbourne-ngv",
+    "at": [
+     -37.8226,
+     144.9689
+    ],
+    "wiki": "National Gallery of Victoria",
+    "area": "Southbank",
+    "summary": "Australia's oldest and most visited gallery, with a stained-glass ceiling hall.",
+    "expect": "The permanent collection is free.",
+    "tip": "Lie on the floor of the Great Hall to see the glass ceiling.",
+    "why": "World art for free.",
+    "flow": [
+     "International collection.",
+     "Great Hall."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Queen Victoria Market",
+    "kind": "see",
+    "id": "melbourne-qvm",
+    "at": [
+     -37.8076,
+     144.9568
+    ],
+    "wiki": "Queen Victoria Market",
+    "area": "CBD",
+    "summary": "A huge 19th-century market of produce, delis and souvenirs.",
+    "expect": "Closed Mondays and Wednesdays; a night market in summer.",
+    "tip": "Go to the Wednesday summer night market.",
+    "why": "A Melbourne institution.",
+    "flow": [
+     "Deli hall.",
+     "Produce sheds."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Royal Botanic Gardens",
+    "kind": "see",
+    "id": "melbourne-botanic",
+    "at": [
+     -37.8304,
+     144.9796
+    ],
+    "wiki": "Royal Botanic Gardens, Melbourne",
+    "area": "South Yarra",
+    "summary": "Rolling lawns, lakes and plants from around the world.",
+    "expect": "Free; a short walk from the city.",
+    "tip": "Walk the 'Tan' track around the gardens.",
+    "why": "One of the world's great gardens.",
+    "flow": [
+     "Gardens.",
+     "Ornamental lake."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Melbourne Cricket Ground",
+    "kind": "see",
+    "id": "melbourne-mcg",
+    "at": [
+     -37.82,
+     144.9834
+    ],
+    "wiki": "Melbourne Cricket Ground",
+    "area": "Yarra Park",
+    "summary": "A 100,000-seat stadium for cricket in summer and Aussie rules football in winter.",
+    "expect": "Tours on non-match days.",
+    "tip": "See a game if you can.",
+    "why": "Sport is Melbourne's religion.",
+    "flow": [
+     "Tram to Yarra Park.",
+     "Stadium tour or a match."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "History"
+    ]
+   },
+   {
+    "name": "St Kilda",
+    "kind": "see",
+    "id": "melbourne-st-kilda",
+    "at": [
+     -37.8676,
+     144.9809
+    ],
+    "wiki": "St Kilda, Victoria",
+    "area": "St Kilda",
+    "summary": "A seaside suburb with a pier, Luna Park and cake shops.",
+    "expect": "Little penguins live at the end of the pier.",
+    "tip": "Go to the pier at dusk to see the penguins.",
+    "why": "Melbourne's beach.",
+    "flow": [
+     "Esplanade.",
+     "Pier at dusk.",
+     "Acland Street cakes."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Great Ocean Road and Twelve Apostles",
+    "kind": "see",
+    "id": "melbourne-great-ocean-road",
+    "at": [
+     -38.6655,
+     143.105
+    ],
+    "wiki": "Twelve Apostles (Victoria)",
+    "area": "Port Campbell",
+    "summary": "A clifftop coastal drive to the limestone stacks of the Twelve Apostles.",
+    "expect": "A very long day trip (12 hours); better over two days.",
+    "tip": "Stay overnight near Apollo Bay or Port Campbell.",
+    "why": "One of the world's great road trips.",
+    "flow": [
+     "Drive the coast.",
+     "Twelve Apostles at sunset."
+    ],
+    "hours": 12,
+    "price": [
+     0,
+     150
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Phillip Island penguin parade",
+    "kind": "see",
+    "id": "melbourne-phillip-island",
+    "at": [
+     -38.51,
+     145.15
+    ],
+    "wiki": "Phillip Island",
+    "area": "Phillip Island",
+    "summary": "Thousands of little penguins waddle ashore at sunset.",
+    "expect": "About 2 hours by car; no photos at the parade.",
+    "tip": "Book the viewing platform ahead.",
+    "why": "An unforgettable wildlife moment.",
+    "flow": [
+     "Drive south.",
+     "Penguin Parade."
+    ],
+    "hours": 6,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Flat white and brunch",
+    "kind": "eat",
+    "id": "melbourne-coffee",
+    "at": [
+     -37.8155,
+     144.9652
+    ],
+    "wiki": "Flat white",
+    "area": "CBD",
+    "venue": "food-area",
+    "summary": "Melbourne's serious coffee culture and big brunches.",
+    "expect": "Cafés open early and close mid-afternoon.",
+    "tip": "Try smashed avocado on toast.",
+    "why": "Coffee is a way of life here.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     5,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Flat white",
+     "Smashed avo"
+    ],
+    "veg": "yes",
+    "halal": "some"
+   },
+   {
+    "name": "Lygon Street Italian",
+    "kind": "eat",
+    "id": "melbourne-lygon",
+    "at": [
+     -37.7985,
+     144.967
+    ],
+    "wiki": "Lygon Street",
+    "area": "Carlton",
+    "venue": "food-area",
+    "summary": "Melbourne's Little Italy, with pasta, pizza and espresso bars.",
+    "expect": "Busy restaurants with outdoor tables.",
+    "tip": "Finish with gelato.",
+    "why": "The legacy of Italian migration.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.25,
+    "price": [
+     25,
+     50
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Italian",
+    "order": [
+     "Pasta",
+     "Pizza",
+     "Espresso"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Chinatown dumplings",
+    "kind": "eat",
+    "id": "melbourne-dumplings",
+    "at": [
+     -37.8113,
+     144.9684
+    ],
+    "wiki": "Chinatown, Melbourne",
+    "area": "CBD",
+    "venue": "food-area",
+    "summary": "Dumplings and noodles in one of the Western world's oldest Chinatowns.",
+    "expect": "Cheap and quick.",
+    "tip": "Order xiao long bao.",
+    "why": "A late-night favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chinese",
+    "order": [
+     "Xiao long bao",
+     "Pan-fried dumplings"
+    ],
+    "veg": "some",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "id": "auckland",
+  "name": "Auckland",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "at": [
+   -36.8485,
+   174.7633
+  ],
+  "wiki": "Auckland",
+  "cover": "Sky Tower",
+  "tagline": "The city of sails between two harbours",
+  "summary": "New Zealand's largest city sits on a narrow strip between two harbours, dotted with volcanic cones. It has the country's best Māori and Pacific collections, ferries to vineyard islands like Waiheke, and wild black-sand surf beaches less than an hour away.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "December to March is summer, warm and busy. Spring and autumn are mild. Winter (June to August) is wet but rarely cold.",
+  "arrival": "Auckland Airport is 40 minutes from the city by SkyDrop bus or car. Flights from Sydney take about 3 hours; domestic flights reach Queenstown and Wellington in under 2 hours.",
+  "gettingAround": "Ferries, buses and trains share the AT HOP card; rent a car for beaches and day trips.",
+  "cashTip": "Cards and tap payments work everywhere; tipping isn't expected.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "currency": "NZD",
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "foodTip": "Fish and chips on the beach, pavlova, a hāngī earth-oven meal and Waiheke wine.",
+  "buyTip": "Pounamu (greenstone), merino wool, mānuka honey and Māori carvings from reputable makers.",
+  "baseArea": "CBD, Viaduct or Ponsonby",
+  "hotel": [
+   110,
+   300
+  ],
+  "seasons": "PPHSSLLLSSHP",
+  "connections": [
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 195,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "queenstown",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Sky Tower",
+    "kind": "see",
+    "id": "auckland-sky-tower",
+    "at": [
+     -36.8484,
+     174.7622
+    ],
+    "wiki": "Sky Tower (Auckland)",
+    "area": "CBD",
+    "summary": "A 328 m tower with views over both harbours, plus SkyWalk and SkyJump.",
+    "expect": "Timed tickets; clear days are best.",
+    "tip": "Go at sunset.",
+    "why": "The city's landmark.",
+    "flow": [
+     "Lift up.",
+     "Observation decks."
+    ],
+    "hours": 1,
+    "price": [
+     40,
+     60
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Auckland War Memorial Museum",
+    "kind": "see",
+    "id": "auckland-museum",
+    "at": [
+     -36.8604,
+     174.7778
+    ],
+    "wiki": "Auckland War Memorial Museum",
+    "area": "Auckland Domain",
+    "summary": "A grand museum with world-class Māori and Pacific treasures and a daily cultural performance.",
+    "expect": "Free for Aucklanders; a fee for visitors.",
+    "tip": "See the Māori cultural performance.",
+    "why": "The best introduction to New Zealand.",
+    "flow": [
+     "Māori court.",
+     "Cultural show."
+    ],
+    "hours": 2.5,
+    "price": [
+     28,
+     28
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Waiheke Island",
+    "kind": "see",
+    "id": "auckland-waiheke",
+    "at": [
+     -36.8,
+     175.1
+    ],
+    "wiki": "Waiheke Island",
+    "area": "Waiheke",
+    "summary": "Vineyards, olive groves and beaches, 40 minutes by ferry.",
+    "expect": "Hop-on bus or e-bike between wineries.",
+    "tip": "Book a winery lunch.",
+    "why": "Auckland's favourite escape.",
+    "flow": [
+     "Ferry from downtown.",
+     "Winery lunch.",
+     "Onetangi Beach."
+    ],
+    "hours": 7,
+    "price": [
+     50,
+     150
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Maungawhau / Mount Eden",
+    "kind": "see",
+    "id": "auckland-mount-eden",
+    "at": [
+     -36.877,
+     174.764
+    ],
+    "wiki": "Maungawhau / Mount Eden",
+    "area": "Mount Eden",
+    "summary": "A grassy volcanic cone with a deep crater and 360-degree city views.",
+    "expect": "Free; a 20-minute walk up.",
+    "tip": "Go at sunrise.",
+    "why": "The highest volcano in the city.",
+    "flow": [
+     "Walk up.",
+     "Crater rim."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Rangitoto Island",
+    "kind": "see",
+    "id": "auckland-rangitoto",
+    "at": [
+     -36.7867,
+     174.86
+    ],
+    "wiki": "Rangitoto Island",
+    "area": "Hauraki Gulf",
+    "summary": "The city's youngest volcano, with lava fields and a summit walk.",
+    "expect": "25 minutes by ferry; no shops on the island.",
+    "tip": "Bring water and food, and catch the last ferry.",
+    "why": "Walk up a 600-year-old volcano.",
+    "flow": [
+     "Ferry.",
+     "Summit walk.",
+     "Lava caves."
+    ],
+    "hours": 5,
+    "price": [
+     40,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Viaduct Harbour",
+    "kind": "see",
+    "id": "auckland-viaduct",
+    "at": [
+     -36.843,
+     174.759
+    ],
+    "wiki": "Viaduct Harbour",
+    "area": "Viaduct",
+    "summary": "A waterfront of yachts, restaurants and the Maritime Museum.",
+    "expect": "Lively in the evening.",
+    "tip": "Take a harbour sailing trip.",
+    "why": "Auckland, the city of sails.",
+    "flow": [
+     "Waterfront walk.",
+     "Wynyard Quarter."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Piha Beach",
+    "kind": "see",
+    "id": "auckland-piha",
+    "at": [
+     -36.954,
+     174.47
+    ],
+    "wiki": "Piha",
+    "area": "West Coast",
+    "summary": "A wild black-sand surf beach below Lion Rock.",
+    "expect": "About 45 minutes by car; dangerous rips.",
+    "tip": "Swim only between the lifeguard flags.",
+    "why": "New Zealand's dramatic coast.",
+    "flow": [
+     "Drive through the Waitākere Ranges.",
+     "Lion Rock.",
+     "Beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hobbiton Movie Set",
+    "kind": "see",
+    "id": "auckland-hobbiton",
+    "at": [
+     -37.8721,
+     175.6829
+    ],
+    "wiki": "Hobbiton Movie Set",
+    "area": "Matamata",
+    "summary": "The Shire film set, with hobbit holes and the Green Dragon inn.",
+    "expect": "Guided tours only; about 2 hours each way by road.",
+    "tip": "Book ahead and combine with Rotorua.",
+    "why": "A must for film fans.",
+    "flow": [
+     "Drive to Matamata.",
+     "Guided tour.",
+     "Green Dragon drink."
+    ],
+    "hours": 8,
+    "price": [
+     120,
+     140
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fish and chips",
+    "kind": "eat",
+    "id": "auckland-fish-chips",
+    "at": [
+     -36.843,
+     174.757
+    ],
+    "wiki": "Fish and chips",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Battered fresh fish and chunky chips wrapped in paper.",
+    "expect": "Best eaten on the beach.",
+    "tip": "Ask for local snapper or tarakihi.",
+    "why": "A Kiwi classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Fish and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Pavlova",
+    "kind": "eat",
+    "id": "auckland-pavlova",
+    "at": [
+     -36.85,
+     174.765
+    ],
+    "wiki": "Pavlova (food)",
+    "area": "CBD",
+    "venue": "food-area",
+    "summary": "A meringue cake with a crisp shell, soft centre, cream and fruit.",
+    "expect": "Kiwis and Australians both claim it.",
+    "tip": "Try it with kiwifruit.",
+    "why": "The national dessert.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Pavlova"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Hāngī",
+    "kind": "eat",
+    "id": "auckland-hangi",
+    "at": [
+     -36.86,
+     174.777
+    ],
+    "wiki": "Hāngī",
+    "area": "Auckland",
+    "venue": "food-area",
+    "summary": "Meat and vegetables slow-cooked in a Māori earth oven.",
+    "expect": "Usually part of a cultural evening or market.",
+    "tip": "Look for hāngī at weekend markets.",
+    "why": "A taste of Māori tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     50
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Māori",
+    "order": [
+     "Hāngī pork",
+     "Kūmara"
+    ],
+    "veg": "some",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "id": "punta-cana",
+  "name": "Punta Cana",
+  "country": "Dominican Republic",
+  "region": "North America",
+  "at": [
+   18.5601,
+   -68.3725
+  ],
+  "wiki": "Punta Cana",
+  "cover": "Bávaro",
+  "tagline": "Palm-lined Caribbean beaches",
+  "summary": "On the Dominican Republic's eastern tip, Punta Cana is a long coast of white sand, palms and turquoise water lined with resorts. Beyond the beach there are boat trips to Saona Island, cenotes, and the colonial capital Santo Domingo a few hours away.",
+  "days": 5,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "December to April is dry and sunny, and the busiest. May to November is hotter and wetter; hurricane season peaks from August to October. Sargassum seaweed can wash up in summer.",
+  "arrival": "Punta Cana International Airport is 15 to 30 minutes from most resorts, with direct flights from North America and Europe. Fill in the free e-Ticket entry form before you fly.",
+  "gettingAround": "Resorts arrange transfers; use official taxis (agree the fare first) or a car with driver for trips.",
+  "cashTip": "US dollars are widely accepted, but you'll get better prices in pesos; drink bottled water, not tap water.",
+  "dailyBudget": [
+   6000,
+   25000
+  ],
+  "currency": "DOP",
+  "cashPerDay": [
+   1500,
+   5000
+  ],
+  "foodTip": "La bandera (rice, beans and meat), mangú for breakfast, fresh fish and mamajuana.",
+  "buyTip": "Larimar jewellery, amber, cigars, coffee and cacao.",
+  "baseArea": "Bávaro or Cap Cana",
+  "hotel": [
+   100,
+   500
+  ],
+  "seasons": "PPPHSLLLLLSH",
+  "connections": [
+   {
+    "to": "miami",
+    "mode": "Flight",
+    "minutes": 135,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "new-york",
+    "mode": "Flight",
+    "minutes": 240,
+    "note": "Direct flights."
+   },
+   {
+    "to": "cancun",
+    "mode": "Flight",
+    "minutes": 180,
+    "note": "Usually with a stop."
+   }
+  ],
+  "items": [
+   {
+    "name": "Bávaro Beach",
+    "kind": "see",
+    "id": "punta-cana-bavaro",
+    "at": [
+     18.675,
+     -68.42
+    ],
+    "wiki": "Bávaro",
+    "area": "Bávaro",
+    "summary": "Kilometres of soft white sand and calm, clear water behind a reef.",
+    "expect": "Public access between resorts.",
+    "tip": "Walk the beach at sunrise.",
+    "why": "The famous Punta Cana beach.",
+    "flow": [
+     "Beach walk.",
+     "Swim inside the reef."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Macao Beach",
+    "kind": "see",
+    "id": "punta-cana-macao",
+    "at": [
+     18.76,
+     -68.54
+    ],
+    "wiki": "Macao, Dominican Republic",
+    "area": "Macao",
+    "summary": "A wilder, undeveloped beach with surf and local food shacks.",
+    "expect": "Surf schools rent boards.",
+    "tip": "Take a surf lesson.",
+    "why": "A beach without resorts.",
+    "flow": [
+     "Drive north.",
+     "Surf or swim."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Juanillo Beach",
+    "kind": "see",
+    "id": "punta-cana-juanillo",
+    "at": [
+     18.44,
+     -68.41
+    ],
+    "wiki": "Cap Cana",
+    "area": "Cap Cana",
+    "summary": "A long, quiet beach of white sand in the Cap Cana estate.",
+    "expect": "Upmarket beach clubs.",
+    "tip": "Visit on a weekday.",
+    "why": "One of the island's most beautiful beaches.",
+    "flow": [
+     "Beach.",
+     "Lunch at a beach club."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hoyo Azul cenote",
+    "kind": "see",
+    "id": "punta-cana-hoyo-azul",
+    "at": [
+     18.45,
+     -68.43
+    ],
+    "wiki": "Cap Cana",
+    "area": "Cap Cana",
+    "summary": "A turquoise freshwater pool at the foot of a cliff, inside an adventure park.",
+    "expect": "Entry through the park; the water is cold and clear.",
+    "tip": "Go early before groups arrive.",
+    "why": "A natural swimming hole.",
+    "flow": [
+     "Jungle path.",
+     "Swim in the cenote."
+    ],
+    "hours": 3,
+    "price": [
+     5000,
+     7000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Indigenous Eyes Ecological Reserve",
+    "kind": "see",
+    "id": "punta-cana-ojos",
+    "at": [
+     18.505,
+     -68.374
+    ],
+    "wiki": "Punta Cana",
+    "area": "Puntacana",
+    "summary": "Freshwater lagoons in a coastal forest reserve.",
+    "expect": "Guided walks and swimming in the lagoons.",
+    "tip": "Bring reef-safe sunscreen.",
+    "why": "Nature beyond the resorts.",
+    "flow": [
+     "Forest path.",
+     "Lagoon swim."
+    ],
+    "hours": 2,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Saona Island",
+    "kind": "see",
+    "id": "punta-cana-saona",
+    "at": [
+     18.16,
+     -68.75
+    ],
+    "wiki": "Saona Island",
+    "area": "Parque del Este",
+    "summary": "A national-park island of palm beaches and a shallow natural pool with starfish.",
+    "expect": "A full-day boat trip; don't pick up the starfish.",
+    "tip": "Choose a smaller-group tour.",
+    "why": "The postcard Caribbean beach.",
+    "flow": [
+     "Speedboat out.",
+     "Beach.",
+     "Natural pool."
+    ],
+    "hours": 9,
+    "price": [
+     4000,
+     8000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Altos de Chavón",
+    "kind": "see",
+    "id": "punta-cana-altos-chavon",
+    "at": [
+     18.425,
+     -68.972
+    ],
+    "wiki": "Altos de Chavón",
+    "area": "La Romana",
+    "summary": "A replica Mediterranean village over the Chavón river, with an amphitheatre.",
+    "expect": "About 1.5 hours by car.",
+    "tip": "Combine it with a Saona trip from La Romana.",
+    "why": "Views over the river.",
+    "flow": [
+     "Drive west.",
+     "Village and church.",
+     "River view."
+    ],
+    "hours": 4,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "La bandera",
+    "kind": "eat",
+    "id": "punta-cana-bandera",
+    "at": [
+     18.68,
+     -68.45
+    ],
+    "wiki": "Dominican Republic cuisine",
+    "area": "Bávaro",
+    "venue": "food-area",
+    "summary": "Rice, red beans and stewed meat, the Dominican daily lunch.",
+    "expect": "Served at local comedores.",
+    "tip": "Try it outside the resorts.",
+    "why": "Real Dominican food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     300,
+     600
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dominican",
+    "order": [
+     "La bandera",
+     "Tostones"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "Mangú breakfast",
+    "kind": "eat",
+    "id": "punta-cana-mangu",
+    "at": [
+     18.68,
+     -68.45
+    ],
+    "wiki": "Mangú",
+    "area": "Bávaro",
+    "venue": "food-area",
+    "summary": "Mashed green plantains with fried cheese, salami and eggs, called 'los tres golpes'.",
+    "expect": "Breakfast staple.",
+    "tip": "Ask for pickled red onion on top.",
+    "why": "The Dominican morning.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     250,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dominican",
+    "order": [
+     "Mangú con los tres golpes"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "Fresh fish at the beach",
+    "kind": "eat",
+    "id": "punta-cana-fish",
+    "at": [
+     18.76,
+     -68.54
+    ],
+    "wiki": "Fish as food",
+    "area": "Macao",
+    "venue": "food-area",
+    "summary": "Whole fried fish with tostones at a beach shack.",
+    "expect": "Priced by size.",
+    "tip": "Agree the price first.",
+    "why": "Simple Caribbean eating.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     600,
+     1500
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dominican",
+    "order": [
+     "Fried fish",
+     "Tostones",
+     "Presidente beer"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "id": "sharm-el-sheikh",
+  "name": "Sharm El Sheikh",
+  "country": "Egypt",
+  "region": "Africa",
+  "at": [
+   27.9158,
+   34.33
+  ],
+  "wiki": "Sharm El Sheikh",
+  "cover": "Ras Muhammad National Park",
+  "tagline": "Red Sea reefs at the foot of Sinai",
+  "summary": "On the southern tip of the Sinai Peninsula, Sharm El Sheikh is a resort town with some of the world's best coral reefs just offshore. Divers and snorkellers head to Ras Mohammed and the Straits of Tiran, and night trips climb Mount Sinai for sunrise above Saint Catherine's Monastery.",
+  "days": 5,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "March to May and October to November are warm with comfortable sea temperatures. Summer is very hot; winter evenings are cool, though the sea stays swimmable.",
+  "arrival": "Check your government's travel advice first: it usually treats the South Sinai resorts differently from North Sinai, where many advise against all travel. Sharm El Sheikh Airport is 15 minutes from Naama Bay, with flights from Cairo (1 hour) and Europe. Visitors staying only in South Sinai resorts can get a free Sinai-only entry stamp.",
+  "gettingAround": "Taxis and hotel transfers; agree taxi fares first. Dive centres collect you from your hotel.",
+  "cashTip": "Carry Egyptian pounds for markets and tips; euros and US dollars are accepted in many tourist places.",
+  "dailyBudget": [
+   2500,
+   10000
+  ],
+  "currency": "EGP",
+  "cashPerDay": [
+   500,
+   2000
+  ],
+  "foodTip": "Fresh grilled seafood, koshari, ful and falafel, and sweet mint tea with Bedouin hosts.",
+  "buyTip": "Spices, papyrus, cotton clothes and Bedouin silver.",
+  "baseArea": "Naama Bay or Sharks Bay",
+  "hotel": [
+   50,
+   300
+  ],
+  "seasons": "HHHHSLLLSHHP",
+  "connections": [
+   {
+    "to": "cairo",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Several daily flights."
+   },
+   {
+    "to": "luxor",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Usually via Cairo."
+   }
+  ],
+  "items": [
+   {
+    "name": "Ras Mohammed National Park",
+    "kind": "see",
+    "id": "sharm-ras-mohammed",
+    "at": [
+     27.73,
+     34.24
+    ],
+    "wiki": "Ras Muhammad National Park",
+    "area": "Ras Mohammed",
+    "summary": "A protected headland where reef walls drop into the deep blue.",
+    "expect": "Best by boat; also reachable by car for snorkelling from the shore.",
+    "tip": "Book a boat trip to Shark and Yolanda Reef.",
+    "why": "One of the world's top dive sites.",
+    "flow": [
+     "Boat out.",
+     "Reef snorkel or dive.",
+     "Mangrove channel."
+    ],
+    "hours": 7,
+    "price": [
+     1000,
+     3000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Straits of Tiran reefs",
+    "kind": "see",
+    "id": "sharm-tiran",
+    "at": [
+     27.95,
+     34.55
+    ],
+    "wiki": "Tiran Island",
+    "area": "Tiran",
+    "summary": "Four coral reefs in the straits between Sinai and Tiran Island.",
+    "expect": "Day boats from Sharm; strong currents.",
+    "tip": "Go on a day boat with snorkel guides.",
+    "why": "Huge coral and shoals of fish.",
+    "flow": [
+     "Boat.",
+     "Jackson and Gordon reefs."
+    ],
+    "hours": 7,
+    "price": [
+     1000,
+     3000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Naama Bay",
+    "kind": "see",
+    "id": "sharm-naama-bay",
+    "at": [
+     27.914,
+     34.329
+    ],
+    "wiki": "Naama Bay",
+    "area": "Naama Bay",
+    "summary": "A sandy bay with a seafront promenade of cafés, bars and dive shops.",
+    "expect": "Busy at night.",
+    "tip": "Snorkel the house reefs at the edges of the bay.",
+    "why": "The lively heart of Sharm.",
+    "flow": [
+     "Promenade.",
+     "Beach."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Old Market",
+    "kind": "see",
+    "id": "sharm-old-market",
+    "at": [
+     27.862,
+     34.295
+    ],
+    "wiki": "Sharm El Sheikh",
+    "area": "Old Sharm",
+    "summary": "Bazaar lanes of spices, lanterns and cafés around the old town.",
+    "expect": "Bargaining expected.",
+    "tip": "Come in the evening and stay for seafood.",
+    "why": "The traditional side of Sharm.",
+    "flow": [
+     "Bazaar.",
+     "Sea-view cafés."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Food"
+    ]
+   },
+   {
+    "name": "Al Sahaba Mosque",
+    "kind": "see",
+    "id": "sharm-sahaba-mosque",
+    "at": [
+     27.8606,
+     34.294
+    ],
+    "wiki": "Al Sahaba Mosque",
+    "area": "Old Sharm",
+    "summary": "A striking white mosque in Ottoman and Mamluk style beside the Old Market.",
+    "expect": "Visitors may see it from outside; dress modestly if you're allowed inside.",
+    "tip": "See it lit up at night.",
+    "why": "Sharm's landmark.",
+    "flow": [
+     "Courtyard.",
+     "Night view."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Desert safari and Bedouin camp",
+    "kind": "see",
+    "id": "sharm-desert",
+    "at": [
+     27.95,
+     34.25
+    ],
+    "wiki": "Sinai Peninsula",
+    "area": "Desert",
+    "summary": "Quad bikes, camel rides and a Bedouin dinner under the stars.",
+    "expect": "Evening trips from most hotels.",
+    "tip": "Choose a small operator.",
+    "why": "The Sinai desert on your doorstep.",
+    "flow": [
+     "Drive into the desert.",
+     "Camel ride.",
+     "Bedouin dinner."
+    ],
+    "hours": 4,
+    "price": [
+     800,
+     2000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mount Sinai and Saint Catherine's Monastery",
+    "kind": "see",
+    "id": "sharm-mount-sinai",
+    "at": [
+     28.5392,
+     33.975
+    ],
+    "wiki": "Mount Sinai",
+    "area": "Saint Catherine",
+    "summary": "A night climb to the summit for sunrise, then the ancient monastery at its foot.",
+    "expect": "About 3 hours each way by road; leaves around 11 pm.",
+    "tip": "Bring warm clothes; it is cold on top.",
+    "why": "Holy to Jews, Christians and Muslims.",
+    "flow": [
+     "Night drive.",
+     "Climb to the summit.",
+     "Saint Catherine's Monastery."
+    ],
+    "hours": 12,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Blue Hole, Dahab",
+    "kind": "see",
+    "id": "sharm-blue-hole",
+    "at": [
+     28.572,
+     34.537
+    ],
+    "wiki": "Blue Hole (Red Sea)",
+    "area": "Dahab",
+    "summary": "A deep sinkhole in the reef, famous with freedivers, near laid-back Dahab.",
+    "expect": "About 1.5 hours by road; snorkel the rim, not the depths.",
+    "tip": "Snorkel the reef edge and lunch in Dahab.",
+    "why": "An iconic Red Sea spot.",
+    "flow": [
+     "Drive to Dahab.",
+     "Snorkel.",
+     "Lunch by the sea."
+    ],
+    "hours": 8,
+    "price": [
+     500,
+     1500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Grilled seafood",
+    "kind": "eat",
+    "id": "sharm-seafood",
+    "at": [
+     27.862,
+     34.296
+    ],
+    "wiki": "Egyptian cuisine",
+    "area": "Old Market",
+    "venue": "food-area",
+    "summary": "Fish and prawns picked from the counter and grilled with rice and salads.",
+    "expect": "Priced by weight.",
+    "tip": "Agree the price first.",
+    "why": "Fresh Red Sea catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.25,
+    "price": [
+     400,
+     1200
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Egyptian",
+    "order": [
+     "Grilled fish",
+     "Calamari",
+     "Tahini"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Koshari",
+    "kind": "eat",
+    "id": "sharm-koshari",
+    "at": [
+     27.915,
+     34.33
+    ],
+    "wiki": "Koshari",
+    "area": "Naama Bay",
+    "venue": "food-area",
+    "summary": "Rice, lentils, pasta and chickpeas with tomato sauce and fried onions.",
+    "expect": "Cheap and filling.",
+    "tip": "Add the garlic vinegar and chilli.",
+    "why": "Egypt's national dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Egyptian",
+    "order": [
+     "Koshari"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Bedouin tea",
+    "kind": "eat",
+    "id": "sharm-bedouin-tea",
+    "at": [
+     27.95,
+     34.25
+    ],
+    "wiki": "Bedouin",
+    "area": "Desert",
+    "venue": "food-area",
+    "summary": "Sweet black tea brewed with desert herbs over a fire.",
+    "expect": "Served at Bedouin camps.",
+    "tip": "Accept the third glass.",
+    "why": "Sinai hospitality.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bedouin",
+    "order": [
+     "Habaq tea",
+     "Bedouin bread"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ }
+]
