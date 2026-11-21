@@ -70,8 +70,8 @@
       "id": "denver-den-redrocks",
       "name": "Red Rocks Park and Amphitheatre",
       "kind": "see",
-      "lat": 39.665,
-      "lon": -105.205,
+      "lat": 39.66528,
+      "lon": -105.20583,
       "wiki": "Red Rocks Amphitheatre",
       "summary": "Natural sandstone amphitheatre and legendary concert venue.",
       "expect": "Free by day.",
@@ -111,14 +111,22 @@
         "Free by day.",
         "Catch a summer concert."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 160177,
+          "period": "202511-202610",
+          "title": "Red Rocks Amphitheatre",
+          "url": "https://en.wikipedia.org/wiki/Red_Rocks_Amphitheatre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "denver-den-rmnp",
       "name": "Rocky Mountain National Park",
       "kind": "see",
-      "lat": 40.343,
-      "lon": -105.684,
+      "lat": 40.3466,
+      "lon": -105.7364,
       "wiki": "Rocky Mountain National Park",
       "summary": "Alpine lakes, elk and Trail Ridge Road above 3,600 m.",
       "expect": "Timed entry in summer.",
@@ -158,14 +166,22 @@
         "Timed entry in summer.",
         "Hike to Emerald Lake."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 67753,
+          "period": "202511-202610",
+          "title": "Rocky Mountain National Park",
+          "url": "https://en.wikipedia.org/wiki/Rocky_Mountain_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "denver-den-union",
       "name": "Union Station and LoDo",
       "kind": "see",
-      "lat": 39.753,
+      "lat": 39.75306,
       "lon": -105,
       "wiki": "Denver Union Station",
       "summary": "Restored station with bars and a lively historic district.",
@@ -205,14 +221,22 @@
         "Free.",
         "Have a drink in the Terminal Bar."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 33458,
+          "period": "202511-202610",
+          "title": "Denver Union Station",
+          "url": "https://en.wikipedia.org/wiki/Denver_Union_Station",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "denver-den-rino",
       "name": "RiNo Art District",
       "kind": "see",
-      "lat": 39.769,
-      "lon": -104.981,
+      "lat": 39.76567,
+      "lon": -104.97841,
       "wiki": "River North Art District",
       "summary": "Murals, breweries and food halls.",
       "expect": "Free.",
@@ -250,15 +274,14 @@
       "tradeoffs": [
         "Free.",
         "Visit Denver Central Market."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "denver-den-artmuseum",
       "name": "Denver Art Museum",
       "kind": "see",
-      "lat": 39.737,
-      "lon": -104.989,
+      "lat": 39.73719,
+      "lon": -104.98935,
       "wiki": "Denver Art Museum",
       "summary": "Striking building with Western and Indigenous art.",
       "expect": "Allow 2 hours.",
@@ -298,14 +321,22 @@
         "Allow 2 hours.",
         "See the Native Arts floor."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22390,
+          "period": "202511-202610",
+          "title": "Denver Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Denver_Art_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "denver-den-boulder",
       "name": "Boulder and the Flatirons",
       "kind": "see",
-      "lat": 39.999,
-      "lon": -105.283,
+      "lat": 40,
+      "lon": -105.3,
       "wiki": "Flatirons",
       "summary": "College town with Chautauqua trails under the Flatirons.",
       "expect": "40 minutes' drive.",
@@ -345,7 +376,15 @@
         "40 minutes' drive.",
         "Hike Royal Arch."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18113,
+          "period": "202511-202610",
+          "title": "The Flatirons",
+          "url": "https://en.wikipedia.org/wiki/The_Flatirons",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "denver-den-chile",
@@ -518,5 +557,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

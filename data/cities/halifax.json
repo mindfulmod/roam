@@ -71,8 +71,8 @@
       "id": "halifax-hfx-waterfront",
       "name": "Halifax Waterfront",
       "kind": "see",
-      "lat": 44.646,
-      "lon": -63.57,
+      "lat": 44.62,
+      "lon": -63.55,
       "wiki": "Halifax Harbour",
       "summary": "Long boardwalk with ships, food shacks and the Wave sculpture.",
       "expect": "Free.",
@@ -112,14 +112,22 @@
         "Free.",
         "Take the ferry to Dartmouth."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17172,
+          "period": "202511-202610",
+          "title": "Halifax Harbour",
+          "url": "https://en.wikipedia.org/wiki/Halifax_Harbour",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halifax-hfx-citadel",
       "name": "Halifax Citadel",
       "kind": "see",
       "lat": 44.6475,
-      "lon": -63.58,
+      "lon": -63.58028,
       "wiki": "Halifax Citadel National Historic Site",
       "summary": "Star-shaped fort with the noon gun and kilted soldiers.",
       "expect": "Allow 2 hours.",
@@ -158,14 +166,22 @@
         "Allow 2 hours.",
         "Be there for the noon gun."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22052,
+          "period": "202511-202610",
+          "title": "Citadel Hill (Fort George)",
+          "url": "https://en.wikipedia.org/wiki/Citadel_Hill_(Fort_George)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halifax-hfx-peggys",
       "name": "Peggy's Cove",
       "kind": "see",
-      "lat": 44.492,
-      "lon": -63.917,
+      "lat": 44.49278,
+      "lon": -63.9175,
       "wiki": "Peggy's Cove",
       "summary": "Iconic lighthouse on granite rocks in a fishing village.",
       "expect": "45 minutes' drive.",
@@ -205,14 +221,22 @@
         "45 minutes' drive.",
         "Stay off the black rocks."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41220,
+          "period": "202511-202610",
+          "title": "Peggys Cove, Nova Scotia",
+          "url": "https://en.wikipedia.org/wiki/Peggys_Cove%2C_Nova_Scotia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halifax-hfx-maritime",
       "name": "Maritime Museum of the Atlantic",
       "kind": "see",
-      "lat": 44.648,
-      "lon": -63.571,
+      "lat": 44.64769,
+      "lon": -63.57106,
       "wiki": "Maritime Museum of the Atlantic",
       "summary": "Titanic artefacts and the Halifax Explosion story.",
       "expect": "Allow 1.5 hours.",
@@ -251,14 +275,22 @@
         "Allow 1.5 hours.",
         "See the Titanic deck chair."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9260,
+          "period": "202511-202610",
+          "title": "Maritime Museum of the Atlantic",
+          "url": "https://en.wikipedia.org/wiki/Maritime_Museum_of_the_Atlantic",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halifax-hfx-lunenburg",
       "name": "Lunenburg",
       "kind": "see",
-      "lat": 44.377,
-      "lon": -64.309,
+      "lat": 44.3778,
+      "lon": -64.3094,
       "wiki": "Lunenburg, Nova Scotia",
       "summary": "Colourful UNESCO fishing town, home of the Bluenose.",
       "expect": "1 hour's drive.",
@@ -298,15 +330,23 @@
         "1 hour's drive.",
         "Combine with Mahone Bay."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 69538,
+          "period": "202511-202610",
+          "title": "Lunenburg, Nova Scotia",
+          "url": "https://en.wikipedia.org/wiki/Lunenburg%2C_Nova_Scotia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halifax-hfx-pier21",
       "name": "Canadian Museum of Immigration at Pier 21",
       "kind": "see",
-      "lat": 44.637,
-      "lon": -63.565,
+      "lat": 44.63778,
+      "lon": -63.56583,
       "wiki": "Pier 21",
       "summary": "Where a million immigrants arrived in Canada.",
       "expect": "Allow 2 hours.",
@@ -345,7 +385,15 @@
         "Allow 2 hours.",
         "Search family records."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11409,
+          "period": "202511-202610",
+          "title": "Pier 21",
+          "url": "https://en.wikipedia.org/wiki/Pier_21",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halifax-hfx-lobster",
@@ -518,5 +566,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

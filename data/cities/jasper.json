@@ -70,8 +70,8 @@
       "id": "jasper-jas-maligne",
       "name": "Maligne Lake and Spirit Island",
       "kind": "see",
-      "lat": 52.68,
-      "lon": -117.54,
+      "lat": 52.66444,
+      "lon": -117.53361,
       "wiki": "Maligne Lake",
       "summary": "Boat cruise to the iconic Spirit Island.",
       "expect": "Book the cruise.",
@@ -112,14 +112,22 @@
         "Book the cruise.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18414,
+          "period": "202511-202610",
+          "title": "Maligne Lake",
+          "url": "https://en.wikipedia.org/wiki/Maligne_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jasper-jas-canyon",
       "name": "Maligne Canyon",
       "kind": "see",
-      "lat": 52.92,
-      "lon": -117.99,
+      "lat": 52.92028,
+      "lon": -118.01083,
       "wiki": "Maligne Canyon",
       "summary": "Deep limestone canyon with bridges, and an ice walk in winter.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Walk bridges 1 to 4."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2036,
+          "period": "202511-202610",
+          "title": "Maligne Canyon",
+          "url": "https://en.wikipedia.org/wiki/Maligne_Canyon",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jasper-jas-icefields",
       "name": "Icefields Parkway and Athabasca Glacier",
       "kind": "see",
-      "lat": 52.22,
-      "lon": -117.23,
+      "lat": 52.19861,
+      "lon": -117.24361,
       "wiki": "Athabasca Glacier",
       "summary": "One of the world's great drives, to the Columbia Icefield.",
       "expect": "Full day.",
@@ -206,8 +222,16 @@
         "Full day.",
         "Ride the Ice Explorer."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22717,
+          "period": "202511-202610",
+          "title": "Athabasca Glacier",
+          "url": "https://en.wikipedia.org/wiki/Athabasca_Glacier",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jasper-jas-skytram",
@@ -259,8 +283,8 @@
       "id": "jasper-jas-pyramid",
       "name": "Pyramid Lake",
       "kind": "see",
-      "lat": 52.92,
-      "lon": -118.09,
+      "lat": 52.9225,
+      "lon": -118.09611,
       "wiki": "Pyramid Lake (Alberta)",
       "summary": "Lake with an island and Pyramid Mountain reflection.",
       "expect": "Free.",
@@ -299,7 +323,15 @@
         "Free.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4742,
+          "period": "202511-202610",
+          "title": "Pyramid Lake (Alberta)",
+          "url": "https://en.wikipedia.org/wiki/Pyramid_Lake_(Alberta)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jasper-jas-dark",
@@ -345,7 +377,16 @@
         "Evening.",
         "Visit in October for the festival."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 53070,
+          "period": "202511-202610",
+          "title": "Jasper National Park",
+          "url": "https://en.wikipedia.org/wiki/Jasper_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jasper-jas-elk",
@@ -518,5 +559,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

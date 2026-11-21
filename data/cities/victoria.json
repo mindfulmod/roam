@@ -71,8 +71,8 @@
       "id": "victoria-vic-butchart",
       "name": "Butchart Gardens",
       "kind": "see",
-      "lat": 48.5636,
-      "lon": -123.4697,
+      "lat": 48.56528,
+      "lon": -123.46944,
       "wiki": "Butchart Gardens",
       "summary": "World-famous gardens in a former quarry.",
       "expect": "Allow half a day.",
@@ -112,14 +112,22 @@
         "Allow half a day.",
         "Go for summer evening fireworks."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32845,
+          "period": "202511-202610",
+          "title": "Butchart Gardens",
+          "url": "https://en.wikipedia.org/wiki/Butchart_Gardens",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "victoria-vic-harbour",
       "name": "Inner Harbour",
       "kind": "see",
-      "lat": 48.422,
-      "lon": -123.37,
+      "lat": 48.42095,
+      "lon": -123.37401,
       "wiki": "Inner Harbour (Victoria)",
       "summary": "Waterfront with buskers, floatplanes and the lit Parliament.",
       "expect": "Free.",
@@ -157,15 +165,14 @@
       "tradeoffs": [
         "Free.",
         "Stay after dark for the lit Parliament."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "victoria-vic-whales",
       "name": "Whale watching",
       "kind": "see",
-      "lat": 48.42,
-      "lon": -123.38,
+      "lat": 48.42276,
+      "lon": -123.36899,
       "wiki": "Orca",
       "summary": "Boat trips to see orcas and humpbacks.",
       "expect": "3 hours.",
@@ -204,14 +211,22 @@
         "3 hours.",
         "Pick a zodiac for thrills."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1320668,
+          "period": "202511-202610",
+          "title": "Orca",
+          "url": "https://en.wikipedia.org/wiki/Orca",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "victoria-vic-museum",
       "name": "Royal BC Museum",
       "kind": "see",
-      "lat": 48.42,
-      "lon": -123.367,
+      "lat": 48.41944,
+      "lon": -123.36778,
       "wiki": "Royal BC Museum",
       "summary": "Natural and First Nations history with totem poles.",
       "expect": "Allow 2 hours.",
@@ -250,14 +265,22 @@
         "Allow 2 hours.",
         "See Thunderbird Park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9291,
+          "period": "202511-202610",
+          "title": "Royal British Columbia Museum",
+          "url": "https://en.wikipedia.org/wiki/Royal_British_Columbia_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "victoria-vic-fishermans",
       "name": "Fisherman's Wharf",
       "kind": "see",
-      "lat": 48.423,
-      "lon": -123.383,
+      "lat": 48.42276,
+      "lon": -123.38257,
       "wiki": "Fisherman's Wharf (Victoria)",
       "summary": "Colourful floating homes and food shacks.",
       "expect": "Free.",
@@ -296,8 +319,7 @@
       "tradeoffs": [
         "Free.",
         "Take a harbour ferry."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "victoria-vic-beaconhill",
@@ -343,14 +365,22 @@
         "Free.",
         "Walk Dallas Road."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4536,
+          "period": "202511-202610",
+          "title": "Beacon Hill Park",
+          "url": "https://en.wikipedia.org/wiki/Beacon_Hill_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "victoria-vic-tea",
       "name": "Afternoon tea at the Empress",
       "kind": "eat",
-      "lat": 48.4216,
-      "lon": -123.3678,
+      "lat": 48.42185,
+      "lon": -123.36797,
       "wiki": "Fairmont Empress",
       "summary": "Classic afternoon tea in the grand hotel.",
       "expect": "Book ahead.",
@@ -389,7 +419,6 @@
         "Book ahead.",
         "Dress smart-casual."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "British",
       "mustOrder": [
@@ -463,8 +492,8 @@
       "id": "victoria-vic-chinatown",
       "name": "Chinatown",
       "kind": "eat",
-      "lat": 48.429,
-      "lon": -123.365,
+      "lat": 48.42936,
+      "lon": -123.36791,
       "wiki": "Chinatown, Victoria",
       "summary": "Canada's oldest Chinatown with Fan Tan Alley.",
       "expect": "Free.",
@@ -503,7 +532,6 @@
         "Free.",
         "Grab dim sum."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Chinese",
       "mustOrder": [
@@ -516,5 +544,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

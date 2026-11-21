@@ -70,8 +70,8 @@
       "id": "portland-pdx-japanese",
       "name": "Portland Japanese Garden",
       "kind": "see",
-      "lat": 45.519,
-      "lon": -122.707,
+      "lat": 45.51872,
+      "lon": -122.708,
       "wiki": "Portland Japanese Garden",
       "summary": "One of the finest Japanese gardens outside Japan.",
       "expect": "Timed tickets.",
@@ -112,14 +112,22 @@
         "Timed tickets.",
         "Go at opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12299,
+          "period": "202511-202610",
+          "title": "Portland Japanese Garden",
+          "url": "https://en.wikipedia.org/wiki/Portland_Japanese_Garden",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "portland-pdx-rose",
       "name": "International Rose Test Garden",
       "kind": "see",
-      "lat": 45.519,
-      "lon": -122.705,
+      "lat": 45.5191,
+      "lon": -122.7054,
       "wiki": "International Rose Test Garden",
       "summary": "Over 10,000 rose bushes with Mount Hood views.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Best May to September."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7323,
+          "period": "202511-202610",
+          "title": "International Rose Test Garden",
+          "url": "https://en.wikipedia.org/wiki/International_Rose_Test_Garden",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "portland-pdx-powells",
       "name": "Powell's City of Books",
       "kind": "see",
-      "lat": 45.523,
-      "lon": -122.681,
+      "lat": 45.52334,
+      "lon": -122.68159,
       "wiki": "Powell's Books",
       "summary": "The world's largest independent bookstore, a whole city block.",
       "expect": "Free.",
@@ -204,14 +220,22 @@
         "Free.",
         "Pick up a colour-coded map."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32472,
+          "period": "202511-202610",
+          "title": "Powell's Books",
+          "url": "https://en.wikipedia.org/wiki/Powell's_Books",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "portland-pdx-gorge",
       "name": "Columbia River Gorge and Multnomah Falls",
       "kind": "see",
-      "lat": 45.576,
-      "lon": -122.115,
+      "lat": 45.57595,
+      "lon": -122.11536,
       "wiki": "Multnomah Falls",
       "summary": "Waterfall-lined gorge with 189 m Multnomah Falls.",
       "expect": "Timed permits in summer.",
@@ -252,14 +276,22 @@
         "Timed permits in summer.",
         "Drive the Historic Highway."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76662,
+          "period": "202511-202610",
+          "title": "Multnomah Falls",
+          "url": "https://en.wikipedia.org/wiki/Multnomah_Falls",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "portland-pdx-hood",
       "name": "Mount Hood and Timberline Lodge",
       "kind": "see",
-      "lat": 45.331,
-      "lon": -121.711,
+      "lat": 45.33111,
+      "lon": -121.71,
       "wiki": "Timberline Lodge",
       "summary": "Year-round snow and the Shining's famous lodge.",
       "expect": "Long drive.",
@@ -300,15 +332,23 @@
         "Long drive.",
         "Ski in summer on the glacier."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 71085,
+          "period": "202511-202610",
+          "title": "Timberline Lodge",
+          "url": "https://en.wikipedia.org/wiki/Timberline_Lodge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "portland-pdx-coast",
       "name": "Cannon Beach",
       "kind": "see",
-      "lat": 45.892,
-      "lon": -123.962,
+      "lat": 45.88194,
+      "lon": -123.95944,
       "wiki": "Cannon Beach, Oregon",
       "summary": "Haystack Rock and tide pools on the Oregon coast.",
       "expect": "1.5 hours' drive.",
@@ -347,8 +387,16 @@
         "1.5 hours' drive.",
         "Go at low tide."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 43349,
+          "period": "202511-202610",
+          "title": "Cannon Beach, Oregon",
+          "url": "https://en.wikipedia.org/wiki/Cannon_Beach%2C_Oregon",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "portland-pdx-carts",
@@ -521,5 +569,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

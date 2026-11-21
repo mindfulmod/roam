@@ -63,7 +63,7 @@
       "id": "anchorage-anc-heritage",
       "name": "Alaska Native Heritage Center",
       "kind": "see",
-      "lat": 61.231,
+      "lat": 61.2302,
       "lon": -149.717,
       "wiki": "Alaska Native Heritage Center",
       "summary": "Living culture centre with dances and village sites.",
@@ -103,14 +103,22 @@
         "Allow 3 hours.",
         "Catch a dance performance."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3606,
+          "period": "202511-202610",
+          "title": "Alaska Native Heritage Center",
+          "url": "https://en.wikipedia.org/wiki/Alaska_Native_Heritage_Center",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "anchorage-anc-seward",
       "name": "Seward Highway and Kenai Fjords",
       "kind": "see",
-      "lat": 59.9,
-      "lon": -149.6,
+      "lat": 59.91778,
+      "lon": -149.9875,
       "wiki": "Kenai Fjords National Park",
       "summary": "Fjord cruise to tidewater glaciers with whales and puffins.",
       "expect": "Long day.",
@@ -149,15 +157,23 @@
         "Long day.",
         "Book a 6-hour cruise."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 27440,
+          "period": "202511-202610",
+          "title": "Kenai Fjords National Park",
+          "url": "https://en.wikipedia.org/wiki/Kenai_Fjords_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "anchorage-anc-denali",
       "name": "Denali National Park",
       "kind": "see",
-      "lat": 63.333,
-      "lon": -150.5,
+      "lat": 63.43,
+      "lon": -150.32,
       "wiki": "Denali National Park and Preserve",
       "summary": "North America's highest peak and wilderness with grizzlies and moose.",
       "expect": "Train or drive; stay overnight.",
@@ -197,15 +213,23 @@
         "Train or drive; stay overnight.",
         "Take the park bus."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 77017,
+          "period": "202511-202610",
+          "title": "Denali National Park and Preserve",
+          "url": "https://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "anchorage-anc-coastal",
       "name": "Tony Knowles Coastal Trail",
       "kind": "see",
-      "lat": 61.2,
-      "lon": -149.95,
+      "lat": 61.22056,
+      "lon": -149.8975,
       "wiki": "Tony Knowles Coastal Trail",
       "summary": "Paved coastal trail with moose and Denali views.",
       "expect": "Free.",
@@ -244,14 +268,22 @@
         "Free.",
         "Rent a bike."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1800,
+          "period": "202511-202610",
+          "title": "Tony Knowles Coastal Trail",
+          "url": "https://en.wikipedia.org/wiki/Tony_Knowles_Coastal_Trail",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "anchorage-anc-flattop",
       "name": "Flattop Mountain",
       "kind": "see",
-      "lat": 61.088,
-      "lon": -149.663,
+      "lat": 61.09056,
+      "lon": -149.66528,
       "wiki": "Flattop Mountain (Alaska)",
       "summary": "Alaska's most-climbed peak, with sweeping views.",
       "expect": "Steep finish.",
@@ -291,14 +323,22 @@
         "Steep finish.",
         "Go on a clear evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3641,
+          "period": "202511-202610",
+          "title": "Flattop Mountain (Anchorage, Alaska)",
+          "url": "https://en.wikipedia.org/wiki/Flattop_Mountain_(Anchorage%2C_Alaska)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "anchorage-anc-alyeska",
       "name": "Alyeska and Girdwood",
       "kind": "see",
-      "lat": 60.96,
-      "lon": -149.1,
+      "lat": 60.9705,
+      "lon": -149.0982,
       "wiki": "Alyeska Resort",
       "summary": "Tram up for glacier views and summer hikes.",
       "expect": "Tram ticket.",
@@ -338,7 +378,15 @@
         "Tram ticket.",
         "Hike the Winner Creek trail."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13932,
+          "period": "202511-202610",
+          "title": "Alyeska Resort",
+          "url": "https://en.wikipedia.org/wiki/Alyeska_Resort",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "anchorage-anc-salmon",
@@ -511,5 +559,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
