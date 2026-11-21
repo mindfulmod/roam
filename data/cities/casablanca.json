@@ -1,0 +1,572 @@
+{
+  "id": "casablanca",
+  "name": "Casablanca",
+  "country": "Morocco",
+  "region": "Africa",
+  "lat": 33.5731,
+  "lon": -7.5898,
+  "wiki": "Casablanca",
+  "tagline": "Morocco's modern city and a mosque over the sea",
+  "summary": "Casablanca is Morocco's biggest city and business capital. Its highlight is the vast Hassan II Mosque on the Atlantic, one of the few in Morocco open to non-Muslims, along with Art Deco boulevards, the Habous quarter and a seaside corniche.",
+  "days": 1,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Mild all year. Summer is warm and humid; winter is cool and rainy.",
+  "arrival": "Mohammed V Airport is 45 minutes by train. Al Boraq high-speed trains link Tangier in about 2 hours; trains to Marrakech take about 2.5.",
+  "gettingAround": "Trams, petit taxis and walking.",
+  "cashTip": "Carry small dirham notes for meals, taxis and markets; cards work mainly in hotels and bigger restaurants.",
+  "dailyBudget": [
+    400,
+    900
+  ],
+  "currency": "MAD",
+  "cashPerDay": [
+    200,
+    450
+  ],
+  "foodTip": "Seafood from the central market, msemen pancakes and Friday couscous.",
+  "buyTip": "Crafts and spices in the Habous quarter.",
+  "baseArea": "City centre or near the corniche",
+  "connections": [
+    {
+      "to": "marrakech",
+      "mode": "Train",
+      "minutes": 160,
+      "note": "ONCF trains."
+    },
+    {
+      "to": "fez",
+      "mode": "Train",
+      "minutes": 240,
+      "note": "ONCF trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Casablanca on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Casablanca",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Casablanca%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Casablanca%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Hassan II Mosque",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "casablanca-casa-hassan",
+      "name": "Hassan II Mosque",
+      "kind": "see",
+      "lat": 33.6084,
+      "lon": -7.6326,
+      "wiki": "Hassan II Mosque",
+      "summary": "A huge mosque on the ocean with a 210 m minaret and a hall for 25,000.",
+      "expect": "Guided tours for non-Muslims outside prayer times.",
+      "tip": "Book the guided tour.",
+      "area": "Corniche",
+      "duration": 2,
+      "price": [
+        140,
+        140
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hassan%20II%20Mosque%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Hassan%20II%20Mosque%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hassan%20II%20Mosque%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A huge mosque on the ocean with a 210 m minaret and a hall for 25,000.",
+        "One of the world's largest mosques."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Prayer hall.",
+        "Seafront."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "Guided tours for non-Muslims outside prayer times.",
+        "Book the guided tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "casablanca-casa-corniche",
+      "name": "Ain Diab corniche",
+      "kind": "see",
+      "lat": 33.592,
+      "lon": -7.67,
+      "wiki": "Ain Diab",
+      "summary": "A seafront promenade of beach clubs and cafés.",
+      "expect": "Lively at sunset.",
+      "tip": "Walk from the mosque.",
+      "area": "Ain Diab",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ain%20Diab%20corniche%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Ain%20Diab%20corniche%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ain%20Diab%20corniche%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A seafront promenade of beach clubs and cafés.",
+        "City by the sea."
+      ],
+      "visitFlow": [
+        "Promenade.",
+        "Sunset café."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Lively at sunset.",
+        "Walk from the mosque."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "casablanca-casa-habous",
+      "name": "Habous quarter",
+      "kind": "see",
+      "lat": 33.579,
+      "lon": -7.6,
+      "wiki": "Quartier Habous",
+      "summary": "A 1930s 'new medina' of arches, bookshops and pastry shops.",
+      "expect": "Calm and safe for browsing.",
+      "tip": "Buy pastries at Bennis.",
+      "area": "Habous",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Habous%20quarter%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Habous%20quarter%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Habous%20quarter%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A 1930s 'new medina' of arches, bookshops and pastry shops.",
+        "Easy medina shopping."
+      ],
+      "visitFlow": [
+        "Souks.",
+        "Pastry shop."
+      ],
+      "bestFor": "Visitors interested in local shopping and architecture and design",
+      "tradeoffs": [
+        "Calm and safe for browsing.",
+        "Buy pastries at Bennis."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "casablanca-casa-artdeco",
+      "name": "Art Deco centre",
+      "kind": "see",
+      "lat": 33.592,
+      "lon": -7.619,
+      "wiki": "Mohammed V Square",
+      "summary": "Boulevards of French-era Art Deco and Mauresque buildings.",
+      "expect": "Join a Casamémoire walk.",
+      "tip": "Look up at the façades.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Art%20Deco%20centre%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Art%20Deco%20centre%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Art%20Deco%20centre%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "Boulevards of French-era Art Deco and Mauresque buildings.",
+        "Casablanca's architecture."
+      ],
+      "visitFlow": [
+        "Mohammed V Square.",
+        "Central Market."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Join a Casamémoire walk.",
+        "Look up at the façades."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "casablanca-casa-ricks",
+      "name": "Rick's Café",
+      "kind": "see",
+      "lat": 33.605,
+      "lon": -7.618,
+      "wiki": "Rick's Café",
+      "summary": "A restaurant recreating the bar from the film Casablanca, with a piano.",
+      "expect": "Book dinner; dress smart.",
+      "tip": "Ask the pianist for 'As Time Goes By'.",
+      "area": "Old Medina",
+      "duration": 2,
+      "price": [
+        300,
+        600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rick's%20Caf%C3%A9%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Rick's%20Caf%C3%A9%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rick's%20Caf%C3%A9%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "A restaurant recreating the bar from the film Casablanca, with a piano.",
+        "For film fans."
+      ],
+      "visitFlow": [
+        "Dinner.",
+        "Piano."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Book dinner; dress smart.",
+        "Ask the pianist for 'As Time Goes By'."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "casablanca-casa-judaism",
+      "name": "Museum of Moroccan Judaism",
+      "kind": "see",
+      "lat": 33.551,
+      "lon": -7.644,
+      "wiki": "Museum of Moroccan Judaism",
+      "summary": "The Arab world's only Jewish museum, on Morocco's Jewish heritage.",
+      "expect": "Small; check hours.",
+      "tip": "Ask staff about the community's history.",
+      "area": "Oasis",
+      "duration": 1,
+      "price": [
+        50,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Museum%20of%20Moroccan%20Judaism%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Museum%20of%20Moroccan%20Judaism%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Museum%20of%20Moroccan%20Judaism%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The Arab world's only Jewish museum, on Morocco's Jewish heritage.",
+        "A unique museum."
+      ],
+      "visitFlow": [
+        "Exhibits.",
+        "Synagogue objects."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Small; check hours.",
+        "Ask staff about the community's history."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "casablanca-casa-rabat",
+      "name": "Rabat",
+      "kind": "see",
+      "lat": 34.0209,
+      "lon": -6.8416,
+      "wiki": "Rabat",
+      "summary": "Morocco's capital, with the Kasbah of the Udayas, Hassan Tower and royal mausoleum.",
+      "expect": "About an hour by train.",
+      "tip": "Walk the Udayas kasbah.",
+      "area": "Rabat",
+      "duration": 6,
+      "price": [
+        0,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rabat%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Rabat%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rabat%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Morocco's capital, with the Kasbah of the Udayas, Hassan Tower and royal mausoleum.",
+        "An easy day trip."
+      ],
+      "visitFlow": [
+        "Train.",
+        "Hassan Tower.",
+        "Udayas kasbah."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "About an hour by train.",
+        "Walk the Udayas kasbah."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "casablanca-casa-seafood",
+      "name": "Central market seafood",
+      "kind": "eat",
+      "lat": 33.594,
+      "lon": -7.616,
+      "wiki": "Seafood",
+      "summary": "Pick fresh fish and oysters at the market and have them cooked nearby.",
+      "expect": "Lunchtime is best.",
+      "tip": "Try the oysters from Oualidia.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        80,
+        250
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Central%20market%20seafood%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Central%20market%20seafood%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Central%20market%20seafood%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pick fresh fish and oysters at the market and have them cooked nearby.",
+        "Fresh from the Atlantic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lunchtime is best.",
+        "Try the oysters from Oualidia."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Moroccan seafood",
+      "mustOrder": [
+        "Oysters",
+        "Grilled fish"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "casablanca-casa-msemen",
+      "name": "Msemen",
+      "kind": "eat",
+      "lat": 33.59,
+      "lon": -7.61,
+      "wiki": "Msemen",
+      "summary": "Flaky square pancakes with honey or cheese.",
+      "expect": "Street stalls in the morning.",
+      "tip": "Try it with mint tea.",
+      "area": "Centre",
+      "duration": 0.25,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Msemen%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Msemen%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Msemen%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Flaky square pancakes with honey or cheese.",
+        "Moroccan breakfast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Street stalls in the morning.",
+        "Try it with mint tea."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Moroccan",
+      "mustOrder": [
+        "Msemen"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "casablanca-casa-couscous",
+      "name": "Friday couscous",
+      "kind": "eat",
+      "lat": 33.58,
+      "lon": -7.6,
+      "wiki": "Couscous",
+      "summary": "Couscous with seven vegetables, traditionally eaten on Fridays.",
+      "expect": "Many cafés serve it only on Friday.",
+      "tip": "Go on Friday lunchtime.",
+      "area": "Habous",
+      "duration": 1,
+      "price": [
+        50,
+        100
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Friday%20couscous%2C%20Casablanca",
+        "https://www.google.com/maps/search/?api=1&query=Friday%20couscous%2C%20Casablanca"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Friday%20couscous%2C%20Casablanca"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Couscous with seven vegetables, traditionally eaten on Fridays.",
+        "A weekly tradition."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Many cafés serve it only on Friday.",
+        "Go on Friday lunchtime."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Moroccan",
+      "mustOrder": [
+        "Couscous"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

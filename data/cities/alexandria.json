@@ -1,0 +1,610 @@
+{
+  "id": "alexandria",
+  "name": "Alexandria",
+  "country": "Egypt",
+  "region": "Africa",
+  "lat": 31.2001,
+  "lon": 29.9187,
+  "wiki": "Alexandria",
+  "tagline": "Egypt's Mediterranean city of Cleopatra and the great library",
+  "summary": "Founded by Alexander the Great, Alexandria was the ancient world's centre of learning. Today it's a breezy Mediterranean city of corniche cafés, the modern Bibliotheca Alexandrina, a fort on the site of the Pharos lighthouse and Roman catacombs.",
+  "days": 2,
+  "bestMonths": [
+    4,
+    5,
+    9,
+    10,
+    11
+  ],
+  "seasonNote": "Spring and autumn are mild. Summer is crowded with Egyptian holidaymakers. Winter is cool, rainy and stormy.",
+  "arrival": "Trains from Cairo take about 2.5 hours. Borg El Arab Airport is about an hour away.",
+  "gettingAround": "Old trams, taxis and Careem along the corniche.",
+  "cashTip": "Keep small Egyptian pound notes for tips, taxis and markets; major sites take cards. Agree prices before rides.",
+  "dailyBudget": [
+    1800,
+    4000
+  ],
+  "currency": "EGP",
+  "cashPerDay": [
+    500,
+    1200
+  ],
+  "foodTip": "Fresh fish by weight, Alexandrian liver sandwiches and feteer.",
+  "buyTip": "Antiques and old books near Attarin.",
+  "baseArea": "Along the corniche near Raml Station",
+  "connections": [
+    {
+      "to": "cairo",
+      "mode": "Train",
+      "minutes": 150,
+      "note": "Express trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Alexandria on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Alexandria",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Alexandria%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Alexandria%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Citadel of Qaitbay",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "alexandria-alx-library",
+      "name": "Bibliotheca Alexandrina",
+      "kind": "see",
+      "lat": 31.2089,
+      "lon": 29.9092,
+      "wiki": "Bibliotheca Alexandrina",
+      "summary": "A striking modern library honouring the ancient one, with museums inside.",
+      "expect": "Closed some days; bring ID.",
+      "tip": "See the manuscripts museum.",
+      "area": "Shatby",
+      "duration": 2,
+      "price": [
+        100,
+        200
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bibliotheca%20Alexandrina%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Bibliotheca%20Alexandrina%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bibliotheca%20Alexandrina%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "A striking modern library honouring the ancient one, with museums inside.",
+        "Alexandria's modern icon."
+      ],
+      "visitFlow": [
+        "Reading hall.",
+        "Museums."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Closed some days; bring ID.",
+        "See the manuscripts museum."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "alexandria-alx-qaitbay",
+      "name": "Citadel of Qaitbay",
+      "kind": "see",
+      "lat": 31.214,
+      "lon": 29.8856,
+      "wiki": "Citadel of Qaitbay",
+      "summary": "A 15th-century fort on the site of the ancient Pharos lighthouse.",
+      "expect": "Windy; great sea views.",
+      "tip": "Walk the walls at sunset.",
+      "area": "Eastern Harbour",
+      "duration": 1.5,
+      "price": [
+        100,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Citadel%20of%20Qaitbay%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Citadel%20of%20Qaitbay%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Citadel%20of%20Qaitbay%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A 15th-century fort on the site of the ancient Pharos lighthouse.",
+        "Where a wonder once stood."
+      ],
+      "visitFlow": [
+        "Fort.",
+        "Sea walls."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Windy; great sea views.",
+        "Walk the walls at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "alexandria-alx-catacombs",
+      "name": "Catacombs of Kom el-Shoqafa",
+      "kind": "see",
+      "lat": 31.1786,
+      "lon": 29.8933,
+      "wiki": "Catacombs of Kom El Shoqafa",
+      "summary": "Roman-era tombs mixing Egyptian, Greek and Roman art.",
+      "expect": "Many stairs down.",
+      "tip": "Look at the Anubis carvings.",
+      "area": "Karmouz",
+      "duration": 1,
+      "price": [
+        150,
+        150
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Catacombs%20of%20Kom%20el-Shoqafa%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Catacombs%20of%20Kom%20el-Shoqafa%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Catacombs%20of%20Kom%20el-Shoqafa%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Roman-era tombs mixing Egyptian, Greek and Roman art.",
+        "An ancient wonder underground."
+      ],
+      "visitFlow": [
+        "Spiral stairs.",
+        "Main tomb."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Many stairs down.",
+        "Look at the Anubis carvings."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "alexandria-alx-pompey",
+      "name": "Pompey's Pillar",
+      "kind": "see",
+      "lat": 31.1825,
+      "lon": 29.8964,
+      "wiki": "Pompey's Pillar (column)",
+      "summary": "A 27 m Roman granite column on the site of the Serapeum.",
+      "expect": "Close to the catacombs.",
+      "tip": "Combine with the catacombs.",
+      "area": "Karmouz",
+      "duration": 0.5,
+      "price": [
+        100,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Pompey's%20Pillar%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Pompey's%20Pillar%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Pompey's%20Pillar%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "A 27 m Roman granite column on the site of the Serapeum.",
+        "Roman Alexandria."
+      ],
+      "visitFlow": [
+        "Column.",
+        "Sphinxes."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Close to the catacombs.",
+        "Combine with the catacombs."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "alexandria-alx-corniche",
+      "name": "Corniche",
+      "kind": "see",
+      "lat": 31.205,
+      "lon": 29.9,
+      "wiki": "Alexandria",
+      "summary": "A long seafront road with cafés and old hotels.",
+      "expect": "Busy traffic; cross carefully.",
+      "tip": "Have coffee at a historic café.",
+      "area": "Corniche",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Corniche%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Corniche%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Corniche%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A long seafront road with cafés and old hotels.",
+        "The city's soul."
+      ],
+      "visitFlow": [
+        "Seafront walk.",
+        "Café."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Busy traffic; cross carefully.",
+        "Have coffee at a historic café."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "alexandria-alx-montaza",
+      "name": "Montaza Palace gardens",
+      "kind": "see",
+      "lat": 31.288,
+      "lon": 30.016,
+      "wiki": "Montaza Palace",
+      "summary": "Royal gardens and beaches around a 1930s palace.",
+      "expect": "Palace closed; gardens open.",
+      "tip": "Picnic by the sea.",
+      "area": "Montaza",
+      "duration": 2,
+      "price": [
+        50,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Montaza%20Palace%20gardens%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Montaza%20Palace%20gardens%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Montaza%20Palace%20gardens%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "History"
+      ],
+      "whyVisit": [
+        "Royal gardens and beaches around a 1930s palace.",
+        "Green escape."
+      ],
+      "visitFlow": [
+        "Gardens.",
+        "Seafront."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and history and context",
+      "tradeoffs": [
+        "Palace closed; gardens open.",
+        "Picnic by the sea."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "alexandria-alx-amphitheatre",
+      "name": "Roman Amphitheatre",
+      "kind": "see",
+      "lat": 31.1945,
+      "lon": 29.9045,
+      "wiki": "Kom El Deka",
+      "summary": "Egypt's only Roman amphitheatre, with baths and villas with mosaics.",
+      "expect": "Small and central.",
+      "tip": "See the Villa of the Birds mosaics.",
+      "area": "Kom el-Dikka",
+      "duration": 1,
+      "price": [
+        100,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Roman%20Amphitheatre%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Roman%20Amphitheatre%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Roman%20Amphitheatre%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Egypt's only Roman amphitheatre, with baths and villas with mosaics.",
+        "Rare Roman remains."
+      ],
+      "visitFlow": [
+        "Theatre.",
+        "Villa of the Birds."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Small and central.",
+        "See the Villa of the Birds mosaics."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "alexandria-alx-alamein",
+      "name": "El Alamein",
+      "kind": "see",
+      "lat": 30.83,
+      "lon": 28.955,
+      "wiki": "El Alamein War Cemetery",
+      "summary": "WWII cemeteries and a military museum on the desert battlefield.",
+      "expect": "About 2 hours by road.",
+      "tip": "Visit the museum first.",
+      "area": "El Alamein",
+      "duration": 7,
+      "price": [
+        0,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=El%20Alamein%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=El%20Alamein%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=El%20Alamein%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "WWII cemeteries and a military museum on the desert battlefield.",
+        "A sobering history."
+      ],
+      "visitFlow": [
+        "Drive.",
+        "Museum.",
+        "Cemeteries."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "About 2 hours by road.",
+        "Visit the museum first."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "alexandria-alx-fish",
+      "name": "Fish restaurants",
+      "kind": "eat",
+      "lat": 31.21,
+      "lon": 29.89,
+      "wiki": "Egyptian cuisine",
+      "summary": "Pick fish and shrimp by weight, grilled or baked in clay.",
+      "expect": "Busy in the evening.",
+      "tip": "Try the clay-pot shrimp.",
+      "area": "Anfushi",
+      "duration": 1.5,
+      "price": [
+        300,
+        1000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fish%20restaurants%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Fish%20restaurants%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fish%20restaurants%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pick fish and shrimp by weight, grilled or baked in clay.",
+        "Alexandria's famous seafood."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy in the evening.",
+        "Try the clay-pot shrimp."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Egyptian seafood",
+      "mustOrder": [
+        "Grilled fish",
+        "Shrimp tagine"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "alexandria-alx-liver",
+      "name": "Alexandrian liver sandwich",
+      "kind": "eat",
+      "lat": 31.198,
+      "lon": 29.905,
+      "wiki": "Liver (food)",
+      "summary": "Spicy fried liver with peppers in bread.",
+      "expect": "Street stalls.",
+      "tip": "Eat it with chilli.",
+      "area": "Raml",
+      "duration": 0.25,
+      "price": [
+        20,
+        50
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alexandrian%20liver%20sandwich%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Alexandrian%20liver%20sandwich%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Alexandrian%20liver%20sandwich%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Spicy fried liver with peppers in bread.",
+        "A local classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Street stalls.",
+        "Eat it with chilli."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Egyptian",
+      "mustOrder": [
+        "Kebda Eskandarani"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "alexandria-alx-feteer",
+      "name": "Feteer",
+      "kind": "eat",
+      "lat": 31.2,
+      "lon": 29.91,
+      "wiki": "Feteer meshaltet",
+      "summary": "Flaky layered pastry, sweet or savoury.",
+      "expect": "Bakeries all over.",
+      "tip": "Try it with honey and cream.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        60,
+        150
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Feteer%2C%20Alexandria",
+        "https://www.google.com/maps/search/?api=1&query=Feteer%2C%20Alexandria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Feteer%2C%20Alexandria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Flaky layered pastry, sweet or savoury.",
+        "Egyptian pastry."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Bakeries all over.",
+        "Try it with honey and cream."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Egyptian",
+      "mustOrder": [
+        "Feteer"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
