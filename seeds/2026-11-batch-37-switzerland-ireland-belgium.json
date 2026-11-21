@@ -1,0 +1,2824 @@
+[
+ {
+  "country": "Switzerland",
+  "region": "Europe",
+  "currency": "CHF",
+  "cashTip": "Cards and phone payments work almost everywhere; prices are in francs, and euros get a poor rate.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "lucerne",
+  "name": "Lucerne",
+  "at": [
+   47.0502,
+   8.3093
+  ],
+  "wiki": "Lucerne",
+  "cover": "Chapel Bridge",
+  "seasons": "LLSSHHPPHSSH",
+  "tagline": "A medieval lakeside town ringed by mountains",
+  "summary": "Lucerne is postcard Switzerland: a covered wooden bridge, painted old-town squares and a lake framed by Mount Pilatus and Rigi. Cruise the lake on paddle steamers, ride the world's steepest cogwheel railway and visit the Lion Monument.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is best for lakes and mountains. December has Christmas markets; Carnival (Fasnacht) is wild in February.",
+  "arrival": "Trains from Zurich take about 45 minutes, and from Zurich Airport about an hour.",
+  "gettingAround": "Walk the old town; boats, trains and cable cars for the mountains. The Swiss Travel Pass covers most.",
+  "foodTip": "Luzerner Chügelipastete vol-au-vent, fondue and rösti.",
+  "buyTip": "Swiss watches, chocolate and army knives.",
+  "baseArea": "Old town or by the lake",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "zurich",
+    "mode": "Train",
+    "minutes": 45,
+    "note": "Frequent trains."
+   },
+   {
+    "to": "interlaken",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Luzern–Interlaken Express over the Brünig Pass."
+   }
+  ],
+  "items": [
+   {
+    "name": "Chapel Bridge",
+    "kind": "see",
+    "id": "luz-chapelbridge",
+    "at": [
+     47.0517,
+     8.3077
+    ],
+    "wiki": "Chapel Bridge",
+    "area": "Old town",
+    "summary": "A 14th-century covered wooden bridge with painted panels and a water tower.",
+    "expect": "Free.",
+    "tip": "Walk it early morning.",
+    "why": "Lucerne's symbol.",
+    "flow": [
+     "Walk across.",
+     "Water tower view."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Old town and Musegg Wall",
+    "kind": "see",
+    "id": "luz-oldtown",
+    "at": [
+     47.055,
+     8.304
+    ],
+    "wiki": "Musegg Wall",
+    "area": "Old town",
+    "summary": "Frescoed squares and medieval walls with towers you can climb.",
+    "expect": "Towers open in summer.",
+    "tip": "Climb the Zyt tower.",
+    "why": "Medieval Lucerne.",
+    "flow": [
+     "Weinmarkt.",
+     "Musegg towers."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lion Monument",
+    "kind": "see",
+    "id": "luz-lion",
+    "at": [
+     47.0584,
+     8.3105
+    ],
+    "wiki": "Lion Monument",
+    "area": "Centre",
+    "summary": "A dying lion carved into a cliff, honouring Swiss Guards killed in 1792.",
+    "expect": "Free.",
+    "tip": "Visit quietly; it's a memorial.",
+    "why": "Mark Twain called it the saddest stone.",
+    "flow": [
+     "Pond.",
+     "Carving."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Mount Pilatus",
+    "kind": "see",
+    "id": "luz-pilatus",
+    "at": [
+     46.979,
+     8.255
+    ],
+    "wiki": "Pilatus (mountain)",
+    "area": "Pilatus",
+    "summary": "The 'Golden Round Trip': boat, the world's steepest cogwheel railway up, cable cars down.",
+    "expect": "Cogwheel runs May to November.",
+    "tip": "Do the full golden round trip.",
+    "why": "Lucerne's mountain.",
+    "flow": [
+     "Boat to Alpnachstad.",
+     "Cogwheel up.",
+     "Cable car down."
+    ],
+    "hours": 6,
+    "price": [
+     80,
+     120
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mount Rigi",
+    "kind": "see",
+    "id": "luz-rigi",
+    "at": [
+     47.0567,
+     8.485
+    ],
+    "wiki": "Rigi",
+    "area": "Rigi",
+    "summary": "The 'queen of the mountains', with Europe's first mountain railway and lake views.",
+    "expect": "Combine with a lake boat.",
+    "tip": "Go for sunrise or sunset.",
+    "why": "Panoramic views.",
+    "flow": [
+     "Boat to Vitznau.",
+     "Railway up.",
+     "Rigi Kulm."
+    ],
+    "hours": 5,
+    "price": [
+     70,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lake Lucerne cruise",
+    "kind": "see",
+    "id": "luz-lake",
+    "at": [
+     47.05,
+     8.31
+    ],
+    "wiki": "Lake Lucerne",
+    "area": "Lake",
+    "summary": "Paddle steamers through fjord-like arms of the lake.",
+    "expect": "Covered by Swiss passes.",
+    "tip": "Ride a historic paddle steamer.",
+    "why": "Swiss scenery from the water.",
+    "flow": [
+     "Board at the station pier.",
+     "Cruise."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     70
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Swiss Museum of Transport",
+    "kind": "see",
+    "id": "luz-transport",
+    "at": [
+     47.0525,
+     8.336
+    ],
+    "wiki": "Swiss Museum of Transport",
+    "area": "Lido",
+    "summary": "Trains, planes, cars and a planetarium; Switzerland's most visited museum.",
+    "expect": "Allow half a day.",
+    "tip": "See the Gotthard exhibit.",
+    "why": "Great for families.",
+    "flow": [
+     "Rail hall.",
+     "Planetarium."
+    ],
+    "hours": 3,
+    "price": [
+     35,
+     35
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Technology"
+    ]
+   },
+   {
+    "name": "Mount Titlis",
+    "kind": "see",
+    "id": "luz-titlis",
+    "at": [
+     46.772,
+     8.437
+    ],
+    "wiki": "Titlis",
+    "area": "Engelberg",
+    "summary": "A rotating cable car to glaciers, an ice cave and Europe's highest suspension bridge.",
+    "expect": "Cold at the top all year.",
+    "tip": "Walk the Cliff Walk bridge.",
+    "why": "Snow even in summer.",
+    "flow": [
+     "Train to Engelberg.",
+     "Rotair cable car.",
+     "Cliff Walk."
+    ],
+    "hours": 7,
+    "price": [
+     90,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Luzerner Chügelipastete",
+    "kind": "eat",
+    "id": "luz-pastete",
+    "at": [
+     47.0515,
+     8.306
+    ],
+    "wiki": "Vol-au-vent",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "A puff-pastry case filled with veal, mushrooms and cream sauce.",
+    "expect": "Traditional restaurants.",
+    "tip": "Order it in a guild house.",
+    "why": "Lucerne's dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Chügelipastete"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cheese fondue",
+    "kind": "eat",
+    "id": "luz-fondue",
+    "at": [
+     47.052,
+     8.305
+    ],
+    "wiki": "Fondue",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Melted cheese with bread, best on a cold evening.",
+    "expect": "Usually for two.",
+    "tip": "Ask for a moitié-moitié blend.",
+    "why": "Swiss classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Fondue"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Rösti",
+    "kind": "eat",
+    "id": "luz-rosti",
+    "at": [
+     47.05,
+     8.31
+    ],
+    "wiki": "Rösti",
+    "area": "Lakefront",
+    "venue": "food-area",
+    "summary": "Crispy grated potato cakes, often topped with egg or cheese.",
+    "expect": "Lakeside cafés.",
+    "tip": "Order with a fried egg.",
+    "why": "Simple and good.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Rösti"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Switzerland",
+  "region": "Europe",
+  "currency": "CHF",
+  "cashTip": "Cards and phone payments work almost everywhere; prices are in francs, and euros get a poor rate.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "interlaken",
+  "name": "Interlaken",
+  "at": [
+   46.6863,
+   7.8632
+  ],
+  "wiki": "Interlaken",
+  "cover": "Lauterbrunnen",
+  "seasons": "HHHSLSPPHSLP",
+  "tagline": "Gateway to the Jungfrau, waterfalls and Alpine thrills",
+  "summary": "Interlaken sits between two turquoise lakes below the Eiger, Mönch and Jungfrau. It's the base for the train to Jungfraujoch, the waterfall valley of Lauterbrunnen, cliffside villages, Grindelwald's cliff walks and adventure sports like paragliding.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is best for hiking. Winter brings skiing in Grindelwald and Wengen. Clouds can hide the peaks; check webcams.",
+  "arrival": "Trains from Zurich, Bern and Lucerne take 1 to 2 hours.",
+  "gettingAround": "Mountain trains, cable cars and buses; the Berner Oberland Pass or Swiss Travel Pass saves money.",
+  "foodTip": "Fondue, raclette, Älplermagronen and Swiss chocolate.",
+  "buyTip": "Swiss knives, watches and cowbells.",
+  "baseArea": "Interlaken, or Lauterbrunnen and Wengen for views",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "lucerne",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Luzern–Interlaken Express."
+   },
+   {
+    "to": "zurich",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Via Bern."
+   },
+   {
+    "to": "zermatt",
+    "mode": "Train",
+    "minutes": 135,
+    "note": "Via Visp."
+   }
+  ],
+  "items": [
+   {
+    "name": "Jungfraujoch",
+    "kind": "see",
+    "id": "int-jungfraujoch",
+    "at": [
+     46.5475,
+     7.9853
+    ],
+    "wiki": "Jungfraujoch",
+    "area": "Jungfrau region",
+    "summary": "The 'Top of Europe': a railway through the Eiger to a 3,454 m saddle with glacier views and an ice palace.",
+    "expect": "Expensive; book ahead and check the weather.",
+    "tip": "Go on a clear morning.",
+    "why": "Europe's highest railway station.",
+    "flow": [
+     "Train via Grindelwald.",
+     "Eiger Express.",
+     "Sphinx terrace."
+    ],
+    "hours": 8,
+    "price": [
+     200,
+     250
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Lauterbrunnen valley",
+    "kind": "see",
+    "id": "int-lauterbrunnen",
+    "at": [
+     46.5935,
+     7.9091
+    ],
+    "wiki": "Lauterbrunnen",
+    "area": "Lauterbrunnen",
+    "summary": "A deep valley with 72 waterfalls, including the famous Staubbach Falls.",
+    "expect": "Free to walk.",
+    "tip": "Walk to Staubbach Falls at dusk.",
+    "why": "Like a fairy tale.",
+    "flow": [
+     "Village.",
+     "Staubbach Falls."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Trümmelbach Falls",
+    "kind": "see",
+    "id": "int-trummelbach",
+    "at": [
+     46.565,
+     7.912
+    ],
+    "wiki": "Trümmelbach Falls",
+    "area": "Lauterbrunnen",
+    "summary": "Glacier waterfalls thundering inside a mountain, reached by a lift.",
+    "expect": "Open in summer.",
+    "tip": "Wear a rain jacket.",
+    "why": "Waterfalls inside a mountain.",
+    "flow": [
+     "Lift up.",
+     "Falls."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     14
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Grindelwald First",
+    "kind": "see",
+    "id": "int-first",
+    "at": [
+     46.659,
+     8.054
+    ],
+    "wiki": "Grindelwald",
+    "area": "Grindelwald",
+    "summary": "A cable car to cliff walks, zip lines and a hike to Bachalpsee lake.",
+    "expect": "Busy in summer.",
+    "tip": "Hike to Bachalpsee.",
+    "why": "Big Eiger views.",
+    "flow": [
+     "Gondola.",
+     "Cliff walk.",
+     "Bachalpsee hike."
+    ],
+    "hours": 5,
+    "price": [
+     60,
+     70
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Harder Kulm",
+    "kind": "see",
+    "id": "int-harder",
+    "at": [
+     46.697,
+     7.851
+    ],
+    "wiki": "Harder Kulm",
+    "area": "Interlaken",
+    "summary": "A funicular to a viewpoint over both lakes and the Jungfrau peaks.",
+    "expect": "Ten minutes from town.",
+    "tip": "Go at sunset.",
+    "why": "Interlaken's balcony.",
+    "flow": [
+     "Funicular.",
+     "Two Lakes Bridge."
+    ],
+    "hours": 1.5,
+    "price": [
+     38,
+     38
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lake Brienz and Iseltwald",
+    "kind": "see",
+    "id": "int-brienz",
+    "at": [
+     46.711,
+     7.964
+    ],
+    "wiki": "Lake Brienz",
+    "area": "Lake Brienz",
+    "summary": "A turquoise lake with boats to the pretty village of Iseltwald.",
+    "expect": "Iseltwald charges a small fee at its pier.",
+    "tip": "Take the boat to Giessbach falls.",
+    "why": "Impossibly blue water.",
+    "flow": [
+     "Boat.",
+     "Iseltwald.",
+     "Giessbach."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Schilthorn",
+    "kind": "see",
+    "id": "int-schilthorn",
+    "at": [
+     46.558,
+     7.835
+    ],
+    "wiki": "Schilthorn",
+    "area": "Mürren",
+    "summary": "A revolving summit restaurant made famous by a James Bond film.",
+    "expect": "Cable cars via Mürren.",
+    "tip": "Walk around car-free Mürren.",
+    "why": "Bond-style views.",
+    "flow": [
+     "Cable car.",
+     "Piz Gloria.",
+     "Mürren."
+    ],
+    "hours": 5,
+    "price": [
+     100,
+     110
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Paragliding",
+    "kind": "see",
+    "id": "int-paragliding",
+    "at": [
+     46.69,
+     7.86
+    ],
+    "wiki": "Paragliding",
+    "area": "Interlaken",
+    "summary": "Tandem flights from Beatenberg landing in town.",
+    "expect": "Weather-dependent.",
+    "tip": "Book for the morning.",
+    "why": "Fly over the Alps.",
+    "flow": [
+     "Pickup.",
+     "Flight.",
+     "Landing."
+    ],
+    "hours": 2,
+    "price": [
+     170,
+     200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Raclette",
+    "kind": "eat",
+    "id": "int-raclette",
+    "at": [
+     46.686,
+     7.86
+    ],
+    "wiki": "Raclette",
+    "area": "Interlaken",
+    "venue": "food-area",
+    "summary": "Melted cheese scraped over potatoes and pickles.",
+    "expect": "Traditional chalets.",
+    "tip": "Order with white wine.",
+    "why": "Alpine comfort.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Raclette"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Älplermagronen",
+    "kind": "eat",
+    "id": "int-alpler",
+    "at": [
+     46.687,
+     7.862
+    ],
+    "wiki": "Älplermagronen",
+    "area": "Interlaken",
+    "venue": "food-area",
+    "summary": "Alpine macaroni with potatoes, cheese, cream and apple sauce.",
+    "expect": "Mountain huts serve it.",
+    "tip": "Have it at a mountain hut.",
+    "why": "Hikers' fuel.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     22,
+     30
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Älplermagronen"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Swiss chocolate",
+    "kind": "eat",
+    "id": "int-chocolate",
+    "at": [
+     46.686,
+     7.863
+    ],
+    "wiki": "Swiss chocolate",
+    "area": "Interlaken",
+    "venue": "food-area",
+    "summary": "Chocolate shops and workshops.",
+    "expect": "Some offer making classes.",
+    "tip": "Try a workshop.",
+    "why": "Sweet souvenir.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Chocolate"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Switzerland",
+  "region": "Europe",
+  "currency": "CHF",
+  "cashTip": "Cards and phone payments work almost everywhere; prices are in francs, and euros get a poor rate.",
+  "dailyBudget": [
+   200,
+   600
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "zermatt",
+  "name": "Zermatt",
+  "at": [
+   46.0207,
+   7.7491
+  ],
+  "wiki": "Zermatt",
+  "cover": "Matterhorn",
+  "seasons": "HHHSLSPPHSLP",
+  "tagline": "A car-free village beneath the Matterhorn",
+  "summary": "Zermatt is a car-free Alpine village of wooden chalets beneath the Matterhorn, Switzerland's most famous peak. Ride the Gornergrat railway, walk past lakes that mirror the mountain, ski year-round on the glacier and dine in mountain huts.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Winter is for skiing; summer for hiking (July to September). Glacier skiing runs all year. Many places close in May and November.",
+  "arrival": "Cars stop at Täsch; take the shuttle train. Trains from Visp take about an hour, and the Glacier Express links St. Moritz.",
+  "gettingAround": "Walk, electric taxis and mountain railways.",
+  "foodTip": "Raclette, rösti and Valais wines.",
+  "buyTip": "Swiss watches and mountain gear.",
+  "baseArea": "Village centre with a Matterhorn view",
+  "hotel": [
+   200,
+   700
+  ],
+  "connections": [
+   {
+    "to": "interlaken",
+    "mode": "Train",
+    "minutes": 135,
+    "note": "Via Visp."
+   },
+   {
+    "to": "geneva",
+    "mode": "Train",
+    "minutes": 220,
+    "note": "Via Visp."
+   },
+   {
+    "to": "milan",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Via Brig."
+   }
+  ],
+  "items": [
+   {
+    "name": "Gornergrat railway",
+    "kind": "see",
+    "id": "zer-gornergrat",
+    "at": [
+     45.9833,
+     7.7847
+    ],
+    "wiki": "Gornergrat",
+    "area": "Gornergrat",
+    "summary": "A cogwheel railway to 3,089 m with the Matterhorn and 29 peaks over 4,000 m.",
+    "expect": "Sit on the right going up.",
+    "tip": "Go at sunrise.",
+    "why": "The classic Matterhorn view.",
+    "flow": [
+     "Train up.",
+     "Summit platform.",
+     "Walk down to Riffelsee."
+    ],
+    "hours": 4,
+    "price": [
+     90,
+     130
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Matterhorn Glacier Paradise",
+    "kind": "see",
+    "id": "zer-glacier",
+    "at": [
+     45.938,
+     7.73
+    ],
+    "wiki": "Klein Matterhorn",
+    "area": "Klein Matterhorn",
+    "summary": "Europe's highest cable car station at 3,883 m with a glacier palace.",
+    "expect": "Altitude sickness possible.",
+    "tip": "Go on a clear day.",
+    "why": "Views into Italy and France.",
+    "flow": [
+     "Cable cars.",
+     "Viewing deck.",
+     "Glacier Palace."
+    ],
+    "hours": 4,
+    "price": [
+     100,
+     130
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Five Lakes walk",
+    "kind": "see",
+    "id": "zer-fivelakes",
+    "at": [
+     46.016,
+     7.79
+    ],
+    "wiki": "Stellisee",
+    "area": "Sunnegga",
+    "summary": "A trail past five lakes with Matterhorn reflections.",
+    "expect": "Summer only.",
+    "tip": "Start at Blauherd.",
+    "why": "The best Matterhorn reflections.",
+    "flow": [
+     "Funicular to Sunnegga.",
+     "Lakes trail."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Riffelsee",
+    "kind": "see",
+    "id": "zer-riffelsee",
+    "at": [
+     45.986,
+     7.772
+    ],
+    "wiki": "Riffelsee",
+    "area": "Riffelberg",
+    "summary": "A small lake mirroring the Matterhorn.",
+    "expect": "On the Gornergrat line.",
+    "tip": "Go early when the water is still.",
+    "why": "Mirror image.",
+    "flow": [
+     "Rotenboden stop.",
+     "Lakeside path."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Matterhorn Museum",
+    "kind": "see",
+    "id": "zer-museum",
+    "at": [
+     46.02,
+     7.748
+    ],
+    "wiki": "Matterhorn Museum",
+    "area": "Village",
+    "summary": "The story of the first ascent and its tragedy, in a recreated village.",
+    "expect": "Small.",
+    "tip": "See the broken rope.",
+    "why": "Mountaineering history.",
+    "flow": [
+     "Village recreation.",
+     "Exhibits."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Hinterdorf old village",
+    "kind": "see",
+    "id": "zer-hinterdorf",
+    "at": [
+     46.023,
+     7.747
+    ],
+    "wiki": "Zermatt",
+    "area": "Village",
+    "summary": "Old larch-wood barns on stone stilts against mice.",
+    "expect": "Free.",
+    "tip": "Walk through in the evening.",
+    "why": "Old Zermatt.",
+    "flow": [
+     "Lanes.",
+     "Barns."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Gorner Gorge",
+    "kind": "see",
+    "id": "zer-gorge",
+    "at": [
+     46.013,
+     7.74
+    ],
+    "wiki": "Gornerschlucht",
+    "area": "South",
+    "summary": "Wooden walkways through a narrow glacier-carved gorge.",
+    "expect": "Summer only.",
+    "tip": "Combine with a walk to Furi.",
+    "why": "Hidden canyon.",
+    "flow": [
+     "Walkways.",
+     "Gorge."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mountain hut raclette",
+    "kind": "eat",
+    "id": "zer-raclette",
+    "at": [
+     46.018,
+     7.76
+    ],
+    "wiki": "Raclette",
+    "area": "Slopes",
+    "venue": "food-area",
+    "summary": "Melted cheese at huts with Matterhorn views.",
+    "expect": "Book popular huts.",
+    "tip": "Ski or hike to lunch.",
+    "why": "Alpine dining.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Raclette"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Rösti",
+    "kind": "eat",
+    "id": "zer-rosti",
+    "at": [
+     46.021,
+     7.749
+    ],
+    "wiki": "Rösti",
+    "area": "Village",
+    "venue": "food-area",
+    "summary": "Golden potato rösti with cheese and ham.",
+    "expect": "Restaurants in the village.",
+    "tip": "Pair with Valais wine.",
+    "why": "Hearty food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     25,
+     40
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Rösti"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Valais wine",
+    "kind": "eat",
+    "id": "zer-wine",
+    "at": [
+     46.02,
+     7.75
+    ],
+    "wiki": "Valais wine",
+    "area": "Village",
+    "venue": "food-area",
+    "summary": "Local Fendant whites and Cornalin reds.",
+    "expect": "Wine bars in the village.",
+    "tip": "Ask for a Petite Arvine.",
+    "why": "Switzerland's wine region.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Fendant",
+     "Cornalin"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Switzerland",
+  "region": "Europe",
+  "currency": "CHF",
+  "cashTip": "Cards and phone payments work almost everywhere; prices are in francs, and euros get a poor rate.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "geneva",
+  "name": "Geneva",
+  "at": [
+   46.2044,
+   6.1432
+  ],
+  "wiki": "Geneva",
+  "cover": "Jet d'Eau",
+  "seasons": "SSSSHHPHHSSS",
+  "tagline": "Lakeside diplomacy, science and the Jet d'Eau",
+  "summary": "Geneva is a polished lakeside city, home to the UN, the Red Cross and CERN's particle physics lab. Its 140 m Jet d'Eau fountain, old town on the hill and views of Mont Blanc make it a gateway to the Alps.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is warm with lake swimming and the Fêtes de Genève. Winter is grey but has Christmas markets and nearby skiing.",
+  "arrival": "Geneva Airport is 7 minutes from the centre by train. TGVs from Paris take about 3 hours.",
+  "gettingAround": "Trams, buses and lake shuttles; hotel guests get a free transport card.",
+  "foodTip": "Fondue, lake perch fillets, chocolate and Swiss wine.",
+  "buyTip": "Watches, chocolate and Swiss knives.",
+  "baseArea": "Pâquis or the old town",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "zurich",
+    "mode": "Train",
+    "minutes": 165,
+    "note": "Frequent trains."
+   },
+   {
+    "to": "paris",
+    "mode": "Train",
+    "minutes": 190,
+    "note": "TGV Lyria."
+   },
+   {
+    "to": "zermatt",
+    "mode": "Train",
+    "minutes": 220,
+    "note": "Via Visp."
+   }
+  ],
+  "items": [
+   {
+    "name": "Jet d'Eau",
+    "kind": "see",
+    "id": "gva-jetdeau",
+    "at": [
+     46.2075,
+     6.1556
+    ],
+    "wiki": "Jet d'Eau",
+    "area": "Lakefront",
+    "summary": "A 140 m fountain shooting from the lake, Geneva's icon.",
+    "expect": "You'll get wet on the jetty.",
+    "tip": "Walk out on the jetty.",
+    "why": "Geneva's symbol.",
+    "flow": [
+     "Jetty walk.",
+     "Spray."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old town and St Pierre Cathedral",
+    "kind": "see",
+    "id": "gva-oldtown",
+    "at": [
+     46.2011,
+     6.1485
+    ],
+    "wiki": "St. Pierre Cathedral",
+    "area": "Old town",
+    "summary": "Cobbled streets around a cathedral with towers to climb and Roman ruins below.",
+    "expect": "Tower has a small fee.",
+    "tip": "Climb the north tower.",
+    "why": "Calvin's Geneva.",
+    "flow": [
+     "Cathedral.",
+     "Tower.",
+     "Archaeological site."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Palais des Nations",
+    "kind": "see",
+    "id": "gva-un",
+    "at": [
+     46.2266,
+     6.1404
+    ],
+    "wiki": "Palace of Nations",
+    "area": "International district",
+    "summary": "Guided tours of the UN's European headquarters.",
+    "expect": "Bring your passport; book a tour.",
+    "tip": "See the Broken Chair outside.",
+    "why": "Where diplomacy happens.",
+    "flow": [
+     "Security.",
+     "Assembly Hall.",
+     "Broken Chair."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "CERN Science Gateway",
+    "kind": "see",
+    "id": "gva-cern",
+    "at": [
+     46.2338,
+     6.0557
+    ],
+    "wiki": "CERN",
+    "area": "Meyrin",
+    "summary": "Free exhibitions and tours at the home of the Large Hadron Collider.",
+    "expect": "Book guided tours early.",
+    "tip": "Visit Science Gateway.",
+    "why": "Where the web was born.",
+    "flow": [
+     "Tram 18.",
+     "Exhibits.",
+     "Guided tour."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Technology"
+    ]
+   },
+   {
+    "name": "Red Cross Museum",
+    "kind": "see",
+    "id": "gva-redcross",
+    "at": [
+     46.2275,
+     6.1375
+    ],
+    "wiki": "International Red Cross and Red Crescent Museum",
+    "area": "International district",
+    "summary": "A moving museum on humanitarian work.",
+    "expect": "Allow 1.5 hours.",
+    "tip": "Combine with the UN.",
+    "why": "Humanity's story.",
+    "flow": [
+     "Walk through the three themed zones.",
+     "Finish with the archive of prisoner cards."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Reformation Wall",
+    "kind": "see",
+    "id": "gva-reformation",
+    "at": [
+     46.2004,
+     6.1459
+    ],
+    "wiki": "Reformation Wall",
+    "area": "Parc des Bastions",
+    "summary": "Giant statues of Calvin and other reformers.",
+    "expect": "Free.",
+    "tip": "Watch giant chess in the park.",
+    "why": "Protestant history.",
+    "flow": [
+     "Wall.",
+     "Park."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Lake Geneva boats",
+    "kind": "see",
+    "id": "gva-lake",
+    "at": [
+     46.21,
+     6.16
+    ],
+    "wiki": "Lake Geneva",
+    "area": "Lake",
+    "summary": "Belle Époque paddle steamers to Lausanne, Montreux and Yvoire.",
+    "expect": "Covered by some passes.",
+    "tip": "Sail to Yvoire, a medieval French village.",
+    "why": "Lake life.",
+    "flow": [
+     "Board.",
+     "Cruise.",
+     "Village stop."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Chamonix and Aiguille du Midi",
+    "kind": "see",
+    "id": "gva-chamonix",
+    "at": [
+     45.8786,
+     6.8873
+    ],
+    "wiki": "Aiguille du Midi",
+    "area": "Chamonix, France",
+    "summary": "A cable car to 3,842 m facing Mont Blanc, in France.",
+    "expect": "About 1.5 hours by road; bring your passport.",
+    "tip": "Step into the Void glass box.",
+    "why": "Western Europe's highest mountain.",
+    "flow": [
+     "Drive.",
+     "Cable car.",
+     "Step into the Void."
+    ],
+    "hours": 9,
+    "price": [
+     80,
+     120
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fondue",
+    "kind": "eat",
+    "id": "gva-fondue",
+    "at": [
+     46.2015,
+     6.147
+    ],
+    "wiki": "Fondue",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Gruyère and vacherin fondue in a cosy old-town restaurant.",
+    "expect": "Book in winter.",
+    "tip": "Try it at Café du Soleil.",
+    "why": "Swiss classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Fondue"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Lake perch fillets",
+    "kind": "eat",
+    "id": "gva-perch",
+    "at": [
+     46.21,
+     6.15
+    ],
+    "wiki": "European perch",
+    "area": "Lakefront",
+    "venue": "food-area",
+    "summary": "Fried perch fillets with lemon butter and fries.",
+    "expect": "Lakeside restaurants.",
+    "tip": "Eat it on a terrace.",
+    "why": "Lake Geneva's dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     45
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Filets de perche"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Chocolatiers",
+    "kind": "eat",
+    "id": "gva-chocolate",
+    "at": [
+     46.203,
+     6.146
+    ],
+    "wiki": "Swiss chocolate",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Historic chocolate shops and pavés de Genève.",
+    "expect": "Shops close early on Saturday.",
+    "tip": "Try pavés de Genève.",
+    "why": "Sweet Geneva.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swiss",
+    "order": [
+     "Pavés"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Ireland",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and contactless work almost everywhere; a little cash helps in rural pubs and markets.",
+  "dailyBudget": [
+   90,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "galway",
+  "name": "Galway",
+  "at": [
+   53.2707,
+   -9.0568
+  ],
+  "wiki": "Galway",
+  "cover": "Spanish Arch",
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "Music pubs, the Wild Atlantic Way and the Cliffs of Moher",
+  "summary": "Galway is Ireland's most bohemian city, with buskers on Shop Street, trad music in every pub and festivals all year. It's the base for the Cliffs of Moher, the Burren, the Aran Islands and the wild landscapes of Connemara.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer brings the Arts Festival and Galway Races. Expect rain any time. Winters are mild but windy.",
+  "arrival": "Trains from Dublin take about 2.5 hours. Shannon Airport is 1.5 hours away.",
+  "gettingAround": "Walk the centre; tours or a car for the Cliffs and Connemara.",
+  "foodTip": "Galway Bay oysters, seafood chowder and fish and chips.",
+  "buyTip": "Claddagh rings, Aran sweaters and Irish whiskey.",
+  "baseArea": "Latin Quarter",
+  "hotel": [
+   90,
+   250
+  ],
+  "connections": [
+   {
+    "to": "dublin",
+    "mode": "Train",
+    "minutes": 140,
+    "note": "Irish Rail."
+   },
+   {
+    "to": "killarney",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Via Limerick."
+   }
+  ],
+  "items": [
+   {
+    "name": "Latin Quarter and Shop Street",
+    "kind": "see",
+    "id": "gal-latin",
+    "at": [
+     53.272,
+     -9.053
+    ],
+    "wiki": "Shop Street",
+    "area": "Centre",
+    "summary": "Colourful pedestrian streets of buskers, shops and pubs.",
+    "expect": "Lively day and night.",
+    "tip": "Listen to the buskers.",
+    "why": "Galway's heart.",
+    "flow": [
+     "Shop Street.",
+     "Quay Street."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Entertainment",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Spanish Arch",
+    "kind": "see",
+    "id": "gal-arch",
+    "at": [
+     53.27,
+     -9.054
+    ],
+    "wiki": "Spanish Arch",
+    "area": "Waterfront",
+    "summary": "A 16th-century arch by the river mouth, with swans and the Long Walk.",
+    "expect": "Free.",
+    "tip": "Sit by the river at sunset.",
+    "why": "Old harbour.",
+    "flow": [
+     "Arch.",
+     "Long Walk."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Trad music sessions",
+    "kind": "see",
+    "id": "gal-trad",
+    "at": [
+     53.2715,
+     -9.054
+    ],
+    "wiki": "Irish traditional music",
+    "area": "Latin Quarter",
+    "summary": "Fiddles and flutes in pubs like Tig Cóilí.",
+    "expect": "Sessions start around 6 pm and 9:30 pm.",
+    "tip": "Arrive early for a seat.",
+    "why": "Live Irish music.",
+    "flow": [
+     "Pub.",
+     "Session."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Cliffs of Moher",
+    "kind": "see",
+    "id": "gal-moher",
+    "at": [
+     52.9715,
+     -9.4309
+    ],
+    "wiki": "Cliffs of Moher",
+    "area": "County Clare",
+    "summary": "Cliffs rising 214 m above the Atlantic.",
+    "expect": "Windy; stay behind barriers.",
+    "tip": "Walk the cliff path toward Hag's Head.",
+    "why": "Ireland's most famous view.",
+    "flow": [
+     "Drive through the Burren.",
+     "Visitor centre.",
+     "Cliff walk."
+    ],
+    "hours": 6,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "The Burren",
+    "kind": "see",
+    "id": "gal-burren",
+    "at": [
+     53.05,
+     -9.1
+    ],
+    "wiki": "The Burren",
+    "area": "County Clare",
+    "summary": "A limestone moonscape with rare flowers and the Poulnabrone dolmen.",
+    "expect": "On the way to the Cliffs.",
+    "tip": "Stop at Poulnabrone.",
+    "why": "Strange beauty.",
+    "flow": [
+     "Drive.",
+     "Dolmen."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Aran Islands (Inis Mór)",
+    "kind": "see",
+    "id": "gal-aran",
+    "at": [
+     53.12,
+     -9.72
+    ],
+    "wiki": "Inishmore",
+    "area": "Aran Islands",
+    "summary": "Stone walls, cliff fort Dún Aonghasa and Irish-speaking villages.",
+    "expect": "Ferry from Rossaveal.",
+    "tip": "Rent a bike on the island.",
+    "why": "Old Ireland.",
+    "flow": [
+     "Ferry.",
+     "Bike.",
+     "Dún Aonghasa."
+    ],
+    "hours": 8,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kylemore Abbey and Connemara",
+    "kind": "see",
+    "id": "gal-kylemore",
+    "at": [
+     53.5617,
+     -9.889
+    ],
+    "wiki": "Kylemore Abbey",
+    "area": "Connemara",
+    "summary": "A lakeside abbey and Victorian garden amid Connemara's mountains.",
+    "expect": "Long drive; a tour is easiest.",
+    "tip": "Walk the walled garden.",
+    "why": "Wild Connemara.",
+    "flow": [
+     "Drive through Connemara.",
+     "Abbey.",
+     "Gardens."
+    ],
+    "hours": 8,
+    "price": [
+     16,
+     16
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Galway Cathedral",
+    "kind": "see",
+    "id": "gal-cathedral",
+    "at": [
+     53.275,
+     -9.058
+    ],
+    "wiki": "Galway Cathedral",
+    "area": "Centre",
+    "summary": "A grand 1960s cathedral with a green dome.",
+    "expect": "Free.",
+    "tip": "Look at the mosaics.",
+    "why": "The city's skyline.",
+    "flow": [
+     "Step inside and let your eyes adjust.",
+     "Look up at the vaulting and windows."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Galway Bay oysters",
+    "kind": "eat",
+    "id": "gal-oysters",
+    "at": [
+     53.27,
+     -9.053
+    ],
+    "wiki": "Oyster",
+    "area": "Quay Street",
+    "venue": "food-area",
+    "summary": "Native oysters with brown bread and stout.",
+    "expect": "Best September to April.",
+    "tip": "Pair with Guinness.",
+    "why": "Galway's pride.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Irish",
+    "order": [
+     "Oysters"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Seafood chowder",
+    "kind": "eat",
+    "id": "gal-chowder",
+    "at": [
+     53.2712,
+     -9.0535
+    ],
+    "wiki": "Chowder",
+    "area": "Latin Quarter",
+    "venue": "food-area",
+    "summary": "Creamy fish and shellfish soup with brown bread.",
+    "expect": "Pubs everywhere.",
+    "tip": "Have it for lunch.",
+    "why": "Atlantic comfort.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     14
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Irish",
+    "order": [
+     "Chowder"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Fish and chips",
+    "kind": "eat",
+    "id": "gal-fishchips",
+    "at": [
+     53.27,
+     -9.055
+    ],
+    "wiki": "Fish and chips",
+    "area": "Spanish Arch",
+    "venue": "food-area",
+    "summary": "Battered fish and chips by the river.",
+    "expect": "McDonagh's is famous.",
+    "tip": "Eat by the Spanish Arch.",
+    "why": "Simple classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     16
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Irish",
+    "order": [
+     "Fish and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Ireland",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and contactless work almost everywhere; a little cash helps in rural pubs and markets.",
+  "dailyBudget": [
+   90,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "killarney",
+  "name": "Killarney",
+  "at": [
+   52.0599,
+   -9.5044
+  ],
+  "wiki": "Killarney",
+  "cover": "Killarney National Park",
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "Lakes, mountains and the Ring of Kerry",
+  "summary": "Killarney is a lively market town beside a national park of lakes, mountains and waterfalls. It's the starting point for the Ring of Kerry drive, the Gap of Dunloe and trips to Dingle and the Skellig Islands.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is busiest. Spring and autumn are quieter and green. Skellig boats run mid-May to September.",
+  "arrival": "Trains from Dublin take about 3.5 hours. Kerry Airport is 15 minutes away.",
+  "gettingAround": "Jaunting cars, bikes and tours; a car for the Ring of Kerry.",
+  "foodTip": "Irish stew, Kerry lamb, soda bread and a full Irish breakfast.",
+  "buyTip": "Kerry wool, Irish whiskey and pottery.",
+  "baseArea": "Killarney town",
+  "hotel": [
+   90,
+   250
+  ],
+  "connections": [
+   {
+    "to": "dublin",
+    "mode": "Train",
+    "minutes": 210,
+    "note": "Usually with a change at Mallow."
+   },
+   {
+    "to": "galway",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Via Limerick."
+   }
+  ],
+  "items": [
+   {
+    "name": "Killarney National Park",
+    "kind": "see",
+    "id": "kil-park",
+    "at": [
+     52.005,
+     -9.55
+    ],
+    "wiki": "Killarney National Park",
+    "area": "South of town",
+    "summary": "Lakes, oak woods and red deer at the foot of Ireland's highest mountains.",
+    "expect": "Free.",
+    "tip": "Rent a bike or take a jaunting car.",
+    "why": "Ireland's first national park.",
+    "flow": [
+     "Bike.",
+     "Lakes.",
+     "Woods."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Muckross House",
+    "kind": "see",
+    "id": "kil-muckross",
+    "at": [
+     52.0187,
+     -9.507
+    ],
+    "wiki": "Muckross House",
+    "area": "National park",
+    "summary": "A Victorian mansion with gardens and traditional farms.",
+    "expect": "Guided house tours.",
+    "tip": "Walk on to Torc Waterfall.",
+    "why": "Grand country house.",
+    "flow": [
+     "House tour.",
+     "Gardens."
+    ],
+    "hours": 2,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Ross Castle",
+    "kind": "see",
+    "id": "kil-ross",
+    "at": [
+     52.045,
+     -9.53
+    ],
+    "wiki": "Ross Castle",
+    "area": "Lough Leane",
+    "summary": "A 15th-century tower house on the lake, with boat trips.",
+    "expect": "Guided tours only.",
+    "tip": "Take a boat to Innisfallen.",
+    "why": "Lakeside castle.",
+    "flow": [
+     "Castle tour.",
+     "Boat."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Gap of Dunloe",
+    "kind": "see",
+    "id": "kil-dunloe",
+    "at": [
+     52.022,
+     -9.64
+    ],
+    "wiki": "Gap of Dunloe",
+    "area": "Gap of Dunloe",
+    "summary": "A mountain pass walked, cycled or crossed by pony and trap, returning by boat.",
+    "expect": "A full day.",
+    "tip": "Do the bike and boat combo.",
+    "why": "Kerry's wild pass.",
+    "flow": [
+     "Kate Kearney's.",
+     "Walk the gap.",
+     "Boat back."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     60
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Torc Waterfall",
+    "kind": "see",
+    "id": "kil-torc",
+    "at": [
+     52.005,
+     -9.507
+    ],
+    "wiki": "Torc Waterfall",
+    "area": "National park",
+    "summary": "A 20 m waterfall in mossy woods.",
+    "expect": "Short walk from the car park.",
+    "tip": "Climb the steps above for the view.",
+    "why": "Easy and pretty.",
+    "flow": [
+     "Path.",
+     "Falls."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ring of Kerry",
+    "kind": "see",
+    "id": "kil-ring",
+    "at": [
+     51.9,
+     -10.0
+    ],
+    "wiki": "Ring of Kerry",
+    "area": "Iveragh Peninsula",
+    "summary": "A 179 km loop of coastal cliffs, villages and mountain views.",
+    "expect": "Coaches drive anticlockwise; cars often go clockwise.",
+    "tip": "Stop at Ladies View and Derrynane.",
+    "why": "Ireland's classic drive.",
+    "flow": [
+     "Drive.",
+     "Ladies View.",
+     "Coastal villages."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     60
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Dingle",
+    "kind": "see",
+    "id": "kil-dingle",
+    "at": [
+     52.1408,
+     -10.2686
+    ],
+    "wiki": "Dingle",
+    "area": "Dingle Peninsula",
+    "summary": "A harbour town of pubs and music, with the Slea Head drive.",
+    "expect": "About 1 hour by car.",
+    "tip": "Drive Slea Head.",
+    "why": "Ireland at its prettiest.",
+    "flow": [
+     "Drive.",
+     "Slea Head.",
+     "Dingle town."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Skellig Michael",
+    "kind": "see",
+    "id": "kil-skellig",
+    "at": [
+     51.771,
+     -10.539
+    ],
+    "wiki": "Skellig Michael",
+    "area": "Atlantic",
+    "summary": "A rocky island with 6th-century beehive monastery huts, used in Star Wars.",
+    "expect": "Boats are limited and weather-dependent; book months ahead.",
+    "tip": "Book landing trips early.",
+    "why": "An unforgettable pilgrimage.",
+    "flow": [
+     "Drive to Portmagee.",
+     "Boat.",
+     "Climb 600 steps."
+    ],
+    "hours": 8,
+    "price": [
+     120,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Irish stew",
+    "kind": "eat",
+    "id": "kil-stew",
+    "at": [
+     52.06,
+     -9.505
+    ],
+    "wiki": "Irish stew",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Lamb, potato and carrot stew.",
+    "expect": "Pubs everywhere.",
+    "tip": "Pair with a pint.",
+    "why": "Classic Irish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     22
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Irish",
+    "order": [
+     "Irish stew"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Full Irish breakfast",
+    "kind": "eat",
+    "id": "kil-breakfast",
+    "at": [
+     52.059,
+     -9.506
+    ],
+    "wiki": "Full breakfast",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Eggs, rashers, sausages, black and white pudding.",
+    "expect": "Included at many B&Bs.",
+    "tip": "Eat it before a hike.",
+    "why": "Fuel for the day.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Irish",
+    "order": [
+     "Full Irish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Soda bread and scones",
+    "kind": "eat",
+    "id": "kil-sodabread",
+    "at": [
+     52.0595,
+     -9.504
+    ],
+    "wiki": "Soda bread",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Brown soda bread and scones with butter and jam.",
+    "expect": "Cafés and B&Bs.",
+    "tip": "Try it warm.",
+    "why": "Home baking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Irish",
+    "order": [
+     "Soda bread"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Belgium",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a few euros for fries stands and markets.",
+  "dailyBudget": [
+   80,
+   200
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "ghent",
+  "name": "Ghent",
+  "at": [
+   51.0543,
+   3.7174
+  ],
+  "wiki": "Ghent",
+  "cover": "Graslei",
+  "seasons": "LLSSHHHHSSLH",
+  "tagline": "Medieval towers and canals with a student buzz",
+  "summary": "Ghent has medieval guild houses along canals, a moated castle and the Ghent Altarpiece, one of the world's great paintings. It's livelier and less crowded than Bruges, with a big student population, great bars and the Gentse Feesten festival in July.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "seasonNote": "Spring to early autumn is best. July brings the 10-day Gentse Feesten. December has a Christmas market.",
+  "arrival": "Trains from Brussels take about 30 minutes, and from Bruges about 25.",
+  "gettingAround": "Walk the centre; trams and bikes.",
+  "foodTip": "Waterzooi stew, cuberdon sweets, fries and Belgian beer.",
+  "buyTip": "Cuberdons, mustard and chocolate.",
+  "baseArea": "Historic centre",
+  "hotel": [
+   80,
+   220
+  ],
+  "connections": [
+   {
+    "to": "brussels",
+    "mode": "Train",
+    "minutes": 30,
+    "note": "Frequent trains."
+   },
+   {
+    "to": "amsterdam",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Via Antwerp."
+   }
+  ],
+  "items": [
+   {
+    "name": "Gravensteen",
+    "kind": "see",
+    "id": "ghent-gravensteen",
+    "at": [
+     51.0573,
+     3.7208
+    ],
+    "wiki": "Gravensteen",
+    "area": "Centre",
+    "summary": "A moated 12th-century castle with a witty audio guide.",
+    "expect": "Climb the towers.",
+    "tip": "Use the comedic audio guide.",
+    "why": "Medieval fortress in the city.",
+    "flow": [
+     "Ramparts.",
+     "Towers."
+    ],
+    "hours": 1.5,
+    "price": [
+     13,
+     13
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Ghent Altarpiece",
+    "kind": "see",
+    "id": "ghent-altarpiece",
+    "at": [
+     51.0531,
+     3.7266
+    ],
+    "wiki": "Ghent Altarpiece",
+    "area": "St Bavo's Cathedral",
+    "summary": "Van Eyck's 'Adoration of the Mystic Lamb', with a mixed-reality visitor centre.",
+    "expect": "Timed tickets.",
+    "tip": "Book the AR experience.",
+    "why": "A masterpiece of Western art.",
+    "flow": [
+     "Cathedral.",
+     "Altarpiece.",
+     "Crypt."
+    ],
+    "hours": 1.5,
+    "price": [
+     16,
+     16
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Graslei and Korenlei",
+    "kind": "see",
+    "id": "ghent-graslei",
+    "at": [
+     51.055,
+     3.72
+    ],
+    "wiki": "Graslei",
+    "area": "Centre",
+    "summary": "Guild houses lining the canal, Ghent's postcard view.",
+    "expect": "Lit beautifully at night.",
+    "tip": "Come back after dark.",
+    "why": "The heart of Ghent.",
+    "flow": [
+     "Quayside walk.",
+     "St Michael's Bridge view."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Belfry",
+    "kind": "see",
+    "id": "ghent-belfry",
+    "at": [
+     51.0537,
+     3.7249
+    ],
+    "wiki": "Belfry of Ghent",
+    "area": "Centre",
+    "summary": "A 91 m medieval belfry with a lift to the top.",
+    "expect": "Small fee.",
+    "tip": "Go up for the three towers view.",
+    "why": "A World Heritage belfry.",
+    "flow": [
+     "Lift.",
+     "Bell floors."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Canal boat tour",
+    "kind": "see",
+    "id": "ghent-boat",
+    "at": [
+     51.055,
+     3.721
+    ],
+    "wiki": "Leie",
+    "area": "Graslei",
+    "summary": "Boats through the medieval canals.",
+    "expect": "About 40 minutes.",
+    "tip": "Take the first boat.",
+    "why": "Ghent from the water.",
+    "flow": [
+     "Board.",
+     "Canal loop."
+    ],
+    "hours": 1,
+    "price": [
+     9,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Patershol",
+    "kind": "see",
+    "id": "ghent-patershol",
+    "at": [
+     51.0583,
+     3.7225
+    ],
+    "wiki": "Patershol",
+    "area": "Centre",
+    "summary": "A maze of cobbled lanes full of restaurants.",
+    "expect": "Lovely for dinner.",
+    "tip": "Eat here one evening.",
+    "why": "Ghent's foodie quarter.",
+    "flow": [
+     "Lanes.",
+     "Dinner."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food",
+     "History"
+    ]
+   },
+   {
+    "name": "Museum of Fine Arts",
+    "kind": "see",
+    "id": "ghent-msk",
+    "at": [
+     51.0383,
+     3.7225
+    ],
+    "wiki": "Museum of Fine Arts, Ghent",
+    "area": "Citadelpark",
+    "summary": "Flemish masters from Bosch to Ensor, plus Van Eyck restoration work.",
+    "expect": "Pair with SMAK next door.",
+    "tip": "See the Bosch.",
+    "why": "Belgian art.",
+    "flow": [
+     "Galleries.",
+     "SMAK."
+    ],
+    "hours": 2,
+    "price": [
+     16,
+     16
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Waterzooi",
+    "kind": "eat",
+    "id": "ghent-waterzooi",
+    "at": [
+     51.056,
+     3.722
+    ],
+    "wiki": "Waterzooi",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "A creamy stew of chicken or fish with vegetables.",
+    "expect": "Ghent's own dish.",
+    "tip": "Order the chicken version.",
+    "why": "Ghent comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     28
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Belgian",
+    "order": [
+     "Waterzooi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cuberdons",
+    "kind": "eat",
+    "id": "ghent-cuberdon",
+    "at": [
+     51.0545,
+     3.722
+    ],
+    "wiki": "Cuberdon",
+    "area": "Groentenmarkt",
+    "venue": "food-area",
+    "summary": "Cone-shaped raspberry sweets with a gooey centre.",
+    "expect": "Carts on the Groentenmarkt.",
+    "tip": "Try more than one flavour.",
+    "why": "Ghent's sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     2,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Belgian",
+    "order": [
+     "Cuberdon"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Belgian beer bars",
+    "kind": "eat",
+    "id": "ghent-beer",
+    "at": [
+     51.0555,
+     3.722
+    ],
+    "wiki": "Beer in Belgium",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Hundreds of beers in old bars like Dulle Griet.",
+    "expect": "Strong beers; sip slowly.",
+    "tip": "Order a Kwak in its special glass.",
+    "why": "Beer culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Belgian",
+    "order": [
+     "Trappist",
+     "Kwak"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
