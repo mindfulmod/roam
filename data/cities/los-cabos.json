@@ -1,0 +1,519 @@
+{
+  "id": "los-cabos",
+  "name": "Los Cabos",
+  "country": "Mexico",
+  "region": "North America",
+  "lat": 22.8905,
+  "lon": -109.9167,
+  "wiki": "Los Cabos Municipality",
+  "tagline": "Desert meets sea at the tip of Baja",
+  "summary": "Los Cabos sits where the Baja desert meets the Pacific and the Sea of Cortez. Boat out to the famous rock arch, snorkel at Chileno Bay, watch whales in winter and explore San José del Cabo's art district.",
+  "days": 4,
+  "bestMonths": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "Winter is warm, dry and whale season. Summer is very hot with hurricane risk.",
+  "arrival": "Los Cabos Airport is near San José del Cabo.",
+  "gettingAround": "Rent a car or use shuttles; buses run the corridor.",
+  "cashTip": "Carry pesos for taxis, tacos and markets; cards work in hotels and bigger restaurants. Pay in pesos, not dollars, for a better rate.",
+  "dailyBudget": [
+    1200,
+    4000
+  ],
+  "currency": "MXN",
+  "cashPerDay": [
+    400,
+    1000
+  ],
+  "foodTip": "Fish tacos, chocolate clams and Baja wine.",
+  "buyTip": "Art in San José del Cabo.",
+  "baseArea": "Cabo San Lucas for nightlife; San José for calm",
+  "connections": [
+    {
+      "to": "mexico-city",
+      "mode": "Flight",
+      "minutes": 120,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Los Cabos on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Los_Cabos_Municipality",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Los%20Cabos%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Los%20Cabos%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "El Arco de Cabo San Lucas",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "los-cabos-cab-arch",
+      "name": "El Arco",
+      "kind": "see",
+      "lat": 22.8758,
+      "lon": -109.892,
+      "wiki": "El Arco de Cabo San Lucas",
+      "summary": "The rock arch at Land's End, reached by boat with sea lions nearby.",
+      "expect": "Glass-bottom boats from the marina.",
+      "tip": "Stop at Lovers Beach.",
+      "area": "Land's End",
+      "duration": 2,
+      "price": [
+        300,
+        500
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=El%20Arco%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=El%20Arco%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=El%20Arco%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The rock arch at Land's End, reached by boat with sea lions nearby.",
+        "Cabo's symbol."
+      ],
+      "visitFlow": [
+        "Boat from the marina.",
+        "Lovers Beach."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Glass-bottom boats from the marina.",
+        "Stop at Lovers Beach."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "los-cabos-cab-chileno",
+      "name": "Chileno Bay snorkelling",
+      "kind": "see",
+      "lat": 22.9467,
+      "lon": -109.8065,
+      "wiki": "Chileno Bay",
+      "summary": "A calm bay with reef fish.",
+      "expect": "Public access.",
+      "tip": "Go early.",
+      "area": "Corridor",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chileno%20Bay%20snorkelling%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=Chileno%20Bay%20snorkelling%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chileno%20Bay%20snorkelling%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A calm bay with reef fish.",
+        "Easy snorkel."
+      ],
+      "visitFlow": [
+        "Swim.",
+        "Snorkel."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Public access.",
+        "Go early."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "los-cabos-cab-whales",
+      "name": "Whale watching",
+      "kind": "see",
+      "lat": 22.87,
+      "lon": -109.9,
+      "wiki": "Humpback whale",
+      "summary": "Humpbacks December to April.",
+      "expect": "Boats from the marina.",
+      "tip": "Small boats are best.",
+      "area": "Sea",
+      "duration": 2.5,
+      "price": [
+        1200,
+        2000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Whale%20watching%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=Whale%20watching%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Whale%20watching%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Humpbacks December to April.",
+        "Winter spectacle."
+      ],
+      "visitFlow": [
+        "Boat.",
+        "Whales."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Boats from the marina.",
+        "Small boats are best."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "los-cabos-cab-sanjose",
+      "name": "San José del Cabo art district",
+      "kind": "see",
+      "lat": 23.0603,
+      "lon": -109.6977,
+      "wiki": "San José del Cabo",
+      "summary": "Colonial town with Thursday art walks.",
+      "expect": "Art walk November to June.",
+      "tip": "Go on a Thursday evening.",
+      "area": "San José",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=San%20Jos%C3%A9%20del%20Cabo%20art%20district%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=San%20Jos%C3%A9%20del%20Cabo%20art%20district%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=San%20Jos%C3%A9%20del%20Cabo%20art%20district%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "Colonial town with Thursday art walks.",
+        "Quieter Cabo."
+      ],
+      "visitFlow": [
+        "Mission church.",
+        "Galleries."
+      ],
+      "bestFor": "Visitors interested in art and craft and local shopping",
+      "tradeoffs": [
+        "Art walk November to June.",
+        "Go on a Thursday evening."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "los-cabos-cab-todos",
+      "name": "Todos Santos",
+      "kind": "see",
+      "lat": 23.4464,
+      "lon": -110.2265,
+      "wiki": "Todos Santos, Baja California Sur",
+      "summary": "A bohemian Pueblo Mágico with surf beaches.",
+      "expect": "An hour's drive.",
+      "tip": "Watch sea turtle releases in season.",
+      "area": "Pacific",
+      "duration": 6,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Todos%20Santos%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=Todos%20Santos%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Todos%20Santos%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A bohemian Pueblo Mágico with surf beaches.",
+        "Artsy town."
+      ],
+      "visitFlow": [
+        "Town.",
+        "Beach."
+      ],
+      "bestFor": "Visitors interested in art and craft and landscapes and wildlife",
+      "tradeoffs": [
+        "An hour's drive.",
+        "Watch sea turtle releases in season."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "los-cabos-cab-pulmo",
+      "name": "Cabo Pulmo",
+      "kind": "see",
+      "lat": 23.4436,
+      "lon": -109.429,
+      "wiki": "Cabo Pulmo National Park",
+      "summary": "A protected reef with huge fish schools.",
+      "expect": "Long drive.",
+      "tip": "Join a licensed dive.",
+      "area": "East Cape",
+      "duration": 8,
+      "price": [
+        1500,
+        3000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cabo%20Pulmo%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=Cabo%20Pulmo%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cabo%20Pulmo%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "A protected reef with huge fish schools.",
+        "Conservation success."
+      ],
+      "visitFlow": [
+        "Drive.",
+        "Snorkel or dive."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Long drive.",
+        "Join a licensed dive."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "los-cabos-cab-fishtaco",
+      "name": "Baja fish tacos",
+      "kind": "eat",
+      "lat": 22.885,
+      "lon": -109.91,
+      "wiki": "Fish taco",
+      "summary": "Battered fish in tortillas with cabbage and crema.",
+      "expect": "Everywhere.",
+      "tip": "Try Gardenias.",
+      "area": "Cabo San Lucas",
+      "duration": 1,
+      "price": [
+        100,
+        250
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Baja%20fish%20tacos%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=Baja%20fish%20tacos%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Baja%20fish%20tacos%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Battered fish in tortillas with cabbage and crema.",
+        "Baja classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Try Gardenias."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Baja",
+      "mustOrder": [
+        "Fish tacos"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "los-cabos-cab-clams",
+      "name": "Chocolate clams",
+      "kind": "eat",
+      "lat": 22.885,
+      "lon": -109.915,
+      "wiki": "Megapitaria squalida",
+      "summary": "Clams grilled or raw, named for their brown shells.",
+      "expect": "Seafood restaurants.",
+      "tip": "Try them grilled.",
+      "area": "Marina",
+      "duration": 1.5,
+      "price": [
+        200,
+        500
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chocolate%20clams%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=Chocolate%20clams%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chocolate%20clams%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Clams grilled or raw, named for their brown shells.",
+        "Local delicacy."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Seafood restaurants.",
+        "Try them grilled."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Mexican seafood",
+      "mustOrder": [
+        "Chocolate clams"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "los-cabos-cab-farm",
+      "name": "Farm-to-table dinners",
+      "kind": "eat",
+      "lat": 23.07,
+      "lon": -109.66,
+      "wiki": "Flora Farms",
+      "summary": "Organic farm restaurants in the foothills.",
+      "expect": "Book ahead.",
+      "tip": "Sunset dinner.",
+      "area": "San José",
+      "duration": 2,
+      "price": [
+        800,
+        2000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Farm-to-table%20dinners%2C%20Los%20Cabos",
+        "https://www.google.com/maps/search/?api=1&query=Farm-to-table%20dinners%2C%20Los%20Cabos"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Farm-to-table%20dinners%2C%20Los%20Cabos"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Organic farm restaurants in the foothills.",
+        "Special meal."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Book ahead.",
+        "Sunset dinner."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Mexican",
+      "mustOrder": [
+        "Farm menu"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

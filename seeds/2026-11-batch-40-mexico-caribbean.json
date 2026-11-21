@@ -1,0 +1,2439 @@
+[
+ {
+  "country": "Mexico",
+  "region": "North America",
+  "currency": "MXN",
+  "cashTip": "Carry pesos for taxis, tacos and markets; cards work in hotels and bigger restaurants. Pay in pesos, not dollars, for a better rate.",
+  "dailyBudget": [
+   1200,
+   4000
+  ],
+  "cashPerDay": [
+   400,
+   1000
+  ],
+  "id": "playa-del-carmen",
+  "name": "Playa del Carmen",
+  "at": [
+   20.6296,
+   -87.0739
+  ],
+  "wiki": "Playa del Carmen",
+  "cover": "Playa del Carmen",
+  "seasons": "HHHSSLLSLLSH",
+  "tagline": "Caribbean beach town between cenotes and Mayan ruins",
+  "summary": "Playa del Carmen is the lively heart of the Riviera Maya: white sand, the pedestrian Quinta Avenida and ferries to Cozumel's reefs. It's an easy base for cenotes, eco-parks and the ruins of Tulum and Cobá.",
+  "days": 4,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "December to April is dry and busy. June to November is hurricane season; sargassum seaweed can affect beaches in summer.",
+  "arrival": "About 50 minutes from Cancún Airport by ADO bus or shuttle.",
+  "gettingAround": "Walk the centre; colectivo vans along the highway; ferry to Cozumel.",
+  "foodTip": "Cochinita pibil, tacos al pastor and fresh ceviche.",
+  "buyTip": "Hand-embroidered huipiles and Mexican silver.",
+  "baseArea": "Near Quinta Avenida, a few blocks back from the beach",
+  "hotel": [
+   1500,
+   7000
+  ],
+  "connections": [
+   {
+    "to": "cancun",
+    "mode": "Bus",
+    "minutes": 60,
+    "note": "Frequent ADO buses."
+   },
+   {
+    "to": "tulum",
+    "mode": "Bus",
+    "minutes": 60,
+    "note": "Frequent ADO buses and colectivos."
+   }
+  ],
+  "items": [
+   {
+    "name": "Quinta Avenida",
+    "kind": "see",
+    "id": "pdc-quinta",
+    "at": [
+     20.6266,
+     -87.0734
+    ],
+    "wiki": "Playa del Carmen",
+    "area": "Centre",
+    "summary": "A long pedestrian street of shops, bars and restaurants parallel to the beach.",
+    "expect": "Busy evenings.",
+    "tip": "Walk it at dusk.",
+    "why": "Playa's spine.",
+    "flow": [
+     "Walk from Parque Fundadores.",
+     "Detour to the beach."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Playa Mamitas and the beaches",
+    "kind": "see",
+    "id": "pdc-beach",
+    "at": [
+     20.6337,
+     -87.0679
+    ],
+    "wiki": "Playa del Carmen",
+    "area": "Beach",
+    "summary": "Wide white-sand beaches with beach clubs and calm water.",
+    "expect": "Sargassum varies by season.",
+    "tip": "North of 26th Street is calmer.",
+    "why": "Caribbean sand.",
+    "flow": [
+     "Swim.",
+     "Beach club lunch."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cozumel reefs",
+    "kind": "see",
+    "id": "pdc-cozumel",
+    "at": [
+     20.423,
+     -86.9223
+    ],
+    "wiki": "Cozumel",
+    "area": "Cozumel",
+    "summary": "Ferry to Cozumel for some of the world's best drift snorkelling and diving.",
+    "expect": "Ferry 45 minutes.",
+    "tip": "Book a reef boat at Palancar.",
+    "why": "Mesoamerican reef.",
+    "flow": [
+     "Ferry.",
+     "Snorkel boat.",
+     "Beach club."
+    ],
+    "hours": 7,
+    "price": [
+     1200,
+     2500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Cenotes",
+    "kind": "see",
+    "id": "pdc-cenotes",
+    "at": [
+     20.5917,
+     -87.2042
+    ],
+    "wiki": "Cenote",
+    "area": "Inland",
+    "summary": "Crystal-clear sinkhole pools in the jungle, like Cristalino and Jardín del Edén.",
+    "expect": "Shower before swimming; no sunscreen.",
+    "tip": "Go early.",
+    "why": "Swim in Mayan wells.",
+    "flow": [
+     "Drive inland.",
+     "Swim and snorkel."
+    ],
+    "hours": 3,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Xcaret",
+    "kind": "see",
+    "id": "pdc-xcaret",
+    "at": [
+     20.5799,
+     -87.1194
+    ],
+    "wiki": "Xcaret Park",
+    "area": "South",
+    "summary": "A large eco-park with underground rivers, wildlife and an evening show.",
+    "expect": "Pricey; allow a full day.",
+    "tip": "Stay for the night show.",
+    "why": "Big Mexican spectacle.",
+    "flow": [
+     "Underground rivers.",
+     "Evening show."
+    ],
+    "hours": 8,
+    "price": [
+     2500,
+     3500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cobá ruins",
+    "kind": "see",
+    "id": "pdc-coba",
+    "at": [
+     20.495,
+     -87.736
+    ],
+    "wiki": "Coba",
+    "area": "Cobá",
+    "summary": "Jungle Mayan city with long sacbé roads; cycle between pyramids.",
+    "expect": "Climbing the main pyramid is no longer allowed.",
+    "tip": "Rent a bike.",
+    "why": "Jungle ruins.",
+    "flow": [
+     "Bike the sacbés.",
+     "Nohoch Mul."
+    ],
+    "hours": 5,
+    "price": [
+     150,
+     300
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Tacos al pastor",
+    "kind": "eat",
+    "id": "pdc-tacos",
+    "at": [
+     20.6283,
+     -87.0758
+    ],
+    "wiki": "Al pastor",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Spit-roast pork tacos with pineapple.",
+    "expect": "Cheap and late.",
+    "tip": "Try El Fogón.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     80,
+     200
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Tacos al pastor"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cochinita pibil",
+    "kind": "eat",
+    "id": "pdc-pibil",
+    "at": [
+     20.63,
+     -87.075
+    ],
+    "wiki": "Cochinita pibil",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Achiote slow-roast pork from Yucatán.",
+    "expect": "Breakfast and lunch.",
+    "tip": "Have it in a torta.",
+    "why": "Yucatán classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     80,
+     250
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Yucatecan",
+    "order": [
+     "Cochinita pibil"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Ceviche and seafood",
+    "kind": "eat",
+    "id": "pdc-ceviche",
+    "at": [
+     20.627,
+     -87.072
+    ],
+    "wiki": "Ceviche",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Fresh fish cured in lime with chilli.",
+    "expect": "Lunch.",
+    "tip": "Order a michelada with it.",
+    "why": "Coastal flavour.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     500
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican seafood",
+    "order": [
+     "Ceviche",
+     "Aguachile"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Mexico",
+  "region": "North America",
+  "currency": "MXN",
+  "cashTip": "Carry pesos for taxis, tacos and markets; cards work in hotels and bigger restaurants. Pay in pesos, not dollars, for a better rate.",
+  "dailyBudget": [
+   1200,
+   4000
+  ],
+  "cashPerDay": [
+   400,
+   1000
+  ],
+  "id": "puerto-vallarta",
+  "name": "Puerto Vallarta",
+  "at": [
+   20.6534,
+   -105.2253
+  ],
+  "wiki": "Puerto Vallarta",
+  "cover": "Puerto Vallarta",
+  "seasons": "HHHSLLLLLSSH",
+  "tagline": "Pacific beach town of cobbled streets and jungle mountains",
+  "summary": "Puerto Vallarta is a Pacific resort with real-town charm: cobblestone streets, a seafront Malecón of sculptures, the crown-topped Our Lady of Guadalupe church and jungle-covered mountains falling into Banderas Bay. Whales visit in winter.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "November to April is dry; humpback whales from December to March. Summer is hot, humid and rainy.",
+  "arrival": "Puerto Vallarta Airport is 20 minutes from downtown.",
+  "gettingAround": "Buses and taxis; water taxis to southern beaches.",
+  "foodTip": "Pescado zarandeado, shrimp tacos and raicilla.",
+  "buyTip": "Huichol beadwork and art.",
+  "baseArea": "Zona Romántica",
+  "hotel": [
+   1500,
+   6000
+  ],
+  "connections": [
+   {
+    "to": "mexico-city",
+    "mode": "Flight",
+    "minutes": 90,
+    "note": "Many daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "The Malecón",
+    "kind": "see",
+    "id": "pvr-malecon",
+    "at": [
+     20.6105,
+     -105.2337
+    ],
+    "wiki": "Malecón (Puerto Vallarta)",
+    "area": "Centro",
+    "summary": "A seafront promenade lined with bronze sculptures, best at sunset.",
+    "expect": "Free.",
+    "tip": "Come at sunset.",
+    "why": "Puerto Vallarta's heart.",
+    "flow": [
+     "Walk the sculptures.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Art",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Our Lady of Guadalupe church",
+    "kind": "see",
+    "id": "pvr-guadalupe",
+    "at": [
+     20.6091,
+     -105.2343
+    ],
+    "wiki": "Church of Our Lady of Guadalupe (Puerto Vallarta)",
+    "area": "Centro",
+    "summary": "The town's landmark church with an open-work crown.",
+    "expect": "Dress respectfully.",
+    "tip": "Visit during the December festival.",
+    "why": "Iconic crown.",
+    "flow": [
+     "Interior.",
+     "Crown view."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Zona Romántica and Los Muertos Beach",
+    "kind": "see",
+    "id": "pvr-romantica",
+    "at": [
+     20.6005,
+     -105.2368
+    ],
+    "wiki": "Playa de los Muertos",
+    "area": "Zona Romántica",
+    "summary": "Lively beach with a sail-shaped pier, bars and LGBTQ-friendly scene.",
+    "expect": "Busy.",
+    "tip": "Lunch on the sand.",
+    "why": "Town beach.",
+    "flow": [
+     "Pier.",
+     "Beach."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Whale watching",
+    "kind": "see",
+    "id": "pvr-whales",
+    "at": [
+     20.65,
+     -105.3
+    ],
+    "wiki": "Banderas Bay",
+    "area": "Banderas Bay",
+    "summary": "Humpback whales breach in the bay December to March.",
+    "expect": "Boats from the marina.",
+    "tip": "Pick a small-boat tour.",
+    "why": "Close encounters.",
+    "flow": [
+     "Boat out.",
+     "Watch humpbacks."
+    ],
+    "hours": 3,
+    "price": [
+     1200,
+     2000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Yelapa by water taxi",
+    "kind": "see",
+    "id": "pvr-yelapa",
+    "at": [
+     20.488,
+     -105.4457
+    ],
+    "wiki": "Yelapa",
+    "area": "South Bay",
+    "summary": "A roadless village with a beach and waterfall.",
+    "expect": "Water taxi from Los Muertos.",
+    "tip": "Hike to the waterfall.",
+    "why": "Jungle escape.",
+    "flow": [
+     "Water taxi.",
+     "Waterfall.",
+     "Beach."
+    ],
+    "hours": 6,
+    "price": [
+     500,
+     800
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Vallarta Botanical Garden",
+    "kind": "see",
+    "id": "pvr-botanical",
+    "at": [
+     20.437,
+     -105.317
+    ],
+    "wiki": "Vallarta Botanical Garden",
+    "area": "South",
+    "summary": "Orchids and jungle river swims.",
+    "expect": "Bus from town.",
+    "tip": "Swim in the river.",
+    "why": "Gorgeous garden.",
+    "flow": [
+     "Gardens.",
+     "River."
+    ],
+    "hours": 3,
+    "price": [
+     200,
+     200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Pescado zarandeado",
+    "kind": "eat",
+    "id": "pvr-zarandeado",
+    "at": [
+     20.605,
+     -105.236
+    ],
+    "wiki": "Zarandeado",
+    "area": "Beach",
+    "venue": "food-area",
+    "summary": "Grilled butterflied fish with chilli rub.",
+    "expect": "Beachside.",
+    "tip": "Share with friends.",
+    "why": "Pacific classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     300,
+     700
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican seafood",
+    "order": [
+     "Pescado zarandeado"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Street tacos",
+    "kind": "eat",
+    "id": "pvr-tacos",
+    "at": [
+     20.603,
+     -105.234
+    ],
+    "wiki": "Taco",
+    "area": "Zona Romántica",
+    "venue": "food-area",
+    "summary": "Late-night taco stands.",
+    "expect": "Cheap.",
+    "tip": "Try tacos de birria.",
+    "why": "Night bites.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     200
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Birria tacos"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Raicilla",
+    "kind": "eat",
+    "id": "pvr-raicilla",
+    "at": [
+     20.605,
+     -105.235
+    ],
+    "wiki": "Raicilla",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Local agave spirit from Jalisco's mountains.",
+    "expect": "Strong.",
+    "tip": "Sip slowly.",
+    "why": "Local tipple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     80,
+     200
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Raicilla"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Mexico",
+  "region": "North America",
+  "currency": "MXN",
+  "cashTip": "Carry pesos for taxis, tacos and markets; cards work in hotels and bigger restaurants. Pay in pesos, not dollars, for a better rate.",
+  "dailyBudget": [
+   1200,
+   4000
+  ],
+  "cashPerDay": [
+   400,
+   1000
+  ],
+  "id": "los-cabos",
+  "name": "Los Cabos",
+  "at": [
+   22.8905,
+   -109.9167
+  ],
+  "wiki": "Los Cabos Municipality",
+  "cover": "El Arco de Cabo San Lucas",
+  "seasons": "HHHHSLLLLSHH",
+  "tagline": "Desert meets sea at the tip of Baja",
+  "summary": "Los Cabos sits where the Baja desert meets the Pacific and the Sea of Cortez. Boat out to the famous rock arch, snorkel at Chileno Bay, watch whales in winter and explore San José del Cabo's art district.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Winter is warm, dry and whale season. Summer is very hot with hurricane risk.",
+  "arrival": "Los Cabos Airport is near San José del Cabo.",
+  "gettingAround": "Rent a car or use shuttles; buses run the corridor.",
+  "foodTip": "Fish tacos, chocolate clams and Baja wine.",
+  "buyTip": "Art in San José del Cabo.",
+  "baseArea": "Cabo San Lucas for nightlife; San José for calm",
+  "hotel": [
+   2500,
+   10000
+  ],
+  "connections": [
+   {
+    "to": "mexico-city",
+    "mode": "Flight",
+    "minutes": 120,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "El Arco",
+    "kind": "see",
+    "id": "cab-arch",
+    "at": [
+     22.8758,
+     -109.892
+    ],
+    "wiki": "El Arco de Cabo San Lucas",
+    "area": "Land's End",
+    "summary": "The rock arch at Land's End, reached by boat with sea lions nearby.",
+    "expect": "Glass-bottom boats from the marina.",
+    "tip": "Stop at Lovers Beach.",
+    "why": "Cabo's symbol.",
+    "flow": [
+     "Boat from the marina.",
+     "Lovers Beach."
+    ],
+    "hours": 2,
+    "price": [
+     300,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Chileno Bay snorkelling",
+    "kind": "see",
+    "id": "cab-chileno",
+    "at": [
+     22.9467,
+     -109.8065
+    ],
+    "wiki": "Chileno Bay",
+    "area": "Corridor",
+    "summary": "A calm bay with reef fish.",
+    "expect": "Public access.",
+    "tip": "Go early.",
+    "why": "Easy snorkel.",
+    "flow": [
+     "Swim.",
+     "Snorkel."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Whale watching",
+    "kind": "see",
+    "id": "cab-whales",
+    "at": [
+     22.87,
+     -109.9
+    ],
+    "wiki": "Humpback whale",
+    "area": "Sea",
+    "summary": "Humpbacks December to April.",
+    "expect": "Boats from the marina.",
+    "tip": "Small boats are best.",
+    "why": "Winter spectacle.",
+    "flow": [
+     "Boat.",
+     "Whales."
+    ],
+    "hours": 2.5,
+    "price": [
+     1200,
+     2000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "San José del Cabo art district",
+    "kind": "see",
+    "id": "cab-sanjose",
+    "at": [
+     23.0603,
+     -109.6977
+    ],
+    "wiki": "San José del Cabo",
+    "area": "San José",
+    "summary": "Colonial town with Thursday art walks.",
+    "expect": "Art walk November to June.",
+    "tip": "Go on a Thursday evening.",
+    "why": "Quieter Cabo.",
+    "flow": [
+     "Mission church.",
+     "Galleries."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Art",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Todos Santos",
+    "kind": "see",
+    "id": "cab-todos",
+    "at": [
+     23.4464,
+     -110.2265
+    ],
+    "wiki": "Todos Santos, Baja California Sur",
+    "area": "Pacific",
+    "summary": "A bohemian Pueblo Mágico with surf beaches.",
+    "expect": "An hour's drive.",
+    "tip": "Watch sea turtle releases in season.",
+    "why": "Artsy town.",
+    "flow": [
+     "Town.",
+     "Beach."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Cabo Pulmo",
+    "kind": "see",
+    "id": "cab-pulmo",
+    "at": [
+     23.4436,
+     -109.429
+    ],
+    "wiki": "Cabo Pulmo National Park",
+    "area": "East Cape",
+    "summary": "A protected reef with huge fish schools.",
+    "expect": "Long drive.",
+    "tip": "Join a licensed dive.",
+    "why": "Conservation success.",
+    "flow": [
+     "Drive.",
+     "Snorkel or dive."
+    ],
+    "hours": 8,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Baja fish tacos",
+    "kind": "eat",
+    "id": "cab-fishtaco",
+    "at": [
+     22.885,
+     -109.91
+    ],
+    "wiki": "Fish taco",
+    "area": "Cabo San Lucas",
+    "venue": "food-area",
+    "summary": "Battered fish in tortillas with cabbage and crema.",
+    "expect": "Everywhere.",
+    "tip": "Try Gardenias.",
+    "why": "Baja classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     250
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Baja",
+    "order": [
+     "Fish tacos"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Chocolate clams",
+    "kind": "eat",
+    "id": "cab-clams",
+    "at": [
+     22.885,
+     -109.915
+    ],
+    "wiki": "Megapitaria squalida",
+    "area": "Marina",
+    "venue": "food-area",
+    "summary": "Clams grilled or raw, named for their brown shells.",
+    "expect": "Seafood restaurants.",
+    "tip": "Try them grilled.",
+    "why": "Local delicacy.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     200,
+     500
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican seafood",
+    "order": [
+     "Chocolate clams"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Farm-to-table dinners",
+    "kind": "eat",
+    "id": "cab-farm",
+    "at": [
+     23.07,
+     -109.66
+    ],
+    "wiki": "Flora Farms",
+    "area": "San José",
+    "venue": "food-area",
+    "summary": "Organic farm restaurants in the foothills.",
+    "expect": "Book ahead.",
+    "tip": "Sunset dinner.",
+    "why": "Special meal.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     800,
+     2000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Farm menu"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Mexico",
+  "region": "North America",
+  "currency": "MXN",
+  "cashTip": "Carry pesos for taxis, tacos and markets; cards work in hotels and bigger restaurants. Pay in pesos, not dollars, for a better rate.",
+  "dailyBudget": [
+   1200,
+   4000
+  ],
+  "cashPerDay": [
+   400,
+   1000
+  ],
+  "id": "guadalajara",
+  "name": "Guadalajara",
+  "at": [
+   20.6597,
+   -103.3496
+  ],
+  "wiki": "Guadalajara",
+  "cover": "Guadalajara Cathedral",
+  "seasons": "HHHSSLLLLSSH",
+  "tagline": "Home of mariachi and tequila",
+  "summary": "Guadalajara is Mexico's second city and the birthplace of mariachi, tequila and charrería. See Orozco's fiery murals at Hospicio Cabañas, browse the vast Mercado San Juan de Dios, and ride the Tequila Express to agave country.",
+  "days": 3,
+  "bestMonths": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Dry and mild in winter. September brings the Mariachi Festival.",
+  "arrival": "Guadalajara Airport is 30 minutes from the centre.",
+  "gettingAround": "Light rail, buses and ride-hailing.",
+  "foodTip": "Torta ahogada, birria and carne en su jugo.",
+  "buyTip": "Tlaquepaque crafts, blown glass and tequila.",
+  "baseArea": "Centro Histórico or Chapultepec",
+  "hotel": [
+   1200,
+   4000
+  ],
+  "connections": [
+   {
+    "to": "mexico-city",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Frequent flights; buses take 7 hours."
+   },
+   {
+    "to": "puerto-vallarta",
+    "mode": "Bus",
+    "minutes": 300,
+    "note": "Comfortable coaches."
+   }
+  ],
+  "items": [
+   {
+    "name": "Hospicio Cabañas",
+    "kind": "see",
+    "id": "gdl-cabanas",
+    "at": [
+     20.6766,
+     -103.3365
+    ],
+    "wiki": "Hospicio Cabañas",
+    "area": "Centro",
+    "summary": "A UNESCO orphanage with José Clemente Orozco's murals, including 'Man of Fire'.",
+    "expect": "Lie on the benches to see the dome.",
+    "tip": "Go mid-morning.",
+    "why": "Mexico's Sistine Chapel.",
+    "flow": [
+     "Courtyards.",
+     "Orozco dome."
+    ],
+    "hours": 2,
+    "price": [
+     100,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Cathedral and plazas",
+    "kind": "see",
+    "id": "gdl-cathedral",
+    "at": [
+     20.6767,
+     -103.3475
+    ],
+    "wiki": "Guadalajara Cathedral",
+    "area": "Centro",
+    "summary": "Twin-spired cathedral amid four plazas forming a cross.",
+    "expect": "Free.",
+    "tip": "Walk all four plazas.",
+    "why": "Historic heart.",
+    "flow": [
+     "Cathedral.",
+     "Plazas."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Plaza de los Mariachis",
+    "kind": "see",
+    "id": "gdl-mariachi",
+    "at": [
+     20.6742,
+     -103.3389
+    ],
+    "wiki": "Mariachi",
+    "area": "Centro",
+    "summary": "Mariachi bands perform for diners.",
+    "expect": "Pay per song.",
+    "tip": "Evenings.",
+    "why": "Mariachi homeland.",
+    "flow": [
+     "Sit down.",
+     "Request a song."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     300
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Tlaquepaque",
+    "kind": "see",
+    "id": "gdl-tlaquepaque",
+    "at": [
+     20.6408,
+     -103.3112
+    ],
+    "wiki": "Tlaquepaque",
+    "area": "Tlaquepaque",
+    "summary": "Colourful crafts town with galleries and El Parián mariachi courtyard.",
+    "expect": "Short ride from centre.",
+    "tip": "Visit El Parián at dusk.",
+    "why": "Artisan town.",
+    "flow": [
+     "Galleries.",
+     "El Parián."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Art"
+    ]
+   },
+   {
+    "name": "Tequila town",
+    "kind": "see",
+    "id": "gdl-tequila",
+    "at": [
+     20.882,
+     -103.836
+    ],
+    "wiki": "Tequila, Jalisco",
+    "area": "Tequila",
+    "summary": "Agave fields and distilleries in a UNESCO landscape.",
+    "expect": "Train or tour.",
+    "tip": "Take the Jose Cuervo Express.",
+    "why": "Tequila's home.",
+    "flow": [
+     "Agave fields.",
+     "Distillery.",
+     "Town."
+    ],
+    "hours": 8,
+    "price": [
+     500,
+     2500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "History"
+    ]
+   },
+   {
+    "name": "Mercado San Juan de Dios",
+    "kind": "see",
+    "id": "gdl-sanjuan",
+    "at": [
+     20.6744,
+     -103.3378
+    ],
+    "wiki": "Mercado Libertad",
+    "area": "Centro",
+    "summary": "A huge three-storey market.",
+    "expect": "Crowded.",
+    "tip": "Eat on the top floor.",
+    "why": "Market life.",
+    "flow": [
+     "Stalls.",
+     "Food court."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Food"
+    ]
+   },
+   {
+    "name": "Torta ahogada",
+    "kind": "eat",
+    "id": "gdl-ahogada",
+    "at": [
+     20.675,
+     -103.346
+    ],
+    "wiki": "Torta ahogada",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "A pork sandwich drowned in tomato and chilli sauce.",
+    "expect": "Messy.",
+    "tip": "Ask for 'media ahogada'.",
+    "why": "Guadalajara's dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Jaliscan",
+    "order": [
+     "Torta ahogada"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Birria",
+    "kind": "eat",
+    "id": "gdl-birria",
+    "at": [
+     20.67,
+     -103.35
+    ],
+    "wiki": "Birria",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Slow-cooked goat stew with consommé.",
+    "expect": "Mornings.",
+    "tip": "Try it with tortillas.",
+    "why": "Jalisco classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Jaliscan",
+    "order": [
+     "Birria"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Carne en su jugo",
+    "kind": "eat",
+    "id": "gdl-jugo",
+    "at": [
+     20.67,
+     -103.37
+    ],
+    "wiki": "Carne en su jugo",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Beef and bean broth with bacon.",
+    "expect": "Hearty.",
+    "tip": "Try Karne Garibaldi.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     150,
+     250
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Jaliscan",
+    "order": [
+     "Carne en su jugo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Cuba",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Bring cash (euros or dollars) and change it at casas de cambio or privately; US-issued cards don't work and ATMs are unreliable. Prices here are shown in US dollars.",
+  "dailyBudget": [
+   70,
+   200
+  ],
+  "cashPerDay": [
+   40,
+   120
+  ],
+  "id": "havana",
+  "name": "Havana",
+  "at": [
+   23.1136,
+   -82.3666
+  ],
+  "wiki": "Havana",
+  "cover": "Havana",
+  "seasons": "HHHSSLLLLSSH",
+  "tagline": "Colonial plazas, classic cars and son music",
+  "summary": "Havana is a faded, beautiful colonial capital of pastel plazas, crumbling grandeur and vintage American cars. Wander Old Havana's UNESCO squares, walk the Malecón at sunset and dance to live son in a smoky bar.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "November to April is dry. Hurricane season peaks August to October. Expect power and supply shortages.",
+  "arrival": "José Martí Airport is 30 minutes away. Check entry rules (D'Viajeros form, tourist card).",
+  "gettingAround": "Walk Old Havana; classic-car taxis and bici-taxis.",
+  "foodTip": "Ropa vieja, moros y cristianos and paladares.",
+  "buyTip": "Cigars from official shops, rum and art.",
+  "baseArea": "Old Havana or Vedado casas particulares",
+  "hotel": [
+   40,
+   250
+  ],
+  "connections": [
+   {
+    "to": "miami",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Check US travel rules."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old Havana plazas",
+    "kind": "see",
+    "id": "hav-oldhavana",
+    "at": [
+     23.139,
+     -82.35
+    ],
+    "wiki": "Old Havana",
+    "area": "Habana Vieja",
+    "summary": "Plaza de la Catedral, Plaza Vieja and Plaza de Armas.",
+    "expect": "Free.",
+    "tip": "Explore early morning.",
+    "why": "UNESCO core.",
+    "flow": [
+     "Plaza de Armas.",
+     "Cathedral.",
+     "Plaza Vieja."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Malecón",
+    "kind": "see",
+    "id": "hav-malecon",
+    "at": [
+     23.144,
+     -82.37
+    ],
+    "wiki": "Malecón, Havana",
+    "area": "Seafront",
+    "summary": "A seawall promenade where Havana gathers at sunset.",
+    "expect": "Waves splash in winter.",
+    "tip": "Walk at sunset.",
+    "why": "Havana's living room.",
+    "flow": [
+     "Walk.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Classic car ride",
+    "kind": "see",
+    "id": "hav-cars",
+    "at": [
+     23.1356,
+     -82.3597
+    ],
+    "wiki": "Classic car",
+    "area": "Parque Central",
+    "summary": "Ride a 1950s convertible around the city.",
+    "expect": "Agree price first.",
+    "tip": "Include Plaza de la Revolución.",
+    "why": "Iconic Havana.",
+    "flow": [
+     "Pick a car.",
+     "City loop."
+    ],
+    "hours": 1,
+    "price": [
+     40,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "El Capitolio",
+    "kind": "see",
+    "id": "hav-capitolio",
+    "at": [
+     23.1352,
+     -82.3594
+    ],
+    "wiki": "El Capitolio",
+    "area": "Centro",
+    "summary": "Grand domed capitol building.",
+    "expect": "Tours available.",
+    "tip": "See the diamond under the dome.",
+    "why": "Monumental.",
+    "flow": [
+     "Exterior.",
+     "Tour."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Fusterlandia",
+    "kind": "see",
+    "id": "hav-fusterlandia",
+    "at": [
+     23.118,
+     -82.492
+    ],
+    "wiki": "José Fuster",
+    "area": "Jaimanitas",
+    "summary": "A neighbourhood covered in mosaic art.",
+    "expect": "Taxi ride.",
+    "tip": "Combine with the beach.",
+    "why": "Joyful art.",
+    "flow": [
+     "Walk the mosaic streets.",
+     "Visit Fuster's studio-house."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Live son music",
+    "kind": "see",
+    "id": "hav-music",
+    "at": [
+     23.137,
+     -82.352
+    ],
+    "wiki": "Son cubano",
+    "area": "Old Havana",
+    "summary": "Live bands in bars and Casa de la Música.",
+    "expect": "Nights.",
+    "tip": "Dance!",
+    "why": "Cuban soul.",
+    "flow": [
+     "Bar.",
+     "Dance."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     20
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Viñales Valley",
+    "kind": "see",
+    "id": "hav-vinales",
+    "at": [
+     22.6167,
+     -83.7167
+    ],
+    "wiki": "Viñales Valley",
+    "area": "Pinar del Río",
+    "summary": "Tobacco farms and karst mogotes.",
+    "expect": "Long day trip; better overnight.",
+    "tip": "Ride a horse to a tobacco farm.",
+    "why": "Rural Cuba.",
+    "flow": [
+     "Tobacco farm.",
+     "Mogotes."
+    ],
+    "hours": 10,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ropa vieja",
+    "kind": "eat",
+    "id": "hav-ropavieja",
+    "at": [
+     23.138,
+     -82.35
+    ],
+    "wiki": "Ropa vieja",
+    "area": "Paladares",
+    "venue": "food-area",
+    "summary": "Shredded beef stewed in tomato.",
+    "expect": "Paladares are best.",
+    "tip": "Ask for moros y cristianos.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cuban",
+    "order": [
+     "Ropa vieja"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mojitos and daiquiris",
+    "kind": "eat",
+    "id": "hav-mojito",
+    "at": [
+     23.1386,
+     -82.3524
+    ],
+    "wiki": "Mojito",
+    "area": "Old Havana",
+    "venue": "food-area",
+    "summary": "Classic cocktails in bars like El Floridita.",
+    "expect": "Touristy but fun.",
+    "tip": "Try a daiquiri at El Floridita.",
+    "why": "Hemingway's Havana.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cuban",
+    "order": [
+     "Mojito",
+     "Daiquiri"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Paladares",
+    "kind": "eat",
+    "id": "hav-paladar",
+    "at": [
+     23.13,
+     -82.38
+    ],
+    "wiki": "Paladar",
+    "area": "Vedado",
+    "venue": "food-area",
+    "summary": "Private restaurants in homes.",
+    "expect": "Book ahead.",
+    "tip": "Try La Guarida.",
+    "why": "New Cuban cooking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     40
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cuban",
+    "order": [
+     "Tasting plates"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Puerto Rico",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "US dollars; cards work almost everywhere. Carry small bills for kiosks and tips.",
+  "dailyBudget": [
+   120,
+   350
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "san-juan",
+  "name": "San Juan · Puerto Rico",
+  "at": [
+   18.4655,
+   -66.1057
+  ],
+  "wiki": "San Juan, Puerto Rico",
+  "cover": "Castillo San Felipe del Morro",
+  "seasons": "HHHSSLLLLSSH",
+  "tagline": "Old forts, colourful streets and a rainforest nearby",
+  "summary": "San Juan pairs the blue cobbles and pastel houses of Old San Juan with massive Spanish forts and lively beaches. Nearby are El Yunque rainforest and glowing bioluminescent bays.",
+  "days": 4,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "December to April is driest. Hurricane season June to November.",
+  "arrival": "Luis Muñoz Marín Airport is 20 minutes away. US entry rules apply.",
+  "gettingAround": "Walk Old San Juan; Uber; rent a car for the island.",
+  "foodTip": "Mofongo, alcapurrias and piña colada (invented here).",
+  "buyTip": "Vejigante masks and local rum.",
+  "baseArea": "Old San Juan or Condado",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "miami",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Many flights."
+   },
+   {
+    "to": "punta-cana",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Short hop."
+   }
+  ],
+  "items": [
+   {
+    "name": "El Morro",
+    "kind": "see",
+    "id": "sju-morro",
+    "at": [
+     18.4707,
+     -66.1239
+    ],
+    "wiki": "Castillo San Felipe del Morro",
+    "area": "Old San Juan",
+    "summary": "A 16th-century citadel on the headland.",
+    "expect": "Hot; bring water.",
+    "tip": "Fly a kite on the lawn.",
+    "why": "UNESCO fort.",
+    "flow": [
+     "Lawn.",
+     "Ramparts."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old San Juan streets",
+    "kind": "see",
+    "id": "sju-oldtown",
+    "at": [
+     18.4655,
+     -66.1167
+    ],
+    "wiki": "Old San Juan",
+    "area": "Old San Juan",
+    "summary": "Blue cobblestones, pastel houses and plazas.",
+    "expect": "Hilly.",
+    "tip": "Find the umbrella street.",
+    "why": "Colourful colonial town.",
+    "flow": [
+     "Calle Fortaleza.",
+     "Plazas."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Castillo San Cristóbal",
+    "kind": "see",
+    "id": "sju-cristobal",
+    "at": [
+     18.4672,
+     -66.1112
+    ],
+    "wiki": "Castillo San Cristóbal",
+    "area": "Old San Juan",
+    "summary": "The largest Spanish fort in the Americas.",
+    "expect": "Same ticket as El Morro.",
+    "tip": "Explore tunnels.",
+    "why": "Massive fortifications.",
+    "flow": [
+     "Tunnels.",
+     "Ramparts."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "El Yunque rainforest",
+    "kind": "see",
+    "id": "sju-yunque",
+    "at": [
+     18.3,
+     -65.78
+    ],
+    "wiki": "El Yunque National Forest",
+    "area": "East",
+    "summary": "The only tropical rainforest in the US forest system.",
+    "expect": "Reservations for the main road.",
+    "tip": "Hike to La Mina falls.",
+    "why": "Rainforest waterfalls.",
+    "flow": [
+     "Drive in.",
+     "Trail.",
+     "Waterfall."
+    ],
+    "hours": 6,
+    "price": [
+     2,
+     2
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Bioluminescent bay",
+    "kind": "see",
+    "id": "sju-bio",
+    "at": [
+     18.3807,
+     -65.6189
+    ],
+    "wiki": "Laguna Grande, Fajardo",
+    "area": "Fajardo",
+    "summary": "Kayak through mangroves to glowing water.",
+    "expect": "Best on dark nights.",
+    "tip": "Book a new moon tour.",
+    "why": "Magic glow.",
+    "flow": [
+     "Kayak.",
+     "Glowing water."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Condado beach",
+    "kind": "see",
+    "id": "sju-condado",
+    "at": [
+     18.459,
+     -66.074
+    ],
+    "wiki": "Condado",
+    "area": "Condado",
+    "summary": "City beach with hotels.",
+    "expect": "Rough surf at times.",
+    "tip": "Swim at the lagoon side.",
+    "why": "Urban beach.",
+    "flow": [
+     "Swim.",
+     "Walk to the lagoon side."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mofongo",
+    "kind": "eat",
+    "id": "sju-mofongo",
+    "at": [
+     18.465,
+     -66.113
+    ],
+    "wiki": "Mofongo",
+    "area": "Old San Juan",
+    "venue": "food-area",
+    "summary": "Mashed fried plantain with garlic and pork.",
+    "expect": "Filling.",
+    "tip": "Try it with shrimp.",
+    "why": "Island staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Puerto Rican",
+    "order": [
+     "Mofongo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Piña colada",
+    "kind": "eat",
+    "id": "sju-pinacolada",
+    "at": [
+     18.4652,
+     -66.1132
+    ],
+    "wiki": "Piña colada",
+    "area": "Old San Juan",
+    "venue": "food-area",
+    "summary": "Born in San Juan.",
+    "expect": "Barrachina claims it.",
+    "tip": "Have one in Old San Juan.",
+    "why": "Local legend.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     14
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Puerto Rican",
+    "order": [
+     "Piña colada"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Piñones kiosks",
+    "kind": "eat",
+    "id": "sju-pinones",
+    "at": [
+     18.443,
+     -65.966
+    ],
+    "wiki": "Piñones",
+    "area": "Piñones",
+    "venue": "food-area",
+    "summary": "Beach shacks frying alcapurrias and bacalaítos.",
+    "expect": "Weekends busy.",
+    "tip": "Bring cash.",
+    "why": "Street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Puerto Rican",
+    "order": [
+     "Alcapurrias",
+     "Bacalaítos"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Jamaica",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "US dollars are widely accepted in tourist areas; carry Jamaican dollars for local food spots and route taxis. Prices here are in US dollars.",
+  "dailyBudget": [
+   100,
+   350
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "montego-bay",
+  "name": "Montego Bay · Jamaica",
+  "at": [
+   18.4762,
+   -77.8939
+  ],
+  "wiki": "Montego Bay",
+  "cover": "Doctor's Cave Beach Club",
+  "seasons": "HHHSSLLLLSSH",
+  "tagline": "Reggae, jerk and Caribbean beaches",
+  "summary": "Montego Bay is Jamaica's main gateway: white beaches and resorts on the 'Hip Strip', with easy trips to the Dunn's River Falls climb, Martha Brae rafting, Rose Hall great house and laid-back Negril.",
+  "days": 4,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Dry December to April. Hurricane season June to November.",
+  "arrival": "Sangster International Airport is in town.",
+  "gettingAround": "Licensed taxis (red plates), shuttles or rental cars.",
+  "foodTip": "Jerk chicken, ackee and saltfish, and patties.",
+  "buyTip": "Blue Mountain coffee, rum and crafts.",
+  "baseArea": "Hip Strip or resort coast",
+  "hotel": [
+   150,
+   500
+  ],
+  "connections": [
+   {
+    "to": "miami",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Doctor's Cave Beach",
+    "kind": "see",
+    "id": "mbj-doctorscave",
+    "at": [
+     18.4848,
+     -77.9302
+    ],
+    "wiki": "Doctor's Cave Beach Club",
+    "area": "Hip Strip",
+    "summary": "Famous calm, clear-water beach.",
+    "expect": "Small entry fee.",
+    "tip": "Go early.",
+    "why": "MoBay's beach.",
+    "flow": [
+     "Swim.",
+     "Lounge."
+    ],
+    "hours": 3,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Dunn's River Falls",
+    "kind": "see",
+    "id": "mbj-dunns",
+    "at": [
+     18.4161,
+     -77.136
+    ],
+    "wiki": "Dunn's River Falls",
+    "area": "Ocho Rios",
+    "summary": "Climb a terraced waterfall hand in hand.",
+    "expect": "Water shoes help.",
+    "tip": "Go on a non-cruise day.",
+    "why": "Iconic climb.",
+    "flow": [
+     "Climb.",
+     "Beach."
+    ],
+    "hours": 6,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Martha Brae rafting",
+    "kind": "see",
+    "id": "mbj-marthabrae",
+    "at": [
+     18.442,
+     -77.644
+    ],
+    "wiki": "Martha Brae River",
+    "area": "Falmouth",
+    "summary": "Bamboo raft drifts down a calm river.",
+    "expect": "Gentle.",
+    "tip": "Bring cash for the raftsman.",
+    "why": "Relaxing.",
+    "flow": [
+     "Raft.",
+     "Drift."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     70
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Rose Hall Great House",
+    "kind": "see",
+    "id": "mbj-rosehall",
+    "at": [
+     18.513,
+     -77.817
+    ],
+    "wiki": "Rose Hall, Jamaica",
+    "area": "Rose Hall",
+    "summary": "Plantation house of the 'White Witch' legend.",
+    "expect": "Night tours.",
+    "tip": "Take the evening ghost tour.",
+    "why": "Haunted history.",
+    "flow": [
+     "Guided house tour.",
+     "Ghost stories on the grounds."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Negril Seven Mile Beach and Rick's Café",
+    "kind": "see",
+    "id": "mbj-negril",
+    "at": [
+     18.273,
+     -78.349
+    ],
+    "wiki": "Negril",
+    "area": "Negril",
+    "summary": "Long beach and cliff-jumping sunset bar.",
+    "expect": "90 minutes drive.",
+    "tip": "Stay for sunset.",
+    "why": "Classic Jamaica.",
+    "flow": [
+     "Beach.",
+     "Rick's Café."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Luminous Lagoon",
+    "kind": "see",
+    "id": "mbj-luminous",
+    "at": [
+     18.489,
+     -77.638
+    ],
+    "wiki": "Luminous Lagoon",
+    "area": "Falmouth",
+    "summary": "Glowing water at night.",
+    "expect": "Boat trips.",
+    "tip": "Swim in the glow.",
+    "why": "Bioluminescence.",
+    "flow": [
+     "Boat.",
+     "Swim."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Night",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Jerk chicken",
+    "kind": "eat",
+    "id": "mbj-jerk",
+    "at": [
+     18.47,
+     -77.92
+    ],
+    "wiki": "Jamaican jerk spice",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Smoky spiced chicken off pimento wood.",
+    "expect": "Roadside drums.",
+    "tip": "Try Scotchies.",
+    "why": "National taste.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Jamaican",
+    "order": [
+     "Jerk chicken",
+     "Festival"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Ackee and saltfish",
+    "kind": "eat",
+    "id": "mbj-ackee",
+    "at": [
+     18.47,
+     -77.92
+    ],
+    "wiki": "Ackee and saltfish",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "National breakfast dish.",
+    "expect": "Morning.",
+    "tip": "Have with fried dumplings.",
+    "why": "Jamaica's breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Jamaican",
+    "order": [
+     "Ackee and saltfish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Jamaican patties",
+    "kind": "eat",
+    "id": "mbj-patty",
+    "at": [
+     18.47,
+     -77.92
+    ],
+    "wiki": "Jamaican patty",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Flaky turnovers with spiced beef.",
+    "expect": "Cheap snack.",
+    "tip": "Try Juici Patties.",
+    "why": "On-the-go food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Jamaican",
+    "order": [
+     "Beef patty"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]
