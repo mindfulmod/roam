@@ -65,8 +65,8 @@
       "id": "hakone-hakone-ashi",
       "name": "Lake Ashi cruise",
       "kind": "see",
-      "lat": 35.205,
-      "lon": 139.025,
+      "lat": 35.20972,
+      "lon": 139.00444,
       "wiki": "Lake Ashi",
       "summary": "Replica pirate ships sail across a crater lake with Fuji views on clear days.",
       "expect": "Covered by the Free Pass.",
@@ -106,14 +106,22 @@
         "Covered by the Free Pass.",
         "Sit on the open deck facing Fuji."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25009,
+          "period": "202511-202610",
+          "title": "Lake Ashi",
+          "url": "https://en.wikipedia.org/wiki/Lake_Ashi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hakone-hakone-shrine",
       "name": "Hakone Shrine",
       "kind": "see",
-      "lat": 35.2044,
-      "lon": 139.0253,
+      "lat": 35.20389,
+      "lon": 139.02556,
       "wiki": "Hakone Shrine",
       "summary": "A shrine in cedar forest with a red torii gate standing in the lake.",
       "expect": "Long queue for torii photos.",
@@ -153,14 +161,22 @@
         "Long queue for torii photos.",
         "Go early for the lakeside gate."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9780,
+          "period": "202511-202610",
+          "title": "Hakone Shrine",
+          "url": "https://en.wikipedia.org/wiki/Hakone_Shrine",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hakone-hakone-owakudani",
       "name": "Owakudani",
       "kind": "see",
-      "lat": 35.244,
-      "lon": 139.019,
+      "lat": 35.24344,
+      "lon": 139.01937,
       "wiki": "Ōwakudani",
       "summary": "A steaming volcanic valley of sulphur vents, reached by ropeway.",
       "expect": "May close when volcanic activity is high.",
@@ -200,14 +216,22 @@
         "May close when volcanic activity is high.",
         "Eat a black egg."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23828,
+          "period": "202511-202610",
+          "title": "Ōwakudani",
+          "url": "https://en.wikipedia.org/wiki/%C5%8Cwakudani",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hakone-hakone-openair",
       "name": "Hakone Open-Air Museum",
       "kind": "see",
-      "lat": 35.2448,
-      "lon": 139.051,
+      "lat": 35.24472,
+      "lon": 139.05139,
       "wiki": "Hakone Open-Air Museum",
       "summary": "Sculptures by Moore, Rodin and others set in gardens, plus a Picasso pavilion.",
       "expect": "Allow 2 hours.",
@@ -246,14 +270,22 @@
         "Allow 2 hours.",
         "Soak your feet in the footbath."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11321,
+          "period": "202511-202610",
+          "title": "Hakone Open-Air Museum",
+          "url": "https://en.wikipedia.org/wiki/Hakone_Open-Air_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hakone-hakone-ropeway",
       "name": "Hakone Ropeway",
       "kind": "see",
-      "lat": 35.242,
-      "lon": 139.03,
+      "lat": 35.24436,
+      "lon": 139.01911,
       "wiki": "Hakone Ropeway",
       "summary": "Cable cars over volcanic slopes with views of Fuji and the lake.",
       "expect": "Can close in high wind.",
@@ -292,7 +324,15 @@
         "Can close in high wind.",
         "Ride in the morning for clear skies."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10685,
+          "period": "202511-202610",
+          "title": "Hakone Ropeway",
+          "url": "https://en.wikipedia.org/wiki/Hakone_Ropeway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hakone-hakone-onsen",
@@ -338,7 +378,16 @@
         "Bathe nude; tattoos may be refused.",
         "Try a private bath if you have tattoos."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 159295,
+          "period": "202511-202610",
+          "title": "Onsen",
+          "url": "https://en.wikipedia.org/wiki/Onsen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hakone-hakone-tokaido",
@@ -385,7 +434,16 @@
         "Slippery when wet.",
         "Stop for amazake at Amazake-chaya."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 43583,
+          "period": "202511-202610",
+          "title": "Tōkaidō (road)",
+          "url": "https://en.wikipedia.org/wiki/T%C5%8Dkaid%C5%8D_(road)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hakone-hakone-blackegg",
@@ -558,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

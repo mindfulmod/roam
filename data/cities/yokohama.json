@@ -71,7 +71,7 @@
       "id": "yokohama-yoko-minatomirai",
       "name": "Minato Mirai waterfront",
       "kind": "see",
-      "lat": 35.457,
+      "lat": 35.458,
       "lon": 139.632,
       "wiki": "Minato Mirai 21",
       "summary": "A futuristic harbour district with a giant Ferris wheel and ship museum.",
@@ -112,14 +112,22 @@
         "Best at night.",
         "Ride the Cosmo Clock 21 wheel."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20150,
+          "period": "202511-202610",
+          "title": "Minato Mirai 21",
+          "url": "https://en.wikipedia.org/wiki/Minato_Mirai_21",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yokohama-yoko-chinatown",
       "name": "Chinatown",
       "kind": "see",
-      "lat": 35.443,
-      "lon": 139.646,
+      "lat": 35.44332,
+      "lon": 139.64543,
       "wiki": "Yokohama Chinatown",
       "summary": "Japan's largest Chinatown, packed with restaurants, temples and snack stalls.",
       "expect": "Busy at weekends.",
@@ -160,14 +168,22 @@
         "Busy at weekends.",
         "Visit Kanteibyo temple."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34621,
+          "period": "202511-202610",
+          "title": "Yokohama Chinatown",
+          "url": "https://en.wikipedia.org/wiki/Yokohama_Chinatown",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yokohama-yoko-sankeien",
       "name": "Sankeien Garden",
       "kind": "see",
-      "lat": 35.417,
-      "lon": 139.662,
+      "lat": 35.41695,
+      "lon": 139.66004,
       "wiki": "Sankei-en",
       "summary": "A traditional garden with historic buildings, including a three-storey pagoda.",
       "expect": "Bus from the station.",
@@ -207,14 +223,22 @@
         "Bus from the station.",
         "Visit in plum or autumn season."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6425,
+          "period": "202511-202610",
+          "title": "Sankei-en",
+          "url": "https://en.wikipedia.org/wiki/Sankei-en",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yokohama-yoko-cupnoodles",
       "name": "Cup Noodles Museum",
       "kind": "see",
-      "lat": 35.455,
-      "lon": 139.638,
+      "lat": 35.4555,
+      "lon": 139.63889,
       "wiki": "Cupnoodles Museum",
       "summary": "A playful museum where you design your own cup noodles.",
       "expect": "Book the make-your-own slot.",
@@ -253,15 +277,14 @@
       "tradeoffs": [
         "Book the make-your-own slot.",
         "Create your own flavour."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "yokohama-yoko-redbrick",
       "name": "Red Brick Warehouse",
       "kind": "see",
-      "lat": 35.4528,
-      "lon": 139.643,
+      "lat": 35.45222,
+      "lon": 139.64278,
       "wiki": "Yokohama Red Brick Warehouse",
       "summary": "Restored customs warehouses of shops and events.",
       "expect": "Seasonal markets outside.",
@@ -301,14 +324,22 @@
         "Seasonal markets outside.",
         "Visit in December for the Christmas market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10278,
+          "period": "202511-202610",
+          "title": "Yokohama Red Brick Warehouse",
+          "url": "https://en.wikipedia.org/wiki/Yokohama_Red_Brick_Warehouse",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yokohama-yoko-landmark",
       "name": "Landmark Tower Sky Garden",
       "kind": "see",
-      "lat": 35.4547,
-      "lon": 139.6314,
+      "lat": 35.45472,
+      "lon": 139.63167,
       "wiki": "Yokohama Landmark Tower",
       "summary": "A 69th-floor observation deck with views to Mount Fuji.",
       "expect": "Fast lift.",
@@ -347,14 +378,22 @@
         "Fast lift.",
         "Go on a clear winter day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22253,
+          "period": "202511-202610",
+          "title": "Yokohama Landmark Tower",
+          "url": "https://en.wikipedia.org/wiki/Yokohama_Landmark_Tower",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yokohama-yoko-kamakura",
       "name": "Kamakura Great Buddha",
       "kind": "see",
-      "lat": 35.3167,
-      "lon": 139.5358,
+      "lat": 35.31686,
+      "lon": 139.53572,
       "wiki": "Kōtoku-in",
       "summary": "A 13 m bronze Buddha in the open air, plus temples and a beach town.",
       "expect": "About 30 minutes by train.",
@@ -395,7 +434,15 @@
         "About 30 minutes by train.",
         "Walk the Daibutsu hiking trail."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 70635,
+          "period": "202511-202610",
+          "title": "Kōtoku-in",
+          "url": "https://en.wikipedia.org/wiki/K%C5%8Dtoku-in",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yokohama-yoko-nikuman",
@@ -569,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

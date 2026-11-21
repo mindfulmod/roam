@@ -70,8 +70,8 @@
       "id": "takayama-tak-sanmachi",
       "name": "Sanmachi Suji old town",
       "kind": "see",
-      "lat": 36.141,
-      "lon": 137.26,
+      "lat": 36.14087,
+      "lon": 137.25966,
       "wiki": "Sanmachi Suji",
       "summary": "Lanes of Edo-era merchant houses, sake breweries and craft shops.",
       "expect": "Busy midday.",
@@ -110,15 +110,14 @@
       "tradeoffs": [
         "Busy midday.",
         "Look for cedar balls marking breweries."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "takayama-tak-market",
       "name": "Miyagawa morning market",
       "kind": "see",
-      "lat": 36.145,
-      "lon": 137.259,
+      "lat": 36.14469,
+      "lon": 137.25785,
       "wiki": "Takayama",
       "summary": "A riverside market of pickles, vegetables, crafts and snacks.",
       "expect": "Daily until about noon.",
@@ -157,15 +156,14 @@
       "tradeoffs": [
         "Daily until about noon.",
         "Go around 8 am."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "takayama-tak-jinya",
       "name": "Takayama Jinya",
       "kind": "see",
-      "lat": 36.139,
-      "lon": 137.258,
+      "lat": 36.13969,
+      "lon": 137.25753,
       "wiki": "Takayama Jin'ya",
       "summary": "The only surviving Edo-period government office building in Japan.",
       "expect": "Free English guides some days.",
@@ -204,14 +202,22 @@
         "Free English guides some days.",
         "See the old interrogation room."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2803,
+          "period": "202511-202610",
+          "title": "Takayama Jin'ya",
+          "url": "https://en.wikipedia.org/wiki/Takayama_Jin'ya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "takayama-tak-folkvillage",
       "name": "Hida Folk Village",
       "kind": "see",
-      "lat": 36.138,
-      "lon": 137.239,
+      "lat": 36.13149,
+      "lon": 137.2357,
       "wiki": "Hida Folk Village",
       "summary": "Open-air museum of thatched farmhouses moved from around the region.",
       "expect": "Short bus ride.",
@@ -250,8 +256,7 @@
       "tradeoffs": [
         "Short bus ride.",
         "Visit in snow if you can."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "takayama-tak-festival",
@@ -298,14 +303,23 @@
         "Real floats rotate through the year.",
         "Visit Sakurayama Hachimangu next door."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4809,
+          "period": "202511-202610",
+          "title": "Takayama Festival",
+          "url": "https://en.wikipedia.org/wiki/Takayama_Festival",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "takayama-tak-shirakawago",
       "name": "Shirakawa-go",
       "kind": "see",
-      "lat": 36.257,
-      "lon": 136.906,
+      "lat": 36.27094,
+      "lon": 136.89856,
       "wiki": "Shirakawa-gō",
       "summary": "A village of steep thatched gassho farmhouses in a mountain valley.",
       "expect": "Bus about 50 minutes; book seats.",
@@ -346,14 +360,22 @@
         "Bus about 50 minutes; book seats.",
         "Climb to the Shiroyama viewpoint."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 70873,
+          "period": "202511-202610",
+          "title": "Shirakawa, Gifu (village)",
+          "url": "https://en.wikipedia.org/wiki/Shirakawa%2C_Gifu_(village)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "takayama-tak-shinhotaka",
       "name": "Shinhotaka Ropeway",
       "kind": "see",
-      "lat": 36.287,
-      "lon": 137.577,
+      "lat": 36.28278,
+      "lon": 137.58036,
       "wiki": "Shinhotaka Ropeway",
       "summary": "A double-decker ropeway to 2,156 m with Northern Alps views.",
       "expect": "About 1.5 hours by bus.",
@@ -394,7 +416,15 @@
         "About 1.5 hours by bus.",
         "Go on a clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2424,
+          "period": "202511-202610",
+          "title": "Shinhotaka Ropeway",
+          "url": "https://en.wikipedia.org/wiki/Shinhotaka_Ropeway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "takayama-tak-hidabeef",
@@ -569,5 +599,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
