@@ -77,8 +77,8 @@
       "id": "punta-cana-punta-cana-bavaro",
       "name": "Bávaro Beach",
       "kind": "see",
-      "lat": 18.675,
-      "lon": -68.42,
+      "lat": 18.71667,
+      "lon": -68.45,
       "wiki": "Bávaro",
       "summary": "Kilometres of soft white sand and calm, clear water behind a reef.",
       "expect": "Public access between resorts.",
@@ -117,7 +117,15 @@
         "Public access between resorts.",
         "Walk the beach at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11443,
+          "period": "202511-202610",
+          "title": "Bávaro",
+          "url": "https://en.wikipedia.org/wiki/B%C3%A1varo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "punta-cana-punta-cana-macao",
@@ -210,7 +218,16 @@
         "Upmarket beach clubs.",
         "Visit on a weekday."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2155,
+          "period": "202511-202610",
+          "title": "Cap Cana",
+          "url": "https://en.wikipedia.org/wiki/Cap_Cana",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "punta-cana-punta-cana-hoyo-azul",
@@ -257,7 +274,16 @@
         "Entry through the park; the water is cold and clear.",
         "Go early before groups arrive."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2155,
+          "period": "202511-202610",
+          "title": "Cap Cana",
+          "url": "https://en.wikipedia.org/wiki/Cap_Cana",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "punta-cana-punta-cana-ojos",
@@ -303,14 +329,23 @@
         "Guided walks and swimming in the lagoons.",
         "Bring reef-safe sunscreen."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 298236,
+          "period": "202511-202610",
+          "title": "Punta Cana",
+          "url": "https://en.wikipedia.org/wiki/Punta_Cana",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "punta-cana-punta-cana-saona",
       "name": "Saona Island",
       "kind": "see",
-      "lat": 18.16,
-      "lon": -68.75,
+      "lat": 18.15556,
+      "lon": -68.69944,
       "wiki": "Saona Island",
       "summary": "A national-park island of palm beaches and a shallow natural pool with starfish.",
       "expect": "A full-day boat trip; don't pick up the starfish.",
@@ -350,8 +385,16 @@
         "A full-day boat trip; don't pick up the starfish.",
         "Choose a smaller-group tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 34059,
+          "period": "202511-202610",
+          "title": "Saona Island",
+          "url": "https://en.wikipedia.org/wiki/Saona_Island",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "punta-cana-punta-cana-altos-chavon",
@@ -400,7 +443,16 @@
         "Combine it with a Saona trip from La Romana."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9134,
+          "period": "202511-202610",
+          "title": "Altos de Chavón",
+          "url": "https://en.wikipedia.org/wiki/Altos_de_Chav%C3%B3n",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "punta-cana-punta-cana-bandera",
@@ -576,5 +628,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

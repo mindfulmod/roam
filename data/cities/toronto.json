@@ -78,8 +78,8 @@
       "id": "toronto-toronto-cn-tower",
       "name": "CN Tower",
       "kind": "see",
-      "lat": 43.6426,
-      "lon": -79.3871,
+      "lat": 43.64256,
+      "lon": -79.38708,
       "wiki": "CN Tower",
       "summary": "A 553 m tower with a glass floor and an outdoor EdgeWalk around the top.",
       "expect": "Timed tickets; queues at weekends.",
@@ -120,14 +120,22 @@
         "Timed tickets; queues at weekends.",
         "Go at sunset to see the city both by day and lit up."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 460912,
+          "period": "202511-202610",
+          "title": "CN Tower",
+          "url": "https://en.wikipedia.org/wiki/CN_Tower",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "toronto-toronto-rom",
       "name": "Royal Ontario Museum",
       "kind": "see",
-      "lat": 43.6677,
-      "lon": -79.3948,
+      "lat": 43.66768,
+      "lon": -79.39481,
       "wiki": "Royal Ontario Museum",
       "summary": "Canada's largest museum, from dinosaurs to world cultures, behind a crystal-shaped entrance.",
       "expect": "Allow at least half a day.",
@@ -167,14 +175,22 @@
         "Allow at least half a day.",
         "Start with the dinosaur gallery."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 61783,
+          "period": "202511-202610",
+          "title": "Royal Ontario Museum",
+          "url": "https://en.wikipedia.org/wiki/Royal_Ontario_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "toronto-toronto-islands",
       "name": "Toronto Islands",
       "kind": "see",
-      "lat": 43.6205,
-      "lon": -79.378,
+      "lat": 43.62083,
+      "lon": -79.37861,
       "wiki": "Toronto Islands",
       "summary": "A car-free chain of islands with beaches, bike paths and skyline views.",
       "expect": "A 15-minute ferry from the Jack Layton terminal.",
@@ -215,14 +231,22 @@
         "A 15-minute ferry from the Jack Layton terminal.",
         "Take the ferry to Ward's Island and walk back along the boardwalk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 46322,
+          "period": "202511-202610",
+          "title": "Toronto Islands",
+          "url": "https://en.wikipedia.org/wiki/Toronto_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "toronto-toronto-distillery",
       "name": "Distillery District",
       "kind": "see",
-      "lat": 43.6503,
-      "lon": -79.3596,
+      "lat": 43.65033,
+      "lon": -79.3592,
       "wiki": "Distillery District",
       "summary": "Victorian brick distillery buildings turned into galleries, cafés and shops.",
       "expect": "Pedestrian-only; Christmas market in December.",
@@ -262,14 +286,22 @@
         "Pedestrian-only; Christmas market in December.",
         "Visit in the evening when it's lit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19648,
+          "period": "202511-202610",
+          "title": "Distillery District",
+          "url": "https://en.wikipedia.org/wiki/Distillery_District",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "toronto-toronto-ago",
       "name": "Art Gallery of Ontario",
       "kind": "see",
-      "lat": 43.6536,
-      "lon": -79.3925,
+      "lat": 43.65361,
+      "lon": -79.39278,
       "wiki": "Art Gallery of Ontario",
       "summary": "A major gallery redesigned by Frank Gehry, with Canadian and Indigenous art.",
       "expect": "Free on Wednesday evenings.",
@@ -308,14 +340,22 @@
         "Free on Wednesday evenings.",
         "See the Group of Seven paintings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28752,
+          "period": "202511-202610",
+          "title": "Art Gallery of Ontario",
+          "url": "https://en.wikipedia.org/wiki/Art_Gallery_of_Ontario",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "toronto-toronto-kensington",
       "name": "Kensington Market",
       "kind": "see",
-      "lat": 43.6547,
-      "lon": -79.4005,
+      "lat": 43.65477,
+      "lon": -79.40068,
       "wiki": "Kensington Market",
       "summary": "A bohemian neighbourhood of vintage shops, street art and food from everywhere.",
       "expect": "Car-free on some summer Sundays.",
@@ -355,14 +395,22 @@
         "Car-free on some summer Sundays.",
         "Graze from stall to stall."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24980,
+          "period": "202511-202610",
+          "title": "Kensington Market",
+          "url": "https://en.wikipedia.org/wiki/Kensington_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "toronto-toronto-niagara",
       "name": "Niagara Falls",
       "kind": "see",
-      "lat": 43.0896,
-      "lon": -79.0849,
+      "lat": 43.0799,
+      "lon": -79.0747,
       "wiki": "Niagara Falls",
       "summary": "The thundering Horseshoe Falls, seen up close from a boat.",
       "expect": "About 1.5 hours by car or train; the boats run from spring to autumn.",
@@ -402,8 +450,16 @@
         "About 1.5 hours by car or train; the boats run from spring to autumn.",
         "Take the boat into the mist, then visit Niagara-on-the-Lake for wine."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 621069,
+          "period": "202511-202610",
+          "title": "Niagara Falls",
+          "url": "https://en.wikipedia.org/wiki/Niagara_Falls",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "toronto-toronto-peameal",
@@ -578,5 +634,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
