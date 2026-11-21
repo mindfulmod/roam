@@ -1,0 +1,519 @@
+{
+  "id": "bariloche",
+  "name": "Bariloche",
+  "country": "Argentina",
+  "region": "South America",
+  "lat": -41.1335,
+  "lon": -71.3103,
+  "wiki": "San Carlos de Bariloche",
+  "tagline": "Alpine lakes, chocolate and Patagonian peaks",
+  "summary": "Bariloche sits on Nahuel Huapi Lake in Argentina's Lake District, with Alpine-style chalets, chocolate shops and mountains all around. Drive the Circuito Chico, ride to Cerro Campanario's view, ski Cerro Catedral in winter and cruise to Isla Victoria.",
+  "days": 4,
+  "bestMonths": [
+    1,
+    2,
+    3,
+    12,
+    7,
+    8
+  ],
+  "seasonNote": "December to March is hiking and lake season; July and August are ski season.",
+  "arrival": "Bariloche Airport is 20 minutes away; flights from Buenos Aires take 2 hours.",
+  "gettingAround": "Buses along Avenida Bustillo; rent a car for lakes.",
+  "cashTip": "Argentine prices and exchange rules change quickly; treat peso prices as rough guides. Cards work widely; foreign cards often get a favourable rate.",
+  "dailyBudget": [
+    70000,
+    180000
+  ],
+  "currency": "ARS",
+  "cashPerDay": [
+    20000,
+    50000
+  ],
+  "foodTip": "Patagonian lamb, trout and chocolate.",
+  "buyTip": "Chocolate and craft beer.",
+  "baseArea": "Centro or along the lake road",
+  "connections": [
+    {
+      "to": "buenos-aires",
+      "mode": "Flight",
+      "minutes": 130,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bariloche on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/San_Carlos_de_Bariloche",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Bariloche%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Bariloche%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Nahuel Huapi Lake",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "bariloche-brc-campanario",
+      "name": "Cerro Campanario",
+      "kind": "see",
+      "lat": -41.07,
+      "lon": -71.472,
+      "wiki": "Cerro Campanario",
+      "summary": "A chairlift to one of the world's best lake views.",
+      "expect": "Small fee.",
+      "tip": "Go late afternoon.",
+      "area": "Llao Llao road",
+      "duration": 1.5,
+      "price": [
+        20000,
+        25000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cerro%20Campanario%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Cerro%20Campanario%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cerro%20Campanario%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A chairlift to one of the world's best lake views.",
+        "Classic panorama."
+      ],
+      "visitFlow": [
+        "Chairlift.",
+        "360° view."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Small fee.",
+        "Go late afternoon."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bariloche-brc-circuito",
+      "name": "Circuito Chico",
+      "kind": "see",
+      "lat": -41.055,
+      "lon": -71.53,
+      "wiki": "Circuito Chico",
+      "summary": "A scenic lake loop by car or bike past Llao Llao.",
+      "expect": "60 km loop.",
+      "tip": "Bike part of it.",
+      "area": "West",
+      "duration": 4,
+      "price": [
+        0,
+        30000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Circuito%20Chico%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Circuito%20Chico%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Circuito%20Chico%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A scenic lake loop by car or bike past Llao Llao.",
+        "Lakes and forest."
+      ],
+      "visitFlow": [
+        "Llao Llao.",
+        "Punto Panorámico.",
+        "Bahía López."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "60 km loop.",
+        "Bike part of it."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bariloche-brc-catedral",
+      "name": "Cerro Catedral",
+      "kind": "see",
+      "lat": -41.17,
+      "lon": -71.44,
+      "wiki": "Cerro Catedral",
+      "summary": "South America's biggest ski resort, with summer hikes.",
+      "expect": "Winter ski passes.",
+      "tip": "Hike to Refugio Frey in summer.",
+      "area": "Catedral",
+      "duration": 6,
+      "price": [
+        60000,
+        120000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cerro%20Catedral%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Cerro%20Catedral%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cerro%20Catedral%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Nature"
+      ],
+      "whyVisit": [
+        "South America's biggest ski resort, with summer hikes.",
+        "Mountain fun."
+      ],
+      "visitFlow": [
+        "Gondola.",
+        "Ski or hike."
+      ],
+      "bestFor": "Visitors interested in active exploration and landscapes and wildlife",
+      "tradeoffs": [
+        "Winter ski passes.",
+        "Hike to Refugio Frey in summer."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bariloche-brc-victoria",
+      "name": "Isla Victoria and Los Arrayanes",
+      "kind": "see",
+      "lat": -40.88,
+      "lon": -71.58,
+      "wiki": "Arrayanes National Park",
+      "summary": "Boat to islands with rare cinnamon-coloured myrtle forest.",
+      "expect": "Full-day boat.",
+      "tip": "Book the boat from Puerto Pañuelo.",
+      "area": "Lake",
+      "duration": 6,
+      "price": [
+        60000,
+        80000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Isla%20Victoria%20and%20Los%20Arrayanes%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Isla%20Victoria%20and%20Los%20Arrayanes%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Isla%20Victoria%20and%20Los%20Arrayanes%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Boat to islands with rare cinnamon-coloured myrtle forest.",
+        "Unique forest."
+      ],
+      "visitFlow": [
+        "Boat.",
+        "Forest walk."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Full-day boat.",
+        "Book the boat from Puerto Pañuelo."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bariloche-brc-centro",
+      "name": "Centro Cívico",
+      "kind": "see",
+      "lat": -41.1333,
+      "lon": -71.31,
+      "wiki": "Centro Cívico (Bariloche)",
+      "summary": "Stone-and-log civic square with St Bernards for photos.",
+      "expect": "Free.",
+      "tip": "Stroll Mitre street for chocolate.",
+      "area": "Centro",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Centro%20C%C3%ADvico%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Centro%20C%C3%ADvico%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Centro%20C%C3%ADvico%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Stone-and-log civic square with St Bernards for photos.",
+        "Town heart."
+      ],
+      "visitFlow": [
+        "Square.",
+        "Mitre street."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Stroll Mitre street for chocolate."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bariloche-brc-siete",
+      "name": "Seven Lakes Road",
+      "kind": "see",
+      "lat": -40.6,
+      "lon": -71.5,
+      "wiki": "Ruta de los Siete Lagos",
+      "summary": "A legendary drive past lakes to San Martín de los Andes.",
+      "expect": "Full day.",
+      "tip": "Stop at each lake.",
+      "area": "North",
+      "duration": 10,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Seven%20Lakes%20Road%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Seven%20Lakes%20Road%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Seven%20Lakes%20Road%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A legendary drive past lakes to San Martín de los Andes.",
+        "Epic road trip."
+      ],
+      "visitFlow": [
+        "Drive north.",
+        "Lakes stops."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Full day.",
+        "Stop at each lake."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "bariloche-brc-chocolate",
+      "name": "Chocolate shops",
+      "kind": "eat",
+      "lat": -41.134,
+      "lon": -71.305,
+      "wiki": "Bariloche chocolate",
+      "summary": "Rama chocolate and fondue.",
+      "expect": "Huge shops.",
+      "tip": "Try Rapa Nui or Mamuschka.",
+      "area": "Mitre street",
+      "duration": 0.5,
+      "price": [
+        5000,
+        15000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chocolate%20shops%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Chocolate%20shops%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chocolate%20shops%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Rama chocolate and fondue.",
+        "Bariloche sweet."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Huge shops.",
+        "Try Rapa Nui or Mamuschka."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Argentine",
+      "mustOrder": [
+        "Rama chocolate"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bariloche-brc-lamb",
+      "name": "Patagonian lamb",
+      "kind": "eat",
+      "lat": -41.13,
+      "lon": -71.31,
+      "wiki": "Cordero patagónico",
+      "summary": "Lamb slow-roasted on a cross over coals.",
+      "expect": "Parrillas.",
+      "tip": "Share a portion.",
+      "area": "Centro",
+      "duration": 2,
+      "price": [
+        25000,
+        40000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Patagonian%20lamb%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Patagonian%20lamb%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Patagonian%20lamb%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Lamb slow-roasted on a cross over coals.",
+        "Patagonian feast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Parrillas.",
+        "Share a portion."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Argentine",
+      "mustOrder": [
+        "Cordero al asador"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bariloche-brc-beer",
+      "name": "Craft beer",
+      "kind": "eat",
+      "lat": -41.05,
+      "lon": -71.52,
+      "wiki": "Cerveza Patagonia",
+      "summary": "Brewery with lake views.",
+      "expect": "Busy at sunset.",
+      "tip": "Try Cerveza Patagonia at Km 24.",
+      "area": "Circuito Chico",
+      "duration": 1.5,
+      "price": [
+        6000,
+        12000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Craft%20beer%2C%20Bariloche",
+        "https://www.google.com/maps/search/?api=1&query=Craft%20beer%2C%20Bariloche"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Craft%20beer%2C%20Bariloche"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Brewery with lake views.",
+        "Lake view beers."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy at sunset.",
+        "Try Cerveza Patagonia at Km 24."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Argentine",
+      "mustOrder": [
+        "Craft beer"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

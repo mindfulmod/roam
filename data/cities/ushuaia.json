@@ -1,0 +1,516 @@
+{
+  "id": "ushuaia",
+  "name": "Ushuaia",
+  "country": "Argentina",
+  "region": "South America",
+  "lat": -54.8019,
+  "lon": -68.303,
+  "wiki": "Ushuaia",
+  "tagline": "The southernmost city, gateway to Antarctica",
+  "summary": "Ushuaia is the 'End of the World' city on the Beagle Channel, ringed by snowy peaks. Sail past sea lions to Les Eclaireurs lighthouse, hike Tierra del Fuego National Park, walk with penguins on Isla Martillo and board Antarctic cruises.",
+  "days": 3,
+  "bestMonths": [
+    11,
+    12,
+    1,
+    2,
+    3
+  ],
+  "seasonNote": "Summer (November to March) is mild with long days; winter brings skiing.",
+  "arrival": "Ushuaia Airport is 10 minutes away; flights from Buenos Aires take 3.5 hours.",
+  "gettingAround": "Taxis and tours.",
+  "cashTip": "Argentine prices and exchange rules change quickly; treat peso prices as rough guides. Cards work widely; foreign cards often get a favourable rate.",
+  "dailyBudget": [
+    70000,
+    180000
+  ],
+  "currency": "ARS",
+  "cashPerDay": [
+    20000,
+    50000
+  ],
+  "foodTip": "King crab (centolla) and Fuegian lamb.",
+  "buyTip": "Penguin souvenirs and 'End of the World' stamps.",
+  "baseArea": "Centro along San Martín",
+  "connections": [
+    {
+      "to": "buenos-aires",
+      "mode": "Flight",
+      "minutes": 210,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ushuaia on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ushuaia",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Ushuaia%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Ushuaia%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Ushuaia",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "ushuaia-ush-beagle",
+      "name": "Beagle Channel cruise",
+      "kind": "see",
+      "lat": -54.87,
+      "lon": -68.13,
+      "wiki": "Beagle Channel",
+      "summary": "Boat past sea lion and cormorant islands to the lighthouse.",
+      "expect": "Half-day.",
+      "tip": "Pick a small boat.",
+      "area": "Channel",
+      "duration": 3,
+      "price": [
+        60000,
+        100000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Beagle%20Channel%20cruise%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=Beagle%20Channel%20cruise%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Beagle%20Channel%20cruise%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Boat past sea lion and cormorant islands to the lighthouse.",
+        "End of the world sailing."
+      ],
+      "visitFlow": [
+        "Sea lions.",
+        "Les Eclaireurs lighthouse."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Half-day.",
+        "Pick a small boat."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ushuaia-ush-tdf",
+      "name": "Tierra del Fuego National Park",
+      "kind": "see",
+      "lat": -54.84,
+      "lon": -68.49,
+      "wiki": "Tierra del Fuego National Park",
+      "summary": "Coastal trails, lakes and the end of Route 3.",
+      "expect": "Park fee.",
+      "tip": "Hike Senda Costera.",
+      "area": "West",
+      "duration": 6,
+      "price": [
+        30000,
+        40000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tierra%20del%20Fuego%20National%20Park%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=Tierra%20del%20Fuego%20National%20Park%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tierra%20del%20Fuego%20National%20Park%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Coastal trails, lakes and the end of Route 3.",
+        "Wild beauty."
+      ],
+      "visitFlow": [
+        "End of Route 3.",
+        "Coastal trail."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Park fee.",
+        "Hike Senda Costera."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ushuaia-ush-penguins",
+      "name": "Isla Martillo penguins",
+      "kind": "see",
+      "lat": -54.91,
+      "lon": -67.38,
+      "wiki": "Isla Martillo",
+      "summary": "Walk among Magellanic and gentoo penguins.",
+      "expect": "Limited permits, October to March.",
+      "tip": "Book early.",
+      "area": "Harberton",
+      "duration": 8,
+      "price": [
+        200000,
+        300000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Isla%20Martillo%20penguins%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=Isla%20Martillo%20penguins%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Isla%20Martillo%20penguins%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Walk among Magellanic and gentoo penguins.",
+        "Penguin colony."
+      ],
+      "visitFlow": [
+        "Drive to Harberton.",
+        "Island walk."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Limited permits, October to March.",
+        "Book early."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "ushuaia-ush-martial",
+      "name": "Martial Glacier",
+      "kind": "see",
+      "lat": -54.783,
+      "lon": -68.4,
+      "wiki": "Martial Glacier",
+      "summary": "Hike above town to a glacier with views.",
+      "expect": "Steep.",
+      "tip": "Go on a clear day.",
+      "area": "North",
+      "duration": 4,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Martial%20Glacier%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=Martial%20Glacier%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Martial%20Glacier%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Hike above town to a glacier with views.",
+        "Town views."
+      ],
+      "visitFlow": [
+        "Hike.",
+        "Glacier view."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Steep.",
+        "Go on a clear day."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ushuaia-ush-prison",
+      "name": "End of the World Prison Museum",
+      "kind": "see",
+      "lat": -54.806,
+      "lon": -68.295,
+      "wiki": "Ushuaia Prison",
+      "summary": "The old penal colony that founded the town.",
+      "expect": "Allow 2 hours.",
+      "tip": "See the original wing.",
+      "area": "Centro",
+      "duration": 2,
+      "price": [
+        30000,
+        40000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=End%20of%20the%20World%20Prison%20Museum%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=End%20of%20the%20World%20Prison%20Museum%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=End%20of%20the%20World%20Prison%20Museum%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The old penal colony that founded the town.",
+        "Unusual history."
+      ],
+      "visitFlow": [
+        "Cells.",
+        "Exhibits."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "See the original wing."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ushuaia-ush-laguna",
+      "name": "Laguna Esmeralda",
+      "kind": "see",
+      "lat": -54.67,
+      "lon": -68.14,
+      "wiki": "Laguna Esmeralda",
+      "summary": "Emerald lake hike through peat bogs.",
+      "expect": "Muddy.",
+      "tip": "Waterproof boots.",
+      "area": "Valley",
+      "duration": 5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Laguna%20Esmeralda%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=Laguna%20Esmeralda%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Laguna%20Esmeralda%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Emerald lake hike through peat bogs.",
+        "Popular hike."
+      ],
+      "visitFlow": [
+        "Trail.",
+        "Lake."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Muddy.",
+        "Waterproof boots."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ushuaia-ush-centolla",
+      "name": "King crab",
+      "kind": "eat",
+      "lat": -54.8,
+      "lon": -68.3,
+      "wiki": "Lithodes santolla",
+      "summary": "Fuegian king crab, a local delicacy.",
+      "expect": "Pricey.",
+      "tip": "Order centolla gratinada.",
+      "area": "Centro",
+      "duration": 1.5,
+      "price": [
+        30000,
+        60000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=King%20crab%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=King%20crab%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=King%20crab%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fuegian king crab, a local delicacy.",
+        "Ushuaia speciality."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Pricey.",
+        "Order centolla gratinada."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Centolla"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "ushuaia-ush-lamb",
+      "name": "Fuegian lamb",
+      "kind": "eat",
+      "lat": -54.8,
+      "lon": -68.3,
+      "wiki": "Cordero patagónico",
+      "summary": "Lamb roasted on a cross.",
+      "expect": "Parrillas.",
+      "tip": "Share with friends.",
+      "area": "Centro",
+      "duration": 2,
+      "price": [
+        25000,
+        40000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fuegian%20lamb%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=Fuegian%20lamb%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fuegian%20lamb%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Lamb roasted on a cross.",
+        "Patagonian dinner."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Parrillas.",
+        "Share with friends."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Argentine",
+      "mustOrder": [
+        "Cordero"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "ushuaia-ush-chocolate",
+      "name": "Hot chocolate cafés",
+      "kind": "eat",
+      "lat": -54.8,
+      "lon": -68.3,
+      "wiki": "Hot chocolate",
+      "summary": "Warming cafés with views.",
+      "expect": "Afternoon.",
+      "tip": "Try a submarino.",
+      "area": "Centro",
+      "duration": 0.5,
+      "price": [
+        4000,
+        8000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hot%20chocolate%20caf%C3%A9s%2C%20Ushuaia",
+        "https://www.google.com/maps/search/?api=1&query=Hot%20chocolate%20caf%C3%A9s%2C%20Ushuaia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hot%20chocolate%20caf%C3%A9s%2C%20Ushuaia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Warming cafés with views.",
+        "Cosy break."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Afternoon.",
+        "Try a submarino."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Café",
+      "mustOrder": [
+        "Submarino"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

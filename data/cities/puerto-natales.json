@@ -1,0 +1,522 @@
+{
+  "id": "puerto-natales",
+  "name": "Puerto Natales · Torres del Paine",
+  "country": "Chile",
+  "region": "South America",
+  "lat": -51.7236,
+  "lon": -72.4875,
+  "wiki": "Torres del Paine National Park",
+  "tagline": "Base for the granite towers of Torres del Paine",
+  "summary": "Puerto Natales is a fjord-side town and the base for Torres del Paine, one of the world's great national parks. Hike to the base of the granite towers, trek the W circuit past glaciers and lakes, and look for guanacos and pumas.",
+  "days": 4,
+  "bestMonths": [
+    11,
+    12,
+    1,
+    2,
+    3
+  ],
+  "seasonNote": "November to March is the trekking season with long days and strong winds.",
+  "arrival": "Fly to Puerto Natales or Punta Arenas; buses from El Calafate.",
+  "gettingAround": "Park buses and tours; rent a car.",
+  "cashTip": "Cards are common; carry pesos for buses, small shops and park fees in remote areas.",
+  "dailyBudget": [
+    60000,
+    200000
+  ],
+  "currency": "CLP",
+  "cashPerDay": [
+    15000,
+    40000
+  ],
+  "foodTip": "King crab, lamb and calafate sours.",
+  "buyTip": "Woollens and local crafts.",
+  "baseArea": "Puerto Natales or park lodges",
+  "connections": [
+    {
+      "to": "el-calafate",
+      "mode": "Bus",
+      "minutes": 330,
+      "note": "Cross-border buses."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Puerto Natales on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Torres_del_Paine_National_Park",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Puerto%20Natales%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Puerto%20Natales%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Torres del Paine",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "puerto-natales-pnt-towers",
+      "name": "Base of the Towers hike",
+      "kind": "see",
+      "lat": -50.942,
+      "lon": -72.969,
+      "wiki": "Torres del Paine",
+      "summary": "Full-day hike to the granite towers above a glacial lake.",
+      "expect": "Park entry required; long and steep.",
+      "tip": "Start very early.",
+      "area": "Park",
+      "duration": 10,
+      "price": [
+        49000,
+        49000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Base%20of%20the%20Towers%20hike%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=Base%20of%20the%20Towers%20hike%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Base%20of%20the%20Towers%20hike%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Full-day hike to the granite towers above a glacial lake.",
+        "Iconic view."
+      ],
+      "visitFlow": [
+        "Trailhead.",
+        "Valley.",
+        "Mirador Base Torres."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Park entry required; long and steep.",
+        "Start very early."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "puerto-natales-pnt-w",
+      "name": "W Trek",
+      "kind": "see",
+      "lat": -51,
+      "lon": -73,
+      "wiki": "W Trek",
+      "summary": "Classic 4-5 day trek past French Valley and Grey Glacier.",
+      "expect": "Book refugios months ahead.",
+      "tip": "Book early.",
+      "area": "Park",
+      "duration": 40,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=W%20Trek%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=W%20Trek%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=W%20Trek%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Classic 4-5 day trek past French Valley and Grey Glacier.",
+        "Bucket-list trek."
+      ],
+      "visitFlow": [
+        "Base Torres.",
+        "French Valley.",
+        "Grey Glacier."
+      ],
+      "bestFor": "Visitors interested in active exploration and landscapes and wildlife",
+      "tradeoffs": [
+        "Book refugios months ahead.",
+        "Book early."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "puerto-natales-pnt-grey",
+      "name": "Grey Glacier",
+      "kind": "see",
+      "lat": -51.01,
+      "lon": -73.2,
+      "wiki": "Grey Glacier",
+      "summary": "Boat among blue icebergs to the glacier face.",
+      "expect": "Boat from Hotel Grey.",
+      "tip": "Combine with a hike.",
+      "area": "Park",
+      "duration": 4,
+      "price": [
+        80000,
+        120000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Grey%20Glacier%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=Grey%20Glacier%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Grey%20Glacier%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Boat among blue icebergs to the glacier face.",
+        "Blue ice."
+      ],
+      "visitFlow": [
+        "Boat.",
+        "Glacier face."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Boat from Hotel Grey.",
+        "Combine with a hike."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "puerto-natales-pnt-pehoe",
+      "name": "Lake Pehoé viewpoints",
+      "kind": "see",
+      "lat": -51.06,
+      "lon": -72.98,
+      "wiki": "Lake Pehoé",
+      "summary": "Turquoise lake facing the Cuernos peaks.",
+      "expect": "Short walks.",
+      "tip": "Salto Grande waterfall walk.",
+      "area": "Park",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lake%20Peho%C3%A9%20viewpoints%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=Lake%20Peho%C3%A9%20viewpoints%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lake%20Peho%C3%A9%20viewpoints%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Turquoise lake facing the Cuernos peaks.",
+        "Classic postcard."
+      ],
+      "visitFlow": [
+        "Salto Grande.",
+        "Mirador Cuernos."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Short walks.",
+        "Salto Grande waterfall walk."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "puerto-natales-pnt-milodon",
+      "name": "Milodon Cave",
+      "kind": "see",
+      "lat": -51.568,
+      "lon": -72.617,
+      "wiki": "Cueva del Milodón",
+      "summary": "Huge cave where giant sloth remains were found.",
+      "expect": "On the road to the park.",
+      "tip": "Stop on the way.",
+      "area": "Natales",
+      "duration": 1.5,
+      "price": [
+        10000,
+        10000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Milodon%20Cave%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=Milodon%20Cave%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Milodon%20Cave%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Huge cave where giant sloth remains were found.",
+        "Prehistoric site."
+      ],
+      "visitFlow": [
+        "Cave.",
+        "Replica."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "On the road to the park.",
+        "Stop on the way."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "puerto-natales-pnt-town",
+      "name": "Puerto Natales waterfront",
+      "kind": "see",
+      "lat": -51.7236,
+      "lon": -72.4875,
+      "wiki": "Puerto Natales",
+      "summary": "Fjord views and swans along the coast.",
+      "expect": "Windy.",
+      "tip": "Walk at sunset.",
+      "area": "Town",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Puerto%20Natales%20waterfront%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=Puerto%20Natales%20waterfront%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Puerto%20Natales%20waterfront%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Fjord views and swans along the coast.",
+        "Gateway town."
+      ],
+      "visitFlow": [
+        "Waterfront.",
+        "Mano sculpture."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Windy.",
+        "Walk at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "puerto-natales-pnt-lamb",
+      "name": "Magallanes lamb",
+      "kind": "eat",
+      "lat": -51.72,
+      "lon": -72.49,
+      "wiki": "Lamb",
+      "summary": "Lamb roasted for hours.",
+      "expect": "Restaurants.",
+      "tip": "Book after a long hike.",
+      "area": "Town",
+      "duration": 2,
+      "price": [
+        20000,
+        35000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Magallanes%20lamb%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=Magallanes%20lamb%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Magallanes%20lamb%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Lamb roasted for hours.",
+        "Patagonian feast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Restaurants.",
+        "Book after a long hike."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Chilean",
+      "mustOrder": [
+        "Cordero"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "puerto-natales-pnt-crab",
+      "name": "King crab",
+      "kind": "eat",
+      "lat": -51.72,
+      "lon": -72.49,
+      "wiki": "Centolla",
+      "summary": "Southern king crab.",
+      "expect": "Pricey.",
+      "tip": "Try pastel de centolla.",
+      "area": "Town",
+      "duration": 1.5,
+      "price": [
+        25000,
+        45000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=King%20crab%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=King%20crab%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=King%20crab%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Southern king crab.",
+        "Local delicacy."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Pricey.",
+        "Try pastel de centolla."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Chilean",
+      "mustOrder": [
+        "Centolla"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "puerto-natales-pnt-sour",
+      "name": "Calafate sour",
+      "kind": "eat",
+      "lat": -51.72,
+      "lon": -72.49,
+      "wiki": "Pisco sour",
+      "summary": "Pisco sour with calafate berries.",
+      "expect": "Bars.",
+      "tip": "Try after the trek.",
+      "area": "Town",
+      "duration": 0.5,
+      "price": [
+        5000,
+        8000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Calafate%20sour%2C%20Puerto%20Natales",
+        "https://www.google.com/maps/search/?api=1&query=Calafate%20sour%2C%20Puerto%20Natales"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Calafate%20sour%2C%20Puerto%20Natales"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pisco sour with calafate berries.",
+        "Patagonian twist."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Bars.",
+        "Try after the trek."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Chilean",
+      "mustOrder": [
+        "Calafate sour"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

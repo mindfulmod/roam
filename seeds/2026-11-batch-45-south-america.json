@@ -1,0 +1,2377 @@
+[
+ {
+  "country": "Argentina",
+  "region": "South America",
+  "currency": "ARS",
+  "cashTip": "Argentine prices and exchange rules change quickly; treat peso prices as rough guides. Cards work widely; foreign cards often get a favourable rate.",
+  "dailyBudget": [
+   70000,
+   180000
+  ],
+  "cashPerDay": [
+   20000,
+   50000
+  ],
+  "id": "bariloche",
+  "name": "Bariloche",
+  "at": [
+   -41.1335,
+   -71.3103
+  ],
+  "wiki": "San Carlos de Bariloche",
+  "cover": "Nahuel Huapi Lake",
+  "seasons": "HHSSSLHHSSSH",
+  "tagline": "Alpine lakes, chocolate and Patagonian peaks",
+  "summary": "Bariloche sits on Nahuel Huapi Lake in Argentina's Lake District, with Alpine-style chalets, chocolate shops and mountains all around. Drive the Circuito Chico, ride to Cerro Campanario's view, ski Cerro Catedral in winter and cruise to Isla Victoria.",
+  "days": 4,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   12,
+   7,
+   8
+  ],
+  "seasonNote": "December to March is hiking and lake season; July and August are ski season.",
+  "arrival": "Bariloche Airport is 20 minutes away; flights from Buenos Aires take 2 hours.",
+  "gettingAround": "Buses along Avenida Bustillo; rent a car for lakes.",
+  "foodTip": "Patagonian lamb, trout and chocolate.",
+  "buyTip": "Chocolate and craft beer.",
+  "baseArea": "Centro or along the lake road",
+  "hotel": [
+   80000,
+   300000
+  ],
+  "connections": [
+   {
+    "to": "buenos-aires",
+    "mode": "Flight",
+    "minutes": 130,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cerro Campanario",
+    "kind": "see",
+    "id": "brc-campanario",
+    "at": [
+     -41.07,
+     -71.472
+    ],
+    "wiki": "Cerro Campanario",
+    "area": "Llao Llao road",
+    "summary": "A chairlift to one of the world's best lake views.",
+    "expect": "Small fee.",
+    "tip": "Go late afternoon.",
+    "why": "Classic panorama.",
+    "flow": [
+     "Chairlift.",
+     "360° view."
+    ],
+    "hours": 1.5,
+    "price": [
+     20000,
+     25000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Circuito Chico",
+    "kind": "see",
+    "id": "brc-circuito",
+    "at": [
+     -41.055,
+     -71.53
+    ],
+    "wiki": "Circuito Chico",
+    "area": "West",
+    "summary": "A scenic lake loop by car or bike past Llao Llao.",
+    "expect": "60 km loop.",
+    "tip": "Bike part of it.",
+    "why": "Lakes and forest.",
+    "flow": [
+     "Llao Llao.",
+     "Punto Panorámico.",
+     "Bahía López."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     30000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Cerro Catedral",
+    "kind": "see",
+    "id": "brc-catedral",
+    "at": [
+     -41.17,
+     -71.44
+    ],
+    "wiki": "Cerro Catedral",
+    "area": "Catedral",
+    "summary": "South America's biggest ski resort, with summer hikes.",
+    "expect": "Winter ski passes.",
+    "tip": "Hike to Refugio Frey in summer.",
+    "why": "Mountain fun.",
+    "flow": [
+     "Gondola.",
+     "Ski or hike."
+    ],
+    "hours": 6,
+    "price": [
+     60000,
+     120000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Isla Victoria and Los Arrayanes",
+    "kind": "see",
+    "id": "brc-victoria",
+    "at": [
+     -40.88,
+     -71.58
+    ],
+    "wiki": "Arrayanes National Park",
+    "area": "Lake",
+    "summary": "Boat to islands with rare cinnamon-coloured myrtle forest.",
+    "expect": "Full-day boat.",
+    "tip": "Book the boat from Puerto Pañuelo.",
+    "why": "Unique forest.",
+    "flow": [
+     "Boat.",
+     "Forest walk."
+    ],
+    "hours": 6,
+    "price": [
+     60000,
+     80000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Centro Cívico",
+    "kind": "see",
+    "id": "brc-centro",
+    "at": [
+     -41.1333,
+     -71.31
+    ],
+    "wiki": "Centro Cívico (Bariloche)",
+    "area": "Centro",
+    "summary": "Stone-and-log civic square with St Bernards for photos.",
+    "expect": "Free.",
+    "tip": "Stroll Mitre street for chocolate.",
+    "why": "Town heart.",
+    "flow": [
+     "Square.",
+     "Mitre street."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Seven Lakes Road",
+    "kind": "see",
+    "id": "brc-siete",
+    "at": [
+     -40.6,
+     -71.5
+    ],
+    "wiki": "Ruta de los Siete Lagos",
+    "area": "North",
+    "summary": "A legendary drive past lakes to San Martín de los Andes.",
+    "expect": "Full day.",
+    "tip": "Stop at each lake.",
+    "why": "Epic road trip.",
+    "flow": [
+     "Drive north.",
+     "Lakes stops."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Chocolate shops",
+    "kind": "eat",
+    "id": "brc-chocolate",
+    "at": [
+     -41.134,
+     -71.305
+    ],
+    "wiki": "Bariloche chocolate",
+    "area": "Mitre street",
+    "venue": "food-area",
+    "summary": "Rama chocolate and fondue.",
+    "expect": "Huge shops.",
+    "tip": "Try Rapa Nui or Mamuschka.",
+    "why": "Bariloche sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5000,
+     15000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Rama chocolate"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Patagonian lamb",
+    "kind": "eat",
+    "id": "brc-lamb",
+    "at": [
+     -41.13,
+     -71.31
+    ],
+    "wiki": "Cordero patagónico",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Lamb slow-roasted on a cross over coals.",
+    "expect": "Parrillas.",
+    "tip": "Share a portion.",
+    "why": "Patagonian feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Cordero al asador"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Craft beer",
+    "kind": "eat",
+    "id": "brc-beer",
+    "at": [
+     -41.05,
+     -71.52
+    ],
+    "wiki": "Cerveza Patagonia",
+    "area": "Circuito Chico",
+    "venue": "food-area",
+    "summary": "Brewery with lake views.",
+    "expect": "Busy at sunset.",
+    "tip": "Try Cerveza Patagonia at Km 24.",
+    "why": "Lake view beers.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     6000,
+     12000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Argentina",
+  "region": "South America",
+  "currency": "ARS",
+  "cashTip": "Argentine prices and exchange rules change quickly; treat peso prices as rough guides. Cards work widely; foreign cards often get a favourable rate.",
+  "dailyBudget": [
+   70000,
+   180000
+  ],
+  "cashPerDay": [
+   20000,
+   50000
+  ],
+  "id": "mendoza",
+  "name": "Mendoza",
+  "at": [
+   -32.8895,
+   -68.8458
+  ],
+  "wiki": "Mendoza, Argentina",
+  "cover": "Mendoza wine",
+  "seasons": "SSHSSLLLSSSH",
+  "tagline": "Malbec country beneath the Andes",
+  "summary": "Mendoza is Argentina's wine capital, with leafy plazas and irrigation channels in the city and hundreds of bodegas in the Andes foothills. Bike between wineries in Maipú, taste Malbec in the Uco Valley and see Aconcagua, the Americas' highest peak.",
+  "days": 4,
+  "bestMonths": [
+   3,
+   4,
+   10,
+   11
+  ],
+  "seasonNote": "Harvest (Vendimia) in March is festive; spring and autumn are mild.",
+  "arrival": "Mendoza Airport is 20 minutes away; flights from Buenos Aires take 2 hours.",
+  "gettingAround": "Walk the city; tours or car for wineries.",
+  "foodTip": "Asado with Malbec and empanadas.",
+  "buyTip": "Wine and olive oil.",
+  "baseArea": "Centro near Plaza Independencia",
+  "hotel": [
+   60000,
+   250000
+  ],
+  "connections": [
+   {
+    "to": "santiago",
+    "mode": "Bus",
+    "minutes": 420,
+    "note": "Spectacular Andes crossing."
+   },
+   {
+    "to": "buenos-aires",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Maipú winery bike tour",
+    "kind": "see",
+    "id": "mdz-maipu",
+    "at": [
+     -32.98,
+     -68.79
+    ],
+    "wiki": "Maipú, Mendoza",
+    "area": "Maipú",
+    "summary": "Cycle between wineries and olive oil farms.",
+    "expect": "Rent bikes locally.",
+    "tip": "Start early.",
+    "why": "Fun wine day.",
+    "flow": [
+     "Bike rental.",
+     "Wineries.",
+     "Olive oil."
+    ],
+    "hours": 5,
+    "price": [
+     20000,
+     50000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Uco Valley wineries",
+    "kind": "see",
+    "id": "mdz-uco",
+    "at": [
+     -33.58,
+     -69.15
+    ],
+    "wiki": "Uco Valley",
+    "area": "Uco Valley",
+    "summary": "High-altitude bodegas with Andes views.",
+    "expect": "90 minutes' drive.",
+    "tip": "Book a long lunch.",
+    "why": "Top Malbec.",
+    "flow": [
+     "Tasting.",
+     "Lunch."
+    ],
+    "hours": 8,
+    "price": [
+     50000,
+     150000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Aconcagua Provincial Park",
+    "kind": "see",
+    "id": "mdz-aconcagua",
+    "at": [
+     -32.83,
+     -69.93
+    ],
+    "wiki": "Aconcagua Provincial Park",
+    "area": "Andes",
+    "summary": "View the highest peak in the Americas.",
+    "expect": "Long day trip.",
+    "tip": "Stop at Puente del Inca.",
+    "why": "Giant mountain.",
+    "flow": [
+     "Drive the Andes.",
+     "Laguna Horcones."
+    ],
+    "hours": 10,
+    "price": [
+     20000,
+     40000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Parque General San Martín",
+    "kind": "see",
+    "id": "mdz-sanmartin",
+    "at": [
+     -32.89,
+     -68.88
+    ],
+    "wiki": "General San Martín Park",
+    "area": "West",
+    "summary": "Huge park with Cerro de la Gloria monument.",
+    "expect": "Free.",
+    "tip": "Climb Cerro de la Gloria.",
+    "why": "City green space.",
+    "flow": [
+     "Lake.",
+     "Monument."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Plaza Independencia",
+    "kind": "see",
+    "id": "mdz-plaza",
+    "at": [
+     -32.8895,
+     -68.8458
+    ],
+    "wiki": "Plaza Independencia (Mendoza)",
+    "area": "Centro",
+    "summary": "Central square with fountains and craft markets.",
+    "expect": "Lively evenings.",
+    "tip": "Walk the four satellite plazas.",
+    "why": "City heart.",
+    "flow": [
+     "Plaza.",
+     "Plaza España."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Cacheuta hot springs",
+    "kind": "see",
+    "id": "mdz-cacheuta",
+    "at": [
+     -33.02,
+     -69.11
+    ],
+    "wiki": "Cacheuta",
+    "area": "Potrerillos",
+    "summary": "Thermal pools in a mountain canyon.",
+    "expect": "Book a day pass.",
+    "tip": "Go midweek.",
+    "why": "Relaxing.",
+    "flow": [
+     "Pools.",
+     "River."
+    ],
+    "hours": 5,
+    "price": [
+     30000,
+     40000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Asado",
+    "kind": "eat",
+    "id": "mdz-asado",
+    "at": [
+     -32.89,
+     -68.84
+    ],
+    "wiki": "Asado",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Grilled beef with chimichurri and Malbec.",
+    "expect": "Parrillas.",
+    "tip": "Order bife de chorizo.",
+    "why": "Argentine classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     20000,
+     40000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Bife de chorizo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mendoza empanadas",
+    "kind": "eat",
+    "id": "mdz-empanadas",
+    "at": [
+     -32.89,
+     -68.845
+    ],
+    "wiki": "Empanada",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Baked empanadas with onion and olive.",
+    "expect": "Snack.",
+    "tip": "Try them with tomato salsa.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2000,
+     5000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Empanadas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Wine bars",
+    "kind": "eat",
+    "id": "mdz-wine",
+    "at": [
+     -32.89,
+     -68.84
+    ],
+    "wiki": "Malbec",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Malbec by the glass in Aristides street.",
+    "expect": "Evening.",
+    "tip": "Try a flight.",
+    "why": "Wine city nights.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     8000,
+     20000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Malbec flight"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Argentina",
+  "region": "South America",
+  "currency": "ARS",
+  "cashTip": "Argentine prices and exchange rules change quickly; treat peso prices as rough guides. Cards work widely; foreign cards often get a favourable rate.",
+  "dailyBudget": [
+   70000,
+   180000
+  ],
+  "cashPerDay": [
+   20000,
+   50000
+  ],
+  "id": "ushuaia",
+  "name": "Ushuaia",
+  "at": [
+   -54.8019,
+   -68.303
+  ],
+  "wiki": "Ushuaia",
+  "cover": "Ushuaia",
+  "seasons": "HHSSLLHHLSSH",
+  "tagline": "The southernmost city, gateway to Antarctica",
+  "summary": "Ushuaia is the 'End of the World' city on the Beagle Channel, ringed by snowy peaks. Sail past sea lions to Les Eclaireurs lighthouse, hike Tierra del Fuego National Park, walk with penguins on Isla Martillo and board Antarctic cruises.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Summer (November to March) is mild with long days; winter brings skiing.",
+  "arrival": "Ushuaia Airport is 10 minutes away; flights from Buenos Aires take 3.5 hours.",
+  "gettingAround": "Taxis and tours.",
+  "foodTip": "King crab (centolla) and Fuegian lamb.",
+  "buyTip": "Penguin souvenirs and 'End of the World' stamps.",
+  "baseArea": "Centro along San Martín",
+  "hotel": [
+   100000,
+   350000
+  ],
+  "connections": [
+   {
+    "to": "buenos-aires",
+    "mode": "Flight",
+    "minutes": 210,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Beagle Channel cruise",
+    "kind": "see",
+    "id": "ush-beagle",
+    "at": [
+     -54.87,
+     -68.13
+    ],
+    "wiki": "Beagle Channel",
+    "area": "Channel",
+    "summary": "Boat past sea lion and cormorant islands to the lighthouse.",
+    "expect": "Half-day.",
+    "tip": "Pick a small boat.",
+    "why": "End of the world sailing.",
+    "flow": [
+     "Sea lions.",
+     "Les Eclaireurs lighthouse."
+    ],
+    "hours": 3,
+    "price": [
+     60000,
+     100000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tierra del Fuego National Park",
+    "kind": "see",
+    "id": "ush-tdf",
+    "at": [
+     -54.84,
+     -68.49
+    ],
+    "wiki": "Tierra del Fuego National Park",
+    "area": "West",
+    "summary": "Coastal trails, lakes and the end of Route 3.",
+    "expect": "Park fee.",
+    "tip": "Hike Senda Costera.",
+    "why": "Wild beauty.",
+    "flow": [
+     "End of Route 3.",
+     "Coastal trail."
+    ],
+    "hours": 6,
+    "price": [
+     30000,
+     40000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Isla Martillo penguins",
+    "kind": "see",
+    "id": "ush-penguins",
+    "at": [
+     -54.91,
+     -67.38
+    ],
+    "wiki": "Isla Martillo",
+    "area": "Harberton",
+    "summary": "Walk among Magellanic and gentoo penguins.",
+    "expect": "Limited permits, October to March.",
+    "tip": "Book early.",
+    "why": "Penguin colony.",
+    "flow": [
+     "Drive to Harberton.",
+     "Island walk."
+    ],
+    "hours": 8,
+    "price": [
+     200000,
+     300000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Martial Glacier",
+    "kind": "see",
+    "id": "ush-martial",
+    "at": [
+     -54.783,
+     -68.4
+    ],
+    "wiki": "Martial Glacier",
+    "area": "North",
+    "summary": "Hike above town to a glacier with views.",
+    "expect": "Steep.",
+    "tip": "Go on a clear day.",
+    "why": "Town views.",
+    "flow": [
+     "Hike.",
+     "Glacier view."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "End of the World Prison Museum",
+    "kind": "see",
+    "id": "ush-prison",
+    "at": [
+     -54.806,
+     -68.295
+    ],
+    "wiki": "Ushuaia Prison",
+    "area": "Centro",
+    "summary": "The old penal colony that founded the town.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the original wing.",
+    "why": "Unusual history.",
+    "flow": [
+     "Cells.",
+     "Exhibits."
+    ],
+    "hours": 2,
+    "price": [
+     30000,
+     40000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Laguna Esmeralda",
+    "kind": "see",
+    "id": "ush-laguna",
+    "at": [
+     -54.67,
+     -68.14
+    ],
+    "wiki": "Laguna Esmeralda",
+    "area": "Valley",
+    "summary": "Emerald lake hike through peat bogs.",
+    "expect": "Muddy.",
+    "tip": "Waterproof boots.",
+    "why": "Popular hike.",
+    "flow": [
+     "Trail.",
+     "Lake."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "King crab",
+    "kind": "eat",
+    "id": "ush-centolla",
+    "at": [
+     -54.8,
+     -68.3
+    ],
+    "wiki": "Lithodes santolla",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Fuegian king crab, a local delicacy.",
+    "expect": "Pricey.",
+    "tip": "Order centolla gratinada.",
+    "why": "Ushuaia speciality.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30000,
+     60000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Centolla"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Fuegian lamb",
+    "kind": "eat",
+    "id": "ush-lamb",
+    "at": [
+     -54.8,
+     -68.3
+    ],
+    "wiki": "Cordero patagónico",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Lamb roasted on a cross.",
+    "expect": "Parrillas.",
+    "tip": "Share with friends.",
+    "why": "Patagonian dinner.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Cordero"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Hot chocolate cafés",
+    "kind": "eat",
+    "id": "ush-chocolate",
+    "at": [
+     -54.8,
+     -68.3
+    ],
+    "wiki": "Hot chocolate",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Warming cafés with views.",
+    "expect": "Afternoon.",
+    "tip": "Try a submarino.",
+    "why": "Cosy break.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4000,
+     8000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Submarino"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Argentina",
+  "region": "South America",
+  "currency": "ARS",
+  "cashTip": "Argentine prices and exchange rules change quickly; treat peso prices as rough guides. Cards work widely; foreign cards often get a favourable rate.",
+  "dailyBudget": [
+   70000,
+   180000
+  ],
+  "cashPerDay": [
+   20000,
+   50000
+  ],
+  "id": "el-calafate",
+  "name": "El Calafate",
+  "at": [
+   -50.3379,
+   -72.2648
+  ],
+  "wiki": "El Calafate",
+  "cover": "Perito Moreno Glacier",
+  "seasons": "HHSSLLLLSSHH",
+  "tagline": "Gateway to the Perito Moreno Glacier",
+  "summary": "El Calafate is a small town on turquoise Lago Argentino and the base for Los Glaciares National Park. Walk the boardwalks facing the thundering Perito Moreno Glacier, trek on the ice, and head to El Chaltén for Fitz Roy hikes.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "October to April is the season; winter is cold and quiet.",
+  "arrival": "El Calafate Airport is 20 minutes away; flights from Buenos Aires and Ushuaia.",
+  "gettingAround": "Tours and buses to the glacier and El Chaltén.",
+  "foodTip": "Patagonian lamb and calafate-berry desserts.",
+  "buyTip": "Calafate jam and woollens.",
+  "baseArea": "Centro",
+  "hotel": [
+   90000,
+   350000
+  ],
+  "connections": [
+   {
+    "to": "ushuaia",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Seasonal flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Perito Moreno Glacier",
+    "kind": "see",
+    "id": "fte-perito",
+    "at": [
+     -50.4962,
+     -73.1375
+    ],
+    "wiki": "Perito Moreno Glacier",
+    "area": "Los Glaciares",
+    "summary": "Boardwalks face a 70 m wall of ice that calves into the lake.",
+    "expect": "National park fee.",
+    "tip": "Stay a few hours to see ice fall.",
+    "why": "Unmissable.",
+    "flow": [
+     "Boardwalks.",
+     "Boat to the face."
+    ],
+    "hours": 5,
+    "price": [
+     45000,
+     45000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Glacier mini-trekking",
+    "kind": "see",
+    "id": "fte-minitrek",
+    "at": [
+     -50.48,
+     -73.07
+    ],
+    "wiki": "Perito Moreno Glacier",
+    "area": "Los Glaciares",
+    "summary": "Crampon walk on the glacier with whisky on ice.",
+    "expect": "Age limits.",
+    "tip": "Book weeks ahead.",
+    "why": "Walk on ice.",
+    "flow": [
+     "Boat.",
+     "Crampons.",
+     "Ice trek."
+    ],
+    "hours": 6,
+    "price": [
+     200000,
+     300000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "El Chaltén and Fitz Roy",
+    "kind": "see",
+    "id": "fte-chalten",
+    "at": [
+     -49.3315,
+     -72.886
+    ],
+    "wiki": "El Chaltén",
+    "area": "El Chaltén",
+    "summary": "Argentina's trekking capital with Laguna de los Tres.",
+    "expect": "3 hours by bus.",
+    "tip": "Stay overnight.",
+    "why": "Iconic peaks.",
+    "flow": [
+     "Bus.",
+     "Hike to Laguna de los Tres."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Upsala and Spegazzini glaciers cruise",
+    "kind": "see",
+    "id": "fte-upsala",
+    "at": [
+     -50.05,
+     -73.2
+    ],
+    "wiki": "Upsala Glacier",
+    "area": "Lago Argentino",
+    "summary": "Boat among icebergs to more glaciers.",
+    "expect": "Full day.",
+    "tip": "Sit on deck.",
+    "why": "Ice world.",
+    "flow": [
+     "Boat.",
+     "Icebergs."
+    ],
+    "hours": 8,
+    "price": [
+     150000,
+     250000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Laguna Nimez",
+    "kind": "see",
+    "id": "fte-nimez",
+    "at": [
+     -50.32,
+     -72.27
+    ],
+    "wiki": "Laguna Nimez",
+    "area": "Town",
+    "summary": "Bird reserve with flamingos.",
+    "expect": "Small fee.",
+    "tip": "Go at dawn.",
+    "why": "Birdlife.",
+    "flow": [
+     "Walk.",
+     "Birds."
+    ],
+    "hours": 1.5,
+    "price": [
+     5000,
+     5000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Glaciarium",
+    "kind": "see",
+    "id": "fte-glaciarium",
+    "at": [
+     -50.34,
+     -72.32
+    ],
+    "wiki": "Glaciarium",
+    "area": "Town",
+    "summary": "Ice museum with an ice bar.",
+    "expect": "Good on bad-weather days.",
+    "tip": "Try the ice bar.",
+    "why": "Learn about glaciers.",
+    "flow": [
+     "Exhibits.",
+     "Ice bar."
+    ],
+    "hours": 2,
+    "price": [
+     30000,
+     40000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Technology",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Patagonian lamb",
+    "kind": "eat",
+    "id": "fte-lamb",
+    "at": [
+     -50.338,
+     -72.265
+    ],
+    "wiki": "Cordero patagónico",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Lamb slow-roasted over fire.",
+    "expect": "Parrillas.",
+    "tip": "Book a table.",
+    "why": "Patagonian staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Cordero"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Calafate berry treats",
+    "kind": "eat",
+    "id": "fte-calafate",
+    "at": [
+     -50.338,
+     -72.264
+    ],
+    "wiki": "Berberis microphylla",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Ice cream and jam made from calafate berries.",
+    "expect": "Legend says eat one and you'll return.",
+    "tip": "Try the ice cream.",
+    "why": "Local legend.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     3000,
+     6000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Calafate ice cream"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Lake trout",
+    "kind": "eat",
+    "id": "fte-trout",
+    "at": [
+     -50.338,
+     -72.265
+    ],
+    "wiki": "Trout",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Fresh trout from Patagonian lakes.",
+    "expect": "Restaurants.",
+    "tip": "Order grilled.",
+    "why": "Lake fish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20000,
+     35000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Trout"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Chile",
+  "region": "South America",
+  "currency": "CLP",
+  "cashTip": "Cards are common; carry pesos for buses, small shops and park fees in remote areas.",
+  "dailyBudget": [
+   60000,
+   200000
+  ],
+  "cashPerDay": [
+   15000,
+   40000
+  ],
+  "id": "puerto-natales",
+  "name": "Puerto Natales · Torres del Paine",
+  "at": [
+   -51.7236,
+   -72.4875
+  ],
+  "wiki": "Torres del Paine National Park",
+  "cover": "Torres del Paine",
+  "seasons": "HHSSLLLLSSHH",
+  "tagline": "Base for the granite towers of Torres del Paine",
+  "summary": "Puerto Natales is a fjord-side town and the base for Torres del Paine, one of the world's great national parks. Hike to the base of the granite towers, trek the W circuit past glaciers and lakes, and look for guanacos and pumas.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "November to March is the trekking season with long days and strong winds.",
+  "arrival": "Fly to Puerto Natales or Punta Arenas; buses from El Calafate.",
+  "gettingAround": "Park buses and tours; rent a car.",
+  "foodTip": "King crab, lamb and calafate sours.",
+  "buyTip": "Woollens and local crafts.",
+  "baseArea": "Puerto Natales or park lodges",
+  "hotel": [
+   80000,
+   400000
+  ],
+  "connections": [
+   {
+    "to": "el-calafate",
+    "mode": "Bus",
+    "minutes": 330,
+    "note": "Cross-border buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Base of the Towers hike",
+    "kind": "see",
+    "id": "pnt-towers",
+    "at": [
+     -50.942,
+     -72.969
+    ],
+    "wiki": "Torres del Paine",
+    "area": "Park",
+    "summary": "Full-day hike to the granite towers above a glacial lake.",
+    "expect": "Park entry required; long and steep.",
+    "tip": "Start very early.",
+    "why": "Iconic view.",
+    "flow": [
+     "Trailhead.",
+     "Valley.",
+     "Mirador Base Torres."
+    ],
+    "hours": 10,
+    "price": [
+     49000,
+     49000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "W Trek",
+    "kind": "see",
+    "id": "pnt-w",
+    "at": [
+     -51.0,
+     -73.0
+    ],
+    "wiki": "W Trek",
+    "area": "Park",
+    "summary": "Classic 4-5 day trek past French Valley and Grey Glacier.",
+    "expect": "Book refugios months ahead.",
+    "tip": "Book early.",
+    "why": "Bucket-list trek.",
+    "flow": [
+     "Base Torres.",
+     "French Valley.",
+     "Grey Glacier."
+    ],
+    "hours": 40,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Grey Glacier",
+    "kind": "see",
+    "id": "pnt-grey",
+    "at": [
+     -51.01,
+     -73.2
+    ],
+    "wiki": "Grey Glacier",
+    "area": "Park",
+    "summary": "Boat among blue icebergs to the glacier face.",
+    "expect": "Boat from Hotel Grey.",
+    "tip": "Combine with a hike.",
+    "why": "Blue ice.",
+    "flow": [
+     "Boat.",
+     "Glacier face."
+    ],
+    "hours": 4,
+    "price": [
+     80000,
+     120000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Lake Pehoé viewpoints",
+    "kind": "see",
+    "id": "pnt-pehoe",
+    "at": [
+     -51.06,
+     -72.98
+    ],
+    "wiki": "Lake Pehoé",
+    "area": "Park",
+    "summary": "Turquoise lake facing the Cuernos peaks.",
+    "expect": "Short walks.",
+    "tip": "Salto Grande waterfall walk.",
+    "why": "Classic postcard.",
+    "flow": [
+     "Salto Grande.",
+     "Mirador Cuernos."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Milodon Cave",
+    "kind": "see",
+    "id": "pnt-milodon",
+    "at": [
+     -51.568,
+     -72.617
+    ],
+    "wiki": "Cueva del Milodón",
+    "area": "Natales",
+    "summary": "Huge cave where giant sloth remains were found.",
+    "expect": "On the road to the park.",
+    "tip": "Stop on the way.",
+    "why": "Prehistoric site.",
+    "flow": [
+     "Cave.",
+     "Replica."
+    ],
+    "hours": 1.5,
+    "price": [
+     10000,
+     10000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Puerto Natales waterfront",
+    "kind": "see",
+    "id": "pnt-town",
+    "at": [
+     -51.7236,
+     -72.4875
+    ],
+    "wiki": "Puerto Natales",
+    "area": "Town",
+    "summary": "Fjord views and swans along the coast.",
+    "expect": "Windy.",
+    "tip": "Walk at sunset.",
+    "why": "Gateway town.",
+    "flow": [
+     "Waterfront.",
+     "Mano sculpture."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Magallanes lamb",
+    "kind": "eat",
+    "id": "pnt-lamb",
+    "at": [
+     -51.72,
+     -72.49
+    ],
+    "wiki": "Lamb",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Lamb roasted for hours.",
+    "expect": "Restaurants.",
+    "tip": "Book after a long hike.",
+    "why": "Patagonian feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     20000,
+     35000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Cordero"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "King crab",
+    "kind": "eat",
+    "id": "pnt-crab",
+    "at": [
+     -51.72,
+     -72.49
+    ],
+    "wiki": "Centolla",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Southern king crab.",
+    "expect": "Pricey.",
+    "tip": "Try pastel de centolla.",
+    "why": "Local delicacy.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25000,
+     45000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Centolla"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Calafate sour",
+    "kind": "eat",
+    "id": "pnt-sour",
+    "at": [
+     -51.72,
+     -72.49
+    ],
+    "wiki": "Pisco sour",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Pisco sour with calafate berries.",
+    "expect": "Bars.",
+    "tip": "Try after the trek.",
+    "why": "Patagonian twist.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5000,
+     8000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Calafate sour"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix are everywhere; carry a little cash for beach vendors and keep valuables out of sight.",
+  "dailyBudget": [
+   250,
+   600
+  ],
+  "cashPerDay": [
+   50,
+   120
+  ],
+  "id": "salvador",
+  "name": "Salvador",
+  "at": [
+   -12.9777,
+   -38.5016
+  ],
+  "wiki": "Salvador, Bahia",
+  "cover": "Pelourinho",
+  "seasons": "HHHSSLLLSSSH",
+  "tagline": "Afro-Brazilian heart with a colourful old town",
+  "summary": "Salvador da Bahia was Brazil's first capital and the heart of Afro-Brazilian culture. Explore the pastel Pelourinho, ride the Lacerda Elevator, hear drumming and capoeira, eat acarajé and relax on beaches.",
+  "days": 3,
+  "bestMonths": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "September to March is drier; Carnival in February is huge.",
+  "arrival": "Salvador Airport is 40 minutes away.",
+  "gettingAround": "Uber and walking in the historic centre.",
+  "foodTip": "Acarajé, moqueca baiana and cocada.",
+  "buyTip": "Fitinhas ribbons, art and percussion instruments.",
+  "baseArea": "Pelourinho or Barra",
+  "hotel": [
+   200,
+   600
+  ],
+  "connections": [
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Flight",
+    "minutes": 120,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Pelourinho",
+    "kind": "see",
+    "id": "ssa-pelourinho",
+    "at": [
+     -12.973,
+     -38.508
+    ],
+    "wiki": "Pelourinho",
+    "area": "Historic centre",
+    "summary": "UNESCO square of colourful colonial houses and churches.",
+    "expect": "Watch pickpockets.",
+    "tip": "Go on a Tuesday night.",
+    "why": "Colonial heart.",
+    "flow": [
+     "Largo.",
+     "Churches.",
+     "Drums."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "São Francisco Church",
+    "kind": "see",
+    "id": "ssa-saofrancisco",
+    "at": [
+     -12.975,
+     -38.509
+    ],
+    "wiki": "Church and Convent of São Francisco",
+    "area": "Historic centre",
+    "summary": "Baroque church covered in gold leaf.",
+    "expect": "Small fee.",
+    "tip": "See the azulejo cloister.",
+    "why": "Golden baroque.",
+    "flow": [
+     "Church.",
+     "Cloister."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Art"
+    ]
+   },
+   {
+    "name": "Lacerda Elevator",
+    "kind": "see",
+    "id": "ssa-lacerda",
+    "at": [
+     -12.9741,
+     -38.513
+    ],
+    "wiki": "Lacerda Elevator",
+    "area": "Comércio",
+    "summary": "Art deco lift linking upper and lower town.",
+    "expect": "Cheap.",
+    "tip": "Go down to Mercado Modelo.",
+    "why": "City landmark.",
+    "flow": [
+     "Lift.",
+     "View."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     1
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Farol da Barra",
+    "kind": "see",
+    "id": "ssa-barra",
+    "at": [
+     -13.0103,
+     -38.5326
+    ],
+    "wiki": "Farol da Barra",
+    "area": "Barra",
+    "summary": "Lighthouse and fort with sunset crowds.",
+    "expect": "Busy.",
+    "tip": "Watch sunset.",
+    "why": "Sunset spot.",
+    "flow": [
+     "Fort.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Bonfim Church",
+    "kind": "see",
+    "id": "ssa-bonfim",
+    "at": [
+     -12.923,
+     -38.507
+    ],
+    "wiki": "Church of Nosso Senhor do Bonfim",
+    "area": "Bonfim",
+    "summary": "Famous church with wish ribbons.",
+    "expect": "Free.",
+    "tip": "Tie a fitinha.",
+    "why": "Faith and tradition.",
+    "flow": [
+     "Church.",
+     "Ribbons."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Capoeira and drumming",
+    "kind": "see",
+    "id": "ssa-capoeira",
+    "at": [
+     -12.972,
+     -38.508
+    ],
+    "wiki": "Capoeira",
+    "area": "Pelourinho",
+    "summary": "Watch capoeira and Olodum drumming.",
+    "expect": "Shows and street rodas.",
+    "tip": "Join a class.",
+    "why": "Living culture.",
+    "flow": [
+     "Show.",
+     "Class."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment",
+     "History"
+    ]
+   },
+   {
+    "name": "Acarajé",
+    "kind": "eat",
+    "id": "ssa-acaraje",
+    "at": [
+     -13.0,
+     -38.5
+    ],
+    "wiki": "Acarajé",
+    "area": "Rio Vermelho",
+    "venue": "food-area",
+    "summary": "Black-eyed-pea fritters with vatapá and shrimp.",
+    "expect": "Street stands.",
+    "tip": "Try Acarajé da Dinha.",
+    "why": "Bahian street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bahian",
+    "order": [
+     "Acarajé"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Moqueca baiana",
+    "kind": "eat",
+    "id": "ssa-moqueca",
+    "at": [
+     -12.97,
+     -38.51
+    ],
+    "wiki": "Moqueca",
+    "area": "Pelourinho",
+    "venue": "food-area",
+    "summary": "Fish stew with palm oil and coconut.",
+    "expect": "Shared pots.",
+    "tip": "Pair with farofa.",
+    "why": "Bahian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     160
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bahian",
+    "order": [
+     "Moqueca"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cocada",
+    "kind": "eat",
+    "id": "ssa-cocada",
+    "at": [
+     -12.973,
+     -38.508
+    ],
+    "wiki": "Cocada",
+    "area": "Pelourinho",
+    "venue": "food-area",
+    "summary": "Coconut sweets.",
+    "expect": "Street sellers.",
+    "tip": "Try burnt cocada.",
+    "why": "Sweet bite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.2,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bahian",
+    "order": [
+     "Cocada"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Bolivia",
+  "region": "South America",
+  "currency": "BOB",
+  "cashTip": "Carry small boliviano notes; ATMs can be scarce outside cities. Tours are often paid in cash.",
+  "dailyBudget": [
+   200,
+   600
+  ],
+  "cashPerDay": [
+   100,
+   250
+  ],
+  "id": "uyuni",
+  "name": "Uyuni",
+  "at": [
+   -20.46,
+   -66.825
+  ],
+  "wiki": "Salar de Uyuni",
+  "cover": "Salar de Uyuni",
+  "seasons": "HHHSSHHHSSSH",
+  "tagline": "The world's largest salt flat",
+  "summary": "Uyuni is the gateway to the Salar de Uyuni, a white salt flat stretching to the horizon. Tour by 4x4 past the train cemetery, cactus-covered Isla Incahuasi and, in the wet season, mirror reflections; multi-day trips continue to coloured lagoons with flamingos.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   6,
+   7,
+   8
+  ],
+  "seasonNote": "January to March is the mirror season; June to August is dry, sunny and very cold at night.",
+  "arrival": "Flights from La Paz take 1 hour; buses and trains also run.",
+  "gettingAround": "4x4 tours only.",
+  "foodTip": "Quinoa soup, llama steak and salteñas.",
+  "buyTip": "Salt crafts and alpaca woollens.",
+  "baseArea": "Uyuni town",
+  "hotel": [
+   200,
+   1200
+  ],
+  "connections": [
+   {
+    "to": "la-paz",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Salar de Uyuni day tour",
+    "kind": "see",
+    "id": "uyn-salar",
+    "at": [
+     -20.25,
+     -67.45
+    ],
+    "wiki": "Salar de Uyuni",
+    "area": "Salt flat",
+    "summary": "4x4 across endless white salt, with perspective photos.",
+    "expect": "Sunglasses essential.",
+    "tip": "Bring props for photos.",
+    "why": "Surreal landscape.",
+    "flow": [
+     "Train cemetery.",
+     "Salt flats.",
+     "Incahuasi."
+    ],
+    "hours": 8,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Train Cemetery",
+    "kind": "see",
+    "id": "uyn-trains",
+    "at": [
+     -20.48,
+     -66.83
+    ],
+    "wiki": "Train cemetery (Uyuni)",
+    "area": "Town edge",
+    "summary": "Rusting steam locomotives in the desert.",
+    "expect": "Free.",
+    "tip": "Go at sunset.",
+    "why": "Eerie and photogenic.",
+    "flow": [
+     "Walk.",
+     "Photos."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Isla Incahuasi",
+    "kind": "see",
+    "id": "uyn-incahuasi",
+    "at": [
+     -20.24,
+     -67.625
+    ],
+    "wiki": "Incahuasi",
+    "area": "Salt flat",
+    "summary": "An island of giant cacti in the salt.",
+    "expect": "Small fee.",
+    "tip": "Climb for views.",
+    "why": "Island in salt.",
+    "flow": [
+     "Trail.",
+     "Cacti."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Mirror sunset and stars",
+    "kind": "see",
+    "id": "uyn-sunset",
+    "at": [
+     -20.3,
+     -67.1
+    ],
+    "wiki": "Salar de Uyuni",
+    "area": "Salt flat",
+    "summary": "Wet-season reflections and astonishing night skies.",
+    "expect": "Cold.",
+    "tip": "Book a sunset and stargazing tour.",
+    "why": "Mirror of the sky.",
+    "flow": [
+     "Sunset.",
+     "Stars."
+    ],
+    "hours": 4,
+    "price": [
+     150,
+     300
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Laguna Colorada and Eduardo Avaroa",
+    "kind": "see",
+    "id": "uyn-lagoons",
+    "at": [
+     -22.2,
+     -67.78
+    ],
+    "wiki": "Laguna Colorada",
+    "area": "South Lípez",
+    "summary": "Red lagoon with flamingos on 3-day tours.",
+    "expect": "High altitude; very cold.",
+    "tip": "Take the 3-day tour.",
+    "why": "Otherworldly.",
+    "flow": [
+     "3-day tour.",
+     "Lagoons.",
+     "Geysers."
+    ],
+    "hours": 72,
+    "price": [
+     800,
+     1500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Quinoa soup",
+    "kind": "eat",
+    "id": "uyn-quinoa",
+    "at": [
+     -20.46,
+     -66.825
+    ],
+    "wiki": "Quinoa",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Hearty soup for the cold.",
+    "expect": "Local restaurants.",
+    "tip": "Order sopa de quinua.",
+    "why": "Warming.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bolivian",
+    "order": [
+     "Sopa de quinua"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Llama steak",
+    "kind": "eat",
+    "id": "uyn-llama",
+    "at": [
+     -20.46,
+     -66.825
+    ],
+    "wiki": "Llama meat",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Lean llama steak.",
+    "expect": "Tourist restaurants.",
+    "tip": "Try with quinoa.",
+    "why": "Andean speciality.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     50,
+     90
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bolivian",
+    "order": [
+     "Llama steak"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Salteñas",
+    "kind": "eat",
+    "id": "uyn-saltena",
+    "at": [
+     -20.46,
+     -66.825
+    ],
+    "wiki": "Salteña",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Juicy baked empanadas.",
+    "expect": "Mornings only.",
+    "tip": "Eat before 11am.",
+    "why": "Bolivian brunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bolivian",
+    "order": [
+     "Salteña"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]

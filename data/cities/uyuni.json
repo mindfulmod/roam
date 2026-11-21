@@ -1,0 +1,476 @@
+{
+  "id": "uyuni",
+  "name": "Uyuni",
+  "country": "Bolivia",
+  "region": "South America",
+  "lat": -20.46,
+  "lon": -66.825,
+  "wiki": "Salar de Uyuni",
+  "tagline": "The world's largest salt flat",
+  "summary": "Uyuni is the gateway to the Salar de Uyuni, a white salt flat stretching to the horizon. Tour by 4x4 past the train cemetery, cactus-covered Isla Incahuasi and, in the wet season, mirror reflections; multi-day trips continue to coloured lagoons with flamingos.",
+  "days": 3,
+  "bestMonths": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8
+  ],
+  "seasonNote": "January to March is the mirror season; June to August is dry, sunny and very cold at night.",
+  "arrival": "Flights from La Paz take 1 hour; buses and trains also run.",
+  "gettingAround": "4x4 tours only.",
+  "cashTip": "Carry small boliviano notes; ATMs can be scarce outside cities. Tours are often paid in cash.",
+  "dailyBudget": [
+    200,
+    600
+  ],
+  "currency": "BOB",
+  "cashPerDay": [
+    100,
+    250
+  ],
+  "foodTip": "Quinoa soup, llama steak and salteñas.",
+  "buyTip": "Salt crafts and alpaca woollens.",
+  "baseArea": "Uyuni town",
+  "connections": [
+    {
+      "to": "la-paz",
+      "mode": "Flight",
+      "minutes": 60,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Uyuni on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Uyuni%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Uyuni%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Salar de Uyuni",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "uyuni-uyn-salar",
+      "name": "Salar de Uyuni day tour",
+      "kind": "see",
+      "lat": -20.25,
+      "lon": -67.45,
+      "wiki": "Salar de Uyuni",
+      "summary": "4x4 across endless white salt, with perspective photos.",
+      "expect": "Sunglasses essential.",
+      "tip": "Bring props for photos.",
+      "area": "Salt flat",
+      "duration": 8,
+      "price": [
+        200,
+        400
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salar%20de%20Uyuni%20day%20tour%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Salar%20de%20Uyuni%20day%20tour%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salar%20de%20Uyuni%20day%20tour%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "4x4 across endless white salt, with perspective photos.",
+        "Surreal landscape."
+      ],
+      "visitFlow": [
+        "Train cemetery.",
+        "Salt flats.",
+        "Incahuasi."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Sunglasses essential.",
+        "Bring props for photos."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "uyuni-uyn-trains",
+      "name": "Train Cemetery",
+      "kind": "see",
+      "lat": -20.48,
+      "lon": -66.83,
+      "wiki": "Train cemetery (Uyuni)",
+      "summary": "Rusting steam locomotives in the desert.",
+      "expect": "Free.",
+      "tip": "Go at sunset.",
+      "area": "Town edge",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Train%20Cemetery%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Train%20Cemetery%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Train%20Cemetery%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Rusting steam locomotives in the desert.",
+        "Eerie and photogenic."
+      ],
+      "visitFlow": [
+        "Walk.",
+        "Photos."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free.",
+        "Go at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "uyuni-uyn-incahuasi",
+      "name": "Isla Incahuasi",
+      "kind": "see",
+      "lat": -20.24,
+      "lon": -67.625,
+      "wiki": "Incahuasi",
+      "summary": "An island of giant cacti in the salt.",
+      "expect": "Small fee.",
+      "tip": "Climb for views.",
+      "area": "Salt flat",
+      "duration": 1.5,
+      "price": [
+        30,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Isla%20Incahuasi%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Isla%20Incahuasi%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Isla%20Incahuasi%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "An island of giant cacti in the salt.",
+        "Island in salt."
+      ],
+      "visitFlow": [
+        "Trail.",
+        "Cacti."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Small fee.",
+        "Climb for views."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "uyuni-uyn-sunset",
+      "name": "Mirror sunset and stars",
+      "kind": "see",
+      "lat": -20.3,
+      "lon": -67.1,
+      "wiki": "Salar de Uyuni",
+      "summary": "Wet-season reflections and astonishing night skies.",
+      "expect": "Cold.",
+      "tip": "Book a sunset and stargazing tour.",
+      "area": "Salt flat",
+      "duration": 4,
+      "price": [
+        150,
+        300
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mirror%20sunset%20and%20stars%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Mirror%20sunset%20and%20stars%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mirror%20sunset%20and%20stars%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Wet-season reflections and astonishing night skies.",
+        "Mirror of the sky."
+      ],
+      "visitFlow": [
+        "Sunset.",
+        "Stars."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Cold.",
+        "Book a sunset and stargazing tour."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "uyuni-uyn-lagoons",
+      "name": "Laguna Colorada and Eduardo Avaroa",
+      "kind": "see",
+      "lat": -22.2,
+      "lon": -67.78,
+      "wiki": "Laguna Colorada",
+      "summary": "Red lagoon with flamingos on 3-day tours.",
+      "expect": "High altitude; very cold.",
+      "tip": "Take the 3-day tour.",
+      "area": "South Lípez",
+      "duration": 72,
+      "price": [
+        800,
+        1500
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Laguna%20Colorada%20and%20Eduardo%20Avaroa%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Laguna%20Colorada%20and%20Eduardo%20Avaroa%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Laguna%20Colorada%20and%20Eduardo%20Avaroa%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Red lagoon with flamingos on 3-day tours.",
+        "Otherworldly."
+      ],
+      "visitFlow": [
+        "3-day tour.",
+        "Lagoons.",
+        "Geysers."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "High altitude; very cold.",
+        "Take the 3-day tour."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "uyuni-uyn-quinoa",
+      "name": "Quinoa soup",
+      "kind": "eat",
+      "lat": -20.46,
+      "lon": -66.825,
+      "wiki": "Quinoa",
+      "summary": "Hearty soup for the cold.",
+      "expect": "Local restaurants.",
+      "tip": "Order sopa de quinua.",
+      "area": "Town",
+      "duration": 1,
+      "price": [
+        20,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Quinoa%20soup%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Quinoa%20soup%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Quinoa%20soup%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Hearty soup for the cold.",
+        "Warming."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Local restaurants.",
+        "Order sopa de quinua."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bolivian",
+      "mustOrder": [
+        "Sopa de quinua"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "uyuni-uyn-llama",
+      "name": "Llama steak",
+      "kind": "eat",
+      "lat": -20.46,
+      "lon": -66.825,
+      "wiki": "Llama meat",
+      "summary": "Lean llama steak.",
+      "expect": "Tourist restaurants.",
+      "tip": "Try with quinoa.",
+      "area": "Town",
+      "duration": 1,
+      "price": [
+        50,
+        90
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Llama%20steak%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Llama%20steak%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Llama%20steak%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Lean llama steak.",
+        "Andean speciality."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Tourist restaurants.",
+        "Try with quinoa."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bolivian",
+      "mustOrder": [
+        "Llama steak"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "uyuni-uyn-saltena",
+      "name": "Salteñas",
+      "kind": "eat",
+      "lat": -20.46,
+      "lon": -66.825,
+      "wiki": "Salteña",
+      "summary": "Juicy baked empanadas.",
+      "expect": "Mornings only.",
+      "tip": "Eat before 11am.",
+      "area": "Town",
+      "duration": 0.5,
+      "price": [
+        8,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salte%C3%B1as%2C%20Uyuni",
+        "https://www.google.com/maps/search/?api=1&query=Salte%C3%B1as%2C%20Uyuni"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salte%C3%B1as%2C%20Uyuni"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Juicy baked empanadas.",
+        "Bolivian brunch."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Mornings only.",
+        "Eat before 11am."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bolivian",
+      "mustOrder": [
+        "Salteña"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
