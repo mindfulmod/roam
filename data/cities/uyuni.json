@@ -109,14 +109,23 @@
         "Bring props for photos."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 182252,
+          "period": "202511-202610",
+          "title": "Salar de Uyuni",
+          "url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uyuni-uyn-trains",
       "name": "Train Cemetery",
       "kind": "see",
-      "lat": -20.48,
-      "lon": -66.83,
+      "lat": -20.48082,
+      "lon": -66.83702,
       "wiki": "Train cemetery (Uyuni)",
       "summary": "Rusting steam locomotives in the desert.",
       "expect": "Free.",
@@ -154,8 +163,7 @@
       "tradeoffs": [
         "Free.",
         "Go at sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "uyuni-uyn-incahuasi",
@@ -203,7 +211,16 @@
         "Climb for views."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5080,
+          "period": "202511-202610",
+          "title": "Incahuasi",
+          "url": "https://en.wikipedia.org/wiki/Incahuasi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uyuni-uyn-sunset",
@@ -250,14 +267,23 @@
         "Book a sunset and stargazing tour."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 182252,
+          "period": "202511-202610",
+          "title": "Salar de Uyuni",
+          "url": "https://en.wikipedia.org/wiki/Salar_de_Uyuni",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uyuni-uyn-lagoons",
       "name": "Laguna Colorada and Eduardo Avaroa",
       "kind": "see",
-      "lat": -22.2,
-      "lon": -67.78,
+      "lat": -22.19861,
+      "lon": -67.78111,
       "wiki": "Laguna Colorada",
       "summary": "Red lagoon with flamingos on 3-day tours.",
       "expect": "High altitude; very cold.",
@@ -298,8 +324,16 @@
         "High altitude; very cold.",
         "Take the 3-day tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11038,
+          "period": "202511-202610",
+          "title": "Laguna Colorada",
+          "url": "https://en.wikipedia.org/wiki/Laguna_Colorada",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uyuni-uyn-quinoa",
@@ -472,5 +506,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

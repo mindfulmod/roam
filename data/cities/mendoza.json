@@ -70,8 +70,8 @@
       "id": "mendoza-mdz-maipu",
       "name": "Maipú winery bike tour",
       "kind": "see",
-      "lat": -32.98,
-      "lon": -68.79,
+      "lat": -32.96667,
+      "lon": -68.75,
       "wiki": "Maipú, Mendoza",
       "summary": "Cycle between wineries and olive oil farms.",
       "expect": "Rent bikes locally.",
@@ -112,14 +112,22 @@
         "Rent bikes locally.",
         "Start early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2978,
+          "period": "202511-202610",
+          "title": "Maipú, Mendoza",
+          "url": "https://en.wikipedia.org/wiki/Maip%C3%BA%2C_Mendoza",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mendoza-mdz-uco",
       "name": "Uco Valley wineries",
       "kind": "see",
-      "lat": -33.58,
-      "lon": -69.15,
+      "lat": -33.61667,
+      "lon": -69.13333,
       "wiki": "Uco Valley",
       "summary": "High-altitude bodegas with Andes views.",
       "expect": "90 minutes' drive.",
@@ -159,15 +167,23 @@
         "90 minutes' drive.",
         "Book a long lunch."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5957,
+          "period": "202511-202610",
+          "title": "Uco Valley",
+          "url": "https://en.wikipedia.org/wiki/Uco_Valley",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mendoza-mdz-aconcagua",
       "name": "Aconcagua Provincial Park",
       "kind": "see",
-      "lat": -32.83,
-      "lon": -69.93,
+      "lat": -32.76389,
+      "lon": -69.79583,
       "wiki": "Aconcagua Provincial Park",
       "summary": "View the highest peak in the Americas.",
       "expect": "Long day trip.",
@@ -207,15 +223,23 @@
         "Long day trip.",
         "Stop at Puente del Inca."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2071,
+          "period": "202511-202610",
+          "title": "Aconcagua Provincial Park",
+          "url": "https://en.wikipedia.org/wiki/Aconcagua_Provincial_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mendoza-mdz-sanmartin",
       "name": "Parque General San Martín",
       "kind": "see",
-      "lat": -32.89,
-      "lon": -68.88,
+      "lat": -32.89036,
+      "lon": -68.87121,
       "wiki": "General San Martín Park",
       "summary": "Huge park with Cerro de la Gloria monument.",
       "expect": "Free.",
@@ -255,14 +279,22 @@
         "Free.",
         "Climb Cerro de la Gloria."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1580,
+          "period": "202511-202610",
+          "title": "General San Martín Park",
+          "url": "https://en.wikipedia.org/wiki/General_San_Mart%C3%ADn_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mendoza-mdz-plaza",
       "name": "Plaza Independencia",
       "kind": "see",
-      "lat": -32.8895,
-      "lon": -68.8458,
+      "lat": -32.88972,
+      "lon": -68.8445,
       "wiki": "Plaza Independencia (Mendoza)",
       "summary": "Central square with fountains and craft markets.",
       "expect": "Lively evenings.",
@@ -300,15 +332,14 @@
       "tradeoffs": [
         "Lively evenings.",
         "Walk the four satellite plazas."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "mendoza-mdz-cacheuta",
       "name": "Cacheuta hot springs",
       "kind": "see",
-      "lat": -33.02,
-      "lon": -69.11,
+      "lat": -33.03333,
+      "lon": -69.1,
       "wiki": "Cacheuta",
       "summary": "Thermal pools in a mountain canyon.",
       "expect": "Book a day pass.",
@@ -347,7 +378,15 @@
         "Book a day pass.",
         "Go midweek."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5150,
+          "period": "202511-202610",
+          "title": "Cacheuta Spa",
+          "url": "https://en.wikipedia.org/wiki/Cacheuta_Spa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mendoza-mdz-asado",
@@ -520,5 +559,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

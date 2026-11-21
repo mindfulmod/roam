@@ -107,7 +107,16 @@
         "Stay a few hours to see ice fall."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 61965,
+          "period": "202511-202610",
+          "title": "Perito Moreno Glacier",
+          "url": "https://en.wikipedia.org/wiki/Perito_Moreno_Glacier",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-calafate-fte-minitrek",
@@ -156,14 +165,23 @@
         "Book weeks ahead."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 61965,
+          "period": "202511-202610",
+          "title": "Perito Moreno Glacier",
+          "url": "https://en.wikipedia.org/wiki/Perito_Moreno_Glacier",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-calafate-fte-chalten",
       "name": "El Chaltén and Fitz Roy",
       "kind": "see",
-      "lat": -49.3315,
-      "lon": -72.886,
+      "lat": -49.33141,
+      "lon": -72.88613,
       "wiki": "El Chaltén",
       "summary": "Argentina's trekking capital with Laguna de los Tres.",
       "expect": "3 hours by bus.",
@@ -203,15 +221,23 @@
         "3 hours by bus.",
         "Stay overnight."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 33025,
+          "period": "202511-202610",
+          "title": "El Chaltén",
+          "url": "https://en.wikipedia.org/wiki/El_Chalt%C3%A9n",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-calafate-fte-upsala",
       "name": "Upsala and Spegazzini glaciers cruise",
       "kind": "see",
-      "lat": -50.05,
-      "lon": -73.2,
+      "lat": -49.88694,
+      "lon": -73.2725,
       "wiki": "Upsala Glacier",
       "summary": "Boat among icebergs to more glaciers.",
       "expect": "Full day.",
@@ -250,15 +276,23 @@
         "Full day.",
         "Sit on deck."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5072,
+          "period": "202511-202610",
+          "title": "Upsala Glacier",
+          "url": "https://en.wikipedia.org/wiki/Upsala_Glacier",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-calafate-fte-nimez",
       "name": "Laguna Nimez",
       "kind": "see",
-      "lat": -50.32,
-      "lon": -72.27,
+      "lat": -50.32457,
+      "lon": -72.26511,
       "wiki": "Laguna Nimez",
       "summary": "Bird reserve with flamingos.",
       "expect": "Small fee.",
@@ -296,15 +330,14 @@
       "tradeoffs": [
         "Small fee.",
         "Go at dawn."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "el-calafate-fte-glaciarium",
       "name": "Glaciarium",
       "kind": "see",
-      "lat": -50.34,
-      "lon": -72.32,
+      "lat": -50.3366,
+      "lon": -72.33983,
       "wiki": "Glaciarium",
       "summary": "Ice museum with an ice bar.",
       "expect": "Good on bad-weather days.",
@@ -343,8 +376,7 @@
       "tradeoffs": [
         "Good on bad-weather days.",
         "Try the ice bar."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "el-calafate-fte-lamb",
@@ -517,5 +549,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

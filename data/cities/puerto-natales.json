@@ -65,8 +65,8 @@
       "id": "puerto-natales-pnt-towers",
       "name": "Base of the Towers hike",
       "kind": "see",
-      "lat": -50.942,
-      "lon": -72.969,
+      "lat": -51,
+      "lon": -73,
       "wiki": "Torres del Paine",
       "summary": "Full-day hike to the granite towers above a glacial lake.",
       "expect": "Park entry required; long and steep.",
@@ -107,8 +107,16 @@
         "Park entry required; long and steep.",
         "Start very early."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9132,
+          "period": "202511-202610",
+          "title": "Cordillera Paine",
+          "url": "https://en.wikipedia.org/wiki/Cordillera_Paine",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-natales-pnt-w",
@@ -204,14 +212,23 @@
         "Combine with a hike."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6665,
+          "period": "202511-202610",
+          "title": "Grey Glacier",
+          "url": "https://en.wikipedia.org/wiki/Grey_Glacier",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-natales-pnt-pehoe",
       "name": "Lake Pehoé viewpoints",
       "kind": "see",
-      "lat": -51.06,
-      "lon": -72.98,
+      "lat": -51.1,
+      "lon": -73.06667,
       "wiki": "Lake Pehoé",
       "summary": "Turquoise lake facing the Cuernos peaks.",
       "expect": "Short walks.",
@@ -251,8 +268,16 @@
         "Short walks.",
         "Salto Grande waterfall walk."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5761,
+          "period": "202511-202610",
+          "title": "Lake Pehoé",
+          "url": "https://en.wikipedia.org/wiki/Lake_Peho%C3%A9",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-natales-pnt-milodon",
@@ -299,14 +324,23 @@
         "On the road to the park.",
         "Stop on the way."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7001,
+          "period": "202511-202610",
+          "title": "Cueva del Milodón Natural Monument",
+          "url": "https://en.wikipedia.org/wiki/Cueva_del_Milod%C3%B3n_Natural_Monument",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-natales-pnt-town",
       "name": "Puerto Natales waterfront",
       "kind": "see",
-      "lat": -51.7236,
-      "lon": -72.4875,
+      "lat": -51.73333,
+      "lon": -72.51667,
       "wiki": "Puerto Natales",
       "summary": "Fjord views and swans along the coast.",
       "expect": "Windy.",
@@ -345,7 +379,15 @@
         "Windy.",
         "Walk at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32415,
+          "period": "202511-202610",
+          "title": "Puerto Natales",
+          "url": "https://en.wikipedia.org/wiki/Puerto_Natales",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-natales-pnt-lamb",
@@ -518,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

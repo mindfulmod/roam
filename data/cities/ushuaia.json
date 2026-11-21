@@ -65,8 +65,8 @@
       "id": "ushuaia-ush-beagle",
       "name": "Beagle Channel cruise",
       "kind": "see",
-      "lat": -54.87,
-      "lon": -68.13,
+      "lat": -54.8756,
+      "lon": -68.1364,
       "wiki": "Beagle Channel",
       "summary": "Boat past sea lion and cormorant islands to the lighthouse.",
       "expect": "Half-day.",
@@ -105,14 +105,22 @@
         "Half-day.",
         "Pick a small boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65016,
+          "period": "202511-202610",
+          "title": "Beagle Channel",
+          "url": "https://en.wikipedia.org/wiki/Beagle_Channel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ushuaia-ush-tdf",
       "name": "Tierra del Fuego National Park",
       "kind": "see",
-      "lat": -54.84,
-      "lon": -68.49,
+      "lat": -54.83333,
+      "lon": -68.5,
       "wiki": "Tierra del Fuego National Park",
       "summary": "Coastal trails, lakes and the end of Route 3.",
       "expect": "Park fee.",
@@ -152,7 +160,15 @@
         "Park fee.",
         "Hike Senda Costera."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12208,
+          "period": "202511-202610",
+          "title": "Tierra del Fuego National Park",
+          "url": "https://en.wikipedia.org/wiki/Tierra_del_Fuego_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ushuaia-ush-penguins",
@@ -205,8 +221,8 @@
       "id": "ushuaia-ush-martial",
       "name": "Martial Glacier",
       "kind": "see",
-      "lat": -54.783,
-      "lon": -68.4,
+      "lat": -54.78379,
+      "lon": -68.40844,
       "wiki": "Martial Glacier",
       "summary": "Hike above town to a glacier with views.",
       "expect": "Steep.",
@@ -245,8 +261,7 @@
       "tradeoffs": [
         "Steep.",
         "Go on a clear day."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ushuaia-ush-prison",
@@ -512,5 +527,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

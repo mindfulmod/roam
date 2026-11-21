@@ -66,8 +66,8 @@
       "id": "bariloche-brc-campanario",
       "name": "Cerro Campanario",
       "kind": "see",
-      "lat": -41.07,
-      "lon": -71.472,
+      "lat": -41.07575,
+      "lon": -71.47642,
       "wiki": "Cerro Campanario",
       "summary": "A chairlift to one of the world's best lake views.",
       "expect": "Small fee.",
@@ -106,8 +106,7 @@
       "tradeoffs": [
         "Small fee.",
         "Go late afternoon."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bariloche-brc-circuito",
@@ -161,8 +160,8 @@
       "id": "bariloche-brc-catedral",
       "name": "Cerro Catedral",
       "kind": "see",
-      "lat": -41.17,
-      "lon": -71.44,
+      "lat": -41.16901,
+      "lon": -71.44071,
       "wiki": "Cerro Catedral",
       "summary": "South America's biggest ski resort, with summer hikes.",
       "expect": "Winter ski passes.",
@@ -202,7 +201,15 @@
         "Winter ski passes.",
         "Hike to Refugio Frey in summer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9098,
+          "period": "202511-202610",
+          "title": "Cerro Catedral",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Catedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bariloche-brc-victoria",
@@ -254,8 +261,8 @@
       "id": "bariloche-brc-centro",
       "name": "Centro Cívico",
       "kind": "see",
-      "lat": -41.1333,
-      "lon": -71.31,
+      "lat": -41.13343,
+      "lon": -71.30953,
       "wiki": "Centro Cívico (Bariloche)",
       "summary": "Stone-and-log civic square with St Bernards for photos.",
       "expect": "Free.",
@@ -293,8 +300,7 @@
       "tradeoffs": [
         "Free.",
         "Stroll Mitre street for chocolate."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bariloche-brc-siete",
@@ -515,5 +521,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

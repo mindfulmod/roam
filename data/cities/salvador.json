@@ -66,8 +66,8 @@
       "id": "salvador-ssa-pelourinho",
       "name": "Pelourinho",
       "kind": "see",
-      "lat": -12.973,
-      "lon": -38.508,
+      "lat": -12.96667,
+      "lon": -38.5,
       "wiki": "Pelourinho",
       "summary": "UNESCO square of colourful colonial houses and churches.",
       "expect": "Watch pickpockets.",
@@ -108,7 +108,15 @@
         "Watch pickpockets.",
         "Go on a Tuesday night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7266,
+          "period": "202511-202610",
+          "title": "Historic Center of Salvador",
+          "url": "https://en.wikipedia.org/wiki/Historic_Center_of_Salvador",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salvador-ssa-saofrancisco",
@@ -161,8 +169,8 @@
       "id": "salvador-ssa-lacerda",
       "name": "Lacerda Elevator",
       "kind": "see",
-      "lat": -12.9741,
-      "lon": -38.513,
+      "lat": -12.97417,
+      "lon": -38.51333,
       "wiki": "Lacerda Elevator",
       "summary": "Art deco lift linking upper and lower town.",
       "expect": "Cheap.",
@@ -202,14 +210,22 @@
         "Cheap.",
         "Go down to Mercado Modelo."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4458,
+          "period": "202511-202610",
+          "title": "Elevador Lacerda",
+          "url": "https://en.wikipedia.org/wiki/Elevador_Lacerda",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salvador-ssa-barra",
       "name": "Farol da Barra",
       "kind": "see",
-      "lat": -13.0103,
-      "lon": -38.5326,
+      "lat": -13.01021,
+      "lon": -38.53277,
       "wiki": "Farol da Barra",
       "summary": "Lighthouse and fort with sunset crowds.",
       "expect": "Busy.",
@@ -248,15 +264,14 @@
       "tradeoffs": [
         "Busy.",
         "Watch sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "salvador-ssa-bonfim",
       "name": "Bonfim Church",
       "kind": "see",
-      "lat": -12.923,
-      "lon": -38.507,
+      "lat": -12.92375,
+      "lon": -38.50812,
       "wiki": "Church of Nosso Senhor do Bonfim",
       "summary": "Famous church with wish ribbons.",
       "expect": "Free.",
@@ -294,8 +309,7 @@
       "tradeoffs": [
         "Free.",
         "Tie a fitinha."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "salvador-ssa-capoeira",
@@ -342,7 +356,16 @@
         "Shows and street rodas.",
         "Join a class."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 254709,
+          "period": "202511-202610",
+          "title": "Capoeira",
+          "url": "https://en.wikipedia.org/wiki/Capoeira",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salvador-ssa-acaraje",
@@ -515,5 +538,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
