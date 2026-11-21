@@ -1,6 +1,6 @@
 # Tandem Roads
 
-A travel guide and multi-city trip planner: 309 cities and 3261 places with prices, tips, best times and
+A travel guide and multi-city trip planner: 316 cities and 3324 places with prices, tips, best times and
 sources, popularity rankings, food and dietary filters, a Leaflet map, and a trip planner that splits
 places into days, estimates budgets and exports to JSON or CSV. Plain HTML, CSS and JavaScript, with
 no framework and no backend. Your saved places and trips stay in the browser (`localStorage` key

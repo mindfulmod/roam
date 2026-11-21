@@ -1,0 +1,2389 @@
+[
+ {
+  "country": "Finland",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and phone payments work everywhere; cash is barely used.",
+  "dailyBudget": [
+   100,
+   250
+  ],
+  "cashPerDay": [
+   0,
+   20
+  ],
+  "id": "helsinki",
+  "name": "Helsinki",
+  "at": [
+   60.1699,
+   24.9384
+  ],
+  "wiki": "Helsinki",
+  "cover": "Helsinki Cathedral",
+  "seasons": "LLLSSHHHSSLS",
+  "tagline": "Nordic design capital on the Baltic",
+  "summary": "Helsinki is a sea-surrounded capital of clean design, saunas and island fortresses. Climb the white Cathedral steps, ferry to Suomenlinna, sweat in a harbour sauna and browse the Design District.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8
+  ],
+  "seasonNote": "Summer has near-endless daylight; winter is dark but cosy with Christmas markets and saunas.",
+  "arrival": "Helsinki Airport is 30 minutes by train.",
+  "gettingAround": "Trams, metro and ferries on one ticket.",
+  "foodTip": "Salmon soup, rye bread and cinnamon buns.",
+  "buyTip": "Marimekko, Iittala and Moomin design.",
+  "baseArea": "Kamppi or Kruununhaka",
+  "hotel": [
+   120,
+   300
+  ],
+  "connections": [
+   {
+    "to": "stockholm",
+    "mode": "Ferry",
+    "minutes": 1020,
+    "note": "Overnight ferries; or a 1-hour flight."
+   }
+  ],
+  "items": [
+   {
+    "name": "Senate Square and Cathedral",
+    "kind": "see",
+    "id": "hel-cathedral",
+    "at": [
+     60.1705,
+     24.9522
+    ],
+    "wiki": "Helsinki Cathedral",
+    "area": "Centre",
+    "summary": "The white neoclassical cathedral atop grand steps.",
+    "expect": "Free.",
+    "tip": "Sit on the steps at dusk.",
+    "why": "Helsinki's icon.",
+    "flow": [
+     "Senate Square.",
+     "Cathedral."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Suomenlinna",
+    "kind": "see",
+    "id": "hel-suomenlinna",
+    "at": [
+     60.1454,
+     24.9881
+    ],
+    "wiki": "Suomenlinna",
+    "area": "Islands",
+    "summary": "A UNESCO sea fortress spread over islands.",
+    "expect": "Ferry from Market Square.",
+    "tip": "Bring a picnic.",
+    "why": "Island history.",
+    "flow": [
+     "Ferry.",
+     "Ramparts.",
+     "Museum."
+    ],
+    "hours": 4,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Löyly or Allas sea sauna",
+    "kind": "see",
+    "id": "hel-sauna",
+    "at": [
+     60.1522,
+     24.9269
+    ],
+    "wiki": "Löyly",
+    "area": "Hernesaari",
+    "summary": "Modern public saunas with a plunge into the Baltic.",
+    "expect": "Book a slot.",
+    "tip": "Do at least three rounds.",
+    "why": "Finnish ritual.",
+    "flow": [
+     "Sauna.",
+     "Sea dip."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Temppeliaukio Rock Church",
+    "kind": "see",
+    "id": "hel-temppeliaukio",
+    "at": [
+     60.173,
+     24.925
+    ],
+    "wiki": "Temppeliaukio Church",
+    "area": "Töölö",
+    "summary": "A church carved into bedrock with a copper dome.",
+    "expect": "Small fee.",
+    "tip": "Catch a concert.",
+    "why": "Unique design.",
+    "flow": [
+     "Step into the rock-hewn nave.",
+     "Look up at the copper dome."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Oodi Library",
+    "kind": "see",
+    "id": "hel-oodi",
+    "at": [
+     60.174,
+     24.938
+    ],
+    "wiki": "Helsinki Central Library Oodi",
+    "area": "Centre",
+    "summary": "A wave-shaped public library with a balcony.",
+    "expect": "Free.",
+    "tip": "Go up to the 'book heaven'.",
+    "why": "Modern Helsinki.",
+    "flow": [
+     "Ground floor.",
+     "Top floor."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Market Square and Old Market Hall",
+    "kind": "see",
+    "id": "hel-market",
+    "at": [
+     60.1675,
+     24.953
+    ],
+    "wiki": "Market Square, Helsinki",
+    "area": "Harbour",
+    "summary": "Harbour market stalls and a classic food hall.",
+    "expect": "Summer best.",
+    "tip": "Try salmon soup.",
+    "why": "Harbour life.",
+    "flow": [
+     "Stalls.",
+     "Market hall."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Salmon soup",
+    "kind": "eat",
+    "id": "hel-salmonsoup",
+    "at": [
+     60.167,
+     24.954
+    ],
+    "wiki": "Lohikeitto",
+    "area": "Market Hall",
+    "venue": "food-area",
+    "summary": "Creamy salmon soup with rye bread.",
+    "expect": "Lunch.",
+    "tip": "Old Market Hall.",
+    "why": "Finnish comfort.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     14,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Finnish",
+    "order": [
+     "Lohikeitto"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cinnamon buns",
+    "kind": "eat",
+    "id": "hel-korvapuusti",
+    "at": [
+     60.168,
+     24.94
+    ],
+    "wiki": "Korvapuusti",
+    "area": "Cafés",
+    "venue": "food-area",
+    "summary": "Cardamom-cinnamon buns with coffee.",
+    "expect": "Fika time.",
+    "tip": "Try Café Regatta.",
+    "why": "Finnish coffee culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Finnish",
+    "order": [
+     "Korvapuusti"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Sautéed reindeer",
+    "kind": "eat",
+    "id": "hel-reindeer",
+    "at": [
+     60.17,
+     24.94
+    ],
+    "wiki": "Poronkäristys",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Reindeer with mash and lingonberries.",
+    "expect": "Traditional restaurants.",
+    "tip": "Try at Savotta.",
+    "why": "Lapland flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     35
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Finnish",
+    "order": [
+     "Reindeer"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Estonia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work everywhere, even for small amounts.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   0,
+   20
+  ],
+  "id": "tallinn",
+  "name": "Tallinn",
+  "at": [
+   59.437,
+   24.7536
+  ],
+  "wiki": "Tallinn",
+  "cover": "Tallinn Old Town",
+  "seasons": "LLLSSHHHSSLH",
+  "tagline": "Medieval towers and a digital-age capital",
+  "summary": "Tallinn's walled Old Town is one of Europe's best-preserved medieval cities, with red-roofed towers, merchant houses and viewpoints over the Baltic. Beyond the walls are the creative Telliskivi quarter and the Seaplane Harbour museum.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   12
+  ],
+  "seasonNote": "Summer is bright and lively; December has a fairy-tale Christmas market.",
+  "arrival": "Ferries from Helsinki take about 2 hours; the airport is 15 minutes away.",
+  "gettingAround": "Walk; free public transport for residents, cheap for visitors.",
+  "foodTip": "Black bread, sprats and elk soup.",
+  "buyTip": "Handicrafts and Vana Tallinn liqueur.",
+  "baseArea": "Old Town",
+  "hotel": [
+   90,
+   250
+  ],
+  "connections": [
+   {
+    "to": "helsinki",
+    "mode": "Ferry",
+    "minutes": 120,
+    "note": "Frequent ferries."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old Town and Town Hall Square",
+    "kind": "see",
+    "id": "tll-oldtown",
+    "at": [
+     59.4372,
+     24.7454
+    ],
+    "wiki": "Tallinn Old Town",
+    "area": "Old Town",
+    "summary": "UNESCO medieval streets around Town Hall Square.",
+    "expect": "Busy with cruise visitors in summer.",
+    "tip": "Go early or late.",
+    "why": "Medieval wonder.",
+    "flow": [
+     "Square.",
+     "Lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Toompea viewpoints",
+    "kind": "see",
+    "id": "tll-toompea",
+    "at": [
+     59.438,
+     24.738
+    ],
+    "wiki": "Toompea",
+    "area": "Upper Town",
+    "summary": "Kohtuotsa and Patkuli viewing platforms over the rooftops.",
+    "expect": "Free.",
+    "tip": "Sunset at Patkuli.",
+    "why": "Classic panorama.",
+    "flow": [
+     "Kohtuotsa.",
+     "Patkuli."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Alexander Nevsky Cathedral",
+    "kind": "see",
+    "id": "tll-nevsky",
+    "at": [
+     59.4357,
+     24.7393
+    ],
+    "wiki": "Alexander Nevsky Cathedral, Tallinn",
+    "area": "Toompea",
+    "summary": "Onion-domed Orthodox cathedral.",
+    "expect": "Modest dress.",
+    "tip": "Look inside the icons.",
+    "why": "Russian legacy.",
+    "flow": [
+     "Exterior.",
+     "Interior."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Seaplane Harbour",
+    "kind": "see",
+    "id": "tll-seaplane",
+    "at": [
+     59.4517,
+     24.738
+    ],
+    "wiki": "Seaplane Harbour",
+    "area": "Kalamaja",
+    "summary": "A maritime museum in vast concrete hangars with a submarine.",
+    "expect": "Allow 2 hours.",
+    "tip": "Board the Lembit submarine.",
+    "why": "Excellent museum.",
+    "flow": [
+     "Hangars.",
+     "Submarine."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Telliskivi Creative City",
+    "kind": "see",
+    "id": "tll-telliskivi",
+    "at": [
+     59.44,
+     24.729
+    ],
+    "wiki": "Telliskivi Creative City",
+    "area": "Kalamaja",
+    "summary": "Street art, cafés and flea markets in old factories.",
+    "expect": "Saturday flea market.",
+    "tip": "Visit Fotografiska.",
+    "why": "Creative Tallinn.",
+    "flow": [
+     "Murals.",
+     "Fotografiska."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Kadriorg Palace and Park",
+    "kind": "see",
+    "id": "tll-kadriorg",
+    "at": [
+     59.438,
+     24.791
+    ],
+    "wiki": "Kadriorg Palace",
+    "area": "Kadriorg",
+    "summary": "Baroque palace built by Peter the Great, plus KUMU art museum.",
+    "expect": "Tram ride.",
+    "tip": "Combine with KUMU.",
+    "why": "Imperial gardens.",
+    "flow": [
+     "Palace.",
+     "Gardens.",
+     "KUMU."
+    ],
+    "hours": 2.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Medieval feast",
+    "kind": "eat",
+    "id": "tll-elk",
+    "at": [
+     59.437,
+     24.745
+    ],
+    "wiki": "Estonian cuisine",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Elk soup and wild boar in candlelit taverns.",
+    "expect": "Touristy but fun.",
+    "tip": "Try Olde Hansa.",
+    "why": "Medieval dining.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Estonian",
+    "order": [
+     "Elk soup"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Black bread and sprats",
+    "kind": "eat",
+    "id": "tll-blackbread",
+    "at": [
+     59.44,
+     24.73
+    ],
+    "wiki": "Rye bread",
+    "area": "Balti Jaam market",
+    "venue": "food-area",
+    "summary": "Dark rye with sprats.",
+    "expect": "Market food hall.",
+    "tip": "Try kiluvõileib.",
+    "why": "Estonian staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Estonian",
+    "order": [
+     "Kiluvõileib"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Old Town cafés",
+    "kind": "eat",
+    "id": "tll-cafe",
+    "at": [
+     59.4373,
+     24.746
+    ],
+    "wiki": "Maiasmokk",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Estonia's oldest café with marzipan.",
+    "expect": "Cosy.",
+    "tip": "Buy painted marzipan.",
+    "why": "Historic café.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Marzipan"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Latvia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; small cash for markets.",
+  "dailyBudget": [
+   60,
+   160
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "id": "riga",
+  "name": "Riga",
+  "at": [
+   56.9496,
+   24.1052
+  ],
+  "wiki": "Riga",
+  "cover": "House of the Blackheads",
+  "seasons": "LLLSSHHHSSLH",
+  "tagline": "Art Nouveau capital of the Baltics",
+  "summary": "Riga combines a medieval Old Town with Europe's finest collection of Art Nouveau buildings. Wander the House of the Blackheads, eat in zeppelin hangars at the Central Market and stroll Alberta iela's ornate facades.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   12
+  ],
+  "seasonNote": "Summer is festive; Midsummer (Jāņi) is a big holiday; winter is cold.",
+  "arrival": "Riga Airport is 20 minutes away; buses from Tallinn and Vilnius.",
+  "gettingAround": "Walk; trams.",
+  "foodTip": "Grey peas with bacon, rye bread pudding and Riga Black Balsam.",
+  "buyTip": "Amber and linen.",
+  "baseArea": "Old Town",
+  "hotel": [
+   70,
+   200
+  ],
+  "connections": [
+   {
+    "to": "tallinn",
+    "mode": "Bus",
+    "minutes": 270,
+    "note": "Frequent coaches."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old Town",
+    "kind": "see",
+    "id": "rig-oldtown",
+    "at": [
+     56.9472,
+     24.1063
+    ],
+    "wiki": "Old Riga",
+    "area": "Old Town",
+    "summary": "Cobbled squares, the House of the Blackheads and guild halls.",
+    "expect": "Busy in summer.",
+    "tip": "Climb St Peter's tower.",
+    "why": "Medieval core.",
+    "flow": [
+     "Town Hall Square.",
+     "St Peter's tower."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Art Nouveau district",
+    "kind": "see",
+    "id": "rig-artnouveau",
+    "at": [
+     56.96,
+     24.108
+    ],
+    "wiki": "Art Nouveau architecture in Riga",
+    "area": "Quiet Centre",
+    "summary": "Alberta iela's ornate facades by Mikhail Eisenstein.",
+    "expect": "Free.",
+    "tip": "Visit the Art Nouveau Museum.",
+    "why": "World's best collection.",
+    "flow": [
+     "Alberta iela.",
+     "Museum."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "Central Market",
+    "kind": "see",
+    "id": "rig-market",
+    "at": [
+     56.944,
+     24.116
+    ],
+    "wiki": "Riga Central Market",
+    "area": "Centre",
+    "summary": "Food halls in former zeppelin hangars.",
+    "expect": "Morning best.",
+    "tip": "Try smoked fish.",
+    "why": "Market life.",
+    "flow": [
+     "Pavilions.",
+     "Smoked fish."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Freedom Monument",
+    "kind": "see",
+    "id": "rig-freedom",
+    "at": [
+     56.9514,
+     24.1133
+    ],
+    "wiki": "Freedom Monument (Riga)",
+    "area": "Centre",
+    "summary": "The symbol of Latvian independence.",
+    "expect": "Changing of guards hourly.",
+    "tip": "Watch the guard change.",
+    "why": "National symbol.",
+    "flow": [
+     "Monument.",
+     "Guards."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Jūrmala",
+    "kind": "see",
+    "id": "rig-jurmala",
+    "at": [
+     56.968,
+     23.77
+    ],
+    "wiki": "Jūrmala",
+    "area": "Coast",
+    "summary": "Long sandy beach and wooden villas.",
+    "expect": "30 minutes by train.",
+    "tip": "Walk Jomas iela.",
+    "why": "Seaside escape.",
+    "flow": [
+     "Beach.",
+     "Villas."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Occupation Museum",
+    "kind": "see",
+    "id": "rig-latvian-museum",
+    "at": [
+     56.9471,
+     24.1069
+    ],
+    "wiki": "Museum of the Occupation of Latvia",
+    "area": "Old Town",
+    "summary": "History of Soviet and Nazi occupations.",
+    "expect": "Sobering.",
+    "tip": "Allow time.",
+    "why": "Recent history.",
+    "flow": [
+     "Exhibits.",
+     "Testimonies."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Grey peas with bacon",
+    "kind": "eat",
+    "id": "rig-peas",
+    "at": [
+     56.95,
+     24.11
+    ],
+    "wiki": "Grey peas",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Hearty Latvian dish.",
+    "expect": "Traditional taverns.",
+    "tip": "Try at Lido.",
+    "why": "Local classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Latvian",
+    "order": [
+     "Grey peas"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Riga Black Balsam",
+    "kind": "eat",
+    "id": "rig-balsam",
+    "at": [
+     56.948,
+     24.107
+    ],
+    "wiki": "Riga Black Balsam",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Herbal liqueur in cocktails.",
+    "expect": "Strong.",
+    "tip": "Try it with blackcurrant juice.",
+    "why": "Riga's spirit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Latvian",
+    "order": [
+     "Black Balsam"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Rupjmaizes kārtojums",
+    "kind": "eat",
+    "id": "rig-ryepudding",
+    "at": [
+     56.95,
+     24.11
+    ],
+    "wiki": "Latvian cuisine",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Rye bread dessert with cream and berries.",
+    "expect": "Dessert.",
+    "tip": "Order it after dinner.",
+    "why": "Sweet Latvian.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Latvian",
+    "order": [
+     "Rye pudding"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Slovenia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work widely; carry a little cash for mountain huts and bakeries.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "id": "ljubljana",
+  "name": "Ljubljana",
+  "at": [
+   46.0569,
+   14.5058
+  ],
+  "wiki": "Ljubljana",
+  "cover": "Triple Bridge",
+  "seasons": "LLSSHHHHSSLH",
+  "tagline": "A green riverside capital near Lake Bled",
+  "summary": "Ljubljana is a compact, car-free capital along the Ljubljanica river, shaped by architect Jože Plečnik. Ride the funicular to the castle, sip coffee by the Triple Bridge and day-trip to Lake Bled and the Postojna caves.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10,
+   12
+  ],
+  "seasonNote": "Spring to autumn is lovely; December has festive lights.",
+  "arrival": "Ljubljana Airport is 30 minutes away; trains from Zagreb and Vienna.",
+  "gettingAround": "Walk or bike; buses to Bled.",
+  "foodTip": "Kranjska klobasa sausage, štruklji and potica.",
+  "buyTip": "Honey, salt from Piran and wine.",
+  "baseArea": "Old Town by the river",
+  "hotel": [
+   100,
+   250
+  ],
+  "connections": [
+   {
+    "to": "zagreb",
+    "mode": "Train",
+    "minutes": 140,
+    "note": "Trains and buses."
+   },
+   {
+    "to": "venice",
+    "mode": "Bus",
+    "minutes": 210,
+    "note": "Coaches."
+   }
+  ],
+  "items": [
+   {
+    "name": "Triple Bridge and Prešeren Square",
+    "kind": "see",
+    "id": "lju-triple",
+    "at": [
+     46.0511,
+     14.5061
+    ],
+    "wiki": "Triple Bridge",
+    "area": "Centre",
+    "summary": "Plečnik's three bridges at the heart of the city.",
+    "expect": "Free.",
+    "tip": "Evening by the river.",
+    "why": "City symbol.",
+    "flow": [
+     "Square.",
+     "Bridges."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Ljubljana Castle",
+    "kind": "see",
+    "id": "lju-castle",
+    "at": [
+     46.0488,
+     14.5085
+    ],
+    "wiki": "Ljubljana Castle",
+    "area": "Castle Hill",
+    "summary": "Hilltop castle by funicular with views to the Alps.",
+    "expect": "Funicular or walk.",
+    "tip": "Climb the tower.",
+    "why": "Best views.",
+    "flow": [
+     "Funicular.",
+     "Tower."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     18
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lake Bled",
+    "kind": "see",
+    "id": "lju-bled",
+    "at": [
+     46.3625,
+     14.0938
+    ],
+    "wiki": "Lake Bled",
+    "area": "Bled",
+    "summary": "Island church, cliff castle and cream cake.",
+    "expect": "55 minutes by bus.",
+    "tip": "Row a pletna boat to the island.",
+    "why": "Postcard lake.",
+    "flow": [
+     "Walk the lake.",
+     "Island church.",
+     "Castle."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Postojna Cave and Predjama Castle",
+    "kind": "see",
+    "id": "lju-postojna",
+    "at": [
+     45.7826,
+     14.2036
+    ],
+    "wiki": "Postojna Cave",
+    "area": "Postojna",
+    "summary": "Huge cave by train and a castle built into a cliff.",
+    "expect": "Cold inside.",
+    "tip": "Combine both.",
+    "why": "Underground world.",
+    "flow": [
+     "Cave train.",
+     "Predjama Castle."
+    ],
+    "hours": 5,
+    "price": [
+     40,
+     45
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Central Market",
+    "kind": "see",
+    "id": "lju-market",
+    "at": [
+     46.051,
+     14.51
+    ],
+    "wiki": "Ljubljana Central Market",
+    "area": "Centre",
+    "summary": "Plečnik's colonnades with fresh produce.",
+    "expect": "Morning.",
+    "tip": "Try Open Kitchen on Fridays (seasonal).",
+    "why": "Local life.",
+    "flow": [
+     "Stalls.",
+     "Colonnade."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Metelkova",
+    "kind": "see",
+    "id": "lju-metelkova",
+    "at": [
+     46.057,
+     14.516
+    ],
+    "wiki": "Metelkova",
+    "area": "Centre",
+    "summary": "An alternative art squat full of murals.",
+    "expect": "Night venues.",
+    "tip": "Visit by day for art.",
+    "why": "Counterculture.",
+    "flow": [
+     "Murals.",
+     "Courtyard."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Kranjska klobasa",
+    "kind": "eat",
+    "id": "lju-klobasa",
+    "at": [
+     46.05,
+     14.507
+    ],
+    "wiki": "Carniolan sausage",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Slovenia's prized sausage.",
+    "expect": "Street stands.",
+    "tip": "With mustard and horseradish.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Slovenian",
+    "order": [
+     "Klobasa"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Štruklji",
+    "kind": "eat",
+    "id": "lju-struklji",
+    "at": [
+     46.05,
+     14.506
+    ],
+    "wiki": "Štruklji",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Rolled dumplings with cottage cheese.",
+    "expect": "Restaurants.",
+    "tip": "Try tarragon štruklji.",
+    "why": "Slovenian comfort.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Slovenian",
+    "order": [
+     "Štruklji"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Bled cream cake",
+    "kind": "eat",
+    "id": "lju-cremeschnitte",
+    "at": [
+     46.364,
+     14.105
+    ],
+    "wiki": "Kremna rezina",
+    "area": "Bled",
+    "venue": "food-area",
+    "summary": "Vanilla custard slice from Bled.",
+    "expect": "Lakeside cafés.",
+    "tip": "Have it at Park Hotel.",
+    "why": "Iconic dessert.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     7
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Slovenian",
+    "order": [
+     "Kremšnita"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Bosnia and Herzegovina",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Bosnia uses the convertible mark (KM), pegged at about 2 KM to 1 euro; prices here are shown in euros. Carry marks for cafés, bakeries and taxis.",
+  "dailyBudget": [
+   45,
+   120
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "sarajevo",
+  "name": "Sarajevo",
+  "at": [
+   43.8563,
+   18.4131
+  ],
+  "wiki": "Sarajevo",
+  "cover": "Baščaršija",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Where East meets West in the Balkans",
+  "summary": "Sarajevo is a valley city where mosques, Catholic and Orthodox churches and a synagogue stand side by side. Explore the Ottoman bazaar of Baščaršija, see where World War I began, and learn the story of the 1990s siege.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are best. Summer brings the Sarajevo Film Festival; winters are snowy.",
+  "arrival": "Sarajevo Airport is 20 minutes away; buses from Dubrovnik and Mostar.",
+  "gettingAround": "Walk and trams.",
+  "foodTip": "Ćevapi, burek and Bosnian coffee.",
+  "buyTip": "Copperware on Coppersmith Street.",
+  "baseArea": "Baščaršija or Ferhadija",
+  "hotel": [
+   50,
+   150
+  ],
+  "connections": [
+   {
+    "to": "dubrovnik",
+    "mode": "Bus",
+    "minutes": 330,
+    "note": "Via Mostar."
+   }
+  ],
+  "items": [
+   {
+    "name": "Baščaršija",
+    "kind": "see",
+    "id": "sjj-bascarsija",
+    "at": [
+     43.8597,
+     18.4313
+    ],
+    "wiki": "Baščaršija",
+    "area": "Old Town",
+    "summary": "The Ottoman bazaar with the Sebilj fountain.",
+    "expect": "Busy.",
+    "tip": "Have a Bosnian coffee.",
+    "why": "Old Sarajevo.",
+    "flow": [
+     "Sebilj.",
+     "Coppersmith street."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Gazi Husrev-beg Mosque",
+    "kind": "see",
+    "id": "sjj-gazi",
+    "at": [
+     43.859,
+     18.429
+    ],
+    "wiki": "Gazi Husrev-beg Mosque",
+    "area": "Old Town",
+    "summary": "16th-century mosque, the finest in the Balkans.",
+    "expect": "Modest dress; outside prayer times.",
+    "tip": "Visit the courtyard.",
+    "why": "Ottoman masterpiece.",
+    "flow": [
+     "Courtyard.",
+     "Interior."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Latin Bridge",
+    "kind": "see",
+    "id": "sjj-latin",
+    "at": [
+     43.8578,
+     18.429
+    ],
+    "wiki": "Latin Bridge",
+    "area": "River",
+    "summary": "Where Archduke Franz Ferdinand was assassinated in 1914.",
+    "expect": "Museum nearby.",
+    "tip": "Visit the museum.",
+    "why": "WWI history.",
+    "flow": [
+     "Bridge.",
+     "Museum."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Tunnel of Hope",
+    "kind": "see",
+    "id": "sjj-tunnel",
+    "at": [
+     43.819,
+     18.338
+    ],
+    "wiki": "Sarajevo Tunnel",
+    "area": "Butmir",
+    "summary": "The wartime tunnel that kept the city alive during the siege.",
+    "expect": "Taxi or tour.",
+    "tip": "Take a guided siege tour.",
+    "why": "Moving history.",
+    "flow": [
+     "Tunnel.",
+     "Museum."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Yellow Fortress",
+    "kind": "see",
+    "id": "sjj-yellowfortress",
+    "at": [
+     43.862,
+     18.438
+    ],
+    "wiki": "Yellow Fortress",
+    "area": "Vratnik",
+    "summary": "Hilltop sunset viewpoint.",
+    "expect": "Short climb.",
+    "tip": "Sunset with coffee.",
+    "why": "City views.",
+    "flow": [
+     "Walk up.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mostar day trip",
+    "kind": "see",
+    "id": "sjj-mostar",
+    "at": [
+     43.3373,
+     17.815
+    ],
+    "wiki": "Stari Most",
+    "area": "Mostar",
+    "summary": "The rebuilt Old Bridge with divers.",
+    "expect": "2.5 hours by train.",
+    "tip": "Take the scenic train.",
+    "why": "Iconic bridge.",
+    "flow": [
+     "Train.",
+     "Old Bridge.",
+     "Old town."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ćevapi",
+    "kind": "eat",
+    "id": "sjj-cevapi",
+    "at": [
+     43.8595,
+     18.4305
+    ],
+    "wiki": "Ćevapi",
+    "area": "Baščaršija",
+    "venue": "food-area",
+    "summary": "Grilled minced-meat sausages in flatbread with onions.",
+    "expect": "Cheap.",
+    "tip": "Try Željo.",
+    "why": "Bosnian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bosnian",
+    "order": [
+     "Ćevapi"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Burek",
+    "kind": "eat",
+    "id": "sjj-burek",
+    "at": [
+     43.859,
+     18.43
+    ],
+    "wiki": "Burek",
+    "area": "Baščaršija",
+    "venue": "food-area",
+    "summary": "Meat pastry spiral.",
+    "expect": "Buregdžinica.",
+    "tip": "Try sirnica (cheese) too.",
+    "why": "Bosnian pastry.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bosnian",
+    "order": [
+     "Burek"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Bosnian coffee",
+    "kind": "eat",
+    "id": "sjj-coffee",
+    "at": [
+     43.8598,
+     18.431
+    ],
+    "wiki": "Bosnian coffee",
+    "area": "Baščaršija",
+    "venue": "food-area",
+    "summary": "Coffee in a džezva with Turkish delight.",
+    "expect": "Slow ritual.",
+    "tip": "Dip the sugar cube.",
+    "why": "Culture in a cup.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     4
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bosnian",
+    "order": [
+     "Bosnian coffee"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Georgia",
+  "region": "Europe",
+  "currency": "GEL",
+  "cashTip": "Cards work in Tbilisi; carry lari for markets, marshrutkas and village guesthouses.",
+  "dailyBudget": [
+   120,
+   350
+  ],
+  "cashPerDay": [
+   40,
+   100
+  ],
+  "id": "tbilisi",
+  "name": "Tbilisi",
+  "at": [
+   41.7151,
+   44.8271
+  ],
+  "wiki": "Tbilisi",
+  "cover": "Narikala",
+  "seasons": "LLSSHHHHHSSL",
+  "tagline": "Sulphur baths, balconies and supra feasts",
+  "summary": "Tbilisi is a characterful capital of carved wooden balconies, sulphur bathhouses and a cliffside fortress. Feast on khachapuri and khinkali, taste ancient qvevri wine and day-trip to Mtskheta and Kazbegi's mountain church.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are best; the autumn grape harvest (Rtveli) is special. Summers are hot.",
+  "arrival": "Tbilisi Airport is 20 minutes away.",
+  "gettingAround": "Metro, Bolt taxis and walking.",
+  "foodTip": "Khachapuri, khinkali and qvevri wine.",
+  "buyTip": "Wine, churchkhela and enamel jewellery.",
+  "baseArea": "Old Tbilisi or Sololaki",
+  "hotel": [
+   100,
+   350
+  ],
+  "connections": [
+   {
+    "to": "istanbul",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Narikala Fortress",
+    "kind": "see",
+    "id": "tbs-narikala",
+    "at": [
+     41.688,
+     44.809
+    ],
+    "wiki": "Narikala",
+    "area": "Old Tbilisi",
+    "summary": "Ancient fortress above the old town, reached by cable car.",
+    "expect": "Steep paths.",
+    "tip": "Ride the cable car from Rike Park.",
+    "why": "Best views.",
+    "flow": [
+     "Cable car.",
+     "Fortress.",
+     "Mother of Georgia."
+    ],
+    "hours": 1.5,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Abanotubani sulphur baths",
+    "kind": "see",
+    "id": "tbs-baths",
+    "at": [
+     41.688,
+     44.811
+    ],
+    "wiki": "Abanotubani",
+    "area": "Old Tbilisi",
+    "summary": "Domed brick bathhouses fed by hot springs.",
+    "expect": "Private rooms by the hour.",
+    "tip": "Try a kisi scrub.",
+    "why": "Tbilisi tradition.",
+    "flow": [
+     "Private room.",
+     "Scrub."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Old Tbilisi lanes",
+    "kind": "see",
+    "id": "tbs-oldtown",
+    "at": [
+     41.692,
+     44.807
+    ],
+    "wiki": "Old Tbilisi",
+    "area": "Old Town",
+    "summary": "Balconied houses, churches and the clock tower.",
+    "expect": "Hilly.",
+    "tip": "See the Gabriadze clock tower.",
+    "why": "Characterful old town.",
+    "flow": [
+     "Clock tower.",
+     "Balconies."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Mtskheta",
+    "kind": "see",
+    "id": "tbs-mtskheta",
+    "at": [
+     41.845,
+     44.719
+    ],
+    "wiki": "Mtskheta",
+    "area": "Mtskheta",
+    "summary": "Ancient capital with Jvari Monastery and Svetitskhoveli Cathedral.",
+    "expect": "30 minutes away.",
+    "tip": "Go to Jvari for the view.",
+    "why": "Georgia's spiritual heart.",
+    "flow": [
+     "Jvari.",
+     "Svetitskhoveli."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Kazbegi and Gergeti Trinity Church",
+    "kind": "see",
+    "id": "tbs-kazbegi",
+    "at": [
+     42.662,
+     44.62
+    ],
+    "wiki": "Gergeti Trinity Church",
+    "area": "Kazbegi",
+    "summary": "A hilltop church below Mount Kazbek.",
+    "expect": "3 hours' drive.",
+    "tip": "Stay overnight if possible.",
+    "why": "Iconic mountain scene.",
+    "flow": [
+     "Military Highway.",
+     "Hike to Gergeti."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fabrika",
+    "kind": "see",
+    "id": "tbs-fabrika",
+    "at": [
+     41.709,
+     44.803
+    ],
+    "wiki": "Fabrika Tbilisi",
+    "area": "Marjanishvili",
+    "summary": "A Soviet sewing factory turned hostel and bar courtyard.",
+    "expect": "Lively at night.",
+    "tip": "Have a drink in the courtyard.",
+    "why": "Creative scene.",
+    "flow": [
+     "Courtyard.",
+     "Bars."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Night",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Art"
+    ]
+   },
+   {
+    "name": "Khachapuri",
+    "kind": "eat",
+    "id": "tbs-khachapuri",
+    "at": [
+     41.69,
+     44.8
+    ],
+    "wiki": "Khachapuri",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Cheese bread, the Adjarian boat topped with egg.",
+    "expect": "Very filling.",
+    "tip": "Mix the egg and butter in.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Georgian",
+    "order": [
+     "Adjaruli khachapuri"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Khinkali",
+    "kind": "eat",
+    "id": "tbs-khinkali",
+    "at": [
+     41.7,
+     44.8
+    ],
+    "wiki": "Khinkali",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Soup dumplings eaten by hand.",
+    "expect": "Leave the knot.",
+    "tip": "Bite and sip the broth.",
+    "why": "Georgian staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Georgian",
+    "order": [
+     "Khinkali"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Qvevri wine",
+    "kind": "eat",
+    "id": "tbs-wine",
+    "at": [
+     41.69,
+     44.8
+    ],
+    "wiki": "Georgian wine",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "8,000-year-old winemaking in clay vessels.",
+    "expect": "Wine bars.",
+    "tip": "Try amber wine.",
+    "why": "Birthplace of wine.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Georgian",
+    "order": [
+     "Amber wine"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Bulgaria",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Bulgaria adopted the euro in 2026. Cards work in cities; carry small cash for markets and mountain villages.",
+  "dailyBudget": [
+   45,
+   120
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "id": "sofia",
+  "name": "Sofia",
+  "at": [
+   42.6977,
+   23.3219
+  ],
+  "wiki": "Sofia",
+  "cover": "Alexander Nevsky Cathedral, Sofia",
+  "seasons": "SLSSHHHHSSLS",
+  "tagline": "Golden domes, Roman ruins and Rila Monastery",
+  "summary": "Sofia is a laid-back capital where the golden Alexander Nevsky Cathedral, Roman ruins and Ottoman mosques sit beneath Vitosha mountain. It's also the base for the stunning Rila Monastery.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are pleasant; winter brings skiing nearby.",
+  "arrival": "Sofia Airport is 20 minutes by metro.",
+  "gettingAround": "Metro, trams and walking.",
+  "foodTip": "Banitsa, shopska salad and kebapche.",
+  "buyTip": "Rose oil and embroidery.",
+  "baseArea": "Centre near Vitosha Boulevard",
+  "hotel": [
+   60,
+   180
+  ],
+  "connections": [
+   {
+    "to": "istanbul",
+    "mode": "Bus",
+    "minutes": 540,
+    "note": "Overnight buses; or flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Alexander Nevsky Cathedral",
+    "kind": "see",
+    "id": "sof-nevsky",
+    "at": [
+     42.6959,
+     23.3329
+    ],
+    "wiki": "Alexander Nevsky Cathedral, Sofia",
+    "area": "Centre",
+    "summary": "Neo-Byzantine cathedral with golden domes.",
+    "expect": "Free.",
+    "tip": "Visit the crypt icons.",
+    "why": "Sofia's icon.",
+    "flow": [
+     "Interior.",
+     "Crypt."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Rila Monastery",
+    "kind": "see",
+    "id": "sof-rila",
+    "at": [
+     42.1336,
+     23.3404
+    ],
+    "wiki": "Rila Monastery",
+    "area": "Rila Mountains",
+    "summary": "Bulgaria's most important monastery, with painted arcades.",
+    "expect": "2 hours' drive.",
+    "tip": "Go early.",
+    "why": "UNESCO jewel.",
+    "flow": [
+     "Drive.",
+     "Monastery.",
+     "Frescoes."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Boyana Church",
+    "kind": "see",
+    "id": "sof-boyana",
+    "at": [
+     42.6448,
+     23.2669
+    ],
+    "wiki": "Boyana Church",
+    "area": "Boyana",
+    "summary": "Medieval frescoes in a tiny UNESCO church.",
+    "expect": "Limited visits.",
+    "tip": "Book ahead.",
+    "why": "Pre-Renaissance art.",
+    "flow": [
+     "Join the timed visit.",
+     "Study the 1259 frescoes."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Serdica ruins",
+    "kind": "see",
+    "id": "sof-serdica",
+    "at": [
+     42.6976,
+     23.322
+    ],
+    "wiki": "Serdica",
+    "area": "Centre",
+    "summary": "Roman ruins in a metro station.",
+    "expect": "Free.",
+    "tip": "Walk through.",
+    "why": "Layers of history.",
+    "flow": [
+     "Ruins.",
+     "Rotunda of St George."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Vitosha Mountain",
+    "kind": "see",
+    "id": "sof-vitosha",
+    "at": [
+     42.564,
+     23.284
+    ],
+    "wiki": "Vitosha",
+    "area": "Vitosha",
+    "summary": "Hikes on the city's mountain.",
+    "expect": "Bus and gondola.",
+    "tip": "Hike to Cherni Vrah.",
+    "why": "Mountain escape.",
+    "flow": [
+     "Gondola.",
+     "Hike."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Banya Bashi Mosque and mineral baths",
+    "kind": "see",
+    "id": "sof-banya",
+    "at": [
+     42.6995,
+     23.323
+    ],
+    "wiki": "Banya Bashi Mosque",
+    "area": "Centre",
+    "summary": "Ottoman mosque beside the mineral springs.",
+    "expect": "Fill a bottle at the springs.",
+    "tip": "Try the warm water fountains.",
+    "why": "Faith and water.",
+    "flow": [
+     "Mosque.",
+     "Springs."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Banitsa",
+    "kind": "eat",
+    "id": "sof-banitsa",
+    "at": [
+     42.697,
+     23.322
+    ],
+    "wiki": "Banitsa",
+    "area": "Bakeries",
+    "venue": "food-area",
+    "summary": "Flaky cheese pastry with boza or ayran.",
+    "expect": "Breakfast.",
+    "tip": "Grab one hot.",
+    "why": "Bulgarian breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bulgarian",
+    "order": [
+     "Banitsa"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Shopska salad",
+    "kind": "eat",
+    "id": "sof-shopska",
+    "at": [
+     42.69,
+     23.32
+    ],
+    "wiki": "Shopska salad",
+    "area": "Mehanas",
+    "venue": "food-area",
+    "summary": "Tomato, cucumber and grated sirene cheese.",
+    "expect": "Starter.",
+    "tip": "Pair with rakia.",
+    "why": "National salad.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bulgarian",
+    "order": [
+     "Shopska salad",
+     "Rakia"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Kebapche",
+    "kind": "eat",
+    "id": "sof-kebapche",
+    "at": [
+     42.69,
+     23.32
+    ],
+    "wiki": "Kebapche",
+    "area": "Mehanas",
+    "venue": "food-area",
+    "summary": "Grilled meat sausages.",
+    "expect": "Cheap.",
+    "tip": "With fries and sirene.",
+    "why": "Grill classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bulgarian",
+    "order": [
+     "Kebapche"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]

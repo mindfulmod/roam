@@ -1,0 +1,515 @@
+{
+  "id": "helsinki",
+  "name": "Helsinki",
+  "country": "Finland",
+  "region": "Europe",
+  "lat": 60.1699,
+  "lon": 24.9384,
+  "wiki": "Helsinki",
+  "tagline": "Nordic design capital on the Baltic",
+  "summary": "Helsinki is a sea-surrounded capital of clean design, saunas and island fortresses. Climb the white Cathedral steps, ferry to Suomenlinna, sweat in a harbour sauna and browse the Design District.",
+  "days": 3,
+  "bestMonths": [
+    6,
+    7,
+    8
+  ],
+  "seasonNote": "Summer has near-endless daylight; winter is dark but cosy with Christmas markets and saunas.",
+  "arrival": "Helsinki Airport is 30 minutes by train.",
+  "gettingAround": "Trams, metro and ferries on one ticket.",
+  "cashTip": "Cards and phone payments work everywhere; cash is barely used.",
+  "dailyBudget": [
+    100,
+    250
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    0,
+    20
+  ],
+  "foodTip": "Salmon soup, rye bread and cinnamon buns.",
+  "buyTip": "Marimekko, Iittala and Moomin design.",
+  "baseArea": "Kamppi or Kruununhaka",
+  "connections": [
+    {
+      "to": "stockholm",
+      "mode": "Ferry",
+      "minutes": 1020,
+      "note": "Overnight ferries; or a 1-hour flight."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Helsinki on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Helsinki",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Helsinki%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Helsinki%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Helsinki Cathedral",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "helsinki-hel-cathedral",
+      "name": "Senate Square and Cathedral",
+      "kind": "see",
+      "lat": 60.1705,
+      "lon": 24.9522,
+      "wiki": "Helsinki Cathedral",
+      "summary": "The white neoclassical cathedral atop grand steps.",
+      "expect": "Free.",
+      "tip": "Sit on the steps at dusk.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Senate%20Square%20and%20Cathedral%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Senate%20Square%20and%20Cathedral%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Senate%20Square%20and%20Cathedral%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "The white neoclassical cathedral atop grand steps.",
+        "Helsinki's icon."
+      ],
+      "visitFlow": [
+        "Senate Square.",
+        "Cathedral."
+      ],
+      "bestFor": "Visitors interested in architecture and design and sacred places",
+      "tradeoffs": [
+        "Free.",
+        "Sit on the steps at dusk."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "helsinki-hel-suomenlinna",
+      "name": "Suomenlinna",
+      "kind": "see",
+      "lat": 60.1454,
+      "lon": 24.9881,
+      "wiki": "Suomenlinna",
+      "summary": "A UNESCO sea fortress spread over islands.",
+      "expect": "Ferry from Market Square.",
+      "tip": "Bring a picnic.",
+      "area": "Islands",
+      "duration": 4,
+      "price": [
+        5,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Suomenlinna%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Suomenlinna%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Suomenlinna%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A UNESCO sea fortress spread over islands.",
+        "Island history."
+      ],
+      "visitFlow": [
+        "Ferry.",
+        "Ramparts.",
+        "Museum."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "Ferry from Market Square.",
+        "Bring a picnic."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "helsinki-hel-sauna",
+      "name": "Löyly or Allas sea sauna",
+      "kind": "see",
+      "lat": 60.1522,
+      "lon": 24.9269,
+      "wiki": "Löyly",
+      "summary": "Modern public saunas with a plunge into the Baltic.",
+      "expect": "Book a slot.",
+      "tip": "Do at least three rounds.",
+      "area": "Hernesaari",
+      "duration": 2,
+      "price": [
+        25,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=L%C3%B6yly%20or%20Allas%20sea%20sauna%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=L%C3%B6yly%20or%20Allas%20sea%20sauna%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=L%C3%B6yly%20or%20Allas%20sea%20sauna%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Modern public saunas with a plunge into the Baltic.",
+        "Finnish ritual."
+      ],
+      "visitFlow": [
+        "Sauna.",
+        "Sea dip."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Book a slot.",
+        "Do at least three rounds."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "helsinki-hel-temppeliaukio",
+      "name": "Temppeliaukio Rock Church",
+      "kind": "see",
+      "lat": 60.173,
+      "lon": 24.925,
+      "wiki": "Temppeliaukio Church",
+      "summary": "A church carved into bedrock with a copper dome.",
+      "expect": "Small fee.",
+      "tip": "Catch a concert.",
+      "area": "Töölö",
+      "duration": 0.5,
+      "price": [
+        5,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Temppeliaukio%20Rock%20Church%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Temppeliaukio%20Rock%20Church%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Temppeliaukio%20Rock%20Church%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "A church carved into bedrock with a copper dome.",
+        "Unique design."
+      ],
+      "visitFlow": [
+        "Step into the rock-hewn nave.",
+        "Look up at the copper dome."
+      ],
+      "bestFor": "Visitors interested in architecture and design and sacred places",
+      "tradeoffs": [
+        "Small fee.",
+        "Catch a concert."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "helsinki-hel-oodi",
+      "name": "Oodi Library",
+      "kind": "see",
+      "lat": 60.174,
+      "lon": 24.938,
+      "wiki": "Helsinki Central Library Oodi",
+      "summary": "A wave-shaped public library with a balcony.",
+      "expect": "Free.",
+      "tip": "Go up to the 'book heaven'.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Oodi%20Library%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Oodi%20Library%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Oodi%20Library%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A wave-shaped public library with a balcony.",
+        "Modern Helsinki."
+      ],
+      "visitFlow": [
+        "Ground floor.",
+        "Top floor."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Go up to the 'book heaven'."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "helsinki-hel-market",
+      "name": "Market Square and Old Market Hall",
+      "kind": "see",
+      "lat": 60.1675,
+      "lon": 24.953,
+      "wiki": "Market Square, Helsinki",
+      "summary": "Harbour market stalls and a classic food hall.",
+      "expect": "Summer best.",
+      "tip": "Try salmon soup.",
+      "area": "Harbour",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Market%20Square%20and%20Old%20Market%20Hall%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Market%20Square%20and%20Old%20Market%20Hall%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Market%20Square%20and%20Old%20Market%20Hall%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "Harbour market stalls and a classic food hall.",
+        "Harbour life."
+      ],
+      "visitFlow": [
+        "Stalls.",
+        "Market hall."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Summer best.",
+        "Try salmon soup."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "helsinki-hel-salmonsoup",
+      "name": "Salmon soup",
+      "kind": "eat",
+      "lat": 60.167,
+      "lon": 24.954,
+      "wiki": "Lohikeitto",
+      "summary": "Creamy salmon soup with rye bread.",
+      "expect": "Lunch.",
+      "tip": "Old Market Hall.",
+      "area": "Market Hall",
+      "duration": 0.5,
+      "price": [
+        14,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salmon%20soup%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Salmon%20soup%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salmon%20soup%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Creamy salmon soup with rye bread.",
+        "Finnish comfort."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lunch.",
+        "Old Market Hall."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Finnish",
+      "mustOrder": [
+        "Lohikeitto"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "helsinki-hel-korvapuusti",
+      "name": "Cinnamon buns",
+      "kind": "eat",
+      "lat": 60.168,
+      "lon": 24.94,
+      "wiki": "Korvapuusti",
+      "summary": "Cardamom-cinnamon buns with coffee.",
+      "expect": "Fika time.",
+      "tip": "Try Café Regatta.",
+      "area": "Cafés",
+      "duration": 0.5,
+      "price": [
+        4,
+        8
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cinnamon%20buns%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Cinnamon%20buns%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cinnamon%20buns%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cardamom-cinnamon buns with coffee.",
+        "Finnish coffee culture."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Fika time.",
+        "Try Café Regatta."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Finnish",
+      "mustOrder": [
+        "Korvapuusti"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "helsinki-hel-reindeer",
+      "name": "Sautéed reindeer",
+      "kind": "eat",
+      "lat": 60.17,
+      "lon": 24.94,
+      "wiki": "Poronkäristys",
+      "summary": "Reindeer with mash and lingonberries.",
+      "expect": "Traditional restaurants.",
+      "tip": "Try at Savotta.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        25,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Saut%C3%A9ed%20reindeer%2C%20Helsinki",
+        "https://www.google.com/maps/search/?api=1&query=Saut%C3%A9ed%20reindeer%2C%20Helsinki"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Saut%C3%A9ed%20reindeer%2C%20Helsinki"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Reindeer with mash and lingonberries.",
+        "Lapland flavours."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Traditional restaurants.",
+        "Try at Savotta."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Finnish",
+      "mustOrder": [
+        "Reindeer"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
