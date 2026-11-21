@@ -77,8 +77,8 @@
       "id": "oslo-oslo-opera",
       "name": "Oslo Opera House",
       "kind": "see",
-      "lat": 59.9075,
-      "lon": 10.7531,
+      "lat": 59.90694,
+      "lon": 10.75361,
       "wiki": "Oslo Opera House",
       "summary": "A white marble opera house you can walk up onto, sloping into the fjord.",
       "expect": "The roof is free and open all day.",
@@ -118,14 +118,22 @@
         "The roof is free and open all day.",
         "Go up at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28239,
+          "period": "202511-202610",
+          "title": "Oslo Opera House",
+          "url": "https://en.wikipedia.org/wiki/Oslo_Opera_House",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oslo-oslo-munch",
       "name": "Munch Museum",
       "kind": "see",
-      "lat": 59.906,
-      "lon": 10.755,
+      "lat": 59.90575,
+      "lon": 10.75531,
       "wiki": "Munch Museum",
       "summary": "A tall new museum holding Edvard Munch's work, including versions of The Scream.",
       "expect": "The Scream versions are shown in rotation.",
@@ -164,14 +172,22 @@
         "The Scream versions are shown in rotation.",
         "Ride to the top floor for fjord views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30663,
+          "period": "202511-202610",
+          "title": "Munch Museum",
+          "url": "https://en.wikipedia.org/wiki/Munch_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oslo-oslo-vigeland",
       "name": "Vigeland Sculpture Park",
       "kind": "see",
-      "lat": 59.927,
-      "lon": 10.7004,
+      "lat": 59.92667,
+      "lon": 10.70139,
       "wiki": "Vigeland installation",
       "summary": "Over 200 sculptures of the human figure by Gustav Vigeland in Frogner Park.",
       "expect": "Free and open all day.",
@@ -212,14 +228,22 @@
         "Free and open all day.",
         "See the Monolith of tangled bodies."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36023,
+          "period": "202511-202610",
+          "title": "Frogner Park",
+          "url": "https://en.wikipedia.org/wiki/Frogner_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oslo-oslo-fram",
       "name": "Fram Museum",
       "kind": "see",
-      "lat": 59.903,
-      "lon": 10.693,
+      "lat": 59.90333,
+      "lon": 10.69944,
       "wiki": "Fram Museum",
       "summary": "The polar ship Fram, used by Nansen and Amundsen, which you can climb aboard.",
       "expect": "Next to the Kon-Tiki Museum on Bygdøy.",
@@ -258,14 +282,22 @@
         "Next to the Kon-Tiki Museum on Bygdøy.",
         "Take the summer ferry from the City Hall pier."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16376,
+          "period": "202511-202610",
+          "title": "Fram Museum",
+          "url": "https://en.wikipedia.org/wiki/Fram_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oslo-oslo-folk-museum",
       "name": "Norwegian Folk Museum",
       "kind": "see",
-      "lat": 59.907,
-      "lon": 10.684,
+      "lat": 59.90691,
+      "lon": 10.68596,
       "wiki": "Norwegian Museum of Cultural History",
       "summary": "An open-air museum of old farmhouses and a medieval stave church.",
       "expect": "Costumed guides in summer.",
@@ -305,14 +337,22 @@
         "Costumed guides in summer.",
         "See the Gol stave church."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8473,
+          "period": "202511-202610",
+          "title": "Norwegian Museum of Cultural History",
+          "url": "https://en.wikipedia.org/wiki/Norwegian_Museum_of_Cultural_History",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oslo-oslo-akershus",
       "name": "Akershus Fortress",
       "kind": "see",
-      "lat": 59.907,
-      "lon": 10.736,
+      "lat": 59.90667,
+      "lon": 10.73611,
       "wiki": "Akershus Fortress",
       "summary": "A medieval castle and fortress on the harbour with free grounds.",
       "expect": "The grounds are free; the castle has a fee.",
@@ -352,14 +392,22 @@
         "The grounds are free; the castle has a fee.",
         "Walk the walls for harbour views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76141,
+          "period": "202511-202610",
+          "title": "Akershus Fortress",
+          "url": "https://en.wikipedia.org/wiki/Akershus_Fortress",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oslo-oslo-holmenkollen",
       "name": "Holmenkollen ski jump",
       "kind": "see",
-      "lat": 59.964,
-      "lon": 10.667,
+      "lat": 59.96389,
+      "lon": 10.66778,
       "wiki": "Holmenkollbakken",
       "summary": "A famous ski jump with a ski museum and a zipline.",
       "expect": "30 minutes by metro.",
@@ -400,7 +448,15 @@
         "30 minutes by metro.",
         "Go up the jump tower for the view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17639,
+          "period": "202511-202610",
+          "title": "Holmenkollbakken",
+          "url": "https://en.wikipedia.org/wiki/Holmenkollbakken",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oslo-oslo-mathallen",
@@ -574,5 +630,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

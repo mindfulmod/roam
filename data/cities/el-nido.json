@@ -72,8 +72,8 @@
       "id": "el-nido-el-nido-big-lagoon",
       "name": "Big and Small Lagoons",
       "kind": "see",
-      "lat": 11.164,
-      "lon": 119.333,
+      "lat": 11.18,
+      "lon": 119.39,
       "wiki": "Miniloc Island",
       "summary": "Turquoise lagoons inside limestone cliffs, explored by kayak.",
       "expect": "On island-hopping Tour A; an environmental fee applies.",
@@ -113,7 +113,15 @@
         "On island-hopping Tour A; an environmental fee applies.",
         "Book kayaks early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42691,
+          "period": "202511-202610",
+          "title": "El Nido, Palawan",
+          "url": "https://en.wikipedia.org/wiki/El_Nido%2C_Palawan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-nido-el-nido-bacuit",
@@ -206,14 +214,23 @@
         "Guided only; steep and sharp rock.",
         "Go with a guide at sunrise."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 42691,
+          "period": "202511-202610",
+          "title": "El Nido, Palawan",
+          "url": "https://en.wikipedia.org/wiki/El_Nido%2C_Palawan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-nido-el-nido-las-cabanas",
       "name": "Las Cabanas Beach",
       "kind": "see",
-      "lat": 11.159,
-      "lon": 119.392,
+      "lat": 11.14566,
+      "lon": 119.39581,
       "wiki": "Las Cabanas Beach",
       "summary": "A sunset beach with a zipline to an island.",
       "expect": "Busy at sunset.",
@@ -252,15 +269,14 @@
       "tradeoffs": [
         "Busy at sunset.",
         "Ride the zipline before sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "el-nido-el-nido-nacpan",
       "name": "Nacpan Beach",
       "kind": "see",
-      "lat": 11.318,
-      "lon": 119.418,
+      "lat": 11.32215,
+      "lon": 119.42838,
       "wiki": "Nacpan Beach",
       "summary": "A 4 km curve of golden sand backed by palms.",
       "expect": "About 40 minutes by tricycle or scooter.",
@@ -299,15 +315,14 @@
       "tradeoffs": [
         "About 40 minutes by tricycle or scooter.",
         "Climb the hill for the twin-beach view."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "el-nido-el-nido-coron",
       "name": "Coron",
       "kind": "see",
-      "lat": 12,
-      "lon": 120.2,
+      "lat": 11.9989,
+      "lon": 120.2053,
       "wiki": "Coron, Palawan",
       "summary": "Shipwreck diving and Kayangan Lake.",
       "expect": "A 4-hour ferry from El Nido.",
@@ -348,15 +363,23 @@
         "A 4-hour ferry from El Nido.",
         "Stay a few nights."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 38007,
+          "period": "202511-202610",
+          "title": "Coron, Palawan",
+          "url": "https://en.wikipedia.org/wiki/Coron%2C_Palawan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-nido-el-nido-underground-river",
       "name": "Puerto Princesa Underground River",
       "kind": "see",
-      "lat": 10.193,
-      "lon": 118.926,
+      "lat": 10.16667,
+      "lon": 118.91667,
       "wiki": "Puerto Princesa Subterranean River National Park",
       "summary": "A navigable underground river through a cave.",
       "expect": "A permit is needed; book ahead.",
@@ -395,8 +418,16 @@
         "A permit is needed; book ahead.",
         "Combine with your arrival in Puerto Princesa."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 31748,
+          "period": "202511-202610",
+          "title": "Puerto Princesa Subterranean River National Park",
+          "url": "https://en.wikipedia.org/wiki/Puerto_Princesa_Subterranean_River_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "el-nido-el-nido-seafood",
@@ -570,5 +601,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -83,8 +83,8 @@
       "id": "manila-manila-intramuros",
       "name": "Intramuros",
       "kind": "see",
-      "lat": 14.5896,
-      "lon": 120.9747,
+      "lat": 14.59147,
+      "lon": 120.97356,
       "wiki": "Intramuros",
       "summary": "The 16th-century Spanish walled city of churches, plazas and stone houses.",
       "expect": "Walk or rent a bamboo bike.",
@@ -125,14 +125,22 @@
         "Walk or rent a bamboo bike.",
         "Take a bamboo bike tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 97204,
+          "period": "202511-202610",
+          "title": "Intramuros",
+          "url": "https://en.wikipedia.org/wiki/Intramuros",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-san-agustin",
       "name": "San Agustin Church",
       "kind": "see",
-      "lat": 14.5888,
-      "lon": 120.9753,
+      "lat": 14.58889,
+      "lon": 120.97528,
       "wiki": "San Agustin Church (Manila)",
       "summary": "The oldest stone church in the Philippines, with trompe-l'oeil ceilings.",
       "expect": "The museum is next door.",
@@ -172,14 +180,22 @@
         "The museum is next door.",
         "See the painted ceiling."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 60411,
+          "period": "202511-202610",
+          "title": "San Agustin Church (Manila)",
+          "url": "https://en.wikipedia.org/wiki/San_Agustin_Church_(Manila)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-fort-santiago",
       "name": "Fort Santiago",
       "kind": "see",
       "lat": 14.595,
-      "lon": 120.97,
+      "lon": 120.96944,
       "wiki": "Fort Santiago",
       "summary": "A Spanish fort where national hero José Rizal was held before his execution.",
       "expect": "Small entry fee.",
@@ -218,7 +234,15 @@
         "Small entry fee.",
         "Follow Rizal's footsteps marked in brass."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 47864,
+          "period": "202511-202610",
+          "title": "Fort Santiago",
+          "url": "https://en.wikipedia.org/wiki/Fort_Santiago",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-national-museum",
@@ -264,14 +288,22 @@
         "Free entry; closed Mondays.",
         "See the Spoliarium."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23064,
+          "period": "202511-202610",
+          "title": "National Museum of Fine Arts (Manila)",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Fine_Arts_(Manila)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-rizal-park",
       "name": "Rizal Park",
       "kind": "see",
-      "lat": 14.5826,
-      "lon": 120.9787,
+      "lat": 14.5825,
+      "lon": 120.97833,
       "wiki": "Rizal Park",
       "summary": "A large park with the Rizal Monument.",
       "expect": "Changing of the guard at the monument.",
@@ -311,14 +343,22 @@
         "Changing of the guard at the monument.",
         "Walk on to Manila Bay for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48045,
+          "period": "202511-202610",
+          "title": "Rizal Park",
+          "url": "https://en.wikipedia.org/wiki/Rizal_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-binondo",
       "name": "Binondo",
       "kind": "see",
-      "lat": 14.6,
-      "lon": 120.974,
+      "lat": 14.59992,
+      "lon": 120.97403,
       "wiki": "Binondo",
       "summary": "The world's oldest Chinatown, founded in 1594.",
       "expect": "Busy and crowded.",
@@ -358,7 +398,15 @@
         "Busy and crowded.",
         "Take a food walk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 45801,
+          "period": "202511-202610",
+          "title": "Binondo",
+          "url": "https://en.wikipedia.org/wiki/Binondo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-bay",
@@ -404,14 +452,23 @@
         "Busy at dusk.",
         "Walk the Baywalk at sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 26351,
+          "period": "202511-202610",
+          "title": "Manila Bay",
+          "url": "https://en.wikipedia.org/wiki/Manila_Bay",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-taal",
       "name": "Taal Volcano and Tagaytay",
       "kind": "see",
-      "lat": 14.002,
-      "lon": 120.993,
+      "lat": 14.01,
+      "lon": 120.9975,
       "wiki": "Taal Volcano",
       "summary": "A volcano inside a lake, seen from the cool Tagaytay ridge.",
       "expect": "About 2 hours by car; volcano access depends on activity.",
@@ -452,8 +509,16 @@
         "About 2 hours by car; volcano access depends on activity.",
         "Have bulalo soup on the ridge."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 123416,
+          "period": "202511-202610",
+          "title": "Taal Volcano",
+          "url": "https://en.wikipedia.org/wiki/Taal_Volcano",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manila-manila-adobo",
@@ -629,5 +694,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

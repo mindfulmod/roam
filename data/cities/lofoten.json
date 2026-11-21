@@ -118,8 +118,8 @@
       "id": "lofoten-lofoten-reinebringen",
       "name": "Reinebringen hike",
       "kind": "see",
-      "lat": 67.93,
-      "lon": 13.07,
+      "lat": 67.9324,
+      "lon": 13.0887,
       "wiki": "Reinebringen",
       "summary": "A steep stone-stair climb to a view over Reine and the fjords.",
       "expect": "About 2 to 3 hours return; very steep.",
@@ -159,13 +159,21 @@
         "About 2 to 3 hours return; very steep.",
         "Go on a clear evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2742,
+          "period": "202511-202610",
+          "title": "Reine, Norway",
+          "url": "https://en.wikipedia.org/wiki/Reine%2C_Norway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lofoten-lofoten-hamnoy",
       "name": "Hamnøy",
       "kind": "see",
-      "lat": 67.95,
+      "lat": 67.9458,
       "lon": 13.133,
       "wiki": "Hamnøy",
       "summary": "A cluster of red rorbuer on rocks, the most photographed spot in Lofoten.",
@@ -205,14 +213,22 @@
         "Small; park carefully.",
         "Visit at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6514,
+          "period": "202511-202610",
+          "title": "Hamnøya",
+          "url": "https://en.wikipedia.org/wiki/Hamn%C3%B8ya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lofoten-lofoten-henningsvaer",
       "name": "Henningsvær",
       "kind": "see",
-      "lat": 68.154,
-      "lon": 14.203,
+      "lat": 68.1529,
+      "lon": 14.2008,
       "wiki": "Henningsvær",
       "summary": "A fishing village on small islands, with a famous football pitch on the rocks.",
       "expect": "Galleries, cafés and climbing.",
@@ -252,14 +268,22 @@
         "Galleries, cafés and climbing.",
         "See the football pitch from above."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15528,
+          "period": "202511-202610",
+          "title": "Henningsvær",
+          "url": "https://en.wikipedia.org/wiki/Henningsv%C3%A6r",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lofoten-lofoten-viking",
       "name": "Lofotr Viking Museum",
       "kind": "see",
-      "lat": 68.247,
-      "lon": 13.739,
+      "lat": 68.24,
+      "lon": 13.7531,
       "wiki": "Lofotr Viking Museum",
       "summary": "A reconstructed Viking chieftain's longhouse on the original site.",
       "expect": "Summer has Viking activities and a feast.",
@@ -298,14 +322,22 @@
         "Summer has Viking activities and a feast.",
         "Join the summer Viking feast."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8737,
+          "period": "202511-202610",
+          "title": "Lofotr Viking Museum",
+          "url": "https://en.wikipedia.org/wiki/Lofotr_Viking_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lofoten-lofoten-nusfjord",
       "name": "Nusfjord",
       "kind": "see",
-      "lat": 68.035,
-      "lon": 13.348,
+      "lat": 68.0353,
+      "lon": 13.3478,
       "wiki": "Nusfjord",
       "summary": "One of Norway's oldest and best-preserved fishing villages.",
       "expect": "A small fee to enter.",
@@ -344,14 +376,22 @@
         "A small fee to enter.",
         "Visit the old cod liver oil factory."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4612,
+          "period": "202511-202610",
+          "title": "Nusfjord",
+          "url": "https://en.wikipedia.org/wiki/Nusfjord",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lofoten-lofoten-a",
       "name": "Å",
       "kind": "see",
-      "lat": 67.879,
-      "lon": 12.981,
+      "lat": 67.8796,
+      "lon": 12.984,
       "wiki": "Å, Moskenes",
       "summary": "The village at the end of the road, with a stockfish museum.",
       "expect": "At the very end of the E10.",
@@ -390,7 +430,15 @@
         "At the very end of the E10.",
         "See the stockfish museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14974,
+          "period": "202511-202610",
+          "title": "Å, Moskenes",
+          "url": "https://en.wikipedia.org/wiki/%C3%85%2C_Moskenes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lofoten-lofoten-stockfish",
@@ -564,5 +612,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

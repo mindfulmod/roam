@@ -65,8 +65,8 @@
       "id": "bergen-bergen-bryggen",
       "name": "Bryggen",
       "kind": "see",
-      "lat": 60.3975,
-      "lon": 5.3245,
+      "lat": 60.39722,
+      "lon": 5.32306,
       "wiki": "Bryggen",
       "summary": "A row of wooden Hanseatic warehouses, with crooked passages behind.",
       "expect": "Workshops and small shops inside.",
@@ -107,14 +107,22 @@
         "Workshops and small shops inside.",
         "Walk the narrow alleys behind the façades."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22316,
+          "period": "202511-202610",
+          "title": "Bryggen",
+          "url": "https://en.wikipedia.org/wiki/Bryggen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bergen-bergen-floyen",
       "name": "Mount Fløyen",
       "kind": "see",
-      "lat": 60.394,
-      "lon": 5.342,
+      "lat": 60.39835,
+      "lon": 5.34541,
       "wiki": "Fløyen",
       "summary": "A funicular to a viewpoint over the city, with forest trails at the top.",
       "expect": "Queues in summer; walking down is easy.",
@@ -155,14 +163,22 @@
         "Queues in summer; walking down is easy.",
         "Take the funicular up and walk down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6319,
+          "period": "202511-202610",
+          "title": "Fløyen",
+          "url": "https://en.wikipedia.org/wiki/Fl%C3%B8yen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bergen-bergen-ulriken",
       "name": "Mount Ulriken",
       "kind": "see",
-      "lat": 60.378,
-      "lon": 5.386,
+      "lat": 60.37747,
+      "lon": 5.38713,
       "wiki": "Ulriken",
       "summary": "The highest of Bergen's seven mountains, with a cable car.",
       "expect": "A ridge hike connects it to Fløyen.",
@@ -202,7 +218,15 @@
         "A ridge hike connects it to Fløyen.",
         "Hike Ulriken to Fløyen on a clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8872,
+          "period": "202511-202610",
+          "title": "Ulriken",
+          "url": "https://en.wikipedia.org/wiki/Ulriken",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bergen-bergen-kode",
@@ -248,14 +272,23 @@
         "One ticket for all buildings.",
         "See the Munch room."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5275,
+          "period": "202511-202610",
+          "title": "KODE-TV",
+          "url": "https://en.wikipedia.org/wiki/KODE-TV",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bergen-bergen-troldhaugen",
       "name": "Troldhaugen",
       "kind": "see",
-      "lat": 60.333,
-      "lon": 5.334,
+      "lat": 60.3196,
+      "lon": 5.32948,
       "wiki": "Troldhaugen",
       "summary": "Composer Edvard Grieg's villa and concert hall by a lake.",
       "expect": "Lunchtime concerts in summer.",
@@ -295,7 +328,15 @@
         "Lunchtime concerts in summer.",
         "Go for a summer concert."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7494,
+          "period": "202511-202610",
+          "title": "Troldhaugen",
+          "url": "https://en.wikipedia.org/wiki/Troldhaugen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bergen-bergen-fjord-cruise",
@@ -347,8 +388,8 @@
       "id": "bergen-bergen-flam",
       "name": "Flåm and Nærøyfjord",
       "kind": "see",
-      "lat": 60.863,
-      "lon": 7.114,
+      "lat": 60.77,
+      "lon": 7.1,
       "wiki": "Flåm Line",
       "summary": "The steep Flåm railway and a cruise on the narrow Nærøyfjord.",
       "expect": "A long day trip, often as 'Norway in a Nutshell'.",
@@ -389,8 +430,16 @@
         "A long day trip, often as 'Norway in a Nutshell'.",
         "Book seats on the left side of the Flåm train going down."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 17111,
+          "period": "202511-202610",
+          "title": "Flåm Line",
+          "url": "https://en.wikipedia.org/wiki/Fl%C3%A5m_Line",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bergen-bergen-fish-market",
@@ -565,5 +614,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
