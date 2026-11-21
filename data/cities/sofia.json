@@ -1,0 +1,570 @@
+{
+  "id": "sofia",
+  "name": "Sofia",
+  "country": "Bulgaria",
+  "region": "Europe",
+  "lat": 42.6977,
+  "lon": 23.3219,
+  "wiki": "Sofia",
+  "tagline": "Golden domes, Roman ruins and Rila Monastery",
+  "summary": "Sofia is a laid-back capital where the golden Alexander Nevsky Cathedral, Roman ruins and Ottoman mosques sit beneath Vitosha mountain. It's also the base for the stunning Rila Monastery.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn are pleasant; winter brings skiing nearby.",
+  "arrival": "Sofia Airport is 20 minutes by metro.",
+  "gettingAround": "Metro, trams and walking.",
+  "cashTip": "Bulgaria adopted the euro in 2026. Cards work in cities; carry small cash for markets and mountain villages.",
+  "dailyBudget": [
+    45,
+    120
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    10,
+    30
+  ],
+  "foodTip": "Banitsa, shopska salad and kebapche.",
+  "buyTip": "Rose oil and embroidery.",
+  "baseArea": "Centre near Vitosha Boulevard",
+  "connections": [
+    {
+      "to": "istanbul",
+      "mode": "Bus",
+      "minutes": 540,
+      "note": "Overnight buses; or flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Sofia on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sofia",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Sofia%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Sofia%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Alexander Nevsky Cathedral, Sofia",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "sofia-sof-nevsky",
+      "name": "Alexander Nevsky Cathedral",
+      "kind": "see",
+      "lat": 42.69583,
+      "lon": 23.33296,
+      "wiki": "Alexander Nevsky Cathedral, Sofia",
+      "summary": "Neo-Byzantine cathedral with golden domes.",
+      "expect": "Free.",
+      "tip": "Visit the crypt icons.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        0,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alexander%20Nevsky%20Cathedral%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Alexander%20Nevsky%20Cathedral%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Alexander%20Nevsky%20Cathedral%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Neo-Byzantine cathedral with golden domes.",
+        "Sofia's icon."
+      ],
+      "visitFlow": [
+        "Interior.",
+        "Crypt."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Visit the crypt icons."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 42727,
+          "period": "202511-202610",
+          "title": "Saint Alexander Nevsky Cathedral, Sofia",
+          "url": "https://en.wikipedia.org/wiki/Saint_Alexander_Nevsky_Cathedral%2C_Sofia",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "sofia-sof-rila",
+      "name": "Rila Monastery",
+      "kind": "see",
+      "lat": 42.13333,
+      "lon": 23.34028,
+      "wiki": "Rila Monastery",
+      "summary": "Bulgaria's most important monastery, with painted arcades.",
+      "expect": "2 hours' drive.",
+      "tip": "Go early.",
+      "area": "Rila Mountains",
+      "duration": 7,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rila%20Monastery%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Rila%20Monastery%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rila%20Monastery%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Bulgaria's most important monastery, with painted arcades.",
+        "UNESCO jewel."
+      ],
+      "visitFlow": [
+        "Drive.",
+        "Monastery.",
+        "Frescoes."
+      ],
+      "bestFor": "Visitors interested in sacred places and history and context",
+      "tradeoffs": [
+        "2 hours' drive.",
+        "Go early."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 40913,
+          "period": "202511-202610",
+          "title": "Rila Monastery",
+          "url": "https://en.wikipedia.org/wiki/Rila_Monastery",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "sofia-sof-boyana",
+      "name": "Boyana Church",
+      "kind": "see",
+      "lat": 42.64467,
+      "lon": 23.26617,
+      "wiki": "Boyana Church",
+      "summary": "Medieval frescoes in a tiny UNESCO church.",
+      "expect": "Limited visits.",
+      "tip": "Book ahead.",
+      "area": "Boyana",
+      "duration": 1,
+      "price": [
+        5,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Boyana%20Church%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Boyana%20Church%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Boyana%20Church%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Medieval frescoes in a tiny UNESCO church.",
+        "Pre-Renaissance art."
+      ],
+      "visitFlow": [
+        "Join the timed visit.",
+        "Study the 1259 frescoes."
+      ],
+      "bestFor": "Visitors interested in art and craft and sacred places",
+      "tradeoffs": [
+        "Limited visits.",
+        "Book ahead."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 18381,
+          "period": "202511-202610",
+          "title": "Boyana Church",
+          "url": "https://en.wikipedia.org/wiki/Boyana_Church",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "sofia-sof-serdica",
+      "name": "Serdica ruins",
+      "kind": "see",
+      "lat": 42.69778,
+      "lon": 23.32306,
+      "wiki": "Serdica",
+      "summary": "Roman ruins in a metro station.",
+      "expect": "Free.",
+      "tip": "Walk through.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Serdica%20ruins%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Serdica%20ruins%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Serdica%20ruins%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Roman ruins in a metro station.",
+        "Layers of history."
+      ],
+      "visitFlow": [
+        "Ruins.",
+        "Rotunda of St George."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free.",
+        "Walk through."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 22434,
+          "period": "202511-202610",
+          "title": "Serdica",
+          "url": "https://en.wikipedia.org/wiki/Serdica",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "sofia-sof-vitosha",
+      "name": "Vitosha Mountain",
+      "kind": "see",
+      "lat": 42.564,
+      "lon": 23.284,
+      "wiki": "Vitosha",
+      "summary": "Hikes on the city's mountain.",
+      "expect": "Bus and gondola.",
+      "tip": "Hike to Cherni Vrah.",
+      "area": "Vitosha",
+      "duration": 5,
+      "price": [
+        0,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Vitosha%20Mountain%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Vitosha%20Mountain%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Vitosha%20Mountain%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Hikes on the city's mountain.",
+        "Mountain escape."
+      ],
+      "visitFlow": [
+        "Gondola.",
+        "Hike."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Bus and gondola.",
+        "Hike to Cherni Vrah."
+      ],
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21477,
+          "period": "202511-202610",
+          "title": "Vitosha",
+          "url": "https://en.wikipedia.org/wiki/Vitosha",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "sofia-sof-banya",
+      "name": "Banya Bashi Mosque and mineral baths",
+      "kind": "see",
+      "lat": 42.69944,
+      "lon": 23.3225,
+      "wiki": "Banya Bashi Mosque",
+      "summary": "Ottoman mosque beside the mineral springs.",
+      "expect": "Fill a bottle at the springs.",
+      "tip": "Try the warm water fountains.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Banya%20Bashi%20Mosque%20and%20mineral%20baths%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Banya%20Bashi%20Mosque%20and%20mineral%20baths%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Banya%20Bashi%20Mosque%20and%20mineral%20baths%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "History"
+      ],
+      "whyVisit": [
+        "Ottoman mosque beside the mineral springs.",
+        "Faith and water."
+      ],
+      "visitFlow": [
+        "Mosque.",
+        "Springs."
+      ],
+      "bestFor": "Visitors interested in sacred places and history and context",
+      "tradeoffs": [
+        "Fill a bottle at the springs.",
+        "Try the warm water fountains."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 11138,
+          "period": "202511-202610",
+          "title": "Banya Bashi Mosque",
+          "url": "https://en.wikipedia.org/wiki/Banya_Bashi_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "sofia-sof-banitsa",
+      "name": "Banitsa",
+      "kind": "eat",
+      "lat": 42.697,
+      "lon": 23.322,
+      "wiki": "Banitsa",
+      "summary": "Flaky cheese pastry with boza or ayran.",
+      "expect": "Breakfast.",
+      "tip": "Grab one hot.",
+      "area": "Bakeries",
+      "duration": 0.3,
+      "price": [
+        1,
+        3
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Banitsa%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Banitsa%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Banitsa%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Flaky cheese pastry with boza or ayran.",
+        "Bulgarian breakfast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Breakfast.",
+        "Grab one hot."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bulgarian",
+      "mustOrder": [
+        "Banitsa"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "sofia-sof-shopska",
+      "name": "Shopska salad",
+      "kind": "eat",
+      "lat": 42.69,
+      "lon": 23.32,
+      "wiki": "Shopska salad",
+      "summary": "Tomato, cucumber and grated sirene cheese.",
+      "expect": "Starter.",
+      "tip": "Pair with rakia.",
+      "area": "Mehanas",
+      "duration": 1,
+      "price": [
+        4,
+        7
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Shopska%20salad%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Shopska%20salad%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Shopska%20salad%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Tomato, cucumber and grated sirene cheese.",
+        "National salad."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Starter.",
+        "Pair with rakia."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bulgarian",
+      "mustOrder": [
+        "Shopska salad",
+        "Rakia"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "sofia-sof-kebapche",
+      "name": "Kebapche",
+      "kind": "eat",
+      "lat": 42.69,
+      "lon": 23.32,
+      "wiki": "Kebapche",
+      "summary": "Grilled meat sausages.",
+      "expect": "Cheap.",
+      "tip": "With fries and sirene.",
+      "area": "Mehanas",
+      "duration": 1,
+      "price": [
+        4,
+        8
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kebapche%2C%20Sofia",
+        "https://www.google.com/maps/search/?api=1&query=Kebapche%2C%20Sofia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Kebapche%2C%20Sofia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Grilled meat sausages.",
+        "Grill classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Cheap.",
+        "With fries and sirene."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bulgarian",
+      "mustOrder": [
+        "Kebapche"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
