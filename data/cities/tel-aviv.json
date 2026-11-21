@@ -78,8 +78,8 @@
       "id": "tel-aviv-tel-aviv-old-jaffa",
       "name": "Old Jaffa",
       "kind": "see",
-      "lat": 32.0544,
-      "lon": 34.7522,
+      "lat": 32.05222,
+      "lon": 34.75306,
       "wiki": "Jaffa",
       "summary": "One of the world's oldest ports, with a stone old town, a clock tower and a flea market.",
       "expect": "Hilly lanes; the flea market is busiest on Fridays.",
@@ -120,14 +120,22 @@
         "Hilly lanes; the flea market is busiest on Fridays.",
         "Walk the beach promenade from Tel Aviv to Jaffa at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 245191,
+          "period": "202511-202610",
+          "title": "Jaffa",
+          "url": "https://en.wikipedia.org/wiki/Jaffa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tel-aviv-tel-aviv-beaches",
       "name": "Tel Aviv beaches and promenade",
       "kind": "see",
-      "lat": 32.085,
-      "lon": 34.768,
+      "lat": 32.07685,
+      "lon": 34.76596,
       "wiki": "Tel Aviv Promenade",
       "summary": "A 14 km sandy coastline with lifeguards, beach bars and matkot paddle-ball players.",
       "expect": "Lifeguards from May to October; strong currents on red-flag days.",
@@ -167,7 +175,15 @@
         "Lifeguards from May to October; strong currents on red-flag days.",
         "Gordon and Frishman beaches for a classic day; Hilton Beach is surfers' and gay-friendly."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5487,
+          "period": "202511-202610",
+          "title": "Tel Aviv Promenade",
+          "url": "https://en.wikipedia.org/wiki/Tel_Aviv_Promenade",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tel-aviv-tel-aviv-white-city",
@@ -220,8 +236,8 @@
       "id": "tel-aviv-carmel-market",
       "name": "Carmel Market",
       "kind": "see",
-      "lat": 32.068,
-      "lon": 34.769,
+      "lat": 32.06868,
+      "lon": 34.76905,
       "wiki": "Carmel Market",
       "summary": "The city's main market of produce, spices and street food, beside the Yemenite Quarter.",
       "expect": "Busiest Friday mornings; closed on Saturdays.",
@@ -261,14 +277,22 @@
         "Busiest Friday mornings; closed on Saturdays.",
         "Eat in the lanes of the Yemenite Quarter behind it."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4495,
+          "period": "202511-202610",
+          "title": "Carmel Market",
+          "url": "https://en.wikipedia.org/wiki/Carmel_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tel-aviv-neve-tzedek",
       "name": "Neve Tzedek",
       "kind": "see",
-      "lat": 32.061,
-      "lon": 34.765,
+      "lat": 32.06139,
+      "lon": 34.76556,
       "wiki": "Neve Tzedek",
       "summary": "The first Jewish neighbourhood built outside Jaffa, now boutiques and cafés in restored houses.",
       "expect": "Quiet and pretty.",
@@ -308,14 +332,22 @@
         "Quiet and pretty.",
         "Finish at the old railway station, HaTachana."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19688,
+          "period": "202511-202610",
+          "title": "Neve Tzedek",
+          "url": "https://en.wikipedia.org/wiki/Neve_Tzedek",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tel-aviv-tel-aviv-museum-of-art",
       "name": "Tel Aviv Museum of Art",
       "kind": "see",
       "lat": 32.0775,
-      "lon": 34.7865,
+      "lon": 34.78667,
       "wiki": "Tel Aviv Museum of Art",
       "summary": "A strong collection of Israeli and international art in a striking modern wing.",
       "expect": "Closed some weekdays; check hours.",
@@ -355,7 +387,15 @@
         "Closed some weekdays; check hours.",
         "Go on a hot afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12042,
+          "period": "202511-202610",
+          "title": "Tel Aviv Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Tel_Aviv_Museum_of_Art",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tel-aviv-abu-hassan",
@@ -534,5 +574,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
