@@ -71,8 +71,8 @@
       "id": "ghent-ghent-gravensteen",
       "name": "Gravensteen",
       "kind": "see",
-      "lat": 51.0573,
-      "lon": 3.7208,
+      "lat": 51.05718,
+      "lon": 3.72077,
       "wiki": "Gravensteen",
       "summary": "A moated 12th-century castle with a witty audio guide.",
       "expect": "Climb the towers.",
@@ -111,7 +111,15 @@
         "Climb the towers.",
         "Use the comedic audio guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 53048,
+          "period": "202511-202610",
+          "title": "Gravensteen",
+          "url": "https://en.wikipedia.org/wiki/Gravensteen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ghent-ghent-altarpiece",
@@ -159,14 +167,23 @@
         "Timed tickets.",
         "Book the AR experience."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 225685,
+          "period": "202511-202610",
+          "title": "Ghent Altarpiece",
+          "url": "https://en.wikipedia.org/wiki/Ghent_Altarpiece",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ghent-ghent-graslei",
       "name": "Graslei and Korenlei",
       "kind": "see",
       "lat": 51.055,
-      "lon": 3.72,
+      "lon": 3.72083,
       "wiki": "Graslei",
       "summary": "Guild houses lining the canal, Ghent's postcard view.",
       "expect": "Lit beautifully at night.",
@@ -206,14 +223,22 @@
         "Lit beautifully at night.",
         "Come back after dark."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8067,
+          "period": "202511-202610",
+          "title": "Graslei",
+          "url": "https://en.wikipedia.org/wiki/Graslei",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ghent-ghent-belfry",
       "name": "Belfry",
       "kind": "see",
-      "lat": 51.0537,
-      "lon": 3.7249,
+      "lat": 51.05389,
+      "lon": 3.72528,
       "wiki": "Belfry of Ghent",
       "summary": "A 91 m medieval belfry with a lift to the top.",
       "expect": "Small fee.",
@@ -253,14 +278,22 @@
         "Small fee.",
         "Go up for the three towers view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13937,
+          "period": "202511-202610",
+          "title": "Belfry of Ghent",
+          "url": "https://en.wikipedia.org/wiki/Belfry_of_Ghent",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ghent-ghent-boat",
       "name": "Canal boat tour",
       "kind": "see",
       "lat": 51.055,
-      "lon": 3.721,
+      "lon": 3.73417,
       "wiki": "Leie",
       "summary": "Boats through the medieval canals.",
       "expect": "About 40 minutes.",
@@ -299,14 +332,22 @@
         "About 40 minutes.",
         "Take the first boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7065,
+          "period": "202511-202610",
+          "title": "Lys (river)",
+          "url": "https://en.wikipedia.org/wiki/Lys_(river)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ghent-ghent-patershol",
       "name": "Patershol",
       "kind": "see",
-      "lat": 51.0583,
-      "lon": 3.7225,
+      "lat": 51.05792,
+      "lon": 3.72263,
       "wiki": "Patershol",
       "summary": "A maze of cobbled lanes full of restaurants.",
       "expect": "Lovely for dinner.",
@@ -345,15 +386,14 @@
       "tradeoffs": [
         "Lovely for dinner.",
         "Eat here one evening."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ghent-ghent-msk",
       "name": "Museum of Fine Arts",
       "kind": "see",
       "lat": 51.0383,
-      "lon": 3.7225,
+      "lon": 3.7238,
       "wiki": "Museum of Fine Arts, Ghent",
       "summary": "Flemish masters from Bosch to Ensor, plus Van Eyck restoration work.",
       "expect": "Pair with SMAK next door.",
@@ -392,7 +432,15 @@
         "Pair with SMAK next door.",
         "See the Bosch."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6037,
+          "period": "202511-202610",
+          "title": "Museum of Fine Arts, Ghent",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts%2C_Ghent",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ghent-ghent-waterzooi",
@@ -566,5 +614,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

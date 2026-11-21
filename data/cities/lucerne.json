@@ -71,8 +71,8 @@
       "id": "lucerne-luz-chapelbridge",
       "name": "Chapel Bridge",
       "kind": "see",
-      "lat": 47.0517,
-      "lon": 8.3077,
+      "lat": 47.05167,
+      "lon": 8.3075,
       "wiki": "Chapel Bridge",
       "summary": "A 14th-century covered wooden bridge with painted panels and a water tower.",
       "expect": "Free.",
@@ -112,7 +112,15 @@
         "Free.",
         "Walk it early morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 38791,
+          "period": "202511-202610",
+          "title": "Kapellbrücke",
+          "url": "https://en.wikipedia.org/wiki/Kapellbr%C3%BCcke",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lucerne-luz-oldtown",
@@ -165,8 +173,8 @@
       "id": "lucerne-luz-lion",
       "name": "Lion Monument",
       "kind": "see",
-      "lat": 47.0584,
-      "lon": 8.3105,
+      "lat": 47.05833,
+      "lon": 8.31056,
       "wiki": "Lion Monument",
       "summary": "A dying lion carved into a cliff, honouring Swiss Guards killed in 1792.",
       "expect": "Free.",
@@ -206,14 +214,22 @@
         "Free.",
         "Visit quietly; it's a memorial."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 99690,
+          "period": "202511-202610",
+          "title": "Lion Monument",
+          "url": "https://en.wikipedia.org/wiki/Lion_Monument",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lucerne-luz-pilatus",
       "name": "Mount Pilatus",
       "kind": "see",
-      "lat": 46.979,
-      "lon": 8.255,
+      "lat": 46.97389,
+      "lon": 8.24111,
       "wiki": "Pilatus (mountain)",
       "summary": "The 'Golden Round Trip': boat, the world's steepest cogwheel railway up, cable cars down.",
       "expect": "Cogwheel runs May to November.",
@@ -254,14 +270,22 @@
         "Cogwheel runs May to November.",
         "Do the full golden round trip."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42723,
+          "period": "202511-202610",
+          "title": "Pilatus (mountain)",
+          "url": "https://en.wikipedia.org/wiki/Pilatus_(mountain)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lucerne-luz-rigi",
       "name": "Mount Rigi",
       "kind": "see",
-      "lat": 47.0567,
-      "lon": 8.485,
+      "lat": 47.05667,
+      "lon": 8.48556,
       "wiki": "Rigi",
       "summary": "The 'queen of the mountains', with Europe's first mountain railway and lake views.",
       "expect": "Combine with a lake boat.",
@@ -302,14 +326,22 @@
         "Combine with a lake boat.",
         "Go for sunrise or sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24251,
+          "period": "202511-202610",
+          "title": "Rigi",
+          "url": "https://en.wikipedia.org/wiki/Rigi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lucerne-luz-lake",
       "name": "Lake Lucerne cruise",
       "kind": "see",
-      "lat": 47.05,
-      "lon": 8.31,
+      "lat": 47.0194,
+      "lon": 8.4011,
       "wiki": "Lake Lucerne",
       "summary": "Paddle steamers through fjord-like arms of the lake.",
       "expect": "Covered by Swiss passes.",
@@ -349,14 +381,22 @@
         "Covered by Swiss passes.",
         "Ride a historic paddle steamer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48493,
+          "period": "202511-202610",
+          "title": "Lake Lucerne",
+          "url": "https://en.wikipedia.org/wiki/Lake_Lucerne",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lucerne-luz-transport",
       "name": "Swiss Museum of Transport",
       "kind": "see",
-      "lat": 47.0525,
-      "lon": 8.336,
+      "lat": 47.05278,
+      "lon": 8.33583,
       "wiki": "Swiss Museum of Transport",
       "summary": "Trains, planes, cars and a planetarium; Switzerland's most visited museum.",
       "expect": "Allow half a day.",
@@ -395,14 +435,22 @@
         "Allow half a day.",
         "See the Gotthard exhibit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6138,
+          "period": "202511-202610",
+          "title": "Swiss Museum of Transport",
+          "url": "https://en.wikipedia.org/wiki/Swiss_Museum_of_Transport",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lucerne-luz-titlis",
       "name": "Mount Titlis",
       "kind": "see",
-      "lat": 46.772,
-      "lon": 8.437,
+      "lat": 46.7725,
+      "lon": 8.43722,
       "wiki": "Titlis",
       "summary": "A rotating cable car to glaciers, an ice cave and Europe's highest suspension bridge.",
       "expect": "Cold at the top all year.",
@@ -443,8 +491,16 @@
         "Cold at the top all year.",
         "Walk the Cliff Walk bridge."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 26883,
+          "period": "202511-202610",
+          "title": "Titlis",
+          "url": "https://en.wikipedia.org/wiki/Titlis",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lucerne-luz-pastete",
@@ -617,5 +673,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

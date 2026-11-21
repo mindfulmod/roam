@@ -71,8 +71,8 @@
       "id": "galway-gal-latin",
       "name": "Latin Quarter and Shop Street",
       "kind": "see",
-      "lat": 53.272,
-      "lon": -9.053,
+      "lat": 53.2727,
+      "lon": -9.0527,
       "wiki": "Shop Street",
       "summary": "Colourful pedestrian streets of buskers, shops and pubs.",
       "expect": "Lively day and night.",
@@ -112,14 +112,22 @@
         "Lively day and night.",
         "Listen to the buskers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3169,
+          "period": "202511-202610",
+          "title": "Shop Street",
+          "url": "https://en.wikipedia.org/wiki/Shop_Street",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-arch",
       "name": "Spanish Arch",
       "kind": "see",
-      "lat": 53.27,
-      "lon": -9.054,
+      "lat": 53.26976,
+      "lon": -9.05403,
       "wiki": "Spanish Arch",
       "summary": "A 16th-century arch by the river mouth, with swans and the Long Walk.",
       "expect": "Free.",
@@ -158,7 +166,15 @@
         "Free.",
         "Sit by the river at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13727,
+          "period": "202511-202610",
+          "title": "Spanish Arch",
+          "url": "https://en.wikipedia.org/wiki/Spanish_Arch",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-trad",
@@ -204,14 +220,23 @@
         "Sessions start around 6 pm and 9:30 pm.",
         "Arrive early for a seat."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 58873,
+          "period": "202511-202610",
+          "title": "Irish traditional music",
+          "url": "https://en.wikipedia.org/wiki/Irish_traditional_music",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-moher",
       "name": "Cliffs of Moher",
       "kind": "see",
-      "lat": 52.9715,
-      "lon": -9.4309,
+      "lat": 52.97175,
+      "lon": -9.42633,
       "wiki": "Cliffs of Moher",
       "summary": "Cliffs rising 214 m above the Atlantic.",
       "expect": "Windy; stay behind barriers.",
@@ -252,14 +277,22 @@
         "Windy; stay behind barriers.",
         "Walk the cliff path toward Hag's Head."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 185153,
+          "period": "202511-202610",
+          "title": "Cliffs of Moher",
+          "url": "https://en.wikipedia.org/wiki/Cliffs_of_Moher",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-burren",
       "name": "The Burren",
       "kind": "see",
-      "lat": 53.05,
-      "lon": -9.1,
+      "lat": 53.00778,
+      "lon": -9.00222,
       "wiki": "The Burren",
       "summary": "A limestone moonscape with rare flowers and the Poulnabrone dolmen.",
       "expect": "On the way to the Cliffs.",
@@ -299,14 +332,22 @@
         "On the way to the Cliffs.",
         "Stop at Poulnabrone."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 64638,
+          "period": "202511-202610",
+          "title": "The Burren",
+          "url": "https://en.wikipedia.org/wiki/The_Burren",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-aran",
       "name": "Aran Islands (Inis Mór)",
       "kind": "see",
-      "lat": 53.12,
-      "lon": -9.72,
+      "lat": 53.12361,
+      "lon": -9.7275,
       "wiki": "Inishmore",
       "summary": "Stone walls, cliff fort Dún Aonghasa and Irish-speaking villages.",
       "expect": "Ferry from Rossaveal.",
@@ -347,14 +388,22 @@
         "Ferry from Rossaveal.",
         "Rent a bike on the island."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44252,
+          "period": "202511-202610",
+          "title": "Inishmore",
+          "url": "https://en.wikipedia.org/wiki/Inishmore",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-kylemore",
       "name": "Kylemore Abbey and Connemara",
       "kind": "see",
-      "lat": 53.5617,
-      "lon": -9.889,
+      "lat": 53.56171,
+      "lon": -9.88943,
       "wiki": "Kylemore Abbey",
       "summary": "A lakeside abbey and Victorian garden amid Connemara's mountains.",
       "expect": "Long drive; a tour is easiest.",
@@ -395,15 +444,23 @@
         "Long drive; a tour is easiest.",
         "Walk the walled garden."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 52111,
+          "period": "202511-202610",
+          "title": "Kylemore Abbey",
+          "url": "https://en.wikipedia.org/wiki/Kylemore_Abbey",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-cathedral",
       "name": "Galway Cathedral",
       "kind": "see",
-      "lat": 53.275,
-      "lon": -9.058,
+      "lat": 53.27528,
+      "lon": -9.0575,
       "wiki": "Galway Cathedral",
       "summary": "A grand 1960s cathedral with a green dome.",
       "expect": "Free.",
@@ -443,7 +500,15 @@
         "Free.",
         "Look at the mosaics."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15002,
+          "period": "202511-202610",
+          "title": "Cathedral of Our Lady Assumed into Heaven and St Nicholas, Galway",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Our_Lady_Assumed_into_Heaven_and_St_Nicholas%2C_Galway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galway-gal-oysters",
@@ -616,5 +681,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

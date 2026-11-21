@@ -77,8 +77,8 @@
       "id": "geneva-gva-jetdeau",
       "name": "Jet d'Eau",
       "kind": "see",
-      "lat": 46.2075,
-      "lon": 6.1556,
+      "lat": 46.20722,
+      "lon": 6.15611,
       "wiki": "Jet d'Eau",
       "summary": "A 140 m fountain shooting from the lake, Geneva's icon.",
       "expect": "You'll get wet on the jetty.",
@@ -117,14 +117,22 @@
         "You'll get wet on the jetty.",
         "Walk out on the jetty."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 38977,
+          "period": "202511-202610",
+          "title": "Jet d'Eau",
+          "url": "https://en.wikipedia.org/wiki/Jet_d'Eau",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-oldtown",
       "name": "Old town and St Pierre Cathedral",
       "kind": "see",
-      "lat": 46.2011,
-      "lon": 6.1485,
+      "lat": 46.20111,
+      "lon": 6.14861,
       "wiki": "St. Pierre Cathedral",
       "summary": "Cobbled streets around a cathedral with towers to climb and Roman ruins below.",
       "expect": "Tower has a small fee.",
@@ -166,14 +174,22 @@
         "Tower has a small fee.",
         "Climb the north tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24866,
+          "period": "202511-202610",
+          "title": "St. Pierre Cathedral",
+          "url": "https://en.wikipedia.org/wiki/St._Pierre_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-un",
       "name": "Palais des Nations",
       "kind": "see",
-      "lat": 46.2266,
-      "lon": 6.1404,
+      "lat": 46.22667,
+      "lon": 6.14056,
       "wiki": "Palace of Nations",
       "summary": "Guided tours of the UN's European headquarters.",
       "expect": "Bring your passport; book a tour.",
@@ -214,14 +230,22 @@
         "Bring your passport; book a tour.",
         "See the Broken Chair outside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36466,
+          "period": "202511-202610",
+          "title": "Palace of Nations",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Nations",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-cern",
       "name": "CERN Science Gateway",
       "kind": "see",
-      "lat": 46.2338,
-      "lon": 6.0557,
+      "lat": 46.233,
+      "lon": 6.0556,
       "wiki": "CERN",
       "summary": "Free exhibitions and tours at the home of the Large Hadron Collider.",
       "expect": "Book guided tours early.",
@@ -261,14 +285,22 @@
         "Book guided tours early.",
         "Visit Science Gateway."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 527430,
+          "period": "202511-202610",
+          "title": "CERN",
+          "url": "https://en.wikipedia.org/wiki/CERN",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-redcross",
       "name": "Red Cross Museum",
       "kind": "see",
-      "lat": 46.2275,
-      "lon": 6.1375,
+      "lat": 46.22722,
+      "lon": 6.13694,
       "wiki": "International Red Cross and Red Crescent Museum",
       "summary": "A moving museum on humanitarian work.",
       "expect": "Allow 1.5 hours.",
@@ -307,14 +339,22 @@
         "Allow 1.5 hours.",
         "Combine with the UN."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2285,
+          "period": "202511-202610",
+          "title": "International Red Cross and Red Crescent Museum",
+          "url": "https://en.wikipedia.org/wiki/International_Red_Cross_and_Red_Crescent_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-reformation",
       "name": "Reformation Wall",
       "kind": "see",
-      "lat": 46.2004,
-      "lon": 6.1459,
+      "lat": 46.20028,
+      "lon": 6.14556,
       "wiki": "Reformation Wall",
       "summary": "Giant statues of Calvin and other reformers.",
       "expect": "Free.",
@@ -354,7 +394,15 @@
         "Free.",
         "Watch giant chess in the park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30360,
+          "period": "202511-202610",
+          "title": "Reformation Wall",
+          "url": "https://en.wikipedia.org/wiki/Reformation_Wall",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-lake",
@@ -402,14 +450,23 @@
         "Covered by some passes.",
         "Sail to Yvoire, a medieval French village."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 136475,
+          "period": "202511-202610",
+          "title": "Lake Geneva",
+          "url": "https://en.wikipedia.org/wiki/Lake_Geneva",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-chamonix",
       "name": "Chamonix and Aiguille du Midi",
       "kind": "see",
-      "lat": 45.8786,
-      "lon": 6.8873,
+      "lat": 45.87861,
+      "lon": 6.88722,
       "wiki": "Aiguille du Midi",
       "summary": "A cable car to 3,842 m facing Mont Blanc, in France.",
       "expect": "About 1.5 hours by road; bring your passport.",
@@ -450,8 +507,16 @@
         "About 1.5 hours by road; bring your passport.",
         "Step into the Void glass box."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 115647,
+          "period": "202511-202610",
+          "title": "Aiguille du Midi",
+          "url": "https://en.wikipedia.org/wiki/Aiguille_du_Midi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "geneva-gva-fondue",
@@ -624,5 +689,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

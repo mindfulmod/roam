@@ -78,8 +78,8 @@
       "id": "zermatt-zer-gornergrat",
       "name": "Gornergrat railway",
       "kind": "see",
-      "lat": 45.9833,
-      "lon": 7.7847,
+      "lat": 45.98333,
+      "lon": 7.78472,
       "wiki": "Gornergrat",
       "summary": "A cogwheel railway to 3,089 m with the Matterhorn and 29 peaks over 4,000 m.",
       "expect": "Sit on the right going up.",
@@ -120,14 +120,22 @@
         "Sit on the right going up.",
         "Go at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16724,
+          "period": "202511-202610",
+          "title": "Gornergrat",
+          "url": "https://en.wikipedia.org/wiki/Gornergrat",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zermatt-zer-glacier",
       "name": "Matterhorn Glacier Paradise",
       "kind": "see",
-      "lat": 45.938,
-      "lon": 7.73,
+      "lat": 45.93833,
+      "lon": 7.72972,
       "wiki": "Klein Matterhorn",
       "summary": "Europe's highest cable car station at 3,883 m with a glacier palace.",
       "expect": "Altitude sickness possible.",
@@ -168,7 +176,15 @@
         "Altitude sickness possible.",
         "Go on a clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16244,
+          "period": "202511-202610",
+          "title": "Klein Matterhorn",
+          "url": "https://en.wikipedia.org/wiki/Klein_Matterhorn",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zermatt-zer-fivelakes",
@@ -221,8 +237,8 @@
       "id": "zermatt-zer-riffelsee",
       "name": "Riffelsee",
       "kind": "see",
-      "lat": 45.986,
-      "lon": 7.772,
+      "lat": 45.98333,
+      "lon": 7.76222,
       "wiki": "Riffelsee",
       "summary": "A small lake mirroring the Matterhorn.",
       "expect": "On the Gornergrat line.",
@@ -262,14 +278,22 @@
         "On the Gornergrat line.",
         "Go early when the water is still."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1842,
+          "period": "202511-202610",
+          "title": "Riffelsee",
+          "url": "https://en.wikipedia.org/wiki/Riffelsee",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zermatt-zer-museum",
       "name": "Matterhorn Museum",
       "kind": "see",
-      "lat": 46.02,
-      "lon": 7.748,
+      "lat": 46.01972,
+      "lon": 7.74611,
       "wiki": "Matterhorn Museum",
       "summary": "The story of the first ascent and its tragedy, in a recreated village.",
       "expect": "Small.",
@@ -308,7 +332,15 @@
         "Small.",
         "See the broken rope."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2683,
+          "period": "202511-202610",
+          "title": "Matterhorn Museum",
+          "url": "https://en.wikipedia.org/wiki/Matterhorn_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zermatt-zer-hinterdorf",
@@ -355,7 +387,16 @@
         "Free.",
         "Walk through in the evening."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 142269,
+          "period": "202511-202610",
+          "title": "Zermatt",
+          "url": "https://en.wikipedia.org/wiki/Zermatt",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zermatt-zer-gorge",
@@ -575,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
