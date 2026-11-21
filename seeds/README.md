@@ -10,7 +10,7 @@ pull request  ->  "Check" workflow (data check + build)  ->  merge  ->  site red
 
 ## Steps
 
-1. Run `node scripts/coverage.mjs` to see which major tourist countries, most-visited cities and holy cities are still missing (`seeds/coverage-report.md`), then pick cities from there or from `seeds/backlog.md` and tick them off in the backlog.
+1. Run `node scripts/coverage.mjs` to see which major tourist countries, most-visited cities and holy cities are still missing (`seeds/coverage/report.md`), then pick cities from there or from `seeds/backlog.md` and tick them off in the backlog.
 2. Write a seed file in `seeds/` (one city, or a list of cities). Copy a city from an existing batch file as a template.
 3. `node scripts/add-city.mjs && node scripts/check-data.mjs && npm run build`
 4. Push to a `claude/**` branch. The enrich workflow commits pins, photos and a report to `seeds/reports/` back to the branch. Read the report and fix what it flags (wrong Wikipedia title, a venue the map could not find).
