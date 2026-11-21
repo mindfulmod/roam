@@ -67,7 +67,7 @@
       "name": "Temple of the Sacred Tooth Relic",
       "kind": "see",
       "lat": 7.2936,
-      "lon": 80.6413,
+      "lon": 80.6414,
       "wiki": "Temple of the Tooth",
       "summary": "The golden-roofed temple holding the Buddha's tooth relic, with drumming and offerings at the daily puja.",
       "expect": "Shoes off; shoulders and knees covered; an entry fee for foreigners.",
@@ -107,14 +107,22 @@
         "Shoes off; shoulders and knees covered; an entry fee for foreigners.",
         "Go for the evening puja around 6:30pm, when the relic chamber opens."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 71176,
+          "period": "202511-202610",
+          "title": "Temple of the Tooth",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_the_Tooth",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kandy-kandy-lake",
       "name": "Kandy Lake",
       "kind": "see",
-      "lat": 7.292,
-      "lon": 80.643,
+      "lat": 7.3,
+      "lon": 80.63333,
       "wiki": "Kandy Lake",
       "summary": "An 1807 lake built by the last king, with a shady walk around its cloud-wall edge.",
       "expect": "Busy at dusk; monkeys in the trees.",
@@ -153,14 +161,22 @@
         "Busy at dusk; monkeys in the trees.",
         "Walk the full loop at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6656,
+          "period": "202511-202610",
+          "title": "Kandy Lake",
+          "url": "https://en.wikipedia.org/wiki/Kandy_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kandy-kandy-peradeniya",
       "name": "Royal Botanical Gardens, Peradeniya",
       "kind": "see",
-      "lat": 7.269,
-      "lon": 80.596,
+      "lat": 7.27111,
+      "lon": 80.59556,
       "wiki": "Royal Botanical Gardens, Peradeniya",
       "summary": "Huge gardens with an avenue of royal palms, an orchid house and giant fig trees.",
       "expect": "Bring water; bats hang in the trees.",
@@ -199,7 +215,15 @@
         "Bring water; bats hang in the trees.",
         "See the giant Javan fig tree and the orchid house."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12206,
+          "period": "202511-202610",
+          "title": "Royal Botanic Gardens, Peradeniya",
+          "url": "https://en.wikipedia.org/wiki/Royal_Botanic_Gardens%2C_Peradeniya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kandy-kandy-dance",
@@ -246,14 +270,23 @@
         "Nightly at 5pm.",
         "Go before the evening temple puja."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10790,
+          "period": "202511-202610",
+          "title": "Kandyan dance",
+          "url": "https://en.wikipedia.org/wiki/Kandyan_dance",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kandy-kandy-bahirawakanda",
       "name": "Bahirawakanda Buddha",
       "kind": "see",
-      "lat": 7.295,
-      "lon": 80.626,
+      "lat": 7.29558,
+      "lon": 80.6309,
       "wiki": "Bahiravokanda Vihara Buddha Statue",
       "summary": "A giant white Buddha on a hilltop overlooking the city.",
       "expect": "Steep road; shoes off at the top.",
@@ -292,15 +325,14 @@
       "tradeoffs": [
         "Steep road; shoes off at the top.",
         "Go late afternoon for the view."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "kandy-kandy-udawatta-kele",
       "name": "Udawatta Kele Sanctuary",
       "kind": "see",
-      "lat": 7.299,
-      "lon": 80.64,
+      "lat": 7.29944,
+      "lon": 80.63889,
       "wiki": "Udawatta Kele Sanctuary",
       "summary": "The old royal forest behind the temple, with trails, birds and monkeys.",
       "expect": "Quiet trails; leeches after rain.",
@@ -339,14 +371,22 @@
         "Quiet trails; leeches after rain.",
         "Walk early for birdwatching."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4068,
+          "period": "202511-202610",
+          "title": "Udawattakele Forest Reserve",
+          "url": "https://en.wikipedia.org/wiki/Udawattakele_Forest_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kandy-kandy-sigiriya",
       "name": "Sigiriya",
       "kind": "see",
-      "lat": 7.957,
-      "lon": 80.7603,
+      "lat": 7.95694,
+      "lon": 80.75972,
       "wiki": "Sigiriya",
       "summary": "A 5th-century palace on top of a 200 m rock, with frescoes and lion-paw gate.",
       "expect": "About 2.5 hours each way; 1,200 steps.",
@@ -387,8 +427,16 @@
         "About 2.5 hours each way; 1,200 steps.",
         "Climb at opening to beat the heat; combine with Dambulla cave temples."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 261504,
+          "period": "202511-202610",
+          "title": "Sigiriya",
+          "url": "https://en.wikipedia.org/wiki/Sigiriya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kandy-kandy-rice-and-curry",
@@ -567,5 +615,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

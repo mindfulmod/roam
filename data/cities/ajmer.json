@@ -80,8 +80,8 @@
       "id": "ajmer-ajmer-dargah",
       "name": "Ajmer Sharif Dargah",
       "kind": "see",
-      "lat": 26.4563,
-      "lon": 74.6283,
+      "lat": 26.45613,
+      "lon": 74.62817,
       "wiki": "Ajmer Sharif Dargah",
       "summary": "The shrine of the Sufi saint Moinuddin Chishti, with huge cooking cauldrons, marble courtyards and qawwali singers.",
       "expect": "Open to all faiths; cover your head; leave shoes at the stalls; very crowded on Thursdays and during Urs.",
@@ -121,14 +121,22 @@
         "Open to all faiths; cover your head; leave shoes at the stalls; very crowded on Thursdays and during Urs.",
         "Come on Thursday evening for qawwali in the courtyard."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 57196,
+          "period": "202511-202610",
+          "title": "Shrine of Mu'in al-Din Chishti",
+          "url": "https://en.wikipedia.org/wiki/Shrine_of_Mu'in_al-Din_Chishti",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ajmer-ajmer-adhai-din",
       "name": "Adhai Din Ka Jhonpra",
       "kind": "see",
-      "lat": 26.4554,
-      "lon": 74.625,
+      "lat": 26.45507,
+      "lon": 74.6252,
       "wiki": "Adhai Din Ka Jhonpra",
       "summary": "A 12th-century mosque built from temple stones, with carved pillars and arches.",
       "expect": "A short walk uphill from the dargah.",
@@ -168,14 +176,22 @@
         "A short walk uphill from the dargah.",
         "Visit right after the dargah."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29505,
+          "period": "202511-202610",
+          "title": "Adhai Din Ka Jhonpra",
+          "url": "https://en.wikipedia.org/wiki/Adhai_Din_Ka_Jhonpra",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ajmer-ajmer-ana-sagar",
       "name": "Ana Sagar Lake",
       "kind": "see",
-      "lat": 26.472,
-      "lon": 74.626,
+      "lat": 26.475,
+      "lon": 74.625,
       "wiki": "Ana Sagar Lake",
       "summary": "A 12th-century lake with marble pavilions built by Shah Jahan on its banks.",
       "expect": "Boat rides; busy at sunset.",
@@ -215,14 +231,22 @@
         "Boat rides; busy at sunset.",
         "Walk the Daulat Bagh gardens at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15394,
+          "period": "202511-202610",
+          "title": "Ana Sagar Lake",
+          "url": "https://en.wikipedia.org/wiki/Ana_Sagar_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ajmer-ajmer-soniji-ki-nasiyan",
       "name": "Soniji Ki Nasiyan",
       "kind": "see",
-      "lat": 26.459,
-      "lon": 74.636,
+      "lat": 26.45,
+      "lon": 74.64,
       "wiki": "Soniji Ki Nasiyan",
       "summary": "A Jain temple with a hall of gilded models of the Jain universe.",
       "expect": "Only the golden hall is open to visitors.",
@@ -262,14 +286,22 @@
         "Only the golden hall is open to visitors.",
         "Look for the gilded flying ships in the hall."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7397,
+          "period": "202511-202610",
+          "title": "Ajmer Jain temple",
+          "url": "https://en.wikipedia.org/wiki/Ajmer_Jain_temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ajmer-ajmer-taragarh",
       "name": "Taragarh Fort",
       "kind": "see",
-      "lat": 26.442,
-      "lon": 74.623,
+      "lat": 26.44193,
+      "lon": 74.61786,
       "wiki": "Taragarh Fort, Ajmer",
       "summary": "A ruined hill fort with views over the city and lake.",
       "expect": "Steep road; jeeps run up.",
@@ -309,7 +341,15 @@
         "Steep road; jeeps run up.",
         "Go late afternoon for the view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14092,
+          "period": "202511-202610",
+          "title": "Taragarh Fort, Ajmer",
+          "url": "https://en.wikipedia.org/wiki/Taragarh_Fort%2C_Ajmer",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ajmer-ajmer-pushkar",
@@ -356,7 +396,16 @@
         "Watch the evening aarti at Varaha Ghat and stay for sunset."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 96857,
+          "period": "202511-202610",
+          "title": "Pushkar",
+          "url": "https://en.wikipedia.org/wiki/Pushkar",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ajmer-ajmer-biryani",
@@ -535,5 +584,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

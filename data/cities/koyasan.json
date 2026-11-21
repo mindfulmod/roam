@@ -69,8 +69,8 @@
       "id": "koyasan-koyasan-okunoin",
       "name": "Okunoin",
       "kind": "see",
-      "lat": 34.219,
-      "lon": 135.6,
+      "lat": 34.2175,
+      "lon": 135.605,
       "wiki": "Okunoin",
       "summary": "Japan's largest cemetery, with 200,000 graves under giant cedars on a 2 km path to Kūkai's mausoleum.",
       "expect": "No photos beyond the last bridge; very atmospheric at night.",
@@ -111,14 +111,22 @@
         "No photos beyond the last bridge; very atmospheric at night.",
         "Join a monk-led night tour from Ichinohashi bridge."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14831,
+          "period": "202511-202610",
+          "title": "Okunoin",
+          "url": "https://en.wikipedia.org/wiki/Okunoin",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "koyasan-koyasan-kongobu-ji",
       "name": "Kongōbu-ji",
       "kind": "see",
-      "lat": 34.2128,
-      "lon": 135.584,
+      "lat": 34.21408,
+      "lon": 135.58409,
       "wiki": "Kongōbu-ji",
       "summary": "The head temple of Shingon Buddhism, with painted sliding doors and Japan's largest rock garden.",
       "expect": "Tea and a sweet included.",
@@ -159,7 +167,15 @@
         "Tea and a sweet included.",
         "Sit by the Banryūtei rock garden."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7195,
+          "period": "202511-202610",
+          "title": "Kongōbu-ji",
+          "url": "https://en.wikipedia.org/wiki/Kong%C5%8Dbu-ji",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "koyasan-koyasan-danjo-garan",
@@ -206,7 +222,16 @@
         "Some halls charge a small fee.",
         "Go inside the Daitō to see the mandala of Buddhas."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 39619,
+          "period": "202511-202610",
+          "title": "Mount Kōya",
+          "url": "https://en.wikipedia.org/wiki/Mount_K%C5%8Dya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "koyasan-koyasan-shukubo",
@@ -299,14 +324,23 @@
         "A walk or bus from the centre.",
         "Come for sunset over the mountains."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 39619,
+          "period": "202511-202610",
+          "title": "Mount Kōya",
+          "url": "https://en.wikipedia.org/wiki/Mount_K%C5%8Dya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "koyasan-koyasan-reihokan",
       "name": "Reihōkan Museum",
       "kind": "see",
-      "lat": 34.2115,
-      "lon": 135.5835,
+      "lat": 34.21128,
+      "lon": 135.58089,
       "wiki": "Mount Kōya",
       "summary": "A museum of Buddhist art, with national treasures from Koyasan's temples.",
       "expect": "Rotating exhibits.",
@@ -346,7 +380,15 @@
         "Rotating exhibits.",
         "Pair it with the Garan next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39619,
+          "period": "202511-202610",
+          "title": "Mount Kōya",
+          "url": "https://en.wikipedia.org/wiki/Mount_K%C5%8Dya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "koyasan-koyasan-shojin-ryori",
@@ -523,5 +565,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

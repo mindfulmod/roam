@@ -72,8 +72,8 @@
       "id": "lumbini-lumbini-maya-devi",
       "name": "Maya Devi Temple",
       "kind": "see",
-      "lat": 27.4696,
-      "lon": 83.2757,
+      "lat": 27.46963,
+      "lon": 83.27586,
       "wiki": "Maya Devi Temple, Lumbini",
       "summary": "A simple white temple over ancient ruins and the marker stone showing the exact spot of the Buddha's birth.",
       "expect": "Shoes off; no photos inside; an entry fee for foreigners.",
@@ -113,14 +113,22 @@
         "Shoes off; no photos inside; an entry fee for foreigners.",
         "Come at dawn when monks chant under the Bodhi tree beside the sacred pond."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17595,
+          "period": "202511-202610",
+          "title": "Maya Devi Temple, Lumbini",
+          "url": "https://en.wikipedia.org/wiki/Maya_Devi_Temple%2C_Lumbini",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lumbini-lumbini-ashoka-pillar",
       "name": "Ashoka Pillar",
       "kind": "see",
-      "lat": 27.4693,
-      "lon": 83.275,
+      "lat": 27.46965,
+      "lon": 83.27559,
       "wiki": "Lumbini pillar inscription",
       "summary": "A stone pillar raised by Emperor Ashoka in 249 BC, with an inscription naming this as the Buddha's birthplace.",
       "expect": "Beside the Maya Devi Temple.",
@@ -159,14 +167,22 @@
         "Beside the Maya Devi Temple.",
         "Read the translation on the sign beside it."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13154,
+          "period": "202511-202610",
+          "title": "Lumbini pillar inscription",
+          "url": "https://en.wikipedia.org/wiki/Lumbini_pillar_inscription",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lumbini-lumbini-monastic-zone",
       "name": "Monastic Zone",
       "kind": "see",
-      "lat": 27.48,
-      "lon": 83.277,
+      "lat": 27.47858,
+      "lon": 83.27586,
       "wiki": "Lumbini",
       "summary": "A long canal-side park of monasteries built by China, Thailand, Myanmar, Germany, Vietnam, Korea and others.",
       "expect": "Spread over 4 km; many close at midday.",
@@ -206,14 +222,22 @@
         "Spread over 4 km; many close at midday.",
         "Rent a bicycle and visit the Thai, Chinese and German monasteries."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 172451,
+          "period": "202511-202610",
+          "title": "Lumbini",
+          "url": "https://en.wikipedia.org/wiki/Lumbini",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lumbini-lumbini-peace-pagoda",
       "name": "World Peace Pagoda",
       "kind": "see",
-      "lat": 27.492,
-      "lon": 83.275,
+      "lat": 27.49891,
+      "lon": 83.27626,
       "wiki": "Peace Pagoda",
       "summary": "A gleaming white stupa built by Japanese Buddhists, with a golden Buddha.",
       "expect": "At the far end of the monastic zone.",
@@ -253,7 +277,15 @@
         "At the far end of the monastic zone.",
         "Go at sunset when it glows."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18854,
+          "period": "202511-202610",
+          "title": "Peace Pagoda",
+          "url": "https://en.wikipedia.org/wiki/Peace_Pagoda",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lumbini-lumbini-museum",
@@ -299,14 +331,23 @@
         "Small; check opening hours.",
         "Walk the canal to the flame on the way to the pagoda."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 172451,
+          "period": "202511-202610",
+          "title": "Lumbini",
+          "url": "https://en.wikipedia.org/wiki/Lumbini",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lumbini-lumbini-tilaurakot",
       "name": "Tilaurakot (ancient Kapilavastu)",
       "kind": "see",
-      "lat": 27.577,
-      "lon": 83.055,
+      "lat": 27.58,
+      "lon": 83.08,
       "wiki": "Tilaurakot",
       "summary": "The ruined palace city where the young prince Siddhartha is believed to have grown up.",
       "expect": "About an hour by car; ruins in forest.",
@@ -346,8 +387,16 @@
         "About an hour by car; ruins in forest.",
         "Hire a driver and combine with nearby Kudan and Gotihawa."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6372,
+          "period": "202511-202610",
+          "title": "Tilaurakot",
+          "url": "https://en.wikipedia.org/wiki/Tilaurakot",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lumbini-lumbini-dal-bhat",
@@ -525,5 +574,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
