@@ -1,0 +1,2441 @@
+[
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a few euros for coffee bars, tips and small shops.",
+  "dailyBudget": [
+   90,
+   220
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "turin",
+  "name": "Turin",
+  "at": [
+   45.0703,
+   7.6869
+  ],
+  "wiki": "Turin",
+  "cover": "Turin Mole Antonelliana Alps",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Royal palaces, Egyptian treasures and the home of the aperitivo",
+  "summary": "Turin is Italy's elegant first capital, with arcaded boulevards, Savoy palaces and the Alps on the horizon. See the world's second-greatest Egyptian Museum, ride the lift up the Mole Antonelliana, sip a bicerin in an old café and graze through the city's generous aperitivo spreads.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are mild and clear; winter is foggy and cold but good for museums.",
+  "arrival": "Turin Airport is 30 minutes by bus or train; fast trains reach Porta Nuova and Porta Susa from Milan in under an hour.",
+  "gettingAround": "The centre is walkable under the arcades; trams and the metro cover the rest.",
+  "foodTip": "Bicerin, gianduja chocolate, agnolotti and a long aperitivo.",
+  "buyTip": "Gianduiotti chocolates, vermouth and Piedmont wines.",
+  "baseArea": "Centro or San Salvario",
+  "hotel": [
+   90,
+   220
+  ],
+  "connections": [
+   {
+    "to": "milan",
+    "mode": "Train",
+    "minutes": 50,
+    "note": "High-speed trains between Porta Susa and Milano Centrale."
+   },
+   {
+    "to": "cinque-terre",
+    "mode": "Train",
+    "minutes": 210,
+    "note": "Change in Genoa."
+   }
+  ],
+  "items": [
+   {
+    "name": "Egyptian Museum",
+    "kind": "see",
+    "id": "tur-egizio",
+    "at": [
+     45.0684,
+     7.6843
+    ],
+    "wiki": "Museo Egizio",
+    "area": "Centro",
+    "summary": "One of the world's great collections of ancient Egyptian art.",
+    "expect": "Book a time slot.",
+    "tip": "Allow at least three hours.",
+    "why": "World-class collection.",
+    "flow": [
+     "Statue gallery.",
+     "Tomb of Kha."
+    ],
+    "hours": 3,
+    "price": [
+     18,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Mole Antonelliana and Cinema Museum",
+    "kind": "see",
+    "id": "tur-mole",
+    "at": [
+     45.069,
+     7.6932
+    ],
+    "wiki": "Mole Antonelliana",
+    "area": "Vanchiglia",
+    "summary": "Spired landmark holding the National Cinema Museum and a glass lift.",
+    "expect": "Lift queues at sunset.",
+    "tip": "Book the lift and museum together.",
+    "why": "City symbol.",
+    "flow": [
+     "Cinema halls.",
+     "Glass lift to the top."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     22
+    ],
+    "best": "Late afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Royal Palace of Turin",
+    "kind": "see",
+    "id": "tur-palazzo",
+    "at": [
+     45.0726,
+     7.686
+    ],
+    "wiki": "Royal Palace of Turin",
+    "area": "Piazza Castello",
+    "summary": "Savoy royal apartments, armoury and gardens.",
+    "expect": "Big complex.",
+    "tip": "Include the Royal Armoury.",
+    "why": "Savoy splendour.",
+    "flow": [
+     "State rooms.",
+     "Armoury."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Basilica of Superga",
+    "kind": "see",
+    "id": "tur-superga",
+    "at": [
+     45.0805,
+     7.7676
+    ],
+    "wiki": "Basilica of Superga",
+    "area": "Superga hill",
+    "summary": "Baroque basilica on a hill with Alpine views.",
+    "expect": "Take the rack railway from Sassi.",
+    "tip": "Clear days show Monte Rosa.",
+    "why": "Best view of Turin.",
+    "flow": [
+     "Rack railway.",
+     "Dome and terrace."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Reggia di Venaria",
+    "kind": "see",
+    "id": "tur-venaria",
+    "at": [
+     45.1368,
+     7.6262
+    ],
+    "wiki": "Palace of Venaria",
+    "area": "Venaria Reale",
+    "summary": "Vast royal hunting palace with restored gardens.",
+    "expect": "Half a day.",
+    "tip": "Train or bus from the centre.",
+    "why": "Italy's Versailles.",
+    "flow": [
+     "Great Gallery.",
+     "Gardens."
+    ],
+    "hours": 4,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Piazza San Carlo and the arcades",
+    "kind": "see",
+    "id": "tur-sancarlo",
+    "at": [
+     45.0677,
+     7.6826
+    ],
+    "wiki": "Piazza San Carlo",
+    "area": "Centro",
+    "summary": "Grand baroque square framed by historic cafés.",
+    "expect": "Free.",
+    "tip": "Walk Via Roma under the arcades.",
+    "why": "Turin's drawing room.",
+    "flow": [
+     "Twin churches.",
+     "Arcaded Via Roma."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Bicerin at Caffè Al Bicerin",
+    "kind": "eat",
+    "id": "tur-bicerin",
+    "at": [
+     45.0745,
+     7.6797
+    ],
+    "wiki": "Bicerin",
+    "area": "Consolata",
+    "venue": "food-area",
+    "summary": "Layered coffee, chocolate and cream served since 1763.",
+    "expect": "Tiny room.",
+    "tip": "Go mid-morning.",
+    "why": "Turin's own drink.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     8
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Bicerin"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Turin aperitivo",
+    "kind": "eat",
+    "id": "tur-aperitivo",
+    "at": [
+     45.061,
+     7.684
+    ],
+    "wiki": "Aperitivo",
+    "area": "San Salvario",
+    "venue": "food-area",
+    "summary": "Vermouth or spritz with a generous buffet of snacks.",
+    "expect": "From 7 pm.",
+    "tip": "Bars in San Salvario and the Quadrilatero.",
+    "why": "Born here.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Italian",
+    "order": [
+     "Vermouth",
+     "Aperitivo buffet"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Agnolotti del plin",
+    "kind": "eat",
+    "id": "tur-agnolotti",
+    "at": [
+     45.073,
+     7.68
+    ],
+    "wiki": "Agnolotti",
+    "area": "Quadrilatero Romano",
+    "venue": "food-area",
+    "summary": "Tiny pinched Piedmont pasta with butter and sage or roast sauce.",
+    "expect": "Trattorias.",
+    "tip": "Pair with Barbera.",
+    "why": "Piedmont classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     14,
+     24
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Piedmontese",
+    "order": [
+     "Agnolotti del plin",
+     "Vitello tonnato"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a few euros for coffee bars, tips and small shops.",
+  "dailyBudget": [
+   90,
+   220
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "siena",
+  "name": "Siena",
+  "at": [
+   43.3188,
+   11.3308
+  ],
+  "wiki": "Siena",
+  "cover": "Siena Piazza del Campo",
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Gothic hill town of the Palio and Tuscan hills",
+  "summary": "Siena is the Gothic jewel of Tuscany, centred on the shell-shaped Piazza del Campo where the Palio horse race runs each summer. Climb the Torre del Mangia, see the striped Duomo and its marble floors, then head out to San Gimignano's towers and the cypress roads of the Val d'Orcia.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are ideal; the Palio on 2 July and 16 August packs the city.",
+  "arrival": "Buses from Florence take about 75 minutes and stop near the centre; Pisa and Florence airports are the nearest.",
+  "gettingAround": "The old town is car-free and steep; rent a car or join a tour for the countryside.",
+  "foodTip": "Pici pasta, wild boar ragù, panforte and Chianti wines.",
+  "buyTip": "Panforte, ricciarelli biscuits, contrada flags and ceramics.",
+  "baseArea": "Inside the walls near Il Campo",
+  "hotel": [
+   90,
+   230
+  ],
+  "connections": [
+   {
+    "to": "florence",
+    "mode": "Bus",
+    "minutes": 75,
+    "note": "Rapid buses beat the train."
+   },
+   {
+    "to": "rome",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Change at Chiusi."
+   }
+  ],
+  "items": [
+   {
+    "name": "Piazza del Campo",
+    "kind": "see",
+    "id": "sie-campo",
+    "at": [
+     43.3184,
+     11.3317
+    ],
+    "wiki": "Piazza del Campo",
+    "area": "Centro",
+    "summary": "Sloping shell-shaped square, home of the Palio.",
+    "expect": "Free.",
+    "tip": "Sit on the bricks at dusk.",
+    "why": "Italy's finest square.",
+    "flow": [
+     "Fonte Gaia.",
+     "Palazzo Pubblico."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Torre del Mangia",
+    "kind": "see",
+    "id": "sie-mangia",
+    "at": [
+     43.318,
+     11.3319
+    ],
+    "wiki": "Torre del Mangia",
+    "area": "Centro",
+    "summary": "Medieval tower with 400 steps over the square.",
+    "expect": "Timed entry.",
+    "tip": "Pair with the Civic Museum frescoes.",
+    "why": "Rooftop view.",
+    "flow": [
+     "Civic Museum.",
+     "Tower climb."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Siena Cathedral",
+    "kind": "see",
+    "id": "sie-duomo",
+    "at": [
+     43.3176,
+     11.3289
+    ],
+    "wiki": "Siena Cathedral",
+    "area": "Duomo",
+    "summary": "Striped Gothic cathedral with inlaid marble floors and the Piccolomini Library.",
+    "expect": "OPA pass covers the complex.",
+    "tip": "Floors are fully uncovered in late summer and autumn.",
+    "why": "Gothic masterpiece.",
+    "flow": [
+     "Marble floors.",
+     "Piccolomini Library."
+    ],
+    "hours": 2,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "Santa Maria della Scala",
+    "kind": "see",
+    "id": "sie-scala",
+    "at": [
+     43.3171,
+     11.3285
+    ],
+    "wiki": "Santa Maria della Scala",
+    "area": "Duomo",
+    "summary": "Former hospital with frescoed wards and archaeology.",
+    "expect": "Quiet.",
+    "tip": "Look for the Pilgrims' Hall.",
+    "why": "Hidden gem.",
+    "flow": [
+     "Pilgrims' Hall.",
+     "Underground rooms."
+    ],
+    "hours": 1.5,
+    "price": [
+     9,
+     9
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "San Gimignano",
+    "kind": "see",
+    "id": "sie-gimignano",
+    "at": [
+     43.4677,
+     11.043
+    ],
+    "wiki": "San Gimignano",
+    "area": "Day trip",
+    "summary": "Walled town of medieval towers and Vernaccia wine.",
+    "expect": "Bus via Poggibonsi.",
+    "tip": "Stay until day-trippers leave.",
+    "why": "Medieval Manhattan.",
+    "flow": [
+     "Towers.",
+     "Gelato in Piazza della Cisterna."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Val d'Orcia",
+    "kind": "see",
+    "id": "sie-orcia",
+    "at": [
+     43.0767,
+     11.677
+    ],
+    "wiki": "Val d'Orcia",
+    "area": "Day trip",
+    "summary": "Rolling hills, cypress rows and Pienza and Montalcino.",
+    "expect": "Best by car.",
+    "tip": "Sunrise near San Quirico.",
+    "why": "Postcard Tuscany.",
+    "flow": [
+     "Pienza.",
+     "Montalcino wine."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Pici with wild boar ragù",
+    "kind": "eat",
+    "id": "sie-pici",
+    "at": [
+     43.319,
+     11.33
+    ],
+    "wiki": "Pici",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Hand-rolled thick pasta with slow-cooked boar.",
+    "expect": "Osterias.",
+    "tip": "Avoid the Campo terraces.",
+    "why": "Sienese staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tuscan",
+    "order": [
+     "Pici al cinghiale",
+     "Pici cacio e pepe"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Panforte and ricciarelli",
+    "kind": "eat",
+    "id": "sie-panforte",
+    "at": [
+     43.32,
+     11.331
+    ],
+    "wiki": "Panforte",
+    "area": "Banchi di Sopra",
+    "venue": "food-area",
+    "summary": "Spiced fruit-and-nut cake and almond biscuits.",
+    "expect": "Bakeries.",
+    "tip": "Nannini is the classic.",
+    "why": "Medieval sweets.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bakery",
+    "order": [
+     "Panforte",
+     "Ricciarelli"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Chianti wine tasting",
+    "kind": "eat",
+    "id": "sie-chianti",
+    "at": [
+     43.4705,
+     11.2885
+    ],
+    "wiki": "Chianti",
+    "area": "Castellina in Chianti",
+    "venue": "food-area",
+    "summary": "Estate tastings in the hills north of Siena.",
+    "expect": "Book ahead.",
+    "tip": "Join a tour if driving.",
+    "why": "Wine country.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Chianti Classico"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a few euros for coffee bars, tips and small shops.",
+  "dailyBudget": [
+   90,
+   220
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "catania",
+  "name": "Catania",
+  "at": [
+   37.5079,
+   15.083
+  ],
+  "wiki": "Catania",
+  "cover": "Catania Etna Piazza Duomo",
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Baroque Sicily in the shadow of Mount Etna",
+  "summary": "Catania is eastern Sicily's lively hub, rebuilt in black lava stone baroque beneath Europe's most active volcano. Climb or ride up Mount Etna, browse the roaring fish market, eat arancini and pasta alla Norma, and day-trip to clifftop Taormina.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are warm; summer is very hot and Etna can be cold and windy at the top any time.",
+  "arrival": "Catania Airport is 15 to 20 minutes from the centre by Alibus.",
+  "gettingAround": "Walk the centre; buses go to Etna and Taormina, or rent a car.",
+  "foodTip": "Arancini, pasta alla Norma, horse-meat grills and granita with brioche.",
+  "buyTip": "Pistachio from Bronte, ceramics and lava-stone crafts.",
+  "baseArea": "Centro storico near Via Etnea",
+  "hotel": [
+   70,
+   180
+  ],
+  "connections": [
+   {
+    "to": "palermo",
+    "mode": "Bus",
+    "minutes": 165,
+    "note": "Frequent motorway buses."
+   },
+   {
+    "to": "naples",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Or the overnight ferry."
+   }
+  ],
+  "items": [
+   {
+    "name": "Mount Etna",
+    "kind": "see",
+    "id": "cat-etna",
+    "at": [
+     37.751,
+     14.9934
+    ],
+    "wiki": "Mount Etna",
+    "area": "Rifugio Sapienza",
+    "summary": "Europe's highest active volcano, with craters, lava fields and a cable car.",
+    "expect": "Bring warm layers.",
+    "tip": "Guided summit tours need booking.",
+    "why": "Living volcano.",
+    "flow": [
+     "Silvestri craters.",
+     "Cable car and jeeps."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     90
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Piazza del Duomo",
+    "kind": "see",
+    "id": "cat-duomo",
+    "at": [
+     37.5025,
+     15.0874
+    ],
+    "wiki": "Catania Cathedral",
+    "area": "Centro",
+    "summary": "Baroque square with the lava-stone elephant fountain.",
+    "expect": "Free.",
+    "tip": "Visit the cathedral of Saint Agatha.",
+    "why": "Heart of the city.",
+    "flow": [
+     "Elephant fountain.",
+     "Cathedral."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "La Pescheria fish market",
+    "kind": "see",
+    "id": "cat-pescheria",
+    "at": [
+     37.5017,
+     15.0857
+    ],
+    "wiki": "La Pescheria",
+    "area": "Centro",
+    "summary": "Loud morning fish market spilling down the alleys.",
+    "expect": "Mornings except Sunday.",
+    "tip": "Eat raw fish at the stalls.",
+    "why": "Pure Sicily.",
+    "flow": [
+     "Swordfish stalls.",
+     "Market lunch."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Taormina",
+    "kind": "see",
+    "id": "cat-taormina",
+    "at": [
+     37.8516,
+     15.2853
+    ],
+    "wiki": "Taormina",
+    "area": "Day trip",
+    "summary": "Clifftop resort with a Greek theatre facing Etna.",
+    "expect": "Bus or train to Taormina-Giardini.",
+    "tip": "Visit Isola Bella below.",
+    "why": "Sicily's showpiece.",
+    "flow": [
+     "Greek theatre.",
+     "Corso Umberto."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Castello Ursino",
+    "kind": "see",
+    "id": "cat-ursino",
+    "at": [
+     37.499,
+     15.0832
+    ],
+    "wiki": "Castello Ursino",
+    "area": "Centro",
+    "summary": "13th-century castle once on the sea, before lava pushed the shore away.",
+    "expect": "Museum inside.",
+    "tip": "Combine with the fish market.",
+    "why": "Lava history.",
+    "flow": [
+     "Moat.",
+     "Civic Museum."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Roman Theatre and Via Crociferi",
+    "kind": "see",
+    "id": "cat-theatre",
+    "at": [
+     37.503,
+     15.082
+    ],
+    "wiki": "Roman Theatre of Catania",
+    "area": "Centro",
+    "summary": "Ancient theatre buried in the city and a street of baroque churches.",
+    "expect": "Short visit.",
+    "tip": "Walk Via Crociferi at dusk.",
+    "why": "Layers of history.",
+    "flow": [
+     "Theatre.",
+     "Via Crociferi."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     6
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Arancini",
+    "kind": "eat",
+    "id": "cat-arancini",
+    "at": [
+     37.505,
+     15.086
+    ],
+    "wiki": "Arancini",
+    "area": "Via Etnea",
+    "venue": "food-area",
+    "summary": "Fried rice cones filled with ragù or pistachio.",
+    "expect": "Bakeries and bars.",
+    "tip": "Try Savia.",
+    "why": "Street-food staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     4
+    ],
+    "best": "Snack",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sicilian",
+    "order": [
+     "Arancino al ragù",
+     "Arancino al pistacchio"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Pasta alla Norma",
+    "kind": "eat",
+    "id": "cat-norma",
+    "at": [
+     37.503,
+     15.088
+    ],
+    "wiki": "Pasta alla Norma",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Pasta with fried aubergine, tomato and ricotta salata, born in Catania.",
+    "expect": "Trattorias.",
+    "tip": "Order it here first.",
+    "why": "Local pride.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     16
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sicilian",
+    "order": [
+     "Pasta alla Norma"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Granita and brioche",
+    "kind": "eat",
+    "id": "cat-granita",
+    "at": [
+     37.51,
+     15.086
+    ],
+    "wiki": "Granita",
+    "area": "Via Etnea",
+    "venue": "food-area",
+    "summary": "Almond, pistachio or black mulberry granita with a warm brioche.",
+    "expect": "Breakfast in summer.",
+    "tip": "Dip the brioche.",
+    "why": "Sicilian breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Granita di mandorla",
+     "Brioche"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; carry a few euros for coffee bars, tips and small shops.",
+  "dailyBudget": [
+   90,
+   220
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "sorrento",
+  "name": "Sorrento",
+  "at": [
+   40.6263,
+   14.3758
+  ],
+  "wiki": "Sorrento",
+  "cover": "Sorrento Marina Grande",
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Clifftop lemon town and gateway to Capri and Pompeii",
+  "summary": "Sorrento sits on cliffs above the Bay of Naples, with lemon groves, a fishing harbour and ferries everywhere. Use it as a base for Capri, Pompeii and the Amalfi Coast, eat gnocchi alla sorrentina, and end the day with limoncello watching Vesuvius at sunset.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "May, June and September are ideal; July and August are hot and crowded.",
+  "arrival": "Naples Airport is about an hour away by bus; the Circumvesuviana train runs from Naples.",
+  "gettingAround": "Walk the town; ferries to Capri and Amalfi, buses along the coast.",
+  "foodTip": "Gnocchi alla sorrentina, fresh seafood, limoncello and delizia al limone.",
+  "buyTip": "Limoncello, inlaid woodwork and lemon soaps.",
+  "baseArea": "Near Piazza Tasso",
+  "hotel": [
+   110,
+   300
+  ],
+  "connections": [
+   {
+    "to": "naples",
+    "mode": "Train",
+    "minutes": 70,
+    "note": "Circumvesuviana, or fast ferry in 40 minutes."
+   },
+   {
+    "to": "amalfi",
+    "mode": "Bus",
+    "minutes": 100,
+    "note": "SITA bus or summer ferry."
+   }
+  ],
+  "items": [
+   {
+    "name": "Piazza Tasso and old town",
+    "kind": "see",
+    "id": "sor-tasso",
+    "at": [
+     40.6262,
+     14.3757
+    ],
+    "wiki": "Piazza Tasso",
+    "area": "Centro",
+    "summary": "Main square and lanes of lemon shops.",
+    "expect": "Free.",
+    "tip": "Evening passeggiata.",
+    "why": "Town heart.",
+    "flow": [
+     "Via San Cesareo.",
+     "Cloister of San Francesco."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Marina Grande",
+    "kind": "see",
+    "id": "sor-marina",
+    "at": [
+     40.6295,
+     14.37
+    ],
+    "wiki": "Marina Grande (Sorrento)",
+    "area": "Marina Grande",
+    "summary": "Old fishing harbour with seafood restaurants.",
+    "expect": "Walk down the steps.",
+    "tip": "Dinner by the boats.",
+    "why": "Village feel.",
+    "flow": [
+     "Fishing boats.",
+     "Seafood."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Capri",
+    "kind": "see",
+    "id": "sor-capri",
+    "at": [
+     40.5532,
+     14.2222
+    ],
+    "wiki": "Capri",
+    "area": "Day trip",
+    "summary": "Glamorous island with the Blue Grotto and Anacapri chairlift.",
+    "expect": "Early ferry.",
+    "tip": "Blue Grotto closes in swell.",
+    "why": "Iconic island.",
+    "flow": [
+     "Blue Grotto.",
+     "Monte Solaro chairlift."
+    ],
+    "hours": 7,
+    "price": [
+     25,
+     60
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Pompeii",
+    "kind": "see",
+    "id": "sor-pompeii",
+    "at": [
+     40.749,
+     14.485
+    ],
+    "wiki": "Pompeii",
+    "area": "Day trip",
+    "summary": "Roman city buried by Vesuvius in 79 AD.",
+    "expect": "Bring water.",
+    "tip": "Circumvesuviana to Pompei Scavi.",
+    "why": "Unmissable history.",
+    "flow": [
+     "Forum.",
+     "Villa of the Mysteries."
+    ],
+    "hours": 5,
+    "price": [
+     18,
+     22
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Bagni della Regina Giovanna",
+    "kind": "see",
+    "id": "sor-regina",
+    "at": [
+     40.632,
+     14.348
+    ],
+    "wiki": "Bagni della Regina Giovanna",
+    "area": "Capo di Sorrento",
+    "summary": "Natural rock pool among Roman villa ruins.",
+    "expect": "Short hike.",
+    "tip": "Go early in summer.",
+    "why": "Secret swim.",
+    "flow": [
+     "Path.",
+     "Swim."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Valley of the Mills",
+    "kind": "see",
+    "id": "sor-mills",
+    "at": [
+     40.6255,
+     14.377
+    ],
+    "wiki": "Vallone dei Mulini",
+    "area": "Centro",
+    "summary": "Ruined mill in a fern-filled gorge in the town centre.",
+    "expect": "Viewpoint only.",
+    "tip": "Look from Via Fuorimura.",
+    "why": "Odd beauty.",
+    "flow": [
+     "Viewpoint.",
+     "Old town."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Gnocchi alla sorrentina",
+    "kind": "eat",
+    "id": "sor-gnocchi",
+    "at": [
+     40.626,
+     14.375
+    ],
+    "wiki": "Gnocchi alla sorrentina",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Potato gnocchi baked with tomato and mozzarella.",
+    "expect": "Trattorias.",
+    "tip": "Order it bubbling.",
+    "why": "Named for the town.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Campanian",
+    "order": [
+     "Gnocchi alla sorrentina"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Limoncello and lemon groves",
+    "kind": "eat",
+    "id": "sor-limoncello",
+    "at": [
+     40.625,
+     14.378
+    ],
+    "wiki": "Limoncello",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Local lemon liqueur, with grove tastings.",
+    "expect": "Free tastings.",
+    "tip": "Visit a grove like I Giardini di Cataldo.",
+    "why": "Local spirit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Limoncello"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Delizia al limone",
+    "kind": "eat",
+    "id": "sor-delizia",
+    "at": [
+     40.6265,
+     14.376
+    ],
+    "wiki": "Delizia al limone",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Sponge dome soaked in lemon cream.",
+    "expect": "Pastry shops.",
+    "tip": "Pair with coffee.",
+    "why": "Lemon dessert.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Pastry",
+    "order": [
+     "Delizia al limone"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United Kingdom",
+  "region": "Europe",
+  "currency": "GBP",
+  "cashTip": "Cards and contactless dominate; a small GBP reserve covers markets and tips.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   10,
+   25
+  ],
+  "id": "cambridge",
+  "name": "Cambridge",
+  "at": [
+   52.2053,
+   0.1218
+  ],
+  "wiki": "Cambridge",
+  "cover": "King's College Chapel Cambridge Backs",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Punts, chapels and centuries of colleges",
+  "summary": "Cambridge is a compact university city of honey-stone colleges along the River Cam. Hear evensong in King's College Chapel, punt past the Backs, see the Fitzwilliam Museum's treasures and walk the meadows to tea in Grantchester.",
+  "days": 1,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   9
+  ],
+  "seasonNote": "Late spring and summer are best for punting; some colleges close to visitors during exams in May and June.",
+  "arrival": "Trains from London King's Cross or Liverpool Street take 50 to 80 minutes; Stansted is 35 minutes away.",
+  "gettingAround": "Walk or cycle; the centre is small.",
+  "foodTip": "Chelsea buns, pub lunches and market stalls.",
+  "buyTip": "College souvenirs and secondhand books.",
+  "baseArea": "City centre",
+  "hotel": [
+   110,
+   250
+  ],
+  "connections": [
+   {
+    "to": "london",
+    "mode": "Train",
+    "minutes": 50,
+    "note": "Fast trains from King's Cross."
+   }
+  ],
+  "items": [
+   {
+    "name": "King's College Chapel",
+    "kind": "see",
+    "id": "cam-kings",
+    "at": [
+     52.2048,
+     0.1167
+    ],
+    "wiki": "King's College Chapel, Cambridge",
+    "area": "King's Parade",
+    "summary": "Gothic chapel with the world's largest fan vault.",
+    "expect": "Paid entry; evensong is free.",
+    "tip": "Go to choral evensong.",
+    "why": "Breathtaking ceiling.",
+    "flow": [
+     "Fan vault.",
+     "Evensong."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Punting on the Backs",
+    "kind": "see",
+    "id": "cam-punt",
+    "at": [
+     52.204,
+     0.115
+    ],
+    "wiki": "Punting",
+    "area": "The Backs",
+    "summary": "Glide past college lawns and bridges.",
+    "expect": "Self-hire or chauffeured.",
+    "tip": "Book a shared tour if new to it.",
+    "why": "Classic Cambridge.",
+    "flow": [
+     "Bridge of Sighs.",
+     "Mathematical Bridge."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Fitzwilliam Museum",
+    "kind": "see",
+    "id": "cam-fitz",
+    "at": [
+     52.2003,
+     0.1197
+    ],
+    "wiki": "Fitzwilliam Museum",
+    "area": "Trumpington Street",
+    "summary": "Free museum of art and antiquities.",
+    "expect": "Free.",
+    "tip": "Look for the Egyptian coffins.",
+    "why": "Great free collection.",
+    "flow": [
+     "Old masters.",
+     "Antiquities."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Trinity College",
+    "kind": "see",
+    "id": "cam-trinity",
+    "at": [
+     52.207,
+     0.117
+    ],
+    "wiki": "Trinity College, Cambridge",
+    "area": "Trinity Street",
+    "summary": "Grand college of Newton, with the Wren Library.",
+    "expect": "Library opens limited hours.",
+    "tip": "Check Wren Library times.",
+    "why": "Historic college.",
+    "flow": [
+     "Great Court.",
+     "Wren Library."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Grantchester Meadows",
+    "kind": "see",
+    "id": "cam-grantchester",
+    "at": [
+     52.18,
+     0.095
+    ],
+    "wiki": "Grantchester",
+    "area": "Grantchester",
+    "summary": "Riverside meadow walk to The Orchard tea garden.",
+    "expect": "Free walk.",
+    "tip": "Walk out, punt back.",
+    "why": "English idyll.",
+    "flow": [
+     "Meadows.",
+     "Tea at The Orchard."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Great St Mary's tower",
+    "kind": "see",
+    "id": "cam-stmary",
+    "at": [
+     52.2055,
+     0.118
+    ],
+    "wiki": "Great St Mary's, Cambridge",
+    "area": "Market Square",
+    "summary": "Church tower view over colleges.",
+    "expect": "123 steps.",
+    "tip": "Clear day.",
+    "why": "Best view.",
+    "flow": [
+     "Climb.",
+     "Market below."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     6
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Fitzbillies Chelsea bun",
+    "kind": "eat",
+    "id": "cam-fitzbillies",
+    "at": [
+     52.201,
+     0.12
+    ],
+    "wiki": "Fitzbillies",
+    "area": "Trumpington Street",
+    "venue": "food-area",
+    "summary": "Sticky Chelsea buns famous since 1920.",
+    "expect": "Queues at weekends.",
+    "tip": "Take one away.",
+    "why": "Local icon.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bakery",
+    "order": [
+     "Chelsea bun"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "The Eagle pub",
+    "kind": "eat",
+    "id": "cam-eagle",
+    "at": [
+     52.2039,
+     0.1183
+    ],
+    "wiki": "The Eagle, Cambridge",
+    "area": "Bene't Street",
+    "venue": "food-area",
+    "summary": "Pub where the DNA discovery was announced.",
+    "expect": "Busy lunchtimes.",
+    "tip": "See the RAF bar ceiling.",
+    "why": "History with a pint.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "British",
+    "order": [
+     "Fish and chips",
+     "Pint"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Market Square stalls",
+    "kind": "eat",
+    "id": "cam-market",
+    "at": [
+     52.2055,
+     0.119
+    ],
+    "wiki": "Cambridge Market",
+    "area": "Market Square",
+    "venue": "food-area",
+    "summary": "Daily open-air market with street food.",
+    "expect": "Daily.",
+    "tip": "Lunch at the food stalls.",
+    "why": "Everyday Cambridge.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Street food"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "United Kingdom",
+  "region": "Europe",
+  "currency": "GBP",
+  "cashTip": "Cards and contactless dominate; a small GBP reserve covers markets and tips.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   10,
+   25
+  ],
+  "id": "manchester",
+  "name": "Manchester",
+  "at": [
+   53.4808,
+   -2.2426
+  ],
+  "wiki": "Manchester",
+  "cover": "Manchester Town Hall",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Football, music and the first industrial city",
+  "summary": "Manchester is northern England's energetic capital of football, music and industry. Tour Old Trafford or the Etihad, explore the Science and Industry Museum, read in the Gothic John Rylands Library, and spend nights among the Northern Quarter's bars and the Curry Mile.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Rain is frequent all year; summer is the mildest.",
+  "arrival": "Manchester Airport is 20 minutes by train to Piccadilly.",
+  "gettingAround": "Walk the centre; Metrolink trams reach the stadiums.",
+  "foodTip": "Curry Mile, Mackie Mayor food hall and Northern Quarter cafés.",
+  "buyTip": "Football shirts, vinyl in the Northern Quarter and Afflecks.",
+  "baseArea": "Northern Quarter or Deansgate",
+  "hotel": [
+   80,
+   200
+  ],
+  "connections": [
+   {
+    "to": "liverpool",
+    "mode": "Train",
+    "minutes": 35,
+    "note": "Frequent trains."
+   },
+   {
+    "to": "london",
+    "mode": "Train",
+    "minutes": 130,
+    "note": "Avanti from Piccadilly."
+   },
+   {
+    "to": "york",
+    "mode": "Train",
+    "minutes": 80,
+    "note": "TransPennine trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old Trafford",
+    "kind": "see",
+    "id": "man-oldtrafford",
+    "at": [
+     53.4631,
+     -2.2913
+    ],
+    "wiki": "Old Trafford",
+    "area": "Stretford",
+    "summary": "Manchester United's stadium tour and museum.",
+    "expect": "Book ahead.",
+    "tip": "Tram to Old Trafford.",
+    "why": "Theatre of Dreams.",
+    "flow": [
+     "Dressing room.",
+     "Museum."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Entertainment",
+     "History"
+    ]
+   },
+   {
+    "name": "Etihad Stadium tour",
+    "kind": "see",
+    "id": "man-etihad",
+    "at": [
+     53.4831,
+     -2.2004
+    ],
+    "wiki": "City of Manchester Stadium",
+    "area": "Eastlands",
+    "summary": "Manchester City's stadium tour.",
+    "expect": "Book ahead.",
+    "tip": "Tram to Etihad Campus.",
+    "why": "Football city.",
+    "flow": [
+     "Tunnel.",
+     "Pitchside."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Science and Industry Museum",
+    "kind": "see",
+    "id": "man-science",
+    "at": [
+     53.477,
+     -2.255
+    ],
+    "wiki": "Science and Industry Museum",
+    "area": "Castlefield",
+    "summary": "Museum on the site of the world's first passenger railway station.",
+    "expect": "Free.",
+    "tip": "See the working machines.",
+    "why": "Industrial roots.",
+    "flow": [
+     "Steam engines.",
+     "Station."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Technology",
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "John Rylands Library",
+    "kind": "see",
+    "id": "man-rylands",
+    "at": [
+     53.4805,
+     -2.2486
+    ],
+    "wiki": "John Rylands Library",
+    "area": "Deansgate",
+    "summary": "Neo-Gothic library like a cathedral of books.",
+    "expect": "Free.",
+    "tip": "Look for the oldest New Testament fragment.",
+    "why": "Stunning interior.",
+    "flow": [
+     "Reading room.",
+     "Treasures."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Northern Quarter",
+    "kind": "see",
+    "id": "man-nq",
+    "at": [
+     53.484,
+     -2.235
+    ],
+    "wiki": "Northern Quarter (Manchester)",
+    "area": "Northern Quarter",
+    "summary": "Indie shops, murals, bars and Afflecks.",
+    "expect": "Free.",
+    "tip": "Evening bars.",
+    "why": "Creative heart.",
+    "flow": [
+     "Afflecks.",
+     "Murals."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Entertainment",
+     "Art"
+    ]
+   },
+   {
+    "name": "National Football Museum",
+    "kind": "see",
+    "id": "man-football",
+    "at": [
+     53.4855,
+     -2.243
+    ],
+    "wiki": "National Football Museum",
+    "area": "Cathedral Gardens",
+    "summary": "Museum of the game's history.",
+    "expect": "Paid entry.",
+    "tip": "Try the penalty shootout.",
+    "why": "Football heritage.",
+    "flow": [
+     "Galleries.",
+     "Games."
+    ],
+    "hours": 1.5,
+    "price": [
+     13,
+     13
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Art"
+    ]
+   },
+   {
+    "name": "Curry Mile",
+    "kind": "eat",
+    "id": "man-curry",
+    "at": [
+     53.452,
+     -2.224
+    ],
+    "wiki": "Wilmslow Road",
+    "area": "Rusholme",
+    "venue": "food-area",
+    "summary": "Strip of South Asian and Middle Eastern restaurants.",
+    "expect": "Evenings.",
+    "tip": "Mixed grill and lassi.",
+    "why": "Spice row.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South Asian",
+    "order": [
+     "Mixed grill",
+     "Biryani"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Mackie Mayor",
+    "kind": "eat",
+    "id": "man-mackie",
+    "at": [
+     53.487,
+     -2.237
+    ],
+    "wiki": "Mackie Mayor",
+    "area": "Smithfield",
+    "venue": "food-area",
+    "summary": "Restored market hall with food stalls.",
+    "expect": "Busy weekends.",
+    "tip": "Share tables.",
+    "why": "Food hall.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Pizza",
+     "Small plates"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Chinatown",
+    "kind": "eat",
+    "id": "man-chinatown",
+    "at": [
+     53.4785,
+     -2.24
+    ],
+    "wiki": "Chinatown, Manchester",
+    "area": "Chinatown",
+    "venue": "food-area",
+    "summary": "One of Britain's largest Chinatowns.",
+    "expect": "Dim sum.",
+    "tip": "Weekend dim sum.",
+    "why": "Classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chinese",
+    "order": [
+     "Dim sum"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United Kingdom",
+  "region": "Europe",
+  "currency": "GBP",
+  "cashTip": "Cards and contactless dominate; a small GBP reserve covers markets and tips.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   10,
+   25
+  ],
+  "id": "inverness",
+  "name": "Inverness",
+  "at": [
+   57.4778,
+   -4.2247
+  ],
+  "wiki": "Inverness",
+  "cover": "Urquhart Castle Loch Ness",
+  "seasons": "LLLSHHHHSSLL",
+  "tagline": "Highland capital beside Loch Ness",
+  "summary": "Inverness is the gateway to the Scottish Highlands, a friendly riverside city on the Ness. Cruise Loch Ness to Urquhart Castle, stand on Culloden battlefield, walk the prehistoric Clava Cairns and watch dolphins at Chanonry Point.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer has long days; winter is dark and some sights close.",
+  "arrival": "Inverness Airport is 20 minutes away; trains run from Edinburgh and the overnight sleeper from London.",
+  "gettingAround": "Walk the centre; car or tours for the Highlands.",
+  "foodTip": "Highland seafood, haggis and a whisky dram.",
+  "buyTip": "Tweed, tartan and whisky.",
+  "baseArea": "City centre by the river",
+  "hotel": [
+   90,
+   220
+  ],
+  "connections": [
+   {
+    "to": "edinburgh",
+    "mode": "Train",
+    "minutes": 210,
+    "note": "Through the Cairngorms."
+   },
+   {
+    "to": "isle-of-skye",
+    "mode": "Car",
+    "minutes": 150,
+    "note": "Via Eilean Donan."
+   }
+  ],
+  "items": [
+   {
+    "name": "Urquhart Castle and Loch Ness",
+    "kind": "see",
+    "id": "inv-urquhart",
+    "at": [
+     57.324,
+     -4.442
+    ],
+    "wiki": "Urquhart Castle",
+    "area": "Loch Ness",
+    "summary": "Ruined castle on the banks of Loch Ness.",
+    "expect": "Busy midday.",
+    "tip": "Arrive by cruise.",
+    "why": "Highland icon.",
+    "flow": [
+     "Cruise.",
+     "Castle tower."
+    ],
+    "hours": 3,
+    "price": [
+     14,
+     16
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Culloden Battlefield",
+    "kind": "see",
+    "id": "inv-culloden",
+    "at": [
+     57.4775,
+     -4.093
+    ],
+    "wiki": "Battle of Culloden",
+    "area": "Culloden",
+    "summary": "Site of the last Jacobite battle in 1746.",
+    "expect": "Visitor centre.",
+    "tip": "Walk the moor.",
+    "why": "Scottish history.",
+    "flow": [
+     "Immersive theatre.",
+     "Moor."
+    ],
+    "hours": 2,
+    "price": [
+     14,
+     16
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Clava Cairns",
+    "kind": "see",
+    "id": "inv-clava",
+    "at": [
+     57.473,
+     -4.073
+    ],
+    "wiki": "Clava cairns",
+    "area": "Clava",
+    "summary": "Bronze Age burial cairns and standing stones.",
+    "expect": "Free.",
+    "tip": "Combine with Culloden.",
+    "why": "Ancient site.",
+    "flow": [
+     "Cairns.",
+     "Stones."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Chanonry Point",
+    "kind": "see",
+    "id": "inv-chanonry",
+    "at": [
+     57.574,
+     -4.093
+    ],
+    "wiki": "Chanonry Point",
+    "area": "Black Isle",
+    "summary": "Best place in Britain to see bottlenose dolphins.",
+    "expect": "Free.",
+    "tip": "Rising tide.",
+    "why": "Wild dolphins.",
+    "flow": [
+     "Lighthouse.",
+     "Dolphins."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ness Islands and riverside",
+    "kind": "see",
+    "id": "inv-ness",
+    "at": [
+     57.466,
+     -4.234
+    ],
+    "wiki": "Ness Islands",
+    "area": "Riverside",
+    "summary": "Wooded islands linked by bridges.",
+    "expect": "Free.",
+    "tip": "Evening walk.",
+    "why": "Peaceful.",
+    "flow": [
+     "Bridges.",
+     "Cathedral."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Inverness Castle viewpoint",
+    "kind": "see",
+    "id": "inv-castle",
+    "at": [
+     57.4764,
+     -4.2262
+    ],
+    "wiki": "Inverness Castle",
+    "area": "Centre",
+    "summary": "Red sandstone castle over the river.",
+    "expect": "Check opening.",
+    "tip": "Viewpoint.",
+    "why": "City landmark.",
+    "flow": [
+     "Castle.",
+     "Flora MacDonald statue."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Victorian Market",
+    "kind": "eat",
+    "id": "inv-victorian",
+    "at": [
+     57.479,
+     -4.226
+    ],
+    "wiki": "Victorian Market",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Covered arcade with a food hall.",
+    "expect": "Daily.",
+    "tip": "Lunch in the food hall.",
+    "why": "Local market.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Scottish",
+    "order": [
+     "Haggis bites",
+     "Coffee"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Highland seafood",
+    "kind": "eat",
+    "id": "inv-seafood",
+    "at": [
+     57.479,
+     -4.228
+    ],
+    "wiki": "Scottish cuisine",
+    "area": "Riverside",
+    "venue": "food-area",
+    "summary": "Langoustines, mussels and salmon from local waters.",
+    "expect": "Book dinner.",
+    "tip": "Try Cullen skink.",
+    "why": "Fresh catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     18,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Scottish",
+    "order": [
+     "Cullen skink",
+     "Langoustines"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Whisky dram",
+    "kind": "eat",
+    "id": "inv-whisky",
+    "at": [
+     57.4785,
+     -4.225
+    ],
+    "wiki": "Scotch whisky",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Highland malts in a traditional pub.",
+    "expect": "Live music nights.",
+    "tip": "Hootananny for folk sessions.",
+    "why": "Highland spirit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     12
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Single malt"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]

@@ -1,0 +1,555 @@
+{
+  "id": "cambridge",
+  "name": "Cambridge",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "lat": 52.2053,
+  "lon": 0.1218,
+  "wiki": "Cambridge",
+  "tagline": "Punts, chapels and centuries of colleges",
+  "summary": "Cambridge is a compact university city of honey-stone colleges along the River Cam. Hear evensong in King's College Chapel, punt past the Backs, see the Fitzwilliam Museum's treasures and walk the meadows to tea in Grantchester.",
+  "days": 1,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    7,
+    9
+  ],
+  "seasonNote": "Late spring and summer are best for punting; some colleges close to visitors during exams in May and June.",
+  "arrival": "Trains from London King's Cross or Liverpool Street take 50 to 80 minutes; Stansted is 35 minutes away.",
+  "gettingAround": "Walk or cycle; the centre is small.",
+  "cashTip": "Cards and contactless dominate; a small GBP reserve covers markets and tips.",
+  "dailyBudget": [
+    70,
+    180
+  ],
+  "currency": "GBP",
+  "cashPerDay": [
+    10,
+    25
+  ],
+  "foodTip": "Chelsea buns, pub lunches and market stalls.",
+  "buyTip": "College souvenirs and secondhand books.",
+  "baseArea": "City centre",
+  "connections": [
+    {
+      "to": "london",
+      "mode": "Train",
+      "minutes": 50,
+      "note": "Fast trains from King's Cross."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cambridge on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cambridge",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Cambridge%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Cambridge%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "King's College Chapel Cambridge Backs",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "cambridge-cam-kings",
+      "name": "King's College Chapel",
+      "kind": "see",
+      "lat": 52.2048,
+      "lon": 0.1165,
+      "wiki": "King's College Chapel, Cambridge",
+      "summary": "Gothic chapel with the world's largest fan vault.",
+      "expect": "Paid entry; evensong is free.",
+      "tip": "Go to choral evensong.",
+      "area": "King's Parade",
+      "duration": 1.5,
+      "price": [
+        0,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=King's%20College%20Chapel%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=King's%20College%20Chapel%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=King's%20College%20Chapel%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Gothic chapel with the world's largest fan vault.",
+        "Breathtaking ceiling."
+      ],
+      "visitFlow": [
+        "Fan vault.",
+        "Evensong."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "Paid entry; evensong is free.",
+        "Go to choral evensong."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 40159,
+          "period": "202511-202610",
+          "title": "King's College Chapel, Cambridge",
+          "url": "https://en.wikipedia.org/wiki/King's_College_Chapel%2C_Cambridge",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "cambridge-cam-punt",
+      "name": "Punting on the Backs",
+      "kind": "see",
+      "lat": 52.204,
+      "lon": 0.115,
+      "wiki": "Punting",
+      "summary": "Glide past college lawns and bridges.",
+      "expect": "Self-hire or chauffeured.",
+      "tip": "Book a shared tour if new to it.",
+      "area": "The Backs",
+      "duration": 1,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Punting%20on%20the%20Backs%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=Punting%20on%20the%20Backs%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Punting%20on%20the%20Backs%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Glide past college lawns and bridges.",
+        "Classic Cambridge."
+      ],
+      "visitFlow": [
+        "Bridge of Sighs.",
+        "Mathematical Bridge."
+      ],
+      "bestFor": "Visitors interested in active exploration and landscapes and wildlife",
+      "tradeoffs": [
+        "Self-hire or chauffeured.",
+        "Book a shared tour if new to it."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cambridge-cam-fitz",
+      "name": "Fitzwilliam Museum",
+      "kind": "see",
+      "lat": 52.20028,
+      "lon": 0.11944,
+      "wiki": "Fitzwilliam Museum",
+      "summary": "Free museum of art and antiquities.",
+      "expect": "Free.",
+      "tip": "Look for the Egyptian coffins.",
+      "area": "Trumpington Street",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fitzwilliam%20Museum%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=Fitzwilliam%20Museum%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fitzwilliam%20Museum%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Free museum of art and antiquities.",
+        "Great free collection."
+      ],
+      "visitFlow": [
+        "Old masters.",
+        "Antiquities."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Free.",
+        "Look for the Egyptian coffins."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 26444,
+          "period": "202511-202610",
+          "title": "Fitzwilliam Museum",
+          "url": "https://en.wikipedia.org/wiki/Fitzwilliam_Museum",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "cambridge-cam-trinity",
+      "name": "Trinity College",
+      "kind": "see",
+      "lat": 52.207,
+      "lon": 0.1146,
+      "wiki": "Trinity College, Cambridge",
+      "summary": "Grand college of Newton, with the Wren Library.",
+      "expect": "Library opens limited hours.",
+      "tip": "Check Wren Library times.",
+      "area": "Trinity Street",
+      "duration": 1,
+      "price": [
+        0,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Trinity%20College%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=Trinity%20College%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Trinity%20College%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Grand college of Newton, with the Wren Library.",
+        "Historic college."
+      ],
+      "visitFlow": [
+        "Great Court.",
+        "Wren Library."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Library opens limited hours.",
+        "Check Wren Library times."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 285309,
+          "period": "202511-202610",
+          "title": "Trinity College, Cambridge",
+          "url": "https://en.wikipedia.org/wiki/Trinity_College%2C_Cambridge",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "cambridge-cam-grantchester",
+      "name": "Grantchester Meadows",
+      "kind": "see",
+      "lat": 52.179,
+      "lon": 0.095,
+      "wiki": "Grantchester",
+      "summary": "Riverside meadow walk to The Orchard tea garden.",
+      "expect": "Free walk.",
+      "tip": "Walk out, punt back.",
+      "area": "Grantchester",
+      "duration": 2.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Grantchester%20Meadows%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=Grantchester%20Meadows%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Grantchester%20Meadows%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Riverside meadow walk to The Orchard tea garden.",
+        "English idyll."
+      ],
+      "visitFlow": [
+        "Meadows.",
+        "Tea at The Orchard."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free walk.",
+        "Walk out, punt back."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 34024,
+          "period": "202511-202610",
+          "title": "Grantchester",
+          "url": "https://en.wikipedia.org/wiki/Grantchester",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "cambridge-cam-stmary",
+      "name": "Great St Mary's tower",
+      "kind": "see",
+      "lat": 52.2053,
+      "lon": 0.1182,
+      "wiki": "Great St Mary's, Cambridge",
+      "summary": "Church tower view over colleges.",
+      "expect": "123 steps.",
+      "tip": "Clear day.",
+      "area": "Market Square",
+      "duration": 0.5,
+      "price": [
+        6,
+        6
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Great%20St%20Mary's%20tower%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=Great%20St%20Mary's%20tower%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Great%20St%20Mary's%20tower%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Church tower view over colleges.",
+        "Best view."
+      ],
+      "visitFlow": [
+        "Climb.",
+        "Market below."
+      ],
+      "bestFor": "Visitors interested in big views and sacred places",
+      "tradeoffs": [
+        "123 steps.",
+        "Clear day."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 12231,
+          "period": "202511-202610",
+          "title": "Church of St Mary the Great, Cambridge",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St_Mary_the_Great%2C_Cambridge",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "cambridge-cam-fitzbillies",
+      "name": "Fitzbillies Chelsea bun",
+      "kind": "eat",
+      "lat": 52.202,
+      "lon": 0.1181,
+      "wiki": "Fitzbillies",
+      "summary": "Sticky Chelsea buns famous since 1920.",
+      "expect": "Queues at weekends.",
+      "tip": "Take one away.",
+      "area": "Trumpington Street",
+      "duration": 0.5,
+      "price": [
+        4,
+        6
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fitzbillies%20Chelsea%20bun%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=Fitzbillies%20Chelsea%20bun%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fitzbillies%20Chelsea%20bun%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Sticky Chelsea buns famous since 1920.",
+        "Local icon."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Queues at weekends.",
+        "Take one away."
+      ],
+      "venueType": "food-area",
+      "cuisine": "Bakery",
+      "mustOrder": [
+        "Chelsea bun"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "cambridge-cam-eagle",
+      "name": "The Eagle pub",
+      "kind": "eat",
+      "lat": 52.204,
+      "lon": 0.1182,
+      "wiki": "The Eagle, Cambridge",
+      "summary": "Pub where the DNA discovery was announced.",
+      "expect": "Busy lunchtimes.",
+      "tip": "See the RAF bar ceiling.",
+      "area": "Bene't Street",
+      "duration": 1,
+      "price": [
+        12,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=The%20Eagle%20pub%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=The%20Eagle%20pub%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=The%20Eagle%20pub%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pub where the DNA discovery was announced.",
+        "History with a pint."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy lunchtimes.",
+        "See the RAF bar ceiling."
+      ],
+      "venueType": "food-area",
+      "cuisine": "British",
+      "mustOrder": [
+        "Fish and chips",
+        "Pint"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "cambridge-cam-market",
+      "name": "Market Square stalls",
+      "kind": "eat",
+      "lat": 52.2054,
+      "lon": 0.1191,
+      "wiki": "Cambridge Market",
+      "summary": "Daily open-air market with street food.",
+      "expect": "Daily.",
+      "tip": "Lunch at the food stalls.",
+      "area": "Market Square",
+      "duration": 1,
+      "price": [
+        6,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Market%20Square%20stalls%2C%20Cambridge",
+        "https://www.google.com/maps/search/?api=1&query=Market%20Square%20stalls%2C%20Cambridge"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Market%20Square%20stalls%2C%20Cambridge"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Daily open-air market with street food.",
+        "Everyday Cambridge."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Daily.",
+        "Lunch at the food stalls."
+      ],
+      "venueType": "food-area",
+      "cuisine": "International",
+      "mustOrder": [
+        "Street food"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
