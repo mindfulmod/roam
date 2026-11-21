@@ -10,7 +10,7 @@ Written for one person looking after the app. Each section is short and says wha
 
 ## The site is down
 
-1. Open the site yourself: https://mindfulmod.github.io/roam/. If it loads, the check hit a brief outage. Run `Site health` again from the Actions tab (Run workflow) and the issue will close.
+1. Open the site yourself: https://tandemroads.com/. If it loads, the check hit a brief outage. Run `Site health` again from the Actions tab (Run workflow) and the issue will close.
 2. Look at https://www.githubstatus.com. If GitHub Pages is having trouble, wait. Nothing needs doing.
 3. Open the Actions tab and look at the latest `Deploy to GitHub Pages` run. If it is red, go to "A bad change went live" below.
 4. If none of that explains it, ask Claude in the project: "The live site is down, see the open issue."

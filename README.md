@@ -53,7 +53,7 @@ or change a city, edit its JSON file in `data/cities/` (add new cities to `cityO
 
 Every push to `main` builds the hosted version and publishes it to GitHub Pages
 (`.github/workflows/pages.yml`). One-time setup: in the repo's **Settings → Pages**, set **Source** to
-**GitHub Actions**. The site is then at `https://mindfulmod.github.io/roam/`.
+**GitHub Actions**. The site is then at `https://tandemroads.com/` (the custom domain is set in the repository's Pages settings; the old `https://mindfulmod.github.io/roam/` address redirects there).
 
 ## Popularity rankings
 
