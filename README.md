@@ -23,6 +23,7 @@ no framework and no backend. Your saved places and trips stay in the browser (`l
 | `src/log.js`, `src/log.css`                           | Logging a trip (`#/story/<id>/log`): a click-through mock of "I'm here", catching up a day from photos, and editing and finishing the story. Nothing is saved                                          |
 | `data/world.geojson`                                  | Country outlines (Natural Earth 1:110m)                                                                                                                                                                |
 | `images/`                                             | Photos (Pexels) and illustrations, as WebP                                                                                                                                                             |
+| `images/brand/`, `scripts/brand/`                     | The logo (Ampersand Way) and app icons. `python3 scripts/brand/ampersand.py` redraws the SVGs from exact geometry; `node scripts/brand/make-icons.mjs` renders the PNGs                                |
 | `vendor/leaflet/`                                     | Leaflet 1.9.4                                                                                                                                                                                          |
 
 ## Build
