@@ -71,8 +71,8 @@
       "id": "bengaluru-blr-lalbagh",
       "name": "Lalbagh Botanical Garden",
       "kind": "see",
-      "lat": 12.9507,
-      "lon": 77.5848,
+      "lat": 12.95,
+      "lon": 77.59,
       "wiki": "Lal Bagh",
       "summary": "Historic gardens with a Victorian glasshouse.",
       "expect": "Small fee.",
@@ -111,14 +111,22 @@
         "Small fee.",
         "Early morning walkers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44021,
+          "period": "202511-202610",
+          "title": "Lal Bagh",
+          "url": "https://en.wikipedia.org/wiki/Lal_Bagh",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bengaluru-blr-palace",
       "name": "Bangalore Palace",
       "kind": "see",
-      "lat": 12.9988,
-      "lon": 77.5921,
+      "lat": 12.9986,
+      "lon": 77.59201,
       "wiki": "Bangalore Palace",
       "summary": "Tudor-style royal palace.",
       "expect": "Paid.",
@@ -158,14 +166,22 @@
         "Paid.",
         "Audio guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 59178,
+          "period": "202511-202610",
+          "title": "Bengaluru Palace",
+          "url": "https://en.wikipedia.org/wiki/Bengaluru_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bengaluru-blr-tipu",
       "name": "Tipu Sultan's Summer Palace",
       "kind": "see",
-      "lat": 12.9594,
-      "lon": 77.5737,
+      "lat": 12.95949,
+      "lon": 77.57357,
       "wiki": "Tipu Sultan's Summer Palace",
       "summary": "Teak palace of the Tiger of Mysore.",
       "expect": "Small fee.",
@@ -205,14 +221,22 @@
         "Small fee.",
         "Combine with KR Market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24021,
+          "period": "202511-202610",
+          "title": "Tipu Sultan's Summer Palace",
+          "url": "https://en.wikipedia.org/wiki/Tipu_Sultan's_Summer_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bengaluru-blr-cubbon",
       "name": "Cubbon Park",
       "kind": "see",
-      "lat": 12.9763,
-      "lon": 77.5929,
+      "lat": 12.975,
+      "lon": 77.59333,
       "wiki": "Cubbon Park",
       "summary": "Green lungs with colonial buildings around.",
       "expect": "Free.",
@@ -251,7 +275,15 @@
         "Free.",
         "Sunday morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 43347,
+          "period": "202511-202610",
+          "title": "Cubbon Park",
+          "url": "https://en.wikipedia.org/wiki/Cubbon_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bengaluru-blr-nandi",
@@ -304,8 +336,8 @@
       "id": "bengaluru-blr-mysore",
       "name": "Mysore Palace",
       "kind": "see",
-      "lat": 12.3052,
-      "lon": 76.6552,
+      "lat": 12.30389,
+      "lon": 76.65444,
       "wiki": "Mysore Palace",
       "summary": "Lavish Indo-Saracenic palace lit by 100,000 bulbs on Sundays.",
       "expect": "Long day.",
@@ -345,8 +377,16 @@
         "Long day.",
         "Stay for the Sunday illumination."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 190584,
+          "period": "202511-202610",
+          "title": "Mysore Palace",
+          "url": "https://en.wikipedia.org/wiki/Mysore_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bengaluru-blr-mtr",
@@ -410,8 +450,8 @@
       "id": "bengaluru-blr-vidyarthi",
       "name": "Vidyarthi Bhavan dosa",
       "kind": "eat",
-      "lat": 12.945,
-      "lon": 77.571,
+      "lat": 12.94,
+      "lon": 77.57,
       "wiki": "Basavanagudi",
       "summary": "Crispy butter dosa since 1943.",
       "expect": "Mornings.",
@@ -450,7 +490,6 @@
         "Mornings.",
         "Share a table."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "South Indian",
       "mustOrder": [
@@ -521,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

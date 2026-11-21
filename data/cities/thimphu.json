@@ -71,8 +71,8 @@
       "id": "thimphu-thi-taktsang",
       "name": "Tiger's Nest (Paro Taktsang)",
       "kind": "see",
-      "lat": 27.4917,
-      "lon": 89.3631,
+      "lat": 27.49191,
+      "lon": 89.36349,
       "wiki": "Paro Taktsang",
       "summary": "Monastery clinging to a cliff 900 m above the valley.",
       "expect": "4 to 6 hour hike.",
@@ -113,14 +113,22 @@
         "4 to 6 hour hike.",
         "Start early; rest at the cafeteria."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 99915,
+          "period": "202511-202610",
+          "title": "Paro Taktsang",
+          "url": "https://en.wikipedia.org/wiki/Paro_Taktsang",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thimphu-thi-dzong",
       "name": "Tashichho Dzong",
       "kind": "see",
-      "lat": 27.49,
-      "lon": 89.634,
+      "lat": 27.48944,
+      "lon": 89.635,
       "wiki": "Tashichho Dzong",
       "summary": "Fortress-monastery and seat of government.",
       "expect": "Open after office hours.",
@@ -160,7 +168,15 @@
         "Open after office hours.",
         "Flag lowering at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19803,
+          "period": "202511-202610",
+          "title": "Tashichho Dzong",
+          "url": "https://en.wikipedia.org/wiki/Tashichho_Dzong",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thimphu-thi-buddha",
@@ -259,8 +275,8 @@
       "id": "thimphu-thi-dochula",
       "name": "Dochula Pass",
       "kind": "see",
-      "lat": 27.492,
-      "lon": 89.75,
+      "lat": 27.49,
+      "lon": 89.75028,
       "wiki": "Dochula Pass",
       "summary": "108 chortens with Himalayan views.",
       "expect": "Clear days.",
@@ -300,7 +316,15 @@
         "Clear days.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12218,
+          "period": "202511-202610",
+          "title": "Dochula Pass",
+          "url": "https://en.wikipedia.org/wiki/Dochula_Pass",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thimphu-thi-takin",
@@ -346,7 +370,16 @@
         "Small fee.",
         "Combine with the BBS tower view."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 115941,
+          "period": "202511-202610",
+          "title": "Takin",
+          "url": "https://en.wikipedia.org/wiki/Takin",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thimphu-thi-ema",
@@ -521,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -70,8 +70,8 @@
       "id": "kolkata-kol-victoria",
       "name": "Victoria Memorial",
       "kind": "see",
-      "lat": 22.5448,
-      "lon": 88.3426,
+      "lat": 22.5449,
+      "lon": 88.3425,
       "wiki": "Victoria Memorial",
       "summary": "White marble memorial hall and museum in gardens.",
       "expect": "Paid.",
@@ -111,14 +111,22 @@
         "Paid.",
         "Evening light show."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 101961,
+          "period": "202511-202610",
+          "title": "Victoria Memorial, Kolkata",
+          "url": "https://en.wikipedia.org/wiki/Victoria_Memorial%2C_Kolkata",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kolkata-kol-howrah",
       "name": "Howrah Bridge and Mullick Ghat flower market",
       "kind": "see",
-      "lat": 22.585,
-      "lon": 88.3468,
+      "lat": 22.5851,
+      "lon": 88.3469,
       "wiki": "Howrah Bridge",
       "summary": "Giant cantilever bridge above a riverside flower market.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Dawn at the flower market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 127520,
+          "period": "202511-202610",
+          "title": "Howrah Bridge",
+          "url": "https://en.wikipedia.org/wiki/Howrah_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kolkata-kol-kumartuli",
       "name": "Kumartuli",
       "kind": "see",
       "lat": 22.6,
-      "lon": 88.361,
+      "lon": 88.3614,
       "wiki": "Kumartuli",
       "summary": "Potters' quarter making clay idols for festivals.",
       "expect": "Free; ask before photos.",
@@ -205,14 +221,22 @@
         "Free; ask before photos.",
         "Busiest before Durga Puja."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12119,
+          "period": "202511-202610",
+          "title": "Kumortuli",
+          "url": "https://en.wikipedia.org/wiki/Kumortuli",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kolkata-kol-dakshineswar",
       "name": "Dakshineswar Kali Temple",
       "kind": "see",
-      "lat": 22.6548,
-      "lon": 88.3575,
+      "lat": 22.655,
+      "lon": 88.35778,
       "wiki": "Dakshineswar Kali Temple",
       "summary": "Riverside temple linked to Ramakrishna.",
       "expect": "Free.",
@@ -252,14 +276,22 @@
         "Free.",
         "Boat to Belur Math."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 107586,
+          "period": "202511-202610",
+          "title": "Dakshineswar Kali Temple",
+          "url": "https://en.wikipedia.org/wiki/Dakshineswar_Kali_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kolkata-kol-motherhouse",
       "name": "Mother House",
       "kind": "see",
-      "lat": 22.553,
-      "lon": 88.364,
+      "lat": 22.5531,
+      "lon": 88.36366,
       "wiki": "Mother House (Kolkata)",
       "summary": "Mother Teresa's tomb and small museum.",
       "expect": "Free.",
@@ -298,8 +330,7 @@
       "tradeoffs": [
         "Free.",
         "Quiet respect."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "kolkata-kol-college",
@@ -523,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

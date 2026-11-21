@@ -111,14 +111,23 @@
         "Free square.",
         "Rent a colourful bike."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 18304,
+          "period": "202511-202610",
+          "title": "Kota Tua Jakarta",
+          "url": "https://en.wikipedia.org/wiki/Kota_Tua_Jakarta",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jakarta-jkt-monas",
       "name": "National Monument (Monas)",
       "kind": "see",
-      "lat": -6.1754,
-      "lon": 106.8272,
+      "lat": -6.17539,
+      "lon": 106.82714,
       "wiki": "National Monument (Indonesia)",
       "summary": "Gold-flame obelisk with a lift to the top.",
       "expect": "Queues for the lift.",
@@ -158,14 +167,22 @@
         "Queues for the lift.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30935,
+          "period": "202511-202610",
+          "title": "National Monument (Indonesia)",
+          "url": "https://en.wikipedia.org/wiki/National_Monument_(Indonesia)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jakarta-jkt-istiqlal",
       "name": "Istiqlal Mosque and Cathedral",
       "kind": "see",
-      "lat": -6.1702,
-      "lon": 106.831,
+      "lat": -6.1698,
+      "lon": 106.83092,
       "wiki": "Istiqlal Mosque, Jakarta",
       "summary": "Southeast Asia's largest mosque facing the neo-Gothic cathedral.",
       "expect": "Free guided tours.",
@@ -205,14 +222,22 @@
         "Free guided tours.",
         "Dress modestly."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 43933,
+          "period": "202511-202610",
+          "title": "Istiqlal Mosque, Jakarta",
+          "url": "https://en.wikipedia.org/wiki/Istiqlal_Mosque%2C_Jakarta",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jakarta-jkt-museum",
       "name": "National Museum",
       "kind": "see",
-      "lat": -6.1764,
-      "lon": 106.8222,
+      "lat": -6.1761,
+      "lon": 106.8217,
       "wiki": "National Museum of Indonesia",
       "summary": "Archaeology and ethnography from across the archipelago.",
       "expect": "Paid.",
@@ -252,14 +277,22 @@
         "Paid.",
         "Allow two hours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11770,
+          "period": "202511-202610",
+          "title": "National Museum of Indonesia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Indonesia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jakarta-jkt-glodok",
       "name": "Glodok Chinatown",
       "kind": "see",
-      "lat": -6.145,
-      "lon": 106.813,
+      "lat": -6.15,
+      "lon": 106.81667,
       "wiki": "Glodok",
       "summary": "Temples and food alleys of Chinatown.",
       "expect": "Free.",
@@ -300,14 +333,22 @@
         "Free.",
         "Petak Sembilan."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9961,
+          "period": "202511-202610",
+          "title": "Glodok",
+          "url": "https://en.wikipedia.org/wiki/Glodok",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jakarta-jkt-thousand",
       "name": "Thousand Islands",
       "kind": "see",
-      "lat": -5.75,
-      "lon": 106.6,
+      "lat": -5.7,
+      "lon": 106.58333,
       "wiki": "Thousand Islands (Indonesia)",
       "summary": "Island day trip for snorkelling.",
       "expect": "Boat from Marina Ancol.",
@@ -346,7 +387,15 @@
         "Boat from Marina Ancol.",
         "Weekdays."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21133,
+          "period": "202511-202610",
+          "title": "Thousand Islands (Indonesia)",
+          "url": "https://en.wikipedia.org/wiki/Thousand_Islands_(Indonesia)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jakarta-jkt-nasigoreng",
@@ -520,5 +569,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

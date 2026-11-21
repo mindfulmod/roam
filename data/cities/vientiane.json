@@ -70,8 +70,8 @@
       "id": "vientiane-vte-thatluang",
       "name": "Pha That Luang",
       "kind": "see",
-      "lat": 17.9763,
-      "lon": 102.6343,
+      "lat": 17.97617,
+      "lon": 102.63425,
       "wiki": "Pha That Luang",
       "summary": "Golden national stupa, symbol of Laos.",
       "expect": "Small fee.",
@@ -111,14 +111,22 @@
         "Small fee.",
         "Late afternoon glow."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22988,
+          "period": "202511-202610",
+          "title": "Pha That Luang",
+          "url": "https://en.wikipedia.org/wiki/Pha_That_Luang",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "vientiane-vte-patuxai",
       "name": "Patuxai",
       "kind": "see",
-      "lat": 17.9707,
-      "lon": 102.6185,
+      "lat": 17.97056,
+      "lon": 102.61861,
       "wiki": "Patuxai",
       "summary": "Victory gate with city views from the top.",
       "expect": "Small fee.",
@@ -158,14 +166,22 @@
         "Small fee.",
         "Climb at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23161,
+          "period": "202511-202610",
+          "title": "Patuxai",
+          "url": "https://en.wikipedia.org/wiki/Patuxai",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "vientiane-vte-sisaket",
       "name": "Wat Si Saket",
       "kind": "see",
-      "lat": 17.9628,
-      "lon": 102.61,
+      "lat": 17.96306,
+      "lon": 102.61167,
       "wiki": "Wat Si Saket",
       "summary": "Oldest temple with thousands of Buddha niches.",
       "expect": "Small fee.",
@@ -205,14 +221,22 @@
         "Small fee.",
         "Morning quiet."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6516,
+          "period": "202511-202610",
+          "title": "Wat Si Saket",
+          "url": "https://en.wikipedia.org/wiki/Wat_Si_Saket",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "vientiane-vte-cope",
       "name": "COPE Visitor Centre",
       "kind": "see",
-      "lat": 17.964,
-      "lon": 102.626,
+      "lat": 17.95795,
+      "lon": 102.62032,
       "wiki": "COPE (Laos)",
       "summary": "Powerful exhibit on unexploded bombs and prosthetics.",
       "expect": "Free; donations welcome.",
@@ -250,15 +274,14 @@
       "tradeoffs": [
         "Free; donations welcome.",
         "Allow an hour."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "vientiane-vte-buddhapark",
       "name": "Buddha Park",
       "kind": "see",
-      "lat": 17.912,
-      "lon": 102.765,
+      "lat": 17.91229,
+      "lon": 102.7654,
       "wiki": "Buddha Park",
       "summary": "Garden of eccentric concrete Buddhist and Hindu sculptures.",
       "expect": "Small fee.",
@@ -298,7 +321,15 @@
         "Small fee.",
         "Bus 14 from the centre."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9618,
+          "period": "202511-202610",
+          "title": "Buddha Park",
+          "url": "https://en.wikipedia.org/wiki/Buddha_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "vientiane-vte-mekong",
@@ -344,7 +375,16 @@
         "Free.",
         "Evening aerobics in the park."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 218221,
+          "period": "202511-202610",
+          "title": "Vientiane",
+          "url": "https://en.wikipedia.org/wiki/Vientiane",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "vientiane-vte-laap",
@@ -518,5 +558,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
