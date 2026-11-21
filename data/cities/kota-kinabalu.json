@@ -68,7 +68,7 @@
       "id": "kota-kinabalu-kk-tar",
       "name": "Tunku Abdul Rahman Park",
       "kind": "see",
-      "lat": 5.983,
+      "lat": 5.96667,
       "lon": 116,
       "wiki": "Tunku Abdul Rahman National Park",
       "summary": "Five islands with beaches and snorkelling.",
@@ -108,14 +108,22 @@
         "Boats from Jesselton Point.",
         "Island-hop two islands."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3414,
+          "period": "202511-202610",
+          "title": "Tunku Abdul Rahman National Park",
+          "url": "https://en.wikipedia.org/wiki/Tunku_Abdul_Rahman_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kota-kinabalu-kk-kinabalu",
       "name": "Kinabalu Park",
       "kind": "see",
-      "lat": 6.005,
-      "lon": 116.542,
+      "lat": 6.15,
+      "lon": 116.65,
       "wiki": "Kinabalu National Park",
       "summary": "UNESCO park around 4,095 m Mount Kinabalu.",
       "expect": "Summit climbs need permits months ahead.",
@@ -155,7 +163,15 @@
         "Summit climbs need permits months ahead.",
         "Day visit to the botanical garden."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7680,
+          "period": "202511-202610",
+          "title": "Kinabalu Park",
+          "url": "https://en.wikipedia.org/wiki/Kinabalu_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kota-kinabalu-kk-klias",
@@ -202,14 +218,23 @@
         "Afternoon to night."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 218895,
+          "period": "202511-202610",
+          "title": "Proboscis monkey",
+          "url": "https://en.wikipedia.org/wiki/Proboscis_monkey",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kota-kinabalu-kk-signal",
       "name": "Signal Hill Observatory",
       "kind": "see",
-      "lat": 5.98,
-      "lon": 116.076,
+      "lat": 5.98564,
+      "lon": 116.0791,
       "wiki": "Kota Kinabalu",
       "summary": "Lookout over the city and islands.",
       "expect": "Free.",
@@ -248,13 +273,21 @@
         "Free.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 108704,
+          "period": "202511-202610",
+          "title": "Kota Kinabalu",
+          "url": "https://en.wikipedia.org/wiki/Kota_Kinabalu",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kota-kinabalu-kk-gaya",
       "name": "Gaya Street Sunday Market",
       "kind": "see",
-      "lat": 5.984,
+      "lat": 5.98356,
       "lon": 116.077,
       "wiki": "Gaya Street",
       "summary": "Sunday market of crafts, plants and snacks.",
@@ -293,15 +326,14 @@
       "tradeoffs": [
         "Sunday mornings.",
         "Go early."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "kota-kinabalu-kk-marimari",
       "name": "Mari Mari Cultural Village",
       "kind": "see",
-      "lat": 5.905,
-      "lon": 116.163,
+      "lat": 5.97389,
+      "lon": 116.20366,
       "wiki": "Mari Mari Cultural Village",
       "summary": "Living museum of Sabah's ethnic groups.",
       "expect": "Book a tour.",
@@ -340,7 +372,15 @@
         "Book a tour.",
         "Try the blowpipe."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1480,
+          "period": "202511-202610",
+          "title": "Mari Mari Cultural Village",
+          "url": "https://en.wikipedia.org/wiki/Mari_Mari_Cultural_Village",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kota-kinabalu-kk-nightmarket",
@@ -514,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

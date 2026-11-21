@@ -71,8 +71,8 @@
       "id": "almaty-ala-shymbulak",
       "name": "Medeu and Shymbulak",
       "kind": "see",
-      "lat": 43.128,
-      "lon": 77.081,
+      "lat": 43.12806,
+      "lon": 77.08083,
       "wiki": "Shymbulak",
       "summary": "Ice rink and ski resort reached by gondola.",
       "expect": "Gondola fee.",
@@ -113,13 +113,21 @@
         "Gondola fee.",
         "Go up to Talgar Pass."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15498,
+          "period": "202511-202610",
+          "title": "Shymbulak",
+          "url": "https://en.wikipedia.org/wiki/Shymbulak",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "almaty-ala-lake",
       "name": "Big Almaty Lake",
       "kind": "see",
-      "lat": 43.051,
+      "lat": 43.0506,
       "lon": 76.985,
       "wiki": "Big Almaty Lake",
       "summary": "Turquoise alpine reservoir at 2,500 m.",
@@ -160,14 +168,22 @@
         "Road may close.",
         "Go with a guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10426,
+          "period": "202511-202610",
+          "title": "Big Almaty Lake",
+          "url": "https://en.wikipedia.org/wiki/Big_Almaty_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "almaty-ala-koktobe",
       "name": "Kok-Tobe",
       "kind": "see",
-      "lat": 43.233,
-      "lon": 76.975,
+      "lat": 43.2331,
+      "lon": 76.97553,
       "wiki": "Kök Töbe",
       "summary": "Hilltop park reached by cable car.",
       "expect": "Paid cable car.",
@@ -206,15 +222,14 @@
       "tradeoffs": [
         "Paid cable car.",
         "Sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "almaty-ala-zenkov",
       "name": "Zenkov Cathedral and Panfilov Park",
       "kind": "see",
-      "lat": 43.258,
-      "lon": 76.953,
+      "lat": 43.25879,
+      "lon": 76.95316,
       "wiki": "Ascension Cathedral, Almaty",
       "summary": "Colourful wooden cathedral built without nails.",
       "expect": "Free.",
@@ -254,14 +269,22 @@
         "Free.",
         "Combine with the bazaar."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24362,
+          "period": "202511-202610",
+          "title": "Ascension Cathedral, Almaty",
+          "url": "https://en.wikipedia.org/wiki/Ascension_Cathedral%2C_Almaty",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "almaty-ala-charyn",
       "name": "Charyn Canyon",
       "kind": "see",
-      "lat": 43.353,
-      "lon": 79.08,
+      "lat": 43.3581,
+      "lon": 79.0925,
       "wiki": "Charyn Canyon",
       "summary": "Red rock canyon called the little Grand Canyon.",
       "expect": "Long day.",
@@ -301,15 +324,23 @@
         "Long day.",
         "Valley of Castles walk."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21552,
+          "period": "202511-202610",
+          "title": "Charyn Canyon",
+          "url": "https://en.wikipedia.org/wiki/Charyn_Canyon",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "almaty-ala-museum",
       "name": "Central State Museum",
       "kind": "see",
-      "lat": 43.235,
-      "lon": 76.95,
+      "lat": 43.23583,
+      "lon": 76.95083,
       "wiki": "Central State Museum of Kazakhstan",
       "summary": "Nomad history and the Golden Man.",
       "expect": "Small fee.",
@@ -349,7 +380,15 @@
         "Small fee.",
         "Allow 2 hours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4475,
+          "period": "202511-202610",
+          "title": "Central State Museum of Kazakhstan",
+          "url": "https://en.wikipedia.org/wiki/Central_State_Museum_of_Kazakhstan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "almaty-ala-bazaar",
@@ -525,5 +564,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

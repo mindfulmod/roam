@@ -71,8 +71,8 @@
       "id": "muscat-mct-mosque",
       "name": "Sultan Qaboos Grand Mosque",
       "kind": "see",
-      "lat": 23.584,
-      "lon": 58.388,
+      "lat": 23.58389,
+      "lon": 58.38917,
       "wiki": "Sultan Qaboos Grand Mosque",
       "summary": "Vast mosque with a huge hand-woven carpet and chandelier.",
       "expect": "Open to visitors mornings except Friday.",
@@ -112,7 +112,15 @@
         "Open to visitors mornings except Friday.",
         "Cover arms and legs; women cover hair."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 38472,
+          "period": "202511-202610",
+          "title": "Sultan Qaboos Grand Mosque",
+          "url": "https://en.wikipedia.org/wiki/Sultan_Qaboos_Grand_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "muscat-mct-mutrah",
@@ -165,8 +173,8 @@
       "id": "muscat-mct-old",
       "name": "Old Muscat and Al Alam Palace",
       "kind": "see",
-      "lat": 23.614,
-      "lon": 58.595,
+      "lat": 23.616,
+      "lon": 58.5947,
       "wiki": "Al Alam Palace",
       "summary": "Ceremonial palace between Portuguese forts.",
       "expect": "View from outside.",
@@ -206,14 +214,22 @@
         "View from outside.",
         "Visit the Bait Al Zubair museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37429,
+          "period": "202511-202610",
+          "title": "Al Alam Palace",
+          "url": "https://en.wikipedia.org/wiki/Al_Alam_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "muscat-mct-opera",
       "name": "Royal Opera House Muscat",
       "kind": "see",
-      "lat": 23.611,
-      "lon": 58.471,
+      "lat": 23.61425,
+      "lon": 58.46856,
       "wiki": "Royal Opera House Muscat",
       "summary": "Marble opera house with tours and performances.",
       "expect": "Tours most days.",
@@ -253,14 +269,22 @@
         "Tours most days.",
         "Book a show."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8764,
+          "period": "202511-202610",
+          "title": "Royal Opera House Muscat",
+          "url": "https://en.wikipedia.org/wiki/Royal_Opera_House_Muscat",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "muscat-mct-wadishab",
       "name": "Wadi Shab",
       "kind": "see",
-      "lat": 22.838,
-      "lon": 59.235,
+      "lat": 22.83278,
+      "lon": 59.23742,
       "wiki": "Wadi Shab",
       "summary": "Hike and swim through turquoise pools to a hidden cave waterfall.",
       "expect": "Boat across, then hike.",
@@ -300,15 +324,14 @@
         "Boat across, then hike.",
         "Bring water shoes."
       ],
-      "pinApproximate": true,
       "excursion": true
     },
     {
       "id": "muscat-mct-nizwa",
       "name": "Nizwa Fort and Souq",
       "kind": "see",
-      "lat": 22.933,
-      "lon": 57.53,
+      "lat": 22.93333,
+      "lon": 57.53028,
       "wiki": "Nizwa Fort",
       "summary": "Ancient fort and Friday goat market.",
       "expect": "Go Friday morning.",
@@ -348,8 +371,16 @@
         "Go Friday morning.",
         "Combine with Jebel Akhdar."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10923,
+          "period": "202511-202610",
+          "title": "Nizwa Fort",
+          "url": "https://en.wikipedia.org/wiki/Nizwa_Fort",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "muscat-mct-shuwa",
@@ -525,5 +556,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

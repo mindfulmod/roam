@@ -72,8 +72,8 @@
       "id": "amman-amm-citadel",
       "name": "Amman Citadel",
       "kind": "see",
-      "lat": 31.954,
-      "lon": 35.934,
+      "lat": 31.95448,
+      "lon": 35.93671,
       "wiki": "Amman Citadel",
       "summary": "Temple of Hercules and Umayyad palace on the highest hill.",
       "expect": "Covered by the Jordan Pass.",
@@ -113,14 +113,22 @@
         "Covered by the Jordan Pass.",
         "Sunset view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28122,
+          "period": "202511-202610",
+          "title": "Amman Citadel",
+          "url": "https://en.wikipedia.org/wiki/Amman_Citadel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "amman-amm-theatre",
       "name": "Roman Theatre",
       "kind": "see",
-      "lat": 31.9515,
-      "lon": 35.9395,
+      "lat": 31.95169,
+      "lon": 35.93931,
       "wiki": "Roman Theatre (Amman)",
       "summary": "6,000-seat theatre cut into the hillside.",
       "expect": "Small fee.",
@@ -159,14 +167,22 @@
         "Small fee.",
         "Climb to the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15587,
+          "period": "202511-202610",
+          "title": "Roman Theatre (Amman)",
+          "url": "https://en.wikipedia.org/wiki/Roman_Theatre_(Amman)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "amman-amm-jerash",
       "name": "Jerash",
       "kind": "see",
-      "lat": 32.281,
-      "lon": 35.891,
+      "lat": 32.28056,
+      "lon": 35.89722,
       "wiki": "Jerash",
       "summary": "One of the best-preserved Roman cities in the world.",
       "expect": "Half day.",
@@ -205,7 +221,15 @@
         "Half day.",
         "Chariot show some days."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 56881,
+          "period": "202511-202610",
+          "title": "Jerash",
+          "url": "https://en.wikipedia.org/wiki/Jerash",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "amman-amm-deadsea",
@@ -251,14 +275,23 @@
         "Resort day pass or public beach.",
         "Don't shave beforehand."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 561102,
+          "period": "202511-202610",
+          "title": "Dead Sea",
+          "url": "https://en.wikipedia.org/wiki/Dead_Sea",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "amman-amm-rainbow",
       "name": "Rainbow Street",
       "kind": "see",
-      "lat": 31.951,
-      "lon": 35.923,
+      "lat": 31.95062,
+      "lon": 35.92311,
       "wiki": "Rainbow Street",
       "summary": "Cafés, rooftops and Friday Souk Jara.",
       "expect": "Free.",
@@ -298,14 +331,22 @@
         "Free.",
         "Evenings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6468,
+          "period": "202511-202610",
+          "title": "Rainbow Street",
+          "url": "https://en.wikipedia.org/wiki/Rainbow_Street",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "amman-amm-mosque",
       "name": "King Abdullah I Mosque",
       "kind": "see",
-      "lat": 31.96,
-      "lon": 35.913,
+      "lat": 31.9616,
+      "lon": 35.9131,
       "wiki": "King Abdullah I Mosque",
       "summary": "Blue-domed mosque open to visitors.",
       "expect": "Small fee.",
@@ -345,7 +386,15 @@
         "Small fee.",
         "Modest dress provided."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7699,
+          "period": "202511-202610",
+          "title": "King Abdullah I Mosque",
+          "url": "https://en.wikipedia.org/wiki/King_Abdullah_I_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "amman-amm-hashem",
@@ -520,5 +569,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

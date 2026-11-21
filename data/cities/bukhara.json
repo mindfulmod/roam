@@ -64,8 +64,8 @@
       "id": "bukhara-bkh-kalyan",
       "name": "Po-i-Kalyan Complex",
       "kind": "see",
-      "lat": 39.776,
-      "lon": 64.415,
+      "lat": 39.77583,
+      "lon": 64.41417,
       "wiki": "Po-i-Kalyan",
       "summary": "Kalyan Minaret, mosque and Mir-i-Arab Madrasa.",
       "expect": "Small fee for the mosque.",
@@ -105,14 +105,22 @@
         "Small fee for the mosque.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19952,
+          "period": "202511-202610",
+          "title": "Po-i-Kalyan",
+          "url": "https://en.wikipedia.org/wiki/Po-i-Kalyan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bukhara-bkh-ark",
       "name": "The Ark",
       "kind": "see",
-      "lat": 39.7778,
-      "lon": 64.4106,
+      "lat": 39.77778,
+      "lon": 64.41028,
       "wiki": "Ark of Bukhara",
       "summary": "Fortress of the emirs with museums.",
       "expect": "Paid.",
@@ -151,14 +159,22 @@
         "Paid.",
         "Morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30317,
+          "period": "202511-202610",
+          "title": "Ark of Bukhara",
+          "url": "https://en.wikipedia.org/wiki/Ark_of_Bukhara",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bukhara-bkh-lyabi",
       "name": "Lyabi-Hauz",
       "kind": "see",
-      "lat": 39.7735,
-      "lon": 64.42,
+      "lat": 39.77306,
+      "lon": 64.42028,
       "wiki": "Lyab-i Hauz",
       "summary": "Pool square ringed by madrasas and tea houses.",
       "expect": "Free.",
@@ -198,14 +214,22 @@
         "Free.",
         "Evening tea."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2969,
+          "period": "202511-202610",
+          "title": "Lab-i Hauz",
+          "url": "https://en.wikipedia.org/wiki/Lab-i_Hauz",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bukhara-bkh-samanid",
       "name": "Samanid Mausoleum",
       "kind": "see",
-      "lat": 39.777,
-      "lon": 64.403,
+      "lat": 39.77694,
+      "lon": 64.40056,
       "wiki": "Samanid Mausoleum",
       "summary": "10th-century brick masterpiece.",
       "expect": "Small fee.",
@@ -245,14 +269,22 @@
         "Small fee.",
         "Morning light."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13030,
+          "period": "202511-202610",
+          "title": "Samanid Mausoleum",
+          "url": "https://en.wikipedia.org/wiki/Samanid_Mausoleum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bukhara-bkh-chorminor",
       "name": "Chor Minor",
       "kind": "see",
-      "lat": 39.779,
-      "lon": 64.426,
+      "lat": 39.77483,
+      "lon": 64.42738,
       "wiki": "Chor Minor",
       "summary": "Quirky four-towered gatehouse.",
       "expect": "Small fee for roof.",
@@ -290,8 +322,7 @@
       "tradeoffs": [
         "Small fee for roof.",
         "Photo stop."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bukhara-bkh-domes",
@@ -512,5 +543,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

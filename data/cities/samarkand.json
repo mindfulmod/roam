@@ -64,8 +64,8 @@
       "id": "samarkand-smk-registan",
       "name": "Registan",
       "kind": "see",
-      "lat": 39.6548,
-      "lon": 66.9757,
+      "lat": 39.65472,
+      "lon": 66.97556,
       "wiki": "Registan",
       "summary": "Three majestic madrasas around a great square.",
       "expect": "Paid; evening light show.",
@@ -105,14 +105,22 @@
         "Paid; evening light show.",
         "Come at sunrise and night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 55016,
+          "period": "202511-202610",
+          "title": "Registan",
+          "url": "https://en.wikipedia.org/wiki/Registan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "samarkand-smk-shahizinda",
       "name": "Shah-i-Zinda",
       "kind": "see",
-      "lat": 39.663,
-      "lon": 66.988,
+      "lat": 39.66306,
+      "lon": 66.98778,
       "wiki": "Shah-i-Zinda",
       "summary": "Avenue of tiled mausoleums climbing a hill.",
       "expect": "Paid.",
@@ -152,14 +160,22 @@
         "Paid.",
         "Morning light."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30411,
+          "period": "202511-202610",
+          "title": "Shah-i-Zinda",
+          "url": "https://en.wikipedia.org/wiki/Shah-i-Zinda",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "samarkand-smk-guremir",
       "name": "Gur-e-Amir",
       "kind": "see",
-      "lat": 39.6485,
-      "lon": 66.969,
+      "lat": 39.64833,
+      "lon": 66.96889,
       "wiki": "Gur-e-Amir",
       "summary": "Timur's ribbed-dome mausoleum with gilded interior.",
       "expect": "Paid.",
@@ -199,14 +215,22 @@
         "Paid.",
         "Visit after dark too."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65136,
+          "period": "202511-202610",
+          "title": "Gur-e-Amir",
+          "url": "https://en.wikipedia.org/wiki/Gur-e-Amir",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "samarkand-smk-bibi",
       "name": "Bibi-Khanym Mosque",
       "kind": "see",
-      "lat": 39.661,
-      "lon": 66.979,
+      "lat": 39.66056,
+      "lon": 66.97917,
       "wiki": "Bibi-Khanym Mosque",
       "summary": "Colossal mosque built by Timur.",
       "expect": "Paid.",
@@ -246,14 +270,22 @@
         "Paid.",
         "Combine with the bazaar."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37981,
+          "period": "202511-202610",
+          "title": "Bibi-Khanym Mosque",
+          "url": "https://en.wikipedia.org/wiki/Bibi-Khanym_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "samarkand-smk-observatory",
       "name": "Ulugh Beg Observatory",
       "kind": "see",
       "lat": 39.675,
-      "lon": 67.006,
+      "lon": 67.005,
       "wiki": "Ulugh Beg Observatory",
       "summary": "15th-century observatory with a giant sextant.",
       "expect": "Paid.",
@@ -293,7 +325,15 @@
         "Paid.",
         "Pair with Afrasiyab museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29513,
+          "period": "202511-202610",
+          "title": "Ulugh Beg Observatory",
+          "url": "https://en.wikipedia.org/wiki/Ulugh_Beg_Observatory",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "samarkand-smk-konigil",
@@ -340,7 +380,16 @@
         "Small fee.",
         "Lunch by the stream."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4097,
+          "period": "202511-202610",
+          "title": "Samarkand paper",
+          "url": "https://en.wikipedia.org/wiki/Samarkand_paper",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "samarkand-smk-plov",
@@ -515,5 +564,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

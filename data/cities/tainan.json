@@ -74,7 +74,7 @@
       "name": "Chihkan Tower",
       "kind": "see",
       "lat": 22.9975,
-      "lon": 120.2025,
+      "lon": 120.20281,
       "wiki": "Fort Provintia",
       "summary": "Dutch-era fort rebuilt with Chinese pavilions.",
       "expect": "Paid.",
@@ -114,14 +114,22 @@
         "Paid.",
         "Evening lights."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10459,
+          "period": "202511-202610",
+          "title": "Fort Provintia",
+          "url": "https://en.wikipedia.org/wiki/Fort_Provintia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tainan-tnn-anping",
       "name": "Anping Fort",
       "kind": "see",
-      "lat": 23.0015,
-      "lon": 120.1607,
+      "lat": 23.00161,
+      "lon": 120.16057,
       "wiki": "Fort Zeelandia",
       "summary": "17th-century Dutch fort and old streets.",
       "expect": "Paid.",
@@ -159,15 +167,14 @@
       "tradeoffs": [
         "Paid.",
         "Walk Anping Old Street."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "tainan-tnn-treehouse",
       "name": "Anping Tree House",
       "kind": "see",
-      "lat": 23.003,
-      "lon": 120.159,
+      "lat": 23.00375,
+      "lon": 120.15981,
       "wiki": "Anping Tree House",
       "summary": "Warehouse swallowed by banyan roots.",
       "expect": "Paid.",
@@ -207,14 +214,22 @@
         "Paid.",
         "Combine with the fort."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3615,
+          "period": "202511-202610",
+          "title": "Anping Tree House",
+          "url": "https://en.wikipedia.org/wiki/Anping_Tree_House",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tainan-tnn-confucius",
       "name": "Confucius Temple",
       "kind": "see",
-      "lat": 22.9905,
-      "lon": 120.2045,
+      "lat": 22.99028,
+      "lon": 120.20417,
       "wiki": "Tainan Confucian Temple",
       "summary": "Taiwan's first Confucian school.",
       "expect": "Grounds free.",
@@ -254,14 +269,22 @@
         "Grounds free.",
         "Quiet mornings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4539,
+          "period": "202511-202610",
+          "title": "Tainan Confucian Temple",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Confucian_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tainan-tnn-shennong",
       "name": "Shennong Street",
       "kind": "see",
-      "lat": 22.997,
-      "lon": 120.197,
+      "lat": 22.99713,
+      "lon": 120.19717,
       "wiki": "Shennong Street",
       "summary": "Lantern-lit lane of old houses and bars.",
       "expect": "Free.",
@@ -300,15 +323,14 @@
       "tradeoffs": [
         "Free.",
         "Evening."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "tainan-tnn-chimei",
       "name": "Chimei Museum",
       "kind": "see",
-      "lat": 22.935,
-      "lon": 120.226,
+      "lat": 22.93459,
+      "lon": 120.2259,
       "wiki": "Chimei Museum",
       "summary": "Palatial museum of Western art and instruments.",
       "expect": "Paid.",
@@ -347,7 +369,15 @@
         "Paid.",
         "Allow half a day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9073,
+          "period": "202511-202610",
+          "title": "Chimei Museum",
+          "url": "https://en.wikipedia.org/wiki/Chimei_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tainan-tnn-danzai",
@@ -522,5 +552,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
