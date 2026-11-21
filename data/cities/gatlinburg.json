@@ -65,8 +65,8 @@
       "id": "gatlinburg-gsm-clingmans",
       "name": "Clingmans Dome",
       "kind": "see",
-      "lat": 35.5629,
-      "lon": -83.4985,
+      "lat": 35.56278,
+      "lon": -83.49861,
       "wiki": "Clingmans Dome",
       "summary": "Highest point in the Smokies with a spiral tower.",
       "expect": "Steep paved path.",
@@ -106,14 +106,22 @@
         "Steep paved path.",
         "Clear mornings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 93633,
+          "period": "202511-202610",
+          "title": "Kuwohi",
+          "url": "https://en.wikipedia.org/wiki/Kuwohi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gatlinburg-gsm-cadescove",
       "name": "Cades Cove",
       "kind": "see",
-      "lat": 35.601,
-      "lon": -83.811,
+      "lat": 35.59417,
+      "lon": -83.84194,
       "wiki": "Cades Cove",
       "summary": "Valley loop of cabins, churches and wildlife.",
       "expect": "Car-free Wednesdays in summer.",
@@ -153,7 +161,15 @@
         "Car-free Wednesdays in summer.",
         "Go at dawn for bears."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24543,
+          "period": "202511-202610",
+          "title": "Cades Cove",
+          "url": "https://en.wikipedia.org/wiki/Cades_Cove",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gatlinburg-gsm-laurel",
@@ -298,8 +314,8 @@
       "id": "gatlinburg-gsm-dollywood",
       "name": "Dollywood",
       "kind": "see",
-      "lat": 35.795,
-      "lon": -83.531,
+      "lat": 35.8057,
+      "lon": -83.52884,
       "wiki": "Dollywood",
       "summary": "Theme park with Appalachian crafts and coasters.",
       "expect": "Paid.",
@@ -338,7 +354,15 @@
         "Paid.",
         "Weekdays."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 613230,
+          "period": "202511-202610",
+          "title": "Dollywood",
+          "url": "https://en.wikipedia.org/wiki/Dollywood",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gatlinburg-gsm-pancakes",
@@ -512,5 +536,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

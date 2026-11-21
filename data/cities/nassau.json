@@ -65,8 +65,8 @@
       "id": "nassau-nas-staircase",
       "name": "Queen's Staircase and Fort Fincastle",
       "kind": "see",
-      "lat": 25.0745,
-      "lon": -77.3395,
+      "lat": 25.07314,
+      "lon": -77.33767,
       "wiki": "Queen's Staircase (Nassau)",
       "summary": "66 limestone steps carved by enslaved people, up to a fort.",
       "expect": "Free.",
@@ -106,14 +106,22 @@
         "Free.",
         "Morning before cruise crowds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12999,
+          "period": "202511-202610",
+          "title": "Queen's Staircase",
+          "url": "https://en.wikipedia.org/wiki/Queen's_Staircase",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nassau-nas-cable",
       "name": "Cable Beach",
       "kind": "see",
-      "lat": 25.075,
-      "lon": -77.42,
+      "lat": 25.07789,
+      "lon": -77.41171,
       "wiki": "Cable Beach, Bahamas",
       "summary": "Long white-sand beach with resorts.",
       "expect": "Free public access.",
@@ -152,14 +160,22 @@
         "Free public access.",
         "Sunset swim."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5388,
+          "period": "202511-202610",
+          "title": "Cable Beach, Bahamas",
+          "url": "https://en.wikipedia.org/wiki/Cable_Beach%2C_Bahamas",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nassau-nas-paradise",
       "name": "Paradise Island and Atlantis",
       "kind": "see",
-      "lat": 25.087,
-      "lon": -77.323,
+      "lat": 25.08333,
+      "lon": -77.33333,
       "wiki": "Paradise Island",
       "summary": "Resort island with aquarium and Cabbage Beach.",
       "expect": "Day passes are pricey.",
@@ -199,14 +215,22 @@
         "Day passes are pricey.",
         "Walk the free marina and aquarium areas."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 51561,
+          "period": "202511-202610",
+          "title": "Paradise Island",
+          "url": "https://en.wikipedia.org/wiki/Paradise_Island",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nassau-nas-exumas",
       "name": "Exuma swimming pigs",
       "kind": "see",
-      "lat": 24.18,
-      "lon": -76.45,
+      "lat": 24.18361,
+      "lon": -76.45639,
       "wiki": "Pig Beach",
       "summary": "Speedboat or flight to the Exuma Cays to swim with pigs and sharks.",
       "expect": "Long day.",
@@ -246,15 +270,23 @@
         "Long day.",
         "Book a reputable tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 78638,
+          "period": "202511-202610",
+          "title": "Pig Beach",
+          "url": "https://en.wikipedia.org/wiki/Pig_Beach",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nassau-nas-pirates",
       "name": "Pirates of Nassau Museum",
       "kind": "see",
-      "lat": 25.077,
-      "lon": -77.342,
+      "lat": 25.07751,
+      "lon": -77.34465,
       "wiki": "Pirates of Nassau",
       "summary": "Interactive museum of Nassau's pirate republic.",
       "expect": "Paid.",
@@ -293,8 +325,7 @@
       "tradeoffs": [
         "Paid.",
         "Family friendly."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "nassau-nas-rose",
@@ -346,8 +377,8 @@
       "id": "nassau-nas-fishfry",
       "name": "Arawak Cay Fish Fry",
       "kind": "eat",
-      "lat": 25.079,
-      "lon": -77.357,
+      "lat": 25.08333,
+      "lon": -77.36667,
       "wiki": "Arawak Cay",
       "summary": "Row of colourful shacks serving conch and fried fish.",
       "expect": "Evenings.",
@@ -386,7 +417,6 @@
         "Evenings.",
         "Watch the conch salad made fresh."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Bahamian",
       "mustOrder": [
@@ -514,5 +544,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

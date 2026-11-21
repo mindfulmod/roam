@@ -71,8 +71,8 @@
       "id": "san-pedro-belize-spb-holchan",
       "name": "Hol Chan and Shark Ray Alley",
       "kind": "see",
-      "lat": 17.863,
-      "lon": -87.972,
+      "lat": 17.869,
+      "lon": -88.003,
       "wiki": "Hol Chan Marine Reserve",
       "summary": "Snorkel among nurse sharks, rays and turtles.",
       "expect": "Guided only.",
@@ -112,14 +112,22 @@
         "Guided only.",
         "Half-day trips."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4257,
+          "period": "202511-202610",
+          "title": "Hol Chan Marine Reserve",
+          "url": "https://en.wikipedia.org/wiki/Hol_Chan_Marine_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-belize-spb-bluehole",
       "name": "Great Blue Hole",
       "kind": "see",
-      "lat": 17.316,
-      "lon": -87.535,
+      "lat": 17.31528,
+      "lon": -87.53444,
       "wiki": "Great Blue Hole",
       "summary": "Giant marine sinkhole, by dive boat or scenic flight.",
       "expect": "Very long boat day.",
@@ -159,8 +167,16 @@
         "Very long boat day.",
         "A flight is faster."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 167010,
+          "period": "202511-202610",
+          "title": "Great Blue Hole",
+          "url": "https://en.wikipedia.org/wiki/Great_Blue_Hole",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-belize-spb-secret",
@@ -206,13 +222,22 @@
         "Golf cart ride.",
         "Go midweek."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 31656,
+          "period": "202511-202610",
+          "title": "Ambergris Caye",
+          "url": "https://en.wikipedia.org/wiki/Ambergris_Caye",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-belize-spb-caulker",
       "name": "Caye Caulker",
       "kind": "see",
-      "lat": 17.742,
+      "lat": 17.7425,
       "lon": -88.025,
       "wiki": "Caye Caulker",
       "summary": "Go-slow island with the Split swim spot.",
@@ -252,7 +277,15 @@
         "Water taxi.",
         "Stay for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27138,
+          "period": "202511-202610",
+          "title": "Caye Caulker",
+          "url": "https://en.wikipedia.org/wiki/Caye_Caulker",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-belize-spb-mexicorocks",
@@ -298,7 +331,16 @@
         "Tours.",
         "Morning calm."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 31656,
+          "period": "202511-202610",
+          "title": "Ambergris Caye",
+          "url": "https://en.wikipedia.org/wiki/Ambergris_Caye",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-belize-spb-town",
@@ -345,7 +387,16 @@
         "Free.",
         "Rent a golf cart."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 26023,
+          "period": "202511-202610",
+          "title": "San Pedro Town",
+          "url": "https://en.wikipedia.org/wiki/San_Pedro_Town",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-belize-spb-fryjacks",
@@ -519,5 +570,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

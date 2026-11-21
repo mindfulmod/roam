@@ -64,8 +64,8 @@
       "id": "west-yellowstone-yel-prismatic",
       "name": "Grand Prismatic Spring",
       "kind": "see",
-      "lat": 44.5251,
-      "lon": -110.8382,
+      "lat": 44.525,
+      "lon": -110.8381,
       "wiki": "Grand Prismatic Spring",
       "summary": "Rainbow hot spring, best from the Fairy Falls overlook.",
       "expect": "Park pass.",
@@ -105,14 +105,22 @@
         "Park pass.",
         "Midday sun shows colour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 111967,
+          "period": "202511-202610",
+          "title": "Grand Prismatic Spring",
+          "url": "https://en.wikipedia.org/wiki/Grand_Prismatic_Spring",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "west-yellowstone-yel-faithful",
       "name": "Old Faithful",
       "kind": "see",
-      "lat": 44.4605,
-      "lon": -110.8281,
+      "lat": 44.46047,
+      "lon": -110.82814,
       "wiki": "Old Faithful",
       "summary": "Geyser erupting about every 90 minutes.",
       "expect": "Check predicted times.",
@@ -151,7 +159,15 @@
         "Check predicted times.",
         "Walk the Upper Geyser Basin loop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 124142,
+          "period": "202511-202610",
+          "title": "Old Faithful",
+          "url": "https://en.wikipedia.org/wiki/Old_Faithful",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "west-yellowstone-yel-canyon",
@@ -198,7 +214,16 @@
         "Busy midday.",
         "Artist Point."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 17100,
+          "period": "202511-202610",
+          "title": "Grand Canyon of the Yellowstone",
+          "url": "https://en.wikipedia.org/wiki/Grand_Canyon_of_the_Yellowstone",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "west-yellowstone-yel-norris",
@@ -244,14 +269,23 @@
         "Boardwalks.",
         "Porcelain Basin."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 28677,
+          "period": "202511-202610",
+          "title": "Geothermal areas of Yellowstone",
+          "url": "https://en.wikipedia.org/wiki/Geothermal_areas_of_Yellowstone",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "west-yellowstone-yel-lamar",
       "name": "Lamar Valley",
       "kind": "see",
-      "lat": 44.9,
-      "lon": -110.25,
+      "lat": 44.92917,
+      "lon": -110.40194,
       "wiki": "Lamar Valley",
       "summary": "Bison herds and wolves, America's Serengeti.",
       "expect": "Long drive.",
@@ -290,8 +324,16 @@
         "Long drive.",
         "Dawn with binoculars."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4837,
+          "period": "202511-202610",
+          "title": "Lamar River",
+          "url": "https://en.wikipedia.org/wiki/Lamar_River",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "west-yellowstone-yel-grizzly",
@@ -457,8 +499,8 @@
       "id": "west-yellowstone-yel-inn",
       "name": "Old Faithful Inn dining",
       "kind": "eat",
-      "lat": 44.4597,
-      "lon": -110.8306,
+      "lat": 44.45972,
+      "lon": -110.83111,
       "wiki": "Old Faithful Inn",
       "summary": "Historic log lodge dining room.",
       "expect": "Book ahead.",
@@ -497,7 +539,6 @@
         "Book ahead.",
         "See the lobby fireplace."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -511,5 +552,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

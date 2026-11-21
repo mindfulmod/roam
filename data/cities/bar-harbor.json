@@ -65,8 +65,8 @@
       "id": "bar-harbor-aca-cadillac",
       "name": "Cadillac Mountain",
       "kind": "see",
-      "lat": 44.3526,
-      "lon": -68.2251,
+      "lat": 44.35127,
+      "lon": -68.22649,
       "wiki": "Cadillac Mountain",
       "summary": "Summit with sunrise views over Frenchman Bay.",
       "expect": "Sunrise needs a vehicle reservation.",
@@ -106,14 +106,22 @@
         "Sunrise needs a vehicle reservation.",
         "Bring a jacket."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 31716,
+          "period": "202511-202610",
+          "title": "Cadillac Mountain",
+          "url": "https://en.wikipedia.org/wiki/Cadillac_Mountain",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bar-harbor-aca-ocean",
       "name": "Ocean Path and Thunder Hole",
       "kind": "see",
-      "lat": 44.32,
-      "lon": -68.189,
+      "lat": 44.35,
+      "lon": -68.21667,
       "wiki": "Thunder Hole",
       "summary": "Coastal walk past Sand Beach and booming waves.",
       "expect": "Free with pass.",
@@ -152,7 +160,15 @@
         "Free with pass.",
         "Rising tide for Thunder Hole."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 167266,
+          "period": "202511-202610",
+          "title": "Acadia National Park",
+          "url": "https://en.wikipedia.org/wiki/Acadia_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bar-harbor-aca-carriage",
@@ -205,8 +221,8 @@
       "id": "bar-harbor-aca-bassharbor",
       "name": "Bass Harbor Head Light",
       "kind": "see",
-      "lat": 44.222,
-      "lon": -68.337,
+      "lat": 44.22181,
+      "lon": -68.33728,
       "wiki": "Bass Harbor Head Light",
       "summary": "Lighthouse on pink granite cliffs.",
       "expect": "Small parking.",
@@ -245,14 +261,22 @@
         "Small parking.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5242,
+          "period": "202511-202610",
+          "title": "Bass Harbor Head Light",
+          "url": "https://en.wikipedia.org/wiki/Bass_Harbor_Head_Light",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bar-harbor-aca-whale",
       "name": "Whale watching",
       "kind": "see",
-      "lat": 44.39,
-      "lon": -68.203,
+      "lat": 44.38556,
+      "lon": -68.275,
       "wiki": "Bar Harbor, Maine",
       "summary": "Boat trips for humpbacks and puffins.",
       "expect": "Summer.",
@@ -292,7 +316,15 @@
         "Summer.",
         "Book a combo trip."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 95785,
+          "period": "202511-202610",
+          "title": "Bar Harbor, Maine",
+          "url": "https://en.wikipedia.org/wiki/Bar_Harbor%2C_Maine",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bar-harbor-aca-beehive",
@@ -403,8 +435,8 @@
       "id": "bar-harbor-aca-popovers",
       "name": "Jordan Pond popovers",
       "kind": "eat",
-      "lat": 44.32,
-      "lon": -68.253,
+      "lat": 44.33183,
+      "lon": -68.25511,
       "wiki": "Jordan Pond",
       "summary": "Tea and popovers on the lawn by the pond.",
       "expect": "Expect waits.",
@@ -443,7 +475,6 @@
         "Expect waits.",
         "Afternoon tea."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -514,5 +545,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

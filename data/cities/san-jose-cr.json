@@ -71,8 +71,8 @@
       "id": "san-jose-cr-sjo-theatre",
       "name": "National Theatre",
       "kind": "see",
-      "lat": 9.9335,
-      "lon": -84.0773,
+      "lat": 9.93313,
+      "lon": -84.07702,
       "wiki": "National Theatre of Costa Rica",
       "summary": "Gilded 1897 theatre funded by coffee.",
       "expect": "Tours daily.",
@@ -112,14 +112,22 @@
         "Tours daily.",
         "Café inside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6611,
+          "period": "202511-202610",
+          "title": "National Theatre of Costa Rica",
+          "url": "https://en.wikipedia.org/wiki/National_Theatre_of_Costa_Rica",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-jose-cr-sjo-gold",
       "name": "Pre-Columbian Gold Museum",
       "kind": "see",
-      "lat": 9.9332,
-      "lon": -84.077,
+      "lat": 9.93352,
+      "lon": -84.0768,
       "wiki": "Pre-Columbian Gold Museum",
       "summary": "Underground museum of gold and jade.",
       "expect": "Paid.",
@@ -159,13 +167,21 @@
         "Paid.",
         "Combine with the theatre."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2807,
+          "period": "202511-202610",
+          "title": "Pre-Columbian Gold Museum",
+          "url": "https://en.wikipedia.org/wiki/Pre-Columbian_Gold_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-jose-cr-sjo-poas",
       "name": "Poás Volcano",
       "kind": "see",
-      "lat": 10.198,
+      "lat": 10.2,
       "lon": -84.233,
       "wiki": "Poás Volcano",
       "summary": "Huge active crater with a turquoise acid lake.",
@@ -206,14 +222,22 @@
         "Book online.",
         "Go early before clouds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17592,
+          "period": "202511-202610",
+          "title": "Poás Volcano",
+          "url": "https://en.wikipedia.org/wiki/Po%C3%A1s_Volcano",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-jose-cr-sjo-irazu",
       "name": "Irazú Volcano",
       "kind": "see",
-      "lat": 9.979,
-      "lon": -83.852,
+      "lat": 9.97917,
+      "lon": -83.8525,
       "wiki": "Irazú Volcano",
       "summary": "Highest volcano with lunar craters.",
       "expect": "Cold.",
@@ -253,7 +277,15 @@
         "Cold.",
         "Clear mornings show both coasts."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11986,
+          "period": "202511-202610",
+          "title": "Irazú Volcano",
+          "url": "https://en.wikipedia.org/wiki/Iraz%C3%BA_Volcano",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-jose-cr-sjo-lapaz",
@@ -305,8 +337,8 @@
       "id": "san-jose-cr-sjo-jade",
       "name": "Jade Museum",
       "kind": "see",
-      "lat": 9.933,
-      "lon": -84.072,
+      "lat": 9.93313,
+      "lon": -84.07281,
       "wiki": "Jade Museum (Costa Rica)",
       "summary": "World's largest collection of pre-Columbian jade.",
       "expect": "Paid.",
@@ -345,8 +377,7 @@
       "tradeoffs": [
         "Paid.",
         "Modern building."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-jose-cr-sjo-market",
@@ -520,5 +551,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

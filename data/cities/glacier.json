@@ -63,8 +63,8 @@
       "id": "glacier-gla-sunroad",
       "name": "Going-to-the-Sun Road and Logan Pass",
       "kind": "see",
-      "lat": 48.696,
-      "lon": -113.718,
+      "lat": 48.695,
+      "lon": -113.817,
       "wiki": "Going-to-the-Sun Road",
       "summary": "Spectacular mountain road over the Continental Divide.",
       "expect": "Vehicle reservation needed in summer.",
@@ -104,14 +104,22 @@
         "Vehicle reservation needed in summer.",
         "Hike Hidden Lake Overlook."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44158,
+          "period": "202511-202610",
+          "title": "Going-to-the-Sun Road",
+          "url": "https://en.wikipedia.org/wiki/Going-to-the-Sun_Road",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glacier-gla-mcdonald",
       "name": "Lake McDonald",
       "kind": "see",
-      "lat": 48.528,
-      "lon": -113.992,
+      "lat": 48.56917,
+      "lon": -113.93528,
       "wiki": "Lake McDonald",
       "summary": "Clear lake with rainbow pebbles.",
       "expect": "Free with park pass.",
@@ -150,7 +158,15 @@
         "Free with park pass.",
         "Kayak at dawn."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16974,
+          "period": "202511-202610",
+          "title": "Lake McDonald",
+          "url": "https://en.wikipedia.org/wiki/Lake_McDonald",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glacier-gla-avalanche",
@@ -203,8 +219,8 @@
       "id": "glacier-gla-manyglacier",
       "name": "Many Glacier",
       "kind": "see",
-      "lat": 48.797,
-      "lon": -113.657,
+      "lat": 48.7975,
+      "lon": -113.6575,
       "wiki": "Many Glacier",
       "summary": "Grizzly country with Grinnell Glacier hike.",
       "expect": "Long drive.",
@@ -244,15 +260,23 @@
         "Long drive.",
         "Boat shortcut."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5351,
+          "period": "202511-202610",
+          "title": "Many Glacier",
+          "url": "https://en.wikipedia.org/wiki/Many_Glacier",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glacier-gla-whitefishmtn",
       "name": "Whitefish Mountain Resort",
       "kind": "see",
-      "lat": 48.484,
-      "lon": -114.355,
+      "lat": 48.5,
+      "lon": -114.34,
       "wiki": "Whitefish Mountain Resort",
       "summary": "Summer gondola and winter skiing.",
       "expect": "Paid.",
@@ -292,14 +316,22 @@
         "Paid.",
         "Sunset dinner at the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16156,
+          "period": "202511-202610",
+          "title": "Whitefish Mountain Resort",
+          "url": "https://en.wikipedia.org/wiki/Whitefish_Mountain_Resort",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glacier-gla-whitefishlake",
       "name": "Whitefish Lake",
       "kind": "see",
-      "lat": 48.43,
-      "lon": -114.36,
+      "lat": 48.45111,
+      "lon": -114.38139,
       "wiki": "Whitefish Lake (Montana)",
       "summary": "Town lake with beach and paddling.",
       "expect": "Free.",
@@ -338,7 +370,15 @@
         "Free.",
         "Rent a SUP."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5332,
+          "period": "202511-202610",
+          "title": "Whitefish Lake (Montana)",
+          "url": "https://en.wikipedia.org/wiki/Whitefish_Lake_(Montana)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glacier-gla-pie",
@@ -512,5 +552,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
