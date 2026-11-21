@@ -1,0 +1,604 @@
+{
+  "id": "bruges",
+  "name": "Bruges",
+  "country": "Belgium",
+  "region": "Europe",
+  "lat": 51.2093,
+  "lon": 3.2247,
+  "wiki": "Bruges",
+  "tagline": "A fairy-tale medieval town of canals",
+  "summary": "Bruges is one of Europe's best-preserved medieval towns: cobbled lanes, gabled houses, quiet canals and a towering belfry. It's a UNESCO World Heritage Site and the home of Flemish Primitive painting, lace, chocolate and beer.",
+  "days": 2,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10,
+    12
+  ],
+  "seasonNote": "Day-trippers crowd the centre from late morning; stay overnight for quiet evenings. Christmas markets in December.",
+  "arrival": "Trains from Brussels take about 1 hour, and from Ghent 25 minutes.",
+  "gettingAround": "Walk or cycle; canal boats run from several jetties.",
+  "cashTip": "Cards work almost everywhere; carry a few euros for fries stands and markets.",
+  "dailyBudget": [
+    80,
+    200
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    15,
+    40
+  ],
+  "foodTip": "Mussels and fries, Flemish stew and waffles.",
+  "buyTip": "Lace, pralines and local beer.",
+  "baseArea": "Inside the canal ring",
+  "connections": [
+    {
+      "to": "ghent",
+      "mode": "Train",
+      "minutes": 25,
+      "note": "Several trains an hour."
+    },
+    {
+      "to": "brussels",
+      "mode": "Train",
+      "minutes": 60,
+      "note": "Frequent trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bruges on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bruges",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Bruges%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Bruges%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Rozenhoedkaai",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "bruges-brg-markt",
+      "name": "Markt and Belfry",
+      "kind": "see",
+      "lat": 51.20833,
+      "lon": 3.22472,
+      "wiki": "Belfry of Bruges",
+      "summary": "The main square with a 13th-century belfry; climb 366 steps for the view.",
+      "expect": "Timed tickets for the tower.",
+      "tip": "Book an early slot.",
+      "area": "Markt",
+      "duration": 1.5,
+      "price": [
+        15,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Markt%20and%20Belfry%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Markt%20and%20Belfry%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Markt%20and%20Belfry%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "The main square with a 13th-century belfry; climb 366 steps for the view.",
+        "Bruges' skyline symbol."
+      ],
+      "visitFlow": [
+        "Markt.",
+        "Climb the belfry."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Timed tickets for the tower.",
+        "Book an early slot."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 29538,
+          "period": "202511-202610",
+          "title": "Belfry of Bruges",
+          "url": "https://en.wikipedia.org/wiki/Belfry_of_Bruges",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bruges-brg-canals",
+      "name": "Canal boat tour",
+      "kind": "see",
+      "lat": 51.2056,
+      "lon": 3.226,
+      "wiki": "Canals of Bruges",
+      "summary": "Half-hour boat rides under bridges past gabled houses.",
+      "expect": "March to November.",
+      "tip": "Sit at the front.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        12,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Canal%20boat%20tour%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Canal%20boat%20tour%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Canal%20boat%20tour%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Half-hour boat rides under bridges past gabled houses.",
+        "Bruges from the water."
+      ],
+      "visitFlow": [
+        "Board at Rozenhoedkaai.",
+        "Cruise."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "March to November.",
+        "Sit at the front."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bruges-brg-burg",
+      "name": "Burg and Basilica of the Holy Blood",
+      "kind": "see",
+      "lat": 51.20817,
+      "lon": 3.22672,
+      "wiki": "Basilica of the Holy Blood",
+      "summary": "A square of grand civic buildings and a chapel holding a relic of Christ's blood.",
+      "expect": "Relic shown daily.",
+      "tip": "See the Gothic town hall.",
+      "area": "Burg",
+      "duration": 1,
+      "price": [
+        0,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Burg%20and%20Basilica%20of%20the%20Holy%20Blood%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Burg%20and%20Basilica%20of%20the%20Holy%20Blood%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Burg%20and%20Basilica%20of%20the%20Holy%20Blood%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A square of grand civic buildings and a chapel holding a relic of Christ's blood.",
+        "Bruges' civic heart."
+      ],
+      "visitFlow": [
+        "Town hall.",
+        "Basilica."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "Relic shown daily.",
+        "See the Gothic town hall."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 66686,
+          "period": "202511-202610",
+          "title": "Basilica of the Holy Blood",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_the_Holy_Blood",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bruges-brg-groeninge",
+      "name": "Groeninge Museum",
+      "kind": "see",
+      "lat": 51.20528,
+      "lon": 3.22667,
+      "wiki": "Groeningemuseum",
+      "summary": "Flemish Primitives including Van Eyck's Madonna with Canon van der Paele.",
+      "expect": "Compact.",
+      "tip": "Focus on the early rooms.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        15,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Groeninge%20Museum%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Groeninge%20Museum%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Groeninge%20Museum%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Flemish Primitives including Van Eyck's Madonna with Canon van der Paele.",
+        "Flemish art at its peak."
+      ],
+      "visitFlow": [
+        "Van Eyck.",
+        "Memling."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Compact.",
+        "Focus on the early rooms."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 10518,
+          "period": "202511-202610",
+          "title": "Groeningemuseum",
+          "url": "https://en.wikipedia.org/wiki/Groeningemuseum",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bruges-brg-church-lady",
+      "name": "Church of Our Lady",
+      "kind": "see",
+      "lat": 51.20472,
+      "lon": 3.22444,
+      "wiki": "Church of Our Lady, Bruges",
+      "summary": "Home to Michelangelo's Madonna and Child.",
+      "expect": "Small fee for the museum part.",
+      "tip": "Look for the marble Madonna.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        0,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Church%20of%20Our%20Lady%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Church%20of%20Our%20Lady%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Church%20of%20Our%20Lady%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Home to Michelangelo's Madonna and Child.",
+        "Michelangelo outside Italy."
+      ],
+      "visitFlow": [
+        "Nave.",
+        "Madonna."
+      ],
+      "bestFor": "Visitors interested in art and craft and sacred places",
+      "tradeoffs": [
+        "Small fee for the museum part.",
+        "Look for the marble Madonna."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 36983,
+          "period": "202511-202610",
+          "title": "Church of Our Lady, Bruges",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady%2C_Bruges",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bruges-brg-beguinage",
+      "name": "Beguinage and Minnewater",
+      "kind": "see",
+      "lat": 51.2015,
+      "lon": 3.2245,
+      "wiki": "Princely Beguinage Ten Wijngaarde",
+      "summary": "A quiet white-walled courtyard and the 'Lake of Love'.",
+      "expect": "Keep silent inside.",
+      "tip": "Visit at spring daffodil time.",
+      "area": "South",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Beguinage%20and%20Minnewater%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Beguinage%20and%20Minnewater%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Beguinage%20and%20Minnewater%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "A quiet white-walled courtyard and the 'Lake of Love'.",
+        "Bruges at its calmest."
+      ],
+      "visitFlow": [
+        "Beguinage.",
+        "Minnewater."
+      ],
+      "bestFor": "Visitors interested in history and context and sacred places",
+      "tradeoffs": [
+        "Keep silent inside.",
+        "Visit at spring daffodil time."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bruges-brg-windmills",
+      "name": "Windmills on the ramparts",
+      "kind": "see",
+      "lat": 51.2146,
+      "lon": 3.2355,
+      "wiki": "Sint-Janshuismolen",
+      "summary": "Working windmills along the green city walls.",
+      "expect": "Pleasant walk or bike.",
+      "tip": "Cycle the full ring.",
+      "area": "Kruisvest",
+      "duration": 1.5,
+      "price": [
+        0,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Windmills%20on%20the%20ramparts%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Windmills%20on%20the%20ramparts%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Windmills%20on%20the%20ramparts%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Working windmills along the green city walls.",
+        "Quiet countryside feel."
+      ],
+      "visitFlow": [
+        "Kruispoort.",
+        "Windmills."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "Pleasant walk or bike.",
+        "Cycle the full ring."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bruges-brg-mussels",
+      "name": "Mussels and fries",
+      "kind": "eat",
+      "lat": 51.2085,
+      "lon": 3.224,
+      "wiki": "Moules-frites",
+      "summary": "Steaming pots of mussels with fries and mayonnaise.",
+      "expect": "Best September to April.",
+      "tip": "Avoid the Markt terraces.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        25,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mussels%20and%20fries%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Mussels%20and%20fries%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mussels%20and%20fries%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Steaming pots of mussels with fries and mayonnaise.",
+        "Belgian classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Best September to April.",
+        "Avoid the Markt terraces."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Belgian",
+      "mustOrder": [
+        "Moules-frites"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bruges-brg-chocolate",
+      "name": "Chocolatiers",
+      "kind": "eat",
+      "lat": 51.207,
+      "lon": 3.226,
+      "wiki": "Belgian chocolate",
+      "summary": "Pralines from small makers along the lanes.",
+      "expect": "Dozens of shops.",
+      "tip": "Buy by weight.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chocolatiers%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Chocolatiers%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chocolatiers%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pralines from small makers along the lanes.",
+        "Bruges sweet."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Dozens of shops.",
+        "Buy by weight."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Belgian",
+      "mustOrder": [
+        "Pralines"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bruges-brg-beer",
+      "name": "Beer cafés",
+      "kind": "eat",
+      "lat": 51.2077,
+      "lon": 3.2241,
+      "wiki": "De Halve Maan Brewery",
+      "summary": "Brewery tours and bars with hundreds of Belgian beers.",
+      "expect": "Strong beers.",
+      "tip": "Try Brugse Zot at De Halve Maan.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Beer%20caf%C3%A9s%2C%20Bruges",
+        "https://www.google.com/maps/search/?api=1&query=Beer%20caf%C3%A9s%2C%20Bruges"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Beer%20caf%C3%A9s%2C%20Bruges"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Brewery tours and bars with hundreds of Belgian beers.",
+        "Belgian beer culture."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Strong beers.",
+        "Try Brugse Zot at De Halve Maan."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Belgian",
+      "mustOrder": [
+        "Brugse Zot",
+        "Trappist"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
