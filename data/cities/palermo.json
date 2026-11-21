@@ -71,8 +71,8 @@
       "id": "palermo-palermo-cathedral",
       "name": "Palermo Cathedral",
       "kind": "see",
-      "lat": 38.1144,
-      "lon": 13.3561,
+      "lat": 38.11444,
+      "lon": 13.35611,
       "wiki": "Palermo Cathedral",
       "summary": "A cathedral layered with Norman, Gothic and Baroque styles, with royal tombs and rooftop walks.",
       "expect": "Free; a fee for the roof and treasury.",
@@ -113,14 +113,22 @@
         "Free; a fee for the roof and treasury.",
         "Walk the rooftops for city views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41206,
+          "period": "202511-202610",
+          "title": "Palermo Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Palermo_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "palermo-palermo-palatine",
       "name": "Palatine Chapel",
       "kind": "see",
-      "lat": 38.111,
-      "lon": 13.3532,
+      "lat": 38.11088,
+      "lon": 13.35351,
       "wiki": "Palatine Chapel",
       "summary": "A royal chapel covered in golden Byzantine mosaics under an Arab wooden ceiling.",
       "expect": "Inside the Norman Palace; queues at weekends.",
@@ -159,15 +167,14 @@
       "tradeoffs": [
         "Inside the Norman Palace; queues at weekends.",
         "Book a timed ticket."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "palermo-palermo-monreale",
       "name": "Monreale Cathedral",
       "kind": "see",
-      "lat": 38.0814,
-      "lon": 13.2925,
+      "lat": 38.08186,
+      "lon": 13.29207,
       "wiki": "Monreale Cathedral",
       "summary": "A hilltop cathedral with 6,000 square metres of gold mosaics and a cloister.",
       "expect": "30 minutes by bus.",
@@ -208,14 +215,22 @@
         "30 minutes by bus.",
         "See the cloister and climb the terraces."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 43964,
+          "period": "202511-202610",
+          "title": "Monreale Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Monreale_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "palermo-palermo-ballaro",
       "name": "Ballarò market",
       "kind": "see",
-      "lat": 38.112,
-      "lon": 13.361,
+      "lat": 38.11183,
+      "lon": 13.36076,
       "wiki": "Ballarò",
       "summary": "A noisy, colourful street market of fish, fruit and street food.",
       "expect": "Mornings are busiest; mind your bags.",
@@ -254,15 +269,14 @@
       "tradeoffs": [
         "Mornings are busiest; mind your bags.",
         "Graze on panelle and arancine as you go."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "palermo-palermo-quattro-canti",
       "name": "Quattro Canti",
       "kind": "see",
-      "lat": 38.1157,
-      "lon": 13.3615,
+      "lat": 38.11583,
+      "lon": 13.36139,
       "wiki": "Quattro Canti",
       "summary": "A Baroque crossroads of four curved façades, next to the Fontana Pretoria.",
       "expect": "Free; busy day and night.",
@@ -301,14 +315,22 @@
         "Free; busy day and night.",
         "See the nude statues of Fontana Pretoria."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15722,
+          "period": "202511-202610",
+          "title": "Quattro Canti",
+          "url": "https://en.wikipedia.org/wiki/Quattro_Canti",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "palermo-palermo-teatro-massimo",
       "name": "Teatro Massimo",
       "kind": "see",
-      "lat": 38.1204,
-      "lon": 13.3572,
+      "lat": 38.12028,
+      "lon": 13.35722,
       "wiki": "Teatro Massimo",
       "summary": "Italy's largest opera house, seen in The Godfather Part III.",
       "expect": "Guided tours by day; operas in season.",
@@ -348,14 +370,22 @@
         "Guided tours by day; operas in season.",
         "See a performance if you can."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26879,
+          "period": "202511-202610",
+          "title": "Teatro Massimo",
+          "url": "https://en.wikipedia.org/wiki/Teatro_Massimo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "palermo-palermo-cefalu",
       "name": "Cefalù",
       "kind": "see",
-      "lat": 38.039,
-      "lon": 14.023,
+      "lat": 38.035,
+      "lon": 14.02111,
       "wiki": "Cefalù",
       "summary": "A seaside town with a Norman cathedral under a great rock.",
       "expect": "About an hour by train.",
@@ -396,8 +426,16 @@
         "About an hour by train.",
         "Swim, then climb La Rocca."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 69353,
+          "period": "202511-202610",
+          "title": "Cefalù",
+          "url": "https://en.wikipedia.org/wiki/Cefal%C3%B9",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "palermo-palermo-arancine",
@@ -572,5 +610,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

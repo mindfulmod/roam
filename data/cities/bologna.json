@@ -77,8 +77,8 @@
       "id": "bologna-bologna-piazza-maggiore",
       "name": "Piazza Maggiore",
       "kind": "see",
-      "lat": 44.4938,
-      "lon": 11.343,
+      "lat": 44.49383,
+      "lon": 11.34273,
       "wiki": "Piazza Maggiore",
       "summary": "A grand square with the Neptune Fountain and the huge Basilica of San Petronio.",
       "expect": "The basilica is free; a fee for the terrace.",
@@ -118,7 +118,15 @@
         "The basilica is free; a fee for the terrace.",
         "Climb San Petronio's terrace."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13845,
+          "period": "202511-202610",
+          "title": "Piazza Maggiore",
+          "url": "https://en.wikipedia.org/wiki/Piazza_Maggiore",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bologna-bologna-towers",
@@ -165,14 +173,22 @@
         "The Asinelli tower may be closed for repairs; check first.",
         "See them from Strada Maggiore."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 55655,
+          "period": "202511-202610",
+          "title": "Two Towers, Bologna",
+          "url": "https://en.wikipedia.org/wiki/Two_Towers%2C_Bologna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bologna-bologna-archiginnasio",
       "name": "Archiginnasio and Anatomical Theatre",
       "kind": "see",
-      "lat": 44.492,
-      "lon": 11.3433,
+      "lat": 44.49222,
+      "lon": 11.34361,
       "wiki": "Archiginnasio of Bologna",
       "summary": "The old university's main building, with a wooden anatomical theatre.",
       "expect": "Small entry fee.",
@@ -212,14 +228,22 @@
         "Small entry fee.",
         "See the walls covered in coats of arms."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12702,
+          "period": "202511-202610",
+          "title": "Archiginnasio of Bologna",
+          "url": "https://en.wikipedia.org/wiki/Archiginnasio_of_Bologna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bologna-bologna-santo-stefano",
       "name": "Santo Stefano",
       "kind": "see",
-      "lat": 44.4915,
-      "lon": 11.3485,
+      "lat": 44.49216,
+      "lon": 11.34885,
       "wiki": "Santo Stefano, Bologna",
       "summary": "A cluster of seven linked churches known as the 'Seven Churches'.",
       "expect": "Free; quiet and atmospheric.",
@@ -259,13 +283,21 @@
         "Free; quiet and atmospheric.",
         "Sit in the piazza outside with an aperitivo."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14443,
+          "period": "202511-202610",
+          "title": "Santo Stefano, Bologna",
+          "url": "https://en.wikipedia.org/wiki/Santo_Stefano%2C_Bologna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bologna-bologna-san-luca",
       "name": "Sanctuary of San Luca",
       "kind": "see",
-      "lat": 44.479,
+      "lat": 44.48,
       "lon": 11.298,
       "wiki": "Sanctuary of the Madonna di San Luca",
       "summary": "A hilltop church reached by the world's longest portico, 666 arches.",
@@ -306,7 +338,15 @@
         "About an hour's walk up; a train runs too.",
         "Walk up, ride down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24839,
+          "period": "202511-202610",
+          "title": "Madonna di San Luca, Bologna",
+          "url": "https://en.wikipedia.org/wiki/Madonna_di_San_Luca%2C_Bologna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bologna-bologna-porticoes",
@@ -352,14 +392,23 @@
         "Free; great on rainy days.",
         "Walk Via Zamboni through the university district."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 20221,
+          "period": "202511-202610",
+          "title": "Porticoes of Bologna",
+          "url": "https://en.wikipedia.org/wiki/Porticoes_of_Bologna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bologna-bologna-modena",
       "name": "Modena",
       "kind": "see",
-      "lat": 44.6471,
-      "lon": 10.9252,
+      "lat": 44.64694,
+      "lon": 10.92556,
       "wiki": "Modena",
       "summary": "Home of balsamic vinegar, Ferrari and a Romanesque cathedral.",
       "expect": "30 minutes by train.",
@@ -400,7 +449,15 @@
         "30 minutes by train.",
         "Visit an acetaia for a balsamic tasting."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 179181,
+          "period": "202511-202610",
+          "title": "Modena",
+          "url": "https://en.wikipedia.org/wiki/Modena",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bologna-bologna-tagliatelle",
@@ -574,5 +631,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -71,8 +71,8 @@
       "id": "cinque-terre-ct-vernazza",
       "name": "Vernazza",
       "kind": "see",
-      "lat": 44.135,
-      "lon": 9.684,
+      "lat": 44.13333,
+      "lon": 9.68333,
       "wiki": "Vernazza",
       "summary": "A tiny harbour village with a castle tower and a church on the water.",
       "expect": "Very busy at midday.",
@@ -112,14 +112,22 @@
         "Very busy at midday.",
         "Watch the sunset from the Doria Castle tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 46336,
+          "period": "202511-202610",
+          "title": "Vernazza",
+          "url": "https://en.wikipedia.org/wiki/Vernazza",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cinque-terre-ct-manarola",
       "name": "Manarola",
       "kind": "see",
-      "lat": 44.1067,
-      "lon": 9.7286,
+      "lat": 44.1,
+      "lon": 9.75,
       "wiki": "Manarola",
       "summary": "Pastel houses stacked on a rocky point above swimming rocks.",
       "expect": "The classic photo spot is on the path to Punta Bonfiglio.",
@@ -159,14 +167,22 @@
         "The classic photo spot is on the path to Punta Bonfiglio.",
         "Swim off the rocks in summer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29555,
+          "period": "202511-202610",
+          "title": "Manarola",
+          "url": "https://en.wikipedia.org/wiki/Manarola",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cinque-terre-ct-riomaggiore",
       "name": "Riomaggiore",
       "kind": "see",
-      "lat": 44.099,
-      "lon": 9.738,
+      "lat": 44.1,
+      "lon": 9.75,
       "wiki": "Riomaggiore",
       "summary": "A steep village of tower houses around a tiny harbour.",
       "expect": "Lots of stairs.",
@@ -205,14 +221,22 @@
         "Lots of stairs.",
         "Climb to the castle for the view down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29705,
+          "period": "202511-202610",
+          "title": "Riomaggiore",
+          "url": "https://en.wikipedia.org/wiki/Riomaggiore",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cinque-terre-ct-monterosso",
       "name": "Monterosso al Mare",
       "kind": "see",
-      "lat": 44.146,
-      "lon": 9.654,
+      "lat": 44.14583,
+      "lon": 9.65417,
       "wiki": "Monterosso al Mare",
       "summary": "The largest village, with the only real sandy beach.",
       "expect": "Beach clubs rent umbrellas.",
@@ -251,14 +275,22 @@
         "Beach clubs rent umbrellas.",
         "Swim and lunch here."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29830,
+          "period": "202511-202610",
+          "title": "Monterosso al Mare",
+          "url": "https://en.wikipedia.org/wiki/Monterosso_al_Mare",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cinque-terre-ct-corniglia",
       "name": "Corniglia",
       "kind": "see",
-      "lat": 44.1197,
-      "lon": 9.7105,
+      "lat": 44.11972,
+      "lon": 9.70861,
       "wiki": "Corniglia",
       "summary": "The only village on a hilltop, 382 steps above the station.",
       "expect": "Quieter than the others.",
@@ -297,14 +329,22 @@
         "Quieter than the others.",
         "Take the shuttle bus up if you're tired."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12755,
+          "period": "202511-202610",
+          "title": "Corniglia",
+          "url": "https://en.wikipedia.org/wiki/Corniglia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cinque-terre-ct-trail",
       "name": "Coastal trail (Sentiero Azzurro)",
       "kind": "see",
-      "lat": 44.12,
-      "lon": 9.71,
+      "lat": 44.1,
+      "lon": 9.75,
       "wiki": "Cinque Terre National Park",
       "summary": "The famous cliff path between the villages through vines and olive groves.",
       "expect": "Some sections need the Cinque Terre Card; check which are open.",
@@ -344,7 +384,15 @@
         "Some sections need the Cinque Terre Card; check which are open.",
         "Hike Monterosso to Vernazza early in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6606,
+          "period": "202511-202610",
+          "title": "Cinque Terre National Park",
+          "url": "https://en.wikipedia.org/wiki/Cinque_Terre_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cinque-terre-ct-portovenere",
@@ -391,7 +439,16 @@
         "Ferries from the villages and La Spezia.",
         "Visit the church of San Pietro on the point."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29220,
+          "period": "202511-202610",
+          "title": "Porto Venere",
+          "url": "https://en.wikipedia.org/wiki/Porto_Venere",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cinque-terre-ct-pesto",
@@ -566,5 +623,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -70,8 +70,8 @@
       "id": "puglia-puglia-alberobello",
       "name": "Alberobello",
       "kind": "see",
-      "lat": 40.783,
-      "lon": 17.238,
+      "lat": 40.78412,
+      "lon": 17.2377,
       "wiki": "Alberobello",
       "summary": "A town of over a thousand trulli, whitewashed stone houses with cone roofs.",
       "expect": "Busy with day-trippers; souvenir shops fill some trulli.",
@@ -111,14 +111,22 @@
         "Busy with day-trippers; souvenir shops fill some trulli.",
         "Stay overnight in a trullo."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76741,
+          "period": "202511-202610",
+          "title": "Alberobello",
+          "url": "https://en.wikipedia.org/wiki/Alberobello",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puglia-puglia-polignano",
       "name": "Polignano a Mare",
       "kind": "see",
-      "lat": 40.996,
-      "lon": 17.22,
+      "lat": 40.99445,
+      "lon": 17.22249,
       "wiki": "Polignano a Mare",
       "summary": "A white town on the cliff edge above the Lama Monachile cove.",
       "expect": "The cove is tiny and busy in summer.",
@@ -158,14 +166,22 @@
         "The cove is tiny and busy in summer.",
         "Swim in the cove early morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 40201,
+          "period": "202511-202610",
+          "title": "Polignano a Mare",
+          "url": "https://en.wikipedia.org/wiki/Polignano_a_Mare",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puglia-puglia-monopoli",
       "name": "Monopoli old town",
       "kind": "see",
-      "lat": 40.952,
-      "lon": 17.303,
+      "lat": 40.95,
+      "lon": 17.3,
       "wiki": "Monopoli",
       "summary": "A walled fishing town with a castle and a harbour of blue boats.",
       "expect": "Small beaches nearby.",
@@ -204,14 +220,22 @@
         "Small beaches nearby.",
         "Eat seafood by the old port."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44158,
+          "period": "202511-202610",
+          "title": "Monopoli",
+          "url": "https://en.wikipedia.org/wiki/Monopoli",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puglia-puglia-ostuni",
       "name": "Ostuni",
       "kind": "see",
-      "lat": 40.7296,
-      "lon": 17.577,
+      "lat": 40.72778,
+      "lon": 17.57968,
       "wiki": "Ostuni",
       "summary": "The 'white city', a hilltop of whitewashed lanes and a cathedral.",
       "expect": "Steep lanes.",
@@ -251,14 +275,22 @@
         "Steep lanes.",
         "Watch the sunset from the walls."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30934,
+          "period": "202511-202610",
+          "title": "Ostuni",
+          "url": "https://en.wikipedia.org/wiki/Ostuni",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puglia-puglia-locorotondo",
       "name": "Locorotondo",
       "kind": "see",
-      "lat": 40.755,
-      "lon": 17.326,
+      "lat": 40.75583,
+      "lon": 17.32639,
       "wiki": "Locorotondo",
       "summary": "A round hill town of white lanes overlooking trulli and vineyards.",
       "expect": "Quiet and pretty.",
@@ -298,14 +330,22 @@
         "Quiet and pretty.",
         "Taste the local white wine."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27601,
+          "period": "202511-202610",
+          "title": "Locorotondo",
+          "url": "https://en.wikipedia.org/wiki/Locorotondo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puglia-puglia-matera",
       "name": "Matera",
       "kind": "see",
-      "lat": 40.6664,
-      "lon": 16.6043,
+      "lat": 40.6667,
+      "lon": 16.6083,
       "wiki": "Sassi di Matera",
       "summary": "An ancient city of cave dwellings and rock churches carved into a ravine.",
       "expect": "About 1.5 hours by car.",
@@ -346,15 +386,23 @@
         "About 1.5 hours by car.",
         "Stay for the sassi lit up at night."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 59710,
+          "period": "202511-202610",
+          "title": "Sassi di Matera",
+          "url": "https://en.wikipedia.org/wiki/Sassi_di_Matera",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puglia-puglia-lecce",
       "name": "Lecce",
       "kind": "see",
-      "lat": 40.3515,
-      "lon": 18.175,
+      "lat": 40.35,
+      "lon": 18.16667,
       "wiki": "Lecce",
       "summary": "The 'Florence of the south', a city of honey-coloured Baroque churches.",
       "expect": "About 1.5 hours by car or train.",
@@ -395,8 +443,16 @@
         "About 1.5 hours by car or train.",
         "See the Basilica di Santa Croce."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 138952,
+          "period": "202511-202610",
+          "title": "Lecce",
+          "url": "https://en.wikipedia.org/wiki/Lecce",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puglia-puglia-orecchiette",
@@ -570,5 +626,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

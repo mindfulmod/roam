@@ -119,8 +119,8 @@
       "id": "dolomites-dolomites-alpe-di-siusi",
       "name": "Alpe di Siusi",
       "kind": "see",
-      "lat": 46.544,
-      "lon": 11.62,
+      "lat": 46.54111,
+      "lon": 11.64472,
       "wiki": "Seiser Alm",
       "summary": "Europe's largest high alpine meadow, below the Sassolungo peaks.",
       "expect": "A cable car from Ortisei or Siusi; cars are restricted.",
@@ -160,14 +160,22 @@
         "A cable car from Ortisei or Siusi; cars are restricted.",
         "Walk between huts for lunch."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22914,
+          "period": "202511-202610",
+          "title": "Seiser Alm",
+          "url": "https://en.wikipedia.org/wiki/Seiser_Alm",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dolomites-dolomites-tre-cime",
       "name": "Tre Cime di Lavaredo",
       "kind": "see",
-      "lat": 46.6187,
-      "lon": 12.3022,
+      "lat": 46.61667,
+      "lon": 12.3,
       "wiki": "Tre Cime di Lavaredo",
       "summary": "Three giant rock towers circled by a classic loop trail.",
       "expect": "A toll road to the Auronzo hut; about 1.5 hours by car.",
@@ -207,14 +215,22 @@
         "A toll road to the Auronzo hut; about 1.5 hours by car.",
         "Walk the loop anticlockwise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 62607,
+          "period": "202511-202610",
+          "title": "Tre Cime di Lavaredo",
+          "url": "https://en.wikipedia.org/wiki/Tre_Cime_di_Lavaredo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dolomites-dolomites-braies",
       "name": "Lago di Braies",
       "kind": "see",
-      "lat": 46.6943,
-      "lon": 12.0853,
+      "lat": 46.69472,
+      "lon": 12.08444,
       "wiki": "Lago di Braies",
       "summary": "A turquoise lake below cliffs, with wooden rowing boats.",
       "expect": "Access and parking are limited in summer; book ahead.",
@@ -253,14 +269,22 @@
         "Access and parking are limited in summer; book ahead.",
         "Arrive at sunrise or walk the lake loop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39358,
+          "period": "202511-202610",
+          "title": "Pragser Wildsee",
+          "url": "https://en.wikipedia.org/wiki/Pragser_Wildsee",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dolomites-dolomites-sella",
       "name": "Sella Pass",
       "kind": "see",
-      "lat": 46.509,
-      "lon": 11.764,
+      "lat": 46.50861,
+      "lon": 11.76278,
       "wiki": "Sella Pass",
       "summary": "A high road pass with views of the Sassolungo and Sella massif.",
       "expect": "Part of the Sella Ronda ski loop.",
@@ -300,14 +324,22 @@
         "Part of the Sella Ronda ski loop.",
         "Drive the four-pass loop in summer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9284,
+          "period": "202511-202610",
+          "title": "Sella Pass",
+          "url": "https://en.wikipedia.org/wiki/Sella_Pass",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dolomites-dolomites-funes",
       "name": "Val di Funes",
       "kind": "see",
-      "lat": 46.643,
-      "lon": 11.724,
+      "lat": 46.65,
+      "lon": 11.68333,
       "wiki": "Villnöß",
       "summary": "A quiet valley where Santa Maddalena church sits below the Odle peaks.",
       "expect": "The viewpoint is a short walk from the village.",
@@ -347,14 +379,22 @@
         "The viewpoint is a short walk from the village.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6492,
+          "period": "202511-202610",
+          "title": "Villnöß",
+          "url": "https://en.wikipedia.org/wiki/Villn%C3%B6%C3%9F",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dolomites-dolomites-cortina",
       "name": "Cortina d'Ampezzo",
       "kind": "see",
-      "lat": 46.5405,
-      "lon": 12.1357,
+      "lat": 46.54028,
+      "lon": 12.13611,
       "wiki": "Cortina d'Ampezzo",
       "summary": "A glamorous mountain town and Winter Olympic host.",
       "expect": "About 1.5 hours by car.",
@@ -395,7 +435,15 @@
         "About 1.5 hours by car.",
         "Ride the Tofana cable car."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 747885,
+          "period": "202511-202610",
+          "title": "Cortina d'Ampezzo",
+          "url": "https://en.wikipedia.org/wiki/Cortina_d'Ampezzo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dolomites-dolomites-canederli",
@@ -571,5 +619,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

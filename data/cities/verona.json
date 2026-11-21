@@ -78,8 +78,8 @@
       "id": "verona-verona-arena",
       "name": "Verona Arena",
       "kind": "see",
-      "lat": 45.439,
-      "lon": 10.9944,
+      "lat": 45.43889,
+      "lon": 10.99444,
       "wiki": "Verona Arena",
       "summary": "A 2,000-year-old Roman amphitheatre that still hosts opera under the stars.",
       "expect": "Summer opera tickets sell out; bring a cushion for the stone seats.",
@@ -119,14 +119,22 @@
         "Summer opera tickets sell out; bring a cushion for the stone seats.",
         "See an opera on a summer night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 273294,
+          "period": "202511-202610",
+          "title": "Verona Arena",
+          "url": "https://en.wikipedia.org/wiki/Verona_Arena",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "verona-verona-juliet",
       "name": "Juliet's House",
       "kind": "see",
-      "lat": 45.442,
-      "lon": 10.9985,
+      "lat": 45.44201,
+      "lon": 10.99862,
       "wiki": "Juliet's House",
       "summary": "A medieval house with the famous balcony and a bronze statue of Juliet.",
       "expect": "The courtyard is free but crowded; the house is ticketed.",
@@ -164,15 +172,14 @@
       "tradeoffs": [
         "The courtyard is free but crowded; the house is ticketed.",
         "Go first thing in the morning."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "verona-verona-erbe",
       "name": "Piazza delle Erbe",
       "kind": "see",
-      "lat": 45.443,
-      "lon": 10.9974,
+      "lat": 45.44306,
+      "lon": 10.99723,
       "wiki": "Piazza delle Erbe",
       "summary": "A lively square on the old Roman forum, with frescoed houses and a market.",
       "expect": "Cafés all around.",
@@ -210,15 +217,14 @@
       "tradeoffs": [
         "Cafés all around.",
         "Have a spritz here at aperitivo time."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "verona-verona-lamberti",
       "name": "Torre dei Lamberti",
       "kind": "see",
-      "lat": 45.4427,
-      "lon": 10.9978,
+      "lat": 45.44309,
+      "lon": 10.99772,
       "wiki": "Torre dei Lamberti",
       "summary": "An 84 m medieval tower with views over the red rooftops.",
       "expect": "A lift goes most of the way.",
@@ -257,14 +263,22 @@
         "A lift goes most of the way.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4240,
+          "period": "202511-202610",
+          "title": "Torre dei Lamberti",
+          "url": "https://en.wikipedia.org/wiki/Torre_dei_Lamberti",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "verona-verona-castelvecchio",
       "name": "Castelvecchio",
       "kind": "see",
-      "lat": 45.44,
-      "lon": 10.9878,
+      "lat": 45.43973,
+      "lon": 10.98785,
       "wiki": "Castelvecchio (Verona)",
       "summary": "A red-brick fortress and museum with a battlemented bridge.",
       "expect": "The bridge is free to walk.",
@@ -304,14 +318,22 @@
         "The bridge is free to walk.",
         "Walk the bridge for river views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20000,
+          "period": "202511-202610",
+          "title": "Castelvecchio (Verona)",
+          "url": "https://en.wikipedia.org/wiki/Castelvecchio_(Verona)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "verona-verona-ponte-pietra",
       "name": "Ponte Pietra and Castel San Pietro",
       "kind": "see",
-      "lat": 45.4475,
-      "lon": 11.0003,
+      "lat": 45.4477,
+      "lon": 10.9999,
       "wiki": "Ponte Pietra",
       "summary": "A Roman bridge leading to a hill with a funicular and city views.",
       "expect": "The funicular is quick.",
@@ -351,14 +373,22 @@
         "The funicular is quick.",
         "Climb to Castel San Pietro for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6361,
+          "period": "202511-202610",
+          "title": "Ponte Pietra (Verona)",
+          "url": "https://en.wikipedia.org/wiki/Ponte_Pietra_(Verona)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "verona-verona-sirmione",
       "name": "Sirmione on Lake Garda",
       "kind": "see",
-      "lat": 45.493,
-      "lon": 10.608,
+      "lat": 45.4925,
+      "lon": 10.60833,
       "wiki": "Sirmione",
       "summary": "A castle town on a narrow peninsula in Lake Garda, with Roman ruins and hot springs.",
       "expect": "About 40 minutes by bus or train and bus.",
@@ -399,7 +429,15 @@
         "About 40 minutes by bus or train and bus.",
         "See the Grotte di Catullo Roman villa."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 31615,
+          "period": "202511-202610",
+          "title": "Sirmione",
+          "url": "https://en.wikipedia.org/wiki/Sirmione",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "verona-verona-amarone",
@@ -574,5 +612,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
