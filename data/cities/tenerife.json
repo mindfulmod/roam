@@ -66,8 +66,8 @@
       "id": "tenerife-tfe-teide",
       "name": "Teide National Park",
       "kind": "see",
-      "lat": 28.2724,
-      "lon": -16.6425,
+      "lat": 28.263,
+      "lon": -16.616,
       "wiki": "Teide National Park",
       "summary": "Spain's highest peak, 3,715 m, rising from a vast volcanic crater.",
       "expect": "Cable car to near the top; summit permit needed for the last stretch.",
@@ -109,13 +109,21 @@
         "Cable car to near the top; summit permit needed for the last stretch.",
         "Book the cable car and permit online."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17273,
+          "period": "202511-202610",
+          "title": "Teide National Park",
+          "url": "https://en.wikipedia.org/wiki/Teide_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tenerife-tfe-stargazing",
       "name": "Teide stargazing",
       "kind": "see",
-      "lat": 28.2995,
+      "lat": 28.3,
       "lon": -16.5097,
       "wiki": "Teide Observatory",
       "summary": "Some of Europe's clearest skies, with guided telescope tours.",
@@ -156,14 +164,22 @@
         "Cold at night; bring layers.",
         "Join a sunset-and-stars tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12859,
+          "period": "202511-202610",
+          "title": "Teide Observatory",
+          "url": "https://en.wikipedia.org/wiki/Teide_Observatory",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tenerife-tfe-masca",
       "name": "Masca village and gorge",
       "kind": "see",
-      "lat": 28.3067,
-      "lon": -16.8414,
+      "lat": 28.30528,
+      "lon": -16.84028,
       "wiki": "Masca",
       "summary": "A tiny village clinging to a ravine in the Teno mountains.",
       "expect": "The gorge hike needs booking; the road is twisty.",
@@ -204,14 +220,22 @@
         "The gorge hike needs booking; the road is twisty.",
         "Drive slowly, go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30571,
+          "period": "202511-202610",
+          "title": "Masca",
+          "url": "https://en.wikipedia.org/wiki/Masca",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tenerife-tfe-gigantes",
       "name": "Los Gigantes cliffs",
       "kind": "see",
-      "lat": 28.2464,
-      "lon": -16.8411,
+      "lat": 28.29639,
+      "lon": -16.85583,
       "wiki": "Acantilados de Los Gigantes",
       "summary": "Sheer 600 m cliffs best seen from a boat.",
       "expect": "Boat trips include dolphin and whale watching.",
@@ -251,14 +275,22 @@
         "Boat trips include dolphin and whale watching.",
         "Pick a small boat with a swim stop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3679,
+          "period": "202511-202610",
+          "title": "Acantilados de Los Gigantes",
+          "url": "https://en.wikipedia.org/wiki/Acantilados_de_Los_Gigantes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tenerife-tfe-laguna",
       "name": "San Cristóbal de La Laguna",
       "kind": "see",
-      "lat": 28.4874,
-      "lon": -16.3159,
+      "lat": 28.48528,
+      "lon": -16.31667,
       "wiki": "San Cristóbal de La Laguna",
       "summary": "A UNESCO colonial town whose grid inspired cities across Latin America.",
       "expect": "Pedestrian streets and cafés.",
@@ -299,7 +331,15 @@
         "Pedestrian streets and cafés.",
         "Visit the cathedral and Plaza del Adelantado."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 46134,
+          "period": "202511-202610",
+          "title": "San Cristóbal de La Laguna",
+          "url": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_La_Laguna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tenerife-tfe-anaga",
@@ -352,8 +392,8 @@
       "id": "tenerife-tfe-loro",
       "name": "Loro Parque",
       "kind": "see",
-      "lat": 28.4091,
-      "lon": -16.5642,
+      "lat": 28.40833,
+      "lon": -16.56417,
       "wiki": "Loro Parque",
       "summary": "A big zoo with parrots, penguins and orcas.",
       "expect": "Allow most of a day.",
@@ -392,7 +432,15 @@
         "Allow most of a day.",
         "Arrive at opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 31703,
+          "period": "202511-202610",
+          "title": "Loro Parque",
+          "url": "https://en.wikipedia.org/wiki/Loro_Parque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tenerife-tfe-papas",
@@ -568,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -71,8 +71,8 @@
       "id": "pisa-psa-tower",
       "name": "Leaning Tower",
       "kind": "see",
-      "lat": 43.723,
-      "lon": 10.3966,
+      "lat": 43.72306,
+      "lon": 10.39639,
       "wiki": "Leaning Tower of Pisa",
       "summary": "Climb 251 steps up the famous tilted bell tower.",
       "expect": "Timed slots; no bags.",
@@ -114,14 +114,22 @@
         "Timed slots; no bags.",
         "Book online a few days ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 591775,
+          "period": "202511-202610",
+          "title": "Leaning Tower of Pisa",
+          "url": "https://en.wikipedia.org/wiki/Leaning_Tower_of_Pisa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pisa-psa-duomo",
       "name": "Cathedral and Baptistery",
       "kind": "see",
-      "lat": 43.7233,
-      "lon": 10.3955,
+      "lat": 43.72328,
+      "lon": 10.39584,
       "wiki": "Pisa Cathedral",
       "summary": "Romanesque cathedral and the largest baptistery in Italy, with a singing echo.",
       "expect": "Combined tickets.",
@@ -162,14 +170,22 @@
         "Combined tickets.",
         "Wait for the baptistery echo demonstration."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 53304,
+          "period": "202511-202610",
+          "title": "Pisa Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Pisa_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pisa-psa-camposanto",
       "name": "Camposanto",
       "kind": "see",
-      "lat": 43.7239,
-      "lon": 10.3947,
+      "lat": 43.724,
+      "lon": 10.395,
       "wiki": "Camposanto Monumentale",
       "summary": "A marble cloister cemetery with restored medieval frescoes.",
       "expect": "Quiet compared to the square.",
@@ -209,14 +225,22 @@
         "Quiet compared to the square.",
         "See the Triumph of Death fresco."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17584,
+          "period": "202511-202610",
+          "title": "Camposanto Monumentale",
+          "url": "https://en.wikipedia.org/wiki/Camposanto_Monumentale",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pisa-psa-cavalieri",
       "name": "Piazza dei Cavalieri",
       "kind": "see",
-      "lat": 43.7194,
-      "lon": 10.4004,
+      "lat": 43.71943,
+      "lon": 10.40005,
       "wiki": "Piazza dei Cavalieri",
       "summary": "A Renaissance square with the sgraffito palace of the Scuola Normale.",
       "expect": "Student life all around.",
@@ -256,14 +280,22 @@
         "Student life all around.",
         "Walk here from the tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3163,
+          "period": "202511-202610",
+          "title": "Piazza dei Cavalieri, Pisa",
+          "url": "https://en.wikipedia.org/wiki/Piazza_dei_Cavalieri%2C_Pisa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pisa-psa-arno",
       "name": "Lungarno and Santa Maria della Spina",
       "kind": "see",
-      "lat": 43.7146,
-      "lon": 10.3991,
+      "lat": 43.71528,
+      "lon": 10.39639,
       "wiki": "Santa Maria della Spina",
       "summary": "A tiny Gothic church on the river and pastel palazzi along the Arno.",
       "expect": "Lovely at sunset.",
@@ -302,14 +334,22 @@
         "Lovely at sunset.",
         "Stroll at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3651,
+          "period": "202511-202610",
+          "title": "Santa Maria della Spina",
+          "url": "https://en.wikipedia.org/wiki/Santa_Maria_della_Spina",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pisa-psa-lucca",
       "name": "Lucca day trip",
       "kind": "see",
-      "lat": 43.8429,
-      "lon": 10.5027,
+      "lat": 43.84167,
+      "lon": 10.50278,
       "wiki": "Lucca",
       "summary": "A walled town where you can cycle the tree-lined ramparts.",
       "expect": "30 minutes by train.",
@@ -350,7 +390,15 @@
         "30 minutes by train.",
         "Rent a bike for the walls."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 196833,
+          "period": "202511-202610",
+          "title": "Lucca",
+          "url": "https://en.wikipedia.org/wiki/Lucca",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pisa-psa-cecina",
@@ -524,5 +572,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -65,8 +65,8 @@
       "id": "valletta-vlt-cocathedral",
       "name": "St John's Co-Cathedral",
       "kind": "see",
-      "lat": 35.8977,
-      "lon": 14.5126,
+      "lat": 35.89778,
+      "lon": 14.51278,
       "wiki": "St. John's Co-Cathedral",
       "summary": "A plain facade hiding a dazzling gilded interior and Caravaggio's Beheading of St John.",
       "expect": "Shoulders covered; no heels.",
@@ -106,14 +106,22 @@
         "Shoulders covered; no heels.",
         "Go at opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29223,
+          "period": "202511-202610",
+          "title": "St John's Co-Cathedral",
+          "url": "https://en.wikipedia.org/wiki/St_John's_Co-Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "valletta-vlt-barrakka",
       "name": "Upper Barrakka Gardens",
       "kind": "see",
-      "lat": 35.8947,
-      "lon": 14.5122,
+      "lat": 35.89472,
+      "lon": 14.51222,
       "wiki": "Upper Barrakka Gardens",
       "summary": "Arcaded gardens with the best view of the Grand Harbour; a cannon fires at noon.",
       "expect": "Free.",
@@ -153,14 +161,22 @@
         "Free.",
         "Be there at 12:00 for the gun salute."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13063,
+          "period": "202511-202610",
+          "title": "Upper Barrakka Gardens",
+          "url": "https://en.wikipedia.org/wiki/Upper_Barrakka_Gardens",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "valletta-vlt-threecities",
       "name": "Three Cities",
       "kind": "see",
-      "lat": 35.8869,
-      "lon": 14.5226,
+      "lat": 35.89462,
+      "lon": 14.51348,
       "wiki": "Three Cities",
       "summary": "Older fortified towns across the harbour, reached by a traditional dgħajsa boat.",
       "expect": "Quieter than Valletta.",
@@ -199,15 +215,14 @@
       "tradeoffs": [
         "Quieter than Valletta.",
         "Take the water taxi across."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "valletta-vlt-mdina",
       "name": "Mdina",
       "kind": "see",
-      "lat": 35.8857,
-      "lon": 14.4031,
+      "lat": 35.88583,
+      "lon": 14.40306,
       "wiki": "Mdina",
       "summary": "A silent walled hilltop city, Malta's old capital.",
       "expect": "30 minutes by bus.",
@@ -248,14 +263,22 @@
         "30 minutes by bus.",
         "Visit at dusk when it's quiet."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 123146,
+          "period": "202511-202610",
+          "title": "Mdina",
+          "url": "https://en.wikipedia.org/wiki/Mdina",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "valletta-vlt-hypogeum",
       "name": "Ħal Saflieni Hypogeum",
       "kind": "see",
-      "lat": 35.8694,
-      "lon": 14.5072,
+      "lat": 35.86958,
+      "lon": 14.50681,
       "wiki": "Ħal Saflieni Hypogeum",
       "summary": "A 5,000-year-old underground temple and burial site.",
       "expect": "Only 80 visitors a day; book weeks ahead.",
@@ -294,7 +317,15 @@
         "Only 80 visitors a day; book weeks ahead.",
         "Book as soon as you have dates."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 73718,
+          "period": "202511-202610",
+          "title": "Ħal Saflieni Hypogeum",
+          "url": "https://en.wikipedia.org/wiki/%C4%A6al_Saflieni_Hypogeum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "valletta-vlt-blue-lagoon",
@@ -346,8 +377,8 @@
       "id": "valletta-vlt-gozo",
       "name": "Gozo day trip",
       "kind": "see",
-      "lat": 36.0443,
-      "lon": 14.2394,
+      "lat": 36.05,
+      "lon": 14.25,
       "wiki": "Gozo",
       "summary": "Malta's greener sister island with the Citadel of Victoria and Ġgantija temples.",
       "expect": "25-minute ferry from Ċirkewwa.",
@@ -388,7 +419,15 @@
         "25-minute ferry from Ċirkewwa.",
         "Rent a car or hop-on bus."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 180929,
+          "period": "202511-202610",
+          "title": "Gozo",
+          "url": "https://en.wikipedia.org/wiki/Gozo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "valletta-vlt-pastizzi",
@@ -561,5 +600,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

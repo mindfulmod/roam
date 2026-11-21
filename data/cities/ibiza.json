@@ -76,8 +76,8 @@
       "id": "ibiza-ibz-daltvila",
       "name": "Dalt Vila",
       "kind": "see",
-      "lat": 38.9067,
-      "lon": 1.4362,
+      "lat": 38.90739,
+      "lon": 1.43579,
       "wiki": "Dalt Vila",
       "summary": "Renaissance walls wrapping a hilltop old town with a cathedral and sea views.",
       "expect": "Steep cobbles; wear good shoes.",
@@ -118,15 +118,14 @@
       "tradeoffs": [
         "Steep cobbles; wear good shoes.",
         "Walk up at golden hour."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ibiza-ibz-cala-comte",
       "name": "Cala Comte sunset",
       "kind": "see",
-      "lat": 38.9637,
-      "lon": 1.2219,
+      "lat": 38.9625,
+      "lon": 1.22028,
       "wiki": "Cala Comte",
       "summary": "Turquoise shallows and rocky islets facing the island's best sunset.",
       "expect": "Busy in summer; arrive early.",
@@ -166,14 +165,22 @@
         "Busy in summer; arrive early.",
         "Bring a towel and stay for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5418,
+          "period": "202511-202610",
+          "title": "Cala Comte",
+          "url": "https://en.wikipedia.org/wiki/Cala_Comte",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ibiza-ibz-es-vedra",
       "name": "Es Vedrà viewpoint",
       "kind": "see",
-      "lat": 38.8728,
-      "lon": 1.2132,
+      "lat": 38.86694,
+      "lon": 1.19944,
       "wiki": "Es Vedrà",
       "summary": "A towering limestone islet wrapped in myth, seen from the cliffs at Torre des Savinar.",
       "expect": "A short hike from the car park.",
@@ -214,14 +221,22 @@
         "A short hike from the car park.",
         "Go for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32367,
+          "period": "202511-202610",
+          "title": "Es Vedrà",
+          "url": "https://en.wikipedia.org/wiki/Es_Vedr%C3%A0",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ibiza-ibz-ses-salines",
       "name": "Ses Salines",
       "kind": "see",
-      "lat": 38.8417,
-      "lon": 1.3856,
+      "lat": 38.85332,
+      "lon": 1.39156,
       "wiki": "Ses Salines Natural Park",
       "summary": "Salt flats, flamingos and a long sandy beach in a protected park.",
       "expect": "Beach clubs at one end; wild dunes at the other.",
@@ -259,8 +274,7 @@
       "tradeoffs": [
         "Beach clubs at one end; wild dunes at the other.",
         "Walk to Es Cavallet for calmer sand."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ibiza-ibz-clubs",
@@ -306,14 +320,23 @@
         "Tickets €50-120; nights run till dawn.",
         "Book big nights ahead online."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 516567,
+          "period": "202511-202610",
+          "title": "Ibiza",
+          "url": "https://en.wikipedia.org/wiki/Ibiza",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ibiza-ibz-las-dalias",
       "name": "Las Dalias hippy market",
       "kind": "see",
-      "lat": 39.0331,
-      "lon": 1.5345,
+      "lat": 39.034,
+      "lon": 1.565,
       "wiki": "Sant Carles de Peralta",
       "summary": "Ibiza's hippy heritage: crafts, clothes and music, plus a night market in summer.",
       "expect": "Saturdays all year; night market on summer evenings.",
@@ -352,7 +375,15 @@
         "Saturdays all year; night market on summer evenings.",
         "Combine with nearby Cala Llenya."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1883,
+          "period": "202511-202610",
+          "title": "Sant Carles de Peralta",
+          "url": "https://en.wikipedia.org/wiki/Sant_Carles_de_Peralta",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ibiza-ibz-santa-gertrudis",
@@ -398,14 +429,23 @@
         "Slow pace; cafés on the square.",
         "Lunch in Santa Gertrudis."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3701,
+          "period": "202511-202610",
+          "title": "Santa Gertrudis de Fruitera",
+          "url": "https://en.wikipedia.org/wiki/Santa_Gertrudis_de_Fruitera",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ibiza-ibz-formentera",
       "name": "Formentera day trip",
       "kind": "see",
-      "lat": 38.7071,
-      "lon": 1.4378,
+      "lat": 38.7,
+      "lon": 1.45,
       "wiki": "Formentera",
       "summary": "A 30-minute ferry to Caribbean-clear water at Ses Illetes.",
       "expect": "Ferries from Ibiza Town; rent a bike or scooter there.",
@@ -444,7 +484,15 @@
         "Ferries from Ibiza Town; rent a bike or scooter there.",
         "Go early to beat the crowds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 70978,
+          "period": "202511-202610",
+          "title": "Formentera",
+          "url": "https://en.wikipedia.org/wiki/Formentera",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ibiza-ibz-bullit",
@@ -619,5 +667,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

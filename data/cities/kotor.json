@@ -64,8 +64,8 @@
       "id": "kotor-ktr-fortress",
       "name": "Fortress of San Giovanni",
       "kind": "see",
-      "lat": 42.4255,
-      "lon": 18.7745,
+      "lat": 42.42361,
+      "lon": 18.77194,
       "wiki": "Fortifications of Kotor",
       "summary": "Some 1,350 steps up the town walls to a fortress high above the bay.",
       "expect": "Hot and steep; go early or late.",
@@ -107,14 +107,22 @@
         "Hot and steep; go early or late.",
         "Start at dawn for cool air and light."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20218,
+          "period": "202511-202610",
+          "title": "Fortifications of Kotor",
+          "url": "https://en.wikipedia.org/wiki/Fortifications_of_Kotor",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kotor-ktr-oldtown",
       "name": "Old town",
       "kind": "see",
-      "lat": 42.4247,
-      "lon": 18.7712,
+      "lat": 42.42527,
+      "lon": 18.77198,
       "wiki": "Kotor",
       "summary": "A maze of squares, palaces and Romanesque churches inside the walls.",
       "expect": "Crowded when ships are in.",
@@ -155,14 +163,22 @@
         "Crowded when ships are in.",
         "Explore early or after ships leave."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 158252,
+          "period": "202511-202610",
+          "title": "Kotor",
+          "url": "https://en.wikipedia.org/wiki/Kotor",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kotor-ktr-tryphon",
       "name": "St Tryphon's Cathedral",
       "kind": "see",
       "lat": 42.4241,
-      "lon": 18.7714,
+      "lon": 18.7719,
       "wiki": "Kotor Cathedral",
       "summary": "A 12th-century Romanesque cathedral with frescoes and a treasury.",
       "expect": "Small fee.",
@@ -202,14 +218,22 @@
         "Small fee.",
         "Climb to the upper loggia."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10655,
+          "period": "202511-202610",
+          "title": "Kotor Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Kotor_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kotor-ktr-perast",
       "name": "Perast and Our Lady of the Rocks",
       "kind": "see",
-      "lat": 42.4867,
-      "lon": 18.6989,
+      "lat": 42.48667,
+      "lon": 18.68889,
       "wiki": "Our Lady of the Rocks",
       "summary": "A baroque village and an artificial island church reached by boat.",
       "expect": "Short boat from Perast.",
@@ -249,14 +273,22 @@
         "Short boat from Perast.",
         "Combine with a bay cruise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37630,
+          "period": "202511-202610",
+          "title": "Our Lady of the Rocks",
+          "url": "https://en.wikipedia.org/wiki/Our_Lady_of_the_Rocks",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kotor-ktr-ladder",
       "name": "Ladder of Kotor and Lovćen",
       "kind": "see",
-      "lat": 42.3995,
-      "lon": 18.8381,
+      "lat": 42.3991,
+      "lon": 18.8184,
       "wiki": "Lovćen",
       "summary": "Hairpin road up to Lovćen and the Njegoš mausoleum high above the bay.",
       "expect": "25 hairpins; drive carefully.",
@@ -298,7 +330,15 @@
         "25 hairpins; drive carefully.",
         "Stop at Njeguši for ham."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22331,
+          "period": "202511-202610",
+          "title": "Lovćen",
+          "url": "https://en.wikipedia.org/wiki/Lov%C4%87en",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kotor-ktr-blue-cave",
@@ -351,8 +391,8 @@
       "id": "kotor-ktr-budva",
       "name": "Budva old town",
       "kind": "see",
-      "lat": 42.2777,
-      "lon": 18.8382,
+      "lat": 42.28806,
+      "lon": 18.8425,
       "wiki": "Budva",
       "summary": "A walled seaside town and beaches on the open coast.",
       "expect": "Busy beach resort.",
@@ -393,7 +433,15 @@
         "Busy beach resort.",
         "Visit Sveti Stefan view nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 68304,
+          "period": "202511-202610",
+          "title": "Budva",
+          "url": "https://en.wikipedia.org/wiki/Budva",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kotor-ktr-seafood",
@@ -568,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
