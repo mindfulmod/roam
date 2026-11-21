@@ -72,8 +72,8 @@
       "id": "salento-sal-cocora",
       "name": "Cocora Valley",
       "kind": "see",
-      "lat": 4.638,
-      "lon": -75.488,
+      "lat": 4.63333,
+      "lon": -75.48333,
       "wiki": "Cocora Valley",
       "summary": "Hike among towering wax palms.",
       "expect": "Willys jeeps from the square.",
@@ -113,7 +113,15 @@
         "Willys jeeps from the square.",
         "Do the loop early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13658,
+          "period": "202511-202610",
+          "title": "Cocora Valley",
+          "url": "https://en.wikipedia.org/wiki/Cocora_Valley",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salento-sal-coffee",
@@ -160,7 +168,16 @@
         "Book or walk out.",
         "Finca El Ocaso or Don Elías."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14660,
+          "period": "202511-202610",
+          "title": "Coffee production in Colombia",
+          "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Colombia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salento-sal-mirador",
@@ -206,7 +223,16 @@
         "Free.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9133,
+          "period": "202511-202610",
+          "title": "Salento, Quindío",
+          "url": "https://en.wikipedia.org/wiki/Salento%2C_Quind%C3%ADo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salento-sal-calle",
@@ -253,14 +279,23 @@
         "Free.",
         "Afternoon stroll."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9133,
+          "period": "202511-202610",
+          "title": "Salento, Quindío",
+          "url": "https://en.wikipedia.org/wiki/Salento%2C_Quind%C3%ADo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salento-sal-filandia",
       "name": "Filandia",
       "kind": "see",
-      "lat": 4.674,
-      "lon": -75.658,
+      "lat": 4.66667,
+      "lon": -75.63333,
       "wiki": "Filandia",
       "summary": "Quieter coffee town with a tall lookout tower.",
       "expect": "Bus.",
@@ -300,7 +335,15 @@
         "Bus.",
         "Go for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6132,
+          "period": "202511-202610",
+          "title": "Filandia, Quindío",
+          "url": "https://en.wikipedia.org/wiki/Filandia%2C_Quind%C3%ADo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salento-sal-tejo",
@@ -346,7 +389,16 @@
         "Bars.",
         "Play with a beer."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29681,
+          "period": "202511-202610",
+          "title": "Tejo (sport)",
+          "url": "https://en.wikipedia.org/wiki/Tejo_(sport)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salento-sal-trout",
@@ -519,5 +571,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

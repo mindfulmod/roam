@@ -71,8 +71,8 @@
       "id": "colonia-col-barrio",
       "name": "Barrio Histórico",
       "kind": "see",
-      "lat": -34.472,
-      "lon": -57.851,
+      "lat": -34.47139,
+      "lon": -57.84417,
       "wiki": "Historic Quarter of the City of Colonia del Sacramento",
       "summary": "Cobbled Portuguese and Spanish colonial streets.",
       "expect": "Free.",
@@ -112,7 +112,15 @@
         "Free.",
         "Morning before ferries arrive."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 53482,
+          "period": "202511-202610",
+          "title": "Colonia del Sacramento",
+          "url": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colonia-col-suspiros",
@@ -159,14 +167,23 @@
         "Free.",
         "Early light."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1332,
+          "period": "202511-202610",
+          "title": "Calle de los Suspiros",
+          "url": "https://en.wikipedia.org/wiki/Calle_de_los_Suspiros",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colonia-col-lighthouse",
       "name": "Colonia lighthouse",
       "kind": "see",
-      "lat": -34.473,
-      "lon": -57.853,
+      "lat": -34.47286,
+      "lon": -57.85233,
       "wiki": "Faro de Colonia del Sacramento",
       "summary": "Lighthouse amid convent ruins.",
       "expect": "Small fee.",
@@ -206,14 +223,22 @@
         "Small fee.",
         "Sunset climb."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 844,
+          "period": "202511-202610",
+          "title": "Colonia del Sacramento Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento_Lighthouse",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colonia-col-porton",
       "name": "Portón de Campo",
       "kind": "see",
-      "lat": -34.471,
-      "lon": -57.848,
+      "lat": -34.4727,
+      "lon": -57.85045,
       "wiki": "Portón de Campo",
       "summary": "Reconstructed city gate and drawbridge.",
       "expect": "Free.",
@@ -251,8 +276,7 @@
       "tradeoffs": [
         "Free.",
         "Start here."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "colonia-col-sancarlos",
@@ -305,8 +329,8 @@
       "id": "colonia-col-ferrando",
       "name": "Playa Ferrando",
       "kind": "see",
-      "lat": -34.477,
-      "lon": -57.827,
+      "lat": -34.47295,
+      "lon": -57.83272,
       "wiki": "Colonia del Sacramento",
       "summary": "Quiet river beach.",
       "expect": "Free.",
@@ -345,7 +369,15 @@
         "Free.",
         "Sunset picnic."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 53482,
+          "period": "202511-202610",
+          "title": "Colonia del Sacramento",
+          "url": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colonia-col-chivito",
@@ -519,5 +551,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

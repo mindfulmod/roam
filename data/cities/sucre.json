@@ -73,8 +73,8 @@
       "id": "sucre-suc-libertad",
       "name": "Casa de la Libertad",
       "kind": "see",
-      "lat": -19.048,
-      "lon": -65.26,
+      "lat": -19.04745,
+      "lon": -65.26019,
       "wiki": "Casa de la Libertad",
       "summary": "Where Bolivia's independence was signed in 1825.",
       "expect": "Guided tours.",
@@ -112,8 +112,7 @@
       "tradeoffs": [
         "Guided tours.",
         "Ask for English."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sucre-suc-recoleta",
@@ -166,8 +165,8 @@
       "id": "sucre-suc-cretacico",
       "name": "Parque Cretácico",
       "kind": "see",
-      "lat": -19.004,
-      "lon": -65.274,
+      "lat": -19.0028,
+      "lon": -65.2372,
       "wiki": "Cal Orck'o",
       "summary": "Cliff with thousands of dinosaur footprints.",
       "expect": "Paid; bus from the centre.",
@@ -207,14 +206,22 @@
         "Paid; bus from the centre.",
         "Noon tour lets you get closer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7905,
+          "period": "202511-202610",
+          "title": "Cal Orck'o",
+          "url": "https://en.wikipedia.org/wiki/Cal_Orck'o",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sucre-suc-tarabuco",
       "name": "Tarabuco Sunday market",
       "kind": "see",
-      "lat": -19.18,
-      "lon": -64.915,
+      "lat": -19.16667,
+      "lon": -64.91667,
       "wiki": "Tarabuco",
       "summary": "Indigenous market famous for weavings.",
       "expect": "Sundays only.",
@@ -254,7 +261,15 @@
         "Sundays only.",
         "Bus early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2132,
+          "period": "202511-202610",
+          "title": "Tarabuco",
+          "url": "https://en.wikipedia.org/wiki/Tarabuco",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sucre-suc-asur",
@@ -301,14 +316,23 @@
         "Small fee.",
         "Watch weavers at work."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 126761,
+          "period": "202511-202610",
+          "title": "Sucre",
+          "url": "https://en.wikipedia.org/wiki/Sucre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sucre-suc-cathedral",
       "name": "Metropolitan Cathedral",
       "kind": "see",
-      "lat": -19.0475,
-      "lon": -65.26,
+      "lat": -19.04861,
+      "lon": -65.26028,
       "wiki": "Sucre Cathedral",
       "summary": "Renaissance-baroque cathedral on the main square.",
       "expect": "Small fee for museum.",
@@ -348,7 +372,15 @@
         "Small fee for museum.",
         "Climb the tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1559,
+          "period": "202511-202610",
+          "title": "Metropolitan Cathedral of Sucre",
+          "url": "https://en.wikipedia.org/wiki/Metropolitan_Cathedral_of_Sucre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sucre-suc-saltenas",
@@ -522,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -73,8 +73,8 @@
       "id": "salta-sla-plaza",
       "name": "Plaza 9 de Julio and Cathedral",
       "kind": "see",
-      "lat": -24.7887,
-      "lon": -65.41,
+      "lat": -24.78833,
+      "lon": -65.41028,
       "wiki": "Salta Cathedral",
       "summary": "Arcaded main square with the pink cathedral and San Francisco church nearby.",
       "expect": "Free.",
@@ -114,14 +114,22 @@
         "Free.",
         "Evening lights."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1398,
+          "period": "202511-202610",
+          "title": "Salta Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Salta_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salta-sla-maam",
       "name": "MAAM museum",
       "kind": "see",
-      "lat": -24.7895,
-      "lon": -65.411,
+      "lat": -24.789,
+      "lon": -65.41104,
       "wiki": "Museum of High Altitude Archaeology",
       "summary": "Inca child mummies found on Llullaillaco volcano.",
       "expect": "Paid.",
@@ -161,14 +169,22 @@
         "Paid.",
         "One mummy is shown at a time."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8354,
+          "period": "202511-202610",
+          "title": "Museum of High Altitude Archaeology",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_High_Altitude_Archaeology",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salta-sla-bernardo",
       "name": "Cerro San Bernardo",
       "kind": "see",
-      "lat": -24.788,
-      "lon": -65.399,
+      "lat": -24.78936,
+      "lon": -65.39259,
       "wiki": "Cerro San Bernardo",
       "summary": "Cable car to gardens and a city view.",
       "expect": "Paid cable car.",
@@ -206,15 +222,14 @@
       "tradeoffs": [
         "Paid cable car.",
         "Walk down the steps."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "salta-sla-cafayate",
       "name": "Quebrada de las Conchas and Cafayate",
       "kind": "see",
-      "lat": -26.073,
-      "lon": -65.976,
+      "lat": -26.00778,
+      "lon": -66.03306,
       "wiki": "Quebrada de las Conchas",
       "summary": "Red rock canyon road to the wine town of Cafayate.",
       "expect": "Long day.",
@@ -254,15 +269,23 @@
         "Long day.",
         "Stay overnight in Cafayate."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5521,
+          "period": "202511-202610",
+          "title": "Calchaquí Valley",
+          "url": "https://en.wikipedia.org/wiki/Calchaqu%C3%AD_Valley",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salta-sla-purmamarca",
       "name": "Purmamarca and Humahuaca",
       "kind": "see",
-      "lat": -23.745,
-      "lon": -65.499,
+      "lat": -23.73333,
+      "lon": -65.48333,
       "wiki": "Purmamarca",
       "summary": "Hill of Seven Colours and the Quebrada de Humahuaca.",
       "expect": "Long day.",
@@ -302,15 +325,23 @@
         "Long day.",
         "Morning light on the hill."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4849,
+          "period": "202511-202610",
+          "title": "Purmamarca",
+          "url": "https://en.wikipedia.org/wiki/Purmamarca",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salta-sla-sanlorenzo",
       "name": "San Lorenzo",
       "kind": "see",
-      "lat": -24.73,
-      "lon": -65.486,
+      "lat": -24.731,
+      "lon": -65.48705,
       "wiki": "San Lorenzo, Salta",
       "summary": "Green hill village with a forest walk.",
       "expect": "Free.",
@@ -348,8 +379,7 @@
       "tradeoffs": [
         "Free.",
         "Quebrada de San Lorenzo trail."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "salta-sla-empanadas",
@@ -525,5 +555,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

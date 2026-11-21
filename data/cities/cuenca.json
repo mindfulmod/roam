@@ -118,8 +118,8 @@
       "id": "cuenca-cue-pumapungo",
       "name": "Pumapungo Museum",
       "kind": "see",
-      "lat": -2.906,
-      "lon": -78.997,
+      "lat": -2.90614,
+      "lon": -78.99684,
       "wiki": "Pumapungo",
       "summary": "Inca ruins, aviary and ethnography museum.",
       "expect": "Free.",
@@ -158,15 +158,14 @@
       "tradeoffs": [
         "Free.",
         "Gardens behind."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cuenca-cue-cajas",
       "name": "Cajas National Park",
       "kind": "see",
-      "lat": -2.784,
-      "lon": -79.223,
+      "lat": -2.84611,
+      "lon": -79.22028,
       "wiki": "Cajas National Park",
       "summary": "Highland páramo with hundreds of lakes.",
       "expect": "Cold and wet.",
@@ -206,7 +205,15 @@
         "Cold and wet.",
         "Toreadora lake loop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4511,
+          "period": "202511-202610",
+          "title": "El Cajas National Park",
+          "url": "https://en.wikipedia.org/wiki/El_Cajas_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cuenca-cue-hats",
@@ -253,14 +260,23 @@
         "Free tours.",
         "Homero Ortega."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 91130,
+          "period": "202511-202610",
+          "title": "Panama hat",
+          "url": "https://en.wikipedia.org/wiki/Panama_hat",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cuenca-cue-turi",
       "name": "Mirador de Turi",
       "kind": "see",
-      "lat": -2.923,
-      "lon": -79.004,
+      "lat": -2.92232,
+      "lon": -79.01007,
       "wiki": "Cuenca, Ecuador",
       "summary": "Lookout over the domes and red roofs.",
       "expect": "Free.",
@@ -299,14 +315,22 @@
         "Free.",
         "Night view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 73676,
+          "period": "202511-202610",
+          "title": "Cuenca, Ecuador",
+          "url": "https://en.wikipedia.org/wiki/Cuenca%2C_Ecuador",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cuenca-cue-ingapirca",
       "name": "Ingapirca",
       "kind": "see",
-      "lat": -2.543,
-      "lon": -78.877,
+      "lat": -2.54859,
+      "lon": -78.87188,
       "wiki": "Ingapirca",
       "summary": "Ecuador's largest Inca ruins with a sun temple.",
       "expect": "Half day.",
@@ -345,7 +369,15 @@
         "Half day.",
         "Guide included."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9774,
+          "period": "202511-202610",
+          "title": "Ingapirca",
+          "url": "https://en.wikipedia.org/wiki/Ingapirca",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cuenca-cue-hornado",
@@ -518,5 +550,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
