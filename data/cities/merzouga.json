@@ -70,8 +70,8 @@
       "id": "merzouga-mer-camel",
       "name": "Erg Chebbi camel trek",
       "kind": "see",
-      "lat": 31.15,
-      "lon": -3.98,
+      "lat": 31.16667,
+      "lon": -3.98333,
       "wiki": "Erg Chebbi",
       "summary": "A camel ride into the dunes at sunset, with views from a high ridge.",
       "expect": "Wear a scarf against sand.",
@@ -112,7 +112,15 @@
         "Wear a scarf against sand.",
         "Climb a dune on foot for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21587,
+          "period": "202511-202610",
+          "title": "Erg Chebbi",
+          "url": "https://en.wikipedia.org/wiki/Erg_Chebbi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "merzouga-mer-camp",
@@ -161,7 +169,16 @@
         "Camps vary from basic to luxury.",
         "Step away from camp lights to stargaze."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 555104,
+          "period": "202511-202610",
+          "title": "Sahara",
+          "url": "https://en.wikipedia.org/wiki/Sahara",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "merzouga-mer-sandboard",
@@ -207,14 +224,23 @@
         "Camps often lend boards.",
         "Climb high for a long run."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 18491,
+          "period": "202511-202610",
+          "title": "Sandboarding",
+          "url": "https://en.wikipedia.org/wiki/Sandboarding",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "merzouga-mer-khamlia",
       "name": "Khamlia Gnawa village",
       "kind": "see",
-      "lat": 31.056,
-      "lon": -4.006,
+      "lat": 31.0351,
+      "lon": -4.0073,
       "wiki": "Khamlia",
       "summary": "A village of Gnawa musicians whose ancestors came from West Africa.",
       "expect": "Music and tea for a donation.",
@@ -254,14 +280,22 @@
         "Music and tea for a donation.",
         "Join the dancing."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2153,
+          "period": "202511-202610",
+          "title": "Khamlia",
+          "url": "https://en.wikipedia.org/wiki/Khamlia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "merzouga-mer-rissani",
       "name": "Rissani market",
       "kind": "see",
-      "lat": 31.277,
-      "lon": -4.264,
+      "lat": 31.28595,
+      "lon": -4.27509,
       "wiki": "Rissani",
       "summary": "A traditional market town with a 'donkey parking' and spice stalls.",
       "expect": "Main market days are Sunday, Tuesday and Thursday.",
@@ -301,13 +335,21 @@
         "Main market days are Sunday, Tuesday and Thursday.",
         "Go on Sunday."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10200,
+          "period": "202511-202610",
+          "title": "Rissani",
+          "url": "https://en.wikipedia.org/wiki/Rissani",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "merzouga-mer-todra",
       "name": "Todra Gorge",
       "kind": "see",
-      "lat": 31.589,
+      "lat": 31.59,
       "lon": -5.59,
       "wiki": "Todgha Gorge",
       "summary": "Sheer 300 m canyon walls closing in on a river.",
@@ -348,8 +390,16 @@
         "On the route from Marrakech.",
         "Walk the narrowest section."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9499,
+          "period": "202511-202610",
+          "title": "Todgha Gorge",
+          "url": "https://en.wikipedia.org/wiki/Todgha_Gorge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "merzouga-mer-madfouna",
@@ -522,5 +572,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

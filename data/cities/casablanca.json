@@ -71,8 +71,8 @@
       "id": "casablanca-casa-hassan",
       "name": "Hassan II Mosque",
       "kind": "see",
-      "lat": 33.6084,
-      "lon": -7.6326,
+      "lat": 33.6085,
+      "lon": -7.6327,
       "wiki": "Hassan II Mosque",
       "summary": "A huge mosque on the ocean with a 210 m minaret and a hall for 25,000.",
       "expect": "Guided tours for non-Muslims outside prayer times.",
@@ -113,14 +113,22 @@
         "Guided tours for non-Muslims outside prayer times.",
         "Book the guided tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 101294,
+          "period": "202511-202610",
+          "title": "Hassan II Mosque",
+          "url": "https://en.wikipedia.org/wiki/Hassan_II_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "casablanca-casa-corniche",
       "name": "Ain Diab corniche",
       "kind": "see",
-      "lat": 33.592,
-      "lon": -7.67,
+      "lat": 33.5895,
+      "lon": -7.6741,
       "wiki": "Ain Diab",
       "summary": "A seafront promenade of beach clubs and cafés.",
       "expect": "Lively at sunset.",
@@ -159,7 +167,15 @@
         "Lively at sunset.",
         "Walk from the mosque."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2536,
+          "period": "202511-202610",
+          "title": "Ain Diab",
+          "url": "https://en.wikipedia.org/wiki/Ain_Diab",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "casablanca-casa-habous",
@@ -212,8 +228,8 @@
       "id": "casablanca-casa-artdeco",
       "name": "Art Deco centre",
       "kind": "see",
-      "lat": 33.592,
-      "lon": -7.619,
+      "lat": 33.5912,
+      "lon": -7.6187,
       "wiki": "Mohammed V Square",
       "summary": "Boulevards of French-era Art Deco and Mauresque buildings.",
       "expect": "Join a Casamémoire walk.",
@@ -253,14 +269,22 @@
         "Join a Casamémoire walk.",
         "Look up at the façades."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5366,
+          "period": "202511-202610",
+          "title": "Mohammed V Square",
+          "url": "https://en.wikipedia.org/wiki/Mohammed_V_Square",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "casablanca-casa-ricks",
       "name": "Rick's Café",
       "kind": "see",
-      "lat": 33.605,
-      "lon": -7.618,
+      "lat": 33.60497,
+      "lon": -7.62036,
       "wiki": "Rick's Café",
       "summary": "A restaurant recreating the bar from the film Casablanca, with a piano.",
       "expect": "Book dinner; dress smart.",
@@ -298,15 +322,14 @@
       "tradeoffs": [
         "Book dinner; dress smart.",
         "Ask the pianist for 'As Time Goes By'."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "casablanca-casa-judaism",
       "name": "Museum of Moroccan Judaism",
       "kind": "see",
-      "lat": 33.551,
-      "lon": -7.644,
+      "lat": 33.5557,
+      "lon": -7.6424,
       "wiki": "Museum of Moroccan Judaism",
       "summary": "The Arab world's only Jewish museum, on Morocco's Jewish heritage.",
       "expect": "Small; check hours.",
@@ -345,14 +368,22 @@
         "Small; check hours.",
         "Ask staff about the community's history."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2118,
+          "period": "202511-202610",
+          "title": "Museum of Moroccan Judaism",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Moroccan_Judaism",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "casablanca-casa-rabat",
       "name": "Rabat",
       "kind": "see",
-      "lat": 34.0209,
-      "lon": -6.8416,
+      "lat": 34.02111,
+      "lon": -6.84139,
       "wiki": "Rabat",
       "summary": "Morocco's capital, with the Kasbah of the Udayas, Hassan Tower and royal mausoleum.",
       "expect": "About an hour by train.",
@@ -393,8 +424,16 @@
         "About an hour by train.",
         "Walk the Udayas kasbah."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 349019,
+          "period": "202511-202610",
+          "title": "Rabat",
+          "url": "https://en.wikipedia.org/wiki/Rabat",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "casablanca-casa-seafood",
@@ -568,5 +607,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

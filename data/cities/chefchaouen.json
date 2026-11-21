@@ -111,7 +111,16 @@
         "Respect residents' doors and privacy when photographing.",
         "Go early morning for empty lanes."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 130969,
+          "period": "202511-202610",
+          "title": "Chefchaouen",
+          "url": "https://en.wikipedia.org/wiki/Chefchaouen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chefchaouen-chef-kasbah",
@@ -205,7 +214,16 @@
         "About 30 minutes uphill.",
         "Go 45 minutes before sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 130969,
+          "period": "202511-202610",
+          "title": "Chefchaouen",
+          "url": "https://en.wikipedia.org/wiki/Chefchaouen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chefchaouen-chef-rasmaa",
@@ -251,14 +269,23 @@
         "Free.",
         "Stop on the way up to the mosque."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 130969,
+          "period": "202511-202610",
+          "title": "Chefchaouen",
+          "url": "https://en.wikipedia.org/wiki/Chefchaouen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chefchaouen-chef-akchour",
       "name": "Akchour waterfalls",
       "kind": "see",
-      "lat": 35.237,
-      "lon": -5.175,
+      "lat": 35.23898,
+      "lon": -5.16047,
       "wiki": "Akchour",
       "summary": "Hikes along a river canyon to waterfalls and the God's Bridge rock arch.",
       "expect": "Shared taxi about 45 minutes.",
@@ -298,15 +325,14 @@
       "tradeoffs": [
         "Shared taxi about 45 minutes.",
         "Wear shoes that can get wet."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "chefchaouen-chef-talassemtane",
       "name": "Talassemtane National Park",
       "kind": "see",
-      "lat": 35.15,
-      "lon": -5.15,
+      "lat": 35.13,
+      "lon": -5.08,
       "wiki": "Talassemtane National Park",
       "summary": "Cedar and fir forests with village-to-village trekking.",
       "expect": "Go with a local guide.",
@@ -346,7 +372,15 @@
         "Go with a local guide.",
         "Do a guided day hike."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3495,
+          "period": "202511-202610",
+          "title": "Talassemtane National Park",
+          "url": "https://en.wikipedia.org/wiki/Talassemtane_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "chefchaouen-chef-cheese",
@@ -520,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

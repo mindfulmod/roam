@@ -71,8 +71,8 @@
       "id": "hurghada-hrg-giftun",
       "name": "Giftun Island",
       "kind": "see",
-      "lat": 27.205,
-      "lon": 33.945,
+      "lat": 27.21667,
+      "lon": 33.93333,
       "wiki": "Giftun Islands",
       "summary": "Boat trips to snorkel reefs and relax on white island beaches.",
       "expect": "Choose a reputable operator.",
@@ -113,7 +113,15 @@
         "Choose a reputable operator.",
         "Bring reef-safe sunscreen."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6008,
+          "period": "202511-202610",
+          "title": "Giftun Islands",
+          "url": "https://en.wikipedia.org/wiki/Giftun_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hurghada-hrg-diving",
@@ -160,14 +168,23 @@
         "Many dive centres; check certifications.",
         "Try an intro dive."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 536762,
+          "period": "202511-202610",
+          "title": "Red Sea",
+          "url": "https://en.wikipedia.org/wiki/Red_Sea",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hurghada-hrg-gouna",
       "name": "El Gouna",
       "kind": "see",
-      "lat": 27.395,
-      "lon": 33.678,
+      "lat": 27.385,
+      "lon": 33.67917,
       "wiki": "El Gouna",
       "summary": "A lagoon town of canals, beaches and kitesurf spots.",
       "expect": "About 30 minutes north.",
@@ -206,14 +223,22 @@
         "About 30 minutes north.",
         "Take a lagoon boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37443,
+          "period": "202511-202610",
+          "title": "El Gouna",
+          "url": "https://en.wikipedia.org/wiki/El_Gouna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hurghada-hrg-marina",
       "name": "Hurghada Marina",
       "kind": "see",
-      "lat": 27.229,
-      "lon": 33.845,
+      "lat": 27.2287,
+      "lon": 33.84352,
       "wiki": "Hurghada",
       "summary": "A waterfront of cafés, yachts and evening strolls.",
       "expect": "Busy in the evening.",
@@ -251,8 +276,7 @@
       "tradeoffs": [
         "Busy in the evening.",
         "Dinner by the water."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hurghada-hrg-desert",
@@ -300,14 +324,23 @@
         "Choose an operator with good reviews.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 18419,
+          "period": "202511-202610",
+          "title": "Eastern Desert",
+          "url": "https://en.wikipedia.org/wiki/Eastern_Desert",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hurghada-hrg-luxor",
       "name": "Luxor day trip",
       "kind": "see",
-      "lat": 25.6872,
-      "lon": 32.6396,
+      "lat": 25.7183,
+      "lon": 32.6583,
       "wiki": "Karnak",
       "summary": "Karnak, the Valley of the Kings and more on a long day trip.",
       "expect": "About 4 hours each way.",
@@ -347,8 +380,16 @@
         "About 4 hours each way.",
         "Stay overnight if you can."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 172460,
+          "period": "202511-202610",
+          "title": "Karnak",
+          "url": "https://en.wikipedia.org/wiki/Karnak",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hurghada-hrg-seafood",
@@ -522,5 +563,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
