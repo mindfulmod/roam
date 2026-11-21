@@ -1,0 +1,689 @@
+{
+  "id": "interlaken",
+  "name": "Interlaken",
+  "country": "Switzerland",
+  "region": "Europe",
+  "lat": 46.6863,
+  "lon": 7.8632,
+  "wiki": "Interlaken",
+  "tagline": "Gateway to the Jungfrau, waterfalls and Alpine thrills",
+  "summary": "Interlaken sits between two turquoise lakes below the Eiger, Mönch and Jungfrau. It's the base for the train to Jungfraujoch, the waterfall valley of Lauterbrunnen, cliffside villages, Grindelwald's cliff walks and adventure sports like paragliding.",
+  "days": 4,
+  "bestMonths": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "Summer is best for hiking. Winter brings skiing in Grindelwald and Wengen. Clouds can hide the peaks; check webcams.",
+  "arrival": "Trains from Zurich, Bern and Lucerne take 1 to 2 hours.",
+  "gettingAround": "Mountain trains, cable cars and buses; the Berner Oberland Pass or Swiss Travel Pass saves money.",
+  "cashTip": "Cards and phone payments work almost everywhere; prices are in francs, and euros get a poor rate.",
+  "dailyBudget": [
+    150,
+    400
+  ],
+  "currency": "CHF",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Fondue, raclette, Älplermagronen and Swiss chocolate.",
+  "buyTip": "Swiss knives, watches and cowbells.",
+  "baseArea": "Interlaken, or Lauterbrunnen and Wengen for views",
+  "connections": [
+    {
+      "to": "lucerne",
+      "mode": "Train",
+      "minutes": 120,
+      "note": "Luzern–Interlaken Express."
+    },
+    {
+      "to": "zurich",
+      "mode": "Train",
+      "minutes": 120,
+      "note": "Via Bern."
+    },
+    {
+      "to": "zermatt",
+      "mode": "Train",
+      "minutes": 135,
+      "note": "Via Visp."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Interlaken on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Interlaken",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Interlaken%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Interlaken%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Lauterbrunnen",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "interlaken-int-jungfraujoch",
+      "name": "Jungfraujoch",
+      "kind": "see",
+      "lat": 46.54722,
+      "lon": 7.98056,
+      "wiki": "Jungfraujoch",
+      "summary": "The 'Top of Europe': a railway through the Eiger to a 3,454 m saddle with glacier views and an ice palace.",
+      "expect": "Expensive; book ahead and check the weather.",
+      "tip": "Go on a clear morning.",
+      "area": "Jungfrau region",
+      "duration": 8,
+      "price": [
+        200,
+        250
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Jungfraujoch%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Jungfraujoch%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Jungfraujoch%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature",
+        "Technology"
+      ],
+      "whyVisit": [
+        "The 'Top of Europe': a railway through the Eiger to a 3,454 m saddle with glacier views and an ice palace.",
+        "Europe's highest railway station."
+      ],
+      "visitFlow": [
+        "Train via Grindelwald.",
+        "Eiger Express.",
+        "Sphinx terrace."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Expensive; book ahead and check the weather.",
+        "Go on a clear morning."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 61067,
+          "period": "202511-202610",
+          "title": "Jungfraujoch",
+          "url": "https://en.wikipedia.org/wiki/Jungfraujoch",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-lauterbrunnen",
+      "name": "Lauterbrunnen valley",
+      "kind": "see",
+      "lat": 46.595,
+      "lon": 7.90745,
+      "wiki": "Lauterbrunnen",
+      "summary": "A deep valley with 72 waterfalls, including the famous Staubbach Falls.",
+      "expect": "Free to walk.",
+      "tip": "Walk to Staubbach Falls at dusk.",
+      "area": "Lauterbrunnen",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lauterbrunnen%20valley%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Lauterbrunnen%20valley%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lauterbrunnen%20valley%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A deep valley with 72 waterfalls, including the famous Staubbach Falls.",
+        "Like a fairy tale."
+      ],
+      "visitFlow": [
+        "Village.",
+        "Staubbach Falls."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free to walk.",
+        "Walk to Staubbach Falls at dusk."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 84151,
+          "period": "202511-202610",
+          "title": "Lauterbrunnen",
+          "url": "https://en.wikipedia.org/wiki/Lauterbrunnen",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-trummelbach",
+      "name": "Trümmelbach Falls",
+      "kind": "see",
+      "lat": 46.56907,
+      "lon": 7.91498,
+      "wiki": "Trümmelbach Falls",
+      "summary": "Glacier waterfalls thundering inside a mountain, reached by a lift.",
+      "expect": "Open in summer.",
+      "tip": "Wear a rain jacket.",
+      "area": "Lauterbrunnen",
+      "duration": 1,
+      "price": [
+        14,
+        14
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tr%C3%BCmmelbach%20Falls%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Tr%C3%BCmmelbach%20Falls%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tr%C3%BCmmelbach%20Falls%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Glacier waterfalls thundering inside a mountain, reached by a lift.",
+        "Waterfalls inside a mountain."
+      ],
+      "visitFlow": [
+        "Lift up.",
+        "Falls."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Open in summer.",
+        "Wear a rain jacket."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 11139,
+          "period": "202511-202610",
+          "title": "Trümmelbach Falls",
+          "url": "https://en.wikipedia.org/wiki/Tr%C3%BCmmelbach_Falls",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-first",
+      "name": "Grindelwald First",
+      "kind": "see",
+      "lat": 46.61667,
+      "lon": 8.03333,
+      "wiki": "Grindelwald",
+      "summary": "A cable car to cliff walks, zip lines and a hike to Bachalpsee lake.",
+      "expect": "Busy in summer.",
+      "tip": "Hike to Bachalpsee.",
+      "area": "Grindelwald",
+      "duration": 5,
+      "price": [
+        60,
+        70
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Grindelwald%20First%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Grindelwald%20First%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Grindelwald%20First%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A cable car to cliff walks, zip lines and a hike to Bachalpsee lake.",
+        "Big Eiger views."
+      ],
+      "visitFlow": [
+        "Gondola.",
+        "Cliff walk.",
+        "Bachalpsee hike."
+      ],
+      "bestFor": "Visitors interested in active exploration and big views",
+      "tradeoffs": [
+        "Busy in summer.",
+        "Hike to Bachalpsee."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 101545,
+          "period": "202511-202610",
+          "title": "Grindelwald",
+          "url": "https://en.wikipedia.org/wiki/Grindelwald",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-harder",
+      "name": "Harder Kulm",
+      "kind": "see",
+      "lat": 46.7,
+      "lon": 7.85,
+      "wiki": "Harder Kulm",
+      "summary": "A funicular to a viewpoint over both lakes and the Jungfrau peaks.",
+      "expect": "Ten minutes from town.",
+      "tip": "Go at sunset.",
+      "area": "Interlaken",
+      "duration": 1.5,
+      "price": [
+        38,
+        38
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Harder%20Kulm%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Harder%20Kulm%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Harder%20Kulm%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A funicular to a viewpoint over both lakes and the Jungfrau peaks.",
+        "Interlaken's balcony."
+      ],
+      "visitFlow": [
+        "Funicular.",
+        "Two Lakes Bridge."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Ten minutes from town.",
+        "Go at sunset."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 10030,
+          "period": "202511-202610",
+          "title": "Harderkulm",
+          "url": "https://en.wikipedia.org/wiki/Harderkulm",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-brienz",
+      "name": "Lake Brienz and Iseltwald",
+      "kind": "see",
+      "lat": 46.71667,
+      "lon": 7.96667,
+      "wiki": "Lake Brienz",
+      "summary": "A turquoise lake with boats to the pretty village of Iseltwald.",
+      "expect": "Iseltwald charges a small fee at its pier.",
+      "tip": "Take the boat to Giessbach falls.",
+      "area": "Lake Brienz",
+      "duration": 3,
+      "price": [
+        0,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lake%20Brienz%20and%20Iseltwald%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Lake%20Brienz%20and%20Iseltwald%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lake%20Brienz%20and%20Iseltwald%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A turquoise lake with boats to the pretty village of Iseltwald.",
+        "Impossibly blue water."
+      ],
+      "visitFlow": [
+        "Boat.",
+        "Iseltwald.",
+        "Giessbach."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Iseltwald charges a small fee at its pier.",
+        "Take the boat to Giessbach falls."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 16500,
+          "period": "202511-202610",
+          "title": "Lake Brienz",
+          "url": "https://en.wikipedia.org/wiki/Lake_Brienz",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-schilthorn",
+      "name": "Schilthorn",
+      "kind": "see",
+      "lat": 46.55722,
+      "lon": 7.83528,
+      "wiki": "Schilthorn",
+      "summary": "A revolving summit restaurant made famous by a James Bond film.",
+      "expect": "Cable cars via Mürren.",
+      "tip": "Walk around car-free Mürren.",
+      "area": "Mürren",
+      "duration": 5,
+      "price": [
+        100,
+        110
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Schilthorn%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Schilthorn%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Schilthorn%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "A revolving summit restaurant made famous by a James Bond film.",
+        "Bond-style views."
+      ],
+      "visitFlow": [
+        "Cable car.",
+        "Piz Gloria.",
+        "Mürren."
+      ],
+      "bestFor": "Visitors interested in big views and shows and nightlife",
+      "tradeoffs": [
+        "Cable cars via Mürren.",
+        "Walk around car-free Mürren."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 21254,
+          "period": "202511-202610",
+          "title": "Schilthorn",
+          "url": "https://en.wikipedia.org/wiki/Schilthorn",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-paragliding",
+      "name": "Paragliding",
+      "kind": "see",
+      "lat": 46.68836,
+      "lon": 7.86191,
+      "wiki": "Paragliding",
+      "summary": "Tandem flights from Beatenberg landing in town.",
+      "expect": "Weather-dependent.",
+      "tip": "Book for the morning.",
+      "area": "Interlaken",
+      "duration": 2,
+      "price": [
+        170,
+        200
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Paragliding%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Paragliding%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Paragliding%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Tandem flights from Beatenberg landing in town.",
+        "Fly over the Alps."
+      ],
+      "visitFlow": [
+        "Pickup.",
+        "Flight.",
+        "Landing."
+      ],
+      "bestFor": "Visitors interested in active exploration",
+      "tradeoffs": [
+        "Weather-dependent.",
+        "Book for the morning."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 156727,
+          "period": "202511-202610",
+          "title": "Paragliding",
+          "url": "https://en.wikipedia.org/wiki/Paragliding",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "interlaken-int-raclette",
+      "name": "Raclette",
+      "kind": "eat",
+      "lat": 46.686,
+      "lon": 7.86,
+      "wiki": "Raclette",
+      "summary": "Melted cheese scraped over potatoes and pickles.",
+      "expect": "Traditional chalets.",
+      "tip": "Order with white wine.",
+      "area": "Interlaken",
+      "duration": 1.5,
+      "price": [
+        30,
+        45
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Raclette%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Raclette%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Raclette%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Melted cheese scraped over potatoes and pickles.",
+        "Alpine comfort."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Traditional chalets.",
+        "Order with white wine."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Swiss",
+      "mustOrder": [
+        "Raclette"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "interlaken-int-alpler",
+      "name": "Älplermagronen",
+      "kind": "eat",
+      "lat": 46.687,
+      "lon": 7.862,
+      "wiki": "Älplermagronen",
+      "summary": "Alpine macaroni with potatoes, cheese, cream and apple sauce.",
+      "expect": "Mountain huts serve it.",
+      "tip": "Have it at a mountain hut.",
+      "area": "Interlaken",
+      "duration": 1,
+      "price": [
+        22,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=%C3%84lplermagronen%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=%C3%84lplermagronen%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=%C3%84lplermagronen%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Alpine macaroni with potatoes, cheese, cream and apple sauce.",
+        "Hikers' fuel."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Mountain huts serve it.",
+        "Have it at a mountain hut."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Swiss",
+      "mustOrder": [
+        "Älplermagronen"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "interlaken-int-chocolate",
+      "name": "Swiss chocolate",
+      "kind": "eat",
+      "lat": 46.686,
+      "lon": 7.863,
+      "wiki": "Swiss chocolate",
+      "summary": "Chocolate shops and workshops.",
+      "expect": "Some offer making classes.",
+      "tip": "Try a workshop.",
+      "area": "Interlaken",
+      "duration": 1,
+      "price": [
+        5,
+        50
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Swiss%20chocolate%2C%20Interlaken",
+        "https://www.google.com/maps/search/?api=1&query=Swiss%20chocolate%2C%20Interlaken"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Swiss%20chocolate%2C%20Interlaken"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Chocolate shops and workshops.",
+        "Sweet souvenir."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Some offer making classes.",
+        "Try a workshop."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Swiss",
+      "mustOrder": [
+        "Chocolate"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
