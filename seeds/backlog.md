@@ -2,9 +2,9 @@
 
 Cities still to add, grouped by region and ordered roughly by how many visitors they draw. Tick a city when its seed is merged. "Minor" cities are smaller places people still travel for.
 
-## Done through the pipeline (108)
+## Done through the pipeline (110)
 
-Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla, Jerusalem, Tel Aviv, Haifa, Karbala, Najaf, Mashhad, Varanasi, Amritsar, Rishikesh, Mumbai, Goa, Bodh Gaya, Udaipur, Jodhpur, Kochi, Los Angeles, Miami, Orlando, Washington, D.C., Chicago, Honolulu, New Orleans, Boston, Seattle, San Diego, Lourdes, Fátima, Santiago de Compostela, Assisi, Lumbini, Kandy, Koyasan, Ise, Ajmer.
+Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla, Jerusalem, Tel Aviv, Haifa, Karbala, Najaf, Mashhad, Varanasi, Amritsar, Rishikesh, Mumbai, Goa, Bodh Gaya, Udaipur, Jodhpur, Kochi, Los Angeles, Miami, Orlando, Washington, D.C., Chicago, Honolulu, New Orleans, Boston, Seattle, San Diego, Lourdes, Fátima, Santiago de Compostela, Assisi, Lumbini, Kandy, Koyasan, Ise, Ajmer, Lhasa, Lalibela.
 
 ## Europe
 
@@ -16,11 +16,11 @@ Minor: Sintra, Lagos (Algarve), Madeira (Funchal), Azores (Ponta Delgada), Córd
 
 Major: Yokohama, Nagoya, Kobe, Nikko, Hakone, Takayama, Okinawa (Naha), Nagasaki, Jeju, Gyeongju, Guangzhou, Shenzhen, Chengdu, Xi'an, Guilin, Hangzhou, Suzhou, Macau, Kaohsiung, Tainan, Manila, Cebu, Boracay, Palawan (El Nido), Jakarta, Yogyakarta, Bali south (Seminyak, Uluwatu), Lombok, Penang, Langkawi, Malacca, Kota Kinabalu, Pattaya, Hue, Ha Long Bay, Sapa, Nha Trang, Phu Quoc, Phnom Penh, Vientiane, Yangon, Bagan, Bengaluru, Chennai, Kolkata, Colombo, Galle, Malé (Maldives), Pokhara, Thimphu, Abu Dhabi, Doha, Muscat, Amman, Beirut, Samarkand, Bukhara, Almaty.
 
-Minor: Naoshima, Shirakawa-go, Miyajima, Kamakura, Matsumoto, Jiufen, Hualien, Zhangjiajie, Lijiang, Lhasa, Luang Namtha, Vang Vieng, Kampot, Ninh Binh, Da Lat, Ipoh, Komodo (Labuan Bajo), Darjeeling, Leh, Hampi, Munnar, Ella, Sigiriya, Wadi Rum, Aqaba, Khiva.
+Minor: Naoshima, Shirakawa-go, Miyajima, Kamakura, Matsumoto, Jiufen, Hualien, Zhangjiajie, Lijiang, Luang Namtha, Vang Vieng, Kampot, Ninh Binh, Da Lat, Ipoh, Komodo (Labuan Bajo), Darjeeling, Leh, Hampi, Munnar, Ella, Sigiriya, Wadi Rum, Aqaba, Khiva.
 
 ## Africa
 
-Major: Casablanca, Chefchaouen, Essaouira, Tangier, Merzouga (Sahara), Tunis, Alexandria, Aswan, Sharm El Sheikh, Hurghada, Johannesburg, Durban, Kruger (Hoedspruit), Garden Route (Knysna), Stellenbosch, Windhoek, Sossusvlei, Maun (Okavango), Livingstone, Serengeti, Kilimanjaro (Moshi), Dar es Salaam, Mombasa, Maasai Mara, Kigali, Kampala, Addis Ababa, Lalibela, Accra, Dakar, Mauritius, Seychelles (Mahé), Antananarivo.
+Major: Casablanca, Chefchaouen, Essaouira, Tangier, Merzouga (Sahara), Tunis, Alexandria, Aswan, Sharm El Sheikh, Hurghada, Johannesburg, Durban, Kruger (Hoedspruit), Garden Route (Knysna), Stellenbosch, Windhoek, Sossusvlei, Maun (Okavango), Livingstone, Serengeti, Kilimanjaro (Moshi), Dar es Salaam, Mombasa, Maasai Mara, Kigali, Kampala, Addis Ababa, Accra, Dakar, Mauritius, Seychelles (Mahé), Antananarivo.
 
 Minor: Lamu, Stone Town day areas, Swakopmund, Franschhoek, Hermanus, Siwa, Dahab, Ouarzazate, Djerba, Cape Coast, Bwindi.
 
