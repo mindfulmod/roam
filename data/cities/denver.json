@@ -1,0 +1,562 @@
+{
+  "id": "denver",
+  "name": "Denver",
+  "country": "United States",
+  "region": "North America",
+  "lat": 39.7392,
+  "lon": -104.9903,
+  "wiki": "Denver",
+  "tagline": "Mile High City at the foot of the Rockies",
+  "summary": "Denver is a sunny, outdoorsy city a mile above sea level, with the Rockies on the horizon. See a concert at Red Rocks Amphitheatre, explore Union Station and the craft breweries of RiNo, then head into the mountains for Rocky Mountain National Park, Boulder or ski towns.",
+  "days": 3,
+  "bestMonths": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "Summer for hiking and Red Rocks concerts; winter for skiing nearby.",
+  "arrival": "Denver International is 37 minutes from Union Station by A Line train.",
+  "gettingAround": "Light rail, buses and a car for the mountains.",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+    180,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Green chile, bison burgers and craft beer.",
+  "buyTip": "Outdoor gear at REI flagship and Western wear.",
+  "baseArea": "LoDo or Union Station",
+  "connections": [
+    {
+      "to": "chicago",
+      "mode": "Flight",
+      "minutes": 150,
+      "note": "Frequent flights."
+    },
+    {
+      "to": "las-vegas",
+      "mode": "Flight",
+      "minutes": 120,
+      "note": "Frequent flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Denver on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Denver",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Denver%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Denver%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Denver skyline Rocky Mountains",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "denver-den-redrocks",
+      "name": "Red Rocks Park and Amphitheatre",
+      "kind": "see",
+      "lat": 39.66528,
+      "lon": -105.20583,
+      "wiki": "Red Rocks Amphitheatre",
+      "summary": "Natural sandstone amphitheatre and legendary concert venue.",
+      "expect": "Free by day.",
+      "tip": "Catch a summer concert.",
+      "area": "Morrison",
+      "duration": 2,
+      "price": [
+        0,
+        150
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Red%20Rocks%20Park%20and%20Amphitheatre%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Red%20Rocks%20Park%20and%20Amphitheatre%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Red%20Rocks%20Park%20and%20Amphitheatre%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Natural sandstone amphitheatre and legendary concert venue.",
+        "Iconic venue."
+      ],
+      "visitFlow": [
+        "Amphitheatre.",
+        "Trading Post trail."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and shows and nightlife",
+      "tradeoffs": [
+        "Free by day.",
+        "Catch a summer concert."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 160177,
+          "period": "202511-202610",
+          "title": "Red Rocks Amphitheatre",
+          "url": "https://en.wikipedia.org/wiki/Red_Rocks_Amphitheatre",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "denver-den-rmnp",
+      "name": "Rocky Mountain National Park",
+      "kind": "see",
+      "lat": 40.3466,
+      "lon": -105.7364,
+      "wiki": "Rocky Mountain National Park",
+      "summary": "Alpine lakes, elk and Trail Ridge Road above 3,600 m.",
+      "expect": "Timed entry in summer.",
+      "tip": "Hike to Emerald Lake.",
+      "area": "Estes Park",
+      "duration": 10,
+      "price": [
+        30,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rocky%20Mountain%20National%20Park%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Rocky%20Mountain%20National%20Park%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rocky%20Mountain%20National%20Park%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Alpine lakes, elk and Trail Ridge Road above 3,600 m.",
+        "Mountain grandeur."
+      ],
+      "visitFlow": [
+        "Bear Lake.",
+        "Trail Ridge Road."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Timed entry in summer.",
+        "Hike to Emerald Lake."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 67753,
+          "period": "202511-202610",
+          "title": "Rocky Mountain National Park",
+          "url": "https://en.wikipedia.org/wiki/Rocky_Mountain_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "denver-den-union",
+      "name": "Union Station and LoDo",
+      "kind": "see",
+      "lat": 39.75306,
+      "lon": -105,
+      "wiki": "Denver Union Station",
+      "summary": "Restored station with bars and a lively historic district.",
+      "expect": "Free.",
+      "tip": "Have a drink in the Terminal Bar.",
+      "area": "LoDo",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Union%20Station%20and%20LoDo%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Union%20Station%20and%20LoDo%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Union%20Station%20and%20LoDo%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Restored station with bars and a lively historic district.",
+        "Denver's living room."
+      ],
+      "visitFlow": [
+        "Great Hall.",
+        "Larimer Square."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Have a drink in the Terminal Bar."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 33458,
+          "period": "202511-202610",
+          "title": "Denver Union Station",
+          "url": "https://en.wikipedia.org/wiki/Denver_Union_Station",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "denver-den-rino",
+      "name": "RiNo Art District",
+      "kind": "see",
+      "lat": 39.76567,
+      "lon": -104.97841,
+      "wiki": "River North Art District",
+      "summary": "Murals, breweries and food halls.",
+      "expect": "Free.",
+      "tip": "Visit Denver Central Market.",
+      "area": "RiNo",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=RiNo%20Art%20District%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=RiNo%20Art%20District%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=RiNo%20Art%20District%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Murals, breweries and food halls.",
+        "Street art."
+      ],
+      "visitFlow": [
+        "Murals.",
+        "Food hall."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Free.",
+        "Visit Denver Central Market."
+      ]
+    },
+    {
+      "id": "denver-den-artmuseum",
+      "name": "Denver Art Museum",
+      "kind": "see",
+      "lat": 39.73719,
+      "lon": -104.98935,
+      "wiki": "Denver Art Museum",
+      "summary": "Striking building with Western and Indigenous art.",
+      "expect": "Allow 2 hours.",
+      "tip": "See the Native Arts floor.",
+      "area": "Golden Triangle",
+      "duration": 2,
+      "price": [
+        20,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Denver%20Art%20Museum%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Denver%20Art%20Museum%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Denver%20Art%20Museum%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Striking building with Western and Indigenous art.",
+        "Art and architecture."
+      ],
+      "visitFlow": [
+        "Hamilton Building.",
+        "Native arts."
+      ],
+      "bestFor": "Visitors interested in art and craft and architecture and design",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "See the Native Arts floor."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 22390,
+          "period": "202511-202610",
+          "title": "Denver Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Denver_Art_Museum",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "denver-den-boulder",
+      "name": "Boulder and the Flatirons",
+      "kind": "see",
+      "lat": 40,
+      "lon": -105.3,
+      "wiki": "Flatirons",
+      "summary": "College town with Chautauqua trails under the Flatirons.",
+      "expect": "40 minutes' drive.",
+      "tip": "Hike Royal Arch.",
+      "area": "Boulder",
+      "duration": 5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Boulder%20and%20the%20Flatirons%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Boulder%20and%20the%20Flatirons%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Boulder%20and%20the%20Flatirons%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "College town with Chautauqua trails under the Flatirons.",
+        "Mountain town."
+      ],
+      "visitFlow": [
+        "Chautauqua.",
+        "Pearl Street."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "40 minutes' drive.",
+        "Hike Royal Arch."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 18113,
+          "period": "202511-202610",
+          "title": "The Flatirons",
+          "url": "https://en.wikipedia.org/wiki/The_Flatirons",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "denver-den-chile",
+      "name": "Green chile",
+      "kind": "eat",
+      "lat": 39.74,
+      "lon": -104.99,
+      "wiki": "New Mexico chile",
+      "summary": "Pork green chile smothering burritos.",
+      "expect": "Diners.",
+      "tip": "Order it 'smothered'.",
+      "area": "Downtown",
+      "duration": 1,
+      "price": [
+        12,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Green%20chile%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Green%20chile%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Green%20chile%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pork green chile smothering burritos.",
+        "Denver classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Diners.",
+        "Order it 'smothered'."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Southwestern",
+      "mustOrder": [
+        "Smothered burrito"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "denver-den-beer",
+      "name": "Craft breweries",
+      "kind": "eat",
+      "lat": 39.76,
+      "lon": -104.98,
+      "wiki": "Beer in Colorado",
+      "summary": "One of the top US brewing cities.",
+      "expect": "Taprooms.",
+      "tip": "Visit Great Divide.",
+      "area": "RiNo",
+      "duration": 1.5,
+      "price": [
+        8,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Craft%20breweries%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Craft%20breweries%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Craft%20breweries%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "One of the top US brewing cities.",
+        "Beer culture."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Taprooms.",
+        "Visit Great Divide."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "American",
+      "mustOrder": [
+        "Craft beer"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "denver-den-bison",
+      "name": "Bison burger",
+      "kind": "eat",
+      "lat": 39.75,
+      "lon": -105,
+      "wiki": "Bison",
+      "summary": "Lean bison burgers and steaks.",
+      "expect": "Many spots.",
+      "tip": "Try Buckhorn Exchange for history.",
+      "area": "LoDo",
+      "duration": 1.5,
+      "price": [
+        18,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bison%20burger%2C%20Denver",
+        "https://www.google.com/maps/search/?api=1&query=Bison%20burger%2C%20Denver"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bison%20burger%2C%20Denver"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Lean bison burgers and steaks.",
+        "Western fare."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Many spots.",
+        "Try Buckhorn Exchange for history."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "American",
+      "mustOrder": [
+        "Bison burger"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}

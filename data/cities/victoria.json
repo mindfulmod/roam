@@ -1,0 +1,549 @@
+{
+  "id": "victoria",
+  "name": "Victoria",
+  "country": "Canada",
+  "region": "North America",
+  "lat": 48.4284,
+  "lon": -123.3656,
+  "wiki": "Victoria, British Columbia",
+  "tagline": "Garden city of whales and afternoon tea",
+  "summary": "Victoria, British Columbia's capital on Vancouver Island, is a mild, flower-filled city around a pretty Inner Harbour. See the Butchart Gardens, take afternoon tea at the Fairmont Empress, go whale watching for orcas and explore the Royal BC Museum.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "Summer is sunny and whale season peaks May to October.",
+  "arrival": "Ferry or floatplane from Vancouver; Victoria Airport is 25 minutes away.",
+  "gettingAround": "Walk the harbour; buses and harbour ferries.",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 15 to 20 percent. Sales tax is added at the till.",
+  "dailyBudget": [
+    170,
+    400
+  ],
+  "currency": "CAD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Afternoon tea and seafood chowder.",
+  "buyTip": "Rogers' Chocolates and Indigenous art.",
+  "baseArea": "Inner Harbour or downtown",
+  "connections": [
+    {
+      "to": "vancouver",
+      "mode": "Ferry",
+      "minutes": 95,
+      "note": "BC Ferries, or a 35-minute floatplane."
+    },
+    {
+      "to": "seattle",
+      "mode": "Ferry",
+      "minutes": 165,
+      "note": "Victoria Clipper."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Victoria on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Victoria%2C_British_Columbia",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Victoria%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Victoria%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Victoria Inner Harbour",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "victoria-vic-butchart",
+      "name": "Butchart Gardens",
+      "kind": "see",
+      "lat": 48.56528,
+      "lon": -123.46944,
+      "wiki": "Butchart Gardens",
+      "summary": "World-famous gardens in a former quarry.",
+      "expect": "Allow half a day.",
+      "tip": "Go for summer evening fireworks.",
+      "area": "Brentwood Bay",
+      "duration": 3,
+      "price": [
+        35,
+        45
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Butchart%20Gardens%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Butchart%20Gardens%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Butchart%20Gardens%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "World-famous gardens in a former quarry.",
+        "Floral masterpiece."
+      ],
+      "visitFlow": [
+        "Sunken Garden.",
+        "Rose Garden.",
+        "Japanese Garden."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Allow half a day.",
+        "Go for summer evening fireworks."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 32845,
+          "period": "202511-202610",
+          "title": "Butchart Gardens",
+          "url": "https://en.wikipedia.org/wiki/Butchart_Gardens",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "victoria-vic-harbour",
+      "name": "Inner Harbour",
+      "kind": "see",
+      "lat": 48.42095,
+      "lon": -123.37401,
+      "wiki": "Inner Harbour (Victoria)",
+      "summary": "Waterfront with buskers, floatplanes and the lit Parliament.",
+      "expect": "Free.",
+      "tip": "Stay after dark for the lit Parliament.",
+      "area": "Downtown",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Inner%20Harbour%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Inner%20Harbour%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Inner%20Harbour%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Waterfront with buskers, floatplanes and the lit Parliament.",
+        "City heart."
+      ],
+      "visitFlow": [
+        "Causeway.",
+        "Parliament lights."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Stay after dark for the lit Parliament."
+      ]
+    },
+    {
+      "id": "victoria-vic-whales",
+      "name": "Whale watching",
+      "kind": "see",
+      "lat": 48.42276,
+      "lon": -123.36899,
+      "wiki": "Orca",
+      "summary": "Boat trips to see orcas and humpbacks.",
+      "expect": "3 hours.",
+      "tip": "Pick a zodiac for thrills.",
+      "area": "Harbour",
+      "duration": 3,
+      "price": [
+        130,
+        170
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Whale%20watching%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Whale%20watching%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Whale%20watching%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Boat trips to see orcas and humpbacks.",
+        "Orca encounters."
+      ],
+      "visitFlow": [
+        "Board.",
+        "Whale spotting."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "3 hours.",
+        "Pick a zodiac for thrills."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 1320668,
+          "period": "202511-202610",
+          "title": "Orca",
+          "url": "https://en.wikipedia.org/wiki/Orca",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "victoria-vic-museum",
+      "name": "Royal BC Museum",
+      "kind": "see",
+      "lat": 48.41944,
+      "lon": -123.36778,
+      "wiki": "Royal BC Museum",
+      "summary": "Natural and First Nations history with totem poles.",
+      "expect": "Allow 2 hours.",
+      "tip": "See Thunderbird Park.",
+      "area": "Downtown",
+      "duration": 2,
+      "price": [
+        30,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Royal%20BC%20Museum%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Royal%20BC%20Museum%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Royal%20BC%20Museum%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Natural and First Nations history with totem poles.",
+        "Island stories."
+      ],
+      "visitFlow": [
+        "Galleries.",
+        "Thunderbird Park."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "See Thunderbird Park."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 9291,
+          "period": "202511-202610",
+          "title": "Royal British Columbia Museum",
+          "url": "https://en.wikipedia.org/wiki/Royal_British_Columbia_Museum",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "victoria-vic-fishermans",
+      "name": "Fisherman's Wharf",
+      "kind": "see",
+      "lat": 48.42276,
+      "lon": -123.38257,
+      "wiki": "Fisherman's Wharf (Victoria)",
+      "summary": "Colourful floating homes and food shacks.",
+      "expect": "Free.",
+      "tip": "Take a harbour ferry.",
+      "area": "James Bay",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fisherman's%20Wharf%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Fisherman's%20Wharf%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fisherman's%20Wharf%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Food"
+      ],
+      "whyVisit": [
+        "Colourful floating homes and food shacks.",
+        "Quirky waterfront."
+      ],
+      "visitFlow": [
+        "Float homes.",
+        "Seals."
+      ],
+      "bestFor": "Visitors interested in architecture and design and regional food",
+      "tradeoffs": [
+        "Free.",
+        "Take a harbour ferry."
+      ]
+    },
+    {
+      "id": "victoria-vic-beaconhill",
+      "name": "Beacon Hill Park",
+      "kind": "see",
+      "lat": 48.412,
+      "lon": -123.364,
+      "wiki": "Beacon Hill Park",
+      "summary": "Seaside park with peacocks and the Mile Zero marker.",
+      "expect": "Free.",
+      "tip": "Walk Dallas Road.",
+      "area": "Fairfield",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Beacon%20Hill%20Park%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Beacon%20Hill%20Park%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Beacon%20Hill%20Park%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Seaside park with peacocks and the Mile Zero marker.",
+        "Coastal stroll."
+      ],
+      "visitFlow": [
+        "Park.",
+        "Dallas Road."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Walk Dallas Road."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 4536,
+          "period": "202511-202610",
+          "title": "Beacon Hill Park",
+          "url": "https://en.wikipedia.org/wiki/Beacon_Hill_Park",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "victoria-vic-tea",
+      "name": "Afternoon tea at the Empress",
+      "kind": "eat",
+      "lat": 48.42185,
+      "lon": -123.36797,
+      "wiki": "Fairmont Empress",
+      "summary": "Classic afternoon tea in the grand hotel.",
+      "expect": "Book ahead.",
+      "tip": "Dress smart-casual.",
+      "area": "Inner Harbour",
+      "duration": 2,
+      "price": [
+        95,
+        110
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Afternoon%20tea%20at%20the%20Empress%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Afternoon%20tea%20at%20the%20Empress%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Afternoon%20tea%20at%20the%20Empress%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Classic afternoon tea in the grand hotel.",
+        "Victoria tradition."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Book ahead.",
+        "Dress smart-casual."
+      ],
+      "venueType": "food-area",
+      "cuisine": "British",
+      "mustOrder": [
+        "Afternoon tea"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "victoria-vic-chowder",
+      "name": "Seafood chowder",
+      "kind": "eat",
+      "lat": 48.423,
+      "lon": -123.383,
+      "wiki": "Chowder",
+      "summary": "Creamy chowder and fish tacos at the wharf.",
+      "expect": "Shacks.",
+      "tip": "Try Barb's Fish & Chips.",
+      "area": "Fisherman's Wharf",
+      "duration": 1,
+      "price": [
+        15,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Seafood%20chowder%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Seafood%20chowder%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Seafood%20chowder%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Creamy chowder and fish tacos at the wharf.",
+        "Seaside lunch."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Shacks.",
+        "Try Barb's Fish & Chips."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Chowder"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "victoria-vic-chinatown",
+      "name": "Chinatown",
+      "kind": "eat",
+      "lat": 48.42936,
+      "lon": -123.36791,
+      "wiki": "Chinatown, Victoria",
+      "summary": "Canada's oldest Chinatown with Fan Tan Alley.",
+      "expect": "Free.",
+      "tip": "Grab dim sum.",
+      "area": "Chinatown",
+      "duration": 1,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chinatown%2C%20Victoria",
+        "https://www.google.com/maps/search/?api=1&query=Chinatown%2C%20Victoria"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chinatown%2C%20Victoria"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Canada's oldest Chinatown with Fan Tan Alley.",
+        "Historic eats."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Free.",
+        "Grab dim sum."
+      ],
+      "venueType": "food-area",
+      "cuisine": "Chinese",
+      "mustOrder": [
+        "Dim sum"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
