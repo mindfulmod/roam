@@ -71,8 +71,8 @@
       "id": "tunis-tun-medina",
       "name": "Medina and Zitouna Mosque",
       "kind": "see",
-      "lat": 36.7977,
-      "lon": 10.171,
+      "lat": 36.81667,
+      "lon": 10.16667,
       "wiki": "Medina of Tunis",
       "summary": "Souks around the great Zitouna Mosque.",
       "expect": "Non-Muslims see the courtyard from a gallery.",
@@ -113,14 +113,22 @@
         "Non-Muslims see the courtyard from a gallery.",
         "Mornings are calm."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25731,
+          "period": "202511-202610",
+          "title": "Medina of Tunis",
+          "url": "https://en.wikipedia.org/wiki/Medina_of_Tunis",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tunis-tun-bardo",
       "name": "Bardo National Museum",
       "kind": "see",
-      "lat": 36.809,
-      "lon": 10.134,
+      "lat": 36.80944,
+      "lon": 10.13444,
       "wiki": "Bardo National Museum (Tunis)",
       "summary": "World's greatest collection of Roman mosaics.",
       "expect": "Paid.",
@@ -160,13 +168,21 @@
         "Paid.",
         "Allow two hours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24281,
+          "period": "202511-202610",
+          "title": "Bardo National Museum (Tunis)",
+          "url": "https://en.wikipedia.org/wiki/Bardo_National_Museum_(Tunis)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tunis-tun-carthage",
       "name": "Carthage",
       "kind": "see",
-      "lat": 36.8529,
+      "lat": 36.8528,
       "lon": 10.3233,
       "wiki": "Carthage",
       "summary": "Punic and Roman ruins including the Antonine Baths.",
@@ -206,14 +222,22 @@
         "One ticket covers sites.",
         "Use the TGM train."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 843954,
+          "period": "202511-202610",
+          "title": "Carthage",
+          "url": "https://en.wikipedia.org/wiki/Carthage",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tunis-tun-sidibou",
       "name": "Sidi Bou Said",
       "kind": "see",
-      "lat": 36.87,
-      "lon": 10.341,
+      "lat": 36.87109,
+      "lon": 10.34905,
       "wiki": "Sidi Bou Said",
       "summary": "Clifftop village of blue doors and white walls.",
       "expect": "Free.",
@@ -253,14 +277,22 @@
         "Free.",
         "Sunset over the gulf."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41276,
+          "period": "202511-202610",
+          "title": "Sidi Bou Said",
+          "url": "https://en.wikipedia.org/wiki/Sidi_Bou_Said",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tunis-tun-dougga",
       "name": "Dougga",
       "kind": "see",
-      "lat": 36.423,
-      "lon": 9.219,
+      "lat": 36.42222,
+      "lon": 9.21833,
       "wiki": "Dougga",
       "summary": "Best-preserved Roman town in North Africa.",
       "expect": "Car or tour.",
@@ -299,8 +331,16 @@
         "Car or tour.",
         "Go early."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 24865,
+          "period": "202511-202610",
+          "title": "Dougga",
+          "url": "https://en.wikipedia.org/wiki/Dougga",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tunis-tun-habib",
@@ -346,7 +386,16 @@
         "Free.",
         "Evening stroll."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5624,
+          "period": "202511-202610",
+          "title": "Avenue Habib Bourguiba",
+          "url": "https://en.wikipedia.org/wiki/Avenue_Habib_Bourguiba",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tunis-tun-brik",
@@ -521,5 +570,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

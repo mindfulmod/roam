@@ -72,8 +72,8 @@
       "id": "windhoek-wdh-christus",
       "name": "Christuskirche",
       "kind": "see",
-      "lat": -22.566,
-      "lon": 17.088,
+      "lat": -22.56778,
+      "lon": 17.08722,
       "wiki": "Christ Church, Windhoek",
       "summary": "German colonial church on a hill.",
       "expect": "Small fee inside.",
@@ -113,14 +113,22 @@
         "Small fee inside.",
         "Combine with the museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8662,
+          "period": "202511-202610",
+          "title": "Christ Church, Windhoek",
+          "url": "https://en.wikipedia.org/wiki/Christ_Church%2C_Windhoek",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "windhoek-wdh-museum",
       "name": "Independence Memorial Museum",
       "kind": "see",
-      "lat": -22.567,
-      "lon": 17.087,
+      "lat": -22.56872,
+      "lon": 17.088,
       "wiki": "Independence Memorial Museum",
       "summary": "Namibia's liberation story with a rooftop café.",
       "expect": "Free.",
@@ -159,8 +167,7 @@
       "tradeoffs": [
         "Free.",
         "Go up for the view."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "windhoek-wdh-daan",
@@ -213,8 +220,8 @@
       "id": "windhoek-wdh-katutura",
       "name": "Katutura township tour",
       "kind": "see",
-      "lat": -22.518,
-      "lon": 17.048,
+      "lat": -22.52306,
+      "lon": 17.06028,
       "wiki": "Katutura",
       "summary": "Guided visit to markets and community projects.",
       "expect": "Go with a guide.",
@@ -254,14 +261,22 @@
         "Go with a guide.",
         "Bike tours available."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4265,
+          "period": "202511-202610",
+          "title": "Katutura",
+          "url": "https://en.wikipedia.org/wiki/Katutura",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "windhoek-wdh-craft",
       "name": "Namibia Craft Centre",
       "kind": "see",
-      "lat": -22.57,
-      "lon": 17.083,
+      "lat": -22.57194,
+      "lon": 17.08392,
       "wiki": "Windhoek",
       "summary": "Crafts from across the country.",
       "expect": "Free.",
@@ -301,14 +316,22 @@
         "Free.",
         "Café upstairs."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 275832,
+          "period": "202511-202610",
+          "title": "Windhoek",
+          "url": "https://en.wikipedia.org/wiki/Windhoek",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "windhoek-wdh-heroes",
       "name": "Heroes' Acre",
       "kind": "see",
-      "lat": -22.663,
-      "lon": 17.045,
+      "lat": -22.6638,
+      "lon": 17.0783,
       "wiki": "Heroes' Acre (Namibia)",
       "summary": "National war memorial with views.",
       "expect": "Small fee.",
@@ -348,7 +371,15 @@
         "Small fee.",
         "Morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8573,
+          "period": "202511-202610",
+          "title": "Heroes' Acre (Namibia)",
+          "url": "https://en.wikipedia.org/wiki/Heroes'_Acre_(Namibia)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "windhoek-wdh-joes",
@@ -522,5 +553,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

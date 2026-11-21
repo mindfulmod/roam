@@ -73,8 +73,8 @@
       "id": "dakar-dak-goree",
       "name": "Gorée Island",
       "kind": "see",
-      "lat": 14.667,
-      "lon": -17.399,
+      "lat": 14.66694,
+      "lon": -17.39833,
       "wiki": "Gorée",
       "summary": "Car-free island and House of Slaves memorial.",
       "expect": "Ferry 20 minutes.",
@@ -113,13 +113,21 @@
         "Ferry 20 minutes.",
         "Stay for lunch."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 45259,
+          "period": "202511-202610",
+          "title": "Gorée",
+          "url": "https://en.wikipedia.org/wiki/Gor%C3%A9e",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dakar-dak-renaissance",
       "name": "African Renaissance Monument",
       "kind": "see",
-      "lat": 14.722,
+      "lat": 14.72222,
       "lon": -17.495,
       "wiki": "African Renaissance Monument",
       "summary": "49 m statue on a hill with lift to the top.",
@@ -160,14 +168,22 @@
         "Paid.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 75050,
+          "period": "202511-202610",
+          "title": "African Renaissance Monument",
+          "url": "https://en.wikipedia.org/wiki/African_Renaissance_Monument",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dakar-dak-lacrose",
       "name": "Lac Rose",
       "kind": "see",
-      "lat": 14.837,
-      "lon": -17.235,
+      "lat": 14.83834,
+      "lon": -17.24482,
       "wiki": "Lake Retba",
       "summary": "Pink lake where salt is harvested by hand.",
       "expect": "Pinkest in dry season.",
@@ -206,14 +222,22 @@
         "Pinkest in dry season.",
         "Midday sun."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 33992,
+          "period": "202511-202610",
+          "title": "Lake Retba",
+          "url": "https://en.wikipedia.org/wiki/Lake_Retba",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dakar-dak-ngor",
       "name": "Ngor Island",
       "kind": "see",
-      "lat": 14.754,
-      "lon": -17.515,
+      "lat": 14.75026,
+      "lon": -17.5117,
       "wiki": "Ngor Island",
       "summary": "Tiny island with surf and beaches.",
       "expect": "Pirogue boat.",
@@ -252,8 +276,7 @@
       "tradeoffs": [
         "Pirogue boat.",
         "Surf the right-hander."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "dakar-dak-ifan",
@@ -300,7 +323,16 @@
         "Small fee.",
         "Allow an hour."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 979,
+          "period": "202511-202610",
+          "title": "Théodore Monod African Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Th%C3%A9odore_Monod_African_Art_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dakar-dak-sandaga",
@@ -519,5 +551,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

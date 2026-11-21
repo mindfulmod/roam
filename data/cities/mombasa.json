@@ -72,8 +72,8 @@
       "id": "mombasa-mom-fort",
       "name": "Fort Jesus",
       "kind": "see",
-      "lat": -4.0626,
-      "lon": 39.6795,
+      "lat": -4.06278,
+      "lon": 39.67972,
       "wiki": "Fort Jesus",
       "summary": "16th-century Portuguese fort, now a museum.",
       "expect": "Paid.",
@@ -112,14 +112,22 @@
         "Paid.",
         "Evening sound-and-light show."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29532,
+          "period": "202511-202610",
+          "title": "Fort Jesus",
+          "url": "https://en.wikipedia.org/wiki/Fort_Jesus",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mombasa-mom-oldtown",
       "name": "Mombasa Old Town",
       "kind": "see",
-      "lat": -4.06,
-      "lon": 39.677,
+      "lat": -4.05889,
+      "lon": 39.67639,
       "wiki": "Mombasa Old Town",
       "summary": "Swahili lanes, carved doors and mosques.",
       "expect": "Free.",
@@ -159,14 +167,22 @@
         "Free.",
         "Take a guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5854,
+          "period": "202511-202610",
+          "title": "Mombasa Old Town",
+          "url": "https://en.wikipedia.org/wiki/Mombasa_Old_Town",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mombasa-mom-diani",
       "name": "Diani Beach",
       "kind": "see",
-      "lat": -4.318,
-      "lon": 39.576,
+      "lat": -4.32222,
+      "lon": 39.575,
       "wiki": "Diani Beach",
       "summary": "Long white beach with kitesurfing and colobus monkeys.",
       "expect": "Free.",
@@ -205,14 +221,22 @@
         "Free.",
         "Stay a few nights."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19096,
+          "period": "202511-202610",
+          "title": "Diani Beach",
+          "url": "https://en.wikipedia.org/wiki/Diani_Beach",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mombasa-mom-kisite",
       "name": "Kisite-Mpunguti Marine Park",
       "kind": "see",
-      "lat": -4.664,
-      "lon": 39.383,
+      "lat": -4.71389,
+      "lon": 39.36222,
       "wiki": "Kisite-Mpunguti Marine National Park",
       "summary": "Dhow trip with dolphins and snorkelling.",
       "expect": "Full day.",
@@ -252,8 +276,16 @@
         "Full day.",
         "Book a Wasini dhow tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2027,
+          "period": "202511-202610",
+          "title": "Kisite-Mpunguti Marine National Park",
+          "url": "https://en.wikipedia.org/wiki/Kisite-Mpunguti_Marine_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mombasa-mom-haller",
@@ -305,8 +337,8 @@
       "id": "mombasa-mom-shimba",
       "name": "Shimba Hills",
       "kind": "see",
-      "lat": -4.25,
-      "lon": 39.4,
+      "lat": -4.25722,
+      "lon": 39.38778,
       "wiki": "Shimba Hills National Reserve",
       "summary": "Coastal forest reserve with sable antelope and waterfalls.",
       "expect": "Half day.",
@@ -346,7 +378,15 @@
         "Half day.",
         "Sheldrick Falls hike."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4375,
+          "period": "202511-202610",
+          "title": "Shimba Hills National Reserve",
+          "url": "https://en.wikipedia.org/wiki/Shimba_Hills_National_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mombasa-mom-biryani",
@@ -468,8 +508,8 @@
       "id": "mombasa-mom-seafood",
       "name": "Seafood by the creek",
       "kind": "eat",
-      "lat": -4.045,
-      "lon": 39.685,
+      "lat": -4.06406,
+      "lon": 39.68422,
       "wiki": "Tudor Creek",
       "summary": "Grilled lobster and fish over the water.",
       "expect": "Dinner.",
@@ -508,7 +548,6 @@
         "Dinner.",
         "Book a creek-side table."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -522,5 +561,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
