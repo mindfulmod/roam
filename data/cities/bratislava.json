@@ -1,0 +1,556 @@
+{
+  "id": "bratislava",
+  "name": "Bratislava",
+  "country": "Slovakia",
+  "region": "Europe",
+  "lat": 48.1486,
+  "lon": 17.1077,
+  "wiki": "Bratislava",
+  "tagline": "Compact capital on the Danube with a castle on top",
+  "summary": "Bratislava is a small, walkable capital on the Danube, an hour from Vienna. Explore the old town's quirky statues, climb to the castle, take in the UFO Bridge's observation deck and Blue Church, and cycle or boat to Devín Castle where the Morava meets the Danube.",
+  "days": 2,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and early autumn are pleasant; December has Christmas markets.",
+  "arrival": "Bratislava Airport is 20 minutes away; Vienna Airport is 50 minutes by bus.",
+  "gettingAround": "Walk; trams and buses.",
+  "cashTip": "Cards are widely accepted; carry a little cash for small cafés.",
+  "dailyBudget": [
+    70,
+    180
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    0,
+    20
+  ],
+  "foodTip": "Bryndzové halušky (sheep-cheese dumplings).",
+  "buyTip": "Modra ceramics and Slovak wine.",
+  "baseArea": "Old Town",
+  "connections": [
+    {
+      "to": "vienna",
+      "mode": "Train",
+      "minutes": 60,
+      "note": "Hourly trains."
+    },
+    {
+      "to": "budapest",
+      "mode": "Train",
+      "minutes": 150,
+      "note": "Regular trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bratislava on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bratislava",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Bratislava%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Bratislava%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Bratislava Castle",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "bratislava-bts-castle",
+      "name": "Bratislava Castle",
+      "kind": "see",
+      "lat": 48.14222,
+      "lon": 17.1,
+      "wiki": "Bratislava Castle",
+      "summary": "Square castle with views over the Danube.",
+      "expect": "Free grounds.",
+      "tip": "Go at sunset.",
+      "area": "Castle Hill",
+      "duration": 1.5,
+      "price": [
+        0,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bratislava%20Castle%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=Bratislava%20Castle%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bratislava%20Castle%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Square castle with views over the Danube.",
+        "City icon."
+      ],
+      "visitFlow": [
+        "Gardens.",
+        "Ramparts view."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Free grounds.",
+        "Go at sunset."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 38296,
+          "period": "202511-202610",
+          "title": "Bratislava Castle",
+          "url": "https://en.wikipedia.org/wiki/Bratislava_Castle",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bratislava-bts-oldtown",
+      "name": "Old Town and statues",
+      "kind": "see",
+      "lat": 48.144,
+      "lon": 17.108,
+      "wiki": "Bratislava Old Town",
+      "summary": "Cobbled lanes with Čumil the sewer worker statue.",
+      "expect": "Free.",
+      "tip": "Find Čumil and the Napoleon soldier.",
+      "area": "Old Town",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Old%20Town%20and%20statues%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=Old%20Town%20and%20statues%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Old%20Town%20and%20statues%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Art"
+      ],
+      "whyVisit": [
+        "Cobbled lanes with Čumil the sewer worker statue.",
+        "Charming walk."
+      ],
+      "visitFlow": [
+        "Main Square.",
+        "Čumil.",
+        "Michael's Gate."
+      ],
+      "bestFor": "Visitors interested in architecture and design and art and craft",
+      "tradeoffs": [
+        "Free.",
+        "Find Čumil and the Napoleon soldier."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bratislava-bts-ufo",
+      "name": "UFO Bridge observation deck",
+      "kind": "see",
+      "lat": 48.1384,
+      "lon": 17.10458,
+      "wiki": "Most SNP",
+      "summary": "Flying-saucer tower on a bridge with a viewing deck.",
+      "expect": "Ticket.",
+      "tip": "Have a drink at the top.",
+      "area": "Danube",
+      "duration": 1,
+      "price": [
+        10,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=UFO%20Bridge%20observation%20deck%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=UFO%20Bridge%20observation%20deck%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=UFO%20Bridge%20observation%20deck%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Flying-saucer tower on a bridge with a viewing deck.",
+        "Unique view."
+      ],
+      "visitFlow": [
+        "Lift.",
+        "Deck."
+      ],
+      "bestFor": "Visitors interested in big views and architecture and design",
+      "tradeoffs": [
+        "Ticket.",
+        "Have a drink at the top."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 16278,
+          "period": "202511-202610",
+          "title": "Most SNP",
+          "url": "https://en.wikipedia.org/wiki/Most_SNP",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bratislava-bts-blue",
+      "name": "Blue Church",
+      "kind": "see",
+      "lat": 48.14336,
+      "lon": 17.11674,
+      "wiki": "Church of St. Elizabeth (Bratislava)",
+      "summary": "Art Nouveau church painted pastel blue.",
+      "expect": "Free.",
+      "tip": "Morning light is best.",
+      "area": "Old Town",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Blue%20Church%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=Blue%20Church%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Blue%20Church%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Art Nouveau church painted pastel blue.",
+        "Fairy-tale church."
+      ],
+      "visitFlow": [
+        "Exterior.",
+        "Interior."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Morning light is best."
+      ]
+    },
+    {
+      "id": "bratislava-bts-devin",
+      "name": "Devín Castle",
+      "kind": "see",
+      "lat": 48.17361,
+      "lon": 16.97833,
+      "wiki": "Devín Castle",
+      "summary": "Ruins on a cliff where two rivers meet.",
+      "expect": "Bus or bike.",
+      "tip": "Cycle the Danube path.",
+      "area": "Devín",
+      "duration": 3,
+      "price": [
+        5,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Dev%C3%ADn%20Castle%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=Dev%C3%ADn%20Castle%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Dev%C3%ADn%20Castle%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Ruins on a cliff where two rivers meet.",
+        "Romantic ruins."
+      ],
+      "visitFlow": [
+        "Ruins.",
+        "River view."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "Bus or bike.",
+        "Cycle the Danube path."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 17634,
+          "period": "202511-202610",
+          "title": "Devín Castle",
+          "url": "https://en.wikipedia.org/wiki/Dev%C3%ADn_Castle",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bratislava-bts-stmartin",
+      "name": "St Martin's Cathedral",
+      "kind": "see",
+      "lat": 48.14214,
+      "lon": 17.10478,
+      "wiki": "St. Martin's Cathedral, Bratislava",
+      "summary": "Coronation church of Hungarian kings.",
+      "expect": "Small fee.",
+      "tip": "See the golden crown on the spire.",
+      "area": "Old Town",
+      "duration": 1,
+      "price": [
+        0,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=St%20Martin's%20Cathedral%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=St%20Martin's%20Cathedral%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=St%20Martin's%20Cathedral%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "History"
+      ],
+      "whyVisit": [
+        "Coronation church of Hungarian kings.",
+        "Royal history."
+      ],
+      "visitFlow": [
+        "Nave.",
+        "Crypt."
+      ],
+      "bestFor": "Visitors interested in sacred places and history and context",
+      "tradeoffs": [
+        "Small fee.",
+        "See the golden crown on the spire."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 18401,
+          "period": "202511-202610",
+          "title": "St Martin's Cathedral, Bratislava",
+          "url": "https://en.wikipedia.org/wiki/St_Martin's_Cathedral%2C_Bratislava",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "bratislava-bts-halusky",
+      "name": "Bryndzové halušky",
+      "kind": "eat",
+      "lat": 48.144,
+      "lon": 17.108,
+      "wiki": "Bryndzové halušky",
+      "summary": "Potato dumplings with sheep cheese and bacon.",
+      "expect": "Everywhere.",
+      "tip": "Try Slovak Pub.",
+      "area": "Old Town",
+      "duration": 1,
+      "price": [
+        8,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bryndzov%C3%A9%20halu%C5%A1ky%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=Bryndzov%C3%A9%20halu%C5%A1ky%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bryndzov%C3%A9%20halu%C5%A1ky%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Potato dumplings with sheep cheese and bacon.",
+        "National dish."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Try Slovak Pub."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Slovak",
+      "mustOrder": [
+        "Halušky"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bratislava-bts-wine",
+      "name": "Slovak wine",
+      "kind": "eat",
+      "lat": 48.145,
+      "lon": 17.107,
+      "wiki": "Slovak wine",
+      "summary": "Little Carpathian wines in cellars.",
+      "expect": "Bars.",
+      "tip": "Try Frankovka.",
+      "area": "Old Town",
+      "duration": 1.5,
+      "price": [
+        4,
+        8
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Slovak%20wine%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=Slovak%20wine%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Slovak%20wine%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Little Carpathian wines in cellars.",
+        "Local wine."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Bars.",
+        "Try Frankovka."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Slovak",
+      "mustOrder": [
+        "Frankovka"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bratislava-bts-cafe",
+      "name": "Café culture",
+      "kind": "eat",
+      "lat": 48.144,
+      "lon": 17.109,
+      "wiki": "Bratislava",
+      "summary": "Cosy cafés with cakes.",
+      "expect": "Daytime.",
+      "tip": "Try a Bratislava rožok.",
+      "area": "Old Town",
+      "duration": 0.5,
+      "price": [
+        4,
+        8
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20culture%2C%20Bratislava",
+        "https://www.google.com/maps/search/?api=1&query=Caf%C3%A9%20culture%2C%20Bratislava"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Caf%C3%A9%20culture%2C%20Bratislava"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cosy cafés with cakes.",
+        "Sweet break."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Daytime.",
+        "Try a Bratislava rožok."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Slovak",
+      "mustOrder": [
+        "Bratislavský rožok"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
