@@ -1,0 +1,2380 @@
+[
+ {
+  "country": "South Africa",
+  "region": "Africa",
+  "currency": "ZAR",
+  "cashTip": "Cards work almost everywhere; keep some rand for tips, car guards and park entry kiosks.",
+  "dailyBudget": [
+   1200,
+   4000
+  ],
+  "cashPerDay": [
+   200,
+   500
+  ],
+  "id": "kruger",
+  "name": "Kruger · Hoedspruit",
+  "at": [
+   -24.3953,
+   30.9783
+  ],
+  "wiki": "Kruger National Park",
+  "cover": "Kruger National Park",
+  "seasons": "SSSSHHHHHSSS",
+  "tagline": "Big Five safaris in Africa's most famous park",
+  "summary": "Kruger National Park is one of Africa's largest game reserves, home to the Big Five. Base yourself near Hoedspruit or Orpheus Gate for self-drives and guided game drives, or stay in private reserves like Timbavati and Sabi Sand for leopard sightings.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "The dry winter (May to October) is best for game viewing as animals gather at water. Summer is green, hot and great for birds and baby animals.",
+  "arrival": "Fly to Hoedspruit or Kruger Mpumalanga (Nelspruit) from Johannesburg or Cape Town, or drive about 5-6 hours from Johannesburg.",
+  "gettingAround": "Self-drive inside the park on paved roads, or join guided drives. Gates close at sunset.",
+  "foodTip": "Braai under the stars and bobotie.",
+  "buyTip": "Crafts in Hoedspruit and the panorama route stalls.",
+  "baseArea": "Hoedspruit, private reserves or rest camps like Satara",
+  "hotel": [
+   1500,
+   15000
+  ],
+  "connections": [
+   {
+    "to": "cape-town",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Flights from Hoedspruit or Nelspruit."
+   }
+  ],
+  "items": [
+   {
+    "name": "Game drive in Kruger",
+    "kind": "see",
+    "id": "kru-gamedrive",
+    "at": [
+     -24.39,
+     31.25
+    ],
+    "wiki": "Kruger National Park",
+    "area": "Orpheus Gate",
+    "summary": "Search for lions, elephants, rhino, leopard and buffalo.",
+    "expect": "Gates open at dawn; conservation fees apply.",
+    "tip": "Go at dawn and late afternoon.",
+    "why": "Big Five country.",
+    "flow": [
+     "Enter at the gate.",
+     "Scan waterholes.",
+     "Return before gates close."
+    ],
+    "hours": 6,
+    "price": [
+     460,
+     460
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Private reserve safari",
+    "kind": "see",
+    "id": "kru-private",
+    "at": [
+     -24.45,
+     31.2
+    ],
+    "wiki": "Timbavati Private Nature Reserve",
+    "area": "Timbavati",
+    "summary": "Open-vehicle drives with trackers who can go off-road.",
+    "expect": "Costly but superb.",
+    "tip": "Stay at least two nights.",
+    "why": "Close leopard sightings.",
+    "flow": [
+     "Afternoon drive.",
+     "Sundowner.",
+     "Night spotlight."
+    ],
+    "hours": 4,
+    "price": [
+     3000,
+     15000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Bush walk",
+    "kind": "see",
+    "id": "kru-walk",
+    "at": [
+     -24.4,
+     31.1
+    ],
+    "wiki": "Walking safari",
+    "area": "Reserves",
+    "summary": "Walk with armed rangers to read tracks and spot small creatures.",
+    "expect": "Moderate fitness.",
+    "tip": "Book through your lodge.",
+    "why": "See the bush up close.",
+    "flow": [
+     "Safety briefing.",
+     "Tracking.",
+     "Small wonders."
+    ],
+    "hours": 3,
+    "price": [
+     600,
+     1500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Blyde River Canyon",
+    "kind": "see",
+    "id": "kru-blyde",
+    "at": [
+     -24.5741,
+     30.8128
+    ],
+    "wiki": "Blyde River Canyon",
+    "area": "Panorama Route",
+    "summary": "One of the world's largest green canyons with the Three Rondavels.",
+    "expect": "Mist in the mornings.",
+    "tip": "Drive the Panorama Route.",
+    "why": "Dramatic views.",
+    "flow": [
+     "Three Rondavels.",
+     "Bourke's Luck Potholes.",
+     "God's Window."
+    ],
+    "hours": 5,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Moholoholo Wildlife Rehabilitation Centre",
+    "kind": "see",
+    "id": "kru-moholoholo",
+    "at": [
+     -24.5193,
+     30.9076
+    ],
+    "wiki": "Moholoholo",
+    "area": "Hoedspruit",
+    "summary": "Rescue centre for injured wildlife.",
+    "expect": "Guided tours only.",
+    "tip": "Book ahead.",
+    "why": "Conservation in action.",
+    "flow": [
+     "Guided tour.",
+     "Meet rescued animals."
+    ],
+    "hours": 2,
+    "price": [
+     250,
+     250
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hot-air balloon over the lowveld",
+    "kind": "see",
+    "id": "kru-balloon",
+    "at": [
+     -24.35,
+     30.95
+    ],
+    "wiki": "Hot air balloon",
+    "area": "Hoedspruit",
+    "summary": "Sunrise flight over bushveld and the Drakensberg.",
+    "expect": "Weather dependent.",
+    "tip": "Book early in your stay.",
+    "why": "Bird's-eye safari.",
+    "flow": [
+     "Launch.",
+     "Flight.",
+     "Champagne landing."
+    ],
+    "hours": 3,
+    "price": [
+     4000,
+     5000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Bush braai",
+    "kind": "eat",
+    "id": "kru-braai",
+    "at": [
+     -24.39,
+     31.0
+    ],
+    "wiki": "Braai",
+    "area": "Lodges",
+    "venue": "food-area",
+    "summary": "A barbecue under the stars in the bush.",
+    "expect": "Often included at lodges.",
+    "tip": "Ask for boerewors.",
+    "why": "South African tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     600
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Boerewors",
+     "Pap"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Bobotie",
+    "kind": "eat",
+    "id": "kru-bobotie",
+    "at": [
+     -24.35,
+     30.96
+    ],
+    "wiki": "Bobotie",
+    "area": "Hoedspruit",
+    "venue": "food-area",
+    "summary": "Spiced mince baked with an egg topping.",
+    "expect": "Restaurants in town.",
+    "tip": "Pair with yellow rice.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     120,
+     220
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Bobotie"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Biltong",
+    "kind": "eat",
+    "id": "kru-biltong",
+    "at": [
+     -24.35,
+     30.96
+    ],
+    "wiki": "Biltong",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Dried cured meat, the classic safari snack.",
+    "expect": "Buy by weight.",
+    "tip": "Try kudu biltong.",
+    "why": "Road-trip snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.2,
+    "price": [
+     50,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Biltong"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Tanzania",
+  "region": "Africa",
+  "currency": "TZS",
+  "cashTip": "Safaris and park fees are usually paid in US dollars by card; carry shillings for tips and local shops. Prices here are in shillings.",
+  "dailyBudget": [
+   300000,
+   1500000
+  ],
+  "cashPerDay": [
+   50000,
+   150000
+  ],
+  "id": "serengeti",
+  "name": "Serengeti",
+  "at": [
+   -2.4527,
+   34.8236
+  ],
+  "wiki": "Serengeti National Park",
+  "cover": "Serengeti",
+  "seasons": "HHHLLHHHHHSH",
+  "tagline": "Endless plains and the Great Migration",
+  "summary": "The Serengeti's endless grasslands host the Great Migration, with over a million wildebeest moving in a year-round loop. Lions, cheetahs and leopards follow, making it one of the best places on earth for big cats.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Calving in the south January to March; river crossings in the north July to October. April and May are long rains.",
+  "arrival": "Fly to Seronera airstrip from Arusha, or drive 7-8 hours via Ngorongoro.",
+  "gettingAround": "Guided safari vehicles only.",
+  "foodTip": "Lodge meals; try nyama choma and chapati.",
+  "buyTip": "Maasai beadwork from villages near Ngorongoro.",
+  "baseArea": "Central Seronera, or follow the migration",
+  "hotel": [
+   300000,
+   3000000
+  ],
+  "connections": [
+   {
+    "to": "arusha",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Light aircraft, or a long drive via Ngorongoro."
+   }
+  ],
+  "items": [
+   {
+    "name": "Seronera game drives",
+    "kind": "see",
+    "id": "ser-seronera",
+    "at": [
+     -2.44,
+     34.83
+    ],
+    "wiki": "Seronera",
+    "area": "Central",
+    "summary": "Year-round resident lions, leopards and cheetahs along the Seronera River.",
+    "expect": "Park fees around 83 US dollars a day.",
+    "tip": "Look in sausage trees for leopards.",
+    "why": "Big cat capital.",
+    "flow": [
+     "Dawn drive.",
+     "River valley.",
+     "Kopjes."
+    ],
+    "hours": 6,
+    "price": [
+     200000,
+     220000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Great Migration",
+    "kind": "see",
+    "id": "ser-migration",
+    "at": [
+     -2.7,
+     34.95
+    ],
+    "wiki": "Great Migration",
+    "area": "Varies",
+    "summary": "Herds of wildebeest and zebra moving across the plains.",
+    "expect": "Location changes by month.",
+    "tip": "Ask your operator where the herds are.",
+    "why": "One of nature's great spectacles.",
+    "flow": [
+     "Find the herds.",
+     "Watch predators."
+    ],
+    "hours": 8,
+    "price": [
+     200000,
+     220000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Balloon safari",
+    "kind": "see",
+    "id": "ser-balloon",
+    "at": [
+     -2.45,
+     34.82
+    ],
+    "wiki": "Hot air balloon",
+    "area": "Seronera",
+    "summary": "Float over the plains at sunrise.",
+    "expect": "Expensive.",
+    "tip": "Book well ahead.",
+    "why": "Unforgettable.",
+    "flow": [
+     "Launch at dawn.",
+     "Flight.",
+     "Bush breakfast."
+    ],
+    "hours": 4,
+    "price": [
+     1300000,
+     1500000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Moru Kopjes",
+    "kind": "see",
+    "id": "ser-kopjes",
+    "at": [
+     -2.7,
+     34.77
+    ],
+    "wiki": "Moru Kopjes",
+    "area": "South",
+    "summary": "Granite outcrops with Maasai rock art and lions.",
+    "expect": "Quieter area.",
+    "tip": "Look for the Gong Rock.",
+    "why": "Lion King scenery.",
+    "flow": [
+     "Kopjes.",
+     "Rock art."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Mara River crossings",
+    "kind": "see",
+    "id": "ser-mara-river",
+    "at": [
+     -1.58,
+     34.95
+    ],
+    "wiki": "Mara River",
+    "area": "North",
+    "summary": "Dramatic wildebeest crossings past crocodiles.",
+    "expect": "July to October.",
+    "tip": "Be patient; herds hesitate for hours.",
+    "why": "Dramatic drama.",
+    "flow": [
+     "Wait at crossing points.",
+     "Watch."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Olduvai Gorge",
+    "kind": "see",
+    "id": "ser-olduvai",
+    "at": [
+     -2.9935,
+     35.3523
+    ],
+    "wiki": "Olduvai Gorge",
+    "area": "Between parks",
+    "summary": "Cradle of humankind with a museum.",
+    "expect": "On the road to Ngorongoro.",
+    "tip": "Stop on transfers.",
+    "why": "Human origins.",
+    "flow": [
+     "Museum.",
+     "Gorge view."
+    ],
+    "hours": 1.5,
+    "price": [
+     70000,
+     80000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Lodge dining",
+    "kind": "eat",
+    "id": "ser-lodge",
+    "at": [
+     -2.45,
+     34.83
+    ],
+    "wiki": "Safari lodge",
+    "area": "Lodges",
+    "venue": "food-area",
+    "summary": "Meals included at most lodges and camps.",
+    "expect": "Full board.",
+    "tip": "Ask for a bush breakfast.",
+    "why": "Dining in the wild.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Bush dinner"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Nyama choma",
+    "kind": "eat",
+    "id": "ser-nyamachoma",
+    "at": [
+     -2.45,
+     34.83
+    ],
+    "wiki": "Nyama choma",
+    "area": "Camps",
+    "venue": "food-area",
+    "summary": "Grilled meat, East Africa style.",
+    "expect": "Ask the camp chef.",
+    "tip": "With kachumbari salad.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20000,
+     40000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tanzanian",
+    "order": [
+     "Nyama choma"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Bush picnic lunch",
+    "kind": "eat",
+    "id": "ser-picnic",
+    "at": [
+     -2.46,
+     34.84
+    ],
+    "wiki": "Picnic",
+    "area": "Plains",
+    "venue": "food-area",
+    "summary": "Packed lunches eaten at picnic sites.",
+    "expect": "Watch for birds stealing food.",
+    "tip": "Eat in the vehicle if monkeys are around.",
+    "why": "Lunch on the plains.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Packed lunch"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Kenya",
+  "region": "Africa",
+  "currency": "KES",
+  "cashTip": "Park fees are paid by card or M-Pesa; carry shillings or small US dollars for tips and village visits.",
+  "dailyBudget": [
+   25000,
+   90000
+  ],
+  "cashPerDay": [
+   2000,
+   6000
+  ],
+  "id": "maasai-mara",
+  "name": "Maasai Mara",
+  "at": [
+   -1.4061,
+   35.0089
+  ],
+  "wiki": "Maasai Mara",
+  "cover": "Maasai Mara",
+  "seasons": "HHHLLHHHHHSH",
+  "tagline": "Big cats, river crossings and Maasai culture",
+  "summary": "The Maasai Mara is Kenya's most famous reserve, the northern end of the Great Migration. Watch big cats on the open savannah, wildebeest crossing the Mara River, and visit Maasai communities whose land surrounds the park.",
+  "days": 3,
+  "bestMonths": [
+   7,
+   8,
+   9,
+   10,
+   1,
+   2
+  ],
+  "seasonNote": "The migration is here July to October. Long rains in April and May.",
+  "arrival": "Fly 45 minutes from Nairobi's Wilson Airport, or drive 5-6 hours.",
+  "gettingAround": "Guided game drives.",
+  "foodTip": "Camp dining, nyama choma and ugali.",
+  "buyTip": "Maasai beadwork and shúkà blankets.",
+  "baseArea": "Conservancies bordering the reserve",
+  "hotel": [
+   25000,
+   250000
+  ],
+  "connections": [
+   {
+    "to": "nairobi",
+    "mode": "Flight",
+    "minutes": 45,
+    "note": "From Wilson Airport."
+   }
+  ],
+  "items": [
+   {
+    "name": "Game drives",
+    "kind": "see",
+    "id": "mar-drive",
+    "at": [
+     -1.49,
+     35.14
+    ],
+    "wiki": "Maasai Mara",
+    "area": "Reserve",
+    "summary": "Lions, cheetahs, leopards and elephants on the open plains.",
+    "expect": "Reserve fees around 100-200 US dollars a day.",
+    "tip": "Pick a conservancy for fewer vehicles.",
+    "why": "Big-cat paradise.",
+    "flow": [
+     "Dawn drive.",
+     "Picnic.",
+     "Sunset drive."
+    ],
+    "hours": 6,
+    "price": [
+     13000,
+     26000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Mara River crossings",
+    "kind": "see",
+    "id": "mar-crossing",
+    "at": [
+     -1.53,
+     35.03
+    ],
+    "wiki": "Mara River",
+    "area": "Reserve",
+    "summary": "Wildebeest plunging across crocodile-filled waters.",
+    "expect": "July to October.",
+    "tip": "Be patient at crossing points.",
+    "why": "Iconic moment.",
+    "flow": [
+     "Wait.",
+     "Watch."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Balloon safari",
+    "kind": "see",
+    "id": "mar-balloon",
+    "at": [
+     -1.4,
+     35.01
+    ],
+    "wiki": "Hot air balloon",
+    "area": "Reserve",
+    "summary": "Sunrise balloon flight with champagne breakfast.",
+    "expect": "Expensive.",
+    "tip": "Book ahead.",
+    "why": "Unforgettable view.",
+    "flow": [
+     "Launch.",
+     "Flight.",
+     "Breakfast."
+    ],
+    "hours": 4,
+    "price": [
+     60000,
+     70000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Maasai village visit",
+    "kind": "see",
+    "id": "mar-village",
+    "at": [
+     -1.38,
+     35.05
+    ],
+    "wiki": "Maasai people",
+    "area": "Outskirts",
+    "summary": "Visit a community to learn about Maasai life.",
+    "expect": "Choose community-run visits.",
+    "tip": "Ask how fees are shared.",
+    "why": "Living culture.",
+    "flow": [
+     "Welcome dance.",
+     "Homes.",
+     "Crafts."
+    ],
+    "hours": 2,
+    "price": [
+     2000,
+     4000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Guided bush walk",
+    "kind": "see",
+    "id": "mar-walk",
+    "at": [
+     -1.35,
+     35.1
+    ],
+    "wiki": "Walking safari",
+    "area": "Conservancy",
+    "summary": "Walk with Maasai guides to learn tracks and plants.",
+    "expect": "Conservancies only.",
+    "tip": "Book through your camp.",
+    "why": "Close to the land.",
+    "flow": [
+     "Briefing.",
+     "Walk."
+    ],
+    "hours": 2.5,
+    "price": [
+     3000,
+     6000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Camp dining",
+    "kind": "eat",
+    "id": "mar-camp",
+    "at": [
+     -1.41,
+     35.0
+    ],
+    "wiki": "Tented camp",
+    "area": "Camps",
+    "venue": "food-area",
+    "summary": "Full-board meals in tented camps.",
+    "expect": "Included.",
+    "tip": "Request a bush dinner.",
+    "why": "Dine under stars.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Bush dinner"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Nyama choma and ugali",
+    "kind": "eat",
+    "id": "mar-nyama",
+    "at": [
+     -1.41,
+     35.01
+    ],
+    "wiki": "Ugali",
+    "area": "Camps",
+    "venue": "food-area",
+    "summary": "Grilled goat with maize porridge.",
+    "expect": "Local style.",
+    "tip": "Eat with your hands.",
+    "why": "Kenyan staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     800,
+     1500
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Kenyan",
+    "order": [
+     "Nyama choma",
+     "Ugali"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Kenyan chai",
+    "kind": "eat",
+    "id": "mar-chai",
+    "at": [
+     -1.41,
+     35.0
+    ],
+    "wiki": "Masala chai",
+    "area": "Camps",
+    "venue": "food-area",
+    "summary": "Milky spiced tea.",
+    "expect": "Morning wake-up.",
+    "tip": "Have it before the dawn drive.",
+    "why": "Kenyan habit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     100,
+     300
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Kenyan",
+    "order": [
+     "Chai"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Tanzania",
+  "region": "Africa",
+  "currency": "TZS",
+  "cashTip": "Safaris and park fees are usually paid in US dollars by card; carry shillings for tips and local shops. Prices here are in shillings.",
+  "dailyBudget": [
+   300000,
+   1500000
+  ],
+  "cashPerDay": [
+   50000,
+   150000
+  ],
+  "id": "moshi",
+  "name": "Kilimanjaro · Moshi",
+  "at": [
+   -3.3348,
+   37.3404
+  ],
+  "wiki": "Mount Kilimanjaro",
+  "cover": "Mount Kilimanjaro",
+  "seasons": "HHSLLSHHHSSH",
+  "tagline": "The base for climbing Africa's highest peak",
+  "summary": "Moshi is the town at the foot of Mount Kilimanjaro, Africa's highest mountain at 5,895 m. Most come to climb, but there are also coffee farms on the slopes, waterfalls, the hot springs of Chemka and views of the snow-capped peak at dawn.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Climbing seasons are January to March and June to October; avoid the long rains in April and May.",
+  "arrival": "Kilimanjaro International Airport is about 45 minutes away.",
+  "gettingAround": "Taxis and dala-dala minibuses; tours for trips.",
+  "foodTip": "Chagga banana stew and Kilimanjaro coffee.",
+  "buyTip": "Coffee and tinga-tinga paintings.",
+  "baseArea": "Moshi town",
+  "hotel": [
+   80000,
+   500000
+  ],
+  "connections": [
+   {
+    "to": "arusha",
+    "mode": "Bus",
+    "minutes": 90,
+    "note": "Shuttles and buses."
+   },
+   {
+    "to": "zanzibar",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Climb Kilimanjaro",
+    "kind": "see",
+    "id": "mos-kili",
+    "at": [
+     -3.0674,
+     37.3556
+    ],
+    "wiki": "Mount Kilimanjaro",
+    "area": "Kilimanjaro",
+    "summary": "A 6-8 day trek to Uhuru Peak with no technical climbing.",
+    "expect": "Choose 7+ days for acclimatisation; licensed operators only.",
+    "tip": "Pick the Lemosho or Machame route.",
+    "why": "Roof of Africa.",
+    "flow": [
+     "Gate.",
+     "Rainforest.",
+     "Summit night."
+    ],
+    "hours": 8,
+    "price": [
+     4000000,
+     8000000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kilimanjaro day hike",
+    "kind": "see",
+    "id": "mos-daytrek",
+    "at": [
+     -3.17,
+     37.45
+    ],
+    "wiki": "Marangu",
+    "area": "Marangu",
+    "summary": "A day hike in the rainforest to Mandara Hut.",
+    "expect": "Park fees apply.",
+    "tip": "Look for colobus monkeys.",
+    "why": "A taste of the mountain.",
+    "flow": [
+     "Marangu gate.",
+     "Rainforest trail."
+    ],
+    "hours": 6,
+    "price": [
+     200000,
+     300000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Coffee farm tour",
+    "kind": "see",
+    "id": "mos-coffee",
+    "at": [
+     -3.28,
+     37.37
+    ],
+    "wiki": "Coffee production in Tanzania",
+    "area": "Slopes",
+    "summary": "Pick, roast and taste coffee with Chagga families.",
+    "expect": "Half-day.",
+    "tip": "Combine with a waterfall.",
+    "why": "From bean to cup.",
+    "flow": [
+     "Farm.",
+     "Roast.",
+     "Taste."
+    ],
+    "hours": 3,
+    "price": [
+     40000,
+     70000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Materuni Waterfall",
+    "kind": "see",
+    "id": "mos-materuni",
+    "at": [
+     -3.2817,
+     37.398
+    ],
+    "wiki": "Materuni",
+    "area": "Materuni",
+    "summary": "A tall waterfall in the foothills.",
+    "expect": "Steep path.",
+    "tip": "Swim if brave.",
+    "why": "Lush scenery.",
+    "flow": [
+     "Village walk.",
+     "Waterfall."
+    ],
+    "hours": 3,
+    "price": [
+     30000,
+     50000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Chemka Hot Springs",
+    "kind": "see",
+    "id": "mos-chemka",
+    "at": [
+     -3.443,
+     37.188
+    ],
+    "wiki": "Chemka",
+    "area": "South",
+    "summary": "Clear turquoise warm springs under fig trees.",
+    "expect": "Weekends busy.",
+    "tip": "Go midweek.",
+    "why": "Natural pool.",
+    "flow": [
+     "Swim.",
+     "Rope swing."
+    ],
+    "hours": 4,
+    "price": [
+     25000,
+     30000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mtori and machalari",
+    "kind": "eat",
+    "id": "mos-machalari",
+    "at": [
+     -3.335,
+     37.34
+    ],
+    "wiki": "Chagga people",
+    "area": "Moshi",
+    "venue": "food-area",
+    "summary": "Chagga banana stews.",
+    "expect": "Local restaurants.",
+    "tip": "Ask for mtori.",
+    "why": "Local food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8000,
+     15000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tanzanian",
+    "order": [
+     "Mtori"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Chipsi mayai",
+    "kind": "eat",
+    "id": "mos-chips",
+    "at": [
+     -3.335,
+     37.34
+    ],
+    "wiki": "Chipsi mayai",
+    "area": "Moshi",
+    "venue": "food-area",
+    "summary": "Chips omelette, a Tanzanian street favourite.",
+    "expect": "Cheap.",
+    "tip": "Add pili pili.",
+    "why": "Street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3000,
+     5000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tanzanian",
+    "order": [
+     "Chipsi mayai"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Kilimanjaro coffee",
+    "kind": "eat",
+    "id": "mos-coffee-shop",
+    "at": [
+     -3.335,
+     37.341
+    ],
+    "wiki": "Coffee",
+    "area": "Moshi",
+    "venue": "food-area",
+    "summary": "Local cafés serving coffee from the slopes.",
+    "expect": "Relaxed.",
+    "tip": "Buy beans to take home.",
+    "why": "Mountain coffee.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3000,
+     8000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Coffee"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Mauritius",
+  "region": "Africa",
+  "currency": "MUR",
+  "cashTip": "Cards work in hotels and malls; carry rupees for street food, buses and markets.",
+  "dailyBudget": [
+   5000,
+   20000
+  ],
+  "cashPerDay": [
+   1000,
+   3000
+  ],
+  "id": "mauritius",
+  "name": "Mauritius",
+  "at": [
+   -20.1609,
+   57.5012
+  ],
+  "wiki": "Mauritius",
+  "cover": "Le Morne Brabant",
+  "seasons": "HSSSSSSSSHHH",
+  "tagline": "Lagoons, mountains and a mix of cultures",
+  "summary": "Mauritius is a volcanic island ringed by coral lagoons, with dramatic peaks like Le Morne, the Seven Coloured Earth, waterfalls and a fusion of Indian, Creole, Chinese and French cultures. Port Louis has a lively market and waterfront.",
+  "days": 6,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10,
+   11,
+   12
+  ],
+  "seasonNote": "Warm all year. May to December is drier; cyclone risk January to March.",
+  "arrival": "SSR International Airport is about 1 hour from Port Louis and most beach areas.",
+  "gettingAround": "Rent a car or hire a driver; buses are cheap but slow.",
+  "foodTip": "Dholl puri, mine frite and Creole curries.",
+  "buyTip": "Model ships, rum and vanilla.",
+  "baseArea": "Grand Baie (north) or Le Morne (southwest)",
+  "hotel": [
+   4000,
+   30000
+  ],
+  "connections": [
+   {
+    "to": "dubai",
+    "mode": "Flight",
+    "minutes": 390,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Le Morne Brabant",
+    "kind": "see",
+    "id": "mru-lemorne",
+    "at": [
+     -20.45,
+     57.315
+    ],
+    "wiki": "Le Morne Brabant",
+    "area": "Southwest",
+    "summary": "A UNESCO mountain with a hike to lagoon views and a story of escaped slaves.",
+    "expect": "Guided hike for the summit.",
+    "tip": "Start at dawn.",
+    "why": "Mauritius' icon.",
+    "flow": [
+     "Trailhead.",
+     "Cross.",
+     "Summit view."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     1500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Seven Coloured Earth and Chamarel Falls",
+    "kind": "see",
+    "id": "mru-chamarel",
+    "at": [
+     -20.44,
+     57.373
+    ],
+    "wiki": "Chamarel",
+    "area": "Chamarel",
+    "summary": "Rainbow-coloured sand dunes and a tall waterfall.",
+    "expect": "Small fee.",
+    "tip": "Combine with a rum distillery.",
+    "why": "Geological wonder.",
+    "flow": [
+     "Falls viewpoint.",
+     "Coloured earth."
+    ],
+    "hours": 2,
+    "price": [
+     350,
+     350
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Black River Gorges",
+    "kind": "see",
+    "id": "mru-blackriver",
+    "at": [
+     -20.42,
+     57.43
+    ],
+    "wiki": "Black River Gorges National Park",
+    "area": "Southwest",
+    "summary": "Rainforest gorges with endemic birds.",
+    "expect": "Hiking trails.",
+    "tip": "Walk to Alexandra Falls.",
+    "why": "Island's wild heart.",
+    "flow": [
+     "Viewpoint.",
+     "Trail."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Port Louis",
+    "kind": "see",
+    "id": "mru-portlouis",
+    "at": [
+     -20.1609,
+     57.5012
+    ],
+    "wiki": "Port Louis",
+    "area": "Port Louis",
+    "summary": "The capital's central market, Aapravasi Ghat and waterfront.",
+    "expect": "Busy and hot.",
+    "tip": "Go in the morning.",
+    "why": "Island life.",
+    "flow": [
+     "Central market.",
+     "Aapravasi Ghat.",
+     "Caudan."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Île aux Cerfs",
+    "kind": "see",
+    "id": "mru-ilecerfs",
+    "at": [
+     -20.27,
+     57.8
+    ],
+    "wiki": "Île aux Cerfs",
+    "area": "East",
+    "summary": "Island lagoon beaches with watersports.",
+    "expect": "Boat from Trou d'Eau Douce.",
+    "tip": "Go early.",
+    "why": "Lagoon paradise.",
+    "flow": [
+     "Boat.",
+     "Beach.",
+     "Waterfall boat trip."
+    ],
+    "hours": 6,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Grand Bassin",
+    "kind": "see",
+    "id": "mru-grandbassin",
+    "at": [
+     -20.418,
+     57.492
+    ],
+    "wiki": "Ganga Talao",
+    "area": "South",
+    "summary": "A sacred crater lake for Hindu pilgrims with a giant Shiva.",
+    "expect": "Dress respectfully.",
+    "tip": "Visit during Maha Shivaratri.",
+    "why": "Spiritual heart.",
+    "flow": [
+     "Lake.",
+     "Shiva statue."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Dolphin swim at Tamarin",
+    "kind": "see",
+    "id": "mru-dolphins",
+    "at": [
+     -20.326,
+     57.37
+    ],
+    "wiki": "Tamarin",
+    "area": "West",
+    "summary": "Swim with dolphins in Tamarin Bay.",
+    "expect": "Choose responsible operators.",
+    "tip": "Go early.",
+    "why": "Wild dolphins.",
+    "flow": [
+     "Boat.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Dholl puri",
+    "kind": "eat",
+    "id": "mru-dholl",
+    "at": [
+     -20.162,
+     57.502
+    ],
+    "wiki": "Dholl puri",
+    "area": "Port Louis",
+    "venue": "food-area",
+    "summary": "Split-pea flatbreads with curries.",
+    "expect": "Street stalls.",
+    "tip": "Try at the market.",
+    "why": "National snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mauritian",
+    "order": [
+     "Dholl puri"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Creole curries",
+    "kind": "eat",
+    "id": "mru-curry",
+    "at": [
+     -20.01,
+     57.58
+    ],
+    "wiki": "Mauritian cuisine",
+    "area": "Grand Baie",
+    "venue": "food-area",
+    "summary": "Octopus curry and rougaille.",
+    "expect": "Beach restaurants.",
+    "tip": "Try octopus curry.",
+    "why": "Island flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     400,
+     1200
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mauritian",
+    "order": [
+     "Octopus curry",
+     "Rougaille"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Rhumerie de Chamarel",
+    "kind": "eat",
+    "id": "mru-rum",
+    "at": [
+     -20.43,
+     57.39
+    ],
+    "wiki": "Rum",
+    "area": "Chamarel",
+    "venue": "food-area",
+    "summary": "Agricultural rum distillery tours.",
+    "expect": "Tasting included.",
+    "tip": "Try vanilla rum.",
+    "why": "Island spirit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     800
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mauritian",
+    "order": [
+     "Rum"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Seychelles",
+  "region": "Africa",
+  "currency": "EUR",
+  "cashTip": "Seychelles uses rupees, but most tourist prices are quoted in euros; cards work widely. Prices here are in euros.",
+  "dailyBudget": [
+   150,
+   500
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "seychelles",
+  "name": "Mahé · Seychelles",
+  "at": [
+   -4.6191,
+   55.4513
+  ],
+  "wiki": "Seychelles",
+  "cover": "Anse Source d'Argent",
+  "seasons": "HSSSSSSSSSSH",
+  "tagline": "Granite boulders and the world's most beautiful beaches",
+  "summary": "The Seychelles are granite islands in the Indian Ocean with beaches framed by giant boulders. Base on Mahé to explore Victoria and Morne Seychellois, then ferry to Praslin's Vallée de Mai and La Digue's famous Anse Source d'Argent.",
+  "days": 6,
+  "bestMonths": [
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Warm all year. April-May and October-November are calmest between monsoons.",
+  "arrival": "Seychelles International Airport is on Mahé, 15 minutes from Victoria.",
+  "gettingAround": "Buses and rental cars on Mahé; ferries to Praslin and La Digue; bikes on La Digue.",
+  "foodTip": "Creole fish curry, grilled octopus and breadfruit chips.",
+  "buyTip": "Coco de mer souvenirs (licensed) and local vanilla.",
+  "baseArea": "Beau Vallon on Mahé",
+  "hotel": [
+   150,
+   800
+  ],
+  "connections": [
+   {
+    "to": "dubai",
+    "mode": "Flight",
+    "minutes": 270,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Beau Vallon",
+    "kind": "see",
+    "id": "sez-beauvallon",
+    "at": [
+     -4.617,
+     55.428
+    ],
+    "wiki": "Beau Vallon, Seychelles",
+    "area": "Mahé",
+    "summary": "A long sheltered beach with sunset food stalls on Wednesdays.",
+    "expect": "Calm in summer.",
+    "tip": "Come Wednesday night.",
+    "why": "Mahé's main beach.",
+    "flow": [
+     "Swim.",
+     "Sunset."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Morne Seychellois hikes",
+    "kind": "see",
+    "id": "sez-morne",
+    "at": [
+     -4.66,
+     55.43
+    ],
+    "wiki": "Morne Seychellois National Park",
+    "area": "Mahé",
+    "summary": "Rainforest trails like Copolia to granite viewpoints.",
+    "expect": "Humid; go early.",
+    "tip": "Hike Copolia for views.",
+    "why": "Mountain island.",
+    "flow": [
+     "Trail.",
+     "Viewpoint."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Victoria",
+    "kind": "see",
+    "id": "sez-victoria",
+    "at": [
+     -4.6191,
+     55.4513
+    ],
+    "wiki": "Victoria, Seychelles",
+    "area": "Mahé",
+    "summary": "One of the world's smallest capitals, with a clock tower and market.",
+    "expect": "Sir Selwyn Clarke Market busiest on Saturday.",
+    "tip": "Visit the Hindu temple too.",
+    "why": "Tiny capital.",
+    "flow": [
+     "Clock tower.",
+     "Market."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "La Digue and Anse Source d'Argent",
+    "kind": "see",
+    "id": "sez-ladigue",
+    "at": [
+     -4.37,
+     55.827
+    ],
+    "wiki": "Anse Source d'Argent",
+    "area": "La Digue",
+    "summary": "Pink-granite boulder beach, reached by bike.",
+    "expect": "Ferry via Praslin; entry fee through L'Union Estate.",
+    "tip": "Go at low tide.",
+    "why": "Famous beach.",
+    "flow": [
+     "Ferry.",
+     "Bike.",
+     "Beach."
+    ],
+    "hours": 8,
+    "price": [
+     30,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Vallée de Mai",
+    "kind": "see",
+    "id": "sez-valleemai",
+    "at": [
+     -4.33,
+     55.738
+    ],
+    "wiki": "Vallée de Mai",
+    "area": "Praslin",
+    "summary": "UNESCO palm forest of coco de mer.",
+    "expect": "Entry fee is high.",
+    "tip": "Listen for black parrots.",
+    "why": "Primeval forest.",
+    "flow": [
+     "Trails.",
+     "Coco de mer."
+    ],
+    "hours": 3,
+    "price": [
+     40,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ste Anne Marine Park",
+    "kind": "see",
+    "id": "sez-stanne",
+    "at": [
+     -4.6,
+     55.5
+    ],
+    "wiki": "Sainte Anne Marine National Park",
+    "area": "Off Mahé",
+    "summary": "Snorkelling and glass-bottom boats.",
+    "expect": "Half-day trips.",
+    "tip": "Book a snorkel trip.",
+    "why": "Reef life.",
+    "flow": [
+     "Boat.",
+     "Snorkel."
+    ],
+    "hours": 4,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Creole fish curry",
+    "kind": "eat",
+    "id": "sez-curry",
+    "at": [
+     -4.617,
+     55.43
+    ],
+    "wiki": "Seychellois cuisine",
+    "area": "Beau Vallon",
+    "venue": "food-area",
+    "summary": "Coconut-rich fish curries.",
+    "expect": "Takeaways are cheap.",
+    "tip": "Try a Creole takeaway.",
+    "why": "Local taste.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Creole",
+    "order": [
+     "Fish curry"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Grilled octopus",
+    "kind": "eat",
+    "id": "sez-octopus",
+    "at": [
+     -4.617,
+     55.428
+    ],
+    "wiki": "Octopus",
+    "area": "Beach stalls",
+    "venue": "food-area",
+    "summary": "Grilled octopus at the beach market.",
+    "expect": "Wednesday market.",
+    "tip": "Eat on the sand.",
+    "why": "Seafood treat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Creole",
+    "order": [
+     "Grilled octopus"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Breadfruit chips",
+    "kind": "eat",
+    "id": "sez-breadfruit",
+    "at": [
+     -4.62,
+     55.45
+    ],
+    "wiki": "Breadfruit",
+    "area": "Victoria",
+    "venue": "food-area",
+    "summary": "Crisp fried breadfruit.",
+    "expect": "Snack.",
+    "tip": "Buy at the market.",
+    "why": "Island snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Creole",
+    "order": [
+     "Breadfruit chips"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "South Africa",
+  "region": "Africa",
+  "currency": "ZAR",
+  "cashTip": "Cards work almost everywhere; keep some rand for tips, car guards and park entry kiosks.",
+  "dailyBudget": [
+   1200,
+   4000
+  ],
+  "cashPerDay": [
+   200,
+   500
+  ],
+  "id": "knysna",
+  "name": "Knysna · Garden Route",
+  "at": [
+   -34.0363,
+   23.0471
+  ],
+  "wiki": "Knysna",
+  "cover": "Knysna Heads",
+  "seasons": "SSSSLLLLSSHH",
+  "tagline": "Lagoons, forests and the scenic Garden Route",
+  "summary": "Knysna is the heart of South Africa's Garden Route, a lagoon town between forests and the sea. Explore the Knysna Heads, Robberg's seal colony at Plettenberg Bay, the suspension bridge at Storms River and oysters by the water.",
+  "days": 3,
+  "bestMonths": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Summer is warm and busy; winter is mild with some rain.",
+  "arrival": "About 6.5 hours' drive from Cape Town, or fly to George (1 hour away).",
+  "gettingAround": "Self-drive along the N2.",
+  "foodTip": "Knysna oysters and local craft beer.",
+  "buyTip": "Woodwork from forest timbers.",
+  "baseArea": "Knysna Waterfront or Thesen Island",
+  "hotel": [
+   1200,
+   5000
+  ],
+  "connections": [
+   {
+    "to": "cape-town",
+    "mode": "Car",
+    "minutes": 390,
+    "note": "Scenic drive on the N2."
+   }
+  ],
+  "items": [
+   {
+    "name": "Knysna Heads",
+    "kind": "see",
+    "id": "kny-heads",
+    "at": [
+     -34.08,
+     23.06
+    ],
+    "wiki": "Knysna Heads",
+    "area": "Heads",
+    "summary": "Sandstone cliffs guarding the lagoon mouth.",
+    "expect": "Free viewpoints.",
+    "tip": "Go at sunset.",
+    "why": "Iconic view.",
+    "flow": [
+     "East Head viewpoint.",
+     "Featherbed reserve."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Featherbed Nature Reserve",
+    "kind": "see",
+    "id": "kny-featherbed",
+    "at": [
+     -34.078,
+     23.055
+    ],
+    "wiki": "Featherbed Nature Reserve",
+    "area": "Western Head",
+    "summary": "Ferry over to cliffs, caves and a guided walk.",
+    "expect": "Booked tours.",
+    "tip": "Combine with lunch.",
+    "why": "Lagoon scenery.",
+    "flow": [
+     "Ferry.",
+     "Walk.",
+     "Caves."
+    ],
+    "hours": 3,
+    "price": [
+     600,
+     800
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Robberg Nature Reserve",
+    "kind": "see",
+    "id": "kny-robberg",
+    "at": [
+     -34.1,
+     23.38
+    ],
+    "wiki": "Robberg Nature Reserve",
+    "area": "Plettenberg Bay",
+    "summary": "Peninsula hike past seal colonies.",
+    "expect": "Tidal paths; sturdy shoes.",
+    "tip": "Do the full loop.",
+    "why": "Wild coast.",
+    "flow": [
+     "Seal colony.",
+     "The Gap.",
+     "Island walk."
+    ],
+    "hours": 4,
+    "price": [
+     60,
+     60
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Storms River Mouth",
+    "kind": "see",
+    "id": "kny-stormsriver",
+    "at": [
+     -34.021,
+     23.901
+    ],
+    "wiki": "Tsitsikamma National Park",
+    "area": "Tsitsikamma",
+    "summary": "Suspension bridge over the river mouth in Tsitsikamma.",
+    "expect": "Over an hour's drive.",
+    "tip": "Kayak up the gorge.",
+    "why": "Spectacular bridge.",
+    "flow": [
+     "Bridge.",
+     "Kayak."
+    ],
+    "hours": 5,
+    "price": [
+     250,
+     300
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Knysna forests",
+    "kind": "see",
+    "id": "kny-forest",
+    "at": [
+     -33.95,
+     23.03
+    ],
+    "wiki": "Knysna Forest",
+    "area": "Forest",
+    "summary": "Ancient forests with giant yellowwood trees.",
+    "expect": "Trails.",
+    "tip": "Visit Diepwalle.",
+    "why": "Forest elephants' legend.",
+    "flow": [
+     "Trails.",
+     "Big tree."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Bloukrans Bridge bungee",
+    "kind": "see",
+    "id": "kny-bungee",
+    "at": [
+     -33.967,
+     23.645
+    ],
+    "wiki": "Bloukrans Bridge",
+    "area": "Bloukrans",
+    "summary": "One of the world's highest bridge bungee jumps.",
+    "expect": "Book ahead.",
+    "tip": "Watch from the viewing deck if not jumping.",
+    "why": "Thrill.",
+    "flow": [
+     "Briefing.",
+     "Jump."
+    ],
+    "hours": 2,
+    "price": [
+     1400,
+     1600
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Knysna oysters",
+    "kind": "eat",
+    "id": "kny-oysters",
+    "at": [
+     -34.04,
+     23.05
+    ],
+    "wiki": "Oyster",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Fresh lagoon oysters.",
+    "expect": "Waterfront bars.",
+    "tip": "Try the Oyster Festival in July.",
+    "why": "Local delicacy.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     250
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Oysters"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mitchell's Brewery",
+    "kind": "eat",
+    "id": "kny-beer",
+    "at": [
+     -34.035,
+     23.055
+    ],
+    "wiki": "Mitchell's Brewery",
+    "area": "Knysna",
+    "venue": "food-area",
+    "summary": "South Africa's oldest microbrewery.",
+    "expect": "Tastings.",
+    "tip": "Try the Forester's Draught.",
+    "why": "Local beer.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Fish and chips by the lagoon",
+    "kind": "eat",
+    "id": "kny-fishchips",
+    "at": [
+     -34.04,
+     23.048
+    ],
+    "wiki": "Fish and chips",
+    "area": "Thesen Island",
+    "venue": "food-area",
+    "summary": "Hake and chips by the water.",
+    "expect": "Casual.",
+    "tip": "Eat by the lagoon.",
+    "why": "Simple joy.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Hake and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]
