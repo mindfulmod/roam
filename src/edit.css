@@ -1,0 +1,594 @@
+/* The ripple on a story (src/story.js) and editing a story in place (src/edit.js). Theme tokens
+   only, so dark mode needs no extra pass. The ripple has its own colour, the route orange, so it
+   reads as something that happened after the trip rather than part of it. */
+
+/* ---------------------------------------------------------------- The ripple */
+.st-rip-mark {
+  display: inline-grid;
+  place-items: center;
+  flex: none;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--orange) 16%, var(--white));
+  color: var(--orange);
+}
+.st-rip-mark .icon {
+  width: 15px;
+  height: 15px;
+  stroke-width: 2.4;
+}
+.st-rip-mark.big {
+  width: 44px;
+  height: 44px;
+}
+.st-rip-mark.big .icon {
+  width: 26px;
+  height: 26px;
+}
+.st-ripples {
+  margin: 0 0 22px;
+  padding: 18px;
+  border: 1px solid color-mix(in srgb, var(--orange) 45%, var(--line));
+  border-radius: var(--radius);
+  background: color-mix(in srgb, var(--orange) 7%, var(--white));
+}
+.st-ripples > header {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  margin-bottom: 14px;
+}
+.st-ripples h2 {
+  font-size: 22px;
+  margin: 0;
+  line-height: 1.2;
+}
+.st-ripples header p {
+  margin: 2px 0 0;
+  color: var(--muted);
+  font-size: 14px;
+  line-height: 1.45;
+}
+.st-rip-row {
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  margin: 0 -18px;
+  padding: 2px 18px 4px;
+}
+.st-rip-row::-webkit-scrollbar {
+  display: none;
+}
+.st-rip-card {
+  flex: 0 0 260px;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 8px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--white);
+  color: var(--ink);
+  text-align: left;
+  font: inherit;
+}
+.st-rip-card:not(.went) {
+  flex-basis: 220px;
+}
+.st-rip-pair {
+  position: relative;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 4px;
+}
+/* The two photos of the same spot, joined by a ring: then, and later. */
+.st-rip-pair::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 22px;
+  height: 22px;
+  margin: -11px 0 0 -11px;
+  border-radius: 50%;
+  background: var(--orange);
+  box-shadow:
+    0 0 0 3px var(--white),
+    0 0 0 6px color-mix(in srgb, var(--orange) 45%, transparent);
+}
+.st-rip-pair > span,
+.st-rip-one {
+  position: relative;
+  display: block;
+  aspect-ratio: 4 / 3;
+  border-radius: 11px;
+  overflow: hidden;
+  background: var(--teal2);
+}
+.st-rip-one {
+  aspect-ratio: 16 / 7;
+}
+.st-rip-pair img,
+.st-rip-pair .nophoto,
+.st-rip-one img,
+.st-rip-one .nophoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: var(--photo-filter);
+}
+.st-rip-pair em {
+  position: absolute;
+  left: 5px;
+  bottom: 5px;
+  padding: 1px 6px;
+  border-radius: 6px;
+  background: #000b;
+  color: #fff;
+  font-size: 13px;
+  font-style: normal;
+}
+.st-rip-copy {
+  display: flex;
+  gap: 8px;
+  align-items: flex-start;
+}
+.st-rip-copy .st-avatar {
+  margin-top: 2px;
+}
+.st-rip-copy > span {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.st-rip-copy strong {
+  font-size: 15px;
+  line-height: 1.3;
+}
+.st-rip-copy small {
+  color: var(--muted);
+  font-size: 13px;
+}
+.st-rip-key {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 12px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  line-height: 1.45;
+}
+.st-pin.demo {
+  flex: none;
+  margin: 6px;
+}
+
+/* On a stop card */
+.st-stop.has-rip {
+  border-color: color-mix(in srgb, var(--orange) 40%, var(--line));
+}
+.st-rips {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 10px 0 0;
+}
+.st-rip {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  margin: 0;
+  padding: 6px 8px;
+  border-radius: 12px;
+  background: color-mix(in srgb, var(--orange) 9%, var(--white));
+  font-size: 14px;
+  line-height: 1.35;
+}
+.st-rip-text {
+  flex: 1;
+  min-width: 0;
+}
+.st-rip-later {
+  flex: none;
+  width: 44px;
+  height: 34px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: var(--teal2);
+}
+.st-rip-later img,
+.st-rip-later .nophoto {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  font-size: 0;
+}
+
+/* On the map: a ring keeps spreading from every place that led somewhere. */
+.st-pin.rip {
+  position: relative;
+  overflow: visible;
+}
+.st-pin.rip::before,
+.st-pin.rip::after {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: 50%;
+  border: 2px solid var(--orange);
+  pointer-events: none;
+  animation: st-ripple 2.4s cubic-bezier(0.2, 0.6, 0.3, 1) infinite;
+}
+.st-pin.rip::after {
+  animation-delay: 1.2s;
+}
+@keyframes st-ripple {
+  from {
+    transform: scale(1);
+    opacity: 0.9;
+  }
+  to {
+    transform: scale(2.6);
+    opacity: 0;
+  }
+}
+.story-mapbox.far .st-pin.rip::before,
+.story-mapbox.far .st-pin.rip::after {
+  inset: -5px;
+}
+
+/* The stop's own page and the tap-through view */
+.st-sheet-rip {
+  margin: 18px 0 0;
+  padding: 14px;
+  border-radius: 16px;
+  background: color-mix(in srgb, var(--orange) 8%, var(--white));
+}
+.st-sheet-rip h3 {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 10px;
+  font-size: 16px;
+}
+.st-sheet-rip h3 .icon {
+  color: var(--orange);
+}
+.st-sheet-pair {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 6px;
+}
+.st-sheet-pair figure {
+  margin: 0;
+}
+.st-sheet-pair img,
+.st-sheet-pair .nophoto {
+  display: block;
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 12px;
+  filter: var(--photo-filter);
+}
+.st-sheet-pair figcaption {
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 13px;
+}
+.st-sheet-ripnote {
+  margin: 10px 0 0;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.st-sheet-ripnote q {
+  display: block;
+  margin-top: 4px;
+  font-style: italic;
+}
+.st-tap-rip {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 6px 0 0;
+  color: #fff;
+  font-size: 14px;
+}
+.st-tap-rip .icon {
+  color: var(--gold);
+  width: 18px;
+  height: 18px;
+}
+
+/* Saving a place from someone's story: a ring spreads from the button. */
+.st-act.rippling {
+  position: relative;
+  overflow: visible;
+}
+.st-act.rippling::after {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border-radius: 999px;
+  border: 2px solid var(--orange);
+  pointer-events: none;
+  animation: st-ripple-btn 0.9s ease-out forwards;
+}
+@keyframes st-ripple-btn {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1.6, 2.2);
+    opacity: 0;
+  }
+}
+.st-photo.hid img {
+  opacity: 0.45;
+}
+@media (prefers-reduced-motion: reduce) {
+  .st-pin.rip::before {
+    animation: none;
+    transform: scale(1.7);
+    opacity: 0.7;
+  }
+  .st-pin.rip::after,
+  .st-act.rippling::after {
+    display: none;
+  }
+}
+
+/* ---------------------------------------------------------------- Editing in place */
+.ed-open {
+  margin-left: 4px;
+}
+.ed-pen {
+  display: inline-grid;
+  vertical-align: middle;
+  width: 36px;
+  height: 36px;
+  margin-left: 8px;
+}
+.ed-pen .icon {
+  width: 18px;
+  height: 18px;
+}
+.ed-pen.light {
+  background: #ffffffe6;
+  color: #173b39;
+}
+.story-hero .ed-cover {
+  position: absolute;
+  right: 52px;
+  top: 12px;
+  z-index: 3;
+}
+.ed-banner {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin: 0 0 22px;
+  padding: 14px 16px;
+  border: 1px solid var(--teal);
+  border-radius: 16px;
+  background: var(--teal2);
+}
+.ed-banner-copy {
+  flex: 1;
+  min-width: 0;
+}
+.ed-banner .eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--teal);
+}
+.ed-banner .eyebrow .icon {
+  width: 15px;
+  height: 15px;
+}
+.ed-banner p {
+  margin: 4px 0 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+.ed-banner .ed-banner-fine {
+  color: var(--muted);
+  font-size: 13px;
+}
+.ed-banner .btn {
+  flex: none;
+}
+.ed-tools {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 12px;
+}
+.ed-move {
+  display: inline-flex;
+  gap: 4px;
+  margin-right: auto;
+}
+.ed-move .iconbtn:disabled {
+  opacity: 0.3;
+}
+.ed-danger {
+  color: #b3261e;
+}
+.st-stop.ed-moved {
+  animation: ed-moved 1.2s ease-out;
+}
+@keyframes ed-moved {
+  from {
+    box-shadow: 0 0 0 4px var(--day);
+  }
+  to {
+    box-shadow: 0 0 0 0 transparent;
+  }
+}
+.ed-photo {
+  position: relative;
+}
+.ed-photo.hid img {
+  opacity: 0.35;
+  filter: grayscale(1);
+}
+.ed-ptools {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+  display: flex;
+  gap: 6px;
+  z-index: 2;
+}
+.ed-pbtn {
+  display: grid;
+  place-items: center;
+  width: 36px;
+  height: 36px;
+  border: 0;
+  border-radius: 50%;
+  background: #000a;
+  color: #fff;
+}
+.ed-pbtn .icon {
+  width: 18px;
+  height: 18px;
+}
+.ed-pbtn.on {
+  background: #fff;
+  color: #173b39;
+}
+.ed-pbtn[data-action='ed-cover-pick'].on .icon {
+  fill: var(--gold);
+  stroke: #8a6a1c;
+}
+.ed-add {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  width: 100%;
+  min-height: 48px;
+  margin: 10px 0 0;
+  border: 1px dashed var(--line);
+  border-radius: 14px;
+  background: none;
+  color: var(--ink);
+  font-weight: 600;
+}
+.ed-add .icon {
+  width: 18px;
+  height: 18px;
+}
+.ed-covers {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.lg-modal select {
+  width: 100%;
+  min-height: 44px;
+  padding: 6px 12px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--white);
+  color: var(--ink);
+  font: inherit;
+  font-weight: 400;
+}
+.ed-changes .lg-changes {
+  margin-top: 6px;
+}
+.ed-changes .lg-changes li.undone > span {
+  text-decoration: none;
+}
+.ed-changes .lg-changes li.undone strong {
+  text-decoration: line-through;
+}
+
+/* The bar at the bottom while editing takes the tab bar's place. */
+.ed-bar {
+  position: fixed;
+  left: 50%;
+  bottom: max(14px, env(safe-area-inset-bottom));
+  z-index: 800;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: min(560px, calc(100% - 24px));
+  padding: 8px;
+  transform: translateX(-50%);
+  border: 1px solid var(--line);
+  border-radius: 22px;
+  background: var(--white);
+  box-shadow: 0 8px 28px #0b292930;
+}
+.ed-bar .btn {
+  flex: none;
+}
+.ed-bar .btn .icon {
+  width: 16px;
+  height: 16px;
+}
+.ed-count {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px 6px;
+  border: 0;
+  border-radius: 12px;
+  background: none;
+  color: var(--ink);
+  font: inherit;
+}
+.ed-count strong {
+  font-size: 14px;
+}
+.ed-count span {
+  color: var(--muted);
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 100%;
+}
+body.st-editing .nav,
+body.st-editing #minicart {
+  display: none;
+}
+body.st-editing .story-page {
+  padding-bottom: 90px;
+}
+@media (max-width: 760px) {
+  .st-ripples {
+    padding: 15px;
+  }
+  .st-rip-row {
+    margin: 0 -15px;
+    padding: 2px 15px 4px;
+  }
+  .st-rip-card {
+    flex-basis: 240px;
+  }
+  .ed-banner {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .ed-open {
+    width: 100%;
+    justify-content: center;
+    margin: 4px 0 0;
+  }
+  .ed-tools .st-act {
+    flex: 1;
+    justify-content: center;
+  }
+}
