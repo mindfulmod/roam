@@ -66,8 +66,8 @@
       "id": "havana-hav-oldhavana",
       "name": "Old Havana plazas",
       "kind": "see",
-      "lat": 23.139,
-      "lon": -82.35,
+      "lat": 23.13594,
+      "lon": -82.35833,
       "wiki": "Old Havana",
       "summary": "Plaza de la Catedral, Plaza Vieja and Plaza de Armas.",
       "expect": "Free.",
@@ -108,14 +108,22 @@
         "Free.",
         "Explore early morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20959,
+          "period": "202511-202610",
+          "title": "Old Havana",
+          "url": "https://en.wikipedia.org/wiki/Old_Havana",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "havana-hav-malecon",
       "name": "Malecón",
       "kind": "see",
-      "lat": 23.144,
-      "lon": -82.37,
+      "lat": 23.14167,
+      "lon": -82.36806,
       "wiki": "Malecón, Havana",
       "summary": "A seawall promenade where Havana gathers at sunset.",
       "expect": "Waves splash in winter.",
@@ -154,7 +162,15 @@
         "Waves splash in winter.",
         "Walk at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19333,
+          "period": "202511-202610",
+          "title": "Malecón, Havana",
+          "url": "https://en.wikipedia.org/wiki/Malec%C3%B3n%2C_Havana",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "havana-hav-cars",
@@ -200,14 +216,23 @@
         "Agree price first.",
         "Include Plaza de la Revolución."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 24757,
+          "period": "202511-202610",
+          "title": "Classic car",
+          "url": "https://en.wikipedia.org/wiki/Classic_car",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "havana-hav-capitolio",
       "name": "El Capitolio",
       "kind": "see",
-      "lat": 23.1352,
-      "lon": -82.3594,
+      "lat": 23.13528,
+      "lon": -82.35944,
       "wiki": "El Capitolio",
       "summary": "Grand domed capitol building.",
       "expect": "Tours available.",
@@ -247,7 +272,15 @@
         "Tours available.",
         "See the diamond under the dome."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24635,
+          "period": "202511-202610",
+          "title": "National Capitol of Cuba",
+          "url": "https://en.wikipedia.org/wiki/National_Capitol_of_Cuba",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "havana-hav-fusterlandia",
@@ -339,14 +372,23 @@
         "Nights.",
         "Dance!"
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 45563,
+          "period": "202511-202610",
+          "title": "Son cubano",
+          "url": "https://en.wikipedia.org/wiki/Son_cubano",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "havana-hav-vinales",
       "name": "Viñales Valley",
       "kind": "see",
-      "lat": 22.6167,
-      "lon": -83.7167,
+      "lat": 22.61667,
+      "lon": -83.71667,
       "wiki": "Viñales Valley",
       "summary": "Tobacco farms and karst mogotes.",
       "expect": "Long day trip; better overnight.",
@@ -385,8 +427,16 @@
         "Long day trip; better overnight.",
         "Ride a horse to a tobacco farm."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7888,
+          "period": "202511-202610",
+          "title": "Viñales Valley",
+          "url": "https://en.wikipedia.org/wiki/Vi%C3%B1ales_Valley",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "havana-hav-ropavieja",
@@ -560,5 +610,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

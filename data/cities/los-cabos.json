@@ -66,8 +66,8 @@
       "id": "los-cabos-cab-arch",
       "name": "El Arco",
       "kind": "see",
-      "lat": 22.8758,
-      "lon": -109.892,
+      "lat": 22.87515,
+      "lon": -109.89417,
       "wiki": "El Arco de Cabo San Lucas",
       "summary": "The rock arch at Land's End, reached by boat with sea lions nearby.",
       "expect": "Glass-bottom boats from the marina.",
@@ -107,7 +107,15 @@
         "Glass-bottom boats from the marina.",
         "Stop at Lovers Beach."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16331,
+          "period": "202511-202610",
+          "title": "Arch of Cabo San Lucas",
+          "url": "https://en.wikipedia.org/wiki/Arch_of_Cabo_San_Lucas",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "los-cabos-cab-chileno",
@@ -199,14 +207,23 @@
         "Boats from the marina.",
         "Small boats are best."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 437497,
+          "period": "202511-202610",
+          "title": "Humpback whale",
+          "url": "https://en.wikipedia.org/wiki/Humpback_whale",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "los-cabos-cab-sanjose",
       "name": "San José del Cabo art district",
       "kind": "see",
-      "lat": 23.0603,
-      "lon": -109.6977,
+      "lat": 23.06139,
+      "lon": -109.70806,
       "wiki": "San José del Cabo",
       "summary": "Colonial town with Thursday art walks.",
       "expect": "Art walk November to June.",
@@ -246,14 +263,22 @@
         "Art walk November to June.",
         "Go on a Thursday evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 38858,
+          "period": "202511-202610",
+          "title": "San José del Cabo",
+          "url": "https://en.wikipedia.org/wiki/San_Jos%C3%A9_del_Cabo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "los-cabos-cab-todos",
       "name": "Todos Santos",
       "kind": "see",
-      "lat": 23.4464,
-      "lon": -110.2265,
+      "lat": 23.44861,
+      "lon": -110.22333,
       "wiki": "Todos Santos, Baja California Sur",
       "summary": "A bohemian Pueblo Mágico with surf beaches.",
       "expect": "An hour's drive.",
@@ -293,15 +318,23 @@
         "An hour's drive.",
         "Watch sea turtle releases in season."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22693,
+          "period": "202511-202610",
+          "title": "Todos Santos, Baja California Sur",
+          "url": "https://en.wikipedia.org/wiki/Todos_Santos%2C_Baja_California_Sur",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "los-cabos-cab-pulmo",
       "name": "Cabo Pulmo",
       "kind": "see",
-      "lat": 23.4436,
-      "lon": -109.429,
+      "lat": 23.43361,
+      "lon": -109.42444,
       "wiki": "Cabo Pulmo National Park",
       "summary": "A protected reef with huge fish schools.",
       "expect": "Long drive.",
@@ -341,8 +374,16 @@
         "Long drive.",
         "Join a licensed dive."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11229,
+          "period": "202511-202610",
+          "title": "Cabo Pulmo National Park",
+          "url": "https://en.wikipedia.org/wiki/Cabo_Pulmo_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "los-cabos-cab-fishtaco",
@@ -515,5 +556,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

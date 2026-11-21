@@ -66,8 +66,8 @@
       "id": "puerto-vallarta-pvr-malecon",
       "name": "The Malecón",
       "kind": "see",
-      "lat": 20.6105,
-      "lon": -105.2337,
+      "lat": 20.60416,
+      "lon": -105.23834,
       "wiki": "Malecón (Puerto Vallarta)",
       "summary": "A seafront promenade lined with bronze sculptures, best at sunset.",
       "expect": "Free.",
@@ -106,15 +106,14 @@
       "tradeoffs": [
         "Free.",
         "Come at sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "puerto-vallarta-pvr-guadalupe",
       "name": "Our Lady of Guadalupe church",
       "kind": "see",
-      "lat": 20.6091,
-      "lon": -105.2343,
+      "lat": 20.60833,
+      "lon": -105.23472,
       "wiki": "Church of Our Lady of Guadalupe (Puerto Vallarta)",
       "summary": "The town's landmark church with an open-work crown.",
       "expect": "Dress respectfully.",
@@ -154,7 +153,15 @@
         "Dress respectfully.",
         "Visit during the December festival."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15041,
+          "period": "202511-202610",
+          "title": "Church of Our Lady of Guadalupe (Puerto Vallarta)",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Our_Lady_of_Guadalupe_(Puerto_Vallarta)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-vallarta-pvr-romantica",
@@ -201,14 +208,23 @@
         "Busy.",
         "Lunch on the sand."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1627,
+          "period": "202511-202610",
+          "title": "Playa de los Muertos",
+          "url": "https://en.wikipedia.org/wiki/Playa_de_los_Muertos",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-vallarta-pvr-whales",
       "name": "Whale watching",
       "kind": "see",
-      "lat": 20.65,
-      "lon": -105.3,
+      "lat": 20.64949,
+      "lon": -105.38223,
       "wiki": "Banderas Bay",
       "summary": "Humpback whales breach in the bay December to March.",
       "expect": "Boats from the marina.",
@@ -247,14 +263,22 @@
         "Boats from the marina.",
         "Pick a small-boat tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11812,
+          "period": "202511-202610",
+          "title": "Bahía de Banderas",
+          "url": "https://en.wikipedia.org/wiki/Bah%C3%ADa_de_Banderas",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-vallarta-pvr-yelapa",
       "name": "Yelapa by water taxi",
       "kind": "see",
-      "lat": 20.488,
-      "lon": -105.4457,
+      "lat": 20.48833,
+      "lon": -105.44528,
       "wiki": "Yelapa",
       "summary": "A roadless village with a beach and waterfall.",
       "expect": "Water taxi from Los Muertos.",
@@ -295,14 +319,22 @@
         "Water taxi from Los Muertos.",
         "Hike to the waterfall."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8619,
+          "period": "202511-202610",
+          "title": "Yelapa",
+          "url": "https://en.wikipedia.org/wiki/Yelapa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-vallarta-pvr-botanical",
       "name": "Vallarta Botanical Garden",
       "kind": "see",
-      "lat": 20.437,
-      "lon": -105.317,
+      "lat": 20.4658,
+      "lon": -105.2926,
       "wiki": "Vallarta Botanical Garden",
       "summary": "Orchids and jungle river swims.",
       "expect": "Bus from town.",
@@ -341,7 +373,15 @@
         "Bus from town.",
         "Swim in the river."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1409,
+          "period": "202511-202610",
+          "title": "Vallarta Botanical Garden",
+          "url": "https://en.wikipedia.org/wiki/Vallarta_Botanical_Garden",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "puerto-vallarta-pvr-zarandeado",
@@ -514,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

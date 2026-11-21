@@ -65,8 +65,8 @@
       "id": "montego-bay-mbj-doctorscave",
       "name": "Doctor's Cave Beach",
       "kind": "see",
-      "lat": 18.4848,
-      "lon": -77.9302,
+      "lat": 18.48708,
+      "lon": -77.92943,
       "wiki": "Doctor's Cave Beach Club",
       "summary": "Famous calm, clear-water beach.",
       "expect": "Small entry fee.",
@@ -105,14 +105,22 @@
         "Small entry fee.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2254,
+          "period": "202511-202610",
+          "title": "Doctor's Cave Beach Club",
+          "url": "https://en.wikipedia.org/wiki/Doctor's_Cave_Beach_Club",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montego-bay-mbj-dunns",
       "name": "Dunn's River Falls",
       "kind": "see",
-      "lat": 18.4161,
-      "lon": -77.136,
+      "lat": 18.4158,
+      "lon": -77.1381,
       "wiki": "Dunn's River Falls",
       "summary": "Climb a terraced waterfall hand in hand.",
       "expect": "Water shoes help.",
@@ -152,15 +160,23 @@
         "Water shoes help.",
         "Go on a non-cruise day."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14280,
+          "period": "202511-202610",
+          "title": "Dunn's River Falls",
+          "url": "https://en.wikipedia.org/wiki/Dunn's_River_Falls",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montego-bay-mbj-marthabrae",
       "name": "Martha Brae rafting",
       "kind": "see",
-      "lat": 18.442,
-      "lon": -77.644,
+      "lat": 18.48333,
+      "lon": -77.63333,
       "wiki": "Martha Brae River",
       "summary": "Bamboo raft drifts down a calm river.",
       "expect": "Gentle.",
@@ -199,7 +215,15 @@
         "Gentle.",
         "Bring cash for the raftsman."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1975,
+          "period": "202511-202610",
+          "title": "Martha Brae River",
+          "url": "https://en.wikipedia.org/wiki/Martha_Brae_River",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montego-bay-mbj-rosehall",
@@ -251,8 +275,8 @@
       "id": "montego-bay-mbj-negril",
       "name": "Negril Seven Mile Beach and Rick's Café",
       "kind": "see",
-      "lat": 18.273,
-      "lon": -78.349,
+      "lat": 18.31102,
+      "lon": -78.33939,
       "wiki": "Negril",
       "summary": "Long beach and cliff-jumping sunset bar.",
       "expect": "90 minutes drive.",
@@ -292,8 +316,16 @@
         "90 minutes drive.",
         "Stay for sunset."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22875,
+          "period": "202511-202610",
+          "title": "Negril",
+          "url": "https://en.wikipedia.org/wiki/Negril",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montego-bay-mbj-luminous",
@@ -513,5 +545,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

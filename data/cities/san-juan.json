@@ -71,8 +71,8 @@
       "id": "san-juan-sju-morro",
       "name": "El Morro",
       "kind": "see",
-      "lat": 18.4707,
-      "lon": -66.1239,
+      "lat": 18.47083,
+      "lon": -66.12417,
       "wiki": "Castillo San Felipe del Morro",
       "summary": "A 16th-century citadel on the headland.",
       "expect": "Hot; bring water.",
@@ -112,14 +112,22 @@
         "Hot; bring water.",
         "Fly a kite on the lawn."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 69056,
+          "period": "202511-202610",
+          "title": "Castillo San Felipe del Morro",
+          "url": "https://en.wikipedia.org/wiki/Castillo_San_Felipe_del_Morro",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-juan-sju-oldtown",
       "name": "Old San Juan streets",
       "kind": "see",
-      "lat": 18.4655,
-      "lon": -66.1167,
+      "lat": 18.46611,
+      "lon": -66.11639,
       "wiki": "Old San Juan",
       "summary": "Blue cobblestones, pastel houses and plazas.",
       "expect": "Hilly.",
@@ -159,14 +167,22 @@
         "Hilly.",
         "Find the umbrella street."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 40755,
+          "period": "202511-202610",
+          "title": "Old San Juan",
+          "url": "https://en.wikipedia.org/wiki/Old_San_Juan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-juan-sju-cristobal",
       "name": "Castillo San Cristóbal",
       "kind": "see",
-      "lat": 18.4672,
-      "lon": -66.1112,
+      "lat": 18.46737,
+      "lon": -66.1107,
       "wiki": "Castillo San Cristóbal",
       "summary": "The largest Spanish fort in the Americas.",
       "expect": "Same ticket as El Morro.",
@@ -204,8 +220,7 @@
       "tradeoffs": [
         "Same ticket as El Morro.",
         "Explore tunnels."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-juan-sju-yunque",
@@ -253,7 +268,16 @@
         "Reservations for the main road.",
         "Hike to La Mina falls."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 50539,
+          "period": "202511-202610",
+          "title": "El Yunque National Forest",
+          "url": "https://en.wikipedia.org/wiki/El_Yunque_National_Forest",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-juan-sju-bio",
@@ -306,8 +330,8 @@
       "id": "san-juan-sju-condado",
       "name": "Condado beach",
       "kind": "see",
-      "lat": 18.459,
-      "lon": -66.074,
+      "lat": 18.45774,
+      "lon": -66.07327,
       "wiki": "Condado",
       "summary": "City beach with hotels.",
       "expect": "Rough surf at times.",
@@ -345,8 +369,7 @@
       "tradeoffs": [
         "Rough surf at times.",
         "Swim at the lagoon side."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-juan-sju-mofongo",
@@ -520,5 +543,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

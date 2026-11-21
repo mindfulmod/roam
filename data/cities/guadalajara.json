@@ -72,8 +72,8 @@
       "id": "guadalajara-gdl-cabanas",
       "name": "Hospicio Cabañas",
       "kind": "see",
-      "lat": 20.6766,
-      "lon": -103.3365,
+      "lat": 20.67687,
+      "lon": -103.33771,
       "wiki": "Hospicio Cabañas",
       "summary": "A UNESCO orphanage with José Clemente Orozco's murals, including 'Man of Fire'.",
       "expect": "Lie on the benches to see the dome.",
@@ -113,14 +113,22 @@
         "Lie on the benches to see the dome.",
         "Go mid-morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10006,
+          "period": "202511-202610",
+          "title": "Hospicio Cabañas",
+          "url": "https://en.wikipedia.org/wiki/Hospicio_Caba%C3%B1as",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "guadalajara-gdl-cathedral",
       "name": "Cathedral and plazas",
       "kind": "see",
-      "lat": 20.6767,
-      "lon": -103.3475,
+      "lat": 20.67723,
+      "lon": -103.34699,
       "wiki": "Guadalajara Cathedral",
       "summary": "Twin-spired cathedral amid four plazas forming a cross.",
       "expect": "Free.",
@@ -160,14 +168,22 @@
         "Free.",
         "Walk all four plazas."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18285,
+          "period": "202511-202610",
+          "title": "Guadalajara Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Guadalajara_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "guadalajara-gdl-mariachi",
       "name": "Plaza de los Mariachis",
       "kind": "see",
-      "lat": 20.6742,
-      "lon": -103.3389,
+      "lat": 20.67486,
+      "lon": -103.34135,
       "wiki": "Mariachi",
       "summary": "Mariachi bands perform for diners.",
       "expect": "Pay per song.",
@@ -206,14 +222,22 @@
         "Pay per song.",
         "Evenings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 135427,
+          "period": "202511-202610",
+          "title": "Mariachi",
+          "url": "https://en.wikipedia.org/wiki/Mariachi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "guadalajara-gdl-tlaquepaque",
       "name": "Tlaquepaque",
       "kind": "see",
-      "lat": 20.6408,
-      "lon": -103.3112,
+      "lat": 20.61667,
+      "lon": -103.31667,
       "wiki": "Tlaquepaque",
       "summary": "Colourful crafts town with galleries and El Parián mariachi courtyard.",
       "expect": "Short ride from centre.",
@@ -253,14 +277,22 @@
         "Short ride from centre.",
         "Visit El Parián at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24642,
+          "period": "202511-202610",
+          "title": "Tlaquepaque",
+          "url": "https://en.wikipedia.org/wiki/Tlaquepaque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "guadalajara-gdl-tequila",
       "name": "Tequila town",
       "kind": "see",
-      "lat": 20.882,
-      "lon": -103.836,
+      "lat": 20.88278,
+      "lon": -103.83667,
       "wiki": "Tequila, Jalisco",
       "summary": "Agave fields and distilleries in a UNESCO landscape.",
       "expect": "Train or tour.",
@@ -301,14 +333,22 @@
         "Train or tour.",
         "Take the Jose Cuervo Express."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36691,
+          "period": "202511-202610",
+          "title": "Tequila, Jalisco",
+          "url": "https://en.wikipedia.org/wiki/Tequila%2C_Jalisco",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "guadalajara-gdl-sanjuan",
       "name": "Mercado San Juan de Dios",
       "kind": "see",
-      "lat": 20.6744,
-      "lon": -103.3378,
+      "lat": 20.67548,
+      "lon": -103.34002,
       "wiki": "Mercado Libertad",
       "summary": "A huge three-storey market.",
       "expect": "Crowded.",
@@ -347,8 +387,7 @@
       "tradeoffs": [
         "Crowded.",
         "Eat on the top floor."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "guadalajara-gdl-ahogada",
@@ -521,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

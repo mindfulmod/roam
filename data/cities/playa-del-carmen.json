@@ -71,8 +71,8 @@
       "id": "playa-del-carmen-pdc-quinta",
       "name": "Quinta Avenida",
       "kind": "see",
-      "lat": 20.6266,
-      "lon": -87.0734,
+      "lat": 20.62623,
+      "lon": -87.07263,
       "wiki": "Playa del Carmen",
       "summary": "A long pedestrian street of shops, bars and restaurants parallel to the beach.",
       "expect": "Busy evenings.",
@@ -112,7 +112,15 @@
         "Busy evenings.",
         "Walk it at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 100260,
+          "period": "202511-202610",
+          "title": "Playa del Carmen",
+          "url": "https://en.wikipedia.org/wiki/Playa_del_Carmen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "playa-del-carmen-pdc-beach",
@@ -158,14 +166,23 @@
         "Sargassum varies by season.",
         "North of 26th Street is calmer."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 100260,
+          "period": "202511-202610",
+          "title": "Playa del Carmen",
+          "url": "https://en.wikipedia.org/wiki/Playa_del_Carmen",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "playa-del-carmen-pdc-cozumel",
       "name": "Cozumel reefs",
       "kind": "see",
-      "lat": 20.423,
-      "lon": -86.9223,
+      "lat": 20.42,
+      "lon": -86.92,
       "wiki": "Cozumel",
       "summary": "Ferry to Cozumel for some of the world's best drift snorkelling and diving.",
       "expect": "Ferry 45 minutes.",
@@ -206,7 +223,15 @@
         "Ferry 45 minutes.",
         "Book a reef boat at Palancar."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 177282,
+          "period": "202511-202610",
+          "title": "Cozumel",
+          "url": "https://en.wikipedia.org/wiki/Cozumel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "playa-del-carmen-pdc-cenotes",
@@ -253,14 +278,23 @@
         "Shower before swimming; no sunscreen.",
         "Go early."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 241874,
+          "period": "202511-202610",
+          "title": "Cenote",
+          "url": "https://en.wikipedia.org/wiki/Cenote",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "playa-del-carmen-pdc-xcaret",
       "name": "Xcaret",
       "kind": "see",
-      "lat": 20.5799,
-      "lon": -87.1194,
+      "lat": 20.57806,
+      "lon": -87.11917,
       "wiki": "Xcaret Park",
       "summary": "A large eco-park with underground rivers, wildlife and an evening show.",
       "expect": "Pricey; allow a full day.",
@@ -300,14 +334,22 @@
         "Pricey; allow a full day.",
         "Stay for the night show."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26845,
+          "period": "202511-202610",
+          "title": "Xcaret Park",
+          "url": "https://en.wikipedia.org/wiki/Xcaret_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "playa-del-carmen-pdc-coba",
       "name": "Cobá ruins",
       "kind": "see",
-      "lat": 20.495,
-      "lon": -87.736,
+      "lat": 20.49,
+      "lon": -87.73194,
       "wiki": "Coba",
       "summary": "Jungle Mayan city with long sacbé roads; cycle between pyramids.",
       "expect": "Climbing the main pyramid is no longer allowed.",
@@ -347,8 +389,16 @@
         "Climbing the main pyramid is no longer allowed.",
         "Rent a bike."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 34823,
+          "period": "202511-202610",
+          "title": "Coba",
+          "url": "https://en.wikipedia.org/wiki/Coba",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "playa-del-carmen-pdc-tacos",
@@ -522,5 +572,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
