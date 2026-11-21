@@ -1,0 +1,2429 @@
+[
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "gold-coast",
+  "name": "Gold Coast",
+  "at": [
+   -28.0167,
+   153.4
+  ],
+  "wiki": "Gold Coast, Queensland",
+  "cover": "Surfers Paradise Gold Coast beach skyline",
+  "seasons": "HSSSLLLSSSSH",
+  "tagline": "Surf beaches, theme parks and rainforest hinterland",
+  "summary": "The Gold Coast is Australia's playground: 50 km of surf beaches backed by high-rises, with theme parks inland and ancient rainforest in the hinterland. Surf or swim at Burleigh Heads, ride to the top of SkyPoint, meet koalas at Currumbin and see glow-worms at Springbrook's Natural Bridge.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Winter (June to August) is sunny and mild; summer is hot, humid and busy with school holidays.",
+  "arrival": "Gold Coast Airport (Coolangatta) is 25 minutes from Burleigh; Brisbane Airport is about 75 minutes by train.",
+  "gettingAround": "The G:link tram runs along the coast; a car helps for the hinterland.",
+  "foodTip": "Fish and chips on the beach, Miami Marketta street food and Broadbeach dining.",
+  "buyTip": "Surfwear and Australian swim brands.",
+  "baseArea": "Burleigh Heads, Broadbeach or Surfers Paradise",
+  "hotel": [
+   160,
+   400
+  ],
+  "connections": [
+   {
+    "to": "brisbane",
+    "mode": "Train",
+    "minutes": 75,
+    "note": "Tram plus train, or an hour's drive."
+   },
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 85,
+    "note": "Frequent flights from Coolangatta."
+   }
+  ],
+  "items": [
+   {
+    "name": "Surfers Paradise beach",
+    "kind": "see",
+    "id": "gc-surfers",
+    "at": [
+     -28.002,
+     153.431
+    ],
+    "wiki": "Surfers Paradise, Queensland",
+    "area": "Surfers Paradise",
+    "summary": "Famous golden beach under the skyline.",
+    "expect": "Swim between the flags.",
+    "tip": "Early morning is calm.",
+    "why": "Gold Coast icon.",
+    "flow": [
+     "Beach.",
+     "Esplanade."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Burleigh Heads",
+    "kind": "see",
+    "id": "gc-burleigh",
+    "at": [
+     -28.088,
+     153.454
+    ],
+    "wiki": "Burleigh Heads, Queensland",
+    "area": "Burleigh",
+    "summary": "Surf point and headland national park walk.",
+    "expect": "Free.",
+    "tip": "Sunset from the hill.",
+    "why": "Local favourite.",
+    "flow": [
+     "Headland walk.",
+     "Surf watch."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "SkyPoint Observation Deck",
+    "kind": "see",
+    "id": "gc-skypoint",
+    "at": [
+     -28.006,
+     153.43
+    ],
+    "wiki": "Q1 (building)",
+    "area": "Surfers Paradise",
+    "summary": "Deck high up in the Q1 tower.",
+    "expect": "Paid.",
+    "tip": "Go at sunset.",
+    "why": "Coast panorama.",
+    "flow": [
+     "Lift.",
+     "Deck."
+    ],
+    "hours": 1,
+    "price": [
+     33,
+     40
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Springbrook Natural Bridge",
+    "kind": "see",
+    "id": "gc-springbrook",
+    "at": [
+     -28.233,
+     153.273
+    ],
+    "wiki": "Natural Bridge, Queensland",
+    "area": "Hinterland",
+    "summary": "Rainforest arch with waterfall and glow-worms after dark.",
+    "expect": "Short walk.",
+    "tip": "Go after dusk for glow-worms.",
+    "why": "Gondwana rainforest.",
+    "flow": [
+     "Rainforest walk.",
+     "Glow-worm cave."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Currumbin Wildlife Sanctuary",
+    "kind": "see",
+    "id": "gc-currumbin",
+    "at": [
+     -28.136,
+     153.487
+    ],
+    "wiki": "Currumbin Wildlife Sanctuary",
+    "area": "Currumbin",
+    "summary": "Koalas, kangaroos and lorikeet feeding.",
+    "expect": "Paid.",
+    "tip": "Morning feeding.",
+    "why": "Australian wildlife.",
+    "flow": [
+     "Koalas.",
+     "Lorikeets."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     60
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Theme parks",
+    "kind": "see",
+    "id": "gc-movieworld",
+    "at": [
+     -27.907,
+     153.312
+    ],
+    "wiki": "Warner Bros. Movie World",
+    "area": "Oxenford",
+    "summary": "Movie World, Sea World, Dreamworld and water parks.",
+    "expect": "Big queues in holidays.",
+    "tip": "Buy multi-park passes.",
+    "why": "Thrill rides.",
+    "flow": [
+     "Rides.",
+     "Shows."
+    ],
+    "hours": 7,
+    "price": [
+     100,
+     130
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Miami Marketta",
+    "kind": "eat",
+    "id": "gc-miami",
+    "at": [
+     -28.07,
+     153.44
+    ],
+    "wiki": "Miami, Queensland",
+    "area": "Miami",
+    "venue": "food-area",
+    "summary": "Night street-food market with live music.",
+    "expect": "Wed, Fri and Sat nights.",
+    "tip": "Go hungry.",
+    "why": "Local night out.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Street food"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Beach fish and chips",
+    "kind": "eat",
+    "id": "gc-fishchips",
+    "at": [
+     -28.087,
+     153.45
+    ],
+    "wiki": "Fish and chips",
+    "area": "Burleigh",
+    "venue": "food-area",
+    "summary": "Fresh local fish eaten on the sand.",
+    "expect": "Lunch.",
+    "tip": "Watch the seagulls.",
+    "why": "Classic Aussie.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     18,
+     28
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Fish and chips",
+     "Prawns"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Broadbeach dining",
+    "kind": "eat",
+    "id": "gc-broadbeach",
+    "at": [
+     -28.032,
+     153.431
+    ],
+    "wiki": "Broadbeach, Queensland",
+    "area": "Broadbeach",
+    "venue": "food-area",
+    "summary": "Restaurant strip with cafés and seafood.",
+    "expect": "Evenings.",
+    "tip": "Weekend brunch too.",
+    "why": "Dining hub.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Modern Australian",
+    "order": [
+     "Moreton Bay bugs",
+     "Brunch"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "adelaide",
+  "name": "Adelaide",
+  "at": [
+   -34.9285,
+   138.6007
+  ],
+  "wiki": "Adelaide",
+  "cover": "Adelaide skyline Torrens",
+  "seasons": "HHSSLLLLSSSH",
+  "tagline": "Festival city at the gateway to Australia's wine country",
+  "summary": "Adelaide is a relaxed, green city famous for festivals, food and the wine valleys at its doorstep. Graze the Central Market, see the Art Gallery and Botanic Garden, ride the tram to Glenelg beach, meet koalas at Cleland, and spend a day tasting in the Barossa or McLaren Vale.",
+  "days": 3,
+  "bestMonths": [
+   2,
+   3,
+   4,
+   10,
+   11
+  ],
+  "seasonNote": "Autumn and spring are mild; summer can be very hot; March is festival season.",
+  "arrival": "Adelaide Airport is 15 minutes from the centre.",
+  "gettingAround": "Free city buses and trams; car or tours for wine regions.",
+  "foodTip": "Central Market, the pie floater and wine-region lunches.",
+  "buyTip": "Barossa wine, Haigh's chocolate and opals.",
+  "baseArea": "City centre or North Adelaide",
+  "hotel": [
+   140,
+   320
+  ],
+  "connections": [
+   {
+    "to": "melbourne",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Or the scenic Great Ocean Road drive."
+   },
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Frequent flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Barossa Valley",
+    "kind": "see",
+    "id": "adl-barossa",
+    "at": [
+     -34.533,
+     138.95
+    ],
+    "wiki": "Barossa Valley",
+    "area": "Day trip",
+    "summary": "Famous wine valley of Shiraz and old vines.",
+    "expect": "Book tastings.",
+    "tip": "Take a tour if tasting.",
+    "why": "World-famous wine.",
+    "flow": [
+     "Cellar doors.",
+     "Lunch."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     60
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Art Gallery of South Australia",
+    "kind": "see",
+    "id": "adl-artgallery",
+    "at": [
+     -34.9205,
+     138.604
+    ],
+    "wiki": "Art Gallery of South Australia",
+    "area": "North Terrace",
+    "summary": "Strong Aboriginal and colonial collections.",
+    "expect": "Free.",
+    "tip": "Combine with the museum next door.",
+    "why": "Free art.",
+    "flow": [
+     "Galleries.",
+     "South Australian Museum."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Adelaide Botanic Garden",
+    "kind": "see",
+    "id": "adl-botanic",
+    "at": [
+     -34.918,
+     138.61
+    ],
+    "wiki": "Adelaide Botanic Garden",
+    "area": "East End",
+    "summary": "Victorian glasshouses and gardens.",
+    "expect": "Free.",
+    "tip": "See the Palm House.",
+    "why": "Green city.",
+    "flow": [
+     "Palm House.",
+     "Bicentennial Conservatory."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Glenelg",
+    "kind": "see",
+    "id": "adl-glenelg",
+    "at": [
+     -34.98,
+     138.515
+    ],
+    "wiki": "Glenelg, South Australia",
+    "area": "Glenelg",
+    "summary": "Beach suburb reached by heritage tram.",
+    "expect": "Free.",
+    "tip": "Tram from the city.",
+    "why": "Beach day.",
+    "flow": [
+     "Tram.",
+     "Jetty."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cleland Wildlife Park",
+    "kind": "see",
+    "id": "adl-cleland",
+    "at": [
+     -34.967,
+     138.699
+    ],
+    "wiki": "Cleland Conservation Park",
+    "area": "Adelaide Hills",
+    "summary": "Hand-feed kangaroos and meet koalas.",
+    "expect": "Paid.",
+    "tip": "Combine with Mount Lofty.",
+    "why": "Wildlife up close.",
+    "flow": [
+     "Kangaroos.",
+     "Mount Lofty Summit."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Adelaide Oval",
+    "kind": "see",
+    "id": "adl-oval",
+    "at": [
+     -34.9156,
+     138.5961
+    ],
+    "wiki": "Adelaide Oval",
+    "area": "North Adelaide",
+    "summary": "Historic cricket and football ground with a roof climb.",
+    "expect": "Tours daily.",
+    "tip": "Try the RoofClimb.",
+    "why": "Sporting heart.",
+    "flow": [
+     "Tour.",
+     "RoofClimb."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     130
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Adelaide Central Market",
+    "kind": "eat",
+    "id": "adl-market",
+    "at": [
+     -34.93,
+     138.596
+    ],
+    "wiki": "Adelaide Central Market",
+    "area": "City",
+    "venue": "food-area",
+    "summary": "One of the southern hemisphere's biggest produce markets.",
+    "expect": "Closed Sunday and Monday.",
+    "tip": "Graze for lunch.",
+    "why": "Food heart.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Cheese",
+     "Dumplings"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Pie floater",
+    "kind": "eat",
+    "id": "adl-pie",
+    "at": [
+     -34.925,
+     138.6
+    ],
+    "wiki": "Pie floater",
+    "area": "City",
+    "venue": "food-area",
+    "summary": "Meat pie floating in pea soup.",
+    "expect": "Late night.",
+    "tip": "Try with tomato sauce.",
+    "why": "Adelaide oddity.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     14
+    ],
+    "best": "Night",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Pie floater"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "McLaren Vale wine and lunch",
+    "kind": "eat",
+    "id": "adl-mclaren",
+    "at": [
+     -35.219,
+     138.543
+    ],
+    "wiki": "McLaren Vale",
+    "area": "McLaren Vale",
+    "venue": "food-area",
+    "summary": "Wine region by the sea with the d'Arenberg Cube.",
+    "expect": "Book lunch.",
+    "tip": "Visit the Cube.",
+    "why": "Wine lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 3,
+    "price": [
+     40,
+     90
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Modern Australian",
+    "order": [
+     "Shiraz",
+     "Long lunch"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "hobart",
+  "name": "Hobart",
+  "at": [
+   -42.8821,
+   147.3272
+  ],
+  "wiki": "Hobart",
+  "cover": "Hobart waterfront kunanyi Mount Wellington",
+  "seasons": "HHSSLLLLSSSH",
+  "tagline": "Harbour city of MONA, markets and wild Tasmania",
+  "summary": "Hobart is Tasmania's small, characterful capital between a mountain and a deep harbour. Take the ferry to the provocative MONA museum, browse Salamanca Market, drive up kunanyi/Mount Wellington, and day-trip to Port Arthur's convict ruins or Bruny Island's oysters.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   11,
+   12
+  ],
+  "seasonNote": "Summer is mild and best; winter is cold with snow on the mountain.",
+  "arrival": "Hobart Airport is 20 minutes from the centre.",
+  "gettingAround": "Walk the waterfront; ferry to MONA; car for day trips.",
+  "foodTip": "Oysters, scallop pies, Tasmanian whisky and Farm Gate Market.",
+  "buyTip": "Huon pine crafts, Tasmanian whisky and leatherwood honey.",
+  "baseArea": "Salamanca, Battery Point or the waterfront",
+  "hotel": [
+   150,
+   350
+  ],
+  "connections": [
+   {
+    "to": "melbourne",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Or the overnight Spirit of Tasmania from Devonport."
+   },
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "MONA",
+    "kind": "see",
+    "id": "hob-mona",
+    "at": [
+     -42.8125,
+     147.2606
+    ],
+    "wiki": "Museum of Old and New Art",
+    "area": "Berriedale",
+    "summary": "Underground museum of provocative art reached by ferry.",
+    "expect": "Book the ferry.",
+    "tip": "Allow half a day.",
+    "why": "One of a kind.",
+    "flow": [
+     "Ferry.",
+     "Underground galleries."
+    ],
+    "hours": 4,
+    "price": [
+     35,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "kunanyi / Mount Wellington",
+    "kind": "see",
+    "id": "hob-kunanyi",
+    "at": [
+     -42.896,
+     147.237
+    ],
+    "wiki": "Mount Wellington",
+    "area": "Summit",
+    "summary": "Summit lookout 1,271 m above the city.",
+    "expect": "Cold and windy.",
+    "tip": "Bring layers.",
+    "why": "City panorama.",
+    "flow": [
+     "Drive or shuttle.",
+     "Pinnacle boardwalk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Salamanca Place and Market",
+    "kind": "see",
+    "id": "hob-salamanca",
+    "at": [
+     -42.887,
+     147.331
+    ],
+    "wiki": "Salamanca Market",
+    "area": "Salamanca",
+    "summary": "Sandstone warehouses and a big Saturday market.",
+    "expect": "Saturdays.",
+    "tip": "Arrive early.",
+    "why": "Hobart's heart.",
+    "flow": [
+     "Market.",
+     "Battery Point."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Port Arthur Historic Site",
+    "kind": "see",
+    "id": "hob-portarthur",
+    "at": [
+     -43.146,
+     147.851
+    ],
+    "wiki": "Port Arthur, Tasmania",
+    "area": "Tasman Peninsula",
+    "summary": "Convict settlement ruins on a beautiful bay.",
+    "expect": "Full day.",
+    "tip": "Ghost tour after dark.",
+    "why": "World Heritage.",
+    "flow": [
+     "Penitentiary.",
+     "Harbour cruise."
+    ],
+    "hours": 6,
+    "price": [
+     45,
+     50
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Bruny Island",
+    "kind": "see",
+    "id": "hob-bruny",
+    "at": [
+     -43.3,
+     147.33
+    ],
+    "wiki": "Bruny Island",
+    "area": "Day trip",
+    "summary": "Island of cliffs, oysters and The Neck lookout.",
+    "expect": "Car ferry from Kettering.",
+    "tip": "Join a food tour.",
+    "why": "Wild Tasmania.",
+    "flow": [
+     "The Neck.",
+     "Oysters and cheese."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Battery Point",
+    "kind": "see",
+    "id": "hob-battery",
+    "at": [
+     -42.889,
+     147.334
+    ],
+    "wiki": "Battery Point, Tasmania",
+    "area": "Battery Point",
+    "summary": "Colonial cottages and Arthur Circus.",
+    "expect": "Free.",
+    "tip": "Stroll after the market.",
+    "why": "Old Hobart.",
+    "flow": [
+     "Kelly's Steps.",
+     "Arthur Circus."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Waterfront seafood",
+    "kind": "eat",
+    "id": "hob-seafood",
+    "at": [
+     -42.883,
+     147.333
+    ],
+    "wiki": "Constitution Dock",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Floating fish-and-chip punts and oyster bars.",
+    "expect": "All day.",
+    "tip": "Try Flippers.",
+    "why": "Fresh from the sea.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     18,
+     40
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Oysters",
+     "Scallop pie",
+     "Fish and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Farm Gate Market",
+    "kind": "eat",
+    "id": "hob-farmgate",
+    "at": [
+     -42.883,
+     147.327
+    ],
+    "wiki": "Hobart",
+    "area": "City",
+    "venue": "food-area",
+    "summary": "Sunday farmers' market of Tasmanian produce.",
+    "expect": "Sundays.",
+    "tip": "Breakfast there.",
+    "why": "Local produce.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Pastries",
+     "Berries"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Tasmanian whisky",
+    "kind": "eat",
+    "id": "hob-whisky",
+    "at": [
+     -42.881,
+     147.333
+    ],
+    "wiki": "Tasmanian whisky",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Award-winning island single malts in tasting bars.",
+    "expect": "Evenings.",
+    "tip": "Try Lark or Sullivans Cove.",
+    "why": "Island spirit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     40
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Single malt flight"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "uluru",
+  "name": "Uluru",
+  "at": [
+   -25.2406,
+   130.9889
+  ],
+  "wiki": "Uluru",
+  "cover": "Uluru sunset",
+  "seasons": "LSSHHHHHSLLL",
+  "tagline": "Australia's sacred red heart",
+  "summary": "Uluru is the great sandstone monolith at the centre of Australia, sacred to the Anangu people. Watch it change colour at sunrise and sunset, walk the base with an Aboriginal guide, hike the Valley of the Winds at Kata Tjuta and dine under the desert stars.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Winter (May to September) has warm days and cold nights; summer is extremely hot.",
+  "arrival": "Ayers Rock Airport (Yulara) has flights from Sydney, Melbourne and Alice Springs; the town is 20 minutes from the rock.",
+  "gettingAround": "Shuttles, tours or a hire car from Yulara; all stays are in the resort town.",
+  "foodTip": "Bush-food dinners and outback barbecues.",
+  "buyTip": "Aboriginal art from the Maruku Arts gallery.",
+  "baseArea": "Ayers Rock Resort, Yulara",
+  "hotel": [
+   300,
+   900
+  ],
+  "connections": [
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 210,
+    "note": "Direct flights."
+   },
+   {
+    "to": "melbourne",
+    "mode": "Flight",
+    "minutes": 200,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Uluru Base Walk",
+    "kind": "see",
+    "id": "ulu-base",
+    "at": [
+     -25.3444,
+     131.0369
+    ],
+    "wiki": "Uluru",
+    "area": "Uluru-Kata Tjuta NP",
+    "summary": "10 km walk around the rock past waterholes and rock art.",
+    "expect": "Park pass required.",
+    "tip": "Start early; climbing is banned.",
+    "why": "Sacred landscape.",
+    "flow": [
+     "Mutitjulu Waterhole.",
+     "Rock art."
+    ],
+    "hours": 4,
+    "price": [
+     38,
+     38
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Uluru sunset viewing",
+    "kind": "see",
+    "id": "ulu-sunset",
+    "at": [
+     -25.327,
+     131.003
+    ],
+    "wiki": "Uluru",
+    "area": "Sunset area",
+    "summary": "Watch the rock glow red to purple.",
+    "expect": "Arrive early.",
+    "tip": "Bring a drink.",
+    "why": "Unforgettable colour.",
+    "flow": [
+     "Car park.",
+     "Colour change."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kata Tjuta Valley of the Winds",
+    "kind": "see",
+    "id": "ulu-katatjuta",
+    "at": [
+     -25.293,
+     130.732
+    ],
+    "wiki": "Kata Tjuta",
+    "area": "Kata Tjuta",
+    "summary": "Domed rocks with a spectacular ridge hike.",
+    "expect": "Closes in heat.",
+    "tip": "Go at dawn.",
+    "why": "Stunning hike.",
+    "flow": [
+     "Karu lookout.",
+     "Karingana lookout."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Cultural Centre",
+    "kind": "see",
+    "id": "ulu-cultural",
+    "at": [
+     -25.35,
+     131.048
+    ],
+    "wiki": "Uluru-Kata Tjuta National Park",
+    "area": "Uluru-Kata Tjuta NP",
+    "summary": "Anangu culture and Tjukurpa stories.",
+    "expect": "Free with park pass.",
+    "tip": "Visit before the walk.",
+    "why": "Context.",
+    "flow": [
+     "Exhibits.",
+     "Maruku Arts."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Field of Light",
+    "kind": "see",
+    "id": "ulu-fieldlight",
+    "at": [
+     -25.256,
+     130.999
+    ],
+    "wiki": "Field of Light",
+    "area": "Yulara",
+    "summary": "Bruce Munro's 50,000 solar lights in the desert.",
+    "expect": "Book ahead.",
+    "tip": "Sunrise or night.",
+    "why": "Magical art.",
+    "flow": [
+     "Light walk.",
+     "Stars."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     250
+    ],
+    "best": "Night",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Camel ride at dawn",
+    "kind": "see",
+    "id": "ulu-camel",
+    "at": [
+     -25.23,
+     130.98
+    ],
+    "wiki": "Uluru Camel Tours",
+    "area": "Yulara",
+    "summary": "Camel trek across dunes with views of the rock.",
+    "expect": "Book ahead.",
+    "tip": "Sunrise ride.",
+    "why": "Outback fun.",
+    "flow": [
+     "Dunes.",
+     "Sunrise."
+    ],
+    "hours": 2,
+    "price": [
+     150,
+     180
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sounds of Silence dinner",
+    "kind": "eat",
+    "id": "ulu-silence",
+    "at": [
+     -25.25,
+     131.0
+    ],
+    "wiki": "Uluru",
+    "area": "Desert dunes",
+    "venue": "food-area",
+    "summary": "Bush-tucker buffet under the stars with astronomy talk.",
+    "expect": "Book ahead.",
+    "tip": "Stay for the stargazing.",
+    "why": "Desert dinner.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 3,
+    "price": [
+     230,
+     280
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Kangaroo",
+     "Barramundi"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Outback barbecue",
+    "kind": "eat",
+    "id": "ulu-bbq",
+    "at": [
+     -25.241,
+     130.987
+    ],
+    "wiki": "Yulara",
+    "area": "Yulara",
+    "venue": "food-area",
+    "summary": "Cook-your-own grill with live music.",
+    "expect": "Evenings.",
+    "tip": "Try the kangaroo skewers.",
+    "why": "Casual outback.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     40,
+     60
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Kangaroo",
+     "Steak"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Bush food tasting",
+    "kind": "eat",
+    "id": "ulu-bushfood",
+    "at": [
+     -25.242,
+     130.99
+    ],
+    "wiki": "Bush tucker",
+    "area": "Town Square",
+    "venue": "food-area",
+    "summary": "Wattleseed, quandong and native flavours in Town Square.",
+    "expect": "Daily.",
+    "tip": "Join a free bush-food talk.",
+    "why": "Native flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Native Australian",
+    "order": [
+     "Quandong",
+     "Wattleseed"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "New Zealand",
+  "region": "Oceania",
+  "currency": "NZD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry a little cash for rural honesty boxes.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "christchurch",
+  "name": "Christchurch",
+  "at": [
+   -43.5321,
+   172.6362
+  ],
+  "wiki": "Christchurch",
+  "cover": "Christchurch Avon River punting",
+  "seasons": "HHSSLLLLSSSH",
+  "tagline": "Garden city reborn, gateway to the Southern Alps",
+  "summary": "Christchurch is New Zealand's garden city, creatively rebuilt after the 2011 earthquakes. Punt on the Avon, wander the Botanic Gardens, see the Cardboard Cathedral, ride the gondola for views of the Alps, and drive to French-flavoured Akaroa to swim with Hector's dolphins.",
+  "days": 2,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   11,
+   12
+  ],
+  "seasonNote": "Summer is warm and dry; winter is cold but near ski fields.",
+  "arrival": "Christchurch Airport is 20 minutes from the centre.",
+  "gettingAround": "Walk or ride the heritage tram; car for Akaroa and the Alps.",
+  "foodTip": "Riverside Market, lamb and Canterbury produce.",
+  "buyTip": "Merino wool, pounamu greenstone and local design.",
+  "baseArea": "Central city near the Avon",
+  "hotel": [
+   150,
+   300
+  ],
+  "connections": [
+   {
+    "to": "queenstown",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Or a scenic day's drive."
+   },
+   {
+    "to": "wellington",
+    "mode": "Flight",
+    "minutes": 50,
+    "note": "Or the Coastal Pacific train and ferry."
+   }
+  ],
+  "items": [
+   {
+    "name": "Christchurch Botanic Gardens",
+    "kind": "see",
+    "id": "chc-botanic",
+    "at": [
+     -43.53,
+     172.62
+    ],
+    "wiki": "Christchurch Botanic Gardens",
+    "area": "Hagley Park",
+    "summary": "Huge gardens along the Avon.",
+    "expect": "Free.",
+    "tip": "Rose garden in summer.",
+    "why": "Garden city.",
+    "flow": [
+     "Rose garden.",
+     "Avon walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Punting on the Avon",
+    "kind": "see",
+    "id": "chc-punting",
+    "at": [
+     -43.53,
+     172.628
+    ],
+    "wiki": "Avon River / Ōtākaro",
+    "area": "Central city",
+    "summary": "Gondolier-style punt under willows.",
+    "expect": "Paid.",
+    "tip": "Late afternoon.",
+    "why": "Classic Christchurch.",
+    "flow": [
+     "Antigua Boat Sheds.",
+     "Gardens."
+    ],
+    "hours": 0.5,
+    "price": [
+     40,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Cardboard Cathedral",
+    "kind": "see",
+    "id": "chc-cardboard",
+    "at": [
+     -43.531,
+     172.643
+    ],
+    "wiki": "Cardboard Cathedral",
+    "area": "Central city",
+    "summary": "Shigeru Ban's transitional cathedral of cardboard tubes.",
+    "expect": "Free.",
+    "tip": "See the stained glass.",
+    "why": "Rebuild symbol.",
+    "flow": [
+     "Interior.",
+     "185 empty chairs memorial."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Christchurch Gondola",
+    "kind": "see",
+    "id": "chc-gondola",
+    "at": [
+     -43.585,
+     172.725
+    ],
+    "wiki": "Christchurch Gondola",
+    "area": "Port Hills",
+    "summary": "Cable car to views of the city, Alps and harbour.",
+    "expect": "Paid.",
+    "tip": "Clear days.",
+    "why": "Big views.",
+    "flow": [
+     "Summit.",
+     "Lyttelton Harbour."
+    ],
+    "hours": 2,
+    "price": [
+     40,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Akaroa and Banks Peninsula",
+    "kind": "see",
+    "id": "chc-akaroa",
+    "at": [
+     -43.804,
+     172.968
+    ],
+    "wiki": "Akaroa",
+    "area": "Day trip",
+    "summary": "French-settled harbour town with dolphin cruises.",
+    "expect": "Scenic drive.",
+    "tip": "Swim with Hector's dolphins.",
+    "why": "Coastal gem.",
+    "flow": [
+     "Harbour cruise.",
+     "Village."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     180
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "International Antarctic Centre",
+    "kind": "see",
+    "id": "chc-antarctic",
+    "at": [
+     -43.489,
+     172.547
+    ],
+    "wiki": "International Antarctic Centre",
+    "area": "Airport",
+    "summary": "Penguins, a snow storm room and Hägglund rides.",
+    "expect": "Paid.",
+    "tip": "Family friendly.",
+    "why": "Antarctic gateway.",
+    "flow": [
+     "Penguins.",
+     "Storm room."
+    ],
+    "hours": 3,
+    "price": [
+     70,
+     80
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Technology",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Riverside Market",
+    "kind": "eat",
+    "id": "chc-riverside",
+    "at": [
+     -43.534,
+     172.634
+    ],
+    "wiki": "Christchurch Central City",
+    "area": "Central city",
+    "venue": "food-area",
+    "summary": "Indoor market and food hall.",
+    "expect": "Daily.",
+    "tip": "Lunch at the food stalls.",
+    "why": "New food hub.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Dumplings",
+     "Pies"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Canterbury lamb",
+    "kind": "eat",
+    "id": "chc-lamb",
+    "at": [
+     -43.53,
+     172.638
+    ],
+    "wiki": "New Zealand cuisine",
+    "area": "New Regent Street",
+    "venue": "food-area",
+    "summary": "Local lamb and South Island wine.",
+    "expect": "Dinner.",
+    "tip": "Pair with Waipara pinot.",
+    "why": "Canterbury classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     35,
+     55
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Lamb rack"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Akaroa fish and chips",
+    "kind": "eat",
+    "id": "chc-akaroa-fish",
+    "at": [
+     -43.805,
+     172.969
+    ],
+    "wiki": "Akaroa",
+    "area": "Akaroa",
+    "venue": "food-area",
+    "summary": "Harbourside fish and chips.",
+    "expect": "Lunch.",
+    "tip": "Eat on the wharf.",
+    "why": "Seaside treat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Blue cod and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "French Polynesia",
+  "region": "Oceania",
+  "currency": "EUR",
+  "cashTip": "Prices are shown in euros; locally you pay in CFP francs (XPF), pegged at about 119 XPF to 1 euro. Resorts take cards; carry some francs for snacks and boats.",
+  "dailyBudget": [
+   250,
+   900
+  ],
+  "cashPerDay": [
+   20,
+   80
+  ],
+  "id": "tahiti",
+  "name": "Tahiti",
+  "at": [
+   -17.535,
+   -149.5696
+  ],
+  "wiki": "Tahiti",
+  "cover": "Tahiti Moorea view",
+  "seasons": "SSSSHHHHHSSS",
+  "tagline": "Black-sand beaches, waterfalls and the gateway to Polynesia",
+  "summary": "Tahiti is French Polynesia's main island, with the lively port of Papeete, black-sand beaches and jungle valleys. Browse the Papeete market, feast at the roulottes food trucks, see Point Venus, watch Teahupo'o's giant waves and take the ferry to dramatic Moorea.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "The dry season (May to October) is best; November to April is hot and wet with cyclone risk.",
+  "arrival": "Faa'a International Airport is 15 minutes from Papeete.",
+  "gettingAround": "Rental car or le truck buses; ferries to Moorea take 45 minutes.",
+  "foodTip": "Poisson cru, roulottes food trucks and tropical fruit.",
+  "buyTip": "Black pearls, pareos and monoi oil.",
+  "baseArea": "Papeete or the west coast",
+  "hotel": [
+   200,
+   600
+  ],
+  "connections": [
+   {
+    "to": "bora-bora",
+    "mode": "Flight",
+    "minutes": 50,
+    "note": "Air Tahiti flights."
+   },
+   {
+    "to": "auckland",
+    "mode": "Flight",
+    "minutes": 330,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Papeete Market",
+    "kind": "see",
+    "id": "tah-market",
+    "at": [
+     -17.537,
+     -149.566
+    ],
+    "wiki": "Papeete Market",
+    "area": "Papeete",
+    "summary": "Two-storey market of fruit, fish, flowers and crafts.",
+    "expect": "Busiest early Sunday.",
+    "tip": "Buy monoi and pareos upstairs.",
+    "why": "Local life.",
+    "flow": [
+     "Flowers.",
+     "Crafts."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Food"
+    ]
+   },
+   {
+    "name": "Moorea",
+    "kind": "see",
+    "id": "tah-moorea",
+    "at": [
+     -17.5388,
+     -149.8295
+    ],
+    "wiki": "Moorea",
+    "area": "Day trip",
+    "summary": "Jagged green peaks, lagoons and rays.",
+    "expect": "Ferry from Papeete.",
+    "tip": "Belvedere lookout.",
+    "why": "Island beauty.",
+    "flow": [
+     "Ferry.",
+     "Lagoon snorkel."
+    ],
+    "hours": 8,
+    "price": [
+     15,
+     120
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Point Venus",
+    "kind": "see",
+    "id": "tah-venus",
+    "at": [
+     -17.495,
+     -149.495
+    ],
+    "wiki": "Point Venus",
+    "area": "Mahina",
+    "summary": "Black-sand beach and lighthouse where Cook observed Venus.",
+    "expect": "Free.",
+    "tip": "Picnic.",
+    "why": "History and beach.",
+    "flow": [
+     "Lighthouse.",
+     "Black sand."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Teahupo'o",
+    "kind": "see",
+    "id": "tah-teahupoo",
+    "at": [
+     -17.847,
+     -149.267
+    ],
+    "wiki": "Teahupo'o",
+    "area": "Tahiti Iti",
+    "summary": "Legendary surf break, Olympic surfing venue in 2024.",
+    "expect": "Boat tours.",
+    "tip": "Big swells May to August.",
+    "why": "Monster waves.",
+    "flow": [
+     "Boat to the reef.",
+     "Tahiti Iti."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Fautaua Valley waterfall",
+    "kind": "see",
+    "id": "tah-fautaua",
+    "at": [
+     -17.563,
+     -149.525
+    ],
+    "wiki": "Fautaua Falls",
+    "area": "Papeete hills",
+    "summary": "Jungle hike to a 300 m waterfall.",
+    "expect": "Permit needed.",
+    "tip": "Go with a guide.",
+    "why": "Lush hike.",
+    "flow": [
+     "Valley trail.",
+     "Falls."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Museum of Tahiti and the Islands",
+    "kind": "see",
+    "id": "tah-museum",
+    "at": [
+     -17.585,
+     -149.616
+    ],
+    "wiki": "Musée de Tahiti et des Îles",
+    "area": "Punaauia",
+    "summary": "Polynesian culture and history.",
+    "expect": "Paid.",
+    "tip": "Sunset afterwards.",
+    "why": "Context.",
+    "flow": [
+     "Gallery.",
+     "Seaside."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Roulottes at Place Vaiete",
+    "kind": "eat",
+    "id": "tah-roulottes",
+    "at": [
+     -17.534,
+     -149.568
+    ],
+    "wiki": "Papeete",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Evening food trucks by the harbour.",
+    "expect": "Nightly.",
+    "tip": "Try poisson cru and crêpes.",
+    "why": "Papeete night.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polynesian",
+    "order": [
+     "Poisson cru",
+     "Chao men"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Poisson cru",
+    "kind": "eat",
+    "id": "tah-poissoncru",
+    "at": [
+     -17.537,
+     -149.566
+    ],
+    "wiki": "Poisson cru",
+    "area": "Papeete",
+    "venue": "food-area",
+    "summary": "Raw tuna in lime and coconut milk.",
+    "expect": "Everywhere.",
+    "tip": "Lunch at the market.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polynesian",
+    "order": [
+     "Poisson cru"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Tropical fruit and coconut",
+    "kind": "eat",
+    "id": "tah-fruit",
+    "at": [
+     -17.538,
+     -149.565
+    ],
+    "wiki": "Papeete Market",
+    "area": "Papeete",
+    "venue": "food-area",
+    "summary": "Mango, pineapple and fresh coconut.",
+    "expect": "Morning.",
+    "tip": "Try local pamplemousse.",
+    "why": "Fresh.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     8
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Fruit",
+    "order": [
+     "Pineapple",
+     "Coconut"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Cook Islands",
+  "region": "Oceania",
+  "currency": "NZD",
+  "cashTip": "The New Zealand dollar is used (plus local coins); cards work at resorts and shops, but carry cash for markets and buses.",
+  "dailyBudget": [
+   180,
+   500
+  ],
+  "cashPerDay": [
+   30,
+   80
+  ],
+  "id": "rarotonga",
+  "name": "Rarotonga",
+  "at": [
+   -21.2075,
+   -159.775
+  ],
+  "wiki": "Rarotonga",
+  "cover": "Muri Lagoon Rarotonga",
+  "seasons": "SSSSHHHHHSSS",
+  "tagline": "Laid-back lagoon island of the Cook Islands",
+  "summary": "Rarotonga is the friendly main island of the Cook Islands, ringed by a turquoise lagoon and volcanic peaks. Kayak Muri Lagoon, snorkel the Aroa reserve, hike the Cross-Island Track, browse the Saturday market and fly to Aitutaki's legendary lagoon.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "May to October is dry and pleasant; November to April is hot and humid with cyclone risk.",
+  "arrival": "Rarotonga International is 10 minutes from Avarua.",
+  "gettingAround": "One round-island road with clockwise and anticlockwise buses; scooters and bikes.",
+  "foodTip": "Ika mata, market food and island nights.",
+  "buyTip": "Black pearls, tivaevae quilts and pareus.",
+  "baseArea": "Muri Beach or Avarua",
+  "hotel": [
+   200,
+   500
+  ],
+  "connections": [
+   {
+    "to": "auckland",
+    "mode": "Flight",
+    "minutes": 240,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Muri Lagoon",
+    "kind": "see",
+    "id": "rar-muri",
+    "at": [
+     -21.253,
+     -159.727
+    ],
+    "wiki": "Muri, Cook Islands",
+    "area": "Muri",
+    "summary": "Shallow lagoon with motu islets.",
+    "expect": "Free.",
+    "tip": "Kayak to the motu.",
+    "why": "Postcard lagoon.",
+    "flow": [
+     "Kayak.",
+     "Snorkel."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Aroa Marine Reserve",
+    "kind": "see",
+    "id": "rar-aroa",
+    "at": [
+     -21.263,
+     -159.817
+    ],
+    "wiki": "Aroa Beach",
+    "area": "South coast",
+    "summary": "Protected snorkelling spot with fish and turtles.",
+    "expect": "Free.",
+    "tip": "Calm water.",
+    "why": "Best snorkel.",
+    "flow": [
+     "Snorkel.",
+     "Sunset."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cross-Island Track",
+    "kind": "see",
+    "id": "rar-crossisland",
+    "at": [
+     -21.23,
+     -159.77
+    ],
+    "wiki": "Te Rua Manga",
+    "area": "Inland",
+    "summary": "Rugged hike past the Needle to Wigmore's Waterfall.",
+    "expect": "Steep and slippery.",
+    "tip": "Go with a guide.",
+    "why": "Jungle hike.",
+    "flow": [
+     "The Needle.",
+     "Waterfall."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Punanga Nui Market",
+    "kind": "see",
+    "id": "rar-market",
+    "at": [
+     -21.207,
+     -159.781
+    ],
+    "wiki": "Avarua",
+    "area": "Avarua",
+    "summary": "Saturday market of food, crafts and dancing.",
+    "expect": "Saturday mornings.",
+    "tip": "Go early.",
+    "why": "Island life.",
+    "flow": [
+     "Stalls.",
+     "Dancing."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Food"
+    ]
+   },
+   {
+    "name": "Aitutaki Lagoon",
+    "kind": "see",
+    "id": "rar-aitutaki",
+    "at": [
+     -18.86,
+     -159.78
+    ],
+    "wiki": "Aitutaki",
+    "area": "Day trip",
+    "summary": "Famous lagoon with One Foot Island.",
+    "expect": "Day trip flight.",
+    "tip": "Book the lagoon cruise.",
+    "why": "Stunning lagoon.",
+    "flow": [
+     "Flight.",
+     "Lagoon cruise."
+    ],
+    "hours": 10,
+    "price": [
+     500,
+     800
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Island night show",
+    "kind": "see",
+    "id": "rar-island",
+    "at": [
+     -21.25,
+     -159.728
+    ],
+    "wiki": "Cook Islands Māori",
+    "area": "Muri",
+    "summary": "Drumming, dance and buffet.",
+    "expect": "Book.",
+    "tip": "Te Vara Nui show.",
+    "why": "Culture night.",
+    "flow": [
+     "Dance.",
+     "Buffet."
+    ],
+    "hours": 3,
+    "price": [
+     100,
+     150
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "History"
+    ]
+   },
+   {
+    "name": "Ika mata",
+    "kind": "eat",
+    "id": "rar-ikamata",
+    "at": [
+     -21.207,
+     -159.781
+    ],
+    "wiki": "Ika mata",
+    "area": "Avarua",
+    "venue": "food-area",
+    "summary": "Raw fish in coconut cream and lime.",
+    "expect": "Everywhere.",
+    "tip": "Lunch at the market.",
+    "why": "Island staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cook Islands",
+    "order": [
+     "Ika mata"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Muri Night Market",
+    "kind": "eat",
+    "id": "rar-nightmarket",
+    "at": [
+     -21.254,
+     -159.729
+    ],
+    "wiki": "Muri, Cook Islands",
+    "area": "Muri",
+    "venue": "food-area",
+    "summary": "Food stalls under the stars.",
+    "expect": "Some nights.",
+    "tip": "Bring cash.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Grilled fish",
+     "Curry"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Beachside café",
+    "kind": "eat",
+    "id": "rar-cafe",
+    "at": [
+     -21.252,
+     -159.728
+    ],
+    "wiki": "Muri",
+    "area": "Muri",
+    "venue": "food-area",
+    "summary": "Smoothies and fish sandwiches by the lagoon.",
+    "expect": "All day.",
+    "tip": "Breakfast.",
+    "why": "Lazy days.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Smoothie",
+     "Fish sandwich"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
