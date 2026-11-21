@@ -1,0 +1,2393 @@
+[
+ {
+  "country": "Bahamas",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "The Bahamian dollar is pegged 1:1 to the US dollar and both are used everywhere. Cards work at resorts; carry cash for the fish fry and jitneys.",
+  "dailyBudget": [
+   200,
+   600
+  ],
+  "cashPerDay": [
+   30,
+   80
+  ],
+  "id": "nassau",
+  "name": "Nassau",
+  "at": [
+   25.078,
+   -77.343
+  ],
+  "wiki": "Nassau, Bahamas",
+  "cover": "Nassau Bahamas harbour",
+  "seasons": "HHHHSLLLLLSH",
+  "tagline": "Colourful colonial port of turquoise water and conch",
+  "summary": "Nassau is the Bahamas' capital, with pastel colonial streets, forts and some of the world's clearest water. Climb the Queen's Staircase, swim at Cable Beach or Paradise Island, eat conch salad at the Arawak Cay fish fry, and take a day trip to swim with the famous pigs of the Exumas.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "December to April is dry and sunny; June to November is hurricane season.",
+  "arrival": "Lynden Pindling International is 25 minutes from downtown; cruise ships dock at Prince George Wharf.",
+  "gettingAround": "Jitney buses and taxis; water taxis to Paradise Island.",
+  "foodTip": "Conch salad, cracked conch, guava duff and rum punch.",
+  "buyTip": "Straw market crafts and local rum.",
+  "baseArea": "Cable Beach, Paradise Island or downtown",
+  "hotel": [
+   220,
+   700
+  ],
+  "connections": [
+   {
+    "to": "miami",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Many daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Queen's Staircase and Fort Fincastle",
+    "kind": "see",
+    "id": "nas-staircase",
+    "at": [
+     25.0745,
+     -77.3395
+    ],
+    "wiki": "Queen's Staircase (Nassau)",
+    "area": "Downtown",
+    "summary": "66 limestone steps carved by enslaved people, up to a fort.",
+    "expect": "Free.",
+    "tip": "Morning before cruise crowds.",
+    "why": "Colonial history.",
+    "flow": [
+     "Staircase.",
+     "Fort and water tower."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Cable Beach",
+    "kind": "see",
+    "id": "nas-cable",
+    "at": [
+     25.075,
+     -77.42
+    ],
+    "wiki": "Cable Beach, Bahamas",
+    "area": "Cable Beach",
+    "summary": "Long white-sand beach with resorts.",
+    "expect": "Free public access.",
+    "tip": "Sunset swim.",
+    "why": "Beach day.",
+    "flow": [
+     "Swim.",
+     "Snorkel."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Paradise Island and Atlantis",
+    "kind": "see",
+    "id": "nas-paradise",
+    "at": [
+     25.087,
+     -77.323
+    ],
+    "wiki": "Paradise Island",
+    "area": "Paradise Island",
+    "summary": "Resort island with aquarium and Cabbage Beach.",
+    "expect": "Day passes are pricey.",
+    "tip": "Walk the free marina and aquarium areas.",
+    "why": "Big resort fun.",
+    "flow": [
+     "Cabbage Beach.",
+     "Marina."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     250
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Exuma swimming pigs",
+    "kind": "see",
+    "id": "nas-exumas",
+    "at": [
+     24.18,
+     -76.45
+    ],
+    "wiki": "Pig Beach",
+    "area": "Day trip",
+    "summary": "Speedboat or flight to the Exuma Cays to swim with pigs and sharks.",
+    "expect": "Long day.",
+    "tip": "Book a reputable tour.",
+    "why": "Bucket-list day.",
+    "flow": [
+     "Pig Beach.",
+     "Sandbars."
+    ],
+    "hours": 10,
+    "price": [
+     300,
+     600
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Pirates of Nassau Museum",
+    "kind": "see",
+    "id": "nas-pirates",
+    "at": [
+     25.077,
+     -77.342
+    ],
+    "wiki": "Pirates of Nassau",
+    "area": "Downtown",
+    "summary": "Interactive museum of Nassau's pirate republic.",
+    "expect": "Paid.",
+    "tip": "Family friendly.",
+    "why": "Golden Age of Piracy.",
+    "flow": [
+     "Ship replica.",
+     "Pirate stories."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Rose Island snorkelling",
+    "kind": "see",
+    "id": "nas-rose",
+    "at": [
+     25.085,
+     -77.2
+    ],
+    "wiki": "Rose Island (Bahamas)",
+    "area": "Rose Island",
+    "summary": "Boat trip to quiet beaches and reefs.",
+    "expect": "Tours from the harbour.",
+    "tip": "Half-day trips.",
+    "why": "Clear water.",
+    "flow": [
+     "Reef.",
+     "Beach."
+    ],
+    "hours": 4,
+    "price": [
+     90,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Arawak Cay Fish Fry",
+    "kind": "eat",
+    "id": "nas-fishfry",
+    "at": [
+     25.079,
+     -77.357
+    ],
+    "wiki": "Arawak Cay",
+    "area": "Arawak Cay",
+    "venue": "food-area",
+    "summary": "Row of colourful shacks serving conch and fried fish.",
+    "expect": "Evenings.",
+    "tip": "Watch the conch salad made fresh.",
+    "why": "Local hangout.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bahamian",
+    "order": [
+     "Conch salad",
+     "Cracked conch"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Guava duff",
+    "kind": "eat",
+    "id": "nas-guava",
+    "at": [
+     25.077,
+     -77.344
+    ],
+    "wiki": "Guava duff",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Rolled guava pudding with rum butter sauce.",
+    "expect": "Dessert.",
+    "tip": "Try at a local café.",
+    "why": "Bahamian sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bahamian",
+    "order": [
+     "Guava duff"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "John Watling's Distillery",
+    "kind": "eat",
+    "id": "nas-rum",
+    "at": [
+     25.075,
+     -77.346
+    ],
+    "wiki": "Buena Vista estate",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Rum tasting in an 18th-century estate.",
+    "expect": "Free tour.",
+    "tip": "Try the rum punch.",
+    "why": "Island spirit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Rum punch"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Costa Rica",
+  "region": "North America",
+  "currency": "CRC",
+  "cashTip": "Cards work widely; US dollars are accepted in tourist areas but change comes in colones. Carry colones for sodas and buses.",
+  "dailyBudget": [
+   40000,
+   120000
+  ],
+  "cashPerDay": [
+   10000,
+   30000
+  ],
+  "id": "san-jose-cr",
+  "name": "San José",
+  "at": [
+   9.9281,
+   -84.0907
+  ],
+  "wiki": "San José, Costa Rica",
+  "cover": "Teatro Nacional Costa Rica",
+  "seasons": "HHHHSLLLLLSH",
+  "tagline": "Costa Rica's capital, gateway to volcanoes and cloud forest",
+  "summary": "San José is Costa Rica's capital and the hub for most trips, with good museums and volcanoes within an hour. See the gilded National Theatre and pre-Columbian Gold Museum, eat at a soda in the Central Market, then peer into the craters of Poás and Irazú or visit La Paz Waterfall Gardens.",
+  "days": 2,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "December to April is dry; May to November brings afternoon rain.",
+  "arrival": "Juan Santamaría International is 30 minutes from the centre.",
+  "gettingAround": "Uber and taxis in the city; shuttles or a car to volcanoes.",
+  "foodTip": "Gallo pinto, casados and coffee.",
+  "buyTip": "Coffee, oxcart crafts and chocolate.",
+  "baseArea": "Barrio Amón, Escalante or Escazú",
+  "hotel": [
+   45000,
+   120000
+  ],
+  "connections": [
+   {
+    "to": "la-fortuna",
+    "mode": "Bus",
+    "minutes": 210,
+    "note": "Shuttles and buses."
+   },
+   {
+    "to": "manuel-antonio",
+    "mode": "Bus",
+    "minutes": 210,
+    "note": "Shuttles and buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "National Theatre",
+    "kind": "see",
+    "id": "sjo-theatre",
+    "at": [
+     9.9335,
+     -84.0773
+    ],
+    "wiki": "National Theatre of Costa Rica",
+    "area": "Centre",
+    "summary": "Gilded 1897 theatre funded by coffee.",
+    "expect": "Tours daily.",
+    "tip": "Café inside.",
+    "why": "City jewel.",
+    "flow": [
+     "Foyer.",
+     "Ceiling."
+    ],
+    "hours": 1,
+    "price": [
+     6000,
+     10000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "Pre-Columbian Gold Museum",
+    "kind": "see",
+    "id": "sjo-gold",
+    "at": [
+     9.9332,
+     -84.077
+    ],
+    "wiki": "Pre-Columbian Gold Museum",
+    "area": "Centre",
+    "summary": "Underground museum of gold and jade.",
+    "expect": "Paid.",
+    "tip": "Combine with the theatre.",
+    "why": "Ancient treasures.",
+    "flow": [
+     "Gold.",
+     "Coins."
+    ],
+    "hours": 1.5,
+    "price": [
+     8000,
+     8000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Poás Volcano",
+    "kind": "see",
+    "id": "sjo-poas",
+    "at": [
+     10.198,
+     -84.233
+    ],
+    "wiki": "Poás Volcano",
+    "area": "Day trip",
+    "summary": "Huge active crater with a turquoise acid lake.",
+    "expect": "Book online.",
+    "tip": "Go early before clouds.",
+    "why": "Volcano view.",
+    "flow": [
+     "Crater lookout.",
+     "Botos Lagoon."
+    ],
+    "hours": 5,
+    "price": [
+     15000,
+     20000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Irazú Volcano",
+    "kind": "see",
+    "id": "sjo-irazu",
+    "at": [
+     9.979,
+     -83.852
+    ],
+    "wiki": "Irazú Volcano",
+    "area": "Day trip",
+    "summary": "Highest volcano with lunar craters.",
+    "expect": "Cold.",
+    "tip": "Clear mornings show both coasts.",
+    "why": "Moonscape.",
+    "flow": [
+     "Main crater.",
+     "Cartago basilica."
+    ],
+    "hours": 5,
+    "price": [
+     10000,
+     15000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "La Paz Waterfall Gardens",
+    "kind": "see",
+    "id": "sjo-lapaz",
+    "at": [
+     10.203,
+     -84.16
+    ],
+    "wiki": "La Paz Waterfall Gardens",
+    "area": "Vara Blanca",
+    "summary": "Waterfall trails with butterflies and hummingbirds.",
+    "expect": "Paid.",
+    "tip": "Combine with Poás.",
+    "why": "Easy nature.",
+    "flow": [
+     "Falls.",
+     "Hummingbirds."
+    ],
+    "hours": 3,
+    "price": [
+     30000,
+     30000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Jade Museum",
+    "kind": "see",
+    "id": "sjo-jade",
+    "at": [
+     9.933,
+     -84.072
+    ],
+    "wiki": "Jade Museum (Costa Rica)",
+    "area": "Centre",
+    "summary": "World's largest collection of pre-Columbian jade.",
+    "expect": "Paid.",
+    "tip": "Modern building.",
+    "why": "Cultural treasure.",
+    "flow": [
+     "Jade.",
+     "Ceramics."
+    ],
+    "hours": 1.5,
+    "price": [
+     9000,
+     9000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Central Market sodas",
+    "kind": "eat",
+    "id": "sjo-market",
+    "at": [
+     9.935,
+     -84.08
+    ],
+    "wiki": "Central Market (San José)",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Old market with counters serving casados.",
+    "expect": "Daytime.",
+    "tip": "Try the original ice cream.",
+    "why": "Local lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     3000,
+     6000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Costa Rican",
+    "order": [
+     "Casado",
+     "Gallo pinto"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Costa Rican coffee",
+    "kind": "eat",
+    "id": "sjo-coffee",
+    "at": [
+     9.937,
+     -84.07
+    ],
+    "wiki": "Coffee production in Costa Rica",
+    "area": "Barrio Amón",
+    "venue": "food-area",
+    "summary": "Specialty coffee bars.",
+    "expect": "Daytime.",
+    "tip": "Try a chorreador pour.",
+    "why": "Coffee country.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2000,
+     4000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Pour-over"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Barrio Escalante dining",
+    "kind": "eat",
+    "id": "sjo-escalante",
+    "at": [
+     9.935,
+     -84.063
+    ],
+    "wiki": "Barrio Escalante",
+    "area": "Escalante",
+    "venue": "food-area",
+    "summary": "Gastro street of restaurants and bars.",
+    "expect": "Evenings.",
+    "tip": "Walk Paseo Gastronómico La Luz.",
+    "why": "Modern food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10000,
+     25000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Small plates"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Belize",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Prices are shown in US dollars, accepted everywhere at 2 Belize dollars to 1 US dollar. Carry small bills for golf-cart taxis and tips.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   30,
+   80
+  ],
+  "id": "san-pedro-belize",
+  "name": "San Pedro (Ambergris Caye)",
+  "at": [
+   17.9214,
+   -87.9611
+  ],
+  "wiki": "San Pedro, Belize",
+  "cover": "Ambergris Caye beach Belize",
+  "seasons": "HHHHSLLLLLSH",
+  "tagline": "Barefoot island on the world's second-largest barrier reef",
+  "summary": "San Pedro on Ambergris Caye is Belize's laid-back island town, with golf carts instead of cars and the barrier reef just offshore. Snorkel with nurse sharks at Hol Chan, dive or fly over the Great Blue Hole, relax at Secret Beach and eat fresh lobster and fry jacks.",
+  "days": 4,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "seasonNote": "December to May is dry; June to November is wetter with hurricane risk.",
+  "arrival": "Short flights or water taxis from Belize City (about 90 minutes by boat).",
+  "gettingAround": "Golf carts, bikes and water taxis.",
+  "foodTip": "Fry jacks, ceviche, lobster (in season) and rum punch.",
+  "buyTip": "Local hot sauce, chocolate and crafts.",
+  "baseArea": "Town or north of the bridge",
+  "hotel": [
+   150,
+   500
+  ],
+  "connections": [
+   {
+    "to": "tulum",
+    "mode": "Ferry",
+    "minutes": 120,
+    "note": "Water taxi to Chetumal, then bus."
+   },
+   {
+    "to": "cancun",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Via Belize City."
+   }
+  ],
+  "items": [
+   {
+    "name": "Hol Chan and Shark Ray Alley",
+    "kind": "see",
+    "id": "spb-holchan",
+    "at": [
+     17.863,
+     -87.972
+    ],
+    "wiki": "Hol Chan Marine Reserve",
+    "area": "Reef",
+    "summary": "Snorkel among nurse sharks, rays and turtles.",
+    "expect": "Guided only.",
+    "tip": "Half-day trips.",
+    "why": "Reef highlight.",
+    "flow": [
+     "Reef cut.",
+     "Shark Ray Alley."
+    ],
+    "hours": 4,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Great Blue Hole",
+    "kind": "see",
+    "id": "spb-bluehole",
+    "at": [
+     17.316,
+     -87.535
+    ],
+    "wiki": "Great Blue Hole",
+    "area": "Lighthouse Reef",
+    "summary": "Giant marine sinkhole, by dive boat or scenic flight.",
+    "expect": "Very long boat day.",
+    "tip": "A flight is faster.",
+    "why": "World-famous.",
+    "flow": [
+     "Dive or flight.",
+     "Half Moon Caye."
+    ],
+    "hours": 10,
+    "price": [
+     250,
+     400
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Secret Beach",
+    "kind": "see",
+    "id": "spb-secret",
+    "at": [
+     18.005,
+     -87.93
+    ],
+    "wiki": "Ambergris Caye",
+    "area": "Secret Beach",
+    "summary": "Calm shallow water and beach bars.",
+    "expect": "Golf cart ride.",
+    "tip": "Go midweek.",
+    "why": "Chill spot.",
+    "flow": [
+     "Swim.",
+     "Bars."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Caye Caulker",
+    "kind": "see",
+    "id": "spb-caulker",
+    "at": [
+     17.742,
+     -88.025
+    ],
+    "wiki": "Caye Caulker",
+    "area": "Day trip",
+    "summary": "Go-slow island with the Split swim spot.",
+    "expect": "Water taxi.",
+    "tip": "Stay for sunset.",
+    "why": "Backpacker gem.",
+    "flow": [
+     "The Split.",
+     "Sunset."
+    ],
+    "hours": 6,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mexico Rocks",
+    "kind": "see",
+    "id": "spb-mexicorocks",
+    "at": [
+     17.99,
+     -87.905
+    ],
+    "wiki": "Ambergris Caye",
+    "area": "Reef",
+    "summary": "Shallow coral snorkel spot.",
+    "expect": "Tours.",
+    "tip": "Morning calm.",
+    "why": "Easy reef.",
+    "flow": [
+     "Coral heads.",
+     "Fish."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "San Pedro town",
+    "kind": "see",
+    "id": "spb-town",
+    "at": [
+     17.9214,
+     -87.9611
+    ],
+    "wiki": "San Pedro, Belize",
+    "area": "Town",
+    "summary": "Colourful streets and beach path.",
+    "expect": "Free.",
+    "tip": "Rent a golf cart.",
+    "why": "Island vibe.",
+    "flow": [
+     "Front Street.",
+     "Beach path."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Fry jacks breakfast",
+    "kind": "eat",
+    "id": "spb-fryjacks",
+    "at": [
+     17.92,
+     -87.962
+    ],
+    "wiki": "Fry jack",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Puffy fried dough with eggs and beans.",
+    "expect": "Breakfast.",
+    "tip": "Add honey.",
+    "why": "Belize breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Belizean",
+    "order": [
+     "Fry jacks"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Lobster and ceviche",
+    "kind": "eat",
+    "id": "spb-lobster",
+    "at": [
+     17.923,
+     -87.96
+    ],
+    "wiki": "Ceviche",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Fresh seafood by the beach.",
+    "expect": "Lobster June to February.",
+    "tip": "Try conch ceviche.",
+    "why": "Ocean fresh.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Lobster",
+     "Ceviche"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Beach-bar rum punch",
+    "kind": "eat",
+    "id": "spb-rumpunch",
+    "at": [
+     17.93,
+     -87.955
+    ],
+    "wiki": "Rum punch",
+    "area": "North",
+    "venue": "food-area",
+    "summary": "Sunset drinks on a dock.",
+    "expect": "Evenings.",
+    "tip": "Secret Beach bars.",
+    "why": "Island ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Rum punch"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "west-yellowstone",
+  "name": "Yellowstone (West Yellowstone)",
+  "at": [
+   44.6621,
+   -111.1041
+  ],
+  "wiki": "Yellowstone National Park",
+  "cover": "Grand Prismatic Spring",
+  "seasons": "LLLLSHHHSLLL",
+  "tagline": "Geysers, rainbow springs and wild bison",
+  "summary": "Yellowstone is the world's first national park, a volcanic plateau of geysers, hot springs and wildlife. From West Yellowstone, watch Old Faithful erupt, walk above Grand Prismatic Spring, see the Lower Falls in the Grand Canyon of the Yellowstone, and spot bison and wolves in the Lamar Valley.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer has all roads open; most park roads close to cars from November to April.",
+  "arrival": "Yellowstone Airport (summer) is next to town; Bozeman is 90 minutes away.",
+  "gettingAround": "A car is essential; park pass required.",
+  "foodTip": "Bison burgers, huckleberry everything and park lodge dining.",
+  "buyTip": "Huckleberry jam and park souvenirs.",
+  "baseArea": "West Yellowstone or in-park lodges",
+  "hotel": [
+   180,
+   450
+  ],
+  "connections": [
+   {
+    "to": "jackson",
+    "mode": "Car",
+    "minutes": 150,
+    "note": "Through the park and Grand Teton."
+   }
+  ],
+  "items": [
+   {
+    "name": "Grand Prismatic Spring",
+    "kind": "see",
+    "id": "yel-prismatic",
+    "at": [
+     44.5251,
+     -110.8382
+    ],
+    "wiki": "Grand Prismatic Spring",
+    "area": "Midway Geyser Basin",
+    "summary": "Rainbow hot spring, best from the Fairy Falls overlook.",
+    "expect": "Park pass.",
+    "tip": "Midday sun shows colour.",
+    "why": "Iconic colour.",
+    "flow": [
+     "Boardwalk.",
+     "Overlook trail."
+    ],
+    "hours": 2,
+    "price": [
+     35,
+     35
+    ],
+    "best": "Midday",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old Faithful",
+    "kind": "see",
+    "id": "yel-faithful",
+    "at": [
+     44.4605,
+     -110.8281
+    ],
+    "wiki": "Old Faithful",
+    "area": "Upper Geyser Basin",
+    "summary": "Geyser erupting about every 90 minutes.",
+    "expect": "Check predicted times.",
+    "tip": "Walk the Upper Geyser Basin loop.",
+    "why": "Classic sight.",
+    "flow": [
+     "Eruption.",
+     "Basin boardwalks."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Grand Canyon of the Yellowstone",
+    "kind": "see",
+    "id": "yel-canyon",
+    "at": [
+     44.72,
+     -110.48
+    ],
+    "wiki": "Grand Canyon of the Yellowstone",
+    "area": "Canyon",
+    "summary": "Yellow canyon walls and the Lower Falls.",
+    "expect": "Busy midday.",
+    "tip": "Artist Point.",
+    "why": "Stunning falls.",
+    "flow": [
+     "Artist Point.",
+     "Brink of the Falls."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Norris Geyser Basin",
+    "kind": "see",
+    "id": "yel-norris",
+    "at": [
+     44.726,
+     -110.704
+    ],
+    "wiki": "Norris Geyser Basin",
+    "area": "Norris",
+    "summary": "Hottest, most changeable thermal area.",
+    "expect": "Boardwalks.",
+    "tip": "Porcelain Basin.",
+    "why": "Otherworldly.",
+    "flow": [
+     "Porcelain Basin.",
+     "Steamboat Geyser."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lamar Valley",
+    "kind": "see",
+    "id": "yel-lamar",
+    "at": [
+     44.9,
+     -110.25
+    ],
+    "wiki": "Lamar Valley",
+    "area": "Northeast",
+    "summary": "Bison herds and wolves, America's Serengeti.",
+    "expect": "Long drive.",
+    "tip": "Dawn with binoculars.",
+    "why": "Best wildlife.",
+    "flow": [
+     "Bison.",
+     "Wolf spotting."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Grizzly and Wolf Discovery Center",
+    "kind": "see",
+    "id": "yel-grizzly",
+    "at": [
+     44.656,
+     -111.1
+    ],
+    "wiki": "Grizzly and Wolf Discovery Center",
+    "area": "West Yellowstone",
+    "summary": "Rescued bears and wolves up close.",
+    "expect": "Paid.",
+    "tip": "Good with kids.",
+    "why": "Guaranteed sightings.",
+    "flow": [
+     "Bears.",
+     "Wolves."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Bison burger",
+    "kind": "eat",
+    "id": "yel-bison",
+    "at": [
+     44.662,
+     -111.103
+    ],
+    "wiki": "Bison",
+    "area": "West Yellowstone",
+    "venue": "food-area",
+    "summary": "Lean local bison burgers.",
+    "expect": "Lunch.",
+    "tip": "Ask for huckleberry BBQ sauce.",
+    "why": "Western classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Bison burger"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Huckleberry treats",
+    "kind": "eat",
+    "id": "yel-huckleberry",
+    "at": [
+     44.661,
+     -111.105
+    ],
+    "wiki": "Huckleberry",
+    "area": "West Yellowstone",
+    "venue": "food-area",
+    "summary": "Huckleberry ice cream, pie and lemonade.",
+    "expect": "Summer.",
+    "tip": "Try the milkshake.",
+    "why": "Mountain berry.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dessert",
+    "order": [
+     "Huckleberry ice cream"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Old Faithful Inn dining",
+    "kind": "eat",
+    "id": "yel-inn",
+    "at": [
+     44.4597,
+     -110.8306
+    ],
+    "wiki": "Old Faithful Inn",
+    "area": "Upper Geyser Basin",
+    "venue": "food-area",
+    "summary": "Historic log lodge dining room.",
+    "expect": "Book ahead.",
+    "tip": "See the lobby fireplace.",
+    "why": "Park heritage.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     50
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Prime rib",
+     "Trout"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "glacier",
+  "name": "Glacier National Park (Whitefish)",
+  "at": [
+   48.4106,
+   -114.3375
+  ],
+  "wiki": "Glacier National Park (U.S.)",
+  "cover": "Going-to-the-Sun Road Glacier National Park",
+  "seasons": "LLLLSHHHSLLL",
+  "tagline": "Crown of the Continent: peaks, lakes and the Going-to-the-Sun Road",
+  "summary": "Glacier National Park is a wilderness of jagged peaks, glacial lakes and mountain goats in northern Montana. Drive the Going-to-the-Sun Road over Logan Pass, hike to Avalanche Lake, paddle on Lake McDonald's coloured stones and explore Many Glacier, with Whitefish as a friendly base.",
+  "days": 4,
+  "bestMonths": [
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Going-to-the-Sun Road usually opens fully in early July; vehicle reservations are needed in summer.",
+  "arrival": "Glacier Park International is 20 minutes from Whitefish; Amtrak's Empire Builder stops in Whitefish.",
+  "gettingAround": "Car essential; free park shuttles on the Sun Road.",
+  "foodTip": "Huckleberry pie, Montana steak and local craft beer.",
+  "buyTip": "Huckleberry products and outdoor gear.",
+  "baseArea": "Whitefish, West Glacier or Many Glacier",
+  "hotel": [
+   180,
+   450
+  ],
+  "connections": [
+   {
+    "to": "banff",
+    "mode": "Car",
+    "minutes": 330,
+    "note": "Via the Roosville border crossing."
+   }
+  ],
+  "items": [
+   {
+    "name": "Going-to-the-Sun Road and Logan Pass",
+    "kind": "see",
+    "id": "gla-sunroad",
+    "at": [
+     48.696,
+     -113.718
+    ],
+    "wiki": "Going-to-the-Sun Road",
+    "area": "Logan Pass",
+    "summary": "Spectacular mountain road over the Continental Divide.",
+    "expect": "Vehicle reservation needed in summer.",
+    "tip": "Hike Hidden Lake Overlook.",
+    "why": "Iconic drive.",
+    "flow": [
+     "Logan Pass.",
+     "Hidden Lake."
+    ],
+    "hours": 6,
+    "price": [
+     35,
+     35
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lake McDonald",
+    "kind": "see",
+    "id": "gla-mcdonald",
+    "at": [
+     48.528,
+     -113.992
+    ],
+    "wiki": "Lake McDonald",
+    "area": "West Glacier",
+    "summary": "Clear lake with rainbow pebbles.",
+    "expect": "Free with park pass.",
+    "tip": "Kayak at dawn.",
+    "why": "Postcard lake.",
+    "flow": [
+     "Apgar.",
+     "Pebble beach."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Avalanche Lake trail",
+    "kind": "see",
+    "id": "gla-avalanche",
+    "at": [
+     48.651,
+     -113.786
+    ],
+    "wiki": "Avalanche Lake (Montana)",
+    "area": "Sun Road",
+    "summary": "Easy hike through cedar forest to a waterfall-fed lake.",
+    "expect": "Busy.",
+    "tip": "Go early.",
+    "why": "Best easy hike.",
+    "flow": [
+     "Trail of the Cedars.",
+     "Lake."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Many Glacier",
+    "kind": "see",
+    "id": "gla-manyglacier",
+    "at": [
+     48.797,
+     -113.657
+    ],
+    "wiki": "Many Glacier",
+    "area": "Many Glacier",
+    "summary": "Grizzly country with Grinnell Glacier hike.",
+    "expect": "Long drive.",
+    "tip": "Boat shortcut.",
+    "why": "Wild heart.",
+    "flow": [
+     "Swiftcurrent Lake.",
+     "Grinnell Glacier."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Whitefish Mountain Resort",
+    "kind": "see",
+    "id": "gla-whitefishmtn",
+    "at": [
+     48.484,
+     -114.355
+    ],
+    "wiki": "Whitefish Mountain Resort",
+    "area": "Big Mountain",
+    "summary": "Summer gondola and winter skiing.",
+    "expect": "Paid.",
+    "tip": "Sunset dinner at the top.",
+    "why": "Easy views.",
+    "flow": [
+     "Gondola.",
+     "Trails."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     90
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Whitefish Lake",
+    "kind": "see",
+    "id": "gla-whitefishlake",
+    "at": [
+     48.43,
+     -114.36
+    ],
+    "wiki": "Whitefish Lake (Montana)",
+    "area": "Whitefish",
+    "summary": "Town lake with beach and paddling.",
+    "expect": "Free.",
+    "tip": "Rent a SUP.",
+    "why": "Relaxed.",
+    "flow": [
+     "City Beach.",
+     "Paddle."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Huckleberry pie",
+    "kind": "eat",
+    "id": "gla-pie",
+    "at": [
+     48.411,
+     -114.337
+    ],
+    "wiki": "Huckleberry",
+    "area": "Whitefish",
+    "venue": "food-area",
+    "summary": "Wild huckleberry pie and jam.",
+    "expect": "Daytime.",
+    "tip": "Buy jam to take home.",
+    "why": "Montana taste.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dessert",
+    "order": [
+     "Huckleberry pie"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Montana steak",
+    "kind": "eat",
+    "id": "gla-steak",
+    "at": [
+     48.4105,
+     -114.338
+    ],
+    "wiki": "Montana",
+    "area": "Whitefish",
+    "venue": "food-area",
+    "summary": "Local beef and game.",
+    "expect": "Dinner.",
+    "tip": "Try bison too.",
+    "why": "Big Sky dining.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Ribeye",
+     "Bison"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Great Northern Brewing",
+    "kind": "eat",
+    "id": "gla-brew",
+    "at": [
+     48.411,
+     -114.338
+    ],
+    "wiki": "Craft beer",
+    "area": "Whitefish",
+    "venue": "food-area",
+    "summary": "Local brewery taproom.",
+    "expect": "Evenings.",
+    "tip": "Huckleberry lager.",
+    "why": "Local brew.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Huckleberry lager"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "gatlinburg",
+  "name": "Great Smoky Mountains (Gatlinburg)",
+  "at": [
+   35.7143,
+   -83.5102
+  ],
+  "wiki": "Great Smoky Mountains National Park",
+  "cover": "Great Smoky Mountains",
+  "seasons": "LLSSHHHHHHSL",
+  "tagline": "America's most visited national park, misty ridges and old mountain life",
+  "summary": "Great Smoky Mountains National Park is a vast range of misty forested ridges on the Tennessee and North Carolina border. Drive to Clingmans Dome, loop Cades Cove for black bears and log cabins, hike to Laurel Falls, and enjoy Gatlinburg's mountain town fun and moonshine tastings.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "October brings famous autumn colour; spring has wildflowers; summer is busy and humid.",
+  "arrival": "McGhee Tyson Airport (Knoxville) is about an hour away.",
+  "gettingAround": "Car essential; parking tags needed in the park.",
+  "foodTip": "Pancake breakfasts, Southern barbecue and moonshine.",
+  "buyTip": "Crafts from the Arts and Crafts Community loop.",
+  "baseArea": "Gatlinburg or Pigeon Forge",
+  "hotel": [
+   120,
+   350
+  ],
+  "connections": [
+   {
+    "to": "nashville",
+    "mode": "Car",
+    "minutes": 240,
+    "note": "Via Knoxville."
+   }
+  ],
+  "items": [
+   {
+    "name": "Clingmans Dome",
+    "kind": "see",
+    "id": "gsm-clingmans",
+    "at": [
+     35.5629,
+     -83.4985
+    ],
+    "wiki": "Clingmans Dome",
+    "area": "Park",
+    "summary": "Highest point in the Smokies with a spiral tower.",
+    "expect": "Steep paved path.",
+    "tip": "Clear mornings.",
+    "why": "Sea of ridges.",
+    "flow": [
+     "Tower.",
+     "Newfound Gap."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cades Cove",
+    "kind": "see",
+    "id": "gsm-cadescove",
+    "at": [
+     35.601,
+     -83.811
+    ],
+    "wiki": "Cades Cove",
+    "area": "Park",
+    "summary": "Valley loop of cabins, churches and wildlife.",
+    "expect": "Car-free Wednesdays in summer.",
+    "tip": "Go at dawn for bears.",
+    "why": "Classic loop.",
+    "flow": [
+     "Loop road.",
+     "Cabins."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Laurel Falls",
+    "kind": "see",
+    "id": "gsm-laurel",
+    "at": [
+     35.678,
+     -83.594
+    ],
+    "wiki": "Laurel Falls (Tennessee)",
+    "area": "Park",
+    "summary": "Paved trail to a two-tier waterfall.",
+    "expect": "Busy.",
+    "tip": "Early start.",
+    "why": "Easy hike.",
+    "flow": [
+     "Trail.",
+     "Falls."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Roaring Fork Motor Nature Trail",
+    "kind": "see",
+    "id": "gsm-roaring",
+    "at": [
+     35.699,
+     -83.48
+    ],
+    "wiki": "Roaring Fork Motor Nature Trail",
+    "area": "Park",
+    "summary": "One-way forest drive with streams and cabins.",
+    "expect": "Seasonal.",
+    "tip": "Stop at Place of a Thousand Drips.",
+    "why": "Easy scenery.",
+    "flow": [
+     "Streams.",
+     "Cabins."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Gatlinburg SkyBridge",
+    "kind": "see",
+    "id": "gsm-skybridge",
+    "at": [
+     35.711,
+     -83.518
+    ],
+    "wiki": "Gatlinburg SkyLift Park",
+    "area": "Gatlinburg",
+    "summary": "Long pedestrian suspension bridge above town.",
+    "expect": "Paid.",
+    "tip": "Sunset.",
+    "why": "Town views.",
+    "flow": [
+     "Chairlift.",
+     "Glass bridge."
+    ],
+    "hours": 1.5,
+    "price": [
+     35,
+     40
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Dollywood",
+    "kind": "see",
+    "id": "gsm-dollywood",
+    "at": [
+     35.795,
+     -83.531
+    ],
+    "wiki": "Dollywood",
+    "area": "Pigeon Forge",
+    "summary": "Theme park with Appalachian crafts and coasters.",
+    "expect": "Paid.",
+    "tip": "Weekdays.",
+    "why": "Mountain fun.",
+    "flow": [
+     "Coasters.",
+     "Craft demos."
+    ],
+    "hours": 7,
+    "price": [
+     90,
+     110
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Pancake breakfast",
+    "kind": "eat",
+    "id": "gsm-pancakes",
+    "at": [
+     35.714,
+     -83.511
+    ],
+    "wiki": "Pancake",
+    "area": "Gatlinburg",
+    "venue": "food-area",
+    "summary": "Gatlinburg's famous pancake houses.",
+    "expect": "Morning queues.",
+    "tip": "Try Pancake Pantry.",
+    "why": "Local tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Pancakes"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Southern barbecue",
+    "kind": "eat",
+    "id": "gsm-bbq",
+    "at": [
+     35.715,
+     -83.51
+    ],
+    "wiki": "Barbecue in the United States",
+    "area": "Gatlinburg",
+    "venue": "food-area",
+    "summary": "Smoked pork and ribs.",
+    "expect": "Dinner.",
+    "tip": "Pulled pork with slaw.",
+    "why": "Smoky classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southern",
+    "order": [
+     "Pulled pork",
+     "Ribs"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Moonshine tasting",
+    "kind": "eat",
+    "id": "gsm-moonshine",
+    "at": [
+     35.713,
+     -83.511
+    ],
+    "wiki": "Moonshine",
+    "area": "Gatlinburg",
+    "venue": "food-area",
+    "summary": "Free tastings of Tennessee moonshine.",
+    "expect": "Daily.",
+    "tip": "Ole Smoky Holler.",
+    "why": "Mountain spirit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Moonshine tasting"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "bar-harbor",
+  "name": "Acadia (Bar Harbor)",
+  "at": [
+   44.3876,
+   -68.2039
+  ],
+  "wiki": "Acadia National Park",
+  "cover": "Acadia National Park Maine coast",
+  "seasons": "LLLLSHHHHSLL",
+  "tagline": "Rocky Maine coast, sunrise summit and lobster",
+  "summary": "Acadia National Park covers granite mountains and rocky shores on Maine's Mount Desert Island. Watch sunrise from Cadillac Mountain, walk the Ocean Path to Thunder Hole, cycle the carriage roads, eat popovers at Jordan Pond and finish with a lobster dinner in Bar Harbor.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Summer is busy; early October brings brilliant foliage.",
+  "arrival": "Bangor Airport is 75 minutes away; Boston is about 5 hours by car.",
+  "gettingAround": "Free Island Explorer buses in season, bike or car; Cadillac sunrise needs a vehicle reservation.",
+  "foodTip": "Lobster rolls, Jordan Pond popovers and blueberry pie.",
+  "buyTip": "Maine blueberry jam and lobster-buoy souvenirs.",
+  "baseArea": "Bar Harbor",
+  "hotel": [
+   200,
+   500
+  ],
+  "connections": [
+   {
+    "to": "boston",
+    "mode": "Car",
+    "minutes": 300,
+    "note": "Coastal drive via Portland."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cadillac Mountain",
+    "kind": "see",
+    "id": "aca-cadillac",
+    "at": [
+     44.3526,
+     -68.2251
+    ],
+    "wiki": "Cadillac Mountain",
+    "area": "Park",
+    "summary": "Summit with sunrise views over Frenchman Bay.",
+    "expect": "Sunrise needs a vehicle reservation.",
+    "tip": "Bring a jacket.",
+    "why": "First light in the US.",
+    "flow": [
+     "Summit loop.",
+     "Bay islands."
+    ],
+    "hours": 2,
+    "price": [
+     35,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ocean Path and Thunder Hole",
+    "kind": "see",
+    "id": "aca-ocean",
+    "at": [
+     44.32,
+     -68.189
+    ],
+    "wiki": "Thunder Hole",
+    "area": "Park",
+    "summary": "Coastal walk past Sand Beach and booming waves.",
+    "expect": "Free with pass.",
+    "tip": "Rising tide for Thunder Hole.",
+    "why": "Rocky coast.",
+    "flow": [
+     "Sand Beach.",
+     "Otter Cliff."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Carriage roads",
+    "kind": "see",
+    "id": "aca-carriage",
+    "at": [
+     44.33,
+     -68.25
+    ],
+    "wiki": "Carriage roads",
+    "area": "Park",
+    "summary": "Car-free gravel roads with stone bridges.",
+    "expect": "Rent bikes in town.",
+    "tip": "Loop around Eagle Lake.",
+    "why": "Rockefeller legacy.",
+    "flow": [
+     "Bridges.",
+     "Lakes."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Bass Harbor Head Light",
+    "kind": "see",
+    "id": "aca-bassharbor",
+    "at": [
+     44.222,
+     -68.337
+    ],
+    "wiki": "Bass Harbor Head Light",
+    "area": "Quiet side",
+    "summary": "Lighthouse on pink granite cliffs.",
+    "expect": "Small parking.",
+    "tip": "Sunset.",
+    "why": "Postcard lighthouse.",
+    "flow": [
+     "Lighthouse.",
+     "Rocks."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Whale watching",
+    "kind": "see",
+    "id": "aca-whale",
+    "at": [
+     44.39,
+     -68.203
+    ],
+    "wiki": "Bar Harbor, Maine",
+    "area": "Harbor",
+    "summary": "Boat trips for humpbacks and puffins.",
+    "expect": "Summer.",
+    "tip": "Book a combo trip.",
+    "why": "Marine life.",
+    "flow": [
+     "Whales.",
+     "Puffins."
+    ],
+    "hours": 4,
+    "price": [
+     70,
+     90
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Beehive Trail",
+    "kind": "see",
+    "id": "aca-beehive",
+    "at": [
+     44.333,
+     -68.188
+    ],
+    "wiki": "The Beehive (Maine)",
+    "area": "Park",
+    "summary": "Iron-rung climb up a granite dome.",
+    "expect": "Not for vertigo.",
+    "tip": "Go early.",
+    "why": "Thrill hike.",
+    "flow": [
+     "Rungs.",
+     "Summit."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lobster dinner",
+    "kind": "eat",
+    "id": "aca-lobster",
+    "at": [
+     44.4,
+     -68.22
+    ],
+    "wiki": "Lobster",
+    "area": "Bar Harbor",
+    "venue": "food-area",
+    "summary": "Steamed lobster at a lobster pound.",
+    "expect": "Evenings.",
+    "tip": "Lobster roll for lunch.",
+    "why": "Maine icon.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Lobster",
+     "Lobster roll"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Jordan Pond popovers",
+    "kind": "eat",
+    "id": "aca-popovers",
+    "at": [
+     44.32,
+     -68.253
+    ],
+    "wiki": "Jordan Pond",
+    "area": "Park",
+    "venue": "food-area",
+    "summary": "Tea and popovers on the lawn by the pond.",
+    "expect": "Expect waits.",
+    "tip": "Afternoon tea.",
+    "why": "Park tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Popovers",
+     "Tea"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Blueberry pie",
+    "kind": "eat",
+    "id": "aca-blueberry",
+    "at": [
+     44.388,
+     -68.204
+    ],
+    "wiki": "Blueberry pie",
+    "area": "Bar Harbor",
+    "venue": "food-area",
+    "summary": "Wild Maine blueberry pie.",
+    "expect": "Daytime.",
+    "tip": "Add ice cream.",
+    "why": "Local berry.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dessert",
+    "order": [
+     "Blueberry pie"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
