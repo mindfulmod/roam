@@ -121,8 +121,8 @@
       "id": "oaxaca-monte-alban",
       "name": "Monte Albán",
       "kind": "see",
-      "lat": 17.0436,
-      "lon": -96.7678,
+      "lat": 17.04389,
+      "lon": -96.76778,
       "wiki": "Monte Albán",
       "summary": "The Zapotec capital on a levelled mountain top above the valley, with pyramids and a great plaza.",
       "expect": "Little shade; shuttles run from the centre.",
@@ -162,14 +162,22 @@
         "Little shade; shuttles run from the centre.",
         "Go in the morning and climb the south platform for the view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76399,
+          "period": "202511-202610",
+          "title": "Monte Albán",
+          "url": "https://en.wikipedia.org/wiki/Monte_Alb%C3%A1n",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oaxaca-hierve-el-agua",
       "name": "Hierve el Agua",
       "kind": "see",
-      "lat": 16.8656,
-      "lon": -96.276,
+      "lat": 16.86563,
+      "lon": -96.27597,
       "wiki": "Hierve el Agua",
       "summary": "Mineral springs that formed petrified waterfalls on a cliff, with pools at the edge.",
       "expect": "Two hours each way on mountain roads; occasionally closed by local disputes.",
@@ -209,15 +217,23 @@
         "Two hours each way on mountain roads; occasionally closed by local disputes.",
         "Combine with Mitla, the Tule tree and a mezcal distillery on one day."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22088,
+          "period": "202511-202610",
+          "title": "Hierve el Agua",
+          "url": "https://en.wikipedia.org/wiki/Hierve_el_Agua",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oaxaca-mitla",
       "name": "Mitla",
       "kind": "see",
-      "lat": 16.926,
-      "lon": -96.36,
+      "lat": 16.92722,
+      "lon": -96.35944,
       "wiki": "Mitla",
       "summary": "A Zapotec religious centre with walls of intricate stone mosaics found nowhere else.",
       "expect": "A compact site in a village.",
@@ -257,7 +273,15 @@
         "A compact site in a village.",
         "Stop at the Árbol del Tule, one of the world's widest trees, on the way."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22350,
+          "period": "202511-202610",
+          "title": "Mitla",
+          "url": "https://en.wikipedia.org/wiki/Mitla",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oaxaca-oaxaca-mezcal-tour",
@@ -304,14 +328,23 @@
         "Tastings are generous; do not drive.",
         "Choose a small producer rather than a large brand visitor centre."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 282427,
+          "period": "202511-202610",
+          "title": "Mezcal",
+          "url": "https://en.wikipedia.org/wiki/Mezcal",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oaxaca-teotitlan-del-valle",
       "name": "Teotitlán del Valle",
       "kind": "see",
-      "lat": 17.03,
-      "lon": -96.52,
+      "lat": 17.03333,
+      "lon": -96.5,
       "wiki": "Teotitlán del Valle",
       "summary": "A Zapotec weaving village where families dye wool with cochineal and indigo and weave rugs at home.",
       "expect": "Workshops welcome visitors; no pressure to buy.",
@@ -351,7 +384,15 @@
         "Workshops welcome visitors; no pressure to buy.",
         "Ask to see the cochineal dye demonstration."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9534,
+          "period": "202511-202610",
+          "title": "Teotitlán del Valle",
+          "url": "https://en.wikipedia.org/wiki/Teotitl%C3%A1n_del_Valle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oaxaca-mercado-20-de-noviembre",
@@ -416,8 +457,8 @@
       "id": "oaxaca-los-danzantes",
       "name": "Los Danzantes",
       "kind": "eat",
-      "lat": 17.065,
-      "lon": -96.724,
+      "lat": 17.06509,
+      "lon": -96.72405,
       "wiki": "Oaxacan cuisine",
       "summary": "A modern Oaxacan restaurant in an open-air courtyard, with its own mezcal.",
       "expect": "Smart casual; dinner fills up.",
@@ -456,7 +497,6 @@
         "Smart casual; dinner fills up.",
         "Order a mole and the house mezcal flight."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Contemporary Oaxacan",
       "mustOrder": [
@@ -475,8 +515,8 @@
       "id": "oaxaca-oaxaca-tlayudas",
       "name": "Tlayudas Doña Martha",
       "kind": "eat",
-      "lat": 17.07,
-      "lon": -96.721,
+      "lat": 17.06241,
+      "lon": -96.71924,
       "wiki": "Tlayuda",
       "summary": "An evening street grill making tlayudas, large crisp tortillas folded over beans, cheese and meat.",
       "expect": "Night only; plastic tables on the pavement.",
@@ -515,7 +555,6 @@
         "Night only; plastic tables on the pavement.",
         "Order one to share and add tasajo."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Street food",
       "mustOrder": [
@@ -530,5 +569,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

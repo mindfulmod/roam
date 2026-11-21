@@ -83,8 +83,8 @@
       "id": "cancun-playa-delfines",
       "name": "Playa Delfines",
       "kind": "see",
-      "lat": 21.061,
-      "lon": -86.78,
+      "lat": 21.06196,
+      "lon": -86.77858,
       "wiki": "Playa Delfines",
       "summary": "A wide public beach with turquoise water and the Cancún sign above it.",
       "expect": "Strong waves and red-flag days; few facilities.",
@@ -123,15 +123,14 @@
       "tradeoffs": [
         "Strong waves and red-flag days; few facilities.",
         "Come early for the colour of the water and bring shade."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cancun-isla-mujeres",
       "name": "Isla Mujeres",
       "kind": "see",
-      "lat": 21.231,
-      "lon": -86.731,
+      "lat": 21.23333,
+      "lon": -86.73333,
       "wiki": "Isla Mujeres",
       "summary": "A small island of calm shallow water, golf carts and seafood, 20 minutes by ferry.",
       "expect": "Playa Norte is busy at midday.",
@@ -171,7 +170,15 @@
         "Playa Norte is busy at midday.",
         "Rent a golf cart to the cliffs at Punta Sur, then swim at Playa Norte for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 113662,
+          "period": "202511-202610",
+          "title": "Isla Mujeres",
+          "url": "https://en.wikipedia.org/wiki/Isla_Mujeres",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cancun-cancun-musa",
@@ -219,14 +226,23 @@
         "Visibility depends on weather; tours include a reef stop.",
         "Snorkelling suits the shallow Manchones site; divers see more."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12347,
+          "period": "202511-202610",
+          "title": "Cancún Underwater Museum",
+          "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn_Underwater_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cancun-cancun-museo-maya",
       "name": "Museo Maya de Cancún and San Miguelito",
       "kind": "see",
-      "lat": 21.073,
-      "lon": -86.774,
+      "lat": 21.07389,
+      "lon": -86.77722,
       "wiki": "Museo Maya de Cancún",
       "summary": "A modern museum of Maya finds with a small ruined Maya site in the jungle behind it.",
       "expect": "Closed on Mondays; quiet.",
@@ -265,14 +281,22 @@
         "Closed on Mondays; quiet.",
         "Good on a rainy or sargassum day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3965,
+          "period": "202511-202610",
+          "title": "Mayan Museum of Cancún",
+          "url": "https://en.wikipedia.org/wiki/Mayan_Museum_of_Canc%C3%BAn",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cancun-cancun-chichen-itza",
       "name": "Chichén Itzá",
       "kind": "see",
-      "lat": 20.6843,
-      "lon": -88.5678,
+      "lat": 20.68306,
+      "lon": -88.56861,
       "wiki": "Chichen Itza",
       "summary": "The great Maya-Toltec city with the stepped pyramid of El Castillo, one of the New Seven Wonders.",
       "expect": "Two and a half hours each way; vendors and heat inside; arrive at 8 am to beat the tours.",
@@ -312,8 +336,16 @@
         "Two and a half hours each way; vendors and heat inside; arrive at 8 am to beat the tours.",
         "Better visited from Mérida or Valladolid; add Cenote Ik Kil on the way."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 622282,
+          "period": "202511-202610",
+          "title": "Chichen Itza",
+          "url": "https://en.wikipedia.org/wiki/Chichen_Itza",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cancun-cancun-downtown",
@@ -360,7 +392,16 @@
         "Touts at the market; families in the park at night.",
         "Go in the evening for the food stalls in Parque de las Palapas."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 403729,
+          "period": "202511-202610",
+          "title": "Cancún",
+          "url": "https://en.wikipedia.org/wiki/Canc%C3%BAn",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cancun-taqueria-el-polilla",
@@ -425,8 +466,8 @@
       "id": "cancun-el-fish-fritanga",
       "name": "El Fish Fritanga",
       "kind": "eat",
-      "lat": 21.117,
-      "lon": -86.762,
+      "lat": 21.10611,
+      "lon": -86.76433,
       "wiki": "Cancún",
       "summary": "A casual seafood spot on the lagoon side of the Hotel Zone with sand under the tables.",
       "expect": "Relaxed and popular at sunset.",
@@ -465,7 +506,6 @@
         "Relaxed and popular at sunset.",
         "Sit at the water's edge for sunset over the lagoon."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -539,5 +579,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

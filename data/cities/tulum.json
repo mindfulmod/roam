@@ -77,8 +77,8 @@
       "id": "tulum-tulum-ruins",
       "name": "Tulum archaeological site",
       "kind": "see",
-      "lat": 20.2148,
-      "lon": -87.429,
+      "lat": 20.21457,
+      "lon": -87.42946,
       "wiki": "Tulum (Maya site)",
       "summary": "A walled Maya port with the Castillo temple on a cliff above a turquoise cove.",
       "expect": "Small, very hot and busy from 10 am; no climbing the buildings.",
@@ -117,15 +117,14 @@
       "tradeoffs": [
         "Small, very hot and busy from 10 am; no climbing the buildings.",
         "Be at the gate at 8 am and bring a swimsuit for the beach below."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "tulum-gran-cenote",
       "name": "Gran Cenote",
       "kind": "see",
-      "lat": 20.2462,
-      "lon": -87.4642,
+      "lat": 20.24656,
+      "lon": -87.4641,
       "wiki": "Cenote",
       "summary": "A clear freshwater sinkhole with caverns, turtles and boardwalks.",
       "expect": "Shower first and no sunscreen; it is busy by 11 am.",
@@ -165,14 +164,22 @@
         "Shower first and no sunscreen; it is busy by 11 am.",
         "Bike from town and arrive at opening; bring snorkel gear."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 241874,
+          "period": "202511-202610",
+          "title": "Cenote",
+          "url": "https://en.wikipedia.org/wiki/Cenote",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tulum-dos-ojos-cenotes",
       "name": "Dos Ojos cenotes",
       "kind": "see",
-      "lat": 20.326,
-      "lon": -87.391,
+      "lat": 20.32472,
+      "lon": -87.39194,
       "wiki": "Dos Ojos",
       "summary": "Two linked cenotes opening into one of the world's longest underwater cave systems.",
       "expect": "Snorkel tours with lights; cave diving for certified divers.",
@@ -212,14 +219,22 @@
         "Snorkel tours with lights; cave diving for certified divers.",
         "Take a guided snorkel to see the bat cave."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9802,
+          "period": "202511-202610",
+          "title": "Sistema Dos Ojos",
+          "url": "https://en.wikipedia.org/wiki/Sistema_Dos_Ojos",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tulum-coba",
       "name": "Cobá",
       "kind": "see",
-      "lat": 20.495,
-      "lon": -87.736,
+      "lat": 20.49,
+      "lon": -87.73194,
       "wiki": "Coba",
       "summary": "A jungle Maya city of long white roads and the 42-metre Nohoch Mul pyramid.",
       "expect": "Sites are spread out; rent a bicycle or a pedicab. Climbing the pyramid is no longer allowed.",
@@ -259,14 +274,22 @@
         "Sites are spread out; rent a bicycle or a pedicab. Climbing the pyramid is no longer allowed.",
         "Pair with a swim in the nearby Choo-Ha or Tamcach-Ha cenotes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34823,
+          "period": "202511-202610",
+          "title": "Coba",
+          "url": "https://en.wikipedia.org/wiki/Coba",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tulum-sian-kaan-biosphere-reserve",
       "name": "Sian Ka'an Biosphere Reserve",
       "kind": "see",
-      "lat": 19.98,
-      "lon": -87.52,
+      "lat": 19.5,
+      "lon": -87.75,
       "wiki": "Sian Ka'an",
       "summary": "A UNESCO reserve of lagoons, mangroves and reef south of Tulum, with dolphins and floating channels.",
       "expect": "A bumpy road; go with a licensed local cooperative.",
@@ -306,14 +329,22 @@
         "A bumpy road; go with a licensed local cooperative.",
         "The Muyil route lets you float down an ancient Maya canal."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6490,
+          "period": "202511-202610",
+          "title": "Sian Kaʼan Biosphere Reserve",
+          "url": "https://en.wikipedia.org/wiki/Sian_Ka%CA%BCan_Biosphere_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tulum-akumal-turtle-bay",
       "name": "Akumal turtle bay",
       "kind": "see",
-      "lat": 20.396,
-      "lon": -87.314,
+      "lat": 20.4,
+      "lon": -87.32111,
       "wiki": "Akumal",
       "summary": "A shallow bay where green sea turtles graze on sea grass.",
       "expect": "Life jackets and roped areas; guides are required in part of the bay.",
@@ -352,14 +383,22 @@
         "Life jackets and roped areas; guides are required in part of the bay.",
         "Go early and keep your distance from the turtles."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9710,
+          "period": "202511-202610",
+          "title": "Akumal",
+          "url": "https://en.wikipedia.org/wiki/Akumal",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tulum-cozumel",
       "name": "Cozumel",
       "kind": "see",
-      "lat": 20.423,
-      "lon": -86.922,
+      "lat": 20.42,
+      "lon": -86.92,
       "wiki": "Cozumel",
       "summary": "An island famous for world-class drift diving and snorkelling along its reefs.",
       "expect": "Ferry from Playa del Carmen, 45 minutes; cruise ships fill the town by day.",
@@ -399,15 +438,23 @@
         "Ferry from Playa del Carmen, 45 minutes; cruise ships fill the town by day.",
         "Book a boat to the Palancar or Colombia reefs."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 177282,
+          "period": "202511-202610",
+          "title": "Cozumel",
+          "url": "https://en.wikipedia.org/wiki/Cozumel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tulum-taqueria-honorio",
       "name": "Taquería Honorio",
       "kind": "eat",
-      "lat": 20.214,
-      "lon": -87.464,
+      "lat": 20.21155,
+      "lon": -87.45789,
       "wiki": "Tulum",
       "summary": "A busy taco stand famous for Yucatecan slow-cooked pork.",
       "expect": "Open from breakfast to early afternoon; it sells out.",
@@ -446,7 +493,6 @@
         "Open from breakfast to early afternoon; it sells out.",
         "Order cochinita and relleno negro tacos."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Yucatecan tacos",
       "mustOrder": [
@@ -524,8 +570,8 @@
       "id": "tulum-antojitos-la-chiapaneca",
       "name": "Antojitos La Chiapaneca",
       "kind": "eat",
-      "lat": 20.211,
-      "lon": -87.466,
+      "lat": 20.21024,
+      "lon": -87.46631,
       "wiki": "Tulum",
       "summary": "A no-frills evening stand with tacos al pastor at very low prices.",
       "expect": "Plastic stools and a queue.",
@@ -564,7 +610,6 @@
         "Plastic stools and a queue.",
         "Order al pastor and add pineapple."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Tacos",
       "mustOrder": [
@@ -579,5 +624,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -168,8 +168,8 @@
       "id": "san-miguel-de-allende-fabrica-la-aurora",
       "name": "Fábrica La Aurora",
       "kind": "see",
-      "lat": 20.927,
-      "lon": -100.74,
+      "lat": 20.92328,
+      "lon": -100.74037,
       "wiki": "Fábrica La Aurora",
       "summary": "A former textile mill turned into galleries, studios and design shops.",
       "expect": "Some studios close on Sundays.",
@@ -208,8 +208,7 @@
       "tradeoffs": [
         "Some studios close on Sundays.",
         "Go late morning and have lunch at the café inside."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-miguel-de-allende-el-charco-del-ingenio",
@@ -262,8 +261,8 @@
       "id": "san-miguel-de-allende-sanctuary-of-atotonilco",
       "name": "Sanctuary of Atotonilco",
       "kind": "see",
-      "lat": 20.993,
-      "lon": -100.792,
+      "lat": 21.00499,
+      "lon": -100.79456,
       "wiki": "Sanctuary of Atotonilco",
       "summary": "A country church whose every wall and ceiling is painted with folk-baroque murals.",
       "expect": "15 minutes by taxi; a working pilgrimage site.",
@@ -303,14 +302,22 @@
         "15 minutes by taxi; a working pilgrimage site.",
         "Combine with a soak at La Gruta hot springs nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8470,
+          "period": "202511-202610",
+          "title": "Sanctuary of Atotonilco",
+          "url": "https://en.wikipedia.org/wiki/Sanctuary_of_Atotonilco",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-miguel-de-allende-guanajuato",
       "name": "Guanajuato",
       "kind": "see",
-      "lat": 21.019,
-      "lon": -101.2574,
+      "lat": 21.01778,
+      "lon": -101.25667,
       "wiki": "Guanajuato City",
       "summary": "A colourful silver-mining city stacked up a ravine, with roads in tunnels under the old town.",
       "expect": "An hour and a half by bus; hilly lanes and many students.",
@@ -351,15 +358,23 @@
         "An hour and a half by bus; hilly lanes and many students.",
         "Take the funicular to the Pípila viewpoint and join a callejoneada evening walking serenade."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 60507,
+          "period": "202511-202610",
+          "title": "Guanajuato (city)",
+          "url": "https://en.wikipedia.org/wiki/Guanajuato_(city)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-miguel-de-allende-the-restaurant",
       "name": "The Restaurant",
       "kind": "eat",
-      "lat": 20.914,
-      "lon": -100.742,
+      "lat": 20.91335,
+      "lon": -100.74278,
       "wiki": "San Miguel de Allende",
       "summary": "A courtyard restaurant of seasonal modern Mexican cooking by chef Donnie Masterton.",
       "expect": "Smart and popular; dinner fills up.",
@@ -398,7 +413,6 @@
         "Smart and popular; dinner fills up.",
         "Book a table in the courtyard."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Modern Mexican",
       "mustOrder": [
@@ -532,5 +546,6 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
