@@ -113,8 +113,8 @@
       "id": "gdansk-gdn-wwii",
       "name": "Museum of the Second World War",
       "kind": "see",
-      "lat": 54.356,
-      "lon": 18.66,
+      "lat": 54.35583,
+      "lon": 18.66056,
       "wiki": "Museum of the Second World War",
       "summary": "Immersive museum of the war that began here.",
       "expect": "Allow 3 to 4 hours.",
@@ -153,14 +153,22 @@
         "Allow 3 to 4 hours.",
         "Book a timed entry."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20835,
+          "period": "202511-202610",
+          "title": "Museum of the Second World War",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Second_World_War",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gdansk-gdn-solidarity",
       "name": "European Solidarity Centre",
       "kind": "see",
-      "lat": 54.361,
-      "lon": 18.649,
+      "lat": 54.36111,
+      "lon": 18.64917,
       "wiki": "European Solidarity Centre",
       "summary": "Museum of the movement that toppled communism.",
       "expect": "Allow 2 hours.",
@@ -199,14 +207,22 @@
         "Allow 2 hours.",
         "See the shipyard gate."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10223,
+          "period": "202511-202610",
+          "title": "European Solidarity Centre",
+          "url": "https://en.wikipedia.org/wiki/European_Solidarity_Centre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gdansk-gdn-crane",
       "name": "Medieval Crane and Motława waterfront",
       "kind": "see",
-      "lat": 54.351,
-      "lon": 18.657,
+      "lat": 54.35056,
+      "lon": 18.6575,
       "wiki": "Gdańsk Crane",
       "summary": "Medieval port crane on the riverside promenade.",
       "expect": "Free outside.",
@@ -246,14 +262,22 @@
         "Free outside.",
         "Walk Mariacka Street after."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18401,
+          "period": "202511-202610",
+          "title": "Gdańsk Crane",
+          "url": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Crane",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gdansk-gdn-malbork",
       "name": "Malbork Castle",
       "kind": "see",
-      "lat": 54.04,
-      "lon": 19.028,
+      "lat": 54.03972,
+      "lon": 19.02778,
       "wiki": "Malbork Castle",
       "summary": "The world's largest brick castle, of the Teutonic Knights.",
       "expect": "45 minutes by train.",
@@ -294,14 +318,22 @@
         "45 minutes by train.",
         "Take the audio guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 197913,
+          "period": "202511-202610",
+          "title": "Malbork Castle",
+          "url": "https://en.wikipedia.org/wiki/Malbork_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gdansk-gdn-sopot",
       "name": "Sopot",
       "kind": "see",
-      "lat": 54.441,
-      "lon": 18.57,
+      "lat": 54.43333,
+      "lon": 18.55,
       "wiki": "Sopot",
       "summary": "Seaside resort with Europe's longest wooden pier.",
       "expect": "20 minutes by train.",
@@ -341,7 +373,15 @@
         "20 minutes by train.",
         "Walk the pier at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65040,
+          "period": "202511-202610",
+          "title": "Sopot",
+          "url": "https://en.wikipedia.org/wiki/Sopot",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gdansk-gdn-pierogi",
@@ -514,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

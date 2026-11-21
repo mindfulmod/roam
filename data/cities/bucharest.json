@@ -71,7 +71,7 @@
       "name": "Palace of the Parliament",
       "kind": "see",
       "lat": 44.4275,
-      "lon": 26.0874,
+      "lon": 26.0875,
       "wiki": "Palace of the Parliament",
       "summary": "Ceaușescu's monumental palace, one of the heaviest buildings on earth.",
       "expect": "Guided tours only; bring ID.",
@@ -111,14 +111,22 @@
         "Guided tours only; bring ID.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 224229,
+          "period": "202511-202610",
+          "title": "Palace of the Parliament",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_the_Parliament",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bucharest-buh-carusel",
       "name": "Carturesti Carusel",
       "kind": "see",
-      "lat": 44.431,
-      "lon": 26.101,
+      "lat": 44.43189,
+      "lon": 26.10161,
       "wiki": "Cărturești Carusel",
       "summary": "Stunning white bookshop in a restored mansion.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Visit the top-floor café."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5044,
+          "period": "202511-202610",
+          "title": "Cărturești Carusel",
+          "url": "https://en.wikipedia.org/wiki/C%C4%83rture%C8%99ti_Carusel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bucharest-buh-oldtown",
       "name": "Old Town (Lipscani)",
       "kind": "see",
-      "lat": 44.431,
-      "lon": 26.1,
+      "lat": 44.43183,
+      "lon": 26.10165,
       "wiki": "Lipscani",
       "summary": "Cobbled streets, bars and the Stavropoleos Monastery.",
       "expect": "Free.",
@@ -205,14 +221,22 @@
         "Free.",
         "Peek into Stavropoleos."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5072,
+          "period": "202511-202610",
+          "title": "Lipscani",
+          "url": "https://en.wikipedia.org/wiki/Lipscani",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bucharest-buh-village",
       "name": "Village Museum",
       "kind": "see",
-      "lat": 44.473,
-      "lon": 26.077,
+      "lat": 44.47336,
+      "lon": 26.07656,
       "wiki": "Dimitrie Gusti National Village Museum",
       "summary": "Open-air museum of traditional rural houses.",
       "expect": "Allow 2 hours.",
@@ -252,14 +276,22 @@
         "Allow 2 hours.",
         "Combine with Herăstrău Park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6428,
+          "period": "202511-202610",
+          "title": "Dimitrie Gusti National Village Museum",
+          "url": "https://en.wikipedia.org/wiki/Dimitrie_Gusti_National_Village_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bucharest-buh-revolution",
       "name": "Revolution Square and Athenaeum",
       "kind": "see",
-      "lat": 44.441,
-      "lon": 26.097,
+      "lat": 44.4413,
+      "lon": 26.0973,
       "wiki": "Romanian Athenaeum",
       "summary": "Site of the 1989 revolution and the domed concert hall.",
       "expect": "Free outside.",
@@ -299,14 +331,22 @@
         "Free outside.",
         "Catch a concert at the Athenaeum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21768,
+          "period": "202511-202610",
+          "title": "Romanian Athenaeum",
+          "url": "https://en.wikipedia.org/wiki/Romanian_Athenaeum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bucharest-buh-peles",
       "name": "Peleș Castle",
       "kind": "see",
-      "lat": 45.36,
-      "lon": 25.543,
+      "lat": 45.35984,
+      "lon": 25.54265,
       "wiki": "Peleș Castle",
       "summary": "Ornate royal castle in the Carpathians.",
       "expect": "2 hours by train.",
@@ -346,8 +386,16 @@
         "2 hours by train.",
         "Combine with Bran Castle."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 106806,
+          "period": "202511-202610",
+          "title": "Peleș Castle",
+          "url": "https://en.wikipedia.org/wiki/Pele%C8%99_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bucharest-buh-sarmale",
@@ -520,5 +568,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -70,8 +70,8 @@
       "id": "bratislava-bts-castle",
       "name": "Bratislava Castle",
       "kind": "see",
-      "lat": 48.1425,
-      "lon": 17.0999,
+      "lat": 48.14222,
+      "lon": 17.1,
       "wiki": "Bratislava Castle",
       "summary": "Square castle with views over the Danube.",
       "expect": "Free grounds.",
@@ -111,7 +111,15 @@
         "Free grounds.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 38296,
+          "period": "202511-202610",
+          "title": "Bratislava Castle",
+          "url": "https://en.wikipedia.org/wiki/Bratislava_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bratislava-bts-oldtown",
@@ -165,8 +173,8 @@
       "id": "bratislava-bts-ufo",
       "name": "UFO Bridge observation deck",
       "kind": "see",
-      "lat": 48.139,
-      "lon": 17.105,
+      "lat": 48.1384,
+      "lon": 17.10458,
       "wiki": "Most SNP",
       "summary": "Flying-saucer tower on a bridge with a viewing deck.",
       "expect": "Ticket.",
@@ -206,14 +214,22 @@
         "Ticket.",
         "Have a drink at the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16278,
+          "period": "202511-202610",
+          "title": "Most SNP",
+          "url": "https://en.wikipedia.org/wiki/Most_SNP",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bratislava-bts-blue",
       "name": "Blue Church",
       "kind": "see",
-      "lat": 48.144,
-      "lon": 17.116,
+      "lat": 48.14336,
+      "lon": 17.11674,
       "wiki": "Church of St. Elizabeth (Bratislava)",
       "summary": "Art Nouveau church painted pastel blue.",
       "expect": "Free.",
@@ -252,15 +268,14 @@
       "tradeoffs": [
         "Free.",
         "Morning light is best."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bratislava-bts-devin",
       "name": "Devín Castle",
       "kind": "see",
-      "lat": 48.174,
-      "lon": 16.978,
+      "lat": 48.17361,
+      "lon": 16.97833,
       "wiki": "Devín Castle",
       "summary": "Ruins on a cliff where two rivers meet.",
       "expect": "Bus or bike.",
@@ -300,14 +315,22 @@
         "Bus or bike.",
         "Cycle the Danube path."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17634,
+          "period": "202511-202610",
+          "title": "Devín Castle",
+          "url": "https://en.wikipedia.org/wiki/Dev%C3%ADn_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bratislava-bts-stmartin",
       "name": "St Martin's Cathedral",
       "kind": "see",
-      "lat": 48.142,
-      "lon": 17.105,
+      "lat": 48.14214,
+      "lon": 17.10478,
       "wiki": "St. Martin's Cathedral, Bratislava",
       "summary": "Coronation church of Hungarian kings.",
       "expect": "Small fee.",
@@ -347,7 +370,15 @@
         "Small fee.",
         "See the golden crown on the spire."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18401,
+          "period": "202511-202610",
+          "title": "St Martin's Cathedral, Bratislava",
+          "url": "https://en.wikipedia.org/wiki/St_Martin's_Cathedral%2C_Bratislava",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bratislava-bts-halusky",
@@ -520,5 +551,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

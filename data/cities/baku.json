@@ -65,8 +65,8 @@
       "id": "baku-bak-oldcity",
       "name": "Old City (İçərişəhər)",
       "kind": "see",
-      "lat": 40.366,
-      "lon": 49.837,
+      "lat": 40.36667,
+      "lon": 49.83333,
       "wiki": "Old City (Baku)",
       "summary": "Walled medieval city with caravanserais.",
       "expect": "Free; small fees for sites.",
@@ -106,14 +106,22 @@
         "Free; small fees for sites.",
         "Get lost in the lanes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23802,
+          "period": "202511-202610",
+          "title": "Old City (Baku)",
+          "url": "https://en.wikipedia.org/wiki/Old_City_(Baku)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "baku-bak-maiden",
       "name": "Maiden Tower",
       "kind": "see",
-      "lat": 40.366,
-      "lon": 49.837,
+      "lat": 40.3661,
+      "lon": 49.8372,
       "wiki": "Maiden Tower (Baku)",
       "summary": "Mysterious 12th-century tower with views.",
       "expect": "Ticket.",
@@ -153,14 +161,22 @@
         "Ticket.",
         "Climb to the roof."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30577,
+          "period": "202511-202610",
+          "title": "Maiden Tower (Baku)",
+          "url": "https://en.wikipedia.org/wiki/Maiden_Tower_(Baku)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "baku-bak-shirvanshah",
       "name": "Palace of the Shirvanshahs",
       "kind": "see",
-      "lat": 40.367,
-      "lon": 49.833,
+      "lat": 40.36615,
+      "lon": 49.83344,
       "wiki": "Palace of the Shirvanshahs",
       "summary": "15th-century royal complex.",
       "expect": "Ticket.",
@@ -200,14 +216,22 @@
         "Ticket.",
         "See the bathhouse."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29473,
+          "period": "202511-202610",
+          "title": "Palace of the Shirvanshahs",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_the_Shirvanshahs",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "baku-bak-aliyev",
       "name": "Heydar Aliyev Center",
       "kind": "see",
-      "lat": 40.396,
-      "lon": 49.867,
+      "lat": 40.39528,
+      "lon": 49.86694,
       "wiki": "Heydar Aliyev Center",
       "summary": "Zaha Hadid's flowing white masterpiece.",
       "expect": "Ticket for inside.",
@@ -247,14 +271,22 @@
         "Ticket for inside.",
         "Photograph from the park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 53114,
+          "period": "202511-202610",
+          "title": "Heydar Aliyev Center",
+          "url": "https://en.wikipedia.org/wiki/Heydar_Aliyev_Center",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "baku-bak-boulevard",
       "name": "Baku Boulevard and Flame Towers",
       "kind": "see",
       "lat": 40.36,
-      "lon": 49.84,
+      "lon": 49.8371,
       "wiki": "Baku Boulevard",
       "summary": "Seaside promenade with the light show on the Flame Towers.",
       "expect": "Free.",
@@ -295,14 +327,22 @@
         "Free.",
         "Ride the funicular to Highland Park at night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6481,
+          "period": "202511-202610",
+          "title": "Baku Boulevard",
+          "url": "https://en.wikipedia.org/wiki/Baku_Boulevard",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "baku-bak-gobustan",
       "name": "Gobustan and mud volcanoes",
       "kind": "see",
-      "lat": 40.08,
-      "lon": 49.38,
+      "lat": 40.125,
+      "lon": 49.375,
       "wiki": "Gobustan National Park",
       "summary": "Ancient rock art and bubbling mud volcanoes.",
       "expect": "Half-day tour.",
@@ -342,8 +382,16 @@
         "Half-day tour.",
         "Wear old shoes."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13810,
+          "period": "202511-202610",
+          "title": "Gobustan State Historical and Cultural Reserve",
+          "url": "https://en.wikipedia.org/wiki/Gobustan_State_Historical_and_Cultural_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "baku-bak-plov",
@@ -516,5 +564,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

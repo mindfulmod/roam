@@ -64,8 +64,8 @@
       "id": "yerevan-evn-cascade",
       "name": "Cascade Complex",
       "kind": "see",
-      "lat": 40.191,
-      "lon": 44.515,
+      "lat": 40.19111,
+      "lon": 44.51556,
       "wiki": "Yerevan Cascade",
       "summary": "Giant stairway with art and Ararat views.",
       "expect": "Free.",
@@ -106,14 +106,22 @@
         "Free.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24221,
+          "period": "202511-202610",
+          "title": "Yerevan Cascade",
+          "url": "https://en.wikipedia.org/wiki/Yerevan_Cascade",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yerevan-evn-genocide",
       "name": "Armenian Genocide Memorial",
       "kind": "see",
-      "lat": 40.185,
-      "lon": 44.49,
+      "lat": 40.18583,
+      "lon": 44.49056,
       "wiki": "Armenian Genocide Memorial complex",
       "summary": "Eternal flame memorial and museum.",
       "expect": "Free.",
@@ -152,14 +160,22 @@
         "Free.",
         "Allow 2 hours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34898,
+          "period": "202511-202610",
+          "title": "Tsitsernakaberd",
+          "url": "https://en.wikipedia.org/wiki/Tsitsernakaberd",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yerevan-evn-garni",
       "name": "Garni and Geghard",
       "kind": "see",
-      "lat": 40.14,
-      "lon": 44.82,
+      "lat": 40.14043,
+      "lon": 44.81851,
       "wiki": "Geghard",
       "summary": "Greek-style temple and cave monastery carved from rock.",
       "expect": "Half day.",
@@ -200,14 +216,22 @@
         "Half day.",
         "Listen for choirs at Geghard."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 35038,
+          "period": "202511-202610",
+          "title": "Geghard",
+          "url": "https://en.wikipedia.org/wiki/Geghard",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yerevan-evn-khorvirap",
       "name": "Khor Virap",
       "kind": "see",
-      "lat": 39.878,
-      "lon": 44.576,
+      "lat": 39.87833,
+      "lon": 44.57611,
       "wiki": "Khor Virap",
       "summary": "Monastery in front of Mount Ararat.",
       "expect": "Day trip.",
@@ -247,14 +271,22 @@
         "Day trip.",
         "Go on a clear morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32661,
+          "period": "202511-202610",
+          "title": "Khor Virap",
+          "url": "https://en.wikipedia.org/wiki/Khor_Virap",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yerevan-evn-matenadaran",
       "name": "Matenadaran",
       "kind": "see",
-      "lat": 40.192,
-      "lon": 44.521,
+      "lat": 40.19246,
+      "lon": 44.52221,
       "wiki": "Matenadaran",
       "summary": "Ancient manuscript library.",
       "expect": "Allow 1.5 hours.",
@@ -293,14 +325,22 @@
         "Allow 1.5 hours.",
         "Take the guided tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18938,
+          "period": "202511-202610",
+          "title": "Matenadaran",
+          "url": "https://en.wikipedia.org/wiki/Matenadaran",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yerevan-evn-vernissage",
       "name": "Vernissage Market",
       "kind": "see",
-      "lat": 40.176,
-      "lon": 44.515,
+      "lat": 40.17494,
+      "lon": 44.51989,
       "wiki": "Vernissage market",
       "summary": "Weekend open-air craft and flea market.",
       "expect": "Weekends.",
@@ -338,8 +378,7 @@
       "tradeoffs": [
         "Weekends.",
         "Haggle for carpets."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "yerevan-evn-khorovats",
@@ -459,8 +498,8 @@
       "id": "yerevan-evn-brandy",
       "name": "Ararat brandy",
       "kind": "eat",
-      "lat": 40.177,
-      "lon": 44.49,
+      "lat": 40.17667,
+      "lon": 44.49717,
       "wiki": "Yerevan Brandy Company",
       "summary": "Tour and tasting at the famous brandy distillery.",
       "expect": "Book a tour.",
@@ -499,7 +538,6 @@
         "Book a tour.",
         "Try 10-year-old."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Armenian",
       "mustOrder": [
@@ -512,5 +550,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
