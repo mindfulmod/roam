@@ -71,8 +71,8 @@
       "id": "turin-tur-egizio",
       "name": "Egyptian Museum",
       "kind": "see",
-      "lat": 45.0684,
-      "lon": 7.6843,
+      "lat": 45.06833,
+      "lon": 7.68444,
       "wiki": "Museo Egizio",
       "summary": "One of the world's great collections of ancient Egyptian art.",
       "expect": "Book a time slot.",
@@ -112,14 +112,22 @@
         "Book a time slot.",
         "Allow at least three hours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26000,
+          "period": "202511-202610",
+          "title": "Museo Egizio",
+          "url": "https://en.wikipedia.org/wiki/Museo_Egizio",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "turin-tur-mole",
       "name": "Mole Antonelliana and Cinema Museum",
       "kind": "see",
-      "lat": 45.069,
-      "lon": 7.6932,
+      "lat": 45.06889,
+      "lon": 7.69306,
       "wiki": "Mole Antonelliana",
       "summary": "Spired landmark holding the National Cinema Museum and a glass lift.",
       "expect": "Lift queues at sunset.",
@@ -160,13 +168,21 @@
         "Lift queues at sunset.",
         "Book the lift and museum together."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 71960,
+          "period": "202511-202610",
+          "title": "Mole Antonelliana",
+          "url": "https://en.wikipedia.org/wiki/Mole_Antonelliana",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "turin-tur-palazzo",
       "name": "Royal Palace of Turin",
       "kind": "see",
-      "lat": 45.0726,
+      "lat": 45.0727,
       "lon": 7.686,
       "wiki": "Royal Palace of Turin",
       "summary": "Savoy royal apartments, armoury and gardens.",
@@ -207,14 +223,22 @@
         "Big complex.",
         "Include the Royal Armoury."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28180,
+          "period": "202511-202610",
+          "title": "Royal Palace of Turin",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Turin",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "turin-tur-superga",
       "name": "Basilica of Superga",
       "kind": "see",
-      "lat": 45.0805,
-      "lon": 7.7676,
+      "lat": 45.08083,
+      "lon": 7.7675,
       "wiki": "Basilica of Superga",
       "summary": "Baroque basilica on a hill with Alpine views.",
       "expect": "Take the rack railway from Sassi.",
@@ -254,14 +278,22 @@
         "Take the rack railway from Sassi.",
         "Clear days show Monte Rosa."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36028,
+          "period": "202511-202610",
+          "title": "Basilica of Superga",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Superga",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "turin-tur-venaria",
       "name": "Reggia di Venaria",
       "kind": "see",
-      "lat": 45.1368,
-      "lon": 7.6262,
+      "lat": 45.13583,
+      "lon": 7.62352,
       "wiki": "Palace of Venaria",
       "summary": "Vast royal hunting palace with restored gardens.",
       "expect": "Half a day.",
@@ -302,14 +334,22 @@
         "Half a day.",
         "Train or bus from the centre."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12401,
+          "period": "202511-202610",
+          "title": "Palace of Venaria",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_Venaria",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "turin-tur-sancarlo",
       "name": "Piazza San Carlo and the arcades",
       "kind": "see",
-      "lat": 45.0677,
-      "lon": 7.6826,
+      "lat": 45.06773,
+      "lon": 7.68259,
       "wiki": "Piazza San Carlo",
       "summary": "Grand baroque square framed by historic cafés.",
       "expect": "Free.",
@@ -348,7 +388,15 @@
         "Free.",
         "Walk Via Roma under the arcades."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5406,
+          "period": "202511-202610",
+          "title": "Piazza San Carlo",
+          "url": "https://en.wikipedia.org/wiki/Piazza_San_Carlo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "turin-tur-bicerin",
@@ -523,5 +571,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

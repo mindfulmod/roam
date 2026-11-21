@@ -77,8 +77,8 @@
       "id": "manchester-man-oldtrafford",
       "name": "Old Trafford",
       "kind": "see",
-      "lat": 53.4631,
-      "lon": -2.2913,
+      "lat": 53.46306,
+      "lon": -2.29139,
       "wiki": "Old Trafford",
       "summary": "Manchester United's stadium tour and museum.",
       "expect": "Book ahead.",
@@ -118,14 +118,22 @@
         "Book ahead.",
         "Tram to Old Trafford."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 396161,
+          "period": "202511-202610",
+          "title": "Old Trafford",
+          "url": "https://en.wikipedia.org/wiki/Old_Trafford",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manchester-man-etihad",
       "name": "Etihad Stadium tour",
       "kind": "see",
-      "lat": 53.4831,
-      "lon": -2.2004,
+      "lat": 53.48314,
+      "lon": -2.20039,
       "wiki": "City of Manchester Stadium",
       "summary": "Manchester City's stadium tour.",
       "expect": "Book ahead.",
@@ -164,14 +172,22 @@
         "Book ahead.",
         "Tram to Etihad Campus."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 72484,
+          "period": "202511-202610",
+          "title": "Etihad Stadium",
+          "url": "https://en.wikipedia.org/wiki/Etihad_Stadium",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manchester-man-science",
       "name": "Science and Industry Museum",
       "kind": "see",
-      "lat": 53.477,
-      "lon": -2.255,
+      "lat": 53.47694,
+      "lon": -2.25556,
       "wiki": "Science and Industry Museum",
       "summary": "Museum on the site of the world's first passenger railway station.",
       "expect": "Free.",
@@ -212,14 +228,22 @@
         "Free.",
         "See the working machines."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10875,
+          "period": "202511-202610",
+          "title": "Science and Industry Museum",
+          "url": "https://en.wikipedia.org/wiki/Science_and_Industry_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manchester-man-rylands",
       "name": "John Rylands Library",
       "kind": "see",
-      "lat": 53.4805,
-      "lon": -2.2486,
+      "lat": 53.48032,
+      "lon": -2.2487,
       "wiki": "John Rylands Library",
       "summary": "Neo-Gothic library like a cathedral of books.",
       "expect": "Free.",
@@ -259,14 +283,22 @@
         "Free.",
         "Look for the oldest New Testament fragment."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25004,
+          "period": "202511-202610",
+          "title": "John Rylands Research Institute and Library",
+          "url": "https://en.wikipedia.org/wiki/John_Rylands_Research_Institute_and_Library",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manchester-man-nq",
       "name": "Northern Quarter",
       "kind": "see",
-      "lat": 53.484,
-      "lon": -2.235,
+      "lat": 53.48229,
+      "lon": -2.23435,
       "wiki": "Northern Quarter (Manchester)",
       "summary": "Indie shops, murals, bars and Afflecks.",
       "expect": "Free.",
@@ -307,14 +339,22 @@
         "Free.",
         "Evening bars."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7152,
+          "period": "202511-202610",
+          "title": "Northern Quarter, Manchester",
+          "url": "https://en.wikipedia.org/wiki/Northern_Quarter%2C_Manchester",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manchester-man-football",
       "name": "National Football Museum",
       "kind": "see",
-      "lat": 53.4855,
-      "lon": -2.243,
+      "lat": 53.48556,
+      "lon": -2.24194,
       "wiki": "National Football Museum",
       "summary": "Museum of the game's history.",
       "expect": "Paid entry.",
@@ -354,7 +394,15 @@
         "Paid entry.",
         "Try the penalty shootout."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20578,
+          "period": "202511-202610",
+          "title": "National Football Museum",
+          "url": "https://en.wikipedia.org/wiki/National_Football_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manchester-man-curry",
@@ -476,8 +524,8 @@
       "id": "manchester-man-chinatown",
       "name": "Chinatown",
       "kind": "eat",
-      "lat": 53.4785,
-      "lon": -2.24,
+      "lat": 53.4786,
+      "lon": -2.2401,
       "wiki": "Chinatown, Manchester",
       "summary": "One of Britain's largest Chinatowns.",
       "expect": "Dim sum.",
@@ -516,7 +564,6 @@
         "Dim sum.",
         "Weekend dim sum."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Chinese",
       "mustOrder": [
@@ -529,5 +576,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

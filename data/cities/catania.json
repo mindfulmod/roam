@@ -71,8 +71,8 @@
       "id": "catania-cat-etna",
       "name": "Mount Etna",
       "kind": "see",
-      "lat": 37.751,
-      "lon": 14.9934,
+      "lat": 37.755,
+      "lon": 14.995,
       "wiki": "Mount Etna",
       "summary": "Europe's highest active volcano, with craters, lava fields and a cable car.",
       "expect": "Bring warm layers.",
@@ -113,14 +113,22 @@
         "Bring warm layers.",
         "Guided summit tours need booking."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 502061,
+          "period": "202511-202610",
+          "title": "Mount Etna",
+          "url": "https://en.wikipedia.org/wiki/Mount_Etna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "catania-cat-duomo",
       "name": "Piazza del Duomo",
       "kind": "see",
       "lat": 37.5025,
-      "lon": 15.0874,
+      "lon": 15.08806,
       "wiki": "Catania Cathedral",
       "summary": "Baroque square with the lava-stone elephant fountain.",
       "expect": "Free.",
@@ -160,7 +168,15 @@
         "Free.",
         "Visit the cathedral of Saint Agatha."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11413,
+          "period": "202511-202610",
+          "title": "Catania Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Catania_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "catania-cat-pescheria",
@@ -213,8 +229,8 @@
       "id": "catania-cat-taormina",
       "name": "Taormina",
       "kind": "see",
-      "lat": 37.8516,
-      "lon": 15.2853,
+      "lat": 37.85222,
+      "lon": 15.29194,
       "wiki": "Taormina",
       "summary": "Clifftop resort with a Greek theatre facing Etna.",
       "expect": "Bus or train to Taormina-Giardini.",
@@ -254,14 +270,22 @@
         "Bus or train to Taormina-Giardini.",
         "Visit Isola Bella below."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 116047,
+          "period": "202511-202610",
+          "title": "Taormina",
+          "url": "https://en.wikipedia.org/wiki/Taormina",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "catania-cat-ursino",
       "name": "Castello Ursino",
       "kind": "see",
-      "lat": 37.499,
-      "lon": 15.0832,
+      "lat": 37.49889,
+      "lon": 15.08472,
       "wiki": "Castello Ursino",
       "summary": "13th-century castle once on the sea, before lava pushed the shore away.",
       "expect": "Museum inside.",
@@ -301,14 +325,22 @@
         "Museum inside.",
         "Combine with the fish market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11542,
+          "period": "202511-202610",
+          "title": "Castello Ursino",
+          "url": "https://en.wikipedia.org/wiki/Castello_Ursino",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "catania-cat-theatre",
       "name": "Roman Theatre and Via Crociferi",
       "kind": "see",
-      "lat": 37.503,
-      "lon": 15.082,
+      "lat": 37.50258,
+      "lon": 15.08391,
       "wiki": "Roman Theatre of Catania",
       "summary": "Ancient theatre buried in the city and a street of baroque churches.",
       "expect": "Short visit.",
@@ -348,7 +380,15 @@
         "Short visit.",
         "Walk Via Crociferi at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7135,
+          "period": "202511-202610",
+          "title": "Roman Theatre of Catania",
+          "url": "https://en.wikipedia.org/wiki/Roman_Theatre_of_Catania",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "catania-cat-arancini",
@@ -523,5 +563,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

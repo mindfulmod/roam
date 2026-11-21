@@ -118,8 +118,8 @@
       "id": "sorrento-sor-marina",
       "name": "Marina Grande",
       "kind": "see",
-      "lat": 40.6295,
-      "lon": 14.37,
+      "lat": 40.6275,
+      "lon": 14.36563,
       "wiki": "Marina Grande (Sorrento)",
       "summary": "Old fishing harbour with seafood restaurants.",
       "expect": "Walk down the steps.",
@@ -158,15 +158,14 @@
       "tradeoffs": [
         "Walk down the steps.",
         "Dinner by the boats."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sorrento-sor-capri",
       "name": "Capri",
       "kind": "see",
-      "lat": 40.5532,
-      "lon": 14.2222,
+      "lat": 40.55,
+      "lon": 14.23333,
       "wiki": "Capri",
       "summary": "Glamorous island with the Blue Grotto and Anacapri chairlift.",
       "expect": "Early ferry.",
@@ -206,14 +205,22 @@
         "Early ferry.",
         "Blue Grotto closes in swell."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 229003,
+          "period": "202511-202610",
+          "title": "Capri",
+          "url": "https://en.wikipedia.org/wiki/Capri",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sorrento-sor-pompeii",
       "name": "Pompeii",
       "kind": "see",
-      "lat": 40.749,
-      "lon": 14.485,
+      "lat": 40.75,
+      "lon": 14.48611,
       "wiki": "Pompeii",
       "summary": "Roman city buried by Vesuvius in 79 AD.",
       "expect": "Bring water.",
@@ -252,7 +259,15 @@
         "Bring water.",
         "Circumvesuviana to Pompei Scavi."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1085175,
+          "period": "202511-202610",
+          "title": "Pompeii",
+          "url": "https://en.wikipedia.org/wiki/Pompeii",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sorrento-sor-regina",
@@ -305,8 +320,8 @@
       "id": "sorrento-sor-mills",
       "name": "Valley of the Mills",
       "kind": "see",
-      "lat": 40.6255,
-      "lon": 14.377,
+      "lat": 40.6251,
+      "lon": 14.3763,
       "wiki": "Vallone dei Mulini",
       "summary": "Ruined mill in a fern-filled gorge in the town centre.",
       "expect": "Viewpoint only.",
@@ -346,7 +361,15 @@
         "Viewpoint only.",
         "Look from Via Fuorimura."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10362,
+          "period": "202511-202610",
+          "title": "Vallone dei Mulini",
+          "url": "https://en.wikipedia.org/wiki/Vallone_dei_Mulini",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sorrento-sor-gnocchi",
@@ -519,5 +542,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

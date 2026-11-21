@@ -66,7 +66,7 @@
       "name": "King's College Chapel",
       "kind": "see",
       "lat": 52.2048,
-      "lon": 0.1167,
+      "lon": 0.1165,
       "wiki": "King's College Chapel, Cambridge",
       "summary": "Gothic chapel with the world's largest fan vault.",
       "expect": "Paid entry; evensong is free.",
@@ -106,7 +106,15 @@
         "Paid entry; evensong is free.",
         "Go to choral evensong."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 40159,
+          "period": "202511-202610",
+          "title": "King's College Chapel, Cambridge",
+          "url": "https://en.wikipedia.org/wiki/King's_College_Chapel%2C_Cambridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cambridge-cam-punt",
@@ -159,8 +167,8 @@
       "id": "cambridge-cam-fitz",
       "name": "Fitzwilliam Museum",
       "kind": "see",
-      "lat": 52.2003,
-      "lon": 0.1197,
+      "lat": 52.20028,
+      "lon": 0.11944,
       "wiki": "Fitzwilliam Museum",
       "summary": "Free museum of art and antiquities.",
       "expect": "Free.",
@@ -199,14 +207,22 @@
         "Free.",
         "Look for the Egyptian coffins."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26444,
+          "period": "202511-202610",
+          "title": "Fitzwilliam Museum",
+          "url": "https://en.wikipedia.org/wiki/Fitzwilliam_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cambridge-cam-trinity",
       "name": "Trinity College",
       "kind": "see",
       "lat": 52.207,
-      "lon": 0.117,
+      "lon": 0.1146,
       "wiki": "Trinity College, Cambridge",
       "summary": "Grand college of Newton, with the Wren Library.",
       "expect": "Library opens limited hours.",
@@ -246,13 +262,21 @@
         "Library opens limited hours.",
         "Check Wren Library times."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 285309,
+          "period": "202511-202610",
+          "title": "Trinity College, Cambridge",
+          "url": "https://en.wikipedia.org/wiki/Trinity_College%2C_Cambridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cambridge-cam-grantchester",
       "name": "Grantchester Meadows",
       "kind": "see",
-      "lat": 52.18,
+      "lat": 52.179,
       "lon": 0.095,
       "wiki": "Grantchester",
       "summary": "Riverside meadow walk to The Orchard tea garden.",
@@ -292,14 +316,22 @@
         "Free walk.",
         "Walk out, punt back."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34024,
+          "period": "202511-202610",
+          "title": "Grantchester",
+          "url": "https://en.wikipedia.org/wiki/Grantchester",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cambridge-cam-stmary",
       "name": "Great St Mary's tower",
       "kind": "see",
-      "lat": 52.2055,
-      "lon": 0.118,
+      "lat": 52.2053,
+      "lon": 0.1182,
       "wiki": "Great St Mary's, Cambridge",
       "summary": "Church tower view over colleges.",
       "expect": "123 steps.",
@@ -339,14 +371,22 @@
         "123 steps.",
         "Clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12231,
+          "period": "202511-202610",
+          "title": "Church of St Mary the Great, Cambridge",
+          "url": "https://en.wikipedia.org/wiki/Church_of_St_Mary_the_Great%2C_Cambridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cambridge-cam-fitzbillies",
       "name": "Fitzbillies Chelsea bun",
       "kind": "eat",
-      "lat": 52.201,
-      "lon": 0.12,
+      "lat": 52.202,
+      "lon": 0.1181,
       "wiki": "Fitzbillies",
       "summary": "Sticky Chelsea buns famous since 1920.",
       "expect": "Queues at weekends.",
@@ -385,7 +425,6 @@
         "Queues at weekends.",
         "Take one away."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Bakery",
       "mustOrder": [
@@ -402,8 +441,8 @@
       "id": "cambridge-cam-eagle",
       "name": "The Eagle pub",
       "kind": "eat",
-      "lat": 52.2039,
-      "lon": 0.1183,
+      "lat": 52.204,
+      "lon": 0.1182,
       "wiki": "The Eagle, Cambridge",
       "summary": "Pub where the DNA discovery was announced.",
       "expect": "Busy lunchtimes.",
@@ -442,7 +481,6 @@
         "Busy lunchtimes.",
         "See the RAF bar ceiling."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "British",
       "mustOrder": [
@@ -460,8 +498,8 @@
       "id": "cambridge-cam-market",
       "name": "Market Square stalls",
       "kind": "eat",
-      "lat": 52.2055,
-      "lon": 0.119,
+      "lat": 52.2054,
+      "lon": 0.1191,
       "wiki": "Cambridge Market",
       "summary": "Daily open-air market with street food.",
       "expect": "Daily.",
@@ -500,7 +538,6 @@
         "Daily.",
         "Lunch at the food stalls."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -513,5 +550,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -71,8 +71,8 @@
       "id": "siena-sie-campo",
       "name": "Piazza del Campo",
       "kind": "see",
-      "lat": 43.3184,
-      "lon": 11.3317,
+      "lat": 43.31833,
+      "lon": 11.33139,
       "wiki": "Piazza del Campo",
       "summary": "Sloping shell-shaped square, home of the Palio.",
       "expect": "Free.",
@@ -112,14 +112,22 @@
         "Free.",
         "Sit on the bricks at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28449,
+          "period": "202511-202610",
+          "title": "Piazza del Campo",
+          "url": "https://en.wikipedia.org/wiki/Piazza_del_Campo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "siena-sie-mangia",
       "name": "Torre del Mangia",
       "kind": "see",
-      "lat": 43.318,
-      "lon": 11.3319,
+      "lat": 43.31821,
+      "lon": 11.33225,
       "wiki": "Torre del Mangia",
       "summary": "Medieval tower with 400 steps over the square.",
       "expect": "Timed entry.",
@@ -159,14 +167,22 @@
         "Timed entry.",
         "Pair with the Civic Museum frescoes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16366,
+          "period": "202511-202610",
+          "title": "Torre del Mangia",
+          "url": "https://en.wikipedia.org/wiki/Torre_del_Mangia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "siena-sie-duomo",
       "name": "Siena Cathedral",
       "kind": "see",
-      "lat": 43.3176,
-      "lon": 11.3289,
+      "lat": 43.3177,
+      "lon": 11.329,
       "wiki": "Siena Cathedral",
       "summary": "Striped Gothic cathedral with inlaid marble floors and the Piccolomini Library.",
       "expect": "OPA pass covers the complex.",
@@ -207,14 +223,22 @@
         "OPA pass covers the complex.",
         "Floors are fully uncovered in late summer and autumn."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 69317,
+          "period": "202511-202610",
+          "title": "Siena Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Siena_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "siena-sie-scala",
       "name": "Santa Maria della Scala",
       "kind": "see",
-      "lat": 43.3171,
-      "lon": 11.3285,
+      "lat": 43.31719,
+      "lon": 11.32797,
       "wiki": "Santa Maria della Scala",
       "summary": "Former hospital with frescoed wards and archaeology.",
       "expect": "Quiet.",
@@ -253,15 +277,14 @@
       "tradeoffs": [
         "Quiet.",
         "Look for the Pilgrims' Hall."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "siena-sie-gimignano",
       "name": "San Gimignano",
       "kind": "see",
-      "lat": 43.4677,
-      "lon": 11.043,
+      "lat": 43.468,
+      "lon": 11.042,
       "wiki": "San Gimignano",
       "summary": "Walled town of medieval towers and Vernaccia wine.",
       "expect": "Bus via Poggibonsi.",
@@ -302,14 +325,22 @@
         "Bus via Poggibonsi.",
         "Stay until day-trippers leave."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 139662,
+          "period": "202511-202610",
+          "title": "San Gimignano",
+          "url": "https://en.wikipedia.org/wiki/San_Gimignano",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "siena-sie-orcia",
       "name": "Val d'Orcia",
       "kind": "see",
-      "lat": 43.0767,
-      "lon": 11.677,
+      "lat": 43.06667,
+      "lon": 11.55,
       "wiki": "Val d'Orcia",
       "summary": "Rolling hills, cypress rows and Pienza and Montalcino.",
       "expect": "Best by car.",
@@ -349,7 +380,15 @@
         "Best by car.",
         "Sunrise near San Quirico."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36378,
+          "period": "202511-202610",
+          "title": "Val d'Orcia",
+          "url": "https://en.wikipedia.org/wiki/Val_d'Orcia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "siena-sie-pici",
@@ -524,5 +563,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

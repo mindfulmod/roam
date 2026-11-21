@@ -113,14 +113,22 @@
         "Busy midday.",
         "Arrive by cruise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 70160,
+          "period": "202511-202610",
+          "title": "Urquhart Castle",
+          "url": "https://en.wikipedia.org/wiki/Urquhart_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "inverness-inv-culloden",
       "name": "Culloden Battlefield",
       "kind": "see",
-      "lat": 57.4775,
-      "lon": -4.093,
+      "lat": 57.47722,
+      "lon": -4.0925,
       "wiki": "Battle of Culloden",
       "summary": "Site of the last Jacobite battle in 1746.",
       "expect": "Visitor centre.",
@@ -159,7 +167,15 @@
         "Visitor centre.",
         "Walk the moor."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 454976,
+          "period": "202511-202610",
+          "title": "Battle of Culloden",
+          "url": "https://en.wikipedia.org/wiki/Battle_of_Culloden",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "inverness-inv-clava",
@@ -211,8 +227,8 @@
       "id": "inverness-inv-chanonry",
       "name": "Chanonry Point",
       "kind": "see",
-      "lat": 57.574,
-      "lon": -4.093,
+      "lat": 57.57421,
+      "lon": -4.09352,
       "wiki": "Chanonry Point",
       "summary": "Best place in Britain to see bottlenose dolphins.",
       "expect": "Free.",
@@ -251,14 +267,22 @@
         "Free.",
         "Rising tide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5651,
+          "period": "202511-202610",
+          "title": "Chanonry Point",
+          "url": "https://en.wikipedia.org/wiki/Chanonry_Point",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "inverness-inv-ness",
       "name": "Ness Islands and riverside",
       "kind": "see",
-      "lat": 57.466,
-      "lon": -4.234,
+      "lat": 57.4632,
+      "lon": -4.2307,
       "wiki": "Ness Islands",
       "summary": "Wooded islands linked by bridges.",
       "expect": "Free.",
@@ -297,14 +321,22 @@
         "Free.",
         "Evening walk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1802,
+          "period": "202511-202610",
+          "title": "Ness Islands",
+          "url": "https://en.wikipedia.org/wiki/Ness_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "inverness-inv-castle",
       "name": "Inverness Castle viewpoint",
       "kind": "see",
       "lat": 57.4764,
-      "lon": -4.2262,
+      "lon": -4.2254,
       "wiki": "Inverness Castle",
       "summary": "Red sandstone castle over the river.",
       "expect": "Check opening.",
@@ -344,14 +376,22 @@
         "Check opening.",
         "Viewpoint."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37541,
+          "period": "202511-202610",
+          "title": "Inverness Castle",
+          "url": "https://en.wikipedia.org/wiki/Inverness_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "inverness-inv-victorian",
       "name": "Victorian Market",
       "kind": "eat",
-      "lat": 57.479,
-      "lon": -4.226,
+      "lat": 57.4791,
+      "lon": -4.2251,
       "wiki": "Victorian Market",
       "summary": "Covered arcade with a food hall.",
       "expect": "Daily.",
@@ -390,7 +430,6 @@
         "Daily.",
         "Lunch in the food hall."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Scottish",
       "mustOrder": [
@@ -519,5 +558,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
