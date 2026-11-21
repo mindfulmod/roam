@@ -106,7 +106,16 @@
         "Bring reef-safe sunscreen.",
         "Snorkel at high tide."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 235486,
+          "period": "202511-202610",
+          "title": "Coral reef",
+          "url": "https://en.wikipedia.org/wiki/Coral_reef",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maldives-mle-mantas",
@@ -200,14 +209,23 @@
         "Hot; bring shade.",
         "Go early."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 135603,
+          "period": "202511-202610",
+          "title": "Shoal",
+          "url": "https://en.wikipedia.org/wiki/Shoal",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maldives-mle-male",
       "name": "Malé city",
       "kind": "see",
-      "lat": 4.1755,
-      "lon": 73.5093,
+      "lat": 4.17528,
+      "lon": 73.50889,
       "wiki": "Malé",
       "summary": "The dense capital, with the Old Friday Mosque of coral stone and a fish market.",
       "expect": "Dress modestly.",
@@ -247,7 +265,15 @@
         "Dress modestly.",
         "Combine with a layover."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 264599,
+          "period": "202511-202610",
+          "title": "Malé",
+          "url": "https://en.wikipedia.org/wiki/Mal%C3%A9",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maldives-mle-biolum",
@@ -293,7 +319,16 @@
         "Unpredictable.",
         "Look on moonless nights."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 144666,
+          "period": "202511-202610",
+          "title": "Bioluminescence",
+          "url": "https://en.wikipedia.org/wiki/Bioluminescence",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "maldives-mle-maafushi",
@@ -514,5 +549,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

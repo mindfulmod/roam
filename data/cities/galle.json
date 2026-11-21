@@ -71,8 +71,8 @@
       "id": "galle-gal-fort",
       "name": "Galle Fort",
       "kind": "see",
-      "lat": 6.027,
-      "lon": 80.217,
+      "lat": 6.03047,
+      "lon": 80.21692,
       "wiki": "Galle Fort",
       "summary": "Walk the ramparts and colonial lanes of a still-lived-in Dutch fort.",
       "expect": "Free.",
@@ -113,14 +113,22 @@
         "Free.",
         "Walk the walls at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48778,
+          "period": "202511-202610",
+          "title": "Galle Fort",
+          "url": "https://en.wikipedia.org/wiki/Galle_Fort",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galle-gal-lighthouse",
       "name": "Lighthouse and Flag Rock",
       "kind": "see",
-      "lat": 6.0244,
-      "lon": 80.2194,
+      "lat": 6.02456,
+      "lon": 80.21936,
       "wiki": "Galle Lighthouse",
       "summary": "The fort's white lighthouse and cliff-jumpers at Flag Rock.",
       "expect": "Tip the jumpers.",
@@ -160,14 +168,22 @@
         "Tip the jumpers.",
         "Go late afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3628,
+          "period": "202511-202610",
+          "title": "Galle Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Galle_Lighthouse",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galle-gal-unawatuna",
       "name": "Unawatuna beach",
       "kind": "see",
-      "lat": 6.0097,
-      "lon": 80.2496,
+      "lat": 6.00817,
+      "lon": 80.24437,
       "wiki": "Unawatuna",
       "summary": "A curved bay with calm water and snorkelling.",
       "expect": "Can be busy.",
@@ -206,14 +222,22 @@
         "Can be busy.",
         "Swim at Jungle Beach too."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12329,
+          "period": "202511-202610",
+          "title": "Unawatuna",
+          "url": "https://en.wikipedia.org/wiki/Unawatuna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galle-gal-mirissa",
       "name": "Mirissa whale watching",
       "kind": "see",
-      "lat": 5.9483,
-      "lon": 80.4716,
+      "lat": 5.94583,
+      "lon": 80.45972,
       "wiki": "Mirissa",
       "summary": "Blue whales and dolphins off the south coast.",
       "expect": "Early starts; seasickness possible.",
@@ -253,7 +277,15 @@
         "Early starts; seasickness possible.",
         "Choose responsible operators."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19449,
+          "period": "202511-202610",
+          "title": "Mirissa",
+          "url": "https://en.wikipedia.org/wiki/Mirissa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "galle-gal-stilt",
@@ -305,8 +337,8 @@
       "id": "galle-gal-maritime",
       "name": "Maritime Museum",
       "kind": "see",
-      "lat": 6.0262,
-      "lon": 80.2179,
+      "lat": 6.02815,
+      "lon": 80.21844,
       "wiki": "National Maritime Museum, Galle",
       "summary": "Inside the old Dutch warehouse.",
       "expect": "Small.",
@@ -344,8 +376,7 @@
       "tradeoffs": [
         "Small.",
         "Combine with the fort walk."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "galle-gal-curry",
@@ -518,5 +549,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

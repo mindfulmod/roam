@@ -113,7 +113,16 @@
         "Closes in bad weather; long queues midday.",
         "Go at opening."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13486,
+          "period": "202511-202610",
+          "title": "Langkawi Sky Bridge",
+          "url": "https://en.wikipedia.org/wiki/Langkawi_Sky_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "langkawi-lgk-mangroves",
@@ -166,8 +175,8 @@
       "id": "langkawi-lgk-cenang",
       "name": "Pantai Cenang",
       "kind": "see",
-      "lat": 6.2925,
-      "lon": 99.7283,
+      "lat": 6.29134,
+      "lon": 99.72894,
       "wiki": "Pantai Cenang",
       "summary": "The main beach strip with sunsets, cafés and watersports.",
       "expect": "Lively at night.",
@@ -206,8 +215,7 @@
       "tradeoffs": [
         "Lively at night.",
         "Sunset drinks on the sand."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "langkawi-lgk-islandhop",
@@ -260,8 +268,8 @@
       "id": "langkawi-lgk-sevenwells",
       "name": "Seven Wells Waterfall",
       "kind": "see",
-      "lat": 6.3826,
-      "lon": 99.6697,
+      "lat": 6.38177,
+      "lon": 99.67288,
       "wiki": "Telaga Tujuh Waterfalls",
       "summary": "A tiered waterfall with natural pools in the forest.",
       "expect": "Steep steps.",
@@ -300,15 +308,14 @@
       "tradeoffs": [
         "Steep steps.",
         "Swim in the upper pools."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "langkawi-lgk-tanjungrhu",
       "name": "Tanjung Rhu beach",
       "kind": "see",
-      "lat": 6.4558,
-      "lon": 99.8264,
+      "lat": 6.45851,
+      "lon": 99.82543,
       "wiki": "Tanjung Rhu",
       "summary": "A calm, quieter beach with limestone islets.",
       "expect": "Fewer facilities.",
@@ -346,8 +353,7 @@
       "tradeoffs": [
         "Fewer facilities.",
         "Wade to the islets at low tide."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "langkawi-lgk-nightmarket",
@@ -411,7 +417,7 @@
       "id": "langkawi-lgk-seafood",
       "name": "Seafood restaurants",
       "kind": "eat",
-      "lat": 6.31,
+      "lat": 6.31667,
       "lon": 99.85,
       "wiki": "Kuah",
       "summary": "Chilli crab and grilled fish at seafront restaurants.",
@@ -451,7 +457,6 @@
         "Priced by weight.",
         "Choose live seafood."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Malaysian seafood",
       "mustOrder": [
@@ -522,5 +527,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

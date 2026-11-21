@@ -71,8 +71,8 @@
       "id": "malacca-mlk-dutchsquare",
       "name": "Dutch Square",
       "kind": "see",
-      "lat": 2.1941,
-      "lon": 102.249,
+      "lat": 2.19433,
+      "lon": 102.24939,
       "wiki": "Christ Church, Malacca",
       "summary": "Red Dutch buildings, Christ Church and the Stadthuys.",
       "expect": "Hot by midday.",
@@ -113,14 +113,22 @@
         "Hot by midday.",
         "Go early for photos."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9984,
+          "period": "202511-202610",
+          "title": "Christ Church, Malacca",
+          "url": "https://en.wikipedia.org/wiki/Christ_Church%2C_Malacca",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "malacca-mlk-jonker",
       "name": "Jonker Street",
       "kind": "see",
-      "lat": 2.1958,
-      "lon": 102.247,
+      "lat": 2.19672,
+      "lon": 102.24653,
       "wiki": "Jonker Walk",
       "summary": "Shophouse street of antiques, cafés and a weekend night market.",
       "expect": "Night market Friday to Sunday.",
@@ -160,14 +168,22 @@
         "Night market Friday to Sunday.",
         "Come for the night market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9135,
+          "period": "202511-202610",
+          "title": "Jonker Walk",
+          "url": "https://en.wikipedia.org/wiki/Jonker_Walk",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "malacca-mlk-stpauls",
       "name": "St Paul's Hill and A Famosa",
       "kind": "see",
-      "lat": 2.1922,
-      "lon": 102.2497,
+      "lat": 2.19162,
+      "lon": 102.25031,
       "wiki": "A Famosa",
       "summary": "A ruined Portuguese church on the hill and the last gate of the fort.",
       "expect": "Short climb.",
@@ -206,14 +222,22 @@
         "Short climb.",
         "Combine with the square."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23965,
+          "period": "202511-202610",
+          "title": "A Famosa",
+          "url": "https://en.wikipedia.org/wiki/A_Famosa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "malacca-mlk-river",
       "name": "Malacca River cruise",
       "kind": "see",
-      "lat": 2.196,
-      "lon": 102.2486,
+      "lat": 2.2,
+      "lon": 102.25,
       "wiki": "Malacca River",
       "summary": "Boats past murals, old warehouses and Kampung Morten.",
       "expect": "Lovely at night when lit.",
@@ -252,14 +276,22 @@
         "Lovely at night when lit.",
         "Go after dark."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4273,
+          "period": "202511-202610",
+          "title": "Malacca River",
+          "url": "https://en.wikipedia.org/wiki/Malacca_River",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "malacca-mlk-chenghoon",
       "name": "Cheng Hoon Teng Temple",
       "kind": "see",
-      "lat": 2.1971,
-      "lon": 102.2468,
+      "lat": 2.19747,
+      "lon": 102.24686,
       "wiki": "Cheng Hoon Teng",
       "summary": "Malaysia's oldest working Chinese temple, from the 1600s.",
       "expect": "Free; be respectful.",
@@ -299,7 +331,15 @@
         "Free; be respectful.",
         "Look at the carved roof."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7481,
+          "period": "202511-202610",
+          "title": "Cheng Hoon Teng Temple",
+          "url": "https://en.wikipedia.org/wiki/Cheng_Hoon_Teng_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "malacca-mlk-baba",
@@ -520,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

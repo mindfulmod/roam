@@ -65,8 +65,8 @@
       "id": "yogyakarta-yog-borobudur",
       "name": "Borobudur",
       "kind": "see",
-      "lat": -7.6079,
-      "lon": 110.2038,
+      "lat": -7.608,
+      "lon": 110.204,
       "wiki": "Borobudur",
       "summary": "A 9th-century stepped Buddhist monument with 2,600 relief panels.",
       "expect": "Climbing the upper levels needs a timed ticket with guide and sandals.",
@@ -108,14 +108,22 @@
         "Climbing the upper levels needs a timed ticket with guide and sandals.",
         "Book the climb ticket ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 233299,
+          "period": "202511-202610",
+          "title": "Borobudur",
+          "url": "https://en.wikipedia.org/wiki/Borobudur",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yogyakarta-yog-prambanan",
       "name": "Prambanan",
       "kind": "see",
-      "lat": -7.752,
-      "lon": 110.4915,
+      "lat": -7.75222,
+      "lon": 110.49167,
       "wiki": "Prambanan",
       "summary": "Soaring 9th-century Hindu temples to Shiva, Vishnu and Brahma.",
       "expect": "Sunset is lovely; Ramayana ballet on some nights.",
@@ -157,14 +165,22 @@
         "Sunset is lovely; Ramayana ballet on some nights.",
         "Stay for the open-air Ramayana ballet."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 113639,
+          "period": "202511-202610",
+          "title": "Prambanan",
+          "url": "https://en.wikipedia.org/wiki/Prambanan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yogyakarta-yog-kraton",
       "name": "Kraton",
       "kind": "see",
-      "lat": -7.8053,
-      "lon": 110.3643,
+      "lat": -7.80569,
+      "lon": 110.36406,
       "wiki": "Kraton Ngayogyakarta Hadiningrat",
       "summary": "The sultan's palace with gamelan and dance performances in the mornings.",
       "expect": "Closes early afternoon.",
@@ -204,14 +220,22 @@
         "Closes early afternoon.",
         "Check the daily performance schedule."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16591,
+          "period": "202511-202610",
+          "title": "Kraton Ngayogyakarta Hadiningrat",
+          "url": "https://en.wikipedia.org/wiki/Kraton_Ngayogyakarta_Hadiningrat",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yogyakarta-yog-tamansari",
       "name": "Taman Sari",
       "kind": "see",
-      "lat": -7.81,
-      "lon": 110.3594,
+      "lat": -7.81015,
+      "lon": 110.35895,
       "wiki": "Taman Sari (Yogyakarta)",
       "summary": "The sultan's former water castle with bathing pools and an underground mosque.",
       "expect": "Small and busy.",
@@ -251,14 +275,22 @@
         "Small and busy.",
         "Find the underground mosque."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11844,
+          "period": "202511-202610",
+          "title": "Taman Sari (Yogyakarta)",
+          "url": "https://en.wikipedia.org/wiki/Taman_Sari_(Yogyakarta)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yogyakarta-yog-merapi",
       "name": "Mount Merapi jeep tour",
       "kind": "see",
-      "lat": -7.5407,
-      "lon": 110.4457,
+      "lat": -7.54139,
+      "lon": 110.44611,
       "wiki": "Mount Merapi",
       "summary": "Jeep rides through lava fields of Java's most active volcano.",
       "expect": "Depends on activity status.",
@@ -299,14 +331,22 @@
         "Depends on activity status.",
         "Go for sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 59695,
+          "period": "202511-202610",
+          "title": "Mount Merapi",
+          "url": "https://en.wikipedia.org/wiki/Mount_Merapi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yogyakarta-yog-malioboro",
       "name": "Malioboro Street",
       "kind": "see",
-      "lat": -7.7926,
-      "lon": 110.3658,
+      "lat": -7.79336,
+      "lon": 110.36571,
       "wiki": "Malioboro",
       "summary": "The main street of batik shops and evening street food.",
       "expect": "Bargain.",
@@ -345,7 +385,15 @@
         "Bargain.",
         "Stroll at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7462,
+          "period": "202511-202610",
+          "title": "Jalan Malioboro",
+          "url": "https://en.wikipedia.org/wiki/Jalan_Malioboro",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "yogyakarta-yog-jomblang",
@@ -567,5 +615,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

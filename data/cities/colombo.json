@@ -64,8 +64,8 @@
       "id": "colombo-cmb-gangaramaya",
       "name": "Gangaramaya Temple",
       "kind": "see",
-      "lat": 6.9166,
-      "lon": 79.8564,
+      "lat": 6.91639,
+      "lon": 79.85639,
       "wiki": "Gangaramaya Temple",
       "summary": "An eclectic temple-museum crowded with statues and gifts.",
       "expect": "Dress modestly.",
@@ -105,14 +105,22 @@
         "Dress modestly.",
         "Pair with Seema Malaka."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17466,
+          "period": "202511-202610",
+          "title": "Gangaramaya Temple",
+          "url": "https://en.wikipedia.org/wiki/Gangaramaya_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colombo-cmb-seema",
       "name": "Seema Malaka",
       "kind": "see",
-      "lat": 6.9161,
-      "lon": 79.8553,
+      "lat": 6.91762,
+      "lon": 79.85326,
       "wiki": "Seema Malaka",
       "summary": "A floating temple by Geoffrey Bawa on Beira Lake.",
       "expect": "Same ticket as Gangaramaya.",
@@ -152,14 +160,22 @@
         "Same ticket as Gangaramaya.",
         "Go at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6984,
+          "period": "202511-202610",
+          "title": "Seema Malaka",
+          "url": "https://en.wikipedia.org/wiki/Seema_Malaka",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colombo-cmb-galleface",
       "name": "Galle Face Green",
       "kind": "see",
-      "lat": 6.9244,
-      "lon": 79.8445,
+      "lat": 6.92496,
+      "lon": 79.84446,
       "wiki": "Galle Face Green",
       "summary": "A seafront promenade full of kites and street food at sunset.",
       "expect": "Busy weekends.",
@@ -199,7 +215,15 @@
         "Busy weekends.",
         "Come at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14404,
+          "period": "202511-202610",
+          "title": "Galle Face Green",
+          "url": "https://en.wikipedia.org/wiki/Galle_Face_Green",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colombo-cmb-pettah",
@@ -253,7 +277,7 @@
       "name": "National Museum",
       "kind": "see",
       "lat": 6.91,
-      "lon": 79.8608,
+      "lon": 79.86083,
       "wiki": "Colombo National Museum",
       "summary": "Sri Lanka's history, from royal regalia to ancient art.",
       "expect": "Colonial building.",
@@ -293,7 +317,15 @@
         "Colonial building.",
         "See the Kandyan throne."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9517,
+          "period": "202511-202610",
+          "title": "Colombo National Museum",
+          "url": "https://en.wikipedia.org/wiki/Colombo_National_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colombo-cmb-bawa",
@@ -339,7 +371,16 @@
         "Guided tours by appointment.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 50305,
+          "period": "202511-202610",
+          "title": "Geoffrey Bawa",
+          "url": "https://en.wikipedia.org/wiki/Geoffrey_Bawa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "colombo-cmb-hoppers",
@@ -512,5 +553,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
