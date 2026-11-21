@@ -1,0 +1,2604 @@
+[
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "brisbane",
+  "name": "Brisbane",
+  "at": [
+   -27.4698,
+   153.0251
+  ],
+  "wiki": "Brisbane",
+  "cover": "Brisbane skyline",
+  "seasons": "HSSSSLLSSSSH",
+  "tagline": "Riverside sunshine, koalas and island day trips",
+  "summary": "Brisbane is Queensland's easy-going river city, with a man-made beach at South Bank, CityCat ferries and a subtropical climate. Cuddle a koala at Lone Pine, climb the Story Bridge, browse the galleries at GOMA and day-trip to Moreton Island's dunes or the Gold Coast surf.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Autumn to spring (April to September) is warm and dry; summer is hot, humid and stormy.",
+  "arrival": "Brisbane Airport is 20 minutes from the city on the Airtrain.",
+  "gettingAround": "Free CityHopper ferries, CityCats and buses with a go card or tap-on bank card.",
+  "foodTip": "Moreton Bay bugs, Queensland mangoes and riverside brunch.",
+  "buyTip": "Australian-made fashion in James Street and Indigenous art.",
+  "baseArea": "South Bank or the CBD",
+  "hotel": [
+   150,
+   350
+  ],
+  "connections": [
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 95,
+    "note": "Very frequent flights."
+   },
+   {
+    "to": "melbourne",
+    "mode": "Flight",
+    "minutes": 135,
+    "note": "Frequent flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "South Bank Parklands",
+    "kind": "see",
+    "id": "bne-southbank",
+    "at": [
+     -27.479,
+     153.023
+    ],
+    "wiki": "South Bank Parklands",
+    "area": "South Bank",
+    "summary": "Riverside parkland with a free lagoon beach, gardens and the Wheel of Brisbane.",
+    "expect": "Free.",
+    "tip": "Swim at Streets Beach, then walk the Grand Arbour.",
+    "why": "The city's living room.",
+    "flow": [
+     "Streets Beach.",
+     "Grand Arbour.",
+     "River walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lone Pine Koala Sanctuary",
+    "kind": "see",
+    "id": "bne-lonepine",
+    "at": [
+     -27.533,
+     152.969
+    ],
+    "wiki": "Lone Pine Koala Sanctuary",
+    "area": "Fig Tree Pocket",
+    "summary": "The world's oldest koala sanctuary, with kangaroos to hand-feed.",
+    "expect": "Allow half a day.",
+    "tip": "Arrive by the river cruise from the city.",
+    "why": "Koalas up close.",
+    "flow": [
+     "Koala talk.",
+     "Kangaroo reserve.",
+     "Platypus house."
+    ],
+    "hours": 3,
+    "price": [
+     55,
+     60
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "GOMA and Queensland Art Gallery",
+    "kind": "see",
+    "id": "bne-goma",
+    "at": [
+     -27.471,
+     153.017
+    ],
+    "wiki": "Gallery of Modern Art (Brisbane)",
+    "area": "South Bank",
+    "summary": "Australia's largest modern art gallery, free to enter.",
+    "expect": "Free; some shows ticketed.",
+    "tip": "Check the Asia Pacific Triennial.",
+    "why": "World-class art.",
+    "flow": [
+     "GOMA.",
+     "QAG Water Mall."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Story Bridge Adventure Climb",
+    "kind": "see",
+    "id": "bne-storybridge",
+    "at": [
+     -27.464,
+     153.036
+    ],
+    "wiki": "Story Bridge",
+    "area": "Kangaroo Point",
+    "summary": "Climb the heritage bridge for city and river views.",
+    "expect": "Booked climbs.",
+    "tip": "Go at twilight.",
+    "why": "Brisbane from above.",
+    "flow": [
+     "Safety briefing.",
+     "Climb.",
+     "Summit views."
+    ],
+    "hours": 2.5,
+    "price": [
+     150,
+     190
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mount Coot-tha Lookout",
+    "kind": "see",
+    "id": "bne-mtcoottha",
+    "at": [
+     -27.484,
+     152.957
+    ],
+    "wiki": "Mount Coot-tha",
+    "area": "West",
+    "summary": "Lookout over the city to Moreton Bay, plus botanic gardens.",
+    "expect": "Free.",
+    "tip": "Come at sunset.",
+    "why": "Best city view.",
+    "flow": [
+     "Lookout.",
+     "Botanic Gardens."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "CityCat ferry ride",
+    "kind": "see",
+    "id": "bne-citycat",
+    "at": [
+     -27.468,
+     153.03
+    ],
+    "wiki": "CityCat",
+    "area": "River",
+    "summary": "High-speed catamarans along the winding Brisbane River.",
+    "expect": "Tap on and off.",
+    "tip": "Ride from UQ to Northshore end to end.",
+    "why": "Cheap sightseeing.",
+    "flow": [
+     "Board at South Bank.",
+     "Ride the river."
+    ],
+    "hours": 1.5,
+    "price": [
+     1,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Moreton Island",
+    "kind": "see",
+    "id": "bne-moreton",
+    "at": [
+     -27.18,
+     153.4
+    ],
+    "wiki": "Moreton Island",
+    "area": "Moreton Bay",
+    "summary": "Sand island with dunes, the Tangalooma wrecks and dolphin feeding.",
+    "expect": "Ferry day trip.",
+    "tip": "Snorkel the wrecks.",
+    "why": "Island escape.",
+    "flow": [
+     "Ferry.",
+     "Wrecks snorkel.",
+     "Sandboarding."
+    ],
+    "hours": 10,
+    "price": [
+     90,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Gold Coast beaches",
+    "kind": "see",
+    "id": "bne-goldcoast",
+    "at": [
+     -28.002,
+     153.431
+    ],
+    "wiki": "Surfers Paradise",
+    "area": "Gold Coast",
+    "summary": "Golden surf beaches and high-rises an hour south.",
+    "expect": "Train and tram.",
+    "tip": "Learn to surf at Coolangatta or Burleigh.",
+    "why": "Classic surf coast.",
+    "flow": [
+     "Train south.",
+     "Surfers Paradise.",
+     "Burleigh Heads."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     80
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Moreton Bay bugs",
+    "kind": "eat",
+    "id": "bne-bugs",
+    "at": [
+     -27.47,
+     153.03
+    ],
+    "wiki": "Moreton Bay bug",
+    "area": "Riverside",
+    "venue": "food-area",
+    "summary": "Sweet slipper lobster from the bay.",
+    "expect": "Seafood restaurants.",
+    "tip": "Order them grilled with garlic butter.",
+    "why": "Local seafood.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     40,
+     80
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Moreton Bay bugs"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Eat Street Northshore",
+    "kind": "eat",
+    "id": "bne-eatstreet",
+    "at": [
+     -27.448,
+     153.064
+    ],
+    "wiki": "Eat Street Northshore",
+    "area": "Hamilton",
+    "venue": "food-area",
+    "summary": "Night market in shipping containers with food from everywhere.",
+    "expect": "Friday to Sunday nights.",
+    "tip": "Take the CityCat there.",
+    "why": "Fun night out.",
+    "flow": [
+     "Ferry to Northshore.",
+     "Graze the stalls."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     50
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Street food"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Brunch in West End",
+    "kind": "eat",
+    "id": "bne-brunch",
+    "at": [
+     -27.48,
+     153.01
+    ],
+    "wiki": "West End, Queensland",
+    "area": "West End",
+    "venue": "food-area",
+    "summary": "Laid-back cafés with smashed avo and flat whites.",
+    "expect": "Weekend queues.",
+    "tip": "Go before 9.",
+    "why": "Aussie brunch culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Smashed avo",
+     "Flat white"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "cairns",
+  "name": "Cairns",
+  "at": [
+   -16.9186,
+   145.7781
+  ],
+  "wiki": "Cairns",
+  "cover": "Great Barrier Reef",
+  "seasons": "SSSSHHHHHHSS",
+  "tagline": "Gateway to the Great Barrier Reef and the Daintree",
+  "summary": "Cairns is the tropical base for the Great Barrier Reef and the ancient Daintree Rainforest. Snorkel or dive the outer reef, ride the Skyrail over rainforest to Kuranda, find the beach where rainforest meets reef at Cape Tribulation, and swim in the city's lagoon.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "June to October is dry and stinger-free-ish; November to May is the wet season with box jellyfish.",
+  "arrival": "Cairns Airport is 10 minutes from the Esplanade.",
+  "gettingAround": "Walk the city; tours pick up from hotels; rent a car for the Daintree.",
+  "foodTip": "Barramundi, tropical fruit and a sundowner on the Esplanade.",
+  "buyTip": "Aboriginal art and Kuranda market crafts.",
+  "baseArea": "The Esplanade or Palm Cove",
+  "hotel": [
+   140,
+   350
+  ],
+  "connections": [
+   {
+    "to": "brisbane",
+    "mode": "Flight",
+    "minutes": 140,
+    "note": "Frequent flights."
+   },
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 185,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Outer Great Barrier Reef",
+    "kind": "see",
+    "id": "cns-reef",
+    "at": [
+     -16.7,
+     146.1
+    ],
+    "wiki": "Great Barrier Reef",
+    "area": "Outer reef",
+    "summary": "Full-day boat to the outer reef for snorkelling and diving among coral and turtles.",
+    "expect": "Book a small-group boat.",
+    "tip": "Take a stinger suit and seasickness tablets.",
+    "why": "A wonder of the world.",
+    "flow": [
+     "Boat out.",
+     "Snorkel two reefs.",
+     "Lunch on board."
+    ],
+    "hours": 9,
+    "price": [
+     220,
+     320
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Skyrail and Kuranda Scenic Railway",
+    "kind": "see",
+    "id": "cns-skyrail",
+    "at": [
+     -16.859,
+     145.693
+    ],
+    "wiki": "Skyrail Rainforest Cableway",
+    "area": "Kuranda",
+    "summary": "Cableway over rainforest canopy up, heritage train down.",
+    "expect": "Combo tickets.",
+    "tip": "Go up by Skyrail in the morning.",
+    "why": "Rainforest from above.",
+    "flow": [
+     "Skyrail.",
+     "Kuranda village.",
+     "Scenic Railway down."
+    ],
+    "hours": 6,
+    "price": [
+     110,
+     170
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Daintree and Cape Tribulation",
+    "kind": "see",
+    "id": "cns-daintree",
+    "at": [
+     -16.087,
+     145.461
+    ],
+    "wiki": "Daintree Rainforest",
+    "area": "Far north",
+    "summary": "The world's oldest rainforest meets the reef on wild beaches.",
+    "expect": "Long day trip.",
+    "tip": "Take a croc-spotting river cruise.",
+    "why": "Ancient forest.",
+    "flow": [
+     "Mossman Gorge.",
+     "Daintree River cruise.",
+     "Cape Tribulation beach."
+    ],
+    "hours": 11,
+    "price": [
+     0,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Cairns Esplanade Lagoon",
+    "kind": "see",
+    "id": "cns-lagoon",
+    "at": [
+     -16.92,
+     145.779
+    ],
+    "wiki": "Cairns Esplanade",
+    "area": "Esplanade",
+    "summary": "Free saltwater lagoon pool on the waterfront.",
+    "expect": "Free.",
+    "tip": "Swim here, not in the sea.",
+    "why": "Safe swimming.",
+    "flow": [
+     "Lagoon.",
+     "Boardwalk."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Green Island",
+    "kind": "see",
+    "id": "cns-greenisland",
+    "at": [
+     -16.759,
+     145.975
+    ],
+    "wiki": "Green Island (Queensland)",
+    "area": "Inner reef",
+    "summary": "Coral cay 45 minutes by boat with snorkelling from the beach.",
+    "expect": "Day trip.",
+    "tip": "Try the glass-bottom boat.",
+    "why": "Easy reef day.",
+    "flow": [
+     "Ferry.",
+     "Snorkel.",
+     "Rainforest walk."
+    ],
+    "hours": 6,
+    "price": [
+     100,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Crystal Cascades",
+    "kind": "see",
+    "id": "cns-crystal",
+    "at": [
+     -16.959,
+     145.68
+    ],
+    "wiki": "Crystal Cascades",
+    "area": "Redlynch",
+    "summary": "Rainforest swimming holes near town.",
+    "expect": "Free.",
+    "tip": "Go early on weekdays.",
+    "why": "Local swim spot.",
+    "flow": [
+     "Walk in.",
+     "Swim."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Atherton Tablelands waterfalls",
+    "kind": "see",
+    "id": "cns-atherton",
+    "at": [
+     -17.27,
+     145.6
+    ],
+    "wiki": "Atherton Tableland",
+    "area": "Tablelands",
+    "summary": "Waterfall circuit with Millaa Millaa Falls and crater lakes.",
+    "expect": "Car needed.",
+    "tip": "Swim at Lake Eacham.",
+    "why": "Waterfall loop.",
+    "flow": [
+     "Millaa Millaa Falls.",
+     "Lake Eacham."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Barramundi",
+    "kind": "eat",
+    "id": "cns-barra",
+    "at": [
+     -16.92,
+     145.78
+    ],
+    "wiki": "Barramundi",
+    "area": "Marina",
+    "venue": "food-area",
+    "summary": "The prized local fish, grilled or battered.",
+    "expect": "Marina restaurants.",
+    "tip": "Eat on the boardwalk at sunset.",
+    "why": "Queensland classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Barramundi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cairns Night Markets",
+    "kind": "eat",
+    "id": "cns-nightmarket",
+    "at": [
+     -16.923,
+     145.779
+    ],
+    "wiki": "Cairns Night Markets",
+    "area": "Esplanade",
+    "venue": "food-area",
+    "summary": "Food court and souvenir stalls every evening.",
+    "expect": "Cheap eats.",
+    "tip": "Grab Asian street food.",
+    "why": "Easy dinner.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Laksa"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Rusty's Markets",
+    "kind": "eat",
+    "id": "cns-rustys",
+    "at": [
+     -16.925,
+     145.774
+    ],
+    "wiki": "Rusty's Markets",
+    "area": "City",
+    "venue": "food-area",
+    "summary": "Weekend tropical fruit and produce market.",
+    "expect": "Friday to Sunday.",
+    "tip": "Try mangosteen and rambutan.",
+    "why": "Tropical fruit feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     20
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Tropical fruit"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "perth",
+  "name": "Perth",
+  "at": [
+   -31.9523,
+   115.8613
+  ],
+  "wiki": "Perth",
+  "cover": "Perth skyline",
+  "seasons": "HHHSSLLLSSSH",
+  "tagline": "Sunny beaches, quokkas and Swan River sunsets",
+  "summary": "Perth is one of the sunniest cities on earth, with long white beaches, the vast Kings Park and the riverside port of Fremantle. Ride to Rottnest Island for a quokka selfie, swim at Cottesloe, and drive to the Pinnacles or the Margaret River wine region.",
+  "days": 4,
+  "bestMonths": [
+   3,
+   4,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are perfect; summer is hot but great for beaches.",
+  "arrival": "Perth Airport is 25 minutes from the city by the Airport Line train.",
+  "gettingAround": "Transperth trains and buses; free CAT buses in the city.",
+  "foodTip": "Western rock lobster, Margaret River wine and Freo fish and chips.",
+  "buyTip": "Broome pearls and Margaret River wine.",
+  "baseArea": "CBD, Northbridge or Fremantle",
+  "hotel": [
+   150,
+   350
+  ],
+  "connections": [
+   {
+    "to": "melbourne",
+    "mode": "Flight",
+    "minutes": 225,
+    "note": "Daily flights."
+   },
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 270,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Rottnest Island",
+    "kind": "see",
+    "id": "per-rottnest",
+    "at": [
+     -32.0,
+     115.51
+    ],
+    "wiki": "Rottnest Island",
+    "area": "Offshore",
+    "summary": "Car-free island of quokkas, turquoise bays and bike trails.",
+    "expect": "Ferry from Fremantle or the city.",
+    "tip": "Rent a bike and snorkel at the Basin.",
+    "why": "Quokka selfies.",
+    "flow": [
+     "Ferry.",
+     "Bike the island.",
+     "Quokkas."
+    ],
+    "hours": 8,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kings Park and Botanic Garden",
+    "kind": "see",
+    "id": "per-kingspark",
+    "at": [
+     -31.961,
+     115.833
+    ],
+    "wiki": "Kings Park",
+    "area": "West",
+    "summary": "One of the world's largest city parks, with skyline views and a treetop walkway.",
+    "expect": "Free.",
+    "tip": "Walk the Lotterywest Federation Walkway.",
+    "why": "City views.",
+    "flow": [
+     "Lookout.",
+     "Treetop walkway.",
+     "Botanic garden."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Fremantle",
+    "kind": "see",
+    "id": "per-fremantle",
+    "at": [
+     -32.056,
+     115.747
+    ],
+    "wiki": "Fremantle",
+    "area": "Fremantle",
+    "summary": "Historic port with markets, a convict-built prison and craft breweries.",
+    "expect": "Train from the city.",
+    "tip": "Visit Fremantle Prison and the markets.",
+    "why": "Heritage port.",
+    "flow": [
+     "Fremantle Markets.",
+     "Prison tour.",
+     "Fishing Boat Harbour."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Cottesloe Beach",
+    "kind": "see",
+    "id": "per-cottesloe",
+    "at": [
+     -31.994,
+     115.751
+    ],
+    "wiki": "Cottesloe Beach",
+    "area": "Coast",
+    "summary": "Perth's favourite beach, with sunsets over the Indian Ocean.",
+    "expect": "Free.",
+    "tip": "Stay for sunset.",
+    "why": "Iconic beach.",
+    "flow": [
+     "Swim.",
+     "Sunset."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "The Pinnacles",
+    "kind": "see",
+    "id": "per-pinnacles",
+    "at": [
+     -30.605,
+     115.157
+    ],
+    "wiki": "Pinnacles (Western Australia)",
+    "area": "Nambung",
+    "summary": "Thousands of limestone spires in yellow desert.",
+    "expect": "2.5 hours' drive.",
+    "tip": "Go for sunset and stars.",
+    "why": "Otherworldly.",
+    "flow": [
+     "Drive north.",
+     "Pinnacles loop.",
+     "Lancelin dunes."
+    ],
+    "hours": 10,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Margaret River",
+    "kind": "see",
+    "id": "per-margaret",
+    "at": [
+     -33.955,
+     115.075
+    ],
+    "wiki": "Margaret River, Western Australia",
+    "area": "South west",
+    "summary": "Wine region with surf beaches and caves.",
+    "expect": "3 hours' drive; stay overnight.",
+    "tip": "Do a cellar-door tour.",
+    "why": "Top wine region.",
+    "flow": [
+     "Wineries.",
+     "Caves.",
+     "Surf beaches."
+    ],
+    "hours": 12,
+    "price": [
+     50,
+     200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Elizabeth Quay",
+    "kind": "see",
+    "id": "per-elizabeth",
+    "at": [
+     -31.959,
+     115.858
+    ],
+    "wiki": "Elizabeth Quay",
+    "area": "CBD",
+    "summary": "Waterfront promenade with the Spanda sculpture and ferries.",
+    "expect": "Free.",
+    "tip": "Walk on to the Bell Tower.",
+    "why": "Riverfront hub.",
+    "flow": [
+     "Quay.",
+     "Bell Tower."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Fish and chips in Fremantle",
+    "kind": "eat",
+    "id": "per-fishchips",
+    "at": [
+     -32.057,
+     115.747
+    ],
+    "wiki": "Fremantle Fishing Boat Harbour",
+    "area": "Fremantle",
+    "venue": "food-area",
+    "summary": "Fish and chips by the harbour.",
+    "expect": "Busy weekends.",
+    "tip": "Watch for seagulls.",
+    "why": "Freo classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Fish and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Northbridge",
+    "kind": "eat",
+    "id": "per-northbridge",
+    "at": [
+     -31.947,
+     115.858
+    ],
+    "wiki": "Northbridge, Western Australia",
+    "area": "Northbridge",
+    "venue": "food-area",
+    "summary": "Perth's food and nightlife district.",
+    "expect": "Evenings.",
+    "tip": "Try the small bars.",
+    "why": "Nightlife hub.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     60
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Small plates"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Western rock lobster",
+    "kind": "eat",
+    "id": "per-lobster",
+    "at": [
+     -31.95,
+     115.86
+    ],
+    "wiki": "Panulirus cygnus",
+    "area": "Coast",
+    "venue": "food-area",
+    "summary": "Local rock lobster, in season November to June.",
+    "expect": "Pricey.",
+    "tip": "Order it grilled.",
+    "why": "WA speciality.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Rock lobster"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "New Zealand",
+  "region": "Oceania",
+  "currency": "NZD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry a little cash for rural honesty boxes.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "rotorua",
+  "name": "Rotorua",
+  "at": [
+   -38.1368,
+   176.2497
+  ],
+  "wiki": "Rotorua",
+  "cover": "Whakarewarewa geyser",
+  "seasons": "HHSSLLLLSSSH",
+  "tagline": "Geysers, Māori culture and bubbling mud",
+  "summary": "Rotorua is New Zealand's geothermal heartland, smelling faintly of sulphur, with spouting geysers, rainbow-coloured hot pools and a living Māori culture. Watch Pōhutu geyser erupt, join a hāngī feast, soak in hot springs and mountain-bike the giant redwoods.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Summer is warm; the steam looks even more dramatic in winter.",
+  "arrival": "Rotorua Airport is 10 minutes away; Auckland is a 3-hour drive.",
+  "gettingAround": "A car is best; tours pick up from hotels.",
+  "foodTip": "Hāngī (earth-oven feast) and hot-spring-cooked corn.",
+  "buyTip": "Pounamu (greenstone) and Māori carvings.",
+  "baseArea": "Lakefront or Fenton Street",
+  "hotel": [
+   150,
+   300
+  ],
+  "connections": [
+   {
+    "to": "auckland",
+    "mode": "Bus",
+    "minutes": 210,
+    "note": "Several buses a day."
+   }
+  ],
+  "items": [
+   {
+    "name": "Te Puia and Pōhutu Geyser",
+    "kind": "see",
+    "id": "rot-tepuia",
+    "at": [
+     -38.163,
+     176.254
+    ],
+    "wiki": "Te Puia",
+    "area": "Whakarewarewa",
+    "summary": "Geothermal valley with the southern hemisphere's biggest geyser and a Māori arts institute.",
+    "expect": "Allow half a day.",
+    "tip": "Stay for the evening show and hāngī.",
+    "why": "Geysers and culture.",
+    "flow": [
+     "Geyser.",
+     "Mud pools.",
+     "Carving school."
+    ],
+    "hours": 3,
+    "price": [
+     75,
+     95
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Wai-O-Tapu Thermal Wonderland",
+    "kind": "see",
+    "id": "rot-waiotapu",
+    "at": [
+     -38.357,
+     176.37
+    ],
+    "wiki": "Wai-O-Tapu",
+    "area": "South",
+    "summary": "Champagne Pool and Lady Knox Geyser in vivid colours.",
+    "expect": "30 minutes' drive.",
+    "tip": "Arrive by 10am for the geyser.",
+    "why": "Rainbow pools.",
+    "flow": [
+     "Lady Knox Geyser.",
+     "Champagne Pool.",
+     "Devil's Bath."
+    ],
+    "hours": 3,
+    "price": [
+     40,
+     50
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Māori cultural evening and hāngī",
+    "kind": "see",
+    "id": "rot-hangi",
+    "at": [
+     -38.2,
+     176.32
+    ],
+    "wiki": "Tamaki Māori Village",
+    "area": "Tamaki",
+    "summary": "Welcome ceremony, haka and a hāngī feast.",
+    "expect": "Evening, book ahead.",
+    "tip": "Volunteer to learn the haka.",
+    "why": "Living culture.",
+    "flow": [
+     "Pōwhiri welcome.",
+     "Haka.",
+     "Hāngī feast."
+    ],
+    "hours": 3.5,
+    "price": [
+     150,
+     250
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Redwoods Treewalk",
+    "kind": "see",
+    "id": "rot-redwoods",
+    "at": [
+     -38.155,
+     176.275
+    ],
+    "wiki": "Whakarewarewa Forest",
+    "area": "Redwoods",
+    "summary": "Suspension bridges among giant redwoods, lit with lanterns at night.",
+    "expect": "Day or night tickets.",
+    "tip": "Go at night.",
+    "why": "Magical forest.",
+    "flow": [
+     "Treewalk.",
+     "Forest trails."
+    ],
+    "hours": 1.5,
+    "price": [
+     40,
+     50
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Polynesian Spa",
+    "kind": "see",
+    "id": "rot-polynesian",
+    "at": [
+     -38.138,
+     176.258
+    ],
+    "wiki": "Polynesian Spa",
+    "area": "Lakefront",
+    "summary": "Hot mineral pools by the lake.",
+    "expect": "Book lake pools.",
+    "tip": "Go after dark.",
+    "why": "Soak like a local.",
+    "flow": [
+     "Lake pools.",
+     "Relax."
+    ],
+    "hours": 2,
+    "price": [
+     40,
+     80
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hobbiton Movie Set",
+    "kind": "see",
+    "id": "rot-hobbiton",
+    "at": [
+     -37.858,
+     175.68
+    ],
+    "wiki": "Hobbiton Movie Set",
+    "area": "Matamata",
+    "summary": "The Shire film set with hobbit holes and the Green Dragon Inn.",
+    "expect": "Guided tours only.",
+    "tip": "Book the evening banquet tour.",
+    "why": "Movie magic.",
+    "flow": [
+     "Guided tour.",
+     "Green Dragon Inn."
+    ],
+    "hours": 3,
+    "price": [
+     120,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Skyline Rotorua gondola and luge",
+    "kind": "see",
+    "id": "rot-gondola",
+    "at": [
+     -38.108,
+     176.224
+    ],
+    "wiki": "Skyline Rotorua",
+    "area": "Ngongotahā",
+    "summary": "Gondola up for lake views and luge rides down.",
+    "expect": "Combo tickets.",
+    "tip": "Get five luge rides.",
+    "why": "Fun for all.",
+    "flow": [
+     "Gondola.",
+     "Luge."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     90
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Hāngī feast",
+    "kind": "eat",
+    "id": "rot-hangifood",
+    "at": [
+     -38.14,
+     176.25
+    ],
+    "wiki": "Hāngī",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Meat and vegetables slow-cooked in an earth oven.",
+    "expect": "Cultural shows include it.",
+    "tip": "Try kūmara.",
+    "why": "Māori food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Māori",
+    "order": [
+     "Hāngī"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Eat Streat",
+    "kind": "eat",
+    "id": "rot-eatstreet",
+    "at": [
+     -38.137,
+     176.253
+    ],
+    "wiki": "Rotorua",
+    "area": "Tutanekai Street",
+    "venue": "food-area",
+    "summary": "Covered street of restaurants with geothermally heated floors.",
+    "expect": "Evenings.",
+    "tip": "Sit outside.",
+    "why": "Dinner hub.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Lamb",
+     "Green-lipped mussels"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Rotorua Night Market",
+    "kind": "eat",
+    "id": "rot-nightmarket",
+    "at": [
+     -38.1375,
+     176.2525
+    ],
+    "wiki": "Rotorua",
+    "area": "Tutanekai Street",
+    "venue": "food-area",
+    "summary": "Thursday night street market with food trucks and local crafts.",
+    "expect": "Thursday evenings.",
+    "tip": "Try a hāngī pie or steamed pudding.",
+    "why": "Local night out.",
+    "flow": [
+     "Walk Tutanekai Street.",
+     "Graze the stalls."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Hāngī pie",
+     "Whitebait fritter"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "New Zealand",
+  "region": "Oceania",
+  "currency": "NZD",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry a little cash for rural honesty boxes.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "wellington",
+  "name": "Wellington",
+  "at": [
+   -41.2865,
+   174.7762
+  ],
+  "wiki": "Wellington",
+  "cover": "Wellington harbour",
+  "seasons": "HHSSLLLLSSSH",
+  "tagline": "Windy, creative capital with Te Papa and craft coffee",
+  "summary": "Wellington is New Zealand's compact capital, wrapped around a harbour, with a red cable car, the superb national museum Te Papa and a famous café and craft beer scene. It is also the home of the film studios behind The Lord of the Rings and the ferry port to the South Island.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Summer is mild; it is windy all year, so bring a jacket.",
+  "arrival": "Wellington Airport is 15 minutes from the centre by Airport Express bus.",
+  "gettingAround": "Walk the waterfront; buses and the cable car.",
+  "foodTip": "Flat whites, craft beer and Wellington on a Plate dishes.",
+  "buyTip": "NZ design on Cuba Street.",
+  "baseArea": "Te Aro, Cuba Street or the waterfront",
+  "hotel": [
+   150,
+   300
+  ],
+  "connections": [
+   {
+    "to": "auckland",
+    "mode": "Flight",
+    "minutes": 65,
+    "note": "Frequent flights."
+   },
+   {
+    "to": "queenstown",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Te Papa Tongarewa",
+    "kind": "see",
+    "id": "wlg-tepapa",
+    "at": [
+     -41.29,
+     174.782
+    ],
+    "wiki": "Museum of New Zealand Te Papa Tongarewa",
+    "area": "Waterfront",
+    "summary": "The free national museum, with Māori treasures, a colossal squid and the Gallipoli exhibition.",
+    "expect": "Free.",
+    "tip": "Do not miss Gallipoli: The Scale of Our War.",
+    "why": "Best museum in NZ.",
+    "flow": [
+     "Gallipoli.",
+     "Toi Art.",
+     "Māori marae."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Wellington Cable Car",
+    "kind": "see",
+    "id": "wlg-cablecar",
+    "at": [
+     -41.285,
+     174.775
+    ],
+    "wiki": "Wellington Cable Car",
+    "area": "Lambton Quay",
+    "summary": "Red funicular up to the Botanic Garden and views.",
+    "expect": "Cheap.",
+    "tip": "Walk back down through the gardens.",
+    "why": "City icon.",
+    "flow": [
+     "Ride up.",
+     "Botanic Garden.",
+     "Walk down."
+    ],
+    "hours": 2,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mount Victoria Lookout",
+    "kind": "see",
+    "id": "wlg-victoria",
+    "at": [
+     -41.296,
+     174.794
+    ],
+    "wiki": "Mount Victoria, Wellington",
+    "area": "Mount Victoria",
+    "summary": "Panoramic city lookout with the Hobbit hideaway film spot nearby.",
+    "expect": "Free.",
+    "tip": "Go at sunset.",
+    "why": "Best views.",
+    "flow": [
+     "Walk up.",
+     "Lookout."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Wētā Workshop",
+    "kind": "see",
+    "id": "wlg-weta",
+    "at": [
+     -41.307,
+     174.825
+    ],
+    "wiki": "Wētā Workshop",
+    "area": "Miramar",
+    "summary": "Tour the special-effects workshop behind Lord of the Rings.",
+    "expect": "Book a tour.",
+    "tip": "Combine with the Miramar peninsula.",
+    "why": "Film magic.",
+    "flow": [
+     "Workshop tour.",
+     "Props."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Zealandia Ecosanctuary",
+    "kind": "see",
+    "id": "wlg-zealandia",
+    "at": [
+     -41.29,
+     174.753
+    ],
+    "wiki": "Zealandia (wildlife sanctuary)",
+    "area": "Karori",
+    "summary": "Predator-free valley full of rare native birds.",
+    "expect": "Day or night tours.",
+    "tip": "Take the night tour for kiwi.",
+    "why": "Native wildlife.",
+    "flow": [
+     "Valley walk.",
+     "Birdlife."
+    ],
+    "hours": 3,
+    "price": [
+     25,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Parliament and the Beehive",
+    "kind": "see",
+    "id": "wlg-parliament",
+    "at": [
+     -41.278,
+     174.776
+    ],
+    "wiki": "Beehive (building)",
+    "area": "Thorndon",
+    "summary": "Free tours of NZ's Parliament.",
+    "expect": "Free.",
+    "tip": "Take the guided tour.",
+    "why": "Seat of government.",
+    "flow": [
+     "Tour.",
+     "Beehive."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Cuba Street",
+    "kind": "eat",
+    "id": "wlg-cuba",
+    "at": [
+     -41.295,
+     174.775
+    ],
+    "wiki": "Cuba Street",
+    "area": "Te Aro",
+    "venue": "food-area",
+    "summary": "Bohemian strip of cafés, bars and street food.",
+    "expect": "Busy evenings.",
+    "tip": "See the Bucket Fountain.",
+    "why": "Creative heart.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     50
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Flat white",
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Harbourside Market",
+    "kind": "eat",
+    "id": "wlg-market",
+    "at": [
+     -41.291,
+     174.784
+    ],
+    "wiki": "Wellington",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Sunday market with produce and street food.",
+    "expect": "Sunday mornings.",
+    "tip": "Go hungry.",
+    "why": "Local market.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Street food"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Craft beer bars",
+    "kind": "eat",
+    "id": "wlg-beer",
+    "at": [
+     -41.29,
+     174.776
+    ],
+    "wiki": "Garage Project",
+    "area": "Te Aro",
+    "venue": "food-area",
+    "summary": "Wellington is NZ's craft beer capital.",
+    "expect": "Taprooms.",
+    "tip": "Try Garage Project's taproom.",
+    "why": "Beer capital.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Fiji",
+  "region": "Oceania",
+  "currency": "FJD",
+  "cashTip": "Resorts take cards; carry Fijian dollars for markets, village visits and sevusevu kava gifts.",
+  "dailyBudget": [
+   200,
+   700
+  ],
+  "cashPerDay": [
+   30,
+   100
+  ],
+  "id": "fiji",
+  "name": "Fiji · Nadi and the islands",
+  "at": [
+   -17.7765,
+   177.4356
+  ],
+  "wiki": "Fiji",
+  "cover": "Fiji island",
+  "seasons": "SSSSHHHHHHSS",
+  "tagline": "Island-hopping, reefs and bula smiles",
+  "summary": "Fiji's islands are fringed by soft coral reefs and white beaches, with famously warm hospitality. Base yourself near Nadi or Denarau, then island-hop the Mamanucas and Yasawas, snorkel with manta rays, visit a village for a kava ceremony and soak in the Sabeto mud pools.",
+  "days": 6,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "May to October is dry and cooler; November to April is hot, wet and cyclone season.",
+  "arrival": "Nadi International Airport; boats leave from Port Denarau.",
+  "gettingAround": "Island ferries (Yasawa Flyer), seaplanes and taxis.",
+  "foodTip": "Kokoda (raw fish in coconut) and lovo feasts.",
+  "buyTip": "Tapa cloth, wood carvings and Fiji Water souvenirs.",
+  "baseArea": "Denarau, the Coral Coast or an island resort",
+  "hotel": [
+   200,
+   800
+  ],
+  "connections": [
+   {
+    "to": "auckland",
+    "mode": "Flight",
+    "minutes": 180,
+    "note": "Daily flights."
+   },
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 240,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Mamanuca Islands",
+    "kind": "see",
+    "id": "fji-mamanuca",
+    "at": [
+     -17.68,
+     177.1
+    ],
+    "wiki": "Mamanuca Islands",
+    "area": "Mamanucas",
+    "summary": "Palm-fringed islands with resorts, snorkelling and Cloud 9's floating bar.",
+    "expect": "Day cruise or stay.",
+    "tip": "Visit Monuriki, the Cast Away island.",
+    "why": "Postcard Fiji.",
+    "flow": [
+     "Boat from Denarau.",
+     "Snorkel.",
+     "Beach time."
+    ],
+    "hours": 8,
+    "price": [
+     150,
+     350
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Yasawa Islands",
+    "kind": "see",
+    "id": "fji-yasawa",
+    "at": [
+     -16.9,
+     177.4
+    ],
+    "wiki": "Yasawa Group",
+    "area": "Yasawas",
+    "summary": "Remote volcanic islands with manta ray swims and caves.",
+    "expect": "Stay several nights.",
+    "tip": "Swim with mantas May to October.",
+    "why": "Wild islands.",
+    "flow": [
+     "Yasawa Flyer.",
+     "Manta swim.",
+     "Sawa-i-Lau caves."
+    ],
+    "hours": 24,
+    "price": [
+     300,
+     800
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Sabeto Mud Pools",
+    "kind": "see",
+    "id": "fji-sabeto",
+    "at": [
+     -17.72,
+     177.52
+    ],
+    "wiki": "Nadi",
+    "area": "Sabeto",
+    "summary": "Paint yourself in mud and soak in hot springs.",
+    "expect": "Small fee.",
+    "tip": "Combine with the Garden of the Sleeping Giant.",
+    "why": "Fun and relaxing.",
+    "flow": [
+     "Mud bath.",
+     "Hot pools."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Garden of the Sleeping Giant",
+    "kind": "see",
+    "id": "fji-garden",
+    "at": [
+     -17.728,
+     177.505
+    ],
+    "wiki": "Garden of the Sleeping Giant",
+    "area": "Sabeto",
+    "summary": "Orchid garden at the foot of the mountains.",
+    "expect": "Small fee.",
+    "tip": "Go in the morning.",
+    "why": "Orchids.",
+    "flow": [
+     "Orchids.",
+     "Jungle walk."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Village visit and kava ceremony",
+    "kind": "see",
+    "id": "fji-village",
+    "at": [
+     -17.8,
+     177.45
+    ],
+    "wiki": "Kava culture",
+    "area": "Villages",
+    "summary": "Join a sevusevu kava ceremony in a traditional village.",
+    "expect": "Wear a sulu, cover shoulders.",
+    "tip": "Bring kava root as a gift.",
+    "why": "Real Fiji.",
+    "flow": [
+     "Sevusevu.",
+     "Kava.",
+     "Village tour."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Sri Siva Subramaniya Temple",
+    "kind": "see",
+    "id": "fji-sritemple",
+    "at": [
+     -17.806,
+     177.416
+    ],
+    "wiki": "Sri Siva Subramaniya Temple",
+    "area": "Nadi",
+    "summary": "The largest Hindu temple in the southern hemisphere.",
+    "expect": "Small fee.",
+    "tip": "Dress modestly; shoes off.",
+    "why": "Colourful temple.",
+    "flow": [
+     "Temple.",
+     "Murals."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Coral Coast and Sigatoka Dunes",
+    "kind": "see",
+    "id": "fji-coral",
+    "at": [
+     -18.15,
+     177.5
+    ],
+    "wiki": "Sigatoka Sand Dunes",
+    "area": "Coral Coast",
+    "summary": "Sand dunes, reef beaches and river safaris.",
+    "expect": "Day trip.",
+    "tip": "Walk the dunes early.",
+    "why": "Mainland beaches.",
+    "flow": [
+     "Dunes.",
+     "Beach."
+    ],
+    "hours": 6,
+    "price": [
+     10,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kokoda",
+    "kind": "eat",
+    "id": "fji-kokoda",
+    "at": [
+     -17.78,
+     177.44
+    ],
+    "wiki": "Kokoda (food)",
+    "area": "Nadi",
+    "venue": "food-area",
+    "summary": "Raw fish cured in lime and coconut milk.",
+    "expect": "Everywhere.",
+    "tip": "Order with cassava.",
+    "why": "Fijian ceviche.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Fijian",
+    "order": [
+     "Kokoda"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Lovo feast",
+    "kind": "eat",
+    "id": "fji-lovo",
+    "at": [
+     -17.78,
+     177.44
+    ],
+    "wiki": "Lovo (food)",
+    "area": "Resorts",
+    "venue": "food-area",
+    "summary": "Earth-oven feast of meat, fish and root crops.",
+    "expect": "Resort nights.",
+    "tip": "Join a lovo night.",
+    "why": "Island feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     90
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Fijian",
+    "order": [
+     "Lovo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Nadi Market",
+    "kind": "eat",
+    "id": "fji-market",
+    "at": [
+     -17.802,
+     177.416
+    ],
+    "wiki": "Nadi",
+    "area": "Nadi",
+    "venue": "food-area",
+    "summary": "Produce market with kava and curries.",
+    "expect": "Morning.",
+    "tip": "Try a roti wrap.",
+    "why": "Local life.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Fijian",
+    "order": [
+     "Roti",
+     "Kava"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "French Polynesia",
+  "region": "Oceania",
+  "currency": "EUR",
+  "cashTip": "Prices are shown in euros; locally you pay in CFP francs (XPF), pegged at about 119 XPF to 1 euro. Resorts take cards; carry some francs for snacks and boats.",
+  "dailyBudget": [
+   250,
+   900
+  ],
+  "cashPerDay": [
+   20,
+   80
+  ],
+  "id": "bora-bora",
+  "name": "Bora Bora",
+  "at": [
+   -16.5004,
+   -151.7415
+  ],
+  "wiki": "Bora Bora",
+  "cover": "Bora Bora",
+  "seasons": "SSSSHHHHHHSS",
+  "tagline": "Overwater bungalows on the bluest lagoon",
+  "summary": "Bora Bora is the dream South Pacific island: a jagged volcanic peak rising from a turquoise lagoon ringed by motu islets. Stay in an overwater bungalow, snorkel with rays and blacktip sharks, take a lagoon tour with a motu picnic and hike or 4x4 up for views.",
+  "days": 5,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "May to October is dry and breezy; November to April is hot and rainy.",
+  "arrival": "Fly from Tahiti (Papeete) in 50 minutes; resort boats meet you at the airport motu.",
+  "gettingAround": "Resort boats and shuttles; bikes and scooters on the main island.",
+  "foodTip": "Poisson cru and Tahitian vanilla desserts.",
+  "buyTip": "Tahitian black pearls and monoi oil.",
+  "baseArea": "A motu resort or Matira Point",
+  "hotel": [
+   500,
+   2000
+  ],
+  "connections": [],
+  "items": [
+   {
+    "name": "Lagoon tour with rays and sharks",
+    "kind": "see",
+    "id": "bob-lagoon",
+    "at": [
+     -16.53,
+     -151.7
+    ],
+    "wiki": "Bora Bora",
+    "area": "Lagoon",
+    "summary": "Boat tour to snorkel with stingrays, blacktip sharks and coral gardens.",
+    "expect": "Half or full day.",
+    "tip": "Choose a tour with a motu lunch.",
+    "why": "Lagoon magic.",
+    "flow": [
+     "Ray feeding.",
+     "Shark snorkel.",
+     "Coral garden."
+    ],
+    "hours": 5,
+    "price": [
+     100,
+     180
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Matira Beach",
+    "kind": "see",
+    "id": "bob-matira",
+    "at": [
+     -16.542,
+     -151.733
+    ],
+    "wiki": "Matira Point",
+    "area": "Matira",
+    "summary": "The island's best public beach, with soft sand and shallow water.",
+    "expect": "Free.",
+    "tip": "Stay for sunset.",
+    "why": "Free paradise.",
+    "flow": [
+     "Swim.",
+     "Sunset."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mount Otemanu 4x4 tour",
+    "kind": "see",
+    "id": "bob-otemanu",
+    "at": [
+     -16.51,
+     -151.74
+    ],
+    "wiki": "Mount Otemanu",
+    "area": "Interior",
+    "summary": "Off-road trip to WWII cannons and lagoon views.",
+    "expect": "Half day.",
+    "tip": "Go in the morning.",
+    "why": "Island views.",
+    "flow": [
+     "4x4.",
+     "Cannons.",
+     "Viewpoints."
+    ],
+    "hours": 3,
+    "price": [
+     80,
+     120
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Coral Gardens",
+    "kind": "see",
+    "id": "bob-coral",
+    "at": [
+     -16.48,
+     -151.71
+    ],
+    "wiki": "Bora Bora",
+    "area": "Lagoon",
+    "summary": "Shallow coral reef with tropical fish.",
+    "expect": "Snorkel tours.",
+    "tip": "Bring reef-safe sunscreen.",
+    "why": "Fish galore.",
+    "flow": [
+     "Boat.",
+     "Snorkel."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Vaitape village",
+    "kind": "see",
+    "id": "bob-vaitape",
+    "at": [
+     -16.504,
+     -151.748
+    ],
+    "wiki": "Vaitape",
+    "area": "Vaitape",
+    "summary": "Main village with pearl shops and a small market.",
+    "expect": "Free.",
+    "tip": "Compare black pearl prices.",
+    "why": "Local life.",
+    "flow": [
+     "Market.",
+     "Pearl shops."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mount Pahia hike",
+    "kind": "see",
+    "id": "bob-pahia",
+    "at": [
+     -16.51,
+     -151.747
+    ],
+    "wiki": "Mount Pahia",
+    "area": "Interior",
+    "summary": "Steep guided hike to the summit for epic lagoon views.",
+    "expect": "Guide recommended.",
+    "tip": "Start at dawn.",
+    "why": "Hardest hike.",
+    "flow": [
+     "Trailhead.",
+     "Summit."
+    ],
+    "hours": 5,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Poisson cru",
+    "kind": "eat",
+    "id": "bob-poissoncru",
+    "at": [
+     -16.5,
+     -151.74
+    ],
+    "wiki": "Poisson cru",
+    "area": "Vaitape",
+    "venue": "food-area",
+    "summary": "Raw tuna in lime and coconut milk.",
+    "expect": "Everywhere.",
+    "tip": "Eat at a roulotte.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polynesian",
+    "order": [
+     "Poisson cru"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Bloody Mary's",
+    "kind": "eat",
+    "id": "bob-bloody",
+    "at": [
+     -16.528,
+     -151.738
+    ],
+    "wiki": "Bora Bora",
+    "area": "Matira",
+    "venue": "food-area",
+    "summary": "Famous sand-floored restaurant with fresh fish.",
+    "expect": "Pricey.",
+    "tip": "Pick your fish at the counter.",
+    "why": "Legendary spot.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Fresh fish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Roulottes",
+    "kind": "eat",
+    "id": "bob-roulotte",
+    "at": [
+     -16.504,
+     -151.748
+    ],
+    "wiki": "Roulotte",
+    "area": "Vaitape",
+    "venue": "food-area",
+    "summary": "Food trucks serving crêpes, chow mein and poisson cru.",
+    "expect": "Evenings.",
+    "tip": "Cheapest food on the island.",
+    "why": "Budget eats.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polynesian",
+    "order": [
+     "Crêpes",
+     "Chow mein"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]

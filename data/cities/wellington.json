@@ -1,0 +1,521 @@
+{
+  "id": "wellington",
+  "name": "Wellington",
+  "country": "New Zealand",
+  "region": "Oceania",
+  "lat": -41.2865,
+  "lon": 174.7762,
+  "wiki": "Wellington",
+  "tagline": "Windy, creative capital with Te Papa and craft coffee",
+  "summary": "Wellington is New Zealand's compact capital, wrapped around a harbour, with a red cable car, the superb national museum Te Papa and a famous café and craft beer scene. It is also the home of the film studios behind The Lord of the Rings and the ferry port to the South Island.",
+  "days": 3,
+  "bestMonths": [
+    12,
+    1,
+    2,
+    3
+  ],
+  "seasonNote": "Summer is mild; it is windy all year, so bring a jacket.",
+  "arrival": "Wellington Airport is 15 minutes from the centre by Airport Express bus.",
+  "gettingAround": "Walk the waterfront; buses and the cable car.",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry a little cash for rural honesty boxes.",
+  "dailyBudget": [
+    150,
+    400
+  ],
+  "currency": "NZD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Flat whites, craft beer and Wellington on a Plate dishes.",
+  "buyTip": "NZ design on Cuba Street.",
+  "baseArea": "Te Aro, Cuba Street or the waterfront",
+  "connections": [
+    {
+      "to": "auckland",
+      "mode": "Flight",
+      "minutes": 65,
+      "note": "Frequent flights."
+    },
+    {
+      "to": "queenstown",
+      "mode": "Flight",
+      "minutes": 110,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Wellington on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Wellington",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Wellington%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Wellington%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Wellington harbour",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "wellington-wlg-tepapa",
+      "name": "Te Papa Tongarewa",
+      "kind": "see",
+      "lat": -41.29,
+      "lon": 174.782,
+      "wiki": "Museum of New Zealand Te Papa Tongarewa",
+      "summary": "The free national museum, with Māori treasures, a colossal squid and the Gallipoli exhibition.",
+      "expect": "Free.",
+      "tip": "Do not miss Gallipoli: The Scale of Our War.",
+      "area": "Waterfront",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Te%20Papa%20Tongarewa%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Te%20Papa%20Tongarewa%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Te%20Papa%20Tongarewa%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "The free national museum, with Māori treasures, a colossal squid and the Gallipoli exhibition.",
+        "Best museum in NZ."
+      ],
+      "visitFlow": [
+        "Gallipoli.",
+        "Toi Art.",
+        "Māori marae."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "Free.",
+        "Do not miss Gallipoli: The Scale of Our War."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "wellington-wlg-cablecar",
+      "name": "Wellington Cable Car",
+      "kind": "see",
+      "lat": -41.285,
+      "lon": 174.775,
+      "wiki": "Wellington Cable Car",
+      "summary": "Red funicular up to the Botanic Garden and views.",
+      "expect": "Cheap.",
+      "tip": "Walk back down through the gardens.",
+      "area": "Lambton Quay",
+      "duration": 2,
+      "price": [
+        6,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Wellington%20Cable%20Car%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Wellington%20Cable%20Car%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Wellington%20Cable%20Car%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Red funicular up to the Botanic Garden and views.",
+        "City icon."
+      ],
+      "visitFlow": [
+        "Ride up.",
+        "Botanic Garden.",
+        "Walk down."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Cheap.",
+        "Walk back down through the gardens."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "wellington-wlg-victoria",
+      "name": "Mount Victoria Lookout",
+      "kind": "see",
+      "lat": -41.296,
+      "lon": 174.794,
+      "wiki": "Mount Victoria, Wellington",
+      "summary": "Panoramic city lookout with the Hobbit hideaway film spot nearby.",
+      "expect": "Free.",
+      "tip": "Go at sunset.",
+      "area": "Mount Victoria",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mount%20Victoria%20Lookout%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Mount%20Victoria%20Lookout%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mount%20Victoria%20Lookout%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Panoramic city lookout with the Hobbit hideaway film spot nearby.",
+        "Best views."
+      ],
+      "visitFlow": [
+        "Walk up.",
+        "Lookout."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Free.",
+        "Go at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "wellington-wlg-weta",
+      "name": "Wētā Workshop",
+      "kind": "see",
+      "lat": -41.307,
+      "lon": 174.825,
+      "wiki": "Wētā Workshop",
+      "summary": "Tour the special-effects workshop behind Lord of the Rings.",
+      "expect": "Book a tour.",
+      "tip": "Combine with the Miramar peninsula.",
+      "area": "Miramar",
+      "duration": 2,
+      "price": [
+        50,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=W%C4%93t%C4%81%20Workshop%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=W%C4%93t%C4%81%20Workshop%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=W%C4%93t%C4%81%20Workshop%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Tour the special-effects workshop behind Lord of the Rings.",
+        "Film magic."
+      ],
+      "visitFlow": [
+        "Workshop tour.",
+        "Props."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Book a tour.",
+        "Combine with the Miramar peninsula."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "wellington-wlg-zealandia",
+      "name": "Zealandia Ecosanctuary",
+      "kind": "see",
+      "lat": -41.29,
+      "lon": 174.753,
+      "wiki": "Zealandia (wildlife sanctuary)",
+      "summary": "Predator-free valley full of rare native birds.",
+      "expect": "Day or night tours.",
+      "tip": "Take the night tour for kiwi.",
+      "area": "Karori",
+      "duration": 3,
+      "price": [
+        25,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Zealandia%20Ecosanctuary%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Zealandia%20Ecosanctuary%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Zealandia%20Ecosanctuary%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Predator-free valley full of rare native birds.",
+        "Native wildlife."
+      ],
+      "visitFlow": [
+        "Valley walk.",
+        "Birdlife."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Day or night tours.",
+        "Take the night tour for kiwi."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "wellington-wlg-parliament",
+      "name": "Parliament and the Beehive",
+      "kind": "see",
+      "lat": -41.278,
+      "lon": 174.776,
+      "wiki": "Beehive (building)",
+      "summary": "Free tours of NZ's Parliament.",
+      "expect": "Free.",
+      "tip": "Take the guided tour.",
+      "area": "Thorndon",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Parliament%20and%20the%20Beehive%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Parliament%20and%20the%20Beehive%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Parliament%20and%20the%20Beehive%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Free tours of NZ's Parliament.",
+        "Seat of government."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Beehive."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free.",
+        "Take the guided tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "wellington-wlg-cuba",
+      "name": "Cuba Street",
+      "kind": "eat",
+      "lat": -41.295,
+      "lon": 174.775,
+      "wiki": "Cuba Street",
+      "summary": "Bohemian strip of cafés, bars and street food.",
+      "expect": "Busy evenings.",
+      "tip": "See the Bucket Fountain.",
+      "area": "Te Aro",
+      "duration": 1.5,
+      "price": [
+        20,
+        50
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cuba%20Street%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Cuba%20Street%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cuba%20Street%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Bohemian strip of cafés, bars and street food.",
+        "Creative heart."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy evenings.",
+        "See the Bucket Fountain."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "New Zealand",
+      "mustOrder": [
+        "Flat white",
+        "Craft beer"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "wellington-wlg-market",
+      "name": "Harbourside Market",
+      "kind": "eat",
+      "lat": -41.291,
+      "lon": 174.784,
+      "wiki": "Wellington",
+      "summary": "Sunday market with produce and street food.",
+      "expect": "Sunday mornings.",
+      "tip": "Go hungry.",
+      "area": "Waterfront",
+      "duration": 1,
+      "price": [
+        10,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Harbourside%20Market%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Harbourside%20Market%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Harbourside%20Market%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Sunday market with produce and street food.",
+        "Local market."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Sunday mornings.",
+        "Go hungry."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "International",
+      "mustOrder": [
+        "Street food"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "wellington-wlg-beer",
+      "name": "Craft beer bars",
+      "kind": "eat",
+      "lat": -41.29,
+      "lon": 174.776,
+      "wiki": "Garage Project",
+      "summary": "Wellington is NZ's craft beer capital.",
+      "expect": "Taprooms.",
+      "tip": "Try Garage Project's taproom.",
+      "area": "Te Aro",
+      "duration": 1.5,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Craft%20beer%20bars%2C%20Wellington",
+        "https://www.google.com/maps/search/?api=1&query=Craft%20beer%20bars%2C%20Wellington"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Craft%20beer%20bars%2C%20Wellington"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Wellington is NZ's craft beer capital.",
+        "Beer capital."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Taprooms.",
+        "Try Garage Project's taproom."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "New Zealand",
+      "mustOrder": [
+        "Craft beer"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

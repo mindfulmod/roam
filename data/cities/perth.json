@@ -1,0 +1,574 @@
+{
+  "id": "perth",
+  "name": "Perth",
+  "country": "Australia",
+  "region": "Oceania",
+  "lat": -31.9523,
+  "lon": 115.8613,
+  "wiki": "Perth",
+  "tagline": "Sunny beaches, quokkas and Swan River sunsets",
+  "summary": "Perth is one of the sunniest cities on earth, with long white beaches, the vast Kings Park and the riverside port of Fremantle. Ride to Rottnest Island for a quokka selfie, swim at Cottesloe, and drive to the Pinnacles or the Margaret River wine region.",
+  "days": 4,
+  "bestMonths": [
+    3,
+    4,
+    10,
+    11
+  ],
+  "seasonNote": "Spring and autumn are perfect; summer is hot but great for beaches.",
+  "arrival": "Perth Airport is 25 minutes from the city by the Airport Line train.",
+  "gettingAround": "Transperth trains and buses; free CAT buses in the city.",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+    150,
+    400
+  ],
+  "currency": "AUD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Western rock lobster, Margaret River wine and Freo fish and chips.",
+  "buyTip": "Broome pearls and Margaret River wine.",
+  "baseArea": "CBD, Northbridge or Fremantle",
+  "connections": [
+    {
+      "to": "melbourne",
+      "mode": "Flight",
+      "minutes": 225,
+      "note": "Daily flights."
+    },
+    {
+      "to": "sydney",
+      "mode": "Flight",
+      "minutes": 270,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Perth on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Perth",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Perth%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Perth%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Perth skyline",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "perth-per-rottnest",
+      "name": "Rottnest Island",
+      "kind": "see",
+      "lat": -32,
+      "lon": 115.51,
+      "wiki": "Rottnest Island",
+      "summary": "Car-free island of quokkas, turquoise bays and bike trails.",
+      "expect": "Ferry from Fremantle or the city.",
+      "tip": "Rent a bike and snorkel at the Basin.",
+      "area": "Offshore",
+      "duration": 8,
+      "price": [
+        80,
+        150
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rottnest%20Island%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Rottnest%20Island%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rottnest%20Island%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Car-free island of quokkas, turquoise bays and bike trails.",
+        "Quokka selfies."
+      ],
+      "visitFlow": [
+        "Ferry.",
+        "Bike the island.",
+        "Quokkas."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Ferry from Fremantle or the city.",
+        "Rent a bike and snorkel at the Basin."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "perth-per-kingspark",
+      "name": "Kings Park and Botanic Garden",
+      "kind": "see",
+      "lat": -31.961,
+      "lon": 115.833,
+      "wiki": "Kings Park",
+      "summary": "One of the world's largest city parks, with skyline views and a treetop walkway.",
+      "expect": "Free.",
+      "tip": "Walk the Lotterywest Federation Walkway.",
+      "area": "West",
+      "duration": 2.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kings%20Park%20and%20Botanic%20Garden%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Kings%20Park%20and%20Botanic%20Garden%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Kings%20Park%20and%20Botanic%20Garden%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "One of the world's largest city parks, with skyline views and a treetop walkway.",
+        "City views."
+      ],
+      "visitFlow": [
+        "Lookout.",
+        "Treetop walkway.",
+        "Botanic garden."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Free.",
+        "Walk the Lotterywest Federation Walkway."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "perth-per-fremantle",
+      "name": "Fremantle",
+      "kind": "see",
+      "lat": -32.056,
+      "lon": 115.747,
+      "wiki": "Fremantle",
+      "summary": "Historic port with markets, a convict-built prison and craft breweries.",
+      "expect": "Train from the city.",
+      "tip": "Visit Fremantle Prison and the markets.",
+      "area": "Fremantle",
+      "duration": 5,
+      "price": [
+        0,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fremantle%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Fremantle%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fremantle%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Food"
+      ],
+      "whyVisit": [
+        "Historic port with markets, a convict-built prison and craft breweries.",
+        "Heritage port."
+      ],
+      "visitFlow": [
+        "Fremantle Markets.",
+        "Prison tour.",
+        "Fishing Boat Harbour."
+      ],
+      "bestFor": "Visitors interested in history and context and regional food",
+      "tradeoffs": [
+        "Train from the city.",
+        "Visit Fremantle Prison and the markets."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "perth-per-cottesloe",
+      "name": "Cottesloe Beach",
+      "kind": "see",
+      "lat": -31.994,
+      "lon": 115.751,
+      "wiki": "Cottesloe Beach",
+      "summary": "Perth's favourite beach, with sunsets over the Indian Ocean.",
+      "expect": "Free.",
+      "tip": "Stay for sunset.",
+      "area": "Coast",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cottesloe%20Beach%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Cottesloe%20Beach%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cottesloe%20Beach%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Perth's favourite beach, with sunsets over the Indian Ocean.",
+        "Iconic beach."
+      ],
+      "visitFlow": [
+        "Swim.",
+        "Sunset."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Stay for sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "perth-per-pinnacles",
+      "name": "The Pinnacles",
+      "kind": "see",
+      "lat": -30.605,
+      "lon": 115.157,
+      "wiki": "Pinnacles (Western Australia)",
+      "summary": "Thousands of limestone spires in yellow desert.",
+      "expect": "2.5 hours' drive.",
+      "tip": "Go for sunset and stars.",
+      "area": "Nambung",
+      "duration": 10,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=The%20Pinnacles%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=The%20Pinnacles%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=The%20Pinnacles%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Thousands of limestone spires in yellow desert.",
+        "Otherworldly."
+      ],
+      "visitFlow": [
+        "Drive north.",
+        "Pinnacles loop.",
+        "Lancelin dunes."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "2.5 hours' drive.",
+        "Go for sunset and stars."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "perth-per-margaret",
+      "name": "Margaret River",
+      "kind": "see",
+      "lat": -33.955,
+      "lon": 115.075,
+      "wiki": "Margaret River, Western Australia",
+      "summary": "Wine region with surf beaches and caves.",
+      "expect": "3 hours' drive; stay overnight.",
+      "tip": "Do a cellar-door tour.",
+      "area": "South west",
+      "duration": 12,
+      "price": [
+        50,
+        200
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Margaret%20River%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Margaret%20River%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Margaret%20River%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Wine region with surf beaches and caves.",
+        "Top wine region."
+      ],
+      "visitFlow": [
+        "Wineries.",
+        "Caves.",
+        "Surf beaches."
+      ],
+      "bestFor": "Visitors interested in regional food and landscapes and wildlife",
+      "tradeoffs": [
+        "3 hours' drive; stay overnight.",
+        "Do a cellar-door tour."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "perth-per-elizabeth",
+      "name": "Elizabeth Quay",
+      "kind": "see",
+      "lat": -31.959,
+      "lon": 115.858,
+      "wiki": "Elizabeth Quay",
+      "summary": "Waterfront promenade with the Spanda sculpture and ferries.",
+      "expect": "Free.",
+      "tip": "Walk on to the Bell Tower.",
+      "area": "CBD",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Elizabeth%20Quay%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Elizabeth%20Quay%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Elizabeth%20Quay%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Waterfront promenade with the Spanda sculpture and ferries.",
+        "Riverfront hub."
+      ],
+      "visitFlow": [
+        "Quay.",
+        "Bell Tower."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Walk on to the Bell Tower."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "perth-per-fishchips",
+      "name": "Fish and chips in Fremantle",
+      "kind": "eat",
+      "lat": -32.057,
+      "lon": 115.747,
+      "wiki": "Fremantle Fishing Boat Harbour",
+      "summary": "Fish and chips by the harbour.",
+      "expect": "Busy weekends.",
+      "tip": "Watch for seagulls.",
+      "area": "Fremantle",
+      "duration": 1,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fish%20and%20chips%20in%20Fremantle%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Fish%20and%20chips%20in%20Fremantle%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fish%20and%20chips%20in%20Fremantle%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fish and chips by the harbour.",
+        "Freo classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy weekends.",
+        "Watch for seagulls."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Fish and chips"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "perth-per-northbridge",
+      "name": "Northbridge",
+      "kind": "eat",
+      "lat": -31.947,
+      "lon": 115.858,
+      "wiki": "Northbridge, Western Australia",
+      "summary": "Perth's food and nightlife district.",
+      "expect": "Evenings.",
+      "tip": "Try the small bars.",
+      "area": "Northbridge",
+      "duration": 2,
+      "price": [
+        25,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Northbridge%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Northbridge%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Northbridge%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Perth's food and nightlife district.",
+        "Nightlife hub."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Try the small bars."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "International",
+      "mustOrder": [
+        "Small plates"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "perth-per-lobster",
+      "name": "Western rock lobster",
+      "kind": "eat",
+      "lat": -31.95,
+      "lon": 115.86,
+      "wiki": "Panulirus cygnus",
+      "summary": "Local rock lobster, in season November to June.",
+      "expect": "Pricey.",
+      "tip": "Order it grilled.",
+      "area": "Coast",
+      "duration": 1.5,
+      "price": [
+        60,
+        120
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Western%20rock%20lobster%2C%20Perth",
+        "https://www.google.com/maps/search/?api=1&query=Western%20rock%20lobster%2C%20Perth"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Western%20rock%20lobster%2C%20Perth"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Local rock lobster, in season November to June.",
+        "WA speciality."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Pricey.",
+        "Order it grilled."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Rock lobster"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
