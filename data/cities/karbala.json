@@ -77,8 +77,8 @@
       "id": "karbala-karbala-imam-husayn-shrine",
       "name": "Imam Husayn Shrine",
       "kind": "see",
-      "lat": 32.6164,
-      "lon": 44.0324,
+      "lat": 32.61639,
+      "lon": 44.0325,
       "wiki": "Imam Husayn Shrine",
       "summary": "The golden-domed shrine over the tomb of Imam Husayn, with mirror-tiled halls and courtyards that never empty.",
       "expect": "Security checks and shoe drops at every gate; women wear an abaya or chador, which can be borrowed. Non-Muslim visitors are usually welcome in the courtyards when dressed modestly.",
@@ -118,14 +118,22 @@
         "Security checks and shoe drops at every gate; women wear an abaya or chador, which can be borrowed. Non-Muslim visitors are usually welcome in the courtyards when dressed modestly.",
         "Come before dawn or late at night, when the courtyards are calm and the dome glows."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 77246,
+          "period": "202511-202610",
+          "title": "Imam Husayn Shrine",
+          "url": "https://en.wikipedia.org/wiki/Imam_Husayn_Shrine",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "karbala-karbala-al-abbas-shrine",
       "name": "Al-Abbas Shrine",
       "kind": "see",
-      "lat": 32.6158,
-      "lon": 44.0349,
+      "lat": 32.61719,
+      "lon": 44.03622,
       "wiki": "Al-Abbas Shrine",
       "summary": "The shrine of Abbas ibn Ali, Husayn's half-brother and standard-bearer, facing Husayn's shrine across the plaza.",
       "expect": "The same entry rules as the Husayn shrine; busiest at evening prayers.",
@@ -165,14 +173,22 @@
         "The same entry rules as the Husayn shrine; busiest at evening prayers.",
         "Its museum of gifts given to the shrine over the centuries is worth an hour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14810,
+          "period": "202511-202610",
+          "title": "Al-Abbas Shrine",
+          "url": "https://en.wikipedia.org/wiki/Al-Abbas_Shrine",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "karbala-karbala-bayn-al-haramayn",
       "name": "Bayn al-Haramayn",
       "kind": "see",
-      "lat": 32.6161,
-      "lon": 44.0337,
+      "lat": 32.61667,
+      "lon": 44.03417,
       "wiki": "Bayn al-Haramayn",
       "summary": "The wide plaza joining the two shrines, where pilgrims walk back and forth between them.",
       "expect": "Packed at dusk and on holy days; shaded in parts.",
@@ -212,7 +228,15 @@
         "Packed at dusk and on holy days; shaded in parts.",
         "Stand in the middle at sunset to see both domes lit at once."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2089,
+          "period": "202511-202610",
+          "title": "Bayn al-Haramayn",
+          "url": "https://en.wikipedia.org/wiki/Bayn_al-Haramayn",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "karbala-karbala-tal-al-zaynabiya",
@@ -265,8 +289,8 @@
       "id": "karbala-karbala-ukhaidir",
       "name": "Al-Ukhaidir Fortress",
       "kind": "see",
-      "lat": 32.442,
-      "lon": 43.602,
+      "lat": 32.44056,
+      "lon": 43.60222,
       "wiki": "Al-Ukhaidir Fortress",
       "summary": "A vast 8th-century Abbasid palace-fortress of brick vaults and arches standing alone in the desert.",
       "expect": "Little shade and few facilities; you need a driver.",
@@ -306,8 +330,16 @@
         "Little shade and few facilities; you need a driver.",
         "Go early morning and bring water; combine with Lake Razzaza on the way back."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9696,
+          "period": "202511-202610",
+          "title": "Al-Ukhaidir Fortress",
+          "url": "https://en.wikipedia.org/wiki/Al-Ukhaidir_Fortress",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "karbala-karbala-souks",
@@ -353,7 +385,16 @@
         "Busy and loud; prices are often fixed for pilgrims.",
         "Look for turbah prayer stones made from local soil, a gift pilgrims take home."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 173479,
+          "period": "202511-202610",
+          "title": "Karbala",
+          "url": "https://en.wikipedia.org/wiki/Karbala",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "karbala-karbala-kebab-grills",
@@ -532,5 +573,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
