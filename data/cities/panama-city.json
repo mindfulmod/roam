@@ -1,0 +1,525 @@
+{
+  "id": "panama-city",
+  "name": "Panama City",
+  "country": "Panama",
+  "region": "North America",
+  "lat": 8.9824,
+  "lon": -79.5199,
+  "wiki": "Panama City",
+  "tagline": "Skyscrapers, a colonial old town and the canal",
+  "summary": "Panama City mixes a glassy skyline with Casco Viejo's restored colonial streets. Watch giant ships pass the Panama Canal locks at Miraflores, walk the Amador Causeway and head out to the San Blas islands.",
+  "days": 3,
+  "bestMonths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "Dry season January to April. Rains most afternoons from May.",
+  "arrival": "Tocumen Airport is 30 minutes away.",
+  "gettingAround": "Metro, Uber and taxis.",
+  "cashTip": "Panama uses US dollars. Cards work widely in the city; carry small bills for taxis and islands.",
+  "dailyBudget": [
+    80,
+    250
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Ceviche at the fish market, sancocho and Geisha coffee.",
+  "buyTip": "Mola textiles and Panama hats.",
+  "baseArea": "Casco Viejo",
+  "connections": [
+    {
+      "to": "cartagena",
+      "mode": "Flight",
+      "minutes": 75,
+      "note": "Daily flights."
+    },
+    {
+      "to": "bogota",
+      "mode": "Flight",
+      "minutes": 90,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Panama City on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Panama_City",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Panama%20City%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Panama%20City%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Panama Canal",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "panama-city-pty2-miraflores",
+      "name": "Miraflores Locks",
+      "kind": "see",
+      "lat": 8.9969,
+      "lon": -79.5916,
+      "wiki": "Miraflores Locks",
+      "summary": "Watch ships rise through the canal locks.",
+      "expect": "Ships pass at set times.",
+      "tip": "Check transit times; mornings busy.",
+      "area": "Canal",
+      "duration": 2,
+      "price": [
+        17,
+        17
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Miraflores%20Locks%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Miraflores%20Locks%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Miraflores%20Locks%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Technology",
+        "History"
+      ],
+      "whyVisit": [
+        "Watch ships rise through the canal locks.",
+        "Engineering wonder."
+      ],
+      "visitFlow": [
+        "Viewing deck.",
+        "Museum."
+      ],
+      "bestFor": "Visitors interested in science and technology and history and context",
+      "tradeoffs": [
+        "Ships pass at set times.",
+        "Check transit times; mornings busy."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "panama-city-pty2-casco",
+      "name": "Casco Viejo",
+      "kind": "see",
+      "lat": 8.9526,
+      "lon": -79.5348,
+      "wiki": "Casco Viejo",
+      "summary": "Restored colonial streets, plazas and rooftop bars.",
+      "expect": "Lively at night.",
+      "tip": "Rooftop sunset.",
+      "area": "Casco Viejo",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Casco%20Viejo%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Casco%20Viejo%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Casco%20Viejo%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Restored colonial streets, plazas and rooftop bars.",
+        "UNESCO old town."
+      ],
+      "visitFlow": [
+        "Plaza de Francia.",
+        "Cathedral.",
+        "Rooftop."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Lively at night.",
+        "Rooftop sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "panama-city-pty2-causeway",
+      "name": "Amador Causeway",
+      "kind": "see",
+      "lat": 8.915,
+      "lon": -79.528,
+      "wiki": "Amador Causeway",
+      "summary": "A causeway to islands with skyline views and the Biomuseo.",
+      "expect": "Rent a bike.",
+      "tip": "Cycle at sunset.",
+      "area": "Amador",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Amador%20Causeway%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Amador%20Causeway%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Amador%20Causeway%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A causeway to islands with skyline views and the Biomuseo.",
+        "Skyline and ships."
+      ],
+      "visitFlow": [
+        "Biomuseo.",
+        "Bike."
+      ],
+      "bestFor": "Visitors interested in big views and architecture and design",
+      "tradeoffs": [
+        "Rent a bike.",
+        "Cycle at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "panama-city-pty2-biomuseo",
+      "name": "Biomuseo",
+      "kind": "see",
+      "lat": 8.9324,
+      "lon": -79.5458,
+      "wiki": "Biomuseo",
+      "summary": "Frank Gehry's colourful biodiversity museum.",
+      "expect": "Interactive.",
+      "tip": "Combine with the causeway.",
+      "area": "Amador",
+      "duration": 2,
+      "price": [
+        18,
+        18
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Biomuseo%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Biomuseo%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Biomuseo%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Frank Gehry's colourful biodiversity museum.",
+        "Bold architecture."
+      ],
+      "visitFlow": [
+        "Walk the eight galleries.",
+        "See the Panama land-bridge exhibit."
+      ],
+      "bestFor": "Visitors interested in architecture and design and landscapes and wildlife",
+      "tradeoffs": [
+        "Interactive.",
+        "Combine with the causeway."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "panama-city-pty2-metropark",
+      "name": "Metropolitan Natural Park",
+      "kind": "see",
+      "lat": 8.993,
+      "lon": -79.547,
+      "wiki": "Metropolitan Natural Park",
+      "summary": "Rainforest in the city with sloths and city views.",
+      "expect": "Hot.",
+      "tip": "Go early.",
+      "area": "Centre",
+      "duration": 2,
+      "price": [
+        5,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Metropolitan%20Natural%20Park%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Metropolitan%20Natural%20Park%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Metropolitan%20Natural%20Park%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Rainforest in the city with sloths and city views.",
+        "Urban rainforest."
+      ],
+      "visitFlow": [
+        "Trail.",
+        "Mirador."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Hot.",
+        "Go early."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "panama-city-pty2-sanblas",
+      "name": "San Blas Islands",
+      "kind": "see",
+      "lat": 9.5667,
+      "lon": -78.8333,
+      "wiki": "Guna Yala",
+      "summary": "Palm islands of the Guna people.",
+      "expect": "Long drive and boat; overnight best.",
+      "tip": "Respect Guna rules.",
+      "area": "Guna Yala",
+      "duration": 12,
+      "price": [
+        100,
+        200
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=San%20Blas%20Islands%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=San%20Blas%20Islands%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=San%20Blas%20Islands%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Palm islands of the Guna people.",
+        "Paradise islands."
+      ],
+      "visitFlow": [
+        "Drive.",
+        "Boat.",
+        "Island."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Long drive and boat; overnight best.",
+        "Respect Guna rules."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "panama-city-pty2-ceviche",
+      "name": "Mercado de Mariscos",
+      "kind": "eat",
+      "lat": 8.959,
+      "lon": -79.537,
+      "wiki": "Mercado de Mariscos",
+      "summary": "Cheap ceviche cups.",
+      "expect": "Lively.",
+      "tip": "Try mixed ceviche.",
+      "area": "Fish market",
+      "duration": 1,
+      "price": [
+        3,
+        10
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mercado%20de%20Mariscos%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Mercado%20de%20Mariscos%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mercado%20de%20Mariscos%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cheap ceviche cups.",
+        "Panama's ceviche."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lively.",
+        "Try mixed ceviche."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Panamanian",
+      "mustOrder": [
+        "Ceviche"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "panama-city-pty2-sancocho",
+      "name": "Sancocho",
+      "kind": "eat",
+      "lat": 8.955,
+      "lon": -79.535,
+      "wiki": "Sancocho",
+      "summary": "Chicken soup with yam.",
+      "expect": "Comfort food.",
+      "tip": "Try at a fonda.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        5,
+        10
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sancocho%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Sancocho%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sancocho%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Chicken soup with yam.",
+        "National dish."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Comfort food.",
+        "Try at a fonda."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Panamanian",
+      "mustOrder": [
+        "Sancocho"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "panama-city-pty2-geisha",
+      "name": "Geisha coffee",
+      "kind": "eat",
+      "lat": 8.953,
+      "lon": -79.535,
+      "wiki": "Geisha coffee",
+      "summary": "Panama's prized coffee.",
+      "expect": "Expensive cup.",
+      "tip": "Try a tasting flight.",
+      "area": "Casco Viejo",
+      "duration": 0.5,
+      "price": [
+        6,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Geisha%20coffee%2C%20Panama%20City",
+        "https://www.google.com/maps/search/?api=1&query=Geisha%20coffee%2C%20Panama%20City"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Geisha%20coffee%2C%20Panama%20City"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Panama's prized coffee.",
+        "World-famous coffee."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Expensive cup.",
+        "Try a tasting flight."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Café",
+      "mustOrder": [
+        "Geisha"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
