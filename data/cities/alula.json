@@ -83,8 +83,8 @@
       "id": "alula-hegra",
       "name": "Hegra",
       "kind": "see",
-      "lat": 26.792,
-      "lon": 37.953,
+      "lat": 26.79167,
+      "lon": 37.95278,
       "wiki": "Hegra (Mada'in Salih)",
       "summary": "More than 100 Nabataean tombs carved into sandstone outcrops, including the lone Tomb of Lihyan son of Kuza.",
       "expect": "Visits are by timed guided tour with shuttle buses.",
@@ -124,14 +124,22 @@
         "Visits are by timed guided tour with shuttle buses.",
         "Book the late-afternoon tour for the warm light on the tombs."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76782,
+          "period": "202511-202610",
+          "title": "Hegra",
+          "url": "https://en.wikipedia.org/wiki/Hegra",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "alula-elephant-rock",
       "name": "Elephant Rock",
       "kind": "see",
-      "lat": 26.697,
-      "lon": 37.978,
+      "lat": 26.6892,
+      "lon": 37.9816,
       "wiki": "Elephant Rock (Saudi Arabia)",
       "summary": "A 50-metre sandstone outcrop shaped like an elephant, with a lounge in the sand beside it.",
       "expect": "Open evenings; busy at sunset.",
@@ -171,7 +179,15 @@
         "Open evenings; busy at sunset.",
         "Arrive before sunset and stay as the rock is lit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6091,
+          "period": "202511-202610",
+          "title": "Elephant Rock (Saudi Arabia)",
+          "url": "https://en.wikipedia.org/wiki/Elephant_Rock_(Saudi_Arabia)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "alula-alula-old-town",
@@ -218,7 +234,16 @@
         "Best in the evening when the lanes are lit.",
         "Climb to AlUla Castle for the view over the oasis."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 134122,
+          "period": "202511-202610",
+          "title": "Al-Ula",
+          "url": "https://en.wikipedia.org/wiki/Al-Ula",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "alula-alula-dadan-ikmah",
@@ -311,7 +336,16 @@
         "The inside is open for concerts and the restaurant.",
         "See it at sunset, when the mirrors glow."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 134122,
+          "period": "202511-202610",
+          "title": "Al-Ula",
+          "url": "https://en.wikipedia.org/wiki/Al-Ula",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "alula-harrat-viewpoint",
@@ -538,5 +572,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

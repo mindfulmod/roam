@@ -77,8 +77,8 @@
       "id": "medina-medina-prophets-mosque",
       "name": "Al-Masjid an-Nabawi",
       "kind": "see",
-      "lat": 24.4672,
-      "lon": 39.6111,
+      "lat": 24.46833,
+      "lon": 39.61083,
       "wiki": "Al-Masjid an-Nabawi",
       "summary": "The Prophet's Mosque, with the Green Dome over his tomb and the Rawdah, a space Muslims consider a garden of paradise.",
       "expect": "Muslims only; a visit to the Rawdah must be booked in the Nusuk app; giant umbrellas shade the courtyards.",
@@ -118,14 +118,22 @@
         "Muslims only; a visit to the Rawdah must be booked in the Nusuk app; giant umbrellas shade the courtyards.",
         "Book your Rawdah slot as soon as you arrive; late-night slots are easiest to get."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 261553,
+          "period": "202511-202610",
+          "title": "Prophet's Mosque",
+          "url": "https://en.wikipedia.org/wiki/Prophet's_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "medina-quba-mosque",
       "name": "Quba Mosque",
       "kind": "see",
-      "lat": 24.4392,
-      "lon": 39.6172,
+      "lat": 24.43917,
+      "lon": 39.61722,
       "wiki": "Quba Mosque",
       "summary": "The first mosque in Islam, built by the Prophet on his arrival from Mecca.",
       "expect": "Open to Muslims for prayer; busiest on Saturday mornings, following the Prophet's practice.",
@@ -165,7 +173,15 @@
         "Open to Muslims for prayer; busiest on Saturday mornings, following the Prophet's practice.",
         "Walk the new Quba Walkway from the Prophet's Mosque, about 3 km."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 113715,
+          "period": "202511-202610",
+          "title": "Quba Mosque",
+          "url": "https://en.wikipedia.org/wiki/Quba_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "medina-medina-mount-uhud",
@@ -213,7 +229,16 @@
         "Open to all; modest dress required.",
         "Climb the small Archers' Hill opposite for the view."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 42549,
+          "period": "202511-202610",
+          "title": "Mount Uhud",
+          "url": "https://en.wikipedia.org/wiki/Mount_Uhud",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "medina-dar-al-madinah-museum",
@@ -307,14 +332,23 @@
         "Open to all; small.",
         "Pair with the nearby Anbariya Mosque."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 75353,
+          "period": "202511-202610",
+          "title": "Hejaz railway",
+          "url": "https://en.wikipedia.org/wiki/Hejaz_railway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "medina-medina-seven-mosques",
       "name": "Seven Mosques",
       "kind": "see",
-      "lat": 24.479,
-      "lon": 39.596,
+      "lat": 24.47721,
+      "lon": 39.59497,
       "wiki": "Seven Mosques",
       "summary": "Small mosques at the site of the Battle of the Trench, including the Al-Fath mosque.",
       "expect": "Part of most ziyarah tours.",
@@ -353,8 +387,7 @@
       "tradeoffs": [
         "Part of most ziyarah tours.",
         "Combine with the Qiblatain Mosque, where the direction of prayer changed to Mecca."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "medina-medina-dates-market",
@@ -534,5 +567,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

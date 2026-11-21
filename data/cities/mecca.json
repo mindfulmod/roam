@@ -72,7 +72,7 @@
       "name": "Masjid al-Haram and the Kaaba",
       "kind": "see",
       "lat": 21.4225,
-      "lon": 39.8262,
+      "lon": 39.82611,
       "wiki": "Great Mosque of Mecca",
       "summary": "The Great Mosque surrounding the Kaaba, the centre of Muslim worship, where pilgrims perform tawaf and sa'i.",
       "expect": "Muslims only; huge crowds at prayer times and in Ramadan; ihram clothing is required for Umrah.",
@@ -112,14 +112,22 @@
         "Muslims only; huge crowds at prayer times and in Ramadan; ihram clothing is required for Umrah.",
         "Perform tawaf late at night or after Fajr for the calmest time; the upper floors are less crowded."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 391353,
+          "period": "202511-202610",
+          "title": "Masjid al-Haram",
+          "url": "https://en.wikipedia.org/wiki/Masjid_al-Haram",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mecca-mecca-clock-tower-museum",
       "name": "Clock Tower Museum",
       "kind": "see",
-      "lat": 21.4189,
-      "lon": 39.8256,
+      "lat": 21.41798,
+      "lon": 39.82554,
       "wiki": "Abraj Al-Bait",
       "summary": "A museum of astronomy and timekeeping near the top of the clock tower, with a viewing deck over the Grand Mosque.",
       "expect": "Timed tickets; queues at peak season.",
@@ -159,7 +167,15 @@
         "Timed tickets; queues at peak season.",
         "Go at sunset for the view of the mosque lighting up."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 360801,
+          "period": "202511-202610",
+          "title": "The Clock Towers",
+          "url": "https://en.wikipedia.org/wiki/The_Clock_Towers",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mecca-mecca-cave-of-hira",
@@ -213,8 +229,8 @@
       "id": "mecca-mount-arafat",
       "name": "Mount Arafat",
       "kind": "see",
-      "lat": 21.3549,
-      "lon": 39.9842,
+      "lat": 21.35472,
+      "lon": 39.98389,
       "wiki": "Mount Arafat",
       "summary": "The hill where pilgrims stand in prayer on the Day of Arafah, the peak of Hajj, and where the Prophet gave his Farewell Sermon.",
       "expect": "Quiet outside Hajj; extremely crowded on the day itself.",
@@ -254,14 +270,22 @@
         "Quiet outside Hajj; extremely crowded on the day itself.",
         "Many Umrah pilgrims visit Mina, Muzdalifah and Arafat on a guided ziyarah tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 93472,
+          "period": "202511-202610",
+          "title": "Mount Arafat",
+          "url": "https://en.wikipedia.org/wiki/Mount_Arafat",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mecca-mina",
       "name": "Mina",
       "kind": "see",
-      "lat": 21.4133,
-      "lon": 39.8933,
+      "lat": 21.41333,
+      "lon": 39.89333,
       "wiki": "Mina, Saudi Arabia",
       "summary": "The valley of white tents where pilgrims stay during Hajj and perform the stoning of the Jamarat.",
       "expect": "Nearly empty outside Hajj.",
@@ -301,7 +325,15 @@
         "Nearly empty outside Hajj.",
         "See it as part of a ziyarah tour to understand the Hajj route."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42759,
+          "period": "202511-202610",
+          "title": "Mina, Saudi Arabia",
+          "url": "https://en.wikipedia.org/wiki/Mina%2C_Saudi_Arabia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mecca-mecca-two-holy-mosques-museum",
@@ -355,8 +387,8 @@
       "id": "mecca-mecca-al-baik",
       "name": "Al Baik",
       "kind": "eat",
-      "lat": 21.42,
-      "lon": 39.824,
+      "lat": 21.41379,
+      "lon": 39.82807,
       "wiki": "Al Baik",
       "summary": "Saudi Arabia's beloved fried chicken chain, with branches beside the Grand Mosque.",
       "expect": "Queues at every prayer break.",
@@ -395,7 +427,6 @@
         "Queues at every prayer break.",
         "Order the broasted chicken meal with garlic sauce."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Fried chicken",
       "mustOrder": [
@@ -528,5 +559,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

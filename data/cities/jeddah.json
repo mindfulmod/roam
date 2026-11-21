@@ -90,8 +90,8 @@
       "id": "jeddah-jeddah-al-balad",
       "name": "Al-Balad historic district",
       "kind": "see",
-      "lat": 21.484,
-      "lon": 39.187,
+      "lat": 21.48434,
+      "lon": 39.1867,
       "wiki": "Al-Balad, Jeddah",
       "summary": "The old town of coral-stone tower houses with carved wooden rawasheen balconies and busy souqs.",
       "expect": "Some houses are under restoration; it comes alive after dark.",
@@ -132,13 +132,21 @@
         "Some houses are under restoration; it comes alive after dark.",
         "Visit Nassif House, then walk the souqs in the evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28190,
+          "period": "202511-202610",
+          "title": "Al-Balad, Jeddah",
+          "url": "https://en.wikipedia.org/wiki/Al-Balad%2C_Jeddah",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeddah-jeddah-corniche",
       "name": "Jeddah Corniche and King Fahd's Fountain",
       "kind": "see",
-      "lat": 21.515,
+      "lat": 21.51556,
       "lon": 39.145,
       "wiki": "King Fahd's Fountain",
       "summary": "A seafront promenade with the world's tallest fountain, shooting water over 300 metres.",
@@ -179,7 +187,15 @@
         "The fountain runs most evenings.",
         "Walk the waterfront park at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21410,
+          "period": "202511-202610",
+          "title": "King Fahd's Fountain",
+          "url": "https://en.wikipedia.org/wiki/King_Fahd's_Fountain",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeddah-jeddah-floating-mosque",
@@ -226,7 +242,16 @@
         "Non-Muslims can see it from outside; modest dress.",
         "Go at high tide or sunset for the reflection."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4016,
+          "period": "202511-202610",
+          "title": "Al-Rahmah Mosque",
+          "url": "https://en.wikipedia.org/wiki/Al-Rahmah_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeddah-jeddah-obhur-diving",
@@ -498,5 +523,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
