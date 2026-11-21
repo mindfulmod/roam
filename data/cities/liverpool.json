@@ -71,8 +71,8 @@
       "id": "liverpool-liverpool-albert-dock",
       "name": "Royal Albert Dock",
       "kind": "see",
-      "lat": 53.4,
-      "lon": -2.992,
+      "lat": 53.4003,
+      "lon": -2.9927,
       "wiki": "Royal Albert Dock, Liverpool",
       "summary": "Victorian warehouses around a dock, with museums, bars and restaurants.",
       "expect": "The Tate and Maritime Museum are free.",
@@ -113,13 +113,21 @@
         "The Tate and Maritime Museum are free.",
         "See the Maritime Museum's Titanic exhibit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29158,
+          "period": "202511-202610",
+          "title": "Royal Albert Dock, Liverpool",
+          "url": "https://en.wikipedia.org/wiki/Royal_Albert_Dock%2C_Liverpool",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "liverpool-liverpool-beatles-story",
       "name": "The Beatles Story",
       "kind": "see",
-      "lat": 53.3995,
+      "lat": 53.3993,
       "lon": -2.992,
       "wiki": "The Beatles Story",
       "summary": "The story of the Beatles from Liverpool to the world.",
@@ -160,14 +168,22 @@
         "Audio guide included.",
         "Pair with a Magical Mystery Tour bus."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8218,
+          "period": "202511-202610",
+          "title": "The Beatles Story",
+          "url": "https://en.wikipedia.org/wiki/The_Beatles_Story",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "liverpool-liverpool-cavern",
       "name": "Cavern Club",
       "kind": "see",
-      "lat": 53.4064,
-      "lon": -2.9876,
+      "lat": 53.40611,
+      "lon": -2.98722,
       "wiki": "Cavern Club",
       "summary": "The rebuilt cellar club where the Beatles played nearly 300 times.",
       "expect": "Live music daily.",
@@ -207,14 +223,22 @@
         "Live music daily.",
         "Go in the afternoon for free-entry sets."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 66361,
+          "period": "202511-202610",
+          "title": "The Cavern Club",
+          "url": "https://en.wikipedia.org/wiki/The_Cavern_Club",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "liverpool-liverpool-cathedral",
       "name": "Liverpool Cathedral",
       "kind": "see",
       "lat": 53.3975,
-      "lon": -2.9733,
+      "lon": -2.97306,
       "wiki": "Liverpool Cathedral",
       "summary": "Britain's largest cathedral, with a tower you can climb.",
       "expect": "Free; a fee for the tower.",
@@ -254,14 +278,22 @@
         "Free; a fee for the tower.",
         "Walk Hope Street to the Catholic cathedral at the other end."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 141743,
+          "period": "202511-202610",
+          "title": "Liverpool Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Liverpool_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "liverpool-liverpool-pier-head",
       "name": "Pier Head and the Three Graces",
       "kind": "see",
-      "lat": 53.4045,
-      "lon": -2.9958,
+      "lat": 53.405,
+      "lon": -2.995,
       "wiki": "Pier Head",
       "summary": "Three grand Edwardian buildings, including the Royal Liver Building with its Liver Birds.",
       "expect": "The Royal Liver Building has a 360 tour.",
@@ -301,14 +333,22 @@
         "The Royal Liver Building has a 360 tour.",
         "Take the Mersey ferry for the classic view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29313,
+          "period": "202511-202610",
+          "title": "Pier Head",
+          "url": "https://en.wikipedia.org/wiki/Pier_Head",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "liverpool-liverpool-anfield",
       "name": "Anfield",
       "kind": "see",
-      "lat": 53.4308,
-      "lon": -2.9608,
+      "lat": 53.43083,
+      "lon": -2.96083,
       "wiki": "Anfield",
       "summary": "Liverpool FC's stadium, with tours and a museum.",
       "expect": "Match tickets are hard to get; tours run on non-match days.",
@@ -347,14 +387,22 @@
         "Match tickets are hard to get; tours run on non-match days.",
         "Book the stadium tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 329565,
+          "period": "202511-202610",
+          "title": "Anfield",
+          "url": "https://en.wikipedia.org/wiki/Anfield",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "liverpool-liverpool-walker",
       "name": "Walker Art Gallery",
       "kind": "see",
       "lat": 53.41,
-      "lon": -2.98,
+      "lon": -2.97972,
       "wiki": "Walker Art Gallery",
       "summary": "A free gallery of art from the Renaissance to today.",
       "expect": "Next to the World Museum.",
@@ -393,7 +441,15 @@
         "Next to the World Museum.",
         "See the Pre-Raphaelite rooms."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15739,
+          "period": "202511-202610",
+          "title": "Walker Art Gallery",
+          "url": "https://en.wikipedia.org/wiki/Walker_Art_Gallery",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "liverpool-liverpool-scouse",
@@ -457,8 +513,8 @@
       "id": "liverpool-liverpool-chinatown",
       "name": "Chinatown",
       "kind": "eat",
-      "lat": 53.4,
-      "lon": -2.98,
+      "lat": 53.39917,
+      "lon": -2.97722,
       "wiki": "Chinatown, Liverpool",
       "summary": "Europe's oldest Chinese community, with a grand ceremonial arch.",
       "expect": "Many restaurants and bakeries.",
@@ -497,7 +553,6 @@
         "Many restaurants and bakeries.",
         "Try dim sum at lunch."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Chinese",
       "mustOrder": [
@@ -569,5 +624,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

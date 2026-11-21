@@ -71,8 +71,8 @@
       "id": "glasgow-glasgow-kelvingrove",
       "name": "Kelvingrove Art Gallery and Museum",
       "kind": "see",
-      "lat": 55.8686,
-      "lon": -4.2906,
+      "lat": 55.86861,
+      "lon": -4.29056,
       "wiki": "Kelvingrove Art Gallery and Museum",
       "summary": "A red sandstone palace of art and natural history, with Dalí's Christ of Saint John of the Cross.",
       "expect": "Free; an organ recital at 1 pm daily.",
@@ -113,13 +113,21 @@
         "Free; an organ recital at 1 pm daily.",
         "Time your visit for the organ recital."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41309,
+          "period": "202511-202610",
+          "title": "Kelvingrove Art Gallery and Museum",
+          "url": "https://en.wikipedia.org/wiki/Kelvingrove_Art_Gallery_and_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glasgow-glasgow-cathedral",
       "name": "Glasgow Cathedral and Necropolis",
       "kind": "see",
-      "lat": 55.8628,
+      "lat": 55.863,
       "lon": -4.2346,
       "wiki": "Glasgow Cathedral",
       "summary": "A medieval cathedral that survived the Reformation, next to a hilltop Victorian cemetery.",
@@ -160,14 +168,22 @@
         "Free; the Necropolis is a short climb.",
         "Walk up the Necropolis for city views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 51788,
+          "period": "202511-202610",
+          "title": "Glasgow Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Glasgow_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glasgow-glasgow-riverside",
       "name": "Riverside Museum",
       "kind": "see",
-      "lat": 55.865,
-      "lon": -4.306,
+      "lat": 55.8651,
+      "lon": -4.30638,
       "wiki": "Riverside Museum",
       "summary": "Zaha Hadid's zigzag transport museum, with a tall ship moored outside.",
       "expect": "Free.",
@@ -207,14 +223,22 @@
         "Free.",
         "Board the Glenlee tall ship."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34180,
+          "period": "202511-202610",
+          "title": "Riverside Museum",
+          "url": "https://en.wikipedia.org/wiki/Riverside_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glasgow-glasgow-willow",
       "name": "Mackintosh at the Willow",
       "kind": "see",
-      "lat": 55.865,
-      "lon": -4.26,
+      "lat": 55.86503,
+      "lon": -4.26116,
       "wiki": "Willow Tearooms",
       "summary": "Charles Rennie Mackintosh's restored 1903 tearoom.",
       "expect": "Book for tea in the Salon de Luxe.",
@@ -254,14 +278,22 @@
         "Book for tea in the Salon de Luxe.",
         "Have tea in the Room de Luxe."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14364,
+          "period": "202511-202610",
+          "title": "Willow Tearooms",
+          "url": "https://en.wikipedia.org/wiki/Willow_Tearooms",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glasgow-glasgow-west-end",
       "name": "West End and Ashton Lane",
       "kind": "see",
-      "lat": 55.8746,
-      "lon": -4.293,
+      "lat": 55.87476,
+      "lon": -4.29286,
       "wiki": "Ashton Lane",
       "summary": "Cobbled lanes of bars and restaurants near the Gothic University of Glasgow.",
       "expect": "Lively at night.",
@@ -301,14 +333,22 @@
         "Lively at night.",
         "Walk through the university cloisters first."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4859,
+          "period": "202511-202610",
+          "title": "Ashton Lane",
+          "url": "https://en.wikipedia.org/wiki/Ashton_Lane",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glasgow-glasgow-music",
       "name": "Live music",
       "kind": "see",
-      "lat": 55.8617,
-      "lon": -4.258,
+      "lat": 55.863,
+      "lon": -4.265,
       "wiki": "King Tut's Wah Wah Hut",
       "summary": "A UNESCO City of Music, with gigs every night in famous small venues.",
       "expect": "Check listings for King Tut's and the Barrowland.",
@@ -347,14 +387,22 @@
         "Check listings for King Tut's and the Barrowland.",
         "Catch a gig at the Barrowland Ballroom."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10726,
+          "period": "202511-202610",
+          "title": "King Tut's Wah Wah Hut",
+          "url": "https://en.wikipedia.org/wiki/King_Tut's_Wah_Wah_Hut",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glasgow-glasgow-loch-lomond",
       "name": "Loch Lomond",
       "kind": "see",
-      "lat": 56.08,
-      "lon": -4.58,
+      "lat": 56.06667,
+      "lon": -4.58333,
       "wiki": "Loch Lomond",
       "summary": "Scotland's largest loch, with islands, boat trips and hills.",
       "expect": "About 45 minutes by train or car to Balloch.",
@@ -394,7 +442,15 @@
         "About 45 minutes by train or car to Balloch.",
         "Take a boat from Balloch or Luss."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 113576,
+          "period": "202511-202610",
+          "title": "Loch Lomond",
+          "url": "https://en.wikipedia.org/wiki/Loch_Lomond",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "glasgow-glasgow-haggis",
@@ -570,5 +626,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

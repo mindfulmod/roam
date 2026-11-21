@@ -77,8 +77,8 @@
       "id": "belfast-belfast-titanic",
       "name": "Titanic Belfast",
       "kind": "see",
-      "lat": 54.6081,
-      "lon": -5.91,
+      "lat": 54.60814,
+      "lon": -5.90984,
       "wiki": "Titanic Belfast",
       "summary": "A museum shaped like ship bows, on the slipway where Titanic was built.",
       "expect": "Timed tickets; allow 2 to 3 hours.",
@@ -118,7 +118,15 @@
         "Timed tickets; allow 2 to 3 hours.",
         "Walk the slipways and the SS Nomadic afterwards."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 58533,
+          "period": "202511-202610",
+          "title": "Titanic Belfast",
+          "url": "https://en.wikipedia.org/wiki/Titanic_Belfast",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "belfast-belfast-murals",
@@ -166,14 +174,23 @@
         "Best seen on a black taxi tour with a local guide.",
         "Take a black taxi tour; you can sign the peace wall."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 113007,
+          "period": "202511-202610",
+          "title": "Peace lines",
+          "url": "https://en.wikipedia.org/wiki/Peace_lines",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "belfast-belfast-city-hall",
       "name": "Belfast City Hall",
       "kind": "see",
-      "lat": 54.5964,
-      "lon": -5.9301,
+      "lat": 54.59648,
+      "lon": -5.93005,
       "wiki": "Belfast City Hall",
       "summary": "A grand Edwardian city hall with free tours and a Titanic memorial.",
       "expect": "Free tours most days.",
@@ -213,13 +230,21 @@
         "Free tours most days.",
         "Visit the Christmas market here in December."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21447,
+          "period": "202511-202610",
+          "title": "Belfast City Hall",
+          "url": "https://en.wikipedia.org/wiki/Belfast_City_Hall",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "belfast-belfast-ulster-museum",
       "name": "Ulster Museum",
       "kind": "see",
-      "lat": 54.5824,
+      "lat": 54.582,
       "lon": -5.935,
       "wiki": "Ulster Museum",
       "summary": "Free museum of art, history and natural science, including the Troubles.",
@@ -260,14 +285,22 @@
         "In the Botanic Gardens.",
         "See the Palm House next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13958,
+          "period": "202511-202610",
+          "title": "Ulster Museum",
+          "url": "https://en.wikipedia.org/wiki/Ulster_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "belfast-belfast-cathedral-quarter",
       "name": "Cathedral Quarter",
       "kind": "see",
-      "lat": 54.6015,
-      "lon": -5.9265,
+      "lat": 54.602,
+      "lon": -5.929,
       "wiki": "Cathedral Quarter, Belfast",
       "summary": "Cobbled streets of pubs, live trad music and street art.",
       "expect": "Lively at night.",
@@ -307,7 +340,15 @@
         "Lively at night.",
         "Find the Duke of York pub's lane."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4773,
+          "period": "202511-202610",
+          "title": "Cathedral Quarter, Belfast",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Quarter%2C_Belfast",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "belfast-belfast-crumlin-gaol",
@@ -353,14 +394,22 @@
         "Guided tours.",
         "Walk the tunnel to the courthouse."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14063,
+          "period": "202511-202610",
+          "title": "HM Prison Belfast",
+          "url": "https://en.wikipedia.org/wiki/HM_Prison_Belfast",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "belfast-belfast-giants-causeway",
       "name": "Giant's Causeway",
       "kind": "see",
-      "lat": 55.2408,
-      "lon": -6.5116,
+      "lat": 55.24083,
+      "lon": -6.51167,
       "wiki": "Giant's Causeway",
       "summary": "About 40,000 hexagonal basalt columns stepping into the sea.",
       "expect": "About 1.5 hours by car; free to walk the stones.",
@@ -400,8 +449,16 @@
         "About 1.5 hours by car; free to walk the stones.",
         "Drive the coast road via the Carrick-a-Rede rope bridge."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 331495,
+          "period": "202511-202610",
+          "title": "Giant's Causeway",
+          "url": "https://en.wikipedia.org/wiki/Giant's_Causeway",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "belfast-belfast-ulster-fry",
@@ -465,8 +522,8 @@
       "id": "belfast-belfast-st-georges",
       "name": "St George's Market",
       "kind": "eat",
-      "lat": 54.596,
-      "lon": -5.922,
+      "lat": 54.59582,
+      "lon": -5.92203,
       "wiki": "St George's Market",
       "summary": "A Victorian market with food stalls and live music at weekends.",
       "expect": "Open Friday to Sunday.",
@@ -505,7 +562,6 @@
         "Open Friday to Sunday.",
         "Go on Saturday for the food market."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Northern Irish",
       "mustOrder": [
@@ -577,5 +633,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

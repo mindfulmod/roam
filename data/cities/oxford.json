@@ -73,7 +73,7 @@
       "name": "Radcliffe Camera and Bodleian Library",
       "kind": "see",
       "lat": 51.7534,
-      "lon": -1.254,
+      "lon": -1.2539,
       "wiki": "Radcliffe Camera",
       "summary": "A domed reading room and the Bodleian, one of the world's oldest libraries.",
       "expect": "Inside only on guided tours; book ahead.",
@@ -113,14 +113,22 @@
         "Inside only on guided tours; book ahead.",
         "Take the Bodleian tour of the Divinity School and Duke Humfrey's Library."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 56880,
+          "period": "202511-202610",
+          "title": "Radcliffe Camera",
+          "url": "https://en.wikipedia.org/wiki/Radcliffe_Camera",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oxford-oxford-christ-church",
       "name": "Christ Church",
       "kind": "see",
-      "lat": 51.75,
-      "lon": -1.256,
+      "lat": 51.75028,
+      "lon": -1.25583,
       "wiki": "Christ Church, Oxford",
       "summary": "Oxford's grandest college, with a cathedral and the hall that inspired Hogwarts.",
       "expect": "Timed tickets; the hall closes at mealtimes.",
@@ -161,13 +169,21 @@
         "Timed tickets; the hall closes at mealtimes.",
         "Walk the Christ Church Meadow afterwards."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 173115,
+          "period": "202511-202610",
+          "title": "Christ Church, Oxford",
+          "url": "https://en.wikipedia.org/wiki/Christ_Church%2C_Oxford",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oxford-oxford-ashmolean",
       "name": "Ashmolean Museum",
       "kind": "see",
-      "lat": 51.7555,
+      "lat": 51.7554,
       "lon": -1.26,
       "wiki": "Ashmolean Museum",
       "summary": "Britain's oldest public museum, with art and archaeology from around the world.",
@@ -208,14 +224,22 @@
         "Free; rooftop café.",
         "Find the Alfred Jewel and the Messiah Stradivarius."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 67703,
+          "period": "202511-202610",
+          "title": "Ashmolean Museum",
+          "url": "https://en.wikipedia.org/wiki/Ashmolean_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oxford-oxford-pitt-rivers",
       "name": "Pitt Rivers Museum",
       "kind": "see",
-      "lat": 51.7589,
-      "lon": -1.2552,
+      "lat": 51.7586,
+      "lon": -1.255,
       "wiki": "Pitt Rivers Museum",
       "summary": "Crowded Victorian cases of objects from every culture, behind the Natural History Museum.",
       "expect": "Free; dim lighting and torches to borrow.",
@@ -254,7 +278,15 @@
         "Free; dim lighting and torches to borrow.",
         "See the dinosaurs in the Natural History Museum first."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19041,
+          "period": "202511-202610",
+          "title": "Pitt Rivers Museum",
+          "url": "https://en.wikipedia.org/wiki/Pitt_Rivers_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oxford-oxford-punting",
@@ -301,7 +333,16 @@
         "Hire by the hour from Magdalen Bridge; summer only.",
         "Take a chauffeured punt if you've never tried."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 45396,
+          "period": "202511-202610",
+          "title": "Punt (boat)",
+          "url": "https://en.wikipedia.org/wiki/Punt_(boat)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oxford-oxford-colleges",
@@ -349,14 +390,23 @@
         "Many colleges charge a small entry fee and have limited hours.",
         "Attend choral evensong at a college chapel for free."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 195482,
+          "period": "202511-202610",
+          "title": "Colleges of the University of Oxford",
+          "url": "https://en.wikipedia.org/wiki/Colleges_of_the_University_of_Oxford",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oxford-oxford-blenheim",
       "name": "Blenheim Palace",
       "kind": "see",
-      "lat": 51.8414,
-      "lon": -1.3608,
+      "lat": 51.84136,
+      "lon": -1.36095,
       "wiki": "Blenheim Palace",
       "summary": "A vast Baroque palace and park, Winston Churchill's birthplace.",
       "expect": "20 minutes by bus; allow a half day.",
@@ -397,14 +447,22 @@
         "20 minutes by bus; allow a half day.",
         "Walk the parkland to the Grand Bridge."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 435162,
+          "period": "202511-202610",
+          "title": "Blenheim Palace",
+          "url": "https://en.wikipedia.org/wiki/Blenheim_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "oxford-oxford-covered-market",
       "name": "Covered Market",
       "kind": "eat",
-      "lat": 51.7525,
-      "lon": -1.2575,
+      "lat": 51.7527,
+      "lon": -1.2567,
       "wiki": "Covered Market, Oxford",
       "summary": "A 1770s market of butchers, cafés and cookie stalls.",
       "expect": "Busy at lunch.",
@@ -443,7 +501,6 @@
         "Busy at lunch.",
         "Try a pie from the market's pie shop."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "British",
       "mustOrder": [
@@ -462,7 +519,7 @@
       "name": "The Turf Tavern",
       "kind": "eat",
       "lat": 51.7547,
-      "lon": -1.2531,
+      "lon": -1.253,
       "wiki": "Turf Tavern",
       "summary": "A hidden 13th-century pub down a narrow lane under the old city wall.",
       "expect": "Tiny rooms and beer gardens.",
@@ -501,7 +558,6 @@
         "Tiny rooms and beer gardens.",
         "Find it down St Helen's Passage."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "British",
       "mustOrder": [
@@ -573,5 +629,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

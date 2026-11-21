@@ -73,8 +73,8 @@
       "id": "york-york-minster",
       "name": "York Minster",
       "kind": "see",
-      "lat": 53.9623,
-      "lon": -1.0819,
+      "lat": 53.96194,
+      "lon": -1.08194,
       "wiki": "York Minster",
       "summary": "One of Europe's largest Gothic cathedrals, with the vast medieval Great East Window.",
       "expect": "A ticket includes the undercroft; the tower is extra.",
@@ -115,14 +115,22 @@
         "A ticket includes the undercroft; the tower is extra.",
         "Climb the 275 tower steps."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 168670,
+          "period": "202511-202610",
+          "title": "York Minster",
+          "url": "https://en.wikipedia.org/wiki/York_Minster",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "york-york-walls",
       "name": "City walls",
       "kind": "see",
-      "lat": 53.962,
-      "lon": -1.087,
+      "lat": 53.9553,
+      "lon": -1.081,
       "wiki": "York city walls",
       "summary": "Walk on top of the longest medieval walls in England.",
       "expect": "Free; about two hours for the full loop.",
@@ -162,14 +170,22 @@
         "Free; about two hours for the full loop.",
         "Walk the stretch from Bootham Bar to Monk Bar for Minster views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 35783,
+          "period": "202511-202610",
+          "title": "York city walls",
+          "url": "https://en.wikipedia.org/wiki/York_city_walls",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "york-york-shambles",
       "name": "The Shambles",
       "kind": "see",
       "lat": 53.9594,
-      "lon": -1.0805,
+      "lon": -1.08011,
       "wiki": "The Shambles",
       "summary": "A crooked medieval street of overhanging timber houses.",
       "expect": "Very busy; early morning is quietest.",
@@ -209,14 +225,22 @@
         "Very busy; early morning is quietest.",
         "Come before 9 am."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 78292,
+          "period": "202511-202610",
+          "title": "The Shambles",
+          "url": "https://en.wikipedia.org/wiki/The_Shambles",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "york-york-railway-museum",
       "name": "National Railway Museum",
       "kind": "see",
-      "lat": 53.96,
-      "lon": -1.096,
+      "lat": 53.9598,
+      "lon": -1.09771,
       "wiki": "National Railway Museum",
       "summary": "A huge free museum of locomotives, royal trains and the Mallard.",
       "expect": "Free entry; donations welcome.",
@@ -255,14 +279,22 @@
         "Free entry; donations welcome.",
         "See the Japanese bullet train."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 49786,
+          "period": "202511-202610",
+          "title": "National Railway Museum",
+          "url": "https://en.wikipedia.org/wiki/National_Railway_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "york-york-jorvik",
       "name": "Jorvik Viking Centre",
       "kind": "see",
-      "lat": 53.9575,
-      "lon": -1.0806,
+      "lat": 53.95747,
+      "lon": -1.08031,
       "wiki": "Jorvik Viking Centre",
       "summary": "A ride through a reconstructed Viking street, built on the dig site.",
       "expect": "Smells and sounds included; book a time.",
@@ -301,14 +333,22 @@
         "Smells and sounds included; book a time.",
         "Go early to avoid queues."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18682,
+          "period": "202511-202610",
+          "title": "Jorvik Viking Centre",
+          "url": "https://en.wikipedia.org/wiki/Jorvik_Viking_Centre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "york-york-cliffords-tower",
       "name": "Clifford's Tower",
       "kind": "see",
-      "lat": 53.9558,
-      "lon": -1.0796,
+      "lat": 53.95583,
+      "lon": -1.08,
       "wiki": "Clifford's Tower",
       "summary": "A ruined Norman keep on a high mound with a rooftop deck.",
       "expect": "A steep climb up the mound.",
@@ -348,14 +388,22 @@
         "A steep climb up the mound.",
         "Pair with the York Castle Museum next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 60009,
+          "period": "202511-202610",
+          "title": "York Castle",
+          "url": "https://en.wikipedia.org/wiki/York_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "york-york-castle-howard",
       "name": "Castle Howard",
       "kind": "see",
-      "lat": 54.1215,
-      "lon": -0.906,
+      "lat": 54.12139,
+      "lon": -0.90583,
       "wiki": "Castle Howard",
       "summary": "A grand Baroque house and gardens, used in Brideshead Revisited.",
       "expect": "About 30 minutes by car.",
@@ -396,7 +444,15 @@
         "About 30 minutes by car.",
         "Walk to the Temple of the Four Winds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 157735,
+          "period": "202511-202610",
+          "title": "Castle Howard",
+          "url": "https://en.wikipedia.org/wiki/Castle_Howard",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "york-york-bettys",
@@ -572,5 +628,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
