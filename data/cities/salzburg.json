@@ -78,8 +78,8 @@
       "id": "salzburg-salzburg-fortress",
       "name": "Hohensalzburg Fortress",
       "kind": "see",
-      "lat": 47.7949,
-      "lon": 13.0477,
+      "lat": 47.795,
+      "lon": 13.04722,
       "wiki": "Hohensalzburg Fortress",
       "summary": "One of Europe's largest medieval castles, high above the old town.",
       "expect": "A funicular goes up.",
@@ -120,14 +120,22 @@
         "A funicular goes up.",
         "Walk down through the Mönchsberg."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 51203,
+          "period": "202511-202610",
+          "title": "Hohensalzburg Fortress",
+          "url": "https://en.wikipedia.org/wiki/Hohensalzburg_Fortress",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salzburg-salzburg-mozart",
       "name": "Mozart's Birthplace",
       "kind": "see",
       "lat": 47.8,
-      "lon": 13.0433,
+      "lon": 13.04333,
       "wiki": "Mozart's birthplace",
       "summary": "The yellow house where Mozart was born in 1756.",
       "expect": "Small and busy.",
@@ -166,14 +174,22 @@
         "Small and busy.",
         "Go at opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48205,
+          "period": "202511-202610",
+          "title": "Mozart's birthplace",
+          "url": "https://en.wikipedia.org/wiki/Mozart's_birthplace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salzburg-salzburg-mirabell",
       "name": "Mirabell Gardens",
       "kind": "see",
-      "lat": 47.8058,
-      "lon": 13.0419,
+      "lat": 47.80556,
+      "lon": 13.04194,
       "wiki": "Mirabell Palace",
       "summary": "Formal gardens with a fortress view, seen in The Sound of Music.",
       "expect": "Free.",
@@ -213,14 +229,22 @@
         "Free.",
         "See the Do-Re-Mi steps."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22175,
+          "period": "202511-202610",
+          "title": "Mirabell Palace",
+          "url": "https://en.wikipedia.org/wiki/Mirabell_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salzburg-salzburg-getreidegasse",
       "name": "Getreidegasse",
       "kind": "see",
-      "lat": 47.8001,
-      "lon": 13.042,
+      "lat": 47.8,
+      "lon": 13.04389,
       "wiki": "Getreidegasse",
       "summary": "A narrow shopping lane of wrought-iron signs.",
       "expect": "Busy all day.",
@@ -260,14 +284,22 @@
         "Busy all day.",
         "Look up at the signs."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9963,
+          "period": "202511-202610",
+          "title": "Getreidegasse",
+          "url": "https://en.wikipedia.org/wiki/Getreidegasse",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salzburg-salzburg-cathedral",
       "name": "Salzburg Cathedral",
       "kind": "see",
-      "lat": 47.798,
-      "lon": 13.047,
+      "lat": 47.79778,
+      "lon": 13.04694,
       "wiki": "Salzburg Cathedral",
       "summary": "A huge Baroque cathedral where Mozart was baptised.",
       "expect": "A small fee.",
@@ -307,14 +339,22 @@
         "A small fee.",
         "Hear an organ concert."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25321,
+          "period": "202511-202610",
+          "title": "Salzburg Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Salzburg_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salzburg-salzburg-hellbrunn",
       "name": "Hellbrunn Palace",
       "kind": "see",
-      "lat": 47.763,
-      "lon": 13.061,
+      "lat": 47.76222,
+      "lon": 13.06083,
       "wiki": "Hellbrunn Palace",
       "summary": "A palace with trick fountains that spray visitors.",
       "expect": "Bus from the centre; summer is best.",
@@ -354,7 +394,15 @@
         "Bus from the centre; summer is best.",
         "Join the trick fountain tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12189,
+          "period": "202511-202610",
+          "title": "Hellbrunn Palace",
+          "url": "https://en.wikipedia.org/wiki/Hellbrunn_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salzburg-salzburg-untersberg",
@@ -402,7 +450,16 @@
         "Weather dependent.",
         "Go on a clear day."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 17269,
+          "period": "202511-202610",
+          "title": "Untersberg",
+          "url": "https://en.wikipedia.org/wiki/Untersberg",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "salzburg-salzburg-nockerl",
@@ -576,5 +633,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -78,8 +78,8 @@
       "id": "cologne-cologne-cathedral",
       "name": "Cologne Cathedral",
       "kind": "see",
-      "lat": 50.9413,
-      "lon": 6.9583,
+      "lat": 50.94139,
+      "lon": 6.95833,
       "wiki": "Cologne Cathedral",
       "summary": "A 157 m Gothic cathedral that took 600 years to finish, with the Shrine of the Three Kings.",
       "expect": "Free; a fee for the 533-step tower.",
@@ -120,14 +120,22 @@
         "Free; a fee for the 533-step tower.",
         "Climb the south tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 759615,
+          "period": "202511-202610",
+          "title": "Cologne Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cologne_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cologne-cologne-bridge",
       "name": "Hohenzollern Bridge",
       "kind": "see",
-      "lat": 50.9411,
-      "lon": 6.9654,
+      "lat": 50.94139,
+      "lon": 6.96556,
       "wiki": "Hohenzollern Bridge",
       "summary": "A railway bridge covered in love locks, with views back to the cathedral.",
       "expect": "Free to walk.",
@@ -166,14 +174,22 @@
         "Free to walk.",
         "Walk across at sunset to the KölnTriangle."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17689,
+          "period": "202511-202610",
+          "title": "Hohenzollern Bridge",
+          "url": "https://en.wikipedia.org/wiki/Hohenzollern_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cologne-cologne-ludwig",
       "name": "Museum Ludwig",
       "kind": "see",
-      "lat": 50.9407,
-      "lon": 6.9606,
+      "lat": 50.94083,
+      "lon": 6.96028,
       "wiki": "Museum Ludwig",
       "summary": "Modern art with one of Europe's largest Picasso and pop art collections.",
       "expect": "Next to the cathedral.",
@@ -212,14 +228,22 @@
         "Next to the cathedral.",
         "See the Warhol and Lichtenstein rooms."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14365,
+          "period": "202511-202610",
+          "title": "Museum Ludwig",
+          "url": "https://en.wikipedia.org/wiki/Museum_Ludwig",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cologne-cologne-roman",
       "name": "Romano-Germanic Museum",
       "kind": "see",
-      "lat": 50.9408,
-      "lon": 6.9579,
+      "lat": 50.94056,
+      "lon": 6.95833,
       "wiki": "Romano-Germanic Museum",
       "summary": "Roman Cologne's treasures, including the Dionysus mosaic.",
       "expect": "Partly in a temporary home during renovations.",
@@ -258,14 +282,22 @@
         "Partly in a temporary home during renovations.",
         "Look for the Dionysus mosaic."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6112,
+          "period": "202511-202610",
+          "title": "Romano-Germanic Museum",
+          "url": "https://en.wikipedia.org/wiki/Romano-Germanic_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cologne-cologne-chocolate",
       "name": "Chocolate Museum",
       "kind": "see",
-      "lat": 50.9323,
-      "lon": 6.9643,
+      "lat": 50.9322,
+      "lon": 6.96427,
       "wiki": "Imhoff-Schokoladenmuseum",
       "summary": "A museum of chocolate making with a chocolate fountain.",
       "expect": "Popular with families.",
@@ -305,14 +337,22 @@
         "Popular with families.",
         "Taste from the fountain."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4623,
+          "period": "202511-202610",
+          "title": "Schokoladenmuseum Köln",
+          "url": "https://en.wikipedia.org/wiki/Schokoladenmuseum_K%C3%B6ln",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cologne-cologne-triangle",
       "name": "KölnTriangle viewing deck",
       "kind": "see",
-      "lat": 50.941,
-      "lon": 6.974,
+      "lat": 50.94042,
+      "lon": 6.97167,
       "wiki": "KölnTriangle",
       "summary": "A tower across the Rhine with the best view of the cathedral.",
       "expect": "Small fee.",
@@ -351,14 +391,22 @@
         "Small fee.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2356,
+          "period": "202511-202610",
+          "title": "Kölntriangle",
+          "url": "https://en.wikipedia.org/wiki/K%C3%B6lntriangle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cologne-cologne-aachen",
       "name": "Aachen Cathedral",
       "kind": "see",
-      "lat": 50.7747,
-      "lon": 6.0839,
+      "lat": 50.77475,
+      "lon": 6.08392,
       "wiki": "Aachen Cathedral",
       "summary": "Charlemagne's chapel, the coronation church of German kings.",
       "expect": "About an hour by train.",
@@ -399,8 +447,16 @@
         "About an hour by train.",
         "Visit the treasury."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 112733,
+          "period": "202511-202610",
+          "title": "Aachen Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Aachen_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cologne-cologne-koelsch",
@@ -573,5 +629,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

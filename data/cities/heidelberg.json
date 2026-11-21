@@ -79,8 +79,8 @@
       "id": "heidelberg-heidelberg-castle",
       "name": "Heidelberg Castle",
       "kind": "see",
-      "lat": 49.4106,
-      "lon": 8.7153,
+      "lat": 49.41047,
+      "lon": 8.7152,
       "wiki": "Heidelberg Castle",
       "summary": "A huge red sandstone castle ruin with the world's largest wine barrel.",
       "expect": "Ticket includes the funicular.",
@@ -121,14 +121,22 @@
         "Ticket includes the funicular.",
         "Walk up the steps and take the funicular down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76269,
+          "period": "202511-202610",
+          "title": "Heidelberg Castle",
+          "url": "https://en.wikipedia.org/wiki/Heidelberg_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "heidelberg-heidelberg-old-bridge",
       "name": "Old Bridge",
       "kind": "see",
-      "lat": 49.4136,
-      "lon": 8.71,
+      "lat": 49.41248,
+      "lon": 8.70956,
       "wiki": "Karl Theodor Bridge",
       "summary": "An 18th-century stone bridge with a gate and a bronze monkey.",
       "expect": "Free.",
@@ -166,8 +174,7 @@
       "tradeoffs": [
         "Free.",
         "Touch the monkey's mirror for luck."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "heidelberg-heidelberg-philosophers",
@@ -313,8 +320,8 @@
       "id": "heidelberg-heidelberg-konigstuhl",
       "name": "Königstuhl",
       "kind": "see",
-      "lat": 49.4,
-      "lon": 8.727,
+      "lat": 49.39806,
+      "lon": 8.72611,
       "wiki": "Königstuhl (Odenwald)",
       "summary": "A hilltop above the castle, reached by a historic funicular.",
       "expect": "Higher funicular from the castle.",
@@ -354,14 +361,22 @@
         "Higher funicular from the castle.",
         "Ride the old wooden funicular."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5707,
+          "period": "202511-202610",
+          "title": "Königstuhl (Odenwald)",
+          "url": "https://en.wikipedia.org/wiki/K%C3%B6nigstuhl_(Odenwald)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "heidelberg-heidelberg-speyer",
       "name": "Speyer Cathedral",
       "kind": "see",
-      "lat": 49.317,
-      "lon": 8.442,
+      "lat": 49.3172,
+      "lon": 8.4424,
       "wiki": "Speyer Cathedral",
       "summary": "The world's largest surviving Romanesque church.",
       "expect": "About 30 minutes by train.",
@@ -402,7 +417,15 @@
         "About 30 minutes by train.",
         "Pair with the Technik Museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 55395,
+          "period": "202511-202610",
+          "title": "Speyer Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Speyer_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "heidelberg-heidelberg-schnitzel",
@@ -577,5 +600,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

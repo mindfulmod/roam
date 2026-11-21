@@ -79,8 +79,8 @@
       "id": "innsbruck-innsbruck-golden-roof",
       "name": "Golden Roof",
       "kind": "see",
-      "lat": 47.2686,
-      "lon": 11.3933,
+      "lat": 47.26858,
+      "lon": 11.39326,
       "wiki": "Goldenes Dachl",
       "summary": "A balcony roofed with 2,657 gilded copper tiles.",
       "expect": "Small museum inside.",
@@ -120,14 +120,22 @@
         "Small museum inside.",
         "See it at night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21356,
+          "period": "202511-202610",
+          "title": "Goldenes Dachl",
+          "url": "https://en.wikipedia.org/wiki/Goldenes_Dachl",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "innsbruck-innsbruck-nordkette",
       "name": "Nordkette",
       "kind": "see",
-      "lat": 47.308,
-      "lon": 11.38,
+      "lat": 47.3,
+      "lon": 11.35,
       "wiki": "Nordkette",
       "summary": "A funicular and cable cars from the city to 2,256 m.",
       "expect": "Weather can change fast.",
@@ -168,14 +176,22 @@
         "Weather can change fast.",
         "Go up to Hafelekar on a clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8530,
+          "period": "202511-202610",
+          "title": "Nordkette",
+          "url": "https://en.wikipedia.org/wiki/Nordkette",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "innsbruck-innsbruck-hofburg",
       "name": "Imperial Palace",
       "kind": "see",
-      "lat": 47.269,
-      "lon": 11.395,
+      "lat": 47.26889,
+      "lon": 11.39444,
       "wiki": "Hofburg, Innsbruck",
       "summary": "The Habsburgs' Tyrolean palace with grand state rooms.",
       "expect": "A ticket for the apartments.",
@@ -214,14 +230,22 @@
         "A ticket for the apartments.",
         "See the Giant's Hall."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11361,
+          "period": "202511-202610",
+          "title": "Hofburg, Innsbruck",
+          "url": "https://en.wikipedia.org/wiki/Hofburg%2C_Innsbruck",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "innsbruck-innsbruck-hofkirche",
       "name": "Court Church",
       "kind": "see",
-      "lat": 47.2683,
-      "lon": 11.3955,
+      "lat": 47.26839,
+      "lon": 11.39525,
       "wiki": "Hofkirche, Innsbruck",
       "summary": "A church with 28 larger-than-life bronze statues around an emperor's tomb.",
       "expect": "Small fee.",
@@ -261,7 +285,15 @@
         "Small fee.",
         "Look for King Arthur among the statues."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5715,
+          "period": "202511-202610",
+          "title": "Court Church",
+          "url": "https://en.wikipedia.org/wiki/Court_Church",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "innsbruck-innsbruck-ambras",
@@ -308,14 +340,23 @@
         "Tram and bus from the centre.",
         "See the Chamber of Art and Curiosities."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 27273,
+          "period": "202511-202610",
+          "title": "Ambras Castle",
+          "url": "https://en.wikipedia.org/wiki/Ambras_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "innsbruck-innsbruck-bergisel",
       "name": "Bergisel Ski Jump",
       "kind": "see",
-      "lat": 47.249,
-      "lon": 11.399,
+      "lat": 47.24889,
+      "lon": 11.39917,
       "wiki": "Bergisel Ski Jump",
       "summary": "Zaha Hadid's ski jump tower with a café at the top.",
       "expect": "Lift and stairs.",
@@ -355,7 +396,15 @@
         "Lift and stairs.",
         "Visit in winter during competitions."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11191,
+          "period": "202511-202610",
+          "title": "Bergisel Ski Jump",
+          "url": "https://en.wikipedia.org/wiki/Bergisel_Ski_Jump",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "innsbruck-innsbruck-swarovski",
@@ -576,5 +625,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

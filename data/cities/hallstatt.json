@@ -70,8 +70,8 @@
       "id": "hallstatt-hallstatt-village",
       "name": "Hallstatt village",
       "kind": "see",
-      "lat": 47.5622,
-      "lon": 13.6493,
+      "lat": 47.56217,
+      "lon": 13.64867,
       "wiki": "Hallstatt",
       "summary": "A cluster of old houses and a church spire on the lake shore.",
       "expect": "Very busy from 10 am to 4 pm.",
@@ -112,14 +112,22 @@
         "Very busy from 10 am to 4 pm.",
         "Walk at dawn or dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 192593,
+          "period": "202511-202610",
+          "title": "Hallstatt",
+          "url": "https://en.wikipedia.org/wiki/Hallstatt",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hallstatt-hallstatt-lake",
       "name": "Lake Hallstatt",
       "kind": "see",
-      "lat": 47.57,
-      "lon": 13.66,
+      "lat": 47.57861,
+      "lon": 13.66056,
       "wiki": "Hallstätter See",
       "summary": "A deep, clear Alpine lake for boat trips and swims.",
       "expect": "Electric boats for hire.",
@@ -158,7 +166,15 @@
         "Electric boats for hire.",
         "Rent a boat for the village view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11748,
+          "period": "202511-202610",
+          "title": "Hallstätter See",
+          "url": "https://en.wikipedia.org/wiki/Hallst%C3%A4tter_See",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hallstatt-hallstatt-salt-mine",
@@ -206,7 +222,16 @@
         "A funicular up; guided tours.",
         "Ride the miners' slides."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 192593,
+          "period": "202511-202610",
+          "title": "Hallstatt",
+          "url": "https://en.wikipedia.org/wiki/Hallstatt",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hallstatt-hallstatt-skywalk",
@@ -252,14 +277,23 @@
         "At the top of the funicular.",
         "Combine with the salt mine."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 192593,
+          "period": "202511-202610",
+          "title": "Hallstatt",
+          "url": "https://en.wikipedia.org/wiki/Hallstatt",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hallstatt-hallstatt-five-fingers",
       "name": "Five Fingers platform",
       "kind": "see",
-      "lat": 47.528,
-      "lon": 13.693,
+      "lat": 47.47528,
+      "lon": 13.60639,
       "wiki": "Dachstein",
       "summary": "A platform with five fingers sticking out over a 400 m drop.",
       "expect": "Cable car from Obertraun.",
@@ -299,7 +333,15 @@
         "Cable car from Obertraun.",
         "Go on a clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10202,
+          "period": "202511-202610",
+          "title": "Hoher Dachstein",
+          "url": "https://en.wikipedia.org/wiki/Hoher_Dachstein",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hallstatt-hallstatt-ice-cave",
@@ -564,5 +606,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -78,8 +78,8 @@
       "id": "hamburg-hamburg-elphi",
       "name": "Elbphilharmonie",
       "kind": "see",
-      "lat": 53.5413,
-      "lon": 9.9841,
+      "lat": 53.54139,
+      "lon": 9.98417,
       "wiki": "Elbphilharmonie",
       "summary": "A wave-topped glass concert hall on an old warehouse, with a free public plaza.",
       "expect": "The plaza is free with a timed ticket; concerts sell out.",
@@ -119,14 +119,22 @@
         "The plaza is free with a timed ticket; concerts sell out.",
         "Go to the plaza at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 50262,
+          "period": "202511-202610",
+          "title": "Elbphilharmonie",
+          "url": "https://en.wikipedia.org/wiki/Elbphilharmonie",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hamburg-hamburg-speicherstadt",
       "name": "Speicherstadt",
       "kind": "see",
-      "lat": 53.544,
-      "lon": 9.99,
+      "lat": 53.54333,
+      "lon": 9.99194,
       "wiki": "Speicherstadt",
       "summary": "The world's largest warehouse district, red-brick buildings on canals.",
       "expect": "Free to wander; prettiest when lit at night.",
@@ -166,14 +174,22 @@
         "Free to wander; prettiest when lit at night.",
         "See the Wasserschloss at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34960,
+          "period": "202511-202610",
+          "title": "Speicherstadt",
+          "url": "https://en.wikipedia.org/wiki/Speicherstadt",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hamburg-hamburg-miniatur",
       "name": "Miniatur Wunderland",
       "kind": "see",
-      "lat": 53.5437,
-      "lon": 9.9886,
+      "lat": 53.54389,
+      "lon": 9.98889,
       "wiki": "Miniatur Wunderland",
       "summary": "The world's largest model railway, with tiny cities, airports and countries.",
       "expect": "Book a time slot; it gets very busy.",
@@ -212,7 +228,15 @@
         "Book a time slot; it gets very busy.",
         "Stay for the day-to-night light change."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39494,
+          "period": "202511-202610",
+          "title": "Miniatur Wunderland",
+          "url": "https://en.wikipedia.org/wiki/Miniatur_Wunderland",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hamburg-hamburg-harbour",
@@ -258,14 +282,23 @@
         "Public ferry 62 is a cheap tour.",
         "Take ferry 62 to Finkenwerder."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 30830,
+          "period": "202511-202610",
+          "title": "Port of Hamburg",
+          "url": "https://en.wikipedia.org/wiki/Port_of_Hamburg",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hamburg-hamburg-alster",
       "name": "Alster lakes",
       "kind": "see",
-      "lat": 53.56,
-      "lon": 10,
+      "lat": 53.565,
+      "lon": 10.01,
       "wiki": "Außenalster",
       "summary": "City lakes for sailing, paddling and lakeside walks.",
       "expect": "Rent a pedal boat or canoe.",
@@ -304,7 +337,15 @@
         "Rent a pedal boat or canoe.",
         "Take an Alster boat tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8768,
+          "period": "202511-202610",
+          "title": "Außenalster",
+          "url": "https://en.wikipedia.org/wiki/Au%C3%9Fenalster",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hamburg-hamburg-reeperbahn",
@@ -350,14 +391,23 @@
         "Very busy on weekends.",
         "Visit Beatles-Platz."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 98562,
+          "period": "202511-202610",
+          "title": "Reeperbahn",
+          "url": "https://en.wikipedia.org/wiki/Reeperbahn",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hamburg-hamburg-fischmarkt",
       "name": "Fischmarkt",
       "kind": "see",
-      "lat": 53.545,
-      "lon": 9.952,
+      "lat": 53.54584,
+      "lon": 9.95177,
       "wiki": "Fischmarkt Hamburg",
       "summary": "A Sunday-morning market from 5 am, with a brass band in the old fish auction hall.",
       "expect": "Sunday mornings only.",
@@ -396,8 +446,7 @@
       "tradeoffs": [
         "Sunday mornings only.",
         "Go early with the night owls."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hamburg-hamburg-fischbroetchen",
@@ -570,5 +619,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
