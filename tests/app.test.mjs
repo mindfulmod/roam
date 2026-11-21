@@ -428,3 +428,27 @@ test('editing a story in place: reorder, hide, remove, add, undo, and typed text
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('an after-trip poll marks the group’s pick on the story, and a where-next poll can be sent', async () => {
+  const page = await openApp(browser, origin, { hash: '#/feed' });
+  await page.locator('[data-need="pick-best-view"] [data-k="0"]').click();
+  await go(page, '#/story/japan-sample');
+  const picks = await page.locator('.soc-grouppick').allTextContents();
+  assert.ok(
+    picks.some((t) => /best view/.test(t)),
+    'no best view pick on the story',
+  );
+  assert.ok(
+    picks.some((t) => /best meal/.test(t)),
+    'no best meal pick on the story',
+  );
+  await go(page, '#/feed');
+  await page.locator('[data-action="soc-dream"]').click();
+  await page.locator('[data-action="soc-dream-go"]').click();
+  await page.waitForTimeout(300);
+  assert.equal(await page.locator('#soc-mypolls .soc-result').count(), 3, 'poll results missing');
+  // Look backs come one at a time.
+  assert.equal(await page.locator('.soc-look').count(), 1);
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

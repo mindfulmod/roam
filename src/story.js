@@ -192,7 +192,7 @@ function stRipStrip(m) {
 const stCommentWord = (n) => `${n} comment${n === 1 ? '' : 's'}`;
 // A stop's card in the timeline. The whole card opens the stop's own page (storyStop).
 function stStopHtml(s, max) {
-  return `<article class="st-stop${s.ripples.length ? ' has-rip' : ''}" id="st-stop-${s.i}" data-i="${s.i}" ${stEditing ? '' : 'data-action="story-stop"'} style="--day:${stColor(s.day)}"><div class="st-time"><b class="st-num" aria-label="Stop ${s.n} of day ${s.day + 1}">${s.n}</b><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><div class="st-head"><h4><button class="inline-link" data-action="story-stop" data-i="${s.i}">${esc(s.name)}</button></h4>${stLinks(s)}</div><p class="st-area">${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
+  return `<article class="st-stop${s.ripples.length ? ' has-rip' : ''}" id="st-stop-${s.i}" data-i="${s.i}" ${stEditing ? '' : 'data-action="story-stop"'} style="--day:${stColor(s.day)}"><div class="st-time"><b class="st-num" aria-label="Stop ${s.n} of day ${s.day + 1}">${s.n}</b><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><div class="st-head"><h4><button class="inline-link" data-action="story-stop" data-i="${s.i}">${esc(s.name)}</button></h4>${stLinks(s)}</div><p class="st-area">${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${typeof socPickBadge === 'function' ? socPickBadge(storyNow.id, s.id) : ''}${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
     s.photos.length
       ? `<div class="st-photos n${s.photos.length}">${s.photos.map((x, k) => (stEditing ? edPhotoHtml(s, x, k) : `<button class="st-photo${x.hidden ? ' hid' : ''}" data-action="story-stop" data-i="${s.i}" data-k="${k}" aria-label="Open photo: ${esc(x.caption)}">${photoTag(x.id)}<span class="st-cap">${stAvatar(x.by, 'tiny')} ${esc(x.caption)}${x.hidden ? ' · hidden from viewers' : ''}</span></button>`)).join('')}</div>`
       : ''
@@ -707,7 +707,7 @@ function storyStop(i, k = 0, to = '') {
     n
       ? `<div class="st-sheet-photos" id="st-sheet-photos">${s.photos.map((x) => `<figure><button data-action="story-photo" data-id="${x.id}" aria-label="Zoom photo: ${esc(x.caption)}">${photoTag(x.id, '', false)}</button><figcaption>${stAvatar(x.by, 'tiny')}<span>${esc(x.caption)}</span><small>${esc(x.by.name)}</small></figcaption></figure>`).join('')}</div>${n > 1 ? `<div class="st-sheet-dots" aria-hidden="true">${s.photos.map((_, j) => `<i class="${j === k ? 'on' : ''}"></i>`).join('')}</div>` : ''}`
       : ''
-  }<div class="st-sheet-body"><div class="st-head"><h2>${esc(s.name)}</h2>${stLinks(s)}</div><p class="st-area">${esc(s.area)} · ${esc(day.city)}${s.id ? '' : ' · added by the group'}</p><p class="st-sheet-time"><strong>${s.in} to ${s.out}</strong> · ${stDur(s.mins)} here · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${s.note ? `<p class="st-sheet-note">${esc(s.note)}</p>` : ''}<div class="st-acts">${stLoveBtn(s)}${stWantBtn(s)}${s.id ? `<button class="st-act" data-action="place" data-id="${s.id}">${icon('book')}<span>Guide entry</span></button>` : ''}</div>${stRipSheet(s)}<section class="st-sheet-talk" id="st-sheet-talk"><h3>${s.comments.length ? stCommentWord(s.comments.length) : 'No comments yet'}</h3>${
+  }<div class="st-sheet-body"><div class="st-head"><h2>${esc(s.name)}</h2>${stLinks(s)}</div><p class="st-area">${esc(s.area)} · ${esc(day.city)}${s.id ? '' : ' · added by the group'}</p><p class="st-sheet-time"><strong>${s.in} to ${s.out}</strong> · ${stDur(s.mins)} here · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${typeof socPickBadge === 'function' ? socPickBadge(storyNow.id, s.id) : ''}${s.note ? `<p class="st-sheet-note">${esc(s.note)}</p>` : ''}<div class="st-acts">${stLoveBtn(s)}${stWantBtn(s)}${s.id ? `<button class="st-act" data-action="place" data-id="${s.id}">${icon('book')}<span>Guide entry</span></button>` : ''}</div>${stRipSheet(s)}<section class="st-sheet-talk" id="st-sheet-talk"><h3>${s.comments.length ? stCommentWord(s.comments.length) : 'No comments yet'}</h3>${
     s.comments.length
       ? `<ul>${s.comments.map((c) => `<li><span class="st-avatar tiny" style="--who:var(--muted)" aria-hidden="true">${esc(c.by[0])}</span><div><strong>${esc(c.by)}</strong><p>${esc(c.text)}</p></div></li>`).join('')}</ul>`
       : ''
@@ -810,6 +810,8 @@ function storyLeave() {
   $('.ed-bar')?.remove();
   stEditing = false;
   document.body.classList.remove('st-noscroll', 'nav-away', 'st-editing');
+  // Leaving mid zoom would let Leaflet's end-of-zoom timer run on a removed map, so end it first.
+  if (storyMap?._animatingZoom) storyMap._onZoomTransitionEnd();
   storyMap?.remove();
   storyMap = null;
   storyNow = null;
