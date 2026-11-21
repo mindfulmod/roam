@@ -1,0 +1,2666 @@
+[
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work in most places, but carry some euros for small cafés, markets and tourist taxes; a cover charge (coperto) on restaurant bills is normal.",
+  "seasons": "LLSSHHPPHSLL",
+  "id": "cinque-terre",
+  "name": "Cinque Terre",
+  "at": [
+   44.135,
+   9.684
+  ],
+  "wiki": "Cinque Terre",
+  "cover": "Manarola",
+  "tagline": "Five pastel villages on the cliffs",
+  "summary": "Five fishing villages cling to the cliffs of the Ligurian coast, linked by a train line and hiking trails through vineyards. Colourful houses tumble down to tiny harbours, and the food is all pesto, focaccia and anchovies.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "April to June and September to October are best. July and August are very crowded and hot. Many trails close after heavy rain, and some places close in winter.",
+  "arrival": "Trains from La Spezia link all five villages in minutes; La Spezia is about 2.5 hours from Florence and 3 hours from Milan.",
+  "gettingAround": "The Cinque Terre Card covers the local trains and the paid trails; ferries run between villages in good weather.",
+  "dailyBudget": [
+   80,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Trofie with pesto, focaccia, fried anchovies and the sweet Sciacchetrà wine.",
+  "buyTip": "Pesto, local olive oil, lemon products and Sciacchetrà.",
+  "baseArea": "Monterosso or Vernazza, or La Spezia for cheaper stays",
+  "hotel": [
+   100,
+   300
+  ],
+  "connections": [
+   {
+    "to": "florence",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Via Pisa and La Spezia."
+   },
+   {
+    "to": "milan",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Via Genoa."
+   }
+  ],
+  "items": [
+   {
+    "name": "Vernazza",
+    "kind": "see",
+    "id": "ct-vernazza",
+    "at": [
+     44.135,
+     9.684
+    ],
+    "wiki": "Vernazza",
+    "area": "Vernazza",
+    "summary": "A tiny harbour village with a castle tower and a church on the water.",
+    "expect": "Very busy at midday.",
+    "tip": "Watch the sunset from the Doria Castle tower.",
+    "why": "The prettiest of the five.",
+    "flow": [
+     "Harbour.",
+     "Castle tower."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Manarola",
+    "kind": "see",
+    "id": "ct-manarola",
+    "at": [
+     44.1067,
+     9.7286
+    ],
+    "wiki": "Manarola",
+    "area": "Manarola",
+    "summary": "Pastel houses stacked on a rocky point above swimming rocks.",
+    "expect": "The classic photo spot is on the path to Punta Bonfiglio.",
+    "tip": "Swim off the rocks in summer.",
+    "why": "The postcard village.",
+    "flow": [
+     "Village lanes.",
+     "Punta Bonfiglio view."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Riomaggiore",
+    "kind": "see",
+    "id": "ct-riomaggiore",
+    "at": [
+     44.099,
+     9.738
+    ],
+    "wiki": "Riomaggiore",
+    "area": "Riomaggiore",
+    "summary": "A steep village of tower houses around a tiny harbour.",
+    "expect": "Lots of stairs.",
+    "tip": "Climb to the castle for the view down.",
+    "why": "The most southerly village.",
+    "flow": [
+     "Harbour.",
+     "Castle viewpoint."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Monterosso al Mare",
+    "kind": "see",
+    "id": "ct-monterosso",
+    "at": [
+     44.146,
+     9.654
+    ],
+    "wiki": "Monterosso al Mare",
+    "area": "Monterosso",
+    "summary": "The largest village, with the only real sandy beach.",
+    "expect": "Beach clubs rent umbrellas.",
+    "tip": "Swim and lunch here.",
+    "why": "Beach day in the Cinque Terre.",
+    "flow": [
+     "Beach.",
+     "Old town."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Corniglia",
+    "kind": "see",
+    "id": "ct-corniglia",
+    "at": [
+     44.1197,
+     9.7105
+    ],
+    "wiki": "Corniglia",
+    "area": "Corniglia",
+    "summary": "The only village on a hilltop, 382 steps above the station.",
+    "expect": "Quieter than the others.",
+    "tip": "Take the shuttle bus up if you're tired.",
+    "why": "Village life away from crowds.",
+    "flow": [
+     "Lardarina steps.",
+     "Village."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Coastal trail (Sentiero Azzurro)",
+    "kind": "see",
+    "id": "ct-trail",
+    "at": [
+     44.12,
+     9.71
+    ],
+    "wiki": "Cinque Terre National Park",
+    "area": "National park",
+    "summary": "The famous cliff path between the villages through vines and olive groves.",
+    "expect": "Some sections need the Cinque Terre Card; check which are open.",
+    "tip": "Hike Monterosso to Vernazza early in the morning.",
+    "why": "The best way to see the coast.",
+    "flow": [
+     "Monterosso start.",
+     "Vernazza arrival."
+    ],
+    "hours": 3,
+    "price": [
+     7,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Porto Venere",
+    "kind": "see",
+    "id": "ct-portovenere",
+    "at": [
+     44.05,
+     9.834
+    ],
+    "wiki": "Porto Venere",
+    "area": "Porto Venere",
+    "summary": "A colourful harbour town with a church on a rock at the tip of the gulf.",
+    "expect": "Ferries from the villages and La Spezia.",
+    "tip": "Visit the church of San Pietro on the point.",
+    "why": "The 'sixth' Cinque Terre village.",
+    "flow": [
+     "Ferry over.",
+     "San Pietro church."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Trofie al pesto",
+    "kind": "eat",
+    "id": "ct-pesto",
+    "at": [
+     44.135,
+     9.6845
+    ],
+    "wiki": "Trofie",
+    "area": "Vernazza",
+    "venue": "food-area",
+    "summary": "Twisted fresh pasta with basil pesto, potatoes and green beans.",
+    "expect": "On every menu.",
+    "tip": "Pair with a glass of local white.",
+    "why": "Liguria is pesto's home.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ligurian",
+    "order": [
+     "Trofie al pesto"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Focaccia",
+    "kind": "eat",
+    "id": "ct-focaccia",
+    "at": [
+     44.146,
+     9.655
+    ],
+    "wiki": "Focaccia",
+    "area": "Monterosso",
+    "venue": "food-area",
+    "summary": "Oily, salty Ligurian flatbread, plain or with onions or cheese.",
+    "expect": "Bakeries open early.",
+    "tip": "Try focaccia di Recco with cheese.",
+    "why": "The perfect beach snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     2,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ligurian",
+    "order": [
+     "Focaccia",
+     "Focaccia di Recco"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Monterosso anchovies",
+    "kind": "eat",
+    "id": "ct-anchovies",
+    "at": [
+     44.1465,
+     9.6545
+    ],
+    "wiki": "Anchovy",
+    "area": "Monterosso",
+    "venue": "food-area",
+    "summary": "Fried, salted or marinated anchovies, the village's famous catch.",
+    "expect": "Cones of fried fish sold to take away.",
+    "tip": "Try a fritto misto cone by the beach.",
+    "why": "Fresh from the morning boats.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     18
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ligurian",
+    "order": [
+     "Fried anchovies",
+     "Fritto misto"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work in most places, but carry some euros for small cafés, markets and tourist taxes; a cover charge (coperto) on restaurant bills is normal.",
+  "seasons": "LLSSHHPPHSLL",
+  "id": "lake-como",
+  "name": "Lake Como",
+  "at": [
+   45.987,
+   9.261
+  ],
+  "wiki": "Lake Como",
+  "cover": "Bellagio, Lombardy",
+  "tagline": "Villas and mountains on an Alpine lake",
+  "summary": "Lake Como is a deep, narrow lake ringed by mountains, with grand villas and gardens on its shores. Ferries link the lovely towns of Bellagio, Varenna and Como, and it's only an hour from Milan.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "April to June and September to October are ideal, with gardens in bloom in spring. Summer is busy. Many hotels and villas close from November to March.",
+  "arrival": "Trains from Milan reach Como in about 40 minutes and Varenna in about an hour.",
+  "gettingAround": "Ferries are the best way between towns; buy a day pass for the central lake.",
+  "dailyBudget": [
+   100,
+   300
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Risotto with perch, missoltini (dried shad), polenta and Lombard cheeses.",
+  "buyTip": "Como silk scarves and ties, olive oil and limoncello.",
+  "baseArea": "Bellagio or Varenna",
+  "hotel": [
+   120,
+   400
+  ],
+  "connections": [
+   {
+    "to": "milan",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "Trains to Como or Varenna."
+   },
+   {
+    "to": "zurich",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Via Lugano."
+   }
+  ],
+  "items": [
+   {
+    "name": "Bellagio",
+    "kind": "see",
+    "id": "como-bellagio",
+    "at": [
+     45.987,
+     9.261
+    ],
+    "wiki": "Bellagio, Lombardy",
+    "area": "Bellagio",
+    "summary": "The 'pearl of the lake', with stepped lanes on the point where the lake splits.",
+    "expect": "Ferries from Varenna and Menaggio.",
+    "tip": "Walk to the tip, Punta Spartivento.",
+    "why": "The classic Lake Como town.",
+    "flow": [
+     "Stepped lanes.",
+     "Punta Spartivento."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Villa del Balbianello",
+    "kind": "see",
+    "id": "como-balbianello",
+    "at": [
+     45.9636,
+     9.2014
+    ],
+    "wiki": "Villa del Balbianello",
+    "area": "Lenno",
+    "summary": "A villa and terraced gardens on a wooded point, seen in Star Wars and Casino Royale.",
+    "expect": "Reached by boat taxi or a 1 km walk; closed some days.",
+    "tip": "Book ahead; take the boat taxi from Lenno.",
+    "why": "Lake Como's most beautiful villa.",
+    "flow": [
+     "Boat taxi.",
+     "Gardens.",
+     "Villa tour."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Villa Carlotta",
+    "kind": "see",
+    "id": "como-villa-carlotta",
+    "at": [
+     45.985,
+     9.23
+    ],
+    "wiki": "Villa Carlotta",
+    "area": "Tremezzo",
+    "summary": "A villa with Canova sculptures and huge botanical gardens.",
+    "expect": "Best in April and May for azaleas.",
+    "tip": "Visit in spring.",
+    "why": "Art and gardens together.",
+    "flow": [
+     "Villa museum.",
+     "Gardens."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Varenna",
+    "kind": "see",
+    "id": "como-varenna",
+    "at": [
+     46.01,
+     9.284
+    ],
+    "wiki": "Varenna",
+    "area": "Varenna",
+    "summary": "A pastel fishing village with a lakeside walkway and gardens.",
+    "expect": "Train station nearby.",
+    "tip": "Walk the Passeggiata degli Innamorati.",
+    "why": "The most romantic village.",
+    "flow": [
+     "Lakeside walk.",
+     "Villa Monastero."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Villa Monastero",
+    "kind": "see",
+    "id": "como-villa-monastero",
+    "at": [
+     46.008,
+     9.284
+    ],
+    "wiki": "Villa Monastero",
+    "area": "Varenna",
+    "summary": "A former convent with a long botanical garden along the shore.",
+    "expect": "Short walk from Varenna's ferry.",
+    "tip": "Walk the garden to the end.",
+    "why": "A quiet lakefront garden.",
+    "flow": [
+     "Garden.",
+     "House museum."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Como Cathedral",
+    "kind": "see",
+    "id": "como-cathedral",
+    "at": [
+     45.8115,
+     9.084
+    ],
+    "wiki": "Como Cathedral",
+    "area": "Como",
+    "summary": "A marble cathedral mixing Gothic and Renaissance styles in the old town.",
+    "expect": "Free entry.",
+    "tip": "Walk the walled old town afterwards.",
+    "why": "Como town's treasure.",
+    "flow": [
+     "Cathedral.",
+     "Old town."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Brunate funicular",
+    "kind": "see",
+    "id": "como-brunate",
+    "at": [
+     45.82,
+     9.096
+    ],
+    "wiki": "Como–Brunate funicular",
+    "area": "Como",
+    "summary": "A funicular up to Brunate for views over the lake and Alps.",
+    "expect": "Runs every 15 minutes.",
+    "tip": "Walk up to the Volta lighthouse.",
+    "why": "The best view of Como.",
+    "flow": [
+     "Funicular.",
+     "Volta lighthouse."
+    ],
+    "hours": 1.5,
+    "price": [
+     6,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Risotto with perch",
+    "kind": "eat",
+    "id": "como-perch",
+    "at": [
+     45.986,
+     9.262
+    ],
+    "wiki": "Risotto",
+    "area": "Bellagio",
+    "venue": "food-area",
+    "summary": "Risotto topped with butter-fried perch fillets from the lake.",
+    "expect": "A lakeside classic.",
+    "tip": "Order it with a lake view.",
+    "why": "The taste of Lake Como.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     18,
+     28
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lombard",
+    "order": [
+     "Risotto con pesce persico"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Missoltini",
+    "kind": "eat",
+    "id": "como-missoltini",
+    "at": [
+     46.01,
+     9.285
+    ],
+    "wiki": "Missoltino",
+    "area": "Varenna",
+    "venue": "food-area",
+    "summary": "Dried, salted lake shad grilled and served with polenta.",
+    "expect": "Found in traditional trattorias.",
+    "tip": "Try it with a glass of local red.",
+    "why": "An old lake tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     22
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lombard",
+    "order": [
+     "Missoltini",
+     "Polenta"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Polenta and cheese",
+    "kind": "eat",
+    "id": "como-polenta",
+    "at": [
+     45.99,
+     9.26
+    ],
+    "wiki": "Polenta",
+    "area": "Bellagio",
+    "venue": "food-area",
+    "summary": "Hearty polenta with melted mountain cheeses.",
+    "expect": "Mountain huts and trattorias.",
+    "tip": "Try polenta taragna.",
+    "why": "Alpine comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lombard",
+    "order": [
+     "Polenta taragna"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work in most places, but carry some euros for small cafés, markets and tourist taxes; a cover charge (coperto) on restaurant bills is normal.",
+  "seasons": "LLSSHHPPHSLL",
+  "id": "palermo",
+  "name": "Palermo · Sicily",
+  "at": [
+   38.1157,
+   13.3615
+  ],
+  "wiki": "Palermo",
+  "cover": "Palermo Cathedral",
+  "tagline": "Arab-Norman palaces and street-food markets",
+  "summary": "Sicily's capital is a crossroads of Greek, Arab, Norman and Spanish history, with golden mosaics in the Palatine Chapel and Monreale, grand Baroque squares and chaotic street markets. It's one of Italy's great street-food cities.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are warm and pleasant. July and August are hot. Winter is mild and quiet.",
+  "arrival": "Palermo Airport is 40 minutes from the centre by train or bus. Overnight ferries come from Naples and Genoa; flights from Rome take about an hour.",
+  "gettingAround": "The old centre is walkable; buses and trains reach Monreale and Cefalù.",
+  "dailyBudget": [
+   70,
+   200
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Arancine, panelle, pane con la milza, cannoli and granita with brioche.",
+  "buyTip": "Ceramics, Sicilian puppets, almond pastries and Marsala wine.",
+  "baseArea": "Old centre near the Quattro Canti",
+  "hotel": [
+   70,
+   200
+  ],
+  "connections": [
+   {
+    "to": "naples",
+    "mode": "Ferry",
+    "minutes": 630,
+    "note": "Overnight ferries."
+   },
+   {
+    "to": "rome",
+    "mode": "Flight",
+    "minutes": 70,
+    "note": "Many daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Palermo Cathedral",
+    "kind": "see",
+    "id": "palermo-cathedral",
+    "at": [
+     38.1144,
+     13.3561
+    ],
+    "wiki": "Palermo Cathedral",
+    "area": "Cassaro",
+    "summary": "A cathedral layered with Norman, Gothic and Baroque styles, with royal tombs and rooftop walks.",
+    "expect": "Free; a fee for the roof and treasury.",
+    "tip": "Walk the rooftops for city views.",
+    "why": "A symbol of Palermo's mixed history.",
+    "flow": [
+     "Nave.",
+     "Royal tombs.",
+     "Rooftop."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Palatine Chapel",
+    "kind": "see",
+    "id": "palermo-palatine",
+    "at": [
+     38.111,
+     13.3532
+    ],
+    "wiki": "Palatine Chapel",
+    "area": "Norman Palace",
+    "summary": "A royal chapel covered in golden Byzantine mosaics under an Arab wooden ceiling.",
+    "expect": "Inside the Norman Palace; queues at weekends.",
+    "tip": "Book a timed ticket.",
+    "why": "One of the world's most beautiful chapels.",
+    "flow": [
+     "Norman Palace.",
+     "Palatine Chapel."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Monreale Cathedral",
+    "kind": "see",
+    "id": "palermo-monreale",
+    "at": [
+     38.0814,
+     13.2925
+    ],
+    "wiki": "Monreale Cathedral",
+    "area": "Monreale",
+    "summary": "A hilltop cathedral with 6,000 square metres of gold mosaics and a cloister.",
+    "expect": "30 minutes by bus.",
+    "tip": "See the cloister and climb the terraces.",
+    "why": "Norman Sicily's masterpiece.",
+    "flow": [
+     "Bus up.",
+     "Cathedral.",
+     "Cloister."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Ballarò market",
+    "kind": "see",
+    "id": "palermo-ballaro",
+    "at": [
+     38.112,
+     13.361
+    ],
+    "wiki": "Ballarò",
+    "area": "Albergheria",
+    "summary": "A noisy, colourful street market of fish, fruit and street food.",
+    "expect": "Mornings are busiest; mind your bags.",
+    "tip": "Graze on panelle and arancine as you go.",
+    "why": "Palermo's living heart.",
+    "flow": [
+     "Market lanes.",
+     "Street food."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Quattro Canti",
+    "kind": "see",
+    "id": "palermo-quattro-canti",
+    "at": [
+     38.1157,
+     13.3615
+    ],
+    "wiki": "Quattro Canti",
+    "area": "Centre",
+    "summary": "A Baroque crossroads of four curved façades, next to the Fontana Pretoria.",
+    "expect": "Free; busy day and night.",
+    "tip": "See the nude statues of Fontana Pretoria.",
+    "why": "The centre of the old city.",
+    "flow": [
+     "Crossroads.",
+     "Fontana Pretoria."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Teatro Massimo",
+    "kind": "see",
+    "id": "palermo-teatro-massimo",
+    "at": [
+     38.1204,
+     13.3572
+    ],
+    "wiki": "Teatro Massimo",
+    "area": "Centre",
+    "summary": "Italy's largest opera house, seen in The Godfather Part III.",
+    "expect": "Guided tours by day; operas in season.",
+    "tip": "See a performance if you can.",
+    "why": "A grand stage.",
+    "flow": [
+     "Guided tour.",
+     "Performance."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Cefalù",
+    "kind": "see",
+    "id": "palermo-cefalu",
+    "at": [
+     38.039,
+     14.023
+    ],
+    "wiki": "Cefalù",
+    "area": "Cefalù",
+    "summary": "A seaside town with a Norman cathedral under a great rock.",
+    "expect": "About an hour by train.",
+    "tip": "Swim, then climb La Rocca.",
+    "why": "A perfect beach day trip.",
+    "flow": [
+     "Train east.",
+     "Cathedral.",
+     "Beach."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Arancine",
+    "kind": "eat",
+    "id": "palermo-arancine",
+    "at": [
+     38.115,
+     13.36
+    ],
+    "wiki": "Arancini",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Fried rice balls filled with ragù or butter and ham.",
+    "expect": "In Palermo they are 'arancine', feminine.",
+    "tip": "Try both ragù and burro.",
+    "why": "Sicily's best snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     2,
+     4
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sicilian",
+    "order": [
+     "Arancina al ragù",
+     "Panelle"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "Pane con la milza",
+    "kind": "eat",
+    "id": "palermo-milza",
+    "at": [
+     38.117,
+     13.364
+    ],
+    "wiki": "Pani ca meusa",
+    "area": "Vucciria",
+    "venue": "food-area",
+    "summary": "A bun stuffed with fried veal spleen and lung, with lemon or cheese.",
+    "expect": "Old street stalls.",
+    "tip": "Order it 'maritata', with cheese.",
+    "why": "Palermo's boldest street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sicilian",
+    "order": [
+     "Pane con la milza"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cannoli",
+    "kind": "eat",
+    "id": "palermo-cannoli",
+    "at": [
+     38.115,
+     13.358
+    ],
+    "wiki": "Cannoli",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Crisp pastry tubes filled with sweet ricotta.",
+    "expect": "Filled fresh to order in good shops.",
+    "tip": "Ask for it filled while you wait.",
+    "why": "Sicily's iconic sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sicilian",
+    "order": [
+     "Cannolo",
+     "Granita"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work in most places, but carry some euros for small cafés, markets and tourist taxes; a cover charge (coperto) on restaurant bills is normal.",
+  "seasons": "LLSSHHPPHSLL",
+  "id": "bologna",
+  "name": "Bologna",
+  "at": [
+   44.4949,
+   11.3426
+  ],
+  "wiki": "Bologna",
+  "cover": "Piazza Maggiore",
+  "tagline": "Italy's food capital under red porticoes",
+  "summary": "Bologna is a red-brick university city with 40 km of covered porticoes, leaning medieval towers and Europe's oldest university. It's the home of tortellini, tagliatelle al ragù and mortadella, and the gateway to Parma and Modena.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are best. Summer is hot and some restaurants close in August. Winter is foggy but good for food.",
+  "arrival": "High-speed trains reach Bologna from Florence (35 minutes), Milan (1 hour) and Rome (2 hours 15 minutes). The airport is 20 minutes away by Marconi Express.",
+  "gettingAround": "Walk under the porticoes; buses cover the rest.",
+  "dailyBudget": [
+   80,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Tagliatelle al ragù, tortellini in broth, mortadella and lasagne verde.",
+  "buyTip": "Parmigiano Reggiano, balsamic vinegar from Modena and fresh pasta.",
+  "baseArea": "Centro Storico",
+  "hotel": [
+   80,
+   220
+  ],
+  "connections": [
+   {
+    "to": "florence",
+    "mode": "Train",
+    "minutes": 40,
+    "note": "High-speed trains."
+   },
+   {
+    "to": "milan",
+    "mode": "Train",
+    "minutes": 65,
+    "note": "High-speed trains."
+   },
+   {
+    "to": "venice",
+    "mode": "Train",
+    "minutes": 90,
+    "note": "Frecciarossa."
+   }
+  ],
+  "items": [
+   {
+    "name": "Piazza Maggiore",
+    "kind": "see",
+    "id": "bologna-piazza-maggiore",
+    "at": [
+     44.4938,
+     11.343
+    ],
+    "wiki": "Piazza Maggiore",
+    "area": "Centre",
+    "summary": "A grand square with the Neptune Fountain and the huge Basilica of San Petronio.",
+    "expect": "The basilica is free; a fee for the terrace.",
+    "tip": "Climb San Petronio's terrace.",
+    "why": "Bologna's main square.",
+    "flow": [
+     "Neptune Fountain.",
+     "San Petronio."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Two Towers",
+    "kind": "see",
+    "id": "bologna-towers",
+    "at": [
+     44.4943,
+     11.3468
+    ],
+    "wiki": "Two Towers, Bologna",
+    "area": "Centre",
+    "summary": "Two leaning medieval towers, the Asinelli and the Garisenda.",
+    "expect": "The Asinelli tower may be closed for repairs; check first.",
+    "tip": "See them from Strada Maggiore.",
+    "why": "Bologna's symbol.",
+    "flow": [
+     "Viewpoint.",
+     "Strada Maggiore."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Archiginnasio and Anatomical Theatre",
+    "kind": "see",
+    "id": "bologna-archiginnasio",
+    "at": [
+     44.492,
+     11.3433
+    ],
+    "wiki": "Archiginnasio of Bologna",
+    "area": "Centre",
+    "summary": "The old university's main building, with a wooden anatomical theatre.",
+    "expect": "Small entry fee.",
+    "tip": "See the walls covered in coats of arms.",
+    "why": "Europe's oldest university.",
+    "flow": [
+     "Courtyard.",
+     "Anatomical Theatre."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Santo Stefano",
+    "kind": "see",
+    "id": "bologna-santo-stefano",
+    "at": [
+     44.4915,
+     11.3485
+    ],
+    "wiki": "Santo Stefano, Bologna",
+    "area": "Centre",
+    "summary": "A cluster of seven linked churches known as the 'Seven Churches'.",
+    "expect": "Free; quiet and atmospheric.",
+    "tip": "Sit in the piazza outside with an aperitivo.",
+    "why": "A medieval maze of chapels.",
+    "flow": [
+     "Churches.",
+     "Courtyard."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Sanctuary of San Luca",
+    "kind": "see",
+    "id": "bologna-san-luca",
+    "at": [
+     44.479,
+     11.298
+    ],
+    "wiki": "Sanctuary of the Madonna di San Luca",
+    "area": "Colle della Guardia",
+    "summary": "A hilltop church reached by the world's longest portico, 666 arches.",
+    "expect": "About an hour's walk up; a train runs too.",
+    "tip": "Walk up, ride down.",
+    "why": "The best view of Bologna.",
+    "flow": [
+     "Portico walk.",
+     "Sanctuary."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Porticoes of Bologna",
+    "kind": "see",
+    "id": "bologna-porticoes",
+    "at": [
+     44.4935,
+     11.345
+    ],
+    "wiki": "Porticoes of Bologna",
+    "area": "Centre",
+    "summary": "A World Heritage network of covered walkways through the city.",
+    "expect": "Free; great on rainy days.",
+    "tip": "Walk Via Zamboni through the university district.",
+    "why": "A uniquely Bolognese city.",
+    "flow": [
+     "Via dell'Indipendenza.",
+     "Via Zamboni."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Modena",
+    "kind": "see",
+    "id": "bologna-modena",
+    "at": [
+     44.6471,
+     10.9252
+    ],
+    "wiki": "Modena",
+    "area": "Modena",
+    "summary": "Home of balsamic vinegar, Ferrari and a Romanesque cathedral.",
+    "expect": "30 minutes by train.",
+    "tip": "Visit an acetaia for a balsamic tasting.",
+    "why": "A food-lover's day trip.",
+    "flow": [
+     "Train to Modena.",
+     "Cathedral.",
+     "Balsamic tasting."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food",
+     "History"
+    ]
+   },
+   {
+    "name": "Tagliatelle al ragù",
+    "kind": "eat",
+    "id": "bologna-tagliatelle",
+    "at": [
+     44.494,
+     11.344
+    ],
+    "wiki": "Tagliatelle",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Egg pasta ribbons with slow-cooked meat sauce, the real 'Bolognese'.",
+    "expect": "Never served with spaghetti here.",
+    "tip": "Order it in a traditional osteria.",
+    "why": "Bologna's signature dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Emilian",
+    "order": [
+     "Tagliatelle al ragù"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Tortellini in brodo",
+    "kind": "eat",
+    "id": "bologna-tortellini",
+    "at": [
+     44.4935,
+     11.344
+    ],
+    "wiki": "Tortellini",
+    "area": "Quadrilatero",
+    "venue": "food-area",
+    "summary": "Tiny filled pasta in rich broth.",
+    "expect": "A winter favourite.",
+    "tip": "Try it at a trattoria that makes pasta by hand.",
+    "why": "Hand-folded tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Emilian",
+    "order": [
+     "Tortellini in brodo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mortadella and cheese boards",
+    "kind": "eat",
+    "id": "bologna-mortadella",
+    "at": [
+     44.4937,
+     11.3445
+    ],
+    "wiki": "Mortadella",
+    "area": "Quadrilatero",
+    "venue": "food-area",
+    "summary": "Silky mortadella, Parma ham and Parmigiano in the old market lanes.",
+    "expect": "Wine bars serve tagliere boards.",
+    "tip": "Order a tagliere with a glass of Lambrusco.",
+    "why": "The best aperitivo in Italy.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Emilian",
+    "order": [
+     "Tagliere",
+     "Lambrusco"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work in most places, but carry some euros for small cafés, markets and tourist taxes; a cover charge (coperto) on restaurant bills is normal.",
+  "seasons": "LLSSHHPPHSLL",
+  "id": "verona",
+  "name": "Verona",
+  "at": [
+   45.4384,
+   10.9916
+  ],
+  "wiki": "Verona",
+  "cover": "Verona Arena",
+  "tagline": "Romeo and Juliet's city and a Roman arena",
+  "summary": "Verona is a graceful city on a bend of the Adige river, with a Roman arena that still hosts opera, medieval squares and the balcony tied to Romeo and Juliet. Lake Garda is half an hour away.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "The opera festival in the Arena runs from June to early September. Spring and autumn are quieter; the Vinitaly wine fair fills hotels in April.",
+  "arrival": "Trains reach Verona from Venice (1 hour 10 minutes) and Milan (1 hour 15 minutes). The airport is 20 minutes away.",
+  "gettingAround": "The centre is compact and walkable.",
+  "dailyBudget": [
+   80,
+   220
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Risotto all'Amarone, bollito misto with pearà sauce, and pandoro at Christmas.",
+  "buyTip": "Amarone and Valpolicella wine, Soave and local olive oil.",
+  "baseArea": "Centro Storico",
+  "hotel": [
+   90,
+   260
+  ],
+  "connections": [
+   {
+    "to": "venice",
+    "mode": "Train",
+    "minutes": 70,
+    "note": "Frequent trains."
+   },
+   {
+    "to": "milan",
+    "mode": "Train",
+    "minutes": 75,
+    "note": "High-speed trains."
+   },
+   {
+    "to": "lake-como",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Via Milan."
+   }
+  ],
+  "items": [
+   {
+    "name": "Verona Arena",
+    "kind": "see",
+    "id": "verona-arena",
+    "at": [
+     45.439,
+     10.9944
+    ],
+    "wiki": "Verona Arena",
+    "area": "Piazza Bra",
+    "summary": "A 2,000-year-old Roman amphitheatre that still hosts opera under the stars.",
+    "expect": "Summer opera tickets sell out; bring a cushion for the stone seats.",
+    "tip": "See an opera on a summer night.",
+    "why": "Opera in a Roman arena.",
+    "flow": [
+     "Visit by day.",
+     "Opera at night."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     150
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Juliet's House",
+    "kind": "see",
+    "id": "verona-juliet",
+    "at": [
+     45.442,
+     10.9985
+    ],
+    "wiki": "Juliet's House",
+    "area": "Via Cappello",
+    "summary": "A medieval house with the famous balcony and a bronze statue of Juliet.",
+    "expect": "The courtyard is free but crowded; the house is ticketed.",
+    "tip": "Go first thing in the morning.",
+    "why": "Romeo and Juliet's legend.",
+    "flow": [
+     "Courtyard.",
+     "Balcony."
+    ],
+    "hours": 0.75,
+    "price": [
+     0,
+     6
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Piazza delle Erbe",
+    "kind": "see",
+    "id": "verona-erbe",
+    "at": [
+     45.443,
+     10.9974
+    ],
+    "wiki": "Piazza delle Erbe",
+    "area": "Centre",
+    "summary": "A lively square on the old Roman forum, with frescoed houses and a market.",
+    "expect": "Cafés all around.",
+    "tip": "Have a spritz here at aperitivo time.",
+    "why": "Verona's most beautiful square.",
+    "flow": [
+     "Market.",
+     "Aperitivo."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Torre dei Lamberti",
+    "kind": "see",
+    "id": "verona-lamberti",
+    "at": [
+     45.4427,
+     10.9978
+    ],
+    "wiki": "Torre dei Lamberti",
+    "area": "Centre",
+    "summary": "An 84 m medieval tower with views over the red rooftops.",
+    "expect": "A lift goes most of the way.",
+    "tip": "Go at sunset.",
+    "why": "The best view of the city.",
+    "flow": [
+     "Lift.",
+     "Top terrace."
+    ],
+    "hours": 0.75,
+    "price": [
+     8,
+     8
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Castelvecchio",
+    "kind": "see",
+    "id": "verona-castelvecchio",
+    "at": [
+     45.44,
+     10.9878
+    ],
+    "wiki": "Castelvecchio (Verona)",
+    "area": "Adige",
+    "summary": "A red-brick fortress and museum with a battlemented bridge.",
+    "expect": "The bridge is free to walk.",
+    "tip": "Walk the bridge for river views.",
+    "why": "Verona's medieval stronghold.",
+    "flow": [
+     "Museum.",
+     "Castle bridge."
+    ],
+    "hours": 1.5,
+    "price": [
+     9,
+     9
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Ponte Pietra and Castel San Pietro",
+    "kind": "see",
+    "id": "verona-ponte-pietra",
+    "at": [
+     45.4475,
+     11.0003
+    ],
+    "wiki": "Ponte Pietra",
+    "area": "Veronetta",
+    "summary": "A Roman bridge leading to a hill with a funicular and city views.",
+    "expect": "The funicular is quick.",
+    "tip": "Climb to Castel San Pietro for sunset.",
+    "why": "The classic Verona view.",
+    "flow": [
+     "Cross the bridge.",
+     "Funicular up."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Sirmione on Lake Garda",
+    "kind": "see",
+    "id": "verona-sirmione",
+    "at": [
+     45.493,
+     10.608
+    ],
+    "wiki": "Sirmione",
+    "area": "Lake Garda",
+    "summary": "A castle town on a narrow peninsula in Lake Garda, with Roman ruins and hot springs.",
+    "expect": "About 40 minutes by bus or train and bus.",
+    "tip": "See the Grotte di Catullo Roman villa.",
+    "why": "Lake Garda's jewel.",
+    "flow": [
+     "Bus to Sirmione.",
+     "Scaliger Castle.",
+     "Grotte di Catullo."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Risotto all'Amarone",
+    "kind": "eat",
+    "id": "verona-amarone",
+    "at": [
+     45.442,
+     10.997
+    ],
+    "wiki": "Amarone",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "A rich red risotto cooked with Amarone wine.",
+    "expect": "Traditional osterie serve it.",
+    "tip": "Pair it with a glass of the same wine.",
+    "why": "Verona's wine in a dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     16,
+     24
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Veronese",
+    "order": [
+     "Risotto all'Amarone"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Bollito misto with pearà",
+    "kind": "eat",
+    "id": "verona-bollito",
+    "at": [
+     45.441,
+     10.996
+    ],
+    "wiki": "Bollito misto",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Boiled meats with pearà, a peppery bread-and-marrow sauce.",
+    "expect": "A winter dish.",
+    "tip": "Try it in winter.",
+    "why": "An old Veronese tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     18,
+     26
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Veronese",
+    "order": [
+     "Bollito misto",
+     "Pearà"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Spritz aperitivo",
+    "kind": "eat",
+    "id": "verona-aperitivo",
+    "at": [
+     45.443,
+     10.9975
+    ],
+    "wiki": "Spritz (aperitif)",
+    "area": "Piazza delle Erbe",
+    "venue": "food-area",
+    "summary": "A spritz with snacks in the square at sunset.",
+    "expect": "From about 6 pm.",
+    "tip": "Try a spritz with Select, the Venetian bitter.",
+    "why": "The Veneto evening ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Venetian",
+    "order": [
+     "Spritz",
+     "Cicchetti"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work in most places, but carry some euros for small cafés, markets and tourist taxes; a cover charge (coperto) on restaurant bills is normal.",
+  "seasons": "HHHSLSPPHSLH",
+  "id": "dolomites",
+  "name": "Dolomites · Val Gardena",
+  "at": [
+   46.5747,
+   11.672
+  ],
+  "wiki": "Dolomites",
+  "cover": "Seceda",
+  "tagline": "Jagged pink peaks and alpine meadows",
+  "summary": "The Dolomites are a World Heritage range of pale limestone towers that glow pink at sunset. From Ortisei in Val Gardena, cable cars rise to the Seceda ridge and the Alpe di Siusi meadows, and lakes and peaks like Braies and the Tre Cime are a drive away. In winter it's one of Europe's great ski areas.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   1,
+   2
+  ],
+  "seasonNote": "Mid-June to September is hiking season, when lifts and huts open. December to March is ski season. Lifts close in spring and late autumn.",
+  "arrival": "Fly to Venice, Verona or Innsbruck; drive about 2 to 3 hours. Trains reach Bolzano, then buses climb to Val Gardena.",
+  "gettingAround": "A car gives most freedom; a dense network of buses and cable cars covers the valleys.",
+  "dailyBudget": [
+   120,
+   320
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Canederli (bread dumplings), speck, apple strudel and hearty dishes in mountain huts.",
+  "buyTip": "Wood carvings from Val Gardena, speck and local schnapps.",
+  "baseArea": "Ortisei or Selva in Val Gardena",
+  "hotel": [
+   120,
+   400
+  ],
+  "connections": [
+   {
+    "to": "venice",
+    "mode": "Road",
+    "minutes": 180,
+    "note": "Drive or bus via Bolzano."
+   },
+   {
+    "to": "verona",
+    "mode": "Road",
+    "minutes": 150,
+    "note": "Via the Brenner motorway."
+   }
+  ],
+  "items": [
+   {
+    "name": "Seceda",
+    "kind": "see",
+    "id": "dolomites-seceda",
+    "at": [
+     46.6,
+     11.725
+    ],
+    "wiki": "Seceda",
+    "area": "Ortisei",
+    "summary": "A dramatic ridge of tilted peaks above green meadows, reached by cable car.",
+    "expect": "Lifts run in summer and winter.",
+    "tip": "Go early for clear views.",
+    "why": "The Dolomites' most famous view.",
+    "flow": [
+     "Cable car from Ortisei.",
+     "Ridge walk."
+    ],
+    "hours": 3,
+    "price": [
+     40,
+     50
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Alpe di Siusi",
+    "kind": "see",
+    "id": "dolomites-alpe-di-siusi",
+    "at": [
+     46.544,
+     11.62
+    ],
+    "wiki": "Seiser Alm",
+    "area": "Seiser Alm",
+    "summary": "Europe's largest high alpine meadow, below the Sassolungo peaks.",
+    "expect": "A cable car from Ortisei or Siusi; cars are restricted.",
+    "tip": "Walk between huts for lunch.",
+    "why": "Easy walking with huge views.",
+    "flow": [
+     "Cable car.",
+     "Meadow walk.",
+     "Hut lunch."
+    ],
+    "hours": 5,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tre Cime di Lavaredo",
+    "kind": "see",
+    "id": "dolomites-tre-cime",
+    "at": [
+     46.6187,
+     12.3022
+    ],
+    "wiki": "Tre Cime di Lavaredo",
+    "area": "Auronzo",
+    "summary": "Three giant rock towers circled by a classic loop trail.",
+    "expect": "A toll road to the Auronzo hut; about 1.5 hours by car.",
+    "tip": "Walk the loop anticlockwise.",
+    "why": "The symbol of the Dolomites.",
+    "flow": [
+     "Drive to Auronzo hut.",
+     "Loop walk."
+    ],
+    "hours": 5,
+    "price": [
+     30,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Lago di Braies",
+    "kind": "see",
+    "id": "dolomites-braies",
+    "at": [
+     46.6943,
+     12.0853
+    ],
+    "wiki": "Lago di Braies",
+    "area": "Prags",
+    "summary": "A turquoise lake below cliffs, with wooden rowing boats.",
+    "expect": "Access and parking are limited in summer; book ahead.",
+    "tip": "Arrive at sunrise or walk the lake loop.",
+    "why": "The Dolomites' most famous lake.",
+    "flow": [
+     "Lake loop.",
+     "Rowing boat."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sella Pass",
+    "kind": "see",
+    "id": "dolomites-sella",
+    "at": [
+     46.509,
+     11.764
+    ],
+    "wiki": "Sella Pass",
+    "area": "Sella group",
+    "summary": "A high road pass with views of the Sassolungo and Sella massif.",
+    "expect": "Part of the Sella Ronda ski loop.",
+    "tip": "Drive the four-pass loop in summer.",
+    "why": "Classic Dolomite road views.",
+    "flow": [
+     "Drive up.",
+     "Short walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Val di Funes",
+    "kind": "see",
+    "id": "dolomites-funes",
+    "at": [
+     46.643,
+     11.724
+    ],
+    "wiki": "Villnöß",
+    "area": "Santa Maddalena",
+    "summary": "A quiet valley where Santa Maddalena church sits below the Odle peaks.",
+    "expect": "The viewpoint is a short walk from the village.",
+    "tip": "Go at sunset.",
+    "why": "An iconic church-and-peaks view.",
+    "flow": [
+     "Drive to Santa Maddalena.",
+     "Viewpoint."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Cortina d'Ampezzo",
+    "kind": "see",
+    "id": "dolomites-cortina",
+    "at": [
+     46.5405,
+     12.1357
+    ],
+    "wiki": "Cortina d'Ampezzo",
+    "area": "Cortina",
+    "summary": "A glamorous mountain town and Winter Olympic host.",
+    "expect": "About 1.5 hours by car.",
+    "tip": "Ride the Tofana cable car.",
+    "why": "The queen of the Dolomites.",
+    "flow": [
+     "Drive over the passes.",
+     "Town.",
+     "Cable car."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Canederli",
+    "kind": "eat",
+    "id": "dolomites-canederli",
+    "at": [
+     46.5747,
+     11.672
+    ],
+    "wiki": "Knödel",
+    "area": "Ortisei",
+    "venue": "food-area",
+    "summary": "Bread dumplings with speck or cheese, in broth or with butter.",
+    "expect": "On every hut menu.",
+    "tip": "Try the spinach ones.",
+    "why": "Tyrolean comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     16
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tyrolean",
+    "order": [
+     "Canederli",
+     "Speck"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "Speck board",
+    "kind": "eat",
+    "id": "dolomites-speck",
+    "at": [
+     46.575,
+     11.673
+    ],
+    "wiki": "Speck Alto Adige",
+    "area": "Ortisei",
+    "venue": "food-area",
+    "summary": "Smoked ham with mountain cheese and rye bread.",
+    "expect": "Huts and wine bars.",
+    "tip": "Pair with a local Lagrein wine.",
+    "why": "South Tyrol's signature ham.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tyrolean",
+    "order": [
+     "Speck board",
+     "Lagrein"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Apple strudel",
+    "kind": "eat",
+    "id": "dolomites-strudel",
+    "at": [
+     46.5745,
+     11.672
+    ],
+    "wiki": "Apple strudel",
+    "area": "Ortisei",
+    "venue": "food-area",
+    "summary": "Warm apple strudel with cream, eaten on a hut terrace.",
+    "expect": "Every mountain hut has its own.",
+    "tip": "Order it after a hike.",
+    "why": "The best reward after a walk.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tyrolean",
+    "order": [
+     "Apfelstrudel",
+     "Coffee"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Italy",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work in most places, but carry some euros for small cafés, markets and tourist taxes; a cover charge (coperto) on restaurant bills is normal.",
+  "seasons": "LLSSHHPPHSLL",
+  "id": "puglia",
+  "name": "Puglia · Alberobello & Polignano",
+  "at": [
+   40.95,
+   17.3
+  ],
+  "wiki": "Apulia",
+  "cover": "Polignano a Mare",
+  "tagline": "Trulli, white towns and the Adriatic",
+  "summary": "Puglia, the heel of Italy, has cone-roofed trulli houses, white hill towns, cliff-top swimming and olive groves to the horizon. Its food is simple and superb, and Baroque Lecce and the cave city of Matera are within reach.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "May, June, September and October are ideal. July and August are hot and busy with Italian holidaymakers. Winter is quiet and many places close.",
+  "arrival": "Fly to Bari or Brindisi. Trains run from Rome to Bari in about 4 hours. A car is the easiest way to explore.",
+  "gettingAround": "Rent a car; regional trains link Bari, Polignano, Monopoli and the towns of the Itria Valley.",
+  "dailyBudget": [
+   70,
+   200
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "foodTip": "Orecchiette with turnip tops, burrata, panzerotti, and raw seafood in Bari.",
+  "buyTip": "Olive oil, ceramics from Grottaglie and taralli biscuits.",
+  "baseArea": "Monopoli or Polignano a Mare",
+  "hotel": [
+   70,
+   250
+  ],
+  "connections": [
+   {
+    "to": "naples",
+    "mode": "Road",
+    "minutes": 240,
+    "note": "By car or bus."
+   },
+   {
+    "to": "rome",
+    "mode": "Train",
+    "minutes": 240,
+    "note": "Frecciarossa to Bari."
+   }
+  ],
+  "items": [
+   {
+    "name": "Alberobello",
+    "kind": "see",
+    "id": "puglia-alberobello",
+    "at": [
+     40.783,
+     17.238
+    ],
+    "wiki": "Alberobello",
+    "area": "Itria Valley",
+    "summary": "A town of over a thousand trulli, whitewashed stone houses with cone roofs.",
+    "expect": "Busy with day-trippers; souvenir shops fill some trulli.",
+    "tip": "Stay overnight in a trullo.",
+    "why": "A World Heritage fairytale town.",
+    "flow": [
+     "Rione Monti.",
+     "Trullo Sovrano."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Polignano a Mare",
+    "kind": "see",
+    "id": "puglia-polignano",
+    "at": [
+     40.996,
+     17.22
+    ],
+    "wiki": "Polignano a Mare",
+    "area": "Polignano",
+    "summary": "A white town on the cliff edge above the Lama Monachile cove.",
+    "expect": "The cove is tiny and busy in summer.",
+    "tip": "Swim in the cove early morning.",
+    "why": "Puglia's most dramatic seaside town.",
+    "flow": [
+     "Old town.",
+     "Lama Monachile."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Monopoli old town",
+    "kind": "see",
+    "id": "puglia-monopoli",
+    "at": [
+     40.952,
+     17.303
+    ],
+    "wiki": "Monopoli",
+    "area": "Monopoli",
+    "summary": "A walled fishing town with a castle and a harbour of blue boats.",
+    "expect": "Small beaches nearby.",
+    "tip": "Eat seafood by the old port.",
+    "why": "A lived-in, local town.",
+    "flow": [
+     "Old port.",
+     "Castle walls."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Ostuni",
+    "kind": "see",
+    "id": "puglia-ostuni",
+    "at": [
+     40.7296,
+     17.577
+    ],
+    "wiki": "Ostuni",
+    "area": "Ostuni",
+    "summary": "The 'white city', a hilltop of whitewashed lanes and a cathedral.",
+    "expect": "Steep lanes.",
+    "tip": "Watch the sunset from the walls.",
+    "why": "Puglia's white town.",
+    "flow": [
+     "Lanes.",
+     "Cathedral."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Locorotondo",
+    "kind": "see",
+    "id": "puglia-locorotondo",
+    "at": [
+     40.755,
+     17.326
+    ],
+    "wiki": "Locorotondo",
+    "area": "Itria Valley",
+    "summary": "A round hill town of white lanes overlooking trulli and vineyards.",
+    "expect": "Quiet and pretty.",
+    "tip": "Taste the local white wine.",
+    "why": "One of Italy's most beautiful villages.",
+    "flow": [
+     "Lanes.",
+     "Valley view."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Matera",
+    "kind": "see",
+    "id": "puglia-matera",
+    "at": [
+     40.6664,
+     16.6043
+    ],
+    "wiki": "Sassi di Matera",
+    "area": "Matera",
+    "summary": "An ancient city of cave dwellings and rock churches carved into a ravine.",
+    "expect": "About 1.5 hours by car.",
+    "tip": "Stay for the sassi lit up at night.",
+    "why": "One of the world's oldest inhabited cities.",
+    "flow": [
+     "Drive to Matera.",
+     "Sassi walk.",
+     "Rock churches."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Lecce",
+    "kind": "see",
+    "id": "puglia-lecce",
+    "at": [
+     40.3515,
+     18.175
+    ],
+    "wiki": "Lecce",
+    "area": "Lecce",
+    "summary": "The 'Florence of the south', a city of honey-coloured Baroque churches.",
+    "expect": "About 1.5 hours by car or train.",
+    "tip": "See the Basilica di Santa Croce.",
+    "why": "Southern Baroque at its finest.",
+    "flow": [
+     "Train or drive south.",
+     "Santa Croce.",
+     "Roman amphitheatre."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Orecchiette",
+    "kind": "eat",
+    "id": "puglia-orecchiette",
+    "at": [
+     40.951,
+     17.302
+    ],
+    "wiki": "Orecchiette",
+    "area": "Monopoli",
+    "venue": "food-area",
+    "summary": "Little ear-shaped pasta with turnip tops or tomato sauce.",
+    "expect": "Women make it by hand in Bari's old town.",
+    "tip": "Watch the pasta makers in Bari Vecchia.",
+    "why": "Puglia's signature pasta.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     16
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Apulian",
+    "order": [
+     "Orecchiette con cime di rapa"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Burrata",
+    "kind": "eat",
+    "id": "puglia-burrata",
+    "at": [
+     40.996,
+     17.221
+    ],
+    "wiki": "Burrata",
+    "area": "Polignano",
+    "venue": "food-area",
+    "summary": "Fresh mozzarella filled with cream, made in Puglia.",
+    "expect": "Best eaten the day it's made.",
+    "tip": "Buy it from a caseificio.",
+    "why": "Puglia's creamy gift.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Apulian",
+    "order": [
+     "Burrata",
+     "Taralli"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Panzerotti",
+    "kind": "eat",
+    "id": "puglia-panzerotti",
+    "at": [
+     40.95,
+     17.3
+    ],
+    "wiki": "Panzerotti",
+    "area": "Monopoli",
+    "venue": "food-area",
+    "summary": "Fried half-moon pastries with tomato and mozzarella.",
+    "expect": "Street food stalls.",
+    "tip": "Eat one hot.",
+    "why": "Puglia's favourite snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Apulian",
+    "order": [
+     "Panzerotto"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
