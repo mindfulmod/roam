@@ -51,6 +51,15 @@
     filter: invert(1) hue-rotate(180deg) brightness(0.85) contrast(0.9);
   }
 }
+/* The logo's teal lane turns paper-white on dark, as in images/brand/logo-dark.svg. */
+:root[data-theme='dark'] .brandmark {
+  color: #f6f5f0;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) .brandmark {
+    color: #f6f5f0;
+  }
+}
 .theme-btn {
   display: inline-grid;
   place-items: center;

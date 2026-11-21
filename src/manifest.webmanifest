@@ -1,0 +1,21 @@
+{
+  "name": "Tandem Roads",
+  "short_name": "Tandem Roads",
+  "description": "Plan trips with friends and tell the story together.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f5f0",
+  "theme_color": "#165b4e",
+  "icons": [
+    { "src": "images/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "images/brand/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    {
+      "src": "images/brand/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    { "src": "images/brand/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}
