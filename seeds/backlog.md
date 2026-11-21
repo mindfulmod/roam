@@ -2,9 +2,9 @@
 
 Cities still to add, grouped by region and ordered roughly by how many visitors they draw. Tick a city when its seed is merged. "Minor" cities are smaller places people still travel for.
 
-## Done through the pipeline (124)
+## Done through the pipeline (130)
 
-Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla, Jerusalem, Tel Aviv, Haifa, Karbala, Najaf, Mashhad, Varanasi, Amritsar, Rishikesh, Mumbai, Goa, Bodh Gaya, Udaipur, Jodhpur, Kochi, Los Angeles, Miami, Orlando, Washington, D.C., Chicago, Honolulu, New Orleans, Boston, Seattle, San Diego, Lourdes, Fátima, Santiago de Compostela, Assisi, Lumbini, Kandy, Koyasan, Ise, Ajmer, Lhasa, Lalibela, Munich, Zurich, Stockholm, Brussels, Warsaw, Heraklion, Rhodes, Macau, Bali, Doha, Abu Dhabi, Penang, Jeju, Okinawa.
+Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca, Cancún, Tulum, Mérida, Oaxaca, San Miguel de Allende (with Guanajuato), Mecca, Medina, Riyadh, Jeddah, AlUla, Jerusalem, Tel Aviv, Haifa, Karbala, Najaf, Mashhad, Varanasi, Amritsar, Rishikesh, Mumbai, Goa, Bodh Gaya, Udaipur, Jodhpur, Kochi, Los Angeles, Miami, Orlando, Washington, D.C., Chicago, Honolulu, New Orleans, Boston, Seattle, San Diego, Lourdes, Fátima, Santiago de Compostela, Assisi, Lumbini, Kandy, Koyasan, Ise, Ajmer, Lhasa, Lalibela, Munich, Zurich, Stockholm, Brussels, Warsaw, Heraklion, Rhodes, Macau, Bali, Doha, Abu Dhabi, Penang, Jeju, Okinawa, Toronto, Montreal, Melbourne, Auckland, Punta Cana, Sharm El Sheikh.
 
 ## Europe
 
@@ -20,7 +20,7 @@ Minor: Naoshima, Shirakawa-go, Miyajima, Kamakura, Matsumoto, Jiufen, Hualien, Z
 
 ## Africa
 
-Major: Casablanca, Chefchaouen, Essaouira, Tangier, Merzouga (Sahara), Tunis, Alexandria, Aswan, Sharm El Sheikh, Hurghada, Johannesburg, Durban, Kruger (Hoedspruit), Garden Route (Knysna), Stellenbosch, Windhoek, Sossusvlei, Maun (Okavango), Livingstone, Serengeti, Kilimanjaro (Moshi), Dar es Salaam, Mombasa, Maasai Mara, Kigali, Kampala, Addis Ababa, Accra, Dakar, Mauritius, Seychelles (Mahé), Antananarivo.
+Major: Casablanca, Chefchaouen, Essaouira, Tangier, Merzouga (Sahara), Tunis, Alexandria, Aswan, Hurghada, Johannesburg, Durban, Kruger (Hoedspruit), Garden Route (Knysna), Stellenbosch, Windhoek, Sossusvlei, Maun (Okavango), Livingstone, Serengeti, Kilimanjaro (Moshi), Dar es Salaam, Mombasa, Maasai Mara, Kigali, Kampala, Addis Ababa, Accra, Dakar, Mauritius, Seychelles (Mahé), Antananarivo.
 
 Minor: Lamu, Stone Town day areas, Swakopmund, Franschhoek, Hermanus, Siwa, Dahab, Ouarzazate, Djerba, Cape Coast, Bwindi.
 
@@ -32,7 +32,7 @@ Minor: Paraty, Ouro Preto, Jericoacoara, Fernando de Noronha, Bonito, El Chalté
 
 ## North America, Central America and the Caribbean
 
-Major: Portland, Philadelphia, Nashville, Austin, Denver, Maui, Anchorage, Santa Fe, Savannah, Charleston, Toronto, Montréal, Québec City, Ottawa, Niagara Falls, Victoria, Whistler, Jasper, Halifax, Playa del Carmen, Guadalajara, Puerto Vallarta, Los Cabos, Havana, San Juan, Punta Cana, Nassau, Montego Bay, Panama City, San José (Costa Rica), La Fortuna, Antigua Guatemala, Belize (San Pedro).
+Major: Portland, Philadelphia, Nashville, Austin, Denver, Maui, Anchorage, Santa Fe, Savannah, Charleston, Montréal, Québec City, Ottawa, Niagara Falls, Victoria, Whistler, Jasper, Halifax, Playa del Carmen, Guadalajara, Puerto Vallarta, Los Cabos, Havana, San Juan, Nassau, Montego Bay, Panama City, San José (Costa Rica), La Fortuna, Antigua Guatemala, Belize (San Pedro).
 
 US national parks still to cover: Yellowstone (West Yellowstone), Glacier (Whitefish), Great Smoky Mountains (Gatlinburg), Acadia (Bar Harbor), Rocky Mountain (Estes Park), Olympic (Port Angeles), Bryce Canyon, Sequoia, Joshua Tree, Death Valley, Everglades, Denali, Hawaii Volcanoes (Hilo), Page (Antelope Canyon), Monument Valley.
 
@@ -40,6 +40,6 @@ Minor: Sedona, Lake Tahoe, Key West, Napa, Monterey, Palm Springs, Tofino, Lunen
 
 ## Oceania and the Pacific
 
-Major: Melbourne, Brisbane, Gold Coast, Cairns (Great Barrier Reef), Perth, Adelaide, Hobart, Uluru, Darwin, Auckland, Rotorua, Wellington, Christchurch, Wanaka, Nadi (Fiji), Bora Bora, Tahiti, Rarotonga.
+Major: Brisbane, Gold Coast, Cairns (Great Barrier Reef), Perth, Adelaide, Hobart, Uluru, Darwin, Rotorua, Wellington, Christchurch, Wanaka, Nadi (Fiji), Bora Bora, Tahiti, Rarotonga.
 
 Minor: Byron Bay, Whitsundays (Airlie Beach), Great Ocean Road (Apollo Bay), Kangaroo Island, Broome, Bay of Islands, Franz Josef, Kaikōura, Port Vila, Apia.
