@@ -1,0 +1,576 @@
+{
+  "id": "york",
+  "name": "York",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "lat": 53.959,
+  "lon": -1.0815,
+  "wiki": "York",
+  "tagline": "A walled medieval city of Romans and Vikings",
+  "summary": "York's medieval walls circle a city founded by the Romans and ruled by the Vikings. The great Gothic Minster towers over the crooked timber houses of the Shambles, and its museums range from Viking life to Britain's railway history.",
+  "days": 2,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    12
+  ],
+  "seasonNote": "Spring to autumn is best. The Christmas market is from mid-November. February brings the Viking festival.",
+  "arrival": "Trains from London King's Cross take about 2 hours, and from Edinburgh about 2.5 hours.",
+  "gettingAround": "The old city is small and best on foot.",
+  "cashTip": "Cards and tap payments work almost everywhere, even for small amounts; tipping about 10 to 12.5 percent in restaurants is common if service isn't included.",
+  "dailyBudget": [
+    80,
+    220
+  ],
+  "currency": "GBP",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Yorkshire puddings, fish and chips, and tea and fat rascals at Bettys.",
+  "buyTip": "Yorkshire tea, jet jewellery from Whitby and local gin.",
+  "baseArea": "Inside the city walls",
+  "connections": [
+    {
+      "to": "london",
+      "mode": "Train",
+      "minutes": 120,
+      "note": "LNER from King's Cross."
+    },
+    {
+      "to": "edinburgh",
+      "mode": "Train",
+      "minutes": 150,
+      "note": "East Coast Main Line."
+    }
+  ],
+  "sources": [
+    {
+      "title": "York on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/York",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=York%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=York%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "York Minster",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "york-york-minster",
+      "name": "York Minster",
+      "kind": "see",
+      "lat": 53.9623,
+      "lon": -1.0819,
+      "wiki": "York Minster",
+      "summary": "One of Europe's largest Gothic cathedrals, with the vast medieval Great East Window.",
+      "expect": "A ticket includes the undercroft; the tower is extra.",
+      "tip": "Climb the 275 tower steps.",
+      "area": "Minster Yard",
+      "duration": 2,
+      "price": [
+        18,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=York%20Minster%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=York%20Minster%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=York%20Minster%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "One of Europe's largest Gothic cathedrals, with the vast medieval Great East Window.",
+        "A masterpiece of medieval glass."
+      ],
+      "visitFlow": [
+        "Nave.",
+        "Great East Window.",
+        "Tower climb."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "A ticket includes the undercroft; the tower is extra.",
+        "Climb the 275 tower steps."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "york-york-walls",
+      "name": "City walls",
+      "kind": "see",
+      "lat": 53.962,
+      "lon": -1.087,
+      "wiki": "York city walls",
+      "summary": "Walk on top of the longest medieval walls in England.",
+      "expect": "Free; about two hours for the full loop.",
+      "tip": "Walk the stretch from Bootham Bar to Monk Bar for Minster views.",
+      "area": "City walls",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=City%20walls%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=City%20walls%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=City%20walls%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Walk on top of the longest medieval walls in England.",
+        "York from above."
+      ],
+      "visitFlow": [
+        "Bootham Bar.",
+        "Monk Bar."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Free; about two hours for the full loop.",
+        "Walk the stretch from Bootham Bar to Monk Bar for Minster views."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "york-york-shambles",
+      "name": "The Shambles",
+      "kind": "see",
+      "lat": 53.9594,
+      "lon": -1.0805,
+      "wiki": "The Shambles",
+      "summary": "A crooked medieval street of overhanging timber houses.",
+      "expect": "Very busy; early morning is quietest.",
+      "tip": "Come before 9 am.",
+      "area": "City centre",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=The%20Shambles%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=The%20Shambles%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=The%20Shambles%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A crooked medieval street of overhanging timber houses.",
+        "Europe's best-preserved medieval street."
+      ],
+      "visitFlow": [
+        "Walk the street.",
+        "Shambles Market."
+      ],
+      "bestFor": "Visitors interested in history and context and local shopping",
+      "tradeoffs": [
+        "Very busy; early morning is quietest.",
+        "Come before 9 am."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "york-york-railway-museum",
+      "name": "National Railway Museum",
+      "kind": "see",
+      "lat": 53.96,
+      "lon": -1.096,
+      "wiki": "National Railway Museum",
+      "summary": "A huge free museum of locomotives, royal trains and the Mallard.",
+      "expect": "Free entry; donations welcome.",
+      "tip": "See the Japanese bullet train.",
+      "area": "Leeman Road",
+      "duration": 2.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=National%20Railway%20Museum%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=National%20Railway%20Museum%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=National%20Railway%20Museum%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "A huge free museum of locomotives, royal trains and the Mallard.",
+        "The world's largest railway museum."
+      ],
+      "visitFlow": [
+        "Great Hall.",
+        "Station Hall."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free entry; donations welcome.",
+        "See the Japanese bullet train."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "york-york-jorvik",
+      "name": "Jorvik Viking Centre",
+      "kind": "see",
+      "lat": 53.9575,
+      "lon": -1.0806,
+      "wiki": "Jorvik Viking Centre",
+      "summary": "A ride through a reconstructed Viking street, built on the dig site.",
+      "expect": "Smells and sounds included; book a time.",
+      "tip": "Go early to avoid queues.",
+      "area": "Coppergate",
+      "duration": 1.25,
+      "price": [
+        15,
+        18
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Jorvik%20Viking%20Centre%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=Jorvik%20Viking%20Centre%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Jorvik%20Viking%20Centre%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "A ride through a reconstructed Viking street, built on the dig site.",
+        "Viking York brought to life."
+      ],
+      "visitFlow": [
+        "Ride.",
+        "Gallery of finds."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Smells and sounds included; book a time.",
+        "Go early to avoid queues."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "york-york-cliffords-tower",
+      "name": "Clifford's Tower",
+      "kind": "see",
+      "lat": 53.9558,
+      "lon": -1.0796,
+      "wiki": "Clifford's Tower",
+      "summary": "A ruined Norman keep on a high mound with a rooftop deck.",
+      "expect": "A steep climb up the mound.",
+      "tip": "Pair with the York Castle Museum next door.",
+      "area": "Castle area",
+      "duration": 0.75,
+      "price": [
+        9,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Clifford's%20Tower%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=Clifford's%20Tower%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Clifford's%20Tower%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A ruined Norman keep on a high mound with a rooftop deck.",
+        "A 360-degree view over York."
+      ],
+      "visitFlow": [
+        "Climb.",
+        "Roof deck."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "A steep climb up the mound.",
+        "Pair with the York Castle Museum next door."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "york-york-castle-howard",
+      "name": "Castle Howard",
+      "kind": "see",
+      "lat": 54.1215,
+      "lon": -0.906,
+      "wiki": "Castle Howard",
+      "summary": "A grand Baroque house and gardens, used in Brideshead Revisited.",
+      "expect": "About 30 minutes by car.",
+      "tip": "Walk to the Temple of the Four Winds.",
+      "area": "Howardian Hills",
+      "duration": 4,
+      "price": [
+        25,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Castle%20Howard%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=Castle%20Howard%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Castle%20Howard%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A grand Baroque house and gardens, used in Brideshead Revisited.",
+        "One of England's finest houses."
+      ],
+      "visitFlow": [
+        "House.",
+        "Gardens.",
+        "Temple."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "About 30 minutes by car.",
+        "Walk to the Temple of the Four Winds."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "york-york-bettys",
+      "name": "Bettys Tea Room",
+      "kind": "eat",
+      "lat": 53.9599,
+      "lon": -1.0847,
+      "wiki": "Bettys and Taylors of Harrogate",
+      "summary": "A Swiss-Yorkshire tea room with cakes and fat rascal scones.",
+      "expect": "Queues; afternoon tea upstairs.",
+      "tip": "Order a Yorkshire fat rascal.",
+      "area": "St Helen's Square",
+      "duration": 1,
+      "price": [
+        10,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bettys%20Tea%20Room%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=Bettys%20Tea%20Room%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bettys%20Tea%20Room%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A Swiss-Yorkshire tea room with cakes and fat rascal scones.",
+        "A Yorkshire institution."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Queues; afternoon tea upstairs.",
+        "Order a Yorkshire fat rascal."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "British",
+      "mustOrder": [
+        "Fat rascal",
+        "Yorkshire tea"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "york-york-yorkshire-pudding",
+      "name": "Yorkshire pudding",
+      "kind": "eat",
+      "lat": 53.958,
+      "lon": -1.083,
+      "wiki": "Yorkshire pudding",
+      "summary": "Crisp batter puddings with roast beef and gravy, or as a giant wrap.",
+      "expect": "Pubs serve them with a Sunday roast.",
+      "tip": "Try a giant Yorkshire pudding wrap at the market.",
+      "area": "City centre",
+      "duration": 1,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Yorkshire%20pudding%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=Yorkshire%20pudding%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Yorkshire%20pudding%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Crisp batter puddings with roast beef and gravy, or as a giant wrap.",
+        "Yorkshire's own dish."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Pubs serve them with a Sunday roast.",
+        "Try a giant Yorkshire pudding wrap at the market."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "British",
+      "mustOrder": [
+        "Roast beef",
+        "Yorkshire pudding"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "york-york-fish-chips",
+      "name": "Fish and chips",
+      "kind": "eat",
+      "lat": 53.96,
+      "lon": -1.08,
+      "wiki": "Fish and chips",
+      "summary": "Haddock in crisp batter with chips and mushy peas.",
+      "expect": "Chip shops everywhere.",
+      "tip": "Ask for haddock, the northern choice.",
+      "area": "City centre",
+      "duration": 0.5,
+      "price": [
+        10,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fish%20and%20chips%2C%20York",
+        "https://www.google.com/maps/search/?api=1&query=Fish%20and%20chips%2C%20York"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fish%20and%20chips%2C%20York"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Haddock in crisp batter with chips and mushy peas.",
+        "A northern English classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Chip shops everywhere.",
+        "Ask for haddock, the northern choice."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "British",
+      "mustOrder": [
+        "Haddock and chips",
+        "Mushy peas"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
