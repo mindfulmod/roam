@@ -70,8 +70,8 @@
       "id": "jeju-jeju-seongsan",
       "name": "Seongsan Ilchulbong",
       "kind": "see",
-      "lat": 33.4581,
-      "lon": 126.9425,
+      "lat": 33.4585,
+      "lon": 126.942,
       "wiki": "Seongsan Ilchulbong",
       "summary": "A tuff cone crater rising from the sea, climbed for sunrise.",
       "expect": "A 30-minute climb with many stairs.",
@@ -112,14 +112,22 @@
         "A 30-minute climb with many stairs.",
         "Go at sunrise, then watch the haenyeo dive below."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36417,
+          "period": "202511-202610",
+          "title": "Seongsan Ilchulbong",
+          "url": "https://en.wikipedia.org/wiki/Seongsan_Ilchulbong",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeju-jeju-hallasan",
       "name": "Hallasan",
       "kind": "see",
-      "lat": 33.3617,
-      "lon": 126.5292,
+      "lat": 33.36167,
+      "lon": 126.52917,
       "wiki": "Hallasan",
       "summary": "South Korea's highest mountain, with a crater lake at the summit.",
       "expect": "Summit trails need booking ahead and a very early start.",
@@ -160,14 +168,22 @@
         "Summit trails need booking ahead and a very early start.",
         "Take the Yeongsil trail for a shorter scenic hike."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 55768,
+          "period": "202511-202610",
+          "title": "Hallasan",
+          "url": "https://en.wikipedia.org/wiki/Hallasan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeju-jeju-manjanggul",
       "name": "Manjanggul Lava Tube",
       "kind": "see",
-      "lat": 33.5283,
-      "lon": 126.7714,
+      "lat": 33.5282,
+      "lon": 126.7701,
       "wiki": "Manjanggul",
       "summary": "A lava tunnel over 7 km long, with a 1 km section open to walk.",
       "expect": "Cool and wet inside year round.",
@@ -206,7 +222,15 @@
         "Cool and wet inside year round.",
         "Bring a jacket."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6307,
+          "period": "202511-202610",
+          "title": "Manjanggul",
+          "url": "https://en.wikipedia.org/wiki/Manjanggul",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeju-jeju-haenyeo",
@@ -252,7 +276,16 @@
         "Short shows near Seongsan; their catch is sold fresh.",
         "Visit the Haenyeo Museum in Gujwa too."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 111274,
+          "period": "202511-202610",
+          "title": "Haenyeo",
+          "url": "https://en.wikipedia.org/wiki/Haenyeo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeju-jeju-jusangjeolli",
@@ -351,8 +384,8 @@
       "id": "jeju-jeju-udo",
       "name": "Udo Island",
       "kind": "see",
-      "lat": 33.5,
-      "lon": 126.95,
+      "lat": 33.50528,
+      "lon": 126.95583,
       "wiki": "Udo (island)",
       "summary": "A small island of white beaches, peanut ice cream and coastal cycling.",
       "expect": "A 15-minute ferry from Seongsan.",
@@ -392,8 +425,16 @@
         "A 15-minute ferry from Seongsan.",
         "Rent an e-bike to loop the island."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5432,
+          "period": "202511-202610",
+          "title": "Udo (Jeju Province)",
+          "url": "https://en.wikipedia.org/wiki/Udo_(Jeju_Province)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jeju-jeju-black-pork",
@@ -569,5 +610,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -76,8 +76,8 @@
       "id": "okinawa-okinawa-shuri",
       "name": "Shuri Castle",
       "kind": "see",
-      "lat": 26.217,
-      "lon": 127.7195,
+      "lat": 26.21703,
+      "lon": 127.71948,
       "wiki": "Shurijo",
       "summary": "The red palace of the Ryukyu kings on a hill over Naha, being rebuilt after a 2019 fire.",
       "expect": "Grounds, gates and the reconstruction site are open to visit.",
@@ -118,14 +118,22 @@
         "Grounds, gates and the reconstruction site are open to visit.",
         "Watch the rebuilding through the viewing windows."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 74010,
+          "period": "202511-202610",
+          "title": "Shuri Castle",
+          "url": "https://en.wikipedia.org/wiki/Shuri_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okinawa-okinawa-kokusai",
       "name": "Kokusai-dōri",
       "kind": "see",
-      "lat": 26.215,
-      "lon": 127.687,
+      "lat": 26.2163,
+      "lon": 127.68828,
       "wiki": "Kokusai Street",
       "summary": "Naha's busy main street of shops, bars and restaurants.",
       "expect": "Car-free on Sunday afternoons.",
@@ -164,15 +172,14 @@
       "tradeoffs": [
         "Car-free on Sunday afternoons.",
         "Duck into the side arcades and the public market."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "okinawa-okinawa-tsuboya",
       "name": "Tsuboya pottery street",
       "kind": "see",
-      "lat": 26.213,
-      "lon": 127.692,
+      "lat": 26.21222,
+      "lon": 127.67917,
       "wiki": "Tsuboya",
       "summary": "A quiet lane of pottery kilns and shops near the market.",
       "expect": "Small museum and workshops.",
@@ -212,14 +219,22 @@
         "Small museum and workshops.",
         "Buy a shisa lion as a souvenir."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 106017,
+          "period": "202511-202610",
+          "title": "Naha",
+          "url": "https://en.wikipedia.org/wiki/Naha",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okinawa-okinawa-sefa-utaki",
       "name": "Sēfa-utaki",
       "kind": "see",
-      "lat": 26.1736,
-      "lon": 127.8278,
+      "lat": 26.17336,
+      "lon": 127.82741,
       "wiki": "Sēfa-utaki",
       "summary": "The holiest site of the Ryukyu faith, a rock shrine in a forest.",
       "expect": "A short walk through the woods.",
@@ -259,7 +274,15 @@
         "A short walk through the woods.",
         "Look through the triangular rock gap to Kudaka Island."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4049,
+          "period": "202511-202610",
+          "title": "Sefa-utaki",
+          "url": "https://en.wikipedia.org/wiki/Sefa-utaki",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okinawa-okinawa-peace-park",
@@ -311,8 +334,8 @@
       "id": "okinawa-okinawa-churaumi",
       "name": "Churaumi Aquarium",
       "kind": "see",
-      "lat": 26.6943,
-      "lon": 127.8779,
+      "lat": 26.69439,
+      "lon": 127.87794,
       "wiki": "Okinawa Churaumi Aquarium",
       "summary": "A giant tank with whale sharks and manta rays.",
       "expect": "About two hours' drive north of Naha.",
@@ -353,15 +376,23 @@
         "About two hours' drive north of Naha.",
         "Combine with Emerald Beach next door."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 25433,
+          "period": "202511-202610",
+          "title": "Okinawa Churaumi Aquarium",
+          "url": "https://en.wikipedia.org/wiki/Okinawa_Churaumi_Aquarium",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okinawa-okinawa-kerama",
       "name": "Kerama Islands",
       "kind": "see",
       "lat": 26.2,
-      "lon": 127.3,
+      "lon": 127.333,
       "wiki": "Kerama Islands",
       "summary": "A national park of white beaches and clear water, with sea turtles.",
       "expect": "Ferries from Naha take 35 to 70 minutes.",
@@ -402,8 +433,16 @@
         "Ferries from Naha take 35 to 70 minutes.",
         "Stay a night on Tokashiki or Zamami."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12719,
+          "period": "202511-202610",
+          "title": "Kerama Islands",
+          "url": "https://en.wikipedia.org/wiki/Kerama_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okinawa-okinawa-soba",
@@ -579,5 +618,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
