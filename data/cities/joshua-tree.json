@@ -111,7 +111,16 @@
         "Park entry fee.",
         "Watch climbers on the rocks."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 228360,
+          "period": "202511-202610",
+          "title": "Joshua Tree National Park",
+          "url": "https://en.wikipedia.org/wiki/Joshua_Tree_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "joshua-tree-jt-keys",
@@ -295,14 +304,23 @@
         "After dark.",
         "Come at new moon."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 228360,
+          "period": "202511-202610",
+          "title": "Joshua Tree National Park",
+          "url": "https://en.wikipedia.org/wiki/Joshua_Tree_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "joshua-tree-jt-pioneertown",
       "name": "Pioneertown",
       "kind": "see",
-      "lat": 34.156,
-      "lon": -116.497,
+      "lat": 34.15444,
+      "lon": -116.49861,
       "wiki": "Pioneertown, California",
       "summary": "1940s Western movie set town turned quirky village.",
       "expect": "Free.",
@@ -342,14 +360,22 @@
         "Free.",
         "Stay for music at Pappy's."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 50727,
+          "period": "202511-202610",
+          "title": "Pioneertown, California",
+          "url": "https://en.wikipedia.org/wiki/Pioneertown%2C_California",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "joshua-tree-jt-integratron",
       "name": "The Integratron",
       "kind": "see",
-      "lat": 34.295,
-      "lon": -116.404,
+      "lat": 34.2943,
+      "lon": -116.4038,
       "wiki": "Integratron",
       "summary": "Domed wooden building offering sound baths.",
       "expect": "Book ahead.",
@@ -389,7 +415,15 @@
         "Book ahead.",
         "Bring a blanket."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 35439,
+          "period": "202511-202610",
+          "title": "Integratron",
+          "url": "https://en.wikipedia.org/wiki/Integratron",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "joshua-tree-jt-pappy",
@@ -453,8 +487,8 @@
       "id": "joshua-tree-jt-crossroads",
       "name": "Joshua Tree café breakfast",
       "kind": "eat",
-      "lat": 34.1348,
-      "lon": -116.3134,
+      "lat": 34.13472,
+      "lon": -116.31167,
       "wiki": "Joshua Tree, California",
       "summary": "Desert cafés serving big breakfasts before the park.",
       "expect": "Mornings.",
@@ -493,7 +527,6 @@
         "Mornings.",
         "Fill water bottles here."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -563,5 +596,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

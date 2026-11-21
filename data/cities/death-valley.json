@@ -71,8 +71,8 @@
       "id": "death-valley-dv-badwater",
       "name": "Badwater Basin",
       "kind": "see",
-      "lat": 36.2297,
-      "lon": -116.767,
+      "lat": 36.25028,
+      "lon": -116.82583,
       "wiki": "Badwater Basin",
       "summary": "Lowest point in North America, a white salt flat with hexagon patterns.",
       "expect": "Park entry fee.",
@@ -111,14 +111,22 @@
         "Park entry fee.",
         "Walk 1 km out to find clean salt polygons."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 148040,
+          "period": "202511-202610",
+          "title": "Badwater Basin",
+          "url": "https://en.wikipedia.org/wiki/Badwater_Basin",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "death-valley-dv-zabriskie",
       "name": "Zabriskie Point",
       "kind": "see",
       "lat": 36.42,
-      "lon": -116.81,
+      "lon": -116.81111,
       "wiki": "Zabriskie Point",
       "summary": "Golden badlands viewpoint, best at sunrise.",
       "expect": "Short walk up.",
@@ -158,7 +166,15 @@
         "Short walk up.",
         "Arrive 30 minutes before sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24035,
+          "period": "202511-202610",
+          "title": "Zabriskie Point",
+          "url": "https://en.wikipedia.org/wiki/Zabriskie_Point",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "death-valley-dv-artists",
@@ -251,14 +267,23 @@
         "Free roaming.",
         "Sunrise or sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10606,
+          "period": "202511-202610",
+          "title": "Places of interest in the Death Valley area",
+          "url": "https://en.wikipedia.org/wiki/Places_of_interest_in_the_Death_Valley_area",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "death-valley-dv-dantes",
       "name": "Dante's View",
       "kind": "see",
-      "lat": 36.221,
-      "lon": -116.727,
+      "lat": 36.2206,
+      "lon": -116.7264,
       "wiki": "Dante's View",
       "summary": "Viewpoint 1,600 metres above Badwater Basin.",
       "expect": "Narrow final road.",
@@ -297,7 +322,15 @@
         "Narrow final road.",
         "Cooler than the valley."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12705,
+          "period": "202511-202610",
+          "title": "Dante's View",
+          "url": "https://en.wikipedia.org/wiki/Dante's_View",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "death-valley-dv-golden",
@@ -350,8 +383,8 @@
       "id": "death-valley-dv-ubehebe",
       "name": "Ubehebe Crater",
       "kind": "see",
-      "lat": 37.01,
-      "lon": -117.456,
+      "lat": 37.00972,
+      "lon": -117.45028,
       "wiki": "Ubehebe Crater",
       "summary": "Volcanic crater 200 metres deep.",
       "expect": "Long drive north.",
@@ -390,15 +423,23 @@
         "Long drive north.",
         "Walk the rim."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7283,
+          "period": "202511-202610",
+          "title": "Ubehebe Crater",
+          "url": "https://en.wikipedia.org/wiki/Ubehebe_Crater",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "death-valley-dv-furnace",
       "name": "Furnace Creek restaurants",
       "kind": "eat",
-      "lat": 36.457,
-      "lon": -116.865,
+      "lat": 36.45806,
+      "lon": -116.87083,
       "wiki": "Furnace Creek, California",
       "summary": "Ranch restaurants and cafés in the oasis.",
       "expect": "Lunch and dinner.",
@@ -437,7 +478,6 @@
         "Lunch and dinner.",
         "Book for the Inn."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -455,8 +495,8 @@
       "id": "death-valley-dv-saloon",
       "name": "Stovepipe Wells saloon",
       "kind": "eat",
-      "lat": 36.606,
-      "lon": -117.146,
+      "lat": 36.60611,
+      "lon": -117.14639,
       "wiki": "Stovepipe Wells, California",
       "summary": "Old West saloon with burgers and beer.",
       "expect": "Evenings.",
@@ -495,7 +535,6 @@
         "Evenings.",
         "After dune sunset."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -566,5 +605,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

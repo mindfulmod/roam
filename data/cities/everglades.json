@@ -65,8 +65,8 @@
       "id": "everglades-evg-anhinga",
       "name": "Anhinga Trail",
       "kind": "see",
-      "lat": 25.3824,
-      "lon": -80.6086,
+      "lat": 25.38167,
+      "lon": -80.60972,
       "wiki": "Anhinga Trail",
       "summary": "Boardwalk where alligators, turtles and anhingas are almost guaranteed.",
       "expect": "Park entry fee.",
@@ -105,14 +105,22 @@
         "Park entry fee.",
         "Go in the morning in winter."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4357,
+          "period": "202511-202610",
+          "title": "Anhinga Trail",
+          "url": "https://en.wikipedia.org/wiki/Anhinga_Trail",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "everglades-evg-shark",
       "name": "Shark Valley loop",
       "kind": "see",
-      "lat": 25.7568,
-      "lon": -80.766,
+      "lat": 25.70778,
+      "lon": -80.76306,
       "wiki": "Shark Valley",
       "summary": "15-mile paved loop by bike or tram to an observation tower.",
       "expect": "Bike rental or tram.",
@@ -152,7 +160,15 @@
         "Bike rental or tram.",
         "Go early, gators bask on the road."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7209,
+          "period": "202511-202610",
+          "title": "Shark Valley",
+          "url": "https://en.wikipedia.org/wiki/Shark_Valley",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "everglades-evg-pahayokee",
@@ -199,14 +215,23 @@
         "Short stop.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 97470,
+          "period": "202511-202610",
+          "title": "Everglades National Park",
+          "url": "https://en.wikipedia.org/wiki/Everglades_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "everglades-evg-flamingo",
       "name": "Flamingo",
       "kind": "see",
-      "lat": 25.1414,
-      "lon": -80.9244,
+      "lat": 25.14083,
+      "lon": -80.92417,
       "wiki": "Flamingo, Florida",
       "summary": "Visitor centre on Florida Bay with crocodiles and manatees.",
       "expect": "Long drive to the end of the road.",
@@ -245,8 +270,16 @@
         "Long drive to the end of the road.",
         "Rent a kayak."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14015,
+          "period": "202511-202610",
+          "title": "Flamingo, Florida",
+          "url": "https://en.wikipedia.org/wiki/Flamingo%2C_Florida",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "everglades-evg-airboat",
@@ -293,7 +326,16 @@
         "Paid tours.",
         "Pick a smaller operator."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 47654,
+          "period": "202511-202610",
+          "title": "Airboat",
+          "url": "https://en.wikipedia.org/wiki/Airboat",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "everglades-evg-biscayne",
@@ -339,14 +381,23 @@
         "Tours sell out.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 38346,
+          "period": "202511-202610",
+          "title": "Biscayne National Park",
+          "url": "https://en.wikipedia.org/wiki/Biscayne_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "everglades-evg-coral",
       "name": "Coral Castle",
       "kind": "see",
-      "lat": 25.5003,
-      "lon": -80.4444,
+      "lat": 25.50056,
+      "lon": -80.44444,
       "wiki": "Coral Castle",
       "summary": "Mysterious stone sculptures built by one man.",
       "expect": "Paid.",
@@ -386,7 +437,15 @@
         "Paid.",
         "Quirky stop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 310101,
+          "period": "202511-202610",
+          "title": "Coral Castle",
+          "url": "https://en.wikipedia.org/wiki/Coral_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "everglades-evg-robert",
@@ -561,5 +620,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -110,14 +110,23 @@
         "Park entry fee; check road status.",
         "Walk the Hurricane Hill trail."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13685,
+          "period": "202511-202610",
+          "title": "Hurricane Ridge",
+          "url": "https://en.wikipedia.org/wiki/Hurricane_Ridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "port-angeles-pa-hoh",
       "name": "Hoh Rain Forest",
       "kind": "see",
-      "lat": 47.8607,
-      "lon": -123.9348,
+      "lat": 47.86144,
+      "lon": -123.92467,
       "wiki": "Hoh Rainforest",
       "summary": "Temperate rainforest of moss-draped maples and giant spruce.",
       "expect": "Long drive; queues at the gate in summer.",
@@ -156,14 +165,22 @@
         "Long drive; queues at the gate in summer.",
         "Walk the Hall of Mosses and Spruce Nature Trail."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 62596,
+          "period": "202511-202610",
+          "title": "Hoh Rainforest",
+          "url": "https://en.wikipedia.org/wiki/Hoh_Rainforest",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "port-angeles-pa-crescent",
       "name": "Lake Crescent and Marymere Falls",
       "kind": "see",
-      "lat": 48.057,
-      "lon": -123.8,
+      "lat": 48.06,
+      "lon": -123.83,
       "wiki": "Lake Crescent",
       "summary": "Glacial lake of clear blue water with an easy walk to a waterfall.",
       "expect": "Free roadside stops.",
@@ -202,7 +219,15 @@
         "Free roadside stops.",
         "Hike Mount Storm King for the view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27204,
+          "period": "202511-202610",
+          "title": "Lake Crescent",
+          "url": "https://en.wikipedia.org/wiki/Lake_Crescent",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "port-angeles-pa-solduc",
@@ -248,14 +273,23 @@
         "Park entry fee.",
         "Soak in the hot springs after."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4367,
+          "period": "202511-202610",
+          "title": "Sol Duc River",
+          "url": "https://en.wikipedia.org/wiki/Sol_Duc_River",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "port-angeles-pa-rialto",
       "name": "Rialto Beach and Hole-in-the-Wall",
       "kind": "see",
-      "lat": 47.921,
-      "lon": -124.638,
+      "lat": 47.90833,
+      "lon": -124.64222,
       "wiki": "Rialto Beach",
       "summary": "Wild beach of driftwood and sea stacks with a sea arch at low tide.",
       "expect": "Check the tide chart.",
@@ -295,15 +329,23 @@
         "Check the tide chart.",
         "Walk to Hole-in-the-Wall at low tide."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4971,
+          "period": "202511-202610",
+          "title": "Rialto Beach",
+          "url": "https://en.wikipedia.org/wiki/Rialto_Beach",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "port-angeles-pa-ruby",
       "name": "Ruby Beach",
       "kind": "see",
-      "lat": 47.7106,
-      "lon": -124.4155,
+      "lat": 47.71083,
+      "lon": -124.41556,
       "wiki": "Ruby Beach",
       "summary": "Sea stacks and tide pools at the park's most photographed beach.",
       "expect": "Free.",
@@ -343,8 +385,16 @@
         "Free.",
         "Sunset is magic."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8534,
+          "period": "202511-202610",
+          "title": "Ruby Beach",
+          "url": "https://en.wikipedia.org/wiki/Ruby_Beach",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "port-angeles-pa-crab",
@@ -520,5 +570,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

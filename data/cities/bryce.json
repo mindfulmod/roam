@@ -123,8 +123,8 @@
       "id": "bryce-bry-navajo",
       "name": "Navajo Loop and Queen's Garden",
       "kind": "see",
-      "lat": 37.623,
-      "lon": -112.164,
+      "lat": 37.64,
+      "lon": -112.17,
       "wiki": "Navajo Loop Trail",
       "summary": "3-mile loop down through Wall Street's slot and among the hoodoos.",
       "expect": "Steep climb back up.",
@@ -164,7 +164,15 @@
         "Steep climb back up.",
         "Go down Queen's Garden, up Navajo."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 130708,
+          "period": "202511-202610",
+          "title": "Bryce Canyon National Park",
+          "url": "https://en.wikipedia.org/wiki/Bryce_Canyon_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bryce-bry-inspiration",
@@ -257,7 +265,16 @@
         "Drive south first, stop on the way back.",
         "Walk the Bristlecone Loop."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 130708,
+          "period": "202511-202610",
+          "title": "Bryce Canyon National Park",
+          "url": "https://en.wikipedia.org/wiki/Bryce_Canyon_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bryce-bry-stars",
@@ -303,7 +320,16 @@
         "Summer evenings.",
         "Check moon phase."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 36684,
+          "period": "202511-202610",
+          "title": "Dark-sky preserve",
+          "url": "https://en.wikipedia.org/wiki/Dark-sky_preserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bryce-bry-redcanyon",
@@ -356,8 +382,8 @@
       "id": "bryce-bry-kodachrome",
       "name": "Kodachrome Basin State Park",
       "kind": "see",
-      "lat": 37.503,
-      "lon": -111.993,
+      "lat": 37.50056,
+      "lon": -112.00056,
       "wiki": "Kodachrome Basin State Park",
       "summary": "Colourful sand pipes and quiet trails.",
       "expect": "State park fee.",
@@ -396,14 +422,22 @@
         "State park fee.",
         "Combine with Tropic."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4696,
+          "period": "202511-202610",
+          "title": "Kodachrome Basin State Park",
+          "url": "https://en.wikipedia.org/wiki/Kodachrome_Basin_State_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bryce-bry-pie",
       "name": "Fruit pie in Tropic",
       "kind": "eat",
-      "lat": 37.6247,
-      "lon": -112.0835,
+      "lat": 37.62361,
+      "lon": -112.08861,
       "wiki": "Tropic, Utah",
       "summary": "Small-town bakeries serving homemade fruit pie.",
       "expect": "Daytime.",
@@ -442,7 +476,6 @@
         "Daytime.",
         "Try the berry pie."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -459,8 +492,8 @@
       "id": "bryce-bry-steak",
       "name": "Western steakhouse dinner",
       "kind": "eat",
-      "lat": 37.674,
-      "lon": -112.156,
+      "lat": 37.67389,
+      "lon": -112.15694,
       "wiki": "Bryce Canyon City, Utah",
       "summary": "Cowboy steaks and buffets near the park entrance.",
       "expect": "Evenings.",
@@ -499,7 +532,6 @@
         "Evenings.",
         "Some places have western shows."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -570,5 +602,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

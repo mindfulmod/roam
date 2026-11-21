@@ -64,8 +64,8 @@
       "id": "estes-park-est-trailridge",
       "name": "Trail Ridge Road",
       "kind": "see",
-      "lat": 40.4413,
-      "lon": -105.7546,
+      "lat": 40.4177,
+      "lon": -105.7467,
       "wiki": "Trail Ridge Road",
       "summary": "Highest continuous paved road in the US, crossing tundra above 12,000 feet.",
       "expect": "Open late May to October; park entry fee.",
@@ -106,7 +106,15 @@
         "Open late May to October; park entry fee.",
         "Stop at Forest Canyon Overlook and the Tundra Communities Trail."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14983,
+          "period": "202511-202610",
+          "title": "Trail Ridge Road",
+          "url": "https://en.wikipedia.org/wiki/Trail_Ridge_Road",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "estes-park-est-bearlake",
@@ -206,8 +214,8 @@
       "id": "estes-park-est-stanley",
       "name": "The Stanley Hotel",
       "kind": "see",
-      "lat": 40.383,
-      "lon": -105.519,
+      "lat": 40.38288,
+      "lon": -105.51921,
       "wiki": "Stanley Hotel",
       "summary": "1909 hotel that inspired Stephen King's The Shining.",
       "expect": "Ghost tours paid.",
@@ -247,7 +255,15 @@
         "Ghost tours paid.",
         "Book a night tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 218207,
+          "period": "202511-202610",
+          "title": "The Stanley Hotel",
+          "url": "https://en.wikipedia.org/wiki/The_Stanley_Hotel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "estes-park-est-skypond",
@@ -301,8 +317,8 @@
       "id": "estes-park-est-grandlake",
       "name": "Grand Lake",
       "kind": "see",
-      "lat": 40.2522,
-      "lon": -105.8231,
+      "lat": 40.25056,
+      "lon": -105.82444,
       "wiki": "Grand Lake, Colorado",
       "summary": "Colorado's largest natural lake on the quieter west side of the park.",
       "expect": "Over Trail Ridge Road.",
@@ -341,14 +357,22 @@
         "Over Trail Ridge Road.",
         "Look for moose in the Kawuneeche Valley."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21407,
+          "period": "202511-202610",
+          "title": "Grand Lake, Colorado",
+          "url": "https://en.wikipedia.org/wiki/Grand_Lake%2C_Colorado",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "estes-park-est-elkhorn",
       "name": "Elkhorn Avenue taffy and bakeries",
       "kind": "eat",
-      "lat": 40.3767,
-      "lon": -105.523,
+      "lat": 40.38083,
+      "lon": -105.52222,
       "wiki": "Estes Park, Colorado",
       "summary": "Main street of taffy pullers, fudge shops and cafés.",
       "expect": "Daytime.",
@@ -387,7 +411,6 @@
         "Daytime.",
         "Watch the taffy machines in the window."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Sweets",
       "mustOrder": [
@@ -516,5 +539,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
