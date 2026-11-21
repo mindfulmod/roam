@@ -1,0 +1,2726 @@
+[
+ {
+  "country": "Norway",
+  "region": "Europe",
+  "currency": "NOK",
+  "cashTip": "Norway is almost cashless; cards and phone payments work everywhere, even for tiny amounts.",
+  "seasons": "LLLSSHPPSLLS",
+  "id": "oslo",
+  "name": "Oslo",
+  "at": [
+   59.9139,
+   10.7522
+  ],
+  "wiki": "Oslo",
+  "cover": "Oslo Opera House",
+  "tagline": "Fjord-side museums and bold new architecture",
+  "summary": "Norway's capital sits at the head of the Oslofjord, with forests and ski slopes on its edge. You can walk on the roof of the marble Opera House, see Munch's The Scream, explore polar ships and Viking history, and swim or sauna in the harbour.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September has long light days; June and July nights barely get dark. Winter is cold and snowy, with skiing at Holmenkollen. Norway is expensive all year.",
+  "arrival": "Oslo Airport Gardermoen is 20 minutes from the centre on the Flytoget express train. Trains run from Stockholm (about 5 hours) and Bergen (7 hours).",
+  "gettingAround": "Metro, trams, buses and harbour ferries share Ruter tickets; the centre is walkable.",
+  "dailyBudget": [
+   1500,
+   4000
+  ],
+  "cashPerDay": [
+   0,
+   200
+  ],
+  "foodTip": "Open sandwiches, fish soup, brown cheese (brunost) and cinnamon buns.",
+  "buyTip": "Norwegian wool sweaters, brunost, design homeware and aquavit.",
+  "baseArea": "Sentrum or Grünerløkka",
+  "hotel": [
+   130,
+   350
+  ],
+  "connections": [
+   {
+    "to": "stockholm",
+    "mode": "Train",
+    "minutes": 300,
+    "note": "Direct trains."
+   },
+   {
+    "to": "copenhagen",
+    "mode": "Ferry",
+    "minutes": 1140,
+    "note": "Overnight DFDS ferry, or a 70-minute flight."
+   },
+   {
+    "to": "bergen",
+    "mode": "Train",
+    "minutes": 420,
+    "note": "The scenic Bergen Line."
+   }
+  ],
+  "items": [
+   {
+    "name": "Oslo Opera House",
+    "kind": "see",
+    "id": "oslo-opera",
+    "at": [
+     59.9075,
+     10.7531
+    ],
+    "wiki": "Oslo Opera House",
+    "area": "Bjørvika",
+    "summary": "A white marble opera house you can walk up onto, sloping into the fjord.",
+    "expect": "The roof is free and open all day.",
+    "tip": "Go up at sunset.",
+    "why": "Oslo's landmark of modern design.",
+    "flow": [
+     "Walk the roof.",
+     "Foyer."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Munch Museum",
+    "kind": "see",
+    "id": "oslo-munch",
+    "at": [
+     59.906,
+     10.755
+    ],
+    "wiki": "Munch Museum",
+    "area": "Bjørvika",
+    "summary": "A tall new museum holding Edvard Munch's work, including versions of The Scream.",
+    "expect": "The Scream versions are shown in rotation.",
+    "tip": "Ride to the top floor for fjord views.",
+    "why": "Norway's most famous artist.",
+    "flow": [
+     "Munch galleries.",
+     "Top-floor view."
+    ],
+    "hours": 2,
+    "price": [
+     160,
+     180
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Vigeland Sculpture Park",
+    "kind": "see",
+    "id": "oslo-vigeland",
+    "at": [
+     59.927,
+     10.7004
+    ],
+    "wiki": "Vigeland installation",
+    "area": "Frogner",
+    "summary": "Over 200 sculptures of the human figure by Gustav Vigeland in Frogner Park.",
+    "expect": "Free and open all day.",
+    "tip": "See the Monolith of tangled bodies.",
+    "why": "The world's largest sculpture park by one artist.",
+    "flow": [
+     "Bridge.",
+     "Fountain.",
+     "Monolith."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Fram Museum",
+    "kind": "see",
+    "id": "oslo-fram",
+    "at": [
+     59.903,
+     10.693
+    ],
+    "wiki": "Fram Museum",
+    "area": "Bygdøy",
+    "summary": "The polar ship Fram, used by Nansen and Amundsen, which you can climb aboard.",
+    "expect": "Next to the Kon-Tiki Museum on Bygdøy.",
+    "tip": "Take the summer ferry from the City Hall pier.",
+    "why": "Norway's polar heroes.",
+    "flow": [
+     "Ferry to Bygdøy.",
+     "Aboard the Fram."
+    ],
+    "hours": 1.5,
+    "price": [
+     140,
+     160
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Norwegian Folk Museum",
+    "kind": "see",
+    "id": "oslo-folk-museum",
+    "at": [
+     59.907,
+     10.684
+    ],
+    "wiki": "Norwegian Museum of Cultural History",
+    "area": "Bygdøy",
+    "summary": "An open-air museum of old farmhouses and a medieval stave church.",
+    "expect": "Costumed guides in summer.",
+    "tip": "See the Gol stave church.",
+    "why": "Old Norway in one park.",
+    "flow": [
+     "Stave church.",
+     "Farm buildings."
+    ],
+    "hours": 2.5,
+    "price": [
+     180,
+     200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Akershus Fortress",
+    "kind": "see",
+    "id": "oslo-akershus",
+    "at": [
+     59.907,
+     10.736
+    ],
+    "wiki": "Akershus Fortress",
+    "area": "Sentrum",
+    "summary": "A medieval castle and fortress on the harbour with free grounds.",
+    "expect": "The grounds are free; the castle has a fee.",
+    "tip": "Walk the walls for harbour views.",
+    "why": "Oslo's history on the water.",
+    "flow": [
+     "Walls.",
+     "Castle."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Holmenkollen ski jump",
+    "kind": "see",
+    "id": "oslo-holmenkollen",
+    "at": [
+     59.964,
+     10.667
+    ],
+    "wiki": "Holmenkollbakken",
+    "area": "Holmenkollen",
+    "summary": "A famous ski jump with a ski museum and a zipline.",
+    "expect": "30 minutes by metro.",
+    "tip": "Go up the jump tower for the view.",
+    "why": "Norway's skiing soul.",
+    "flow": [
+     "Metro up.",
+     "Ski museum.",
+     "Jump tower."
+    ],
+    "hours": 2,
+    "price": [
+     160,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Mathallen food hall",
+    "kind": "eat",
+    "id": "oslo-mathallen",
+    "at": [
+     59.922,
+     10.752
+    ],
+    "wiki": "Mathallen Oslo",
+    "area": "Vulkan",
+    "venue": "food-area",
+    "summary": "An indoor food hall with Norwegian cheeses, seafood and cafés.",
+    "expect": "Busy at lunch.",
+    "tip": "Try a brown cheese waffle.",
+    "why": "Norwegian food in one place.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     300
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Shrimp sandwich",
+     "Brunost waffle"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "Open sandwiches",
+    "kind": "eat",
+    "id": "oslo-smorbrod",
+    "at": [
+     59.913,
+     10.74
+    ],
+    "wiki": "Smørrebrød",
+    "area": "Sentrum",
+    "venue": "food-area",
+    "summary": "Rye bread piled with shrimp, salmon or egg.",
+    "expect": "Cafés and bakeries.",
+    "tip": "Try a classic shrimp sandwich (rekesmørbrød).",
+    "why": "Norway's lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     120,
+     220
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Rekesmørbrød"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "Brown cheese and waffles",
+    "kind": "eat",
+    "id": "oslo-brunost",
+    "at": [
+     59.914,
+     10.75
+    ],
+    "wiki": "Brunost",
+    "area": "Sentrum",
+    "venue": "food-area",
+    "summary": "Sweet caramel-like brown cheese on waffles or bread.",
+    "expect": "Everywhere.",
+    "tip": "Try it on a heart-shaped waffle.",
+    "why": "A Norwegian taste.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     40,
+     80
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Waffle with brunost"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Norway",
+  "region": "Europe",
+  "currency": "NOK",
+  "cashTip": "Norway is almost cashless; cards and phone payments work everywhere, even for tiny amounts.",
+  "seasons": "LLLSSHPPSLLS",
+  "id": "bergen",
+  "name": "Bergen",
+  "at": [
+   60.3913,
+   5.3221
+  ],
+  "wiki": "Bergen",
+  "cover": "Bryggen",
+  "tagline": "Gateway to the fjords",
+  "summary": "Bergen is a harbour city between seven mountains, with the colourful wooden warehouses of Bryggen on its waterfront. A funicular climbs Mount Fløyen, the fish market sells the morning catch, and it's the starting point for the great western fjords.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September is best. It's one of Europe's rainiest cities, so bring a raincoat in any season.",
+  "arrival": "Bergen Airport is 20 minutes from the centre by light rail. The Bergen Line train from Oslo takes about 7 hours; Hurtigruten coastal ships start here.",
+  "gettingAround": "The centre is walkable; the light rail and buses go further.",
+  "dailyBudget": [
+   1500,
+   4000
+  ],
+  "cashPerDay": [
+   0,
+   200
+  ],
+  "foodTip": "Bergen fish soup, fresh shrimp and skillingsboller cinnamon buns.",
+  "buyTip": "Wool knitwear, trolls and local art.",
+  "baseArea": "Bryggen or the city centre",
+  "hotel": [
+   120,
+   320
+  ],
+  "connections": [
+   {
+    "to": "oslo",
+    "mode": "Train",
+    "minutes": 420,
+    "note": "The Bergen Line, one of the world's great train rides."
+   }
+  ],
+  "items": [
+   {
+    "name": "Bryggen",
+    "kind": "see",
+    "id": "bergen-bryggen",
+    "at": [
+     60.3975,
+     5.3245
+    ],
+    "wiki": "Bryggen",
+    "area": "Harbour",
+    "summary": "A row of wooden Hanseatic warehouses, with crooked passages behind.",
+    "expect": "Workshops and small shops inside.",
+    "tip": "Walk the narrow alleys behind the façades.",
+    "why": "A World Heritage waterfront.",
+    "flow": [
+     "Waterfront.",
+     "Back alleys.",
+     "Hanseatic Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Mount Fløyen",
+    "kind": "see",
+    "id": "bergen-floyen",
+    "at": [
+     60.394,
+     5.342
+    ],
+    "wiki": "Fløyen",
+    "area": "Fløyen",
+    "summary": "A funicular to a viewpoint over the city, with forest trails at the top.",
+    "expect": "Queues in summer; walking down is easy.",
+    "tip": "Take the funicular up and walk down.",
+    "why": "The classic view of Bergen.",
+    "flow": [
+     "Fløibanen funicular.",
+     "Viewpoint.",
+     "Walk down."
+    ],
+    "hours": 2,
+    "price": [
+     100,
+     150
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mount Ulriken",
+    "kind": "see",
+    "id": "bergen-ulriken",
+    "at": [
+     60.378,
+     5.386
+    ],
+    "wiki": "Ulriken",
+    "area": "Ulriken",
+    "summary": "The highest of Bergen's seven mountains, with a cable car.",
+    "expect": "A ridge hike connects it to Fløyen.",
+    "tip": "Hike Ulriken to Fløyen on a clear day.",
+    "why": "Big views over fjords and islands.",
+    "flow": [
+     "Cable car.",
+     "Ridge hike."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     300
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "KODE art museums",
+    "kind": "see",
+    "id": "bergen-kode",
+    "at": [
+     60.389,
+     5.326
+    ],
+    "wiki": "KODE",
+    "area": "Lille Lungegårdsvann",
+    "summary": "Four art museums by a lake, with Munch and Norwegian painters.",
+    "expect": "One ticket for all buildings.",
+    "tip": "See the Munch room.",
+    "why": "Norway's second great art collection.",
+    "flow": [
+     "Museums.",
+     "Lakeside walk."
+    ],
+    "hours": 2,
+    "price": [
+     150,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Troldhaugen",
+    "kind": "see",
+    "id": "bergen-troldhaugen",
+    "at": [
+     60.333,
+     5.334
+    ],
+    "wiki": "Troldhaugen",
+    "area": "Fana",
+    "summary": "Composer Edvard Grieg's villa and concert hall by a lake.",
+    "expect": "Lunchtime concerts in summer.",
+    "tip": "Go for a summer concert.",
+    "why": "Grieg's home.",
+    "flow": [
+     "Villa.",
+     "Concert."
+    ],
+    "hours": 2,
+    "price": [
+     150,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Fjord cruise",
+    "kind": "see",
+    "id": "bergen-fjord-cruise",
+    "at": [
+     60.395,
+     5.32
+    ],
+    "wiki": "Osterfjord",
+    "area": "Bergen harbour",
+    "summary": "A boat trip into the narrow Mostraumen strait and Osterfjord.",
+    "expect": "About 3 hours from the harbour.",
+    "tip": "Pick a sunny day.",
+    "why": "Fjords on Bergen's doorstep.",
+    "flow": [
+     "Board at the harbour.",
+     "Mostraumen strait."
+    ],
+    "hours": 3.5,
+    "price": [
+     700,
+     900
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Flåm and Nærøyfjord",
+    "kind": "see",
+    "id": "bergen-flam",
+    "at": [
+     60.863,
+     7.114
+    ],
+    "wiki": "Flåm Line",
+    "area": "Flåm",
+    "summary": "The steep Flåm railway and a cruise on the narrow Nærøyfjord.",
+    "expect": "A long day trip, often as 'Norway in a Nutshell'.",
+    "tip": "Book seats on the left side of the Flåm train going down.",
+    "why": "Norway's most famous fjord trip.",
+    "flow": [
+     "Train to Myrdal.",
+     "Flåm Railway.",
+     "Fjord cruise."
+    ],
+    "hours": 11,
+    "price": [
+     1500,
+     2500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fish market",
+    "kind": "eat",
+    "id": "bergen-fish-market",
+    "at": [
+     60.3948,
+     5.3253
+    ],
+    "wiki": "Fish market, Bergen",
+    "area": "Torget",
+    "venue": "food-area",
+    "summary": "Stalls selling shrimp, salmon, king crab and fish soup by the harbour.",
+    "expect": "Prices are high; compare stalls.",
+    "tip": "Have a shrimp baguette by the water.",
+    "why": "Bergen's food landmark.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     150,
+     400
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Shrimp baguette",
+     "King crab"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Bergen fish soup",
+    "kind": "eat",
+    "id": "bergen-fish-soup",
+    "at": [
+     60.393,
+     5.324
+    ],
+    "wiki": "Bergen fish soup",
+    "area": "Sentrum",
+    "venue": "food-area",
+    "summary": "A creamy fish soup with vegetables.",
+    "expect": "On most menus.",
+    "tip": "Pair with fresh bread.",
+    "why": "The city's comfort dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     150,
+     250
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Bergensk fiskesuppe"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Skillingsbolle",
+    "kind": "eat",
+    "id": "bergen-skillingsbolle",
+    "at": [
+     60.392,
+     5.322
+    ],
+    "wiki": "Skillingsbolle",
+    "area": "Sentrum",
+    "venue": "food-area",
+    "summary": "Big cinnamon buns from Bergen's bakeries.",
+    "expect": "Morning favourite.",
+    "tip": "Try one warm.",
+    "why": "Bergen's own bun.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     40,
+     60
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Skillingsbolle",
+     "Coffee"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Norway",
+  "region": "Europe",
+  "currency": "NOK",
+  "cashTip": "Norway is almost cashless; cards and phone payments work everywhere, even for tiny amounts.",
+  "seasons": "HHSLLSHHHSSH",
+  "id": "tromso",
+  "name": "Tromsø",
+  "at": [
+   69.6492,
+   18.9553
+  ],
+  "wiki": "Tromsø",
+  "cover": "Arctic Cathedral",
+  "tagline": "Northern lights and the midnight sun",
+  "summary": "Tromsø sits 350 km north of the Arctic Circle, ringed by snowy peaks and fjords. From September to March it's one of the best places on earth to see the northern lights, and from May to July the sun never sets.",
+  "days": 3,
+  "bestMonths": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Northern lights season runs from September to March, on clear dark nights. Polar night (late November to mid-January) has no sunrise. The midnight sun lasts from late May to late July.",
+  "arrival": "Fly from Oslo (about 2 hours). The airport is 10 minutes from the centre. Hurtigruten coastal ships also stop here.",
+  "gettingAround": "Walkable centre; buses and tour pick-ups for trips out of town.",
+  "dailyBudget": [
+   1500,
+   4500
+  ],
+  "cashPerDay": [
+   0,
+   200
+  ],
+  "foodTip": "Arctic char, reindeer stew (bidos), king crab and a Mack beer.",
+  "buyTip": "Sami crafts, wool and Arctic-themed design.",
+  "baseArea": "City centre on Tromsøya island",
+  "hotel": [
+   130,
+   350
+  ],
+  "connections": [
+   {
+    "to": "oslo",
+    "mode": "Flight",
+    "minutes": 115,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "lofoten",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Or a scenic drive of about 7 hours."
+   }
+  ],
+  "items": [
+   {
+    "name": "Northern lights chase",
+    "kind": "see",
+    "id": "tromso-aurora",
+    "at": [
+     69.65,
+     18.95
+    ],
+    "wiki": "Tromsø",
+    "area": "Around Tromsø",
+    "summary": "Guided trips drive away from city lights and clouds to find the aurora.",
+    "expect": "Night tours from September to March; no sighting is guaranteed.",
+    "tip": "Book a small-group chase with photos included.",
+    "why": "The reason most people come.",
+    "flow": [
+     "Evening pick-up.",
+     "Drive to clear skies.",
+     "Watch the lights."
+    ],
+    "hours": 6,
+    "price": [
+     1200,
+     2500
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Arctic Cathedral",
+    "kind": "see",
+    "id": "tromso-cathedral",
+    "at": [
+     69.6481,
+     18.9874
+    ],
+    "wiki": "Arctic Cathedral",
+    "area": "Tromsdalen",
+    "summary": "A white church shaped like ice floes, with a huge glass mosaic.",
+    "expect": "Midnight sun concerts in summer.",
+    "tip": "Visit at dusk or for a concert.",
+    "why": "Tromsø's landmark.",
+    "flow": [
+     "Cross the bridge.",
+     "Church and window."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     80
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Fjellheisen cable car",
+    "kind": "see",
+    "id": "tromso-fjellheisen",
+    "at": [
+     69.638,
+     18.995
+    ],
+    "wiki": "Fjellheisen",
+    "area": "Storsteinen",
+    "summary": "A cable car to a viewpoint 421 m above the city.",
+    "expect": "Great for aurora on clear nights.",
+    "tip": "Go at sunset, or after dark for the lights.",
+    "why": "The best view of Tromsø.",
+    "flow": [
+     "Cable car.",
+     "Viewpoint."
+    ],
+    "hours": 1.5,
+    "price": [
+     400,
+     500
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Polaria",
+    "kind": "see",
+    "id": "tromso-polaria",
+    "at": [
+     69.644,
+     18.947
+    ],
+    "wiki": "Polaria",
+    "area": "Sentrum",
+    "summary": "An Arctic aquarium shaped like toppled ice blocks, with bearded seals.",
+    "expect": "Seal feeding several times a day.",
+    "tip": "Watch the seal feeding.",
+    "why": "Learn about Arctic life.",
+    "flow": [
+     "Seal feeding.",
+     "Arctic exhibits."
+    ],
+    "hours": 1.5,
+    "price": [
+     250,
+     300
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Polar Museum",
+    "kind": "see",
+    "id": "tromso-polar-museum",
+    "at": [
+     69.651,
+     18.964
+    ],
+    "wiki": "Polar Museum (Tromsø)",
+    "area": "Harbour",
+    "summary": "A museum of Arctic hunting and the great polar expeditions.",
+    "expect": "Small and atmospheric.",
+    "tip": "Read about Roald Amundsen.",
+    "why": "The Gateway to the Arctic.",
+    "flow": [
+     "Exhibits.",
+     "Harbour walk."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Dog sledding",
+    "kind": "see",
+    "id": "tromso-dog-sled",
+    "at": [
+     69.7,
+     19.1
+    ],
+    "wiki": "Dog sled",
+    "area": "Kvaløya",
+    "summary": "Drive your own team of huskies across the snow.",
+    "expect": "Winter only; tours include pick-up.",
+    "tip": "Book a half-day trip.",
+    "why": "An unforgettable Arctic experience.",
+    "flow": [
+     "Meet the dogs.",
+     "Sled ride."
+    ],
+    "hours": 4,
+    "price": [
+     1800,
+     2500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sommarøy",
+    "kind": "see",
+    "id": "tromso-sommaroy",
+    "at": [
+     69.635,
+     18.015
+    ],
+    "wiki": "Sommarøy",
+    "area": "Kvaløya",
+    "summary": "A fishing village with white beaches and turquoise water.",
+    "expect": "About an hour's drive.",
+    "tip": "Drive the scenic route over Kvaløya.",
+    "why": "Arctic beaches.",
+    "flow": [
+     "Drive out.",
+     "Beach walk."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Arctic char",
+    "kind": "eat",
+    "id": "tromso-arctic-char",
+    "at": [
+     69.648,
+     18.955
+    ],
+    "wiki": "Arctic char",
+    "area": "Sentrum",
+    "venue": "food-area",
+    "summary": "A local cold-water fish, often smoked or pan-fried.",
+    "expect": "On most restaurant menus.",
+    "tip": "Try it smoked as a starter.",
+    "why": "The Arctic's fish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     250,
+     400
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Arctic char"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Reindeer stew (bidos)",
+    "kind": "eat",
+    "id": "tromso-bidos",
+    "at": [
+     69.649,
+     18.956
+    ],
+    "wiki": "Bidos",
+    "area": "Sentrum",
+    "venue": "food-area",
+    "summary": "A Sami stew of reindeer, potatoes and carrots.",
+    "expect": "Served at Sami camps and restaurants.",
+    "tip": "Try it at a Sami camp.",
+    "why": "The taste of Sami culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     350
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sami",
+    "order": [
+     "Bidos"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mack beer hall",
+    "kind": "eat",
+    "id": "tromso-mack",
+    "at": [
+     69.646,
+     18.955
+    ],
+    "wiki": "Mack Brewery",
+    "area": "Sentrum",
+    "venue": "food-area",
+    "summary": "One of the world's most northerly breweries and its old beer hall.",
+    "expect": "Brewery tours available.",
+    "tip": "Have a pint at Ølhallen.",
+    "why": "A Tromsø tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Mack pilsner"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Norway",
+  "region": "Europe",
+  "currency": "NOK",
+  "cashTip": "Norway is almost cashless; cards and phone payments work everywhere, even for tiny amounts.",
+  "seasons": "SSSLSHPPSSLS",
+  "id": "lofoten",
+  "name": "Lofoten Islands",
+  "at": [
+   68.1475,
+   13.611
+  ],
+  "wiki": "Lofoten",
+  "cover": "Reine",
+  "tagline": "Fishing villages under Arctic peaks",
+  "summary": "The Lofoten Islands rise from the sea in a wall of jagged peaks, with red fishermen's cabins (rorbuer) on stilts, white beaches and drying racks of cod. Summer brings the midnight sun and hiking; winter brings northern lights over the fjords.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   2,
+   3
+  ],
+  "seasonNote": "June to August has the midnight sun and the best hiking. February to March brings the skrei cod season and good northern lights. Weather changes fast at any time of year.",
+  "arrival": "Fly from Bodø to Leknes or Svolvær, or take the car ferry from Bodø to Moskenes (about 3 to 4 hours). Hurtigruten ships stop at Svolvær and Stamsund.",
+  "gettingAround": "Rent a car; a single road (the E10) runs the length of the islands.",
+  "dailyBudget": [
+   1500,
+   4000
+  ],
+  "cashPerDay": [
+   0,
+   200
+  ],
+  "foodTip": "Stockfish, fresh cod (skrei) in winter, fish cakes and fish soup.",
+  "buyTip": "Stockfish, knitwear and local pottery.",
+  "baseArea": "A rorbu cabin in Reine, Hamnøy or Henningsvær",
+  "hotel": [
+   120,
+   350
+  ],
+  "connections": [
+   {
+    "to": "tromso",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Via Bodø; or a scenic drive."
+   },
+   {
+    "to": "oslo",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Via Bodø."
+   }
+  ],
+  "items": [
+   {
+    "name": "Reine",
+    "kind": "see",
+    "id": "lofoten-reine",
+    "at": [
+     67.933,
+     13.089
+    ],
+    "wiki": "Reine",
+    "area": "Moskenesøya",
+    "summary": "A fishing village of red cabins below sheer peaks, often called Norway's most beautiful.",
+    "expect": "The view from the bridge is the classic photo.",
+    "tip": "Stay in a rorbu cabin.",
+    "why": "Lofoten's postcard.",
+    "flow": [
+     "Bridge view.",
+     "Village walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Reinebringen hike",
+    "kind": "see",
+    "id": "lofoten-reinebringen",
+    "at": [
+     67.93,
+     13.07
+    ],
+    "wiki": "Reinebringen",
+    "area": "Reine",
+    "summary": "A steep stone-stair climb to a view over Reine and the fjords.",
+    "expect": "About 2 to 3 hours return; very steep.",
+    "tip": "Go on a clear evening.",
+    "why": "One of Norway's best views.",
+    "flow": [
+     "Stone steps.",
+     "Summit view."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Hamnøy",
+    "kind": "see",
+    "id": "lofoten-hamnoy",
+    "at": [
+     67.95,
+     13.133
+    ],
+    "wiki": "Hamnøy",
+    "area": "Moskenesøya",
+    "summary": "A cluster of red rorbuer on rocks, the most photographed spot in Lofoten.",
+    "expect": "Small; park carefully.",
+    "tip": "Visit at sunrise.",
+    "why": "An iconic view.",
+    "flow": [
+     "Bridge.",
+     "Viewpoint."
+    ],
+    "hours": 0.75,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Henningsvær",
+    "kind": "see",
+    "id": "lofoten-henningsvaer",
+    "at": [
+     68.154,
+     14.203
+    ],
+    "wiki": "Henningsvær",
+    "area": "Austvågøya",
+    "summary": "A fishing village on small islands, with a famous football pitch on the rocks.",
+    "expect": "Galleries, cafés and climbing.",
+    "tip": "See the football pitch from above.",
+    "why": "Lofoten's liveliest village.",
+    "flow": [
+     "Harbour.",
+     "Football pitch."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lofotr Viking Museum",
+    "kind": "see",
+    "id": "lofoten-viking",
+    "at": [
+     68.247,
+     13.739
+    ],
+    "wiki": "Lofotr Viking Museum",
+    "area": "Borg",
+    "summary": "A reconstructed Viking chieftain's longhouse on the original site.",
+    "expect": "Summer has Viking activities and a feast.",
+    "tip": "Join the summer Viking feast.",
+    "why": "Vikings in the Arctic.",
+    "flow": [
+     "Longhouse.",
+     "Viking ship."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     250
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Nusfjord",
+    "kind": "see",
+    "id": "lofoten-nusfjord",
+    "at": [
+     68.035,
+     13.348
+    ],
+    "wiki": "Nusfjord",
+    "area": "Flakstadøya",
+    "summary": "One of Norway's oldest and best-preserved fishing villages.",
+    "expect": "A small fee to enter.",
+    "tip": "Visit the old cod liver oil factory.",
+    "why": "Fishing history in a tiny harbour.",
+    "flow": [
+     "Village.",
+     "Old shop."
+    ],
+    "hours": 1.5,
+    "price": [
+     100,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Å",
+    "kind": "see",
+    "id": "lofoten-a",
+    "at": [
+     67.879,
+     12.981
+    ],
+    "wiki": "Å, Moskenes",
+    "area": "Moskenesøya",
+    "summary": "The village at the end of the road, with a stockfish museum.",
+    "expect": "At the very end of the E10.",
+    "tip": "See the stockfish museum.",
+    "why": "The end of Lofoten.",
+    "flow": [
+     "Village.",
+     "Stockfish Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Stockfish",
+    "kind": "eat",
+    "id": "lofoten-stockfish",
+    "at": [
+     68.1475,
+     13.611
+    ],
+    "wiki": "Stockfish",
+    "area": "Lofoten",
+    "venue": "food-area",
+    "summary": "Cod air-dried on wooden racks for months, eaten in stews or as snacks.",
+    "expect": "You'll see drying racks everywhere.",
+    "tip": "Try it in bacalao stew.",
+    "why": "Lofoten's 1,000-year-old trade.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     350
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Bacalao",
+     "Stockfish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Fresh cod (skrei)",
+    "kind": "eat",
+    "id": "lofoten-skrei",
+    "at": [
+     68.154,
+     14.204
+    ],
+    "wiki": "Skrei",
+    "area": "Henningsvær",
+    "venue": "food-area",
+    "summary": "Winter cod, poached with liver and roe in the traditional way.",
+    "expect": "Best from January to April.",
+    "tip": "Order 'mølje' in season.",
+    "why": "The Lofoten cod season.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     250,
+     400
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Mølje"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Fish cakes",
+    "kind": "eat",
+    "id": "lofoten-fishcakes",
+    "at": [
+     67.933,
+     13.09
+    ],
+    "wiki": "Fishcake",
+    "area": "Reine",
+    "venue": "food-area",
+    "summary": "Soft fish cakes from local cod, sold at fish shops.",
+    "expect": "Simple and cheap.",
+    "tip": "Buy them warm from a fish shop.",
+    "why": "A quick Norwegian snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     40,
+     80
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norwegian",
+    "order": [
+     "Fiskekaker"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Philippines",
+  "region": "Asia",
+  "currency": "PHP",
+  "cashTip": "Carry pesos in small notes for jeepneys, tricycles and small shops; ATMs can run dry on islands, so bring enough cash.",
+  "seasons": "HHPPSLLLLSSH",
+  "id": "manila",
+  "name": "Manila",
+  "at": [
+   14.5995,
+   120.9842
+  ],
+  "wiki": "Manila",
+  "cover": "San Agustin Church (Manila)",
+  "tagline": "A Spanish walled city in a buzzing metropolis",
+  "summary": "The Philippine capital is a vast, chaotic metropolis around the old Spanish walled city of Intramuros, with stone churches, forts and colonial houses. Binondo, the world's oldest Chinatown, and the sunsets over Manila Bay are highlights.",
+  "days": 2,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "December to April is dry; March to May is hottest. June to November is the rainy season with typhoons.",
+  "arrival": "Ninoy Aquino International Airport is 30 to 90 minutes from the centre depending on traffic; use Grab or airport taxis.",
+  "gettingAround": "Traffic is heavy; use Grab, the LRT trains and walk within Intramuros.",
+  "dailyBudget": [
+   2500,
+   8000
+  ],
+  "cashPerDay": [
+   500,
+   2000
+  ],
+  "foodTip": "Adobo, sinigang, lechon, halo-halo and Chinese food in Binondo.",
+  "buyTip": "Dried mangoes, barong shirts and woven goods.",
+  "baseArea": "Makati, BGC or Ermita",
+  "hotel": [
+   40,
+   200
+  ],
+  "connections": [
+   {
+    "to": "singapore",
+    "mode": "Flight",
+    "minutes": 210,
+    "note": "Daily flights."
+   },
+   {
+    "to": "hong-kong",
+    "mode": "Flight",
+    "minutes": 130,
+    "note": "Daily flights."
+   },
+   {
+    "to": "el-nido",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Small planes to El Nido or flights to Puerto Princesa."
+   },
+   {
+    "to": "cebu",
+    "mode": "Flight",
+    "minutes": 80,
+    "note": "Many daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Intramuros",
+    "kind": "see",
+    "id": "manila-intramuros",
+    "at": [
+     14.5896,
+     120.9747
+    ],
+    "wiki": "Intramuros",
+    "area": "Intramuros",
+    "summary": "The 16th-century Spanish walled city of churches, plazas and stone houses.",
+    "expect": "Walk or rent a bamboo bike.",
+    "tip": "Take a bamboo bike tour.",
+    "why": "Manila's historic heart.",
+    "flow": [
+     "Walls.",
+     "Plaza.",
+     "Casa Manila."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "San Agustin Church",
+    "kind": "see",
+    "id": "manila-san-agustin",
+    "at": [
+     14.5888,
+     120.9753
+    ],
+    "wiki": "San Agustin Church (Manila)",
+    "area": "Intramuros",
+    "summary": "The oldest stone church in the Philippines, with trompe-l'oeil ceilings.",
+    "expect": "The museum is next door.",
+    "tip": "See the painted ceiling.",
+    "why": "A World Heritage church.",
+    "flow": [
+     "Church.",
+     "Museum."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Fort Santiago",
+    "kind": "see",
+    "id": "manila-fort-santiago",
+    "at": [
+     14.595,
+     120.97
+    ],
+    "wiki": "Fort Santiago",
+    "area": "Intramuros",
+    "summary": "A Spanish fort where national hero José Rizal was held before his execution.",
+    "expect": "Small entry fee.",
+    "tip": "Follow Rizal's footsteps marked in brass.",
+    "why": "Philippine history.",
+    "flow": [
+     "Fort.",
+     "Rizal Shrine."
+    ],
+    "hours": 1.5,
+    "price": [
+     75,
+     75
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "National Museum of Fine Arts",
+    "kind": "see",
+    "id": "manila-national-museum",
+    "at": [
+     14.5869,
+     120.9812
+    ],
+    "wiki": "National Museum of Fine Arts (Manila)",
+    "area": "Rizal Park",
+    "summary": "Free national galleries, including Juan Luna's giant Spoliarium.",
+    "expect": "Free entry; closed Mondays.",
+    "tip": "See the Spoliarium.",
+    "why": "The best of Filipino art.",
+    "flow": [
+     "Spoliarium.",
+     "Galleries."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Rizal Park",
+    "kind": "see",
+    "id": "manila-rizal-park",
+    "at": [
+     14.5826,
+     120.9787
+    ],
+    "wiki": "Rizal Park",
+    "area": "Ermita",
+    "summary": "A large park with the Rizal Monument.",
+    "expect": "Changing of the guard at the monument.",
+    "tip": "Walk on to Manila Bay for sunset.",
+    "why": "The nation's central park.",
+    "flow": [
+     "Rizal Monument.",
+     "Gardens."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Binondo",
+    "kind": "see",
+    "id": "manila-binondo",
+    "at": [
+     14.6,
+     120.974
+    ],
+    "wiki": "Binondo",
+    "area": "Binondo",
+    "summary": "The world's oldest Chinatown, founded in 1594.",
+    "expect": "Busy and crowded.",
+    "tip": "Take a food walk.",
+    "why": "Manila's Chinese heritage.",
+    "flow": [
+     "Binondo Church.",
+     "Ongpin Street."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "History"
+    ]
+   },
+   {
+    "name": "Manila Bay sunset",
+    "kind": "see",
+    "id": "manila-bay",
+    "at": [
+     14.565,
+     120.98
+    ],
+    "wiki": "Manila Bay",
+    "area": "Roxas Boulevard",
+    "summary": "Famous sunsets over the bay from the long seafront promenade.",
+    "expect": "Busy at dusk.",
+    "tip": "Walk the Baywalk at sunset.",
+    "why": "Manila's best free show.",
+    "flow": [
+     "Baywalk.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Taal Volcano and Tagaytay",
+    "kind": "see",
+    "id": "manila-taal",
+    "at": [
+     14.002,
+     120.993
+    ],
+    "wiki": "Taal Volcano",
+    "area": "Tagaytay",
+    "summary": "A volcano inside a lake, seen from the cool Tagaytay ridge.",
+    "expect": "About 2 hours by car; volcano access depends on activity.",
+    "tip": "Have bulalo soup on the ridge.",
+    "why": "A volcano in a lake in a volcano.",
+    "flow": [
+     "Drive to Tagaytay.",
+     "Ridge view.",
+     "Lunch."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Adobo",
+    "kind": "eat",
+    "id": "manila-adobo",
+    "at": [
+     14.59,
+     120.98
+    ],
+    "wiki": "Philippine adobo",
+    "area": "Ermita",
+    "venue": "food-area",
+    "summary": "Chicken or pork stewed in vinegar, soy, garlic and bay leaf.",
+    "expect": "The unofficial national dish.",
+    "tip": "Try it with garlic rice.",
+    "why": "Filipino home cooking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.75,
+    "price": [
+     150,
+     400
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Filipino",
+    "order": [
+     "Chicken adobo",
+     "Garlic rice"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Binondo food crawl",
+    "kind": "eat",
+    "id": "manila-binondo-food",
+    "at": [
+     14.6,
+     120.975
+    ],
+    "wiki": "Binondo",
+    "area": "Binondo",
+    "venue": "food-area",
+    "summary": "Dumplings, hopia and fried siopao along Ongpin Street.",
+    "expect": "Many small shops.",
+    "tip": "Join a guided food walk.",
+    "why": "Chinese-Filipino flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     300,
+     800
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chinese-Filipino",
+    "order": [
+     "Siopao",
+     "Hopia",
+     "Lumpia"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "Halo-halo",
+    "kind": "eat",
+    "id": "manila-halo-halo",
+    "at": [
+     14.58,
+     120.98
+    ],
+    "wiki": "Halo-halo",
+    "area": "Ermita",
+    "venue": "food-area",
+    "summary": "Shaved ice with beans, jellies, fruit, ube and leche flan.",
+    "expect": "Perfect on hot days.",
+    "tip": "Mix it all together.",
+    "why": "The Filipino dessert.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     100,
+     250
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Filipino",
+    "order": [
+     "Halo-halo"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Philippines",
+  "region": "Asia",
+  "currency": "PHP",
+  "cashTip": "Carry pesos in small notes for jeepneys, tricycles and small shops; ATMs can run dry on islands, so bring enough cash.",
+  "seasons": "HHPPSLLLLSSH",
+  "id": "el-nido",
+  "name": "El Nido · Palawan",
+  "at": [
+   11.1956,
+   119.4021
+  ],
+  "wiki": "El Nido, Palawan",
+  "cover": "Bacuit Bay",
+  "tagline": "Limestone islands and hidden lagoons",
+  "summary": "El Nido, on the island of Palawan, looks out on Bacuit Bay's limestone islands, white beaches and turquoise lagoons. Boat tours visit the Big and Small Lagoons, secret beaches and snorkel reefs.",
+  "days": 4,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "seasonNote": "December to May is dry, with calm seas; island tours can be cancelled in rough weather from June to November.",
+  "arrival": "Fly direct to El Nido from Manila on small planes, or to Puerto Princesa and take a 5 to 6 hour van. Ferries run from Coron.",
+  "gettingAround": "Tricycles around town; island-hopping boats leave from El Nido beach.",
+  "dailyBudget": [
+   2500,
+   8000
+  ],
+  "cashPerDay": [
+   1000,
+   3000
+  ],
+  "foodTip": "Grilled seafood, kinilaw (Filipino ceviche) and mango shakes.",
+  "buyTip": "Pearls, woven bags and local cashews.",
+  "baseArea": "El Nido town or Corong-Corong",
+  "hotel": [
+   40,
+   300
+  ],
+  "connections": [
+   {
+    "to": "manila",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Small planes; limited baggage."
+   },
+   {
+    "to": "cebu",
+    "mode": "Flight",
+    "minutes": 80,
+    "note": "Via Puerto Princesa or Manila."
+   }
+  ],
+  "items": [
+   {
+    "name": "Big and Small Lagoons",
+    "kind": "see",
+    "id": "el-nido-big-lagoon",
+    "at": [
+     11.164,
+     119.333
+    ],
+    "wiki": "Miniloc Island",
+    "area": "Miniloc Island",
+    "summary": "Turquoise lagoons inside limestone cliffs, explored by kayak.",
+    "expect": "On island-hopping Tour A; an environmental fee applies.",
+    "tip": "Book kayaks early.",
+    "why": "El Nido's most famous sight.",
+    "flow": [
+     "Boat out.",
+     "Kayak the lagoons."
+    ],
+    "hours": 7,
+    "price": [
+     1400,
+     2000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Bacuit Bay island hopping",
+    "kind": "see",
+    "id": "el-nido-bacuit",
+    "at": [
+     11.13,
+     119.35
+    ],
+    "wiki": "Bacuit Bay",
+    "area": "Bacuit Bay",
+    "summary": "Islands, secret beaches and snorkel reefs.",
+    "expect": "Several tour routes (A to D).",
+    "tip": "Choose a small-group or private boat.",
+    "why": "Some of the world's best seascapes.",
+    "flow": [
+     "Pick a tour.",
+     "Islands and reefs."
+    ],
+    "hours": 7,
+    "price": [
+     1400,
+     3000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Taraw Cliff",
+    "kind": "see",
+    "id": "el-nido-taraw",
+    "at": [
+     11.196,
+     119.406
+    ],
+    "wiki": "El Nido, Palawan",
+    "area": "El Nido town",
+    "summary": "A sharp limestone climb above town with a sweeping view.",
+    "expect": "Guided only; steep and sharp rock.",
+    "tip": "Go with a guide at sunrise.",
+    "why": "The view over El Nido.",
+    "flow": [
+     "Guided climb.",
+     "Summit view."
+    ],
+    "hours": 2,
+    "price": [
+     500,
+     1000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Las Cabanas Beach",
+    "kind": "see",
+    "id": "el-nido-las-cabanas",
+    "at": [
+     11.159,
+     119.392
+    ],
+    "wiki": "Las Cabanas Beach",
+    "area": "Corong-Corong",
+    "summary": "A sunset beach with a zipline to an island.",
+    "expect": "Busy at sunset.",
+    "tip": "Ride the zipline before sunset.",
+    "why": "El Nido's sunset spot.",
+    "flow": [
+     "Beach.",
+     "Zipline.",
+     "Sunset."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     600
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Nacpan Beach",
+    "kind": "see",
+    "id": "el-nido-nacpan",
+    "at": [
+     11.318,
+     119.418
+    ],
+    "wiki": "Nacpan Beach",
+    "area": "Nacpan",
+    "summary": "A 4 km curve of golden sand backed by palms.",
+    "expect": "About 40 minutes by tricycle or scooter.",
+    "tip": "Climb the hill for the twin-beach view.",
+    "why": "A wild, quiet beach.",
+    "flow": [
+     "Ride north.",
+     "Beach.",
+     "Viewpoint."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Coron",
+    "kind": "see",
+    "id": "el-nido-coron",
+    "at": [
+     12.0,
+     120.2
+    ],
+    "wiki": "Coron, Palawan",
+    "area": "Coron",
+    "summary": "Shipwreck diving and Kayangan Lake.",
+    "expect": "A 4-hour ferry from El Nido.",
+    "tip": "Stay a few nights.",
+    "why": "World-class wreck diving.",
+    "flow": [
+     "Ferry to Coron.",
+     "Kayangan Lake.",
+     "Wreck dive."
+    ],
+    "hours": 10,
+    "price": [
+     2000,
+     5000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Puerto Princesa Underground River",
+    "kind": "see",
+    "id": "el-nido-underground-river",
+    "at": [
+     10.193,
+     118.926
+    ],
+    "wiki": "Puerto Princesa Subterranean River National Park",
+    "area": "Sabang",
+    "summary": "A navigable underground river through a cave.",
+    "expect": "A permit is needed; book ahead.",
+    "tip": "Combine with your arrival in Puerto Princesa.",
+    "why": "A natural wonder.",
+    "flow": [
+     "Drive to Sabang.",
+     "Boat into the cave."
+    ],
+    "hours": 8,
+    "price": [
+     1500,
+     2500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Grilled seafood",
+    "kind": "eat",
+    "id": "el-nido-seafood",
+    "at": [
+     11.196,
+     119.402
+    ],
+    "wiki": "Filipino cuisine",
+    "area": "El Nido town",
+    "venue": "food-area",
+    "summary": "Fresh fish, squid and prawns grilled on the beach.",
+    "expect": "Choose your catch at the counter.",
+    "tip": "Ask for garlic butter prawns.",
+    "why": "Island dining.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     1200
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Filipino",
+    "order": [
+     "Grilled fish",
+     "Garlic prawns"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Kinilaw",
+    "kind": "eat",
+    "id": "el-nido-kinilaw",
+    "at": [
+     11.195,
+     119.401
+    ],
+    "wiki": "Kinilaw",
+    "area": "El Nido town",
+    "venue": "food-area",
+    "summary": "Raw fish cured in vinegar with ginger, onion and chilli.",
+    "expect": "Often served on island tours.",
+    "tip": "Try it on the boat lunch.",
+    "why": "The Filipino ceviche.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Filipino",
+    "order": [
+     "Kinilaw"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mango shake",
+    "kind": "eat",
+    "id": "el-nido-mango-shake",
+    "at": [
+     11.196,
+     119.403
+    ],
+    "wiki": "Mango",
+    "area": "El Nido town",
+    "venue": "food-area",
+    "summary": "Thick shakes made with sweet Philippine mangoes.",
+    "expect": "Cafés everywhere.",
+    "tip": "Have one after a boat day.",
+    "why": "The country's best fruit.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Filipino",
+    "order": [
+     "Mango shake"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Philippines",
+  "region": "Asia",
+  "currency": "PHP",
+  "cashTip": "Carry pesos in small notes for jeepneys, tricycles and small shops; ATMs can run dry on islands, so bring enough cash.",
+  "seasons": "HHPPSLLLLSSH",
+  "id": "cebu",
+  "name": "Cebu",
+  "at": [
+   10.3157,
+   123.8854
+  ],
+  "wiki": "Cebu City",
+  "cover": "Magellan's Cross",
+  "tagline": "Where Christianity came to the Philippines",
+  "summary": "Cebu is the Philippines' oldest city, where Magellan landed in 1521. Its churches and forts tell that story, the Sinulog festival fills the streets in January, and the island has some of the country's best diving, waterfalls and beaches.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "seasonNote": "December to May is dry. The Sinulog festival is the third Sunday of January. June to November brings rain and typhoons.",
+  "arrival": "Mactan-Cebu International Airport is 30 to 60 minutes from the city, with flights from Manila, Singapore, Seoul and Tokyo.",
+  "gettingAround": "Grab and taxis in the city; buses or a driver to the south of the island.",
+  "dailyBudget": [
+   2000,
+   7000
+  ],
+  "cashPerDay": [
+   500,
+   2000
+  ],
+  "foodTip": "Cebu lechon (roast pig), puso hanging rice and fresh seafood.",
+  "buyTip": "Dried mangoes, guitars from Mactan and shell crafts.",
+  "baseArea": "Cebu City or Mactan Island",
+  "hotel": [
+   40,
+   250
+  ],
+  "connections": [
+   {
+    "to": "manila",
+    "mode": "Flight",
+    "minutes": 80,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "el-nido",
+    "mode": "Flight",
+    "minutes": 80,
+    "note": "Via Puerto Princesa or direct seasonal flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Magellan's Cross",
+    "kind": "see",
+    "id": "cebu-magellans-cross",
+    "at": [
+     10.2934,
+     123.9021
+    ],
+    "wiki": "Magellan's Cross",
+    "area": "Downtown",
+    "summary": "A wooden cross in a painted pavilion, planted by Magellan's expedition in 1521.",
+    "expect": "Free; next to the basilica.",
+    "tip": "See the painted ceiling inside.",
+    "why": "The start of Christianity in the Philippines.",
+    "flow": [
+     "Pavilion.",
+     "Ceiling painting."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Basilica del Santo Niño",
+    "kind": "see",
+    "id": "cebu-santo-nino",
+    "at": [
+     10.2942,
+     123.9017
+    ],
+    "wiki": "Basilica del Santo Niño",
+    "area": "Downtown",
+    "summary": "The oldest Catholic church in the country, home of the Santo Niño statue.",
+    "expect": "Services all day; dress modestly.",
+    "tip": "Visit on a Friday to see the devotions.",
+    "why": "The heart of Philippine faith.",
+    "flow": [
+     "Basilica.",
+     "Museum."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Fort San Pedro",
+    "kind": "see",
+    "id": "cebu-fort-san-pedro",
+    "at": [
+     10.2925,
+     123.9055
+    ],
+    "wiki": "Fort San Pedro",
+    "area": "Downtown",
+    "summary": "The oldest Spanish triangular fort in the Philippines.",
+    "expect": "Small entry fee.",
+    "tip": "Walk the ramparts.",
+    "why": "Colonial history.",
+    "flow": [
+     "Fort walls.",
+     "Garden."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Temple of Leah",
+    "kind": "see",
+    "id": "cebu-temple-of-leah",
+    "at": [
+     10.355,
+     123.873
+    ],
+    "wiki": "Temple of Leah",
+    "area": "Busay",
+    "summary": "A Roman-style temple built as a monument to love, with city views.",
+    "expect": "Up in the Busay hills.",
+    "tip": "Go late afternoon for city views.",
+    "why": "An unusual hilltop landmark.",
+    "flow": [
+     "Drive up.",
+     "Temple and view."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     100
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Cebu Taoist Temple",
+    "kind": "see",
+    "id": "cebu-taoist",
+    "at": [
+     10.34,
+     123.896
+    ],
+    "wiki": "Cebu Taoist Temple",
+    "area": "Beverly Hills",
+    "summary": "A colourful Taoist temple on a hill, built by the Chinese community.",
+    "expect": "Free; dress modestly.",
+    "tip": "Climb the 81 steps.",
+    "why": "Chinese heritage in Cebu.",
+    "flow": [
+     "Steps.",
+     "Temple."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mactan beaches",
+    "kind": "see",
+    "id": "cebu-mactan",
+    "at": [
+     10.3,
+     124.0
+    ],
+    "wiki": "Mactan",
+    "area": "Mactan",
+    "summary": "Resort beaches and island-hopping boats near the airport.",
+    "expect": "Day passes at resorts.",
+    "tip": "Take an island-hopping tour to Nalusuan.",
+    "why": "Easy beach time near the city.",
+    "flow": [
+     "Boat out.",
+     "Snorkel.",
+     "Beach."
+    ],
+    "hours": 5,
+    "price": [
+     1000,
+     3000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kawasan Falls",
+    "kind": "see",
+    "id": "cebu-kawasan",
+    "at": [
+     9.803,
+     123.374
+    ],
+    "wiki": "Kawasan Falls",
+    "area": "Badian",
+    "summary": "Turquoise cascades in the jungle, the end of canyoneering trips.",
+    "expect": "About 3 hours by car; canyoneering needs a guide.",
+    "tip": "Do the canyoneering trip.",
+    "why": "Cebu's most famous adventure.",
+    "flow": [
+     "Drive south.",
+     "Canyoneering.",
+     "Falls."
+    ],
+    "hours": 9,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Moalboal sardine run",
+    "kind": "see",
+    "id": "cebu-moalboal",
+    "at": [
+     9.95,
+     123.39
+    ],
+    "wiki": "Moalboal",
+    "area": "Moalboal",
+    "summary": "Millions of sardines swirl just off the shore; turtles too.",
+    "expect": "About 3 hours by car; snorkel from the beach.",
+    "tip": "Snorkel early morning.",
+    "why": "An incredible wildlife sight.",
+    "flow": [
+     "Drive south.",
+     "Snorkel with sardines."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     1000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Cebu lechon",
+    "kind": "eat",
+    "id": "cebu-lechon",
+    "at": [
+     10.31,
+     123.89
+    ],
+    "wiki": "Lechon",
+    "area": "Cebu City",
+    "venue": "food-area",
+    "summary": "Whole roast pig with crackling skin, stuffed with herbs.",
+    "expect": "Famous across the country.",
+    "tip": "Order by the kilo.",
+    "why": "Said to be the best in the Philippines.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     400,
+     800
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cebuano",
+    "order": [
+     "Lechon",
+     "Puso rice"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Puso hanging rice",
+    "kind": "eat",
+    "id": "cebu-puso",
+    "at": [
+     10.31,
+     123.89
+    ],
+    "wiki": "Puso (food)",
+    "area": "Cebu City",
+    "venue": "food-area",
+    "summary": "Rice cooked in woven coconut leaf pouches.",
+    "expect": "Served with grilled meats.",
+    "tip": "Eat it with barbecue skewers.",
+    "why": "A Cebuano staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cebuano",
+    "order": [
+     "Puso",
+     "Barbecue"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Sutukil seafood",
+    "kind": "eat",
+    "id": "cebu-sutukil",
+    "at": [
+     10.3,
+     124.0
+    ],
+    "wiki": "Filipino cuisine",
+    "area": "Mactan",
+    "venue": "food-area",
+    "summary": "Choose fresh seafood and have it grilled, stewed or raw.",
+    "expect": "Seafood markets near the beach.",
+    "tip": "Try one of each style.",
+    "why": "Mactan's seafood tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.25,
+    "price": [
+     500,
+     1500
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cebuano",
+    "order": [
+     "Grilled fish",
+     "Kinilaw",
+     "Tinola"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]
