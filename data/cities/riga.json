@@ -65,8 +65,8 @@
       "id": "riga-rig-oldtown",
       "name": "Old Town",
       "kind": "see",
-      "lat": 56.9472,
-      "lon": 24.1063,
+      "lat": 56.94691,
+      "lon": 24.10756,
       "wiki": "Old Riga",
       "summary": "Cobbled squares, the House of the Blackheads and guild halls.",
       "expect": "Busy in summer.",
@@ -106,7 +106,15 @@
         "Busy in summer.",
         "Climb St Peter's tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8575,
+          "period": "202511-202610",
+          "title": "Vecrīga",
+          "url": "https://en.wikipedia.org/wiki/Vecr%C4%ABga",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "riga-rig-artnouveau",
@@ -153,14 +161,23 @@
         "Free.",
         "Visit the Art Nouveau Museum."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16038,
+          "period": "202511-202610",
+          "title": "Art Nouveau architecture in Riga",
+          "url": "https://en.wikipedia.org/wiki/Art_Nouveau_architecture_in_Riga",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "riga-rig-market",
       "name": "Central Market",
       "kind": "see",
-      "lat": 56.944,
-      "lon": 24.116,
+      "lat": 56.94371,
+      "lon": 24.1149,
       "wiki": "Riga Central Market",
       "summary": "Food halls in former zeppelin hangars.",
       "expect": "Morning best.",
@@ -200,14 +217,22 @@
         "Morning best.",
         "Try smoked fish."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11002,
+          "period": "202511-202610",
+          "title": "Riga Central Market",
+          "url": "https://en.wikipedia.org/wiki/Riga_Central_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "riga-rig-freedom",
       "name": "Freedom Monument",
       "kind": "see",
-      "lat": 56.9514,
-      "lon": 24.1133,
+      "lat": 56.95139,
+      "lon": 24.11306,
       "wiki": "Freedom Monument (Riga)",
       "summary": "The symbol of Latvian independence.",
       "expect": "Changing of guards hourly.",
@@ -246,14 +271,22 @@
         "Changing of guards hourly.",
         "Watch the guard change."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30473,
+          "period": "202511-202610",
+          "title": "Freedom Monument",
+          "url": "https://en.wikipedia.org/wiki/Freedom_Monument",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "riga-rig-jurmala",
       "name": "Jūrmala",
       "kind": "see",
-      "lat": 56.968,
-      "lon": 23.77,
+      "lat": 56.96806,
+      "lon": 23.77028,
       "wiki": "Jūrmala",
       "summary": "Long sandy beach and wooden villas.",
       "expect": "30 minutes by train.",
@@ -292,14 +325,22 @@
         "30 minutes by train.",
         "Walk Jomas iela."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32830,
+          "period": "202511-202610",
+          "title": "Jūrmala",
+          "url": "https://en.wikipedia.org/wiki/J%C5%ABrmala",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "riga-rig-latvian-museum",
       "name": "Occupation Museum",
       "kind": "see",
-      "lat": 56.9471,
-      "lon": 24.1069,
+      "lat": 56.94709,
+      "lon": 24.10636,
       "wiki": "Museum of the Occupation of Latvia",
       "summary": "History of Soviet and Nazi occupations.",
       "expect": "Sobering.",
@@ -338,7 +379,15 @@
         "Sobering.",
         "Allow time."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6026,
+          "period": "202511-202610",
+          "title": "Museum of the Occupation of Latvia",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_the_Occupation_of_Latvia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "riga-rig-peas",
@@ -511,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

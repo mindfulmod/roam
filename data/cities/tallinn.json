@@ -65,8 +65,8 @@
       "id": "tallinn-tll-oldtown",
       "name": "Old Town and Town Hall Square",
       "kind": "see",
-      "lat": 59.4372,
-      "lon": 24.7454,
+      "lat": 59.43722,
+      "lon": 24.74528,
       "wiki": "Tallinn Old Town",
       "summary": "UNESCO medieval streets around Town Hall Square.",
       "expect": "Busy with cruise visitors in summer.",
@@ -106,14 +106,22 @@
         "Busy with cruise visitors in summer.",
         "Go early or late."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22739,
+          "period": "202511-202610",
+          "title": "Tallinn Old Town",
+          "url": "https://en.wikipedia.org/wiki/Tallinn_Old_Town",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tallinn-tll-toompea",
       "name": "Toompea viewpoints",
       "kind": "see",
-      "lat": 59.438,
-      "lon": 24.738,
+      "lat": 59.43694,
+      "lon": 24.74,
       "wiki": "Toompea",
       "summary": "Kohtuotsa and Patkuli viewing platforms over the rooftops.",
       "expect": "Free.",
@@ -152,14 +160,22 @@
         "Free.",
         "Sunset at Patkuli."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8381,
+          "period": "202511-202610",
+          "title": "Toompea",
+          "url": "https://en.wikipedia.org/wiki/Toompea",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tallinn-tll-nevsky",
       "name": "Alexander Nevsky Cathedral",
       "kind": "see",
-      "lat": 59.4357,
-      "lon": 24.7393,
+      "lat": 59.43583,
+      "lon": 24.73936,
       "wiki": "Alexander Nevsky Cathedral, Tallinn",
       "summary": "Onion-domed Orthodox cathedral.",
       "expect": "Modest dress.",
@@ -199,14 +215,22 @@
         "Modest dress.",
         "Look inside the icons."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21021,
+          "period": "202511-202610",
+          "title": "Alexander Nevsky Cathedral, Tallinn",
+          "url": "https://en.wikipedia.org/wiki/Alexander_Nevsky_Cathedral%2C_Tallinn",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tallinn-tll-seaplane",
       "name": "Seaplane Harbour",
       "kind": "see",
-      "lat": 59.4517,
-      "lon": 24.738,
+      "lat": 59.45043,
+      "lon": 24.73831,
       "wiki": "Seaplane Harbour",
       "summary": "A maritime museum in vast concrete hangars with a submarine.",
       "expect": "Allow 2 hours.",
@@ -246,14 +270,22 @@
         "Allow 2 hours.",
         "Board the Lembit submarine."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4729,
+          "period": "202511-202610",
+          "title": "Seaplane Harbour",
+          "url": "https://en.wikipedia.org/wiki/Seaplane_Harbour",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tallinn-tll-telliskivi",
       "name": "Telliskivi Creative City",
       "kind": "see",
-      "lat": 59.44,
-      "lon": 24.729,
+      "lat": 59.43893,
+      "lon": 24.72873,
       "wiki": "Telliskivi Creative City",
       "summary": "Street art, cafés and flea markets in old factories.",
       "expect": "Saturday flea market.",
@@ -293,14 +325,22 @@
         "Saturday flea market.",
         "Visit Fotografiska."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3281,
+          "period": "202511-202610",
+          "title": "Telliskivi Creative City",
+          "url": "https://en.wikipedia.org/wiki/Telliskivi_Creative_City",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tallinn-tll-kadriorg",
       "name": "Kadriorg Palace and Park",
       "kind": "see",
-      "lat": 59.438,
-      "lon": 24.791,
+      "lat": 59.43851,
+      "lon": 24.79084,
       "wiki": "Kadriorg Palace",
       "summary": "Baroque palace built by Peter the Great, plus KUMU art museum.",
       "expect": "Tram ride.",
@@ -341,7 +381,15 @@
         "Tram ride.",
         "Combine with KUMU."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15313,
+          "period": "202511-202610",
+          "title": "Kadriorg Palace",
+          "url": "https://en.wikipedia.org/wiki/Kadriorg_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tallinn-tll-elk",
@@ -461,8 +509,8 @@
       "id": "tallinn-tll-cafe",
       "name": "Old Town cafés",
       "kind": "eat",
-      "lat": 59.4373,
-      "lon": 24.746,
+      "lat": 59.43817,
+      "lon": 24.74547,
       "wiki": "Maiasmokk",
       "summary": "Estonia's oldest café with marzipan.",
       "expect": "Cosy.",
@@ -501,7 +549,6 @@
         "Cosy.",
         "Buy painted marzipan."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Café",
       "mustOrder": [
@@ -514,5 +561,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

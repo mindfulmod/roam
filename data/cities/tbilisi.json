@@ -64,8 +64,8 @@
       "id": "tbilisi-tbs-narikala",
       "name": "Narikala Fortress",
       "kind": "see",
-      "lat": 41.688,
-      "lon": 44.809,
+      "lat": 41.68778,
+      "lon": 44.80861,
       "wiki": "Narikala",
       "summary": "Ancient fortress above the old town, reached by cable car.",
       "expect": "Steep paths.",
@@ -106,14 +106,22 @@
         "Steep paths.",
         "Ride the cable car from Rike Park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14050,
+          "period": "202511-202610",
+          "title": "Narikala",
+          "url": "https://en.wikipedia.org/wiki/Narikala",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tbilisi-tbs-baths",
       "name": "Abanotubani sulphur baths",
       "kind": "see",
-      "lat": 41.688,
-      "lon": 44.811,
+      "lat": 41.68778,
+      "lon": 44.81111,
       "wiki": "Abanotubani",
       "summary": "Domed brick bathhouses fed by hot springs.",
       "expect": "Private rooms by the hour.",
@@ -153,14 +161,22 @@
         "Private rooms by the hour.",
         "Try a kisi scrub."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5339,
+          "period": "202511-202610",
+          "title": "Abanotubani",
+          "url": "https://en.wikipedia.org/wiki/Abanotubani",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tbilisi-tbs-oldtown",
       "name": "Old Tbilisi lanes",
       "kind": "see",
-      "lat": 41.692,
-      "lon": 44.807,
+      "lat": 41.69278,
+      "lon": 44.80639,
       "wiki": "Old Tbilisi",
       "summary": "Balconied houses, churches and the clock tower.",
       "expect": "Hilly.",
@@ -200,14 +216,22 @@
         "Hilly.",
         "See the Gabriadze clock tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6956,
+          "period": "202511-202610",
+          "title": "Old Tbilisi",
+          "url": "https://en.wikipedia.org/wiki/Old_Tbilisi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tbilisi-tbs-mtskheta",
       "name": "Mtskheta",
       "kind": "see",
-      "lat": 41.845,
-      "lon": 44.719,
+      "lat": 41.84639,
+      "lon": 44.71944,
       "wiki": "Mtskheta",
       "summary": "Ancient capital with Jvari Monastery and Svetitskhoveli Cathedral.",
       "expect": "30 minutes away.",
@@ -247,14 +271,22 @@
         "30 minutes away.",
         "Go to Jvari for the view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 46083,
+          "period": "202511-202610",
+          "title": "Mtskheta",
+          "url": "https://en.wikipedia.org/wiki/Mtskheta",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tbilisi-tbs-kazbegi",
       "name": "Kazbegi and Gergeti Trinity Church",
       "kind": "see",
-      "lat": 42.662,
-      "lon": 44.62,
+      "lat": 42.6625,
+      "lon": 44.62028,
       "wiki": "Gergeti Trinity Church",
       "summary": "A hilltop church below Mount Kazbek.",
       "expect": "3 hours' drive.",
@@ -294,15 +326,23 @@
         "3 hours' drive.",
         "Stay overnight if possible."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29942,
+          "period": "202511-202610",
+          "title": "Gergeti Trinity Church",
+          "url": "https://en.wikipedia.org/wiki/Gergeti_Trinity_Church",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "tbilisi-tbs-fabrika",
       "name": "Fabrika",
       "kind": "see",
-      "lat": 41.709,
-      "lon": 44.803,
+      "lat": 41.70956,
+      "lon": 44.80278,
       "wiki": "Fabrika Tbilisi",
       "summary": "A Soviet sewing factory turned hostel and bar courtyard.",
       "expect": "Lively at night.",
@@ -341,8 +381,7 @@
       "tradeoffs": [
         "Lively at night.",
         "Have a drink in the courtyard."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "tbilisi-tbs-khachapuri",
@@ -515,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

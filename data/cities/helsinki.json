@@ -63,8 +63,8 @@
       "id": "helsinki-hel-cathedral",
       "name": "Senate Square and Cathedral",
       "kind": "see",
-      "lat": 60.1705,
-      "lon": 24.9522,
+      "lat": 60.17028,
+      "lon": 24.95222,
       "wiki": "Helsinki Cathedral",
       "summary": "The white neoclassical cathedral atop grand steps.",
       "expect": "Free.",
@@ -104,14 +104,22 @@
         "Free.",
         "Sit on the steps at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 46545,
+          "period": "202511-202610",
+          "title": "Helsinki Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Helsinki_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "helsinki-hel-suomenlinna",
       "name": "Suomenlinna",
       "kind": "see",
-      "lat": 60.1454,
-      "lon": 24.9881,
+      "lat": 60.14361,
+      "lon": 24.98444,
       "wiki": "Suomenlinna",
       "summary": "A UNESCO sea fortress spread over islands.",
       "expect": "Ferry from Market Square.",
@@ -152,14 +160,22 @@
         "Ferry from Market Square.",
         "Bring a picnic."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 59040,
+          "period": "202511-202610",
+          "title": "Suomenlinna",
+          "url": "https://en.wikipedia.org/wiki/Suomenlinna",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "helsinki-hel-sauna",
       "name": "Löyly or Allas sea sauna",
       "kind": "see",
-      "lat": 60.1522,
-      "lon": 24.9269,
+      "lat": 60.15192,
+      "lon": 24.93011,
       "wiki": "Löyly",
       "summary": "Modern public saunas with a plunge into the Baltic.",
       "expect": "Book a slot.",
@@ -198,14 +214,22 @@
         "Book a slot.",
         "Do at least three rounds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4728,
+          "period": "202511-202610",
+          "title": "Löyly",
+          "url": "https://en.wikipedia.org/wiki/L%C3%B6yly",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "helsinki-hel-temppeliaukio",
       "name": "Temppeliaukio Rock Church",
       "kind": "see",
-      "lat": 60.173,
-      "lon": 24.925,
+      "lat": 60.17306,
+      "lon": 24.92528,
       "wiki": "Temppeliaukio Church",
       "summary": "A church carved into bedrock with a copper dome.",
       "expect": "Small fee.",
@@ -245,14 +269,22 @@
         "Small fee.",
         "Catch a concert."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37547,
+          "period": "202511-202610",
+          "title": "Temppeliaukio Church",
+          "url": "https://en.wikipedia.org/wiki/Temppeliaukio_Church",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "helsinki-hel-oodi",
       "name": "Oodi Library",
       "kind": "see",
-      "lat": 60.174,
-      "lon": 24.938,
+      "lat": 60.1738,
+      "lon": 24.9381,
       "wiki": "Helsinki Central Library Oodi",
       "summary": "A wave-shaped public library with a balcony.",
       "expect": "Free.",
@@ -291,14 +323,22 @@
         "Free.",
         "Go up to the 'book heaven'."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21503,
+          "period": "202511-202610",
+          "title": "Helsinki Central Library Oodi",
+          "url": "https://en.wikipedia.org/wiki/Helsinki_Central_Library_Oodi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "helsinki-hel-market",
       "name": "Market Square and Old Market Hall",
       "kind": "see",
-      "lat": 60.1675,
-      "lon": 24.953,
+      "lat": 60.167,
+      "lon": 24.955,
       "wiki": "Market Square, Helsinki",
       "summary": "Harbour market stalls and a classic food hall.",
       "expect": "Summer best.",
@@ -338,7 +378,15 @@
         "Summer best.",
         "Try salmon soup."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5578,
+          "period": "202511-202610",
+          "title": "Market Square, Helsinki",
+          "url": "https://en.wikipedia.org/wiki/Market_Square%2C_Helsinki",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "helsinki-hel-salmonsoup",
@@ -511,5 +559,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

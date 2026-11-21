@@ -64,8 +64,8 @@
       "id": "sofia-sof-nevsky",
       "name": "Alexander Nevsky Cathedral",
       "kind": "see",
-      "lat": 42.6959,
-      "lon": 23.3329,
+      "lat": 42.69583,
+      "lon": 23.33296,
       "wiki": "Alexander Nevsky Cathedral, Sofia",
       "summary": "Neo-Byzantine cathedral with golden domes.",
       "expect": "Free.",
@@ -105,14 +105,22 @@
         "Free.",
         "Visit the crypt icons."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42727,
+          "period": "202511-202610",
+          "title": "Saint Alexander Nevsky Cathedral, Sofia",
+          "url": "https://en.wikipedia.org/wiki/Saint_Alexander_Nevsky_Cathedral%2C_Sofia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sofia-sof-rila",
       "name": "Rila Monastery",
       "kind": "see",
-      "lat": 42.1336,
-      "lon": 23.3404,
+      "lat": 42.13333,
+      "lon": 23.34028,
       "wiki": "Rila Monastery",
       "summary": "Bulgaria's most important monastery, with painted arcades.",
       "expect": "2 hours' drive.",
@@ -154,15 +162,23 @@
         "2 hours' drive.",
         "Go early."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 40913,
+          "period": "202511-202610",
+          "title": "Rila Monastery",
+          "url": "https://en.wikipedia.org/wiki/Rila_Monastery",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sofia-sof-boyana",
       "name": "Boyana Church",
       "kind": "see",
-      "lat": 42.6448,
-      "lon": 23.2669,
+      "lat": 42.64467,
+      "lon": 23.26617,
       "wiki": "Boyana Church",
       "summary": "Medieval frescoes in a tiny UNESCO church.",
       "expect": "Limited visits.",
@@ -202,14 +218,22 @@
         "Limited visits.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18381,
+          "period": "202511-202610",
+          "title": "Boyana Church",
+          "url": "https://en.wikipedia.org/wiki/Boyana_Church",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sofia-sof-serdica",
       "name": "Serdica ruins",
       "kind": "see",
-      "lat": 42.6976,
-      "lon": 23.322,
+      "lat": 42.69778,
+      "lon": 23.32306,
       "wiki": "Serdica",
       "summary": "Roman ruins in a metro station.",
       "expect": "Free.",
@@ -248,7 +272,15 @@
         "Free.",
         "Walk through."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22434,
+          "period": "202511-202610",
+          "title": "Serdica",
+          "url": "https://en.wikipedia.org/wiki/Serdica",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sofia-sof-vitosha",
@@ -295,14 +327,23 @@
         "Bus and gondola.",
         "Hike to Cherni Vrah."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21477,
+          "period": "202511-202610",
+          "title": "Vitosha",
+          "url": "https://en.wikipedia.org/wiki/Vitosha",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sofia-sof-banya",
       "name": "Banya Bashi Mosque and mineral baths",
       "kind": "see",
-      "lat": 42.6995,
-      "lon": 23.323,
+      "lat": 42.69944,
+      "lon": 23.3225,
       "wiki": "Banya Bashi Mosque",
       "summary": "Ottoman mosque beside the mineral springs.",
       "expect": "Fill a bottle at the springs.",
@@ -342,7 +383,15 @@
         "Fill a bottle at the springs.",
         "Try the warm water fountains."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11138,
+          "period": "202511-202610",
+          "title": "Banya Bashi Mosque",
+          "url": "https://en.wikipedia.org/wiki/Banya_Bashi_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sofia-sof-banitsa",
@@ -516,5 +565,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

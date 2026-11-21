@@ -64,8 +64,8 @@
       "id": "sarajevo-sjj-bascarsija",
       "name": "Baščaršija",
       "kind": "see",
-      "lat": 43.8597,
-      "lon": 18.4313,
+      "lat": 43.859,
+      "lon": 18.43,
       "wiki": "Baščaršija",
       "summary": "The Ottoman bazaar with the Sebilj fountain.",
       "expect": "Busy.",
@@ -105,14 +105,22 @@
         "Busy.",
         "Have a Bosnian coffee."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20851,
+          "period": "202511-202610",
+          "title": "Baščaršija",
+          "url": "https://en.wikipedia.org/wiki/Ba%C5%A1%C4%8Dar%C5%A1ija",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sarajevo-sjj-gazi",
       "name": "Gazi Husrev-beg Mosque",
       "kind": "see",
-      "lat": 43.859,
-      "lon": 18.429,
+      "lat": 43.85917,
+      "lon": 18.42903,
       "wiki": "Gazi Husrev-beg Mosque",
       "summary": "16th-century mosque, the finest in the Balkans.",
       "expect": "Modest dress; outside prayer times.",
@@ -152,7 +160,15 @@
         "Modest dress; outside prayer times.",
         "Visit the courtyard."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20954,
+          "period": "202511-202610",
+          "title": "Gazi Husrev-beg Mosque",
+          "url": "https://en.wikipedia.org/wiki/Gazi_Husrev-beg_Mosque",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sarajevo-sjj-latin",
@@ -198,14 +214,23 @@
         "Museum nearby.",
         "Visit the museum."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21583,
+          "period": "202511-202610",
+          "title": "Latin Bridge",
+          "url": "https://en.wikipedia.org/wiki/Latin_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sarajevo-sjj-tunnel",
       "name": "Tunnel of Hope",
       "kind": "see",
-      "lat": 43.819,
-      "lon": 18.338,
+      "lat": 43.81972,
+      "lon": 18.33722,
       "wiki": "Sarajevo Tunnel",
       "summary": "The wartime tunnel that kept the city alive during the siege.",
       "expect": "Taxi or tour.",
@@ -244,7 +269,15 @@
         "Taxi or tour.",
         "Take a guided siege tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28803,
+          "period": "202511-202610",
+          "title": "Sarajevo Tunnel",
+          "url": "https://en.wikipedia.org/wiki/Sarajevo_Tunnel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sarajevo-sjj-yellowfortress",
@@ -339,7 +372,16 @@
         "Take the scenic train."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 94335,
+          "period": "202511-202610",
+          "title": "Stari Most",
+          "url": "https://en.wikipedia.org/wiki/Stari_Most",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sarajevo-sjj-cevapi",
@@ -512,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -71,8 +71,8 @@
       "id": "ljubljana-lju-triple",
       "name": "Triple Bridge and Prešeren Square",
       "kind": "see",
-      "lat": 46.0511,
-      "lon": 14.5061,
+      "lat": 46.05111,
+      "lon": 14.50611,
       "wiki": "Triple Bridge",
       "summary": "Plečnik's three bridges at the heart of the city.",
       "expect": "Free.",
@@ -111,14 +111,22 @@
         "Free.",
         "Evening by the river."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8656,
+          "period": "202511-202610",
+          "title": "Triple Bridge",
+          "url": "https://en.wikipedia.org/wiki/Triple_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ljubljana-lju-castle",
       "name": "Ljubljana Castle",
       "kind": "see",
-      "lat": 46.0488,
-      "lon": 14.5085,
+      "lat": 46.04889,
+      "lon": 14.50833,
       "wiki": "Ljubljana Castle",
       "summary": "Hilltop castle by funicular with views to the Alps.",
       "expect": "Funicular or walk.",
@@ -158,14 +166,22 @@
         "Funicular or walk.",
         "Climb the tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21196,
+          "period": "202511-202610",
+          "title": "Ljubljana Castle",
+          "url": "https://en.wikipedia.org/wiki/Ljubljana_Castle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ljubljana-lju-bled",
       "name": "Lake Bled",
       "kind": "see",
-      "lat": 46.3625,
-      "lon": 14.0938,
+      "lat": 46.36444,
+      "lon": 14.09472,
       "wiki": "Lake Bled",
       "summary": "Island church, cliff castle and cream cake.",
       "expect": "55 minutes by bus.",
@@ -206,14 +222,22 @@
         "55 minutes by bus.",
         "Row a pletna boat to the island."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 109817,
+          "period": "202511-202610",
+          "title": "Lake Bled",
+          "url": "https://en.wikipedia.org/wiki/Lake_Bled",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ljubljana-lju-postojna",
       "name": "Postojna Cave and Predjama Castle",
       "kind": "see",
-      "lat": 45.7826,
-      "lon": 14.2036,
+      "lat": 45.78267,
+      "lon": 14.20367,
       "wiki": "Postojna Cave",
       "summary": "Huge cave by train and a castle built into a cliff.",
       "expect": "Cold inside.",
@@ -253,14 +277,22 @@
         "Cold inside.",
         "Combine both."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 43431,
+          "period": "202511-202610",
+          "title": "Postojna Cave",
+          "url": "https://en.wikipedia.org/wiki/Postojna_Cave",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ljubljana-lju-market",
       "name": "Central Market",
       "kind": "see",
-      "lat": 46.051,
-      "lon": 14.51,
+      "lat": 46.05167,
+      "lon": 14.50972,
       "wiki": "Ljubljana Central Market",
       "summary": "Plečnik's colonnades with fresh produce.",
       "expect": "Morning.",
@@ -300,14 +332,22 @@
         "Morning.",
         "Try Open Kitchen on Fridays (seasonal)."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3614,
+          "period": "202511-202610",
+          "title": "Ljubljana Central Market",
+          "url": "https://en.wikipedia.org/wiki/Ljubljana_Central_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ljubljana-lju-metelkova",
       "name": "Metelkova",
       "kind": "see",
-      "lat": 46.057,
-      "lon": 14.516,
+      "lat": 46.0564,
+      "lon": 14.5167,
       "wiki": "Metelkova",
       "summary": "An alternative art squat full of murals.",
       "expect": "Night venues.",
@@ -346,7 +386,15 @@
         "Night venues.",
         "Visit by day for art."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11673,
+          "period": "202511-202610",
+          "title": "Metelkova",
+          "url": "https://en.wikipedia.org/wiki/Metelkova",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ljubljana-lju-klobasa",
@@ -519,5 +567,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
