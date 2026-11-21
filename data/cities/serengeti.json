@@ -67,8 +67,8 @@
       "id": "serengeti-ser-seronera",
       "name": "Seronera game drives",
       "kind": "see",
-      "lat": -2.44,
-      "lon": 34.83,
+      "lat": -2.43611,
+      "lon": 34.82111,
       "wiki": "Seronera",
       "summary": "Year-round resident lions, leopards and cheetahs along the Seronera River.",
       "expect": "Park fees around 83 US dollars a day.",
@@ -109,7 +109,15 @@
         "Park fees around 83 US dollars a day.",
         "Look in sausage trees for leopards."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2097,
+          "period": "202511-202610",
+          "title": "Seronera",
+          "url": "https://en.wikipedia.org/wiki/Seronera",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "serengeti-ser-migration",
@@ -203,7 +211,16 @@
         "Expensive.",
         "Book well ahead."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 178504,
+          "period": "202511-202610",
+          "title": "Hot air balloon",
+          "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "serengeti-ser-kopjes",
@@ -297,14 +314,23 @@
         "Be patient; herds hesitate for hours."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 15080,
+          "period": "202511-202610",
+          "title": "Mara River",
+          "url": "https://en.wikipedia.org/wiki/Mara_River",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "serengeti-ser-olduvai",
       "name": "Olduvai Gorge",
       "kind": "see",
-      "lat": -2.9935,
-      "lon": 35.3523,
+      "lat": -2.99361,
+      "lon": 35.35115,
       "wiki": "Olduvai Gorge",
       "summary": "Cradle of humankind with a museum.",
       "expect": "On the road to Ngorongoro.",
@@ -343,8 +369,16 @@
         "On the road to Ngorongoro.",
         "Stop on transfers."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 65174,
+          "period": "202511-202610",
+          "title": "Olduvai Gorge",
+          "url": "https://en.wikipedia.org/wiki/Olduvai_Gorge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "serengeti-ser-lodge",
@@ -517,5 +551,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

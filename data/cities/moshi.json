@@ -115,14 +115,23 @@
         "Choose 7+ days for acclimatisation; licensed operators only.",
         "Pick the Lemosho or Machame route."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 802792,
+          "period": "202511-202610",
+          "title": "Mount Kilimanjaro",
+          "url": "https://en.wikipedia.org/wiki/Mount_Kilimanjaro",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "moshi-mos-daytrek",
       "name": "Kilimanjaro day hike",
       "kind": "see",
-      "lat": -3.17,
-      "lon": 37.45,
+      "lat": -3.35472,
+      "lon": 37.52194,
       "wiki": "Marangu",
       "summary": "A day hike in the rainforest to Mandara Hut.",
       "expect": "Park fees apply.",
@@ -161,7 +170,15 @@
         "Park fees apply.",
         "Look for colobus monkeys."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2033,
+          "period": "202511-202610",
+          "title": "Marangu",
+          "url": "https://en.wikipedia.org/wiki/Marangu",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "moshi-mos-coffee",
@@ -209,7 +226,16 @@
         "Half-day.",
         "Combine with a waterfall."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3943,
+          "period": "202511-202610",
+          "title": "Coffee production in Tanzania",
+          "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Tanzania",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "moshi-mos-materuni",
@@ -255,14 +281,23 @@
         "Steep path.",
         "Swim if brave."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 351,
+          "period": "202511-202610",
+          "title": "Materuni",
+          "url": "https://en.wikipedia.org/wiki/Materuni",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "moshi-mos-chemka",
       "name": "Chemka Hot Springs",
       "kind": "see",
-      "lat": -3.443,
-      "lon": 37.188,
+      "lat": -3.4314,
+      "lon": 37.18212,
       "wiki": "Chemka",
       "summary": "Clear turquoise warm springs under fig trees.",
       "expect": "Weekends busy.",
@@ -300,8 +335,7 @@
       "tradeoffs": [
         "Weekends busy.",
         "Go midweek."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "moshi-mos-machalari",
@@ -474,5 +508,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

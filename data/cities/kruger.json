@@ -108,7 +108,16 @@
         "Gates open at dawn; conservation fees apply.",
         "Go at dawn and late afternoon."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 121314,
+          "period": "202511-202610",
+          "title": "Kruger National Park",
+          "url": "https://en.wikipedia.org/wiki/Kruger_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kruger-kru-private",
@@ -156,7 +165,16 @@
         "Costly but superb.",
         "Stay at least two nights."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16695,
+          "period": "202511-202610",
+          "title": "Timbavati Private Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/Timbavati_Private_Nature_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kruger-kru-walk",
@@ -204,7 +222,16 @@
         "Moderate fitness.",
         "Book through your lodge."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 86818,
+          "period": "202511-202610",
+          "title": "Safari",
+          "url": "https://en.wikipedia.org/wiki/Safari",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kruger-kru-blyde",
@@ -252,14 +279,23 @@
         "Mist in the mornings.",
         "Drive the Panorama Route."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 33459,
+          "period": "202511-202610",
+          "title": "Blyde River Canyon",
+          "url": "https://en.wikipedia.org/wiki/Blyde_River_Canyon",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kruger-kru-moholoholo",
       "name": "Moholoholo Wildlife Rehabilitation Centre",
       "kind": "see",
-      "lat": -24.5193,
-      "lon": 30.9076,
+      "lat": -24.54722,
+      "lon": 30.87333,
       "wiki": "Moholoholo",
       "summary": "Rescue centre for injured wildlife.",
       "expect": "Guided tours only.",
@@ -298,7 +334,15 @@
         "Guided tours only.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3079,
+          "period": "202511-202610",
+          "title": "Mariepskop",
+          "url": "https://en.wikipedia.org/wiki/Mariepskop",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kruger-kru-balloon",
@@ -346,7 +390,16 @@
         "Weather dependent.",
         "Book early in your stay."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 178504,
+          "period": "202511-202610",
+          "title": "Hot air balloon",
+          "url": "https://en.wikipedia.org/wiki/Hot_air_balloon",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kruger-kru-braai",
@@ -520,5 +573,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

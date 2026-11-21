@@ -66,8 +66,8 @@
       "id": "mauritius-mru-lemorne",
       "name": "Le Morne Brabant",
       "kind": "see",
-      "lat": -20.45,
-      "lon": 57.315,
+      "lat": -20.45194,
+      "lon": 57.32833,
       "wiki": "Le Morne Brabant",
       "summary": "A UNESCO mountain with a hike to lagoon views and a story of escaped slaves.",
       "expect": "Guided hike for the summit.",
@@ -109,14 +109,22 @@
         "Guided hike for the summit.",
         "Start at dawn."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26493,
+          "period": "202511-202610",
+          "title": "Le Morne Brabant",
+          "url": "https://en.wikipedia.org/wiki/Le_Morne_Brabant",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mauritius-mru-chamarel",
       "name": "Seven Coloured Earth and Chamarel Falls",
       "kind": "see",
-      "lat": -20.44,
-      "lon": 57.373,
+      "lat": -20.425,
+      "lon": 57.3911,
       "wiki": "Chamarel",
       "summary": "Rainbow-coloured sand dunes and a tall waterfall.",
       "expect": "Small fee.",
@@ -155,14 +163,22 @@
         "Small fee.",
         "Combine with a rum distillery."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5139,
+          "period": "202511-202610",
+          "title": "Chamarel",
+          "url": "https://en.wikipedia.org/wiki/Chamarel",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mauritius-mru-blackriver",
       "name": "Black River Gorges",
       "kind": "see",
-      "lat": -20.42,
-      "lon": 57.43,
+      "lat": -20.41667,
+      "lon": 57.41667,
       "wiki": "Black River Gorges National Park",
       "summary": "Rainforest gorges with endemic birds.",
       "expect": "Hiking trails.",
@@ -202,14 +218,22 @@
         "Hiking trails.",
         "Walk to Alexandra Falls."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8155,
+          "period": "202511-202610",
+          "title": "Black River Gorges National Park",
+          "url": "https://en.wikipedia.org/wiki/Black_River_Gorges_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mauritius-mru-portlouis",
       "name": "Port Louis",
       "kind": "see",
-      "lat": -20.1609,
-      "lon": 57.5012,
+      "lat": -20.16444,
+      "lon": 57.50417,
       "wiki": "Port Louis",
       "summary": "The capital's central market, Aapravasi Ghat and waterfront.",
       "expect": "Busy and hot.",
@@ -250,14 +274,22 @@
         "Busy and hot.",
         "Go in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 132163,
+          "period": "202511-202610",
+          "title": "Port Louis",
+          "url": "https://en.wikipedia.org/wiki/Port_Louis",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mauritius-mru-ilecerfs",
       "name": "Île aux Cerfs",
       "kind": "see",
-      "lat": -20.27,
-      "lon": 57.8,
+      "lat": -20.27222,
+      "lon": 57.80417,
       "wiki": "Île aux Cerfs",
       "summary": "Island lagoon beaches with watersports.",
       "expect": "Boat from Trou d'Eau Douce.",
@@ -297,14 +329,22 @@
         "Boat from Trou d'Eau Douce.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5734,
+          "period": "202511-202610",
+          "title": "Île aux Cerfs",
+          "url": "https://en.wikipedia.org/wiki/%C3%8Ele_aux_Cerfs",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mauritius-mru-grandbassin",
       "name": "Grand Bassin",
       "kind": "see",
-      "lat": -20.418,
-      "lon": 57.492,
+      "lat": -20.41806,
+      "lon": 57.49194,
       "wiki": "Ganga Talao",
       "summary": "A sacred crater lake for Hindu pilgrims with a giant Shiva.",
       "expect": "Dress respectfully.",
@@ -343,7 +383,15 @@
         "Dress respectfully.",
         "Visit during Maha Shivaratri."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15123,
+          "period": "202511-202610",
+          "title": "Ganga Talao",
+          "url": "https://en.wikipedia.org/wiki/Ganga_Talao",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mauritius-mru-dolphins",
@@ -389,7 +437,16 @@
         "Choose responsible operators.",
         "Go early."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 52446,
+          "period": "202511-202610",
+          "title": "Tamarin",
+          "url": "https://en.wikipedia.org/wiki/Tamarin",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "mauritius-mru-dholl",
@@ -563,5 +620,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

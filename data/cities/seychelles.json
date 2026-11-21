@@ -104,14 +104,23 @@
         "Calm in summer.",
         "Come Wednesday night."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6478,
+          "period": "202511-202610",
+          "title": "Beau Vallon, Seychelles",
+          "url": "https://en.wikipedia.org/wiki/Beau_Vallon%2C_Seychelles",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seychelles-sez-morne",
       "name": "Morne Seychellois hikes",
       "kind": "see",
-      "lat": -4.66,
-      "lon": 55.43,
+      "lat": -4.63333,
+      "lon": 55.41667,
       "wiki": "Morne Seychellois National Park",
       "summary": "Rainforest trails like Copolia to granite viewpoints.",
       "expect": "Humid; go early.",
@@ -151,14 +160,22 @@
         "Humid; go early.",
         "Hike Copolia for views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 501,
+          "period": "202511-202610",
+          "title": "Mahé highlands and surrounding areas Important Bird Area",
+          "url": "https://en.wikipedia.org/wiki/Mah%C3%A9_highlands_and_surrounding_areas_Important_Bird_Area",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seychelles-sez-victoria",
       "name": "Victoria",
       "kind": "see",
-      "lat": -4.6191,
-      "lon": 55.4513,
+      "lat": -4.6231,
+      "lon": 55.4525,
       "wiki": "Victoria, Seychelles",
       "summary": "One of the world's smallest capitals, with a clock tower and market.",
       "expect": "Sir Selwyn Clarke Market busiest on Saturday.",
@@ -198,14 +215,22 @@
         "Sir Selwyn Clarke Market busiest on Saturday.",
         "Visit the Hindu temple too."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 119217,
+          "period": "202511-202610",
+          "title": "Victoria, Seychelles",
+          "url": "https://en.wikipedia.org/wiki/Victoria%2C_Seychelles",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seychelles-sez-ladigue",
       "name": "La Digue and Anse Source d'Argent",
       "kind": "see",
-      "lat": -4.37,
-      "lon": 55.827,
+      "lat": -4.37154,
+      "lon": 55.82721,
       "wiki": "Anse Source d'Argent",
       "summary": "Pink-granite boulder beach, reached by bike.",
       "expect": "Ferry via Praslin; entry fee through L'Union Estate.",
@@ -245,15 +270,23 @@
         "Ferry via Praslin; entry fee through L'Union Estate.",
         "Go at low tide."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10982,
+          "period": "202511-202610",
+          "title": "Anse Source d'Argent",
+          "url": "https://en.wikipedia.org/wiki/Anse_Source_d'Argent",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seychelles-sez-valleemai",
       "name": "Vallée de Mai",
       "kind": "see",
-      "lat": -4.33,
-      "lon": 55.738,
+      "lat": -4.32917,
+      "lon": 55.7375,
       "wiki": "Vallée de Mai",
       "summary": "UNESCO palm forest of coco de mer.",
       "expect": "Entry fee is high.",
@@ -292,14 +325,22 @@
         "Entry fee is high.",
         "Listen for black parrots."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5301,
+          "period": "202511-202610",
+          "title": "Vallée de Mai",
+          "url": "https://en.wikipedia.org/wiki/Vall%C3%A9e_de_Mai",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seychelles-sez-stanne",
       "name": "Ste Anne Marine Park",
       "kind": "see",
-      "lat": -4.6,
+      "lat": -4.61667,
       "lon": 55.5,
       "wiki": "Sainte Anne Marine National Park",
       "summary": "Snorkelling and glass-bottom boats.",
@@ -339,7 +380,15 @@
         "Half-day trips.",
         "Book a snorkel trip."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6389,
+          "period": "202511-202610",
+          "title": "Sainte Anne Marine National Park",
+          "url": "https://en.wikipedia.org/wiki/Sainte_Anne_Marine_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seychelles-sez-curry",
@@ -512,5 +561,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

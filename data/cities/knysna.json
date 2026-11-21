@@ -114,8 +114,8 @@
       "id": "knysna-kny-featherbed",
       "name": "Featherbed Nature Reserve",
       "kind": "see",
-      "lat": -34.078,
-      "lon": 23.055,
+      "lat": -34.07583,
+      "lon": 23.05556,
       "wiki": "Featherbed Nature Reserve",
       "summary": "Ferry over to cliffs, caves and a guided walk.",
       "expect": "Booked tours.",
@@ -155,14 +155,22 @@
         "Booked tours.",
         "Combine with lunch."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1324,
+          "period": "202511-202610",
+          "title": "Featherbed Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/Featherbed_Nature_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "knysna-kny-robberg",
       "name": "Robberg Nature Reserve",
       "kind": "see",
-      "lat": -34.1,
-      "lon": 23.38,
+      "lat": -34.10458,
+      "lon": 23.40223,
       "wiki": "Robberg Nature Reserve",
       "summary": "Peninsula hike past seal colonies.",
       "expect": "Tidal paths; sturdy shoes.",
@@ -203,14 +211,22 @@
         "Tidal paths; sturdy shoes.",
         "Do the full loop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2222,
+          "period": "202511-202610",
+          "title": "Robberg Nature Reserve and Marine Protected Area",
+          "url": "https://en.wikipedia.org/wiki/Robberg_Nature_Reserve_and_Marine_Protected_Area",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "knysna-kny-stormsriver",
       "name": "Storms River Mouth",
       "kind": "see",
-      "lat": -34.021,
-      "lon": 23.901,
+      "lat": -34.01667,
+      "lon": 23.88333,
       "wiki": "Tsitsikamma National Park",
       "summary": "Suspension bridge over the river mouth in Tsitsikamma.",
       "expect": "Over an hour's drive.",
@@ -250,15 +266,23 @@
         "Over an hour's drive.",
         "Kayak up the gorge."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11610,
+          "period": "202511-202610",
+          "title": "Tsitsikamma National Park",
+          "url": "https://en.wikipedia.org/wiki/Tsitsikamma_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "knysna-kny-forest",
       "name": "Knysna forests",
       "kind": "see",
-      "lat": -33.95,
-      "lon": 23.03,
+      "lat": -34,
+      "lon": 23.1,
       "wiki": "Knysna Forest",
       "summary": "Ancient forests with giant yellowwood trees.",
       "expect": "Trails.",
@@ -297,14 +321,22 @@
         "Trails.",
         "Visit Diepwalle."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3410,
+          "period": "202511-202610",
+          "title": "Knysna–Amatole montane forests",
+          "url": "https://en.wikipedia.org/wiki/Knysna%E2%80%93Amatole_montane_forests",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "knysna-kny-bungee",
       "name": "Bloukrans Bridge bungee",
       "kind": "see",
-      "lat": -33.967,
-      "lon": 23.645,
+      "lat": -33.96727,
+      "lon": 23.64517,
       "wiki": "Bloukrans Bridge",
       "summary": "One of the world's highest bridge bungee jumps.",
       "expect": "Book ahead.",
@@ -343,8 +375,16 @@
         "Book ahead.",
         "Watch from the viewing deck if not jumping."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7976,
+          "period": "202511-202610",
+          "title": "Bloukrans Bridge",
+          "url": "https://en.wikipedia.org/wiki/Bloukrans_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "knysna-kny-oysters",
@@ -517,5 +557,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
