@@ -67,6 +67,8 @@ const css =
   '\n' +
   (await read('src/log.css')) +
   '\n' +
+  (await read('src/edit.css')) +
+  '\n' +
   (await read('src/theme.css'));
 // The app itself lives in src/app/ as numbered parts, one per area of the app. They are joined in
 // name order into a single script, so they share one scope exactly as one file would.
@@ -83,6 +85,7 @@ const js = [
   await read('src/story.js'),
   await read('src/social.js'),
   await read('src/log.js'),
+  await read('src/edit.js'),
   await read('src/choose.js'),
   appJs,
 ];

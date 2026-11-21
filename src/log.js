@@ -1,7 +1,7 @@
 // Logging a trip, as a clickable mock on the sample story (#/story/<id>/log). Three parts:
 //   here    - "I'm here": one tap logs a place for the whole group, with or without signal
 //   catchup - build a day afterwards from picked photos
-//   edit    - anyone edits the story with undo, and the group OKs it a week after getting home
+//   edit    - the group OKs the story a week after getting home (editing is on the story page)
 // Nothing is saved or sent: it all lives in LG and is gone on reload. You play Alex.
 // The map stays large with nothing on top of it, as on the story page.
 const LG_ME = 'alex';
@@ -402,7 +402,7 @@ function lgGroupHtml(g, i) {
   }</header>${g.shots.length ? `<div class="lg-strip">${g.shots.map((x) => `<button class="lg-shot on" data-action="lg-unpick" data-i="${i}" data-k="${x.k}" aria-label="Leave out the photo from ${x.t}">${lgThumb(x)}<time>${x.t}</time>${over ? `<i>${icon('close')}</i>` : ''}</button>`).join('')}</div>` : ''}${over ? `<p class="lg-warn">${g.shots.length} photos picked, and a stop holds five. Tap one to leave it out.</p>` : ''}<footer><span><strong>about ${g.in} to ${g.out}</strong> · ${g.hand ? 'a guess' : g.one ? 'a guess from one photo' : 'from the first and last photo'}</span><button class="st-act" data-action="lg-fix" data-kind="catch" data-i="${i}">Fix</button><button class="st-act" data-action="lg-drop" data-i="${i}">Leave out</button></footer></section>`;
 }
 
-// ---------------------------------------------------------------- The story: edit, undo, finish
+// ---------------------------------------------------------------- The story: finish
 function lgEditStart(m) {
   return {
     day: LG_HERE_DAY,
@@ -413,11 +413,6 @@ function lgEditStart(m) {
       photos: s.photos.map((x) => ({ id: x.id, caption: x.caption, by: x.by.id, hidden: false })),
       removed: false,
     })),
-    // What others changed before you opened it. Anyone can undo anyone.
-    changes: [
-      { who: 'noor', text: 'rewrote the note on Kiyomizu-dera', when: 'yesterday' },
-      { who: 'sam', text: 'removed a photo from Nishiki Market', when: '2 days ago' },
-    ],
     week: false,
     oks: { sam: true, noor: true },
     stage: 'draft',
@@ -456,54 +451,11 @@ function lgEditHtml() {
             `<button class="btn small ghost" data-action="lg-jo">Pretend Jo says yes</button>`,
           )) +
       '</section>';
-  const dayStops = e.stops.filter((s) => s.day === e.day),
-    covers = [
-      ...new Set([
-        m.st.cover,
-        ...e.stops.flatMap((s) => (s.removed ? [] : s.photos.map((x) => x.id))),
-      ]),
-    ].slice(0, 6);
   return (
     status +
-    `<h3 class="lg-sub">Cover photo</h3><div class="lg-covers">${covers.map((id) => `<button class="lg-shot ${id === e.cover ? 'on' : ''}" data-action="lg-cover" data-id="${id}" aria-pressed="${id === e.cover}" aria-label="Use as cover: ${esc(PHOTO[id].title || PHOTO[id].alt || id)}">${lgThumb({ id })}<i>${icon('check')}</i></button>`).join('')}</div>` +
-    `<div class="lg-dayhead"><h3 class="lg-sub">Stops</h3><select id="lg-day" aria-label="Day to edit">${m.days.map((d) => `<option value="${d.i}" ${d.i === e.day ? 'selected' : ''}>Day ${d.i + 1} · ${esc(d.title)}</option>`).join('')}</select></div>` +
-    `<ol class="lg-list lg-stops">${dayStops.map((s, i) => (s.removed ? `<li class="gone"><div><strong>${esc(s.name)}</strong><span>Removed from the story</span></div></li>` : `<li style="--day:${stColor(s.day)}"><b class="st-num">${dayStops.slice(0, i).filter((x) => !x.removed).length + 1}</b><div><strong>${esc(s.name)}</strong><span>${s.in} to ${s.out} · ${s.photos.length} of 5 photos${s.photos.some((x) => x.hidden) ? ' · 1 hidden from viewers' : ''}</span>${s.note ? `<p>${esc(s.note)}</p>` : ''}</div><button class="st-act" data-action="lg-edit" data-i="${s.i}">Edit</button></li>`)).join('')}</ol>` +
-    `<h3 class="lg-sub">Changes</h3><ul class="lg-changes">${e.changes.map((c, i) => `<li class="${c.undone ? 'undone' : ''}">${stAvatar(lgWho(c.who), 'tiny')}<span><strong>${c.who === LG_ME ? 'You' : esc(lgWho(c.who).name)}</strong> ${esc(c.text)}<small>${esc(c.when)}${c.undone ? ' · undone by you' : ''}</small></span>${c.undone ? '' : `<button class="st-act" data-action="lg-undo" data-i="${i}">Undo</button>`}</li>`).join('')}</ul><p class="filter-note">Everyone can edit everything, so every change is listed here with a name, and anyone can undo it.</p>`
+    `<a class="lg-try ed-door" href="#/story/${esc(LG.id)}/edit">${icon('pencil')}<span><strong>Edit the story on its own page</strong><small>Fix times and notes, reorder stops, choose the cover, hide a photo. The map redraws as you go, and anyone can undo.</small></span>${icon('arrow')}</a>`
   );
 }
-// Every edit goes through here: it keeps what the stop looked like before, so it can be undone.
-function lgChange(i, text, apply) {
-  const e = LG.edit,
-    s = e.stops[i],
-    before = JSON.stringify(s);
-  apply(s);
-  if (JSON.stringify(s) === before) return;
-  const entry = { who: LG_ME, text, when: 'just now', i, before };
-  e.changes.unshift(entry);
-  lgShow();
-  toast(`Saved. ${LG.m.st.travellers.length - 1} others can see it.`, {
-    label: 'Undo',
-    run: () => LG && lgUndo(e.changes.indexOf(entry)),
-  });
-}
-function lgUndo(k) {
-  const e = LG.edit,
-    c = e.changes[k];
-  if (!c || c.undone) return;
-  if (c.before) e.stops[c.i] = JSON.parse(c.before);
-  if (c.cover) e.cover = c.cover;
-  c.undone = true;
-  lgShow();
-  toast('Undone.');
-}
-function lgEditSheet(i) {
-  const s = LG.edit.stops[i];
-  showModal(
-    `<div class="modalcontent lg-modal"><h2 id="modal-heading">${esc(s.name)}</h2><p class="lead">Day ${s.day + 1} · logged by ${esc(lgName(s.by))}</p><form class="lg-editform" data-i="${i}"><div class="lg-times"><label>Arrived<input type="time" name="in" value="${s.in}" required></label><label>Left<input type="time" name="out" value="${s.out}" required></label></div><label>Note<textarea name="note" rows="3" maxlength="280">${esc(s.note)}</textarea></label><fieldset><legend>Photos · ${s.photos.length} of 5</legend>${s.photos.map((x, k) => `<div class="lg-photo ${x.hidden ? 'hidden' : ''}">${lgThumb(x)}<div><input name="cap${k}" value="${esc(x.caption)}" maxlength="80" aria-label="Caption"><small>${stAvatar(lgWho(x.by), 'tiny')} ${esc(lgWho(x.by).name)}'s photo${x.hidden ? ' · hidden from viewers' : ''}</small><span><button type="button" class="inline-link" data-action="lg-hide" data-i="${i}" data-k="${k}">${x.hidden ? 'Show to viewers' : 'Hide from viewers'}</button><button type="button" class="inline-link" data-action="lg-rmphoto" data-i="${i}" data-k="${k}">Remove</button></span></div></div>`).join('')}<button type="button" class="lg-addrow" data-action="lg-addphoto" data-i="${i}" ${s.photos.length >= 5 ? 'disabled' : ''}>${icon('plus')} ${s.photos.length >= 5 ? 'Five is the most for one stop' : 'Add a photo'}</button></fieldset><div class="actions"><button class="btn">Save</button><button type="button" class="btn text lg-danger" data-action="lg-rmstop" data-i="${i}">Remove this stop</button></div></form></div>`,
-    'Edit stop',
-  );
-}
-
 // ---------------------------------------------------------------- Events
 document.addEventListener('click', (ev) => {
   const b = ev.target.closest('[data-action^="lg-"]');
@@ -604,52 +556,11 @@ document.addEventListener('click', (ev) => {
     e.oks[LG_ME] = false;
     lgShow();
     toast('Back to a draft. Viewers can no longer open it.');
-  } else if (a === 'lg-cover') {
-    if (b.dataset.id === e.cover) return;
-    e.changes.unshift({
-      who: LG_ME,
-      text: 'changed the cover photo',
-      when: 'just now',
-      cover: e.cover,
-    });
-    e.cover = b.dataset.id;
-    lgShow();
-  } else if (a === 'lg-undo') lgUndo(i);
-  else if (a === 'lg-edit') lgEditSheet(i);
-  else if (['lg-hide', 'lg-rmphoto', 'lg-addphoto', 'lg-rmstop'].includes(a)) {
-    const k = Number(b.dataset.k),
-      name = e.stops[i].name;
-    closeModal('user');
-    if (a === 'lg-hide')
-      lgChange(
-        i,
-        `${e.stops[i].photos[k].hidden ? 'showed' : 'hid'} a photo at ${name}`,
-        (s) => (s.photos[k].hidden = !s.photos[k].hidden),
-      );
-    else if (a === 'lg-rmphoto')
-      lgChange(i, `removed a photo from ${name}`, (s) => s.photos.splice(k, 1));
-    else if (a === 'lg-addphoto')
-      lgChange(i, `added a photo to ${name}`, (s) => {
-        const id = PHOTO[s.id] ? s.id : LG.m.st.cover;
-        s.photos.push({
-          id,
-          caption: 'New photo',
-          by: LG_ME,
-          hidden: false,
-          pos: [20, 80, 0, 100, 50][s.photos.length % 5],
-        });
-      });
-    else lgChange(i, `removed ${name} from the story`, (s) => (s.removed = true));
-    if (a !== 'lg-rmstop' && !e.stops[i].removed) lgEditSheet(i);
   }
 });
 document.addEventListener('change', (ev) => {
   if (!LG) return;
   if (ev.target.matches('[data-action="lg-signal"]')) lgSignal(ev.target.checked);
-  else if (ev.target.id === 'lg-day') {
-    LG.edit.day = Number(ev.target.value);
-    lgShow();
-  }
 });
 document.addEventListener('submit', (ev) => {
   const f = ev.target;
@@ -685,14 +596,5 @@ document.addEventListener('submit', (ev) => {
     closeModal('user');
     lgShow();
     toast('Times fixed.');
-  } else if (f.matches('.lg-editform')) {
-    if (stMins(v.out) <= stMins(v.in))
-      return toast('The leaving time has to be after the arrival.');
-    const i = Number(f.dataset.i);
-    closeModal('user');
-    lgChange(i, `edited ${LG.edit.stops[i].name}`, (s) => {
-      Object.assign(s, { in: v.in, out: v.out, note: v.note.trim() });
-      s.photos.forEach((x, k) => (x.caption = (v['cap' + k] ?? x.caption).trim()));
-    });
   }
 });

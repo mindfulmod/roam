@@ -35,6 +35,8 @@ const SCREENS = [
   '#/story/japan-sample/log',
   '#/story/japan-sample/log/catchup',
   '#/story/japan-sample/log/edit',
+  '#/story/japan-sample/edit',
+  '#/story/istanbul-sample/edit',
   '#/story/istanbul-sample',
   '#/feed',
   '#/me',
@@ -295,18 +297,9 @@ test('logging a trip: the three flows work and typed text is shown as text', asy
   await tap('.lg-pick button');
   await tap('[data-action="lg-commit"]');
   assert.equal(await count('.lg-list li'), 5, 'the day was not built from the photos');
-  // The story: an edit can be undone, and it is finished only when all four say yes.
+  // The story: it opens the editor on the story page, and is finished only when all four say yes.
   await tap('#lg-tabs [data-id="edit"]');
-  await tap('[data-action="lg-edit"]');
-  await page.fill('.lg-editform textarea', HOSTILE);
-  await page.fill('.lg-editform input[name="cap0"]', HOSTILE);
-  await tap('.lg-editform .btn');
-  assert.deepEqual(await injected(page), clean, 'a typed note or caption ran as code');
-  await tap('[data-action="lg-edit"]');
-  assert.deepEqual(await injected(page), clean, 'a typed note ran as code in the edit sheet');
-  await tap('[data-action="close-modal"]');
-  await tap('.lg-changes [data-action="lg-undo"]');
-  assert.equal(await count('.lg-changes li.undone'), 1, 'the edit was not undone');
+  assert.equal(await count('.ed-door'), 1, 'no way into the story editor');
   await tap('[data-action="lg-week"]');
   await tap('[data-action="lg-ok"]');
   assert.equal(await count('.lg-done'), 0, 'the story finished without everyone');
@@ -345,6 +338,93 @@ test('the feed clears what needs you, and profile text a person typed is shown a
     await go(page, hash);
     assert.deepEqual(await injected(page), clean, 'hostile profile text ran on ' + hash);
   }
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
+// The ripple has to be plain to see: on the story, on its stops and on the map.
+test('the ripple shows where a story led, and saving from a friend says so', async () => {
+  const page = await openApp(browser, origin, { hash: '#/story/japan-sample' });
+  assert.equal(await page.locator('.st-ripples .st-rip-card').count(), 4, 'ripple strip missing');
+  assert.equal(await page.locator('.st-stop.has-rip').count(), 4, 'ripple missing on stops');
+  assert.ok((await page.locator('.st-pin.rip[data-pin]').count()) >= 4, 'no ring on the map');
+  await page.$eval('.st-rip-card.went', (el) => el.click());
+  await page.waitForTimeout(200);
+  assert.equal(
+    await page.locator('.st-sheet .st-sheet-pair').count(),
+    1,
+    'no then-and-later photos',
+  );
+  await page.context().close();
+  // A viewer saving a place from someone else's story is told the travellers will see it.
+  const viewer = await openApp(browser, origin, { hash: '#/story/istanbul-sample' });
+  assert.equal(await viewer.locator('.ed-open').count(), 0, 'a viewer was offered the editor');
+  await viewer.$eval('[data-action="story-want"]', (el) => el.click());
+  await viewer.waitForTimeout(150);
+  assert.match(await viewer.locator('.toast').textContent(), /story sent you here/);
+  assert.deepEqual(viewer.errors, []);
+  await viewer.context().close();
+});
+
+test('editing a story in place: reorder, hide, remove, add, undo, and typed text stays text', async () => {
+  const page = await openApp(browser, origin, { hash: '#/story/japan-sample/edit' });
+  const tap = async (sel) => {
+    await page.$eval(sel, (el) => el.click());
+    await page.waitForTimeout(150);
+  };
+  const names = () => page.$$eval('.st-stop h4', (els) => els.map((e) => e.textContent.trim()));
+  const pins = () => page.locator('.st-pin[data-pin]').count();
+  const changes = async () =>
+    Number((await page.locator('.ed-count strong').textContent()).split(' ')[0]);
+  assert.equal(await page.locator('.ed-bar').count(), 1, 'no edit bar');
+  const start = await names(),
+    startPins = await pins(),
+    seeded = await changes();
+  // Move the second stop earlier: the two swap, and the map redraws with the same pins.
+  await tap('#st-stop-1 [data-action="ed-move"][data-dir="-1"]');
+  const moved = await names();
+  assert.deepEqual([moved[0], moved[1]], [start[1], start[0]], 'the stop did not move');
+  assert.equal(await pins(), startPins, 'the map lost or kept extra pins');
+  // Hide a photo, remove a stop, add a place.
+  await tap('.ed-photo [data-action="ed-hide"]');
+  assert.equal(await page.locator('.ed-photo.hid').count(), 1, 'the photo was not hidden');
+  await tap('#st-stop-2 .ed-tools [data-action="ed-remove"]');
+  assert.equal((await names()).length, start.length - 1, 'the stop was not removed');
+  assert.equal(await pins(), startPins - 1, 'the removed stop is still on the map');
+  await tap('[data-action="ed-add"][data-day="0"]');
+  await tap('[data-action="ed-add-pick"]');
+  assert.equal((await names()).length, start.length, 'the place was not added');
+  assert.equal(await changes(), seeded + 4);
+  // Typed text in the stop sheet, the title and a new place name is only ever text.
+  await tap('#st-stop-0 [data-action="ed-stop"]');
+  await page.fill('.ed-form textarea', HOSTILE);
+  await page.fill('.ed-form input[name="cap0"]', HOSTILE);
+  await tap('.ed-form .btn');
+  await tap('[data-action="ed-title"]');
+  await page.fill('.ed-form input[name="title"]', HOSTILE.slice(0, 60));
+  await page.fill('.ed-form input[name="blurb"]', HOSTILE.slice(0, 120));
+  await tap('.ed-form .btn');
+  await tap('[data-action="ed-add"][data-day="1"]');
+  await page.fill('#ed-newplace', HOSTILE.slice(0, 60));
+  await tap('.ed-form[data-kind="add"] .btn');
+  assert.deepEqual(await injected(page), clean, 'typed text ran as code in the editor');
+  await tap('[data-action="ed-stop"]');
+  assert.deepEqual(await injected(page), clean, 'typed text ran as code in the stop sheet');
+  await tap('[data-action="close-modal"]');
+  // Undo from the list of changes, including one someone else made.
+  await tap('[data-action="ed-changes"]');
+  const before = await page.locator('.ed-changes li.undone').count();
+  await tap('.ed-changes li:last-child [data-action="ed-undo-one"]');
+  assert.equal(await page.locator('.ed-changes li.undone').count(), before + 1, 'undo failed');
+  await tap('[data-action="close-modal"]');
+  // Undo every change: the stops are back as they were.
+  for (let i = 0; i < 20 && !(await page.locator('[data-action="ed-undo"]').isDisabled()); i++)
+    await tap('[data-action="ed-undo"]');
+  assert.deepEqual(await names(), start, 'undoing everything did not restore the story');
+  assert.equal(await pins(), startPins);
+  await tap('[data-action="ed-done"]');
+  await page.waitForTimeout(300);
+  assert.equal(await page.locator('.ed-bar').count(), 0, 'the edit bar stayed after Done');
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
