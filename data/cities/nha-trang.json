@@ -73,8 +73,8 @@
       "id": "nha-trang-nha-ponagar",
       "name": "Po Nagar Cham Towers",
       "kind": "see",
-      "lat": 12.265,
-      "lon": 109.196,
+      "lat": 12.26528,
+      "lon": 109.19556,
       "wiki": "Po Nagar",
       "summary": "Hindu Cham temple towers from the 8th to 13th centuries.",
       "expect": "Small fee.",
@@ -114,14 +114,22 @@
         "Small fee.",
         "Cover shoulders and knees."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19857,
+          "period": "202511-202610",
+          "title": "Po Nagar",
+          "url": "https://en.wikipedia.org/wiki/Po_Nagar",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nha-trang-nha-beach",
       "name": "Nha Trang Beach",
       "kind": "see",
-      "lat": 12.239,
-      "lon": 109.197,
+      "lat": 12.23631,
+      "lon": 109.19791,
       "wiki": "Nha Trang",
       "summary": "Long sandy bay with a seafront park.",
       "expect": "Free.",
@@ -160,7 +168,15 @@
         "Free.",
         "Swim in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 90885,
+          "period": "202511-202610",
+          "title": "Nha Trang",
+          "url": "https://en.wikipedia.org/wiki/Nha_Trang",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nha-trang-nha-hon-mun",
@@ -213,8 +229,8 @@
       "id": "nha-trang-nha-mud",
       "name": "Mud baths",
       "kind": "see",
-      "lat": 12.281,
-      "lon": 109.185,
+      "lat": 12.27045,
+      "lon": 109.17697,
       "wiki": "Nha Trang",
       "summary": "Hot mineral mud baths and pools.",
       "expect": "Half day.",
@@ -252,15 +268,14 @@
       "tradeoffs": [
         "Half day.",
         "Try I-Resort or Thap Ba."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "nha-trang-nha-longson",
       "name": "Long Son Pagoda",
       "kind": "see",
-      "lat": 12.251,
-      "lon": 109.181,
+      "lat": 12.2516,
+      "lon": 109.18076,
       "wiki": "Long Sơn Pagoda",
       "summary": "Pagoda with a giant white Buddha on the hill.",
       "expect": "Free.",
@@ -300,7 +315,15 @@
         "Free.",
         "Climb to the Buddha."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3134,
+          "period": "202511-202610",
+          "title": "Long Sơn Temple",
+          "url": "https://en.wikipedia.org/wiki/Long_S%C6%A1n_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nha-trang-nha-cablecar",
@@ -347,7 +370,16 @@
         "Combo ticket.",
         "Ride at sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3673,
+          "period": "202511-202610",
+          "title": "Vinpearl Cable Car",
+          "url": "https://en.wikipedia.org/wiki/Vinpearl_Cable_Car",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nha-trang-nha-bunchaca",
@@ -520,5 +552,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -72,8 +72,8 @@
       "id": "boracay-bor-white",
       "name": "White Beach",
       "kind": "see",
-      "lat": 11.96,
-      "lon": 121.924,
+      "lat": 11.96786,
+      "lon": 121.91993,
       "wiki": "White Beach (Boracay)",
       "summary": "4 km of fine white sand lined with bars.",
       "expect": "Free.",
@@ -111,8 +111,7 @@
       "tradeoffs": [
         "Free.",
         "Walk Station 1 for the best sand."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "boracay-bor-paraw",
@@ -159,7 +158,16 @@
         "1 hour.",
         "Agree a price first."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10073,
+          "period": "202511-202610",
+          "title": "Paraw",
+          "url": "https://en.wikipedia.org/wiki/Paraw",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boracay-bor-islandhop",
@@ -206,7 +214,16 @@
         "Half day.",
         "Bring reef-safe sunscreen."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 157207,
+          "period": "202511-202610",
+          "title": "Boracay",
+          "url": "https://en.wikipedia.org/wiki/Boracay",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boracay-bor-puka",
@@ -517,5 +534,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

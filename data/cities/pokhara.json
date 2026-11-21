@@ -64,8 +64,8 @@
       "id": "pokhara-pkr-phewa",
       "name": "Phewa Lake and Tal Barahi",
       "kind": "see",
-      "lat": 28.209,
-      "lon": 83.958,
+      "lat": 28.2142,
+      "lon": 83.9472,
       "wiki": "Phewa Lake",
       "summary": "Rowing boats to the island temple with Himalayan reflections.",
       "expect": "Boat hire.",
@@ -105,7 +105,15 @@
         "Boat hire.",
         "Go early for still water."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18641,
+          "period": "202511-202610",
+          "title": "Phewa Lake",
+          "url": "https://en.wikipedia.org/wiki/Phewa_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pokhara-pkr-sarangkot",
@@ -152,7 +160,16 @@
         "Pre-dawn drive.",
         "Check the forecast."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11299,
+          "period": "202511-202610",
+          "title": "Sarangkot",
+          "url": "https://en.wikipedia.org/wiki/Sarangkot",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pokhara-pkr-paragliding",
@@ -200,14 +217,23 @@
         "30 minutes.",
         "Fly in the morning."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11299,
+          "period": "202511-202610",
+          "title": "Sarangkot",
+          "url": "https://en.wikipedia.org/wiki/Sarangkot",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pokhara-pkr-pagoda",
       "name": "World Peace Pagoda",
       "kind": "see",
-      "lat": 28.2,
-      "lon": 83.945,
+      "lat": 28.20102,
+      "lon": 83.94474,
       "wiki": "World Peace Pagoda, Pokhara",
       "summary": "White stupa above the lake.",
       "expect": "Free.",
@@ -247,15 +273,14 @@
       "tradeoffs": [
         "Free.",
         "Hike up, boat back."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "pokhara-pkr-poonhill",
       "name": "Poon Hill trek",
       "kind": "see",
-      "lat": 28.4,
-      "lon": 83.69,
+      "lat": 28.40004,
+      "lon": 83.68954,
       "wiki": "Poon Hill",
       "summary": "Short trek to a famous Annapurna sunrise viewpoint.",
       "expect": "3 to 4 days.",
@@ -296,15 +321,23 @@
         "3 to 4 days.",
         "Get permits in Pokhara."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16539,
+          "period": "202511-202610",
+          "title": "Poon Hill",
+          "url": "https://en.wikipedia.org/wiki/Poon_Hill",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pokhara-pkr-museum",
       "name": "International Mountain Museum",
       "kind": "see",
-      "lat": 28.196,
-      "lon": 83.979,
+      "lat": 28.19007,
+      "lon": 83.98286,
       "wiki": "International Mountain Museum",
       "summary": "Museum of Himalayan peoples and mountaineering.",
       "expect": "Allow 1.5 hours.",
@@ -343,7 +376,15 @@
         "Allow 1.5 hours.",
         "See the Everest exhibits."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1998,
+          "period": "202511-202610",
+          "title": "International Mountain Museum",
+          "url": "https://en.wikipedia.org/wiki/International_Mountain_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "pokhara-pkr-dalbhat",
@@ -516,5 +557,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

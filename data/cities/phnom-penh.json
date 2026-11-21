@@ -70,8 +70,8 @@
       "id": "phnom-penh-pnh-palace",
       "name": "Royal Palace and Silver Pagoda",
       "kind": "see",
-      "lat": 11.564,
-      "lon": 104.931,
+      "lat": 11.56365,
+      "lon": 104.93081,
       "wiki": "Royal Palace, Phnom Penh",
       "summary": "Golden spires and a pagoda floored with silver tiles.",
       "expect": "Dress modestly.",
@@ -111,14 +111,22 @@
         "Dress modestly.",
         "Go at opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 34327,
+          "period": "202511-202610",
+          "title": "Royal Palace of Cambodia",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Cambodia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phnom-penh-pnh-tuolsleng",
       "name": "Tuol Sleng Genocide Museum",
       "kind": "see",
-      "lat": 11.549,
-      "lon": 104.917,
+      "lat": 11.54944,
+      "lon": 104.91778,
       "wiki": "Tuol Sleng Genocide Museum",
       "summary": "Former school turned Khmer Rouge prison S-21.",
       "expect": "Audio guide recommended.",
@@ -157,14 +165,22 @@
         "Audio guide recommended.",
         "Allow 2 hours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 191638,
+          "period": "202511-202610",
+          "title": "Tuol Sleng Genocide Museum",
+          "url": "https://en.wikipedia.org/wiki/Tuol_Sleng_Genocide_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phnom-penh-pnh-choeungek",
       "name": "Choeung Ek Killing Fields",
       "kind": "see",
-      "lat": 11.484,
-      "lon": 104.902,
+      "lat": 11.48398,
+      "lon": 104.90231,
       "wiki": "Choeung Ek",
       "summary": "Memorial stupa and mass graves.",
       "expect": "Audio guide included.",
@@ -203,13 +219,21 @@
         "Audio guide included.",
         "Combine with Tuol Sleng."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 62988,
+          "period": "202511-202610",
+          "title": "Choeung Ek",
+          "url": "https://en.wikipedia.org/wiki/Choeung_Ek",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phnom-penh-pnh-national",
       "name": "National Museum of Cambodia",
       "kind": "see",
-      "lat": 11.566,
+      "lat": 11.5658,
       "lon": 104.929,
       "wiki": "National Museum of Cambodia",
       "summary": "Angkor-era sculpture in a red Khmer building.",
@@ -250,7 +274,15 @@
         "Allow 1.5 hours.",
         "See the eight-armed Vishnu."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12766,
+          "period": "202511-202610",
+          "title": "National Museum of Cambodia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Cambodia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phnom-penh-pnh-russian",
@@ -343,7 +375,16 @@
         "1 hour.",
         "Bring a drink."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10378,
+          "period": "202511-202610",
+          "title": "Tonle Sap",
+          "url": "https://en.wikipedia.org/wiki/Tonle_Sap",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phnom-penh-pnh-amok",
@@ -516,5 +557,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

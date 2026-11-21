@@ -106,14 +106,23 @@
         "Cycle round the island."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 44888,
+          "period": "202511-202610",
+          "title": "Gili Islands",
+          "url": "https://en.wikipedia.org/wiki/Gili_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lombok-lop-turtles",
       "name": "Snorkelling with turtles",
       "kind": "see",
-      "lat": -8.355,
-      "lon": 116.035,
+      "lat": -8.35,
+      "lon": 116.06,
       "wiki": "Gili Islands",
       "summary": "Green turtles graze off the Gili beaches.",
       "expect": "Glass-bottom tours.",
@@ -153,15 +162,23 @@
         "Glass-bottom tours.",
         "Join a 3-Gili snorkel trip."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 44888,
+          "period": "202511-202610",
+          "title": "Gili Islands",
+          "url": "https://en.wikipedia.org/wiki/Gili_Islands",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lombok-lop-rinjani",
       "name": "Mount Rinjani trek",
       "kind": "see",
-      "lat": -8.411,
-      "lon": 116.457,
+      "lat": -8.41441,
+      "lon": 116.45977,
       "wiki": "Mount Rinjani",
       "summary": "Two- to three-day trek to a crater rim with a lake.",
       "expect": "Guide required.",
@@ -202,8 +219,16 @@
         "Guide required.",
         "Book a reputable operator."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 58295,
+          "period": "202511-202610",
+          "title": "Mount Rinjani",
+          "url": "https://en.wikipedia.org/wiki/Mount_Rinjani",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lombok-lop-sendang",
@@ -256,8 +281,8 @@
       "id": "lombok-lop-kuta",
       "name": "Kuta Lombok beaches",
       "kind": "see",
-      "lat": -8.895,
-      "lon": 116.28,
+      "lat": -8.91667,
+      "lon": 116.28333,
       "wiki": "Kuta, Lombok",
       "summary": "Turquoise bays and surf at Tanjung Aan and Selong Belanak.",
       "expect": "Scooter.",
@@ -297,8 +322,16 @@
         "Scooter.",
         "Learn to surf at Selong Belanak."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7993,
+          "period": "202511-202610",
+          "title": "Kuta, Lombok",
+          "url": "https://en.wikipedia.org/wiki/Kuta%2C_Lombok",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lombok-lop-sade",
@@ -345,7 +378,16 @@
         "Go with a local guide."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16053,
+          "period": "202511-202610",
+          "title": "Sasak people",
+          "url": "https://en.wikipedia.org/wiki/Sasak_people",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lombok-lop-taliwang",
@@ -518,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

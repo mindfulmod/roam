@@ -113,8 +113,8 @@
       "id": "kaohsiung-khh-pier2",
       "name": "Pier-2 Art Center",
       "kind": "see",
-      "lat": 22.62,
-      "lon": 120.282,
+      "lat": 22.61989,
+      "lon": 120.28172,
       "wiki": "Pier-2 Art Center",
       "summary": "Warehouses turned galleries with sculptures by the harbour.",
       "expect": "Free.",
@@ -153,14 +153,22 @@
         "Free.",
         "Rent a YouBike."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2905,
+          "period": "202511-202610",
+          "title": "Pier-2 Art Center",
+          "url": "https://en.wikipedia.org/wiki/Pier-2_Art_Center",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kaohsiung-khh-fgs",
       "name": "Fo Guang Shan Buddha Museum",
       "kind": "see",
-      "lat": 22.757,
-      "lon": 120.443,
+      "lat": 22.75708,
+      "lon": 120.44135,
       "wiki": "Fo Guang Shan Buddha Museum",
       "summary": "Giant seated Buddha and pagoda-lined avenue.",
       "expect": "Free.",
@@ -200,7 +208,15 @@
         "Free.",
         "Bus from Zuoying HSR."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12078,
+          "period": "202511-202610",
+          "title": "Fo Guang Shan Buddha Museum",
+          "url": "https://en.wikipedia.org/wiki/Fo_Guang_Shan_Buddha_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kaohsiung-khh-cijin",
@@ -248,14 +264,23 @@
         "Short ferry.",
         "Rent a bike."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6329,
+          "period": "202511-202610",
+          "title": "Cijin District",
+          "url": "https://en.wikipedia.org/wiki/Cijin_District",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kaohsiung-khh-formosa",
       "name": "Formosa Boulevard Station Dome of Light",
       "kind": "see",
-      "lat": 22.631,
-      "lon": 120.302,
+      "lat": 22.63144,
+      "lon": 120.30197,
       "wiki": "Formosa Boulevard Station",
       "summary": "World's largest glass artwork in a metro station.",
       "expect": "Free.",
@@ -295,14 +320,22 @@
         "Free.",
         "Visit during the light show."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3650,
+          "period": "202511-202610",
+          "title": "Formosa Boulevard metro station",
+          "url": "https://en.wikipedia.org/wiki/Formosa_Boulevard_metro_station",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kaohsiung-khh-lovekiver",
       "name": "Love River",
       "kind": "see",
-      "lat": 22.63,
-      "lon": 120.29,
+      "lat": 22.62361,
+      "lon": 120.28972,
       "wiki": "Love River",
       "summary": "Riverside walks and boat rides lit up at night.",
       "expect": "Free.",
@@ -341,14 +374,22 @@
         "Free.",
         "Take an evening boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3829,
+          "period": "202511-202610",
+          "title": "Love River",
+          "url": "https://en.wikipedia.org/wiki/Love_River",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kaohsiung-khh-ruifeng",
       "name": "Ruifeng Night Market",
       "kind": "eat",
-      "lat": 22.666,
-      "lon": 120.299,
+      "lat": 22.66622,
+      "lon": 120.29969,
       "wiki": "Ruifeng Night Market",
       "summary": "Locals' favourite night market.",
       "expect": "Closed Mon and Wed.",
@@ -387,7 +428,6 @@
         "Closed Mon and Wed.",
         "Try oyster omelette."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Taiwanese",
       "mustOrder": [
@@ -515,5 +555,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

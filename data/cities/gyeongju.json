@@ -71,7 +71,7 @@
       "name": "Bulguksa Temple",
       "kind": "see",
       "lat": 35.79,
-      "lon": 129.332,
+      "lon": 129.33222,
       "wiki": "Bulguksa",
       "summary": "UNESCO temple with stone pagodas and bridges.",
       "expect": "Allow 2 hours.",
@@ -112,14 +112,22 @@
         "Allow 2 hours.",
         "Go early on weekdays."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30500,
+          "period": "202511-202610",
+          "title": "Bulguksa",
+          "url": "https://en.wikipedia.org/wiki/Bulguksa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gyeongju-gyj-seokguram",
       "name": "Seokguram Grotto",
       "kind": "see",
       "lat": 35.795,
-      "lon": 129.349,
+      "lon": 129.34917,
       "wiki": "Seokguram",
       "summary": "Granite Buddha in a mountain grotto facing the sea.",
       "expect": "Shuttle from Bulguksa.",
@@ -159,7 +167,15 @@
         "Shuttle from Bulguksa.",
         "Go at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21829,
+          "period": "202511-202610",
+          "title": "Seokguram",
+          "url": "https://en.wikipedia.org/wiki/Seokguram",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gyeongju-gyj-tumuli",
@@ -205,14 +221,22 @@
         "Small fee.",
         "See Cheonmachong inside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10280,
+          "period": "202511-202610",
+          "title": "Daereungwon",
+          "url": "https://en.wikipedia.org/wiki/Daereungwon",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gyeongju-gyj-donggung",
       "name": "Donggung Palace and Wolji Pond",
       "kind": "see",
-      "lat": 35.835,
-      "lon": 129.226,
+      "lat": 35.83462,
+      "lon": 129.22711,
       "wiki": "Donggung Palace and Wolji Pond",
       "summary": "Reconstructed pavilions reflected in a pond, lit up at night.",
       "expect": "Small fee.",
@@ -252,13 +276,21 @@
         "Small fee.",
         "Go after dark."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11527,
+          "period": "202511-202610",
+          "title": "Donggung Palace and Wolji Pond",
+          "url": "https://en.wikipedia.org/wiki/Donggung_Palace_and_Wolji_Pond",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gyeongju-gyj-cheomseongdae",
       "name": "Cheomseongdae Observatory",
       "kind": "see",
-      "lat": 35.8347,
+      "lat": 35.83472,
       "lon": 129.219,
       "wiki": "Cheomseongdae",
       "summary": "Asia's oldest surviving astronomical observatory.",
@@ -299,14 +331,22 @@
         "Free.",
         "Cycle the flower fields nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 28162,
+          "period": "202511-202610",
+          "title": "Cheomseongdae",
+          "url": "https://en.wikipedia.org/wiki/Cheomseongdae",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gyeongju-gyj-museum",
       "name": "Gyeongju National Museum",
       "kind": "see",
-      "lat": 35.829,
-      "lon": 129.228,
+      "lat": 35.82898,
+      "lon": 129.22836,
       "wiki": "Gyeongju National Museum",
       "summary": "Silla gold crowns and the Emille Bell.",
       "expect": "Free.",
@@ -346,7 +386,15 @@
         "Free.",
         "Allow 2 hours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5216,
+          "period": "202511-202610",
+          "title": "Gyeongju National Museum",
+          "url": "https://en.wikipedia.org/wiki/Gyeongju_National_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gyeongju-gyj-ssambap",
@@ -520,5 +568,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
