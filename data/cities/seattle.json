@@ -74,8 +74,8 @@
       "id": "seattle-seattle-pike-place",
       "name": "Pike Place Market",
       "kind": "see",
-      "lat": 47.6097,
-      "lon": -122.3422,
+      "lat": 47.6094,
+      "lon": -122.34141,
       "wiki": "Pike Place Market",
       "summary": "A 1907 waterfront market of fish throwers, flower stalls, bakeries and the gum wall.",
       "expect": "Busy at midday; quieter at 8am.",
@@ -115,14 +115,22 @@
         "Busy at midday; quieter at 8am.",
         "Come early to see the fish being thrown and eat your way through."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 62235,
+          "period": "202511-202610",
+          "title": "Pike Place Market",
+          "url": "https://en.wikipedia.org/wiki/Pike_Place_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seattle-seattle-space-needle",
       "name": "Space Needle",
       "kind": "see",
-      "lat": 47.6205,
-      "lon": -122.3493,
+      "lat": 47.6204,
+      "lon": -122.3491,
       "wiki": "Space Needle",
       "summary": "The 1962 World's Fair tower with a revolving glass floor and views of mountains and the Sound.",
       "expect": "Timed tickets.",
@@ -162,14 +170,22 @@
         "Timed tickets.",
         "Buy a combo ticket with Chihuly Garden and Glass next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 241705,
+          "period": "202511-202610",
+          "title": "Space Needle",
+          "url": "https://en.wikipedia.org/wiki/Space_Needle",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seattle-seattle-chihuly",
       "name": "Chihuly Garden and Glass",
       "kind": "see",
-      "lat": 47.6206,
-      "lon": -122.3505,
+      "lat": 47.62062,
+      "lon": -122.35007,
       "wiki": "Chihuly Garden and Glass",
       "summary": "Dale Chihuly's glass sculptures in galleries, a glasshouse and a garden.",
       "expect": "About an hour; magical in evening light.",
@@ -208,14 +224,22 @@
         "About an hour; magical in evening light.",
         "Visit at dusk when the garden glows."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14787,
+          "period": "202511-202610",
+          "title": "Chihuly Garden and Glass",
+          "url": "https://en.wikipedia.org/wiki/Chihuly_Garden_and_Glass",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seattle-seattle-kerry-park",
       "name": "Kerry Park",
       "kind": "see",
-      "lat": 47.6295,
-      "lon": -122.3599,
+      "lat": 47.62944,
+      "lon": -122.36,
       "wiki": "Kerry Park (Seattle)",
       "summary": "A small hillside park with the classic view of the skyline, the Space Needle and Mount Rainier.",
       "expect": "Crowded at sunset.",
@@ -254,14 +278,22 @@
         "Crowded at sunset.",
         "Come on a clear evening for Rainier glowing behind the city."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6484,
+          "period": "202511-202610",
+          "title": "Kerry Park",
+          "url": "https://en.wikipedia.org/wiki/Kerry_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seattle-seattle-mopop",
       "name": "Museum of Pop Culture",
       "kind": "see",
-      "lat": 47.6214,
-      "lon": -122.3481,
+      "lat": 47.62149,
+      "lon": -122.34823,
       "wiki": "Museum of Pop Culture",
       "summary": "A Frank Gehry building with galleries on Jimi Hendrix, Nirvana, science fiction and games.",
       "expect": "Interactive; allow two hours.",
@@ -301,7 +333,15 @@
         "Interactive; allow two hours.",
         "Play instruments in the Sound Lab."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 54700,
+          "period": "202511-202610",
+          "title": "Museum of Pop Culture",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Pop_Culture",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seattle-seattle-bainbridge-ferry",
@@ -348,14 +388,23 @@
         "Pay only on the way out.",
         "Ride at sunset and stay on deck."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 38843,
+          "period": "202511-202610",
+          "title": "Washington State Ferries",
+          "url": "https://en.wikipedia.org/wiki/Washington_State_Ferries",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seattle-seattle-mount-rainier",
       "name": "Mount Rainier National Park",
       "kind": "see",
-      "lat": 46.786,
-      "lon": -121.735,
+      "lat": 46.85,
+      "lon": -121.75,
       "wiki": "Mount Rainier National Park",
       "summary": "The glacier-covered volcano that towers over Seattle, with wildflower meadows at Paradise.",
       "expect": "About 2.5 hours each way; roads close in winter; timed entry in summer.",
@@ -395,8 +444,16 @@
         "About 2.5 hours each way; roads close in winter; timed entry in summer.",
         "Hike the Skyline Trail in late July for wildflowers."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 53874,
+          "period": "202511-202610",
+          "title": "Mount Rainier National Park",
+          "url": "https://en.wikipedia.org/wiki/Mount_Rainier_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "seattle-seattle-pike-place-food",
@@ -462,7 +519,7 @@
       "name": "Ivar's Acres of Clams",
       "kind": "eat",
       "lat": 47.604,
-      "lon": -122.339,
+      "lon": -122.33906,
       "wiki": "Ivar's",
       "summary": "A waterfront seafood institution since 1938, famous for fish and chips and clam chowder.",
       "expect": "Casual; feed the gulls outside.",
@@ -501,7 +558,6 @@
         "Casual; feed the gulls outside.",
         "Order the cod and chips at the outdoor counter."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -574,5 +630,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

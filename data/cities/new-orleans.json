@@ -75,8 +75,8 @@
       "id": "new-orleans-new-orleans-french-quarter",
       "name": "French Quarter and Jackson Square",
       "kind": "see",
-      "lat": 29.9574,
-      "lon": -90.0629,
+      "lat": 29.9575,
+      "lon": -90.06306,
       "wiki": "Jackson Square (New Orleans)",
       "summary": "The old city's square below St. Louis Cathedral, ringed by artists, musicians and wrought-iron balconies.",
       "expect": "Bourbon Street is loud at night; Royal Street is calmer.",
@@ -116,7 +116,15 @@
         "Bourbon Street is loud at night; Royal Street is calmer.",
         "Walk Royal Street in the morning for galleries and street musicians."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 31439,
+          "period": "202511-202610",
+          "title": "Jackson Square (New Orleans)",
+          "url": "https://en.wikipedia.org/wiki/Jackson_Square_(New_Orleans)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "new-orleans-new-orleans-frenchmen",
@@ -162,14 +170,23 @@
         "Many clubs have no cover; buy a drink per set.",
         "Hop between clubs and tip the band."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8092,
+          "period": "202511-202610",
+          "title": "Frenchmen Street",
+          "url": "https://en.wikipedia.org/wiki/Frenchmen_Street",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "new-orleans-new-orleans-preservation-hall",
       "name": "Preservation Hall",
       "kind": "see",
       "lat": 29.9583,
-      "lon": -90.0653,
+      "lon": -90.0654,
       "wiki": "Preservation Hall",
       "summary": "A tiny hall of traditional New Orleans jazz, with short acoustic sets every night.",
       "expect": "Standing room for most; buy tickets ahead.",
@@ -209,14 +226,22 @@
         "Standing room for most; buy tickets ahead.",
         "Book a reserved seat for the early set."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13966,
+          "period": "202511-202610",
+          "title": "Preservation Hall",
+          "url": "https://en.wikipedia.org/wiki/Preservation_Hall",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "new-orleans-new-orleans-garden-district",
       "name": "Garden District and the St. Charles streetcar",
       "kind": "see",
-      "lat": 29.9286,
-      "lon": -90.084,
+      "lat": 29.92778,
+      "lon": -90.08472,
       "wiki": "Garden District, New Orleans",
       "summary": "Grand antebellum mansions under oak trees, reached by the world's oldest running streetcar line.",
       "expect": "A residential area; Lafayette Cemetery may be closed for repairs.",
@@ -256,14 +281,22 @@
         "A residential area; Lafayette Cemetery may be closed for repairs.",
         "Ride the streetcar out and walk back via Magazine Street."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26647,
+          "period": "202511-202610",
+          "title": "Garden District, New Orleans",
+          "url": "https://en.wikipedia.org/wiki/Garden_District%2C_New_Orleans",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "new-orleans-new-orleans-wwii-museum",
       "name": "The National WWII Museum",
       "kind": "see",
-      "lat": 29.943,
-      "lon": -90.0705,
+      "lat": 29.94306,
+      "lon": -90.07028,
       "wiki": "The National WWII Museum",
       "summary": "A vast, immersive museum of the Second World War, with aircraft and personal stories.",
       "expect": "Allow most of a day.",
@@ -302,7 +335,15 @@
         "Allow most of a day.",
         "See the 4D film Beyond All Boundaries."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 31816,
+          "period": "202511-202610",
+          "title": "The National WWII Museum",
+          "url": "https://en.wikipedia.org/wiki/The_National_WWII_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "new-orleans-new-orleans-swamp",
@@ -348,14 +389,23 @@
         "Mosquitoes in summer.",
         "Walk the free Barataria boardwalk in the morning."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8707,
+          "period": "202511-202610",
+          "title": "Jean Lafitte National Historical Park and Preserve",
+          "url": "https://en.wikipedia.org/wiki/Jean_Lafitte_National_Historical_Park_and_Preserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "new-orleans-new-orleans-cafe-du-monde",
       "name": "Café du Monde",
       "kind": "eat",
-      "lat": 29.9575,
-      "lon": -90.0619,
+      "lat": 29.95752,
+      "lon": -90.06182,
       "wiki": "Café du Monde",
       "summary": "The 1862 coffee stand on Jackson Square serving beignets and chicory café au lait.",
       "expect": "Queues; cash or card; powdered sugar everywhere.",
@@ -394,7 +444,6 @@
         "Queues; cash or card; powdered sugar everywhere.",
         "Go late at night or early morning to skip the queue."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Café",
       "mustOrder": [
@@ -412,8 +461,8 @@
       "id": "new-orleans-new-orleans-commanders-palace",
       "name": "Commander's Palace",
       "kind": "eat",
-      "lat": 29.9287,
-      "lon": -90.0843,
+      "lat": 29.92878,
+      "lon": -90.08422,
       "wiki": "Commander's Palace",
       "summary": "A turquoise Victorian mansion serving Creole fine dining since 1893.",
       "expect": "Dress code; book ahead; jazz brunch at weekends.",
@@ -452,7 +501,6 @@
         "Dress code; book ahead; jazz brunch at weekends.",
         "Go for the weekday lunch with 25-cent martinis."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Creole",
       "mustOrder": [
@@ -526,5 +574,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -76,8 +76,8 @@
       "id": "san-diego-san-diego-balboa-park",
       "name": "Balboa Park",
       "kind": "see",
-      "lat": 32.7341,
-      "lon": -117.1446,
+      "lat": 32.73139,
+      "lon": -117.14528,
       "wiki": "Balboa Park (San Diego)",
       "summary": "A huge park of Spanish Revival buildings, gardens and 17 museums.",
       "expect": "Gardens are free; museums charge.",
@@ -118,14 +118,22 @@
         "Gardens are free; museums charge.",
         "See the Botanical Building and the Japanese Friendship Garden."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 60080,
+          "period": "202511-202610",
+          "title": "Balboa Park (San Diego)",
+          "url": "https://en.wikipedia.org/wiki/Balboa_Park_(San_Diego)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-diego-san-diego-zoo",
       "name": "San Diego Zoo",
       "kind": "see",
-      "lat": 32.7353,
-      "lon": -117.149,
+      "lat": 32.73599,
+      "lon": -117.15065,
       "wiki": "San Diego Zoo",
       "summary": "A world-famous zoo in canyons inside Balboa Park.",
       "expect": "Hilly; use the Skyfari aerial tram.",
@@ -165,14 +173,22 @@
         "Hilly; use the Skyfari aerial tram.",
         "Ride the guided bus tour first to get your bearings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 93518,
+          "period": "202511-202610",
+          "title": "San Diego Zoo",
+          "url": "https://en.wikipedia.org/wiki/San_Diego_Zoo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-diego-san-diego-la-jolla",
       "name": "La Jolla Cove",
       "kind": "see",
-      "lat": 32.8503,
-      "lon": -117.2716,
+      "lat": 32.85056,
+      "lon": -117.27222,
       "wiki": "La Jolla Cove",
       "summary": "A small cove of sea lions, seals and tide pools below a clifftop village.",
       "expect": "Do not touch the sea lions; it can smell strong.",
@@ -212,14 +228,22 @@
         "Do not touch the sea lions; it can smell strong.",
         "Kayak the sea caves in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19146,
+          "period": "202511-202610",
+          "title": "La Jolla Cove",
+          "url": "https://en.wikipedia.org/wiki/La_Jolla_Cove",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-diego-san-diego-midway",
       "name": "USS Midway Museum",
       "kind": "see",
-      "lat": 32.7137,
-      "lon": -117.1751,
+      "lat": 32.71445,
+      "lon": -117.17315,
       "wiki": "USS Midway Museum",
       "summary": "A huge aircraft carrier turned museum, with planes on the flight deck and veteran guides.",
       "expect": "Allow three hours.",
@@ -259,14 +283,22 @@
         "Allow three hours.",
         "Talk to the docents, many of whom served on carriers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 51993,
+          "period": "202511-202610",
+          "title": "USS Midway Museum",
+          "url": "https://en.wikipedia.org/wiki/USS_Midway_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-diego-san-diego-old-town",
       "name": "Old Town San Diego",
       "kind": "see",
-      "lat": 32.7549,
-      "lon": -117.1979,
+      "lat": 32.75466,
+      "lon": -117.19734,
       "wiki": "Old Town San Diego State Historic Park",
       "summary": "The site of California's first European settlement, with adobe buildings, museums and Mexican restaurants.",
       "expect": "Free state park; touristy shops around.",
@@ -305,14 +337,22 @@
         "Free state park; touristy shops around.",
         "Stay for dinner and margaritas."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7007,
+          "period": "202511-202610",
+          "title": "Old Town San Diego State Historic Park",
+          "url": "https://en.wikipedia.org/wiki/Old_Town_San_Diego_State_Historic_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-diego-san-diego-coronado",
       "name": "Coronado and Hotel del Coronado",
       "kind": "see",
-      "lat": 32.6859,
-      "lon": -117.1831,
+      "lat": 32.6809,
+      "lon": -117.1784,
       "wiki": "Hotel del Coronado",
       "summary": "A wide sparkling beach in front of the red-roofed 1888 Victorian resort.",
       "expect": "Ferry or bridge from Downtown.",
@@ -352,14 +392,22 @@
         "Ferry or bridge from Downtown.",
         "Take the ferry and rent bikes on the island."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 88393,
+          "period": "202511-202610",
+          "title": "Hotel del Coronado",
+          "url": "https://en.wikipedia.org/wiki/Hotel_del_Coronado",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-diego-san-diego-torrey-pines",
       "name": "Torrey Pines",
       "kind": "see",
-      "lat": 32.92,
-      "lon": -117.253,
+      "lat": 32.921,
+      "lon": -117.2532,
       "wiki": "Torrey Pines State Natural Reserve",
       "summary": "Clifftop trails among rare pines with views over the Pacific, down to a wild beach.",
       "expect": "Parking fills early; no food in the reserve.",
@@ -398,7 +446,15 @@
         "Parking fills early; no food in the reserve.",
         "Hike the Guy Fleming Trail, then the Beach Trail down to the sand."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8900,
+          "period": "202511-202610",
+          "title": "Torrey Pines State Natural Reserve",
+          "url": "https://en.wikipedia.org/wiki/Torrey_Pines_State_Natural_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-diego-san-diego-fish-tacos",
@@ -463,8 +519,8 @@
       "id": "san-diego-san-diego-liberty-market",
       "name": "Liberty Public Market",
       "kind": "eat",
-      "lat": 32.7395,
-      "lon": -117.21,
+      "lat": 32.7383,
+      "lon": -117.214,
       "wiki": "Liberty Station",
       "summary": "A food hall in a former naval training centre, with dozens of local vendors.",
       "expect": "Busy at weekends.",
@@ -503,7 +559,6 @@
         "Busy at weekends.",
         "Share plates from several stalls."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Food hall",
       "mustOrder": [
@@ -576,5 +631,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

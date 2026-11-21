@@ -74,8 +74,8 @@
       "id": "boston-boston-freedom-trail",
       "name": "Freedom Trail",
       "kind": "see",
-      "lat": 42.3554,
-      "lon": -71.064,
+      "lat": 42.36,
+      "lon": -71.05667,
       "wiki": "Freedom Trail",
       "summary": "A 4 km red-brick line past 16 sites of the American Revolution, from Boston Common to the USS Constitution.",
       "expect": "Free to walk; some sites charge.",
@@ -114,14 +114,22 @@
         "Free to walk; some sites charge.",
         "Join a costumed guide for the first half, then explore on your own."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 57580,
+          "period": "202511-202610",
+          "title": "Freedom Trail",
+          "url": "https://en.wikipedia.org/wiki/Freedom_Trail",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boston-boston-mfa",
       "name": "Museum of Fine Arts",
       "kind": "see",
       "lat": 42.3394,
-      "lon": -71.094,
+      "lon": -71.0942,
       "wiki": "Museum of Fine Arts, Boston",
       "summary": "One of America's great art museums, with Impressionists, Egyptian art and American masters.",
       "expect": "Allow half a day.",
@@ -160,14 +168,22 @@
         "Allow half a day.",
         "Pair it with the Gardner Museum nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 62373,
+          "period": "202511-202610",
+          "title": "Museum of Fine Arts, Boston",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Fine_Arts%2C_Boston",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boston-boston-gardner",
       "name": "Isabella Stewart Gardner Museum",
       "kind": "see",
-      "lat": 42.3382,
-      "lon": -71.0991,
+      "lat": 42.33825,
+      "lon": -71.09915,
       "wiki": "Isabella Stewart Gardner Museum",
       "summary": "A Venetian-style palace around a flowering courtyard, filled with art, and the scene of the world's biggest art theft.",
       "expect": "Timed entry; closed Tuesdays.",
@@ -207,14 +223,22 @@
         "Timed entry; closed Tuesdays.",
         "Look for the empty frames from the 1990 theft."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 107668,
+          "period": "202511-202610",
+          "title": "Isabella Stewart Gardner Museum",
+          "url": "https://en.wikipedia.org/wiki/Isabella_Stewart_Gardner_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boston-boston-harvard",
       "name": "Harvard Yard and Cambridge",
       "kind": "see",
-      "lat": 42.3744,
-      "lon": -71.1169,
+      "lat": 42.37447,
+      "lon": -71.11719,
       "wiki": "Harvard Yard",
       "summary": "The leafy heart of America's oldest university, with bookshops and cafés around Harvard Square.",
       "expect": "Student-led tours run daily.",
@@ -254,14 +278,22 @@
         "Student-led tours run daily.",
         "Take a student tour and rub John Harvard's shoe."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26113,
+          "period": "202511-202610",
+          "title": "Harvard Yard",
+          "url": "https://en.wikipedia.org/wiki/Harvard_Yard",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boston-boston-fenway",
       "name": "Fenway Park",
       "kind": "see",
-      "lat": 42.3467,
-      "lon": -71.0972,
+      "lat": 42.34639,
+      "lon": -71.09778,
       "wiki": "Fenway Park",
       "summary": "The Red Sox's 1912 ballpark with the Green Monster wall, the oldest in Major League Baseball.",
       "expect": "Season April to October; tours year-round.",
@@ -301,14 +333,22 @@
         "Season April to October; tours year-round.",
         "Catch a night game or the tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 282959,
+          "period": "202511-202610",
+          "title": "Fenway Park",
+          "url": "https://en.wikipedia.org/wiki/Fenway_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boston-boston-beacon-hill",
       "name": "Beacon Hill",
       "kind": "see",
-      "lat": 42.3588,
-      "lon": -71.0707,
+      "lat": 42.3583,
+      "lon": -71.0661,
       "wiki": "Beacon Hill, Boston",
       "summary": "Gas-lit cobbled lanes of brick townhouses, including picture-perfect Acorn Street.",
       "expect": "Residential; quiet.",
@@ -348,14 +388,22 @@
         "Residential; quiet.",
         "Walk Acorn Street early, then Charles Street's cafés."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 58404,
+          "period": "202511-202610",
+          "title": "Beacon Hill, Boston",
+          "url": "https://en.wikipedia.org/wiki/Beacon_Hill%2C_Boston",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boston-boston-salem",
       "name": "Salem",
       "kind": "see",
-      "lat": 42.5195,
-      "lon": -70.8967,
+      "lat": 42.51944,
+      "lon": -70.89722,
       "wiki": "Salem, Massachusetts",
       "summary": "The town of the 1692 witch trials, with a maritime museum and old houses.",
       "expect": "Very busy in October.",
@@ -394,8 +442,16 @@
         "Very busy in October.",
         "See the Peabody Essex Museum and the House of the Seven Gables."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 331040,
+          "period": "202511-202610",
+          "title": "Salem, Massachusetts",
+          "url": "https://en.wikipedia.org/wiki/Salem%2C_Massachusetts",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "boston-boston-lobster-rolls",
@@ -460,8 +516,8 @@
       "id": "boston-boston-union-oyster-house",
       "name": "Union Oyster House",
       "kind": "eat",
-      "lat": 42.3612,
-      "lon": -71.0569,
+      "lat": 42.36139,
+      "lon": -71.05694,
       "wiki": "Union Oyster House",
       "summary": "The oldest restaurant in the United States, serving chowder and oysters since 1826.",
       "expect": "Historic, touristy and busy.",
@@ -501,7 +557,6 @@
         "Historic, touristy and busy.",
         "Sit at the oyster bar."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "New England",
       "mustOrder": [
@@ -520,8 +575,8 @@
       "id": "boston-boston-north-end-pastry",
       "name": "North End pastry shops",
       "kind": "eat",
-      "lat": 42.364,
-      "lon": -71.0545,
+      "lat": 42.365,
+      "lon": -71.05444,
       "wiki": "North End, Boston",
       "summary": "The Italian quarter's bakeries, famous for cannoli and sfogliatelle.",
       "expect": "Queues out the door at the famous ones.",
@@ -560,7 +615,6 @@
         "Queues out the door at the famous ones.",
         "Compare a cannoli from two rival bakeries on Hanover Street."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Italian pastry",
       "mustOrder": [
@@ -575,5 +629,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
