@@ -66,8 +66,8 @@
       "id": "rarotonga-rar-muri",
       "name": "Muri Lagoon",
       "kind": "see",
-      "lat": -21.253,
-      "lon": -159.727,
+      "lat": -21.25596,
+      "lon": -159.7258,
       "wiki": "Muri, Cook Islands",
       "summary": "Shallow lagoon with motu islets.",
       "expect": "Free.",
@@ -105,8 +105,7 @@
       "tradeoffs": [
         "Free.",
         "Kayak to the motu."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rarotonga-rar-aroa",
@@ -158,8 +157,8 @@
       "id": "rarotonga-rar-crossisland",
       "name": "Cross-Island Track",
       "kind": "see",
-      "lat": -21.23,
-      "lon": -159.77,
+      "lat": -21.23917,
+      "lon": -159.78889,
       "wiki": "Te Rua Manga",
       "summary": "Rugged hike past the Needle to Wigmore's Waterfall.",
       "expect": "Steep and slippery.",
@@ -199,14 +198,22 @@
         "Steep and slippery.",
         "Go with a guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1339,
+          "period": "202511-202610",
+          "title": "Te Rua Manga",
+          "url": "https://en.wikipedia.org/wiki/Te_Rua_Manga",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rarotonga-rar-market",
       "name": "Punanga Nui Market",
       "kind": "see",
-      "lat": -21.207,
-      "lon": -159.781,
+      "lat": -21.20694,
+      "lon": -159.77083,
       "wiki": "Avarua",
       "summary": "Saturday market of food, crafts and dancing.",
       "expect": "Saturday mornings.",
@@ -246,14 +253,22 @@
         "Saturday mornings.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48253,
+          "period": "202511-202610",
+          "title": "Avarua",
+          "url": "https://en.wikipedia.org/wiki/Avarua",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rarotonga-rar-aitutaki",
       "name": "Aitutaki Lagoon",
       "kind": "see",
-      "lat": -18.86,
-      "lon": -159.78,
+      "lat": -18.85,
+      "lon": -159.79,
       "wiki": "Aitutaki",
       "summary": "Famous lagoon with One Foot Island.",
       "expect": "Day trip flight.",
@@ -292,8 +307,16 @@
         "Day trip flight.",
         "Book the lagoon cruise."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 49611,
+          "period": "202511-202610",
+          "title": "Aitutaki",
+          "url": "https://en.wikipedia.org/wiki/Aitutaki",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rarotonga-rar-island",
@@ -340,7 +363,16 @@
         "Book.",
         "Te Vara Nui show."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 34033,
+          "period": "202511-202610",
+          "title": "Cook Islands Māori",
+          "url": "https://en.wikipedia.org/wiki/Cook_Islands_M%C4%81ori",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rarotonga-rar-ikamata",
@@ -515,5 +547,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

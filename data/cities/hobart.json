@@ -71,8 +71,8 @@
       "id": "hobart-hob-mona",
       "name": "MONA",
       "kind": "see",
-      "lat": -42.8125,
-      "lon": 147.2606,
+      "lat": -42.81278,
+      "lon": 147.26111,
       "wiki": "Museum of Old and New Art",
       "summary": "Underground museum of provocative art reached by ferry.",
       "expect": "Book the ferry.",
@@ -111,7 +111,15 @@
         "Book the ferry.",
         "Allow half a day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41316,
+          "period": "202511-202610",
+          "title": "Museum of Old and New Art",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Old_and_New_Art",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hobart-hob-kunanyi",
@@ -164,8 +172,8 @@
       "id": "hobart-hob-salamanca",
       "name": "Salamanca Place and Market",
       "kind": "see",
-      "lat": -42.887,
-      "lon": 147.331,
+      "lat": -42.88667,
+      "lon": 147.33194,
       "wiki": "Salamanca Market",
       "summary": "Sandstone warehouses and a big Saturday market.",
       "expect": "Saturdays.",
@@ -205,14 +213,22 @@
         "Saturdays.",
         "Arrive early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5181,
+          "period": "202511-202610",
+          "title": "Salamanca Market",
+          "url": "https://en.wikipedia.org/wiki/Salamanca_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hobart-hob-portarthur",
       "name": "Port Arthur Historic Site",
       "kind": "see",
-      "lat": -43.146,
-      "lon": 147.851,
+      "lat": -43.15,
+      "lon": 147.85,
       "wiki": "Port Arthur, Tasmania",
       "summary": "Convict settlement ruins on a beautiful bay.",
       "expect": "Full day.",
@@ -251,14 +267,22 @@
         "Full day.",
         "Ghost tour after dark."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 105830,
+          "period": "202511-202610",
+          "title": "Port Arthur, Tasmania",
+          "url": "https://en.wikipedia.org/wiki/Port_Arthur%2C_Tasmania",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hobart-hob-bruny",
       "name": "Bruny Island",
       "kind": "see",
       "lat": -43.3,
-      "lon": 147.33,
+      "lon": 147.3,
       "wiki": "Bruny Island",
       "summary": "Island of cliffs, oysters and The Neck lookout.",
       "expect": "Car ferry from Kettering.",
@@ -299,14 +323,22 @@
         "Car ferry from Kettering.",
         "Join a food tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44047,
+          "period": "202511-202610",
+          "title": "Bruny Island",
+          "url": "https://en.wikipedia.org/wiki/Bruny_Island",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hobart-hob-battery",
       "name": "Battery Point",
       "kind": "see",
-      "lat": -42.889,
-      "lon": 147.334,
+      "lat": -42.89278,
+      "lon": 147.33333,
       "wiki": "Battery Point, Tasmania",
       "summary": "Colonial cottages and Arthur Circus.",
       "expect": "Free.",
@@ -346,14 +378,22 @@
         "Free.",
         "Stroll after the market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11056,
+          "period": "202511-202610",
+          "title": "Battery Point",
+          "url": "https://en.wikipedia.org/wiki/Battery_Point",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "hobart-hob-seafood",
       "name": "Waterfront seafood",
       "kind": "eat",
-      "lat": -42.883,
-      "lon": 147.333,
+      "lat": -42.8825,
+      "lon": 147.33306,
       "wiki": "Constitution Dock",
       "summary": "Floating fish-and-chip punts and oyster bars.",
       "expect": "All day.",
@@ -392,7 +432,6 @@
         "All day.",
         "Try Flippers."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -522,5 +561,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

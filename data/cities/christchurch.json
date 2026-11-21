@@ -111,14 +111,22 @@
         "Free.",
         "Rose garden in summer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7028,
+          "period": "202511-202610",
+          "title": "Christchurch Botanic Gardens",
+          "url": "https://en.wikipedia.org/wiki/Christchurch_Botanic_Gardens",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "christchurch-chc-punting",
       "name": "Punting on the Avon",
       "kind": "see",
-      "lat": -43.53,
-      "lon": 172.628,
+      "lat": -43.528,
+      "lon": 172.726,
       "wiki": "Avon River / Ōtākaro",
       "summary": "Gondolier-style punt under willows.",
       "expect": "Paid.",
@@ -158,14 +166,22 @@
         "Paid.",
         "Late afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5759,
+          "period": "202511-202610",
+          "title": "Avon River / Ōtākaro",
+          "url": "https://en.wikipedia.org/wiki/Avon_River_%2F_%C5%8Ct%C4%81karo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "christchurch-chc-cardboard",
       "name": "Cardboard Cathedral",
       "kind": "see",
-      "lat": -43.531,
-      "lon": 172.643,
+      "lat": -43.53225,
+      "lon": 172.64286,
       "wiki": "Cardboard Cathedral",
       "summary": "Shigeru Ban's transitional cathedral of cardboard tubes.",
       "expect": "Free.",
@@ -205,14 +221,22 @@
         "Free.",
         "See the stained glass."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24393,
+          "period": "202511-202610",
+          "title": "Cardboard Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Cardboard_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "christchurch-chc-gondola",
       "name": "Christchurch Gondola",
       "kind": "see",
       "lat": -43.585,
-      "lon": 172.725,
+      "lon": 172.70806,
       "wiki": "Christchurch Gondola",
       "summary": "Cable car to views of the city, Alps and harbour.",
       "expect": "Paid.",
@@ -251,14 +275,22 @@
         "Paid.",
         "Clear days."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3004,
+          "period": "202511-202610",
+          "title": "Christchurch Gondola",
+          "url": "https://en.wikipedia.org/wiki/Christchurch_Gondola",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "christchurch-chc-akaroa",
       "name": "Akaroa and Banks Peninsula",
       "kind": "see",
-      "lat": -43.804,
-      "lon": 172.968,
+      "lat": -43.80118,
+      "lon": 172.96989,
       "wiki": "Akaroa",
       "summary": "French-settled harbour town with dolphin cruises.",
       "expect": "Scenic drive.",
@@ -298,14 +330,22 @@
         "Scenic drive.",
         "Swim with Hector's dolphins."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22192,
+          "period": "202511-202610",
+          "title": "Akaroa",
+          "url": "https://en.wikipedia.org/wiki/Akaroa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "christchurch-chc-antarctic",
       "name": "International Antarctic Centre",
       "kind": "see",
-      "lat": -43.489,
-      "lon": 172.547,
+      "lat": -43.48861,
+      "lon": 172.54694,
       "wiki": "International Antarctic Centre",
       "summary": "Penguins, a snow storm room and Hägglund rides.",
       "expect": "Paid.",
@@ -345,14 +385,22 @@
         "Paid.",
         "Family friendly."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4176,
+          "period": "202511-202610",
+          "title": "International Antarctic Centre",
+          "url": "https://en.wikipedia.org/wiki/International_Antarctic_Centre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "christchurch-chc-riverside",
       "name": "Riverside Market",
       "kind": "eat",
-      "lat": -43.534,
-      "lon": 172.634,
+      "lat": -43.531,
+      "lon": 172.6365,
       "wiki": "Christchurch Central City",
       "summary": "Indoor market and food hall.",
       "expect": "Daily.",
@@ -391,7 +439,6 @@
         "Daily.",
         "Lunch at the food stalls."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -519,5 +566,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

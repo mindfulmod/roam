@@ -72,8 +72,8 @@
       "id": "gold-coast-gc-surfers",
       "name": "Surfers Paradise beach",
       "kind": "see",
-      "lat": -28.002,
-      "lon": 153.431,
+      "lat": -28,
+      "lon": 153.4166,
       "wiki": "Surfers Paradise, Queensland",
       "summary": "Famous golden beach under the skyline.",
       "expect": "Swim between the flags.",
@@ -112,14 +112,22 @@
         "Swim between the flags.",
         "Early morning is calm."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25822,
+          "period": "202511-202610",
+          "title": "Surfers Paradise",
+          "url": "https://en.wikipedia.org/wiki/Surfers_Paradise",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gold-coast-gc-burleigh",
       "name": "Burleigh Heads",
       "kind": "see",
-      "lat": -28.088,
-      "lon": 153.454,
+      "lat": -28.1038,
+      "lon": 153.4355,
       "wiki": "Burleigh Heads, Queensland",
       "summary": "Surf point and headland national park walk.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Sunset from the hill."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21814,
+          "period": "202511-202610",
+          "title": "Burleigh Heads, Queensland",
+          "url": "https://en.wikipedia.org/wiki/Burleigh_Heads%2C_Queensland",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gold-coast-gc-skypoint",
       "name": "SkyPoint Observation Deck",
       "kind": "see",
-      "lat": -28.006,
-      "lon": 153.43,
+      "lat": -28.00611,
+      "lon": 153.42944,
       "wiki": "Q1 (building)",
       "summary": "Deck high up in the Q1 tower.",
       "expect": "Paid.",
@@ -204,14 +220,22 @@
         "Paid.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 72695,
+          "period": "202511-202610",
+          "title": "Q1 (building)",
+          "url": "https://en.wikipedia.org/wiki/Q1_(building)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gold-coast-gc-springbrook",
       "name": "Springbrook Natural Bridge",
       "kind": "see",
-      "lat": -28.233,
-      "lon": 153.273,
+      "lat": -28.2205,
+      "lon": 153.2286,
       "wiki": "Natural Bridge, Queensland",
       "summary": "Rainforest arch with waterfall and glow-worms after dark.",
       "expect": "Short walk.",
@@ -251,14 +275,22 @@
         "Short walk.",
         "Go after dusk for glow-worms."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2666,
+          "period": "202511-202610",
+          "title": "Natural Bridge, Queensland",
+          "url": "https://en.wikipedia.org/wiki/Natural_Bridge%2C_Queensland",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gold-coast-gc-currumbin",
       "name": "Currumbin Wildlife Sanctuary",
       "kind": "see",
-      "lat": -28.136,
-      "lon": 153.487,
+      "lat": -28.135,
+      "lon": 153.488,
       "wiki": "Currumbin Wildlife Sanctuary",
       "summary": "Koalas, kangaroos and lorikeet feeding.",
       "expect": "Paid.",
@@ -297,14 +329,22 @@
         "Paid.",
         "Morning feeding."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7975,
+          "period": "202511-202610",
+          "title": "Currumbin Wildlife Sanctuary",
+          "url": "https://en.wikipedia.org/wiki/Currumbin_Wildlife_Sanctuary",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gold-coast-gc-movieworld",
       "name": "Theme parks",
       "kind": "see",
-      "lat": -27.907,
-      "lon": 153.312,
+      "lat": -27.9075,
+      "lon": 153.3125,
       "wiki": "Warner Bros. Movie World",
       "summary": "Movie World, Sea World, Dreamworld and water parks.",
       "expect": "Big queues in holidays.",
@@ -343,14 +383,22 @@
         "Big queues in holidays.",
         "Buy multi-park passes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 68996,
+          "period": "202511-202610",
+          "title": "Warner Bros. Movie World",
+          "url": "https://en.wikipedia.org/wiki/Warner_Bros._Movie_World",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "gold-coast-gc-miami",
       "name": "Miami Marketta",
       "kind": "eat",
-      "lat": -28.07,
-      "lon": 153.44,
+      "lat": -28.0675,
+      "lon": 153.4366,
       "wiki": "Miami, Queensland",
       "summary": "Night street-food market with live music.",
       "expect": "Wed, Fri and Sat nights.",
@@ -389,7 +437,6 @@
         "Wed, Fri and Sat nights.",
         "Go hungry."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -464,8 +511,8 @@
       "id": "gold-coast-gc-broadbeach",
       "name": "Broadbeach dining",
       "kind": "eat",
-      "lat": -28.032,
-      "lon": 153.431,
+      "lat": -28.0272,
+      "lon": 153.4319,
       "wiki": "Broadbeach, Queensland",
       "summary": "Restaurant strip with cafés and seafood.",
       "expect": "Evenings.",
@@ -504,7 +551,6 @@
         "Evenings.",
         "Weekend brunch too."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Modern Australian",
       "mustOrder": [
@@ -518,5 +564,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

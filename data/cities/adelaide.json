@@ -71,7 +71,7 @@
       "id": "adelaide-adl-barossa",
       "name": "Barossa Valley",
       "kind": "see",
-      "lat": -34.533,
+      "lat": -34.53333,
       "lon": 138.95,
       "wiki": "Barossa Valley",
       "summary": "Famous wine valley of Shiraz and old vines.",
@@ -112,14 +112,22 @@
         "Book tastings.",
         "Take a tour if tasting."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20466,
+          "period": "202511-202610",
+          "title": "Barossa Valley",
+          "url": "https://en.wikipedia.org/wiki/Barossa_Valley",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "adelaide-adl-artgallery",
       "name": "Art Gallery of South Australia",
       "kind": "see",
-      "lat": -34.9205,
-      "lon": 138.604,
+      "lat": -34.92056,
+      "lon": 138.60389,
       "wiki": "Art Gallery of South Australia",
       "summary": "Strong Aboriginal and colonial collections.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Combine with the museum next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7811,
+          "period": "202511-202610",
+          "title": "Art Gallery of South Australia",
+          "url": "https://en.wikipedia.org/wiki/Art_Gallery_of_South_Australia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "adelaide-adl-botanic",
       "name": "Adelaide Botanic Garden",
       "kind": "see",
-      "lat": -34.918,
-      "lon": 138.61,
+      "lat": -34.9175,
+      "lon": 138.6125,
       "wiki": "Adelaide Botanic Garden",
       "summary": "Victorian glasshouses and gardens.",
       "expect": "Free.",
@@ -204,14 +220,22 @@
         "Free.",
         "See the Palm House."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7356,
+          "period": "202511-202610",
+          "title": "Adelaide Botanic Garden",
+          "url": "https://en.wikipedia.org/wiki/Adelaide_Botanic_Garden",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "adelaide-adl-glenelg",
       "name": "Glenelg",
       "kind": "see",
-      "lat": -34.98,
-      "lon": 138.515,
+      "lat": -34.98055,
+      "lon": 138.51393,
       "wiki": "Glenelg, South Australia",
       "summary": "Beach suburb reached by heritage tram.",
       "expect": "Free.",
@@ -250,14 +274,22 @@
         "Free.",
         "Tram from the city."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17035,
+          "period": "202511-202610",
+          "title": "Glenelg, South Australia",
+          "url": "https://en.wikipedia.org/wiki/Glenelg%2C_South_Australia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "adelaide-adl-cleland",
       "name": "Cleland Wildlife Park",
       "kind": "see",
-      "lat": -34.967,
-      "lon": 138.699,
+      "lat": -34.9675,
+      "lon": 138.69583,
       "wiki": "Cleland Conservation Park",
       "summary": "Hand-feed kangaroos and meet koalas.",
       "expect": "Paid.",
@@ -296,14 +328,22 @@
         "Paid.",
         "Combine with Mount Lofty."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1845,
+          "period": "202511-202610",
+          "title": "Cleland National Park",
+          "url": "https://en.wikipedia.org/wiki/Cleland_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "adelaide-adl-oval",
       "name": "Adelaide Oval",
       "kind": "see",
-      "lat": -34.9156,
-      "lon": 138.5961,
+      "lat": -34.91556,
+      "lon": 138.59611,
       "wiki": "Adelaide Oval",
       "summary": "Historic cricket and football ground with a roof climb.",
       "expect": "Tours daily.",
@@ -343,14 +383,22 @@
         "Tours daily.",
         "Try the RoofClimb."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 83058,
+          "period": "202511-202610",
+          "title": "Adelaide Oval",
+          "url": "https://en.wikipedia.org/wiki/Adelaide_Oval",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "adelaide-adl-market",
       "name": "Adelaide Central Market",
       "kind": "eat",
-      "lat": -34.93,
-      "lon": 138.596,
+      "lat": -34.92972,
+      "lon": 138.5975,
       "wiki": "Adelaide Central Market",
       "summary": "One of the southern hemisphere's biggest produce markets.",
       "expect": "Closed Sunday and Monday.",
@@ -389,7 +437,6 @@
         "Closed Sunday and Monday.",
         "Graze for lunch."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -464,8 +511,8 @@
       "id": "adelaide-adl-mclaren",
       "name": "McLaren Vale wine and lunch",
       "kind": "eat",
-      "lat": -35.219,
-      "lon": 138.543,
+      "lat": -35.21944,
+      "lon": 138.54361,
       "wiki": "McLaren Vale",
       "summary": "Wine region by the sea with the d'Arenberg Cube.",
       "expect": "Book lunch.",
@@ -504,7 +551,6 @@
         "Book lunch.",
         "Visit the Cube."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Modern Australian",
       "mustOrder": [
@@ -518,5 +564,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -112,14 +112,23 @@
         "Park pass required.",
         "Start early; climbing is banned."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 444436,
+          "period": "202511-202610",
+          "title": "Uluru",
+          "url": "https://en.wikipedia.org/wiki/Uluru",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uluru-ulu-sunset",
       "name": "Uluru sunset viewing",
       "kind": "see",
-      "lat": -25.327,
-      "lon": 131.003,
+      "lat": -25.33537,
+      "lon": 131.00452,
       "wiki": "Uluru",
       "summary": "Watch the rock glow red to purple.",
       "expect": "Arrive early.",
@@ -158,15 +167,14 @@
       "tradeoffs": [
         "Arrive early.",
         "Bring a drink."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "uluru-ulu-katatjuta",
       "name": "Kata Tjuta Valley of the Winds",
       "kind": "see",
-      "lat": -25.293,
-      "lon": 130.732,
+      "lat": -25.3,
+      "lon": 130.73333,
       "wiki": "Kata Tjuta",
       "summary": "Domed rocks with a spectacular ridge hike.",
       "expect": "Closes in heat.",
@@ -206,14 +214,22 @@
         "Closes in heat.",
         "Go at dawn."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39913,
+          "period": "202511-202610",
+          "title": "Kata Tjuta",
+          "url": "https://en.wikipedia.org/wiki/Kata_Tjuta",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uluru-ulu-cultural",
       "name": "Cultural Centre",
       "kind": "see",
-      "lat": -25.35,
-      "lon": 131.048,
+      "lat": -25.31222,
+      "lon": 131.01861,
       "wiki": "Uluru-Kata Tjuta National Park",
       "summary": "Anangu culture and Tjukurpa stories.",
       "expect": "Free with park pass.",
@@ -253,7 +269,15 @@
         "Free with park pass.",
         "Visit before the walk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20565,
+          "period": "202511-202610",
+          "title": "Uluṟu-Kata Tjuṯa National Park",
+          "url": "https://en.wikipedia.org/wiki/Ulu%E1%B9%9Fu-Kata_Tju%E1%B9%AFa_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uluru-ulu-fieldlight",
@@ -299,7 +323,16 @@
         "Book ahead.",
         "Sunrise or night."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3183,
+          "period": "202511-202610",
+          "title": "Field of Light",
+          "url": "https://en.wikipedia.org/wiki/Field_of_Light",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "uluru-ulu-camel",
@@ -522,5 +555,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
