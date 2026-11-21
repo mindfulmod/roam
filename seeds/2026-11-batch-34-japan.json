@@ -1,0 +1,2725 @@
+[
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+   12000,
+   40000
+  ],
+  "cashPerDay": [
+   3000,
+   7000
+  ],
+  "id": "hakone",
+  "name": "Hakone",
+  "at": [
+   35.2323,
+   139.1069
+  ],
+  "wiki": "Hakone",
+  "cover": "Lake Ashi Hakone Shrine torii",
+  "seasons": "LLHPHSSHSHPL",
+  "tagline": "Hot springs, Mount Fuji views and a lake loop",
+  "summary": "Hakone is Tokyo's favourite hot-spring escape, a volcanic mountain area with ryokan inns, open-air baths and views of Mount Fuji on clear days. A classic loop links a mountain railway, cable car, steaming volcanic valley, pirate-ship cruise on Lake Ashi and excellent art museums.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Autumn colours peak in November and Fuji is clearest in winter. Summer is humid and often hazy. Weekends are busy with Tokyo visitors.",
+  "arrival": "The Odakyu Romancecar from Shinjuku reaches Hakone-Yumoto in about 85 minutes. The Hakone Free Pass covers the loop.",
+  "gettingAround": "The Hakone Tozan railway, cable car, ropeway, lake boats and buses; the Free Pass covers all.",
+  "foodTip": "Black eggs boiled in Owakudani's hot springs, tofu dishes and soba.",
+  "buyTip": "Yosegi-zaiku marquetry boxes and onsen manju.",
+  "baseArea": "Hakone-Yumoto, Gora or a ryokan by the lake",
+  "hotel": [
+   100,
+   500
+  ],
+  "connections": [
+   {
+    "to": "tokyo",
+    "mode": "Train",
+    "minutes": 85,
+    "note": "Odakyu Romancecar from Shinjuku."
+   }
+  ],
+  "items": [
+   {
+    "name": "Lake Ashi cruise",
+    "kind": "see",
+    "id": "hakone-ashi",
+    "at": [
+     35.205,
+     139.025
+    ],
+    "wiki": "Lake Ashi",
+    "area": "Lake Ashi",
+    "summary": "Replica pirate ships sail across a crater lake with Fuji views on clear days.",
+    "expect": "Covered by the Free Pass.",
+    "tip": "Sit on the open deck facing Fuji.",
+    "why": "The heart of the Hakone loop.",
+    "flow": [
+     "Board at Togendai.",
+     "Cruise to Moto-Hakone."
+    ],
+    "hours": 1,
+    "price": [
+     1500,
+     2500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Hakone Shrine",
+    "kind": "see",
+    "id": "hakone-shrine",
+    "at": [
+     35.2044,
+     139.0253
+    ],
+    "wiki": "Hakone Shrine",
+    "area": "Moto-Hakone",
+    "summary": "A shrine in cedar forest with a red torii gate standing in the lake.",
+    "expect": "Long queue for torii photos.",
+    "tip": "Go early for the lakeside gate.",
+    "why": "Hakone's most famous image.",
+    "flow": [
+     "Cedar stairs.",
+     "Lake torii."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Owakudani",
+    "kind": "see",
+    "id": "hakone-owakudani",
+    "at": [
+     35.244,
+     139.019
+    ],
+    "wiki": "Ōwakudani",
+    "area": "Owakudani",
+    "summary": "A steaming volcanic valley of sulphur vents, reached by ropeway.",
+    "expect": "May close when volcanic activity is high.",
+    "tip": "Eat a black egg.",
+    "why": "Hakone's volcanic heart.",
+    "flow": [
+     "Ropeway.",
+     "Valley trail."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Hakone Open-Air Museum",
+    "kind": "see",
+    "id": "hakone-openair",
+    "at": [
+     35.2448,
+     139.051
+    ],
+    "wiki": "Hakone Open-Air Museum",
+    "area": "Chokoku-no-mori",
+    "summary": "Sculptures by Moore, Rodin and others set in gardens, plus a Picasso pavilion.",
+    "expect": "Allow 2 hours.",
+    "tip": "Soak your feet in the footbath.",
+    "why": "Art in the mountains.",
+    "flow": [
+     "Sculpture park.",
+     "Picasso pavilion."
+    ],
+    "hours": 2,
+    "price": [
+     2000,
+     2000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Hakone Ropeway",
+    "kind": "see",
+    "id": "hakone-ropeway",
+    "at": [
+     35.242,
+     139.03
+    ],
+    "wiki": "Hakone Ropeway",
+    "area": "Sounzan to Togendai",
+    "summary": "Cable cars over volcanic slopes with views of Fuji and the lake.",
+    "expect": "Can close in high wind.",
+    "tip": "Ride in the morning for clear skies.",
+    "why": "Big views on the loop.",
+    "flow": [
+     "Board at Sounzan.",
+     "Ride to Togendai."
+    ],
+    "hours": 0.5,
+    "price": [
+     1500,
+     2000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Onsen bathing",
+    "kind": "see",
+    "id": "hakone-onsen",
+    "at": [
+     35.2323,
+     139.1069
+    ],
+    "wiki": "Onsen",
+    "area": "Hakone-Yumoto",
+    "summary": "Hot-spring baths in ryokan and day spas like Tenzan.",
+    "expect": "Bathe nude; tattoos may be refused.",
+    "tip": "Try a private bath if you have tattoos.",
+    "why": "Hakone's whole point.",
+    "flow": [
+     "Wash first.",
+     "Soak."
+    ],
+    "hours": 2,
+    "price": [
+     1300,
+     3000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Old Tokaido road",
+    "kind": "see",
+    "id": "hakone-tokaido",
+    "at": [
+     35.205,
+     139.045
+    ],
+    "wiki": "Tōkaidō (road)",
+    "area": "Hatajuku",
+    "summary": "Stone-paved Edo-era highway through cedars, with a 400-year-old teahouse.",
+    "expect": "Slippery when wet.",
+    "tip": "Stop for amazake at Amazake-chaya.",
+    "why": "Walk into Edo Japan.",
+    "flow": [
+     "Stone path.",
+     "Amazake-chaya."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Black eggs",
+    "kind": "eat",
+    "id": "hakone-blackegg",
+    "at": [
+     35.2445,
+     139.0195
+    ],
+    "wiki": "Ōwakudani",
+    "area": "Owakudani",
+    "venue": "food-area",
+    "summary": "Eggs boiled in hot springs until their shells turn black.",
+    "expect": "Sold in packs of five.",
+    "tip": "Legend says each adds seven years to your life.",
+    "why": "A Hakone ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     500,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Kuro-tamago"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Tofu kaiseki",
+    "kind": "eat",
+    "id": "hakone-tofu",
+    "at": [
+     35.235,
+     139.1
+    ],
+    "wiki": "Kaiseki",
+    "area": "Hakone-Yumoto",
+    "venue": "food-area",
+    "summary": "Course meals built around local tofu and spring water.",
+    "expect": "Often included in ryokan stays.",
+    "tip": "Book a ryokan with dinner.",
+    "why": "Refined mountain food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     3000,
+     10000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Tofu kaiseki"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Soba",
+    "kind": "eat",
+    "id": "hakone-soba",
+    "at": [
+     35.233,
+     139.105
+    ],
+    "wiki": "Soba",
+    "area": "Hakone-Yumoto",
+    "venue": "food-area",
+    "summary": "Handmade buckwheat noodles, hot or cold.",
+    "expect": "Popular shops have queues.",
+    "tip": "Try cold zaru soba.",
+    "why": "Clean mountain water noodles.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     1000,
+     2000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Zaru soba"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+   8000,
+   20000
+  ],
+  "cashPerDay": [
+   3000,
+   7000
+  ],
+  "id": "nikko",
+  "name": "Nikko",
+  "at": [
+   36.75,
+   139.61
+  ],
+  "wiki": "Nikkō",
+  "cover": "Nikkō Tōshō-gū",
+  "seasons": "LLHPHSSHSHPL",
+  "tagline": "Gilded shrines in cedar forest and mountain lakes",
+  "summary": "Nikko's lavish Toshogu shrine, the mausoleum of shogun Tokugawa Ieyasu, is covered in gold leaf and carvings. Around it stand temples and shrines in ancient cedar forest, and above town the Kegon Falls, Lake Chuzenji and the Senjogahara marsh offer mountain scenery.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   10,
+   11
+  ],
+  "seasonNote": "October brings famous autumn colours, starting at the lake. Spring is fresh and green. Winter is cold with snow at the lake.",
+  "arrival": "Tobu limited express trains from Asakusa take about 2 hours. JR Pass users go via Utsunomiya.",
+  "gettingAround": "Walk or bus between the station and shrines; buses climb the Irohazaka road to the lake.",
+  "foodTip": "Yuba (tofu skin), soba and yokan sweet bean jelly.",
+  "buyTip": "Nikko lacquerware and geta sandals.",
+  "baseArea": "Near the shrines or at Lake Chuzenji",
+  "hotel": [
+   60,
+   300
+  ],
+  "connections": [
+   {
+    "to": "tokyo",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Tobu limited express from Asakusa."
+   }
+  ],
+  "items": [
+   {
+    "name": "Nikko Toshogu",
+    "kind": "see",
+    "id": "nikko-toshogu",
+    "at": [
+     36.758,
+     139.599
+    ],
+    "wiki": "Nikkō Tōshō-gū",
+    "area": "Shrine area",
+    "summary": "A dazzling shrine of gold leaf and carvings, including the 'see no evil' monkeys.",
+    "expect": "Crowded midday; dress for stairs.",
+    "tip": "See the sleeping cat carving and Yomeimon gate.",
+    "why": "Japan's most lavish shrine.",
+    "flow": [
+     "Five-storey pagoda.",
+     "Yomeimon gate.",
+     "Ieyasu's tomb."
+    ],
+    "hours": 2,
+    "price": [
+     1300,
+     1300
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Shinkyo Bridge",
+    "kind": "see",
+    "id": "nikko-shinkyo",
+    "at": [
+     36.7536,
+     139.6033
+    ],
+    "wiki": "Shinkyō",
+    "area": "Town",
+    "summary": "A sacred red lacquered bridge over the rushing Daiya River.",
+    "expect": "Small fee to step on it.",
+    "tip": "Photograph it from the road bridge.",
+    "why": "Nikko's gateway.",
+    "flow": [
+     "View from road.",
+     "Cross the bridge."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     300
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Rinno-ji",
+    "kind": "see",
+    "id": "nikko-rinnoji",
+    "at": [
+     36.7547,
+     139.6
+    ],
+    "wiki": "Rinnō-ji",
+    "area": "Shrine area",
+    "summary": "A temple with three giant gilded Buddhas and a quiet garden.",
+    "expect": "Combined tickets available.",
+    "tip": "Visit the Shoyoen garden.",
+    "why": "Buddhist heart of Nikko.",
+    "flow": [
+     "Main hall.",
+     "Garden."
+    ],
+    "hours": 1,
+    "price": [
+     400,
+     900
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Futarasan Shrine",
+    "kind": "see",
+    "id": "nikko-futarasan",
+    "at": [
+     36.759,
+     139.596
+    ],
+    "wiki": "Futarasan Shrine",
+    "area": "Shrine area",
+    "summary": "A shrine to Nikko's sacred mountains, in deep cedar forest.",
+    "expect": "Quieter than Toshogu.",
+    "tip": "Walk on to Taiyuin.",
+    "why": "Forest calm.",
+    "flow": [
+     "Main shrine.",
+     "Taiyuin mausoleum."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     300
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Kanmangafuchi Abyss",
+    "kind": "see",
+    "id": "nikko-kanmangafuchi",
+    "at": [
+     36.748,
+     139.588
+    ],
+    "wiki": "Kanmangafuchi Abyss",
+    "area": "West of town",
+    "summary": "A riverside path lined with rows of moss-covered stone Jizo statues.",
+    "expect": "Free.",
+    "tip": "Walk it in the morning mist.",
+    "why": "A magical short walk.",
+    "flow": [
+     "Riverside path.",
+     "Jizo rows."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kegon Falls",
+    "kind": "see",
+    "id": "nikko-kegon",
+    "at": [
+     36.738,
+     139.503
+    ],
+    "wiki": "Kegon Falls",
+    "area": "Lake Chuzenji",
+    "summary": "A 97 m waterfall dropping from Lake Chuzenji, with a lift to a viewing platform.",
+    "expect": "Bus up the hairpin road.",
+    "tip": "Ride the lift to the base platform.",
+    "why": "One of Japan's top three falls.",
+    "flow": [
+     "Bus up.",
+     "Lift down."
+    ],
+    "hours": 1,
+    "price": [
+     570,
+     570
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lake Chuzenji",
+    "kind": "see",
+    "id": "nikko-chuzenji",
+    "at": [
+     36.74,
+     139.47
+    ],
+    "wiki": "Lake Chūzenji",
+    "area": "Lake Chuzenji",
+    "summary": "A mountain lake beneath Mount Nantai, with cruises and old embassy villas.",
+    "expect": "Cool in summer.",
+    "tip": "Visit the Italian Embassy villa.",
+    "why": "Mountain scenery.",
+    "flow": [
+     "Lake cruise.",
+     "Embassy villas."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Senjogahara marsh",
+    "kind": "see",
+    "id": "nikko-senjogahara",
+    "at": [
+     36.78,
+     139.45
+    ],
+    "wiki": "Senjōgahara",
+    "area": "Okunikko",
+    "summary": "A boardwalk across a highland marsh to Yudaki falls.",
+    "expect": "Best in autumn.",
+    "tip": "Walk from Akanuma to Yudaki.",
+    "why": "A gentle mountain hike.",
+    "flow": [
+     "Akanuma start.",
+     "Boardwalk.",
+     "Yudaki falls."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Yuba",
+    "kind": "eat",
+    "id": "nikko-yuba",
+    "at": [
+     36.752,
+     139.605
+    ],
+    "wiki": "Yuba",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Delicate tofu skin, served fresh, rolled or in soba and rice bowls.",
+    "expect": "Nikko's speciality.",
+    "tip": "Try a yuba set meal.",
+    "why": "Monk food made local.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Yuba gozen"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Soba",
+    "kind": "eat",
+    "id": "nikko-soba",
+    "at": [
+     36.751,
+     139.61
+    ],
+    "wiki": "Soba",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Buckwheat noodles with mountain vegetables.",
+    "expect": "Good near the station.",
+    "tip": "Order tempura soba.",
+    "why": "Simple and warming.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     900,
+     1800
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Tempura soba"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Mizu-yokan",
+    "kind": "eat",
+    "id": "nikko-yokan",
+    "at": [
+     36.753,
+     139.607
+    ],
+    "wiki": "Yōkan",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Sweet bean jelly made with Nikko spring water.",
+    "expect": "Old sweet shops on the main street.",
+    "tip": "Buy a box to take home.",
+    "why": "A Nikko sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     200,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Yokan"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+   8000,
+   20000
+  ],
+  "cashPerDay": [
+   3000,
+   7000
+  ],
+  "id": "takayama",
+  "name": "Takayama",
+  "at": [
+   36.1461,
+   137.2522
+  ],
+  "wiki": "Takayama, Gifu",
+  "cover": "Takayama old town",
+  "seasons": "LLSPHSSHSPHL",
+  "tagline": "An Edo-era mountain town of sake breweries and Hida beef",
+  "summary": "Takayama in the Japanese Alps has a beautifully preserved old merchant quarter of dark wooden houses, sake breweries and morning markets. Its spring and autumn festivals feature ornate floats, and it's the gateway to the thatched farmhouses of Shirakawa-go.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "The Takayama Festival is on 14 to 15 April and 9 to 10 October. Winter is snowy and beautiful. Summer is warm and green.",
+  "arrival": "The scenic Hida limited express from Nagoya takes about 2.5 hours. Buses link Kanazawa via Shirakawa-go.",
+  "gettingAround": "Walk the compact centre; buses to Shirakawa-go and the Alps.",
+  "foodTip": "Hida beef sushi and skewers, Takayama ramen, mitarashi dango and local sake.",
+  "buyTip": "Sarubobo dolls, Hida furniture and sake.",
+  "baseArea": "Near the old town or a ryokan",
+  "hotel": [
+   70,
+   300
+  ],
+  "connections": [
+   {
+    "to": "kanazawa",
+    "mode": "Bus",
+    "minutes": 135,
+    "note": "Via Shirakawa-go."
+   },
+   {
+    "to": "nagoya",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Hida limited express."
+   }
+  ],
+  "items": [
+   {
+    "name": "Sanmachi Suji old town",
+    "kind": "see",
+    "id": "tak-sanmachi",
+    "at": [
+     36.141,
+     137.26
+    ],
+    "wiki": "Sanmachi Suji",
+    "area": "Old town",
+    "summary": "Lanes of Edo-era merchant houses, sake breweries and craft shops.",
+    "expect": "Busy midday.",
+    "tip": "Look for cedar balls marking breweries.",
+    "why": "Old Japan preserved.",
+    "flow": [
+     "Kami-sannomachi.",
+     "Sake tasting."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Miyagawa morning market",
+    "kind": "see",
+    "id": "tak-market",
+    "at": [
+     36.145,
+     137.259
+    ],
+    "wiki": "Takayama",
+    "area": "Riverside",
+    "summary": "A riverside market of pickles, vegetables, crafts and snacks.",
+    "expect": "Daily until about noon.",
+    "tip": "Go around 8 am.",
+    "why": "Local life.",
+    "flow": [
+     "Stalls.",
+     "Snacks."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Takayama Jinya",
+    "kind": "see",
+    "id": "tak-jinya",
+    "at": [
+     36.139,
+     137.258
+    ],
+    "wiki": "Takayama Jin'ya",
+    "area": "Old town",
+    "summary": "The only surviving Edo-period government office building in Japan.",
+    "expect": "Free English guides some days.",
+    "tip": "See the old interrogation room.",
+    "why": "Samurai-era administration.",
+    "flow": [
+     "Offices.",
+     "Storehouses."
+    ],
+    "hours": 1,
+    "price": [
+     440,
+     440
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Hida Folk Village",
+    "kind": "see",
+    "id": "tak-folkvillage",
+    "at": [
+     36.138,
+     137.239
+    ],
+    "wiki": "Hida Folk Village",
+    "area": "West",
+    "summary": "Open-air museum of thatched farmhouses moved from around the region.",
+    "expect": "Short bus ride.",
+    "tip": "Visit in snow if you can.",
+    "why": "Mountain life of the past.",
+    "flow": [
+     "Farmhouses.",
+     "Crafts."
+    ],
+    "hours": 2,
+    "price": [
+     700,
+     700
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Festival Floats Exhibition Hall",
+    "kind": "see",
+    "id": "tak-festival",
+    "at": [
+     36.152,
+     137.26
+    ],
+    "wiki": "Takayama Festival",
+    "area": "North",
+    "summary": "Ornate festival floats with mechanical puppets.",
+    "expect": "Real floats rotate through the year.",
+    "tip": "Visit Sakurayama Hachimangu next door.",
+    "why": "The festival year-round.",
+    "flow": [
+     "Floats.",
+     "Shrine."
+    ],
+    "hours": 1,
+    "price": [
+     1000,
+     1000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Shirakawa-go",
+    "kind": "see",
+    "id": "tak-shirakawago",
+    "at": [
+     36.257,
+     136.906
+    ],
+    "wiki": "Shirakawa-gō",
+    "area": "Shirakawa",
+    "summary": "A village of steep thatched gassho farmhouses in a mountain valley.",
+    "expect": "Bus about 50 minutes; book seats.",
+    "tip": "Climb to the Shiroyama viewpoint.",
+    "why": "A World Heritage village.",
+    "flow": [
+     "Bus.",
+     "Viewpoint.",
+     "Wada house."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     1000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Shinhotaka Ropeway",
+    "kind": "see",
+    "id": "tak-shinhotaka",
+    "at": [
+     36.287,
+     137.577
+    ],
+    "wiki": "Shinhotaka Ropeway",
+    "area": "Okuhida",
+    "summary": "A double-decker ropeway to 2,156 m with Northern Alps views.",
+    "expect": "About 1.5 hours by bus.",
+    "tip": "Go on a clear day.",
+    "why": "Big Alps views.",
+    "flow": [
+     "Bus.",
+     "Ropeway.",
+     "Deck."
+    ],
+    "hours": 5,
+    "price": [
+     3300,
+     3300
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hida beef",
+    "kind": "eat",
+    "id": "tak-hidabeef",
+    "at": [
+     36.142,
+     137.259
+    ],
+    "wiki": "Hida beef",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Marbled local wagyu as sushi, skewers or grilled on magnolia leaves.",
+    "expect": "Street stalls and restaurants.",
+    "tip": "Try beef nigiri on a cracker.",
+    "why": "Takayama's pride.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     600,
+     8000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Hida beef sushi",
+     "Hoba miso"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Takayama ramen",
+    "kind": "eat",
+    "id": "tak-ramen",
+    "at": [
+     36.143,
+     137.255
+    ],
+    "wiki": "Takayama ramen",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Thin curly noodles in a light soy broth.",
+    "expect": "Small shops with queues.",
+    "tip": "Go before noon.",
+    "why": "The local bowl.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     800,
+     1100
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Chuka soba"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mitarashi dango and sake",
+    "kind": "eat",
+    "id": "tak-dango",
+    "at": [
+     36.141,
+     137.26
+    ],
+    "wiki": "Dango",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Grilled rice dumplings in soy glaze, and tastings at sake breweries.",
+    "expect": "Breweries offer cheap tastings.",
+    "tip": "Try a few breweries.",
+    "why": "Old-town snacking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     100,
+     1000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Mitarashi dango",
+     "Sake"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+   8000,
+   20000
+  ],
+  "cashPerDay": [
+   3000,
+   7000
+  ],
+  "id": "yokohama",
+  "name": "Yokohama",
+  "at": [
+   35.4437,
+   139.638
+  ],
+  "wiki": "Yokohama",
+  "cover": "Minato Mirai 21",
+  "seasons": "LLHPHSSSSHHL",
+  "tagline": "Japan's harbour city, with Kamakura's Great Buddha nearby",
+  "summary": "Yokohama opened to foreign trade in 1859 and still feels cosmopolitan, with Japan's largest Chinatown, a waterfront of red-brick warehouses and a futuristic Minato Mirai skyline. It's an easy base or day trip from Tokyo, and the temples of Kamakura are close.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are best. Summer is hot and humid, with fireworks over the harbour.",
+  "arrival": "Trains from Tokyo take 25 to 40 minutes. Haneda Airport is 30 minutes away.",
+  "gettingAround": "Minatomirai line, JR trains and waterfront walks.",
+  "foodTip": "Chinatown buns and dumplings, Iekei ramen and Napolitan spaghetti, born here.",
+  "buyTip": "Chinatown goods and harbour souvenirs.",
+  "baseArea": "Minato Mirai or Kannai",
+  "hotel": [
+   80,
+   300
+  ],
+  "connections": [
+   {
+    "to": "tokyo",
+    "mode": "Train",
+    "minutes": 30,
+    "note": "JR, Tokyu and Keikyu lines."
+   },
+   {
+    "to": "hakone",
+    "mode": "Train",
+    "minutes": 90,
+    "note": "Via Odawara."
+   }
+  ],
+  "items": [
+   {
+    "name": "Minato Mirai waterfront",
+    "kind": "see",
+    "id": "yoko-minatomirai",
+    "at": [
+     35.457,
+     139.632
+    ],
+    "wiki": "Minato Mirai 21",
+    "area": "Minato Mirai",
+    "summary": "A futuristic harbour district with a giant Ferris wheel and ship museum.",
+    "expect": "Best at night.",
+    "tip": "Ride the Cosmo Clock 21 wheel.",
+    "why": "Yokohama's skyline.",
+    "flow": [
+     "Waterfront walk.",
+     "Ferris wheel."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     900
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Chinatown",
+    "kind": "see",
+    "id": "yoko-chinatown",
+    "at": [
+     35.443,
+     139.646
+    ],
+    "wiki": "Yokohama Chinatown",
+    "area": "Chinatown",
+    "summary": "Japan's largest Chinatown, packed with restaurants, temples and snack stalls.",
+    "expect": "Busy at weekends.",
+    "tip": "Visit Kanteibyo temple.",
+    "why": "A food crawl.",
+    "flow": [
+     "Gates.",
+     "Kanteibyo.",
+     "Snack stalls."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Sankeien Garden",
+    "kind": "see",
+    "id": "yoko-sankeien",
+    "at": [
+     35.417,
+     139.662
+    ],
+    "wiki": "Sankei-en",
+    "area": "Honmoku",
+    "summary": "A traditional garden with historic buildings, including a three-storey pagoda.",
+    "expect": "Bus from the station.",
+    "tip": "Visit in plum or autumn season.",
+    "why": "Classic Japanese garden.",
+    "flow": [
+     "Pond.",
+     "Pagoda."
+    ],
+    "hours": 2,
+    "price": [
+     900,
+     900
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Cup Noodles Museum",
+    "kind": "see",
+    "id": "yoko-cupnoodles",
+    "at": [
+     35.455,
+     139.638
+    ],
+    "wiki": "Cupnoodles Museum",
+    "area": "Minato Mirai",
+    "summary": "A playful museum where you design your own cup noodles.",
+    "expect": "Book the make-your-own slot.",
+    "tip": "Create your own flavour.",
+    "why": "Fun for all ages.",
+    "flow": [
+     "Exhibits.",
+     "My Cupnoodles Factory."
+    ],
+    "hours": 1.5,
+    "price": [
+     500,
+     1000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Red Brick Warehouse",
+    "kind": "see",
+    "id": "yoko-redbrick",
+    "at": [
+     35.4528,
+     139.643
+    ],
+    "wiki": "Yokohama Red Brick Warehouse",
+    "area": "Shinko",
+    "summary": "Restored customs warehouses of shops and events.",
+    "expect": "Seasonal markets outside.",
+    "tip": "Visit in December for the Christmas market.",
+    "why": "Old port charm.",
+    "flow": [
+     "Shops.",
+     "Events square."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Landmark Tower Sky Garden",
+    "kind": "see",
+    "id": "yoko-landmark",
+    "at": [
+     35.4547,
+     139.6314
+    ],
+    "wiki": "Yokohama Landmark Tower",
+    "area": "Minato Mirai",
+    "summary": "A 69th-floor observation deck with views to Mount Fuji.",
+    "expect": "Fast lift.",
+    "tip": "Go on a clear winter day.",
+    "why": "Fuji from the city.",
+    "flow": [
+     "Lift.",
+     "Deck."
+    ],
+    "hours": 1,
+    "price": [
+     1000,
+     1000
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Kamakura Great Buddha",
+    "kind": "see",
+    "id": "yoko-kamakura",
+    "at": [
+     35.3167,
+     139.5358
+    ],
+    "wiki": "Kōtoku-in",
+    "area": "Kamakura",
+    "summary": "A 13 m bronze Buddha in the open air, plus temples and a beach town.",
+    "expect": "About 30 minutes by train.",
+    "tip": "Walk the Daibutsu hiking trail.",
+    "why": "Japan's most famous Buddha.",
+    "flow": [
+     "Train to Kamakura.",
+     "Great Buddha.",
+     "Hase-dera."
+    ],
+    "hours": 5,
+    "price": [
+     300,
+     300
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Chinatown buns",
+    "kind": "eat",
+    "id": "yoko-nikuman",
+    "at": [
+     35.4432,
+     139.6465
+    ],
+    "wiki": "Yokohama Chinatown",
+    "area": "Chinatown",
+    "venue": "food-area",
+    "summary": "Steamed pork buns and soup dumplings from street windows.",
+    "expect": "Queues at famous shops.",
+    "tip": "Get a few to share.",
+    "why": "Yokohama's snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     500,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chinese-Japanese",
+    "order": [
+     "Nikuman",
+     "Xiaolongbao"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Iekei ramen",
+    "kind": "eat",
+    "id": "yoko-iekei",
+    "at": [
+     35.466,
+     139.622
+    ],
+    "wiki": "Iekei ramen",
+    "area": "Yokohama Station",
+    "venue": "food-area",
+    "summary": "Rich pork-and-soy ramen with spinach and nori, invented here.",
+    "expect": "Choose noodle firmness and oil.",
+    "tip": "Order it with extra nori.",
+    "why": "Yokohama's ramen.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     900,
+     1300
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Iekei ramen"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Napolitan spaghetti",
+    "kind": "eat",
+    "id": "yoko-napolitan",
+    "at": [
+     35.447,
+     139.642
+    ],
+    "wiki": "Spaghetti Napolitan",
+    "area": "Kannai",
+    "venue": "food-area",
+    "summary": "Ketchup spaghetti with sausage and peppers, created at the Hotel New Grand.",
+    "expect": "Retro cafés serve it.",
+    "tip": "Try it at the Hotel New Grand.",
+    "why": "A Yokohama original.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     1000,
+     2500
+    ],
+    "best": "Lunch",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Yoshoku",
+    "order": [
+     "Napolitan"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+   8000,
+   20000
+  ],
+  "cashPerDay": [
+   3000,
+   7000
+  ],
+  "id": "nagoya",
+  "name": "Nagoya",
+  "at": [
+   35.1815,
+   136.9066
+  ],
+  "wiki": "Nagoya",
+  "cover": "Nagoya Castle",
+  "seasons": "LLHPHSSSSHHL",
+  "tagline": "Castle, trains, Toyota and a bold local food scene",
+  "summary": "Japan's fourth city sits between Tokyo and Kyoto on the Shinkansen. It has a golden-dolphin castle, the sacred Atsuta Shrine, great museums of trains and industry, Ghibli Park, and its own strongly flavoured food culture.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are best. Summer is very hot and humid.",
+  "arrival": "Shinkansen from Tokyo take about 1 hour 40 minutes; Kyoto is 35 minutes. Chubu Centrair Airport is 30 minutes by train.",
+  "gettingAround": "Subway lines and the Meguru loop bus.",
+  "foodTip": "Hitsumabushi eel, miso katsu, tebasaki wings and kishimen noodles.",
+  "buyTip": "Arimatsu tie-dye, Noritake china and Toyota goods.",
+  "baseArea": "Around Nagoya Station or Sakae",
+  "hotel": [
+   60,
+   250
+  ],
+  "connections": [
+   {
+    "to": "tokyo",
+    "mode": "Shinkansen",
+    "minutes": 100,
+    "note": "Nozomi trains."
+   },
+   {
+    "to": "kyoto",
+    "mode": "Shinkansen",
+    "minutes": 35,
+    "note": "Nozomi trains."
+   },
+   {
+    "to": "takayama",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Hida limited express."
+   }
+  ],
+  "items": [
+   {
+    "name": "Nagoya Castle",
+    "kind": "see",
+    "id": "nag-castle",
+    "at": [
+     35.1856,
+     136.8992
+    ],
+    "wiki": "Nagoya Castle",
+    "area": "Centre",
+    "summary": "A castle with golden dolphins on the roof and a rebuilt Hommaru Palace.",
+    "expect": "The main keep is closed for rebuilding; the palace is open.",
+    "tip": "See the gilded palace rooms.",
+    "why": "Nagoya's symbol.",
+    "flow": [
+     "Hommaru Palace.",
+     "Gardens."
+    ],
+    "hours": 2,
+    "price": [
+     500,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Atsuta Shrine",
+    "kind": "see",
+    "id": "nag-atsuta",
+    "at": [
+     35.1281,
+     136.9083
+    ],
+    "wiki": "Atsuta Shrine",
+    "area": "South",
+    "summary": "One of Shinto's most important shrines, said to hold a sacred sword.",
+    "expect": "Free.",
+    "tip": "Walk the forest paths.",
+    "why": "Japan's sacred sword.",
+    "flow": [
+     "Main shrine.",
+     "Treasure hall."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "SCMaglev and Railway Park",
+    "kind": "see",
+    "id": "nag-scmaglev",
+    "at": [
+     35.045,
+     136.851
+    ],
+    "wiki": "SCMaglev and Railway Park",
+    "area": "Kinjo-futo",
+    "summary": "Shinkansen, maglev and steam trains you can walk through.",
+    "expect": "Simulators need a lottery ticket.",
+    "tip": "Try the Shinkansen simulator.",
+    "why": "A train lover's dream.",
+    "flow": [
+     "Train hall.",
+     "Maglev.",
+     "Simulators."
+    ],
+    "hours": 3,
+    "price": [
+     1000,
+     1000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Technology",
+     "History"
+    ]
+   },
+   {
+    "name": "Toyota Industry and Technology Museum",
+    "kind": "see",
+    "id": "nag-toyota",
+    "at": [
+     35.1825,
+     136.878
+    ],
+    "wiki": "Toyota Commemorative Museum of Industry and Technology",
+    "area": "Noritake",
+    "summary": "Looms to cars in an old red-brick factory, with live demonstrations.",
+    "expect": "Allow 2 hours.",
+    "tip": "Watch the robot demonstrations.",
+    "why": "How Toyota began.",
+    "flow": [
+     "Textile hall.",
+     "Automobile hall."
+    ],
+    "hours": 2,
+    "price": [
+     1000,
+     1000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Technology",
+     "History"
+    ]
+   },
+   {
+    "name": "Osu Kannon and shopping street",
+    "kind": "see",
+    "id": "nag-osu",
+    "at": [
+     35.1593,
+     136.9013
+    ],
+    "wiki": "Ōsu Kannon",
+    "area": "Osu",
+    "summary": "A temple next to arcades of vintage shops, electronics and street food.",
+    "expect": "Monthly flea market on the 18th and 28th.",
+    "tip": "Eat your way down the arcade.",
+    "why": "Nagoya's lively side.",
+    "flow": [
+     "Temple.",
+     "Arcades."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Tokugawa Art Museum",
+    "kind": "see",
+    "id": "nag-tokugawa",
+    "at": [
+     35.184,
+     136.934
+    ],
+    "wiki": "Tokugawa Art Museum",
+    "area": "East",
+    "summary": "Treasures of the Owari Tokugawa lords, including Tale of Genji scrolls.",
+    "expect": "Genji scrolls shown only briefly each year.",
+    "tip": "Visit the garden next door.",
+    "why": "Samurai-lord treasures.",
+    "flow": [
+     "Galleries.",
+     "Tokugawa-en garden."
+    ],
+    "hours": 1.5,
+    "price": [
+     1600,
+     1600
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Ghibli Park",
+    "kind": "see",
+    "id": "nag-ghibli",
+    "at": [
+     35.173,
+     137.088
+    ],
+    "wiki": "Ghibli Park",
+    "area": "Nagakute",
+    "summary": "Studio Ghibli worlds built in Expo park, including Satsuki and Mei's house.",
+    "expect": "Tickets sell out; book months ahead.",
+    "tip": "Book the Grand Warehouse.",
+    "why": "Step into the films.",
+    "flow": [
+     "Grand Warehouse.",
+     "Hill of Youth.",
+     "Dondoko Forest."
+    ],
+    "hours": 5,
+    "price": [
+     2000,
+     7000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Art"
+    ]
+   },
+   {
+    "name": "Inuyama Castle",
+    "kind": "see",
+    "id": "nag-inuyama",
+    "at": [
+     35.3884,
+     136.9393
+    ],
+    "wiki": "Inuyama Castle",
+    "area": "Inuyama",
+    "summary": "One of Japan's original wooden castles above the Kiso River.",
+    "expect": "About 30 minutes by train.",
+    "tip": "Climb to the top balcony.",
+    "why": "An original castle.",
+    "flow": [
+     "Train.",
+     "Castle keep.",
+     "Old town."
+    ],
+    "hours": 4,
+    "price": [
+     550,
+     550
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Hitsumabushi",
+    "kind": "eat",
+    "id": "nag-hitsumabushi",
+    "at": [
+     35.17,
+     136.9
+    ],
+    "wiki": "Hitsumabushi",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Grilled eel over rice, eaten three ways: plain, with condiments, then with broth.",
+    "expect": "Famous shops have long queues.",
+    "tip": "Follow the three-step ritual.",
+    "why": "Nagoya's luxury dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     3500,
+     6000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Hitsumabushi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Miso katsu",
+    "kind": "eat",
+    "id": "nag-misokatsu",
+    "at": [
+     35.168,
+     136.905
+    ],
+    "wiki": "Miso katsu",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Pork cutlet in thick red miso sauce.",
+    "expect": "Yabaton is the famous chain.",
+    "tip": "Order the waraji katsu.",
+    "why": "Nagoya's bold flavour.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     1200,
+     2000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Miso katsu"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Tebasaki wings",
+    "kind": "eat",
+    "id": "nag-tebasaki",
+    "at": [
+     35.17,
+     136.908
+    ],
+    "wiki": "Tebasaki",
+    "area": "Sakae",
+    "venue": "food-area",
+    "summary": "Crispy peppery chicken wings, perfect with beer.",
+    "expect": "Izakaya across the city.",
+    "tip": "Eat them with your hands.",
+    "why": "Nagoya's bar food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     1500
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Tebasaki"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+   8000,
+   20000
+  ],
+  "cashPerDay": [
+   3000,
+   7000
+  ],
+  "id": "kobe",
+  "name": "Kobe",
+  "at": [
+   34.6901,
+   135.1955
+  ],
+  "wiki": "Kobe",
+  "cover": "Kobe Port Tower",
+  "seasons": "LLHPHSSSSHHL",
+  "tagline": "A port city of Kobe beef, mountains and nearby Himeji Castle",
+  "summary": "Kobe sits between the sea and the Rokko mountains. It's home to world-famous beef, a waterfront of towers and parks, foreign merchants' houses in Kitano, and hot springs at Arima. Himeji Castle, Japan's finest, is a short train ride away.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are ideal. The Kobe Luminarie light festival is in December. Summer is hot and humid.",
+  "arrival": "Shin-Kobe station is on the Shinkansen. Trains from Osaka take about 25 minutes.",
+  "gettingAround": "JR, Hankyu and Hanshin trains, the subway and city loop buses.",
+  "foodTip": "Kobe beef teppanyaki, Chinatown snacks, akashiyaki and sobameshi.",
+  "buyTip": "Kobe sweets, pearls and sake from the Nada district.",
+  "baseArea": "Sannomiya or Harborland",
+  "hotel": [
+   60,
+   250
+  ],
+  "connections": [
+   {
+    "to": "osaka",
+    "mode": "Train",
+    "minutes": 25,
+    "note": "JR special rapid."
+   },
+   {
+    "to": "kyoto",
+    "mode": "Train",
+    "minutes": 50,
+    "note": "JR special rapid."
+   },
+   {
+    "to": "hiroshima",
+    "mode": "Shinkansen",
+    "minutes": 70,
+    "note": "From Shin-Kobe."
+   }
+  ],
+  "items": [
+   {
+    "name": "Meriken Park and Port Tower",
+    "kind": "see",
+    "id": "kobe-harbor",
+    "at": [
+     34.6826,
+     135.1867
+    ],
+    "wiki": "Kobe Port Tower",
+    "area": "Waterfront",
+    "summary": "A red lattice tower and harbour park with the earthquake memorial.",
+    "expect": "The tower reopened after renovation.",
+    "tip": "Visit at night when it's lit.",
+    "why": "Kobe's skyline.",
+    "flow": [
+     "Port Tower.",
+     "Earthquake memorial.",
+     "Harborland."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     1200
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Kitano Ijinkan",
+    "kind": "see",
+    "id": "kobe-kitano",
+    "at": [
+     34.701,
+     135.191
+    ],
+    "wiki": "Kitano-chō",
+    "area": "Kitano",
+    "summary": "Western-style houses built by 19th-century foreign merchants on a hillside.",
+    "expect": "Many houses charge separately; pick a few.",
+    "tip": "Visit the Weathercock House.",
+    "why": "Kobe's cosmopolitan past.",
+    "flow": [
+     "Weathercock House.",
+     "Hillside lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Nunobiki Falls and Herb Gardens",
+    "kind": "see",
+    "id": "kobe-nunobiki",
+    "at": [
+     34.706,
+     135.195
+    ],
+    "wiki": "Nunobiki Falls",
+    "area": "Shin-Kobe",
+    "summary": "Waterfalls a short walk from the Shinkansen station, and a ropeway to herb gardens.",
+    "expect": "Easy walk.",
+    "tip": "Ride the ropeway down at dusk.",
+    "why": "Nature next to the station.",
+    "flow": [
+     "Falls trail.",
+     "Ropeway.",
+     "Herb gardens."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     1800
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mount Rokko night view",
+    "kind": "see",
+    "id": "kobe-rokko",
+    "at": [
+     34.778,
+     135.263
+    ],
+    "wiki": "Mount Rokkō",
+    "area": "Rokko",
+    "summary": "Mountain views over Kobe and Osaka Bay, among Japan's best night views.",
+    "expect": "Cable car and bus.",
+    "tip": "Go for sunset.",
+    "why": "A '10 million dollar' view.",
+    "flow": [
+     "Cable car.",
+     "Garden Terrace."
+    ],
+    "hours": 3,
+    "price": [
+     600,
+     2000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ikuta Shrine",
+    "kind": "see",
+    "id": "kobe-ikuta",
+    "at": [
+     34.695,
+     135.19
+    ],
+    "wiki": "Ikuta Shrine",
+    "area": "Sannomiya",
+    "summary": "One of Japan's oldest shrines, in the middle of downtown.",
+    "expect": "Free.",
+    "tip": "Walk through the rear forest.",
+    "why": "Ancient calm downtown.",
+    "flow": [
+     "Gate.",
+     "Forest."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Arima Onsen",
+    "kind": "see",
+    "id": "kobe-arima",
+    "at": [
+     34.797,
+     135.247
+    ],
+    "wiki": "Arima Onsen",
+    "area": "Arima",
+    "summary": "An ancient hot-spring town known for its gold and silver waters.",
+    "expect": "About 30 minutes from Sannomiya.",
+    "tip": "Bathe at Kin no Yu.",
+    "why": "One of Japan's oldest onsen.",
+    "flow": [
+     "Kin no Yu.",
+     "Old lanes."
+    ],
+    "hours": 4,
+    "price": [
+     650,
+     3000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Himeji Castle",
+    "kind": "see",
+    "id": "kobe-himeji",
+    "at": [
+     34.8394,
+     134.6939
+    ],
+    "wiki": "Himeji Castle",
+    "area": "Himeji",
+    "summary": "Japan's finest original castle, a white 'heron' on its hill.",
+    "expect": "40 minutes by train; go early.",
+    "tip": "Visit Koko-en garden too.",
+    "why": "A World Heritage castle.",
+    "flow": [
+     "Train to Himeji.",
+     "Main keep.",
+     "Koko-en garden."
+    ],
+    "hours": 5,
+    "price": [
+     1000,
+     2500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kobe beef teppanyaki",
+    "kind": "eat",
+    "id": "kobe-beef",
+    "at": [
+     34.692,
+     135.192
+    ],
+    "wiki": "Kobe beef",
+    "area": "Sannomiya",
+    "venue": "food-area",
+    "summary": "Certified Kobe beef grilled at the counter by a chef.",
+    "expect": "Lunch sets are cheaper.",
+    "tip": "Look for the certification.",
+    "why": "The world's most famous beef.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     5000,
+     30000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Kobe beef steak"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Nankinmachi Chinatown",
+    "kind": "eat",
+    "id": "kobe-nankinmachi",
+    "at": [
+     34.688,
+     135.188
+    ],
+    "wiki": "Nankinmachi",
+    "area": "Motomachi",
+    "venue": "food-area",
+    "summary": "A small, busy Chinatown of buns and dumplings.",
+    "expect": "Snack from stalls.",
+    "tip": "Try the butaman buns.",
+    "why": "Street snacking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     300,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chinese-Japanese",
+    "order": [
+     "Butaman"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Akashiyaki and sobameshi",
+    "kind": "eat",
+    "id": "kobe-akashiyaki",
+    "at": [
+     34.69,
+     135.195
+    ],
+    "wiki": "Akashiyaki",
+    "area": "Sannomiya",
+    "venue": "food-area",
+    "summary": "Soft egg-rich octopus balls dipped in broth, and fried noodles with rice.",
+    "expect": "Local shops.",
+    "tip": "Dip the akashiyaki in the dashi.",
+    "why": "Local comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     600,
+     1200
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Akashiyaki",
+     "Sobameshi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+   8000,
+   20000
+  ],
+  "cashPerDay": [
+   3000,
+   7000
+  ],
+  "id": "nagasaki",
+  "name": "Nagasaki",
+  "at": [
+   32.7503,
+   129.8779
+  ],
+  "wiki": "Nagasaki",
+  "cover": "Glover Garden",
+  "seasons": "LLHPHSSSSHHL",
+  "tagline": "A hillside harbour city of peace, trade and churches",
+  "summary": "For two centuries Nagasaki was Japan's only window to the West, and its Dutch, Chinese and Portuguese influences still shape its churches, food and streets. The Peace Park and Atomic Bomb Museum are deeply moving, and the abandoned island of Gunkanjima lies offshore.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are best. Summer is hot and rainy. The Lantern Festival brightens February.",
+  "arrival": "The Nishi-Kyushu Shinkansen and relay trains from Fukuoka take about 1.5 hours. Nagasaki Airport is 45 minutes by bus.",
+  "gettingAround": "Old trams cover the main sights cheaply.",
+  "foodTip": "Champon noodles, castella sponge cake and Turkish rice.",
+  "buyTip": "Castella cake and glass crafts.",
+  "baseArea": "Near Nagasaki Station or Shianbashi",
+  "hotel": [
+   60,
+   200
+  ],
+  "connections": [
+   {
+    "to": "fukuoka",
+    "mode": "Train",
+    "minutes": 90,
+    "note": "Shinkansen with a change at Takeo-Onsen."
+   }
+  ],
+  "items": [
+   {
+    "name": "Peace Park and Hypocentre",
+    "kind": "see",
+    "id": "nags-peace",
+    "at": [
+     32.7765,
+     129.8635
+    ],
+    "wiki": "Nagasaki Peace Park",
+    "area": "Urakami",
+    "summary": "The Peace Statue and the hypocentre of the 9 August 1945 atomic bomb.",
+    "expect": "Free.",
+    "tip": "Visit with the museum.",
+    "why": "A place of remembrance.",
+    "flow": [
+     "Peace Statue.",
+     "Hypocentre."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Atomic Bomb Museum",
+    "kind": "see",
+    "id": "nags-museum",
+    "at": [
+     32.7727,
+     129.8648
+    ],
+    "wiki": "Nagasaki Atomic Bomb Museum",
+    "area": "Urakami",
+    "summary": "A moving museum of the bombing and its aftermath.",
+    "expect": "Allow 1.5 hours; some exhibits are graphic.",
+    "tip": "Visit the memorial hall next door.",
+    "why": "Essential and sobering.",
+    "flow": [
+     "Exhibits.",
+     "Memorial hall."
+    ],
+    "hours": 1.5,
+    "price": [
+     200,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Glover Garden",
+    "kind": "see",
+    "id": "nags-glover",
+    "at": [
+     32.734,
+     129.869
+    ],
+    "wiki": "Glover Garden",
+    "area": "Minamiyamate",
+    "summary": "Hillside Western houses of 19th-century merchants with harbour views.",
+    "expect": "Escalators up the hill.",
+    "tip": "Visit at night for lit-up views.",
+    "why": "Nagasaki's foreign past.",
+    "flow": [
+     "Glover House.",
+     "Harbour view."
+    ],
+    "hours": 1.5,
+    "price": [
+     620,
+     620
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Oura Church",
+    "kind": "see",
+    "id": "nags-oura",
+    "at": [
+     32.734,
+     129.87
+    ],
+    "wiki": "Ōura Church",
+    "area": "Minamiyamate",
+    "summary": "Japan's oldest standing church, where hidden Christians revealed themselves in 1865.",
+    "expect": "Next to Glover Garden.",
+    "tip": "Read the story of the hidden Christians.",
+    "why": "A World Heritage church.",
+    "flow": [
+     "Church.",
+     "Museum."
+    ],
+    "hours": 0.5,
+    "price": [
+     1000,
+     1000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Dejima",
+    "kind": "see",
+    "id": "nags-dejima",
+    "at": [
+     32.7437,
+     129.873
+    ],
+    "wiki": "Dejima",
+    "area": "Centre",
+    "summary": "The rebuilt Dutch trading post, Japan's only link to Europe for 200 years.",
+    "expect": "Reconstructed buildings.",
+    "tip": "See the Kapitan's room.",
+    "why": "Where Japan met the West.",
+    "flow": [
+     "Warehouses.",
+     "Kapitan's house."
+    ],
+    "hours": 1.5,
+    "price": [
+     520,
+     520
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Gunkanjima",
+    "kind": "see",
+    "id": "nags-gunkanjima",
+    "at": [
+     32.6278,
+     129.7386
+    ],
+    "wiki": "Hashima Island",
+    "area": "Offshore",
+    "summary": "'Battleship Island', an abandoned coal-mining island of concrete ruins.",
+    "expect": "Landings depend on the weather.",
+    "tip": "Book a tour with landing.",
+    "why": "An eerie World Heritage site.",
+    "flow": [
+     "Boat out.",
+     "Island landing."
+    ],
+    "hours": 3,
+    "price": [
+     4000,
+     5000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mount Inasa night view",
+    "kind": "see",
+    "id": "nags-inasa",
+    "at": [
+     32.755,
+     129.85
+    ],
+    "wiki": "Mount Inasa",
+    "area": "Inasa",
+    "summary": "A ropeway to one of Japan's top three night views.",
+    "expect": "Free shuttle buses from hotels.",
+    "tip": "Go just after sunset.",
+    "why": "Nagasaki by night.",
+    "flow": [
+     "Ropeway.",
+     "Observation deck."
+    ],
+    "hours": 1.5,
+    "price": [
+     1250,
+     1250
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Megane Bridge",
+    "kind": "see",
+    "id": "nags-megane",
+    "at": [
+     32.749,
+     129.88
+    ],
+    "wiki": "Meganebashi",
+    "area": "Nakashima River",
+    "summary": "A 1634 stone bridge whose reflection forms 'spectacles'.",
+    "expect": "Look for heart-shaped stones on the bank.",
+    "tip": "Find the heart stones.",
+    "why": "Japan's oldest stone arch bridge.",
+    "flow": [
+     "Riverside walk.",
+     "Heart stones."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Champon",
+    "kind": "eat",
+    "id": "nags-champon",
+    "at": [
+     32.739,
+     129.874
+    ],
+    "wiki": "Champon",
+    "area": "Chinatown",
+    "venue": "food-area",
+    "summary": "Thick noodles in a pork and seafood broth with vegetables.",
+    "expect": "Invented here for Chinese students.",
+    "tip": "Try it in Shinchi Chinatown.",
+    "why": "Nagasaki's soul food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     900,
+     1500
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chinese-Japanese",
+    "order": [
+     "Champon",
+     "Sara udon"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Castella",
+    "kind": "eat",
+    "id": "nags-castella",
+    "at": [
+     32.745,
+     129.875
+    ],
+    "wiki": "Castella",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "A sponge cake brought by the Portuguese in the 16th century.",
+    "expect": "Old shops like Fukusaya.",
+    "tip": "Buy a box as a gift.",
+    "why": "Nagasaki's famous sweet.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     300,
+     2000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Castella"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Turkish rice",
+    "kind": "eat",
+    "id": "nags-turkishrice",
+    "at": [
+     32.744,
+     129.878
+    ],
+    "wiki": "Turkish rice",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "A platter of pork cutlet, curry pilaf and spaghetti.",
+    "expect": "Retro cafés.",
+    "tip": "Try it at Tsuruchan café.",
+    "why": "A quirky local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     1200,
+     1800
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Yoshoku",
+    "order": [
+     "Turkish rice"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]

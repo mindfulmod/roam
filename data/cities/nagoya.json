@@ -1,0 +1,626 @@
+{
+  "id": "nagoya",
+  "name": "Nagoya",
+  "country": "Japan",
+  "region": "Asia",
+  "lat": 35.1815,
+  "lon": 136.9066,
+  "wiki": "Nagoya",
+  "tagline": "Castle, trains, Toyota and a bold local food scene",
+  "summary": "Japan's fourth city sits between Tokyo and Kyoto on the Shinkansen. It has a golden-dolphin castle, the sacred Atsuta Shrine, great museums of trains and industry, Ghibli Park, and its own strongly flavoured food culture.",
+  "days": 2,
+  "bestMonths": [
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "seasonNote": "Spring and autumn are best. Summer is very hot and humid.",
+  "arrival": "Shinkansen from Tokyo take about 1 hour 40 minutes; Kyoto is 35 minutes. Chubu Centrair Airport is 30 minutes by train.",
+  "gettingAround": "Subway lines and the Meguru loop bus.",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+    8000,
+    20000
+  ],
+  "currency": "JPY",
+  "cashPerDay": [
+    3000,
+    7000
+  ],
+  "foodTip": "Hitsumabushi eel, miso katsu, tebasaki wings and kishimen noodles.",
+  "buyTip": "Arimatsu tie-dye, Noritake china and Toyota goods.",
+  "baseArea": "Around Nagoya Station or Sakae",
+  "connections": [
+    {
+      "to": "tokyo",
+      "mode": "Shinkansen",
+      "minutes": 100,
+      "note": "Nozomi trains."
+    },
+    {
+      "to": "kyoto",
+      "mode": "Shinkansen",
+      "minutes": 35,
+      "note": "Nozomi trains."
+    },
+    {
+      "to": "takayama",
+      "mode": "Train",
+      "minutes": 150,
+      "note": "Hida limited express."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nagoya on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nagoya",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Nagoya%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Nagoya%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Nagoya Castle",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "nagoya-nag-castle",
+      "name": "Nagoya Castle",
+      "kind": "see",
+      "lat": 35.1856,
+      "lon": 136.8992,
+      "wiki": "Nagoya Castle",
+      "summary": "A castle with golden dolphins on the roof and a rebuilt Hommaru Palace.",
+      "expect": "The main keep is closed for rebuilding; the palace is open.",
+      "tip": "See the gilded palace rooms.",
+      "area": "Centre",
+      "duration": 2,
+      "price": [
+        500,
+        500
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Nagoya%20Castle%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Nagoya%20Castle%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Nagoya%20Castle%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A castle with golden dolphins on the roof and a rebuilt Hommaru Palace.",
+        "Nagoya's symbol."
+      ],
+      "visitFlow": [
+        "Hommaru Palace.",
+        "Gardens."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "The main keep is closed for rebuilding; the palace is open.",
+        "See the gilded palace rooms."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-atsuta",
+      "name": "Atsuta Shrine",
+      "kind": "see",
+      "lat": 35.1281,
+      "lon": 136.9083,
+      "wiki": "Atsuta Shrine",
+      "summary": "One of Shinto's most important shrines, said to hold a sacred sword.",
+      "expect": "Free.",
+      "tip": "Walk the forest paths.",
+      "area": "South",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Atsuta%20Shrine%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Atsuta%20Shrine%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Atsuta%20Shrine%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "One of Shinto's most important shrines, said to hold a sacred sword.",
+        "Japan's sacred sword."
+      ],
+      "visitFlow": [
+        "Main shrine.",
+        "Treasure hall."
+      ],
+      "bestFor": "Visitors interested in sacred places",
+      "tradeoffs": [
+        "Free.",
+        "Walk the forest paths."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-scmaglev",
+      "name": "SCMaglev and Railway Park",
+      "kind": "see",
+      "lat": 35.045,
+      "lon": 136.851,
+      "wiki": "SCMaglev and Railway Park",
+      "summary": "Shinkansen, maglev and steam trains you can walk through.",
+      "expect": "Simulators need a lottery ticket.",
+      "tip": "Try the Shinkansen simulator.",
+      "area": "Kinjo-futo",
+      "duration": 3,
+      "price": [
+        1000,
+        1000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=SCMaglev%20and%20Railway%20Park%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=SCMaglev%20and%20Railway%20Park%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=SCMaglev%20and%20Railway%20Park%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Technology",
+        "History"
+      ],
+      "whyVisit": [
+        "Shinkansen, maglev and steam trains you can walk through.",
+        "A train lover's dream."
+      ],
+      "visitFlow": [
+        "Train hall.",
+        "Maglev.",
+        "Simulators."
+      ],
+      "bestFor": "Visitors interested in science and technology and history and context",
+      "tradeoffs": [
+        "Simulators need a lottery ticket.",
+        "Try the Shinkansen simulator."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-toyota",
+      "name": "Toyota Industry and Technology Museum",
+      "kind": "see",
+      "lat": 35.1825,
+      "lon": 136.878,
+      "wiki": "Toyota Commemorative Museum of Industry and Technology",
+      "summary": "Looms to cars in an old red-brick factory, with live demonstrations.",
+      "expect": "Allow 2 hours.",
+      "tip": "Watch the robot demonstrations.",
+      "area": "Noritake",
+      "duration": 2,
+      "price": [
+        1000,
+        1000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Toyota%20Industry%20and%20Technology%20Museum%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Toyota%20Industry%20and%20Technology%20Museum%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Toyota%20Industry%20and%20Technology%20Museum%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Technology",
+        "History"
+      ],
+      "whyVisit": [
+        "Looms to cars in an old red-brick factory, with live demonstrations.",
+        "How Toyota began."
+      ],
+      "visitFlow": [
+        "Textile hall.",
+        "Automobile hall."
+      ],
+      "bestFor": "Visitors interested in science and technology and history and context",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "Watch the robot demonstrations."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-osu",
+      "name": "Osu Kannon and shopping street",
+      "kind": "see",
+      "lat": 35.1593,
+      "lon": 136.9013,
+      "wiki": "Ōsu Kannon",
+      "summary": "A temple next to arcades of vintage shops, electronics and street food.",
+      "expect": "Monthly flea market on the 18th and 28th.",
+      "tip": "Eat your way down the arcade.",
+      "area": "Osu",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Osu%20Kannon%20and%20shopping%20street%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Osu%20Kannon%20and%20shopping%20street%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Osu%20Kannon%20and%20shopping%20street%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A temple next to arcades of vintage shops, electronics and street food.",
+        "Nagoya's lively side."
+      ],
+      "visitFlow": [
+        "Temple.",
+        "Arcades."
+      ],
+      "bestFor": "Visitors interested in sacred places and local shopping",
+      "tradeoffs": [
+        "Monthly flea market on the 18th and 28th.",
+        "Eat your way down the arcade."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-tokugawa",
+      "name": "Tokugawa Art Museum",
+      "kind": "see",
+      "lat": 35.184,
+      "lon": 136.934,
+      "wiki": "Tokugawa Art Museum",
+      "summary": "Treasures of the Owari Tokugawa lords, including Tale of Genji scrolls.",
+      "expect": "Genji scrolls shown only briefly each year.",
+      "tip": "Visit the garden next door.",
+      "area": "East",
+      "duration": 1.5,
+      "price": [
+        1600,
+        1600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tokugawa%20Art%20Museum%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Tokugawa%20Art%20Museum%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tokugawa%20Art%20Museum%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "Treasures of the Owari Tokugawa lords, including Tale of Genji scrolls.",
+        "Samurai-lord treasures."
+      ],
+      "visitFlow": [
+        "Galleries.",
+        "Tokugawa-en garden."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "Genji scrolls shown only briefly each year.",
+        "Visit the garden next door."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-ghibli",
+      "name": "Ghibli Park",
+      "kind": "see",
+      "lat": 35.173,
+      "lon": 137.088,
+      "wiki": "Ghibli Park",
+      "summary": "Studio Ghibli worlds built in Expo park, including Satsuki and Mei's house.",
+      "expect": "Tickets sell out; book months ahead.",
+      "tip": "Book the Grand Warehouse.",
+      "area": "Nagakute",
+      "duration": 5,
+      "price": [
+        2000,
+        7000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ghibli%20Park%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Ghibli%20Park%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ghibli%20Park%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "Art"
+      ],
+      "whyVisit": [
+        "Studio Ghibli worlds built in Expo park, including Satsuki and Mei's house.",
+        "Step into the films."
+      ],
+      "visitFlow": [
+        "Grand Warehouse.",
+        "Hill of Youth.",
+        "Dondoko Forest."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and art and craft",
+      "tradeoffs": [
+        "Tickets sell out; book months ahead.",
+        "Book the Grand Warehouse."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-inuyama",
+      "name": "Inuyama Castle",
+      "kind": "see",
+      "lat": 35.3884,
+      "lon": 136.9393,
+      "wiki": "Inuyama Castle",
+      "summary": "One of Japan's original wooden castles above the Kiso River.",
+      "expect": "About 30 minutes by train.",
+      "tip": "Climb to the top balcony.",
+      "area": "Inuyama",
+      "duration": 4,
+      "price": [
+        550,
+        550
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Inuyama%20Castle%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Inuyama%20Castle%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Inuyama%20Castle%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "One of Japan's original wooden castles above the Kiso River.",
+        "An original castle."
+      ],
+      "visitFlow": [
+        "Train.",
+        "Castle keep.",
+        "Old town."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "About 30 minutes by train.",
+        "Climb to the top balcony."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nagoya-nag-hitsumabushi",
+      "name": "Hitsumabushi",
+      "kind": "eat",
+      "lat": 35.17,
+      "lon": 136.9,
+      "wiki": "Hitsumabushi",
+      "summary": "Grilled eel over rice, eaten three ways: plain, with condiments, then with broth.",
+      "expect": "Famous shops have long queues.",
+      "tip": "Follow the three-step ritual.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        3500,
+        6000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hitsumabushi%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Hitsumabushi%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hitsumabushi%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Grilled eel over rice, eaten three ways: plain, with condiments, then with broth.",
+        "Nagoya's luxury dish."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Famous shops have long queues.",
+        "Follow the three-step ritual."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Japanese",
+      "mustOrder": [
+        "Hitsumabushi"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "nagoya-nag-misokatsu",
+      "name": "Miso katsu",
+      "kind": "eat",
+      "lat": 35.168,
+      "lon": 136.905,
+      "wiki": "Miso katsu",
+      "summary": "Pork cutlet in thick red miso sauce.",
+      "expect": "Yabaton is the famous chain.",
+      "tip": "Order the waraji katsu.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        1200,
+        2000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Miso%20katsu%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Miso%20katsu%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Miso%20katsu%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pork cutlet in thick red miso sauce.",
+        "Nagoya's bold flavour."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Yabaton is the famous chain.",
+        "Order the waraji katsu."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Japanese",
+      "mustOrder": [
+        "Miso katsu"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "nagoya-nag-tebasaki",
+      "name": "Tebasaki wings",
+      "kind": "eat",
+      "lat": 35.17,
+      "lon": 136.908,
+      "wiki": "Tebasaki",
+      "summary": "Crispy peppery chicken wings, perfect with beer.",
+      "expect": "Izakaya across the city.",
+      "tip": "Eat them with your hands.",
+      "area": "Sakae",
+      "duration": 1,
+      "price": [
+        500,
+        1500
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tebasaki%20wings%2C%20Nagoya",
+        "https://www.google.com/maps/search/?api=1&query=Tebasaki%20wings%2C%20Nagoya"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tebasaki%20wings%2C%20Nagoya"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Crispy peppery chicken wings, perfect with beer.",
+        "Nagoya's bar food."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Izakaya across the city.",
+        "Eat them with your hands."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Japanese",
+      "mustOrder": [
+        "Tebasaki"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

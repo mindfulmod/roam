@@ -1,0 +1,562 @@
+{
+  "id": "hakone",
+  "name": "Hakone",
+  "country": "Japan",
+  "region": "Asia",
+  "lat": 35.2323,
+  "lon": 139.1069,
+  "wiki": "Hakone",
+  "tagline": "Hot springs, Mount Fuji views and a lake loop",
+  "summary": "Hakone is Tokyo's favourite hot-spring escape, a volcanic mountain area with ryokan inns, open-air baths and views of Mount Fuji on clear days. A classic loop links a mountain railway, cable car, steaming volcanic valley, pirate-ship cruise on Lake Ashi and excellent art museums.",
+  "days": 2,
+  "bestMonths": [
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "seasonNote": "Autumn colours peak in November and Fuji is clearest in winter. Summer is humid and often hazy. Weekends are busy with Tokyo visitors.",
+  "arrival": "The Odakyu Romancecar from Shinjuku reaches Hakone-Yumoto in about 85 minutes. The Hakone Free Pass covers the loop.",
+  "gettingAround": "The Hakone Tozan railway, cable car, ropeway, lake boats and buses; the Free Pass covers all.",
+  "cashTip": "Cards and IC cards work widely, but carry yen for small shrines, rural buses and food stalls.",
+  "dailyBudget": [
+    12000,
+    40000
+  ],
+  "currency": "JPY",
+  "cashPerDay": [
+    3000,
+    7000
+  ],
+  "foodTip": "Black eggs boiled in Owakudani's hot springs, tofu dishes and soba.",
+  "buyTip": "Yosegi-zaiku marquetry boxes and onsen manju.",
+  "baseArea": "Hakone-Yumoto, Gora or a ryokan by the lake",
+  "connections": [
+    {
+      "to": "tokyo",
+      "mode": "Train",
+      "minutes": 85,
+      "note": "Odakyu Romancecar from Shinjuku."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hakone on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hakone",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Hakone%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Hakone%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Lake Ashi Hakone Shrine torii",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "hakone-hakone-ashi",
+      "name": "Lake Ashi cruise",
+      "kind": "see",
+      "lat": 35.205,
+      "lon": 139.025,
+      "wiki": "Lake Ashi",
+      "summary": "Replica pirate ships sail across a crater lake with Fuji views on clear days.",
+      "expect": "Covered by the Free Pass.",
+      "tip": "Sit on the open deck facing Fuji.",
+      "area": "Lake Ashi",
+      "duration": 1,
+      "price": [
+        1500,
+        2500
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lake%20Ashi%20cruise%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Lake%20Ashi%20cruise%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lake%20Ashi%20cruise%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Replica pirate ships sail across a crater lake with Fuji views on clear days.",
+        "The heart of the Hakone loop."
+      ],
+      "visitFlow": [
+        "Board at Togendai.",
+        "Cruise to Moto-Hakone."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Covered by the Free Pass.",
+        "Sit on the open deck facing Fuji."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hakone-hakone-shrine",
+      "name": "Hakone Shrine",
+      "kind": "see",
+      "lat": 35.2044,
+      "lon": 139.0253,
+      "wiki": "Hakone Shrine",
+      "summary": "A shrine in cedar forest with a red torii gate standing in the lake.",
+      "expect": "Long queue for torii photos.",
+      "tip": "Go early for the lakeside gate.",
+      "area": "Moto-Hakone",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hakone%20Shrine%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Hakone%20Shrine%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hakone%20Shrine%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A shrine in cedar forest with a red torii gate standing in the lake.",
+        "Hakone's most famous image."
+      ],
+      "visitFlow": [
+        "Cedar stairs.",
+        "Lake torii."
+      ],
+      "bestFor": "Visitors interested in sacred places and big views",
+      "tradeoffs": [
+        "Long queue for torii photos.",
+        "Go early for the lakeside gate."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hakone-hakone-owakudani",
+      "name": "Owakudani",
+      "kind": "see",
+      "lat": 35.244,
+      "lon": 139.019,
+      "wiki": "Ōwakudani",
+      "summary": "A steaming volcanic valley of sulphur vents, reached by ropeway.",
+      "expect": "May close when volcanic activity is high.",
+      "tip": "Eat a black egg.",
+      "area": "Owakudani",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Owakudani%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Owakudani%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Owakudani%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A steaming volcanic valley of sulphur vents, reached by ropeway.",
+        "Hakone's volcanic heart."
+      ],
+      "visitFlow": [
+        "Ropeway.",
+        "Valley trail."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "May close when volcanic activity is high.",
+        "Eat a black egg."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hakone-hakone-openair",
+      "name": "Hakone Open-Air Museum",
+      "kind": "see",
+      "lat": 35.2448,
+      "lon": 139.051,
+      "wiki": "Hakone Open-Air Museum",
+      "summary": "Sculptures by Moore, Rodin and others set in gardens, plus a Picasso pavilion.",
+      "expect": "Allow 2 hours.",
+      "tip": "Soak your feet in the footbath.",
+      "area": "Chokoku-no-mori",
+      "duration": 2,
+      "price": [
+        2000,
+        2000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hakone%20Open-Air%20Museum%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Hakone%20Open-Air%20Museum%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hakone%20Open-Air%20Museum%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Sculptures by Moore, Rodin and others set in gardens, plus a Picasso pavilion.",
+        "Art in the mountains."
+      ],
+      "visitFlow": [
+        "Sculpture park.",
+        "Picasso pavilion."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "Soak your feet in the footbath."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hakone-hakone-ropeway",
+      "name": "Hakone Ropeway",
+      "kind": "see",
+      "lat": 35.242,
+      "lon": 139.03,
+      "wiki": "Hakone Ropeway",
+      "summary": "Cable cars over volcanic slopes with views of Fuji and the lake.",
+      "expect": "Can close in high wind.",
+      "tip": "Ride in the morning for clear skies.",
+      "area": "Sounzan to Togendai",
+      "duration": 0.5,
+      "price": [
+        1500,
+        2000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hakone%20Ropeway%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Hakone%20Ropeway%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hakone%20Ropeway%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Cable cars over volcanic slopes with views of Fuji and the lake.",
+        "Big views on the loop."
+      ],
+      "visitFlow": [
+        "Board at Sounzan.",
+        "Ride to Togendai."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Can close in high wind.",
+        "Ride in the morning for clear skies."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hakone-hakone-onsen",
+      "name": "Onsen bathing",
+      "kind": "see",
+      "lat": 35.2323,
+      "lon": 139.1069,
+      "wiki": "Onsen",
+      "summary": "Hot-spring baths in ryokan and day spas like Tenzan.",
+      "expect": "Bathe nude; tattoos may be refused.",
+      "tip": "Try a private bath if you have tattoos.",
+      "area": "Hakone-Yumoto",
+      "duration": 2,
+      "price": [
+        1300,
+        3000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Onsen%20bathing%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Onsen%20bathing%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Onsen%20bathing%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Hot-spring baths in ryokan and day spas like Tenzan.",
+        "Hakone's whole point."
+      ],
+      "visitFlow": [
+        "Wash first.",
+        "Soak."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Bathe nude; tattoos may be refused.",
+        "Try a private bath if you have tattoos."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hakone-hakone-tokaido",
+      "name": "Old Tokaido road",
+      "kind": "see",
+      "lat": 35.205,
+      "lon": 139.045,
+      "wiki": "Tōkaidō (road)",
+      "summary": "Stone-paved Edo-era highway through cedars, with a 400-year-old teahouse.",
+      "expect": "Slippery when wet.",
+      "tip": "Stop for amazake at Amazake-chaya.",
+      "area": "Hatajuku",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Old%20Tokaido%20road%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Old%20Tokaido%20road%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Old%20Tokaido%20road%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Stone-paved Edo-era highway through cedars, with a 400-year-old teahouse.",
+        "Walk into Edo Japan."
+      ],
+      "visitFlow": [
+        "Stone path.",
+        "Amazake-chaya."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "Slippery when wet.",
+        "Stop for amazake at Amazake-chaya."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hakone-hakone-blackegg",
+      "name": "Black eggs",
+      "kind": "eat",
+      "lat": 35.2445,
+      "lon": 139.0195,
+      "wiki": "Ōwakudani",
+      "summary": "Eggs boiled in hot springs until their shells turn black.",
+      "expect": "Sold in packs of five.",
+      "tip": "Legend says each adds seven years to your life.",
+      "area": "Owakudani",
+      "duration": 0.25,
+      "price": [
+        500,
+        500
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Black%20eggs%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Black%20eggs%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Black%20eggs%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Eggs boiled in hot springs until their shells turn black.",
+        "A Hakone ritual."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Sold in packs of five.",
+        "Legend says each adds seven years to your life."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Japanese",
+      "mustOrder": [
+        "Kuro-tamago"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "hakone-hakone-tofu",
+      "name": "Tofu kaiseki",
+      "kind": "eat",
+      "lat": 35.235,
+      "lon": 139.1,
+      "wiki": "Kaiseki",
+      "summary": "Course meals built around local tofu and spring water.",
+      "expect": "Often included in ryokan stays.",
+      "tip": "Book a ryokan with dinner.",
+      "area": "Hakone-Yumoto",
+      "duration": 2,
+      "price": [
+        3000,
+        10000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tofu%20kaiseki%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Tofu%20kaiseki%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tofu%20kaiseki%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Course meals built around local tofu and spring water.",
+        "Refined mountain food."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Often included in ryokan stays.",
+        "Book a ryokan with dinner."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Japanese",
+      "mustOrder": [
+        "Tofu kaiseki"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "hakone-hakone-soba",
+      "name": "Soba",
+      "kind": "eat",
+      "lat": 35.233,
+      "lon": 139.105,
+      "wiki": "Soba",
+      "summary": "Handmade buckwheat noodles, hot or cold.",
+      "expect": "Popular shops have queues.",
+      "tip": "Try cold zaru soba.",
+      "area": "Hakone-Yumoto",
+      "duration": 0.5,
+      "price": [
+        1000,
+        2000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Soba%2C%20Hakone",
+        "https://www.google.com/maps/search/?api=1&query=Soba%2C%20Hakone"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Soba%2C%20Hakone"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Handmade buckwheat noodles, hot or cold.",
+        "Clean mountain water noodles."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Popular shops have queues.",
+        "Try cold zaru soba."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Japanese",
+      "mustOrder": [
+        "Zaru soba"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
