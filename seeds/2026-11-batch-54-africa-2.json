@@ -1,0 +1,2089 @@
+[
+ {
+  "country": "Morocco",
+  "region": "Africa",
+  "currency": "MAD",
+  "cashTip": "Carry small dirham notes for meals, taxis and markets; cards work mainly in hotels and bigger restaurants.",
+  "dailyBudget": [
+   400,
+   900
+  ],
+  "cashPerDay": [
+   200,
+   450
+  ],
+  "id": "tangier",
+  "name": "Tangier",
+  "at": [
+   35.784,
+   -5.813
+  ],
+  "wiki": "Tangier",
+  "cover": "Tangier medina kasbah view",
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Gateway port where Africa faces Europe",
+  "summary": "Tangier is Morocco's storied port on the Strait of Gibraltar, a muse to writers and artists. Climb to the Kasbah, wander the medina from the Grand Socco, sip mint tea at clifftop Café Hafa, and ride out to Cap Spartel and the Caves of Hercules where the Atlantic meets the Mediterranean.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are mild; summer is busy with Moroccans returning from Europe.",
+  "arrival": "Fast ferries from Tarifa take an hour; Ibn Battuta Airport is 20 minutes away and the Al Boraq high-speed train reaches Rabat and Casablanca.",
+  "gettingAround": "Walk the medina; petit taxis for Cap Spartel.",
+  "foodTip": "Fresh fish, bissara soup and mint tea with a view.",
+  "buyTip": "Leather, rugs and ceramics in the medina.",
+  "baseArea": "Medina, Kasbah or the new town",
+  "hotel": [
+   400,
+   1200
+  ],
+  "connections": [
+   {
+    "to": "chefchaouen",
+    "mode": "Bus",
+    "minutes": 180,
+    "note": "CTM buses."
+   },
+   {
+    "to": "casablanca",
+    "mode": "Train",
+    "minutes": 130,
+    "note": "Al Boraq high-speed train."
+   }
+  ],
+  "items": [
+   {
+    "name": "Kasbah and Kasbah Museum",
+    "kind": "see",
+    "id": "tng-kasbah",
+    "at": [
+     35.788,
+     -5.813
+    ],
+    "wiki": "Kasbah Museum (Tangier)",
+    "area": "Kasbah",
+    "summary": "Old sultan's palace with views over the strait.",
+    "expect": "Paid museum.",
+    "tip": "Go late afternoon.",
+    "why": "Historic core.",
+    "flow": [
+     "Bab el Bhar.",
+     "Museum courtyard."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Medina and Grand Socco",
+    "kind": "see",
+    "id": "tng-medina",
+    "at": [
+     35.784,
+     -5.815
+    ],
+    "wiki": "Grand Socco",
+    "area": "Medina",
+    "summary": "Lanes of markets, the American Legation and Petit Socco cafés.",
+    "expect": "Free.",
+    "tip": "Use a licensed guide.",
+    "why": "Medina life.",
+    "flow": [
+     "Grand Socco.",
+     "Petit Socco."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Caves of Hercules",
+    "kind": "see",
+    "id": "tng-hercules",
+    "at": [
+     35.759,
+     -5.939
+    ],
+    "wiki": "Caves of Hercules",
+    "area": "Cap Spartel",
+    "summary": "Sea cave with an Africa-shaped opening.",
+    "expect": "Small fee.",
+    "tip": "Combine with Cap Spartel.",
+    "why": "Myth and sea.",
+    "flow": [
+     "Cave.",
+     "Beach."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cap Spartel",
+    "kind": "see",
+    "id": "tng-spartel",
+    "at": [
+     35.792,
+     -5.924
+    ],
+    "wiki": "Cape Spartel",
+    "area": "Cap Spartel",
+    "summary": "Lighthouse where the Atlantic meets the Mediterranean.",
+    "expect": "Free.",
+    "tip": "Sunset.",
+    "why": "Two seas.",
+    "flow": [
+     "Lighthouse.",
+     "Coast road."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "American Legation Museum",
+    "kind": "see",
+    "id": "tng-legation",
+    "at": [
+     35.783,
+     -5.813
+    ],
+    "wiki": "Tangier American Legation",
+    "area": "Medina",
+    "summary": "First US public property abroad, with art and Paul Bowles room.",
+    "expect": "Paid.",
+    "tip": "Look for the Bowles wing.",
+    "why": "Unique history.",
+    "flow": [
+     "Courtyards.",
+     "Art."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     20
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Asilah",
+    "kind": "see",
+    "id": "tng-asilah",
+    "at": [
+     35.465,
+     -6.034
+    ],
+    "wiki": "Asilah",
+    "area": "Day trip",
+    "summary": "Whitewashed seaside town with murals.",
+    "expect": "Train or taxi.",
+    "tip": "August arts festival.",
+    "why": "Easy escape.",
+    "flow": [
+     "Ramparts.",
+     "Murals."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Art",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Café Hafa",
+    "kind": "eat",
+    "id": "tng-hafa",
+    "at": [
+     35.789,
+     -5.819
+    ],
+    "wiki": "Café Hafa",
+    "area": "Marshan",
+    "venue": "food-area",
+    "summary": "Terraced clifftop café since 1921.",
+    "expect": "Busy at sunset.",
+    "tip": "Order mint tea.",
+    "why": "Legendary view.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Mint tea",
+     "Bissara"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Fresh fish in the port",
+    "kind": "eat",
+    "id": "tng-fish",
+    "at": [
+     35.786,
+     -5.808
+    ],
+    "wiki": "Tangier",
+    "area": "Port",
+    "venue": "food-area",
+    "summary": "Grilled sardines and seafood near the port.",
+    "expect": "Lunch.",
+    "tip": "Pick from the display.",
+    "why": "Straight from the boat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Moroccan",
+    "order": [
+     "Grilled fish"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Bissara and msemen breakfast",
+    "kind": "eat",
+    "id": "tng-bissara",
+    "at": [
+     35.784,
+     -5.814
+    ],
+    "wiki": "Bissara",
+    "area": "Medina",
+    "venue": "food-area",
+    "summary": "Fava bean soup and flaky pancakes.",
+    "expect": "Mornings.",
+    "tip": "Eat at a medina stall.",
+    "why": "Local breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Moroccan",
+    "order": [
+     "Bissara",
+     "Msemen"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Tunisia",
+  "region": "Africa",
+  "currency": "TND",
+  "cashTip": "Dinars can't be taken out of the country; change what you need and carry cash for taxis, medina shops and cafés.",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   40,
+   100
+  ],
+  "id": "tunis",
+  "name": "Tunis",
+  "at": [
+   36.8065,
+   10.1815
+  ],
+  "wiki": "Tunis",
+  "cover": "Sidi Bou Said Tunisia",
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Medina, mosaics, Carthage and blue-and-white Sidi Bou Said",
+  "summary": "Tunis combines a UNESCO medina, the world's greatest Roman mosaic collection at the Bardo, and the ruins of Carthage on the coast. Wander the souks to the Zitouna Mosque, see Carthage's Antonine Baths, and sip pine-nut mint tea in blue-and-white Sidi Bou Said.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are ideal; summer is hot; winter is mild and rainy.",
+  "arrival": "Tunis-Carthage Airport is 15 minutes from the centre.",
+  "gettingAround": "TGM light rail links the centre to Carthage and Sidi Bou Said; taxis are cheap.",
+  "foodTip": "Brik, couscous, lablabi and pine-nut tea.",
+  "buyTip": "Ceramics, chechia hats and olive wood in the souks.",
+  "baseArea": "Medina, Ville Nouvelle or Sidi Bou Said",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "rome",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Direct flights."
+   },
+   {
+    "to": "palermo",
+    "mode": "Ferry",
+    "minutes": 600,
+    "note": "Overnight ferries."
+   }
+  ],
+  "items": [
+   {
+    "name": "Medina and Zitouna Mosque",
+    "kind": "see",
+    "id": "tun-medina",
+    "at": [
+     36.7977,
+     10.171
+    ],
+    "wiki": "Medina of Tunis",
+    "area": "Medina",
+    "summary": "Souks around the great Zitouna Mosque.",
+    "expect": "Non-Muslims see the courtyard from a gallery.",
+    "tip": "Mornings are calm.",
+    "why": "UNESCO medina.",
+    "flow": [
+     "Souks.",
+     "Rooftop terraces."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Bardo National Museum",
+    "kind": "see",
+    "id": "tun-bardo",
+    "at": [
+     36.809,
+     10.134
+    ],
+    "wiki": "Bardo National Museum (Tunis)",
+    "area": "Le Bardo",
+    "summary": "World's greatest collection of Roman mosaics.",
+    "expect": "Paid.",
+    "tip": "Allow two hours.",
+    "why": "Mosaic marvel.",
+    "flow": [
+     "Virgil mosaic.",
+     "Palace rooms."
+    ],
+    "hours": 2.5,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Carthage",
+    "kind": "see",
+    "id": "tun-carthage",
+    "at": [
+     36.8529,
+     10.3233
+    ],
+    "wiki": "Carthage",
+    "area": "Carthage",
+    "summary": "Punic and Roman ruins including the Antonine Baths.",
+    "expect": "One ticket covers sites.",
+    "tip": "Use the TGM train.",
+    "why": "Ancient power.",
+    "flow": [
+     "Antonine Baths.",
+     "Byrsa Hill."
+    ],
+    "hours": 4,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Sidi Bou Said",
+    "kind": "see",
+    "id": "tun-sidibou",
+    "at": [
+     36.87,
+     10.341
+    ],
+    "wiki": "Sidi Bou Said",
+    "area": "Sidi Bou Said",
+    "summary": "Clifftop village of blue doors and white walls.",
+    "expect": "Free.",
+    "tip": "Sunset over the gulf.",
+    "why": "Picture-perfect.",
+    "flow": [
+     "Lanes.",
+     "Café des Délices."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Dougga",
+    "kind": "see",
+    "id": "tun-dougga",
+    "at": [
+     36.423,
+     9.219
+    ],
+    "wiki": "Dougga",
+    "area": "Day trip",
+    "summary": "Best-preserved Roman town in North Africa.",
+    "expect": "Car or tour.",
+    "tip": "Go early.",
+    "why": "Hilltop ruins.",
+    "flow": [
+     "Capitol.",
+     "Theatre."
+    ],
+    "hours": 7,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Avenue Habib Bourguiba",
+    "kind": "see",
+    "id": "tun-habib",
+    "at": [
+     36.8,
+     10.186
+    ],
+    "wiki": "Avenue Habib Bourguiba",
+    "area": "Ville Nouvelle",
+    "summary": "Tree-lined boulevard of cafés and the cathedral.",
+    "expect": "Free.",
+    "tip": "Evening stroll.",
+    "why": "Modern Tunis.",
+    "flow": [
+     "Cathedral.",
+     "Cafés."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Brik",
+    "kind": "eat",
+    "id": "tun-brik",
+    "at": [
+     36.799,
+     10.175
+    ],
+    "wiki": "Brik (food)",
+    "area": "Medina",
+    "venue": "food-area",
+    "summary": "Crispy pastry with egg and tuna.",
+    "expect": "Everywhere.",
+    "tip": "Eat it hot.",
+    "why": "Tunisian snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     8
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tunisian",
+    "order": [
+     "Brik à l'oeuf"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Couscous and lablabi",
+    "kind": "eat",
+    "id": "tun-couscous",
+    "at": [
+     36.798,
+     10.172
+    ],
+    "wiki": "Lablabi",
+    "area": "Medina",
+    "venue": "food-area",
+    "summary": "Fish couscous and chickpea soup with harissa.",
+    "expect": "Lunch.",
+    "tip": "Lablabi for breakfast.",
+    "why": "Comfort food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tunisian",
+    "order": [
+     "Couscous au poisson",
+     "Lablabi"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Pine-nut mint tea in Sidi Bou Said",
+    "kind": "eat",
+    "id": "tun-tea",
+    "at": [
+     36.8705,
+     10.342
+    ],
+    "wiki": "Sidi Bou Said",
+    "area": "Sidi Bou Said",
+    "venue": "food-area",
+    "summary": "Mint tea topped with pine nuts and bambalouni doughnuts.",
+    "expect": "Afternoon.",
+    "tip": "Café des Délices terrace.",
+    "why": "Local ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Thé aux pignons",
+     "Bambalouni"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Kenya",
+  "region": "Africa",
+  "currency": "KES",
+  "cashTip": "Park fees are paid by card or M-Pesa; carry shillings or small US dollars for tips and village visits.",
+  "dailyBudget": [
+   25000,
+   90000
+  ],
+  "cashPerDay": [
+   2000,
+   6000
+  ],
+  "id": "mombasa",
+  "name": "Mombasa and Diani",
+  "at": [
+   -4.0435,
+   39.6682
+  ],
+  "wiki": "Mombasa",
+  "cover": "Diani Beach Kenya",
+  "seasons": "HHSLLSHHHSSH",
+  "tagline": "Swahili old town and white-sand Indian Ocean beaches",
+  "summary": "Mombasa is Kenya's ancient Swahili port, with Fort Jesus and a carved-door Old Town, while Diani Beach to the south has some of Africa's finest sand. Explore the fort, eat Swahili biryani, snorkel Kisite marine park with dolphins and end a safari with beach days.",
+  "days": 4,
+  "bestMonths": [
+   1,
+   2,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "Dry seasons (December to March, July to October) are best; April to June brings long rains.",
+  "arrival": "Moi International Airport is 20 minutes from the centre; Ukunda airstrip serves Diani; the SGR train from Nairobi takes about 5 hours.",
+  "gettingAround": "Tuk-tuks and taxis; the Likoni ferry crosses to the south coast.",
+  "foodTip": "Swahili biryani, mahamri doughnuts and grilled seafood.",
+  "buyTip": "Kikoi cloths, carvings and spices.",
+  "baseArea": "Diani Beach or Nyali",
+  "hotel": [
+   8000,
+   30000
+  ],
+  "connections": [
+   {
+    "to": "nairobi",
+    "mode": "Train",
+    "minutes": 300,
+    "note": "Madaraka Express SGR train."
+   },
+   {
+    "to": "zanzibar",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Short flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Fort Jesus",
+    "kind": "see",
+    "id": "mom-fort",
+    "at": [
+     -4.0626,
+     39.6795
+    ],
+    "wiki": "Fort Jesus",
+    "area": "Old Town",
+    "summary": "16th-century Portuguese fort, now a museum.",
+    "expect": "Paid.",
+    "tip": "Evening sound-and-light show.",
+    "why": "UNESCO site.",
+    "flow": [
+     "Ramparts.",
+     "Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     1200,
+     1200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mombasa Old Town",
+    "kind": "see",
+    "id": "mom-oldtown",
+    "at": [
+     -4.06,
+     39.677
+    ],
+    "wiki": "Mombasa Old Town",
+    "area": "Old Town",
+    "summary": "Swahili lanes, carved doors and mosques.",
+    "expect": "Free.",
+    "tip": "Take a guide.",
+    "why": "Living history.",
+    "flow": [
+     "Carved doors.",
+     "Old port."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Diani Beach",
+    "kind": "see",
+    "id": "mom-diani",
+    "at": [
+     -4.318,
+     39.576
+    ],
+    "wiki": "Diani Beach",
+    "area": "Diani",
+    "summary": "Long white beach with kitesurfing and colobus monkeys.",
+    "expect": "Free.",
+    "tip": "Stay a few nights.",
+    "why": "Kenya's best beach.",
+    "flow": [
+     "Beach.",
+     "Colobus Conservation."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kisite-Mpunguti Marine Park",
+    "kind": "see",
+    "id": "mom-kisite",
+    "at": [
+     -4.664,
+     39.383
+    ],
+    "wiki": "Kisite-Mpunguti Marine National Park",
+    "area": "Shimoni",
+    "summary": "Dhow trip with dolphins and snorkelling.",
+    "expect": "Full day.",
+    "tip": "Book a Wasini dhow tour.",
+    "why": "Marine life.",
+    "flow": [
+     "Dolphins.",
+     "Wasini lunch."
+    ],
+    "hours": 8,
+    "price": [
+     3000,
+     9000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Haller Park",
+    "kind": "see",
+    "id": "mom-haller",
+    "at": [
+     -4.004,
+     39.727
+    ],
+    "wiki": "Haller Park",
+    "area": "Bamburi",
+    "summary": "Restored quarry with giraffes and tortoises.",
+    "expect": "Paid.",
+    "tip": "Feeding time.",
+    "why": "Eco success.",
+    "flow": [
+     "Giraffes.",
+     "Tortoises."
+    ],
+    "hours": 2,
+    "price": [
+     1000,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Shimba Hills",
+    "kind": "see",
+    "id": "mom-shimba",
+    "at": [
+     -4.25,
+     39.4
+    ],
+    "wiki": "Shimba Hills National Reserve",
+    "area": "Shimba Hills",
+    "summary": "Coastal forest reserve with sable antelope and waterfalls.",
+    "expect": "Half day.",
+    "tip": "Sheldrick Falls hike.",
+    "why": "Coastal safari.",
+    "flow": [
+     "Game drive.",
+     "Falls."
+    ],
+    "hours": 5,
+    "price": [
+     3500,
+     5000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Swahili biryani",
+    "kind": "eat",
+    "id": "mom-biryani",
+    "at": [
+     -4.061,
+     39.676
+    ],
+    "wiki": "Swahili cuisine",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Spiced rice and meat in the coastal style.",
+    "expect": "Lunch.",
+    "tip": "Try Jahazi or a local café.",
+    "why": "Coastal flavour.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     400,
+     900
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swahili",
+    "order": [
+     "Biryani",
+     "Pilau"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Old Town street food",
+    "kind": "eat",
+    "id": "mom-street",
+    "at": [
+     -4.062,
+     39.678
+    ],
+    "wiki": "Mahamri",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Mahamri, viazi karai and mishkaki at dusk.",
+    "expect": "Evenings.",
+    "tip": "Follow the crowds.",
+    "why": "Snack heaven.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     400
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swahili",
+    "order": [
+     "Mahamri",
+     "Viazi karai"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Seafood by the creek",
+    "kind": "eat",
+    "id": "mom-seafood",
+    "at": [
+     -4.045,
+     39.685
+    ],
+    "wiki": "Tudor Creek",
+    "area": "Nyali",
+    "venue": "food-area",
+    "summary": "Grilled lobster and fish over the water.",
+    "expect": "Dinner.",
+    "tip": "Book a creek-side table.",
+    "why": "Ocean fresh.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     2000,
+     6000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Grilled lobster",
+     "Prawns"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Ghana",
+  "region": "Africa",
+  "currency": "USD",
+  "cashTip": "Prices are shown in US dollars; locally you pay in Ghana cedis (GHS). Mobile money and cards work in bigger places; carry cedis for markets, tro-tros and tips.",
+  "dailyBudget": [
+   60,
+   180
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "accra",
+  "name": "Accra",
+  "at": [
+   5.6037,
+   -0.187
+  ],
+  "wiki": "Accra",
+  "cover": "Accra Independence Square Black Star Gate",
+  "seasons": "HHSSLLLLSSHH",
+  "tagline": "West Africa's buzzing capital of history, art and jollof",
+  "summary": "Accra is Ghana's lively capital and an easy start to West Africa. See the Kwame Nkrumah Memorial, walk old Jamestown and its lighthouse, browse Makola Market and galleries, eat jollof and kelewele, and travel to Cape Coast Castle, a sobering monument to the slave trade.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   7,
+   8
+  ],
+  "seasonNote": "November to March is dry but dusty with Harmattan; the main rains are April to June.",
+  "arrival": "Kotoka International Airport is 20 minutes from Osu.",
+  "gettingAround": "Uber and Bolt are easiest; tro-tros are local minibuses.",
+  "foodTip": "Jollof rice, waakye, kelewele and red-red.",
+  "buyTip": "Kente cloth, beads and contemporary art.",
+  "baseArea": "Osu, Airport Residential or Labone",
+  "hotel": [
+   80,
+   250
+  ],
+  "connections": [
+   {
+    "to": "lagos",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Frequent flights."
+   },
+   {
+    "to": "dakar",
+    "mode": "Flight",
+    "minutes": 180,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Kwame Nkrumah Memorial Park",
+    "kind": "see",
+    "id": "acc-nkrumah",
+    "at": [
+     5.545,
+     -0.204
+    ],
+    "wiki": "Kwame Nkrumah Mausoleum",
+    "area": "Central",
+    "summary": "Mausoleum and museum of Ghana's first president.",
+    "expect": "Paid.",
+    "tip": "Guided visit.",
+    "why": "Independence story.",
+    "flow": [
+     "Mausoleum.",
+     "Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Jamestown and the lighthouse",
+    "kind": "see",
+    "id": "acc-jamestown",
+    "at": [
+     5.534,
+     -0.213
+    ],
+    "wiki": "Jamestown, Accra",
+    "area": "Jamestown",
+    "summary": "Old fishing quarter with a lighthouse and murals.",
+    "expect": "Free; tip guides.",
+    "tip": "Climb the lighthouse.",
+    "why": "Old Accra.",
+    "flow": [
+     "Lighthouse.",
+     "Boats."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint",
+     "Art"
+    ]
+   },
+   {
+    "name": "Makola Market",
+    "kind": "see",
+    "id": "acc-makola",
+    "at": [
+     5.548,
+     -0.209
+    ],
+    "wiki": "Makola Market",
+    "area": "Central",
+    "summary": "Huge, chaotic market of fabrics and food.",
+    "expect": "Busy.",
+    "tip": "Go with a local.",
+    "why": "Commercial heart.",
+    "flow": [
+     "Fabric lanes.",
+     "Food stalls."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Cape Coast Castle",
+    "kind": "see",
+    "id": "acc-capecoast",
+    "at": [
+     5.103,
+     -1.242
+    ],
+    "wiki": "Cape Coast Castle",
+    "area": "Day trip",
+    "summary": "Slave-trade fort with the Door of No Return.",
+    "expect": "Long day.",
+    "tip": "Add Kakum canopy walk.",
+    "why": "Essential history.",
+    "flow": [
+     "Dungeons.",
+     "Kakum."
+    ],
+    "hours": 10,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Aburi Botanical Gardens",
+    "kind": "see",
+    "id": "acc-aburi",
+    "at": [
+     5.847,
+     -0.176
+    ],
+    "wiki": "Aburi Botanical Gardens",
+    "area": "Aburi",
+    "summary": "Cool hill gardens with craft village.",
+    "expect": "Small fee.",
+    "tip": "Visit Aburi crafts.",
+    "why": "Green escape.",
+    "flow": [
+     "Gardens.",
+     "Carvers."
+    ],
+    "hours": 3,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Labadi Beach",
+    "kind": "see",
+    "id": "acc-labadi",
+    "at": [
+     5.56,
+     -0.145
+    ],
+    "wiki": "Labadi Beach",
+    "area": "La",
+    "summary": "Busy weekend beach with music and horses.",
+    "expect": "Small fee.",
+    "tip": "Sunday afternoons.",
+    "why": "Weekend vibe.",
+    "flow": [
+     "Beach.",
+     "Music."
+    ],
+    "hours": 2,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Jollof rice",
+    "kind": "eat",
+    "id": "acc-jollof",
+    "at": [
+     5.557,
+     -0.182
+    ],
+    "wiki": "Jollof rice",
+    "area": "Osu",
+    "venue": "food-area",
+    "summary": "Spiced tomato rice with chicken.",
+    "expect": "Everywhere.",
+    "tip": "Ask for shito pepper sauce.",
+    "why": "Ghana pride.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     10
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ghanaian",
+    "order": [
+     "Jollof with chicken"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Waakye",
+    "kind": "eat",
+    "id": "acc-waakye",
+    "at": [
+     5.56,
+     -0.19
+    ],
+    "wiki": "Waakye",
+    "area": "Osu",
+    "venue": "food-area",
+    "summary": "Rice and beans with toppings.",
+    "expect": "Breakfast.",
+    "tip": "Roadside stalls.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ghanaian",
+    "order": [
+     "Waakye"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Kelewele",
+    "kind": "eat",
+    "id": "acc-kelewele",
+    "at": [
+     5.556,
+     -0.181
+    ],
+    "wiki": "Kelewele",
+    "area": "Oxford Street",
+    "venue": "food-area",
+    "summary": "Spiced fried plantain.",
+    "expect": "Evenings.",
+    "tip": "Eat with peanuts.",
+    "why": "Street snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ghanaian",
+    "order": [
+     "Kelewele"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Senegal",
+  "region": "Africa",
+  "currency": "EUR",
+  "cashTip": "Prices are shown in euros; locally you pay in West African CFA francs (XOF), pegged at 656 XOF to 1 euro. Carry cash for taxis, markets and the Gorée ferry.",
+  "dailyBudget": [
+   60,
+   180
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "dakar",
+  "name": "Dakar",
+  "at": [
+   14.6928,
+   -17.4467
+  ],
+  "wiki": "Dakar",
+  "cover": "Dakar African Renaissance Monument",
+  "seasons": "HHHHSLLLLSHH",
+  "tagline": "Atlantic capital of music, Gorée Island and thieboudienne",
+  "summary": "Dakar sits on Africa's westernmost tip, a vibrant city of music, art and surf. Take the ferry to historic Gorée Island, see the African Renaissance Monument, visit the pink Lac Rose, surf at Ngor and eat thieboudienne, Senegal's national fish and rice dish.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  "seasonNote": "November to May is dry and breezy; July to October is hot and rainy.",
+  "arrival": "Blaise Diagne Airport is about 45 minutes away by the toll road.",
+  "gettingAround": "Taxis (agree fares), Yango app and the TER train.",
+  "foodTip": "Thieboudienne, yassa chicken and grilled fish.",
+  "buyTip": "Fabrics, sand paintings and djembe drums.",
+  "baseArea": "Plateau, Almadies or Ngor",
+  "hotel": [
+   80,
+   250
+  ],
+  "connections": [
+   {
+    "to": "accra",
+    "mode": "Flight",
+    "minutes": 180,
+    "note": "Direct flights."
+   },
+   {
+    "to": "casablanca",
+    "mode": "Flight",
+    "minutes": 180,
+    "note": "Royal Air Maroc."
+   }
+  ],
+  "items": [
+   {
+    "name": "Gorée Island",
+    "kind": "see",
+    "id": "dak-goree",
+    "at": [
+     14.667,
+     -17.399
+    ],
+    "wiki": "Gorée",
+    "area": "Gorée",
+    "summary": "Car-free island and House of Slaves memorial.",
+    "expect": "Ferry 20 minutes.",
+    "tip": "Stay for lunch.",
+    "why": "UNESCO site.",
+    "flow": [
+     "House of Slaves.",
+     "Lanes."
+    ],
+    "hours": 4,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "African Renaissance Monument",
+    "kind": "see",
+    "id": "dak-renaissance",
+    "at": [
+     14.722,
+     -17.495
+    ],
+    "wiki": "African Renaissance Monument",
+    "area": "Ouakam",
+    "summary": "49 m statue on a hill with lift to the top.",
+    "expect": "Paid.",
+    "tip": "Sunset.",
+    "why": "Big symbol.",
+    "flow": [
+     "Statue.",
+     "Crown view."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     10
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Art"
+    ]
+   },
+   {
+    "name": "Lac Rose",
+    "kind": "see",
+    "id": "dak-lacrose",
+    "at": [
+     14.837,
+     -17.235
+    ],
+    "wiki": "Lake Retba",
+    "area": "Lac Rose",
+    "summary": "Pink lake where salt is harvested by hand.",
+    "expect": "Pinkest in dry season.",
+    "tip": "Midday sun.",
+    "why": "Surreal colour.",
+    "flow": [
+     "Salt collectors.",
+     "Dunes."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Midday",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ngor Island",
+    "kind": "see",
+    "id": "dak-ngor",
+    "at": [
+     14.754,
+     -17.515
+    ],
+    "wiki": "Ngor Island",
+    "area": "Ngor",
+    "summary": "Tiny island with surf and beaches.",
+    "expect": "Pirogue boat.",
+    "tip": "Surf the right-hander.",
+    "why": "Surf spot.",
+    "flow": [
+     "Boat.",
+     "Surf."
+    ],
+    "hours": 3,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Museum of African Arts (IFAN)",
+    "kind": "see",
+    "id": "dak-ifan",
+    "at": [
+     14.667,
+     -17.434
+    ],
+    "wiki": "Théodore Monod African Art Museum",
+    "area": "Plateau",
+    "summary": "Masks and art from across West Africa.",
+    "expect": "Small fee.",
+    "tip": "Allow an hour.",
+    "why": "Cultural treasure.",
+    "flow": [
+     "Masks.",
+     "Textiles."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Sandaga and Kermel markets",
+    "kind": "see",
+    "id": "dak-sandaga",
+    "at": [
+     14.673,
+     -17.437
+    ],
+    "wiki": "Kermel Market",
+    "area": "Plateau",
+    "summary": "Lively markets of fabrics and food.",
+    "expect": "Busy.",
+    "tip": "Bargain politely.",
+    "why": "Local life.",
+    "flow": [
+     "Fabrics.",
+     "Spices."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Thieboudienne",
+    "kind": "eat",
+    "id": "dak-thieb",
+    "at": [
+     14.693,
+     -17.447
+    ],
+    "wiki": "Thieboudienne",
+    "area": "Plateau",
+    "venue": "food-area",
+    "summary": "Fish, rice and vegetables in tomato sauce.",
+    "expect": "Lunch.",
+    "tip": "Eat from the shared bowl.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     8
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Senegalese",
+    "order": [
+     "Thieboudienne"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Yassa chicken",
+    "kind": "eat",
+    "id": "dak-yassa",
+    "at": [
+     14.69,
+     -17.445
+    ],
+    "wiki": "Yassa (food)",
+    "area": "Plateau",
+    "venue": "food-area",
+    "summary": "Lemon-onion marinated chicken.",
+    "expect": "Restaurants.",
+    "tip": "With rice.",
+    "why": "Tangy classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     10
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Senegalese",
+    "order": [
+     "Poulet yassa"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Soumbédioune grilled fish",
+    "kind": "eat",
+    "id": "dak-fish",
+    "at": [
+     14.681,
+     -17.462
+    ],
+    "wiki": "Soumbédioune",
+    "area": "Soumbédioune",
+    "venue": "food-area",
+    "summary": "Fish market where boats land at dusk.",
+    "expect": "Evenings.",
+    "tip": "Choose your fish to grill.",
+    "why": "Fresh catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Grilled fish"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Namibia",
+  "region": "Africa",
+  "currency": "NAD",
+  "cashTip": "The Namibian dollar is pegged 1:1 to the rand, and rand is accepted. Fill up with fuel and cash in towns; lodges take cards.",
+  "dailyBudget": [
+   1500,
+   5000
+  ],
+  "cashPerDay": [
+   200,
+   500
+  ],
+  "id": "windhoek",
+  "name": "Windhoek",
+  "at": [
+   -22.5609,
+   17.0658
+  ],
+  "wiki": "Windhoek",
+  "cover": "Windhoek Christuskirche",
+  "seasons": "SSSHHHHHHSSS",
+  "tagline": "Highland capital and gateway to Namibia's wild",
+  "summary": "Windhoek is Namibia's small, orderly capital, where most road trips to Etosha and the desert begin. See the Christuskirche and Independence Memorial Museum, eat game meat at Joe's Beerhouse, try kapana grilled beef in Katutura and walk among zebra at Daan Viljoen.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Dry winter (May to October) is ideal; summer brings afternoon storms.",
+  "arrival": "Hosea Kutako International is 45 minutes east of the city.",
+  "gettingAround": "Taxis in town; hire a 4x4 for the country.",
+  "foodTip": "Game meat, kapana and German-style bakeries.",
+  "buyTip": "Crafts, Swakara wool and Namibian gemstones.",
+  "baseArea": "Central or Klein Windhoek",
+  "hotel": [
+   1200,
+   3500
+  ],
+  "connections": [
+   {
+    "to": "sossusvlei",
+    "mode": "Car",
+    "minutes": 300,
+    "note": "Gravel roads."
+   },
+   {
+    "to": "cape-town",
+    "mode": "Flight",
+    "minutes": 120,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Christuskirche",
+    "kind": "see",
+    "id": "wdh-christus",
+    "at": [
+     -22.566,
+     17.088
+    ],
+    "wiki": "Christ Church, Windhoek",
+    "area": "Central",
+    "summary": "German colonial church on a hill.",
+    "expect": "Small fee inside.",
+    "tip": "Combine with the museum.",
+    "why": "City landmark.",
+    "flow": [
+     "Church.",
+     "Parliament Gardens."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Independence Memorial Museum",
+    "kind": "see",
+    "id": "wdh-museum",
+    "at": [
+     -22.567,
+     17.087
+    ],
+    "wiki": "Independence Memorial Museum",
+    "area": "Central",
+    "summary": "Namibia's liberation story with a rooftop café.",
+    "expect": "Free.",
+    "tip": "Go up for the view.",
+    "why": "Modern history.",
+    "flow": [
+     "Galleries.",
+     "Rooftop."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Daan Viljoen Game Reserve",
+    "kind": "see",
+    "id": "wdh-daan",
+    "at": [
+     -22.539,
+     16.955
+    ],
+    "wiki": "Daan Viljoen Game Park",
+    "area": "West",
+    "summary": "Hiking among zebra, kudu and wildebeest.",
+    "expect": "Small fee.",
+    "tip": "Morning hike.",
+    "why": "Easy wildlife.",
+    "flow": [
+     "Trail.",
+     "Dam."
+    ],
+    "hours": 3,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Katutura township tour",
+    "kind": "see",
+    "id": "wdh-katutura",
+    "at": [
+     -22.518,
+     17.048
+    ],
+    "wiki": "Katutura",
+    "area": "Katutura",
+    "summary": "Guided visit to markets and community projects.",
+    "expect": "Go with a guide.",
+    "tip": "Bike tours available.",
+    "why": "Real Windhoek.",
+    "flow": [
+     "Single Quarters Market.",
+     "Community."
+    ],
+    "hours": 3,
+    "price": [
+     400,
+     700
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Namibia Craft Centre",
+    "kind": "see",
+    "id": "wdh-craft",
+    "at": [
+     -22.57,
+     17.083
+    ],
+    "wiki": "Windhoek",
+    "area": "Central",
+    "summary": "Crafts from across the country.",
+    "expect": "Free.",
+    "tip": "Café upstairs.",
+    "why": "Good shopping.",
+    "flow": [
+     "Crafts.",
+     "Café."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Art"
+    ]
+   },
+   {
+    "name": "Heroes' Acre",
+    "kind": "see",
+    "id": "wdh-heroes",
+    "at": [
+     -22.663,
+     17.045
+    ],
+    "wiki": "Heroes' Acre (Namibia)",
+    "area": "South",
+    "summary": "National war memorial with views.",
+    "expect": "Small fee.",
+    "tip": "Morning.",
+    "why": "Monumental.",
+    "flow": [
+     "Memorial.",
+     "Views."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Joe's Beerhouse",
+    "kind": "eat",
+    "id": "wdh-joes",
+    "at": [
+     -22.55,
+     17.09
+    ],
+    "wiki": "Joe's Beerhouse",
+    "area": "Klein Windhoek",
+    "venue": "food-area",
+    "summary": "Quirky beer hall serving game meat.",
+    "expect": "Book.",
+    "tip": "Try the bushman sosatie.",
+    "why": "Namibian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Namibian",
+    "order": [
+     "Game sosatie",
+     "Oryx steak"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Kapana",
+    "kind": "eat",
+    "id": "wdh-kapana",
+    "at": [
+     -22.518,
+     17.048
+    ],
+    "wiki": "Kapana (food)",
+    "area": "Katutura",
+    "venue": "food-area",
+    "summary": "Street-grilled beef with chilli salt.",
+    "expect": "Afternoons.",
+    "tip": "Single Quarters Market.",
+    "why": "Street icon.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Namibian",
+    "order": [
+     "Kapana"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "German bakery and café",
+    "kind": "eat",
+    "id": "wdh-bakery",
+    "at": [
+     -22.568,
+     17.084
+    ],
+    "wiki": "Windhoek",
+    "area": "Central",
+    "venue": "food-area",
+    "summary": "Apfelstrudel and coffee in colonial style.",
+    "expect": "Daytime.",
+    "tip": "Try Schwarzwälder.",
+    "why": "German legacy.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Apfelstrudel"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
