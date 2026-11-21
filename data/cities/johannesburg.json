@@ -76,8 +76,8 @@
       "id": "johannesburg-jnb-apartheid",
       "name": "Apartheid Museum",
       "kind": "see",
-      "lat": -26.237,
-      "lon": 28.008,
+      "lat": -26.2376,
+      "lon": 28.009,
       "wiki": "Apartheid Museum",
       "summary": "Powerful museum of segregation and the struggle for freedom.",
       "expect": "Allow 3 hours.",
@@ -117,14 +117,22 @@
         "Allow 3 hours.",
         "Go early; it is emotionally heavy."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7741,
+          "period": "202511-202610",
+          "title": "Apartheid Museum",
+          "url": "https://en.wikipedia.org/wiki/Apartheid_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "johannesburg-jnb-soweto",
       "name": "Soweto and Mandela House",
       "kind": "see",
-      "lat": -26.238,
-      "lon": 27.908,
+      "lat": -26.23854,
+      "lon": 27.90877,
       "wiki": "Mandela House",
       "summary": "Vilakazi Street, home to two Nobel laureates, and the Hector Pieterson Memorial.",
       "expect": "Guided tours recommended.",
@@ -164,14 +172,22 @@
         "Guided tours recommended.",
         "Cycle Soweto with a local guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7404,
+          "period": "202511-202610",
+          "title": "Mandela House",
+          "url": "https://en.wikipedia.org/wiki/Mandela_House",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "johannesburg-jnb-conhill",
       "name": "Constitution Hill",
       "kind": "see",
-      "lat": -26.189,
-      "lon": 28.043,
+      "lat": -26.18861,
+      "lon": 28.04278,
       "wiki": "Constitution Hill, Johannesburg",
       "summary": "Former prison where Gandhi and Mandela were held, now the Constitutional Court.",
       "expect": "Guided tours.",
@@ -212,14 +228,22 @@
         "Guided tours.",
         "See the court's art collection."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8544,
+          "period": "202511-202610",
+          "title": "Constitution Hill, Johannesburg",
+          "url": "https://en.wikipedia.org/wiki/Constitution_Hill%2C_Johannesburg",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "johannesburg-jnb-maboneng",
       "name": "Maboneng Precinct",
       "kind": "see",
-      "lat": -26.204,
-      "lon": 28.058,
+      "lat": -26.20358,
+      "lon": 28.05995,
       "wiki": "Maboneng",
       "summary": "Revitalised district of murals, galleries and rooftop bars.",
       "expect": "Go with a guide or by day.",
@@ -258,8 +282,7 @@
       "tradeoffs": [
         "Go with a guide or by day.",
         "Sunday market at Arts on Main."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "johannesburg-jnb-cradle",
@@ -307,14 +330,23 @@
         "Book the cave tour."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 103354,
+          "period": "202511-202610",
+          "title": "Cradle of Humankind",
+          "url": "https://en.wikipedia.org/wiki/Cradle_of_Humankind",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "johannesburg-jnb-pilanesberg",
       "name": "Pilanesberg National Park",
       "kind": "see",
-      "lat": -25.25,
-      "lon": 27.09,
+      "lat": -25.26111,
+      "lon": 27.10083,
       "wiki": "Pilanesberg National Park",
       "summary": "Big Five reserve in an ancient volcanic crater, malaria-free.",
       "expect": "2.5 hours' drive.",
@@ -354,8 +386,16 @@
         "2.5 hours' drive.",
         "Self-drive or join a game drive."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12000,
+          "period": "202511-202610",
+          "title": "Pilanesberg National Park",
+          "url": "https://en.wikipedia.org/wiki/Pilanesberg_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "johannesburg-jnb-braai",
@@ -419,8 +459,8 @@
       "id": "johannesburg-jnb-neighbourgoods",
       "name": "Neighbourgoods Market",
       "kind": "eat",
-      "lat": -26.193,
-      "lon": 28.034,
+      "lat": -26.19111,
+      "lon": 28.03778,
       "wiki": "Braamfontein",
       "summary": "Saturday market with street food and craft beer.",
       "expect": "Saturday mornings.",
@@ -459,7 +499,6 @@
         "Saturday mornings.",
         "Go early."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -529,5 +568,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -71,8 +71,8 @@
       "id": "addis-ababa-add-museum",
       "name": "National Museum and Lucy",
       "kind": "see",
-      "lat": 9.039,
-      "lon": 38.762,
+      "lat": 9.03833,
+      "lon": 38.76194,
       "wiki": "National Museum of Ethiopia",
       "summary": "Home of Lucy and Selam, early human fossils.",
       "expect": "Cheap entry.",
@@ -111,14 +111,22 @@
         "Cheap entry.",
         "Allow time for the art floors."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8312,
+          "period": "202511-202610",
+          "title": "National Museum of Ethiopia",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Ethiopia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "addis-ababa-add-holytrinity",
       "name": "Holy Trinity Cathedral",
       "kind": "see",
-      "lat": 9.03,
-      "lon": 38.766,
+      "lat": 9.0308,
+      "lon": 38.76656,
       "wiki": "Holy Trinity Cathedral (Addis Ababa)",
       "summary": "Ethiopian Orthodox cathedral with Haile Selassie's tomb.",
       "expect": "Small fee.",
@@ -158,14 +166,22 @@
         "Small fee.",
         "Cover shoulders and knees."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23047,
+          "period": "202511-202610",
+          "title": "Holy Trinity Cathedral, Addis Ababa",
+          "url": "https://en.wikipedia.org/wiki/Holy_Trinity_Cathedral%2C_Addis_Ababa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "addis-ababa-add-merkato",
       "name": "Merkato",
       "kind": "see",
-      "lat": 9.035,
-      "lon": 38.735,
+      "lat": 9.03056,
+      "lon": 38.73889,
       "wiki": "Merkato",
       "summary": "One of Africa's largest open-air markets.",
       "expect": "Watch your belongings.",
@@ -204,14 +220,22 @@
         "Watch your belongings.",
         "Go with a guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7012,
+          "period": "202511-202610",
+          "title": "Addis Mercato",
+          "url": "https://en.wikipedia.org/wiki/Addis_Mercato",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "addis-ababa-add-entoto",
       "name": "Entoto Hills",
       "kind": "see",
-      "lat": 9.088,
-      "lon": 38.76,
+      "lat": 9.11556,
+      "lon": 38.77222,
       "wiki": "Entoto",
       "summary": "Forested hills above the city with views and Menelik's church.",
       "expect": "Cool air.",
@@ -252,14 +276,22 @@
         "Cool air.",
         "Visit Entoto Park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9482,
+          "period": "202511-202610",
+          "title": "Mount Entoto",
+          "url": "https://en.wikipedia.org/wiki/Mount_Entoto",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "addis-ababa-add-ethnological",
       "name": "Ethnological Museum",
       "kind": "see",
-      "lat": 9.045,
-      "lon": 38.763,
+      "lat": 9.04672,
+      "lon": 38.75764,
       "wiki": "Ethnological Museum (Addis Ababa)",
       "summary": "In Haile Selassie's former palace on the university campus.",
       "expect": "Allow 2 hours.",
@@ -297,8 +329,7 @@
       "tradeoffs": [
         "Allow 2 hours.",
         "See his bedroom with bullet-marked mirror."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "addis-ababa-add-dance",
@@ -344,7 +375,16 @@
         "Evenings.",
         "Try Yod Abyssinia."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14650,
+          "period": "202511-202610",
+          "title": "Culture of Ethiopia",
+          "url": "https://en.wikipedia.org/wiki/Culture_of_Ethiopia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "addis-ababa-add-injera",
@@ -518,5 +558,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

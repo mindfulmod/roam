@@ -66,8 +66,8 @@
       "id": "kigali-kgl-memorial",
       "name": "Kigali Genocide Memorial",
       "kind": "see",
-      "lat": -1.931,
-      "lon": 30.061,
+      "lat": -1.93126,
+      "lon": 30.06015,
       "wiki": "Kigali Genocide Memorial",
       "summary": "Moving memorial and resting place of over 250,000 victims of 1994.",
       "expect": "Free; donation.",
@@ -107,14 +107,22 @@
         "Free; donation.",
         "Allow 2 hours and go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13396,
+          "period": "202511-202610",
+          "title": "Kigali Genocide Memorial",
+          "url": "https://en.wikipedia.org/wiki/Kigali_Genocide_Memorial",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kigali-kgl-gorillas",
       "name": "Volcanoes National Park gorilla trek",
       "kind": "see",
-      "lat": -1.48,
-      "lon": 29.53,
+      "lat": -1.4675,
+      "lon": 29.4925,
       "wiki": "Volcanoes National Park",
       "summary": "Trek through bamboo forest to spend an hour with mountain gorillas.",
       "expect": "Permits cost US$1,500; book months ahead.",
@@ -155,15 +163,23 @@
         "Permits cost US$1,500; book months ahead.",
         "Hire a porter."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 20554,
+          "period": "202511-202610",
+          "title": "Volcanoes National Park",
+          "url": "https://en.wikipedia.org/wiki/Volcanoes_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kigali-kgl-inema",
       "name": "Inema Arts Center",
       "kind": "see",
-      "lat": -1.942,
-      "lon": 30.089,
+      "lat": -1.94429,
+      "lon": 30.09083,
       "wiki": "Kigali",
       "summary": "Contemporary Rwandan art gallery.",
       "expect": "Free.",
@@ -202,14 +218,22 @@
         "Free.",
         "Meet the artists."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 207075,
+          "period": "202511-202610",
+          "title": "Kigali",
+          "url": "https://en.wikipedia.org/wiki/Kigali",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kigali-kgl-kimironko",
       "name": "Kimironko Market",
       "kind": "see",
-      "lat": -1.949,
-      "lon": 30.127,
+      "lat": -1.94977,
+      "lon": 30.12629,
       "wiki": "Kigali",
       "summary": "Busy market with produce and kitenge fabric.",
       "expect": "Free.",
@@ -248,14 +272,22 @@
         "Free.",
         "Get something tailored."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 207075,
+          "period": "202511-202610",
+          "title": "Kigali",
+          "url": "https://en.wikipedia.org/wiki/Kigali",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kigali-kgl-nyamirambo",
       "name": "Nyamirambo walking tour",
       "kind": "see",
-      "lat": -1.978,
-      "lon": 30.045,
+      "lat": -1.99361,
+      "lon": 30.04417,
       "wiki": "Nyamirambo",
       "summary": "Women-led tour of Kigali's most vibrant neighbourhood.",
       "expect": "Guided.",
@@ -295,14 +327,22 @@
         "Guided.",
         "Join the cooking class."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2248,
+          "period": "202511-202610",
+          "title": "Nyamirambo",
+          "url": "https://en.wikipedia.org/wiki/Nyamirambo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kigali-kgl-akagera",
       "name": "Akagera National Park",
       "kind": "see",
-      "lat": -1.88,
-      "lon": 30.7,
+      "lat": -1.63333,
+      "lon": 30.78333,
       "wiki": "Akagera National Park",
       "summary": "Big Five savanna park with lakes, 2.5 hours from Kigali.",
       "expect": "Day or overnight.",
@@ -341,8 +381,16 @@
         "Day or overnight.",
         "Take the boat on Lake Ihema."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8313,
+          "period": "202511-202610",
+          "title": "Akagera National Park",
+          "url": "https://en.wikipedia.org/wiki/Akagera_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kigali-kgl-brochettes",
@@ -516,5 +564,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

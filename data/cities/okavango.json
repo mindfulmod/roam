@@ -113,7 +113,16 @@
         "Day or overnight.",
         "Go with a licensed poler."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2454,
+          "period": "202511-202610",
+          "title": "Mokoro",
+          "url": "https://en.wikipedia.org/wiki/Mokoro",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okavango-oka-flight",
@@ -160,14 +169,23 @@
         "45 minutes.",
         "Take the doors-off helicopter."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 122489,
+          "period": "202511-202610",
+          "title": "Okavango Delta",
+          "url": "https://en.wikipedia.org/wiki/Okavango_Delta",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okavango-oka-moremi",
       "name": "Moremi Game Reserve",
       "kind": "see",
-      "lat": -19.3,
-      "lon": 23.4,
+      "lat": -19.16667,
+      "lon": 23.16667,
       "wiki": "Moremi Game Reserve",
       "summary": "Big Five reserve on the eastern delta.",
       "expect": "Game drives.",
@@ -206,8 +224,16 @@
         "Game drives.",
         "Book a guided drive."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7670,
+          "period": "202511-202610",
+          "title": "Moremi Game Reserve",
+          "url": "https://en.wikipedia.org/wiki/Moremi_Game_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okavango-oka-chobe",
@@ -254,14 +280,23 @@
         "Take a river cruise at sunset."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22347,
+          "period": "202511-202610",
+          "title": "Chobe National Park",
+          "url": "https://en.wikipedia.org/wiki/Chobe_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okavango-oka-nxai",
       "name": "Makgadikgadi Pans",
       "kind": "see",
-      "lat": -20.7,
-      "lon": 25.4,
+      "lat": -20.8,
+      "lon": 25.33333,
       "wiki": "Makgadikgadi Pan",
       "summary": "Salt pans with meerkats and zebra migration.",
       "expect": "Overnight trip.",
@@ -301,8 +336,16 @@
         "Overnight trip.",
         "Sleep out on the pans."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 32243,
+          "period": "202511-202610",
+          "title": "Makgadikgadi Pan",
+          "url": "https://en.wikipedia.org/wiki/Makgadikgadi_Pan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "okavango-oka-maun",
@@ -522,5 +565,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

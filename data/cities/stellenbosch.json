@@ -107,14 +107,23 @@
         "Free.",
         "Visit the Village Museum."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 101937,
+          "period": "202511-202610",
+          "title": "Stellenbosch",
+          "url": "https://en.wikipedia.org/wiki/Stellenbosch",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "stellenbosch-stb-tram",
       "name": "Franschhoek Wine Tram",
       "kind": "see",
-      "lat": -33.912,
-      "lon": 19.12,
+      "lat": -33.91667,
+      "lon": 19.13333,
       "wiki": "Franschhoek",
       "summary": "Hop-on hop-off tram and bus between wine estates.",
       "expect": "Book ahead.",
@@ -153,7 +162,15 @@
         "Book ahead.",
         "Pick one line and four stops."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 47599,
+          "period": "202511-202610",
+          "title": "Franschhoek",
+          "url": "https://en.wikipedia.org/wiki/Franschhoek",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "stellenbosch-stb-delaire",
@@ -206,8 +223,8 @@
       "id": "stellenbosch-stb-spier",
       "name": "Spier",
       "kind": "see",
-      "lat": -33.973,
-      "lon": 18.783,
+      "lat": -33.97306,
+      "lon": 18.78222,
       "wiki": "Spier Wine Farm",
       "summary": "Historic estate with art, Segway tours and picnics.",
       "expect": "Family friendly.",
@@ -248,7 +265,15 @@
         "Family friendly.",
         "Try a picnic."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 796,
+          "period": "202511-202610",
+          "title": "Spier estate",
+          "url": "https://en.wikipedia.org/wiki/Spier_estate",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "stellenbosch-stb-paarl",
@@ -301,8 +326,8 @@
       "id": "stellenbosch-stb-jonkershoek",
       "name": "Jonkershoek Nature Reserve",
       "kind": "see",
-      "lat": -33.984,
-      "lon": 18.955,
+      "lat": -33.96944,
+      "lon": 18.93611,
       "wiki": "Jonkershoek Nature Reserve",
       "summary": "Mountain trails and waterfalls just outside town.",
       "expect": "Small fee.",
@@ -342,7 +367,15 @@
         "Small fee.",
         "Hike the Panorama circuit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2129,
+          "period": "202511-202610",
+          "title": "Jonkershoek Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/Jonkershoek_Nature_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "stellenbosch-stb-pairing",
@@ -515,5 +548,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

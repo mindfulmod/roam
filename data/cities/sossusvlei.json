@@ -58,8 +58,8 @@
       "id": "sossusvlei-sos-dune45",
       "name": "Dune 45",
       "kind": "see",
-      "lat": -24.73,
-      "lon": 15.47,
+      "lat": -24.71667,
+      "lon": 15.46667,
       "wiki": "Dune 45",
       "summary": "Iconic star dune climbed for sunrise.",
       "expect": "Park fee.",
@@ -100,14 +100,22 @@
         "Park fee.",
         "Enter at gate opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6791,
+          "period": "202511-202610",
+          "title": "Dune 45",
+          "url": "https://en.wikipedia.org/wiki/Dune_45",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sossusvlei-sos-deadvlei",
       "name": "Deadvlei",
       "kind": "see",
-      "lat": -24.76,
-      "lon": 15.293,
+      "lat": -24.75972,
+      "lon": 15.29194,
       "wiki": "Deadvlei",
       "summary": "White clay pan of dead trees ringed by red dunes.",
       "expect": "Walk across sand.",
@@ -148,7 +156,15 @@
         "Walk across sand.",
         "Go early before the heat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37371,
+          "period": "202511-202610",
+          "title": "Deadvlei",
+          "url": "https://en.wikipedia.org/wiki/Deadvlei",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sossusvlei-sos-bigdaddy",
@@ -195,7 +211,16 @@
         "Tough climb.",
         "Carry plenty of water."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 26085,
+          "period": "202511-202610",
+          "title": "Sossusvlei",
+          "url": "https://en.wikipedia.org/wiki/Sossusvlei",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sossusvlei-sos-sesriem",
@@ -241,7 +266,16 @@
         "Short walk.",
         "Go late afternoon."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5516,
+          "period": "202511-202610",
+          "title": "Sesriem",
+          "url": "https://en.wikipedia.org/wiki/Sesriem",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sossusvlei-sos-stars",
@@ -287,7 +321,16 @@
         "Lodge activity.",
         "Book a telescope session."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1087,
+          "period": "202511-202610",
+          "title": "NamibRand Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/NamibRand_Nature_Reserve",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sossusvlei-sos-balloon",
@@ -335,7 +378,16 @@
         "Expensive.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 88588,
+          "period": "202511-202610",
+          "title": "Namib",
+          "url": "https://en.wikipedia.org/wiki/Namib",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sossusvlei-sos-picnic",
@@ -508,5 +560,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

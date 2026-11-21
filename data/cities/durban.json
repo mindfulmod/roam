@@ -112,14 +112,23 @@
         "Free.",
         "Hire a bike."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4287,
+          "period": "202511-202610",
+          "title": "Golden Mile, Durban",
+          "url": "https://en.wikipedia.org/wiki/Golden_Mile%2C_Durban",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "durban-dur-moses",
       "name": "Moses Mabhida Stadium",
       "kind": "see",
       "lat": -29.829,
-      "lon": 31.03,
+      "lon": 31.0303,
       "wiki": "Moses Mabhida Stadium",
       "summary": "World Cup stadium with an arch SkyCar and Big Swing.",
       "expect": "Tickets.",
@@ -159,14 +168,22 @@
         "Tickets.",
         "Take the SkyCar up the arch."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44616,
+          "period": "202511-202610",
+          "title": "Moses Mabhida Stadium",
+          "url": "https://en.wikipedia.org/wiki/Moses_Mabhida_Stadium",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "durban-dur-ushaka",
       "name": "uShaka Marine World",
       "kind": "see",
-      "lat": -29.868,
-      "lon": 31.045,
+      "lat": -29.86744,
+      "lon": 31.04592,
       "wiki": "uShaka Marine World",
       "summary": "Aquarium in a shipwreck plus water park.",
       "expect": "Full day.",
@@ -206,14 +223,22 @@
         "Full day.",
         "Combine Sea World and Wet 'n Wild."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11876,
+          "period": "202511-202610",
+          "title": "UShaka Marine World",
+          "url": "https://en.wikipedia.org/wiki/UShaka_Marine_World",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "durban-dur-victoria",
       "name": "Victoria Street Market",
       "kind": "see",
-      "lat": -29.857,
-      "lon": 31.011,
+      "lat": -29.8565,
+      "lon": 31.01466,
       "wiki": "Victoria Street Market",
       "summary": "Indian spice market with curry masala blends.",
       "expect": "Haggle gently.",
@@ -252,15 +277,14 @@
       "tradeoffs": [
         "Haggle gently.",
         "Try 'mother-in-law exterminator' masala."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "durban-dur-hills",
       "name": "Valley of a Thousand Hills",
       "kind": "see",
-      "lat": -29.75,
-      "lon": 30.7,
+      "lat": -29.7749,
+      "lon": 30.7105,
       "wiki": "Valley of a Thousand Hills",
       "summary": "Rolling Zulu heartland with cultural villages.",
       "expect": "Drive.",
@@ -300,7 +324,15 @@
         "Drive.",
         "Visit PheZulu cultural village."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3087,
+          "period": "202511-202610",
+          "title": "Valley of a Thousand Hills",
+          "url": "https://en.wikipedia.org/wiki/Valley_of_a_Thousand_Hills",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "durban-dur-drakensberg",
@@ -348,7 +380,16 @@
         "Hike to Tugela Falls."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 110845,
+          "period": "202511-202610",
+          "title": "Drakensberg",
+          "url": "https://en.wikipedia.org/wiki/Drakensberg",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "durban-dur-bunny",
@@ -521,5 +562,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
