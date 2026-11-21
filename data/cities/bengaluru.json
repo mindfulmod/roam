@@ -1,0 +1,525 @@
+{
+  "id": "bengaluru",
+  "name": "Bengaluru",
+  "country": "India",
+  "region": "Asia",
+  "lat": 12.9716,
+  "lon": 77.5946,
+  "wiki": "Bengaluru",
+  "tagline": "Garden city of tech, craft beer and dosa",
+  "summary": "Bengaluru is India's tech capital with a mild climate, leafy parks and a lively food and craft-beer scene. Wander Lalbagh's glasshouse, tour Bangalore Palace, see Tipu Sultan's summer palace, eat at legendary dosa houses, catch sunrise on Nandi Hills and day-trip to the dazzling Mysore Palace.",
+  "days": 2,
+  "bestMonths": [
+    10,
+    11,
+    12,
+    1,
+    2
+  ],
+  "seasonNote": "Pleasant all year thanks to altitude; October to February is the best.",
+  "arrival": "Kempegowda International is 45 to 90 minutes away by traffic.",
+  "gettingAround": "Metro and Uber; traffic is heavy.",
+  "cashTip": "Carry small rupee notes for rickshaws, street food and tips; UPI is everywhere but is difficult for visitors.",
+  "dailyBudget": [
+    2500,
+    6000
+  ],
+  "currency": "INR",
+  "cashPerDay": [
+    1000,
+    2500
+  ],
+  "foodTip": "Masala dosa, filter coffee, biryani and craft beer.",
+  "buyTip": "Mysore silk, sandalwood and Channapatna toys.",
+  "baseArea": "MG Road, Indiranagar or Basavanagudi",
+  "connections": [
+    {
+      "to": "goa",
+      "mode": "Flight",
+      "minutes": 75,
+      "note": "Daily flights."
+    },
+    {
+      "to": "chennai",
+      "mode": "Train",
+      "minutes": 300,
+      "note": "Fast trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bengaluru on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bengaluru",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Bengaluru%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Bengaluru%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Bangalore Palace",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "bengaluru-blr-lalbagh",
+      "name": "Lalbagh Botanical Garden",
+      "kind": "see",
+      "lat": 12.9507,
+      "lon": 77.5848,
+      "wiki": "Lal Bagh",
+      "summary": "Historic gardens with a Victorian glasshouse.",
+      "expect": "Small fee.",
+      "tip": "Early morning walkers.",
+      "area": "Lalbagh",
+      "duration": 2,
+      "price": [
+        30,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lalbagh%20Botanical%20Garden%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Lalbagh%20Botanical%20Garden%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lalbagh%20Botanical%20Garden%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Historic gardens with a Victorian glasshouse.",
+        "Garden city."
+      ],
+      "visitFlow": [
+        "Glasshouse.",
+        "Lalbagh Rock."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Small fee.",
+        "Early morning walkers."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bengaluru-blr-palace",
+      "name": "Bangalore Palace",
+      "kind": "see",
+      "lat": 12.9988,
+      "lon": 77.5921,
+      "wiki": "Bangalore Palace",
+      "summary": "Tudor-style royal palace.",
+      "expect": "Paid.",
+      "tip": "Audio guide.",
+      "area": "Vasanth Nagar",
+      "duration": 1.5,
+      "price": [
+        230,
+        500
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bangalore%20Palace%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Bangalore%20Palace%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bangalore%20Palace%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Tudor-style royal palace.",
+        "Royal quirk."
+      ],
+      "visitFlow": [
+        "Durbar hall.",
+        "Grounds."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Paid.",
+        "Audio guide."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bengaluru-blr-tipu",
+      "name": "Tipu Sultan's Summer Palace",
+      "kind": "see",
+      "lat": 12.9594,
+      "lon": 77.5737,
+      "wiki": "Tipu Sultan's Summer Palace",
+      "summary": "Teak palace of the Tiger of Mysore.",
+      "expect": "Small fee.",
+      "tip": "Combine with KR Market.",
+      "area": "Old city",
+      "duration": 1,
+      "price": [
+        25,
+        300
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tipu%20Sultan's%20Summer%20Palace%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Tipu%20Sultan's%20Summer%20Palace%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tipu%20Sultan's%20Summer%20Palace%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Teak palace of the Tiger of Mysore.",
+        "Mysore history."
+      ],
+      "visitFlow": [
+        "Palace.",
+        "KR Market."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Small fee.",
+        "Combine with KR Market."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bengaluru-blr-cubbon",
+      "name": "Cubbon Park",
+      "kind": "see",
+      "lat": 12.9763,
+      "lon": 77.5929,
+      "wiki": "Cubbon Park",
+      "summary": "Green lungs with colonial buildings around.",
+      "expect": "Free.",
+      "tip": "Sunday morning.",
+      "area": "Central",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cubbon%20Park%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Cubbon%20Park%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cubbon%20Park%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Green lungs with colonial buildings around.",
+        "Leafy escape."
+      ],
+      "visitFlow": [
+        "Vidhana Soudha.",
+        "Library."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Sunday morning."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bengaluru-blr-nandi",
+      "name": "Nandi Hills",
+      "kind": "see",
+      "lat": 13.3702,
+      "lon": 77.6835,
+      "wiki": "Nandi Hills",
+      "summary": "Hilltop sunrise above the clouds.",
+      "expect": "Leave by 4:30 am.",
+      "tip": "Weekdays are quieter.",
+      "area": "Day trip",
+      "duration": 4,
+      "price": [
+        20,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Nandi%20Hills%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Nandi%20Hills%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Nandi%20Hills%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Hilltop sunrise above the clouds.",
+        "Sunrise ritual."
+      ],
+      "visitFlow": [
+        "Sunrise.",
+        "Temple."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Leave by 4:30 am.",
+        "Weekdays are quieter."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bengaluru-blr-mysore",
+      "name": "Mysore Palace",
+      "kind": "see",
+      "lat": 12.3052,
+      "lon": 76.6552,
+      "wiki": "Mysore Palace",
+      "summary": "Lavish Indo-Saracenic palace lit by 100,000 bulbs on Sundays.",
+      "expect": "Long day.",
+      "tip": "Stay for the Sunday illumination.",
+      "area": "Day trip",
+      "duration": 10,
+      "price": [
+        100,
+        200
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mysore%20Palace%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Mysore%20Palace%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mysore%20Palace%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Lavish Indo-Saracenic palace lit by 100,000 bulbs on Sundays.",
+        "Royal splendour."
+      ],
+      "visitFlow": [
+        "Durbar hall.",
+        "Chamundi Hill."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Long day.",
+        "Stay for the Sunday illumination."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "bengaluru-blr-mtr",
+      "name": "MTR masala dosa",
+      "kind": "eat",
+      "lat": 12.955,
+      "lon": 77.585,
+      "wiki": "Mavalli Tiffin Rooms",
+      "summary": "1924 institution famous for dosa and rava idli.",
+      "expect": "Queues at breakfast.",
+      "tip": "Order rava idli too.",
+      "area": "Lalbagh",
+      "duration": 1,
+      "price": [
+        100,
+        250
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=MTR%20masala%20dosa%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=MTR%20masala%20dosa%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=MTR%20masala%20dosa%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "1924 institution famous for dosa and rava idli.",
+        "Bengaluru legend."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Queues at breakfast.",
+        "Order rava idli too."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "South Indian",
+      "mustOrder": [
+        "Masala dosa",
+        "Rava idli"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bengaluru-blr-vidyarthi",
+      "name": "Vidyarthi Bhavan dosa",
+      "kind": "eat",
+      "lat": 12.945,
+      "lon": 77.571,
+      "wiki": "Basavanagudi",
+      "summary": "Crispy butter dosa since 1943.",
+      "expect": "Mornings.",
+      "tip": "Share a table.",
+      "area": "Basavanagudi",
+      "duration": 0.5,
+      "price": [
+        80,
+        200
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Vidyarthi%20Bhavan%20dosa%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Vidyarthi%20Bhavan%20dosa%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Vidyarthi%20Bhavan%20dosa%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Crispy butter dosa since 1943.",
+        "Old Bengaluru."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Mornings.",
+        "Share a table."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "South Indian",
+      "mustOrder": [
+        "Benne dosa"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bengaluru-blr-beer",
+      "name": "Craft beer pubs",
+      "kind": "eat",
+      "lat": 12.979,
+      "lon": 77.64,
+      "wiki": "Bengaluru",
+      "summary": "India's craft beer capital.",
+      "expect": "Evenings.",
+      "tip": "Toit for brews.",
+      "area": "Indiranagar",
+      "duration": 2,
+      "price": [
+        400,
+        1000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Craft%20beer%20pubs%2C%20Bengaluru",
+        "https://www.google.com/maps/search/?api=1&query=Craft%20beer%20pubs%2C%20Bengaluru"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Craft%20beer%20pubs%2C%20Bengaluru"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "India's craft beer capital.",
+        "Pub city."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Toit for brews."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Pub",
+      "mustOrder": [
+        "Craft beer",
+        "Bar snacks"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
