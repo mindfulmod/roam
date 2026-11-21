@@ -1,0 +1,539 @@
+{
+  "id": "boracay",
+  "name": "Boracay",
+  "country": "Philippines",
+  "region": "Asia",
+  "lat": 11.9674,
+  "lon": 121.9248,
+  "wiki": "Boracay",
+  "tagline": "Powder-white sand and sunset sails",
+  "summary": "Boracay is a small island famous for White Beach, four kilometres of powder-fine sand. Sail on a paraw at sunset, island-hop to snorkelling spots, kitesurf at Bulabog Beach and climb Mount Luho for views.",
+  "days": 4,
+  "bestMonths": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "November to May is dry; the habagat monsoon brings rain and waves from June to October.",
+  "arrival": "Fly to Caticlan (closest) or Kalibo, then a short boat across.",
+  "gettingAround": "E-trikes and walking.",
+  "cashTip": "Carry pesos for tricycles, island fees and small eateries; resorts take cards.",
+  "dailyBudget": [
+    3000,
+    9000
+  ],
+  "currency": "PHP",
+  "cashPerDay": [
+    1000,
+    3000
+  ],
+  "foodTip": "Fresh seafood at D'Talipapa and chori burgers.",
+  "buyTip": "Shell crafts and dried mangoes.",
+  "baseArea": "Station 1 or Station 2",
+  "connections": [
+    {
+      "to": "manila",
+      "mode": "Flight",
+      "minutes": 70,
+      "note": "Flights to Caticlan."
+    },
+    {
+      "to": "cebu",
+      "mode": "Flight",
+      "minutes": 60,
+      "note": "Flights to Caticlan."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Boracay on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Boracay",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Boracay%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Boracay%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "White Beach Boracay",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "boracay-bor-white",
+      "name": "White Beach",
+      "kind": "see",
+      "lat": 11.96786,
+      "lon": 121.91993,
+      "wiki": "White Beach (Boracay)",
+      "summary": "4 km of fine white sand lined with bars.",
+      "expect": "Free.",
+      "tip": "Walk Station 1 for the best sand.",
+      "area": "West coast",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=White%20Beach%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=White%20Beach%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=White%20Beach%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "4 km of fine white sand lined with bars.",
+        "World-famous beach."
+      ],
+      "visitFlow": [
+        "Swim.",
+        "Beach walk."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Walk Station 1 for the best sand."
+      ]
+    },
+    {
+      "id": "boracay-bor-paraw",
+      "name": "Sunset paraw sailing",
+      "kind": "see",
+      "lat": 11.96,
+      "lon": 121.92,
+      "wiki": "Paraw",
+      "summary": "Traditional outrigger sails at sunset.",
+      "expect": "1 hour.",
+      "tip": "Agree a price first.",
+      "area": "White Beach",
+      "duration": 1,
+      "price": [
+        1500,
+        3000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sunset%20paraw%20sailing%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=Sunset%20paraw%20sailing%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sunset%20paraw%20sailing%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Traditional outrigger sails at sunset.",
+        "Iconic sunset."
+      ],
+      "visitFlow": [
+        "Board.",
+        "Sail at sunset."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "1 hour.",
+        "Agree a price first."
+      ],
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10073,
+          "period": "202511-202610",
+          "title": "Paraw",
+          "url": "https://en.wikipedia.org/wiki/Paraw",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "boracay-bor-islandhop",
+      "name": "Island hopping",
+      "kind": "see",
+      "lat": 11.98,
+      "lon": 121.91,
+      "wiki": "Boracay",
+      "summary": "Snorkel at Crystal Cove and Crocodile Island.",
+      "expect": "Half day.",
+      "tip": "Bring reef-safe sunscreen.",
+      "area": "Around the island",
+      "duration": 4,
+      "price": [
+        1500,
+        3000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Island%20hopping%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=Island%20hopping%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Island%20hopping%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Snorkel at Crystal Cove and Crocodile Island.",
+        "Island fun."
+      ],
+      "visitFlow": [
+        "Crystal Cove.",
+        "Snorkel."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Half day.",
+        "Bring reef-safe sunscreen."
+      ],
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 157207,
+          "period": "202511-202610",
+          "title": "Boracay",
+          "url": "https://en.wikipedia.org/wiki/Boracay",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "boracay-bor-puka",
+      "name": "Puka Shell Beach",
+      "kind": "see",
+      "lat": 12,
+      "lon": 121.92,
+      "wiki": "Puka Beach",
+      "summary": "Quieter beach with coarse shell sand.",
+      "expect": "E-trike ride.",
+      "tip": "Bring water.",
+      "area": "North",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Puka%20Shell%20Beach%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=Puka%20Shell%20Beach%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Puka%20Shell%20Beach%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Quieter beach with coarse shell sand.",
+        "Escape crowds."
+      ],
+      "visitFlow": [
+        "Beach.",
+        "Swim."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "E-trike ride.",
+        "Bring water."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boracay-bor-luho",
+      "name": "Mount Luho",
+      "kind": "see",
+      "lat": 11.98,
+      "lon": 121.933,
+      "wiki": "Mount Luho",
+      "summary": "Island's highest point with 360° views.",
+      "expect": "Small fee.",
+      "tip": "Go late afternoon.",
+      "area": "Central",
+      "duration": 1,
+      "price": [
+        100,
+        150
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mount%20Luho%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=Mount%20Luho%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mount%20Luho%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Island's highest point with 360° views.",
+        "Island panorama."
+      ],
+      "visitFlow": [
+        "Ride up.",
+        "Viewing deck."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Small fee.",
+        "Go late afternoon."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boracay-bor-bulabog",
+      "name": "Bulabog Beach kitesurfing",
+      "kind": "see",
+      "lat": 11.96,
+      "lon": 121.938,
+      "wiki": "Bulabog Beach",
+      "summary": "Asia's kitesurfing hotspot in the dry season.",
+      "expect": "Lessons.",
+      "tip": "Book a lesson in December to March.",
+      "area": "East coast",
+      "duration": 3,
+      "price": [
+        3000,
+        8000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bulabog%20Beach%20kitesurfing%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=Bulabog%20Beach%20kitesurfing%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bulabog%20Beach%20kitesurfing%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Asia's kitesurfing hotspot in the dry season.",
+        "Wind sports."
+      ],
+      "visitFlow": [
+        "Lesson.",
+        "Ride."
+      ],
+      "bestFor": "Visitors interested in active exploration",
+      "tradeoffs": [
+        "Lessons.",
+        "Book a lesson in December to March."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "boracay-bor-talipapa",
+      "name": "D'Talipapa seafood market",
+      "kind": "eat",
+      "lat": 11.957,
+      "lon": 121.926,
+      "wiki": "Boracay",
+      "summary": "Buy seafood and have it cooked next door.",
+      "expect": "Busy.",
+      "tip": "Haggle politely.",
+      "area": "Station 2",
+      "duration": 1.5,
+      "price": [
+        600,
+        1500
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=D'Talipapa%20seafood%20market%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=D'Talipapa%20seafood%20market%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=D'Talipapa%20seafood%20market%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Buy seafood and have it cooked next door.",
+        "Fresh feast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy.",
+        "Haggle politely."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Grilled prawns"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "boracay-bor-chori",
+      "name": "Chori burger",
+      "kind": "eat",
+      "lat": 11.96,
+      "lon": 121.925,
+      "wiki": "Boracay",
+      "summary": "Sweet chorizo patty burger, a Boracay snack.",
+      "expect": "Stalls.",
+      "tip": "Try Merly's.",
+      "area": "White Beach",
+      "duration": 0.5,
+      "price": [
+        100,
+        200
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chori%20burger%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=Chori%20burger%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chori%20burger%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Sweet chorizo patty burger, a Boracay snack.",
+        "Island classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Stalls.",
+        "Try Merly's."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Filipino",
+      "mustOrder": [
+        "Chori burger"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "boracay-bor-shake",
+      "name": "Mango shake",
+      "kind": "eat",
+      "lat": 11.958,
+      "lon": 121.925,
+      "wiki": "Mango",
+      "summary": "Fresh Philippine mango shakes.",
+      "expect": "Everywhere.",
+      "tip": "Try Jonah's.",
+      "area": "Station 2",
+      "duration": 0.5,
+      "price": [
+        100,
+        180
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mango%20shake%2C%20Boracay",
+        "https://www.google.com/maps/search/?api=1&query=Mango%20shake%2C%20Boracay"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mango%20shake%2C%20Boracay"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fresh Philippine mango shakes.",
+        "Sweet treat."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Try Jonah's."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Filipino",
+      "mustOrder": [
+        "Mango shake"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}

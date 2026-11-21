@@ -1,0 +1,2413 @@
+[
+ {
+  "country": "South Korea",
+  "region": "Asia",
+  "currency": "KRW",
+  "cashTip": "Cards and T-money transit cards work almost everywhere; carry a little cash for markets.",
+  "dailyBudget": [
+   90000,
+   250000
+  ],
+  "cashPerDay": [
+   10000,
+   30000
+  ],
+  "id": "gyeongju",
+  "name": "Gyeongju",
+  "at": [
+   35.8562,
+   129.2247
+  ],
+  "wiki": "Gyeongju",
+  "cover": "Bulguksa",
+  "seasons": "LLSHHSSSHHSL",
+  "tagline": "Korea's museum without walls",
+  "summary": "Gyeongju was the capital of the Silla kingdom for nearly a thousand years, and its royal tombs, temples and palace ponds earn it the name 'museum without walls'. See Bulguksa Temple and the Seokguram Grotto Buddha, walk among grassy tumuli, and watch Donggung Palace's pond glow at night.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "April cherry blossom and October autumn leaves are peak; summer is hot and humid.",
+  "arrival": "KTX to Singyeongju Station (2 hours from Seoul); 1 hour by bus from Busan.",
+  "gettingAround": "Rent a bike in town; buses 10 and 11 to Bulguksa.",
+  "foodTip": "Ssambap (leaf-wrapped rice) and Gyeongju bread.",
+  "buyTip": "Hwangnam-ppang (Gyeongju bread) to take home.",
+  "baseArea": "Near Hwangnidan-gil and the tombs",
+  "hotel": [
+   70000,
+   200000
+  ],
+  "connections": [
+   {
+    "to": "busan",
+    "mode": "Bus",
+    "minutes": 60,
+    "note": "Frequent buses."
+   },
+   {
+    "to": "seoul",
+    "mode": "Train",
+    "minutes": 130,
+    "note": "KTX to Singyeongju."
+   }
+  ],
+  "items": [
+   {
+    "name": "Bulguksa Temple",
+    "kind": "see",
+    "id": "gyj-bulguksa",
+    "at": [
+     35.79,
+     129.332
+    ],
+    "wiki": "Bulguksa",
+    "area": "Tohamsan",
+    "summary": "UNESCO temple with stone pagodas and bridges.",
+    "expect": "Allow 2 hours.",
+    "tip": "Go early on weekdays.",
+    "why": "Korea's masterpiece temple.",
+    "flow": [
+     "Stone bridges.",
+     "Dabotap pagoda.",
+     "Main hall."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     6000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Seokguram Grotto",
+    "kind": "see",
+    "id": "gyj-seokguram",
+    "at": [
+     35.795,
+     129.349
+    ],
+    "wiki": "Seokguram",
+    "area": "Tohamsan",
+    "summary": "Granite Buddha in a mountain grotto facing the sea.",
+    "expect": "Shuttle from Bulguksa.",
+    "tip": "Go at sunrise.",
+    "why": "Serene Buddha.",
+    "flow": [
+     "Shuttle.",
+     "Grotto."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     6000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Daereungwon Tomb Complex",
+    "kind": "see",
+    "id": "gyj-tumuli",
+    "at": [
+     35.838,
+     129.212
+    ],
+    "wiki": "Daereungwon",
+    "area": "Central",
+    "summary": "Grassy royal burial mounds, with one open tomb.",
+    "expect": "Small fee.",
+    "tip": "See Cheonmachong inside.",
+    "why": "Silla royalty.",
+    "flow": [
+     "Tumuli.",
+     "Cheonmachong."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     3000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Donggung Palace and Wolji Pond",
+    "kind": "see",
+    "id": "gyj-donggung",
+    "at": [
+     35.835,
+     129.226
+    ],
+    "wiki": "Donggung Palace and Wolji Pond",
+    "area": "Central",
+    "summary": "Reconstructed pavilions reflected in a pond, lit up at night.",
+    "expect": "Small fee.",
+    "tip": "Go after dark.",
+    "why": "Magical reflections.",
+    "flow": [
+     "Pavilions.",
+     "Night lights."
+    ],
+    "hours": 1,
+    "price": [
+     3000,
+     3000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Cheomseongdae Observatory",
+    "kind": "see",
+    "id": "gyj-cheomseongdae",
+    "at": [
+     35.8347,
+     129.219
+    ],
+    "wiki": "Cheomseongdae",
+    "area": "Central",
+    "summary": "Asia's oldest surviving astronomical observatory.",
+    "expect": "Free.",
+    "tip": "Cycle the flower fields nearby.",
+    "why": "Ancient science.",
+    "flow": [
+     "Tower.",
+     "Flower fields."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Gyeongju National Museum",
+    "kind": "see",
+    "id": "gyj-museum",
+    "at": [
+     35.829,
+     129.228
+    ],
+    "wiki": "Gyeongju National Museum",
+    "area": "Central",
+    "summary": "Silla gold crowns and the Emille Bell.",
+    "expect": "Free.",
+    "tip": "Allow 2 hours.",
+    "why": "Golden treasures.",
+    "flow": [
+     "Gold crowns.",
+     "Divine Bell."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Ssambap",
+    "kind": "eat",
+    "id": "gyj-ssambap",
+    "at": [
+     35.836,
+     129.215
+    ],
+    "wiki": "Ssam (food)",
+    "area": "Central",
+    "venue": "food-area",
+    "summary": "Rice with a spread of leaves and side dishes.",
+    "expect": "Ssambap street near the tombs.",
+    "tip": "Order for two.",
+    "why": "Local specialty.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12000,
+     18000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Korean",
+    "order": [
+     "Ssambap"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Gyeongju bread",
+    "kind": "eat",
+    "id": "gyj-bread",
+    "at": [
+     35.838,
+     129.214
+    ],
+    "wiki": "Gyeongju bread",
+    "area": "Central",
+    "venue": "food-area",
+    "summary": "Red bean pastry baked since 1939.",
+    "expect": "Bakeries.",
+    "tip": "Buy a box warm.",
+    "why": "Sweet souvenir.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8000,
+     15000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Korean",
+    "order": [
+     "Hwangnam-ppang"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Hwangnidan-gil cafés",
+    "kind": "eat",
+    "id": "gyj-hwangni",
+    "at": [
+     35.837,
+     129.211
+    ],
+    "wiki": "Gyeongju",
+    "area": "Hwangnidan-gil",
+    "venue": "food-area",
+    "summary": "Hanok cafés and bars on a trendy street.",
+    "expect": "Evening.",
+    "tip": "Try a hanok rooftop café.",
+    "why": "Modern meets old.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     6000,
+     15000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Korean",
+    "order": [
+     "Coffee",
+     "Makgeolli"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Taiwan",
+  "region": "Asia",
+  "currency": "TWD",
+  "cashTip": "Night markets and small shops are cash-only; an EasyCard covers transit and convenience stores.",
+  "dailyBudget": [
+   2500,
+   6000
+  ],
+  "cashPerDay": [
+   800,
+   2000
+  ],
+  "id": "kaohsiung",
+  "name": "Kaohsiung",
+  "at": [
+   22.6273,
+   120.3014
+  ],
+  "wiki": "Kaohsiung",
+  "cover": "Lotus Pond Kaohsiung",
+  "seasons": "SSHHSLLLSHHS",
+  "tagline": "Harbour art, pagodas and night markets",
+  "summary": "Kaohsiung is Taiwan's sunny southern port city, with an art-filled harbour, temples on Lotus Pond and great night markets. Explore the Pier-2 Art Center, ride to Cijin Island for seafood, see the Fo Guang Shan Buddha Museum and walk through the Dragon and Tiger Pagodas.",
+  "days": 2,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Winter is dry and warm; summer is hot with typhoons.",
+  "arrival": "Kaohsiung Airport is on the MRT; the high-speed rail reaches Taipei in 90 minutes.",
+  "gettingAround": "MRT, light rail and YouBike.",
+  "foodTip": "Seafood on Cijin and papaya milk.",
+  "buyTip": "Pineapple cakes and art prints from Pier-2.",
+  "baseArea": "Near Formosa Boulevard or Pier-2",
+  "hotel": [
+   2000,
+   5000
+  ],
+  "connections": [
+   {
+    "to": "taipei",
+    "mode": "Train",
+    "minutes": 95,
+    "note": "High-speed rail."
+   }
+  ],
+  "items": [
+   {
+    "name": "Lotus Pond and Dragon Tiger Pagodas",
+    "kind": "see",
+    "id": "khh-lotus",
+    "at": [
+     22.681,
+     120.294
+    ],
+    "wiki": "Lotus Pond (Kaohsiung)",
+    "area": "Zuoying",
+    "summary": "Twin pagodas you enter through a dragon's mouth.",
+    "expect": "Free.",
+    "tip": "Enter the dragon, exit the tiger.",
+    "why": "Kaohsiung icon.",
+    "flow": [
+     "Dragon.",
+     "Tiger.",
+     "Pond walk."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Pier-2 Art Center",
+    "kind": "see",
+    "id": "khh-pier2",
+    "at": [
+     22.62,
+     120.282
+    ],
+    "wiki": "Pier-2 Art Center",
+    "area": "Yancheng",
+    "summary": "Warehouses turned galleries with sculptures by the harbour.",
+    "expect": "Free.",
+    "tip": "Rent a YouBike.",
+    "why": "Creative harbour.",
+    "flow": [
+     "Warehouses.",
+     "Sculptures."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Fo Guang Shan Buddha Museum",
+    "kind": "see",
+    "id": "khh-fgs",
+    "at": [
+     22.757,
+     120.443
+    ],
+    "wiki": "Fo Guang Shan Buddha Museum",
+    "area": "Dashu",
+    "summary": "Giant seated Buddha and pagoda-lined avenue.",
+    "expect": "Free.",
+    "tip": "Bus from Zuoying HSR.",
+    "why": "Monumental Buddhism.",
+    "flow": [
+     "Avenue.",
+     "Great Buddha."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Cijin Island",
+    "kind": "see",
+    "id": "khh-cijin",
+    "at": [
+     22.61,
+     120.268
+    ],
+    "wiki": "Cijin District",
+    "area": "Cijin",
+    "summary": "Ferry to a seafood street, beach and lighthouse.",
+    "expect": "Short ferry.",
+    "tip": "Rent a bike.",
+    "why": "Island escape.",
+    "flow": [
+     "Ferry.",
+     "Seafood street.",
+     "Lighthouse."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Formosa Boulevard Station Dome of Light",
+    "kind": "see",
+    "id": "khh-formosa",
+    "at": [
+     22.631,
+     120.302
+    ],
+    "wiki": "Formosa Boulevard Station",
+    "area": "Central",
+    "summary": "World's largest glass artwork in a metro station.",
+    "expect": "Free.",
+    "tip": "Visit during the light show.",
+    "why": "Stunning station.",
+    "flow": [
+     "Dome.",
+     "Light show."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Love River",
+    "kind": "see",
+    "id": "khh-lovekiver",
+    "at": [
+     22.63,
+     120.29
+    ],
+    "wiki": "Love River",
+    "area": "Central",
+    "summary": "Riverside walks and boat rides lit up at night.",
+    "expect": "Free.",
+    "tip": "Take an evening boat.",
+    "why": "Romantic evenings.",
+    "flow": [
+     "River walk.",
+     "Boat."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     150
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ruifeng Night Market",
+    "kind": "eat",
+    "id": "khh-ruifeng",
+    "at": [
+     22.666,
+     120.299
+    ],
+    "wiki": "Ruifeng Night Market",
+    "area": "Zuoying",
+    "venue": "food-area",
+    "summary": "Locals' favourite night market.",
+    "expect": "Closed Mon and Wed.",
+    "tip": "Try oyster omelette.",
+    "why": "Street food heaven.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Taiwanese",
+    "order": [
+     "Oyster omelette",
+     "Stinky tofu"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Papaya milk",
+    "kind": "eat",
+    "id": "khh-papaya",
+    "at": [
+     22.62,
+     120.3
+    ],
+    "wiki": "Papaya milk",
+    "area": "Central",
+    "venue": "food-area",
+    "summary": "Kaohsiung's famous blended drink.",
+    "expect": "Everywhere.",
+    "tip": "Try it at Kaohsiung Papaya Milk.",
+    "why": "Local classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Taiwanese",
+    "order": [
+     "Papaya milk"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Cijin seafood",
+    "kind": "eat",
+    "id": "khh-cijinseafood",
+    "at": [
+     22.612,
+     120.268
+    ],
+    "wiki": "Cijin District",
+    "area": "Cijin",
+    "venue": "food-area",
+    "summary": "Pick your seafood and have it cooked.",
+    "expect": "Seafood street.",
+    "tip": "Check prices first.",
+    "why": "Fresh catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     300,
+     800
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Grilled squid"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Philippines",
+  "region": "Asia",
+  "currency": "PHP",
+  "cashTip": "Carry pesos for tricycles, island fees and small eateries; resorts take cards.",
+  "dailyBudget": [
+   3000,
+   9000
+  ],
+  "cashPerDay": [
+   1000,
+   3000
+  ],
+  "id": "boracay",
+  "name": "Boracay",
+  "at": [
+   11.9674,
+   121.9248
+  ],
+  "wiki": "Boracay",
+  "cover": "White Beach Boracay",
+  "seasons": "HHHHSLLLLSSH",
+  "tagline": "Powder-white sand and sunset sails",
+  "summary": "Boracay is a small island famous for White Beach, four kilometres of powder-fine sand. Sail on a paraw at sunset, island-hop to snorkelling spots, kitesurf at Bulabog Beach and climb Mount Luho for views.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "November to May is dry; the habagat monsoon brings rain and waves from June to October.",
+  "arrival": "Fly to Caticlan (closest) or Kalibo, then a short boat across.",
+  "gettingAround": "E-trikes and walking.",
+  "foodTip": "Fresh seafood at D'Talipapa and chori burgers.",
+  "buyTip": "Shell crafts and dried mangoes.",
+  "baseArea": "Station 1 or Station 2",
+  "hotel": [
+   3000,
+   15000
+  ],
+  "connections": [
+   {
+    "to": "manila",
+    "mode": "Flight",
+    "minutes": 70,
+    "note": "Flights to Caticlan."
+   },
+   {
+    "to": "cebu",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Flights to Caticlan."
+   }
+  ],
+  "items": [
+   {
+    "name": "White Beach",
+    "kind": "see",
+    "id": "bor-white",
+    "at": [
+     11.96,
+     121.924
+    ],
+    "wiki": "White Beach (Boracay)",
+    "area": "West coast",
+    "summary": "4 km of fine white sand lined with bars.",
+    "expect": "Free.",
+    "tip": "Walk Station 1 for the best sand.",
+    "why": "World-famous beach.",
+    "flow": [
+     "Swim.",
+     "Beach walk."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sunset paraw sailing",
+    "kind": "see",
+    "id": "bor-paraw",
+    "at": [
+     11.96,
+     121.92
+    ],
+    "wiki": "Paraw",
+    "area": "White Beach",
+    "summary": "Traditional outrigger sails at sunset.",
+    "expect": "1 hour.",
+    "tip": "Agree a price first.",
+    "why": "Iconic sunset.",
+    "flow": [
+     "Board.",
+     "Sail at sunset."
+    ],
+    "hours": 1,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Island hopping",
+    "kind": "see",
+    "id": "bor-islandhop",
+    "at": [
+     11.98,
+     121.91
+    ],
+    "wiki": "Boracay",
+    "area": "Around the island",
+    "summary": "Snorkel at Crystal Cove and Crocodile Island.",
+    "expect": "Half day.",
+    "tip": "Bring reef-safe sunscreen.",
+    "why": "Island fun.",
+    "flow": [
+     "Crystal Cove.",
+     "Snorkel."
+    ],
+    "hours": 4,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Puka Shell Beach",
+    "kind": "see",
+    "id": "bor-puka",
+    "at": [
+     12.0,
+     121.92
+    ],
+    "wiki": "Puka Beach",
+    "area": "North",
+    "summary": "Quieter beach with coarse shell sand.",
+    "expect": "E-trike ride.",
+    "tip": "Bring water.",
+    "why": "Escape crowds.",
+    "flow": [
+     "Beach.",
+     "Swim."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mount Luho",
+    "kind": "see",
+    "id": "bor-luho",
+    "at": [
+     11.98,
+     121.933
+    ],
+    "wiki": "Mount Luho",
+    "area": "Central",
+    "summary": "Island's highest point with 360° views.",
+    "expect": "Small fee.",
+    "tip": "Go late afternoon.",
+    "why": "Island panorama.",
+    "flow": [
+     "Ride up.",
+     "Viewing deck."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Bulabog Beach kitesurfing",
+    "kind": "see",
+    "id": "bor-bulabog",
+    "at": [
+     11.96,
+     121.938
+    ],
+    "wiki": "Bulabog Beach",
+    "area": "East coast",
+    "summary": "Asia's kitesurfing hotspot in the dry season.",
+    "expect": "Lessons.",
+    "tip": "Book a lesson in December to March.",
+    "why": "Wind sports.",
+    "flow": [
+     "Lesson.",
+     "Ride."
+    ],
+    "hours": 3,
+    "price": [
+     3000,
+     8000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "D'Talipapa seafood market",
+    "kind": "eat",
+    "id": "bor-talipapa",
+    "at": [
+     11.957,
+     121.926
+    ],
+    "wiki": "Boracay",
+    "area": "Station 2",
+    "venue": "food-area",
+    "summary": "Buy seafood and have it cooked next door.",
+    "expect": "Busy.",
+    "tip": "Haggle politely.",
+    "why": "Fresh feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     600,
+     1500
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Grilled prawns"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Chori burger",
+    "kind": "eat",
+    "id": "bor-chori",
+    "at": [
+     11.96,
+     121.925
+    ],
+    "wiki": "Boracay",
+    "area": "White Beach",
+    "venue": "food-area",
+    "summary": "Sweet chorizo patty burger, a Boracay snack.",
+    "expect": "Stalls.",
+    "tip": "Try Merly's.",
+    "why": "Island classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Filipino",
+    "order": [
+     "Chori burger"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mango shake",
+    "kind": "eat",
+    "id": "bor-shake",
+    "at": [
+     11.958,
+     121.925
+    ],
+    "wiki": "Mango",
+    "area": "Station 2",
+    "venue": "food-area",
+    "summary": "Fresh Philippine mango shakes.",
+    "expect": "Everywhere.",
+    "tip": "Try Jonah's.",
+    "why": "Sweet treat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     100,
+     180
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Filipino",
+    "order": [
+     "Mango shake"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Indonesia",
+  "region": "Asia",
+  "currency": "IDR",
+  "cashTip": "Carry rupiah in small notes for warungs, boats and island fees; ATMs are limited on the Gilis.",
+  "dailyBudget": [
+   700000,
+   2000000
+  ],
+  "cashPerDay": [
+   200000,
+   600000
+  ],
+  "id": "lombok",
+  "name": "Lombok and the Gili Islands",
+  "at": [
+   -8.565,
+   116.1
+  ],
+  "wiki": "Lombok",
+  "cover": "Gili Trawangan",
+  "seasons": "SSSSHHHHHSSS",
+  "tagline": "Turtles, volcano treks and car-free islands",
+  "summary": "Lombok is Bali's quieter neighbour, with Mount Rinjani's crater lake, waterfalls and surf beaches in the south. Hop to the car-free Gili Islands to snorkel with turtles, cycle around Gili Trawangan and watch sunset from the swings.",
+  "days": 5,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September is dry; Rinjani closes in the wet season (January to March).",
+  "arrival": "Lombok International Airport; fast boats from Bali to the Gilis take 2 hours.",
+  "gettingAround": "Drivers and scooters on Lombok; bikes and horse carts on the Gilis.",
+  "foodTip": "Ayam taliwang (spicy grilled chicken) and plecing kangkung.",
+  "buyTip": "Sasak woven textiles and pearls.",
+  "baseArea": "Gili Trawangan, Kuta Lombok or Senggigi",
+  "hotel": [
+   400000,
+   2000000
+  ],
+  "connections": [
+   {
+    "to": "bali",
+    "mode": "Ferry",
+    "minutes": 120,
+    "note": "Fast boats from Padang Bai or Sanur."
+   }
+  ],
+  "items": [
+   {
+    "name": "Gili Trawangan",
+    "kind": "see",
+    "id": "lop-gilit",
+    "at": [
+     -8.35,
+     116.04
+    ],
+    "wiki": "Gili Trawangan",
+    "area": "Gilis",
+    "summary": "Car-free island with turtles, bars and sunset swings.",
+    "expect": "Boat from Bangsal.",
+    "tip": "Cycle round the island.",
+    "why": "Island life.",
+    "flow": [
+     "Bike loop.",
+     "Sunset swings."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     200000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Snorkelling with turtles",
+    "kind": "see",
+    "id": "lop-turtles",
+    "at": [
+     -8.355,
+     116.035
+    ],
+    "wiki": "Gili Islands",
+    "area": "Gilis",
+    "summary": "Green turtles graze off the Gili beaches.",
+    "expect": "Glass-bottom tours.",
+    "tip": "Join a 3-Gili snorkel trip.",
+    "why": "Turtle encounters.",
+    "flow": [
+     "Boat.",
+     "Snorkel spots."
+    ],
+    "hours": 4,
+    "price": [
+     150000,
+     250000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Mount Rinjani trek",
+    "kind": "see",
+    "id": "lop-rinjani",
+    "at": [
+     -8.411,
+     116.457
+    ],
+    "wiki": "Mount Rinjani",
+    "area": "North",
+    "summary": "Two- to three-day trek to a crater rim with a lake.",
+    "expect": "Guide required.",
+    "tip": "Book a reputable operator.",
+    "why": "Epic volcano.",
+    "flow": [
+     "Senaru.",
+     "Crater rim.",
+     "Lake."
+    ],
+    "hours": 48,
+    "price": [
+     2500000,
+     5000000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Sendang Gile and Tiu Kelep Waterfalls",
+    "kind": "see",
+    "id": "lop-sendang",
+    "at": [
+     -8.306,
+     116.406
+    ],
+    "wiki": "Sendang Gile",
+    "area": "Senaru",
+    "summary": "Jungle waterfalls at the foot of Rinjani.",
+    "expect": "Guided walk.",
+    "tip": "Wear water shoes.",
+    "why": "Beautiful falls.",
+    "flow": [
+     "Sendang Gile.",
+     "Tiu Kelep."
+    ],
+    "hours": 3,
+    "price": [
+     50000,
+     150000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kuta Lombok beaches",
+    "kind": "see",
+    "id": "lop-kuta",
+    "at": [
+     -8.895,
+     116.28
+    ],
+    "wiki": "Kuta, Lombok",
+    "area": "South",
+    "summary": "Turquoise bays and surf at Tanjung Aan and Selong Belanak.",
+    "expect": "Scooter.",
+    "tip": "Learn to surf at Selong Belanak.",
+    "why": "Wild beaches.",
+    "flow": [
+     "Tanjung Aan.",
+     "Bukit Merese sunset."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     300000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Sade Sasak village",
+    "kind": "see",
+    "id": "lop-sade",
+    "at": [
+     -8.839,
+     116.29
+    ],
+    "wiki": "Sasak people",
+    "area": "South",
+    "summary": "Traditional Sasak village with thatched houses.",
+    "expect": "Donation.",
+    "tip": "Go with a local guide.",
+    "why": "Culture.",
+    "flow": [
+     "Village tour.",
+     "Weaving."
+    ],
+    "hours": 1,
+    "price": [
+     20000,
+     50000
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ayam taliwang",
+    "kind": "eat",
+    "id": "lop-taliwang",
+    "at": [
+     -8.58,
+     116.11
+    ],
+    "wiki": "Ayam taliwang",
+    "area": "Mataram",
+    "venue": "food-area",
+    "summary": "Spicy grilled chicken from Lombok.",
+    "expect": "Warungs.",
+    "tip": "Order with plecing kangkung.",
+    "why": "Lombok signature.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     40000,
+     80000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Indonesian",
+    "order": [
+     "Ayam taliwang"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Gili T night market",
+    "kind": "eat",
+    "id": "lop-nightmarket",
+    "at": [
+     -8.349,
+     116.042
+    ],
+    "wiki": "Gili Trawangan",
+    "area": "Gili T",
+    "venue": "food-area",
+    "summary": "Grilled seafood and nasi campur by the harbour.",
+    "expect": "Evenings.",
+    "tip": "Pick fresh fish.",
+    "why": "Cheap feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30000,
+     100000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Indonesian",
+    "order": [
+     "Grilled fish"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Sate rembiga",
+    "kind": "eat",
+    "id": "lop-sate",
+    "at": [
+     -8.57,
+     116.1
+    ],
+    "wiki": "Satay",
+    "area": "Mataram",
+    "venue": "food-area",
+    "summary": "Sweet-spicy beef satay.",
+    "expect": "Local warungs.",
+    "tip": "Try in Rembiga.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30000,
+     60000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Indonesian",
+    "order": [
+     "Sate rembiga"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Vietnam",
+  "region": "Asia",
+  "currency": "VND",
+  "cashTip": "Cash is king at street stalls; cards work in hotels and bigger restaurants. Grab is cashless.",
+  "dailyBudget": [
+   900000,
+   2500000
+  ],
+  "cashPerDay": [
+   300000,
+   800000
+  ],
+  "id": "nha-trang",
+  "name": "Nha Trang",
+  "at": [
+   12.2388,
+   109.1967
+  ],
+  "wiki": "Nha Trang",
+  "cover": "Nha Trang beach",
+  "seasons": "SSHHHHHHSLLS",
+  "tagline": "Beach city of islands, mud baths and Cham towers",
+  "summary": "Nha Trang is Vietnam's beach capital, with a long sandy bay, islands to hop and a lively seafront. Visit the Po Nagar Cham Towers, soak in mineral mud baths, snorkel or dive at Hon Mun and ride the cable car to the island amusement park.",
+  "days": 3,
+  "bestMonths": [
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8
+  ],
+  "seasonNote": "February to August is dry and sunny; October to December brings heavy rain.",
+  "arrival": "Cam Ranh Airport is 40 minutes south.",
+  "gettingAround": "Grab, taxis and walking the seafront.",
+  "foodTip": "Fish noodle soup (bún chả cá) and nem nướng.",
+  "buyTip": "Pearls and coffee.",
+  "baseArea": "Tran Phu beachfront",
+  "hotel": [
+   500000,
+   2500000
+  ],
+  "connections": [
+   {
+    "to": "ho-chi-minh-city",
+    "mode": "Train",
+    "minutes": 480,
+    "note": "Or a 1-hour flight."
+   },
+   {
+    "to": "hoi-an",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Fly to Da Nang."
+   }
+  ],
+  "items": [
+   {
+    "name": "Po Nagar Cham Towers",
+    "kind": "see",
+    "id": "nha-ponagar",
+    "at": [
+     12.265,
+     109.196
+    ],
+    "wiki": "Po Nagar",
+    "area": "North",
+    "summary": "Hindu Cham temple towers from the 8th to 13th centuries.",
+    "expect": "Small fee.",
+    "tip": "Cover shoulders and knees.",
+    "why": "Ancient Cham.",
+    "flow": [
+     "Towers.",
+     "River view."
+    ],
+    "hours": 1,
+    "price": [
+     30000,
+     30000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Nha Trang Beach",
+    "kind": "see",
+    "id": "nha-beach",
+    "at": [
+     12.239,
+     109.197
+    ],
+    "wiki": "Nha Trang",
+    "area": "Seafront",
+    "summary": "Long sandy bay with a seafront park.",
+    "expect": "Free.",
+    "tip": "Swim in the morning.",
+    "why": "City beach.",
+    "flow": [
+     "Swim.",
+     "Seafront walk."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hon Mun snorkelling",
+    "kind": "see",
+    "id": "nha-hon-mun",
+    "at": [
+     12.17,
+     109.3
+    ],
+    "wiki": "Hòn Mun",
+    "area": "Bay",
+    "summary": "Marine reserve with coral and fish.",
+    "expect": "Boat trip.",
+    "tip": "Pick a dive-focused operator.",
+    "why": "Best snorkelling.",
+    "flow": [
+     "Boat.",
+     "Snorkel or dive."
+    ],
+    "hours": 5,
+    "price": [
+     400000,
+     1200000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Mud baths",
+    "kind": "see",
+    "id": "nha-mud",
+    "at": [
+     12.281,
+     109.185
+    ],
+    "wiki": "Nha Trang",
+    "area": "North",
+    "summary": "Hot mineral mud baths and pools.",
+    "expect": "Half day.",
+    "tip": "Try I-Resort or Thap Ba.",
+    "why": "Relaxing.",
+    "flow": [
+     "Mud bath.",
+     "Hot pools."
+    ],
+    "hours": 3,
+    "price": [
+     300000,
+     600000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Long Son Pagoda",
+    "kind": "see",
+    "id": "nha-longson",
+    "at": [
+     12.251,
+     109.181
+    ],
+    "wiki": "Long Sơn Pagoda",
+    "area": "Centre",
+    "summary": "Pagoda with a giant white Buddha on the hill.",
+    "expect": "Free.",
+    "tip": "Climb to the Buddha.",
+    "why": "Views and calm.",
+    "flow": [
+     "Pagoda.",
+     "White Buddha."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Hon Tre cable car and island park",
+    "kind": "see",
+    "id": "nha-cablecar",
+    "at": [
+     12.22,
+     109.24
+    ],
+    "wiki": "Vinpearl Cable Car",
+    "area": "Hon Tre",
+    "summary": "Over-sea cable car to an island theme park.",
+    "expect": "Combo ticket.",
+    "tip": "Ride at sunset.",
+    "why": "Family fun.",
+    "flow": [
+     "Cable car.",
+     "Park."
+    ],
+    "hours": 5,
+    "price": [
+     800000,
+     1000000
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Entertainment",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Bún chả cá",
+    "kind": "eat",
+    "id": "nha-bunchaca",
+    "at": [
+     12.25,
+     109.19
+    ],
+    "wiki": "Bún chả cá",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Fish cake noodle soup, Nha Trang's breakfast.",
+    "expect": "Morning stalls.",
+    "tip": "Add chilli and lime.",
+    "why": "Local breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     35000,
+     50000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Vietnamese",
+    "order": [
+     "Bún chả cá"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Nem nướng",
+    "kind": "eat",
+    "id": "nha-nemnuong",
+    "at": [
+     12.25,
+     109.19
+    ],
+    "wiki": "Nem nướng",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Grilled pork rolls wrapped with herbs.",
+    "expect": "Restaurants.",
+    "tip": "Try Dang Van Quyen.",
+    "why": "Must-try.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     50000,
+     100000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Vietnamese",
+    "order": [
+     "Nem nướng"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Seafood night",
+    "kind": "eat",
+    "id": "nha-seafood",
+    "at": [
+     12.24,
+     109.195
+    ],
+    "wiki": "Nha Trang",
+    "area": "Seafront",
+    "venue": "food-area",
+    "summary": "Live seafood restaurants along the bay.",
+    "expect": "Evening.",
+    "tip": "Check prices by weight.",
+    "why": "Fresh catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     200000,
+     600000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Grilled scallops"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Cambodia",
+  "region": "Asia",
+  "currency": "KHR",
+  "cashTip": "US dollars are used alongside riel; small change comes back in riel. Carry small dollar notes.",
+  "dailyBudget": [
+   160000,
+   400000
+  ],
+  "cashPerDay": [
+   60000,
+   160000
+  ],
+  "id": "phnom-penh",
+  "name": "Phnom Penh",
+  "at": [
+   11.5564,
+   104.9282
+  ],
+  "wiki": "Phnom Penh",
+  "cover": "Royal Palace Phnom Penh",
+  "seasons": "HHHSSLLLLSHH",
+  "tagline": "Golden palace, riverside life and hard history",
+  "summary": "Phnom Penh, Cambodia's capital on the Mekong, mixes a gilded Royal Palace and French colonial streets with a painful recent past. See the Silver Pagoda, browse the Central and Russian markets, and visit Tuol Sleng prison and the Choeung Ek Killing Fields to understand the Khmer Rouge era.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "November to February is dry and cooler; April is very hot.",
+  "arrival": "The new Techo International Airport is about 45 minutes away.",
+  "gettingAround": "Tuk-tuks and PassApp or Grab.",
+  "foodTip": "Fish amok and nom banh chok.",
+  "buyTip": "Silk scarves and krama at the Russian Market.",
+  "baseArea": "Riverside or BKK1",
+  "hotel": [
+   100000,
+   400000
+  ],
+  "connections": [
+   {
+    "to": "siem-reap",
+    "mode": "Bus",
+    "minutes": 360,
+    "note": "Or a 45-minute flight."
+   },
+   {
+    "to": "ho-chi-minh-city",
+    "mode": "Bus",
+    "minutes": 420,
+    "note": "Direct buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Royal Palace and Silver Pagoda",
+    "kind": "see",
+    "id": "pnh-palace",
+    "at": [
+     11.564,
+     104.931
+    ],
+    "wiki": "Royal Palace, Phnom Penh",
+    "area": "Riverside",
+    "summary": "Golden spires and a pagoda floored with silver tiles.",
+    "expect": "Dress modestly.",
+    "tip": "Go at opening.",
+    "why": "Khmer splendour.",
+    "flow": [
+     "Throne Hall.",
+     "Silver Pagoda."
+    ],
+    "hours": 2,
+    "price": [
+     40000,
+     40000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Tuol Sleng Genocide Museum",
+    "kind": "see",
+    "id": "pnh-tuolsleng",
+    "at": [
+     11.549,
+     104.917
+    ],
+    "wiki": "Tuol Sleng Genocide Museum",
+    "area": "Tuol Svay Prey",
+    "summary": "Former school turned Khmer Rouge prison S-21.",
+    "expect": "Audio guide recommended.",
+    "tip": "Allow 2 hours.",
+    "why": "Essential history.",
+    "flow": [
+     "Audio guide.",
+     "Cells."
+    ],
+    "hours": 2,
+    "price": [
+     20000,
+     30000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Choeung Ek Killing Fields",
+    "kind": "see",
+    "id": "pnh-choeungek",
+    "at": [
+     11.484,
+     104.902
+    ],
+    "wiki": "Choeung Ek",
+    "area": "South",
+    "summary": "Memorial stupa and mass graves.",
+    "expect": "Audio guide included.",
+    "tip": "Combine with Tuol Sleng.",
+    "why": "Sobering memorial.",
+    "flow": [
+     "Stupa.",
+     "Audio walk."
+    ],
+    "hours": 2,
+    "price": [
+     24000,
+     24000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "National Museum of Cambodia",
+    "kind": "see",
+    "id": "pnh-national",
+    "at": [
+     11.566,
+     104.929
+    ],
+    "wiki": "National Museum of Cambodia",
+    "area": "Riverside",
+    "summary": "Angkor-era sculpture in a red Khmer building.",
+    "expect": "Allow 1.5 hours.",
+    "tip": "See the eight-armed Vishnu.",
+    "why": "Khmer art.",
+    "flow": [
+     "Galleries.",
+     "Courtyard."
+    ],
+    "hours": 1.5,
+    "price": [
+     40000,
+     40000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Russian Market (Tuol Tom Poung)",
+    "kind": "see",
+    "id": "pnh-russian",
+    "at": [
+     11.542,
+     104.919
+    ],
+    "wiki": "Russian Market",
+    "area": "Tuol Tom Poung",
+    "summary": "Maze of stalls for silk, crafts and food.",
+    "expect": "Morning is cooler.",
+    "tip": "Eat at the food stalls.",
+    "why": "Shopping adventure.",
+    "flow": [
+     "Stalls.",
+     "Food court."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Food"
+    ]
+   },
+   {
+    "name": "Mekong sunset cruise",
+    "kind": "see",
+    "id": "pnh-sunset",
+    "at": [
+     11.57,
+     104.93
+    ],
+    "wiki": "Tonlé Sap",
+    "area": "Riverside",
+    "summary": "Boat at the confluence of the Mekong and Tonlé Sap.",
+    "expect": "1 hour.",
+    "tip": "Bring a drink.",
+    "why": "River views.",
+    "flow": [
+     "Board.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     20000,
+     60000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Fish amok",
+    "kind": "eat",
+    "id": "pnh-amok",
+    "at": [
+     11.565,
+     104.93
+    ],
+    "wiki": "Fish amok",
+    "area": "Riverside",
+    "venue": "food-area",
+    "summary": "Curried fish steamed in banana leaf.",
+    "expect": "Restaurants.",
+    "tip": "Try at Romdeng.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20000,
+     40000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Khmer",
+    "order": [
+     "Fish amok"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Nom banh chok",
+    "kind": "eat",
+    "id": "pnh-nombanhchok",
+    "at": [
+     11.55,
+     104.92
+    ],
+    "wiki": "Num banhchok",
+    "area": "Markets",
+    "venue": "food-area",
+    "summary": "Rice noodles with green fish curry.",
+    "expect": "Breakfast.",
+    "tip": "Eat at a market stall.",
+    "why": "Khmer breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6000,
+     10000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Khmer",
+    "order": [
+     "Nom banh chok"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Training restaurants",
+    "kind": "eat",
+    "id": "pnh-friends",
+    "at": [
+     11.568,
+     104.927
+    ],
+    "wiki": "Friends-International",
+    "area": "Riverside",
+    "venue": "food-area",
+    "summary": "Social-enterprise restaurants training street youth.",
+    "expect": "Book ahead.",
+    "tip": "Try Friends the Restaurant.",
+    "why": "Eat for good.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     40000,
+     80000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Khmer",
+    "order": [
+     "Tapas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Nepal",
+  "region": "Asia",
+  "currency": "NPR",
+  "cashTip": "Carry rupees for trekking, teahouses and taxis; ATMs exist in Lakeside but not on trails.",
+  "dailyBudget": [
+   4000,
+   12000
+  ],
+  "cashPerDay": [
+   2000,
+   6000
+  ],
+  "id": "pokhara",
+  "name": "Pokhara",
+  "at": [
+   28.2096,
+   83.9856
+  ],
+  "wiki": "Pokhara",
+  "cover": "Phewa Lake Machapuchare",
+  "seasons": "SSHHSLLLSHHS",
+  "tagline": "Lakeside base for the Annapurnas",
+  "summary": "Pokhara is Nepal's relaxed lakeside town under the Annapurna range. Paddle on Phewa Lake, watch sunrise over Machapuchare from Sarangkot, paraglide over the lake, walk to the World Peace Pagoda and start treks like Poon Hill and Annapurna Base Camp.",
+  "days": 4,
+  "bestMonths": [
+   10,
+   11,
+   3,
+   4
+  ],
+  "seasonNote": "October to November gives the clearest mountain views; spring brings rhododendrons.",
+  "arrival": "Pokhara International Airport, a 25-minute flight from Kathmandu, or 7 hours by bus.",
+  "gettingAround": "Walk Lakeside; taxis and scooters.",
+  "foodTip": "Dal bhat and momos.",
+  "buyTip": "Pashmina and trekking gear.",
+  "baseArea": "Lakeside",
+  "hotel": [
+   2500,
+   12000
+  ],
+  "connections": [
+   {
+    "to": "kathmandu",
+    "mode": "Flight",
+    "minutes": 25,
+    "note": "Or 7 hours by tourist bus."
+   }
+  ],
+  "items": [
+   {
+    "name": "Phewa Lake and Tal Barahi",
+    "kind": "see",
+    "id": "pkr-phewa",
+    "at": [
+     28.209,
+     83.958
+    ],
+    "wiki": "Phewa Lake",
+    "area": "Lakeside",
+    "summary": "Rowing boats to the island temple with Himalayan reflections.",
+    "expect": "Boat hire.",
+    "tip": "Go early for still water.",
+    "why": "Iconic view.",
+    "flow": [
+     "Boat.",
+     "Island temple."
+    ],
+    "hours": 2,
+    "price": [
+     500,
+     1000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Sarangkot sunrise",
+    "kind": "see",
+    "id": "pkr-sarangkot",
+    "at": [
+     28.244,
+     83.948
+    ],
+    "wiki": "Sarangkot",
+    "area": "Hilltop",
+    "summary": "Sunrise over Annapurna and Machapuchare.",
+    "expect": "Pre-dawn drive.",
+    "tip": "Check the forecast.",
+    "why": "Himalayan dawn.",
+    "flow": [
+     "Drive up.",
+     "Sunrise."
+    ],
+    "hours": 3,
+    "price": [
+     500,
+     1500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Paragliding over Phewa Lake",
+    "kind": "see",
+    "id": "pkr-paragliding",
+    "at": [
+     28.244,
+     83.948
+    ],
+    "wiki": "Sarangkot",
+    "area": "Sarangkot",
+    "summary": "Tandem flights with mountain views.",
+    "expect": "30 minutes.",
+    "tip": "Fly in the morning.",
+    "why": "World-class flying.",
+    "flow": [
+     "Take off.",
+     "Glide.",
+     "Land at the lake."
+    ],
+    "hours": 2,
+    "price": [
+     9000,
+     15000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "World Peace Pagoda",
+    "kind": "see",
+    "id": "pkr-pagoda",
+    "at": [
+     28.2,
+     83.945
+    ],
+    "wiki": "World Peace Pagoda, Pokhara",
+    "area": "Anadu Hill",
+    "summary": "White stupa above the lake.",
+    "expect": "Free.",
+    "tip": "Hike up, boat back.",
+    "why": "Peaceful views.",
+    "flow": [
+     "Hike.",
+     "Stupa.",
+     "Boat back."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Poon Hill trek",
+    "kind": "see",
+    "id": "pkr-poonhill",
+    "at": [
+     28.4,
+     83.69
+    ],
+    "wiki": "Poon Hill",
+    "area": "Annapurna",
+    "summary": "Short trek to a famous Annapurna sunrise viewpoint.",
+    "expect": "3 to 4 days.",
+    "tip": "Get permits in Pokhara.",
+    "why": "Classic short trek.",
+    "flow": [
+     "Nayapul.",
+     "Ghorepani.",
+     "Poon Hill sunrise."
+    ],
+    "hours": 72,
+    "price": [
+     5000,
+     15000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "International Mountain Museum",
+    "kind": "see",
+    "id": "pkr-museum",
+    "at": [
+     28.196,
+     83.979
+    ],
+    "wiki": "International Mountain Museum",
+    "area": "South",
+    "summary": "Museum of Himalayan peoples and mountaineering.",
+    "expect": "Allow 1.5 hours.",
+    "tip": "See the Everest exhibits.",
+    "why": "Mountain culture.",
+    "flow": [
+     "Exhibits.",
+     "Climbing wall."
+    ],
+    "hours": 1.5,
+    "price": [
+     400,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Dal bhat",
+    "kind": "eat",
+    "id": "pkr-dalbhat",
+    "at": [
+     28.21,
+     83.96
+    ],
+    "wiki": "Dal bhat",
+    "area": "Lakeside",
+    "venue": "food-area",
+    "summary": "Lentils, rice and curry with free refills.",
+    "expect": "Everywhere.",
+    "tip": "Eat it with your hand.",
+    "why": "Nepali staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     400,
+     800
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Nepali",
+    "order": [
+     "Dal bhat"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Momos",
+    "kind": "eat",
+    "id": "pkr-momos",
+    "at": [
+     28.21,
+     83.96
+    ],
+    "wiki": "Momo (food)",
+    "area": "Lakeside",
+    "venue": "food-area",
+    "summary": "Steamed dumplings with tomato chutney.",
+    "expect": "Everywhere.",
+    "tip": "Try buff or veg.",
+    "why": "Himalayan favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Nepali",
+    "order": [
+     "Momos"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Lakeside cafés",
+    "kind": "eat",
+    "id": "pkr-lakeside",
+    "at": [
+     28.21,
+     83.958
+    ],
+    "wiki": "Lakeside, Pokhara",
+    "area": "Lakeside",
+    "venue": "food-area",
+    "summary": "Cafés and bakeries facing the lake.",
+    "expect": "All day.",
+    "tip": "Have breakfast with a view.",
+    "why": "Chilled vibe.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     1200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Breakfast"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
