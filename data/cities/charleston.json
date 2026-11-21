@@ -1,0 +1,546 @@
+{
+  "id": "charleston",
+  "name": "Charleston",
+  "country": "United States",
+  "region": "North America",
+  "lat": 32.7765,
+  "lon": -79.9311,
+  "wiki": "Charleston, South Carolina",
+  "tagline": "Pastel houses, oak alleys and Lowcountry food",
+  "summary": "Charleston is a graceful Southern port of pastel Rainbow Row, cobbled lanes, church steeples and grand plantations. It's also one of America's great food cities, and the place to confront the history of slavery at sites like McLeod Plantation.",
+  "days": 3,
+  "bestMonths": [
+    3,
+    4,
+    5,
+    10,
+    11
+  ],
+  "seasonNote": "Spring is lovely with azaleas; summer is hot and humid; hurricane season June to November.",
+  "arrival": "Charleston Airport is 20 minutes away.",
+  "gettingAround": "Walk the peninsula; car for plantations and beaches.",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+    150,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Shrimp and grits, she-crab soup and Lowcountry boil.",
+  "buyTip": "Sweetgrass baskets.",
+  "baseArea": "Historic district",
+  "connections": [
+    {
+      "to": "washington-dc",
+      "mode": "Flight",
+      "minutes": 95,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Charleston on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Charleston%2C_South_Carolina",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Charleston%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Charleston%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Rainbow Row",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "charleston-chs-rainbow",
+      "name": "Rainbow Row and the Battery",
+      "kind": "see",
+      "lat": 32.77556,
+      "lon": -79.92722,
+      "wiki": "Rainbow Row",
+      "summary": "Pastel Georgian houses and the waterfront promenade.",
+      "expect": "Free.",
+      "tip": "Walk at golden hour.",
+      "area": "Historic district",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rainbow%20Row%20and%20the%20Battery%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=Rainbow%20Row%20and%20the%20Battery%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rainbow%20Row%20and%20the%20Battery%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "Pastel Georgian houses and the waterfront promenade.",
+        "Charleston's postcard."
+      ],
+      "visitFlow": [
+        "Rainbow Row.",
+        "Battery.",
+        "White Point Garden."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Free.",
+        "Walk at golden hour."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 18522,
+          "period": "202511-202610",
+          "title": "Rainbow Row",
+          "url": "https://en.wikipedia.org/wiki/Rainbow_Row",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "charleston-chs-sumter",
+      "name": "Fort Sumter",
+      "kind": "see",
+      "lat": 32.75222,
+      "lon": -79.87472,
+      "wiki": "Fort Sumter",
+      "summary": "Where the Civil War began, by ferry.",
+      "expect": "Ferry from Liberty Square.",
+      "tip": "Book the morning boat.",
+      "area": "Harbour",
+      "duration": 2.5,
+      "price": [
+        35,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fort%20Sumter%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=Fort%20Sumter%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fort%20Sumter%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Where the Civil War began, by ferry.",
+        "Pivotal history."
+      ],
+      "visitFlow": [
+        "Ferry.",
+        "Fort."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Ferry from Liberty Square.",
+        "Book the morning boat."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 211732,
+          "period": "202511-202610",
+          "title": "Fort Sumter",
+          "url": "https://en.wikipedia.org/wiki/Fort_Sumter",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "charleston-chs-mcleod",
+      "name": "McLeod Plantation",
+      "kind": "see",
+      "lat": 32.76278,
+      "lon": -79.97236,
+      "wiki": "McLeod Plantation",
+      "summary": "A plantation interpreted through the lives of the enslaved.",
+      "expect": "Guided tours.",
+      "tip": "Take the guided tour.",
+      "area": "James Island",
+      "duration": 2,
+      "price": [
+        20,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=McLeod%20Plantation%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=McLeod%20Plantation%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=McLeod%20Plantation%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "A plantation interpreted through the lives of the enslaved.",
+        "Honest history."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Cabins."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Guided tours.",
+        "Take the guided tour."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 9361,
+          "period": "202511-202610",
+          "title": "McLeod Plantation",
+          "url": "https://en.wikipedia.org/wiki/McLeod_Plantation",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "charleston-chs-magnolia",
+      "name": "Magnolia Plantation gardens",
+      "kind": "see",
+      "lat": 32.87461,
+      "lon": -80.08324,
+      "wiki": "Magnolia Plantation and Gardens",
+      "summary": "America's oldest public gardens.",
+      "expect": "Allow half a day.",
+      "tip": "Spring blooms are stunning.",
+      "area": "Ashley River",
+      "duration": 3,
+      "price": [
+        30,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Magnolia%20Plantation%20gardens%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=Magnolia%20Plantation%20gardens%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Magnolia%20Plantation%20gardens%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "History"
+      ],
+      "whyVisit": [
+        "America's oldest public gardens.",
+        "Beautiful gardens."
+      ],
+      "visitFlow": [
+        "Gardens.",
+        "From Slavery to Freedom tour."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and history and context",
+      "tradeoffs": [
+        "Allow half a day.",
+        "Spring blooms are stunning."
+      ]
+    },
+    {
+      "id": "charleston-chs-market",
+      "name": "Charleston City Market",
+      "kind": "see",
+      "lat": 32.78092,
+      "lon": -79.92931,
+      "wiki": "Charleston City Market",
+      "summary": "Market stalls with sweetgrass baskets.",
+      "expect": "Busy.",
+      "tip": "Buy direct from weavers.",
+      "area": "Historic district",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Charleston%20City%20Market%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=Charleston%20City%20Market%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Charleston%20City%20Market%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping"
+      ],
+      "whyVisit": [
+        "Market stalls with sweetgrass baskets.",
+        "Gullah craft."
+      ],
+      "visitFlow": [
+        "Browse the stalls.",
+        "Watch the basket weavers."
+      ],
+      "bestFor": "Visitors interested in local shopping",
+      "tradeoffs": [
+        "Busy.",
+        "Buy direct from weavers."
+      ]
+    },
+    {
+      "id": "charleston-chs-folly",
+      "name": "Folly Beach",
+      "kind": "see",
+      "lat": 32.64667,
+      "lon": -79.97806,
+      "wiki": "Folly Beach, South Carolina",
+      "summary": "Laid-back beach with a pier.",
+      "expect": "20 minutes' drive.",
+      "tip": "Sunset on the pier.",
+      "area": "Folly",
+      "duration": 3,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Folly%20Beach%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=Folly%20Beach%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Folly%20Beach%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Laid-back beach with a pier.",
+        "Beach day."
+      ],
+      "visitFlow": [
+        "Swim.",
+        "Pier."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "20 minutes' drive.",
+        "Sunset on the pier."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 16658,
+          "period": "202511-202610",
+          "title": "Folly Beach, South Carolina",
+          "url": "https://en.wikipedia.org/wiki/Folly_Beach%2C_South_Carolina",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "charleston-chs-shrimpgrits",
+      "name": "Shrimp and grits",
+      "kind": "eat",
+      "lat": 32.779,
+      "lon": -79.932,
+      "wiki": "Shrimp and grits",
+      "summary": "Lowcountry shrimp over creamy grits.",
+      "expect": "Everywhere.",
+      "tip": "Try at Husk or Hominy Grill.",
+      "area": "Historic district",
+      "duration": 1.5,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Shrimp%20and%20grits%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=Shrimp%20and%20grits%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Shrimp%20and%20grits%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Lowcountry shrimp over creamy grits.",
+        "Lowcountry classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Try at Husk or Hominy Grill."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Lowcountry",
+      "mustOrder": [
+        "Shrimp and grits"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "charleston-chs-shecrab",
+      "name": "She-crab soup",
+      "kind": "eat",
+      "lat": 32.78,
+      "lon": -79.93,
+      "wiki": "She-crab soup",
+      "summary": "Creamy crab and roe soup with sherry.",
+      "expect": "Starters.",
+      "tip": "Splash in sherry.",
+      "area": "Historic district",
+      "duration": 1,
+      "price": [
+        10,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=She-crab%20soup%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=She-crab%20soup%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=She-crab%20soup%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Creamy crab and roe soup with sherry.",
+        "Charleston speciality."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Starters.",
+        "Splash in sherry."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Lowcountry",
+      "mustOrder": [
+        "She-crab soup"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "charleston-chs-biscuits",
+      "name": "Callie's biscuits",
+      "kind": "eat",
+      "lat": 32.78,
+      "lon": -79.93,
+      "wiki": "Biscuit",
+      "summary": "Hot biscuits, often with ham.",
+      "expect": "Breakfast.",
+      "tip": "Try Callie's Hot Little Biscuit.",
+      "area": "Historic district",
+      "duration": 0.5,
+      "price": [
+        5,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Callie's%20biscuits%2C%20Charleston",
+        "https://www.google.com/maps/search/?api=1&query=Callie's%20biscuits%2C%20Charleston"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Callie's%20biscuits%2C%20Charleston"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Hot biscuits, often with ham.",
+        "Southern morning."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Breakfast.",
+        "Try Callie's Hot Little Biscuit."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Southern",
+      "mustOrder": [
+        "Biscuits"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}

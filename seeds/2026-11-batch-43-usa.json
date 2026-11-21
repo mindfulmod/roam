@@ -1,0 +1,2418 @@
+[
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "nashville",
+  "name": "Nashville",
+  "at": [
+   36.1627,
+   -86.7816
+  ],
+  "wiki": "Nashville, Tennessee",
+  "cover": "Ryman Auditorium",
+  "seasons": "LLSSHHHHSHSL",
+  "tagline": "Music City's honky-tonks and hot chicken",
+  "summary": "Nashville is the capital of country music. Hear live bands at all hours on Broadway's honky-tonks, see a show at the Grand Ole Opry or the Ryman, tour the Country Music Hall of Fame and eat fiery hot chicken.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are mild. June brings CMA Fest; summers are hot and humid.",
+  "arrival": "Nashville International Airport is 15 minutes from downtown.",
+  "gettingAround": "Walk downtown; rideshare elsewhere.",
+  "foodTip": "Nashville hot chicken, meat-and-three and biscuits.",
+  "buyTip": "Cowboy boots and vinyl records.",
+  "baseArea": "Downtown or The Gulch",
+  "hotel": [
+   180,
+   450
+  ],
+  "connections": [
+   {
+    "to": "new-orleans",
+    "mode": "Flight",
+    "minutes": 95,
+    "note": "Daily flights."
+   },
+   {
+    "to": "chicago",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Many flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Lower Broadway honky-tonks",
+    "kind": "see",
+    "id": "nsh-broadway",
+    "at": [
+     36.1612,
+     -86.7775
+    ],
+    "wiki": "Lower Broadway",
+    "area": "Downtown",
+    "summary": "Bars with free live country music from morning till late.",
+    "expect": "No cover; tip the band.",
+    "tip": "Start at Robert's Western World.",
+    "why": "Music City in action.",
+    "flow": [
+     "Bar hop.",
+     "Tip the bands."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Ryman Auditorium",
+    "kind": "see",
+    "id": "nsh-ryman",
+    "at": [
+     36.1612,
+     -86.7785
+    ],
+    "wiki": "Ryman Auditorium",
+    "area": "Downtown",
+    "summary": "The 'Mother Church of Country Music', a former tabernacle.",
+    "expect": "Tours by day, shows at night.",
+    "tip": "Catch a concert here.",
+    "why": "Legendary acoustics.",
+    "flow": [
+     "Tour.",
+     "Show."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Country Music Hall of Fame",
+    "kind": "see",
+    "id": "nsh-halloffame",
+    "at": [
+     36.1583,
+     -86.776
+    ],
+    "wiki": "Country Music Hall of Fame and Museum",
+    "area": "Downtown",
+    "summary": "Elvis's gold Cadillac, costumes and instruments.",
+    "expect": "Allow 2-3 hours.",
+    "tip": "Add the RCA Studio B tour.",
+    "why": "Country history.",
+    "flow": [
+     "Galleries.",
+     "Studio B."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Grand Ole Opry",
+    "kind": "see",
+    "id": "nsh-opry",
+    "at": [
+     36.2066,
+     -86.6922
+    ],
+    "wiki": "Grand Ole Opry",
+    "area": "Music Valley",
+    "summary": "The world's longest-running radio show, live on stage.",
+    "expect": "Shows most weekends.",
+    "tip": "Book ahead.",
+    "why": "Country institution.",
+    "flow": [
+     "Show.",
+     "Backstage tour."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     120
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "The Parthenon",
+    "kind": "see",
+    "id": "nsh-parthenon",
+    "at": [
+     36.1497,
+     -86.8133
+    ],
+    "wiki": "Parthenon (Nashville)",
+    "area": "Centennial Park",
+    "summary": "A full-scale replica with a 42-foot Athena.",
+    "expect": "Art museum inside.",
+    "tip": "See Athena.",
+    "why": "Quirky landmark.",
+    "flow": [
+     "Athena.",
+     "Gallery."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "East Nashville",
+    "kind": "see",
+    "id": "nsh-eastnash",
+    "at": [
+     36.178,
+     -86.75
+    ],
+    "wiki": "East Nashville",
+    "area": "East",
+    "summary": "Indie bars, music venues and food.",
+    "expect": "Local vibe.",
+    "tip": "Catch a songwriter night.",
+    "why": "Real local scene.",
+    "flow": [
+     "Bars.",
+     "Venues."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment",
+     "Food"
+    ]
+   },
+   {
+    "name": "Hot chicken",
+    "kind": "eat",
+    "id": "nsh-hotchicken",
+    "at": [
+     36.1635,
+     -86.7745
+    ],
+    "wiki": "Hot chicken",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Cayenne-fired fried chicken on white bread with pickles.",
+    "expect": "Heat levels from mild to dangerous.",
+    "tip": "Try Prince's or Hattie B's.",
+    "why": "Nashville's dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southern",
+    "order": [
+     "Hot chicken"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Meat-and-three",
+    "kind": "eat",
+    "id": "nsh-meat3",
+    "at": [
+     36.155,
+     -86.79
+    ],
+    "wiki": "Meat and three",
+    "area": "Midtown",
+    "venue": "food-area",
+    "summary": "Pick a meat and three Southern sides.",
+    "expect": "Lunch spots.",
+    "tip": "Try Arnold's.",
+    "why": "Southern classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southern",
+    "order": [
+     "Fried chicken",
+     "Mac and cheese"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Biscuits",
+    "kind": "eat",
+    "id": "nsh-biscuits",
+    "at": [
+     36.154,
+     -86.79
+    ],
+    "wiki": "Biscuit",
+    "area": "Midtown",
+    "venue": "food-area",
+    "summary": "Fluffy biscuits with gravy.",
+    "expect": "Breakfast queues.",
+    "tip": "Try Biscuit Love.",
+    "why": "Southern breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southern",
+    "order": [
+     "Biscuits and gravy"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "austin",
+  "name": "Austin",
+  "at": [
+   30.2672,
+   -97.7431
+  ],
+  "wiki": "Austin, Texas",
+  "cover": "Texas State Capitol",
+  "seasons": "SSHSHLLLSHSL",
+  "tagline": "Live music, barbecue and bats",
+  "summary": "Austin is Texas's laid-back capital and the 'Live Music Capital of the World'. Eat brisket at legendary smokehouses, swim at Barton Springs, watch 1.5 million bats leave the Congress Avenue Bridge and hear bands on Sixth Street.",
+  "days": 3,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are pleasant; summer is very hot. SXSW (March) and ACL Fest (October) fill hotels.",
+  "arrival": "Austin-Bergstrom Airport is 20 minutes away.",
+  "gettingAround": "Rideshare, scooters and buses.",
+  "foodTip": "Brisket, breakfast tacos and Tex-Mex.",
+  "buyTip": "Cowboy boots and local art on South Congress.",
+  "baseArea": "Downtown or South Congress",
+  "hotel": [
+   170,
+   450
+  ],
+  "connections": [
+   {
+    "to": "new-orleans",
+    "mode": "Flight",
+    "minutes": 85,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Congress Avenue Bridge bats",
+    "kind": "see",
+    "id": "aus-bats",
+    "at": [
+     30.2615,
+     -97.7451
+    ],
+    "wiki": "Congress Avenue Bridge",
+    "area": "Downtown",
+    "summary": "The largest urban bat colony emerges at dusk.",
+    "expect": "March to October.",
+    "tip": "Watch from a boat or the bank.",
+    "why": "Unique spectacle.",
+    "flow": [
+     "Find a spot.",
+     "Bats at dusk."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Barton Springs Pool",
+    "kind": "see",
+    "id": "aus-barton",
+    "at": [
+     30.264,
+     -97.771
+    ],
+    "wiki": "Barton Springs Pool",
+    "area": "Zilker Park",
+    "summary": "Spring-fed pool at a constant 20°C.",
+    "expect": "Small fee.",
+    "tip": "Go on a hot afternoon.",
+    "why": "Austin's swimming hole.",
+    "flow": [
+     "Swim.",
+     "Picnic."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Texas State Capitol",
+    "kind": "see",
+    "id": "aus-capitol",
+    "at": [
+     30.2747,
+     -97.7404
+    ],
+    "wiki": "Texas State Capitol",
+    "area": "Downtown",
+    "summary": "Taller than the US Capitol, with free tours.",
+    "expect": "Free.",
+    "tip": "Look up into the dome.",
+    "why": "Texas pride.",
+    "flow": [
+     "Rotunda.",
+     "Grounds."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Sixth Street and Red River",
+    "kind": "see",
+    "id": "aus-sixth",
+    "at": [
+     30.2672,
+     -97.739
+    ],
+    "wiki": "Sixth Street (Austin, Texas)",
+    "area": "Downtown",
+    "summary": "Bars and venues with live music every night.",
+    "expect": "Rowdy at weekends.",
+    "tip": "Red River for indie bands.",
+    "why": "Live music capital.",
+    "flow": [
+     "Venues.",
+     "Bands."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "South Congress",
+    "kind": "see",
+    "id": "aus-soco",
+    "at": [
+     30.25,
+     -97.749
+    ],
+    "wiki": "South Congress",
+    "area": "SoCo",
+    "summary": "Vintage shops, food trucks and Capitol views.",
+    "expect": "Strolling street.",
+    "tip": "See the 'I love you so much' mural.",
+    "why": "Austin's quirky side.",
+    "flow": [
+     "Shops.",
+     "Murals."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "LBJ Presidential Library",
+    "kind": "see",
+    "id": "aus-lbj",
+    "at": [
+     30.2858,
+     -97.7292
+    ],
+    "wiki": "Lyndon Baines Johnson Library and Museum",
+    "area": "UT campus",
+    "summary": "Civil rights era history.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the Oval Office replica.",
+    "why": "US history.",
+    "flow": [
+     "Exhibits.",
+     "Oval Office replica."
+    ],
+    "hours": 2,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Texas barbecue",
+    "kind": "eat",
+    "id": "aus-bbq",
+    "at": [
+     30.2701,
+     -97.7313
+    ],
+    "wiki": "Barbecue in Texas",
+    "area": "East Austin",
+    "venue": "food-area",
+    "summary": "Smoked brisket by the pound.",
+    "expect": "Queues at the famous spots.",
+    "tip": "Get to Franklin early or try La Barbecue.",
+    "why": "Texas essential.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Texan",
+    "order": [
+     "Brisket",
+     "Ribs"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Breakfast tacos",
+    "kind": "eat",
+    "id": "aus-tacos",
+    "at": [
+     30.26,
+     -97.74
+    ],
+    "wiki": "Breakfast taco",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Egg, potato and bacon in tortillas.",
+    "expect": "Morning.",
+    "tip": "Try Veracruz All Natural.",
+    "why": "Austin ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     12
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tex-Mex",
+    "order": [
+     "Migas taco"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Tex-Mex and queso",
+    "kind": "eat",
+    "id": "aus-texmex",
+    "at": [
+     30.25,
+     -97.75
+    ],
+    "wiki": "Tex-Mex",
+    "area": "South Austin",
+    "venue": "food-area",
+    "summary": "Enchiladas and queso dip.",
+    "expect": "Margaritas too.",
+    "tip": "Order queso.",
+    "why": "Texan comfort.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tex-Mex",
+    "order": [
+     "Queso",
+     "Enchiladas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "philadelphia",
+  "name": "Philadelphia",
+  "at": [
+   39.9526,
+   -75.1652
+  ],
+  "wiki": "Philadelphia",
+  "cover": "Independence Hall",
+  "seasons": "LLSSHHHHSHSL",
+  "tagline": "Birthplace of American independence",
+  "summary": "Philadelphia is where the Declaration of Independence and the Constitution were signed. See the Liberty Bell and Independence Hall, run the 'Rocky Steps' at the art museum, wander Reading Terminal Market and eat a cheesesteak.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are best; summers are humid and winters cold.",
+  "arrival": "Philadelphia Airport is 20 minutes away; trains from New York take about 1.5 hours.",
+  "gettingAround": "Walk the centre; SEPTA subway and buses.",
+  "foodTip": "Cheesesteaks, soft pretzels and roast pork sandwiches.",
+  "buyTip": "Antiques on Pine Street.",
+  "baseArea": "Old City or Center City",
+  "hotel": [
+   170,
+   400
+  ],
+  "connections": [
+   {
+    "to": "new-york",
+    "mode": "Train",
+    "minutes": 80,
+    "note": "Amtrak and NJ Transit."
+   },
+   {
+    "to": "washington-dc",
+    "mode": "Train",
+    "minutes": 100,
+    "note": "Amtrak."
+   }
+  ],
+  "items": [
+   {
+    "name": "Independence Hall",
+    "kind": "see",
+    "id": "phl-independence",
+    "at": [
+     39.9489,
+     -75.15
+    ],
+    "wiki": "Independence Hall",
+    "area": "Old City",
+    "summary": "Where the Declaration and Constitution were debated and signed.",
+    "expect": "Free timed tickets.",
+    "tip": "Book tickets online.",
+    "why": "Birthplace of the USA.",
+    "flow": [
+     "Tour.",
+     "Assembly Room."
+    ],
+    "hours": 1,
+    "price": [
+     1,
+     1
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Liberty Bell",
+    "kind": "see",
+    "id": "phl-libertybell",
+    "at": [
+     39.9496,
+     -75.1503
+    ],
+    "wiki": "Liberty Bell",
+    "area": "Old City",
+    "summary": "The cracked bell, icon of freedom.",
+    "expect": "Free; security line.",
+    "tip": "Go early.",
+    "why": "American icon.",
+    "flow": [
+     "Exhibits.",
+     "Bell."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Philadelphia Museum of Art and Rocky Steps",
+    "kind": "see",
+    "id": "phl-artmuseum",
+    "at": [
+     39.9656,
+     -75.181
+    ],
+    "wiki": "Philadelphia Museum of Art",
+    "area": "Parkway",
+    "summary": "A great art museum with the famous Rocky Steps.",
+    "expect": "Allow half a day.",
+    "tip": "Run the steps at sunrise.",
+    "why": "Art and a movie moment.",
+    "flow": [
+     "Steps.",
+     "Galleries."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Barnes Foundation",
+    "kind": "see",
+    "id": "phl-barnes",
+    "at": [
+     39.9606,
+     -75.1727
+    ],
+    "wiki": "Barnes Foundation",
+    "area": "Parkway",
+    "summary": "Renoirs, Cézannes and Matisses hung in quirky ensembles.",
+    "expect": "Timed tickets.",
+    "tip": "Book ahead.",
+    "why": "Unique collection.",
+    "flow": [
+     "Start with the timed galleries.",
+     "Linger at the highlights."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Reading Terminal Market",
+    "kind": "see",
+    "id": "phl-reading",
+    "at": [
+     39.9533,
+     -75.159
+    ],
+    "wiki": "Reading Terminal Market",
+    "area": "Center City",
+    "summary": "A historic indoor market with Amish stalls.",
+    "expect": "Crowded at lunch.",
+    "tip": "Try a roast pork sandwich at DiNic's.",
+    "why": "Food heaven.",
+    "flow": [
+     "Stalls.",
+     "Lunch."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Elfreth's Alley",
+    "kind": "see",
+    "id": "phl-elfreth",
+    "at": [
+     39.9527,
+     -75.1425
+    ],
+    "wiki": "Elfreth's Alley",
+    "area": "Old City",
+    "summary": "America's oldest continuously inhabited street.",
+    "expect": "Residents live here.",
+    "tip": "Stay quiet.",
+    "why": "Colonial charm.",
+    "flow": [
+     "Walk.",
+     "Museum house."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mural Arts tours",
+    "kind": "see",
+    "id": "phl-murals",
+    "at": [
+     39.95,
+     -75.16
+    ],
+    "wiki": "Mural Arts Program",
+    "area": "Citywide",
+    "summary": "Thousands of murals across the city.",
+    "expect": "Walking or trolley tours.",
+    "tip": "Book a guided tour.",
+    "why": "Open-air gallery.",
+    "flow": [
+     "Tour.",
+     "Murals."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Cheesesteak",
+    "kind": "eat",
+    "id": "phl-cheesesteak",
+    "at": [
+     39.9339,
+     -75.159
+    ],
+    "wiki": "Cheesesteak",
+    "area": "South Philly",
+    "venue": "food-area",
+    "summary": "Thin steak, onions and cheese on a roll.",
+    "expect": "Order fast: 'whiz wit'.",
+    "tip": "Try John's Roast Pork or Dalessandro's.",
+    "why": "Philly classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Cheesesteak"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Soft pretzels",
+    "kind": "eat",
+    "id": "phl-pretzel",
+    "at": [
+     39.95,
+     -75.16
+    ],
+    "wiki": "Philadelphia-style soft pretzel",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Figure-eight soft pretzels.",
+    "expect": "Cheap.",
+    "tip": "Add mustard.",
+    "why": "Street snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.2,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Soft pretzel"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Italian Market",
+    "kind": "eat",
+    "id": "phl-italianmarket",
+    "at": [
+     39.938,
+     -75.158
+    ],
+    "wiki": "Italian Market",
+    "area": "South Philly",
+    "venue": "food-area",
+    "summary": "America's oldest outdoor market.",
+    "expect": "Mornings.",
+    "tip": "Try cannoli.",
+    "why": "Old-school food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Italian-American",
+    "order": [
+     "Cannoli",
+     "Sandwiches"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "charleston",
+  "name": "Charleston",
+  "at": [
+   32.7765,
+   -79.9311
+  ],
+  "wiki": "Charleston, South Carolina",
+  "cover": "Rainbow Row",
+  "seasons": "SSHHHSSSSHSL",
+  "tagline": "Pastel houses, oak alleys and Lowcountry food",
+  "summary": "Charleston is a graceful Southern port of pastel Rainbow Row, cobbled lanes, church steeples and grand plantations. It's also one of America's great food cities, and the place to confront the history of slavery at sites like McLeod Plantation.",
+  "days": 3,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring is lovely with azaleas; summer is hot and humid; hurricane season June to November.",
+  "arrival": "Charleston Airport is 20 minutes away.",
+  "gettingAround": "Walk the peninsula; car for plantations and beaches.",
+  "foodTip": "Shrimp and grits, she-crab soup and Lowcountry boil.",
+  "buyTip": "Sweetgrass baskets.",
+  "baseArea": "Historic district",
+  "hotel": [
+   220,
+   550
+  ],
+  "connections": [
+   {
+    "to": "washington-dc",
+    "mode": "Flight",
+    "minutes": 95,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Rainbow Row and the Battery",
+    "kind": "see",
+    "id": "chs-rainbow",
+    "at": [
+     32.775,
+     -79.927
+    ],
+    "wiki": "Rainbow Row",
+    "area": "Historic district",
+    "summary": "Pastel Georgian houses and the waterfront promenade.",
+    "expect": "Free.",
+    "tip": "Walk at golden hour.",
+    "why": "Charleston's postcard.",
+    "flow": [
+     "Rainbow Row.",
+     "Battery.",
+     "White Point Garden."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Fort Sumter",
+    "kind": "see",
+    "id": "chs-sumter",
+    "at": [
+     32.7522,
+     -79.8747
+    ],
+    "wiki": "Fort Sumter",
+    "area": "Harbour",
+    "summary": "Where the Civil War began, by ferry.",
+    "expect": "Ferry from Liberty Square.",
+    "tip": "Book the morning boat.",
+    "why": "Pivotal history.",
+    "flow": [
+     "Ferry.",
+     "Fort."
+    ],
+    "hours": 2.5,
+    "price": [
+     35,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "McLeod Plantation",
+    "kind": "see",
+    "id": "chs-mcleod",
+    "at": [
+     32.766,
+     -79.975
+    ],
+    "wiki": "McLeod Plantation",
+    "area": "James Island",
+    "summary": "A plantation interpreted through the lives of the enslaved.",
+    "expect": "Guided tours.",
+    "tip": "Take the guided tour.",
+    "why": "Honest history.",
+    "flow": [
+     "Tour.",
+     "Cabins."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Magnolia Plantation gardens",
+    "kind": "see",
+    "id": "chs-magnolia",
+    "at": [
+     32.874,
+     -80.086
+    ],
+    "wiki": "Magnolia Plantation and Gardens",
+    "area": "Ashley River",
+    "summary": "America's oldest public gardens.",
+    "expect": "Allow half a day.",
+    "tip": "Spring blooms are stunning.",
+    "why": "Beautiful gardens.",
+    "flow": [
+     "Gardens.",
+     "From Slavery to Freedom tour."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Charleston City Market",
+    "kind": "see",
+    "id": "chs-market",
+    "at": [
+     32.7808,
+     -79.9302
+    ],
+    "wiki": "Charleston City Market",
+    "area": "Historic district",
+    "summary": "Market stalls with sweetgrass baskets.",
+    "expect": "Busy.",
+    "tip": "Buy direct from weavers.",
+    "why": "Gullah craft.",
+    "flow": [
+     "Browse the stalls.",
+     "Watch the basket weavers."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Folly Beach",
+    "kind": "see",
+    "id": "chs-folly",
+    "at": [
+     32.655,
+     -79.94
+    ],
+    "wiki": "Folly Beach, South Carolina",
+    "area": "Folly",
+    "summary": "Laid-back beach with a pier.",
+    "expect": "20 minutes' drive.",
+    "tip": "Sunset on the pier.",
+    "why": "Beach day.",
+    "flow": [
+     "Swim.",
+     "Pier."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Shrimp and grits",
+    "kind": "eat",
+    "id": "chs-shrimpgrits",
+    "at": [
+     32.779,
+     -79.932
+    ],
+    "wiki": "Shrimp and grits",
+    "area": "Historic district",
+    "venue": "food-area",
+    "summary": "Lowcountry shrimp over creamy grits.",
+    "expect": "Everywhere.",
+    "tip": "Try at Husk or Hominy Grill.",
+    "why": "Lowcountry classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lowcountry",
+    "order": [
+     "Shrimp and grits"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "She-crab soup",
+    "kind": "eat",
+    "id": "chs-shecrab",
+    "at": [
+     32.78,
+     -79.93
+    ],
+    "wiki": "She-crab soup",
+    "area": "Historic district",
+    "venue": "food-area",
+    "summary": "Creamy crab and roe soup with sherry.",
+    "expect": "Starters.",
+    "tip": "Splash in sherry.",
+    "why": "Charleston speciality.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lowcountry",
+    "order": [
+     "She-crab soup"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Callie's biscuits",
+    "kind": "eat",
+    "id": "chs-biscuits",
+    "at": [
+     32.78,
+     -79.93
+    ],
+    "wiki": "Biscuit",
+    "area": "Historic district",
+    "venue": "food-area",
+    "summary": "Hot biscuits, often with ham.",
+    "expect": "Breakfast.",
+    "tip": "Try Callie's Hot Little Biscuit.",
+    "why": "Southern morning.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southern",
+    "order": [
+     "Biscuits"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "savannah",
+  "name": "Savannah",
+  "at": [
+   32.0809,
+   -81.0912
+  ],
+  "wiki": "Savannah, Georgia",
+  "cover": "Forsyth Park",
+  "seasons": "SSHHHSSSSHSL",
+  "tagline": "Shady squares draped in Spanish moss",
+  "summary": "Savannah is a beautifully preserved Southern city laid out around 22 leafy squares. Walk under moss-draped live oaks to Forsyth Park's fountain, tour antebellum mansions, stroll River Street and visit Bonaventure Cemetery.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring is lovely with azaleas; St Patrick's Day is huge. Summers are hot.",
+  "arrival": "Savannah/Hilton Head Airport is 20 minutes away.",
+  "gettingAround": "Walk the squares; free DOT shuttle.",
+  "foodTip": "Fried chicken, pralines and Lowcountry boil.",
+  "buyTip": "Pralines and local art from SCAD.",
+  "baseArea": "Historic district",
+  "hotel": [
+   180,
+   450
+  ],
+  "connections": [
+   {
+    "to": "charleston",
+    "mode": "Car",
+    "minutes": 135,
+    "note": "Drive or bus."
+   }
+  ],
+  "items": [
+   {
+    "name": "Forsyth Park",
+    "kind": "see",
+    "id": "sav-forsyth",
+    "at": [
+     32.067,
+     -81.0957
+    ],
+    "wiki": "Forsyth Park",
+    "area": "Historic district",
+    "summary": "The city's big park with an iconic white fountain.",
+    "expect": "Free.",
+    "tip": "Go Saturday for the farmers market.",
+    "why": "Savannah icon.",
+    "flow": [
+     "Fountain.",
+     "Oak alleys."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Historic squares",
+    "kind": "see",
+    "id": "sav-squares",
+    "at": [
+     32.076,
+     -81.093
+    ],
+    "wiki": "Squares of Savannah",
+    "area": "Historic district",
+    "summary": "22 shady squares with monuments and mansions.",
+    "expect": "Walk.",
+    "tip": "See Chippewa and Monterey squares.",
+    "why": "City plan from 1733.",
+    "flow": [
+     "Squares walk.",
+     "Mansions."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Bonaventure Cemetery",
+    "kind": "see",
+    "id": "sav-bonaventure",
+    "at": [
+     32.045,
+     -81.047
+    ],
+    "wiki": "Bonaventure Cemetery",
+    "area": "East",
+    "summary": "Atmospheric cemetery with moss-draped oaks.",
+    "expect": "Short drive.",
+    "tip": "Go in soft light.",
+    "why": "Haunting beauty.",
+    "flow": [
+     "Walk.",
+     "Statues."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mercer-Williams House",
+    "kind": "see",
+    "id": "sav-mercer",
+    "at": [
+     32.0715,
+     -81.0955
+    ],
+    "wiki": "Mercer House",
+    "area": "Monterey Square",
+    "summary": "Mansion made famous by 'Midnight in the Garden of Good and Evil'.",
+    "expect": "Tours.",
+    "tip": "Book a tour.",
+    "why": "Literary fame.",
+    "flow": [
+     "Tour.",
+     "Gardens."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "River Street",
+    "kind": "see",
+    "id": "sav-river",
+    "at": [
+     32.081,
+     -81.09
+    ],
+    "wiki": "River Street",
+    "area": "Waterfront",
+    "summary": "Cobbled riverfront of old cotton warehouses.",
+    "expect": "Lively at night.",
+    "tip": "Watch the container ships pass.",
+    "why": "Waterfront strolling.",
+    "flow": [
+     "Walk.",
+     "Shops."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Tybee Island",
+    "kind": "see",
+    "id": "sav-tybee",
+    "at": [
+     32.001,
+     -80.846
+    ],
+    "wiki": "Tybee Island, Georgia",
+    "area": "Tybee",
+    "summary": "Beach town with a lighthouse.",
+    "expect": "30 minutes' drive.",
+    "tip": "Climb the lighthouse.",
+    "why": "Beach escape.",
+    "flow": [
+     "Lighthouse.",
+     "Beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Southern fried chicken",
+    "kind": "eat",
+    "id": "sav-chicken",
+    "at": [
+     32.075,
+     -81.095
+    ],
+    "wiki": "Fried chicken",
+    "area": "Historic district",
+    "venue": "food-area",
+    "summary": "Family-style Southern meals at shared tables.",
+    "expect": "Queues.",
+    "tip": "Mrs. Wilkes' Dining Room.",
+    "why": "Southern feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     35
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southern",
+    "order": [
+     "Fried chicken",
+     "Sides"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Pralines",
+    "kind": "eat",
+    "id": "sav-pralines",
+    "at": [
+     32.081,
+     -81.09
+    ],
+    "wiki": "Praline",
+    "area": "River Street",
+    "venue": "food-area",
+    "summary": "Pecan and sugar sweets made fresh.",
+    "expect": "Shops on River Street.",
+    "tip": "Try one warm.",
+    "why": "Sweet souvenir.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     3,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southern",
+    "order": [
+     "Pralines"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Lowcountry boil",
+    "kind": "eat",
+    "id": "sav-lowcountry",
+    "at": [
+     32.08,
+     -81.09
+    ],
+    "wiki": "Lowcountry boil",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Shrimp, corn, potatoes and sausage.",
+    "expect": "Seafood restaurants.",
+    "tip": "Share a big pot.",
+    "why": "Coastal feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     40
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lowcountry",
+    "order": [
+     "Lowcountry boil"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "maui",
+  "name": "Maui",
+  "at": [
+   20.8893,
+   -156.4729
+  ],
+  "wiki": "Maui",
+  "cover": "Haleakalā",
+  "seasons": "HHHSSSHHSSSH",
+  "tagline": "Volcano sunrises, the Road to Hana and whales",
+  "summary": "Maui is Hawaii's second-largest island: watch the sunrise above the clouds at Haleakalā, drive the winding Road to Hana past waterfalls, snorkel at Molokini and see humpback whales in winter. Respect areas recovering from the 2023 Lahaina fires.",
+  "days": 5,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10
+  ],
+  "seasonNote": "Whale season December to April; spring and autumn have fewer crowds.",
+  "arrival": "Kahului Airport (OGG); inter-island flights from Honolulu.",
+  "gettingAround": "Rent a car.",
+  "foodTip": "Poke, shave ice and plate lunch.",
+  "buyTip": "Maui-grown coffee and local crafts.",
+  "baseArea": "Kihei or Wailea",
+  "hotel": [
+   300,
+   900
+  ],
+  "connections": [
+   {
+    "to": "honolulu",
+    "mode": "Flight",
+    "minutes": 40,
+    "note": "Frequent inter-island flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Haleakalā sunrise",
+    "kind": "see",
+    "id": "mau-haleakala",
+    "at": [
+     20.7097,
+     -156.2533
+    ],
+    "wiki": "Haleakalā National Park",
+    "area": "Upcountry",
+    "summary": "Sunrise from the 3,055 m summit above the clouds.",
+    "expect": "Sunrise reservation required; freezing at the top.",
+    "tip": "Book the reservation 60 days ahead.",
+    "why": "Unforgettable sunrise.",
+    "flow": [
+     "Pre-dawn drive.",
+     "Sunrise.",
+     "Crater trail."
+    ],
+    "hours": 5,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Road to Hana",
+    "kind": "see",
+    "id": "mau-hana",
+    "at": [
+     20.7575,
+     -155.9884
+    ],
+    "wiki": "Hana Highway",
+    "area": "East Maui",
+    "summary": "620 curves, waterfalls and black-sand beaches.",
+    "expect": "Full day; drive carefully.",
+    "tip": "Reserve Waiʻānapanapa ahead.",
+    "why": "Epic drive.",
+    "flow": [
+     "Twin Falls.",
+     "Waiʻānapanapa.",
+     "Hana town."
+    ],
+    "hours": 10,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Molokini snorkelling",
+    "kind": "see",
+    "id": "mau-molokini",
+    "at": [
+     20.633,
+     -156.496
+    ],
+    "wiki": "Molokini",
+    "area": "Offshore",
+    "summary": "Crescent crater reef with clear water.",
+    "expect": "Morning boats.",
+    "tip": "Go early for calm seas.",
+    "why": "Top snorkel site.",
+    "flow": [
+     "Boat.",
+     "Snorkel."
+    ],
+    "hours": 5,
+    "price": [
+     100,
+     180
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Whale watching",
+    "kind": "see",
+    "id": "mau-whales",
+    "at": [
+     20.75,
+     -156.55
+    ],
+    "wiki": "Humpback whale",
+    "area": "Maalaea",
+    "summary": "Humpbacks breach in winter.",
+    "expect": "December to April.",
+    "tip": "Choose a non-profit tour.",
+    "why": "Whale nursery.",
+    "flow": [
+     "Boat.",
+     "Whales."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "ʻĪao Valley",
+    "kind": "see",
+    "id": "mau-iao",
+    "at": [
+     20.881,
+     -156.545
+    ],
+    "wiki": "ʻĪao Valley State Monument",
+    "area": "Wailuku",
+    "summary": "A lush valley with the ʻĪao Needle.",
+    "expect": "Reservations for non-residents.",
+    "tip": "Go early.",
+    "why": "Sacred site.",
+    "flow": [
+     "Walk.",
+     "Needle view."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Wailea beaches",
+    "kind": "see",
+    "id": "mau-wailea",
+    "at": [
+     20.69,
+     -156.442
+    ],
+    "wiki": "Wailea, Hawaii",
+    "area": "South Maui",
+    "summary": "Golden beaches and coastal walk.",
+    "expect": "Public access paths.",
+    "tip": "Snorkel at Ulua Beach.",
+    "why": "Beach days.",
+    "flow": [
+     "Swim.",
+     "Coastal walk."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Poke",
+    "kind": "eat",
+    "id": "mau-poke",
+    "at": [
+     20.89,
+     -156.47
+    ],
+    "wiki": "Poke (Hawaiian dish)",
+    "area": "Kahului",
+    "venue": "food-area",
+    "summary": "Cubed raw fish with soy and seaweed.",
+    "expect": "Grocery counters are great.",
+    "tip": "Try ahi shoyu.",
+    "why": "Hawaiian staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hawaiian",
+    "order": [
+     "Ahi poke"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Shave ice",
+    "kind": "eat",
+    "id": "mau-shaveice",
+    "at": [
+     20.76,
+     -156.45
+    ],
+    "wiki": "Shave ice",
+    "area": "Kihei",
+    "venue": "food-area",
+    "summary": "Fluffy ice with tropical syrups.",
+    "expect": "Afternoons.",
+    "tip": "Add ice cream base.",
+    "why": "Island treat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hawaiian",
+    "order": [
+     "Shave ice"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Plate lunch",
+    "kind": "eat",
+    "id": "mau-platelunch",
+    "at": [
+     20.88,
+     -156.46
+    ],
+    "wiki": "Plate lunch",
+    "area": "Kahului",
+    "venue": "food-area",
+    "summary": "Rice, mac salad and kalua pork.",
+    "expect": "Cheap and filling.",
+    "tip": "Order kalua pig.",
+    "why": "Local lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hawaiian",
+    "order": [
+     "Kalua pig plate"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "id": "santa-fe",
+  "name": "Santa Fe",
+  "at": [
+   35.687,
+   -105.9378
+  ],
+  "wiki": "Santa Fe, New Mexico",
+  "cover": "Loretto Chapel",
+  "seasons": "LLSSHHHHHHSH",
+  "tagline": "Adobe art city in the high desert",
+  "summary": "Santa Fe is a 400-year-old adobe capital at 2,100 m, famous for its art: Canyon Road galleries, the Georgia O'Keeffe Museum and Meow Wolf's immersive installation. It's also known for red-or-green chile cuisine and Pueblo culture nearby.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Summer has markets and monsoon storms; autumn is golden; winter brings snow and farolitos.",
+  "arrival": "Fly into Albuquerque (1 hour) or Santa Fe's small airport.",
+  "gettingAround": "Walk the plaza; car for Taos and Bandelier.",
+  "foodTip": "Green chile everything, sopaipillas and posole.",
+  "buyTip": "Native American jewellery under the Palace portal.",
+  "baseArea": "Downtown near the Plaza",
+  "hotel": [
+   170,
+   450
+  ],
+  "connections": [
+   {
+    "to": "flagstaff",
+    "mode": "Car",
+    "minutes": 330,
+    "note": "Drive I-40."
+   }
+  ],
+  "items": [
+   {
+    "name": "Plaza and Palace of the Governors",
+    "kind": "see",
+    "id": "sfe-plaza",
+    "at": [
+     35.687,
+     -105.9378
+    ],
+    "wiki": "Palace of the Governors",
+    "area": "Downtown",
+    "summary": "Native artists sell jewellery under the oldest public building in the US.",
+    "expect": "Buy direct from artists.",
+    "tip": "Ask about the maker's work.",
+    "why": "Historic heart.",
+    "flow": [
+     "Portal market.",
+     "Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     12
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Canyon Road galleries",
+    "kind": "see",
+    "id": "sfe-canyon",
+    "at": [
+     35.681,
+     -105.927
+    ],
+    "wiki": "Canyon Road",
+    "area": "Canyon Road",
+    "summary": "Over 100 galleries in adobe houses.",
+    "expect": "Walk up the hill.",
+    "tip": "Go on a Friday art walk.",
+    "why": "Art capital.",
+    "flow": [
+     "Galleries.",
+     "Sculpture gardens."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Georgia O'Keeffe Museum",
+    "kind": "see",
+    "id": "sfe-okeeffe",
+    "at": [
+     35.689,
+     -105.942
+    ],
+    "wiki": "Georgia O'Keeffe Museum",
+    "area": "Downtown",
+    "summary": "The largest collection of O'Keeffe's work.",
+    "expect": "Timed tickets.",
+    "tip": "Combine with Abiquiú.",
+    "why": "Iconic artist.",
+    "flow": [
+     "Start with the timed galleries.",
+     "Linger at the highlights."
+    ],
+    "hours": 1.5,
+    "price": [
+     22,
+     22
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Meow Wolf House of Eternal Return",
+    "kind": "see",
+    "id": "sfe-meowwolf",
+    "at": [
+     35.655,
+     -105.996
+    ],
+    "wiki": "Meow Wolf",
+    "area": "Siler",
+    "summary": "An immersive art maze in a fantasy house.",
+    "expect": "Timed entry.",
+    "tip": "Look for secret passages.",
+    "why": "Mind-bending fun.",
+    "flow": [
+     "Explore.",
+     "Secret doors."
+    ],
+    "hours": 2.5,
+    "price": [
+     45,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Loretto Chapel",
+    "kind": "see",
+    "id": "sfe-loretto",
+    "at": [
+     35.685,
+     -105.937
+    ],
+    "wiki": "Loretto Chapel",
+    "area": "Downtown",
+    "summary": "The 'Miraculous Staircase' with no central support.",
+    "expect": "Small fee.",
+    "tip": "Look at the staircase spiral.",
+    "why": "Legend and craft.",
+    "flow": [
+     "Step inside.",
+     "Study the staircase spiral."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Bandelier National Monument",
+    "kind": "see",
+    "id": "sfe-bandelier",
+    "at": [
+     35.779,
+     -106.27
+    ],
+    "wiki": "Bandelier National Monument",
+    "area": "Los Alamos",
+    "summary": "Ancestral Pueblo cliff dwellings with ladders.",
+    "expect": "45 minutes' drive.",
+    "tip": "Climb to Alcove House.",
+    "why": "Ancient homes.",
+    "flow": [
+     "Main loop.",
+     "Ladders."
+    ],
+    "hours": 4,
+    "price": [
+     25,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Red or green chile",
+    "kind": "eat",
+    "id": "sfe-chile",
+    "at": [
+     35.686,
+     -105.938
+    ],
+    "wiki": "New Mexican cuisine",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Enchiladas smothered in chile, 'Christmas' for both.",
+    "expect": "Spicy.",
+    "tip": "Order Christmas.",
+    "why": "State question.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Mexican",
+    "order": [
+     "Enchiladas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Sopaipillas",
+    "kind": "eat",
+    "id": "sfe-sopaipilla",
+    "at": [
+     35.687,
+     -105.94
+    ],
+    "wiki": "Sopaipilla",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Puffy fried bread with honey.",
+    "expect": "Served with meals.",
+    "tip": "Drizzle honey.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.3,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Mexican",
+    "order": [
+     "Sopaipillas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Frito pie",
+    "kind": "eat",
+    "id": "sfe-frito",
+    "at": [
+     35.687,
+     -105.939
+    ],
+    "wiki": "Frito pie",
+    "area": "Plaza",
+    "venue": "food-area",
+    "summary": "Chili poured over Fritos.",
+    "expect": "Five & Dime counter.",
+    "tip": "Eat it on the Plaza.",
+    "why": "Quirky classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Mexican",
+    "order": [
+     "Frito pie"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]

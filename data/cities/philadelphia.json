@@ -1,0 +1,624 @@
+{
+  "id": "philadelphia",
+  "name": "Philadelphia",
+  "country": "United States",
+  "region": "North America",
+  "lat": 39.9526,
+  "lon": -75.1652,
+  "wiki": "Philadelphia",
+  "tagline": "Birthplace of American independence",
+  "summary": "Philadelphia is where the Declaration of Independence and the Constitution were signed. See the Liberty Bell and Independence Hall, run the 'Rocky Steps' at the art museum, wander Reading Terminal Market and eat a cheesesteak.",
+  "days": 2,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn are best; summers are humid and winters cold.",
+  "arrival": "Philadelphia Airport is 20 minutes away; trains from New York take about 1.5 hours.",
+  "gettingAround": "Walk the centre; SEPTA subway and buses.",
+  "cashTip": "Cards and tap work almost everywhere. Tip 18-22% at restaurants and a dollar or two per drink at bars.",
+  "dailyBudget": [
+    150,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Cheesesteaks, soft pretzels and roast pork sandwiches.",
+  "buyTip": "Antiques on Pine Street.",
+  "baseArea": "Old City or Center City",
+  "connections": [
+    {
+      "to": "new-york",
+      "mode": "Train",
+      "minutes": 80,
+      "note": "Amtrak and NJ Transit."
+    },
+    {
+      "to": "washington-dc",
+      "mode": "Train",
+      "minutes": 100,
+      "note": "Amtrak."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Philadelphia on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Philadelphia",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Philadelphia%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Philadelphia%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Independence Hall",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "philadelphia-phl-independence",
+      "name": "Independence Hall",
+      "kind": "see",
+      "lat": 39.94889,
+      "lon": -75.15,
+      "wiki": "Independence Hall",
+      "summary": "Where the Declaration and Constitution were debated and signed.",
+      "expect": "Free timed tickets.",
+      "tip": "Book tickets online.",
+      "area": "Old City",
+      "duration": 1,
+      "price": [
+        1,
+        1
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Independence%20Hall%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Independence%20Hall%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Independence%20Hall%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Where the Declaration and Constitution were debated and signed.",
+        "Birthplace of the USA."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Assembly Room."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Free timed tickets.",
+        "Book tickets online."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 153790,
+          "period": "202511-202610",
+          "title": "Independence Hall",
+          "url": "https://en.wikipedia.org/wiki/Independence_Hall",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-phl-libertybell",
+      "name": "Liberty Bell",
+      "kind": "see",
+      "lat": 39.94944,
+      "lon": -75.15028,
+      "wiki": "Liberty Bell",
+      "summary": "The cracked bell, icon of freedom.",
+      "expect": "Free; security line.",
+      "tip": "Go early.",
+      "area": "Old City",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Liberty%20Bell%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Liberty%20Bell%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Liberty%20Bell%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The cracked bell, icon of freedom.",
+        "American icon."
+      ],
+      "visitFlow": [
+        "Exhibits.",
+        "Bell."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free; security line.",
+        "Go early."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 333096,
+          "period": "202511-202610",
+          "title": "Liberty Bell",
+          "url": "https://en.wikipedia.org/wiki/Liberty_Bell",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-phl-artmuseum",
+      "name": "Philadelphia Museum of Art and Rocky Steps",
+      "kind": "see",
+      "lat": 39.966,
+      "lon": -75.181,
+      "wiki": "Philadelphia Museum of Art",
+      "summary": "A great art museum with the famous Rocky Steps.",
+      "expect": "Allow half a day.",
+      "tip": "Run the steps at sunrise.",
+      "area": "Parkway",
+      "duration": 3,
+      "price": [
+        30,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Philadelphia%20Museum%20of%20Art%20and%20Rocky%20Steps%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Philadelphia%20Museum%20of%20Art%20and%20Rocky%20Steps%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Philadelphia%20Museum%20of%20Art%20and%20Rocky%20Steps%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A great art museum with the famous Rocky Steps.",
+        "Art and a movie moment."
+      ],
+      "visitFlow": [
+        "Steps.",
+        "Galleries."
+      ],
+      "bestFor": "Visitors interested in art and craft and big views",
+      "tradeoffs": [
+        "Allow half a day.",
+        "Run the steps at sunrise."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 71721,
+          "period": "202511-202610",
+          "title": "Philadelphia Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/Philadelphia_Museum_of_Art",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-phl-barnes",
+      "name": "Barnes Foundation",
+      "kind": "see",
+      "lat": 39.9605,
+      "lon": -75.1727,
+      "wiki": "Barnes Foundation",
+      "summary": "Renoirs, Cézannes and Matisses hung in quirky ensembles.",
+      "expect": "Timed tickets.",
+      "tip": "Book ahead.",
+      "area": "Parkway",
+      "duration": 2,
+      "price": [
+        30,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Barnes%20Foundation%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Barnes%20Foundation%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Barnes%20Foundation%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Renoirs, Cézannes and Matisses hung in quirky ensembles.",
+        "Unique collection."
+      ],
+      "visitFlow": [
+        "Start with the timed galleries.",
+        "Linger at the highlights."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Timed tickets.",
+        "Book ahead."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 52731,
+          "period": "202511-202610",
+          "title": "Barnes Foundation",
+          "url": "https://en.wikipedia.org/wiki/Barnes_Foundation",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-phl-reading",
+      "name": "Reading Terminal Market",
+      "kind": "see",
+      "lat": 39.9534,
+      "lon": -75.15901,
+      "wiki": "Reading Terminal Market",
+      "summary": "A historic indoor market with Amish stalls.",
+      "expect": "Crowded at lunch.",
+      "tip": "Try a roast pork sandwich at DiNic's.",
+      "area": "Center City",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Reading%20Terminal%20Market%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Reading%20Terminal%20Market%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Reading%20Terminal%20Market%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A historic indoor market with Amish stalls.",
+        "Food heaven."
+      ],
+      "visitFlow": [
+        "Stalls.",
+        "Lunch."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Crowded at lunch.",
+        "Try a roast pork sandwich at DiNic's."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 21590,
+          "period": "202511-202610",
+          "title": "Reading Terminal Market",
+          "url": "https://en.wikipedia.org/wiki/Reading_Terminal_Market",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-phl-elfreth",
+      "name": "Elfreth's Alley",
+      "kind": "see",
+      "lat": 39.9528,
+      "lon": -75.1425,
+      "wiki": "Elfreth's Alley",
+      "summary": "America's oldest continuously inhabited street.",
+      "expect": "Residents live here.",
+      "tip": "Stay quiet.",
+      "area": "Old City",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Elfreth's%20Alley%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Elfreth's%20Alley%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Elfreth's%20Alley%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "America's oldest continuously inhabited street.",
+        "Colonial charm."
+      ],
+      "visitFlow": [
+        "Walk.",
+        "Museum house."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Residents live here.",
+        "Stay quiet."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 34611,
+          "period": "202511-202610",
+          "title": "Elfreth's Alley",
+          "url": "https://en.wikipedia.org/wiki/Elfreth's_Alley",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-phl-murals",
+      "name": "Mural Arts tours",
+      "kind": "see",
+      "lat": 39.96531,
+      "lon": -75.16695,
+      "wiki": "Mural Arts Program",
+      "summary": "Thousands of murals across the city.",
+      "expect": "Walking or trolley tours.",
+      "tip": "Book a guided tour.",
+      "area": "Citywide",
+      "duration": 2,
+      "price": [
+        0,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mural%20Arts%20tours%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Mural%20Arts%20tours%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mural%20Arts%20tours%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Thousands of murals across the city.",
+        "Open-air gallery."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Murals."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Walking or trolley tours.",
+        "Book a guided tour."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 2253,
+          "period": "202511-202610",
+          "title": "Mural Arts Philadelphia",
+          "url": "https://en.wikipedia.org/wiki/Mural_Arts_Philadelphia",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "philadelphia-phl-cheesesteak",
+      "name": "Cheesesteak",
+      "kind": "eat",
+      "lat": 39.9339,
+      "lon": -75.159,
+      "wiki": "Cheesesteak",
+      "summary": "Thin steak, onions and cheese on a roll.",
+      "expect": "Order fast: 'whiz wit'.",
+      "tip": "Try John's Roast Pork or Dalessandro's.",
+      "area": "South Philly",
+      "duration": 0.5,
+      "price": [
+        12,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cheesesteak%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Cheesesteak%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cheesesteak%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Thin steak, onions and cheese on a roll.",
+        "Philly classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Order fast: 'whiz wit'.",
+        "Try John's Roast Pork or Dalessandro's."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "American",
+      "mustOrder": [
+        "Cheesesteak"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "philadelphia-phl-pretzel",
+      "name": "Soft pretzels",
+      "kind": "eat",
+      "lat": 39.95,
+      "lon": -75.16,
+      "wiki": "Philadelphia-style soft pretzel",
+      "summary": "Figure-eight soft pretzels.",
+      "expect": "Cheap.",
+      "tip": "Add mustard.",
+      "area": "Everywhere",
+      "duration": 0.2,
+      "price": [
+        2,
+        5
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Soft%20pretzels%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Soft%20pretzels%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Soft%20pretzels%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Figure-eight soft pretzels.",
+        "Street snack."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Cheap.",
+        "Add mustard."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "American",
+      "mustOrder": [
+        "Soft pretzel"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "philadelphia-phl-italianmarket",
+      "name": "Italian Market",
+      "kind": "eat",
+      "lat": 39.939,
+      "lon": -75.1578,
+      "wiki": "Italian Market",
+      "summary": "America's oldest outdoor market.",
+      "expect": "Mornings.",
+      "tip": "Try cannoli.",
+      "area": "South Philly",
+      "duration": 1,
+      "price": [
+        10,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Italian%20Market%2C%20Philadelphia",
+        "https://www.google.com/maps/search/?api=1&query=Italian%20Market%2C%20Philadelphia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Italian%20Market%2C%20Philadelphia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "America's oldest outdoor market.",
+        "Old-school food."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Mornings.",
+        "Try cannoli."
+      ],
+      "venueType": "food-area",
+      "cuisine": "Italian-American",
+      "mustOrder": [
+        "Cannoli",
+        "Sandwiches"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
