@@ -10,9 +10,27 @@
       "since": "2027-06",
       "style": ["Early starts", "Food first", "Four stops a day"],
       "history": [
-        { "year": 2019, "country": "Italy", "cities": ["rome", "florence"], "with": [] },
-        { "year": 2022, "country": "Peru", "cities": ["cusco"], "with": ["sam"] },
-        { "year": 2024, "country": "Greece", "cities": ["athens", "santorini"], "with": ["noor"] },
+        {
+          "year": 2019,
+          "country": "Italy",
+          "cities": ["rome", "florence"],
+          "with": [],
+          "month": 5
+        },
+        {
+          "year": 2022,
+          "country": "Peru",
+          "cities": ["cusco"],
+          "with": ["sam"],
+          "month": 11
+        },
+        {
+          "year": 2024,
+          "country": "Greece",
+          "cities": ["athens", "santorini"],
+          "with": ["noor"],
+          "month": 9
+        },
         {
           "year": 2027,
           "country": "Japan",
@@ -30,7 +48,14 @@
       ],
       "wants": ["istanbul-hagia-sophia", "istanbul-galata-tower", "seoul-bukchon-hanok-village"],
       "knows": ["kyoto", "tokyo", "cusco", "athens"],
-      "next": [{ "id": "seoul-2029", "city": "seoul", "month": "2029-04", "show": false }]
+      "next": [
+        {
+          "id": "seoul-2029",
+          "city": "seoul",
+          "month": "2029-04",
+          "show": false
+        }
+      ]
     },
     "sam": {
       "name": "Sam",
@@ -39,9 +64,27 @@
       "line": "Will plan the whole day around lunch.",
       "since": "2027-06",
       "history": [
-        { "year": 2022, "country": "Peru", "cities": ["cusco", "arequipa"], "with": ["alex"] },
-        { "year": 2023, "country": "Mexico", "cities": ["mexico-city"], "with": [] },
-        { "year": 2026, "country": "Thailand", "cities": ["bangkok", "chiang-mai"], "with": [] },
+        {
+          "year": 2022,
+          "country": "Peru",
+          "cities": ["cusco", "arequipa"],
+          "with": ["alex"],
+          "month": 11
+        },
+        {
+          "year": 2023,
+          "country": "Mexico",
+          "cities": ["mexico-city"],
+          "with": [],
+          "month": 2
+        },
+        {
+          "year": 2026,
+          "country": "Thailand",
+          "cities": ["bangkok", "chiang-mai"],
+          "with": [],
+          "month": 12
+        },
         {
           "year": 2027,
           "country": "Japan",
@@ -59,7 +102,14 @@
       ],
       "wants": ["istanbul-grand-bazaar", "seoul-gyeongbokgung-palace", "hanoi-hanoi-old-quarter"],
       "knows": ["mexico-city", "bangkok", "arequipa", "osaka"],
-      "next": [{ "id": "seoul-2029", "city": "seoul", "month": "2029-04", "show": true }]
+      "next": [
+        {
+          "id": "seoul-2029",
+          "city": "seoul",
+          "month": "2029-04",
+          "show": true
+        }
+      ]
     },
     "noor": {
       "name": "Noor",
@@ -68,9 +118,27 @@
       "line": "Gardens, tea, and a kitchen knife from every country.",
       "since": "2027-06",
       "history": [
-        { "year": 2023, "country": "United Kingdom", "cities": ["london"], "with": [] },
-        { "year": 2024, "country": "Greece", "cities": ["athens", "santorini"], "with": ["alex"] },
-        { "year": 2026, "country": "Morocco", "cities": ["marrakech", "fez"], "with": [] },
+        {
+          "year": 2023,
+          "country": "United Kingdom",
+          "cities": ["london"],
+          "with": [],
+          "month": 4
+        },
+        {
+          "year": 2024,
+          "country": "Greece",
+          "cities": ["athens", "santorini"],
+          "with": ["alex"],
+          "month": 9
+        },
+        {
+          "year": 2026,
+          "country": "Morocco",
+          "cities": ["marrakech", "fez"],
+          "with": [],
+          "month": 3
+        },
         {
           "year": 2027,
           "country": "Japan",
@@ -88,7 +156,14 @@
       ],
       "wants": ["cusco-machu-picchu", "cusco-ollantaytambo", "istanbul-suleymaniye-mosque"],
       "knows": ["marrakech", "fez", "london"],
-      "next": [{ "id": "peru-2029", "city": "cusco", "month": "2029-03", "show": true }]
+      "next": [
+        {
+          "id": "peru-2029",
+          "city": "cusco",
+          "month": "2029-03",
+          "show": true
+        }
+      ]
     },
     "jo": {
       "name": "Jo",
@@ -97,9 +172,27 @@
       "line": "Not in any guide, usually right.",
       "since": "2027-06",
       "history": [
-        { "year": 2022, "country": "Spain", "cities": ["barcelona"], "with": [] },
-        { "year": 2025, "country": "Vietnam", "cities": ["hanoi", "da-nang"], "with": [] },
-        { "year": 2026, "country": "South Korea", "cities": ["seoul"], "with": [] },
+        {
+          "year": 2022,
+          "country": "Spain",
+          "cities": ["barcelona"],
+          "with": [],
+          "month": 6
+        },
+        {
+          "year": 2025,
+          "country": "Vietnam",
+          "cities": ["hanoi", "da-nang"],
+          "with": [],
+          "month": 1
+        },
+        {
+          "year": 2026,
+          "country": "South Korea",
+          "cities": ["seoul"],
+          "with": [],
+          "month": 10
+        },
         {
           "year": 2027,
           "country": "Japan",
@@ -117,7 +210,14 @@
       ],
       "wants": ["athens-acropolis-and-parthenon", "cusco-machu-picchu"],
       "knows": ["seoul", "hanoi", "barcelona"],
-      "next": [{ "id": "seoul-2029", "city": "seoul", "month": "2029-04", "show": false }]
+      "next": [
+        {
+          "id": "seoul-2029",
+          "city": "seoul",
+          "month": "2029-04",
+          "show": false
+        }
+      ]
     },
     "maya": {
       "name": "Maya",
@@ -126,9 +226,27 @@
       "line": "Saves first, books later.",
       "since": "2027-08",
       "history": [
-        { "year": 2024, "country": "France", "cities": ["paris"], "with": [] },
-        { "year": 2025, "country": "Greece", "cities": ["athens"], "with": ["leo"] },
-        { "year": 2028, "country": "Japan", "cities": ["kyoto"], "with": [], "month": 9 },
+        {
+          "year": 2024,
+          "country": "France",
+          "cities": ["paris"],
+          "with": [],
+          "month": 8
+        },
+        {
+          "year": 2025,
+          "country": "Greece",
+          "cities": ["athens"],
+          "with": ["leo"],
+          "month": 6
+        },
+        {
+          "year": 2028,
+          "country": "Japan",
+          "cities": ["kyoto"],
+          "with": [],
+          "month": 9
+        },
         {
           "year": 2028,
           "country": "Türkiye",
@@ -155,9 +273,27 @@
       "line": "Always orders a second plate.",
       "since": "2027-09",
       "history": [
-        { "year": 2023, "country": "Argentina", "cities": ["buenos-aires"], "with": [] },
-        { "year": 2025, "country": "Greece", "cities": ["athens"], "with": ["maya"] },
-        { "year": 2026, "country": "Italy", "cities": ["rome", "venice"], "with": [] },
+        {
+          "year": 2023,
+          "country": "Argentina",
+          "cities": ["buenos-aires"],
+          "with": [],
+          "month": 11
+        },
+        {
+          "year": 2025,
+          "country": "Greece",
+          "cities": ["athens"],
+          "with": ["maya"],
+          "month": 6
+        },
+        {
+          "year": 2026,
+          "country": "Italy",
+          "cities": ["rome", "venice"],
+          "with": [],
+          "month": 10
+        },
         {
           "year": 2028,
           "country": "Türkiye",
@@ -182,10 +318,47 @@
         "kyoto-gion"
       ],
       "knows": ["istanbul", "rome", "buenos-aires"],
-      "next": [{ "id": "kyoto-2029", "city": "kyoto", "month": "2029-03", "show": true }]
+      "next": [
+        {
+          "id": "kyoto-2029",
+          "city": "kyoto",
+          "month": "2029-03",
+          "show": true
+        }
+      ]
     }
   },
   "needs": [
+    {
+      "id": "poll-noor-next",
+      "kind": "dream",
+      "by": "noor",
+      "question": "Where should the four of us go next autumn?",
+      "closes": "Closes in 5 days",
+      "options": ["kyoto", "marrakech", "cusco", "lisbon", "seoul"],
+      "votes": {
+        "noor": 2,
+        "jo": 4,
+        "sam": 2
+      },
+      "waiting": ["alex"]
+    },
+    {
+      "id": "pick-best-view",
+      "kind": "pick",
+      "story": "japan-sample",
+      "by": "jo",
+      "label": "Best view",
+      "question": "Best view of the whole trip?",
+      "closes": "Closes in 3 days",
+      "options": ["tokyo-skytree", "tokyo-shibuya", "kyoto-fushimi", "kyoto-kiyomizu"],
+      "votes": {
+        "jo": 0,
+        "noor": 2,
+        "sam": 0
+      },
+      "waiting": ["alex"]
+    },
     {
       "id": "poll-seoul-nights",
       "kind": "poll",
@@ -195,7 +368,9 @@
       "question": "Four nights in Seoul or five?",
       "closes": "Closes in 2 days",
       "options": ["Four nights", "Five nights", "Five, with a day in Busan"],
-      "votes": { "sam": 1 },
+      "votes": {
+        "sam": 1
+      },
       "waiting": ["jo"]
     },
     {
@@ -231,15 +406,6 @@
       "reason": "My ticket photo says 11:38."
     }
   ],
-  "lookback": {
-    "id": "look-leo-kyoto",
-    "kind": "friend-planning",
-    "who": "leo",
-    "city": "kyoto",
-    "when": "March",
-    "story": "japan-sample",
-    "year": 2027
-  },
   "feed": [
     {
       "id": "f-istanbul",
@@ -256,7 +422,10 @@
       "place": "kyoto-fushimi",
       "story": "japan-sample",
       "after": "14 months after your trip",
-      "mine": { "by": "alex", "date": "July 2027" },
+      "mine": {
+        "by": "alex",
+        "date": "July 2027"
+      },
       "theirs": {
         "by": "maya",
         "date": "September 2028",
@@ -330,6 +499,28 @@
       "place": "cusco-machu-picchu",
       "saved": "Saved from your favourites",
       "went": "Planning for March"
+    }
+  ],
+  "lookbacks": [
+    {
+      "id": "look-month",
+      "kind": "month"
+    },
+    {
+      "id": "look-leo-kyoto",
+      "kind": "friend-planning",
+      "who": "leo",
+      "city": "kyoto",
+      "when": "March",
+      "story": "japan-sample",
+      "year": 2027
+    }
+  ],
+  "picks": [
+    {
+      "story": "japan-sample",
+      "place": "tokyo-afuri-ebisu",
+      "label": "Best meal"
     }
   ]
 }

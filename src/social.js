@@ -46,6 +46,8 @@ function socDefaults() {
     profile: {},
     styleHidden: false,
     next: {},
+    // Polls you started, by id: { options: [city ids], to: [friend ids] }.
+    polls: {},
     weekly: true,
     replies: true,
   };
@@ -193,7 +195,16 @@ function socTiles(map) {
   english.addTo(map);
 }
 function socBaseMap(el, opts) {
-  const map = L.map(el, { minZoom: 1, maxZoom: 16, zoomSnap: 0.25, ...opts });
+  // No animations: these maps are glances, and a page change mid-animation trips Leaflet.
+  const map = L.map(el, {
+    minZoom: 1,
+    maxZoom: 16,
+    zoomSnap: 0.25,
+    zoomAnimation: false,
+    fadeAnimation: false,
+    markerZoomAnimation: false,
+    ...opts,
+  });
   map.createPane('offline-outline');
   map.getPane('offline-outline').style.zIndex = '150';
   map.attributionControl.setPrefix(false);
@@ -210,7 +221,7 @@ function socBaseMap(el, opts) {
 }
 function socCardMap(el) {
   const spec = socSpecs[el.dataset.map];
-  if (!spec || el._leaflet_id || typeof L === 'undefined') return;
+  if (!spec || !el.isConnected || el._leaflet_id || typeof L === 'undefined') return;
   const map = socBaseMap(el, {
     zoomControl: false,
     dragging: false,
@@ -291,6 +302,25 @@ function socNeedHtml(n) {
       .join(
         '',
       )}</div><p class="soc-fine">Names show on planning polls. Still to answer: you and ${esc(socList(n.waiting.map(socName)))}.</p></article>`;
+  if (n.kind === 'dream' || n.kind === 'pick') {
+    const label = (o) => (n.kind === 'dream' ? C[o]?.name : P[o]?.name) || '';
+    const st = n.story ? STORIES[n.story] : null;
+    return `<article class="soc-need" data-need="${n.id}">${head(
+      n.kind === 'dream' ? 'Where next?' : 'After the trip · ' + esc(st?.title || ''),
+      `${esc(by.name)} asks · ${esc(n.closes)}`,
+    )}<h3>${esc(n.question)}</h3><div class="soc-options${n.kind === 'pick' ? ' pics' : ''}">${n.options
+      .filter((o) => label(o))
+      .map((o) => {
+        const k = n.options.indexOf(o),
+          voters = Object.keys(n.votes).filter((id) => n.votes[id] === k);
+        return `<button class="soc-option" data-action="soc-vote" data-id="${n.id}" data-k="${k}">${n.kind === 'pick' ? photoTag(o) : ''}<span>${esc(label(o))}</span>${socFaceRow(voters)}</button>`;
+      })
+      .join('')}</div><p class="soc-fine">${
+      n.kind === 'pick'
+        ? 'The winner is marked as the group’s pick on that stop in the story.'
+        : 'Names show. The winner can become a trip with everyone who voted.'
+    }</p></article>`;
+  }
   if (n.kind === 'budget')
     return `<article class="soc-need" data-need="${n.id}">${head(
       'Secret poll · ' + esc(n.trip),
@@ -327,20 +357,62 @@ function socNeedsHtml() {
       : `<p class="soc-calm">${icon('check')} Nothing is waiting on you.</p>`
   }</section>`;
 }
+// One look back at a time. The first that applies and has not been put away is shown.
+function socLookbacks() {
+  return (SOCIAL.lookbacks || []).filter(
+    (l) =>
+      !SOCS.lookOff &&
+      !SOCS.lookSkip.includes(l.id) &&
+      !SOCS.lookSkip.includes('kind:' + l.kind) &&
+      !(l.story && SOCS.lookSkip.includes('trip:' + l.story)) &&
+      !Object.hasOwn(SOCS.done, l.id) &&
+      (l.kind === 'month' ? socMonthTrips().length : socPerson(l.who) && C[l.city]) &&
+      !SOCS.muted.includes(l.who) &&
+      !SOCS.blocked.includes(l.who),
+  );
+}
+// Trips taken in this calendar month, yours first, then friends' that you were not on.
+function socMonthTrips(month = new Date().getMonth() + 1) {
+  const me = socPerson(socMe()),
+    skip = (h) => h.story && SOCS.lookSkip.includes('trip:' + h.story),
+    mine = me.history.filter((h) => h.month === month && !skip(h)).map((h) => ({ h, who: me.id }));
+  const theirs = socFriends()
+    .filter((id) => !SOCS.muted.includes(id))
+    .flatMap((id) =>
+      socPerson(id)
+        .history.filter((h) => h.month === month && !(h.with || []).includes(me.id) && !skip(h))
+        .map((h) => ({ h, who: id })),
+    );
+  return [...mine, ...theirs];
+}
+function socMonthTile({ h, who }) {
+  const cid = h.cities.find((c) => C[c]),
+    href = h.story && socCanSee(h.story) ? `#/story/${h.story}` : `#/city/${cid}`,
+    others = (h.with || []).filter((x) => x !== who && SOCIAL.people[x]),
+    sub =
+      who === socMe()
+        ? others.length
+          ? 'with ' + socList(others.map((x) => (x === socMe() ? 'you' : socName(x))))
+          : 'on your own'
+        : socName(who);
+  return `<a class="soc-mtile" href="${href}">${photoTag(h.story ? STORIES[h.story]?.cover || cid : cid)}<span>${who === socMe() ? '' : socAvatar(who, 'tiny')}<strong>${esc(h.country)} ${h.year}</strong><small>${esc(sub)}</small></span></a>`;
+}
 function socLookHtml() {
-  const l = SOCIAL.lookback;
-  if (
-    !l ||
-    SOCS.lookOff ||
-    SOCS.lookSkip.includes(l.id) ||
-    SOCS.lookSkip.includes('trip:' + l.story) ||
-    Object.hasOwn(SOCS.done, l.id)
-  )
-    return '';
+  const l = socLookbacks()[0];
+  if (!l) return '';
+  const foot = (lessLabel = 'Show less like this') =>
+    `<button class="btn small ghost" data-action="soc-look-hide" data-id="${l.id}">Not now</button></div><button class="inline-link soc-less" data-action="soc-look-less" data-id="${l.id}">${lessLabel}</button>`;
+  if (l.kind === 'month') {
+    const m = new Date().getMonth() + 1,
+      name = SOC_MONTHS[m - 1],
+      all = socMonthTrips(m),
+      mine = all.filter((x) => x.who === socMe()),
+      theirs = all.filter((x) => x.who !== socMe());
+    return `<section class="soc-look month" id="soc-look" aria-label="A look back"><div class="soc-look-body"><span class="eyebrow">A look back</span><h3>${mine.length ? `Your ${name}s` : `Friends’ ${name}s`}</h3>${mine.length ? `<div class="soc-mrow">${mine.map(socMonthTile).join('')}</div>` : ''}${theirs.length && mine.length ? `<h4>Friends’ ${name}s</h4>` : ''}${theirs.length ? `<div class="soc-mrow">${theirs.map(socMonthTile).join('')}</div>` : ''}<div class="soc-need-acts"><button class="btn small" data-action="soc-look-month" data-m="${m}">Where next ${name}?</button>${foot()}</div></section>`;
+  }
   const who = socPerson(l.who),
     c = C[l.city];
-  if (!who || !c || SOCS.muted.includes(l.who) || SOCS.blocked.includes(l.who)) return '';
-  return `<section class="soc-look" id="soc-look" aria-label="A look back">${photoTag(STORIES[l.story]?.cover || c.id)}<div class="soc-look-body"><span class="eyebrow">A look back</span><h3>${esc(who.name)} is planning ${esc(c.name)} for ${esc(l.when)}. You were there in ${l.year}.</h3><div class="soc-need-acts"><button class="btn small" data-action="soc-look-send">Send ${esc(who.name)} your three best stops</button><button class="btn small ghost" data-action="soc-look-hide">Not now</button></div><button class="inline-link soc-less" data-action="soc-look-less">Show less like this</button></div></section>`;
+  return `<section class="soc-look" id="soc-look" aria-label="A look back">${photoTag(STORIES[l.story]?.cover || c.id)}<div class="soc-look-body"><span class="eyebrow">A look back</span><h3>${esc(who.name)} is planning ${esc(c.name)} for ${esc(l.when)}. You were there in ${l.year}.</h3><div class="soc-need-acts"><button class="btn small" data-action="soc-look-send" data-id="${l.id}">Send ${esc(who.name)} your three best stops</button>${foot()}</div></section>`;
 }
 function socHeartLine(f) {
   const mine = SOCS.hearts.includes(f.id),
@@ -432,7 +504,8 @@ function renderFeed() {
     `<div class="wrap soc-page soc-feed"><header class="soc-top"><div><h1>Feed</h1><p class="muted">What needs you, then your friends’ travels, newest first.</p></div><button class="soc-about" data-action="soc-about">${socSample()}${icon('info')}</button></header>` +
     socNeedsHtml() +
     socLookHtml() +
-    `<section class="soc-stream" aria-label="From your friends"><div class="soc-sechead"><h2>From your friends</h2></div>${fresh.length ? `<p class="soc-divider"><span>New since your last visit</span></p>${fresh.map(socItemHtml).join('')}` : ''}${old.length ? `${fresh.length ? '<p class="soc-divider"><span>Earlier</span></p>' : ''}${old.map(socItemHtml).join('')}` : ''}${items.length ? '' : '<p class="soc-calm">Nothing new from your friends.</p>'}</section>` +
+    socMyPollsHtml() +
+    `<section class="soc-stream" aria-label="From your friends"><div class="soc-sechead"><h2>From your friends</h2><button class="btn small ghost soc-ask-btn" data-action="soc-dream">${icon('plus')} Ask “where next?”</button></div>${fresh.length ? `<p class="soc-divider"><span>New since your last visit</span></p>${fresh.map(socItemHtml).join('')}` : ''}${old.length ? `${fresh.length ? '<p class="soc-divider"><span>Earlier</span></p>' : ''}${old.map(socItemHtml).join('')}` : ''}${items.length ? '' : '<p class="soc-calm">Nothing new from your friends.</p>'}</section>` +
     `<section class="soc-end">${icon('check')}<h2>You’re all caught up</h2><p class="muted">That is everything. The feed does not refill itself.</p><div class="soc-need-acts"><a class="btn" href="#/">Explore places</a><button class="btn ghost" data-action="soc-invite">Invite a friend</button></div></section>` +
     footer() +
     '</div>';
@@ -467,7 +540,19 @@ function socAnswer(id, value, message) {
 function socVote(id, k) {
   const n = SOCIAL.needs.find((x) => x.id === id);
   if (!n || !n.options[k]) return;
-  const waiting = socList(n.waiting.map(socName));
+  const waiting = socList(n.waiting.filter((x) => x !== socMe()).map(socName));
+  if (n.kind === 'dream' || n.kind === 'pick') {
+    const win = socWinners({ ...n.votes, [socMe()]: k }, n.options),
+      label = (o) => (n.kind === 'dream' ? C[o]?.name : P[o]?.name),
+      names = socList(win.map(label));
+    return socAnswer(
+      id,
+      k,
+      n.kind === 'pick'
+        ? `${names} ${win.length > 1 ? 'share' : 'is'} the group’s pick for ${n.label.toLowerCase()}.`
+        : `Everyone has answered. ${names} ${win.length > 1 ? 'are level' : 'wins'}.`,
+    );
+  }
   socAnswer(
     id,
     k,
@@ -489,8 +574,9 @@ function socNeed(id, v) {
         : `Kept at ${n.from}.`;
   socAnswer(id, v, msg);
 }
-function socLookSend() {
-  const l = SOCIAL.lookback,
+const socLook = (id) => (SOCIAL.lookbacks || []).find((l) => l.id === id);
+function socLookSend(id) {
+  const l = socLook(id),
     who = socPerson(l.who),
     stops = socStoryStops(l.story)
       .filter((s) => s.cityId === l.city && s.id)
@@ -504,12 +590,12 @@ function socLookSend() {
       )
       .join(
         '',
-      )}</div><div class="actions"><button class="btn" data-action="soc-look-go">Send to ${esc(who.name)}</button><button class="btn ghost" data-action="close-modal">Cancel</button></div></div>`,
+      )}</div><div class="actions"><button class="btn" data-action="soc-look-go" data-id="${l.id}">Send to ${esc(who.name)}</button><button class="btn ghost" data-action="close-modal">Cancel</button></div></div>`,
     'Send your best stops',
   );
 }
-function socLookGo() {
-  const l = SOCIAL.lookback,
+function socLookGo(id) {
+  const l = socLook(id),
     n = $$('input[name="soc-pick"]:checked').length;
   if (!n) return toast('Pick at least one stop.');
   closeModal('user');
@@ -518,17 +604,17 @@ function socLookGo() {
   $('#soc-look')?.remove();
   toast(`Sent ${n} stop${n === 1 ? '' : 's'} to ${socName(l.who)}.`);
 }
-function socLookHide(less) {
-  const l = SOCIAL.lookback;
-  if (less) SOCS.lookOff = true;
-  else SOCS.lookSkip = [...new Set([...SOCS.lookSkip, l.id])];
+function socLookHide(id, less) {
+  const l = socLook(id);
+  if (!l) return;
+  const key = less ? 'kind:' + l.kind : l.id;
+  SOCS.lookSkip = [...new Set([...SOCS.lookSkip, key])];
   socSave();
   $('#soc-look')?.remove();
   toast(less ? 'You will see fewer look backs.' : 'Hidden.', {
     label: 'Undo',
     run: () => {
-      if (less) SOCS.lookOff = false;
-      else SOCS.lookSkip = SOCS.lookSkip.filter((x) => x !== l.id);
+      SOCS.lookSkip = SOCS.lookSkip.filter((x) => x !== key);
       socSave();
       if (location.hash.startsWith('#/feed')) route();
     },
@@ -1007,11 +1093,34 @@ document.addEventListener('click', (e) => {
     id = b.dataset.id;
   if (a === 'soc-vote') socVote(id, Number(b.dataset.k));
   else if (a === 'soc-need') socNeed(id, b.dataset.v);
-  else if (a === 'soc-look-send') socLookSend();
-  else if (a === 'soc-look-go') socLookGo();
-  else if (a === 'soc-look-hide') socLookHide(false);
-  else if (a === 'soc-look-less') socLookHide(true);
-  else if (a === 'soc-heart') socHeart(id);
+  else if (a === 'soc-look-send') socLookSend(id);
+  else if (a === 'soc-look-go') socLookGo(id);
+  else if (a === 'soc-look-hide') socLookHide(id, false);
+  else if (a === 'soc-look-less') socLookHide(id, true);
+  else if (a === 'soc-look-month') {
+    B().month = Number(b.dataset.m);
+    persist();
+    location.hash = '#/choose';
+  } else if (a === 'soc-dream') socDreamSheet();
+  else if (a === 'soc-dream-go') socDreamGo();
+  else if (a === 'soc-dream-start') {
+    const city = b.dataset.city;
+    if (validCity(city) && !inTrip(city)) toggleTrip(city);
+    location.hash = '#/trip';
+  } else if (a === 'soc-dream-close') {
+    const old = SOCS.polls[id];
+    delete SOCS.polls[id];
+    socSave();
+    socReroute();
+    toast('Poll closed.', {
+      label: 'Undo',
+      run: () => {
+        SOCS.polls[id] = old;
+        socSave();
+        socReroute();
+      },
+    });
+  } else if (a === 'soc-heart') socHeart(id);
   else if (a === 'soc-want') socWant(id);
   else if (a === 'soc-send') socSend(id);
   else if (a === 'soc-send-go') {
@@ -1066,3 +1175,117 @@ document.addEventListener('change', (e) => {
     toast('Three at most.');
   }
 });
+
+// ---------------------------------------------------------------- polls you start
+// Options with the most votes. Several when level.
+function socWinners(votes, options) {
+  const n = options.map((_, k) => Object.values(votes).filter((v) => v === k).length),
+    top = Math.max(...n);
+  return top ? options.filter((_, k) => n[k] === top) : [];
+}
+// Cities to offer in a "where next?" poll: from your saved places first, then your sample wants.
+function socDreamCities() {
+  const me = socPerson(socMe()),
+    fromSaved = [...new Set(S.saved.filter(validPlace).map((id) => P[id].cityId))],
+    fromSample = [...new Set(me.wants.filter(validPlace).map((id) => P[id].cityId))];
+  return [...new Set([...fromSaved, ...fromSample, 'lisbon', 'marrakech', 'cusco'])]
+    .filter(validCity)
+    .slice(0, 8);
+}
+function socDreamSheet() {
+  const cities = socDreamCities(),
+    friends = socFriends().filter((id) => !SOCS.muted.includes(id));
+  showModal(
+    `<div class="modalcontent"><h2 id="modal-heading">Where next?</h2><p class="lead">Pick two to four places and the friends to ask. Names show on the answers, and the poll closes in three days.</p><h3 class="soc-sheet-h">Places</h3><div class="soc-picks soc-dream-cities">${cities
+      .map(
+        (c, i) =>
+          `<label class="soc-pick"><input type="checkbox" name="soc-dc" value="${c}" ${i < 3 ? 'checked' : ''}>${photoTag(c)}<span><strong>${esc(C[c].name)}</strong><small>${esc(C[c].country)}${S.saved.some((id) => P[id]?.cityId === c) ? ' · from your saved places' : ''}</small></span></label>`,
+      )
+      .join(
+        '',
+      )}</div><h3 class="soc-sheet-h">Ask</h3><div class="soc-who">${friends.map((f) => `<label class="soc-whochip"><input type="checkbox" name="soc-df" value="${f}" checked>${socAvatar(f)}<span>${esc(socName(f))}</span></label>`).join('')}</div><div class="actions"><button class="btn" data-action="soc-dream-go">Send the poll</button><button class="btn ghost" data-action="close-modal">Cancel</button></div></div>`,
+    'Ask where next',
+  );
+}
+function socDreamGo() {
+  const options = $$('input[name="soc-dc"]:checked')
+      .map((x) => x.value)
+      .filter(validCity),
+    to = $$('input[name="soc-df"]:checked')
+      .map((x) => x.value)
+      .filter((x) => SOCIAL.people[x]);
+  if (options.length < 2 || options.length > 4) return toast('Pick two to four places.');
+  if (!to.length) return toast('Pick at least one friend.');
+  closeModal('user');
+  const id = 'p' + Date.now().toString(36);
+  SOCS.polls = { [id]: { options, to }, ...SOCS.polls };
+  socSave();
+  socReroute();
+  toast(`Sent to ${socList(to.map(socName))}.`);
+  $('#soc-mypolls')?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+}
+// In the sample, friends answer at once. Each picks the option that sits nearest their own
+// want-to-go list, so the answers look like them rather than random.
+function socSampleVote(friend, options) {
+  const wants = socPerson(friend)
+      .wants.filter(validPlace)
+      .map((id) => P[id].cityId),
+    known = socCities(socPerson(friend)),
+    score = (c) => (wants.includes(c) ? 2 : 0) - (known.includes(c) ? 1 : 0);
+  let best = 0;
+  options.forEach((c, k) => {
+    if (score(c) > score(options[best])) best = k;
+  });
+  if (score(options[best]) <= 0) best = (friend.length + options.length) % options.length;
+  return best;
+}
+function socMyPollsHtml() {
+  const polls = Object.entries(SOCS.polls || {}).filter(
+    ([, p]) => p && Array.isArray(p.options) && Array.isArray(p.to),
+  );
+  if (!polls.length) return '';
+  return `<section class="soc-mypolls" id="soc-mypolls" aria-label="Your polls"><div class="soc-sechead"><h2>Your polls</h2></div>${polls
+    .map(([id, p]) => {
+      const options = p.options.filter(validCity),
+        to = p.to.filter((f) => SOCIAL.people[f] && !SOCS.blocked.includes(f)),
+        votes = Object.fromEntries(to.map((f) => [f, socSampleVote(f, options)])),
+        win = socWinners(votes, options),
+        max = Math.max(
+          1,
+          ...options.map((_, k) => Object.values(votes).filter((v) => v === k).length),
+        );
+      return `<article class="soc-need mine"><header class="soc-need-head">${socAvatar(socMe())}<div><span class="eyebrow">Where next?</span><p>You asked ${esc(socList(to.map(socName)))} · ${to.length} answered ${socSample()}</p></div></header><div class="soc-results">${options
+        .map((c, k) => {
+          const who = Object.keys(votes).filter((f) => votes[f] === k);
+          return `<div class="soc-result${win.includes(c) ? ' win' : ''}"><span class="soc-result-name">${esc(C[c].name)}</span><i style="--w:${Math.round((who.length / max) * 100)}%"></i>${socFaceRow(who)}</div>`;
+        })
+        .join('')}</div><div class="soc-need-acts">${
+        win.length === 1
+          ? `<button class="btn small" data-action="soc-dream-start" data-city="${win[0]}">${icon('route')} Start a trip to ${esc(C[win[0]].name)}</button>`
+          : `<span class="soc-fine">A tie between ${esc(socList(win.map((c) => C[c].name)))}.</span>`
+      }<button class="btn small ghost" data-action="soc-dream-close" data-id="${id}">Close poll</button></div><p class="soc-fine">Starting the trip adds it to your plan. Inviting the voters arrives with accounts.</p></article>`;
+    })
+    .join('')}</section>`;
+}
+
+// ---------------------------------------------------------------- group's picks on a story
+// "Best meal", "Best view": decided by the travellers after a trip, shown on that stop.
+function socPicksFor(storyId) {
+  const out = {};
+  const add = (place, label) => (out[place] = [...(out[place] || []), label]);
+  (SOCIAL.picks || []).filter((x) => x.story === storyId).forEach((x) => add(x.place, x.label));
+  SOCIAL.needs
+    .filter((n) => n.kind === 'pick' && n.story === storyId && Object.hasOwn(SOCS.done, n.id))
+    .forEach((n) =>
+      socWinners({ ...n.votes, [socMe()]: SOCS.done[n.id] }, n.options).forEach((p) =>
+        add(p, n.label),
+      ),
+    );
+  return out;
+}
+function socPickBadge(storyId, placeId) {
+  const labels = placeId ? socPicksFor(storyId)[placeId] : null;
+  return labels
+    ? `<p class="soc-grouppick">${icon('star')} The group’s pick: ${esc(labels.join(', ').toLowerCase())}</p>`
+    : '';
+}
