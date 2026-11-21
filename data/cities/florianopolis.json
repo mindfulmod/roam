@@ -70,8 +70,8 @@
       "id": "florianopolis-flp-lagoa",
       "name": "Lagoa da Conceição",
       "kind": "see",
-      "lat": -27.602,
-      "lon": -48.468,
+      "lat": -27.55,
+      "lon": -48.45,
       "wiki": "Lagoa da Conceição",
       "summary": "Lagoon with restaurants, bars and boats.",
       "expect": "Free.",
@@ -111,7 +111,15 @@
         "Free.",
         "Watch sunset from the lookout."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3790,
+          "period": "202511-202610",
+          "title": "Lagoa da Conceição",
+          "url": "https://en.wikipedia.org/wiki/Lagoa_da_Concei%C3%A7%C3%A3o",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "florianopolis-flp-joaquina",
@@ -211,8 +219,8 @@
       "id": "florianopolis-flp-campeche",
       "name": "Ilha do Campeche",
       "kind": "see",
-      "lat": -27.697,
-      "lon": -48.468,
+      "lat": -27.69528,
+      "lon": -48.46639,
       "wiki": "Campeche Island",
       "summary": "Island with clear water and rock carvings.",
       "expect": "Boat; limited visitors.",
@@ -251,14 +259,22 @@
         "Boat; limited visitors.",
         "Book the boat early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 768,
+          "period": "202511-202610",
+          "title": "Campeche Island",
+          "url": "https://en.wikipedia.org/wiki/Campeche_Island",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "florianopolis-flp-ribeirao",
       "name": "Ribeirão da Ilha",
       "kind": "see",
-      "lat": -27.715,
-      "lon": -48.563,
+      "lat": -27.71753,
+      "lon": -48.55763,
       "wiki": "Ribeirão da Ilha",
       "summary": "Colonial Azorean village with oyster farms.",
       "expect": "Free.",
@@ -297,15 +313,14 @@
       "tradeoffs": [
         "Free.",
         "Lunch on oysters."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "florianopolis-flp-bridge",
       "name": "Hercílio Luz Bridge",
       "kind": "see",
-      "lat": -27.593,
-      "lon": -48.565,
+      "lat": -27.5935,
+      "lon": -48.5649,
       "wiki": "Hercílio Luz Bridge",
       "summary": "Iconic suspension bridge lit at night.",
       "expect": "Free.",
@@ -344,7 +359,15 @@
         "Free.",
         "Walk across at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6784,
+          "period": "202511-202610",
+          "title": "Hercílio Luz Bridge",
+          "url": "https://en.wikipedia.org/wiki/Herc%C3%ADlio_Luz_Bridge",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "florianopolis-flp-oysters",
@@ -517,5 +540,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

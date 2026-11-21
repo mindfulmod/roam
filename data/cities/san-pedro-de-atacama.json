@@ -72,8 +72,8 @@
       "id": "san-pedro-de-atacama-spa-luna",
       "name": "Valle de la Luna",
       "kind": "see",
-      "lat": -22.92,
-      "lon": -68.28,
+      "lat": -22.9112,
+      "lon": -68.32303,
       "wiki": "Valle de la Luna (Chile)",
       "summary": "Moon-like valley of salt formations and dunes.",
       "expect": "Park fee.",
@@ -114,14 +114,22 @@
         "Park fee.",
         "Go for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14813,
+          "period": "202511-202610",
+          "title": "Valle de la Luna (Chile)",
+          "url": "https://en.wikipedia.org/wiki/Valle_de_la_Luna_(Chile)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-de-atacama-spa-tatio",
       "name": "El Tatio geysers",
       "kind": "see",
-      "lat": -22.333,
-      "lon": -68.013,
+      "lat": -22.33139,
+      "lon": -68.01028,
       "wiki": "El Tatio",
       "summary": "Geyser field at 4,300 m, steaming at dawn.",
       "expect": "4am start.",
@@ -161,15 +169,23 @@
         "4am start.",
         "Dress for freezing cold."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11989,
+          "period": "202511-202610",
+          "title": "El Tatio",
+          "url": "https://en.wikipedia.org/wiki/El_Tatio",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-de-atacama-spa-lagunas",
       "name": "Altiplanic lagoons",
       "kind": "see",
-      "lat": -23.74,
-      "lon": -67.88,
+      "lat": -23.725,
+      "lon": -67.765,
       "wiki": "Miscanti Lake",
       "summary": "Deep-blue high lagoons with volcano backdrops.",
       "expect": "Full day.",
@@ -209,15 +225,23 @@
         "Full day.",
         "Combine with Chaxa flamingos."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 39469,
+          "period": "202511-202610",
+          "title": "Laguna Miscanti",
+          "url": "https://en.wikipedia.org/wiki/Laguna_Miscanti",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-de-atacama-spa-cejar",
       "name": "Laguna Cejar",
       "kind": "see",
-      "lat": -23.061,
-      "lon": -68.215,
+      "lat": -23.06353,
+      "lon": -68.21375,
       "wiki": "Laguna Cejar",
       "summary": "Float in a salty lagoon, then sunset at Tebinquinche.",
       "expect": "Half day.",
@@ -256,15 +280,14 @@
       "tradeoffs": [
         "Half day.",
         "Bring a towel and water to rinse."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-pedro-de-atacama-spa-stars",
       "name": "Stargazing tour",
       "kind": "see",
-      "lat": -22.95,
-      "lon": -68.19,
+      "lat": -22.95282,
+      "lon": -68.19301,
       "wiki": "Atacama Desert",
       "summary": "Telescope tours under the clearest skies on earth.",
       "expect": "Book ahead.",
@@ -303,15 +326,14 @@
       "tradeoffs": [
         "Book ahead.",
         "Avoid full moon."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-pedro-de-atacama-spa-church",
       "name": "Iglesia de San Pedro",
       "kind": "see",
-      "lat": -22.911,
-      "lon": -68.199,
+      "lat": -22.91667,
+      "lon": -68.2,
       "wiki": "Church of San Pedro de Atacama",
       "summary": "Adobe church with a cactus-wood ceiling.",
       "expect": "Free.",
@@ -351,7 +373,15 @@
         "Free.",
         "Visit at golden hour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1472,
+          "period": "202511-202610",
+          "title": "Church of San Pedro de Atacama",
+          "url": "https://en.wikipedia.org/wiki/Church_of_San_Pedro_de_Atacama",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "san-pedro-de-atacama-spa-altiplano",
@@ -524,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

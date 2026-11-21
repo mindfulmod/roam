@@ -72,8 +72,8 @@
       "id": "santa-marta-smr-tayrona",
       "name": "Tayrona National Park",
       "kind": "see",
-      "lat": 11.311,
-      "lon": -73.93,
+      "lat": 11.26667,
+      "lon": -74.05,
       "wiki": "Tayrona National Natural Park",
       "summary": "Jungle trails to Caribbean beaches like Cabo San Juan.",
       "expect": "Park fee.",
@@ -114,15 +114,23 @@
         "Park fee.",
         "Arrive early; it has daily caps."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12727,
+          "period": "202511-202610",
+          "title": "Tayrona National Natural Park",
+          "url": "https://en.wikipedia.org/wiki/Tayrona_National_Natural_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-marta-smr-lostcity",
       "name": "Ciudad Perdida trek",
       "kind": "see",
       "lat": 11.038,
-      "lon": -73.925,
+      "lon": -73.92519,
       "wiki": "Ciudad Perdida",
       "summary": "Four- to five-day jungle trek to ancient terraces.",
       "expect": "Licensed guide required.",
@@ -163,8 +171,16 @@
         "Licensed guide required.",
         "Book a 4-day trek."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 33211,
+          "period": "202511-202610",
+          "title": "Ciudad Perdida",
+          "url": "https://en.wikipedia.org/wiki/Ciudad_Perdida",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-marta-smr-minca",
@@ -211,7 +227,16 @@
         "Moto-taxi up.",
         "Visit La Victoria coffee farm."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13272,
+          "period": "202511-202610",
+          "title": "Communal work",
+          "url": "https://en.wikipedia.org/wiki/Communal_work",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-marta-smr-centro",
@@ -258,7 +283,16 @@
         "Free.",
         "Dine around the park."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 70490,
+          "period": "202511-202610",
+          "title": "Santa Marta",
+          "url": "https://en.wikipedia.org/wiki/Santa_Marta",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-marta-smr-taganga",
@@ -305,14 +339,23 @@
         "Taxi.",
         "Take a boat to Playa Grande."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4425,
+          "period": "202511-202610",
+          "title": "Taganga",
+          "url": "https://en.wikipedia.org/wiki/Taganga",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-marta-smr-quinta",
       "name": "Quinta de San Pedro Alejandrino",
       "kind": "see",
-      "lat": 11.228,
-      "lon": -74.188,
+      "lat": 11.22806,
+      "lon": -74.17917,
       "wiki": "Quinta de San Pedro Alejandrino",
       "summary": "Hacienda where Simón Bolívar died.",
       "expect": "Allow 1.5 hours.",
@@ -351,7 +394,15 @@
         "Allow 1.5 hours.",
         "Go in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4088,
+          "period": "202511-202610",
+          "title": "Quinta de San Pedro Alejandrino",
+          "url": "https://en.wikipedia.org/wiki/Quinta_de_San_Pedro_Alejandrino",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "santa-marta-smr-fish",
@@ -524,5 +575,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

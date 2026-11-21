@@ -154,14 +154,23 @@
         "Cheap.",
         "Ride Ascensor Reina Victoria."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3904,
+          "period": "202511-202610",
+          "title": "Valparaíso funiculars",
+          "url": "https://en.wikipedia.org/wiki/Valpara%C3%ADso_funiculars",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "valparaiso-vap-sebastiana",
       "name": "La Sebastiana",
       "kind": "see",
-      "lat": -33.051,
-      "lon": -71.618,
+      "lat": -33.05378,
+      "lon": -71.62265,
       "wiki": "La Sebastiana",
       "summary": "Pablo Neruda's quirky hillside house.",
       "expect": "Audio guide.",
@@ -200,15 +209,14 @@
       "tradeoffs": [
         "Audio guide.",
         "See his top-floor study."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "valparaiso-vap-cielo",
       "name": "Museo a Cielo Abierto",
       "kind": "see",
-      "lat": -33.05,
-      "lon": -71.615,
+      "lat": -33.04836,
+      "lon": -71.62249,
       "wiki": "Cerro Bellavista",
       "summary": "Open-air museum of murals.",
       "expect": "Free.",
@@ -246,8 +254,7 @@
       "tradeoffs": [
         "Free.",
         "Combine with La Sebastiana."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "valparaiso-vap-port",
@@ -299,8 +306,8 @@
       "id": "valparaiso-vap-vina",
       "name": "Viña del Mar",
       "kind": "see",
-      "lat": -33.0245,
-      "lon": -71.5518,
+      "lat": -33.02444,
+      "lon": -71.55167,
       "wiki": "Viña del Mar",
       "summary": "Beach resort city with the flower clock.",
       "expect": "Train or bus.",
@@ -339,7 +346,15 @@
         "Train or bus.",
         "Walk the seafront."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 52694,
+          "period": "202511-202610",
+          "title": "Viña del Mar",
+          "url": "https://en.wikipedia.org/wiki/Vi%C3%B1a_del_Mar",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "valparaiso-vap-chorrillana",
@@ -512,5 +527,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -72,8 +72,8 @@
       "id": "sao-paulo-sao-masp",
       "name": "MASP",
       "kind": "see",
-      "lat": -23.5614,
-      "lon": -46.6559,
+      "lat": -23.5611,
+      "lon": -46.6558,
       "wiki": "São Paulo Museum of Art",
       "summary": "Floating red museum with paintings displayed on glass easels.",
       "expect": "Free on Tuesdays.",
@@ -113,14 +113,22 @@
         "Free on Tuesdays.",
         "Sunday market under the building."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22904,
+          "period": "202511-202610",
+          "title": "São Paulo Museum of Art",
+          "url": "https://en.wikipedia.org/wiki/S%C3%A3o_Paulo_Museum_of_Art",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sao-paulo-sao-mercadao",
       "name": "Mercado Municipal (Mercadão)",
       "kind": "see",
-      "lat": -23.5417,
-      "lon": -46.6297,
+      "lat": -23.54173,
+      "lon": -46.62952,
       "wiki": "Mercado Municipal de São Paulo",
       "summary": "Stained-glass market hall famous for giant sandwiches.",
       "expect": "Busy weekends.",
@@ -159,15 +167,14 @@
       "tradeoffs": [
         "Busy weekends.",
         "Share a mortadella sandwich."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sao-paulo-sao-batman",
       "name": "Beco do Batman",
       "kind": "see",
-      "lat": -23.556,
-      "lon": -46.687,
+      "lat": -23.55654,
+      "lon": -46.68659,
       "wiki": "Beco do Batman",
       "summary": "Alley covered in vivid street art.",
       "expect": "Free.",
@@ -206,14 +213,22 @@
         "Free.",
         "Go in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5260,
+          "period": "202511-202610",
+          "title": "Beco do Batman",
+          "url": "https://en.wikipedia.org/wiki/Beco_do_Batman",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sao-paulo-sao-ibirapuera",
       "name": "Ibirapuera Park",
       "kind": "see",
-      "lat": -23.5874,
-      "lon": -46.6576,
+      "lat": -23.58833,
+      "lon": -46.65889,
       "wiki": "Ibirapuera Park",
       "summary": "Huge park with Niemeyer buildings and museums.",
       "expect": "Free.",
@@ -253,14 +268,22 @@
         "Free.",
         "Visit the Afro Brazil Museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21243,
+          "period": "202511-202610",
+          "title": "Ibirapuera Park",
+          "url": "https://en.wikipedia.org/wiki/Ibirapuera_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sao-paulo-sao-liberdade",
       "name": "Liberdade",
       "kind": "see",
-      "lat": -23.558,
-      "lon": -46.635,
+      "lat": -23.55523,
+      "lon": -46.63586,
       "wiki": "Liberdade, São Paulo",
       "summary": "The largest Japanese community outside Japan.",
       "expect": "Free.",
@@ -299,15 +322,14 @@
       "tradeoffs": [
         "Free.",
         "Sunday street fair."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sao-paulo-sao-pinacoteca",
       "name": "Pinacoteca",
       "kind": "see",
-      "lat": -23.534,
-      "lon": -46.634,
+      "lat": -23.5344,
+      "lon": -46.6339,
       "wiki": "Pinacoteca do Estado de São Paulo",
       "summary": "Brazilian art in a light-filled 19th-century building.",
       "expect": "Free on Saturdays.",
@@ -346,7 +368,15 @@
         "Free on Saturdays.",
         "Combine with Luz station."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7039,
+          "period": "202511-202610",
+          "title": "Pinacoteca do Estado de São Paulo",
+          "url": "https://en.wikipedia.org/wiki/Pinacoteca_do_Estado_de_S%C3%A3o_Paulo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sao-paulo-sao-mortadela",
@@ -519,5 +549,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

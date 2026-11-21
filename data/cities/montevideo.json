@@ -64,8 +64,8 @@
       "id": "montevideo-mvd-rambla",
       "name": "La Rambla",
       "kind": "see",
-      "lat": -34.915,
-      "lon": -56.15,
+      "lat": -34.92904,
+      "lon": -56.16004,
       "wiki": "Rambla of Montevideo",
       "summary": "22 km waterfront promenade.",
       "expect": "Free.",
@@ -104,14 +104,22 @@
         "Free.",
         "Go at sunset with mate."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7262,
+          "period": "202511-202610",
+          "title": "Rambla of Montevideo",
+          "url": "https://en.wikipedia.org/wiki/Rambla_of_Montevideo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montevideo-mvd-ciudadvieja",
       "name": "Ciudad Vieja",
       "kind": "see",
-      "lat": -34.907,
-      "lon": -56.206,
+      "lat": -34.90667,
+      "lon": -56.20833,
       "wiki": "Ciudad Vieja, Montevideo",
       "summary": "Colonial and art deco old town.",
       "expect": "Free.",
@@ -152,14 +160,22 @@
         "Free.",
         "Walk Sarandí pedestrian street."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5445,
+          "period": "202511-202610",
+          "title": "Ciudad Vieja, Montevideo",
+          "url": "https://en.wikipedia.org/wiki/Ciudad_Vieja%2C_Montevideo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montevideo-mvd-salvo",
       "name": "Palacio Salvo",
       "kind": "see",
-      "lat": -34.906,
-      "lon": -56.199,
+      "lat": -34.90673,
+      "lon": -56.19831,
       "wiki": "Palacio Salvo",
       "summary": "Eclectic 1920s tower on the main square.",
       "expect": "Tours.",
@@ -198,14 +214,22 @@
         "Tours.",
         "Take the guided tour to the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17562,
+          "period": "202511-202610",
+          "title": "Palacio Salvo",
+          "url": "https://en.wikipedia.org/wiki/Palacio_Salvo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montevideo-mvd-solis",
       "name": "Teatro Solís",
       "kind": "see",
-      "lat": -34.907,
-      "lon": -56.201,
+      "lat": -34.90806,
+      "lon": -56.20111,
       "wiki": "Teatro Solís",
       "summary": "Elegant 19th-century opera house.",
       "expect": "Tours or shows.",
@@ -245,14 +269,22 @@
         "Tours or shows.",
         "Catch a show."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4915,
+          "period": "202511-202610",
+          "title": "Solís Theatre",
+          "url": "https://en.wikipedia.org/wiki/Sol%C3%ADs_Theatre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montevideo-mvd-colonia",
       "name": "Colonia del Sacramento",
       "kind": "see",
-      "lat": -34.471,
-      "lon": -57.844,
+      "lat": -34.47139,
+      "lon": -57.84417,
       "wiki": "Colonia del Sacramento",
       "summary": "UNESCO colonial town with cobbled streets and a lighthouse.",
       "expect": "2.5 hours by bus.",
@@ -293,8 +325,16 @@
         "2.5 hours by bus.",
         "Stay for sunset."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 53482,
+          "period": "202511-202610",
+          "title": "Colonia del Sacramento",
+          "url": "https://en.wikipedia.org/wiki/Colonia_del_Sacramento",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "montevideo-mvd-carnival",
@@ -347,8 +387,8 @@
       "id": "montevideo-mvd-mercado",
       "name": "Mercado del Puerto",
       "kind": "eat",
-      "lat": -34.906,
-      "lon": -56.212,
+      "lat": -34.9057,
+      "lon": -56.2117,
       "wiki": "Mercado del Puerto",
       "summary": "Iron market hall full of smoky parrillas.",
       "expect": "Lunch.",
@@ -387,7 +427,6 @@
         "Lunch.",
         "Sit at the counter."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Uruguayan",
       "mustOrder": [
@@ -515,5 +554,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
