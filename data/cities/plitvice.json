@@ -159,7 +159,16 @@
         "Long walk; follow route C or H.",
         "Do the Upper Lakes after the boat."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 64558,
+          "period": "202511-202610",
+          "title": "Plitvice Lakes National Park",
+          "url": "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "plitvice-plit-kozjak",
@@ -251,14 +260,23 @@
         "Short walk from Entrance 1.",
         "Come back late afternoon for soft light."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 64558,
+          "period": "202511-202610",
+          "title": "Plitvice Lakes National Park",
+          "url": "https://en.wikipedia.org/wiki/Plitvice_Lakes_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "plitvice-plit-rastoke",
       "name": "Rastoke",
       "kind": "see",
-      "lat": 45.12,
-      "lon": 15.59,
+      "lat": 45.12126,
+      "lon": 15.58764,
       "wiki": "Rastoke",
       "summary": "A village of old watermills built over waterfalls.",
       "expect": "On the road from Zagreb.",
@@ -298,7 +316,15 @@
         "On the road from Zagreb.",
         "Stop on the way in."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15645,
+          "period": "202511-202610",
+          "title": "Rastoke",
+          "url": "https://en.wikipedia.org/wiki/Rastoke",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "plitvice-plit-barac",
@@ -517,5 +543,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

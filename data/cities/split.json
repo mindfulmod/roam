@@ -76,7 +76,7 @@
       "id": "split-split-palace",
       "name": "Diocletian's Palace",
       "kind": "see",
-      "lat": 43.5083,
+      "lat": 43.50833,
       "lon": 16.44,
       "wiki": "Diocletian's Palace",
       "summary": "A 4th-century Roman palace whose walls hold the old town, with cellars and the Peristyle.",
@@ -118,14 +118,22 @@
         "Free to wander; cellars have a fee.",
         "Visit the cellars, then the Peristyle at night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 158271,
+          "period": "202511-202610",
+          "title": "Diocletian's Palace",
+          "url": "https://en.wikipedia.org/wiki/Diocletian's_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "split-split-cathedral",
       "name": "Cathedral of St Domnius",
       "kind": "see",
-      "lat": 43.5079,
-      "lon": 16.4402,
+      "lat": 43.50806,
+      "lon": 16.44028,
       "wiki": "Cathedral of Saint Domnius",
       "summary": "Diocletian's mausoleum turned cathedral, with a bell tower to climb.",
       "expect": "Combined ticket.",
@@ -165,7 +173,15 @@
         "Combined ticket.",
         "Climb the bell tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 33537,
+          "period": "202511-202610",
+          "title": "Cathedral of Saint Domnius",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Saint_Domnius",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "split-split-riva",
@@ -265,8 +281,8 @@
       "id": "split-split-trogir",
       "name": "Trogir",
       "kind": "see",
-      "lat": 43.517,
-      "lon": 16.251,
+      "lat": 43.5169,
+      "lon": 16.25136,
       "wiki": "Trogir",
       "summary": "A medieval island town of churches and palaces.",
       "expect": "Boat or bus from Split.",
@@ -307,14 +323,22 @@
         "Boat or bus from Split.",
         "Visit the cathedral portal."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 53724,
+          "period": "202511-202610",
+          "title": "Trogir",
+          "url": "https://en.wikipedia.org/wiki/Trogir",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "split-split-krka",
       "name": "Krka National Park",
       "kind": "see",
-      "lat": 43.806,
-      "lon": 15.962,
+      "lat": 43.80194,
+      "lon": 15.97278,
       "wiki": "Krka National Park",
       "summary": "Cascading waterfalls and boardwalks over turquoise pools.",
       "expect": "Swimming no longer allowed.",
@@ -354,15 +378,23 @@
         "Swimming no longer allowed.",
         "Go early."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 24461,
+          "period": "202511-202610",
+          "title": "Krka National Park",
+          "url": "https://en.wikipedia.org/wiki/Krka_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "split-split-klis",
       "name": "Klis Fortress",
       "kind": "see",
       "lat": 43.56,
-      "lon": 16.524,
+      "lon": 16.52389,
       "wiki": "Klis Fortress",
       "summary": "A clifftop fortress used as Meereen in Game of Thrones.",
       "expect": "15 minutes by bus.",
@@ -402,7 +434,15 @@
         "15 minutes by bus.",
         "Go late afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19398,
+          "period": "202511-202610",
+          "title": "Fortress of Klis",
+          "url": "https://en.wikipedia.org/wiki/Fortress_of_Klis",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "split-split-pasticada",
@@ -575,5 +615,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

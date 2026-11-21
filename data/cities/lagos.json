@@ -70,8 +70,8 @@
       "id": "lagos-lagos-piedade",
       "name": "Ponta da Piedade",
       "kind": "see",
-      "lat": 37.0806,
-      "lon": -8.6697,
+      "lat": 37.081,
+      "lon": -8.67,
       "wiki": "Ponta da Piedade",
       "summary": "Golden sea stacks, arches and grottoes, seen from cliff paths or by boat.",
       "expect": "Stairs lead down to the water.",
@@ -111,14 +111,22 @@
         "Stairs lead down to the water.",
         "Take a kayak or small boat into the grottoes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6291,
+          "period": "202511-202610",
+          "title": "Ponta da Piedade",
+          "url": "https://en.wikipedia.org/wiki/Ponta_da_Piedade",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lagos-lagos-benagil",
       "name": "Benagil Cave",
       "kind": "see",
-      "lat": 37.0874,
-      "lon": -8.4267,
+      "lat": 37.0875,
+      "lon": -8.42583,
       "wiki": "Benagil",
       "summary": "A sea cave with a hole in its dome lighting a hidden beach.",
       "expect": "Landing inside is no longer allowed; view by boat or kayak.",
@@ -158,14 +166,22 @@
         "Landing inside is no longer allowed; view by boat or kayak.",
         "Go early to avoid boat traffic."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15120,
+          "period": "202511-202610",
+          "title": "Benagil",
+          "url": "https://en.wikipedia.org/wiki/Benagil",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lagos-lagos-marinha",
       "name": "Praia da Marinha",
       "kind": "see",
-      "lat": 37.0897,
-      "lon": -8.4128,
+      "lat": 37.09008,
+      "lon": -8.4125,
       "wiki": "Praia da Marinha",
       "summary": "A cove beach of honey-coloured cliffs and clear water.",
       "expect": "Steps down from the car park.",
@@ -204,7 +220,15 @@
         "Steps down from the car park.",
         "Swim early before crowds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19727,
+          "period": "202511-202610",
+          "title": "Praia da Marinha",
+          "url": "https://en.wikipedia.org/wiki/Praia_da_Marinha",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lagos-lagos-hangingvalleys",
@@ -304,8 +328,8 @@
       "id": "lagos-lagos-sagres",
       "name": "Sagres and Cape St Vincent",
       "kind": "see",
-      "lat": 37.023,
-      "lon": -8.997,
+      "lat": 37.025,
+      "lon": -8.99444,
       "wiki": "Cape St. Vincent",
       "summary": "Windswept cliffs at Europe's south-west corner, with a lighthouse and fortress.",
       "expect": "Windy; bring a jacket.",
@@ -346,14 +370,22 @@
         "Windy; bring a jacket.",
         "Go for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26955,
+          "period": "202511-202610",
+          "title": "Cape St. Vincent",
+          "url": "https://en.wikipedia.org/wiki/Cape_St._Vincent",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "lagos-lagos-donaana",
       "name": "Praia Dona Ana",
       "kind": "see",
-      "lat": 37.09,
-      "lon": -8.669,
+      "lat": 37.09133,
+      "lon": -8.6695,
       "wiki": "Praia de Dona Ana",
       "summary": "A small beach framed by rock stacks, walkable from town.",
       "expect": "Busy in summer.",
@@ -391,8 +423,7 @@
       "tradeoffs": [
         "Busy in summer.",
         "Swim in the morning."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "lagos-lagos-cataplana",
@@ -565,5 +596,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -71,8 +71,8 @@
       "id": "ponta-delgada-pdl-setecidades",
       "name": "Sete Cidades lakes",
       "kind": "see",
-      "lat": 37.859,
-      "lon": -25.788,
+      "lat": 37.855,
+      "lon": -25.78639,
       "wiki": "Lagoa das Sete Cidades",
       "summary": "Twin blue and green lakes in a huge volcanic crater.",
       "expect": "Cloud can hide the view; check webcams.",
@@ -112,14 +112,22 @@
         "Cloud can hide the view; check webcams.",
         "See it from Vista do Rei."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10980,
+          "period": "202511-202610",
+          "title": "Lagoa das Sete Cidades",
+          "url": "https://en.wikipedia.org/wiki/Lagoa_das_Sete_Cidades",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ponta-delgada-pdl-furnas",
       "name": "Furnas hot springs",
       "kind": "see",
-      "lat": 37.772,
-      "lon": -25.311,
+      "lat": 37.77222,
+      "lon": -25.31306,
       "wiki": "Furnas",
       "summary": "A valley of fumaroles, thermal pools and stews cooked underground.",
       "expect": "Bring an old swimsuit; iron water stains.",
@@ -158,7 +166,15 @@
         "Bring an old swimsuit; iron water stains.",
         "Bathe in Poça da Dona Beija at night."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8701,
+          "period": "202511-202610",
+          "title": "Furnas",
+          "url": "https://en.wikipedia.org/wiki/Furnas",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ponta-delgada-pdl-fogo",
@@ -205,14 +221,23 @@
         "Viewpoint off the road; trail down.",
         "Hike down to the shore."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11578,
+          "period": "202511-202610",
+          "title": "Lagoa do Fogo",
+          "url": "https://en.wikipedia.org/wiki/Lagoa_do_Fogo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ponta-delgada-pdl-whales",
       "name": "Whale watching",
       "kind": "see",
-      "lat": 37.73,
-      "lon": -25.67,
+      "lat": 37.74047,
+      "lon": -25.65994,
       "wiki": "Whale watching",
       "summary": "Boat trips to see sperm whales, dolphins and seasonal blue whales.",
       "expect": "Seasickness possible.",
@@ -253,14 +278,22 @@
         "Seasickness possible.",
         "Choose an operator with lookouts."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21991,
+          "period": "202511-202610",
+          "title": "Whale watching",
+          "url": "https://en.wikipedia.org/wiki/Whale_watching",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ponta-delgada-pdl-terranostra",
       "name": "Terra Nostra Garden",
       "kind": "see",
-      "lat": 37.772,
-      "lon": -25.317,
+      "lat": 37.77139,
+      "lon": -25.31472,
       "wiki": "Terra Nostra Park",
       "summary": "Botanical gardens with a warm iron-orange thermal pool.",
       "expect": "Swimsuit will stain.",
@@ -299,7 +332,15 @@
         "Swimsuit will stain.",
         "Swim, then lunch on cozido."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2578,
+          "period": "202511-202610",
+          "title": "Terra Nostra Park",
+          "url": "https://en.wikipedia.org/wiki/Terra_Nostra_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ponta-delgada-pdl-gorreana",
@@ -352,8 +393,8 @@
       "id": "ponta-delgada-pdl-portas",
       "name": "Portas da Cidade",
       "kind": "see",
-      "lat": 37.7396,
-      "lon": -25.668,
+      "lat": 37.73951,
+      "lon": -25.66846,
       "wiki": "Portas da Cidade",
       "summary": "Triple-arched city gates and black-and-white basalt streets.",
       "expect": "Free.",
@@ -392,8 +433,7 @@
       "tradeoffs": [
         "Free.",
         "Walk the waterfront at sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ponta-delgada-pdl-cozido",
@@ -567,5 +607,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

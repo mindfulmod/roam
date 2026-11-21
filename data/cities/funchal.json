@@ -71,8 +71,8 @@
       "id": "funchal-fun-monte",
       "name": "Monte cable car and toboggan",
       "kind": "see",
-      "lat": 32.676,
-      "lon": -16.902,
+      "lat": 32.69167,
+      "lon": -16.89944,
       "wiki": "Monte (Funchal)",
       "summary": "A cable car up to Monte's palace gardens, then a ride down in a wicker toboggan steered by men in straw hats.",
       "expect": "Toboggans run in the daytime.",
@@ -113,14 +113,22 @@
         "Toboggans run in the daytime.",
         "Visit Monte Palace gardens before the toboggan."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7234,
+          "period": "202511-202610",
+          "title": "Monte (Funchal)",
+          "url": "https://en.wikipedia.org/wiki/Monte_(Funchal)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "funchal-fun-market",
       "name": "Mercado dos Lavradores",
       "kind": "see",
-      "lat": 32.649,
-      "lon": -16.904,
+      "lat": 32.64864,
+      "lon": -16.90389,
       "wiki": "Mercado dos Lavradores",
       "summary": "A tiled market of exotic fruit, flowers and a fish hall.",
       "expect": "Fruit sellers charge tourist prices.",
@@ -160,7 +168,15 @@
         "Fruit sellers charge tourist prices.",
         "Visit the fish hall for scabbard fish."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1716,
+          "period": "202511-202610",
+          "title": "Mercado dos Lavradores",
+          "url": "https://en.wikipedia.org/wiki/Mercado_dos_Lavradores",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "funchal-fun-oldtown",
@@ -207,7 +223,16 @@
         "Lively at night.",
         "Walk Rua de Santa Maria."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 366056,
+          "period": "202511-202610",
+          "title": "Funchal",
+          "url": "https://en.wikipedia.org/wiki/Funchal",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "funchal-fun-levada",
@@ -261,8 +286,8 @@
       "id": "funchal-fun-arieiro",
       "name": "Pico do Arieiro to Pico Ruivo",
       "kind": "see",
-      "lat": 32.7354,
-      "lon": -16.9286,
+      "lat": 32.73556,
+      "lon": -16.92889,
       "wiki": "Pico do Arieiro",
       "summary": "A dramatic ridge hike between Madeira's highest peaks above the clouds.",
       "expect": "Check trail status; some sections close.",
@@ -303,14 +328,22 @@
         "Check trail status; some sections close.",
         "Start at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17849,
+          "period": "202511-202610",
+          "title": "Pico do Areeiro",
+          "url": "https://en.wikipedia.org/wiki/Pico_do_Areeiro",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "funchal-fun-cabogirao",
       "name": "Cabo Girão skywalk",
       "kind": "see",
-      "lat": 32.656,
-      "lon": -17.005,
+      "lat": 32.65639,
+      "lon": -17.00667,
       "wiki": "Cabo Girão",
       "summary": "A glass platform on one of Europe's highest sea cliffs.",
       "expect": "Free.",
@@ -349,14 +382,22 @@
         "Free.",
         "Stop at Câmara de Lobos for poncha."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18098,
+          "period": "202511-202610",
+          "title": "Cabo Girão",
+          "url": "https://en.wikipedia.org/wiki/Cabo_Gir%C3%A3o",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "funchal-fun-portomoniz",
       "name": "Porto Moniz pools",
       "kind": "see",
-      "lat": 32.867,
-      "lon": -17.17,
+      "lat": 32.8125,
+      "lon": -17.14583,
       "wiki": "Porto Moniz",
       "summary": "Natural volcanic rock pools filled by the Atlantic.",
       "expect": "Small entry fee.",
@@ -395,7 +436,15 @@
         "Small entry fee.",
         "Combine with the north coast drive."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10635,
+          "period": "202511-202610",
+          "title": "Porto Moniz",
+          "url": "https://en.wikipedia.org/wiki/Porto_Moniz",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "funchal-fun-espetada",
@@ -570,5 +619,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

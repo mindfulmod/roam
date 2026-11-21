@@ -78,8 +78,8 @@
       "id": "zagreb-zag-stmarks",
       "name": "St Mark's Church and Upper Town",
       "kind": "see",
-      "lat": 45.8164,
-      "lon": 15.9737,
+      "lat": 45.81639,
+      "lon": 15.97389,
       "wiki": "St. Mark's Church, Zagreb",
       "summary": "A church with a colourful tiled roof in the medieval Upper Town.",
       "expect": "Exterior only most of the time.",
@@ -120,14 +120,22 @@
         "Exterior only most of the time.",
         "Ride the funicular up."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14825,
+          "period": "202511-202610",
+          "title": "St. Mark's Church, Zagreb",
+          "url": "https://en.wikipedia.org/wiki/St._Mark's_Church%2C_Zagreb",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zagreb-zag-broken",
       "name": "Museum of Broken Relationships",
       "kind": "see",
-      "lat": 45.8152,
-      "lon": 15.973,
+      "lat": 45.81497,
+      "lon": 15.97353,
       "wiki": "Museum of Broken Relationships",
       "summary": "Objects and stories donated by people after break-ups.",
       "expect": "Small but moving.",
@@ -167,14 +175,22 @@
         "Small but moving.",
         "Read the stories slowly."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18765,
+          "period": "202511-202610",
+          "title": "Museum of Broken Relationships",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Broken_Relationships",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zagreb-zag-dolac",
       "name": "Dolac market",
       "kind": "see",
-      "lat": 45.8139,
-      "lon": 15.977,
+      "lat": 45.81306,
+      "lon": 15.97722,
       "wiki": "Dolac Market",
       "summary": "An open-air market under red umbrellas, with a hall below.",
       "expect": "Mornings only.",
@@ -214,14 +230,22 @@
         "Mornings only.",
         "Try fresh cheese and cream."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7254,
+          "period": "202511-202610",
+          "title": "Dolac Market",
+          "url": "https://en.wikipedia.org/wiki/Dolac_Market",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zagreb-zag-cathedral",
       "name": "Zagreb Cathedral",
       "kind": "see",
-      "lat": 45.8144,
-      "lon": 15.9798,
+      "lat": 45.81446,
+      "lon": 15.97986,
       "wiki": "Zagreb Cathedral",
       "summary": "Twin-spired Gothic cathedral, under restoration since the 2020 earthquake.",
       "expect": "Parts may be closed.",
@@ -261,14 +285,22 @@
         "Parts may be closed.",
         "View from Dolac."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23927,
+          "period": "202511-202610",
+          "title": "Zagreb Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Zagreb_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zagreb-zag-jelacic",
       "name": "Ban Jelačić Square",
       "kind": "see",
-      "lat": 45.8131,
-      "lon": 15.9772,
+      "lat": 45.81306,
+      "lon": 15.97722,
       "wiki": "Ban Jelačić Square",
       "summary": "The main square, a meeting point ringed by cafés.",
       "expect": "Advent centre in December.",
@@ -307,14 +339,22 @@
         "Advent centre in December.",
         "Meet 'under the clock'."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15021,
+          "period": "202511-202610",
+          "title": "Ban Jelačić Square",
+          "url": "https://en.wikipedia.org/wiki/Ban_Jela%C4%8Di%C4%87_Square",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zagreb-zag-mirogoj",
       "name": "Mirogoj Cemetery",
       "kind": "see",
       "lat": 45.835,
-      "lon": 15.988,
+      "lon": 15.986,
       "wiki": "Mirogoj Cemetery",
       "summary": "An arcaded cemetery park, one of Europe's most beautiful.",
       "expect": "Free.",
@@ -354,14 +394,22 @@
         "Free.",
         "Walk the arcades."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10890,
+          "period": "202511-202610",
+          "title": "Mirogoj Cemetery",
+          "url": "https://en.wikipedia.org/wiki/Mirogoj_Cemetery",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zagreb-zag-tkalciceva",
       "name": "Tkalčićeva Street",
       "kind": "see",
-      "lat": 45.816,
-      "lon": 15.976,
+      "lat": 45.81722,
+      "lon": 15.97722,
       "wiki": "Tkalčićeva Street",
       "summary": "A curving street of bars and cafés built over an old stream.",
       "expect": "Busy at night.",
@@ -401,7 +449,15 @@
         "Busy at night.",
         "Have a drink in the evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6877,
+          "period": "202511-202610",
+          "title": "Tkalčićeva Street",
+          "url": "https://en.wikipedia.org/wiki/Tkal%C4%8Di%C4%87eva_Street",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "zagreb-zag-strukli",
@@ -574,5 +630,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
