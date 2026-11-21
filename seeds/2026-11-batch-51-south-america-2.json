@@ -1,0 +1,2414 @@
+[
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix are everywhere; carry a little cash for beach vendors and keep valuables out of sight.",
+  "dailyBudget": [
+   250,
+   650
+  ],
+  "cashPerDay": [
+   50,
+   120
+  ],
+  "id": "sao-paulo",
+  "name": "São Paulo",
+  "at": [
+   -23.5505,
+   -46.6333
+  ],
+  "wiki": "São Paulo",
+  "cover": "São Paulo skyline",
+  "seasons": "SSSHHHHHHSSS",
+  "tagline": "South America's food, art and nightlife megacity",
+  "summary": "São Paulo is South America's largest city and its cultural engine, with world-class restaurants, museums and nightlife. See the MASP art museum on Avenida Paulista, eat a mortadella sandwich at the Mercadão, wander the graffiti of Beco do Batman and Liberdade's Japanese quarter, and relax in Ibirapuera Park.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Autumn and winter (April to September) are dry and mild; summer has afternoon storms.",
+  "arrival": "Guarulhos International is 45 to 90 minutes away by traffic; Congonhas serves domestic flights.",
+  "gettingAround": "Metro is fast; Uber and 99 apps for nights.",
+  "foodTip": "Mortadella sandwich, pizza paulistana and Japanese food in Liberdade.",
+  "buyTip": "Brazilian design in Vila Madalena and Havaianas.",
+  "baseArea": "Jardins, Pinheiros or near Paulista",
+  "hotel": [
+   300,
+   900
+  ],
+  "connections": [
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Air shuttle every few minutes; 6 hours by bus."
+   },
+   {
+    "to": "puerto-iguazu",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Fly to Foz do Iguaçu."
+   }
+  ],
+  "items": [
+   {
+    "name": "MASP",
+    "kind": "see",
+    "id": "sao-masp",
+    "at": [
+     -23.5614,
+     -46.6559
+    ],
+    "wiki": "São Paulo Museum of Art",
+    "area": "Paulista",
+    "summary": "Floating red museum with paintings displayed on glass easels.",
+    "expect": "Free on Tuesdays.",
+    "tip": "Sunday market under the building.",
+    "why": "Iconic art.",
+    "flow": [
+     "Glass easels.",
+     "Paulista Avenue."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     75
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Mercado Municipal (Mercadão)",
+    "kind": "see",
+    "id": "sao-mercadao",
+    "at": [
+     -23.5417,
+     -46.6297
+    ],
+    "wiki": "Mercado Municipal de São Paulo",
+    "area": "Centro",
+    "summary": "Stained-glass market hall famous for giant sandwiches.",
+    "expect": "Busy weekends.",
+    "tip": "Share a mortadella sandwich.",
+    "why": "Food landmark.",
+    "flow": [
+     "Fruit stalls.",
+     "Sandwich."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Beco do Batman",
+    "kind": "see",
+    "id": "sao-batman",
+    "at": [
+     -23.556,
+     -46.687
+    ],
+    "wiki": "Beco do Batman",
+    "area": "Vila Madalena",
+    "summary": "Alley covered in vivid street art.",
+    "expect": "Free.",
+    "tip": "Go in the morning.",
+    "why": "Street art.",
+    "flow": [
+     "Alley.",
+     "Vila Madalena cafés."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Ibirapuera Park",
+    "kind": "see",
+    "id": "sao-ibirapuera",
+    "at": [
+     -23.5874,
+     -46.6576
+    ],
+    "wiki": "Ibirapuera Park",
+    "area": "Ibirapuera",
+    "summary": "Huge park with Niemeyer buildings and museums.",
+    "expect": "Free.",
+    "tip": "Visit the Afro Brazil Museum.",
+    "why": "City lungs.",
+    "flow": [
+     "Lake.",
+     "Niemeyer pavilions."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Liberdade",
+    "kind": "see",
+    "id": "sao-liberdade",
+    "at": [
+     -23.558,
+     -46.635
+    ],
+    "wiki": "Liberdade, São Paulo",
+    "area": "Liberdade",
+    "summary": "The largest Japanese community outside Japan.",
+    "expect": "Free.",
+    "tip": "Sunday street fair.",
+    "why": "Japanese Brazil.",
+    "flow": [
+     "Fair.",
+     "Shops."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Pinacoteca",
+    "kind": "see",
+    "id": "sao-pinacoteca",
+    "at": [
+     -23.534,
+     -46.634
+    ],
+    "wiki": "Pinacoteca do Estado de São Paulo",
+    "area": "Luz",
+    "summary": "Brazilian art in a light-filled 19th-century building.",
+    "expect": "Free on Saturdays.",
+    "tip": "Combine with Luz station.",
+    "why": "Brazilian art.",
+    "flow": [
+     "Galleries.",
+     "Atrium."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Mortadella sandwich",
+    "kind": "eat",
+    "id": "sao-mortadela",
+    "at": [
+     -23.5417,
+     -46.6297
+    ],
+    "wiki": "Mercado Municipal de São Paulo",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Sandwich stacked with a mountain of mortadella.",
+    "expect": "Mercadão.",
+    "tip": "Order one to share.",
+    "why": "Paulistano icon.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     35,
+     55
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Sanduíche de mortadela"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Pizza paulistana",
+    "kind": "eat",
+    "id": "sao-pizza",
+    "at": [
+     -23.56,
+     -46.66
+    ],
+    "wiki": "São Paulo-style pizza",
+    "area": "Bela Vista",
+    "venue": "food-area",
+    "summary": "Italian-Brazilian pizza tradition.",
+    "expect": "Evenings.",
+    "tip": "Try Bráz or Speranza.",
+    "why": "City obsession.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Italian",
+    "order": [
+     "Margherita"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Feijoada",
+    "kind": "eat",
+    "id": "sao-feijoada",
+    "at": [
+     -23.56,
+     -46.66
+    ],
+    "wiki": "Feijoada",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Black bean and pork stew served Wednesdays and Saturdays.",
+    "expect": "Lunch.",
+    "tip": "Go on Saturday.",
+    "why": "Brazilian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     50,
+     90
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Feijoada"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix are everywhere; carry a little cash for beach vendors and keep valuables out of sight.",
+  "dailyBudget": [
+   250,
+   650
+  ],
+  "cashPerDay": [
+   50,
+   120
+  ],
+  "id": "florianopolis",
+  "name": "Florianópolis",
+  "at": [
+   -27.5954,
+   -48.548
+  ],
+  "wiki": "Florianópolis",
+  "cover": "Florianópolis beach",
+  "seasons": "HHHSSLLLSSSH",
+  "tagline": "Island of 40 beaches, dunes and lagoons",
+  "summary": "Florianópolis, or Floripa, is an island city with over 40 beaches, from surf breaks to calm bays. Sandboard the dunes of Joaquina, hike to Lagoinha do Leste, eat oysters at Ribeirão da Ilha and enjoy Lagoa da Conceição's restaurants and nightlife.",
+  "days": 4,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Summer (December to March) is beach season; winter is quiet and cool.",
+  "arrival": "Hercílio Luz Airport is 20 minutes from the centre.",
+  "gettingAround": "A car or Uber; island buses are slow.",
+  "foodTip": "Fresh oysters and sequência de camarão.",
+  "buyTip": "Lace from Santo Antônio de Lisboa.",
+  "baseArea": "Lagoa da Conceição or Jurerê",
+  "hotel": [
+   250,
+   800
+  ],
+  "connections": [
+   {
+    "to": "sao-paulo",
+    "mode": "Flight",
+    "minutes": 70,
+    "note": "Frequent flights."
+   },
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Flight",
+    "minutes": 95,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Lagoa da Conceição",
+    "kind": "see",
+    "id": "flp-lagoa",
+    "at": [
+     -27.602,
+     -48.468
+    ],
+    "wiki": "Lagoa da Conceição",
+    "area": "Lagoa",
+    "summary": "Lagoon with restaurants, bars and boats.",
+    "expect": "Free.",
+    "tip": "Watch sunset from the lookout.",
+    "why": "Island heart.",
+    "flow": [
+     "Lookout.",
+     "Lagoon walk."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Joaquina dunes",
+    "kind": "see",
+    "id": "flp-joaquina",
+    "at": [
+     -27.629,
+     -48.45
+    ],
+    "wiki": "Joaquina Beach",
+    "area": "East",
+    "summary": "Sandboarding on huge dunes next to a surf beach.",
+    "expect": "Board rental.",
+    "tip": "Go late afternoon.",
+    "why": "Fun dunes.",
+    "flow": [
+     "Sandboard.",
+     "Surf beach."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lagoinha do Leste hike",
+    "kind": "see",
+    "id": "flp-lagoinha",
+    "at": [
+     -27.772,
+     -48.488
+    ],
+    "wiki": "Lagoinha do Leste",
+    "area": "South",
+    "summary": "Trail to a wild beach with a lagoon.",
+    "expect": "Moderate hike.",
+    "tip": "Start from Pântano do Sul.",
+    "why": "Hidden paradise.",
+    "flow": [
+     "Trail.",
+     "Beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Ilha do Campeche",
+    "kind": "see",
+    "id": "flp-campeche",
+    "at": [
+     -27.697,
+     -48.468
+    ],
+    "wiki": "Campeche Island",
+    "area": "Offshore",
+    "summary": "Island with clear water and rock carvings.",
+    "expect": "Boat; limited visitors.",
+    "tip": "Book the boat early.",
+    "why": "Turquoise water.",
+    "flow": [
+     "Boat.",
+     "Snorkel."
+    ],
+    "hours": 5,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ribeirão da Ilha",
+    "kind": "see",
+    "id": "flp-ribeirao",
+    "at": [
+     -27.715,
+     -48.563
+    ],
+    "wiki": "Ribeirão da Ilha",
+    "area": "South",
+    "summary": "Colonial Azorean village with oyster farms.",
+    "expect": "Free.",
+    "tip": "Lunch on oysters.",
+    "why": "Old Floripa.",
+    "flow": [
+     "Village.",
+     "Oysters."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Hercílio Luz Bridge",
+    "kind": "see",
+    "id": "flp-bridge",
+    "at": [
+     -27.593,
+     -48.565
+    ],
+    "wiki": "Hercílio Luz Bridge",
+    "area": "Centre",
+    "summary": "Iconic suspension bridge lit at night.",
+    "expect": "Free.",
+    "tip": "Walk across at sunset.",
+    "why": "City symbol.",
+    "flow": [
+     "Walk.",
+     "Night lights."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Oysters",
+    "kind": "eat",
+    "id": "flp-oysters",
+    "at": [
+     -27.715,
+     -48.563
+    ],
+    "wiki": "Oyster",
+    "area": "Ribeirão da Ilha",
+    "venue": "food-area",
+    "summary": "Brazil's best oysters from local farms.",
+    "expect": "Seafood restaurants.",
+    "tip": "Order them gratinadas.",
+    "why": "Floripa specialty.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Ostras"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Sequência de camarão",
+    "kind": "eat",
+    "id": "flp-sequencia",
+    "at": [
+     -27.6,
+     -48.47
+    ],
+    "wiki": "Shrimp",
+    "area": "Lagoa",
+    "venue": "food-area",
+    "summary": "Many-course shrimp feast.",
+    "expect": "Lagoa restaurants.",
+    "tip": "Share between two.",
+    "why": "Island feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     100,
+     180
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Sequência de camarão"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Açaí bowl",
+    "kind": "eat",
+    "id": "flp-acai",
+    "at": [
+     -27.6,
+     -48.47
+    ],
+    "wiki": "Açaí na tigela",
+    "area": "Beaches",
+    "venue": "food-area",
+    "summary": "Frozen açaí with fruit and granola.",
+    "expect": "Everywhere.",
+    "tip": "Perfect after the beach.",
+    "why": "Beach snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Açaí"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Chile",
+  "region": "South America",
+  "currency": "CLP",
+  "cashTip": "Cards are common; carry pesos for buses, small shops and park fees in remote areas.",
+  "dailyBudget": [
+   60000,
+   200000
+  ],
+  "cashPerDay": [
+   15000,
+   40000
+  ],
+  "id": "valparaiso",
+  "name": "Valparaíso",
+  "at": [
+   -33.0472,
+   -71.6127
+  ],
+  "wiki": "Valparaíso",
+  "cover": "Valparaíso colourful houses",
+  "seasons": "HHHSSLLLSSHH",
+  "tagline": "Colourful hills, funiculars and street art",
+  "summary": "Valparaíso is a bohemian port city of colourful houses on steep hills, linked by old funiculars and alive with street art. Ride the ascensores, wander Cerro Alegre and Cerro Concepción, visit Neruda's house La Sebastiana and day-trip to the beaches of Viña del Mar.",
+  "days": 2,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Summer is dry and sunny; New Year's Eve fireworks are famous.",
+  "arrival": "1.5 hours by bus from Santiago.",
+  "gettingAround": "Walk, funiculars and colectivos.",
+  "foodTip": "Chorrillana and seafood empanadas.",
+  "buyTip": "Street art prints and local crafts.",
+  "baseArea": "Cerro Alegre or Cerro Concepción",
+  "hotel": [
+   50000,
+   150000
+  ],
+  "connections": [
+   {
+    "to": "santiago",
+    "mode": "Bus",
+    "minutes": 90,
+    "note": "Buses every 15 minutes."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cerro Alegre and Cerro Concepción",
+    "kind": "see",
+    "id": "vap-cerros",
+    "at": [
+     -33.042,
+     -71.627
+    ],
+    "wiki": "Cerro Alegre",
+    "area": "Cerros",
+    "summary": "Colourful hills with murals, cafés and viewpoints.",
+    "expect": "Free.",
+    "tip": "Take a free walking tour.",
+    "why": "UNESCO charm.",
+    "flow": [
+     "Paseo Gervasoni.",
+     "Murals.",
+     "Viewpoints."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Ascensores (funiculars)",
+    "kind": "see",
+    "id": "vap-ascensores",
+    "at": [
+     -33.04,
+     -71.629
+    ],
+    "wiki": "Funiculars of Valparaíso",
+    "area": "Port",
+    "summary": "Historic funiculars up the hills.",
+    "expect": "Cheap.",
+    "tip": "Ride Ascensor Reina Victoria.",
+    "why": "Classic ride.",
+    "flow": [
+     "Ride up.",
+     "Views."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "La Sebastiana",
+    "kind": "see",
+    "id": "vap-sebastiana",
+    "at": [
+     -33.051,
+     -71.618
+    ],
+    "wiki": "La Sebastiana",
+    "area": "Cerro Florida",
+    "summary": "Pablo Neruda's quirky hillside house.",
+    "expect": "Audio guide.",
+    "tip": "See his top-floor study.",
+    "why": "Poet's home.",
+    "flow": [
+     "House tour.",
+     "Views."
+    ],
+    "hours": 1.5,
+    "price": [
+     7000,
+     9000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Museo a Cielo Abierto",
+    "kind": "see",
+    "id": "vap-cielo",
+    "at": [
+     -33.05,
+     -71.615
+    ],
+    "wiki": "Cerro Bellavista",
+    "area": "Cerro Bellavista",
+    "summary": "Open-air museum of murals.",
+    "expect": "Free.",
+    "tip": "Combine with La Sebastiana.",
+    "why": "Street gallery.",
+    "flow": [
+     "Start at Calle Ferrari.",
+     "Follow the mural trail."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Port boat tour",
+    "kind": "see",
+    "id": "vap-port",
+    "at": [
+     -33.037,
+     -71.627
+    ],
+    "wiki": "Port of Valparaíso",
+    "area": "Muelle Prat",
+    "summary": "Short boat tour around the harbour with sea lions.",
+    "expect": "30 minutes.",
+    "tip": "Bargain at the pier.",
+    "why": "Harbour views.",
+    "flow": [
+     "Pier.",
+     "Boat."
+    ],
+    "hours": 1,
+    "price": [
+     3000,
+     5000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Viña del Mar",
+    "kind": "see",
+    "id": "vap-vina",
+    "at": [
+     -33.0245,
+     -71.5518
+    ],
+    "wiki": "Viña del Mar",
+    "area": "Viña",
+    "summary": "Beach resort city with the flower clock.",
+    "expect": "Train or bus.",
+    "tip": "Walk the seafront.",
+    "why": "Beach day.",
+    "flow": [
+     "Flower clock.",
+     "Beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Chorrillana",
+    "kind": "eat",
+    "id": "vap-chorrillana",
+    "at": [
+     -33.04,
+     -71.62
+    ],
+    "wiki": "Chorrillana",
+    "area": "Port",
+    "venue": "food-area",
+    "summary": "Fries piled with beef, onions and eggs.",
+    "expect": "Bars.",
+    "tip": "Share at J. Cruz.",
+    "why": "Port classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8000,
+     15000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Chorrillana"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Seafood empanadas",
+    "kind": "eat",
+    "id": "vap-empanadas",
+    "at": [
+     -33.04,
+     -71.62
+    ],
+    "wiki": "Empanada",
+    "area": "Cerros",
+    "venue": "food-area",
+    "summary": "Cheese and shrimp empanadas.",
+    "expect": "Bakeries.",
+    "tip": "Eat them hot.",
+    "why": "Coastal snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2000,
+     4000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Empanada de mariscos"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cerro cafés",
+    "kind": "eat",
+    "id": "vap-cafe",
+    "at": [
+     -33.042,
+     -71.627
+    ],
+    "wiki": "Cerro Concepción",
+    "area": "Cerros",
+    "venue": "food-area",
+    "summary": "Terrace cafés with harbour views.",
+    "expect": "Afternoon.",
+    "tip": "Try a pisco sour at sunset.",
+    "why": "View with a drink.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5000,
+     12000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Pisco sour"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Chile",
+  "region": "South America",
+  "currency": "CLP",
+  "cashTip": "Cards are common; carry pesos for buses, small shops and park fees in remote areas.",
+  "dailyBudget": [
+   60000,
+   200000
+  ],
+  "cashPerDay": [
+   15000,
+   40000
+  ],
+  "id": "san-pedro-de-atacama",
+  "name": "San Pedro de Atacama",
+  "at": [
+   -22.9087,
+   -68.1997
+  ],
+  "wiki": "San Pedro de Atacama",
+  "cover": "Valle de la Luna",
+  "seasons": "HHHSSSSSSSSH",
+  "tagline": "Desert lagoons, geysers and the clearest skies",
+  "summary": "San Pedro de Atacama is an adobe oasis in the world's driest desert. Watch sunset in the Valley of the Moon, rise before dawn for the El Tatio geysers, float in the salty Laguna Cejar, see flamingos at the altiplanic lagoons and join a world-class stargazing tour.",
+  "days": 4,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Sunny year-round; nights are freezing in winter and summer can bring 'altiplanic' rain.",
+  "arrival": "Fly to Calama, then 1.5 hours by shuttle.",
+  "gettingAround": "Tours or a rented car; bikes for nearby valleys.",
+  "foodTip": "Altiplano dishes with quinoa and llama.",
+  "buyTip": "Alpaca wool and local crafts.",
+  "baseArea": "San Pedro village",
+  "hotel": [
+   60000,
+   300000
+  ],
+  "connections": [
+   {
+    "to": "santiago",
+    "mode": "Flight",
+    "minutes": 125,
+    "note": "Fly to Calama."
+   },
+   {
+    "to": "uyuni",
+    "mode": "Car",
+    "minutes": 4320,
+    "note": "Classic 3-day 4x4 tour across the border."
+   }
+  ],
+  "items": [
+   {
+    "name": "Valle de la Luna",
+    "kind": "see",
+    "id": "spa-luna",
+    "at": [
+     -22.92,
+     -68.28
+    ],
+    "wiki": "Valle de la Luna (Chile)",
+    "area": "West",
+    "summary": "Moon-like valley of salt formations and dunes.",
+    "expect": "Park fee.",
+    "tip": "Go for sunset.",
+    "why": "Otherworldly.",
+    "flow": [
+     "Caves.",
+     "Great Dune.",
+     "Sunset."
+    ],
+    "hours": 3,
+    "price": [
+     10000,
+     15000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "El Tatio geysers",
+    "kind": "see",
+    "id": "spa-tatio",
+    "at": [
+     -22.333,
+     -68.013
+    ],
+    "wiki": "El Tatio",
+    "area": "Andes",
+    "summary": "Geyser field at 4,300 m, steaming at dawn.",
+    "expect": "4am start.",
+    "tip": "Dress for freezing cold.",
+    "why": "Dawn spectacle.",
+    "flow": [
+     "Pre-dawn drive.",
+     "Geysers.",
+     "Hot spring."
+    ],
+    "hours": 7,
+    "price": [
+     30000,
+     50000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Altiplanic lagoons",
+    "kind": "see",
+    "id": "spa-lagunas",
+    "at": [
+     -23.74,
+     -67.88
+    ],
+    "wiki": "Miscanti Lake",
+    "area": "Altiplano",
+    "summary": "Deep-blue high lagoons with volcano backdrops.",
+    "expect": "Full day.",
+    "tip": "Combine with Chaxa flamingos.",
+    "why": "Altiplano beauty.",
+    "flow": [
+     "Chaxa.",
+     "Miscanti.",
+     "Miñiques."
+    ],
+    "hours": 10,
+    "price": [
+     40000,
+     70000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Laguna Cejar",
+    "kind": "see",
+    "id": "spa-cejar",
+    "at": [
+     -23.061,
+     -68.215
+    ],
+    "wiki": "Laguna Cejar",
+    "area": "Salar",
+    "summary": "Float in a salty lagoon, then sunset at Tebinquinche.",
+    "expect": "Half day.",
+    "tip": "Bring a towel and water to rinse.",
+    "why": "Floating fun.",
+    "flow": [
+     "Float.",
+     "Ojos del Salar.",
+     "Sunset."
+    ],
+    "hours": 4,
+    "price": [
+     15000,
+     30000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Stargazing tour",
+    "kind": "see",
+    "id": "spa-stars",
+    "at": [
+     -22.95,
+     -68.19
+    ],
+    "wiki": "Atacama Desert",
+    "area": "Outskirts",
+    "summary": "Telescope tours under the clearest skies on earth.",
+    "expect": "Book ahead.",
+    "tip": "Avoid full moon.",
+    "why": "Best stars.",
+    "flow": [
+     "Telescopes.",
+     "Constellations."
+    ],
+    "hours": 2.5,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Iglesia de San Pedro",
+    "kind": "see",
+    "id": "spa-church",
+    "at": [
+     -22.911,
+     -68.199
+    ],
+    "wiki": "Church of San Pedro de Atacama",
+    "area": "Village",
+    "summary": "Adobe church with a cactus-wood ceiling.",
+    "expect": "Free.",
+    "tip": "Visit at golden hour.",
+    "why": "Village icon.",
+    "flow": [
+     "Plaza.",
+     "Church."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Altiplano cuisine",
+    "kind": "eat",
+    "id": "spa-altiplano",
+    "at": [
+     -22.91,
+     -68.2
+    ],
+    "wiki": "Andean cuisine",
+    "area": "Village",
+    "venue": "food-area",
+    "summary": "Quinoa, llama and local herbs.",
+    "expect": "Restaurants.",
+    "tip": "Try Ckunna.",
+    "why": "Desert flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15000,
+     30000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Llama stew"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Empanadas",
+    "kind": "eat",
+    "id": "spa-empanadas",
+    "at": [
+     -22.91,
+     -68.2
+    ],
+    "wiki": "Empanada",
+    "area": "Caracoles",
+    "venue": "food-area",
+    "summary": "Cheap empanadas on Caracoles street.",
+    "expect": "Daytime.",
+    "tip": "Grab before a tour.",
+    "why": "Quick fuel.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2000,
+     4000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Empanadas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Desert ice cream",
+    "kind": "eat",
+    "id": "spa-icecream",
+    "at": [
+     -22.91,
+     -68.2
+    ],
+    "wiki": "Ice cream",
+    "area": "Village",
+    "venue": "food-area",
+    "summary": "Ice cream with local flavours like rica rica.",
+    "expect": "Afternoon.",
+    "tip": "Try chañar.",
+    "why": "Unusual flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2500,
+     4000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Rica rica ice cream"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Chile",
+  "region": "South America",
+  "currency": "CLP",
+  "cashTip": "Cards are common; carry pesos for buses, small shops and park fees in remote areas.",
+  "dailyBudget": [
+   60000,
+   200000
+  ],
+  "cashPerDay": [
+   15000,
+   40000
+  ],
+  "id": "easter-island",
+  "name": "Easter Island (Rapa Nui)",
+  "at": [
+   -27.15,
+   -109.4333
+  ],
+  "wiki": "Easter Island",
+  "cover": "Ahu Tongariki",
+  "seasons": "HHHSSLLLSSSH",
+  "tagline": "Mysterious moai on a remote Pacific island",
+  "summary": "Easter Island, or Rapa Nui, is one of the most remote inhabited places on earth, famous for its giant moai statues. See the 15 moai of Ahu Tongariki at sunrise, the quarry at Rano Raraku where they were carved, the ceremonial village of Orongo on a crater rim and the white-sand beach of Anakena.",
+  "days": 4,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   11,
+   12
+  ],
+  "seasonNote": "Summer is warm; the Tapati festival is in early February.",
+  "arrival": "Fly from Santiago (5.5 hours) to Mataveri Airport in Hanga Roa.",
+  "gettingAround": "Rent a car or join tours; a national park ticket is required.",
+  "foodTip": "Tuna ceviche and po'e (banana cake).",
+  "buyTip": "Wood carvings of moai.",
+  "baseArea": "Hanga Roa",
+  "hotel": [
+   100000,
+   400000
+  ],
+  "connections": [
+   {
+    "to": "santiago",
+    "mode": "Flight",
+    "minutes": 330,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Ahu Tongariki",
+    "kind": "see",
+    "id": "eas-tongariki",
+    "at": [
+     -27.126,
+     -109.277
+    ],
+    "wiki": "Ahu Tongariki",
+    "area": "East coast",
+    "summary": "15 restored moai on one platform, magical at sunrise.",
+    "expect": "Park ticket.",
+    "tip": "Go for sunrise.",
+    "why": "Most iconic moai.",
+    "flow": [
+     "Sunrise.",
+     "Platform."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Rano Raraku quarry",
+    "kind": "see",
+    "id": "eas-raraku",
+    "at": [
+     -27.121,
+     -109.289
+    ],
+    "wiki": "Rano Raraku",
+    "area": "East",
+    "summary": "The quarry where nearly all moai were carved, many half-buried.",
+    "expect": "Visit once with a guide.",
+    "tip": "Hire a local guide.",
+    "why": "Moai nursery.",
+    "flow": [
+     "Quarry slope.",
+     "Crater lake."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Orongo and Rano Kau",
+    "kind": "see",
+    "id": "eas-orongo",
+    "at": [
+     -27.189,
+     -109.443
+    ],
+    "wiki": "Orongo",
+    "area": "South",
+    "summary": "Ceremonial birdman village on a crater rim.",
+    "expect": "Park ticket.",
+    "tip": "Look into the crater lake.",
+    "why": "Birdman cult.",
+    "flow": [
+     "Crater.",
+     "Stone houses."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Anakena Beach",
+    "kind": "see",
+    "id": "eas-anakena",
+    "at": [
+     -27.073,
+     -109.323
+    ],
+    "wiki": "Anakena",
+    "area": "North",
+    "summary": "Palm-fringed white beach with moai.",
+    "expect": "Free.",
+    "tip": "Swim and picnic.",
+    "why": "Island beach.",
+    "flow": [
+     "Beach.",
+     "Ahu Nau Nau."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Ahu Tahai sunset",
+    "kind": "see",
+    "id": "eas-tahai",
+    "at": [
+     -27.14,
+     -109.428
+    ],
+    "wiki": "Tahai Ceremonial Complex",
+    "area": "Hanga Roa",
+    "summary": "Moai silhouetted at sunset near town.",
+    "expect": "Free.",
+    "tip": "Arrive early for a spot.",
+    "why": "Sunset ritual.",
+    "flow": [
+     "Moai.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Rapa Nui National Park ticket",
+    "kind": "see",
+    "id": "eas-park",
+    "at": [
+     -27.15,
+     -109.43
+    ],
+    "wiki": "Rapa Nui National Park",
+    "area": "Island",
+    "summary": "Required ticket for most archaeological sites.",
+    "expect": "Valid 10 days.",
+    "tip": "Buy at the airport.",
+    "why": "Needed for everything.",
+    "flow": [
+     "Buy ticket.",
+     "Plan sites."
+    ],
+    "hours": 0.5,
+    "price": [
+     80000,
+     90000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Tuna ceviche",
+    "kind": "eat",
+    "id": "eas-ceviche",
+    "at": [
+     -27.15,
+     -109.43
+    ],
+    "wiki": "Ceviche",
+    "area": "Hanga Roa",
+    "venue": "food-area",
+    "summary": "Fresh tuna ceviche.",
+    "expect": "Restaurants.",
+    "tip": "Try Te Moana.",
+    "why": "Island flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15000,
+     25000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polynesian",
+    "order": [
+     "Tuna ceviche"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Tuna empanadas",
+    "kind": "eat",
+    "id": "eas-empanadas",
+    "at": [
+     -27.15,
+     -109.43
+    ],
+    "wiki": "Empanada",
+    "area": "Hanga Roa",
+    "venue": "food-area",
+    "summary": "Empanadas filled with island tuna.",
+    "expect": "Snack bars.",
+    "tip": "Eat by the harbour.",
+    "why": "Local twist.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4000,
+     6000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Tuna empanada"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Umu feast",
+    "kind": "eat",
+    "id": "eas-curanto",
+    "at": [
+     -27.15,
+     -109.43
+    ],
+    "wiki": "Umu (food)",
+    "area": "Hanga Roa",
+    "venue": "food-area",
+    "summary": "Earth-oven feast at cultural shows.",
+    "expect": "Evenings.",
+    "tip": "Combine with a dance show.",
+    "why": "Rapa Nui feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     30000,
+     50000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polynesian",
+    "order": [
+     "Umu"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Uruguay",
+  "region": "South America",
+  "currency": "UYU",
+  "cashTip": "Cards work almost everywhere and foreign cards often get a VAT refund at restaurants.",
+  "dailyBudget": [
+   3500,
+   9000
+  ],
+  "cashPerDay": [
+   500,
+   1500
+  ],
+  "id": "montevideo",
+  "name": "Montevideo",
+  "at": [
+   -34.9011,
+   -56.1645
+  ],
+  "wiki": "Montevideo",
+  "cover": "Montevideo Rambla",
+  "seasons": "HHHSSLLLSSSH",
+  "tagline": "Laid-back capital of the Rambla and asado",
+  "summary": "Montevideo is Uruguay's relaxed, safe capital with a long riverside Rambla, art deco Ciudad Vieja and the giant grills of Mercado del Puerto. Walk Plaza Independencia, see Palacio Salvo, join locals drinking mate on the Rambla at sunset and day-trip to Colonia del Sacramento.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Summer is warm and festive with Carnival from January to March.",
+  "arrival": "Carrasco Airport is 25 minutes away; ferries from Buenos Aires.",
+  "gettingAround": "Walk the centre; buses and Uber.",
+  "foodTip": "Chivito sandwich and asado.",
+  "buyTip": "Leather and mate gourds.",
+  "baseArea": "Ciudad Vieja, Centro or Pocitos",
+  "hotel": [
+   3000,
+   8000
+  ],
+  "connections": [
+   {
+    "to": "buenos-aires",
+    "mode": "Ferry",
+    "minutes": 135,
+    "note": "Direct ferry, or via Colonia."
+   }
+  ],
+  "items": [
+   {
+    "name": "La Rambla",
+    "kind": "see",
+    "id": "mvd-rambla",
+    "at": [
+     -34.915,
+     -56.15
+    ],
+    "wiki": "Rambla of Montevideo",
+    "area": "Coast",
+    "summary": "22 km waterfront promenade.",
+    "expect": "Free.",
+    "tip": "Go at sunset with mate.",
+    "why": "Montevideo's soul.",
+    "flow": [
+     "Walk.",
+     "Sunset."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ciudad Vieja",
+    "kind": "see",
+    "id": "mvd-ciudadvieja",
+    "at": [
+     -34.907,
+     -56.206
+    ],
+    "wiki": "Ciudad Vieja, Montevideo",
+    "area": "Old Town",
+    "summary": "Colonial and art deco old town.",
+    "expect": "Free.",
+    "tip": "Walk Sarandí pedestrian street.",
+    "why": "Historic core.",
+    "flow": [
+     "Gate.",
+     "Sarandí.",
+     "Cathedral."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Palacio Salvo",
+    "kind": "see",
+    "id": "mvd-salvo",
+    "at": [
+     -34.906,
+     -56.199
+    ],
+    "wiki": "Palacio Salvo",
+    "area": "Plaza Independencia",
+    "summary": "Eclectic 1920s tower on the main square.",
+    "expect": "Tours.",
+    "tip": "Take the guided tour to the top.",
+    "why": "City icon.",
+    "flow": [
+     "Tour.",
+     "View."
+    ],
+    "hours": 1,
+    "price": [
+     300,
+     400
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Teatro Solís",
+    "kind": "see",
+    "id": "mvd-solis",
+    "at": [
+     -34.907,
+     -56.201
+    ],
+    "wiki": "Teatro Solís",
+    "area": "Ciudad Vieja",
+    "summary": "Elegant 19th-century opera house.",
+    "expect": "Tours or shows.",
+    "tip": "Catch a show.",
+    "why": "Cultural gem.",
+    "flow": [
+     "Tour.",
+     "Show."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     500
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Colonia del Sacramento",
+    "kind": "see",
+    "id": "mvd-colonia",
+    "at": [
+     -34.471,
+     -57.844
+    ],
+    "wiki": "Colonia del Sacramento",
+    "area": "Colonia",
+    "summary": "UNESCO colonial town with cobbled streets and a lighthouse.",
+    "expect": "2.5 hours by bus.",
+    "tip": "Stay for sunset.",
+    "why": "Postcard town.",
+    "flow": [
+     "Bus.",
+     "Calle de los Suspiros.",
+     "Lighthouse."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Carnival Museum",
+    "kind": "see",
+    "id": "mvd-carnival",
+    "at": [
+     -34.905,
+     -56.211
+    ],
+    "wiki": "Montevideo Carnival",
+    "area": "Ciudad Vieja",
+    "summary": "The world's longest carnival and candombe drumming.",
+    "expect": "Small fee.",
+    "tip": "See candombe in Barrio Sur.",
+    "why": "Afro-Uruguayan culture.",
+    "flow": [
+     "Museum.",
+     "Candombe."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     300
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Mercado del Puerto",
+    "kind": "eat",
+    "id": "mvd-mercado",
+    "at": [
+     -34.906,
+     -56.212
+    ],
+    "wiki": "Mercado del Puerto",
+    "area": "Ciudad Vieja",
+    "venue": "food-area",
+    "summary": "Iron market hall full of smoky parrillas.",
+    "expect": "Lunch.",
+    "tip": "Sit at the counter.",
+    "why": "Meat paradise.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     800,
+     1800
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Uruguayan",
+    "order": [
+     "Asado",
+     "Medio y medio"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Chivito",
+    "kind": "eat",
+    "id": "mvd-chivito",
+    "at": [
+     -34.91,
+     -56.19
+    ],
+    "wiki": "Chivito (sandwich)",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Steak sandwich loaded with ham, egg and cheese.",
+    "expect": "Everywhere.",
+    "tip": "Try it al plato.",
+    "why": "National sandwich.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     900
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Uruguayan",
+    "order": [
+     "Chivito"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mate on the Rambla",
+    "kind": "eat",
+    "id": "mvd-mate",
+    "at": [
+     -34.915,
+     -56.15
+    ],
+    "wiki": "Mate (drink)",
+    "area": "Rambla",
+    "venue": "food-area",
+    "summary": "Join locals sharing mate.",
+    "expect": "Free.",
+    "tip": "Buy a mate and bombilla.",
+    "why": "Daily ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     300
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Uruguayan",
+    "order": [
+     "Mate"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Colombia",
+  "region": "South America",
+  "currency": "COP",
+  "cashTip": "Carry pesos for small shops, buses and tips; cards work in cities.",
+  "dailyBudget": [
+   200000,
+   500000
+  ],
+  "cashPerDay": [
+   60000,
+   150000
+  ],
+  "id": "santa-marta",
+  "name": "Santa Marta and Tayrona",
+  "at": [
+   11.2408,
+   -74.199
+  ],
+  "wiki": "Santa Marta",
+  "cover": "Tayrona National Park",
+  "seasons": "HHHSSSSSSLLH",
+  "tagline": "Caribbean beaches, jungle and the Lost City",
+  "summary": "Santa Marta is Colombia's oldest city and the gateway to Tayrona National Park, where jungle meets Caribbean beaches. Hike to Cabo San Juan, trek to the ancient Ciudad Perdida, cool off in the mountain village of Minca and relax in Taganga.",
+  "days": 5,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   7,
+   8
+  ],
+  "seasonNote": "December to March is driest; Tayrona closes for a few weeks each year (usually February and June).",
+  "arrival": "Simón Bolívar Airport is 25 minutes from the centre.",
+  "gettingAround": "Taxis and colectivos; tours for Tayrona and Lost City.",
+  "foodTip": "Fried fish with coconut rice and patacones.",
+  "buyTip": "Arhuaco mochila bags and coffee from Minca.",
+  "baseArea": "Centro Histórico or Rodadero",
+  "hotel": [
+   120000,
+   450000
+  ],
+  "connections": [
+   {
+    "to": "cartagena",
+    "mode": "Bus",
+    "minutes": 270,
+    "note": "Shuttles and buses."
+   },
+   {
+    "to": "bogota",
+    "mode": "Flight",
+    "minutes": 90,
+    "note": "Frequent flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Tayrona National Park",
+    "kind": "see",
+    "id": "smr-tayrona",
+    "at": [
+     11.311,
+     -73.93
+    ],
+    "wiki": "Tayrona National Natural Park",
+    "area": "Tayrona",
+    "summary": "Jungle trails to Caribbean beaches like Cabo San Juan.",
+    "expect": "Park fee.",
+    "tip": "Arrive early; it has daily caps.",
+    "why": "Jungle meets sea.",
+    "flow": [
+     "Trail.",
+     "Arrecifes.",
+     "Cabo San Juan."
+    ],
+    "hours": 8,
+    "price": [
+     60000,
+     90000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ciudad Perdida trek",
+    "kind": "see",
+    "id": "smr-lostcity",
+    "at": [
+     11.038,
+     -73.925
+    ],
+    "wiki": "Ciudad Perdida",
+    "area": "Sierra Nevada",
+    "summary": "Four- to five-day jungle trek to ancient terraces.",
+    "expect": "Licensed guide required.",
+    "tip": "Book a 4-day trek.",
+    "why": "Epic adventure.",
+    "flow": [
+     "Trek in.",
+     "1,200 steps.",
+     "Ancient city."
+    ],
+    "hours": 96,
+    "price": [
+     2000000,
+     2600000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Minca",
+    "kind": "see",
+    "id": "smr-minca",
+    "at": [
+     11.143,
+     -74.119
+    ],
+    "wiki": "Minca",
+    "area": "Sierra Nevada",
+    "summary": "Cool mountain village with coffee farms and waterfalls.",
+    "expect": "Moto-taxi up.",
+    "tip": "Visit La Victoria coffee farm.",
+    "why": "Mountain escape.",
+    "flow": [
+     "Coffee farm.",
+     "Pozo Azul."
+    ],
+    "hours": 6,
+    "price": [
+     20000,
+     60000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Centro Histórico",
+    "kind": "see",
+    "id": "smr-centro",
+    "at": [
+     11.242,
+     -74.211
+    ],
+    "wiki": "Santa Marta",
+    "area": "Centro",
+    "summary": "Colonial core with a cathedral and lively Parque de los Novios.",
+    "expect": "Free.",
+    "tip": "Dine around the park.",
+    "why": "Old city.",
+    "flow": [
+     "Cathedral.",
+     "Park."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Taganga",
+    "kind": "see",
+    "id": "smr-taganga",
+    "at": [
+     11.267,
+     -74.19
+    ],
+    "wiki": "Taganga",
+    "area": "Taganga",
+    "summary": "Fishing village for boats and diving.",
+    "expect": "Taxi.",
+    "tip": "Take a boat to Playa Grande.",
+    "why": "Relaxed bay.",
+    "flow": [
+     "Boat.",
+     "Snorkel."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     100000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Quinta de San Pedro Alejandrino",
+    "kind": "see",
+    "id": "smr-quinta",
+    "at": [
+     11.228,
+     -74.188
+    ],
+    "wiki": "Quinta de San Pedro Alejandrino",
+    "area": "Mamatoco",
+    "summary": "Hacienda where Simón Bolívar died.",
+    "expect": "Allow 1.5 hours.",
+    "tip": "Go in the morning.",
+    "why": "Liberator's end.",
+    "flow": [
+     "Hacienda.",
+     "Gardens."
+    ],
+    "hours": 1.5,
+    "price": [
+     25000,
+     30000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Fried fish with coconut rice",
+    "kind": "eat",
+    "id": "smr-fish",
+    "at": [
+     11.24,
+     -74.21
+    ],
+    "wiki": "Colombian cuisine",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Whole fried fish, patacones and coconut rice.",
+    "expect": "Beach shacks.",
+    "tip": "Ask for mojarra.",
+    "why": "Caribbean plate.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     25000,
+     45000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Pescado frito"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Arepa de huevo",
+    "kind": "eat",
+    "id": "smr-arepas",
+    "at": [
+     11.24,
+     -74.21
+    ],
+    "wiki": "Arepa de huevo",
+    "area": "Street",
+    "venue": "food-area",
+    "summary": "Fried arepa with an egg inside.",
+    "expect": "Street stalls.",
+    "tip": "Eat hot.",
+    "why": "Coastal snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3000,
+     6000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Arepa de huevo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Fresh juices",
+    "kind": "eat",
+    "id": "smr-juice",
+    "at": [
+     11.24,
+     -74.21
+    ],
+    "wiki": "Colombian cuisine",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Tropical fruit juices from lulo to maracuyá.",
+    "expect": "Everywhere.",
+    "tip": "Try lulo.",
+    "why": "Fruit heaven.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4000,
+     8000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Jugo de lulo"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ }
+]
