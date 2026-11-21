@@ -1,0 +1,2410 @@
+[
+ {
+  "country": "Lithuania",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and tap-to-pay work almost everywhere.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   0,
+   20
+  ],
+  "id": "vilnius",
+  "name": "Vilnius",
+  "at": [
+   54.6872,
+   25.2797
+  ],
+  "wiki": "Vilnius",
+  "cover": "Vilnius Old Town",
+  "seasons": "LLLSSHHHSSLL",
+  "tagline": "Baroque old town and a cheeky artists' republic",
+  "summary": "Vilnius has one of Europe's largest baroque old towns, a UNESCO maze of church spires and courtyards. Climb Gediminas Tower for the view, visit the self-declared Republic of Užupis, see the Gate of Dawn, and day-trip to Trakai's red-brick island castle.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Late spring to early autumn is warm and lively; winter is cold with Christmas markets.",
+  "arrival": "Vilnius Airport is 15 minutes from the old town by train or bus.",
+  "gettingAround": "Walk the old town; buses and Bolt.",
+  "foodTip": "Cepelinai (potato dumplings) and cold pink beet soup.",
+  "buyTip": "Baltic amber and linen.",
+  "baseArea": "Old Town",
+  "hotel": [
+   70,
+   180
+  ],
+  "connections": [
+   {
+    "to": "riga",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Frequent buses."
+   },
+   {
+    "to": "warsaw",
+    "mode": "Bus",
+    "minutes": 480,
+    "note": "Buses and trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Gediminas Castle Tower",
+    "kind": "see",
+    "id": "vno-gediminas",
+    "at": [
+     54.6867,
+     25.2907
+    ],
+    "wiki": "Gediminas' Tower",
+    "area": "Castle Hill",
+    "summary": "Red-brick tower with the best old-town panorama.",
+    "expect": "Funicular or walk.",
+    "tip": "Go at sunset.",
+    "why": "City symbol.",
+    "flow": [
+     "Climb the hill.",
+     "Tower view."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Vilnius Cathedral and Square",
+    "kind": "see",
+    "id": "vno-cathedral",
+    "at": [
+     54.6858,
+     25.2877
+    ],
+    "wiki": "Vilnius Cathedral",
+    "area": "Old Town",
+    "summary": "Neoclassical cathedral with a free-standing bell tower.",
+    "expect": "Free.",
+    "tip": "Find the Stebuklas miracle tile.",
+    "why": "Heart of Vilnius.",
+    "flow": [
+     "Cathedral.",
+     "Bell tower."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Užupis",
+    "kind": "see",
+    "id": "vno-uzupis",
+    "at": [
+     54.681,
+     25.295
+    ],
+    "wiki": "Užupis",
+    "area": "Užupis",
+    "summary": "Bohemian 'republic' with its own quirky constitution on a wall.",
+    "expect": "Free.",
+    "tip": "Read the constitution in many languages.",
+    "why": "Playful art district.",
+    "flow": [
+     "Angel statue.",
+     "Constitution wall."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Gate of Dawn",
+    "kind": "see",
+    "id": "vno-gate",
+    "at": [
+     54.6741,
+     25.2894
+    ],
+    "wiki": "Gate of Dawn",
+    "area": "Old Town",
+    "summary": "City gate chapel with a revered icon of the Virgin Mary.",
+    "expect": "Free.",
+    "tip": "Walk down Pilies Street afterwards.",
+    "why": "Pilgrim site.",
+    "flow": [
+     "Chapel.",
+     "Pilies Street."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Trakai Island Castle",
+    "kind": "see",
+    "id": "vno-trakai",
+    "at": [
+     54.652,
+     24.933
+    ],
+    "wiki": "Trakai Island Castle",
+    "area": "Trakai",
+    "summary": "Red-brick castle on a lake island.",
+    "expect": "30 minutes by bus.",
+    "tip": "Hire a pedal boat.",
+    "why": "Fairy-tale castle.",
+    "flow": [
+     "Bus.",
+     "Castle.",
+     "Kibinai lunch."
+    ],
+    "hours": 5,
+    "price": [
+     10,
+     14
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Museum of Occupations and Freedom Fights",
+    "kind": "see",
+    "id": "vno-kgb",
+    "at": [
+     54.688,
+     25.27
+    ],
+    "wiki": "Museum of Occupations and Freedom Fights",
+    "area": "Centre",
+    "summary": "Former KGB building with prison cells.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the basement cells.",
+    "why": "Sobering history.",
+    "flow": [
+     "Exhibits.",
+     "Cells."
+    ],
+    "hours": 2,
+    "price": [
+     6,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Cepelinai",
+    "kind": "eat",
+    "id": "vno-cepelinai",
+    "at": [
+     54.68,
+     25.28
+    ],
+    "wiki": "Cepelinai",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Zeppelin-shaped potato dumplings with meat and sour cream.",
+    "expect": "Hearty.",
+    "tip": "Try Etno Dvaras.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     14
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lithuanian",
+    "order": [
+     "Cepelinai"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Šaltibarščiai",
+    "kind": "eat",
+    "id": "vno-saltibarsciai",
+    "at": [
+     54.682,
+     25.285
+    ],
+    "wiki": "Šaltibarščiai",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Bright pink cold beet soup with potatoes.",
+    "expect": "Summer.",
+    "tip": "Order with hot potatoes.",
+    "why": "Instagram soup.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lithuanian",
+    "order": [
+     "Šaltibarščiai"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Kibinai in Trakai",
+    "kind": "eat",
+    "id": "vno-kibinai",
+    "at": [
+     54.648,
+     24.934
+    ],
+    "wiki": "Kibinai",
+    "area": "Trakai",
+    "venue": "food-area",
+    "summary": "Karaim meat pastries.",
+    "expect": "Trakai cafés.",
+    "tip": "Try Kybynlar.",
+    "why": "Unique Karaim dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Karaim",
+    "order": [
+     "Kibinai"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Poland",
+  "region": "Europe",
+  "currency": "PLN",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry a few złoty for market stalls.",
+  "dailyBudget": [
+   300,
+   800
+  ],
+  "cashPerDay": [
+   0,
+   80
+  ],
+  "id": "gdansk",
+  "name": "Gdańsk",
+  "at": [
+   54.352,
+   18.6466
+  ],
+  "wiki": "Gdańsk",
+  "cover": "Gdańsk Long Market",
+  "seasons": "LLLSSHHHSSLL",
+  "tagline": "Hanseatic gables, amber and where WWII began",
+  "summary": "Gdańsk is a colourful Hanseatic port on the Baltic, rebuilt after WWII. Walk the Royal Way past Neptune's Fountain, see the medieval crane on the Motława, visit the moving WWII museum and the Solidarity centre, and day-trip to Malbork, the world's largest brick castle.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is mild with beach days; August brings St Dominic's Fair.",
+  "arrival": "Gdańsk Airport is 25 minutes from the centre by train.",
+  "gettingAround": "Walk the old town; trams and SKM trains to Sopot.",
+  "foodTip": "Pierogi, smoked fish and Goldwasser liqueur.",
+  "buyTip": "Baltic amber on Mariacka Street.",
+  "baseArea": "Main Town",
+  "hotel": [
+   300,
+   700
+  ],
+  "connections": [
+   {
+    "to": "warsaw",
+    "mode": "Train",
+    "minutes": 165,
+    "note": "Fast trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Long Market and Neptune's Fountain",
+    "kind": "see",
+    "id": "gdn-longmarket",
+    "at": [
+     54.3485,
+     18.6533
+    ],
+    "wiki": "Long Market, Gdańsk",
+    "area": "Main Town",
+    "summary": "The grand Royal Way of gabled merchant houses.",
+    "expect": "Free.",
+    "tip": "Climb the Town Hall tower.",
+    "why": "Iconic street.",
+    "flow": [
+     "Golden Gate.",
+     "Neptune.",
+     "Green Gate."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Museum of the Second World War",
+    "kind": "see",
+    "id": "gdn-wwii",
+    "at": [
+     54.356,
+     18.66
+    ],
+    "wiki": "Museum of the Second World War",
+    "area": "Riverside",
+    "summary": "Immersive museum of the war that began here.",
+    "expect": "Allow 3 to 4 hours.",
+    "tip": "Book a timed entry.",
+    "why": "Powerful.",
+    "flow": [
+     "Main exhibition.",
+     "Reconstructed street."
+    ],
+    "hours": 4,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "European Solidarity Centre",
+    "kind": "see",
+    "id": "gdn-solidarity",
+    "at": [
+     54.361,
+     18.649
+    ],
+    "wiki": "European Solidarity Centre",
+    "area": "Shipyard",
+    "summary": "Museum of the movement that toppled communism.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the shipyard gate.",
+    "why": "Freedom story.",
+    "flow": [
+     "Exhibition.",
+     "Roof terrace."
+    ],
+    "hours": 2,
+    "price": [
+     35,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Medieval Crane and Motława waterfront",
+    "kind": "see",
+    "id": "gdn-crane",
+    "at": [
+     54.351,
+     18.657
+    ],
+    "wiki": "Gdańsk Crane",
+    "area": "Waterfront",
+    "summary": "Medieval port crane on the riverside promenade.",
+    "expect": "Free outside.",
+    "tip": "Walk Mariacka Street after.",
+    "why": "Hanseatic port.",
+    "flow": [
+     "Crane.",
+     "Mariacka Street."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Malbork Castle",
+    "kind": "see",
+    "id": "gdn-malbork",
+    "at": [
+     54.04,
+     19.028
+    ],
+    "wiki": "Malbork Castle",
+    "area": "Malbork",
+    "summary": "The world's largest brick castle, of the Teutonic Knights.",
+    "expect": "45 minutes by train.",
+    "tip": "Take the audio guide.",
+    "why": "Medieval giant.",
+    "flow": [
+     "Train.",
+     "Castle.",
+     "Riverside view."
+    ],
+    "hours": 5,
+    "price": [
+     60,
+     70
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Sopot",
+    "kind": "see",
+    "id": "gdn-sopot",
+    "at": [
+     54.441,
+     18.57
+    ],
+    "wiki": "Sopot",
+    "area": "Sopot",
+    "summary": "Seaside resort with Europe's longest wooden pier.",
+    "expect": "20 minutes by train.",
+    "tip": "Walk the pier at sunset.",
+    "why": "Beach day.",
+    "flow": [
+     "Pier.",
+     "Beach.",
+     "Crooked House."
+    ],
+    "hours": 4,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Pierogi",
+    "kind": "eat",
+    "id": "gdn-pierogi",
+    "at": [
+     54.35,
+     18.65
+    ],
+    "wiki": "Pierogi",
+    "area": "Main Town",
+    "venue": "food-area",
+    "summary": "Dumplings with meat, cheese or berries.",
+    "expect": "Everywhere.",
+    "tip": "Try Pierogarnia Mandu.",
+    "why": "Polish classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Pierogi"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Smoked Baltic fish",
+    "kind": "eat",
+    "id": "gdn-fish",
+    "at": [
+     54.35,
+     18.66
+    ],
+    "wiki": "Smoked fish",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Smoked herring and fish soup.",
+    "expect": "Riverside.",
+    "tip": "Try a fish sandwich.",
+    "why": "Baltic flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Smoked fish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Goldwasser",
+    "kind": "eat",
+    "id": "gdn-goldwasser",
+    "at": [
+     54.349,
+     18.654
+    ],
+    "wiki": "Goldwasser",
+    "area": "Main Town",
+    "venue": "food-area",
+    "summary": "Herbal liqueur with gold flakes, invented here.",
+    "expect": "Bars.",
+    "tip": "Sip it slowly.",
+    "why": "Local legend.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Goldwasser"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Slovakia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted; carry a little cash for small cafés.",
+  "dailyBudget": [
+   70,
+   180
+  ],
+  "cashPerDay": [
+   0,
+   20
+  ],
+  "id": "bratislava",
+  "name": "Bratislava",
+  "at": [
+   48.1486,
+   17.1077
+  ],
+  "wiki": "Bratislava",
+  "cover": "Bratislava Castle",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Compact capital on the Danube with a castle on top",
+  "summary": "Bratislava is a small, walkable capital on the Danube, an hour from Vienna. Explore the old town's quirky statues, climb to the castle, take in the UFO Bridge's observation deck and Blue Church, and cycle or boat to Devín Castle where the Morava meets the Danube.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and early autumn are pleasant; December has Christmas markets.",
+  "arrival": "Bratislava Airport is 20 minutes away; Vienna Airport is 50 minutes by bus.",
+  "gettingAround": "Walk; trams and buses.",
+  "foodTip": "Bryndzové halušky (sheep-cheese dumplings).",
+  "buyTip": "Modra ceramics and Slovak wine.",
+  "baseArea": "Old Town",
+  "hotel": [
+   70,
+   170
+  ],
+  "connections": [
+   {
+    "to": "vienna",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "Hourly trains."
+   },
+   {
+    "to": "budapest",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Regular trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Bratislava Castle",
+    "kind": "see",
+    "id": "bts-castle",
+    "at": [
+     48.1425,
+     17.0999
+    ],
+    "wiki": "Bratislava Castle",
+    "area": "Castle Hill",
+    "summary": "Square castle with views over the Danube.",
+    "expect": "Free grounds.",
+    "tip": "Go at sunset.",
+    "why": "City icon.",
+    "flow": [
+     "Gardens.",
+     "Ramparts view."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Old Town and statues",
+    "kind": "see",
+    "id": "bts-oldtown",
+    "at": [
+     48.144,
+     17.108
+    ],
+    "wiki": "Bratislava Old Town",
+    "area": "Old Town",
+    "summary": "Cobbled lanes with Čumil the sewer worker statue.",
+    "expect": "Free.",
+    "tip": "Find Čumil and the Napoleon soldier.",
+    "why": "Charming walk.",
+    "flow": [
+     "Main Square.",
+     "Čumil.",
+     "Michael's Gate."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "UFO Bridge observation deck",
+    "kind": "see",
+    "id": "bts-ufo",
+    "at": [
+     48.139,
+     17.105
+    ],
+    "wiki": "Most SNP",
+    "area": "Danube",
+    "summary": "Flying-saucer tower on a bridge with a viewing deck.",
+    "expect": "Ticket.",
+    "tip": "Have a drink at the top.",
+    "why": "Unique view.",
+    "flow": [
+     "Lift.",
+     "Deck."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Blue Church",
+    "kind": "see",
+    "id": "bts-blue",
+    "at": [
+     48.144,
+     17.116
+    ],
+    "wiki": "Church of St. Elizabeth (Bratislava)",
+    "area": "Old Town",
+    "summary": "Art Nouveau church painted pastel blue.",
+    "expect": "Free.",
+    "tip": "Morning light is best.",
+    "why": "Fairy-tale church.",
+    "flow": [
+     "Exterior.",
+     "Interior."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Devín Castle",
+    "kind": "see",
+    "id": "bts-devin",
+    "at": [
+     48.174,
+     16.978
+    ],
+    "wiki": "Devín Castle",
+    "area": "Devín",
+    "summary": "Ruins on a cliff where two rivers meet.",
+    "expect": "Bus or bike.",
+    "tip": "Cycle the Danube path.",
+    "why": "Romantic ruins.",
+    "flow": [
+     "Ruins.",
+     "River view."
+    ],
+    "hours": 3,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "St Martin's Cathedral",
+    "kind": "see",
+    "id": "bts-stmartin",
+    "at": [
+     48.142,
+     17.105
+    ],
+    "wiki": "St. Martin's Cathedral, Bratislava",
+    "area": "Old Town",
+    "summary": "Coronation church of Hungarian kings.",
+    "expect": "Small fee.",
+    "tip": "See the golden crown on the spire.",
+    "why": "Royal history.",
+    "flow": [
+     "Nave.",
+     "Crypt."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Bryndzové halušky",
+    "kind": "eat",
+    "id": "bts-halusky",
+    "at": [
+     48.144,
+     17.108
+    ],
+    "wiki": "Bryndzové halušky",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Potato dumplings with sheep cheese and bacon.",
+    "expect": "Everywhere.",
+    "tip": "Try Slovak Pub.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     12
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Slovak",
+    "order": [
+     "Halušky"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Slovak wine",
+    "kind": "eat",
+    "id": "bts-wine",
+    "at": [
+     48.145,
+     17.107
+    ],
+    "wiki": "Slovak wine",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Little Carpathian wines in cellars.",
+    "expect": "Bars.",
+    "tip": "Try Frankovka.",
+    "why": "Local wine.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Slovak",
+    "order": [
+     "Frankovka"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Café culture",
+    "kind": "eat",
+    "id": "bts-cafe",
+    "at": [
+     48.144,
+     17.109
+    ],
+    "wiki": "Bratislava",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Cosy cafés with cakes.",
+    "expect": "Daytime.",
+    "tip": "Try a Bratislava rožok.",
+    "why": "Sweet break.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Slovak",
+    "order": [
+     "Bratislavský rožok"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Serbia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Prices are shown in euros; locally you pay in Serbian dinars (RSD), about 117 to the euro. Cards work in most places; carry dinars for kafanas, markets and taxis.",
+  "dailyBudget": [
+   50,
+   140
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "belgrade",
+  "name": "Belgrade",
+  "at": [
+   44.7866,
+   20.4489
+  ],
+  "wiki": "Belgrade",
+  "cover": "Belgrade Fortress",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Fortress views and Europe's liveliest nightlife",
+  "summary": "Belgrade, Serbia's energetic capital, sits where the Sava meets the Danube. Watch sunset from Kalemegdan Fortress, stroll Knez Mihailova and bohemian Skadarlija, visit the vast Church of Saint Sava and Tito's mausoleum, and party on the floating river clubs.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are ideal; summer is hot with river clubs at full swing.",
+  "arrival": "Nikola Tesla Airport is 25 minutes from the centre.",
+  "gettingAround": "Walk the centre; buses, trams and CarGo taxis.",
+  "foodTip": "Ćevapi, pljeskavica and rakija.",
+  "buyTip": "Rakija and local crafts.",
+  "baseArea": "Stari Grad or Dorćol",
+  "hotel": [
+   60,
+   150
+  ],
+  "connections": [
+   {
+    "to": "budapest",
+    "mode": "Train",
+    "minutes": 170,
+    "note": "New fast line via Novi Sad."
+   },
+   {
+    "to": "sarajevo",
+    "mode": "Bus",
+    "minutes": 420,
+    "note": "Daily buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Kalemegdan Fortress",
+    "kind": "see",
+    "id": "beg-kalemegdan",
+    "at": [
+     44.823,
+     20.45
+    ],
+    "wiki": "Belgrade Fortress",
+    "area": "Stari Grad",
+    "summary": "Fortress park over the river confluence.",
+    "expect": "Free.",
+    "tip": "Stay for sunset.",
+    "why": "Belgrade's soul.",
+    "flow": [
+     "Victor statue.",
+     "Ramparts.",
+     "Sunset."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Church of Saint Sava",
+    "kind": "see",
+    "id": "beg-sava",
+    "at": [
+     44.798,
+     20.469
+    ],
+    "wiki": "Church of Saint Sava",
+    "area": "Vračar",
+    "summary": "One of the largest Orthodox churches, with a gilded mosaic dome.",
+    "expect": "Free.",
+    "tip": "See the crypt.",
+    "why": "Golden interior.",
+    "flow": [
+     "Main dome.",
+     "Crypt."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Skadarlija",
+    "kind": "see",
+    "id": "beg-skadarlija",
+    "at": [
+     44.818,
+     20.465
+    ],
+    "wiki": "Skadarlija",
+    "area": "Stari Grad",
+    "summary": "Cobbled bohemian street of kafanas with live music.",
+    "expect": "Evenings.",
+    "tip": "Dine at Tri Šešira.",
+    "why": "Old Belgrade.",
+    "flow": [
+     "Stroll.",
+     "Kafana dinner."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Museum of Yugoslavia and House of Flowers",
+    "kind": "see",
+    "id": "beg-tito",
+    "at": [
+     44.786,
+     20.45
+    ],
+    "wiki": "Museum of Yugoslavia",
+    "area": "Dedinje",
+    "summary": "Tito's mausoleum and the story of Yugoslavia.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the relay batons.",
+    "why": "Yugoslav history.",
+    "flow": [
+     "House of Flowers.",
+     "Museum."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Zemun",
+    "kind": "see",
+    "id": "beg-zemun",
+    "at": [
+     44.846,
+     20.41
+    ],
+    "wiki": "Zemun",
+    "area": "Zemun",
+    "summary": "Old Habsburg town with riverside fish restaurants.",
+    "expect": "Bus or walk.",
+    "tip": "Climb Gardoš Tower.",
+    "why": "Riverside charm.",
+    "flow": [
+     "Gardoš Tower.",
+     "Quay."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "River clubs (splavovi)",
+    "kind": "see",
+    "id": "beg-splavovi",
+    "at": [
+     44.81,
+     20.44
+    ],
+    "wiki": "Splav",
+    "area": "Sava",
+    "summary": "Floating bars and clubs on the rivers.",
+    "expect": "Summer nights.",
+    "tip": "Go after midnight.",
+    "why": "Legendary nightlife.",
+    "flow": [
+     "Pick a splav.",
+     "Dance."
+    ],
+    "hours": 4,
+    "price": [
+     5,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Ćevapi",
+    "kind": "eat",
+    "id": "beg-cevapi",
+    "at": [
+     44.817,
+     20.46
+    ],
+    "wiki": "Ćevapi",
+    "area": "Stari Grad",
+    "venue": "food-area",
+    "summary": "Grilled minced meat with onion and flatbread.",
+    "expect": "Everywhere.",
+    "tip": "Add kajmak.",
+    "why": "Balkan staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Serbian",
+    "order": [
+     "Ćevapi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Pljeskavica",
+    "kind": "eat",
+    "id": "beg-pljeskavica",
+    "at": [
+     44.815,
+     20.46
+    ],
+    "wiki": "Pljeskavica",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Huge Balkan burger.",
+    "expect": "Street stands.",
+    "tip": "Order it with everything.",
+    "why": "Late-night bite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Serbian",
+    "order": [
+     "Pljeskavica"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Rakija bar",
+    "kind": "eat",
+    "id": "beg-rakija",
+    "at": [
+     44.818,
+     20.455
+    ],
+    "wiki": "Rakija",
+    "area": "Dorćol",
+    "venue": "food-area",
+    "summary": "Fruit brandy tasting.",
+    "expect": "Bars.",
+    "tip": "Try šljivovica (plum).",
+    "why": "National drink.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     8
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Serbian",
+    "order": [
+     "Rakija"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Romania",
+  "region": "Europe",
+  "currency": "RON",
+  "cashTip": "Cards work widely; carry some lei for markets and small shops.",
+  "dailyBudget": [
+   300,
+   800
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "id": "bucharest",
+  "name": "Bucharest",
+  "at": [
+   44.4268,
+   26.1025
+  ],
+  "wiki": "Bucharest",
+  "cover": "Palace of the Parliament",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Belle Époque boulevards and a colossal palace",
+  "summary": "Bucharest mixes Belle Époque mansions, communist monuments and buzzing nightlife. Tour the Palace of the Parliament, one of the world's largest buildings, browse the Carturesti Carusel bookshop, explore the old town and Revolution Square, and day-trip to Transylvania's castles.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are pleasant; summer is hot.",
+  "arrival": "Henri Coandă Airport is 30 to 45 minutes away by train or bus.",
+  "gettingAround": "Metro, buses and ride apps.",
+  "foodTip": "Sarmale, mici and papanași.",
+  "buyTip": "Embroidered blouses (ie) and wine.",
+  "baseArea": "Old Town or near Piața Romană",
+  "hotel": [
+   250,
+   700
+  ],
+  "connections": [
+   {
+    "to": "sofia",
+    "mode": "Bus",
+    "minutes": 420,
+    "note": "Daily buses."
+   },
+   {
+    "to": "budapest",
+    "mode": "Flight",
+    "minutes": 90,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Palace of the Parliament",
+    "kind": "see",
+    "id": "buh-palace",
+    "at": [
+     44.4275,
+     26.0874
+    ],
+    "wiki": "Palace of the Parliament",
+    "area": "Centre",
+    "summary": "Ceaușescu's monumental palace, one of the heaviest buildings on earth.",
+    "expect": "Guided tours only; bring ID.",
+    "tip": "Book ahead.",
+    "why": "Jaw-dropping scale.",
+    "flow": [
+     "Tour.",
+     "Balcony view."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     90
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Carturesti Carusel",
+    "kind": "see",
+    "id": "buh-carusel",
+    "at": [
+     44.431,
+     26.101
+    ],
+    "wiki": "Cărturești Carusel",
+    "area": "Old Town",
+    "summary": "Stunning white bookshop in a restored mansion.",
+    "expect": "Free.",
+    "tip": "Visit the top-floor café.",
+    "why": "Most beautiful bookstore.",
+    "flow": [
+     "Floors.",
+     "Café."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Old Town (Lipscani)",
+    "kind": "see",
+    "id": "buh-oldtown",
+    "at": [
+     44.431,
+     26.1
+    ],
+    "wiki": "Lipscani",
+    "area": "Old Town",
+    "summary": "Cobbled streets, bars and the Stavropoleos Monastery.",
+    "expect": "Free.",
+    "tip": "Peek into Stavropoleos.",
+    "why": "Lively centre.",
+    "flow": [
+     "Stavropoleos.",
+     "Hanul lui Manuc."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Village Museum",
+    "kind": "see",
+    "id": "buh-village",
+    "at": [
+     44.473,
+     26.077
+    ],
+    "wiki": "Dimitrie Gusti National Village Museum",
+    "area": "Herăstrău",
+    "summary": "Open-air museum of traditional rural houses.",
+    "expect": "Allow 2 hours.",
+    "tip": "Combine with Herăstrău Park.",
+    "why": "Rural Romania.",
+    "flow": [
+     "Houses.",
+     "Park."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Revolution Square and Athenaeum",
+    "kind": "see",
+    "id": "buh-revolution",
+    "at": [
+     44.441,
+     26.097
+    ],
+    "wiki": "Romanian Athenaeum",
+    "area": "Centre",
+    "summary": "Site of the 1989 revolution and the domed concert hall.",
+    "expect": "Free outside.",
+    "tip": "Catch a concert at the Athenaeum.",
+    "why": "Modern history.",
+    "flow": [
+     "Square.",
+     "Athenaeum."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Peleș Castle",
+    "kind": "see",
+    "id": "buh-peles",
+    "at": [
+     45.36,
+     25.543
+    ],
+    "wiki": "Peleș Castle",
+    "area": "Sinaia",
+    "summary": "Ornate royal castle in the Carpathians.",
+    "expect": "2 hours by train.",
+    "tip": "Combine with Bran Castle.",
+    "why": "Fairy-tale castle.",
+    "flow": [
+     "Train to Sinaia.",
+     "Castle tour."
+    ],
+    "hours": 10,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Sarmale",
+    "kind": "eat",
+    "id": "buh-sarmale",
+    "at": [
+     44.43,
+     26.1
+    ],
+    "wiki": "Sarmale",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Cabbage rolls with polenta and sour cream.",
+    "expect": "Everywhere.",
+    "tip": "Dine at Caru' cu Bere.",
+    "why": "Romanian staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     35,
+     60
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Romanian",
+    "order": [
+     "Sarmale"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mici",
+    "kind": "eat",
+    "id": "buh-mici",
+    "at": [
+     44.43,
+     26.1
+    ],
+    "wiki": "Mici",
+    "area": "Markets",
+    "venue": "food-area",
+    "summary": "Grilled skinless sausages with mustard.",
+    "expect": "Street grills.",
+    "tip": "Pair with beer.",
+    "why": "Grill favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Romanian",
+    "order": [
+     "Mici"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Papanași",
+    "kind": "eat",
+    "id": "buh-papanasi",
+    "at": [
+     44.43,
+     26.1
+    ],
+    "wiki": "Papanași",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Fried doughnuts with sour cream and jam.",
+    "expect": "Dessert.",
+    "tip": "Share one.",
+    "why": "Sweet finale.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Romanian",
+    "order": [
+     "Papanași"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Armenia",
+  "region": "Asia",
+  "currency": "USD",
+  "cashTip": "Prices are shown in US dollars; locally you pay in Armenian dram (AMD), about 390 to the dollar. Cards work in Yerevan; carry dram for taxis, markets and day trips.",
+  "dailyBudget": [
+   50,
+   150
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "yerevan",
+  "name": "Yerevan",
+  "at": [
+   40.1792,
+   44.4991
+  ],
+  "wiki": "Yerevan",
+  "cover": "Yerevan Ararat",
+  "seasons": "LLSSHHSSHHLL",
+  "tagline": "Pink-stone city beneath Mount Ararat",
+  "summary": "Yerevan is one of the world's oldest continuously inhabited cities, built from rosy tuff stone with Mount Ararat on the horizon. Climb the Cascade for the view, learn about the genocide at Tsitsernakaberd, browse the Vernissage market and day-trip to Garni temple, Geghard monastery and Khor Virap.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are perfect; summer is very hot.",
+  "arrival": "Zvartnots Airport is 20 minutes from the centre.",
+  "gettingAround": "Walk; Yandex Go and GG taxis are cheap.",
+  "foodTip": "Khorovats (barbecue), dolma and lavash.",
+  "buyTip": "Armenian brandy and carpets at Vernissage.",
+  "baseArea": "Kentron (centre)",
+  "hotel": [
+   50,
+   150
+  ],
+  "connections": [
+   {
+    "to": "tbilisi",
+    "mode": "Bus",
+    "minutes": 330,
+    "note": "Marshrutkas and shared taxis; overnight train in summer."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cascade Complex",
+    "kind": "see",
+    "id": "evn-cascade",
+    "at": [
+     40.191,
+     44.515
+    ],
+    "wiki": "Yerevan Cascade",
+    "area": "Kentron",
+    "summary": "Giant stairway with art and Ararat views.",
+    "expect": "Free.",
+    "tip": "Go at sunset.",
+    "why": "Best city view.",
+    "flow": [
+     "Sculptures.",
+     "Climb.",
+     "View."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Art",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Armenian Genocide Memorial",
+    "kind": "see",
+    "id": "evn-genocide",
+    "at": [
+     40.185,
+     44.49
+    ],
+    "wiki": "Armenian Genocide Memorial complex",
+    "area": "Tsitsernakaberd",
+    "summary": "Eternal flame memorial and museum.",
+    "expect": "Free.",
+    "tip": "Allow 2 hours.",
+    "why": "Essential history.",
+    "flow": [
+     "Museum.",
+     "Memorial."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Garni and Geghard",
+    "kind": "see",
+    "id": "evn-garni",
+    "at": [
+     40.14,
+     44.82
+    ],
+    "wiki": "Geghard",
+    "area": "Kotayk",
+    "summary": "Greek-style temple and cave monastery carved from rock.",
+    "expect": "Half day.",
+    "tip": "Listen for choirs at Geghard.",
+    "why": "Ancient wonders.",
+    "flow": [
+     "Garni Temple.",
+     "Symphony of Stones.",
+     "Geghard."
+    ],
+    "hours": 5,
+    "price": [
+     15,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Khor Virap",
+    "kind": "see",
+    "id": "evn-khorvirap",
+    "at": [
+     39.878,
+     44.576
+    ],
+    "wiki": "Khor Virap",
+    "area": "Ararat",
+    "summary": "Monastery in front of Mount Ararat.",
+    "expect": "Day trip.",
+    "tip": "Go on a clear morning.",
+    "why": "Iconic view.",
+    "flow": [
+     "Monastery.",
+     "Ararat view."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Matenadaran",
+    "kind": "see",
+    "id": "evn-matenadaran",
+    "at": [
+     40.192,
+     44.521
+    ],
+    "wiki": "Matenadaran",
+    "area": "Kentron",
+    "summary": "Ancient manuscript library.",
+    "expect": "Allow 1.5 hours.",
+    "tip": "Take the guided tour.",
+    "why": "Written heritage.",
+    "flow": [
+     "Manuscripts.",
+     "Tour."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Vernissage Market",
+    "kind": "see",
+    "id": "evn-vernissage",
+    "at": [
+     40.176,
+     44.515
+    ],
+    "wiki": "Vernissage market",
+    "area": "Kentron",
+    "summary": "Weekend open-air craft and flea market.",
+    "expect": "Weekends.",
+    "tip": "Haggle for carpets.",
+    "why": "Souvenir hunting.",
+    "flow": [
+     "Stalls.",
+     "Carpets."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Khorovats",
+    "kind": "eat",
+    "id": "evn-khorovats",
+    "at": [
+     40.18,
+     44.51
+    ],
+    "wiki": "Khorovats",
+    "area": "Kentron",
+    "venue": "food-area",
+    "summary": "Armenian barbecue of pork and vegetables.",
+    "expect": "Everywhere.",
+    "tip": "Order with lavash.",
+    "why": "National grill.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Armenian",
+    "order": [
+     "Khorovats"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Dolma",
+    "kind": "eat",
+    "id": "evn-dolma",
+    "at": [
+     40.18,
+     44.51
+    ],
+    "wiki": "Dolma",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Stuffed vine leaves with yoghurt.",
+    "expect": "Restaurants.",
+    "tip": "Try at Lavash restaurant.",
+    "why": "Classic dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Armenian",
+    "order": [
+     "Dolma"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Ararat brandy",
+    "kind": "eat",
+    "id": "evn-brandy",
+    "at": [
+     40.177,
+     44.49
+    ],
+    "wiki": "Yerevan Brandy Company",
+    "area": "Kentron",
+    "venue": "food-area",
+    "summary": "Tour and tasting at the famous brandy distillery.",
+    "expect": "Book a tour.",
+    "tip": "Try 10-year-old.",
+    "why": "Armenian pride.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Armenian",
+    "order": [
+     "Brandy tasting"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Azerbaijan",
+  "region": "Asia",
+  "currency": "USD",
+  "cashTip": "Prices are shown in US dollars; locally you pay in manat (AZN), pegged at 1.7 to the dollar. Cards work in central Baku; carry manat for the metro card, markets and taxis.",
+  "dailyBudget": [
+   60,
+   180
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "baku",
+  "name": "Baku",
+  "at": [
+   40.4093,
+   49.8671
+  ],
+  "wiki": "Baku",
+  "cover": "Baku Flame Towers",
+  "seasons": "LLSSHHSSHHLL",
+  "tagline": "Walled old city and flame-shaped skyscrapers",
+  "summary": "Baku on the Caspian Sea blends a UNESCO walled old city with futuristic towers. Explore the Palace of the Shirvanshahs and Maiden Tower, stroll the seaside Boulevard, see the Heydar Aliyev Center's flowing curves, and visit the fire temple and mud volcanoes outside town.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are mild; summer is hot and windy.",
+  "arrival": "Heydar Aliyev Airport is 30 minutes from the centre by Aeroexpress bus.",
+  "gettingAround": "Metro with a BakiKart, buses and Bolt.",
+  "foodTip": "Plov, qutab and Azerbaijani tea.",
+  "buyTip": "Carpets and armudu tea glasses.",
+  "baseArea": "Old City (İçərişəhər) or near the Boulevard",
+  "hotel": [
+   60,
+   200
+  ],
+  "connections": [
+   {
+    "to": "tbilisi",
+    "mode": "Flight",
+    "minutes": 70,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old City (İçərişəhər)",
+    "kind": "see",
+    "id": "bak-oldcity",
+    "at": [
+     40.366,
+     49.837
+    ],
+    "wiki": "Old City (Baku)",
+    "area": "Old City",
+    "summary": "Walled medieval city with caravanserais.",
+    "expect": "Free; small fees for sites.",
+    "tip": "Get lost in the lanes.",
+    "why": "UNESCO heart.",
+    "flow": [
+     "City walls.",
+     "Caravanserais."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Maiden Tower",
+    "kind": "see",
+    "id": "bak-maiden",
+    "at": [
+     40.366,
+     49.837
+    ],
+    "wiki": "Maiden Tower (Baku)",
+    "area": "Old City",
+    "summary": "Mysterious 12th-century tower with views.",
+    "expect": "Ticket.",
+    "tip": "Climb to the roof.",
+    "why": "City symbol.",
+    "flow": [
+     "Exhibits.",
+     "Roof."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Palace of the Shirvanshahs",
+    "kind": "see",
+    "id": "bak-shirvanshah",
+    "at": [
+     40.367,
+     49.833
+    ],
+    "wiki": "Palace of the Shirvanshahs",
+    "area": "Old City",
+    "summary": "15th-century royal complex.",
+    "expect": "Ticket.",
+    "tip": "See the bathhouse.",
+    "why": "Royal history.",
+    "flow": [
+     "Palace.",
+     "Mausoleum."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Heydar Aliyev Center",
+    "kind": "see",
+    "id": "bak-aliyev",
+    "at": [
+     40.396,
+     49.867
+    ],
+    "wiki": "Heydar Aliyev Center",
+    "area": "Centre",
+    "summary": "Zaha Hadid's flowing white masterpiece.",
+    "expect": "Ticket for inside.",
+    "tip": "Photograph from the park.",
+    "why": "Architectural icon.",
+    "flow": [
+     "Exterior.",
+     "Exhibitions."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "Baku Boulevard and Flame Towers",
+    "kind": "see",
+    "id": "bak-boulevard",
+    "at": [
+     40.36,
+     49.84
+    ],
+    "wiki": "Baku Boulevard",
+    "area": "Seafront",
+    "summary": "Seaside promenade with the light show on the Flame Towers.",
+    "expect": "Free.",
+    "tip": "Ride the funicular to Highland Park at night.",
+    "why": "Skyline views.",
+    "flow": [
+     "Boulevard.",
+     "Funicular.",
+     "Flame Towers."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     2
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Gobustan and mud volcanoes",
+    "kind": "see",
+    "id": "bak-gobustan",
+    "at": [
+     40.08,
+     49.38
+    ],
+    "wiki": "Gobustan National Park",
+    "area": "Gobustan",
+    "summary": "Ancient rock art and bubbling mud volcanoes.",
+    "expect": "Half-day tour.",
+    "tip": "Wear old shoes.",
+    "why": "Strange landscapes.",
+    "flow": [
+     "Petroglyphs.",
+     "Mud volcanoes."
+    ],
+    "hours": 5,
+    "price": [
+     25,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Plov",
+    "kind": "eat",
+    "id": "bak-plov",
+    "at": [
+     40.37,
+     49.84
+    ],
+    "wiki": "Pilaf",
+    "area": "Old City",
+    "venue": "food-area",
+    "summary": "Saffron rice with lamb and dried fruit.",
+    "expect": "Restaurants.",
+    "tip": "Try shah plov baked in lavash.",
+    "why": "Feast dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Azerbaijani",
+    "order": [
+     "Shah plov"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Qutab",
+    "kind": "eat",
+    "id": "bak-qutab",
+    "at": [
+     40.37,
+     49.84
+    ],
+    "wiki": "Qutab",
+    "area": "Old City",
+    "venue": "food-area",
+    "summary": "Thin pancakes with greens or meat.",
+    "expect": "Snack.",
+    "tip": "Order a mix.",
+    "why": "Street favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Azerbaijani",
+    "order": [
+     "Qutab"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Tea house (çayxana)",
+    "kind": "eat",
+    "id": "bak-tea",
+    "at": [
+     40.366,
+     49.836
+    ],
+    "wiki": "Azerbaijani tea culture",
+    "area": "Old City",
+    "venue": "food-area",
+    "summary": "Black tea in pear-shaped glasses with jam.",
+    "expect": "Everywhere.",
+    "tip": "Sweeten with jam, not sugar.",
+    "why": "Local ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Azerbaijani",
+    "order": [
+     "Tea with jam"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ }
+]

@@ -1,0 +1,516 @@
+{
+  "id": "yerevan",
+  "name": "Yerevan",
+  "country": "Armenia",
+  "region": "Asia",
+  "lat": 40.1792,
+  "lon": 44.4991,
+  "wiki": "Yerevan",
+  "tagline": "Pink-stone city beneath Mount Ararat",
+  "summary": "Yerevan is one of the world's oldest continuously inhabited cities, built from rosy tuff stone with Mount Ararat on the horizon. Climb the Cascade for the view, learn about the genocide at Tsitsernakaberd, browse the Vernissage market and day-trip to Garni temple, Geghard monastery and Khor Virap.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn are perfect; summer is very hot.",
+  "arrival": "Zvartnots Airport is 20 minutes from the centre.",
+  "gettingAround": "Walk; Yandex Go and GG taxis are cheap.",
+  "cashTip": "Prices are shown in US dollars; locally you pay in Armenian dram (AMD), about 390 to the dollar. Cards work in Yerevan; carry dram for taxis, markets and day trips.",
+  "dailyBudget": [
+    50,
+    150
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    15,
+    40
+  ],
+  "foodTip": "Khorovats (barbecue), dolma and lavash.",
+  "buyTip": "Armenian brandy and carpets at Vernissage.",
+  "baseArea": "Kentron (centre)",
+  "connections": [
+    {
+      "to": "tbilisi",
+      "mode": "Bus",
+      "minutes": 330,
+      "note": "Marshrutkas and shared taxis; overnight train in summer."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Yerevan on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Yerevan",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Yerevan%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Yerevan%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Yerevan Ararat",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "yerevan-evn-cascade",
+      "name": "Cascade Complex",
+      "kind": "see",
+      "lat": 40.191,
+      "lon": 44.515,
+      "wiki": "Yerevan Cascade",
+      "summary": "Giant stairway with art and Ararat views.",
+      "expect": "Free.",
+      "tip": "Go at sunset.",
+      "area": "Kentron",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cascade%20Complex%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Cascade%20Complex%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cascade%20Complex%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Giant stairway with art and Ararat views.",
+        "Best city view."
+      ],
+      "visitFlow": [
+        "Sculptures.",
+        "Climb.",
+        "View."
+      ],
+      "bestFor": "Visitors interested in art and craft and big views",
+      "tradeoffs": [
+        "Free.",
+        "Go at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "yerevan-evn-genocide",
+      "name": "Armenian Genocide Memorial",
+      "kind": "see",
+      "lat": 40.185,
+      "lon": 44.49,
+      "wiki": "Armenian Genocide Memorial complex",
+      "summary": "Eternal flame memorial and museum.",
+      "expect": "Free.",
+      "tip": "Allow 2 hours.",
+      "area": "Tsitsernakaberd",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Armenian%20Genocide%20Memorial%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Armenian%20Genocide%20Memorial%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Armenian%20Genocide%20Memorial%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Eternal flame memorial and museum.",
+        "Essential history."
+      ],
+      "visitFlow": [
+        "Museum.",
+        "Memorial."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free.",
+        "Allow 2 hours."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "yerevan-evn-garni",
+      "name": "Garni and Geghard",
+      "kind": "see",
+      "lat": 40.14,
+      "lon": 44.82,
+      "wiki": "Geghard",
+      "summary": "Greek-style temple and cave monastery carved from rock.",
+      "expect": "Half day.",
+      "tip": "Listen for choirs at Geghard.",
+      "area": "Kotayk",
+      "duration": 5,
+      "price": [
+        15,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Garni%20and%20Geghard%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Garni%20and%20Geghard%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Garni%20and%20Geghard%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "History"
+      ],
+      "whyVisit": [
+        "Greek-style temple and cave monastery carved from rock.",
+        "Ancient wonders."
+      ],
+      "visitFlow": [
+        "Garni Temple.",
+        "Symphony of Stones.",
+        "Geghard."
+      ],
+      "bestFor": "Visitors interested in sacred places and history and context",
+      "tradeoffs": [
+        "Half day.",
+        "Listen for choirs at Geghard."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "yerevan-evn-khorvirap",
+      "name": "Khor Virap",
+      "kind": "see",
+      "lat": 39.878,
+      "lon": 44.576,
+      "wiki": "Khor Virap",
+      "summary": "Monastery in front of Mount Ararat.",
+      "expect": "Day trip.",
+      "tip": "Go on a clear morning.",
+      "area": "Ararat",
+      "duration": 4,
+      "price": [
+        0,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Khor%20Virap%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Khor%20Virap%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Khor%20Virap%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Monastery in front of Mount Ararat.",
+        "Iconic view."
+      ],
+      "visitFlow": [
+        "Monastery.",
+        "Ararat view."
+      ],
+      "bestFor": "Visitors interested in sacred places and big views",
+      "tradeoffs": [
+        "Day trip.",
+        "Go on a clear morning."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "yerevan-evn-matenadaran",
+      "name": "Matenadaran",
+      "kind": "see",
+      "lat": 40.192,
+      "lon": 44.521,
+      "wiki": "Matenadaran",
+      "summary": "Ancient manuscript library.",
+      "expect": "Allow 1.5 hours.",
+      "tip": "Take the guided tour.",
+      "area": "Kentron",
+      "duration": 1.5,
+      "price": [
+        5,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Matenadaran%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Matenadaran%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Matenadaran%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Ancient manuscript library.",
+        "Written heritage."
+      ],
+      "visitFlow": [
+        "Manuscripts.",
+        "Tour."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 1.5 hours.",
+        "Take the guided tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "yerevan-evn-vernissage",
+      "name": "Vernissage Market",
+      "kind": "see",
+      "lat": 40.176,
+      "lon": 44.515,
+      "wiki": "Vernissage market",
+      "summary": "Weekend open-air craft and flea market.",
+      "expect": "Weekends.",
+      "tip": "Haggle for carpets.",
+      "area": "Kentron",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Vernissage%20Market%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Vernissage%20Market%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Vernissage%20Market%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping"
+      ],
+      "whyVisit": [
+        "Weekend open-air craft and flea market.",
+        "Souvenir hunting."
+      ],
+      "visitFlow": [
+        "Stalls.",
+        "Carpets."
+      ],
+      "bestFor": "Visitors interested in local shopping",
+      "tradeoffs": [
+        "Weekends.",
+        "Haggle for carpets."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "yerevan-evn-khorovats",
+      "name": "Khorovats",
+      "kind": "eat",
+      "lat": 40.18,
+      "lon": 44.51,
+      "wiki": "Khorovats",
+      "summary": "Armenian barbecue of pork and vegetables.",
+      "expect": "Everywhere.",
+      "tip": "Order with lavash.",
+      "area": "Kentron",
+      "duration": 1.5,
+      "price": [
+        8,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Khorovats%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Khorovats%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Khorovats%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Armenian barbecue of pork and vegetables.",
+        "National grill."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Order with lavash."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Armenian",
+      "mustOrder": [
+        "Khorovats"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "yerevan-evn-dolma",
+      "name": "Dolma",
+      "kind": "eat",
+      "lat": 40.18,
+      "lon": 44.51,
+      "wiki": "Dolma",
+      "summary": "Stuffed vine leaves with yoghurt.",
+      "expect": "Restaurants.",
+      "tip": "Try at Lavash restaurant.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        6,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Dolma%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Dolma%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Dolma%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Stuffed vine leaves with yoghurt.",
+        "Classic dish."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Restaurants.",
+        "Try at Lavash restaurant."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Armenian",
+      "mustOrder": [
+        "Dolma"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "yerevan-evn-brandy",
+      "name": "Ararat brandy",
+      "kind": "eat",
+      "lat": 40.177,
+      "lon": 44.49,
+      "wiki": "Yerevan Brandy Company",
+      "summary": "Tour and tasting at the famous brandy distillery.",
+      "expect": "Book a tour.",
+      "tip": "Try 10-year-old.",
+      "area": "Kentron",
+      "duration": 1.5,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ararat%20brandy%2C%20Yerevan",
+        "https://www.google.com/maps/search/?api=1&query=Ararat%20brandy%2C%20Yerevan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ararat%20brandy%2C%20Yerevan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Tour and tasting at the famous brandy distillery.",
+        "Armenian pride."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Book a tour.",
+        "Try 10-year-old."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Armenian",
+      "mustOrder": [
+        "Brandy tasting"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

@@ -1,0 +1,524 @@
+{
+  "id": "bucharest",
+  "name": "Bucharest",
+  "country": "Romania",
+  "region": "Europe",
+  "lat": 44.4268,
+  "lon": 26.1025,
+  "wiki": "Bucharest",
+  "tagline": "Belle Époque boulevards and a colossal palace",
+  "summary": "Bucharest mixes Belle Époque mansions, communist monuments and buzzing nightlife. Tour the Palace of the Parliament, one of the world's largest buildings, browse the Carturesti Carusel bookshop, explore the old town and Revolution Square, and day-trip to Transylvania's castles.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn are pleasant; summer is hot.",
+  "arrival": "Henri Coandă Airport is 30 to 45 minutes away by train or bus.",
+  "gettingAround": "Metro, buses and ride apps.",
+  "cashTip": "Cards work widely; carry some lei for markets and small shops.",
+  "dailyBudget": [
+    300,
+    800
+  ],
+  "currency": "RON",
+  "cashPerDay": [
+    50,
+    150
+  ],
+  "foodTip": "Sarmale, mici and papanași.",
+  "buyTip": "Embroidered blouses (ie) and wine.",
+  "baseArea": "Old Town or near Piața Romană",
+  "connections": [
+    {
+      "to": "sofia",
+      "mode": "Bus",
+      "minutes": 420,
+      "note": "Daily buses."
+    },
+    {
+      "to": "budapest",
+      "mode": "Flight",
+      "minutes": 90,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Bucharest on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Bucharest",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Bucharest%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Bucharest%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Palace of the Parliament",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "bucharest-buh-palace",
+      "name": "Palace of the Parliament",
+      "kind": "see",
+      "lat": 44.4275,
+      "lon": 26.0874,
+      "wiki": "Palace of the Parliament",
+      "summary": "Ceaușescu's monumental palace, one of the heaviest buildings on earth.",
+      "expect": "Guided tours only; bring ID.",
+      "tip": "Book ahead.",
+      "area": "Centre",
+      "duration": 2,
+      "price": [
+        60,
+        90
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Palace%20of%20the%20Parliament%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Palace%20of%20the%20Parliament%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Palace%20of%20the%20Parliament%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Ceaușescu's monumental palace, one of the heaviest buildings on earth.",
+        "Jaw-dropping scale."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Balcony view."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Guided tours only; bring ID.",
+        "Book ahead."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bucharest-buh-carusel",
+      "name": "Carturesti Carusel",
+      "kind": "see",
+      "lat": 44.431,
+      "lon": 26.101,
+      "wiki": "Cărturești Carusel",
+      "summary": "Stunning white bookshop in a restored mansion.",
+      "expect": "Free.",
+      "tip": "Visit the top-floor café.",
+      "area": "Old Town",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Carturesti%20Carusel%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Carturesti%20Carusel%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Carturesti%20Carusel%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "Stunning white bookshop in a restored mansion.",
+        "Most beautiful bookstore."
+      ],
+      "visitFlow": [
+        "Floors.",
+        "Café."
+      ],
+      "bestFor": "Visitors interested in architecture and design and local shopping",
+      "tradeoffs": [
+        "Free.",
+        "Visit the top-floor café."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bucharest-buh-oldtown",
+      "name": "Old Town (Lipscani)",
+      "kind": "see",
+      "lat": 44.431,
+      "lon": 26.1,
+      "wiki": "Lipscani",
+      "summary": "Cobbled streets, bars and the Stavropoleos Monastery.",
+      "expect": "Free.",
+      "tip": "Peek into Stavropoleos.",
+      "area": "Old Town",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Old%20Town%20(Lipscani)%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Old%20Town%20(Lipscani)%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Old%20Town%20(Lipscani)%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Cobbled streets, bars and the Stavropoleos Monastery.",
+        "Lively centre."
+      ],
+      "visitFlow": [
+        "Stavropoleos.",
+        "Hanul lui Manuc."
+      ],
+      "bestFor": "Visitors interested in history and context and shows and nightlife",
+      "tradeoffs": [
+        "Free.",
+        "Peek into Stavropoleos."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bucharest-buh-village",
+      "name": "Village Museum",
+      "kind": "see",
+      "lat": 44.473,
+      "lon": 26.077,
+      "wiki": "Dimitrie Gusti National Village Museum",
+      "summary": "Open-air museum of traditional rural houses.",
+      "expect": "Allow 2 hours.",
+      "tip": "Combine with Herăstrău Park.",
+      "area": "Herăstrău",
+      "duration": 2,
+      "price": [
+        20,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Village%20Museum%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Village%20Museum%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Village%20Museum%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Open-air museum of traditional rural houses.",
+        "Rural Romania."
+      ],
+      "visitFlow": [
+        "Houses.",
+        "Park."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "Combine with Herăstrău Park."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bucharest-buh-revolution",
+      "name": "Revolution Square and Athenaeum",
+      "kind": "see",
+      "lat": 44.441,
+      "lon": 26.097,
+      "wiki": "Romanian Athenaeum",
+      "summary": "Site of the 1989 revolution and the domed concert hall.",
+      "expect": "Free outside.",
+      "tip": "Catch a concert at the Athenaeum.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        0,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Revolution%20Square%20and%20Athenaeum%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Revolution%20Square%20and%20Athenaeum%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Revolution%20Square%20and%20Athenaeum%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Site of the 1989 revolution and the domed concert hall.",
+        "Modern history."
+      ],
+      "visitFlow": [
+        "Square.",
+        "Athenaeum."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Free outside.",
+        "Catch a concert at the Athenaeum."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "bucharest-buh-peles",
+      "name": "Peleș Castle",
+      "kind": "see",
+      "lat": 45.36,
+      "lon": 25.543,
+      "wiki": "Peleș Castle",
+      "summary": "Ornate royal castle in the Carpathians.",
+      "expect": "2 hours by train.",
+      "tip": "Combine with Bran Castle.",
+      "area": "Sinaia",
+      "duration": 10,
+      "price": [
+        50,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Pele%C8%99%20Castle%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Pele%C8%99%20Castle%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Pele%C8%99%20Castle%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Ornate royal castle in the Carpathians.",
+        "Fairy-tale castle."
+      ],
+      "visitFlow": [
+        "Train to Sinaia.",
+        "Castle tour."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "2 hours by train.",
+        "Combine with Bran Castle."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "bucharest-buh-sarmale",
+      "name": "Sarmale",
+      "kind": "eat",
+      "lat": 44.43,
+      "lon": 26.1,
+      "wiki": "Sarmale",
+      "summary": "Cabbage rolls with polenta and sour cream.",
+      "expect": "Everywhere.",
+      "tip": "Dine at Caru' cu Bere.",
+      "area": "Old Town",
+      "duration": 1.5,
+      "price": [
+        35,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sarmale%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Sarmale%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sarmale%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cabbage rolls with polenta and sour cream.",
+        "Romanian staple."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Dine at Caru' cu Bere."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Romanian",
+      "mustOrder": [
+        "Sarmale"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bucharest-buh-mici",
+      "name": "Mici",
+      "kind": "eat",
+      "lat": 44.43,
+      "lon": 26.1,
+      "wiki": "Mici",
+      "summary": "Grilled skinless sausages with mustard.",
+      "expect": "Street grills.",
+      "tip": "Pair with beer.",
+      "area": "Markets",
+      "duration": 0.5,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mici%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Mici%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mici%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Grilled skinless sausages with mustard.",
+        "Grill favourite."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Street grills.",
+        "Pair with beer."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Romanian",
+      "mustOrder": [
+        "Mici"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "bucharest-buh-papanasi",
+      "name": "Papanași",
+      "kind": "eat",
+      "lat": 44.43,
+      "lon": 26.1,
+      "wiki": "Papanași",
+      "summary": "Fried doughnuts with sour cream and jam.",
+      "expect": "Dessert.",
+      "tip": "Share one.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Papana%C8%99i%2C%20Bucharest",
+        "https://www.google.com/maps/search/?api=1&query=Papana%C8%99i%2C%20Bucharest"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Papana%C8%99i%2C%20Bucharest"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fried doughnuts with sour cream and jam.",
+        "Sweet finale."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Dessert.",
+        "Share one."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Romanian",
+      "mustOrder": [
+        "Papanași"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
