@@ -117,8 +117,8 @@
       "id": "cali-cli-sanantonio",
       "name": "San Antonio",
       "kind": "see",
-      "lat": 3.448,
-      "lon": -76.54,
+      "lat": 3.44741,
+      "lon": -76.53854,
       "wiki": "San Antonio, Cali",
       "summary": "Colonial neighbourhood with a hilltop chapel and cafés.",
       "expect": "Free.",
@@ -157,15 +157,14 @@
       "tradeoffs": [
         "Free.",
         "Sunset at the chapel park."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cali-cli-cristo",
       "name": "Cristo Rey",
       "kind": "see",
-      "lat": 3.437,
-      "lon": -76.565,
+      "lat": 3.43588,
+      "lon": -76.56479,
       "wiki": "Cristo Rey (Cali)",
       "summary": "Giant Christ statue above the city.",
       "expect": "Taxi or hike.",
@@ -204,15 +203,14 @@
       "tradeoffs": [
         "Taxi or hike.",
         "Clear mornings."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cali-cli-gato",
       "name": "El Gato del Río",
       "kind": "see",
-      "lat": 3.452,
-      "lon": -76.542,
+      "lat": 3.45138,
+      "lon": -76.54306,
       "wiki": "El Gato del Río",
       "summary": "Giant cat sculpture with painted 'girlfriends' along the river.",
       "expect": "Free.",
@@ -251,14 +249,22 @@
         "Free.",
         "Walk the river park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3090,
+          "period": "202511-202610",
+          "title": "El Gato del Río",
+          "url": "https://en.wikipedia.org/wiki/El_Gato_del_R%C3%ADo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cali-cli-ermita",
       "name": "La Ermita church",
       "kind": "see",
-      "lat": 3.4545,
-      "lon": -76.533,
+      "lat": 3.454,
+      "lon": -76.53202,
       "wiki": "La Ermita Church",
       "summary": "Gothic-style church by the river.",
       "expect": "Free.",
@@ -297,15 +303,14 @@
       "tradeoffs": [
         "Free.",
         "Photo from the bridge."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cali-cli-zoo",
       "name": "Cali Zoo",
       "kind": "see",
-      "lat": 3.447,
-      "lon": -76.559,
+      "lat": 3.44861,
+      "lon": -76.55861,
       "wiki": "Cali Zoo",
       "summary": "Colombia's best zoo with native species.",
       "expect": "Paid.",
@@ -344,7 +349,15 @@
         "Paid.",
         "Morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1614,
+          "period": "202511-202610",
+          "title": "Cali Zoo",
+          "url": "https://en.wikipedia.org/wiki/Cali_Zoo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "cali-cli-sancipriano",
@@ -566,5 +579,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

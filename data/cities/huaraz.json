@@ -65,8 +65,8 @@
       "id": "huaraz-hua-laguna69",
       "name": "Laguna 69",
       "kind": "see",
-      "lat": -9.011,
-      "lon": -77.615,
+      "lat": -9.01043,
+      "lon": -77.612,
       "wiki": "Laguna 69",
       "summary": "Turquoise lake under glaciers at 4,600 metres; tough 14 km hike.",
       "expect": "Tours leave at 5 a.m.",
@@ -106,15 +106,23 @@
         "Tours leave at 5 a.m.",
         "Acclimatise first."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5583,
+          "period": "202511-202610",
+          "title": "Lake 69",
+          "url": "https://en.wikipedia.org/wiki/Lake_69",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "huaraz-hua-llanganuco",
       "name": "Llanganuco lakes",
       "kind": "see",
-      "lat": -9.073,
-      "lon": -77.646,
+      "lat": -9.0675,
+      "lon": -77.63806,
       "wiki": "Llanganuco Lakes",
       "summary": "Emerald lakes in a gorge below Huascarán.",
       "expect": "Park fee.",
@@ -154,14 +162,22 @@
         "Park fee.",
         "Often combined with Laguna 69."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1963,
+          "period": "202511-202610",
+          "title": "Llanganuco Lakes",
+          "url": "https://en.wikipedia.org/wiki/Llanganuco_Lakes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "huaraz-hua-churup",
       "name": "Laguna Churup",
       "kind": "see",
-      "lat": -9.47,
-      "lon": -77.43,
+      "lat": -9.48482,
+      "lon": -77.42775,
       "wiki": "Huaraz",
       "summary": "Acclimatisation hike to a glacial lake with a scramble.",
       "expect": "Half day.",
@@ -200,15 +216,14 @@
       "tradeoffs": [
         "Half day.",
         "Good first hike."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "huaraz-hua-chavin",
       "name": "Chavín de Huántar",
       "kind": "see",
-      "lat": -9.593,
-      "lon": -77.177,
+      "lat": -9.59277,
+      "lon": -77.17845,
       "wiki": "Chavín de Huántar",
       "summary": "UNESCO temple with underground galleries and the Lanzón idol.",
       "expect": "Full-day tour.",
@@ -249,14 +264,22 @@
         "Full-day tour.",
         "Visit the museum too."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24915,
+          "period": "202511-202610",
+          "title": "Chavín de Huántar",
+          "url": "https://en.wikipedia.org/wiki/Chav%C3%ADn_de_Hu%C3%A1ntar",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "huaraz-hua-pastoruri",
       "name": "Pastoruri Glacier",
       "kind": "see",
-      "lat": -9.914,
-      "lon": -77.197,
+      "lat": -9.92,
+      "lon": -77.18222,
       "wiki": "Pastoruri Glacier",
       "summary": "Easy walk to a shrinking glacier at 5,000 metres.",
       "expect": "Altitude.",
@@ -295,15 +318,23 @@
         "Altitude.",
         "Bring warm layers."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3057,
+          "period": "202511-202610",
+          "title": "Pastoruri Glacier",
+          "url": "https://en.wikipedia.org/wiki/Pastoruri_Glacier",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "huaraz-hua-wilcahuain",
       "name": "Wilcahuaín ruins",
       "kind": "see",
-      "lat": -9.497,
-      "lon": -77.512,
+      "lat": -9.4833,
+      "lon": -77.5112,
       "wiki": "Wilcahuaín",
       "summary": "Wari-era stone temple above town.",
       "expect": "Paid.",
@@ -342,7 +373,15 @@
         "Paid.",
         "Short colectivo ride."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 838,
+          "period": "202511-202610",
+          "title": "Wilcahuaín",
+          "url": "https://en.wikipedia.org/wiki/Wilcahua%C3%ADn",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "huaraz-hua-plaza",
@@ -389,7 +428,16 @@
         "Free.",
         "Rest day stroll."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 22201,
+          "period": "202511-202610",
+          "title": "Huaraz",
+          "url": "https://en.wikipedia.org/wiki/Huaraz",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "huaraz-hua-pachamanca",
@@ -563,5 +611,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

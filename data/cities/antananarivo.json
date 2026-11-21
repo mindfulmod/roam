@@ -66,8 +66,8 @@
       "id": "antananarivo-tnr-rova",
       "name": "Rova of Antananarivo",
       "kind": "see",
-      "lat": -18.924,
-      "lon": 47.533,
+      "lat": -18.92365,
+      "lon": 47.53202,
       "wiki": "Rova of Antananarivo",
       "summary": "Restored royal palace on the city's highest hill.",
       "expect": "Paid.",
@@ -107,14 +107,22 @@
         "Paid.",
         "Late afternoon light over the city."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22690,
+          "period": "202511-202610",
+          "title": "Rova of Antananarivo",
+          "url": "https://en.wikipedia.org/wiki/Rova_of_Antananarivo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antananarivo-tnr-ambohimanga",
       "name": "Royal Hill of Ambohimanga",
       "kind": "see",
-      "lat": -18.759,
-      "lon": 47.563,
+      "lat": -18.75917,
+      "lon": 47.56278,
       "wiki": "Royal Hill of Ambohimanga",
       "summary": "UNESCO sacred hill and fortified royal village.",
       "expect": "Paid; guide included.",
@@ -154,14 +162,22 @@
         "Paid; guide included.",
         "Half-day by taxi."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 12605,
+          "period": "202511-202610",
+          "title": "Ambohimanga",
+          "url": "https://en.wikipedia.org/wiki/Ambohimanga",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antananarivo-tnr-lemurs",
       "name": "Lemurs' Park",
       "kind": "see",
-      "lat": -18.948,
-      "lon": 47.375,
+      "lat": -18.9524,
+      "lon": 47.35754,
       "wiki": "Lemurs' Park",
       "summary": "Free-roaming lemurs in a rescue park.",
       "expect": "Paid; guided walk.",
@@ -200,14 +216,22 @@
         "Paid; guided walk.",
         "Arrive for morning feeding."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2028,
+          "period": "202511-202610",
+          "title": "Lemurs' Park",
+          "url": "https://en.wikipedia.org/wiki/Lemurs'_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antananarivo-tnr-andasibe",
       "name": "Andasibe-Mantadia",
       "kind": "see",
-      "lat": -18.938,
-      "lon": 48.419,
+      "lat": -18.93583,
+      "lon": 48.41472,
       "wiki": "Andasibe-Mantadia National Park",
       "summary": "Rainforest home of the singing indri lemur.",
       "expect": "Overnight trip.",
@@ -247,15 +271,23 @@
         "Overnight trip.",
         "Do a night walk for chameleons."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5092,
+          "period": "202511-202610",
+          "title": "Andasibe-Mantadia National Park",
+          "url": "https://en.wikipedia.org/wiki/Andasibe-Mantadia_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antananarivo-tnr-baobabs",
       "name": "Avenue of the Baobabs",
       "kind": "see",
-      "lat": -20.251,
-      "lon": 44.418,
+      "lat": -20.25,
+      "lon": 44.41944,
       "wiki": "Avenue of the Baobabs",
       "summary": "Giant baobab trees lining a dirt road at sunset.",
       "expect": "Fly to Morondava.",
@@ -295,8 +327,16 @@
         "Fly to Morondava.",
         "Stay for sunset and sunrise."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 23383,
+          "period": "202511-202610",
+          "title": "Avenue of the Baobabs",
+          "url": "https://en.wikipedia.org/wiki/Avenue_of_the_Baobabs",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antananarivo-tnr-analakely",
@@ -348,8 +388,8 @@
       "id": "antananarivo-tnr-anosy",
       "name": "Lake Anosy",
       "kind": "see",
-      "lat": -18.915,
-      "lon": 47.52,
+      "lat": -18.9152,
+      "lon": 47.5216,
       "wiki": "Lake Anosy",
       "summary": "Heart-shaped lake with jacaranda blooms in October.",
       "expect": "Free.",
@@ -388,7 +428,15 @@
         "Free.",
         "Walk at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2343,
+          "period": "202511-202610",
+          "title": "Lake Anosy",
+          "url": "https://en.wikipedia.org/wiki/Lake_Anosy",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "antananarivo-tnr-romazava",
@@ -561,5 +609,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

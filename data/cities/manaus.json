@@ -70,8 +70,8 @@
       "id": "manaus-mao-teatro",
       "name": "Teatro Amazonas",
       "kind": "see",
-      "lat": -3.1303,
-      "lon": -60.0234,
+      "lat": -3.13028,
+      "lon": -60.02333,
       "wiki": "Teatro Amazonas",
       "summary": "1896 opera house with a dome of Brazilian-flag tiles.",
       "expect": "Tours paid; free concerts some nights.",
@@ -111,14 +111,22 @@
         "Tours paid; free concerts some nights.",
         "Check for evening performances."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21803,
+          "period": "202511-202610",
+          "title": "Amazon Theatre",
+          "url": "https://en.wikipedia.org/wiki/Amazon_Theatre",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manaus-mao-meeting",
       "name": "Meeting of the Waters",
       "kind": "see",
-      "lat": -3.136,
-      "lon": -59.902,
+      "lat": -3.13667,
+      "lon": -59.90472,
       "wiki": "Meeting of Waters",
       "summary": "Dark Rio Negro and pale Solimões run side by side for kilometres.",
       "expect": "Boat tours.",
@@ -157,7 +165,15 @@
         "Boat tours.",
         "Half-day tours combine dolphins."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24308,
+          "period": "202511-202610",
+          "title": "Meeting of Waters",
+          "url": "https://en.wikipedia.org/wiki/Meeting_of_Waters",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manaus-mao-musa",
@@ -210,8 +226,8 @@
       "id": "manaus-mao-anavilhanas",
       "name": "Anavilhanas and pink dolphins",
       "kind": "see",
-      "lat": -2.7,
-      "lon": -60.75,
+      "lat": -2.39472,
+      "lon": -60.92056,
       "wiki": "Anavilhanas National Park",
       "summary": "Flooded island maze and swimming with boto dolphins.",
       "expect": "Overnight lodge best.",
@@ -251,8 +267,16 @@
         "Overnight lodge best.",
         "Choose an eco lodge."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3923,
+          "period": "202511-202610",
+          "title": "Anavilhanas National Park",
+          "url": "https://en.wikipedia.org/wiki/Anavilhanas_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manaus-mao-market",
@@ -305,8 +329,8 @@
       "id": "manaus-mao-pontanegra",
       "name": "Ponta Negra beach",
       "kind": "see",
-      "lat": -3.075,
-      "lon": -60.1,
+      "lat": -3.04821,
+      "lon": -60.08956,
       "wiki": "Ponta Negra (Manaus)",
       "summary": "River beach with sunset promenade.",
       "expect": "Free.",
@@ -345,7 +369,15 @@
         "Free.",
         "Sunset over the Rio Negro."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1678,
+          "period": "202511-202610",
+          "title": "Ponta Negra, Manaus",
+          "url": "https://en.wikipedia.org/wiki/Ponta_Negra%2C_Manaus",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "manaus-mao-tambaqui",
@@ -518,5 +550,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

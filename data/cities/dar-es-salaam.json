@@ -79,7 +79,7 @@
       "id": "dar-es-salaam-dar-kariakoo",
       "name": "Kariakoo Market",
       "kind": "see",
-      "lat": -6.817,
+      "lat": -6.8197,
       "lon": 39.273,
       "wiki": "Kariakoo",
       "summary": "East Africa's busiest market, spilling across dozens of streets.",
@@ -119,14 +119,22 @@
         "Crowded; watch your pockets.",
         "Go with a local guide in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7862,
+          "period": "202511-202610",
+          "title": "Kariakoo",
+          "url": "https://en.wikipedia.org/wiki/Kariakoo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dar-es-salaam-dar-fish",
       "name": "Kivukoni Fish Market",
       "kind": "see",
-      "lat": -6.818,
-      "lon": 39.296,
+      "lat": -6.8142,
+      "lon": 39.2901,
       "wiki": "Kivukoni",
       "summary": "Dhows unload the catch and auctioneers sell it on the beach.",
       "expect": "Early morning.",
@@ -166,14 +174,22 @@
         "Early morning.",
         "Arrive by 7 a.m. for the auction."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1319,
+          "period": "202511-202610",
+          "title": "Kivukoni",
+          "url": "https://en.wikipedia.org/wiki/Kivukoni",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dar-es-salaam-dar-museum",
       "name": "National Museum",
       "kind": "see",
-      "lat": -6.815,
-      "lon": 39.29,
+      "lat": -6.8131,
+      "lon": 39.2938,
       "wiki": "National Museum of Tanzania",
       "summary": "Fossils from Olduvai Gorge and Swahili coast history.",
       "expect": "Paid.",
@@ -213,14 +229,22 @@
         "Paid.",
         "Pair with the botanical garden next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3637,
+          "period": "202511-202610",
+          "title": "National Museum of Tanzania",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_of_Tanzania",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dar-es-salaam-dar-bongoyo",
       "name": "Bongoyo Island",
       "kind": "see",
-      "lat": -6.705,
-      "lon": 39.269,
+      "lat": -6.69,
+      "lon": 39.26,
       "wiki": "Bongoyo Island",
       "summary": "Boat trip to an uninhabited island with beaches and snorkelling.",
       "expect": "Boats from Slipway.",
@@ -259,14 +283,22 @@
         "Boats from Slipway.",
         "Bring cash for grilled fish on the beach."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1994,
+          "period": "202511-202610",
+          "title": "Bongoyo Island",
+          "url": "https://en.wikipedia.org/wiki/Bongoyo_Island",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dar-es-salaam-dar-village",
       "name": "Village Museum",
       "kind": "see",
-      "lat": -6.765,
-      "lon": 39.244,
+      "lat": -6.77599,
+      "lon": 39.24558,
       "wiki": "Village Museum (Dar es Salaam)",
       "summary": "Open-air museum of traditional houses from Tanzania's tribes.",
       "expect": "Paid.",
@@ -305,8 +337,7 @@
       "tradeoffs": [
         "Paid.",
         "Weekend dance shows."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "dar-es-salaam-dar-mwenge",
@@ -353,14 +384,23 @@
         "Haggle.",
         "Watch carvers at work."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5352,
+          "period": "202511-202610",
+          "title": "Makonde art",
+          "url": "https://en.wikipedia.org/wiki/Makonde_art",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dar-es-salaam-dar-askari",
       "name": "Askari Monument and old town",
       "kind": "see",
-      "lat": -6.8165,
-      "lon": 39.288,
+      "lat": -6.81663,
+      "lon": 39.28956,
       "wiki": "Askari Monument",
       "summary": "Bronze WWI memorial and nearby German and Indian-era buildings.",
       "expect": "Free.",
@@ -400,7 +440,15 @@
         "Free.",
         "Walk to St Joseph's Cathedral."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7535,
+          "period": "202511-202610",
+          "title": "Askari Monument",
+          "url": "https://en.wikipedia.org/wiki/Askari_Monument",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "dar-es-salaam-dar-mishkaki",
@@ -575,5 +623,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

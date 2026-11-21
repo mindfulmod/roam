@@ -66,8 +66,8 @@
       "id": "banos-ban-pailon",
       "name": "Pailón del Diablo",
       "kind": "see",
-      "lat": -1.393,
-      "lon": -78.282,
+      "lat": -1.4038,
+      "lon": -78.2953,
       "wiki": "Pailón del Diablo",
       "summary": "Massive waterfall with walkways right beside the torrent.",
       "expect": "Small fee.",
@@ -107,7 +107,15 @@
         "Small fee.",
         "Crawl the tunnel to the ledge."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4339,
+          "period": "202511-202610",
+          "title": "Pailón del Diablo",
+          "url": "https://en.wikipedia.org/wiki/Pail%C3%B3n_del_Diablo",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "banos-ban-casa",
@@ -154,7 +162,16 @@
         "Small fee; bus or taxi up.",
         "Go early for clear volcano views."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10547,
+          "period": "202511-202610",
+          "title": "Baños de Agua Santa",
+          "url": "https://en.wikipedia.org/wiki/Ba%C3%B1os_de_Agua_Santa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "banos-ban-cascadas",
@@ -207,8 +224,8 @@
       "id": "banos-ban-termas",
       "name": "Termas de la Virgen",
       "kind": "see",
-      "lat": -1.397,
-      "lon": -78.421,
+      "lat": -1.39819,
+      "lon": -78.4186,
       "wiki": "Baños de Agua Santa",
       "summary": "Hot springs fed by the volcano below a waterfall.",
       "expect": "Paid.",
@@ -247,7 +264,15 @@
         "Paid.",
         "Night session is local."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10547,
+          "period": "202511-202610",
+          "title": "Baños de Agua Santa",
+          "url": "https://en.wikipedia.org/wiki/Ba%C3%B1os_de_Agua_Santa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "banos-ban-basilica",
@@ -340,7 +365,16 @@
         "Tours from town.",
         "Pick a certified agency."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2632,
+          "period": "202511-202610",
+          "title": "Pastaza River",
+          "url": "https://en.wikipedia.org/wiki/Pastaza_River",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "banos-ban-melcocha",
@@ -513,5 +547,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
