@@ -1,0 +1,557 @@
+{
+  "id": "tainan",
+  "name": "Tainan",
+  "country": "Taiwan",
+  "region": "Asia",
+  "lat": 22.9999,
+  "lon": 120.227,
+  "wiki": "Tainan",
+  "tagline": "Taiwan's oldest city and its food capital",
+  "summary": "Tainan is Taiwan's old capital, packed with temples, forts and some of the island's best street food. See Chihkan Tower and Anping Fort, wander the banyan-wrapped Anping Tree House and the lanes of Shennong Street, and eat danzai noodles, beef soup and milkfish.",
+  "days": 2,
+  "bestMonths": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "Autumn to spring is warm and dry; summer is hot with typhoon risk.",
+  "arrival": "Tainan HSR station is 30 minutes from the centre; Kaohsiung airport is about an hour.",
+  "gettingAround": "Scooter, bike share or taxi; buses to Anping.",
+  "cashTip": "Night markets and small shops are cash-only; an EasyCard covers transit and convenience stores.",
+  "dailyBudget": [
+    2500,
+    6000
+  ],
+  "currency": "TWD",
+  "cashPerDay": [
+    800,
+    2000
+  ],
+  "foodTip": "Danzai noodles, beef soup, milkfish and coffin bread.",
+  "buyTip": "Hand-made crafts and dried mango.",
+  "baseArea": "West Central District",
+  "connections": [
+    {
+      "to": "kaohsiung",
+      "mode": "Train",
+      "minutes": 40,
+      "note": "Regular trains."
+    },
+    {
+      "to": "taipei",
+      "mode": "Train",
+      "minutes": 105,
+      "note": "High-speed rail."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Tainan on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Tainan",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Tainan%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Tainan%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Chihkan Tower Tainan",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "tainan-tnn-chihkan",
+      "name": "Chihkan Tower",
+      "kind": "see",
+      "lat": 22.9975,
+      "lon": 120.20281,
+      "wiki": "Fort Provintia",
+      "summary": "Dutch-era fort rebuilt with Chinese pavilions.",
+      "expect": "Paid.",
+      "tip": "Evening lights.",
+      "area": "West Central",
+      "duration": 1,
+      "price": [
+        70,
+        70
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chihkan%20Tower%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Chihkan%20Tower%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chihkan%20Tower%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Dutch-era fort rebuilt with Chinese pavilions.",
+        "Historic core."
+      ],
+      "visitFlow": [
+        "Pavilions.",
+        "Stone turtles."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Paid.",
+        "Evening lights."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 10459,
+          "period": "202511-202610",
+          "title": "Fort Provintia",
+          "url": "https://en.wikipedia.org/wiki/Fort_Provintia",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "tainan-tnn-anping",
+      "name": "Anping Fort",
+      "kind": "see",
+      "lat": 23.00161,
+      "lon": 120.16057,
+      "wiki": "Fort Zeelandia",
+      "summary": "17th-century Dutch fort and old streets.",
+      "expect": "Paid.",
+      "tip": "Walk Anping Old Street.",
+      "area": "Anping",
+      "duration": 1.5,
+      "price": [
+        70,
+        70
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Anping%20Fort%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Anping%20Fort%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Anping%20Fort%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "17th-century Dutch fort and old streets.",
+        "Taiwan's beginnings."
+      ],
+      "visitFlow": [
+        "Walls.",
+        "Old Street."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Paid.",
+        "Walk Anping Old Street."
+      ]
+    },
+    {
+      "id": "tainan-tnn-treehouse",
+      "name": "Anping Tree House",
+      "kind": "see",
+      "lat": 23.00375,
+      "lon": 120.15981,
+      "wiki": "Anping Tree House",
+      "summary": "Warehouse swallowed by banyan roots.",
+      "expect": "Paid.",
+      "tip": "Combine with the fort.",
+      "area": "Anping",
+      "duration": 1,
+      "price": [
+        70,
+        70
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Anping%20Tree%20House%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Anping%20Tree%20House%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Anping%20Tree%20House%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "History"
+      ],
+      "whyVisit": [
+        "Warehouse swallowed by banyan roots.",
+        "Eerie beauty."
+      ],
+      "visitFlow": [
+        "Roots.",
+        "Walkways."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and history and context",
+      "tradeoffs": [
+        "Paid.",
+        "Combine with the fort."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 3615,
+          "period": "202511-202610",
+          "title": "Anping Tree House",
+          "url": "https://en.wikipedia.org/wiki/Anping_Tree_House",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "tainan-tnn-confucius",
+      "name": "Confucius Temple",
+      "kind": "see",
+      "lat": 22.99028,
+      "lon": 120.20417,
+      "wiki": "Tainan Confucian Temple",
+      "summary": "Taiwan's first Confucian school.",
+      "expect": "Grounds free.",
+      "tip": "Quiet mornings.",
+      "area": "West Central",
+      "duration": 1,
+      "price": [
+        0,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Confucius%20Temple%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Confucius%20Temple%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Confucius%20Temple%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "History"
+      ],
+      "whyVisit": [
+        "Taiwan's first Confucian school.",
+        "Scholarly calm."
+      ],
+      "visitFlow": [
+        "Courtyards.",
+        "Fuzhong Street."
+      ],
+      "bestFor": "Visitors interested in sacred places and history and context",
+      "tradeoffs": [
+        "Grounds free.",
+        "Quiet mornings."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 4539,
+          "period": "202511-202610",
+          "title": "Tainan Confucian Temple",
+          "url": "https://en.wikipedia.org/wiki/Tainan_Confucian_Temple",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "tainan-tnn-shennong",
+      "name": "Shennong Street",
+      "kind": "see",
+      "lat": 22.99713,
+      "lon": 120.19717,
+      "wiki": "Shennong Street",
+      "summary": "Lantern-lit lane of old houses and bars.",
+      "expect": "Free.",
+      "tip": "Evening.",
+      "area": "West Central",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Shennong%20Street%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Shennong%20Street%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Shennong%20Street%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Lantern-lit lane of old houses and bars.",
+        "Atmospheric."
+      ],
+      "visitFlow": [
+        "Lanterns.",
+        "Bars."
+      ],
+      "bestFor": "Visitors interested in architecture and design and shows and nightlife",
+      "tradeoffs": [
+        "Free.",
+        "Evening."
+      ]
+    },
+    {
+      "id": "tainan-tnn-chimei",
+      "name": "Chimei Museum",
+      "kind": "see",
+      "lat": 22.93459,
+      "lon": 120.2259,
+      "wiki": "Chimei Museum",
+      "summary": "Palatial museum of Western art and instruments.",
+      "expect": "Paid.",
+      "tip": "Allow half a day.",
+      "area": "Rende",
+      "duration": 3,
+      "price": [
+        200,
+        200
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chimei%20Museum%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Chimei%20Museum%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chimei%20Museum%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Palatial museum of Western art and instruments.",
+        "Surprising collection."
+      ],
+      "visitFlow": [
+        "Galleries.",
+        "Gardens."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Paid.",
+        "Allow half a day."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 9073,
+          "period": "202511-202610",
+          "title": "Chimei Museum",
+          "url": "https://en.wikipedia.org/wiki/Chimei_Museum",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "tainan-tnn-danzai",
+      "name": "Danzai noodles",
+      "kind": "eat",
+      "lat": 22.996,
+      "lon": 120.2,
+      "wiki": "Danzai noodles",
+      "summary": "Small bowl of noodles with pork and shrimp.",
+      "expect": "All day.",
+      "tip": "Du Hsiao Yueh is the original.",
+      "area": "West Central",
+      "duration": 0.5,
+      "price": [
+        50,
+        80
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Danzai%20noodles%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Danzai%20noodles%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Danzai%20noodles%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Small bowl of noodles with pork and shrimp.",
+        "Tainan icon."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "All day.",
+        "Du Hsiao Yueh is the original."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Taiwanese",
+      "mustOrder": [
+        "Danzai noodles"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "tainan-tnn-beefsoup",
+      "name": "Beef soup breakfast",
+      "kind": "eat",
+      "lat": 22.99,
+      "lon": 120.21,
+      "wiki": "Beef soup",
+      "summary": "Raw beef slices cooked by hot broth.",
+      "expect": "Dawn to noon.",
+      "tip": "Go early.",
+      "area": "West Central",
+      "duration": 0.5,
+      "price": [
+        100,
+        200
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Beef%20soup%20breakfast%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Beef%20soup%20breakfast%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Beef%20soup%20breakfast%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Raw beef slices cooked by hot broth.",
+        "Tainan ritual."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Dawn to noon.",
+        "Go early."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Taiwanese",
+      "mustOrder": [
+        "Beef soup",
+        "Rice"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "tainan-tnn-garden",
+      "name": "Garden Night Market",
+      "kind": "eat",
+      "lat": 23.011,
+      "lon": 120.2,
+      "wiki": "Garden Night Market",
+      "summary": "Big weekend night market.",
+      "expect": "Thu, Sat, Sun.",
+      "tip": "Try coffin bread.",
+      "area": "North",
+      "duration": 1.5,
+      "price": [
+        150,
+        400
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Garden%20Night%20Market%2C%20Tainan",
+        "https://www.google.com/maps/search/?api=1&query=Garden%20Night%20Market%2C%20Tainan"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Garden%20Night%20Market%2C%20Tainan"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Big weekend night market.",
+        "Night feast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Thu, Sat, Sun.",
+        "Try coffin bread."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Taiwanese",
+      "mustOrder": [
+        "Coffin bread",
+        "Milkfish"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
