@@ -1,0 +1,525 @@
+{
+  "id": "portland",
+  "name": "Portland",
+  "country": "United States",
+  "region": "North America",
+  "lat": 45.5152,
+  "lon": -122.6784,
+  "wiki": "Portland, Oregon",
+  "tagline": "Food carts, roses and waterfalls on the doorstep",
+  "summary": "Portland is the Pacific Northwest's quirky, green city, known for food carts, craft beer, coffee and Powell's giant bookstore. Wander the International Rose Test Garden and Japanese Garden, then drive the Columbia River Gorge past Multnomah Falls or head to Mount Hood and the Oregon coast.",
+  "days": 3,
+  "bestMonths": [
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "Summer is dry and sunny; the rest of the year is mild and drizzly.",
+  "arrival": "Portland International is 25 minutes from downtown on the MAX Red Line.",
+  "gettingAround": "MAX light rail, streetcar and bikes; a car for the Gorge.",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+    180,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Food carts, Voodoo-style doughnuts and craft beer.",
+  "buyTip": "Books at Powell's and tax-free shopping (Oregon has no sales tax).",
+  "baseArea": "Pearl District or downtown",
+  "connections": [
+    {
+      "to": "seattle",
+      "mode": "Train",
+      "minutes": 210,
+      "note": "Amtrak Cascades."
+    },
+    {
+      "to": "san-francisco",
+      "mode": "Flight",
+      "minutes": 105,
+      "note": "Frequent flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Portland on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Portland%2C_Oregon",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Portland%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Portland%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Portland skyline Mount Hood",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "portland-pdx-japanese",
+      "name": "Portland Japanese Garden",
+      "kind": "see",
+      "lat": 45.519,
+      "lon": -122.707,
+      "wiki": "Portland Japanese Garden",
+      "summary": "One of the finest Japanese gardens outside Japan.",
+      "expect": "Timed tickets.",
+      "tip": "Go at opening.",
+      "area": "Washington Park",
+      "duration": 2,
+      "price": [
+        25,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Portland%20Japanese%20Garden%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Portland%20Japanese%20Garden%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Portland%20Japanese%20Garden%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "One of the finest Japanese gardens outside Japan.",
+        "Serene beauty."
+      ],
+      "visitFlow": [
+        "Strolling garden.",
+        "Tea house.",
+        "City view."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and architecture and design",
+      "tradeoffs": [
+        "Timed tickets.",
+        "Go at opening."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "portland-pdx-rose",
+      "name": "International Rose Test Garden",
+      "kind": "see",
+      "lat": 45.519,
+      "lon": -122.705,
+      "wiki": "International Rose Test Garden",
+      "summary": "Over 10,000 rose bushes with Mount Hood views.",
+      "expect": "Free.",
+      "tip": "Best May to September.",
+      "area": "Washington Park",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=International%20Rose%20Test%20Garden%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=International%20Rose%20Test%20Garden%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=International%20Rose%20Test%20Garden%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Over 10,000 rose bushes with Mount Hood views.",
+        "City of Roses."
+      ],
+      "visitFlow": [
+        "Rose terraces.",
+        "Mount Hood view."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Best May to September."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "portland-pdx-powells",
+      "name": "Powell's City of Books",
+      "kind": "see",
+      "lat": 45.523,
+      "lon": -122.681,
+      "wiki": "Powell's Books",
+      "summary": "The world's largest independent bookstore, a whole city block.",
+      "expect": "Free.",
+      "tip": "Pick up a colour-coded map.",
+      "area": "Pearl District",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Powell's%20City%20of%20Books%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Powell's%20City%20of%20Books%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Powell's%20City%20of%20Books%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping"
+      ],
+      "whyVisit": [
+        "The world's largest independent bookstore, a whole city block.",
+        "Book lover's dream."
+      ],
+      "visitFlow": [
+        "Colour rooms.",
+        "Rare book room."
+      ],
+      "bestFor": "Visitors interested in local shopping",
+      "tradeoffs": [
+        "Free.",
+        "Pick up a colour-coded map."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "portland-pdx-gorge",
+      "name": "Columbia River Gorge and Multnomah Falls",
+      "kind": "see",
+      "lat": 45.576,
+      "lon": -122.115,
+      "wiki": "Multnomah Falls",
+      "summary": "Waterfall-lined gorge with 189 m Multnomah Falls.",
+      "expect": "Timed permits in summer.",
+      "tip": "Drive the Historic Highway.",
+      "area": "Columbia Gorge",
+      "duration": 6,
+      "price": [
+        0,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Columbia%20River%20Gorge%20and%20Multnomah%20Falls%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Columbia%20River%20Gorge%20and%20Multnomah%20Falls%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Columbia%20River%20Gorge%20and%20Multnomah%20Falls%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Waterfall-lined gorge with 189 m Multnomah Falls.",
+        "Stunning waterfalls."
+      ],
+      "visitFlow": [
+        "Vista House.",
+        "Multnomah Falls.",
+        "Latourell Falls."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Timed permits in summer.",
+        "Drive the Historic Highway."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "portland-pdx-hood",
+      "name": "Mount Hood and Timberline Lodge",
+      "kind": "see",
+      "lat": 45.331,
+      "lon": -121.711,
+      "wiki": "Timberline Lodge",
+      "summary": "Year-round snow and the Shining's famous lodge.",
+      "expect": "Long drive.",
+      "tip": "Ski in summer on the glacier.",
+      "area": "Mount Hood",
+      "duration": 8,
+      "price": [
+        0,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mount%20Hood%20and%20Timberline%20Lodge%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Mount%20Hood%20and%20Timberline%20Lodge%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mount%20Hood%20and%20Timberline%20Lodge%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Year-round snow and the Shining's famous lodge.",
+        "Oregon's peak."
+      ],
+      "visitFlow": [
+        "Drive up.",
+        "Lodge.",
+        "Trail."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Long drive.",
+        "Ski in summer on the glacier."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "portland-pdx-coast",
+      "name": "Cannon Beach",
+      "kind": "see",
+      "lat": 45.892,
+      "lon": -123.962,
+      "wiki": "Cannon Beach, Oregon",
+      "summary": "Haystack Rock and tide pools on the Oregon coast.",
+      "expect": "1.5 hours' drive.",
+      "tip": "Go at low tide.",
+      "area": "Oregon Coast",
+      "duration": 8,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cannon%20Beach%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Cannon%20Beach%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cannon%20Beach%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Haystack Rock and tide pools on the Oregon coast.",
+        "Coast icon."
+      ],
+      "visitFlow": [
+        "Haystack Rock.",
+        "Tide pools."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "1.5 hours' drive.",
+        "Go at low tide."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "portland-pdx-carts",
+      "name": "Food cart pods",
+      "kind": "eat",
+      "lat": 45.52,
+      "lon": -122.68,
+      "wiki": "Food trucks in Portland, Oregon",
+      "summary": "Clusters of carts with cuisines from everywhere.",
+      "expect": "Cheap.",
+      "tip": "Try Cartopia or Prost! Marketplace.",
+      "area": "Downtown",
+      "duration": 1,
+      "price": [
+        12,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Food%20cart%20pods%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Food%20cart%20pods%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Food%20cart%20pods%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Clusters of carts with cuisines from everywhere.",
+        "Portland icon."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Cheap.",
+        "Try Cartopia or Prost! Marketplace."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "International",
+      "mustOrder": [
+        "Street food"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "portland-pdx-doughnuts",
+      "name": "Doughnuts",
+      "kind": "eat",
+      "lat": 45.5227,
+      "lon": -122.673,
+      "wiki": "Voodoo Doughnut",
+      "summary": "Quirky doughnuts at Voodoo or Blue Star.",
+      "expect": "Queues.",
+      "tip": "Try Blue Star for gourmet.",
+      "area": "Old Town",
+      "duration": 0.5,
+      "price": [
+        4,
+        10
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Doughnuts%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Doughnuts%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Doughnuts%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Quirky doughnuts at Voodoo or Blue Star.",
+        "Sweet tradition."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Queues.",
+        "Try Blue Star for gourmet."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "American",
+      "mustOrder": [
+        "Doughnuts"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "portland-pdx-beer",
+      "name": "Craft breweries",
+      "kind": "eat",
+      "lat": 45.53,
+      "lon": -122.68,
+      "wiki": "Beer in Oregon",
+      "summary": "One of America's top craft beer cities.",
+      "expect": "Taprooms.",
+      "tip": "Try a flight at Deschutes.",
+      "area": "Pearl District",
+      "duration": 1.5,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Craft%20breweries%2C%20Portland",
+        "https://www.google.com/maps/search/?api=1&query=Craft%20breweries%2C%20Portland"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Craft%20breweries%2C%20Portland"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "One of America's top craft beer cities.",
+        "Beer city."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Taprooms.",
+        "Try a flight at Deschutes."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "American",
+      "mustOrder": [
+        "IPA flight"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

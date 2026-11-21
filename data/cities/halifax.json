@@ -1,0 +1,522 @@
+{
+  "id": "halifax",
+  "name": "Halifax",
+  "country": "Canada",
+  "region": "North America",
+  "lat": 44.6488,
+  "lon": -63.5752,
+  "wiki": "Halifax, Nova Scotia",
+  "tagline": "Maritime harbour city of lobster and lighthouses",
+  "summary": "Halifax is Nova Scotia's friendly harbour capital, with a lively boardwalk, a star-shaped citadel and deep maritime history including the Titanic. Eat lobster rolls, drive to the lighthouse at Peggy's Cove, explore Lunenburg's colourful UNESCO old town and catch live Celtic music in the pubs.",
+  "days": 3,
+  "bestMonths": [
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "seasonNote": "Summer and early fall are best; fall colours peak in October.",
+  "arrival": "Halifax Stanfield is 30 minutes from downtown.",
+  "gettingAround": "Walk downtown; a car for the coast.",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 15 to 20 percent. Sales tax is added at the till.",
+  "dailyBudget": [
+    170,
+    400
+  ],
+  "currency": "CAD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Lobster, Digby scallops and the donair.",
+  "buyTip": "Nova Scotian tartan and pewter.",
+  "baseArea": "Downtown waterfront",
+  "connections": [
+    {
+      "to": "montreal",
+      "mode": "Train",
+      "minutes": 1320,
+      "note": "VIA Rail's Ocean."
+    },
+    {
+      "to": "toronto",
+      "mode": "Flight",
+      "minutes": 130,
+      "note": "Frequent flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Halifax on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Halifax%2C_Nova_Scotia",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Halifax%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Halifax%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Halifax waterfront",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "halifax-hfx-waterfront",
+      "name": "Halifax Waterfront",
+      "kind": "see",
+      "lat": 44.646,
+      "lon": -63.57,
+      "wiki": "Halifax Harbour",
+      "summary": "Long boardwalk with ships, food shacks and the Wave sculpture.",
+      "expect": "Free.",
+      "tip": "Take the ferry to Dartmouth.",
+      "area": "Waterfront",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Halifax%20Waterfront%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Halifax%20Waterfront%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Halifax%20Waterfront%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Food"
+      ],
+      "whyVisit": [
+        "Long boardwalk with ships, food shacks and the Wave sculpture.",
+        "Harbour life."
+      ],
+      "visitFlow": [
+        "Boardwalk.",
+        "Ferry ride."
+      ],
+      "bestFor": "Visitors interested in architecture and design and regional food",
+      "tradeoffs": [
+        "Free.",
+        "Take the ferry to Dartmouth."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "halifax-hfx-citadel",
+      "name": "Halifax Citadel",
+      "kind": "see",
+      "lat": 44.6475,
+      "lon": -63.58,
+      "wiki": "Halifax Citadel National Historic Site",
+      "summary": "Star-shaped fort with the noon gun and kilted soldiers.",
+      "expect": "Allow 2 hours.",
+      "tip": "Be there for the noon gun.",
+      "area": "Downtown",
+      "duration": 2,
+      "price": [
+        12,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Halifax%20Citadel%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Halifax%20Citadel%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Halifax%20Citadel%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Star-shaped fort with the noon gun and kilted soldiers.",
+        "Military history."
+      ],
+      "visitFlow": [
+        "Ramparts.",
+        "Noon gun."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "Be there for the noon gun."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "halifax-hfx-peggys",
+      "name": "Peggy's Cove",
+      "kind": "see",
+      "lat": 44.492,
+      "lon": -63.917,
+      "wiki": "Peggy's Cove",
+      "summary": "Iconic lighthouse on granite rocks in a fishing village.",
+      "expect": "45 minutes' drive.",
+      "tip": "Stay off the black rocks.",
+      "area": "South Shore",
+      "duration": 4,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Peggy's%20Cove%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Peggy's%20Cove%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Peggy's%20Cove%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Iconic lighthouse on granite rocks in a fishing village.",
+        "Postcard Canada."
+      ],
+      "visitFlow": [
+        "Lighthouse.",
+        "Village."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "45 minutes' drive.",
+        "Stay off the black rocks."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "halifax-hfx-maritime",
+      "name": "Maritime Museum of the Atlantic",
+      "kind": "see",
+      "lat": 44.648,
+      "lon": -63.571,
+      "wiki": "Maritime Museum of the Atlantic",
+      "summary": "Titanic artefacts and the Halifax Explosion story.",
+      "expect": "Allow 1.5 hours.",
+      "tip": "See the Titanic deck chair.",
+      "area": "Waterfront",
+      "duration": 1.5,
+      "price": [
+        10,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Maritime%20Museum%20of%20the%20Atlantic%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Maritime%20Museum%20of%20the%20Atlantic%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Maritime%20Museum%20of%20the%20Atlantic%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Titanic artefacts and the Halifax Explosion story.",
+        "Sea history."
+      ],
+      "visitFlow": [
+        "Titanic.",
+        "Explosion."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 1.5 hours.",
+        "See the Titanic deck chair."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "halifax-hfx-lunenburg",
+      "name": "Lunenburg",
+      "kind": "see",
+      "lat": 44.377,
+      "lon": -64.309,
+      "wiki": "Lunenburg, Nova Scotia",
+      "summary": "Colourful UNESCO fishing town, home of the Bluenose.",
+      "expect": "1 hour's drive.",
+      "tip": "Combine with Mahone Bay.",
+      "area": "South Shore",
+      "duration": 6,
+      "price": [
+        0,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lunenburg%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Lunenburg%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lunenburg%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Colourful UNESCO fishing town, home of the Bluenose.",
+        "Charming town."
+      ],
+      "visitFlow": [
+        "Old Town.",
+        "Fisheries Museum."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "1 hour's drive.",
+        "Combine with Mahone Bay."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "halifax-hfx-pier21",
+      "name": "Canadian Museum of Immigration at Pier 21",
+      "kind": "see",
+      "lat": 44.637,
+      "lon": -63.565,
+      "wiki": "Pier 21",
+      "summary": "Where a million immigrants arrived in Canada.",
+      "expect": "Allow 2 hours.",
+      "tip": "Search family records.",
+      "area": "Seaport",
+      "duration": 2,
+      "price": [
+        15,
+        18
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Canadian%20Museum%20of%20Immigration%20at%20Pier%2021%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Canadian%20Museum%20of%20Immigration%20at%20Pier%2021%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Canadian%20Museum%20of%20Immigration%20at%20Pier%2021%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Where a million immigrants arrived in Canada.",
+        "Moving history."
+      ],
+      "visitFlow": [
+        "Exhibits.",
+        "Records."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "Search family records."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "halifax-hfx-lobster",
+      "name": "Lobster roll",
+      "kind": "eat",
+      "lat": 44.646,
+      "lon": -63.57,
+      "wiki": "Lobster roll",
+      "summary": "Fresh lobster rolls on the boardwalk.",
+      "expect": "Shacks.",
+      "tip": "Try Mic Mac Bar & Grill.",
+      "area": "Waterfront",
+      "duration": 1,
+      "price": [
+        25,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lobster%20roll%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Lobster%20roll%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lobster%20roll%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fresh lobster rolls on the boardwalk.",
+        "Maritime staple."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Shacks.",
+        "Try Mic Mac Bar & Grill."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Lobster roll"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "halifax-hfx-donair",
+      "name": "Halifax donair",
+      "kind": "eat",
+      "lat": 44.645,
+      "lon": -63.575,
+      "wiki": "Donair",
+      "summary": "Spiced beef with sweet garlic sauce, the official city food.",
+      "expect": "Late night.",
+      "tip": "Try King of Donair.",
+      "area": "Downtown",
+      "duration": 0.5,
+      "price": [
+        10,
+        16
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Halifax%20donair%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Halifax%20donair%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Halifax%20donair%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Spiced beef with sweet garlic sauce, the official city food.",
+        "Local legend."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Late night.",
+        "Try King of Donair."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Canadian",
+      "mustOrder": [
+        "Donair"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "halifax-hfx-pubs",
+      "name": "Pubs and live music",
+      "kind": "eat",
+      "lat": 44.648,
+      "lon": -63.573,
+      "wiki": "Halifax, Nova Scotia",
+      "summary": "Celtic music sessions with local beer.",
+      "expect": "Evenings.",
+      "tip": "Try The Old Triangle.",
+      "area": "Downtown",
+      "duration": 2,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Pubs%20and%20live%20music%2C%20Halifax",
+        "https://www.google.com/maps/search/?api=1&query=Pubs%20and%20live%20music%2C%20Halifax"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Pubs%20and%20live%20music%2C%20Halifax"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Celtic music sessions with local beer.",
+        "Maritime nights."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Try The Old Triangle."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Canadian",
+      "mustOrder": [
+        "Alexander Keith's"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

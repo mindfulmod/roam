@@ -1,0 +1,521 @@
+{
+  "id": "ottawa",
+  "name": "Ottawa",
+  "country": "Canada",
+  "region": "North America",
+  "lat": 45.4215,
+  "lon": -75.6972,
+  "wiki": "Ottawa",
+  "tagline": "Canada's capital of museums, canals and Parliament",
+  "summary": "Ottawa is Canada's bilingual capital on the Ottawa River, crowned by the Gothic Revival Parliament buildings. Tour Parliament Hill, visit the National Gallery and Canadian Museum of History, eat a BeaverTail in ByWard Market and skate or cycle the Rideau Canal.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    2
+  ],
+  "seasonNote": "May brings the Tulip Festival; February has Winterlude and canal skating.",
+  "arrival": "Ottawa Airport is 20 minutes from downtown; trains link Montreal and Toronto.",
+  "gettingAround": "Walk downtown; O-Train and buses.",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 15 to 20 percent. Sales tax is added at the till.",
+  "dailyBudget": [
+    170,
+    400
+  ],
+  "currency": "CAD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "BeaverTails and poutine.",
+  "buyTip": "Maple products and Indigenous art.",
+  "baseArea": "Downtown or ByWard Market",
+  "connections": [
+    {
+      "to": "montreal",
+      "mode": "Train",
+      "minutes": 120,
+      "note": "VIA Rail."
+    },
+    {
+      "to": "toronto",
+      "mode": "Train",
+      "minutes": 270,
+      "note": "VIA Rail."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Ottawa on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ottawa",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Ottawa%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Ottawa%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Parliament Hill Ottawa",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "ottawa-ott-parliament",
+      "name": "Parliament Hill",
+      "kind": "see",
+      "lat": 45.4236,
+      "lon": -75.7009,
+      "wiki": "Parliament Hill",
+      "summary": "Gothic Revival seat of government with a free tour and changing of the guard.",
+      "expect": "Free tours.",
+      "tip": "Catch the summer light show.",
+      "area": "Centre",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Parliament%20Hill%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=Parliament%20Hill%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Parliament%20Hill%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Gothic Revival seat of government with a free tour and changing of the guard.",
+        "National icon."
+      ],
+      "visitFlow": [
+        "West Block tour.",
+        "Changing of the guard."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Free tours.",
+        "Catch the summer light show."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ottawa-ott-gallery",
+      "name": "National Gallery of Canada",
+      "kind": "see",
+      "lat": 45.4295,
+      "lon": -75.6989,
+      "wiki": "National Gallery of Canada",
+      "summary": "Glass gallery with Canadian and Indigenous art and the giant spider sculpture.",
+      "expect": "Allow 2 hours.",
+      "tip": "See the Group of Seven.",
+      "area": "ByWard",
+      "duration": 2,
+      "price": [
+        20,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=National%20Gallery%20of%20Canada%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=National%20Gallery%20of%20Canada%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=National%20Gallery%20of%20Canada%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Glass gallery with Canadian and Indigenous art and the giant spider sculpture.",
+        "Canadian art."
+      ],
+      "visitFlow": [
+        "Maman sculpture.",
+        "Group of Seven."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Allow 2 hours.",
+        "See the Group of Seven."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ottawa-ott-history",
+      "name": "Canadian Museum of History",
+      "kind": "see",
+      "lat": 45.43,
+      "lon": -75.709,
+      "wiki": "Canadian Museum of History",
+      "summary": "Totem poles in the Grand Hall and Canada's story.",
+      "expect": "Allow 3 hours.",
+      "tip": "Start with the Grand Hall.",
+      "area": "Gatineau",
+      "duration": 3,
+      "price": [
+        20,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Canadian%20Museum%20of%20History%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=Canadian%20Museum%20of%20History%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Canadian%20Museum%20of%20History%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Totem poles in the Grand Hall and Canada's story.",
+        "Best museum."
+      ],
+      "visitFlow": [
+        "Grand Hall.",
+        "Canadian History Hall."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 3 hours.",
+        "Start with the Grand Hall."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ottawa-ott-rideau",
+      "name": "Rideau Canal",
+      "kind": "see",
+      "lat": 45.425,
+      "lon": -75.695,
+      "wiki": "Rideau Canal",
+      "summary": "UNESCO canal for summer cycling and the world's largest skating rink in winter.",
+      "expect": "Free.",
+      "tip": "Skate it in February.",
+      "area": "Centre",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rideau%20Canal%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=Rideau%20Canal%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rideau%20Canal%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "UNESCO canal for summer cycling and the world's largest skating rink in winter.",
+        "Seasonal fun."
+      ],
+      "visitFlow": [
+        "Walk or skate.",
+        "Dows Lake."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Skate it in February."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ottawa-ott-byward",
+      "name": "ByWard Market",
+      "kind": "see",
+      "lat": 45.428,
+      "lon": -75.692,
+      "wiki": "ByWard Market",
+      "summary": "Historic market district with food and bars.",
+      "expect": "Free.",
+      "tip": "Grab a BeaverTail.",
+      "area": "ByWard",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=ByWard%20Market%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=ByWard%20Market%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=ByWard%20Market%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "Historic market district with food and bars.",
+        "Lively hub."
+      ],
+      "visitFlow": [
+        "Market building.",
+        "Bars."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Free.",
+        "Grab a BeaverTail."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ottawa-ott-gatineau",
+      "name": "Gatineau Park",
+      "kind": "see",
+      "lat": 45.5,
+      "lon": -75.9,
+      "wiki": "Gatineau Park",
+      "summary": "Forested hills with lakes and lookouts, gorgeous in fall.",
+      "expect": "Free.",
+      "tip": "Drive to Champlain Lookout in October.",
+      "area": "Gatineau",
+      "duration": 4,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Gatineau%20Park%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=Gatineau%20Park%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Gatineau%20Park%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Forested hills with lakes and lookouts, gorgeous in fall.",
+        "Fall colours."
+      ],
+      "visitFlow": [
+        "Champlain Lookout.",
+        "Pink Lake."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Free.",
+        "Drive to Champlain Lookout in October."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "ottawa-ott-beavertail",
+      "name": "BeaverTails",
+      "kind": "eat",
+      "lat": 45.428,
+      "lon": -75.692,
+      "wiki": "BeaverTails",
+      "summary": "Fried pastry with cinnamon sugar.",
+      "expect": "Market kiosk.",
+      "tip": "Try the Killaloe Sunrise.",
+      "area": "ByWard",
+      "duration": 0.5,
+      "price": [
+        6,
+        10
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=BeaverTails%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=BeaverTails%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=BeaverTails%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fried pastry with cinnamon sugar.",
+        "Ottawa original."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Market kiosk.",
+        "Try the Killaloe Sunrise."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Canadian",
+      "mustOrder": [
+        "BeaverTail"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "ottawa-ott-poutine",
+      "name": "Poutine",
+      "kind": "eat",
+      "lat": 45.42,
+      "lon": -75.69,
+      "wiki": "Poutine",
+      "summary": "Fries with cheese curds and gravy.",
+      "expect": "Everywhere.",
+      "tip": "Try it late night.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        10,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Poutine%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=Poutine%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Poutine%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fries with cheese curds and gravy.",
+        "Canadian classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Try it late night."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Canadian",
+      "mustOrder": [
+        "Poutine"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "ottawa-ott-brunch",
+      "name": "Brunch in the Glebe",
+      "kind": "eat",
+      "lat": 45.4,
+      "lon": -75.69,
+      "wiki": "The Glebe",
+      "summary": "Neighbourhood cafés near Lansdowne.",
+      "expect": "Weekend.",
+      "tip": "Walk by the canal after.",
+      "area": "Glebe",
+      "duration": 1,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Brunch%20in%20the%20Glebe%2C%20Ottawa",
+        "https://www.google.com/maps/search/?api=1&query=Brunch%20in%20the%20Glebe%2C%20Ottawa"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Brunch%20in%20the%20Glebe%2C%20Ottawa"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Neighbourhood cafés near Lansdowne.",
+        "Local favourite."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Weekend.",
+        "Walk by the canal after."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Canadian",
+      "mustOrder": [
+        "Pancakes with maple syrup"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

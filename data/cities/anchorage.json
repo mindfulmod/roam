@@ -1,0 +1,515 @@
+{
+  "id": "anchorage",
+  "name": "Anchorage",
+  "country": "United States",
+  "region": "North America",
+  "lat": 61.2181,
+  "lon": -149.9003,
+  "wiki": "Anchorage, Alaska",
+  "tagline": "Gateway to Alaska's glaciers, bears and Denali",
+  "summary": "Anchorage is Alaska's largest city, between the Chugach Mountains and Cook Inlet. Learn about Alaska Native cultures, cycle the coastal trail, then drive the Seward Highway to glaciers and Kenai Fjords, or take the train to Denali to see the continent's highest peak.",
+  "days": 5,
+  "bestMonths": [
+    6,
+    7,
+    8
+  ],
+  "seasonNote": "June to August brings midnight sun and wildlife; winter offers northern lights.",
+  "arrival": "Ted Stevens Anchorage International is 15 minutes from downtown.",
+  "gettingAround": "Rent a car; the Alaska Railroad for Seward and Denali.",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+    180,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Wild salmon, halibut and reindeer sausage.",
+  "buyTip": "Alaska Native crafts with the Silver Hand mark.",
+  "baseArea": "Downtown Anchorage",
+  "connections": [
+    {
+      "to": "seattle",
+      "mode": "Flight",
+      "minutes": 215,
+      "note": "Frequent flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Anchorage on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Anchorage%2C_Alaska",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Anchorage%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Anchorage%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Anchorage skyline Chugach",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "anchorage-anc-heritage",
+      "name": "Alaska Native Heritage Center",
+      "kind": "see",
+      "lat": 61.231,
+      "lon": -149.717,
+      "wiki": "Alaska Native Heritage Center",
+      "summary": "Living culture centre with dances and village sites.",
+      "expect": "Allow 3 hours.",
+      "tip": "Catch a dance performance.",
+      "area": "East",
+      "duration": 3,
+      "price": [
+        30,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alaska%20Native%20Heritage%20Center%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Alaska%20Native%20Heritage%20Center%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Alaska%20Native%20Heritage%20Center%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Living culture centre with dances and village sites.",
+        "Indigenous Alaska."
+      ],
+      "visitFlow": [
+        "Hall of Cultures.",
+        "Village sites."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Allow 3 hours.",
+        "Catch a dance performance."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "anchorage-anc-seward",
+      "name": "Seward Highway and Kenai Fjords",
+      "kind": "see",
+      "lat": 59.9,
+      "lon": -149.6,
+      "wiki": "Kenai Fjords National Park",
+      "summary": "Fjord cruise to tidewater glaciers with whales and puffins.",
+      "expect": "Long day.",
+      "tip": "Book a 6-hour cruise.",
+      "area": "Seward",
+      "duration": 12,
+      "price": [
+        180,
+        280
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Seward%20Highway%20and%20Kenai%20Fjords%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Seward%20Highway%20and%20Kenai%20Fjords%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Seward%20Highway%20and%20Kenai%20Fjords%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Fjord cruise to tidewater glaciers with whales and puffins.",
+        "Glacier calving."
+      ],
+      "visitFlow": [
+        "Seward Highway.",
+        "Fjord cruise."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Long day.",
+        "Book a 6-hour cruise."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "anchorage-anc-denali",
+      "name": "Denali National Park",
+      "kind": "see",
+      "lat": 63.333,
+      "lon": -150.5,
+      "wiki": "Denali National Park and Preserve",
+      "summary": "North America's highest peak and wilderness with grizzlies and moose.",
+      "expect": "Train or drive; stay overnight.",
+      "tip": "Take the park bus.",
+      "area": "Denali",
+      "duration": 24,
+      "price": [
+        15,
+        250
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Denali%20National%20Park%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Denali%20National%20Park%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Denali%20National%20Park%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "North America's highest peak and wilderness with grizzlies and moose.",
+        "Wild Alaska."
+      ],
+      "visitFlow": [
+        "Train.",
+        "Park bus."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Train or drive; stay overnight.",
+        "Take the park bus."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "anchorage-anc-coastal",
+      "name": "Tony Knowles Coastal Trail",
+      "kind": "see",
+      "lat": 61.2,
+      "lon": -149.95,
+      "wiki": "Tony Knowles Coastal Trail",
+      "summary": "Paved coastal trail with moose and Denali views.",
+      "expect": "Free.",
+      "tip": "Rent a bike.",
+      "area": "Coast",
+      "duration": 2,
+      "price": [
+        0,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tony%20Knowles%20Coastal%20Trail%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Tony%20Knowles%20Coastal%20Trail%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tony%20Knowles%20Coastal%20Trail%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Paved coastal trail with moose and Denali views.",
+        "Easy wildlife."
+      ],
+      "visitFlow": [
+        "Bike.",
+        "Earthquake Park."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Rent a bike."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "anchorage-anc-flattop",
+      "name": "Flattop Mountain",
+      "kind": "see",
+      "lat": 61.088,
+      "lon": -149.663,
+      "wiki": "Flattop Mountain (Alaska)",
+      "summary": "Alaska's most-climbed peak, with sweeping views.",
+      "expect": "Steep finish.",
+      "tip": "Go on a clear evening.",
+      "area": "Chugach",
+      "duration": 3,
+      "price": [
+        5,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Flattop%20Mountain%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Flattop%20Mountain%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Flattop%20Mountain%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Alaska's most-climbed peak, with sweeping views.",
+        "Big views."
+      ],
+      "visitFlow": [
+        "Trailhead.",
+        "Summit."
+      ],
+      "bestFor": "Visitors interested in active exploration and big views",
+      "tradeoffs": [
+        "Steep finish.",
+        "Go on a clear evening."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "anchorage-anc-alyeska",
+      "name": "Alyeska and Girdwood",
+      "kind": "see",
+      "lat": 60.96,
+      "lon": -149.1,
+      "wiki": "Alyeska Resort",
+      "summary": "Tram up for glacier views and summer hikes.",
+      "expect": "Tram ticket.",
+      "tip": "Hike the Winner Creek trail.",
+      "area": "Girdwood",
+      "duration": 4,
+      "price": [
+        40,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alyeska%20and%20Girdwood%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Alyeska%20and%20Girdwood%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Alyeska%20and%20Girdwood%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Tram up for glacier views and summer hikes.",
+        "Mountain resort."
+      ],
+      "visitFlow": [
+        "Tram.",
+        "Trail."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Tram ticket.",
+        "Hike the Winner Creek trail."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "anchorage-anc-salmon",
+      "name": "Wild salmon",
+      "kind": "eat",
+      "lat": 61.22,
+      "lon": -149.9,
+      "wiki": "Salmon",
+      "summary": "Fresh Copper River or sockeye salmon.",
+      "expect": "Summer.",
+      "tip": "Try it cedar-planked.",
+      "area": "Downtown",
+      "duration": 1.5,
+      "price": [
+        30,
+        50
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Wild%20salmon%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Wild%20salmon%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Wild%20salmon%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fresh Copper River or sockeye salmon.",
+        "Alaskan pride."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Summer.",
+        "Try it cedar-planked."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Salmon"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "anchorage-anc-reindeer",
+      "name": "Reindeer sausage",
+      "kind": "eat",
+      "lat": 61.22,
+      "lon": -149.89,
+      "wiki": "Reindeer",
+      "summary": "Street-cart reindeer dogs.",
+      "expect": "Carts in summer.",
+      "tip": "Add grilled onions.",
+      "area": "Downtown",
+      "duration": 0.5,
+      "price": [
+        8,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Reindeer%20sausage%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Reindeer%20sausage%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Reindeer%20sausage%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Street-cart reindeer dogs.",
+        "Alaska snack."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Carts in summer.",
+        "Add grilled onions."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Alaskan",
+      "mustOrder": [
+        "Reindeer dog"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "anchorage-anc-halibut",
+      "name": "Halibut and chips",
+      "kind": "eat",
+      "lat": 61.21,
+      "lon": -149.9,
+      "wiki": "Halibut",
+      "summary": "Thick halibut fish and chips.",
+      "expect": "Pubs.",
+      "tip": "Try Humpy's.",
+      "area": "Downtown",
+      "duration": 1,
+      "price": [
+        20,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Halibut%20and%20chips%2C%20Anchorage",
+        "https://www.google.com/maps/search/?api=1&query=Halibut%20and%20chips%2C%20Anchorage"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Halibut%20and%20chips%2C%20Anchorage"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Thick halibut fish and chips.",
+        "Local catch."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Pubs.",
+        "Try Humpy's."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Halibut and chips"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

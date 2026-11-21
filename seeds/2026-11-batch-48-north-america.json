@@ -1,0 +1,2410 @@
+[
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "portland",
+  "name": "Portland",
+  "at": [
+   45.5152,
+   -122.6784
+  ],
+  "wiki": "Portland, Oregon",
+  "cover": "Portland skyline Mount Hood",
+  "seasons": "LLLSSHHHHSLL",
+  "tagline": "Food carts, roses and waterfalls on the doorstep",
+  "summary": "Portland is the Pacific Northwest's quirky, green city, known for food carts, craft beer, coffee and Powell's giant bookstore. Wander the International Rose Test Garden and Japanese Garden, then drive the Columbia River Gorge past Multnomah Falls or head to Mount Hood and the Oregon coast.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is dry and sunny; the rest of the year is mild and drizzly.",
+  "arrival": "Portland International is 25 minutes from downtown on the MAX Red Line.",
+  "gettingAround": "MAX light rail, streetcar and bikes; a car for the Gorge.",
+  "foodTip": "Food carts, Voodoo-style doughnuts and craft beer.",
+  "buyTip": "Books at Powell's and tax-free shopping (Oregon has no sales tax).",
+  "baseArea": "Pearl District or downtown",
+  "hotel": [
+   160,
+   350
+  ],
+  "connections": [
+   {
+    "to": "seattle",
+    "mode": "Train",
+    "minutes": 210,
+    "note": "Amtrak Cascades."
+   },
+   {
+    "to": "san-francisco",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Frequent flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Portland Japanese Garden",
+    "kind": "see",
+    "id": "pdx-japanese",
+    "at": [
+     45.519,
+     -122.707
+    ],
+    "wiki": "Portland Japanese Garden",
+    "area": "Washington Park",
+    "summary": "One of the finest Japanese gardens outside Japan.",
+    "expect": "Timed tickets.",
+    "tip": "Go at opening.",
+    "why": "Serene beauty.",
+    "flow": [
+     "Strolling garden.",
+     "Tea house.",
+     "City view."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "International Rose Test Garden",
+    "kind": "see",
+    "id": "pdx-rose",
+    "at": [
+     45.519,
+     -122.705
+    ],
+    "wiki": "International Rose Test Garden",
+    "area": "Washington Park",
+    "summary": "Over 10,000 rose bushes with Mount Hood views.",
+    "expect": "Free.",
+    "tip": "Best May to September.",
+    "why": "City of Roses.",
+    "flow": [
+     "Rose terraces.",
+     "Mount Hood view."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Powell's City of Books",
+    "kind": "see",
+    "id": "pdx-powells",
+    "at": [
+     45.523,
+     -122.681
+    ],
+    "wiki": "Powell's Books",
+    "area": "Pearl District",
+    "summary": "The world's largest independent bookstore, a whole city block.",
+    "expect": "Free.",
+    "tip": "Pick up a colour-coded map.",
+    "why": "Book lover's dream.",
+    "flow": [
+     "Colour rooms.",
+     "Rare book room."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Columbia River Gorge and Multnomah Falls",
+    "kind": "see",
+    "id": "pdx-gorge",
+    "at": [
+     45.576,
+     -122.115
+    ],
+    "wiki": "Multnomah Falls",
+    "area": "Columbia Gorge",
+    "summary": "Waterfall-lined gorge with 189 m Multnomah Falls.",
+    "expect": "Timed permits in summer.",
+    "tip": "Drive the Historic Highway.",
+    "why": "Stunning waterfalls.",
+    "flow": [
+     "Vista House.",
+     "Multnomah Falls.",
+     "Latourell Falls."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mount Hood and Timberline Lodge",
+    "kind": "see",
+    "id": "pdx-hood",
+    "at": [
+     45.331,
+     -121.711
+    ],
+    "wiki": "Timberline Lodge",
+    "area": "Mount Hood",
+    "summary": "Year-round snow and the Shining's famous lodge.",
+    "expect": "Long drive.",
+    "tip": "Ski in summer on the glacier.",
+    "why": "Oregon's peak.",
+    "flow": [
+     "Drive up.",
+     "Lodge.",
+     "Trail."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Cannon Beach",
+    "kind": "see",
+    "id": "pdx-coast",
+    "at": [
+     45.892,
+     -123.962
+    ],
+    "wiki": "Cannon Beach, Oregon",
+    "area": "Oregon Coast",
+    "summary": "Haystack Rock and tide pools on the Oregon coast.",
+    "expect": "1.5 hours' drive.",
+    "tip": "Go at low tide.",
+    "why": "Coast icon.",
+    "flow": [
+     "Haystack Rock.",
+     "Tide pools."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Food cart pods",
+    "kind": "eat",
+    "id": "pdx-carts",
+    "at": [
+     45.52,
+     -122.68
+    ],
+    "wiki": "Food trucks in Portland, Oregon",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Clusters of carts with cuisines from everywhere.",
+    "expect": "Cheap.",
+    "tip": "Try Cartopia or Prost! Marketplace.",
+    "why": "Portland icon.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Street food"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Doughnuts",
+    "kind": "eat",
+    "id": "pdx-doughnuts",
+    "at": [
+     45.5227,
+     -122.673
+    ],
+    "wiki": "Voodoo Doughnut",
+    "area": "Old Town",
+    "venue": "food-area",
+    "summary": "Quirky doughnuts at Voodoo or Blue Star.",
+    "expect": "Queues.",
+    "tip": "Try Blue Star for gourmet.",
+    "why": "Sweet tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Doughnuts"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Craft breweries",
+    "kind": "eat",
+    "id": "pdx-beer",
+    "at": [
+     45.53,
+     -122.68
+    ],
+    "wiki": "Beer in Oregon",
+    "area": "Pearl District",
+    "venue": "food-area",
+    "summary": "One of America's top craft beer cities.",
+    "expect": "Taprooms.",
+    "tip": "Try a flight at Deschutes.",
+    "why": "Beer city.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "IPA flight"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "denver",
+  "name": "Denver",
+  "at": [
+   39.7392,
+   -104.9903
+  ],
+  "wiki": "Denver",
+  "cover": "Denver skyline Rocky Mountains",
+  "seasons": "LLSSSHHHHSSL",
+  "tagline": "Mile High City at the foot of the Rockies",
+  "summary": "Denver is a sunny, outdoorsy city a mile above sea level, with the Rockies on the horizon. See a concert at Red Rocks Amphitheatre, explore Union Station and the craft breweries of RiNo, then head into the mountains for Rocky Mountain National Park, Boulder or ski towns.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer for hiking and Red Rocks concerts; winter for skiing nearby.",
+  "arrival": "Denver International is 37 minutes from Union Station by A Line train.",
+  "gettingAround": "Light rail, buses and a car for the mountains.",
+  "foodTip": "Green chile, bison burgers and craft beer.",
+  "buyTip": "Outdoor gear at REI flagship and Western wear.",
+  "baseArea": "LoDo or Union Station",
+  "hotel": [
+   160,
+   350
+  ],
+  "connections": [
+   {
+    "to": "chicago",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Frequent flights."
+   },
+   {
+    "to": "las-vegas",
+    "mode": "Flight",
+    "minutes": 120,
+    "note": "Frequent flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Red Rocks Park and Amphitheatre",
+    "kind": "see",
+    "id": "den-redrocks",
+    "at": [
+     39.665,
+     -105.205
+    ],
+    "wiki": "Red Rocks Amphitheatre",
+    "area": "Morrison",
+    "summary": "Natural sandstone amphitheatre and legendary concert venue.",
+    "expect": "Free by day.",
+    "tip": "Catch a summer concert.",
+    "why": "Iconic venue.",
+    "flow": [
+     "Amphitheatre.",
+     "Trading Post trail."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     150
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Rocky Mountain National Park",
+    "kind": "see",
+    "id": "den-rmnp",
+    "at": [
+     40.343,
+     -105.684
+    ],
+    "wiki": "Rocky Mountain National Park",
+    "area": "Estes Park",
+    "summary": "Alpine lakes, elk and Trail Ridge Road above 3,600 m.",
+    "expect": "Timed entry in summer.",
+    "tip": "Hike to Emerald Lake.",
+    "why": "Mountain grandeur.",
+    "flow": [
+     "Bear Lake.",
+     "Trail Ridge Road."
+    ],
+    "hours": 10,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Union Station and LoDo",
+    "kind": "see",
+    "id": "den-union",
+    "at": [
+     39.753,
+     -105.0
+    ],
+    "wiki": "Denver Union Station",
+    "area": "LoDo",
+    "summary": "Restored station with bars and a lively historic district.",
+    "expect": "Free.",
+    "tip": "Have a drink in the Terminal Bar.",
+    "why": "Denver's living room.",
+    "flow": [
+     "Great Hall.",
+     "Larimer Square."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "RiNo Art District",
+    "kind": "see",
+    "id": "den-rino",
+    "at": [
+     39.769,
+     -104.981
+    ],
+    "wiki": "River North Art District",
+    "area": "RiNo",
+    "summary": "Murals, breweries and food halls.",
+    "expect": "Free.",
+    "tip": "Visit Denver Central Market.",
+    "why": "Street art.",
+    "flow": [
+     "Murals.",
+     "Food hall."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Denver Art Museum",
+    "kind": "see",
+    "id": "den-artmuseum",
+    "at": [
+     39.737,
+     -104.989
+    ],
+    "wiki": "Denver Art Museum",
+    "area": "Golden Triangle",
+    "summary": "Striking building with Western and Indigenous art.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the Native Arts floor.",
+    "why": "Art and architecture.",
+    "flow": [
+     "Hamilton Building.",
+     "Native arts."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Boulder and the Flatirons",
+    "kind": "see",
+    "id": "den-boulder",
+    "at": [
+     39.999,
+     -105.283
+    ],
+    "wiki": "Flatirons",
+    "area": "Boulder",
+    "summary": "College town with Chautauqua trails under the Flatirons.",
+    "expect": "40 minutes' drive.",
+    "tip": "Hike Royal Arch.",
+    "why": "Mountain town.",
+    "flow": [
+     "Chautauqua.",
+     "Pearl Street."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Green chile",
+    "kind": "eat",
+    "id": "den-chile",
+    "at": [
+     39.74,
+     -104.99
+    ],
+    "wiki": "New Mexico chile",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Pork green chile smothering burritos.",
+    "expect": "Diners.",
+    "tip": "Order it 'smothered'.",
+    "why": "Denver classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southwestern",
+    "order": [
+     "Smothered burrito"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Craft breweries",
+    "kind": "eat",
+    "id": "den-beer",
+    "at": [
+     39.76,
+     -104.98
+    ],
+    "wiki": "Beer in Colorado",
+    "area": "RiNo",
+    "venue": "food-area",
+    "summary": "One of the top US brewing cities.",
+    "expect": "Taprooms.",
+    "tip": "Visit Great Divide.",
+    "why": "Beer culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Bison burger",
+    "kind": "eat",
+    "id": "den-bison",
+    "at": [
+     39.75,
+     -105.0
+    ],
+    "wiki": "Bison",
+    "area": "LoDo",
+    "venue": "food-area",
+    "summary": "Lean bison burgers and steaks.",
+    "expect": "Many spots.",
+    "tip": "Try Buckhorn Exchange for history.",
+    "why": "Western fare.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     18,
+     40
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Bison burger"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "anchorage",
+  "name": "Anchorage",
+  "at": [
+   61.2181,
+   -149.9003
+  ],
+  "wiki": "Anchorage, Alaska",
+  "cover": "Anchorage skyline Chugach",
+  "seasons": "LLLLSHHHSLLL",
+  "tagline": "Gateway to Alaska's glaciers, bears and Denali",
+  "summary": "Anchorage is Alaska's largest city, between the Chugach Mountains and Cook Inlet. Learn about Alaska Native cultures, cycle the coastal trail, then drive the Seward Highway to glaciers and Kenai Fjords, or take the train to Denali to see the continent's highest peak.",
+  "days": 5,
+  "bestMonths": [
+   6,
+   7,
+   8
+  ],
+  "seasonNote": "June to August brings midnight sun and wildlife; winter offers northern lights.",
+  "arrival": "Ted Stevens Anchorage International is 15 minutes from downtown.",
+  "gettingAround": "Rent a car; the Alaska Railroad for Seward and Denali.",
+  "foodTip": "Wild salmon, halibut and reindeer sausage.",
+  "buyTip": "Alaska Native crafts with the Silver Hand mark.",
+  "baseArea": "Downtown Anchorage",
+  "hotel": [
+   180,
+   400
+  ],
+  "connections": [
+   {
+    "to": "seattle",
+    "mode": "Flight",
+    "minutes": 215,
+    "note": "Frequent flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Alaska Native Heritage Center",
+    "kind": "see",
+    "id": "anc-heritage",
+    "at": [
+     61.231,
+     -149.717
+    ],
+    "wiki": "Alaska Native Heritage Center",
+    "area": "East",
+    "summary": "Living culture centre with dances and village sites.",
+    "expect": "Allow 3 hours.",
+    "tip": "Catch a dance performance.",
+    "why": "Indigenous Alaska.",
+    "flow": [
+     "Hall of Cultures.",
+     "Village sites."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Seward Highway and Kenai Fjords",
+    "kind": "see",
+    "id": "anc-seward",
+    "at": [
+     59.9,
+     -149.6
+    ],
+    "wiki": "Kenai Fjords National Park",
+    "area": "Seward",
+    "summary": "Fjord cruise to tidewater glaciers with whales and puffins.",
+    "expect": "Long day.",
+    "tip": "Book a 6-hour cruise.",
+    "why": "Glacier calving.",
+    "flow": [
+     "Seward Highway.",
+     "Fjord cruise."
+    ],
+    "hours": 12,
+    "price": [
+     180,
+     280
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Denali National Park",
+    "kind": "see",
+    "id": "anc-denali",
+    "at": [
+     63.333,
+     -150.5
+    ],
+    "wiki": "Denali National Park and Preserve",
+    "area": "Denali",
+    "summary": "North America's highest peak and wilderness with grizzlies and moose.",
+    "expect": "Train or drive; stay overnight.",
+    "tip": "Take the park bus.",
+    "why": "Wild Alaska.",
+    "flow": [
+     "Train.",
+     "Park bus."
+    ],
+    "hours": 24,
+    "price": [
+     15,
+     250
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Tony Knowles Coastal Trail",
+    "kind": "see",
+    "id": "anc-coastal",
+    "at": [
+     61.2,
+     -149.95
+    ],
+    "wiki": "Tony Knowles Coastal Trail",
+    "area": "Coast",
+    "summary": "Paved coastal trail with moose and Denali views.",
+    "expect": "Free.",
+    "tip": "Rent a bike.",
+    "why": "Easy wildlife.",
+    "flow": [
+     "Bike.",
+     "Earthquake Park."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Flattop Mountain",
+    "kind": "see",
+    "id": "anc-flattop",
+    "at": [
+     61.088,
+     -149.663
+    ],
+    "wiki": "Flattop Mountain (Alaska)",
+    "area": "Chugach",
+    "summary": "Alaska's most-climbed peak, with sweeping views.",
+    "expect": "Steep finish.",
+    "tip": "Go on a clear evening.",
+    "why": "Big views.",
+    "flow": [
+     "Trailhead.",
+     "Summit."
+    ],
+    "hours": 3,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Alyeska and Girdwood",
+    "kind": "see",
+    "id": "anc-alyeska",
+    "at": [
+     60.96,
+     -149.1
+    ],
+    "wiki": "Alyeska Resort",
+    "area": "Girdwood",
+    "summary": "Tram up for glacier views and summer hikes.",
+    "expect": "Tram ticket.",
+    "tip": "Hike the Winner Creek trail.",
+    "why": "Mountain resort.",
+    "flow": [
+     "Tram.",
+     "Trail."
+    ],
+    "hours": 4,
+    "price": [
+     40,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Wild salmon",
+    "kind": "eat",
+    "id": "anc-salmon",
+    "at": [
+     61.22,
+     -149.9
+    ],
+    "wiki": "Salmon",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Fresh Copper River or sockeye salmon.",
+    "expect": "Summer.",
+    "tip": "Try it cedar-planked.",
+    "why": "Alaskan pride.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Salmon"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Reindeer sausage",
+    "kind": "eat",
+    "id": "anc-reindeer",
+    "at": [
+     61.22,
+     -149.89
+    ],
+    "wiki": "Reindeer",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Street-cart reindeer dogs.",
+    "expect": "Carts in summer.",
+    "tip": "Add grilled onions.",
+    "why": "Alaska snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     12
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Alaskan",
+    "order": [
+     "Reindeer dog"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Halibut and chips",
+    "kind": "eat",
+    "id": "anc-halibut",
+    "at": [
+     61.21,
+     -149.9
+    ],
+    "wiki": "Halibut",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Thick halibut fish and chips.",
+    "expect": "Pubs.",
+    "tip": "Try Humpy's.",
+    "why": "Local catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Halibut and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "region": "North America",
+  "currency": "CAD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 15 to 20 percent. Sales tax is added at the till.",
+  "dailyBudget": [
+   170,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "ottawa",
+  "name": "Ottawa",
+  "at": [
+   45.4215,
+   -75.6972
+  ],
+  "wiki": "Ottawa",
+  "cover": "Parliament Hill Ottawa",
+  "seasons": "LLSSSHHHHSSL",
+  "tagline": "Canada's capital of museums, canals and Parliament",
+  "summary": "Ottawa is Canada's bilingual capital on the Ottawa River, crowned by the Gothic Revival Parliament buildings. Tour Parliament Hill, visit the National Gallery and Canadian Museum of History, eat a BeaverTail in ByWard Market and skate or cycle the Rideau Canal.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   2
+  ],
+  "seasonNote": "May brings the Tulip Festival; February has Winterlude and canal skating.",
+  "arrival": "Ottawa Airport is 20 minutes from downtown; trains link Montreal and Toronto.",
+  "gettingAround": "Walk downtown; O-Train and buses.",
+  "foodTip": "BeaverTails and poutine.",
+  "buyTip": "Maple products and Indigenous art.",
+  "baseArea": "Downtown or ByWard Market",
+  "hotel": [
+   170,
+   350
+  ],
+  "connections": [
+   {
+    "to": "montreal",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "VIA Rail."
+   },
+   {
+    "to": "toronto",
+    "mode": "Train",
+    "minutes": 270,
+    "note": "VIA Rail."
+   }
+  ],
+  "items": [
+   {
+    "name": "Parliament Hill",
+    "kind": "see",
+    "id": "ott-parliament",
+    "at": [
+     45.4236,
+     -75.7009
+    ],
+    "wiki": "Parliament Hill",
+    "area": "Centre",
+    "summary": "Gothic Revival seat of government with a free tour and changing of the guard.",
+    "expect": "Free tours.",
+    "tip": "Catch the summer light show.",
+    "why": "National icon.",
+    "flow": [
+     "West Block tour.",
+     "Changing of the guard."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "National Gallery of Canada",
+    "kind": "see",
+    "id": "ott-gallery",
+    "at": [
+     45.4295,
+     -75.6989
+    ],
+    "wiki": "National Gallery of Canada",
+    "area": "ByWard",
+    "summary": "Glass gallery with Canadian and Indigenous art and the giant spider sculpture.",
+    "expect": "Allow 2 hours.",
+    "tip": "See the Group of Seven.",
+    "why": "Canadian art.",
+    "flow": [
+     "Maman sculpture.",
+     "Group of Seven."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Canadian Museum of History",
+    "kind": "see",
+    "id": "ott-history",
+    "at": [
+     45.43,
+     -75.709
+    ],
+    "wiki": "Canadian Museum of History",
+    "area": "Gatineau",
+    "summary": "Totem poles in the Grand Hall and Canada's story.",
+    "expect": "Allow 3 hours.",
+    "tip": "Start with the Grand Hall.",
+    "why": "Best museum.",
+    "flow": [
+     "Grand Hall.",
+     "Canadian History Hall."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Rideau Canal",
+    "kind": "see",
+    "id": "ott-rideau",
+    "at": [
+     45.425,
+     -75.695
+    ],
+    "wiki": "Rideau Canal",
+    "area": "Centre",
+    "summary": "UNESCO canal for summer cycling and the world's largest skating rink in winter.",
+    "expect": "Free.",
+    "tip": "Skate it in February.",
+    "why": "Seasonal fun.",
+    "flow": [
+     "Walk or skate.",
+     "Dows Lake."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "ByWard Market",
+    "kind": "see",
+    "id": "ott-byward",
+    "at": [
+     45.428,
+     -75.692
+    ],
+    "wiki": "ByWard Market",
+    "area": "ByWard",
+    "summary": "Historic market district with food and bars.",
+    "expect": "Free.",
+    "tip": "Grab a BeaverTail.",
+    "why": "Lively hub.",
+    "flow": [
+     "Market building.",
+     "Bars."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Gatineau Park",
+    "kind": "see",
+    "id": "ott-gatineau",
+    "at": [
+     45.5,
+     -75.9
+    ],
+    "wiki": "Gatineau Park",
+    "area": "Gatineau",
+    "summary": "Forested hills with lakes and lookouts, gorgeous in fall.",
+    "expect": "Free.",
+    "tip": "Drive to Champlain Lookout in October.",
+    "why": "Fall colours.",
+    "flow": [
+     "Champlain Lookout.",
+     "Pink Lake."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "BeaverTails",
+    "kind": "eat",
+    "id": "ott-beavertail",
+    "at": [
+     45.428,
+     -75.692
+    ],
+    "wiki": "BeaverTails",
+    "area": "ByWard",
+    "venue": "food-area",
+    "summary": "Fried pastry with cinnamon sugar.",
+    "expect": "Market kiosk.",
+    "tip": "Try the Killaloe Sunrise.",
+    "why": "Ottawa original.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "BeaverTail"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Poutine",
+    "kind": "eat",
+    "id": "ott-poutine",
+    "at": [
+     45.42,
+     -75.69
+    ],
+    "wiki": "Poutine",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Fries with cheese curds and gravy.",
+    "expect": "Everywhere.",
+    "tip": "Try it late night.",
+    "why": "Canadian classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Poutine"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Brunch in the Glebe",
+    "kind": "eat",
+    "id": "ott-brunch",
+    "at": [
+     45.4,
+     -75.69
+    ],
+    "wiki": "The Glebe",
+    "area": "Glebe",
+    "venue": "food-area",
+    "summary": "Neighbourhood cafés near Lansdowne.",
+    "expect": "Weekend.",
+    "tip": "Walk by the canal after.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Pancakes with maple syrup"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "region": "North America",
+  "currency": "CAD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 15 to 20 percent. Sales tax is added at the till.",
+  "dailyBudget": [
+   170,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "victoria",
+  "name": "Victoria",
+  "at": [
+   48.4284,
+   -123.3656
+  ],
+  "wiki": "Victoria, British Columbia",
+  "cover": "Victoria Inner Harbour",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Garden city of whales and afternoon tea",
+  "summary": "Victoria, British Columbia's capital on Vancouver Island, is a mild, flower-filled city around a pretty Inner Harbour. See the Butchart Gardens, take afternoon tea at the Fairmont Empress, go whale watching for orcas and explore the Royal BC Museum.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is sunny and whale season peaks May to October.",
+  "arrival": "Ferry or floatplane from Vancouver; Victoria Airport is 25 minutes away.",
+  "gettingAround": "Walk the harbour; buses and harbour ferries.",
+  "foodTip": "Afternoon tea and seafood chowder.",
+  "buyTip": "Rogers' Chocolates and Indigenous art.",
+  "baseArea": "Inner Harbour or downtown",
+  "hotel": [
+   180,
+   400
+  ],
+  "connections": [
+   {
+    "to": "vancouver",
+    "mode": "Ferry",
+    "minutes": 95,
+    "note": "BC Ferries, or a 35-minute floatplane."
+   },
+   {
+    "to": "seattle",
+    "mode": "Ferry",
+    "minutes": 165,
+    "note": "Victoria Clipper."
+   }
+  ],
+  "items": [
+   {
+    "name": "Butchart Gardens",
+    "kind": "see",
+    "id": "vic-butchart",
+    "at": [
+     48.5636,
+     -123.4697
+    ],
+    "wiki": "Butchart Gardens",
+    "area": "Brentwood Bay",
+    "summary": "World-famous gardens in a former quarry.",
+    "expect": "Allow half a day.",
+    "tip": "Go for summer evening fireworks.",
+    "why": "Floral masterpiece.",
+    "flow": [
+     "Sunken Garden.",
+     "Rose Garden.",
+     "Japanese Garden."
+    ],
+    "hours": 3,
+    "price": [
+     35,
+     45
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Inner Harbour",
+    "kind": "see",
+    "id": "vic-harbour",
+    "at": [
+     48.422,
+     -123.37
+    ],
+    "wiki": "Inner Harbour (Victoria)",
+    "area": "Downtown",
+    "summary": "Waterfront with buskers, floatplanes and the lit Parliament.",
+    "expect": "Free.",
+    "tip": "Stay after dark for the lit Parliament.",
+    "why": "City heart.",
+    "flow": [
+     "Causeway.",
+     "Parliament lights."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Whale watching",
+    "kind": "see",
+    "id": "vic-whales",
+    "at": [
+     48.42,
+     -123.38
+    ],
+    "wiki": "Orca",
+    "area": "Harbour",
+    "summary": "Boat trips to see orcas and humpbacks.",
+    "expect": "3 hours.",
+    "tip": "Pick a zodiac for thrills.",
+    "why": "Orca encounters.",
+    "flow": [
+     "Board.",
+     "Whale spotting."
+    ],
+    "hours": 3,
+    "price": [
+     130,
+     170
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Royal BC Museum",
+    "kind": "see",
+    "id": "vic-museum",
+    "at": [
+     48.42,
+     -123.367
+    ],
+    "wiki": "Royal BC Museum",
+    "area": "Downtown",
+    "summary": "Natural and First Nations history with totem poles.",
+    "expect": "Allow 2 hours.",
+    "tip": "See Thunderbird Park.",
+    "why": "Island stories.",
+    "flow": [
+     "Galleries.",
+     "Thunderbird Park."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Fisherman's Wharf",
+    "kind": "see",
+    "id": "vic-fishermans",
+    "at": [
+     48.423,
+     -123.383
+    ],
+    "wiki": "Fisherman's Wharf (Victoria)",
+    "area": "James Bay",
+    "summary": "Colourful floating homes and food shacks.",
+    "expect": "Free.",
+    "tip": "Take a harbour ferry.",
+    "why": "Quirky waterfront.",
+    "flow": [
+     "Float homes.",
+     "Seals."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Food"
+    ]
+   },
+   {
+    "name": "Beacon Hill Park",
+    "kind": "see",
+    "id": "vic-beaconhill",
+    "at": [
+     48.412,
+     -123.364
+    ],
+    "wiki": "Beacon Hill Park",
+    "area": "Fairfield",
+    "summary": "Seaside park with peacocks and the Mile Zero marker.",
+    "expect": "Free.",
+    "tip": "Walk Dallas Road.",
+    "why": "Coastal stroll.",
+    "flow": [
+     "Park.",
+     "Dallas Road."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Afternoon tea at the Empress",
+    "kind": "eat",
+    "id": "vic-tea",
+    "at": [
+     48.4216,
+     -123.3678
+    ],
+    "wiki": "Fairmont Empress",
+    "area": "Inner Harbour",
+    "venue": "food-area",
+    "summary": "Classic afternoon tea in the grand hotel.",
+    "expect": "Book ahead.",
+    "tip": "Dress smart-casual.",
+    "why": "Victoria tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     95,
+     110
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "British",
+    "order": [
+     "Afternoon tea"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Seafood chowder",
+    "kind": "eat",
+    "id": "vic-chowder",
+    "at": [
+     48.423,
+     -123.383
+    ],
+    "wiki": "Chowder",
+    "area": "Fisherman's Wharf",
+    "venue": "food-area",
+    "summary": "Creamy chowder and fish tacos at the wharf.",
+    "expect": "Shacks.",
+    "tip": "Try Barb's Fish & Chips.",
+    "why": "Seaside lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Chowder"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Chinatown",
+    "kind": "eat",
+    "id": "vic-chinatown",
+    "at": [
+     48.429,
+     -123.365
+    ],
+    "wiki": "Chinatown, Victoria",
+    "area": "Chinatown",
+    "venue": "food-area",
+    "summary": "Canada's oldest Chinatown with Fan Tan Alley.",
+    "expect": "Free.",
+    "tip": "Grab dim sum.",
+    "why": "Historic eats.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chinese",
+    "order": [
+     "Dim sum"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "region": "North America",
+  "currency": "CAD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 15 to 20 percent. Sales tax is added at the till.",
+  "dailyBudget": [
+   170,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "jasper",
+  "name": "Jasper",
+  "at": [
+   52.8737,
+   -118.0814
+  ],
+  "wiki": "Jasper, Alberta",
+  "cover": "Maligne Lake",
+  "seasons": "LLLLSHHHSLLL",
+  "tagline": "Wild Rockies, glacier highway and dark skies",
+  "summary": "Jasper is a laid-back mountain town in the largest national park of the Canadian Rockies, wilder and quieter than Banff. Drive the Icefields Parkway past glaciers, cruise Maligne Lake to Spirit Island, explore Maligne Canyon and stargaze in a dark-sky preserve.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "June to September for lakes and hiking; the Icefields Parkway can close in winter storms.",
+  "arrival": "4 hours from Edmonton airport or a scenic VIA Rail journey.",
+  "gettingAround": "A car is essential; shuttles in summer.",
+  "foodTip": "Alberta beef and elk burgers.",
+  "buyTip": "Outdoor gear and local art.",
+  "baseArea": "Jasper town",
+  "hotel": [
+   200,
+   500
+  ],
+  "connections": [
+   {
+    "to": "banff",
+    "mode": "Car",
+    "minutes": 210,
+    "note": "Via the Icefields Parkway."
+   },
+   {
+    "to": "vancouver",
+    "mode": "Train",
+    "minutes": 1200,
+    "note": "VIA Rail's Canadian."
+   }
+  ],
+  "items": [
+   {
+    "name": "Maligne Lake and Spirit Island",
+    "kind": "see",
+    "id": "jas-maligne",
+    "at": [
+     52.68,
+     -117.54
+    ],
+    "wiki": "Maligne Lake",
+    "area": "Maligne",
+    "summary": "Boat cruise to the iconic Spirit Island.",
+    "expect": "Book the cruise.",
+    "tip": "Go early.",
+    "why": "Rockies icon.",
+    "flow": [
+     "Drive.",
+     "Cruise.",
+     "Spirit Island."
+    ],
+    "hours": 4,
+    "price": [
+     80,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Maligne Canyon",
+    "kind": "see",
+    "id": "jas-canyon",
+    "at": [
+     52.92,
+     -117.99
+    ],
+    "wiki": "Maligne Canyon",
+    "area": "Maligne Road",
+    "summary": "Deep limestone canyon with bridges, and an ice walk in winter.",
+    "expect": "Free.",
+    "tip": "Walk bridges 1 to 4.",
+    "why": "Dramatic gorge.",
+    "flow": [
+     "Bridges.",
+     "Waterfalls."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Icefields Parkway and Athabasca Glacier",
+    "kind": "see",
+    "id": "jas-icefields",
+    "at": [
+     52.22,
+     -117.23
+    ],
+    "wiki": "Athabasca Glacier",
+    "area": "Icefields",
+    "summary": "One of the world's great drives, to the Columbia Icefield.",
+    "expect": "Full day.",
+    "tip": "Ride the Ice Explorer.",
+    "why": "Glacier highway.",
+    "flow": [
+     "Athabasca Falls.",
+     "Glacier.",
+     "Skywalk."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     120
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Jasper SkyTram",
+    "kind": "see",
+    "id": "jas-skytram",
+    "at": [
+     52.849,
+     -118.087
+    ],
+    "wiki": "Jasper SkyTram",
+    "area": "Whistlers",
+    "summary": "Tramway up Whistlers Mountain.",
+    "expect": "Ticket.",
+    "tip": "Hike to the summit.",
+    "why": "Big views.",
+    "flow": [
+     "Tram.",
+     "Summit hike."
+    ],
+    "hours": 2.5,
+    "price": [
+     60,
+     70
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Pyramid Lake",
+    "kind": "see",
+    "id": "jas-pyramid",
+    "at": [
+     52.92,
+     -118.09
+    ],
+    "wiki": "Pyramid Lake (Alberta)",
+    "area": "North",
+    "summary": "Lake with an island and Pyramid Mountain reflection.",
+    "expect": "Free.",
+    "tip": "Go at sunset.",
+    "why": "Easy beauty.",
+    "flow": [
+     "Island bridge.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Dark Sky stargazing",
+    "kind": "see",
+    "id": "jas-dark",
+    "at": [
+     52.88,
+     -118.08
+    ],
+    "wiki": "Jasper National Park",
+    "area": "Town",
+    "summary": "One of the world's largest dark-sky preserves with a planetarium.",
+    "expect": "Evening.",
+    "tip": "Visit in October for the festival.",
+    "why": "Starry skies.",
+    "flow": [
+     "Planetarium.",
+     "Telescopes."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Elk burger",
+    "kind": "eat",
+    "id": "jas-elk",
+    "at": [
+     52.877,
+     -118.08
+    ],
+    "wiki": "Jasper, Alberta",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Elk and bison burgers in mountain pubs.",
+    "expect": "Pubs.",
+    "tip": "Try Jasper Brewing Co.",
+    "why": "Mountain food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Elk burger"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Alberta beef",
+    "kind": "eat",
+    "id": "jas-beef",
+    "at": [
+     52.876,
+     -118.08
+    ],
+    "wiki": "Alberta beef",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Steaks from Alberta's ranchland.",
+    "expect": "Steakhouses.",
+    "tip": "Order AAA striploin.",
+    "why": "Alberta pride.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     40,
+     70
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Steak"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Bear's Paw Bakery",
+    "kind": "eat",
+    "id": "jas-bakery",
+    "at": [
+     52.877,
+     -118.081
+    ],
+    "wiki": "Jasper, Alberta",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Beloved bakery for pastries before hikes.",
+    "expect": "Morning.",
+    "tip": "Get a bear paw.",
+    "why": "Trail fuel.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Pastries"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "region": "North America",
+  "currency": "CAD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 15 to 20 percent. Sales tax is added at the till.",
+  "dailyBudget": [
+   170,
+   400
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "halifax",
+  "name": "Halifax",
+  "at": [
+   44.6488,
+   -63.5752
+  ],
+  "wiki": "Halifax, Nova Scotia",
+  "cover": "Halifax waterfront",
+  "seasons": "LLLLSHHHHSLL",
+  "tagline": "Maritime harbour city of lobster and lighthouses",
+  "summary": "Halifax is Nova Scotia's friendly harbour capital, with a lively boardwalk, a star-shaped citadel and deep maritime history including the Titanic. Eat lobster rolls, drive to the lighthouse at Peggy's Cove, explore Lunenburg's colourful UNESCO old town and catch live Celtic music in the pubs.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Summer and early fall are best; fall colours peak in October.",
+  "arrival": "Halifax Stanfield is 30 minutes from downtown.",
+  "gettingAround": "Walk downtown; a car for the coast.",
+  "foodTip": "Lobster, Digby scallops and the donair.",
+  "buyTip": "Nova Scotian tartan and pewter.",
+  "baseArea": "Downtown waterfront",
+  "hotel": [
+   160,
+   320
+  ],
+  "connections": [
+   {
+    "to": "montreal",
+    "mode": "Train",
+    "minutes": 1320,
+    "note": "VIA Rail's Ocean."
+   },
+   {
+    "to": "toronto",
+    "mode": "Flight",
+    "minutes": 130,
+    "note": "Frequent flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Halifax Waterfront",
+    "kind": "see",
+    "id": "hfx-waterfront",
+    "at": [
+     44.646,
+     -63.57
+    ],
+    "wiki": "Halifax Harbour",
+    "area": "Waterfront",
+    "summary": "Long boardwalk with ships, food shacks and the Wave sculpture.",
+    "expect": "Free.",
+    "tip": "Take the ferry to Dartmouth.",
+    "why": "Harbour life.",
+    "flow": [
+     "Boardwalk.",
+     "Ferry ride."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Food"
+    ]
+   },
+   {
+    "name": "Halifax Citadel",
+    "kind": "see",
+    "id": "hfx-citadel",
+    "at": [
+     44.6475,
+     -63.58
+    ],
+    "wiki": "Halifax Citadel National Historic Site",
+    "area": "Downtown",
+    "summary": "Star-shaped fort with the noon gun and kilted soldiers.",
+    "expect": "Allow 2 hours.",
+    "tip": "Be there for the noon gun.",
+    "why": "Military history.",
+    "flow": [
+     "Ramparts.",
+     "Noon gun."
+    ],
+    "hours": 2,
+    "price": [
+     12,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Peggy's Cove",
+    "kind": "see",
+    "id": "hfx-peggys",
+    "at": [
+     44.492,
+     -63.917
+    ],
+    "wiki": "Peggy's Cove",
+    "area": "South Shore",
+    "summary": "Iconic lighthouse on granite rocks in a fishing village.",
+    "expect": "45 minutes' drive.",
+    "tip": "Stay off the black rocks.",
+    "why": "Postcard Canada.",
+    "flow": [
+     "Lighthouse.",
+     "Village."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Maritime Museum of the Atlantic",
+    "kind": "see",
+    "id": "hfx-maritime",
+    "at": [
+     44.648,
+     -63.571
+    ],
+    "wiki": "Maritime Museum of the Atlantic",
+    "area": "Waterfront",
+    "summary": "Titanic artefacts and the Halifax Explosion story.",
+    "expect": "Allow 1.5 hours.",
+    "tip": "See the Titanic deck chair.",
+    "why": "Sea history.",
+    "flow": [
+     "Titanic.",
+     "Explosion."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Lunenburg",
+    "kind": "see",
+    "id": "hfx-lunenburg",
+    "at": [
+     44.377,
+     -64.309
+    ],
+    "wiki": "Lunenburg, Nova Scotia",
+    "area": "South Shore",
+    "summary": "Colourful UNESCO fishing town, home of the Bluenose.",
+    "expect": "1 hour's drive.",
+    "tip": "Combine with Mahone Bay.",
+    "why": "Charming town.",
+    "flow": [
+     "Old Town.",
+     "Fisheries Museum."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Canadian Museum of Immigration at Pier 21",
+    "kind": "see",
+    "id": "hfx-pier21",
+    "at": [
+     44.637,
+     -63.565
+    ],
+    "wiki": "Pier 21",
+    "area": "Seaport",
+    "summary": "Where a million immigrants arrived in Canada.",
+    "expect": "Allow 2 hours.",
+    "tip": "Search family records.",
+    "why": "Moving history.",
+    "flow": [
+     "Exhibits.",
+     "Records."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     18
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Lobster roll",
+    "kind": "eat",
+    "id": "hfx-lobster",
+    "at": [
+     44.646,
+     -63.57
+    ],
+    "wiki": "Lobster roll",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Fresh lobster rolls on the boardwalk.",
+    "expect": "Shacks.",
+    "tip": "Try Mic Mac Bar & Grill.",
+    "why": "Maritime staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     25,
+     40
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Lobster roll"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Halifax donair",
+    "kind": "eat",
+    "id": "hfx-donair",
+    "at": [
+     44.645,
+     -63.575
+    ],
+    "wiki": "Donair",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Spiced beef with sweet garlic sauce, the official city food.",
+    "expect": "Late night.",
+    "tip": "Try King of Donair.",
+    "why": "Local legend.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     16
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Donair"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Pubs and live music",
+    "kind": "eat",
+    "id": "hfx-pubs",
+    "at": [
+     44.648,
+     -63.573
+    ],
+    "wiki": "Halifax, Nova Scotia",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Celtic music sessions with local beer.",
+    "expect": "Evenings.",
+    "tip": "Try The Old Triangle.",
+    "why": "Maritime nights.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Alexander Keith's"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
