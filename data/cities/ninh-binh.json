@@ -71,8 +71,8 @@
       "id": "ninh-binh-nb-trangan",
       "name": "Trang An boat trip",
       "kind": "see",
-      "lat": 20.2541,
-      "lon": 105.8981,
+      "lat": 20.25667,
+      "lon": 105.89639,
       "wiki": "Tràng An Scenic Landscape Complex",
       "summary": "A rowing-boat trip through river caves, karst valleys and temples.",
       "expect": "About 2 to 3 hours; rowers are local villagers.",
@@ -112,14 +112,22 @@
         "About 2 to 3 hours; rowers are local villagers.",
         "Pick a route with the most caves."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19738,
+          "period": "202511-202610",
+          "title": "Tràng An Scenic Landscape Complex",
+          "url": "https://en.wikipedia.org/wiki/Tr%C3%A0ng_An_Scenic_Landscape_Complex",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ninh-binh-nb-tamcoc",
       "name": "Tam Coc",
       "kind": "see",
-      "lat": 20.2163,
-      "lon": 105.937,
+      "lat": 20.21767,
+      "lon": 105.92948,
       "wiki": "Tam Cốc-Bích Động",
       "summary": "A river through rice fields and three caves, rowed by locals using their feet.",
       "expect": "Best when the rice is golden in late May.",
@@ -158,7 +166,15 @@
         "Best when the rice is golden in late May.",
         "Go early before the crowds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9335,
+          "period": "202511-202610",
+          "title": "Tam Cốc – Bích Động",
+          "url": "https://en.wikipedia.org/wiki/Tam_C%E1%BB%91c_%E2%80%93_B%C3%ADch_%C4%90%E1%BB%99ng",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ninh-binh-nb-mua",
@@ -210,8 +226,8 @@
       "id": "ninh-binh-nb-hoalu",
       "name": "Hoa Lu ancient capital",
       "kind": "see",
-      "lat": 20.2861,
-      "lon": 105.9097,
+      "lat": 20.28348,
+      "lon": 105.8996,
       "wiki": "Hoa Lư",
       "summary": "Temples of Vietnam's 10th-century capital among the limestone peaks.",
       "expect": "Small but atmospheric.",
@@ -250,15 +266,14 @@
       "tradeoffs": [
         "Small but atmospheric.",
         "Combine with Trang An."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ninh-binh-nb-baidinh",
       "name": "Bai Dinh Pagoda",
       "kind": "see",
-      "lat": 20.2754,
-      "lon": 105.8633,
+      "lat": 20.27694,
+      "lon": 105.86278,
       "wiki": "Bái Đính Temple",
       "summary": "A huge modern Buddhist complex with giant bronze statues and long galleries of arhats.",
       "expect": "Very large; electric carts run inside.",
@@ -299,14 +314,22 @@
         "Very large; electric carts run inside.",
         "Walk the arhat gallery."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4514,
+          "period": "202511-202610",
+          "title": "Bái Đính Pagoda",
+          "url": "https://en.wikipedia.org/wiki/B%C3%A1i_%C4%90%C3%ADnh_Pagoda",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ninh-binh-nb-cucphuong",
       "name": "Cuc Phuong National Park",
       "kind": "see",
-      "lat": 20.35,
-      "lon": 105.6,
+      "lat": 20.31667,
+      "lon": 105.60833,
       "wiki": "Cúc Phương National Park",
       "summary": "Vietnam's oldest national park, with ancient trees and a primate rescue centre.",
       "expect": "A day trip; bring insect repellent.",
@@ -345,14 +368,22 @@
         "A day trip; bring insect repellent.",
         "Visit the primate rescue centre."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6327,
+          "period": "202511-202610",
+          "title": "Cúc Phương National Park",
+          "url": "https://en.wikipedia.org/wiki/C%C3%BAc_Ph%C6%B0%C6%A1ng_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ninh-binh-nb-phatdiem",
       "name": "Phat Diem Cathedral",
       "kind": "see",
-      "lat": 20.092,
-      "lon": 106.079,
+      "lat": 20.09278,
+      "lon": 106.07944,
       "wiki": "Phát Diệm Cathedral",
       "summary": "A 19th-century stone and wood cathedral built in a Vietnamese pagoda style.",
       "expect": "Free; open daily.",
@@ -392,7 +423,15 @@
         "Free; open daily.",
         "Look at the carved wooden columns."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8611,
+          "period": "202511-202610",
+          "title": "Phát Diệm Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Ph%C3%A1t_Di%E1%BB%87m_Cathedral",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "ninh-binh-nb-goat",
@@ -565,5 +604,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

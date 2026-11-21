@@ -113,7 +113,16 @@
         "Prices vary hugely; read recent reviews on safety and food.",
         "Pick a route that avoids the busiest central loop."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 145392,
+          "period": "202511-202610",
+          "title": "Hạ Long Bay",
+          "url": "https://en.wikipedia.org/wiki/H%E1%BA%A1_Long_Bay",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halong-bay-halong-sungsot",
@@ -300,7 +309,16 @@
         "Hot and humid; bring water.",
         "Hike the short Ngu Lam summit trail."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2670,
+          "period": "202511-202610",
+          "title": "Cát Bà National Park",
+          "url": "https://en.wikipedia.org/wiki/C%C3%A1t_B%C3%A0_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halong-bay-halong-thiencung",
@@ -352,8 +370,8 @@
       "id": "halong-bay-halong-baitulong",
       "name": "Bai Tu Long Bay",
       "kind": "see",
-      "lat": 21.05,
-      "lon": 107.4,
+      "lat": 21.0797,
+      "lon": 107.5665,
       "wiki": "Bái Tử Long Bay",
       "summary": "The quieter northern bay, with the same limestone scenery and far fewer boats.",
       "expect": "Choose a cruise that goes there.",
@@ -392,7 +410,15 @@
         "Choose a cruise that goes there.",
         "Ideal for a calmer overnight cruise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3320,
+          "period": "202511-202610",
+          "title": "Bai Tu Long Bay",
+          "url": "https://en.wikipedia.org/wiki/Bai_Tu_Long_Bay",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "halong-bay-halong-chamuc",
@@ -566,5 +592,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

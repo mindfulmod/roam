@@ -72,8 +72,8 @@
       "id": "phu-quoc-pq-sao",
       "name": "Sao Beach",
       "kind": "see",
-      "lat": 10.057,
-      "lon": 104.036,
+      "lat": 10.05247,
+      "lon": 104.03519,
       "wiki": "Sao Beach",
       "summary": "A curve of fine white sand and calm turquoise water.",
       "expect": "Busy with boat groups at midday.",
@@ -111,8 +111,7 @@
       "tradeoffs": [
         "Busy with boat groups at midday.",
         "Go early in the morning."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "phu-quoc-pq-cablecar",
@@ -214,8 +213,8 @@
       "id": "phu-quoc-pq-prison",
       "name": "Phu Quoc Prison",
       "kind": "see",
-      "lat": 10.03,
-      "lon": 104.017,
+      "lat": 10.04395,
+      "lon": 104.01818,
       "wiki": "Phú Quốc Prison",
       "summary": "A wartime prisoner camp museum with sobering displays.",
       "expect": "Free; some exhibits are graphic.",
@@ -254,14 +253,22 @@
         "Free; some exhibits are graphic.",
         "Allow time to read the panels."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25328,
+          "period": "202511-202610",
+          "title": "Phú Quốc Prison",
+          "url": "https://en.wikipedia.org/wiki/Ph%C3%BA_Qu%E1%BB%91c_Prison",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phu-quoc-pq-park",
       "name": "Phu Quoc National Park",
       "kind": "see",
-      "lat": 10.3,
-      "lon": 104,
+      "lat": 10.325,
+      "lon": 103.95,
       "wiki": "Phú Quốc National Park",
       "summary": "Forested hills covering much of the northern island, with streams and wildlife.",
       "expect": "Go with a guide for hikes.",
@@ -300,7 +307,15 @@
         "Go with a guide for hikes.",
         "Visit Da Ban stream in the wet season."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2169,
+          "period": "202511-202610",
+          "title": "Phú Quốc National Park",
+          "url": "https://en.wikipedia.org/wiki/Ph%C3%BA_Qu%E1%BB%91c_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phu-quoc-pq-fishsauce",
@@ -347,7 +362,16 @@
         "Free visits; strong smell.",
         "Buy a sealed bottle; airlines ban loose ones."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 115245,
+          "period": "202511-202610",
+          "title": "Fish sauce",
+          "url": "https://en.wikipedia.org/wiki/Fish_sauce",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "phu-quoc-pq-dinhcau",
@@ -568,5 +592,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

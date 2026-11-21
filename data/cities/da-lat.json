@@ -70,8 +70,8 @@
       "id": "da-lat-dl-crazyhouse",
       "name": "Crazy House",
       "kind": "see",
-      "lat": 11.9354,
-      "lon": 108.4306,
+      "lat": 11.93473,
+      "lon": 108.43064,
       "wiki": "Hang Nga Guesthouse",
       "summary": "A fairy-tale building of twisting tunnels, bridges and tree-like towers.",
       "expect": "Narrow walkways; it can be busy.",
@@ -111,14 +111,22 @@
         "Narrow walkways; it can be busy.",
         "Go early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11017,
+          "period": "202511-202610",
+          "title": "Hằng Nga Guesthouse",
+          "url": "https://en.wikipedia.org/wiki/H%E1%BA%B1ng_Nga_Guesthouse",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "da-lat-dl-xuanhuong",
       "name": "Xuan Huong Lake",
       "kind": "see",
-      "lat": 11.9419,
-      "lon": 108.44,
+      "lat": 11.94187,
+      "lon": 108.44666,
       "wiki": "Xuân Hương Lake",
       "summary": "A crescent lake at the town's heart with walking paths and swan boats.",
       "expect": "Free.",
@@ -157,14 +165,22 @@
         "Free.",
         "Walk the loop at sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2115,
+          "period": "202511-202610",
+          "title": "Xuân Hương Lake",
+          "url": "https://en.wikipedia.org/wiki/Xu%C3%A2n_H%C6%B0%C6%A1ng_Lake",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "da-lat-dl-station",
       "name": "Da Lat railway station",
       "kind": "see",
-      "lat": 11.9417,
-      "lon": 108.455,
+      "lat": 11.9416,
+      "lon": 108.45443,
       "wiki": "Đà Lạt railway station",
       "summary": "A 1930s Art Deco station with a short tourist train to Trai Mat.",
       "expect": "Train times are limited.",
@@ -203,15 +219,14 @@
       "tradeoffs": [
         "Train times are limited.",
         "Ride to Linh Phuoc Pagoda."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "da-lat-dl-linhphuoc",
       "name": "Linh Phuoc Pagoda",
       "kind": "see",
-      "lat": 11.945,
-      "lon": 108.499,
+      "lat": 11.94423,
+      "lon": 108.49945,
       "wiki": "Linh Phước Pagoda",
       "summary": "A pagoda covered in broken-glass and porcelain mosaics, with a giant dragon.",
       "expect": "Free.",
@@ -250,15 +265,14 @@
       "tradeoffs": [
         "Free.",
         "Climb the bell tower."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "da-lat-dl-datanla",
       "name": "Datanla Falls",
       "kind": "see",
-      "lat": 11.901,
-      "lon": 108.449,
+      "lat": 11.90118,
+      "lon": 108.44884,
       "wiki": "Datanla Falls",
       "summary": "Waterfalls in pine forest with a mountain coaster ride down.",
       "expect": "Also a canyoning base.",
@@ -297,8 +311,7 @@
       "tradeoffs": [
         "Also a canyoning base.",
         "Ride the alpine coaster."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "da-lat-dl-canyoning",
@@ -345,14 +358,23 @@
         "Choose a well-reviewed operator.",
         "Go in the dry season."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 30569,
+          "period": "202511-202610",
+          "title": "Canyoning",
+          "url": "https://en.wikipedia.org/wiki/Canyoning",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "da-lat-dl-langbiang",
       "name": "Langbiang Mountain",
       "kind": "see",
-      "lat": 12.047,
-      "lon": 108.44,
+      "lat": 12.04726,
+      "lon": 108.44058,
       "wiki": "Lang Biang",
       "summary": "A peak above flower valleys, hiked or reached by jeep.",
       "expect": "Takes half a day.",
@@ -392,7 +414,15 @@
         "Takes half a day.",
         "Hike to the top for big views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1584,
+          "period": "202511-202610",
+          "title": "Đà Lạt Plateau",
+          "url": "https://en.wikipedia.org/wiki/%C4%90%C3%A0_L%E1%BA%A1t_Plateau",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "da-lat-dl-truclam",
@@ -613,5 +643,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

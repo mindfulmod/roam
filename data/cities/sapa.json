@@ -65,7 +65,7 @@
       "id": "sapa-sapa-fansipan",
       "name": "Fansipan cable car",
       "kind": "see",
-      "lat": 22.3033,
+      "lat": 22.30333,
       "lon": 103.775,
       "wiki": "Fansipan",
       "summary": "A cable car up the 3,143 m 'Roof of Indochina', with temples near the summit.",
@@ -107,7 +107,15 @@
         "Cold at the top; often in cloud.",
         "Go early for the best chance of clear views."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 60675,
+          "period": "202511-202610",
+          "title": "Fansipan",
+          "url": "https://en.wikipedia.org/wiki/Fansipan",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "sapa-sapa-muonghoa",
@@ -161,8 +169,8 @@
       "id": "sapa-sapa-catcat",
       "name": "Cat Cat village",
       "kind": "see",
-      "lat": 22.3297,
-      "lon": 103.8323,
+      "lat": 22.33096,
+      "lon": 103.83405,
       "wiki": "Cat Cat Village",
       "summary": "A Black Hmong village with a waterfall, now very touristy but close to town.",
       "expect": "Walkable from Sapa.",
@@ -201,8 +209,7 @@
       "tradeoffs": [
         "Walkable from Sapa.",
         "Go early before the tour groups."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sapa-sapa-oquyho",
@@ -564,5 +571,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
