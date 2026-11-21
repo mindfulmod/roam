@@ -76,8 +76,8 @@
       "id": "rhodes-rhodes-medieval-city",
       "name": "Medieval City",
       "kind": "see",
-      "lat": 36.444,
-      "lon": 28.226,
+      "lat": 36.43333,
+      "lon": 28.21667,
       "wiki": "Medieval City of Rhodes",
       "summary": "Cobbled lanes, gates and towers inside 4 km of walls built by the Knights of St John.",
       "expect": "Free to wander; walls walks open on some days.",
@@ -118,14 +118,22 @@
         "Free to wander; walls walks open on some days.",
         "Get lost in the back lanes away from Socratous Street."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6773,
+          "period": "202511-202610",
+          "title": "Medieval City of Rhodes",
+          "url": "https://en.wikipedia.org/wiki/Medieval_City_of_Rhodes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rhodes-rhodes-grand-master",
       "name": "Palace of the Grand Master",
       "kind": "see",
-      "lat": 36.4459,
-      "lon": 28.2236,
+      "lat": 36.44577,
+      "lon": 28.22369,
       "wiki": "Palace of the Grand Master of the Knights of Rhodes",
       "summary": "The knights' fortress-palace, with mosaic floors from Kos.",
       "expect": "Combined tickets include other old town sites.",
@@ -164,14 +172,22 @@
         "Combined tickets include other old town sites.",
         "Go at opening before cruise groups."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 40242,
+          "period": "202511-202610",
+          "title": "Palace of the Grand Master of the Knights of Rhodes",
+          "url": "https://en.wikipedia.org/wiki/Palace_of_the_Grand_Master_of_the_Knights_of_Rhodes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rhodes-rhodes-street-of-knights",
       "name": "Street of the Knights",
       "kind": "see",
-      "lat": 36.4453,
-      "lon": 28.2251,
+      "lat": 36.44503,
+      "lon": 28.22589,
       "wiki": "Street of the Knights",
       "summary": "A perfect medieval street of the knights' inns, each built by a different nation.",
       "expect": "Short and beautiful, especially at dusk.",
@@ -210,15 +226,14 @@
       "tradeoffs": [
         "Short and beautiful, especially at dusk.",
         "Look for the coats of arms above the doors."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rhodes-rhodes-museum",
       "name": "Archaeological Museum of Rhodes",
       "kind": "see",
       "lat": 36.4448,
-      "lon": 28.2275,
+      "lon": 28.2271,
       "wiki": "Archaeological Museum of Rhodes",
       "summary": "Classical statues and finds in the knights' hospital.",
       "expect": "A quiet garden in the courtyard.",
@@ -258,14 +273,22 @@
         "A quiet garden in the courtyard.",
         "Find the Aphrodite of Rhodes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4260,
+          "period": "202511-202610",
+          "title": "Archaeological Museum of Rhodes",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Rhodes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rhodes-rhodes-mandraki",
       "name": "Mandraki Harbour",
       "kind": "see",
-      "lat": 36.45,
-      "lon": 28.226,
+      "lat": 36.45111,
+      "lon": 28.22778,
       "wiki": "Colossus of Rhodes",
       "summary": "The old harbour where the Colossus once stood, now marked by deer statues and windmills.",
       "expect": "Boats to Symi and beaches leave here.",
@@ -306,14 +329,22 @@
         "Boats to Symi and beaches leave here.",
         "Walk out to the windmills and St Nicholas fortress."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 646647,
+          "period": "202511-202610",
+          "title": "Colossus of Rhodes",
+          "url": "https://en.wikipedia.org/wiki/Colossus_of_Rhodes",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rhodes-rhodes-lindos",
       "name": "Lindos",
       "kind": "see",
-      "lat": 36.0917,
-      "lon": 28.088,
+      "lat": 36.09156,
+      "lon": 28.08548,
       "wiki": "Acropolis of Lindos",
       "summary": "A white village below an acropolis with a Doric temple above the sea.",
       "expect": "About an hour by car or bus; the climb is hot and steep.",
@@ -353,15 +384,14 @@
       "tradeoffs": [
         "About an hour by car or bus; the climb is hot and steep.",
         "Go early or late, and swim at St Paul's Bay."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rhodes-rhodes-symi",
       "name": "Symi",
       "kind": "see",
-      "lat": 36.6167,
-      "lon": 27.8333,
+      "lat": 36.58333,
+      "lon": 27.83333,
       "wiki": "Symi",
       "summary": "A neighbouring island with a harbour of pastel neoclassical houses.",
       "expect": "Day boats from Mandraki take about 1 to 2 hours.",
@@ -402,8 +432,16 @@
         "Day boats from Mandraki take about 1 to 2 hours.",
         "Stay for lunch at the harbour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 49422,
+          "period": "202511-202610",
+          "title": "Symi",
+          "url": "https://en.wikipedia.org/wiki/Symi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "rhodes-rhodes-souvlaki",
@@ -582,5 +620,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

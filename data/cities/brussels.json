@@ -79,8 +79,8 @@
       "id": "brussels-brussels-grand-place",
       "name": "Grand-Place",
       "kind": "see",
-      "lat": 50.8467,
-      "lon": 4.3524,
+      "lat": 50.84667,
+      "lon": 4.3525,
       "wiki": "Grand-Place",
       "summary": "A square of gilded guildhalls and a Gothic town hall.",
       "expect": "Busy all day; lit up beautifully at night.",
@@ -121,14 +121,22 @@
         "Busy all day; lit up beautifully at night.",
         "Come back after dark."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 75263,
+          "period": "202511-202610",
+          "title": "Grand-Place",
+          "url": "https://en.wikipedia.org/wiki/Grand-Place",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brussels-brussels-manneken-pis",
       "name": "Manneken Pis",
       "kind": "see",
-      "lat": 50.845,
-      "lon": 4.35,
+      "lat": 50.84499,
+      "lon": 4.34999,
       "wiki": "Manneken Pis",
       "summary": "The tiny bronze statue of a boy, often dressed in one of his 1,000 costumes.",
       "expect": "Smaller than you expect.",
@@ -167,14 +175,22 @@
         "Smaller than you expect.",
         "Check his costume calendar online."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 252521,
+          "period": "202511-202610",
+          "title": "Manneken Pis",
+          "url": "https://en.wikipedia.org/wiki/Manneken_Pis",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brussels-brussels-galeries",
       "name": "Royal Galleries of Saint-Hubert",
       "kind": "see",
-      "lat": 50.8478,
-      "lon": 4.3548,
+      "lat": 50.8475,
+      "lon": 4.355,
       "wiki": "Galeries Royales Saint-Hubert",
       "summary": "Elegant 19th-century glass-roofed shopping arcades.",
       "expect": "Chocolate shops, cafés and a cinema.",
@@ -214,14 +230,22 @@
         "Chocolate shops, cafés and a cinema.",
         "Taste pralines at Neuhaus, which started here."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10953,
+          "period": "202511-202610",
+          "title": "Royal Saint-Hubert Galleries",
+          "url": "https://en.wikipedia.org/wiki/Royal_Saint-Hubert_Galleries",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brussels-brussels-magritte",
       "name": "Magritte Museum",
       "kind": "see",
-      "lat": 50.8425,
-      "lon": 4.358,
+      "lat": 50.84194,
+      "lon": 4.35861,
       "wiki": "Magritte Museum",
       "summary": "The largest collection of René Magritte's surreal paintings.",
       "expect": "Part of the Royal Museums of Fine Arts.",
@@ -260,14 +284,22 @@
         "Part of the Royal Museums of Fine Arts.",
         "Combine it with the Old Masters galleries next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9063,
+          "period": "202511-202610",
+          "title": "Magritte Museum",
+          "url": "https://en.wikipedia.org/wiki/Magritte_Museum",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brussels-brussels-comics",
       "name": "Belgian Comic Strip Center",
       "kind": "see",
-      "lat": 50.851,
-      "lon": 4.3594,
+      "lat": 50.85111,
+      "lon": 4.36,
       "wiki": "Belgian Comic Strip Center",
       "summary": "A museum of comics in an art nouveau department store, from Tintin to the Smurfs.",
       "expect": "Then follow the comic murals painted around the city.",
@@ -307,14 +339,22 @@
         "Then follow the comic murals painted around the city.",
         "Pick up the comic mural walking map."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5024,
+          "period": "202511-202610",
+          "title": "Belgian Comic Strip Center",
+          "url": "https://en.wikipedia.org/wiki/Belgian_Comic_Strip_Center",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brussels-brussels-atomium",
       "name": "Atomium",
       "kind": "see",
-      "lat": 50.8949,
-      "lon": 4.3415,
+      "lat": 50.89472,
+      "lon": 4.34111,
       "wiki": "Atomium",
       "summary": "A 102-metre steel model of an iron crystal from the 1958 World's Fair.",
       "expect": "Reached by metro; spheres hold exhibitions and a viewpoint.",
@@ -354,14 +394,22 @@
         "Reached by metro; spheres hold exhibitions and a viewpoint.",
         "Go at opening to avoid queues for the lift."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 135273,
+          "period": "202511-202610",
+          "title": "Atomium",
+          "url": "https://en.wikipedia.org/wiki/Atomium",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brussels-brussels-bruges",
       "name": "Bruges",
       "kind": "see",
-      "lat": 51.2093,
-      "lon": 3.2247,
+      "lat": 51.20889,
+      "lon": 3.22417,
       "wiki": "Bruges",
       "summary": "A medieval canal town of brick gables, belfries and boat rides.",
       "expect": "An hour by train; very busy on summer weekends.",
@@ -402,8 +450,16 @@
         "An hour by train; very busy on summer weekends.",
         "Stay into the evening when the day-trippers leave."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 382567,
+          "period": "202511-202610",
+          "title": "Bruges",
+          "url": "https://en.wikipedia.org/wiki/Bruges",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "brussels-brussels-moules",
@@ -580,5 +636,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
