@@ -1,0 +1,2420 @@
+[
+ {
+  "country": "South Africa",
+  "region": "Africa",
+  "currency": "ZAR",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry small rand notes for car guards and tips.",
+  "dailyBudget": [
+   1200,
+   3500
+  ],
+  "cashPerDay": [
+   150,
+   400
+  ],
+  "id": "johannesburg",
+  "name": "Johannesburg",
+  "at": [
+   -26.2041,
+   28.0473
+  ],
+  "wiki": "Johannesburg",
+  "cover": "Johannesburg skyline",
+  "seasons": "HHSSSLLLSSSH",
+  "tagline": "Apartheid history, Soweto and Africa's art scene",
+  "summary": "Johannesburg, or Jozi, is South Africa's energetic economic capital and the gateway to Kruger. Face the country's past at the Apartheid Museum and Constitution Hill, visit Mandela's house in Soweto, explore Maboneng's street art and Saturday markets, and see where humanity began at the Cradle of Humankind.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10
+  ],
+  "seasonNote": "Autumn and spring are sunny and mild; summer brings afternoon thunderstorms.",
+  "arrival": "O.R. Tambo International is 30 minutes away; the Gautrain runs to Sandton and Rosebank.",
+  "gettingAround": "Gautrain and Uber; avoid walking at night.",
+  "foodTip": "Braai (barbecue), bunny chow and Saturday market food.",
+  "buyTip": "African art and design in Rosebank and Maboneng.",
+  "baseArea": "Rosebank, Sandton or Melrose Arch",
+  "hotel": [
+   1200,
+   4000
+  ],
+  "connections": [
+   {
+    "to": "cape-town",
+    "mode": "Flight",
+    "minutes": 130,
+    "note": "Very frequent flights."
+   },
+   {
+    "to": "kruger",
+    "mode": "Car",
+    "minutes": 300,
+    "note": "Or a 1-hour flight to Skukuza or Nelspruit."
+   },
+   {
+    "to": "victoria-falls",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Apartheid Museum",
+    "kind": "see",
+    "id": "jnb-apartheid",
+    "at": [
+     -26.237,
+     28.008
+    ],
+    "wiki": "Apartheid Museum",
+    "area": "Gold Reef City",
+    "summary": "Powerful museum of segregation and the struggle for freedom.",
+    "expect": "Allow 3 hours.",
+    "tip": "Go early; it is emotionally heavy.",
+    "why": "Essential history.",
+    "flow": [
+     "Entry by race card.",
+     "Mandela exhibition.",
+     "Struggle galleries."
+    ],
+    "hours": 3,
+    "price": [
+     150,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Soweto and Mandela House",
+    "kind": "see",
+    "id": "jnb-soweto",
+    "at": [
+     -26.238,
+     27.908
+    ],
+    "wiki": "Mandela House",
+    "area": "Soweto",
+    "summary": "Vilakazi Street, home to two Nobel laureates, and the Hector Pieterson Memorial.",
+    "expect": "Guided tours recommended.",
+    "tip": "Cycle Soweto with a local guide.",
+    "why": "Heart of the struggle.",
+    "flow": [
+     "Mandela House.",
+     "Hector Pieterson Memorial.",
+     "Vilakazi Street lunch."
+    ],
+    "hours": 4,
+    "price": [
+     100,
+     600
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Constitution Hill",
+    "kind": "see",
+    "id": "jnb-conhill",
+    "at": [
+     -26.189,
+     28.043
+    ],
+    "wiki": "Constitution Hill, Johannesburg",
+    "area": "Braamfontein",
+    "summary": "Former prison where Gandhi and Mandela were held, now the Constitutional Court.",
+    "expect": "Guided tours.",
+    "tip": "See the court's art collection.",
+    "why": "Justice reborn.",
+    "flow": [
+     "Old Fort.",
+     "Women's Jail.",
+     "Constitutional Court."
+    ],
+    "hours": 2,
+    "price": [
+     90,
+     120
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Maboneng Precinct",
+    "kind": "see",
+    "id": "jnb-maboneng",
+    "at": [
+     -26.204,
+     28.058
+    ],
+    "wiki": "Maboneng",
+    "area": "Maboneng",
+    "summary": "Revitalised district of murals, galleries and rooftop bars.",
+    "expect": "Go with a guide or by day.",
+    "tip": "Sunday market at Arts on Main.",
+    "why": "Creative Jozi.",
+    "flow": [
+     "Street art.",
+     "Galleries.",
+     "Rooftops."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Cradle of Humankind",
+    "kind": "see",
+    "id": "jnb-cradle",
+    "at": [
+     -25.922,
+     27.775
+    ],
+    "wiki": "Cradle of Humankind",
+    "area": "Maropeng",
+    "summary": "UNESCO site of hominid fossils with Sterkfontein Caves.",
+    "expect": "Day trip.",
+    "tip": "Book the cave tour.",
+    "why": "Human origins.",
+    "flow": [
+     "Maropeng visitor centre.",
+     "Sterkfontein Caves."
+    ],
+    "hours": 6,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Pilanesberg National Park",
+    "kind": "see",
+    "id": "jnb-pilanesberg",
+    "at": [
+     -25.25,
+     27.09
+    ],
+    "wiki": "Pilanesberg National Park",
+    "area": "North West",
+    "summary": "Big Five reserve in an ancient volcanic crater, malaria-free.",
+    "expect": "2.5 hours' drive.",
+    "tip": "Self-drive or join a game drive.",
+    "why": "Easy safari.",
+    "flow": [
+     "Drive north.",
+     "Game drive."
+    ],
+    "hours": 10,
+    "price": [
+     150,
+     1500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Braai",
+    "kind": "eat",
+    "id": "jnb-braai",
+    "at": [
+     -26.15,
+     28.04
+    ],
+    "wiki": "Braai",
+    "area": "Rosebank",
+    "venue": "food-area",
+    "summary": "Barbecued boerewors, steak and pap.",
+    "expect": "Weekend gatherings.",
+    "tip": "Try a shisa nyama in Soweto.",
+    "why": "SA ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     150,
+     350
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Boerewors",
+     "Pap"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Neighbourgoods Market",
+    "kind": "eat",
+    "id": "jnb-neighbourgoods",
+    "at": [
+     -26.193,
+     28.034
+    ],
+    "wiki": "Braamfontein",
+    "area": "Braamfontein",
+    "venue": "food-area",
+    "summary": "Saturday market with street food and craft beer.",
+    "expect": "Saturday mornings.",
+    "tip": "Go early.",
+    "why": "Jozi weekend.",
+    "flow": [
+     "Upstairs food hall.",
+     "Rooftop drinks."
+    ],
+    "hours": 2,
+    "price": [
+     80,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Street food"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Bunny chow",
+    "kind": "eat",
+    "id": "jnb-bunny",
+    "at": [
+     -26.2,
+     28.05
+    ],
+    "wiki": "Bunny chow",
+    "area": "Fordsburg",
+    "venue": "food-area",
+    "summary": "Hollowed bread loaf filled with curry.",
+    "expect": "Fordsburg and Durban-style spots.",
+    "tip": "Eat it with your hands.",
+    "why": "Iconic SA street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Bunny chow"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "South Africa",
+  "region": "Africa",
+  "currency": "ZAR",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry small rand notes for car guards and tips.",
+  "dailyBudget": [
+   1200,
+   3500
+  ],
+  "cashPerDay": [
+   150,
+   400
+  ],
+  "id": "stellenbosch",
+  "name": "Stellenbosch and the Winelands",
+  "at": [
+   -33.9321,
+   18.8602
+  ],
+  "wiki": "Stellenbosch",
+  "cover": "Stellenbosch vineyards",
+  "seasons": "HHHSSLLLSSHH",
+  "tagline": "Oak-lined streets and wine estates under the mountains",
+  "summary": "Stellenbosch is a Cape Dutch university town at the heart of South Africa's Winelands, with whitewashed gables and oak avenues. Taste wine on mountain estates, ride the Franschhoek Wine Tram, eat at world-class restaurants and day-trip to Paarl and Franschhoek.",
+  "days": 3,
+  "bestMonths": [
+   2,
+   3,
+   4,
+   10,
+   11
+  ],
+  "seasonNote": "Harvest season (February to April) is lively; winter is green and quiet.",
+  "arrival": "45 minutes' drive from Cape Town International.",
+  "gettingAround": "Walk the town; drivers, tours or the wine tram for estates.",
+  "foodTip": "Wine-pairing lunches and Cape Malay bobotie.",
+  "buyTip": "Wine, olive oil and handmade ceramics.",
+  "baseArea": "Central Stellenbosch or Franschhoek",
+  "hotel": [
+   1500,
+   5000
+  ],
+  "connections": [
+   {
+    "to": "cape-town",
+    "mode": "Car",
+    "minutes": 45,
+    "note": "Easy day trip or overnight."
+   }
+  ],
+  "items": [
+   {
+    "name": "Dorp Street and the old town",
+    "kind": "see",
+    "id": "stb-dorp",
+    "at": [
+     -33.938,
+     18.86
+    ],
+    "wiki": "Stellenbosch",
+    "area": "Old town",
+    "summary": "Cape Dutch houses under centuries-old oaks.",
+    "expect": "Free.",
+    "tip": "Visit the Village Museum.",
+    "why": "Historic charm.",
+    "flow": [
+     "Dorp Street.",
+     "Village Museum.",
+     "Die Braak."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Franschhoek Wine Tram",
+    "kind": "see",
+    "id": "stb-tram",
+    "at": [
+     -33.912,
+     19.12
+    ],
+    "wiki": "Franschhoek",
+    "area": "Franschhoek",
+    "summary": "Hop-on hop-off tram and bus between wine estates.",
+    "expect": "Book ahead.",
+    "tip": "Pick one line and four stops.",
+    "why": "Easy wine day.",
+    "flow": [
+     "Board in Franschhoek.",
+     "Estate stops."
+    ],
+    "hours": 7,
+    "price": [
+     400,
+     600
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ]
+   },
+   {
+    "name": "Delaire Graff and Helshoogte Pass",
+    "kind": "see",
+    "id": "stb-delaire",
+    "at": [
+     -33.92,
+     18.922
+    ],
+    "wiki": "Helshoogte Pass",
+    "area": "Helshoogte",
+    "summary": "Estates with dramatic mountain and valley views.",
+    "expect": "Tastings.",
+    "tip": "Lunch on the terrace.",
+    "why": "Views and wine.",
+    "flow": [
+     "Tasting.",
+     "Terrace lunch."
+    ],
+    "hours": 3,
+    "price": [
+     150,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Spier",
+    "kind": "see",
+    "id": "stb-spier",
+    "at": [
+     -33.973,
+     18.783
+    ],
+    "wiki": "Spier Wine Farm",
+    "area": "Lynedoch",
+    "summary": "Historic estate with art, Segway tours and picnics.",
+    "expect": "Family friendly.",
+    "tip": "Try a picnic.",
+    "why": "Relaxed estate.",
+    "flow": [
+     "Tasting.",
+     "Picnic.",
+     "Art walk."
+    ],
+    "hours": 3,
+    "price": [
+     100,
+     400
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food",
+     "Art"
+    ]
+   },
+   {
+    "name": "Paarl Rock and estates",
+    "kind": "see",
+    "id": "stb-paarl",
+    "at": [
+     -33.74,
+     18.95
+    ],
+    "wiki": "Paarl Mountain Nature Reserve",
+    "area": "Paarl",
+    "summary": "Granite domes and estates like Babylonstoren.",
+    "expect": "Short drive.",
+    "tip": "Visit Babylonstoren's garden.",
+    "why": "Gardens and views.",
+    "flow": [
+     "Paarl Rock.",
+     "Babylonstoren garden."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     300
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Jonkershoek Nature Reserve",
+    "kind": "see",
+    "id": "stb-jonkershoek",
+    "at": [
+     -33.984,
+     18.955
+    ],
+    "wiki": "Jonkershoek Nature Reserve",
+    "area": "Jonkershoek",
+    "summary": "Mountain trails and waterfalls just outside town.",
+    "expect": "Small fee.",
+    "tip": "Hike the Panorama circuit.",
+    "why": "Fynbos hiking.",
+    "flow": [
+     "Trailhead.",
+     "Waterfall."
+    ],
+    "hours": 4,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Wine-pairing lunch",
+    "kind": "eat",
+    "id": "stb-pairing",
+    "at": [
+     -33.93,
+     18.86
+    ],
+    "wiki": "Stellenbosch wine",
+    "area": "Estates",
+    "venue": "food-area",
+    "summary": "Multi-course lunches paired with estate wines.",
+    "expect": "Book ahead.",
+    "tip": "Try Jordan or Rust en Vrede.",
+    "why": "World-class dining.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2.5,
+    "price": [
+     600,
+     1500
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Tasting menu"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Bobotie",
+    "kind": "eat",
+    "id": "stb-bobotie",
+    "at": [
+     -33.935,
+     18.86
+    ],
+    "wiki": "Bobotie",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Cape Malay spiced mince baked with egg custard.",
+    "expect": "Bistros.",
+    "tip": "Order with yellow rice.",
+    "why": "Cape classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     120,
+     200
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Bobotie"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Root44 Market",
+    "kind": "eat",
+    "id": "stb-market",
+    "at": [
+     -33.967,
+     18.822
+    ],
+    "wiki": "Stellenbosch",
+    "area": "Annandale Road",
+    "venue": "food-area",
+    "summary": "Weekend food and craft market.",
+    "expect": "Weekends.",
+    "tip": "Go for lunch.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     200
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Street food"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "South Africa",
+  "region": "Africa",
+  "currency": "ZAR",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; carry small rand notes for car guards and tips.",
+  "dailyBudget": [
+   1200,
+   3500
+  ],
+  "cashPerDay": [
+   150,
+   400
+  ],
+  "id": "durban",
+  "name": "Durban",
+  "at": [
+   -29.8587,
+   31.0218
+  ],
+  "wiki": "Durban",
+  "cover": "Durban beachfront",
+  "seasons": "SSSHHHHHHSSS",
+  "tagline": "Warm Indian Ocean beaches and the best curry outside India",
+  "summary": "Durban is South Africa's warm-water surf city, with a long Golden Mile promenade and a strong Indian heritage. Eat a bunny chow, see the uShaka Marine World aquarium, walk or swing at Moses Mabhida Stadium and head inland to the Valley of a Thousand Hills and the Drakensberg.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Winter is warm and dry, perfect for beaches; summer is hot and humid.",
+  "arrival": "King Shaka International is 35 minutes north.",
+  "gettingAround": "Uber and taxis; walk the beachfront promenade.",
+  "foodTip": "Durban curry and bunny chow.",
+  "buyTip": "Spices at the Victoria Street Market.",
+  "baseArea": "Umhlanga or the beachfront",
+  "hotel": [
+   1000,
+   3500
+  ],
+  "connections": [
+   {
+    "to": "johannesburg",
+    "mode": "Flight",
+    "minutes": 65,
+    "note": "Very frequent flights."
+   },
+   {
+    "to": "cape-town",
+    "mode": "Flight",
+    "minutes": 130,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Golden Mile promenade",
+    "kind": "see",
+    "id": "dur-goldenmile",
+    "at": [
+     -29.853,
+     31.037
+    ],
+    "wiki": "Golden Mile (Durban)",
+    "area": "Beachfront",
+    "summary": "Long beachfront promenade with surf beaches and piers.",
+    "expect": "Free.",
+    "tip": "Hire a bike.",
+    "why": "Durban's front porch.",
+    "flow": [
+     "Promenade.",
+     "Piers.",
+     "Surfers."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Moses Mabhida Stadium",
+    "kind": "see",
+    "id": "dur-moses",
+    "at": [
+     -29.829,
+     31.03
+    ],
+    "wiki": "Moses Mabhida Stadium",
+    "area": "Stamford Hill",
+    "summary": "World Cup stadium with an arch SkyCar and Big Swing.",
+    "expect": "Tickets.",
+    "tip": "Take the SkyCar up the arch.",
+    "why": "Views and thrills.",
+    "flow": [
+     "SkyCar.",
+     "Big Swing."
+    ],
+    "hours": 1.5,
+    "price": [
+     100,
+     800
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "uShaka Marine World",
+    "kind": "see",
+    "id": "dur-ushaka",
+    "at": [
+     -29.868,
+     31.045
+    ],
+    "wiki": "uShaka Marine World",
+    "area": "Point",
+    "summary": "Aquarium in a shipwreck plus water park.",
+    "expect": "Full day.",
+    "tip": "Combine Sea World and Wet 'n Wild.",
+    "why": "Family fun.",
+    "flow": [
+     "Aquarium.",
+     "Water park."
+    ],
+    "hours": 4,
+    "price": [
+     250,
+     350
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Victoria Street Market",
+    "kind": "see",
+    "id": "dur-victoria",
+    "at": [
+     -29.857,
+     31.011
+    ],
+    "wiki": "Victoria Street Market",
+    "area": "City",
+    "summary": "Indian spice market with curry masala blends.",
+    "expect": "Haggle gently.",
+    "tip": "Try 'mother-in-law exterminator' masala.",
+    "why": "Spice heaven.",
+    "flow": [
+     "Spice stalls.",
+     "Craft stalls."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Food"
+    ]
+   },
+   {
+    "name": "Valley of a Thousand Hills",
+    "kind": "see",
+    "id": "dur-hills",
+    "at": [
+     -29.75,
+     30.7
+    ],
+    "wiki": "Valley of a Thousand Hills",
+    "area": "Inland",
+    "summary": "Rolling Zulu heartland with cultural villages.",
+    "expect": "Drive.",
+    "tip": "Visit PheZulu cultural village.",
+    "why": "Zulu culture.",
+    "flow": [
+     "Drive the R103.",
+     "Cultural village."
+    ],
+    "hours": 5,
+    "price": [
+     150,
+     400
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Drakensberg Amphitheatre",
+    "kind": "see",
+    "id": "dur-drakensberg",
+    "at": [
+     -28.75,
+     28.9
+    ],
+    "wiki": "Drakensberg",
+    "area": "Royal Natal",
+    "summary": "Huge basalt escarpment with Tugela Falls hikes.",
+    "expect": "3 hours' drive; stay overnight.",
+    "tip": "Hike to Tugela Falls.",
+    "why": "Epic mountains.",
+    "flow": [
+     "Drive inland.",
+     "Tugela Gorge hike."
+    ],
+    "hours": 12,
+    "price": [
+     100,
+     300
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Bunny chow",
+    "kind": "eat",
+    "id": "dur-bunny",
+    "at": [
+     -29.86,
+     31.02
+    ],
+    "wiki": "Bunny chow",
+    "area": "City",
+    "venue": "food-area",
+    "summary": "Durban's invention: curry in a hollowed loaf.",
+    "expect": "Everywhere.",
+    "tip": "Try Capsicum or Gounden's.",
+    "why": "Durban icon.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African Indian",
+    "order": [
+     "Mutton bunny chow"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Durban curry",
+    "kind": "eat",
+    "id": "dur-curry",
+    "at": [
+     -29.85,
+     31.02
+    ],
+    "wiki": "Durban curry",
+    "area": "City",
+    "venue": "food-area",
+    "summary": "Fiery red curry with a distinct local spice blend.",
+    "expect": "Many spots.",
+    "tip": "Ask for medium.",
+    "why": "Spice capital.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African Indian",
+    "order": [
+     "Prawn curry"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Umhlanga seafood",
+    "kind": "eat",
+    "id": "dur-umhlanga",
+    "at": [
+     -29.727,
+     31.086
+    ],
+    "wiki": "Umhlanga",
+    "area": "Umhlanga",
+    "venue": "food-area",
+    "summary": "Seafood with lighthouse views.",
+    "expect": "Upmarket.",
+    "tip": "Watch the waves.",
+    "why": "Beachside dining.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     450
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Prawns"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Namibia",
+  "region": "Africa",
+  "currency": "NAD",
+  "cashTip": "The Namibian dollar is pegged 1:1 to the rand, and rand is accepted. Fill up with fuel and cash in towns; lodges take cards.",
+  "dailyBudget": [
+   1500,
+   5000
+  ],
+  "cashPerDay": [
+   200,
+   500
+  ],
+  "id": "sossusvlei",
+  "name": "Sossusvlei",
+  "at": [
+   -24.62,
+   15.55
+  ],
+  "wiki": "Sossusvlei",
+  "cover": "Deadvlei",
+  "seasons": "SSSHHHHHHSSS",
+  "tagline": "Red dunes and the ghost trees of Deadvlei",
+  "summary": "Sossusvlei in the Namib Desert has some of the world's tallest red sand dunes. Climb Dune 45 or Big Daddy at sunrise, walk among the 900-year-old dead camelthorn trees of Deadvlei, explore Sesriem Canyon and stargaze under some of the darkest skies on earth.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September is cooler; summer days are very hot.",
+  "arrival": "5 hours' drive from Windhoek, or fly in by light aircraft to lodges.",
+  "gettingAround": "4x4 self-drive; a shuttle covers the last 5 km of sand.",
+  "foodTip": "Game meat at lodges, Namibian beer and apple pie at Solitaire on the drive in.",
+  "buyTip": "Crafts at Solitaire and Windhoek.",
+  "baseArea": "Sesriem or lodges near the park gate",
+  "hotel": [
+   2500,
+   12000
+  ],
+  "connections": [],
+  "items": [
+   {
+    "name": "Dune 45",
+    "kind": "see",
+    "id": "sos-dune45",
+    "at": [
+     -24.73,
+     15.47
+    ],
+    "wiki": "Dune 45",
+    "area": "Sossusvlei road",
+    "summary": "Iconic star dune climbed for sunrise.",
+    "expect": "Park fee.",
+    "tip": "Enter at gate opening.",
+    "why": "Classic sunrise.",
+    "flow": [
+     "Gate opens.",
+     "Climb.",
+     "Sunrise."
+    ],
+    "hours": 2,
+    "price": [
+     150,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Deadvlei",
+    "kind": "see",
+    "id": "sos-deadvlei",
+    "at": [
+     -24.76,
+     15.293
+    ],
+    "wiki": "Deadvlei",
+    "area": "Sossusvlei",
+    "summary": "White clay pan of dead trees ringed by red dunes.",
+    "expect": "Walk across sand.",
+    "tip": "Go early before the heat.",
+    "why": "Surreal photos.",
+    "flow": [
+     "4x4 shuttle.",
+     "Walk in.",
+     "Photos."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Big Daddy dune",
+    "kind": "see",
+    "id": "sos-bigdaddy",
+    "at": [
+     -24.765,
+     15.29
+    ],
+    "wiki": "Sossusvlei",
+    "area": "Sossusvlei",
+    "summary": "One of the tallest dunes, with a run down into Deadvlei.",
+    "expect": "Tough climb.",
+    "tip": "Carry plenty of water.",
+    "why": "Big achievement.",
+    "flow": [
+     "Climb the ridge.",
+     "Run down."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Sesriem Canyon",
+    "kind": "see",
+    "id": "sos-sesriem",
+    "at": [
+     -24.49,
+     15.8
+    ],
+    "wiki": "Sesriem Canyon",
+    "area": "Sesriem",
+    "summary": "Narrow canyon carved by the Tsauchab River.",
+    "expect": "Short walk.",
+    "tip": "Go late afternoon.",
+    "why": "Cool canyon.",
+    "flow": [
+     "Descend.",
+     "Walk the canyon."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "NamibRand stargazing",
+    "kind": "see",
+    "id": "sos-stars",
+    "at": [
+     -25.0,
+     15.9
+    ],
+    "wiki": "NamibRand Nature Reserve",
+    "area": "NamibRand",
+    "summary": "International Dark Sky Reserve with astronomy sessions.",
+    "expect": "Lodge activity.",
+    "tip": "Book a telescope session.",
+    "why": "Darkest skies.",
+    "flow": [
+     "Sunset.",
+     "Stars."
+    ],
+    "hours": 2,
+    "price": [
+     300,
+     800
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hot-air balloon over the Namib",
+    "kind": "see",
+    "id": "sos-balloon",
+    "at": [
+     -24.5,
+     15.8
+    ],
+    "wiki": "Namib Desert",
+    "area": "Sesriem",
+    "summary": "Dawn balloon flight over dunes with champagne breakfast.",
+    "expect": "Expensive.",
+    "tip": "Book ahead.",
+    "why": "Unforgettable.",
+    "flow": [
+     "Pre-dawn pickup.",
+     "Flight.",
+     "Breakfast."
+    ],
+    "hours": 4,
+    "price": [
+     7000,
+     9000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Dune picnic breakfast",
+    "kind": "eat",
+    "id": "sos-picnic",
+    "at": [
+     -24.745,
+     15.34
+    ],
+    "wiki": "Sossusvlei",
+    "area": "Sossusvlei car park",
+    "venue": "food-area",
+    "summary": "Lodges pack breakfast to eat in the shade of a camelthorn after the sunrise climb.",
+    "expect": "Ask your lodge the night before.",
+    "tip": "Eat after Deadvlei, before the heat.",
+    "why": "Desert morning ritual.",
+    "flow": [
+     "Climb at sunrise.",
+     "Breakfast under a tree."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     250
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Namibian",
+    "order": [
+     "Packed breakfast"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Game dinner",
+    "kind": "eat",
+    "id": "sos-game",
+    "at": [
+     -24.49,
+     15.8
+    ],
+    "wiki": "Namibian cuisine",
+    "area": "Lodges",
+    "venue": "food-area",
+    "summary": "Oryx, kudu and springbok steaks.",
+    "expect": "Lodges.",
+    "tip": "Try oryx.",
+    "why": "Local meat.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     250,
+     500
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Namibian",
+    "order": [
+     "Oryx steak"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Lodge braai",
+    "kind": "eat",
+    "id": "sos-braai",
+    "at": [
+     -24.5,
+     15.8
+    ],
+    "wiki": "Braai",
+    "area": "Lodges",
+    "venue": "food-area",
+    "summary": "Barbecue under the stars.",
+    "expect": "Lodge nights.",
+    "tip": "Ask for a fire-side table.",
+    "why": "Desert evening.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Namibian",
+    "order": [
+     "Braai"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Botswana",
+  "region": "Africa",
+  "currency": "BWP",
+  "cashTip": "Lodges and safaris are usually prepaid in US dollars; carry pula for park fees, tips and Maun shops.",
+  "dailyBudget": [
+   1500,
+   8000
+  ],
+  "cashPerDay": [
+   200,
+   600
+  ],
+  "id": "okavango",
+  "name": "Maun and the Okavango Delta",
+  "at": [
+   -19.9833,
+   23.4167
+  ],
+  "wiki": "Okavango Delta",
+  "cover": "Okavango Delta",
+  "seasons": "SSSHHHHHHSSS",
+  "tagline": "Mokoro canoes through a wildlife-filled inland delta",
+  "summary": "The Okavango Delta is a vast inland delta where floodwaters spread across the Kalahari, drawing elephants, lions and huge bird flocks. From Maun, glide through channels in a mokoro dugout, fly over the delta, stay at remote camps and add Moremi Game Reserve and Chobe's elephant herds.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "June to October is peak flood and dry-season game viewing.",
+  "arrival": "Maun Airport, with connections from Johannesburg; light aircraft to camps.",
+  "gettingAround": "Light aircraft, 4x4 and mokoro.",
+  "foodTip": "Seswaa (pounded beef) and camp dinners.",
+  "buyTip": "Basketry from Maun and Etsha.",
+  "baseArea": "Maun or a delta camp",
+  "hotel": [
+   1500,
+   15000
+  ],
+  "connections": [
+   {
+    "to": "johannesburg",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Daily flights."
+   },
+   {
+    "to": "victoria-falls",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Scheduled and charter flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Mokoro trip",
+    "kind": "see",
+    "id": "oka-mokoro",
+    "at": [
+     -19.6,
+     23.2
+    ],
+    "wiki": "Mokoro",
+    "area": "Delta",
+    "summary": "Poled dugout canoe through papyrus and lily channels.",
+    "expect": "Day or overnight.",
+    "tip": "Go with a licensed poler.",
+    "why": "Delta classic.",
+    "flow": [
+     "Launch.",
+     "Channels.",
+     "Bush walk."
+    ],
+    "hours": 5,
+    "price": [
+     700,
+     1500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Scenic flight over the delta",
+    "kind": "see",
+    "id": "oka-flight",
+    "at": [
+     -19.98,
+     23.43
+    ],
+    "wiki": "Okavango Delta",
+    "area": "Maun",
+    "summary": "Light-aircraft or helicopter flight over elephants and channels.",
+    "expect": "45 minutes.",
+    "tip": "Take the doors-off helicopter.",
+    "why": "See the scale.",
+    "flow": [
+     "Take off.",
+     "Herds below."
+    ],
+    "hours": 1,
+    "price": [
+     1500,
+     3500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Moremi Game Reserve",
+    "kind": "see",
+    "id": "oka-moremi",
+    "at": [
+     -19.3,
+     23.4
+    ],
+    "wiki": "Moremi Game Reserve",
+    "area": "Moremi",
+    "summary": "Big Five reserve on the eastern delta.",
+    "expect": "Game drives.",
+    "tip": "Book a guided drive.",
+    "why": "Top wildlife.",
+    "flow": [
+     "Game drive.",
+     "Third Bridge."
+    ],
+    "hours": 8,
+    "price": [
+     300,
+     2000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Chobe National Park",
+    "kind": "see",
+    "id": "oka-chobe",
+    "at": [
+     -17.8,
+     25.15
+    ],
+    "wiki": "Chobe National Park",
+    "area": "Kasane",
+    "summary": "Huge elephant herds on the Chobe River.",
+    "expect": "Far; fly or combine.",
+    "tip": "Take a river cruise at sunset.",
+    "why": "Elephant capital.",
+    "flow": [
+     "Boat cruise.",
+     "Game drive."
+    ],
+    "hours": 10,
+    "price": [
+     500,
+     2000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Makgadikgadi Pans",
+    "kind": "see",
+    "id": "oka-nxai",
+    "at": [
+     -20.7,
+     25.4
+    ],
+    "wiki": "Makgadikgadi Pan",
+    "area": "Kalahari",
+    "summary": "Salt pans with meerkats and zebra migration.",
+    "expect": "Overnight trip.",
+    "tip": "Sleep out on the pans.",
+    "why": "Otherworldly.",
+    "flow": [
+     "Drive.",
+     "Meerkats.",
+     "Sleep out."
+    ],
+    "hours": 12,
+    "price": [
+     1000,
+     5000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Thamalakane River sunset",
+    "kind": "see",
+    "id": "oka-maun",
+    "at": [
+     -19.98,
+     23.43
+    ],
+    "wiki": "Maun",
+    "area": "Maun",
+    "summary": "Riverside lodges and birdlife in Maun.",
+    "expect": "Free.",
+    "tip": "Grab a drink at Old Bridge Backpackers.",
+    "why": "Easy sunset.",
+    "flow": [
+     "Riverside.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Seswaa",
+    "kind": "eat",
+    "id": "oka-seswaa",
+    "at": [
+     -19.98,
+     23.42
+    ],
+    "wiki": "Seswaa",
+    "area": "Maun",
+    "venue": "food-area",
+    "summary": "Slow-cooked pounded beef with pap.",
+    "expect": "Local spots.",
+    "tip": "Try with morogo greens.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Botswanan",
+    "order": [
+     "Seswaa",
+     "Pap"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Camp dinner",
+    "kind": "eat",
+    "id": "oka-camp",
+    "at": [
+     -19.6,
+     23.2
+    ],
+    "wiki": "Okavango Delta",
+    "area": "Camps",
+    "venue": "food-area",
+    "summary": "Communal fireside dinners at safari camps.",
+    "expect": "Included at camps.",
+    "tip": "Swap sighting stories.",
+    "why": "Bush ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Camp dinner"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Maun cafés",
+    "kind": "eat",
+    "id": "oka-cafe",
+    "at": [
+     -19.985,
+     23.42
+    ],
+    "wiki": "Maun",
+    "area": "Maun",
+    "venue": "food-area",
+    "summary": "Cafés by the airport for brunch.",
+    "expect": "Daytime.",
+    "tip": "Eat before your flight.",
+    "why": "Handy stop.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     80,
+     180
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Breakfast"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Rwanda",
+  "region": "Africa",
+  "currency": "RWF",
+  "cashTip": "Mobile money and cards are common in Kigali; gorilla permits are paid in US dollars in advance.",
+  "dailyBudget": [
+   60000,
+   200000
+  ],
+  "cashPerDay": [
+   15000,
+   40000
+  ],
+  "id": "kigali",
+  "name": "Kigali",
+  "at": [
+   -1.9441,
+   30.0619
+  ],
+  "wiki": "Kigali",
+  "cover": "Kigali",
+  "seasons": "SSSLLHHHSSLS",
+  "tagline": "Clean green capital and the gateway to mountain gorillas",
+  "summary": "Kigali is one of Africa's safest and cleanest capitals, spread over green hills. Pay respects at the Kigali Genocide Memorial, explore art galleries and coffee spots, then head to Volcanoes National Park to trek to mountain gorillas or golden monkeys.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "June to September and December to February are the dry seasons, best for trekking.",
+  "arrival": "Kigali International is 20 minutes from the centre.",
+  "gettingAround": "Moto-taxis, Uber-like apps and buses.",
+  "foodTip": "Brochettes, isombe and Rwandan coffee.",
+  "buyTip": "Agaseke baskets and coffee.",
+  "baseArea": "Kiyovu or Kimihurura",
+  "hotel": [
+   80000,
+   300000
+  ],
+  "connections": [
+   {
+    "to": "nairobi",
+    "mode": "Flight",
+    "minutes": 75,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Kigali Genocide Memorial",
+    "kind": "see",
+    "id": "kgl-memorial",
+    "at": [
+     -1.931,
+     30.061
+    ],
+    "wiki": "Kigali Genocide Memorial",
+    "area": "Gisozi",
+    "summary": "Moving memorial and resting place of over 250,000 victims of 1994.",
+    "expect": "Free; donation.",
+    "tip": "Allow 2 hours and go early.",
+    "why": "Essential understanding.",
+    "flow": [
+     "Exhibition.",
+     "Gardens.",
+     "Mass graves."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Volcanoes National Park gorilla trek",
+    "kind": "see",
+    "id": "kgl-gorillas",
+    "at": [
+     -1.48,
+     29.53
+    ],
+    "wiki": "Volcanoes National Park",
+    "area": "Musanze",
+    "summary": "Trek through bamboo forest to spend an hour with mountain gorillas.",
+    "expect": "Permits cost US$1,500; book months ahead.",
+    "tip": "Hire a porter.",
+    "why": "Life-changing.",
+    "flow": [
+     "Briefing.",
+     "Trek.",
+     "Hour with gorillas."
+    ],
+    "hours": 8,
+    "price": [
+     2100000,
+     2300000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Inema Arts Center",
+    "kind": "see",
+    "id": "kgl-inema",
+    "at": [
+     -1.942,
+     30.089
+    ],
+    "wiki": "Kigali",
+    "area": "Kacyiru",
+    "summary": "Contemporary Rwandan art gallery.",
+    "expect": "Free.",
+    "tip": "Meet the artists.",
+    "why": "Creative Kigali.",
+    "flow": [
+     "Gallery.",
+     "Studios."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Kimironko Market",
+    "kind": "see",
+    "id": "kgl-kimironko",
+    "at": [
+     -1.949,
+     30.127
+    ],
+    "wiki": "Kigali",
+    "area": "Kimironko",
+    "summary": "Busy market with produce and kitenge fabric.",
+    "expect": "Free.",
+    "tip": "Get something tailored.",
+    "why": "Local life.",
+    "flow": [
+     "Produce.",
+     "Fabric tailors."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Nyamirambo walking tour",
+    "kind": "see",
+    "id": "kgl-nyamirambo",
+    "at": [
+     -1.978,
+     30.045
+    ],
+    "wiki": "Nyamirambo",
+    "area": "Nyamirambo",
+    "summary": "Women-led tour of Kigali's most vibrant neighbourhood.",
+    "expect": "Guided.",
+    "tip": "Join the cooking class.",
+    "why": "Community tourism.",
+    "flow": [
+     "Walk.",
+     "Lunch at home."
+    ],
+    "hours": 3,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Akagera National Park",
+    "kind": "see",
+    "id": "kgl-akagera",
+    "at": [
+     -1.88,
+     30.7
+    ],
+    "wiki": "Akagera National Park",
+    "area": "East",
+    "summary": "Big Five savanna park with lakes, 2.5 hours from Kigali.",
+    "expect": "Day or overnight.",
+    "tip": "Take the boat on Lake Ihema.",
+    "why": "Rwanda's safari.",
+    "flow": [
+     "Game drive.",
+     "Boat trip."
+    ],
+    "hours": 10,
+    "price": [
+     60000,
+     150000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Brochettes",
+    "kind": "eat",
+    "id": "kgl-brochettes",
+    "at": [
+     -1.95,
+     30.06
+    ],
+    "wiki": "Brochette",
+    "area": "Bars",
+    "venue": "food-area",
+    "summary": "Goat skewers with fries and Primus beer.",
+    "expect": "Everywhere.",
+    "tip": "Ask for akabanga chilli oil.",
+    "why": "Rwandan staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     3000,
+     6000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Rwandan",
+    "order": [
+     "Goat brochettes"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Rwandan coffee",
+    "kind": "eat",
+    "id": "kgl-coffee",
+    "at": [
+     -1.95,
+     30.06
+    ],
+    "wiki": "Coffee production in Rwanda",
+    "area": "Kiyovu",
+    "venue": "food-area",
+    "summary": "Specialty coffee from Rwanda's hills.",
+    "expect": "Cafés.",
+    "tip": "Visit Question Coffee.",
+    "why": "Bean to cup.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2000,
+     4000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Rwandan",
+    "order": [
+     "Pour-over"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Rwandan buffet",
+    "kind": "eat",
+    "id": "kgl-buffet",
+    "at": [
+     -1.95,
+     30.06
+    ],
+    "wiki": "Rwandan cuisine",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Lunch buffets with isombe, plantains and beans.",
+    "expect": "Cheap.",
+    "tip": "Pile your plate once.",
+    "why": "Local lunch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     2000,
+     4000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Rwandan",
+    "order": [
+     "Isombe",
+     "Matoke"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Ethiopia",
+  "region": "Africa",
+  "currency": "ETB",
+  "cashTip": "Carry birr in small notes; cards work in big hotels only. Exchange at banks.",
+  "dailyBudget": [
+   3000,
+   10000
+  ],
+  "cashPerDay": [
+   1000,
+   3000
+  ],
+  "id": "addis-ababa",
+  "name": "Addis Ababa",
+  "at": [
+   9.03,
+   38.74
+  ],
+  "wiki": "Addis Ababa",
+  "cover": "Addis Ababa",
+  "seasons": "HSSSSLLLSSHH",
+  "tagline": "Highland capital of coffee, Lucy and injera",
+  "summary": "Addis Ababa is Ethiopia's high-altitude capital and the seat of the African Union. Meet Lucy, the 3.2-million-year-old hominid, at the National Museum, explore the vast Merkato market, join a coffee ceremony, take in a traditional dance show and fly on to Lalibela's rock-hewn churches.",
+  "days": 3,
+  "bestMonths": [
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "October to February is dry and sunny; June to September is the rainy season.",
+  "arrival": "Bole International, Ethiopian Airlines' hub, is 20 minutes from the centre.",
+  "gettingAround": "Ride-hailing apps (Ride, Feres) and the light rail.",
+  "foodTip": "Injera with doro wat and a coffee ceremony.",
+  "buyTip": "Coffee, scarves and silver crosses.",
+  "baseArea": "Bole or Kazanchis",
+  "hotel": [
+   3000,
+   12000
+  ],
+  "connections": [
+   {
+    "to": "lalibela",
+    "mode": "Flight",
+    "minutes": 60,
+    "note": "Daily flights."
+   },
+   {
+    "to": "nairobi",
+    "mode": "Flight",
+    "minutes": 120,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "National Museum and Lucy",
+    "kind": "see",
+    "id": "add-museum",
+    "at": [
+     9.039,
+     38.762
+    ],
+    "wiki": "National Museum of Ethiopia",
+    "area": "Arat Kilo",
+    "summary": "Home of Lucy and Selam, early human fossils.",
+    "expect": "Cheap entry.",
+    "tip": "Allow time for the art floors.",
+    "why": "Meet Lucy.",
+    "flow": [
+     "Lucy.",
+     "Art galleries."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     300
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Holy Trinity Cathedral",
+    "kind": "see",
+    "id": "add-holytrinity",
+    "at": [
+     9.03,
+     38.766
+    ],
+    "wiki": "Holy Trinity Cathedral (Addis Ababa)",
+    "area": "Arat Kilo",
+    "summary": "Ethiopian Orthodox cathedral with Haile Selassie's tomb.",
+    "expect": "Small fee.",
+    "tip": "Cover shoulders and knees.",
+    "why": "Royal tombs.",
+    "flow": [
+     "Cathedral.",
+     "Tomb."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     300
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Merkato",
+    "kind": "see",
+    "id": "add-merkato",
+    "at": [
+     9.035,
+     38.735
+    ],
+    "wiki": "Merkato",
+    "area": "Merkato",
+    "summary": "One of Africa's largest open-air markets.",
+    "expect": "Watch your belongings.",
+    "tip": "Go with a guide.",
+    "why": "Sensory overload.",
+    "flow": [
+     "Spice section.",
+     "Recycling market."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Entoto Hills",
+    "kind": "see",
+    "id": "add-entoto",
+    "at": [
+     9.088,
+     38.76
+    ],
+    "wiki": "Entoto",
+    "area": "Entoto",
+    "summary": "Forested hills above the city with views and Menelik's church.",
+    "expect": "Cool air.",
+    "tip": "Visit Entoto Park.",
+    "why": "City views.",
+    "flow": [
+     "Drive up.",
+     "Church.",
+     "Park."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Ethnological Museum",
+    "kind": "see",
+    "id": "add-ethnological",
+    "at": [
+     9.045,
+     38.763
+    ],
+    "wiki": "Ethnological Museum (Addis Ababa)",
+    "area": "Sidist Kilo",
+    "summary": "In Haile Selassie's former palace on the university campus.",
+    "expect": "Allow 2 hours.",
+    "tip": "See his bedroom with bullet-marked mirror.",
+    "why": "Cultural insight.",
+    "flow": [
+     "Galleries.",
+     "Palace rooms."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     300
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Traditional dance show",
+    "kind": "see",
+    "id": "add-dance",
+    "at": [
+     9.01,
+     38.76
+    ],
+    "wiki": "Ethiopian dance",
+    "area": "Bole",
+    "summary": "Dinner with eskista shoulder dancing.",
+    "expect": "Evenings.",
+    "tip": "Try Yod Abyssinia.",
+    "why": "Lively night.",
+    "flow": [
+     "Dinner.",
+     "Dance."
+    ],
+    "hours": 2.5,
+    "price": [
+     500,
+     1000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Injera and doro wat",
+    "kind": "eat",
+    "id": "add-injera",
+    "at": [
+     9.01,
+     38.76
+    ],
+    "wiki": "Doro wat",
+    "area": "Bole",
+    "venue": "food-area",
+    "summary": "Spicy chicken stew on sourdough injera.",
+    "expect": "Everywhere.",
+    "tip": "Eat with your right hand.",
+    "why": "National dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     300,
+     700
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ethiopian",
+    "order": [
+     "Doro wat",
+     "Beyaynetu"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Coffee ceremony",
+    "kind": "eat",
+    "id": "add-coffee",
+    "at": [
+     9.03,
+     38.75
+    ],
+    "wiki": "Ethiopian coffee ceremony",
+    "area": "Piazza",
+    "venue": "food-area",
+    "summary": "Beans roasted and brewed in a jebena, three rounds.",
+    "expect": "Takes time.",
+    "tip": "Visit Tomoca coffee.",
+    "why": "Birthplace of coffee.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     50,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ethiopian",
+    "order": [
+     "Buna"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Fasting food (beyaynetu)",
+    "kind": "eat",
+    "id": "add-fasting",
+    "at": [
+     9.02,
+     38.76
+    ],
+    "wiki": "Ethiopian cuisine",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Vegan platter served on fasting days.",
+    "expect": "Wednesdays and Fridays.",
+    "tip": "Great for vegans.",
+    "why": "Colourful platter.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ethiopian",
+    "order": [
+     "Beyaynetu"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ }
+]
