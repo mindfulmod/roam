@@ -1,0 +1,526 @@
+{
+  "id": "hobart",
+  "name": "Hobart",
+  "country": "Australia",
+  "region": "Oceania",
+  "lat": -42.8821,
+  "lon": 147.3272,
+  "wiki": "Hobart",
+  "tagline": "Harbour city of MONA, markets and wild Tasmania",
+  "summary": "Hobart is Tasmania's small, characterful capital between a mountain and a deep harbour. Take the ferry to the provocative MONA museum, browse Salamanca Market, drive up kunanyi/Mount Wellington, and day-trip to Port Arthur's convict ruins or Bruny Island's oysters.",
+  "days": 3,
+  "bestMonths": [
+    1,
+    2,
+    3,
+    11,
+    12
+  ],
+  "seasonNote": "Summer is mild and best; winter is cold with snow on the mountain.",
+  "arrival": "Hobart Airport is 20 minutes from the centre.",
+  "gettingAround": "Walk the waterfront; ferry to MONA; car for day trips.",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+    150,
+    400
+  ],
+  "currency": "AUD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Oysters, scallop pies, Tasmanian whisky and Farm Gate Market.",
+  "buyTip": "Huon pine crafts, Tasmanian whisky and leatherwood honey.",
+  "baseArea": "Salamanca, Battery Point or the waterfront",
+  "connections": [
+    {
+      "to": "melbourne",
+      "mode": "Flight",
+      "minutes": 75,
+      "note": "Or the overnight Spirit of Tasmania from Devonport."
+    },
+    {
+      "to": "sydney",
+      "mode": "Flight",
+      "minutes": 110,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hobart on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Hobart",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Hobart%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Hobart%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Hobart waterfront kunanyi Mount Wellington",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "hobart-hob-mona",
+      "name": "MONA",
+      "kind": "see",
+      "lat": -42.8125,
+      "lon": 147.2606,
+      "wiki": "Museum of Old and New Art",
+      "summary": "Underground museum of provocative art reached by ferry.",
+      "expect": "Book the ferry.",
+      "tip": "Allow half a day.",
+      "area": "Berriedale",
+      "duration": 4,
+      "price": [
+        35,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=MONA%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=MONA%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=MONA%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Underground museum of provocative art reached by ferry.",
+        "One of a kind."
+      ],
+      "visitFlow": [
+        "Ferry.",
+        "Underground galleries."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Book the ferry.",
+        "Allow half a day."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hobart-hob-kunanyi",
+      "name": "kunanyi / Mount Wellington",
+      "kind": "see",
+      "lat": -42.896,
+      "lon": 147.237,
+      "wiki": "Mount Wellington",
+      "summary": "Summit lookout 1,271 m above the city.",
+      "expect": "Cold and windy.",
+      "tip": "Bring layers.",
+      "area": "Summit",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=kunanyi%20%2F%20Mount%20Wellington%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=kunanyi%20%2F%20Mount%20Wellington%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=kunanyi%20%2F%20Mount%20Wellington%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Summit lookout 1,271 m above the city.",
+        "City panorama."
+      ],
+      "visitFlow": [
+        "Drive or shuttle.",
+        "Pinnacle boardwalk."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Cold and windy.",
+        "Bring layers."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hobart-hob-salamanca",
+      "name": "Salamanca Place and Market",
+      "kind": "see",
+      "lat": -42.887,
+      "lon": 147.331,
+      "wiki": "Salamanca Market",
+      "summary": "Sandstone warehouses and a big Saturday market.",
+      "expect": "Saturdays.",
+      "tip": "Arrive early.",
+      "area": "Salamanca",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salamanca%20Place%20and%20Market%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=Salamanca%20Place%20and%20Market%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salamanca%20Place%20and%20Market%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping",
+        "History"
+      ],
+      "whyVisit": [
+        "Sandstone warehouses and a big Saturday market.",
+        "Hobart's heart."
+      ],
+      "visitFlow": [
+        "Market.",
+        "Battery Point."
+      ],
+      "bestFor": "Visitors interested in local shopping and history and context",
+      "tradeoffs": [
+        "Saturdays.",
+        "Arrive early."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hobart-hob-portarthur",
+      "name": "Port Arthur Historic Site",
+      "kind": "see",
+      "lat": -43.146,
+      "lon": 147.851,
+      "wiki": "Port Arthur, Tasmania",
+      "summary": "Convict settlement ruins on a beautiful bay.",
+      "expect": "Full day.",
+      "tip": "Ghost tour after dark.",
+      "area": "Tasman Peninsula",
+      "duration": 6,
+      "price": [
+        45,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Port%20Arthur%20Historic%20Site%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=Port%20Arthur%20Historic%20Site%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Port%20Arthur%20Historic%20Site%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Convict settlement ruins on a beautiful bay.",
+        "World Heritage."
+      ],
+      "visitFlow": [
+        "Penitentiary.",
+        "Harbour cruise."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Full day.",
+        "Ghost tour after dark."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hobart-hob-bruny",
+      "name": "Bruny Island",
+      "kind": "see",
+      "lat": -43.3,
+      "lon": 147.33,
+      "wiki": "Bruny Island",
+      "summary": "Island of cliffs, oysters and The Neck lookout.",
+      "expect": "Car ferry from Kettering.",
+      "tip": "Join a food tour.",
+      "area": "Day trip",
+      "duration": 7,
+      "price": [
+        0,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bruny%20Island%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=Bruny%20Island%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bruny%20Island%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Food",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Island of cliffs, oysters and The Neck lookout.",
+        "Wild Tasmania."
+      ],
+      "visitFlow": [
+        "The Neck.",
+        "Oysters and cheese."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and regional food",
+      "tradeoffs": [
+        "Car ferry from Kettering.",
+        "Join a food tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hobart-hob-battery",
+      "name": "Battery Point",
+      "kind": "see",
+      "lat": -42.889,
+      "lon": 147.334,
+      "wiki": "Battery Point, Tasmania",
+      "summary": "Colonial cottages and Arthur Circus.",
+      "expect": "Free.",
+      "tip": "Stroll after the market.",
+      "area": "Battery Point",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Battery%20Point%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=Battery%20Point%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Battery%20Point%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Colonial cottages and Arthur Circus.",
+        "Old Hobart."
+      ],
+      "visitFlow": [
+        "Kelly's Steps.",
+        "Arthur Circus."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Stroll after the market."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "hobart-hob-seafood",
+      "name": "Waterfront seafood",
+      "kind": "eat",
+      "lat": -42.883,
+      "lon": 147.333,
+      "wiki": "Constitution Dock",
+      "summary": "Floating fish-and-chip punts and oyster bars.",
+      "expect": "All day.",
+      "tip": "Try Flippers.",
+      "area": "Waterfront",
+      "duration": 1,
+      "price": [
+        18,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Waterfront%20seafood%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=Waterfront%20seafood%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Waterfront%20seafood%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Floating fish-and-chip punts and oyster bars.",
+        "Fresh from the sea."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "All day.",
+        "Try Flippers."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Oysters",
+        "Scallop pie",
+        "Fish and chips"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "hobart-hob-farmgate",
+      "name": "Farm Gate Market",
+      "kind": "eat",
+      "lat": -42.883,
+      "lon": 147.327,
+      "wiki": "Hobart",
+      "summary": "Sunday farmers' market of Tasmanian produce.",
+      "expect": "Sundays.",
+      "tip": "Breakfast there.",
+      "area": "City",
+      "duration": 1,
+      "price": [
+        10,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Farm%20Gate%20Market%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=Farm%20Gate%20Market%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Farm%20Gate%20Market%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Sunday farmers' market of Tasmanian produce.",
+        "Local produce."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Sundays.",
+        "Breakfast there."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Australian",
+      "mustOrder": [
+        "Pastries",
+        "Berries"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "hobart-hob-whisky",
+      "name": "Tasmanian whisky",
+      "kind": "eat",
+      "lat": -42.881,
+      "lon": 147.333,
+      "wiki": "Tasmanian whisky",
+      "summary": "Award-winning island single malts in tasting bars.",
+      "expect": "Evenings.",
+      "tip": "Try Lark or Sullivans Cove.",
+      "area": "Waterfront",
+      "duration": 1,
+      "price": [
+        15,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tasmanian%20whisky%2C%20Hobart",
+        "https://www.google.com/maps/search/?api=1&query=Tasmanian%20whisky%2C%20Hobart"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tasmanian%20whisky%2C%20Hobart"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Award-winning island single malts in tasting bars.",
+        "Island spirit."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Try Lark or Sullivans Cove."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Drinks",
+      "mustOrder": [
+        "Single malt flight"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

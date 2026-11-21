@@ -1,0 +1,522 @@
+{
+  "id": "gold-coast",
+  "name": "Gold Coast",
+  "country": "Australia",
+  "region": "Oceania",
+  "lat": -28.0167,
+  "lon": 153.4,
+  "wiki": "Gold Coast, Queensland",
+  "tagline": "Surf beaches, theme parks and rainforest hinterland",
+  "summary": "The Gold Coast is Australia's playground: 50 km of surf beaches backed by high-rises, with theme parks inland and ancient rainforest in the hinterland. Surf or swim at Burleigh Heads, ride to the top of SkyPoint, meet koalas at Currumbin and see glow-worms at Springbrook's Natural Bridge.",
+  "days": 3,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    8,
+    9,
+    10
+  ],
+  "seasonNote": "Winter (June to August) is sunny and mild; summer is hot, humid and busy with school holidays.",
+  "arrival": "Gold Coast Airport (Coolangatta) is 25 minutes from Burleigh; Brisbane Airport is about 75 minutes by train.",
+  "gettingAround": "The G:link tram runs along the coast; a car helps for the hinterland.",
+  "cashTip": "Cards and tap-to-pay work almost everywhere; cash is rarely needed.",
+  "dailyBudget": [
+    150,
+    400
+  ],
+  "currency": "AUD",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Fish and chips on the beach, Miami Marketta street food and Broadbeach dining.",
+  "buyTip": "Surfwear and Australian swim brands.",
+  "baseArea": "Burleigh Heads, Broadbeach or Surfers Paradise",
+  "connections": [
+    {
+      "to": "brisbane",
+      "mode": "Train",
+      "minutes": 75,
+      "note": "Tram plus train, or an hour's drive."
+    },
+    {
+      "to": "sydney",
+      "mode": "Flight",
+      "minutes": 85,
+      "note": "Frequent flights from Coolangatta."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Gold Coast on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Gold_Coast%2C_Queensland",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Gold%20Coast%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Gold%20Coast%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Surfers Paradise Gold Coast beach skyline",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "gold-coast-gc-surfers",
+      "name": "Surfers Paradise beach",
+      "kind": "see",
+      "lat": -28.002,
+      "lon": 153.431,
+      "wiki": "Surfers Paradise, Queensland",
+      "summary": "Famous golden beach under the skyline.",
+      "expect": "Swim between the flags.",
+      "tip": "Early morning is calm.",
+      "area": "Surfers Paradise",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Surfers%20Paradise%20beach%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Surfers%20Paradise%20beach%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Surfers%20Paradise%20beach%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Famous golden beach under the skyline.",
+        "Gold Coast icon."
+      ],
+      "visitFlow": [
+        "Beach.",
+        "Esplanade."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Swim between the flags.",
+        "Early morning is calm."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "gold-coast-gc-burleigh",
+      "name": "Burleigh Heads",
+      "kind": "see",
+      "lat": -28.088,
+      "lon": 153.454,
+      "wiki": "Burleigh Heads, Queensland",
+      "summary": "Surf point and headland national park walk.",
+      "expect": "Free.",
+      "tip": "Sunset from the hill.",
+      "area": "Burleigh",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Burleigh%20Heads%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Burleigh%20Heads%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Burleigh%20Heads%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Surf point and headland national park walk.",
+        "Local favourite."
+      ],
+      "visitFlow": [
+        "Headland walk.",
+        "Surf watch."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Free.",
+        "Sunset from the hill."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "gold-coast-gc-skypoint",
+      "name": "SkyPoint Observation Deck",
+      "kind": "see",
+      "lat": -28.006,
+      "lon": 153.43,
+      "wiki": "Q1 (building)",
+      "summary": "Deck high up in the Q1 tower.",
+      "expect": "Paid.",
+      "tip": "Go at sunset.",
+      "area": "Surfers Paradise",
+      "duration": 1,
+      "price": [
+        33,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=SkyPoint%20Observation%20Deck%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=SkyPoint%20Observation%20Deck%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=SkyPoint%20Observation%20Deck%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Deck high up in the Q1 tower.",
+        "Coast panorama."
+      ],
+      "visitFlow": [
+        "Lift.",
+        "Deck."
+      ],
+      "bestFor": "Visitors interested in big views",
+      "tradeoffs": [
+        "Paid.",
+        "Go at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "gold-coast-gc-springbrook",
+      "name": "Springbrook Natural Bridge",
+      "kind": "see",
+      "lat": -28.233,
+      "lon": 153.273,
+      "wiki": "Natural Bridge, Queensland",
+      "summary": "Rainforest arch with waterfall and glow-worms after dark.",
+      "expect": "Short walk.",
+      "tip": "Go after dusk for glow-worms.",
+      "area": "Hinterland",
+      "duration": 4,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Springbrook%20Natural%20Bridge%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Springbrook%20Natural%20Bridge%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Springbrook%20Natural%20Bridge%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Rainforest arch with waterfall and glow-worms after dark.",
+        "Gondwana rainforest."
+      ],
+      "visitFlow": [
+        "Rainforest walk.",
+        "Glow-worm cave."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Short walk.",
+        "Go after dusk for glow-worms."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "gold-coast-gc-currumbin",
+      "name": "Currumbin Wildlife Sanctuary",
+      "kind": "see",
+      "lat": -28.136,
+      "lon": 153.487,
+      "wiki": "Currumbin Wildlife Sanctuary",
+      "summary": "Koalas, kangaroos and lorikeet feeding.",
+      "expect": "Paid.",
+      "tip": "Morning feeding.",
+      "area": "Currumbin",
+      "duration": 3,
+      "price": [
+        50,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Currumbin%20Wildlife%20Sanctuary%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Currumbin%20Wildlife%20Sanctuary%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Currumbin%20Wildlife%20Sanctuary%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Koalas, kangaroos and lorikeet feeding.",
+        "Australian wildlife."
+      ],
+      "visitFlow": [
+        "Koalas.",
+        "Lorikeets."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Paid.",
+        "Morning feeding."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "gold-coast-gc-movieworld",
+      "name": "Theme parks",
+      "kind": "see",
+      "lat": -27.907,
+      "lon": 153.312,
+      "wiki": "Warner Bros. Movie World",
+      "summary": "Movie World, Sea World, Dreamworld and water parks.",
+      "expect": "Big queues in holidays.",
+      "tip": "Buy multi-park passes.",
+      "area": "Oxenford",
+      "duration": 7,
+      "price": [
+        100,
+        130
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Theme%20parks%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Theme%20parks%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Theme%20parks%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Movie World, Sea World, Dreamworld and water parks.",
+        "Thrill rides."
+      ],
+      "visitFlow": [
+        "Rides.",
+        "Shows."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Big queues in holidays.",
+        "Buy multi-park passes."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "gold-coast-gc-miami",
+      "name": "Miami Marketta",
+      "kind": "eat",
+      "lat": -28.07,
+      "lon": 153.44,
+      "wiki": "Miami, Queensland",
+      "summary": "Night street-food market with live music.",
+      "expect": "Wed, Fri and Sat nights.",
+      "tip": "Go hungry.",
+      "area": "Miami",
+      "duration": 1.5,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Miami%20Marketta%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Miami%20Marketta%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Miami%20Marketta%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Night street-food market with live music.",
+        "Local night out."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Wed, Fri and Sat nights.",
+        "Go hungry."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "International",
+      "mustOrder": [
+        "Street food"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "gold-coast-gc-fishchips",
+      "name": "Beach fish and chips",
+      "kind": "eat",
+      "lat": -28.087,
+      "lon": 153.45,
+      "wiki": "Fish and chips",
+      "summary": "Fresh local fish eaten on the sand.",
+      "expect": "Lunch.",
+      "tip": "Watch the seagulls.",
+      "area": "Burleigh",
+      "duration": 1,
+      "price": [
+        18,
+        28
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Beach%20fish%20and%20chips%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Beach%20fish%20and%20chips%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Beach%20fish%20and%20chips%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fresh local fish eaten on the sand.",
+        "Classic Aussie."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lunch.",
+        "Watch the seagulls."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Fish and chips",
+        "Prawns"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "gold-coast-gc-broadbeach",
+      "name": "Broadbeach dining",
+      "kind": "eat",
+      "lat": -28.032,
+      "lon": 153.431,
+      "wiki": "Broadbeach, Queensland",
+      "summary": "Restaurant strip with cafés and seafood.",
+      "expect": "Evenings.",
+      "tip": "Weekend brunch too.",
+      "area": "Broadbeach",
+      "duration": 1.5,
+      "price": [
+        30,
+        60
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Broadbeach%20dining%2C%20Gold%20Coast",
+        "https://www.google.com/maps/search/?api=1&query=Broadbeach%20dining%2C%20Gold%20Coast"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Broadbeach%20dining%2C%20Gold%20Coast"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Restaurant strip with cafés and seafood.",
+        "Dining hub."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Weekend brunch too."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Modern Australian",
+      "mustOrder": [
+        "Moreton Bay bugs",
+        "Brunch"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
