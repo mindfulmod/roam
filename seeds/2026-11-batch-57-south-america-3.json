@@ -1,0 +1,2429 @@
+[
+ {
+  "country": "Argentina",
+  "region": "South America",
+  "currency": "ARS",
+  "cashTip": "Argentine prices and exchange rules change quickly; treat peso prices as rough guides. Cards work widely; foreign cards often get a favourable rate.",
+  "dailyBudget": [
+   70000,
+   180000
+  ],
+  "cashPerDay": [
+   20000,
+   50000
+  ],
+  "id": "salta",
+  "name": "Salta",
+  "at": [
+   -24.7883,
+   -65.4106
+  ],
+  "wiki": "Salta",
+  "cover": "Salta cathedral Argentina",
+  "seasons": "SSSHHHHHHSSS",
+  "tagline": "Colonial 'Salta la Linda' and gateway to rainbow canyons",
+  "summary": "Salta is Argentina's most beautiful colonial city, set in a green valley of the northwest Andes. Ride the cable car up San Bernardo hill, see the Inca mummies at the MAAM museum, sing along at a folk peña, and road-trip to Cafayate's canyons and Purmamarca's seven-coloured mountain.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "The dry season (April to October) is best; summer brings rain.",
+  "arrival": "Salta airport is 20 minutes from the centre with flights from Buenos Aires.",
+  "gettingAround": "Walk the centre; rent a car or join tours for the quebradas.",
+  "foodTip": "Empanadas salteñas, locro, humitas and torrontés wine.",
+  "buyTip": "Ponchos, llama wool and silverwork.",
+  "baseArea": "Centre near Plaza 9 de Julio",
+  "hotel": [
+   60000,
+   150000
+  ],
+  "connections": [
+   {
+    "to": "buenos-aires",
+    "mode": "Flight",
+    "minutes": 130,
+    "note": "Daily flights."
+   },
+   {
+    "to": "uyuni",
+    "mode": "Bus",
+    "minutes": 900,
+    "note": "Via the Villazón border; or tours via San Pedro de Atacama."
+   }
+  ],
+  "items": [
+   {
+    "name": "Plaza 9 de Julio and Cathedral",
+    "kind": "see",
+    "id": "sla-plaza",
+    "at": [
+     -24.7887,
+     -65.41
+    ],
+    "wiki": "Salta Cathedral",
+    "area": "Centre",
+    "summary": "Arcaded main square with the pink cathedral and San Francisco church nearby.",
+    "expect": "Free.",
+    "tip": "Evening lights.",
+    "why": "Colonial heart.",
+    "flow": [
+     "Cathedral.",
+     "San Francisco church."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "MAAM museum",
+    "kind": "see",
+    "id": "sla-maam",
+    "at": [
+     -24.7895,
+     -65.411
+    ],
+    "wiki": "Museum of High Altitude Archaeology",
+    "area": "Centre",
+    "summary": "Inca child mummies found on Llullaillaco volcano.",
+    "expect": "Paid.",
+    "tip": "One mummy is shown at a time.",
+    "why": "Remarkable history.",
+    "flow": [
+     "Mummies.",
+     "Inca offerings."
+    ],
+    "hours": 1.5,
+    "price": [
+     8000,
+     12000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Cerro San Bernardo",
+    "kind": "see",
+    "id": "sla-bernardo",
+    "at": [
+     -24.788,
+     -65.399
+    ],
+    "wiki": "Cerro San Bernardo",
+    "area": "East",
+    "summary": "Cable car to gardens and a city view.",
+    "expect": "Paid cable car.",
+    "tip": "Walk down the steps.",
+    "why": "City panorama.",
+    "flow": [
+     "Cable car.",
+     "Gardens."
+    ],
+    "hours": 1.5,
+    "price": [
+     8000,
+     12000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Quebrada de las Conchas and Cafayate",
+    "kind": "see",
+    "id": "sla-cafayate",
+    "at": [
+     -26.073,
+     -65.976
+    ],
+    "wiki": "Quebrada de las Conchas",
+    "area": "Day trip",
+    "summary": "Red rock canyon road to the wine town of Cafayate.",
+    "expect": "Long day.",
+    "tip": "Stay overnight in Cafayate.",
+    "why": "Spectacular road.",
+    "flow": [
+     "Garganta del Diablo.",
+     "Wineries."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     30000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Food"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Purmamarca and Humahuaca",
+    "kind": "see",
+    "id": "sla-purmamarca",
+    "at": [
+     -23.745,
+     -65.499
+    ],
+    "wiki": "Purmamarca",
+    "area": "Day trip",
+    "summary": "Hill of Seven Colours and the Quebrada de Humahuaca.",
+    "expect": "Long day.",
+    "tip": "Morning light on the hill.",
+    "why": "UNESCO valley.",
+    "flow": [
+     "Cerro de los Siete Colores.",
+     "Tilcara."
+    ],
+    "hours": 11,
+    "price": [
+     0,
+     20000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "San Lorenzo",
+    "kind": "see",
+    "id": "sla-sanlorenzo",
+    "at": [
+     -24.73,
+     -65.486
+    ],
+    "wiki": "San Lorenzo, Salta",
+    "area": "San Lorenzo",
+    "summary": "Green hill village with a forest walk.",
+    "expect": "Free.",
+    "tip": "Quebrada de San Lorenzo trail.",
+    "why": "Easy escape.",
+    "flow": [
+     "Trail.",
+     "Cafés."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Empanadas salteñas",
+    "kind": "eat",
+    "id": "sla-empanadas",
+    "at": [
+     -24.789,
+     -65.412
+    ],
+    "wiki": "Empanada",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Small juicy baked empanadas with beef, potato and egg.",
+    "expect": "Everywhere.",
+    "tip": "Try several fillings.",
+    "why": "Argentina's best empanadas.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Empanada salteña",
+     "Humita"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Folk peña dinner",
+    "kind": "eat",
+    "id": "sla-pena",
+    "at": [
+     -24.78,
+     -65.412
+    ],
+    "wiki": "Peña (folk music)",
+    "area": "Balcarce",
+    "venue": "food-area",
+    "summary": "Dinner with live folk music and dance.",
+    "expect": "Evenings.",
+    "tip": "Calle Balcarce.",
+    "why": "Salta's soul.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 3,
+    "price": [
+     15000,
+     30000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Locro",
+     "Tamales"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Locro and humita",
+    "kind": "eat",
+    "id": "sla-locro",
+    "at": [
+     -24.788,
+     -65.41
+    ],
+    "wiki": "Locro",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Hearty corn stew and steamed corn parcels.",
+    "expect": "Lunch.",
+    "tip": "Mercado San Miguel.",
+    "why": "Andean comfort.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5000,
+     10000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Andean",
+    "order": [
+     "Locro",
+     "Humita"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Uruguay",
+  "region": "South America",
+  "currency": "UYU",
+  "cashTip": "Cards work almost everywhere and foreign cards often get a VAT refund at restaurants.",
+  "dailyBudget": [
+   3500,
+   9000
+  ],
+  "cashPerDay": [
+   500,
+   1500
+  ],
+  "id": "punta-del-este",
+  "name": "Punta del Este",
+  "at": [
+   -34.96,
+   -54.95
+  ],
+  "wiki": "Punta del Este",
+  "cover": "Punta del Este La Mano",
+  "seasons": "HHSLLLLLLLSH",
+  "tagline": "Glamorous beach peninsula of the Río de la Plata",
+  "summary": "Punta del Este is South America's chic summer resort, on a peninsula between calm and wild beaches. Pose with the giant hand on Playa Brava, see Casapueblo's white sculpture-hotel at sunset, visit sea lions at the port and lunch in barefoot-luxe José Ignacio.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "December to February is peak summer; the town is quiet the rest of the year.",
+  "arrival": "Laguna del Sauce airport is 20 minutes away; buses from Montevideo take 2 hours.",
+  "gettingAround": "Walk the peninsula; buses or car for the coast.",
+  "foodTip": "Grilled fish, chivito and parrilla.",
+  "buyTip": "Leather, wool and local design.",
+  "baseArea": "The peninsula or La Barra",
+  "hotel": [
+   5000,
+   15000
+  ],
+  "connections": [
+   {
+    "to": "montevideo",
+    "mode": "Bus",
+    "minutes": 120,
+    "note": "Frequent buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "La Mano (Los Dedos)",
+    "kind": "see",
+    "id": "pde-mano",
+    "at": [
+     -34.958,
+     -54.937
+    ],
+    "wiki": "La Mano",
+    "area": "Playa Brava",
+    "summary": "Giant hand sculpture emerging from the sand.",
+    "expect": "Free.",
+    "tip": "Early morning photos.",
+    "why": "Icon.",
+    "flow": [
+     "Sculpture.",
+     "Playa Brava."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Casapueblo",
+    "kind": "see",
+    "id": "pde-casapueblo",
+    "at": [
+     -34.905,
+     -55.044
+    ],
+    "wiki": "Casapueblo",
+    "area": "Punta Ballena",
+    "summary": "Carlos Páez Vilaró's whitewashed cliff house and museum.",
+    "expect": "Paid.",
+    "tip": "Sunset ceremony.",
+    "why": "Unique architecture.",
+    "flow": [
+     "Museum.",
+     "Sunset."
+    ],
+    "hours": 2,
+    "price": [
+     500,
+     500
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Port and sea lions",
+    "kind": "see",
+    "id": "pde-port",
+    "at": [
+     -34.965,
+     -54.953
+    ],
+    "wiki": "Punta del Este",
+    "area": "Port",
+    "summary": "Marina where sea lions wait for fishermen.",
+    "expect": "Free.",
+    "tip": "Morning catch.",
+    "why": "Wildlife up close.",
+    "flow": [
+     "Sea lions.",
+     "Yachts."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "José Ignacio",
+    "kind": "see",
+    "id": "pde-joseignacio",
+    "at": [
+     -34.844,
+     -54.63
+    ],
+    "wiki": "José Ignacio",
+    "area": "José Ignacio",
+    "summary": "Chic village with a lighthouse and beach restaurants.",
+    "expect": "Car or bus.",
+    "tip": "Lunch at La Huella.",
+    "why": "Barefoot luxury.",
+    "flow": [
+     "Lighthouse.",
+     "Beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Isla de Lobos boat trip",
+    "kind": "see",
+    "id": "pde-lobos",
+    "at": [
+     -35.027,
+     -54.883
+    ],
+    "wiki": "Isla de Lobos",
+    "area": "Offshore",
+    "summary": "Island with one of the world's largest sea lion colonies.",
+    "expect": "Boat tours.",
+    "tip": "Calm days.",
+    "why": "Marine life.",
+    "flow": [
+     "Boat.",
+     "Colony."
+    ],
+    "hours": 2.5,
+    "price": [
+     2000,
+     3500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Avenida Gorlero",
+    "kind": "see",
+    "id": "pde-gorlero",
+    "at": [
+     -34.961,
+     -54.944
+    ],
+    "wiki": "Punta del Este",
+    "area": "Peninsula",
+    "summary": "Main street of shops and cafés.",
+    "expect": "Free.",
+    "tip": "Evening.",
+    "why": "Resort life.",
+    "flow": [
+     "Shops.",
+     "Cafés."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Grilled fish at the port",
+    "kind": "eat",
+    "id": "pde-fish",
+    "at": [
+     -34.964,
+     -54.952
+    ],
+    "wiki": "Uruguayan cuisine",
+    "area": "Port",
+    "venue": "food-area",
+    "summary": "Fresh catch at portside grills.",
+    "expect": "Lunch.",
+    "tip": "Try brótola.",
+    "why": "Seaside classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     800,
+     1800
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Grilled fish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Chivito",
+    "kind": "eat",
+    "id": "pde-chivito",
+    "at": [
+     -34.96,
+     -54.945
+    ],
+    "wiki": "Chivito (sandwich)",
+    "area": "Peninsula",
+    "venue": "food-area",
+    "summary": "Uruguay's loaded steak sandwich.",
+    "expect": "Anytime.",
+    "tip": "Share one.",
+    "why": "National sandwich.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     900
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Uruguayan",
+    "order": [
+     "Chivito"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Parrilla dinner",
+    "kind": "eat",
+    "id": "pde-parrilla",
+    "at": [
+     -34.958,
+     -54.942
+    ],
+    "wiki": "Asado",
+    "area": "Peninsula",
+    "venue": "food-area",
+    "summary": "Wood-fired beef and lamb.",
+    "expect": "Late dinner.",
+    "tip": "Order the asado de tira.",
+    "why": "Grill culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     1200,
+     2500
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Uruguayan",
+    "order": [
+     "Asado",
+     "Provoleta"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Uruguay",
+  "region": "South America",
+  "currency": "UYU",
+  "cashTip": "Cards work almost everywhere and foreign cards often get a VAT refund at restaurants.",
+  "dailyBudget": [
+   3500,
+   9000
+  ],
+  "cashPerDay": [
+   500,
+   1500
+  ],
+  "id": "colonia",
+  "name": "Colonia del Sacramento",
+  "at": [
+   -34.471,
+   -57.844
+  ],
+  "wiki": "Colonia del Sacramento",
+  "cover": "Colonia del Sacramento street",
+  "seasons": "SSSSLLLLSSSS",
+  "tagline": "Cobbled Portuguese riverside town, an easy hop from Buenos Aires",
+  "summary": "Colonia del Sacramento is a UNESCO-listed old town of cobbled lanes, vintage cars and ivy-covered houses on the Río de la Plata. Walk the Calle de los Suspiros, climb the lighthouse, rent a golf cart to the bullring at Real de San Carlos and watch a slow riverside sunset.",
+  "days": 1,
+  "bestMonths": [
+   3,
+   4,
+   10,
+   11,
+   12
+  ],
+  "seasonNote": "Mild spring and autumn are ideal; summer weekends fill with day-trippers.",
+  "arrival": "Fast ferries from Buenos Aires take about 75 minutes; buses from Montevideo take 2.5 hours.",
+  "gettingAround": "Walk the old town; golf carts or bikes for the coast.",
+  "foodTip": "Chivito, parrilla and dulce de leche.",
+  "buyTip": "Leather, ceramics and local wine.",
+  "baseArea": "Barrio Histórico",
+  "hotel": [
+   3500,
+   9000
+  ],
+  "connections": [
+   {
+    "to": "buenos-aires",
+    "mode": "Ferry",
+    "minutes": 75,
+    "note": "Buquebus and Colonia Express."
+   },
+   {
+    "to": "montevideo",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "Frequent buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Barrio Histórico",
+    "kind": "see",
+    "id": "col-barrio",
+    "at": [
+     -34.472,
+     -57.851
+    ],
+    "wiki": "Historic Quarter of the City of Colonia del Sacramento",
+    "area": "Old town",
+    "summary": "Cobbled Portuguese and Spanish colonial streets.",
+    "expect": "Free.",
+    "tip": "Morning before ferries arrive.",
+    "why": "UNESCO town.",
+    "flow": [
+     "Plaza Mayor.",
+     "Old houses."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Calle de los Suspiros",
+    "kind": "see",
+    "id": "col-suspiros",
+    "at": [
+     -34.472,
+     -57.85
+    ],
+    "wiki": "Calle de los Suspiros",
+    "area": "Old town",
+    "summary": "Picturesque sloping lane of colonial houses.",
+    "expect": "Free.",
+    "tip": "Early light.",
+    "why": "Famous street.",
+    "flow": [
+     "Lane.",
+     "River end."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Colonia lighthouse",
+    "kind": "see",
+    "id": "col-lighthouse",
+    "at": [
+     -34.473,
+     -57.853
+    ],
+    "wiki": "Faro de Colonia del Sacramento",
+    "area": "Old town",
+    "summary": "Lighthouse amid convent ruins.",
+    "expect": "Small fee.",
+    "tip": "Sunset climb.",
+    "why": "Best view.",
+    "flow": [
+     "Ruins.",
+     "Climb."
+    ],
+    "hours": 0.5,
+    "price": [
+     50,
+     50
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Portón de Campo",
+    "kind": "see",
+    "id": "col-porton",
+    "at": [
+     -34.471,
+     -57.848
+    ],
+    "wiki": "Portón de Campo",
+    "area": "Old town",
+    "summary": "Reconstructed city gate and drawbridge.",
+    "expect": "Free.",
+    "tip": "Start here.",
+    "why": "Gateway.",
+    "flow": [
+     "Drawbridge.",
+     "Walls."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Real de San Carlos",
+    "kind": "see",
+    "id": "col-sancarlos",
+    "at": [
+     -34.446,
+     -57.837
+    ],
+    "wiki": "Real de San Carlos",
+    "area": "North",
+    "summary": "Abandoned Moorish-style bullring.",
+    "expect": "Free outside.",
+    "tip": "Ride a golf cart.",
+    "why": "Quirky ruin.",
+    "flow": [
+     "Bullring.",
+     "Riverside."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Playa Ferrando",
+    "kind": "see",
+    "id": "col-ferrando",
+    "at": [
+     -34.477,
+     -57.827
+    ],
+    "wiki": "Colonia del Sacramento",
+    "area": "East",
+    "summary": "Quiet river beach.",
+    "expect": "Free.",
+    "tip": "Sunset picnic.",
+    "why": "Relax.",
+    "flow": [
+     "Beach.",
+     "Sunset."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Chivito",
+    "kind": "eat",
+    "id": "col-chivito",
+    "at": [
+     -34.4715,
+     -57.849
+    ],
+    "wiki": "Chivito (sandwich)",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Steak sandwich with ham, egg and cheese.",
+    "expect": "Lunch.",
+    "tip": "Share.",
+    "why": "Uruguayan staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     900
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Uruguayan",
+    "order": [
+     "Chivito"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Parrilla",
+    "kind": "eat",
+    "id": "col-parrilla",
+    "at": [
+     -34.471,
+     -57.847
+    ],
+    "wiki": "Asado",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Grilled meats in garden restaurants.",
+    "expect": "Dinner.",
+    "tip": "Ask for vacío.",
+    "why": "Grill culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     1200,
+     2500
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Uruguayan",
+    "order": [
+     "Asado"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Dulce de leche treats",
+    "kind": "eat",
+    "id": "col-dulce",
+    "at": [
+     -34.472,
+     -57.848
+    ],
+    "wiki": "Dulce de leche",
+    "area": "Old town",
+    "venue": "food-area",
+    "summary": "Alfajores and ice cream.",
+    "expect": "Afternoon.",
+    "tip": "Buy a jar.",
+    "why": "Sweet tooth.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     150,
+     400
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dessert",
+    "order": [
+     "Alfajor",
+     "Helado"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Bolivia",
+  "region": "South America",
+  "currency": "BOB",
+  "cashTip": "Carry small boliviano notes; ATMs can be scarce outside cities. Tours are often paid in cash.",
+  "dailyBudget": [
+   200,
+   600
+  ],
+  "cashPerDay": [
+   100,
+   250
+  ],
+  "id": "sucre",
+  "name": "Sucre",
+  "at": [
+   -19.0476,
+   -65.2595
+  ],
+  "wiki": "Sucre",
+  "cover": "Sucre Bolivia white city",
+  "seasons": "SSSHHHHHHSSS",
+  "tagline": "Bolivia's whitewashed constitutional capital",
+  "summary": "Sucre is Bolivia's elegant White City, a UNESCO-listed colonial capital at a mild altitude. See where independence was declared at the Casa de la Libertad, watch the sunset from the Recoleta lookout, see dinosaur footprints on a cliff, and shop for weavings at the Sunday market in Tarabuco.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "The dry season (April to October) is sunny; summer brings afternoon rain.",
+  "arrival": "Alcantarí airport is 30 minutes away; buses run from Potosí and La Paz.",
+  "gettingAround": "Walk the centre; micros and taxis are cheap.",
+  "foodTip": "Salteñas, chorizo chuquisaqueño and chocolate.",
+  "buyTip": "Jalq'a and Tarabuco textiles, chocolate.",
+  "baseArea": "Centre near Plaza 25 de Mayo",
+  "hotel": [
+   200,
+   600
+  ],
+  "connections": [
+   {
+    "to": "uyuni",
+    "mode": "Bus",
+    "minutes": 540,
+    "note": "Via Potosí."
+   },
+   {
+    "to": "la-paz",
+    "mode": "Flight",
+    "minutes": 50,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Casa de la Libertad",
+    "kind": "see",
+    "id": "suc-libertad",
+    "at": [
+     -19.048,
+     -65.26
+    ],
+    "wiki": "Casa de la Libertad",
+    "area": "Centre",
+    "summary": "Where Bolivia's independence was signed in 1825.",
+    "expect": "Guided tours.",
+    "tip": "Ask for English.",
+    "why": "National history.",
+    "flow": [
+     "Hall of Independence.",
+     "Portraits."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "La Recoleta lookout",
+    "kind": "see",
+    "id": "suc-recoleta",
+    "at": [
+     -19.054,
+     -65.253
+    ],
+    "wiki": "Recoleta, Sucre",
+    "area": "Recoleta",
+    "summary": "Arched viewpoint and convent above the city.",
+    "expect": "Free.",
+    "tip": "Sunset with a juice.",
+    "why": "Best view.",
+    "flow": [
+     "Arches.",
+     "Convent."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Parque Cretácico",
+    "kind": "see",
+    "id": "suc-cretacico",
+    "at": [
+     -19.004,
+     -65.274
+    ],
+    "wiki": "Cal Orck'o",
+    "area": "North",
+    "summary": "Cliff with thousands of dinosaur footprints.",
+    "expect": "Paid; bus from the centre.",
+    "tip": "Noon tour lets you get closer.",
+    "why": "Prehistoric wall.",
+    "flow": [
+     "Footprint wall.",
+     "Life-size models."
+    ],
+    "hours": 2.5,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Midday",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Tarabuco Sunday market",
+    "kind": "see",
+    "id": "suc-tarabuco",
+    "at": [
+     -19.18,
+     -64.915
+    ],
+    "wiki": "Tarabuco",
+    "area": "Day trip",
+    "summary": "Indigenous market famous for weavings.",
+    "expect": "Sundays only.",
+    "tip": "Bus early.",
+    "why": "Living culture.",
+    "flow": [
+     "Market.",
+     "Textiles."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "ASUR Textile Museum",
+    "kind": "see",
+    "id": "suc-asur",
+    "at": [
+     -19.051,
+     -65.256
+    ],
+    "wiki": "Sucre",
+    "area": "Centre",
+    "summary": "Museum of indigenous weaving.",
+    "expect": "Small fee.",
+    "tip": "Watch weavers at work.",
+    "why": "Craft heritage.",
+    "flow": [
+     "Weavings.",
+     "Workshop."
+    ],
+    "hours": 1,
+    "price": [
+     25,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Metropolitan Cathedral",
+    "kind": "see",
+    "id": "suc-cathedral",
+    "at": [
+     -19.0475,
+     -65.26
+    ],
+    "wiki": "Sucre Cathedral",
+    "area": "Centre",
+    "summary": "Renaissance-baroque cathedral on the main square.",
+    "expect": "Small fee for museum.",
+    "tip": "Climb the tower.",
+    "why": "Colonial grandeur.",
+    "flow": [
+     "Museum.",
+     "Square."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Salteñas",
+    "kind": "eat",
+    "id": "suc-saltenas",
+    "at": [
+     -19.047,
+     -65.259
+    ],
+    "wiki": "Salteña",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Juicy baked pastries eaten mid-morning.",
+    "expect": "Before noon.",
+    "tip": "Don't spill the juice.",
+    "why": "Bolivian ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bolivian",
+    "order": [
+     "Salteña"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mercado Central",
+    "kind": "eat",
+    "id": "suc-mercado",
+    "at": [
+     -19.046,
+     -65.258
+    ],
+    "wiki": "Sucre",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Juice stalls and set lunches.",
+    "expect": "Daytime.",
+    "tip": "Fruit salad upstairs.",
+    "why": "Cheap and fresh.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bolivian",
+    "order": [
+     "Fruit juice",
+     "Almuerzo"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Sucre chocolate",
+    "kind": "eat",
+    "id": "suc-chocolate",
+    "at": [
+     -19.048,
+     -65.259
+    ],
+    "wiki": "Chocolate",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Local chocolatiers like Para Ti.",
+    "expect": "Daytime.",
+    "tip": "Hot chocolate.",
+    "why": "Sweet specialty.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dessert",
+    "order": [
+     "Chocolate"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Peru",
+  "region": "South America",
+  "currency": "PEN",
+  "cashTip": "Carry soles for markets, boats and tips; cards work in hotels and bigger restaurants.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   50,
+   120
+  ],
+  "id": "puno",
+  "name": "Puno and Lake Titicaca",
+  "at": [
+   -15.8402,
+   -70.0219
+  ],
+  "wiki": "Puno",
+  "cover": "Uros floating islands Lake Titicaca",
+  "seasons": "SSSSHHHHSSSS",
+  "tagline": "Floating reed islands on the world's highest navigable lake",
+  "summary": "Puno sits on the shore of Lake Titicaca at 3,800 m, the starting point for island visits. Boat out to the Uros reed islands, stay with a family on Amantaní, see the textile traditions of Taquile, explore the burial towers of Sillustani and cross into Bolivia for Copacabana and the Isla del Sol.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "Dry season (May to October) is sunny but nights are freezing; February has the Candelaria festival.",
+  "arrival": "Juliaca airport is 45 minutes away; buses and the PeruRail Titicaca train come from Cusco.",
+  "gettingAround": "Boats for islands; taxis and tours on land.",
+  "foodTip": "Lake trout, quinoa soup and alpaca.",
+  "buyTip": "Taquile textiles and alpaca knits.",
+  "baseArea": "Centre or lakeside hotels",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "cusco",
+    "mode": "Train",
+    "minutes": 600,
+    "note": "PeruRail Titicaca train or 7-hour bus."
+   },
+   {
+    "to": "la-paz",
+    "mode": "Bus",
+    "minutes": 420,
+    "note": "Via Copacabana."
+   }
+  ],
+  "items": [
+   {
+    "name": "Uros floating islands",
+    "kind": "see",
+    "id": "pun-uros",
+    "at": [
+     -15.816,
+     -69.969
+    ],
+    "wiki": "Uros",
+    "area": "Lake Titicaca",
+    "summary": "Islands woven from totora reeds by the Uros people.",
+    "expect": "Boat tours.",
+    "tip": "Ride a reed boat.",
+    "why": "Unique culture.",
+    "flow": [
+     "Reed islands.",
+     "Reed boat."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Taquile Island",
+    "kind": "see",
+    "id": "pun-taquile",
+    "at": [
+     -15.772,
+     -69.687
+    ],
+    "wiki": "Taquile",
+    "area": "Lake Titicaca",
+    "summary": "Island famous for men's knitting and terraced paths.",
+    "expect": "Full-day boat.",
+    "tip": "Lunch of trout.",
+    "why": "UNESCO textiles.",
+    "flow": [
+     "Main square.",
+     "Knitting."
+    ],
+    "hours": 8,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Amantaní homestay",
+    "kind": "see",
+    "id": "pun-amantani",
+    "at": [
+     -15.66,
+     -69.72
+    ],
+    "wiki": "Amantaní",
+    "area": "Lake Titicaca",
+    "summary": "Overnight with a local family and hilltop temples.",
+    "expect": "Tours combine with Uros and Taquile.",
+    "tip": "Bring gifts like fruit.",
+    "why": "Authentic stay.",
+    "flow": [
+     "Pachatata temple.",
+     "Family dinner."
+    ],
+    "hours": 24,
+    "price": [
+     150,
+     300
+    ],
+    "best": "Overnight",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Sillustani",
+    "kind": "see",
+    "id": "pun-sillustani",
+    "at": [
+     -15.721,
+     -70.153
+    ],
+    "wiki": "Sillustani",
+    "area": "Lake Umayo",
+    "summary": "Pre-Inca burial towers on a lake peninsula.",
+    "expect": "Paid.",
+    "tip": "Sunset tour.",
+    "why": "Ancient towers.",
+    "flow": [
+     "Chullpas.",
+     "Lake view."
+    ],
+    "hours": 3,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Copacabana and Isla del Sol",
+    "kind": "see",
+    "id": "pun-copacabana",
+    "at": [
+     -16.02,
+     -69.183
+    ],
+    "wiki": "Isla del Sol",
+    "area": "Bolivia",
+    "summary": "Lakeside pilgrimage town and the Inca island of the sun.",
+    "expect": "Border crossing.",
+    "tip": "Stay a night.",
+    "why": "Inca legend.",
+    "flow": [
+     "Basilica.",
+     "Island hike."
+    ],
+    "hours": 24,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Overnight",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Puno Cathedral and Plaza",
+    "kind": "see",
+    "id": "pun-cathedral",
+    "at": [
+     -15.841,
+     -70.027
+    ],
+    "wiki": "Puno Cathedral",
+    "area": "Centre",
+    "summary": "Baroque stone cathedral on the main square.",
+    "expect": "Free.",
+    "tip": "Evening.",
+    "why": "Town centre.",
+    "flow": [
+     "Facade.",
+     "Plaza."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Lake trout",
+    "kind": "eat",
+    "id": "pun-trout",
+    "at": [
+     -15.84,
+     -70.025
+    ],
+    "wiki": "Trout",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Fried or grilled trout from the lake.",
+    "expect": "Lunch.",
+    "tip": "Trucha frita.",
+    "why": "Local catch.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Peruvian",
+    "order": [
+     "Trucha frita"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Quinoa soup",
+    "kind": "eat",
+    "id": "pun-quinoa",
+    "at": [
+     -15.841,
+     -70.023
+    ],
+    "wiki": "Quinoa",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Warming quinoa soup for high altitude.",
+    "expect": "Anytime.",
+    "tip": "With coca tea.",
+    "why": "Andean staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Andean",
+    "order": [
+     "Sopa de quinua"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Alpaca steak",
+    "kind": "eat",
+    "id": "pun-alpaca",
+    "at": [
+     -15.8395,
+     -70.024
+    ],
+    "wiki": "Alpaca",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Lean grilled alpaca.",
+    "expect": "Dinner.",
+    "tip": "Medium-rare.",
+    "why": "Andean protein.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     35,
+     60
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Andean",
+    "order": [
+     "Alpaca steak"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Ecuador",
+  "region": "South America",
+  "currency": "USD",
+  "cashTip": "Ecuador uses the US dollar. Carry small bills; $20s can be hard to break and cards work mainly in bigger places.",
+  "dailyBudget": [
+   50,
+   150
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "cuenca",
+  "name": "Cuenca",
+  "at": [
+   -2.9001,
+   -79.0059
+  ],
+  "wiki": "Cuenca, Ecuador",
+  "cover": "Cuenca cathedral domes",
+  "seasons": "SSSSHHHHHSSS",
+  "tagline": "Blue-domed colonial city of rivers and Panama hats",
+  "summary": "Cuenca is Ecuador's loveliest colonial city, with sky-blue cathedral domes, flower markets and four rivers. Climb the New Cathedral's rooftop, see the Inca ruins at Pumapungo, learn how Panama hats are really made here, hike the lakes of Cajas National Park and visit the Inca temple of Ingapirca.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "June to September is the drier season; it's spring-like all year at 2,500 m.",
+  "arrival": "Mariscal Lamar airport is 10 minutes from the centre; buses from Guayaquil take 4 hours.",
+  "gettingAround": "Walk the centre; tram and taxis.",
+  "foodTip": "Hornado, mote pillo and canelazo.",
+  "buyTip": "Toquilla straw hats, ceramics and silver.",
+  "baseArea": "Historic centre",
+  "hotel": [
+   50,
+   150
+  ],
+  "connections": [
+   {
+    "to": "quito",
+    "mode": "Flight",
+    "minutes": 50,
+    "note": "Daily flights."
+   },
+   {
+    "to": "galapagos",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Via Guayaquil."
+   }
+  ],
+  "items": [
+   {
+    "name": "New Cathedral",
+    "kind": "see",
+    "id": "cue-cathedral",
+    "at": [
+     -2.897,
+     -79.005
+    ],
+    "wiki": "Cathedral of the Immaculate Conception, Cuenca",
+    "area": "Centre",
+    "summary": "Huge brick cathedral with blue domes and a rooftop.",
+    "expect": "Small fee for the roof.",
+    "tip": "Flower market outside.",
+    "why": "City icon.",
+    "flow": [
+     "Rooftop.",
+     "Flower market."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Pumapungo Museum",
+    "kind": "see",
+    "id": "cue-pumapungo",
+    "at": [
+     -2.906,
+     -78.997
+    ],
+    "wiki": "Pumapungo",
+    "area": "East",
+    "summary": "Inca ruins, aviary and ethnography museum.",
+    "expect": "Free.",
+    "tip": "Gardens behind.",
+    "why": "Inca roots.",
+    "flow": [
+     "Ruins.",
+     "Shrunken heads."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Cajas National Park",
+    "kind": "see",
+    "id": "cue-cajas",
+    "at": [
+     -2.784,
+     -79.223
+    ],
+    "wiki": "Cajas National Park",
+    "area": "Day trip",
+    "summary": "Highland páramo with hundreds of lakes.",
+    "expect": "Cold and wet.",
+    "tip": "Toreadora lake loop.",
+    "why": "Wild highlands.",
+    "flow": [
+     "Lakes.",
+     "Páramo."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Panama hat factory",
+    "kind": "see",
+    "id": "cue-hats",
+    "at": [
+     -2.91,
+     -78.99
+    ],
+    "wiki": "Panama hat",
+    "area": "Centre",
+    "summary": "See toquilla straw hats being made.",
+    "expect": "Free tours.",
+    "tip": "Homero Ortega.",
+    "why": "Real origin.",
+    "flow": [
+     "Weaving.",
+     "Shop."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Mirador de Turi",
+    "kind": "see",
+    "id": "cue-turi",
+    "at": [
+     -2.923,
+     -79.004
+    ],
+    "wiki": "Cuenca, Ecuador",
+    "area": "Turi",
+    "summary": "Lookout over the domes and red roofs.",
+    "expect": "Free.",
+    "tip": "Night view.",
+    "why": "Panorama.",
+    "flow": [
+     "Lookout.",
+     "Church."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Ingapirca",
+    "kind": "see",
+    "id": "cue-ingapirca",
+    "at": [
+     -2.543,
+     -78.877
+    ],
+    "wiki": "Ingapirca",
+    "area": "Day trip",
+    "summary": "Ecuador's largest Inca ruins with a sun temple.",
+    "expect": "Half day.",
+    "tip": "Guide included.",
+    "why": "Inca site.",
+    "flow": [
+     "Temple of the Sun.",
+     "Trail."
+    ],
+    "hours": 5,
+    "price": [
+     6,
+     6
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Hornado at Mercado 10 de Agosto",
+    "kind": "eat",
+    "id": "cue-hornado",
+    "at": [
+     -2.901,
+     -79.009
+    ],
+    "wiki": "Hornado",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Whole roast pig with llapingachos.",
+    "expect": "Lunch.",
+    "tip": "Upstairs food court.",
+    "why": "Market feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Hornado"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mote pillo breakfast",
+    "kind": "eat",
+    "id": "cue-motepillo",
+    "at": [
+     -2.898,
+     -79.006
+    ],
+    "wiki": "Mote (food)",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Hominy scrambled with egg and onion.",
+    "expect": "Morning.",
+    "tip": "With coffee.",
+    "why": "Cuenca specialty.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Mote pillo"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Canelazo",
+    "kind": "eat",
+    "id": "cue-canelazo",
+    "at": [
+     -2.899,
+     -79.004
+    ],
+    "wiki": "Canelazo",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Hot cinnamon drink with naranjilla.",
+    "expect": "Evenings.",
+    "tip": "With or without alcohol.",
+    "why": "Andean warmer.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Canelazo"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Colombia",
+  "region": "South America",
+  "currency": "COP",
+  "cashTip": "Carry pesos for small shops, buses and tips; cards work in cities.",
+  "dailyBudget": [
+   200000,
+   500000
+  ],
+  "cashPerDay": [
+   60000,
+   150000
+  ],
+  "id": "salento",
+  "name": "Salento and the Coffee Region",
+  "at": [
+   4.6371,
+   -75.5704
+  ],
+  "wiki": "Salento, Quindío",
+  "cover": "Cocora Valley wax palms",
+  "seasons": "HHSSLLHHSLLH",
+  "tagline": "Wax palms and coffee farms in Colombia's green heart",
+  "summary": "Salento is a colourful mountain town in Colombia's coffee country. Hike the Cocora Valley among the world's tallest palms, tour a coffee farm from bean to cup, shop on Calle Real, try a game of tejo and day-trip to Filandia's lookout.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   6,
+   7,
+   8,
+   12
+  ],
+  "seasonNote": "Drier months are December to February and June to August.",
+  "arrival": "Armenia airport is 50 minutes away; Pereira airport about an hour.",
+  "gettingAround": "Jeeps (Willys) to Cocora; buses to Filandia.",
+  "foodTip": "Trout with patacón, arepas and fresh coffee.",
+  "buyTip": "Coffee beans and handicrafts on Calle Real.",
+  "baseArea": "Salento town",
+  "hotel": [
+   150000,
+   400000
+  ],
+  "connections": [
+   {
+    "to": "medellin",
+    "mode": "Bus",
+    "minutes": 420,
+    "note": "Or fly from Pereira."
+   },
+   {
+    "to": "bogota",
+    "mode": "Flight",
+    "minutes": 50,
+    "note": "From Armenia or Pereira."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cocora Valley",
+    "kind": "see",
+    "id": "sal-cocora",
+    "at": [
+     4.638,
+     -75.488
+    ],
+    "wiki": "Cocora Valley",
+    "area": "Cocora",
+    "summary": "Hike among towering wax palms.",
+    "expect": "Willys jeeps from the square.",
+    "tip": "Do the loop early.",
+    "why": "Iconic landscape.",
+    "flow": [
+     "Palm forest.",
+     "Acaime hummingbirds."
+    ],
+    "hours": 5,
+    "price": [
+     10000,
+     20000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Coffee farm tour",
+    "kind": "see",
+    "id": "sal-coffee",
+    "at": [
+     4.656,
+     -75.59
+    ],
+    "wiki": "Coffee production in Colombia",
+    "area": "Countryside",
+    "summary": "Bean-to-cup tour of a coffee finca.",
+    "expect": "Book or walk out.",
+    "tip": "Finca El Ocaso or Don Elías.",
+    "why": "Coffee country.",
+    "flow": [
+     "Plantation.",
+     "Tasting."
+    ],
+    "hours": 2.5,
+    "price": [
+     30000,
+     60000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mirador Alto de la Cruz",
+    "kind": "see",
+    "id": "sal-mirador",
+    "at": [
+     4.636,
+     -75.568
+    ],
+    "wiki": "Salento, Quindío",
+    "area": "Town",
+    "summary": "Stairs up to a lookout over the valley.",
+    "expect": "Free.",
+    "tip": "Sunset.",
+    "why": "Valley view.",
+    "flow": [
+     "Steps.",
+     "View."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Calle Real",
+    "kind": "see",
+    "id": "sal-calle",
+    "at": [
+     4.637,
+     -75.571
+    ],
+    "wiki": "Salento, Quindío",
+    "area": "Town",
+    "summary": "Colourful main street of crafts and cafés.",
+    "expect": "Free.",
+    "tip": "Afternoon stroll.",
+    "why": "Town charm.",
+    "flow": [
+     "Balconies.",
+     "Shops."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Filandia",
+    "kind": "see",
+    "id": "sal-filandia",
+    "at": [
+     4.674,
+     -75.658
+    ],
+    "wiki": "Filandia",
+    "area": "Day trip",
+    "summary": "Quieter coffee town with a tall lookout tower.",
+    "expect": "Bus.",
+    "tip": "Go for sunset.",
+    "why": "Less touristy.",
+    "flow": [
+     "Mirador.",
+     "Main square."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     10000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Tejo game",
+    "kind": "see",
+    "id": "sal-tejo",
+    "at": [
+     4.6365,
+     -75.5705
+    ],
+    "wiki": "Tejo (sport)",
+    "area": "Town",
+    "summary": "Throw metal pucks at gunpowder targets.",
+    "expect": "Bars.",
+    "tip": "Play with a beer.",
+    "why": "Colombian fun.",
+    "flow": [
+     "Targets.",
+     "Bang."
+    ],
+    "hours": 1.5,
+    "price": [
+     10000,
+     20000
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Trout with patacón",
+    "kind": "eat",
+    "id": "sal-trout",
+    "at": [
+     4.637,
+     -75.57
+    ],
+    "wiki": "Trout",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Local trout on a giant fried plantain.",
+    "expect": "Lunch.",
+    "tip": "Garlic sauce.",
+    "why": "Regional dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30000,
+     45000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Trucha con patacón"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Specialty coffee",
+    "kind": "eat",
+    "id": "sal-cafe",
+    "at": [
+     4.6372,
+     -75.5708
+    ],
+    "wiki": "Coffee",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Single-origin cups in cafés.",
+    "expect": "Anytime.",
+    "tip": "Try a pour-over.",
+    "why": "Home of coffee.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     6000,
+     12000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Pour-over"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   },
+   {
+    "name": "Arepas",
+    "kind": "eat",
+    "id": "sal-arepa",
+    "at": [
+     4.6368,
+     -75.5702
+    ],
+    "wiki": "Arepa",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Corn arepas with cheese.",
+    "expect": "Street stalls.",
+    "tip": "Breakfast.",
+    "why": "Daily staple.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5000,
+     10000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Arepa con queso"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
