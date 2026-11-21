@@ -2,13 +2,13 @@
 
 Cities still to add, grouped by region and ordered roughly by how many visitors they draw. Tick a city when its seed is merged. "Minor" cities are smaller places people still travel for.
 
-## Done through the pipeline (59)
+## Done through the pipeline (64)
 
-Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon.
+Lisbon, Porto, Madrid, Seville, Amsterdam, Berlin, Prague, Vienna, Budapest, Copenhagen, Edinburgh, Dublin, Dubrovnik, Reykjavík, Amalfi Coast, Kraków, Sapporo, Kanazawa, Fukuoka, Phuket, Hoi An, Delhi, Jaipur, Agra, Petra, Luang Prabang, Sydney, Queenstown, New York, San Francisco, Vancouver, Banff, Victoria Falls, Bogotá, Galápagos, Krabi, Koh Samui, Ayutthaya, Chiang Rai, Koh Phi Phi, Koh Phangan, Koh Tao, Pai, Sukhothai, Kanchanaburi, Cappadocia (Göreme), Antalya, Selçuk (Ephesus), Pamukkale, Bodrum, Fethiye, Kaş, Izmir, Konya, Nice, Lyon, Bordeaux, Strasbourg, Avignon, Granada, Valencia, Málaga, San Sebastián (with Bilbao), Palma de Mallorca.
 
 ## Europe
 
-Major: Granada, Valencia, Málaga, Bilbao, San Sebastián, Palma de Mallorca, Ibiza, Tenerife, Marseille, Brussels, Bruges, Munich, Hamburg, Cologne, Frankfurt, Zurich, Lucerne, Geneva, Interlaken, Salzburg, Innsbruck, Stockholm, Oslo, Bergen, Helsinki, Tallinn, Riga, Vilnius, Warsaw, Gdańsk, Bratislava, Ljubljana, Zagreb, Split, Kotor, Sarajevo, Belgrade, Bucharest, Sofia, Thessaloniki, Mykonos, Rhodes, Corfu, Heraklion, Valletta, Bologna, Turin, Verona, Cinque Terre, Pisa, Siena, Palermo, Catania, Sorrento, Lake Como, Bath, Oxford, Cambridge, York, Liverpool, Manchester, Glasgow, Inverness, Belfast, Galway, Cork, Tbilisi, Yerevan, Baku.
+Major: Ibiza, Tenerife, Marseille, Brussels, Bruges, Munich, Hamburg, Cologne, Frankfurt, Zurich, Lucerne, Geneva, Interlaken, Salzburg, Innsbruck, Stockholm, Oslo, Bergen, Helsinki, Tallinn, Riga, Vilnius, Warsaw, Gdańsk, Bratislava, Ljubljana, Zagreb, Split, Kotor, Sarajevo, Belgrade, Bucharest, Sofia, Thessaloniki, Mykonos, Rhodes, Corfu, Heraklion, Valletta, Bologna, Turin, Verona, Cinque Terre, Pisa, Siena, Palermo, Catania, Sorrento, Lake Como, Bath, Oxford, Cambridge, York, Liverpool, Manchester, Glasgow, Inverness, Belfast, Galway, Cork, Tbilisi, Yerevan, Baku.
 
 Minor: Sintra, Lagos (Algarve), Madeira (Funchal), Azores (Ponta Delgada), Córdoba, Toledo, Santiago de Compostela, Ronda, Colmar, Annecy, Mont-Saint-Michel, Chamonix, Ghent, Rotterdam, The Hague, Heidelberg, Rothenburg ob der Tauber, Dresden, Nuremberg, Zermatt, Hallstatt, Český Krumlov, Bled, Mostar, Ohrid, Plovdiv, Brașov, Zakopane, Wrocław, Tromsø, Lofoten, Rovaniemi, Faroe Islands, Naxos, Paros, Zakynthos, Meteora (Kalabaka), Nafplio, Matera, Lecce, Alberobello, Taormina, Assisi, Lake Garda, Dolomites (Cortina), San Gimignano, Isle of Skye, Lake District, Cotswolds, Killarney.
 

@@ -209,9 +209,9 @@ for (const id of meta.cityOrder) {
     if (p.kind === 'see' && km(p, page.coords) > (p.excursion || p.duration >= 6 ? 100 : 15)) continue;
     want.set(p.id, page.image);
   }
-  const coverCandidates = [city.coverWiki, ...city.items.filter((p) => p.kind === 'see').sort((a, b) => a.priority - b.priority).map((p) => p.wiki), city.wiki]
+  const coverCandidates = [city.coverWiki, ...city.items.filter((p) => p.kind === 'see' && !p.excursion).sort((a, b) => a.priority - b.priority).map((p) => p.wiki), city.wiki]
     .map((t) => pages.get(t))
-    .filter((pg) => pg?.image && pg.coords && km(city, pg.coords) <= 120)
+    .filter((pg) => pg?.image && pg.coords && km(city, pg.coords) <= 60)
     .map((pg) => pg.image);
   const info = await imageInfo([...new Set([...want.values(), ...coverCandidates])], 960);
   const taken = new Set();

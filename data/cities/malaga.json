@@ -1,0 +1,654 @@
+{
+  "id": "malaga",
+  "name": "Málaga · Costa del Sol",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 36.7213,
+  "lon": -4.4214,
+  "wiki": "Málaga",
+  "tagline": "Picasso's city, a Moorish fortress and the beach",
+  "summary": "The gateway to the Costa del Sol has become a city of museums, with a Moorish fortress above the port and a city beach. It is the best base for Ronda, the Caminito del Rey and the white villages.",
+  "days": 3,
+  "bestMonths": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    11
+  ],
+  "seasonNote": "Over 300 days of sun; winters are mild enough for lunch outdoors. Holy Week processions in spring are among Spain's biggest.",
+  "arrival": "The airport is 8 km away; the C1 train reaches the centre in 12 minutes. High-speed trains from Madrid take 2 hours 40 minutes.",
+  "gettingAround": "The centre is walkable; buses and the coast train serve the beaches. Ronda and the Caminito need a bus, train or car.",
+  "cashTip": "Cards everywhere.",
+  "dailyBudget": [
+    60,
+    140
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    10,
+    25
+  ],
+  "foodTip": "Espetos (sardines grilled on skewers over a beach fire), pescaíto frito, ajoblanco cold soup and sweet Málaga wine.",
+  "buyTip": "Sweet Málaga wine, olive oil and ceramics.",
+  "baseArea": "The historic centre near Calle Larios",
+  "connections": [
+    {
+      "to": "madrid",
+      "mode": "Train",
+      "minutes": 165,
+      "note": "Frequent high-speed trains."
+    },
+    {
+      "to": "seville",
+      "mode": "Train",
+      "minutes": 120,
+      "note": "Trains via Córdoba or buses in 2 hours 45 minutes."
+    },
+    {
+      "to": "granada",
+      "mode": "Bus",
+      "minutes": 100,
+      "note": "Frequent buses."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://visita.malaga.eu/en/",
+      "type": "official",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Málaga on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/M%C3%A1laga",
+      "type": "reference",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=M%C3%A1laga%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-20"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=M%C3%A1laga%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Alcazaba of Málaga",
+  "added": "2026-11-20",
+  "items": [
+    {
+      "id": "malaga-malaga-alcazaba",
+      "name": "Alcazaba and Gibralfaro",
+      "kind": "see",
+      "lat": 36.72139,
+      "lon": -4.41556,
+      "wiki": "Alcazaba of Málaga",
+      "summary": "An 11th-century Moorish palace-fortress with courtyards and fountains, and a castle above it with views over the bay.",
+      "expect": "Steep walk to Gibralfaro; bus 35 goes up.",
+      "tip": "Take the bus up to Gibralfaro and walk down through the Alcazaba; free on Sunday afternoons.",
+      "area": "Centre",
+      "duration": 2.5,
+      "price": [
+        3,
+        6
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Alcazaba%20and%20Gibralfaro%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=Alcazaba%20and%20Gibralfaro%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Alcazaba%20and%20Gibralfaro%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "An 11th-century Moorish palace-fortress with courtyards and fountains, and a castle above it with views over the bay.",
+        "The best Moorish monument on the coast."
+      ],
+      "visitFlow": [
+        "Bus 35 to Gibralfaro.",
+        "Castle walls, then down to the Alcazaba and the Roman theatre."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Steep walk to Gibralfaro; bus 35 goes up.",
+        "Take the bus up to Gibralfaro and walk down through the Alcazaba; free on Sunday afternoons."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 58637,
+          "period": "202511-202610",
+          "title": "Alcazaba of Málaga",
+          "url": "https://en.wikipedia.org/wiki/Alcazaba_of_M%C3%A1laga",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "malaga-museo-picasso-malaga",
+      "name": "Museo Picasso Málaga",
+      "kind": "see",
+      "lat": 36.72167,
+      "lon": -4.41833,
+      "wiki": "Museo Picasso Málaga",
+      "summary": "More than 200 works by Picasso in a Renaissance palace near the house where he was born.",
+      "expect": "Busy at midday; free in the last two hours on Sunday.",
+      "tip": "Pair with the Casa Natal, his birthplace, five minutes away.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        10,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Opening time",
+      "reservation": "Online ahead",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Museo%20Picasso%20M%C3%A1laga%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=Museo%20Picasso%20M%C3%A1laga%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Museo%20Picasso%20M%C3%A1laga%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "More than 200 works by Picasso in a Renaissance palace near the house where he was born.",
+        "The artist's home town honours him with a strong collection."
+      ],
+      "visitFlow": [
+        "Calle San Agustín.",
+        "Collection, then the Phoenician ruins in the basement."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Busy at midday; free in the last two hours on Sunday.",
+        "Pair with the Casa Natal, his birthplace, five minutes away."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 11253,
+          "period": "202511-202610",
+          "title": "Museo Picasso Málaga",
+          "url": "https://en.wikipedia.org/wiki/Museo_Picasso_M%C3%A1laga",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "malaga-malaga-cathedral",
+      "name": "Málaga Cathedral",
+      "kind": "see",
+      "lat": 36.72004,
+      "lon": -4.42012,
+      "wiki": "Málaga Cathedral",
+      "summary": "A Renaissance cathedral nicknamed La Manquita, 'the one-armed lady', because one tower was never finished.",
+      "expect": "Rooftop tours run at set times.",
+      "tip": "Book the rooftop walk for a view down on the old town.",
+      "area": "Centre",
+      "duration": 1.2,
+      "price": [
+        8,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=M%C3%A1laga%20Cathedral%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=M%C3%A1laga%20Cathedral%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=M%C3%A1laga%20Cathedral%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Architecture",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A Renaissance cathedral nicknamed La Manquita, 'the one-armed lady', because one tower was never finished.",
+        "The landmark of the centre."
+      ],
+      "visitFlow": [
+        "Walk from Calle Larios.",
+        "Nave, choir stalls, then the roof."
+      ],
+      "bestFor": "Visitors interested in sacred places and architecture and design",
+      "tradeoffs": [
+        "Rooftop tours run at set times.",
+        "Book the rooftop walk for a view down on the old town."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 38734,
+          "period": "202511-202610",
+          "title": "Málaga Cathedral",
+          "url": "https://en.wikipedia.org/wiki/M%C3%A1laga_Cathedral",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "malaga-malaga-port-beach",
+      "name": "Muelle Uno and La Malagueta beach",
+      "kind": "see",
+      "lat": 36.72033,
+      "lon": -4.41081,
+      "wiki": "La Malagueta",
+      "summary": "A palm-lined port promenade with the Pompidou cube, leading to the city beach.",
+      "expect": "Restaurants and beach bars along the sand.",
+      "tip": "Walk the port at sunset and eat espetos on the beach.",
+      "area": "Port",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Muelle%20Uno%20and%20La%20Malagueta%20beach%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=Muelle%20Uno%20and%20La%20Malagueta%20beach%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Muelle%20Uno%20and%20La%20Malagueta%20beach%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A palm-lined port promenade with the Pompidou cube, leading to the city beach.",
+        "Málaga's waterfront in one easy walk."
+      ],
+      "visitFlow": [
+        "Start at Palmeral de las Sorpresas.",
+        "Muelle Uno, the lighthouse, La Malagueta."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and architecture and design",
+      "tradeoffs": [
+        "Restaurants and beach bars along the sand.",
+        "Walk the port at sunset and eat espetos on the beach."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 7705,
+          "period": "202511-202610",
+          "title": "Plaza de toros de La Malagueta",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_toros_de_La_Malagueta",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "malaga-caminito-del-rey",
+      "name": "Caminito del Rey",
+      "kind": "see",
+      "lat": 36.91583,
+      "lon": -4.77278,
+      "wiki": "Caminito del Rey",
+      "summary": "A walkway bolted to the sides of a gorge 100 metres above the river.",
+      "expect": "Timed tickets, a helmet, 8 km of walking one way and no children under eight.",
+      "tip": "Book weeks ahead and take the train to El Chorro.",
+      "area": "El Chorro",
+      "duration": 6,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Spring or autumn morning",
+      "reservation": "Several weeks ahead",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Caminito%20del%20Rey%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=Caminito%20del%20Rey%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Caminito%20del%20Rey%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A walkway bolted to the sides of a gorge 100 metres above the river.",
+        "One of Europe's most thrilling walks, now safe."
+      ],
+      "visitFlow": [
+        "Train or bus to El Chorro.",
+        "Shuttle to the north entrance, walk the gorge south."
+      ],
+      "bestFor": "Visitors interested in active exploration and landscapes and wildlife",
+      "tradeoffs": [
+        "Timed tickets, a helmet, 8 km of walking one way and no children under eight.",
+        "Book weeks ahead and take the train to El Chorro."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 65146,
+          "period": "202511-202610",
+          "title": "Caminito del Rey",
+          "url": "https://en.wikipedia.org/wiki/Caminito_del_Rey",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "malaga-ronda",
+      "name": "Ronda",
+      "kind": "see",
+      "lat": 36.73722,
+      "lon": -5.16472,
+      "wiki": "Ronda",
+      "summary": "A white town split by a 100-metre gorge and joined by the Puente Nuevo bridge.",
+      "expect": "Two hours by bus or train; crowded with day tours at midday.",
+      "tip": "Stay overnight to see the bridge lit and empty.",
+      "area": "Ronda",
+      "duration": 8,
+      "price": [
+        15,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ronda%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=Ronda%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ronda%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A white town split by a 100-metre gorge and joined by the Puente Nuevo bridge.",
+        "The most dramatic town in Andalusia."
+      ],
+      "visitFlow": [
+        "Bus or train from Málaga.",
+        "Puente Nuevo, the bullring, then down the path below the bridge."
+      ],
+      "bestFor": "Visitors interested in big views and history and context",
+      "tradeoffs": [
+        "Two hours by bus or train; crowded with day tours at midday.",
+        "Stay overnight to see the bridge lit and empty."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 239546,
+          "period": "202511-202610",
+          "title": "Ronda",
+          "url": "https://en.wikipedia.org/wiki/Ronda",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "malaga-malaga-nerja",
+      "name": "Nerja and Frigiliana",
+      "kind": "see",
+      "lat": 36.74694,
+      "lon": -3.87889,
+      "wiki": "Nerja",
+      "summary": "A seaside town with the Balcón de Europa viewpoint and huge caves, below the white hill village of Frigiliana.",
+      "expect": "An hour east by bus.",
+      "tip": "Frigiliana first in the morning, then a swim and lunch in Nerja.",
+      "area": "Axarquía",
+      "duration": 7,
+      "price": [
+        5,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Weekday",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Nerja%20and%20Frigiliana%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=Nerja%20and%20Frigiliana%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Nerja%20and%20Frigiliana%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A seaside town with the Balcón de Europa viewpoint and huge caves, below the white hill village of Frigiliana.",
+        "The prettiest part of the coast near Málaga."
+      ],
+      "visitFlow": [
+        "Bus to Nerja, then a short bus up to Frigiliana.",
+        "Village lanes, then the Balcón de Europa."
+      ],
+      "bestFor": "Visitors interested in architecture and design and landscapes and wildlife",
+      "tradeoffs": [
+        "An hour east by bus.",
+        "Frigiliana first in the morning, then a swim and lunch in Nerja."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 42730,
+          "period": "202511-202610",
+          "title": "Nerja",
+          "url": "https://en.wikipedia.org/wiki/Nerja",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "malaga-mercado-de-atarazanas",
+      "name": "Mercado de Atarazanas",
+      "kind": "eat",
+      "lat": 36.719,
+      "lon": -4.424,
+      "wiki": "Mercado Central de Atarazanas",
+      "summary": "A covered market behind a Moorish gate, with tapas bars cooking fish from the stalls.",
+      "expect": "Mornings only; closed Sunday.",
+      "tip": "Eat fried fish at the bars along the seafood aisle.",
+      "area": "Centre",
+      "duration": 1,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mercado%20de%20Atarazanas%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=Mercado%20de%20Atarazanas%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mercado%20de%20Atarazanas%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "A covered market behind a Moorish gate, with tapas bars cooking fish from the stalls.",
+        "The city's freshest food at market prices."
+      ],
+      "visitFlow": [
+        "Walk from Calle Larios.",
+        "Browse, then sit at a bar for fried fish."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Mornings only; closed Sunday.",
+        "Eat fried fish at the bars along the seafood aisle."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Market and seafood",
+      "mustOrder": [
+        "Fried anchovies",
+        "Grilled prawns",
+        "Olives"
+      ],
+      "dietary": {
+        "halal": "options",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "malaga-el-pimpi",
+      "name": "El Pimpi",
+      "kind": "eat",
+      "lat": 36.72173,
+      "lon": -4.41734,
+      "wiki": "Málaga",
+      "summary": "A rambling bodega of patios and rooms with barrels signed by famous visitors, beside the Roman theatre.",
+      "expect": "Touristy and very popular.",
+      "tip": "Take a terrace table facing the Alcazaba and order sweet wine.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        20,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=El%20Pimpi%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=El%20Pimpi%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=El%20Pimpi%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A rambling bodega of patios and rooms with barrels signed by famous visitors, beside the Roman theatre.",
+        "The most famous bar in Málaga, with the best setting."
+      ],
+      "visitFlow": [
+        "Calle Granada.",
+        "Sweet wine and tapas on the terrace."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Touristy and very popular.",
+        "Take a terrace table facing the Alcazaba and order sweet wine."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Andalusian",
+      "mustOrder": [
+        "Sweet Málaga wine",
+        "Ajoblanco",
+        "Fried aubergine with molasses"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "malaga-el-tintero",
+      "name": "El Tintero",
+      "kind": "eat",
+      "lat": 36.71726,
+      "lon": -4.34862,
+      "wiki": "Málaga",
+      "summary": "A beach restaurant where waiters walk among tables shouting the dishes and you grab what you want.",
+      "expect": "Chaotic and fun; pay by counting plates.",
+      "tip": "Grab espetos of sardines straight off the fire.",
+      "area": "El Palo",
+      "duration": 1.5,
+      "price": [
+        15,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=El%20Tintero%2C%20M%C3%A1laga",
+        "https://www.google.com/maps/search/?api=1&query=El%20Tintero%2C%20M%C3%A1laga"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=El%20Tintero%2C%20M%C3%A1laga"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A beach restaurant where waiters walk among tables shouting the dishes and you grab what you want.",
+        "A uniquely Málaga way of eating seafood."
+      ],
+      "visitFlow": [
+        "Bus to El Palo beach.",
+        "Grab plates as they pass."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Chaotic and fun; pay by counting plates.",
+        "Grab espetos of sardines straight off the fire."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Sardine espetos",
+        "Fried squid",
+        "Clams"
+      ],
+      "dietary": {
+        "halal": "options",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ],
+  "enriched": "2026-11-20"
+}

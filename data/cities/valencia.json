@@ -1,0 +1,621 @@
+{
+  "id": "valencia",
+  "name": "Valencia",
+  "country": "Spain",
+  "region": "Europe",
+  "lat": 39.4699,
+  "lon": -0.3763,
+  "wiki": "Valencia",
+  "tagline": "Paella, futuristic architecture and a city beach",
+  "summary": "Spain's third city combines a well-kept old town, the white buildings of the City of Arts and Sciences and a long beach, all linked by a park in the old riverbed. It is also the home of paella.",
+  "days": 3,
+  "bestMonths": [
+    3,
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Las Fallas in mid-March fills the streets with giant figures and fireworks, and hotel prices triple; August is humid.",
+  "arrival": "High-speed trains from Madrid take 1 hour 45 minutes, from Barcelona about 3 hours. Metro lines 3 and 5 reach the airport in 20 minutes.",
+  "gettingAround": "The old town is walkable; cycle the Turia park; metro and tram to the beach.",
+  "cashTip": "Cards everywhere.",
+  "dailyBudget": [
+    60,
+    140
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    10,
+    25
+  ],
+  "foodTip": "Real paella valenciana has rabbit, chicken and beans; eat it at lunch, not dinner. Try horchata with fartons and arroz negro.",
+  "buyTip": "Lladró porcelain, fans and ceramics from Manises; saffron and rice from the Central Market.",
+  "baseArea": "Ciutat Vella (old town) or Ruzafa for restaurants",
+  "connections": [
+    {
+      "to": "madrid",
+      "mode": "Train",
+      "minutes": 105,
+      "note": "Frequent high-speed trains."
+    },
+    {
+      "to": "barcelona",
+      "mode": "Train",
+      "minutes": 180,
+      "note": "Euromed and regional trains."
+    },
+    {
+      "to": "palma",
+      "mode": "Ferry",
+      "minutes": 450,
+      "note": "Overnight ferries; flights take 45 minutes."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Official visitor information",
+      "url": "https://www.visitvalencia.com/en",
+      "type": "official",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Valencia on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Valencia",
+      "type": "reference",
+      "checked": "2026-11-20"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Valencia%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-20"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Valencia%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "City of Arts and Sciences",
+  "added": "2026-11-20",
+  "items": [
+    {
+      "id": "valencia-city-of-arts-and-sciences",
+      "name": "City of Arts and Sciences",
+      "kind": "see",
+      "lat": 39.45417,
+      "lon": -0.35,
+      "wiki": "City of Arts and Sciences",
+      "summary": "Santiago Calatrava's complex of white futuristic buildings over shallow pools: science museum, opera house and Europe's largest aquarium.",
+      "expect": "The outside is free; each building has its own ticket.",
+      "tip": "Choose the Oceanogràfic if you only do one, and come back after dark when it is lit.",
+      "area": "Turia gardens",
+      "duration": 4,
+      "price": [
+        0,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning and after dark",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=City%20of%20Arts%20and%20Sciences%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=City%20of%20Arts%20and%20Sciences%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=City%20of%20Arts%20and%20Sciences%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Technology",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Santiago Calatrava's complex of white futuristic buildings over shallow pools: science museum, opera house and Europe's largest aquarium.",
+        "The defining image of modern Valencia."
+      ],
+      "visitFlow": [
+        "Walk or cycle down the Turia park.",
+        "Walk around the pools, then the Oceanogràfic."
+      ],
+      "bestFor": "Visitors interested in architecture and design and science and technology",
+      "tradeoffs": [
+        "The outside is free; each building has its own ticket.",
+        "Choose the Oceanogràfic if you only do one, and come back after dark when it is lit."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 69333,
+          "period": "202511-202610",
+          "title": "City of Arts and Sciences",
+          "url": "https://en.wikipedia.org/wiki/City_of_Arts_and_Sciences",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "valencia-mercado-central",
+      "name": "Mercado Central",
+      "kind": "see",
+      "lat": 39.47349,
+      "lon": -0.37891,
+      "wiki": "Central Market of Valencia",
+      "summary": "One of Europe's largest fresh markets, under a modernist dome of iron, glass and tiles.",
+      "expect": "Open mornings Monday to Saturday.",
+      "tip": "Have breakfast at Central Bar inside the market.",
+      "area": "Ciutat Vella",
+      "duration": 1.2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mercado%20Central%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Mercado%20Central%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mercado%20Central%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Architecture",
+        "Shopping"
+      ],
+      "whyVisit": [
+        "One of Europe's largest fresh markets, under a modernist dome of iron, glass and tiles.",
+        "The building and the produce are both worth the visit."
+      ],
+      "visitFlow": [
+        "Arrive by 10 am.",
+        "Walk every aisle, then the Lonja opposite."
+      ],
+      "bestFor": "Visitors interested in regional food and architecture and design",
+      "tradeoffs": [
+        "Open mornings Monday to Saturday.",
+        "Have breakfast at Central Bar inside the market."
+      ]
+    },
+    {
+      "id": "valencia-la-lonja-de-la-seda",
+      "name": "La Lonja de la Seda",
+      "kind": "see",
+      "lat": 39.47442,
+      "lon": -0.37844,
+      "wiki": "Llotja de la Seda",
+      "summary": "A 15th-century silk exchange with twisted stone columns rising like palm trees.",
+      "expect": "Small and free on Sundays.",
+      "tip": "Look at the carved gargoyles on the outside.",
+      "area": "Ciutat Vella",
+      "duration": 0.7,
+      "price": [
+        0,
+        2
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=La%20Lonja%20de%20la%20Seda%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=La%20Lonja%20de%20la%20Seda%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=La%20Lonja%20de%20la%20Seda%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A 15th-century silk exchange with twisted stone columns rising like palm trees.",
+        "A UNESCO World Heritage site and a Gothic masterpiece."
+      ],
+      "visitFlow": [
+        "Opposite the Central Market.",
+        "Trading hall, orange-tree courtyard, upper hall."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Small and free on Sundays.",
+        "Look at the carved gargoyles on the outside."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 6010,
+          "period": "202511-202610",
+          "title": "Lonja de la Seda",
+          "url": "https://en.wikipedia.org/wiki/Lonja_de_la_Seda",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "valencia-valencia-cathedral",
+      "name": "Valencia Cathedral and the Micalet tower",
+      "kind": "see",
+      "lat": 39.47583,
+      "lon": -0.375,
+      "wiki": "Valencia Cathedral",
+      "summary": "A cathedral that claims the Holy Grail, with a bell tower climb over the old town.",
+      "expect": "207 spiral steps up the tower.",
+      "tip": "On Thursdays at noon the 1,000-year-old Water Tribunal meets at the Door of the Apostles.",
+      "area": "Ciutat Vella",
+      "duration": 1.5,
+      "price": [
+        9,
+        11
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Valencia%20Cathedral%20and%20the%20Micalet%20tower%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Valencia%20Cathedral%20and%20the%20Micalet%20tower%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Valencia%20Cathedral%20and%20the%20Micalet%20tower%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "Viewpoint",
+        "History"
+      ],
+      "whyVisit": [
+        "A cathedral that claims the Holy Grail, with a bell tower climb over the old town.",
+        "The heart of the old city and its best viewpoint."
+      ],
+      "visitFlow": [
+        "Plaza de la Reina.",
+        "Grail chapel, then the Micalet."
+      ],
+      "bestFor": "Visitors interested in sacred places and big views",
+      "tradeoffs": [
+        "207 spiral steps up the tower.",
+        "On Thursdays at noon the 1,000-year-old Water Tribunal meets at the Door of the Apostles."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 29786,
+          "period": "202511-202610",
+          "title": "Valencia Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Valencia_Cathedral",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "valencia-turia-gardens",
+      "name": "Turia Gardens",
+      "kind": "see",
+      "lat": 39.476,
+      "lon": -0.369,
+      "wiki": "Turia Gardens",
+      "summary": "A 9 km park in the dry bed of the diverted river, with paths, bridges and playgrounds.",
+      "expect": "Flat and shaded; bike rental at many points.",
+      "tip": "Cycle from the Torres de Serranos to the City of Arts and Sciences.",
+      "area": "Turia",
+      "duration": 2,
+      "price": [
+        0,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning or evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Turia%20Gardens%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Turia%20Gardens%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Turia%20Gardens%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "A 9 km park in the dry bed of the diverted river, with paths, bridges and playgrounds.",
+        "The way locals move through the city."
+      ],
+      "visitFlow": [
+        "Hire a bike near the Serranos towers.",
+        "Ride south-east to the Calatrava buildings."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Flat and shaded; bike rental at many points.",
+        "Cycle from the Torres de Serranos to the City of Arts and Sciences."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "valencia-valencia-beach",
+      "name": "Malvarrosa Beach and El Cabanyal",
+      "kind": "see",
+      "lat": 39.472,
+      "lon": -0.324,
+      "wiki": "Malvarrosa Beach",
+      "summary": "A wide city beach beside an old fishermen's quarter of tiled houses.",
+      "expect": "Busy in summer; restaurants line the promenade.",
+      "tip": "Eat paella on the seafront at lunch and walk the tiled streets of El Cabanyal.",
+      "area": "Beach",
+      "duration": 4,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Malvarrosa%20Beach%20and%20El%20Cabanyal%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Malvarrosa%20Beach%20and%20El%20Cabanyal%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Malvarrosa%20Beach%20and%20El%20Cabanyal%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "A wide city beach beside an old fishermen's quarter of tiled houses.",
+        "A real beach 20 minutes from the cathedral."
+      ],
+      "visitFlow": [
+        "Tram or metro to the beach.",
+        "Swim, lunch, walk back through El Cabanyal."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and architecture and design",
+      "tradeoffs": [
+        "Busy in summer; restaurants line the promenade.",
+        "Eat paella on the seafront at lunch and walk the tiled streets of El Cabanyal."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "valencia-albufera-natural-park",
+      "name": "Albufera Natural Park",
+      "kind": "see",
+      "lat": 39.33167,
+      "lon": -0.35222,
+      "wiki": "Albufera",
+      "summary": "A freshwater lagoon among rice fields where paella was born; boats take you out at sunset.",
+      "expect": "A 30-minute bus ride; mosquitoes in summer.",
+      "tip": "Take the boat in El Palmar at sunset, then eat paella in the village.",
+      "area": "El Palmar",
+      "duration": 4,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Albufera%20Natural%20Park%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Albufera%20Natural%20Park%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Albufera%20Natural%20Park%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Food"
+      ],
+      "whyVisit": [
+        "A freshwater lagoon among rice fields where paella was born; boats take you out at sunset.",
+        "The landscape behind the dish."
+      ],
+      "visitFlow": [
+        "Bus 25 from the centre.",
+        "Boat on the lagoon, then dinner in El Palmar."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and regional food",
+      "tradeoffs": [
+        "A 30-minute bus ride; mosquitoes in summer.",
+        "Take the boat in El Palmar at sunset, then eat paella in the village."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 8685,
+          "period": "202511-202610",
+          "title": "Albufera de València",
+          "url": "https://en.wikipedia.org/wiki/Albufera_de_Val%C3%A8ncia",
+          "checked": "2026-11-20"
+        }
+      }
+    },
+    {
+      "id": "valencia-casa-carmela",
+      "name": "Casa Carmela",
+      "kind": "eat",
+      "lat": 39.48225,
+      "lon": -0.32582,
+      "wiki": "Paella",
+      "summary": "A family restaurant cooking paella over orange-wood fires since 1922.",
+      "expect": "Lunch only; paella for two or more.",
+      "tip": "Reserve and pre-order the paella valenciana.",
+      "area": "Malvarrosa",
+      "duration": 2,
+      "price": [
+        30,
+        55
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "A week ahead",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Casa%20Carmela%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Casa%20Carmela%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Casa%20Carmela%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A family restaurant cooking paella over orange-wood fires since 1922.",
+        "Often called the best paella in Valencia."
+      ],
+      "visitFlow": [
+        "Book ahead.",
+        "Starters, then the paella pan to share."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lunch only; paella for two or more.",
+        "Reserve and pre-order the paella valenciana."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Valencian rice",
+      "mustOrder": [
+        "Paella valenciana",
+        "Seafood paella",
+        "Clóchinas mussels in season"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "valencia-horchateria-santa-catalina",
+      "name": "Horchatería Santa Catalina",
+      "kind": "eat",
+      "lat": 39.47383,
+      "lon": -0.37626,
+      "wiki": "Horchata",
+      "summary": "A tiled 200-year-old café serving horchata, the cold drink made from tiger nuts.",
+      "expect": "Busy in the afternoon.",
+      "tip": "Dip fartons, long sugared buns, into the horchata.",
+      "area": "Ciutat Vella",
+      "duration": 0.5,
+      "price": [
+        4,
+        8
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Horchater%C3%ADa%20Santa%20Catalina%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Horchater%C3%ADa%20Santa%20Catalina%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Horchater%C3%ADa%20Santa%20Catalina%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A tiled 200-year-old café serving horchata, the cold drink made from tiger nuts.",
+        "The classic Valencian afternoon treat."
+      ],
+      "visitFlow": [
+        "Next to the church of Santa Catalina.",
+        "Horchata and fartons."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy in the afternoon.",
+        "Dip fartons, long sugared buns, into the horchata."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Café",
+      "mustOrder": [
+        "Horchata",
+        "Fartons",
+        "Chocolate con churros"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "all",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "valencia-central-bar",
+      "name": "Central Bar",
+      "kind": "eat",
+      "lat": 39.47312,
+      "lon": -0.37906,
+      "wiki": "Central Market of Valencia",
+      "summary": "Chef Ricard Camarena's counter inside the Central Market, serving sandwiches and tapas from market produce.",
+      "expect": "Stools only; no reservations.",
+      "tip": "Order the esmorzaret, Valencia's mid-morning sandwich break.",
+      "area": "Ciutat Vella",
+      "duration": 0.7,
+      "price": [
+        10,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Late morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Central%20Bar%2C%20Valencia",
+        "https://www.google.com/maps/search/?api=1&query=Central%20Bar%2C%20Valencia"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Central%20Bar%2C%20Valencia"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Chef Ricard Camarena's counter inside the Central Market, serving sandwiches and tapas from market produce.",
+        "A Michelin-starred chef's food at bar prices."
+      ],
+      "visitFlow": [
+        "Inside the market.",
+        "Wait for a stool, then sandwiches and a beer."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Stools only; no reservations.",
+        "Order the esmorzaret, Valencia's mid-morning sandwich break."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Valencian tapas",
+      "mustOrder": [
+        "Esmorzaret sandwich",
+        "Ensaladilla rusa",
+        "Tomato salad"
+      ],
+      "dietary": {
+        "halal": "unverified",
+        "vegetarian": "options",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ],
+  "enriched": "2026-11-20"
+}
