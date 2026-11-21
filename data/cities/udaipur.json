@@ -80,8 +80,8 @@
       "id": "udaipur-udaipur-city-palace",
       "name": "City Palace",
       "kind": "see",
-      "lat": 24.5764,
-      "lon": 73.6835,
+      "lat": 24.57647,
+      "lon": 73.68358,
       "wiki": "City Palace, Udaipur",
       "summary": "A vast lakeside palace complex built over 400 years, with mirror halls, courtyards and views over Lake Pichola.",
       "expect": "Busy at midday; allow two to three hours.",
@@ -121,7 +121,15 @@
         "Busy at midday; allow two to three hours.",
         "Go at opening time and take the audio guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 72948,
+          "period": "202511-202610",
+          "title": "City Palace, Udaipur",
+          "url": "https://en.wikipedia.org/wiki/City_Palace%2C_Udaipur",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "udaipur-udaipur-lake-pichola",
@@ -168,14 +176,23 @@
         "Boats leave from the City Palace jetty.",
         "Take the sunset boat for the palaces in golden light."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 31259,
+          "period": "202511-202610",
+          "title": "Lake Pichola",
+          "url": "https://en.wikipedia.org/wiki/Lake_Pichola",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "udaipur-udaipur-jagdish",
       "name": "Jagdish Temple",
       "kind": "see",
-      "lat": 24.5795,
-      "lon": 73.684,
+      "lat": 24.57983,
+      "lon": 73.68386,
       "wiki": "Jagdish Temple",
       "summary": "A 17th-century Vishnu temple covered in carvings, just above the City Palace.",
       "expect": "Steep steps; shoes off; busy at evening aarti.",
@@ -215,14 +232,22 @@
         "Steep steps; shoes off; busy at evening aarti.",
         "Visit at the evening aarti."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22659,
+          "period": "202511-202610",
+          "title": "Jagdish Temple, Udaipur",
+          "url": "https://en.wikipedia.org/wiki/Jagdish_Temple%2C_Udaipur",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "udaipur-udaipur-bagore-ki-haveli",
       "name": "Bagore Ki Haveli dance show",
       "kind": "see",
-      "lat": 24.58,
-      "lon": 73.6815,
+      "lat": 24.57967,
+      "lon": 73.68004,
       "wiki": "Bagore-ki-Haveli",
       "summary": "An 18th-century haveli museum with a nightly show of Rajasthani folk dance and puppets.",
       "expect": "Show at 7pm; queue early.",
@@ -262,7 +287,15 @@
         "Show at 7pm; queue early.",
         "Arrive 30 minutes early for a good seat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5606,
+          "period": "202511-202610",
+          "title": "Bagore Ki Haveli",
+          "url": "https://en.wikipedia.org/wiki/Bagore_Ki_Haveli",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "udaipur-udaipur-monsoon-palace",
@@ -309,14 +342,23 @@
         "Taxi or shuttle to the top.",
         "Go for sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 24082,
+          "period": "202511-202610",
+          "title": "Monsoon Palace",
+          "url": "https://en.wikipedia.org/wiki/Monsoon_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "udaipur-udaipur-kumbhalgarh",
       "name": "Kumbhalgarh Fort",
       "kind": "see",
-      "lat": 25.1486,
-      "lon": 73.585,
+      "lat": 25.14889,
+      "lon": 73.58028,
       "wiki": "Kumbhalgarh",
       "summary": "A 15th-century hill fort whose walls run for 36 km, among the longest in the world.",
       "expect": "About 2.5 hours each way; combine with the Ranakpur Jain temple.",
@@ -356,15 +398,23 @@
         "About 2.5 hours each way; combine with the Ranakpur Jain temple.",
         "Leave early and see Ranakpur's marble temple on the way."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 104573,
+          "period": "202511-202610",
+          "title": "Kumbhalgarh",
+          "url": "https://en.wikipedia.org/wiki/Kumbhalgarh",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "udaipur-udaipur-ambrai",
       "name": "Ambrai",
       "kind": "eat",
-      "lat": 24.577,
-      "lon": 73.679,
+      "lat": 24.57773,
+      "lon": 73.67993,
       "wiki": "Lake Pichola",
       "summary": "A lakeside terrace facing the City Palace, lit up at night.",
       "expect": "Book ahead for a table on the water.",
@@ -404,7 +454,6 @@
         "Book ahead for a table on the water.",
         "Reserve for sunset and order laal maas."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Rajasthani and North Indian",
       "mustOrder": [
@@ -423,8 +472,8 @@
       "id": "udaipur-udaipur-natraj",
       "name": "Natraj Dining Hall",
       "kind": "eat",
-      "lat": 24.585,
-      "lon": 73.7,
+      "lat": 24.57204,
+      "lon": 73.6996,
       "wiki": "Rajasthani cuisine",
       "summary": "An unlimited vegetarian Rajasthani thali, refilled until you stop them.",
       "expect": "Busy and fast.",
@@ -463,7 +512,6 @@
         "Busy and fast.",
         "Pace yourself; the refills keep coming."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Rajasthani",
       "mustOrder": [
@@ -538,5 +586,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

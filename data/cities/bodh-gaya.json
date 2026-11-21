@@ -71,7 +71,7 @@
       "id": "bodh-gaya-bodh-gaya-mahabodhi",
       "name": "Mahabodhi Temple and the Bodhi Tree",
       "kind": "see",
-      "lat": 24.6959,
+      "lat": 24.696,
       "lon": 84.9913,
       "wiki": "Mahabodhi Temple",
       "summary": "The 50 m brick temple marking the spot of the Buddha's enlightenment, with the sacred Bodhi tree and the Vajrasana diamond throne behind it.",
@@ -113,14 +113,22 @@
         "Shoes off at the gate; phones are not allowed inside (use the lockers); open to all.",
         "Come at dawn or dusk to sit among monks chanting under the tree."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 90812,
+          "period": "202511-202610",
+          "title": "Mahabodhi Temple",
+          "url": "https://en.wikipedia.org/wiki/Mahabodhi_Temple",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bodh-gaya-bodh-gaya-great-buddha",
       "name": "Great Buddha Statue",
       "kind": "see",
-      "lat": 24.6887,
-      "lon": 84.9816,
+      "lat": 24.69046,
+      "lon": 84.9818,
       "wiki": "Bodh Gaya",
       "summary": "A 25 m stone Buddha seated in meditation, consecrated by the Dalai Lama in 1989.",
       "expect": "A short walk from the main temple, set in gardens.",
@@ -160,7 +168,15 @@
         "A short walk from the main temple, set in gardens.",
         "Pair it with the monasteries on the same road."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 139920,
+          "period": "202511-202610",
+          "title": "Bodh Gaya",
+          "url": "https://en.wikipedia.org/wiki/Bodh_Gaya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bodh-gaya-bodh-gaya-monasteries",
@@ -207,7 +223,16 @@
         "Most close at midday; remove shoes and dress modestly.",
         "See the Thai temple's golden roofs and the Royal Bhutan Monastery's painted walls."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 139920,
+          "period": "202511-202610",
+          "title": "Bodh Gaya",
+          "url": "https://en.wikipedia.org/wiki/Bodh_Gaya",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bodh-gaya-bodh-gaya-dungeshwari",
@@ -302,14 +327,23 @@
         "Combine with Rajgir's Vulture Peak in one day trip."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 173358,
+          "period": "202511-202610",
+          "title": "Nalanda mahavihara",
+          "url": "https://en.wikipedia.org/wiki/Nalanda_mahavihara",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bodh-gaya-bodh-gaya-vulture-peak",
       "name": "Vulture Peak, Rajgir",
       "kind": "see",
-      "lat": 25.009,
-      "lon": 85.438,
+      "lat": 25.00167,
+      "lon": 85.44639,
       "wiki": "Vulture Peak",
       "summary": "The rocky hilltop where the Buddha gave many teachings, reached by a ropeway near the Peace Pagoda.",
       "expect": "Steps and a chairlift.",
@@ -349,8 +383,16 @@
         "Steps and a chairlift.",
         "Go late afternoon on the way back from Nalanda."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 17266,
+          "period": "202511-202610",
+          "title": "Vulture Peak",
+          "url": "https://en.wikipedia.org/wiki/Vulture_Peak",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "bodh-gaya-bodh-gaya-tibetan-cafes",
@@ -528,5 +570,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -74,8 +74,8 @@
       "id": "kochi-kochi-fishing-nets",
       "name": "Chinese fishing nets",
       "kind": "see",
-      "lat": 9.968,
-      "lon": 76.242,
+      "lat": 9.96819,
+      "lon": 76.24217,
       "wiki": "Chinese fishing nets",
       "summary": "Huge cantilevered fishing nets on the shore, lowered and raised by teams of fishermen.",
       "expect": "Busiest at sunset; fish stalls nearby.",
@@ -115,7 +115,15 @@
         "Busiest at sunset; fish stalls nearby.",
         "Fishermen may let you help pull the net for a tip."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8777,
+          "period": "202511-202610",
+          "title": "Chinese fishing nets",
+          "url": "https://en.wikipedia.org/wiki/Chinese_fishing_nets",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kochi-kochi-mattancherry-palace",
@@ -162,14 +170,22 @@
         "Closed on Fridays; no photos inside.",
         "Pair it with the synagogue next door."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20191,
+          "period": "202511-202610",
+          "title": "Mattancherry Palace",
+          "url": "https://en.wikipedia.org/wiki/Mattancherry_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kochi-kochi-paradesi-synagogue",
       "name": "Paradesi Synagogue and Jew Town",
       "kind": "see",
-      "lat": 9.957,
-      "lon": 76.26,
+      "lat": 9.95722,
+      "lon": 76.25944,
       "wiki": "Paradesi Synagogue",
       "summary": "A 1568 synagogue with hand-painted Chinese floor tiles, in a lane of spice and antique shops.",
       "expect": "Closed Fridays, Saturdays and Jewish holidays; shoes off.",
@@ -209,14 +225,22 @@
         "Closed Fridays, Saturdays and Jewish holidays; shoes off.",
         "Browse the antique warehouses on Jew Town Road."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27778,
+          "period": "202511-202610",
+          "title": "Paradesi Synagogue",
+          "url": "https://en.wikipedia.org/wiki/Paradesi_Synagogue",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kochi-kochi-st-francis",
       "name": "St Francis Church",
       "kind": "see",
-      "lat": 9.9655,
-      "lon": 76.242,
+      "lat": 9.96594,
+      "lon": 76.2411,
       "wiki": "St. Francis Church, Kochi",
       "summary": "India's oldest European church, where Vasco da Gama was first buried in 1524.",
       "expect": "Small and simple.",
@@ -256,7 +280,15 @@
         "Small and simple.",
         "Walk on to Santa Cruz Basilica nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17090,
+          "period": "202511-202610",
+          "title": "Church of Saint Francis, Kochi",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Saint_Francis%2C_Kochi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kochi-kochi-kathakali",
@@ -303,14 +335,23 @@
         "Arrive early to watch the make-up being applied.",
         "Come an hour before the show for the make-up session."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 100499,
+          "period": "202511-202610",
+          "title": "Kathakali",
+          "url": "https://en.wikipedia.org/wiki/Kathakali",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kochi-kochi-backwaters",
       "name": "Alleppey backwaters houseboat",
       "kind": "see",
-      "lat": 9.4981,
-      "lon": 76.3388,
+      "lat": 9.86348,
+      "lon": 76.3594,
       "wiki": "Kerala backwaters",
       "summary": "A day or overnight cruise on a rice-barge houseboat through Kerala's palm-lined canals and lakes.",
       "expect": "About 1.5 hours' drive; overnight boats include meals.",
@@ -349,15 +390,23 @@
         "About 1.5 hours' drive; overnight boats include meals.",
         "Choose a smaller boat that can enter the narrow canals."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 45369,
+          "period": "202511-202610",
+          "title": "Kerala backwaters",
+          "url": "https://en.wikipedia.org/wiki/Kerala_backwaters",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "kochi-kochi-kashi-art-cafe",
       "name": "Kashi Art Café",
       "kind": "eat",
-      "lat": 9.966,
-      "lon": 76.243,
+      "lat": 9.9658,
+      "lon": 76.2421,
       "wiki": "Fort Kochi",
       "summary": "A café and gallery in an old Dutch house, known for breakfasts and cakes.",
       "expect": "Garden seating; art on the walls.",
@@ -397,7 +446,6 @@
         "Garden seating; art on the walls.",
         "Come for breakfast and the chocolate cake."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Café",
       "mustOrder": [
@@ -530,5 +578,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

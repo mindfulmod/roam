@@ -75,8 +75,8 @@
       "id": "jodhpur-jodhpur-mehrangarh",
       "name": "Mehrangarh Fort",
       "kind": "see",
-      "lat": 26.298,
-      "lon": 73.018,
+      "lat": 26.29806,
+      "lon": 73.01889,
       "wiki": "Mehrangarh",
       "summary": "A towering 15th-century fort on a cliff, with carved palaces, a superb museum and views over the blue city.",
       "expect": "Steep ramps; a lift is available; allow three hours.",
@@ -117,14 +117,22 @@
         "Steep ramps; a lift is available; allow three hours.",
         "The audio guide is excellent; stay for sunset on the ramparts."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 87589,
+          "period": "202511-202610",
+          "title": "Mehrangarh",
+          "url": "https://en.wikipedia.org/wiki/Mehrangarh",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jodhpur-jodhpur-jaswant-thada",
       "name": "Jaswant Thada",
       "kind": "see",
-      "lat": 26.302,
-      "lon": 73.023,
+      "lat": 26.30389,
+      "lon": 73.02528,
       "wiki": "Jaswant Thada",
       "summary": "A white marble memorial to Maharaja Jaswant Singh II, with a lake and fort views.",
       "expect": "Calm, small, a short walk from the fort.",
@@ -164,7 +172,15 @@
         "Calm, small, a short walk from the fort.",
         "Visit right after Mehrangarh."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16255,
+          "period": "202511-202610",
+          "title": "Jaswant Thada",
+          "url": "https://en.wikipedia.org/wiki/Jaswant_Thada",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jodhpur-jodhpur-blue-city",
@@ -211,14 +227,23 @@
         "Narrow, hilly lanes; motorbikes squeeze through.",
         "Visit Toorji Ka Jhalra stepwell on the way."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 165282,
+          "period": "202511-202610",
+          "title": "Jodhpur",
+          "url": "https://en.wikipedia.org/wiki/Jodhpur",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jodhpur-jodhpur-umaid-bhawan",
       "name": "Umaid Bhawan Palace",
       "kind": "see",
-      "lat": 26.281,
-      "lon": 73.047,
+      "lat": 26.28083,
+      "lon": 73.04694,
       "wiki": "Umaid Bhawan Palace",
       "summary": "A huge Art Deco palace finished in 1943, now part hotel, part royal residence and part museum.",
       "expect": "Only the museum is open to non-guests.",
@@ -258,7 +283,15 @@
         "Only the museum is open to non-guests.",
         "See the vintage car collection."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 72757,
+          "period": "202511-202610",
+          "title": "Umaid Bhawan Palace",
+          "url": "https://en.wikipedia.org/wiki/Umaid_Bhawan_Palace",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jodhpur-jodhpur-sardar-market",
@@ -304,14 +337,23 @@
         "Crowded and chaotic.",
         "Climb a rooftop nearby for the view of the fort above."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 165282,
+          "period": "202511-202610",
+          "title": "Jodhpur",
+          "url": "https://en.wikipedia.org/wiki/Jodhpur",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jodhpur-jodhpur-rock-park",
       "name": "Rao Jodha Desert Rock Park",
       "kind": "see",
-      "lat": 26.301,
-      "lon": 73.014,
+      "lat": 26.30461,
+      "lon": 73.01685,
       "wiki": "Rao Jodha Desert Rock Park",
       "summary": "A restored desert landscape of volcanic rock with native plants and trails under the fort walls.",
       "expect": "Little shade; trails of up to two hours.",
@@ -350,7 +392,15 @@
         "Little shade; trails of up to two hours.",
         "Walk at sunrise or late afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2485,
+          "period": "202511-202610",
+          "title": "Rao Jodha Desert Rock Park",
+          "url": "https://en.wikipedia.org/wiki/Rao_Jodha_Desert_Rock_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "jodhpur-jodhpur-mirchi-vada",
@@ -528,5 +578,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
