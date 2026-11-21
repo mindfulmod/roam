@@ -72,7 +72,7 @@
       "name": "White Tower",
       "kind": "see",
       "lat": 40.6264,
-      "lon": 22.9484,
+      "lon": 22.9483,
       "wiki": "White Tower of Thessaloniki",
       "summary": "An Ottoman tower on the seafront with a city history museum and rooftop view.",
       "expect": "Small museum inside.",
@@ -112,7 +112,15 @@
         "Small museum inside.",
         "Climb for the bay view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 49304,
+          "period": "202511-202610",
+          "title": "White Tower of Thessaloniki",
+          "url": "https://en.wikipedia.org/wiki/White_Tower_of_Thessaloniki",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thessaloniki-thes-rotunda",
@@ -165,8 +173,8 @@
       "id": "thessaloniki-thes-demetrios",
       "name": "Hagios Demetrios",
       "kind": "see",
-      "lat": 40.639,
-      "lon": 22.9475,
+      "lat": 40.63889,
+      "lon": 22.94778,
       "wiki": "Hagios Demetrios",
       "summary": "The basilica of the city's patron saint, with a crypt over a Roman bath.",
       "expect": "Free; dress modestly.",
@@ -206,14 +214,22 @@
         "Free; dress modestly.",
         "Visit the crypt."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27167,
+          "period": "202511-202610",
+          "title": "Hagios Demetrios",
+          "url": "https://en.wikipedia.org/wiki/Hagios_Demetrios",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thessaloniki-thes-anopoli",
       "name": "Ano Poli and the walls",
       "kind": "see",
-      "lat": 40.644,
-      "lon": 22.96,
+      "lat": 40.642,
+      "lon": 22.952,
       "wiki": "Ano Poli",
       "summary": "The hillside old town of Ottoman houses, Byzantine walls and the Heptapyrgion fortress.",
       "expect": "Uphill; take a taxi up and walk down.",
@@ -254,14 +270,22 @@
         "Uphill; take a taxi up and walk down.",
         "Watch sunset from the walls."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6348,
+          "period": "202511-202610",
+          "title": "Upper Town (Thessaloniki)",
+          "url": "https://en.wikipedia.org/wiki/Upper_Town_(Thessaloniki)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thessaloniki-thes-museum",
       "name": "Archaeological Museum",
       "kind": "see",
-      "lat": 40.6252,
-      "lon": 22.9541,
+      "lat": 40.625,
+      "lon": 22.95389,
       "wiki": "Archaeological Museum of Thessaloniki",
       "summary": "Macedonian gold, the Derveni krater and Roman finds.",
       "expect": "Allow 2 hours.",
@@ -301,14 +325,22 @@
         "Allow 2 hours.",
         "See the Derveni krater."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4635,
+          "period": "202511-202610",
+          "title": "Archaeological Museum of Thessaloniki",
+          "url": "https://en.wikipedia.org/wiki/Archaeological_Museum_of_Thessaloniki",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thessaloniki-thes-waterfront",
       "name": "Waterfront promenade",
       "kind": "see",
-      "lat": 40.6326,
-      "lon": 22.941,
+      "lat": 40.63238,
+      "lon": 22.94094,
       "wiki": "Aristotelous Square",
       "summary": "A long seafront walk from Aristotelous Square past the Umbrellas sculpture.",
       "expect": "Free; locals stroll at sunset.",
@@ -348,14 +380,22 @@
         "Free; locals stroll at sunset.",
         "Walk to the Umbrellas at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9647,
+          "period": "202511-202610",
+          "title": "Aristotelous Square",
+          "url": "https://en.wikipedia.org/wiki/Aristotelous_Square",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thessaloniki-thes-vergina",
       "name": "Royal Tombs of Vergina",
       "kind": "see",
-      "lat": 40.485,
-      "lon": 22.319,
+      "lat": 40.48333,
+      "lon": 22.31667,
       "wiki": "Vergina",
       "summary": "The underground museum of Philip II's tomb, with gold and ivory treasures.",
       "expect": "About an hour by car.",
@@ -394,8 +434,16 @@
         "About an hour by car.",
         "Go early."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 58685,
+          "period": "202511-202610",
+          "title": "Vergina",
+          "url": "https://en.wikipedia.org/wiki/Vergina",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "thessaloniki-thes-bougatsa",
@@ -458,8 +506,8 @@
       "id": "thessaloniki-thes-modiano",
       "name": "Modiano and Kapani markets",
       "kind": "eat",
-      "lat": 40.6368,
-      "lon": 22.9425,
+      "lat": 40.6349,
+      "lon": 22.9418,
       "wiki": "Modiano Market",
       "summary": "Covered markets of fish, spices and olives with small meze bars.",
       "expect": "Busiest in the morning.",
@@ -498,7 +546,6 @@
         "Busiest in the morning.",
         "Have ouzo and meze in the market."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Greek",
       "mustOrder": [
@@ -569,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

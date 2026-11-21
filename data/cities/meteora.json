@@ -71,8 +71,8 @@
       "id": "meteora-met-great",
       "name": "Great Meteoron",
       "kind": "see",
-      "lat": 39.7217,
-      "lon": 21.6306,
+      "lat": 39.72665,
+      "lon": 21.62808,
       "wiki": "Great Meteoron Monastery",
       "summary": "The largest and highest monastery, with a museum, frescoes and old kitchens.",
       "expect": "Dress modestly; skirts are lent at the door.",
@@ -112,15 +112,14 @@
       "tradeoffs": [
         "Dress modestly; skirts are lent at the door.",
         "Arrive at opening."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "meteora-met-varlaam",
       "name": "Varlaam Monastery",
       "kind": "see",
-      "lat": 39.72,
-      "lon": 21.625,
+      "lat": 39.71417,
+      "lon": 21.62694,
       "wiki": "Varlaam Monastery",
       "summary": "A monastery with fine frescoes and the old rope-and-net winch tower.",
       "expect": "Close to Great Meteoron.",
@@ -160,14 +159,22 @@
         "Close to Great Meteoron.",
         "Look at the winch tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11299,
+          "period": "202511-202610",
+          "title": "Monastery of Varlaam",
+          "url": "https://en.wikipedia.org/wiki/Monastery_of_Varlaam",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "meteora-met-roussanou",
       "name": "Roussanou Monastery",
       "kind": "see",
-      "lat": 39.715,
-      "lon": 21.633,
+      "lat": 39.72165,
+      "lon": 21.63222,
       "wiki": "Roussanou Monastery",
       "summary": "A nunnery built right to the edge of its pillar, reached by a bridge.",
       "expect": "Small and busy.",
@@ -206,15 +213,14 @@
       "tradeoffs": [
         "Small and busy.",
         "Photograph it from the road bend."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "meteora-met-trinity",
       "name": "Holy Trinity Monastery",
       "kind": "see",
-      "lat": 39.713,
-      "lon": 21.646,
+      "lat": 39.71328,
+      "lon": 21.63553,
       "wiki": "Monastery of the Holy Trinity (Meteora)",
       "summary": "A monastery on a sheer pillar, reached by 140 steps, seen in a James Bond film.",
       "expect": "Steep path.",
@@ -253,8 +259,7 @@
       "tradeoffs": [
         "Steep path.",
         "Walk up from Kalambaka."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "meteora-met-stephen",
@@ -346,7 +351,16 @@
         "Busy at sunset.",
         "Arrive 45 minutes early."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 189123,
+          "period": "202511-202610",
+          "title": "Meteora",
+          "url": "https://en.wikipedia.org/wiki/Meteora",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "meteora-met-hike",
@@ -394,7 +408,16 @@
         "Good shoes; signs are basic.",
         "Join a guided hike for the hermit caves."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 189123,
+          "period": "202511-202610",
+          "title": "Meteora",
+          "url": "https://en.wikipedia.org/wiki/Meteora",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "meteora-met-pies",
@@ -569,5 +592,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -65,8 +65,8 @@
       "id": "nafplio-naf-palamidi",
       "name": "Palamidi Fortress",
       "kind": "see",
-      "lat": 37.562,
-      "lon": 22.808,
+      "lat": 37.56389,
+      "lon": 22.79528,
       "wiki": "Palamidi",
       "summary": "A Venetian fortress reached by nearly 1,000 steps, with views over the gulf.",
       "expect": "Hot climb; go early or drive up.",
@@ -106,14 +106,22 @@
         "Hot climb; go early or drive up.",
         "Climb in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 47994,
+          "period": "202511-202610",
+          "title": "Palamidi",
+          "url": "https://en.wikipedia.org/wiki/Palamidi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nafplio-naf-bourtzi",
       "name": "Bourtzi",
       "kind": "see",
-      "lat": 37.569,
-      "lon": 22.792,
+      "lat": 37.56972,
+      "lon": 22.79054,
       "wiki": "Bourtzi",
       "summary": "A small castle on an islet in the harbour.",
       "expect": "Boats run from the quay.",
@@ -152,8 +160,7 @@
       "tradeoffs": [
         "Boats run from the quay.",
         "See it lit at night."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "nafplio-naf-oldtown",
@@ -207,8 +214,8 @@
       "id": "nafplio-naf-arvanitia",
       "name": "Arvanitia promenade",
       "kind": "see",
-      "lat": 37.564,
-      "lon": 22.797,
+      "lat": 37.56389,
+      "lon": 22.79528,
       "wiki": "Acronauplia",
       "summary": "A clifftop walk around the headland to Arvanitia beach.",
       "expect": "Free.",
@@ -248,14 +255,22 @@
         "Free.",
         "Walk it at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3803,
+          "period": "202511-202610",
+          "title": "Acronauplia",
+          "url": "https://en.wikipedia.org/wiki/Acronauplia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nafplio-naf-mycenae",
       "name": "Mycenae",
       "kind": "see",
-      "lat": 37.7308,
-      "lon": 22.7564,
+      "lat": 37.73028,
+      "lon": 22.7575,
       "wiki": "Mycenae",
       "summary": "The citadel of Agamemnon, with the Lion Gate and beehive tombs.",
       "expect": "No shade; go early.",
@@ -295,14 +310,22 @@
         "No shade; go early.",
         "See the Treasury of Atreus tomb."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 484376,
+          "period": "202511-202610",
+          "title": "Mycenae",
+          "url": "https://en.wikipedia.org/wiki/Mycenae",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nafplio-naf-epidaurus",
       "name": "Theatre of Epidaurus",
       "kind": "see",
-      "lat": 37.596,
-      "lon": 23.079,
+      "lat": 37.59611,
+      "lon": 23.07917,
       "wiki": "Ancient Theatre of Epidaurus",
       "summary": "A 4th-century BC theatre with near-perfect acoustics.",
       "expect": "Summer festival performances.",
@@ -342,14 +365,22 @@
         "Summer festival performances.",
         "Drop a coin in the centre and listen from the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 57644,
+          "period": "202511-202610",
+          "title": "Ancient Theatre of Epidaurus",
+          "url": "https://en.wikipedia.org/wiki/Ancient_Theatre_of_Epidaurus",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nafplio-naf-tiryns",
       "name": "Tiryns",
       "kind": "see",
-      "lat": 37.599,
-      "lon": 22.799,
+      "lat": 37.59944,
+      "lon": 22.8,
       "wiki": "Tiryns",
       "summary": "Mycenaean walls of giant 'cyclopean' stones.",
       "expect": "Quiet and short.",
@@ -388,7 +419,15 @@
         "Quiet and short.",
         "Combine with Mycenae."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 48789,
+          "period": "202511-202610",
+          "title": "Tiryns",
+          "url": "https://en.wikipedia.org/wiki/Tiryns",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "nafplio-naf-fish",
@@ -562,5 +601,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

@@ -76,8 +76,8 @@
       "id": "paros-paros-naoussa",
       "name": "Naoussa",
       "kind": "see",
-      "lat": 37.124,
-      "lon": 25.237,
+      "lat": 37.12278,
+      "lon": 25.24,
       "wiki": "Naousa, Paros",
       "summary": "A fishing harbour of white houses, octopus drying in the sun and a small Venetian castle.",
       "expect": "Busy in the evening.",
@@ -118,14 +118,22 @@
         "Busy in the evening.",
         "Have dinner at the harbour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9704,
+          "period": "202511-202610",
+          "title": "Naousa, Paros",
+          "url": "https://en.wikipedia.org/wiki/Naousa%2C_Paros",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "paros-paros-ekatontapiliani",
       "name": "Panagia Ekatontapiliani",
       "kind": "see",
       "lat": 37.085,
-      "lon": 25.153,
+      "lon": 25.15167,
       "wiki": "Panagia Ekatontapiliani",
       "summary": "The 'Church of 100 Doors', one of Greece's oldest Byzantine churches.",
       "expect": "Free; small museum.",
@@ -165,7 +173,15 @@
         "Free; small museum.",
         "Visit the baptistery."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16670,
+          "period": "202511-202610",
+          "title": "Panagia Ekatontapiliani",
+          "url": "https://en.wikipedia.org/wiki/Panagia_Ekatontapiliani",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "paros-paros-lefkes",
@@ -258,14 +274,23 @@
         "Small boat from Naoussa.",
         "Go in the morning."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 82426,
+          "period": "202511-202610",
+          "title": "Paros",
+          "url": "https://en.wikipedia.org/wiki/Paros",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "paros-paros-antiparos",
       "name": "Antiparos and its cave",
       "kind": "see",
-      "lat": 37.04,
-      "lon": 25.08,
+      "lat": 37.00944,
+      "lon": 25.06083,
       "wiki": "Antiparos",
       "summary": "A small island with a laid-back village and a huge stalactite cave.",
       "expect": "Short car ferry from Pounta.",
@@ -305,14 +330,22 @@
         "Short car ferry from Pounta.",
         "Visit the cave, then lunch in the village."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16930,
+          "period": "202511-202610",
+          "title": "Antiparos",
+          "url": "https://en.wikipedia.org/wiki/Antiparos",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "paros-paros-parikia",
       "name": "Parikia old town and Kastro",
       "kind": "see",
-      "lat": 37.086,
-      "lon": 25.148,
+      "lat": 37.0862,
+      "lon": 25.1508,
       "wiki": "Parikia",
       "summary": "A Frankish castle wall built of ancient marble, and sunset bars on the seafront.",
       "expect": "Free.",
@@ -351,14 +384,22 @@
         "Free.",
         "Watch the sunset from the seafront."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10128,
+          "period": "202511-202610",
+          "title": "Parikia",
+          "url": "https://en.wikipedia.org/wiki/Parikia",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "paros-paros-goldenbeach",
       "name": "Golden Beach",
       "kind": "see",
-      "lat": 37.009,
-      "lon": 25.24,
+      "lat": 37.00978,
+      "lon": 25.2375,
       "wiki": "Paros",
       "summary": "A long sandy beach famous for windsurfing and kitesurfing.",
       "expect": "Windy in summer.",
@@ -397,8 +438,7 @@
       "tradeoffs": [
         "Windy in summer.",
         "Take a windsurf lesson."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "paros-paros-octopus",
@@ -571,5 +611,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

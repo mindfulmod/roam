@@ -64,8 +64,8 @@
       "id": "corfu-corfu-oldfort",
       "name": "Old Fortress",
       "kind": "see",
-      "lat": 39.6234,
-      "lon": 19.9285,
+      "lat": 39.623,
+      "lon": 19.93,
       "wiki": "Old Fortress, Corfu",
       "summary": "A Venetian fortress on a rocky headland with views over the town and sea.",
       "expect": "Climb to the lighthouse.",
@@ -105,7 +105,15 @@
         "Climb to the lighthouse.",
         "Go late afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29538,
+          "period": "202511-202610",
+          "title": "Old Fortress, Corfu",
+          "url": "https://en.wikipedia.org/wiki/Old_Fortress%2C_Corfu",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "corfu-corfu-oldtown",
@@ -153,14 +161,23 @@
         "Cafés are pricey but atmospheric.",
         "Have coffee on the Liston."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4303,
+          "period": "202511-202610",
+          "title": "Liston (Corfu)",
+          "url": "https://en.wikipedia.org/wiki/Liston_(Corfu)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "corfu-corfu-achilleion",
       "name": "Achilleion Palace",
       "kind": "see",
       "lat": 39.5625,
-      "lon": 19.9042,
+      "lon": 19.90417,
       "wiki": "Achilleion (Corfu)",
       "summary": "Empress Sisi's palace dedicated to Achilles, with gardens and sea views.",
       "expect": "Can be busy with cruise groups.",
@@ -200,14 +217,22 @@
         "Can be busy with cruise groups.",
         "See the Dying Achilles statue."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 75575,
+          "period": "202511-202610",
+          "title": "Achilleion (Corfu)",
+          "url": "https://en.wikipedia.org/wiki/Achilleion_(Corfu)",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "corfu-corfu-paleokastritsa",
       "name": "Paleokastritsa",
       "kind": "see",
-      "lat": 39.674,
-      "lon": 19.707,
+      "lat": 39.68333,
+      "lon": 19.71667,
       "wiki": "Palaiokastritsa",
       "summary": "Coves of turquoise water under green cliffs, with a hilltop monastery.",
       "expect": "Take a boat into the sea caves.",
@@ -247,14 +272,22 @@
         "Take a boat into the sea caves.",
         "Visit the monastery, then swim."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26891,
+          "period": "202511-202610",
+          "title": "Palaiokastritsa",
+          "url": "https://en.wikipedia.org/wiki/Palaiokastritsa",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "corfu-corfu-pontikonisi",
       "name": "Mouse Island and Vlacherna",
       "kind": "see",
-      "lat": 39.585,
-      "lon": 19.92,
+      "lat": 39.58639,
+      "lon": 19.91778,
       "wiki": "Pontikonisi",
       "summary": "A tiny monastery on a causeway and an islet with a chapel, under the airport approach.",
       "expect": "Watch planes land overhead.",
@@ -294,14 +327,22 @@
         "Watch planes land overhead.",
         "View it from Kanoni."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11602,
+          "period": "202511-202610",
+          "title": "Pontikonisi",
+          "url": "https://en.wikipedia.org/wiki/Pontikonisi",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "corfu-corfu-newfort",
       "name": "New Fortress",
       "kind": "see",
-      "lat": 39.6262,
-      "lon": 19.918,
+      "lat": 39.6254,
+      "lon": 19.9168,
       "wiki": "New Fortress, Corfu",
       "summary": "A massive Venetian fort with tunnels and views over the old port.",
       "expect": "Hours vary.",
@@ -340,7 +381,15 @@
         "Hours vary.",
         "Explore the tunnels."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5751,
+          "period": "202511-202610",
+          "title": "New Fortress",
+          "url": "https://en.wikipedia.org/wiki/New_Fortress",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "corfu-corfu-pantokrator",
@@ -561,5 +610,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
