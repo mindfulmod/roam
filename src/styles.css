@@ -144,8 +144,9 @@ small {
   white-space: nowrap;
 }
 .brandmark {
-  width: 31px;
-  height: 37px;
+  width: 34px;
+  height: 34px;
+  flex: none;
   color: var(--teal);
 }
 .brand span:last-child {
@@ -1826,7 +1827,7 @@ small {
   }
   .brandmark {
     height: 31px;
-    width: 27px;
+    width: 31px;
   }
   .nav {
     position: fixed;
@@ -4147,7 +4148,7 @@ small.rankwhy {
     font-size: 19px;
   }
   .brandmark {
-    width: 24px;
+    width: 28px;
     height: 28px;
   }
 

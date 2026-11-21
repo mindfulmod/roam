@@ -91,6 +91,13 @@ const js = [
 ];
 let html = await read('src/index.html');
 html = html.replace('<!-- build:css -->', () => `<style>${css}</style>`);
+// The hosted build links the PNG icons and the web app manifest; the single file keeps only the inline SVG favicon.
+html = html.replace(
+  '<!-- build:icons -->',
+  single
+    ? ''
+    : '<link rel="apple-touch-icon" href="images/brand/apple-touch-icon.png" /><link rel="manifest" href="manifest.webmanifest" />',
+);
 // Hosted build: a small HTML shell that paints at once, with the data and the app code in
 // their own cacheable files. The single-file build keeps everything inline.
 const hash = (t) => createHash('sha256').update(t).digest('hex').slice(0, 10);
@@ -134,6 +141,7 @@ if (single) {
   await writeFile(path.join(dist, 'index.html'), html);
   for (const [name, text] of files) await writeFile(path.join(dist, name), text);
   await cp(path.join(root, 'images'), path.join(dist, 'images'), { recursive: true });
+  await cp(path.join(root, 'src/manifest.webmanifest'), path.join(dist, 'manifest.webmanifest'));
 }
 console.log(
   `Built ${single ? 'dist/tandem-roads.html' : 'dist/index.html'} (${(Buffer.byteLength(html) / 1e6).toFixed(1)} MB HTML)`,
