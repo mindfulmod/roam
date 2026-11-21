@@ -1,0 +1,533 @@
+{
+  "id": "manchester",
+  "name": "Manchester",
+  "country": "United Kingdom",
+  "region": "Europe",
+  "lat": 53.4808,
+  "lon": -2.2426,
+  "wiki": "Manchester",
+  "tagline": "Football, music and the first industrial city",
+  "summary": "Manchester is northern England's energetic capital of football, music and industry. Tour Old Trafford or the Etihad, explore the Science and Industry Museum, read in the Gothic John Rylands Library, and spend nights among the Northern Quarter's bars and the Curry Mile.",
+  "days": 2,
+  "bestMonths": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "Rain is frequent all year; summer is the mildest.",
+  "arrival": "Manchester Airport is 20 minutes by train to Piccadilly.",
+  "gettingAround": "Walk the centre; Metrolink trams reach the stadiums.",
+  "cashTip": "Cards and contactless dominate; a small GBP reserve covers markets and tips.",
+  "dailyBudget": [
+    70,
+    180
+  ],
+  "currency": "GBP",
+  "cashPerDay": [
+    10,
+    25
+  ],
+  "foodTip": "Curry Mile, Mackie Mayor food hall and Northern Quarter cafés.",
+  "buyTip": "Football shirts, vinyl in the Northern Quarter and Afflecks.",
+  "baseArea": "Northern Quarter or Deansgate",
+  "connections": [
+    {
+      "to": "liverpool",
+      "mode": "Train",
+      "minutes": 35,
+      "note": "Frequent trains."
+    },
+    {
+      "to": "london",
+      "mode": "Train",
+      "minutes": 130,
+      "note": "Avanti from Piccadilly."
+    },
+    {
+      "to": "york",
+      "mode": "Train",
+      "minutes": 80,
+      "note": "TransPennine trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Manchester on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Manchester",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Manchester%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Manchester%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Manchester Town Hall",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "manchester-man-oldtrafford",
+      "name": "Old Trafford",
+      "kind": "see",
+      "lat": 53.4631,
+      "lon": -2.2913,
+      "wiki": "Old Trafford",
+      "summary": "Manchester United's stadium tour and museum.",
+      "expect": "Book ahead.",
+      "tip": "Tram to Old Trafford.",
+      "area": "Stretford",
+      "duration": 2,
+      "price": [
+        30,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Old%20Trafford%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=Old%20Trafford%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Old%20Trafford%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "History"
+      ],
+      "whyVisit": [
+        "Manchester United's stadium tour and museum.",
+        "Theatre of Dreams."
+      ],
+      "visitFlow": [
+        "Dressing room.",
+        "Museum."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and history and context",
+      "tradeoffs": [
+        "Book ahead.",
+        "Tram to Old Trafford."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "manchester-man-etihad",
+      "name": "Etihad Stadium tour",
+      "kind": "see",
+      "lat": 53.4831,
+      "lon": -2.2004,
+      "wiki": "City of Manchester Stadium",
+      "summary": "Manchester City's stadium tour.",
+      "expect": "Book ahead.",
+      "tip": "Tram to Etihad Campus.",
+      "area": "Eastlands",
+      "duration": 1.5,
+      "price": [
+        30,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Etihad%20Stadium%20tour%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=Etihad%20Stadium%20tour%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Etihad%20Stadium%20tour%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Manchester City's stadium tour.",
+        "Football city."
+      ],
+      "visitFlow": [
+        "Tunnel.",
+        "Pitchside."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Book ahead.",
+        "Tram to Etihad Campus."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "manchester-man-science",
+      "name": "Science and Industry Museum",
+      "kind": "see",
+      "lat": 53.477,
+      "lon": -2.255,
+      "wiki": "Science and Industry Museum",
+      "summary": "Museum on the site of the world's first passenger railway station.",
+      "expect": "Free.",
+      "tip": "See the working machines.",
+      "area": "Castlefield",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Science%20and%20Industry%20Museum%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=Science%20and%20Industry%20Museum%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Science%20and%20Industry%20Museum%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Technology",
+        "History",
+        "Art"
+      ],
+      "whyVisit": [
+        "Museum on the site of the world's first passenger railway station.",
+        "Industrial roots."
+      ],
+      "visitFlow": [
+        "Steam engines.",
+        "Station."
+      ],
+      "bestFor": "Visitors interested in science and technology and history and context",
+      "tradeoffs": [
+        "Free.",
+        "See the working machines."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "manchester-man-rylands",
+      "name": "John Rylands Library",
+      "kind": "see",
+      "lat": 53.4805,
+      "lon": -2.2486,
+      "wiki": "John Rylands Library",
+      "summary": "Neo-Gothic library like a cathedral of books.",
+      "expect": "Free.",
+      "tip": "Look for the oldest New Testament fragment.",
+      "area": "Deansgate",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=John%20Rylands%20Library%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=John%20Rylands%20Library%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=John%20Rylands%20Library%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "Neo-Gothic library like a cathedral of books.",
+        "Stunning interior."
+      ],
+      "visitFlow": [
+        "Reading room.",
+        "Treasures."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Free.",
+        "Look for the oldest New Testament fragment."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "manchester-man-nq",
+      "name": "Northern Quarter",
+      "kind": "see",
+      "lat": 53.484,
+      "lon": -2.235,
+      "wiki": "Northern Quarter (Manchester)",
+      "summary": "Indie shops, murals, bars and Afflecks.",
+      "expect": "Free.",
+      "tip": "Evening bars.",
+      "area": "Northern Quarter",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Northern%20Quarter%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=Northern%20Quarter%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Northern%20Quarter%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping",
+        "Entertainment",
+        "Art"
+      ],
+      "whyVisit": [
+        "Indie shops, murals, bars and Afflecks.",
+        "Creative heart."
+      ],
+      "visitFlow": [
+        "Afflecks.",
+        "Murals."
+      ],
+      "bestFor": "Visitors interested in local shopping and shows and nightlife",
+      "tradeoffs": [
+        "Free.",
+        "Evening bars."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "manchester-man-football",
+      "name": "National Football Museum",
+      "kind": "see",
+      "lat": 53.4855,
+      "lon": -2.243,
+      "wiki": "National Football Museum",
+      "summary": "Museum of the game's history.",
+      "expect": "Paid entry.",
+      "tip": "Try the penalty shootout.",
+      "area": "Cathedral Gardens",
+      "duration": 1.5,
+      "price": [
+        13,
+        13
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=National%20Football%20Museum%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=National%20Football%20Museum%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=National%20Football%20Museum%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "Art"
+      ],
+      "whyVisit": [
+        "Museum of the game's history.",
+        "Football heritage."
+      ],
+      "visitFlow": [
+        "Galleries.",
+        "Games."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and art and craft",
+      "tradeoffs": [
+        "Paid entry.",
+        "Try the penalty shootout."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "manchester-man-curry",
+      "name": "Curry Mile",
+      "kind": "eat",
+      "lat": 53.452,
+      "lon": -2.224,
+      "wiki": "Wilmslow Road",
+      "summary": "Strip of South Asian and Middle Eastern restaurants.",
+      "expect": "Evenings.",
+      "tip": "Mixed grill and lassi.",
+      "area": "Rusholme",
+      "duration": 1.5,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Curry%20Mile%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=Curry%20Mile%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Curry%20Mile%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Strip of South Asian and Middle Eastern restaurants.",
+        "Spice row."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Mixed grill and lassi."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "South Asian",
+      "mustOrder": [
+        "Mixed grill",
+        "Biryani"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "manchester-man-mackie",
+      "name": "Mackie Mayor",
+      "kind": "eat",
+      "lat": 53.487,
+      "lon": -2.237,
+      "wiki": "Mackie Mayor",
+      "summary": "Restored market hall with food stalls.",
+      "expect": "Busy weekends.",
+      "tip": "Share tables.",
+      "area": "Smithfield",
+      "duration": 1,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mackie%20Mayor%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=Mackie%20Mayor%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mackie%20Mayor%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Restored market hall with food stalls.",
+        "Food hall."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy weekends.",
+        "Share tables."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "International",
+      "mustOrder": [
+        "Pizza",
+        "Small plates"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "manchester-man-chinatown",
+      "name": "Chinatown",
+      "kind": "eat",
+      "lat": 53.4785,
+      "lon": -2.24,
+      "wiki": "Chinatown, Manchester",
+      "summary": "One of Britain's largest Chinatowns.",
+      "expect": "Dim sum.",
+      "tip": "Weekend dim sum.",
+      "area": "Chinatown",
+      "duration": 1,
+      "price": [
+        12,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chinatown%2C%20Manchester",
+        "https://www.google.com/maps/search/?api=1&query=Chinatown%2C%20Manchester"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chinatown%2C%20Manchester"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "One of Britain's largest Chinatowns.",
+        "Classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Dim sum.",
+        "Weekend dim sum."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Chinese",
+      "mustOrder": [
+        "Dim sum"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

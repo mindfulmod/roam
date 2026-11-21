@@ -1,0 +1,527 @@
+{
+  "id": "turin",
+  "name": "Turin",
+  "country": "Italy",
+  "region": "Europe",
+  "lat": 45.0703,
+  "lon": 7.6869,
+  "wiki": "Turin",
+  "tagline": "Royal palaces, Egyptian treasures and the home of the aperitivo",
+  "summary": "Turin is Italy's elegant first capital, with arcaded boulevards, Savoy palaces and the Alps on the horizon. See the world's second-greatest Egyptian Museum, ride the lift up the Mole Antonelliana, sip a bicerin in an old café and graze through the city's generous aperitivo spreads.",
+  "days": 2,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn are mild and clear; winter is foggy and cold but good for museums.",
+  "arrival": "Turin Airport is 30 minutes by bus or train; fast trains reach Porta Nuova and Porta Susa from Milan in under an hour.",
+  "gettingAround": "The centre is walkable under the arcades; trams and the metro cover the rest.",
+  "cashTip": "Cards work almost everywhere; carry a few euros for coffee bars, tips and small shops.",
+  "dailyBudget": [
+    90,
+    220
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    15,
+    40
+  ],
+  "foodTip": "Bicerin, gianduja chocolate, agnolotti and a long aperitivo.",
+  "buyTip": "Gianduiotti chocolates, vermouth and Piedmont wines.",
+  "baseArea": "Centro or San Salvario",
+  "connections": [
+    {
+      "to": "milan",
+      "mode": "Train",
+      "minutes": 50,
+      "note": "High-speed trains between Porta Susa and Milano Centrale."
+    },
+    {
+      "to": "cinque-terre",
+      "mode": "Train",
+      "minutes": 210,
+      "note": "Change in Genoa."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Turin on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Turin",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Turin%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Turin%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Turin Mole Antonelliana Alps",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "turin-tur-egizio",
+      "name": "Egyptian Museum",
+      "kind": "see",
+      "lat": 45.0684,
+      "lon": 7.6843,
+      "wiki": "Museo Egizio",
+      "summary": "One of the world's great collections of ancient Egyptian art.",
+      "expect": "Book a time slot.",
+      "tip": "Allow at least three hours.",
+      "area": "Centro",
+      "duration": 3,
+      "price": [
+        18,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Egyptian%20Museum%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Egyptian%20Museum%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Egyptian%20Museum%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Art"
+      ],
+      "whyVisit": [
+        "One of the world's great collections of ancient Egyptian art.",
+        "World-class collection."
+      ],
+      "visitFlow": [
+        "Statue gallery.",
+        "Tomb of Kha."
+      ],
+      "bestFor": "Visitors interested in history and context and art and craft",
+      "tradeoffs": [
+        "Book a time slot.",
+        "Allow at least three hours."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "turin-tur-mole",
+      "name": "Mole Antonelliana and Cinema Museum",
+      "kind": "see",
+      "lat": 45.069,
+      "lon": 7.6932,
+      "wiki": "Mole Antonelliana",
+      "summary": "Spired landmark holding the National Cinema Museum and a glass lift.",
+      "expect": "Lift queues at sunset.",
+      "tip": "Book the lift and museum together.",
+      "area": "Vanchiglia",
+      "duration": 2,
+      "price": [
+        15,
+        22
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mole%20Antonelliana%20and%20Cinema%20Museum%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Mole%20Antonelliana%20and%20Cinema%20Museum%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mole%20Antonelliana%20and%20Cinema%20Museum%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Spired landmark holding the National Cinema Museum and a glass lift.",
+        "City symbol."
+      ],
+      "visitFlow": [
+        "Cinema halls.",
+        "Glass lift to the top."
+      ],
+      "bestFor": "Visitors interested in big views and art and craft",
+      "tradeoffs": [
+        "Lift queues at sunset.",
+        "Book the lift and museum together."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "turin-tur-palazzo",
+      "name": "Royal Palace of Turin",
+      "kind": "see",
+      "lat": 45.0726,
+      "lon": 7.686,
+      "wiki": "Royal Palace of Turin",
+      "summary": "Savoy royal apartments, armoury and gardens.",
+      "expect": "Big complex.",
+      "tip": "Include the Royal Armoury.",
+      "area": "Piazza Castello",
+      "duration": 2,
+      "price": [
+        15,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Royal%20Palace%20of%20Turin%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Royal%20Palace%20of%20Turin%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Royal%20Palace%20of%20Turin%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Savoy royal apartments, armoury and gardens.",
+        "Savoy splendour."
+      ],
+      "visitFlow": [
+        "State rooms.",
+        "Armoury."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Big complex.",
+        "Include the Royal Armoury."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "turin-tur-superga",
+      "name": "Basilica of Superga",
+      "kind": "see",
+      "lat": 45.0805,
+      "lon": 7.7676,
+      "wiki": "Basilica of Superga",
+      "summary": "Baroque basilica on a hill with Alpine views.",
+      "expect": "Take the rack railway from Sassi.",
+      "tip": "Clear days show Monte Rosa.",
+      "area": "Superga hill",
+      "duration": 2.5,
+      "price": [
+        0,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Basilica%20of%20Superga%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Basilica%20of%20Superga%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Basilica%20of%20Superga%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Baroque basilica on a hill with Alpine views.",
+        "Best view of Turin."
+      ],
+      "visitFlow": [
+        "Rack railway.",
+        "Dome and terrace."
+      ],
+      "bestFor": "Visitors interested in big views and sacred places",
+      "tradeoffs": [
+        "Take the rack railway from Sassi.",
+        "Clear days show Monte Rosa."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "turin-tur-venaria",
+      "name": "Reggia di Venaria",
+      "kind": "see",
+      "lat": 45.1368,
+      "lon": 7.6262,
+      "wiki": "Palace of Venaria",
+      "summary": "Vast royal hunting palace with restored gardens.",
+      "expect": "Half a day.",
+      "tip": "Train or bus from the centre.",
+      "area": "Venaria Reale",
+      "duration": 4,
+      "price": [
+        20,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Reggia%20di%20Venaria%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Reggia%20di%20Venaria%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Reggia%20di%20Venaria%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Vast royal hunting palace with restored gardens.",
+        "Italy's Versailles."
+      ],
+      "visitFlow": [
+        "Great Gallery.",
+        "Gardens."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Half a day.",
+        "Train or bus from the centre."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "turin-tur-sancarlo",
+      "name": "Piazza San Carlo and the arcades",
+      "kind": "see",
+      "lat": 45.0677,
+      "lon": 7.6826,
+      "wiki": "Piazza San Carlo",
+      "summary": "Grand baroque square framed by historic cafés.",
+      "expect": "Free.",
+      "tip": "Walk Via Roma under the arcades.",
+      "area": "Centro",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Piazza%20San%20Carlo%20and%20the%20arcades%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Piazza%20San%20Carlo%20and%20the%20arcades%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Piazza%20San%20Carlo%20and%20the%20arcades%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Grand baroque square framed by historic cafés.",
+        "Turin's drawing room."
+      ],
+      "visitFlow": [
+        "Twin churches.",
+        "Arcaded Via Roma."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Walk Via Roma under the arcades."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "turin-tur-bicerin",
+      "name": "Bicerin at Caffè Al Bicerin",
+      "kind": "eat",
+      "lat": 45.0745,
+      "lon": 7.6797,
+      "wiki": "Bicerin",
+      "summary": "Layered coffee, chocolate and cream served since 1763.",
+      "expect": "Tiny room.",
+      "tip": "Go mid-morning.",
+      "area": "Consolata",
+      "duration": 0.5,
+      "price": [
+        6,
+        8
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bicerin%20at%20Caff%C3%A8%20Al%20Bicerin%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Bicerin%20at%20Caff%C3%A8%20Al%20Bicerin%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bicerin%20at%20Caff%C3%A8%20Al%20Bicerin%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Layered coffee, chocolate and cream served since 1763.",
+        "Turin's own drink."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Tiny room.",
+        "Go mid-morning."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Café",
+      "mustOrder": [
+        "Bicerin"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "turin-tur-aperitivo",
+      "name": "Turin aperitivo",
+      "kind": "eat",
+      "lat": 45.061,
+      "lon": 7.684,
+      "wiki": "Aperitivo",
+      "summary": "Vermouth or spritz with a generous buffet of snacks.",
+      "expect": "From 7 pm.",
+      "tip": "Bars in San Salvario and the Quadrilatero.",
+      "area": "San Salvario",
+      "duration": 1.5,
+      "price": [
+        10,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Turin%20aperitivo%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Turin%20aperitivo%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Turin%20aperitivo%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Vermouth or spritz with a generous buffet of snacks.",
+        "Born here."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "From 7 pm.",
+        "Bars in San Salvario and the Quadrilatero."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Italian",
+      "mustOrder": [
+        "Vermouth",
+        "Aperitivo buffet"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "turin-tur-agnolotti",
+      "name": "Agnolotti del plin",
+      "kind": "eat",
+      "lat": 45.073,
+      "lon": 7.68,
+      "wiki": "Agnolotti",
+      "summary": "Tiny pinched Piedmont pasta with butter and sage or roast sauce.",
+      "expect": "Trattorias.",
+      "tip": "Pair with Barbera.",
+      "area": "Quadrilatero Romano",
+      "duration": 1.5,
+      "price": [
+        14,
+        24
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Agnolotti%20del%20plin%2C%20Turin",
+        "https://www.google.com/maps/search/?api=1&query=Agnolotti%20del%20plin%2C%20Turin"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Agnolotti%20del%20plin%2C%20Turin"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Tiny pinched Piedmont pasta with butter and sage or roast sauce.",
+        "Piedmont classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Trattorias.",
+        "Pair with Barbera."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Piedmontese",
+      "mustOrder": [
+        "Agnolotti del plin",
+        "Vitello tonnato"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
