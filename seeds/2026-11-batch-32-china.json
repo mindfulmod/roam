@@ -1,0 +1,2857 @@
+[
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   80,
+   250
+  ],
+  "id": "guilin",
+  "name": "Guilin and Yangshuo",
+  "at": [
+   25.2736,
+   110.29
+  ],
+  "wiki": "Guilin",
+  "cover": "Li River",
+  "seasons": "LSSHHSSSHPHS",
+  "tagline": "Karst peaks and the Li River, China's classic landscape",
+  "summary": "Guilin's limestone peaks rising beside the Li River are one of China's most famous views, printed on the 20-yuan note. Cruise the river to Yangshuo, cycle or bamboo-raft through the Yulong valley, explore lit caves and see the Longji rice terraces in the hills to the north.",
+  "days": 4,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "April to May and September to November are best. Summer is hot with heavy rain that can make the river high. Avoid the October Golden Week crowds.",
+  "arrival": "Guilin Liangjiang Airport has flights across China. High-speed trains reach Guangzhou in about 2.5 hours and Hong Kong in about 3. Check current visa and visa-free transit rules before you go.",
+  "gettingAround": "Taxis and Didi in Guilin; the Li River cruise or a bus links to Yangshuo, where bikes and e-scooters are best.",
+  "foodTip": "Guilin rice noodles, Yangshuo beer fish and Guangxi river snails (luosifen).",
+  "buyTip": "Osmanthus tea and wine, and Guilin chilli sauce.",
+  "baseArea": "Central Guilin near the lakes, or Yangshuo for the countryside",
+  "hotel": [
+   30,
+   180
+  ],
+  "connections": [
+   {
+    "to": "hong-kong",
+    "mode": "High-speed rail",
+    "minutes": 180,
+    "note": "Direct trains to West Kowloon."
+   },
+   {
+    "to": "shanghai",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Approximate flight time."
+   }
+  ],
+  "items": [
+   {
+    "name": "Li River cruise",
+    "kind": "see",
+    "id": "guilin-liriver",
+    "at": [
+     25.08,
+     110.42
+    ],
+    "wiki": "Li River",
+    "area": "Li River",
+    "summary": "A four-hour cruise past karst peaks, bamboo groves and water buffalo from Guilin to Yangshuo.",
+    "expect": "Book ahead; the 20-yuan note view is near Xingping.",
+    "tip": "Sit on the open deck.",
+    "why": "China's most famous river scenery.",
+    "flow": [
+     "Board at Zhujiang pier.",
+     "Cruise downriver.",
+     "Arrive in Yangshuo."
+    ],
+    "hours": 5,
+    "price": [
+     200,
+     450
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Reed Flute Cave",
+    "kind": "see",
+    "id": "guilin-reedflute",
+    "at": [
+     25.3083,
+     110.2639
+    ],
+    "wiki": "Reed Flute Cave",
+    "area": "North-west Guilin",
+    "summary": "A cave of stalactites lit in bright colours, with ancient inscriptions.",
+    "expect": "Guided groups; about an hour.",
+    "tip": "Look for the Crystal Palace chamber.",
+    "why": "Guilin's best cave.",
+    "flow": [
+     "Enter the cave.",
+     "Crystal Palace."
+    ],
+    "hours": 1,
+    "price": [
+     90,
+     90
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Elephant Trunk Hill",
+    "kind": "see",
+    "id": "guilin-elephant",
+    "at": [
+     25.2667,
+     110.2967
+    ],
+    "wiki": "Elephant Trunk Hill",
+    "area": "Central Guilin",
+    "summary": "A hill shaped like an elephant drinking from the river, the city's symbol.",
+    "expect": "View it free from the opposite bank.",
+    "tip": "See it from the riverbank at dusk.",
+    "why": "Guilin's emblem.",
+    "flow": [
+     "Riverbank view.",
+     "Walk the park."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     55
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Sun and Moon Pagodas",
+    "kind": "see",
+    "id": "guilin-pagodas",
+    "at": [
+     25.2768,
+     110.2925
+    ],
+    "wiki": "Sun and Moon Pagodas",
+    "area": "Shan Lake",
+    "summary": "Two lakeside pagodas, one copper and one glass, lit up at night.",
+    "expect": "Best seen after dark.",
+    "tip": "Take a two-rivers-four-lakes night boat.",
+    "why": "Guilin at night.",
+    "flow": [
+     "Lakeside walk.",
+     "Night lights."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Yangshuo and the Yulong River",
+    "kind": "see",
+    "id": "guilin-yangshuo",
+    "at": [
+     24.7778,
+     110.4964
+    ],
+    "wiki": "Yangshuo County",
+    "area": "Yangshuo",
+    "summary": "A riverside town among karst peaks, with bamboo rafting and cycling through the Yulong valley.",
+    "expect": "About 1.5 hours by road from Guilin.",
+    "tip": "Cycle to Dragon Bridge and raft back.",
+    "why": "The countryside at its best.",
+    "flow": [
+     "Rent a bike.",
+     "Ride the valley.",
+     "Bamboo raft."
+    ],
+    "hours": 8,
+    "price": [
+     100,
+     300
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Xianggong Hill",
+    "kind": "see",
+    "id": "guilin-xianggong",
+    "at": [
+     24.86,
+     110.5
+    ],
+    "wiki": "Li River",
+    "area": "Xingping",
+    "summary": "A lookout above a great bend in the Li River, famous at sunrise.",
+    "expect": "Short climb; go very early.",
+    "tip": "Bring a headtorch for sunrise.",
+    "why": "The best Li River photo.",
+    "flow": [
+     "Early drive.",
+     "Climb to the lookout."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Longji Rice Terraces",
+    "kind": "see",
+    "id": "guilin-longji",
+    "at": [
+     25.7556,
+     110.1186
+    ],
+    "wiki": "Longji Rice Terraces",
+    "area": "Longsheng",
+    "summary": "Mountains carved into rice terraces by Zhuang and Yao villagers over centuries.",
+    "expect": "About 2 hours by road; stay overnight in Ping'an.",
+    "tip": "Visit in late September for golden rice.",
+    "why": "Some of China's finest terraces.",
+    "flow": [
+     "Drive north.",
+     "Walk Ping'an village.",
+     "Terrace viewpoints."
+    ],
+    "hours": 8,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Guilin rice noodles",
+    "kind": "eat",
+    "id": "guilin-ricenoodles",
+    "at": [
+     25.28,
+     110.29
+    ],
+    "wiki": "Guilin rice noodles",
+    "area": "Central Guilin",
+    "venue": "food-area",
+    "summary": "Soft rice noodles with braised meat, peanuts and pickles, eaten for breakfast.",
+    "expect": "Cheap, fast, everywhere.",
+    "tip": "Add the house chilli and pickled beans.",
+    "why": "Guilin's daily breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Guangxi",
+    "order": [
+     "Guilin rice noodles"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Yangshuo beer fish",
+    "kind": "eat",
+    "id": "guilin-beerfish",
+    "at": [
+     24.778,
+     110.496
+    ],
+    "wiki": "Beer fish",
+    "area": "Yangshuo",
+    "venue": "food-area",
+    "summary": "River carp braised in local beer with tomatoes and peppers.",
+    "expect": "Choose the fish by weight.",
+    "tip": "Agree the price first.",
+    "why": "Yangshuo's famous dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Guangxi",
+    "order": [
+     "Beer fish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Luosifen",
+    "kind": "eat",
+    "id": "guilin-luosifen",
+    "at": [
+     25.275,
+     110.29
+    ],
+    "wiki": "Luosifen",
+    "area": "Central Guilin",
+    "venue": "food-area",
+    "summary": "Guangxi's sour, spicy river-snail rice noodle soup with a strong smell.",
+    "expect": "An acquired taste.",
+    "tip": "Try it at least once.",
+    "why": "Guangxi's cult dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Guangxi",
+    "order": [
+     "Luosifen"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   80,
+   250
+  ],
+  "id": "chengdu",
+  "name": "Chengdu",
+  "at": [
+   30.5728,
+   104.0668
+  ],
+  "wiki": "Chengdu",
+  "cover": "Giant panda Chengdu",
+  "seasons": "LSHHHSSSHPSL",
+  "tagline": "Giant pandas, teahouses and fiery Sichuan food",
+  "summary": "Sichuan's laid-back capital is the best place in the world to see giant pandas, and one of China's great food cities. Days here mix teahouses in leafy parks, Buddhist temples, old lanes and Sichuan opera, with the Leshan Giant Buddha and Dujiangyan within day-trip range.",
+  "days": 3,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are mild. Summer is hot and humid, and winter is damp and grey. Pandas are most active on cool mornings.",
+  "arrival": "Chengdu has two airports, Tianfu and Shuangliu, both linked by metro. High-speed trains reach Xi'an in about 3.5 hours and Chongqing in about 1.5. Check current visa and visa-free transit rules before you go.",
+  "gettingAround": "An extensive metro network, plus taxis and Didi.",
+  "foodTip": "Hotpot, mapo tofu, dan dan noodles, chuan chuan skewers and rabbit head for the brave.",
+  "buyTip": "Sichuan peppercorns, Shu embroidery and panda souvenirs.",
+  "baseArea": "Around Chunxi Road or near Kuanzhai Alley",
+  "hotel": [
+   30,
+   180
+  ],
+  "connections": [
+   {
+    "to": "xian",
+    "mode": "High-speed rail",
+    "minutes": 210,
+    "note": "Fast trains through the Qinling mountains."
+   },
+   {
+    "to": "beijing",
+    "mode": "Flight",
+    "minutes": 180,
+    "note": "Approximate flight time."
+   },
+   {
+    "to": "shanghai",
+    "mode": "Flight",
+    "minutes": 180,
+    "note": "Approximate flight time."
+   }
+  ],
+  "items": [
+   {
+    "name": "Giant Panda Breeding Base",
+    "kind": "see",
+    "id": "cd-panda",
+    "at": [
+     30.7333,
+     104.1458
+    ],
+    "wiki": "Chengdu Research Base of Giant Panda Breeding",
+    "area": "North",
+    "summary": "Bamboo-filled enclosures where giant and red pandas eat, climb and nap.",
+    "expect": "Arrive at opening; pandas sleep by late morning.",
+    "tip": "Book tickets online and be there by 7:30.",
+    "why": "The best place to see pandas.",
+    "flow": [
+     "Adult pandas.",
+     "Nursery.",
+     "Red pandas."
+    ],
+    "hours": 3,
+    "price": [
+     55,
+     55
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Wenshu Monastery",
+    "kind": "see",
+    "id": "cd-wenshu",
+    "at": [
+     30.675,
+     104.073
+    ],
+    "wiki": "Wenshu Monastery",
+    "area": "Centre",
+    "summary": "A working Buddhist monastery with gardens, a teahouse and a vegetarian restaurant.",
+    "expect": "Free; quiet and local.",
+    "tip": "Have tea and a vegetarian lunch inside.",
+    "why": "Chengdu's spiritual heart.",
+    "flow": [
+     "Halls.",
+     "Teahouse."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "People's Park teahouse",
+    "kind": "see",
+    "id": "cd-peoplespark",
+    "at": [
+     30.6591,
+     104.0573
+    ],
+    "wiki": "People's Park (Chengdu)",
+    "area": "Centre",
+    "summary": "Locals drink tea, play mahjong and get their ears cleaned under the trees.",
+    "expect": "Cheap tea; stay as long as you like.",
+    "tip": "Try the ear cleaning.",
+    "why": "Chengdu's slow life.",
+    "flow": [
+     "Heming teahouse.",
+     "Matchmaking corner."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Kuanzhai Alley",
+    "kind": "see",
+    "id": "cd-kuanzhai",
+    "at": [
+     30.6694,
+     104.0553
+    ],
+    "wiki": "Kuanzhai Alley",
+    "area": "Centre",
+    "summary": "Restored Qing-era lanes of courtyards, snacks and teahouses.",
+    "expect": "Very busy at weekends.",
+    "tip": "Go in the evening.",
+    "why": "Old Chengdu restored.",
+    "flow": [
+     "Wide Alley.",
+     "Narrow Alley."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Wuhou Shrine and Jinli Street",
+    "kind": "see",
+    "id": "cd-wuhou",
+    "at": [
+     30.6461,
+     104.0478
+    ],
+    "wiki": "Wuhou Shrine",
+    "area": "Wuhou",
+    "summary": "A shrine to the Three Kingdoms hero Zhuge Liang, beside the lantern-lit Jinli street.",
+    "expect": "Jinli is free; the shrine has a fee.",
+    "tip": "Visit the shrine, then eat on Jinli.",
+    "why": "Three Kingdoms history.",
+    "flow": [
+     "Shrine.",
+     "Jinli street."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Sichuan opera face-changing",
+    "kind": "see",
+    "id": "cd-opera",
+    "at": [
+     30.66,
+     104.06
+    ],
+    "wiki": "Bian lian",
+    "area": "Centre",
+    "summary": "An evening show of opera, puppets, fire-spitting and masks that change in a flash.",
+    "expect": "Shows nightly at several theatres.",
+    "tip": "Book a seat near the front.",
+    "why": "Chengdu's signature show.",
+    "flow": [
+     "Tea and show.",
+     "Face changing."
+    ],
+    "hours": 1.5,
+    "price": [
+     150,
+     300
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Jinsha Site Museum",
+    "kind": "see",
+    "id": "cd-jinsha",
+    "at": [
+     30.6833,
+     104.0122
+    ],
+    "wiki": "Jinsha site",
+    "area": "West",
+    "summary": "The remains of a 3,000-year-old Shu kingdom city with gold masks and the Sun Bird.",
+    "expect": "Pair with Sanxingdui for the full story.",
+    "tip": "See the golden Sun and Bird disc.",
+    "why": "Ancient Sichuan's mystery.",
+    "flow": [
+     "Excavation hall.",
+     "Treasure gallery."
+    ],
+    "hours": 2,
+    "price": [
+     70,
+     70
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Leshan Giant Buddha",
+    "kind": "see",
+    "id": "cd-leshan",
+    "at": [
+     29.5447,
+     103.7733
+    ],
+    "wiki": "Leshan Giant Buddha",
+    "area": "Leshan",
+    "summary": "A 71 m Buddha carved into a cliff in the 8th century, the largest in the world.",
+    "expect": "About an hour by fast train; long queues on the stairs.",
+    "tip": "Take the boat for the full view.",
+    "why": "A world wonder.",
+    "flow": [
+     "Train to Leshan.",
+     "Stairs down the cliff.",
+     "River boat."
+    ],
+    "hours": 8,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Dujiangyan irrigation system",
+    "kind": "see",
+    "id": "cd-dujiangyan",
+    "at": [
+     31.0019,
+     103.605
+    ],
+    "wiki": "Dujiangyan",
+    "area": "Dujiangyan",
+    "summary": "A 2,000-year-old irrigation system still watering the Sichuan plain.",
+    "expect": "Pair with Mount Qingcheng.",
+    "tip": "Visit Qingcheng's Taoist temples too.",
+    "why": "Ancient engineering still working.",
+    "flow": [
+     "Train out.",
+     "Fish Mouth levee.",
+     "Mount Qingcheng."
+    ],
+    "hours": 6,
+    "price": [
+     80,
+     90
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Sichuan hotpot",
+    "kind": "eat",
+    "id": "cd-hotpot",
+    "at": [
+     30.655,
+     104.08
+    ],
+    "wiki": "Hot pot",
+    "area": "Chunxi Road",
+    "venue": "food-area",
+    "summary": "A bubbling pot of chilli and Sichuan pepper broth for cooking meat and vegetables.",
+    "expect": "Ask for a split pot if you can't handle the heat.",
+    "tip": "Try tripe and duck blood.",
+    "why": "Chengdu's great social meal.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     80,
+     180
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sichuan",
+    "order": [
+     "Spicy hotpot",
+     "Yuanyang pot"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Mapo tofu",
+    "kind": "eat",
+    "id": "cd-mapo",
+    "at": [
+     30.66,
+     104.07
+    ],
+    "wiki": "Mapo tofu",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Silky tofu in a numbing, spicy chilli bean sauce, invented in Chengdu.",
+    "expect": "Vegetarian versions exist.",
+    "tip": "Eat with plenty of rice.",
+    "why": "Sichuan's best-known dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     50
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sichuan",
+    "order": [
+     "Mapo tofu"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Dan dan noodles and chuan chuan",
+    "kind": "eat",
+    "id": "cd-dandan",
+    "at": [
+     30.665,
+     104.065
+    ],
+    "wiki": "Dandan noodles",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Spicy sesame noodles, and skewers you cook in a communal spicy broth.",
+    "expect": "Street snacks across the city.",
+    "tip": "Try chuan chuan at night.",
+    "why": "Cheap and fiery.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     60
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Sichuan",
+    "order": [
+     "Dan dan noodles",
+     "Chuan chuan"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   80,
+   250
+  ],
+  "id": "hangzhou",
+  "name": "Hangzhou",
+  "at": [
+   30.2741,
+   120.1551
+  ],
+  "wiki": "Hangzhou",
+  "cover": "West Lake",
+  "seasons": "LSHHHSSSHPHS",
+  "tagline": "West Lake, tea hills and classic Chinese poetry",
+  "summary": "Hangzhou's West Lake, ringed by willow-lined causeways, pagodas and misty hills, inspired centuries of Chinese poets and painters. Beyond the lake are the Buddhist caves of Lingyin, the Longjing tea plantations and nearby canal water towns.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Spring blossoms and autumn osmanthus are the highlights. Summer is hot and humid. Weekends and holidays are very crowded at the lake.",
+  "arrival": "High-speed trains from Shanghai take about an hour. Xiaoshan Airport is about 45 minutes away. Check current visa and visa-free transit rules before you go.",
+  "gettingAround": "Metro, buses and public bikes; walking or cycling around West Lake.",
+  "foodTip": "Dongpo pork, West Lake fish in vinegar sauce, Longjing shrimp and beggar's chicken.",
+  "buyTip": "Longjing (Dragon Well) tea and Hangzhou silk.",
+  "baseArea": "Near West Lake's north or east shore",
+  "hotel": [
+   40,
+   250
+  ],
+  "connections": [
+   {
+    "to": "shanghai",
+    "mode": "High-speed rail",
+    "minutes": 60,
+    "note": "Frequent fast trains."
+   },
+   {
+    "to": "suzhou",
+    "mode": "High-speed rail",
+    "minutes": 90,
+    "note": "Direct fast trains."
+   },
+   {
+    "to": "beijing",
+    "mode": "High-speed rail",
+    "minutes": 300,
+    "note": "Fast trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "West Lake",
+    "kind": "see",
+    "id": "hz-westlake",
+    "at": [
+     30.246,
+     120.145
+    ],
+    "wiki": "West Lake",
+    "area": "West Lake",
+    "summary": "A lake of causeways, islands, pagodas and gardens, a World Heritage cultural landscape.",
+    "expect": "Free; rent a bike or take a boat to the islands.",
+    "tip": "Walk the Bai Causeway at sunrise.",
+    "why": "China's most celebrated lake.",
+    "flow": [
+     "Bai Causeway.",
+     "Boat to Three Pools.",
+     "Lakeside walk."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     55
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Su Causeway",
+    "kind": "see",
+    "id": "hz-sudi",
+    "at": [
+     30.248,
+     120.142
+    ],
+    "wiki": "Su Causeway",
+    "area": "West Lake",
+    "summary": "A 3 km willow-lined causeway with six arched bridges across the lake.",
+    "expect": "Lovely in spring blossom.",
+    "tip": "Cycle it end to end.",
+    "why": "A classic West Lake scene.",
+    "flow": [
+     "South end.",
+     "Six bridges."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lingyin Temple",
+    "kind": "see",
+    "id": "hz-lingyin",
+    "at": [
+     30.2408,
+     120.0997
+    ],
+    "wiki": "Lingyin Temple",
+    "area": "West hills",
+    "summary": "One of China's largest Buddhist temples, beside the carved Feilai Feng caves.",
+    "expect": "Busy; separate park and temple tickets.",
+    "tip": "See the laughing Buddha carvings at Feilai Feng.",
+    "why": "Hangzhou's spiritual heart.",
+    "flow": [
+     "Feilai Feng carvings.",
+     "Temple halls."
+    ],
+    "hours": 3,
+    "price": [
+     75,
+     75
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Art"
+    ]
+   },
+   {
+    "name": "Leifeng Pagoda",
+    "kind": "see",
+    "id": "hz-leifeng",
+    "at": [
+     30.2312,
+     120.1488
+    ],
+    "wiki": "Leifeng Pagoda",
+    "area": "West Lake south",
+    "summary": "A rebuilt pagoda with lake views and the legend of the White Snake.",
+    "expect": "Escalators to the top.",
+    "tip": "Go at sunset.",
+    "why": "The best view over the lake.",
+    "flow": [
+     "Ruins inside.",
+     "Top deck."
+    ],
+    "hours": 1,
+    "price": [
+     40,
+     40
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Longjing tea village",
+    "kind": "see",
+    "id": "hz-longjing",
+    "at": [
+     30.2244,
+     120.1197
+    ],
+    "wiki": "Longjing tea",
+    "area": "West hills",
+    "summary": "Terraced tea plantations where famous Dragon Well green tea is grown.",
+    "expect": "Farmers will offer tastings.",
+    "tip": "Visit in spring for picking season.",
+    "why": "Tea at its source.",
+    "flow": [
+     "Tea fields walk.",
+     "Tasting."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Hefang Street",
+    "kind": "see",
+    "id": "hz-hefang",
+    "at": [
+     30.2425,
+     120.169
+    ],
+    "wiki": "Hefang Street",
+    "area": "Old town",
+    "summary": "An old street of traditional shops, medicine halls and snacks.",
+    "expect": "Touristy but lively.",
+    "tip": "Visit the Huqingyutang pharmacy museum.",
+    "why": "Old Hangzhou.",
+    "flow": [
+     "Street walk.",
+     "Pharmacy museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Xixi Wetland",
+    "kind": "see",
+    "id": "hz-xixi",
+    "at": [
+     30.27,
+     120.06
+    ],
+    "wiki": "Xixi National Wetland Park",
+    "area": "West",
+    "summary": "Wetlands of canals, persimmon trees and old villages explored by electric boat.",
+    "expect": "Large; take the boat.",
+    "tip": "Visit in autumn.",
+    "why": "Quiet nature in the city.",
+    "flow": [
+     "Boat ride.",
+     "Village walk."
+    ],
+    "hours": 3,
+    "price": [
+     80,
+     140
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Wuzhen water town",
+    "kind": "see",
+    "id": "hz-wuzhen",
+    "at": [
+     30.7444,
+     120.4875
+    ],
+    "wiki": "Wuzhen",
+    "area": "Wuzhen",
+    "summary": "A canal town of stone bridges and wooden houses, beautiful when lit at night.",
+    "expect": "About 1.5 hours by road.",
+    "tip": "Stay overnight in the West Scenic Zone.",
+    "why": "China's most atmospheric water town.",
+    "flow": [
+     "Drive out.",
+     "West zone canals.",
+     "Night lights."
+    ],
+    "hours": 8,
+    "price": [
+     110,
+     190
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Dongpo pork",
+    "kind": "eat",
+    "id": "hz-dongpo",
+    "at": [
+     30.25,
+     120.16
+    ],
+    "wiki": "Dongpo pork",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Slow-braised pork belly in soy and Shaoxing wine, named after the poet Su Dongpo.",
+    "expect": "On every local menu.",
+    "tip": "Order with rice.",
+    "why": "Hangzhou's signature dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     40,
+     90
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Zhejiang",
+    "order": [
+     "Dongpo pork"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "West Lake fish in vinegar sauce",
+    "kind": "eat",
+    "id": "hz-vinegarfish",
+    "at": [
+     30.255,
+     120.155
+    ],
+    "wiki": "West Lake Fish in Vinegar Gravy",
+    "area": "West Lake",
+    "venue": "food-area",
+    "summary": "Poached grass carp in a sweet-sour vinegar glaze.",
+    "expect": "Famous at Louwailou restaurant.",
+    "tip": "Pair with Longjing shrimp.",
+    "why": "A Hangzhou classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Zhejiang",
+    "order": [
+     "West Lake fish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Beggar's chicken and Longjing shrimp",
+    "kind": "eat",
+    "id": "hz-beggar",
+    "at": [
+     30.252,
+     120.158
+    ],
+    "wiki": "Beggar's chicken",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Chicken baked in clay and lotus leaves, and river shrimp stir-fried with tea leaves.",
+    "expect": "Order ahead for beggar's chicken.",
+    "tip": "Share them as a group.",
+    "why": "Two Hangzhou legends.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     200
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Zhejiang",
+    "order": [
+     "Beggar's chicken",
+     "Longjing shrimp"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   80,
+   250
+  ],
+  "id": "zhangjiajie",
+  "name": "Zhangjiajie",
+  "at": [
+   29.35,
+   110.54
+  ],
+  "wiki": "Zhangjiajie",
+  "cover": "Zhangjiajie National Forest Park",
+  "seasons": "LLSHHSHHHPSL",
+  "tagline": "Towering sandstone pillars and glass skywalks",
+  "summary": "Thousands of sandstone pillars, many draped in pine and mist, rise from the forests of Zhangjiajie in Hunan. The landscape inspired the floating mountains of Avatar. Walk among them in the national park, ride the cliffside Bailong lift, and cross glass bridges and skywalks on Tianmen Mountain.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "April to May and September to November are best. Summer is busy and rainy. Winter can be icy but quiet. Avoid Chinese holidays, when queues are very long.",
+  "arrival": "Zhangjiajie Hehua Airport has flights from major Chinese cities. High-speed trains from Changsha take about 1.5 hours. Wulingyuan, near the park entrance, is about 40 minutes from the city. Check current visa and visa-free transit rules before you go.",
+  "gettingAround": "Park shuttle buses and lifts inside the park (included in the multi-day ticket). Taxis and buses between town and the gates.",
+  "foodTip": "Tujia three-pot stews, smoked pork and spicy Hunan stir-fries.",
+  "buyTip": "Tujia brocade and local tea.",
+  "baseArea": "Wulingyuan town near the park gate",
+  "hotel": [
+   25,
+   150
+  ],
+  "connections": [
+   {
+    "to": "shanghai",
+    "mode": "Flight",
+    "minutes": 140,
+    "note": "Approximate flight time."
+   },
+   {
+    "to": "chengdu",
+    "mode": "Flight",
+    "minutes": 100,
+    "note": "Approximate flight time."
+   }
+  ],
+  "items": [
+   {
+    "name": "Zhangjiajie National Forest Park",
+    "kind": "see",
+    "id": "zjj-park",
+    "at": [
+     29.3236,
+     110.4347
+    ],
+    "wiki": "Zhangjiajie National Forest Park",
+    "area": "Wulingyuan",
+    "summary": "China's first national forest park, full of sandstone pillars, streams and cliff trails.",
+    "expect": "The ticket covers four days; allow at least two.",
+    "tip": "Start early to beat tour groups.",
+    "why": "One of China's natural wonders.",
+    "flow": [
+     "Enter at the gate.",
+     "Shuttle buses.",
+     "Viewpoint trails."
+    ],
+    "hours": 8,
+    "price": [
+     225,
+     225
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Yuanjiajie and Avatar Hallelujah Mountain",
+    "kind": "see",
+    "id": "zjj-yuanjiajie",
+    "at": [
+     29.36,
+     110.43
+    ],
+    "wiki": "Southern Sky Column",
+    "area": "Yuanjiajie",
+    "summary": "The pillar landscape that inspired Avatar, with the First Bridge Under Heaven.",
+    "expect": "Very busy around midday.",
+    "tip": "Go early or late.",
+    "why": "The park's most famous views.",
+    "flow": [
+     "Shuttle to Yuanjiajie.",
+     "Hallelujah Mountain.",
+     "Natural bridge."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Bailong Elevator",
+    "kind": "see",
+    "id": "zjj-bailong",
+    "at": [
+     29.3483,
+     110.43
+    ],
+    "wiki": "Bailong Elevator",
+    "area": "Yuanjiajie",
+    "summary": "A 326 m glass lift up a cliff face, among the tallest outdoor lifts in the world.",
+    "expect": "Long queues; extra fee.",
+    "tip": "Ride it up rather than down.",
+    "why": "An extraordinary ride.",
+    "flow": [
+     "Queue.",
+     "Ride up."
+    ],
+    "hours": 1,
+    "price": [
+     65,
+     65
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Tianzi Mountain",
+    "kind": "see",
+    "id": "zjj-tianzi",
+    "at": [
+     29.3833,
+     110.45
+    ],
+    "wiki": "Tianzi Mountain",
+    "area": "Tianzi",
+    "summary": "High peaks with sweeping views over a sea of pillars, reached by cable car.",
+    "expect": "Cable car extra; often misty.",
+    "tip": "Mist makes the best photos.",
+    "why": "The widest pillar panoramas.",
+    "flow": [
+     "Cable car up.",
+     "Helong Park viewpoints."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     72
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Golden Whip Stream",
+    "kind": "see",
+    "id": "zjj-goldenwhip",
+    "at": [
+     29.33,
+     110.44
+    ],
+    "wiki": "Zhangjiajie National Forest Park",
+    "area": "Valley floor",
+    "summary": "A flat 7 km walk along a stream beneath the pillars, with monkeys.",
+    "expect": "Easy walking.",
+    "tip": "Keep food hidden from the monkeys.",
+    "why": "The park from below.",
+    "flow": [
+     "Stream path.",
+     "Pillar views."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tianmen Mountain",
+    "kind": "see",
+    "id": "zjj-tianmen",
+    "at": [
+     29.05,
+     110.48
+    ],
+    "wiki": "Tianmen Mountain",
+    "area": "Zhangjiajie city",
+    "summary": "A long cable car from the city, glass skywalks on the cliffs and a huge natural arch called Heaven's Gate.",
+    "expect": "A full day; book ahead.",
+    "tip": "Ride the cable car up and the bus down the 99-bend road.",
+    "why": "Thrills and views.",
+    "flow": [
+     "Cable car.",
+     "Glass skywalk.",
+     "Heaven's Gate stairs."
+    ],
+    "hours": 7,
+    "price": [
+     258,
+     278
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Grand Canyon Glass Bridge",
+    "kind": "see",
+    "id": "zjj-glassbridge",
+    "at": [
+     29.399,
+     110.695
+    ],
+    "wiki": "Zhangjiajie Glass Bridge",
+    "area": "Grand Canyon",
+    "summary": "A glass-bottomed bridge 300 m above a canyon.",
+    "expect": "Separate ticket; bring ID.",
+    "tip": "Go on a weekday.",
+    "why": "A heart-pounding walk.",
+    "flow": [
+     "Cross the bridge.",
+     "Canyon walk."
+    ],
+    "hours": 3,
+    "price": [
+     150,
+     220
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Tujia three-pot stew",
+    "kind": "eat",
+    "id": "zjj-tujia",
+    "at": [
+     29.35,
+     110.54
+    ],
+    "wiki": "Tujia people",
+    "area": "Wulingyuan",
+    "venue": "food-area",
+    "summary": "Three small pots of tripe, pork and beef simmered with chilli at the table.",
+    "expect": "A Tujia minority speciality.",
+    "tip": "Share it as a group.",
+    "why": "Local mountain food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tujia",
+    "order": [
+     "Sanxiaguo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Hunan stir-fries",
+    "kind": "eat",
+    "id": "zjj-hunan",
+    "at": [
+     29.348,
+     110.542
+    ],
+    "wiki": "Hunan cuisine",
+    "area": "Wulingyuan",
+    "venue": "food-area",
+    "summary": "Smoky, hot dishes such as smoked pork with peppers and chopped chilli fish head.",
+    "expect": "Very spicy; ask for less if needed.",
+    "tip": "Try fish head with chopped chilli.",
+    "why": "Fiery Hunan cooking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     40,
+     120
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hunan",
+    "order": [
+     "Smoked pork",
+     "Chilli fish head"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Stinky tofu",
+    "kind": "eat",
+    "id": "zjj-stinkytofu",
+    "at": [
+     29.351,
+     110.54
+    ],
+    "wiki": "Stinky tofu",
+    "area": "Wulingyuan",
+    "venue": "food-area",
+    "summary": "Fermented tofu fried black and served with chilli.",
+    "expect": "Smells strong, tastes mild.",
+    "tip": "Try a small portion.",
+    "why": "Hunan street food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hunan",
+    "order": [
+     "Stinky tofu"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   80,
+   250
+  ],
+  "id": "guangzhou",
+  "name": "Guangzhou",
+  "at": [
+   23.1291,
+   113.2644
+  ],
+  "wiki": "Guangzhou",
+  "cover": "Canton Tower",
+  "seasons": "SSHHSLLLSHHS",
+  "tagline": "Canton's great food city on the Pearl River",
+  "summary": "Guangzhou, old Canton, has been a trading port for 2,000 years and is the home of Cantonese food. Spend mornings at dim sum, wander colonial Shamian Island and the carved Chen Clan hall, and watch the skyline light up from a Pearl River cruise or the Canton Tower.",
+  "days": 2,
+  "bestMonths": [
+   10,
+   11,
+   12,
+   3
+  ],
+  "seasonNote": "October to December is sunny and dry. Summer is hot, humid and stormy. Hotels get expensive during the Canton Fair in April and October.",
+  "arrival": "Baiyun Airport is about 45 minutes by metro. High-speed trains reach Hong Kong West Kowloon in under an hour and Shenzhen in about 30 minutes. Check current visa and visa-free transit rules before you go.",
+  "gettingAround": "A huge metro network; taxis and Didi.",
+  "foodTip": "Dim sum, roast goose, cheung fun rice rolls, wonton noodles and double-skin milk pudding.",
+  "buyTip": "Tea from Fangcun tea market, and everything at the wholesale markets.",
+  "baseArea": "Tianhe or Yuexiu",
+  "hotel": [
+   40,
+   200
+  ],
+  "connections": [
+   {
+    "to": "hong-kong",
+    "mode": "High-speed rail",
+    "minutes": 50,
+    "note": "Trains to West Kowloon."
+   },
+   {
+    "to": "shenzhen",
+    "mode": "High-speed rail",
+    "minutes": 30,
+    "note": "Frequent fast trains."
+   },
+   {
+    "to": "guilin",
+    "mode": "High-speed rail",
+    "minutes": 150,
+    "note": "Fast trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Canton Tower",
+    "kind": "see",
+    "id": "gz-canton",
+    "at": [
+     23.1066,
+     113.3245
+    ],
+    "wiki": "Canton Tower",
+    "area": "Haizhu",
+    "summary": "A 600 m twisted tower with a sky deck and a slow Ferris wheel on top.",
+    "expect": "Expensive at the top; lit beautifully at night.",
+    "tip": "Ride the bubble Ferris wheel.",
+    "why": "Guangzhou's skyline icon.",
+    "flow": [
+     "Lift up.",
+     "Sky deck.",
+     "Bubble wheel."
+    ],
+    "hours": 1.5,
+    "price": [
+     150,
+     400
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Chen Clan Ancestral Hall",
+    "kind": "see",
+    "id": "gz-chen",
+    "at": [
+     23.1258,
+     113.2453
+    ],
+    "wiki": "Chen Clan Ancestral Hall",
+    "area": "Liwan",
+    "summary": "An 1890s academy covered in wood, stone, brick and ceramic carvings.",
+    "expect": "Allow an hour.",
+    "tip": "Look at the roof ridge ceramics.",
+    "why": "The finest Lingnan craftsmanship.",
+    "flow": [
+     "Courtyards.",
+     "Roof carvings."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "Shamian Island",
+    "kind": "see",
+    "id": "gz-shamian",
+    "at": [
+     23.1078,
+     113.2433
+    ],
+    "wiki": "Shamian Island",
+    "area": "Liwan",
+    "summary": "A quiet island of colonial-era European buildings under banyan trees.",
+    "expect": "Free to wander.",
+    "tip": "Walk it in the late afternoon.",
+    "why": "Old trading-port Canton.",
+    "flow": [
+     "Shamian Main Street.",
+     "Riverfront."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Pearl River night cruise",
+    "kind": "see",
+    "id": "gz-pearl",
+    "at": [
+     23.115,
+     113.28
+    ],
+    "wiki": "Pearl River",
+    "area": "Riverfront",
+    "summary": "An evening boat past the lit skyline and Canton Tower.",
+    "expect": "Board at Tianzi or Xidi piers.",
+    "tip": "Pick a later sailing for full lights.",
+    "why": "Guangzhou's best night view.",
+    "flow": [
+     "Board.",
+     "Cruise past the tower."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Yuexiu Park and the Five Rams",
+    "kind": "see",
+    "id": "gz-yuexiu",
+    "at": [
+     23.14,
+     113.265
+    ],
+    "wiki": "Yuexiu Park",
+    "area": "Yuexiu",
+    "summary": "A hilly park with the Five Rams statue, city wall and Zhenhai Tower museum.",
+    "expect": "Free entry.",
+    "tip": "See the Five Rams, the city's legend.",
+    "why": "Guangzhou's founding myth.",
+    "flow": [
+     "Five Rams.",
+     "Zhenhai Tower."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Nanyue King Mausoleum Museum",
+    "kind": "see",
+    "id": "gz-nanyue",
+    "at": [
+     23.1386,
+     113.26
+    ],
+    "wiki": "Museum of the Mausoleum of the Nanyue King",
+    "area": "Yuexiu",
+    "summary": "A 2,000-year-old king's tomb with a jade burial suit.",
+    "expect": "One of China's best small museums.",
+    "tip": "See the jade suit.",
+    "why": "Ancient Canton's treasures.",
+    "flow": [
+     "Tomb.",
+     "Jade suit."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Temple of the Six Banyan Trees",
+    "kind": "see",
+    "id": "gz-sixbanyan",
+    "at": [
+     23.13,
+     113.26
+    ],
+    "wiki": "Temple of the Six Banyan Trees",
+    "area": "Yuexiu",
+    "summary": "A 1,400-year-old temple with the colourful Flower Pagoda.",
+    "expect": "Small entry fee.",
+    "tip": "Look up at the pagoda's painted eaves.",
+    "why": "Peace in the city.",
+    "flow": [
+     "Flower Pagoda.",
+     "Halls."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Shangxiajiu pedestrian street",
+    "kind": "see",
+    "id": "gz-shangxiajiu",
+    "at": [
+     23.118,
+     113.247
+    ],
+    "wiki": "Shangxiajiu Pedestrian Street",
+    "area": "Liwan",
+    "summary": "Arcaded shophouse street packed with shops and snacks.",
+    "expect": "Busy at weekends.",
+    "tip": "Snack your way along.",
+    "why": "Old Canton shopping.",
+    "flow": [
+     "Street walk.",
+     "Snacks."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Shopping",
+     "Food"
+    ]
+   },
+   {
+    "name": "Dim sum (yum cha)",
+    "kind": "eat",
+    "id": "gz-dimsum",
+    "at": [
+     23.125,
+     113.26
+    ],
+    "wiki": "Dim sum",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Tea with har gow, siu mai, char siu bao and dozens of small dishes.",
+    "expect": "Best in the morning; traditional teahouses fill early.",
+    "tip": "Tap the table twice to thank the tea pourer.",
+    "why": "Guangzhou's great ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cantonese",
+    "order": [
+     "Har gow",
+     "Siu mai",
+     "Char siu bao"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Roast goose and char siu",
+    "kind": "eat",
+    "id": "gz-roastgoose",
+    "at": [
+     23.12,
+     113.25
+    ],
+    "wiki": "Roast goose",
+    "area": "Centre",
+    "venue": "food-area",
+    "summary": "Crisp-skinned roast goose and honeyed barbecue pork over rice.",
+    "expect": "Look for meats hanging in the window.",
+    "tip": "Order a mixed plate.",
+    "why": "Cantonese roast perfection.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cantonese",
+    "order": [
+     "Roast goose",
+     "Char siu"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Cheung fun and double-skin milk",
+    "kind": "eat",
+    "id": "gz-cheungfun",
+    "at": [
+     23.119,
+     113.248
+    ],
+    "wiki": "Rice noodle roll",
+    "area": "Liwan",
+    "venue": "food-area",
+    "summary": "Silky steamed rice rolls, then a sweet double-skin milk pudding.",
+    "expect": "Snack shops in Liwan.",
+    "tip": "Try the egg-and-shrimp cheung fun.",
+    "why": "Classic Canton snacks.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     15,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cantonese",
+    "order": [
+     "Cheung fun",
+     "Double-skin milk"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   80,
+   250
+  ],
+  "id": "shenzhen",
+  "name": "Shenzhen",
+  "at": [
+   22.5431,
+   114.0579
+  ],
+  "wiki": "Shenzhen",
+  "cover": "Ping An Finance Center",
+  "seasons": "SSHHSLLLSHHS",
+  "tagline": "China's futuristic tech city next to Hong Kong",
+  "summary": "A fishing area turned megacity in four decades, Shenzhen is China's tech capital, with gleaming towers, the giant Huaqiangbei electronics market, design districts and long seaside parks. It's an easy add-on from Hong Kong, with beaches and an old fortress town in the east.",
+  "days": 2,
+  "bestMonths": [
+   10,
+   11,
+   12,
+   3
+  ],
+  "seasonNote": "October to December is sunny and comfortable. Summer is hot, wet and stormy.",
+  "arrival": "Cross from Hong Kong at Lo Wu or Futian, or take the high-speed train from West Kowloon (about 20 minutes). Bao'an Airport has flights across China. Check current visa and visa-free transit rules before you go.",
+  "gettingAround": "A fast, clean metro; taxis and Didi.",
+  "foodTip": "Cantonese and Hakka food, Chaoshan beef hotpot and Shajing oysters.",
+  "buyTip": "Electronics and gadgets at Huaqiangbei; art copies at Dafen.",
+  "baseArea": "Futian or Nanshan",
+  "hotel": [
+   50,
+   250
+  ],
+  "connections": [
+   {
+    "to": "hong-kong",
+    "mode": "High-speed rail",
+    "minutes": 20,
+    "note": "Or the MTR to Lo Wu or Lok Ma Chau and walk across."
+   },
+   {
+    "to": "guangzhou",
+    "mode": "High-speed rail",
+    "minutes": 30,
+    "note": "Frequent fast trains."
+   },
+   {
+    "to": "macau",
+    "mode": "Ferry",
+    "minutes": 60,
+    "note": "Ferries from Shekou."
+   }
+  ],
+  "items": [
+   {
+    "name": "Ping An Finance Centre Free Sky",
+    "kind": "see",
+    "id": "sz-pingan",
+    "at": [
+     22.5333,
+     114.055
+    ],
+    "wiki": "Ping An Finance Center",
+    "area": "Futian",
+    "summary": "An observation deck on the 116th floor of one of the world's tallest towers.",
+    "expect": "Clear days are best; bring your passport.",
+    "tip": "Go before sunset and stay for the lights.",
+    "why": "Shenzhen from the top.",
+    "flow": [
+     "Lift up.",
+     "Deck."
+    ],
+    "hours": 1.5,
+    "price": [
+     200,
+     200
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Huaqiangbei electronics market",
+    "kind": "see",
+    "id": "sz-huaqiangbei",
+    "at": [
+     22.545,
+     114.087
+    ],
+    "wiki": "Huaqiangbei",
+    "area": "Futian",
+    "summary": "Floors of stalls selling every component, phone and gadget imaginable.",
+    "expect": "Busy and chaotic; check quality.",
+    "tip": "Visit SEG Plaza for components.",
+    "why": "The world's hardware supermarket.",
+    "flow": [
+     "SEG Plaza.",
+     "Gadget malls."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Technology",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Lianhuashan Park",
+    "kind": "see",
+    "id": "sz-lianhua",
+    "at": [
+     22.553,
+     114.056
+    ],
+    "wiki": "Lianhuashan Park",
+    "area": "Futian",
+    "summary": "A hill park with a statue of Deng Xiaoping and views over the Futian skyline.",
+    "expect": "Free.",
+    "tip": "Climb at sunset.",
+    "why": "The story of Shenzhen.",
+    "flow": [
+     "Hill climb.",
+     "Skyline view."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "OCT Loft",
+    "kind": "see",
+    "id": "sz-oct",
+    "at": [
+     22.54,
+     113.99
+    ],
+    "wiki": "OCT Loft",
+    "area": "Nanshan",
+    "summary": "Old factories turned into galleries, design shops and cafés.",
+    "expect": "Weekends have markets.",
+    "tip": "Browse the design shops.",
+    "why": "Shenzhen's creative side.",
+    "flow": [
+     "Galleries.",
+     "Cafés."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Dafen Oil Painting Village",
+    "kind": "see",
+    "id": "sz-dafen",
+    "at": [
+     22.615,
+     114.137
+    ],
+    "wiki": "Dafen Village",
+    "area": "Longgang",
+    "summary": "A village of studios producing a huge share of the world's oil painting copies.",
+    "expect": "Watch painters at work.",
+    "tip": "Commission a portrait.",
+    "why": "A strange and fascinating place.",
+    "flow": [
+     "Studios.",
+     "Galleries."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Shenzhen Bay Park",
+    "kind": "see",
+    "id": "sz-bay",
+    "at": [
+     22.515,
+     113.95
+    ],
+    "wiki": "Shenzhen Bay Park",
+    "area": "Nanshan",
+    "summary": "A 15 km seaside promenade facing Hong Kong, with bikes and birdlife.",
+    "expect": "Free.",
+    "tip": "Cycle it at sunset.",
+    "why": "The city's waterfront.",
+    "flow": [
+     "Rent a bike.",
+     "Seafront ride."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Window of the World",
+    "kind": "see",
+    "id": "sz-window",
+    "at": [
+     22.5367,
+     113.9739
+    ],
+    "wiki": "Window of the World",
+    "area": "Nanshan",
+    "summary": "A theme park of miniature world landmarks, from the Eiffel Tower to the pyramids.",
+    "expect": "Kitschy but popular.",
+    "tip": "Go in the evening for the light show.",
+    "why": "A Shenzhen classic.",
+    "flow": [
+     "Mini world.",
+     "Evening show."
+    ],
+    "hours": 3,
+    "price": [
+     200,
+     220
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Dapeng Fortress",
+    "kind": "see",
+    "id": "sz-dapeng",
+    "at": [
+     22.596,
+     114.505
+    ],
+    "wiki": "Dapeng Fortress",
+    "area": "Dapeng",
+    "summary": "A 600-year-old walled coastal town near the eastern beaches.",
+    "expect": "Combine with Dameisha or Xichong beaches.",
+    "tip": "Make it a beach day.",
+    "why": "Old Shenzhen before the city.",
+    "flow": [
+     "Fortress lanes.",
+     "Beach."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Chaoshan beef hotpot",
+    "kind": "eat",
+    "id": "sz-chaoshan",
+    "at": [
+     22.54,
+     114.06
+    ],
+    "wiki": "Teochew cuisine",
+    "area": "Futian",
+    "venue": "food-area",
+    "summary": "Fresh-cut beef cuts swished in a light broth for seconds.",
+    "expect": "Ask the server how long for each cut.",
+    "tip": "Try the beef balls.",
+    "why": "Shenzhen's favourite hotpot.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     180
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chaoshan",
+    "order": [
+     "Beef hotpot"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Hakka restaurants",
+    "kind": "eat",
+    "id": "sz-hakka",
+    "at": [
+     22.55,
+     114.1
+    ],
+    "wiki": "Hakka cuisine",
+    "area": "Luohu",
+    "venue": "food-area",
+    "summary": "Salt-baked chicken, stuffed tofu and pork with preserved greens.",
+    "expect": "Hakka culture is strong here.",
+    "tip": "Order the salt-baked chicken.",
+    "why": "Southern China home cooking.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     50,
+     120
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hakka",
+    "order": [
+     "Salt-baked chicken",
+     "Stuffed tofu"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Shajing oysters",
+    "kind": "eat",
+    "id": "sz-oysters",
+    "at": [
+     22.73,
+     113.83
+    ],
+    "wiki": "Oyster",
+    "area": "Bao'an",
+    "venue": "food-area",
+    "summary": "Grilled oysters with garlic, from the old oyster village of Shajing.",
+    "expect": "Seafood restaurants across the city.",
+    "tip": "Order them grilled with garlic.",
+    "why": "A local tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Dinner",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cantonese",
+    "order": [
+     "Garlic oysters"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Carry some yuan as backup; mobile payment is common but foreign setup and acceptance can vary.",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   80,
+   250
+  ],
+  "id": "suzhou",
+  "name": "Suzhou",
+  "at": [
+   31.2989,
+   120.5853
+  ],
+  "wiki": "Suzhou",
+  "cover": "Humble Administrator's Garden",
+  "seasons": "LSHHHSSSHPHS",
+  "tagline": "Classical gardens and canals, the 'Venice of the East'",
+  "summary": "Suzhou's canals and white-walled houses frame China's finest classical gardens, nine of them World Heritage sites. Explore the Humble Administrator's and Lingering gardens, stroll Pingjiang Road, see I.M. Pei's Suzhou Museum, and visit nearby water towns.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are best for gardens. Summer is hot and humid. Gardens get very crowded on holidays.",
+  "arrival": "High-speed trains from Shanghai take about 30 minutes. Shanghai's airports are 1 to 2 hours away. Check current visa and visa-free transit rules before you go.",
+  "gettingAround": "Metro, buses, taxis, bikes and canal boats.",
+  "foodTip": "Squirrel-shaped mandarin fish, Suzhou noodles in clear broth and sweet pastries.",
+  "buyTip": "Suzhou silk and embroidery, and Biluochun green tea.",
+  "baseArea": "Inside the old city near Pingjiang Road",
+  "hotel": [
+   40,
+   200
+  ],
+  "connections": [
+   {
+    "to": "shanghai",
+    "mode": "High-speed rail",
+    "minutes": 30,
+    "note": "Very frequent trains."
+   },
+   {
+    "to": "hangzhou",
+    "mode": "High-speed rail",
+    "minutes": 90,
+    "note": "Direct fast trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Humble Administrator's Garden",
+    "kind": "see",
+    "id": "suzhou-humble",
+    "at": [
+     31.3239,
+     120.6263
+    ],
+    "wiki": "Humble Administrator's Garden",
+    "area": "Old city",
+    "summary": "The largest classical garden, with ponds, pavilions and zigzag bridges.",
+    "expect": "Very popular; book tickets and go early.",
+    "tip": "Arrive at opening.",
+    "why": "China's most famous garden.",
+    "flow": [
+     "Central pond.",
+     "Pavilions."
+    ],
+    "hours": 2,
+    "price": [
+     70,
+     90
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Lingering Garden",
+    "kind": "see",
+    "id": "suzhou-lingering",
+    "at": [
+     31.3172,
+     120.5885
+    ],
+    "wiki": "Lingering Garden",
+    "area": "West",
+    "summary": "A garden of courtyards, carved windows and the tall Cloud-Capped Peak rock.",
+    "expect": "Less crowded than Humble.",
+    "tip": "Look through the lattice windows.",
+    "why": "Masterful garden design.",
+    "flow": [
+     "Courtyards.",
+     "Cloud-Capped Peak."
+    ],
+    "hours": 1.5,
+    "price": [
+     55,
+     55
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Master of the Nets Garden",
+    "kind": "see",
+    "id": "suzhou-nets",
+    "at": [
+     31.2967,
+     120.6286
+    ],
+    "wiki": "Master of the Nets Garden",
+    "area": "Old city",
+    "summary": "A small, perfect garden with evening opera performances in summer.",
+    "expect": "Night tours in the warm months.",
+    "tip": "See the night garden performance.",
+    "why": "A jewel of a garden.",
+    "flow": [
+     "Garden.",
+     "Evening show."
+    ],
+    "hours": 1,
+    "price": [
+     40,
+     100
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Suzhou Museum",
+    "kind": "see",
+    "id": "suzhou-museum",
+    "at": [
+     31.3236,
+     120.6258
+    ],
+    "wiki": "Suzhou Museum",
+    "area": "Old city",
+    "summary": "I.M. Pei's modern take on a Suzhou garden, with art and artefacts.",
+    "expect": "Free; book ahead.",
+    "tip": "Look at the stone-and-water garden wall.",
+    "why": "Modern design meets tradition.",
+    "flow": [
+     "Main building.",
+     "Garden."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Pingjiang Road",
+    "kind": "see",
+    "id": "suzhou-pingjiang",
+    "at": [
+     31.315,
+     120.63
+    ],
+    "wiki": "Pingjiang Road",
+    "area": "Old city",
+    "summary": "A canal-side lane of teahouses, shops and pingtan storytelling.",
+    "expect": "Lovely at night.",
+    "tip": "Listen to pingtan in a teahouse.",
+    "why": "Old Suzhou life.",
+    "flow": [
+     "Canal walk.",
+     "Teahouse."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Tiger Hill",
+    "kind": "see",
+    "id": "suzhou-tigerhill",
+    "at": [
+     31.3383,
+     120.5797
+    ],
+    "wiki": "Tiger Hill Pagoda",
+    "area": "North-west",
+    "summary": "A hill with a leaning 1,000-year-old pagoda and the Sword Pool legend.",
+    "expect": "Fewer crowds early.",
+    "tip": "Combine with Shantang Street.",
+    "why": "Suzhou's leaning tower.",
+    "flow": [
+     "Sword Pool.",
+     "Leaning pagoda."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     80
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Zhouzhuang water town",
+    "kind": "see",
+    "id": "suzhou-zhouzhuang",
+    "at": [
+     31.1167,
+     120.8444
+    ],
+    "wiki": "Zhouzhuang",
+    "area": "Zhouzhuang",
+    "summary": "A canal town of stone bridges and Ming-era houses, explored by boat.",
+    "expect": "Busy; go early or late.",
+    "tip": "Take a rowing boat.",
+    "why": "A classic water town.",
+    "flow": [
+     "Twin Bridges.",
+     "Boat ride."
+    ],
+    "hours": 5,
+    "price": [
+     100,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Tongli water town",
+    "kind": "see",
+    "id": "suzhou-tongli",
+    "at": [
+     31.1667,
+     120.7167
+    ],
+    "wiki": "Tongli",
+    "area": "Tongli",
+    "summary": "A quieter water town with the Retreat and Reflection Garden.",
+    "expect": "Less touristy than Zhouzhuang.",
+    "tip": "See the garden first.",
+    "why": "Water-town calm.",
+    "flow": [
+     "Garden.",
+     "Canal walk."
+    ],
+    "hours": 4,
+    "price": [
+     100,
+     100
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Squirrel-shaped mandarin fish",
+    "kind": "eat",
+    "id": "suzhou-squirrelfish",
+    "at": [
+     31.31,
+     120.62
+    ],
+    "wiki": "Suzhou cuisine",
+    "area": "Old city",
+    "venue": "food-area",
+    "summary": "Mandarin fish scored, fried crisp and glazed in sweet-sour sauce.",
+    "expect": "Pricey but impressive.",
+    "tip": "Share it.",
+    "why": "Suzhou's showpiece dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     150,
+     300
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Su",
+    "order": [
+     "Squirrel fish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Suzhou noodles",
+    "kind": "eat",
+    "id": "suzhou-noodles",
+    "at": [
+     31.312,
+     120.625
+    ],
+    "wiki": "Aozao noodles",
+    "area": "Old city",
+    "venue": "food-area",
+    "summary": "Fine noodles in clear broth with toppings like fried fish or braised pork.",
+    "expect": "A breakfast institution.",
+    "tip": "Order the toppings on the side.",
+    "why": "Suzhou's morning ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     20,
+     50
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Su",
+    "order": [
+     "Suzhou noodles"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Suzhou pastries",
+    "kind": "eat",
+    "id": "suzhou-pastries",
+    "at": [
+     31.316,
+     120.63
+    ],
+    "wiki": "Mooncake",
+    "area": "Old city",
+    "venue": "food-area",
+    "summary": "Flaky Suzhou-style mooncakes and sweet sticky rice cakes.",
+    "expect": "Bakeries along Guanqian Street.",
+    "tip": "Buy them warm.",
+    "why": "Sweet Suzhou.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.25,
+    "price": [
+     10,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Su",
+    "order": [
+     "Suzhou mooncake"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
