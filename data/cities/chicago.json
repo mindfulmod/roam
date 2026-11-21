@@ -1,0 +1,579 @@
+{
+  "id": "chicago",
+  "name": "Chicago",
+  "country": "United States",
+  "region": "North America",
+  "lat": 41.8781,
+  "lon": -87.6298,
+  "wiki": "Chicago",
+  "tagline": "Skyscrapers, lakefront and deep-dish pizza",
+  "summary": "The birthplace of the skyscraper, set on the shore of Lake Michigan. Take the architecture river cruise, see the Art Institute's masterpieces, look up at Cloud Gate in Millennium Park, and argue about deep-dish versus tavern-style pizza.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "seasonNote": "Late spring to early autumn is glorious, with festivals and beaches. Winters are long and bitterly cold.",
+  "arrival": "O'Hare is about 45 minutes from the Loop on the CTA Blue Line; Midway is 25 minutes on the Orange Line.",
+  "gettingAround": "The 'L' trains and buses cover the city; Divvy bikes run along the lakefront trail.",
+  "cashTip": "Cards and phone payments work everywhere.",
+  "dailyBudget": [
+    130,
+    400
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    15,
+    50
+  ],
+  "foodTip": "Deep-dish pizza, Chicago-style hot dogs (no ketchup), Italian beef sandwiches, and the restaurants of the West Loop.",
+  "buyTip": "The Magnificent Mile for shopping, and architecture books from the Chicago Architecture Center.",
+  "baseArea": "The Loop or River North for sights, West Loop for food",
+  "connections": [
+    {
+      "to": "new-york",
+      "mode": "Flight",
+      "minutes": 135
+    },
+    {
+      "to": "washington-dc",
+      "mode": "Flight",
+      "minutes": 120
+    },
+    {
+      "to": "los-angeles",
+      "mode": "Flight",
+      "minutes": 270
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chicago on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chicago",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Chicago%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Chicago%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Cloud Gate",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "chicago-chicago-millennium-park",
+      "name": "Millennium Park and Cloud Gate",
+      "kind": "see",
+      "lat": 41.8826,
+      "lon": -87.6226,
+      "wiki": "Cloud Gate",
+      "summary": "The mirrored 'Bean' sculpture, the Crown Fountain and free summer concerts at the Pritzker Pavilion.",
+      "expect": "Busy; best early morning for photos.",
+      "tip": "Come at sunrise for the Bean without crowds.",
+      "area": "The Loop",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Millennium%20Park%20and%20Cloud%20Gate%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Millennium%20Park%20and%20Cloud%20Gate%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Millennium%20Park%20and%20Cloud%20Gate%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "The mirrored 'Bean' sculpture, the Crown Fountain and free summer concerts at the Pritzker Pavilion.",
+        "Chicago's front garden."
+      ],
+      "visitFlow": [
+        "Cloud Gate.",
+        "Crown Fountain and Lurie Garden."
+      ],
+      "bestFor": "Visitors interested in art and craft and architecture and design",
+      "tradeoffs": [
+        "Busy; best early morning for photos.",
+        "Come at sunrise for the Bean without crowds."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chicago-chicago-architecture-cruise",
+      "name": "Chicago architecture river cruise",
+      "kind": "see",
+      "lat": 41.888,
+      "lon": -87.624,
+      "wiki": "Chicago River",
+      "summary": "A 75-minute boat tour along the Chicago River past a century of skyscrapers, with expert guides.",
+      "expect": "Runs April to November; book ahead in summer.",
+      "tip": "Take the Chicago Architecture Center's official cruise.",
+      "area": "River North",
+      "duration": 1.5,
+      "price": [
+        50,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Late afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chicago%20architecture%20river%20cruise%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Chicago%20architecture%20river%20cruise%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chicago%20architecture%20river%20cruise%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "History"
+      ],
+      "whyVisit": [
+        "A 75-minute boat tour along the Chicago River past a century of skyscrapers, with expert guides.",
+        "The best introduction to the city."
+      ],
+      "visitFlow": [
+        "Board at the Michigan Avenue bridge.",
+        "Cruise both river branches."
+      ],
+      "bestFor": "Visitors interested in architecture and design and history and context",
+      "tradeoffs": [
+        "Runs April to November; book ahead in summer.",
+        "Take the Chicago Architecture Center's official cruise."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chicago-chicago-art-institute",
+      "name": "Art Institute of Chicago",
+      "kind": "see",
+      "lat": 41.8796,
+      "lon": -87.6237,
+      "wiki": "Art Institute of Chicago",
+      "summary": "One of the world's great art museums, with Seurat, Hopper's Nighthawks and Grant Wood's American Gothic.",
+      "expect": "Allow at least three hours.",
+      "tip": "Start with the Impressionist galleries before the crowds.",
+      "area": "The Loop",
+      "duration": 3,
+      "price": [
+        32,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Opening time",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Art%20Institute%20of%20Chicago%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Art%20Institute%20of%20Chicago%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Art%20Institute%20of%20Chicago%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "One of the world's great art museums, with Seurat, Hopper's Nighthawks and Grant Wood's American Gothic.",
+        "Masterpieces on every floor."
+      ],
+      "visitFlow": [
+        "Impressionists.",
+        "American art, then the Modern Wing."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Allow at least three hours.",
+        "Start with the Impressionist galleries before the crowds."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chicago-chicago-willis-tower",
+      "name": "Willis Tower Skydeck",
+      "kind": "see",
+      "lat": 41.8789,
+      "lon": -87.6359,
+      "wiki": "Willis Tower",
+      "summary": "Glass boxes on the 103rd floor that let you stand over a 412 m drop.",
+      "expect": "Queues at weekends.",
+      "tip": "Go on a clear evening for sunset.",
+      "area": "The Loop",
+      "duration": 1.5,
+      "price": [
+        32,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 4,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Willis%20Tower%20Skydeck%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Willis%20Tower%20Skydeck%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Willis%20Tower%20Skydeck%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Glass boxes on the 103rd floor that let you stand over a 412 m drop.",
+        "The most dizzying view in Chicago."
+      ],
+      "visitFlow": [
+        "Lift to the 103rd floor.",
+        "Step onto The Ledge."
+      ],
+      "bestFor": "Visitors interested in big views and architecture and design",
+      "tradeoffs": [
+        "Queues at weekends.",
+        "Go on a clear evening for sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chicago-chicago-navy-pier",
+      "name": "Lakefront Trail and Navy Pier",
+      "kind": "see",
+      "lat": 41.8917,
+      "lon": -87.6086,
+      "wiki": "Navy Pier",
+      "summary": "A pier of rides, boats and summer fireworks on Lake Michigan, along a 29 km lakefront trail.",
+      "expect": "Fireworks on summer evenings.",
+      "tip": "Rent a bike and ride the lakefront to the beaches.",
+      "area": "Streeterville",
+      "duration": 2,
+      "price": [
+        0,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Summer evening",
+      "reservation": "Usually not needed",
+      "priority": 5,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lakefront%20Trail%20and%20Navy%20Pier%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Lakefront%20Trail%20and%20Navy%20Pier%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lakefront%20Trail%20and%20Navy%20Pier%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "A pier of rides, boats and summer fireworks on Lake Michigan, along a 29 km lakefront trail.",
+        "Chicago's lakeside playground."
+      ],
+      "visitFlow": [
+        "Bike the lakefront.",
+        "End at Navy Pier."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and shows and nightlife",
+      "tradeoffs": [
+        "Fireworks on summer evenings.",
+        "Rent a bike and ride the lakefront to the beaches."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chicago-chicago-field-museum",
+      "name": "Field Museum",
+      "kind": "see",
+      "lat": 41.8663,
+      "lon": -87.617,
+      "wiki": "Field Museum of Natural History",
+      "summary": "A natural history museum home to SUE, the most complete T. rex skeleton ever found.",
+      "expect": "Allow half a day.",
+      "tip": "Pair it with the Shedd Aquarium next door.",
+      "area": "Museum Campus",
+      "duration": 3,
+      "price": [
+        30,
+        45
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Weekday",
+      "reservation": "Usually not needed",
+      "priority": 6,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Field%20Museum%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Field%20Museum%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Field%20Museum%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "A natural history museum home to SUE, the most complete T. rex skeleton ever found.",
+        "One of the world's great natural history museums."
+      ],
+      "visitFlow": [
+        "Stanley Field Hall.",
+        "SUE and the evolution galleries."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "Allow half a day.",
+        "Pair it with the Shedd Aquarium next door."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chicago-chicago-wrigley-field",
+      "name": "Wrigley Field",
+      "kind": "see",
+      "lat": 41.9484,
+      "lon": -87.6553,
+      "wiki": "Wrigley Field",
+      "summary": "The Cubs' ivy-walled 1914 ballpark, one of the oldest in baseball.",
+      "expect": "Season April to October; stadium tours year-round.",
+      "tip": "Catch an afternoon game and a drink in Wrigleyville after.",
+      "area": "Wrigleyville",
+      "duration": 3.5,
+      "price": [
+        30,
+        150
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Summer afternoon",
+      "reservation": "Usually not needed",
+      "priority": 7,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Wrigley%20Field%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Wrigley%20Field%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Wrigley%20Field%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "History"
+      ],
+      "whyVisit": [
+        "The Cubs' ivy-walled 1914 ballpark, one of the oldest in baseball.",
+        "A classic American ballpark experience."
+      ],
+      "visitFlow": [
+        "Red Line to Addison.",
+        "Game or tour."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and history and context",
+      "tradeoffs": [
+        "Season April to October; stadium tours year-round.",
+        "Catch an afternoon game and a drink in Wrigleyville after."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chicago-chicago-lou-malnatis",
+      "name": "Lou Malnati's Pizzeria",
+      "kind": "eat",
+      "lat": 41.8905,
+      "lon": -87.6339,
+      "wiki": "Lou Malnati's Pizzeria",
+      "summary": "A Chicago deep-dish institution with a buttery crust.",
+      "expect": "Pizzas take 40 minutes; order ahead.",
+      "tip": "Order the 'Malnati Chicago Classic' with sausage.",
+      "area": "River North",
+      "duration": 1.5,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lou%20Malnati's%20Pizzeria%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Lou%20Malnati's%20Pizzeria%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lou%20Malnati's%20Pizzeria%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A Chicago deep-dish institution with a buttery crust.",
+        "The classic deep dish."
+      ],
+      "visitFlow": [
+        "Order when you sit.",
+        "Share salads while you wait."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Pizzas take 40 minutes; order ahead.",
+        "Order the 'Malnati Chicago Classic' with sausage."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Deep-dish pizza",
+      "mustOrder": [
+        "Malnati Chicago Classic",
+        "Chopped salad"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "chicago-chicago-portillos",
+      "name": "Portillo's",
+      "kind": "eat",
+      "lat": 41.8933,
+      "lon": -87.6283,
+      "wiki": "Portillo's",
+      "summary": "A local chain serving Chicago hot dogs, Italian beef and chocolate cake shakes.",
+      "expect": "Fast and busy.",
+      "tip": "Order an Italian beef 'dipped' with hot giardiniera.",
+      "area": "River North",
+      "duration": 0.75,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Portillo's%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=Portillo's%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Portillo's%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "A local chain serving Chicago hot dogs, Italian beef and chocolate cake shakes.",
+        "Chicago's street food in one stop."
+      ],
+      "visitFlow": [
+        "Order at the counter.",
+        "Eat in."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Fast and busy.",
+        "Order an Italian beef 'dipped' with hot giardiniera."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Chicago street food",
+      "mustOrder": [
+        "Italian beef",
+        "Chicago hot dog",
+        "Chocolate cake shake"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "limited",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "chicago-chicago-west-loop",
+      "name": "West Loop restaurants",
+      "kind": "eat",
+      "lat": 41.8866,
+      "lon": -87.6517,
+      "wiki": "Fulton Market District",
+      "summary": "Randolph Street and Fulton Market's former meatpacking warehouses, now Chicago's best dining street.",
+      "expect": "Book ahead for top restaurants.",
+      "tip": "Walk Randolph Street's 'Restaurant Row' and pick one.",
+      "area": "West Loop",
+      "duration": 2,
+      "price": [
+        40,
+        120
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=West%20Loop%20restaurants%2C%20Chicago",
+        "https://www.google.com/maps/search/?api=1&query=West%20Loop%20restaurants%2C%20Chicago"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=West%20Loop%20restaurants%2C%20Chicago"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Randolph Street and Fulton Market's former meatpacking warehouses, now Chicago's best dining street.",
+        "Where Chicago eats out."
+      ],
+      "visitFlow": [
+        "Drinks on Fulton Market.",
+        "Dinner on Randolph."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Book ahead for top restaurants.",
+        "Walk Randolph Street's 'Restaurant Row' and pick one."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Contemporary American",
+      "mustOrder": [
+        "Tasting menu",
+        "Burger",
+        "Cocktails"
+      ],
+      "dietary": {
+        "halal": "limited",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
