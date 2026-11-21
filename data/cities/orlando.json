@@ -71,8 +71,8 @@
       "id": "orlando-orlando-magic-kingdom",
       "name": "Magic Kingdom",
       "kind": "see",
-      "lat": 28.4177,
-      "lon": -81.5812,
+      "lat": 28.41861,
+      "lon": -81.58111,
       "wiki": "Magic Kingdom",
       "summary": "Disney World's classic park, with Cinderella Castle, Space Mountain and nightly fireworks.",
       "expect": "Book park reservations and Lightning Lanes ahead; huge crowds in holidays.",
@@ -111,14 +111,22 @@
         "Book park reservations and Lightning Lanes ahead; huge crowds in holidays.",
         "Arrive 45 minutes before opening and stay for the fireworks."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 203566,
+          "period": "202511-202610",
+          "title": "Magic Kingdom",
+          "url": "https://en.wikipedia.org/wiki/Magic_Kingdom",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "orlando-orlando-epcot",
       "name": "EPCOT",
       "kind": "see",
-      "lat": 28.3747,
-      "lon": -81.5494,
+      "lat": 28.371,
+      "lon": -81.55,
       "wiki": "Epcot",
       "summary": "Disney's park of future technology and the World Showcase, with pavilions from 11 countries around a lake.",
       "expect": "Lots of walking; food and drink festivals for much of the year.",
@@ -158,14 +166,22 @@
         "Lots of walking; food and drink festivals for much of the year.",
         "Eat your way around the World Showcase in the evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 311574,
+          "period": "202511-202610",
+          "title": "Epcot",
+          "url": "https://en.wikipedia.org/wiki/Epcot",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "orlando-orlando-universal",
       "name": "Universal Orlando",
       "kind": "see",
-      "lat": 28.4743,
-      "lon": -81.4678,
+      "lat": 28.47361,
+      "lon": -81.46667,
       "wiki": "Universal Orlando",
       "summary": "Universal Studios, Islands of Adventure and Epic Universe, with the Wizarding World of Harry Potter.",
       "expect": "Park-to-park tickets needed for the Hogwarts Express.",
@@ -204,14 +220,22 @@
         "Park-to-park tickets needed for the Hogwarts Express.",
         "Stay at a Premier hotel for free Express passes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 121812,
+          "period": "202511-202610",
+          "title": "Universal Orlando",
+          "url": "https://en.wikipedia.org/wiki/Universal_Orlando",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "orlando-orlando-kennedy-space-center",
       "name": "Kennedy Space Center",
       "kind": "see",
-      "lat": 28.5729,
-      "lon": -80.649,
+      "lat": 28.5233,
+      "lon": -80.6819,
       "wiki": "Kennedy Space Center Visitor Complex",
       "summary": "NASA's launch site, with the Space Shuttle Atlantis, a Saturn V rocket and bus tours to the launch pads.",
       "expect": "About an hour's drive; check the launch schedule.",
@@ -251,15 +275,23 @@
         "About an hour's drive; check the launch schedule.",
         "Time your visit with a rocket launch from the viewing areas."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 54508,
+          "period": "202511-202610",
+          "title": "Kennedy Space Center Visitor Complex",
+          "url": "https://en.wikipedia.org/wiki/Kennedy_Space_Center_Visitor_Complex",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "orlando-orlando-lake-eola",
       "name": "Lake Eola Park",
       "kind": "see",
-      "lat": 28.5432,
-      "lon": -81.373,
+      "lat": 28.54361,
+      "lon": -81.37278,
       "wiki": "Lake Eola Park",
       "summary": "Downtown Orlando's lake with swan boats, a fountain and a Sunday farmers' market.",
       "expect": "Relaxed; busiest on Sundays.",
@@ -298,14 +330,22 @@
         "Relaxed; busiest on Sundays.",
         "Rent a swan boat and visit the Sunday market."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10986,
+          "period": "202511-202610",
+          "title": "Lake Eola Park",
+          "url": "https://en.wikipedia.org/wiki/Lake_Eola_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "orlando-orlando-winter-park",
       "name": "Winter Park",
       "kind": "see",
-      "lat": 28.5999,
-      "lon": -81.3392,
+      "lat": 28.59611,
+      "lon": -81.34667,
       "wiki": "Winter Park, Florida",
       "summary": "A leafy lakeside town with a scenic boat tour and the Morse Museum's Tiffany glass.",
       "expect": "Boutiques and cafés on Park Avenue.",
@@ -345,14 +385,22 @@
         "Boutiques and cafés on Park Avenue.",
         "Take the Scenic Boat Tour through the canals, then the Morse Museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 80070,
+          "period": "202511-202610",
+          "title": "Winter Park, Florida",
+          "url": "https://en.wikipedia.org/wiki/Winter_Park%2C_Florida",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "orlando-orlando-wekiwa",
       "name": "Wekiwa Springs",
       "kind": "see",
-      "lat": 28.712,
-      "lon": -81.46,
+      "lat": 28.77,
+      "lon": -81.50111,
       "wiki": "Wekiwa Springs State Park",
       "summary": "A spring-fed pool and river where you can swim and kayak among turtles.",
       "expect": "Fills up at weekends; arrive early.",
@@ -392,14 +440,22 @@
         "Fills up at weekends; arrive early.",
         "Kayak downriver in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6052,
+          "period": "202511-202610",
+          "title": "Wekiwa Springs State Park",
+          "url": "https://en.wikipedia.org/wiki/Wekiwa_Springs_State_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "orlando-orlando-disney-springs",
       "name": "Disney Springs",
       "kind": "eat",
-      "lat": 28.371,
-      "lon": -81.519,
+      "lat": 28.37025,
+      "lon": -81.52099,
       "wiki": "Disney Springs",
       "summary": "Disney's free-entry waterfront district with dozens of restaurants and shops.",
       "expect": "Busy in the evening; book popular restaurants.",
@@ -439,7 +495,6 @@
         "Busy in the evening; book popular restaurants.",
         "Free to enter and park."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Varied",
       "mustOrder": [
@@ -517,8 +572,8 @@
       "id": "orlando-orlando-world-showcase",
       "name": "EPCOT World Showcase dining",
       "kind": "eat",
-      "lat": 28.37,
-      "lon": -81.549,
+      "lat": 28.371,
+      "lon": -81.55,
       "wiki": "World Showcase",
       "summary": "Restaurants and kiosks from 11 countries around the EPCOT lagoon.",
       "expect": "Park ticket needed; book table-service meals ahead.",
@@ -557,7 +612,6 @@
         "Park ticket needed; book table-service meals ahead.",
         "Graze from kiosk to kiosk during a food festival."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -572,5 +626,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }

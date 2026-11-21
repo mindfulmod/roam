@@ -75,8 +75,8 @@
       "id": "miami-miami-south-beach",
       "name": "South Beach and the Art Deco District",
       "kind": "see",
-      "lat": 25.781,
-      "lon": -80.13,
+      "lat": 25.78583,
+      "lon": -80.13417,
       "wiki": "Miami Beach Architectural District",
       "summary": "Ocean Drive's pastel 1930s hotels facing a wide white beach with candy-coloured lifeguard towers.",
       "expect": "Busy and loud on Ocean Drive; quieter on the side streets.",
@@ -116,14 +116,22 @@
         "Busy and loud on Ocean Drive; quieter on the side streets.",
         "Take the Art Deco walking tour from the Welcome Center."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20350,
+          "period": "202511-202610",
+          "title": "Miami Beach Architectural District",
+          "url": "https://en.wikipedia.org/wiki/Miami_Beach_Architectural_District",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "miami-miami-wynwood",
       "name": "Wynwood Walls",
       "kind": "see",
-      "lat": 25.801,
-      "lon": -80.1994,
+      "lat": 25.80114,
+      "lon": -80.19966,
       "wiki": "Wynwood Walls",
       "summary": "An outdoor museum of huge murals by street artists from around the world, in a district of galleries and breweries.",
       "expect": "Ticketed inside the Walls; the streets around are free.",
@@ -161,15 +169,14 @@
       "tradeoffs": [
         "Ticketed inside the Walls; the streets around are free.",
         "Walk the side streets for free murals."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "miami-miami-little-havana",
       "name": "Little Havana and Calle Ocho",
       "kind": "see",
-      "lat": 25.7656,
-      "lon": -80.219,
+      "lat": 25.77258,
+      "lon": -80.21459,
       "wiki": "Little Havana",
       "summary": "The heart of Cuban Miami: domino players in Máximo Gómez Park, cigar rollers and cafecito windows.",
       "expect": "Lively on Friday evenings.",
@@ -209,14 +216,22 @@
         "Lively on Friday evenings.",
         "Come on the last Friday of the month for Viernes Culturales."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 56415,
+          "period": "202511-202610",
+          "title": "Little Havana",
+          "url": "https://en.wikipedia.org/wiki/Little_Havana",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "miami-miami-vizcaya",
       "name": "Vizcaya Museum and Gardens",
       "kind": "see",
-      "lat": 25.7443,
-      "lon": -80.2105,
+      "lat": 25.74361,
+      "lon": -80.21028,
       "wiki": "Vizcaya Museum and Gardens",
       "summary": "A 1916 Italian-Renaissance-style villa on Biscayne Bay with formal gardens.",
       "expect": "Closed on Tuesdays; book online.",
@@ -256,14 +271,22 @@
         "Closed on Tuesdays; book online.",
         "Allow time for the gardens and the stone barge in the bay."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 52329,
+          "period": "202511-202610",
+          "title": "Vizcaya Museum and Gardens",
+          "url": "https://en.wikipedia.org/wiki/Vizcaya_Museum_and_Gardens",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "miami-miami-pamm",
       "name": "Pérez Art Museum Miami",
       "kind": "see",
-      "lat": 25.7859,
-      "lon": -80.1863,
+      "lat": 25.78603,
+      "lon": -80.18634,
       "wiki": "Pérez Art Museum Miami",
       "summary": "A museum of modern and contemporary art with hanging gardens on its bayfront terrace.",
       "expect": "Closed on Wednesdays.",
@@ -303,14 +326,22 @@
         "Closed on Wednesdays.",
         "Have a drink on the terrace at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13008,
+          "period": "202511-202610",
+          "title": "Pérez Art Museum Miami",
+          "url": "https://en.wikipedia.org/wiki/P%C3%A9rez_Art_Museum_Miami",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "miami-miami-everglades",
       "name": "Everglades National Park",
       "kind": "see",
-      "lat": 25.757,
-      "lon": -80.766,
+      "lat": 25.3125,
+      "lon": -80.6875,
       "wiki": "Everglades National Park",
       "summary": "The 'river of grass', with alligators, herons and a 24 km loop by tram or bike at Shark Valley.",
       "expect": "About an hour from Miami; bring water, sun cover and insect repellent.",
@@ -350,15 +381,23 @@
         "About an hour from Miami; bring water, sun cover and insect repellent.",
         "Rent a bike at Shark Valley and climb the observation tower."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 97470,
+          "period": "202511-202610",
+          "title": "Everglades National Park",
+          "url": "https://en.wikipedia.org/wiki/Everglades_National_Park",
+          "checked": "2026-11-21"
+        }
+      }
     },
     {
       "id": "miami-miami-versailles",
       "name": "Versailles Restaurant",
       "kind": "eat",
-      "lat": 25.7653,
-      "lon": -80.2525,
+      "lat": 25.76507,
+      "lon": -80.25261,
       "wiki": "Versailles (restaurant)",
       "summary": "The world's most famous Cuban restaurant, open since 1971, with a walk-up coffee window.",
       "expect": "Mirrored dining room; busy late at night.",
@@ -397,7 +436,6 @@
         "Mirrored dining room; busy late at night.",
         "Order a cafecito and croquetas at the window."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Cuban",
       "mustOrder": [
@@ -416,7 +454,7 @@
       "id": "miami-miami-joes-stone-crab",
       "name": "Joe's Stone Crab",
       "kind": "eat",
-      "lat": 25.769,
+      "lat": 25.7692,
       "lon": -80.135,
       "wiki": "Joe's Stone Crab",
       "summary": "A 1913 South Beach institution serving stone crab claws with mustard sauce and key lime pie.",
@@ -456,7 +494,6 @@
         "No reservations at dinner; open mainly in crab season (October to May).",
         "Get takeaway from Joe's Take Away next door to skip the wait."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -530,5 +567,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-21"
 }
