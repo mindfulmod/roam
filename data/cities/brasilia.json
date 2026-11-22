@@ -71,8 +71,8 @@
       "id": "brasilia-bsb-cathedral",
       "name": "Cathedral of Brasília",
       "kind": "see",
-      "lat": -15.7983,
-      "lon": -47.8754,
+      "lat": -15.79833,
+      "lon": -47.87556,
       "wiki": "Cathedral of Brasília",
       "summary": "Niemeyer's crown of concrete ribs with angels hanging inside.",
       "expect": "Free.",
@@ -112,14 +112,22 @@
         "Free.",
         "Midday light through the glass."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 31327,
+          "period": "202511-202610",
+          "title": "Cathedral of Brasília",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_of_Bras%C3%ADlia",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "brasilia-bsb-congress",
       "name": "National Congress and Three Powers Square",
       "kind": "see",
-      "lat": -15.7998,
-      "lon": -47.8645,
+      "lat": -15.79972,
+      "lon": -47.86417,
       "wiki": "National Congress of Brazil",
       "summary": "Twin towers and bowls of Congress beside the presidential palace.",
       "expect": "Free guided tours.",
@@ -159,7 +167,15 @@
         "Free guided tours.",
         "Weekend tours."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 45267,
+          "period": "202511-202610",
+          "title": "Brazilian National Congress",
+          "url": "https://en.wikipedia.org/wiki/Brazilian_National_Congress",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "brasilia-bsb-dombosco",
@@ -212,8 +228,8 @@
       "id": "brasilia-bsb-jk",
       "name": "JK Bridge",
       "kind": "see",
-      "lat": -15.822,
-      "lon": -47.831,
+      "lat": -15.82361,
+      "lon": -47.82944,
       "wiki": "Juscelino Kubitschek bridge",
       "summary": "Bridge of three leaping steel arches over the lake.",
       "expect": "Free.",
@@ -253,14 +269,22 @@
         "Free.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7793,
+          "period": "202511-202610",
+          "title": "Juscelino Kubitschek bridge",
+          "url": "https://en.wikipedia.org/wiki/Juscelino_Kubitschek_bridge",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "brasilia-bsb-tvtower",
       "name": "TV Tower and craft fair",
       "kind": "see",
       "lat": -15.7905,
-      "lon": -47.8925,
+      "lon": -47.89298,
       "wiki": "Brasília TV Tower",
       "summary": "Free observation deck over the city plan; weekend market below.",
       "expect": "Free.",
@@ -300,14 +324,22 @@
         "Free.",
         "Weekends for the fair."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3966,
+          "period": "202511-202610",
+          "title": "Brasília TV Tower",
+          "url": "https://en.wikipedia.org/wiki/Bras%C3%ADlia_TV_Tower",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "brasilia-bsb-itamaraty",
       "name": "Itamaraty Palace",
       "kind": "see",
-      "lat": -15.8001,
-      "lon": -47.8687,
+      "lat": -15.80056,
+      "lon": -47.86722,
       "wiki": "Itamaraty Palace",
       "summary": "Foreign ministry with floating arches over a water garden.",
       "expect": "Free guided tours.",
@@ -347,14 +379,22 @@
         "Free guided tours.",
         "Book online."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9908,
+          "period": "202511-202610",
+          "title": "Itamaraty Palace",
+          "url": "https://en.wikipedia.org/wiki/Itamaraty_Palace",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "brasilia-bsb-chapada",
       "name": "Chapada dos Veadeiros",
       "kind": "see",
-      "lat": -14.13,
-      "lon": -47.51,
+      "lat": -14.00569,
+      "lon": -47.68461,
       "wiki": "Chapada dos Veadeiros National Park",
       "summary": "Canyons, waterfalls and crystal plateau 3 hours north.",
       "expect": "Overnight trip.",
@@ -394,8 +434,16 @@
         "Overnight trip.",
         "Visit the Valley of the Moon."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8333,
+          "period": "202511-202610",
+          "title": "Chapada dos Veadeiros National Park",
+          "url": "https://en.wikipedia.org/wiki/Chapada_dos_Veadeiros_National_Park",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "brasilia-bsb-paodequeijo",
@@ -568,5 +616,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

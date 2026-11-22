@@ -112,8 +112,8 @@
       "id": "iquitos-iqt-malecon",
       "name": "Malecón Tarapacá",
       "kind": "see",
-      "lat": -3.748,
-      "lon": -73.244,
+      "lat": -3.75336,
+      "lon": -73.24468,
       "wiki": "Iquitos",
       "summary": "Riverfront boardwalk with rubber-boom tiled mansions.",
       "expect": "Free.",
@@ -153,14 +153,22 @@
         "Free.",
         "Sunset over the river."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 105576,
+          "period": "202511-202610",
+          "title": "Iquitos",
+          "url": "https://en.wikipedia.org/wiki/Iquitos",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "iquitos-iqt-ironhouse",
       "name": "Iron House",
       "kind": "see",
-      "lat": -3.7486,
-      "lon": -73.2457,
+      "lat": -3.74986,
+      "lon": -73.244,
       "wiki": "Casa de Fierro",
       "summary": "Prefabricated metal house attributed to Gustave Eiffel.",
       "expect": "View outside.",
@@ -200,7 +208,15 @@
         "View outside.",
         "Café upstairs."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5203,
+          "period": "202511-202610",
+          "title": "Casa de Fierro",
+          "url": "https://en.wikipedia.org/wiki/Casa_de_Fierro",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "iquitos-iqt-lodge",
@@ -249,14 +265,23 @@
         "Pick a lodge far from town."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 726721,
+          "period": "202511-202610",
+          "title": "Amazon rainforest",
+          "url": "https://en.wikipedia.org/wiki/Amazon_rainforest",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "iquitos-iqt-pacaya",
       "name": "Pacaya-Samiria Reserve",
       "kind": "see",
-      "lat": -4.8,
-      "lon": -74.5,
+      "lat": -5.25,
+      "lon": -74.66667,
       "wiki": "Pacaya-Samiria National Reserve",
       "summary": "Huge flooded-forest reserve with pink dolphins and macaws.",
       "expect": "Multi-day trip or cruise.",
@@ -296,8 +321,16 @@
         "Multi-day trip or cruise.",
         "Go with a licensed operator."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3586,
+          "period": "202511-202610",
+          "title": "Pacaya-Samiria National Reserve",
+          "url": "https://en.wikipedia.org/wiki/Pacaya-Samiria_National_Reserve",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "iquitos-iqt-manatee",
@@ -343,7 +376,16 @@
         "Paid.",
         "Feeding time."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 105576,
+          "period": "202511-202610",
+          "title": "Iquitos",
+          "url": "https://en.wikipedia.org/wiki/Iquitos",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "iquitos-iqt-butterfly",
@@ -389,7 +431,16 @@
         "Paid.",
         "Boat from Bellavista Nanay."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 105576,
+          "period": "202511-202610",
+          "title": "Iquitos",
+          "url": "https://en.wikipedia.org/wiki/Iquitos",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "iquitos-iqt-juane",
@@ -562,5 +613,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

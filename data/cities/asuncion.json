@@ -71,8 +71,8 @@
       "id": "asuncion-asu-palacio",
       "name": "Palacio de los López",
       "kind": "see",
-      "lat": -25.281,
-      "lon": -57.638,
+      "lat": -25.27764,
+      "lon": -57.63757,
       "wiki": "Palacio de los López",
       "summary": "Riverside presidential palace lit up at night.",
       "expect": "View from outside.",
@@ -112,14 +112,22 @@
         "View from outside.",
         "Come at dusk."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9772,
+          "period": "202511-202610",
+          "title": "Palacio de los López",
+          "url": "https://en.wikipedia.org/wiki/Palacio_de_los_L%C3%B3pez",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "asuncion-asu-panteon",
       "name": "Pantheon of Heroes",
       "kind": "see",
-      "lat": -25.283,
-      "lon": -57.636,
+      "lat": -25.2822,
+      "lon": -57.6352,
       "wiki": "National Pantheon of the Heroes",
       "summary": "Domed mausoleum of national heroes with a changing of the guard.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Watch the guard."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6658,
+          "period": "202511-202610",
+          "title": "National Pantheon of the Heroes",
+          "url": "https://en.wikipedia.org/wiki/National_Pantheon_of_the_Heroes",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "asuncion-asu-loma",
       "name": "Loma San Jerónimo",
       "kind": "see",
-      "lat": -25.278,
-      "lon": -57.642,
+      "lat": -25.27721,
+      "lon": -57.64588,
       "wiki": "Loma San Jerónimo",
       "summary": "Colourful hilltop barrio with painted stairs.",
       "expect": "Free; go with a guide.",
@@ -204,15 +220,14 @@
       "tradeoffs": [
         "Free; go with a guide.",
         "Daytime visit."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "asuncion-asu-casa",
       "name": "Casa de la Independencia",
       "kind": "see",
-      "lat": -25.282,
-      "lon": -57.634,
+      "lat": -25.28068,
+      "lon": -57.63644,
       "wiki": "Casa de la Independencia",
       "summary": "Colonial house where independence was planned in 1811.",
       "expect": "Free.",
@@ -250,8 +265,7 @@
       "tradeoffs": [
         "Free.",
         "Short visit."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "asuncion-asu-costanera",
@@ -298,13 +312,22 @@
         "Free.",
         "Evenings when locals stroll."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 289105,
+          "period": "202511-202610",
+          "title": "Asunción",
+          "url": "https://en.wikipedia.org/wiki/Asunci%C3%B3n",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "asuncion-asu-trinidad",
       "name": "Jesuit missions of Trinidad and Jesús",
       "kind": "see",
-      "lat": -27.13,
+      "lat": -27.13333,
       "lon": -55.7,
       "wiki": "Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangue",
       "summary": "UNESCO ruins of 18th-century Guaraní missions.",
@@ -345,15 +368,23 @@
         "Long trip; stay in Encarnación.",
         "Night light show at Trinidad."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4769,
+          "period": "202511-202610",
+          "title": "Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangue",
+          "url": "https://en.wikipedia.org/wiki/Jesuit_Missions_of_La_Sant%C3%ADsima_Trinidad_de_Paran%C3%A1_and_Jes%C3%BAs_de_Tavarangue",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "asuncion-asu-itaugua",
       "name": "Itauguá lace town",
       "kind": "see",
-      "lat": -25.392,
-      "lon": -57.355,
+      "lat": -25.38333,
+      "lon": -57.33333,
       "wiki": "Itauguá",
       "summary": "Town famous for ñandutí lace.",
       "expect": "Short bus ride.",
@@ -393,7 +424,15 @@
         "Short bus ride.",
         "Buy direct from makers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4236,
+          "period": "202511-202610",
+          "title": "Itauguá",
+          "url": "https://en.wikipedia.org/wiki/Itaugu%C3%A1",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "asuncion-asu-chipa",
@@ -567,5 +606,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

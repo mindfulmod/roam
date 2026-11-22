@@ -71,8 +71,8 @@
       "id": "cork-crk-market",
       "name": "English Market",
       "kind": "see",
-      "lat": 51.8975,
-      "lon": -8.4747,
+      "lat": 51.898,
+      "lon": -8.474,
       "wiki": "English Market",
       "summary": "Covered food market dating from 1788 with butchers, fishmongers and cheese stalls.",
       "expect": "Closed Sunday.",
@@ -113,7 +113,15 @@
         "Closed Sunday.",
         "Lunch upstairs at the Farmgate."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10072,
+          "period": "202511-202610",
+          "title": "English Market",
+          "url": "https://en.wikipedia.org/wiki/English_Market",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "cork-crk-shandon",
@@ -166,8 +174,8 @@
       "id": "cork-crk-blarney",
       "name": "Blarney Castle",
       "kind": "see",
-      "lat": 51.9291,
-      "lon": -8.5709,
+      "lat": 51.9289,
+      "lon": -8.5708,
       "wiki": "Blarney Castle",
       "summary": "Castle where you lean backwards to kiss the Stone of Eloquence.",
       "expect": "Paid; queues in summer.",
@@ -207,7 +215,15 @@
         "Paid; queues in summer.",
         "Arrive at opening and explore the poison garden."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 58082,
+          "period": "202511-202610",
+          "title": "Blarney Castle",
+          "url": "https://en.wikipedia.org/wiki/Blarney_Castle",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "cork-crk-cobh",
@@ -253,14 +269,22 @@
         "Train from Cork.",
         "Climb to St Colman's Cathedral."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 85059,
+          "period": "202511-202610",
+          "title": "Cobh",
+          "url": "https://en.wikipedia.org/wiki/Cobh",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "cork-crk-gaol",
       "name": "Cork City Gaol",
       "kind": "see",
-      "lat": 51.899,
-      "lon": -8.501,
+      "lat": 51.89953,
+      "lon": -8.49902,
       "wiki": "Cork City Gaol",
       "summary": "Castle-like 19th-century prison with wax figures.",
       "expect": "Paid.",
@@ -299,14 +323,22 @@
         "Paid.",
         "Audio guide is good."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5193,
+          "period": "202511-202610",
+          "title": "Cork City Gaol",
+          "url": "https://en.wikipedia.org/wiki/Cork_City_Gaol",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "cork-crk-kinsale",
       "name": "Kinsale",
       "kind": "see",
-      "lat": 51.7059,
-      "lon": -8.5222,
+      "lat": 51.70574,
+      "lon": -8.52298,
       "wiki": "Kinsale",
       "summary": "Colourful harbour town with Charles Fort and seafood restaurants.",
       "expect": "Bus or car.",
@@ -346,7 +378,15 @@
         "Bus or car.",
         "Walk the Scilly Walk to Charles Fort."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39796,
+          "period": "202511-202610",
+          "title": "Kinsale",
+          "url": "https://en.wikipedia.org/wiki/Kinsale",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "cork-crk-spike",
@@ -392,7 +432,15 @@
         "Ferry from Cobh.",
         "Book ahead in summer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 41046,
+          "period": "202511-202610",
+          "title": "Spike Island, County Cork",
+          "url": "https://en.wikipedia.org/wiki/Spike_Island%2C_County_Cork",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "cork-crk-blackpudding",
@@ -566,5 +614,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

@@ -78,8 +78,8 @@
       "id": "guayaquil-gye-malecon",
       "name": "Malecón 2000",
       "kind": "see",
-      "lat": -2.192,
-      "lon": -79.879,
+      "lat": -2.19406,
+      "lon": -79.87987,
       "wiki": "Malecón 2000",
       "summary": "2.5 km riverside promenade with gardens, museums and the Moorish clock tower.",
       "expect": "Free.",
@@ -119,7 +119,15 @@
         "Free.",
         "Evening is coolest."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2204,
+          "period": "202511-202610",
+          "title": "Malecón Simón Bolívar",
+          "url": "https://en.wikipedia.org/wiki/Malec%C3%B3n_Sim%C3%B3n_Bol%C3%ADvar",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "guayaquil-gye-penas",
@@ -265,8 +273,8 @@
       "id": "guayaquil-gye-historico",
       "name": "Parque Histórico",
       "kind": "see",
-      "lat": -2.146,
-      "lon": -79.87,
+      "lat": -2.14447,
+      "lon": -79.86798,
       "wiki": "Parque Histórico Guayaquil",
       "summary": "Wildlife, old houses and plantation life in one park.",
       "expect": "Free.",
@@ -305,15 +313,14 @@
       "tradeoffs": [
         "Free.",
         "Morning."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "guayaquil-gye-cajas",
       "name": "Cajas National Park",
       "kind": "see",
-      "lat": -2.78,
-      "lon": -79.22,
+      "lat": -2.84611,
+      "lon": -79.22028,
       "wiki": "Cajas National Park",
       "summary": "Highland lakes and páramo on the road to Cuenca.",
       "expect": "Cold and high.",
@@ -352,15 +359,23 @@
         "Cold and high.",
         "Stop on the way to Cuenca."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4511,
+          "period": "202511-202610",
+          "title": "El Cajas National Park",
+          "url": "https://en.wikipedia.org/wiki/El_Cajas_National_Park",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "guayaquil-gye-salinas",
       "name": "Salinas beaches",
       "kind": "see",
-      "lat": -2.214,
-      "lon": -80.958,
+      "lat": -2.2167,
+      "lon": -80.95007,
       "wiki": "Salinas, Ecuador",
       "summary": "Beach resort with whale watching in season.",
       "expect": "Long drive.",
@@ -399,8 +414,16 @@
         "Long drive.",
         "June to September for humpbacks."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8086,
+          "period": "202511-202610",
+          "title": "Salinas, Ecuador",
+          "url": "https://en.wikipedia.org/wiki/Salinas%2C_Ecuador",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "guayaquil-gye-encebollado",
@@ -573,5 +596,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

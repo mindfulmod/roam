@@ -71,8 +71,8 @@
       "id": "san-andres-sad-johnny",
       "name": "Johnny Cay",
       "kind": "see",
-      "lat": 12.602,
-      "lon": -81.69,
+      "lat": 12.60007,
+      "lon": -81.68967,
       "wiki": "Johnny Cay",
       "summary": "Palm-covered islet with reggae beach bars.",
       "expect": "Boat and park fee.",
@@ -110,8 +110,7 @@
       "tradeoffs": [
         "Boat and park fee.",
         "Go early."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "san-andres-sad-acuario",
@@ -304,8 +303,8 @@
       "id": "san-andres-sad-providencia",
       "name": "Providencia",
       "kind": "see",
-      "lat": 13.35,
-      "lon": -81.37,
+      "lat": 13.34889,
+      "lon": -81.37472,
       "wiki": "Providencia Island",
       "summary": "Quieter sister island with Crab Cay and hiking.",
       "expect": "Flight or catamaran.",
@@ -344,8 +343,16 @@
         "Flight or catamaran.",
         "Stay two nights."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 26549,
+          "period": "202511-202610",
+          "title": "Providencia Island, Colombia",
+          "url": "https://en.wikipedia.org/wiki/Providencia_Island%2C_Colombia",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "san-andres-sad-firstbaptist",
@@ -565,5 +572,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }
