@@ -1,0 +1,584 @@
+{
+  "id": "cali",
+  "name": "Cali",
+  "country": "Colombia",
+  "region": "South America",
+  "lat": 3.4516,
+  "lon": -76.532,
+  "wiki": "Cali",
+  "tagline": "World capital of salsa",
+  "summary": "Cali is Colombia's salsa capital, a warm city of dance schools, colonial churches and Pacific flavours. Take a salsa class and dance at Tin Tin Deo, wander the colonial San Antonio neighbourhood, climb to Cristo Rey, see the Gato del Río sculptures, and ride a rail cart into the jungle at San Cipriano.",
+  "days": 3,
+  "bestMonths": [
+    12,
+    1,
+    2,
+    7,
+    8
+  ],
+  "seasonNote": "Warm all year; December to February and July to August are drier. The Feria de Cali runs late December.",
+  "arrival": "Alfonso Bonilla Aragón airport is 30 minutes from the city.",
+  "gettingAround": "Uber, taxis and the MIO bus.",
+  "cashTip": "Cards work in restaurants and malls; carry pesos for taxis, street food and salsa bar covers.",
+  "dailyBudget": [
+    200000,
+    600000
+  ],
+  "currency": "COP",
+  "cashPerDay": [
+    50000,
+    150000
+  ],
+  "foodTip": "Lulada, champús, chontaduro and aborrajados.",
+  "buyTip": "Salsa shoes and Pacific crafts.",
+  "baseArea": "San Antonio or Granada",
+  "connections": [
+    {
+      "to": "bogota",
+      "mode": "Flight",
+      "minutes": 60,
+      "note": "Many daily flights."
+    },
+    {
+      "to": "medellin",
+      "mode": "Flight",
+      "minutes": 50,
+      "note": "Daily flights."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cali on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cali",
+      "type": "reference",
+      "checked": "2026-11-21"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Cali%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-21"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Cali%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Cali Colombia city",
+  "added": "2026-11-21",
+  "items": [
+    {
+      "id": "cali-cli-salsa",
+      "name": "Salsa class and clubs",
+      "kind": "see",
+      "lat": 3.457,
+      "lon": -76.531,
+      "wiki": "Salsa caleña",
+      "summary": "Learn Cali-style salsa and dance at famous clubs.",
+      "expect": "Classes hourly.",
+      "tip": "Tin Tin Deo on Thursdays.",
+      "area": "Juanchito and centre",
+      "duration": 3,
+      "price": [
+        30000,
+        80000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Night",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Salsa%20class%20and%20clubs%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=Salsa%20class%20and%20clubs%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Salsa%20class%20and%20clubs%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Learn Cali-style salsa and dance at famous clubs.",
+        "Salsa capital."
+      ],
+      "visitFlow": [
+        "Class.",
+        "Club night."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Classes hourly.",
+        "Tin Tin Deo on Thursdays."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cali-cli-sanantonio",
+      "name": "San Antonio",
+      "kind": "see",
+      "lat": 3.44741,
+      "lon": -76.53854,
+      "wiki": "San Antonio, Cali",
+      "summary": "Colonial neighbourhood with a hilltop chapel and cafés.",
+      "expect": "Free.",
+      "tip": "Sunset at the chapel park.",
+      "area": "San Antonio",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=San%20Antonio%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=San%20Antonio%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=San%20Antonio%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Colonial neighbourhood with a hilltop chapel and cafés.",
+        "Old Cali."
+      ],
+      "visitFlow": [
+        "Chapel.",
+        "Streets."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Free.",
+        "Sunset at the chapel park."
+      ]
+    },
+    {
+      "id": "cali-cli-cristo",
+      "name": "Cristo Rey",
+      "kind": "see",
+      "lat": 3.43588,
+      "lon": -76.56479,
+      "wiki": "Cristo Rey (Cali)",
+      "summary": "Giant Christ statue above the city.",
+      "expect": "Taxi or hike.",
+      "tip": "Clear mornings.",
+      "area": "Los Cristales",
+      "duration": 2,
+      "price": [
+        0,
+        10000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cristo%20Rey%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=Cristo%20Rey%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cristo%20Rey%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Giant Christ statue above the city.",
+        "Big view."
+      ],
+      "visitFlow": [
+        "Statue.",
+        "Lookout."
+      ],
+      "bestFor": "Visitors interested in big views and sacred places",
+      "tradeoffs": [
+        "Taxi or hike.",
+        "Clear mornings."
+      ]
+    },
+    {
+      "id": "cali-cli-gato",
+      "name": "El Gato del Río",
+      "kind": "see",
+      "lat": 3.45138,
+      "lon": -76.54306,
+      "wiki": "El Gato del Río",
+      "summary": "Giant cat sculpture with painted 'girlfriends' along the river.",
+      "expect": "Free.",
+      "tip": "Walk the river park.",
+      "area": "Cali River",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=El%20Gato%20del%20R%C3%ADo%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=El%20Gato%20del%20R%C3%ADo%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=El%20Gato%20del%20R%C3%ADo%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Giant cat sculpture with painted 'girlfriends' along the river.",
+        "City icon."
+      ],
+      "visitFlow": [
+        "Cat.",
+        "River walk."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Free.",
+        "Walk the river park."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 3090,
+          "period": "202511-202610",
+          "title": "El Gato del Río",
+          "url": "https://en.wikipedia.org/wiki/El_Gato_del_R%C3%ADo",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "cali-cli-ermita",
+      "name": "La Ermita church",
+      "kind": "see",
+      "lat": 3.454,
+      "lon": -76.53202,
+      "wiki": "La Ermita Church",
+      "summary": "Gothic-style church by the river.",
+      "expect": "Free.",
+      "tip": "Photo from the bridge.",
+      "area": "Centro",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=La%20Ermita%20church%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=La%20Ermita%20church%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=La%20Ermita%20church%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Gothic-style church by the river.",
+        "Postcard church."
+      ],
+      "visitFlow": [
+        "Exterior.",
+        "Interior."
+      ],
+      "bestFor": "Visitors interested in architecture and design and sacred places",
+      "tradeoffs": [
+        "Free.",
+        "Photo from the bridge."
+      ]
+    },
+    {
+      "id": "cali-cli-zoo",
+      "name": "Cali Zoo",
+      "kind": "see",
+      "lat": 3.44861,
+      "lon": -76.55861,
+      "wiki": "Cali Zoo",
+      "summary": "Colombia's best zoo with native species.",
+      "expect": "Paid.",
+      "tip": "Morning.",
+      "area": "Santa Teresita",
+      "duration": 3,
+      "price": [
+        25000,
+        30000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cali%20Zoo%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=Cali%20Zoo%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cali%20Zoo%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Colombia's best zoo with native species.",
+        "Biodiversity."
+      ],
+      "visitFlow": [
+        "Animals.",
+        "Aviary."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Paid.",
+        "Morning."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 1614,
+          "period": "202511-202610",
+          "title": "Cali Zoo",
+          "url": "https://en.wikipedia.org/wiki/Cali_Zoo",
+          "checked": "2026-11-21"
+        }
+      }
+    },
+    {
+      "id": "cali-cli-sancipriano",
+      "name": "San Cipriano",
+      "kind": "see",
+      "lat": 3.837,
+      "lon": -76.89,
+      "wiki": "San Cipriano",
+      "summary": "Jungle village reached by motorbike-powered rail carts.",
+      "expect": "Day trip.",
+      "tip": "Tube down the river.",
+      "area": "Valle del Cauca",
+      "duration": 9,
+      "price": [
+        30000,
+        60000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=San%20Cipriano%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=San%20Cipriano%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=San%20Cipriano%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Jungle village reached by motorbike-powered rail carts.",
+        "Quirky adventure."
+      ],
+      "visitFlow": [
+        "Brujita rail ride.",
+        "River tubing."
+      ],
+      "bestFor": "Visitors interested in active exploration and landscapes and wildlife",
+      "tradeoffs": [
+        "Day trip.",
+        "Tube down the river."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "cali-cli-lulada",
+      "name": "Lulada and champús",
+      "kind": "eat",
+      "lat": 3.45,
+      "lon": -76.535,
+      "wiki": "Lulada",
+      "summary": "Lulo fruit drink and corn-pineapple champús.",
+      "expect": "Daytime.",
+      "tip": "Galería Alameda is best.",
+      "area": "Centro",
+      "duration": 0.5,
+      "price": [
+        5000,
+        10000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lulada%20and%20champ%C3%BAs%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=Lulada%20and%20champ%C3%BAs%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lulada%20and%20champ%C3%BAs%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Lulo fruit drink and corn-pineapple champús.",
+        "Cali refreshers."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Daytime.",
+        "Galería Alameda is best."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Colombian",
+      "mustOrder": [
+        "Lulada",
+        "Champús"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "cali-cli-alameda",
+      "name": "Galería Alameda",
+      "kind": "eat",
+      "lat": 3.442,
+      "lon": -76.538,
+      "wiki": "Alameda, Cali",
+      "summary": "Market with Pacific seafood counters.",
+      "expect": "Lunch.",
+      "tip": "Try the seafood cazuela.",
+      "area": "Alameda",
+      "duration": 1.5,
+      "price": [
+        20000,
+        45000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Galer%C3%ADa%20Alameda%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=Galer%C3%ADa%20Alameda%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Galer%C3%ADa%20Alameda%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Market with Pacific seafood counters.",
+        "Market lunch."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lunch.",
+        "Try the seafood cazuela."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Pacific Colombian",
+      "mustOrder": [
+        "Cazuela de mariscos"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "cali-cli-aborrajados",
+      "name": "Aborrajados",
+      "kind": "eat",
+      "lat": 3.451,
+      "lon": -76.532,
+      "wiki": "Aborrajado",
+      "summary": "Fried ripe plantain stuffed with cheese.",
+      "expect": "Snack.",
+      "tip": "Pair with lulada.",
+      "area": "Centro",
+      "duration": 0.5,
+      "price": [
+        3000,
+        8000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Aborrajados%2C%20Cali",
+        "https://www.google.com/maps/search/?api=1&query=Aborrajados%2C%20Cali"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Aborrajados%2C%20Cali"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fried ripe plantain stuffed with cheese.",
+        "Valle classic."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Snack.",
+        "Pair with lulada."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Colombian",
+      "mustOrder": [
+        "Aborrajado"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-21"
+}
