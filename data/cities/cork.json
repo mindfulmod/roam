@@ -1,0 +1,570 @@
+{
+  "id": "cork",
+  "name": "Cork",
+  "country": "Ireland",
+  "region": "Europe",
+  "lat": 51.8985,
+  "lon": -8.4756,
+  "wiki": "Cork (city)",
+  "tagline": "Ireland's food capital and gateway to the south coast",
+  "summary": "Cork is Ireland's lively second city, built on an island in the River Lee and proud of its food. Graze the English Market, ring the Shandon bells, kiss the Blarney Stone, trace the Titanic's last port of call at Cobh, and road-trip west to colourful Kinsale and the wild coast of West Cork.",
+  "days": 3,
+  "bestMonths": [
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "May to September is mildest; rain is possible any day.",
+  "arrival": "Cork Airport is 15 minutes from the centre; trains from Dublin take 2.5 hours.",
+  "gettingAround": "Walk the centre; trains to Cobh, buses to Blarney and Kinsale, or rent a car for West Cork.",
+  "cashTip": "Cards and tap-to-pay work almost everywhere. Tipping 10 percent in restaurants is usual; not in pubs.",
+  "dailyBudget": [
+    150,
+    350
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    0,
+    30
+  ],
+  "foodTip": "Clonakilty black pudding, drisheen, crubeens and Murphy's stout.",
+  "buyTip": "Artisan cheese and smoked fish from the English Market.",
+  "baseArea": "City centre island",
+  "connections": [
+    {
+      "to": "dublin",
+      "mode": "Train",
+      "minutes": 150,
+      "note": "Hourly trains."
+    },
+    {
+      "to": "killarney",
+      "mode": "Car",
+      "minutes": 90,
+      "note": "N22 road; trains via Mallow."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Cork on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Cork_(city)",
+      "type": "reference",
+      "checked": "2026-11-22"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Cork%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-22"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Cork%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Cork city River Lee",
+  "added": "2026-11-22",
+  "items": [
+    {
+      "id": "cork-crk-market",
+      "name": "English Market",
+      "kind": "see",
+      "lat": 51.8975,
+      "lon": -8.4747,
+      "wiki": "English Market",
+      "summary": "Covered food market dating from 1788 with butchers, fishmongers and cheese stalls.",
+      "expect": "Closed Sunday.",
+      "tip": "Lunch upstairs at the Farmgate.",
+      "area": "City centre",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=English%20Market%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=English%20Market%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=English%20Market%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Shopping",
+        "History"
+      ],
+      "whyVisit": [
+        "Covered food market dating from 1788 with butchers, fishmongers and cheese stalls.",
+        "Food capital heart."
+      ],
+      "visitFlow": [
+        "Stalls.",
+        "Farmgate café."
+      ],
+      "bestFor": "Visitors interested in regional food and local shopping",
+      "tradeoffs": [
+        "Closed Sunday.",
+        "Lunch upstairs at the Farmgate."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cork-crk-shandon",
+      "name": "Shandon Bells and St Anne's",
+      "kind": "see",
+      "lat": 51.903,
+      "lon": -8.477,
+      "wiki": "St Anne's Church, Shandon",
+      "summary": "Climb the tower and ring the famous bells yourself.",
+      "expect": "Paid.",
+      "tip": "Look for the 'four-faced liar' clocks.",
+      "area": "Shandon",
+      "duration": 1,
+      "price": [
+        6,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Shandon%20Bells%20and%20St%20Anne's%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Shandon%20Bells%20and%20St%20Anne's%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Shandon%20Bells%20and%20St%20Anne's%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Climb the tower and ring the famous bells yourself.",
+        "Play the bells."
+      ],
+      "visitFlow": [
+        "Bell ringing.",
+        "Tower view."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Paid.",
+        "Look for the 'four-faced liar' clocks."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cork-crk-blarney",
+      "name": "Blarney Castle",
+      "kind": "see",
+      "lat": 51.9291,
+      "lon": -8.5709,
+      "wiki": "Blarney Castle",
+      "summary": "Castle where you lean backwards to kiss the Stone of Eloquence.",
+      "expect": "Paid; queues in summer.",
+      "tip": "Arrive at opening and explore the poison garden.",
+      "area": "Blarney",
+      "duration": 3,
+      "price": [
+        20,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Blarney%20Castle%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Blarney%20Castle%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Blarney%20Castle%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Castle where you lean backwards to kiss the Stone of Eloquence.",
+        "Irish legend."
+      ],
+      "visitFlow": [
+        "Kiss the stone.",
+        "Gardens."
+      ],
+      "bestFor": "Visitors interested in history and context and landscapes and wildlife",
+      "tradeoffs": [
+        "Paid; queues in summer.",
+        "Arrive at opening and explore the poison garden."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cork-crk-cobh",
+      "name": "Cobh and the Titanic Experience",
+      "kind": "see",
+      "lat": 51.851,
+      "lon": -8.2967,
+      "wiki": "Cobh",
+      "summary": "Harbour town that was the Titanic's last port of call.",
+      "expect": "Train from Cork.",
+      "tip": "Climb to St Colman's Cathedral.",
+      "area": "Cobh",
+      "duration": 4,
+      "price": [
+        15,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cobh%20and%20the%20Titanic%20Experience%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Cobh%20and%20the%20Titanic%20Experience%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cobh%20and%20the%20Titanic%20Experience%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Harbour town that was the Titanic's last port of call.",
+        "Emigration history."
+      ],
+      "visitFlow": [
+        "Titanic Experience.",
+        "Deck of Cards houses."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Train from Cork.",
+        "Climb to St Colman's Cathedral."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cork-crk-gaol",
+      "name": "Cork City Gaol",
+      "kind": "see",
+      "lat": 51.899,
+      "lon": -8.501,
+      "wiki": "Cork City Gaol",
+      "summary": "Castle-like 19th-century prison with wax figures.",
+      "expect": "Paid.",
+      "tip": "Audio guide is good.",
+      "area": "Sunday's Well",
+      "duration": 1.5,
+      "price": [
+        10,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cork%20City%20Gaol%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Cork%20City%20Gaol%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cork%20City%20Gaol%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Castle-like 19th-century prison with wax figures.",
+        "Spooky history."
+      ],
+      "visitFlow": [
+        "Cells.",
+        "Radio museum."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Paid.",
+        "Audio guide is good."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cork-crk-kinsale",
+      "name": "Kinsale",
+      "kind": "see",
+      "lat": 51.7059,
+      "lon": -8.5222,
+      "wiki": "Kinsale",
+      "summary": "Colourful harbour town with Charles Fort and seafood restaurants.",
+      "expect": "Bus or car.",
+      "tip": "Walk the Scilly Walk to Charles Fort.",
+      "area": "Kinsale",
+      "duration": 5,
+      "price": [
+        0,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kinsale%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Kinsale%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Kinsale%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Food"
+      ],
+      "whyVisit": [
+        "Colourful harbour town with Charles Fort and seafood restaurants.",
+        "Pretty harbour."
+      ],
+      "visitFlow": [
+        "Harbour.",
+        "Charles Fort."
+      ],
+      "bestFor": "Visitors interested in history and context and regional food",
+      "tradeoffs": [
+        "Bus or car.",
+        "Walk the Scilly Walk to Charles Fort."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cork-crk-spike",
+      "name": "Spike Island",
+      "kind": "see",
+      "lat": 51.835,
+      "lon": -8.285,
+      "wiki": "Spike Island, County Cork",
+      "summary": "Fortress island once Ireland's Alcatraz.",
+      "expect": "Ferry from Cobh.",
+      "tip": "Book ahead in summer.",
+      "area": "Cork Harbour",
+      "duration": 4,
+      "price": [
+        25,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Spike%20Island%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Spike%20Island%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Spike%20Island%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Fortress island once Ireland's Alcatraz.",
+        "Island prison."
+      ],
+      "visitFlow": [
+        "Ferry.",
+        "Fort tour."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Ferry from Cobh.",
+        "Book ahead in summer."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "cork-crk-blackpudding",
+      "name": "Clonakilty black pudding",
+      "kind": "eat",
+      "lat": 51.898,
+      "lon": -8.475,
+      "wiki": "Black pudding",
+      "summary": "West Cork's famous pudding in a full Irish breakfast.",
+      "expect": "Mornings.",
+      "tip": "Try white pudding too.",
+      "area": "City centre",
+      "duration": 1,
+      "price": [
+        12,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Breakfast",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Clonakilty%20black%20pudding%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Clonakilty%20black%20pudding%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Clonakilty%20black%20pudding%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "West Cork's famous pudding in a full Irish breakfast.",
+        "Cork breakfast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Mornings.",
+        "Try white pudding too."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Irish",
+      "mustOrder": [
+        "Full Irish"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "cork-crk-pub",
+      "name": "Murphy's and trad music",
+      "kind": "eat",
+      "lat": 51.899,
+      "lon": -8.473,
+      "wiki": "Murphy's Irish Stout",
+      "summary": "Cork's own stout with live trad sessions.",
+      "expect": "Evenings.",
+      "tip": "Sin É pub for music.",
+      "area": "City centre",
+      "duration": 2,
+      "price": [
+        6,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Murphy's%20and%20trad%20music%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Murphy's%20and%20trad%20music%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Murphy's%20and%20trad%20music%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cork's own stout with live trad sessions.",
+        "Pub culture."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Sin É pub for music."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Drinks",
+      "mustOrder": [
+        "Murphy's stout"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "cork-crk-seafood",
+      "name": "Kinsale seafood",
+      "kind": "eat",
+      "lat": 51.706,
+      "lon": -8.522,
+      "wiki": "Kinsale",
+      "summary": "Chowder, oysters and fish in Ireland's gourmet capital.",
+      "expect": "Lunch or dinner.",
+      "tip": "Fishy Fishy is famous.",
+      "area": "Kinsale",
+      "duration": 1.5,
+      "price": [
+        20,
+        45
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kinsale%20seafood%2C%20Cork",
+        "https://www.google.com/maps/search/?api=1&query=Kinsale%20seafood%2C%20Cork"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Kinsale%20seafood%2C%20Cork"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Chowder, oysters and fish in Ireland's gourmet capital.",
+        "Coastal feast."
+      ],
+      "visitFlow": [
+        "Find a busy local place.",
+        "Order the classic."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lunch or dinner.",
+        "Fishy Fishy is famous."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Seafood",
+      "mustOrder": [
+        "Seafood chowder",
+        "Oysters"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
