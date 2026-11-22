@@ -125,14 +125,23 @@
         "Free.",
         "Christmas market in December."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1351,
+          "period": "202511-202610",
+          "title": "Römerberg",
+          "url": "https://en.wikipedia.org/wiki/R%C3%B6merberg",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "frankfurt-fra-maintower",
       "name": "Main Tower",
       "kind": "see",
-      "lat": 50.1125,
-      "lon": 8.672,
+      "lat": 50.11222,
+      "lon": 8.67194,
       "wiki": "Main Tower",
       "summary": "Open-air platform 200 metres up among the skyscrapers.",
       "expect": "Paid; security check.",
@@ -172,14 +181,22 @@
         "Paid; security check.",
         "Sunset on a clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11429,
+          "period": "202511-202610",
+          "title": "Main Tower",
+          "url": "https://en.wikipedia.org/wiki/Main_Tower",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "frankfurt-fra-dom",
       "name": "Frankfurt Cathedral",
       "kind": "see",
-      "lat": 50.1107,
-      "lon": 8.6855,
+      "lat": 50.11056,
+      "lon": 8.685,
       "wiki": "Frankfurt Cathedral",
       "summary": "Gothic cathedral where emperors were crowned.",
       "expect": "Tower climb paid.",
@@ -219,14 +236,22 @@
         "Tower climb paid.",
         "Climb the tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 40571,
+          "period": "202511-202610",
+          "title": "Frankfurt Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Frankfurt_Cathedral",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "frankfurt-fra-museum",
       "name": "Museumsufer and Städel",
       "kind": "see",
-      "lat": 50.103,
-      "lon": 8.674,
+      "lat": 50.10322,
+      "lon": 8.67388,
       "wiki": "Städel",
       "summary": "Riverside museum row led by the Städel's old masters and modern art.",
       "expect": "Paid.",
@@ -265,14 +290,22 @@
         "Paid.",
         "Saturday flea market on the bank."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13658,
+          "period": "202511-202610",
+          "title": "Städel",
+          "url": "https://en.wikipedia.org/wiki/St%C3%A4del",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "frankfurt-fra-goethe",
       "name": "Goethe House",
       "kind": "see",
-      "lat": 50.1112,
-      "lon": 8.6779,
+      "lat": 50.11111,
+      "lon": 8.6775,
       "wiki": "Goethe House",
       "summary": "Birthplace of Germany's great writer.",
       "expect": "Paid.",
@@ -312,14 +345,22 @@
         "Paid.",
         "Combine with the Romantik museum."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10473,
+          "period": "202511-202610",
+          "title": "Goethe House",
+          "url": "https://en.wikipedia.org/wiki/Goethe_House",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "frankfurt-fra-palmengarten",
       "name": "Palmengarten",
       "kind": "see",
-      "lat": 50.123,
-      "lon": 8.657,
+      "lat": 50.12361,
+      "lon": 8.65556,
       "wiki": "Palmengarten",
       "summary": "Botanical garden with tropical glasshouses.",
       "expect": "Paid.",
@@ -358,14 +399,22 @@
         "Paid.",
         "Good on rainy days."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4104,
+          "period": "202511-202610",
+          "title": "Palmengarten",
+          "url": "https://en.wikipedia.org/wiki/Palmengarten",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "frankfurt-fra-rhine",
       "name": "Rhine Valley day trip",
       "kind": "see",
-      "lat": 50.092,
-      "lon": 7.804,
+      "lat": 50.1736,
+      "lon": 7.69417,
       "wiki": "Upper Middle Rhine Valley",
       "summary": "Castles, vineyards and the Lorelei on a Rhine cruise.",
       "expect": "Train plus boat.",
@@ -405,8 +454,16 @@
         "Train plus boat.",
         "Rüdesheim to St Goar by boat."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 20097,
+          "period": "202511-202610",
+          "title": "Rhine Gorge",
+          "url": "https://en.wikipedia.org/wiki/Rhine_Gorge",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "frankfurt-fra-applewine",
@@ -581,5 +638,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

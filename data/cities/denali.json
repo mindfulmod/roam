@@ -157,7 +157,16 @@
         "Weather dependent.",
         "Fly from Talkeetna for better odds."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 710362,
+          "period": "202511-202610",
+          "title": "Denali",
+          "url": "https://en.wikipedia.org/wiki/Denali",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "denali-den-kennels",
@@ -204,14 +213,23 @@
         "Free shuttle.",
         "Puppies in summer."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 77017,
+          "period": "202511-202610",
+          "title": "Denali National Park and Preserve",
+          "url": "https://en.wikipedia.org/wiki/Denali_National_Park_and_Preserve",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "denali-den-savage",
       "name": "Savage River Loop",
       "kind": "see",
-      "lat": 63.74,
-      "lon": -149.29,
+      "lat": 63.74007,
+      "lon": -149.29394,
       "wiki": "Savage River (Alaska)",
       "summary": "Easy riverside walk at the end of the public road.",
       "expect": "Free shuttle.",
@@ -249,15 +267,14 @@
       "tradeoffs": [
         "Free shuttle.",
         "Look for Dall sheep."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "denali-den-horseshoe",
       "name": "Horseshoe Lake Trail",
       "kind": "see",
-      "lat": 63.738,
-      "lon": -148.89,
+      "lat": 63.73949,
+      "lon": -148.90732,
       "wiki": "Denali National Park and Preserve",
       "summary": "Short hike to a lake with beaver dams.",
       "expect": "Free.",
@@ -295,8 +312,7 @@
       "tradeoffs": [
         "Free.",
         "Quiet early morning."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "denali-den-rafting",
@@ -342,14 +358,23 @@
         "Drysuits provided.",
         "Choose the canyon run."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3335,
+          "period": "202511-202610",
+          "title": "Nenana River",
+          "url": "https://en.wikipedia.org/wiki/Nenana_River",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "denali-den-talkeetna",
       "name": "Talkeetna",
       "kind": "see",
-      "lat": 62.323,
-      "lon": -150.109,
+      "lat": 62.32389,
+      "lon": -150.10944,
       "wiki": "Talkeetna, Alaska",
       "summary": "Quirky climbers' town with the best Denali views.",
       "expect": "On the way from Anchorage.",
@@ -389,8 +414,16 @@
         "On the way from Anchorage.",
         "Stop for lunch and the riverbank view."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 43937,
+          "period": "202511-202610",
+          "title": "Talkeetna, Alaska",
+          "url": "https://en.wikipedia.org/wiki/Talkeetna%2C_Alaska",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "denali-den-salmon",
@@ -565,5 +598,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

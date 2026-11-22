@@ -72,8 +72,8 @@
       "id": "hilo-hil-kilauea",
       "name": "Kīlauea caldera",
       "kind": "see",
-      "lat": 19.4194,
-      "lon": -155.2885,
+      "lat": 19.4211,
+      "lon": -155.28676,
       "wiki": "Kīlauea",
       "summary": "Overlooks into the steaming crater of one of the world's most active volcanoes.",
       "expect": "Park entry fee.",
@@ -113,7 +113,15 @@
         "Park entry fee.",
         "Come back after dark if lava is glowing."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 282582,
+          "period": "202511-202610",
+          "title": "Kīlauea",
+          "url": "https://en.wikipedia.org/wiki/K%C4%ABlauea",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "hilo-hil-lavatube",
@@ -207,14 +215,23 @@
         "No services.",
         "Stop at the Hōlei Sea Arch."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5918,
+          "period": "202511-202610",
+          "title": "Chain of Craters Road",
+          "url": "https://en.wikipedia.org/wiki/Chain_of_Craters_Road",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "hilo-hil-rainbow",
       "name": "Rainbow Falls",
       "kind": "see",
-      "lat": 19.719,
-      "lon": -155.108,
+      "lat": 19.71917,
+      "lon": -155.10944,
       "wiki": "Rainbow Falls (Hawaii)",
       "summary": "Waterfall where morning sun makes rainbows in the mist.",
       "expect": "Free.",
@@ -253,14 +270,22 @@
         "Free.",
         "Go around 9 or 10 a.m."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11635,
+          "period": "202511-202610",
+          "title": "Rainbow Falls (Hawaii)",
+          "url": "https://en.wikipedia.org/wiki/Rainbow_Falls_(Hawaii)",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "hilo-hil-akaka",
       "name": "ʻAkaka Falls",
       "kind": "see",
-      "lat": 19.853,
-      "lon": -155.152,
+      "lat": 19.85389,
+      "lon": -155.15444,
       "wiki": "ʻAkaka Falls State Park",
       "summary": "135-metre waterfall on a rainforest loop.",
       "expect": "Small fee.",
@@ -299,14 +324,22 @@
         "Small fee.",
         "Drive the coast road."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10387,
+          "period": "202511-202610",
+          "title": "ʻAkaka Falls State Park",
+          "url": "https://en.wikipedia.org/wiki/%CA%BBAkaka_Falls_State_Park",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "hilo-hil-maunakea",
       "name": "Mauna Kea summit",
       "kind": "see",
-      "lat": 19.8207,
-      "lon": -155.4681,
+      "lat": 19.82056,
+      "lon": -155.46806,
       "wiki": "Mauna Kea",
       "summary": "Sacred mountain and observatories above the clouds.",
       "expect": "4x4 only; altitude risk.",
@@ -347,15 +380,23 @@
         "4x4 only; altitude risk.",
         "Join a sunset tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 388829,
+          "period": "202511-202610",
+          "title": "Mauna Kea",
+          "url": "https://en.wikipedia.org/wiki/Mauna_Kea",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "hilo-hil-liliuokalani",
       "name": "Liliʻuokalani Gardens",
       "kind": "see",
-      "lat": 19.727,
-      "lon": -155.072,
+      "lat": 19.72667,
+      "lon": -155.06833,
       "wiki": "Liliuokalani Park and Gardens",
       "summary": "Japanese garden on Hilo Bay.",
       "expect": "Free.",
@@ -394,7 +435,15 @@
         "Free.",
         "Walk to Coconut Island."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1618,
+          "period": "202511-202610",
+          "title": "Liliʻuokalani Park and Gardens",
+          "url": "https://en.wikipedia.org/wiki/Lili%CA%BBuokalani_Park_and_Gardens",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "hilo-hil-locomoco",
@@ -568,5 +617,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

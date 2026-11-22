@@ -76,8 +76,8 @@
       "id": "page-pag-antelope",
       "name": "Antelope Canyon",
       "kind": "see",
-      "lat": 36.8619,
-      "lon": -111.3743,
+      "lat": 36.86196,
+      "lon": -111.37434,
       "wiki": "Antelope Canyon",
       "summary": "Narrow sandstone slot canyon lit by light beams.",
       "expect": "Guided tours only; book weeks ahead.",
@@ -116,14 +116,22 @@
         "Guided tours only; book weeks ahead.",
         "Upper for beams, Lower for ladders and fewer crowds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 96387,
+          "period": "202511-202610",
+          "title": "Antelope Canyon",
+          "url": "https://en.wikipedia.org/wiki/Antelope_Canyon",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "page-pag-horseshoe",
       "name": "Horseshoe Bend",
       "kind": "see",
-      "lat": 36.8791,
-      "lon": -111.5104,
+      "lat": 36.87944,
+      "lon": -111.51389,
       "wiki": "Horseshoe Bend (Arizona)",
       "summary": "Colorado River loops 300 metres below a cliff edge.",
       "expect": "Parking fee.",
@@ -163,14 +171,22 @@
         "Parking fee.",
         "Sunrise avoids crowds and heat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 38748,
+          "period": "202511-202610",
+          "title": "Horseshoe Bend (Arizona)",
+          "url": "https://en.wikipedia.org/wiki/Horseshoe_Bend_(Arizona)",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "page-pag-powell",
       "name": "Lake Powell boat tour",
       "kind": "see",
-      "lat": 36.938,
-      "lon": -111.484,
+      "lat": 36.93611,
+      "lon": -111.48417,
       "wiki": "Lake Powell",
       "summary": "Boat through red-rock canyons of a huge reservoir.",
       "expect": "Tours from Wahweap.",
@@ -209,14 +225,22 @@
         "Tours from Wahweap.",
         "Rent a kayak for Antelope Canyon by water."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 182876,
+          "period": "202511-202610",
+          "title": "Lake Powell",
+          "url": "https://en.wikipedia.org/wiki/Lake_Powell",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "page-pag-dam",
       "name": "Glen Canyon Dam",
       "kind": "see",
-      "lat": 36.937,
-      "lon": -111.484,
+      "lat": 36.9375,
+      "lon": -111.48444,
       "wiki": "Glen Canyon Dam",
       "summary": "Massive dam with a visitor centre and bridge views.",
       "expect": "Free visitor centre.",
@@ -256,14 +280,22 @@
         "Free visitor centre.",
         "Walk the bridge."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 87007,
+          "period": "202511-202610",
+          "title": "Glen Canyon Dam",
+          "url": "https://en.wikipedia.org/wiki/Glen_Canyon_Dam",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "page-pag-wave",
       "name": "The Wave and Coyote Buttes",
       "kind": "see",
-      "lat": 36.996,
-      "lon": -112.006,
+      "lat": 36.9961,
+      "lon": -112.0061,
       "wiki": "The Wave (Arizona)",
       "summary": "Swirling sandstone formation reached by permit lottery only.",
       "expect": "Very hard permits.",
@@ -303,8 +335,16 @@
         "Very hard permits.",
         "Enter the lottery months ahead."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 46139,
+          "period": "202511-202610",
+          "title": "The Wave (Arizona)",
+          "url": "https://en.wikipedia.org/wiki/The_Wave_(Arizona)",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "page-pag-toadstool",
@@ -350,7 +390,16 @@
         "Free.",
         "Late afternoon light."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 41328,
+          "period": "202511-202610",
+          "title": "Grand Staircase–Escalante National Monument",
+          "url": "https://en.wikipedia.org/wiki/Grand_Staircase%E2%80%93Escalante_National_Monument",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "page-pag-navajo",
@@ -523,5 +572,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

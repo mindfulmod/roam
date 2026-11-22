@@ -118,14 +118,23 @@
         "Dry season only.",
         "Arrive an hour before sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3081,
+          "period": "202511-202610",
+          "title": "Mindil Beach",
+          "url": "https://en.wikipedia.org/wiki/Mindil_Beach",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "darwin-drw-litchfield",
       "name": "Litchfield National Park",
       "kind": "see",
-      "lat": -13.16,
-      "lon": 130.79,
+      "lat": -13.27917,
+      "lon": 130.87667,
       "wiki": "Litchfield National Park",
       "summary": "Waterfalls and swimming holes plus magnetic termite mounds.",
       "expect": "Day trip.",
@@ -165,15 +174,23 @@
         "Day trip.",
         "Swim at Wangi and Florence Falls."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5037,
+          "period": "202511-202610",
+          "title": "Litchfield National Park",
+          "url": "https://en.wikipedia.org/wiki/Litchfield_National_Park",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "darwin-drw-kakadu",
       "name": "Kakadu National Park",
       "kind": "see",
-      "lat": -12.86,
-      "lon": 132.8,
+      "lat": -13.1,
+      "lon": 132.6,
       "wiki": "Kakadu National Park",
       "summary": "UNESCO park with Aboriginal rock art at Ubirr and Nourlangie and crocodile cruises on Yellow Water.",
       "expect": "Park pass required.",
@@ -214,15 +231,23 @@
         "Park pass required.",
         "Stay at least two nights."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 47737,
+          "period": "202511-202610",
+          "title": "Kakadu National Park",
+          "url": "https://en.wikipedia.org/wiki/Kakadu_National_Park",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "darwin-drw-museum",
       "name": "Museum and Art Gallery of the NT",
       "kind": "see",
-      "lat": -12.438,
-      "lon": 130.834,
+      "lat": -12.4375,
+      "lon": 130.8336,
       "wiki": "Museum and Art Gallery of the Northern Territory",
       "summary": "Aboriginal art, Cyclone Tracy exhibit and Sweetheart the crocodile.",
       "expect": "Free.",
@@ -262,14 +287,22 @@
         "Free.",
         "Combine with Mindil."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2275,
+          "period": "202511-202610",
+          "title": "Museum and Art Gallery of the Northern Territory",
+          "url": "https://en.wikipedia.org/wiki/Museum_and_Art_Gallery_of_the_Northern_Territory",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "darwin-drw-crocosaurus",
       "name": "Crocosaurus Cove",
       "kind": "see",
-      "lat": -12.463,
-      "lon": 130.841,
+      "lat": -12.46222,
+      "lon": 130.83917,
       "wiki": "Crocosaurus Cove",
       "summary": "Swim in a cage beside giant saltwater crocodiles.",
       "expect": "Paid.",
@@ -310,14 +343,22 @@
         "Paid.",
         "Book the Cage of Death."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2657,
+          "period": "202511-202610",
+          "title": "Crocosaurus Cove",
+          "url": "https://en.wikipedia.org/wiki/Crocosaurus_Cove",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "darwin-drw-ww2",
       "name": "WWII Oil Tunnels and Darwin Military Museum",
       "kind": "see",
-      "lat": -12.47,
-      "lon": 130.845,
+      "lat": -12.40752,
+      "lon": 130.81977,
       "wiki": "Darwin Military Museum",
       "summary": "History of the 1942 bombing of Darwin.",
       "expect": "Paid.",
@@ -356,7 +397,15 @@
         "Paid.",
         "Do both together."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1345,
+          "period": "202511-202610",
+          "title": "Darwin Military Museum",
+          "url": "https://en.wikipedia.org/wiki/Darwin_Military_Museum",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "darwin-drw-waterfront",
@@ -577,5 +626,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }

@@ -111,7 +111,16 @@
         "Park fee per vehicle.",
         "High-clearance helps after rain."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 244566,
+          "period": "202511-202610",
+          "title": "Monument Valley",
+          "url": "https://en.wikipedia.org/wiki/Monument_Valley",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "monument-valley-mv-tour",
@@ -158,14 +167,23 @@
         "Book at the visitor centre.",
         "Sunset tours are best."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 465958,
+          "period": "202511-202610",
+          "title": "Navajo Nation",
+          "url": "https://en.wikipedia.org/wiki/Navajo_Nation",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "monument-valley-mv-sunrise",
       "name": "Mittens sunrise",
       "kind": "see",
-      "lat": 36.983,
-      "lon": -110.111,
+      "lat": 36.98833,
+      "lon": -110.06985,
       "wiki": "Mitten Buttes",
       "summary": "Sun rising between the East and West Mittens.",
       "expect": "Free from the visitor centre.",
@@ -204,7 +222,15 @@
         "Free from the visitor centre.",
         "Stay at The View for balcony sunrise."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18208,
+          "period": "202511-202610",
+          "title": "West and East Mitten Buttes",
+          "url": "https://en.wikipedia.org/wiki/West_and_East_Mitten_Buttes",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "monument-valley-mv-forrest",
@@ -251,7 +277,16 @@
         "Roadside; watch traffic.",
         "Early morning, empty road."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 244566,
+          "period": "202511-202610",
+          "title": "Monument Valley",
+          "url": "https://en.wikipedia.org/wiki/Monument_Valley",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "monument-valley-mv-wildcat",
@@ -298,14 +333,23 @@
         "Hot; bring water.",
         "Morning."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 244566,
+          "period": "202511-202610",
+          "title": "Monument Valley",
+          "url": "https://en.wikipedia.org/wiki/Monument_Valley",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "monument-valley-mv-goosenecks",
       "name": "Goosenecks State Park",
       "kind": "see",
-      "lat": 37.174,
-      "lon": -109.927,
+      "lat": 37.17472,
+      "lon": -109.92694,
       "wiki": "Goosenecks State Park",
       "summary": "San Juan River's deep winding meanders.",
       "expect": "Small fee.",
@@ -345,7 +389,15 @@
         "Small fee.",
         "Combine with Mexican Hat rock."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3971,
+          "period": "202511-202610",
+          "title": "Goosenecks State Park",
+          "url": "https://en.wikipedia.org/wiki/Goosenecks_State_Park",
+          "checked": "2026-11-22"
+        }
+      }
     },
     {
       "id": "monument-valley-mv-frybread",
@@ -466,8 +518,8 @@
       "id": "monument-valley-mv-gouldings",
       "name": "Goulding's Stagecoach Restaurant",
       "kind": "eat",
-      "lat": 37.007,
-      "lon": -110.203,
+      "lat": 37.00667,
+      "lon": -110.2025,
       "wiki": "Goulding's Lodge",
       "summary": "Historic trading post restaurant used by John Ford.",
       "expect": "Daytime.",
@@ -506,7 +558,6 @@
         "Daytime.",
         "Visit the museum too."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "American",
       "mustOrder": [
@@ -520,5 +571,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-22"
 }
