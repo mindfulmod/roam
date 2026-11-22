@@ -1,0 +1,2604 @@
+[
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "denali",
+  "name": "Denali",
+  "at": [
+   63.73,
+   -148.915
+  ],
+  "wiki": "Denali National Park and Preserve",
+  "cover": "Denali mountain Wonder Lake",
+  "seasons": "LLLLSHHHSLLL",
+  "tagline": "North America's highest peak above wild tundra",
+  "summary": "Denali National Park is six million acres of tundra, taiga and glaciers below the 6,190-metre summit of Denali. Ride the park bus into the wilderness to spot grizzlies, moose, caribou and wolves, take a flightseeing plane to land on a glacier, and meet the sled dogs at the park kennels.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8
+  ],
+  "seasonNote": "The park road and buses run late May to mid September; the mountain hides in cloud about two days in three.",
+  "arrival": "About 4 hours by car or 8 hours by the scenic Alaska Railroad from Anchorage.",
+  "gettingAround": "Park buses beyond Mile 15; private cars only on the first stretch.",
+  "foodTip": "Alaskan salmon, halibut and reindeer sausage.",
+  "buyTip": "Native Alaskan crafts and qiviut wool.",
+  "baseArea": "Denali Park entrance (Glitter Gulch) or Healy",
+  "hotel": [
+   220,
+   500
+  ],
+  "connections": [
+   {
+    "to": "anchorage",
+    "mode": "Train",
+    "minutes": 480,
+    "note": "Alaska Railroad Denali Star."
+   },
+   {
+    "to": "anchorage",
+    "mode": "Car",
+    "minutes": 240,
+    "note": "Parks Highway."
+   }
+  ],
+  "items": [
+   {
+    "name": "Park road bus tour",
+    "kind": "see",
+    "id": "den-bus",
+    "at": [
+     63.55,
+     -149.79
+    ],
+    "wiki": "Denali Park Road",
+    "area": "Park road",
+    "summary": "Narrated bus ride into the wilderness looking for grizzlies, caribou and moose.",
+    "expect": "Book months ahead; road may be shortened by a landslide.",
+    "tip": "Sit on the left going in.",
+    "why": "Big Five of Alaska.",
+    "flow": [
+     "Savage River.",
+     "Wildlife stops.",
+     "Turnaround."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     250
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Flightseeing and glacier landing",
+    "kind": "see",
+    "id": "den-flight",
+    "at": [
+     63.73,
+     -148.915
+    ],
+    "wiki": "Denali",
+    "area": "Park entrance",
+    "summary": "Small plane around the summit with a landing on a glacier.",
+    "expect": "Weather dependent.",
+    "tip": "Fly from Talkeetna for better odds.",
+    "why": "See the mountain up close.",
+    "flow": [
+     "Flight past the summit.",
+     "Glacier landing."
+    ],
+    "hours": 2,
+    "price": [
+     400,
+     700
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Sled dog kennels",
+    "kind": "see",
+    "id": "den-kennels",
+    "at": [
+     63.729,
+     -148.92
+    ],
+    "wiki": "Denali National Park and Preserve",
+    "area": "Headquarters",
+    "summary": "The only sled dogs used by a US national park, with free demonstrations.",
+    "expect": "Free shuttle.",
+    "tip": "Puppies in summer.",
+    "why": "Working dogs.",
+    "flow": [
+     "Kennels.",
+     "Demonstration."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Savage River Loop",
+    "kind": "see",
+    "id": "den-savage",
+    "at": [
+     63.74,
+     -149.29
+    ],
+    "wiki": "Savage River (Alaska)",
+    "area": "Mile 15",
+    "summary": "Easy riverside walk at the end of the public road.",
+    "expect": "Free shuttle.",
+    "tip": "Look for Dall sheep.",
+    "why": "Easy tundra walk.",
+    "flow": [
+     "River loop.",
+     "Ridge viewpoint."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Horseshoe Lake Trail",
+    "kind": "see",
+    "id": "den-horseshoe",
+    "at": [
+     63.738,
+     -148.89
+    ],
+    "wiki": "Denali National Park and Preserve",
+    "area": "Park entrance",
+    "summary": "Short hike to a lake with beaver dams.",
+    "expect": "Free.",
+    "tip": "Quiet early morning.",
+    "why": "Beavers.",
+    "flow": [
+     "Overlook.",
+     "Lake loop."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Nenana River rafting",
+    "kind": "see",
+    "id": "den-rafting",
+    "at": [
+     63.75,
+     -148.91
+    ],
+    "wiki": "Nenana River",
+    "area": "Canyon",
+    "summary": "Glacial river rafting through a canyon.",
+    "expect": "Drysuits provided.",
+    "tip": "Choose the canyon run.",
+    "why": "Cold thrill.",
+    "flow": [
+     "Briefing.",
+     "Canyon rapids."
+    ],
+    "hours": 3,
+    "price": [
+     110,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Talkeetna",
+    "kind": "see",
+    "id": "den-talkeetna",
+    "at": [
+     62.323,
+     -150.109
+    ],
+    "wiki": "Talkeetna, Alaska",
+    "area": "Talkeetna",
+    "summary": "Quirky climbers' town with the best Denali views.",
+    "expect": "On the way from Anchorage.",
+    "tip": "Stop for lunch and the riverbank view.",
+    "why": "Mountain town.",
+    "flow": [
+     "Main street.",
+     "Riverbank viewpoint."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Alaskan salmon and halibut",
+    "kind": "eat",
+    "id": "den-salmon",
+    "at": [
+     63.735,
+     -148.91
+    ],
+    "wiki": "Alaska salmon",
+    "area": "Glitter Gulch",
+    "venue": "food-area",
+    "summary": "Wild salmon and halibut fish and chips.",
+    "expect": "Summer.",
+    "tip": "Ask what's in season.",
+    "why": "Alaska on a plate.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     25,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Alaskan",
+    "order": [
+     "Grilled salmon",
+     "Halibut fish and chips"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Reindeer sausage",
+    "kind": "eat",
+    "id": "den-reindeer",
+    "at": [
+     63.736,
+     -148.911
+    ],
+    "wiki": "Reindeer sausage",
+    "area": "Glitter Gulch",
+    "venue": "food-area",
+    "summary": "Smoky sausage served at breakfast or from food trucks.",
+    "expect": "Mornings.",
+    "tip": "Try with eggs.",
+    "why": "Alaskan classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Alaskan",
+    "order": [
+     "Reindeer sausage"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "49th State Brewing",
+    "kind": "eat",
+    "id": "den-brew",
+    "at": [
+     63.852,
+     -148.964
+    ],
+    "wiki": "Healy, Alaska",
+    "area": "Healy",
+    "venue": "food-area",
+    "summary": "Brewpub with the bus from Into the Wild outside.",
+    "expect": "Summer.",
+    "tip": "Try the Alaskan ales.",
+    "why": "Local hangout.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Burger",
+     "Ale"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "hilo",
+  "name": "Hawaii Volcanoes (Hilo)",
+  "at": [
+   19.7071,
+   -155.0816
+  ],
+  "wiki": "Hawaiʻi Volcanoes National Park",
+  "cover": "Kilauea caldera",
+  "seasons": "SSSSHHHHSSSS",
+  "tagline": "Living volcanoes, rainforest and waterfalls on the Big Island",
+  "summary": "Hilo is the rainy, green side of Hawaiʻi's Big Island, close to Hawaiʻi Volcanoes National Park. Look into the steaming Kīlauea caldera, walk through the Thurston lava tube, drive the Chain of Craters Road to sea arches, see Rainbow Falls, and climb Mauna Kea for sunset above the clouds.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Hilo is rainy all year, wettest November to March; check eruption status before visiting.",
+  "arrival": "Hilo International is 10 minutes from town; Kona is 2 hours away.",
+  "gettingAround": "A rental car; buses are infrequent.",
+  "foodTip": "Loco moco, poke, malasadas and shave ice.",
+  "buyTip": "Kona coffee, macadamia nuts and local art.",
+  "baseArea": "Downtown Hilo or Volcano Village",
+  "hotel": [
+   180,
+   400
+  ],
+  "connections": [
+   {
+    "to": "honolulu",
+    "mode": "Flight",
+    "minutes": 50,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "maui",
+    "mode": "Flight",
+    "minutes": 40,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Kīlauea caldera",
+    "kind": "see",
+    "id": "hil-kilauea",
+    "at": [
+     19.4194,
+     -155.2885
+    ],
+    "wiki": "Kīlauea",
+    "area": "Volcano",
+    "summary": "Overlooks into the steaming crater of one of the world's most active volcanoes.",
+    "expect": "Park entry fee.",
+    "tip": "Come back after dark if lava is glowing.",
+    "why": "Living volcano.",
+    "flow": [
+     "Kīlauea Overlook.",
+     "Steam vents."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Thurston lava tube",
+    "kind": "see",
+    "id": "hil-lavatube",
+    "at": [
+     19.414,
+     -155.239
+    ],
+    "wiki": "Thurston lava tube",
+    "area": "Volcano",
+    "summary": "Walk through a 500-year-old lava cave in fern forest.",
+    "expect": "Busy midday.",
+    "tip": "Go before 9 a.m.",
+    "why": "Inside a volcano.",
+    "flow": [
+     "Fern forest.",
+     "Lava tube."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Chain of Craters Road",
+    "kind": "see",
+    "id": "hil-chain",
+    "at": [
+     19.296,
+     -155.12
+    ],
+    "wiki": "Chain of Craters Road",
+    "area": "Volcano",
+    "summary": "Scenic road down past craters and lava flows to a sea arch.",
+    "expect": "No services.",
+    "tip": "Stop at the Hōlei Sea Arch.",
+    "why": "Lava to sea.",
+    "flow": [
+     "Craters.",
+     "Petroglyphs.",
+     "Sea arch."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Rainbow Falls",
+    "kind": "see",
+    "id": "hil-rainbow",
+    "at": [
+     19.719,
+     -155.108
+    ],
+    "wiki": "Rainbow Falls (Hawaii)",
+    "area": "Hilo",
+    "summary": "Waterfall where morning sun makes rainbows in the mist.",
+    "expect": "Free.",
+    "tip": "Go around 9 or 10 a.m.",
+    "why": "Easy stop.",
+    "flow": [
+     "Lookout.",
+     "Banyan trees."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "ʻAkaka Falls",
+    "kind": "see",
+    "id": "hil-akaka",
+    "at": [
+     19.853,
+     -155.152
+    ],
+    "wiki": "ʻAkaka Falls State Park",
+    "area": "Hāmākua Coast",
+    "summary": "135-metre waterfall on a rainforest loop.",
+    "expect": "Small fee.",
+    "tip": "Drive the coast road.",
+    "why": "Tall falls.",
+    "flow": [
+     "Loop trail.",
+     "Falls."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mauna Kea summit",
+    "kind": "see",
+    "id": "hil-maunakea",
+    "at": [
+     19.8207,
+     -155.4681
+    ],
+    "wiki": "Mauna Kea",
+    "area": "Summit",
+    "summary": "Sacred mountain and observatories above the clouds.",
+    "expect": "4x4 only; altitude risk.",
+    "tip": "Join a sunset tour.",
+    "why": "Above the clouds.",
+    "flow": [
+     "Visitor station.",
+     "Summit sunset."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     250
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Liliʻuokalani Gardens",
+    "kind": "see",
+    "id": "hil-liliuokalani",
+    "at": [
+     19.727,
+     -155.072
+    ],
+    "wiki": "Liliuokalani Park and Gardens",
+    "area": "Hilo",
+    "summary": "Japanese garden on Hilo Bay.",
+    "expect": "Free.",
+    "tip": "Walk to Coconut Island.",
+    "why": "Peaceful.",
+    "flow": [
+     "Garden.",
+     "Coconut Island."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Loco moco",
+    "kind": "eat",
+    "id": "hil-locomoco",
+    "at": [
+     19.722,
+     -155.087
+    ],
+    "wiki": "Loco moco",
+    "area": "Hilo",
+    "venue": "food-area",
+    "summary": "Rice, burger patty, fried egg and gravy, invented in Hilo.",
+    "expect": "Breakfast or lunch.",
+    "tip": "Café 100 is the classic.",
+    "why": "Hilo original.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hawaiian",
+    "order": [
+     "Loco moco"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Poke",
+    "kind": "eat",
+    "id": "hil-poke",
+    "at": [
+     19.72,
+     -155.085
+    ],
+    "wiki": "Poke (Hawaii)",
+    "area": "Hilo",
+    "venue": "food-area",
+    "summary": "Raw ahi tuna marinated with shoyu and seaweed.",
+    "expect": "Lunch.",
+    "tip": "Buy by the pound at a market.",
+    "why": "Fresh fish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hawaiian",
+    "order": [
+     "Ahi poke bowl"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Hilo Farmers Market",
+    "kind": "eat",
+    "id": "hil-market",
+    "at": [
+     19.724,
+     -155.088
+    ],
+    "wiki": "Hilo Farmers Market",
+    "area": "Downtown",
+    "venue": "food-area",
+    "summary": "Tropical fruit, malasadas and crafts.",
+    "expect": "Wednesday and Saturday biggest.",
+    "tip": "Try rambutan and lilikoi.",
+    "why": "Island produce.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hawaiian",
+    "order": [
+     "Tropical fruit",
+     "Malasada"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "page",
+  "name": "Page (Antelope Canyon)",
+  "at": [
+   36.9147,
+   -111.4558
+  ],
+  "wiki": "Page, Arizona",
+  "cover": "Upper Antelope Canyon",
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Slot canyons and the Horseshoe Bend",
+  "summary": "Page is a small desert town beside Lake Powell surrounded by some of the Southwest's most photographed places. Walk through the glowing light beams of Antelope Canyon with a Navajo guide, peer down at the Colorado River curling round Horseshoe Bend, and take a boat or kayak into Lake Powell's red-rock canyons.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10
+  ],
+  "seasonNote": "Light beams in Upper Antelope are best from April to September around midday; summer is very hot.",
+  "arrival": "About 4.5 hours from Las Vegas, 2.5 hours from the Grand Canyon South Rim.",
+  "gettingAround": "A car; canyons require Navajo-guided tours.",
+  "foodTip": "Navajo tacos, Southwestern BBQ and Mexican food.",
+  "buyTip": "Navajo jewellery and rugs.",
+  "baseArea": "Page town centre",
+  "hotel": [
+   150,
+   350
+  ],
+  "connections": [
+   {
+    "to": "las-vegas",
+    "mode": "Car",
+    "minutes": 270,
+    "note": "Via Kanab."
+   },
+   {
+    "to": "flagstaff",
+    "mode": "Car",
+    "minutes": 150,
+    "note": "Highway 89."
+   },
+   {
+    "to": "springdale",
+    "mode": "Car",
+    "minutes": 150,
+    "note": "Via Kanab."
+   }
+  ],
+  "items": [
+   {
+    "name": "Antelope Canyon",
+    "kind": "see",
+    "id": "pag-antelope",
+    "at": [
+     36.8619,
+     -111.3743
+    ],
+    "wiki": "Antelope Canyon",
+    "area": "Navajo Nation",
+    "summary": "Narrow sandstone slot canyon lit by light beams.",
+    "expect": "Guided tours only; book weeks ahead.",
+    "tip": "Upper for beams, Lower for ladders and fewer crowds.",
+    "why": "Bucket-list photo.",
+    "flow": [
+     "Tour check-in.",
+     "Walk the slot."
+    ],
+    "hours": 1.5,
+    "price": [
+     90,
+     120
+    ],
+    "best": "Midday",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Horseshoe Bend",
+    "kind": "see",
+    "id": "pag-horseshoe",
+    "at": [
+     36.8791,
+     -111.5104
+    ],
+    "wiki": "Horseshoe Bend (Arizona)",
+    "area": "South of town",
+    "summary": "Colorado River loops 300 metres below a cliff edge.",
+    "expect": "Parking fee.",
+    "tip": "Sunrise avoids crowds and heat.",
+    "why": "Iconic view.",
+    "flow": [
+     "Walk from car park.",
+     "Rim viewpoint."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Lake Powell boat tour",
+    "kind": "see",
+    "id": "pag-powell",
+    "at": [
+     36.938,
+     -111.484
+    ],
+    "wiki": "Lake Powell",
+    "area": "Wahweap Marina",
+    "summary": "Boat through red-rock canyons of a huge reservoir.",
+    "expect": "Tours from Wahweap.",
+    "tip": "Rent a kayak for Antelope Canyon by water.",
+    "why": "Desert lake.",
+    "flow": [
+     "Marina.",
+     "Canyon cruise."
+    ],
+    "hours": 3,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Glen Canyon Dam",
+    "kind": "see",
+    "id": "pag-dam",
+    "at": [
+     36.937,
+     -111.484
+    ],
+    "wiki": "Glen Canyon Dam",
+    "area": "Dam",
+    "summary": "Massive dam with a visitor centre and bridge views.",
+    "expect": "Free visitor centre.",
+    "tip": "Walk the bridge.",
+    "why": "Engineering.",
+    "flow": [
+     "Visitor centre.",
+     "Bridge."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Technology",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "The Wave and Coyote Buttes",
+    "kind": "see",
+    "id": "pag-wave",
+    "at": [
+     36.996,
+     -112.006
+    ],
+    "wiki": "The Wave (Arizona)",
+    "area": "Vermilion Cliffs",
+    "summary": "Swirling sandstone formation reached by permit lottery only.",
+    "expect": "Very hard permits.",
+    "tip": "Enter the lottery months ahead.",
+    "why": "Rare wonder.",
+    "flow": [
+     "Permit draw.",
+     "Hike to the Wave."
+    ],
+    "hours": 8,
+    "price": [
+     9,
+     15
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Toadstool Hoodoos",
+    "kind": "see",
+    "id": "pag-toadstool",
+    "at": [
+     37.1,
+     -111.87
+    ],
+    "wiki": "Grand Staircase–Escalante National Monument",
+    "area": "Highway 89",
+    "summary": "Short hike to balanced rock hoodoos.",
+    "expect": "Free.",
+    "tip": "Late afternoon light.",
+    "why": "Easy oddity.",
+    "flow": [
+     "Trail.",
+     "Hoodoos."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Navajo tacos",
+    "kind": "eat",
+    "id": "pag-navajo",
+    "at": [
+     36.915,
+     -111.456
+    ],
+    "wiki": "Navajo taco",
+    "area": "Page",
+    "venue": "food-area",
+    "summary": "Fry bread piled with chili and toppings.",
+    "expect": "Lunch.",
+    "tip": "Share one.",
+    "why": "Local tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Navajo",
+    "order": [
+     "Navajo taco"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Southwestern BBQ",
+    "kind": "eat",
+    "id": "pag-bbq",
+    "at": [
+     36.916,
+     -111.457
+    ],
+    "wiki": "Barbecue in the United States",
+    "area": "Page",
+    "venue": "food-area",
+    "summary": "Smoked brisket and ribs.",
+    "expect": "Evenings.",
+    "tip": "Big Johns is popular.",
+    "why": "Desert dinner.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     18,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "BBQ",
+    "order": [
+     "Brisket"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Mexican food",
+    "kind": "eat",
+    "id": "pag-mexican",
+    "at": [
+     36.914,
+     -111.455
+    ],
+    "wiki": "Mexican cuisine",
+    "area": "Page",
+    "venue": "food-area",
+    "summary": "Tacos and enchiladas.",
+    "expect": "Evenings.",
+    "tip": "Try green chili.",
+    "why": "Border flavours.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Enchiladas"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tip 18 to 20 percent at restaurants. Sales tax is added at the till.",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "monument-valley",
+  "name": "Monument Valley",
+  "at": [
+   36.998,
+   -110.0985
+  ],
+  "wiki": "Monument Valley",
+  "cover": "Monument Valley buttes",
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Red buttes of the American West on Navajo land",
+  "summary": "Monument Valley is a Navajo Tribal Park of towering red sandstone buttes, the backdrop to countless Westerns. Drive the 17-mile Valley Drive, take a Navajo-guided tour to hidden arches, watch sunrise over the Mittens, and stand at Forrest Gump Point on the road in.",
+  "days": 1,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are mild; winter can bring snow on the buttes.",
+  "arrival": "About 2 hours from Page and 6 hours from Las Vegas.",
+  "gettingAround": "A car for the Valley Drive; guided jeep tours for restricted areas.",
+  "foodTip": "Navajo fry bread and mutton stew.",
+  "buyTip": "Navajo silver jewellery and pottery from roadside stalls.",
+  "baseArea": "The View Hotel or Goulding's Lodge",
+  "hotel": [
+   200,
+   400
+  ],
+  "connections": [
+   {
+    "to": "page",
+    "mode": "Car",
+    "minutes": 120,
+    "note": "Highway 98 and 160."
+   },
+   {
+    "to": "moab",
+    "mode": "Car",
+    "minutes": 150,
+    "note": "Highway 191 and 163."
+   }
+  ],
+  "items": [
+   {
+    "name": "Valley Drive",
+    "kind": "see",
+    "id": "mv-drive",
+    "at": [
+     36.983,
+     -110.112
+    ],
+    "wiki": "Monument Valley Navajo Tribal Park",
+    "area": "Tribal Park",
+    "summary": "17-mile dirt loop past the Mittens, Merrick Butte and John Ford's Point.",
+    "expect": "Park fee per vehicle.",
+    "tip": "High-clearance helps after rain.",
+    "why": "Classic Western scenery.",
+    "flow": [
+     "Mittens view.",
+     "John Ford's Point."
+    ],
+    "hours": 3,
+    "price": [
+     8,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Navajo-guided jeep tour",
+    "kind": "see",
+    "id": "mv-tour",
+    "at": [
+     36.985,
+     -110.11
+    ],
+    "wiki": "Navajo Nation",
+    "area": "Tribal Park",
+    "summary": "Guided tour into restricted areas with arches and petroglyphs.",
+    "expect": "Book at the visitor centre.",
+    "tip": "Sunset tours are best.",
+    "why": "Navajo stories.",
+    "flow": [
+     "Restricted area.",
+     "Ear of the Wind arch."
+    ],
+    "hours": 3,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Mittens sunrise",
+    "kind": "see",
+    "id": "mv-sunrise",
+    "at": [
+     36.983,
+     -110.111
+    ],
+    "wiki": "Mitten Buttes",
+    "area": "Visitor centre",
+    "summary": "Sun rising between the East and West Mittens.",
+    "expect": "Free from the visitor centre.",
+    "tip": "Stay at The View for balcony sunrise.",
+    "why": "Unforgettable dawn.",
+    "flow": [
+     "Visitor centre terrace.",
+     "Sunrise."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     8
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Forrest Gump Point",
+    "kind": "see",
+    "id": "mv-forrest",
+    "at": [
+     37.101,
+     -109.99
+    ],
+    "wiki": "Monument Valley",
+    "area": "US-163",
+    "summary": "Long straight road to the buttes where Forrest stopped running.",
+    "expect": "Roadside; watch traffic.",
+    "tip": "Early morning, empty road.",
+    "why": "Famous photo.",
+    "flow": [
+     "Pull-out.",
+     "Photo."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Wildcat Trail",
+    "kind": "see",
+    "id": "mv-wildcat",
+    "at": [
+     36.983,
+     -110.115
+    ],
+    "wiki": "Monument Valley Navajo Tribal Park",
+    "area": "Tribal Park",
+    "summary": "Self-guided 3-mile loop around West Mitten.",
+    "expect": "Hot; bring water.",
+    "tip": "Morning.",
+    "why": "Only solo hike.",
+    "flow": [
+     "Descent.",
+     "Loop around Mitten."
+    ],
+    "hours": 2.5,
+    "price": [
+     8,
+     8
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Goosenecks State Park",
+    "kind": "see",
+    "id": "mv-goosenecks",
+    "at": [
+     37.174,
+     -109.927
+    ],
+    "wiki": "Goosenecks State Park",
+    "area": "Mexican Hat",
+    "summary": "San Juan River's deep winding meanders.",
+    "expect": "Small fee.",
+    "tip": "Combine with Mexican Hat rock.",
+    "why": "Canyon meanders.",
+    "flow": [
+     "Rim view.",
+     "Mexican Hat rock."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Navajo fry bread",
+    "kind": "eat",
+    "id": "mv-frybread",
+    "at": [
+     36.984,
+     -110.112
+    ],
+    "wiki": "Frybread",
+    "area": "Tribal Park",
+    "venue": "food-area",
+    "summary": "Fry bread from Navajo stalls.",
+    "expect": "Daytime.",
+    "tip": "Buy from family stands.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Navajo",
+    "order": [
+     "Fry bread"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "The View Restaurant",
+    "kind": "eat",
+    "id": "mv-view",
+    "at": [
+     36.9832,
+     -110.112
+    ],
+    "wiki": "The View Hotel",
+    "area": "Tribal Park",
+    "venue": "food-area",
+    "summary": "Restaurant facing the Mittens.",
+    "expect": "Dinner.",
+    "tip": "Get a window table at sunset.",
+    "why": "Dinner with a view.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southwestern",
+    "order": [
+     "Navajo taco",
+     "Mutton stew"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Goulding's Stagecoach Restaurant",
+    "kind": "eat",
+    "id": "mv-gouldings",
+    "at": [
+     37.007,
+     -110.203
+    ],
+    "wiki": "Goulding's Lodge",
+    "area": "Goulding's",
+    "venue": "food-area",
+    "summary": "Historic trading post restaurant used by John Ford.",
+    "expect": "Daytime.",
+    "tip": "Visit the museum too.",
+    "why": "Western history.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Burger",
+     "Navajo taco"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Australia",
+  "region": "Oceania",
+  "currency": "AUD",
+  "cashTip": "Cards and tap-to-pay work everywhere, even at markets. Tipping is optional.",
+  "dailyBudget": [
+   200,
+   500
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "darwin",
+  "name": "Darwin and Kakadu",
+  "at": [
+   -12.4634,
+   130.8456
+  ],
+  "wiki": "Darwin, Northern Territory",
+  "cover": "Kakadu National Park",
+  "seasons": "SSSSHHHHHSSS",
+  "tagline": "Tropical frontier city and gateway to Kakadu",
+  "summary": "Darwin is Australia's tropical northern capital, a relaxed harbour city close to some of the country's greatest wilderness. Shop the Mindil Beach sunset market, swim in the croc-free waterholes of Litchfield, see 20,000-year-old rock art and saltwater crocodiles in Kakadu, and learn the city's WWII history.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "The dry season, May to October, is best; wet season brings storms and closes some roads but waterfalls roar.",
+  "arrival": "Darwin International is 15 minutes from the city.",
+  "gettingAround": "Walk the centre; rent a car or 4x4 for Litchfield and Kakadu.",
+  "foodTip": "Barramundi, laksa and market food.",
+  "buyTip": "Aboriginal art from community-owned galleries.",
+  "baseArea": "Darwin CBD or Waterfront",
+  "hotel": [
+   180,
+   400
+  ],
+  "connections": [
+   {
+    "to": "uluru",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Flights via Alice Springs."
+   },
+   {
+    "to": "sydney",
+    "mode": "Flight",
+    "minutes": 270,
+    "note": "Daily flights."
+   },
+   {
+    "to": "cairns",
+    "mode": "Flight",
+    "minutes": 150,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Mindil Beach Sunset Market",
+    "kind": "see",
+    "id": "drw-mindil",
+    "at": [
+     -12.448,
+     130.831
+    ],
+    "wiki": "Mindil Beach",
+    "area": "Mindil Beach",
+    "summary": "Thursday and Sunday market with food stalls and sunset over the sea.",
+    "expect": "Dry season only.",
+    "tip": "Arrive an hour before sunset.",
+    "why": "Darwin ritual.",
+    "flow": [
+     "Stalls.",
+     "Sunset on the sand."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Litchfield National Park",
+    "kind": "see",
+    "id": "drw-litchfield",
+    "at": [
+     -13.16,
+     130.79
+    ],
+    "wiki": "Litchfield National Park",
+    "area": "Litchfield",
+    "summary": "Waterfalls and swimming holes plus magnetic termite mounds.",
+    "expect": "Day trip.",
+    "tip": "Swim at Wangi and Florence Falls.",
+    "why": "Easy wilderness.",
+    "flow": [
+     "Termite mounds.",
+     "Florence Falls.",
+     "Wangi Falls."
+    ],
+    "hours": 9,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kakadu National Park",
+    "kind": "see",
+    "id": "drw-kakadu",
+    "at": [
+     -12.86,
+     132.8
+    ],
+    "wiki": "Kakadu National Park",
+    "area": "Kakadu",
+    "summary": "UNESCO park with Aboriginal rock art at Ubirr and Nourlangie and crocodile cruises on Yellow Water.",
+    "expect": "Park pass required.",
+    "tip": "Stay at least two nights.",
+    "why": "Ancient land.",
+    "flow": [
+     "Ubirr rock art.",
+     "Yellow Water cruise."
+    ],
+    "hours": 48,
+    "price": [
+     40,
+     150
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Museum and Art Gallery of the NT",
+    "kind": "see",
+    "id": "drw-museum",
+    "at": [
+     -12.438,
+     130.834
+    ],
+    "wiki": "Museum and Art Gallery of the Northern Territory",
+    "area": "Fannie Bay",
+    "summary": "Aboriginal art, Cyclone Tracy exhibit and Sweetheart the crocodile.",
+    "expect": "Free.",
+    "tip": "Combine with Mindil.",
+    "why": "Local stories.",
+    "flow": [
+     "Cyclone Tracy room.",
+     "Aboriginal art."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Crocosaurus Cove",
+    "kind": "see",
+    "id": "drw-crocosaurus",
+    "at": [
+     -12.463,
+     130.841
+    ],
+    "wiki": "Crocosaurus Cove",
+    "area": "CBD",
+    "summary": "Swim in a cage beside giant saltwater crocodiles.",
+    "expect": "Paid.",
+    "tip": "Book the Cage of Death.",
+    "why": "Croc close-up.",
+    "flow": [
+     "Croc tanks.",
+     "Cage dive."
+    ],
+    "hours": 2,
+    "price": [
+     40,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Entertainment",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "WWII Oil Tunnels and Darwin Military Museum",
+    "kind": "see",
+    "id": "drw-ww2",
+    "at": [
+     -12.47,
+     130.845
+    ],
+    "wiki": "Darwin Military Museum",
+    "area": "Waterfront",
+    "summary": "History of the 1942 bombing of Darwin.",
+    "expect": "Paid.",
+    "tip": "Do both together.",
+    "why": "Hidden history.",
+    "flow": [
+     "Oil tunnels.",
+     "Military museum."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Waterfront Precinct and Wave Lagoon",
+    "kind": "see",
+    "id": "drw-waterfront",
+    "at": [
+     -12.468,
+     130.847
+    ],
+    "wiki": "Darwin Waterfront",
+    "area": "Waterfront",
+    "summary": "Croc-free swimming lagoon and harbour restaurants.",
+    "expect": "Small fee for wave pool.",
+    "tip": "Cool off in the afternoon.",
+    "why": "Safe swim.",
+    "flow": [
+     "Recreation lagoon.",
+     "Wave pool."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Barramundi",
+    "kind": "eat",
+    "id": "drw-barra",
+    "at": [
+     -12.468,
+     130.846
+    ],
+    "wiki": "Barramundi",
+    "area": "Waterfront",
+    "venue": "food-area",
+    "summary": "Local barra grilled or battered.",
+    "expect": "Dinner.",
+    "tip": "Ask if it's wild-caught.",
+    "why": "Top End fish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Australian",
+    "order": [
+     "Barramundi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Parap Market laksa",
+    "kind": "eat",
+    "id": "drw-laksa",
+    "at": [
+     -12.432,
+     130.842
+    ],
+    "wiki": "Parap Village Market",
+    "area": "Parap",
+    "venue": "food-area",
+    "summary": "Saturday market famous for laksa.",
+    "expect": "Saturday mornings.",
+    "tip": "Go before 10.",
+    "why": "Darwin's favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Malaysian",
+    "order": [
+     "Laksa"
+    ],
+    "veg": "no",
+    "halal": "yes"
+   },
+   {
+    "name": "Mindil market food",
+    "kind": "eat",
+    "id": "drw-mindilfood",
+    "at": [
+     -12.448,
+     130.831
+    ],
+    "wiki": "Mindil Beach",
+    "area": "Mindil Beach",
+    "venue": "food-area",
+    "summary": "Asian and Aussie food stalls by the beach.",
+    "expect": "Market nights.",
+    "tip": "Try satay and mango smoothies.",
+    "why": "Sunset feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Satay",
+     "Mango smoothie"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "New Zealand",
+  "region": "Oceania",
+  "currency": "NZD",
+  "cashTip": "Cards and tap-to-pay work everywhere; tipping isn't expected.",
+  "dailyBudget": [
+   200,
+   500
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "wanaka",
+  "name": "Wanaka",
+  "at": [
+   -44.7031,
+   169.1321
+  ],
+  "wiki": "Wānaka",
+  "cover": "That Wanaka Tree",
+  "seasons": "HHHSSLLSSSHH",
+  "tagline": "Lakeside alpine town, quieter twin of Queenstown",
+  "summary": "Wanaka is a relaxed lakeside town at the edge of Mount Aspiring National Park. Photograph the lone willow in the lake, climb Roys Peak for one of New Zealand's best views, hike to the Rob Roy Glacier, ski at Cardrona and Treble Cone, and fly over to Milford Sound.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   7,
+   8
+  ],
+  "seasonNote": "Summer is for hiking; June to September is ski season.",
+  "arrival": "About 1 hour by car from Queenstown Airport.",
+  "gettingAround": "A car is best; town is walkable.",
+  "foodTip": "Lamb, Central Otago pinot noir and craft beer.",
+  "buyTip": "Merino wool and local wine.",
+  "baseArea": "Wanaka town centre",
+  "hotel": [
+   180,
+   450
+  ],
+  "connections": [
+   {
+    "to": "queenstown",
+    "mode": "Car",
+    "minutes": 60,
+    "note": "Via the Crown Range road."
+   }
+  ],
+  "items": [
+   {
+    "name": "That Wanaka Tree",
+    "kind": "see",
+    "id": "wan-tree",
+    "at": [
+     -44.698,
+     169.119
+    ],
+    "wiki": "That Wānaka Tree",
+    "area": "Lakefront",
+    "summary": "A lone willow growing in the lake, New Zealand's most photographed tree.",
+    "expect": "Free.",
+    "tip": "Sunrise for still water.",
+    "why": "Famous photo.",
+    "flow": [
+     "Lakefront walk.",
+     "Tree."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Roys Peak",
+    "kind": "see",
+    "id": "wan-roys",
+    "at": [
+     -44.698,
+     169.056
+    ],
+    "wiki": "Roys Peak",
+    "area": "Mount Roy",
+    "summary": "Steep 16 km hike to a ridge above Lake Wanaka.",
+    "expect": "Closed for lambing Oct to Nov.",
+    "tip": "Start before dawn.",
+    "why": "The view.",
+    "flow": [
+     "Climb.",
+     "Ridge photo spot.",
+     "Summit."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Rob Roy Glacier Track",
+    "kind": "see",
+    "id": "wan-robroy",
+    "at": [
+     -44.475,
+     168.735
+    ],
+    "wiki": "Mount Aspiring National Park",
+    "area": "Matukituki Valley",
+    "summary": "Valley hike to a hanging glacier with waterfalls.",
+    "expect": "Gravel road with fords.",
+    "tip": "Allow a full day.",
+    "why": "Glacier views.",
+    "flow": [
+     "Swing bridge.",
+     "Glacier lookout."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Puzzling World",
+    "kind": "see",
+    "id": "wan-puzzling",
+    "at": [
+     -44.695,
+     169.16
+    ],
+    "wiki": "Puzzling World",
+    "area": "Edge of town",
+    "summary": "Leaning tower, illusion rooms and a maze.",
+    "expect": "Paid.",
+    "tip": "Rainy day plan.",
+    "why": "Quirky fun.",
+    "flow": [
+     "Illusion rooms.",
+     "Great Maze."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Cardrona Alpine Resort",
+    "kind": "see",
+    "id": "wan-cardrona",
+    "at": [
+     -44.874,
+     168.948
+    ],
+    "wiki": "Cardrona Alpine Resort",
+    "area": "Cardrona",
+    "summary": "Family ski field in winter, mountain biking in summer.",
+    "expect": "Lift passes.",
+    "tip": "Stop at the Cardrona Hotel.",
+    "why": "Snow fun.",
+    "flow": [
+     "Lifts.",
+     "Cardrona Hotel."
+    ],
+    "hours": 6,
+    "price": [
+     100,
+     180
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Milford Sound scenic flight",
+    "kind": "see",
+    "id": "wan-milford",
+    "at": [
+     -44.67,
+     167.925
+    ],
+    "wiki": "Milford Sound",
+    "area": "Fiordland",
+    "summary": "Flight over the Southern Alps to the fiord.",
+    "expect": "Weather dependent.",
+    "tip": "Fly-cruise-fly options.",
+    "why": "Fiordland in a day.",
+    "flow": [
+     "Flight over glaciers.",
+     "Fiord cruise."
+    ],
+    "hours": 4,
+    "price": [
+     450,
+     650
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Mount Iron",
+    "kind": "see",
+    "id": "wan-mtiron",
+    "at": [
+     -44.702,
+     169.17
+    ],
+    "wiki": "Wānaka",
+    "area": "Edge of town",
+    "summary": "Short hike with 360-degree views over the lake.",
+    "expect": "Free.",
+    "tip": "Easy option to Roys.",
+    "why": "Quick summit.",
+    "flow": [
+     "Track.",
+     "Summit."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Central Otago pinot noir",
+    "kind": "eat",
+    "id": "wan-pinot",
+    "at": [
+     -44.72,
+     169.2
+    ],
+    "wiki": "Central Otago wine region",
+    "area": "Rippon",
+    "venue": "food-area",
+    "summary": "Lakeside vineyards like Rippon with famous views.",
+    "expect": "Tastings.",
+    "tip": "Book a tasting.",
+    "why": "World-class wine.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Pinot noir"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "New Zealand lamb",
+    "kind": "eat",
+    "id": "wan-lamb",
+    "at": [
+     -44.703,
+     169.132
+    ],
+    "wiki": "Lamb and mutton",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Slow-cooked or grilled local lamb.",
+    "expect": "Dinner.",
+    "tip": "Pair with pinot.",
+    "why": "Kiwi classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     35,
+     55
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "New Zealand",
+    "order": [
+     "Lamb shank"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Wanaka craft beer",
+    "kind": "eat",
+    "id": "wan-beer",
+    "at": [
+     -44.699,
+     169.14
+    ],
+    "wiki": "Beer in New Zealand",
+    "area": "Town",
+    "venue": "food-area",
+    "summary": "Local breweries and beer gardens.",
+    "expect": "Afternoons.",
+    "tip": "Sit outside by the lake.",
+    "why": "After-hike beer.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted now, but some bars, bakeries and apple-wine taverns are still cash only. Round up tips by about 10 percent.",
+  "dailyBudget": [
+   130,
+   350
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "id": "frankfurt",
+  "name": "Frankfurt",
+  "at": [
+   50.1109,
+   8.6821
+  ],
+  "wiki": "Frankfurt",
+  "cover": "Frankfurt skyline Main river",
+  "seasons": "LLSSHHHHSSSH",
+  "tagline": "Skyscrapers, apple wine and Germany's gateway",
+  "summary": "Frankfurt is Germany's banking capital and biggest air hub, where glass towers rise above a rebuilt medieval core. Stand in the half-timbered Römerberg square, ride up the Main Tower, walk the riverside Museum Embankment, drink apple wine in Sachsenhausen taverns, and take a day trip to the Rhine Valley's castles.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "Summer has riverside festivals; the Christmas market runs late November to December.",
+  "arrival": "Frankfurt Airport is 15 minutes by S-Bahn to the centre.",
+  "gettingAround": "U-Bahn, S-Bahn and trams; the centre is walkable.",
+  "foodTip": "Apple wine, green sauce, Handkäse and Frankfurter sausages.",
+  "buyTip": "Apple wine jugs (Bembel) and Zeil shopping.",
+  "baseArea": "Altstadt, Sachsenhausen or near the Hauptbahnhof",
+  "hotel": [
+   120,
+   300
+  ],
+  "connections": [
+   {
+    "to": "heidelberg",
+    "mode": "Train",
+    "minutes": 55,
+    "note": "Regional and ICE trains."
+   },
+   {
+    "to": "cologne",
+    "mode": "Train",
+    "minutes": 65,
+    "note": "ICE high-speed."
+   },
+   {
+    "to": "munich",
+    "mode": "Train",
+    "minutes": 195,
+    "note": "ICE high-speed."
+   },
+   {
+    "to": "berlin",
+    "mode": "Train",
+    "minutes": 240,
+    "note": "ICE high-speed."
+   }
+  ],
+  "items": [
+   {
+    "name": "Römerberg and the new Altstadt",
+    "kind": "see",
+    "id": "fra-romer",
+    "at": [
+     50.1105,
+     8.6822
+    ],
+    "wiki": "Römerberg",
+    "area": "Altstadt",
+    "summary": "Half-timbered square and rebuilt old town lanes around the town hall.",
+    "expect": "Free.",
+    "tip": "Christmas market in December.",
+    "why": "Old Frankfurt.",
+    "flow": [
+     "Römer.",
+     "New Altstadt lanes."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Main Tower",
+    "kind": "see",
+    "id": "fra-maintower",
+    "at": [
+     50.1125,
+     8.672
+    ],
+    "wiki": "Main Tower",
+    "area": "Bankenviertel",
+    "summary": "Open-air platform 200 metres up among the skyscrapers.",
+    "expect": "Paid; security check.",
+    "tip": "Sunset on a clear day.",
+    "why": "Mainhattan view.",
+    "flow": [
+     "Lift.",
+     "Rooftop deck."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Frankfurt Cathedral",
+    "kind": "see",
+    "id": "fra-dom",
+    "at": [
+     50.1107,
+     8.6855
+    ],
+    "wiki": "Frankfurt Cathedral",
+    "area": "Altstadt",
+    "summary": "Gothic cathedral where emperors were crowned.",
+    "expect": "Tower climb paid.",
+    "tip": "Climb the tower.",
+    "why": "Imperial history.",
+    "flow": [
+     "Nave.",
+     "Tower."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Museumsufer and Städel",
+    "kind": "see",
+    "id": "fra-museum",
+    "at": [
+     50.103,
+     8.674
+    ],
+    "wiki": "Städel",
+    "area": "Sachsenhausen",
+    "summary": "Riverside museum row led by the Städel's old masters and modern art.",
+    "expect": "Paid.",
+    "tip": "Saturday flea market on the bank.",
+    "why": "Great art.",
+    "flow": [
+     "Städel.",
+     "Riverside walk."
+    ],
+    "hours": 3,
+    "price": [
+     16,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Goethe House",
+    "kind": "see",
+    "id": "fra-goethe",
+    "at": [
+     50.1112,
+     8.6779
+    ],
+    "wiki": "Goethe House",
+    "area": "Altstadt",
+    "summary": "Birthplace of Germany's great writer.",
+    "expect": "Paid.",
+    "tip": "Combine with the Romantik museum.",
+    "why": "Literary history.",
+    "flow": [
+     "House.",
+     "Romantik Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Palmengarten",
+    "kind": "see",
+    "id": "fra-palmengarten",
+    "at": [
+     50.123,
+     8.657
+    ],
+    "wiki": "Palmengarten",
+    "area": "Westend",
+    "summary": "Botanical garden with tropical glasshouses.",
+    "expect": "Paid.",
+    "tip": "Good on rainy days.",
+    "why": "Green escape.",
+    "flow": [
+     "Glasshouses.",
+     "Gardens."
+    ],
+    "hours": 2,
+    "price": [
+     8,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Rhine Valley day trip",
+    "kind": "see",
+    "id": "fra-rhine",
+    "at": [
+     50.092,
+     7.804
+    ],
+    "wiki": "Upper Middle Rhine Valley",
+    "area": "Rüdesheim",
+    "summary": "Castles, vineyards and the Lorelei on a Rhine cruise.",
+    "expect": "Train plus boat.",
+    "tip": "Rüdesheim to St Goar by boat.",
+    "why": "Romantic Rhine.",
+    "flow": [
+     "Train to Rüdesheim.",
+     "Boat past the Lorelei."
+    ],
+    "hours": 9,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Apple wine taverns in Sachsenhausen",
+    "kind": "eat",
+    "id": "fra-applewine",
+    "at": [
+     50.103,
+     8.688
+    ],
+    "wiki": "Apfelwein",
+    "area": "Sachsenhausen",
+    "venue": "food-area",
+    "summary": "Cosy taverns pouring tart apple wine from a stoneware Bembel.",
+    "expect": "Evenings.",
+    "tip": "Order a Schoppen and sit at shared tables.",
+    "why": "Frankfurt tradition.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hessian",
+    "order": [
+     "Apple wine",
+     "Schnitzel"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Green sauce",
+    "kind": "eat",
+    "id": "fra-greensauce",
+    "at": [
+     50.11,
+     8.683
+    ],
+    "wiki": "Frankfurter Grüne Soße",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Cold herb sauce with boiled eggs and potatoes.",
+    "expect": "Lunch.",
+    "tip": "Spring is the season.",
+    "why": "Local classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Hessian",
+    "order": [
+     "Grüne Soße"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Kleinmarkthalle",
+    "kind": "eat",
+    "id": "fra-kleinmarkthalle",
+    "at": [
+     50.113,
+     8.684
+    ],
+    "wiki": "Kleinmarkthalle",
+    "area": "Altstadt",
+    "venue": "food-area",
+    "summary": "Market hall with sausage stands and deli counters.",
+    "expect": "Daytime, closed Sunday.",
+    "tip": "Try Frankfurter Würstchen at Schreiber.",
+    "why": "Foodie stop.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "German",
+    "order": [
+     "Frankfurter sausage",
+     "Handkäse"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ }
+]
