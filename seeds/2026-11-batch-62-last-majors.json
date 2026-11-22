@@ -1,0 +1,2263 @@
+[
+ {
+  "country": "Ireland",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards and tap-to-pay work almost everywhere. Tipping 10 percent in restaurants is usual; not in pubs.",
+  "dailyBudget": [
+   150,
+   350
+  ],
+  "cashPerDay": [
+   0,
+   30
+  ],
+  "id": "cork",
+  "name": "Cork",
+  "at": [
+   51.8985,
+   -8.4756
+  ],
+  "wiki": "Cork (city)",
+  "cover": "Cork city River Lee",
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Ireland's food capital and gateway to the south coast",
+  "summary": "Cork is Ireland's lively second city, built on an island in the River Lee and proud of its food. Graze the English Market, ring the Shandon bells, kiss the Blarney Stone, trace the Titanic's last port of call at Cobh, and road-trip west to colourful Kinsale and the wild coast of West Cork.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September is mildest; rain is possible any day.",
+  "arrival": "Cork Airport is 15 minutes from the centre; trains from Dublin take 2.5 hours.",
+  "gettingAround": "Walk the centre; trains to Cobh, buses to Blarney and Kinsale, or rent a car for West Cork.",
+  "foodTip": "Clonakilty black pudding, drisheen, crubeens and Murphy's stout.",
+  "buyTip": "Artisan cheese and smoked fish from the English Market.",
+  "baseArea": "City centre island",
+  "hotel": [
+   140,
+   300
+  ],
+  "connections": [
+   {
+    "to": "dublin",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Hourly trains."
+   },
+   {
+    "to": "killarney",
+    "mode": "Car",
+    "minutes": 90,
+    "note": "N22 road; trains via Mallow."
+   }
+  ],
+  "items": [
+   {
+    "name": "English Market",
+    "kind": "see",
+    "id": "crk-market",
+    "at": [
+     51.8975,
+     -8.4747
+    ],
+    "wiki": "English Market",
+    "area": "City centre",
+    "summary": "Covered food market dating from 1788 with butchers, fishmongers and cheese stalls.",
+    "expect": "Closed Sunday.",
+    "tip": "Lunch upstairs at the Farmgate.",
+    "why": "Food capital heart.",
+    "flow": [
+     "Stalls.",
+     "Farmgate café."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Shandon Bells and St Anne's",
+    "kind": "see",
+    "id": "crk-shandon",
+    "at": [
+     51.903,
+     -8.477
+    ],
+    "wiki": "St Anne's Church, Shandon",
+    "area": "Shandon",
+    "summary": "Climb the tower and ring the famous bells yourself.",
+    "expect": "Paid.",
+    "tip": "Look for the 'four-faced liar' clocks.",
+    "why": "Play the bells.",
+    "flow": [
+     "Bell ringing.",
+     "Tower view."
+    ],
+    "hours": 1,
+    "price": [
+     6,
+     8
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Blarney Castle",
+    "kind": "see",
+    "id": "crk-blarney",
+    "at": [
+     51.9291,
+     -8.5709
+    ],
+    "wiki": "Blarney Castle",
+    "area": "Blarney",
+    "summary": "Castle where you lean backwards to kiss the Stone of Eloquence.",
+    "expect": "Paid; queues in summer.",
+    "tip": "Arrive at opening and explore the poison garden.",
+    "why": "Irish legend.",
+    "flow": [
+     "Kiss the stone.",
+     "Gardens."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cobh and the Titanic Experience",
+    "kind": "see",
+    "id": "crk-cobh",
+    "at": [
+     51.851,
+     -8.2967
+    ],
+    "wiki": "Cobh",
+    "area": "Cobh",
+    "summary": "Harbour town that was the Titanic's last port of call.",
+    "expect": "Train from Cork.",
+    "tip": "Climb to St Colman's Cathedral.",
+    "why": "Emigration history.",
+    "flow": [
+     "Titanic Experience.",
+     "Deck of Cards houses."
+    ],
+    "hours": 4,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Cork City Gaol",
+    "kind": "see",
+    "id": "crk-gaol",
+    "at": [
+     51.899,
+     -8.501
+    ],
+    "wiki": "Cork City Gaol",
+    "area": "Sunday's Well",
+    "summary": "Castle-like 19th-century prison with wax figures.",
+    "expect": "Paid.",
+    "tip": "Audio guide is good.",
+    "why": "Spooky history.",
+    "flow": [
+     "Cells.",
+     "Radio museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Kinsale",
+    "kind": "see",
+    "id": "crk-kinsale",
+    "at": [
+     51.7059,
+     -8.5222
+    ],
+    "wiki": "Kinsale",
+    "area": "Kinsale",
+    "summary": "Colourful harbour town with Charles Fort and seafood restaurants.",
+    "expect": "Bus or car.",
+    "tip": "Walk the Scilly Walk to Charles Fort.",
+    "why": "Pretty harbour.",
+    "flow": [
+     "Harbour.",
+     "Charles Fort."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Spike Island",
+    "kind": "see",
+    "id": "crk-spike",
+    "at": [
+     51.835,
+     -8.285
+    ],
+    "wiki": "Spike Island, County Cork",
+    "area": "Cork Harbour",
+    "summary": "Fortress island once Ireland's Alcatraz.",
+    "expect": "Ferry from Cobh.",
+    "tip": "Book ahead in summer.",
+    "why": "Island prison.",
+    "flow": [
+     "Ferry.",
+     "Fort tour."
+    ],
+    "hours": 4,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Clonakilty black pudding",
+    "kind": "eat",
+    "id": "crk-blackpudding",
+    "at": [
+     51.898,
+     -8.475
+    ],
+    "wiki": "Black pudding",
+    "area": "City centre",
+    "venue": "food-area",
+    "summary": "West Cork's famous pudding in a full Irish breakfast.",
+    "expect": "Mornings.",
+    "tip": "Try white pudding too.",
+    "why": "Cork breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Irish",
+    "order": [
+     "Full Irish"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Murphy's and trad music",
+    "kind": "eat",
+    "id": "crk-pub",
+    "at": [
+     51.899,
+     -8.473
+    ],
+    "wiki": "Murphy's Irish Stout",
+    "area": "City centre",
+    "venue": "food-area",
+    "summary": "Cork's own stout with live trad sessions.",
+    "expect": "Evenings.",
+    "tip": "Sin É pub for music.",
+    "why": "Pub culture.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     6,
+     12
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Murphy's stout"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Kinsale seafood",
+    "kind": "eat",
+    "id": "crk-seafood",
+    "at": [
+     51.706,
+     -8.522
+    ],
+    "wiki": "Kinsale",
+    "area": "Kinsale",
+    "venue": "food-area",
+    "summary": "Chowder, oysters and fish in Ireland's gourmet capital.",
+    "expect": "Lunch or dinner.",
+    "tip": "Fishy Fishy is famous.",
+    "why": "Coastal feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     45
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Seafood chowder",
+     "Oysters"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix work almost everywhere; carry a little cash for street food.",
+  "dailyBudget": [
+   300,
+   900
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "id": "brasilia",
+  "name": "Brasília",
+  "at": [
+   -15.7939,
+   -47.8828
+  ],
+  "wiki": "Brasília",
+  "cover": "Cathedral of Brasília",
+  "seasons": "SSSSHHHHSSSS",
+  "tagline": "A modernist capital shaped like an aeroplane",
+  "summary": "Brasília is Brazil's purpose-built capital, a UNESCO-listed showcase of Oscar Niemeyer's futuristic architecture. Walk the Monumental Axis past the crown-shaped cathedral and the twin towers of Congress, see the blue stained glass of Dom Bosco Sanctuary, and watch sunset over Lake Paranoá from the JK Bridge.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September is dry and sunny; October to April brings afternoon storms.",
+  "arrival": "Brasília International is 20 minutes from the centre.",
+  "gettingAround": "Uber is best; distances are long and built for cars.",
+  "foodTip": "Pequi, Goiás cheese bread and churrasco.",
+  "buyTip": "Crafts at the TV Tower fair.",
+  "baseArea": "Hotel sectors north or south",
+  "hotel": [
+   250,
+   600
+  ],
+  "connections": [
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "sao-paulo",
+    "mode": "Flight",
+    "minutes": 100,
+    "note": "Many daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cathedral of Brasília",
+    "kind": "see",
+    "id": "bsb-cathedral",
+    "at": [
+     -15.7983,
+     -47.8754
+    ],
+    "wiki": "Cathedral of Brasília",
+    "area": "Monumental Axis",
+    "summary": "Niemeyer's crown of concrete ribs with angels hanging inside.",
+    "expect": "Free.",
+    "tip": "Midday light through the glass.",
+    "why": "Modernist icon.",
+    "flow": [
+     "Entrance tunnel.",
+     "Nave."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Midday",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "National Congress and Three Powers Square",
+    "kind": "see",
+    "id": "bsb-congress",
+    "at": [
+     -15.7998,
+     -47.8645
+    ],
+    "wiki": "National Congress of Brazil",
+    "area": "Esplanada",
+    "summary": "Twin towers and bowls of Congress beside the presidential palace.",
+    "expect": "Free guided tours.",
+    "tip": "Weekend tours.",
+    "why": "Seat of power.",
+    "flow": [
+     "Congress tour.",
+     "Planalto Palace."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Dom Bosco Sanctuary",
+    "kind": "see",
+    "id": "bsb-dombosco",
+    "at": [
+     -15.8142,
+     -47.8963
+    ],
+    "wiki": "Dom Bosco Sanctuary",
+    "area": "Asa Sul",
+    "summary": "Church walled in 80 shades of blue stained glass.",
+    "expect": "Free.",
+    "tip": "Late afternoon glow.",
+    "why": "Breathtaking blue.",
+    "flow": [
+     "Nave.",
+     "Chandelier."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "JK Bridge",
+    "kind": "see",
+    "id": "bsb-jk",
+    "at": [
+     -15.822,
+     -47.831
+    ],
+    "wiki": "Juscelino Kubitschek bridge",
+    "area": "Lake Paranoá",
+    "summary": "Bridge of three leaping steel arches over the lake.",
+    "expect": "Free.",
+    "tip": "Sunset.",
+    "why": "Engineering beauty.",
+    "flow": [
+     "Viewpoint.",
+     "Lake walk."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "TV Tower and craft fair",
+    "kind": "see",
+    "id": "bsb-tvtower",
+    "at": [
+     -15.7905,
+     -47.8925
+    ],
+    "wiki": "Brasília TV Tower",
+    "area": "Monumental Axis",
+    "summary": "Free observation deck over the city plan; weekend market below.",
+    "expect": "Free.",
+    "tip": "Weekends for the fair.",
+    "why": "See the plan.",
+    "flow": [
+     "Deck.",
+     "Fair."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Itamaraty Palace",
+    "kind": "see",
+    "id": "bsb-itamaraty",
+    "at": [
+     -15.8001,
+     -47.8687
+    ],
+    "wiki": "Itamaraty Palace",
+    "area": "Esplanada",
+    "summary": "Foreign ministry with floating arches over a water garden.",
+    "expect": "Free guided tours.",
+    "tip": "Book online.",
+    "why": "Elegant modernism.",
+    "flow": [
+     "Water garden.",
+     "Interiors."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "Chapada dos Veadeiros",
+    "kind": "see",
+    "id": "bsb-chapada",
+    "at": [
+     -14.13,
+     -47.51
+    ],
+    "wiki": "Chapada dos Veadeiros National Park",
+    "area": "Goiás",
+    "summary": "Canyons, waterfalls and crystal plateau 3 hours north.",
+    "expect": "Overnight trip.",
+    "tip": "Visit the Valley of the Moon.",
+    "why": "Wild cerrado.",
+    "flow": [
+     "Waterfalls.",
+     "Valley of the Moon."
+    ],
+    "hours": 36,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Pão de queijo",
+    "kind": "eat",
+    "id": "bsb-paodequeijo",
+    "at": [
+     -15.794,
+     -47.883
+    ],
+    "wiki": "Pão de queijo",
+    "area": "Everywhere",
+    "venue": "food-area",
+    "summary": "Warm cheese bread rolls.",
+    "expect": "Breakfast.",
+    "tip": "Pair with coffee.",
+    "why": "Brazilian snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Pão de queijo"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Pequi rice and Goiás food",
+    "kind": "eat",
+    "id": "bsb-pequi",
+    "at": [
+     -15.81,
+     -47.89
+    ],
+    "wiki": "Pequi",
+    "area": "Asa Sul",
+    "venue": "food-area",
+    "summary": "Cerrado fruit with a strong flavour in rice and chicken.",
+    "expect": "Lunch.",
+    "tip": "Don't bite the spiny pit.",
+    "why": "Regional taste.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     35,
+     70
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Arroz com pequi"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Churrascaria",
+    "kind": "eat",
+    "id": "bsb-churrasco",
+    "at": [
+     -15.805,
+     -47.885
+    ],
+    "wiki": "Churrasco",
+    "area": "Asa Sul",
+    "venue": "food-area",
+    "summary": "All-you-can-eat grilled meats.",
+    "expect": "Dinner.",
+    "tip": "Flip the card to green.",
+    "why": "Meat feast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 2,
+    "price": [
+     100,
+     180
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Picanha"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Paraguay",
+  "region": "South America",
+  "currency": "USD",
+  "cashTip": "Paraguay uses the guaraní (about 7,500 to 1 US dollar); prices here are in US dollars. Cards work in malls and restaurants; carry guaraníes for buses and markets.",
+  "dailyBudget": [
+   50,
+   160
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "id": "asuncion",
+  "name": "Asunción",
+  "at": [
+   -25.2637,
+   -57.5759
+  ],
+  "wiki": "Asunción",
+  "cover": "Palacio de los López Asunción",
+  "seasons": "SSSSHHHHSSSS",
+  "tagline": "One of South America's oldest cities on the Paraguay River",
+  "summary": "Asunción is Paraguay's laid-back capital and one of the continent's oldest cities. See the riverside Palacio de los López and the Pantheon of Heroes, wander colonial Loma San Jerónimo, sip tereré in the plazas, and take a day trip to the Jesuit ruins and the lace-making town of Itauguá.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September is mild; summer is very hot.",
+  "arrival": "Silvio Pettirossi International is 30 minutes from the centre.",
+  "gettingAround": "Uber and Bolt; buses are cheap but slow.",
+  "foodTip": "Chipa, sopa paraguaya, mbejú and tereré.",
+  "buyTip": "Ñandutí spider-web lace and leather.",
+  "baseArea": "Centro or Villa Morra",
+  "hotel": [
+   50,
+   150
+  ],
+  "connections": [
+   {
+    "to": "buenos-aires",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Daily flights."
+   },
+   {
+    "to": "puerto-iguazu",
+    "mode": "Bus",
+    "minutes": 330,
+    "note": "Bus to Ciudad del Este, then across."
+   }
+  ],
+  "items": [
+   {
+    "name": "Palacio de los López",
+    "kind": "see",
+    "id": "asu-palacio",
+    "at": [
+     -25.281,
+     -57.638
+    ],
+    "wiki": "Palacio de los López",
+    "area": "Centro",
+    "summary": "Riverside presidential palace lit up at night.",
+    "expect": "View from outside.",
+    "tip": "Come at dusk.",
+    "why": "Postcard building.",
+    "flow": [
+     "Palace.",
+     "Riverfront."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Pantheon of Heroes",
+    "kind": "see",
+    "id": "asu-panteon",
+    "at": [
+     -25.283,
+     -57.636
+    ],
+    "wiki": "National Pantheon of the Heroes",
+    "area": "Centro",
+    "summary": "Domed mausoleum of national heroes with a changing of the guard.",
+    "expect": "Free.",
+    "tip": "Watch the guard.",
+    "why": "National memory.",
+    "flow": [
+     "Tombs.",
+     "Guard."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Loma San Jerónimo",
+    "kind": "see",
+    "id": "asu-loma",
+    "at": [
+     -25.278,
+     -57.642
+    ],
+    "wiki": "Loma San Jerónimo",
+    "area": "Centro",
+    "summary": "Colourful hilltop barrio with painted stairs.",
+    "expect": "Free; go with a guide.",
+    "tip": "Daytime visit.",
+    "why": "Local colour.",
+    "flow": [
+     "Stairs.",
+     "Viewpoint."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Casa de la Independencia",
+    "kind": "see",
+    "id": "asu-casa",
+    "at": [
+     -25.282,
+     -57.634
+    ],
+    "wiki": "Casa de la Independencia",
+    "area": "Centro",
+    "summary": "Colonial house where independence was planned in 1811.",
+    "expect": "Free.",
+    "tip": "Short visit.",
+    "why": "Birth of the nation.",
+    "flow": [
+     "Rooms.",
+     "Patio."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Costanera",
+    "kind": "see",
+    "id": "asu-costanera",
+    "at": [
+     -25.277,
+     -57.63
+    ],
+    "wiki": "Asunción",
+    "area": "Riverfront",
+    "summary": "Riverside promenade for sunset walks.",
+    "expect": "Free.",
+    "tip": "Evenings when locals stroll.",
+    "why": "River sunset.",
+    "flow": [
+     "Promenade.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Jesuit missions of Trinidad and Jesús",
+    "kind": "see",
+    "id": "asu-trinidad",
+    "at": [
+     -27.13,
+     -55.7
+    ],
+    "wiki": "Jesuit Missions of La Santísima Trinidad de Paraná and Jesús de Tavarangue",
+    "area": "Itapúa",
+    "summary": "UNESCO ruins of 18th-century Guaraní missions.",
+    "expect": "Long trip; stay in Encarnación.",
+    "tip": "Night light show at Trinidad.",
+    "why": "Jesuit legacy.",
+    "flow": [
+     "Trinidad ruins.",
+     "Jesús ruins."
+    ],
+    "hours": 36,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Itauguá lace town",
+    "kind": "see",
+    "id": "asu-itaugua",
+    "at": [
+     -25.392,
+     -57.355
+    ],
+    "wiki": "Itauguá",
+    "area": "Itauguá",
+    "summary": "Town famous for ñandutí lace.",
+    "expect": "Short bus ride.",
+    "tip": "Buy direct from makers.",
+    "why": "Craft trip.",
+    "flow": [
+     "Market.",
+     "Workshops."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Chipa",
+    "kind": "eat",
+    "id": "asu-chipa",
+    "at": [
+     -25.283,
+     -57.635
+    ],
+    "wiki": "Chipa (food)",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Cheesy cassava bread rings sold everywhere.",
+    "expect": "Mornings.",
+    "tip": "Buy warm.",
+    "why": "National snack.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     2
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Paraguayan",
+    "order": [
+     "Chipa"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Sopa paraguaya",
+    "kind": "eat",
+    "id": "asu-sopa",
+    "at": [
+     -25.29,
+     -57.6
+    ],
+    "wiki": "Sopa paraguaya",
+    "area": "Villa Morra",
+    "venue": "food-area",
+    "summary": "A solid corn bread, the world's only 'solid soup'.",
+    "expect": "Lunch.",
+    "tip": "Try with asado.",
+    "why": "Local quirk.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     12
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Paraguayan",
+    "order": [
+     "Sopa paraguaya",
+     "Asado"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Tereré",
+    "kind": "eat",
+    "id": "asu-terere",
+    "at": [
+     -25.284,
+     -57.637
+    ],
+    "wiki": "Tereré",
+    "area": "Plazas",
+    "venue": "food-area",
+    "summary": "Iced yerba mate with herbs, shared from a guampa.",
+    "expect": "All day.",
+    "tip": "Buy herbs from street sellers.",
+    "why": "Social ritual.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Tereré"
+    ],
+    "veg": "yes",
+    "halal": "yes"
+   }
+  ]
+ },
+ {
+  "country": "Peru",
+  "region": "South America",
+  "currency": "PEN",
+  "cashTip": "Carry soles; boats and lodges in the Amazon often want cash in advance.",
+  "dailyBudget": [
+   150,
+   450
+  ],
+  "cashPerDay": [
+   40,
+   120
+  ],
+  "id": "iquitos",
+  "name": "Iquitos",
+  "at": [
+   -3.7491,
+   -73.2538
+  ],
+  "wiki": "Iquitos",
+  "cover": "Iquitos Amazon river",
+  "seasons": "SSSSSHHHHSSS",
+  "tagline": "The largest city you can't reach by road",
+  "summary": "Iquitos is a riverside Amazon city reachable only by plane or boat. Explore the floating Belén market and stilt houses, see Gustave Eiffel's Iron House, visit the Pacaya-Samiria reserve for pink dolphins and giant water lilies, and stay in a jungle lodge on the Amazon.",
+  "days": 4,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "seasonNote": "High water December to May lets boats go deeper into flooded forest; low water June to November is better for trails.",
+  "arrival": "Flights from Lima take 1 hour 45 minutes.",
+  "gettingAround": "Motocarros in town; boats for the river.",
+  "foodTip": "Juane, tacacho with cecina, and grilled paiche.",
+  "buyTip": "Shipibo textiles and Amazon crafts.",
+  "baseArea": "Near the Malecón",
+  "hotel": [
+   100,
+   300
+  ],
+  "connections": [
+   {
+    "to": "lima",
+    "mode": "Flight",
+    "minutes": 105,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Belén market and floating village",
+    "kind": "see",
+    "id": "iqt-belen",
+    "at": [
+     -3.76,
+     -73.248
+    ],
+    "wiki": "Belén, Iquitos",
+    "area": "Belén",
+    "summary": "Chaotic market of jungle produce and a stilt and floating neighbourhood.",
+    "expect": "Go with a guide.",
+    "tip": "Canoe ride at high water.",
+    "why": "Amazon life.",
+    "flow": [
+     "Market.",
+     "Canoe through Belén."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Malecón Tarapacá",
+    "kind": "see",
+    "id": "iqt-malecon",
+    "at": [
+     -3.748,
+     -73.244
+    ],
+    "wiki": "Iquitos",
+    "area": "Centro",
+    "summary": "Riverfront boardwalk with rubber-boom tiled mansions.",
+    "expect": "Free.",
+    "tip": "Sunset over the river.",
+    "why": "Boom-era city.",
+    "flow": [
+     "Boardwalk.",
+     "Tiled mansions."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Iron House",
+    "kind": "see",
+    "id": "iqt-ironhouse",
+    "at": [
+     -3.7486,
+     -73.2457
+    ],
+    "wiki": "Casa de Fierro",
+    "area": "Plaza de Armas",
+    "summary": "Prefabricated metal house attributed to Gustave Eiffel.",
+    "expect": "View outside.",
+    "tip": "Café upstairs.",
+    "why": "Boom oddity.",
+    "flow": [
+     "Plaza.",
+     "House."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Amazon jungle lodge",
+    "kind": "see",
+    "id": "iqt-lodge",
+    "at": [
+     -3.4,
+     -72.9
+    ],
+    "wiki": "Amazon rainforest",
+    "area": "Amazon River",
+    "summary": "Multi-day stay with jungle walks, night canoe trips and piranha fishing.",
+    "expect": "Book packages.",
+    "tip": "Pick a lodge far from town.",
+    "why": "Deep jungle.",
+    "flow": [
+     "Boat to lodge.",
+     "Jungle walks.",
+     "Night canoe."
+    ],
+    "hours": 72,
+    "price": [
+     400,
+     1200
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Pacaya-Samiria Reserve",
+    "kind": "see",
+    "id": "iqt-pacaya",
+    "at": [
+     -4.8,
+     -74.5
+    ],
+    "wiki": "Pacaya-Samiria National Reserve",
+    "area": "Pacaya-Samiria",
+    "summary": "Huge flooded-forest reserve with pink dolphins and macaws.",
+    "expect": "Multi-day trip or cruise.",
+    "tip": "Go with a licensed operator.",
+    "why": "Wild Amazon.",
+    "flow": [
+     "River cruise.",
+     "Dolphin watching."
+    ],
+    "hours": 96,
+    "price": [
+     600,
+     2500
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Amazon Rescue Center",
+    "kind": "see",
+    "id": "iqt-manatee",
+    "at": [
+     -3.815,
+     -73.326
+    ],
+    "wiki": "Iquitos",
+    "area": "Road to Nauta",
+    "summary": "Rehabilitation centre for orphaned manatees.",
+    "expect": "Paid.",
+    "tip": "Feeding time.",
+    "why": "Gentle giants.",
+    "flow": [
+     "Manatees.",
+     "Animals."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Pilpintuwasi Butterfly Farm",
+    "kind": "see",
+    "id": "iqt-butterfly",
+    "at": [
+     -3.71,
+     -73.23
+    ],
+    "wiki": "Iquitos",
+    "area": "Padre Cocha",
+    "summary": "Butterfly farm and animal orphanage reached by boat.",
+    "expect": "Paid.",
+    "tip": "Boat from Bellavista Nanay.",
+    "why": "Butterflies and monkeys.",
+    "flow": [
+     "Boat.",
+     "Butterfly house."
+    ],
+    "hours": 3,
+    "price": [
+     25,
+     35
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Juane",
+    "kind": "eat",
+    "id": "iqt-juane",
+    "at": [
+     -3.749,
+     -73.253
+    ],
+    "wiki": "Juane",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Rice, chicken and egg wrapped in bijao leaves, eaten for San Juan.",
+    "expect": "Lunch.",
+    "tip": "Ask for ají de cocona.",
+    "why": "Jungle classic.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Amazonian",
+    "order": [
+     "Juane"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Tacacho con cecina",
+    "kind": "eat",
+    "id": "iqt-tacacho",
+    "at": [
+     -3.748,
+     -73.252
+    ],
+    "wiki": "Tacacho",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Mashed green plantain with smoked pork.",
+    "expect": "Breakfast.",
+    "tip": "Pair with camu camu juice.",
+    "why": "Amazon breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Amazonian",
+    "order": [
+     "Tacacho"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Grilled paiche",
+    "kind": "eat",
+    "id": "iqt-paiche",
+    "at": [
+     -3.747,
+     -73.244
+    ],
+    "wiki": "Arapaima",
+    "area": "Malecón",
+    "venue": "food-area",
+    "summary": "Giant Amazon fish grilled or in ceviche.",
+    "expect": "Dinner.",
+    "tip": "Ask for farmed paiche.",
+    "why": "River fish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     50
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Amazonian",
+    "order": [
+     "Paiche"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Ecuador",
+  "region": "South America",
+  "currency": "USD",
+  "cashTip": "Ecuador uses the US dollar. Carry small bills; change for 20s can be hard.",
+  "dailyBudget": [
+   60,
+   200
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "id": "guayaquil",
+  "name": "Guayaquil",
+  "at": [
+   -2.1894,
+   -79.8891
+  ],
+  "wiki": "Guayaquil",
+  "cover": "Malecón 2000 Guayaquil",
+  "seasons": "HHHHSSSSSSSH",
+  "tagline": "Ecuador's port city and gateway to the Galápagos",
+  "summary": "Guayaquil is Ecuador's largest city and main gateway to the Galápagos. Walk the riverside Malecón 2000, climb the 444 steps of Las Peñas to the lighthouse, see the iguanas lounging in Seminario Park, and eat encebollado and crab before your flight to the islands.",
+  "days": 2,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "June to November is dry and cooler; January to April is hot and rainy.",
+  "arrival": "José Joaquín de Olmedo airport is 10 minutes from the centre.",
+  "gettingAround": "Uber and taxis; the Metrovía bus covers the centre.",
+  "foodTip": "Encebollado, crab (cangrejo), bolón and ceviche.",
+  "buyTip": "Panama hats (made in Ecuador) and chocolate.",
+  "baseArea": "Centro near the Malecón or Samborondón",
+  "hotel": [
+   60,
+   180
+  ],
+  "connections": [
+   {
+    "to": "galapagos",
+    "mode": "Flight",
+    "minutes": 110,
+    "note": "Daily flights."
+   },
+   {
+    "to": "quito",
+    "mode": "Flight",
+    "minutes": 55,
+    "note": "Many daily flights."
+   },
+   {
+    "to": "cuenca",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Through Cajas National Park."
+   }
+  ],
+  "items": [
+   {
+    "name": "Malecón 2000",
+    "kind": "see",
+    "id": "gye-malecon",
+    "at": [
+     -2.192,
+     -79.879
+    ],
+    "wiki": "Malecón 2000",
+    "area": "Centro",
+    "summary": "2.5 km riverside promenade with gardens, museums and the Moorish clock tower.",
+    "expect": "Free.",
+    "tip": "Evening is coolest.",
+    "why": "City showpiece.",
+    "flow": [
+     "Clock tower.",
+     "Gardens."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Las Peñas and Cerro Santa Ana",
+    "kind": "see",
+    "id": "gye-penas",
+    "at": [
+     -2.181,
+     -79.877
+    ],
+    "wiki": "Las Peñas",
+    "area": "Las Peñas",
+    "summary": "Climb 444 numbered steps through a colourful old quarter to a lighthouse.",
+    "expect": "Free.",
+    "tip": "Sunset at the top.",
+    "why": "Best view.",
+    "flow": [
+     "Steps.",
+     "Lighthouse."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Seminario Park iguanas",
+    "kind": "see",
+    "id": "gye-iguanas",
+    "at": [
+     -2.196,
+     -79.884
+    ],
+    "wiki": "Seminario Park",
+    "area": "Centro",
+    "summary": "Dozens of land iguanas lounging under trees by the cathedral.",
+    "expect": "Free.",
+    "tip": "Don't feed them.",
+    "why": "Fun surprise.",
+    "flow": [
+     "Iguanas.",
+     "Cathedral."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "MAAC museum",
+    "kind": "see",
+    "id": "gye-maac",
+    "at": [
+     -2.188,
+     -79.877
+    ],
+    "wiki": "Museo Antropológico y de Arte Contemporáneo",
+    "area": "Malecón",
+    "summary": "Pre-Columbian ceramics and contemporary art.",
+    "expect": "Free.",
+    "tip": "Combine with the Malecón.",
+    "why": "Ancient Ecuador.",
+    "flow": [
+     "Archaeology.",
+     "Modern art."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Parque Histórico",
+    "kind": "see",
+    "id": "gye-historico",
+    "at": [
+     -2.146,
+     -79.87
+    ],
+    "wiki": "Parque Histórico Guayaquil",
+    "area": "Samborondón",
+    "summary": "Wildlife, old houses and plantation life in one park.",
+    "expect": "Free.",
+    "tip": "Morning.",
+    "why": "Easy nature.",
+    "flow": [
+     "Wildlife zone.",
+     "Old town zone."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Cajas National Park",
+    "kind": "see",
+    "id": "gye-cajas",
+    "at": [
+     -2.78,
+     -79.22
+    ],
+    "wiki": "Cajas National Park",
+    "area": "Cuenca road",
+    "summary": "Highland lakes and páramo on the road to Cuenca.",
+    "expect": "Cold and high.",
+    "tip": "Stop on the way to Cuenca.",
+    "why": "Andean scenery.",
+    "flow": [
+     "Lakes.",
+     "Short trail."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Salinas beaches",
+    "kind": "see",
+    "id": "gye-salinas",
+    "at": [
+     -2.214,
+     -80.958
+    ],
+    "wiki": "Salinas, Ecuador",
+    "area": "Coast",
+    "summary": "Beach resort with whale watching in season.",
+    "expect": "Long drive.",
+    "tip": "June to September for humpbacks.",
+    "why": "Coast escape.",
+    "flow": [
+     "Beach.",
+     "Whale tour."
+    ],
+    "hours": 10,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Full day",
+    "p": 3,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Encebollado",
+    "kind": "eat",
+    "id": "gye-encebollado",
+    "at": [
+     -2.19,
+     -79.885
+    ],
+    "wiki": "Encebollado",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Tuna and cassava soup with pickled onions, the hangover cure.",
+    "expect": "Breakfast.",
+    "tip": "Add chifles and lime.",
+    "why": "National favourite.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Encebollado"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Crab feast",
+    "kind": "eat",
+    "id": "gye-cangrejo",
+    "at": [
+     -2.17,
+     -79.9
+    ],
+    "wiki": "Crab",
+    "area": "Urdesa",
+    "venue": "food-area",
+    "summary": "Whole crabs cracked with a wooden mallet.",
+    "expect": "Dinner.",
+    "tip": "Try a cangrejal.",
+    "why": "Messy fun.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Cangrejo criollo"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Bolón de verde",
+    "kind": "eat",
+    "id": "gye-bolon",
+    "at": [
+     -2.189,
+     -79.888
+    ],
+    "wiki": "Bolón de verde",
+    "area": "Centro",
+    "venue": "food-area",
+    "summary": "Green plantain ball with cheese or pork.",
+    "expect": "Breakfast.",
+    "tip": "Pair with coffee.",
+    "why": "Coastal breakfast.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Bolón"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Colombia",
+  "region": "South America",
+  "currency": "COP",
+  "cashTip": "Cards work in hotels; carry pesos for golf carts, boat trips and beach food. A tourist entry card is charged on arrival.",
+  "dailyBudget": [
+   250000,
+   700000
+  ],
+  "cashPerDay": [
+   60000,
+   150000
+  ],
+  "id": "san-andres",
+  "name": "San Andrés",
+  "at": [
+   12.5847,
+   -81.7006
+  ],
+  "wiki": "San Andrés (island)",
+  "cover": "San Andrés island Colombia",
+  "seasons": "HHHHSSSHSSSH",
+  "tagline": "The sea of seven colours",
+  "summary": "San Andrés is a Caribbean island belonging to Colombia, closer to Nicaragua, with English-speaking Raizal culture. Snorkel the 'sea of seven colours', boat to Johnny Cay and the Acuario, ride a golf cart around the island, and take a hop to quieter Providencia.",
+  "days": 4,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   4,
+   7
+  ],
+  "seasonNote": "January to April is driest; hurricane risk September to November.",
+  "arrival": "Flights from Bogotá, Medellín and Cartagena; a tourist card is paid on arrival.",
+  "gettingAround": "Golf carts, scooters and buses around the island.",
+  "foodTip": "Rondón stew, crab and fried fish with coconut rice.",
+  "buyTip": "Duty-free shopping and coconut crafts.",
+  "baseArea": "North End (town) or San Luis",
+  "hotel": [
+   200000,
+   700000
+  ],
+  "connections": [
+   {
+    "to": "bogota",
+    "mode": "Flight",
+    "minutes": 120,
+    "note": "Daily flights."
+   },
+   {
+    "to": "cartagena",
+    "mode": "Flight",
+    "minutes": 90,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Johnny Cay",
+    "kind": "see",
+    "id": "sad-johnny",
+    "at": [
+     12.602,
+     -81.69
+    ],
+    "wiki": "Johnny Cay",
+    "area": "Off North End",
+    "summary": "Palm-covered islet with reggae beach bars.",
+    "expect": "Boat and park fee.",
+    "tip": "Go early.",
+    "why": "Caribbean postcard.",
+    "flow": [
+     "Boat.",
+     "Beach."
+    ],
+    "hours": 4,
+    "price": [
+     60000,
+     90000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Acuario and Haynes Cay",
+    "kind": "see",
+    "id": "sad-acuario",
+    "at": [
+     12.549,
+     -81.683
+    ],
+    "wiki": "San Andrés",
+    "area": "East coast",
+    "summary": "Shallow sandbar where you wade with stingrays between cays.",
+    "expect": "Boat tour.",
+    "tip": "Bring water shoes.",
+    "why": "Stingrays.",
+    "flow": [
+     "Acuario.",
+     "Haynes Cay."
+    ],
+    "hours": 4,
+    "price": [
+     50000,
+     80000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Golf cart round-island drive",
+    "kind": "see",
+    "id": "sad-golf",
+    "at": [
+     12.53,
+     -81.72
+    ],
+    "wiki": "San Andrés",
+    "area": "Ring road",
+    "summary": "30 km loop by golf cart past beaches and blowholes.",
+    "expect": "Rental per day.",
+    "tip": "Stop at the Hoyo Soplador blowhole.",
+    "why": "Island freedom.",
+    "flow": [
+     "Blowhole.",
+     "West View."
+    ],
+    "hours": 5,
+    "price": [
+     150000,
+     250000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "West View",
+    "kind": "see",
+    "id": "sad-westview",
+    "at": [
+     12.539,
+     -81.728
+    ],
+    "wiki": "San Andrés",
+    "area": "West coast",
+    "summary": "Snorkel spot with a slide and ladders into clear water.",
+    "expect": "Small fee.",
+    "tip": "Bring bread for fish.",
+    "why": "Easy snorkel.",
+    "flow": [
+     "Jump in.",
+     "Snorkel."
+    ],
+    "hours": 2,
+    "price": [
+     10000,
+     15000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Scuba diving",
+    "kind": "see",
+    "id": "sad-diving",
+    "at": [
+     12.58,
+     -81.71
+    ],
+    "wiki": "San Andrés",
+    "area": "Reef",
+    "summary": "Barrier reef with wrecks and walls.",
+    "expect": "Courses available.",
+    "tip": "Book with a certified centre.",
+    "why": "Seaflower reserve.",
+    "flow": [
+     "Boat dive.",
+     "Reef."
+    ],
+    "hours": 4,
+    "price": [
+     250000,
+     450000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Providencia",
+    "kind": "see",
+    "id": "sad-providencia",
+    "at": [
+     13.35,
+     -81.37
+    ],
+    "wiki": "Providencia Island",
+    "area": "Providencia",
+    "summary": "Quieter sister island with Crab Cay and hiking.",
+    "expect": "Flight or catamaran.",
+    "tip": "Stay two nights.",
+    "why": "Untouched Caribbean.",
+    "flow": [
+     "Crab Cay.",
+     "The Peak."
+    ],
+    "hours": 48,
+    "price": [
+     400000,
+     900000
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "First Baptist Church",
+    "kind": "see",
+    "id": "sad-firstbaptist",
+    "at": [
+     12.565,
+     -81.715
+    ],
+    "wiki": "San Andrés",
+    "area": "La Loma",
+    "summary": "1844 church at the heart of Raizal culture.",
+    "expect": "Small fee to climb.",
+    "tip": "Visit La Loma neighbourhood.",
+    "why": "Island heritage.",
+    "flow": [
+     "Church.",
+     "Tower view."
+    ],
+    "hours": 1,
+    "price": [
+     5000,
+     10000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Rondón",
+    "kind": "eat",
+    "id": "sad-rondon",
+    "at": [
+     12.584,
+     -81.7
+    ],
+    "wiki": "Rondón",
+    "area": "North End",
+    "venue": "food-area",
+    "summary": "Coconut milk stew of fish, snails, plantain and dumplings.",
+    "expect": "Lunch.",
+    "tip": "Raizal speciality.",
+    "why": "Island soul food.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1.5,
+    "price": [
+     40000,
+     70000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Raizal",
+    "order": [
+     "Rondón"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Fried fish and coconut rice",
+    "kind": "eat",
+    "id": "sad-fish",
+    "at": [
+     12.55,
+     -81.72
+    ],
+    "wiki": "Cuisine of Colombia",
+    "area": "San Luis",
+    "venue": "food-area",
+    "summary": "Whole fried fish with patacón and coconut rice.",
+    "expect": "Lunch.",
+    "tip": "Eat beachside.",
+    "why": "Caribbean plate.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     35000,
+     60000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Caribbean",
+    "order": [
+     "Pescado frito"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Crab back",
+    "kind": "eat",
+    "id": "sad-crab",
+    "at": [
+     12.56,
+     -81.71
+    ],
+    "wiki": "San Andrés",
+    "area": "San Luis",
+    "venue": "food-area",
+    "summary": "Spiced crab meat baked in its shell.",
+    "expect": "Dinner.",
+    "tip": "Ask a local kitchen.",
+    "why": "Raizal dish.",
+    "flow": [
+     "Find a busy local place.",
+     "Order the classic."
+    ],
+    "hours": 1,
+    "price": [
+     30000,
+     50000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Raizal",
+    "order": [
+     "Crab back"
+    ],
+    "veg": "no",
+    "halal": "no"
+   }
+  ]
+ }
+]
