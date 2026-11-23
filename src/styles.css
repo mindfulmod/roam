@@ -159,9 +159,32 @@ small {
   letter-spacing: -0.04em;
 }
 .nav {
+  position: relative;
   display: flex;
   align-items: center;
   gap: 6px;
+}
+/* The sliding highlight behind the active tab (placed by placeNavPill). */
+.nav-pill {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+  border-radius: 30px;
+  background: var(--teal2);
+  opacity: 0;
+  pointer-events: none;
+  transition:
+    transform 0.36s cubic-bezier(0.3, 1.25, 0.5, 1),
+    width 0.36s cubic-bezier(0.3, 1.25, 0.5, 1),
+    height 0.2s ease,
+    opacity 0.2s ease;
+}
+.nav-pill.on {
+  opacity: 1;
+}
+.nav-pill.jump {
+  transition: opacity 0.2s ease;
 }
 .nav a {
   display: flex;
@@ -174,9 +197,21 @@ small {
   font-weight: 600;
   border-radius: 30px;
 }
+.nav a {
+  position: relative;
+  z-index: 1;
+  transition: color 0.2s ease;
+}
 .nav a.active {
   color: var(--teal);
-  background: var(--teal2);
+}
+.nav a.active .icon {
+  animation: tab-pop 0.36s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+@keyframes tab-pop {
+  from {
+    scale: 0.82;
+  }
 }
 .nav .count {
   background: var(--teal);
@@ -4189,8 +4224,8 @@ small.rankwhy {
     border-radius: 14px;
     box-sizing: content-box;
   }
-  .nav a.active .icon {
-    background: var(--teal2);
+  .nav-pill {
+    border-radius: 14px;
   }
   .nav a .count {
     position: absolute;
@@ -8729,6 +8764,79 @@ a.srcchip:hover {
   animation-duration: 0.28s;
   animation-timing-function: cubic-bezier(0.2, 0.8, 0.2, 1);
 }
+/* Switching tabs: the page slides toward the tab you picked, the bars stay put and the
+   highlight glides to the new tab. The names exist only while a slide runs. */
+html[data-slide] .topbar {
+  view-transition-name: topbar;
+}
+html[data-slide] .nav {
+  view-transition-name: tabbar;
+}
+html[data-slide] .nav-pill {
+  view-transition-name: navpill;
+}
+/* The tabs get their own layers too, so they stay above the gliding highlight. */
+html[data-slide] .nav a[data-nav='explore'] {
+  view-transition-name: tab-explore;
+}
+html[data-slide] .nav a[data-nav='map'] {
+  view-transition-name: tab-map;
+}
+html[data-slide] .nav a[data-nav='feed'] {
+  view-transition-name: tab-feed;
+}
+html[data-slide] .nav a[data-nav='saved'] {
+  view-transition-name: tab-saved;
+}
+html[data-slide] .nav a[data-nav='trip'] {
+  view-transition-name: tab-trip;
+}
+/* Fade through: the old page leaves quickly, then the new one arrives, so the two never
+   blur together. */
+html[data-slide]::view-transition-old(root) {
+  animation: page-out 0.14s cubic-bezier(0.4, 0, 1, 1) both;
+}
+html[data-slide]::view-transition-new(root) {
+  animation: page-in 0.26s cubic-bezier(0.2, 0.8, 0.2, 1) 0.06s both;
+}
+html[data-slide='back']::view-transition-old(root) {
+  animation-name: page-out-back;
+}
+html[data-slide='back']::view-transition-new(root) {
+  animation-name: page-in-back;
+}
+::view-transition-group(navpill) {
+  animation-duration: 0.36s;
+  animation-timing-function: cubic-bezier(0.3, 1.25, 0.5, 1);
+}
+::view-transition-group(topbar),
+::view-transition-group(tabbar) {
+  animation-duration: 0.2s;
+}
+@keyframes page-out {
+  to {
+    opacity: 0;
+    translate: -28px 0;
+  }
+}
+@keyframes page-in {
+  from {
+    opacity: 0;
+    translate: 28px 0;
+  }
+}
+@keyframes page-out-back {
+  to {
+    opacity: 0;
+    translate: 28px 0;
+  }
+}
+@keyframes page-in-back {
+  from {
+    opacity: 0;
+    translate: -28px 0;
+  }
+}
 .minicart:not([hidden]),
 .cmpbar:not([hidden]) {
   animation: bar-up 0.22s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -8790,6 +8898,13 @@ a.srcchip:hover {
   }
 }
 @media (prefers-reduced-motion: reduce) {
+  .nav-pill,
+  .nav a {
+    transition: none;
+  }
+  .nav a.active .icon {
+    animation: none;
+  }
   ::view-transition-group(*),
   ::view-transition-old(*),
   ::view-transition-new(*) {

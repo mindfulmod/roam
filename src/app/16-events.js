@@ -358,16 +358,27 @@ document.addEventListener('keydown', (e) => {
 });
 // Opening a city from a card: the card's photo grows into the page's cover (where the
 // browser supports it and the person has not asked for reduced motion).
-let growFrom = null;
+let growFrom = null,
+  lastHash = location.hash;
+// Moving between the main tabs slides the page the way the tab moved (left or right), while
+// the top bar and tab bar stay put. Other moves keep a short cross-fade.
+const TAB_ORDER = ['', 'map', 'feed', 'saved', 'trip'];
+const tabOf = (h) => TAB_ORDER.indexOf(h.replace(/^#\/?/, '').split(/[/?]/)[0]);
 window.addEventListener('hashchange', () => {
-  const img = growFrom;
+  const img = growFrom,
+    from = tabOf(lastHash),
+    to = tabOf(location.hash);
   growFrom = null;
-  if (
-    !img?.isConnected ||
-    !document.startViewTransition ||
-    matchMedia('(prefers-reduced-motion: reduce)').matches
-  )
-    return route();
+  lastHash = location.hash;
+  const still =
+    !document.startViewTransition || matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if (!still && !img?.isConnected && from >= 0 && to >= 0 && from !== to) {
+    const root = document.documentElement;
+    root.dataset.slide = to > from ? 'fwd' : 'back';
+    document.startViewTransition(route).finished.finally(() => delete root.dataset.slide);
+    return;
+  }
+  if (still || !img?.isConnected) return route();
   img.style.viewTransitionName = 'cover';
   document.startViewTransition(() => {
     img.style.viewTransitionName = '';

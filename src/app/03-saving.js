@@ -164,7 +164,42 @@ function updateCounts() {
 function headerActive(page) {
   $$('[data-nav]').forEach((a) => a.classList.toggle('active', a.dataset.nav === page));
   updateCounts();
+  placeNavPill();
 }
+// One highlight slides between tabs instead of each tab switching its own background on and
+// off. On phones it sits behind the active icon; on wider screens behind the whole link.
+function placeNavPill(jump = false) {
+  const pill = $('.nav-pill'),
+    nav = pill?.parentElement,
+    a = nav?.querySelector('a.active');
+  if (!pill) return;
+  if (!a) return pill.classList.remove('on');
+  // The icon may be mid-pop (scaled about its centre), so take its centre from the screen and
+  // its size from the stylesheet.
+  const target = (isMobile() && a.querySelector('.icon')) || a,
+    cs = getComputedStyle(target),
+    w = target === a ? a.offsetWidth : parseFloat(cs.width) + parseFloat(cs.paddingLeft) * 2,
+    h = target === a ? a.offsetHeight : parseFloat(cs.height) + parseFloat(cs.paddingTop) * 2,
+    box = target.getBoundingClientRect(),
+    n = nav.getBoundingClientRect(),
+    r = {
+      left: box.left + box.width / 2 - w / 2,
+      top: box.top + box.height / 2 - h / 2,
+      width: w,
+      height: h,
+    };
+  // The first placement (and one after a resize) jumps into position; later ones slide.
+  // During a tab slide the page transition moves the pill, so it jumps here too.
+  pill.classList.toggle(
+    'jump',
+    jump || !pill.classList.contains('on') || 'slide' in document.documentElement.dataset,
+  );
+  pill.style.transform = `translate(${r.left - n.left - nav.clientLeft}px, ${r.top - n.top - nav.clientTop}px)`;
+  pill.style.width = r.width + 'px';
+  pill.style.height = r.height + 'px';
+  pill.classList.add('on');
+}
+addEventListener('resize', () => placeNavPill(true));
 function footer() {
   return `<footer class="footer"><div>Tandem Roads · Made for the journey.<br>Research retrieved ${CHECKED}. Fees and availability can change.</div><div><a href="#/guide">About & sources</a> · <button class="inline-link" data-action="export">Export your trip</button><br>Guide, photos and pins work offline. Street tiles and external links need internet.</div></footer>`;
 }
