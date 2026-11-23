@@ -61,13 +61,15 @@ function darken(hex, kind) {
   else if (kind === 'text') l = l < 0.45 ? 0.92 - l * 0.4 : l;
   else if (l > 0.75) {
     // Light surfaces become the dark palette: white cards sit just above the page, and
-    // tinted panels keep a hint of their colour. Near-greys take the app's green-grey hue.
+    // tinted panels keep a hint of their colour. Near-greys turn near-neutral.
     const warm = s > 0.45 && (hsl.h < 60 || hsl.h > 300);
     if (l >= 0.97) l = 0.11;
     else if (l >= 0.93) l = 0.075;
     else l = 0.13;
-    s = warm ? 0.3 : Math.min(s, 0.18);
-    if (!warm) hsl.h = 168;
+    // Near-greys become near-neutral charcoal (a whisper of the brand hue), so the accent
+    // is the only clearly green thing on a dark screen.
+    s = warm ? 0.3 : Math.min(s, 0.05);
+    if (!warm) hsl.h = 160;
   } else if (l < 0.3) l = Math.max(l, 0.2); // dark panels with white text stay dark
   return fromHsl({ h: hsl.h, s, l }, c.a);
 }
