@@ -149,8 +149,14 @@ small {
   flex: none;
   color: var(--teal);
 }
-.brand span:last-child {
+/* One word, two weights (as in YouTube or PayPal): the flex gap above sits between the mark
+   and the name only, never between "tandem" and "roads". */
+.wordmark {
+  display: block;
+}
+.wordmark span {
   font-weight: 400;
+  letter-spacing: -0.04em;
 }
 .nav {
   display: flex;
@@ -4810,11 +4816,29 @@ small.rankwhy {
 
 .about-link {
   color: var(--muted);
+  white-space: nowrap;
   font-size: 13px;
   font-weight: 600;
   text-decoration: none;
   padding: 8px 12px;
   border-radius: 30px;
+}
+/* Small phones: "About" alone keeps the top bar on one line. */
+@media (max-width: 400px) {
+  .about-link .lbl-long {
+    display: none;
+  }
+  .about-link .lbl-short {
+    display: inline;
+  }
+}
+@media (max-width: 340px) {
+  .brand {
+    gap: 6px;
+  }
+  .about-link {
+    padding-inline: 6px;
+  }
 }
 .about-link:hover,
 .about-link.active {
