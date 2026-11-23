@@ -39,6 +39,82 @@ if (single) {
     for (const v of Object.values(set)) if (!/^https?:/.test(v.data)) v.data = await inline(v.data);
 }
 
+// Hosted build: each city's long text (practical notes, per-place reasons, sources, extra photos)
+// goes in its own small file that the app fetches when that city or one of its places opens.
+// Everything lists, search, maps, ranking and budgets need stays in the main data file.
+// The single-file build keeps everything inline so it still works offline.
+const CITY_DETAIL = [
+  'seasonNote',
+  'arrival',
+  'cashTip',
+  'gettingAround',
+  'foodTip',
+  'buyTip',
+  'baseArea',
+  'sources',
+  'reviewSource',
+  'budgetNote',
+];
+const ITEM_DETAIL = [
+  'sourceUrls',
+  'sourceNote',
+  'priceNote',
+  'whyVisit',
+  'review',
+  'tradeoffs',
+  'visitFlow',
+  'bestFor',
+  'tip',
+  'expect',
+  'reservation',
+  'photoCaption',
+  'photoContext',
+  'photoQuery',
+  'imageSubject',
+  'reviewHighlightsSource',
+];
+const hash = (t) => createHash('sha256').update(t).digest('hex').slice(0, 10);
+const detailFiles = [];
+let detail, galleryN;
+if (!single) {
+  detail = {};
+  galleryN = {};
+  // Gallery photos that the sample stories and feed show stay in the main file.
+  const pinned = await read('data/stories.json').then(
+    async (t) => t + (await read('data/social.json')),
+  );
+  const take = (o, keys) => {
+    const out = {};
+    for (const k of keys) if (k in o) ((out[k] = o[k]), delete o[k]);
+    return out;
+  };
+  for (const c of cities) {
+    const d = { c: take(c, CITY_DETAIL), i: {}, g: {} };
+    for (const it of c.items) {
+      const x = take(it, ITEM_DETAIL);
+      // Ranking needs only the numbers; their links and dates come with the detail.
+      if (it.signals) {
+        x.signals = it.signals;
+        it.signals = Object.fromEntries(
+          Object.entries(it.signals).map(([k, v]) => [k, { views: v.views, count: v.count }]),
+        );
+      }
+      if (Object.keys(x).length) d.i[it.id] = x;
+    }
+    const ids = [c.id, ...c.items.map((x) => x.id), ...(c.shopping?.spots || []).map((x) => x.id)];
+    for (const id of ids)
+      if (gallery[id] && !pinned.includes('"' + id + '"')) {
+        d.g[id] = gallery[id];
+        galleryN[id] = gallery[id].length;
+        delete gallery[id];
+      }
+    const text = JSON.stringify(d);
+    const name = `city/${c.id}.${hash(text)}.json`;
+    detail[c.id] = name;
+    detailFiles.push([name, text]);
+  }
+}
+
 const parts = {
   cities,
   photos,
@@ -53,6 +129,7 @@ const parts = {
   version: meta.version,
 };
 const DATA = Object.fromEntries(meta.keyOrder.map((k) => [k, parts[k]]));
+if (detail) Object.assign(DATA, { detail, galleryN });
 // Escape "</" so data can never close the surrounding <script> tag.
 const dataJs = 'const DATA=' + JSON.stringify(DATA).replaceAll('</', '<\\/') + ';';
 
@@ -100,7 +177,6 @@ html = html.replace(
 );
 // Hosted build: a small HTML shell that paints at once, with the data and the app code in
 // their own cacheable files. The single-file build keeps everything inline.
-const hash = (t) => createHash('sha256').update(t).digest('hex').slice(0, 10);
 const files = single
   ? []
   : [
@@ -140,6 +216,8 @@ if (single) {
 } else {
   await writeFile(path.join(dist, 'index.html'), html);
   for (const [name, text] of files) await writeFile(path.join(dist, name), text);
+  await mkdir(path.join(dist, 'city'));
+  for (const [name, text] of detailFiles) await writeFile(path.join(dist, name), text);
   await cp(path.join(root, 'images'), path.join(dist, 'images'), { recursive: true });
   await cp(path.join(root, 'src/manifest.webmanifest'), path.join(dist, 'manifest.webmanifest'));
 }

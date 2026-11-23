@@ -1,10 +1,8 @@
 // Extra photos per place/city from Wikimedia Commons (hotlinked thumbnails, loaded on demand).
 // data/gallery.json stores each photo as [file, hash, width, height, author, licence].
+const galleryEntry = ([f, hh, w, h, a, l]) => ({ f, hh, w, h, a, l });
 const GALLERY = Object.fromEntries(
-  Object.entries(DATA.gallery || {}).map(([id, list]) => [
-    id,
-    list.map(([f, hh, w, h, a, l]) => ({ f, hh, w, h, a, l })),
-  ]),
+  Object.entries(DATA.gallery || {}).map(([id, list]) => [id, list.map(galleryEntry)]),
 );
 const commonsName = (f) =>
   encodeURIComponent(f.replace(/ /g, '_')).replace(
@@ -33,7 +31,8 @@ function galleryCredit(g) {
   return `<a href="${esc(page)}" target="_blank" rel="noopener noreferrer">Photo: ${esc(g.a)} / Wikimedia Commons</a> · <a href="${esc(lu || page)}" target="_blank" rel="noopener noreferrer">${esc(g.l)}</a>`;
 }
 function photoCount(id) {
-  const n = galleryFor(id).length;
+  // Before a city's detail arrives, the main data file still knows how many photos it has.
+  const n = galleryFor(id).length || GALLERY_N[id] || 0;
   return n
     ? `<span class="photo-count" title="${n + 1} photos">${icon('camera')}${n + 1}</span>`
     : '';

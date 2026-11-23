@@ -76,6 +76,7 @@ function placeStep(dir) {
 }
 function openPlace(id) {
   if (!validPlace(id)) return;
+  if (!withCities([P[id].cityId], () => openPlace(id))) return;
   const p = P[id],
     c = C[p.cityId],
     stay = S.stays[c.id],

@@ -33,6 +33,14 @@ function exportCSV() {
     toast('Save some places or add destinations first.');
     return;
   }
+  // Notes and source links come with each city's detail file.
+  if (
+    !withCities(
+      items.map((p) => p.cityId),
+      exportCSV,
+    )
+  )
+    return;
   const csvcell = (x) => {
     let v = String(x ?? '');
     if (/^[=+@]/.test(v) || (/^\-/.test(v) && !/^\-\d+(\.\d+)?$/.test(v))) v = "'" + v;

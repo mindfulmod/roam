@@ -131,7 +131,8 @@ document.addEventListener('click', (e) => {
   } else if (a === 'place') {
     setPlaceList(b, id);
     openPlace(id);
-  } else if (a === 'place-step') placeStep(Number(b.dataset.dir));
+  } else if (a === 'retry') route();
+  else if (a === 'place-step') placeStep(Number(b.dataset.dir));
   else if (a === 'save-shop') {
     e.stopPropagation();
     toggleShop(id);

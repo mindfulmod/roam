@@ -32,8 +32,8 @@ Requires Node 18+.
 
 ```sh
 npm install
-npm run build          # dist/index.html + dist/images/ for hosting (about 3 MB of HTML; images load on demand)
-npm run build:single   # dist/tandem-roads.html, one self-contained file with every image inlined (about 49 MB)
+npm run build          # dist/ for hosting: a small HTML shell, app.*.js, data.*.js, one city/*.json per city, images
+npm run build:single   # dist/tandem-roads.html, one self-contained file with all data and every image inlined
 npm run dev            # build and serve dist/ locally
 ```
 
@@ -48,6 +48,14 @@ still to add is in [`seeds/backlog.md`](seeds/backlog.md).
 The build inlines the CSS, Leaflet, the assembled `DATA` object and the app code into one HTML file. To add
 or change a city, edit its JSON file in `data/cities/` (add new cities to `cityOrder` in
 `data/meta.json` too) and rebuild.
+
+In the hosted build, each city's long text (practical notes, why-go reasons, visit steps, source
+links and the extra Commons photos) is split into its own `city/<id>.<hash>.json`. `data.*.js` keeps
+everything that lists, search, the map, rankings and budgets need (about 1 MB gzipped instead of 2 MB).
+The app fetches a city's file the first time that city, one of its places or a trip with it opens
+(`withCities` in `src/app/01-core.js`). The field lists are `CITY_DETAIL` and `ITEM_DETAIL` in
+`scripts/build.mjs`: a new field that only the city page or place sheet reads can go there; anything
+read on the home page, search, map or budget must stay out.
 
 ## Deploy
 
