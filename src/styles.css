@@ -8775,6 +8775,22 @@ html[data-slide] .nav {
 html[data-slide] .nav-pill {
   view-transition-name: navpill;
 }
+/* The tabs get their own layers too, so they stay above the gliding highlight. */
+html[data-slide] .nav a[data-nav='explore'] {
+  view-transition-name: tab-explore;
+}
+html[data-slide] .nav a[data-nav='map'] {
+  view-transition-name: tab-map;
+}
+html[data-slide] .nav a[data-nav='feed'] {
+  view-transition-name: tab-feed;
+}
+html[data-slide] .nav a[data-nav='saved'] {
+  view-transition-name: tab-saved;
+}
+html[data-slide] .nav a[data-nav='trip'] {
+  view-transition-name: tab-trip;
+}
 /* Fade through: the old page leaves quickly, then the new one arrives, so the two never
    blur together. */
 html[data-slide]::view-transition-old(root) {
