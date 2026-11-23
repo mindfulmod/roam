@@ -30,6 +30,9 @@ try {
   for (const f of new Set(files)) {
     const body = await get(base + f);
     if (body.length < 10000) throw Error(`${f} is only ${body.length} bytes`);
+    // City details load on demand; check that the first city's file is there too.
+    const city = f.startsWith('data.') && body.match(/"detail":\{"[^"]+":"(city\/[^"]+\.json)"/);
+    if (city) JSON.parse(await get(base + city[1]));
   }
   console.log(`OK: ${base} is up (${[...new Set(files)].join(', ')})`);
 } catch (e) {

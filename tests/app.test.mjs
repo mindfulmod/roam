@@ -452,3 +452,20 @@ test('an after-trip poll marks the group’s pick on the story, and a where-next
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('city details load on demand: none on the home page, then the place sheet has its full text', async () => {
+  const page = await openApp(browser, origin);
+  const files = [];
+  page.on('request', (r) => r.url().includes('/city/') && files.push(r.url()));
+  await page.waitForTimeout(300);
+  assert.equal(files.length, 0, 'home page fetched city files');
+  await page.locator('.vibecard').first().click();
+  await page.waitForSelector('.modal [data-place]');
+  assert.equal(files.length, 1);
+  assert.ok((await page.locator('.modal').innerText()).length > 300, 'place sheet looks empty');
+  await go(page, '#/city/lisbon?tab=practical');
+  await page.waitForSelector('.cityhero');
+  assert.ok(files.some((u) => u.includes('/city/lisbon.')));
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

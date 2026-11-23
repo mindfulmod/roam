@@ -8,6 +8,72 @@ const PLACES = CITIES.flatMap((c) =>
   SHOPS = Object.fromEntries(
     CITIES.flatMap((c) => (c.shopping?.spots || []).map((x) => [x.id, { ...x, cityId: c.id }])),
   );
+// The hosted build keeps each city's long text (practical notes, why-go reasons, sources and
+// extra photos) in its own file, fetched the first time that city or one of its places opens.
+// The merged fields land on the same objects (C, P, the city's items), so code that runs after
+// a load sees one complete city. The single-file build has no DATA.detail: everything is inline.
+const DETAIL = DATA.detail || {},
+  GALLERY_N = DATA.galleryN || {},
+  cityLoads = {};
+const cityReady = (id) => !DETAIL[id] || cityLoads[id]?.done === true;
+function mergeCity(id, d) {
+  const c = C[id],
+    own = Object.fromEntries(c.items.map((x) => [x.id, x]));
+  Object.assign(c, d.c);
+  for (const [pid, x] of Object.entries(d.i || {}))
+    for (const t of [own[pid], P[pid]]) {
+      if (!t) continue;
+      const { signals, ...rest } = x;
+      Object.assign(t, rest);
+      if (signals) t.signals = signals;
+    }
+  for (const [gid, list] of Object.entries(d.g || {})) GALLERY[gid] = list.map(galleryEntry);
+}
+function loadCity(id) {
+  if (cityReady(id)) return Promise.resolve();
+  let job = cityLoads[id];
+  if (!job || job.failed) {
+    job = cityLoads[id] = { done: false };
+    job.p = fetch(DETAIL[id])
+      .then((r) => {
+        if (!r.ok) throw new Error('HTTP ' + r.status);
+        return r.json();
+      })
+      .then(
+        (d) => {
+          mergeCity(id, d);
+          job.done = true;
+        },
+        (e) => {
+          job.failed = true;
+          throw e;
+        },
+      );
+  }
+  return job.p;
+}
+const loadCities = (ids) => Promise.all([...new Set(ids)].filter(validCity).map(loadCity));
+// Runs `then` at once when the cities are here (returns true). Otherwise fetches them, shows
+// `wait` meanwhile, and runs `then` once they arrive if the person is still on the same screen.
+function withCities(ids, then, wait) {
+  const miss = [...new Set(ids)].filter((id) => validCity(id) && !cityReady(id));
+  if (!miss.length) return true;
+  const at = location.hash;
+  wait?.();
+  loadCities(miss).then(
+    () => location.hash === at && then(),
+    () => {
+      if (location.hash !== at) return;
+      if (wait) $('#app').innerHTML = loadFailed();
+      else toast('That city’s details didn’t load. Check your connection and try again.');
+    },
+  );
+  return false;
+}
+const loadingPage = () =>
+  `<div class="wrap" aria-busy="true"><p class="muted loading-line">Opening…</p></div>`;
+const loadFailed = () =>
+  `<div class="wrap"><div class="empty">${icon('globe')}<h2>This page didn’t load.</h2><p>Check your connection, then try again.</p><button class="btn" data-action="retry">Try again</button></div></div>`;
 const PHOTO = DATA.photos,
   CHECKED = '4 November 2026';
 const validCity = (id) => typeof id === 'string' && Object.hasOwn(C, id),

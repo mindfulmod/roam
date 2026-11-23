@@ -210,6 +210,14 @@ function renderCity(id, tab = 'places') {
     location.hash = '#/';
     return;
   }
+  if (
+    !withCities(
+      [id],
+      () => renderCity(id, tab),
+      () => ($('#app').innerHTML = loadingPage()),
+    )
+  )
+    return;
   const c = C[id];
   if (placeSort === 'nearby' && !S.stays[id]) placeSort = 'popularity';
   if (activeCityId !== id) {

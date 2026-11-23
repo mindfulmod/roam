@@ -488,6 +488,9 @@ function tripShareTab() {
 }
 function renderTrip() {
   headerActive('trip');
+  const wait = () =>
+    location.hash.startsWith('#/trip') && !$('.trippage') && ($('#app').innerHTML = loadingPage());
+  if (!withCities(S.trip, renderTrip, wait)) return;
   const keep = $('.trippage') && [...$$('.trippage details[open]')].map((d) => d.dataset.keep);
   if (tripMap) {
     tripMap.remove();
