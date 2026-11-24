@@ -307,6 +307,9 @@ document.addEventListener('change', (e) => {
       ? [...new Set([...S.visited, t.dataset.visited])]
       : S.visited.filter((x) => x !== t.dataset.visited);
     persist();
+    t.closest('.day-stop')?.classList.toggle('done', t.checked);
+    if (t.checked && S.visited.length === 1)
+      toast('Ticked off. Places you’ve been stay marked here as your trip goes on.');
   } else if (t.dataset.checklist) {
     S.checklist = t.checked
       ? [...new Set([...S.checklist, t.dataset.checklist])]

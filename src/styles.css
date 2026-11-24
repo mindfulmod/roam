@@ -1268,7 +1268,8 @@ small {
   padding: 13px 0;
   border-top: 1px solid var(--k-edf0e9-b);
 }
-.day-stop img {
+.day-stop img,
+.day-stop .nophoto {
   width: 65px;
   height: 57px;
   border-radius: 8px;
@@ -1289,11 +1290,78 @@ small {
 .day-stop a {
   font-size: 13px;
 }
+/* "Been here" tick: a round button that fills when ticked; the stop then fades back and
+   says so, so it is clear what the tick did. */
 .day-stop .tick {
-  accent-color: var(--teal-fill);
-  margin-top: 5px;
-  width: 17px;
-  height: 17px;
+  flex: none;
+  position: relative;
+  display: grid;
+  place-items: center;
+  width: 28px;
+  height: 28px;
+  margin: 2px -2px 0 -4px;
+  padding: 8px;
+  box-sizing: content-box;
+  cursor: pointer;
+}
+.day-stop .tick input {
+  position: absolute;
+  inset: 0;
+  margin: 0;
+  opacity: 0;
+  cursor: pointer;
+}
+.day-stop .tick span {
+  display: grid;
+  place-items: center;
+  width: 26px;
+  height: 26px;
+  border: 2px solid var(--line);
+  border-radius: 50%;
+  color: transparent;
+  transition:
+    background-color 0.18s ease,
+    border-color 0.18s ease,
+    color 0.18s ease,
+    transform 0.18s cubic-bezier(0.3, 1.4, 0.5, 1);
+}
+.day-stop .tick .icon {
+  width: 15px;
+  height: 15px;
+  stroke-width: 3;
+}
+.day-stop .tick:hover span {
+  border-color: var(--teal);
+  color: var(--teal);
+}
+.day-stop .tick input:focus-visible + span {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}
+.day-stop .tick input:checked + span {
+  background: var(--teal-fill);
+  border-color: var(--teal-fill);
+  color: #fff;
+  transform: scale(1.08);
+}
+.day-stop .been {
+  display: none;
+  margin-left: 8px;
+  padding: 1px 8px;
+  border-radius: 20px;
+  background: var(--teal2);
+  color: var(--teal);
+  font-size: 12px;
+  font-weight: 700;
+  vertical-align: 1px;
+}
+.day-stop.done .been {
+  display: inline-block;
+}
+.day-stop.done > img,
+.day-stop.done > .nophoto,
+.day-stop.done .stoptext p {
+  opacity: 0.55;
 }
 .empty {
   padding: 65px 25px;
@@ -1503,7 +1571,8 @@ small {
 .maplistitem:hover h4 {
   color: var(--orange);
 }
-.maplistitem img {
+.maplistitem img,
+.maplistitem .nophoto {
   width: 62px;
   height: 56px;
   border-radius: 9px;
@@ -2373,7 +2442,8 @@ small {
   .daytitle h3 {
     font-size: 21px;
   }
-  .day-stop img {
+  .day-stop img,
+  .day-stop .nophoto {
     width: 53px;
     height: 53px;
   }
@@ -2462,7 +2532,8 @@ small {
   .routecard {
     break-inside: avoid;
   }
-  .day-stop img {
+  .day-stop img,
+  .day-stop .nophoto {
     width: 45px;
     height: 40px;
   }
@@ -4455,7 +4526,8 @@ small.rankwhy {
   .maplistitem {
     min-height: 60px;
   }
-  .maplistitem img {
+  .maplistitem img,
+  .maplistitem .nophoto {
     width: 56px;
     height: 56px;
     border-radius: 10px;
@@ -6695,6 +6767,36 @@ a.fact b {
 .ranking-thumb .nophoto {
   padding: 4px;
 }
+/* Small thumbnails (trip stops, map list, search suggestions, compare): the placeholder takes
+   the thumbnail's size and keeps only a short label, so it never pushes the text aside. */
+.day-stop .nophoto,
+.maplistitem .nophoto,
+.suggest .nophoto,
+.cmp-thumbs .nophoto {
+  flex: none;
+  min-height: 0;
+  padding: 4px;
+  gap: 0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+.day-stop .nophoto span,
+.maplistitem .nophoto span {
+  font-size: 13px;
+  line-height: 1.15;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.day-stop .nophoto small,
+.day-stop .nophoto b,
+.maplistitem .nophoto small,
+.maplistitem .nophoto b,
+.suggest .nophoto > *,
+.cmp-thumbs .nophoto > * {
+  display: none;
+}
 .modalphoto .nophoto {
   min-height: 220px;
 }
@@ -7822,7 +7924,8 @@ a.srcchip:hover {
 .suggest button:focus-visible {
   background: var(--teal2);
 }
-.suggest img {
+.suggest img,
+.suggest .nophoto {
   width: 44px;
   height: 44px;
   border-radius: 10px;
@@ -8528,7 +8631,8 @@ a.srcchip:hover {
 .cmp-thumbs {
   display: flex;
 }
-.cmp-thumbs img {
+.cmp-thumbs img,
+.cmp-thumbs .nophoto {
   width: 34px;
   height: 34px;
   border-radius: 50%;
