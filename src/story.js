@@ -823,6 +823,8 @@ function storyTeaser() {
   return `<a class="story-teaser" href="#/story/${id}">${photoTag(st.cover)}<div><span class="eyebrow">New · Trip stories</span><strong>See a trip tell itself</strong><span>The route, the time at each place and a few picked photos. Open the sample from Japan.</span></div>${icon('arrow')}</a>`;
 }
 document.addEventListener('click', (e) => {
+  // A tap on the dimmed trip around an open stop closes it, like pressing back.
+  if (storyNow && e.target.matches('.st-sheet')) return storyStopClose();
   const b = e.target.closest('[data-action^="story-"]');
   if (!b || !storyNow) return;
   // On a card, its own buttons and links act for themselves; anywhere else opens the stop.

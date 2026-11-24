@@ -1119,6 +1119,20 @@ body.st-noscroll {
   background: var(--paper);
   color: var(--ink);
 }
+/* On a phone the stop opens as a sheet with a strip of the trip still showing above it, so
+   tapping outside closes it, as it does beside the panel on wider screens. */
+@media (max-width: 760px) {
+  .st-sheet {
+    padding-top: calc(44px + env(safe-area-inset-top));
+  }
+  .st-sheet-panel {
+    border-radius: 16px 16px 0 0;
+    overflow: hidden;
+  }
+  .st-sheet-bar {
+    padding-top: 8px;
+  }
+}
 .st-sheet-bar {
   flex: none;
   display: flex;
