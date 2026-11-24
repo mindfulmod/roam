@@ -1301,3 +1301,51 @@ body.st-noscroll {
     box-shadow: 0 20px 60px #0005;
   }
 }
+
+/* Double-tap a stop photo: a heart pops in the middle and fades. */
+.st-sheet-photos figure > button {
+  position: relative;
+}
+.st-pop {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  translate: -50% -50%;
+  color: #fff;
+  pointer-events: none;
+  filter: drop-shadow(0 4px 14px #0007);
+  animation: st-pop 0.9s cubic-bezier(0.2, 1.4, 0.4, 1) both;
+}
+.st-pop .icon {
+  width: 92px;
+  height: 92px;
+  fill: #fff;
+  stroke: #fff;
+}
+@keyframes st-pop {
+  0% {
+    scale: 0.2;
+    opacity: 0;
+  }
+  25% {
+    scale: 1.1;
+    opacity: 1;
+  }
+  45% {
+    scale: 0.95;
+  }
+  75% {
+    scale: 1;
+    opacity: 1;
+  }
+  100% {
+    scale: 1.05;
+    opacity: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .st-pop {
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+}

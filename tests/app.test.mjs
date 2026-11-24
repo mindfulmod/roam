@@ -375,6 +375,26 @@ test('the ripple shows where a story led, and saving from a friend says so', asy
   await viewer.context().close();
 });
 
+test('double-tapping a stop photo loves the stop; one tap still opens the photo', async () => {
+  const page = await openApp(browser, origin, { hash: '#/story/japan-sample' });
+  await page.evaluate(() => storyStop(0));
+  const loves = () => page.locator('.st-sheet [data-action="story-love"] span').textContent();
+  const before = Number(await loves());
+  const photo = page.locator('.st-sheet [data-action="story-photo"]').first();
+  await photo.dblclick();
+  await page.waitForTimeout(450);
+  assert.equal(Number(await loves()), before + 1, 'the double tap did not love the stop');
+  assert.equal(await page.locator('.viewer').count(), 0, 'a double tap opened the photo');
+  await photo.dblclick();
+  await page.waitForTimeout(450);
+  assert.equal(Number(await loves()), before + 1, 'a second double tap took the love back');
+  await photo.click();
+  await page.waitForTimeout(450);
+  assert.equal(await page.locator('.viewer').count(), 1, 'one tap did not open the photo');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
 test('editing a story in place: reorder, hide, remove, add, undo, and typed text stays text', async () => {
   const page = await openApp(browser, origin, { hash: '#/story/japan-sample/edit' });
   const tap = async (sel) => {
