@@ -1,4 +1,6 @@
 :root {
+  /* Desktop header height; the phone layout sets its own. Sticky bars and the map follow it. */
+  --topbar-h: 62px;
   --ink: #173b39;
   --muted: #627572;
   --paper: #f6f5f0;
@@ -120,7 +122,7 @@ small {
   margin: auto;
 }
 .topbar {
-  height: 84px;
+  height: var(--topbar-h);
   background: var(--k-f6f5f0f5-s);
   border-bottom: 1px solid var(--line);
   position: sticky;
@@ -140,15 +142,15 @@ small {
   gap: 10px;
   align-items: center;
   text-decoration: none;
-  font-size: 21px;
+  font-size: 19px;
   font-weight: 700;
   letter-spacing: -0.06em;
   color: var(--ink);
   white-space: nowrap;
 }
 .brandmark {
-  width: 34px;
-  height: 34px;
+  width: 28px;
+  height: 28px;
   flex: none;
   color: var(--teal);
 }
@@ -193,7 +195,7 @@ small {
   display: flex;
   align-items: center;
   gap: 7px;
-  padding: 10px 15px;
+  padding: 8px 14px;
   text-decoration: none;
   color: var(--muted);
   font-size: 13px;
@@ -1409,7 +1411,7 @@ small {
   font-size: 13px;
 }
 .map-layout {
-  height: calc(100dvh - 84px);
+  height: calc(100dvh - var(--topbar-h));
   display: grid;
   grid-template-columns: 340px minmax(0, 1fr);
   position: relative;
@@ -5315,7 +5317,7 @@ button.fact b {
 }
 .citytabs {
   position: sticky;
-  top: var(--topbar-h, 84px);
+  top: var(--topbar-h);
   z-index: 20;
   background: var(--paper);
 }
@@ -7062,7 +7064,7 @@ a.fact b {
 }
 .tripmapwrap {
   position: sticky;
-  top: 96px;
+  top: calc(var(--topbar-h) + 12px);
   order: 2;
 }
 #trip-map {
