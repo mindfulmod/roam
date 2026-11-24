@@ -542,6 +542,7 @@ function initTripMap() {
     interactive: false,
   }).addTo(tripMap);
   tripMap.attributionControl.setPrefix(false);
+  foldCredit(tripMap);
   if (S.street && navigator.onLine)
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution:

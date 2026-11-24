@@ -227,6 +227,7 @@ function initChooseMap(list) {
   chooseMap.attributionControl.addAttribution(
     'Outline: <a href="https://www.naturalearthdata.com/">Natural Earth</a>',
   );
+  foldCredit(chooseMap);
   list.forEach((x, i) =>
     L.marker([x.c.lat, x.c.lon], {
       icon: L.divIcon({
