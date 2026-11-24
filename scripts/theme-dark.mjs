@@ -2,7 +2,7 @@
 // tokens (--k-xxxxxx) and regenerates the dark values for them in src/theme.css.
 //   node scripts/theme-dark.mjs
 // Re-run it after adding CSS with new hex colours, so dark mode picks them up.
-// Rules: light text colours (white on teal buttons or on photos), faint glass highlights and
+// Rules: light text colours (white on orange buttons or on photos), faint glass highlights and
 // black overlays/shadows stay as they are, because they sit on photos or solid brand colour in
 // both themes. Everything else flips lightness while keeping its hue.
 import { readFile, writeFile } from 'node:fs/promises';
@@ -66,10 +66,10 @@ function darken(hex, kind) {
     if (l >= 0.97) l = 0.11;
     else if (l >= 0.93) l = 0.075;
     else l = 0.13;
-    // Near-greys become near-neutral charcoal (a whisper of the brand hue), so the accent
-    // is the only clearly green thing on a dark screen.
+    // Near-greys become near-neutral warm charcoal (the asphalt), so the orange accent
+    // is the only clearly coloured thing on a dark screen.
     s = warm ? 0.3 : Math.min(s, 0.05);
-    if (!warm) hsl.h = 160;
+    if (!warm) hsl.h = 30;
   } else if (l < 0.3) l = Math.max(l, 0.2); // dark panels with white text stay dark
   return fromHsl({ h: hsl.h, s, l }, c.a);
 }

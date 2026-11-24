@@ -20,7 +20,7 @@ function applyTheme(t = savedTheme()) {
   else delete root.dataset.theme;
   document
     .querySelector('meta[name="theme-color"]')
-    ?.setAttribute('content', isDark() ? '#0e1413' : '#165b4e');
+    ?.setAttribute('content', isDark() ? '#131313' : '#2a2724');
   const b = document.querySelector('#theme-btn');
   if (b) {
     const label = t === 'dark' ? 'Dark' : t === 'light' ? 'Light' : 'Match device';

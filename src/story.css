@@ -53,7 +53,7 @@
 .st-sample {
   display: inline-block;
   background: #fff;
-  color: #173b39;
+  color: #22201d;
   font-size: 13px;
   font-weight: 750;
   letter-spacing: 0.08em;
@@ -860,7 +860,7 @@ body.st-noscroll {
   z-index: 850;
   display: flex;
   flex-direction: column;
-  background: #0c1413;
+  background: #11100f;
   color: #fff;
 }
 .st-tap-top {
@@ -941,7 +941,7 @@ body.st-noscroll {
   background: linear-gradient(180deg, #0002 0, #000c 62%, #000e 100%);
 }
 .st-tap-bg.plain {
-  background: linear-gradient(160deg, var(--day), #0c1413 85%);
+  background: linear-gradient(160deg, var(--day), #11100f 85%);
 }
 .st-tap-zone {
   position: absolute;
@@ -1109,7 +1109,7 @@ body.st-noscroll {
   z-index: 900;
   display: flex;
   justify-content: center;
-  background: #0b292970;
+  background: #1d1a1770;
 }
 .st-sheet-panel {
   display: flex;
@@ -1171,7 +1171,7 @@ body.st-noscroll {
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
-  background: #0c1413;
+  background: #11100f;
 }
 .st-sheet-photos::-webkit-scrollbar {
   display: none;

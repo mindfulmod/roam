@@ -11,7 +11,7 @@ from shapely.geometry import Point, LineString, Polygon
 from shapely.ops import unary_union, substring
 from shapely import affinity
 
-TEAL, ORANGE, PAPER, MONO = '#165b4e', '#e7764b', '#f6f5f0', '#111111'
+TEAL, ORANGE, PAPER, MONO = '#2a2724', '#e7764b', '#f7f4ee', '#111111'  # TEAL is the asphalt charcoal (name kept)
 OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', '..', 'images', 'brand')
 Q = 64
 # Construction: top loop circle (c1, r1), bowl circle (c2, r2), tail end point T, arm angle and length.
