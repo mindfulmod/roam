@@ -752,9 +752,9 @@ function socProfileMap(p) {
     return (f) =>
       been.has(f.properties.name)
         ? {
-            color: themeColor('--teal', '#165b4e'),
+            color: themeColor('--teal', '#a9431a'),
             weight: 1.2,
-            fillColor: themeColor('--teal', '#165b4e'),
+            fillColor: themeColor('--teal', '#a9431a'),
             fillOpacity: 0.72,
           }
         : outlineStyle();

@@ -1,19 +1,20 @@
 :root {
   /* Desktop header height; the phone layout sets its own. Sticky bars and the map follow it. */
   --topbar-h: 62px;
-  --ink: #173b39;
-  --muted: #627572;
-  --paper: #f6f5f0;
+  --ink: #22201d;
+  --muted: #67625b;
+  --paper: #f7f4ee;
   --white: #fff;
-  --teal: #165b4e;
-  /* Solid brand fills (buttons, active chips, pins) with white text on top. Same as --teal in
-     light mode; dark mode keeps fills deep and makes --teal a light mint for text and icons. */
-  --teal-fill: #165b4e;
-  --teal2: #e4efea;
-  --line: #dedfd5;
+  --teal: #a9431a;
+  /* Asphalt palette: charcoal ink is the road, orange is the line painted on it. --teal is the
+     historical name for the accent: orange text and icons. --teal-fill is the solid action
+     orange (buttons, active chips, pins) with white text on top (4.54:1). */
+  --teal-fill: #c8501f;
+  --teal2: #fbe9df;
+  --line: #e3ddd2;
   --orange: #e7764b;
   --gold: #e8b96b;
-  --shadow: 0 16px 45px #173b3912;
+  --shadow: 0 16px 45px #22201d12;
   --radius: 20px;
   /* Photos are punched up a little so destinations look as vivid as they feel in person. */
   --photo-filter: saturate(1.3) contrast(1.06) brightness(1.03);
@@ -123,7 +124,7 @@ small {
 }
 .topbar {
   height: var(--topbar-h);
-  background: var(--k-f6f5f0f5-s);
+  background: var(--k-f7f4eef5-s);
   border-bottom: 1px solid var(--line);
   position: sticky;
   top: 0;
@@ -152,7 +153,7 @@ small {
   width: 28px;
   height: 28px;
   flex: none;
-  color: var(--teal);
+  color: var(--ink);
 }
 /* One word, two weights (as in YouTube or PayPal): the flex gap above sits between the mark
    and the name only, never between "tandem" and "roads". */
@@ -339,7 +340,7 @@ small {
   color: var(--k-65726c-t);
 }
 .pill.dark {
-  background: var(--k-0b2827ab-s);
+  background: var(--k-1d1a16ab-s);
   color: #fff;
   backdrop-filter: blur(10px);
 }
@@ -383,7 +384,7 @@ small {
 .hero-copy p {
   max-width: 330px;
   font-size: 14px;
-  color: var(--k-567069-t);
+  color: var(--k-67635f-t);
   line-height: 1.8;
 }
 .hero-copy .actions {
@@ -1176,7 +1177,7 @@ small {
 }
 .leg {
   margin: 0 0 12px 32px;
-  border-left: 1px dashed var(--k-9cb1a7-b);
+  border-left: 1px dashed var(--k-aaa6a3-b);
   padding: 9px 15px;
   color: var(--muted);
   font-size: 13px;
@@ -1475,7 +1476,7 @@ small {
 #atlasmap {
   width: 100%;
   height: 100%;
-  background: var(--k-dde9e5-s);
+  background: var(--k-e5e3e1-s);
 }
 .map-top {
   position: absolute;
@@ -1492,7 +1493,7 @@ small {
   pointer-events: auto;
 }
 .map-top .btn {
-  box-shadow: 0 4px 18px #1a3e3920;
+  box-shadow: 0 4px 18px #312c2720;
   background: var(--k-fff-s);
   border-color: transparent;
 }
@@ -1517,7 +1518,7 @@ small {
   border-radius: 20px;
   background: var(--teal-fill);
   color: #fff;
-  box-shadow: 0 3px 9px #16392c40;
+  box-shadow: 0 3px 9px #2c282340;
   font: 600 13px/26px sans-serif;
   text-align: center;
   white-space: nowrap;
@@ -1637,7 +1638,7 @@ small {
 .modal-backdrop {
   position: fixed;
   inset: 0;
-  background: #0b292970;
+  background: #1d1a1770;
   backdrop-filter: blur(5px);
   z-index: 1000;
   display: flex;
@@ -1652,7 +1653,7 @@ small {
   border-radius: 22px;
   overflow: auto;
   position: relative;
-  box-shadow: 0 24px 80px #0b29294d;
+  box-shadow: 0 24px 80px #1d1a174d;
 }
 .modal .close {
   position: absolute;
@@ -1752,12 +1753,12 @@ small {
   left: 50%;
   transform: translateX(-50%);
   z-index: 2000;
-  background: var(--k-153d36-s);
+  background: var(--k-2e2924-s);
   color: #fff;
   padding: 12px 23px;
   border-radius: 12px;
   font-size: 13px;
-  box-shadow: 0 8px 35px #14382e40;
+  box-shadow: 0 8px 35px #2b262140;
   max-width: 92vw;
   text-align: center;
   animation: toast-in 0.2s;
@@ -2381,7 +2382,7 @@ small {
     left: 10px;
     right: 10px;
     bottom: 20px;
-    background: var(--k-f6f5f0f5-s);
+    background: var(--k-f7f4eef5-s);
     z-index: 800;
     overflow: auto;
     padding: 10px 17px;
@@ -2730,7 +2731,7 @@ small {
 .view-switch button.active {
   background: var(--k-fff-s);
   color: var(--teal);
-  box-shadow: 0 2px 7px #193b2a0d;
+  box-shadow: 0 2px 7px #2f2a250d;
 }
 .ranking-note {
   max-width: 850px;
@@ -2911,7 +2912,7 @@ small {
   border-radius: 5px;
   font-size: 13px;
   background: var(--k-eef0ea-s);
-  color: var(--k-4b6358-t);
+  color: var(--k-5b5753-t);
   font-weight: 600;
   line-height: 1.35;
 }
@@ -2971,7 +2972,7 @@ small {
   color: var(--k-526e34-t);
 }
 .art-badge {
-  background: var(--k-183c32df-s) !important;
+  background: var(--k-2f2a25df-s) !important;
   color: #fff !important;
 }
 .placebody .rankbadge + .typechips {
@@ -3414,7 +3415,7 @@ small {
 .stay-pin {
   background: var(--orange);
   border: 3px solid var(--k-fff-b);
-  box-shadow: 0 2px 9px #16392c50;
+  box-shadow: 0 2px 9px #2c282350;
   color: #fff;
   width: 34px;
   height: 34px;
@@ -3449,7 +3450,7 @@ small {
   color: #fff;
   padding: 5px 7px;
   border-radius: 5px;
-  background: var(--k-183c32c9-s);
+  background: var(--k-2f2a25c9-s);
 }
 .template-mini {
   padding: 0 !important;
@@ -4032,7 +4033,7 @@ small.rankwhy {
   height: 100%;
   margin: 0;
   scroll-snap-align: start;
-  background: var(--k-1a1f1e-s);
+  background: var(--k-1d1c1c-s);
 }
 .modalphoto .gslide img {
   height: 100%;
@@ -4193,7 +4194,7 @@ small.rankwhy {
   height: 40px;
   background: var(--k-fffffff2-s);
   border-color: transparent;
-  box-shadow: 0 2px 10px #0b292930;
+  box-shadow: 0 2px 10px #1d1a1730;
 }
 .modal-bar-title {
   flex: 1;
@@ -4208,7 +4209,7 @@ small.rankwhy {
   pointer-events: none;
 }
 .modal.scrolled .modal-bar {
-  background: var(--k-f6f5f0f7-s);
+  background: var(--k-f7f4eef7-s);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   box-shadow: 0 1px 0 var(--line);
@@ -4290,7 +4291,7 @@ small.rankwhy {
     height: var(--topbar-h);
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
-    background: var(--k-f6f5f0-s);
+    background: var(--k-f7f4ee-s);
     padding-top: env(safe-area-inset-top);
   }
   .topend {
@@ -4311,7 +4312,7 @@ small.rankwhy {
     padding: 6px 4px env(safe-area-inset-bottom);
     align-items: stretch;
     justify-content: space-around;
-    box-shadow: 0 -4px 20px #173b3910;
+    box-shadow: 0 -4px 20px #22201d10;
   }
   .nav a {
     position: relative;
@@ -4397,7 +4398,7 @@ small.rankwhy {
     width: 100%;
     min-width: 0;
     height: 46px;
-    box-shadow: 0 3px 14px #173b3926;
+    box-shadow: 0 3px 14px #22201d26;
     border-radius: 23px;
   }
   .mapaside > #map-city {
@@ -4452,7 +4453,7 @@ small.rankwhy {
     background: var(--k-fff-s);
     color: var(--ink);
     border-color: transparent;
-    box-shadow: 0 2px 8px #173b3922;
+    box-shadow: 0 2px 8px #22201d22;
   }
   .mapaside .chip.active {
     background: var(--teal-fill);
@@ -4471,7 +4472,7 @@ small.rankwhy {
     font-size: 13px;
     font-weight: 600;
     background-color: var(--k-fff-s);
-    box-shadow: 0 2px 8px #173b3922;
+    box-shadow: 0 2px 8px #22201d22;
   }
   .mapaside .chips > #map-stay-control {
     flex-basis: auto;
@@ -4484,7 +4485,7 @@ small.rankwhy {
     border-color: transparent;
     font-size: 13px;
     padding: 6px 14px;
-    box-shadow: 0 2px 8px #173b3922;
+    box-shadow: 0 2px 8px #22201d22;
   }
   .mapaside > #map-card,
   .mapaside > .map-sheet {
@@ -4497,7 +4498,7 @@ small.rankwhy {
     flex-direction: column;
     background: var(--paper);
     border-radius: 20px 20px 0 0;
-    box-shadow: 0 -6px 24px #173b3926;
+    box-shadow: 0 -6px 24px #22201d26;
     max-height: calc(100dvh - var(--topbar-h) - var(--tabbar-h) - 120px);
     overflow: hidden;
   }
@@ -4582,7 +4583,7 @@ small.rankwhy {
     margin: 0 0 10px !important;
     background: var(--k-fff-s);
     border-radius: 18px;
-    box-shadow: 0 8px 30px #173b393d;
+    box-shadow: 0 8px 30px #22201d3d;
     padding: 12px;
     max-height: 52dvh;
     overflow-y: auto;
@@ -4672,7 +4673,7 @@ small.rankwhy {
     min-height: 44px;
     padding: 0;
     border-radius: 12px;
-    box-shadow: 0 3px 12px #173b3929;
+    box-shadow: 0 3px 12px #22201d29;
   }
   .map-top .btn .icon {
     width: 20px;
@@ -4867,7 +4868,7 @@ small.rankwhy {
     z-index: 10;
     margin: 18px -18px 0;
     padding: 10px 14px calc(10px + env(safe-area-inset-bottom));
-    background: var(--k-f6f5f0f7-s);
+    background: var(--k-f7f4eef7-s);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
     border-top: 1px solid var(--line);
@@ -5015,7 +5016,7 @@ small.rankwhy {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(180deg, #0000 25%, var(--k-0b201eb8-s) 100%);
+  background: linear-gradient(180deg, #0000 25%, var(--k-181613b8-s) 100%);
 }
 .home-hero-copy {
   position: relative;
@@ -5332,7 +5333,7 @@ button.fact b {
   padding: 12px 16px;
   margin: 4px 0 14px;
   border-radius: 16px;
-  border: 1px dashed var(--k-b9c9c3-b);
+  border: 1px dashed var(--k-c3c1bf-b);
   background: var(--k-fff-s);
   color: var(--ink);
   text-align: left;
@@ -6061,11 +6062,11 @@ a.fact b {
   height: 12px;
 }
 :root[data-theme='dark'] .bestpill {
-  color: var(--k-6fd0b4-t);
+  color: var(--k-aba094-t);
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme='light']) .bestpill {
-    color: var(--k-6fd0b4-t);
+    color: var(--k-aba094-t);
   }
 }
 
@@ -6371,7 +6372,7 @@ a.fact b {
   padding: 0;
   border: 0;
   overflow: hidden;
-  background: var(--k-1a1f1e-s);
+  background: var(--k-1d1c1c-s);
   cursor: zoom-in;
   min-height: 0;
 }
@@ -6419,10 +6420,10 @@ a.fact b {
   align-items: center;
   gap: 7px;
   padding: 8px 14px;
-  border: 1px solid #0b292926;
+  border: 1px solid #1d1a1726;
   border-radius: 10px;
   background: var(--k-fffffff2-s);
-  color: var(--k-12302f-t);
+  color: var(--k-25211d-t);
   font-weight: 650;
   font-size: 13px;
   box-shadow: 0 4px 16px #0003;
@@ -6902,7 +6903,7 @@ a.fact b {
     padding: 5px 6px;
     border: 1px solid var(--line);
     border-radius: 24px;
-    box-shadow: 0 8px 28px #0b292930;
+    box-shadow: 0 8px 28px #1d1a1730;
     transition: transform 0.25s ease;
   }
   body.nav-away .nav {
@@ -7032,7 +7033,7 @@ a.fact b {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(#0b1f1c00 30%, var(--k-0b1f1ccc-s));
+  background: linear-gradient(#18151200 30%, var(--k-181512cc-s));
 }
 .tc-copy {
   position: absolute;
@@ -7106,7 +7107,7 @@ a.fact b {
   height: min(560px, 68vh);
   border-radius: 18px;
   border: 1px solid var(--line);
-  background: var(--map-water, var(--k-dfeaea-s));
+  background: var(--map-water, var(--k-e6e4e3-s));
   z-index: 0;
 }
 .tm-open {
@@ -7435,10 +7436,10 @@ a.fact b {
     gap: 12px;
     padding: 9px 12px 9px 16px;
     border-radius: 14px;
-    background: var(--k-153d36-s);
+    background: var(--k-2e2924-s);
     color: #fff;
     text-decoration: none;
-    box-shadow: 0 8px 28px #14382e40;
+    box-shadow: 0 8px 28px #2b262140;
   }
   .mc-text {
     min-width: 0;
@@ -7778,10 +7779,10 @@ a.srcchip:hover {
   justify-content: center;
   font-size: 15px;
   color: #fff;
-  background: var(--k-627572-s);
+  background: var(--k-67625b-s);
 }
 .src-tripadvisor {
-  background: var(--k-1f8f63-s);
+  background: var(--k-61574d-s);
 }
 .src-google {
   background: var(--k-3b78e7-s);
@@ -7859,7 +7860,7 @@ a.srcchip:hover {
   margin-bottom: 0;
 }
 .home-hero:after {
-  background: linear-gradient(180deg, #0b201e33 0%, var(--k-0b201ed9-s) 100%);
+  background: linear-gradient(180deg, #18161333 0%, var(--k-181613d9-s) 100%);
 }
 .home-hero-copy {
   padding: 28px 30px 64px;
@@ -7882,7 +7883,7 @@ a.srcchip:hover {
   border: 1px solid var(--line);
   border-radius: 18px;
   padding: 16px;
-  box-shadow: 0 10px 30px #14382e1f;
+  box-shadow: 0 10px 30px #2b26211f;
   color: var(--ink);
   text-decoration: none;
   min-width: 0;
@@ -7939,7 +7940,7 @@ a.srcchip:hover {
   background: var(--k-fff-s);
   border: 1px solid var(--line);
   border-radius: 16px;
-  box-shadow: 0 14px 40px #14382e33;
+  box-shadow: 0 14px 40px #2b262133;
   padding: 6px;
   max-height: 60vh;
   overflow: auto;
@@ -8159,7 +8160,7 @@ a.srcchip:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(#0b201e00 35%, var(--k-0b201ed9-s));
+  background: linear-gradient(#18161300 35%, var(--k-181613d9-s));
 }
 .moodtile span {
   position: absolute;
@@ -8306,7 +8307,7 @@ a.srcchip:hover {
   height: min(560px, 62vh);
   border-radius: 18px;
   border: 1px solid var(--line);
-  background: var(--map-water, var(--k-dfeaea-s));
+  background: var(--map-water, var(--k-e6e4e3-s));
   z-index: 0;
 }
 .price-pin-wrap {
@@ -8529,7 +8530,7 @@ a.srcchip:hover {
   content: '';
   position: absolute;
   inset: 0;
-  background: linear-gradient(#0b201e00 45%, var(--k-0b201ee0-s));
+  background: linear-gradient(#18161300 45%, var(--k-181613e0-s));
 }
 .t5card strong {
   position: absolute;
@@ -8613,11 +8614,11 @@ a.srcchip:hover {
 }
 .ybar.s-L i,
 .yearstrip-key i.s-L {
-  background: var(--k-bfe0d3-s);
+  background: var(--k-d4d0cb-s);
 }
 .ybar.s-S i,
 .yearstrip-key i.s-S {
-  background: var(--k-7fc0a8-s);
+  background: var(--k-a9a096-s);
 }
 .ybar.s-H i,
 .yearstrip-key i.s-H {
@@ -8661,9 +8662,9 @@ a.srcchip:hover {
   max-width: min(560px, calc(100vw - 20px));
   padding: 8px 8px 8px 12px;
   border-radius: 16px;
-  background: var(--k-153d36-s);
+  background: var(--k-2e2924-s);
   color: #fff;
-  box-shadow: 0 8px 28px #14382e40;
+  box-shadow: 0 8px 28px #2b262140;
 }
 .cmp-thumbs {
   display: flex;
@@ -8698,7 +8699,7 @@ a.srcchip:hover {
 }
 .cmpbar .btn {
   background: var(--k-fff-s);
-  color: var(--k-153d36-t);
+  color: var(--k-2e2924-t);
   border-color: var(--k-fff-b);
 }
 .cmpbar .btn:disabled {
@@ -8764,7 +8765,7 @@ a.srcchip:hover {
   display: block;
   height: 100%;
   border-radius: 6px;
-  background: var(--k-9bb8ae-s);
+  background: var(--k-aeaaa5-s);
 }
 .cmp-track i.best {
   background: var(--teal-fill);
@@ -8896,7 +8897,7 @@ a.srcchip:hover {
   .citycard:hover,
   .placecard:hover,
   .pickcard:hover {
-    box-shadow: 0 10px 28px #14382e24;
+    box-shadow: 0 10px 28px #2b262124;
     transform: translateY(-2px);
   }
 }
@@ -9187,7 +9188,7 @@ html[data-slide='back']::view-transition-new(root) {
   height: min(56vw, 460px);
   border-radius: 18px;
   overflow: hidden;
-  background: var(--k-1a1f1e-s);
+  background: var(--k-1d1c1c-s);
 }
 .citygallery .gslide img {
   width: 100%;
