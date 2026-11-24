@@ -373,7 +373,7 @@
   aspect-ratio: 16 / 9;
   color: #fff;
   text-decoration: none;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .soc-cover.short {
   aspect-ratio: 5 / 2;
@@ -607,7 +607,7 @@
 .soc-pick input {
   width: 20px;
   height: 20px;
-  accent-color: var(--teal);
+  accent-color: var(--teal-fill);
 }
 .soc-pick .photo,
 .soc-pick .nophoto {
@@ -719,7 +719,7 @@
   display: block;
   width: 100%;
   margin: 10px 0 2px;
-  accent-color: var(--teal);
+  accent-color: var(--teal-fill);
   height: 28px;
 }
 .soc-yearticks {
@@ -811,7 +811,7 @@
   padding: 0;
   border-radius: 14px;
   overflow: hidden;
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   text-align: left;
 }
@@ -1056,7 +1056,7 @@
   transition: transform 0.18s ease;
 }
 .soc-switch input:checked + i {
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .soc-switch input:checked + i::after {
   transform: translateX(18px);
@@ -1217,7 +1217,7 @@
   background: var(--line);
 }
 .soc-result.win i {
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .soc-result.win .soc-result-name {
   font-weight: 700;

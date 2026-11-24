@@ -185,7 +185,7 @@
 .lg-switch input {
   width: 18px;
   height: 18px;
-  accent-color: var(--teal);
+  accent-color: var(--teal-fill);
 }
 .lg-offline {
   display: flex;
@@ -358,7 +358,7 @@
   opacity: 0.55;
 }
 .lg-shot.on i {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
 }
 .lg-strip .lg-shot i {

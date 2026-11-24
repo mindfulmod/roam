@@ -4,6 +4,9 @@
   --paper: #f6f5f0;
   --white: #fff;
   --teal: #165b4e;
+  /* Solid brand fills (buttons, active chips, pins) with white text on top. Same as --teal in
+     light mode; dark mode keeps fills deep and makes --teal a light mint for text and icons. */
+  --teal-fill: #165b4e;
   --teal2: #e4efea;
   --line: #dedfd5;
   --orange: #e7764b;
@@ -214,7 +217,7 @@ small {
   }
 }
 .nav .count {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   border-radius: 20px;
   padding: 0 6px;
@@ -250,8 +253,8 @@ small {
   align-items: center;
   justify-content: center;
   gap: 9px;
-  border: 1px solid var(--teal);
-  background: var(--teal);
+  border: 1px solid var(--teal-fill);
+  background: var(--teal-fill);
   color: #fff;
   text-decoration: none;
   border-radius: 10px;
@@ -303,9 +306,9 @@ small {
   color: var(--ink);
 }
 .iconbtn.saved {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
-  border-color: var(--teal);
+  border-color: var(--teal-fill);
 }
 .actions {
   display: flex;
@@ -506,8 +509,8 @@ small {
   min-height: 37px;
 }
 .chip.active {
-  background: var(--teal);
-  border-color: var(--teal);
+  background: var(--teal-fill);
+  border-color: var(--teal-fill);
   color: #fff;
 }
 .chip:hover {
@@ -795,7 +798,7 @@ small {
   height: 400px;
   border-radius: 23px;
   overflow: hidden;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .cityhero > img {
   height: 100%;
@@ -1287,7 +1290,7 @@ small {
   font-size: 13px;
 }
 .day-stop .tick {
-  accent-color: var(--teal);
+  accent-color: var(--teal-fill);
   margin-top: 5px;
   width: 17px;
   height: 17px;
@@ -1432,7 +1435,7 @@ small {
   padding: 0 8px;
   border: 2px solid var(--k-fff-b);
   border-radius: 20px;
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   box-shadow: 0 3px 9px #16392c40;
   font: 600 13px/26px sans-serif;
@@ -1735,7 +1738,7 @@ small {
   font-size: 13px;
 }
 .checkrow input {
-  accent-color: var(--teal);
+  accent-color: var(--teal-fill);
   margin-top: 5px;
 }
 .scrollhint {
@@ -3790,7 +3793,7 @@ small.rankwhy {
   display: block;
   height: 100%;
   border-radius: inherit;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .signal-row small,
 .signal-missing {
@@ -4344,7 +4347,7 @@ small.rankwhy {
     box-shadow: 0 2px 8px #173b3922;
   }
   .mapaside .chip.active {
-    background: var(--teal);
+    background: var(--teal-fill);
     color: #fff;
   }
   /* Diet filter and stay button ride along at the end of the chip row. */
@@ -5267,7 +5270,7 @@ button.fact b {
   color: var(--teal);
 }
 .filterbtn .count {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   border-radius: 20px;
   min-width: 18px;
@@ -5571,7 +5574,7 @@ button.fact b {
   font-size: 15px;
 }
 .budget-pill.fit {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
 }
 .budget-pill.stretch {
@@ -5603,7 +5606,7 @@ button.fact b {
   min-width: 3px;
 }
 .seg-travel {
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .seg-stay {
   background: var(--gold);
@@ -6879,7 +6882,7 @@ a.fact b {
   border-radius: 20px;
   overflow: hidden;
   margin-top: 22px;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .tripcover img {
   width: 100%;
@@ -7141,7 +7144,7 @@ a.fact b {
   display: block;
   height: 100%;
   border-radius: 7px;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .tripcost.stretch .tcb-track i {
   background: var(--k-d99a2b-s);
@@ -7382,7 +7385,7 @@ a.fact b {
    Find and save flow, step 2: the visual place page.
    ========================================================================== */
 .place-rankpill.t-must {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
 }
 .place-rankpill.t-maybe,
@@ -7394,7 +7397,7 @@ a.fact b {
   font-size: 13px;
 }
 .tierpill.t-must {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
 }
 .place-top {
@@ -7473,7 +7476,7 @@ a.fact b {
   color: var(--muted);
 }
 .dayparts span.on {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   font-weight: 700;
 }
@@ -7514,7 +7517,7 @@ a.fact b {
   display: block;
   height: 100%;
   border-radius: 4px;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .keytip {
   display: flex;
@@ -7765,7 +7768,7 @@ a.srcchip:hover {
   height: 46px;
   flex-shrink: 0;
   border-radius: 50%;
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   display: flex;
   align-items: center;
@@ -7913,7 +7916,7 @@ a.srcchip:hover {
 }
 .loopstrip a.current b,
 .loopstrip a.done b {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
 }
 .loopstrip span {
@@ -8001,7 +8004,7 @@ a.srcchip:hover {
   overflow: hidden;
   padding: 0;
   cursor: pointer;
-  background: var(--teal);
+  background: var(--teal-fill);
   outline: 3px solid transparent;
   outline-offset: 2px;
 }
@@ -8039,7 +8042,7 @@ a.srcchip:hover {
   height: 26px;
   padding: 5px;
   border-radius: 50%;
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   display: none;
 }
@@ -8072,7 +8075,7 @@ a.srcchip:hover {
   cursor: pointer;
 }
 .viewtoggle button.active {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
 }
 .viewtoggle .icon {
@@ -8183,8 +8186,8 @@ a.srcchip:hover {
   box-shadow: 0 2px 6px #0003;
 }
 .price-pin.top {
-  background: var(--teal);
-  border-color: var(--teal);
+  background: var(--teal-fill);
+  border-color: var(--teal-fill);
   color: #fff;
 }
 .surprise .sp-main {
@@ -8349,8 +8352,8 @@ a.srcchip:hover {
   height: 14px;
 }
 .cmpbtn.on {
-  background: var(--teal);
-  border-color: var(--teal);
+  background: var(--teal-fill);
+  border-color: var(--teal-fill);
   color: #fff;
 }
 .cityherotext p {
@@ -8373,7 +8376,7 @@ a.srcchip:hover {
   overflow: hidden;
   aspect-ratio: 4 / 5;
   cursor: pointer;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .t5card img {
   position: absolute;
@@ -8435,7 +8438,7 @@ a.srcchip:hover {
   background: var(--teal2);
 }
 .daydots i.on {
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .cityglance .yearstrip {
   border: 1px solid var(--line);
@@ -8623,7 +8626,7 @@ a.srcchip:hover {
   background: var(--k-9bb8ae-s);
 }
 .cmp-track i.best {
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .cmp-months {
   display: grid;
@@ -8641,7 +8644,7 @@ a.srcchip:hover {
   color: var(--muted);
 }
 .cmp-months i.on {
-  background: var(--teal);
+  background: var(--teal-fill);
   color: #fff;
   font-weight: 700;
 }

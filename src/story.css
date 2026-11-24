@@ -535,7 +535,7 @@
   height: 12px;
   width: var(--w);
   border-radius: 6px;
-  background: var(--teal);
+  background: var(--teal-fill);
 }
 .st-citybar em {
   min-width: 86px;
@@ -810,8 +810,8 @@ body.st-noscroll {
     display: inline-flex;
     align-items: center;
     gap: 6px;
-    background: var(--teal);
-    border-color: var(--teal);
+    background: var(--teal-fill);
+    border-color: var(--teal-fill);
     color: #fff;
     font-weight: 700;
     position: sticky;
