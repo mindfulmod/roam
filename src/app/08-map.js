@@ -40,8 +40,14 @@ function renderMap(id = '') {
   markerLayer = L.layerGroup().addTo(map);
   routeLayer = L.layerGroup().addTo(map);
   map.on('click', () => hideMapCard());
+  map.createPane('atlas-labels');
+  map.getPane('atlas-labels').style.zIndex = '450';
+  map.getPane('atlas-labels').style.pointerEvents = 'none';
+  labelLayer = L.layerGroup().addTo(map);
+  map.on('zoomend moveend', drawAtlasLabels);
   if (S.street && navigator.onLine) enableStreet();
   renderMapPins(true);
+  drawAtlasLabels();
   if (id === 'trip' && S.trip.length) {
     const pts = S.trip.map((id) => [C[id].lat, C[id].lon]);
     if (pts.length > 1) {
@@ -63,6 +69,11 @@ function enableStreet() {
   let failures = 0;
   streetLayer.on('tileerror', () => {
     failures++;
+    // Tiles that never arrive leave a blank map: draw the offline names after all.
+    if (failures === 3 && streetLayer) {
+      streetLayer.broken = true;
+      drawAtlasLabels();
+    }
     if (failures >= 3 && $('#map-note'))
       $('#map-note').textContent =
         'Street tiles are unavailable. Embedded map outline and planning pins still work.';
@@ -300,4 +311,97 @@ function foldCredit(m) {
       flip();
     }
   });
+}
+// Without street tiles the map is only land and sea, so it draws its own names: countries
+// when zoomed out, city names from the regional view in, and the names of the pinned places
+// once you are inside a city. With street detail on, the tiles carry the names instead.
+let labelLayer = null,
+  countryPoints = null,
+  labelTimer = 0;
+function countryLabelPoints() {
+  if (countryPoints) return countryPoints;
+  countryPoints = [];
+  for (const f of DATA.world.features || []) {
+    const g = f.geometry,
+      polys =
+        g?.type === 'Polygon' ? [g.coordinates] : g?.type === 'MultiPolygon' ? g.coordinates : [];
+    let best = null,
+      area = 0;
+    for (const poly of polys) {
+      const ring = poly[0];
+      let x0 = 180,
+        x1 = -180,
+        y0 = 90,
+        y1 = -90;
+      for (const [x, y] of ring) {
+        x0 = Math.min(x0, x);
+        x1 = Math.max(x1, x);
+        y0 = Math.min(y0, y);
+        y1 = Math.max(y1, y);
+      }
+      const a = (x1 - x0) * (y1 - y0);
+      if (a > area) ((area = a), (best = [(y0 + y1) / 2, (x0 + x1) / 2]));
+    }
+    if (best && f.properties?.name) countryPoints.push({ name: f.properties.name, at: best, area });
+  }
+  return countryPoints;
+}
+function atlasLabel(at, text, cls) {
+  return L.marker(at, {
+    pane: 'atlas-labels',
+    interactive: false,
+    keyboard: false,
+    icon: L.divIcon({
+      className: 'atlas-label-anchor',
+      html: `<span class="atlas-label ${cls}">${esc(text)}</span>`,
+      iconSize: [0, 0],
+    }),
+  });
+}
+function drawAtlasLabels() {
+  clearTimeout(labelTimer);
+  labelTimer = setTimeout(() => {
+    if (!map || !labelLayer) return;
+    labelLayer.clearLayers();
+    if (streetLayer && !streetLayer.broken) return;
+    const z = map.getZoom(),
+      view = map.getBounds().pad(0.15),
+      inView = (lat, lon) => view.contains([lat, lon]),
+      placeMode = mapUsesPlaces(),
+      taken = [];
+    // Labels go in priority order and skip any spot already taken, so names never pile up.
+    // Sizes are estimated from the text (about 0.6em a character).
+    const put = (at, text, cls, size, dx, centre) => {
+      const pt = map.latLngToContainerPoint(at),
+        w = text.length * size * 0.6,
+        x = centre ? pt.x - w / 2 : pt.x + dx,
+        r = { x0: x - 3, x1: x + w + 3, y0: pt.y - size, y1: pt.y + size };
+      if (taken.some((t) => r.x0 < t.x1 && r.x1 > t.x0 && r.y0 < t.y1 && r.y1 > t.y0)) return;
+      taken.push(r);
+      atlasLabel(at, text, cls).addTo(labelLayer);
+    };
+    // Places first inside a city (names beside their numbered pins), most popular first.
+    if (placeMode && z >= 12)
+      for (const p of mapItems()
+        .filter((p) => inView(p.lat, p.lon))
+        .slice(0, 60))
+        put(
+          [p.lat, p.lon],
+          p.name.length > 24 ? p.name.slice(0, 23) + '…' : p.name,
+          'place',
+          11,
+          19,
+        );
+    // Cities from a regional view in, in the guide's own order.
+    if (z >= 4 && (z < 11 || !placeMode))
+      for (const c of CITIES.filter((c) => inView(c.lat, c.lon)))
+        placeMode
+          ? put([c.lat, c.lon], c.name, 'city big', 15, 0, true)
+          : put([c.lat, c.lon], c.name, 'city', 12, 10);
+    // Countries when zoomed out: big ones first, smaller ones as you zoom in.
+    if (z <= 6)
+      for (const c of [...countryLabelPoints()].sort((a, b) => b.area - a.area))
+        if (c.area > 600 / 4 ** (z - 1) && inView(...c.at))
+          put(c.at, c.name.toUpperCase(), 'country', 11, 0, true);
+  }, 60);
 }

@@ -232,6 +232,7 @@ document.addEventListener('click', (e) => {
       map.removeLayer(streetLayer);
       streetLayer = null;
     }
+    drawAtlasLabels();
     $('#tile-toggle').innerHTML =
       icon('map') + `<span class="lbl"> Street detail: ${S.street ? 'on' : 'off'}</span>`;
     $('#tile-toggle').classList.toggle('on', S.street);
