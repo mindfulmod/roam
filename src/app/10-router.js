@@ -16,6 +16,7 @@ function route() {
     map.remove();
     map = null;
     streetLayer = null;
+    labelLayer = null;
     markerLayer = null;
     routeLayer = null;
   }
