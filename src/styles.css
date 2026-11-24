@@ -1386,6 +1386,16 @@ small {
   max-height: 440px;
   overflow: auto;
 }
+.compact-head {
+  margin: 14px 0 2px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.compact-head:first-child {
+  margin-top: 0;
+}
 .compactcity {
   display: flex;
   gap: 13px;

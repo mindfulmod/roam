@@ -76,6 +76,9 @@ function toggleTrip(id, quiet = false) {
   });
   if (location.hash.startsWith('#/trip')) rerenderTrip();
   else if (location.hash.startsWith('#/saved')) renderSaved();
+  // In the city picker, the list re-sorts around the trip as it grows.
+  const pick = $('#choose-city-list');
+  if (pick) pick.innerHTML = chooseCityList($('#choose-city-search')?.value || '');
   if (quiet) return;
   if (had)
     toast(`${C[id].name} removed from your trip.`, {
@@ -571,17 +574,60 @@ function initTripMap() {
 }
 function chooseCities() {
   showModal(
-    `<div class="modalcontent"><span class="eyebrow">ONE CITY OR A GRAND ADVENTURE</span><h2>Where would you like to go?</h2><div class="searchbox" style="margin-bottom:20px">${icon('search')}<input id="choose-city-search" type="search" placeholder="Search destinations…" aria-label="Search destinations to add"></div><div class="compact-citylist" id="choose-city-list">${chooseCityList('')}</div><div class="actions" style="margin-top:20px"><button class="btn" data-action="finish-cities">See my trip ${icon('arrow')}</button></div></div>`,
+    `<div class="modalcontent">${S.trip.length ? '<h2>Add another city</h2>' : '<span class="eyebrow">ONE CITY OR A GRAND ADVENTURE</span><h2>Where would you like to go?</h2>'}<div class="searchbox" style="margin-bottom:20px">${icon('search')}<input id="choose-city-search" type="search" placeholder="Search destinations…" aria-label="Search destinations to add"></div><div class="compact-citylist" id="choose-city-list">${chooseCityList('')}</div><div class="actions" style="margin-top:20px"><button class="btn" data-action="finish-cities">See my trip ${icon('arrow')}</button></div></div>`,
     'Choose destinations',
   );
 }
+// Once a trip has a city, the list leads with what is near it: after Rome, Florence and
+// Naples, not Tokyo. Cities already in the trip sit at the top so they can be taken out.
 function chooseCityList(q) {
-  return CITIES.filter((c) => (c.name + ' ' + c.country).toLowerCase().includes(q.toLowerCase()))
-    .map(
-      (c) =>
-        `<div class="compactcity">${photoTag(c.id)}<div class="text"><h4>${esc(c.name)}</h4><p>${esc(c.country)} · ${c.days} suggested days</p></div>${cityAdd(c.id, false, true)}</div>`,
-    )
-    .join('');
+  const trip = S.trip.map((id) => C[id]).filter(Boolean),
+    hit = (c) => (c.name + ' ' + c.country).toLowerCase().includes(q.toLowerCase()),
+    row = (c, note) =>
+      `<div class="compactcity">${photoTag(c.id)}<div class="text"><h4>${esc(c.name)}</h4><p>${esc(note)}</p></div>${cityAdd(c.id, false, true)}</div>`;
+  if (!trip.length)
+    return citiesByVisits()
+      .filter(hit)
+      .map((c) => row(c, `${c.country} · ${c.days} suggested days`))
+      .join('');
+  const near = (c) => {
+    let best = null;
+    for (const t of trip) {
+      const km = hav(t, c);
+      if (!best || km < best.km) best = { km, t };
+    }
+    return best;
+  };
+  const added = trip.filter(hit),
+    rest = CITIES.filter((c) => !inTrip(c.id) && hit(c))
+      .map((c) => ({ c, n: near(c) }))
+      .sort((a, b) => a.n.km - b.n.km);
+  const head = (t) => `<h3 class="compact-head">${t}</h3>`;
+  return (
+    (added.length
+      ? head('In your trip') +
+        added.map((c) => row(c, `${c.country} · ${S.days[c.id] || c.days} days`)).join('')
+      : '') +
+    (rest.length
+      ? head(
+          trip.length === 1
+            ? `Near ${esc(shortName(trip[0]))} first`
+            : 'Nearest to your trip first',
+        ) +
+        rest
+          .map(({ c, n }) => row(c, `${c.country} · ${tripKm(n.km)} from ${shortName(n.t)}`))
+          .join('')
+      : '')
+  );
+}
+// "Rome · Vatican City" reads as Rome in a distance line.
+function shortName(c) {
+  return c.name.split(' · ')[0];
+}
+function tripKm(km) {
+  return km < 100
+    ? `${Math.round(km)} km`
+    : `${(Math.round(km / 10) * 10).toLocaleString('en')} km`;
 }
 function applyTemplate(id) {
   const t = TEMPLATES.find((x) => x.id === id);
