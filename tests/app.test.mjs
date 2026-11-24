@@ -498,3 +498,22 @@ test('city details load on demand: none on the home page, then the place sheet h
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('a slow city shows its real header and grey placeholders, then the full page', async () => {
+  const page = await openApp(browser, origin);
+  let release;
+  const held = new Promise((r) => (release = r));
+  await page.route(/\/city\/lisbon\./, async (r) => {
+    await held;
+    await r.continue();
+  });
+  await page.evaluate(() => (location.hash = '#/city/lisbon'));
+  await page.waitForSelector('.skel-page');
+  assert.match(await page.locator('.skel-page h1').innerText(), /Lisbon/);
+  assert.equal(await page.locator('.skel-page').getAttribute('aria-busy'), 'true');
+  release();
+  await page.waitForSelector('.citytabs');
+  assert.equal(await page.locator('.skel-page').count(), 0);
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
