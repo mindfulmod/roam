@@ -9095,3 +9095,98 @@ html[data-slide='back']::view-transition-new(root) {
   text-overflow: ellipsis;
   font-size: 11px;
 }
+
+/* Thumbnail strip under a swipeable photo (place sheet and city page), as in X and Instagram. */
+.gthumbs {
+  display: flex;
+  gap: 6px;
+  padding: 8px 14px 4px;
+  overflow-x: auto;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+}
+.gthumbs::-webkit-scrollbar {
+  display: none;
+}
+.gthumb {
+  flex: none;
+  width: 56px;
+  height: 56px;
+  padding: 0;
+  border: 0;
+  border-radius: 10px;
+  overflow: hidden;
+  background: var(--teal2);
+  cursor: pointer;
+  opacity: 0.6;
+  outline: 2px solid transparent;
+  outline-offset: -2px;
+  transition:
+    opacity 0.18s ease,
+    outline-color 0.18s ease,
+    transform 0.18s ease;
+}
+.gthumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.gthumb.on {
+  opacity: 1;
+  outline-color: var(--teal);
+}
+.gthumb:hover {
+  opacity: 1;
+}
+.gthumb:active {
+  transform: scale(0.94);
+}
+.gthumb:focus-visible {
+  outline-color: var(--orange);
+}
+.citygallery {
+  position: relative;
+  height: min(56vw, 460px);
+  border-radius: 18px;
+  overflow: hidden;
+  background: var(--k-1a1f1e-s);
+}
+.citygallery .gslide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  cursor: zoom-in;
+}
+.citygallery .gcount {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+}
+.cityphotos .gthumbs {
+  padding: 8px 0 0;
+}
+@media (max-width: 700px) {
+  .citygallery {
+    height: 62vw;
+  }
+  .gthumb {
+    width: 48px;
+    height: 48px;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .gthumb {
+    transition: none;
+  }
+}
+/* Desktop place sheet: the photo is the hero (the mosaic used to give it this height). */
+@media (min-width: 701px) {
+  .modalphoto.gallery:not(.tall) {
+    height: min(52vh, 460px);
+  }
+  [data-gscope] > .gthumbs {
+    padding: 10px 34px 0;
+  }
+}

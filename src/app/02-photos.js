@@ -37,26 +37,22 @@ function photoCount(id) {
     ? `<span class="photo-count" title="${n + 1} photos">${icon('camera')}${n + 1}</span>`
     : '';
 }
-// Photo area of a place or city sheet. Desktop gets a mosaic (one large photo and up to
-// four beside it, as Airbnb and Booking do); phones get a swipeable carousel (Instagram).
-// Either way, any photo opens the full-screen viewer below.
+// Photo area of a place sheet, as X and Instagram show a post's photos: the main photo is a
+// swipeable track you can flick through at once, with a strip of thumbnails underneath that
+// jumps to any photo and follows the swipe. Tapping a photo still opens the full-screen viewer.
 function galleryHero(id, firstSlide, label) {
-  return galleryFor(id).length && !isMobile()
-    ? galleryMosaic(id, firstSlide)
-    : galleryCarousel(id, firstSlide, label);
+  return galleryCarousel(id, firstSlide, label);
 }
-function galleryMosaic(id, first) {
+// One thumbnail button. A Commons thumbnail that fails to load drops out of the strip.
+function galleryThumb(src, i, n, commons) {
+  return `<button class="gthumb${i ? '' : ' on'}" data-action="gal-thumb" data-i="${i}" aria-label="Photo ${i + 1} of ${n}"${i ? '' : ' aria-current="true"'}><img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${commons ? ` onerror="this.closest('.gthumb')?.remove()"` : ''}></button>`;
+}
+// The thumbnail strip under a place's carousel. `first` is the main visual's image URL.
+function galleryThumbs(id, first) {
   const gal = galleryFor(id),
-    n = gal.length + 1,
-    shown = Math.min(n, 5);
-  const tiles = gal
-    .slice(0, shown - 1)
-    .map(
-      (g, i) =>
-        `<button class="gtile" data-action="gal-open" data-id="${id}" data-i="${i + 1}" aria-label="View photo ${i + 2} of ${n} full screen">${galleryImg(g, false, '(max-width: 1100px) 25vw, 240px')}</button>`,
-    )
-    .join('');
-  return `<div class="gmosaic n${shown}"><figure class="gtile main" id="place-visual-main" data-action="gal-open" data-id="${id}" data-i="0" role="button" tabindex="0" aria-label="View photo 1 of ${n} full screen">${first}</figure>${tiles}<button class="gall" data-action="gal-open" data-id="${id}" data-i="0">${icon('grid')} Show all ${n} photos</button></div>`;
+    n = gal.length + 1;
+  if (!gal.length) return '';
+  return `<div class="gthumbs" role="group" aria-label="Choose a photo">${first ? galleryThumb(first, 0, n) : ''}${gal.map((g, i) => galleryThumb(galleryUrl(g, 250), i + 1, n, true)).join('')}</div>`;
 }
 // Swipeable carousel: first slide is the existing main visual, then the Commons photos.
 function galleryCarousel(id, firstSlide, label) {
@@ -98,6 +94,17 @@ document.addEventListener(
       n = t.querySelectorAll('[data-gslide]').length;
     const c = scope.querySelector('.gcount');
     if (c) c.textContent = `${i + 1} / ${n}`;
+    scope.querySelectorAll('.gthumb').forEach((b) => {
+      const on = Number(b.dataset.i) === i;
+      b.classList.toggle('on', on);
+      if (!on) return b.removeAttribute('aria-current');
+      b.setAttribute('aria-current', 'true');
+      const strip = b.parentElement;
+      strip.scrollTo({
+        left: b.offsetLeft - strip.clientWidth / 2 + b.clientWidth / 2,
+        behavior: 'smooth',
+      });
+    });
   },
   true,
 );
@@ -110,9 +117,27 @@ document.addEventListener('keydown', (e) => {
   }
 });
 function cityPhotos(c) {
-  const gal = galleryFor(c.id);
-  if (!gal.length) return '';
-  return `<section class="cityphotos" aria-label="Photos of ${esc(c.name)}"><div class="cityphotos-head"><h3>${icon('camera')} See what to expect</h3><small>${gal.length} more photos · Wikimedia Commons</small></div><div class="cityphotos-row">${gal.map((g, i) => `<button class="cityphoto" data-action="city-photos" data-id="${c.id}" data-i="${i + 1}" aria-label="Open photo ${i + 2} of ${esc(c.name)}">${galleryImg(g, true, '(max-width: 700px) 70vw, 320px')}</button>`).join('')}</div></section>`;
+  const gal = galleryFor(c.id),
+    n = gal.length;
+  if (!n) return '';
+  // Same pattern as a place: a big photo to swipe through, thumbnails underneath.
+  const open = (i) =>
+    `data-action="city-photos" data-id="${c.id}" data-i="${i + 1}" role="button" tabindex="-1" aria-label="View photo ${i + 1} of ${esc(c.name)} full screen"`;
+  const slides = gal
+    .map(
+      (g, i) =>
+        `<figure class="gslide" data-gslide ${open(i)}>${galleryImg(g, i > 0, '(max-width: 700px) 100vw, 900px')}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
+    )
+    .join('');
+  const nav =
+    n > 1
+      ? `<button class="gnav prev" data-action="gal-step" data-dir="-1" aria-label="Previous photo">${icon('left')}</button><button class="gnav next" data-action="gal-step" data-dir="1" aria-label="Next photo">${icon('arrow')}</button><span class="gcount" aria-live="polite">1 / ${n}</span>`
+      : '';
+  const thumbs =
+    n > 1
+      ? `<div class="gthumbs" role="group" aria-label="Choose a photo">${gal.map((g, i) => galleryThumb(galleryUrl(g, 250), i, n, true)).join('')}</div>`
+      : '';
+  return `<section class="cityphotos" aria-label="Photos of ${esc(c.name)}" data-gscope><div class="cityphotos-head"><h3>${icon('camera')} See what to expect</h3><small>${n} photos · Wikimedia Commons</small></div><div class="citygallery"><div class="gtrack" tabindex="0" aria-label="Photos of ${esc(c.name)}" data-gtrack>${slides}</div>${nav}</div>${thumbs}</section>`;
 }
 /* ------------------------------------------------------------------
    Full-screen photo viewer (Google Photos, Instagram, Unsplash).

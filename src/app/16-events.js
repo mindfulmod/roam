@@ -81,6 +81,7 @@ document.addEventListener('click', (e) => {
       t = scope.querySelector('[data-gtrack]');
     if (t) galleryGo(scope, galleryIndex(t) + Number(b.dataset.dir));
   } else if (a === 'gal-go') galleryGo(galleryScope(b), Number(b.dataset.i));
+  else if (a === 'gal-thumb') galleryGo(galleryScope(b), Number(b.dataset.i) || 0);
   else if (a === 'city-photos') openViewer(id, Number(b.dataset.i) || 0);
   else if (a === 'place-filters') openFilters();
 });

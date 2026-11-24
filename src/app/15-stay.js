@@ -234,6 +234,9 @@ function switchPlaceVisual(id, useArt) {
   galleryGo(galleryScope($('#place-visual-main')), 0);
   $('#place-visual-main').innerHTML =
     `${useArt ? artTag(id, '', false) : photoTag(id, '', false)}<div class="photo-caption">${useArt ? artCaption(id) : photoCredit(id) + (PHOTO[id]?.context ? '<br>' + esc(photoContext(id)) : '')}</div>`;
+  const t0 = $('.gthumb[data-i="0"] img'),
+    src = useArt ? ART[id]?.data : PHOTO[id]?.data;
+  if (t0 && src) t0.src = src;
   $$('.visual-toggle button').forEach((x) =>
     x.classList.toggle('active', x.dataset.action === (useArt ? 'place-art' : 'place-photo')),
   );
