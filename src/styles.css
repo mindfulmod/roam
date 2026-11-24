@@ -9228,3 +9228,84 @@ html[data-slide='back']::view-transition-new(root) {
     padding: 10px 34px 0;
   }
 }
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+}
+/* Loading placeholders: the shape of the page in soft grey with a slow sheen, shown while a
+   city's details download. Photos also sit on the same grey until they paint. */
+img.photo {
+  background-color: var(--line);
+}
+.skel-page {
+  display: grid;
+  gap: 14px;
+  padding-top: 16px;
+}
+.skel {
+  border-radius: 12px;
+  background: linear-gradient(100deg, var(--line) 40%, var(--paper) 50%, var(--line) 60%) 0 0 / 300%
+    100%;
+  animation: skel-sheen 1.4s linear infinite;
+}
+@keyframes skel-sheen {
+  to {
+    background-position: -150% 0;
+  }
+}
+.skel-hero {
+  height: 300px;
+  border-radius: var(--radius);
+}
+.skel-line {
+  height: 14px;
+}
+.skel-title {
+  height: 26px;
+  margin-top: 8px;
+}
+.w40 {
+  width: 40%;
+}
+.w50 {
+  width: 50%;
+}
+.w70 {
+  width: 70%;
+}
+.w90 {
+  width: 90%;
+}
+.skel-cards {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+.skel-card {
+  display: grid;
+  gap: 8px;
+}
+.skel-photo {
+  aspect-ratio: 4 / 3;
+  border-radius: 16px;
+}
+@media (max-width: 700px) {
+  .skel-hero {
+    height: 220px;
+  }
+  .skel-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .skel-card:nth-child(n + 2) {
+    display: none;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  .skel {
+    animation: none;
+  }
+}

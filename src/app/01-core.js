@@ -70,8 +70,13 @@ function withCities(ids, then, wait) {
   );
   return false;
 }
-const loadingPage = () =>
-  `<div class="wrap" aria-busy="true"><p class="muted loading-line">Opening…</p></div>`;
+// While a city's details download, show the shape of the page (grey blocks that shimmer) rather
+// than an empty screen, so it feels like it is arriving, not stuck. Screen readers hear "Loading".
+const skel = (cls) => `<div class="skel ${cls}"></div>`;
+const skelCards = (n = 3) =>
+  `<div class="skel-cards">${Array.from({ length: n }, () => `<div class="skel-card">${skel('skel-photo')}${skel('skel-line w70')}${skel('skel-line w40')}</div>`).join('')}</div>`;
+const loadingPage = (head = '') =>
+  `<div class="wrap skel-page" aria-busy="true"><span class="sr-only">Loading</span>${head || skel('skel-hero')}${skel('skel-line skel-title w50')}${skelCards()}${skel('skel-line w90')}${skel('skel-line w70')}</div>`;
 const loadFailed = () =>
   `<div class="wrap"><div class="empty">${icon('globe')}<h2>This page didn’t load.</h2><p>Check your connection, then try again.</p><button class="btn" data-action="retry">Try again</button></div></div>`;
 const PHOTO = DATA.photos,

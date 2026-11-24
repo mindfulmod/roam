@@ -214,7 +214,11 @@ function renderCity(id, tab = 'places') {
     !withCities(
       [id],
       () => renderCity(id, tab),
-      () => ($('#app').innerHTML = loadingPage()),
+      // The name, summary and cover photo ship with the app, so the real header shows at once.
+      () =>
+        ($('#app').innerHTML = loadingPage(
+          `<section class="cityhero">${photoTag(id, '', false)}<div class="cityherotext"><div class="eyebrow">${esc(C[id].country)} · ${esc(C[id].region)}</div><h1>${esc(C[id].name)}</h1><p>${esc(C[id].summary)}</p></div></section>`,
+        )),
     )
   )
     return;
