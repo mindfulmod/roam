@@ -1257,6 +1257,29 @@ body.st-noscroll {
 .st-sheet-body .st-acts {
   margin-top: 16px;
 }
+/* Love, want to go and comment stay pinned under the stop while its photos and talk scroll, so
+   reacting never means scrolling back. */
+.st-sheet-foot {
+  flex: none;
+  flex-wrap: nowrap;
+  margin: 0;
+  padding: 10px 16px calc(10px + env(safe-area-inset-bottom));
+  border-top: 1px solid var(--line);
+  background: var(--paper);
+}
+.st-sheet-foot .st-act {
+  flex: 0 0 auto;
+  justify-content: center;
+  min-width: 64px;
+}
+.st-sheet-foot [data-action='story-want'] {
+  flex: 1 1 auto;
+}
+.st-sheet-foot .st-act span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .st-sheet-talk {
   margin-top: 22px;
   padding-top: 16px;
