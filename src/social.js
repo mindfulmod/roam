@@ -1018,6 +1018,7 @@ function renderAccount() {
       .join(
         '',
       )}</div><button class="btn small ghost" data-action="soc-invite">${icon('plus')} Invite a friend</button></section>` +
+    `<section class="soc-set"><h2>About Tandem Roads</h2><a class="soc-row link" href="#/guide"><span><strong>About & sources</strong><small>How places are ranked, where the information comes from, photo and map credits</small></span>${icon('arrow')}</a></section>` +
     `<section class="soc-set"><h2>Your data</h2><div class="soc-row"><span><strong>Download everything</strong><small>Your profile, settings, saved places and trip, as one file</small></span><button class="btn small ghost" data-action="soc-download">${icon('download')} Download</button></div><div class="soc-row"><span><strong>Delete my account</strong><small>Everything of yours is removed. You have 30 days to change your mind.</small></span><button class="btn small ghost" data-action="soc-delete">Delete</button></div><p class="soc-fine">No ads, no tracking, no location trail. Photos you pick are yours.</p></section>` +
     footer() +
     '</div>';
