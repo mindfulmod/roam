@@ -785,11 +785,11 @@ function storyStop(i, k = 0, to = '') {
     n
       ? `<div class="st-sheet-photos" id="st-sheet-photos">${s.photos.map((x) => `<figure><button data-action="story-photo" data-id="${x.id}" aria-label="Zoom photo: ${esc(x.caption)}">${photoTag(x.id, '', false)}</button><figcaption>${stAvatar(x.by, 'tiny')}<span>${esc(x.caption)}</span><small>${esc(x.by.name)}</small></figcaption></figure>`).join('')}</div>${n > 1 ? `<div class="st-sheet-dots" aria-hidden="true">${s.photos.map((_, j) => `<i class="${j === k ? 'on' : ''}"></i>`).join('')}</div>` : ''}`
       : ''
-  }<div class="st-sheet-body"><div class="st-head"><h2>${esc(s.name)}</h2>${stLinks(s)}</div><p class="st-area">${esc(s.area)} · ${esc(day.city)}${s.id ? '' : ' · added by the group'}</p><p class="st-sheet-time"><strong>${s.in} to ${s.out}</strong> · ${stDur(s.mins)} here · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${typeof socPickBadge === 'function' ? socPickBadge(storyNow.id, s.id) : ''}${s.note ? `<p class="st-sheet-note">${esc(s.note)}</p>` : ''}<div class="st-acts">${stLoveBtn(s)}${stWantBtn(s)}${s.id ? `<button class="st-act" data-action="place" data-id="${s.id}">${icon('book')}<span>Guide entry</span></button>` : ''}</div>${stRipSheet(s)}<section class="st-sheet-talk" id="st-sheet-talk"><h3>${s.comments.length ? stCommentWord(s.comments.length) : 'No comments yet'}</h3>${
+  }<div class="st-sheet-body"><div class="st-head"><h2>${esc(s.name)}</h2>${stLinks(s)}</div><p class="st-area">${esc(s.area)} · ${esc(day.city)}${s.id ? '' : ' · added by the group'}</p><p class="st-sheet-time"><strong>${s.in} to ${s.out}</strong> · ${stDur(s.mins)} here · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${typeof socPickBadge === 'function' ? socPickBadge(storyNow.id, s.id) : ''}${s.note ? `<p class="st-sheet-note">${esc(s.note)}</p>` : ''}${s.id ? `<div class="st-acts"><button class="st-act" data-action="place" data-id="${s.id}">${icon('book')}<span>Guide entry</span></button></div>` : ''}${stRipSheet(s)}<section class="st-sheet-talk" id="st-sheet-talk"><h3>${s.comments.length ? stCommentWord(s.comments.length) : 'No comments yet'}</h3>${
     s.comments.length
       ? `<ul>${s.comments.map((c) => `<li><span class="st-avatar tiny" style="--who:var(--muted)" aria-hidden="true">${esc(c.by[0])}</span><div><strong>${esc(c.by)}</strong><p>${esc(c.text)}</p></div></li>`).join('')}</ul>`
       : ''
-  }<p class="filter-note">${m.st.sample ? 'This is a sample, so you cannot add a comment yet. Commenting opens with accounts.' : ''}</p></section></div></div></div>`;
+  }<p class="filter-note">${m.st.sample ? 'This is a sample, so you cannot add a comment yet. Commenting opens with accounts.' : ''}</p></section></div></div><footer class="st-sheet-foot st-acts">${stLoveBtn(s)}${stWantBtn(s)}<button class="st-act st-talk" data-action="story-stop" data-i="${i}" data-k="${k}" data-to="comments" aria-label="${s.comments.length ? stCommentWord(s.comments.length) : 'Comment'}">${icon('chat')}<span>${s.comments.length || 'Comment'}</span></button></footer></div>`;
   const row = $('#st-sheet-photos');
   if (row) {
     row.scrollLeft = k * row.clientWidth;
@@ -953,7 +953,9 @@ document.addEventListener('click', (e) => {
       stLastTap = Date.now();
       stTapTimer = setTimeout(() => openViewer(b.dataset.id, 0), 300);
     }
-  } else if (a === 'story-stop')
+  } else if (a === 'story-stop' && b.closest('.st-sheet-foot'))
+    $('#st-sheet-talk')?.scrollIntoView({ block: 'start', behavior: 'smooth' });
+  else if (a === 'story-stop')
     storyStop(Number(b.dataset.i), Number(b.dataset.k || 0), b.dataset.to || '');
   else if (a === 'story-stop-close') storyStopClose();
   else if (a === 'story-ripple') storyRipple(Number(b.dataset.i));

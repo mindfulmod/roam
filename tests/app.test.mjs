@@ -517,3 +517,28 @@ test('a slow city shows its real header and grey placeholders, then the full pag
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('a stop keeps love, want to go and comment in reach while its page scrolls', async () => {
+  const page = await openApp(browser, origin, { hash: '#/story/japan-sample' });
+  await page.setViewportSize({ width: 390, height: 700 });
+  await page.evaluate(() => storyStop(0));
+  const foot = page.locator('.st-sheet-foot');
+  await page.evaluate(() => {
+    const s = document.querySelector('.st-sheet-scroll');
+    s.scrollTop = s.scrollHeight;
+  });
+  const box = await foot.boundingBox();
+  assert.ok(box && box.y + box.height <= 700 + 1, 'the action bar scrolled away');
+  await foot.locator('[data-action="story-want"]').click();
+  assert.equal(
+    await page.locator('.st-sheet-foot [data-action="story-want"]').getAttribute('aria-pressed'),
+    'true',
+  );
+  await page.evaluate(() => (document.querySelector('.st-sheet-scroll').scrollTop = 0));
+  await page.locator('.st-sheet-foot .st-talk').click();
+  await page.waitForTimeout(200);
+  const talk = await page.locator('#st-sheet-talk').boundingBox();
+  assert.ok(talk && talk.y < box.y, 'Comment did not bring the comments into view');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
