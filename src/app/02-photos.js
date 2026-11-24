@@ -23,7 +23,7 @@ function galleryUrl(g, w = 960) {
   return `https://upload.wikimedia.org/wikipedia/commons/thumb/${g.hh[0]}/${g.hh}/${n}/${w}px-${n}`;
 }
 function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
-  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide],.cityphoto,.gtile')?.remove()">`;
+  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="galleryDrop(this)">`;
 }
 function galleryCredit(g) {
   const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f),
@@ -60,11 +60,11 @@ function galleryCarousel(id, firstSlide, label) {
     open = (i) =>
       `data-action="gal-open" data-id="${id}" data-i="${i}" role="button" tabindex="-1" aria-label="View photo ${i + 1} full screen"`;
   const slides =
-    `<figure class="gslide" data-gslide id="place-visual-main" ${open(0)}>${firstSlide}</figure>` +
+    `<figure class="gslide" data-gslide data-k="0" id="place-visual-main" ${open(0)}>${firstSlide}</figure>` +
     gal
       .map(
         (g, i) =>
-          `<figure class="gslide" data-gslide ${open(i + 1)}>${galleryImg(g)}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
+          `<figure class="gslide" data-gslide data-k="${i + 1}" ${open(i + 1)}>${galleryImg(g)}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
       )
       .join('');
   const expand = `<span class="gexpand" aria-hidden="true">${icon('expand')}</span>`;
@@ -81,6 +81,38 @@ function galleryGo(scope, i) {
   i = Math.max(0, Math.min(slides.length - 1, i));
   t.scrollTo({ left: slides[i].offsetLeft, behavior: 'smooth' });
 }
+// Thumbnails keep the number of the photo they show, so a photo that fails to load can drop
+// out without the strip pointing at the wrong slide.
+function gallerySlideFor(scope, k) {
+  const slides = [...scope.querySelectorAll('[data-gslide]')];
+  return Math.max(
+    0,
+    slides.findIndex((s) => s.dataset.k === String(k)),
+  );
+}
+// A Commons photo that will not load leaves the gallery. The count and thumbnails follow, and a
+// city's photo section with nothing left to show disappears rather than leaving an empty frame.
+function galleryDrop(img) {
+  const slide = img.closest('[data-gslide],.cityphoto,.gtile'),
+    scope = img.closest('[data-gscope]');
+  if (!slide) return;
+  const k = slide.dataset.k;
+  slide.remove();
+  if (!scope) return;
+  const n = scope.querySelectorAll('[data-gslide]').length;
+  if (!n && scope.matches('.cityphotos')) return scope.remove();
+  if (k != null) scope.querySelector(`.gthumb[data-i="${k}"]`)?.remove();
+  if (n < 2) {
+    scope.querySelectorAll('.gnav,.gcount,.gthumbs').forEach((x) => x.remove());
+    return;
+  }
+  const t = scope.querySelector('[data-gtrack]'),
+    c = scope.querySelector('.gcount');
+  if (c && t) c.textContent = `${galleryIndex(t) + 1} / ${n}`;
+  scope
+    .querySelectorAll('.gthumb')
+    .forEach((b, j) => b.setAttribute('aria-label', `Photo ${j + 1} of ${n}`));
+}
 function galleryIndex(t) {
   return Math.round(t.scrollLeft / Math.max(1, t.clientWidth));
 }
@@ -92,10 +124,11 @@ document.addEventListener(
     const scope = galleryScope(t),
       i = galleryIndex(t),
       n = t.querySelectorAll('[data-gslide]').length;
-    const c = scope.querySelector('.gcount');
+    const c = scope.querySelector('.gcount'),
+      k = t.querySelectorAll('[data-gslide]')[i]?.dataset.k;
     if (c) c.textContent = `${i + 1} / ${n}`;
     scope.querySelectorAll('.gthumb').forEach((b) => {
-      const on = Number(b.dataset.i) === i;
+      const on = b.dataset.i === k;
       b.classList.toggle('on', on);
       if (!on) return b.removeAttribute('aria-current');
       b.setAttribute('aria-current', 'true');
@@ -126,7 +159,7 @@ function cityPhotos(c) {
   const slides = gal
     .map(
       (g, i) =>
-        `<figure class="gslide" data-gslide ${open(i)}>${galleryImg(g, i > 0, '(max-width: 700px) 100vw, 900px')}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
+        `<figure class="gslide" data-gslide data-k="${i}" ${open(i)}>${galleryImg(g, i > 0, '(max-width: 700px) 100vw, 900px')}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
     )
     .join('');
   const nav =
