@@ -1562,6 +1562,31 @@ small {
 .leaflet-control-attribution {
   font-size: 13px !important;
 }
+.maplist-order {
+  margin: 4px 0 2px;
+  font-size: 13px;
+  color: var(--muted);
+}
+/* Country headings in the world list, most-visited first. */
+.maplist-country {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  margin: 18px 0 0;
+  padding-bottom: 6px;
+  font-size: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink);
+  border-bottom: 1px solid var(--line);
+}
+.maplist-country small {
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 500;
+  color: var(--muted);
+}
 .maplistitem {
   display: flex;
   align-items: center;

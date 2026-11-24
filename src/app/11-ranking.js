@@ -365,3 +365,32 @@ function cityRanking(c, metric = browseSort) {
       }
     : null;
 }
+// Map list order: the most-visited countries first (UN Tourism international arrivals), then
+// within each country its most popular places: the published tourism index rank where there is
+// one, then how many people read about the city's sights on Wikipedia.
+const ARRIVALS = DATA.countryArrivals?.countries || {};
+function cityReaders(c) {
+  return c.items.reduce((sum, it) => sum + (P[it.id]?.signals?.wikipedia?.views || 0), 0);
+}
+let cityVisitOrder;
+function citiesByVisits() {
+  if (cityVisitOrder) return cityVisitOrder;
+  const arr = (c) => ARRIVALS[c.country]?.arrivals ?? -1,
+    idx = (c) => c.popularity?.tourism?.rank ?? Infinity,
+    readers = new Map(CITIES.map((c) => [c.id, cityReaders(c)]));
+  cityVisitOrder = [...CITIES].sort(
+    (a, b) =>
+      arr(b) - arr(a) ||
+      a.country.localeCompare(b.country) ||
+      idx(a) - idx(b) ||
+      readers.get(b.id) - readers.get(a.id) ||
+      a.name.localeCompare(b.name),
+  );
+  return cityVisitOrder;
+}
+function countryVisitors(country) {
+  const a = ARRIVALS[country];
+  return a
+    ? `${compact(a.arrivals)} international visitors · ${a.year}`
+    : 'No comparable visitor figure';
+}

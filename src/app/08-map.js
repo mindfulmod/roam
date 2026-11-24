@@ -91,7 +91,7 @@ function mapItems() {
       ? mapKind === 'saved'
         ? S.saved.map((id) => P[id])
         : PLACES
-      : CITIES;
+      : citiesByVisits();
   if (!mapUsesPlaces()) return items;
   return items
     .filter(
@@ -146,11 +146,21 @@ function renderMapPins(fit = false) {
     if (isCity && !isMobile()) m.bindTooltip(p.name, { direction: 'top', offset: [0, -5] });
     mapMarkers[p.id] = m;
   });
+  let country = '';
+  // The world list is grouped by country, most-visited first, so the order explains itself.
+  const head = (p) => {
+    if (!isCity || p.country === country) return '';
+    country = p.country;
+    return `<h4 class="maplist-country">${esc(country)}<small>${esc(countryVisitors(country))}</small></h4>`;
+  };
   $('#map-list').innerHTML = items.length
-    ? items
+    ? (isCity
+        ? `<p class="maplist-order">Most-visited countries first, then each country’s most popular places. <button class="inline-link" data-action="ranking-method">How this is ranked</button></p>`
+        : '') +
+      items
         .map(
           (p, i) =>
-            `<div class="maplistitem"><div data-action="map-focus" data-id="${p.id}" style="display:flex;align-items:center;gap:11px;flex:1;min-width:0" tabindex="0" role="button" aria-label="Find ${esc(p.name)} on the map">${photoTag(p.id)}<div class="text"><h4>${isCity ? '' : popularityRank(p) ? '#' + popularityRank(p) + ' ' : ''}${esc(p.name)}</h4><p>${esc(isCity ? p.country : (mapCity ? p.area : p.cityName) + ' · ' + p.duration + ' h')}</p></div></div>${isCity ? cityAdd(p.id, true) : saveButton(p.id)}</div>`,
+            `${head(p)}<div class="maplistitem"><div data-action="map-focus" data-id="${p.id}" style="display:flex;align-items:center;gap:11px;flex:1;min-width:0" tabindex="0" role="button" aria-label="Find ${esc(p.name)} on the map">${photoTag(p.id)}<div class="text"><h4>${isCity ? '' : popularityRank(p) ? '#' + popularityRank(p) + ' ' : ''}${esc(p.name)}</h4><p>${esc(isCity ? p.tagline : (mapCity ? p.area : p.cityName) + ' · ' + p.duration + ' h')}</p></div></div>${isCity ? cityAdd(p.id, true) : saveButton(p.id)}</div>`,
         )
         .join('')
     : '<p class="muted">No matching places. Try another filter.</p>';
