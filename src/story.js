@@ -900,6 +900,23 @@ function storyTeaser() {
   if (!st) return '';
   return `<a class="story-teaser" href="#/story/${id}">${photoTag(st.cover)}<div><span class="eyebrow">New · Trip stories</span><strong>See a trip tell itself</strong><span>The route, the time at each place and a few picked photos. Open the sample from Japan.</span></div>${icon('arrow')}</a>`;
 }
+let stLastTap = 0,
+  stTapTimer;
+// A heart pops on the photo. Double-tapping only ever adds a love; the heart button takes it back.
+function stDoubleLove(b) {
+  const i = storyNow.sheet;
+  if (i == null) return;
+  if (!stLoves().has(storyNow.id + ':' + i)) storyLove(i);
+  b.querySelector('.st-pop')?.remove();
+  b.insertAdjacentHTML(
+    'beforeend',
+    `<span class="st-pop" aria-hidden="true">${icon('heart')}</span>`,
+  );
+  setTimeout(() => b.querySelector('.st-pop')?.remove(), 900);
+  try {
+    navigator.vibrate?.(12);
+  } catch {}
+}
 document.addEventListener('click', (e) => {
   // A tap on the dimmed trip around an open stop closes it, like pressing back.
   if (storyNow && e.target.matches('.st-sheet')) return storyStopClose();
@@ -926,8 +943,17 @@ document.addEventListener('click', (e) => {
   else if (a === 'story-audience') storyAudience();
   else if (a === 'story-love') storyLove(Number(b.dataset.i), b);
   else if (a === 'story-want') storyWant(b.dataset.id);
-  else if (a === 'story-photo') openViewer(b.dataset.id, 0);
-  else if (a === 'story-stop')
+  else if (a === 'story-photo') {
+    // Two quick taps love the stop, as on Instagram; one tap still opens the photo, a moment later.
+    clearTimeout(stTapTimer);
+    if (Date.now() - stLastTap < 300) {
+      stLastTap = 0;
+      stDoubleLove(b);
+    } else {
+      stLastTap = Date.now();
+      stTapTimer = setTimeout(() => openViewer(b.dataset.id, 0), 300);
+    }
+  } else if (a === 'story-stop')
     storyStop(Number(b.dataset.i), Number(b.dataset.k || 0), b.dataset.to || '');
   else if (a === 'story-stop-close') storyStopClose();
   else if (a === 'story-ripple') storyRipple(Number(b.dataset.i));
