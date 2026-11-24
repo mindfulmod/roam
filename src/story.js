@@ -169,22 +169,40 @@ function stRipLines(s) {
     ? `<div class="st-rips">${s.ripples.map((r) => `<p class="st-rip ${r.went ? 'went' : ''}"><i class="st-rip-mark">${icon('ripple')}</i>${stRipFace(r)}<span class="st-rip-text">${stRipText(r)}</span>${r.went ? `<span class="st-rip-later">${stRipLater(r)}</span>` : ''}</p>`).join('')}</div>`
     : '';
 }
+// Names in a sentence: "Maya", "Maya and Leo", "Maya, Leo and Sam".
+const stNames = (ids) => {
+  const n = [...new Set(ids)].map((id) => stPerson(id).name);
+  return n.length > 1 ? n.slice(0, -1).join(', ') + ' and ' + n.at(-1) : n[0] || '';
+};
+// Their photos of the same spot. The sample has none of its own, so Commons photos of the
+// place stand in; `shots` picks which ones.
+function stRipShots(r, sizes = '300px') {
+  const gal = galleryFor(r.place),
+    shots = (r.shots || [1]).map((k) => gal[k]).filter(Boolean);
+  return shots.length ? shots.map((g) => galleryImg(g, true, sizes)) : [photoTag(r.place)];
+}
+// "Where this trip led": one post per place, with everyone it reached. Opening one shows the
+// ripple spreading out from the stop, person by person.
 function stRipStrip(m) {
-  const rs = m.stops.flatMap((s) => s.ripples.map((r) => ({ r, s })));
-  if (!rs.length) return '';
-  const went = rs.filter((x) => x.r.went),
-    wants = rs.filter((x) => !x.r.went);
+  const went = (s) => s.ripples.filter((r) => r.went).length,
+    posts = m.stops.filter((s) => s.ripples.length).sort((a, b) => went(b) - went(a));
+  if (!posts.length) return '';
   const mine = stMine(m.st);
-  return `<section class="st-ripples" aria-labelledby="st-rip-h"><header><i class="st-rip-mark big">${icon('ripple')}</i><div><h2 id="st-rip-h">Where this trip led</h2><p>${mine ? 'Friends saved places from your story. This is what happened next.' : 'Friends saved places from this story. This is what happened next.'}</p></div></header><div class="st-rip-row">${went
-    .map(
-      ({ r, s }) =>
-        `<button class="st-rip-card went" data-action="story-stop" data-i="${s.i}" style="--day:${stColor(s.day)}"><span class="st-rip-pair"><span>${s.photos[0] ? photoTag(s.photos[0].id) : photoTag(s.id)}<em>Then</em></span><span>${stRipLater(r)}<em>${esc(r.when)}</em></span></span><span class="st-rip-copy">${stRipFace(r)}<span><strong>${esc(stPerson(r.who).name)} went to ${esc(s.name)}</strong><small>${esc(r.after)} · Day ${s.day + 1}, stop ${s.n}</small></span></span></button>`,
-    )
-    .join('')}${wants
-    .map(
-      ({ r, s }) =>
-        `<button class="st-rip-card" data-action="story-stop" data-i="${s.i}" style="--day:${stColor(s.day)}"><span class="st-rip-one">${s.photos[0] ? photoTag(s.photos[0].id) : photoTag(s.id)}</span><span class="st-rip-copy">${stRipFace(r)}<span><strong>${esc(stPerson(r.who).name)} saved ${esc(s.name)}</strong><small>${esc(r.after)} · Day ${s.day + 1}, stop ${s.n}</small></span></span></button>`,
-    )
+  return `<section class="st-ripples" aria-labelledby="st-rip-h"><header><i class="st-rip-mark big">${icon('ripple')}</i><div><h2 id="st-rip-h">Where this trip led</h2><p>${mine ? 'Friends saved places from your story. Open one to see where it went next.' : 'Friends saved places from this story. Open one to see where it went next.'}</p></div></header><div class="st-rip-row">${posts
+    .map((s) => {
+      const went = s.ripples.filter((r) => r.went),
+        later = went.flatMap((r) => stRipShots(r, '200px').slice(0, 2)).slice(0, 3),
+        then = s.photos[0] ? photoTag(s.photos[0].id) : photoTag(s.id),
+        faces = `<span class="st-faces">${s.ripples.map((r) => stRipFace(r)).join('')}</span>`;
+      const line = went.length
+        ? `<strong>${esc(stNames(went.map((r) => r.who)))} went to ${esc(s.name)}</strong><small>${went.length > 1 ? 'One after the other' : esc(went[0].after)} · Day ${s.day + 1}, stop ${s.n}</small>`
+        : `<strong>${esc(stNames(s.ripples.map((r) => r.who)))} saved ${esc(s.name)}</strong><small>${esc(s.ripples[0].after)} · Day ${s.day + 1}, stop ${s.n}</small>`;
+      return `<button class="st-rip-card${went.length ? ' went' : ''}" data-action="story-ripple" data-i="${s.i}" style="--day:${stColor(s.day)}">${
+        went.length
+          ? `<span class="st-rip-collage n${later.length + 1}"><span>${then}<em>Then</em></span>${later.map((x, j) => `<span>${x}${j ? '' : `<em>Later</em>`}</span>`).join('')}</span>`
+          : `<span class="st-rip-one">${then}</span>`
+      }<span class="st-rip-copy">${faces}<span>${line}</span></span></button>`;
+    })
     .join(
       '',
     )}</div><p class="st-rip-key"><span class="st-pin rip demo" style="--day:var(--teal)" aria-hidden="true"></span> On the map, a ring spreads from every place that led somewhere. Nothing here is counted or ranked.</p></section>`;
@@ -679,6 +697,76 @@ function storyTapClose(follow = true) {
     storyGoto(stop.i);
   } else storyDay(String(day.i));
 }
+// The panel that a stop or a ripple opens in, over the story. One history entry, so Back closes it.
+function stSheetEl() {
+  let el = $('.st-sheet');
+  if (!el) {
+    el = document.createElement('div');
+    el.className = 'st-sheet';
+    el.setAttribute('role', 'dialog');
+    el.setAttribute('aria-modal', 'true');
+    storyNow.sheetFocus = document.activeElement;
+    document.body.append(el);
+    document.body.classList.add('st-noscroll');
+    history.pushState({ ...(history.state || {}), roamStop: 1 }, '');
+  }
+  el.querySelector('.st-sheet-panel')?.classList.remove('rip');
+  return el;
+}
+// A ripple, opened: the stop at the centre and rings spreading out to everyone it reached, then
+// each of their visits as a post with their photos and words, in the order it happened.
+function storyRipple(i) {
+  const m = storyNow;
+  if (!m) return;
+  storyPlay(false);
+  const s = m.stops[i];
+  if (!s?.ripples.length) return storyStop(i);
+  const el = stSheetEl();
+  m.sheet = i;
+  el.setAttribute('aria-label', 'Where ' + s.name + ' led');
+  el.style.setProperty('--day', stColor(s.day));
+  const gen = (r, seen = 0) => {
+      const via = r.from && s.ripples.find((x) => x.who === r.from);
+      return via && seen < 4 ? 1 + gen(via, seen + 1) : 1;
+    },
+    rings = Math.max(...s.ripples.map((r) => gen(r))),
+    when = stDate(m.days[s.day].date, { month: 'long', year: 'numeric' });
+  // Faces sit on their ring, spread round it, ring by ring. A line runs to each face from
+  // whoever sent them: the stop itself, or the friend whose photos they saw.
+  const at = new Map(),
+    spots = s.ripples.map((r, j) => {
+      const g = gen(r),
+        same = s.ripples.filter((x) => gen(x) === g),
+        k = same.indexOf(r),
+        a = (-90 + 70 * (k - (same.length - 1) / 2) + (g - 1) * 50) * (Math.PI / 180),
+        rad = g > 1 ? 140 : 96,
+        x = Math.round(rad * Math.cos(a)),
+        y = Math.round(rad * Math.sin(a));
+      at.set(r.who, [x, y]);
+      return `<span class="st-spread-face ${r.went ? 'went' : ''}" style="--x:${x}px;--y:${y}px;--d:${0.35 + 0.45 * g + 0.1 * j}s">${stRipFace(r)}<small>${esc(stPerson(r.who).name)}</small></span>`;
+    });
+  const lines = s.ripples
+    .map((r, j) => {
+      const [x, y] = at.get(r.who),
+        [x0, y0] = (r.from && at.get(r.from)) || [0, 0];
+      return `<line x1="${x0}" y1="${y0}" x2="${x}" y2="${y}" pathLength="1" style="--d:${0.3 + 0.45 * gen(r) + 0.1 * j}s" class="${r.went ? 'went' : ''}"/>`;
+    })
+    .join('');
+  const photos = (list) =>
+    `<div class="st-rip-photos">${list.map((x) => `<figure>${x}</figure>`).join('')}</div>`;
+  const posts = [
+    `<li class="st-rip-post origin"><header><span class="st-faces">${m.st.travellers.map((t) => stAvatar(t, 'tiny')).join('')}</span><span><strong>${esc(stNames(m.st.travellers.map((t) => t.id)))}</strong><small>${esc(when)} · Day ${s.day + 1}, stop ${s.n} of this trip</small></span></header>${photos(s.photos.length ? s.photos.map((x) => photoTag(x.id, '', false)) : [photoTag(s.id)])}${s.note ? `<p>${esc(s.note)}</p>` : ''}</li>`,
+    ...s.ripples.map((r) => {
+      const who = stPerson(r.who).name,
+        via = r.from ? `through ${esc(stPerson(r.from).name)}’s photos` : 'from this story';
+      return r.went
+        ? `<li class="st-rip-post went" style="--g:${gen(r)}"><header>${stRipFace(r)}<span><strong>${esc(who)} went</strong><small>${esc(r.when)} · ${esc(r.after)}, saved ${via}</small></span></header>${photos(stRipShots(r, '(max-width: 700px) 80vw, 520px'))}${r.note ? `<p>${esc(r.note)}</p>` : ''}</li>`
+        : `<li class="st-rip-post saved" style="--g:${gen(r)}"><header>${stRipFace(r)}<span><strong>${esc(who)} saved it</strong><small>${esc(r.when)} · ${esc(r.after)}, ${via}</small></span></header></li>`;
+    }),
+  ];
+  el.innerHTML = `<div class="st-sheet-panel rip"><header class="st-sheet-bar"><button class="iconbtn" data-action="story-stop-close" aria-label="Back to the trip">${icon('left')}</button><span>${icon('ripple')} Where this place led</span><span class="st-sheet-nav"><button class="st-act" data-action="story-stop" data-i="${i}">${icon('list')}<span>The stop</span></button></span></header><div class="st-sheet-scroll"><section class="st-spread rings${rings}" aria-label="${esc(s.name)} reached ${esc(stNames(s.ripples.map((r) => r.who)))}"><svg class="st-spread-lines" viewBox="-200 -165 400 330" aria-hidden="true">${lines}</svg><span class="st-spread-ring r1"></span>${rings > 1 ? '<span class="st-spread-ring r2"></span>' : ''}<span class="st-spread-core">${s.photos[0] ? photoTag(s.photos[0].id) : photoTag(s.id)}</span>${spots.join('')}</section><div class="st-sheet-body"><h2>${esc(s.name)}</h2><p class="st-area">${esc(s.area)} · reached ${esc(stNames(s.ripples.map((r) => r.who)))} so far</p><ol class="st-rip-tl">${posts.join('')}</ol><p class="filter-note">${m.st.sample ? 'A sample: the later photos are Wikimedia Commons pictures of the same place.' : ''}</p></div></div></div>`;
+  el.querySelector('.iconbtn').focus({ preventScroll: true });
+}
 // A stop's own page: its photos, the note, who loved it and what people said. Opens over the
 // timeline or the tap-through view, so looking closer never leaves the trip.
 function storyStop(i, k = 0, to = '') {
@@ -688,17 +776,7 @@ function storyStop(i, k = 0, to = '') {
   const s = m.stops[i],
     day = m.days[s.day],
     dayStops = m.stops.filter((x) => x.day === s.day);
-  let el = $('.st-sheet');
-  if (!el) {
-    el = document.createElement('div');
-    el.className = 'st-sheet';
-    el.setAttribute('role', 'dialog');
-    el.setAttribute('aria-modal', 'true');
-    m.sheetFocus = document.activeElement;
-    document.body.append(el);
-    document.body.classList.add('st-noscroll');
-    history.pushState({ ...(history.state || {}), roamStop: 1 }, '');
-  }
+  const el = stSheetEl();
   m.sheet = i;
   el.setAttribute('aria-label', s.name);
   el.style.setProperty('--day', stColor(s.day));
@@ -729,7 +807,7 @@ function storyStop(i, k = 0, to = '') {
 }
 function stRipSheet(s) {
   if (!s.ripples.length) return '';
-  return `<section class="st-sheet-rip"><h3>${icon('ripple')} Where this place led</h3>${s.ripples
+  return `<section class="st-sheet-rip"><h3>${icon('ripple')} Where this place led <button class="inline-link" data-action="story-ripple" data-i="${s.i}">See it spread</button></h3>${s.ripples
     .map((r) =>
       r.went
         ? `<div class="st-sheet-pair"><figure>${s.photos[0] ? photoTag(s.photos[0].id) : photoTag(s.id)}<figcaption>${stAvatar(s.by, 'tiny')} ${esc(s.by.name)}'s trip · ${esc(stDate(storyNow.days[s.day].date, { month: 'long', year: 'numeric' }))}</figcaption></figure><figure>${stRipLater(r)}<figcaption>${stRipFace(r)} ${esc(stPerson(r.who).name)} · ${esc(r.when)}</figcaption></figure></div><p class="st-sheet-ripnote">${stRipText(r)}, after saving it from this story.${r.note ? ` <q>${esc(r.note)}</q>` : ''}</p>`
@@ -852,6 +930,7 @@ document.addEventListener('click', (e) => {
   else if (a === 'story-stop')
     storyStop(Number(b.dataset.i), Number(b.dataset.k || 0), b.dataset.to || '');
   else if (a === 'story-stop-close') storyStopClose();
+  else if (a === 'story-ripple') storyRipple(Number(b.dataset.i));
 });
 // Any deliberate scroll or key press hands control back from Play.
 for (const ev of ['wheel', 'touchmove', 'keydown'])

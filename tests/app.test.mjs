@@ -350,11 +350,20 @@ test('the ripple shows where a story led, and saving from a friend says so', asy
   assert.ok((await page.locator('.st-pin.rip[data-pin]').count()) >= 4, 'no ring on the map');
   await page.$eval('.st-rip-card.went', (el) => el.click());
   await page.waitForTimeout(200);
+  // A place two friends went to opens as one ripple: the spread, then each visit as a post.
+  assert.equal(await page.locator('.st-sheet .st-spread').count(), 1, 'the ripple did not open');
+  assert.equal(await page.locator('.st-sheet .st-spread-face').count(), 2, 'faces missing');
+  assert.equal(await page.locator('.st-sheet .st-rip-post.went').count(), 2, 'visits missing');
+  assert.match(await page.locator('.st-sheet').textContent(), /through Maya’s photos/);
+  // From the stop, the ripple is one tap away too.
+  await page.$eval('.st-sheet [data-action="story-stop"]', (el) => el.click());
+  await page.waitForTimeout(200);
   assert.equal(
     await page.locator('.st-sheet .st-sheet-pair').count(),
-    1,
+    2,
     'no then-and-later photos',
   );
+  assert.equal(await page.locator('.st-sheet [data-action="story-ripple"]').count(), 1);
   await page.context().close();
   // A viewer saving a place from someone else's story is told the travellers will see it.
   const viewer = await openApp(browser, origin, { hash: '#/story/istanbul-sample' });
