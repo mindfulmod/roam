@@ -564,3 +564,23 @@ test('friends with something new wear a ring in the feed, and opening their prof
   assert.deepEqual(again.errors, []);
   await again.context().close();
 });
+
+test('on a phone a story stop peeks at half height, then grows when scrolled', async () => {
+  const page = await openApp(browser, origin, { hash: '#/story/japan-sample' });
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.evaluate(() => storyStop(1));
+  const sheet = page.locator('.st-sheet');
+  assert.match(await sheet.getAttribute('class'), /\bpeek\b/);
+  const top = async () => (await page.locator('.st-sheet-panel').boundingBox()).y;
+  assert.ok((await top()) > 300, 'the peeking sheet covers the whole screen');
+  assert.ok(
+    await page.locator('.st-sheet h2').isVisible(),
+    'the stop name is hidden while peeking',
+  );
+  await page.evaluate(() => (document.querySelector('.st-sheet-scroll').scrollTop = 40));
+  await page.waitForTimeout(100);
+  assert.doesNotMatch(await sheet.getAttribute('class'), /\bpeek\b/);
+  assert.ok((await top()) < 100, 'the sheet did not grow');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

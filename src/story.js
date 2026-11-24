@@ -629,6 +629,9 @@ function storyTap(k) {
     el.setAttribute('aria-label', 'The trip, one stop at a time');
     el.innerHTML = `<div class="st-tap-top"><div class="st-tap-bars"></div><div class="st-tap-head"><span></span><button class="st-tap-x" data-action="story-tap-close" aria-label="Close">${icon('close')}</button></div></div><div class="story-mapbox st-tap-map"></div><div class="st-tap-card"></div>`;
     m.tapFocus = document.activeElement;
+    // On a phone a stop first peeks up to about half height, so the map and the day stay in
+    // view; scrolling the stop, or tapping its top bar, brings it up to full height.
+    if (matchMedia('(max-width: 760px)').matches) el.classList.add('peek');
     document.body.append(el);
     document.body.classList.add('st-noscroll');
     el.querySelector('.st-tap-map').append($('#story-map'));
@@ -706,6 +709,9 @@ function stSheetEl() {
     el.setAttribute('role', 'dialog');
     el.setAttribute('aria-modal', 'true');
     storyNow.sheetFocus = document.activeElement;
+    // On a phone a stop first peeks up to about half height, so the map and the day stay in
+    // view; scrolling the stop, or tapping its top bar, brings it up to full height.
+    if (matchMedia('(max-width: 760px)').matches) el.classList.add('peek');
     document.body.append(el);
     document.body.classList.add('st-noscroll');
     history.pushState({ ...(history.state || {}), roamStop: 1 }, '');
@@ -722,6 +728,7 @@ function storyRipple(i) {
   const s = m.stops[i];
   if (!s?.ripples.length) return storyStop(i);
   const el = stSheetEl();
+  el.classList.remove('peek');
   m.sheet = i;
   el.setAttribute('aria-label', 'Where ' + s.name + ' led');
   el.style.setProperty('--day', stColor(s.day));
@@ -802,7 +809,20 @@ function storyStop(i, k = 0, to = '') {
       { passive: true },
     );
   }
-  if (to === 'comments') $('#st-sheet-talk').scrollIntoView({ block: 'start' });
+  const grow = () => el.classList.remove('peek');
+  el.querySelector('.st-sheet-scroll').addEventListener(
+    'scroll',
+    (e) => e.target.scrollTop > 2 && grow(),
+    { passive: true },
+  );
+  el.querySelector('.st-sheet-bar').addEventListener(
+    'click',
+    (e) => !e.target.closest('button') && grow(),
+  );
+  if (to === 'comments') {
+    grow();
+    $('#st-sheet-talk').scrollIntoView({ block: 'start' });
+  }
   el.querySelector('.iconbtn').focus({ preventScroll: true });
 }
 function stRipSheet(s) {
@@ -953,9 +973,10 @@ document.addEventListener('click', (e) => {
       stLastTap = Date.now();
       stTapTimer = setTimeout(() => openViewer(b.dataset.id, 0), 300);
     }
-  } else if (a === 'story-stop' && b.closest('.st-sheet-foot'))
+  } else if (a === 'story-stop' && b.closest('.st-sheet-foot')) {
+    $('.st-sheet')?.classList.remove('peek');
     $('#st-sheet-talk')?.scrollIntoView({ block: 'start', behavior: 'smooth' });
-  else if (a === 'story-stop')
+  } else if (a === 'story-stop')
     storyStop(Number(b.dataset.i), Number(b.dataset.k || 0), b.dataset.to || '');
   else if (a === 'story-stop-close') storyStopClose();
   else if (a === 'story-ripple') storyRipple(Number(b.dataset.i));
