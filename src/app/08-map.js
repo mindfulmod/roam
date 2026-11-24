@@ -36,6 +36,7 @@ function renderMap(id = '') {
   map.attributionControl.addAttribution(
     'Offline outline: <a href="https://www.naturalearthdata.com/">Natural Earth</a>',
   );
+  foldCredit(map);
   markerLayer = L.layerGroup().addTo(map);
   routeLayer = L.layerGroup().addTo(map);
   map.on('click', () => hideMapCard());
@@ -261,4 +262,42 @@ function mapLocate() {
     () => toast('Location unavailable. Select a destination from the map menu.'),
     { enableHighAccuracy: false, timeout: 12000, maximumAge: 300000 },
   );
+}
+// Map credits fold down to a small "i" in the corner (as on stories and the feed), so no
+// footer sits across the map. OpenStreetMap's attribution rules ask for the credit to be
+// visible when the map opens, so it starts open and folds at the first touch, click or scroll
+// on the map, or after five seconds. Tap the "i" to read it again.
+function foldCredit(m) {
+  const credit = m.attributionControl?.getContainer();
+  if (!credit) return;
+  credit.classList.add('soc-credit', 'open');
+  credit.setAttribute('role', 'button');
+  credit.setAttribute('tabindex', '0');
+  credit.setAttribute('aria-label', 'Map credits');
+  credit.setAttribute('aria-expanded', 'true');
+  // Only the person's own touch counts: the app's own fit-to-pins moves don't fold it.
+  const box = m.getContainer(),
+    fold = (e) => {
+      if (e && credit.contains(e.target)) return;
+      clearTimeout(timer);
+      box.removeEventListener('pointerdown', fold);
+      box.removeEventListener('wheel', fold);
+      credit.classList.remove('open');
+      credit.setAttribute('aria-expanded', 'false');
+    },
+    timer = setTimeout(fold, 5000);
+  box.addEventListener('pointerdown', fold);
+  box.addEventListener('wheel', fold, { passive: true });
+  L.DomEvent.disableClickPropagation(credit);
+  const flip = () => credit.setAttribute('aria-expanded', String(credit.classList.toggle('open')));
+  credit.addEventListener('click', (e) => {
+    e.stopPropagation();
+    if (!e.target.closest('a')) flip();
+  });
+  credit.addEventListener('keydown', (e) => {
+    if ((e.key === 'Enter' || e.key === ' ') && e.target === credit) {
+      e.preventDefault();
+      flip();
+    }
+  });
 }
