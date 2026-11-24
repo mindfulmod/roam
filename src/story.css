@@ -1132,6 +1132,43 @@ body.st-noscroll {
   .st-sheet-bar {
     padding-top: 8px;
   }
+  .st-sheet {
+    transition: padding-top 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .st-sheet.peek {
+    padding-top: 42vh;
+    padding-top: 42dvh;
+  }
+  /* While peeking the photo is shorter, so the stop's name and note show too. */
+  .st-sheet-photos img {
+    transition: height 0.28s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
+  .st-sheet.peek .st-sheet-photos img {
+    height: 24vh;
+    height: 24svh;
+  }
+  /* A grab handle on the peeking sheet hints that it pulls up. */
+  .st-sheet.peek .st-sheet-bar {
+    position: relative;
+    cursor: pointer;
+  }
+  .st-sheet.peek .st-sheet-bar::before {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 50%;
+    width: 36px;
+    height: 4px;
+    margin-left: -18px;
+    border-radius: 2px;
+    background: var(--line);
+  }
+}
+@media (max-width: 760px) and (prefers-reduced-motion: reduce) {
+  .st-sheet,
+  .st-sheet-photos img {
+    transition: none;
+  }
 }
 .st-sheet-bar {
   flex: none;
