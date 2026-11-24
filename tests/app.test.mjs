@@ -542,3 +542,25 @@ test('a stop keeps love, want to go and comment in reach while its page scrolls'
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('friends with something new wear a ring in the feed, and opening their profile clears it', async () => {
+  const page = await openApp(browser, origin, { hash: '#/feed' });
+  const ringed = () =>
+    page
+      .locator('.soc-strip .soc-friend.new')
+      .evaluateAll((a) => a.map((x) => x.getAttribute('href')));
+  const before = await ringed();
+  assert.ok(before.length > 1, 'too few rings to test');
+  await page.context().close();
+  // A fresh visit that opens one friend's profile before the feed: only that ring clears.
+  const again = await openApp(browser, origin, { hash: before[0] });
+  await again.waitForSelector('.soc-page, .soc-profile, h1');
+  await go(again, '#/feed');
+  const after = await again
+    .locator('.soc-strip .soc-friend.new')
+    .evaluateAll((a) => a.map((x) => x.getAttribute('href')));
+  assert.ok(!after.includes(before[0]), 'the ring stayed after opening the profile');
+  assert.ok(after.includes(before[1]), 'other friends lost their ring too');
+  assert.deepEqual(again.errors, []);
+  await again.context().close();
+});

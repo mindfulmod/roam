@@ -492,6 +492,20 @@ function socFeedItems() {
       (!f.story || socCanSee(f.story)),
   );
 }
+// Friends along the top of the stream. A ring marks anyone with something you have not seen yet;
+// those come first, everyone else keeps the usual order. Nobody is ordered by a number.
+function socStripHtml(fresh) {
+  const isNew = (id) => fresh.some((f) => f.who.includes(id));
+  const ids = socFriends().filter((id) => !SOCS.muted.includes(id));
+  if (!ids.length) return '';
+  const order = [...ids.filter(isNew), ...ids.filter((id) => !isNew(id))];
+  return `<div class="soc-friendrow soc-strip" role="list" aria-label="Your friends">${order
+    .map(
+      (id) =>
+        `<a class="soc-friend${isNew(id) ? ' new' : ''}" role="listitem" href="#/people/${id}" aria-label="${esc(socName(id))}${isNew(id) ? ', something new' : ''}">${socAvatar(id, 'mid')}<span>${esc(socName(id))}</span></a>`,
+    )
+    .join('')}</div>`;
+}
 function renderFeed() {
   headerActive('feed');
   document.title = 'Feed · Tandem Roads';
@@ -505,7 +519,7 @@ function renderFeed() {
     socNeedsHtml() +
     socLookHtml() +
     socMyPollsHtml() +
-    `<section class="soc-stream" aria-label="From your friends"><div class="soc-sechead"><h2>From your friends</h2><button class="btn small ghost soc-ask-btn" data-action="soc-dream">${icon('plus')} Ask “where next?”</button></div>${fresh.length ? `<p class="soc-divider"><span>New since your last visit</span></p>${fresh.map(socItemHtml).join('')}` : ''}${old.length ? `${fresh.length ? '<p class="soc-divider"><span>Earlier</span></p>' : ''}${old.map(socItemHtml).join('')}` : ''}${items.length ? '' : '<p class="soc-calm">Nothing new from your friends.</p>'}</section>` +
+    `<section class="soc-stream" aria-label="From your friends"><div class="soc-sechead"><h2>From your friends</h2><button class="btn small ghost soc-ask-btn" data-action="soc-dream">${icon('plus')} Ask “where next?”</button></div>${socStripHtml(fresh)}${fresh.length ? `<p class="soc-divider"><span>New since your last visit</span></p>${fresh.map(socItemHtml).join('')}` : ''}${old.length ? `${fresh.length ? '<p class="soc-divider"><span>Earlier</span></p>' : ''}${old.map(socItemHtml).join('')}` : ''}${items.length ? '' : '<p class="soc-calm">Nothing new from your friends.</p>'}</section>` +
     `<section class="soc-end">${icon('check')}<h2>You’re all caught up</h2><p class="muted">That is everything. The feed does not refill itself.</p><div class="soc-need-acts"><a class="btn" href="#/">Explore places</a><button class="btn ghost" data-action="soc-invite">Invite a friend</button></div></section>` +
     footer() +
     '</div>';
@@ -804,6 +818,14 @@ function renderProfile(id) {
   const p = socPerson(id),
     me = socPerson(socMe()),
     own = id === socMe();
+  // Opening a friend's profile counts as seeing their news, so their ring in the feed clears.
+  if (p && !own) {
+    const theirs = SOCIAL.feed.filter((f) => f.who.includes(id)).map((f) => f.id);
+    if (theirs.some((x) => !SOCS.seen.includes(x))) {
+      SOCS.seen = [...new Set([...SOCS.seen, ...theirs])];
+      socSave();
+    }
+  }
   if (!p || SOCS.blocked.includes(id)) {
     headerActive('me');
     $('#app').innerHTML =

@@ -945,6 +945,35 @@
   text-decoration: none;
   font-size: 13px;
 }
+.soc-strip {
+  flex-wrap: nowrap;
+  gap: 12px;
+  margin: 4px -16px 14px;
+  padding: 4px 16px 6px;
+  overflow-x: auto;
+  scrollbar-width: none;
+}
+.soc-strip::-webkit-scrollbar {
+  display: none;
+}
+.soc-strip .soc-friend {
+  flex: none;
+}
+/* Something new: an orange ring with a gap, like a story ring, and the name in bold. */
+.soc-friend.new .soc-av {
+  box-shadow:
+    0 0 0 2px var(--paper),
+    0 0 0 4.5px var(--teal-fill);
+}
+.soc-friend.new span {
+  font-weight: 650;
+}
+.soc-friend span {
+  max-width: 64px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .soc-friend.add .st-avatar {
   background: none;
   border: 1px dashed var(--muted);
