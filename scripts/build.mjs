@@ -121,6 +121,7 @@ const parts = {
   art,
   gallery,
   popularity: await readJson('data/popularity.json'),
+  countryArrivals: await readJson('data/country-arrivals.json'),
   costs: await readJson('data/costs.json'),
   world: await readJson('data/world.geojson'),
   stories: await readJson('data/stories.json'),
