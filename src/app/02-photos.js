@@ -23,7 +23,7 @@ function galleryUrl(g, w = 960) {
   return `https://upload.wikimedia.org/wikipedia/commons/thumb/${g.hh[0]}/${g.hh}/${n}/${w}px-${n}`;
 }
 function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
-  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="this.closest('[data-gslide],.cityphoto,.gtile')?.remove()">`;
+  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="galleryDrop(this)">`;
 }
 function galleryCredit(g) {
   const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f),
@@ -37,26 +37,22 @@ function photoCount(id) {
     ? `<span class="photo-count" title="${n + 1} photos">${icon('camera')}${n + 1}</span>`
     : '';
 }
-// Photo area of a place or city sheet. Desktop gets a mosaic (one large photo and up to
-// four beside it, as Airbnb and Booking do); phones get a swipeable carousel (Instagram).
-// Either way, any photo opens the full-screen viewer below.
+// Photo area of a place sheet, as X and Instagram show a post's photos: the main photo is a
+// swipeable track you can flick through at once, with a strip of thumbnails underneath that
+// jumps to any photo and follows the swipe. Tapping a photo still opens the full-screen viewer.
 function galleryHero(id, firstSlide, label) {
-  return galleryFor(id).length && !isMobile()
-    ? galleryMosaic(id, firstSlide)
-    : galleryCarousel(id, firstSlide, label);
+  return galleryCarousel(id, firstSlide, label);
 }
-function galleryMosaic(id, first) {
+// One thumbnail button. A Commons thumbnail that fails to load drops out of the strip.
+function galleryThumb(src, i, n, commons) {
+  return `<button class="gthumb${i ? '' : ' on'}" data-action="gal-thumb" data-i="${i}" aria-label="Photo ${i + 1} of ${n}"${i ? '' : ' aria-current="true"'}><img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${commons ? ` onerror="this.closest('.gthumb')?.remove()"` : ''}></button>`;
+}
+// The thumbnail strip under a place's carousel. `first` is the main visual's image URL.
+function galleryThumbs(id, first) {
   const gal = galleryFor(id),
-    n = gal.length + 1,
-    shown = Math.min(n, 5);
-  const tiles = gal
-    .slice(0, shown - 1)
-    .map(
-      (g, i) =>
-        `<button class="gtile" data-action="gal-open" data-id="${id}" data-i="${i + 1}" aria-label="View photo ${i + 2} of ${n} full screen">${galleryImg(g, false, '(max-width: 1100px) 25vw, 240px')}</button>`,
-    )
-    .join('');
-  return `<div class="gmosaic n${shown}"><figure class="gtile main" id="place-visual-main" data-action="gal-open" data-id="${id}" data-i="0" role="button" tabindex="0" aria-label="View photo 1 of ${n} full screen">${first}</figure>${tiles}<button class="gall" data-action="gal-open" data-id="${id}" data-i="0">${icon('grid')} Show all ${n} photos</button></div>`;
+    n = gal.length + 1;
+  if (!gal.length) return '';
+  return `<div class="gthumbs" role="group" aria-label="Choose a photo">${first ? galleryThumb(first, 0, n) : ''}${gal.map((g, i) => galleryThumb(galleryUrl(g, 250), i + 1, n, true)).join('')}</div>`;
 }
 // Swipeable carousel: first slide is the existing main visual, then the Commons photos.
 function galleryCarousel(id, firstSlide, label) {
@@ -64,11 +60,11 @@ function galleryCarousel(id, firstSlide, label) {
     open = (i) =>
       `data-action="gal-open" data-id="${id}" data-i="${i}" role="button" tabindex="-1" aria-label="View photo ${i + 1} full screen"`;
   const slides =
-    `<figure class="gslide" data-gslide id="place-visual-main" ${open(0)}>${firstSlide}</figure>` +
+    `<figure class="gslide" data-gslide data-k="0" id="place-visual-main" ${open(0)}>${firstSlide}</figure>` +
     gal
       .map(
         (g, i) =>
-          `<figure class="gslide" data-gslide ${open(i + 1)}>${galleryImg(g)}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
+          `<figure class="gslide" data-gslide data-k="${i + 1}" ${open(i + 1)}>${galleryImg(g)}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
       )
       .join('');
   const expand = `<span class="gexpand" aria-hidden="true">${icon('expand')}</span>`;
@@ -85,6 +81,38 @@ function galleryGo(scope, i) {
   i = Math.max(0, Math.min(slides.length - 1, i));
   t.scrollTo({ left: slides[i].offsetLeft, behavior: 'smooth' });
 }
+// Thumbnails keep the number of the photo they show, so a photo that fails to load can drop
+// out without the strip pointing at the wrong slide.
+function gallerySlideFor(scope, k) {
+  const slides = [...scope.querySelectorAll('[data-gslide]')];
+  return Math.max(
+    0,
+    slides.findIndex((s) => s.dataset.k === String(k)),
+  );
+}
+// A Commons photo that will not load leaves the gallery. The count and thumbnails follow, and a
+// city's photo section with nothing left to show disappears rather than leaving an empty frame.
+function galleryDrop(img) {
+  const slide = img.closest('[data-gslide],.cityphoto,.gtile'),
+    scope = img.closest('[data-gscope]');
+  if (!slide) return;
+  const k = slide.dataset.k;
+  slide.remove();
+  if (!scope) return;
+  const n = scope.querySelectorAll('[data-gslide]').length;
+  if (!n && scope.matches('.cityphotos')) return scope.remove();
+  if (k != null) scope.querySelector(`.gthumb[data-i="${k}"]`)?.remove();
+  if (n < 2) {
+    scope.querySelectorAll('.gnav,.gcount,.gthumbs').forEach((x) => x.remove());
+    return;
+  }
+  const t = scope.querySelector('[data-gtrack]'),
+    c = scope.querySelector('.gcount');
+  if (c && t) c.textContent = `${galleryIndex(t) + 1} / ${n}`;
+  scope
+    .querySelectorAll('.gthumb')
+    .forEach((b, j) => b.setAttribute('aria-label', `Photo ${j + 1} of ${n}`));
+}
 function galleryIndex(t) {
   return Math.round(t.scrollLeft / Math.max(1, t.clientWidth));
 }
@@ -96,8 +124,20 @@ document.addEventListener(
     const scope = galleryScope(t),
       i = galleryIndex(t),
       n = t.querySelectorAll('[data-gslide]').length;
-    const c = scope.querySelector('.gcount');
+    const c = scope.querySelector('.gcount'),
+      k = t.querySelectorAll('[data-gslide]')[i]?.dataset.k;
     if (c) c.textContent = `${i + 1} / ${n}`;
+    scope.querySelectorAll('.gthumb').forEach((b) => {
+      const on = b.dataset.i === k;
+      b.classList.toggle('on', on);
+      if (!on) return b.removeAttribute('aria-current');
+      b.setAttribute('aria-current', 'true');
+      const strip = b.parentElement;
+      strip.scrollTo({
+        left: b.offsetLeft - strip.clientWidth / 2 + b.clientWidth / 2,
+        behavior: 'smooth',
+      });
+    });
   },
   true,
 );
@@ -110,9 +150,27 @@ document.addEventListener('keydown', (e) => {
   }
 });
 function cityPhotos(c) {
-  const gal = galleryFor(c.id);
-  if (!gal.length) return '';
-  return `<section class="cityphotos" aria-label="Photos of ${esc(c.name)}"><div class="cityphotos-head"><h3>${icon('camera')} See what to expect</h3><small>${gal.length} more photos · Wikimedia Commons</small></div><div class="cityphotos-row">${gal.map((g, i) => `<button class="cityphoto" data-action="city-photos" data-id="${c.id}" data-i="${i + 1}" aria-label="Open photo ${i + 2} of ${esc(c.name)}">${galleryImg(g, true, '(max-width: 700px) 70vw, 320px')}</button>`).join('')}</div></section>`;
+  const gal = galleryFor(c.id),
+    n = gal.length;
+  if (!n) return '';
+  // Same pattern as a place: a big photo to swipe through, thumbnails underneath.
+  const open = (i) =>
+    `data-action="city-photos" data-id="${c.id}" data-i="${i + 1}" role="button" tabindex="-1" aria-label="View photo ${i + 1} of ${esc(c.name)} full screen"`;
+  const slides = gal
+    .map(
+      (g, i) =>
+        `<figure class="gslide" data-gslide data-k="${i}" ${open(i)}>${galleryImg(g, i > 0, '(max-width: 700px) 100vw, 900px')}<figcaption class="photo-caption">${galleryCredit(g)}</figcaption></figure>`,
+    )
+    .join('');
+  const nav =
+    n > 1
+      ? `<button class="gnav prev" data-action="gal-step" data-dir="-1" aria-label="Previous photo">${icon('left')}</button><button class="gnav next" data-action="gal-step" data-dir="1" aria-label="Next photo">${icon('arrow')}</button><span class="gcount" aria-live="polite">1 / ${n}</span>`
+      : '';
+  const thumbs =
+    n > 1
+      ? `<div class="gthumbs" role="group" aria-label="Choose a photo">${gal.map((g, i) => galleryThumb(galleryUrl(g, 250), i, n, true)).join('')}</div>`
+      : '';
+  return `<section class="cityphotos" aria-label="Photos of ${esc(c.name)}" data-gscope><div class="cityphotos-head"><h3>${icon('camera')} See what to expect</h3><small>${n} photos · Wikimedia Commons</small></div><div class="citygallery"><div class="gtrack" tabindex="0" aria-label="Photos of ${esc(c.name)}" data-gtrack>${slides}</div>${nav}</div>${thumbs}</section>`;
 }
 /* ------------------------------------------------------------------
    Full-screen photo viewer (Google Photos, Instagram, Unsplash).

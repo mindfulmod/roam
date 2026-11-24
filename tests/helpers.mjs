@@ -45,7 +45,13 @@ export const PHONE = { width: 390, height: 844 };
 // A page on the built app. `state` is written to localStorage before the app starts.
 // Collects uncaught errors in page.errors.
 export async function openApp(browser, origin, { state, viewport = PHONE, hash = '#/' } = {}) {
-  const context = await browser.newContext({ viewport, hasTouch: viewport.width < 800 });
+  // Reduced motion turns off the page's smooth scrolling, which otherwise races Playwright's own
+  // scroll-into-view and leaves clicks below the fold retrying forever.
+  const context = await browser.newContext({
+    viewport,
+    hasTouch: viewport.width < 800,
+    reducedMotion: 'reduce',
+  });
   await context.route(
     (u) => u.origin !== origin,
     (r) => r.abort(),
