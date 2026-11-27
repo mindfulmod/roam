@@ -64,8 +64,8 @@
       "id": "plovdiv-plo-theatre",
       "name": "Roman Theatre",
       "kind": "see",
-      "lat": 42.1468,
-      "lon": 24.751,
+      "lat": 42.14699,
+      "lon": 24.7511,
       "wiki": "Ancient theatre of Philippopolis",
       "summary": "2nd-century theatre on the hillside, still used for summer concerts and opera.",
       "expect": "Paid.",
@@ -104,15 +104,14 @@
       "tradeoffs": [
         "Paid.",
         "See a summer show if you can."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "plovdiv-plo-oldtown",
       "name": "Old Town",
       "kind": "see",
-      "lat": 42.1495,
-      "lon": 24.7535,
+      "lat": 42.14986,
+      "lon": 24.75265,
       "wiki": "Old Plovdiv",
       "summary": "Cobbled hill of brightly painted 19th-century Revival houses and museums.",
       "expect": "Steep cobbles.",
@@ -151,15 +150,14 @@
       "tradeoffs": [
         "Steep cobbles.",
         "Visit Balabanov House and the Ethnographic Museum."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "plovdiv-plo-kapana",
       "name": "Kapana district",
       "kind": "see",
-      "lat": 42.1465,
-      "lon": 24.7475,
+      "lat": 42.14809,
+      "lon": 24.74777,
       "wiki": "Kapana",
       "summary": "\"The Trap\", a maze of lanes full of street art, craft bars and galleries.",
       "expect": "Liveliest at night.",
@@ -198,15 +196,14 @@
       "tradeoffs": [
         "Liveliest at night.",
         "Come for dinner and stay for drinks."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "plovdiv-plo-nebet",
       "name": "Nebet Tepe",
       "kind": "see",
-      "lat": 42.1515,
-      "lon": 24.752,
+      "lat": 42.15131,
+      "lon": 24.75199,
       "wiki": "Nebet Tepe",
       "summary": "Hilltop with the ruins of the oldest Thracian settlement and a city view.",
       "expect": "Free.",
@@ -246,13 +243,21 @@
         "Free.",
         "Come at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5817,
+          "period": "202511-202610",
+          "title": "Nebet Tepe",
+          "url": "https://en.wikipedia.org/wiki/Nebet_Tepe",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "plovdiv-plo-stadium",
       "name": "Roman Stadium",
       "kind": "see",
-      "lat": 42.1477,
+      "lat": 42.14774,
       "lon": 24.748,
       "wiki": "Roman Stadium of Philippopolis",
       "summary": "Part of a huge Roman stadium visible below the main pedestrian street.",
@@ -291,15 +296,14 @@
       "tradeoffs": [
         "Free to view; small 3D film paid.",
         "Have a coffee at the Dzhumaya Mosque next door."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "plovdiv-plo-bachkovo",
       "name": "Bachkovo Monastery",
       "kind": "see",
-      "lat": 41.9425,
-      "lon": 24.8495,
+      "lat": 41.94222,
+      "lon": 24.84944,
       "wiki": "Bachkovo Monastery",
       "summary": "Bulgaria's second-largest monastery, founded in 1083, with fine frescoes.",
       "expect": "Free; 30 km south.",
@@ -340,8 +344,16 @@
         "Free; 30 km south.",
         "Combine with Asen's Fortress on the way."
       ],
-      "pinApproximate": true,
       "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8757,
+          "period": "202511-202610",
+          "title": "Bachkovo Monastery",
+          "url": "https://en.wikipedia.org/wiki/Bachkovo_Monastery",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q47020",
       "local": {
         "name": "Бачковски манастир",
@@ -352,8 +364,8 @@
       "id": "plovdiv-plo-rose",
       "name": "Rose Valley (Kazanlak)",
       "kind": "see",
-      "lat": 42.6194,
-      "lon": 25.393,
+      "lat": 42.61667,
+      "lon": 25.4,
       "wiki": "Rose Valley, Bulgaria",
       "summary": "Valley that produces much of the world's rose oil, with a Thracian tomb at Kazanlak.",
       "expect": "Harvest is late May to early June.",
@@ -393,8 +405,16 @@
         "Harvest is late May to early June.",
         "Join a dawn rose-picking."
       ],
-      "pinApproximate": true,
       "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9625,
+          "period": "202511-202610",
+          "title": "Rose Valley, Bulgaria",
+          "url": "https://en.wikipedia.org/wiki/Rose_Valley%2C_Bulgaria",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q768480",
       "local": {
         "name": "Розова долина",
@@ -576,6 +596,7 @@
       }
     }
   ],
+  "enriched": "2026-11-27",
   "wikidata": "Q459",
   "local": {
     "name": "Пловдив",

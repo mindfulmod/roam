@@ -113,15 +113,23 @@
         "Paid; busy midday.",
         "Book a time slot online."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 60246,
+          "period": "202511-202610",
+          "title": "Mauritshuis",
+          "url": "https://en.wikipedia.org/wiki/Mauritshuis",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q221092"
     },
     {
       "id": "the-hague-hag-binnenhof",
       "name": "Binnenhof and Hofvijver",
       "kind": "see",
-      "lat": 52.0799,
-      "lon": 4.3131,
+      "lat": 52.07963,
+      "lon": 4.31304,
       "wiki": "Binnenhof",
       "summary": "Parliament complex around the medieval Knights' Hall beside a pond.",
       "expect": "Under renovation for years; parts are fenced.",
@@ -161,15 +169,23 @@
         "Under renovation for years; parts are fenced.",
         "Photograph across the Hofvijver pond."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 46306,
+          "period": "202511-202610",
+          "title": "Binnenhof",
+          "url": "https://en.wikipedia.org/wiki/Binnenhof",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q863935"
     },
     {
       "id": "the-hague-hag-escher",
       "name": "Escher in Het Paleis",
       "kind": "see",
-      "lat": 52.0832,
-      "lon": 4.311,
+      "lat": 52.08342,
+      "lon": 4.31426,
       "wiki": "Escher in Het Paleis",
       "summary": "M. C. Escher's mind-bending prints in a former royal palace.",
       "expect": "Paid.",
@@ -207,8 +223,7 @@
       "tradeoffs": [
         "Paid.",
         "Try the optical-illusion room upstairs."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "the-hague-hag-peace",
@@ -255,7 +270,15 @@
         "Inside only on rare guided tours.",
         "The visitor centre is free."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 51131,
+          "period": "202511-202610",
+          "title": "Peace Palace",
+          "url": "https://en.wikipedia.org/wiki/Peace_Palace",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q834448",
       "local": {
         "name": "Vredespaleis",
@@ -266,8 +289,8 @@
       "id": "the-hague-hag-scheveningen",
       "name": "Scheveningen beach and pier",
       "kind": "see",
-      "lat": 52.114,
-      "lon": 4.279,
+      "lat": 52.10806,
+      "lon": 4.27306,
       "wiki": "Scheveningen",
       "summary": "Wide sandy beach with a pier, Ferris wheel and dune walks.",
       "expect": "Windy; busy summer weekends.",
@@ -307,7 +330,15 @@
         "Windy; busy summer weekends.",
         "Walk south over the dunes to quieter sand."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 46587,
+          "period": "202511-202610",
+          "title": "Scheveningen",
+          "url": "https://en.wikipedia.org/wiki/Scheveningen",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q837211"
     },
     {
@@ -315,7 +346,7 @@
       "name": "Madurodam",
       "kind": "see",
       "lat": 52.0995,
-      "lon": 4.2986,
+      "lon": 4.2975,
       "wiki": "Madurodam",
       "summary": "The Netherlands in miniature: canals, windmills and Schiphol at 1:25 scale.",
       "expect": "Paid; fun with kids.",
@@ -354,15 +385,23 @@
         "Paid; fun with kids.",
         "Go late afternoon when it's calmer."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 35059,
+          "period": "202511-202610",
+          "title": "Madurodam",
+          "url": "https://en.wikipedia.org/wiki/Madurodam",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q747322"
     },
     {
       "id": "the-hague-hag-delft",
       "name": "Delft",
       "kind": "see",
-      "lat": 52.0116,
-      "lon": 4.3571,
+      "lat": 52.01167,
+      "lon": 4.35917,
       "wiki": "Delft",
       "summary": "Canal town of Vermeer and Delft blue, with leaning Oude Kerk and the Royal Delft factory.",
       "expect": "Tram 1 from The Hague.",
@@ -403,8 +442,16 @@
         "Tram 1 from The Hague.",
         "Climb the Nieuwe Kerk tower for the view."
       ],
-      "pinApproximate": true,
       "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 145539,
+          "period": "202511-202610",
+          "title": "Delft",
+          "url": "https://en.wikipedia.org/wiki/Delft",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q690"
     },
     {
@@ -581,6 +628,7 @@
       }
     }
   ],
+  "enriched": "2026-11-27",
   "wikidata": "Q36600",
   "local": {
     "name": "Den Haag",

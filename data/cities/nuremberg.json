@@ -83,8 +83,8 @@
       "id": "nuremberg-nue-castle",
       "name": "Nuremberg Castle",
       "kind": "see",
-      "lat": 49.4579,
-      "lon": 11.0757,
+      "lat": 49.45778,
+      "lon": 11.07583,
       "wiki": "Nuremberg Castle",
       "summary": "Imperial castle above the old town, with a deep well and Sinwell Tower views.",
       "expect": "Paid for the tower, well and palace.",
@@ -124,7 +124,15 @@
         "Paid for the tower, well and palace.",
         "Climb the Sinwell Tower for the rooftop view."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 50162,
+          "period": "202511-202610",
+          "title": "Nuremberg Castle",
+          "url": "https://en.wikipedia.org/wiki/Nuremberg_Castle",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q707396",
       "local": {
         "name": "Nürnberger Burg",
@@ -135,8 +143,8 @@
       "id": "nuremberg-nue-rally",
       "name": "Documentation Center Nazi Party Rally Grounds",
       "kind": "see",
-      "lat": 49.4304,
-      "lon": 11.1146,
+      "lat": 49.43384,
+      "lon": 11.11247,
       "wiki": "Nazi party rally grounds",
       "summary": "The unfinished Congress Hall and Zeppelin Field, with a museum on how the Nazis used them.",
       "expect": "Museum reopened after renovation; check opening.",
@@ -175,14 +183,22 @@
         "Museum reopened after renovation; check opening.",
         "Walk around the lake to the Zeppelin tribune."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 90072,
+          "period": "202511-202610",
+          "title": "Nazi Party rally grounds",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Party_rally_grounds",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "nuremberg-nue-trials",
       "name": "Memorium Nuremberg Trials",
       "kind": "see",
-      "lat": 49.4553,
-      "lon": 11.0498,
+      "lat": 49.45444,
+      "lon": 11.04833,
       "wiki": "Nuremberg trials",
       "summary": "Courtroom 600 where the Nazi leaders were tried, with an exhibition.",
       "expect": "Courtroom closed when in use.",
@@ -221,7 +237,15 @@
         "Courtroom closed when in use.",
         "Audio guide is excellent."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2608173,
+          "period": "202511-202610",
+          "title": "Nuremberg trials",
+          "url": "https://en.wikipedia.org/wiki/Nuremberg_trials",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q80130",
       "local": {
         "name": "Nürnberger Prozesse",
@@ -232,8 +256,8 @@
       "id": "nuremberg-nue-durer",
       "name": "Albrecht Dürer's House",
       "kind": "see",
-      "lat": 49.457,
-      "lon": 11.0735,
+      "lat": 49.45722,
+      "lon": 11.07389,
       "wiki": "Albrecht Dürer's House",
       "summary": "The painter's 15th-century home and workshop.",
       "expect": "Paid; closed some Mondays.",
@@ -273,7 +297,15 @@
         "Paid; closed some Mondays.",
         "Join the costumed Agnes tour at weekends."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6756,
+          "period": "202511-202610",
+          "title": "Albrecht Dürer's House",
+          "url": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer's_House",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q523148",
       "local": {
         "name": "Albrecht-Dürer-Haus",
@@ -331,8 +363,8 @@
       "id": "nuremberg-nue-gnm",
       "name": "Germanisches Nationalmuseum",
       "kind": "see",
-      "lat": 49.4481,
-      "lon": 11.0761,
+      "lat": 49.44833,
+      "lon": 11.07556,
       "wiki": "Germanisches Nationalmuseum",
       "summary": "Germany's biggest museum of its art and culture, including Dürer paintings and the oldest globe.",
       "expect": "Paid; closed Mondays.",
@@ -372,15 +404,23 @@
         "Paid; closed Mondays.",
         "Focus on two or three wings."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14161,
+          "period": "202511-202610",
+          "title": "Germanisches Nationalmuseum",
+          "url": "https://en.wikipedia.org/wiki/Germanisches_Nationalmuseum",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q478695"
     },
     {
       "id": "nuremberg-nue-xmas",
       "name": "Christkindlesmarkt",
       "kind": "see",
-      "lat": 49.454,
-      "lon": 11.0775,
+      "lat": 49.45389,
+      "lon": 11.07722,
       "wiki": "Nuremberg Christmas Market",
       "summary": "Germany's most famous Christmas market with red-and-white striped stalls.",
       "expect": "Late November to 24 December; very crowded.",
@@ -420,8 +460,16 @@
         "Late November to 24 December; very crowded.",
         "Weekday afternoons are calmer."
       ],
-      "pinApproximate": true,
       "optional": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11601,
+          "period": "202511-202610",
+          "title": "Christkindlesmarkt, Nuremberg",
+          "url": "https://en.wikipedia.org/wiki/Christkindlesmarkt%2C_Nuremberg",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q832700",
       "local": {
         "name": "Nürnberger Christkindlesmarkt",
@@ -432,8 +480,8 @@
       "id": "nuremberg-nue-bratwurst",
       "name": "Bratwurst Röslein",
       "kind": "eat",
-      "lat": 49.4515,
-      "lon": 11.079,
+      "lat": 49.45458,
+      "lon": 11.07786,
       "wiki": "Nürnberger Rostbratwurst",
       "summary": "Big traditional hall grilling Nuremberg's tiny finger-sized sausages over beechwood.",
       "expect": "Ordered by the 6, 8 or 12.",
@@ -472,7 +520,6 @@
         "Ordered by the 6, 8 or 12.",
         "Try \"drei im Weggla\", three in a bread roll, from a street stand."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Franconian",
       "mustOrder": [
@@ -490,8 +537,8 @@
       "id": "nuremberg-nue-lebkuchen",
       "name": "Lebkuchen Schmidt",
       "kind": "eat",
-      "lat": 49.454,
-      "lon": 11.078,
+      "lat": 49.45358,
+      "lon": 11.07796,
       "wiki": "Lebkuchen",
       "summary": "Soft spiced Nuremberg gingerbread sold in decorated tins.",
       "expect": "Year round, best at Christmas.",
@@ -530,7 +577,6 @@
         "Year round, best at Christmas.",
         "Look for Elisenlebkuchen, the finest grade."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "German",
       "mustOrder": [
@@ -547,8 +593,8 @@
       "id": "nuremberg-nue-altstadthof",
       "name": "Hausbrauerei Altstadthof",
       "kind": "eat",
-      "lat": 49.4572,
-      "lon": 11.0745,
+      "lat": 49.45702,
+      "lon": 11.07492,
       "wiki": "Rauchbier",
       "summary": "Old-town brewpub with red beer and tours of the rock-cut beer cellars below.",
       "expect": "Cellar tours paid.",
@@ -587,7 +633,6 @@
         "Cellar tours paid.",
         "Join the Felsengänge tunnel tour, then a beer."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Franconian",
       "mustOrder": [
@@ -602,6 +647,7 @@
       }
     }
   ],
+  "enriched": "2026-11-27",
   "wikidata": "Q2090",
   "local": {
     "name": "Nürnberg",

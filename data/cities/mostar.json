@@ -117,7 +117,16 @@
         "Slippery stone steps.",
         "Watch from the riverbank below at sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 94335,
+          "period": "202511-202610",
+          "title": "Stari Most",
+          "url": "https://en.wikipedia.org/wiki/Stari_Most",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "mostar-mos-divers",
@@ -164,7 +173,16 @@
         "They dive when the crowd pays.",
         "Watch from the west bank terrace cafés."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 94335,
+          "period": "202511-202610",
+          "title": "Stari Most",
+          "url": "https://en.wikipedia.org/wiki/Stari_Most",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "mostar-mos-bazaar",
@@ -217,8 +235,8 @@
       "id": "mostar-mos-mosque",
       "name": "Koski Mehmed Pasha Mosque",
       "kind": "see",
-      "lat": 43.3388,
-      "lon": 17.8143,
+      "lat": 43.33867,
+      "lon": 17.81478,
       "wiki": "Koski Mehmed Pasha Mosque",
       "summary": "17th-century mosque whose minaret gives the classic bridge view.",
       "expect": "Paid; minaret stairs are narrow.",
@@ -258,15 +276,14 @@
       "tradeoffs": [
         "Paid; minaret stairs are narrow.",
         "Cover shoulders and knees inside."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "mostar-mos-blagaj",
       "name": "Blagaj Tekke",
       "kind": "see",
-      "lat": 43.2566,
-      "lon": 17.8869,
+      "lat": 43.25727,
+      "lon": 17.90358,
       "wiki": "Blagaj Tekke",
       "summary": "Dervish house beneath a cliff at the spring of the Buna river.",
       "expect": "Small fee; dress modestly.",
@@ -307,8 +324,16 @@
         "Small fee; dress modestly.",
         "Eat trout at the riverside restaurants."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8200,
+          "period": "202511-202610",
+          "title": "Vrelo Bune",
+          "url": "https://en.wikipedia.org/wiki/Vrelo_Bune",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "mostar-mos-kravice",
@@ -362,8 +387,8 @@
       "id": "mostar-mos-pocitelj",
       "name": "Počitelj",
       "kind": "see",
-      "lat": 43.134,
-      "lon": 17.731,
+      "lat": 43.13333,
+      "lon": 17.73333,
       "wiki": "Počitelj",
       "summary": "Ottoman hill village with a mosque and fortress tower above the Neretva.",
       "expect": "Steep stone steps.",
@@ -403,8 +428,16 @@
         "Steep stone steps.",
         "Climb to the tower."
       ],
-      "pinApproximate": true,
       "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 15081,
+          "period": "202511-202610",
+          "title": "Počitelj",
+          "url": "https://en.wikipedia.org/wiki/Po%C4%8Ditelj",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q994359"
     },
     {
@@ -451,7 +484,16 @@
         "Paid; hard to see.",
         "Give it time; it explains the bridge."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1274060,
+          "period": "202511-202610",
+          "title": "Bosnian War",
+          "url": "https://en.wikipedia.org/wiki/Bosnian_War",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "mostar-mos-cevapi",
@@ -627,5 +669,6 @@
       }
     }
   ],
+  "enriched": "2026-11-27",
   "wikidata": "Q93347"
 }

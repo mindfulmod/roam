@@ -77,7 +77,7 @@
       "id": "ronda-ron-puente",
       "name": "Puente Nuevo",
       "kind": "see",
-      "lat": 36.7409,
+      "lat": 36.74075,
       "lon": -5.1659,
       "wiki": "Puente Nuevo",
       "summary": "18th-century bridge rising 98 m from the bottom of the gorge.",
@@ -118,15 +118,23 @@
         "Free; small museum inside.",
         "Walk the path down to the Mirador de Aldehuela."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 56329,
+          "period": "202511-202610",
+          "title": "Puente Nuevo",
+          "url": "https://en.wikipedia.org/wiki/Puente_Nuevo",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q2004707"
     },
     {
       "id": "ronda-ron-bullring",
       "name": "Plaza de Toros de Ronda",
       "kind": "see",
-      "lat": 36.7425,
-      "lon": -5.1667,
+      "lat": 36.74236,
+      "lon": -5.16707,
       "wiki": "Plaza de toros de Ronda",
       "summary": "One of Spain's oldest bullrings, birthplace of modern bullfighting on foot, with a museum.",
       "expect": "Paid.",
@@ -166,7 +174,15 @@
         "Paid.",
         "Look round the arena and stables; no fight needed."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 20388,
+          "period": "202511-202610",
+          "title": "Plaza de Toros de Ronda",
+          "url": "https://en.wikipedia.org/wiki/Plaza_de_Toros_de_Ronda",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q97633149",
       "local": {
         "name": "Real Maestranza de Ronda",
@@ -312,14 +328,23 @@
         "Free.",
         "Come at sunset for the valley glow."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 239546,
+          "period": "202511-202610",
+          "title": "Ronda",
+          "url": "https://en.wikipedia.org/wiki/Ronda",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "ronda-ron-setenil",
       "name": "Setenil de las Bodegas",
       "kind": "see",
-      "lat": 36.8624,
-      "lon": -5.1806,
+      "lat": 36.8625,
+      "lon": -5.18139,
       "wiki": "Setenil de las Bodegas",
       "summary": "White village with houses built under huge rock overhangs.",
       "expect": "20 minutes by car.",
@@ -359,8 +384,16 @@
         "20 minutes by car.",
         "Walk Cuevas del Sol and Cuevas de la Sombra."
       ],
-      "pinApproximate": true,
       "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 42557,
+          "period": "202511-202610",
+          "title": "Setenil de las Bodegas",
+          "url": "https://en.wikipedia.org/wiki/Setenil_de_las_Bodegas",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q918623"
     },
     {
@@ -536,5 +569,6 @@
       }
     }
   ],
+  "enriched": "2026-11-27",
   "wikidata": "Q13153"
 }

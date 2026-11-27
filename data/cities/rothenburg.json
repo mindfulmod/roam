@@ -71,8 +71,8 @@
       "id": "rothenburg-rot-ploenlein",
       "name": "Plönlein",
       "kind": "see",
-      "lat": 49.3746,
-      "lon": 10.1798,
+      "lat": 49.37453,
+      "lon": 10.18007,
       "wiki": "Plönlein",
       "summary": "Little fork in the road with a yellow half-timbered house between two towers.",
       "expect": "Busy from 10.",
@@ -111,8 +111,7 @@
       "tradeoffs": [
         "Busy from 10.",
         "Go early or after 5 pm."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rothenburg-rot-walls",
@@ -159,7 +158,16 @@
         "Free; low beams.",
         "Walk from the Spitalbastei to the Klingentor."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 144571,
+          "period": "202511-202610",
+          "title": "Rothenburg ob der Tauber",
+          "url": "https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "rothenburg-rot-rathaus",
@@ -253,14 +261,23 @@
         "English tour at 8 pm most of the year.",
         "Meet at the Marktplatz; pay at the end."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 144571,
+          "period": "202511-202610",
+          "title": "Rothenburg ob der Tauber",
+          "url": "https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "rothenburg-rot-crime",
       "name": "Medieval Crime Museum",
       "kind": "see",
-      "lat": 49.3757,
-      "lon": 10.1778,
+      "lat": 49.37569,
+      "lon": 10.17924,
       "wiki": "Medieval Crime and Justice Museum",
       "summary": "Museum of medieval law and punishment, from shame masks to torture tools.",
       "expect": "Paid.",
@@ -298,8 +315,7 @@
       "tradeoffs": [
         "Paid.",
         "Allow time; it's bigger than it looks."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rothenburg-rot-jakob",
@@ -353,8 +369,8 @@
       "id": "rothenburg-rot-burggarten",
       "name": "Burggarten",
       "kind": "see",
-      "lat": 49.3765,
-      "lon": 10.1745,
+      "lat": 49.37667,
+      "lon": 10.17494,
       "wiki": "Rothenburg ob der Tauber",
       "summary": "Garden on the site of the old castle, overlooking the Tauber valley.",
       "expect": "Free.",
@@ -394,14 +410,22 @@
         "Free.",
         "Walk down into the valley for the view back up."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 144571,
+          "period": "202511-202610",
+          "title": "Rothenburg ob der Tauber",
+          "url": "https://en.wikipedia.org/wiki/Rothenburg_ob_der_Tauber",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "rothenburg-rot-xmas",
       "name": "Käthe Wohlfahrt Christmas Village",
       "kind": "see",
-      "lat": 49.3768,
-      "lon": 10.1785,
+      "lat": 49.37778,
+      "lon": 10.1775,
       "wiki": "Käthe Wohlfahrt",
       "summary": "Year-round Christmas shop with a German Christmas museum.",
       "expect": "No photos inside.",
@@ -440,7 +464,15 @@
         "No photos inside.",
         "Museum is upstairs."
       ],
-      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14367,
+          "period": "202511-202610",
+          "title": "Käthe Wohlfahrt",
+          "url": "https://en.wikipedia.org/wiki/K%C3%A4the_Wohlfahrt",
+          "checked": "2026-11-27"
+        }
+      },
       "wikidata": "Q883957"
     },
     {
@@ -616,5 +648,6 @@
       }
     }
   ],
+  "enriched": "2026-11-27",
   "wikidata": "Q153494"
 }
