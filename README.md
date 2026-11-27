@@ -91,6 +91,18 @@ for these restaurants are per-person planning estimates from the guide's price b
 its MICHELIN selection page under Sources. Distinctions change every year, so re-check them against the
 guide when the new selections come out.
 
+## Place identity
+
+Each guide city and place can carry `wikidata` (the Wikidata item behind its English Wikipedia
+article, such as `Q34600` for Kyoto) and `local` (its name in its own language, such as
+`{ "name": "京都市", "lang": "ja" }`). The Wikidata id is the place's lasting identity: our own ids can
+change, and OpenStreetMap tags the same id on its map objects, so a place someone finds on the map
+can be matched back to the guide place. The local name shows under the English one and is
+searchable. Both come from `node scripts/refresh-identity.mjs` (the **Refresh place identities**
+workflow, also run by **Enrich new cities**). An article lends its id only when it is about the
+place itself: within 3 km of the pin, sharing a word with the place's name, and not the town's own
+article. The language per country, and the cities that differ, are `LANG` and `CITY_LANG` in the script.
+
 ## Origin
 
 This was first built as a single HTML file in ChatGPT. The original file was split into this
