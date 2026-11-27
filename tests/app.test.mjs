@@ -421,6 +421,61 @@ test('logging photos: picked photos are shrunk on the phone, location dropped, f
   await page.context().close();
 });
 
+test('catching up from photos: groups by time, joins a logged stop, asks where for the rest', async () => {
+  const page = await openApp(browser, origin, {
+    state: { trip: ['kyoto'], saved: ['kyoto-kiyomizu'], startDate: '2027-07-10' },
+    hash: '#/trip',
+  });
+  await page.clock.install({ time: new Date('2027-07-14T20:00:00') });
+  await page.evaluate(() =>
+    localStorage.setItem(
+      'roam-trip-log',
+      JSON.stringify({
+        v: 1,
+        stops: [
+          { uid: 'a1', date: '2027-07-12', in: '09:20', out: '10:30', place: 'kyoto-kiyomizu' },
+        ],
+      }),
+    ),
+  );
+  await page.goto(origin + '/#/log');
+  await page.waitForTimeout(400);
+  const tap = async (sel) => {
+    await page.$eval(sel, (el) => el.click());
+    await page.waitForTimeout(150);
+  };
+  await tap('[data-action="tl-c-start"]');
+  const shots = ['kyoto-0930.jpg', 'kyoto-0942.jpg', 'kyoto-1410.jpg'].map((n) =>
+    path.join(root, 'tests/fixtures', n),
+  );
+  await page.setInputFiles('.tl-catchpick input', shots);
+  await page.waitForSelector('.lg-group');
+  assert.equal(await page.locator('.lg-group').count(), 2, 'photos did not fall into two places');
+  assert.match(await page.innerText('.lg-group:nth-of-type(2)'), /Kiyomizu[\s\S]*join it/);
+  assert.equal(await page.locator('[data-action="tl-c-commit"]').isDisabled(), true);
+  await tap('.btn[data-action="tl-c-where"]');
+  await page.fill('.tl-search', 'fushimi');
+  await tap('#tl-pick [data-action="tl-choose"]');
+  await tap('[data-action="tl-c-commit"]');
+  const day = await page.evaluate(() =>
+    JSON.parse(localStorage.getItem('roam-trip-log')).stops.map((s) => [
+      s.place,
+      s.in,
+      s.out,
+      s.photos.length,
+    ]),
+  );
+  assert.deepEqual(day, [
+    ['kyoto-kiyomizu', '09:20', '10:30', 2],
+    ['kyoto-fushimi', '13:55', '14:40', 1],
+  ]);
+  assert.equal(await page.locator('.tl-list li').count(), 2);
+  await tap('.toast button');
+  assert.equal(await page.locator('.tl-list li').count(), 1, 'undo did not take the catch-up back');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
 test('the feed clears what needs you, and profile text a person typed is shown as text', async () => {
   const page = await openApp(browser, origin, { hash: '#/feed' });
   const needs = () => page.locator('.soc-need').count();
