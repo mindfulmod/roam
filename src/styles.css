@@ -1873,6 +1873,9 @@ small {
 }
 .resourcebox h3 {
   margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
 }
 .budget-custom {
   display: grid;
@@ -9332,4 +9335,15 @@ body:has(.modal-backdrop) .toast {
   .story-hero .shared-hero-copy {
     text-shadow: 0 1px 12px #0008;
   }
+}
+
+/* Short labels that read wrong when they break, such as "Curated pick". */
+.nowrap {
+  white-space: nowrap;
+}
+/* A guide photo that fails keeps its frame, not the browser's broken-image text, which would spill
+   a file name like "IMG 0155 (14364801685)" over the card. Screen readers still read the alt. */
+img.photo {
+  color: transparent;
+  font-size: 0;
 }
