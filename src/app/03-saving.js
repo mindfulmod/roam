@@ -134,7 +134,8 @@ function updateMiniCart() {
   const el = $('#minicart');
   if (!el) return;
   const page = location.hash.replace(/^#\/?/, '').split(/[/?]/)[0];
-  const hidden = (!S.trip.length && !savedCount()) || ['trip', 'map', 'story', 't'].includes(page);
+  const hidden =
+    (!S.trip.length && !savedCount()) || ['trip', 'map', 'story', 't', 'log'].includes(page);
   document.body.classList.toggle('has-minicart', !hidden);
   el.hidden = hidden;
   if (hidden) return;

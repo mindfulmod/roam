@@ -30,7 +30,9 @@ export async function serveDist() {
     if (!file.startsWith(dist)) return res.writeHead(403).end();
     try {
       const body = await readFile(file);
-      res.writeHead(200, { 'content-type': types[path.extname(file)] || 'application/octet-stream' });
+      res.writeHead(200, {
+        'content-type': types[path.extname(file)] || 'application/octet-stream',
+      });
       res.end(body);
     } catch {
       res.writeHead(404).end('not found');

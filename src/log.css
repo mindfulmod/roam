@@ -651,3 +651,46 @@
     min-height: 200px;
   }
 }
+
+/* Logging your own trip (#/log): reuses the sample's cards, with a few extras. */
+.tl-saved {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.tl-saved .icon {
+  width: 15px;
+  height: 15px;
+}
+.tl-alt {
+  justify-content: center;
+}
+.tl-next {
+  width: 100%;
+  justify-content: center;
+}
+.lg-sub small {
+  margin-left: 8px;
+  font-weight: 400;
+  color: var(--muted);
+}
+.tl-modal .tl-search {
+  margin: 4px 0 12px;
+}
+.tl-modal .lg-pick {
+  max-height: min(46svh, 420px);
+  overflow-y: auto;
+}
+.tl-none {
+  color: var(--muted);
+  font-size: 14px;
+  padding: 8px 0;
+}
+.tl-note {
+  grid-column: 1 / -1;
+}
+.tl-remove {
+  color: var(--teal);
+}
