@@ -10,10 +10,25 @@ const commonsName = (f) =>
     (ch) => '%' + ch.charCodeAt(0).toString(16).toUpperCase(),
   );
 function licenceUrl(l) {
-  const m = l.match(/^CC (BY(?:-SA)?) ([0-9.]+)/i);
-  if (m) return `https://creativecommons.org/licenses/${m[1].toLowerCase()}/${m[2]}/`;
+  // Ported licences such as "CC BY-SA 3.0 de" link to their own country version.
+  const m = l.match(/^CC (BY(?:-SA)?) ([0-9.]+)(?: ([a-z]{2,3}))?/i);
+  if (m)
+    return `https://creativecommons.org/licenses/${m[1].toLowerCase()}/${m[2]}/${m[3] ? m[3].toLowerCase() + '/' : ''}`;
   if (/^CC0/i.test(l)) return 'https://creativecommons.org/publicdomain/zero/1.0/';
   return '';
+}
+// A Commons file name read as the photo's title: "File:Kinkaku-ji 2019.jpg" -> "Kinkaku-ji 2019".
+const commonsTitle = (f) =>
+  String(f || '')
+    .replace(/^File:/i, '')
+    .replace(/\.[a-z0-9]+$/i, '')
+    .replace(/_/g, ' ')
+    .trim();
+// Title, author, source and licence, as the Commons licences ask, plus what we changed.
+function commonsCredit(title, author, page, licence, lu, changes) {
+  const a = (author || '').trim(),
+    l = (licence || '').trim() || 'See licence on Commons';
+  return `<a href="${esc(page)}" target="_blank" rel="noopener noreferrer">“${esc(title)}”</a>${a ? ' by ' + esc(a) : ''} · Wikimedia Commons · <a href="${esc(lu || page)}" target="_blank" rel="noopener noreferrer">${esc(l)}</a> · ${changes}`;
 }
 function galleryFor(id) {
   return GALLERY[id] || [];
@@ -26,9 +41,15 @@ function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
   return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="galleryDrop(this)">`;
 }
 function galleryCredit(g) {
-  const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f),
-    lu = licenceUrl(g.l);
-  return `<a href="${esc(page)}" target="_blank" rel="noopener noreferrer">Photo: ${esc(g.a)} / Wikimedia Commons</a> · <a href="${esc(lu || page)}" target="_blank" rel="noopener noreferrer">${esc(g.l)}</a>`;
+  const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f);
+  return commonsCredit(
+    commonsTitle(g.f),
+    g.a,
+    page,
+    g.l,
+    licenceUrl(g.l),
+    'resized, colours adjusted',
+  );
 }
 function photoCount(id) {
   // Before a city's detail arrives, the main data file still knows how many photos it has.
@@ -584,7 +605,16 @@ function photoCredit(id) {
   const p = PHOTO[id];
   if (!p) return '';
   const provider = p.provider || 'Pexels';
-  return `<a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer" title="${esc(p.title)}">Photo: ${esc(p.author || provider + ' contributor')} / ${esc(provider)}</a> · <a href="${esc(p.licenseUrl || p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.license || 'Photo licence')}</a> · resized / cropped`;
+  if (/commons/i.test(provider))
+    return commonsCredit(
+      commonsTitle(p.commonsTitle || p.title),
+      p.author,
+      p.url,
+      p.license,
+      p.licenseUrl || licenceUrl(p.license || ''),
+      'resized, cropped, colours adjusted',
+    );
+  return `<a href="${esc(p.url)}" target="_blank" rel="noopener noreferrer" title="${esc(p.title)}">Photo: ${esc(p.author || provider + ' contributor')} / ${esc(provider)}</a> · <a href="${esc(p.licenseUrl || p.url)}" target="_blank" rel="noopener noreferrer">${esc(p.license || 'Photo licence')}</a> · resized, cropped, colours adjusted`;
 }
 function photoContext(id) {
   const p = PHOTO[id];

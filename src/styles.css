@@ -6734,15 +6734,13 @@ a.fact b {
   gap: 4px;
   padding: 2px 8px;
   border-radius: 30px;
-  background: var(--michelin-bg);
-  color: var(--michelin);
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink);
   font-size: 13px;
-  font-weight: 750;
+  font-weight: 650;
   letter-spacing: 0.02em;
   white-space: nowrap;
-}
-.michelin-pill.bib {
-  font-weight: 650;
 }
 .michelin-line {
   margin: 2px 0 4px;
@@ -6754,7 +6752,7 @@ a.fact b {
   margin-top: 14px;
   padding: 12px 14px;
   border: 1px solid var(--line);
-  border-left: 3px solid var(--michelin);
+  border-left: 3px solid var(--muted);
   border-radius: 10px;
 }
 .recognition p {
@@ -6763,6 +6761,10 @@ a.fact b {
 }
 .recognition small {
   color: var(--muted);
+}
+.recognition .michelin-note {
+  display: block;
+  margin-top: 4px;
 }
 .nophoto {
   display: flex;
@@ -6779,16 +6781,13 @@ a.fact b {
   background: linear-gradient(135deg, var(--teal2), var(--paper));
   color: var(--ink);
 }
-.nophoto.michelin {
-  background: linear-gradient(135deg, var(--michelin-bg), var(--paper));
-}
 .nophoto span {
   font:
     600 18px Georgia,
     serif;
 }
 .nophoto b {
-  color: var(--michelin);
+  color: var(--muted);
   font-size: 13px;
 }
 .nophoto small {

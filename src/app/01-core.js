@@ -290,7 +290,7 @@ function photoTag(id, cls = '', lazy = true) {
   const x = P[id];
   if (!x) return '';
   const m = x.michelin;
-  return `<div class="nophoto${m ? ' michelin' : ''}${cls ? ' ' + cls : ''}" role="img" aria-label="No photo yet for ${esc(x.name)}"><span>${esc(x.cuisine || x.area || x.name)}</span>${m ? `<b>${esc(michelinShort(x))}</b>` : ''}<small>No photo yet</small></div>`;
+  return `<div class="nophoto${cls ? ' ' + cls : ''}" role="img" aria-label="No photo yet for ${esc(x.name)}"><span>${esc(x.cuisine || x.area || x.name)}</span>${m ? `<b>${esc(michelinShort(x))}</b>` : ''}<small>No photo yet</small></div>`;
 }
 // MICHELIN Guide recognition is an inspector award for cooking, kept apart from popularity.
 const FOOD_FILTERS = ['restaurants', 'eat', 'michelin'];
@@ -302,7 +302,8 @@ function michelinShort(p) {
 function michelinPill(p) {
   const m = p.michelin;
   if (!m) return '';
-  return `<span class="michelin-pill${m.stars ? '' : ' bib'}" title="${esc(m.label)} · MICHELIN Guide">${m.stars ? '✦'.repeat(m.stars) + ' MICHELIN' : 'Bib Gourmand'}</span>`;
+  // Plain words in our own style: no star symbols or guide colours, so it never looks like Michelin's mark.
+  return `<span class="michelin-pill" title="${esc(m.label)} · MICHELIN Guide">${esc(michelinShort(p))}</span>`;
 }
 const MICHELIN_MEANING = {
   3: 'exceptional cuisine, worth a special journey',
@@ -313,5 +314,5 @@ const MICHELIN_MEANING = {
 function michelinRow(p) {
   const m = p.michelin;
   if (!m) return '';
-  return `<div class="recognition"><div class="signal-head"><strong>MICHELIN Guide</strong>${michelinPill(p)}</div><p>${esc(m.label)}: ${esc(MICHELIN_MEANING[m.stars] || '')}. Awarded by the guide’s anonymous inspectors for the cooking. It is a quality award, not a popularity count, so it is shown alongside the rank rather than mixed into it.</p><small>${external(m.url, 'MICHELIN Guide entry ↗')}${m.checked ? ' · checked ' + esc(m.checked) : ''}</small></div>`;
+  return `<div class="recognition"><div class="signal-head"><strong>MICHELIN Guide</strong>${michelinPill(p)}</div><p>${esc(m.label)}: ${esc(MICHELIN_MEANING[m.stars] || '')}. Awarded by the guide’s anonymous inspectors for the cooking. It is a quality award, not a popularity count, so it is shown alongside the rank rather than mixed into it.</p><small>${external(m.url, 'See it in the MICHELIN Guide ↗')}${m.checked ? ' · checked ' + esc(m.checked) : ''}</small><small class="michelin-note">Tandem Roads is not affiliated with or endorsed by Michelin.</small></div>`;
 }
