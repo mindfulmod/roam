@@ -867,3 +867,17 @@ test('photo credits name the title, author, source, licence and our changes; MIC
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('a place’s own-language name shows under its English one and can be searched', async () => {
+  const page = await openApp(browser, origin, { hash: '#/city/kyoto' });
+  const hero = page.locator('.cityherotext .local-name');
+  assert.equal(await hero.getAttribute('lang'), 'ja');
+  assert.equal(await hero.innerText(), '京都市');
+  await go(page, '#/');
+  await page.fill('#browse-search', '伏見稲荷');
+  const hit = page.locator('#search-suggest button').first();
+  assert.match(await hit.innerText(), /Fushimi Inari/);
+  await hit.click();
+  assert.match(await page.locator('.placesheet .local-name').innerText(), /伏見稲荷/);
+  await page.close();
+});

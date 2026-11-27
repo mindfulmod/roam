@@ -234,10 +234,7 @@ async function labels(qids, langs) {
     });
     const j = await getJson('https://www.wikidata.org/w/api.php?' + q);
     for (const [id, e] of Object.entries(j.entities || {}))
-      out.set(
-        id,
-        Object.fromEntries(Object.entries(e.labels || {}).map(([l, v]) => [l, v.value])),
-      );
+      out.set(id, Object.fromEntries(Object.entries(e.labels || {}).map(([l, v]) => [l, v.value])));
   }
   return out;
 }

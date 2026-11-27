@@ -9302,3 +9302,17 @@ img.photo {
     animation: none;
   }
 }
+
+/* A name in its own language under the English one (Kyoto, then 京都). */
+.local-name {
+  margin: -2px 0 10px;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+.cityherotext .local-name {
+  margin: -4px 0 8px;
+  color: inherit;
+  opacity: 0.85;
+  font-size: 1.05rem;
+}
