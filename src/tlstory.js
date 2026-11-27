@@ -31,7 +31,9 @@ async function tlStoryBuild() {
     const out = s.out || tlT(Math.max(stMins(s.in) + 5, s.date === tlToday() ? stMins(now) : 0));
     (byDate[s.date] ||= []).push({
       uid: s.uid,
-      ...(s.place ? { place: s.place } : { name: s.name, area: s.area, lat: s.lat, lon: s.lon }),
+      ...(s.place
+        ? { place: s.place }
+        : { name: s.name, area: s.area, lat: s.lat, lon: s.lon, osm: s.osm, local: s.local }),
       city,
       in: s.in,
       out: tlTime(out) || '23:59',

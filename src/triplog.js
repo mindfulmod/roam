@@ -3,12 +3,16 @@
 // keeps every stop on this phone (localStorage), so it works with no signal. Until accounts
 // arrive there is no group to send to, so "for all of you" waits for that.
 //   - "I'm here" logs the suggested place with the time now and closes the stop before it
-//   - "Somewhere else" searches the trip's cities, nearest first, or adds a place by name
+//   - "Somewhere else" searches the trip's cities, nearest first, then the whole map
+//     (OpenStreetMap), or adds a place by name. A map result that is a guide place (same
+//     Wikidata id, or same name a few steps away) is logged as the guide place, so one place
+//     keeps one identity however it was found
 //   - any stop can be fixed (times, a note) or removed, and each change can be undone
 // The location is used once to suggest a place, then dropped. No trail is kept.
 const TL_KEY = 'roam-trip-log';
 const TL_MAX = 3000;
 const TL_NEAR_KM = 0.6;
+const TL_OSM = /^(node|way|relation)\/\d{1,12}$/;
 let TL = null,
   tlLastPos = null;
 
@@ -40,6 +44,8 @@ function tlClean(s) {
     lat,
     lon,
     note: tlStr(s.note, 600),
+    osm: !p && TL_OSM.test(s?.osm || '') ? s.osm : '',
+    local: !p && tlStr(s?.local, 80) && tlStr(s.local, 80) !== name ? tlStr(s.local, 80) : '',
     photos: (Array.isArray(s.photos) ? s.photos : [])
       .filter((x) => TLP_ID.test(x?.id))
       .slice(0, TLP_MAX)
@@ -385,7 +391,7 @@ function tlElse(g = -1) {
   const now = g < 0 && tlFresh();
   TL.picking = g;
   showModal(
-    `<div class="modalcontent lg-modal tl-modal"><h2 id="modal-heading">${g < 0 ? 'Where are you?' : 'Where was this?'}</h2><p class="lead">${now ? 'Nearest first.' : 'Your saved places first, then the most visited.'}</p><input class="tl-search" type="search" placeholder="Search places" aria-label="Search places" autocomplete="off" maxlength="60"><ul class="lg-pick" id="tl-pick">${tlPickHtml('')}</ul><form class="lg-add tl-add"><label for="tl-newplace">Not listed? Add it yourself</label><div><input id="tl-newplace" maxlength="60" placeholder="Name of the place" autocomplete="off" required><button class="btn small">Add</button></div><p class="filter-note">${now ? 'It is pinned where you are standing.' : 'It is pinned in the middle of the city. You can move it later.'} Only you see it.</p></form></div>`,
+    `<div class="modalcontent lg-modal tl-modal"><h2 id="modal-heading">${g < 0 ? 'Where are you?' : 'Where was this?'}</h2><p class="lead">${now ? 'Nearest first.' : 'Your saved places first, then the most visited.'}</p><input class="tl-search" type="search" placeholder="Search places" aria-label="Search places" autocomplete="off" maxlength="60"><ul class="lg-pick" id="tl-pick">${tlPickHtml('')}</ul><div class="tl-world" id="tl-world" hidden><button class="btn light small" data-action="tl-world">${icon('search')} <span>Search the whole map</span></button><ul class="lg-pick" id="tl-world-list"></ul><p class="filter-note">Your search words and the city go to <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap</a>’s search. Your location does not. Map data © OpenStreetMap contributors.</p></div><form class="lg-add tl-add"><label for="tl-newplace">Not listed? Add it yourself</label><div><input id="tl-newplace" maxlength="60" placeholder="Name of the place" autocomplete="off" required><button class="btn small">Add</button></div><p class="filter-note">${now ? 'It is pinned where you are standing.' : 'It is pinned in the middle of the city. You can move it later.'} Only you see it.</p></form></div>`,
     g < 0 ? 'Where are you?' : 'Where was this?',
   );
 }
@@ -404,6 +410,114 @@ function tlPickHtml(q) {
         `<li><button data-action="tl-choose" data-id="${p.id}">${lgThumb({ id: p.id })}<span><strong>${esc(p.name)}</strong><small>${esc(p.area || C[p.cityId].name)}${TL.picking < 0 && tlFresh() ? ' · ' + tlKm(stKm(TL.pos, p)) : S.saved.includes(p.id) ? ' · saved' : ''}</small></span></button></li>`,
     )
     .join('');
+}
+// ---------- The whole map: OpenStreetMap search (Nominatim), one search per tap ----------
+// Its rules: no search-as-you-type, at most one request a second, and credit the data.
+const TL_NOMINATIM = 'https://nominatim.openstreetmap.org/search';
+let tlWorldAt = 0;
+const tlPlain = (t) =>
+  String(t || '')
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .replace(/[^\p{L}\p{N}]+/gu, '');
+async function tlWorld(q) {
+  q = q.trim().slice(0, 60);
+  const list = $('#tl-world-list');
+  if (q.length < 3 || !list) return;
+  if (!navigator.onLine)
+    return toast('Searching the whole map needs signal. Add the place yourself for now.');
+  if (Date.now() - tlWorldAt < 1100) return;
+  tlWorldAt = Date.now();
+  const c = C[tlCityToday(tlPickDate())],
+    params = new URLSearchParams({
+      q,
+      format: 'jsonv2',
+      limit: '8',
+      namedetails: '1',
+      extratags: '1',
+      'accept-language': 'en',
+    });
+  // Around the city you are in (not your exact spot), so "station" finds the near one.
+  if (c) {
+    params.set(
+      'viewbox',
+      [c.lon - 0.4, c.lat + 0.4, c.lon + 0.4, c.lat - 0.4].map((v) => v.toFixed(3)).join(','),
+    );
+    params.set('bounded', '1');
+  }
+  list.innerHTML = '<li class="tl-none">Searching the map…</li>';
+  let rows;
+  try {
+    const res = await fetch(`${TL_NOMINATIM}?${params}`, {
+      headers: { Accept: 'application/json' },
+    });
+    if (!res.ok) throw new Error(res.status);
+    rows = await res.json();
+  } catch {
+    if (list.isConnected)
+      list.innerHTML =
+        '<li class="tl-none">The map search did not answer. Try again, or add the place yourself.</li>';
+    return;
+  }
+  if (!TL || !list.isConnected) return;
+  TL.world = (Array.isArray(rows) ? rows : []).map(tlFromOsm).filter(Boolean);
+  list.innerHTML = TL.world.length
+    ? TL.world
+        .map((r, i) => {
+          const g = tlMatch(r);
+          return `<li><button data-action="tl-osm" data-i="${i}">${g ? lgThumb({ id: g.place }) : `<span class="tl-osmpin">${icon('pin')}</span>`}<span><strong>${esc(g ? P[g.place].name : r.name)}</strong><small>${esc(g ? 'In the guide' : [r.local, r.area].filter(Boolean).join(' · '))}${TL.picking < 0 && tlFresh() ? ' · ' + tlKm(stKm(TL.pos, r)) : ''}</small></span></button></li>`;
+        })
+        .join('')
+    : `<li class="tl-none">The map has nothing called that${c ? ' near ' + esc(c.name) : ''}. Add it yourself below.</li>`;
+}
+// One Nominatim row as a stop of your own, with its OpenStreetMap id kept as its identity.
+function tlFromOsm(r) {
+  const lat = Number(r?.lat),
+    lon = Number(r?.lon),
+    nd = r?.namedetails || {},
+    name = tlStr(
+      nd['name:en'] || r?.name || nd.name || String(r?.display_name || '').split(',')[0],
+      60,
+    );
+  if (!name || !(Math.abs(lat) <= 90) || !(Math.abs(lon) <= 180)) return null;
+  const osm = `${r.osm_type}/${r.osm_id}`,
+    local = tlStr(nd.name, 80),
+    parts = String(r.display_name || '')
+      .split(',')
+      .map((x) => x.trim()),
+    near = CITIES.map((x) => [x, stKm(x, { lat, lon })]).sort((a, b) => a[1] - b[1])[0];
+  return {
+    name,
+    local: local && tlPlain(local) !== tlPlain(name) ? local : '',
+    area: tlStr(parts.slice(1, 3).join(', '), 60) || 'From the map',
+    city: near && near[1] < 60 ? near[0].id : '',
+    lat,
+    lon,
+    osm: TL_OSM.test(osm) ? osm : '',
+    wikidata: /^Q\d{1,12}$/.test(r.extratags?.wikidata || '') ? r.extratags.wikidata : '',
+  };
+}
+// A map result that is already a guide place: the same Wikidata item, or the same name
+// within 250 m. Then it is logged as the guide place, never as a second copy of it.
+function tlMatch(r) {
+  let best = null;
+  for (const c of CITIES) {
+    if (stKm(c, r) > 80) continue;
+    for (const x of c.items) {
+      const p = P[x.id];
+      if (!p?.lat) continue;
+      if (r.wikidata && p.wikidata === r.wikidata) return tlPlaceStop(p);
+      const n = tlPlain(r.name),
+        same =
+          n &&
+          (tlPlain(p.name) === n ||
+            tlPlain(p.local?.name) === n ||
+            (r.local && tlPlain(p.local?.name) === tlPlain(r.local)));
+      if (same && stKm(p, r) < 0.25) best ||= tlPlaceStop(p);
+    }
+  }
+  return best;
 }
 function tlFix(uid) {
   const s = TL.log.stops.find((x) => x.uid === uid);
@@ -457,7 +571,15 @@ document.addEventListener('click', (ev) => {
   else if (a === 'tl-else') tlElse();
   else if (a.startsWith('tl-c-')) tlCatchAction(a, b);
   else if (a === 'tl-locate') tlLocate();
-  else if (a === 'tl-choose' && validPlace(b.dataset.id)) {
+  else if (a === 'tl-world') tlWorld($('.tl-search')?.value || '');
+  else if (a === 'tl-osm') {
+    const r = TL.world?.[Number(b.dataset.i)];
+    if (!r) return;
+    closeModal('user');
+    const stop = tlMatch(r) || r;
+    if (TL.picking >= 0) tlCatchPlace(stop);
+    else tlHere(stop);
+  } else if (a === 'tl-choose' && validPlace(b.dataset.id)) {
     closeModal('user');
     if (TL.picking >= 0) tlCatchPlace(tlPlaceStop(P[b.dataset.id]));
     else tlHere(tlPlaceStop(P[b.dataset.id]));
@@ -487,7 +609,11 @@ document.addEventListener('change', (ev) => {
   if (TL && ev.target.matches('.tl-addphoto input')) tlPhotos(ev.target);
 });
 document.addEventListener('input', (ev) => {
-  if (TL && ev.target.matches('.tl-search')) $('#tl-pick').innerHTML = tlPickHtml(ev.target.value);
+  if (TL && ev.target.matches('.tl-search')) {
+    $('#tl-pick').innerHTML = tlPickHtml(ev.target.value);
+    $('#tl-world').hidden = ev.target.value.trim().length < 3;
+    $('#tl-world-list').innerHTML = '';
+  }
 });
 document.addEventListener('submit', (ev) => {
   const f = ev.target;
@@ -500,7 +626,13 @@ document.addEventListener('submit', (ev) => {
       at = TL.picking < 0 && tlFresh() ? TL.pos : c;
     if (!at) return toast('Share your location or plan a trip first, so we know where to pin it.');
     closeModal('user');
-    const stop = { name, area: 'Added by you', city: c?.id || '', lat: at.lat, lon: at.lon };
+    const same = tlCandidates(tlPickDate()).find(
+      (p) =>
+        tlPlain(p.name) === tlPlain(name) || (p.local && tlPlain(p.local.name) === tlPlain(name)),
+    );
+    const stop = same
+      ? tlPlaceStop(same)
+      : { name, area: 'Added by you', city: c?.id || '', lat: at.lat, lon: at.lon };
     if (TL.picking >= 0) tlCatchPlace(stop);
     else tlHere(stop);
   } else if (f.matches('.tl-fix')) {
