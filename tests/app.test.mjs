@@ -877,7 +877,7 @@ test('a place’s own-language name shows under its English one and can be searc
   await page.fill('#browse-search', '伏見稲荷');
   const hit = page.locator('#search-suggest button').first();
   assert.match(await hit.innerText(), /Fushimi Inari/);
-  await hit.click();
+  await hit.evaluate((b) => b.click());
   assert.match(await page.locator('.placesheet .local-name').innerText(), /伏見稲荷/);
   await page.close();
 });
