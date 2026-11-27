@@ -1,0 +1,581 @@
+{
+  "id": "chamonix",
+  "name": "Chamonix",
+  "country": "France",
+  "region": "Europe",
+  "lat": 45.9237,
+  "lon": 6.8694,
+  "wiki": "Chamonix",
+  "tagline": "Mont Blanc, glaciers and the Aiguille du Midi",
+  "summary": "Chamonix sits at the foot of Mont Blanc, the highest mountain in Western Europe. Ride the cable car up the Aiguille du Midi to 3,842 m, take the rack railway to the Mer de Glace glacier, hike to Lac Blanc for the mirror view of the range, and ski or paraglide in one of the world's great mountain towns.",
+  "days": 3,
+  "bestMonths": [
+    1,
+    2,
+    3,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "December to April for skiing, June to September for hiking; many lifts close in May and November.",
+  "arrival": "Geneva Airport is 1h15 by shuttle bus; trains connect via Saint-Gervais.",
+  "gettingAround": "Free local buses and trains in the valley with your guest card; lifts and cable cars to the heights.",
+  "cashTip": "Cards work almost everywhere; service is included in prices, so round up only for good service.",
+  "dailyBudget": [
+    100,
+    250
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    0,
+    20
+  ],
+  "foodTip": "Tartiflette, fondue savoyarde, raclette and diots (Savoy sausages).",
+  "buyTip": "Beaufort and Reblochon cheese and Génépi liqueur.",
+  "baseArea": "Chamonix centre near the Aiguille du Midi station",
+  "connections": [
+    {
+      "to": "geneva",
+      "mode": "Bus",
+      "minutes": 75,
+      "note": "Airport shuttles several times a day."
+    },
+    {
+      "to": "annecy",
+      "mode": "Car",
+      "minutes": 75,
+      "note": "A41 and A40."
+    },
+    {
+      "to": "zermatt",
+      "mode": "Train",
+      "minutes": 330,
+      "note": "Mont Blanc Express via Martigny, then Visp."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chamonix on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Chamonix",
+      "type": "reference",
+      "checked": "2026-11-27"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Chamonix%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-27"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Chamonix%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Mont Blanc",
+  "added": "2026-11-27",
+  "items": [
+    {
+      "id": "chamonix-cha-midi",
+      "name": "Aiguille du Midi",
+      "kind": "see",
+      "lat": 45.879,
+      "lon": 6.8874,
+      "wiki": "Aiguille du Midi",
+      "summary": "Cable car to a needle at 3,842 m with the glass Step into the Void box.",
+      "expect": "Expensive; cloud hides everything on bad days.",
+      "tip": "Check the summit webcam and go on the first cars.",
+      "area": "Chamonix",
+      "duration": 3,
+      "price": [
+        75,
+        80
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Book a time slot in summer",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Aiguille%20du%20Midi%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Aiguille%20du%20Midi%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Aiguille%20du%20Midi%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Adventure",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Cable car to a needle at 3,842 m with the glass Step into the Void box.",
+        "Face to face with Mont Blanc."
+      ],
+      "visitFlow": [
+        "Cable car up.",
+        "Step into the Void."
+      ],
+      "bestFor": "Visitors interested in big views and active exploration",
+      "tradeoffs": [
+        "Expensive; cloud hides everything on bad days.",
+        "Check the summit webcam and go on the first cars."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chamonix-cha-merdeglace",
+      "name": "Montenvers and the Mer de Glace",
+      "kind": "see",
+      "lat": 45.9285,
+      "lon": 6.9184,
+      "wiki": "Mer de Glace",
+      "summary": "Rack railway to France's largest glacier and an ice cave carved into it each year.",
+      "expect": "Hundreds of steps down to the ice cave; signs mark how far the ice has retreated.",
+      "tip": "Look for the yearly markers on the walk down.",
+      "area": "Montenvers",
+      "duration": 3,
+      "price": [
+        40,
+        45
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Montenvers%20and%20the%20Mer%20de%20Glace%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Montenvers%20and%20the%20Mer%20de%20Glace%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Montenvers%20and%20the%20Mer%20de%20Glace%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Rack railway to France's largest glacier and an ice cave carved into it each year.",
+        "A glacier up close."
+      ],
+      "visitFlow": [
+        "Rack railway.",
+        "Ice cave."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and big views",
+      "tradeoffs": [
+        "Hundreds of steps down to the ice cave; signs mark how far the ice has retreated.",
+        "Look for the yearly markers on the walk down."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chamonix-cha-lacblanc",
+      "name": "Lac Blanc hike",
+      "kind": "see",
+      "lat": 45.9802,
+      "lon": 6.892,
+      "wiki": "Lac Blanc (Haute-Savoie)",
+      "summary": "Hike to an alpine lake that mirrors the whole Mont Blanc range.",
+      "expect": "About 3h round trip from the Flégère lift; summer only.",
+      "tip": "Go early for still water and fewer people.",
+      "area": "Aiguilles Rouges",
+      "duration": 5,
+      "price": [
+        20,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lac%20Blanc%20hike%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Lac%20Blanc%20hike%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lac%20Blanc%20hike%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Hike to an alpine lake that mirrors the whole Mont Blanc range.",
+        "Chamonix's best day hike."
+      ],
+      "visitFlow": [
+        "Flégère lift.",
+        "Hike to the lake."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "About 3h round trip from the Flégère lift; summer only.",
+        "Go early for still water and fewer people."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chamonix-cha-brevent",
+      "name": "Le Brévent",
+      "kind": "see",
+      "lat": 45.9346,
+      "lon": 6.8378,
+      "wiki": "Le Brévent",
+      "summary": "Cable car to a balcony directly facing Mont Blanc.",
+      "expect": "Less busy than the Aiguille du Midi.",
+      "tip": "Paragliders launch here; watch them take off.",
+      "area": "Chamonix",
+      "duration": 2.5,
+      "price": [
+        35,
+        40
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Le%20Br%C3%A9vent%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Le%20Br%C3%A9vent%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Le%20Br%C3%A9vent%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Cable car to a balcony directly facing Mont Blanc.",
+        "The best full view of the massif."
+      ],
+      "visitFlow": [
+        "Gondola and cable car.",
+        "Summit terrace."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Less busy than the Aiguille du Midi.",
+        "Paragliders launch here; watch them take off."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chamonix-cha-paraglide",
+      "name": "Paragliding tandem flight",
+      "kind": "see",
+      "lat": 45.9346,
+      "lon": 6.8378,
+      "wiki": "Paragliding",
+      "summary": "Fly with an instructor from Planpraz down to the valley floor.",
+      "expect": "Weather dependent.",
+      "tip": "Morning flights are smoother.",
+      "area": "Planpraz",
+      "duration": 2,
+      "price": [
+        100,
+        150
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Book a day or two ahead",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Paragliding%20tandem%20flight%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Paragliding%20tandem%20flight%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Paragliding%20tandem%20flight%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Fly with an instructor from Planpraz down to the valley floor.",
+        "Unforgettable views."
+      ],
+      "visitFlow": [
+        "Ride up to Planpraz.",
+        "Fly down to Chamonix."
+      ],
+      "bestFor": "Visitors interested in active exploration",
+      "tradeoffs": [
+        "Weather dependent.",
+        "Morning flights are smoother."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chamonix-cha-centre",
+      "name": "Chamonix town centre",
+      "kind": "see",
+      "lat": 45.9237,
+      "lon": 6.8694,
+      "wiki": "Chamonix",
+      "summary": "Alpine town of chalets, outdoor shops and the statue of Saussure pointing at Mont Blanc.",
+      "expect": "Busy in August.",
+      "tip": "Stroll the river Arve and the church square.",
+      "area": "Chamonix",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Chamonix%20town%20centre%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Chamonix%20town%20centre%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Chamonix%20town%20centre%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Alpine town of chalets, outdoor shops and the statue of Saussure pointing at Mont Blanc.",
+        "Mountain town life."
+      ],
+      "visitFlow": [
+        "Main street.",
+        "Saussure statue."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Busy in August.",
+        "Stroll the river Arve and the church square."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "chamonix-cha-skyway",
+      "name": "Skyway Monte Bianco",
+      "kind": "see",
+      "lat": 45.8394,
+      "lon": 6.9278,
+      "wiki": "Skyway Monte Bianco",
+      "summary": "Rotating cable car on the Italian side, through the Mont Blanc Tunnel.",
+      "expect": "Bring your passport; 20 minutes by car via the tunnel.",
+      "tip": "Combine with lunch in Courmayeur.",
+      "area": "Courmayeur, Italy",
+      "duration": 5,
+      "price": [
+        60,
+        70
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Skyway%20Monte%20Bianco%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Skyway%20Monte%20Bianco%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Skyway%20Monte%20Bianco%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Rotating cable car on the Italian side, through the Mont Blanc Tunnel.",
+        "Mont Blanc from Italy."
+      ],
+      "visitFlow": [
+        "Drive the tunnel.",
+        "Rotating cable car."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Bring your passport; 20 minutes by car via the tunnel.",
+        "Combine with lunch in Courmayeur."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "chamonix-cha-tartiflette",
+      "name": "Tartiflette",
+      "kind": "eat",
+      "lat": 45.923,
+      "lon": 6.869,
+      "wiki": "Tartiflette",
+      "summary": "Potatoes, bacon and onions baked under melted Reblochon.",
+      "expect": "Heavy; perfect after skiing.",
+      "tip": "Pair with a crisp Savoie white wine.",
+      "area": "Chamonix",
+      "duration": 1.5,
+      "price": [
+        18,
+        28
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Tartiflette%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Tartiflette%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Tartiflette%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Potatoes, bacon and onions baked under melted Reblochon.",
+        "Savoy comfort food."
+      ],
+      "visitFlow": [
+        "Find a cosy chalet restaurant.",
+        "Order tartiflette."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Heavy; perfect after skiing.",
+        "Pair with a crisp Savoie white wine."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Savoyard",
+      "mustOrder": [
+        "Tartiflette"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "chamonix-cha-fondue",
+      "name": "Fondue savoyarde",
+      "kind": "eat",
+      "lat": 45.923,
+      "lon": 6.87,
+      "wiki": "Fondue",
+      "summary": "Pot of melted Beaufort, Comté and white wine for dipping bread.",
+      "expect": "For two or more.",
+      "tip": "La Calèche and Le Monchu are classic spots.",
+      "area": "Chamonix",
+      "duration": 1.5,
+      "price": [
+        25,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fondue%20savoyarde%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Fondue%20savoyarde%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fondue%20savoyarde%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pot of melted Beaufort, Comté and white wine for dipping bread.",
+        "Mountain ritual."
+      ],
+      "visitFlow": [
+        "Share a pot.",
+        "Order charcuterie on the side."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "For two or more.",
+        "La Calèche and Le Monchu are classic spots."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Savoyard",
+      "mustOrder": [
+        "Fondue savoyarde"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "chamonix-cha-refuge",
+      "name": "Le Refuge du Lac Blanc",
+      "kind": "eat",
+      "lat": 45.9802,
+      "lon": 6.892,
+      "wiki": "Lac Blanc (Haute-Savoie)",
+      "summary": "Mountain hut by the lake serving drinks and simple hot meals.",
+      "expect": "Summer only.",
+      "tip": "A drink on the terrace after the hike.",
+      "area": "Aiguilles Rouges",
+      "duration": 1,
+      "price": [
+        10,
+        25
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Le%20Refuge%20du%20Lac%20Blanc%2C%20Chamonix",
+        "https://www.google.com/maps/search/?api=1&query=Le%20Refuge%20du%20Lac%20Blanc%2C%20Chamonix"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Le%20Refuge%20du%20Lac%20Blanc%2C%20Chamonix"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Mountain hut by the lake serving drinks and simple hot meals.",
+        "Lunch with a view."
+      ],
+      "visitFlow": [
+        "Hike up.",
+        "Terrace break."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Summer only.",
+        "A drink on the terrace after the hike."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "French",
+      "mustOrder": [
+        "Omelette",
+        "Blueberry tart"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ]
+}
