@@ -326,6 +326,7 @@ test('logging your own trip: I am here, location, a place of your own, fix, undo
   };
   const count = (sel) => page.locator(sel).count();
   const rows = () => page.$$eval('.tl-list li', (l) => l.map((x) => x.innerText));
+  await page.waitForSelector('.tripbar a[href="#/log"]');
   await tap('.tripbar a[href="#/log"]');
   await page.waitForTimeout(300);
   // With no location, the next saved place in today's city is offered.
