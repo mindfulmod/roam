@@ -1,7 +1,6 @@
 // Refreshes the popularity signals stored under place.signals in data/cities/*.json.
 //
 //   node scripts/refresh-signals.mjs                 # Wikipedia readership (no key needed)
-//   GOOGLE_MAPS_API_KEY=... node scripts/refresh-signals.mjs   # also Google Maps reviews
 //   node scripts/refresh-signals.mjs --city tokyo    # one city only
 //
 // Wikipedia: total page views over the last 12 complete months, for sights only
@@ -9,8 +8,8 @@
 // resolved through redirects and must have coordinates within MAX_KM of the
 // place, so a page about something else never counts.
 //
-// Google: Places API (New) Text Search near the place, keeping the rating and
-// review count of the best match within MAX_KM.
+// No Google Places data: its terms allow storing only the place ID, bar derived
+// content, and bar showing it beside a non-Google map. Plain Google Maps links are fine.
 import { readFile, writeFile, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -19,7 +18,6 @@ const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const citiesDir = path.join(root, 'data/cities');
 const UA = 'TandemRoads/2.0 (https://github.com/mindfulmod/roam)';
 const MAX_KM = 3;
-const GOOGLE_KEY = process.env.GOOGLE_MAPS_API_KEY;
 const onlyCity = process.argv.includes('--city')
   ? process.argv[process.argv.indexOf('--city') + 1]
   : null;
@@ -108,40 +106,10 @@ async function wikipediaViews(title) {
   return j ? j.items.reduce((s, x) => s + x.views, 0) : null;
 }
 
-async function googlePlace(p, city) {
-  const j = await getJson('https://places.googleapis.com/v1/places:searchText', {
-    method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-      'X-Goog-Api-Key': GOOGLE_KEY,
-      'X-Goog-FieldMask':
-        'places.id,places.displayName,places.location,places.rating,places.userRatingCount,places.googleMapsUri',
-    },
-    body: JSON.stringify({
-      textQuery: `${p.name}, ${city.name}`,
-      maxResultCount: 3,
-      locationBias: { circle: { center: { latitude: p.lat, longitude: p.lon }, radius: 2000 } },
-    }),
-  });
-  const best = (j?.places || [])
-    .map((x) => ({ ...x, d: km(p, { lat: x.location.latitude, lon: x.location.longitude }) }))
-    .filter((x) => x.d <= MAX_KM && x.userRatingCount > 0)
-    .sort((a, b) => a.d - b.d)[0];
-  return best
-    ? {
-        placeId: best.id,
-        rating: best.rating,
-        count: best.userRatingCount,
-        url: best.googleMapsUri,
-        checked: today,
-      }
-    : null;
-}
-
 const files = (await readdir(citiesDir)).filter(
   (f) => f.endsWith('.json') && (!onlyCity || f === onlyCity + '.json'),
 );
-const tally = { wikipedia: 0, google: 0, skipped: 0 };
+const tally = { wikipedia: 0, skipped: 0 };
 for (const file of files) {
   const fp = path.join(citiesDir, file);
   const city = JSON.parse(await readFile(fp, 'utf8'));
@@ -178,22 +146,12 @@ for (const file of files) {
         tally.skipped++;
       }
     }
-    if (GOOGLE_KEY) {
-      try {
-        const g = await googlePlace(p, city);
-        if (g) {
-          p.signals.google = g;
-          tally.google++;
-        }
-      } catch (e) {
-        console.warn(`google ${p.id}: ${e.message}`);
-      }
-    }
+    delete p.signals.google;
     if (!Object.keys(p.signals).length) delete p.signals;
   }
   await writeFile(fp, JSON.stringify(city, null, 2) + '\n');
   console.log(`${city.name}: done`);
 }
 console.log(
-  `Wikipedia: ${tally.wikipedia} places, skipped ${tally.skipped} (no matching article). Google: ${GOOGLE_KEY ? tally.google + ' places' : 'no key, skipped'}.`,
+  `Wikipedia: ${tally.wikipedia} places, skipped ${tally.skipped} (no matching article).`,
 );

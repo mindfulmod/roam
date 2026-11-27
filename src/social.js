@@ -167,32 +167,12 @@ function socHeader() {
 // Small maps on feed cards: where, at a glance. They do not pan or zoom, so the page scrolls
 // freely over them, and they are only built when a card comes near the screen.
 function socTiles(map) {
-  const osm = () =>
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution:
-        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-      maxZoom: 19,
-      updateWhenIdle: true,
-    });
-  const english = L.tileLayer(
-    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
-    {
-      attribution:
-        'Tiles © <a href="https://www.esri.com/">Esri</a> and its data providers, including OpenStreetMap contributors',
-      maxZoom: 19,
-      updateWhenIdle: true,
-    },
-  );
-  let failed = 0,
-    loaded = 0;
-  english.on('tileload', () => loaded++);
-  english.on('tileerror', () => {
-    if (++failed < 4 || loaded || !socMaps.includes(map)) return;
-    english.off('tileerror');
-    map.removeLayer(english);
-    osm().addTo(map);
-  });
-  english.addTo(map);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:
+      '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+    maxZoom: 19,
+    updateWhenIdle: true,
+  }).addTo(map);
 }
 function socBaseMap(el, opts) {
   // No animations: these maps are glances, and a page change mid-animation trips Leaflet.

@@ -117,14 +117,9 @@ function storyModel(id) {
 const stAvatar = (t, cls = '') =>
   `<span class="st-avatar ${cls}" style="--who:${esc(t.color)}" title="${esc(t.name)}" aria-hidden="true">${esc(t.name[0])}</span>`;
 
-// Brand marks for the outside links (paths from Simple Icons, CC0).
-const ST_BRANDS = {
-  maps: 'M19.527 4.799c1.212 2.608.937 5.678-.405 8.173-1.101 2.047-2.744 3.74-4.098 5.614-.619.858-1.244 1.75-1.669 2.727-.141.325-.263.658-.383.992-.121.333-.224.673-.34 1.008-.109.314-.236.684-.627.687h-.007c-.466-.001-.579-.53-.695-.887-.284-.874-.581-1.713-1.019-2.525-.51-.944-1.145-1.817-1.79-2.671L19.527 4.799zM8.545 7.705l-3.959 4.707c.724 1.54 1.821 2.863 2.871 4.18.247.31.494.622.737.936l4.984-5.925-.029.01c-1.741.601-3.691-.291-4.392-1.987a3.377 3.377 0 0 1-.209-.716c-.063-.437-.077-.761-.004-1.198l.001-.007zM5.492 3.149l-.003.004c-1.947 2.466-2.281 5.88-1.117 8.77l4.785-5.689-.058-.05-3.607-3.035zM14.661.436l-3.838 4.563a.295.295 0 0 1 .027-.01c1.6-.551 3.403.15 4.22 1.626.176.319.323.683.377 1.045.068.446.085.773.012 1.22l-.003.016 3.836-4.561A8.382 8.382 0 0 0 14.67.439l-.009-.003zM9.466 5.868L14.162.285l-.047-.012A8.31 8.31 0 0 0 11.986 0a8.439 8.439 0 0 0-6.169 2.766l-.016.018 3.665 3.084z',
-  tripadvisor:
-    'M12.006 4.295c-2.67 0-5.338.784-7.645 2.353H0l1.963 2.135a5.997 5.997 0 0 0 4.04 10.43 5.976 5.976 0 0 0 4.075-1.6L12 19.705l1.922-2.09a5.972 5.972 0 0 0 4.072 1.598 6 6 0 0 0 6-5.998 5.982 5.982 0 0 0-1.957-4.432L24 6.648h-4.35a13.573 13.573 0 0 0-7.644-2.353zM12 6.255c1.531 0 3.063.303 4.504.903C13.943 8.138 12 10.43 12 13.1c0-2.671-1.942-4.962-4.504-5.942A11.72 11.72 0 0 1 12 6.256zM6.002 9.157a4.059 4.059 0 1 1 0 8.118 4.059 4.059 0 0 1 0-8.118zm11.992.002a4.057 4.057 0 1 1 .003 8.115 4.057 4.057 0 0 1-.003-8.115zm-11.992 1.93a2.128 2.128 0 0 0 0 4.256 2.128 2.128 0 0 0 0-4.256zm11.992 0a2.128 2.128 0 0 0 0 4.256 2.128 2.128 0 0 0 0-4.256z',
-};
-const stBrand = (k) =>
-  `<svg class="st-brand-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${ST_BRANDS[k]}"/></svg>`;
+// Outside links use our own plain icons: other companies' logos need their permission.
+const ST_LINK_ICON = { maps: 'pin', tripadvisor: 'chat' };
+const stBrand = (k) => icon(ST_LINK_ICON[k]);
 // Outside links for a stop, as two small marks beside its name: where it is, and what others say.
 function stLinks(s) {
   const maps = s.id
@@ -390,35 +385,15 @@ function storyLayers(m) {
   storyCityLabels(m);
 }
 
-// Street tiles with English labels everywhere. OpenStreetMap's own tiles label places in the local
-// script, so they are only the fallback if the English ones fail to load.
+// Street tiles from OpenStreetMap, the same as every other map in the app. They label places in
+// the local script; English labels everywhere would need a keyed provider (Esri asks for a key).
 function storyTiles(map = storyMap) {
-  const osm = () =>
-    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution:
-        '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-      maxZoom: 19,
-      updateWhenIdle: true,
-    });
-  const english = L.tileLayer(
-    'https://server.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}',
-    {
-      attribution:
-        'Tiles © <a href="https://www.esri.com/">Esri</a> and its data providers, including OpenStreetMap contributors',
-      maxZoom: 19,
-      updateWhenIdle: true,
-    },
-  );
-  let failed = 0,
-    loaded = 0;
-  english.on('tileload', () => loaded++);
-  english.on('tileerror', () => {
-    if (++failed < 4 || loaded || !map._loaded) return;
-    english.off('tileerror');
-    map.removeLayer(english);
-    osm().addTo(map);
-  });
-  english.addTo(map);
+  L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution:
+      '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+    maxZoom: 19,
+    updateWhenIdle: true,
+  }).addTo(map);
 }
 // City labels for the zoomed-out view, where single stops are too close together to tell apart.
 function storyCityLabels(m) {
