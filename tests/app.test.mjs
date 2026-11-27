@@ -1018,3 +1018,26 @@ test('a one-day log reads as one day: no range, no plural, no day switcher, own 
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('the trip bar shows only where you pick places, and a failed photo shows no file name', async () => {
+  const page = await openApp(browser, origin, {
+    state: { trip: ['kyoto'], saved: ['kyoto-kiyomizu'] },
+    hash: '#/city/kyoto',
+  });
+  await page.waitForTimeout(400);
+  assert.equal(await page.locator('#minicart').isVisible(), true, 'no trip bar on a city');
+  for (const h of ['#/feed', '#/account', '#/map']) {
+    await go(page, h);
+    assert.equal(await page.locator('#minicart').isVisible(), false, `trip bar covers ${h}`);
+  }
+  await go(page, '#/story/japan-sample');
+  await page.waitForTimeout(600);
+  // Photo hosts are blocked in tests, so every guide photo here has failed.
+  const shown = await page.$$eval(
+    'img.photo',
+    (l) => l.filter((i) => getComputedStyle(i).fontSize !== '0px').length,
+  );
+  assert.equal(shown, 0, 'a photo that failed still shows its file name');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

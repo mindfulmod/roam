@@ -58,8 +58,8 @@ function external(url, text, cls = '') {
 }
 function rating(p) {
   return p.michelin
-    ? '<span class="muted">MICHELIN Guide</span>'
-    : '<span class="muted">Curated pick</span>';
+    ? '<span class="muted nowrap">MICHELIN Guide</span>'
+    : '<span class="muted nowrap">Curated pick</span>';
 }
 // One short message above the tab bar. `action` adds a single button (Undo, or the next step).
 function toast(t, action, ms = 3500) {
@@ -134,8 +134,11 @@ function updateMiniCart() {
   const el = $('#minicart');
   if (!el) return;
   const page = location.hash.replace(/^#\/?/, '').split(/[/?]/)[0];
+  // Only where you are choosing places. The feed, profiles and account are about people, and
+  // there the bar only covers what you came to read; the Trip tab's count still shows the trip.
   const hidden =
-    (!S.trip.length && !savedCount()) || ['trip', 'map', 'story', 't', 'log'].includes(page);
+    (!S.trip.length && !savedCount()) ||
+    !['', 'city', 'choose', 'budget', 'saved', 'guide'].includes(page);
   document.body.classList.toggle('has-minicart', !hidden);
   el.hidden = hidden;
   if (hidden) return;
