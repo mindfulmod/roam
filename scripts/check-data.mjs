@@ -81,7 +81,23 @@ const ITEM_KEYS = [
   'bestFor',
   'tradeoffs',
 ];
-const seen = new Set();
+const seen = new Set(),
+  qids = new Map();
+// Identity fields from scripts/refresh-identity.mjs.
+function checkIdentity(p) {
+  if (p.wikidata !== undefined && !/^Q\d{1,12}$/.test(p.wikidata))
+    err(`${p.id}: bad wikidata id ${p.wikidata}`);
+  if (
+    p.local !== undefined &&
+    !(
+      typeof p.local?.name === 'string' &&
+      p.local.name.trim() &&
+      p.local.name.length <= 80 &&
+      /^[a-z]{2,3}(-[a-z]{2,4})?$/.test(p.local.lang || '')
+    )
+  )
+    err(`${p.id}: local must be { name, lang }`);
+}
 let places = 0,
   noCover = 0;
 for (const id of meta.cityOrder) {
@@ -92,6 +108,7 @@ for (const id of meta.cityOrder) {
   const c = await readJson(`data/cities/${id}.json`);
   if (c.id !== id) err(`${id}: file name and id differ`);
   for (const k of CITY_KEYS) if (c[k] === undefined || c[k] === null) err(`${id}: missing ${k}`);
+  checkIdentity(c);
   if (!REGIONS.includes(c.region)) err(`${id}: unknown region ${c.region}`);
   if (!costs.fx[c.currency]) err(`${id}: no exchange rate for ${c.currency}`);
   if (!costs.cities[id]?.hotel) err(`${id}: no hotel estimate in costs.json`);
@@ -118,6 +135,11 @@ for (const id of meta.cityOrder) {
       if (d > 450) err(`${p.id}: pin is ${Math.round(d)} km from ${c.name}`);
       else if (d > 60 && !p.excursion && p.duration < 6)
         warn(`${p.id}: ${Math.round(d)} km from the city but not marked as an excursion`);
+    }
+    checkIdentity(p);
+    if (p.wikidata) {
+      if (qids.has(p.wikidata)) warn(`${p.id}: same Wikidata item as ${qids.get(p.wikidata)}`);
+      else qids.set(p.wikidata, p.id);
     }
     const ph = photos[p.id];
     if (ph && !/^https?:/.test(ph.data) && !existsSync(path.join(root, ph.data)))
