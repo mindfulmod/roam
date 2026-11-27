@@ -203,6 +203,7 @@ async function resolveTitles(titles) {
       formatversion: '2',
       redirects: '1',
       prop: 'coordinates|pageprops',
+      colimit: 'max',
       ppprop: 'wikibase_item|disambiguation',
       titles: batch.join('|'),
     });
@@ -216,7 +217,7 @@ async function resolveTitles(titles) {
       const qid = page?.pageprops?.wikibase_item;
       if (!qid || page.missing || page.pageprops.disambiguation !== undefined) continue;
       const c = page.coordinates?.[0];
-      out.set(t, { qid, coords: c ? { lat: c.lat, lon: c.lon } : null });
+      out.set(t, { qid, title: page.title, coords: c ? { lat: c.lat, lon: c.lon } : null });
     }
   }
   return out;
@@ -248,15 +249,34 @@ const plain = (s) =>
 function localName(name, lab, lang) {
   for (const l of [lang, ...(FALLBACK[lang] || [])]) {
     const v = lab?.[l]?.trim();
-    if (v && v.length <= 80) return plain(v) === plain(name) ? null : { name: v, lang };
+    // "Ponta Negra" adds nothing under "Ponta Negra beach".
+    if (v && v.length <= 80) return plain(name).includes(plain(v)) ? null : { name: v, lang };
   }
   return null;
 }
+// A place shares a real word with its article's title ("Nijo Castle" and "Nijō Castle"),
+// so a restaurant whose article is its town ("El Pimpi" and "Málaga") lends no identity.
+const GENERIC = new Set(
+  'the and of old town city de la el del di le les du das der los las'.split(' '),
+);
+const words = (s) =>
+  String(s)
+    .normalize('NFKD')
+    .replace(/[\u0300-\u036f]/g, '')
+    .toLowerCase()
+    .split(/[^\p{L}\p{N}]+/u)
+    .filter((w) => w.length >= 3 && !GENERIC.has(w));
+const sameThing = (name, title) => {
+  const t = new Set(words(title));
+  return words(name).some(
+    (w) => t.has(w) || [...t].some((x) => x.length >= 5 && (x.startsWith(w) || w.startsWith(x))),
+  );
+};
 
 const files = (await readdir(citiesDir)).filter(
   (f) => f.endsWith('.json') && (!onlyCity || f === onlyCity + '.json'),
 );
-const tally = { ids: 0, local: 0, noArticle: 0, far: 0 };
+const tally = { ids: 0, local: 0, noArticle: 0, far: 0, other: 0 };
 for (const file of files) {
   const fp = path.join(citiesDir, file);
   const city = JSON.parse(await readFile(fp, 'utf8'));
@@ -273,13 +293,26 @@ for (const file of files) {
     console.warn(`${city.name}: lookup failed, keeping what is there (${e.message})`);
     continue;
   }
+  const cityQ = resolved.get(city.wiki)?.qid,
+    uses = {};
+  for (const p of city.items) {
+    const q = resolved.get(p.wiki)?.qid;
+    if (q) uses[q] = (uses[q] || 0) + 1;
+  }
   for (const p of all) {
     const r = resolved.get(p.wiki);
+    delete p.wikidata;
+    delete p.local;
     if (!r) {
       tally.noArticle++;
       continue;
     }
-    if (!r.coords || km(p, r.coords) > (p === city ? CITY_MAX_KM : MAX_KM)) {
+    // A town, or an article two places share, is not the identity of either.
+    if (p !== city && (r.qid === cityQ || uses[r.qid] > 1 || !sameThing(p.name, r.title))) {
+      tally.other++;
+      continue;
+    }
+    if (r.coords ? km(p, r.coords) > (p === city ? CITY_MAX_KM : MAX_KM) : p.kind !== 'see') {
       tally.far++;
       continue;
     }
@@ -289,10 +322,10 @@ for (const file of files) {
     if (loc) {
       p.local = loc;
       tally.local++;
-    } else delete p.local;
+    }
   }
   await writeFile(fp, JSON.stringify(city, null, 2) + '\n');
 }
 console.log(
-  `${tally.ids} identities, ${tally.local} local names, ${tally.noArticle} titles with no article, ${tally.far} articles too far from the pin`,
+  `${tally.ids} identities, ${tally.local} local names, ${tally.noArticle} titles with no article, ${tally.far} articles too far from the pin, ${tally.other} articles about something else`,
 );
