@@ -9395,3 +9395,46 @@ img.photo {
     margin-top: 8px;
   }
 }
+
+/* World map list: each country folds with one tap. */
+.maplist-group > summary {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 10px;
+  cursor: pointer;
+  list-style: none;
+}
+.maplist-group > summary::-webkit-details-marker {
+  display: none;
+}
+.maplist-group > summary > span {
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-width: 0;
+}
+.maplist-group > summary em {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  flex: none;
+  font-style: normal;
+  font-size: 12px;
+  letter-spacing: 0;
+  text-transform: none;
+  font-weight: 500;
+  color: var(--muted);
+}
+.maplist-group > summary em .icon {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.15s;
+}
+.maplist-group:not([open]) > summary em .icon {
+  transform: rotate(-90deg);
+}
+.maplist-group > summary:focus-visible {
+  outline: 2px solid var(--teal);
+  outline-offset: 2px;
+}

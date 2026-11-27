@@ -1064,3 +1064,45 @@ test('on a short phone, "I\'m here" and both alternatives sit above the tab bar'
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('the world map list folds a country away, and switching city tabs keeps your place', async () => {
+  const page = await openApp(browser, origin, {
+    viewport: { width: 1280, height: 800 },
+    hash: '#/map',
+  });
+  const first = page.locator('.maplist-group').first();
+  const country = await first.getAttribute('data-country');
+  assert.equal(await first.evaluate((d) => d.open), true);
+  await first.locator('summary').click();
+  assert.equal(await first.evaluate((d) => d.open), false, 'the country did not fold');
+  assert.equal(await first.locator('.maplistitem').first().isVisible(), false);
+  // Folded countries stay folded when the list redraws.
+  await page.evaluate(() => renderMapPins());
+  assert.equal(
+    await page.locator(`.maplist-group[data-country="${country}"]`).evaluate((d) => d.open),
+    false,
+  );
+  await page.$eval('[data-action="map-fold-all"]', (b) => b.click());
+  await page.waitForTimeout(100);
+  assert.equal(await page.locator('.maplist-group[open]').count(), 0, 'fold all left some open');
+  assert.match(await page.innerText('[data-action="map-fold-all"]'), /Open all/);
+  // City page on a phone: scrolled into the list, a new tab starts just under the tabs.
+  await page.setViewportSize(PHONE);
+  await go(page, '#/city/kyoto');
+  const tabsTop = () => page.$eval('.citytabs', (t) => Math.round(t.getBoundingClientRect().top));
+  await page.evaluate(() => window.scrollTo(0, document.body.scrollHeight * 0.6));
+  await page.waitForTimeout(100);
+  const stuck = await tabsTop();
+  await page.$eval('.citytabs [data-tab="food"]', (b) => b.click());
+  await page.waitForTimeout(500);
+  assert.ok((await page.evaluate(() => scrollY)) > 200, 'switching tabs jumped to the top');
+  assert.equal(await tabsTop(), stuck, 'the tabs moved after switching');
+  // Near the top, the page stays exactly where it was.
+  await page.evaluate(() => window.scrollTo(0, 120));
+  await page.waitForTimeout(100);
+  await page.$eval('.citytabs [data-tab="places"]', (b) => b.click());
+  await page.waitForTimeout(500);
+  assert.equal(await page.evaluate(() => scrollY), 120);
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

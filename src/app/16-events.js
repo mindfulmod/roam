@@ -225,7 +225,8 @@ document.addEventListener('click', (e) => {
     routeLayer.clearLayers();
     renderMapPins(true);
     history.replaceState(null, '', '#/map');
-  } else if (a === 'map-list') setMapSheet(!$('#map-sheet').classList.contains('open'));
+  } else if (a === 'map-fold-all') mapFoldAll();
+  else if (a === 'map-list') setMapSheet(!$('#map-sheet').classList.contains('open'));
   else if (a === 'map-card-close') hideMapCard();
   else if (a === 'tiles') {
     S.street = !S.street;
