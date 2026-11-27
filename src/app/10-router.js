@@ -1,3 +1,14 @@
+let routePath = '';
+// Where the city tabs sit in the page when not stuck (their sticky offset taken off), and the
+// current scroll. Used to keep your place when the tab changes.
+function cityTabsSpot() {
+  const t = $('.citytabs'),
+    before = t?.previousElementSibling;
+  if (!t || !before) return null;
+  const css = getComputedStyle(t),
+    stick = (parseFloat(css.top) || 0) - (parseFloat(css.marginTop) || 0);
+  return { y: window.scrollY, top: before.getBoundingClientRect().bottom + window.scrollY - stick };
+}
 function route() {
   closeModal();
   storyLeave();
@@ -25,7 +36,11 @@ function route() {
   const [path, query] = raw.split('?'),
     parts = path.split('/'),
     params = new URLSearchParams(query || '');
-  window.scrollTo(0, 0);
+  // Switching Sights, Food or Shopping on the same city keeps your place: the page stays where
+  // it was, or, if you had scrolled into the list, the new list starts just under the tabs.
+  const keep = parts[0] === 'city' && routePath === path ? cityTabsSpot() : null;
+  routePath = path;
+  if (!keep) window.scrollTo(0, 0);
   if (parts[0] === 'city') {
     const tab = params.get('tab') || 'places';
     if (tab === 'places' || tab === 'food') {
@@ -36,6 +51,10 @@ function route() {
       placeQuery = '';
     }
     renderCity(parts[1], tab);
+    if (keep) {
+      const now = cityTabsSpot();
+      window.scrollTo({ top: now && keep.y > keep.top ? now.top : keep.y, behavior: 'instant' });
+    }
   } else if (parts[0] === 'map') renderMap(parts[1] || '');
   else if (parts[0] === 'trip') renderTrip();
   else if (parts[0] === 'saved') renderSaved();

@@ -120,6 +120,28 @@ function mapItems() {
 function popupHtml(p, isCity) {
   return `<div class="map-popup">${photoTag(p.id)}<div class="map-popup-body"><h3>${esc(p.name)}</h3><p>${esc(isCity ? p.tagline : p.area + ' · ' + priceLabel(p))}</p>${isCity ? '' : `<div class="map-popup-tags">${typeChips(p)}<span class="pill tierpill t-${tier(p).key}">${tier(p).label}</span></div>`}</div><div class="actions"><button class="btn small" data-action="${isCity ? 'map-city-open' : 'place'}" data-id="${p.id}">${isCity ? 'Explore places' : 'View details'} ${icon('arrow')}</button>${isCity ? cityAdd(p.id, true) : external(mapsPin(p), icon('pin') + '<span class="visually-hidden">Open in Google Maps</span>', 'btn light small')}</div></div>`;
 }
+// Countries folded in the world list, kept while the app is open.
+const mapFolded = new Set();
+document.addEventListener(
+  'toggle',
+  (e) => {
+    const g = e.target;
+    if (!g.matches?.('.maplist-group')) return;
+    if (g.open) mapFolded.delete(g.dataset.country);
+    else mapFolded.add(g.dataset.country);
+    const all = $('[data-action="map-fold-all"]');
+    if (all)
+      all.textContent = $$('.maplist-group').every((x) => !x.open)
+        ? 'Open all countries'
+        : 'Fold all countries';
+  },
+  true,
+);
+function mapFoldAll() {
+  const groups = $$('.maplist-group'),
+    open = groups.every((g) => !g.open);
+  for (const g of groups) g.open = open;
+}
 function renderMapPins(fit = false) {
   if (!map) return;
   markerLayer.clearLayers();
@@ -146,23 +168,26 @@ function renderMapPins(fit = false) {
     if (isCity && !isMobile()) m.bindTooltip(p.name, { direction: 'top', offset: [0, -5] });
     mapMarkers[p.id] = m;
   });
-  let country = '';
+  const row = (p) =>
+    `<div class="maplistitem"><div data-action="map-focus" data-id="${p.id}" style="display:flex;align-items:center;gap:11px;flex:1;min-width:0" tabindex="0" role="button" aria-label="Find ${esc(p.name)} on the map">${photoTag(p.id)}<div class="text"><h4>${isCity ? '' : popularityRank(p) ? '#' + popularityRank(p) + ' ' : ''}${esc(p.name)}</h4><p>${esc(isCity ? p.tagline : (mapCity ? p.area : p.cityName) + ' · ' + p.duration + ' h')}</p></div></div>${isCity ? cityAdd(p.id, true) : saveButton(p.id)}</div>`;
   // The world list is grouped by country, most-visited first, so the order explains itself.
-  const head = (p) => {
-    if (!isCity || p.country === country) return '';
-    country = p.country;
-    return `<h4 class="maplist-country">${esc(country)}<small>${esc(countryVisitors(country))}</small></h4>`;
-  };
+  // Each country folds away with one tap, so you can skip past one you are not interested in.
+  const groups = [];
+  if (isCity)
+    for (const p of items) {
+      if (groups.at(-1)?.country !== p.country) groups.push({ country: p.country, list: [] });
+      groups.at(-1).list.push(p);
+    }
   $('#map-list').innerHTML = items.length
-    ? (isCity
-        ? `<p class="maplist-order">Most-visited countries first, then each country’s most popular places. <button class="inline-link" data-action="ranking-method">How this is ranked</button></p>`
-        : '') +
-      items
-        .map(
-          (p, i) =>
-            `${head(p)}<div class="maplistitem"><div data-action="map-focus" data-id="${p.id}" style="display:flex;align-items:center;gap:11px;flex:1;min-width:0" tabindex="0" role="button" aria-label="Find ${esc(p.name)} on the map">${photoTag(p.id)}<div class="text"><h4>${isCity ? '' : popularityRank(p) ? '#' + popularityRank(p) + ' ' : ''}${esc(p.name)}</h4><p>${esc(isCity ? p.tagline : (mapCity ? p.area : p.cityName) + ' · ' + p.duration + ' h')}</p></div></div>${isCity ? cityAdd(p.id, true) : saveButton(p.id)}</div>`,
-        )
-        .join('')
+    ? isCity
+      ? `<p class="maplist-order">Most-visited countries first, then each country’s most popular places. <button class="inline-link" data-action="ranking-method">How this is ranked</button>${groups.length > 1 ? ` · <button class="inline-link" data-action="map-fold-all">${groups.every((g) => mapFolded.has(g.country)) ? 'Open all countries' : 'Fold all countries'}</button>` : ''}</p>` +
+        groups
+          .map(
+            (g) =>
+              `<details class="maplist-group" data-country="${esc(g.country)}"${mapFolded.has(g.country) ? '' : ' open'}><summary class="maplist-country"><span>${esc(g.country)}<small>${esc(countryVisitors(g.country))}</small></span><em>${g.list.length} ${g.list.length === 1 ? 'city' : 'cities'}${icon('down')}</em></summary>${g.list.map(row).join('')}</details>`,
+          )
+          .join('')
+      : items.map(row).join('')
     : '<p class="muted">No matching places. Try another filter.</p>';
   if ($('#map-count'))
     $('#map-count').textContent =
