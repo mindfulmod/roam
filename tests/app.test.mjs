@@ -37,6 +37,7 @@ const SCREENS = [
   '#/story/japan-sample/log/catchup',
   '#/story/japan-sample/log/edit',
   '#/log',
+  '#/story/my-trip',
   '#/log/2027-07-01',
   '#/story/japan-sample/edit',
   '#/story/istanbul-sample/edit',
@@ -473,6 +474,69 @@ test('catching up from photos: groups by time, joins a logged stop, asks where f
   assert.equal(await page.locator('.tl-list li').count(), 2);
   await tap('.toast button');
   assert.equal(await page.locator('.tl-list li').count(), 1, 'undo did not take the catch-up back');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
+test('your log becomes a story only you can see, with your photos and typed text as text', async () => {
+  const page = await openApp(browser, origin, { state: { trip: ['kyoto'] }, hash: '#/trip' });
+  await page.evaluate(
+    (h) =>
+      localStorage.setItem(
+        'roam-trip-log',
+        JSON.stringify({
+          v: 1,
+          stops: [
+            { uid: 'a1', date: '2027-07-12', in: '09:20', out: '10:30', place: 'kyoto-kiyomizu' },
+            {
+              uid: 'a2',
+              date: '2027-07-12',
+              in: '11:00',
+              out: '12:00',
+              name: h,
+              city: 'kyoto',
+              lat: 35,
+              lon: 135.77,
+              note: h,
+            },
+            { uid: 'a3', date: '2027-07-13', in: '10:00', out: '11:30', place: 'kyoto-fushimi' },
+          ],
+        }),
+      ),
+    HOSTILE,
+  );
+  await go(page, '#/log/2027-07-12');
+  await page.$eval('.tl-list li:first-child [data-action="tl-fix"]', (el) => el.click());
+  await page.waitForTimeout(200);
+  await page.setInputFiles(
+    '.tl-modal .tl-addphoto input',
+    path.join(root, 'tests/fixtures/kyoto-0930.jpg'),
+  );
+  await page.waitForFunction(() =>
+    /photo added/.test(document.querySelector('.toast')?.innerText || ''),
+  );
+  await page.$eval('.tl-storydoor', (el) => el.click());
+  await page.waitForSelector('#story-timeline');
+  await page.waitForTimeout(300);
+  assert.match(await page.innerText('.story-hero h1'), /Kyoto/);
+  assert.equal(await page.locator('.st-day').count(), 2, 'not one day per logged date');
+  assert.match(await page.innerText('.st-lock'), /Only you can see this/);
+  assert.equal(
+    await page.locator('.st-facts a[href$="/edit"]').count(),
+    0,
+    'a local story offers the shared editor',
+  );
+  assert.ok(
+    await page.$$eval('#story-timeline img', (l) => l.some((i) => i.src.startsWith('blob:'))),
+    'your photo is not in the story',
+  );
+  assert.deepEqual(await injected(page), clean, 'typed text ran as code in the story');
+  await go(page, '#/story/my-trip/edit');
+  assert.equal(
+    await page.locator('.ed-banner, body.st-editing').count(),
+    0,
+    'the edit route opened the editor',
+  );
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });

@@ -205,7 +205,7 @@ function stRipStrip(m) {
 const stCommentWord = (n) => `${n} comment${n === 1 ? '' : 's'}`;
 // A stop's card in the timeline. The whole card opens the stop's own page (storyStop).
 function stStopHtml(s, max) {
-  return `<article class="st-stop${s.ripples.length ? ' has-rip' : ''}" id="st-stop-${s.i}" data-i="${s.i}" ${stEditing ? '' : 'data-action="story-stop"'} style="--day:${stColor(s.day)}"><div class="st-time"><b class="st-num" aria-label="Stop ${s.n} of day ${s.day + 1}">${s.n}</b><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><div class="st-head"><h4><button class="inline-link" data-action="story-stop" data-i="${s.i}">${esc(s.name)}</button></h4>${stLinks(s)}</div><p class="st-area">${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}</p>${typeof socPickBadge === 'function' ? socPickBadge(storyNow.id, s.id) : ''}${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
+  return `<article class="st-stop${s.ripples.length ? ' has-rip' : ''}" id="st-stop-${s.i}" data-i="${s.i}" ${stEditing ? '' : 'data-action="story-stop"'} style="--day:${stColor(s.day)}"><div class="st-time"><b class="st-num" aria-label="Stop ${s.n} of day ${s.day + 1}">${s.n}</b><strong>${s.in}</strong><span>${stDur(s.mins)}</span><i class="st-bar" style="--w:${Math.max(12, Math.round((Math.min(s.mins, max) / max) * 100))}%"></i></div><div class="st-body"><div class="st-head"><h4><button class="inline-link" data-action="story-stop" data-i="${s.i}">${esc(s.name)}</button></h4>${stLinks(s)}</div><p class="st-area">${storyNow?.st.local ? (s.id ? esc(s.area) : 'Added by you') : `${esc(s.area)}${s.id ? '' : ' · added by the group'} · ${stAvatar(s.by, 'tiny')} logged by ${esc(s.by.name)}`}</p>${typeof socPickBadge === 'function' ? socPickBadge(storyNow.id, s.id) : ''}${s.note ? `<p class="st-note">${esc(s.note)}</p>` : ''}${
     s.photos.length
       ? `<div class="st-photos n${s.photos.length}">${s.photos.map((x, k) => (stEditing ? edPhotoHtml(s, x, k) : `<button class="st-photo${x.hidden ? ' hid' : ''}" data-action="story-stop" data-i="${s.i}" data-k="${k}" aria-label="Open photo: ${esc(x.caption)}">${photoTag(x.id)}<span class="st-cap">${stAvatar(x.by, 'tiny')} ${esc(x.caption)}${x.hidden ? ' · hidden from viewers' : ''}</span></button>`)).join('')}</div>`
       : ''
@@ -265,12 +265,18 @@ function stFactsHtml(m) {
   const { st, days, stops } = m,
     id = m.id,
     seen = st.travellers.length + st.viewers.length;
-  return `<div class="st-facts"><div><strong>${days.length}</strong><span>days</span></div><div><strong>${m.cityIds.length}</strong><span>cities</span></div><div><strong>${stops.length}</strong><span>places</span></div><div><strong>${Math.round(m.km / 10) * 10}</strong><span>km between stops</span></div><button class="st-lock" data-action="story-audience">${icon('info')}<span>Only ${seen} people can see this</span></button>${stMine(st) && !stEditing ? `<a class="btn small ed-open" href="#/story/${esc(id)}/edit">${icon('pencil')} Edit the story</a>` : ''}</div>`;
+  return `<div class="st-facts"><div><strong>${days.length}</strong><span>days</span></div><div><strong>${m.cityIds.length}</strong><span>cities</span></div><div><strong>${stops.length}</strong><span>places</span></div><div><strong>${Math.round(m.km / 10) * 10}</strong><span>km between stops</span></div><button class="st-lock" data-action="story-audience">${icon('info')}<span>${st.local ? 'Only you can see this' : `Only ${seen} people can see this`}</span></button>${st.local ? `<a class="btn small ed-open" href="#/log">${icon('pencil')} Fix it in the log</a>` : ''}${stMine(st) && !stEditing && !st.local ? `<a class="btn small ed-open" href="#/story/${esc(id)}/edit">${icon('pencil')} Edit the story</a>` : ''}</div>`;
 }
 
 function renderStory(id) {
   // Opening the editor starts the travellers' shared working copy.
-  if (location.hash.split('/')[3] === 'edit' && STORIES[id] && stMine(STORIES[id])) edDraft(id);
+  if (
+    location.hash.split('/')[3] === 'edit' &&
+    STORIES[id] &&
+    stMine(STORIES[id]) &&
+    !STORIES[id].local
+  )
+    edDraft(id);
   const m = storyModel(id);
   if (!m) {
     $('#app').innerHTML =
@@ -280,7 +286,7 @@ function renderStory(id) {
   storyNow = m;
   headerActive('trip');
   const { st, stops, days } = m;
-  stEditing = location.hash.split('/')[3] === 'edit' && stMine(st);
+  stEditing = location.hash.split('/')[3] === 'edit' && stMine(st) && !st.local;
   document.body.classList.toggle('st-editing', stEditing);
   document.title = `${st.title} · Tandem Roads`;
   const max = 180;
@@ -302,7 +308,7 @@ function renderStory(id) {
     `<div class="story-layout"><div class="story-mapcol"><div class="story-mapbox"><div id="story-map" aria-label="Map of the trip route"></div><div class="story-maptools"><button class="btn small" data-action="story-play" id="story-play" aria-pressed="false">${icon('route')}<span>Play the trip</span></button><span class="story-now" id="story-now" aria-live="polite"></span></div></div><div class="chips story-days" id="story-days"><button class="chip st-playchip" data-action="story-play">${icon('route')}<span>Play</span></button><button class="chip active" data-action="story-day" data-id="all">Whole trip</button>${days.map((d) => `<button class="chip" data-action="story-day" data-id="${d.i}"><i class="st-dot" style="--day:${stColor(d.i)}"></i>Day ${d.i + 1}</button>`).join('')}</div></div>` +
     `<div class="story-timeline" id="story-timeline">${days.map((d) => stDayHtml(d, max)).join('')}</div></div>` +
     `<section class="st-after"><div class="st-panel"><h2>Where the time went</h2><div class="st-citybars">${cityMins.map((x) => `<div class="st-citybar"><span>${esc(x.c.name)}</span><i style="--w:${Math.round((x.mins / topMins) * 100)}%"></i><em>${stDur(x.mins)}</em></div>`).join('')}</div><h3>Longest stops</h3><ol class="st-longest">${longest.map((s) => `<li><button class="inline-link" data-action="story-goto" data-i="${s.i}">${esc(s.name)}</button><span>${stDur(s.mins)}</span></li>`).join('')}</ol></div>` +
-    `<div class="st-panel"><h2>What this trip left behind</h2><p class="muted">${esc(st.country)} is now filled in on ${st.travellers.length} maps, and each traveller's passport has ${cityMins.length} new stamps.</p><div class="st-stamps">${cityMins.map((x, i) => stStamp(x.c, stDate(x.date, { day: 'numeric', month: 'short', year: 'numeric' }), i)).join('')}</div><p class="filter-note">A preview. Maps and passports arrive in a later step.</p></div></section>` +
+    `<div class="st-panel"><h2>What this trip left behind</h2><p class="muted">${st.local ? `${esc(st.country)} is now filled in on your map, and your passport has ${cityMins.length} new ${cityMins.length === 1 ? 'stamp' : 'stamps'}.` : `${esc(st.country)} is now filled in on ${st.travellers.length} maps, and each traveller's passport has ${cityMins.length} new stamps.`}</p><div class="st-stamps">${cityMins.map((x, i) => stStamp(x.c, stDate(x.date, { day: 'numeric', month: 'short', year: 'numeric' }), i)).join('')}</div><p class="filter-note">A preview. Maps and passports arrive in a later step.</p></div></section>` +
     (st.sample
       ? `<p class="st-samplenote">${icon('info')} This is a sample. The travellers and their notes are made up, and Tandem Roads' own photos stand in for theirs. Loves and your want-to-go list are saved on this device only.</p>`
       : '') +
@@ -828,6 +834,11 @@ window.addEventListener('popstate', () => {
 });
 function storyAudience() {
   const { st } = storyNow;
+  if (st.local)
+    return showModal(
+      `<div class="modalcontent"><h2 id="modal-heading">Only you can see this</h2><p class="lead">This story is built from your log, which is saved on this phone and nowhere else.</p><ul class="st-rules"><li>Nobody else can open it, and there is no link to it.</li><li>When accounts arrive, you and your travel group decide together who sees your trip, and it starts visible to the travellers only.</li><li>Clearing this browser's data clears the log and its photos.</li></ul><div class="actions"><button class="btn" data-action="close-modal">Got it</button></div></div>`,
+      'Who can see this trip',
+    );
   showModal(
     `<div class="modalcontent"><h2 id="modal-heading">Who can see this trip</h2><p class="lead">The travellers decide together, and nobody else can open it.</p><ul class="st-rules"><li><strong>Travellers:</strong> ${st.travellers.map((t) => esc(t.name)).join(', ')}.</li><li><strong>Invited viewers:</strong> ${st.viewers.map(esc).join(', ')}. Each one was approved by every traveller.</li><li>A trip starts visible to its travellers only.</li><li>Opening it up needs a yes from everyone. Any one traveller can close it again at once.</li><li>Any traveller can hide a photo from viewers.</li><li>There are no public links.</li></ul><p class="filter-note">In this sample the people are made up. The rules are the ones Tandem Roads will use.</p><div class="actions"><button class="btn" data-action="close-modal">Got it</button></div></div>`,
     'Who can see this trip',
