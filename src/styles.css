@@ -9347,3 +9347,51 @@ img.photo {
   color: transparent;
   font-size: 0;
 }
+
+/* Day by day on a phone: the tick, photo, name and map button share the top row, and the tip and
+   price notes run the full width underneath instead of a narrow column beside the photo. */
+@media (max-width: 760px) {
+  .day-stop {
+    display: grid;
+    grid-template-columns: auto 53px minmax(0, 1fr) auto;
+    column-gap: 12px;
+    align-items: center;
+  }
+  .day-stop .stoptext {
+    display: contents;
+  }
+  .day-stop .tick {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+  }
+  .day-stop > img,
+  .day-stop > .nophoto {
+    grid-column: 2;
+    grid-row: 1 / span 2;
+  }
+  .day-stop .stoptext > h4 {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: end;
+  }
+  .day-stop .stoptext > h4 .inline-link {
+    text-align: left;
+  }
+  .day-stop .stoptext > h4 + p {
+    grid-column: 3 / -1;
+    grid-row: 2;
+    align-self: start;
+  }
+  .day-stop > a {
+    grid-column: 4;
+    grid-row: 1;
+  }
+  .day-stop .stoptext > :not(h4):not(h4 + p) {
+    grid-column: 2 / -1;
+    justify-self: start;
+  }
+  .day-stop .stoptext > h4 + p ~ p:first-of-type,
+  .day-stop .stoptext > .pill {
+    margin-top: 8px;
+  }
+}

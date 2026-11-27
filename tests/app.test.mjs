@@ -1041,3 +1041,26 @@ test('the trip bar shows only where you pick places, and a failed photo shows no
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('on a short phone, "I\'m here" and both alternatives sit above the tab bar', async () => {
+  const page = await openApp(browser, origin, {
+    viewport: { width: 375, height: 667 },
+    state: { trip: ['kyoto'], saved: ['kyoto-kiyomizu'] },
+    hash: '#/log',
+  });
+  await page.waitForSelector('[data-action="tl-locate"]');
+  const navTop = await page
+    .$eval('nav.nav', (n) => n.getBoundingClientRect().top)
+    .catch(() => null);
+  const bottom = await page.$eval(
+    '[data-action="tl-locate"]',
+    (b) => b.getBoundingClientRect().bottom,
+  );
+  assert.ok(navTop, 'no tab bar found');
+  assert.ok(
+    bottom <= navTop,
+    `"Use my location" ends at ${bottom}, under the tab bar at ${navTop}`,
+  );
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
