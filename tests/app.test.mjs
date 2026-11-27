@@ -982,3 +982,39 @@ test('the page refuses code it did not ship, and photos that fail still leave th
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('a one-day log reads as one day: no range, no plural, no day switcher, own orange', async () => {
+  const page = await openApp(browser, origin, { state: { trip: ['kyoto'] }, hash: '#/trip' });
+  await page.clock.install({ time: new Date('2027-07-12T12:00:00') });
+  await page.evaluate(() =>
+    localStorage.setItem(
+      'roam-trip-log',
+      JSON.stringify({
+        v: 1,
+        stops: [
+          { uid: 'a1', date: '2027-07-12', in: '09:20', out: '10:30', place: 'kyoto-kiyomizu' },
+        ],
+      }),
+    ),
+  );
+  await go(page, '#/log');
+  assert.equal(await page.locator('#tl-days').isHidden(), true, 'one day still shows a switcher');
+  assert.equal(
+    await page.getByText('Times marked "about"').count(),
+    0,
+    'the "about" note shows with nothing marked',
+  );
+  await go(page, '#/story/my-trip');
+  await page.waitForSelector('.st-facts');
+  const facts = await page.innerText('.st-facts');
+  assert.match(facts, /1\s+day\b/);
+  assert.match(facts, /1\s+place\b/);
+  assert.doesNotMatch(facts, /km between/, 'zero km is shown');
+  assert.doesNotMatch(
+    await page.innerText('.story-hero p'),
+    / to /,
+    'a single day shows as a range',
+  );
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

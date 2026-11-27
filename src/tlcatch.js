@@ -61,7 +61,8 @@ function tlCatchHtml() {
   const live = c.groups.filter((g) => !g.drop),
     ready = live.length && c.groups.every(tlcReady),
     added = live.filter((g) => !tlcJoined(g)).length,
-    joined = live.length - added;
+    // Two groups of photos can fill the same stop, which is still one stop.
+    joined = new Set(live.map((g) => tlcJoined(g)?.uid).filter(Boolean)).size;
   return (
     `<section class="lg-card"><p class="lg-kicker">${icon('route')} Catch up from photos</p><h2>Is this how it went?</h2><p class="muted">${c.n} ${c.n === 1 ? 'photo' : 'photos'} fell into ${c.groups.length} ${c.groups.length === 1 ? 'place' : 'places'} by the time they were taken. Check each one.</p>${c.skipped ? `<p class="lg-warn">${c.skipped} ${c.skipped === 1 ? 'photo' : 'photos'} could not be read and ${c.skipped === 1 ? 'was' : 'were'} left out.</p>` : ''}</section>` +
     c.groups.map(tlcGroupHtml).join('') +
@@ -80,7 +81,7 @@ function tlcGroupHtml(g, i) {
       : g.stop
         ? `<div><h3>${esc(g.stop.name || P[g.stop.place]?.name)}</h3><p>You chose this place</p></div><button class="st-act" data-action="tl-c-where" data-i="${i}">Change</button>`
         : `<div><h3>Where was this?</h3><p>${when}. Phones do not share a photo's location with web pages, so choose the place.</p></div><button class="btn small" data-action="tl-c-where" data-i="${i}">Choose the place</button>`;
-  return `<section class="lg-group ${tlcReady(g) ? '' : 'needs'}" style="--day:${stColor(0)}"><header>${head}</header><div class="lg-strip">${g.shots.map((x) => `<button class="lg-shot on" data-action="tl-c-unpick" data-i="${i}" data-k="${esc(x.id)}" aria-label="Leave out the photo from ${x.t}"><span class="lg-thumb">${tlpImg(x.id)}</span><time>${x.t}</time>${over ? `<i>${icon('close')}</i>` : ''}</button>`).join('')}</div>${over ? `<p class="lg-warn">${g.shots.length} photos, and there is room for ${room}. Tap one to leave it out.</p>` : ''}<footer><span><strong>${when}, about ${g.in} to ${g.out}</strong> · ${g.shots.length === 1 ? 'a guess from one photo' : 'from the first and last photo'}${g.shots.some((x) => x.guess) ? ' (some had no time saved, so the file date was used)' : ''}</span><button class="st-act" data-action="tl-c-drop" data-i="${i}">Leave out</button></footer></section>`;
+  return `<section class="lg-group ${tlcReady(g) ? '' : 'needs'}" style="--day:${tlInk()}"><header>${head}</header><div class="lg-strip">${g.shots.map((x) => `<button class="lg-shot on" data-action="tl-c-unpick" data-i="${i}" data-k="${esc(x.id)}" aria-label="Leave out the photo from ${x.t}"><span class="lg-thumb">${tlpImg(x.id)}</span><time>${x.t}</time>${over ? `<i>${icon('close')}</i>` : ''}</button>`).join('')}</div>${over ? `<p class="lg-warn">${g.shots.length} photos, and there is room for ${room}. Tap one to leave it out.</p>` : ''}<footer><span><strong>${when}, about ${g.in} to ${g.out}</strong> · ${g.shots.length === 1 ? 'a guess from one photo' : 'from the first and last photo'}${g.shots.some((x) => x.guess) ? ' (some had no time saved, so the file date was used)' : ''}</span><button class="st-act" data-action="tl-c-drop" data-i="${i}">Leave out</button></footer></section>`;
 }
 function tlCatchPins() {
   return TL.catch.step === 2

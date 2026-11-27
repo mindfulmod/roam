@@ -823,3 +823,8 @@
   background: var(--soft, rgba(127, 127, 127, 0.12));
   color: var(--teal);
 }
+
+/* One day has nothing to switch between. */
+#tl-days[hidden] {
+  display: none;
+}

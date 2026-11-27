@@ -219,7 +219,7 @@ function stStopHtml(s, max) {
 }
 
 function stDayHtml(day, max) {
-  let html = `<header class="st-day" id="st-day-${day.i}" data-day="${day.i}" style="--day:${stColor(day.i)}"><span class="eyebrow">Day ${day.i + 1} · ${stDate(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}</span><h3>${esc(day.title)}${stEditing ? `<button class="iconbtn ed-pen" data-action="ed-day" data-day="${day.i}" aria-label="Rename day ${day.i + 1}">${icon('pencil')}</button>` : ''}</h3><p>${esc(day.city)} · ${day.places} places · ${stDur(day.mins)} at places</p></header>`;
+  let html = `<header class="st-day" id="st-day-${day.i}" data-day="${day.i}" style="--day:${stColor(day.i)}"><span class="eyebrow">Day ${day.i + 1} · ${stDate(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}</span><h3>${esc(day.title)}${stEditing ? `<button class="iconbtn ed-pen" data-action="ed-day" data-day="${day.i}" aria-label="Rename day ${day.i + 1}">${icon('pencil')}</button>` : ''}</h3><p>${esc(day.city)} · ${day.places} ${day.places === 1 ? 'place' : 'places'} · ${stDur(day.mins)} ${day.places === 1 ? 'there' : 'at places'}</p></header>`;
   day.rows.forEach((r, i) => {
     const prev = day.rows[i - 1];
     if (prev && !r.leg && !prev.leg) {
@@ -254,8 +254,14 @@ function stRibbon(m) {
   });
   return `<ol class="st-ribbon" aria-label="Route: ${legs.map((l) => esc(l.name)).join(', then ')}">${legs.map((l, i) => `<li style="--day:${l.color};--i:${i}"><i></i><strong>${esc(l.name)}</strong><span>${l.days}</span></li>`).join('')}</ol>`;
 }
-const stRange = (m) =>
-  `${stDate(m.days[0].date, { day: 'numeric', month: 'short' })} to ${stDate(m.days[m.days.length - 1].date, { day: 'numeric', month: 'short', year: 'numeric' })}`;
+const stRange = (m) => {
+  const a = m.days[0].date,
+    b = m.days[m.days.length - 1].date,
+    last = stDate(b, { day: 'numeric', month: 'short', year: 'numeric' });
+  return a === b ? last : `${stDate(a, { day: 'numeric', month: 'short' })} to ${last}`;
+};
+const stCount = (n, one, many) =>
+  `<div><strong>${n}</strong><span>${n === 1 ? one : many}</span></div>`;
 
 // The cover and the facts row, on their own so an edit can redraw them in place.
 function stHeroHtml(m) {
@@ -267,7 +273,8 @@ function stFactsHtml(m) {
   const { st, days, stops } = m,
     id = m.id,
     seen = st.travellers.length + st.viewers.length;
-  return `<div class="st-facts"><div><strong>${days.length}</strong><span>days</span></div><div><strong>${m.cityIds.length}</strong><span>cities</span></div><div><strong>${stops.length}</strong><span>places</span></div><div><strong>${Math.round(m.km / 10) * 10}</strong><span>km between stops</span></div><button class="st-lock" data-action="story-audience">${icon('info')}<span>${st.local ? 'Only you can see this' : `Only ${seen} people can see this`}</span></button>${st.local ? `<a class="btn small ed-open" href="#/log">${icon('pencil')} Fix it in the log</a>` : ''}${stMine(st) && !stEditing && !st.local ? `<a class="btn small ed-open" href="#/story/${esc(id)}/edit">${icon('pencil')} Edit the story</a>` : ''}</div>`;
+  const km = Math.round(m.km / 10) * 10;
+  return `<div class="st-facts">${stCount(days.length, 'day', 'days')}${stCount(m.cityIds.length, 'city', 'cities')}${stCount(stops.length, 'place', 'places')}${km ? stCount(km, 'km between stops', 'km between stops') : ''}<button class="st-lock" data-action="story-audience">${icon('info')}<span>${st.local ? 'Only you can see this' : `Only ${seen} people can see this`}</span></button>${st.local ? `<a class="btn small ed-open" href="#/log">${icon('pencil')} Fix it in the log</a>` : ''}${stMine(st) && !stEditing && !st.local ? `<a class="btn small ed-open" href="#/story/${esc(id)}/edit">${icon('pencil')} Edit the story</a>` : ''}</div>`;
 }
 
 function renderStory(id) {
@@ -633,7 +640,7 @@ function storyTap(k) {
   else if (stop)
     copy = `<p class="st-tap-when"><b class="st-num">${stop.n}</b>${stop.in} · ${stDur(stop.mins)} here</p><h2>${esc(stop.name)}</h2>${stop.note ? `<p class="st-tap-note">${esc(stop.note)}</p>` : ''}<p class="st-tap-by">${stAvatar(shot ? shot.by : stop.by, 'tiny')} ${shot ? esc(shot.caption) : 'Logged by ' + esc(stop.by.name)} · ${esc(stop.area)}</p>${stop.ripples.length ? `<p class="st-tap-rip">${icon('ripple')} ${stop.ripples.map(stRipText).join(' · ')}</p>` : ''}<div class="st-tap-acts"><button class="st-act" data-action="story-stop" data-i="${stop.i}">${icon('list')}<span>${stop.comments.length ? stCommentWord(stop.comments.length) : 'Details'}</span></button>${stLinks(stop)}</div>`;
   else
-    copy = `<p class="st-tap-when">Day ${day.i + 1} of ${m.days.length} · ${stDate(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}</p><h2>${esc(day.title)}</h2><p class="st-tap-area">${esc(day.city)} · ${day.places} places · ${stDur(day.mins)} at places</p><ol class="st-tap-list">${dayStops.map((s) => `<li><b class="st-num">${s.n}</b>${esc(s.name)}</li>`).join('')}</ol>`;
+    copy = `<p class="st-tap-when">Day ${day.i + 1} of ${m.days.length} · ${stDate(day.date, { weekday: 'short', day: 'numeric', month: 'short' })}</p><h2>${esc(day.title)}</h2><p class="st-tap-area">${esc(day.city)} · ${day.places} ${day.places === 1 ? 'place' : 'places'} · ${stDur(day.mins)} ${day.places === 1 ? 'there' : 'at places'}</p><ol class="st-tap-list">${dayStops.map((s) => `<li><b class="st-num">${s.n}</b>${esc(s.name)}</li>`).join('')}</ol>`;
   el.style.setProperty('--day', cover ? 'var(--teal)' : stColor(day.i));
   el.querySelector('.st-tap-bars').innerHTML = mine
     .map((_, i) => `<i class="${i <= at ? 'on' : ''}"></i>`)
