@@ -164,6 +164,7 @@ const js = [
   await read('src/social.js'),
   await read('src/log.js'),
   await read('src/triplog.js'),
+  await read('src/tlphotos.js'),
   await read('src/edit.js'),
   await read('src/choose.js'),
   appJs,

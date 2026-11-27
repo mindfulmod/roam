@@ -40,6 +40,10 @@ function tlClean(s) {
     lat,
     lon,
     note: tlStr(s.note, 600),
+    photos: (Array.isArray(s.photos) ? s.photos : [])
+      .filter((x) => TLP_ID.test(x?.id))
+      .slice(0, TLP_MAX)
+      .map((x) => ({ id: x.id, t: tlTime(x.t), caption: tlStr(x.caption, 140) })),
   };
 }
 const tlUid = () => 's' + Date.now().toString(36) + Math.random().toString(36).slice(2, 7);
@@ -149,6 +153,7 @@ function renderTripLog(day) {
   document.title = 'Log the trip · Tandem Roads';
   TL = { log: tlRead(), day: validDate(day) ? day : tlToday(), pos: tlLastPos };
   tlCloseOld();
+  tlpTidy(TL.log.stops);
   $('#app').innerHTML =
     `<div class="wrap story-page log-page tl-page"><header class="lg-head"><a class="inline-link" href="#/trip">${icon('left')}<span>Your trip</span></a><h1>Log the trip</h1><p class="muted">Tap "I'm here" when you arrive somewhere. It is saved on this phone straight away, signal or not.</p></header>` +
     `<div class="story-layout"><div class="story-mapcol"><div class="story-mapbox"><div id="tl-map" aria-label="Map of the places logged"></div></div><div class="chips story-days" id="tl-days" role="tablist"></div></div>` +
@@ -195,6 +200,7 @@ function tlShow() {
     )
     .join('');
   $('#tl-panel').innerHTML = (TL.day === today ? tlNowHtml() : '') + tlListHtml(TL.day);
+  tlpFill($('#tl-panel'));
   tlMap();
 }
 
@@ -206,7 +212,7 @@ function tlNowHtml() {
   if (open)
     return (
       clock +
-      `<section class="lg-card"><p class="lg-kicker">${icon('pin')} You are at</p><div class="lg-place">${lgThumb({ id: open.place })}<div><h2>${esc(open.name)}</h2><p class="muted">Since ${open.in}${open.area ? ' · ' + esc(open.area) : ''}</p></div></div><div class="lg-row"><button class="st-act" data-action="tl-fix" data-id="${open.uid}">${icon('pencil')}<span>${open.note ? 'Edit the note' : 'Add a note'}</span></button><button class="st-act" data-action="tl-left">${icon('route')}<span>We've left</span></button></div><button class="btn ghost tl-next" data-action="tl-else">${icon('pin')} Moved on? Log the next place</button><p class="filter-note">"We've left" is optional. Without it, the leaving time is the moment you log the next place.</p></section>`
+      `<section class="lg-card"><p class="lg-kicker">${icon('pin')} You are at</p><div class="lg-place">${lgThumb({ id: open.place })}<div><h2>${esc(open.name)}</h2><p class="muted">Since ${open.in}${open.area ? ' · ' + esc(open.area) : ''}</p></div></div>${tlStrip(open)}<div class="lg-row">${tlAddPhoto(open)}<button class="st-act" data-action="tl-fix" data-id="${open.uid}">${icon('pencil')}<span>${open.note ? 'Edit the note' : 'Add a note'}</span></button><button class="st-act" data-action="tl-left">${icon('route')}<span>We've left</span></button></div><button class="btn ghost tl-next" data-action="tl-else">${icon('pin')} Moved on? Log the next place</button><p class="filter-note">"We've left" is optional. Without it, the leaving time is the moment you log the next place.</p></section>`
     );
   const g = tlSuggest(),
     locBtn = `<button class="btn text" data-action="tl-locate">${icon('locate')} ${tlFresh() ? 'Check my location again' : 'Use my location'}</button>`;
@@ -232,7 +238,7 @@ function tlListHtml(date) {
     `<ol class="lg-list tl-list">${list
       .map(
         (s, i) =>
-          `<li style="--day:${color}"><b class="st-num">${i + 1}</b><div><strong>${esc(s.name)}</strong><span>${s.out ? `${s.in} to ${s.est ? 'about ' : ''}${s.out} · ${lgSpan(s.in, s.out)}` : `${s.in}, here now`}${s.place ? '' : ' · added by you'}</span>${s.note ? `<p>${esc(s.note)}</p>` : ''}</div><button class="st-act" data-action="tl-fix" data-id="${s.uid}">Fix</button></li>`,
+          `<li style="--day:${color}"><b class="st-num">${i + 1}</b><div><strong>${esc(s.name)}</strong><span>${s.out ? `${s.in} to ${s.est ? 'about ' : ''}${s.out} · ${lgSpan(s.in, s.out)}` : `${s.in}, here now`}${s.place ? '' : ' · added by you'}</span>${s.note ? `<p>${esc(s.note)}</p>` : ''}${tlStrip(s)}</div><button class="st-act" data-action="tl-fix" data-id="${s.uid}">Fix</button></li>`,
       )
       .join(
         '',
@@ -371,8 +377,38 @@ function tlFix(uid) {
   const s = TL.log.stops.find((x) => x.uid === uid);
   if (!s) return;
   showModal(
-    `<div class="modalcontent lg-modal tl-modal"><h2 id="modal-heading">${esc(s.name)}</h2><p class="lead">${esc(stDate(s.date, { weekday: 'long', day: 'numeric', month: 'long' }))}</p><form class="lg-times tl-fix" data-id="${s.uid}"><label>Arrived<input type="time" name="in" value="${s.in}" required></label><label>Left<input type="time" name="out" value="${s.out}" ${s.out ? 'required' : ''}></label><label class="tl-note">Note<textarea name="note" maxlength="600" rows="3" placeholder="What happened here?">${esc(s.note)}</textarea></label><div class="actions"><button class="btn">Save</button><button type="button" class="btn text tl-remove" data-action="tl-remove" data-id="${s.uid}">Remove this stop</button></div></form>${s.out ? '' : '<p class="filter-note">Leave "Left" empty while you are still here.</p>'}</div>`,
+    `<div class="modalcontent lg-modal tl-modal"><h2 id="modal-heading">${esc(s.name)}</h2><p class="lead">${esc(stDate(s.date, { weekday: 'long', day: 'numeric', month: 'long' }))}</p><form class="lg-times tl-fix" data-id="${s.uid}"><label>Arrived<input type="time" name="in" value="${s.in}" required></label><label>Left<input type="time" name="out" value="${s.out}" ${s.out ? 'required' : ''}></label><div class="tl-note tl-fixphotos"><span>Photos <small>${s.photos.length} of ${TLP_MAX}</small></span><div class="tl-strip">${s.photos.map((x) => `<span class="tl-shot">${tlpImg(x.id)}<button type="button" data-action="tl-unphoto" data-id="${s.uid}" data-k="${esc(x.id)}" aria-label="Remove this photo">${icon('close')}</button></span>`).join('')}</div>${tlAddPhoto(s)}</div><label class="tl-note">Note<textarea name="note" maxlength="600" rows="3" placeholder="What happened here?">${esc(s.note)}</textarea></label><div class="actions"><button class="btn">Save</button><button type="button" class="btn text tl-remove" data-action="tl-remove" data-id="${s.uid}">Remove this stop</button></div></form>${s.out ? '' : '<p class="filter-note">Leave "Left" empty while you are still here.</p>'}</div>`,
     'Fix the stop',
+  );
+  tlpFill($('.tl-modal'));
+}
+// A stop's photos as a row of small squares, and the button that adds more.
+const tlStrip = (s) =>
+  s.photos.length
+    ? `<div class="tl-strip">${s.photos.map((x) => tlpImg(x.id)).join('')}</div>`
+    : '';
+const tlAddPhoto = (s) =>
+  `<label class="st-act tl-addphoto ${s.photos.length >= TLP_MAX ? 'full' : ''}">${icon('camera')}<span>${s.photos.length ? `${s.photos.length} of ${TLP_MAX} photos` : 'Add a photo'}</span><input type="file" accept="image/*" multiple data-uid="${s.uid}" ${s.photos.length >= TLP_MAX ? 'disabled' : ''}></label>`;
+async function tlPhotos(input) {
+  const s = TL?.log.stops.find((x) => x.uid === input.dataset.uid),
+    files = [...(input.files || [])];
+  input.value = '';
+  if (!s || !files.length) return;
+  const room = TLP_MAX - s.photos.length;
+  toast('Adding…', null, 20000);
+  const kept = await tlpAdd(files, room);
+  if (!TL) return;
+  const fresh = TL.log.stops.find((x) => x.uid === s.uid);
+  if (!kept.length || !fresh)
+    return toast('That photo could not be added. Try another, or free some space.');
+  const extra = files.length - room;
+  closeModal('user');
+  tlChange(
+    () => fresh.photos.push(...kept.map((x) => ({ id: x.id, t: x.t, caption: '' }))),
+    `${kept.length} ${kept.length === 1 ? 'photo' : 'photos'} added to ${fresh.name}.` +
+      (extra > 0
+        ? ` A stop holds ${TLP_MAX}, so ${extra} ${extra === 1 ? 'was' : 'were'} left out.`
+        : ''),
   );
 }
 
@@ -400,12 +436,20 @@ document.addEventListener('click', (ev) => {
       `Left ${open.name} at ${now}.`,
     );
   } else if (a === 'tl-fix') tlFix(b.dataset.id);
-  else if (a === 'tl-remove') {
+  else if (a === 'tl-unphoto') {
+    const s = TL.log.stops.find((x) => x.uid === b.dataset.id);
+    if (!s) return;
+    closeModal('user');
+    tlChange(() => (s.photos = s.photos.filter((x) => x.id !== b.dataset.k)), 'Photo removed.');
+  } else if (a === 'tl-remove') {
     const s = TL.log.stops.find((x) => x.uid === b.dataset.id);
     if (!s) return;
     closeModal('user');
     tlChange(() => TL.log.stops.splice(TL.log.stops.indexOf(s), 1), `${s.name} removed.`);
   }
+});
+document.addEventListener('change', (ev) => {
+  if (TL && ev.target.matches('.tl-addphoto input')) tlPhotos(ev.target);
 });
 document.addEventListener('input', (ev) => {
   if (TL && ev.target.matches('.tl-search')) $('#tl-pick').innerHTML = tlPickHtml(ev.target.value);

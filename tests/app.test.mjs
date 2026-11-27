@@ -5,7 +5,8 @@
 //    text and never runs as code. This matters more once friends' comments and names arrive.
 import test, { before, after } from 'node:test';
 import assert from 'node:assert/strict';
-import { chromium, serveDist, openApp, go, PHONE } from './helpers.mjs';
+import path from 'node:path';
+import { chromium, serveDist, openApp, go, PHONE, root } from './helpers.mjs';
 
 let browser, server, origin;
 before(async () => {
@@ -371,6 +372,51 @@ test('logging your own trip: I am here, location, a place of your own, fix, undo
   await tap('#tl-days .chip:nth-child(2)');
   assert.equal(await count('.tl-list li'), 2, 'the log did not survive a reload');
   assert.match((await rows())[1], /about/, 'yesterday’s open stop was not closed');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
+test('logging photos: picked photos are shrunk on the phone, location dropped, five per stop', async () => {
+  const page = await openApp(browser, origin, {
+    state: { trip: ['kyoto'], saved: ['kyoto-kiyomizu'] },
+    hash: '#/log',
+  });
+  const fx = (n) => path.join(root, 'tests/fixtures', n);
+  const shots = ['kyoto-0930.jpg', 'kyoto-0942.jpg', 'kyoto-1410.jpg'].map(fx);
+  await page.$eval('[data-action="tl-here"]', (el) => el.click());
+  await page.waitForTimeout(200);
+  await page.setInputFiles('.lg-card .tl-addphoto input', shots);
+  await page.waitForFunction(
+    () => document.querySelectorAll('.lg-card img.tl-photo[src]').length === 3,
+  );
+  // What is kept is a fresh JPEG: no EXIF block, so no location; the taken time was read first.
+  const kept = await page.evaluate(async () => {
+    const log = JSON.parse(localStorage.getItem('roam-trip-log'));
+    const ph = log.stops[0].photos;
+    const rec = await tlpGet(ph[0].id);
+    const bytes = new Uint8Array(await rec.blob.arrayBuffer());
+    const text = String.fromCharCode(...bytes.slice(0, 4096));
+    return { times: ph.map((x) => x.t), exif: text.includes('Exif'), type: rec.blob.type };
+  });
+  assert.deepEqual(kept.times, ['09:30', '09:42', '14:10']);
+  assert.equal(kept.exif, false, 'the kept photo still carries EXIF (and so location)');
+  assert.equal(kept.type, 'image/jpeg');
+  // Three more: only two fit, and the person is told.
+  await page.setInputFiles('.lg-card .tl-addphoto input', shots);
+  await page.waitForFunction(
+    () => document.querySelectorAll('.lg-card img.tl-photo[src]').length === 5,
+  );
+  assert.match(await page.innerText('.toast'), /holds 5, so 1 was left out/);
+  assert.equal(await page.locator('.lg-card .tl-addphoto input').isDisabled(), true);
+  // Remove one from the fix sheet, and the photos survive a reload.
+  await page.$eval('.tl-list [data-action="tl-fix"]', (el) => el.click());
+  await page.waitForTimeout(200);
+  await page.$eval('[data-action="tl-unphoto"]', (el) => el.click());
+  await page.waitForTimeout(200);
+  await page.reload();
+  await page.waitForFunction(
+    () => document.querySelectorAll('.lg-card img.tl-photo[src]').length === 4,
+  );
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
