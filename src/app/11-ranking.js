@@ -138,19 +138,6 @@ function rankPool(p) {
 // ---------------------------------------------------------------------------
 const SIGNALS = [
   {
-    key: 'google',
-    label: 'Google Maps reviews',
-    short: 'Google reviews',
-    weight: 1,
-    value: (p) => (p.signals?.google?.count > 0 ? p.signals.google.count : null),
-    display: (p) =>
-      num(p.signals.google.count) +
-      ' reviews' +
-      (p.signals.google.rating ? ' · ★ ' + Number(p.signals.google.rating).toFixed(1) : ''),
-    url: (p) => p.signals?.google?.url || mapsPin(p),
-    checked: (p) => p.signals?.google?.checked,
-  },
-  {
     key: 'wikipedia',
     label: 'Wikipedia readers, last 12 months',
     short: 'Wikipedia readers',
