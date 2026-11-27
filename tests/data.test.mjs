@@ -66,7 +66,6 @@ test('links in the guide data are http(s) only', async () => {
       for (const [k, x] of Object.entries(v)) walk(x, where + '.' + k);
   };
   for (const c of cities) walk(c, c.id);
-  for (const f of ['shopping.json', 'stories.json', 'costs.json'])
-    walk(await json('data/' + f), f);
+  for (const f of ['shopping.json', 'stories.json', 'costs.json']) walk(await json('data/' + f), f);
   assert.deepEqual(bad, []);
 });

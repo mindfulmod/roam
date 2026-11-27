@@ -35,6 +35,8 @@ const SCREENS = [
   '#/story/japan-sample/log',
   '#/story/japan-sample/log/catchup',
   '#/story/japan-sample/log/edit',
+  '#/log',
+  '#/log/2027-07-01',
   '#/story/japan-sample/edit',
   '#/story/istanbul-sample/edit',
   '#/story/istanbul-sample',
@@ -305,6 +307,70 @@ test('logging a trip: the three flows work and typed text is shown as text', asy
   assert.equal(await count('.lg-done'), 0, 'the story finished without everyone');
   await tap('[data-action="lg-jo"]');
   assert.equal(await count('.lg-done'), 1, 'the story did not finish with four yeses');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
+test('logging your own trip: I am here, location, a place of your own, fix, undo, reload', async () => {
+  const page = await openApp(browser, origin, {
+    state: { trip: ['kyoto'], saved: ['kyoto-kiyomizu'] },
+    hash: '#/trip',
+  });
+  await page.clock.install({ time: new Date('2027-07-12T09:00:00') });
+  await page.context().grantPermissions(['geolocation']);
+  await page.reload();
+  const tap = async (sel) => {
+    await page.$eval(sel, (el) => el.click());
+    await page.waitForTimeout(150);
+  };
+  const count = (sel) => page.locator(sel).count();
+  const rows = () => page.$$eval('.tl-list li', (l) => l.map((x) => x.innerText));
+  await tap('.tripbar a[href="#/log"]');
+  await page.waitForTimeout(300);
+  // With no location, the next saved place in today's city is offered.
+  assert.match(await page.innerText('.lg-here'), /Next on your plan[\s\S]*Kiyomizu/i);
+  await tap('[data-action="tl-here"]');
+  assert.equal(await count('.tl-list li'), 1, 'the tap did not log a place');
+  assert.match((await rows())[0], /09:0\d, here now/);
+  // Half an hour later, near Fushimi Inari: the location suggests it, and the first stop closes.
+  await page.clock.fastForward('30:00');
+  await page.context().setGeolocation({ latitude: 34.9672, longitude: 135.7726 });
+  await tap('[data-action="tl-left"]');
+  await tap('[data-action="tl-locate"]');
+  await page.waitForTimeout(300);
+  assert.match(await page.innerText('.lg-here'), /You look close to[\s\S]*Fushimi/i);
+  await tap('[data-action="tl-here"]');
+  assert.equal(await count('.tl-list li'), 2);
+  assert.match((await rows())[0], /09:0\d to 09:3\d/);
+  // Undo takes the last tap back.
+  await tap('.toast button');
+  assert.equal(await count('.tl-list li'), 1, 'undo did not remove the place');
+  // A place the guide does not have, with a typed name, then a typed note.
+  await page.clock.fastForward('05:00');
+  await tap('[data-action="tl-else"]');
+  await page.fill('.tl-search', 'zzzz no such place');
+  assert.equal(await count('.tl-none'), 1, 'search did not narrow the list');
+  await page.fill('#tl-newplace', HOSTILE);
+  await tap('.tl-add .btn');
+  assert.equal(await count('.tl-list li'), 2);
+  await tap('.tl-list li:last-child [data-action="tl-fix"]');
+  await page.fill('.tl-fix textarea', HOSTILE);
+  await tap('.tl-fix .btn');
+  assert.deepEqual(await injected(page), clean, 'typed text ran as code');
+  assert.ok((await rows())[1].includes(HOSTILE.slice(0, 12)), 'the note was not shown as text');
+  // A leaving time before the arrival is refused.
+  await tap('.tl-list li:first-child [data-action="tl-fix"]');
+  await page.fill('.tl-fix input[name="out"]', '08:00');
+  await tap('.tl-fix .btn');
+  assert.equal(await count('.tl-fix'), 1, 'a leaving time before arrival was saved');
+  // Everything is on the phone: it survives a reload, and the next day closes the open stop.
+  await page.clock.fastForward('24:00:00');
+  await page.reload();
+  await page.waitForTimeout(400);
+  assert.equal(await count('#tl-days .chip'), 2, 'yesterday is not listed');
+  await tap('#tl-days .chip:nth-child(2)');
+  assert.equal(await count('.tl-list li'), 2, 'the log did not survive a reload');
+  assert.match((await rows())[1], /about/, 'yesterday’s open stop was not closed');
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });

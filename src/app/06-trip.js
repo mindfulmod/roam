@@ -507,7 +507,7 @@ function renderTrip() {
   const cost = tripCost(),
     days = totalDays() + transferDays();
   $('#app').innerHTML =
-    `<div class="wrap trippage"><section class="tripcover">${photoTag(S.trip[0], '', false)}<div class="tc-copy"><span class="eyebrow">YOUR TRIP</span><h1>${esc(listNames(S.trip.map((id) => C[id].name)))}</h1><p>${days} days · ${S.people} traveller${S.people > 1 ? 's' : ''}</p></div><button class="tc-total" data-action="trip-tab" data-id="cost"><small>About</small><b>${cash(cost.est)}</b></button></section><div class="tripbar"><button class="btn" data-action="share">${icon('share')} Share with friends</button></div><div class="citytabs triptabs" role="tablist">${[
+    `<div class="wrap trippage"><section class="tripcover">${photoTag(S.trip[0], '', false)}<div class="tc-copy"><span class="eyebrow">YOUR TRIP</span><h1>${esc(listNames(S.trip.map((id) => C[id].name)))}</h1><p>${days} days · ${S.people} traveller${S.people > 1 ? 's' : ''}</p></div><button class="tc-total" data-action="trip-tab" data-id="cost"><small>About</small><b>${cash(cost.est)}</b></button></section><div class="tripbar"><a class="btn" href="#/log">${icon('pin')} Log the trip</a><button class="btn ghost" data-action="share">${icon('share')} Share with friends</button></div><div class="citytabs triptabs" role="tablist">${[
       ['plan', 'Plan'],
       ['cost', 'Cost'],
       ['share', 'Share'],
