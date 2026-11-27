@@ -225,6 +225,23 @@ if (single) {
   for (const [name, text] of detailFiles) await writeFile(path.join(dist, name), text);
   await cp(path.join(root, 'images'), path.join(dist, 'images'), { recursive: true });
   await cp(path.join(root, 'src/manifest.webmanifest'), path.join(dist, 'manifest.webmanifest'));
+  // The offline helper: told this version's name and the files the page needs to open at all.
+  const core = [
+    './',
+    'index.html',
+    ...files.map(([name]) => name),
+    'manifest.webmanifest',
+    photos.kyoto.data,
+    ...['favicon.svg', 'favicon-32.png', 'apple-touch-icon.png', 'icon-192.png'].map(
+      (f) => 'images/brand/' + f,
+    ),
+  ];
+  await writeFile(
+    path.join(dist, 'sw.js'),
+    (await read('src/sw.js'))
+      .replace("'__VERSION__'", () => JSON.stringify(hash(html)))
+      .replace('__CORE__', () => JSON.stringify(core)),
+  );
 }
 console.log(
   `Built ${single ? 'dist/tandem-roads.html' : 'dist/index.html'} (${(Buffer.byteLength(html) / 1e6).toFixed(1)} MB HTML)`,
