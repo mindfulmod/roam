@@ -801,3 +801,25 @@
 .tl-storydoor {
   margin-top: 16px;
 }
+
+/* "Search the whole map": OpenStreetMap results under the trip's own places. */
+.tl-world {
+  margin: 4px 0 14px;
+}
+.tl-world .btn {
+  width: 100%;
+  justify-content: center;
+}
+.tl-world .lg-pick:empty {
+  display: none;
+}
+.tl-osmpin {
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  flex: none;
+  border-radius: 10px;
+  background: var(--soft, rgba(127, 127, 127, 0.12));
+  color: var(--teal);
+}

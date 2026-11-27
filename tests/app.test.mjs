@@ -881,3 +881,81 @@ test('a place’s own-language name shows under its English one and can be searc
   assert.match(await page.locator('.placesheet .local-name').innerText(), /伏見稲荷/);
   await page.close();
 });
+
+test('logging: the whole map finds any place, and a guide place found there stays the guide place', async () => {
+  const page = await openApp(browser, origin, { state: { trip: ['kyoto'] }, hash: '#/log' });
+  const asked = [];
+  await page.context().route('https://nominatim.openstreetmap.org/**', (r) => {
+    asked.push(new URL(r.request().url()));
+    r.fulfill({
+      contentType: 'application/json',
+      body: JSON.stringify([
+        {
+          osm_type: 'way',
+          osm_id: 1,
+          lat: '34.9677',
+          lon: '135.7792',
+          name: 'Fushimi Inari-taisha',
+          display_name: 'Fushimi Inari-taisha, Fushimi, Kyoto, Japan',
+          namedetails: { name: '伏見稲荷大社', 'name:en': 'Fushimi Inari-taisha' },
+          extratags: { wikidata: 'Q714828' },
+        },
+        {
+          osm_type: 'node',
+          osm_id: 42,
+          lat: '35.0031',
+          lon: '135.7681',
+          name: 'Kissa Hostile',
+          display_name: `${HOSTILE}, Nakagyo, Kyoto, Japan`,
+          namedetails: { name: '喫茶 ' + HOSTILE.slice(0, 20), 'name:en': HOSTILE },
+          extratags: {},
+        },
+      ]),
+    });
+  });
+  const tap = async (sel) => {
+    await page.$eval(sel, (el) => el.click());
+    await page.waitForTimeout(200);
+  };
+  await tap('[data-action="tl-else"]');
+  await page.fill('.tl-search', 'inari');
+  await tap('[data-action="tl-world"]');
+  assert.equal(asked.length, 1, 'the map was not searched');
+  const q = asked[0].searchParams;
+  assert.equal(q.get('q'), 'inari');
+  assert.ok(q.get('viewbox') && !q.has('lat'), 'the search should be bounded by the city only');
+  const items = await page.$$eval('#tl-world-list li', (l) => l.map((x) => x.innerText));
+  assert.match(
+    items[0],
+    /Fushimi Inari Taisha[\s\S]*In the guide/,
+    'the guide place was not matched',
+  );
+  // Choosing the guide place logs the guide place itself, not a copy.
+  await tap('#tl-world-list li:first-child button');
+  let log = await page.evaluate(() => JSON.parse(localStorage.getItem('roam-trip-log')));
+  assert.equal(log.stops[0].place, 'kyoto-fushimi');
+  // A place only the map knows keeps its map id and local name; its text stays text.
+  await tap('[data-action="tl-else"]');
+  await page.fill('.tl-search', 'kissa');
+  await page.waitForTimeout(1200);
+  await tap('[data-action="tl-world"]');
+  await tap('#tl-world-list li:nth-child(2) button');
+  log = await page.evaluate(() => JSON.parse(localStorage.getItem('roam-trip-log')));
+  const own = log.stops.find((s) => !s.place);
+  assert.equal(own?.osm, 'node/42');
+  assert.ok(own.local.startsWith('喫茶'));
+  // Typing the name of a guide place by hand also logs the guide place.
+  await tap('[data-action="tl-else"]');
+  await page.fill('#tl-newplace', 'nijo castle');
+  await tap('.tl-add .btn');
+  log = await page.evaluate(() => JSON.parse(localStorage.getItem('roam-trip-log')));
+  assert.ok(
+    log.stops.some((s) => s.place === 'kyoto-nijo'),
+    'a typed guide name made a copy',
+  );
+  await go(page, '#/story/my-trip');
+  await page.waitForTimeout(400);
+  assert.deepEqual(await injected(page), clean, 'map text ran as code');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

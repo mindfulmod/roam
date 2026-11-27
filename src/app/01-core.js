@@ -99,7 +99,7 @@ const esc = (s) =>
 // matched to a sign or shown to a driver (`local`, from scripts/refresh-identity.mjs).
 const localName = (x, cls = '') =>
   x?.local
-    ? `<p class="local-name ${cls}" lang="${esc(x.local.lang)}">${esc(x.local.name)}</p>`
+    ? `<p class="local-name ${cls}"${x.local.lang ? ` lang="${esc(x.local.lang)}"` : ''}>${esc(x.local.name)}</p>`
     : '';
 const paths = {
   chat: 'M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-5 4v-4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z',
