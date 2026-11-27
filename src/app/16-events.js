@@ -407,3 +407,7 @@ applyTheme();
 route();
 if (!storageOK)
   setTimeout(() => toast('Browser storage is unavailable. Use Export to keep your trip.'), 500);
+// The offline helper keeps the app and the cities you open on this phone, so it opens with no
+// signal. Only in the hosted build (the single file works offline already) and on https.
+if ('serviceWorker' in navigator && DATA.detail && window.isSecureContext)
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));

@@ -541,6 +541,36 @@ test('your log becomes a story only you can see, with your photos and typed text
   await page.context().close();
 });
 
+test('with no signal the app still opens, and the log and the trip’s cities still work', async () => {
+  const page = await openApp(browser, origin, {
+    state: { trip: ['kyoto'] },
+    hash: '#/log',
+    sw: true,
+  });
+  await page.evaluate(() => navigator.serviceWorker.ready);
+  // The first visit installs the helper; from the next one it answers, and gets the trip ready.
+  await page.reload();
+  await page.waitForFunction(() => navigator.serviceWorker.controller);
+  await page.waitForSelector('.tl-ready', { timeout: 15000 });
+  await page.context().setOffline(true);
+  await page.reload();
+  await page.waitForSelector('[data-action="tl-else"], [data-action="tl-here"]');
+  await page.$eval('[data-action="tl-else"]', (el) => el.click());
+  await page.waitForTimeout(200);
+  await page.$eval('#tl-pick [data-action="tl-choose"]', (el) => el.click());
+  await page.waitForTimeout(200);
+  assert.equal(await page.locator('.tl-list li').count(), 1, 'could not log with no signal');
+  await go(page, '#/city/kyoto');
+  await page.waitForSelector('.citypage, .city-page, h1');
+  assert.doesNotMatch(
+    await page.innerText('#app'),
+    /didn’t load/,
+    'the trip city did not open offline',
+  );
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
+
 test('the feed clears what needs you, and profile text a person typed is shown as text', async () => {
   const page = await openApp(browser, origin, { hash: '#/feed' });
   const needs = () => page.locator('.soc-need').count();

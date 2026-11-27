@@ -185,7 +185,27 @@ function renderTripLog(day) {
   const c = C[tlCityToday()];
   map.setView(c ? [c.lat, c.lon] : [30, 10], c ? 12 : 2);
   tlShow();
+  tlOffline();
   setTimeout(() => TL?.map === map && (map.invalidateSize(), tlMap()), 120);
+}
+// Getting ready for no signal: the trip's city details and guide photos are fetched once while
+// there is signal, and the offline helper keeps them. Skipped when the phone asks to save data.
+async function tlOffline() {
+  if (!navigator.serviceWorker?.controller || !S.trip.length || navigator.connection?.saveData)
+    return;
+  const urls = S.trip
+    .flatMap((id) => [id, ...C[id].items.map((x) => x.id)])
+    .map((id) => PHOTO[id]?.data)
+    .filter((u) => u && !u.startsWith('data:'));
+  try {
+    await loadCities(S.trip);
+    await Promise.all(urls.map((u) => fetch(u).catch(() => {})));
+  } catch {
+    return;
+  }
+  if (!TL) return;
+  TL.ready = true;
+  if (!TL.catch && !$('.modal-backdrop')) tlShow();
 }
 function tripLogLeave() {
   TL?.map?.remove();
@@ -229,7 +249,10 @@ function tlNowHtml() {
   return (
     clock +
     card +
-    `<p class="filter-note">Your location is asked for only when you tap, used once to suggest a place, then dropped. No trail is kept.</p>`
+    `<p class="filter-note">Your location is asked for only when you tap, used once to suggest a place, then dropped. No trail is kept.</p>` +
+    (TL.ready
+      ? `<p class="filter-note tl-ready">${icon('check')} Ready for no signal: your trip’s cities and photos are kept on this phone.</p>`
+      : '')
   );
 }
 function tlListHtml(date) {
