@@ -436,7 +436,7 @@ function plain(t) {
     .toLowerCase()
     .normalize('NFD')
     .replace(/[̀-ͯ]/g, '')
-    .replace(/[^a-z0-9]+/g, ' ')
+    .replace(/[^\p{L}\p{N}]+/gu, ' ')
     .trim();
 }
 function buildSearchIndex() {
@@ -459,6 +459,16 @@ function buildSearchIndex() {
       w: 2,
       alt: true,
     });
+    if (c.local)
+      out.push({
+        kind: 'city',
+        id: c.id,
+        label: c.name,
+        sub: `${c.local.name} · City in ${c.country}`,
+        t: plain(c.local.name),
+        w: 3,
+        alt: true,
+      });
     for (const p of c.items) {
       const what = p.kind === 'eat' ? 'Food' : p.kind === 'shop' ? 'Shopping' : 'Sight';
       out.push({
@@ -469,6 +479,15 @@ function buildSearchIndex() {
         t: plain(p.name),
         w: 1,
       });
+      if (p.local)
+        out.push({
+          kind: 'place',
+          id: p.id,
+          label: p.name,
+          sub: `${p.local.name} · ${what} in ${c.name}`,
+          t: plain(p.local.name),
+          w: 1,
+        });
       for (const d of p.mustOrder || [])
         out.push({
           kind: 'place',

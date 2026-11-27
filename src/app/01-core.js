@@ -95,6 +95,12 @@ const esc = (s) =>
     /[&<>"']/g,
     (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[c],
   );
+// A city or place's name in its own language, shown under the English one so it can be
+// matched to a sign or shown to a driver (`local`, from scripts/refresh-identity.mjs).
+const localName = (x, cls = '') =>
+  x?.local
+    ? `<p class="local-name ${cls}" lang="${esc(x.local.lang)}">${esc(x.local.name)}</p>`
+    : '';
 const paths = {
   chat: 'M5 5h14a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H10l-5 4v-4a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2z',
   search: 'm21 21-4.5-4.5M10.5 18a7.5 7.5 0 1 0 0-15 7.5 7.5 0 0 0 0 15',

@@ -1,0 +1,41 @@
+name: Refresh place identities
+
+# Looks up each guide city and place's Wikidata id and its name in the local language
+# (scripts/refresh-identity.mjs) and commits the result back to the same branch.
+# Runs when the script changes on a claude/** branch, or by hand.
+on:
+  push:
+    branches: ['claude/**']
+    paths: ['scripts/refresh-identity.mjs']
+  workflow_dispatch:
+    inputs:
+      city:
+        description: One city id (empty = every city)
+        default: ''
+
+permissions:
+  contents: write
+
+concurrency:
+  group: identity-${{ github.ref }}
+
+jobs:
+  identity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/refresh-identity.mjs ${{ inputs.city && format('--city {0}', inputs.city) || '' }}
+      - run: node scripts/check-data.mjs
+      - name: Commit results
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/cities
+          git diff --cached --quiet && exit 0
+          git commit -m "Refresh place identities and local names (automated)"
+          git pull --rebase origin "${{ github.ref_name }}"
+          git push origin HEAD:${{ github.ref_name }}

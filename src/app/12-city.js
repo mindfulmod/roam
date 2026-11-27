@@ -217,7 +217,7 @@ function renderCity(id, tab = 'places') {
       // The name, summary and cover photo ship with the app, so the real header shows at once.
       () =>
         ($('#app').innerHTML = loadingPage(
-          `<section class="cityhero">${photoTag(id, '', false)}<div class="cityherotext"><div class="eyebrow">${esc(C[id].country)} · ${esc(C[id].region)}</div><h1>${esc(C[id].name)}</h1><p>${esc(C[id].summary)}</p></div></section>`,
+          `<section class="cityhero">${photoTag(id, '', false)}<div class="cityherotext"><div class="eyebrow">${esc(C[id].country)} · ${esc(C[id].region)}</div><h1>${esc(C[id].name)}</h1>${localName(C[id])}<p>${esc(C[id].summary)}</p></div></section>`,
         )),
     )
   )
@@ -245,7 +245,7 @@ function renderCity(id, tab = 'places') {
   const r = cityRanking(c, 'tourism'),
     a = cityRanking(c, 'arrivals');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1><p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}${cityTopFive(c)}${cityGlance(c)}${budgetPanel(c)}${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
+    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1>${localName(c)}<p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}${cityTopFive(c)}${cityGlance(c)}${budgetPanel(c)}${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
       ['places', 'Sights'],
       ['food', 'Food'],
       ['shop', 'Shopping'],
