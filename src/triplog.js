@@ -241,7 +241,7 @@ function tlNowHtml() {
   const open = tlOpen(),
     city = C[tlCityToday()],
     when = stDate(tlToday(), { weekday: 'short', day: 'numeric', month: 'short' });
-  const clock = `<div class="lg-clock"><div><span class="eyebrow">${esc(when)}${city ? ' · ' + esc(city.name) : ''}</span><strong>${tlNow()}</strong></div><span class="tl-saved">${icon('check')} Saved on this phone</span></div>`;
+  const clock = `<div class="lg-clock"><div><span class="eyebrow">${esc(when)}${city ? ' · ' + esc(city.name) : ''}</span><strong>${tlNow()}</strong></div><span class="tl-saved">${icon('check')} Saved<span class="tl-saved-where"> on this phone</span></span></div>`;
   if (open)
     return (
       clock +
