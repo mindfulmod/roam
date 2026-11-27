@@ -95,18 +95,18 @@ const tlT = (m) => `${tlPad(Math.floor(m / 60))}:${tlPad(Math.round(m) % 60)}`;
 
 // Which city you are in today: the plan's dates first, then where you last logged, then the
 // trip city nearest the phone, then the first city of the trip.
-function tlCityToday() {
+function tlCityToday(date = tlToday()) {
   if (S.startDate) {
-    const now = new Date(tlToday() + 'T12:00:00');
+    const now = new Date(date + 'T12:00:00');
     for (const id of S.trip) {
       const a = cityArrivalDate(id),
         days = S.days[id] || C[id].days;
       if (a && now >= a && now < new Date(a.getTime() + (days + 1) * 864e5)) return id;
     }
   }
-  const last = TL.log.stops.findLast((s) => s.city);
-  if (last && last.date === tlToday()) return last.city;
-  const near = tlNearCities()[0];
+  const last = TL.log.stops.findLast((s) => s.city && s.date <= date);
+  if (last && last.date === date) return last.city;
+  const near = date === tlToday() && tlNearCities()[0];
   if (near) return near;
   return S.trip[0] || last?.city || '';
 }
@@ -122,12 +122,15 @@ function tlNearCities() {
 }
 // The places a stop can be: everything in the trip's cities (or today's city), with your
 // saved places first when the phone's location is unknown.
-function tlCandidates() {
-  const ids = [...new Set([tlCityToday(), ...S.trip, ...tlNearCities()].filter(Boolean))];
+function tlCandidates(date = tlToday()) {
+  const here = date === tlToday(),
+    ids = [
+      ...new Set([tlCityToday(date), ...S.trip, ...(here ? tlNearCities() : [])].filter(Boolean)),
+    ];
   const saved = new Set(S.saved),
     list = ids.flatMap((id) => C[id].items.map((x) => P[x.id]).filter((p) => p?.lat));
-  if (tlFresh()) return list.sort((a, b) => stKm(TL.pos, a) - stKm(TL.pos, b));
-  const city = tlCityToday();
+  if (here && tlFresh()) return list.sort((a, b) => stKm(TL.pos, a) - stKm(TL.pos, b));
+  const city = tlCityToday(date);
   const rank = (p) => (p.cityId === city ? 0 : 2) + (saved.has(p.id) ? 0 : 1);
   return list.sort(
     (a, b) => rank(a) - rank(b) || (popularityRank(a) ?? 999) - (popularityRank(b) ?? 999),
@@ -199,7 +202,9 @@ function tlShow() {
         `<button class="chip ${d === TL.day ? 'active' : ''}" role="tab" aria-selected="${d === TL.day}" data-action="tl-day" data-id="${d}">${d === today ? 'Today' : esc(stDate(d, { weekday: 'short', day: 'numeric', month: 'short' }))}</button>`,
     )
     .join('');
-  $('#tl-panel').innerHTML = (TL.day === today ? tlNowHtml() : '') + tlListHtml(TL.day);
+  $('#tl-panel').innerHTML = TL.catch
+    ? tlCatchHtml()
+    : (TL.day === today ? tlNowHtml() : '') + tlListHtml(TL.day) + tlCatchDoor();
   tlpFill($('#tl-panel'));
   tlMap();
 }
@@ -251,7 +256,7 @@ function tlListHtml(date) {
 function tlMap() {
   if (!TL?.map) return;
   const { map, layer } = TL,
-    list = tlDay(TL.day),
+    list = TL.catch ? tlCatchPins() : tlDay(TL.day),
     color = stColor(0),
     pts = list.map((s) => [s.lat, s.lon]);
   layer.clearLayers();
@@ -352,16 +357,20 @@ function tlLocate() {
   );
 }
 // "Somewhere else": a search over the trip's cities, nearest first when the location is known.
-function tlElse() {
+// With `g`, it chooses the place for a catch-up group instead of logging one now.
+function tlElse(g = -1) {
+  const now = g < 0 && tlFresh();
+  TL.picking = g;
   showModal(
-    `<div class="modalcontent lg-modal tl-modal"><h2 id="modal-heading">Where are you?</h2><p class="lead">${tlFresh() ? 'Nearest first.' : 'Your saved places first, then the most visited.'}</p><input class="tl-search" type="search" placeholder="Search places" aria-label="Search places" autocomplete="off" maxlength="60"><ul class="lg-pick" id="tl-pick">${tlPickHtml('')}</ul><form class="lg-add tl-add"><label for="tl-newplace">Not listed? Add it yourself</label><div><input id="tl-newplace" maxlength="60" placeholder="Name of the place" autocomplete="off" required><button class="btn small">Add</button></div><p class="filter-note">${tlFresh() ? 'It is pinned where you are standing.' : 'It is pinned in the middle of the city until you share your location.'} Only you see it.</p></form></div>`,
-    'Where are you?',
+    `<div class="modalcontent lg-modal tl-modal"><h2 id="modal-heading">${g < 0 ? 'Where are you?' : 'Where was this?'}</h2><p class="lead">${now ? 'Nearest first.' : 'Your saved places first, then the most visited.'}</p><input class="tl-search" type="search" placeholder="Search places" aria-label="Search places" autocomplete="off" maxlength="60"><ul class="lg-pick" id="tl-pick">${tlPickHtml('')}</ul><form class="lg-add tl-add"><label for="tl-newplace">Not listed? Add it yourself</label><div><input id="tl-newplace" maxlength="60" placeholder="Name of the place" autocomplete="off" required><button class="btn small">Add</button></div><p class="filter-note">${now ? 'It is pinned where you are standing.' : 'It is pinned in the middle of the city. You can move it later.'} Only you see it.</p></form></div>`,
+    g < 0 ? 'Where are you?' : 'Where was this?',
   );
 }
+const tlPickDate = () => (TL.picking >= 0 ? TL.catch.groups[TL.picking].date : tlToday());
 function tlPickHtml(q) {
   const words = q.toLowerCase().split(/\s+/).filter(Boolean),
-    open = tlOpen()?.place,
-    list = tlCandidates()
+    open = TL.picking >= 0 ? '' : tlOpen()?.place,
+    list = tlCandidates(tlPickDate())
       .filter((p) => p.id !== open)
       .filter((p) => words.every((w) => `${p.name} ${p.area || ''}`.toLowerCase().includes(w)))
       .slice(0, 30);
@@ -369,7 +378,7 @@ function tlPickHtml(q) {
   return list
     .map(
       (p) =>
-        `<li><button data-action="tl-choose" data-id="${p.id}">${lgThumb({ id: p.id })}<span><strong>${esc(p.name)}</strong><small>${esc(p.area || C[p.cityId].name)}${tlFresh() ? ' · ' + tlKm(stKm(TL.pos, p)) : S.saved.includes(p.id) ? ' · saved' : ''}</small></span></button></li>`,
+        `<li><button data-action="tl-choose" data-id="${p.id}">${lgThumb({ id: p.id })}<span><strong>${esc(p.name)}</strong><small>${esc(p.area || C[p.cityId].name)}${TL.picking < 0 && tlFresh() ? ' · ' + tlKm(stKm(TL.pos, p)) : S.saved.includes(p.id) ? ' · saved' : ''}</small></span></button></li>`,
     )
     .join('');
 }
@@ -418,14 +427,17 @@ document.addEventListener('click', (ev) => {
   const a = b.dataset.action;
   if (a === 'tl-day') {
     TL.day = b.dataset.id;
+    TL.catch = null;
     history.replaceState(history.state, '', TL.day === tlToday() ? '#/log' : `#/log/${TL.day}`);
     tlShow();
   } else if (a === 'tl-here' && validPlace(b.dataset.id)) tlHere(tlPlaceStop(P[b.dataset.id]));
   else if (a === 'tl-else') tlElse();
+  else if (a.startsWith('tl-c-')) tlCatchAction(a, b);
   else if (a === 'tl-locate') tlLocate();
   else if (a === 'tl-choose' && validPlace(b.dataset.id)) {
     closeModal('user');
-    tlHere(tlPlaceStop(P[b.dataset.id]));
+    if (TL.picking >= 0) tlCatchPlace(tlPlaceStop(P[b.dataset.id]));
+    else tlHere(tlPlaceStop(P[b.dataset.id]));
   } else if (a === 'tl-left') {
     const open = tlOpen();
     if (!open) return;
@@ -461,11 +473,13 @@ document.addEventListener('submit', (ev) => {
   if (f.matches('.tl-add')) {
     const name = tlStr($('#tl-newplace').value, 60);
     if (!name) return;
-    const c = C[tlCityToday()],
-      at = tlFresh() ? TL.pos : c;
+    const c = C[tlCityToday(tlPickDate())],
+      at = TL.picking < 0 && tlFresh() ? TL.pos : c;
     if (!at) return toast('Share your location or plan a trip first, so we know where to pin it.');
     closeModal('user');
-    tlHere({ name, area: 'Added by you', city: c?.id || '', lat: at.lat, lon: at.lon });
+    const stop = { name, area: 'Added by you', city: c?.id || '', lat: at.lat, lon: at.lon };
+    if (TL.picking >= 0) tlCatchPlace(stop);
+    else tlHere(stop);
   } else if (f.matches('.tl-fix')) {
     const s = TL.log.stops.find((x) => x.uid === f.dataset.id),
       v = Object.fromEntries(new FormData(f));
