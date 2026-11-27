@@ -162,6 +162,11 @@ const CITY_LANG = {
   palma: 'ca',
   valencia: 'es',
 };
+const OWN_SCRIPT = new Set(
+  'hy dz bg km zh-hans zh-hant am ka el hi fa ar he ja kk lo dv sr ne th ko si mr ta bn kn te ml kok pa'.split(
+    ' ',
+  ),
+);
 // Labels missing in the variant fall back to the plain language.
 const FALLBACK = { 'zh-hans': ['zh-cn', 'zh'], 'zh-hant': ['zh-hk', 'zh-tw', 'zh'], nb: ['no'] };
 
@@ -249,7 +254,9 @@ const plain = (s) =>
 function localName(name, lab, lang) {
   for (const l of [lang, ...(FALLBACK[lang] || [])]) {
     const v = lab?.[l]?.trim();
-    // "Ponta Negra" adds nothing under "Ponta Negra beach".
+    // "Ponta Negra" adds nothing under "Ponta Negra beach", and a Latin-letter label in a
+    // language with its own script is a slip ("srilanka" as the Sinhala name).
+    if (v && OWN_SCRIPT.has(lang) && /^[\p{Script=Latin}\p{P}\p{N}\s]+$/u.test(v)) return null;
     if (v && v.length <= 80) return plain(name).includes(plain(v)) ? null : { name: v, lang };
   }
   return null;
@@ -312,7 +319,8 @@ for (const file of files) {
       tally.other++;
       continue;
     }
-    if (r.coords ? km(p, r.coords) > (p === city ? CITY_MAX_KM : MAX_KM) : p.kind !== 'see') {
+    // No coordinates: an idea (tango, sandboarding), not a spot on the map.
+    if (!r.coords || km(p, r.coords) > (p === city ? CITY_MAX_KM : MAX_KM)) {
       tally.far++;
       continue;
     }
