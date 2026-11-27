@@ -188,6 +188,11 @@
           "url": "https://en.wikipedia.org/wiki/Roman_bridge_of_C%C3%B3rdoba",
           "checked": "2026-11-27"
         }
+      },
+      "wikidata": "Q97625652",
+      "local": {
+        "name": "Puente romano de Córdoba",
+        "lang": "es"
       }
     },
     {
@@ -244,7 +249,8 @@
           "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_los_Reyes_Cristianos",
           "checked": "2026-11-27"
         }
-      }
+      },
+      "wikidata": "Q212625"
     },
     {
       "id": "cordoba-cdb-juderia",
@@ -409,8 +415,8 @@
       "id": "cordoba-cdb-corredera",
       "name": "Templo Romano and Plaza de la Corredera",
       "kind": "see",
-      "lat": 37.8835,
-      "lon": -4.7731,
+      "lat": 37.88472,
+      "lon": -4.77639,
       "wiki": "Roman temple of Córdoba",
       "summary": "Arcaded 17th-century square with cafés, near the columns of a Roman temple.",
       "expect": "Free.",
@@ -450,7 +456,20 @@
         "Free.",
         "Have breakfast churros under the arcades."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4773,
+          "period": "202511-202610",
+          "title": "Roman temple of Córdoba",
+          "url": "https://en.wikipedia.org/wiki/Roman_temple_of_C%C3%B3rdoba",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q97625649",
+      "local": {
+        "name": "Templo romano de la calle Claudio Marcelo",
+        "lang": "es"
+      }
     },
     {
       "id": "cordoba-cdb-salmorejo",
@@ -625,5 +644,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q5818"
 }

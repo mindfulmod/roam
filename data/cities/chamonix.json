@@ -129,7 +129,8 @@
           "url": "https://en.wikipedia.org/wiki/Aiguille_du_Midi",
           "checked": "2026-11-27"
         }
-      }
+      },
+      "wikidata": "Q404728"
     },
     {
       "id": "chamonix-cha-merdeglace",
@@ -184,14 +185,15 @@
           "url": "https://en.wikipedia.org/wiki/Mer_de_Glace",
           "checked": "2026-11-27"
         }
-      }
+      },
+      "wikidata": "Q583591"
     },
     {
       "id": "chamonix-cha-lacblanc",
       "name": "Lac Blanc hike",
       "kind": "see",
-      "lat": 45.9802,
-      "lon": 6.892,
+      "lat": 45.96667,
+      "lon": 6.86667,
       "wiki": "Aiguilles Rouges",
       "summary": "Hike to an alpine lake that mirrors the whole Mont Blanc range.",
       "expect": "About 3h round trip from the Flégère lift; summer only.",
@@ -232,7 +234,15 @@
         "About 3h round trip from the Flégère lift; summer only.",
         "Go early for still water and fewer people."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6878,
+          "period": "202511-202610",
+          "title": "Aiguilles Rouges",
+          "url": "https://en.wikipedia.org/wiki/Aiguilles_Rouges",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "chamonix-cha-brevent",
@@ -287,7 +297,8 @@
           "url": "https://en.wikipedia.org/wiki/Le_Br%C3%A9vent",
           "checked": "2026-11-27"
         }
-      }
+      },
+      "wikidata": "Q995694"
     },
     {
       "id": "chamonix-cha-paraglide",
@@ -628,5 +639,11 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q83236",
+  "local": {
+    "name": "Chamonix-Mont-Blanc",
+    "lang": "fr"
+  }
 }

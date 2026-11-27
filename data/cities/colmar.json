@@ -118,7 +118,16 @@
         "Very busy at midday.",
         "Take the 30-minute flat-bottomed boat ride."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 162452,
+          "period": "202511-202610",
+          "title": "Colmar",
+          "url": "https://en.wikipedia.org/wiki/Colmar",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "colmar-col-unterlinden",
@@ -173,6 +182,11 @@
           "url": "https://en.wikipedia.org/wiki/Unterlinden_Museum",
           "checked": "2026-11-27"
         }
+      },
+      "wikidata": "Q1851283",
+      "local": {
+        "name": "musée Unterlinden",
+        "lang": "fr"
       }
     },
     {
@@ -220,7 +234,16 @@
         "View from outside.",
         "Walk Rue des Marchands between them."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 162452,
+          "period": "202511-202610",
+          "title": "Colmar",
+          "url": "https://en.wikipedia.org/wiki/Colmar",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "colmar-col-koifhus",
@@ -331,7 +354,8 @@
           "url": "https://en.wikipedia.org/wiki/Riquewihr",
           "checked": "2026-11-27"
         }
-      }
+      },
+      "wikidata": "Q148959"
     },
     {
       "id": "colmar-col-eguisheim",
@@ -387,14 +411,15 @@
           "url": "https://en.wikipedia.org/wiki/Eguisheim",
           "checked": "2026-11-27"
         }
-      }
+      },
+      "wikidata": "Q272897"
     },
     {
       "id": "colmar-col-hk",
       "name": "Haut-Kœnigsbourg Castle",
       "kind": "see",
-      "lat": 48.2494,
-      "lon": 7.3447,
+      "lat": 48.24944,
+      "lon": 7.34417,
       "wiki": "Château du Haut-Kœnigsbourg",
       "summary": "Restored red-sandstone castle high above the Alsace plain.",
       "expect": "Paid; 30 minutes by car.",
@@ -434,8 +459,21 @@
         "Paid; 30 minutes by car.",
         "Go on a clear day for the view to the Black Forest."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 24898,
+          "period": "202511-202610",
+          "title": "Château du Haut-Koenigsbourg",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_du_Haut-Koenigsbourg",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q1552366",
+      "local": {
+        "name": "château du Haut-Koenigsbourg",
+        "lang": "fr"
+      }
     },
     {
       "id": "colmar-col-xmas",
@@ -667,5 +705,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q130994"
 }
