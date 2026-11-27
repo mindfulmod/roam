@@ -584,3 +584,24 @@ test('on a phone a story stop peeks at half height, then grows when scrolled', a
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('photo credits name the title, author, source, licence and our changes; MICHELIN is plain words', async () => {
+  const page = await openApp(browser, origin);
+  await go(page, '#/city/kyoto?tab=sources');
+  await page.waitForSelector('#photo-credits');
+  const credits = await page.locator('#photo-credits + p + .source-list').innerText();
+  assert.match(credits, /“[^”]+” by .+ · Wikimedia Commons · CC BY/);
+  assert.match(credits, /colours adjusted/);
+  // Ported licences link to their own country version.
+  const ported = await page.evaluate(() => licenceUrl('CC BY-SA 3.0 de'));
+  assert.equal(ported, 'https://creativecommons.org/licenses/by-sa/3.0/de/');
+  await go(page, '#/city/tokyo?tab=food');
+  await page.evaluate(() => openPlace('tokyo-kanda'));
+  await page.waitForSelector('.modal .recognition');
+  const sheet = await page.locator('.modal').innerText();
+  assert.match(sheet, /\d MICHELIN Stars?/);
+  assert.doesNotMatch(sheet, /✦|MICHELIN pick|MICHELIN price band/);
+  assert.match(sheet, /not affiliated with or endorsed by Michelin/);
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

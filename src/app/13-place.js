@@ -2,7 +2,7 @@
 function tier(p) {
   const n = popularityRank(p),
     of = poolStats(p).ranked;
-  if (!n) return { key: 'pick', label: p.michelin ? 'MICHELIN pick' : 'Editor’s pick' };
+  if (!n) return { key: 'pick', label: 'Editor’s pick' };
   return n <= Math.ceil(of / 3)
     ? { key: 'must', label: p.kind === 'see' ? 'Must see' : 'Must try' }
     : n <= Math.ceil((2 * of) / 3)
