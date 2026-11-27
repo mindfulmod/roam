@@ -204,7 +204,7 @@ function tlShow() {
     .join('');
   $('#tl-panel').innerHTML = TL.catch
     ? tlCatchHtml()
-    : (TL.day === today ? tlNowHtml() : '') + tlListHtml(TL.day) + tlCatchDoor();
+    : (TL.day === today ? tlNowHtml() : '') + tlListHtml(TL.day) + tlStoryDoor() + tlCatchDoor();
   tlpFill($('#tl-panel'));
   tlMap();
 }

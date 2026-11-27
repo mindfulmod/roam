@@ -603,7 +603,7 @@ document.addEventListener('click', (e) => {
 });
 function photoCredit(id) {
   const p = PHOTO[id];
-  if (!p) return '';
+  if (!p || p.own) return '';
   const provider = p.provider || 'Pexels';
   if (/commons/i.test(provider))
     return commonsCredit(
