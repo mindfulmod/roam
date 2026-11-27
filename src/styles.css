@@ -9316,3 +9316,20 @@ img.photo {
   opacity: 0.85;
   font-size: 1.05rem;
 }
+
+/* While a sheet is open its own buttons sit at the bottom of the screen, so a message moves
+   to the top rather than covering them. */
+body:has(.modal-backdrop) .toast {
+  top: calc(env(safe-area-inset-top) + 12px);
+  bottom: auto;
+}
+
+/* Story covers: titles sit high on a phone's shorter cover, so the shade starts at the top. */
+@media (max-width: 760px) {
+  .story-hero::after {
+    background: linear-gradient(180deg, #0004 0%, #0006 35%, #000c 100%);
+  }
+  .story-hero .shared-hero-copy {
+    text-shadow: 0 1px 12px #0008;
+  }
+}

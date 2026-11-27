@@ -222,6 +222,8 @@ function tlShow() {
   const today = tlToday(),
     dates = [...new Set([today, ...TL.log.stops.map((s) => s.date)])].sort().reverse();
   if (!dates.includes(TL.day)) TL.day = today;
+  // One day has nothing to switch between, so the row only appears from the second day.
+  $('#tl-days').hidden = dates.length < 2;
   $('#tl-days').innerHTML = dates
     .map(
       (d) =>
@@ -261,9 +263,12 @@ function tlNowHtml() {
       : '')
   );
 }
+// Your own log is one person's day, so it uses the app's own orange, not the story's day colours.
+const tlInk = () =>
+  getComputedStyle(document.documentElement).getPropertyValue('--teal-fill').trim() || '#c8501f';
 function tlListHtml(date) {
   const list = tlDay(date),
-    color = stColor(0);
+    color = tlInk();
   if (!list.length)
     return date === tlToday() ? '' : `<p class="lg-aside">Nothing logged on this day.</p>`;
   const mins = list.reduce((a, s) => a + (s.out ? stMins(s.out) - stMins(s.in) : 0), 0);
@@ -276,7 +281,7 @@ function tlListHtml(date) {
       )
       .join(
         '',
-      )}</ol><p class="filter-note">Times marked "about" were worked out, not tapped. Fix any of them.</p>`
+      )}</ol>${list.some((s) => s.est) ? '<p class="filter-note">Times marked "about" were worked out, not tapped. Fix any of them.</p>' : ''}`
   );
 }
 
@@ -286,7 +291,7 @@ function tlMap() {
   if (!TL?.map) return;
   const { map, layer } = TL,
     list = TL.catch ? tlCatchPins() : tlDay(TL.day),
-    color = stColor(0),
+    color = tlInk(),
     pts = list.map((s) => [s.lat, s.lon]);
   layer.clearLayers();
   if (pts.length > 1) L.polyline(pts, { color, weight: 3, opacity: 0.9 }).addTo(layer);
