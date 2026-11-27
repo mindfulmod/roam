@@ -5,6 +5,7 @@ import { readFile, writeFile, mkdir, cp, rm, readdir } from 'node:fs/promises';
 import path from 'node:path';
 import { createHash } from 'node:crypto';
 import { fileURLToPath } from 'node:url';
+import { FEATURE_FILES, APP_FILES } from './app-files.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const single = process.argv.includes('--single');
@@ -148,28 +149,13 @@ const css =
   (await read('src/edit.css')) +
   '\n' +
   (await read('src/theme.css'));
-// The app itself lives in src/app/ as numbered parts, one per area of the app. They are joined in
-// name order into a single script, so they share one scope exactly as one file would.
-const appParts = (await readdir(path.join(root, 'src/app')))
-  .filter((f) => f.endsWith('.js'))
-  .sort();
-const appJs = (await Promise.all(appParts.map((f) => read('src/app/' + f)))).join('');
+// The app's own files are joined, in the order scripts/app-files.mjs gives, into one script.
 const js = [
   await read('vendor/leaflet/leaflet.js'),
   dataJs,
-  await read('src/budget.js'),
-  await read('src/theme.js'),
-  await read('src/share.js'),
-  await read('src/story.js'),
-  await read('src/social.js'),
-  await read('src/log.js'),
-  await read('src/triplog.js'),
-  await read('src/tlphotos.js'),
-  await read('src/tlcatch.js'),
-  await read('src/tlstory.js'),
-  await read('src/edit.js'),
-  await read('src/choose.js'),
-  appJs,
+  ...(await Promise.all(FEATURE_FILES.map(read))),
+  // The numbered parts are joined end to end, so they read exactly as one file.
+  (await Promise.all(APP_FILES.map(read))).join(''),
 ];
 let html = await read('src/index.html');
 html = html.replace('<!-- build:css -->', () => `<style>${css}</style>`);
@@ -210,6 +196,33 @@ if (single) {
     '<!-- build:boot -->',
     () =>
       `<div class="wrap home" id="boot"><section class="home-hero"><img class="photo" src="${photos.kyoto.data}" alt="" /><div class="home-hero-copy"><h1>Where to next?</h1></div></section><section class="doors"><div class="door skeleton"></div><div class="door skeleton"></div></section></div><script>if (!/^#?\\/?$/.test(location.hash)) document.getElementById('boot').remove();</script>`,
+  );
+}
+
+// The hosted page's security policy: scripts only from this site plus the page's own two short
+// inline scripts (by hash), so text that slips into the page can never run as code. Photos and
+// map tiles come from other https sites; styles stay inline-friendly for the map library.
+if (!single) {
+  const inline = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(
+    (m) => `'sha256-${createHash('sha256').update(m[1]).digest('base64')}'`,
+  );
+  const csp = [
+    "default-src 'self'",
+    `script-src 'self' ${inline.join(' ')}`,
+    "style-src 'self' 'unsafe-inline'",
+    "img-src 'self' data: blob: https:",
+    "connect-src 'self' https:",
+    "font-src 'self' data:",
+    "worker-src 'self'",
+    "manifest-src 'self'",
+    "object-src 'none'",
+    "base-uri 'none'",
+    "form-action 'self'",
+  ].join('; ');
+  html = html.replace(
+    '<meta charset="UTF-8" />',
+    () =>
+      `<meta charset="UTF-8" />\n    <meta http-equiv="Content-Security-Policy" content="${csp}" />`,
   );
 }
 

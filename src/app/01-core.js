@@ -268,7 +268,6 @@ let browseQuery = '',
   mapDiet = 'all',
   modalFocus = null,
   toastTimer = null;
-const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
 function num(n) {
   return Number(n).toLocaleString('en-US', { maximumFractionDigits: 0 });
 }
@@ -284,9 +283,6 @@ function priceLabel(p) {
       ? 'Covered by entry / pass'
       : 'Free to explore';
   return range(p.price, p.currency);
-}
-function imageFor(id) {
-  return PHOTO[id]?.data || '';
 }
 function photoTag(id, cls = '', lazy = true) {
   const p = PHOTO[id];

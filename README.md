@@ -135,8 +135,10 @@ A new screen gets its own file. Put it before `16-events.js`, add its link to `1
 
 ## Checks
 
-`npm test` builds the app and runs the checks in `tests/`. The same checks run on every pull request (`.github/workflows/check.yml`).
+`npm test` lints the app, builds it and runs the checks in `tests/`. The same checks run on every pull request (`.github/workflows/check.yml`).
 
+- `scripts/lint.mjs` (`npm run lint`): ESLint over the app's files joined in build order (the list is `scripts/app-files.mjs`, which the build uses too), so a misspelt or undefined name, or code nothing uses any more, fails the check. Problems are reported against the original file and line.
+- The hosted page carries a Content Security Policy (added in `scripts/build.mjs`): scripts only from the site itself and the page's two inline scripts by hash, so no inline `onerror="…"`-style handlers. Images say how to fail with `data-drop` instead. Anything the policy refuses counts as an error in the tests.
 - `tests/data.test.mjs`: the guide data is sound (ids unique and link-safe, coordinates near their city, links are http(s) only).
 - `tests/app.test.mjs`: every screen opens on a phone and a desktop with no errors and no sideways scrolling; saving a place and adding a city to the trip works and survives a reload; text that was typed, or that arrives in a link or a backup file, is shown as text and never runs as code.
 
