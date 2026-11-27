@@ -77,8 +77,8 @@
       "id": "cesky-krumlov-ckr-castle",
       "name": "Český Krumlov Castle",
       "kind": "see",
-      "lat": 48.8125,
-      "lon": 14.315,
+      "lat": 48.81289,
+      "lon": 14.31555,
       "wiki": "Český Krumlov Castle",
       "summary": "Vast castle complex with painted courtyards, a bear moat and a working Baroque theatre.",
       "expect": "Interior tours paid and timed; closed in winter except some areas.",
@@ -118,7 +118,15 @@
         "Interior tours paid and timed; closed in winter except some areas.",
         "Book the Baroque theatre tour for a rare sight."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18532,
+          "period": "202511-202610",
+          "title": "Český Krumlov Castle",
+          "url": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov_Castle",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cesky-krumlov-ckr-tower",
@@ -165,7 +173,16 @@
         "Narrow steps.",
         "Go late in the day for golden light."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 18532,
+          "period": "202511-202610",
+          "title": "Český Krumlov Castle",
+          "url": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov_Castle",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cesky-krumlov-ckr-cloak",
@@ -212,7 +229,16 @@
         "Gardens closed in winter.",
         "Walk through to the fountain at the far end."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 18532,
+          "period": "202511-202610",
+          "title": "Český Krumlov Castle",
+          "url": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov_Castle",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cesky-krumlov-ckr-oldtown",
@@ -259,7 +285,16 @@
         "Day-trip crowds 11 to 4.",
         "Explore early morning and evening."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 96155,
+          "period": "202511-202610",
+          "title": "Český Krumlov",
+          "url": "https://en.wikipedia.org/wiki/%C4%8Cesk%C3%BD_Krumlov",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cesky-krumlov-ckr-raft",
@@ -306,14 +341,23 @@
         "Summer only; you may get wet.",
         "Short town loops take about an hour."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 111382,
+          "period": "202511-202610",
+          "title": "Vltava",
+          "url": "https://en.wikipedia.org/wiki/Vltava",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cesky-krumlov-ckr-schiele",
       "name": "Egon Schiele Art Centrum",
       "kind": "see",
-      "lat": 48.8105,
-      "lon": 14.3141,
+      "lat": 48.81068,
+      "lon": 14.3132,
       "wiki": "Egon Schiele Art Centrum",
       "summary": "Gallery about the painter Egon Schiele, who lived here, with modern art shows.",
       "expect": "Paid.",
@@ -352,14 +396,23 @@
         "Paid.",
         "Combine with the Seminary Garden view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 841,
+          "period": "202511-202610",
+          "title": "Egon Schiele Art Centrum",
+          "url": "https://en.wikipedia.org/wiki/Egon_Schiele_Art_Centrum",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q1298884"
     },
     {
       "id": "cesky-krumlov-ckr-hluboka",
       "name": "Hluboká Castle",
       "kind": "see",
-      "lat": 49.0516,
-      "lon": 14.439,
+      "lat": 49.05139,
+      "lon": 14.44111,
       "wiki": "Hluboká Castle",
       "summary": "White neo-Gothic castle in an English park.",
       "expect": "About 45 minutes away.",
@@ -399,8 +452,21 @@
         "About 45 minutes away.",
         "Combine with beer in České Budějovice."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12126,
+          "period": "202511-202610",
+          "title": "Hluboká Castle",
+          "url": "https://en.wikipedia.org/wiki/Hlubok%C3%A1_Castle",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q2142483",
+      "local": {
+        "name": "Zámek Hluboká nad Vltavou",
+        "lang": "cs"
+      }
     },
     {
       "id": "cesky-krumlov-ckr-pork",
@@ -522,8 +588,8 @@
       "id": "cesky-krumlov-ckr-eggenberg",
       "name": "Eggenberg Brewery",
       "kind": "eat",
-      "lat": 48.8085,
-      "lon": 14.3135,
+      "lat": 48.81264,
+      "lon": 14.32006,
       "wiki": "Eggenberg Brewery",
       "summary": "Town brewery since the 1500s with a beer hall and tours.",
       "expect": "Tours paid.",
@@ -562,7 +628,6 @@
         "Tours paid.",
         "Try the unfiltered lager."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Czech",
       "mustOrder": [
@@ -575,5 +640,7 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q188082"
 }

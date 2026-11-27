@@ -79,8 +79,8 @@
       "id": "chamonix-cha-midi",
       "name": "Aiguille du Midi",
       "kind": "see",
-      "lat": 45.879,
-      "lon": 6.8874,
+      "lat": 45.87861,
+      "lon": 6.88722,
       "wiki": "Aiguille du Midi",
       "summary": "Cable car to a needle at 3,842 m with the glass Step into the Void box.",
       "expect": "Expensive; cloud hides everything on bad days.",
@@ -121,14 +121,23 @@
         "Expensive; cloud hides everything on bad days.",
         "Check the summit webcam and go on the first cars."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 115647,
+          "period": "202511-202610",
+          "title": "Aiguille du Midi",
+          "url": "https://en.wikipedia.org/wiki/Aiguille_du_Midi",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q404728"
     },
     {
       "id": "chamonix-cha-merdeglace",
       "name": "Montenvers and the Mer de Glace",
       "kind": "see",
-      "lat": 45.9285,
-      "lon": 6.9184,
+      "lat": 45.91611,
+      "lon": 6.93722,
       "wiki": "Mer de Glace",
       "summary": "Rack railway to France's largest glacier and an ice cave carved into it each year.",
       "expect": "Hundreds of steps down to the ice cave; signs mark how far the ice has retreated.",
@@ -168,7 +177,16 @@
         "Hundreds of steps down to the ice cave; signs mark how far the ice has retreated.",
         "Look for the yearly markers on the walk down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39541,
+          "period": "202511-202610",
+          "title": "Mer de Glace",
+          "url": "https://en.wikipedia.org/wiki/Mer_de_Glace",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q583591"
     },
     {
       "id": "chamonix-cha-lacblanc",
@@ -222,8 +240,8 @@
       "id": "chamonix-cha-brevent",
       "name": "Le Brévent",
       "kind": "see",
-      "lat": 45.9346,
-      "lon": 6.8378,
+      "lat": 45.93417,
+      "lon": 6.83778,
       "wiki": "Le Brévent",
       "summary": "Cable car to a balcony directly facing Mont Blanc.",
       "expect": "Less busy than the Aiguille du Midi.",
@@ -263,7 +281,16 @@
         "Less busy than the Aiguille du Midi.",
         "Paragliders launch here; watch them take off."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3520,
+          "period": "202511-202610",
+          "title": "Le Brévent",
+          "url": "https://en.wikipedia.org/wiki/Le_Br%C3%A9vent",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q995694"
     },
     {
       "id": "chamonix-cha-paraglide",
@@ -309,7 +336,16 @@
         "Weather dependent.",
         "Morning flights are smoother."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 156727,
+          "period": "202511-202610",
+          "title": "Paragliding",
+          "url": "https://en.wikipedia.org/wiki/Paragliding",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "chamonix-cha-centre",
@@ -355,7 +391,16 @@
         "Busy in August.",
         "Stroll the river Arve and the church square."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 175924,
+          "period": "202511-202610",
+          "title": "Chamonix",
+          "url": "https://en.wikipedia.org/wiki/Chamonix",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "chamonix-cha-skyway",
@@ -403,7 +448,16 @@
         "Combine with lunch in Courmayeur."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10711,
+          "period": "202511-202610",
+          "title": "Skyway Monte Bianco",
+          "url": "https://en.wikipedia.org/wiki/Skyway_Monte_Bianco",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "chamonix-cha-tartiflette",
@@ -577,5 +631,11 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q83236",
+  "local": {
+    "name": "Chamonix-Mont-Blanc",
+    "lang": "fr"
+  }
 }

@@ -83,8 +83,8 @@
       "id": "cordoba-cdb-mezquita",
       "name": "Mosque–Cathedral (Mezquita)",
       "kind": "see",
-      "lat": 37.8789,
-      "lon": -4.7794,
+      "lat": 37.87903,
+      "lon": -4.77945,
       "wiki": "Mosque–Cathedral of Córdoba",
       "summary": "A vast 8th-century mosque of striped horseshoe arches with a Renaissance cathedral built into its heart.",
       "expect": "Paid; mass times close it to visitors on Sunday mornings.",
@@ -125,14 +125,22 @@
         "Paid; mass times close it to visitors on Sunday mornings.",
         "Come at the free early-morning entry (Mon to Sat, 8:30 to 9:20) for near silence."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 270367,
+          "period": "202511-202610",
+          "title": "Mosque–Cathedral of Córdoba",
+          "url": "https://en.wikipedia.org/wiki/Mosque%E2%80%93Cathedral_of_C%C3%B3rdoba",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cordoba-cdb-bridge",
       "name": "Roman Bridge and Calahorra Tower",
       "kind": "see",
-      "lat": 37.877,
-      "lon": -4.7773,
+      "lat": 37.87667,
+      "lon": -4.77806,
       "wiki": "Roman bridge of Córdoba",
       "summary": "The arched bridge over the Guadalquivir with the old town skyline behind it.",
       "expect": "Free to cross; the tower museum is paid.",
@@ -172,14 +180,27 @@
         "Free to cross; the tower museum is paid.",
         "Cross at sunset and look back at the Mezquita."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15608,
+          "period": "202511-202610",
+          "title": "Roman bridge of Córdoba",
+          "url": "https://en.wikipedia.org/wiki/Roman_bridge_of_C%C3%B3rdoba",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q97625652",
+      "local": {
+        "name": "Puente romano de Córdoba",
+        "lang": "es"
+      }
     },
     {
       "id": "cordoba-cdb-alcazar",
       "name": "Alcázar de los Reyes Cristianos",
       "kind": "see",
-      "lat": 37.8765,
-      "lon": -4.7817,
+      "lat": 37.87722,
+      "lon": -4.78194,
       "wiki": "Alcázar de los Reyes Cristianos",
       "summary": "Fortress-palace with terraced gardens of pools, cypresses and orange trees.",
       "expect": "Paid; closed Mondays.",
@@ -220,7 +241,16 @@
         "Paid; closed Mondays.",
         "Climb the towers for a view over the gardens."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16954,
+          "period": "202511-202610",
+          "title": "Alcázar de los Reyes Cristianos",
+          "url": "https://en.wikipedia.org/wiki/Alc%C3%A1zar_de_los_Reyes_Cristianos",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q212625"
     },
     {
       "id": "cordoba-cdb-juderia",
@@ -267,14 +297,23 @@
         "Busy midday.",
         "Go early or late for the alley photo."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4719,
+          "period": "202511-202610",
+          "title": "Judería de Córdoba",
+          "url": "https://en.wikipedia.org/wiki/Juder%C3%ADa_de_C%C3%B3rdoba",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cordoba-cdb-viana",
       "name": "Palacio de Viana",
       "kind": "see",
-      "lat": 37.8887,
-      "lon": -4.7735,
+      "lat": 37.88867,
+      "lon": -4.77432,
       "wiki": "Palacio de Viana",
       "summary": "Noble palace with twelve different patios full of flowers and fountains.",
       "expect": "Paid; patio-only ticket is cheaper.",
@@ -314,15 +353,14 @@
       "tradeoffs": [
         "Paid; patio-only ticket is cheaper.",
         "Visit in spring when the patios are in bloom."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cordoba-cdb-azahara",
       "name": "Medina Azahara",
       "kind": "see",
-      "lat": 37.8878,
-      "lon": -4.8672,
+      "lat": 37.888,
+      "lon": -4.867,
       "wiki": "Medina Azahara",
       "summary": "Ruins of a 10th-century caliph's palace city on the hills west of town.",
       "expect": "Shuttle bus from town; closed Mondays.",
@@ -362,8 +400,16 @@
         "Shuttle bus from town; closed Mondays.",
         "Start at the museum, then the shuttle up to the ruins."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 35135,
+          "period": "202511-202610",
+          "title": "Madinat al-Zahra",
+          "url": "https://en.wikipedia.org/wiki/Madinat_al-Zahra",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "cordoba-cdb-corredera",
@@ -474,8 +520,8 @@
       "id": "cordoba-cdb-bodegas",
       "name": "Bodegas Mezquita",
       "kind": "eat",
-      "lat": 37.8796,
-      "lon": -4.7786,
+      "lat": 37.8799,
+      "lon": -4.77988,
       "wiki": "Mosque–Cathedral of Córdoba",
       "summary": "Reliable tavern near the Mezquita for Córdoba classics and Montilla wines.",
       "expect": "Busy at lunch.",
@@ -514,7 +560,6 @@
         "Busy at lunch.",
         "Order a few medias raciones to share."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Andalusian",
       "mustOrder": [
@@ -586,5 +631,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q5818"
 }

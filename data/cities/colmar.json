@@ -124,8 +124,8 @@
       "id": "colmar-col-unterlinden",
       "name": "Unterlinden Museum",
       "kind": "see",
-      "lat": 48.0797,
-      "lon": 7.355,
+      "lat": 48.07972,
+      "lon": 7.35556,
       "wiki": "Unterlinden Museum",
       "summary": "Former convent housing Grünewald's Isenheim Altarpiece.",
       "expect": "Paid; closed Tuesdays.",
@@ -165,7 +165,20 @@
         "Paid; closed Tuesdays.",
         "Spend time with the altarpiece panels."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11453,
+          "period": "202511-202610",
+          "title": "Unterlinden Museum",
+          "url": "https://en.wikipedia.org/wiki/Unterlinden_Museum",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q1851283",
+      "local": {
+        "name": "musée Unterlinden",
+        "lang": "fr"
+      }
     },
     {
       "id": "colmar-col-houses",
@@ -218,8 +231,8 @@
       "id": "colmar-col-koifhus",
       "name": "Koïfhus and the Tanners' Quarter",
       "kind": "see",
-      "lat": 48.0758,
-      "lon": 7.3585,
+      "lat": 48.07583,
+      "lon": 7.35889,
       "wiki": "Koïfhus",
       "summary": "Old customs house with a tiled roof beside the tall tanners' houses.",
       "expect": "Free.",
@@ -259,13 +272,21 @@
         "Free.",
         "Pair with the covered market nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1670,
+          "period": "202511-202610",
+          "title": "Ancienne Douane, Colmar",
+          "url": "https://en.wikipedia.org/wiki/Ancienne_Douane%2C_Colmar",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "colmar-col-riquewihr",
       "name": "Riquewihr",
       "kind": "see",
-      "lat": 48.1667,
+      "lat": 48.1672,
       "lon": 7.2978,
       "wiki": "Riquewihr",
       "summary": "Walled wine village of half-timbered houses among the vineyards.",
@@ -306,15 +327,24 @@
         "Crowded in summer weekends.",
         "Taste in a family cellar, not the main-street shops."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 27783,
+          "period": "202511-202610",
+          "title": "Riquewihr",
+          "url": "https://en.wikipedia.org/wiki/Riquewihr",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q148959"
     },
     {
       "id": "colmar-col-eguisheim",
       "name": "Eguisheim",
       "kind": "see",
-      "lat": 48.0428,
-      "lon": 7.3058,
+      "lat": 48.0436,
+      "lon": 7.3067,
       "wiki": "Eguisheim",
       "summary": "Village built in concentric rings around a castle and chapel.",
       "expect": "10 minutes by car.",
@@ -354,8 +384,17 @@
         "10 minutes by car.",
         "Walk the outer ring lane."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16357,
+          "period": "202511-202610",
+          "title": "Eguisheim",
+          "url": "https://en.wikipedia.org/wiki/Eguisheim",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q272897"
     },
     {
       "id": "colmar-col-hk",
@@ -451,7 +490,16 @@
         "Go on a weekday evening."
       ],
       "pinApproximate": true,
-      "optional": true
+      "optional": true,
+      "signals": {
+        "wikipedia": {
+          "views": 162452,
+          "period": "202511-202610",
+          "title": "Colmar",
+          "url": "https://en.wikipedia.org/wiki/Colmar",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "colmar-col-flamme",
@@ -626,5 +674,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q130994"
 }

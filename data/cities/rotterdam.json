@@ -77,8 +77,8 @@
       "id": "rotterdam-rtm-markthal",
       "name": "Markthal",
       "kind": "see",
-      "lat": 51.92,
-      "lon": 4.487,
+      "lat": 51.91977,
+      "lon": 4.48626,
       "wiki": "Markthal",
       "summary": "Arched market hall with a giant fruit-and-flowers mural across its ceiling.",
       "expect": "Busy at lunchtime.",
@@ -119,14 +119,22 @@
         "Busy at lunchtime.",
         "Look up from the centre for the full mural."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16740,
+          "period": "202511-202610",
+          "title": "Market Hall (Rotterdam)",
+          "url": "https://en.wikipedia.org/wiki/Market_Hall_(Rotterdam)",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "rotterdam-rtm-cubes",
       "name": "Cube Houses",
       "kind": "see",
-      "lat": 51.9204,
-      "lon": 4.4907,
+      "lat": 51.92028,
+      "lon": 4.49056,
       "wiki": "Cube houses",
       "summary": "Tilted yellow cube homes on poles by Piet Blom; one is a show home.",
       "expect": "Show cube is paid.",
@@ -165,14 +173,27 @@
         "Show cube is paid.",
         "Visit the Kijk-Kubus to see how people live inside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 45440,
+          "period": "202511-202610",
+          "title": "Cube house",
+          "url": "https://en.wikipedia.org/wiki/Cube_house",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q1790954",
+      "local": {
+        "name": "kubuswoning",
+        "lang": "nl"
+      }
     },
     {
       "id": "rotterdam-rtm-erasmus",
       "name": "Erasmus Bridge",
       "kind": "see",
-      "lat": 51.9093,
-      "lon": 4.4868,
+      "lat": 51.90917,
+      "lon": 4.48667,
       "wiki": "Erasmusbrug",
       "summary": "White cable-stayed \"Swan\" bridge over the Maas.",
       "expect": "Windy.",
@@ -212,14 +233,27 @@
         "Windy.",
         "Walk across at sunset toward the Hotel New York."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18183,
+          "period": "202511-202610",
+          "title": "Erasmusbrug",
+          "url": "https://en.wikipedia.org/wiki/Erasmusbrug",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q1348188",
+      "local": {
+        "name": "Erasmusbrug",
+        "lang": "nl"
+      }
     },
     {
       "id": "rotterdam-rtm-depot",
       "name": "Depot Boijmans Van Beuningen",
       "kind": "see",
-      "lat": 51.9142,
-      "lon": 4.471,
+      "lat": 51.91395,
+      "lon": 4.47113,
       "wiki": "Depot Boijmans Van Beuningen",
       "summary": "The world's first publicly accessible art storage, a mirrored bowl with a roof forest.",
       "expect": "Paid; book ahead.",
@@ -258,15 +292,14 @@
       "tradeoffs": [
         "Paid; book ahead.",
         "Ride to the rooftop for the view."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rotterdam-rtm-euromast",
       "name": "Euromast",
       "kind": "see",
-      "lat": 51.9054,
-      "lon": 4.4666,
+      "lat": 51.90611,
+      "lon": 4.46583,
       "wiki": "Euromast",
       "summary": "185 m observation tower with a rotating glass lift.",
       "expect": "Paid.",
@@ -305,7 +338,16 @@
         "Paid.",
         "Go up on a clear evening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10729,
+          "period": "202511-202610",
+          "title": "Euromast",
+          "url": "https://en.wikipedia.org/wiki/Euromast",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q969215"
     },
     {
       "id": "rotterdam-rtm-spido",
@@ -352,7 +394,16 @@
         "About 75 minutes.",
         "Sit on the open deck."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 64294,
+          "period": "202511-202610",
+          "title": "Port of Rotterdam",
+          "url": "https://en.wikipedia.org/wiki/Port_of_Rotterdam",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "rotterdam-rtm-kinderdijk",
@@ -400,14 +451,23 @@
         "Take the Waterbus from Erasmusbrug."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29021,
+          "period": "202511-202610",
+          "title": "Kinderdijk",
+          "url": "https://en.wikipedia.org/wiki/Kinderdijk",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "rotterdam-rtm-delfshaven",
       "name": "Delfshaven",
       "kind": "see",
-      "lat": 51.9078,
-      "lon": 4.4445,
+      "lat": 51.90722,
+      "lon": 4.44833,
       "wiki": "Delfshaven",
       "summary": "The old harbour that survived the war, where the Pilgrims left for America.",
       "expect": "Free.",
@@ -446,7 +506,16 @@
         "Free.",
         "Have a beer at a canal-side pub."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11642,
+          "period": "202511-202610",
+          "title": "Delfshaven",
+          "url": "https://en.wikipedia.org/wiki/Delfshaven",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q1184149"
     },
     {
       "id": "rotterdam-rtm-markthalfood",
@@ -568,8 +637,8 @@
       "id": "rotterdam-rtm-katendrecht",
       "name": "Fenix Food Factory area (Katendrecht)",
       "kind": "eat",
-      "lat": 51.901,
-      "lon": 4.484,
+      "lat": 51.9,
+      "lon": 4.48333,
       "wiki": "Katendrecht",
       "summary": "Old port peninsula of food spots and terraces facing the skyline.",
       "expect": "Busiest on weekends.",
@@ -608,7 +677,6 @@
         "Busiest on weekends.",
         "Take the ferry over from the Hotel New York side."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "International",
       "mustOrder": [
@@ -620,7 +688,10 @@
         "vegetarian": "some",
         "evidence": [],
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
-      }
+      },
+      "wikidata": "Q1735822"
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q34370"
 }

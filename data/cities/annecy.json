@@ -77,8 +77,8 @@
       "id": "annecy-ann-palais",
       "name": "Palais de l'Isle and the canals",
       "kind": "see",
-      "lat": 45.8987,
-      "lon": 6.127,
+      "lat": 45.916,
+      "lon": 6.133,
       "wiki": "Palais de l'Isle",
       "summary": "12th-century island prison in the Thiou canal, the town's famous image.",
       "expect": "Small museum inside; the view is the point.",
@@ -118,14 +118,22 @@
         "Small museum inside; the view is the point.",
         "Photograph from Pont Perrière."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 192072,
+          "period": "202511-202610",
+          "title": "Annecy",
+          "url": "https://en.wikipedia.org/wiki/Annecy",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "annecy-ann-lake",
       "name": "Lake Annecy",
       "kind": "see",
-      "lat": 45.859,
-      "lon": 6.17,
+      "lat": 45.84936,
+      "lon": 6.17131,
       "wiki": "Lake Annecy",
       "summary": "Clear turquoise lake ringed by mountains, with public beaches.",
       "expect": "Water is cool even in summer.",
@@ -164,14 +172,22 @@
         "Water is cool even in summer.",
         "Rent a pedal boat or swim at Plage d'Albigny."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39570,
+          "period": "202511-202610",
+          "title": "Lake Annecy",
+          "url": "https://en.wikipedia.org/wiki/Lake_Annecy",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "annecy-ann-amours",
       "name": "Pont des Amours",
       "kind": "see",
-      "lat": 45.9007,
-      "lon": 6.1316,
+      "lat": 45.9002,
+      "lon": 6.13136,
       "wiki": "Pont des Amours",
       "summary": "Little bridge between the canal and the lake, said to bring lasting love.",
       "expect": "Busy at sunset.",
@@ -209,15 +225,14 @@
       "tradeoffs": [
         "Busy at sunset.",
         "Look down the Vassé canal lined with boats."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "annecy-ann-chateau",
       "name": "Château d'Annecy",
       "kind": "see",
-      "lat": 45.8978,
-      "lon": 6.1263,
+      "lat": 45.8975,
+      "lon": 6.12611,
       "wiki": "Château d'Annecy",
       "summary": "Hilltop castle of the Counts of Geneva with a museum and town views.",
       "expect": "Paid; uphill walk.",
@@ -257,7 +272,16 @@
         "Paid; uphill walk.",
         "Go for the view over the rooftops."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5980,
+          "period": "202511-202610",
+          "title": "Château d'Annecy",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_d'Annecy",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q2259452"
     },
     {
       "id": "annecy-ann-bike",
@@ -304,7 +328,16 @@
         "Rent bikes in town.",
         "Return by lake boat with your bike."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 39570,
+          "period": "202511-202610",
+          "title": "Lake Annecy",
+          "url": "https://en.wikipedia.org/wiki/Lake_Annecy",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "annecy-ann-forclaz",
@@ -527,5 +560,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q50189"
 }

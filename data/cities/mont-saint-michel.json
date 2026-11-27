@@ -65,8 +65,8 @@
       "id": "mont-saint-michel-msm-abbey",
       "name": "Mont-Saint-Michel Abbey",
       "kind": "see",
-      "lat": 48.636,
-      "lon": -1.5114,
+      "lat": 48.63583,
+      "lon": -1.51139,
       "wiki": "Mont-Saint-Michel Abbey",
       "summary": "Gothic abbey at the summit, with the cloister hanging over the bay.",
       "expect": "Paid; many stairs.",
@@ -107,7 +107,20 @@
         "Paid; many stairs.",
         "Book a timed ticket and go late afternoon when day-trippers leave."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 51989,
+          "period": "202511-202610",
+          "title": "Mont-Saint-Michel Abbey",
+          "url": "https://en.wikipedia.org/wiki/Mont-Saint-Michel_Abbey",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q651388",
+      "local": {
+        "name": "abbaye du Mont-Saint-Michel",
+        "lang": "fr"
+      }
     },
     {
       "id": "mont-saint-michel-msm-ramparts",
@@ -154,7 +167,16 @@
         "Shoulder to shoulder at midday.",
         "Take the ramparts up and the street down."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 852474,
+          "period": "202511-202610",
+          "title": "Mont-Saint-Michel",
+          "url": "https://en.wikipedia.org/wiki/Mont-Saint-Michel",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "mont-saint-michel-msm-causeway",
@@ -200,7 +222,16 @@
         "Free shuttle runs often.",
         "Walk out, shuttle back; stay for the lights after dark."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 852474,
+          "period": "202511-202610",
+          "title": "Mont-Saint-Michel",
+          "url": "https://en.wikipedia.org/wiki/Mont-Saint-Michel",
+          "checked": "2026-11-27"
+        }
+      }
     },
     {
       "id": "mont-saint-michel-msm-baywalk",
@@ -253,8 +284,8 @@
       "id": "mont-saint-michel-msm-saintmalo",
       "name": "Saint-Malo",
       "kind": "see",
-      "lat": 48.6493,
-      "lon": -2.0257,
+      "lat": 48.6494,
+      "lon": -2.0261,
       "wiki": "Saint-Malo",
       "summary": "Walled corsair port with rampart walks, tidal pools and Fort National reachable at low tide.",
       "expect": "50 minutes by car.",
@@ -294,15 +325,24 @@
         "50 minutes by car.",
         "Walk the full ramparts circuit, then crêpes inside the walls."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 169465,
+          "period": "202511-202610",
+          "title": "Saint-Malo",
+          "url": "https://en.wikipedia.org/wiki/Saint-Malo",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q163108"
     },
     {
       "id": "mont-saint-michel-msm-omaha",
       "name": "Omaha Beach and the American Cemetery",
       "kind": "see",
-      "lat": 49.3597,
-      "lon": -0.855,
+      "lat": 49.36,
+      "lon": -0.8575,
       "wiki": "Normandy American Cemetery and Memorial",
       "summary": "The D-Day landing beach and the cliff-top cemetery above it.",
       "expect": "About 1h30 from the Mont.",
@@ -341,15 +381,28 @@
         "About 1h30 from the Mont.",
         "Pair with Pointe du Hoc nearby."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 80100,
+          "period": "202511-202610",
+          "title": "Normandy American Cemetery and Memorial",
+          "url": "https://en.wikipedia.org/wiki/Normandy_American_Cemetery_and_Memorial",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q2134416",
+      "local": {
+        "name": "cimetière américain de Colleville-sur-Mer",
+        "lang": "fr"
+      }
     },
     {
       "id": "mont-saint-michel-msm-poulard",
       "name": "Omelette at La Mère Poulard",
       "kind": "eat",
-      "lat": 48.6346,
-      "lon": -1.5103,
+      "lat": 48.635,
+      "lon": -1.5111,
       "wiki": "La Mère Poulard",
       "summary": "The famous whisked omelette cooked over a wood fire since 1888.",
       "expect": "Very pricey for an omelette.",
@@ -388,7 +441,6 @@
         "Very pricey for an omelette.",
         "Watch the cooks beating eggs in copper bowls by the door."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "French",
       "mustOrder": [
@@ -399,7 +451,8 @@
         "vegetarian": "yes",
         "evidence": [],
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
-      }
+      },
+      "wikidata": "Q20895283"
     },
     {
       "id": "mont-saint-michel-msm-lamb",
@@ -462,8 +515,8 @@
       "id": "mont-saint-michel-msm-cancale",
       "name": "Oysters at Cancale",
       "kind": "eat",
-      "lat": 48.6744,
-      "lon": -1.852,
+      "lat": 48.6769,
+      "lon": -1.8506,
       "wiki": "Cancale",
       "summary": "Stalls by the harbour wall sell oysters by the dozen to eat on the steps.",
       "expect": "Between the Mont and Saint-Malo.",
@@ -502,7 +555,6 @@
         "Between the Mont and Saint-Malo.",
         "Throw the shells onto the beach like the locals."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -513,7 +565,14 @@
         "vegetarian": "no",
         "evidence": [],
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
-      }
+      },
+      "wikidata": "Q203561"
     }
-  ]
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q20892",
+  "local": {
+    "name": "Le Mont-Saint-Michel",
+    "lang": "fr"
+  }
 }
