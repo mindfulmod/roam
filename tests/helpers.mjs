@@ -75,6 +75,10 @@ export async function openApp(
   const page = await context.newPage();
   page.errors = [];
   page.on('pageerror', (e) => page.errors.push(String(e.stack || e)));
+  // Anything the page's security policy refuses counts as an error too.
+  page.on('console', (m) => {
+    if (/Content Security Policy/i.test(m.text())) page.errors.push(m.text());
+  });
   await page.goto(origin + '/' + hash);
   await page.waitForFunction(() => document.querySelector('#app')?.children.length > 0);
   return page;

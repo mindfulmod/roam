@@ -103,11 +103,14 @@ async function shareTrip() {
     }
   }
   showModal(
-    `<div class="modalcontent share-modal"><span class="eyebrow">SHARE YOUR TRIP</span><h2>${esc(title)}</h2><p class="muted">Anyone with this link can see your route, days, dates and saved places, and copy the trip into Tandem Roads.</p><div class="share-line"><input id="share-url" readonly value="${esc(url)}" aria-label="Trip link" onfocus="this.select()"><button class="btn" data-action="share-copy">${icon('link')} Copy link</button></div><p class="filter-note">Your notes, hotel addresses and budget aren’t included. If you change the trip later, share a new link.</p></div>`,
+    `<div class="modalcontent share-modal"><span class="eyebrow">SHARE YOUR TRIP</span><h2>${esc(title)}</h2><p class="muted">Anyone with this link can see your route, days, dates and saved places, and copy the trip into Tandem Roads.</p><div class="share-line"><input id="share-url" readonly value="${esc(url)}" aria-label="Trip link"><button class="btn" data-action="share-copy">${icon('link')} Copy link</button></div><p class="filter-note">Your notes, hotel addresses and budget aren’t included. If you change the trip later, share a new link.</p></div>`,
     'Share trip',
   );
   $('#share-url')?.select();
 }
+document.addEventListener('focusin', (e) => {
+  if (e.target.id === 'share-url') e.target.select();
+});
 async function copyShareUrl() {
   const input = $('#share-url');
   if (!input) return;

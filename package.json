@@ -8,11 +8,14 @@
     "build": "node scripts/build.mjs",
     "build:single": "node scripts/build.mjs --single",
     "dev": "node scripts/build.mjs && npx --yes serve@14 dist",
-    "test": "node scripts/build.mjs && node --test \"tests/*.test.mjs\"",
+    "lint": "node scripts/lint.mjs",
+    "test": "node scripts/lint.mjs && node scripts/build.mjs && node --test \"tests/*.test.mjs\"",
     "test:db": "./scripts/db-test.sh",
     "format": "prettier --write src scripts data/cities data/*.json"
   },
   "devDependencies": {
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0",
     "playwright": "^1.63.0",
     "prettier": "3.6.2"
   }

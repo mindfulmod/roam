@@ -38,7 +38,7 @@ function galleryUrl(g, w = 960) {
   return `https://upload.wikimedia.org/wikipedia/commons/thumb/${g.hh[0]}/${g.hh}/${n}/${w}px-${n}`;
 }
 function galleryImg(g, lazy = true, sizes = '(max-width: 700px) 100vw, 760px') {
-  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" onerror="galleryDrop(this)">`;
+  return `<img class="photo" src="${esc(galleryUrl(g, 960))}" srcset="${esc(galleryUrl(g, 500))} 500w, ${esc(galleryUrl(g, 960))} 960w" sizes="${sizes}" width="${g.w}" height="${g.h}" alt="${esc(g.f.replace(/\.[a-z]+$/i, '').replace(/[_-]+/g, ' '))}" ${lazy ? 'loading="lazy"' : ''} decoding="async" referrerpolicy="no-referrer" data-drop="gallery">`;
 }
 function galleryCredit(g) {
   const page = 'https://commons.wikimedia.org/wiki/File:' + commonsName(g.f);
@@ -66,7 +66,7 @@ function galleryHero(id, firstSlide, label) {
 }
 // One thumbnail button. A Commons thumbnail that fails to load drops out of the strip.
 function galleryThumb(src, i, n, commons) {
-  return `<button class="gthumb${i ? '' : ' on'}" data-action="gal-thumb" data-i="${i}" aria-label="Photo ${i + 1} of ${n}"${i ? '' : ' aria-current="true"'}><img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${commons ? ` onerror="this.closest('.gthumb')?.remove()"` : ''}></button>`;
+  return `<button class="gthumb${i ? '' : ' on'}" data-action="gal-thumb" data-i="${i}" aria-label="Photo ${i + 1} of ${n}"${i ? '' : ' aria-current="true"'}><img src="${esc(src)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer"${commons ? ' data-drop="thumb"' : ''}></button>`;
 }
 // The thumbnail strip under a place's carousel. `first` is the main visual's image URL.
 function galleryThumbs(id, first) {
@@ -113,6 +113,18 @@ function gallerySlideFor(scope, k) {
 }
 // A Commons photo that will not load leaves the gallery. The count and thumbnails follow, and a
 // city's photo section with nothing left to show disappears rather than leaving an empty frame.
+// Images say how to fail with data-drop instead of an onerror="…" attribute, which the page's
+// security policy would refuse. Load errors do not bubble, so this listens on the way down.
+document.addEventListener(
+  'error',
+  (e) => {
+    const img = e.target;
+    if (!(img instanceof HTMLImageElement) || !img.dataset.drop) return;
+    if (img.dataset.drop === 'gallery') galleryDrop(img);
+    else img.closest('.gthumb')?.remove();
+  },
+  true,
+);
 function galleryDrop(img) {
   const slide = img.closest('[data-gslide],.cityphoto,.gtile'),
     scope = img.closest('[data-gscope]');

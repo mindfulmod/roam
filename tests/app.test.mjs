@@ -959,3 +959,26 @@ test('logging: the whole map finds any place, and a guide place found there stay
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('the page refuses code it did not ship, and photos that fail still leave the gallery', async () => {
+  const page = await openApp(browser, origin, { hash: '#/city/kyoto' });
+  const csp = await page.getAttribute('meta[http-equiv="Content-Security-Policy"]', 'content');
+  assert.match(csp, /script-src 'self' 'sha256-/);
+  await page.evaluate(() => {
+    document.body.insertAdjacentHTML('beforeend', '<img src="x:y" onerror="window.__ran = 1">');
+  });
+  await page.waitForTimeout(300);
+  assert.equal(await page.evaluate(() => window.__ran), undefined, 'an inline handler ran');
+  assert.ok(
+    page.errors.some((e) => /Content Security Policy/i.test(e)),
+    'no refusal was seen',
+  );
+  page.errors.length = 0;
+  // Commons photos cannot load in tests, so every one must drop out, not sit there broken.
+  await page.evaluate(() => openPlace('kyoto-fushimi'));
+  await page.waitForTimeout(1200);
+  const broken = await page.$$eval('img[data-drop]', (l) => l.filter((i) => i.complete).length);
+  assert.equal(broken, 0, 'failed Commons photos were left in the page');
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});

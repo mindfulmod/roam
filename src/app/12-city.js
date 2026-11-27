@@ -23,8 +23,7 @@ function cityCard(c) {
   return `<article class="citycard" data-action="city" data-id="${c.id}" tabindex="0" role="link" aria-label="Explore ${esc(c.name)}"><div class="cityimage">${photoTag(c.id)}${cityAdd(c.id, true)}${best ? `<span class="city-rankpill bestmark">${icon('sun')} ${best}</span>` : ''}</div><div class="citybody"><h3>${esc(c.name)}</h3><span class="citycountry">${esc(c.country)}</span><p>${esc(c.tagline)}</p><div class="cardfoot"><span class="cardprice">${price !== null ? `<b>About ${cash(price)}</b><small>${B().days} days${S.people > 1 ? ', each' : ''}</small>` : `<b>${c.days} days</b><small>to see it well</small>`}</span><button class="cmpbtn ${cmp ? 'on' : ''}" data-action="cmp" data-id="${c.id}" aria-pressed="${cmp}">${icon(cmp ? 'check' : 'plus')} Compare</button></div></div></article>`;
 }
 function placeCard(p) {
-  const d = fromStay(p),
-    n = popularityRank(p);
+  const d = fromStay(p);
   return `<article class="placecard" data-action="place" data-id="${p.id}" tabindex="0" role="button" aria-label="Details for ${esc(p.name)}"><div class="placeimage">${visualTag(p.id)}${saveButton(p.id)}${visualBadge(p.id)}${photoCount(p.id)}<span class="place-rankpill t-${tier(p).key}">${tier(p).label}</span></div><div class="placebody"><h3>${esc(p.name)}</h3>${p.michelin ? `<div class="michelin-line">${michelinPill(p)}</div>` : ''}<p>${esc(p.summary)}</p>${p.mustOrder?.length ? `<p class="must-order"><strong>Try:</strong> ${esc(p.mustOrder.slice(0, 3).join(' · '))}</p>` : ''}${p.kind === 'eat' ? `<div class="actions dietlabels">${dietaryLabels(p)}</div>` : ''}<div class="placemeta"><span>${esc(p.area)} · ${p.duration} h · ${priceLabel(p)}${d !== null ? ` · <span class="near-label">${distanceText(d)} away</span>` : ''}</span>${rating(p)}</div></div></article>`;
 }
 function rankingRows(items) {
@@ -242,8 +241,6 @@ function renderCity(id, tab = 'places') {
     experienceFilter = 'all';
   } else if (cityFilter === 'shop') cityFilter = 'see';
   headerActive('explore');
-  const r = cityRanking(c, 'tourism'),
-    a = cityRanking(c, 'arrivals');
   $('#app').innerHTML =
     `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1>${localName(c)}<p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}${cityTopFive(c)}${cityGlance(c)}${budgetPanel(c)}${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
       ['places', 'Sights'],

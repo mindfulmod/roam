@@ -15,7 +15,6 @@ const LG_TABS = [
 let LG = null;
 
 const lgWho = (id) => LG.who[id];
-const lgName = (id) => (id === LG_ME ? 'you' : lgWho(id).name);
 const lgT = (m) =>
   `${String(Math.floor(m / 60)).padStart(2, '0')}:${String(Math.round(m) % 60).padStart(2, '0')}`;
 const lgSpan = (a, b) => stDur(Math.max(5, stMins(b) - stMins(a)));

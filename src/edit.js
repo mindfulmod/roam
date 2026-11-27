@@ -156,7 +156,7 @@ function edMove(uid, dir) {
   const st = edSt(),
     at = edFind(uid);
   if (!at) return;
-  const { d, di, k, s } = at,
+  const { d, di, s } = at,
     places = d.stops.map((x, j) => ({ x, j })).filter(({ x }) => !x.leg),
     pos = places.findIndex(({ x }) => x === s),
     nb = places[pos + dir];
