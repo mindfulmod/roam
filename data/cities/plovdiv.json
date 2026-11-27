@@ -1,0 +1,569 @@
+{
+  "id": "plovdiv",
+  "name": "Plovdiv",
+  "country": "Bulgaria",
+  "region": "Europe",
+  "lat": 42.1354,
+  "lon": 24.7453,
+  "wiki": "Plovdiv",
+  "tagline": "Europe's oldest living city on seven hills",
+  "summary": "Plovdiv has been lived in for 8,000 years. Sit in a Roman theatre still used for concerts, walk the colourful Revival houses of the Old Town, explore the street-art district of Kapana, and climb a hill at sunset for the view over the Thracian plain. Bachkovo Monastery and the Rose Valley are short trips away.",
+  "days": 2,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Late May to early June for the Rose Valley harvest; summers are hot.",
+  "arrival": "Trains and buses from Sofia take 2 to 2.5 hours.",
+  "gettingAround": "Walk the old town and centre; cobbles are uneven.",
+  "cashTip": "Bulgaria uses the euro since 2026; cards are widely accepted. Tip about 10 percent.",
+  "dailyBudget": [
+    40,
+    90
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    10,
+    30
+  ],
+  "foodTip": "Shopska salad, kavarma stew, banitsa pastry and Mavrud red wine.",
+  "buyTip": "Rose oil products and Mavrud wine.",
+  "baseArea": "Old Town or Kapana",
+  "connections": [
+    {
+      "to": "sofia",
+      "mode": "Train",
+      "minutes": 140,
+      "note": "Trains and frequent buses."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Plovdiv on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Plovdiv",
+      "type": "reference",
+      "checked": "2026-11-27"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Plovdiv%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-27"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Plovdiv%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Plovdiv Roman theatre",
+  "added": "2026-11-27",
+  "items": [
+    {
+      "id": "plovdiv-plo-theatre",
+      "name": "Roman Theatre",
+      "kind": "see",
+      "lat": 42.1468,
+      "lon": 24.751,
+      "wiki": "Ancient theatre of Philippopolis",
+      "summary": "2nd-century theatre on the hillside, still used for summer concerts and opera.",
+      "expect": "Paid.",
+      "tip": "See a summer show if you can.",
+      "area": "Old Town",
+      "duration": 1,
+      "price": [
+        5,
+        6
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Roman%20Theatre%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Roman%20Theatre%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Roman%20Theatre%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "2nd-century theatre on the hillside, still used for summer concerts and opera.",
+        "Roman Plovdiv."
+      ],
+      "visitFlow": [
+        "Theatre seats.",
+        "View over the city."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Paid.",
+        "See a summer show if you can."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "plovdiv-plo-oldtown",
+      "name": "Old Town",
+      "kind": "see",
+      "lat": 42.1495,
+      "lon": 24.7535,
+      "wiki": "Old Plovdiv",
+      "summary": "Cobbled hill of brightly painted 19th-century Revival houses and museums.",
+      "expect": "Steep cobbles.",
+      "tip": "Visit Balabanov House and the Ethnographic Museum.",
+      "area": "Old Town",
+      "duration": 2.5,
+      "price": [
+        0,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Old%20Town%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Old%20Town%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Old%20Town%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Cobbled hill of brightly painted 19th-century Revival houses and museums.",
+        "Bulgaria's prettiest old quarter."
+      ],
+      "visitFlow": [
+        "Revival houses.",
+        "Ethnographic Museum."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Steep cobbles.",
+        "Visit Balabanov House and the Ethnographic Museum."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "plovdiv-plo-kapana",
+      "name": "Kapana district",
+      "kind": "see",
+      "lat": 42.1465,
+      "lon": 24.7475,
+      "wiki": "Kapana",
+      "summary": "\"The Trap\", a maze of lanes full of street art, craft bars and galleries.",
+      "expect": "Liveliest at night.",
+      "tip": "Come for dinner and stay for drinks.",
+      "area": "Kapana",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kapana%20district%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Kapana%20district%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Kapana%20district%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "\"The Trap\", a maze of lanes full of street art, craft bars and galleries.",
+        "Creative Plovdiv."
+      ],
+      "visitFlow": [
+        "Street art.",
+        "Bars."
+      ],
+      "bestFor": "Visitors interested in art and craft and shows and nightlife",
+      "tradeoffs": [
+        "Liveliest at night.",
+        "Come for dinner and stay for drinks."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "plovdiv-plo-nebet",
+      "name": "Nebet Tepe",
+      "kind": "see",
+      "lat": 42.1515,
+      "lon": 24.752,
+      "wiki": "Nebet Tepe",
+      "summary": "Hilltop with the ruins of the oldest Thracian settlement and a city view.",
+      "expect": "Free.",
+      "tip": "Come at sunset.",
+      "area": "Old Town",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Nebet%20Tepe%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Nebet%20Tepe%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Nebet%20Tepe%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Hilltop with the ruins of the oldest Thracian settlement and a city view.",
+        "Where Plovdiv began."
+      ],
+      "visitFlow": [
+        "Ruins.",
+        "Sunset view."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Free.",
+        "Come at sunset."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "plovdiv-plo-stadium",
+      "name": "Roman Stadium",
+      "kind": "see",
+      "lat": 42.1477,
+      "lon": 24.748,
+      "wiki": "Roman Stadium of Philippopolis",
+      "summary": "Part of a huge Roman stadium visible below the main pedestrian street.",
+      "expect": "Free to view; small 3D film paid.",
+      "tip": "Have a coffee at the Dzhumaya Mosque next door.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        0,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Roman%20Stadium%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Roman%20Stadium%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Roman%20Stadium%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Part of a huge Roman stadium visible below the main pedestrian street.",
+        "Ancient under modern."
+      ],
+      "visitFlow": [
+        "Stadium.",
+        "Dzhumaya Mosque."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free to view; small 3D film paid.",
+        "Have a coffee at the Dzhumaya Mosque next door."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "plovdiv-plo-bachkovo",
+      "name": "Bachkovo Monastery",
+      "kind": "see",
+      "lat": 41.9425,
+      "lon": 24.8495,
+      "wiki": "Bachkovo Monastery",
+      "summary": "Bulgaria's second-largest monastery, founded in 1083, with fine frescoes.",
+      "expect": "Free; 30 km south.",
+      "tip": "Combine with Asen's Fortress on the way.",
+      "area": "Rhodope foothills",
+      "duration": 3,
+      "price": [
+        0,
+        5
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bachkovo%20Monastery%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Bachkovo%20Monastery%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bachkovo%20Monastery%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Spiritual",
+        "History",
+        "Art"
+      ],
+      "whyVisit": [
+        "Bulgaria's second-largest monastery, founded in 1083, with fine frescoes.",
+        "Rhodope monastery."
+      ],
+      "visitFlow": [
+        "Church frescoes.",
+        "Refectory."
+      ],
+      "bestFor": "Visitors interested in sacred places and history and context",
+      "tradeoffs": [
+        "Free; 30 km south.",
+        "Combine with Asen's Fortress on the way."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "plovdiv-plo-rose",
+      "name": "Rose Valley (Kazanlak)",
+      "kind": "see",
+      "lat": 42.6194,
+      "lon": 25.393,
+      "wiki": "Rose Valley, Bulgaria",
+      "summary": "Valley that produces much of the world's rose oil, with a Thracian tomb at Kazanlak.",
+      "expect": "Harvest is late May to early June.",
+      "tip": "Join a dawn rose-picking.",
+      "area": "Kazanlak",
+      "duration": 6,
+      "price": [
+        0,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rose%20Valley%20(Kazanlak)%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Rose%20Valley%20(Kazanlak)%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rose%20Valley%20(Kazanlak)%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "History"
+      ],
+      "whyVisit": [
+        "Valley that produces much of the world's rose oil, with a Thracian tomb at Kazanlak.",
+        "Rose oil heartland."
+      ],
+      "visitFlow": [
+        "Rose museum.",
+        "Thracian tomb."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and history and context",
+      "tradeoffs": [
+        "Harvest is late May to early June.",
+        "Join a dawn rose-picking."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "plovdiv-plo-shopska",
+      "name": "Shopska salad and grill",
+      "kind": "eat",
+      "lat": 42.146,
+      "lon": 24.748,
+      "wiki": "Shopska salad",
+      "summary": "Tomatoes, cucumber and grated white cheese, then kebapche and kyufte from the grill.",
+      "expect": "Everywhere.",
+      "tip": "Pair with a rakia.",
+      "area": "Centre",
+      "duration": 1.5,
+      "price": [
+        10,
+        18
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Shopska%20salad%20and%20grill%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Shopska%20salad%20and%20grill%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Shopska%20salad%20and%20grill%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Tomatoes, cucumber and grated white cheese, then kebapche and kyufte from the grill.",
+        "Bulgarian table."
+      ],
+      "visitFlow": [
+        "Shopska first.",
+        "Grill plates."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Everywhere.",
+        "Pair with a rakia."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bulgarian",
+      "mustOrder": [
+        "Shopska salad",
+        "Kebapche"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "plovdiv-plo-banitsa",
+      "name": "Banitsa breakfast",
+      "kind": "eat",
+      "lat": 42.143,
+      "lon": 24.75,
+      "wiki": "Banitsa",
+      "summary": "Flaky filo pastry with egg and white cheese, eaten with boza or ayran.",
+      "expect": "Mornings at bakeries.",
+      "tip": "Buy fresh from a busy window.",
+      "area": "Centre",
+      "duration": 0.5,
+      "price": [
+        1,
+        3
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Breakfast",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Banitsa%20breakfast%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Banitsa%20breakfast%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Banitsa%20breakfast%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Flaky filo pastry with egg and white cheese, eaten with boza or ayran.",
+        "Bulgarian breakfast."
+      ],
+      "visitFlow": [
+        "Find a bakery.",
+        "Banitsa and ayran."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Mornings at bakeries.",
+        "Buy fresh from a busy window."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Bulgarian",
+      "mustOrder": [
+        "Banitsa",
+        "Ayran"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "plovdiv-plo-wine",
+      "name": "Mavrud wine in Kapana",
+      "kind": "eat",
+      "lat": 42.1465,
+      "lon": 24.7475,
+      "wiki": "Mavrud",
+      "summary": "Wine bars pouring Mavrud, the dark red grape of the Thracian valley.",
+      "expect": "Evenings.",
+      "tip": "Ask for a local tasting flight.",
+      "area": "Kapana",
+      "duration": 1.5,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mavrud%20wine%20in%20Kapana%2C%20Plovdiv",
+        "https://www.google.com/maps/search/?api=1&query=Mavrud%20wine%20in%20Kapana%2C%20Plovdiv"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mavrud%20wine%20in%20Kapana%2C%20Plovdiv"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Wine bars pouring Mavrud, the dark red grape of the Thracian valley.",
+        "Thracian wine."
+      ],
+      "visitFlow": [
+        "Find a wine bar.",
+        "Taste Mavrud."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evenings.",
+        "Ask for a local tasting flight."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Wine",
+      "mustOrder": [
+        "Mavrud",
+        "Rubin"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
