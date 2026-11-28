@@ -130,6 +130,8 @@ const parts = {
   world: await readJson('data/world.geojson'),
   stories: await readJson('data/stories.json'),
   social: await readJson('data/social.json'),
+  // The accounts project's public address and key, or {} while accounts are off.
+  backend: await readJson('data/backend.json'),
   retrieved: meta.retrieved,
   version: meta.version,
 };
@@ -205,6 +207,14 @@ if (single) {
 // The hosted page's security policy: scripts only from this site plus the page's own two short
 // inline scripts (by hash), so text that slips into the page can never run as code. Photos and
 // map tiles come from other https sites; styles stay inline-friendly for the map library.
+const backendOrigin = (() => {
+  try {
+    const o = parts.backend.url ? new URL(parts.backend.url).origin : '';
+    return /^https?:\/\/[a-z0-9.-]+(:\d+)?$/i.test(o) ? o : '';
+  } catch {
+    return '';
+  }
+})();
 if (!single) {
   const inline = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(
     (m) => `'sha256-${createHash('sha256').update(m[1]).digest('base64')}'`,
@@ -214,7 +224,8 @@ if (!single) {
     `script-src 'self' ${inline.join(' ')}`,
     "style-src 'self' 'unsafe-inline'",
     "img-src 'self' data: blob: https:",
-    "connect-src 'self' https:",
+    // The accounts project is named too, so a local one on plain http works in tests.
+    `connect-src 'self' https:${backendOrigin ? ' ' + backendOrigin : ''}`,
     "font-src 'self' data:",
     "worker-src 'self'",
     "manifest-src 'self'",

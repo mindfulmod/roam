@@ -11,6 +11,8 @@ export const FEATURE_FILES = [
   'src/share.js',
   'src/story.js',
   'src/social.js',
+  'src/backend.js',
+  'src/account.js',
   'src/log.js',
   'src/triplog.js',
   'src/tlphotos.js',
