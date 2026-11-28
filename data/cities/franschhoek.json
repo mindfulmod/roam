@@ -1,0 +1,476 @@
+{
+  "id": "franschhoek",
+  "name": "Franschhoek",
+  "country": "South Africa",
+  "region": "Africa",
+  "lat": -33.9133,
+  "lon": 19.1169,
+  "wiki": "Franschhoek",
+  "tagline": "Wine tram through the Cape's food valley",
+  "summary": "Franschhoek is a pretty valley town founded by French Huguenots, now the food and wine capital of the Cape Winelands. Hop between estates on the Wine Tram, eat at some of South Africa's best restaurants, see the Huguenot Monument and drive the mountain passes.",
+  "days": 2,
+  "bestMonths": [
+    2,
+    3,
+    4,
+    10,
+    11
+  ],
+  "seasonNote": "Harvest in February and March; winters are wet and cool but cosy.",
+  "arrival": "About 1 hour 15 minutes by car from Cape Town.",
+  "gettingAround": "The Wine Tram or a driver between estates; do not drink and drive.",
+  "cashTip": "Cards work almost everywhere. Tip 10 to 15 percent in restaurants and a few rand to car guards.",
+  "dailyBudget": [
+    1200,
+    3000
+  ],
+  "currency": "ZAR",
+  "cashPerDay": [
+    200,
+    500
+  ],
+  "foodTip": "Cape Malay flavours, trout and long tasting menus with Méthode Cap Classique sparkling wine.",
+  "buyTip": "Wine and olive oil.",
+  "baseArea": "Main road in the village",
+  "connections": [
+    {
+      "to": "cape-town",
+      "mode": "Car",
+      "minutes": 75,
+      "note": "N1 and R45."
+    },
+    {
+      "to": "stellenbosch",
+      "mode": "Car",
+      "minutes": 35,
+      "note": "Helshoogte Pass."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Franschhoek on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Franschhoek",
+      "type": "reference",
+      "checked": "2026-11-28"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Franschhoek%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-28"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Franschhoek%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Huguenot Monument",
+  "added": "2026-11-28",
+  "items": [
+    {
+      "id": "franschhoek-fra-tram",
+      "name": "Franschhoek Wine Tram",
+      "kind": "see",
+      "lat": -33.9133,
+      "lon": 19.1169,
+      "wiki": "Franschhoek Wine Tram",
+      "summary": "Hop-on hop-off tram and bus between wine estates.",
+      "expect": "Book ahead in summer.",
+      "tip": "Choose one line and four estates.",
+      "area": "Valley",
+      "duration": 6,
+      "price": [
+        300,
+        450
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Book ahead",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Franschhoek%20Wine%20Tram%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Franschhoek%20Wine%20Tram%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Franschhoek%20Wine%20Tram%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Hop-on hop-off tram and bus between wine estates.",
+        "Wine without driving."
+      ],
+      "visitFlow": [
+        "Board.",
+        "Tastings."
+      ],
+      "bestFor": "Visitors interested in regional food and landscapes and wildlife",
+      "tradeoffs": [
+        "Book ahead in summer.",
+        "Choose one line and four estates."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "franschhoek-fra-monument",
+      "name": "Huguenot Monument",
+      "kind": "see",
+      "lat": -33.918,
+      "lon": 19.124,
+      "wiki": "Huguenot Monument",
+      "summary": "Monument and museum to the French Protestant settlers.",
+      "expect": "Small fee.",
+      "tip": "Visit the museum opposite.",
+      "area": "Village",
+      "duration": 1,
+      "price": [
+        50,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Huguenot%20Monument%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Huguenot%20Monument%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Huguenot%20Monument%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Monument and museum to the French Protestant settlers.",
+        "Valley history."
+      ],
+      "visitFlow": [
+        "Monument.",
+        "Museum."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Small fee.",
+        "Visit the museum opposite."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "franschhoek-fra-pass",
+      "name": "Franschhoek Pass",
+      "kind": "see",
+      "lat": -33.935,
+      "lon": 19.17,
+      "wiki": "Franschhoek Pass",
+      "summary": "Mountain road with valley views from the top.",
+      "expect": "Winding road.",
+      "tip": "Stop at the lookout.",
+      "area": "Mountains",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Franschhoek%20Pass%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Franschhoek%20Pass%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Franschhoek%20Pass%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Mountain road with valley views from the top.",
+        "Valley view."
+      ],
+      "visitFlow": [
+        "Drive up.",
+        "Lookout."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Winding road.",
+        "Stop at the lookout."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "franschhoek-fra-boschendal",
+      "name": "Boschendal estate",
+      "kind": "see",
+      "lat": -33.872,
+      "lon": 18.977,
+      "wiki": "Boschendal",
+      "summary": "Historic Cape Dutch estate with picnics, farm shop and wine.",
+      "expect": "Busy weekends.",
+      "tip": "Book a picnic under the oaks.",
+      "area": "Groot Drakenstein",
+      "duration": 3,
+      "price": [
+        200,
+        600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Boschendal%20estate%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Boschendal%20estate%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Boschendal%20estate%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Food"
+      ],
+      "whyVisit": [
+        "Historic Cape Dutch estate with picnics, farm shop and wine.",
+        "Classic estate."
+      ],
+      "visitFlow": [
+        "Manor.",
+        "Picnic."
+      ],
+      "bestFor": "Visitors interested in history and context and regional food",
+      "tradeoffs": [
+        "Busy weekends.",
+        "Book a picnic under the oaks."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "franschhoek-fra-babylon",
+      "name": "Babylonstoren",
+      "kind": "see",
+      "lat": -33.823,
+      "lon": 18.928,
+      "wiki": "Babylonstoren",
+      "summary": "Farm with a huge formal fruit and vegetable garden and restaurant.",
+      "expect": "Book garden tours and meals.",
+      "tip": "Do the garden tour.",
+      "area": "Simondium",
+      "duration": 3,
+      "price": [
+        50,
+        600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Babylonstoren%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Babylonstoren%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Babylonstoren%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Food"
+      ],
+      "whyVisit": [
+        "Farm with a huge formal fruit and vegetable garden and restaurant.",
+        "Garden estate."
+      ],
+      "visitFlow": [
+        "Garden.",
+        "Lunch."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and regional food",
+      "tradeoffs": [
+        "Book garden tours and meals.",
+        "Do the garden tour."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "franschhoek-fra-fine",
+      "name": "Fine dining tasting menu",
+      "kind": "eat",
+      "lat": -33.913,
+      "lon": 19.118,
+      "wiki": "Franschhoek",
+      "summary": "Franschhoek's chef-led restaurants serving tasting menus with wine pairings.",
+      "expect": "Book weeks ahead.",
+      "tip": "La Petite Colombe and similar spots.",
+      "area": "Village",
+      "duration": 3,
+      "price": [
+        1500,
+        3500
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Book ahead",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Fine%20dining%20tasting%20menu%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Fine%20dining%20tasting%20menu%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Fine%20dining%20tasting%20menu%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Franschhoek's chef-led restaurants serving tasting menus with wine pairings.",
+        "Food capital."
+      ],
+      "visitFlow": [
+        "Book.",
+        "Tasting menu."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Book weeks ahead.",
+        "La Petite Colombe and similar spots."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "South African",
+      "mustOrder": [
+        "Tasting menu"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "franschhoek-fra-mcc",
+      "name": "Cap Classique tasting",
+      "kind": "eat",
+      "lat": -33.911,
+      "lon": 19.115,
+      "wiki": "Méthode Cap Classique",
+      "summary": "South African sparkling wine made the Champagne way.",
+      "expect": "Tastings at the estates.",
+      "tip": "Try a cellar with a cave tour.",
+      "area": "Village",
+      "duration": 1,
+      "price": [
+        100,
+        250
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cap%20Classique%20tasting%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Cap%20Classique%20tasting%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cap%20Classique%20tasting%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "South African sparkling wine made the Champagne way.",
+        "Bubbles."
+      ],
+      "visitFlow": [
+        "Cellar.",
+        "Tasting."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Tastings at the estates.",
+        "Try a cellar with a cave tour."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Wine",
+      "mustOrder": [
+        "Cap Classique"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "franschhoek-fra-trout",
+      "name": "Trout and farm lunch",
+      "kind": "eat",
+      "lat": -33.91,
+      "lon": 19.12,
+      "wiki": "Trout",
+      "summary": "Local farmed trout and farm-style lunches.",
+      "expect": "Many estates.",
+      "tip": "Smoked trout on toast.",
+      "area": "Valley",
+      "duration": 1.5,
+      "price": [
+        200,
+        400
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Trout%20and%20farm%20lunch%2C%20Franschhoek",
+        "https://www.google.com/maps/search/?api=1&query=Trout%20and%20farm%20lunch%2C%20Franschhoek"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Trout%20and%20farm%20lunch%2C%20Franschhoek"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Local farmed trout and farm-style lunches.",
+        "Valley produce."
+      ],
+      "visitFlow": [
+        "Estate restaurant.",
+        "Trout."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Many estates.",
+        "Smoked trout on toast."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "South African",
+      "mustOrder": [
+        "Smoked trout"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
