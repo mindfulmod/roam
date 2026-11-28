@@ -170,7 +170,7 @@
           "period": "202511-202610",
           "title": "Colosseum",
           "url": "https://en.wikipedia.org/wiki/Colosseum",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -231,7 +231,7 @@
           "period": "202511-202610",
           "title": "Vatican Museums",
           "url": "https://en.wikipedia.org/wiki/Vatican_Museums",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -292,7 +292,7 @@
           "period": "202511-202610",
           "title": "Pantheon, Rome",
           "url": "https://en.wikipedia.org/wiki/Pantheon%2C_Rome",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -348,7 +348,7 @@
           "period": "202511-202610",
           "title": "Trevi Fountain",
           "url": "https://en.wikipedia.org/wiki/Trevi_Fountain",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -407,7 +407,7 @@
           "period": "202511-202610",
           "title": "Galleria Borghese",
           "url": "https://en.wikipedia.org/wiki/Galleria_Borghese",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -568,7 +568,7 @@
           "period": "202511-202610",
           "title": "St. Peter's Basilica",
           "url": "https://en.wikipedia.org/wiki/St._Peter's_Basilica",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -628,7 +628,7 @@
           "period": "202511-202610",
           "title": "Castel Sant'Angelo",
           "url": "https://en.wikipedia.org/wiki/Castel_Sant'Angelo",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -683,7 +683,7 @@
           "period": "202511-202610",
           "title": "Capitoline Museums",
           "url": "https://en.wikipedia.org/wiki/Capitoline_Museums",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -699,7 +699,7 @@
       "id": "rome-piazza-navona",
       "name": "Piazza Navona",
       "kind": "see",
-      "lat": 41.8992,
+      "lat": 41.899,
       "lon": 12.4731,
       "wiki": "Piazza Navona",
       "summary": "Baroque oval square built on Domitian's stadium, with Bernini's Fountain of the Four Rivers.",
@@ -742,13 +742,22 @@
         "Busy with painters and street performers; café tables on the square charge a premium.",
         "Walk on to the Pantheon and Campo de' Fiori, all within ten minutes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 94650,
+          "period": "202511-202610",
+          "title": "Piazza Navona",
+          "url": "https://en.wikipedia.org/wiki/Piazza_Navona",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q463400"
     },
     {
       "id": "rome-spanish-steps",
       "name": "Spanish Steps",
       "kind": "see",
-      "lat": 41.906,
+      "lat": 41.9061,
       "lon": 12.4828,
       "wiki": "Spanish Steps",
       "summary": "The 135 travertine steps between Piazza di Spagna and Trinità dei Monti church.",
@@ -791,7 +800,20 @@
         "Sitting on the steps is banned and fined; expect crowds at midday.",
         "Climb to the church terrace for the view down Via Condotti, then walk the Pincio to Villa Borghese."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 200920,
+          "period": "202511-202610",
+          "title": "Spanish Steps",
+          "url": "https://en.wikipedia.org/wiki/Spanish_Steps",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q848072",
+      "local": {
+        "name": "Scalinata di Trinità dei Monti",
+        "lang": "it"
+      }
     },
     {
       "id": "rome-himalaya-s-kashmir",
@@ -1105,6 +1127,7 @@
       "publisher": "Euromonitor International, table republished by Vacations & Travel"
     }
   },
+  "enriched": "2026-11-28",
   "wikidata": "Q220",
   "local": {
     "name": "Roma",
