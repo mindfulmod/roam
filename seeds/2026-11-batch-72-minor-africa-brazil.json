@@ -1,0 +1,2382 @@
+[
+ {
+  "country": "Tunisia",
+  "region": "Africa",
+  "currency": "TND",
+  "cashTip": "Carry dinars (they cannot be taken out of the country); cards work in hotels. Tip about 10 percent.",
+  "id": "djerba",
+  "name": "Djerba",
+  "at": [
+   33.8076,
+   10.8451
+  ],
+  "wiki": "Djerba",
+  "cover": "El Ghriba synagogue",
+  "dailyBudget": [
+   100,
+   300
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "Island of white villages, street art and old faiths",
+  "summary": "Djerba is a flat island of olive groves, white-domed mosques and sandy beaches off southern Tunisia. Visit the ancient El Ghriba synagogue, see hundreds of murals in the village of Erriadh (Djerbahood), browse the souks of Houmt Souk, and travel to the cave houses of Matmata and the Star Wars sets on the mainland.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are ideal; summer is hot and busy.",
+  "arrival": "Djerba-Zarzis airport has flights from Tunis and Europe.",
+  "gettingAround": "Taxis, rental car or bikes; ferry or causeway to the mainland.",
+  "foodTip": "Couscous with fish, brik, Djerbian rice and grilled seafood.",
+  "buyTip": "Pottery from Guellala and woven rugs.",
+  "baseArea": "Houmt Souk or the east-coast beaches",
+  "hotel": [
+   40,
+   200
+  ],
+  "connections": [
+   {
+    "to": "tunis",
+    "mode": "Plane",
+    "minutes": 60,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "El Ghriba Synagogue",
+    "kind": "see",
+    "id": "dje-ghriba",
+    "at": [
+     33.814,
+     10.859
+    ],
+    "wiki": "El Ghriba synagogue",
+    "area": "Erriadh",
+    "summary": "One of the oldest synagogues in Africa, richly tiled, with a yearly pilgrimage.",
+    "expect": "Security checks; dress modestly.",
+    "tip": "Cover your head inside.",
+    "why": "Ancient faith.",
+    "flow": [
+     "Entrance.",
+     "Prayer hall."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Djerbahood street art",
+    "kind": "see",
+    "id": "dje-djerbahood",
+    "at": [
+     33.817,
+     10.857
+    ],
+    "wiki": "Djerbahood",
+    "area": "Erriadh",
+    "summary": "Village lanes covered in murals by artists from around the world.",
+    "expect": "Free.",
+    "tip": "Walk in the morning light.",
+    "why": "Open-air gallery.",
+    "flow": [
+     "Lanes.",
+     "Murals."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Houmt Souk",
+    "kind": "see",
+    "id": "dje-souk",
+    "at": [
+     33.876,
+     10.858
+    ],
+    "wiki": "Houmt Souk",
+    "area": "Houmt Souk",
+    "summary": "Island capital with souks, fondouks (old inns) and a Spanish fort.",
+    "expect": "Bargain in souks.",
+    "tip": "See the Borj el-Kebir fort.",
+    "why": "Island market town.",
+    "flow": [
+     "Souks.",
+     "Borj el-Kebir."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Guellala pottery village",
+    "kind": "see",
+    "id": "dje-guellala",
+    "at": [
+     33.729,
+     10.858
+    ],
+    "wiki": "Guellala",
+    "area": "Guellala",
+    "summary": "Pottery village and the Djerba Heritage Museum.",
+    "expect": "Small fee for museum.",
+    "tip": "Watch potters at work.",
+    "why": "Island craft.",
+    "flow": [
+     "Workshops.",
+     "Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Sidi Mahrez beach",
+    "kind": "see",
+    "id": "dje-beach",
+    "at": [
+     33.86,
+     10.97
+    ],
+    "wiki": "Djerba",
+    "area": "East coast",
+    "summary": "Long sandy beach on the island's east coast.",
+    "expect": "Hotel zone.",
+    "tip": "Visit Flamingo Island by boat.",
+    "why": "Beach time.",
+    "flow": [
+     "Swim.",
+     "Boat."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Matmata cave houses",
+    "kind": "see",
+    "id": "dje-matmata",
+    "at": [
+     33.544,
+     9.969
+    ],
+    "wiki": "Matmata, Tunisia",
+    "area": "Matmata",
+    "summary": "Underground Berber homes, one used as Luke's home in Star Wars.",
+    "expect": "2.5 hours away.",
+    "tip": "Visit Hotel Sidi Driss.",
+    "why": "Troglodyte village.",
+    "flow": [
+     "Cave houses.",
+     "Star Wars hotel."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture",
+     "Entertainment"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fish couscous",
+    "kind": "eat",
+    "id": "dje-couscous",
+    "at": [
+     33.876,
+     10.858
+    ],
+    "wiki": "Couscous",
+    "area": "Houmt Souk",
+    "summary": "Couscous with fish and a spicy broth, Djerba style.",
+    "expect": "Restaurants.",
+    "tip": "Ask for couscous au poisson.",
+    "why": "Island dish.",
+    "flow": [
+     "Restaurant.",
+     "Couscous."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     45
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tunisian",
+    "order": [
+     "Fish couscous"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Brik",
+    "kind": "eat",
+    "id": "dje-brik",
+    "at": [
+     33.8765,
+     10.8585
+    ],
+    "wiki": "Brik",
+    "area": "Houmt Souk",
+    "summary": "Crispy pastry with egg, tuna and capers.",
+    "expect": "Starter everywhere.",
+    "tip": "Bite carefully, the yolk is runny.",
+    "why": "Tunisian classic.",
+    "flow": [
+     "Order brik.",
+     "Eat hot."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tunisian",
+    "order": [
+     "Brik à l'oeuf"
+    ],
+    "veg": "some",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Djerbian rice",
+    "kind": "eat",
+    "id": "dje-rice",
+    "at": [
+     33.876,
+     10.8575
+    ],
+    "wiki": "Tunisian cuisine",
+    "area": "Houmt Souk",
+    "summary": "Steamed rice with herbs, meat and vegetables.",
+    "expect": "Local restaurants.",
+    "tip": "Ask for riz djerbien.",
+    "why": "Island speciality.",
+    "flow": [
+     "Restaurant.",
+     "Rice."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tunisian",
+    "order": [
+     "Riz djerbien"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Ghana",
+  "region": "Africa",
+  "currency": "USD",
+  "cashTip": "Ghanaian cedi is the local money; carry cedis for taxis and markets. Prices here are shown in US dollars.",
+  "id": "cape-coast",
+  "name": "Cape Coast",
+  "at": [
+   5.1053,
+   -1.2466
+  ],
+  "wiki": "Cape Coast",
+  "cover": "Cape Coast Castle",
+  "dailyBudget": [
+   40,
+   100
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "seasons": "HHHSLLLSSSHH",
+  "tagline": "Slave castles and rainforest canopy walks",
+  "summary": "Cape Coast is a fishing town on Ghana's coast, home to the slave-trade castles of Cape Coast and Elmina, now UNESCO sites and places of remembrance. Walk the dungeons and the Door of No Return, cross the canopy walkway of Kakum National Park and relax on the palm-lined beaches nearby.",
+  "days": 2,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "November to March is drier; rains from April to July.",
+  "arrival": "About 3 hours by road from Accra.",
+  "gettingAround": "Taxis and tro-tros.",
+  "foodTip": "Fried fish with banku or kenkey, red-red (beans and plantain) and jollof rice.",
+  "buyTip": "Kente cloth and beads.",
+  "baseArea": "Town centre or beach lodges",
+  "hotel": [
+   30,
+   120
+  ],
+  "connections": [
+   {
+    "to": "accra",
+    "mode": "Bus",
+    "minutes": 180,
+    "note": "Buses and cars."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cape Coast Castle",
+    "kind": "see",
+    "id": "cc-castle",
+    "at": [
+     5.1031,
+     -1.2414
+    ],
+    "wiki": "Cape Coast Castle",
+    "area": "Cape Coast",
+    "summary": "Castle where enslaved Africans were held before being shipped across the Atlantic.",
+    "expect": "Guided tours; deeply moving.",
+    "tip": "Take the guided dungeon tour.",
+    "why": "Remembrance.",
+    "flow": [
+     "Dungeons.",
+     "Door of No Return."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Elmina Castle",
+    "kind": "see",
+    "id": "cc-elmina",
+    "at": [
+     5.082,
+     -1.348
+    ],
+    "wiki": "Elmina Castle",
+    "area": "Elmina",
+    "summary": "The oldest European building in sub-Saharan Africa, built by the Portuguese in 1482.",
+    "expect": "Guided tours.",
+    "tip": "See the fishing harbour outside.",
+    "why": "Oldest castle.",
+    "flow": [
+     "Tour.",
+     "Harbour."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Kakum National Park canopy walkway",
+    "kind": "see",
+    "id": "cc-kakum",
+    "at": [
+     5.35,
+     -1.38
+    ],
+    "wiki": "Kakum National Park",
+    "area": "Kakum",
+    "summary": "Rope walkway 40 m up through the rainforest canopy.",
+    "expect": "Paid; 30 minutes away.",
+    "tip": "Go early for birds.",
+    "why": "Treetop walk.",
+    "flow": [
+     "Canopy walk.",
+     "Forest."
+    ],
+    "hours": 3,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Elmina fishing harbour",
+    "kind": "see",
+    "id": "cc-harbour",
+    "at": [
+     5.083,
+     -1.346
+    ],
+    "wiki": "Elmina",
+    "area": "Elmina",
+    "summary": "Busy harbour of painted canoes and fish markets.",
+    "expect": "Ask before photos.",
+    "tip": "Visit in the morning.",
+    "why": "Coastal life.",
+    "flow": [
+     "Harbour.",
+     "Market."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Fort William lighthouse",
+    "kind": "see",
+    "id": "cc-fortwilliam",
+    "at": [
+     5.106,
+     -1.244
+    ],
+    "wiki": "Fort William (Cape Coast)",
+    "area": "Cape Coast",
+    "summary": "Hilltop fort-lighthouse with town views.",
+    "expect": "Ask the keeper.",
+    "tip": "Go for sunset.",
+    "why": "Town view.",
+    "flow": [
+     "Climb.",
+     "View."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Sunset",
+    "p": 3,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Brenu or Kokrobite beaches",
+    "kind": "see",
+    "id": "cc-beach",
+    "at": [
+     5.07,
+     -1.4
+    ],
+    "wiki": "Cape Coast",
+    "area": "Brenu",
+    "summary": "Palm-lined beaches west of Elmina.",
+    "expect": "Strong currents.",
+    "tip": "Swim only where locals do.",
+    "why": "Beach break.",
+    "flow": [
+     "Beach.",
+     "Relax."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Fried fish and banku",
+    "kind": "eat",
+    "id": "cc-banku",
+    "at": [
+     5.105,
+     -1.246
+    ],
+    "wiki": "Banku",
+    "area": "Town",
+    "summary": "Fermented corn dough with fried fish and pepper sauce.",
+    "expect": "Chop bars.",
+    "tip": "Eat with your right hand.",
+    "why": "Coastal staple.",
+    "flow": [
+     "Chop bar.",
+     "Banku."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ghanaian",
+    "order": [
+     "Banku and tilapia"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Red-red",
+    "kind": "eat",
+    "id": "cc-redred",
+    "at": [
+     5.1055,
+     -1.2465
+    ],
+    "wiki": "Red red",
+    "area": "Town",
+    "summary": "Bean stew in red palm oil with fried plantain.",
+    "expect": "Everywhere.",
+    "tip": "Great vegetarian option.",
+    "why": "Ghanaian comfort.",
+    "flow": [
+     "Chop bar.",
+     "Red-red."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ghanaian",
+    "order": [
+     "Red-red"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Jollof rice",
+    "kind": "eat",
+    "id": "cc-jollof",
+    "at": [
+     5.1045,
+     -1.2455
+    ],
+    "wiki": "Jollof rice",
+    "area": "Town",
+    "summary": "Tomato-spiced rice, Ghana's pride.",
+    "expect": "Everywhere.",
+    "tip": "Add grilled chicken.",
+    "why": "West African icon.",
+    "flow": [
+     "Restaurant.",
+     "Jollof."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     7
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ghanaian",
+    "order": [
+     "Jollof rice"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Uganda",
+  "region": "Africa",
+  "currency": "USD",
+  "cashTip": "Ugandan shillings for small purchases; park fees and permits are in US dollars. Tip guides and porters.",
+  "id": "bwindi",
+  "name": "Bwindi",
+  "at": [
+   -1.05,
+   29.6167
+  ],
+  "wiki": "Bwindi Impenetrable National Park",
+  "cover": "Bwindi Impenetrable National Park",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   30,
+   100
+  ],
+  "seasons": "HHSLLHHHHSLH",
+  "tagline": "Mountain gorillas in the Impenetrable Forest",
+  "summary": "Bwindi Impenetrable Forest in southwest Uganda is home to nearly half the world's mountain gorillas. Trek with rangers through steep rainforest for an unforgettable hour with a habituated gorilla family, visit Batwa communities, and relax at Lake Bunyonyi's terraced islands.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "June to August and December to February are drier; trekking runs all year.",
+  "arrival": "Fly from Entebbe to Kihihi or Kisoro, or drive 8 to 10 hours from Kampala.",
+  "gettingAround": "4x4 with a driver; lodges arrange transfers.",
+  "foodTip": "Lodge meals, rolex (chapati egg roll) and Ugandan coffee.",
+  "buyTip": "Batwa crafts and baskets.",
+  "baseArea": "Buhoma, Ruhija, Rushaga or Nkuringo sectors",
+  "hotel": [
+   100,
+   1000
+  ],
+  "connections": [
+   {
+    "to": "kampala",
+    "mode": "Plane",
+    "minutes": 90,
+    "note": "Domestic flights from Entebbe; or a long drive."
+   },
+   {
+    "to": "kigali",
+    "mode": "Car",
+    "minutes": 270,
+    "note": "Via the Katuna border."
+   }
+  ],
+  "items": [
+   {
+    "name": "Gorilla trekking",
+    "kind": "see",
+    "id": "bwi-gorilla",
+    "at": [
+     -1.05,
+     29.6167
+    ],
+    "wiki": "Mountain gorilla",
+    "area": "Bwindi",
+    "summary": "Trek with rangers to spend one hour with a habituated gorilla family.",
+    "expect": "Permit required (book months ahead); steep and muddy.",
+    "tip": "Hire a porter; it helps locals and you.",
+    "why": "Life-changing wildlife.",
+    "flow": [
+     "Briefing.",
+     "Trek and one hour with gorillas."
+    ],
+    "hours": 8,
+    "price": [
+     800,
+     800
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "book": "Permits from the Uganda Wildlife Authority"
+   },
+   {
+    "name": "Batwa experience",
+    "kind": "see",
+    "id": "bwi-batwa",
+    "at": [
+     -1.04,
+     29.62
+    ],
+    "wiki": "Batwa",
+    "area": "Buhoma",
+    "summary": "Visit with the Batwa people, the forest's original inhabitants.",
+    "expect": "Community-run.",
+    "tip": "Choose a community-led tour.",
+    "why": "Living culture.",
+    "flow": [
+     "Forest walk.",
+     "Community."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Buhoma village walk",
+    "kind": "see",
+    "id": "bwi-village",
+    "at": [
+     -1.045,
+     29.615
+    ],
+    "wiki": "Bwindi Impenetrable National Park",
+    "area": "Buhoma",
+    "summary": "Walk with locals through tea farms and a healer's house.",
+    "expect": "Community tour.",
+    "tip": "Proceeds support the village.",
+    "why": "Local life.",
+    "flow": [
+     "Village.",
+     "Tea farm."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Lake Bunyonyi",
+    "kind": "see",
+    "id": "bwi-bunyonyi",
+    "at": [
+     -1.29,
+     29.93
+    ],
+    "wiki": "Lake Bunyonyi",
+    "area": "Kabale",
+    "summary": "Lake of terraced hills and 29 islands, safe for swimming.",
+    "expect": "2 to 3 hours away.",
+    "tip": "Paddle a dugout canoe between islands.",
+    "why": "Peaceful lake.",
+    "flow": [
+     "Canoe.",
+     "Islands."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Forest waterfall trail",
+    "kind": "see",
+    "id": "bwi-waterfall",
+    "at": [
+     -1.048,
+     29.61
+    ],
+    "wiki": "Bwindi Impenetrable National Park",
+    "area": "Buhoma",
+    "summary": "Guided rainforest walk to waterfalls with birds and monkeys.",
+    "expect": "Park fee.",
+    "tip": "Good on your non-gorilla day.",
+    "why": "Rainforest.",
+    "flow": [
+     "Guided walk.",
+     "Waterfalls."
+    ],
+    "hours": 4,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lodge dinner",
+    "kind": "eat",
+    "id": "bwi-lodge",
+    "at": [
+     -1.05,
+     29.6167
+    ],
+    "wiki": "Uganda",
+    "area": "Lodges",
+    "summary": "Lodges serve set dinners with local produce.",
+    "expect": "Included at many lodges.",
+    "tip": "Ask for matoke.",
+    "why": "Comfort after trekking.",
+    "flow": [
+     "Lodge.",
+     "Dinner."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     40
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ugandan",
+    "order": [
+     "Matoke",
+     "Groundnut stew"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Rolex",
+    "kind": "eat",
+    "id": "bwi-rolex",
+    "at": [
+     -1.045,
+     29.62
+    ],
+    "wiki": "Rolex (food)",
+    "area": "Buhoma",
+    "summary": "Chapati rolled around an omelette, Uganda's street food.",
+    "expect": "Roadside stalls.",
+    "tip": "Add cabbage and tomato.",
+    "why": "Street favourite.",
+    "flow": [
+     "Stall.",
+     "Rolex."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     2
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ugandan",
+    "order": [
+     "Rolex"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Ugandan coffee",
+    "kind": "eat",
+    "id": "bwi-coffee",
+    "at": [
+     -1.046,
+     29.618
+    ],
+    "wiki": "Coffee production in Uganda",
+    "area": "Buhoma",
+    "summary": "Fresh arabica from the hills.",
+    "expect": "Lodges and cafés.",
+    "tip": "Take a coffee tour.",
+    "why": "Local brew.",
+    "flow": [
+     "Café.",
+     "Coffee."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Coffee",
+    "order": [
+     "Arabica"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix work almost everywhere; carry some reais for beach vendors. A 10 percent service charge is usually added.",
+  "id": "paraty",
+  "name": "Paraty",
+  "at": [
+   -23.2178,
+   -44.7131
+  ],
+  "wiki": "Paraty",
+  "cover": "Paraty",
+  "dailyBudget": [
+   200,
+   500
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "seasons": "PPHSSSHSSSSH",
+  "tagline": "Colonial cobbles, schooners and rainforest coast",
+  "summary": "Paraty is a perfectly preserved Portuguese colonial town of whitewashed houses and huge cobblestones, between the Atlantic rainforest and a bay of islands. Take a schooner to island beaches, swim under waterfalls, visit cachaça distilleries, and hike to the wild beaches of Trindade.",
+  "days": 3,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Avoid the hottest, wettest months (December to February) if you can; high tides can flood the old streets.",
+  "arrival": "About 4 hours by bus from Rio and 5 from São Paulo.",
+  "gettingAround": "Walk the car-free historic centre; boats and buses for beaches.",
+  "foodTip": "Seafood moquecas, cachaça and the banana-based dishes of the coast.",
+  "buyTip": "Cachaça and handicrafts.",
+  "baseArea": "Historic centre",
+  "hotel": [
+   50,
+   250
+  ],
+  "connections": [
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Several buses a day."
+   },
+   {
+    "to": "sao-paulo",
+    "mode": "Bus",
+    "minutes": 330,
+    "note": "Several buses a day."
+   }
+  ],
+  "items": [
+   {
+    "name": "Historic centre",
+    "kind": "see",
+    "id": "par-centre",
+    "at": [
+     -23.2178,
+     -44.7131
+    ],
+    "wiki": "Paraty",
+    "area": "Centro Histórico",
+    "summary": "Car-free colonial streets of white houses with coloured doors.",
+    "expect": "Big uneven cobbles; wear flat shoes.",
+    "tip": "Walk at night when lanterns glow.",
+    "why": "UNESCO colonial town.",
+    "flow": [
+     "Igreja Santa Rita.",
+     "Lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Schooner island tour",
+    "kind": "see",
+    "id": "par-schooner",
+    "at": [
+     -23.215,
+     -44.71
+    ],
+    "wiki": "Paraty",
+    "area": "Bay",
+    "summary": "Wooden schooners to island beaches for swimming and snorkelling.",
+    "expect": "Full day; crowded boats in high season.",
+    "tip": "Choose a smaller boat.",
+    "why": "Bay of islands.",
+    "flow": [
+     "Board.",
+     "Island swims."
+    ],
+    "hours": 5,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Trindade beaches",
+    "kind": "see",
+    "id": "par-trindade",
+    "at": [
+     -23.354,
+     -44.727
+    ],
+    "wiki": "Trindade, Paraty",
+    "area": "Trindade",
+    "summary": "Wild beaches with a natural rock pool (Piscina Natural do Cachadaço).",
+    "expect": "40 minutes by bus.",
+    "tip": "Hike to the natural pool.",
+    "why": "Wild coast.",
+    "flow": [
+     "Beaches.",
+     "Natural pool."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Cachoeira do Tobogã",
+    "kind": "see",
+    "id": "par-toboga",
+    "at": [
+     -23.184,
+     -44.774
+    ],
+    "wiki": "Paraty",
+    "area": "Penha",
+    "summary": "Smooth rock waterslide in a jungle river.",
+    "expect": "Slippery; locals show how.",
+    "tip": "Combine with a cachaça distillery.",
+    "why": "Natural slide.",
+    "flow": [
+     "Swim.",
+     "Slide."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Cachaça distilleries",
+    "kind": "see",
+    "id": "par-cachaca",
+    "at": [
+     -23.185,
+     -44.765
+    ],
+    "wiki": "Cachaça",
+    "area": "Estrada Paraty-Cunha",
+    "summary": "Historic stills making Paraty's famous cachaça.",
+    "expect": "Tastings.",
+    "tip": "Do not drive after.",
+    "why": "Local spirit.",
+    "flow": [
+     "Distillery.",
+     "Tasting."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food",
+     "History"
+    ]
+   },
+   {
+    "name": "Forte Defensor Perpétuo",
+    "kind": "see",
+    "id": "par-forte",
+    "at": [
+     -23.212,
+     -44.708
+    ],
+    "wiki": "Paraty",
+    "area": "Morro da Vila Velha",
+    "summary": "Small fort on a hill with views over the bay.",
+    "expect": "Short walk.",
+    "tip": "Sunset view.",
+    "why": "Bay view.",
+    "flow": [
+     "Walk up.",
+     "Fort."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 3,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Moqueca",
+    "kind": "eat",
+    "id": "par-moqueca",
+    "at": [
+     -23.217,
+     -44.713
+    ],
+    "wiki": "Moqueca",
+    "area": "Centro Histórico",
+    "summary": "Seafood stew in coconut milk and dendê oil.",
+    "expect": "For two.",
+    "tip": "Share with rice and farofa.",
+    "why": "Coastal classic.",
+    "flow": [
+     "Restaurant.",
+     "Moqueca."
+    ],
+    "hours": 1.5,
+    "price": [
+     100,
+     180
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Moqueca"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Caipirinha with local cachaça",
+    "kind": "eat",
+    "id": "par-caipi",
+    "at": [
+     -23.2175,
+     -44.7135
+    ],
+    "wiki": "Caipirinha",
+    "area": "Centro Histórico",
+    "summary": "Brazil's cocktail made with Paraty cachaça.",
+    "expect": "Bars everywhere.",
+    "tip": "Try a cachaça tasting first.",
+    "why": "Local spirit.",
+    "flow": [
+     "Bar.",
+     "Caipirinha."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Caipirinha"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Beach kiosks",
+    "kind": "eat",
+    "id": "par-kiosk",
+    "at": [
+     -23.21,
+     -44.705
+    ],
+    "wiki": "Paraty",
+    "area": "Beaches",
+    "summary": "Fried fish and shrimp at beach kiosks.",
+    "expect": "Cash helps.",
+    "tip": "Order camarão frito.",
+    "why": "Beach lunch.",
+    "flow": [
+     "Kiosk.",
+     "Shrimp."
+    ],
+    "hours": 1,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Camarão frito"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix work almost everywhere; carry some reais for beach vendors. A 10 percent service charge is usually added.",
+  "id": "ouro-preto",
+  "name": "Ouro Preto",
+  "at": [
+   -20.3856,
+   -43.5035
+  ],
+  "wiki": "Ouro Preto",
+  "cover": "Church of Saint Francis of Assisi (Ouro Preto)",
+  "dailyBudget": [
+   200,
+   450
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "seasons": "SSSHHHHHSSSS",
+  "tagline": "Baroque gold-rush town in the hills of Minas",
+  "summary": "Ouro Preto was the capital of Brazil's 18th-century gold rush, and its steep cobbled streets are crowded with Baroque churches gilded with that gold. See the work of the sculptor Aleijadinho, go down an old gold mine, and pair the trip with the astonishing open-air art park of Inhotim.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Dry season (April to September) is best; Carnival here is wild.",
+  "arrival": "About 2 hours by bus from Belo Horizonte.",
+  "gettingAround": "Walk (very steep); taxis to mines and Mariana.",
+  "foodTip": "Comida mineira: pão de queijo, feijão tropeiro, frango com quiabo and doce de leite.",
+  "buyTip": "Soapstone carvings and gemstones.",
+  "baseArea": "Historic centre near Praça Tiradentes",
+  "hotel": [
+   50,
+   180
+  ],
+  "connections": [
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Bus",
+    "minutes": 420,
+    "note": "Via Belo Horizonte."
+   },
+   {
+    "to": "sao-paulo",
+    "mode": "Plane",
+    "minutes": 70,
+    "note": "Fly to Belo Horizonte, then 2 hours by road."
+   }
+  ],
+  "items": [
+   {
+    "name": "Church of São Francisco de Assis",
+    "kind": "see",
+    "id": "ouro-saofrancisco",
+    "at": [
+     -20.387,
+     -43.501
+    ],
+    "wiki": "Church of Saint Francis of Assisi (Ouro Preto)",
+    "area": "Centre",
+    "summary": "Aleijadinho's Baroque masterpiece with a painted ceiling by Ataíde.",
+    "expect": "Paid; no photos inside.",
+    "tip": "Look at the soapstone carvings outside.",
+    "why": "Brazilian Baroque peak.",
+    "flow": [
+     "Facade.",
+     "Ceiling."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Igreja Matriz do Pilar",
+    "kind": "see",
+    "id": "ouro-pilar",
+    "at": [
+     -20.388,
+     -43.509
+    ],
+    "wiki": "Church of Our Lady of the Pillar (Ouro Preto)",
+    "area": "Pilar",
+    "summary": "Church covered in hundreds of kilos of gold leaf.",
+    "expect": "Paid.",
+    "tip": "See the sacred art museum below.",
+    "why": "Gold everywhere.",
+    "flow": [
+     "Nave.",
+     "Museum."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Art"
+    ]
+   },
+   {
+    "name": "Praça Tiradentes and Museu da Inconfidência",
+    "kind": "see",
+    "id": "ouro-tiradentes",
+    "at": [
+     -20.3856,
+     -43.5035
+    ],
+    "wiki": "Inconfidência Museum",
+    "area": "Centre",
+    "summary": "Main square and museum of the 1789 independence plot.",
+    "expect": "Museum paid; closed Mondays.",
+    "tip": "Climb the square at sunset.",
+    "why": "Heart of town.",
+    "flow": [
+     "Square.",
+     "Museum."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mina da Passagem",
+    "kind": "see",
+    "id": "ouro-mina",
+    "at": [
+     -20.382,
+     -43.45
+    ],
+    "wiki": "Mina da Passagem",
+    "area": "Mariana road",
+    "summary": "Old gold mine with a cable car down to a flooded underground lake.",
+    "expect": "Paid.",
+    "tip": "Swim in the cave lake if you dare.",
+    "why": "Gold-rush underground.",
+    "flow": [
+     "Cable car down.",
+     "Lake."
+    ],
+    "hours": 2,
+    "price": [
+     100,
+     120
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Mariana",
+    "kind": "see",
+    "id": "ouro-mariana",
+    "at": [
+     -20.377,
+     -43.416
+    ],
+    "wiki": "Mariana, Minas Gerais",
+    "area": "Mariana",
+    "summary": "Smaller colonial town with twin churches and a pipe organ.",
+    "expect": "15 km away.",
+    "tip": "Hear the organ concert on Fridays and Sundays.",
+    "why": "Quieter twin.",
+    "flow": [
+     "Churches.",
+     "Organ."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Inhotim",
+    "kind": "see",
+    "id": "ouro-inhotim",
+    "at": [
+     -20.124,
+     -44.224
+    ],
+    "wiki": "Inhotim",
+    "area": "Brumadinho",
+    "summary": "Vast art park of contemporary pavilions in botanical gardens.",
+    "expect": "2 to 3 hours away; big.",
+    "tip": "Allow a whole day; stay nearby.",
+    "why": "World-class art park.",
+    "flow": [
+     "Pavilions.",
+     "Gardens."
+    ],
+    "hours": 8,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Art",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Comida mineira",
+    "kind": "eat",
+    "id": "ouro-mineira",
+    "at": [
+     -20.386,
+     -43.504
+    ],
+    "wiki": "Minas Gerais cuisine",
+    "area": "Centre",
+    "summary": "Hearty dishes from wood stoves: feijão tropeiro, frango com quiabo.",
+    "expect": "Buffets by weight are common.",
+    "tip": "Try a por-quilo restaurant.",
+    "why": "Minas comfort food.",
+    "flow": [
+     "Restaurant.",
+     "Tropeiro."
+    ],
+    "hours": 1.5,
+    "price": [
+     40,
+     80
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Feijão tropeiro",
+     "Frango com quiabo"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Pão de queijo",
+    "kind": "eat",
+    "id": "ouro-paodequeijo",
+    "at": [
+     -20.3855,
+     -43.503
+    ],
+    "wiki": "Pão de queijo",
+    "area": "Centre",
+    "summary": "Warm cheese bread rolls with coffee.",
+    "expect": "Bakeries.",
+    "tip": "Eat them hot.",
+    "why": "Minas snack.",
+    "flow": [
+     "Bakery.",
+     "Pão de queijo."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Pão de queijo"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Doce de leite",
+    "kind": "eat",
+    "id": "ouro-doce",
+    "at": [
+     -20.385,
+     -43.505
+    ],
+    "wiki": "Dulce de leche",
+    "area": "Centre",
+    "summary": "Minas-style milk caramel and cheese (Romeu e Julieta).",
+    "expect": "Sweet shops.",
+    "tip": "Pair with Minas cheese.",
+    "why": "Sweet souvenir.",
+    "flow": [
+     "Shop.",
+     "Taste."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Doce de leite"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix work almost everywhere; carry some reais for beach vendors. A 10 percent service charge is usually added.",
+  "id": "jericoacoara",
+  "name": "Jericoacoara",
+  "at": [
+   -2.793,
+   -40.513
+  ],
+  "wiki": "Jericoacoara",
+  "cover": "Jericoacoara National Park",
+  "dailyBudget": [
+   250,
+   600
+  ],
+  "cashPerDay": [
+   80,
+   200
+  ],
+  "seasons": "HSLLLSHHHHHH",
+  "tagline": "Sand-street village of dunes, lagoons and kites",
+  "summary": "Jericoacoara is a sandy-street village in a national park on Brazil's northeast coast, reached only by 4x4. Watch sunset from the giant Sunset Dune, see the Pedra Furada rock arch, swing in hammocks over the water at Lagoa do Paraíso, and kitesurf in some of the world's most reliable winds.",
+  "days": 4,
+  "bestMonths": [
+   7,
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "seasonNote": "July to December is windy and dry; rainy season is roughly February to May.",
+  "arrival": "Fly to Jericoacoara (Cruz) airport or Fortaleza, then transfer; the last stretch is by 4x4 on the dunes.",
+  "gettingAround": "Walk the village; buggies and 4x4s to lagoons.",
+  "foodTip": "Tapioca crêpes, fresh fish, and caipirinhas on the beach.",
+  "buyTip": "Beachwear and crafts.",
+  "baseArea": "The village",
+  "hotel": [
+   60,
+   300
+  ],
+  "connections": [
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Plane",
+    "minutes": 210,
+    "note": "Flights to Jericoacoara or Fortaleza."
+   }
+  ],
+  "items": [
+   {
+    "name": "Sunset Dune",
+    "kind": "see",
+    "id": "jer-dune",
+    "at": [
+     -2.796,
+     -40.517
+    ],
+    "wiki": "Jericoacoara",
+    "area": "Village",
+    "summary": "Giant dune where everyone gathers to watch the sun drop into the sea.",
+    "expect": "Crowded.",
+    "tip": "Climb early for a good spot.",
+    "why": "Daily ritual.",
+    "flow": [
+     "Climb.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Pedra Furada",
+    "kind": "see",
+    "id": "jer-pedra",
+    "at": [
+     -2.792,
+     -40.495
+    ],
+    "wiki": "Pedra Furada (Jericoacoara)",
+    "area": "Coast",
+    "summary": "Rock arch on the beach, best reached at low tide.",
+    "expect": "Check tide times.",
+    "tip": "In June to August the sun sets through the arch.",
+    "why": "Famous arch.",
+    "flow": [
+     "Beach walk.",
+     "Arch."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lagoa do Paraíso",
+    "kind": "see",
+    "id": "jer-paraiso",
+    "at": [
+     -2.85,
+     -40.45
+    ],
+    "wiki": "Jericoacoara",
+    "area": "Jijoca",
+    "summary": "Turquoise lagoon with hammocks in the water.",
+    "expect": "Buggy or 4x4.",
+    "tip": "Go in the rainy season end for full water.",
+    "why": "Hammock heaven.",
+    "flow": [
+     "Buggy.",
+     "Hammock swim."
+    ],
+    "hours": 4,
+    "price": [
+     50,
+     150
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kitesurfing",
+    "kind": "see",
+    "id": "jer-kite",
+    "at": [
+     -2.79,
+     -40.52
+    ],
+    "wiki": "Kitesurfing",
+    "area": "Preá",
+    "summary": "Steady trade winds make this a kitesurf hotspot.",
+    "expect": "Lessons in Preá.",
+    "tip": "Book a beginner lesson.",
+    "why": "World-class wind.",
+    "flow": [
+     "Lesson.",
+     "Ride."
+    ],
+    "hours": 3,
+    "price": [
+     300,
+     600
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Lagoa Azul",
+    "kind": "see",
+    "id": "jer-azul",
+    "at": [
+     -2.84,
+     -40.43
+    ],
+    "wiki": "Jericoacoara",
+    "area": "Jijoca",
+    "summary": "Blue lagoon with swimming and hammocks.",
+    "expect": "Buggy tours.",
+    "tip": "Combine with Paraíso.",
+    "why": "Twin lagoon.",
+    "flow": [
+     "Buggy.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Árvore da Preguiça",
+    "kind": "see",
+    "id": "jer-tree",
+    "at": [
+     -2.8,
+     -40.46
+    ],
+    "wiki": "Jericoacoara National Park",
+    "area": "Park",
+    "summary": "The \"lazy tree\" bent flat by the wind.",
+    "expect": "On buggy tours.",
+    "tip": "Quick photo stop.",
+    "why": "Wind sculpted.",
+    "flow": [
+     "Stop.",
+     "Photo."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tapioca",
+    "kind": "eat",
+    "id": "jer-tapioca",
+    "at": [
+     -2.793,
+     -40.513
+    ],
+    "wiki": "Tapioca",
+    "area": "Village",
+    "summary": "Cassava crêpes filled with cheese, coconut or meat.",
+    "expect": "Street stalls.",
+    "tip": "Try coconut and condensed milk.",
+    "why": "Northeast snack.",
+    "flow": [
+     "Stall.",
+     "Tapioca."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Tapioca"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Beach caipirinha carts",
+    "kind": "eat",
+    "id": "jer-caipi",
+    "at": [
+     -2.795,
+     -40.515
+    ],
+    "wiki": "Caipirinha",
+    "area": "Beach",
+    "summary": "Cocktail carts line the beach at sunset.",
+    "expect": "Evenings.",
+    "tip": "Try a fruit caipirinha.",
+    "why": "Sunset drinks.",
+    "flow": [
+     "Cart.",
+     "Caipirinha."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Caipirinha"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Fresh fish",
+    "kind": "eat",
+    "id": "jer-fish",
+    "at": [
+     -2.7935,
+     -40.5135
+    ],
+    "wiki": "Jericoacoara",
+    "area": "Village",
+    "summary": "Grilled fish with rice and pirão in village restaurants.",
+    "expect": "Evenings.",
+    "tip": "Ask for the catch of the day.",
+    "why": "Seaside dinner.",
+    "flow": [
+     "Restaurant.",
+     "Fish."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Grilled fish"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix work almost everywhere; carry some reais for beach vendors. A 10 percent service charge is usually added.",
+  "id": "fernando-de-noronha",
+  "name": "Fernando de Noronha",
+  "at": [
+   -3.854,
+   -32.424
+  ],
+  "wiki": "Fernando de Noronha",
+  "cover": "Baía do Sancho",
+  "dailyBudget": [
+   600,
+   1500
+  ],
+  "cashPerDay": [
+   100,
+   300
+  ],
+  "seasons": "SSSSSSSHHHHH",
+  "tagline": "Brazil's protected island of dolphins and perfect beaches",
+  "summary": "Fernando de Noronha is a volcanic archipelago 350 km off Brazil, with visitor numbers limited to protect it. Swim at Baía do Sancho, often voted the world's best beach, watch spinner dolphins in their bay at dawn, snorkel with turtles and sharks, and hike the coastal trails.",
+  "days": 4,
+  "bestMonths": [
+   8,
+   9,
+   10,
+   11,
+   12
+  ],
+  "seasonNote": "August to January is dry with clear water; surf season is December to March.",
+  "arrival": "Flights from Recife or Natal; a daily environmental tax plus a park fee apply.",
+  "gettingAround": "Buggy rental or the island bus; some trails need booking.",
+  "foodTip": "Fresh fish, seafood and Pernambuco dishes.",
+  "buyTip": "Conservation-project souvenirs.",
+  "baseArea": "Vila dos Remédios",
+  "hotel": [
+   150,
+   700
+  ],
+  "connections": [
+   {
+    "to": "rio-de-janeiro",
+    "mode": "Plane",
+    "minutes": 300,
+    "note": "Via Recife."
+   }
+  ],
+  "items": [
+   {
+    "name": "Baía do Sancho",
+    "kind": "see",
+    "id": "fdn-sancho",
+    "at": [
+     -3.854,
+     -32.443
+    ],
+    "wiki": "Baía do Sancho",
+    "area": "National Marine Park",
+    "summary": "Cove reached down a ladder through the cliff, with turquoise water and turtles.",
+    "expect": "Park pass needed.",
+    "tip": "Arrive early; snorkel to the left.",
+    "why": "World-famous beach.",
+    "flow": [
+     "Ladder down.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Dolphin Bay viewpoint",
+    "kind": "see",
+    "id": "fdn-dolphins",
+    "at": [
+     -3.858,
+     -32.444
+    ],
+    "wiki": "Baía dos Golfinhos",
+    "area": "National Marine Park",
+    "summary": "Clifftop lookout over a bay where spinner dolphins rest.",
+    "expect": "No swimming in the bay.",
+    "tip": "Go at dawn.",
+    "why": "Spinner dolphins.",
+    "flow": [
+     "Lookout.",
+     "Watch."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Baía dos Porcos",
+    "kind": "see",
+    "id": "fdn-porcos",
+    "at": [
+     -3.85,
+     -32.44
+    ],
+    "wiki": "Baía dos Porcos",
+    "area": "National Marine Park",
+    "summary": "Rock pools and the Dois Irmãos rocks.",
+    "expect": "Low tide best.",
+    "tip": "Snorkel the pools.",
+    "why": "Iconic view.",
+    "flow": [
+     "Pools.",
+     "Dois Irmãos."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Atalaia natural pool",
+    "kind": "see",
+    "id": "fdn-atalaia",
+    "at": [
+     -3.878,
+     -32.41
+    ],
+    "wiki": "Fernando de Noronha",
+    "area": "Atalaia",
+    "summary": "Natural pool full of fish, with limited timed slots.",
+    "expect": "Book ahead; no sunscreen.",
+    "tip": "Book at the ICMBio office.",
+    "why": "Aquarium pool.",
+    "flow": [
+     "Book.",
+     "Snorkel."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "book": "Book a time slot"
+   },
+   {
+    "name": "Diving",
+    "kind": "see",
+    "id": "fdn-dive",
+    "at": [
+     -3.84,
+     -32.41
+    ],
+    "wiki": "Fernando de Noronha",
+    "area": "Island",
+    "summary": "Brazil's best diving with sharks, turtles and rays.",
+    "expect": "Expensive.",
+    "tip": "Book with a local dive centre.",
+    "why": "Underwater life.",
+    "flow": [
+     "Boat.",
+     "Dive."
+    ],
+    "hours": 4,
+    "price": [
+     400,
+     800
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Forte dos Remédios",
+    "kind": "see",
+    "id": "fdn-fort",
+    "at": [
+     -3.838,
+     -32.406
+    ],
+    "wiki": "Fernando de Noronha",
+    "area": "Vila dos Remédios",
+    "summary": "Hilltop 18th-century fort with sunset views.",
+    "expect": "Free.",
+    "tip": "Sunset spot.",
+    "why": "History and views.",
+    "flow": [
+     "Fort.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 3,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Island seafood restaurants",
+    "kind": "eat",
+    "id": "fdn-seafood",
+    "at": [
+     -3.839,
+     -32.407
+    ],
+    "wiki": "Fernando de Noronha",
+    "area": "Vila",
+    "summary": "Seafood restaurants with fresh fish and lobster.",
+    "expect": "Expensive.",
+    "tip": "Book popular places.",
+    "why": "Island seafood.",
+    "flow": [
+     "Book.",
+     "Seafood."
+    ],
+    "hours": 2,
+    "price": [
+     150,
+     400
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Grilled fish",
+     "Lobster"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Tapioca stalls",
+    "kind": "eat",
+    "id": "fdn-tapioca",
+    "at": [
+     -3.8385,
+     -32.4065
+    ],
+    "wiki": "Tapioca",
+    "area": "Vila",
+    "summary": "Cassava crêpes at night stalls.",
+    "expect": "Evenings.",
+    "tip": "Cheap dinner option.",
+    "why": "Budget bite.",
+    "flow": [
+     "Stall.",
+     "Tapioca."
+    ],
+    "hours": 0.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Tapioca"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Sunset bar at Boldró",
+    "kind": "eat",
+    "id": "fdn-boldro",
+    "at": [
+     -3.847,
+     -32.425
+    ],
+    "wiki": "Fernando de Noronha",
+    "area": "Boldró",
+    "summary": "Bar at the Boldró viewpoint for sunset drinks.",
+    "expect": "Crowded at sunset.",
+    "tip": "Arrive early.",
+    "why": "Sunset ritual.",
+    "flow": [
+     "Bar.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Caipirinha"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]
