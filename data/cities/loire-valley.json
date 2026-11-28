@@ -71,8 +71,8 @@
       "id": "loire-valley-loi-chambord",
       "name": "Château de Chambord",
       "kind": "see",
-      "lat": 47.6161,
-      "lon": 1.517,
+      "lat": 47.61611,
+      "lon": 1.51722,
       "wiki": "Château de Chambord",
       "summary": "The biggest Loire château, with a double-helix staircase and 400 rooms.",
       "expect": "Paid; huge.",
@@ -112,14 +112,23 @@
         "Paid; huge.",
         "Climb to the roof terraces of chimneys."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 134378,
+          "period": "202511-202610",
+          "title": "Château de Chambord",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chambord",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q205367"
     },
     {
       "id": "loire-valley-loi-chenonceau",
       "name": "Château de Chenonceau",
       "kind": "see",
-      "lat": 47.3249,
-      "lon": 1.0703,
+      "lat": 47.3247,
+      "lon": 1.0704,
       "wiki": "Château de Chenonceau",
       "summary": "\"Ladies' château\" built in arches across the Cher river.",
       "expect": "Paid; busy.",
@@ -160,14 +169,23 @@
         "Paid; busy.",
         "Go at opening; walk around to see the arches."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 103281,
+          "period": "202511-202610",
+          "title": "Château de Chenonceau",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Chenonceau",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q193215"
     },
     {
       "id": "loire-valley-loi-amboise",
       "name": "Château d'Amboise",
       "kind": "see",
-      "lat": 47.413,
-      "lon": 0.986,
+      "lat": 47.41368,
+      "lon": 0.98603,
       "wiki": "Château d'Amboise",
       "summary": "Royal château above the river with Leonardo da Vinci's tomb in its chapel.",
       "expect": "Paid.",
@@ -207,14 +225,23 @@
         "Paid.",
         "Views from the terraces over the Loire."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 84795,
+          "period": "202511-202610",
+          "title": "Château d'Amboise",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_d'Amboise",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q389908"
     },
     {
       "id": "loire-valley-loi-closluce",
       "name": "Clos Lucé",
       "kind": "see",
-      "lat": 47.41,
-      "lon": 0.992,
+      "lat": 47.41023,
+      "lon": 0.99152,
       "wiki": "Clos Lucé",
       "summary": "Manor where Leonardo da Vinci spent his last years, with models of his inventions in the park.",
       "expect": "Paid.",
@@ -255,14 +282,27 @@
         "Paid.",
         "Allow time for the park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 23545,
+          "period": "202511-202610",
+          "title": "Clos Lucé",
+          "url": "https://en.wikipedia.org/wiki/Clos_Luc%C3%A9",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1122731",
+      "local": {
+        "name": "château du Clos Lucé",
+        "lang": "fr"
+      }
     },
     {
       "id": "loire-valley-loi-villandry",
       "name": "Villandry gardens",
       "kind": "see",
-      "lat": 47.3404,
-      "lon": 0.5144,
+      "lat": 47.34056,
+      "lon": 0.51278,
       "wiki": "Château de Villandry",
       "summary": "Formal Renaissance gardens including a vast ornamental vegetable garden.",
       "expect": "Paid.",
@@ -302,14 +342,27 @@
         "Paid.",
         "See them from the belvedere."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11624,
+          "period": "202511-202610",
+          "title": "Château de Villandry",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_de_Villandry",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q477613",
+      "local": {
+        "name": "château de Villandry",
+        "lang": "fr"
+      }
     },
     {
       "id": "loire-valley-loi-azay",
       "name": "Château d'Azay-le-Rideau",
       "kind": "see",
-      "lat": 47.259,
-      "lon": 0.466,
+      "lat": 47.26,
+      "lon": 0.46692,
       "wiki": "Château d'Azay-le-Rideau",
       "summary": "Small château rising from a mirror-still moat.",
       "expect": "Paid.",
@@ -349,7 +402,16 @@
         "Paid.",
         "Walk around the moat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11873,
+          "period": "202511-202610",
+          "title": "Château d'Azay-le-Rideau",
+          "url": "https://en.wikipedia.org/wiki/Ch%C3%A2teau_d'Azay-le-Rideau",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q113389"
     },
     {
       "id": "loire-valley-loi-velo",
@@ -570,5 +632,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28"
 }

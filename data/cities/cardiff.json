@@ -71,7 +71,7 @@
       "id": "cardiff-cdf-castle",
       "name": "Cardiff Castle",
       "kind": "see",
-      "lat": 51.4822,
+      "lat": 51.4823,
       "lon": -3.1812,
       "wiki": "Cardiff Castle",
       "summary": "Roman walls, a Norman keep and Victorian Gothic rooms of dazzling colour.",
@@ -112,14 +112,23 @@
         "Paid; house tour extra.",
         "Take the house tour for the Arab Room."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 62223,
+          "period": "202511-202610",
+          "title": "Cardiff Castle",
+          "url": "https://en.wikipedia.org/wiki/Cardiff_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1035742"
     },
     {
       "id": "cardiff-cdf-museum",
       "name": "National Museum Cardiff",
       "kind": "see",
-      "lat": 51.486,
-      "lon": -3.177,
+      "lat": 51.4858,
+      "lon": -3.1773,
       "wiki": "National Museum Cardiff",
       "summary": "Free museum with one of Britain's best Impressionist collections and natural history.",
       "expect": "Free.",
@@ -159,14 +168,23 @@
         "Free.",
         "See the Davies sisters' Monets and Van Goghs."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15594,
+          "period": "202511-202610",
+          "title": "National Museum Cardiff",
+          "url": "https://en.wikipedia.org/wiki/National_Museum_Cardiff",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1321874"
     },
     {
       "id": "cardiff-cdf-bay",
       "name": "Cardiff Bay",
       "kind": "see",
-      "lat": 51.4637,
-      "lon": -3.165,
+      "lat": 51.463,
+      "lon": -3.164,
       "wiki": "Cardiff Bay",
       "summary": "Waterfront with the Senedd, Wales Millennium Centre and the Norwegian Church.",
       "expect": "Free.",
@@ -206,14 +224,23 @@
         "Free.",
         "Walk the barrage toward Penarth."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16476,
+          "period": "202511-202610",
+          "title": "Cardiff Bay",
+          "url": "https://en.wikipedia.org/wiki/Cardiff_Bay",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3396731"
     },
     {
       "id": "cardiff-cdf-stadium",
       "name": "Principality Stadium",
       "kind": "see",
-      "lat": 51.4782,
-      "lon": -3.1826,
+      "lat": 51.47806,
+      "lon": -3.1825,
       "wiki": "Millennium Stadium",
       "summary": "Wales' national rugby stadium with a retractable roof, in the city centre.",
       "expect": "Tours paid; match tickets sell fast.",
@@ -252,13 +279,22 @@
         "Tours paid; match tickets sell fast.",
         "A match day is unforgettable."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 240073,
+          "period": "202511-202610",
+          "title": "Millennium Stadium",
+          "url": "https://en.wikipedia.org/wiki/Millennium_Stadium",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q204496"
     },
     {
       "id": "cardiff-cdf-coch",
       "name": "Castell Coch",
       "kind": "see",
-      "lat": 51.5356,
+      "lat": 51.5358,
       "lon": -3.2548,
       "wiki": "Castell Coch",
       "summary": "Red fairy-tale castle in the woods with painted Victorian rooms.",
@@ -299,15 +335,24 @@
         "Paid; 20 minutes away.",
         "Walk in the beech woods around it."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 38171,
+          "period": "202511-202610",
+          "title": "Castell Coch",
+          "url": "https://en.wikipedia.org/wiki/Castell_Coch",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2704850"
     },
     {
       "id": "cardiff-cdf-stfagans",
       "name": "St Fagans National Museum of History",
       "kind": "see",
-      "lat": 51.486,
-      "lon": -3.27,
+      "lat": 51.4869,
+      "lon": -3.2725,
       "wiki": "St Fagans National Museum of History",
       "summary": "Open-air museum of rebuilt Welsh buildings across 2,000 years.",
       "expect": "Free; parking paid.",
@@ -347,8 +392,17 @@
         "Free; parking paid.",
         "Visit the bakery for fresh bread."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13461,
+          "period": "202511-202610",
+          "title": "St Fagans National Museum of History",
+          "url": "https://en.wikipedia.org/wiki/St_Fagans_National_Museum_of_History",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1954765"
     },
     {
       "id": "cardiff-cdf-arcades",
@@ -395,7 +449,16 @@
         "Free.",
         "Spillers Records is the world's oldest record shop."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 526252,
+          "period": "202511-202610",
+          "title": "Cardiff",
+          "url": "https://en.wikipedia.org/wiki/Cardiff",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "cardiff-cdf-welshcakes",
@@ -570,5 +633,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q10690"
 }

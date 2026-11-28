@@ -112,8 +112,8 @@
       "id": "berat-ber-castle",
       "name": "Berat Castle (Kala)",
       "kind": "see",
-      "lat": 40.709,
-      "lon": 19.946,
+      "lat": 40.708,
+      "lon": 19.945,
       "wiki": "Berat Castle",
       "summary": "Lived-in castle with Byzantine churches, cobbled lanes and views.",
       "expect": "Small fee.",
@@ -153,7 +153,20 @@
         "Small fee.",
         "Stay for sunset on the walls."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11794,
+          "period": "202511-202610",
+          "title": "Berat Castle",
+          "url": "https://en.wikipedia.org/wiki/Berat_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2968550",
+      "local": {
+        "name": "Kalaja e Beratit",
+        "lang": "sq"
+      }
     },
     {
       "id": "berat-ber-onufri",
@@ -252,8 +265,8 @@
       "id": "berat-ber-ethno",
       "name": "Ethnographic Museum",
       "kind": "see",
-      "lat": 40.706,
-      "lon": 19.95,
+      "lat": 40.70767,
+      "lon": 19.95039,
       "wiki": "Berat",
       "summary": "Ottoman merchant house showing traditional life.",
       "expect": "Small fee.",
@@ -292,14 +305,22 @@
         "Small fee.",
         "Note the upstairs gallery."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 64345,
+          "period": "202511-202610",
+          "title": "Berat",
+          "url": "https://en.wikipedia.org/wiki/Berat",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "berat-ber-osumi",
       "name": "Osumi Canyon",
       "kind": "see",
-      "lat": 40.57,
-      "lon": 20.16,
+      "lat": 40.47,
+      "lon": 20.255,
       "wiki": "Osum Canyon",
       "summary": "River canyon for rafting in spring and hikes.",
       "expect": "About 1h30 away; rafting March to May.",
@@ -339,8 +360,21 @@
         "About 1h30 away; rafting March to May.",
         "Book rafting in spring."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2952,
+          "period": "202511-202610",
+          "title": "Osum Canyon",
+          "url": "https://en.wikipedia.org/wiki/Osum_Canyon",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q7108014",
+      "local": {
+        "name": "Kanionet e Osumit",
+        "lang": "sq"
+      }
     },
     {
       "id": "berat-ber-wine",
@@ -515,5 +549,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q170244",
+  "local": {
+    "name": "Berati",
+    "lang": "sq"
+  }
 }

@@ -112,14 +112,23 @@
         "The tapestry is on loan to the British Museum in London until mid-2027 while the Bayeux museum is rebuilt; check before you go.",
         "The audio guide walks you scene by scene."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1455007,
+          "period": "202511-202610",
+          "title": "Bayeux Tapestry",
+          "url": "https://en.wikipedia.org/wiki/Bayeux_Tapestry",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bayeux-bay-cathedral",
       "name": "Bayeux Cathedral",
       "kind": "see",
-      "lat": 49.2786,
-      "lon": -0.703,
+      "lat": 49.27556,
+      "lon": -0.70333,
       "wiki": "Bayeux Cathedral",
       "summary": "Norman Gothic cathedral where the tapestry was first displayed.",
       "expect": "Free.",
@@ -160,14 +169,27 @@
         "Free.",
         "See the Romanesque crypt."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 40120,
+          "period": "202511-202610",
+          "title": "Bayeux Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Bayeux_Cathedral",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1636244",
+      "local": {
+        "name": "cathédrale Notre-Dame de Bayeux",
+        "lang": "fr"
+      }
     },
     {
       "id": "bayeux-bay-omaha",
       "name": "Omaha Beach and American Cemetery",
       "kind": "see",
-      "lat": 49.3597,
-      "lon": -0.855,
+      "lat": 49.36,
+      "lon": -0.8575,
       "wiki": "Normandy American Cemetery and Memorial",
       "summary": "Clifftop cemetery of 9,387 graves above the D-Day beach.",
       "expect": "Free.",
@@ -206,14 +228,27 @@
         "Free.",
         "Visit the centre first, then walk down to the beach."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 80100,
+          "period": "202511-202610",
+          "title": "Normandy American Cemetery and Memorial",
+          "url": "https://en.wikipedia.org/wiki/Normandy_American_Cemetery_and_Memorial",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2134416",
+      "local": {
+        "name": "cimetière américain de Colleville-sur-Mer",
+        "lang": "fr"
+      }
     },
     {
       "id": "bayeux-bay-hoc",
       "name": "Pointe du Hoc",
       "kind": "see",
-      "lat": 49.3962,
-      "lon": -0.989,
+      "lat": 49.39583,
+      "lon": -0.98889,
       "wiki": "Pointe du Hoc",
       "summary": "Clifftop battlefield still cratered by bombs, scaled by US Rangers.",
       "expect": "Free.",
@@ -252,14 +287,23 @@
         "Free.",
         "Walk among the craters and bunkers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 90710,
+          "period": "202511-202610",
+          "title": "Pointe du Hoc",
+          "url": "https://en.wikipedia.org/wiki/Pointe_du_Hoc",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q284649"
     },
     {
       "id": "bayeux-bay-arromanches",
       "name": "Arromanches and the Mulberry harbour",
       "kind": "see",
-      "lat": 49.339,
-      "lon": -0.621,
+      "lat": 49.34,
+      "lon": -0.6211,
       "wiki": "Arromanches-les-Bains",
       "summary": "Remains of the floating harbour built for D-Day, seen from the cliffs.",
       "expect": "360° cinema paid.",
@@ -299,7 +343,20 @@
         "360° cinema paid.",
         "View from the cliff top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15550,
+          "period": "202511-202610",
+          "title": "Arromanches-les-Bains",
+          "url": "https://en.wikipedia.org/wiki/Arromanches-les-Bains",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q212620",
+      "local": {
+        "name": "Arromanches-les-Bains",
+        "lang": "fr"
+      }
     },
     {
       "id": "bayeux-bay-juno",
@@ -345,14 +402,23 @@
         "Paid.",
         "Join the guided bunker tour."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2899,
+          "period": "202511-202610",
+          "title": "Juno Beach Centre",
+          "url": "https://en.wikipedia.org/wiki/Juno_Beach_Centre",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bayeux-bay-honfleur",
       "name": "Honfleur",
       "kind": "see",
-      "lat": 49.419,
-      "lon": 0.233,
+      "lat": 49.4194,
+      "lon": 0.2325,
       "wiki": "Honfleur",
       "summary": "Painters' harbour of tall slate-fronted houses and a wooden church.",
       "expect": "1 hour away.",
@@ -392,15 +458,24 @@
         "1 hour away.",
         "Eat moules by the Vieux Bassin."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 49388,
+          "period": "202511-202610",
+          "title": "Honfleur",
+          "url": "https://en.wikipedia.org/wiki/Honfleur",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q231720"
     },
     {
       "id": "bayeux-bay-etretat",
       "name": "Étretat cliffs",
       "kind": "see",
-      "lat": 49.707,
-      "lon": 0.204,
+      "lat": 49.71,
+      "lon": 0.21,
       "wiki": "Étretat",
       "summary": "Chalk arches and a needle rising from the sea, painted by Monet.",
       "expect": "1h30 away; steep paths.",
@@ -440,8 +515,17 @@
         "1h30 away; steep paths.",
         "Walk both clifftops."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 36633,
+          "period": "202511-202610",
+          "title": "Étretat",
+          "url": "https://en.wikipedia.org/wiki/%C3%89tretat",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q290936"
     },
     {
       "id": "bayeux-bay-moules",
@@ -615,5 +699,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q183910"
 }

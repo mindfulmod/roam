@@ -78,7 +78,7 @@
       "id": "utrecht-utr-dom",
       "name": "Dom Tower",
       "kind": "see",
-      "lat": 52.0907,
+      "lat": 52.09065,
       "lon": 5.1214,
       "wiki": "Dom Tower of Utrecht",
       "summary": "Gothic tower of 465 steps, the tallest church tower in the Netherlands.",
@@ -120,7 +120,20 @@
         "Guided tours only; book.",
         "Book the first morning slot."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24746,
+          "period": "202511-202610",
+          "title": "Dom Tower of Utrecht",
+          "url": "https://en.wikipedia.org/wiki/Dom_Tower_of_Utrecht",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3368242",
+      "local": {
+        "name": "Domtoren",
+        "lang": "nl"
+      }
     },
     {
       "id": "utrecht-utr-oudegracht",
@@ -167,14 +180,23 @@
         "Busy terraces in summer.",
         "Eat at a wharf terrace."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5172,
+          "period": "202511-202610",
+          "title": "Oudegracht",
+          "url": "https://en.wikipedia.org/wiki/Oudegracht",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "utrecht-utr-rietveld",
       "name": "Rietveld Schröder House",
       "kind": "see",
-      "lat": 52.0852,
-      "lon": 5.1477,
+      "lat": 52.08528,
+      "lon": 5.14722,
       "wiki": "Rietveld Schröder House",
       "summary": "UNESCO De Stijl house of sliding walls and primary colours.",
       "expect": "Timed tours; book.",
@@ -214,14 +236,27 @@
         "Timed tours; book.",
         "Combine with the Centraal Museum ticket."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22365,
+          "period": "202511-202610",
+          "title": "Rietveld Schröder House",
+          "url": "https://en.wikipedia.org/wiki/Rietveld_Schr%C3%B6der_House",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q914231",
+      "local": {
+        "name": "Rietveld Schröderhuis",
+        "lang": "nl"
+      }
     },
     {
       "id": "utrecht-utr-miffy",
       "name": "Miffy Museum",
       "kind": "see",
-      "lat": 52.084,
-      "lon": 5.122,
+      "lat": 52.08393,
+      "lon": 5.12578,
       "wiki": "Nijntje museum",
       "summary": "Museum for small children about Dick Bruna's Miffy.",
       "expect": "Best for under 6s.",
@@ -260,15 +295,14 @@
       "tradeoffs": [
         "Best for under 6s.",
         "The Centraal Museum opposite has Bruna's studio."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "utrecht-utr-speelklok",
       "name": "Museum Speelklok",
       "kind": "see",
-      "lat": 52.093,
-      "lon": 5.118,
+      "lat": 52.09056,
+      "lon": 5.11917,
       "wiki": "Museum Speelklok",
       "summary": "Museum of music boxes and street organs, demonstrated on guided tours.",
       "expect": "Paid.",
@@ -308,7 +342,16 @@
         "Paid.",
         "Join a tour so the organs play."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3123,
+          "period": "202511-202610",
+          "title": "Museum Speelklok",
+          "url": "https://en.wikipedia.org/wiki/Museum_Speelklok",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1624224"
     },
     {
       "id": "utrecht-utr-canoe",
@@ -354,7 +397,16 @@
         "Rentals near Ganzenmarkt.",
         "Go early evening."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5172,
+          "period": "202511-202610",
+          "title": "Oudegracht",
+          "url": "https://en.wikipedia.org/wiki/Oudegracht",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "utrecht-utr-wharf",
@@ -528,5 +580,7 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q803"
 }

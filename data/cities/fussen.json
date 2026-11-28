@@ -71,8 +71,8 @@
       "id": "fussen-fus-neuschwanstein",
       "name": "Neuschwanstein Castle",
       "kind": "see",
-      "lat": 47.5576,
-      "lon": 10.7498,
+      "lat": 47.5575,
+      "lon": 10.74944,
       "wiki": "Neuschwanstein Castle",
       "summary": "King Ludwig II's fantasy castle on a crag, the inspiration for Disney's castle.",
       "expect": "Timed tours; tickets sell out in summer.",
@@ -112,14 +112,22 @@
         "Timed tours; tickets sell out in summer.",
         "Book online days ahead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 809367,
+          "period": "202511-202610",
+          "title": "Neuschwanstein Castle",
+          "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "fussen-fus-marienbrucke",
       "name": "Mary's Bridge (Marienbrücke)",
       "kind": "see",
-      "lat": 47.5555,
-      "lon": 10.75,
+      "lat": 47.5575,
+      "lon": 10.74944,
       "wiki": "Marienbrücke",
       "summary": "Footbridge over a gorge with the classic view of Neuschwanstein.",
       "expect": "Crowded; closed in snow and ice.",
@@ -158,14 +166,22 @@
         "Crowded; closed in snow and ice.",
         "Go early or late."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 809367,
+          "period": "202511-202610",
+          "title": "Neuschwanstein Castle",
+          "url": "https://en.wikipedia.org/wiki/Neuschwanstein_Castle",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "fussen-fus-hohenschwangau",
       "name": "Hohenschwangau Castle",
       "kind": "see",
-      "lat": 47.5553,
-      "lon": 10.7369,
+      "lat": 47.55557,
+      "lon": 10.73605,
       "wiki": "Hohenschwangau Castle",
       "summary": "Yellow castle where Ludwig grew up, facing Neuschwanstein.",
       "expect": "Timed tours.",
@@ -205,7 +221,20 @@
         "Timed tours.",
         "Combine both castles in one ticket."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 51008,
+          "period": "202511-202610",
+          "title": "Hohenschwangau Castle",
+          "url": "https://en.wikipedia.org/wiki/Hohenschwangau_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q161988",
+      "local": {
+        "name": "Schloss Hohenschwangau",
+        "lang": "de"
+      }
     },
     {
       "id": "fussen-fus-alpsee",
@@ -298,14 +327,23 @@
         "Free; museums paid.",
         "See the Lech falls nearby."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 40032,
+          "period": "202511-202610",
+          "title": "Füssen",
+          "url": "https://en.wikipedia.org/wiki/F%C3%BCssen",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "fussen-fus-linderhof",
       "name": "Linderhof Palace",
       "kind": "see",
-      "lat": 47.5713,
-      "lon": 11.0391,
+      "lat": 47.5716,
+      "lon": 10.9608,
       "wiki": "Linderhof Palace",
       "summary": "The smallest of Ludwig's palaces, with a grotto and formal gardens.",
       "expect": "Paid; 1 hour by car.",
@@ -345,15 +383,28 @@
         "Paid; 1 hour by car.",
         "The Venus Grotto is magical."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 64342,
+          "period": "202511-202610",
+          "title": "Linderhof Palace",
+          "url": "https://en.wikipedia.org/wiki/Linderhof_Palace",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q162052",
+      "local": {
+        "name": "Schloss Linderhof",
+        "lang": "de"
+      }
     },
     {
       "id": "fussen-fus-oberammergau",
       "name": "Oberammergau",
       "kind": "see",
-      "lat": 47.598,
-      "lon": 11.067,
+      "lat": 47.59667,
+      "lon": 11.06444,
       "wiki": "Oberammergau",
       "summary": "Village of painted houses, home of the Passion Play.",
       "expect": "Near Linderhof.",
@@ -393,15 +444,24 @@
         "Near Linderhof.",
         "Look for the fairy-tale facades."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 45677,
+          "period": "202511-202610",
+          "title": "Oberammergau",
+          "url": "https://en.wikipedia.org/wiki/Oberammergau",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q503757"
     },
     {
       "id": "fussen-fus-tegelberg",
       "name": "Tegelberg cable car",
       "kind": "see",
-      "lat": 47.564,
-      "lon": 10.779,
+      "lat": 47.55944,
+      "lon": 10.77861,
       "wiki": "Tegelberg",
       "summary": "Cable car to a mountain with views over castles and lakes.",
       "expect": "Paid.",
@@ -441,7 +501,16 @@
         "Paid.",
         "Walk down the summer luge after."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2735,
+          "period": "202511-202610",
+          "title": "Tegelberg",
+          "url": "https://en.wikipedia.org/wiki/Tegelberg",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q896656"
     },
     {
       "id": "fussen-fus-spaetzle",
@@ -615,5 +684,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q262684"
 }

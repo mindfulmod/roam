@@ -65,8 +65,8 @@
       "id": "tirana-tir-square",
       "name": "Skanderbeg Square",
       "kind": "see",
-      "lat": 41.3275,
-      "lon": 19.8187,
+      "lat": 41.32833,
+      "lon": 19.81833,
       "wiki": "Skanderbeg Square",
       "summary": "Vast paved square with the national hero's statue, the Et'hem Bey Mosque and the National History Museum.",
       "expect": "Free.",
@@ -107,14 +107,27 @@
         "Free.",
         "Step into the frescoed mosque."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25616,
+          "period": "202511-202610",
+          "title": "Skanderbeg Square",
+          "url": "https://en.wikipedia.org/wiki/Skanderbeg_Square",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q609528",
+      "local": {
+        "name": "Sheshi Skënderbej",
+        "lang": "sq"
+      }
     },
     {
       "id": "tirana-tir-bunkart2",
       "name": "Bunk'Art 2",
       "kind": "see",
-      "lat": 41.327,
-      "lon": 19.823,
+      "lat": 41.32702,
+      "lon": 19.81955,
       "wiki": "Bunk'Art",
       "summary": "Interior Ministry nuclear bunker turned museum of the communist secret police.",
       "expect": "Paid.",
@@ -152,15 +165,14 @@
       "tradeoffs": [
         "Paid.",
         "Allow time to read; it's sobering."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "tirana-tir-bunkart1",
       "name": "Bunk'Art 1",
       "kind": "see",
-      "lat": 41.353,
-      "lon": 19.86,
+      "lat": 41.35314,
+      "lon": 19.86121,
       "wiki": "Bunk'Art",
       "summary": "Enver Hoxha's giant five-floor bunker, now a museum and gallery.",
       "expect": "Paid; outside the centre.",
@@ -198,8 +210,7 @@
       "tradeoffs": [
         "Paid; outside the centre.",
         "Combine with the Dajti cable car."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "tirana-tir-dajti",
@@ -246,14 +257,23 @@
         "Paid; closes in high winds.",
         "Sunset at the top."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8690,
+          "period": "202511-202610",
+          "title": "Dajti",
+          "url": "https://en.wikipedia.org/wiki/Dajti",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tirana-tir-blloku",
       "name": "Blloku",
       "kind": "see",
-      "lat": 41.32,
-      "lon": 19.815,
+      "lat": 41.32083,
+      "lon": 19.81639,
       "wiki": "Blloku",
       "summary": "Former party-elite district, now full of bars, cafés and nightlife.",
       "expect": "Busy weekends.",
@@ -293,14 +313,23 @@
         "Busy weekends.",
         "Peek at Hoxha's villa."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9915,
+          "period": "202511-202610",
+          "title": "Ish-Blloku",
+          "url": "https://en.wikipedia.org/wiki/Ish-Blloku",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2911983"
     },
     {
       "id": "tirana-tir-pyramid",
       "name": "Pyramid of Tirana",
       "kind": "see",
-      "lat": 41.3225,
-      "lon": 19.821,
+      "lat": 41.32306,
+      "lon": 19.82139,
       "wiki": "Pyramid of Tirana",
       "summary": "Communist-era pyramid rebuilt as a tech hub you can climb.",
       "expect": "Free.",
@@ -340,14 +369,27 @@
         "Free.",
         "Climb the steps to the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 30214,
+          "period": "202511-202610",
+          "title": "Pyramid of Tirana",
+          "url": "https://en.wikipedia.org/wiki/Pyramid_of_Tirana",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q177335",
+      "local": {
+        "name": "Piramida e Tiranës",
+        "lang": "sq"
+      }
     },
     {
       "id": "tirana-tir-leaves",
       "name": "House of Leaves",
       "kind": "see",
-      "lat": 41.329,
-      "lon": 19.82,
+      "lat": 41.32647,
+      "lon": 19.81633,
       "wiki": "House of Leaves",
       "summary": "Museum of secret surveillance in the former secret-police building.",
       "expect": "Paid.",
@@ -386,7 +428,15 @@
         "Paid.",
         "Pair with Bunk'Art 2."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1021170,
+          "period": "202511-202610",
+          "title": "House of Leaves",
+          "url": "https://en.wikipedia.org/wiki/House_of_Leaves",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tirana-tir-tave",
@@ -561,5 +611,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q19689"
 }
