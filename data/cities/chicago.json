@@ -172,16 +172,8 @@
         "Runs April to November; book ahead in summer.",
         "Take the Chicago Architecture Center's official cruise."
       ],
-      "signals": {
-        "wikipedia": {
-          "views": 119394,
-          "period": "202511-202610",
-          "title": "Chicago River",
-          "url": "https://en.wikipedia.org/wiki/Chicago_River",
-          "checked": "2026-11-23"
-        }
-      },
-      "wikidata": "Q643284"
+      "wikidata": "Q643284",
+      "noReadership": true
     },
     {
       "id": "chicago-chicago-art-institute",
@@ -202,7 +194,7 @@
       "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
       "bestTime": "Opening time",
       "reservation": "Usually not needed",
-      "priority": 3,
+      "priority": 1,
       "sourceUrls": [
         "https://www.tripadvisor.com/Search?q=Art%20Institute%20of%20Chicago%2C%20Chicago",
         "https://www.google.com/maps/search/?api=1&query=Art%20Institute%20of%20Chicago%2C%20Chicago"
