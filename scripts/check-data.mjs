@@ -142,7 +142,7 @@ for (const id of meta.cityOrder) {
       else qids.set(p.wikidata, p.id);
     }
     const read = p.signals?.wikipedia?.title;
-    if (read && (read === c.wiki || p.noReadership))
+    if (read && ((read === c.wiki && !p.ownsCityArticle) || p.noReadership))
       err(`${p.id}: ranked on ${read}, which is not an article about this place`);
     if (read && c.items.some((x) => x !== p && x.signals?.wikipedia?.title === read))
       warn(`${p.id}: shares Wikipedia readers (${read}) with another place`);

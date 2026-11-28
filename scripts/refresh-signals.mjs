@@ -113,8 +113,9 @@ const tally = { wikipedia: 0, skipped: 0 };
 for (const file of files) {
   const fp = path.join(citiesDir, file);
   const city = JSON.parse(await readFile(fp, 'utf8'));
-  // A place never borrows readers from the city's own article or from a broader topic
-  // ("Scuba diving", "Aurora"): those are marked noReadership and stay unranked.
+  // A place never borrows readers from the city's own article (unless it is the place the
+  // city is named after: ownsCityArticle) or from a broader topic ("Scuba diving",
+  // "Aurora"): those are marked noReadership and stay unranked.
   const sights = city.items.filter((p) => p.kind === 'see' && p.wiki);
   const resolved = await resolveTitles([
     ...new Set([city.wiki, ...sights.map((p) => p.wiki)]),
@@ -128,7 +129,8 @@ for (const file of files) {
     p.signals ||= {};
     if (p.kind === 'see' && p.wiki && resolved) {
       const r = resolved.get(p.wiki);
-      const borrowed = p.noReadership || (r && r.title === resolved.get(city.wiki)?.title);
+      const borrowed =
+        p.noReadership || (!p.ownsCityArticle && r && r.title === resolved.get(city.wiki)?.title);
       if (r && !borrowed && (!r.coords || km(p, r.coords) <= MAX_KM || p.pinApproximate)) {
         // One failed lookup keeps the previous value instead of aborting the run.
         const views = await wikipediaViews(r.title).catch((e) => {
