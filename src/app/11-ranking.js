@@ -254,8 +254,10 @@ function comparePlaces(a, b, sort = placeSort) {
   }
   if (sort === 'cost') return a.price[0] - b.price[0];
   if (sort === 'recommended') return a.priority - b.priority;
-  // Unranked MICHELIN picks sit after ranked places but ahead of plain editorial picks.
-  const fallback = (p) => (p.michelin ? -0.9 + p.michelin.stars * 0.1 : -1);
+  // Places with no popularity figure: editorial must-sees sit mid-list among ranked places,
+  // unranked MICHELIN picks after ranked places but ahead of other editorial picks.
+  const fallback = (p) =>
+    p.priority === 1 && p.kind === 'see' ? 0.5 : p.michelin ? -0.9 + p.michelin.stars * 0.1 : -1;
   return (
     (popularityScore(b) ?? fallback(b)) - (popularityScore(a) ?? fallback(a)) ||
     a.priority - b.priority
