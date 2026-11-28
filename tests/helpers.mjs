@@ -45,11 +45,12 @@ export async function serveDist() {
 export const PHONE = { width: 390, height: 844 };
 
 // A page on the built app. `state` is written to localStorage before the app starts.
-// Collects uncaught errors in page.errors.
+// `allow` lists other origins the page may reach (a real local accounts project, in
+// tests/e2e/browser.e2e.mjs). Collects uncaught errors in page.errors.
 export async function openApp(
   browser,
   origin,
-  { state, viewport = PHONE, hash = '#/', sw = false } = {},
+  { state, viewport = PHONE, hash = '#/', sw = false, backend, session, allow = [] } = {},
 ) {
   // Reduced motion turns off the page's smooth scrolling, which otherwise races Playwright's own
   // scroll-into-view and leaves clicks below the fold retrying forever.
@@ -62,9 +63,21 @@ export async function openApp(
     serviceWorkers: sw ? 'allow' : 'block',
   });
   await context.route(
-    (u) => u.origin !== origin,
+    (u) => u.origin !== origin && !allow.includes(u.origin),
     (r) => r.abort(),
   );
+  // Accounts switched on, against the stand-in in tests/fake-backend.mjs; optionally signed in.
+  if (backend) {
+    const { useBackend } = await import('./fake-backend.mjs');
+    await useBackend(context, backend);
+  }
+  if (session)
+    await context.addInitScript((s) => {
+      if (!sessionStorage.getItem('test-session')) {
+        localStorage.setItem('tandem-session-v1', JSON.stringify(s));
+        sessionStorage.setItem('test-session', '1');
+      }
+    }, session);
   if (state !== undefined)
     await context.addInitScript((s) => {
       if (!sessionStorage.getItem('test-seeded')) {

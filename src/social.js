@@ -151,6 +151,7 @@ function socNeeds() {
   );
 }
 function socHeader() {
+  if (bkSignedIn()) return acctHeader();
   const n = socNeeds().length;
   $$('.feed-count').forEach((e) => {
     e.textContent = n;
@@ -492,6 +493,7 @@ function socStripHtml(fresh) {
     .join('')}</div>`;
 }
 function renderFeed() {
+  if (bkSignedIn()) return acctFeed();
   headerActive('feed');
   document.title = 'Feed · Tandem Roads';
   socSpecs = {};
@@ -512,7 +514,7 @@ function renderFeed() {
 }
 function socAbout() {
   showModal(
-    `<div class="modalcontent"><h2 id="modal-heading">A sample, until accounts arrive</h2><p class="lead">Sign-in is not switched on yet, so these pages show how they will work using made-up people from the sample trips. You are seeing them as Alex.</p><ul class="st-rules"><li>What you tap here is saved on this device only.</li><li>Nobody is ranked. Hearts show as faces, and there are no follower or heart totals anywhere.</li><li>The feed is in time order and it ends.</li><li>Profiles are for friends only, and there are no public links.</li></ul><div class="actions"><button class="btn" data-action="close-modal">Got it</button><button class="btn ghost" data-action="soc-reset">Reset the sample</button></div></div>`,
+    `<div class="modalcontent"><h2 id="modal-heading">${BK.on ? 'A sample, until you sign in' : 'A sample, until accounts arrive'}</h2><p class="lead">${BK.on ? 'You are not signed in, so these pages show how they work using made-up people from the sample trips.' : 'Sign-in is not switched on yet, so these pages show how they will work using made-up people from the sample trips.'} You are seeing them as Alex.</p><ul class="st-rules"><li>What you tap here is saved on this device only.</li><li>Nobody is ranked. Hearts show as faces, and there are no follower or heart totals anywhere.</li><li>The feed is in time order and it ends.</li><li>Profiles are for friends only, and there are no public links.</li></ul><div class="actions">${BK.on ? '<a class="btn" href="#/signin">Sign in</a>' : '<button class="btn" data-action="close-modal">Got it</button>'}<button class="btn ghost" data-action="soc-reset">Reset the sample</button></div></div>`,
     'About this sample',
   );
 }
@@ -800,6 +802,7 @@ function socStampDate(h) {
   return h.month ? `${SOC_MONTHS[h.month - 1].slice(0, 3)} ${h.year}` : String(h.year);
 }
 function renderProfile(id) {
+  if (bkSignedIn()) return acctProfile(id === socMe() ? bkMyId() : id);
   const p = socPerson(id),
     me = socPerson(socMe()),
     own = id === socMe();
@@ -981,6 +984,11 @@ function socAsk(id, city) {
   );
 }
 function socInvite() {
+  if (BK.on)
+    return showModal(
+      `<div class="modalcontent"><h2 id="modal-heading">Invite a friend</h2><p class="lead">Sign in first. Then make an invite link and send it to one person: when they join with it, you are friends.</p><ul class="st-rules"><li>No contact list upload, and no suggested strangers.</li><li>Friends see your profile. A trip is seen only by people its travellers approved.</li></ul><div class="actions"><a class="btn" href="#/signin">Sign in</a><button class="btn ghost" data-action="close-modal">Not now</button></div></div>`,
+      'Invite a friend',
+    );
   showModal(
     `<div class="modalcontent"><h2 id="modal-heading">Invite a friend</h2><p class="lead">Invites open with accounts. A friend joins with their email, and you see each other’s profiles only after both of you say yes.</p><ul class="st-rules"><li>No contact list upload, and no suggested strangers.</li><li>Friends see your profile. A trip is seen only by people its travellers approved.</li></ul><div class="actions"><button class="btn" data-action="close-modal">Got it</button></div></div>`,
     'Invite a friend',
@@ -991,6 +999,7 @@ function socInvite() {
 const socSwitch = (key, on, label, sub, locked = false) =>
   `<label class="soc-switch${locked ? ' locked' : ''}"><span><strong>${label}</strong>${sub ? `<small>${sub}</small>` : ''}</span><input type="checkbox" data-soc-set="${key}" ${on ? 'checked' : ''} ${locked ? 'disabled' : ''}><i aria-hidden="true"></i></label>`;
 function renderAccount() {
+  if (bkSignedIn()) return acctAccount();
   headerActive('me');
   document.title = 'Account · Tandem Roads';
   const me = socPerson(socMe()),
@@ -999,7 +1008,9 @@ function renderAccount() {
   const trips = me.history.filter((h) => h.story && STORIES[h.story]);
   $('#app').innerHTML =
     `<div class="wrap soc-page soc-account"><div class="backline"><a href="#/me">${icon('left')} Your profile</a></div><header class="soc-top"><div><h1>Account</h1><p class="muted">Your profile, who sees what, and your data.</p></div><button class="soc-about" data-action="soc-about">${socSample()}${icon('info')}</button></header>` +
-    `<section class="soc-set"><h2>Sign in</h2><p class="soc-set-note">${icon('info')} Sign-in is not switched on yet. It will use a six-digit code sent to your email, with no password. Until then this page uses a made-up traveller and keeps your changes on this device.</p><div class="soc-row"><span><strong>Email</strong><small>Never shown to friends</small></span><em>Added when you sign in</em></div></section>` +
+    (BK.on
+      ? `<section class="soc-set"><h2>Sign in</h2><p class="soc-set-note">${icon('info')} You are not signed in, so this page shows a made-up traveller and keeps your changes on this device. Signing in uses a six-digit code sent to your email, with no password.</p><div class="soc-row"><span><strong>Sign in</strong><small>Tandem Roads is invite-only for now</small></span><a class="btn small" href="#/signin?next=account">Sign in</a></div></section>`
+      : `<section class="soc-set"><h2>Sign in</h2><p class="soc-set-note">${icon('info')} Sign-in is not switched on yet. It will use a six-digit code sent to your email, with no password. Until then this page uses a made-up traveller and keeps your changes on this device.</p><div class="soc-row"><span><strong>Email</strong><small>Never shown to friends</small></span><em>Added when you sign in</em></div></section>`) +
     `<section class="soc-set"><h2>Profile</h2><p class="soc-set-note">Friends see this. Nobody else can.</p><div class="soc-fields"><div class="field"><label for="soc-f-name">Name</label><input id="soc-f-name" data-soc-field="name" maxlength="30" value="${esc(me.name)}" autocomplete="off"></div><div class="field"><label for="soc-f-home">Home city</label><input id="soc-f-home" data-soc-field="home" maxlength="40" value="${esc(me.home)}" autocomplete="off"></div><div class="field wide"><label for="soc-f-line">One line about how you travel</label><input id="soc-f-line" data-soc-field="line" maxlength="90" value="${esc(me.line)}" autocomplete="off"></div><div class="field wide"><label for="soc-f-style">Travel style, up to four, separated by commas</label><input id="soc-f-style" data-soc-field="style" maxlength="120" value="${esc(me.style.join(', '))}" autocomplete="off"></div></div>${socSwitch('styleShown', !SOCS.styleHidden, 'Show my travel style on my profile', 'Only you see it either way')}<div class="soc-row"><span><strong>On the road since</strong><small>Set when you join. It cannot be changed.</small></span><em>${esc(socSince(me))}</em></div></section>` +
     `<section class="soc-set"><h2>Who sees what</h2><div class="soc-row"><span><strong>Profile</strong><small>There is no public setting and no public link</small></span><em>Friends only</em></div>${me.next
       .filter((n) => C[n.city])

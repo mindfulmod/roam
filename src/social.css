@@ -1387,3 +1387,137 @@
   width: 16px;
   height: 16px;
 }
+
+/* ---------- Real accounts (src/account.js) ---------- */
+.acct-page .soc-top {
+  margin-bottom: 18px;
+}
+.acct-form {
+  display: grid;
+  gap: 14px;
+  max-width: 520px;
+}
+.acct-form .field {
+  min-width: 0;
+}
+.acct-form .field small,
+.acct-born small {
+  color: var(--muted);
+  font-size: 13px;
+}
+.acct-born {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+.acct-born legend {
+  font-size: 13px;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0;
+  margin-bottom: 6px;
+}
+.acct-born small {
+  grid-column: 1 / -1;
+}
+.acct-code {
+  font-size: 26px !important;
+  letter-spacing: 0.35em;
+  font-variant-numeric: tabular-nums;
+  max-width: 260px;
+}
+.acct-sent {
+  margin: 0;
+  font-size: 15px;
+}
+.acct-sent .icon {
+  width: 16px;
+  height: 16px;
+  vertical-align: -3px;
+  color: var(--teal);
+}
+.acct-problem {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--teal);
+}
+.acct-again {
+  margin: 0;
+  font-size: 14px;
+  color: var(--muted);
+}
+.acct-rules {
+  max-width: 520px;
+}
+.acct-leaving {
+  border: 1px solid var(--line);
+  border-left: 4px solid var(--orange);
+  border-radius: 12px;
+  background: var(--white);
+  padding: 12px 14px;
+  color: var(--ink);
+}
+.acct-account .acct-email {
+  overflow-wrap: anywhere;
+}
+.acct-sub {
+  font-size: 15px;
+  margin: 18px 0 2px;
+}
+.acct-acts {
+  margin-bottom: 22px;
+}
+.acct-how {
+  font-size: 13px;
+  margin-top: 4px !important;
+}
+.acct-profile .soc-phead {
+  grid-template-columns: auto 1fr;
+}
+/* Names and places are typed by people, so a very long word must wrap, not push the page wide. */
+.acct-profile .soc-phead > div,
+.acct-page .soc-rowwho,
+.acct-account .soc-row > span:first-child {
+  min-width: 0;
+}
+.acct-profile .soc-phead h1,
+.acct-profile .soc-home,
+.acct-profile .soc-line,
+.acct-account .soc-row strong,
+.acct-need strong,
+.soc-friend span {
+  overflow-wrap: anywhere;
+}
+.acct-need {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.acct-need .soc-rowwho span {
+  display: grid;
+  gap: 1px;
+}
+.acct-need .soc-rowwho small {
+  color: var(--muted);
+}
+.acct-invite input[readonly] {
+  font-size: 14px;
+}
+.acct-av-wait {
+  --who: var(--line);
+}
+.acct-reports .soc-row small {
+  overflow-wrap: anywhere;
+}
+@media (max-width: 760px) {
+  .acct-profile .soc-phead h1 {
+    font-size: 28px;
+  }
+}

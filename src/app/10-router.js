@@ -106,6 +106,8 @@ function route() {
   else if (parts[0] === 'me') renderProfile(socMe());
   else if (parts[0] === 'people') renderProfile(parts[1] || '');
   else if (parts[0] === 'account') renderAccount();
+  else if (parts[0] === 'signin') renderSignIn(params);
+  else if (parts[0] === 'join') renderJoin(parts[1] || '');
   else renderExplore();
   if (!keep) restoreScroll(path, jump || back);
 }
