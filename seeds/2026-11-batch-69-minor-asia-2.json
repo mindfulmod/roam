@@ -1,0 +1,2575 @@
+[
+ {
+  "country": "Cambodia",
+  "region": "Asia",
+  "currency": "USD",
+  "cashTip": "US dollars are used alongside riel for change; carry small notes. Tipping is welcome.",
+  "id": "kampot",
+  "name": "Kampot",
+  "at": [
+   10.6104,
+   104.1815
+  ],
+  "wiki": "Kampot (town)",
+  "cover": "Bokor Hill Station",
+  "dailyBudget": [
+   25,
+   60
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "seasons": "HHHSLLLLLSHH",
+  "tagline": "Riverside town of pepper farms and Bokor mountain",
+  "summary": "Kampot is a sleepy riverside town of faded French shophouses in southern Cambodia. Visit the farms that grow world-famous Kampot pepper, ride up to the eerie abandoned hill station on Bokor Mountain, paddle the river at sunset to see fireflies, and eat fresh crab with green pepper in nearby Kep.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "November to March is dry; the rainy season (June to October) is green but wet.",
+  "arrival": "Buses and minivans from Phnom Penh take 3 to 4 hours; there is also a slow train.",
+  "gettingAround": "Rent a scooter or hire a tuk-tuk for pepper farms, Bokor and Kep.",
+  "foodTip": "Kep crab with Kampot green pepper, fish amok and durian.",
+  "buyTip": "Kampot pepper (black, red and white).",
+  "baseArea": "Riverside old town",
+  "hotel": [
+   20,
+   80
+  ],
+  "connections": [
+   {
+    "to": "phnom-penh",
+    "mode": "Bus",
+    "minutes": 210,
+    "note": "Minivans and buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Bokor National Park",
+    "kind": "see",
+    "id": "kam-bokor",
+    "at": [
+     10.627,
+     104.04
+    ],
+    "wiki": "Bokor Hill Station",
+    "area": "Bokor Mountain",
+    "summary": "Abandoned French hill station with a ghostly church and old casino in the clouds.",
+    "expect": "Scooter or tour; cooler on top.",
+    "tip": "Go on a clear morning.",
+    "why": "Eerie mountain ruins.",
+    "flow": [
+     "Old church.",
+     "Black Palace and viewpoint."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kampot pepper farms",
+    "kind": "see",
+    "id": "kam-pepper",
+    "at": [
+     10.58,
+     104.3
+    ],
+    "wiki": "Kampot pepper",
+    "area": "Countryside",
+    "summary": "Farms growing protected-origin Kampot pepper, with free tours and tastings.",
+    "expect": "Tuk-tuk ride out.",
+    "tip": "La Plantation offers free tours.",
+    "why": "World-famous pepper.",
+    "flow": [
+     "Farm tour.",
+     "Tasting."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sunset river cruise and fireflies",
+    "kind": "see",
+    "id": "kam-river",
+    "at": [
+     10.611,
+     104.179
+    ],
+    "wiki": "Kampot River",
+    "area": "Riverside",
+    "summary": "Boat up the Praek Tuek Chhu river at sunset, then fireflies in the mangroves.",
+    "expect": "Small boats from the riverside.",
+    "tip": "Pick a boat that stays for the fireflies.",
+    "why": "Peaceful river.",
+    "flow": [
+     "Sunset.",
+     "Fireflies."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kampot old town",
+    "kind": "see",
+    "id": "kam-oldtown",
+    "at": [
+     10.61,
+     104.18
+    ],
+    "wiki": "Kampot (town)",
+    "area": "Old town",
+    "summary": "French colonial shophouses, the old bridge and the durian roundabout.",
+    "expect": "Free.",
+    "tip": "Walk at golden hour.",
+    "why": "Sleepy charm.",
+    "flow": [
+     "Shophouses.",
+     "Old bridge."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Kep crab market and beach",
+    "kind": "see",
+    "id": "kam-kep",
+    "at": [
+     10.495,
+     104.317
+    ],
+    "wiki": "Kep, Cambodia",
+    "area": "Kep",
+    "summary": "Seaside town with a crab market where women pull crabs from baskets in the sea.",
+    "expect": "30 minutes by tuk-tuk.",
+    "tip": "Eat crab with green pepper on the wooden decks.",
+    "why": "Crab and sea.",
+    "flow": [
+     "Crab market.",
+     "Kep beach."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Phnom Chhngok cave temple",
+    "kind": "see",
+    "id": "kam-chhngok",
+    "at": [
+     10.63,
+     104.27
+    ],
+    "wiki": "Kampot Province",
+    "area": "Countryside",
+    "summary": "7th-century brick temple inside a limestone cave.",
+    "expect": "Small fee; a local child may guide you.",
+    "tip": "Bring a torch.",
+    "why": "Ancient cave shrine.",
+    "flow": [
+     "Cave.",
+     "Temple."
+    ],
+    "hours": 1.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kep crab with green pepper",
+    "kind": "eat",
+    "id": "kam-crab",
+    "at": [
+     10.495,
+     104.317
+    ],
+    "wiki": "Kep, Cambodia",
+    "area": "Kep",
+    "summary": "Stir-fried crab with fresh green Kampot peppercorns.",
+    "expect": "Priced by weight.",
+    "tip": "Eat at the crab market stalls.",
+    "why": "Signature dish.",
+    "flow": [
+     "Crab market.",
+     "Order by the kilo."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Khmer",
+    "order": [
+     "Crab with green pepper"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Fish amok",
+    "kind": "eat",
+    "id": "kam-amok",
+    "at": [
+     10.6105,
+     104.1805
+    ],
+    "wiki": "Fish amok",
+    "area": "Old town",
+    "summary": "Steamed curried fish custard in banana leaf.",
+    "expect": "Everywhere.",
+    "tip": "Pair with jasmine rice.",
+    "why": "Khmer classic.",
+    "flow": [
+     "Khmer restaurant.",
+     "Amok."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Khmer",
+    "order": [
+     "Fish amok"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Kampot night market",
+    "kind": "eat",
+    "id": "kam-market",
+    "at": [
+     10.609,
+     104.181
+    ],
+    "wiki": "Kampot (town)",
+    "area": "Riverside",
+    "summary": "Evening stalls with grills, fruit shakes and snacks.",
+    "expect": "Evenings.",
+    "tip": "Try a fresh fruit shake.",
+    "why": "Easy dinner.",
+    "flow": [
+     "Walk stalls.",
+     "Shakes and grills."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Khmer",
+    "order": [
+     "Grilled skewers",
+     "Fruit shake"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Malaysia",
+  "region": "Asia",
+  "currency": "MYR",
+  "cashTip": "Cards and e-wallets work in malls; carry cash for hawker stalls. No tipping.",
+  "id": "ipoh",
+  "name": "Ipoh",
+  "at": [
+   4.5975,
+   101.0901
+  ],
+  "wiki": "Ipoh",
+  "cover": "Kek Lok Tong",
+  "dailyBudget": [
+   100,
+   250
+  ],
+  "cashPerDay": [
+   40,
+   100
+  ],
+  "seasons": "SSSSSSSSSSSS",
+  "tagline": "Cave temples, street art and white coffee",
+  "summary": "Ipoh is a laid-back tin-mining city famous across Malaysia for its food. Wander the old town's heritage shophouses and street murals, visit Buddhist temples built inside limestone caves, sip the original Ipoh white coffee, and eat bean sprout chicken and silky tau fu fa. The Cameron Highlands tea plantations are two hours away.",
+  "days": 2,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   6,
+   7,
+   8
+  ],
+  "seasonNote": "Warm all year; afternoon storms are common in the wetter months.",
+  "arrival": "ETS trains from Kuala Lumpur take about 2 hours 15 minutes.",
+  "gettingAround": "Walk the old town; Grab to cave temples.",
+  "foodTip": "Ipoh white coffee, bean sprout chicken (nga choi kai), hor fun, tau fu fa and dim sum.",
+  "buyTip": "White coffee and heong peng biscuits.",
+  "baseArea": "Old town",
+  "hotel": [
+   25,
+   90
+  ],
+  "connections": [
+   {
+    "to": "kuala-lumpur",
+    "mode": "Train",
+    "minutes": 135,
+    "note": "ETS trains."
+   },
+   {
+    "to": "penang",
+    "mode": "Train",
+    "minutes": 90,
+    "note": "ETS trains to Butterworth."
+   }
+  ],
+  "items": [
+   {
+    "name": "Kek Lok Tong",
+    "kind": "see",
+    "id": "ipo-keklok",
+    "at": [
+     4.564,
+     101.13
+    ],
+    "wiki": "Kek Lok Tong",
+    "area": "Gunung Rapat",
+    "summary": "Cave temple opening onto a garden of lakes beneath limestone cliffs.",
+    "expect": "Free.",
+    "tip": "Walk through to the garden behind.",
+    "why": "Cave and garden.",
+    "flow": [
+     "Cave hall.",
+     "Garden lake."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sam Poh Tong",
+    "kind": "see",
+    "id": "ipo-sampoh",
+    "at": [
+     4.562,
+     101.124
+    ],
+    "wiki": "Sam Poh Tong",
+    "area": "Gunung Rapat",
+    "summary": "Ipoh's oldest cave temple with a hidden Japanese garden and turtle pond.",
+    "expect": "Free.",
+    "tip": "Walk through the cave to the hidden garden.",
+    "why": "Hidden temple.",
+    "flow": [
+     "Cave.",
+     "Garden."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Old Town and Mural Art Lane",
+    "kind": "see",
+    "id": "ipo-murals",
+    "at": [
+     4.596,
+     101.079
+    ],
+    "wiki": "Ipoh",
+    "area": "Old town",
+    "summary": "Heritage shophouses and murals by Ernest Zacharevic.",
+    "expect": "Free.",
+    "tip": "Follow the mural map.",
+    "why": "Street art and heritage.",
+    "flow": [
+     "Murals.",
+     "Concubine Lane."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Concubine Lane",
+    "kind": "see",
+    "id": "ipo-concubine",
+    "at": [
+     4.5975,
+     101.078
+    ],
+    "wiki": "Ipoh",
+    "area": "Old town",
+    "summary": "Narrow lane of restored shophouses with snacks and souvenirs.",
+    "expect": "Busy weekends.",
+    "tip": "Try the tau fu fa here.",
+    "why": "Old town buzz.",
+    "flow": [
+     "Lane.",
+     "Snacks."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Kellie's Castle",
+    "kind": "see",
+    "id": "ipo-kellie",
+    "at": [
+     4.474,
+     101.088
+    ],
+    "wiki": "Kellie's Castle",
+    "area": "Batu Gajah",
+    "summary": "Unfinished mansion of a Scottish planter in the jungle.",
+    "expect": "Small fee; 30 minutes away.",
+    "tip": "Look for the rumoured secret tunnels.",
+    "why": "Spooky ruin.",
+    "flow": [
+     "Mansion.",
+     "Rooftop."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ipoh Railway Station",
+    "kind": "see",
+    "id": "ipo-station",
+    "at": [
+     4.597,
+     101.073
+    ],
+    "wiki": "Ipoh railway station",
+    "area": "Old town",
+    "summary": "Grand white colonial station nicknamed the Taj Mahal of Ipoh.",
+    "expect": "Free.",
+    "tip": "Photograph from the Birch Memorial side.",
+    "why": "Colonial landmark.",
+    "flow": [
+     "Facade.",
+     "Square."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Cameron Highlands",
+    "kind": "see",
+    "id": "ipo-cameron",
+    "at": [
+     4.47,
+     101.38
+    ],
+    "wiki": "Cameron Highlands",
+    "area": "Highlands",
+    "summary": "Cool hills of tea plantations and mossy forest.",
+    "expect": "About 2 hours by road.",
+    "tip": "Visit BOH Sungei Palas tea estate.",
+    "why": "Tea country.",
+    "flow": [
+     "Tea estate.",
+     "Mossy Forest."
+    ],
+    "hours": 8,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ipoh white coffee",
+    "kind": "eat",
+    "id": "ipo-coffee",
+    "at": [
+     4.597,
+     101.079
+    ],
+    "wiki": "Ipoh white coffee",
+    "area": "Old town",
+    "summary": "Coffee beans roasted in palm-oil margarine, served with condensed milk.",
+    "expect": "Old kopitiams.",
+    "tip": "Sin Yoon Loong and Nam Heong are the classic shops.",
+    "why": "Ipoh's drink.",
+    "flow": [
+     "Kopitiam.",
+     "White coffee and egg tart."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Malaysian",
+    "order": [
+     "White coffee",
+     "Egg tart"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Bean sprout chicken",
+    "kind": "eat",
+    "id": "ipo-chicken",
+    "at": [
+     4.598,
+     101.081
+    ],
+    "wiki": "Ipoh",
+    "area": "Old town",
+    "summary": "Poached chicken with fat local bean sprouts and hor fun noodles.",
+    "expect": "Dinner crowds.",
+    "tip": "Lou Wong is the famous one.",
+    "why": "Ipoh signature.",
+    "flow": [
+     "Restaurant.",
+     "Chicken and sprouts."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Malaysian Chinese",
+    "order": [
+     "Nga choi kai",
+     "Hor fun"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Dim sum breakfast",
+    "kind": "eat",
+    "id": "ipo-dimsum",
+    "at": [
+     4.59,
+     101.09
+    ],
+    "wiki": "Dim sum",
+    "area": "New town",
+    "summary": "Huge dim sum halls opening at dawn.",
+    "expect": "Early mornings.",
+    "tip": "Foh San and Ming Court are famous.",
+    "why": "Morning feast.",
+    "flow": [
+     "Arrive early.",
+     "Order from trolleys."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cantonese",
+    "order": [
+     "Dim sum"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Indonesia",
+  "region": "Asia",
+  "currency": "IDR",
+  "cashTip": "Carry rupiah for boats and warungs; cards work in hotels. Tipping is appreciated.",
+  "id": "labuan-bajo",
+  "name": "Labuan Bajo (Komodo)",
+  "at": [
+   -8.4964,
+   119.8877
+  ],
+  "wiki": "Labuan Bajo",
+  "cover": "Padar Island",
+  "dailyBudget": [
+   700000,
+   2000000
+  ],
+  "cashPerDay": [
+   300000,
+   800000
+  ],
+  "seasons": "LLLSHHPPHSLL",
+  "tagline": "Komodo dragons, pink beaches and manta rays",
+  "summary": "Labuan Bajo is a harbour town on Flores and the gateway to Komodo National Park. Take a boat to see wild Komodo dragons on Rinca or Komodo island, hike Padar Island for its three-bay view, swim on a pink-sand beach, and snorkel or dive with manta rays in some of the world's richest reefs.",
+  "days": 4,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "April to October is dry; July and August are busiest; seas are rougher from December to March.",
+  "arrival": "Flights from Bali take about 1 hour.",
+  "gettingAround": "Day boats or liveaboards into the park; walk the town.",
+  "foodTip": "Grilled fish at the night market, Flores coffee and Indonesian classics.",
+  "buyTip": "Ikat weaving from Flores.",
+  "baseArea": "Labuan Bajo harbour town",
+  "hotel": [
+   40,
+   250
+  ],
+  "connections": [
+   {
+    "to": "bali",
+    "mode": "Plane",
+    "minutes": 70,
+    "note": "Several flights a day."
+   }
+  ],
+  "items": [
+   {
+    "name": "Komodo dragons on Rinca or Komodo",
+    "kind": "see",
+    "id": "lab-komodo",
+    "at": [
+     -8.65,
+     119.72
+    ],
+    "wiki": "Komodo National Park",
+    "area": "Komodo National Park",
+    "summary": "See the world's largest lizards with a ranger on a guided walk.",
+    "expect": "Park fees; ranger required.",
+    "tip": "Go in the morning when the dragons are active.",
+    "why": "Living dinosaurs.",
+    "flow": [
+     "Boat to the island.",
+     "Ranger walk."
+    ],
+    "hours": 6,
+    "price": [
+     300000,
+     1500000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Padar Island viewpoint",
+    "kind": "see",
+    "id": "lab-padar",
+    "at": [
+     -8.656,
+     119.565
+    ],
+    "wiki": "Padar Island",
+    "area": "Komodo National Park",
+    "summary": "Climb to a ridge above three bays of white, black and pink sand.",
+    "expect": "Steep stairs; hot.",
+    "tip": "Go at sunrise.",
+    "why": "Iconic view.",
+    "flow": [
+     "Climb.",
+     "Three bays."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     300000
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Pink Beach",
+    "kind": "see",
+    "id": "lab-pink",
+    "at": [
+     -8.605,
+     119.517
+    ],
+    "wiki": "Pink Beach",
+    "area": "Komodo National Park",
+    "summary": "Beach tinted pink by red coral, with good snorkelling.",
+    "expect": "Part of boat tours.",
+    "tip": "Snorkel the reef off the beach.",
+    "why": "Pink sand.",
+    "flow": [
+     "Swim.",
+     "Snorkel."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Manta Point",
+    "kind": "see",
+    "id": "lab-manta",
+    "at": [
+     -8.56,
+     119.53
+    ],
+    "wiki": "Komodo National Park",
+    "area": "Komodo National Park",
+    "summary": "Snorkel or dive with manta rays in strong currents.",
+    "expect": "Currents are strong; for confident swimmers.",
+    "tip": "Go with a dive shop or reputable boat.",
+    "why": "Mantas!",
+    "flow": [
+     "Boat.",
+     "Snorkel with mantas."
+    ],
+    "hours": 3,
+    "price": [
+     500000,
+     1500000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kanawa Island",
+    "kind": "see",
+    "id": "lab-kanawa",
+    "at": [
+     -8.495,
+     119.755
+    ],
+    "wiki": "Komodo National Park",
+    "area": "Komodo National Park",
+    "summary": "Small island with clear water and turtles over the reef.",
+    "expect": "Day trip.",
+    "tip": "Snorkel the drop-off.",
+    "why": "Easy snorkelling.",
+    "flow": [
+     "Boat.",
+     "Snorkel."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sylvia Hill sunset",
+    "kind": "see",
+    "id": "lab-sylvia",
+    "at": [
+     -8.48,
+     119.88
+    ],
+    "wiki": "Labuan Bajo",
+    "area": "Labuan Bajo",
+    "summary": "Hill above town with sunset over the islands.",
+    "expect": "Short climb.",
+    "tip": "Bring water.",
+    "why": "Sunset view.",
+    "flow": [
+     "Climb.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     10000
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Cunca Wulang waterfall",
+    "kind": "see",
+    "id": "lab-cunca",
+    "at": [
+     -8.565,
+     120.03
+    ],
+    "wiki": "Flores",
+    "area": "Flores",
+    "summary": "Jungle waterfall with a canyon pool for swimming.",
+    "expect": "1.5 hours by car; guide required.",
+    "tip": "Wear water shoes.",
+    "why": "Flores inland.",
+    "flow": [
+     "Jungle walk.",
+     "Swim."
+    ],
+    "hours": 5,
+    "price": [
+     50000,
+     150000
+    ],
+    "best": "Full day",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kampung Ujung night market",
+    "kind": "eat",
+    "id": "lab-market",
+    "at": [
+     -8.494,
+     119.883
+    ],
+    "wiki": "Labuan Bajo",
+    "area": "Harbour",
+    "summary": "Waterfront stalls grilling fresh fish and squid.",
+    "expect": "Evenings.",
+    "tip": "Choose your fish and agree the price first.",
+    "why": "Seafood by the sea.",
+    "flow": [
+     "Choose fish.",
+     "Grilled dinner."
+    ],
+    "hours": 1.5,
+    "price": [
+     80000,
+     200000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Indonesian",
+    "order": [
+     "Ikan bakar"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Flores coffee",
+    "kind": "eat",
+    "id": "lab-coffee",
+    "at": [
+     -8.496,
+     119.887
+    ],
+    "wiki": "Flores",
+    "area": "Town",
+    "summary": "Bajawa coffee grown in the Flores highlands.",
+    "expect": "Cafés along the main street.",
+    "tip": "Buy beans to take home.",
+    "why": "Island coffee.",
+    "flow": [
+     "Café.",
+     "Coffee."
+    ],
+    "hours": 0.5,
+    "price": [
+     20000,
+     40000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Coffee",
+    "order": [
+     "Flores coffee"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Nasi campur and sate",
+    "kind": "eat",
+    "id": "lab-nasi",
+    "at": [
+     -8.4955,
+     119.8875
+    ],
+    "wiki": "Nasi campur",
+    "area": "Town",
+    "summary": "Rice with mixed dishes from warungs.",
+    "expect": "Cheap.",
+    "tip": "Point at what you want.",
+    "why": "Daily meal.",
+    "flow": [
+     "Warung.",
+     "Nasi campur."
+    ],
+    "hours": 1,
+    "price": [
+     25000,
+     50000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Indonesian",
+    "order": [
+     "Nasi campur"
+    ],
+    "veg": "some",
+    "halal": "yes",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "India",
+  "region": "Asia",
+  "currency": "INR",
+  "cashTip": "UPI is everywhere but foreign cards may not link; carry rupees for small places and taxis. Tip about 10 percent in restaurants.",
+  "id": "darjeeling",
+  "name": "Darjeeling",
+  "at": [
+   27.041,
+   88.2663
+  ],
+  "wiki": "Darjeeling",
+  "cover": "Kangchenjunga",
+  "dailyBudget": [
+   2000,
+   5000
+  ],
+  "cashPerDay": [
+   1000,
+   3000
+  ],
+  "seasons": "LLHHHLLLSHHL",
+  "tagline": "Tea gardens, the toy train and Kangchenjunga at dawn",
+  "summary": "Darjeeling is a Himalayan hill station on a ridge facing Kangchenjunga, the world's third-highest mountain. Watch sunrise light the peaks from Tiger Hill, ride the UNESCO toy train, tour tea estates and taste first-flush Darjeeling, and wander the Mall and Tibetan monasteries.",
+  "days": 3,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "October and November give the clearest mountain views; monsoon (June to September) brings cloud and landslides.",
+  "arrival": "Fly to Bagdogra or take a train to New Jalpaiguri, then 3 hours by shared jeep or car.",
+  "gettingAround": "Walk the ridge; taxis for Tiger Hill and tea estates.",
+  "foodTip": "Momos, thukpa, Tibetan bread and of course Darjeeling tea.",
+  "buyTip": "First and second-flush Darjeeling tea.",
+  "baseArea": "Near the Chowrasta and the Mall",
+  "hotel": [
+   30,
+   150
+  ],
+  "connections": [
+   {
+    "to": "kolkata",
+    "mode": "Plane",
+    "minutes": 60,
+    "note": "Fly to Bagdogra, then 3 hours by road."
+   }
+  ],
+  "items": [
+   {
+    "name": "Tiger Hill sunrise",
+    "kind": "see",
+    "id": "dar-tiger",
+    "at": [
+     26.998,
+     88.293
+    ],
+    "wiki": "Tiger Hill, Darjeeling",
+    "area": "Tiger Hill",
+    "summary": "Sunrise over Kangchenjunga, with Everest visible on clear days.",
+    "expect": "Leave around 4 am; crowded and cold.",
+    "tip": "Go in October or November for clear skies.",
+    "why": "Himalayan dawn.",
+    "flow": [
+     "Pre-dawn drive.",
+     "Sunrise."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     1500
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Darjeeling Himalayan Railway",
+    "kind": "see",
+    "id": "dar-toytrain",
+    "at": [
+     27.036,
+     88.263
+    ],
+    "wiki": "Darjeeling Himalayan Railway",
+    "area": "Darjeeling station",
+    "summary": "UNESCO narrow-gauge \"toy train\", with a steam joy ride to Ghum and the Batasia Loop.",
+    "expect": "Book ahead.",
+    "tip": "Take the steam joy ride.",
+    "why": "Historic railway.",
+    "flow": [
+     "Joy ride.",
+     "Batasia Loop."
+    ],
+    "hours": 2,
+    "price": [
+     1500,
+     2000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Technology"
+    ],
+    "book": "Book ahead"
+   },
+   {
+    "name": "Happy Valley Tea Estate",
+    "kind": "see",
+    "id": "dar-tea",
+    "at": [
+     27.053,
+     88.26
+    ],
+    "wiki": "Happy Valley Tea Estate",
+    "area": "North Point",
+    "summary": "Old tea estate with tours of the factory and tastings.",
+    "expect": "Closed Mondays; factory runs in season.",
+    "tip": "Visit March to November when leaves are processed.",
+    "why": "Darjeeling tea at source.",
+    "flow": [
+     "Factory.",
+     "Tasting."
+    ],
+    "hours": 1.5,
+    "price": [
+     100,
+     300
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Chowrasta and the Mall",
+    "kind": "see",
+    "id": "dar-mall",
+    "at": [
+     27.043,
+     88.266
+    ],
+    "wiki": "Darjeeling",
+    "area": "Chowrasta",
+    "summary": "Ridge-top square and promenade with mountain views.",
+    "expect": "Free.",
+    "tip": "Have tea at Keventer's or Glenary's.",
+    "why": "Hill-station life.",
+    "flow": [
+     "Mall walk.",
+     "Tea."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Padmaja Naidu Himalayan Zoological Park and HMI",
+    "kind": "see",
+    "id": "dar-hmi",
+    "at": [
+     27.058,
+     88.255
+    ],
+    "wiki": "Himalayan Mountaineering Institute",
+    "area": "Jawahar Parbat",
+    "summary": "Zoo with red pandas and snow leopards, beside the Everest museum of Tenzing Norgay's institute.",
+    "expect": "Paid; closed Thursdays.",
+    "tip": "Combine both.",
+    "why": "Mountaineering history.",
+    "flow": [
+     "Zoo.",
+     "Everest museum."
+    ],
+    "hours": 2.5,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Ghoom Monastery",
+    "kind": "see",
+    "id": "dar-ghoom",
+    "at": [
+     27.009,
+     88.249
+    ],
+    "wiki": "Ghum Monastery",
+    "area": "Ghum",
+    "summary": "Tibetan Buddhist monastery with a large Maitreya Buddha.",
+    "expect": "Free.",
+    "tip": "Combine with the toy train ride.",
+    "why": "Buddhist heritage.",
+    "flow": [
+     "Prayer hall.",
+     "Buddha."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Japanese Peace Pagoda",
+    "kind": "see",
+    "id": "dar-pagoda",
+    "at": [
+     27.03,
+     88.27
+    ],
+    "wiki": "Japanese Peace Pagoda",
+    "area": "Jalapahar",
+    "summary": "White stupa with mountain views and drumming prayers.",
+    "expect": "Free.",
+    "tip": "Go for the evening prayers.",
+    "why": "Peaceful view.",
+    "flow": [
+     "Pagoda.",
+     "View."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Momos and thukpa",
+    "kind": "eat",
+    "id": "dar-momo",
+    "at": [
+     27.042,
+     88.265
+    ],
+    "wiki": "Momo (food)",
+    "area": "Mall",
+    "summary": "Tibetan dumplings and noodle soup.",
+    "expect": "Everywhere.",
+    "tip": "Try pork or veg momos with chilli.",
+    "why": "Hill food.",
+    "flow": [
+     "Momo shop.",
+     "Thukpa."
+    ],
+    "hours": 1,
+    "price": [
+     150,
+     300
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Tibetan",
+    "order": [
+     "Momos",
+     "Thukpa"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Glenary's",
+    "kind": "eat",
+    "id": "dar-glenarys",
+    "at": [
+     27.0425,
+     88.265
+    ],
+    "wiki": "Darjeeling",
+    "area": "Mall",
+    "summary": "Colonial bakery and tearoom on the Mall with valley views.",
+    "expect": "Busy.",
+    "tip": "Have tea and a pastry on the terrace.",
+    "why": "Colonial tearoom.",
+    "flow": [
+     "Bakery.",
+     "Terrace tea."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bakery",
+    "order": [
+     "Darjeeling tea",
+     "Pastries"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Keventer's",
+    "kind": "eat",
+    "id": "dar-keventers",
+    "at": [
+     27.0428,
+     88.2662
+    ],
+    "wiki": "Darjeeling",
+    "area": "Chowrasta",
+    "summary": "Old breakfast spot with a rooftop over the town.",
+    "expect": "Simple food.",
+    "tip": "Order the sausage platter.",
+    "why": "Classic breakfast.",
+    "flow": [
+     "Rooftop.",
+     "Breakfast."
+    ],
+    "hours": 1,
+    "price": [
+     300,
+     600
+    ],
+    "best": "Breakfast",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Café",
+    "order": [
+     "Breakfast platter",
+     "Hot chocolate"
+    ],
+    "veg": "some",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "India",
+  "region": "Asia",
+  "currency": "INR",
+  "cashTip": "UPI is everywhere but foreign cards may not link; carry rupees for small places and taxis. Tip about 10 percent in restaurants.",
+  "id": "leh",
+  "name": "Leh (Ladakh)",
+  "at": [
+   34.1526,
+   77.5771
+  ],
+  "wiki": "Leh",
+  "cover": "Thiksey Monastery",
+  "dailyBudget": [
+   2500,
+   6000
+  ],
+  "cashPerDay": [
+   1500,
+   4000
+  ],
+  "seasons": "LLLSHHPPHSLL",
+  "tagline": "High-desert monasteries and the roof of India",
+  "summary": "Leh is the capital of Ladakh, a high-altitude desert of Tibetan Buddhist monasteries, prayer flags and moonscape mountains at 3,500 m. Acclimatise slowly, then visit Thiksey and Hemis monasteries, drive over one of the world's highest roads to the Nubra Valley's dunes and Bactrian camels, and see the colour-shifting Pangong Lake.",
+  "days": 6,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "June to September; road passes close in winter. Rest your first two days for the altitude.",
+  "arrival": "Flights from Delhi take 1h20; road access from Manali or Srinagar in summer.",
+  "gettingAround": "Hire a car with driver; Inner Line Permits are needed for Nubra and Pangong (arranged in Leh).",
+  "foodTip": "Thukpa, momos, skyu (pasta stew), butter tea and apricots.",
+  "buyTip": "Pashmina, thangka paintings and dried apricots.",
+  "baseArea": "Leh old town and Changspa",
+  "hotel": [
+   40,
+   200
+  ],
+  "connections": [
+   {
+    "to": "delhi",
+    "mode": "Plane",
+    "minutes": 80,
+    "note": "Daily flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Leh Palace and old town",
+    "kind": "see",
+    "id": "leh-palace",
+    "at": [
+     34.165,
+     77.585
+    ],
+    "wiki": "Leh Palace",
+    "area": "Old town",
+    "summary": "Nine-storey 17th-century palace above mud-brick lanes.",
+    "expect": "Small fee; climb carefully at altitude.",
+    "tip": "Go up for sunset over the valley.",
+    "why": "Ladakh's Potala.",
+    "flow": [
+     "Old town lanes.",
+     "Palace roof."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     300
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Shanti Stupa",
+    "kind": "see",
+    "id": "leh-shanti",
+    "at": [
+     34.173,
+     77.575
+    ],
+    "wiki": "Shanti Stupa (Leh)",
+    "area": "Changspa",
+    "summary": "White stupa on a hill with a panorama of Leh and the mountains.",
+    "expect": "Steep steps.",
+    "tip": "Drive up and walk down.",
+    "why": "Peaceful view.",
+    "flow": [
+     "Stupa.",
+     "View."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Thiksey Monastery",
+    "kind": "see",
+    "id": "leh-thiksey",
+    "at": [
+     34.056,
+     77.668
+    ],
+    "wiki": "Thiksey Monastery",
+    "area": "Thiksey",
+    "summary": "Monastery stacked up a hill, with morning prayers and a giant Maitreya Buddha.",
+    "expect": "Small fee.",
+    "tip": "Arrive at 6 am for the morning puja.",
+    "why": "Ladakh's icon.",
+    "flow": [
+     "Morning prayers.",
+     "Maitreya hall."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     50
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Hemis Monastery",
+    "kind": "see",
+    "id": "leh-hemis",
+    "at": [
+     33.912,
+     77.703
+    ],
+    "wiki": "Hemis Monastery",
+    "area": "Hemis",
+    "summary": "Ladakh's richest monastery, home to a famous mask festival in June or July.",
+    "expect": "Small fee.",
+    "tip": "Time it with the Hemis Festival.",
+    "why": "Festival monastery.",
+    "flow": [
+     "Courtyard.",
+     "Museum."
+    ],
+    "hours": 2,
+    "price": [
+     100,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Nubra Valley",
+    "kind": "see",
+    "id": "leh-nubra",
+    "at": [
+     34.56,
+     77.56
+    ],
+    "wiki": "Nubra Valley",
+    "area": "Nubra",
+    "summary": "High-desert valley with sand dunes and Bactrian camels, over the high Khardung La pass.",
+    "expect": "Permit needed; overnight trip.",
+    "tip": "Stay in Hunder; ride a camel at sunset.",
+    "why": "Dunes in the Himalaya.",
+    "flow": [
+     "Cross Khardung La.",
+     "Hunder dunes."
+    ],
+    "hours": 24,
+    "price": [
+     500,
+     3000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Pangong Lake",
+    "kind": "see",
+    "id": "leh-pangong",
+    "at": [
+     33.76,
+     78.66
+    ],
+    "wiki": "Pangong Tso",
+    "area": "Pangong",
+    "summary": "High lake that shifts from turquoise to deep blue, stretching into Tibet.",
+    "expect": "Permit; 5 hours each way; very cold at night.",
+    "tip": "Stay overnight at Spangmik.",
+    "why": "Unreal colours.",
+    "flow": [
+     "Drive via Chang La.",
+     "Lakeshore."
+    ],
+    "hours": 24,
+    "price": [
+     0,
+     3000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Magnetic Hill and the confluence",
+    "kind": "see",
+    "id": "leh-confluence",
+    "at": [
+     34.254,
+     77.205
+    ],
+    "wiki": "Magnetic Hill",
+    "area": "Nimmu",
+    "summary": "Optical-illusion road and the meeting of the Indus and Zanskar rivers.",
+    "expect": "On the Srinagar road.",
+    "tip": "Combine with Likir and Alchi monasteries.",
+    "why": "Road trip stops.",
+    "flow": [
+     "Magnetic Hill.",
+     "Sangam view."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Thukpa and momos",
+    "kind": "eat",
+    "id": "leh-thukpa",
+    "at": [
+     34.164,
+     77.584
+    ],
+    "wiki": "Thukpa",
+    "area": "Main Bazaar",
+    "summary": "Noodle soup and dumplings, warming at altitude.",
+    "expect": "Everywhere.",
+    "tip": "Ask for mutton momos.",
+    "why": "Ladakhi comfort.",
+    "flow": [
+     "Small restaurant.",
+     "Thukpa."
+    ],
+    "hours": 1,
+    "price": [
+     150,
+     300
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ladakhi",
+    "order": [
+     "Thukpa",
+     "Momos"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Butter tea and apricots",
+    "kind": "eat",
+    "id": "leh-tea",
+    "at": [
+     34.163,
+     77.585
+    ],
+    "wiki": "Po cha",
+    "area": "Main Bazaar",
+    "summary": "Salty butter tea and sweet local apricots and apricot jam.",
+    "expect": "An acquired taste.",
+    "tip": "Buy apricots from the bazaar.",
+    "why": "Ladakhi taste.",
+    "flow": [
+     "Tea.",
+     "Apricots."
+    ],
+    "hours": 0.5,
+    "price": [
+     50,
+     200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ladakhi",
+    "order": [
+     "Butter tea",
+     "Apricot jam"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Skyu",
+    "kind": "eat",
+    "id": "leh-skyu",
+    "at": [
+     34.1645,
+     77.5845
+    ],
+    "wiki": "Ladakhi cuisine",
+    "area": "Old town",
+    "summary": "Thick stew of thumb-pressed pasta, vegetables and meat.",
+    "expect": "Ladakhi restaurants and homestays.",
+    "tip": "Ask your homestay to make it.",
+    "why": "Traditional dish.",
+    "flow": [
+     "Ladakhi kitchen.",
+     "Skyu."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ladakhi",
+    "order": [
+     "Skyu",
+     "Chhutagi"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "India",
+  "region": "Asia",
+  "currency": "INR",
+  "cashTip": "UPI is everywhere but foreign cards may not link; carry rupees for small places and taxis. Tip about 10 percent in restaurants.",
+  "id": "hampi",
+  "name": "Hampi",
+  "at": [
+   15.335,
+   76.46
+  ],
+  "wiki": "Hampi",
+  "cover": "Virupaksha Temple, Hampi",
+  "dailyBudget": [
+   1500,
+   4000
+  ],
+  "cashPerDay": [
+   800,
+   2000
+  ],
+  "seasons": "HHSLLLLLSHHH",
+  "tagline": "Ruins of an empire among giant boulders",
+  "summary": "Hampi was the capital of the Vijayanagara Empire, one of the richest cities in the 1500s. Today its temples, palaces and bazaars lie scattered among surreal boulder hills and banana plantations. See the stone chariot at the Vittala Temple, the living Virupaksha Temple, and climb Matanga Hill for sunrise.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "November to February; it is fiercely hot from March to May.",
+  "arrival": "Overnight trains from Bengaluru or Goa to Hosapete, then 30 minutes by auto-rickshaw.",
+  "gettingAround": "Bicycle, scooter or auto-rickshaw between the ruins.",
+  "foodTip": "South Indian thalis on banana leaves, dosas and filter coffee.",
+  "buyTip": "Lambani embroidery from the nearby craft villages.",
+  "baseArea": "Hampi Bazaar or Hosapete",
+  "hotel": [
+   20,
+   150
+  ],
+  "connections": [
+   {
+    "to": "bengaluru",
+    "mode": "Train",
+    "minutes": 540,
+    "note": "Overnight train to Hosapete."
+   },
+   {
+    "to": "goa",
+    "mode": "Train",
+    "minutes": 480,
+    "note": "Train or bus to Hosapete."
+   }
+  ],
+  "items": [
+   {
+    "name": "Vittala Temple and Stone Chariot",
+    "kind": "see",
+    "id": "ham-vittala",
+    "at": [
+     15.342,
+     76.474
+    ],
+    "wiki": "Vittala Temple",
+    "area": "Vittala",
+    "summary": "Temple with the famous stone chariot and musical pillars.",
+    "expect": "Paid; electric buggies from the gate.",
+    "tip": "Go at opening for soft light and few people.",
+    "why": "Hampi's icon.",
+    "flow": [
+     "Stone chariot.",
+     "Musical pillars."
+    ],
+    "hours": 2,
+    "price": [
+     40,
+     600
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Virupaksha Temple",
+    "kind": "see",
+    "id": "ham-virupaksha",
+    "at": [
+     15.335,
+     76.459
+    ],
+    "wiki": "Virupaksha Temple, Hampi",
+    "area": "Hampi Bazaar",
+    "summary": "Living temple with a tall gopuram and a temple elephant.",
+    "expect": "Small fee; remove shoes.",
+    "tip": "See the inverted image of the tower in a dark chamber.",
+    "why": "Still in worship.",
+    "flow": [
+     "Gopuram.",
+     "Inner shrine."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     50
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Matanga Hill sunrise",
+    "kind": "see",
+    "id": "ham-matanga",
+    "at": [
+     15.338,
+     76.465
+    ],
+    "wiki": "Matanga Hill",
+    "area": "Hampi",
+    "summary": "Boulder climb to a temple at the top with a sunrise over the ruins.",
+    "expect": "Rocky steps; go with company.",
+    "tip": "Start 45 minutes before sunrise.",
+    "why": "Best view.",
+    "flow": [
+     "Climb in the dark.",
+     "Sunrise."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Royal Enclosure and Lotus Mahal",
+    "kind": "see",
+    "id": "ham-royal",
+    "at": [
+     15.319,
+     76.471
+    ],
+    "wiki": "Lotus Mahal",
+    "area": "Royal Centre",
+    "summary": "Palace platforms, stepped tank, Lotus Mahal and the Elephant Stables.",
+    "expect": "Paid combined ticket.",
+    "tip": "Use a bike between sites.",
+    "why": "Royal city.",
+    "flow": [
+     "Mahanavami Dibba.",
+     "Lotus Mahal and stables."
+    ],
+    "hours": 3,
+    "price": [
+     40,
+     600
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Hemakuta Hill",
+    "kind": "see",
+    "id": "ham-hemakuta",
+    "at": [
+     15.334,
+     76.457
+    ],
+    "wiki": "Hemakuta Hill",
+    "area": "Hampi Bazaar",
+    "summary": "Rock hill of small temples above the bazaar.",
+    "expect": "Free.",
+    "tip": "Sunset spot close to town.",
+    "why": "Easy sunset.",
+    "flow": [
+     "Temples.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Coracle ride on the Tungabhadra",
+    "kind": "see",
+    "id": "ham-coracle",
+    "at": [
+     15.342,
+     76.47
+    ],
+    "wiki": "Coracle",
+    "area": "Tungabhadra River",
+    "summary": "Round basket-boat ride between the boulders.",
+    "expect": "Seasonal water levels.",
+    "tip": "Agree the price before.",
+    "why": "Unusual boat.",
+    "flow": [
+     "Riverside.",
+     "Coracle ride."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hampi Bazaar and Achyutaraya Temple",
+    "kind": "see",
+    "id": "ham-achyuta",
+    "at": [
+     15.339,
+     76.468
+    ],
+    "wiki": "Achyutaraya Temple",
+    "area": "Hampi",
+    "summary": "Ruined bazaar street leading to a quiet temple under Matanga Hill.",
+    "expect": "Free.",
+    "tip": "Walk from the Virupaksha end.",
+    "why": "Quiet ruins.",
+    "flow": [
+     "Bazaar street.",
+     "Temple."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Banana-leaf thali",
+    "kind": "eat",
+    "id": "ham-thali",
+    "at": [
+     15.336,
+     76.46
+    ],
+    "wiki": "Thali",
+    "area": "Hampi Bazaar",
+    "summary": "Rice with sambar, rasam, curries and chutneys on a banana leaf.",
+    "expect": "Simple places.",
+    "tip": "Eat with your right hand.",
+    "why": "South Indian meal.",
+    "flow": [
+     "Local restaurant.",
+     "Thali."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     250
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South Indian",
+    "order": [
+     "Thali"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Dosa and filter coffee",
+    "kind": "eat",
+    "id": "ham-dosa",
+    "at": [
+     15.3355,
+     76.4595
+    ],
+    "wiki": "Dosa",
+    "area": "Hampi Bazaar",
+    "summary": "Crisp dosa with coconut chutney, then strong filter coffee.",
+    "expect": "Breakfast.",
+    "tip": "Try a masala dosa.",
+    "why": "Morning ritual.",
+    "flow": [
+     "Café.",
+     "Dosa."
+    ],
+    "hours": 0.5,
+    "price": [
+     60,
+     150
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South Indian",
+    "order": [
+     "Masala dosa",
+     "Filter coffee"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Riverside cafés",
+    "kind": "eat",
+    "id": "ham-cafe",
+    "at": [
+     15.34,
+     76.458
+    ],
+    "wiki": "Hampi",
+    "area": "Virupapur Gaddi",
+    "summary": "Laid-back cafés with floor cushions and travellers' food.",
+    "expect": "Check which side of the river is open.",
+    "tip": "Watch sunset from a rooftop.",
+    "why": "Backpacker vibe.",
+    "flow": [
+     "Café.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     200,
+     500
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Thali",
+     "Lassi"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "India",
+  "region": "Asia",
+  "currency": "INR",
+  "cashTip": "UPI is everywhere but foreign cards may not link; carry rupees for small places and taxis. Tip about 10 percent in restaurants.",
+  "id": "munnar",
+  "name": "Munnar",
+  "at": [
+   10.0889,
+   77.0595
+  ],
+  "wiki": "Munnar",
+  "cover": "Munnar tea plantations",
+  "dailyBudget": [
+   2000,
+   5000
+  ],
+  "cashPerDay": [
+   800,
+   2000
+  ],
+  "seasons": "HHHSLLLLLSSH",
+  "tagline": "Rolling tea hills of the Western Ghats",
+  "summary": "Munnar is a cool hill station in Kerala, wrapped in endless emerald tea plantations. Walk among the tea bushes, learn how tea is made at the Tata Tea Museum, spot the rare Nilgiri tahr in Eravikulam National Park, and catch misty sunrise views from Kolukkumalai, one of the highest tea estates in the world.",
+  "days": 3,
+  "bestMonths": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "September to March; monsoon (June to August) is lush but wet. Eravikulam closes in the tahr calving season (about February to March).",
+  "arrival": "Kochi airport is about 4 hours by road.",
+  "gettingAround": "Hire a car or jeep with driver; roads are winding.",
+  "foodTip": "Kerala sadhya, appam with stew, and fresh cardamom tea.",
+  "buyTip": "Tea, cardamom and spices.",
+  "baseArea": "Near Munnar town or a tea-estate homestay",
+  "hotel": [
+   30,
+   200
+  ],
+  "connections": [
+   {
+    "to": "kochi",
+    "mode": "Car",
+    "minutes": 240,
+    "note": "Mountain road."
+   }
+  ],
+  "items": [
+   {
+    "name": "Tea plantation walk",
+    "kind": "see",
+    "id": "mun-tea",
+    "at": [
+     10.0889,
+     77.0595
+    ],
+    "wiki": "Munnar",
+    "area": "Around town",
+    "summary": "Walk the trimmed rows of tea bushes over the hills.",
+    "expect": "Stay on estate paths.",
+    "tip": "Hire a guide for estate trails.",
+    "why": "The classic view.",
+    "flow": [
+     "Estate walk.",
+     "Tea pickers."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Eravikulam National Park",
+    "kind": "see",
+    "id": "mun-eravikulam",
+    "at": [
+     10.15,
+     77.06
+    ],
+    "wiki": "Eravikulam National Park",
+    "area": "Rajamalai",
+    "summary": "Grasslands home to the Nilgiri tahr mountain goat.",
+    "expect": "Paid; closed in calving season; bus only.",
+    "tip": "Go early for tahr sightings.",
+    "why": "Rare wildlife.",
+    "flow": [
+     "Park bus.",
+     "Tahr viewpoint."
+    ],
+    "hours": 3,
+    "price": [
+     200,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tata Tea Museum",
+    "kind": "see",
+    "id": "mun-museum",
+    "at": [
+     10.096,
+     77.061
+    ],
+    "wiki": "Tata Tea",
+    "area": "Nullatanni",
+    "summary": "Museum showing how tea is processed, with a working factory demo.",
+    "expect": "Paid; closed Mondays.",
+    "tip": "Taste the teas at the end.",
+    "why": "Tea know-how.",
+    "flow": [
+     "Exhibits.",
+     "Factory demo."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Food",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Kolukkumalai sunrise",
+    "kind": "see",
+    "id": "mun-kolukkumalai",
+    "at": [
+     10.055,
+     77.229
+    ],
+    "wiki": "Kolukkumalai",
+    "area": "Kolukkumalai",
+    "summary": "One of the world's highest tea estates, reached by jeep for sunrise above the clouds.",
+    "expect": "Very bumpy jeep ride; early start.",
+    "tip": "Book the jeep the night before.",
+    "why": "Above the clouds.",
+    "flow": [
+     "Jeep up.",
+     "Sunrise."
+    ],
+    "hours": 4,
+    "price": [
+     2000,
+     3000
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Mattupetty Dam and Echo Point",
+    "kind": "see",
+    "id": "mun-mattupetty",
+    "at": [
+     10.106,
+     77.124
+    ],
+    "wiki": "Mattupetty",
+    "area": "Mattupetty",
+    "summary": "Lake and dam with boating among the tea hills.",
+    "expect": "Touristy.",
+    "tip": "Go on a weekday.",
+    "why": "Lake views.",
+    "flow": [
+     "Dam.",
+     "Echo Point."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Top Station",
+    "kind": "see",
+    "id": "mun-topstation",
+    "at": [
+     10.125,
+     77.246
+    ],
+    "wiki": "Top Station",
+    "area": "Top Station",
+    "summary": "Viewpoint on the Kerala-Tamil Nadu border over the valley.",
+    "expect": "Clouds roll in by mid-morning.",
+    "tip": "Go early.",
+    "why": "Valley panorama.",
+    "flow": [
+     "Drive.",
+     "Viewpoint."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kerala sadhya",
+    "kind": "eat",
+    "id": "mun-sadhya",
+    "at": [
+     10.088,
+     77.06
+    ],
+    "wiki": "Sadhya",
+    "area": "Town",
+    "summary": "Vegetarian feast of many dishes on a banana leaf.",
+    "expect": "Best at lunch.",
+    "tip": "Eat with your hand, finish with payasam.",
+    "why": "Kerala feast.",
+    "flow": [
+     "Restaurant.",
+     "Sadhya."
+    ],
+    "hours": 1,
+    "price": [
+     150,
+     350
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Kerala",
+    "order": [
+     "Sadhya",
+     "Payasam"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Appam and stew",
+    "kind": "eat",
+    "id": "mun-appam",
+    "at": [
+     10.0885,
+     77.059
+    ],
+    "wiki": "Appam",
+    "area": "Town",
+    "summary": "Lacy rice pancakes with coconut-milk stew.",
+    "expect": "Breakfast or dinner.",
+    "tip": "Order chicken or vegetable stew.",
+    "why": "Kerala classic.",
+    "flow": [
+     "Restaurant.",
+     "Appam and stew."
+    ],
+    "hours": 1,
+    "price": [
+     120,
+     300
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Kerala",
+    "order": [
+     "Appam",
+     "Stew"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Cardamom tea",
+    "kind": "eat",
+    "id": "mun-chai",
+    "at": [
+     10.089,
+     77.06
+    ],
+    "wiki": "Masala chai",
+    "area": "Town",
+    "summary": "Fresh highland tea brewed with cardamom at roadside stalls.",
+    "expect": "Everywhere.",
+    "tip": "Buy loose tea to take home.",
+    "why": "Tea at source.",
+    "flow": [
+     "Tea stall.",
+     "Chai."
+    ],
+    "hours": 0.5,
+    "price": [
+     20,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Kerala",
+    "order": [
+     "Cardamom tea"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]
