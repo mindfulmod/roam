@@ -194,17 +194,18 @@ function renderMapPins(fit = false) {
     const el = $('#map-list');
     if (el) el.innerHTML = listHtml();
   };
-  const listHtml = () => items.length
-    ? isCity
-      ? `<p class="maplist-order">Most-visited countries first, then each country’s most popular places. <button class="inline-link" data-action="ranking-method">How this is ranked</button>${groups.length > 1 ? ` · <button class="inline-link" data-action="map-fold-all">${groups.every((g) => mapFolded.has(g.country)) ? 'Open all countries' : 'Fold all countries'}</button>` : ''}</p>` +
-        groups
-          .map(
-            (g) =>
-              `<details class="maplist-group" data-country="${esc(g.country)}"${mapFolded.has(g.country) ? '' : ' open'}><summary class="maplist-country"><span>${esc(g.country)}<small>${esc(countryVisitors(g.country))}</small></span><em>${g.list.length} ${g.list.length === 1 ? 'city' : 'cities'}${icon('down')}</em></summary>${g.list.map(row).join('')}</details>`,
-          )
-          .join('')
-      : items.map(row).join('')
-    : '<p class="muted">No matching places. Try another filter.</p>';
+  const listHtml = () =>
+    items.length
+      ? isCity
+        ? `<p class="maplist-order">Most-visited countries first, then each country’s most popular places. <button class="inline-link" data-action="ranking-method">How this is ranked</button>${groups.length > 1 ? ` · <button class="inline-link" data-action="map-fold-all">${groups.every((g) => mapFolded.has(g.country)) ? 'Open all countries' : 'Fold all countries'}</button>` : ''}</p>` +
+          groups
+            .map(
+              (g) =>
+                `<details class="maplist-group" data-country="${esc(g.country)}"${mapFolded.has(g.country) ? '' : ' open'}><summary class="maplist-country"><span>${esc(g.country)}<small>${esc(countryVisitors(g.country))}</small></span><em>${g.list.length} ${g.list.length === 1 ? 'city' : 'cities'}${icon('down')}</em></summary>${g.list.map(row).join('')}</details>`,
+            )
+            .join('')
+        : items.map(row).join('')
+      : '<p class="muted">No matching places. Try another filter.</p>';
   if (!isMobile() || $('#map-sheet')?.classList.contains('open')) mapListDraw();
   else $('#map-list').innerHTML = '';
   if ($('#map-count'))

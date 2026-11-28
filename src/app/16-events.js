@@ -147,7 +147,8 @@ document.addEventListener('click', (e) => {
     renderBrowse();
     // From a row's "See all", bring the new grid into view instead of leaving you deep in the page.
     if (b.hasAttribute('data-jump')) $('#region-chips')?.scrollIntoView({ block: 'start' });
-  } else if (a === 'grid-more') moreGrid(); else if (a === 'city-tab') {
+  } else if (a === 'grid-more') moreGrid();
+  else if (a === 'city-tab') {
     const target = '#/city/' + id + '?tab=' + b.dataset.tab;
     if (location.hash === target) renderCity(id, b.dataset.tab);
     else location.hash = target;
