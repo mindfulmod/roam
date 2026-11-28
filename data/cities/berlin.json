@@ -127,7 +127,7 @@
           "period": "202511-202610",
           "title": "Brandenburg Gate",
           "url": "https://en.wikipedia.org/wiki/Brandenburg_Gate",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -188,7 +188,7 @@
           "period": "202511-202610",
           "title": "Reichstag building",
           "url": "https://en.wikipedia.org/wiki/Reichstag_building",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -247,7 +247,7 @@
           "period": "202511-202610",
           "title": "Memorial to the Murdered Jews of Europe",
           "url": "https://en.wikipedia.org/wiki/Memorial_to_the_Murdered_Jews_of_Europe",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -308,7 +308,7 @@
           "period": "202511-202610",
           "title": "Museum Island",
           "url": "https://en.wikipedia.org/wiki/Museum_Island",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -368,7 +368,7 @@
           "period": "202511-202610",
           "title": "East Side Gallery",
           "url": "https://en.wikipedia.org/wiki/East_Side_Gallery",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -422,7 +422,7 @@
           "period": "202511-202610",
           "title": "Gedenkstätte Berliner Mauer",
           "url": "https://en.wikipedia.org/wiki/Gedenkst%C3%A4tte_Berliner_Mauer",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -439,7 +439,7 @@
       "name": "Checkpoint Charlie",
       "kind": "see",
       "lat": 52.5075,
-      "lon": 13.3904,
+      "lon": 13.39028,
       "wiki": "Checkpoint Charlie",
       "summary": "The best-known Cold War crossing between East and West Berlin, now a replica guard hut and an open-air history gallery.",
       "expect": "The hut itself is a photo stop on a busy junction; the free outdoor panels along Friedrichstraße tell the story better than the paid museum.",
@@ -479,14 +479,23 @@
         "The hut itself is a photo stop on a busy junction; the free outdoor panels along Friedrichstraße tell the story better than the paid museum.",
         "Pair it with the Topography of Terror, a seven-minute walk west along the surviving stretch of Wall."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 183105,
+          "period": "202511-202610",
+          "title": "Checkpoint Charlie",
+          "url": "https://en.wikipedia.org/wiki/Checkpoint_Charlie",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q68689"
     },
     {
       "id": "berlin-berlin-tv-tower",
       "name": "Berlin TV Tower",
       "kind": "see",
-      "lat": 52.5208,
-      "lon": 13.4094,
+      "lat": 52.52083,
+      "lon": 13.40944,
       "wiki": "Fernsehturm Berlin",
       "summary": "East Germany's 368 m TV tower, still the tallest structure in Germany, with a viewing deck and revolving restaurant at 203 m.",
       "expect": "Timed tickets and a security check; the deck gives a full 360° view across both halves of the city.",
@@ -527,7 +536,20 @@
         "Timed tickets and a security check; the deck gives a full 360° view across both halves of the city.",
         "Book a timed slot online for sunset; walk-up queues can run over an hour at weekends."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 98681,
+          "period": "202511-202610",
+          "title": "Fernsehturm Berlin",
+          "url": "https://en.wikipedia.org/wiki/Fernsehturm_Berlin",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q151356",
+      "local": {
+        "name": "Berliner Fernsehturm",
+        "lang": "de"
+      }
     },
     {
       "id": "berlin-charlottenburg-palace",
@@ -576,7 +598,20 @@
         "Calmer than central sights; the gardens are free and the palace rooms are seen with an audio guide.",
         "Closed on Mondays. The gardens and Belvedere tea house are worth an extra hour on a sunny day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 37766,
+          "period": "202511-202610",
+          "title": "Schloss Charlottenburg",
+          "url": "https://en.wikipedia.org/wiki/Schloss_Charlottenburg",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q154996",
+      "local": {
+        "name": "Schloss Charlottenburg",
+        "lang": "de"
+      }
     },
     {
       "id": "berlin-mustafas-gemuse-kebap",
@@ -811,6 +846,6 @@
       }
     }
   ],
-  "enriched": "2026-11-15",
+  "enriched": "2026-11-28",
   "wikidata": "Q64"
 }
