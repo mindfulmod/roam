@@ -1209,3 +1209,18 @@ test('the phone map card steps to the next place by arrow or swipe', async () =>
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('saved places are a compact list on phones', async () => {
+  const page = await openApp(browser, origin, { hash: '#/city/tokyo' });
+  await page.waitForSelector('.cityhero');
+  const ids = await page.evaluate(() => C.tokyo.items.map((p) => p.id).slice(0, 6));
+  await page.context().close();
+  const saved = await openApp(browser, origin, { hash: '#/saved', state: { saved: ids } });
+  const card = saved.locator('.savedpage .placecard').first();
+  await card.waitFor();
+  assert.ok((await card.boundingBox()).height < 160);
+  await card.locator('[data-action="save"]').click();
+  assert.equal(await saved.locator('.savedpage .placecard').count(), 5);
+  assert.deepEqual(saved.errors, []);
+  await saved.context().close();
+});
