@@ -65,8 +65,8 @@
       "id": "djerba-dje-ghriba",
       "name": "El Ghriba Synagogue",
       "kind": "see",
-      "lat": 33.814,
-      "lon": 10.859,
+      "lat": 33.81389,
+      "lon": 10.85944,
       "wiki": "El Ghriba synagogue",
       "summary": "One of the oldest synagogues in Africa, richly tiled, with a yearly pilgrimage.",
       "expect": "Security checks; dress modestly.",
@@ -107,7 +107,20 @@
         "Security checks; dress modestly.",
         "Cover your head inside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17283,
+          "period": "202511-202610",
+          "title": "El Ghriba Synagogue",
+          "url": "https://en.wikipedia.org/wiki/El_Ghriba_Synagogue",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q311734",
+      "local": {
+        "name": "كنيس الغريبة",
+        "lang": "ar"
+      }
     },
     {
       "id": "djerba-dje-djerbahood",
@@ -153,14 +166,23 @@
         "Free.",
         "Walk in the morning light."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3262,
+          "period": "202511-202610",
+          "title": "Djerbahood",
+          "url": "https://en.wikipedia.org/wiki/Djerbahood",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "djerba-dje-souk",
       "name": "Houmt Souk",
       "kind": "see",
-      "lat": 33.876,
-      "lon": 10.858,
+      "lat": 33.86667,
+      "lon": 10.85,
       "wiki": "Houmt Souk",
       "summary": "Island capital with souks, fondouks (old inns) and a Spanish fort.",
       "expect": "Bargain in souks.",
@@ -200,7 +222,20 @@
         "Bargain in souks.",
         "See the Borj el-Kebir fort."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5673,
+          "period": "202511-202610",
+          "title": "Houmt El Souk",
+          "url": "https://en.wikipedia.org/wiki/Houmt_El_Souk",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q995360",
+      "local": {
+        "name": "حومة السوق",
+        "lang": "ar"
+      }
     },
     {
       "id": "djerba-dje-guellala",
@@ -253,8 +288,8 @@
       "id": "djerba-dje-beach",
       "name": "Sidi Mahrez beach",
       "kind": "see",
-      "lat": 33.86,
-      "lon": 10.97,
+      "lat": 33.86548,
+      "lon": 10.97122,
       "wiki": "Djerba",
       "summary": "Long sandy beach on the island's east coast.",
       "expect": "Hotel zone.",
@@ -292,15 +327,14 @@
       "tradeoffs": [
         "Hotel zone.",
         "Visit Flamingo Island by boat."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "djerba-dje-matmata",
       "name": "Matmata cave houses",
       "kind": "see",
-      "lat": 33.544,
-      "lon": 9.969,
+      "lat": 33.54264,
+      "lon": 9.96681,
       "wiki": "Matmata, Tunisia",
       "summary": "Underground Berber homes, one used as Luke's home in Star Wars.",
       "expect": "2.5 hours away.",
@@ -341,8 +375,21 @@
         "2.5 hours away.",
         "Visit Hotel Sidi Driss."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 19306,
+          "period": "202511-202610",
+          "title": "Matmata, Tunisia",
+          "url": "https://en.wikipedia.org/wiki/Matmata%2C_Tunisia",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q338512",
+      "local": {
+        "name": "مطماطة",
+        "lang": "ar"
+      }
     },
     {
       "id": "djerba-dje-couscous",
@@ -515,5 +562,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q188938",
+  "local": {
+    "name": "جربة",
+    "lang": "ar"
+  }
 }

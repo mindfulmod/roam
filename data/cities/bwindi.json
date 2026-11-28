@@ -113,7 +113,16 @@
         "Permit required (book months ahead); steep and muddy.",
         "Hire a porter; it helps locals and you."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 157862,
+          "period": "202511-202610",
+          "title": "Mountain gorilla",
+          "url": "https://en.wikipedia.org/wiki/Mountain_gorilla",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bwindi-bwi-batwa",
@@ -159,7 +168,16 @@
         "Community-run.",
         "Choose a community-led tour."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 80796,
+          "period": "202511-202610",
+          "title": "Twa",
+          "url": "https://en.wikipedia.org/wiki/Twa",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bwindi-bwi-village",
@@ -206,14 +224,23 @@
         "Community tour.",
         "Proceeds support the village."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 30158,
+          "period": "202511-202610",
+          "title": "Bwindi Impenetrable National Park",
+          "url": "https://en.wikipedia.org/wiki/Bwindi_Impenetrable_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bwindi-bwi-bunyonyi",
       "name": "Lake Bunyonyi",
       "kind": "see",
-      "lat": -1.29,
-      "lon": 29.93,
+      "lat": -1.28333,
+      "lon": 29.91667,
       "wiki": "Lake Bunyonyi",
       "summary": "Lake of terraced hills and 29 islands, safe for swimming.",
       "expect": "2 to 3 hours away.",
@@ -253,8 +280,17 @@
         "2 to 3 hours away.",
         "Paddle a dugout canoe between islands."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9028,
+          "period": "202511-202610",
+          "title": "Lake Bunyonyi",
+          "url": "https://en.wikipedia.org/wiki/Lake_Bunyonyi",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1010056"
     },
     {
       "id": "bwindi-bwi-waterfall",
@@ -300,7 +336,16 @@
         "Park fee.",
         "Good on your non-gorilla day."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 30158,
+          "period": "202511-202610",
+          "title": "Bwindi Impenetrable National Park",
+          "url": "https://en.wikipedia.org/wiki/Bwindi_Impenetrable_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bwindi-bwi-lodge",
@@ -474,5 +519,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q500397"
 }

@@ -111,8 +111,8 @@
       "id": "fernando-de-noronha-fdn-dolphins",
       "name": "Dolphin Bay viewpoint",
       "kind": "see",
-      "lat": -3.858,
-      "lon": -32.444,
+      "lat": -3.8584,
+      "lon": -32.4467,
       "wiki": "Baía dos Golfinhos",
       "summary": "Clifftop lookout over a bay where spinner dolphins rest.",
       "expect": "No swimming in the bay.",
@@ -151,8 +151,7 @@
       "tradeoffs": [
         "No swimming in the bay.",
         "Go at dawn."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "fernando-de-noronha-fdn-porcos",
@@ -245,7 +244,16 @@
         "Book ahead; no sunscreen.",
         "Book at the ICMBio office."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 94109,
+          "period": "202511-202610",
+          "title": "Fernando de Noronha",
+          "url": "https://en.wikipedia.org/wiki/Fernando_de_Noronha",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "fernando-de-noronha-fdn-dive",
@@ -292,14 +300,23 @@
         "Expensive.",
         "Book with a local dive centre."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 94109,
+          "period": "202511-202610",
+          "title": "Fernando de Noronha",
+          "url": "https://en.wikipedia.org/wiki/Fernando_de_Noronha",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "fernando-de-noronha-fdn-fort",
       "name": "Forte dos Remédios",
       "kind": "see",
-      "lat": -3.838,
-      "lon": -32.406,
+      "lat": -3.83911,
+      "lon": -32.40982,
       "wiki": "Fernando de Noronha",
       "summary": "Hilltop 18th-century fort with sunset views.",
       "expect": "Free.",
@@ -339,7 +356,15 @@
         "Free.",
         "Sunset spot."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 94109,
+          "period": "202511-202610",
+          "title": "Fernando de Noronha",
+          "url": "https://en.wikipedia.org/wiki/Fernando_de_Noronha",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "fernando-de-noronha-fdn-seafood",
@@ -513,5 +538,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q175057"
 }

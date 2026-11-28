@@ -65,8 +65,8 @@
       "id": "cape-coast-cc-castle",
       "name": "Cape Coast Castle",
       "kind": "see",
-      "lat": 5.1031,
-      "lon": -1.2414,
+      "lat": 5.10361,
+      "lon": -1.24111,
       "wiki": "Cape Coast Castle",
       "summary": "Castle where enslaved Africans were held before being shipped across the Atlantic.",
       "expect": "Guided tours; deeply moving.",
@@ -105,14 +105,23 @@
         "Guided tours; deeply moving.",
         "Take the guided dungeon tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 68964,
+          "period": "202511-202610",
+          "title": "Cape Coast Castle",
+          "url": "https://en.wikipedia.org/wiki/Cape_Coast_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1254826"
     },
     {
       "id": "cape-coast-cc-elmina",
       "name": "Elmina Castle",
       "kind": "see",
-      "lat": 5.082,
-      "lon": -1.348,
+      "lat": 5.0826,
+      "lon": -1.3481,
       "wiki": "Elmina Castle",
       "summary": "The oldest European building in sub-Saharan Africa, built by the Portuguese in 1482.",
       "expect": "Guided tours.",
@@ -151,14 +160,23 @@
         "Guided tours.",
         "See the fishing harbour outside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 76455,
+          "period": "202511-202610",
+          "title": "Elmina Castle",
+          "url": "https://en.wikipedia.org/wiki/Elmina_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q55264655"
     },
     {
       "id": "cape-coast-cc-kakum",
       "name": "Kakum National Park canopy walkway",
       "kind": "see",
-      "lat": 5.35,
-      "lon": -1.38,
+      "lat": 5.3536,
+      "lon": -1.3833,
       "wiki": "Kakum National Park",
       "summary": "Rope walkway 40 m up through the rainforest canopy.",
       "expect": "Paid; 30 minutes away.",
@@ -198,15 +216,24 @@
         "Paid; 30 minutes away.",
         "Go early for birds."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 15636,
+          "period": "202511-202610",
+          "title": "Kakum National Park",
+          "url": "https://en.wikipedia.org/wiki/Kakum_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q568693"
     },
     {
       "id": "cape-coast-cc-harbour",
       "name": "Elmina fishing harbour",
       "kind": "see",
-      "lat": 5.083,
-      "lon": -1.346,
+      "lat": 5.08333,
+      "lon": -1.35,
       "wiki": "Elmina",
       "summary": "Busy harbour of painted canoes and fish markets.",
       "expect": "Ask before photos.",
@@ -245,14 +272,23 @@
         "Ask before photos.",
         "Visit in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 19507,
+          "period": "202511-202610",
+          "title": "Elmina",
+          "url": "https://en.wikipedia.org/wiki/Elmina",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q968662"
     },
     {
       "id": "cape-coast-cc-fortwilliam",
       "name": "Fort William lighthouse",
       "kind": "see",
-      "lat": 5.106,
-      "lon": -1.244,
+      "lat": 5.10804,
+      "lon": -1.24434,
       "wiki": "Fort William (Cape Coast)",
       "summary": "Hilltop fort-lighthouse with town views.",
       "expect": "Ask the keeper.",
@@ -291,8 +327,7 @@
       "tradeoffs": [
         "Ask the keeper.",
         "Go for sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "cape-coast-cc-beach",
@@ -338,7 +373,16 @@
         "Strong currents.",
         "Swim only where locals do."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29584,
+          "period": "202511-202610",
+          "title": "Cape Coast",
+          "url": "https://en.wikipedia.org/wiki/Cape_Coast",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "cape-coast-cc-banku",
@@ -511,5 +555,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q221283"
 }

@@ -72,8 +72,8 @@
       "id": "ouro-preto-ouro-saofrancisco",
       "name": "Church of São Francisco de Assis",
       "kind": "see",
-      "lat": -20.387,
-      "lon": -43.501,
+      "lat": -20.38665,
+      "lon": -43.50292,
       "wiki": "Church of Saint Francis of Assisi (Ouro Preto)",
       "summary": "Aleijadinho's Baroque masterpiece with a painted ceiling by Ataíde.",
       "expect": "Paid; no photos inside.",
@@ -114,7 +114,20 @@
         "Paid; no photos inside.",
         "Look at the soapstone carvings outside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3787,
+          "period": "202511-202610",
+          "title": "Church of Saint Francis of Assisi (Ouro Preto)",
+          "url": "https://en.wikipedia.org/wiki/Church_of_Saint_Francis_of_Assisi_(Ouro_Preto)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2337984",
+      "local": {
+        "name": "Igreja de São Francisco de Assis  (Ouro Preto)",
+        "lang": "pt"
+      }
     },
     {
       "id": "ouro-preto-ouro-pilar",
@@ -261,8 +274,8 @@
       "id": "ouro-preto-ouro-mariana",
       "name": "Mariana",
       "kind": "see",
-      "lat": -20.377,
-      "lon": -43.416,
+      "lat": -20.37833,
+      "lon": -43.39972,
       "wiki": "Mariana, Minas Gerais",
       "summary": "Smaller colonial town with twin churches and a pipe organ.",
       "expect": "15 km away.",
@@ -302,8 +315,17 @@
         "15 km away.",
         "Hear the organ concert on Fridays and Sundays."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6363,
+          "period": "202511-202610",
+          "title": "Mariana, Minas Gerais",
+          "url": "https://en.wikipedia.org/wiki/Mariana%2C_Minas_Gerais",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q984567"
     },
     {
       "id": "ouro-preto-ouro-inhotim",
@@ -351,7 +373,16 @@
         "Allow a whole day; stay nearby."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11683,
+          "period": "202511-202610",
+          "title": "Inhotim",
+          "url": "https://en.wikipedia.org/wiki/Inhotim",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "ouro-preto-ouro-mineira",
@@ -525,5 +556,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q188905"
 }
