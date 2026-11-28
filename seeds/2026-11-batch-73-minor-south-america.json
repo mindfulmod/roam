@@ -1,0 +1,2286 @@
+[
+ {
+  "country": "Brazil",
+  "region": "South America",
+  "currency": "BRL",
+  "cashTip": "Cards and Pix work almost everywhere. Tours are booked through agencies in town.",
+  "id": "bonito",
+  "name": "Bonito",
+  "at": [
+   -21.1261,
+   -56.4836
+  ],
+  "wiki": "Bonito, Mato Grosso do Sul",
+  "cover": "Gruta do Lago Azul",
+  "dailyBudget": [
+   300,
+   700
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "seasons": "HSSSSSHHSSSH",
+  "tagline": "Snorkel in crystal-clear rivers full of fish",
+  "summary": "Bonito is Brazil's eco-tourism model town, where limestone filters the rivers to astonishing clarity. Float down the Rio da Prata among huge dourado fish, see the blue lake inside the Gruta do Lago Azul cave, watch macaws circle in the giant Buraco das Araras sinkhole and swim under waterfalls.",
+  "days": 4,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Water is clearest in the drier months; every tour has a daily cap, so book ahead.",
+  "arrival": "Flights to Bonito or Campo Grande (then 4 hours by road).",
+  "gettingAround": "Tours include transport; a car helps.",
+  "foodTip": "Pacu and pintado river fish, and churrasco.",
+  "buyTip": "Local crafts.",
+  "baseArea": "Bonito town",
+  "hotel": [
+   60,
+   300
+  ],
+  "connections": [
+   {
+    "to": "sao-paulo",
+    "mode": "Plane",
+    "minutes": 150,
+    "note": "Flights via Campo Grande."
+   }
+  ],
+  "items": [
+   {
+    "name": "Rio da Prata snorkel",
+    "kind": "see",
+    "id": "bon-prata",
+    "at": [
+     -21.443,
+     -56.437
+    ],
+    "wiki": "Bonito, Mato Grosso do Sul",
+    "area": "Jardim",
+    "summary": "Drift snorkel down a crystal river among dourados and piraputangas.",
+    "expect": "Daily cap; book through an agency.",
+    "tip": "No sunscreen allowed.",
+    "why": "The Bonito experience.",
+    "flow": [
+     "Forest walk.",
+     "River float."
+    ],
+    "hours": 4,
+    "price": [
+     300,
+     400
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "book": "Book through an agency"
+   },
+   {
+    "name": "Gruta do Lago Azul",
+    "kind": "see",
+    "id": "bon-lagoazul",
+    "at": [
+     -20.976,
+     -56.51
+    ],
+    "wiki": "Gruta do Lago Azul",
+    "area": "Bonito",
+    "summary": "Cave with a deep, intensely blue lake.",
+    "expect": "Timed visits; steps.",
+    "tip": "Morning light hits the lake.",
+    "why": "Blue cave.",
+    "flow": [
+     "Descend.",
+     "Lake view."
+    ],
+    "hours": 1.5,
+    "price": [
+     100,
+     150
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Buraco das Araras",
+    "kind": "see",
+    "id": "bon-araras",
+    "at": [
+     -21.492,
+     -56.411
+    ],
+    "wiki": "Buraco das Araras",
+    "area": "Jardim",
+    "summary": "Giant sinkhole where red macaws nest.",
+    "expect": "Paid.",
+    "tip": "Go early or late for activity.",
+    "why": "Macaw spectacle.",
+    "flow": [
+     "Rim trail.",
+     "Viewpoints."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     120
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Abismo Anhumas",
+    "kind": "see",
+    "id": "bon-abismo",
+    "at": [
+     -21.13,
+     -56.59
+    ],
+    "wiki": "Bonito, Mato Grosso do Sul",
+    "area": "Bonito",
+    "summary": "Abseil 72 m into a cave lake to snorkel or dive.",
+    "expect": "Expensive; training required.",
+    "tip": "Book far ahead.",
+    "why": "Ultimate adventure.",
+    "flow": [
+     "Abseil.",
+     "Cave snorkel."
+    ],
+    "hours": 5,
+    "price": [
+     900,
+     1500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ],
+    "book": "Book ahead"
+   },
+   {
+    "name": "Waterfall trails (Estância Mimosa)",
+    "kind": "see",
+    "id": "bon-mimosa",
+    "at": [
+     -21.0,
+     -56.6
+    ],
+    "wiki": "Bonito, Mato Grosso do Sul",
+    "area": "Bonito",
+    "summary": "Trail past waterfalls with swimming spots.",
+    "expect": "Paid tours.",
+    "tip": "Bring water shoes.",
+    "why": "Waterfalls.",
+    "flow": [
+     "Trail.",
+     "Swim."
+    ],
+    "hours": 4,
+    "price": [
+     150,
+     250
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Balneário Municipal",
+    "kind": "see",
+    "id": "bon-balneario",
+    "at": [
+     -21.15,
+     -56.45
+    ],
+    "wiki": "Bonito, Mato Grosso do Sul",
+    "area": "Bonito",
+    "summary": "Public river beach with clear water and fish.",
+    "expect": "Cheap.",
+    "tip": "Good on a free afternoon.",
+    "why": "Budget swim.",
+    "flow": [
+     "Swim.",
+     "Fish."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "River fish",
+    "kind": "eat",
+    "id": "bon-fish",
+    "at": [
+     -21.126,
+     -56.483
+    ],
+    "wiki": "Pacu",
+    "area": "Town",
+    "summary": "Grilled pacu ribs and pintado.",
+    "expect": "Town restaurants.",
+    "tip": "Try pacu ribs.",
+    "why": "Pantanal flavour.",
+    "flow": [
+     "Restaurant.",
+     "Fish."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Costela de pacu",
+     "Pintado"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Churrasco",
+    "kind": "eat",
+    "id": "bon-churrasco",
+    "at": [
+     -21.1265,
+     -56.484
+    ],
+    "wiki": "Churrasco",
+    "area": "Town",
+    "summary": "Grilled meats in the cattle country.",
+    "expect": "Dinner.",
+    "tip": "Order picanha.",
+    "why": "Meat country.",
+    "flow": [
+     "Steakhouse.",
+     "Picanha."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Brazilian",
+    "order": [
+     "Picanha"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Sorvete de frutas",
+    "kind": "eat",
+    "id": "bon-sorvete",
+    "at": [
+     -21.126,
+     -56.4835
+    ],
+    "wiki": "Ice cream",
+    "area": "Town",
+    "summary": "Ice cream from Cerrado fruits.",
+    "expect": "Town square.",
+    "tip": "Try guavira.",
+    "why": "Local fruit.",
+    "flow": [
+     "Shop.",
+     "Taste."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dessert",
+    "order": [
+     "Guavira ice cream"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Argentina",
+  "region": "South America",
+  "currency": "ARS",
+  "cashTip": "Carry pesos; cards often get a better rate now. ATMs can run out in El Chaltén, so bring cash.",
+  "id": "el-chalten",
+  "name": "El Chaltén",
+  "at": [
+   -49.3315,
+   -72.8863
+  ],
+  "wiki": "El Chaltén",
+  "cover": "Fitz Roy",
+  "dailyBudget": [
+   60000,
+   150000
+  ],
+  "cashPerDay": [
+   20000,
+   60000
+  ],
+  "seasons": "PPHSLLLLSSHP",
+  "tagline": "Argentina's trekking capital under Mount Fitz Roy",
+  "summary": "El Chaltén is a small mountain village built for hikers, at the foot of the jagged Fitz Roy massif. Hike to Laguna de los Tres for sunrise on Fitz Roy, walk to Laguna Torre beneath Cerro Torre, and enjoy craft beer in town after long, free trails in Los Glaciares National Park.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "November to March; many places close in winter. Patagonian winds are strong.",
+  "arrival": "About 3 hours by bus from El Calafate.",
+  "gettingAround": "Trails start in the village; shuttles to some trailheads.",
+  "foodTip": "Patagonian lamb, craft beer and empanadas.",
+  "buyTip": "Outdoor gear and local beer.",
+  "baseArea": "The village",
+  "hotel": [
+   60,
+   250
+  ],
+  "connections": [
+   {
+    "to": "el-calafate",
+    "mode": "Bus",
+    "minutes": 180,
+    "note": "Daily buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Laguna de los Tres",
+    "kind": "see",
+    "id": "elc-tres",
+    "at": [
+     -49.273,
+     -73.008
+    ],
+    "wiki": "Laguna de los Tres",
+    "area": "Los Glaciares",
+    "summary": "Hike to a glacial lake right under Fitz Roy's towers.",
+    "expect": "20 km return; last hour is steep.",
+    "tip": "Start before dawn for sunrise light.",
+    "why": "Patagonia's great hike.",
+    "flow": [
+     "Trail.",
+     "Final climb."
+    ],
+    "hours": 9,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Laguna Torre",
+    "kind": "see",
+    "id": "elc-torre",
+    "at": [
+     -49.327,
+     -72.994
+    ],
+    "wiki": "Cerro Torre",
+    "area": "Los Glaciares",
+    "summary": "Easier hike to a lake with icebergs below Cerro Torre.",
+    "expect": "18 km return.",
+    "tip": "Continue to Mirador Maestri if open.",
+    "why": "Ice and spires.",
+    "flow": [
+     "Trail.",
+     "Lake."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Mirador de los Cóndores",
+    "kind": "see",
+    "id": "elc-condores",
+    "at": [
+     -49.333,
+     -72.88
+    ],
+    "wiki": "El Chaltén",
+    "area": "Village",
+    "summary": "Short climb to a view over the village and Fitz Roy.",
+    "expect": "1 hour return.",
+    "tip": "Sunset.",
+    "why": "Easy view.",
+    "flow": [
+     "Climb.",
+     "View."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Chorrillo del Salto",
+    "kind": "see",
+    "id": "elc-salto",
+    "at": [
+     -49.296,
+     -72.933
+    ],
+    "wiki": "El Chaltén",
+    "area": "North",
+    "summary": "Waterfall walk from town.",
+    "expect": "Easy.",
+    "tip": "Good rest-day walk.",
+    "why": "Easy waterfall.",
+    "flow": [
+     "Walk.",
+     "Falls."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lago del Desierto",
+    "kind": "see",
+    "id": "elc-desierto",
+    "at": [
+     -49.05,
+     -72.88
+    ],
+    "wiki": "Lago del Desierto",
+    "area": "North",
+    "summary": "Lake with boat trips and the Huemul glacier.",
+    "expect": "Shuttle and boat.",
+    "tip": "Hike to the Huemul glacier lagoon.",
+    "why": "Wild lake.",
+    "flow": [
+     "Shuttle.",
+     "Boat and hike."
+    ],
+    "hours": 7,
+    "price": [
+     20000,
+     60000
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Patagonian lamb",
+    "kind": "eat",
+    "id": "elc-lamb",
+    "at": [
+     -49.331,
+     -72.886
+    ],
+    "wiki": "Patagonian lamb",
+    "area": "Village",
+    "summary": "Lamb roasted on an iron cross over a fire.",
+    "expect": "Dinner.",
+    "tip": "Share a parrilla.",
+    "why": "Patagonia classic.",
+    "flow": [
+     "Parrilla.",
+     "Lamb."
+    ],
+    "hours": 1.5,
+    "price": [
+     25000,
+     45000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Cordero al asador"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Craft beer",
+    "kind": "eat",
+    "id": "elc-beer",
+    "at": [
+     -49.332,
+     -72.887
+    ],
+    "wiki": "Beer in Argentina",
+    "area": "Village",
+    "summary": "Local breweries pouring after-hike beers.",
+    "expect": "Evenings.",
+    "tip": "La Zorra is a known brewery.",
+    "why": "After-hike treat.",
+    "flow": [
+     "Brewery.",
+     "Pint."
+    ],
+    "hours": 1,
+    "price": [
+     5000,
+     10000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Empanadas for the trail",
+    "kind": "eat",
+    "id": "elc-empanadas",
+    "at": [
+     -49.3315,
+     -72.8865
+    ],
+    "wiki": "Empanada",
+    "area": "Village",
+    "summary": "Empanadas to pack for long hikes.",
+    "expect": "Bakeries.",
+    "tip": "Buy the night before.",
+    "why": "Trail fuel.",
+    "flow": [
+     "Bakery.",
+     "Pack lunch."
+    ],
+    "hours": 0.5,
+    "price": [
+     2000,
+     5000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Argentine",
+    "order": [
+     "Empanadas"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Chile",
+  "region": "South America",
+  "currency": "CLP",
+  "cashTip": "Cards work widely; carry pesos for buses and small shops. A 10 percent tip is suggested on the bill.",
+  "id": "pucon",
+  "name": "Pucón",
+  "at": [
+   -39.2819,
+   -71.9545
+  ],
+  "wiki": "Pucón",
+  "cover": "Villarrica (volcano)",
+  "dailyBudget": [
+   50000,
+   120000
+  ],
+  "cashPerDay": [
+   15000,
+   40000
+  ],
+  "seasons": "PPHSLLLLSSHP",
+  "tagline": "Lakes, hot springs and an active volcano",
+  "summary": "Pucón is Chile's adventure town on Lake Villarrica, under the smoking cone of Villarrica volcano. Climb the volcano when it is open, soak in the Termas Geométricas hot springs, hike among monkey-puzzle trees in Huerquehue National Park and raft the Trancura river.",
+  "days": 4,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "December to March for hiking and lakes; winter brings skiing. Volcano climbs depend on activity level.",
+  "arrival": "Flights to Temuco or Pucón airport; buses from Santiago take about 10 hours.",
+  "gettingAround": "Tours and buses; a car helps.",
+  "foodTip": "Mapuche dishes, Chilean empanadas and kuchen cakes from German settlers.",
+  "buyTip": "Mapuche crafts.",
+  "baseArea": "Town centre near the lake",
+  "hotel": [
+   50,
+   200
+  ],
+  "connections": [
+   {
+    "to": "santiago",
+    "mode": "Plane",
+    "minutes": 80,
+    "note": "Flights to Temuco or Pucón."
+   }
+  ],
+  "items": [
+   {
+    "name": "Villarrica volcano climb",
+    "kind": "see",
+    "id": "puc-volcano",
+    "at": [
+     -39.42,
+     -71.939
+    ],
+    "wiki": "Villarrica (volcano)",
+    "area": "Villarrica National Park",
+    "summary": "Guided climb to the crater rim of an active volcano.",
+    "expect": "Only with licensed guides; closed when activity is high.",
+    "tip": "Check status before booking.",
+    "why": "Look into a crater.",
+    "flow": [
+     "Ascent.",
+     "Crater rim."
+    ],
+    "hours": 9,
+    "price": [
+     100000,
+     150000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "book": "Licensed guides only"
+   },
+   {
+    "name": "Termas Geométricas",
+    "kind": "see",
+    "id": "puc-termas",
+    "at": [
+     -39.5,
+     -71.87
+    ],
+    "wiki": "Termas Geométricas",
+    "area": "Coñaripe",
+    "summary": "Red wooden walkways linking hot pools in a fern gorge.",
+    "expect": "Paid; 1.5 hours away.",
+    "tip": "Go in the evening.",
+    "why": "Design hot springs.",
+    "flow": [
+     "Walkways.",
+     "Pools."
+    ],
+    "hours": 3,
+    "price": [
+     30000,
+     40000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Huerquehue National Park",
+    "kind": "see",
+    "id": "puc-huerquehue",
+    "at": [
+     -39.15,
+     -71.72
+    ],
+    "wiki": "Huerquehue National Park",
+    "area": "Huerquehue",
+    "summary": "Trail to lakes among araucaria monkey-puzzle trees.",
+    "expect": "Park fee.",
+    "tip": "Hike Los Lagos trail.",
+    "why": "Ancient trees.",
+    "flow": [
+     "Trail.",
+     "Lakes."
+    ],
+    "hours": 6,
+    "price": [
+     5000,
+     10000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Lake Villarrica beach",
+    "kind": "see",
+    "id": "puc-lake",
+    "at": [
+     -39.278,
+     -71.96
+    ],
+    "wiki": "Villarrica Lake",
+    "area": "Town",
+    "summary": "Black sand beach with volcano views.",
+    "expect": "Busy in summer.",
+    "tip": "Kayak at sunset.",
+    "why": "Town beach.",
+    "flow": [
+     "Swim.",
+     "Kayak."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Trancura rafting",
+    "kind": "see",
+    "id": "puc-raft",
+    "at": [
+     -39.27,
+     -71.8
+    ],
+    "wiki": "Trancura River",
+    "area": "Trancura",
+    "summary": "Rafting on class III to IV rapids.",
+    "expect": "Tours.",
+    "tip": "Upper Trancura for thrills.",
+    "why": "Whitewater.",
+    "flow": [
+     "Rafting.",
+     "River."
+    ],
+    "hours": 3,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Ojos del Caburgua",
+    "kind": "see",
+    "id": "puc-ojos",
+    "at": [
+     -39.2,
+     -71.83
+    ],
+    "wiki": "Ojos del Caburgua",
+    "area": "Caburgua",
+    "summary": "Turquoise pools and waterfalls.",
+    "expect": "Small fee.",
+    "tip": "Combine with Caburgua lake.",
+    "why": "Blue pools.",
+    "flow": [
+     "Falls.",
+     "Pools."
+    ],
+    "hours": 1.5,
+    "price": [
+     2000,
+     3000
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kuchen",
+    "kind": "eat",
+    "id": "puc-kuchen",
+    "at": [
+     -39.282,
+     -71.954
+    ],
+    "wiki": "Kuchen",
+    "area": "Town",
+    "summary": "German-style fruit cakes from settlers' tradition.",
+    "expect": "Cafés.",
+    "tip": "Try raspberry kuchen.",
+    "why": "Southern Chile sweet.",
+    "flow": [
+     "Café.",
+     "Kuchen."
+    ],
+    "hours": 0.5,
+    "price": [
+     3000,
+     5000
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Kuchen"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Empanadas and pastel de choclo",
+    "kind": "eat",
+    "id": "puc-empanadas",
+    "at": [
+     -39.2815,
+     -71.955
+    ],
+    "wiki": "Empanada",
+    "area": "Town",
+    "summary": "Baked beef empanadas and corn pie.",
+    "expect": "Everywhere.",
+    "tip": "Order pastel de choclo in summer.",
+    "why": "Chilean classics.",
+    "flow": [
+     "Restaurant.",
+     "Pastel de choclo."
+    ],
+    "hours": 1,
+    "price": [
+     8000,
+     15000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilean",
+    "order": [
+     "Empanada de pino",
+     "Pastel de choclo"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Mapuche cuisine",
+    "kind": "eat",
+    "id": "puc-mapuche",
+    "at": [
+     -39.28,
+     -71.95
+    ],
+    "wiki": "Mapuche cuisine",
+    "area": "Area",
+    "summary": "Dishes with merkén chilli, piñones and catuto bread.",
+    "expect": "Some restaurants and rucas.",
+    "tip": "Look for a ruca restaurant.",
+    "why": "Indigenous food.",
+    "flow": [
+     "Find a ruca.",
+     "Taste."
+    ],
+    "hours": 1.5,
+    "price": [
+     10000,
+     20000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mapuche",
+    "order": [
+     "Catutos",
+     "Piñones"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Chile",
+  "region": "South America",
+  "currency": "CLP",
+  "cashTip": "Carry pesos; cards work in Castro and Ancud. Tip 10 percent.",
+  "id": "chiloe",
+  "name": "Chiloé",
+  "at": [
+   -42.4816,
+   -73.7623
+  ],
+  "wiki": "Chiloé Island",
+  "cover": "Palafitos",
+  "dailyBudget": [
+   45000,
+   100000
+  ],
+  "cashPerDay": [
+   15000,
+   40000
+  ],
+  "seasons": "PPHSLLLLSSHP",
+  "tagline": "Stilt houses, wooden churches and island myths",
+  "summary": "Chiloé is a misty, green island in southern Chile with its own culture and myths. See the colourful palafitos stilt houses of Castro, visit some of its 16 UNESCO wooden churches, watch Humboldt and Magellanic penguins at Puñihuil, and eat curanto, a feast cooked in an earth pit.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "Summer is mildest; rain is likely any time.",
+  "arrival": "Ferry from Pargua near Puerto Montt (30 minutes), then buses; flights to Castro.",
+  "gettingAround": "Buses between towns; a car is easiest.",
+  "foodTip": "Curanto, milcao potato bread, and seafood from the islands.",
+  "buyTip": "Wool knits and woven baskets.",
+  "baseArea": "Castro",
+  "hotel": [
+   50,
+   180
+  ],
+  "connections": [
+   {
+    "to": "santiago",
+    "mode": "Plane",
+    "minutes": 110,
+    "note": "Flights to Castro or Puerto Montt."
+   },
+   {
+    "to": "pucon",
+    "mode": "Car",
+    "minutes": 360,
+    "note": "Via Puerto Montt and the ferry."
+   }
+  ],
+  "items": [
+   {
+    "name": "Palafitos of Castro",
+    "kind": "see",
+    "id": "chi-palafitos",
+    "at": [
+     -42.479,
+     -73.77
+    ],
+    "wiki": "Palafito",
+    "area": "Castro",
+    "summary": "Colourful wooden houses on stilts over the water.",
+    "expect": "Best at high tide.",
+    "tip": "View from Gamboa bridge.",
+    "why": "Chiloé icon.",
+    "flow": [
+     "Gamboa.",
+     "Pedro Montt."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Church of San Francisco, Castro",
+    "kind": "see",
+    "id": "chi-castro-church",
+    "at": [
+     -42.482,
+     -73.763
+    ],
+    "wiki": "Church of San Francisco, Castro",
+    "area": "Castro",
+    "summary": "Yellow and violet wooden church on the main square.",
+    "expect": "Free.",
+    "tip": "Look at the wooden vaulting.",
+    "why": "UNESCO church.",
+    "flow": [
+     "Exterior.",
+     "Interior."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Puñihuil penguins",
+    "kind": "see",
+    "id": "chi-penguins",
+    "at": [
+     -41.92,
+     -74.04
+    ],
+    "wiki": "Puñihuil Natural Monument",
+    "area": "Ancud",
+    "summary": "Boat trip to islets with Humboldt and Magellanic penguins.",
+    "expect": "Season roughly September to March.",
+    "tip": "Go in the morning.",
+    "why": "Penguins!",
+    "flow": [
+     "Boat.",
+     "Penguins."
+    ],
+    "hours": 3,
+    "price": [
+     10000,
+     15000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Wooden churches route",
+    "kind": "see",
+    "id": "chi-churches",
+    "at": [
+     -42.4,
+     -73.65
+    ],
+    "wiki": "Churches of Chiloé",
+    "area": "Island",
+    "summary": "UNESCO churches in Dalcahue, Achao and more.",
+    "expect": "Car or tours.",
+    "tip": "Dalcahue Sunday market too.",
+    "why": "Unique architecture.",
+    "flow": [
+     "Dalcahue.",
+     "Achao."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     10000
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Chiloé National Park",
+    "kind": "see",
+    "id": "chi-park",
+    "at": [
+     -42.62,
+     -74.1
+    ],
+    "wiki": "Chiloé National Park",
+    "area": "Cucao",
+    "summary": "Wild Pacific beaches and forest trails.",
+    "expect": "Park fee.",
+    "tip": "Walk to the Cucao dunes.",
+    "why": "Wild west coast.",
+    "flow": [
+     "Trail.",
+     "Beach."
+    ],
+    "hours": 5,
+    "price": [
+     5000,
+     10000
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Muelle de las Almas",
+    "kind": "see",
+    "id": "chi-muelle",
+    "at": [
+     -42.69,
+     -74.15
+    ],
+    "wiki": "Cucao",
+    "area": "Cucao",
+    "summary": "Sculpted pier to nowhere on cliffs, from a local soul legend.",
+    "expect": "Private land fee; hike.",
+    "tip": "Go in good weather.",
+    "why": "Myth and views.",
+    "flow": [
+     "Hike.",
+     "Pier."
+    ],
+    "hours": 3,
+    "price": [
+     3000,
+     5000
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Curanto",
+    "kind": "eat",
+    "id": "chi-curanto",
+    "at": [
+     -42.48,
+     -73.762
+    ],
+    "wiki": "Curanto",
+    "area": "Castro",
+    "summary": "Shellfish, meats and potato breads steamed in a pit under leaves.",
+    "expect": "Big portions.",
+    "tip": "Try curanto en olla in restaurants.",
+    "why": "Island feast.",
+    "flow": [
+     "Restaurant.",
+     "Curanto."
+    ],
+    "hours": 2,
+    "price": [
+     12000,
+     20000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilote",
+    "order": [
+     "Curanto",
+     "Milcao"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Dalcahue market cocinerías",
+    "kind": "eat",
+    "id": "chi-dalcahue",
+    "at": [
+     -42.379,
+     -73.65
+    ],
+    "wiki": "Dalcahue",
+    "area": "Dalcahue",
+    "summary": "Market kitchens serving cazuela and seafood.",
+    "expect": "Weekends busiest.",
+    "tip": "Sunday for the craft fair.",
+    "why": "Local eats.",
+    "flow": [
+     "Market.",
+     "Lunch."
+    ],
+    "hours": 1,
+    "price": [
+     6000,
+     12000
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilote",
+    "order": [
+     "Cazuela",
+     "Empanadas de mariscos"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Chilote seafood",
+    "kind": "eat",
+    "id": "chi-seafood",
+    "at": [
+     -42.481,
+     -73.765
+    ],
+    "wiki": "Chiloé Island",
+    "area": "Castro",
+    "summary": "Mussels, clams and salmon.",
+    "expect": "Everywhere.",
+    "tip": "Try a paila marina.",
+    "why": "Ocean fresh.",
+    "flow": [
+     "Restaurant.",
+     "Paila marina."
+    ],
+    "hours": 1.5,
+    "price": [
+     10000,
+     18000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chilote",
+    "order": [
+     "Paila marina"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Peru",
+  "region": "South America",
+  "currency": "PEN",
+  "cashTip": "Carry soles for taxis and small places; cards work in hotels. Tip about 10 percent.",
+  "id": "mancora",
+  "name": "Máncora",
+  "at": [
+   -4.1078,
+   -81.0475
+  ],
+  "wiki": "Máncora",
+  "cover": "Máncora",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   60,
+   150
+  ],
+  "seasons": "PPPHSSSSSSHP",
+  "tagline": "Peru's sunny surf town",
+  "summary": "Máncora is a sunny surf town on Peru's far north coast, warm when the rest of the coast is grey. Surf or learn to surf, swim with sea turtles at El Ñuro pier, watch humpback whales in season, and eat ceviche straight from the boats.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Sunny all year; humpbacks pass from July to October.",
+  "arrival": "Fly to Talara or Tumbes (1 hour by road); overnight buses from Lima.",
+  "gettingAround": "Mototaxis.",
+  "foodTip": "Ceviche, tiradito and seafood.",
+  "buyTip": "Surf gear.",
+  "baseArea": "Town or Las Pocitas beach",
+  "hotel": [
+   30,
+   200
+  ],
+  "connections": [
+   {
+    "to": "lima",
+    "mode": "Plane",
+    "minutes": 110,
+    "note": "Flights to Talara or Tumbes."
+   }
+  ],
+  "items": [
+   {
+    "name": "Surf the point",
+    "kind": "see",
+    "id": "man-surf",
+    "at": [
+     -4.107,
+     -81.05
+    ],
+    "wiki": "Máncora",
+    "area": "Beach",
+    "summary": "Consistent left break for all levels; lessons on the beach.",
+    "expect": "Crowded at peak.",
+    "tip": "Morning glassy waves.",
+    "why": "Surf town.",
+    "flow": [
+     "Lesson.",
+     "Surf."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     120
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "El Ñuro turtles",
+    "kind": "see",
+    "id": "man-nuro",
+    "at": [
+     -4.216,
+     -81.18
+    ],
+    "wiki": "Los Órganos District",
+    "area": "El Ñuro",
+    "summary": "Swim with green sea turtles at the fishing pier.",
+    "expect": "Small fee; don't touch.",
+    "tip": "Go early.",
+    "why": "Turtle swim.",
+    "flow": [
+     "Pier.",
+     "Swim."
+    ],
+    "hours": 2,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Whale watching",
+    "kind": "see",
+    "id": "man-whales",
+    "at": [
+     -4.24,
+     -81.23
+    ],
+    "wiki": "Humpback whale",
+    "area": "Los Órganos",
+    "summary": "Boat trips to see humpbacks breeding offshore.",
+    "expect": "July to October.",
+    "tip": "Choose a licensed operator.",
+    "why": "Whales!",
+    "flow": [
+     "Boat.",
+     "Whales."
+    ],
+    "hours": 3,
+    "price": [
+     100,
+     150
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "optional": true
+   },
+   {
+    "name": "Las Pocitas beach",
+    "kind": "see",
+    "id": "man-pocitas",
+    "at": [
+     -4.125,
+     -81.07
+    ],
+    "wiki": "Máncora",
+    "area": "Las Pocitas",
+    "summary": "Quieter beach with rock pools at low tide.",
+    "expect": "Low tide for pools.",
+    "tip": "Sunset.",
+    "why": "Beach calm.",
+    "flow": [
+     "Pools.",
+     "Sunset."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Mud baths (Poza de Barro)",
+    "kind": "see",
+    "id": "man-mud",
+    "at": [
+     -4.05,
+     -80.95
+    ],
+    "wiki": "Máncora",
+    "area": "Inland",
+    "summary": "Natural hot mud pools in the dry forest.",
+    "expect": "Mototaxi trip.",
+    "tip": "Rinse at the spring.",
+    "why": "Mud fun.",
+    "flow": [
+     "Ride.",
+     "Mud."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ceviche",
+    "kind": "eat",
+    "id": "man-ceviche",
+    "at": [
+     -4.108,
+     -81.048
+    ],
+    "wiki": "Ceviche",
+    "area": "Town",
+    "summary": "Raw fish cured in lime with chilli and onion.",
+    "expect": "Lunch only.",
+    "tip": "Eat it at lunch when fish is freshest.",
+    "why": "Peru's dish.",
+    "flow": [
+     "Cevichería.",
+     "Ceviche."
+    ],
+    "hours": 1,
+    "price": [
+     25,
+     45
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Peruvian",
+    "order": [
+     "Ceviche",
+     "Leche de tigre"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Seafood grills",
+    "kind": "eat",
+    "id": "man-grill",
+    "at": [
+     -4.1075,
+     -81.047
+    ],
+    "wiki": "Peruvian cuisine",
+    "area": "Town",
+    "summary": "Grilled fish and seafood.",
+    "expect": "Dinner.",
+    "tip": "Try a chicharrón de pescado.",
+    "why": "Coastal dinner.",
+    "flow": [
+     "Restaurant.",
+     "Fish."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Peruvian",
+    "order": [
+     "Chicharrón de pescado"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Pisco sour",
+    "kind": "eat",
+    "id": "man-pisco",
+    "at": [
+     -4.1078,
+     -81.0475
+    ],
+    "wiki": "Pisco sour",
+    "area": "Beach",
+    "summary": "Peru's national cocktail.",
+    "expect": "Bars.",
+    "tip": "Sunset happy hours.",
+    "why": "National drink.",
+    "flow": [
+     "Bar.",
+     "Pisco sour."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Pisco sour"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Peru",
+  "region": "South America",
+  "currency": "PEN",
+  "cashTip": "Carry soles for taxis and small places; cards work in hotels. Tip about 10 percent.",
+  "id": "paracas",
+  "name": "Paracas and Huacachina",
+  "at": [
+   -13.834,
+   -76.25
+  ],
+  "wiki": "Paracas",
+  "cover": "Huacachina",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   60,
+   150
+  ],
+  "seasons": "PPHSSSSSSSSH",
+  "tagline": "Sea lions on Ballestas and a desert oasis",
+  "summary": "Paracas is a desert peninsula on Peru's south coast. Take a boat to the Ballestas Islands, \"the poor man's Galápagos\", full of sea lions, penguins and seabirds, past the mysterious Candelabra geoglyph. Explore the red-sand beaches of the national reserve, then ride dune buggies and sandboard at the Huacachina oasis.",
+  "days": 2,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Sunny most of the year; winds pick up in the afternoon.",
+  "arrival": "About 4 hours by bus from Lima.",
+  "gettingAround": "Tours; taxis between Paracas, Ica and Huacachina (1 hour).",
+  "foodTip": "Ceviche, Ica pisco and tejas sweets.",
+  "buyTip": "Pisco and tejas.",
+  "baseArea": "Paracas town or Huacachina",
+  "hotel": [
+   30,
+   250
+  ],
+  "connections": [
+   {
+    "to": "lima",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Several buses a day."
+   },
+   {
+    "to": "cusco",
+    "mode": "Bus",
+    "minutes": 960,
+    "note": "Overnight via Nazca."
+   }
+  ],
+  "items": [
+   {
+    "name": "Ballestas Islands",
+    "kind": "see",
+    "id": "prc-ballestas",
+    "at": [
+     -13.733,
+     -76.4
+    ],
+    "wiki": "Ballestas Islands",
+    "area": "Paracas",
+    "summary": "Boat tour to islands crowded with sea lions, penguins and boobies.",
+    "expect": "No landing; morning boats.",
+    "tip": "Sit on the left side for the Candelabra.",
+    "why": "Wildlife boat trip.",
+    "flow": [
+     "Candelabra.",
+     "Islands."
+    ],
+    "hours": 2.5,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Paracas National Reserve",
+    "kind": "see",
+    "id": "prc-reserve",
+    "at": [
+     -13.9,
+     -76.32
+    ],
+    "wiki": "Paracas National Reserve",
+    "area": "Paracas",
+    "summary": "Desert meeting the sea with red beaches and cliffs.",
+    "expect": "Entry fee; tour or bike.",
+    "tip": "Visit Playa Roja.",
+    "why": "Desert coast.",
+    "flow": [
+     "Viewpoints.",
+     "Playa Roja."
+    ],
+    "hours": 3,
+    "price": [
+     15,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Huacachina dune buggy and sandboarding",
+    "kind": "see",
+    "id": "prc-huacachina",
+    "at": [
+     -14.087,
+     -75.763
+    ],
+    "wiki": "Huacachina",
+    "area": "Ica",
+    "summary": "Oasis lagoon in huge dunes with buggy rides and sandboarding at sunset.",
+    "expect": "Wild rides.",
+    "tip": "Go for the sunset tour.",
+    "why": "Desert thrill.",
+    "flow": [
+     "Buggy.",
+     "Sandboard."
+    ],
+    "hours": 2.5,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ica pisco bodegas",
+    "kind": "see",
+    "id": "prc-pisco",
+    "at": [
+     -14.067,
+     -75.73
+    ],
+    "wiki": "Pisco",
+    "area": "Ica",
+    "summary": "Wineries and pisco distilleries with tastings.",
+    "expect": "Tours.",
+    "tip": "Visit Tacama or a small family bodega.",
+    "why": "Home of pisco.",
+    "flow": [
+     "Bodega.",
+     "Tasting."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Nazca Lines flight",
+    "kind": "see",
+    "id": "prc-nazca",
+    "at": [
+     -14.739,
+     -75.13
+    ],
+    "wiki": "Nazca Lines",
+    "area": "Nazca",
+    "summary": "Small-plane flight over the giant desert geoglyphs.",
+    "expect": "Flights from Pisco or Nazca; bumpy.",
+    "tip": "Skip breakfast if prone to airsickness.",
+    "why": "Ancient mystery.",
+    "flow": [
+     "Flight.",
+     "Geoglyphs."
+    ],
+    "hours": 3,
+    "price": [
+     400,
+     700
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ceviche by the bay",
+    "kind": "eat",
+    "id": "prc-ceviche",
+    "at": [
+     -13.834,
+     -76.25
+    ],
+    "wiki": "Ceviche",
+    "area": "Paracas",
+    "summary": "Fresh ceviche at bayfront restaurants.",
+    "expect": "Lunch.",
+    "tip": "Order a mixed ceviche.",
+    "why": "Fresh fish.",
+    "flow": [
+     "Restaurant.",
+     "Ceviche."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Peruvian",
+    "order": [
+     "Ceviche"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Tejas",
+    "kind": "eat",
+    "id": "prc-tejas",
+    "at": [
+     -14.064,
+     -75.73
+    ],
+    "wiki": "Ica",
+    "area": "Ica",
+    "summary": "Sweets filled with manjar blanco wrapped in sugar.",
+    "expect": "Shops in Ica.",
+    "tip": "Helena is a classic shop.",
+    "why": "Ica sweet.",
+    "flow": [
+     "Shop.",
+     "Taste."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Peruvian",
+    "order": [
+     "Tejas"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area",
+    "excursion": true
+   },
+   {
+    "name": "Pisco sour",
+    "kind": "eat",
+    "id": "prc-piscosour",
+    "at": [
+     -14.087,
+     -75.763
+    ],
+    "wiki": "Pisco sour",
+    "area": "Huacachina",
+    "summary": "The national cocktail by the oasis.",
+    "expect": "Bars.",
+    "tip": "At sunset after dunes.",
+    "why": "Oasis drink.",
+    "flow": [
+     "Bar.",
+     "Pisco sour."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Pisco sour"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area",
+    "excursion": true
+   }
+  ]
+ },
+ {
+  "country": "Ecuador",
+  "region": "South America",
+  "currency": "USD",
+  "cashTip": "Ecuador uses US dollars; carry small notes. Tip about 10 percent.",
+  "id": "otavalo",
+  "name": "Otavalo",
+  "at": [
+   0.2343,
+   -78.2611
+  ],
+  "wiki": "Otavalo",
+  "cover": "Otavalo Artisan Market",
+  "dailyBudget": [
+   40,
+   100
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "seasons": "SSSSSHHHSSSS",
+  "tagline": "Andean market town among volcanoes and lakes",
+  "summary": "Otavalo is famous for South America's best-known indigenous market, where Kichwa weavers sell textiles under the Imbabura volcano. Shop the Plaza de los Ponchos, see the dawn animal market on Saturdays, hike around the Cuicocha crater lake, and visit the Peguche waterfall.",
+  "days": 2,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Dry season June to September; the big market day is Saturday. Inti Raymi festivities in June.",
+  "arrival": "About 2 hours by bus from Quito.",
+  "gettingAround": "Taxis and buses.",
+  "foodTip": "Fritada, hornado roast pork, empanadas de viento and bizcochos from Cayambe.",
+  "buyTip": "Alpaca and wool textiles, and hammocks.",
+  "baseArea": "Town centre",
+  "hotel": [
+   25,
+   120
+  ],
+  "connections": [
+   {
+    "to": "quito",
+    "mode": "Bus",
+    "minutes": 120,
+    "note": "Frequent buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Plaza de los Ponchos market",
+    "kind": "see",
+    "id": "ota-market",
+    "at": [
+     0.237,
+     -78.262
+    ],
+    "wiki": "Otavalo Artisan Market",
+    "area": "Centre",
+    "summary": "Huge crafts market of textiles, hats and jewellery.",
+    "expect": "Biggest on Saturday.",
+    "tip": "Bargain politely.",
+    "why": "Famous market.",
+    "flow": [
+     "Stalls.",
+     "Textiles."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Art"
+    ]
+   },
+   {
+    "name": "Saturday animal market",
+    "kind": "see",
+    "id": "ota-animals",
+    "at": [
+     0.23,
+     -78.27
+    ],
+    "wiki": "Otavalo",
+    "area": "Edge of town",
+    "summary": "Early-morning livestock market.",
+    "expect": "Saturdays at dawn.",
+    "tip": "Arrive by 7 am.",
+    "why": "Real Andean life.",
+    "flow": [
+     "Dawn.",
+     "Market."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Early morning",
+    "p": 2,
+    "types": [
+     "History"
+    ],
+    "optional": true
+   },
+   {
+    "name": "Laguna Cuicocha",
+    "kind": "see",
+    "id": "ota-cuicocha",
+    "at": [
+     0.306,
+     -78.364
+    ],
+    "wiki": "Cuicocha",
+    "area": "Cotacachi",
+    "summary": "Crater lake with two islands, with a rim trail.",
+    "expect": "4-hour loop; altitude 3,000 m.",
+    "tip": "Start early before clouds.",
+    "why": "Crater hike.",
+    "flow": [
+     "Rim trail.",
+     "Boat."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Peguche Waterfall",
+    "kind": "see",
+    "id": "ota-peguche",
+    "at": [
+     0.246,
+     -78.247
+    ],
+    "wiki": "Peguche Waterfall",
+    "area": "Peguche",
+    "summary": "Sacred waterfall in a eucalyptus forest.",
+    "expect": "Small fee.",
+    "tip": "Visit weaving workshops in Peguche.",
+    "why": "Easy nature.",
+    "flow": [
+     "Walk.",
+     "Falls."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     2
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Cotacachi leather town",
+    "kind": "see",
+    "id": "ota-cotacachi",
+    "at": [
+     0.301,
+     -78.265
+    ],
+    "wiki": "Cotacachi",
+    "area": "Cotacachi",
+    "summary": "Town of leather shops.",
+    "expect": "20 minutes.",
+    "tip": "Combine with Cuicocha.",
+    "why": "Leather shopping.",
+    "flow": [
+     "Shops.",
+     "Square."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Shopping"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fritada and hornado",
+    "kind": "eat",
+    "id": "ota-fritada",
+    "at": [
+     0.235,
+     -78.26
+    ],
+    "wiki": "Fritada",
+    "area": "Centre",
+    "summary": "Fried and roast pork with mote corn and llapingachos.",
+    "expect": "Market stalls.",
+    "tip": "Eat in the food market.",
+    "why": "Andean feast.",
+    "flow": [
+     "Market.",
+     "Fritada."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Fritada",
+     "Hornado"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Empanadas de viento",
+    "kind": "eat",
+    "id": "ota-empanadas",
+    "at": [
+     0.2345,
+     -78.261
+    ],
+    "wiki": "Empanada",
+    "area": "Centre",
+    "summary": "Puffy fried empanadas with cheese and sugar.",
+    "expect": "Cafés.",
+    "tip": "With a hot canelazo.",
+    "why": "Sweet-savoury.",
+    "flow": [
+     "Café.",
+     "Empanada."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Empanadas de viento"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Bizcochos of Cayambe",
+    "kind": "eat",
+    "id": "ota-bizcochos",
+    "at": [
+     0.04,
+     -78.14
+    ],
+    "wiki": "Cayambe",
+    "area": "Cayambe",
+    "summary": "Buttery biscuits with cheese and dulce de leche.",
+    "expect": "On the road from Quito.",
+    "tip": "Stop on the way.",
+    "why": "Road snack.",
+    "flow": [
+     "Stop.",
+     "Bizcochos."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Bizcochos"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]
