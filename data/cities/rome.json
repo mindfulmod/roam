@@ -538,7 +538,7 @@
       "tip": "Entry to the main basilica and optional dome access have different costs; ceremonies can restrict access.",
       "bestTime": "Morning",
       "reservation": "Usually not needed",
-      "priority": 2,
+      "priority": 1,
       "priceNote": "Planning allowance per adult; tickets and inclusions change. Transport is extra unless explicitly included.",
       "sourceUrls": [
         "https://www.basilicasanpietro.va/en"
@@ -694,6 +694,104 @@
         "name": "Musei Capitolini",
         "lang": "it"
       }
+    },
+    {
+      "id": "rome-piazza-navona",
+      "name": "Piazza Navona",
+      "kind": "see",
+      "lat": 41.8992,
+      "lon": 12.4731,
+      "wiki": "Piazza Navona",
+      "summary": "Baroque oval square built on Domitian's stadium, with Bernini's Fountain of the Four Rivers.",
+      "expect": "Busy with painters and street performers; café tables on the square charge a premium.",
+      "tip": "Walk on to the Pantheon and Campo de' Fiori, all within ten minutes.",
+      "area": "Centro Storico",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning or evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Piazza%20Navona%2C%20Rome",
+        "https://www.google.com/maps/search/?api=1&query=Piazza%20Navona%2C%20Rome"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Piazza%20Navona%2C%20Rome"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "Baroque oval square built on Domitian's stadium, with Bernini's Fountain of the Four Rivers.",
+        "The square keeps the exact shape of the 1st-century stadium beneath it, and Bernini and Borromini face off across it."
+      ],
+      "visitFlow": [
+        "Enter from the north end by the Fountain of Neptune.",
+        "Stop at the Four Rivers fountain and Sant'Agnese in Agone.",
+        "Leave by the south end towards Campo de' Fiori."
+      ],
+      "bestFor": "First-time visitors linking the historic centre on foot",
+      "tradeoffs": [
+        "Busy with painters and street performers; café tables on the square charge a premium.",
+        "Walk on to the Pantheon and Campo de' Fiori, all within ten minutes."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "rome-spanish-steps",
+      "name": "Spanish Steps",
+      "kind": "see",
+      "lat": 41.906,
+      "lon": 12.4828,
+      "wiki": "Spanish Steps",
+      "summary": "The 135 travertine steps between Piazza di Spagna and Trinità dei Monti church.",
+      "expect": "Sitting on the steps is banned and fined; expect crowds at midday.",
+      "tip": "Climb to the church terrace for the view down Via Condotti, then walk the Pincio to Villa Borghese.",
+      "area": "Tridente",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Spanish%20Steps%2C%20Rome",
+        "https://www.google.com/maps/search/?api=1&query=Spanish%20Steps%2C%20Rome"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Spanish%20Steps%2C%20Rome"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Viewpoint",
+        "History"
+      ],
+      "whyVisit": [
+        "The 135 travertine steps between Piazza di Spagna and Trinità dei Monti church.",
+        "A Roman set piece of the 1720s that links the shopping streets below with the gardens above."
+      ],
+      "visitFlow": [
+        "See the Barcaccia fountain at the foot.",
+        "Climb to Trinità dei Monti for the view.",
+        "Continue to the Pincio terrace at sunset."
+      ],
+      "bestFor": "Walkers pairing the steps with Villa Borghese and the Pincio",
+      "tradeoffs": [
+        "Sitting on the steps is banned and fined; expect crowds at midday.",
+        "Climb to the church terrace for the view down Via Condotti, then walk the Pincio to Villa Borghese."
+      ],
+      "pinApproximate": true
     },
     {
       "id": "rome-himalaya-s-kashmir",

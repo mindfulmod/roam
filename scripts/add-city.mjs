@@ -38,7 +38,7 @@ export const TYPES = {
   Entertainment: 'shows and nightlife',
   Technology: 'science and technology',
 };
-const slug = (s) =>
+export const slug = (s) =>
   s
     .normalize('NFKD')
     .replace(/[̀-ͯ]/g, '')
@@ -92,7 +92,7 @@ const pair = (v, where, k) => {
   return v;
 };
 
-function buildItem(s, city, used) {
+export function buildItem(s, city, used) {
   const where = `${city.id} / ${s.name || '?'}`;
   need(
     s,
