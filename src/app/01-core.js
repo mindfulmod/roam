@@ -173,6 +173,10 @@ function repaintMapTheme() {
     m?.eachLayer((l) => {
       if (l.feature || l instanceof L.GeoJSON) l.setStyle?.(outlineStyle());
     });
+  if (map) {
+    dotInk = null;
+    for (const id in mapMarkers) if (mapMarkers[id].setStyle) markPin(id, 'selected', saved(id));
+  }
 }
 function icon(name) {
   return `<svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="${paths[name] || paths.pin}"/></svg>`;

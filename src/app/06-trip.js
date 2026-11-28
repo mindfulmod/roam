@@ -30,11 +30,7 @@ function toggleSave(id, quiet = false) {
   else if (location.hash.startsWith('#/city') && cityFilter === 'saved') refreshCityResults();
   if (map) {
     if (mapKind === 'saved') renderMapPins(false);
-    else
-      mapMarkers[id]
-        ?.getElement()
-        ?.querySelector('.map-pin')
-        ?.classList.toggle('selected', saved(id));
+    else markPin(id, 'selected', saved(id));
   }
 }
 function saveTopFive(cid) {
