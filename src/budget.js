@@ -374,7 +374,7 @@ function yearStrip(c, days = S.days[c.id] || c.days) {
       return `<button class="ybar s-${sn} ${y.m === m ? 'active' : ''} ${best ? 'best' : ''}" data-action="bud-month-pick" data-id="${y.m === m ? 0 : y.m}" aria-pressed="${y.m === m}" aria-label="${MONTHS_LONG[y.m - 1]}: ${busy[sn].toLowerCase()}${o ? `, about ${cash(y.est)}` : ''}${best ? ', one of the best months to visit' : ''}"><em>${best ? icon('sun') : ''}</em><i style="height:${h.toFixed(0)}%"></i><span>${MONTHS[y.m - 1][0]}</span></button>`;
     })
     .join('');
-  return `<div class="yearstrip"><div class="yearstrip-head"><strong>When to go</strong><small>${o ? `Cheapest in ${MONTHS_LONG[cheap.m - 1]}, about ${cash(cheap.est)}` : 'Tap a month to plan around it'}</small></div><div class="ybars" role="group" aria-label="The year by month">${bars}</div><div class="yearstrip-key"><span>${icon('sun')} best months</span><span><i class="s-L"></i> quiet</span><span><i class="s-S"></i> moderate</span><span><i class="s-H"></i> busy</span><span><i class="s-P"></i> very busy</span>${o ? '<span>taller = pricier</span>' : ''}${m ? `<button class="inline-link" data-action="bud-month-pick" data-id="0">Any time</button>` : ''}</div></div>`;
+  return `<div class="yearstrip"><div class="yearstrip-head"><strong>When to go</strong><small>${o ? `Cheapest in ${MONTHS_LONG[cheap.m - 1]}, about ${cash(cheap.est)}` : 'Tap a month to plan around it'}</small></div><div class="ybars" role="group" aria-label="The year by month">${bars}</div><div class="yearstrip-key"><span>${icon('sun')} best</span><span><i class="s-L"></i> quiet</span><span><i class="s-S"></i> moderate</span><span><i class="s-H"></i> busy</span><span><i class="s-P"></i> very busy</span>${o ? '<span>taller = pricier</span>' : ''}${m ? `<button class="inline-link" data-action="bud-month-pick" data-id="0">Any time</button>` : ''}</div></div>`;
 }
 // Rough door-to-door flying time from the home city, from the distance.
 function flightHours(c, o = budgetOrigin()) {
@@ -616,6 +616,8 @@ function budgetChanged() {
     $('.shared-page aside').innerHTML = sharedCost(sharedTrip);
   const panel = $('.citycost[data-id]');
   if (panel) panel.outerHTML = budgetPanel(C[panel.dataset.id]);
+  const pair = $('.city-prompts[data-id]');
+  if (pair && budgetReady()) pair.outerHTML = cityPrompts(C[pair.dataset.id]);
 }
 document.addEventListener('click', (e) => {
   const t = e.target.closest('[data-action]');

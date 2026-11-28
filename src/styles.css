@@ -9673,3 +9673,155 @@ img.photo {
     aspect-ratio: 4 / 3;
   }
 }
+
+/* ==========================================================================
+   Shorter city page on phones (2026-11-28): days, daily cost and When to go
+   share one card with shorter bars, and Trip cost + Your stay are two small
+   buttons side by side, so the Sights tab arrives sooner.
+   ========================================================================== */
+.city-prompts {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  margin: 0 0 18px;
+}
+.city-prompts .cp {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 10px 12px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: var(--k-fff-s);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.city-prompts .cp > .icon {
+  flex: none;
+  width: 20px;
+  height: 20px;
+  color: var(--teal);
+}
+.city-prompts .cp span {
+  min-width: 0;
+}
+.city-prompts .cp strong,
+.city-prompts .cp small {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.city-prompts .cp strong {
+  font-size: 14px;
+}
+.city-prompts .cp small {
+  font-size: 12px;
+  color: var(--muted);
+}
+@media (max-width: 760px) {
+  .cityglance {
+    border: 1px solid var(--line);
+    border-radius: 16px;
+    background: var(--k-fff-s);
+    padding: 4px 0 12px;
+    margin: 14px 0;
+  }
+  .cityglance .glance {
+    flex-wrap: nowrap;
+    gap: 0;
+  }
+  .cityglance .g-tile {
+    flex: 1 1 0;
+    border: 0;
+    border-radius: 0;
+    background: transparent;
+    padding: 10px 14px 6px;
+  }
+  .cityglance .g-tile + .g-tile {
+    border-left: 1px solid var(--line);
+  }
+  .cityglance .g-tile label {
+    font-size: 12px;
+    margin-bottom: 4px;
+  }
+  .cityglance .g-tile small {
+    margin-top: 2px;
+    font-size: 12px;
+  }
+  .cityglance .daydots {
+    margin-bottom: 4px;
+  }
+  .cityglance .daydots i {
+    width: 9px;
+    height: 9px;
+  }
+  .cityglance .yearstrip {
+    border: 0;
+    border-top: 1px solid var(--line);
+    border-radius: 0;
+    background: transparent;
+    margin: 8px 0 0;
+    padding: 12px 14px 0;
+  }
+  .cityglance .yearstrip-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+  }
+  .cityglance .yearstrip-head small {
+    font-size: 12px;
+    text-align: right;
+  }
+  .cityglance .ybars {
+    height: 72px;
+  }
+  .cityglance .yearstrip-key {
+    font-size: 12px;
+    gap: 2px 9px;
+  }
+  .cityglance .yearstrip-key .icon {
+    width: 12px;
+    height: 12px;
+  }
+  .cityhero {
+    height: 300px;
+  }
+  /* Two and a bit Top 5 cards on screen, like a row of stories. */
+  .t5card {
+    flex-basis: 44%;
+  }
+  /* Search, filters, chips and the count sit closer together above the places. */
+  .city-prompts {
+    margin-bottom: 4px;
+  }
+  .citytabs {
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .placetools {
+    margin-top: 8px;
+  }
+  .placetools .searchrow {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  .placetools .searchbox input {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .placetools .filterbtn .lbl {
+    display: none;
+  }
+  .placetools .chips {
+    margin-bottom: 6px;
+  }
+  #place-result-count {
+    margin: 2px 0 10px;
+    font-size: 13px;
+  }
+}
