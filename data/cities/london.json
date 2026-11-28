@@ -165,7 +165,7 @@
           "period": "202511-202610",
           "title": "Tower of London",
           "url": "https://en.wikipedia.org/wiki/Tower_of_London",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -222,7 +222,7 @@
           "period": "202511-202610",
           "title": "British Museum",
           "url": "https://en.wikipedia.org/wiki/British_Museum",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -279,7 +279,7 @@
           "period": "202511-202610",
           "title": "Big Ben",
           "url": "https://en.wikipedia.org/wiki/Big_Ben",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -334,7 +334,7 @@
           "period": "202511-202610",
           "title": "National Gallery",
           "url": "https://en.wikipedia.org/wiki/National_Gallery",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -391,7 +391,7 @@
           "period": "202511-202610",
           "title": "Tower Bridge",
           "url": "https://en.wikipedia.org/wiki/Tower_Bridge",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -551,7 +551,7 @@
           "period": "202511-202610",
           "title": "Westminster Abbey",
           "url": "https://en.wikipedia.org/wiki/Westminster_Abbey",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -652,7 +652,7 @@
           "period": "202511-202610",
           "title": "Tate Modern",
           "url": "https://en.wikipedia.org/wiki/Tate_Modern",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -664,8 +664,8 @@
       "id": "london-buckingham-palace",
       "name": "Buckingham Palace",
       "kind": "see",
-      "lat": 51.5014,
-      "lon": -0.1419,
+      "lat": 51.50083,
+      "lon": -0.14194,
       "wiki": "Buckingham Palace",
       "summary": "The monarch's London residence, seen from the gates for the Changing of the Guard or inside on a summer tour of the State Rooms.",
       "expect": "The guard ceremony draws big crowds; the State Rooms open only in summer, with timed tickets.",
@@ -706,14 +706,23 @@
         "The guard ceremony draws big crowds; the State Rooms open only in summer, with timed tickets.",
         "Watch the guards along The Mall or at Wellington Barracks for a clearer view than the palace gates."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 673190,
+          "period": "202511-202610",
+          "title": "Buckingham Palace",
+          "url": "https://en.wikipedia.org/wiki/Buckingham_Palace",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q42182"
     },
     {
       "id": "london-st-pauls-cathedral",
       "name": "St Paul's Cathedral",
       "kind": "see",
       "lat": 51.5138,
-      "lon": -0.0984,
+      "lon": -0.0983,
       "wiki": "St Paul's Cathedral",
       "summary": "Christopher Wren's domed cathedral, rebuilt after the Great Fire of 1666, with galleries climbing to the top of the dome.",
       "expect": "The ticket covers the crypt and the Whispering, Stone and Golden galleries; the top is 528 steps up.",
@@ -756,14 +765,23 @@
         "The ticket covers the crypt and the Whispering, Stone and Golden galleries; the top is 528 steps up.",
         "Climb to the Golden Gallery for one of the best views of the City, then cross the Millennium Bridge to Tate Modern."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 530187,
+          "period": "202511-202610",
+          "title": "St Paul's Cathedral",
+          "url": "https://en.wikipedia.org/wiki/St_Paul's_Cathedral",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q173882"
     },
     {
       "id": "london-victoria-and-albert-museum",
       "name": "Victoria and Albert Museum",
       "kind": "see",
-      "lat": 51.4966,
-      "lon": -0.1722,
+      "lat": 51.49667,
+      "lon": -0.17194,
       "wiki": "Victoria and Albert Museum",
       "summary": "The world's leading museum of art and design, from Raphael cartoons and Asian ceramics to fashion and jewellery.",
       "expect": "Free and enormous, with a calm garden café; pick a few galleries.",
@@ -804,7 +822,16 @@
         "Free and enormous, with a calm garden café; pick a few galleries.",
         "Pair it with the Natural History Museum next door and look at the Cast Courts."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 225912,
+          "period": "202511-202610",
+          "title": "Victoria and Albert Museum",
+          "url": "https://en.wikipedia.org/wiki/Victoria_and_Albert_Museum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q213322"
     },
     {
       "id": "london-dishoom-covent-garden",
@@ -1124,5 +1151,6 @@
       "status": "year-end estimate"
     }
   },
+  "enriched": "2026-11-28",
   "wikidata": "Q84"
 }

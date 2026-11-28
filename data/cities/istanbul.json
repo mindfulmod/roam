@@ -195,7 +195,7 @@
           "period": "202511-202610",
           "title": "Hagia Sophia",
           "url": "https://en.wikipedia.org/wiki/Hagia_Sophia",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -255,7 +255,7 @@
           "period": "202511-202610",
           "title": "Basilica Cistern",
           "url": "https://en.wikipedia.org/wiki/Basilica_Cistern",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -316,7 +316,7 @@
           "period": "202511-202610",
           "title": "Topkapı Palace",
           "url": "https://en.wikipedia.org/wiki/Topkap%C4%B1_Palace",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -377,7 +377,7 @@
           "period": "202511-202610",
           "title": "Blue Mosque, Istanbul",
           "url": "https://en.wikipedia.org/wiki/Blue_Mosque%2C_Istanbul",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -598,7 +598,7 @@
           "period": "202511-202610",
           "title": "Süleymaniye Mosque",
           "url": "https://en.wikipedia.org/wiki/S%C3%BCleymaniye_Mosque",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -657,7 +657,7 @@
           "period": "202511-202610",
           "title": "Galata Tower",
           "url": "https://en.wikipedia.org/wiki/Galata_Tower",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -711,7 +711,7 @@
           "period": "202511-202610",
           "title": "Dolmabahçe Palace",
           "url": "https://en.wikipedia.org/wiki/Dolmabah%C3%A7e_Palace",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -727,8 +727,8 @@
       "id": "istanbul-istiklal-avenue-and-taksim",
       "name": "İstiklal Avenue and Taksim",
       "kind": "see",
-      "lat": 41.0338,
-      "lon": 28.9779,
+      "lat": 41.03417,
+      "lon": 28.97889,
       "wiki": "İstiklal Avenue",
       "summary": "The 1.4 km pedestrian street from Taksim Square to Galata, with its red nostalgic tram, arcades, churches and side-street bars.",
       "expect": "Very crowded in the evenings and at weekends.",
@@ -770,7 +770,20 @@
         "Very crowded in the evenings and at weekends.",
         "Ride the nostalgic tram one way and walk back, ducking into Çiçek Pasajı and the side streets of Cihangir."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 36828,
+          "period": "202511-202610",
+          "title": "İstiklal Avenue",
+          "url": "https://en.wikipedia.org/wiki/%C4%B0stiklal_Avenue",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q344348",
+      "local": {
+        "name": "İstiklal Caddesi",
+        "lang": "tr"
+      }
     },
     {
       "id": "istanbul-buhara-ocakbasi-restaurant",
@@ -966,8 +979,8 @@
       "id": "istanbul-turk-fatih-tutak",
       "name": "TURK Fatih Tutak",
       "kind": "eat",
-      "lat": 41.059,
-      "lon": 28.98,
+      "lat": 41.05844,
+      "lon": 28.97769,
       "wiki": "TURK Fatih Tutak",
       "summary": "Fatih Tutak’s two-star restaurant reinterprets Turkish regional ingredients and dishes in a long tasting menu.",
       "expect": "A long tasting-menu meal. Deposits, cancellation fees and smart-casual dress codes are common at this level.",
@@ -1017,7 +1030,6 @@
         "url": "https://guide.michelin.com/en/istanbul-province/istanbul/restaurant/turk-fatih-tutak",
         "checked": "2026-11-07"
       },
-      "pinApproximate": true,
       "sourceNote": "Map pin placed from the published address; confirm the entrance in Google Maps.",
       "wikidata": "Q127270538"
     },
@@ -1095,5 +1107,6 @@
       "status": "year-end estimate"
     }
   },
+  "enriched": "2026-11-28",
   "wikidata": "Q406"
 }

@@ -571,8 +571,8 @@
       "id": "barcelona-la-rambla",
       "name": "La Rambla",
       "kind": "see",
-      "lat": 41.3809,
-      "lon": 2.1735,
+      "lat": 41.37937,
+      "lon": 2.17466,
       "wiki": "La Rambla, Barcelona",
       "summary": "The tree-lined boulevard running 1.2 km from Plaça de Catalunya to the old harbour, past La Boqueria and the Liceu opera house.",
       "expect": "Crowded and touristy, with pickpockets working the busiest stretch; most locals walk the side streets instead.",
@@ -613,14 +613,22 @@
         "Crowded and touristy, with pickpockets working the busiest stretch; most locals walk the side streets instead.",
         "Walk it once early in the morning, then turn into the Gothic Quarter or El Raval rather than eating on the boulevard."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 67257,
+          "period": "202511-202610",
+          "title": "La Rambla, Barcelona",
+          "url": "https://en.wikipedia.org/wiki/La_Rambla%2C_Barcelona",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "barcelona-palau-de-la-musica-catalana",
       "name": "Palau de la Música Catalana",
       "kind": "see",
-      "lat": 41.3876,
-      "lon": 2.1753,
+      "lat": 41.3875,
+      "lon": 2.17556,
       "wiki": "Palau de la Música Catalana",
       "summary": "A 1908 concert hall by Domènech i Montaner, with a stained-glass skylight and sculpted stage that make it the jewel of Catalan Modernisme.",
       "expect": "Seen on a guided tour or, better, at a concert; tours run in several languages through the day.",
@@ -662,14 +670,23 @@
         "Seen on a guided tour or, better, at a concert; tours run in several languages through the day.",
         "Book a concert ticket instead of a tour: the hall is at its best full of sound and evening light."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 44463,
+          "period": "202511-202610",
+          "title": "Palau de la Música Catalana",
+          "url": "https://en.wikipedia.org/wiki/Palau_de_la_M%C3%BAsica_Catalana",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q327940"
     },
     {
       "id": "barcelona-barceloneta-beach",
       "name": "Barceloneta Beach",
       "kind": "see",
-      "lat": 41.3784,
-      "lon": 2.1925,
+      "lat": 41.37933,
+      "lon": 2.19297,
       "wiki": "Barceloneta beach",
       "summary": "The city beach at the end of the old fishermen's quarter, lined with a promenade, beach bars and seafood restaurants.",
       "expect": "Busy in summer, with vendors on the sand; the water is calmer and cleaner further north at Nova Icària.",
@@ -709,8 +726,7 @@
       "tradeoffs": [
         "Busy in summer, with vendors on the sand; the water is calmer and cleaner further north at Nova Icària.",
         "Eat paella in the old Barceloneta grid a few streets back from the sand."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "barcelona-cal-pep",

@@ -133,7 +133,7 @@
           "period": "202511-202610",
           "title": "Museo del Prado",
           "url": "https://en.wikipedia.org/wiki/Museo_del_Prado",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -194,7 +194,7 @@
           "period": "202511-202610",
           "title": "Royal Palace of Madrid",
           "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Madrid",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -254,7 +254,7 @@
           "period": "202511-202610",
           "title": "Parque del Buen Retiro",
           "url": "https://en.wikipedia.org/wiki/Parque_del_Buen_Retiro",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -314,7 +314,7 @@
           "period": "202511-202610",
           "title": "Museo Nacional Centro de Arte Reina Sofía",
           "url": "https://en.wikipedia.org/wiki/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -374,7 +374,7 @@
           "period": "202511-202610",
           "title": "Plaza Mayor, Madrid",
           "url": "https://en.wikipedia.org/wiki/Plaza_Mayor%2C_Madrid",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -436,7 +436,7 @@
           "period": "202511-202610",
           "title": "Toledo, Spain",
           "url": "https://en.wikipedia.org/wiki/Toledo%2C_Spain",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -448,8 +448,8 @@
       "id": "madrid-thyssen-bornemisza-museum",
       "name": "Thyssen-Bornemisza Museum",
       "kind": "see",
-      "lat": 40.4161,
-      "lon": -3.6949,
+      "lat": 40.41604,
+      "lon": -3.69493,
       "wiki": "Thyssen-Bornemisza Museum",
       "summary": "A private collection filling the gaps between the Prado and the Reina Sofía, from Italian primitives to Impressionists and Pop Art.",
       "expect": "Easier to see in a morning than the Prado; free on Monday afternoons for the permanent collection.",
@@ -489,14 +489,27 @@
         "Easier to see in a morning than the Prado; free on Monday afternoons for the permanent collection.",
         "Start on the top floor and work down chronologically."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 54740,
+          "period": "202511-202610",
+          "title": "Thyssen-Bornemisza Museum",
+          "url": "https://en.wikipedia.org/wiki/Thyssen-Bornemisza_Museum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q176251",
+      "local": {
+        "name": "Museo Nacional Thyssen-Bornemisza",
+        "lang": "es"
+      }
     },
     {
       "id": "madrid-temple-of-debod",
       "name": "Temple of Debod",
       "kind": "see",
-      "lat": 40.424,
-      "lon": -3.7178,
+      "lat": 40.42405,
+      "lon": -3.71778,
       "wiki": "Temple of Debod",
       "summary": "A 2nd-century BC Egyptian temple rebuilt on a hilltop park, given to Spain for helping save Nubian monuments from the Aswan Dam.",
       "expect": "The small interior has limited entry; the park around it is free and busy at sunset.",
@@ -537,7 +550,20 @@
         "The small interior has limited entry; the park around it is free and busy at sunset.",
         "Come for sunset over the Casa de Campo, then walk down to the Royal Palace."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 55245,
+          "period": "202511-202610",
+          "title": "Temple of Debod",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Debod",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1140249",
+      "local": {
+        "name": "Templo de Debod",
+        "lang": "es"
+      }
     },
     {
       "id": "madrid-chocolateria-san-gines",
@@ -775,6 +801,6 @@
       }
     }
   ],
-  "enriched": "2026-11-15",
+  "enriched": "2026-11-28",
   "wikidata": "Q2807"
 }

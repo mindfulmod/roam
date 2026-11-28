@@ -126,7 +126,7 @@
           "period": "202511-202610",
           "title": "Rijksmuseum",
           "url": "https://en.wikipedia.org/wiki/Rijksmuseum",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -185,7 +185,7 @@
           "period": "202511-202610",
           "title": "Van Gogh Museum",
           "url": "https://en.wikipedia.org/wiki/Van_Gogh_Museum",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -240,7 +240,7 @@
           "period": "202511-202610",
           "title": "Anne Frank House",
           "url": "https://en.wikipedia.org/wiki/Anne_Frank_House",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -301,7 +301,7 @@
           "period": "202511-202610",
           "title": "Canals of Amsterdam",
           "url": "https://en.wikipedia.org/wiki/Canals_of_Amsterdam",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -360,7 +360,7 @@
           "period": "202511-202610",
           "title": "Vondelpark",
           "url": "https://en.wikipedia.org/wiki/Vondelpark",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -418,7 +418,7 @@
           "period": "202511-202610",
           "title": "Zaanse Schans",
           "url": "https://en.wikipedia.org/wiki/Zaanse_Schans",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -430,8 +430,8 @@
       "id": "amsterdam-dam-square-and-the-royal-palace",
       "name": "Dam Square and the Royal Palace",
       "kind": "see",
-      "lat": 52.3731,
-      "lon": 4.8913,
+      "lat": 52.37317,
+      "lon": 4.89136,
       "wiki": "Royal Palace of Amsterdam",
       "summary": "The city's central square with the 17th-century Royal Palace, built as the town hall at the height of the Dutch Golden Age.",
       "expect": "The palace is open most days except during royal events; the square itself is busy and noisy.",
@@ -472,14 +472,27 @@
         "The palace is open most days except during royal events; the square itself is busy and noisy.",
         "Look up at the Citizens' Hall marble floor maps inside the palace."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 57674,
+          "period": "202511-202610",
+          "title": "Royal Palace of Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Amsterdam",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1056152",
+      "local": {
+        "name": "Paleis op de Dam",
+        "lang": "nl"
+      }
     },
     {
       "id": "amsterdam-begijnhof",
       "name": "Begijnhof",
       "kind": "see",
-      "lat": 52.3693,
-      "lon": 4.8899,
+      "lat": 52.3694,
+      "lon": 4.8901,
       "wiki": "Begijnhof, Amsterdam",
       "summary": "A quiet hidden courtyard of almshouses around a garden, home to a lay religious community from the 14th century.",
       "expect": "A residential courtyard: keep voices down; open in the daytime only.",
@@ -520,7 +533,16 @@
         "A residential courtyard: keep voices down; open in the daytime only.",
         "Enter by the gate off the Spui and look for Het Houten Huis, one of the two oldest wooden houses in the city."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24683,
+          "period": "202511-202610",
+          "title": "Begijnhof, Amsterdam",
+          "url": "https://en.wikipedia.org/wiki/Begijnhof%2C_Amsterdam",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1629214"
     },
     {
       "id": "amsterdam-winkel-43",
@@ -760,6 +782,6 @@
       }
     }
   ],
-  "enriched": "2026-11-15",
+  "enriched": "2026-11-28",
   "wikidata": "Q727"
 }
