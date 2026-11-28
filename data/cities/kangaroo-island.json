@@ -67,8 +67,8 @@
       "id": "kangaroo-island-ki-sealbay",
       "name": "Seal Bay",
       "kind": "see",
-      "lat": -35.994,
-      "lon": 137.325,
+      "lat": -35.99861,
+      "lon": 137.3625,
       "wiki": "Seal Bay Conservation Park",
       "summary": "Walk among Australian sea lions on the beach with a ranger.",
       "expect": "Paid; guided beach tours.",
@@ -107,14 +107,23 @@
         "Paid; guided beach tours.",
         "Take the beach tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1557,
+          "period": "202511-202610",
+          "title": "Seal Bay Conservation Park",
+          "url": "https://en.wikipedia.org/wiki/Seal_Bay_Conservation_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3364175"
     },
     {
       "id": "kangaroo-island-ki-rocks",
       "name": "Remarkable Rocks",
       "kind": "see",
-      "lat": -36.046,
-      "lon": 136.713,
+      "lat": -35.97722,
+      "lon": 136.67278,
       "wiki": "Remarkable Rocks",
       "summary": "Giant wind-carved granite boulders on a dome above the sea.",
       "expect": "Park pass.",
@@ -154,7 +163,15 @@
         "Park pass.",
         "Late afternoon light."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4341,
+          "period": "202511-202610",
+          "title": "Flinders Chase National Park",
+          "url": "https://en.wikipedia.org/wiki/Flinders_Chase_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kangaroo-island-ki-arch",
@@ -246,7 +263,16 @@
         "Drive carefully at dusk.",
         "Hanson Bay sanctuary for koalas."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 37742,
+          "period": "202511-202610",
+          "title": "Western grey kangaroo",
+          "url": "https://en.wikipedia.org/wiki/Western_grey_kangaroo",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kangaroo-island-ki-sahara",
@@ -292,7 +318,16 @@
         "Board rental.",
         "Go in the morning."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 780,
+          "period": "202511-202610",
+          "title": "Little Sahara (Kangaroo Island)",
+          "url": "https://en.wikipedia.org/wiki/Little_Sahara_(Kangaroo_Island)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kangaroo-island-ki-stokes",
@@ -338,7 +373,16 @@
         "Free.",
         "Rock pool swimming."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 80405,
+          "period": "202511-202610",
+          "title": "Kangaroo Island",
+          "url": "https://en.wikipedia.org/wiki/Kangaroo_Island",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kangaroo-island-ki-oysters",
@@ -514,5 +558,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q210371"
 }

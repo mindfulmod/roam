@@ -111,7 +111,16 @@
         "Weather dependent.",
         "Book the first morning slot."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 31954,
+          "period": "202511-202610",
+          "title": "Franz Josef Glacier",
+          "url": "https://en.wikipedia.org/wiki/Franz_Josef_Glacier",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "franz-josef-fj-valley",
@@ -157,14 +166,23 @@
         "Free.",
         "Stay behind barriers."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 31954,
+          "period": "202511-202610",
+          "title": "Franz Josef Glacier",
+          "url": "https://en.wikipedia.org/wiki/Franz_Josef_Glacier",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "franz-josef-fj-matheson",
       "name": "Lake Matheson",
       "kind": "see",
-      "lat": -43.443,
-      "lon": 169.964,
+      "lat": -43.43806,
+      "lon": 169.96306,
       "wiki": "Lake Matheson",
       "summary": "Mirror lake reflecting Aoraki/Mount Cook and Mount Tasman.",
       "expect": "Free; café at the start.",
@@ -204,14 +222,23 @@
         "Free; café at the start.",
         "Go at dawn when still."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7357,
+          "period": "202511-202610",
+          "title": "Lake Matheson",
+          "url": "https://en.wikipedia.org/wiki/Lake_Matheson",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1801001"
     },
     {
       "id": "franz-josef-fj-fox",
       "name": "Fox Glacier lookout",
       "kind": "see",
-      "lat": -43.49,
-      "lon": 170.03,
+      "lat": -43.502,
+      "lon": 170.081,
       "wiki": "Fox Glacier",
       "summary": "Walk to a viewpoint of Fox Glacier.",
       "expect": "Free.",
@@ -250,7 +277,16 @@
         "Free.",
         "Check track status."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16354,
+          "period": "202511-202610",
+          "title": "Fox Glacier",
+          "url": "https://en.wikipedia.org/wiki/Fox_Glacier",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1147722"
     },
     {
       "id": "franz-josef-fj-pools",
@@ -296,7 +332,16 @@
         "Paid.",
         "Perfect after a hike."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 903698,
+          "period": "202511-202610",
+          "title": "Franz Joseph I",
+          "url": "https://en.wikipedia.org/wiki/Franz_Joseph_I",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "franz-josef-fj-flight",
@@ -343,7 +388,16 @@
         "Weather dependent.",
         "Sit by the window."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 54975,
+          "period": "202511-202610",
+          "title": "Southern Alps",
+          "url": "https://en.wikipedia.org/wiki/Southern_Alps",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "franz-josef-fj-whitebait",
@@ -518,5 +572,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q673150"
 }

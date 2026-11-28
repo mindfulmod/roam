@@ -113,8 +113,8 @@
       "id": "apia-api-lalomanu",
       "name": "Lalomanu Beach",
       "kind": "see",
-      "lat": -14.06,
-      "lon": -171.42,
+      "lat": -14.04528,
+      "lon": -171.44083,
       "wiki": "Lalomanu",
       "summary": "White sand and turquoise lagoon with open beach fales.",
       "expect": "Stay overnight in a fale.",
@@ -153,7 +153,16 @@
         "Stay overnight in a fale.",
         "Snorkel the lagoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2244,
+          "period": "202511-202610",
+          "title": "Lalomanu",
+          "url": "https://en.wikipedia.org/wiki/Lalomanu",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6480561"
     },
     {
       "id": "apia-api-rls",
@@ -199,14 +208,23 @@
         "Paid tours.",
         "Hike to the grave early."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4501,
+          "period": "202511-202610",
+          "title": "Robert Louis Stevenson Museum",
+          "url": "https://en.wikipedia.org/wiki/Robert_Louis_Stevenson_Museum",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "apia-api-slide",
       "name": "Papaseea Sliding Rocks",
       "kind": "see",
-      "lat": -13.89,
-      "lon": -171.8,
+      "lat": -13.91667,
+      "lon": -171.75,
       "wiki": "Upolu",
       "summary": "Natural rock slides into fresh pools.",
       "expect": "Small fee.",
@@ -246,14 +264,22 @@
         "Small fee.",
         "After rain they're faster."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 32729,
+          "period": "202511-202610",
+          "title": "Upolu",
+          "url": "https://en.wikipedia.org/wiki/Upolu",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "apia-api-savaii",
       "name": "Savai'i lava fields and blowholes",
       "kind": "see",
-      "lat": -13.78,
-      "lon": -172.3,
+      "lat": -13.58333,
+      "lon": -172.41667,
       "wiki": "Savai'i",
       "summary": "Big island with Alofaaga blowholes and a church buried in lava.",
       "expect": "Ferry and a day or more.",
@@ -293,15 +319,24 @@
         "Ferry and a day or more.",
         "Stay at least one night."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13179,
+          "period": "202511-202610",
+          "title": "Savaiʻi",
+          "url": "https://en.wikipedia.org/wiki/Savai%CA%BBi",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q337519"
     },
     {
       "id": "apia-api-church",
       "name": "Apia Sunday church service",
       "kind": "see",
-      "lat": -13.83,
-      "lon": -171.76,
+      "lat": -13.83219,
+      "lon": -171.76653,
       "wiki": "Immaculate Conception Cathedral, Apia",
       "summary": "Hear powerful choir singing at a Sunday service.",
       "expect": "Dress modestly.",
@@ -340,7 +375,16 @@
         "Dress modestly.",
         "Sit at the back."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4631,
+          "period": "202511-202610",
+          "title": "Immaculate Conception Cathedral, Apia",
+          "url": "https://en.wikipedia.org/wiki/Immaculate_Conception_Cathedral%2C_Apia",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q18416912"
     },
     {
       "id": "apia-api-oka",
@@ -517,5 +561,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q36260"
 }

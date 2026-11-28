@@ -107,14 +107,23 @@
         "Sunset is magic."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 83206,
+          "period": "202511-202610",
+          "title": "The Twelve Apostles (Victoria)",
+          "url": "https://en.wikipedia.org/wiki/The_Twelve_Apostles_(Victoria)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "apollo-bay-apo-lochard",
       "name": "Loch Ard Gorge",
       "kind": "see",
-      "lat": -38.647,
-      "lon": 143.07,
+      "lat": -38.64658,
+      "lon": 143.0705,
       "wiki": "Loch Ard Gorge",
       "summary": "Gorge and beach named after a famous shipwreck.",
       "expect": "Free.",
@@ -154,15 +163,24 @@
         "Free.",
         "Walk to all lookouts."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8900,
+          "period": "202511-202610",
+          "title": "Loch Ard Gorge",
+          "url": "https://en.wikipedia.org/wiki/Loch_Ard_Gorge",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1728368"
     },
     {
       "id": "apollo-bay-apo-koalas",
       "name": "Kennett River koalas",
       "kind": "see",
-      "lat": -38.668,
-      "lon": 143.862,
+      "lat": -38.66667,
+      "lon": 143.85,
       "wiki": "Kennett River, Victoria",
       "summary": "Wild koalas in the gum trees along Grey River Road.",
       "expect": "Free.",
@@ -201,7 +219,16 @@
         "Free.",
         "Look up slowly."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2245,
+          "period": "202511-202610",
+          "title": "Kennett River, Victoria",
+          "url": "https://en.wikipedia.org/wiki/Kennett_River%2C_Victoria",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1738924"
     },
     {
       "id": "apollo-bay-apo-otways",
@@ -247,14 +274,23 @@
         "Free.",
         "Combine with Triplet Falls."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8886,
+          "period": "202511-202610",
+          "title": "Great Otway National Park",
+          "url": "https://en.wikipedia.org/wiki/Great_Otway_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "apollo-bay-apo-lighthouse",
       "name": "Cape Otway Lightstation",
       "kind": "see",
-      "lat": -38.857,
-      "lon": 143.511,
+      "lat": -38.85656,
+      "lon": 143.51172,
       "wiki": "Cape Otway Lighthouse",
       "summary": "Oldest surviving lighthouse on mainland Australia.",
       "expect": "Paid.",
@@ -294,7 +330,16 @@
         "Paid.",
         "Look for koalas on the road in."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3005,
+          "period": "202511-202610",
+          "title": "Cape Otway Lighthouse",
+          "url": "https://en.wikipedia.org/wiki/Cape_Otway_Lighthouse",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5034981"
     },
     {
       "id": "apollo-bay-apo-drive",
@@ -341,7 +386,16 @@
         "Drive slowly.",
         "Stop at Teddy's Lookout."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 64626,
+          "period": "202511-202610",
+          "title": "Great Ocean Road",
+          "url": "https://en.wikipedia.org/wiki/Great_Ocean_Road",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "apollo-bay-apo-fish",
@@ -405,8 +459,8 @@
       "id": "apollo-bay-apo-cafe",
       "name": "Café breakfast",
       "kind": "eat",
-      "lat": -38.754,
-      "lon": 143.668,
+      "lat": -38.75,
+      "lon": 143.65,
       "wiki": "Apollo Bay, Victoria",
       "summary": "Seaside cafés with Melbourne-style coffee.",
       "expect": "Easy to find.",
@@ -445,7 +499,6 @@
         "Easy to find.",
         "Ask locals for their favourite."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Australian",
       "mustOrder": [
@@ -517,5 +570,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q74046"
 }

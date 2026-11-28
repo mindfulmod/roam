@@ -65,7 +65,7 @@
       "id": "bay-of-islands-boi-waitangi",
       "name": "Waitangi Treaty Grounds",
       "kind": "see",
-      "lat": -35.268,
+      "lat": -35.26611,
       "lon": 174.08,
       "wiki": "Waitangi Treaty Grounds",
       "summary": "Where the Treaty of Waitangi was signed in 1840, with a carved meeting house and great waka.",
@@ -106,7 +106,16 @@
         "Paid; includes a cultural performance.",
         "Allow half a day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14194,
+          "period": "202511-202610",
+          "title": "Waitangi, Northland",
+          "url": "https://en.wikipedia.org/wiki/Waitangi%2C_Northland",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q499111"
     },
     {
       "id": "bay-of-islands-boi-hole",
@@ -158,8 +167,8 @@
       "id": "bay-of-islands-boi-russell",
       "name": "Russell",
       "kind": "see",
-      "lat": -35.262,
-      "lon": 174.123,
+      "lat": -35.26179,
+      "lon": 174.12153,
       "wiki": "Russell, New Zealand",
       "summary": "Historic waterfront village, once \"the hellhole of the Pacific\".",
       "expect": "Ferry from Paihia.",
@@ -199,7 +208,15 @@
         "Ferry from Paihia.",
         "See Christ Church, NZ's oldest church."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21216,
+          "period": "202511-202610",
+          "title": "Russell, New Zealand",
+          "url": "https://en.wikipedia.org/wiki/Russell%2C_New_Zealand",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bay-of-islands-boi-sail",
@@ -246,14 +263,23 @@
         "Summer.",
         "Choose a small yacht."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 29013,
+          "period": "202511-202610",
+          "title": "Bay of Islands",
+          "url": "https://en.wikipedia.org/wiki/Bay_of_Islands",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bay-of-islands-boi-reinga",
       "name": "Cape Reinga",
       "kind": "see",
-      "lat": -34.428,
-      "lon": 172.68,
+      "lat": -34.4214,
+      "lon": 172.6797,
       "wiki": "Cape Reinga",
       "summary": "Lighthouse where two oceans meet, a sacred Māori site.",
       "expect": "Long day trip; bus tours drive Ninety Mile Beach.",
@@ -293,15 +319,24 @@
         "Long day trip; bus tours drive Ninety Mile Beach.",
         "Take a tour along the beach."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 19584,
+          "period": "202511-202610",
+          "title": "Cape Reinga",
+          "url": "https://en.wikipedia.org/wiki/Cape_Reinga",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1034494"
     },
     {
       "id": "bay-of-islands-boi-haruru",
       "name": "Haruru Falls walk",
       "kind": "see",
-      "lat": -35.278,
-      "lon": 174.057,
+      "lat": -35.27826,
+      "lon": 174.0513,
       "wiki": "Haruru Falls",
       "summary": "Mangrove boardwalk walk to a horseshoe waterfall.",
       "expect": "Free.",
@@ -340,7 +375,16 @@
         "Free.",
         "Walk from the Treaty Grounds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 748,
+          "period": "202511-202610",
+          "title": "Haruru Falls",
+          "url": "https://en.wikipedia.org/wiki/Haruru_Falls",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1587822"
     },
     {
       "id": "bay-of-islands-boi-fish",
@@ -515,5 +559,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q812091"
 }

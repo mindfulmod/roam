@@ -65,8 +65,8 @@
       "id": "airlie-beach-arl-whitehaven",
       "name": "Whitehaven Beach and Hill Inlet",
       "kind": "see",
-      "lat": -20.282,
-      "lon": 149.039,
+      "lat": -20.27861,
+      "lon": 149.03639,
       "wiki": "Whitehaven Beach",
       "summary": "Seven kilometres of pure white silica sand and the swirling Hill Inlet lookout.",
       "expect": "Day boats or sailing trips.",
@@ -106,8 +106,17 @@
         "Day boats or sailing trips.",
         "Time the lookout with low tide."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 25386,
+          "period": "202511-202610",
+          "title": "Whitehaven Beach",
+          "url": "https://en.wikipedia.org/wiki/Whitehaven_Beach",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2123432"
     },
     {
       "id": "airlie-beach-arl-sail",
@@ -155,7 +164,16 @@
         "Choose by boat size and vibe."
       ],
       "pinApproximate": true,
-      "optional": true
+      "optional": true,
+      "signals": {
+        "wikipedia": {
+          "views": 51785,
+          "period": "202511-202610",
+          "title": "Whitsunday Islands",
+          "url": "https://en.wikipedia.org/wiki/Whitsunday_Islands",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "airlie-beach-arl-reef",
@@ -203,7 +221,16 @@
         "Wear a stinger suit in summer."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 414432,
+          "period": "202511-202610",
+          "title": "Great Barrier Reef",
+          "url": "https://en.wikipedia.org/wiki/Great_Barrier_Reef",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "airlie-beach-arl-flight",
@@ -296,14 +323,23 @@
         "Free.",
         "Safe from stingers."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 27059,
+          "period": "202511-202610",
+          "title": "Airlie Beach, Queensland",
+          "url": "https://en.wikipedia.org/wiki/Airlie_Beach%2C_Queensland",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "airlie-beach-arl-conway",
       "name": "Conway National Park walks",
       "kind": "see",
-      "lat": -20.29,
-      "lon": 148.76,
+      "lat": -20.26333,
+      "lon": 148.765,
       "wiki": "Conway National Park",
       "summary": "Rainforest walks to lookouts over the islands.",
       "expect": "Free.",
@@ -343,7 +379,16 @@
         "Free.",
         "Honeyeater lookout at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 857,
+          "period": "202511-202610",
+          "title": "Conway National Park",
+          "url": "https://en.wikipedia.org/wiki/Conway_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1129492"
     },
     {
       "id": "airlie-beach-arl-seafood",
@@ -518,5 +563,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q408765"
 }

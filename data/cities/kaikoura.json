@@ -105,7 +105,16 @@
         "Māori-owned operator; refund if no whales.",
         "Take seasickness tablets."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 764,
+          "period": "202511-202610",
+          "title": "Whale Watch Kaikōura",
+          "url": "https://en.wikipedia.org/wiki/Whale_Watch_Kaik%C5%8Dura",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kaikoura-kai-dolphins",
@@ -152,14 +161,23 @@
         "Wetsuits provided.",
         "Early tours are calmest."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 19647,
+          "period": "202511-202610",
+          "title": "Dusky dolphin",
+          "url": "https://en.wikipedia.org/wiki/Dusky_dolphin",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kaikoura-kai-walk",
       "name": "Kaikōura Peninsula Walkway",
       "kind": "see",
-      "lat": -42.43,
-      "lon": 173.71,
+      "lat": -42.42926,
+      "lon": 173.70942,
       "wiki": "Kaikōura Peninsula",
       "summary": "Clifftop and shore walk past fur seals and seabird colonies.",
       "expect": "Free.",
@@ -199,7 +217,15 @@
         "Free.",
         "Walk at low tide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2276,
+          "period": "202511-202610",
+          "title": "Kaikōura Peninsula",
+          "url": "https://en.wikipedia.org/wiki/Kaik%C5%8Dura_Peninsula",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kaikoura-kai-seals",
@@ -245,7 +271,16 @@
         "Free.",
         "Keep 10 m away."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2276,
+          "period": "202511-202610",
+          "title": "Kaikōura Peninsula",
+          "url": "https://en.wikipedia.org/wiki/Kaik%C5%8Dura_Peninsula",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kaikoura-kai-albatross",
@@ -291,7 +326,16 @@
         "Year round.",
         "Bring a zoom lens."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21439,
+          "period": "202511-202610",
+          "title": "Kaikōura",
+          "url": "https://en.wikipedia.org/wiki/Kaik%C5%8Dura",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "kaikoura-kai-crayfish",
@@ -466,5 +510,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q25834"
 }

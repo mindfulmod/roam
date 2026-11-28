@@ -106,14 +106,23 @@
         "Book ahead.",
         "Sunset ride."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5340,
+          "period": "202511-202610",
+          "title": "Cable Beach",
+          "url": "https://en.wikipedia.org/wiki/Cable_Beach",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "broome-brm-gantheaume",
       "name": "Gantheaume Point",
       "kind": "see",
-      "lat": -17.972,
-      "lon": 122.18,
+      "lat": -17.9733,
+      "lon": 122.178,
       "wiki": "Gantheaume Point",
       "summary": "Red cliffs and dinosaur footprints at very low tide.",
       "expect": "Free.",
@@ -153,7 +162,16 @@
         "Free.",
         "Check tides for footprints."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1742,
+          "period": "202511-202610",
+          "title": "Gantheaume Point",
+          "url": "https://en.wikipedia.org/wiki/Gantheaume_Point",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q21891020"
     },
     {
       "id": "broome-brm-staircase",
@@ -200,14 +218,23 @@
         "March to October around full moon.",
         "Check dates; night markets run then."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3187,
+          "period": "202511-202610",
+          "title": "Roebuck Bay",
+          "url": "https://en.wikipedia.org/wiki/Roebuck_Bay",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "broome-brm-cinema",
       "name": "Sun Pictures",
       "kind": "see",
-      "lat": -17.958,
-      "lon": 122.241,
+      "lat": -17.95348,
+      "lon": 122.24321,
       "wiki": "Sun Pictures",
       "summary": "The world's oldest operating outdoor picture garden, since 1916.",
       "expect": "Paid; nightly films.",
@@ -247,7 +274,15 @@
         "Paid; nightly films.",
         "Watch planes fly overhead."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 144797,
+          "period": "202511-202610",
+          "title": "Sun Pictures",
+          "url": "https://en.wikipedia.org/wiki/Sun_Pictures",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "broome-brm-pearls",
@@ -294,7 +329,16 @@
         "Pearl farm tours too.",
         "Visit the Japanese cemetery."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 96231,
+          "period": "202511-202610",
+          "title": "Broome, Western Australia",
+          "url": "https://en.wikipedia.org/wiki/Broome%2C_Western_Australia",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "broome-brm-seafood",
@@ -470,5 +514,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q606294"
 }

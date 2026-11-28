@@ -72,8 +72,8 @@
       "id": "byron-bay-byr-cape",
       "name": "Cape Byron Walking Track and lighthouse",
       "kind": "see",
-      "lat": -28.639,
-      "lon": 153.637,
+      "lat": -28.63861,
+      "lon": 153.63639,
       "wiki": "Cape Byron Light",
       "summary": "Coastal loop to the lighthouse and Australia's most easterly point.",
       "expect": "About 3.7 km loop.",
@@ -113,7 +113,16 @@
         "About 3.7 km loop.",
         "Go at sunrise; look for whales in winter."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4572,
+          "period": "202511-202610",
+          "title": "Cape Byron Light",
+          "url": "https://en.wikipedia.org/wiki/Cape_Byron_Light",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1034294"
     },
     {
       "id": "byron-bay-byr-surf",
@@ -159,14 +168,23 @@
         "Lessons at Main Beach.",
         "Learn on Main Beach first."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 108357,
+          "period": "202511-202610",
+          "title": "Byron Bay",
+          "url": "https://en.wikipedia.org/wiki/Byron_Bay",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "byron-bay-byr-wategos",
       "name": "Wategos Beach",
       "kind": "see",
-      "lat": -28.636,
-      "lon": 153.631,
+      "lat": -28.63551,
+      "lon": 153.63493,
       "wiki": "Wategos Beach",
       "summary": "Sheltered north-facing beach below the cape.",
       "expect": "Small car park.",
@@ -204,8 +222,7 @@
       "tradeoffs": [
         "Small car park.",
         "Late afternoon swim."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "byron-bay-byr-kayak",
@@ -252,7 +269,16 @@
         "Tours year round.",
         "Morning sea is calmest."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 108357,
+          "period": "202511-202610",
+          "title": "Byron Bay",
+          "url": "https://en.wikipedia.org/wiki/Byron_Bay",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "byron-bay-byr-minyon",
@@ -298,7 +324,16 @@
         "Car needed.",
         "Combine with Bangalow lunch."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2107,
+          "period": "202511-202610",
+          "title": "Nightcap National Park",
+          "url": "https://en.wikipedia.org/wiki/Nightcap_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "byron-bay-byr-brunch",
@@ -473,5 +508,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1018597"
 }
