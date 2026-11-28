@@ -9795,4 +9795,33 @@ img.photo {
   .t5card {
     flex-basis: 44%;
   }
+  /* Search, filters, chips and the count sit closer together above the places. */
+  .city-prompts {
+    margin-bottom: 4px;
+  }
+  .citytabs {
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .placetools {
+    margin-top: 8px;
+  }
+  .placetools .searchrow {
+    margin-top: 0;
+    margin-bottom: 8px;
+  }
+  .placetools .searchbox input {
+    padding-top: 11px;
+    padding-bottom: 11px;
+  }
+  .placetools .filterbtn .lbl {
+    display: none;
+  }
+  .placetools .chips {
+    margin-bottom: 6px;
+  }
+  #place-result-count {
+    margin: 2px 0 10px;
+    font-size: 13px;
+  }
 }
