@@ -576,6 +576,12 @@ test('the feed clears what needs you, and profile text a person typed is shown a
   const needs = () => page.locator('.soc-need').count();
   const before = await needs();
   assert.ok(before > 0, 'nothing under Needs you');
+  // Two show at once; the rest wait behind one button.
+  assert.ok((await page.locator('.soc-need:visible').count()) <= 2, 'every need shows at once');
+  if (before > 2) {
+    await page.locator('[data-action="soc-needs-all"]').click();
+    assert.equal(await page.locator('.soc-need:visible').count(), before);
+  }
   await page.locator('[data-action="soc-vote"]').first().click();
   assert.equal(await needs(), before - 1, 'answering a poll did not clear it');
   assert.equal(await page.locator('.feed-count').first().textContent(), String(before - 1));
