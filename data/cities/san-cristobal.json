@@ -78,8 +78,8 @@
       "id": "san-cristobal-sc-chamula",
       "name": "San Juan Chamula church",
       "kind": "see",
-      "lat": 16.788,
-      "lon": -92.689,
+      "lat": 16.78333,
+      "lon": -92.68333,
       "wiki": "San Juan Chamula",
       "summary": "Tzotzil church with pine needles, candles and healing rituals.",
       "expect": "Strictly no photos inside; small fee.",
@@ -119,15 +119,24 @@
         "Strictly no photos inside; small fee.",
         "Go with a local guide."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8376,
+          "period": "202511-202610",
+          "title": "Chamula",
+          "url": "https://en.wikipedia.org/wiki/Chamula",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1061542"
     },
     {
       "id": "san-cristobal-sc-sumidero",
       "name": "Sumidero Canyon",
       "kind": "see",
-      "lat": 16.85,
-      "lon": -93.08,
+      "lat": 16.83167,
+      "lon": -93.09389,
       "wiki": "Sumidero Canyon",
       "summary": "Boat through a canyon with 1,000 m walls, crocodiles and monkeys.",
       "expect": "Tours from San Cristóbal.",
@@ -167,8 +176,21 @@
         "Tours from San Cristóbal.",
         "Visit the viewpoints from above too."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16902,
+          "period": "202511-202610",
+          "title": "Sumidero Canyon",
+          "url": "https://en.wikipedia.org/wiki/Sumidero_Canyon",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q775138",
+      "local": {
+        "name": "Cañón del Sumidero",
+        "lang": "es"
+      }
     },
     {
       "id": "san-cristobal-sc-domingo",
@@ -222,8 +244,8 @@
       "id": "san-cristobal-sc-nabolom",
       "name": "Na Bolom",
       "kind": "see",
-      "lat": 16.744,
-      "lon": -92.631,
+      "lat": 16.74167,
+      "lon": -92.62972,
       "wiki": "Na Bolom",
       "summary": "House-museum of the Lacandon Maya and those who studied them.",
       "expect": "Small fee.",
@@ -262,7 +284,16 @@
         "Small fee.",
         "Take the guided tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2614,
+          "period": "202511-202610",
+          "title": "Casa Na Bolom",
+          "url": "https://en.wikipedia.org/wiki/Casa_Na_Bolom",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q121537"
     },
     {
       "id": "san-cristobal-sc-guadalupe",
@@ -309,14 +340,23 @@
         "Steps.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 42348,
+          "period": "202511-202610",
+          "title": "San Cristóbal de las Casas",
+          "url": "https://en.wikipedia.org/wiki/San_Crist%C3%B3bal_de_las_Casas",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "san-cristobal-sc-palenque",
       "name": "Palenque",
       "kind": "see",
-      "lat": 17.484,
-      "lon": -92.046,
+      "lat": 17.48417,
+      "lon": -92.04639,
       "wiki": "Palenque",
       "summary": "Jungle Maya city with temples and the Temple of the Inscriptions.",
       "expect": "5 hours away; stay overnight.",
@@ -356,8 +396,17 @@
         "5 hours away; stay overnight.",
         "Combine with Agua Azul waterfalls."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 104503,
+          "period": "202511-202610",
+          "title": "Palenque",
+          "url": "https://en.wikipedia.org/wiki/Palenque",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q181427"
     },
     {
       "id": "san-cristobal-sc-tamales",
@@ -530,5 +579,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q524894"
 }

@@ -65,8 +65,8 @@
       "id": "villa-de-leyva-vdl-plaza",
       "name": "Plaza Mayor",
       "kind": "see",
-      "lat": 5.6333,
-      "lon": -73.525,
+      "lat": 5.63377,
+      "lon": -73.52359,
       "wiki": "Villa de Leyva",
       "summary": "Huge cobbled colonial square surrounded by white buildings.",
       "expect": "Free.",
@@ -106,7 +106,15 @@
         "Free.",
         "Sit at the church steps at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13084,
+          "period": "202511-202610",
+          "title": "Villa de Leyva",
+          "url": "https://en.wikipedia.org/wiki/Villa_de_Leyva",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "villa-de-leyva-vdl-fosil",
@@ -153,14 +161,23 @@
         "Small fee.",
         "Combine with El Infiernito."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 59100,
+          "period": "202511-202610",
+          "title": "Kronosaurus",
+          "url": "https://en.wikipedia.org/wiki/Kronosaurus",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "villa-de-leyva-vdl-infiernito",
       "name": "El Infiernito",
       "kind": "see",
-      "lat": 5.65,
-      "lon": -73.57,
+      "lat": 5.6474,
+      "lon": -73.55872,
       "wiki": "El Infiernito",
       "summary": "Muisca stone-pillar observatory.",
       "expect": "Small fee.",
@@ -199,14 +216,27 @@
         "Small fee.",
         "Go by bike."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3760,
+          "period": "202511-202610",
+          "title": "El Infiernito",
+          "url": "https://en.wikipedia.org/wiki/El_Infiernito",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1987940",
+      "local": {
+        "name": "Parque Arqueológico de Monquirá",
+        "lang": "es"
+      }
     },
     {
       "id": "villa-de-leyva-vdl-terracota",
       "name": "Casa Terracota",
       "kind": "see",
-      "lat": 5.627,
-      "lon": -73.53,
+      "lat": 5.6348,
+      "lon": -73.53652,
       "wiki": "Casa Terracota",
       "summary": "A whole house made of baked clay.",
       "expect": "Paid.",
@@ -245,15 +275,14 @@
       "tradeoffs": [
         "Paid.",
         "Walk from town."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "villa-de-leyva-vdl-pozos",
       "name": "Pozos Azules",
       "kind": "see",
-      "lat": 5.64,
-      "lon": -73.56,
+      "lat": 5.62617,
+      "lon": -73.5493,
       "wiki": "Villa de Leyva",
       "summary": "Turquoise ponds in the desert hills.",
       "expect": "Small fee; no swimming.",
@@ -292,14 +321,22 @@
         "Small fee; no swimming.",
         "Combine on a bike loop."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 13084,
+          "period": "202511-202610",
+          "title": "Villa de Leyva",
+          "url": "https://en.wikipedia.org/wiki/Villa_de_Leyva",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "villa-de-leyva-vdl-raquira",
       "name": "Ráquira",
       "kind": "see",
-      "lat": 5.538,
-      "lon": -73.632,
+      "lat": 5.53333,
+      "lon": -73.63333,
       "wiki": "Ráquira",
       "summary": "Colourful pottery village.",
       "expect": "30 minutes.",
@@ -339,8 +376,17 @@
         "30 minutes.",
         "Buy ceramics."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2066,
+          "period": "202511-202610",
+          "title": "Ráquira",
+          "url": "https://en.wikipedia.org/wiki/R%C3%A1quira",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1526054"
     },
     {
       "id": "villa-de-leyva-vdl-ajiaco",
@@ -513,5 +559,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1409503"
 }

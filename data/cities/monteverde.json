@@ -70,8 +70,8 @@
       "id": "monteverde-mon-reserve",
       "name": "Monteverde Cloud Forest Reserve",
       "kind": "see",
-      "lat": 10.302,
-      "lon": -84.793,
+      "lat": 10.3025,
+      "lon": -84.79556,
       "wiki": "Monteverde Cloud Forest Reserve",
       "summary": "Trails through mossy cloud forest with quetzals and hummingbirds.",
       "expect": "Paid; limited numbers.",
@@ -110,14 +110,27 @@
         "Paid; limited numbers.",
         "Go with a guide at opening."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14728,
+          "period": "202511-202610",
+          "title": "Monteverde Cloud Forest Reserve",
+          "url": "https://en.wikipedia.org/wiki/Monteverde_Cloud_Forest_Reserve",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q864538",
+      "local": {
+        "name": "Reserva biológica Bosque Nuboso Monteverde",
+        "lang": "es"
+      }
     },
     {
       "id": "monteverde-mon-bridges",
       "name": "Hanging bridges",
       "kind": "see",
-      "lat": 10.33,
-      "lon": -84.8,
+      "lat": 10.34336,
+      "lon": -84.7932,
       "wiki": "Selvatura Park",
       "summary": "Suspension bridges through the canopy.",
       "expect": "Paid.",
@@ -157,7 +170,15 @@
         "Paid.",
         "Go in the morning for birds."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 735,
+          "period": "202511-202610",
+          "title": "Selvatura Park",
+          "url": "https://en.wikipedia.org/wiki/Selvatura_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "monteverde-mon-zip",
@@ -203,7 +224,16 @@
         "Paid.",
         "Book a morning slot."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 45017,
+          "period": "202511-202610",
+          "title": "Zip line",
+          "url": "https://en.wikipedia.org/wiki/Zip_line",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "monteverde-mon-night",
@@ -249,14 +279,23 @@
         "Paid.",
         "Bring a torch."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 27976,
+          "period": "202511-202610",
+          "title": "Monteverde",
+          "url": "https://en.wikipedia.org/wiki/Monteverde",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "monteverde-mon-santaelena",
       "name": "Santa Elena Reserve",
       "kind": "see",
-      "lat": 10.348,
-      "lon": -84.794,
+      "lat": 10.34355,
+      "lon": -84.79591,
       "wiki": "Santa Elena Cloud Forest Reserve",
       "summary": "Quieter community reserve.",
       "expect": "Paid.",
@@ -294,8 +333,7 @@
       "tradeoffs": [
         "Paid.",
         "Good for fewer crowds."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "monteverde-mon-coffee",
@@ -342,7 +380,16 @@
         "Paid.",
         "Choose a tour with tastings."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5435,
+          "period": "202511-202610",
+          "title": "Coffee production in Costa Rica",
+          "url": "https://en.wikipedia.org/wiki/Coffee_production_in_Costa_Rica",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "monteverde-mon-casado",
@@ -516,5 +563,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q111444555",
+  "local": {
+    "name": "Cantón de Monteverde",
+    "lang": "es"
+  }
 }

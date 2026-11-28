@@ -65,8 +65,8 @@
       "id": "trinidad-cuba-tri-plaza",
       "name": "Plaza Mayor",
       "kind": "see",
-      "lat": 21.804,
-      "lon": -79.984,
+      "lat": 21.80417,
+      "lon": -79.98306,
       "wiki": "Plaza Mayor, Trinidad",
       "summary": "Colonial square with palm gardens, palaces and the church.",
       "expect": "Free.",
@@ -106,7 +106,20 @@
         "Free.",
         "Climb the Museo Romántico tower view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1131,
+          "period": "202511-202610",
+          "title": "Plaza Mayor, Trinidad",
+          "url": "https://en.wikipedia.org/wiki/Plaza_Mayor%2C_Trinidad",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q7203621",
+      "local": {
+        "name": "Plaza Mayor de Trinidad",
+        "lang": "es"
+      }
     },
     {
       "id": "trinidad-cuba-tri-musica",
@@ -152,14 +165,23 @@
         "Small cover after dark.",
         "Dance or watch from the steps."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 14789,
+          "period": "202511-202610",
+          "title": "Trinidad, Cuba",
+          "url": "https://en.wikipedia.org/wiki/Trinidad%2C_Cuba",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "trinidad-cuba-tri-valle",
       "name": "Valle de los Ingenios",
       "kind": "see",
-      "lat": 21.85,
-      "lon": -79.9,
+      "lat": 21.84139,
+      "lon": -79.86639,
       "wiki": "Valle de los Ingenios",
       "summary": "Sugar valley with plantation ruins and the Manaca Iznaga tower.",
       "expect": "Horse, bike or car.",
@@ -199,15 +221,24 @@
         "Horse, bike or car.",
         "Climb the Iznaga tower."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2322,
+          "period": "202511-202610",
+          "title": "Valle de los Ingenios",
+          "url": "https://en.wikipedia.org/wiki/Valle_de_los_Ingenios",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q844875"
     },
     {
       "id": "trinidad-cuba-tri-ancon",
       "name": "Playa Ancón",
       "kind": "see",
-      "lat": 21.74,
-      "lon": -79.998,
+      "lat": 21.7604,
+      "lon": -79.9905,
       "wiki": "Playa Ancón",
       "summary": "White-sand Caribbean beach 12 km away.",
       "expect": "Taxi or bike.",
@@ -246,14 +277,22 @@
         "Taxi or bike.",
         "Snorkel the reef offshore."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 734,
+          "period": "202511-202610",
+          "title": "Casilda (Trinidad)",
+          "url": "https://en.wikipedia.org/wiki/Casilda_(Trinidad)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "trinidad-cuba-tri-topes",
       "name": "Topes de Collantes",
       "kind": "see",
-      "lat": 21.9,
-      "lon": -80.02,
+      "lat": 21.88333,
+      "lon": -80,
       "wiki": "Topes de Collantes",
       "summary": "Mountain park with waterfalls like El Nicho and Salto del Caburní.",
       "expect": "Steep road; tours.",
@@ -293,8 +332,21 @@
         "Steep road; tours.",
         "Swim at El Nicho."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1985,
+          "period": "202511-202610",
+          "title": "Topes de Collantes",
+          "url": "https://en.wikipedia.org/wiki/Topes_de_Collantes",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1330400",
+      "local": {
+        "name": "Gran parque natural Topes de Collantes",
+        "lang": "es"
+      }
     },
     {
       "id": "trinidad-cuba-tri-tower",
@@ -515,5 +567,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q319272"
 }

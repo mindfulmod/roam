@@ -107,14 +107,23 @@
         "Go with a local guide; small fee.",
         "Start at 4 am."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 72767,
+          "period": "202511-202610",
+          "title": "Lake Atitlán",
+          "url": "https://en.wikipedia.org/wiki/Lake_Atitl%C3%A1n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lake-atitlan-ati-sanjuan",
       "name": "San Juan La Laguna",
       "kind": "see",
-      "lat": 14.695,
-      "lon": -91.286,
+      "lat": 14.7,
+      "lon": -91.28333,
       "wiki": "San Juan La Laguna",
       "summary": "Village of murals and women's weaving cooperatives using natural dyes.",
       "expect": "Free.",
@@ -154,14 +163,23 @@
         "Free.",
         "Watch a natural-dye demonstration."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7063,
+          "period": "202511-202610",
+          "title": "San Juan La Laguna",
+          "url": "https://en.wikipedia.org/wiki/San_Juan_La_Laguna",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2403501"
     },
     {
       "id": "lake-atitlan-ati-santiago",
       "name": "Santiago Atitlán",
       "kind": "see",
-      "lat": 14.638,
-      "lon": -91.23,
+      "lat": 14.63333,
+      "lon": -91.23333,
       "wiki": "Santiago Atitlán",
       "summary": "Tz'utujil town where the folk saint Maximón is honoured.",
       "expect": "Small donation to see Maximón.",
@@ -201,14 +219,23 @@
         "Small donation to see Maximón.",
         "Ask a local to take you."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6493,
+          "period": "202511-202610",
+          "title": "Santiago Atitlán",
+          "url": "https://en.wikipedia.org/wiki/Santiago_Atitl%C3%A1n",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q168622"
     },
     {
       "id": "lake-atitlan-ati-pana",
       "name": "Panajachel",
       "kind": "see",
-      "lat": 14.74,
-      "lon": -91.16,
+      "lat": 14.74061,
+      "lon": -91.15942,
       "wiki": "Panajachel",
       "summary": "Main lake town with shops and boat dock.",
       "expect": "Busy.",
@@ -247,14 +274,23 @@
         "Busy.",
         "Sunset on the dock."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10888,
+          "period": "202511-202610",
+          "title": "Panajachel",
+          "url": "https://en.wikipedia.org/wiki/Panajachel",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1634223"
     },
     {
       "id": "lake-atitlan-ati-chichi",
       "name": "Chichicastenango market",
       "kind": "see",
-      "lat": 14.943,
-      "lon": -91.111,
+      "lat": 14.93333,
+      "lon": -91.11667,
       "wiki": "Chichicastenango",
       "summary": "Huge Maya market on Thursdays and Sundays with incense-filled church steps.",
       "expect": "1.5 hours away.",
@@ -294,8 +330,17 @@
         "1.5 hours away.",
         "Go on Sunday morning."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11838,
+          "period": "202511-202610",
+          "title": "Chichicastenango",
+          "url": "https://en.wikipedia.org/wiki/Chichicastenango",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q603423"
     },
     {
       "id": "lake-atitlan-ati-kayak",
@@ -342,7 +387,16 @@
         "Mornings; winds after noon.",
         "Rent in San Marcos or San Pedro."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 72767,
+          "period": "202511-202610",
+          "title": "Lake Atitlán",
+          "url": "https://en.wikipedia.org/wiki/Lake_Atitl%C3%A1n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lake-atitlan-ati-pepian",
@@ -516,5 +570,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q273276",
+  "local": {
+    "name": "Lago de Atitlán",
+    "lang": "es"
+  }
 }

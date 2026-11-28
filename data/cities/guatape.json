@@ -65,8 +65,8 @@
       "id": "guatape-gua-penol",
       "name": "El Peñol rock",
       "kind": "see",
-      "lat": 6.221,
-      "lon": -75.178,
+      "lat": 6.22002,
+      "lon": -75.17943,
       "wiki": "El Peñol",
       "summary": "Climb 740 steps up a 200 m granite monolith.",
       "expect": "Paid; busy weekends.",
@@ -105,8 +105,7 @@
       "tradeoffs": [
         "Paid; busy weekends.",
         "Go on a weekday morning."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "guatape-gua-zocalos",
@@ -153,7 +152,16 @@
         "Free.",
         "Calle del Recuerdo is the prettiest."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 41442,
+          "period": "202511-202610",
+          "title": "Guatapé",
+          "url": "https://en.wikipedia.org/wiki/Guatap%C3%A9",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "guatape-gua-boat",
@@ -245,7 +253,16 @@
         "Busy weekends.",
         "Sunset stroll."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 41442,
+          "period": "202511-202610",
+          "title": "Guatapé",
+          "url": "https://en.wikipedia.org/wiki/Guatap%C3%A9",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "guatape-gua-church",
@@ -292,7 +309,16 @@
         "Free.",
         "Combine with the square."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 41442,
+          "period": "202511-202610",
+          "title": "Guatapé",
+          "url": "https://en.wikipedia.org/wiki/Guatap%C3%A9",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "guatape-gua-bandeja",
@@ -466,5 +492,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1578769"
 }
