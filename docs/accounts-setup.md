@@ -15,8 +15,8 @@ this repository's settings on GitHub.
    they are. The region cannot be changed later.
 3. When the project is ready, note its **project ref**: the 20 letters in its address,
    `supabase.com/dashboard/project/<project ref>`.
-4. Your avatar (top right) > **Account preferences** > **Access Tokens** > **Generate new token**,
-   named `GitHub`. Copy it.
+4. Your avatar (top right) > **Account preferences** > **Access Tokens** > **Generate new token**
+   ([direct link](https://supabase.com/dashboard/account/tokens)), named `GitHub`. Copy it.
 
 ## 2. Resend (free, 3,000 emails a month)
 
