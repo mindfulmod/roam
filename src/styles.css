@@ -9919,3 +9919,69 @@ details.unfit > p.muted {
   width: 36px;
   height: 36px;
 }
+
+/* Saved on phones: a compact list (photo, name, where and how long), not full-size cards.
+   You already know these places; the full card is one tap away. */
+@media (max-width: 760px) {
+  .savedpage .placegrid {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  .savedpage .placegrid .placecard {
+    display: grid;
+    grid-template-columns: 76px minmax(0, 1fr);
+    align-items: center;
+    gap: 12px;
+    padding: 8px 48px 8px 8px;
+    position: relative;
+    min-height: 0;
+  }
+  .savedpage .placegrid .placeimage {
+    position: static;
+    width: 76px;
+    height: 76px;
+    aspect-ratio: auto;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  .savedpage .placegrid .placeimage > img,
+  .savedpage .placegrid .placeimage > .visual,
+  .savedpage .placegrid .placeimage > :first-child {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+  }
+  .savedpage .placegrid .placeimage .iconbtn {
+    position: absolute;
+    top: 50%;
+    right: 8px;
+    left: auto;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+  }
+  .savedpage .placegrid .photo-count,
+  .savedpage .placegrid .photo-context,
+  .savedpage .placegrid .place-rankpill,
+  .savedpage .placegrid .placebody > p,
+  .savedpage .placegrid .dietlabels,
+  .savedpage .placegrid .michelin-line {
+    display: none;
+  }
+  .savedpage .placegrid .placebody {
+    padding: 0;
+  }
+  .savedpage .placegrid .placebody h3 {
+    margin: 0 0 4px;
+    font-size: 16px;
+    line-height: 1.25;
+  }
+  .savedpage .placegrid .placemeta {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 13px;
+  }
+}
