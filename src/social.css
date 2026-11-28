@@ -1372,3 +1372,18 @@
     grid-template-columns: 80px 1fr auto;
   }
 }
+
+/* Needs you: two at a time, the rest behind one button. */
+.soc-needlist.folded > .soc-need:nth-child(n + 3) {
+  display: none;
+}
+.soc-needs-more {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin: 12px auto 0;
+}
+.soc-needs-more .icon {
+  width: 16px;
+  height: 16px;
+}

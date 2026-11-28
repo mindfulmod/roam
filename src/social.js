@@ -329,11 +329,16 @@ function socNeedHtml(n) {
   }
   return '';
 }
+// Two things that need you show at once; the rest wait behind one button, so friends' news
+// is not pushed far down the page. Answering one brings the next up.
+const SOC_NEEDS_SHOWN = 2;
+let socNeedsAll = false;
 function socNeedsHtml() {
-  const needs = socNeeds();
+  const needs = socNeeds(),
+    more = socNeedsAll ? 0 : needs.length - SOC_NEEDS_SHOWN;
   return `<section class="soc-needs" id="soc-needs" aria-label="Needs you"><div class="soc-sechead"><h2>Needs you</h2>${needs.length ? `<span class="soc-pill">${needs.length}</span>` : ''}</div>${
     needs.length
-      ? `<div class="soc-needlist">${needs.map(socNeedHtml).join('')}</div>`
+      ? `<div class="soc-needlist${more > 0 ? ' folded' : ''}">${needs.map(socNeedHtml).join('')}</div>${more > 0 ? `<button class="btn light soc-needs-more" data-action="soc-needs-all">${more} more waiting on you ${icon('down')}</button>` : ''}`
       : `<p class="soc-calm">${icon('check')} Nothing is waiting on you.</p>`
   }</section>`;
 }
@@ -1094,7 +1099,11 @@ document.addEventListener('click', (e) => {
   if (!b) return;
   const a = b.dataset.action,
     id = b.dataset.id;
-  if (a === 'soc-vote') socVote(id, Number(b.dataset.k));
+  if (a === 'soc-needs-all') {
+    socNeedsAll = true;
+    $('.soc-needlist')?.classList.remove('folded');
+    b.hidden = true;
+  } else if (a === 'soc-vote') socVote(id, Number(b.dataset.k));
   else if (a === 'soc-need') socNeed(id, b.dataset.v);
   else if (a === 'soc-look-send') socLookSend(id);
   else if (a === 'soc-look-go') socLookGo(id);
