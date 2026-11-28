@@ -291,7 +291,7 @@ function priceLabel(p) {
 function photoTag(id, cls = '', lazy = true) {
   const p = PHOTO[id];
   if (p)
-    return `<img src="${p.data}" alt="${esc(p.alt || p.title)}" class="photo${cls ? ' ' + cls : ''}" ${lazy ? 'loading="lazy"' : ''} decoding="async">`;
+    return `<img src="${p.data}" alt="${esc(p.alt || p.title)}" class="photo${cls ? ' ' + cls : ''}" ${lazy ? 'loading="lazy"' : ''} decoding="async"${/^#[0-9a-f]{6}$/.test(p.tone || '') ? ` style="background-color:${p.tone}"` : ''}>`;
   // Newer listings may not have a vetted photo yet: show an honest placeholder, never a borrowed image.
   const x = P[id];
   if (!x) return '';

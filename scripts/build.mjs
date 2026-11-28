@@ -19,6 +19,9 @@ const shopping = await readJson('data/shopping.json');
 for (const c of cities)
   if (shopping.cities[c.id]) c.shopping = { ...shopping.cities[c.id], checked: shopping.checked };
 const photos = await readJson('data/photos.json');
+// Each photo's own soft colour, shown while it loads (scripts/photo-tones.mjs).
+for (const [id, tone] of Object.entries(await readJson('data/photo-tones.json')))
+  if (photos[id]) photos[id].tone = tone;
 const art = await readJson('data/art.json');
 // Extra Wikimedia Commons photos per place; hotlinked, so never inlined (see scripts/gallery/).
 const gallery = await readJson('data/gallery.json');
