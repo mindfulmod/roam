@@ -158,8 +158,8 @@
       "id": "otavalo-ota-cuicocha",
       "name": "Laguna Cuicocha",
       "kind": "see",
-      "lat": 0.306,
-      "lon": -78.364,
+      "lat": 0.3,
+      "lon": -78.35,
       "wiki": "Cuicocha",
       "summary": "Crater lake with two islands, with a rim trail.",
       "expect": "4-hour loop; altitude 3,000 m.",
@@ -199,15 +199,24 @@
         "4-hour loop; altitude 3,000 m.",
         "Start early before clouds."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3910,
+          "period": "202511-202610",
+          "title": "Cuicocha",
+          "url": "https://en.wikipedia.org/wiki/Cuicocha",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1143300"
     },
     {
       "id": "otavalo-ota-peguche",
       "name": "Peguche Waterfall",
       "kind": "see",
-      "lat": 0.246,
-      "lon": -78.247,
+      "lat": 0.23808,
+      "lon": -78.23841,
       "wiki": "Peguche Waterfall",
       "summary": "Sacred waterfall in a eucalyptus forest.",
       "expect": "Small fee.",
@@ -246,8 +255,7 @@
       "tradeoffs": [
         "Small fee.",
         "Visit weaving workshops in Peguche."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "otavalo-ota-cotacachi",
@@ -468,5 +476,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28"
 }

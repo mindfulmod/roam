@@ -154,7 +154,16 @@
         "18 km return.",
         "Continue to Mirador Maestri if open."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 69971,
+          "period": "202511-202610",
+          "title": "Cerro Torre",
+          "url": "https://en.wikipedia.org/wiki/Cerro_Torre",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "el-chalten-elc-condores",
@@ -200,7 +209,16 @@
         "1 hour return.",
         "Sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 33025,
+          "period": "202511-202610",
+          "title": "El Chaltén",
+          "url": "https://en.wikipedia.org/wiki/El_Chalt%C3%A9n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "el-chalten-elc-salto",
@@ -246,14 +264,23 @@
         "Easy.",
         "Good rest-day walk."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 33025,
+          "period": "202511-202610",
+          "title": "El Chaltén",
+          "url": "https://en.wikipedia.org/wiki/El_Chalt%C3%A9n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "el-chalten-elc-desierto",
       "name": "Lago del Desierto",
       "kind": "see",
-      "lat": -49.05,
-      "lon": -72.88,
+      "lat": -49.03694,
+      "lon": -72.86361,
       "wiki": "Lago del Desierto",
       "summary": "Lake with boat trips and the Huemul glacier.",
       "expect": "Shuttle and boat.",
@@ -292,8 +319,17 @@
         "Shuttle and boat.",
         "Hike to the Huemul glacier lagoon."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2591,
+          "period": "202511-202610",
+          "title": "Del Desierto Lake",
+          "url": "https://en.wikipedia.org/wiki/Del_Desierto_Lake",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3215648"
     },
     {
       "id": "el-chalten-elc-lamb",
@@ -466,5 +502,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1323978"
 }

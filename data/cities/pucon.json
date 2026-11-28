@@ -64,8 +64,8 @@
       "id": "pucon-puc-volcano",
       "name": "Villarrica volcano climb",
       "kind": "see",
-      "lat": -39.42,
-      "lon": -71.939,
+      "lat": -39.42083,
+      "lon": -71.93917,
       "wiki": "Villarrica (volcano)",
       "summary": "Guided climb to the crater rim of an active volcano.",
       "expect": "Only with licensed guides; closed when activity is high.",
@@ -105,7 +105,20 @@
         "Only with licensed guides; closed when activity is high.",
         "Check status before booking."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20008,
+          "period": "202511-202610",
+          "title": "Villarrica (volcano)",
+          "url": "https://en.wikipedia.org/wiki/Villarrica_(volcano)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1048225",
+      "local": {
+        "name": "Volcán Villarrica",
+        "lang": "es"
+      }
     },
     {
       "id": "pucon-puc-termas",
@@ -159,8 +172,8 @@
       "id": "pucon-puc-huerquehue",
       "name": "Huerquehue National Park",
       "kind": "see",
-      "lat": -39.15,
-      "lon": -71.72,
+      "lat": -39.13861,
+      "lon": -71.66639,
       "wiki": "Huerquehue National Park",
       "summary": "Trail to lakes among araucaria monkey-puzzle trees.",
       "expect": "Park fee.",
@@ -200,8 +213,21 @@
         "Park fee.",
         "Hike Los Lagos trail."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1425,
+          "period": "202511-202610",
+          "title": "Huerquehue National Park",
+          "url": "https://en.wikipedia.org/wiki/Huerquehue_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1124254",
+      "local": {
+        "name": "Parque Nacional Huerquehue",
+        "lang": "es"
+      }
     },
     {
       "id": "pucon-puc-lake",
@@ -247,7 +273,16 @@
         "Busy in summer.",
         "Kayak at sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1809,
+          "period": "202511-202610",
+          "title": "Lake Villarrica",
+          "url": "https://en.wikipedia.org/wiki/Lake_Villarrica",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "pucon-puc-raft",
@@ -293,14 +328,23 @@
         "Tours.",
         "Upper Trancura for thrills."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 533,
+          "period": "202511-202610",
+          "title": "Trancura River",
+          "url": "https://en.wikipedia.org/wiki/Trancura_River",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "pucon-puc-ojos",
       "name": "Ojos del Caburgua",
       "kind": "see",
-      "lat": -39.2,
-      "lon": -71.83,
+      "lat": -39.24694,
+      "lon": -71.84278,
       "wiki": "Ojos del Caburgua",
       "summary": "Turquoise pools and waterfalls.",
       "expect": "Small fee.",
@@ -339,7 +383,16 @@
         "Small fee.",
         "Combine with Caburgua lake."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 431,
+          "period": "202511-202610",
+          "title": "Ojos del Caburgua",
+          "url": "https://en.wikipedia.org/wiki/Ojos_del_Caburgua",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q37684"
     },
     {
       "id": "pucon-puc-kuchen",
@@ -514,5 +567,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q51590"
 }

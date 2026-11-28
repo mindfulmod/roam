@@ -111,14 +111,23 @@
         "Best at high tide.",
         "View from Gamboa bridge."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 56011,
+          "period": "202511-202610",
+          "title": "Stilt house",
+          "url": "https://en.wikipedia.org/wiki/Stilt_house",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "chiloe-chi-castro-church",
       "name": "Church of San Francisco, Castro",
       "kind": "see",
-      "lat": -42.482,
-      "lon": -73.763,
+      "lat": -42.48139,
+      "lon": -73.76389,
       "wiki": "Church of San Francisco, Castro",
       "summary": "Yellow and violet wooden church on the main square.",
       "expect": "Free.",
@@ -158,7 +167,20 @@
         "Free.",
         "Look at the wooden vaulting."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1379,
+          "period": "202511-202610",
+          "title": "Church of San Francisco, Castro",
+          "url": "https://en.wikipedia.org/wiki/Church_of_San_Francisco%2C_Castro",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q501103",
+      "local": {
+        "name": "iglesia de San Francisco",
+        "lang": "es"
+      }
     },
     {
       "id": "chiloe-chi-penguins",
@@ -254,14 +276,23 @@
         "Dalcahue Sunday market too."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5136,
+          "period": "202511-202610",
+          "title": "Churches of Chiloé",
+          "url": "https://en.wikipedia.org/wiki/Churches_of_Chilo%C3%A9",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "chiloe-chi-park",
       "name": "Chiloé National Park",
       "kind": "see",
-      "lat": -42.62,
-      "lon": -74.1,
+      "lat": -42.62297,
+      "lon": -74.1082,
       "wiki": "Chiloé National Park",
       "summary": "Wild Pacific beaches and forest trails.",
       "expect": "Park fee.",
@@ -300,8 +331,16 @@
         "Park fee.",
         "Walk to the Cucao dunes."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1773,
+          "period": "202511-202610",
+          "title": "Chiloé National Park",
+          "url": "https://en.wikipedia.org/wiki/Chilo%C3%A9_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "chiloe-chi-muelle",
@@ -413,8 +452,8 @@
       "id": "chiloe-chi-dalcahue",
       "name": "Dalcahue market cocinerías",
       "kind": "eat",
-      "lat": -42.379,
-      "lon": -73.65,
+      "lat": -42.37931,
+      "lon": -73.64725,
       "wiki": "Dalcahue",
       "summary": "Market kitchens serving cazuela and seafood.",
       "expect": "Weekends busiest.",
@@ -453,7 +492,6 @@
         "Weekends busiest.",
         "Sunday for the craft fair."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Chilote",
       "mustOrder": [
@@ -465,7 +503,8 @@
         "vegetarian": "no",
         "evidence": [],
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
-      }
+      },
+      "wikidata": "Q13031"
     },
     {
       "id": "chiloe-chi-seafood",
@@ -524,5 +563,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q504449",
+  "local": {
+    "name": "Isla Grande de Chiloé",
+    "lang": "es"
+  }
 }

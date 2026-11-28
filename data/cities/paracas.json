@@ -71,8 +71,8 @@
       "id": "paracas-prc-ballestas",
       "name": "Ballestas Islands",
       "kind": "see",
-      "lat": -13.733,
-      "lon": -76.4,
+      "lat": -13.73583,
+      "lon": -76.39639,
       "wiki": "Ballestas Islands",
       "summary": "Boat tour to islands crowded with sea lions, penguins and boobies.",
       "expect": "No landing; morning boats.",
@@ -111,14 +111,27 @@
         "No landing; morning boats.",
         "Sit on the left side for the Candelabra."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6623,
+          "period": "202511-202610",
+          "title": "Ballestas Islands",
+          "url": "https://en.wikipedia.org/wiki/Ballestas_Islands",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2749240",
+      "local": {
+        "name": "Islas Ballestas",
+        "lang": "es"
+      }
     },
     {
       "id": "paracas-prc-reserve",
       "name": "Paracas National Reserve",
       "kind": "see",
-      "lat": -13.9,
-      "lon": -76.32,
+      "lat": -13.89542,
+      "lon": -76.27108,
       "wiki": "Paracas National Reserve",
       "summary": "Desert meeting the sea with red beaches and cliffs.",
       "expect": "Entry fee; tour or bike.",
@@ -158,14 +171,27 @@
         "Entry fee; tour or bike.",
         "Visit Playa Roja."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8219,
+          "period": "202511-202610",
+          "title": "Paracas National Reserve",
+          "url": "https://en.wikipedia.org/wiki/Paracas_National_Reserve",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2307752",
+      "local": {
+        "name": "Reserva nacional de Paracas",
+        "lang": "es"
+      }
     },
     {
       "id": "paracas-prc-huacachina",
       "name": "Huacachina dune buggy and sandboarding",
       "kind": "see",
-      "lat": -14.087,
-      "lon": -75.763,
+      "lat": -14.0875,
+      "lon": -75.76333,
       "wiki": "Huacachina",
       "summary": "Oasis lagoon in huge dunes with buggy rides and sandboarding at sunset.",
       "expect": "Wild rides.",
@@ -205,8 +231,17 @@
         "Wild rides.",
         "Go for the sunset tour."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 53303,
+          "period": "202511-202610",
+          "title": "Huacachina",
+          "url": "https://en.wikipedia.org/wiki/Huacachina",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1632715"
     },
     {
       "id": "paracas-prc-pisco",
@@ -254,14 +289,23 @@
         "Visit Tacama or a small family bodega."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 166615,
+          "period": "202511-202610",
+          "title": "Pisco",
+          "url": "https://en.wikipedia.org/wiki/Pisco",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "paracas-prc-nazca",
       "name": "Nazca Lines flight",
       "kind": "see",
-      "lat": -14.739,
-      "lon": -75.13,
+      "lat": -14.6975,
+      "lon": -75.135,
       "wiki": "Nazca Lines",
       "summary": "Small-plane flight over the giant desert geoglyphs.",
       "expect": "Flights from Pisco or Nazca; bumpy.",
@@ -301,8 +345,21 @@
         "Flights from Pisco or Nazca; bumpy.",
         "Skip breakfast if prone to airsickness."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 357212,
+          "period": "202511-202610",
+          "title": "Nazca lines",
+          "url": "https://en.wikipedia.org/wiki/Nazca_lines",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2620036",
+      "local": {
+        "name": "Líneas de Nazca",
+        "lang": "es"
+      }
     },
     {
       "id": "paracas-prc-ceviche",
@@ -477,5 +534,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28"
 }
