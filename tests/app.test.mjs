@@ -1164,3 +1164,22 @@ test('trip days fold to one line each, day 1 open, and a tick keeps your open da
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('places that did not fit a short stay fold to one line', async () => {
+  const page = await openApp(browser, origin, { hash: '#/city/tokyo' });
+  await page.waitForSelector('.cityhero');
+  const ids = await page.evaluate(() => C.tokyo.items.map((p) => p.id).slice(0, 14));
+  await page.context().close();
+  const trip = await openApp(browser, origin, {
+    hash: '#/trip',
+    state: { trip: ['tokyo'], days: { tokyo: 1 }, saved: ids },
+  });
+  const unfit = trip.locator('details.unfit');
+  await unfit.waitFor();
+  assert.match(await unfit.locator('summary').textContent(), /more places? did not fit/);
+  assert.equal(await unfit.getAttribute('open'), null);
+  await unfit.locator('summary').click();
+  assert.equal(await unfit.getAttribute('open'), '');
+  assert.deepEqual(trip.errors, []);
+  await trip.context().close();
+});
