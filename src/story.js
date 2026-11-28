@@ -909,11 +909,12 @@ function storyLeave() {
   storyMap = null;
   storyNow = null;
 }
-function storyTeaser() {
+// The home page's small door into the sample story, beside Help me choose.
+function storyTile() {
   const id = Object.keys(STORIES)[0],
     st = STORIES[id];
   if (!st) return '';
-  return `<a class="story-teaser" href="#/story/${id}">${photoTag(st.cover)}<div><span class="eyebrow">New · Trip stories</span><strong>See a trip tell itself</strong><span>The route, the time at each place and a few picked photos. Open the sample from Japan.</span></div>${icon('arrow')}</a>`;
+  return `<a class="hq hq-story" href="#/story/${id}">${photoTag(st.cover)}<span><strong>Trip stories</strong><small>A Japan sample</small></span></a>`;
 }
 let stLastTap = 0,
   stTapTimer;

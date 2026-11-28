@@ -9501,3 +9501,169 @@ img.photo {
     -webkit-backdrop-filter: none;
   }
 }
+
+/* ==========================================================================
+   Calmer home (2026-11-28): the search floats on the photo, Help me choose and
+   trip stories share one row of two small doors, and When + Sort fit on one
+   line. On phones the row cards are smaller and quieter (no Compare button).
+   ========================================================================== */
+.doors {
+  grid-template-columns: minmax(0, 1fr);
+  max-width: 640px;
+}
+.door-search {
+  padding: 0;
+  border: 0;
+  border-radius: 40px;
+  background: transparent;
+  box-shadow: none;
+}
+.door-search .hero-search {
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 30px #2b262126;
+}
+.home-quick {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+  max-width: 640px;
+  margin: 0 0 18px;
+}
+.hq {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  min-width: 0;
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 16px;
+  background: var(--k-fff-s);
+  color: var(--ink);
+  text-decoration: none;
+  transition: transform 0.12s ease;
+}
+.hq:active {
+  transform: scale(0.98);
+}
+.hq i,
+.hq > img,
+.hq > .nophoto {
+  flex: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.hq i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--teal-fill);
+  color: #fff;
+}
+.hq i .icon {
+  width: 22px;
+  height: 22px;
+}
+.hq > span {
+  min-width: 0;
+}
+.hq strong,
+.hq small {
+  display: block;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.hq strong {
+  font-size: 15px;
+}
+.hq small {
+  font-size: 13px;
+  color: var(--muted);
+}
+.browse-tools {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  gap: 8px;
+  margin: 6px 0 4px;
+}
+.browse-tools .sortpick {
+  gap: 6px;
+  min-width: 0;
+}
+.browse-tools .sortpick > span:not(.visually-hidden) {
+  color: var(--muted);
+  font-weight: 600;
+}
+.browse-tools .sortpick .icon {
+  width: 16px;
+  height: 16px;
+  color: var(--muted);
+}
+.browse-tools .month-pick {
+  margin: 0;
+}
+.rank-info {
+  margin-left: auto;
+  flex: none;
+}
+@media (max-width: 760px) {
+  .home-hero {
+    min-height: 190px;
+  }
+  .doors {
+    margin: -34px 12px 14px;
+  }
+  .hq {
+    padding: 8px;
+    gap: 8px;
+  }
+  .hq i,
+  .hq > img,
+  .hq > .nophoto {
+    width: 36px;
+    height: 36px;
+  }
+  .hq strong {
+    font-size: 14px;
+  }
+  .hq small {
+    font-size: 12px;
+  }
+  .browse-tools .sortpick select {
+    padding: 6px 10px;
+  }
+  .browse-tools .month-pick {
+    margin: 0;
+    padding: 0;
+  }
+  /* Row cards: smaller, so the next one peeks, and only what helps you choose. */
+  .home .hrow {
+    grid-auto-columns: 64%;
+  }
+  .hrow .citycard .cityimage {
+    aspect-ratio: 4 / 3;
+  }
+  .hrow .citycard .citybody p {
+    -webkit-line-clamp: 1;
+  }
+  .hrow .citycard .cmpbtn {
+    display: none;
+  }
+  .hrow .citycard .cardfoot {
+    border-top: 0;
+    padding-top: 2px;
+  }
+  .hrow .citycard .cardprice b,
+  .hrow .citycard .cardprice small {
+    display: inline;
+    font-size: 13px;
+  }
+  .hrow .citycard .cardprice small {
+    margin-left: 4px;
+  }
+  .seeall-card {
+    aspect-ratio: 4 / 3;
+  }
+}

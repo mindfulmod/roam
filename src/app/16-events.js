@@ -282,6 +282,7 @@ document.addEventListener('input', (e) => {
 document.addEventListener('change', (e) => {
   const t = e.target;
   let tripChange = false;
+  if (t.id === 'month-pick') setMonth(Number(t.value));
   if (t.id === 'browse-sort') {
     browseSort = t.value;
     renderBrowse();

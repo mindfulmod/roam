@@ -93,7 +93,7 @@ document.addEventListener('click', (e) => {
 function renderExplore() {
   headerActive('explore');
   $('#app').innerHTML =
-    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><section class="doors"><div class="door door-search"><label for="browse-search">I have a place in mind</label><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" autocomplete="off" aria-label="Search cities, sights and dishes" placeholder="City, sight or dish"></div><div class="suggest" id="search-suggest" role="listbox" hidden></div></div><a class="door door-choose" href="#/choose"><i>${icon('compass')}</i><span><strong>Help me choose</strong><small>${CITIES.length} places, matched to your time, budget and mood</small></span>${icon('arrow')}</a></section>${choosePill()}${loopStrip()}${storyTeaser()}<div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America', 'Oceania'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div>${monthChips()}<div class="browse-tools" id="browse"><label class="sortpick">Sort by <select id="browse-sort" aria-label="Sort destinations">${[
+    `<div class="wrap home"><section class="home-hero">${photoTag('kyoto', '', false)}<div class="home-hero-copy"><h1>Where to next?</h1></div><span class="hero-credit">${photoCredit('kyoto')}</span></section><section class="doors"><div class="door door-search"><div class="searchbox hero-search">${icon('search')}<input type="search" id="browse-search" autocomplete="off" aria-label="Search cities, sights and dishes" placeholder="Search a city, sight or dish"></div><div class="suggest" id="search-suggest" role="listbox" hidden></div></div></section><div class="home-quick"><a class="hq hq-choose" href="#/choose"><i>${icon('compass')}</i><span><strong>Help me choose</strong><small>Match my trip</small></span></a>${storyTile()}</div>${choosePill()}<div class="chips region-chips" id="region-chips">${['All', 'Asia', 'Europe', 'Africa', 'South America', 'North America', 'Oceania'].map((r) => `<button class="chip ${browseRegion === r ? 'active' : ''}" data-action="region" data-id="${r}">${r === 'All' ? 'Everywhere' : r}</button>`).join('')}</div><div class="browse-tools" id="browse">${monthPick()}<label class="sortpick"><span>Sort</span><select id="browse-sort" aria-label="Sort destinations">${[
       ['tourism', 'Most loved'],
       ['arrivals', 'Most visited'],
       ['personal', 'Japan first'],
@@ -101,7 +101,7 @@ function renderExplore() {
       .map(([k, t]) => `<option value="${k}" ${browseSort === k ? 'selected' : ''}>${t}</option>`)
       .join(
         '',
-      )}</select></label><button class="inline-link" data-action="ranking-method">${icon('info')} How we order places</button></div><div id="browse-results"></div>${vibeSection()}<div class="rowhead"><h2>Ready-made trips</h2><a href="#/trip" class="inline-link">See all ${icon('arrow')}</a></div><div class="hrow">${TEMPLATES.slice(
+      )}</select></label><button class="iconbtn rank-info" data-action="ranking-method" aria-label="How we order places" title="How we order places">${icon('info')}</button></div><div id="browse-results"></div>${vibeSection()}<div class="rowhead"><h2>Ready-made trips</h2><a href="#/trip" class="inline-link">See all ${icon('arrow')}</a></div><div class="hrow">${TEMPLATES.slice(
       0,
       6,
     )
@@ -112,18 +112,14 @@ function renderExplore() {
       .join('')}</div>${footer()}</div>`;
   renderBrowse();
 }
-// "When can I go?": one row of months. The pick also prices every estimate for that month.
-function monthChips() {
+// "When can I go?": one menu of months. The pick also prices every estimate for that month.
+function monthPick() {
   const m = budgetMonth();
-  return `<div class="month-pick" id="month-chips" role="group" aria-label="When are you going?"><span class="month-label">${icon('calendar')} When</span><div class="chips month-chips"><button class="chip ${m ? '' : 'active'}" data-action="month" data-id="0" aria-pressed="${!m}">Any time</button>${MONTHS.map((t, i) => `<button class="chip ${m === i + 1 ? 'active' : ''}" data-action="month" data-id="${i + 1}" aria-pressed="${m === i + 1}">${t}</button>`).join('')}</div></div>`;
+  return `<label class="sortpick month-pick">${icon('calendar')}<span class="visually-hidden">When are you going?</span><select id="month-pick" aria-label="When are you going?"><option value="0" ${m ? '' : 'selected'}>Any time</option>${MONTHS_LONG.map((t, i) => `<option value="${i + 1}" ${m === i + 1 ? 'selected' : ''}>${t}</option>`).join('')}</select></label>`;
 }
 function syncMonthChips() {
-  const m = budgetMonth();
-  $$('#month-chips .chip').forEach((x) => {
-    const on = Number(x.dataset.id) === m;
-    x.classList.toggle('active', on);
-    x.setAttribute('aria-pressed', on);
-  });
+  const el = $('#month-pick');
+  if (el) el.value = String(budgetMonth() || 0);
 }
 const bestIn = (c, m) => c.bestMonths.includes(m);
 function browseOrder(list) {
@@ -151,9 +147,10 @@ function cityGlance(c) {
 const ROW_MAX = 12,
   GRID_STEP = 24;
 let gridShown = GRID_STEP;
-function cityRow(title, list, region = '') {
-  const more = region && list.length > ROW_MAX;
-  return `<section class="cityrow"><div class="rowhead"><h2>${title}</h2>${region ? `<button class="inline-link" data-action="region" data-id="${region}" data-jump>See all ${list.length} ${icon('arrow')}</button>` : ''}</div><div class="hrow">${list
+function cityRow(title, list, region = '', skip = []) {
+  const more = region && list.length > ROW_MAX,
+    shown = skip.length ? list.filter((c) => !skip.includes(c)) : list;
+  return `<section class="cityrow"><div class="rowhead"><h2>${title}</h2>${region ? `<button class="inline-link" data-action="region" data-id="${region}" data-jump>See all ${list.length} ${icon('arrow')}</button>` : ''}</div><div class="hrow">${shown
     .slice(0, region ? ROW_MAX : 20)
     .map(cityCard)
     .join(
@@ -221,7 +218,7 @@ function renderBrowse() {
       regions
         .map((r) => [r, list.filter((c) => c.region === r)])
         .filter(([, l]) => l.length)
-        .map(([r, l]) => cityRow(r, l, r))
+        .map(([r, l]) => cityRow(r, l, r, top))
         .join('');
     return;
   }
