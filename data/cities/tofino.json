@@ -71,7 +71,7 @@
       "name": "Long Beach",
       "kind": "see",
       "lat": 49.05,
-      "lon": -125.72,
+      "lon": -125.71667,
       "wiki": "Long Beach (British Columbia)",
       "summary": "Sixteen kilometres of open surf beach.",
       "expect": "Park pass needed.",
@@ -110,7 +110,16 @@
         "Park pass needed.",
         "Walk at low tide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5663,
+          "period": "202511-202610",
+          "title": "Long Beach (British Columbia)",
+          "url": "https://en.wikipedia.org/wiki/Long_Beach_(British_Columbia)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6672263"
     },
     {
       "id": "tofino-tof-surf",
@@ -156,7 +165,16 @@
         "Lessons year round.",
         "Book a morning lesson."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 47392,
+          "period": "202511-202610",
+          "title": "Tofino",
+          "url": "https://en.wikipedia.org/wiki/Tofino",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tofino-tof-rainforest",
@@ -202,7 +220,16 @@
         "Park pass.",
         "Go after rain."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16150,
+          "period": "202511-202610",
+          "title": "Pacific Rim National Park Reserve",
+          "url": "https://en.wikipedia.org/wiki/Pacific_Rim_National_Park_Reserve",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tofino-tof-whales",
@@ -248,14 +275,23 @@
         "March to October.",
         "Bears are best at low tide."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9278,
+          "period": "202511-202610",
+          "title": "Clayoquot Sound",
+          "url": "https://en.wikipedia.org/wiki/Clayoquot_Sound",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tofino-tof-hotsprings",
       "name": "Hot Springs Cove",
       "kind": "see",
-      "lat": 49.36,
-      "lon": -126.26,
+      "lat": 49.4,
+      "lon": -126.34167,
       "wiki": "Maquinna Marine Provincial Park",
       "summary": "Natural hot pools by the sea, reached by boat or floatplane.",
       "expect": "Full-day trip.",
@@ -295,8 +331,16 @@
         "Full-day trip.",
         "Go early to beat the crowds."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 429,
+          "period": "202511-202610",
+          "title": "Nism̓aakqin Marine Provincial Park and Protected Area",
+          "url": "https://en.wikipedia.org/wiki/Nism%CC%93aakqin_Marine_Provincial_Park_and_Protected_Area",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tofino-tof-storms",
@@ -343,14 +387,23 @@
         "November to February.",
         "Book a room with a sea view."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 47392,
+          "period": "202511-202610",
+          "title": "Tofino",
+          "url": "https://en.wikipedia.org/wiki/Tofino",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tofino-tof-gallery",
       "name": "Roy Henry Vickers Gallery",
       "kind": "see",
-      "lat": 49.153,
-      "lon": -125.906,
+      "lat": 49.15314,
+      "lon": -125.90637,
       "wiki": "Roy Henry Vickers",
       "summary": "Gallery of Indigenous artist Roy Henry Vickers in a longhouse building.",
       "expect": "Free.",
@@ -390,7 +443,15 @@
         "Free.",
         "Quick visit in town."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6672,
+          "period": "202511-202610",
+          "title": "Roy Henry Vickers",
+          "url": "https://en.wikipedia.org/wiki/Roy_Henry_Vickers",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "tofino-tof-tacos",
@@ -565,5 +626,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q462564"
 }

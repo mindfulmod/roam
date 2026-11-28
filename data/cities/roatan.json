@@ -99,14 +99,23 @@
         "Open water courses take 3 to 4 days.",
         "Compare a few shops; check their safety record."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 19759,
+          "period": "202511-202610",
+          "title": "Mesoamerican Barrier Reef System",
+          "url": "https://en.wikipedia.org/wiki/Mesoamerican_Barrier_Reef_System",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "roatan-roa-westbay",
       "name": "West Bay Beach",
       "kind": "see",
-      "lat": 16.278,
-      "lon": -86.601,
+      "lat": 16.27515,
+      "lon": -86.59935,
       "wiki": "Roatán",
       "summary": "White sand with snorkelling reef a few metres from shore.",
       "expect": "Busy on cruise days.",
@@ -144,8 +153,7 @@
       "tradeoffs": [
         "Busy on cruise days.",
         "Go early or late on cruise days."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "roatan-roa-halfmoon",
@@ -191,7 +199,16 @@
         "Free.",
         "Bring fins."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 233742,
+          "period": "202511-202610",
+          "title": "Roatán",
+          "url": "https://en.wikipedia.org/wiki/Roat%C3%A1n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "roatan-roa-mangrove",
@@ -238,7 +255,16 @@
         "Tours from Oak Ridge.",
         "Bring bug spray."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 233742,
+          "period": "202511-202610",
+          "title": "Roatán",
+          "url": "https://en.wikipedia.org/wiki/Roat%C3%A1n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "roatan-roa-gumbalimba",
@@ -285,7 +311,16 @@
         "Paid entry.",
         "Go on a non-cruise day."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 233742,
+          "period": "202511-202610",
+          "title": "Roatán",
+          "url": "https://en.wikipedia.org/wiki/Roat%C3%A1n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "roatan-roa-sunset",
@@ -332,7 +367,16 @@
         "Free.",
         "Arrive by 5 pm."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 233742,
+          "period": "202511-202610",
+          "title": "Roatán",
+          "url": "https://en.wikipedia.org/wiki/Roat%C3%A1n",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "roatan-roa-baleadas",
@@ -507,5 +551,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1419813"
 }

@@ -199,8 +199,8 @@
       "id": "granada-nicaragua-grn-masaya",
       "name": "Masaya Volcano at night",
       "kind": "see",
-      "lat": 11.984,
-      "lon": -86.161,
+      "lat": 11.98278,
+      "lon": -86.16194,
       "wiki": "Masaya Volcano",
       "summary": "Look into an active crater with a lava lake.",
       "expect": "Night visits are short and timed.",
@@ -240,15 +240,24 @@
         "Night visits are short and timed.",
         "Arrive before opening to queue."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 17163,
+          "period": "202511-202610",
+          "title": "Masaya Volcano",
+          "url": "https://en.wikipedia.org/wiki/Masaya_Volcano",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q613424"
     },
     {
       "id": "granada-nicaragua-grn-apoyo",
       "name": "Laguna de Apoyo",
       "kind": "see",
-      "lat": 11.915,
-      "lon": -86.035,
+      "lat": 11.922,
+      "lon": -86.029,
       "wiki": "Laguna de Apoyo",
       "summary": "Warm, clear crater lake for swimming and kayaking.",
       "expect": "Shuttles from Granada.",
@@ -287,15 +296,24 @@
         "Shuttles from Granada.",
         "Spend a lazy day at a lakeside hostel."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6569,
+          "period": "202511-202610",
+          "title": "Apoyo Lagoon Natural Reserve",
+          "url": "https://en.wikipedia.org/wiki/Apoyo_Lagoon_Natural_Reserve",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3000329"
     },
     {
       "id": "granada-nicaragua-grn-mombacho",
       "name": "Mombacho Volcano cloud forest",
       "kind": "see",
-      "lat": 11.826,
-      "lon": -85.968,
+      "lat": 11.82611,
+      "lon": -85.9675,
       "wiki": "Mombacho",
       "summary": "Trails around steaming craters in cloud forest.",
       "expect": "Truck to the top.",
@@ -335,8 +353,17 @@
         "Truck to the top.",
         "Clear mornings are best."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4121,
+          "period": "202511-202610",
+          "title": "Mombacho",
+          "url": "https://en.wikipedia.org/wiki/Mombacho",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1537774"
     },
     {
       "id": "granada-nicaragua-grn-calzada",
@@ -383,7 +410,16 @@
         "Free.",
         "Evenings are lively."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 27773,
+          "period": "202511-202610",
+          "title": "Granada, Nicaragua",
+          "url": "https://en.wikipedia.org/wiki/Granada%2C_Nicaragua",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "granada-nicaragua-grn-vigoron",
@@ -557,5 +593,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q205648"
 }

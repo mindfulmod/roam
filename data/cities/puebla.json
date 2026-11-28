@@ -120,8 +120,8 @@
       "id": "puebla-pue-cathedral",
       "name": "Puebla Cathedral and Zócalo",
       "kind": "see",
-      "lat": 19.043,
-      "lon": -98.198,
+      "lat": 19.04278,
+      "lon": -98.19833,
       "wiki": "Puebla Cathedral",
       "summary": "Huge cathedral with tall towers on the main square.",
       "expect": "Free.",
@@ -161,14 +161,27 @@
         "Free.",
         "Visit at night when lit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10698,
+          "period": "202511-202610",
+          "title": "Puebla Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Puebla_Cathedral",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1994735",
+      "local": {
+        "name": "Catedral de Puebla",
+        "lang": "es"
+      }
     },
     {
       "id": "puebla-pue-library",
       "name": "Biblioteca Palafoxiana",
       "kind": "see",
       "lat": 19.0425,
-      "lon": -98.1975,
+      "lon": -98.1989,
       "wiki": "Biblioteca Palafoxiana",
       "summary": "The first public library in the Americas, with carved wood shelves.",
       "expect": "Small fee; closed Mondays.",
@@ -208,7 +221,16 @@
         "Small fee; closed Mondays.",
         "Quick but memorable."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6241,
+          "period": "202511-202610",
+          "title": "Biblioteca Palafoxiana",
+          "url": "https://en.wikipedia.org/wiki/Biblioteca_Palafoxiana",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q4903485"
     },
     {
       "id": "puebla-pue-talavera",
@@ -255,14 +277,23 @@
         "Paid tour.",
         "Buy authentic pieces here."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 12003,
+          "period": "202511-202610",
+          "title": "Artisanal Talavera of Puebla and Tlaxcala",
+          "url": "https://en.wikipedia.org/wiki/Artisanal_Talavera_of_Puebla_and_Tlaxcala",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "puebla-pue-cholula",
       "name": "Great Pyramid of Cholula",
       "kind": "see",
-      "lat": 19.057,
-      "lon": -98.302,
+      "lat": 19.0575,
+      "lon": -98.30194,
       "wiki": "Great Pyramid of Cholula",
       "summary": "Largest pyramid by volume, topped by a church with volcano views.",
       "expect": "Paid tunnels.",
@@ -303,15 +334,28 @@
         "Paid tunnels.",
         "Walk the tunnels then climb to the church."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 130703,
+          "period": "202511-202610",
+          "title": "Great Pyramid of Cholula",
+          "url": "https://en.wikipedia.org/wiki/Great_Pyramid_of_Cholula",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1417475",
+      "local": {
+        "name": "Gran Pirámide de Cholula",
+        "lang": "es"
+      }
     },
     {
       "id": "puebla-pue-sapos",
       "name": "Callejón de los Sapos",
       "kind": "see",
-      "lat": 19.04,
-      "lon": -98.194,
+      "lat": 19.04134,
+      "lon": -98.19555,
       "wiki": "Puebla (city)",
       "summary": "Colourful alley of antiques and cafés.",
       "expect": "Weekend antique market.",
@@ -351,7 +395,15 @@
         "Weekend antique market.",
         "Sunday morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 131607,
+          "period": "202511-202610",
+          "title": "Puebla (city)",
+          "url": "https://en.wikipedia.org/wiki/Puebla_(city)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "puebla-pue-mole",
@@ -524,5 +576,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q125293",
+  "local": {
+    "name": "Heroica Puebla de Zaragoza",
+    "lang": "es"
+  }
 }

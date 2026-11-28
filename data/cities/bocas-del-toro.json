@@ -71,8 +71,8 @@
       "id": "bocas-del-toro-bdt-starfish",
       "name": "Starfish Beach",
       "kind": "see",
-      "lat": 9.41,
-      "lon": -82.324,
+      "lat": 9.40484,
+      "lon": -82.32545,
       "wiki": "Isla Colón",
       "summary": "Calm shallows dotted with orange starfish.",
       "expect": "Bus or bike from town.",
@@ -110,15 +110,14 @@
       "tradeoffs": [
         "Bus or bike from town.",
         "Look but never lift the starfish."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bocas-del-toro-bdt-zapatilla",
       "name": "Cayo Zapatilla and the marine park",
       "kind": "see",
-      "lat": 9.265,
-      "lon": -82.056,
+      "lat": 9.2825,
+      "lon": -82.13972,
       "wiki": "Isla Bastimentos National Marine Park",
       "summary": "Island-hopping tour with snorkel stops and a deserted beach.",
       "expect": "Full-day boat tours.",
@@ -158,14 +157,27 @@
         "Full-day boat tours.",
         "Pick a small boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1405,
+          "period": "202511-202610",
+          "title": "Isla Bastimentos National Marine Park",
+          "url": "https://en.wikipedia.org/wiki/Isla_Bastimentos_National_Marine_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1751287",
+      "local": {
+        "name": "Parque Nacional Isla Bastimentos",
+        "lang": "es"
+      }
     },
     {
       "id": "bocas-del-toro-bdt-redfrog",
       "name": "Red Frog Beach",
       "kind": "see",
-      "lat": 9.34,
-      "lon": -82.17,
+      "lat": 9.35,
+      "lon": -82.2,
       "wiki": "Isla Bastimentos",
       "summary": "Wild surf beach where tiny red poison frogs live in the forest.",
       "expect": "Small landing fee.",
@@ -204,14 +216,22 @@
         "Small landing fee.",
         "Look on the forest path."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3442,
+          "period": "202511-202610",
+          "title": "Bastimentos Island",
+          "url": "https://en.wikipedia.org/wiki/Bastimentos_Island",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bocas-del-toro-bdt-dolphins",
       "name": "Dolphin Bay",
       "kind": "see",
-      "lat": 9.235,
-      "lon": -82.26,
+      "lat": 9.24182,
+      "lon": -82.25871,
       "wiki": "Bocas del Toro Archipelago",
       "summary": "Bottlenose dolphins in a calm bay.",
       "expect": "Part of most tours.",
@@ -249,8 +269,7 @@
       "tradeoffs": [
         "Part of most tours.",
         "Boats should keep their distance."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "bocas-del-toro-bdt-surf",
@@ -296,7 +315,16 @@
         "Board rental in town.",
         "For experienced surfers."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4575,
+          "period": "202511-202610",
+          "title": "Colón Island",
+          "url": "https://en.wikipedia.org/wiki/Col%C3%B3n_Island",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "bocas-del-toro-bdt-town",
@@ -518,5 +546,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q2632038",
+  "local": {
+    "name": "Archipiélago de Bocas del Toro",
+    "lang": "es"
+  }
 }
