@@ -1,8 +1,9 @@
 name: Accounts
 
 # Sign-in, invites and the privacy rules, checked on a real Supabase running inside the job (the
-# same software as the live project) rather than on the stand-in the "privacy" check uses. Runs
-# when the database, the sign-in settings or the account code change.
+# same software as the live project) rather than on the stand-ins the "privacy" and "test" checks
+# use: the privacy rules, the sign-in service through its API, then the built site in a browser.
+# Runs when the database, the sign-in settings or the account code change.
 on:
   pull_request:
     paths:
@@ -12,6 +13,8 @@ on:
       - 'tests/e2e/**'
       - 'src/backend.js'
       - 'src/account.js'
+      - 'scripts/build.mjs'
+      - 'tests/helpers.mjs'
       - '.github/workflows/accounts.yml'
   workflow_dispatch:
 
@@ -54,6 +57,19 @@ jobs:
           export MAIL_URL="${MAILPIT_URL:-${INBUCKET_URL:-http://127.0.0.1:54324}}"
           export DB_URL
           node --test tests/e2e/backend.e2e.mjs
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - name: The site in a browser, on the same Supabase
+        run: |
+          eval "$(supabase status -o env)"
+          export SUPABASE_URL="$API_URL"
+          export SUPABASE_KEY="${PUBLISHABLE_KEY:-$ANON_KEY}"
+          export MAIL_URL="${MAILPIT_URL:-${INBUCKET_URL:-http://127.0.0.1:54324}}"
+          export DB_URL
+          # The local project's address and key are the same on every machine, not secrets.
+          node -e 'const {SUPABASE_URL: url, SUPABASE_KEY: key} = process.env; require("fs").writeFileSync("data/backend.json", JSON.stringify({ url, key }) + "\n")'
+          npm run build
+          node --test tests/e2e/browser.e2e.mjs
       - name: Sign-in service log, if something failed
         if: failure()
         run: docker logs "$(docker ps -qf name=supabase_auth)" 2>&1 | tail -150 || true
