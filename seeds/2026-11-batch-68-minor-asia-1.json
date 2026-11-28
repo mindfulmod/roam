@@ -1,0 +1,2537 @@
+[
+ {
+  "country": "Türkiye",
+  "region": "Asia",
+  "currency": "TRY",
+  "cashTip": "Cards are widely accepted; carry lira for minibuses, village cafés and tea gardens. Tip 5 to 10 percent.",
+  "id": "trabzon",
+  "name": "Trabzon",
+  "at": [
+   41.0027,
+   39.7168
+  ],
+  "wiki": "Trabzon",
+  "cover": "Sümela Monastery",
+  "dailyBudget": [
+   1500,
+   3500
+  ],
+  "cashPerDay": [
+   300,
+   800
+  ],
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "Cliff monastery, tea hills and the green Black Sea",
+  "summary": "Trabzon is the gateway to Türkiye's lush Black Sea coast. See the Sümela Monastery clinging to a cliff in a misty forest, the frescoed Hagia Sophia of Trabzon, and Atatürk's mansion, then head into the Kaçkar mountains to Uzungöl lake, the tea terraces of Rize and the highland villages of Ayder.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is mild and green; rain falls all year, and highland roads may close in winter.",
+  "arrival": "Trabzon Airport has flights from Istanbul (about 2 hours) and Ankara.",
+  "gettingAround": "Dolmuş minibuses in town; tours or a car for Sümela and Uzungöl.",
+  "foodTip": "Hamsi (Black Sea anchovies), kuymak cheese fondue, Akçaabat köfte, Laz böreği and fresh Rize tea.",
+  "buyTip": "Rize tea, hazelnuts and Trabzon silver filigree (hasır bilezik).",
+  "baseArea": "Meydan (centre)",
+  "hotel": [
+   40,
+   120
+  ],
+  "connections": [
+   {
+    "to": "istanbul",
+    "mode": "Plane",
+    "minutes": 120,
+    "note": "Many flights a day."
+   }
+  ],
+  "items": [
+   {
+    "name": "Sümela Monastery",
+    "kind": "see",
+    "id": "tra-sumela",
+    "at": [
+     40.69,
+     39.6585
+    ],
+    "wiki": "Sümela Monastery",
+    "area": "Maçka",
+    "summary": "Greek Orthodox monastery built into a sheer cliff high above a forested valley.",
+    "expect": "Paid; steep path; often foggy.",
+    "tip": "Go early; a lift or path takes you up.",
+    "why": "Dramatic cliff monastery.",
+    "flow": [
+     "Walk up.",
+     "Frescoed rock church."
+    ],
+    "hours": 3,
+    "price": [
+     600,
+     800
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Hagia Sophia of Trabzon",
+    "kind": "see",
+    "id": "tra-ayasofya",
+    "at": [
+     41.0055,
+     39.693
+    ],
+    "wiki": "Hagia Sophia, Trabzon",
+    "area": "Ayasofya",
+    "summary": "13th-century Byzantine church with frescoes, now a mosque.",
+    "expect": "Free; dress modestly.",
+    "tip": "Look at the carved Genesis frieze on the south porch.",
+    "why": "Byzantine Trabzon.",
+    "flow": [
+     "Church.",
+     "Frieze."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Atatürk Mansion",
+    "kind": "see",
+    "id": "tra-ataturk",
+    "at": [
+     40.986,
+     39.696
+    ],
+    "wiki": "Atatürk Pavilion (Trabzon)",
+    "area": "Soğuksu",
+    "summary": "White hillside villa where Atatürk stayed, with gardens and city views.",
+    "expect": "Small fee.",
+    "tip": "Combine with Boztepe at sunset.",
+    "why": "History and views.",
+    "flow": [
+     "Mansion.",
+     "Gardens."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Boztepe Hill",
+    "kind": "see",
+    "id": "tra-boztepe",
+    "at": [
+     40.999,
+     39.729
+    ],
+    "wiki": "Boztepe",
+    "area": "Boztepe",
+    "summary": "Hill with tea gardens overlooking the city and the Black Sea.",
+    "expect": "Free.",
+    "tip": "Have tea and simit at sunset.",
+    "why": "City view.",
+    "flow": [
+     "Tea garden.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Uzungöl",
+    "kind": "see",
+    "id": "tra-uzungol",
+    "at": [
+     40.619,
+     40.29
+    ],
+    "wiki": "Uzungöl",
+    "area": "Çaykara",
+    "summary": "Lake in a mountain valley with a mosque by the water and wooden chalets.",
+    "expect": "2 hours each way; touristy.",
+    "tip": "Walk up to the viewpoints above the lake.",
+    "why": "Mountain lake.",
+    "flow": [
+     "Lake walk.",
+     "Viewpoint."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ayder plateau",
+    "kind": "see",
+    "id": "tra-ayder",
+    "at": [
+     40.953,
+     41.105
+    ],
+    "wiki": "Ayder",
+    "area": "Kaçkar Mountains",
+    "summary": "Highland village of wooden houses, waterfalls and hot springs.",
+    "expect": "About 3 hours.",
+    "tip": "Stay overnight; try the hot spring.",
+    "why": "Kaçkar highlands.",
+    "flow": [
+     "Waterfalls.",
+     "Hot spring."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     150
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Rize tea terraces",
+    "kind": "see",
+    "id": "tra-rize",
+    "at": [
+     41.025,
+     40.517
+    ],
+    "wiki": "Rize",
+    "area": "Rize",
+    "summary": "Tea plantations covering the hills, with a tea garden overlooking the town.",
+    "expect": "1h15 by car.",
+    "tip": "Visit the Tea Research Institute garden.",
+    "why": "Türkiye's tea country.",
+    "flow": [
+     "Tea garden.",
+     "Plantation views."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Food"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Hamsi",
+    "kind": "eat",
+    "id": "tra-hamsi",
+    "at": [
+     41.003,
+     39.72
+    ],
+    "wiki": "European anchovy",
+    "area": "Meydan",
+    "summary": "Black Sea anchovies, fried in cornmeal or baked with rice.",
+    "expect": "Best in winter season.",
+    "tip": "Try hamsili pilav.",
+    "why": "Black Sea staple.",
+    "flow": [
+     "Fish restaurant.",
+     "Fried hamsi."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Turkish",
+    "order": [
+     "Hamsi tava",
+     "Hamsili pilav"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Kuymak",
+    "kind": "eat",
+    "id": "tra-kuymak",
+    "at": [
+     41.002,
+     39.716
+    ],
+    "wiki": "Muhlama",
+    "area": "Meydan",
+    "summary": "Melted cheese, butter and cornmeal, eaten with bread for breakfast.",
+    "expect": "Rich.",
+    "tip": "Have it with a Black Sea breakfast spread.",
+    "why": "Highland breakfast.",
+    "flow": [
+     "Breakfast place.",
+     "Kuymak."
+    ],
+    "hours": 1,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Turkish",
+    "order": [
+     "Kuymak"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Akçaabat köfte",
+    "kind": "eat",
+    "id": "tra-kofte",
+    "at": [
+     41.022,
+     39.57
+    ],
+    "wiki": "Akçaabat köftesi",
+    "area": "Akçaabat",
+    "summary": "Grilled meatballs from Akçaabat, served with peppers and bread.",
+    "expect": "15 minutes west.",
+    "tip": "Eat in Akçaabat itself.",
+    "why": "Famous meatballs.",
+    "flow": [
+     "Akçaabat.",
+     "Köfte plate."
+    ],
+    "hours": 1,
+    "price": [
+     250,
+     400
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Turkish",
+    "order": [
+     "Akçaabat köfte"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Cyprus",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted; tip about 10 percent if service is not included.",
+  "id": "paphos",
+  "name": "Paphos",
+  "at": [
+   34.7754,
+   32.4245
+  ],
+  "wiki": "Paphos",
+  "cover": "Petra tou Romiou",
+  "dailyBudget": [
+   70,
+   160
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "seasons": "LLSSHHPPHHSL",
+  "tagline": "Roman mosaics and Aphrodite's birthplace",
+  "summary": "Paphos is a UNESCO town in western Cyprus, full of Roman floor mosaics and royal tombs carved from rock. See the mosaics of the House of Dionysos, explore the Tombs of the Kings, swim at Aphrodite's Rock where the goddess rose from the sea, and drive to the wild Akamas peninsula and the Avakas Gorge.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Swimming from May to November; July and August are very hot.",
+  "arrival": "Paphos Airport is 20 minutes away; Larnaca is 1h30 by shuttle.",
+  "gettingAround": "Buses link Kato Paphos and the old town; rent a car for Akamas and the mountains (drive on the left).",
+  "foodTip": "Halloumi, souvla, kleftiko, meze and Commandaria sweet wine.",
+  "buyTip": "Halloumi, Lefkara lace and Commandaria wine.",
+  "baseArea": "Kato Paphos by the harbour",
+  "hotel": [
+   70,
+   220
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Plane",
+    "minutes": 90,
+    "note": "Flights from Paphos and Larnaca."
+   }
+  ],
+  "items": [
+   {
+    "name": "Paphos Archaeological Park",
+    "kind": "see",
+    "id": "pap-mosaics",
+    "at": [
+     34.758,
+     32.406
+    ],
+    "wiki": "Paphos Archaeological Park",
+    "area": "Kato Paphos",
+    "summary": "Roman villas with some of the finest floor mosaics in the world.",
+    "expect": "Paid; little shade.",
+    "tip": "Start at the House of Dionysos.",
+    "why": "Roman mosaics.",
+    "flow": [
+     "House of Dionysos.",
+     "Odeon."
+    ],
+    "hours": 2.5,
+    "price": [
+     5,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Tombs of the Kings",
+    "kind": "see",
+    "id": "pap-tombs",
+    "at": [
+     34.774,
+     32.405
+    ],
+    "wiki": "Tombs of the Kings (Paphos)",
+    "area": "Kato Paphos",
+    "summary": "Underground Hellenistic tombs carved from rock with Doric columns.",
+    "expect": "Paid; hot.",
+    "tip": "Go early or late.",
+    "why": "Rock-cut tombs.",
+    "flow": [
+     "Tombs.",
+     "Coast walk."
+    ],
+    "hours": 1.5,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Aphrodite's Rock (Petra tou Romiou)",
+    "kind": "see",
+    "id": "pap-aphrodite",
+    "at": [
+     34.664,
+     32.627
+    ],
+    "wiki": "Petra tou Romiou",
+    "area": "Kouklia",
+    "summary": "Sea stack where Aphrodite was said to rise from the waves.",
+    "expect": "Pebble beach; 25 minutes by car.",
+    "tip": "Swim around the rock for eternal youth (legend says).",
+    "why": "Mythic coast.",
+    "flow": [
+     "Viewpoint.",
+     "Swim."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Nature",
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Paphos Harbour and Castle",
+    "kind": "see",
+    "id": "pap-harbour",
+    "at": [
+     34.754,
+     32.406
+    ],
+    "wiki": "Paphos Castle",
+    "area": "Kato Paphos",
+    "summary": "Harbour promenade with a small medieval fort.",
+    "expect": "Fort fee.",
+    "tip": "Walk the promenade at sunset.",
+    "why": "Seafront stroll.",
+    "flow": [
+     "Promenade.",
+     "Fort."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     3
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Avakas Gorge",
+    "kind": "see",
+    "id": "pap-avakas",
+    "at": [
+     34.92,
+     32.35
+    ],
+    "wiki": "Avakas Gorge",
+    "area": "Akamas",
+    "summary": "Narrow limestone gorge with a walk through towering walls.",
+    "expect": "Rough track; 45 minutes by car.",
+    "tip": "Wear proper shoes.",
+    "why": "Gorge hike.",
+    "flow": [
+     "Walk in.",
+     "Narrows."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Akamas and the Blue Lagoon",
+    "kind": "see",
+    "id": "pap-akamas",
+    "at": [
+     35.088,
+     32.307
+    ],
+    "wiki": "Akamas",
+    "area": "Akamas",
+    "summary": "Wild peninsula with turquoise Blue Lagoon reached by boat or jeep.",
+    "expect": "Boats from Latchi.",
+    "tip": "Take the boat from Latchi.",
+    "why": "Wild Cyprus.",
+    "flow": [
+     "Boat from Latchi.",
+     "Swim."
+    ],
+    "hours": 5,
+    "price": [
+     25,
+     50
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kykkos Monastery",
+    "kind": "see",
+    "id": "pap-kykkos",
+    "at": [
+     34.984,
+     32.741
+    ],
+    "wiki": "Kykkos Monastery",
+    "area": "Troodos",
+    "summary": "Richly decorated mountain monastery in the Troodos.",
+    "expect": "2 hours by car; dress modestly.",
+    "tip": "Combine with Troodos villages.",
+    "why": "Cyprus's great monastery.",
+    "flow": [
+     "Monastery.",
+     "Mountain drive."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Full day",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Cypriot meze",
+    "kind": "eat",
+    "id": "pap-meze",
+    "at": [
+     34.76,
+     32.415
+    ],
+    "wiki": "Meze",
+    "area": "Paphos",
+    "summary": "A long parade of small dishes, from dips to grilled meats.",
+    "expect": "Order for two or more.",
+    "tip": "Come hungry; it keeps coming.",
+    "why": "Cypriot feast.",
+    "flow": [
+     "Pick a taverna.",
+     "Order meze."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cypriot",
+    "order": [
+     "Meze",
+     "Halloumi"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Kleftiko",
+    "kind": "eat",
+    "id": "pap-kleftiko",
+    "at": [
+     34.77,
+     32.42
+    ],
+    "wiki": "Kleftiko",
+    "area": "Paphos",
+    "summary": "Lamb slow-baked in a sealed clay oven.",
+    "expect": "Village tavernas.",
+    "tip": "Order ahead in some places.",
+    "why": "Slow-cooked classic.",
+    "flow": [
+     "Taverna.",
+     "Kleftiko."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cypriot",
+    "order": [
+     "Kleftiko"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Halloumi and souvla",
+    "kind": "eat",
+    "id": "pap-souvla",
+    "at": [
+     34.758,
+     32.415
+    ],
+    "wiki": "Souvla",
+    "area": "Kato Paphos",
+    "summary": "Grilled halloumi and big chunks of meat on the spit.",
+    "expect": "Everywhere.",
+    "tip": "Pair with Keo beer.",
+    "why": "Island grill.",
+    "flow": [
+     "Grill house.",
+     "Souvla."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cypriot",
+    "order": [
+     "Souvla",
+     "Grilled halloumi"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work in most places, but carry cash for small restaurants, shrines and rural buses. No tipping.",
+  "id": "naoshima",
+  "name": "Naoshima",
+  "at": [
+   34.46,
+   133.995
+  ],
+  "wiki": "Naoshima, Kagawa",
+  "cover": "Chichu Art Museum",
+  "dailyBudget": [
+   8000,
+   18000
+  ],
+  "cashPerDay": [
+   2000,
+   6000
+  ],
+  "seasons": "LLSHHSSSHHSL",
+  "tagline": "Art island of the Seto Inland Sea",
+  "summary": "Naoshima is a small island turned into a world of contemporary art. See Monet's Water Lilies in Tadao Ando's underground Chichu Art Museum, the yellow pumpkin by Yayoi Kusama on the pier, the Art House Project inside old village houses, and bathe in the art bathhouse I♥湯, then hop to Teshima for its teardrop art museum.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are best; the Setouchi Triennale draws crowds in festival years; most museums close on Mondays.",
+  "arrival": "Ferries from Uno port (1 hour from Okayama by train) take 20 minutes, or from Takamatsu 50 minutes.",
+  "gettingAround": "Rent a bike or e-bike; island buses link the port, Honmura and Benesse.",
+  "foodTip": "Seto Inland Sea seafood and sanuki udon on the way via Takamatsu.",
+  "buyTip": "Museum shop design items.",
+  "baseArea": "Miyanoura port or Benesse House",
+  "hotel": [
+   100,
+   500
+  ],
+  "connections": [
+   {
+    "to": "hiroshima",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Shinkansen to Okayama, train to Uno, ferry."
+   },
+   {
+    "to": "osaka",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Shinkansen to Okayama, train to Uno, ferry."
+   },
+   {
+    "to": "kyoto",
+    "mode": "Train",
+    "minutes": 170,
+    "note": "Shinkansen to Okayama, train to Uno, ferry."
+   }
+  ],
+  "items": [
+   {
+    "name": "Chichu Art Museum",
+    "kind": "see",
+    "id": "nao-chichu",
+    "at": [
+     34.452,
+     133.99
+    ],
+    "wiki": "Chichu Art Museum",
+    "area": "Benesse area",
+    "summary": "Tadao Ando's underground museum lit by daylight, with Monet, Turrell and De Maria.",
+    "expect": "Timed tickets; closed Mondays; no photos.",
+    "tip": "Book weeks ahead in high season.",
+    "why": "A pilgrimage for art lovers.",
+    "flow": [
+     "Monet room.",
+     "Turrell and De Maria."
+    ],
+    "hours": 2,
+    "price": [
+     2500,
+     2500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ],
+    "book": "Timed tickets online"
+   },
+   {
+    "name": "Yellow Pumpkin",
+    "kind": "see",
+    "id": "nao-pumpkin",
+    "at": [
+     34.449,
+     133.995
+    ],
+    "wiki": "Pumpkin (Yayoi Kusama)",
+    "area": "Benesse area",
+    "summary": "Kusama's dotted yellow pumpkin on a pier, the island's symbol.",
+    "expect": "Free; queues for photos.",
+    "tip": "Go early morning.",
+    "why": "Island icon.",
+    "flow": [
+     "Walk the pier.",
+     "Photo."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Benesse House Museum",
+    "kind": "see",
+    "id": "nao-benesse",
+    "at": [
+     34.448,
+     133.997
+    ],
+    "wiki": "Benesse House",
+    "area": "Benesse area",
+    "summary": "Museum-hotel by the sea with works placed indoors and on the beach.",
+    "expect": "Paid; closed some days.",
+    "tip": "Walk the outdoor art along the coast.",
+    "why": "Art and sea.",
+    "flow": [
+     "Galleries.",
+     "Outdoor art."
+    ],
+    "hours": 2,
+    "price": [
+     1500,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Art House Project",
+    "kind": "see",
+    "id": "nao-arthouse",
+    "at": [
+     34.463,
+     134.012
+    ],
+    "wiki": "Art House Project",
+    "area": "Honmura",
+    "summary": "Old houses, a temple and a shrine in Honmura turned into art installations.",
+    "expect": "Combined ticket; closed Mondays.",
+    "tip": "Minamidera by Turrell is unforgettable.",
+    "why": "Art in a village.",
+    "flow": [
+     "Minamidera.",
+     "Kadoya and Go'o Shrine."
+    ],
+    "hours": 2,
+    "price": [
+     1200,
+     1200
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Lee Ufan Museum",
+    "kind": "see",
+    "id": "nao-leeufan",
+    "at": [
+     34.451,
+     133.993
+    ],
+    "wiki": "Lee Ufan Museum",
+    "area": "Benesse area",
+    "summary": "Quiet Ando building holding Lee Ufan's minimal stone and steel works.",
+    "expect": "Paid; closed Mondays.",
+    "tip": "Visit before Chichu nearby.",
+    "why": "Calm space.",
+    "flow": [
+     "Galleries.",
+     "Courtyard."
+    ],
+    "hours": 1,
+    "price": [
+     1200,
+     1200
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Naoshima Bath I♥湯",
+    "kind": "see",
+    "id": "nao-bath",
+    "at": [
+     34.459,
+     133.996
+    ],
+    "wiki": "Naoshima, Kagawa",
+    "area": "Miyanoura",
+    "summary": "Working public bathhouse designed as an artwork by Shinro Ohtake.",
+    "expect": "Bring or buy a towel.",
+    "tip": "End the day with a soak.",
+    "why": "Art you bathe in.",
+    "flow": [
+     "Bathhouse.",
+     "Soak."
+    ],
+    "hours": 1,
+    "price": [
+     660,
+     660
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Art",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Teshima Art Museum",
+    "kind": "see",
+    "id": "nao-teshima",
+    "at": [
+     34.493,
+     134.08
+    ],
+    "wiki": "Teshima Art Museum",
+    "area": "Teshima",
+    "summary": "A concrete shell like a water drop where water beads across the floor.",
+    "expect": "Ferry from Naoshima; closed Tuesdays.",
+    "tip": "Rent an e-bike on Teshima.",
+    "why": "Unforgettable space.",
+    "flow": [
+     "Ferry.",
+     "Museum."
+    ],
+    "hours": 5,
+    "price": [
+     1800,
+     1800
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture",
+     "Nature"
+    ],
+    "excursion": true,
+    "book": "Timed tickets"
+   },
+   {
+    "name": "Island cafés in Honmura",
+    "kind": "eat",
+    "id": "nao-cafe",
+    "at": [
+     34.463,
+     134.012
+    ],
+    "wiki": "Naoshima, Kagawa",
+    "area": "Honmura",
+    "summary": "Small cafés in old houses serving curry, rice sets and coffee.",
+    "expect": "Close early; some closed Mondays.",
+    "tip": "Eat lunch between art houses.",
+    "why": "Village café.",
+    "flow": [
+     "Pick a café.",
+     "Lunch set."
+    ],
+    "hours": 1,
+    "price": [
+     1000,
+     1800
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Curry rice",
+     "Set lunch"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Inland Sea seafood",
+    "kind": "eat",
+    "id": "nao-seafood",
+    "at": [
+     34.459,
+     133.996
+    ],
+    "wiki": "Seto Inland Sea",
+    "area": "Miyanoura",
+    "summary": "Fresh fish and seafood bowls near the port.",
+    "expect": "Limited dinner options.",
+    "tip": "Book dinner if staying overnight.",
+    "why": "Fresh from the sea.",
+    "flow": [
+     "Port restaurant.",
+     "Kaisendon."
+    ],
+    "hours": 1,
+    "price": [
+     1500,
+     3000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Kaisendon"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Sanuki udon in Takamatsu",
+    "kind": "eat",
+    "id": "nao-udon",
+    "at": [
+     34.343,
+     134.046
+    ],
+    "wiki": "Sanuki udon",
+    "area": "Takamatsu",
+    "summary": "Thick chewy udon from Kagawa, cheap and fast at self-service shops.",
+    "expect": "On the way via Takamatsu.",
+    "tip": "Order kake udon and add tempura.",
+    "why": "Kagawa's pride.",
+    "flow": [
+     "Udon shop.",
+     "Self-service."
+    ],
+    "hours": 0.5,
+    "price": [
+     300,
+     700
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Kake udon"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Japan",
+  "region": "Asia",
+  "currency": "JPY",
+  "cashTip": "Cards and IC cards work in most places, but carry cash for small restaurants, shrines and rural buses. No tipping.",
+  "id": "matsumoto",
+  "name": "Matsumoto",
+  "at": [
+   36.238,
+   137.972
+  ],
+  "wiki": "Matsumoto, Nagano",
+  "cover": "Matsumoto Castle",
+  "dailyBudget": [
+   8000,
+   16000
+  ],
+  "cashPerDay": [
+   2000,
+   5000
+  ],
+  "seasons": "LLSHHSHHSHSL",
+  "tagline": "The black crow castle and the Japan Alps",
+  "summary": "Matsumoto is a mountain city with one of Japan's few original castles, the black Matsumoto Castle. Climb its steep wooden stairs, walk the old merchant street of Nakamachi, see Yayoi Kusama's hometown art museum, and use the city as a gateway to Kamikochi's alpine valley and the Northern Alps.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   7,
+   8,
+   10
+  ],
+  "seasonNote": "Cherry blossom in mid-April; Kamikochi is open mid-April to mid-November.",
+  "arrival": "Limited express Azusa trains from Tokyo Shinjuku take 2h40; from Nagoya the Shinano takes 2 hours.",
+  "gettingAround": "Walk or use the town loop bus and free bikes; buses to Kamikochi.",
+  "foodTip": "Shinshu soba, basashi (horse sashimi), sanzoku-yaki fried chicken and apples.",
+  "buyTip": "Matsumoto temari balls and wooden furniture.",
+  "baseArea": "Near the station or Nakamachi",
+  "hotel": [
+   70,
+   180
+  ],
+  "connections": [
+   {
+    "to": "tokyo",
+    "mode": "Train",
+    "minutes": 160,
+    "note": "Limited express Azusa."
+   },
+   {
+    "to": "takayama",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "Highway buses."
+   },
+   {
+    "to": "nagoya",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Limited express Shinano."
+   }
+  ],
+  "items": [
+   {
+    "name": "Matsumoto Castle",
+    "kind": "see",
+    "id": "mts-castle",
+    "at": [
+     36.2386,
+     137.9689
+    ],
+    "wiki": "Matsumoto Castle",
+    "area": "Castle",
+    "summary": "Black wooden castle of 1594, one of Japan's 12 original keeps.",
+    "expect": "Paid; very steep stairs inside.",
+    "tip": "Photograph it reflected in the moat with the Alps behind.",
+    "why": "National treasure.",
+    "flow": [
+     "Climb the keep.",
+     "Moat views."
+    ],
+    "hours": 1.5,
+    "price": [
+     1300,
+     1300
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Nakamachi Street",
+    "kind": "see",
+    "id": "mts-nakamachi",
+    "at": [
+     36.232,
+     137.971
+    ],
+    "wiki": "Nakamachi Street",
+    "area": "Nakamachi",
+    "summary": "Merchant street of white and black namako-walled storehouses.",
+    "expect": "Free.",
+    "tip": "Browse craft shops and cafés.",
+    "why": "Old Matsumoto.",
+    "flow": [
+     "Storehouses.",
+     "Craft shops."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Matsumoto City Museum of Art",
+    "kind": "see",
+    "id": "mts-kusama",
+    "at": [
+     36.232,
+     137.978
+    ],
+    "wiki": "Matsumoto City Museum of Art",
+    "area": "Centre",
+    "summary": "Museum with a large collection by hometown artist Yayoi Kusama.",
+    "expect": "Paid; closed Mondays.",
+    "tip": "See the dotted flowers outside.",
+    "why": "Kusama's roots.",
+    "flow": [
+     "Kusama gallery.",
+     "Outdoor sculpture."
+    ],
+    "hours": 1.5,
+    "price": [
+     410,
+     1200
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Nawate Street",
+    "kind": "see",
+    "id": "mts-nawate",
+    "at": [
+     36.234,
+     137.972
+    ],
+    "wiki": "Matsumoto, Nagano",
+    "area": "Nawate",
+    "summary": "Riverside lane of frog-themed shops and snacks by the Metoba River.",
+    "expect": "Small.",
+    "tip": "Try taiyaki here.",
+    "why": "Quirky street.",
+    "flow": [
+     "Shops.",
+     "Snacks."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Kaichi School",
+    "kind": "see",
+    "id": "mts-kaichi",
+    "at": [
+     36.242,
+     137.969
+    ],
+    "wiki": "Kaichi School",
+    "area": "Kaichi",
+    "summary": "Western-style 1876 schoolhouse, one of Japan's oldest.",
+    "expect": "Check it is open after renovation.",
+    "tip": "Combine with the castle.",
+    "why": "Meiji architecture.",
+    "flow": [
+     "School building.",
+     "Classrooms."
+    ],
+    "hours": 0.5,
+    "price": [
+     400,
+     400
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Kamikochi",
+    "kind": "see",
+    "id": "mts-kamikochi",
+    "at": [
+     36.247,
+     137.637
+    ],
+    "wiki": "Kamikochi",
+    "area": "Northern Alps",
+    "summary": "Car-free alpine valley of clear rivers, Kappa Bridge and jagged peaks.",
+    "expect": "Mid-April to mid-November only; bus from Matsumoto.",
+    "tip": "Walk from Taisho Pond to Kappa Bridge and Myojin.",
+    "why": "Japan Alps beauty.",
+    "flow": [
+     "Taisho Pond.",
+     "Kappa Bridge and Myojin."
+    ],
+    "hours": 7,
+    "price": [
+     0,
+     2500
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Daio Wasabi Farm",
+    "kind": "see",
+    "id": "mts-wasabi",
+    "at": [
+     36.338,
+     137.904
+    ],
+    "wiki": "Daio Wasabi Farm",
+    "area": "Azumino",
+    "summary": "Huge wasabi farm with clear streams and water wheels.",
+    "expect": "Free.",
+    "tip": "Try wasabi ice cream.",
+    "why": "Unusual farm.",
+    "flow": [
+     "Streams.",
+     "Wasabi snacks."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Food"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Shinshu soba",
+    "kind": "eat",
+    "id": "mts-soba",
+    "at": [
+     36.237,
+     137.97
+    ],
+    "wiki": "Soba",
+    "area": "Centre",
+    "summary": "Buckwheat noodles from Nagano, served cold with dipping sauce.",
+    "expect": "Lunch spots close early.",
+    "tip": "Order zaru soba.",
+    "why": "Nagano's noodles.",
+    "flow": [
+     "Soba shop.",
+     "Zaru soba."
+    ],
+    "hours": 1,
+    "price": [
+     900,
+     1600
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Zaru soba"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Sanzoku-yaki",
+    "kind": "eat",
+    "id": "mts-sanzoku",
+    "at": [
+     36.235,
+     137.97
+    ],
+    "wiki": "Karaage",
+    "area": "Centre",
+    "summary": "Large fried chicken thigh marinated in garlic, a Matsumoto speciality.",
+    "expect": "Izakaya and restaurants.",
+    "tip": "Pair with local beer.",
+    "why": "Local dish.",
+    "flow": [
+     "Izakaya.",
+     "Sanzoku-yaki."
+    ],
+    "hours": 1,
+    "price": [
+     900,
+     1500
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Sanzoku-yaki"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Basashi",
+    "kind": "eat",
+    "id": "mts-basashi",
+    "at": [
+     36.236,
+     137.971
+    ],
+    "wiki": "Basashi",
+    "area": "Centre",
+    "summary": "Horse sashimi, a Nagano speciality served with ginger and soy.",
+    "expect": "Not for everyone.",
+    "tip": "Try a small plate at an izakaya.",
+    "why": "Regional delicacy.",
+    "flow": [
+     "Izakaya.",
+     "Small plate."
+    ],
+    "hours": 1,
+    "price": [
+     1000,
+     2000
+    ],
+    "best": "Dinner",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Japanese",
+    "order": [
+     "Basashi"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Taiwan",
+  "region": "Asia",
+  "currency": "TWD",
+  "cashTip": "Carry cash for night markets and small eateries; EasyCard works on buses and in convenience stores. No tipping.",
+  "id": "hualien",
+  "name": "Hualien",
+  "at": [
+   23.991,
+   121.6114
+  ],
+  "wiki": "Hualien City",
+  "cover": "Taroko National Park",
+  "dailyBudget": [
+   1500,
+   3500
+  ],
+  "cashPerDay": [
+   500,
+   1500
+  ],
+  "seasons": "LLSSSHHHSSSL",
+  "tagline": "Marble gorges of Taroko and the Pacific coast",
+  "summary": "Hualien is the gateway to Taroko Gorge, where a river has cut through marble mountains on Taiwan's wild east coast. Walk the gorge trails, see the Qingshui Cliffs dropping into the Pacific, cycle the coast, and eat your way through Dongdamen night market. Check trail status first: parts of Taroko were damaged in the April 2024 earthquake and reopen in stages.",
+  "days": 3,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are best; typhoons can hit from July to October.",
+  "arrival": "Trains from Taipei take 2 to 3 hours; book seats ahead on weekends.",
+  "gettingAround": "Scooter, taxi or tour for Taroko; buses are infrequent.",
+  "foodTip": "Bian shi wontons, mochi, Indigenous Amis dishes and night-market snacks.",
+  "buyTip": "Hualien mochi and marble crafts.",
+  "baseArea": "Near Hualien station or the city centre",
+  "hotel": [
+   50,
+   150
+  ],
+  "connections": [
+   {
+    "to": "taipei",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Puyuma and Taroko express trains; book ahead."
+   }
+  ],
+  "items": [
+   {
+    "name": "Taroko Gorge",
+    "kind": "see",
+    "id": "hua-taroko",
+    "at": [
+     24.16,
+     121.62
+    ],
+    "wiki": "Taroko National Park",
+    "area": "Taroko",
+    "summary": "Marble canyon of sheer cliffs, temples and trails above a turquoise river.",
+    "expect": "Some trails remain closed after the 2024 earthquake; check the park website.",
+    "tip": "Start at the visitor centre and the Shakadang Trail if open.",
+    "why": "Taiwan's natural wonder.",
+    "flow": [
+     "Visitor centre.",
+     "Open gorge trails."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Qingshui Cliffs",
+    "kind": "see",
+    "id": "hua-qingshui",
+    "at": [
+     24.21,
+     121.66
+    ],
+    "wiki": "Qingshui Cliff",
+    "area": "Suhua Highway",
+    "summary": "Cliffs falling straight into the deep blue Pacific.",
+    "expect": "Road access may be limited.",
+    "tip": "View from the Chongde area.",
+    "why": "Dramatic coast.",
+    "flow": [
+     "Viewpoint.",
+     "Pebble beach."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Qixingtan Beach",
+    "kind": "see",
+    "id": "hua-qixingtan",
+    "at": [
+     24.029,
+     121.625
+    ],
+    "wiki": "Qixingtan Beach",
+    "area": "Xincheng",
+    "summary": "Crescent pebble beach with a bike path and mountain backdrop.",
+    "expect": "Pebbles, strong surf; not for swimming.",
+    "tip": "Cycle the coastal path from the city.",
+    "why": "Seaside ride.",
+    "flow": [
+     "Cycle.",
+     "Sunrise."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     200
+    ],
+    "best": "Sunrise",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "East Rift Valley and coast",
+    "kind": "see",
+    "id": "hua-coast",
+    "at": [
+     23.6,
+     121.52
+    ],
+    "wiki": "Hualien County",
+    "area": "Highway 11",
+    "summary": "Coastal drive past Shitiping rocks and the Tropic of Cancer marker.",
+    "expect": "Car or scooter.",
+    "tip": "Stop at Shitiping and the Baxian caves.",
+    "why": "Taiwan's wild east.",
+    "flow": [
+     "Shitiping.",
+     "Tropic marker."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Pine Garden",
+    "kind": "see",
+    "id": "hua-pine",
+    "at": [
+     23.984,
+     121.626
+    ],
+    "wiki": "Pine Garden",
+    "area": "Hualien City",
+    "summary": "Japanese-era command post in pines overlooking the port, now an art space.",
+    "expect": "Small fee.",
+    "tip": "Have tea on the veranda.",
+    "why": "History with a view.",
+    "flow": [
+     "Building.",
+     "Garden."
+    ],
+    "hours": 1,
+    "price": [
+     50,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Dongdamen Night Market",
+    "kind": "eat",
+    "id": "hua-dongdamen",
+    "at": [
+     23.974,
+     121.608
+    ],
+    "wiki": "Dongdamen Night Market",
+    "area": "Hualien City",
+    "summary": "Big night market with Indigenous grilled meats, seafood and snacks.",
+    "expect": "Evenings only.",
+    "tip": "Try the Indigenous street section.",
+    "why": "Hualien eats.",
+    "flow": [
+     "Walk the lanes.",
+     "Snack crawl."
+    ],
+    "hours": 2,
+    "price": [
+     200,
+     500
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Taiwanese",
+    "order": [
+     "Grilled meats",
+     "Scallion pancake"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Bian shi wontons",
+    "kind": "eat",
+    "id": "hua-wonton",
+    "at": [
+     23.976,
+     121.605
+    ],
+    "wiki": "Wonton",
+    "area": "Hualien City",
+    "summary": "Hualien's famous wonton soup, served at long-running shops.",
+    "expect": "Small simple shops.",
+    "tip": "Order a bowl with the clear broth.",
+    "why": "Local favourite.",
+    "flow": [
+     "Find the shop.",
+     "Wonton soup."
+    ],
+    "hours": 0.5,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Taiwanese",
+    "order": [
+     "Wonton soup"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Hualien mochi",
+    "kind": "eat",
+    "id": "hua-mochi",
+    "at": [
+     23.979,
+     121.606
+    ],
+    "wiki": "Mochi",
+    "area": "Zhongshan Road",
+    "summary": "Soft rice cakes with sesame, peanut or red bean fillings.",
+    "expect": "Gift shops.",
+    "tip": "Buy fresh ones to eat that day.",
+    "why": "Sweet souvenir.",
+    "flow": [
+     "Shop.",
+     "Taste."
+    ],
+    "hours": 0.5,
+    "price": [
+     50,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Taiwanese",
+    "order": [
+     "Mochi"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "China",
+  "region": "Asia",
+  "currency": "CNY",
+  "cashTip": "Mobile payment (Alipay, WeChat Pay) is everywhere and both accept foreign cards; carry some cash too. No tipping.",
+  "id": "lijiang",
+  "name": "Lijiang",
+  "at": [
+   26.8721,
+   100.2299
+  ],
+  "wiki": "Lijiang",
+  "cover": "Old Town of Lijiang",
+  "dailyBudget": [
+   300,
+   700
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "seasons": "LLSSSSHHSHSL",
+  "tagline": "Naxi old town under Jade Dragon Snow Mountain",
+  "summary": "Lijiang's UNESCO old town is a maze of canals, stone bridges and wooden Naxi houses under the glacier-capped Jade Dragon Snow Mountain. Ride the cable car toward the glacier, see the Black Dragon Pool reflection, stay in quieter Baisha and Shuhe villages, and hike the Tiger Leaping Gorge, one of the world's deepest.",
+  "days": 4,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are clear; July and August are rainy and busy with domestic tourists.",
+  "arrival": "Flights from Kunming, Chengdu and Shanghai; high-speed trains from Kunming take about 3 hours.",
+  "gettingAround": "Walk the old town; taxis and DiDi for villages; buses to Tiger Leaping Gorge.",
+  "foodTip": "Naxi baba flatbread, yak hot pot, black dragon pool fish and Yunnan mushrooms.",
+  "buyTip": "Pu'er tea and Naxi Dongba crafts.",
+  "baseArea": "Dayan old town or Shuhe",
+  "hotel": [
+   40,
+   150
+  ],
+  "connections": [
+   {
+    "to": "chengdu",
+    "mode": "Plane",
+    "minutes": 90,
+    "note": "Direct flights."
+   },
+   {
+    "to": "shanghai",
+    "mode": "Plane",
+    "minutes": 210,
+    "note": "Direct flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Dayan Old Town",
+    "kind": "see",
+    "id": "lij-oldtown",
+    "at": [
+     26.8721,
+     100.2299
+    ],
+    "wiki": "Old Town of Lijiang",
+    "area": "Dayan",
+    "summary": "UNESCO town of canals, stone bridges and Naxi wooden houses.",
+    "expect": "Very commercial in the centre; old-town maintenance fee may apply.",
+    "tip": "Climb Lion Hill for the rooftop view; explore early morning.",
+    "why": "UNESCO old town.",
+    "flow": [
+     "Square Street.",
+     "Lion Hill."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Black Dragon Pool",
+    "kind": "see",
+    "id": "lij-blackdragon",
+    "at": [
+     26.885,
+     100.235
+    ],
+    "wiki": "Black Dragon Pool",
+    "area": "Jade Spring Park",
+    "summary": "Pool reflecting a marble bridge, a pavilion and the snow mountain.",
+    "expect": "Clear mornings are best.",
+    "tip": "Go at sunrise for the mountain reflection.",
+    "why": "Classic view.",
+    "flow": [
+     "Park walk.",
+     "Reflection."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Jade Dragon Snow Mountain",
+    "kind": "see",
+    "id": "lij-yulong",
+    "at": [
+     27.1,
+     100.2
+    ],
+    "wiki": "Jade Dragon Snow Mountain",
+    "area": "Yulong",
+    "summary": "Glacier mountain with a cable car to 4,500 m and Blue Moon Valley lakes.",
+    "expect": "Costly; altitude; limited tickets.",
+    "tip": "Book cable car tickets ahead; carry oxygen.",
+    "why": "Glacier views.",
+    "flow": [
+     "Cable car.",
+     "Blue Moon Valley."
+    ],
+    "hours": 7,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint",
+     "Adventure"
+    ],
+    "excursion": true,
+    "book": "Book cable car tickets"
+   },
+   {
+    "name": "Tiger Leaping Gorge",
+    "kind": "see",
+    "id": "lij-tlg",
+    "at": [
+     27.19,
+     100.11
+    ],
+    "wiki": "Tiger Leaping Gorge",
+    "area": "Qiaotou",
+    "summary": "Deep gorge of the Jinsha River with a famous high trail.",
+    "expect": "Two-day trek or day viewpoint; landslide risk in rain.",
+    "tip": "Walk the high trail with a night at a guesthouse.",
+    "why": "Epic trek.",
+    "flow": [
+     "High trail.",
+     "Tiger Leaping Stone."
+    ],
+    "hours": 8,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Baisha village",
+    "kind": "see",
+    "id": "lij-baisha",
+    "at": [
+     26.96,
+     100.22
+    ],
+    "wiki": "Baisha, Lijiang",
+    "area": "Baisha",
+    "summary": "Old Naxi village with Ming-dynasty murals and quiet lanes.",
+    "expect": "Calmer than the old town.",
+    "tip": "Cycle there from Shuhe.",
+    "why": "Older Naxi life.",
+    "flow": [
+     "Murals.",
+     "Lanes."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Shuhe Old Town",
+    "kind": "see",
+    "id": "lij-shuhe",
+    "at": [
+     26.92,
+     100.21
+    ],
+    "wiki": "Shuhe",
+    "area": "Shuhe",
+    "summary": "Smaller old town with streams and a slower pace.",
+    "expect": "Commercial but calmer.",
+    "tip": "Stay here for a quieter base.",
+    "why": "Quieter alternative.",
+    "flow": [
+     "Streams.",
+     "Cafés."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Mu Residence",
+    "kind": "see",
+    "id": "lij-mu",
+    "at": [
+     26.868,
+     100.233
+    ],
+    "wiki": "Mu Family Mansion",
+    "area": "Dayan",
+    "summary": "Palace of the Naxi chieftains, nicknamed Lijiang's Forbidden City.",
+    "expect": "Paid.",
+    "tip": "Climb behind it to the Wangu Tower view.",
+    "why": "Naxi rulers.",
+    "flow": [
+     "Halls.",
+     "Gardens."
+    ],
+    "hours": 1.5,
+    "price": [
+     40,
+     60
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Naxi baba",
+    "kind": "eat",
+    "id": "lij-baba",
+    "at": [
+     26.872,
+     100.23
+    ],
+    "wiki": "Naxi people",
+    "area": "Dayan",
+    "summary": "Layered fried flatbread, sweet or savoury.",
+    "expect": "Street stalls.",
+    "tip": "Eat it hot.",
+    "why": "Naxi snack.",
+    "flow": [
+     "Stall.",
+     "Baba."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Naxi",
+    "order": [
+     "Baba"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Yak hot pot",
+    "kind": "eat",
+    "id": "lij-yak",
+    "at": [
+     26.873,
+     100.231
+    ],
+    "wiki": "Hot pot",
+    "area": "Dayan",
+    "summary": "Hot pot with yak meat and mountain mushrooms.",
+    "expect": "Restaurants in the old town.",
+    "tip": "Add wild mushrooms in season.",
+    "why": "Mountain flavours.",
+    "flow": [
+     "Restaurant.",
+     "Hot pot."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Yunnan",
+    "order": [
+     "Yak hot pot",
+     "Wild mushrooms"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Yunnan rice noodles",
+    "kind": "eat",
+    "id": "lij-noodles",
+    "at": [
+     26.871,
+     100.229
+    ],
+    "wiki": "Crossing-the-bridge noodles",
+    "area": "Dayan",
+    "summary": "Rice noodles cooked at the table in a hot broth.",
+    "expect": "Everywhere.",
+    "tip": "Add the ingredients in order.",
+    "why": "Yunnan classic.",
+    "flow": [
+     "Noodle shop.",
+     "Assemble your bowl."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Yunnan",
+    "order": [
+     "Guoqiao mixian"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Laos",
+  "region": "Asia",
+  "currency": "LAK",
+  "cashTip": "Cash is king; carry kip, and US dollars for some tours. Tipping is not expected but welcome.",
+  "id": "vang-vieng",
+  "name": "Vang Vieng",
+  "at": [
+   18.922,
+   102.448
+  ],
+  "wiki": "Vang Vieng",
+  "cover": "Nam Song River",
+  "dailyBudget": [
+   400000,
+   1000000
+  ],
+  "cashPerDay": [
+   200000,
+   600000
+  ],
+  "seasons": "HHSSLLLLSHHH",
+  "tagline": "Karst peaks, lagoons and river adventures",
+  "summary": "Vang Vieng sits among dramatic limestone karsts on the Nam Song river. Now calmer and more outdoorsy than in its party years, it's a place for hot-air balloon rides at sunrise, swimming in the Blue Lagoons, exploring caves, kayaking and tubing, and climbing Nam Xay viewpoint.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "November to February is dry and clear; March to May is smoky from field burning; June to October is rainy.",
+  "arrival": "The Laos-China Railway reaches Vang Vieng in 1 hour from Vientiane and 1 hour from Luang Prabang.",
+  "gettingAround": "Rent a scooter, bike or buggy; tuk-tuks to the lagoons.",
+  "foodTip": "Laap, sticky rice, khao piak sen noodle soup and Beerlao.",
+  "buyTip": "Lao textiles.",
+  "baseArea": "Riverside in town",
+  "hotel": [
+   25,
+   120
+  ],
+  "connections": [
+   {
+    "to": "vientiane",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "Laos-China Railway."
+   },
+   {
+    "to": "luang-prabang",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "Laos-China Railway."
+   }
+  ],
+  "items": [
+   {
+    "name": "Hot-air balloon at sunrise",
+    "kind": "see",
+    "id": "vv-balloon",
+    "at": [
+     18.922,
+     102.448
+    ],
+    "wiki": "Vang Vieng",
+    "area": "Town",
+    "summary": "Balloon over the karsts and river at dawn.",
+    "expect": "Weather dependent.",
+    "tip": "Book the day before.",
+    "why": "Unforgettable view.",
+    "flow": [
+     "Pickup.",
+     "Flight."
+    ],
+    "hours": 1.5,
+    "price": [
+     1800000,
+     2500000
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ],
+    "book": "Book ahead"
+   },
+   {
+    "name": "Blue Lagoon 1 and Tham Phu Kham",
+    "kind": "see",
+    "id": "vv-lagoon",
+    "at": [
+     18.933,
+     102.405
+    ],
+    "wiki": "Vang Vieng",
+    "area": "Phu Kham",
+    "summary": "Turquoise swimming lagoon below a cave with a reclining Buddha.",
+    "expect": "Busy midday; small fee.",
+    "tip": "Climb to the cave first, then swim.",
+    "why": "Swim in blue.",
+    "flow": [
+     "Cave.",
+     "Lagoon."
+    ],
+    "hours": 3,
+    "price": [
+     20000,
+     40000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Nam Xay viewpoint",
+    "kind": "see",
+    "id": "vv-namxay",
+    "at": [
+     18.96,
+     102.41
+    ],
+    "wiki": "Vang Vieng",
+    "area": "Nam Xay",
+    "summary": "Steep scramble to a peak with a motorbike prop and a sweeping karst view.",
+    "expect": "Steep and rocky; 30 to 45 minutes up.",
+    "tip": "Go for sunrise or late afternoon.",
+    "why": "Best view.",
+    "flow": [
+     "Climb.",
+     "Viewpoint."
+    ],
+    "hours": 2,
+    "price": [
+     10000,
+     20000
+    ],
+    "best": "Late afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Nam Song kayaking and tubing",
+    "kind": "see",
+    "id": "vv-river",
+    "at": [
+     18.922,
+     102.445
+    ],
+    "wiki": "Nam Song River",
+    "area": "River",
+    "summary": "Paddle or float down the river past karsts.",
+    "expect": "Life jackets; avoid high water in rainy season.",
+    "tip": "Combine with Tham Nam water cave.",
+    "why": "River adventure.",
+    "flow": [
+     "Kayak.",
+     "Tube."
+    ],
+    "hours": 4,
+    "price": [
+     100000,
+     300000
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tham Chang cave",
+    "kind": "see",
+    "id": "vv-thamchang",
+    "at": [
+     18.91,
+     102.445
+    ],
+    "wiki": "Vang Vieng",
+    "area": "South of town",
+    "summary": "Cave once used as a refuge, with a spring-fed pool and views.",
+    "expect": "Small fee.",
+    "tip": "Cross the bridge south of town.",
+    "why": "Easy cave.",
+    "flow": [
+     "Cave.",
+     "Spring."
+    ],
+    "hours": 1.5,
+    "price": [
+     15000,
+     20000
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Laap and sticky rice",
+    "kind": "eat",
+    "id": "vv-laap",
+    "at": [
+     18.923,
+     102.447
+    ],
+    "wiki": "Larb",
+    "area": "Town",
+    "summary": "Minced meat salad with herbs, lime and roasted rice, with sticky rice.",
+    "expect": "Spicy.",
+    "tip": "Ask for less chilli.",
+    "why": "Lao national dish.",
+    "flow": [
+     "Lao restaurant.",
+     "Laap."
+    ],
+    "hours": 1,
+    "price": [
+     40000,
+     80000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lao",
+    "order": [
+     "Laap",
+     "Sticky rice"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Khao piak sen",
+    "kind": "eat",
+    "id": "vv-noodles",
+    "at": [
+     18.922,
+     102.449
+    ],
+    "wiki": "Khao piak sen",
+    "area": "Town",
+    "summary": "Thick rice noodle soup with chicken, a Lao breakfast.",
+    "expect": "Mornings.",
+    "tip": "Add herbs and lime.",
+    "why": "Comfort breakfast.",
+    "flow": [
+     "Noodle stall.",
+     "Breakfast bowl."
+    ],
+    "hours": 0.5,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lao",
+    "order": [
+     "Khao piak sen"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Riverside sunset Beerlao",
+    "kind": "eat",
+    "id": "vv-beer",
+    "at": [
+     18.921,
+     102.445
+    ],
+    "wiki": "Beerlao",
+    "area": "Riverside",
+    "summary": "Riverside bars facing the karsts at sunset.",
+    "expect": "Evening.",
+    "tip": "Pick a deck with a view.",
+    "why": "Sunset ritual.",
+    "flow": [
+     "Riverside bar.",
+     "Beerlao."
+    ],
+    "hours": 1,
+    "price": [
+     20000,
+     40000
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Beerlao"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]
