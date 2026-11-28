@@ -9488,6 +9488,12 @@ img.photo {
   contain-intrinsic-size: auto 420px;
 }
 @media (max-width: 760px) {
+  /* Close to a real phone row, so coming back to the page lands where you left it. */
+  .home .cityrow {
+    contain-intrinsic-size: auto 318px;
+  }
+}
+@media (max-width: 760px) {
   .nav {
     backdrop-filter: none;
     -webkit-backdrop-filter: none;
