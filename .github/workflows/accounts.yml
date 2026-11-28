@@ -3,6 +3,7 @@ name: Accounts
 # Sign-in, invites and the privacy rules, checked on a real Supabase running inside the job (the
 # same software as the live project) rather than on the stand-ins the "privacy" and "test" checks
 # use: the privacy rules, the sign-in service through its API, then the built site in a browser.
+# Also logging a trip together: stops, suggested corrections, photo files and the photo sweep.
 # Runs when the database, the sign-in settings or the account code change.
 on:
   pull_request:
@@ -57,6 +58,16 @@ jobs:
           export MAIL_URL="${MAILPIT_URL:-${INBUCKET_URL:-http://127.0.0.1:54324}}"
           export DB_URL
           node --test tests/e2e/backend.e2e.mjs
+      - name: Logging a trip together, end to end
+        run: |
+          eval "$(supabase status -o env)"
+          export SUPABASE_URL="$API_URL"
+          export SUPABASE_KEY="${PUBLISHABLE_KEY:-$ANON_KEY}"
+          export MAIL_URL="${MAILPIT_URL:-${INBUCKET_URL:-http://127.0.0.1:54324}}"
+          export DB_URL
+          # The photo sweep runs with the server key. The local one is the same on every machine.
+          export SUPABASE_SERVICE_KEY="${SERVICE_ROLE_KEY:-$SECRET_KEY}"
+          node --test tests/e2e/triplog.e2e.mjs
       - run: npm ci
       - run: npx playwright install --with-deps chromium
       - name: The site in a browser, on the same Supabase

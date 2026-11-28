@@ -1,0 +1,31 @@
+name: Sweep photo files
+
+# Removes photo files that no photo points at any more (a traveller left a trip, a trip was
+# deleted, an upload never finished), so leaving really does take your photos with you. See
+# scripts/supabase/sweep-photos.mjs. Until accounts are set up (docs/accounts-setup.md) it does
+# nothing.
+on:
+  schedule:
+    - cron: '41 4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: supabase-live
+  cancel-in-progress: false
+
+jobs:
+  sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      SUPABASE_ACCESS_TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      SUPABASE_PROJECT_REF: ${{ secrets.SUPABASE_PROJECT_REF }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/supabase/sweep-photos.mjs

@@ -1,10 +1,11 @@
 name: Connect accounts
 
 # Connects the live site to its Supabase project: applies the database (supabase/migrations/),
-# sets the sign-in settings and email, stores the founder email, and points the app at the
-# project (data/backend.json), then redeploys. Run it by hand once, at the end of the setup
-# checklist in docs/accounts-setup.md. After that it runs by itself whenever the database or the
-# sign-in settings change on main. Until the secrets are added it does nothing.
+# sets the sign-in settings and email, stores the founder email, points the app at the project
+# (data/backend.json) and copies the guide's places into it, then redeploys. Run it by hand once,
+# at the end of the setup checklist in docs/accounts-setup.md. After that it runs by itself
+# whenever the database, the sign-in settings or the guide's cities change on main. Until the
+# secrets are added it does nothing.
 on:
   workflow_dispatch:
   push:
@@ -13,6 +14,7 @@ on:
       - 'supabase/migrations/**'
       - 'supabase/templates/**'
       - 'scripts/supabase/**'
+      - 'data/cities/**'
 
 permissions:
   contents: write
@@ -61,7 +63,7 @@ jobs:
         run: |
           supabase link --project-ref "$SUPABASE_PROJECT_REF"
           supabase db push --yes
-      - name: Sign-in settings, the founder, and the app's address
+      - name: Sign-in settings, the founder, the app's address and the guide's places
         if: steps.ready.outputs.go == 'true'
         run: node scripts/supabase/connect.mjs
       - id: commit
