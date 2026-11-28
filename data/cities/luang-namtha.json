@@ -64,8 +64,8 @@
       "id": "luang-namtha-lnt-trek",
       "name": "Nam Ha jungle trek",
       "kind": "see",
-      "lat": 20.9,
-      "lon": 101.35,
+      "lat": 20.81694,
+      "lon": 101.25278,
       "wiki": "Nam Ha National Protected Area",
       "summary": "Guided community trek through forest to hill-tribe villages.",
       "expect": "Book through licensed eco-tour offices; 1 to 3 days.",
@@ -105,7 +105,20 @@
         "Book through licensed eco-tour offices; 1 to 3 days.",
         "Choose an overnight trek with a homestay."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1320,
+          "period": "202511-202610",
+          "title": "Nam Ha National Protected Area",
+          "url": "https://en.wikipedia.org/wiki/Nam_Ha_National_Protected_Area",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q19893556",
+      "local": {
+        "name": "ປ່າສະຫງວນແຫ່ງຊາດນ້ຳຫ້າ",
+        "lang": "lo"
+      }
     },
     {
       "id": "luang-namtha-lnt-stupa",
@@ -152,7 +165,16 @@
         "Short drive or climb.",
         "Go at sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5242,
+          "period": "202511-202610",
+          "title": "Luang Namtha",
+          "url": "https://en.wikipedia.org/wiki/Luang_Namtha",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "luang-namtha-lnt-cycle",
@@ -199,7 +221,16 @@
         "Rent bikes in town.",
         "Ask for a map at the tourist office."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5242,
+          "period": "202511-202610",
+          "title": "Luang Namtha",
+          "url": "https://en.wikipedia.org/wiki/Luang_Namtha",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "luang-namtha-lnt-namdee",
@@ -245,7 +276,16 @@
         "Small fee.",
         "Combine with a cycle loop."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5242,
+          "period": "202511-202610",
+          "title": "Luang Namtha",
+          "url": "https://en.wikipedia.org/wiki/Luang_Namtha",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "luang-namtha-lnt-museum",
@@ -291,7 +331,16 @@
         "Small fee.",
         "Visit before trekking."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5242,
+          "period": "202511-202610",
+          "title": "Luang Namtha",
+          "url": "https://en.wikipedia.org/wiki/Luang_Namtha",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "luang-namtha-lnt-market",
@@ -466,5 +515,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28"
 }

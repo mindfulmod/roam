@@ -168,8 +168,8 @@
       "id": "koh-lanta-lan-park",
       "name": "Mu Ko Lanta National Park",
       "kind": "see",
-      "lat": 7.471,
-      "lon": 99.095,
+      "lat": 7.484,
+      "lon": 99.099,
       "wiki": "Mu Ko Lanta National Park",
       "summary": "Lighthouse headland with a small beach and jungle trail.",
       "expect": "Park fee; watch the monkeys.",
@@ -209,7 +209,20 @@
         "Park fee; watch the monkeys.",
         "Climb to the lighthouse view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2589,
+          "period": "202511-202610",
+          "title": "Mu Ko Lanta National Park",
+          "url": "https://en.wikipedia.org/wiki/Mu_Ko_Lanta_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q4922606",
+      "local": {
+        "name": "อุทยานแห่งชาติหมู่เกาะลันตา",
+        "lang": "th"
+      }
     },
     {
       "id": "koh-lanta-lan-oldtown",
@@ -477,5 +490,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q475797",
+  "local": {
+    "name": "อำเภอเกาะลันตา",
+    "lang": "th"
+  }
 }

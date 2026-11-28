@@ -72,8 +72,8 @@
       "id": "ella-ell-bridge",
       "name": "Nine Arch Bridge",
       "kind": "see",
-      "lat": 6.8768,
-      "lon": 81.0608,
+      "lat": 6.87667,
+      "lon": 81.06111,
       "wiki": "Nine Arch Bridge",
       "summary": "Colonial stone viaduct in the jungle where the blue train passes.",
       "expect": "Check train times; stay off the tracks when trains come.",
@@ -114,7 +114,20 @@
         "Check train times; stay off the tracks when trains come.",
         "Watch from the café on the hillside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29648,
+          "period": "202511-202610",
+          "title": "Nine Arch Bridge",
+          "url": "https://en.wikipedia.org/wiki/Nine_Arch_Bridge",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q20722599",
+      "local": {
+        "name": "දෙමෝදර අාරුක්කු නමයේ පාලම",
+        "lang": "si"
+      }
     },
     {
       "id": "ella-ell-train",
@@ -161,14 +174,23 @@
         "Book reserved seats weeks ahead.",
         "Do at least Nanu Oya to Ella."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4863,
+          "period": "202511-202610",
+          "title": "Main Line (Sri Lanka)",
+          "url": "https://en.wikipedia.org/wiki/Main_Line_(Sri_Lanka)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "ella-ell-littleadams",
       "name": "Little Adam's Peak",
       "kind": "see",
-      "lat": 6.868,
-      "lon": 81.065,
+      "lat": 6.86505,
+      "lon": 81.06302,
       "wiki": "Little Adam's Peak",
       "summary": "Easy hike through tea bushes to a ridge view.",
       "expect": "About 45 minutes up.",
@@ -207,15 +229,14 @@
       "tradeoffs": [
         "About 45 minutes up.",
         "Go for sunrise."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ella-ell-ellarock",
       "name": "Ella Rock",
       "kind": "see",
-      "lat": 6.853,
-      "lon": 81.035,
+      "lat": 6.85504,
+      "lon": 81.05238,
       "wiki": "Ella Rock",
       "summary": "Harder hike to a cliff with views down the gap.",
       "expect": "3 to 4 hours return; hire a guide or use a good map.",
@@ -254,15 +275,14 @@
       "tradeoffs": [
         "3 to 4 hours return; hire a guide or use a good map.",
         "Start early before clouds."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "ella-ell-ravana",
       "name": "Ravana Falls",
       "kind": "see",
-      "lat": 6.84,
-      "lon": 81.05,
+      "lat": 6.84083,
+      "lon": 81.05444,
       "wiki": "Ravana Falls",
       "summary": "Tall waterfall by the road south of Ella.",
       "expect": "Busy roadside stop.",
@@ -301,7 +321,20 @@
         "Busy roadside stop.",
         "Pair with Ravana Cave."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11696,
+          "period": "202511-202610",
+          "title": "Ravana Ella",
+          "url": "https://en.wikipedia.org/wiki/Ravana_Ella",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q37424",
+      "local": {
+        "name": "රාවණා ඇල්ල",
+        "lang": "si"
+      }
     },
     {
       "id": "ella-ell-tea",
@@ -348,14 +381,23 @@
         "Small fee.",
         "Morning when processing runs."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 68474,
+          "period": "202511-202610",
+          "title": "Ceylon tea",
+          "url": "https://en.wikipedia.org/wiki/Ceylon_tea",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "ella-ell-lipton",
       "name": "Lipton's Seat",
       "kind": "see",
-      "lat": 6.775,
-      "lon": 80.992,
+      "lat": 6.76778,
+      "lon": 80.95861,
       "wiki": "Lipton's Seat",
       "summary": "Viewpoint where Thomas Lipton surveyed his estates.",
       "expect": "1 hour away; go before 9 am.",
@@ -395,8 +437,16 @@
         "1 hour away; go before 9 am.",
         "Walk down through the Dambatenne estate."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7500,
+          "period": "202511-202610",
+          "title": "Haputale",
+          "url": "https://en.wikipedia.org/wiki/Haputale",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "ella-ell-rice",
@@ -569,5 +619,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q14214903",
+  "local": {
+    "name": "ඇල්ල",
+    "lang": "si"
+  }
 }

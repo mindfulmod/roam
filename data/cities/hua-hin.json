@@ -65,8 +65,8 @@
       "id": "hua-hin-hua-phrayanakhon",
       "name": "Phraya Nakhon Cave",
       "kind": "see",
-      "lat": 12.195,
-      "lon": 100.008,
+      "lat": 12.1825,
+      "lon": 100.01111,
       "wiki": "Phraya Nakhon Cave",
       "summary": "Cave with a royal pavilion lit by a shaft of sunlight.",
       "expect": "Steep 30-minute hike; 1 hour from town.",
@@ -106,15 +106,28 @@
         "Steep 30-minute hike; 1 hour from town.",
         "Arrive around 10 to 11 am for the light beam."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9235,
+          "period": "202511-202610",
+          "title": "Phraya Nakhon Cave",
+          "url": "https://en.wikipedia.org/wiki/Phraya_Nakhon_Cave",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q19730761",
+      "local": {
+        "name": "ถ้ำพระยานคร",
+        "lang": "th"
+      }
     },
     {
       "id": "hua-hin-hua-station",
       "name": "Hua Hin Railway Station",
       "kind": "see",
-      "lat": 12.567,
-      "lon": 99.953,
+      "lat": 12.56526,
+      "lon": 99.95493,
       "wiki": "Hua Hin railway station",
       "summary": "Red-and-white wooden station with a royal waiting room.",
       "expect": "Free.",
@@ -154,14 +167,27 @@
         "Free.",
         "Come early for photos."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3236,
+          "period": "202511-202610",
+          "title": "Hua Hin railway station",
+          "url": "https://en.wikipedia.org/wiki/Hua_Hin_railway_station",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6633431",
+      "local": {
+        "name": "สถานีรถไฟหัวหิน",
+        "lang": "th"
+      }
     },
     {
       "id": "hua-hin-hua-palace",
       "name": "Maruekhathaiyawan Palace",
       "kind": "see",
-      "lat": 12.661,
-      "lon": 99.969,
+      "lat": 12.69778,
+      "lon": 99.96333,
       "wiki": "Mrigadayavan Palace",
       "summary": "Seaside teak palace on stilts connected by breezy walkways.",
       "expect": "Paid; dress code; closed Wednesdays.",
@@ -201,14 +227,27 @@
         "Paid; dress code; closed Wednesdays.",
         "Cover shoulders and knees."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3627,
+          "period": "202511-202610",
+          "title": "Mrigadayavan Palace",
+          "url": "https://en.wikipedia.org/wiki/Mrigadayavan_Palace",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6581499",
+      "local": {
+        "name": "พระราชนิเวศน์มฤคทายวัน ราชนิเวศน์กรีฑาสถาน",
+        "lang": "th"
+      }
     },
     {
       "id": "hua-hin-hua-beach",
       "name": "Hua Hin Beach",
       "kind": "see",
-      "lat": 12.56,
-      "lon": 99.965,
+      "lat": 12.55552,
+      "lon": 99.96393,
       "wiki": "Hua Hin Beach",
       "summary": "Long beach with horse rides and the Hilton skyline.",
       "expect": "Calm water.",
@@ -246,8 +285,7 @@
       "tradeoffs": [
         "Calm water.",
         "Walk south toward Khao Takiab."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hua-hin-hua-takiab",
@@ -300,8 +338,8 @@
       "id": "hua-hin-hua-cicada",
       "name": "Cicada Market",
       "kind": "see",
-      "lat": 12.547,
-      "lon": 99.964,
+      "lat": 12.53435,
+      "lon": 99.96621,
       "wiki": "Hua Hin",
       "summary": "Weekend art and craft market with live music and food.",
       "expect": "Friday to Sunday evenings.",
@@ -341,8 +379,7 @@
       "tradeoffs": [
         "Friday to Sunday evenings.",
         "Eat at the food court."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hua-hin-hua-night",
@@ -517,5 +554,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1666491",
+  "local": {
+    "name": "อำเภอหัวหิน",
+    "lang": "th"
+  }
 }

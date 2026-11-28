@@ -114,7 +114,16 @@
         "Water shoes; respect the reef.",
         "Snorkel from a beach club."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 98927,
+          "period": "202511-202610",
+          "title": "Gulf of Aqaba",
+          "url": "https://en.wikipedia.org/wiki/Gulf_of_Aqaba",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "aqaba-aqa-wreck",
@@ -167,8 +176,8 @@
       "id": "aqaba-aqa-fort",
       "name": "Aqaba Fort",
       "kind": "see",
-      "lat": 29.52,
-      "lon": 35.003,
+      "lat": 29.52137,
+      "lon": 35.00204,
       "wiki": "Aqaba Fort",
       "summary": "Mamluk fort taken by the Arab Revolt in 1917, beside the giant flagpole.",
       "expect": "Small fee.",
@@ -206,8 +215,7 @@
       "tradeoffs": [
         "Small fee.",
         "Walk to the flagpole after."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "aqaba-aqa-boat",
@@ -253,13 +261,22 @@
         "Agree the price first.",
         "Combine with a snorkel stop."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 98927,
+          "period": "202511-202610",
+          "title": "Gulf of Aqaba",
+          "url": "https://en.wikipedia.org/wiki/Gulf_of_Aqaba",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "aqaba-aqa-rum",
       "name": "Wadi Rum day trip",
       "kind": "see",
-      "lat": 29.576,
+      "lat": 29.59306,
       "lon": 35.42,
       "wiki": "Wadi Rum",
       "summary": "Red desert valley of sandstone towers, by 4x4 from Aqaba.",
@@ -300,8 +317,21 @@
         "1 hour by road.",
         "Stay overnight in a camp if you can."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 106198,
+          "period": "202511-202610",
+          "title": "Wadi Rum",
+          "url": "https://en.wikipedia.org/wiki/Wadi_Rum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q40729",
+      "local": {
+        "name": "وادي رم",
+        "lang": "ar"
+      }
     },
     {
       "id": "aqaba-aqa-sayadieh",
@@ -474,5 +504,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q180522",
+  "local": {
+    "name": "العقبة",
+    "lang": "ar"
+  }
 }

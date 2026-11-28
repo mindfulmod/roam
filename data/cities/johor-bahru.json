@@ -78,8 +78,8 @@
       "id": "johor-bahru-jb-mosque",
       "name": "Sultan Abu Bakar State Mosque",
       "kind": "see",
-      "lat": 1.457,
-      "lon": 103.752,
+      "lat": 1.45696,
+      "lon": 103.75105,
       "wiki": "Sultan Abu Bakar State Mosque",
       "summary": "Hilltop mosque blending Victorian and Moorish styles above the strait.",
       "expect": "Dress modestly; outside prayer times.",
@@ -119,14 +119,27 @@
         "Dress modestly; outside prayer times.",
         "Robes are lent at the entrance."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3911,
+          "period": "202511-202610",
+          "title": "Sultan Abu Bakar State Mosque",
+          "url": "https://en.wikipedia.org/wiki/Sultan_Abu_Bakar_State_Mosque",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2478866",
+      "local": {
+        "name": "Masjid Negeri Sultan Abu Bakar",
+        "lang": "ms"
+      }
     },
     {
       "id": "johor-bahru-jb-legoland",
       "name": "Legoland Malaysia",
       "kind": "see",
-      "lat": 1.426,
-      "lon": 103.629,
+      "lat": 1.425,
+      "lon": 103.62722,
       "wiki": "Legoland Malaysia Resort",
       "summary": "LEGO theme park and water park for families.",
       "expect": "Paid.",
@@ -165,14 +178,23 @@
         "Paid.",
         "Buy online for discounts."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17123,
+          "period": "202511-202610",
+          "title": "Legoland Malaysia Resort",
+          "url": "https://en.wikipedia.org/wiki/Legoland_Malaysia_Resort",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3229105"
     },
     {
       "id": "johor-bahru-jb-temple",
       "name": "Old Chinese Temple and Heritage Street",
       "kind": "see",
-      "lat": 1.461,
-      "lon": 103.763,
+      "lat": 1.46056,
+      "lon": 103.76306,
       "wiki": "Johor Bahru Old Chinese Temple",
       "summary": "Small 19th-century temple and Jalan Tan Hiok Nee's heritage shophouses.",
       "expect": "Free.",
@@ -212,14 +234,27 @@
         "Free.",
         "Coffee at an old kopitiam."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4112,
+          "period": "202511-202610",
+          "title": "Johor Bahru Old Chinese Temple",
+          "url": "https://en.wikipedia.org/wiki/Johor_Bahru_Old_Chinese_Temple",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2117455",
+      "local": {
+        "name": "Kuil Cina Lama Johor Bahru",
+        "lang": "ms"
+      }
     },
     {
       "id": "johor-bahru-jb-istana",
       "name": "Istana Besar",
       "kind": "see",
-      "lat": 1.457,
-      "lon": 103.753,
+      "lat": 1.45882,
+      "lon": 103.75549,
       "wiki": "Istana Besar, Johor Bahru",
       "summary": "Sultan's palace in hilltop gardens by the sea.",
       "expect": "Museum often closed; gardens open.",
@@ -258,15 +293,14 @@
       "tradeoffs": [
         "Museum often closed; gardens open.",
         "Walk the gardens."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "johor-bahru-jb-desaru",
       "name": "Desaru Coast",
       "kind": "see",
-      "lat": 1.555,
-      "lon": 104.25,
+      "lat": 1.54156,
+      "lon": 104.2685,
       "wiki": "Desaru",
       "summary": "Beach resort area with a water park, about 1 hour away.",
       "expect": "Car needed.",
@@ -306,8 +340,17 @@
         "Car needed.",
         "Stay overnight."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10694,
+          "period": "202511-202610",
+          "title": "Desaru",
+          "url": "https://en.wikipedia.org/wiki/Desaru",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5263637"
     },
     {
       "id": "johor-bahru-jb-laksa",
@@ -482,5 +525,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q231318"
 }

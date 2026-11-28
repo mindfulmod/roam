@@ -70,8 +70,8 @@
       "id": "khiva-khi-itchankala",
       "name": "Itchan Kala",
       "kind": "see",
-      "lat": 41.3783,
-      "lon": 60.3639,
+      "lat": 41.37811,
+      "lon": 60.35979,
       "wiki": "Itchan Kala",
       "summary": "Walled inner city of madrasas, mosques and minarets, a UNESCO site.",
       "expect": "Combined ticket for most sites.",
@@ -111,14 +111,22 @@
         "Combined ticket for most sites.",
         "Walk it at dawn when empty."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20673,
+          "period": "202511-202610",
+          "title": "Itchan Kala",
+          "url": "https://en.wikipedia.org/wiki/Itchan_Kala",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "khiva-khi-kalta",
       "name": "Kalta Minor Minaret",
       "kind": "see",
-      "lat": 41.378,
-      "lon": 60.36,
+      "lat": 41.37835,
+      "lon": 60.35798,
       "wiki": "Kalta Minor Minaret",
       "summary": "Fat unfinished minaret covered in turquoise tiles.",
       "expect": "Viewed from outside.",
@@ -156,15 +164,14 @@
       "tradeoffs": [
         "Viewed from outside.",
         "Best in morning light."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "khiva-khi-islamkhodja",
       "name": "Islam Khodja Minaret",
       "kind": "see",
-      "lat": 41.377,
-      "lon": 60.364,
+      "lat": 41.37658,
+      "lon": 60.36012,
       "wiki": "Islam Khoja Minaret",
       "summary": "Tallest minaret in Khiva, with a view over the domes.",
       "expect": "Small fee; steep dark stairs.",
@@ -203,15 +210,14 @@
       "tradeoffs": [
         "Small fee; steep dark stairs.",
         "Climb before sunset."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "khiva-khi-juma",
       "name": "Juma Mosque",
       "kind": "see",
-      "lat": 41.3786,
-      "lon": 60.3622,
+      "lat": 41.37751,
+      "lon": 60.35994,
       "wiki": "Djuma Mosque",
       "summary": "Mosque with a forest of 200 carved wooden columns.",
       "expect": "Included in ticket.",
@@ -252,14 +258,22 @@
         "Included in ticket.",
         "Look for the oldest columns."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26653,
+          "period": "202511-202610",
+          "title": "Congregational mosque",
+          "url": "https://en.wikipedia.org/wiki/Congregational_mosque",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "khiva-khi-tashhauli",
       "name": "Tash Hauli Palace",
       "kind": "see",
-      "lat": 41.379,
-      "lon": 60.365,
+      "lat": 41.37821,
+      "lon": 60.36163,
       "wiki": "Tash Khauli",
       "summary": "Khan's palace and harem with majolica-tiled courtyards.",
       "expect": "Included in ticket.",
@@ -298,8 +312,7 @@
       "tradeoffs": [
         "Included in ticket.",
         "See the harem courtyard."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "khiva-khi-walls",
@@ -346,14 +359,23 @@
         "Small fee.",
         "Sunset from the Ak Sheikh Bobo bastion."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 20673,
+          "period": "202511-202610",
+          "title": "Itchan Kala",
+          "url": "https://en.wikipedia.org/wiki/Itchan_Kala",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "khiva-khi-ayaz",
       "name": "Desert fortresses of Khorezm",
       "kind": "see",
-      "lat": 42.278,
-      "lon": 60.932,
+      "lat": 42.00972,
+      "lon": 61.02722,
       "wiki": "Ayaz Kala",
       "summary": "Ruined mud fortresses on desert hills, like Ayaz Kala and Toprak Kala.",
       "expect": "Car needed; 2 hours each way.",
@@ -393,8 +415,16 @@
         "Car needed; 2 hours each way.",
         "Sleep in a yurt camp at Ayaz Kala."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7598,
+          "period": "202511-202610",
+          "title": "Ayaz-Kala",
+          "url": "https://en.wikipedia.org/wiki/Ayaz-Kala",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "khiva-khi-shivit",
@@ -567,5 +597,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q486195",
+  "local": {
+    "name": "Xiva",
+    "lang": "uz"
+  }
 }
