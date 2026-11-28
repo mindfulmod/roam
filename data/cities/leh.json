@@ -123,7 +123,7 @@
       "kind": "see",
       "lat": 34.17376,
       "lon": 77.57494,
-      "wiki": "Shanti Stupa (Leh)",
+      "wiki": "Shanti Stupa, Ladakh",
       "summary": "White stupa on a hill with a panorama of Leh and the mountains.",
       "expect": "Steep steps.",
       "tip": "Drive up and walk down.",
@@ -161,7 +161,17 @@
       "tradeoffs": [
         "Steep steps.",
         "Drive up and walk down."
-      ]
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 13202,
+          "period": "202511-202610",
+          "title": "Shanti Stupa, Ladakh",
+          "url": "https://en.wikipedia.org/wiki/Shanti_Stupa%2C_Ladakh",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2090440"
     },
     {
       "id": "leh-leh-thiksey",
@@ -450,15 +460,7 @@
       ],
       "pinApproximate": true,
       "excursion": true,
-      "signals": {
-        "wikipedia": {
-          "views": 76877,
-          "period": "202511-202610",
-          "title": "Gravity hill",
-          "url": "https://en.wikipedia.org/wiki/Gravity_hill",
-          "checked": "2026-11-28"
-        }
-      }
+      "noReadership": true
     },
     {
       "id": "leh-leh-thukpa",

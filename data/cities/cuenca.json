@@ -70,9 +70,9 @@
       "id": "cuenca-cue-cathedral",
       "name": "New Cathedral",
       "kind": "see",
-      "lat": -2.897,
+      "lat": -2.8975,
       "lon": -79.005,
-      "wiki": "Cathedral of the Immaculate Conception, Cuenca",
+      "wiki": "New Cathedral of Cuenca",
       "summary": "Huge brick cathedral with blue domes and a rooftop.",
       "expect": "Small fee for the roof.",
       "tip": "Flower market outside.",
@@ -112,7 +112,20 @@
         "Small fee for the roof.",
         "Flower market outside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3694,
+          "period": "202511-202610",
+          "title": "New Cathedral of Cuenca",
+          "url": "https://en.wikipedia.org/wiki/New_Cathedral_of_Cuenca",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q15072543",
+      "local": {
+        "name": "Catedral de la Inmaculada Concepción de Cuenca",
+        "lang": "es"
+      }
     },
     {
       "id": "cuenca-cue-pumapungo",
@@ -120,7 +133,7 @@
       "kind": "see",
       "lat": -2.90614,
       "lon": -78.99684,
-      "wiki": "Pumapungo",
+      "wiki": "Pumapungo Museum",
       "summary": "Inca ruins, aviary and ethnography museum.",
       "expect": "Free.",
       "tip": "Gardens behind.",
@@ -158,7 +171,21 @@
       "tradeoffs": [
         "Free.",
         "Gardens behind."
-      ]
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 1636,
+          "period": "202511-202610",
+          "title": "Pumapungo Museum",
+          "url": "https://en.wikipedia.org/wiki/Pumapungo_Museum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q41101321",
+      "local": {
+        "name": "Museo Pumapungo",
+        "lang": "es"
+      }
     },
     {
       "id": "cuenca-cue-cajas",
@@ -211,7 +238,7 @@
           "period": "202511-202610",
           "title": "El Cajas National Park",
           "url": "https://en.wikipedia.org/wiki/El_Cajas_National_Park",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q1295864",
@@ -363,7 +390,7 @@
           "period": "202511-202610",
           "title": "Ingapirca",
           "url": "https://en.wikipedia.org/wiki/Ingapirca",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q1478056"
@@ -540,6 +567,6 @@
       }
     }
   ],
-  "enriched": "2026-11-21",
+  "enriched": "2026-11-28",
   "wikidata": "Q54886"
 }

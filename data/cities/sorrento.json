@@ -71,9 +71,9 @@
       "id": "sorrento-sor-tasso",
       "name": "Piazza Tasso and old town",
       "kind": "see",
-      "lat": 40.6262,
-      "lon": 14.3757,
-      "wiki": "Piazza Tasso",
+      "lat": 40.62631,
+      "lon": 14.376,
+      "wiki": "Piazza Tasso, Sorrento",
       "summary": "Main square and lanes of lemon shops.",
       "expect": "Free.",
       "tip": "Evening passeggiata.",
@@ -112,7 +112,20 @@
         "Free.",
         "Evening passeggiata."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7379,
+          "period": "202511-202610",
+          "title": "Piazza Tasso, Sorrento",
+          "url": "https://en.wikipedia.org/wiki/Piazza_Tasso%2C_Sorrento",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2332531",
+      "local": {
+        "name": "Piazza Torquato Tasso",
+        "lang": "it"
+      }
     },
     {
       "id": "sorrento-sor-marina",
@@ -211,7 +224,7 @@
           "period": "202511-202610",
           "title": "Capri",
           "url": "https://en.wikipedia.org/wiki/Capri",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q173292",
@@ -270,7 +283,7 @@
           "period": "202511-202610",
           "title": "Pompeii",
           "url": "https://en.wikipedia.org/wiki/Pompeii",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q43332"
@@ -373,7 +386,7 @@
           "period": "202511-202610",
           "title": "Vallone dei Mulini",
           "url": "https://en.wikipedia.org/wiki/Vallone_dei_Mulini",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       }
     },
@@ -549,5 +562,5 @@
       }
     }
   ],
-  "enriched": "2026-11-21"
+  "enriched": "2026-11-28"
 }

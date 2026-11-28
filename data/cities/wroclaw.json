@@ -372,9 +372,9 @@
       "id": "wroclaw-wro-centennial",
       "name": "Centennial Hall and Japanese Garden",
       "kind": "see",
-      "lat": 51.1069,
-      "lon": 17.0772,
-      "wiki": "Centennial Hall",
+      "lat": 51.10694,
+      "lon": 17.07722,
+      "wiki": "Centennial Hall (Wrocław)",
       "summary": "UNESCO-listed concrete dome of 1913, with a fountain show and Japanese garden nearby.",
       "expect": "Hall exhibit paid.",
       "tip": "Evening fountain shows in summer.",
@@ -413,7 +413,20 @@
         "Hall exhibit paid.",
         "Evening fountain shows in summer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15204,
+          "period": "202511-202610",
+          "title": "Centennial Hall (Wrocław)",
+          "url": "https://en.wikipedia.org/wiki/Centennial_Hall_(Wroc%C5%82aw)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q155743",
+      "local": {
+        "name": "Hala Stulecia",
+        "lang": "pl"
+      }
     },
     {
       "id": "wroclaw-wro-hala",
@@ -421,7 +434,7 @@
       "kind": "see",
       "lat": 51.11243,
       "lon": 17.04034,
-      "wiki": "Hala Targowa, Wrocław",
+      "wiki": "Wrocław Market Hall",
       "summary": "1908 market hall with produce, pickles and cheap lunch counters.",
       "expect": "Closed Sundays.",
       "tip": "Grab pierogi at a counter.",
@@ -460,7 +473,16 @@
       "tradeoffs": [
         "Closed Sundays.",
         "Grab pierogi at a counter."
-      ]
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 2023,
+          "period": "202511-202610",
+          "title": "Wrocław Market Hall",
+          "url": "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Market_Hall",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "wroclaw-wro-pierogi",

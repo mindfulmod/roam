@@ -124,7 +124,7 @@
           "period": "202511-202610",
           "title": "Prophet's Mosque",
           "url": "https://en.wikipedia.org/wiki/Prophet's_Mosque",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       }
     },
@@ -179,7 +179,7 @@
           "period": "202511-202610",
           "title": "Quba Mosque",
           "url": "https://en.wikipedia.org/wiki/Quba_Mosque",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q276569",
@@ -241,7 +241,7 @@
           "period": "202511-202610",
           "title": "Mount Uhud",
           "url": "https://en.wikipedia.org/wiki/Mount_Uhud",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       }
     },
@@ -338,15 +338,7 @@
         "Pair with the nearby Anbariya Mosque."
       ],
       "pinApproximate": true,
-      "signals": {
-        "wikipedia": {
-          "views": 75353,
-          "period": "202511-202610",
-          "title": "Hejaz railway",
-          "url": "https://en.wikipedia.org/wiki/Hejaz_railway",
-          "checked": "2026-11-23"
-        }
-      }
+      "noReadership": true
     },
     {
       "id": "medina-medina-seven-mosques",
@@ -354,7 +346,7 @@
       "kind": "see",
       "lat": 24.47721,
       "lon": 39.59497,
-      "wiki": "Seven Mosques",
+      "wiki": "The Seven Mosques",
       "summary": "Small mosques at the site of the Battle of the Trench, including the Al-Fath mosque.",
       "expect": "Part of most ziyarah tours.",
       "tip": "Combine with the Qiblatain Mosque, where the direction of prayer changed to Mecca.",
@@ -392,7 +384,21 @@
       "tradeoffs": [
         "Part of most ziyarah tours.",
         "Combine with the Qiblatain Mosque, where the direction of prayer changed to Mecca."
-      ]
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 11527,
+          "period": "202511-202610",
+          "title": "The Seven Mosques",
+          "url": "https://en.wikipedia.org/wiki/The_Seven_Mosques",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q12192912",
+      "local": {
+        "name": "المساجد السبعة",
+        "lang": "ar"
+      }
     },
     {
       "id": "medina-medina-dates-market",
@@ -573,7 +579,7 @@
       }
     }
   ],
-  "enriched": "2026-11-21",
+  "enriched": "2026-11-28",
   "wikidata": "Q35484",
   "local": {
     "name": "المدينة المنورة",

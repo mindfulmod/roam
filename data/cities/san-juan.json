@@ -118,7 +118,7 @@
           "period": "202511-202610",
           "title": "Castillo San Felipe del Morro",
           "url": "https://en.wikipedia.org/wiki/Castillo_San_Felipe_del_Morro",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q550502",
@@ -178,7 +178,7 @@
           "period": "202511-202610",
           "title": "Old San Juan",
           "url": "https://en.wikipedia.org/wiki/Old_San_Juan",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q1136674",
@@ -193,7 +193,7 @@
       "kind": "see",
       "lat": 18.46737,
       "lon": -66.1107,
-      "wiki": "Castillo San Cristóbal",
+      "wiki": "Castillo San Cristóbal (San Juan)",
       "summary": "The largest Spanish fort in the Americas.",
       "expect": "Same ticket as El Morro.",
       "tip": "Explore tunnels.",
@@ -230,7 +230,17 @@
       "tradeoffs": [
         "Same ticket as El Morro.",
         "Explore tunnels."
-      ]
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 20122,
+          "period": "202511-202610",
+          "title": "Castillo San Cristóbal (San Juan)",
+          "url": "https://en.wikipedia.org/wiki/Castillo_San_Crist%C3%B3bal_(San_Juan)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3748608"
     },
     {
       "id": "san-juan-sju-yunque",
@@ -285,7 +295,7 @@
           "period": "202511-202610",
           "title": "El Yunque National Forest",
           "url": "https://en.wikipedia.org/wiki/El_Yunque_National_Forest",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       }
     },
@@ -342,7 +352,7 @@
       "kind": "see",
       "lat": 18.45774,
       "lon": -66.07327,
-      "wiki": "Condado",
+      "wiki": "Condado Beach",
       "summary": "City beach with hotels.",
       "expect": "Rough surf at times.",
       "tip": "Swim at the lagoon side.",
@@ -379,7 +389,21 @@
       "tradeoffs": [
         "Rough surf at times.",
         "Swim at the lagoon side."
-      ]
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 7520,
+          "period": "202511-202610",
+          "title": "Condado Beach",
+          "url": "https://en.wikipedia.org/wiki/Condado_Beach",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q49320432",
+      "local": {
+        "name": "Playa del Condado",
+        "lang": "es"
+      }
     },
     {
       "id": "san-juan-sju-mofongo",
@@ -554,6 +578,6 @@
       }
     }
   ],
-  "enriched": "2026-11-21",
+  "enriched": "2026-11-28",
   "wikidata": "Q41211"
 }

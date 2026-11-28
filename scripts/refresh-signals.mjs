@@ -103,7 +103,21 @@ async function wikipediaViews(title) {
   const j = await getJson(
     `https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia/all-access/user/${t}/monthly/${START}/${END}`,
   );
-  return j ? j.items.reduce((s, x) => s + x.views, 0) : null;
+  if (!j) return null;
+  // An article renamed (or created) during the year only has views under this title from
+  // then on, so "Casa Milà" moved to "La Pedrera, Barcelona" showed a few thousand readers.
+  // Count from the first month with at least a tenth of the peak month and scale that to 12 months.
+  // The API leaves out months with no views, which for a renamed article are the first ones.
+  const got = j.items.map((x) => x.views),
+    months = [...Array(Math.max(0, 12 - got.length)).fill(0), ...got],
+    peak = Math.max(0, ...months),
+    from = months.findIndex((v) => v >= peak * 0.1),
+    total = months.reduce((s, v) => s + v, 0);
+  if (from > 0 && months.length - from >= 1)
+    return Math.round(
+      (months.slice(from).reduce((s, v) => s + v, 0) * 12) / (months.length - from),
+    );
+  return total;
 }
 
 const files = (await readdir(citiesDir)).filter(

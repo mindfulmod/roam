@@ -133,7 +133,7 @@
           "period": "202511-202610",
           "title": "Museo del Prado",
           "url": "https://en.wikipedia.org/wiki/Museo_del_Prado",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -194,7 +194,7 @@
           "period": "202511-202610",
           "title": "Royal Palace of Madrid",
           "url": "https://en.wikipedia.org/wiki/Royal_Palace_of_Madrid",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -254,7 +254,7 @@
           "period": "202511-202610",
           "title": "Parque del Buen Retiro",
           "url": "https://en.wikipedia.org/wiki/Parque_del_Buen_Retiro",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -314,7 +314,7 @@
           "period": "202511-202610",
           "title": "Museo Nacional Centro de Arte Reina Sofía",
           "url": "https://en.wikipedia.org/wiki/Museo_Nacional_Centro_de_Arte_Reina_Sof%C3%ADa",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -374,7 +374,7 @@
           "period": "202511-202610",
           "title": "Plaza Mayor, Madrid",
           "url": "https://en.wikipedia.org/wiki/Plaza_Mayor%2C_Madrid",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -430,19 +430,132 @@
         "Book the train both ways; they sell out at weekends."
       ],
       "excursion": true,
-      "signals": {
-        "wikipedia": {
-          "views": 273801,
-          "period": "202511-202610",
-          "title": "Toledo, Spain",
-          "url": "https://en.wikipedia.org/wiki/Toledo%2C_Spain",
-          "checked": "2026-11-23"
-        }
-      },
       "review": {
         "url": "https://www.tripadvisor.com/Search?q=Toledo%2C%20Madrid"
       },
-      "wikidata": "Q5836"
+      "wikidata": "Q5836",
+      "noReadership": true
+    },
+    {
+      "id": "madrid-thyssen-bornemisza-museum",
+      "name": "Thyssen-Bornemisza Museum",
+      "kind": "see",
+      "lat": 40.41604,
+      "lon": -3.69493,
+      "wiki": "Thyssen-Bornemisza Museum",
+      "summary": "A private collection filling the gaps between the Prado and the Reina Sofía, from Italian primitives to Impressionists and Pop Art.",
+      "expect": "Easier to see in a morning than the Prado; free on Monday afternoons for the permanent collection.",
+      "tip": "Start on the top floor and work down chronologically.",
+      "area": "Paseo del Prado",
+      "duration": 2,
+      "price": [
+        13,
+        13
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Weekday mornings",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Thyssen-Bornemisza%20Museum%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Thyssen-Bornemisza%20Museum%2C%20Madrid"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Thyssen-Bornemisza%20Museum%2C%20Madrid"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "A private collection filling the gaps between the Prado and the Reina Sofía, from Italian primitives to Impressionists and Pop Art.",
+        "Together with the Prado and Reina Sofía it forms Madrid's 'Golden Triangle of Art'."
+      ],
+      "visitFlow": [
+        "Take the lift to the second floor for early European art.",
+        "Work down through Dutch and Impressionist rooms.",
+        "Finish with 20th-century art on the ground floor."
+      ],
+      "bestFor": "Art lovers wanting breadth in one visit",
+      "tradeoffs": [
+        "Easier to see in a morning than the Prado; free on Monday afternoons for the permanent collection.",
+        "Start on the top floor and work down chronologically."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 54740,
+          "period": "202511-202610",
+          "title": "Thyssen-Bornemisza Museum",
+          "url": "https://en.wikipedia.org/wiki/Thyssen-Bornemisza_Museum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q176251",
+      "local": {
+        "name": "Museo Nacional Thyssen-Bornemisza",
+        "lang": "es"
+      }
+    },
+    {
+      "id": "madrid-temple-of-debod",
+      "name": "Temple of Debod",
+      "kind": "see",
+      "lat": 40.42405,
+      "lon": -3.71778,
+      "wiki": "Temple of Debod",
+      "summary": "A 2nd-century BC Egyptian temple rebuilt on a hilltop park, given to Spain for helping save Nubian monuments from the Aswan Dam.",
+      "expect": "The small interior has limited entry; the park around it is free and busy at sunset.",
+      "tip": "Come for sunset over the Casa de Campo, then walk down to the Royal Palace.",
+      "area": "Parque del Oeste",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Temple%20of%20Debod%2C%20Madrid",
+        "https://www.google.com/maps/search/?api=1&query=Temple%20of%20Debod%2C%20Madrid"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Temple%20of%20Debod%2C%20Madrid"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "A 2nd-century BC Egyptian temple rebuilt on a hilltop park, given to Spain for helping save Nubian monuments from the Aswan Dam.",
+        "It is one of the few ancient Egyptian temples that can be seen outside Egypt."
+      ],
+      "visitFlow": [
+        "Walk up through the Parque del Oeste.",
+        "See the temple reflected in its pool.",
+        "Watch the sunset from the viewing terrace."
+      ],
+      "bestFor": "A free sunset spot",
+      "tradeoffs": [
+        "The small interior has limited entry; the park around it is free and busy at sunset.",
+        "Come for sunset over the Casa de Campo, then walk down to the Royal Palace."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 55245,
+          "period": "202511-202610",
+          "title": "Temple of Debod",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Debod",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1140249",
+      "local": {
+        "name": "Templo de Debod",
+        "lang": "es"
+      }
     },
     {
       "id": "madrid-chocolateria-san-gines",
@@ -680,6 +793,6 @@
       }
     }
   ],
-  "enriched": "2026-11-15",
+  "enriched": "2026-11-28",
   "wikidata": "Q2807"
 }

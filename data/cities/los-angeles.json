@@ -122,7 +122,7 @@
           "period": "202511-202610",
           "title": "Griffith Observatory",
           "url": "https://en.wikipedia.org/wiki/Griffith_Observatory",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q575901"
@@ -179,7 +179,7 @@
           "period": "202511-202610",
           "title": "Getty Center",
           "url": "https://en.wikipedia.org/wiki/Getty_Center",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q29247"
@@ -235,7 +235,7 @@
           "period": "202511-202610",
           "title": "Santa Monica Pier",
           "url": "https://en.wikipedia.org/wiki/Santa_Monica_Pier",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q595439"
@@ -244,9 +244,9 @@
       "id": "los-angeles-los-angeles-venice",
       "name": "Venice Beach and canals",
       "kind": "see",
-      "lat": 33.985,
-      "lon": -118.4695,
-      "wiki": "Venice Beach",
+      "lat": 33.983,
+      "lon": -118.4703,
+      "wiki": "Venice Beach Boardwalk",
       "summary": "A boardwalk of street performers, Muscle Beach and skate parks, with quiet canals a block inland.",
       "expect": "Lively by day; best avoided late at night.",
       "tip": "Walk the canals, then Abbot Kinney Boulevard for shops and cafés.",
@@ -285,7 +285,16 @@
         "Lively by day; best avoided late at night.",
         "Walk the canals, then Abbot Kinney Boulevard for shops and cafés."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11465,
+          "period": "202511-202610",
+          "title": "Venice Beach Boardwalk",
+          "url": "https://en.wikipedia.org/wiki/Venice_Beach_Boardwalk",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q112871534"
     },
     {
       "id": "los-angeles-los-angeles-hollywood",
@@ -339,7 +348,7 @@
           "period": "202511-202610",
           "title": "Hollywood Walk of Fame",
           "url": "https://en.wikipedia.org/wiki/Hollywood_Walk_of_Fame",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       }
     },
@@ -393,7 +402,7 @@
           "period": "202511-202610",
           "title": "Universal Studios Hollywood",
           "url": "https://en.wikipedia.org/wiki/Universal_Studios_Hollywood",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q1337576"
@@ -449,7 +458,7 @@
           "period": "202511-202610",
           "title": "Disneyland",
           "url": "https://en.wikipedia.org/wiki/Disneyland",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q181185"
@@ -575,8 +584,8 @@
       "id": "los-angeles-los-angeles-in-n-out",
       "name": "In-N-Out Burger",
       "kind": "eat",
-      "lat": 34.0631,
-      "lon": -118.4485,
+      "lat": 34.06309,
+      "lon": -118.44808,
       "wiki": "In-N-Out Burger",
       "summary": "California's cult burger chain, with a short menu and a 'secret' one.",
       "expect": "Queues at peak times.",
@@ -615,7 +624,6 @@
         "Queues at peak times.",
         "Order a Double-Double 'animal style' with fries well done."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Burgers",
       "mustOrder": [
@@ -631,6 +639,6 @@
       }
     }
   ],
-  "enriched": "2026-11-21",
+  "enriched": "2026-11-28",
   "wikidata": "Q65"
 }
