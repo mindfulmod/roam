@@ -49,4 +49,5 @@ jobs:
           git add -A scripts/covers images/photos data/photos.json
           git diff --cached --quiet && exit 0
           git commit -m "Cover photos: ${{ steps.mode.outputs.mode }} (automated)"
+          git pull --rebase origin "${{ github.ref_name }}"
           git push origin HEAD:${{ github.ref_name }}

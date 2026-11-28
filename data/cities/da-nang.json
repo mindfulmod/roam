@@ -96,9 +96,9 @@
       "id": "da-nang-the-marble-mountains",
       "name": "The Marble Mountains",
       "kind": "see",
-      "lat": 16.004,
-      "lon": 108.263,
-      "wiki": "The Marble Mountains",
+      "lat": 16,
+      "lon": 108.26,
+      "wiki": "Marble Mountains (Vietnam)",
       "area": "Ngu Hanh Son",
       "duration": 2.5,
       "price": [
@@ -110,7 +110,7 @@
       "tip": "Steep, wet or polished stone stairs; lift access does not remove every climb.",
       "bestTime": "Early in the day; check the official opening calendar.",
       "reservation": "Check the venue’s current ticket and entry rules.",
-      "priority": 2,
+      "priority": 1,
       "sourceUrls": [
         "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html"
       ],
@@ -132,17 +132,25 @@
       "tradeoffs": [
         "Steep, wet or polished stone stairs; lift access does not remove every climb."
       ],
-      "pinApproximate": true,
       "review": {
         "url": "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html"
+      },
+      "signals": {
+        "wikipedia": {
+          "views": 18765,
+          "period": "202511-202610",
+          "title": "Ngũ Hành Sơn",
+          "url": "https://en.wikipedia.org/wiki/Ng%C5%A9_H%C3%A0nh_S%C6%A1n",
+          "checked": "2026-11-28"
+        }
       }
     },
     {
       "id": "da-nang-ba-na-hills-and-golden-bridge",
       "name": "Ba Na Hills and Golden Bridge",
       "kind": "see",
-      "lat": 15.996,
-      "lon": 107.998,
+      "lat": 15.99486,
+      "lon": 107.99625,
       "wiki": "Golden Bridge (Vietnam)",
       "area": "Inland mountain excursion",
       "duration": 8,
@@ -155,7 +163,7 @@
       "tip": "Cloud, commercial theming and crowds shape the experience; this is a full-day resort visit.",
       "bestTime": "Early in the day; check the official opening calendar.",
       "reservation": "Check the venue’s current ticket and entry rules.",
-      "priority": 2,
+      "priority": 1,
       "sourceUrls": [
         "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html"
       ],
@@ -177,7 +185,6 @@
       "tradeoffs": [
         "Cloud, commercial theming and crowds shape the experience; this is a full-day resort visit."
       ],
-      "pinApproximate": true,
       "excursion": true,
       "signals": {
         "wikipedia": {
@@ -185,7 +192,7 @@
           "period": "202511-202610",
           "title": "Golden Bridge (Vietnam)",
           "url": "https://en.wikipedia.org/wiki/Golden_Bridge_(Vietnam)",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "review": {
@@ -289,9 +296,9 @@
       "id": "da-nang-dragon-bridge",
       "name": "Dragon Bridge",
       "kind": "see",
-      "lat": 16.061,
-      "lon": 108.227,
-      "wiki": "Dragon Bridge",
+      "lat": 16.06111,
+      "lon": 108.22667,
+      "wiki": "Dragon Bridge (Da Nang)",
       "area": "Han River",
       "duration": 0.8,
       "price": [
@@ -324,18 +331,31 @@
       "tradeoffs": [
         "Performances follow specific dates and conditions; the bridge is an active traffic route."
       ],
-      "pinApproximate": true,
       "review": {
         "url": "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html"
+      },
+      "signals": {
+        "wikipedia": {
+          "views": 23981,
+          "period": "202511-202610",
+          "title": "Dragon Bridge (Da Nang)",
+          "url": "https://en.wikipedia.org/wiki/Dragon_Bridge_(Da_Nang)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5305270",
+      "local": {
+        "name": "Cầu Rồng",
+        "lang": "vi"
       }
     },
     {
       "id": "da-nang-da-nang-museum-of-cham-sculpture",
       "name": "Da Nang Museum of Cham Sculpture",
       "kind": "see",
-      "lat": 16.06,
-      "lon": 108.223,
-      "wiki": "Da Nang Museum of Cham Sculpture",
+      "lat": 16.05989,
+      "lon": 108.22264,
+      "wiki": "Museum of Cham Sculpture",
       "area": "Hai Chau",
       "duration": 1.5,
       "price": [
@@ -368,9 +388,22 @@
       "tradeoffs": [
         "Allow time for interpretation; it is an indoor collection rather than a large archaeological park."
       ],
-      "pinApproximate": true,
       "review": {
         "url": "https://www.tripadvisor.com/Attractions-g298085-Activities-Da_Nang.html"
+      },
+      "signals": {
+        "wikipedia": {
+          "views": 5498,
+          "period": "202511-202610",
+          "title": "Museum of Cham Sculpture",
+          "url": "https://en.wikipedia.org/wiki/Museum_of_Cham_Sculpture",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6940790",
+      "local": {
+        "name": "Bảo tàng Nghệ thuật điêu khắc Chăm Đà Nẵng",
+        "lang": "vi"
       }
     },
     {
@@ -422,8 +455,8 @@
       "id": "da-nang-indian-aroma",
       "name": "Indian Aroma",
       "kind": "eat",
-      "lat": 16.041,
-      "lon": 108.242,
+      "lat": 16.04708,
+      "lon": 108.24554,
       "wiki": "Indian Aroma",
       "area": "Ngu Hanh Son",
       "duration": 1,
@@ -456,7 +489,6 @@
       "tradeoffs": [
         "The official site states halal meat dishes and dedicated Jain preparations. No independent current certificate inspected. Address: 69 Hoai Thanh; older guides may call it Mumtaz."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "North and South Indian",
       "mustOrder": [
@@ -483,8 +515,8 @@
       "id": "da-nang-roots-plant-based-cafe",
       "name": "ROOTS Plant-based Café",
       "kind": "eat",
-      "lat": 16.047,
-      "lon": 108.247,
+      "lat": 16.04866,
+      "lon": 108.24788,
       "wiki": "ROOTS Plant-based Café",
       "area": "An Thuong",
       "duration": 1,
@@ -517,7 +549,6 @@
       "tradeoffs": [
         "Operator identifies a vegan café and specifies vegan patties and cheese. No halal certification verified."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Vegan café cuisine",
       "mustOrder": [
@@ -543,8 +574,8 @@
       "id": "da-nang-banh-xeo-ba-duong",
       "name": "Banh Xeo Ba Duong",
       "kind": "eat",
-      "lat": 16.058,
-      "lon": 108.215,
+      "lat": 16.06523,
+      "lon": 108.21943,
       "wiki": "Banh Xeo Ba Duong",
       "area": "Hai Chau",
       "duration": 1,
@@ -577,7 +608,6 @@
       "tradeoffs": [
         "Pork, seafood and meat-based dipping sauce can be integral. Use the exact alley address 280/23 Hoang Dieu; unsuitable for halal/vegetarian filters."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Central Vietnamese pancakes",
       "mustOrder": [
@@ -663,8 +693,8 @@
       "id": "da-nang-han-market",
       "name": "Han Market",
       "kind": "shop",
-      "lat": 16.068,
-      "lon": 108.224,
+      "lat": 16.06835,
+      "lon": 108.22428,
       "wiki": "Han Market",
       "area": "Hai Chau riverfront",
       "duration": 1.5,
@@ -696,15 +726,14 @@
       "bestFor": "Shopping enthusiasts",
       "tradeoffs": [
         "Browsing is free; purchases are optional and can exceed the example range."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "da-nang-la-maison-1888",
       "name": "La Maison 1888",
       "kind": "eat",
-      "lat": 16.1210876,
-      "lon": 108.3061358,
+      "lat": 16.1221,
+      "lon": 108.30602,
       "wiki": "La Maison 1888",
       "summary": "A one-star French restaurant at the InterContinental Danang Sun Peninsula resort, set in a recreated Indochine colonial mansion.",
       "expect": "A refined sit-down meal, often a set or tasting menu. Booking ahead is wise.",
@@ -753,7 +782,6 @@
         "url": "https://guide.michelin.com/en/da-nang-region/da-nang_2984390/restaurant/la-maison-1888",
         "checked": "2026-11-07"
       },
-      "pinApproximate": true,
       "sourceNote": "Map pin placed from the published address; confirm the entrance in Google Maps."
     },
     {
@@ -817,6 +845,7 @@
     }
   ],
   "popularity": {},
+  "enriched": "2026-11-28",
   "wikidata": "Q25282",
   "local": {
     "name": "Đà Nẵng",
