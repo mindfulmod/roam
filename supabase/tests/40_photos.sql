@@ -37,7 +37,7 @@ select t.sees($$select 1 from public.photos$$, 2, 'nobody hides it any more: vie
 select t.as('sam');
 select t.changes($$update public.photos set caption = 'Hacked' where id = t.id('photo-alex')$$, 0, 'a traveller cannot edit another traveller''s photo');
 select t.changes($$delete from public.photos where id = t.id('photo-alex')$$, 0, 'a traveller cannot delete another traveller''s photo');
-select t.changes($$delete from storage.objects where name like '%' || t.id('photo-alex') || '%'$$, 0, '...or its file');
+select t.nothing_changes($$delete from storage.objects where name like '%' || t.id('photo-alex') || '%'$$, '...or its file');
 select t.refused(format($$insert into public.photos (trip_id, added_by) values (%L, t.id('alex'))$$, :'trip'), 'a traveller cannot add a photo in someone else''s name');
 select t.changes($$update public.photos set caption = 'Night one' where id = t.id('photo-sam')$$, 1, 'a traveller can caption their own photo');
 

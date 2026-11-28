@@ -1,4 +1,5 @@
--- Rules: blocking ends a friendship and stops new requests, but trips you share stay. Reports go
+-- Rules: blocking ends a friendship, and nothing from the person blocked reaches you again, but
+-- trips you share stay. A block never shows: the person blocked can tell it apart from nothing. Reports go
 -- to whoever runs the app. Leaving hides your profile from friends at once and deletes everything
 -- after 30 days, unless you come back. Your data can be downloaded, and holds only what is yours.
 begin;
@@ -16,13 +17,22 @@ select t.is((select relation from public.my_people() where id = t.id('alex')), '
 select t.is((select home from public.my_people() where id = t.id('alex')), null::text, '...with the name only');
 select t.as('alex');
 select t.sees($$select 1 from public.blocks$$, 0, 'the person blocked never sees the block');
-select t.refused($$insert into public.friendships (requester_id, addressee_id) values (t.id('alex'), t.id('maya'))$$, 'a block stops friend requests, even between people who share a trip');
+-- Alex can still ask (refusing would give the block away). His request waits, as if unanswered.
+select t.changes($$insert into public.friendships (requester_id, addressee_id) values (t.id('alex'), t.id('maya'))$$, 1, 'the person blocked can still send a friend request, so the block does not show');
+select t.sees($$select 1 from public.friendships where requester_id = t.id('alex') and status = 'pending'$$, 1, '...and sees it waiting, as with anyone who has not answered');
 select public.create_friend_invite() as alex_code \gset
 select t.as('maya');
-select t.is(public.finish_sign_in(:'alex_code') ->> 'invite', 'unknown', 'an invite link from someone you blocked does not work, and does not say why');
-select t.sees($$select 1 from public.friendships where t.id('alex') in (requester_id, addressee_id)$$, 0, '...and makes no friendship');
+select t.sees($$select 1 from public.friendships where t.id('alex') in (requester_id, addressee_id)$$, 0, 'a request from someone you blocked never reaches you');
+select t.sees($$select 1 from public.my_people() where id = t.id('alex') and relation <> 'blocked'$$, 0, '...nor your list of people');
+select t.changes($$update public.friendships set status = 'accepted' where requester_id = t.id('alex')$$, 0, '...and it cannot be accepted');
+select t.refused($$insert into public.friendships (requester_id, addressee_id) values (t.id('maya'), t.id('alex'))$$, 'you cannot ask someone you blocked to be friends');
+select t.is(public.finish_sign_in(:'alex_code') ->> 'invite', 'expired', 'an invite link from someone you blocked looks like a stopped link, so it does not say why');
+select t.as_setup();
+select t.is((select count(*) from public.friendships where t.id('alex') in (requester_id, addressee_id) and t.id('maya') in (requester_id, addressee_id) and status = 'accepted'), 0::bigint, '...and makes no friendship');
+select t.as('maya');
 select t.changes($$delete from public.blocks where blocked_id = t.id('alex')$$, 1, 'Maya can unblock Alex');
-select t.sees($$select 1 from public.friendships where t.id('alex') in (requester_id, addressee_id)$$, 0, 'unblocking does not make you friends again');
+select t.sees($$select 1 from public.friendships where t.id('alex') in (requester_id, addressee_id) and status = 'accepted'$$, 0, 'unblocking does not make you friends again');
+select t.sees($$select 1 from public.my_people() where id = t.id('alex') and relation = 'asks_you'$$, 1, '...and a request Alex sent meanwhile now waits for her answer');
 
 -- Reports.
 select t.as('sam');

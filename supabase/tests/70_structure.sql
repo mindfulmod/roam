@@ -73,5 +73,12 @@ select t.ok(
   and not has_table_privilege('anon', 'private.settings', 'SELECT'),
   'the server''s own settings cannot be read through the app');
 
+select t.ok(
+  exists (
+    select 1 from pg_trigger
+    where tgrelid = 'auth.users'::regclass and tgname = 'no_passwords' and tgenabled <> 'D'
+  ),
+  'passwords are never kept: the sign-in table blanks them');
+
 select t.finish();
 rollback;

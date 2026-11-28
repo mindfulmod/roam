@@ -55,7 +55,7 @@ jobs:
       - if: steps.ready.outputs.go == 'true'
         uses: supabase/setup-cli@v3
         with:
-          version: ^2
+          version: 2.122.1
       - name: Apply the database
         if: steps.ready.outputs.go == 'true'
         run: |

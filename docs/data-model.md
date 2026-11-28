@@ -31,7 +31,8 @@ owner: [accounts-setup.md](accounts-setup.md).
 | Joining is by invite only | Supabase asks `private.before_user_created` before it makes any sign-in account. It says yes only to the owner's email or to someone holding a valid invite link; everyone else is told it is invite-only, and no email is sent | `80_joining`, e2e |
 | An invite link works once, for 14 days | Only a hash of the link's code is stored. Using it makes you friends with whoever sent it | `80_joining` |
 | You choose who your friends are | A friend request needs you to know the person already (you share a trip, or they asked you). New people arrive through invite links | `60_profiles_friends` |
-| Blocking is quiet and complete | A block ends the friendship and stops requests and invite links between you. The person blocked is never told: their invite just "does not work". Trips you share stay | `90_blocks_reports_leaving` |
+| No passwords | Signing in is by emailed code only. A trigger on Supabase's `auth.users` blanks any password, so nobody can put one on an address before its owner confirms it, and password sign-in never works | `80_joining`, `70_structure`, e2e |
+| Blocking is quiet and complete | A block ends the friendship, and nothing the person blocked sends reaches you. They are never told: a friend request they send waits as if unanswered, and an invite link from you looks expired, as a link you stopped does. Trips you share stay | `90_blocks_reports_leaving` |
 | Reports reach the person who runs the app, and nothing more | The admin sees who reported whom and why, never the trips | `90_blocks_reports_leaving` |
 | Leaving is quick to start and slow to finish | You vanish from friends at once. Everything is deleted after 30 days unless you sign in and come back; once you have asked, "delete now" is there too | `90_blocks_reports_leaving` |
 | Your data is yours to take | `export_my_data()` returns everything the database holds that you made, and nobody else's notes | `90_blocks_reports_leaving` |
@@ -150,8 +151,9 @@ Common moves as table calls:
 - **Someone leaving is invisible, not gone.** For 30 days their rows stay, their invite links
   stop working, and friends no longer see them. Their trips are untouched until the account is
   finally deleted, when "leaving takes your part with you" applies.
-- **A block never shows.** Everything a block stops answers the same way as "not found", so the
-  person blocked cannot tell. Keep it that way in new screens.
+- **A block never shows.** The person blocked can still do what they could before, and it looks
+  the same to them: a request waits as if unanswered, an invite link looks expired. Keep it that
+  way in new screens: never refuse with an error that only a block could cause.
 
 ## Not in this pass
 

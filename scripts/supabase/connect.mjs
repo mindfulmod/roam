@@ -35,7 +35,14 @@ if (problems.length) {
   process.exit(1);
 }
 
-async function api(method, route, body) {
+// This run's log is public, so a reply printed to explain a failure first has anything secret
+// or personal blanked out of it, in case the reply repeats what it was sent.
+const adminHex = Buffer.from(admin, 'utf8').toString('hex');
+const hidden = [token, resendKey, admin, adminHex].filter((s) => s.length >= 4);
+const scrub = (text) => hidden.reduce((t, s) => t.split(s).join('[hidden]'), text);
+
+// `quiet` leaves the reply out of the error altogether, for calls whose body holds the email.
+async function api(method, route, body, { quiet = false } = {}) {
   const res = await fetch(`https://api.supabase.com/v1/projects/${ref}${route}`, {
     method,
     headers: { Authorization: `Bearer ${token}`, 'Content-Type': 'application/json' },
@@ -43,8 +50,8 @@ async function api(method, route, body) {
   });
   const text = await res.text();
   if (!res.ok) {
-    // The body explains what went wrong; it never holds our secrets, but trim it anyway.
-    throw new Error(`${method} ${route}: HTTP ${res.status} ${text.slice(0, 300)}`);
+    const why = quiet ? '(reply not shown)' : scrub(text).slice(0, 300);
+    throw new Error(`${method} ${route}: HTTP ${res.status} ${why}`);
   }
   return text ? JSON.parse(text) : null;
 }
@@ -71,10 +78,14 @@ if (off.length) {
 }
 
 // 2. The founder email. Sent as hex so no character in it can change the SQL.
-const hex = Buffer.from(admin, 'utf8').toString('hex');
-await api('POST', '/database/query', {
-  query: `insert into private.settings (key, value) values ('founder_email', convert_from(decode('${hex}', 'hex'), 'UTF8')) on conflict (key) do update set value = excluded.value`,
-});
+await api(
+  'POST',
+  '/database/query',
+  {
+    query: `insert into private.settings (key, value) values ('founder_email', convert_from(decode('${adminHex}', 'hex'), 'UTF8')) on conflict (key) do update set value = excluded.value`,
+  },
+  { quiet: true },
+);
 console.log('ok      founder email stored');
 
 // 3. The address and publishable key for the app.

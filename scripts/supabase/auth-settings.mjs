@@ -16,6 +16,7 @@ export const AUTH = {
   disable_signup: false,
   external_email_enabled: true,
   external_anonymous_users_enabled: false,
+  external_phone_enabled: false,
   mailer_autoconfirm: false,
   mailer_allow_unverified_email_sign_ins: false,
   mailer_secure_email_change_enabled: true,

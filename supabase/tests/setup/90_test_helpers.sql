@@ -122,6 +122,31 @@ begin
 end;
 $$;
 
+-- Nothing may change: the rules hide the rows (0 rows), or the statement is refused outright.
+-- Real Supabase refuses direct deletes from its file tables ("use the Storage API"); the
+-- stand-in hides the rows instead. Either way the file stays.
+create function t.nothing_changes(p_statement text, p_what text) returns void language plpgsql as $$
+declare v bigint;
+begin
+  begin
+    execute p_statement;
+    get diagnostics v = row_count;
+  exception
+    when insufficient_privilege or check_violation then
+      perform t.ok(true, p_what);
+      return;
+    when raise_exception then
+      if sqlerrm ~* 'not allowed' then
+        perform t.ok(true, p_what);
+      else
+        perform t.ok(false, p_what || '  (unexpected error: ' || sqlerrm || ')');
+      end if;
+      return;
+  end;
+  perform t.is(v, 0::bigint, p_what);
+end;
+$$;
+
 create function t.finish() returns void language plpgsql as $$
 declare v_failed int; v_total int;
 begin

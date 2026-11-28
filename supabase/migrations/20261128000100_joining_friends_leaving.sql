@@ -15,9 +15,11 @@
 --   3. You see someone's profile once you are friends, while they are asking to be your friend,
 --      or when you share a trip. Asking someone to be friends needs that you already know each
 --      other through a trip; everyone else connects with an invite link.
---   4. Blocking ends the friendship and stops new requests. Trips you share stay as they are.
+--   4. Blocking ends the friendship, and nothing the person blocked sends reaches you. They are
+--      never told: a request they send just waits, unanswered. Trips you share stay as they are.
 --   5. Leaving the app hides your profile from friends at once and deletes everything after 30
 --      days unless you come back. "Delete now" skips the wait.
+--   6. No passwords. Signing in is by emailed code only; a password is never kept.
 
 -- ---------------------------------------------------------------------------------------------
 -- Settings only the server reads
@@ -137,6 +139,14 @@ language sql stable security definer set search_path = '' as $$
   );
 $$;
 
+-- Whether p_blocker has blocked p_blocked (one way only).
+create function private.has_blocked(p_blocker uuid, p_blocked uuid) returns boolean
+language sql stable security definer set search_path = '' as $$
+  select exists (
+    select 1 from public.blocks b where b.blocker_id = p_blocker and b.blocked_id = p_blocked
+  );
+$$;
+
 -- Whose profile the caller may open: their own; a friend's; someone asking to be their friend
 -- (so they can decide); and the people they share a trip with, as before. Asking someone to be
 -- your friend no longer lets you see their profile: that waits until they say yes.
@@ -152,7 +162,8 @@ language sql stable security definer set search_path = '' as $$
             and ((f.requester_id = (select auth.uid()) and f.addressee_id = p_other)
               or (f.addressee_id = (select auth.uid()) and f.requester_id = p_other))
           )
-          or (f.status = 'pending' and f.addressee_id = (select auth.uid()) and f.requester_id = p_other)
+          or (f.status = 'pending' and f.addressee_id = (select auth.uid()) and f.requester_id = p_other
+              and not private.has_blocked((select auth.uid()), p_other))
       )
     )
     or exists (
@@ -182,16 +193,33 @@ grant select (id, inviter_id, note, created_at, expires_at, used_by, used_at)
 create policy friend_invites_read_own on public.friend_invites for select to authenticated
   using (inviter_id = (select auth.uid()));
 
--- Friend requests: only to someone you already know through a trip, never across a block, and
--- not while you are leaving. Invite links are how everyone else connects.
+-- Friend requests: only to someone you already know through a trip, not to someone you blocked,
+-- and not while you are leaving. Invite links are how everyone else connects.
+--
+-- A block never shows. Someone who has been blocked can still send a request, and sees it
+-- waiting exactly as if it had not been answered yet; the person who blocked them never sees it
+-- and cannot accept it. Refusing the request would tell them they were blocked.
 drop policy friendships_ask on public.friendships;
 create policy friendships_ask on public.friendships for insert to authenticated
   with check (
     requester_id = (select auth.uid())
     and private.knows(addressee_id)
-    and not private.blocked_between(requester_id, addressee_id)
+    and not private.has_blocked(requester_id, addressee_id)
     and not private.is_leaving(requester_id)
   );
+drop policy friendships_read on public.friendships;
+create policy friendships_read on public.friendships for select to authenticated
+  using (
+    requester_id = (select auth.uid())
+    or (addressee_id = (select auth.uid()) and not private.has_blocked(addressee_id, requester_id))
+  );
+drop policy friendships_accept on public.friendships;
+create policy friendships_accept on public.friendships for update to authenticated
+  using (
+    addressee_id = (select auth.uid()) and status = 'pending'
+    and not private.has_blocked(addressee_id, requester_id)
+  )
+  with check (addressee_id = (select auth.uid()) and status = 'accepted');
 
 -- Blocks: yours to add, see and take back. You can block anyone whose profile you can see.
 grant select, delete on public.blocks to authenticated;
@@ -395,8 +423,9 @@ begin
     elsif v_invite.expires_at <= now() then
       v_outcome := 'expired';
     elsif private.blocked_between(v_invite.inviter_id, v_me) or private.is_leaving(v_invite.inviter_id) then
-      -- Said the same way as a code that does not exist, so a block is never revealed.
-      v_outcome := 'unknown';
+      -- Said the same way as a link its maker stopped, so a block is never revealed, even to
+      -- someone holding a real link.
+      v_outcome := 'expired';
     else
       v_outcome := 'ok';
     end if;
@@ -469,12 +498,32 @@ language sql stable security definer set search_path = '' as $$
     on p.id = case when f.requester_id = (select auth.uid()) then f.addressee_id else f.requester_id end
   where (select auth.uid()) in (f.requester_id, f.addressee_id)
     and not private.is_leaving(p.id)
+    and not (f.addressee_id = (select auth.uid()) and private.has_blocked((select auth.uid()), p.id))
   union all
   select p.id, p.display_name, null, null, null, 'blocked', b.created_at
   from public.blocks b
   join public.profiles p on p.id = b.blocked_id
   where b.blocker_id = (select auth.uid());
 $$;
+
+-- ---------------------------------------------------------------------------------------------
+-- No passwords
+-- ---------------------------------------------------------------------------------------------
+
+-- Signing in is by emailed code only. Supabase's email sign-in also takes passwords and has no
+-- switch to turn them off, so someone could sign up first with a password for an address that is
+-- not theirs, wait for its owner to confirm it with a code, then sign in as them with the
+-- password. So a password is never kept: whatever sets one, it is blanked here, and password
+-- sign-in can never succeed.
+create function private.no_passwords() returns trigger
+language plpgsql set search_path = '' as $$
+begin
+  new.encrypted_password := '';
+  return new;
+end;
+$$;
+create trigger no_passwords before insert or update of encrypted_password on auth.users
+  for each row execute function private.no_passwords();
 
 -- ---------------------------------------------------------------------------------------------
 -- Leaving
@@ -657,13 +706,15 @@ revoke execute on function
   private.housekeeping(),
   private.on_block(),
   private.guard_friend_requests(),
-  private.guard_reports()
+  private.guard_reports(),
+  private.no_passwords()
 from authenticated;
 -- Read-only helpers that the row rules and checks above call as the signed-in member.
 grant execute on function
   private.is_member(uuid),
   private.is_leaving(uuid),
   private.blocked_between(uuid, uuid),
+  private.has_blocked(uuid, uuid),
   private.plain_words(text[]),
   private.invite_hash(text)
 to authenticated;

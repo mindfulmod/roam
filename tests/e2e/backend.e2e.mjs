@@ -91,6 +91,28 @@ test('invite codes cannot be read back, and a used invite makes no second accoun
   assert.ok(!again.ok, 'a used invite cannot make another account');
 });
 
+test('nobody can claim an address with a password before its owner signs in', async () => {
+  // Someone holding an invite signs up first with a friend's address and a password of their
+  // choosing, hoping the friend confirms the address with their code and the password then works.
+  const made = await rpc('create_friend_invite', { p_note: 'for Lee' }, founder.access_token);
+  assert.equal(made.status, 200, made.text);
+  const email = 'lee@example.test';
+  const password = 'attacker-chosen-password';
+  const claimed = await auth('signup', { email, password, data: { invite: made.json } });
+  assert.ok(claimed.ok, `sign-up with an invite: ${claimed.status} ${claimed.text}`);
+  assert.equal(
+    sql(`select coalesce(encrypted_password, '') from auth.users where email = '${email}'`),
+    '',
+    'the password is not kept',
+  );
+  await sleep(1500);
+  const lee = await signIn(email, { invite: made.json });
+  assert.ok(lee.access_token, 'the owner of the address signs in with their code');
+  const tried = await auth('token?grant_type=password', { email, password });
+  assert.ok(!tried.ok, `the password does not sign in: ${tried.status}`);
+  assert.equal(tried.json?.access_token, undefined);
+});
+
 test('a session can be refreshed, and the profile edited through the API', async () => {
   const r = await auth('token?grant_type=refresh_token', { refresh_token: sam.refresh_token });
   assert.equal(r.status, 200, r.text);

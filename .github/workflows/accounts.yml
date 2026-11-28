@@ -34,7 +34,7 @@ jobs:
           cache: npm
       - uses: supabase/setup-cli@v3
         with:
-          version: ^2
+          version: 2.122.1
       - run: supabase --version
       - name: Start Supabase (this applies supabase/migrations)
         run: supabase start -x studio,imgproxy,edge-runtime,logflare,vector,realtime,supavisor,postgres-meta

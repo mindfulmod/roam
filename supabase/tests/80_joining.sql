@@ -156,5 +156,14 @@ select t.is((:'founded'::jsonb ->> 'member')::boolean, true, 'the founder joins 
 select t.is((:'founded'::jsonb ->> 'admin')::boolean, true, '...and is the admin');
 select t.sees($$select 1 from public.profiles where display_name = 'Ana'$$, 1, '...with the name they gave');
 
+-- No passwords. Sign-in is by code only, so a password given at sign-up, or set later, is never
+-- kept: nobody can claim an address first with a password and take it over once it is confirmed.
+select t.as_setup();
+insert into auth.users (id, email, encrypted_password)
+values (t.id('claimer'), 'claimed@example.test', '$2a$10$abcdefghijklmnopqrstuuMgEJYW1sCw3jf4Kc4vD3u5ODQ6SRbm');
+select t.is((select encrypted_password::text from auth.users where id = t.id('claimer')), '', 'a password given at sign-up is never kept');
+update auth.users set encrypted_password = '$2a$10$another' where id = t.id('claimer');
+select t.is((select encrypted_password::text from auth.users where id = t.id('claimer')), '', '...nor one set later');
+
 select t.finish();
 rollback;
