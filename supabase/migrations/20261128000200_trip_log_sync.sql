@@ -484,7 +484,7 @@ end;
 $$;
 
 -- What is waiting for you across your trips: invites to travel, people waiting for your yes to
--- join a trip, and suggestions about stops you logged.
+-- join a trip or to view it, and suggestions about stops you logged.
 create function public.trip_needs() returns jsonb
 language sql stable security invoker set search_path = '' as $$
   select jsonb_build_object(
