@@ -1,0 +1,565 @@
+{
+  "id": "port-vila",
+  "name": "Port Vila",
+  "country": "Vanuatu",
+  "region": "Oceania",
+  "lat": -17.7333,
+  "lon": 168.3273,
+  "wiki": "Port Vila",
+  "tagline": "Blue holes, lagoons and a live volcano",
+  "summary": "Port Vila is the easygoing capital of Vanuatu, on Efate island. Swim in the Blue Lagoon and Mele Cascades, see kastom villages, snorkel at Hideaway Island's underwater post office, eat at the Mamas' market, and fly to Tanna island to stand at the rim of Mount Yasur, one of the world's most accessible active volcanoes.",
+  "days": 4,
+  "bestMonths": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "seasonNote": "Dry season May to October; cyclone season November to April.",
+  "arrival": "Flights from Brisbane, Sydney, Auckland and Fiji.",
+  "gettingAround": "Minibuses (B on the plate) flagged anywhere; a rental for the island loop.",
+  "cashTip": "Vanuatu uses the vatu; prices here are shown in US dollars. Carry vatu for markets and buses; tipping isn't customary.",
+  "dailyBudget": [
+    80,
+    250
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    30,
+    100
+  ],
+  "foodTip": "Lap lap, fresh coconut crab and Santo beef.",
+  "buyTip": "Carvings, woven baskets and kava.",
+  "baseArea": "Port Vila waterfront",
+  "connections": [
+    {
+      "to": "fiji",
+      "mode": "Flight",
+      "minutes": 100,
+      "note": "Flights to Nadi."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Port Vila on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Port_Vila",
+      "type": "reference",
+      "checked": "2026-11-28"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Port%20Vila%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-28"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Port%20Vila%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Port Vila harbour",
+  "added": "2026-11-28",
+  "items": [
+    {
+      "id": "port-vila-pv-mele",
+      "name": "Mele Cascades",
+      "kind": "see",
+      "lat": -17.69,
+      "lon": 168.27,
+      "wiki": "Mele Cascades",
+      "summary": "Terraced turquoise waterfalls and pools to climb and swim in.",
+      "expect": "Paid entry.",
+      "tip": "Wear water shoes.",
+      "area": "Mele",
+      "duration": 2,
+      "price": [
+        20,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mele%20Cascades%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Mele%20Cascades%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mele%20Cascades%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Terraced turquoise waterfalls and pools to climb and swim in.",
+        "Waterfall swim."
+      ],
+      "visitFlow": [
+        "Climb.",
+        "Swim."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Paid entry.",
+        "Wear water shoes."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "port-vila-pv-blue",
+      "name": "Blue Lagoon",
+      "kind": "see",
+      "lat": -17.69,
+      "lon": 168.53,
+      "wiki": "Efate",
+      "summary": "Bright blue freshwater-saltwater lagoon with rope swings.",
+      "expect": "Small fee.",
+      "tip": "Do the island loop.",
+      "area": "East Efate",
+      "duration": 2,
+      "price": [
+        5,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Blue%20Lagoon%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Blue%20Lagoon%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Blue%20Lagoon%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Bright blue freshwater-saltwater lagoon with rope swings.",
+        "Island loop stop."
+      ],
+      "visitFlow": [
+        "Drive.",
+        "Swim."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Small fee.",
+        "Do the island loop."
+      ],
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21073,
+          "period": "202511-202610",
+          "title": "Efate",
+          "url": "https://en.wikipedia.org/wiki/Efate",
+          "checked": "2026-11-28"
+        }
+      }
+    },
+    {
+      "id": "port-vila-pv-hideaway",
+      "name": "Hideaway Island",
+      "kind": "see",
+      "lat": -17.68333,
+      "lon": 168.25,
+      "wiki": "Hideaway Island",
+      "summary": "Snorkelling marine reserve with an underwater post office.",
+      "expect": "Paid ferry and entry.",
+      "tip": "Post a waterproof card.",
+      "area": "Mele Bay",
+      "duration": 3,
+      "price": [
+        15,
+        25
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hideaway%20Island%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Hideaway%20Island%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hideaway%20Island%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Snorkelling marine reserve with an underwater post office.",
+        "Fun snorkel."
+      ],
+      "visitFlow": [
+        "Ferry.",
+        "Snorkel."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Paid ferry and entry.",
+        "Post a waterproof card."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 1816,
+          "period": "202511-202610",
+          "title": "Mele (island)",
+          "url": "https://en.wikipedia.org/wiki/Mele_(island)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3305011"
+    },
+    {
+      "id": "port-vila-pv-yasur",
+      "name": "Mount Yasur volcano (Tanna)",
+      "kind": "see",
+      "lat": -19.52833,
+      "lon": 169.44833,
+      "wiki": "Mount Yasur",
+      "summary": "Stand on the crater rim of an erupting volcano at dusk.",
+      "expect": "Fly to Tanna; overnight trip.",
+      "tip": "Go at dusk for the glow.",
+      "area": "Tanna",
+      "duration": 24,
+      "price": [
+        300,
+        600
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mount%20Yasur%20volcano%20(Tanna)%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Mount%20Yasur%20volcano%20(Tanna)%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mount%20Yasur%20volcano%20(Tanna)%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Stand on the crater rim of an erupting volcano at dusk.",
+        "Live volcano."
+      ],
+      "visitFlow": [
+        "Fly.",
+        "Crater rim."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Fly to Tanna; overnight trip.",
+        "Go at dusk for the glow."
+      ],
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21434,
+          "period": "202511-202610",
+          "title": "Mount Yasur",
+          "url": "https://en.wikipedia.org/wiki/Mount_Yasur",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q392766"
+    },
+    {
+      "id": "port-vila-pv-ekasup",
+      "name": "Ekasup cultural village",
+      "kind": "see",
+      "lat": -17.74,
+      "lon": 168.35,
+      "wiki": "Efate",
+      "summary": "Learn kastom traditions, cooking and survival skills.",
+      "expect": "Paid tour.",
+      "tip": "Book the morning tour.",
+      "area": "Port Vila",
+      "duration": 2.5,
+      "price": [
+        40,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ekasup%20cultural%20village%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Ekasup%20cultural%20village%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ekasup%20cultural%20village%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Learn kastom traditions, cooking and survival skills.",
+        "Kastom culture."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Village."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Paid tour.",
+        "Book the morning tour."
+      ],
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21073,
+          "period": "202511-202610",
+          "title": "Efate",
+          "url": "https://en.wikipedia.org/wiki/Efate",
+          "checked": "2026-11-28"
+        }
+      }
+    },
+    {
+      "id": "port-vila-pv-museum",
+      "name": "National Museum of Vanuatu",
+      "kind": "see",
+      "lat": -17.7452,
+      "lon": 168.3175,
+      "wiki": "Vanuatu Cultural Centre",
+      "summary": "Museum with sand drawing demonstrations and slit drums.",
+      "expect": "Small fee.",
+      "tip": "Ask for a sand drawing.",
+      "area": "Town",
+      "duration": 1,
+      "price": [
+        5,
+        10
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=National%20Museum%20of%20Vanuatu%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=National%20Museum%20of%20Vanuatu%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=National%20Museum%20of%20Vanuatu%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Art"
+      ],
+      "whyVisit": [
+        "Museum with sand drawing demonstrations and slit drums.",
+        "Island culture."
+      ],
+      "visitFlow": [
+        "Museum.",
+        "Demo."
+      ],
+      "bestFor": "Visitors interested in history and context and art and craft",
+      "tradeoffs": [
+        "Small fee.",
+        "Ask for a sand drawing."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 1271,
+          "period": "202511-202610",
+          "title": "Vanuatu Cultural Centre",
+          "url": "https://en.wikipedia.org/wiki/Vanuatu_Cultural_Centre",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1835725"
+    },
+    {
+      "id": "port-vila-pv-market",
+      "name": "Mamas' market",
+      "kind": "eat",
+      "lat": -17.738,
+      "lon": 168.313,
+      "wiki": "Port Vila",
+      "summary": "Market with home-cooked plates by local women.",
+      "expect": "Lunch daily.",
+      "tip": "Try lap lap.",
+      "area": "Waterfront",
+      "duration": 1,
+      "price": [
+        3,
+        8
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mamas'%20market%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Mamas'%20market%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mamas'%20market%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Market with home-cooked plates by local women.",
+        "Local food."
+      ],
+      "visitFlow": [
+        "Market.",
+        "Lunch."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Lunch daily.",
+        "Try lap lap."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Ni-Vanuatu",
+      "mustOrder": [
+        "Lap lap",
+        "Grilled fish"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "port-vila-pv-kava",
+      "name": "Kava bar",
+      "kind": "eat",
+      "lat": -17.735,
+      "lon": 168.32,
+      "wiki": "Kava",
+      "summary": "Earthy kava drunk in a nakamal at dusk.",
+      "expect": "Evening.",
+      "tip": "Start with a small shell.",
+      "area": "Town",
+      "duration": 1,
+      "price": [
+        1,
+        3
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Kava%20bar%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Kava%20bar%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Kava%20bar%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Earthy kava drunk in a nakamal at dusk.",
+        "Island ritual."
+      ],
+      "visitFlow": [
+        "Nakamal.",
+        "Kava."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Evening.",
+        "Start with a small shell."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Ni-Vanuatu",
+      "mustOrder": [
+        "Kava"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "port-vila-pv-beef",
+      "name": "Santo beef steak",
+      "kind": "eat",
+      "lat": -17.7323,
+      "lon": 168.3293,
+      "wiki": "Vanuatu",
+      "summary": "Grass-fed Santo beef, famous across the Pacific.",
+      "expect": "Easy to find.",
+      "tip": "Ask locals for their favourite.",
+      "area": "Waterfront",
+      "duration": 1,
+      "price": [
+        20,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Santo%20beef%20steak%2C%20Port%20Vila",
+        "https://www.google.com/maps/search/?api=1&query=Santo%20beef%20steak%2C%20Port%20Vila"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Santo%20beef%20steak%2C%20Port%20Vila"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Grass-fed Santo beef, famous across the Pacific.",
+        "Local flavour."
+      ],
+      "visitFlow": [
+        "Find a table.",
+        "Order."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Easy to find.",
+        "Ask locals for their favourite."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Ni-Vanuatu",
+      "mustOrder": [
+        "Santo beef steak"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q37806"
+}
