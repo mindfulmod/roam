@@ -1,0 +1,2648 @@
+[
+ {
+  "country": "United Kingdom",
+  "region": "Europe",
+  "currency": "GBP",
+  "cashTip": "Cards and tap-to-pay work almost everywhere. Tip about 10 percent in restaurants; not in pubs.",
+  "id": "cardiff",
+  "name": "Cardiff",
+  "at": [
+   51.4816,
+   -3.1791
+  ],
+  "wiki": "Cardiff",
+  "cover": "Cardiff Castle",
+  "dailyBudget": [
+   80,
+   180
+  ],
+  "cashPerDay": [
+   0,
+   20
+  ],
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Wales' capital of castles, rugby and the bay",
+  "summary": "Cardiff is the lively capital of Wales, with a Roman-Norman-Victorian castle right in the centre. Tour the lavish Gothic rooms of Cardiff Castle, catch a rugby match at the Principality Stadium, explore the redeveloped Cardiff Bay, see the fairy-tale Castell Coch, and walk the open-air St Fagans museum of Welsh life.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is mildest; rugby internationals in February and March fill the city.",
+  "arrival": "Trains from London Paddington take about 2 hours; Cardiff Airport is 40 minutes away.",
+  "gettingAround": "Walk the centre; buses and the water bus to the bay.",
+  "foodTip": "Welsh cakes, Welsh rarebit, cawl (lamb stew) and laverbread.",
+  "buyTip": "Welsh love spoons and Welsh wool blankets.",
+  "baseArea": "City centre",
+  "hotel": [
+   90,
+   200
+  ],
+  "connections": [
+   {
+    "to": "london",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Frequent trains from Paddington."
+   },
+   {
+    "to": "bath",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "Via Bristol."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cardiff Castle",
+    "kind": "see",
+    "id": "cdf-castle",
+    "at": [
+     51.4822,
+     -3.1812
+    ],
+    "wiki": "Cardiff Castle",
+    "area": "City centre",
+    "summary": "Roman walls, a Norman keep and Victorian Gothic rooms of dazzling colour.",
+    "expect": "Paid; house tour extra.",
+    "tip": "Take the house tour for the Arab Room.",
+    "why": "Three castles in one.",
+    "flow": [
+     "Norman keep.",
+     "House tour."
+    ],
+    "hours": 2.5,
+    "price": [
+     18,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "National Museum Cardiff",
+    "kind": "see",
+    "id": "cdf-museum",
+    "at": [
+     51.486,
+     -3.177
+    ],
+    "wiki": "National Museum Cardiff",
+    "area": "Cathays Park",
+    "summary": "Free museum with one of Britain's best Impressionist collections and natural history.",
+    "expect": "Free.",
+    "tip": "See the Davies sisters' Monets and Van Goghs.",
+    "why": "Free world-class art.",
+    "flow": [
+     "Impressionists.",
+     "Dinosaurs."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Cardiff Bay",
+    "kind": "see",
+    "id": "cdf-bay",
+    "at": [
+     51.4637,
+     -3.165
+    ],
+    "wiki": "Cardiff Bay",
+    "area": "Cardiff Bay",
+    "summary": "Waterfront with the Senedd, Wales Millennium Centre and the Norwegian Church.",
+    "expect": "Free.",
+    "tip": "Walk the barrage toward Penarth.",
+    "why": "Modern Cardiff.",
+    "flow": [
+     "Millennium Centre.",
+     "Barrage walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Principality Stadium",
+    "kind": "see",
+    "id": "cdf-stadium",
+    "at": [
+     51.4782,
+     -3.1826
+    ],
+    "wiki": "Millennium Stadium",
+    "area": "City centre",
+    "summary": "Wales' national rugby stadium with a retractable roof, in the city centre.",
+    "expect": "Tours paid; match tickets sell fast.",
+    "tip": "A match day is unforgettable.",
+    "why": "Rugby temple.",
+    "flow": [
+     "Tour or match.",
+     "Pub after."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Castell Coch",
+    "kind": "see",
+    "id": "cdf-coch",
+    "at": [
+     51.5356,
+     -3.2548
+    ],
+    "wiki": "Castell Coch",
+    "area": "Tongwynlais",
+    "summary": "Red fairy-tale castle in the woods with painted Victorian rooms.",
+    "expect": "Paid; 20 minutes away.",
+    "tip": "Walk in the beech woods around it.",
+    "why": "Storybook castle.",
+    "flow": [
+     "Castle rooms.",
+     "Woods."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "St Fagans National Museum of History",
+    "kind": "see",
+    "id": "cdf-stfagans",
+    "at": [
+     51.486,
+     -3.27
+    ],
+    "wiki": "St Fagans National Museum of History",
+    "area": "St Fagans",
+    "summary": "Open-air museum of rebuilt Welsh buildings across 2,000 years.",
+    "expect": "Free; parking paid.",
+    "tip": "Visit the bakery for fresh bread.",
+    "why": "Welsh life through time.",
+    "flow": [
+     "Old buildings.",
+     "Castle and gardens."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Victorian arcades",
+    "kind": "see",
+    "id": "cdf-arcades",
+    "at": [
+     51.4795,
+     -3.177
+    ],
+    "wiki": "Cardiff",
+    "area": "City centre",
+    "summary": "Covered arcades of independent shops and cafés.",
+    "expect": "Free.",
+    "tip": "Spillers Records is the world's oldest record shop.",
+    "why": "City of arcades.",
+    "flow": [
+     "Castle Arcade.",
+     "Spillers Records."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Shopping",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Welsh cakes",
+    "kind": "eat",
+    "id": "cdf-welshcakes",
+    "at": [
+     51.48,
+     -3.179
+    ],
+    "wiki": "Welsh cake",
+    "area": "Cardiff Market",
+    "summary": "Griddle cakes with currants, warm from the bakestone.",
+    "expect": "Cardiff Market stall.",
+    "tip": "Buy them warm at the market.",
+    "why": "Welsh classic.",
+    "flow": [
+     "Cardiff Market.",
+     "Warm Welsh cakes."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     4
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Welsh",
+    "order": [
+     "Welsh cakes"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Cawl and Welsh rarebit",
+    "kind": "eat",
+    "id": "cdf-cawl",
+    "at": [
+     51.481,
+     -3.178
+    ],
+    "wiki": "Cawl",
+    "area": "City centre",
+    "summary": "Lamb and leek broth, and cheese on toast made the Welsh way with ale and mustard.",
+    "expect": "Pubs and cafés.",
+    "tip": "Try both on a cold day.",
+    "why": "Welsh comfort food.",
+    "flow": [
+     "Pick a pub.",
+     "Cawl and rarebit."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Welsh",
+    "order": [
+     "Cawl",
+     "Welsh rarebit"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Brains pubs",
+    "kind": "eat",
+    "id": "cdf-pub",
+    "at": [
+     51.479,
+     -3.179
+    ],
+    "wiki": "Cardiff",
+    "area": "City centre",
+    "summary": "Pubs serving local ales before and after rugby.",
+    "expect": "Packed on match days.",
+    "tip": "Go to the Goat Major for pies.",
+    "why": "Pub culture.",
+    "flow": [
+     "Pick a pub.",
+     "Local ale."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "British",
+    "order": [
+     "Local ale",
+     "Pie"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Netherlands",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are used everywhere; some places are card only.",
+  "id": "utrecht",
+  "name": "Utrecht",
+  "at": [
+   52.0907,
+   5.1214
+  ],
+  "wiki": "Utrecht",
+  "cover": "Dom Tower of Utrecht",
+  "dailyBudget": [
+   90,
+   200
+  ],
+  "cashPerDay": [
+   0,
+   10
+  ],
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Two-level canals, the Dom Tower and bikes everywhere",
+  "summary": "Utrecht is a medieval university city with unusual two-level canals whose old wharf cellars are now cafés at water level. Climb the Dom Tower, the tallest church tower in the Netherlands, visit Miffy's museum and the Rietveld Schröder House, and paddle the canals in a canoe.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Spring and summer for terraces by the water.",
+  "arrival": "Trains from Amsterdam take about 25 minutes, from Schiphol 30.",
+  "gettingAround": "Walk or bike; Utrecht has the world's largest bike parking under the station.",
+  "foodTip": "Wharf-cellar cafés, stroopwafels and Dutch cheese.",
+  "buyTip": "Miffy goods and design items.",
+  "baseArea": "Binnenstad (old centre)",
+  "hotel": [
+   100,
+   220
+  ],
+  "connections": [
+   {
+    "to": "amsterdam",
+    "mode": "Train",
+    "minutes": 25,
+    "note": "Trains every few minutes."
+   },
+   {
+    "to": "rotterdam",
+    "mode": "Train",
+    "minutes": 35,
+    "note": "Frequent trains."
+   },
+   {
+    "to": "the-hague",
+    "mode": "Train",
+    "minutes": 40,
+    "note": "Frequent trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Dom Tower",
+    "kind": "see",
+    "id": "utr-dom",
+    "at": [
+     52.0907,
+     5.1214
+    ],
+    "wiki": "Dom Tower of Utrecht",
+    "area": "Domplein",
+    "summary": "Gothic tower of 465 steps, the tallest church tower in the Netherlands.",
+    "expect": "Guided tours only; book.",
+    "tip": "Book the first morning slot.",
+    "why": "Utrecht's symbol.",
+    "flow": [
+     "Tour up.",
+     "Bells and view."
+    ],
+    "hours": 1.5,
+    "price": [
+     13,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint",
+     "Architecture"
+    ],
+    "book": "Timed tours"
+   },
+   {
+    "name": "Oudegracht wharves",
+    "kind": "see",
+    "id": "utr-oudegracht",
+    "at": [
+     52.0905,
+     5.119
+    ],
+    "wiki": "Oudegracht",
+    "area": "Binnenstad",
+    "summary": "Two-level canal with wharf cellars turned into terraces at water level.",
+    "expect": "Busy terraces in summer.",
+    "tip": "Eat at a wharf terrace.",
+    "why": "Unique canals.",
+    "flow": [
+     "Walk the wharves.",
+     "Terrace drink."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Rietveld Schröder House",
+    "kind": "see",
+    "id": "utr-rietveld",
+    "at": [
+     52.0852,
+     5.1477
+    ],
+    "wiki": "Rietveld Schröder House",
+    "area": "Prins Hendriklaan",
+    "summary": "UNESCO De Stijl house of sliding walls and primary colours.",
+    "expect": "Timed tours; book.",
+    "tip": "Combine with the Centraal Museum ticket.",
+    "why": "Modernist icon.",
+    "flow": [
+     "Tour.",
+     "Sliding walls."
+    ],
+    "hours": 1,
+    "price": [
+     18,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Art"
+    ],
+    "book": "Timed tours"
+   },
+   {
+    "name": "Miffy Museum",
+    "kind": "see",
+    "id": "utr-miffy",
+    "at": [
+     52.084,
+     5.122
+    ],
+    "wiki": "Nijntje museum",
+    "area": "Museumkwartier",
+    "summary": "Museum for small children about Dick Bruna's Miffy.",
+    "expect": "Best for under 6s.",
+    "tip": "The Centraal Museum opposite has Bruna's studio.",
+    "why": "Utrecht's famous bunny.",
+    "flow": [
+     "Miffy rooms.",
+     "Centraal Museum."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Entertainment",
+     "Art"
+    ]
+   },
+   {
+    "name": "Museum Speelklok",
+    "kind": "see",
+    "id": "utr-speelklok",
+    "at": [
+     52.093,
+     5.118
+    ],
+    "wiki": "Museum Speelklok",
+    "area": "Binnenstad",
+    "summary": "Museum of music boxes and street organs, demonstrated on guided tours.",
+    "expect": "Paid.",
+    "tip": "Join a tour so the organs play.",
+    "why": "Joyful music machines.",
+    "flow": [
+     "Organs.",
+     "Tour."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     16
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Technology",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Canal canoe or boat",
+    "kind": "see",
+    "id": "utr-canoe",
+    "at": [
+     52.087,
+     5.12
+    ],
+    "wiki": "Oudegracht",
+    "area": "Binnenstad",
+    "summary": "Paddle or cruise the Oudegracht under the low bridges.",
+    "expect": "Rentals near Ganzenmarkt.",
+    "tip": "Go early evening.",
+    "why": "Canals from the water.",
+    "flow": [
+     "Rent a canoe.",
+     "Paddle the canal."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Wharf-cellar cafés",
+    "kind": "eat",
+    "id": "utr-wharf",
+    "at": [
+     52.09,
+     5.1195
+    ],
+    "wiki": "Oudegracht",
+    "area": "Oudegracht",
+    "summary": "Cafés and restaurants in the old canal cellars.",
+    "expect": "Popular in summer.",
+    "tip": "Book dinner by the water.",
+    "why": "Eat at water level.",
+    "flow": [
+     "Pick a wharf café.",
+     "Dinner by the canal."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     35
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dutch",
+    "order": [
+     "Bitterballen",
+     "Local beer"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Stroopwafels at the market",
+    "kind": "eat",
+    "id": "utr-stroopwafel",
+    "at": [
+     52.092,
+     5.116
+    ],
+    "wiki": "Stroopwafel",
+    "area": "Vredenburg",
+    "summary": "Fresh syrup waffles pressed at the Vredenburg market stalls.",
+    "expect": "Market days.",
+    "tip": "Buy one warm.",
+    "why": "Dutch sweet.",
+    "flow": [
+     "Market.",
+     "Warm stroopwafel."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     4
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dutch",
+    "order": [
+     "Stroopwafel"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Brewery café Ledig Erf",
+    "kind": "eat",
+    "id": "utr-ledigerf",
+    "at": [
+     52.083,
+     5.124
+    ],
+    "wiki": "Utrecht",
+    "area": "Tolsteeg",
+    "summary": "Classic Dutch beer café on a canal corner with a huge Belgian beer list.",
+    "expect": "Busy weekend nights.",
+    "tip": "Sit on the terrace by the water.",
+    "why": "Beer culture.",
+    "flow": [
+     "Terrace.",
+     "Belgian beers."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Belgian beer"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "France",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; service is included in prices.",
+  "id": "loire-valley",
+  "name": "Loire Valley",
+  "at": [
+   47.4133,
+   0.9822
+  ],
+  "wiki": "Loire Valley",
+  "cover": "Château de Chambord",
+  "dailyBudget": [
+   90,
+   200
+  ],
+  "cashPerDay": [
+   0,
+   20
+  ],
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "Renaissance châteaux and the garden of France",
+  "summary": "The Loire Valley is France's château country, a gentle river valley of Renaissance palaces, vineyards and gardens. See Chambord's double-helix staircase, Chenonceau spanning the Cher river, Leonardo da Vinci's last home at Clos Lucé in Amboise, and the gardens of Villandry, then taste Vouvray and Chinon wines and cycle the Loire à Vélo route.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "May to September; many châteaux hold light shows on summer evenings.",
+  "arrival": "TGV trains from Paris to Tours or Saint-Pierre-des-Corps take about 1 hour.",
+  "gettingAround": "A car is easiest; château shuttle buses and bike rental work in summer.",
+  "foodTip": "Rillettes de Tours, goat cheeses like Sainte-Maure, tarte Tatin and Vouvray and Chinon wines.",
+  "buyTip": "Loire wines and goat cheese.",
+  "baseArea": "Amboise or Tours",
+  "hotel": [
+   90,
+   250
+  ],
+  "connections": [
+   {
+    "to": "paris",
+    "mode": "Train",
+    "minutes": 60,
+    "note": "TGV to Tours."
+   },
+   {
+    "to": "bordeaux",
+    "mode": "Train",
+    "minutes": 100,
+    "note": "TGV from Tours."
+   }
+  ],
+  "items": [
+   {
+    "name": "Château de Chambord",
+    "kind": "see",
+    "id": "loi-chambord",
+    "at": [
+     47.6161,
+     1.517
+    ],
+    "wiki": "Château de Chambord",
+    "area": "Chambord",
+    "summary": "The biggest Loire château, with a double-helix staircase and 400 rooms.",
+    "expect": "Paid; huge.",
+    "tip": "Climb to the roof terraces of chimneys.",
+    "why": "Renaissance masterpiece.",
+    "flow": [
+     "Staircase.",
+     "Roof terraces."
+    ],
+    "hours": 3,
+    "price": [
+     16,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Château de Chenonceau",
+    "kind": "see",
+    "id": "loi-chenonceau",
+    "at": [
+     47.3249,
+     1.0703
+    ],
+    "wiki": "Château de Chenonceau",
+    "area": "Chenonceaux",
+    "summary": "\"Ladies' château\" built in arches across the Cher river.",
+    "expect": "Paid; busy.",
+    "tip": "Go at opening; walk around to see the arches.",
+    "why": "Most romantic château.",
+    "flow": [
+     "Gallery over the river.",
+     "Gardens."
+    ],
+    "hours": 2.5,
+    "price": [
+     17,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Château d'Amboise",
+    "kind": "see",
+    "id": "loi-amboise",
+    "at": [
+     47.413,
+     0.986
+    ],
+    "wiki": "Château d'Amboise",
+    "area": "Amboise",
+    "summary": "Royal château above the river with Leonardo da Vinci's tomb in its chapel.",
+    "expect": "Paid.",
+    "tip": "Views from the terraces over the Loire.",
+    "why": "Royal history.",
+    "flow": [
+     "Chapel.",
+     "Terraces."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     17
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Clos Lucé",
+    "kind": "see",
+    "id": "loi-closluce",
+    "at": [
+     47.41,
+     0.992
+    ],
+    "wiki": "Clos Lucé",
+    "area": "Amboise",
+    "summary": "Manor where Leonardo da Vinci spent his last years, with models of his inventions in the park.",
+    "expect": "Paid.",
+    "tip": "Allow time for the park.",
+    "why": "Leonardo's home.",
+    "flow": [
+     "House.",
+     "Invention park."
+    ],
+    "hours": 2,
+    "price": [
+     18,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Technology",
+     "Art"
+    ]
+   },
+   {
+    "name": "Villandry gardens",
+    "kind": "see",
+    "id": "loi-villandry",
+    "at": [
+     47.3404,
+     0.5144
+    ],
+    "wiki": "Château de Villandry",
+    "area": "Villandry",
+    "summary": "Formal Renaissance gardens including a vast ornamental vegetable garden.",
+    "expect": "Paid.",
+    "tip": "See them from the belvedere.",
+    "why": "Garden art.",
+    "flow": [
+     "Belvedere.",
+     "Kitchen garden."
+    ],
+    "hours": 2,
+    "price": [
+     12,
+     13
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Art"
+    ]
+   },
+   {
+    "name": "Château d'Azay-le-Rideau",
+    "kind": "see",
+    "id": "loi-azay",
+    "at": [
+     47.259,
+     0.466
+    ],
+    "wiki": "Château d'Azay-le-Rideau",
+    "area": "Azay-le-Rideau",
+    "summary": "Small château rising from a mirror-still moat.",
+    "expect": "Paid.",
+    "tip": "Walk around the moat.",
+    "why": "Fairy-tale reflection.",
+    "flow": [
+     "Moat walk.",
+     "Rooms."
+    ],
+    "hours": 1.5,
+    "price": [
+     11,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Loire à Vélo",
+    "kind": "see",
+    "id": "loi-velo",
+    "at": [
+     47.41,
+     0.985
+    ],
+    "wiki": "Loire à Vélo",
+    "area": "Amboise to Tours",
+    "summary": "Flat bike route along the river between châteaux and wine villages.",
+    "expect": "Rent bikes in Amboise or Tours.",
+    "tip": "Cycle to Vouvray for wine.",
+    "why": "Gentle cycling.",
+    "flow": [
+     "Rent bikes.",
+     "Ride the river."
+    ],
+    "hours": 4,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Rillettes and goat cheese",
+    "kind": "eat",
+    "id": "loi-rillettes",
+    "at": [
+     47.394,
+     0.689
+    ],
+    "wiki": "Rillettes",
+    "area": "Tours",
+    "summary": "Rillettes of Tours on bread and Sainte-Maure goat cheese.",
+    "expect": "At markets and bistros.",
+    "tip": "Tours' Les Halles market.",
+    "why": "Loire flavours.",
+    "flow": [
+     "Les Halles.",
+     "Picnic."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "French",
+    "order": [
+     "Rillettes",
+     "Sainte-Maure"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Vouvray wine cellars",
+    "kind": "eat",
+    "id": "loi-vouvray",
+    "at": [
+     47.411,
+     0.799
+    ],
+    "wiki": "Vouvray AOC",
+    "area": "Vouvray",
+    "summary": "Caves cut into the tuffeau cliffs pouring Chenin Blanc.",
+    "expect": "Some free tastings.",
+    "tip": "Try the sparkling Vouvray.",
+    "why": "Cave wine.",
+    "flow": [
+     "Visit a cave.",
+     "Taste Chenin."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Vouvray"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Tarte Tatin",
+    "kind": "eat",
+    "id": "loi-tatin",
+    "at": [
+     47.413,
+     0.984
+    ],
+    "wiki": "Tarte Tatin",
+    "area": "Amboise",
+    "summary": "The upside-down caramel apple tart, born in the Loire.",
+    "expect": "Dessert menus.",
+    "tip": "Have it warm with crème fraîche.",
+    "why": "Born here.",
+    "flow": [
+     "Order for dessert.",
+     "With crème fraîche."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     9
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "French",
+    "order": [
+     "Tarte Tatin"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Carry some cash; many small places still prefer it.",
+  "id": "fussen",
+  "name": "Füssen",
+  "at": [
+   47.5696,
+   10.7004
+  ],
+  "wiki": "Füssen",
+  "cover": "Neuschwanstein Castle",
+  "dailyBudget": [
+   80,
+   180
+  ],
+  "cashPerDay": [
+   20,
+   40
+  ],
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "Neuschwanstein and the castles of King Ludwig",
+  "summary": "Füssen is the Bavarian town at the end of the Romantic Road, beneath King Ludwig II's fairy-tale Neuschwanstein Castle. Tour Neuschwanstein and the yellow Hohenschwangau, see the castle from Mary's Bridge, swim in the Alpsee, and visit Ludwig's Linderhof palace and the painted village of Oberammergau.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10,
+   12
+  ],
+  "seasonNote": "Summer is busy; autumn colours and snowy winters are lovely. Mary's Bridge closes in ice.",
+  "arrival": "Trains from Munich take about 2 hours; buses run from Füssen station to the castles.",
+  "gettingAround": "Bus 73 or 78 to Hohenschwangau; walk or horse carriage up to Neuschwanstein.",
+  "foodTip": "Käsespätzle, roast pork, pretzels and Bavarian beer.",
+  "buyTip": "Füssen lutes and violins history, and Bavarian crafts.",
+  "baseArea": "Füssen old town or Hohenschwangau",
+  "hotel": [
+   90,
+   220
+  ],
+  "connections": [
+   {
+    "to": "munich",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Direct regional trains."
+   },
+   {
+    "to": "innsbruck",
+    "mode": "Car",
+    "minutes": 90,
+    "note": "Via Reutte."
+   }
+  ],
+  "items": [
+   {
+    "name": "Neuschwanstein Castle",
+    "kind": "see",
+    "id": "fus-neuschwanstein",
+    "at": [
+     47.5576,
+     10.7498
+    ],
+    "wiki": "Neuschwanstein Castle",
+    "area": "Hohenschwangau",
+    "summary": "King Ludwig II's fantasy castle on a crag, the inspiration for Disney's castle.",
+    "expect": "Timed tours; tickets sell out in summer.",
+    "tip": "Book online days ahead.",
+    "why": "Germany's most famous castle.",
+    "flow": [
+     "Walk up.",
+     "Interior tour."
+    ],
+    "hours": 3,
+    "price": [
+     18,
+     21
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "book": "Book timed tickets"
+   },
+   {
+    "name": "Mary's Bridge (Marienbrücke)",
+    "kind": "see",
+    "id": "fus-marienbrucke",
+    "at": [
+     47.5555,
+     10.75
+    ],
+    "wiki": "Marienbrücke",
+    "area": "Hohenschwangau",
+    "summary": "Footbridge over a gorge with the classic view of Neuschwanstein.",
+    "expect": "Crowded; closed in snow and ice.",
+    "tip": "Go early or late.",
+    "why": "The view.",
+    "flow": [
+     "Walk up.",
+     "Photo."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Hohenschwangau Castle",
+    "kind": "see",
+    "id": "fus-hohenschwangau",
+    "at": [
+     47.5553,
+     10.7369
+    ],
+    "wiki": "Hohenschwangau Castle",
+    "area": "Hohenschwangau",
+    "summary": "Yellow castle where Ludwig grew up, facing Neuschwanstein.",
+    "expect": "Timed tours.",
+    "tip": "Combine both castles in one ticket.",
+    "why": "Ludwig's childhood.",
+    "flow": [
+     "Tour.",
+     "Alpsee view."
+    ],
+    "hours": 1.5,
+    "price": [
+     21,
+     23
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Alpsee",
+    "kind": "see",
+    "id": "fus-alpsee",
+    "at": [
+     47.553,
+     10.729
+    ],
+    "wiki": "Alpsee (Schwangau)",
+    "area": "Hohenschwangau",
+    "summary": "Clear mountain lake below the castles with a lakeside path.",
+    "expect": "Cold water.",
+    "tip": "Walk the loop or rent a rowing boat.",
+    "why": "Lake and castle.",
+    "flow": [
+     "Lake loop.",
+     "Rowing boat."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Füssen old town",
+    "kind": "see",
+    "id": "fus-oldtown",
+    "at": [
+     47.5696,
+     10.7004
+    ],
+    "wiki": "Füssen",
+    "area": "Old town",
+    "summary": "Painted lanes, the High Palace with trompe-l'oeil walls and St. Mang's monastery.",
+    "expect": "Free; museums paid.",
+    "tip": "See the Lech falls nearby.",
+    "why": "Bavarian town.",
+    "flow": [
+     "High Palace.",
+     "Lech falls."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     8
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Linderhof Palace",
+    "kind": "see",
+    "id": "fus-linderhof",
+    "at": [
+     47.5713,
+     11.0391
+    ],
+    "wiki": "Linderhof Palace",
+    "area": "Ettal",
+    "summary": "The smallest of Ludwig's palaces, with a grotto and formal gardens.",
+    "expect": "Paid; 1 hour by car.",
+    "tip": "The Venus Grotto is magical.",
+    "why": "Ludwig's favourite.",
+    "flow": [
+     "Palace.",
+     "Grotto."
+    ],
+    "hours": 3,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Oberammergau",
+    "kind": "see",
+    "id": "fus-oberammergau",
+    "at": [
+     47.598,
+     11.067
+    ],
+    "wiki": "Oberammergau",
+    "area": "Oberammergau",
+    "summary": "Village of painted houses, home of the Passion Play.",
+    "expect": "Near Linderhof.",
+    "tip": "Look for the fairy-tale facades.",
+    "why": "Painted village.",
+    "flow": [
+     "Painted houses.",
+     "Woodcarvers."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Tegelberg cable car",
+    "kind": "see",
+    "id": "fus-tegelberg",
+    "at": [
+     47.564,
+     10.779
+    ],
+    "wiki": "Tegelberg",
+    "area": "Schwangau",
+    "summary": "Cable car to a mountain with views over castles and lakes.",
+    "expect": "Paid.",
+    "tip": "Walk down the summer luge after.",
+    "why": "Alpine view.",
+    "flow": [
+     "Cable car.",
+     "Summit view."
+    ],
+    "hours": 2,
+    "price": [
+     25,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Käsespätzle",
+    "kind": "eat",
+    "id": "fus-spaetzle",
+    "at": [
+     47.569,
+     10.701
+    ],
+    "wiki": "Spätzle",
+    "area": "Old town",
+    "summary": "Egg noodles with melted cheese and crispy onions.",
+    "expect": "Hearty.",
+    "tip": "Pair with a local beer.",
+    "why": "Allgäu classic.",
+    "flow": [
+     "Pick a Gasthaus.",
+     "Order Käsespätzle."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bavarian",
+    "order": [
+     "Käsespätzle"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Bavarian Gasthaus",
+    "kind": "eat",
+    "id": "fus-gasthaus",
+    "at": [
+     47.5695,
+     10.7
+    ],
+    "wiki": "Bavarian cuisine",
+    "area": "Old town",
+    "summary": "Roast pork, dumplings and pretzels in a wood-panelled inn.",
+    "expect": "Busy in summer.",
+    "tip": "Order Schweinebraten.",
+    "why": "Bavarian dinner.",
+    "flow": [
+     "Choose an inn.",
+     "Schweinebraten."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bavarian",
+    "order": [
+     "Schweinebraten",
+     "Pretzel"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Beer garden by the Lech",
+    "kind": "eat",
+    "id": "fus-beer",
+    "at": [
+     47.567,
+     10.698
+    ],
+    "wiki": "Beer garden",
+    "area": "Füssen",
+    "summary": "Outdoor beer gardens with mountain views.",
+    "expect": "Summer.",
+    "tip": "Order a Mass of Helles.",
+    "why": "Bavarian summer.",
+    "flow": [
+     "Beer garden.",
+     "Helles."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bavarian",
+    "order": [
+     "Helles"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "France",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; service is included in prices.",
+  "id": "bayeux",
+  "name": "Normandy (Bayeux)",
+  "at": [
+   49.2764,
+   -0.7024
+  ],
+  "wiki": "Bayeux",
+  "cover": "Bayeux Cathedral",
+  "dailyBudget": [
+   80,
+   180
+  ],
+  "cashPerDay": [
+   0,
+   20
+  ],
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "The Bayeux Tapestry and the D-Day beaches",
+  "summary": "Bayeux is the best base for Normandy: a medieval town that survived the war almost untouched, home to the 70 m Bayeux Tapestry of 1066. From here visit the D-Day landing beaches of Omaha and Juno, the cliffs of Pointe du Hoc, the American Cemetery, Arromanches' Mulberry harbour, and the painters' harbours of Honfleur and the cliffs of Étretat.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "June brings D-Day anniversary events (6 June); spring and September are calmer.",
+  "arrival": "Trains from Paris Saint-Lazare take about 2h20.",
+  "gettingAround": "A car or a guided D-Day tour; the beaches are spread out.",
+  "foodTip": "Camembert and Pont-l'Évêque cheese, moules à la crème, cider, Calvados and teurgoule rice pudding.",
+  "buyTip": "Cider, Calvados and Isigny butter.",
+  "baseArea": "Bayeux old town",
+  "hotel": [
+   80,
+   200
+  ],
+  "connections": [
+   {
+    "to": "paris",
+    "mode": "Train",
+    "minutes": 140,
+    "note": "From Saint-Lazare."
+   },
+   {
+    "to": "mont-saint-michel",
+    "mode": "Car",
+    "minutes": 90,
+    "note": "A84."
+   }
+  ],
+  "items": [
+   {
+    "name": "Bayeux Tapestry",
+    "kind": "see",
+    "id": "bay-tapestry",
+    "at": [
+     49.2742,
+     -0.7006
+    ],
+    "wiki": "Bayeux Tapestry",
+    "area": "Bayeux",
+    "summary": "The 11th-century embroidered story of the Norman conquest of England.",
+    "expect": "The tapestry is on loan to the British Museum in London until mid-2027 while the Bayeux museum is rebuilt; check before you go.",
+    "tip": "The audio guide walks you scene by scene.",
+    "why": "A unique masterpiece.",
+    "flow": [
+     "Tapestry.",
+     "Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Bayeux Cathedral",
+    "kind": "see",
+    "id": "bay-cathedral",
+    "at": [
+     49.2786,
+     -0.703
+    ],
+    "wiki": "Bayeux Cathedral",
+    "area": "Bayeux",
+    "summary": "Norman Gothic cathedral where the tapestry was first displayed.",
+    "expect": "Free.",
+    "tip": "See the Romanesque crypt.",
+    "why": "Medieval Bayeux.",
+    "flow": [
+     "Nave.",
+     "Crypt."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Omaha Beach and American Cemetery",
+    "kind": "see",
+    "id": "bay-omaha",
+    "at": [
+     49.3597,
+     -0.855
+    ],
+    "wiki": "Normandy American Cemetery and Memorial",
+    "area": "Colleville-sur-Mer",
+    "summary": "Clifftop cemetery of 9,387 graves above the D-Day beach.",
+    "expect": "Free.",
+    "tip": "Visit the centre first, then walk down to the beach.",
+    "why": "Deeply moving.",
+    "flow": [
+     "Visitor centre.",
+     "Beach."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Pointe du Hoc",
+    "kind": "see",
+    "id": "bay-hoc",
+    "at": [
+     49.3962,
+     -0.989
+    ],
+    "wiki": "Pointe du Hoc",
+    "area": "Cricqueville-en-Bessin",
+    "summary": "Clifftop battlefield still cratered by bombs, scaled by US Rangers.",
+    "expect": "Free.",
+    "tip": "Walk among the craters and bunkers.",
+    "why": "Raw battlefield.",
+    "flow": [
+     "Craters.",
+     "Bunkers."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Arromanches and the Mulberry harbour",
+    "kind": "see",
+    "id": "bay-arromanches",
+    "at": [
+     49.339,
+     -0.621
+    ],
+    "wiki": "Arromanches-les-Bains",
+    "area": "Gold Beach",
+    "summary": "Remains of the floating harbour built for D-Day, seen from the cliffs.",
+    "expect": "360° cinema paid.",
+    "tip": "View from the cliff top.",
+    "why": "D-Day engineering.",
+    "flow": [
+     "Cliff view.",
+     "Museum."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Technology"
+    ]
+   },
+   {
+    "name": "Juno Beach Centre",
+    "kind": "see",
+    "id": "bay-juno",
+    "at": [
+     49.337,
+     -0.46
+    ],
+    "wiki": "Juno Beach Centre",
+    "area": "Courseulles-sur-Mer",
+    "summary": "Canada's D-Day museum at the beach where Canadians landed.",
+    "expect": "Paid.",
+    "tip": "Join the guided bunker tour.",
+    "why": "The Canadian story.",
+    "flow": [
+     "Museum.",
+     "Bunker tour."
+    ],
+    "hours": 2,
+    "price": [
+     14,
+     16
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Honfleur",
+    "kind": "see",
+    "id": "bay-honfleur",
+    "at": [
+     49.419,
+     0.233
+    ],
+    "wiki": "Honfleur",
+    "area": "Honfleur",
+    "summary": "Painters' harbour of tall slate-fronted houses and a wooden church.",
+    "expect": "1 hour away.",
+    "tip": "Eat moules by the Vieux Bassin.",
+    "why": "Impressionist port.",
+    "flow": [
+     "Vieux Bassin.",
+     "Sainte-Catherine church."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Étretat cliffs",
+    "kind": "see",
+    "id": "bay-etretat",
+    "at": [
+     49.707,
+     0.204
+    ],
+    "wiki": "Étretat",
+    "area": "Étretat",
+    "summary": "Chalk arches and a needle rising from the sea, painted by Monet.",
+    "expect": "1h30 away; steep paths.",
+    "tip": "Walk both clifftops.",
+    "why": "Natural wonder.",
+    "flow": [
+     "Falaise d'Aval.",
+     "Falaise d'Amont."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Moules à la crème",
+    "kind": "eat",
+    "id": "bay-moules",
+    "at": [
+     49.276,
+     -0.702
+    ],
+    "wiki": "Moules marinières",
+    "area": "Bayeux",
+    "summary": "Mussels in Normandy cream and cider.",
+    "expect": "With fries.",
+    "tip": "Order with a cider.",
+    "why": "Normandy on a plate.",
+    "flow": [
+     "Bistro.",
+     "Moules and cider."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     22
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norman",
+    "order": [
+     "Moules à la normande"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Cheese, cider and Calvados",
+    "kind": "eat",
+    "id": "bay-cheese",
+    "at": [
+     49.277,
+     -0.703
+    ],
+    "wiki": "Camembert cheese",
+    "area": "Bayeux",
+    "summary": "Camembert, Livarot and Pont-l'Évêque with farm cider and apple brandy.",
+    "expect": "Markets Wednesday and Saturday.",
+    "tip": "Visit a cider farm on the Route du Cidre.",
+    "why": "Normandy terroir.",
+    "flow": [
+     "Market.",
+     "Cider tasting."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norman",
+    "order": [
+     "Camembert",
+     "Calvados"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Teurgoule",
+    "kind": "eat",
+    "id": "bay-teurgoule",
+    "at": [
+     49.2765,
+     -0.7025
+    ],
+    "wiki": "Teurgoule",
+    "area": "Bayeux",
+    "summary": "Cinnamon rice pudding baked for hours.",
+    "expect": "Dessert.",
+    "tip": "Pair with a glass of pommeau.",
+    "why": "Local dessert.",
+    "flow": [
+     "Order dessert.",
+     "Pommeau."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Dinner",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Norman",
+    "order": [
+     "Teurgoule"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Albania",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "The local money is the lek (about 100 to the euro); carry cash, as many small places do not take cards. Prices here are shown in euros.",
+  "id": "tirana",
+  "name": "Tirana",
+  "at": [
+   41.3275,
+   19.8187
+  ],
+  "wiki": "Tirana",
+  "cover": "Skanderbeg Square",
+  "dailyBudget": [
+   35,
+   80
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Colourful capital of bunkers, cafés and mountains",
+  "summary": "Tirana is Albania's colourful, fast-changing capital. Walk the huge Skanderbeg Square, go underground in the Bunk'Art bunker museums about the communist era, sip coffee in the trendy Blloku, once closed to all but party leaders, and ride the Dajti cable car up the mountain above the city.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are pleasant; July and August are hot.",
+  "arrival": "Tirana International Airport is 25 minutes from the centre.",
+  "gettingAround": "Walk the centre; taxis are cheap; buses to other towns leave from the North-South terminal.",
+  "foodTip": "Tavë kosi (baked lamb in yogurt), byrek, fërgesë and raki.",
+  "buyTip": "Raki, olive oil and handmade filigree.",
+  "baseArea": "Blloku or near Skanderbeg Square",
+  "hotel": [
+   40,
+   120
+  ],
+  "connections": [
+   {
+    "to": "kotor",
+    "mode": "Bus",
+    "minutes": 300,
+    "note": "Daily buses via Shkodër."
+   }
+  ],
+  "items": [
+   {
+    "name": "Skanderbeg Square",
+    "kind": "see",
+    "id": "tir-square",
+    "at": [
+     41.3275,
+     19.8187
+    ],
+    "wiki": "Skanderbeg Square",
+    "area": "Centre",
+    "summary": "Vast paved square with the national hero's statue, the Et'hem Bey Mosque and the National History Museum.",
+    "expect": "Free.",
+    "tip": "Step into the frescoed mosque.",
+    "why": "Heart of Tirana.",
+    "flow": [
+     "Square.",
+     "Et'hem Bey Mosque."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Bunk'Art 2",
+    "kind": "see",
+    "id": "tir-bunkart2",
+    "at": [
+     41.327,
+     19.823
+    ],
+    "wiki": "Bunk'Art",
+    "area": "Centre",
+    "summary": "Interior Ministry nuclear bunker turned museum of the communist secret police.",
+    "expect": "Paid.",
+    "tip": "Allow time to read; it's sobering.",
+    "why": "Communist history.",
+    "flow": [
+     "Tunnels.",
+     "Exhibits."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Bunk'Art 1",
+    "kind": "see",
+    "id": "tir-bunkart1",
+    "at": [
+     41.353,
+     19.86
+    ],
+    "wiki": "Bunk'Art",
+    "area": "Dajti foothills",
+    "summary": "Enver Hoxha's giant five-floor bunker, now a museum and gallery.",
+    "expect": "Paid; outside the centre.",
+    "tip": "Combine with the Dajti cable car.",
+    "why": "Scale of paranoia.",
+    "flow": [
+     "Bunker floors.",
+     "Assembly hall."
+    ],
+    "hours": 2,
+    "price": [
+     8,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Dajti Express cable car",
+    "kind": "see",
+    "id": "tir-dajti",
+    "at": [
+     41.35,
+     19.865
+    ],
+    "wiki": "Dajti",
+    "area": "Dajti",
+    "summary": "Long cable car to Mount Dajti with views over the city.",
+    "expect": "Paid; closes in high winds.",
+    "tip": "Sunset at the top.",
+    "why": "City from above.",
+    "flow": [
+     "Ride up.",
+     "Summit view."
+    ],
+    "hours": 2.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Blloku",
+    "kind": "see",
+    "id": "tir-blloku",
+    "at": [
+     41.32,
+     19.815
+    ],
+    "wiki": "Blloku",
+    "area": "Blloku",
+    "summary": "Former party-elite district, now full of bars, cafés and nightlife.",
+    "expect": "Busy weekends.",
+    "tip": "Peek at Hoxha's villa.",
+    "why": "Tirana nightlife.",
+    "flow": [
+     "Cafés.",
+     "Bars."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment",
+     "History"
+    ]
+   },
+   {
+    "name": "Pyramid of Tirana",
+    "kind": "see",
+    "id": "tir-pyramid",
+    "at": [
+     41.3225,
+     19.821
+    ],
+    "wiki": "Pyramid of Tirana",
+    "area": "Centre",
+    "summary": "Communist-era pyramid rebuilt as a tech hub you can climb.",
+    "expect": "Free.",
+    "tip": "Climb the steps to the top.",
+    "why": "Remade landmark.",
+    "flow": [
+     "Climb.",
+     "Tech hub."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Technology"
+    ]
+   },
+   {
+    "name": "House of Leaves",
+    "kind": "see",
+    "id": "tir-leaves",
+    "at": [
+     41.329,
+     19.82
+    ],
+    "wiki": "House of Leaves",
+    "area": "Centre",
+    "summary": "Museum of secret surveillance in the former secret-police building.",
+    "expect": "Paid.",
+    "tip": "Pair with Bunk'Art 2.",
+    "why": "Surveillance state.",
+    "flow": [
+     "Exhibits.",
+     "Listening rooms."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Tavë kosi",
+    "kind": "eat",
+    "id": "tir-tave",
+    "at": [
+     41.322,
+     19.816
+    ],
+    "wiki": "Tavë kosi",
+    "area": "Centre",
+    "summary": "Lamb baked under an eggy yogurt crust, Albania's national dish.",
+    "expect": "Traditional restaurants.",
+    "tip": "Order with salad and raki.",
+    "why": "National dish.",
+    "flow": [
+     "Traditional place.",
+     "Tavë kosi."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     14
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Albanian",
+    "order": [
+     "Tavë kosi",
+     "Fërgesë"
+    ],
+    "veg": "some",
+    "halal": "some",
+    "venue": "food-area"
+   },
+   {
+    "name": "Byrek",
+    "kind": "eat",
+    "id": "tir-byrek",
+    "at": [
+     41.328,
+     19.819
+    ],
+    "wiki": "Börek",
+    "area": "Centre",
+    "summary": "Flaky pie with cheese, spinach or meat from bakeries.",
+    "expect": "Cheap breakfast.",
+    "tip": "Eat with dhallë yogurt drink.",
+    "why": "Street breakfast.",
+    "flow": [
+     "Bakery.",
+     "Byrek and dhallë."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     2
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Albanian",
+    "order": [
+     "Byrek"
+    ],
+    "veg": "some",
+    "halal": "some",
+    "venue": "food-area"
+   },
+   {
+    "name": "Pazari i Ri",
+    "kind": "eat",
+    "id": "tir-pazari",
+    "at": [
+     41.33,
+     19.825
+    ],
+    "wiki": "Tirana",
+    "area": "Pazari i Ri",
+    "summary": "Restored market square with produce and restaurants around it.",
+    "expect": "Lively evenings.",
+    "tip": "Eat in a terrace restaurant around the market.",
+    "why": "Local market.",
+    "flow": [
+     "Stalls.",
+     "Dinner."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Albanian",
+    "order": [
+     "Grilled meats",
+     "Raki"
+    ],
+    "veg": "some",
+    "halal": "some",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Albania",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "The local money is the lek (about 100 to the euro); carry cash, as many small places do not take cards. Prices here are shown in euros.",
+  "id": "berat",
+  "name": "Berat",
+  "at": [
+   40.7058,
+   19.9522
+  ],
+  "wiki": "Berat",
+  "cover": "Berat Castle",
+  "dailyBudget": [
+   30,
+   70
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "The town of a thousand windows",
+  "summary": "Berat is a UNESCO Ottoman town of white houses whose many windows stare across the Osum river. Climb to the inhabited castle with its Byzantine churches and the Onufri icon museum, walk the Mangalem and Gorica quarters, and visit the Osumi canyon and wineries nearby.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn; summer is hot.",
+  "arrival": "Buses from Tirana take about 2.5 hours.",
+  "gettingAround": "Walk; the castle climb is steep.",
+  "foodTip": "Slow-cooked lamb, stuffed peppers and local wines from the Berat hills.",
+  "buyTip": "Local wine and raki.",
+  "baseArea": "Mangalem or Gorica quarter",
+  "hotel": [
+   30,
+   90
+  ],
+  "connections": [
+   {
+    "to": "tirana",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "Frequent buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Mangalem quarter",
+    "kind": "see",
+    "id": "ber-mangalem",
+    "at": [
+     40.705,
+     19.953
+    ],
+    "wiki": "Mangalem",
+    "area": "Mangalem",
+    "summary": "Hillside of white Ottoman houses with rows of windows facing the river.",
+    "expect": "Free.",
+    "tip": "View it from the Gorica bridge.",
+    "why": "Thousand windows.",
+    "flow": [
+     "Lanes.",
+     "Bridge view."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Berat Castle (Kala)",
+    "kind": "see",
+    "id": "ber-castle",
+    "at": [
+     40.709,
+     19.946
+    ],
+    "wiki": "Berat Castle",
+    "area": "Kala",
+    "summary": "Lived-in castle with Byzantine churches, cobbled lanes and views.",
+    "expect": "Small fee.",
+    "tip": "Stay for sunset on the walls.",
+    "why": "Living castle.",
+    "flow": [
+     "Walls.",
+     "Churches."
+    ],
+    "hours": 2,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Onufri Iconographic Museum",
+    "kind": "see",
+    "id": "ber-onufri",
+    "at": [
+     40.7085,
+     19.9465
+    ],
+    "wiki": "Onufri Museum",
+    "area": "Kala",
+    "summary": "Icons by the 16th-century master Onufri in the Cathedral of St. Mary.",
+    "expect": "Small fee.",
+    "tip": "Look for Onufri's famous red.",
+    "why": "Byzantine art.",
+    "flow": [
+     "Iconostasis.",
+     "Icons."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     4
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Gorica quarter and bridge",
+    "kind": "see",
+    "id": "ber-gorica",
+    "at": [
+     40.704,
+     19.954
+    ],
+    "wiki": "Gorica, Berat",
+    "area": "Gorica",
+    "summary": "Quieter quarter across the old stone bridge.",
+    "expect": "Free.",
+    "tip": "Photograph Mangalem from here.",
+    "why": "Calm view.",
+    "flow": [
+     "Bridge.",
+     "Quarter."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Ethnographic Museum",
+    "kind": "see",
+    "id": "ber-ethno",
+    "at": [
+     40.706,
+     19.95
+    ],
+    "wiki": "Berat",
+    "area": "Mangalem",
+    "summary": "Ottoman merchant house showing traditional life.",
+    "expect": "Small fee.",
+    "tip": "Note the upstairs gallery.",
+    "why": "Domestic history.",
+    "flow": [
+     "House.",
+     "Exhibits."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     3
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Osumi Canyon",
+    "kind": "see",
+    "id": "ber-osumi",
+    "at": [
+     40.57,
+     20.16
+    ],
+    "wiki": "Osum Canyon",
+    "area": "Çorovodë",
+    "summary": "River canyon for rafting in spring and hikes.",
+    "expect": "About 1h30 away; rafting March to May.",
+    "tip": "Book rafting in spring.",
+    "why": "Canyon adventure.",
+    "flow": [
+     "Viewpoints.",
+     "Rafting."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Berat wineries",
+    "kind": "eat",
+    "id": "ber-wine",
+    "at": [
+     40.7,
+     19.95
+    ],
+    "wiki": "Albanian wine",
+    "area": "Berat hills",
+    "summary": "Family wineries pouring local Shesh i Zi and Puls reds.",
+    "expect": "Book tastings.",
+    "tip": "Çobo winery is well known.",
+    "why": "Albanian wine.",
+    "flow": [
+     "Book a tasting.",
+     "Wine and meze."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Shesh i Zi"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Traditional lamb",
+    "kind": "eat",
+    "id": "ber-lamb",
+    "at": [
+     40.7055,
+     19.9525
+    ],
+    "wiki": "Albanian cuisine",
+    "area": "Mangalem",
+    "summary": "Slow-cooked lamb and stuffed peppers in family restaurants.",
+    "expect": "Cash.",
+    "tip": "Ask for the dish of the day.",
+    "why": "Home cooking.",
+    "flow": [
+     "Family restaurant.",
+     "Lamb."
+    ],
+    "hours": 1.5,
+    "price": [
+     7,
+     12
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Albanian",
+    "order": [
+     "Roast lamb",
+     "Speca të mbushura"
+    ],
+    "veg": "some",
+    "halal": "some",
+    "venue": "food-area"
+   },
+   {
+    "name": "Byrek and coffee by the river",
+    "kind": "eat",
+    "id": "ber-coffee",
+    "at": [
+     40.705,
+     19.952
+    ],
+    "wiki": "Börek",
+    "area": "Riverside",
+    "summary": "Morning byrek and strong coffee on the boulevard.",
+    "expect": "Cheap.",
+    "tip": "Watch the evening xhiro stroll.",
+    "why": "Local rhythm.",
+    "flow": [
+     "Café.",
+     "Byrek."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Albanian",
+    "order": [
+     "Byrek",
+     "Coffee"
+    ],
+    "veg": "some",
+    "halal": "some",
+    "venue": "food-area"
+   }
+  ]
+ }
+]

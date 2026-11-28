@@ -1,0 +1,519 @@
+{
+  "id": "berat",
+  "name": "Berat",
+  "country": "Albania",
+  "region": "Europe",
+  "lat": 40.7058,
+  "lon": 19.9522,
+  "wiki": "Berat",
+  "tagline": "The town of a thousand windows",
+  "summary": "Berat is a UNESCO Ottoman town of white houses whose many windows stare across the Osum river. Climb to the inhabited castle with its Byzantine churches and the Onufri icon museum, walk the Mangalem and Gorica quarters, and visit the Osumi canyon and wineries nearby.",
+  "days": 2,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    9,
+    10
+  ],
+  "seasonNote": "Spring and autumn; summer is hot.",
+  "arrival": "Buses from Tirana take about 2.5 hours.",
+  "gettingAround": "Walk; the castle climb is steep.",
+  "cashTip": "The local money is the lek (about 100 to the euro); carry cash, as many small places do not take cards. Prices here are shown in euros.",
+  "dailyBudget": [
+    30,
+    70
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    15,
+    40
+  ],
+  "foodTip": "Slow-cooked lamb, stuffed peppers and local wines from the Berat hills.",
+  "buyTip": "Local wine and raki.",
+  "baseArea": "Mangalem or Gorica quarter",
+  "connections": [
+    {
+      "to": "tirana",
+      "mode": "Bus",
+      "minutes": 150,
+      "note": "Frequent buses."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Berat on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Berat",
+      "type": "reference",
+      "checked": "2026-11-28"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Berat%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-28"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Berat%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Berat Castle",
+  "added": "2026-11-28",
+  "items": [
+    {
+      "id": "berat-ber-mangalem",
+      "name": "Mangalem quarter",
+      "kind": "see",
+      "lat": 40.705,
+      "lon": 19.953,
+      "wiki": "Mangalem",
+      "summary": "Hillside of white Ottoman houses with rows of windows facing the river.",
+      "expect": "Free.",
+      "tip": "View it from the Gorica bridge.",
+      "area": "Mangalem",
+      "duration": 1.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mangalem%20quarter%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Mangalem%20quarter%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mangalem%20quarter%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Hillside of white Ottoman houses with rows of windows facing the river.",
+        "Thousand windows."
+      ],
+      "visitFlow": [
+        "Lanes.",
+        "Bridge view."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "View it from the Gorica bridge."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "berat-ber-castle",
+      "name": "Berat Castle (Kala)",
+      "kind": "see",
+      "lat": 40.709,
+      "lon": 19.946,
+      "wiki": "Berat Castle",
+      "summary": "Lived-in castle with Byzantine churches, cobbled lanes and views.",
+      "expect": "Small fee.",
+      "tip": "Stay for sunset on the walls.",
+      "area": "Kala",
+      "duration": 2,
+      "price": [
+        1,
+        3
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Sunset",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Berat%20Castle%20(Kala)%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Berat%20Castle%20(Kala)%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Berat%20Castle%20(Kala)%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Lived-in castle with Byzantine churches, cobbled lanes and views.",
+        "Living castle."
+      ],
+      "visitFlow": [
+        "Walls.",
+        "Churches."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Small fee.",
+        "Stay for sunset on the walls."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "berat-ber-onufri",
+      "name": "Onufri Iconographic Museum",
+      "kind": "see",
+      "lat": 40.7085,
+      "lon": 19.9465,
+      "wiki": "Onufri Museum",
+      "summary": "Icons by the 16th-century master Onufri in the Cathedral of St. Mary.",
+      "expect": "Small fee.",
+      "tip": "Look for Onufri's famous red.",
+      "area": "Kala",
+      "duration": 1,
+      "price": [
+        2,
+        4
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Onufri%20Iconographic%20Museum%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Onufri%20Iconographic%20Museum%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Onufri%20Iconographic%20Museum%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "Spiritual"
+      ],
+      "whyVisit": [
+        "Icons by the 16th-century master Onufri in the Cathedral of St. Mary.",
+        "Byzantine art."
+      ],
+      "visitFlow": [
+        "Iconostasis.",
+        "Icons."
+      ],
+      "bestFor": "Visitors interested in art and craft and sacred places",
+      "tradeoffs": [
+        "Small fee.",
+        "Look for Onufri's famous red."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "berat-ber-gorica",
+      "name": "Gorica quarter and bridge",
+      "kind": "see",
+      "lat": 40.704,
+      "lon": 19.954,
+      "wiki": "Gorica, Berat",
+      "summary": "Quieter quarter across the old stone bridge.",
+      "expect": "Free.",
+      "tip": "Photograph Mangalem from here.",
+      "area": "Gorica",
+      "duration": 1,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Gorica%20quarter%20and%20bridge%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Gorica%20quarter%20and%20bridge%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Gorica%20quarter%20and%20bridge%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Quieter quarter across the old stone bridge.",
+        "Calm view."
+      ],
+      "visitFlow": [
+        "Bridge.",
+        "Quarter."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Free.",
+        "Photograph Mangalem from here."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "berat-ber-ethno",
+      "name": "Ethnographic Museum",
+      "kind": "see",
+      "lat": 40.706,
+      "lon": 19.95,
+      "wiki": "Berat",
+      "summary": "Ottoman merchant house showing traditional life.",
+      "expect": "Small fee.",
+      "tip": "Note the upstairs gallery.",
+      "area": "Mangalem",
+      "duration": 1,
+      "price": [
+        2,
+        3
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Ethnographic%20Museum%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Ethnographic%20Museum%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Ethnographic%20Museum%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Ottoman merchant house showing traditional life.",
+        "Domestic history."
+      ],
+      "visitFlow": [
+        "House.",
+        "Exhibits."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Small fee.",
+        "Note the upstairs gallery."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "berat-ber-osumi",
+      "name": "Osumi Canyon",
+      "kind": "see",
+      "lat": 40.57,
+      "lon": 20.16,
+      "wiki": "Osum Canyon",
+      "summary": "River canyon for rafting in spring and hikes.",
+      "expect": "About 1h30 away; rafting March to May.",
+      "tip": "Book rafting in spring.",
+      "area": "Çorovodë",
+      "duration": 5,
+      "price": [
+        0,
+        50
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Osumi%20Canyon%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Osumi%20Canyon%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Osumi%20Canyon%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "River canyon for rafting in spring and hikes.",
+        "Canyon adventure."
+      ],
+      "visitFlow": [
+        "Viewpoints.",
+        "Rafting."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "About 1h30 away; rafting March to May.",
+        "Book rafting in spring."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "berat-ber-wine",
+      "name": "Berat wineries",
+      "kind": "eat",
+      "lat": 40.7,
+      "lon": 19.95,
+      "wiki": "Albanian wine",
+      "summary": "Family wineries pouring local Shesh i Zi and Puls reds.",
+      "expect": "Book tastings.",
+      "tip": "Çobo winery is well known.",
+      "area": "Berat hills",
+      "duration": 1.5,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Berat%20wineries%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Berat%20wineries%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Berat%20wineries%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Family wineries pouring local Shesh i Zi and Puls reds.",
+        "Albanian wine."
+      ],
+      "visitFlow": [
+        "Book a tasting.",
+        "Wine and meze."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Book tastings.",
+        "Çobo winery is well known."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Wine",
+      "mustOrder": [
+        "Shesh i Zi"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "berat-ber-lamb",
+      "name": "Traditional lamb",
+      "kind": "eat",
+      "lat": 40.7055,
+      "lon": 19.9525,
+      "wiki": "Albanian cuisine",
+      "summary": "Slow-cooked lamb and stuffed peppers in family restaurants.",
+      "expect": "Cash.",
+      "tip": "Ask for the dish of the day.",
+      "area": "Mangalem",
+      "duration": 1.5,
+      "price": [
+        7,
+        12
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Traditional%20lamb%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Traditional%20lamb%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Traditional%20lamb%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Slow-cooked lamb and stuffed peppers in family restaurants.",
+        "Home cooking."
+      ],
+      "visitFlow": [
+        "Family restaurant.",
+        "Lamb."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Cash.",
+        "Ask for the dish of the day."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Albanian",
+      "mustOrder": [
+        "Roast lamb",
+        "Speca të mbushura"
+      ],
+      "dietary": {
+        "halal": "some",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "berat-ber-coffee",
+      "name": "Byrek and coffee by the river",
+      "kind": "eat",
+      "lat": 40.705,
+      "lon": 19.952,
+      "wiki": "Börek",
+      "summary": "Morning byrek and strong coffee on the boulevard.",
+      "expect": "Cheap.",
+      "tip": "Watch the evening xhiro stroll.",
+      "area": "Riverside",
+      "duration": 0.5,
+      "price": [
+        1,
+        3
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Breakfast",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Byrek%20and%20coffee%20by%20the%20river%2C%20Berat",
+        "https://www.google.com/maps/search/?api=1&query=Byrek%20and%20coffee%20by%20the%20river%2C%20Berat"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Byrek%20and%20coffee%20by%20the%20river%2C%20Berat"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Morning byrek and strong coffee on the boulevard.",
+        "Local rhythm."
+      ],
+      "visitFlow": [
+        "Café.",
+        "Byrek."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Cheap.",
+        "Watch the evening xhiro stroll."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Albanian",
+      "mustOrder": [
+        "Byrek",
+        "Coffee"
+      ],
+      "dietary": {
+        "halal": "some",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}

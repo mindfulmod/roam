@@ -1,0 +1,532 @@
+{
+  "id": "utrecht",
+  "name": "Utrecht",
+  "country": "Netherlands",
+  "region": "Europe",
+  "lat": 52.0907,
+  "lon": 5.1214,
+  "wiki": "Utrecht",
+  "tagline": "Two-level canals, the Dom Tower and bikes everywhere",
+  "summary": "Utrecht is a medieval university city with unusual two-level canals whose old wharf cellars are now cafés at water level. Climb the Dom Tower, the tallest church tower in the Netherlands, visit Miffy's museum and the Rietveld Schröder House, and paddle the canals in a canoe.",
+  "days": 2,
+  "bestMonths": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "seasonNote": "Spring and summer for terraces by the water.",
+  "arrival": "Trains from Amsterdam take about 25 minutes, from Schiphol 30.",
+  "gettingAround": "Walk or bike; Utrecht has the world's largest bike parking under the station.",
+  "cashTip": "Cards are used everywhere; some places are card only.",
+  "dailyBudget": [
+    90,
+    200
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    0,
+    10
+  ],
+  "foodTip": "Wharf-cellar cafés, stroopwafels and Dutch cheese.",
+  "buyTip": "Miffy goods and design items.",
+  "baseArea": "Binnenstad (old centre)",
+  "connections": [
+    {
+      "to": "amsterdam",
+      "mode": "Train",
+      "minutes": 25,
+      "note": "Trains every few minutes."
+    },
+    {
+      "to": "rotterdam",
+      "mode": "Train",
+      "minutes": 35,
+      "note": "Frequent trains."
+    },
+    {
+      "to": "the-hague",
+      "mode": "Train",
+      "minutes": 40,
+      "note": "Frequent trains."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Utrecht on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Utrecht",
+      "type": "reference",
+      "checked": "2026-11-28"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Utrecht%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-28"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Utrecht%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Dom Tower of Utrecht",
+  "added": "2026-11-28",
+  "items": [
+    {
+      "id": "utrecht-utr-dom",
+      "name": "Dom Tower",
+      "kind": "see",
+      "lat": 52.0907,
+      "lon": 5.1214,
+      "wiki": "Dom Tower of Utrecht",
+      "summary": "Gothic tower of 465 steps, the tallest church tower in the Netherlands.",
+      "expect": "Guided tours only; book.",
+      "tip": "Book the first morning slot.",
+      "area": "Domplein",
+      "duration": 1.5,
+      "price": [
+        13,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Timed tours",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Dom%20Tower%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Dom%20Tower%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Dom%20Tower%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Gothic tower of 465 steps, the tallest church tower in the Netherlands.",
+        "Utrecht's symbol."
+      ],
+      "visitFlow": [
+        "Tour up.",
+        "Bells and view."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Guided tours only; book.",
+        "Book the first morning slot."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "utrecht-utr-oudegracht",
+      "name": "Oudegracht wharves",
+      "kind": "see",
+      "lat": 52.0905,
+      "lon": 5.119,
+      "wiki": "Oudegracht",
+      "summary": "Two-level canal with wharf cellars turned into terraces at water level.",
+      "expect": "Busy terraces in summer.",
+      "tip": "Eat at a wharf terrace.",
+      "area": "Binnenstad",
+      "duration": 2,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Oudegracht%20wharves%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Oudegracht%20wharves%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Oudegracht%20wharves%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Two-level canal with wharf cellars turned into terraces at water level.",
+        "Unique canals."
+      ],
+      "visitFlow": [
+        "Walk the wharves.",
+        "Terrace drink."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Busy terraces in summer.",
+        "Eat at a wharf terrace."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "utrecht-utr-rietveld",
+      "name": "Rietveld Schröder House",
+      "kind": "see",
+      "lat": 52.0852,
+      "lon": 5.1477,
+      "wiki": "Rietveld Schröder House",
+      "summary": "UNESCO De Stijl house of sliding walls and primary colours.",
+      "expect": "Timed tours; book.",
+      "tip": "Combine with the Centraal Museum ticket.",
+      "area": "Prins Hendriklaan",
+      "duration": 1,
+      "price": [
+        18,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Timed tours",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Rietveld%20Schr%C3%B6der%20House%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Rietveld%20Schr%C3%B6der%20House%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Rietveld%20Schr%C3%B6der%20House%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture",
+        "Art"
+      ],
+      "whyVisit": [
+        "UNESCO De Stijl house of sliding walls and primary colours.",
+        "Modernist icon."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Sliding walls."
+      ],
+      "bestFor": "Visitors interested in architecture and design and art and craft",
+      "tradeoffs": [
+        "Timed tours; book.",
+        "Combine with the Centraal Museum ticket."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "utrecht-utr-miffy",
+      "name": "Miffy Museum",
+      "kind": "see",
+      "lat": 52.084,
+      "lon": 5.122,
+      "wiki": "Nijntje museum",
+      "summary": "Museum for small children about Dick Bruna's Miffy.",
+      "expect": "Best for under 6s.",
+      "tip": "The Centraal Museum opposite has Bruna's studio.",
+      "area": "Museumkwartier",
+      "duration": 1,
+      "price": [
+        10,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Miffy%20Museum%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Miffy%20Museum%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Miffy%20Museum%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment",
+        "Art"
+      ],
+      "whyVisit": [
+        "Museum for small children about Dick Bruna's Miffy.",
+        "Utrecht's famous bunny."
+      ],
+      "visitFlow": [
+        "Miffy rooms.",
+        "Centraal Museum."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife and art and craft",
+      "tradeoffs": [
+        "Best for under 6s.",
+        "The Centraal Museum opposite has Bruna's studio."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "utrecht-utr-speelklok",
+      "name": "Museum Speelklok",
+      "kind": "see",
+      "lat": 52.093,
+      "lon": 5.118,
+      "wiki": "Museum Speelklok",
+      "summary": "Museum of music boxes and street organs, demonstrated on guided tours.",
+      "expect": "Paid.",
+      "tip": "Join a tour so the organs play.",
+      "area": "Binnenstad",
+      "duration": 1.5,
+      "price": [
+        15,
+        16
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Museum%20Speelklok%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Museum%20Speelklok%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Museum%20Speelklok%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Technology",
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Museum of music boxes and street organs, demonstrated on guided tours.",
+        "Joyful music machines."
+      ],
+      "visitFlow": [
+        "Organs.",
+        "Tour."
+      ],
+      "bestFor": "Visitors interested in science and technology and shows and nightlife",
+      "tradeoffs": [
+        "Paid.",
+        "Join a tour so the organs play."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "utrecht-utr-canoe",
+      "name": "Canal canoe or boat",
+      "kind": "see",
+      "lat": 52.087,
+      "lon": 5.12,
+      "wiki": "Oudegracht",
+      "summary": "Paddle or cruise the Oudegracht under the low bridges.",
+      "expect": "Rentals near Ganzenmarkt.",
+      "tip": "Go early evening.",
+      "area": "Binnenstad",
+      "duration": 1.5,
+      "price": [
+        10,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Canal%20canoe%20or%20boat%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Canal%20canoe%20or%20boat%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Canal%20canoe%20or%20boat%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Paddle or cruise the Oudegracht under the low bridges.",
+        "Canals from the water."
+      ],
+      "visitFlow": [
+        "Rent a canoe.",
+        "Paddle the canal."
+      ],
+      "bestFor": "Visitors interested in active exploration",
+      "tradeoffs": [
+        "Rentals near Ganzenmarkt.",
+        "Go early evening."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "utrecht-utr-wharf",
+      "name": "Wharf-cellar cafés",
+      "kind": "eat",
+      "lat": 52.09,
+      "lon": 5.1195,
+      "wiki": "Oudegracht",
+      "summary": "Cafés and restaurants in the old canal cellars.",
+      "expect": "Popular in summer.",
+      "tip": "Book dinner by the water.",
+      "area": "Oudegracht",
+      "duration": 1.5,
+      "price": [
+        15,
+        35
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Wharf-cellar%20caf%C3%A9s%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Wharf-cellar%20caf%C3%A9s%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Wharf-cellar%20caf%C3%A9s%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cafés and restaurants in the old canal cellars.",
+        "Eat at water level."
+      ],
+      "visitFlow": [
+        "Pick a wharf café.",
+        "Dinner by the canal."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Popular in summer.",
+        "Book dinner by the water."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Dutch",
+      "mustOrder": [
+        "Bitterballen",
+        "Local beer"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "utrecht-utr-stroopwafel",
+      "name": "Stroopwafels at the market",
+      "kind": "eat",
+      "lat": 52.092,
+      "lon": 5.116,
+      "wiki": "Stroopwafel",
+      "summary": "Fresh syrup waffles pressed at the Vredenburg market stalls.",
+      "expect": "Market days.",
+      "tip": "Buy one warm.",
+      "area": "Vredenburg",
+      "duration": 0.5,
+      "price": [
+        2,
+        4
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Stroopwafels%20at%20the%20market%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Stroopwafels%20at%20the%20market%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Stroopwafels%20at%20the%20market%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Fresh syrup waffles pressed at the Vredenburg market stalls.",
+        "Dutch sweet."
+      ],
+      "visitFlow": [
+        "Market.",
+        "Warm stroopwafel."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Market days.",
+        "Buy one warm."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Dutch",
+      "mustOrder": [
+        "Stroopwafel"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "utrecht-utr-ledigerf",
+      "name": "Brewery café Ledig Erf",
+      "kind": "eat",
+      "lat": 52.083,
+      "lon": 5.124,
+      "wiki": "Utrecht",
+      "summary": "Classic Dutch beer café on a canal corner with a huge Belgian beer list.",
+      "expect": "Busy weekend nights.",
+      "tip": "Sit on the terrace by the water.",
+      "area": "Tolsteeg",
+      "duration": 1.5,
+      "price": [
+        5,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Brewery%20caf%C3%A9%20Ledig%20Erf%2C%20Utrecht",
+        "https://www.google.com/maps/search/?api=1&query=Brewery%20caf%C3%A9%20Ledig%20Erf%2C%20Utrecht"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Brewery%20caf%C3%A9%20Ledig%20Erf%2C%20Utrecht"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Classic Dutch beer café on a canal corner with a huge Belgian beer list.",
+        "Beer culture."
+      ],
+      "visitFlow": [
+        "Terrace.",
+        "Belgian beers."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Busy weekend nights.",
+        "Sit on the terrace by the water."
+      ],
+      "pinApproximate": true,
+      "venueType": "restaurant",
+      "cuisine": "Drinks",
+      "mustOrder": [
+        "Belgian beer"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ]
+}
