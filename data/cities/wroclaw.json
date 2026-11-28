@@ -85,7 +85,7 @@
       "name": "Market Square (Rynek)",
       "kind": "see",
       "lat": 51.11,
-      "lon": 17.032,
+      "lon": 17.03194,
       "wiki": "Market Square, Wrocław",
       "summary": "Huge square of painted houses around the Gothic Old Town Hall.",
       "expect": "Free.",
@@ -125,14 +125,23 @@
         "Free.",
         "Look at the town hall's astronomical clock face."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8666,
+          "period": "202511-202610",
+          "title": "Market Square, Wrocław",
+          "url": "https://en.wikipedia.org/wiki/Market_Square%2C_Wroc%C5%82aw",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1548947"
     },
     {
       "id": "wroclaw-wro-tumski",
       "name": "Ostrów Tumski",
       "kind": "see",
-      "lat": 51.1143,
-      "lon": 17.0469,
+      "lat": 51.11544,
+      "lon": 17.04427,
       "wiki": "Ostrów Tumski (Wrocław)",
       "summary": "Oldest part of town with the cathedral and gas lamps lit by hand each dusk.",
       "expect": "Free; tower paid.",
@@ -173,14 +182,22 @@
         "Free; tower paid.",
         "Arrive at dusk to see the lamplighter."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9120,
+          "period": "202511-202610",
+          "title": "Cathedral Island, Wrocław",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Island%2C_Wroc%C5%82aw",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "wroclaw-wro-panorama",
       "name": "Racławice Panorama",
       "kind": "see",
-      "lat": 51.11,
-      "lon": 17.0445,
+      "lat": 51.11014,
+      "lon": 17.04458,
       "wiki": "Racławice Panorama",
       "summary": "Giant 360° painting of a 1794 battle, viewed from a central platform.",
       "expect": "Timed entry.",
@@ -220,7 +237,20 @@
         "Timed entry.",
         "Book a slot online."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14787,
+          "period": "202511-202610",
+          "title": "Racławice Panorama",
+          "url": "https://en.wikipedia.org/wiki/Rac%C5%82awice_Panorama",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1753248",
+      "local": {
+        "name": "Panorama Racławicka",
+        "lang": "pl"
+      }
     },
     {
       "id": "wroclaw-wro-dwarfs",
@@ -267,14 +297,23 @@
         "Free.",
         "Get a dwarf map from the tourist office."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 36213,
+          "period": "202511-202610",
+          "title": "Wrocław Dwarfs",
+          "url": "https://en.wikipedia.org/wiki/Wroc%C5%82aw_Dwarfs",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "wroclaw-wro-uni",
       "name": "University of Wrocław Aula Leopoldina",
       "kind": "see",
-      "lat": 51.114,
-      "lon": 17.034,
+      "lat": 51.11361,
+      "lon": 17.03333,
       "wiki": "University of Wrocław",
       "summary": "Baroque university hall and the Mathematical Tower with a rooftop view.",
       "expect": "Paid.",
@@ -314,7 +353,20 @@
         "Paid.",
         "Climb the tower after the hall."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21358,
+          "period": "202511-202610",
+          "title": "University of Wrocław",
+          "url": "https://en.wikipedia.org/wiki/University_of_Wroc%C5%82aw",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q315658",
+      "local": {
+        "name": "Uniwersytet Wrocławski",
+        "lang": "pl"
+      }
     },
     {
       "id": "wroclaw-wro-centennial",
@@ -367,8 +419,8 @@
       "id": "wroclaw-wro-hala",
       "name": "Hala Targowa",
       "kind": "see",
-      "lat": 51.1125,
-      "lon": 17.04,
+      "lat": 51.11243,
+      "lon": 17.04034,
       "wiki": "Hala Targowa, Wrocław",
       "summary": "1908 market hall with produce, pickles and cheap lunch counters.",
       "expect": "Closed Sundays.",
@@ -408,8 +460,7 @@
       "tradeoffs": [
         "Closed Sundays.",
         "Grab pierogi at a counter."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "wroclaw-wro-pierogi",
@@ -529,8 +580,8 @@
       "id": "wroclaw-wro-swidnicka",
       "name": "Piwnica Świdnicka",
       "kind": "eat",
-      "lat": 51.1098,
-      "lon": 17.0318,
+      "lat": 51.1095,
+      "lon": 17.032,
       "wiki": "Piwnica Świdnicka",
       "summary": "One of Europe's oldest restaurants, in the cellars of the town hall.",
       "expect": "Touristy.",
@@ -569,7 +620,6 @@
         "Touristy.",
         "Have a beer under the vaults."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Polish",
       "mustOrder": [
@@ -581,7 +631,14 @@
         "vegetarian": "some",
         "evidence": [],
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      },
+      "wikidata": "Q2255495",
+      "local": {
+        "name": "Piwnica Świdnicka we Wrocławiu",
+        "lang": "pl"
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1799"
 }

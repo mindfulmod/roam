@@ -117,8 +117,8 @@
       "id": "faroe-islands-far-sorvagsvatn",
       "name": "Sørvágsvatn (Lake above the ocean)",
       "kind": "see",
-      "lat": 62.051,
-      "lon": -7.233,
+      "lat": 62.05,
+      "lon": -7.23333,
       "wiki": "Sørvágsvatn",
       "summary": "Hike along the lake to the Trælanípa cliff for the illusion of a lake floating above the sea.",
       "expect": "Private land; hiking fee.",
@@ -159,7 +159,16 @@
         "Private land; hiking fee.",
         "Allow 3 hours return."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 61120,
+          "period": "202511-202610",
+          "title": "Sørvágsvatn",
+          "url": "https://en.wikipedia.org/wiki/S%C3%B8rv%C3%A1gsvatn",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q932408"
     },
     {
       "id": "faroe-islands-far-mykines",
@@ -254,14 +263,23 @@
         "Free.",
         "Walk around the harbour at sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7839,
+          "period": "202511-202610",
+          "title": "Tinganes",
+          "url": "https://en.wikipedia.org/wiki/Tinganes",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q513509"
     },
     {
       "id": "faroe-islands-far-saksun",
       "name": "Saksun",
       "kind": "see",
-      "lat": 62.249,
-      "lon": -7.177,
+      "lat": 62.24889,
+      "lon": -7.17583,
       "wiki": "Saksun",
       "summary": "Grass-roofed church and farms above a tidal lagoon.",
       "expect": "Walking fee near the farm.",
@@ -301,14 +319,23 @@
         "Walking fee near the farm.",
         "Walk to the lagoon at low tide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4208,
+          "period": "202511-202610",
+          "title": "Saksun",
+          "url": "https://en.wikipedia.org/wiki/Saksun",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q928875"
     },
     {
       "id": "faroe-islands-far-gjogv",
       "name": "Gjógv",
       "kind": "see",
-      "lat": 62.324,
-      "lon": -6.944,
+      "lat": 62.325,
+      "lon": -6.94111,
       "wiki": "Gjógv",
       "summary": "Village beside a deep sea gorge used as a natural harbour.",
       "expect": "Free.",
@@ -348,14 +375,23 @@
         "Free.",
         "Have waffles at the guesthouse."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7232,
+          "period": "202511-202610",
+          "title": "Gjógv",
+          "url": "https://en.wikipedia.org/wiki/Gj%C3%B3gv",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q939708"
     },
     {
       "id": "faroe-islands-far-kirkjubour",
       "name": "Kirkjubøur",
       "kind": "see",
-      "lat": 61.956,
-      "lon": -6.793,
+      "lat": 61.95611,
+      "lon": -6.79361,
       "wiki": "Kirkjubøur",
       "summary": "Medieval church ruins and a farmhouse lived in by the same family for 17 generations.",
       "expect": "Small fee for the farmhouse.",
@@ -395,7 +431,16 @@
         "Small fee for the farmhouse.",
         "Combine with a Tórshavn day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5266,
+          "period": "202511-202610",
+          "title": "Kirkjubøur",
+          "url": "https://en.wikipedia.org/wiki/Kirkjub%C3%B8ur",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q578732"
     },
     {
       "id": "faroe-islands-far-raest",
@@ -569,5 +614,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q4628",
+  "local": {
+    "name": "Føroyar",
+    "lang": "fo"
+  }
 }

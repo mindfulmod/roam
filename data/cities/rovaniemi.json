@@ -66,8 +66,8 @@
       "id": "rovaniemi-rov-santa",
       "name": "Santa Claus Village",
       "kind": "see",
-      "lat": 66.5436,
-      "lon": 25.8473,
+      "lat": 66.54333,
+      "lon": 25.8475,
       "wiki": "Santa Claus Village",
       "summary": "Meet Santa every day of the year and cross the painted Arctic Circle line.",
       "expect": "Free to enter; photos with Santa cost money.",
@@ -106,7 +106,20 @@
         "Free to enter; photos with Santa cost money.",
         "Send a postcard from Santa's Main Post Office."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 52175,
+          "period": "202511-202610",
+          "title": "Santa Claus Village",
+          "url": "https://en.wikipedia.org/wiki/Santa_Claus_Village",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q135379",
+      "local": {
+        "name": "Joulupukin Pajakylä",
+        "lang": "fi"
+      }
     },
     {
       "id": "rovaniemi-rov-husky",
@@ -153,7 +166,16 @@
         "Winter only; dress warmly.",
         "Choose a farm with longer rides and small groups."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 25187,
+          "period": "202511-202610",
+          "title": "Dog sled",
+          "url": "https://en.wikipedia.org/wiki/Dog_sled",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "rovaniemi-rov-aurora",
@@ -200,14 +222,23 @@
         "Never guaranteed.",
         "Check the aurora forecast and cloud cover."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 820465,
+          "period": "202511-202610",
+          "title": "Aurora",
+          "url": "https://en.wikipedia.org/wiki/Aurora",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "rovaniemi-rov-arktikum",
       "name": "Arktikum",
       "kind": "see",
-      "lat": 66.51,
-      "lon": 25.729,
+      "lat": 66.50945,
+      "lon": 25.72906,
       "wiki": "Arktikum (museum)",
       "summary": "Museum of Arctic nature and Sámi life under a long glass tube.",
       "expect": "Paid; closed some Mondays.",
@@ -246,8 +277,7 @@
       "tradeoffs": [
         "Paid; closed some Mondays.",
         "Watch the aurora film inside."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rovaniemi-rov-reindeer",
@@ -293,7 +323,16 @@
         "Many tours include it.",
         "Ask about reindeer herding life."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 513558,
+          "period": "202511-202610",
+          "title": "Reindeer",
+          "url": "https://en.wikipedia.org/wiki/Reindeer",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "rovaniemi-rov-ounasvaara",
@@ -346,8 +385,8 @@
       "id": "rovaniemi-rov-korundi",
       "name": "Korundi House of Culture",
       "kind": "see",
-      "lat": 66.503,
-      "lon": 25.724,
+      "lat": 66.50101,
+      "lon": 25.71823,
       "wiki": "Korundi",
       "summary": "Art museum and concert hall in an old brick post-bus depot.",
       "expect": "Paid.",
@@ -385,8 +424,7 @@
       "tradeoffs": [
         "Paid.",
         "Check for a Lapland Chamber Orchestra concert."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "rovaniemi-rov-poronkaristys",
@@ -560,5 +598,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q103717"
 }

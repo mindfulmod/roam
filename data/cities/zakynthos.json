@@ -64,8 +64,8 @@
       "id": "zakynthos-zak-navagio",
       "name": "Navagio (Shipwreck Beach)",
       "kind": "see",
-      "lat": 37.859,
-      "lon": 20.6247,
+      "lat": 37.8596,
+      "lon": 20.6245,
       "wiki": "Navagio",
       "summary": "Rusting shipwreck on a white cove under sheer cliffs.",
       "expect": "Landing on the beach is often banned after rockfalls; check before booking.",
@@ -105,14 +105,27 @@
         "Landing on the beach is often banned after rockfalls; check before booking.",
         "See it from the cliff viewpoint in the morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 47137,
+          "period": "202511-202610",
+          "title": "Navagio Beach",
+          "url": "https://en.wikipedia.org/wiki/Navagio_Beach",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2460851",
+      "local": {
+        "name": "Ναυάγιο",
+        "lang": "el"
+      }
     },
     {
       "id": "zakynthos-zak-bluecaves",
       "name": "Blue Caves",
       "kind": "see",
-      "lat": 37.9185,
-      "lon": 20.704,
+      "lat": 37.92018,
+      "lon": 20.70634,
       "wiki": "Blue Caves (Zakynthos)",
       "summary": "Sea caves where sunlight turns the water glowing blue.",
       "expect": "Small boats from Agios Nikolaos or Skinari.",
@@ -151,15 +164,14 @@
       "tradeoffs": [
         "Small boats from Agios Nikolaos or Skinari.",
         "Go before 11 am for the best light."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "zakynthos-zak-marathonisi",
       "name": "Marathonisi (Turtle Island)",
       "kind": "see",
-      "lat": 37.687,
-      "lon": 20.879,
+      "lat": 37.68472,
+      "lon": 20.87083,
       "wiki": "Marathonisi",
       "summary": "Island in the marine park where loggerhead turtles nest.",
       "expect": "Protected nesting rules apply.",
@@ -198,7 +210,20 @@
         "Protected nesting rules apply.",
         "Choose a turtle-friendly licensed boat."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1751,
+          "period": "202511-202610",
+          "title": "Marathonisi",
+          "url": "https://en.wikipedia.org/wiki/Marathonisi",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q16523348",
+      "local": {
+        "name": "Μαραθονήσι Ζακύνθου",
+        "lang": "el"
+      }
     },
     {
       "id": "zakynthos-zak-keri",
@@ -251,8 +276,8 @@
       "id": "zakynthos-zak-town",
       "name": "Zakynthos Town and Bochali",
       "kind": "see",
-      "lat": 37.787,
-      "lon": 20.8999,
+      "lat": 37.78333,
+      "lon": 20.9,
       "wiki": "Zakynthos (city)",
       "summary": "Arcaded town rebuilt after the 1953 quake, with the Venetian castle hill of Bochali above.",
       "expect": "Castle paid.",
@@ -292,7 +317,20 @@
         "Castle paid.",
         "Have dinner at Bochali for the view."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9421,
+          "period": "202511-202610",
+          "title": "Zakynthos (city)",
+          "url": "https://en.wikipedia.org/wiki/Zakynthos_(city)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q144869",
+      "local": {
+        "name": "Ζάκυνθος",
+        "lang": "el"
+      }
     },
     {
       "id": "zakynthos-zak-limnionas",
@@ -338,7 +376,16 @@
         "Small taverna, no sand.",
         "Bring water shoes."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 131993,
+          "period": "202511-202610",
+          "title": "Zakynthos",
+          "url": "https://en.wikipedia.org/wiki/Zakynthos",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "zakynthos-zak-sartsa",
@@ -512,5 +559,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q144880",
+  "local": {
+    "name": "Ζάκυνθος",
+    "lang": "el"
+  }
 }

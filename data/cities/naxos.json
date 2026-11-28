@@ -82,8 +82,8 @@
       "id": "naxos-nax-portara",
       "name": "Portara",
       "kind": "see",
-      "lat": 37.1101,
-      "lon": 25.3725,
+      "lat": 37.1102,
+      "lon": 25.3723,
       "wiki": "Portara",
       "summary": "Huge marble doorway of an unfinished temple to Apollo on an islet by the harbour.",
       "expect": "Free; very busy at sunset.",
@@ -123,7 +123,15 @@
         "Free; very busy at sunset.",
         "Come early for sunset or watch from the causeway."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17609,
+          "period": "202511-202610",
+          "title": "Temple of Apollo (Naxos)",
+          "url": "https://en.wikipedia.org/wiki/Temple_of_Apollo_(Naxos)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "naxos-nax-kastro",
@@ -170,7 +178,16 @@
         "Free; museum paid.",
         "Visit the archaeological museum inside the Kastro."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13367,
+          "period": "202511-202610",
+          "title": "Naxos (city)",
+          "url": "https://en.wikipedia.org/wiki/Naxos_(city)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "naxos-nax-plaka",
@@ -270,8 +287,8 @@
       "id": "naxos-nax-apeiranthos",
       "name": "Apeiranthos",
       "kind": "see",
-      "lat": 37.073,
-      "lon": 25.524,
+      "lat": 37.07222,
+      "lon": 25.52222,
       "wiki": "Apeiranthos",
       "summary": "Marble-paved mountain village with small museums.",
       "expect": "Winding road.",
@@ -311,8 +328,21 @@
         "Winding road.",
         "Have lunch on the main lane."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7257,
+          "period": "202511-202610",
+          "title": "Apeiranthos",
+          "url": "https://en.wikipedia.org/wiki/Apeiranthos",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q618224",
+      "local": {
+        "name": "Απείρανθος Νάξου",
+        "lang": "el"
+      }
     },
     {
       "id": "naxos-nax-demeter",
@@ -366,8 +396,8 @@
       "id": "naxos-nax-kouros",
       "name": "Kouros of Apollonas",
       "kind": "see",
-      "lat": 37.177,
-      "lon": 25.552,
+      "lat": 37.17917,
+      "lon": 25.54763,
       "wiki": "Kouros of Apollonas",
       "summary": "Giant 10 m unfinished marble statue lying in an ancient quarry.",
       "expect": "Free.",
@@ -407,8 +437,21 @@
         "Free.",
         "Drive the north coast road."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7115,
+          "period": "202511-202610",
+          "title": "Kouros of Apollonas",
+          "url": "https://en.wikipedia.org/wiki/Kouros_of_Apollonas",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1167127",
+      "local": {
+        "name": "Κούρος του Απόλλωνα",
+        "lang": "el"
+      }
     },
     {
       "id": "naxos-nax-taverna",
@@ -582,5 +625,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q188527",
+  "local": {
+    "name": "Νάξος",
+    "lang": "el"
+  }
 }

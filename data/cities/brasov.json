@@ -66,8 +66,8 @@
       "id": "brasov-bra-blackchurch",
       "name": "Black Church",
       "kind": "see",
-      "lat": 45.6408,
-      "lon": 25.588,
+      "lat": 45.641,
+      "lon": 25.58807,
       "wiki": "Black Church",
       "summary": "Gothic church named for fire-blackened walls, with a huge collection of Ottoman carpets.",
       "expect": "Paid; closed Mondays.",
@@ -108,7 +108,15 @@
         "Paid; closed Mondays.",
         "Catch an organ concert in summer."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 68478,
+          "period": "202511-202610",
+          "title": "Black church",
+          "url": "https://en.wikipedia.org/wiki/Black_church",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "brasov-bra-square",
@@ -155,7 +163,16 @@
         "Free.",
         "Sit at a café terrace in the evening."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2893,
+          "period": "202511-202610",
+          "title": "Piața Sfatului",
+          "url": "https://en.wikipedia.org/wiki/Pia%C8%9Ba_Sfatului",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "brasov-bra-tampa",
@@ -208,8 +225,8 @@
       "id": "brasov-bra-rope",
       "name": "Rope Street and Catherine's Gate",
       "kind": "see",
-      "lat": 45.639,
-      "lon": 25.5875,
+      "lat": 45.63972,
+      "lon": 25.58861,
       "wiki": "Strada Sforii",
       "summary": "One of Europe's narrowest streets, near the turreted medieval town gate.",
       "expect": "Free.",
@@ -248,14 +265,22 @@
         "Free.",
         "Walk on to the White and Black towers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4602,
+          "period": "202511-202610",
+          "title": "Strada Sforii",
+          "url": "https://en.wikipedia.org/wiki/Strada_Sforii",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "brasov-bra-bran",
       "name": "Bran Castle",
       "kind": "see",
       "lat": 45.515,
-      "lon": 25.3672,
+      "lon": 25.36722,
       "wiki": "Bran Castle",
       "summary": "Hilltop castle marketed as Dracula's, with a royal history of its own.",
       "expect": "Paid; very busy in summer.",
@@ -295,15 +320,28 @@
         "Paid; very busy in summer.",
         "Go at opening; the story of Queen Marie is the real draw."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 226854,
+          "period": "202511-202610",
+          "title": "Bran Castle",
+          "url": "https://en.wikipedia.org/wiki/Bran_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q390275",
+      "local": {
+        "name": "Castelul Bran",
+        "lang": "ro"
+      }
     },
     {
       "id": "brasov-bra-peles",
       "name": "Peleș Castle",
       "kind": "see",
-      "lat": 45.36,
-      "lon": 25.5426,
+      "lat": 45.35984,
+      "lon": 25.54265,
       "wiki": "Peleș Castle",
       "summary": "Neo-Renaissance royal palace with lavish carved interiors in the mountains.",
       "expect": "Paid; closed Mondays and Tuesdays in some months.",
@@ -344,15 +382,28 @@
         "Paid; closed Mondays and Tuesdays in some months.",
         "Take the train to Sinaia and walk up."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 106806,
+          "period": "202511-202610",
+          "title": "Peleș Castle",
+          "url": "https://en.wikipedia.org/wiki/Pele%C8%99_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q917702",
+      "local": {
+        "name": "Castelul Peleș",
+        "lang": "ro"
+      }
     },
     {
       "id": "brasov-bra-rasnov",
       "name": "Râșnov Citadel",
       "kind": "see",
-      "lat": 45.5925,
-      "lon": 25.461,
+      "lat": 45.59059,
+      "lon": 25.46938,
       "wiki": "Râșnov Citadel",
       "summary": "Peasant fortress on a hilltop with walls and wide views.",
       "expect": "Paid.",
@@ -392,15 +443,23 @@
         "Paid.",
         "Combine with Bran on the same trip."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7213,
+          "period": "202511-202610",
+          "title": "Râșnov Fortress",
+          "url": "https://en.wikipedia.org/wiki/R%C3%A2%C8%99nov_Fortress",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "brasov-bra-prejmer",
       "name": "Prejmer fortified church",
       "kind": "see",
-      "lat": 45.7228,
-      "lon": 25.7739,
+      "lat": 45.72208,
+      "lon": 25.77346,
       "wiki": "Prejmer fortified church",
       "summary": "UNESCO Saxon church inside a ring of thick walls with storage rooms for villagers.",
       "expect": "Paid; 20 minutes away.",
@@ -440,8 +499,21 @@
         "Paid; 20 minutes away.",
         "Climb into the defensive gallery."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 3767,
+          "period": "202511-202610",
+          "title": "Prejmer fortified church",
+          "url": "https://en.wikipedia.org/wiki/Prejmer_fortified_church",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q16745669",
+      "local": {
+        "name": "Biserica fortificată din Prejmer",
+        "lang": "ro"
+      }
     },
     {
       "id": "brasov-bra-sarmale",
@@ -616,5 +688,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q82174"
 }

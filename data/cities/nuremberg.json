@@ -130,8 +130,13 @@
           "period": "202511-202610",
           "title": "Nuremberg Castle",
           "url": "https://en.wikipedia.org/wiki/Nuremberg_Castle",
-          "checked": "2026-11-27"
+          "checked": "2026-11-28"
         }
+      },
+      "wikidata": "Q707396",
+      "local": {
+        "name": "Nürnberger Burg",
+        "lang": "de"
       }
     },
     {
@@ -184,7 +189,7 @@
           "period": "202511-202610",
           "title": "Nazi Party rally grounds",
           "url": "https://en.wikipedia.org/wiki/Nazi_Party_rally_grounds",
-          "checked": "2026-11-27"
+          "checked": "2026-11-28"
         }
       }
     },
@@ -238,8 +243,13 @@
           "period": "202511-202610",
           "title": "Nuremberg trials",
           "url": "https://en.wikipedia.org/wiki/Nuremberg_trials",
-          "checked": "2026-11-27"
+          "checked": "2026-11-28"
         }
+      },
+      "wikidata": "Q80130",
+      "local": {
+        "name": "Nürnberger Prozesse",
+        "lang": "de"
       }
     },
     {
@@ -293,16 +303,21 @@
           "period": "202511-202610",
           "title": "Albrecht Dürer's House",
           "url": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer's_House",
-          "checked": "2026-11-27"
+          "checked": "2026-11-28"
         }
+      },
+      "wikidata": "Q523148",
+      "local": {
+        "name": "Albrecht-Dürer-Haus",
+        "lang": "de"
       }
     },
     {
       "id": "nuremberg-nue-hauptmarkt",
       "name": "Hauptmarkt and the Schöner Brunnen",
       "kind": "see",
-      "lat": 49.454,
-      "lon": 11.0775,
+      "lat": 49.45423,
+      "lon": 11.07706,
       "wiki": "Schöner Brunnen",
       "summary": "Market square with the Frauenkirche and the golden Beautiful Fountain.",
       "expect": "Free.",
@@ -342,7 +357,20 @@
         "Free.",
         "Turn the brass ring in the fountain's grille for luck."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9825,
+          "period": "202511-202610",
+          "title": "Schöner Brunnen",
+          "url": "https://en.wikipedia.org/wiki/Sch%C3%B6ner_Brunnen",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q519595",
+      "local": {
+        "name": "Schöner Brunnen (Nürnberg)",
+        "lang": "de"
+      }
     },
     {
       "id": "nuremberg-nue-gnm",
@@ -395,9 +423,10 @@
           "period": "202511-202610",
           "title": "Germanisches Nationalmuseum",
           "url": "https://en.wikipedia.org/wiki/Germanisches_Nationalmuseum",
-          "checked": "2026-11-27"
+          "checked": "2026-11-28"
         }
-      }
+      },
+      "wikidata": "Q478695"
     },
     {
       "id": "nuremberg-nue-xmas",
@@ -451,8 +480,13 @@
           "period": "202511-202610",
           "title": "Christkindlesmarkt, Nuremberg",
           "url": "https://en.wikipedia.org/wiki/Christkindlesmarkt%2C_Nuremberg",
-          "checked": "2026-11-27"
+          "checked": "2026-11-28"
         }
+      },
+      "wikidata": "Q832700",
+      "local": {
+        "name": "Nürnberger Christkindlesmarkt",
+        "lang": "de"
       }
     },
     {
@@ -625,5 +659,11 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q2090",
+  "local": {
+    "name": "Nürnberg",
+    "lang": "de"
+  }
 }

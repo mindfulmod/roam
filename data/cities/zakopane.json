@@ -66,8 +66,8 @@
       "id": "zakopane-zak-morskie",
       "name": "Morskie Oko",
       "kind": "see",
-      "lat": 49.1974,
-      "lon": 20.0703,
+      "lat": 49.19722,
+      "lon": 20.07083,
       "wiki": "Morskie Oko",
       "summary": "Emerald lake under granite peaks, reached by a 9 km paved road walk or horse cart.",
       "expect": "Park fee; very busy; book parking online.",
@@ -107,15 +107,24 @@
         "Park fee; very busy; book parking online.",
         "Continue up to Czarny Staw for fewer people."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 33388,
+          "period": "202511-202610",
+          "title": "Morskie Oko",
+          "url": "https://en.wikipedia.org/wiki/Morskie_Oko",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q163246"
     },
     {
       "id": "zakopane-zak-kasprowy",
       "name": "Kasprowy Wierch cable car",
       "kind": "see",
-      "lat": 49.232,
-      "lon": 19.9819,
+      "lat": 49.23194,
+      "lon": 19.98194,
       "wiki": "Kasprowy Wierch",
       "summary": "Cable car to a 1,987 m summit on the Polish-Slovak border.",
       "expect": "Paid; book tickets online in season.",
@@ -155,14 +164,23 @@
         "Paid; book tickets online in season.",
         "Walk the ridge a little on a clear day."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14119,
+          "period": "202511-202610",
+          "title": "Kasprowy Wierch",
+          "url": "https://en.wikipedia.org/wiki/Kasprowy_Wierch",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1735189"
     },
     {
       "id": "zakopane-zak-gubalowka",
       "name": "Gubałówka",
       "kind": "see",
-      "lat": 49.306,
-      "lon": 19.936,
+      "lat": 49.3075,
+      "lon": 19.93583,
       "wiki": "Gubałówka",
       "summary": "Funicular to a hill with a market and a classic panorama of the Tatras.",
       "expect": "Touristy.",
@@ -201,7 +219,16 @@
         "Touristy.",
         "Ride up for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11048,
+          "period": "202511-202610",
+          "title": "Gubałówka",
+          "url": "https://en.wikipedia.org/wiki/Guba%C5%82%C3%B3wka",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q913060"
     },
     {
       "id": "zakopane-zak-krupowki",
@@ -302,8 +329,8 @@
       "id": "zakopane-zak-koscieliska",
       "name": "Dolina Kościeliska",
       "kind": "see",
-      "lat": 49.256,
-      "lon": 19.87,
+      "lat": 49.25389,
+      "lon": 19.85028,
       "wiki": "Kościeliska Valley",
       "summary": "Gentle valley walk to caves and a mountain hut.",
       "expect": "Park fee.",
@@ -343,7 +370,16 @@
         "Park fee.",
         "Bring a torch for Mroźna Cave."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2731,
+          "period": "202511-202610",
+          "title": "Kościeliska Valley",
+          "url": "https://en.wikipedia.org/wiki/Ko%C5%9Bcieliska_Valley",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q11694533"
     },
     {
       "id": "zakopane-zak-termy",
@@ -390,7 +426,16 @@
         "Paid.",
         "Go after a hiking day."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 88346,
+          "period": "202511-202610",
+          "title": "Zakopane",
+          "url": "https://en.wikipedia.org/wiki/Zakopane",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "zakopane-zak-oscypek",
@@ -565,5 +610,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q144786"
 }
