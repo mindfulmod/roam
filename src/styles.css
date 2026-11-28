@@ -9891,3 +9891,16 @@ details.season-warning > summary .icon {
 details.season-warning > p {
   margin: 6px 0 0;
 }
+
+/* Places that did not fit fold to one line under the city's days. */
+details.unfit > summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+details.unfit > p {
+  margin: 6px 0 0;
+}
+details.unfit > p.muted {
+  color: var(--muted);
+  font-size: 13px;
+}

@@ -397,7 +397,7 @@ function buildDaysHtml() {
       n++;
     }
     if (sch.unplaced.length)
-      html += `<div class="info-note"><strong>${sch.unplaced.length} more option${sch.unplaced.length > 1 ? 's' : ''} not fitted into these days:</strong> ${sch.unplaced.map((p) => esc(p.name)).join(', ')}. Add days or save only your priorities. The app leaves these visible rather than silently overfilling your itinerary.</div>`;
+      html += `<details class="info-note unfit" data-keep="unfit-${c.id}"><summary>${sch.unplaced.length} more place${sch.unplaced.length > 1 ? 's' : ''} did not fit these days</summary><p>${sch.unplaced.map((p) => esc(p.name)).join(', ')}.</p><p class="muted">Add a day or keep only your favourites. Nothing is squeezed in without telling you.</p></details>`;
     if (ci < S.trip.length - 1) {
       const next = C[S.trip[ci + 1]],
         l = leg(c, next);
