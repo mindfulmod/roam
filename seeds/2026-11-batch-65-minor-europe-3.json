@@ -1,0 +1,2664 @@
+[
+ {
+  "country": "Romania",
+  "region": "Europe",
+  "currency": "RON",
+  "cashTip": "Cards work in towns; carry lei for villages, castles and parking. Tip about 10 percent.",
+  "id": "brasov",
+  "name": "Brașov",
+  "at": [
+   45.6427,
+   25.5887
+  ],
+  "wiki": "Brașov",
+  "cover": "Black Church",
+  "dailyBudget": [
+   200,
+   450
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "seasons": "SSLSHHPPHSLS",
+  "tagline": "Saxon old town and the castles of Transylvania",
+  "summary": "Brașov is a Saxon-built Transylvanian town under the forested Tâmpa mountain. Stroll the Council Square and the Gothic Black Church, ride the cable car to the Hollywood-style sign, and use the town as a base for Bran Castle (sold as Dracula's), the fairy-tale Peleș Castle, fortified Saxon churches and bear-watching in the Carpathians.",
+  "days": 3,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "Summer for hiking and castles; the Christmas market and skiing at Poiana Brașov in winter.",
+  "arrival": "Trains from Bucharest take 2.5 to 3 hours; Brașov airport has a few flights.",
+  "gettingAround": "Walk the old town; trains to Sinaia, buses or a car for Bran and Râșnov.",
+  "foodTip": "Sarmale (cabbage rolls) with polenta, papanași doughnuts, ciorbă soups and mici sausages.",
+  "buyTip": "Local honey, țuică plum brandy and hand-painted ceramics.",
+  "baseArea": "Old town around Piața Sfatului",
+  "hotel": [
+   50,
+   140
+  ],
+  "connections": [
+   {
+    "to": "bucharest",
+    "mode": "Train",
+    "minutes": 165,
+    "note": "Frequent trains via Sinaia."
+   }
+  ],
+  "items": [
+   {
+    "name": "Black Church",
+    "kind": "see",
+    "id": "bra-blackchurch",
+    "at": [
+     45.6408,
+     25.588
+    ],
+    "wiki": "Black Church",
+    "area": "Old town",
+    "summary": "Gothic church named for fire-blackened walls, with a huge collection of Ottoman carpets.",
+    "expect": "Paid; closed Mondays.",
+    "tip": "Catch an organ concert in summer.",
+    "why": "Transylvania's great church.",
+    "flow": [
+     "Nave and carpets.",
+     "Organ."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Council Square (Piața Sfatului)",
+    "kind": "see",
+    "id": "bra-square",
+    "at": [
+     45.6422,
+     25.5889
+    ],
+    "wiki": "Piața Sfatului",
+    "area": "Old town",
+    "summary": "Pastel merchant houses around the old town hall.",
+    "expect": "Free.",
+    "tip": "Sit at a café terrace in the evening.",
+    "why": "Heart of Brașov.",
+    "flow": [
+     "Square.",
+     "Town hall museum."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Tâmpa Mountain",
+    "kind": "see",
+    "id": "bra-tampa",
+    "at": [
+     45.637,
+     25.593
+    ],
+    "wiki": "Tâmpa",
+    "area": "Tâmpa",
+    "summary": "Cable car or forest trail up to the Brașov sign and views over the town.",
+    "expect": "Cable car closed some Mondays.",
+    "tip": "Walk up, ride down.",
+    "why": "Best view of Brașov.",
+    "flow": [
+     "Cable car or hike.",
+     "Viewpoint by the sign."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Rope Street and Catherine's Gate",
+    "kind": "see",
+    "id": "bra-rope",
+    "at": [
+     45.639,
+     25.5875
+    ],
+    "wiki": "Strada Sforii",
+    "area": "Old town",
+    "summary": "One of Europe's narrowest streets, near the turreted medieval town gate.",
+    "expect": "Free.",
+    "tip": "Walk on to the White and Black towers.",
+    "why": "Medieval quirks.",
+    "flow": [
+     "Rope Street.",
+     "Catherine's Gate."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Bran Castle",
+    "kind": "see",
+    "id": "bra-bran",
+    "at": [
+     45.515,
+     25.3672
+    ],
+    "wiki": "Bran Castle",
+    "area": "Bran",
+    "summary": "Hilltop castle marketed as Dracula's, with a royal history of its own.",
+    "expect": "Paid; very busy in summer.",
+    "tip": "Go at opening; the story of Queen Marie is the real draw.",
+    "why": "Transylvania's most famous castle.",
+    "flow": [
+     "Castle rooms.",
+     "Courtyard."
+    ],
+    "hours": 2.5,
+    "price": [
+     70,
+     80
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Peleș Castle",
+    "kind": "see",
+    "id": "bra-peles",
+    "at": [
+     45.36,
+     25.5426
+    ],
+    "wiki": "Peleș Castle",
+    "area": "Sinaia",
+    "summary": "Neo-Renaissance royal palace with lavish carved interiors in the mountains.",
+    "expect": "Paid; closed Mondays and Tuesdays in some months.",
+    "tip": "Take the train to Sinaia and walk up.",
+    "why": "Romania's finest palace.",
+    "flow": [
+     "Ground floor tour.",
+     "Pelișor Castle."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Râșnov Citadel",
+    "kind": "see",
+    "id": "bra-rasnov",
+    "at": [
+     45.5925,
+     25.461
+    ],
+    "wiki": "Râșnov Citadel",
+    "area": "Râșnov",
+    "summary": "Peasant fortress on a hilltop with walls and wide views.",
+    "expect": "Paid.",
+    "tip": "Combine with Bran on the same trip.",
+    "why": "Castle with a view.",
+    "flow": [
+     "Climb up.",
+     "Walls."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Prejmer fortified church",
+    "kind": "see",
+    "id": "bra-prejmer",
+    "at": [
+     45.7228,
+     25.7739
+    ],
+    "wiki": "Prejmer fortified church",
+    "area": "Prejmer",
+    "summary": "UNESCO Saxon church inside a ring of thick walls with storage rooms for villagers.",
+    "expect": "Paid; 20 minutes away.",
+    "tip": "Climb into the defensive gallery.",
+    "why": "Saxon village defence.",
+    "flow": [
+     "Church.",
+     "Wall rooms."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Sarmale with polenta",
+    "kind": "eat",
+    "id": "bra-sarmale",
+    "at": [
+     45.642,
+     25.5885
+    ],
+    "wiki": "Sarmale",
+    "area": "Old town",
+    "summary": "Pickled cabbage rolls of minced pork and rice with polenta and sour cream.",
+    "expect": "Big portions.",
+    "tip": "Sergiana is a well-known traditional spot.",
+    "why": "Romanian classic.",
+    "flow": [
+     "Pick a traditional restaurant.",
+     "Order sarmale."
+    ],
+    "hours": 1.5,
+    "price": [
+     35,
+     55
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Romanian",
+    "order": [
+     "Sarmale",
+     "Mămăligă"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Papanași",
+    "kind": "eat",
+    "id": "bra-papanasi",
+    "at": [
+     45.6422,
+     25.5889
+    ],
+    "wiki": "Papanași",
+    "area": "Old town",
+    "summary": "Fried cheese doughnuts with sour cream and berry jam.",
+    "expect": "Huge.",
+    "tip": "Share one after dinner.",
+    "why": "Best Romanian dessert.",
+    "flow": [
+     "Order to share.",
+     "Enjoy warm."
+    ],
+    "hours": 0.5,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Romanian",
+    "order": [
+     "Papanași"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Ciorbă soups",
+    "kind": "eat",
+    "id": "bra-ciorba",
+    "at": [
+     45.641,
+     25.5895
+    ],
+    "wiki": "Ciorbă",
+    "area": "Old town",
+    "summary": "Sour soups with tripe, beans or meatballs, often served in bread bowls.",
+    "expect": "A lunchtime staple.",
+    "tip": "Try ciorbă de burtă with hot pepper.",
+    "why": "Local comfort.",
+    "flow": [
+     "Find a busy place.",
+     "Order the soup of the day."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     35
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Romanian",
+    "order": [
+     "Ciorbă de burtă",
+     "Bean soup"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Poland",
+  "region": "Europe",
+  "currency": "PLN",
+  "cashTip": "Cards and phone payments work almost everywhere. Tip about 10 percent in restaurants.",
+  "id": "zakopane",
+  "name": "Zakopane",
+  "at": [
+   49.2992,
+   19.9496
+  ],
+  "wiki": "Zakopane",
+  "cover": "Morskie Oko",
+  "dailyBudget": [
+   200,
+   450
+  ],
+  "cashPerDay": [
+   50,
+   150
+  ],
+  "seasons": "HHSLSSPPSLLH",
+  "tagline": "Poland's mountain town at the foot of the Tatras",
+  "summary": "Zakopane is Poland's winter capital and the gateway to the High Tatras. Hike to the glacial lake of Morskie Oko, ride the cable car to Kasprowy Wierch on the Slovak border, browse the smoked cheese stalls on Krupówki street and admire the wooden Zakopane-style houses. Skiing in winter, hut-to-hut hiking in summer.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer for hiking, January to March for skiing; weekends are very busy.",
+  "arrival": "Buses and trains from Kraków take about 2 to 2.5 hours.",
+  "gettingAround": "Minibuses to trailheads; walk the town.",
+  "foodTip": "Oscypek smoked sheep cheese grilled with cranberry, kwaśnica sour cabbage soup and pierogi.",
+  "buyTip": "Oscypek cheese and wool from the Gubałówka market.",
+  "baseArea": "Near Krupówki street",
+  "hotel": [
+   60,
+   160
+  ],
+  "connections": [
+   {
+    "to": "krakow",
+    "mode": "Bus",
+    "minutes": 130,
+    "note": "Frequent buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Morskie Oko",
+    "kind": "see",
+    "id": "zak-morskie",
+    "at": [
+     49.1974,
+     20.0703
+    ],
+    "wiki": "Morskie Oko",
+    "area": "Tatra National Park",
+    "summary": "Emerald lake under granite peaks, reached by a 9 km paved road walk or horse cart.",
+    "expect": "Park fee; very busy; book parking online.",
+    "tip": "Continue up to Czarny Staw for fewer people.",
+    "why": "Poland's most famous lake.",
+    "flow": [
+     "Walk in.",
+     "Czarny Staw climb."
+    ],
+    "hours": 6,
+    "price": [
+     10,
+     40
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true,
+    "book": "Book parking ahead"
+   },
+   {
+    "name": "Kasprowy Wierch cable car",
+    "kind": "see",
+    "id": "zak-kasprowy",
+    "at": [
+     49.232,
+     19.9819
+    ],
+    "wiki": "Kasprowy Wierch",
+    "area": "Kuźnice",
+    "summary": "Cable car to a 1,987 m summit on the Polish-Slovak border.",
+    "expect": "Paid; book tickets online in season.",
+    "tip": "Walk the ridge a little on a clear day.",
+    "why": "Tatra summit views.",
+    "flow": [
+     "Cable car up.",
+     "Ridge walk."
+    ],
+    "hours": 3,
+    "price": [
+     80,
+     120
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ],
+    "book": "Online tickets"
+   },
+   {
+    "name": "Gubałówka",
+    "kind": "see",
+    "id": "zak-gubalowka",
+    "at": [
+     49.306,
+     19.936
+    ],
+    "wiki": "Gubałówka",
+    "area": "Gubałówka",
+    "summary": "Funicular to a hill with a market and a classic panorama of the Tatras.",
+    "expect": "Touristy.",
+    "tip": "Ride up for sunset.",
+    "why": "View of the range.",
+    "flow": [
+     "Funicular.",
+     "Ridge market."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Krupówki Street",
+    "kind": "see",
+    "id": "zak-krupowki",
+    "at": [
+     49.2965,
+     19.951
+    ],
+    "wiki": "Krupówki Street",
+    "area": "Centre",
+    "summary": "Main pedestrian street with wooden inns, stalls and street music.",
+    "expect": "Very busy.",
+    "tip": "Look for highland folk bands in the evening.",
+    "why": "Mountain-town buzz.",
+    "flow": [
+     "Walk the street.",
+     "Stalls."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Villa Koliba and Zakopane style",
+    "kind": "see",
+    "id": "zak-koliba",
+    "at": [
+     49.2964,
+     19.9419
+    ],
+    "wiki": "Villa Koliba",
+    "area": "Kościeliska",
+    "summary": "The first wooden house in the Zakopane style, now a museum.",
+    "expect": "Paid; closed Mondays.",
+    "tip": "Walk on to the old wooden church on Kościeliska.",
+    "why": "Unique architecture.",
+    "flow": [
+     "Museum.",
+     "Old church and cemetery."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Dolina Kościeliska",
+    "kind": "see",
+    "id": "zak-koscieliska",
+    "at": [
+     49.256,
+     19.87
+    ],
+    "wiki": "Kościeliska Valley",
+    "area": "Tatra National Park",
+    "summary": "Gentle valley walk to caves and a mountain hut.",
+    "expect": "Park fee.",
+    "tip": "Bring a torch for Mroźna Cave.",
+    "why": "Easy Tatra hike.",
+    "flow": [
+     "Valley walk.",
+     "Hut lunch."
+    ],
+    "hours": 4,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Chochołowskie Termy",
+    "kind": "see",
+    "id": "zak-termy",
+    "at": [
+     49.277,
+     19.815
+    ],
+    "wiki": "Zakopane",
+    "area": "Witów",
+    "summary": "Big thermal pools with mountain views.",
+    "expect": "Paid.",
+    "tip": "Go after a hiking day.",
+    "why": "Warm soak.",
+    "flow": [
+     "Pools.",
+     "Outdoor basins."
+    ],
+    "hours": 3,
+    "price": [
+     90,
+     120
+    ],
+    "best": "Evening",
+    "p": 3,
+    "types": [
+     "Entertainment",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Grilled oscypek",
+    "kind": "eat",
+    "id": "zak-oscypek",
+    "at": [
+     49.2965,
+     19.951
+    ],
+    "wiki": "Oscypek",
+    "area": "Krupówki",
+    "summary": "Smoked sheep cheese grilled and served with cranberry jam from street stalls.",
+    "expect": "Look for the protected oscypek label.",
+    "tip": "Buy from highlanders at the market.",
+    "why": "Tatra snack.",
+    "flow": [
+     "Find a stall.",
+     "Grilled with cranberry."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Oscypek"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Highland karczma",
+    "kind": "eat",
+    "id": "zak-karczma",
+    "at": [
+     49.297,
+     19.95
+    ],
+    "wiki": "Zakopane",
+    "area": "Krupówki",
+    "summary": "Wooden inns serving kwaśnica, roast lamb and pierogi with live highland music.",
+    "expect": "Busy evenings.",
+    "tip": "Order kwaśnica and placki po góralsku.",
+    "why": "Highland feast.",
+    "flow": [
+     "Find a karczma.",
+     "Order kwaśnica."
+    ],
+    "hours": 1.5,
+    "price": [
+     50,
+     90
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Kwaśnica",
+     "Placki po góralsku"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Mountain hut meal",
+    "kind": "eat",
+    "id": "zak-hut",
+    "at": [
+     49.214,
+     19.98
+    ],
+    "wiki": "Mountain hut",
+    "area": "Tatra huts",
+    "summary": "Schronisko huts serve soup, pierogi and szarlotka to hikers.",
+    "expect": "Cash often needed.",
+    "tip": "Try szarlotka apple cake.",
+    "why": "Lunch on the trail.",
+    "flow": [
+     "Hike in.",
+     "Order at the counter."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Pierogi",
+     "Szarlotka"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Poland",
+  "region": "Europe",
+  "currency": "PLN",
+  "cashTip": "Cards and phone payments work almost everywhere. Tip about 10 percent in restaurants.",
+  "id": "wroclaw",
+  "name": "Wrocław",
+  "at": [
+   51.1079,
+   17.0385
+  ],
+  "wiki": "Wrocław",
+  "cover": "Wrocław Market Square",
+  "dailyBudget": [
+   200,
+   450
+  ],
+  "cashPerDay": [
+   30,
+   100
+  ],
+  "seasons": "LLSSHHHHSSLS",
+  "tagline": "Islands, bridges and hundreds of bronze dwarfs",
+  "summary": "Wrocław is a city of islands and bridges on the Oder, with one of Europe's finest market squares. Hunt for the 600 tiny bronze dwarfs hidden around town, see the lamplighter on Ostrów Tumski at dusk, walk into the 114 m Racławice Panorama painting and climb the cathedral towers.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   12
+  ],
+  "seasonNote": "Summer is lively; the Christmas market is one of Poland's best.",
+  "arrival": "Trains from Kraków take 3 hours, from Berlin about 4h30; the airport is 30 minutes by bus.",
+  "gettingAround": "Walk the centre; trams for the rest.",
+  "foodTip": "Pierogi, żurek sour rye soup in bread, and craft beer from Świdnicka Cellar.",
+  "buyTip": "Bolesławiec stoneware pottery from nearby.",
+  "baseArea": "Old Town around the Rynek",
+  "hotel": [
+   60,
+   150
+  ],
+  "connections": [
+   {
+    "to": "krakow",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Intercity trains."
+   },
+   {
+    "to": "warsaw",
+    "mode": "Train",
+    "minutes": 220,
+    "note": "Intercity trains."
+   },
+   {
+    "to": "berlin",
+    "mode": "Train",
+    "minutes": 270,
+    "note": "Direct trains."
+   },
+   {
+    "to": "prague",
+    "mode": "Bus",
+    "minutes": 270,
+    "note": "Direct buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Market Square (Rynek)",
+    "kind": "see",
+    "id": "wro-rynek",
+    "at": [
+     51.11,
+     17.032
+    ],
+    "wiki": "Market Square, Wrocław",
+    "area": "Old Town",
+    "summary": "Huge square of painted houses around the Gothic Old Town Hall.",
+    "expect": "Free.",
+    "tip": "Look at the town hall's astronomical clock face.",
+    "why": "One of Europe's great squares.",
+    "flow": [
+     "Town Hall.",
+     "Painted houses."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Ostrów Tumski",
+    "kind": "see",
+    "id": "wro-tumski",
+    "at": [
+     51.1143,
+     17.0469
+    ],
+    "wiki": "Ostrów Tumski (Wrocław)",
+    "area": "Cathedral Island",
+    "summary": "Oldest part of town with the cathedral and gas lamps lit by hand each dusk.",
+    "expect": "Free; tower paid.",
+    "tip": "Arrive at dusk to see the lamplighter.",
+    "why": "Magical evening.",
+    "flow": [
+     "Tumski Bridge.",
+     "Cathedral tower."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Dusk",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Racławice Panorama",
+    "kind": "see",
+    "id": "wro-panorama",
+    "at": [
+     51.11,
+     17.0445
+    ],
+    "wiki": "Racławice Panorama",
+    "area": "Old Town",
+    "summary": "Giant 360° painting of a 1794 battle, viewed from a central platform.",
+    "expect": "Timed entry.",
+    "tip": "Book a slot online.",
+    "why": "Painting you stand inside.",
+    "flow": [
+     "Rotunda.",
+     "Audio guide."
+    ],
+    "hours": 1,
+    "price": [
+     45,
+     50
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ],
+    "book": "Timed entry"
+   },
+   {
+    "name": "Wrocław dwarfs hunt",
+    "kind": "see",
+    "id": "wro-dwarfs",
+    "at": [
+     51.11,
+     17.033
+    ],
+    "wiki": "Wrocław's dwarfs",
+    "area": "Old Town",
+    "summary": "Hundreds of bronze dwarf figures hidden on pavements and walls.",
+    "expect": "Free.",
+    "tip": "Get a dwarf map from the tourist office.",
+    "why": "Fun way to explore.",
+    "flow": [
+     "Get a map.",
+     "Find a dozen."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "University of Wrocław Aula Leopoldina",
+    "kind": "see",
+    "id": "wro-uni",
+    "at": [
+     51.114,
+     17.034
+    ],
+    "wiki": "University of Wrocław",
+    "area": "Old Town",
+    "summary": "Baroque university hall and the Mathematical Tower with a rooftop view.",
+    "expect": "Paid.",
+    "tip": "Climb the tower after the hall.",
+    "why": "Baroque glory.",
+    "flow": [
+     "Aula Leopoldina.",
+     "Mathematical Tower."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Centennial Hall and Japanese Garden",
+    "kind": "see",
+    "id": "wro-centennial",
+    "at": [
+     51.1069,
+     17.0772
+    ],
+    "wiki": "Centennial Hall",
+    "area": "Szczytniki",
+    "summary": "UNESCO-listed concrete dome of 1913, with a fountain show and Japanese garden nearby.",
+    "expect": "Hall exhibit paid.",
+    "tip": "Evening fountain shows in summer.",
+    "why": "Modern architecture landmark.",
+    "flow": [
+     "Hall.",
+     "Japanese Garden."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hala Targowa",
+    "kind": "see",
+    "id": "wro-hala",
+    "at": [
+     51.1125,
+     17.04
+    ],
+    "wiki": "Hala Targowa, Wrocław",
+    "area": "Old Town",
+    "summary": "1908 market hall with produce, pickles and cheap lunch counters.",
+    "expect": "Closed Sundays.",
+    "tip": "Grab pierogi at a counter.",
+    "why": "Everyday Wrocław.",
+    "flow": [
+     "Stalls.",
+     "Lunch counter."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Food",
+     "Shopping",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Pierogi",
+    "kind": "eat",
+    "id": "wro-pierogi",
+    "at": [
+     51.1095,
+     17.031
+    ],
+    "wiki": "Pierogi",
+    "area": "Old Town",
+    "summary": "Dumplings filled with potato and cheese, meat or seasonal fruit.",
+    "expect": "Everywhere.",
+    "tip": "Pierogarnia Stary Młyn on the Rynek is popular.",
+    "why": "Polish staple.",
+    "flow": [
+     "Pick a pierogarnia.",
+     "Order a mixed plate."
+    ],
+    "hours": 1,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Pierogi ruskie"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Żurek in bread",
+    "kind": "eat",
+    "id": "wro-zurek",
+    "at": [
+     51.11,
+     17.032
+    ],
+    "wiki": "Żurek",
+    "area": "Old Town",
+    "summary": "Sour rye soup with sausage and egg, served in a hollowed bread loaf.",
+    "expect": "Hearty.",
+    "tip": "Good on a cold day.",
+    "why": "Polish comfort.",
+    "flow": [
+     "Find a tavern.",
+     "Order żurek."
+    ],
+    "hours": 1,
+    "price": [
+     25,
+     40
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Żurek"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Piwnica Świdnicka",
+    "kind": "eat",
+    "id": "wro-swidnicka",
+    "at": [
+     51.1098,
+     17.0318
+    ],
+    "wiki": "Piwnica Świdnicka",
+    "area": "Town Hall",
+    "summary": "One of Europe's oldest restaurants, in the cellars of the town hall.",
+    "expect": "Touristy.",
+    "tip": "Have a beer under the vaults.",
+    "why": "700 years of beer.",
+    "flow": [
+     "Cellar beer.",
+     "Traditional plates."
+    ],
+    "hours": 1.5,
+    "price": [
+     40,
+     100
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Polish",
+    "order": [
+     "Local beer",
+     "Golonka"
+    ],
+    "veg": "some",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Finland",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work everywhere, even for tiny sums. Tipping is not expected.",
+  "id": "rovaniemi",
+  "name": "Rovaniemi",
+  "at": [
+   66.5039,
+   25.7294
+  ],
+  "wiki": "Rovaniemi",
+  "cover": "Santa Claus Village",
+  "dailyBudget": [
+   120,
+   280
+  ],
+  "cashPerDay": [
+   0,
+   10
+  ],
+  "seasons": "PPHSLSHHSLHP",
+  "tagline": "Northern lights, huskies and Santa on the Arctic Circle",
+  "summary": "Rovaniemi is the capital of Finnish Lapland, right on the Arctic Circle. Cross the line at Santa Claus Village, ride a husky or reindeer sled through snowy forest, hunt the northern lights from August to April, learn about the Arctic at Arktikum, and come back in summer for the midnight sun.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   6,
+   7
+  ],
+  "seasonNote": "Northern lights from late August to early April; polar night in December; midnight sun in June and July.",
+  "arrival": "Flights from Helsinki take 1h15; the overnight Santa Claus Express train takes about 10 to 12 hours.",
+  "gettingAround": "Buses to Santa Claus Village; tours include pickups.",
+  "foodTip": "Sautéed reindeer with lingonberries and mash, salmon soup and leipäjuusto squeaky cheese with cloudberry jam.",
+  "buyTip": "Sámi crafts, Marimekko and Moomin goods, and Lappish leather.",
+  "baseArea": "City centre",
+  "hotel": [
+   110,
+   350
+  ],
+  "connections": [
+   {
+    "to": "helsinki",
+    "mode": "Plane",
+    "minutes": 75,
+    "note": "Several flights a day; or the overnight train."
+   }
+  ],
+  "items": [
+   {
+    "name": "Santa Claus Village",
+    "kind": "see",
+    "id": "rov-santa",
+    "at": [
+     66.5436,
+     25.8473
+    ],
+    "wiki": "Santa Claus Village",
+    "area": "Arctic Circle",
+    "summary": "Meet Santa every day of the year and cross the painted Arctic Circle line.",
+    "expect": "Free to enter; photos with Santa cost money.",
+    "tip": "Send a postcard from Santa's Main Post Office.",
+    "why": "On the Arctic Circle.",
+    "flow": [
+     "Arctic Circle line.",
+     "Santa's office."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Husky safari",
+    "kind": "see",
+    "id": "rov-husky",
+    "at": [
+     66.55,
+     25.85
+    ],
+    "wiki": "Dog sled",
+    "area": "Around Rovaniemi",
+    "summary": "Mush your own team of huskies through snowy forest.",
+    "expect": "Winter only; dress warmly.",
+    "tip": "Choose a farm with longer rides and small groups.",
+    "why": "Thrill of Lapland.",
+    "flow": [
+     "Meet the dogs.",
+     "Sled ride."
+    ],
+    "hours": 3,
+    "price": [
+     130,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "book": "Book ahead in December"
+   },
+   {
+    "name": "Northern lights hunt",
+    "kind": "see",
+    "id": "rov-aurora",
+    "at": [
+     66.5039,
+     25.7294
+    ],
+    "wiki": "Aurora",
+    "area": "Outside town",
+    "summary": "Drive away from city lights to watch the aurora borealis.",
+    "expect": "Never guaranteed.",
+    "tip": "Check the aurora forecast and cloud cover.",
+    "why": "Bucket-list sight.",
+    "flow": [
+     "Head out of town.",
+     "Wait for the lights."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     120
+    ],
+    "best": "Night",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Arktikum",
+    "kind": "see",
+    "id": "rov-arktikum",
+    "at": [
+     66.51,
+     25.729
+    ],
+    "wiki": "Arktikum (museum)",
+    "area": "Centre",
+    "summary": "Museum of Arctic nature and Sámi life under a long glass tube.",
+    "expect": "Paid; closed some Mondays.",
+    "tip": "Watch the aurora film inside.",
+    "why": "Understand the north.",
+    "flow": [
+     "Arctic hall.",
+     "Sámi exhibits."
+    ],
+    "hours": 2,
+    "price": [
+     18,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Reindeer farm",
+    "kind": "see",
+    "id": "rov-reindeer",
+    "at": [
+     66.54,
+     25.84
+    ],
+    "wiki": "Reindeer",
+    "area": "Around Rovaniemi",
+    "summary": "Visit a family farm and ride a reindeer sleigh.",
+    "expect": "Many tours include it.",
+    "tip": "Ask about reindeer herding life.",
+    "why": "Lapland culture.",
+    "flow": [
+     "Feed the reindeer.",
+     "Sleigh ride."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     120
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ounasvaara hill",
+    "kind": "see",
+    "id": "rov-ounasvaara",
+    "at": [
+     66.497,
+     25.784
+    ],
+    "wiki": "Ounasvaara",
+    "area": "Ounasvaara",
+    "summary": "Ski hill and summer hiking trails with a view over the river and town.",
+    "expect": "Free walking.",
+    "tip": "Midnight sun view in summer.",
+    "why": "Town view.",
+    "flow": [
+     "Hike up.",
+     "View."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Korundi House of Culture",
+    "kind": "see",
+    "id": "rov-korundi",
+    "at": [
+     66.503,
+     25.724
+    ],
+    "wiki": "Korundi",
+    "area": "Centre",
+    "summary": "Art museum and concert hall in an old brick post-bus depot.",
+    "expect": "Paid.",
+    "tip": "Check for a Lapland Chamber Orchestra concert.",
+    "why": "Arctic art.",
+    "flow": [
+     "Galleries.",
+     "Concert."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Sautéed reindeer",
+    "kind": "eat",
+    "id": "rov-poronkaristys",
+    "at": [
+     66.503,
+     25.727
+    ],
+    "wiki": "Sautéed reindeer",
+    "area": "Centre",
+    "summary": "Thin-sliced reindeer cooked in butter with mashed potatoes and lingonberries.",
+    "expect": "On most Lappish menus.",
+    "tip": "Nili is a known Lappish restaurant.",
+    "why": "Lappish classic.",
+    "flow": [
+     "Choose a Lappish place.",
+     "Order poronkäristys."
+    ],
+    "hours": 1.5,
+    "price": [
+     28,
+     38
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Lappish",
+    "order": [
+     "Poronkäristys"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Salmon soup",
+    "kind": "eat",
+    "id": "rov-salmonsoup",
+    "at": [
+     66.502,
+     25.728
+    ],
+    "wiki": "Lohikeitto",
+    "area": "Centre",
+    "summary": "Creamy salmon and potato soup with dill and rye bread.",
+    "expect": "Lunch buffets often include it.",
+    "tip": "Try a lunch buffet for good value.",
+    "why": "Finnish comfort.",
+    "flow": [
+     "Find a lunch place.",
+     "Order lohikeitto."
+    ],
+    "hours": 1,
+    "price": [
+     14,
+     20
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Finnish",
+    "order": [
+     "Lohikeitto"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Leipäjuusto with cloudberries",
+    "kind": "eat",
+    "id": "rov-cheese",
+    "at": [
+     66.5039,
+     25.7294
+    ],
+    "wiki": "Leipäjuusto",
+    "area": "Centre",
+    "summary": "Warm squeaky bread-cheese served with cloudberry jam.",
+    "expect": "A dessert or coffee treat.",
+    "tip": "Have it with coffee.",
+    "why": "Northern treat.",
+    "flow": [
+     "Order for dessert.",
+     "With coffee."
+    ],
+    "hours": 0.5,
+    "price": [
+     8,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Finnish",
+    "order": [
+     "Leipäjuusto",
+     "Cloudberry jam"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Faroe Islands",
+  "region": "Europe",
+  "currency": "DKK",
+  "cashTip": "The Faroese króna is on a par with the Danish krone, and cards work everywhere. Tipping is not expected.",
+  "id": "faroe-islands",
+  "name": "Faroe Islands",
+  "at": [
+   62.0107,
+   -6.7741
+  ],
+  "wiki": "Faroe Islands",
+  "cover": "Múlafossur",
+  "dailyBudget": [
+   900,
+   2000
+  ],
+  "cashPerDay": [
+   0,
+   100
+  ],
+  "seasons": "LLLSSHPPSLLL",
+  "tagline": "Sheer cliffs, grass-roofed villages and sea-level waterfalls",
+  "summary": "The Faroe Islands are 18 rugged islands in the North Atlantic between Iceland and Norway. Photograph the Múlafossur waterfall dropping into the sea at Gásadalur, hike to the lake that hangs above the ocean at Sørvágsvatn, take the ferry to Mykines for puffins, and stay in Tórshavn, one of the world's smallest capitals.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   7,
+   8
+  ],
+  "seasonNote": "May to August for long days and puffins (Mykines, roughly May to August); weather changes fast all year.",
+  "arrival": "Flights from Copenhagen take 2 hours; Vágar Airport is 45 minutes from Tórshavn by tunnel.",
+  "gettingAround": "Rent a car; undersea tunnels link the main islands (some tolled), ferries and helicopters reach the rest.",
+  "foodTip": "Fermented ræst lamb and fish, fresh langoustines and Faroese salmon.",
+  "buyTip": "Faroese wool knitwear.",
+  "baseArea": "Tórshavn",
+  "hotel": [
+   160,
+   350
+  ],
+  "connections": [
+   {
+    "to": "copenhagen",
+    "mode": "Plane",
+    "minutes": 125,
+    "note": "Daily flights."
+   },
+   {
+    "to": "reykjavik",
+    "mode": "Plane",
+    "minutes": 90,
+    "note": "Seasonal flights."
+   }
+  ],
+  "items": [
+   {
+    "name": "Múlafossur waterfall, Gásadalur",
+    "kind": "see",
+    "id": "far-mulafossur",
+    "at": [
+     62.108,
+     -7.434
+    ],
+    "wiki": "Múlafossur",
+    "area": "Vágar",
+    "summary": "Waterfall plunging off a cliff into the ocean below a tiny village.",
+    "expect": "Close to the airport; viewpoint is free.",
+    "tip": "Go in the evening light.",
+    "why": "The Faroe postcard.",
+    "flow": [
+     "Village.",
+     "Waterfall viewpoint."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Sørvágsvatn (Lake above the ocean)",
+    "kind": "see",
+    "id": "far-sorvagsvatn",
+    "at": [
+     62.051,
+     -7.233
+    ],
+    "wiki": "Sørvágsvatn",
+    "area": "Vágar",
+    "summary": "Hike along the lake to the Trælanípa cliff for the illusion of a lake floating above the sea.",
+    "expect": "Private land; hiking fee.",
+    "tip": "Allow 3 hours return.",
+    "why": "Famous optical illusion.",
+    "flow": [
+     "Walk the lake.",
+     "Trælanípa cliff."
+    ],
+    "hours": 3,
+    "price": [
+     200,
+     250
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Mykines",
+    "kind": "see",
+    "id": "far-mykines",
+    "at": [
+     62.103,
+     -7.646
+    ],
+    "wiki": "Mykines",
+    "area": "Mykines",
+    "summary": "Remote island with puffin colonies and a lighthouse walk.",
+    "expect": "Ferry or helicopter; hiking fee; guide sometimes required.",
+    "tip": "Book the ferry early; check the weather.",
+    "why": "Puffins up close.",
+    "flow": [
+     "Ferry.",
+     "Puffin hike."
+    ],
+    "hours": 7,
+    "price": [
+     500,
+     800
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "book": "Ferry and hike booking",
+    "excursion": true
+   },
+   {
+    "name": "Tórshavn old town (Tinganes)",
+    "kind": "see",
+    "id": "far-torshavn",
+    "at": [
+     62.009,
+     -6.77
+    ],
+    "wiki": "Tinganes",
+    "area": "Tórshavn",
+    "summary": "Turf-roofed red houses on the rock where one of the world's oldest parliaments met.",
+    "expect": "Free.",
+    "tip": "Walk around the harbour at sunset.",
+    "why": "Tiny capital charm.",
+    "flow": [
+     "Tinganes.",
+     "Harbour."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Saksun",
+    "kind": "see",
+    "id": "far-saksun",
+    "at": [
+     62.249,
+     -7.177
+    ],
+    "wiki": "Saksun",
+    "area": "Streymoy",
+    "summary": "Grass-roofed church and farms above a tidal lagoon.",
+    "expect": "Walking fee near the farm.",
+    "tip": "Walk to the lagoon at low tide.",
+    "why": "Fairy-tale village.",
+    "flow": [
+     "Church.",
+     "Lagoon walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     75
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Gjógv",
+    "kind": "see",
+    "id": "far-gjogv",
+    "at": [
+     62.324,
+     -6.944
+    ],
+    "wiki": "Gjógv",
+    "area": "Eysturoy",
+    "summary": "Village beside a deep sea gorge used as a natural harbour.",
+    "expect": "Free.",
+    "tip": "Have waffles at the guesthouse.",
+    "why": "Gorge village.",
+    "flow": [
+     "Gorge.",
+     "Village walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Kirkjubøur",
+    "kind": "see",
+    "id": "far-kirkjubour",
+    "at": [
+     61.956,
+     -6.793
+    ],
+    "wiki": "Kirkjubøur",
+    "area": "Streymoy",
+    "summary": "Medieval church ruins and a farmhouse lived in by the same family for 17 generations.",
+    "expect": "Small fee for the farmhouse.",
+    "tip": "Combine with a Tórshavn day.",
+    "why": "Faroese history.",
+    "flow": [
+     "Magnus Cathedral ruin.",
+     "Roykstovan farmhouse."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Ræst food",
+    "kind": "eat",
+    "id": "far-raest",
+    "at": [
+     62.01,
+     -6.772
+    ],
+    "wiki": "Ræst",
+    "area": "Tórshavn",
+    "summary": "Fermented wind-dried lamb and fish, the islands' oldest taste.",
+    "expect": "Strong flavour.",
+    "tip": "Raest restaurant in Tórshavn serves a whole menu of it.",
+    "why": "Unique food culture.",
+    "flow": [
+     "Book a table.",
+     "Try ræst lamb."
+    ],
+    "hours": 2,
+    "price": [
+     600,
+     1200
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Faroese",
+    "order": [
+     "Ræst kjøt"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "book": "Book ahead"
+   },
+   {
+    "name": "Langoustines and seafood",
+    "kind": "eat",
+    "id": "far-seafood",
+    "at": [
+     62.011,
+     -6.771
+    ],
+    "wiki": "Faroe Islands",
+    "area": "Tórshavn",
+    "summary": "Fresh Faroese langoustines, cod and salmon.",
+    "expect": "Pricey.",
+    "tip": "Look for harbour-front restaurants.",
+    "why": "Ocean fresh.",
+    "flow": [
+     "Harbour restaurant.",
+     "Langoustines."
+    ],
+    "hours": 1.5,
+    "price": [
+     250,
+     450
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Langoustine",
+     "Salmon"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Heimablídni home dining",
+    "kind": "eat",
+    "id": "far-heimablidni",
+    "at": [
+     62.0107,
+     -6.7741
+    ],
+    "wiki": "Faroe Islands",
+    "area": "Villages",
+    "summary": "Dinner in a Faroese family's home, a local tradition.",
+    "expect": "Book well ahead.",
+    "tip": "Ask the tourist office for hosts.",
+    "why": "Meet locals.",
+    "flow": [
+     "Book a host.",
+     "Dine at home."
+    ],
+    "hours": 2.5,
+    "price": [
+     500,
+     900
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Faroese",
+    "order": [
+     "Home-cooked menu"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area",
+    "book": "Book ahead"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted, but carry cash for tavernas, kiosks and beach loungers. Tip 5 to 10 percent.",
+  "id": "naxos",
+  "name": "Naxos",
+  "at": [
+   37.1036,
+   25.3766
+  ],
+  "wiki": "Naxos",
+  "cover": "Portara",
+  "dailyBudget": [
+   60,
+   140
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "The Cycladic island of beaches, marble villages and the Portara",
+  "summary": "Naxos is the biggest Cycladic island and the greenest, with long sandy beaches and mountain villages. Watch sunset through the giant marble Portara gate, get lost in the Venetian castle lanes of Chora, swim at Plaka and Agios Prokopios, and drive inland to Halki, Apeiranthos and the Temple of Demeter.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "June and September are warm and calmer; August is busy and windy with the meltemi.",
+  "arrival": "Ferries from Piraeus take 3.5 to 6 hours; short flights from Athens.",
+  "gettingAround": "Buses link Chora and the beaches; rent a car or quad for the villages.",
+  "foodTip": "Naxos potatoes, graviera and arseniko cheeses, kitron liqueur and local meats.",
+  "buyTip": "Kitron liqueur and Naxos cheese.",
+  "baseArea": "Chora or Agios Georgios beach",
+  "hotel": [
+   60,
+   200
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Ferry",
+    "minutes": 240,
+    "note": "Daily ferries from Piraeus."
+   },
+   {
+    "to": "paros",
+    "mode": "Ferry",
+    "minutes": 40,
+    "note": "Frequent ferries."
+   },
+   {
+    "to": "santorini",
+    "mode": "Ferry",
+    "minutes": 90,
+    "note": "Daily ferries."
+   },
+   {
+    "to": "mykonos",
+    "mode": "Ferry",
+    "minutes": 45,
+    "note": "Daily fast ferries."
+   }
+  ],
+  "items": [
+   {
+    "name": "Portara",
+    "kind": "see",
+    "id": "nax-portara",
+    "at": [
+     37.1101,
+     25.3725
+    ],
+    "wiki": "Portara",
+    "area": "Palatia",
+    "summary": "Huge marble doorway of an unfinished temple to Apollo on an islet by the harbour.",
+    "expect": "Free; very busy at sunset.",
+    "tip": "Come early for sunset or watch from the causeway.",
+    "why": "Naxos' landmark.",
+    "flow": [
+     "Walk the causeway.",
+     "Sunset through the gate."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Chora old town and Kastro",
+    "kind": "see",
+    "id": "nax-kastro",
+    "at": [
+     37.1055,
+     25.377
+    ],
+    "wiki": "Naxos (city)",
+    "area": "Chora",
+    "summary": "Whitewashed lanes climbing to a 13th-century Venetian castle quarter.",
+    "expect": "Free; museum paid.",
+    "tip": "Visit the archaeological museum inside the Kastro.",
+    "why": "Venetian Naxos.",
+    "flow": [
+     "Market lanes.",
+     "Kastro."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Plaka and Agios Prokopios beaches",
+    "kind": "see",
+    "id": "nax-plaka",
+    "at": [
+     37.0455,
+     25.3653
+    ],
+    "wiki": "Plaka (Naxos)",
+    "area": "West coast",
+    "summary": "Long golden beaches with clear water and dunes.",
+    "expect": "Loungers cost money.",
+    "tip": "Walk south along Plaka for quiet spots.",
+    "why": "Best beaches.",
+    "flow": [
+     "Agios Prokopios.",
+     "Plaka."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Halki and the Tragea valley",
+    "kind": "see",
+    "id": "nax-halki",
+    "at": [
+     37.061,
+     25.495
+    ],
+    "wiki": "Chalki, Naxos",
+    "area": "Tragea",
+    "summary": "Old capital among olive groves, with the Vallindras kitron distillery.",
+    "expect": "Car or bus.",
+    "tip": "Taste kitron at the distillery.",
+    "why": "Inland Naxos.",
+    "flow": [
+     "Village.",
+     "Kitron tasting."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Food"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Apeiranthos",
+    "kind": "see",
+    "id": "nax-apeiranthos",
+    "at": [
+     37.073,
+     25.524
+    ],
+    "wiki": "Apeiranthos",
+    "area": "Mountains",
+    "summary": "Marble-paved mountain village with small museums.",
+    "expect": "Winding road.",
+    "tip": "Have lunch on the main lane.",
+    "why": "Marble village.",
+    "flow": [
+     "Marble lanes.",
+     "Museums."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Temple of Demeter",
+    "kind": "see",
+    "id": "nax-demeter",
+    "at": [
+     37.042,
+     25.463
+    ],
+    "wiki": "Temple of Demeter (Naxos)",
+    "area": "Sangri",
+    "summary": "Restored 6th-century BC marble temple in farmland.",
+    "expect": "Small fee; closed Tuesdays.",
+    "tip": "Combine with Halki.",
+    "why": "Ancient marble.",
+    "flow": [
+     "Temple.",
+     "Small museum."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     6
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kouros of Apollonas",
+    "kind": "see",
+    "id": "nax-kouros",
+    "at": [
+     37.177,
+     25.552
+    ],
+    "wiki": "Kouros of Apollonas",
+    "area": "Apollonas",
+    "summary": "Giant 10 m unfinished marble statue lying in an ancient quarry.",
+    "expect": "Free.",
+    "tip": "Drive the north coast road.",
+    "why": "Ancient mystery.",
+    "flow": [
+     "Quarry.",
+     "Fish lunch in Apollonas."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Naxian taverna",
+    "kind": "eat",
+    "id": "nax-taverna",
+    "at": [
+     37.105,
+     25.376
+    ],
+    "wiki": "Naxos",
+    "area": "Chora",
+    "summary": "Grilled local meats, Naxos potatoes and graviera cheese.",
+    "expect": "Tavernas fill late.",
+    "tip": "Order the local beef and fried graviera.",
+    "why": "Farm-to-table island.",
+    "flow": [
+     "Pick a taverna.",
+     "Order local meat."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Fried graviera",
+     "Naxos potatoes"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Seafront fish tavernas",
+    "kind": "eat",
+    "id": "nax-fish",
+    "at": [
+     37.104,
+     25.376
+    ],
+    "wiki": "Naxos (city)",
+    "area": "Harbour",
+    "summary": "Fresh grilled fish and octopus by the water.",
+    "expect": "Fish priced by the kilo.",
+    "tip": "Ask the price before ordering.",
+    "why": "Sea and sunset.",
+    "flow": [
+     "Pick the fish.",
+     "Grilled octopus."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Grilled octopus"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Kitron liqueur",
+    "kind": "eat",
+    "id": "nax-kitron",
+    "at": [
+     37.061,
+     25.495
+    ],
+    "wiki": "Kitron",
+    "area": "Halki",
+    "summary": "Sweet liqueur made from citron leaves, only on Naxos.",
+    "expect": "Three strengths by colour.",
+    "tip": "Taste green, yellow and clear.",
+    "why": "Island spirit.",
+    "flow": [
+     "Tasting.",
+     "Buy a bottle."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Kitron"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Greece",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are widely accepted, but carry cash for tavernas, kiosks and beach loungers. Tip 5 to 10 percent.",
+  "id": "zakynthos",
+  "name": "Zakynthos",
+  "at": [
+   37.787,
+   20.8999
+  ],
+  "wiki": "Zakynthos",
+  "cover": "Navagio",
+  "dailyBudget": [
+   60,
+   140
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "seasons": "LLLSSHPPHSLL",
+  "tagline": "Shipwreck Beach, sea caves and loggerhead turtles",
+  "summary": "Zakynthos is an Ionian island of white cliffs and electric-blue water. See the famous Shipwreck Beach of Navagio from the cliff-top viewpoint or by boat, swim inside the Blue Caves, spot loggerhead turtles in Laganas Bay, and taste the island's Venetian-era food and music in the villages.",
+  "days": 4,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "June and September are ideal; Laganas is party-busy in July and August.",
+  "arrival": "Direct summer flights from much of Europe; ferries from Kyllini on the mainland take 1 hour.",
+  "gettingAround": "Rent a car or scooter; boat trips for Navagio and the caves.",
+  "foodTip": "Sartsa beef stew, ladotyri cheese, mandolato nougat and Verdea wine.",
+  "buyTip": "Mandolato nougat and local olive oil.",
+  "baseArea": "Zakynthos Town or Tsilivi",
+  "hotel": [
+   60,
+   200
+  ],
+  "connections": [
+   {
+    "to": "athens",
+    "mode": "Plane",
+    "minutes": 50,
+    "note": "Daily flights; or bus and ferry via Kyllini."
+   }
+  ],
+  "items": [
+   {
+    "name": "Navagio (Shipwreck Beach)",
+    "kind": "see",
+    "id": "zak-navagio",
+    "at": [
+     37.859,
+     20.6247
+    ],
+    "wiki": "Navagio",
+    "area": "Northwest coast",
+    "summary": "Rusting shipwreck on a white cove under sheer cliffs.",
+    "expect": "Landing on the beach is often banned after rockfalls; check before booking.",
+    "tip": "See it from the cliff viewpoint in the morning.",
+    "why": "World-famous view.",
+    "flow": [
+     "Cliff viewpoint.",
+     "Boat trip below."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Blue Caves",
+    "kind": "see",
+    "id": "zak-bluecaves",
+    "at": [
+     37.9185,
+     20.704
+    ],
+    "wiki": "Blue Caves (Zakynthos)",
+    "area": "Skinari",
+    "summary": "Sea caves where sunlight turns the water glowing blue.",
+    "expect": "Small boats from Agios Nikolaos or Skinari.",
+    "tip": "Go before 11 am for the best light.",
+    "why": "Swim in blue.",
+    "flow": [
+     "Boat.",
+     "Swim in the caves."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Marathonisi (Turtle Island)",
+    "kind": "see",
+    "id": "zak-marathonisi",
+    "at": [
+     37.687,
+     20.879
+    ],
+    "wiki": "Marathonisi",
+    "area": "Laganas Bay",
+    "summary": "Island in the marine park where loggerhead turtles nest.",
+    "expect": "Protected nesting rules apply.",
+    "tip": "Choose a turtle-friendly licensed boat.",
+    "why": "Turtles in the wild.",
+    "flow": [
+     "Boat trip.",
+     "Swim at the island."
+    ],
+    "hours": 3,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Keri cliffs and lighthouse",
+    "kind": "see",
+    "id": "zak-keri",
+    "at": [
+     37.655,
+     20.809
+    ],
+    "wiki": "Keri, Zakynthos",
+    "area": "South coast",
+    "summary": "Cliff-top lighthouse with arches in the sea below.",
+    "expect": "Free.",
+    "tip": "Have a drink at the café at sunset.",
+    "why": "Sunset spot.",
+    "flow": [
+     "Lighthouse.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Zakynthos Town and Bochali",
+    "kind": "see",
+    "id": "zak-town",
+    "at": [
+     37.787,
+     20.8999
+    ],
+    "wiki": "Zakynthos (city)",
+    "area": "Town",
+    "summary": "Arcaded town rebuilt after the 1953 quake, with the Venetian castle hill of Bochali above.",
+    "expect": "Castle paid.",
+    "tip": "Have dinner at Bochali for the view.",
+    "why": "Town life.",
+    "flow": [
+     "Solomos Square.",
+     "Bochali castle."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Porto Limnionas",
+    "kind": "see",
+    "id": "zak-limnionas",
+    "at": [
+     37.761,
+     20.667
+    ],
+    "wiki": "Zakynthos",
+    "area": "West coast",
+    "summary": "Rocky inlet with turquoise water for swimming off the rocks.",
+    "expect": "Small taverna, no sand.",
+    "tip": "Bring water shoes.",
+    "why": "Clear water swim.",
+    "flow": [
+     "Swim.",
+     "Taverna lunch."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sartsa and island stews",
+    "kind": "eat",
+    "id": "zak-sartsa",
+    "at": [
+     37.788,
+     20.9
+    ],
+    "wiki": "Zakynthos",
+    "area": "Villages",
+    "summary": "Beef braised with tomato, garlic and cheese, a Zakynthian speciality.",
+    "expect": "In village tavernas.",
+    "tip": "Ask for local dishes, not the tourist menu.",
+    "why": "Island food.",
+    "flow": [
+     "Pick a village taverna.",
+     "Order sartsa."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Sartsa",
+     "Ladotyri"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Kantades dinner",
+    "kind": "eat",
+    "id": "zak-kantades",
+    "at": [
+     37.788,
+     20.901
+    ],
+    "wiki": "Kantada",
+    "area": "Town",
+    "summary": "Tavernas where singers perform kantades, Venetian-style serenades.",
+    "expect": "Evenings, mostly summer.",
+    "tip": "Ask locals where kantades play tonight.",
+    "why": "Music and food.",
+    "flow": [
+     "Find a taverna with music.",
+     "Dinner and songs."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Meze"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Mandolato nougat",
+    "kind": "eat",
+    "id": "zak-mandolato",
+    "at": [
+     37.787,
+     20.9
+    ],
+    "wiki": "Mandolato",
+    "area": "Town",
+    "summary": "Soft white almond nougat, a Zakynthos sweet.",
+    "expect": "Sold in town shops.",
+    "tip": "Buy from a family workshop.",
+    "why": "Sweet souvenir.",
+    "flow": [
+     "Find a shop.",
+     "Taste and buy."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Greek",
+    "order": [
+     "Mandolato"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]
