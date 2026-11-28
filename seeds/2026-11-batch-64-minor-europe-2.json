@@ -1,0 +1,2723 @@
+[
+ {
+  "country": "Spain",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards work almost everywhere; tipping is optional.",
+  "id": "ronda",
+  "name": "Ronda",
+  "at": [
+   36.7423,
+   -5.1671
+  ],
+  "wiki": "Ronda",
+  "cover": "Puente Nuevo",
+  "dailyBudget": [
+   70,
+   150
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "seasons": "LLSHHHSSHHSL",
+  "tagline": "A white town split by a dizzying gorge",
+  "summary": "Ronda sits on a cliff split in two by the deep El Tajo gorge, joined by the towering Puente Nuevo bridge. Walk down to the viewpoints below the bridge, see Spain's oldest bullring, explore Moorish baths and palace gardens, and drive the white villages of the Serranía de Ronda.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10
+  ],
+  "seasonNote": "Spring and autumn are ideal; summers are hot, winters cool for Andalusia.",
+  "arrival": "Trains and buses from Málaga (about 2 hours) and Seville; about 1h45 by car from the Costa del Sol.",
+  "gettingAround": "Walk the town; a car is best for the white villages.",
+  "foodTip": "Rabo de toro (oxtail), Serranía game stews and Ronda wines.",
+  "buyTip": "Local wines from the Serranía de Ronda and olive oil.",
+  "baseArea": "La Ciudad (old town) near the bridge",
+  "hotel": [
+   70,
+   200
+  ],
+  "connections": [
+   {
+    "to": "malaga",
+    "mode": "Train",
+    "minutes": 110,
+    "note": "Trains and buses."
+   },
+   {
+    "to": "seville",
+    "mode": "Bus",
+    "minutes": 150,
+    "note": "Several buses a day."
+   },
+   {
+    "to": "granada",
+    "mode": "Train",
+    "minutes": 150,
+    "note": "Direct trains."
+   }
+  ],
+  "items": [
+   {
+    "name": "Puente Nuevo",
+    "kind": "see",
+    "id": "ron-puente",
+    "at": [
+     36.7409,
+     -5.1659
+    ],
+    "wiki": "Puente Nuevo",
+    "area": "El Tajo",
+    "summary": "18th-century bridge rising 98 m from the bottom of the gorge.",
+    "expect": "Free; small museum inside.",
+    "tip": "Walk the path down to the Mirador de Aldehuela.",
+    "why": "Ronda's icon.",
+    "flow": [
+     "Cross the bridge.",
+     "Path to the viewpoint below."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Plaza de Toros de Ronda",
+    "kind": "see",
+    "id": "ron-bullring",
+    "at": [
+     36.7425,
+     -5.1667
+    ],
+    "wiki": "Plaza de toros de Ronda",
+    "area": "Mercadillo",
+    "summary": "One of Spain's oldest bullrings, birthplace of modern bullfighting on foot, with a museum.",
+    "expect": "Paid.",
+    "tip": "Look round the arena and stables; no fight needed.",
+    "why": "Spanish history.",
+    "flow": [
+     "Arena.",
+     "Museum."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Arab Baths",
+    "kind": "see",
+    "id": "ron-baths",
+    "at": [
+     36.7375,
+     -5.1624
+    ],
+    "wiki": "Arab Baths, Ronda",
+    "area": "San Miguel",
+    "summary": "The best-preserved Moorish baths in Spain, with star-shaped skylights.",
+    "expect": "Paid; small.",
+    "tip": "Watch the short video first.",
+    "why": "Moorish Ronda.",
+    "flow": [
+     "Video.",
+     "Baths."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Casa del Rey Moro and the Mine",
+    "kind": "see",
+    "id": "ron-reymoro",
+    "at": [
+     36.739,
+     -5.163
+    ],
+    "wiki": "Casa del Rey Moro",
+    "area": "La Ciudad",
+    "summary": "Gardens and a Moorish stairway cut 60 m down to the river inside the gorge.",
+    "expect": "Paid; many steep steps.",
+    "tip": "Go down slowly; it's damp.",
+    "why": "Inside the gorge.",
+    "flow": [
+     "Gardens.",
+     "Mine stairs."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     10
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Alameda del Tajo and Balcón del Coño",
+    "kind": "see",
+    "id": "ron-alameda",
+    "at": [
+     36.7435,
+     -5.168
+    ],
+    "wiki": "Ronda",
+    "area": "Mercadillo",
+    "summary": "Park ending at a balcony hanging over the cliff edge.",
+    "expect": "Free.",
+    "tip": "Come at sunset for the valley glow.",
+    "why": "Cliff-edge view.",
+    "flow": [
+     "Park stroll.",
+     "Balcony view."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Setenil de las Bodegas",
+    "kind": "see",
+    "id": "ron-setenil",
+    "at": [
+     36.8624,
+     -5.1806
+    ],
+    "wiki": "Setenil de las Bodegas",
+    "area": "White villages",
+    "summary": "White village with houses built under huge rock overhangs.",
+    "expect": "20 minutes by car.",
+    "tip": "Walk Cuevas del Sol and Cuevas de la Sombra.",
+    "why": "Unique village.",
+    "flow": [
+     "Rock streets.",
+     "Tapas under the rock."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Rabo de toro",
+    "kind": "eat",
+    "id": "ron-rabo",
+    "at": [
+     36.742,
+     -5.166
+    ],
+    "wiki": "Oxtail",
+    "area": "La Ciudad",
+    "summary": "Slow-cooked oxtail stew in red wine, a Ronda speciality.",
+    "expect": "Heavy.",
+    "tip": "Order with a local Serranía red.",
+    "why": "Signature dish.",
+    "flow": [
+     "Pick a taverna.",
+     "Order rabo de toro."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Andalusian",
+    "order": [
+     "Rabo de toro"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Tapas on Plaza del Socorro",
+    "kind": "eat",
+    "id": "ron-socorro",
+    "at": [
+     36.7432,
+     -5.1673
+    ],
+    "wiki": "Ronda",
+    "area": "Mercadillo",
+    "summary": "The lively main square lined with tapas bars.",
+    "expect": "Busy evenings.",
+    "tip": "Hop between bars, a few tapas each.",
+    "why": "Local evening life.",
+    "flow": [
+     "Tapas crawl.",
+     "Sit out on the square."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Spanish",
+    "order": [
+     "Tapas",
+     "Ronda wine"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Ronda wineries",
+    "kind": "eat",
+    "id": "ron-wine",
+    "at": [
+     36.73,
+     -5.19
+    ],
+    "wiki": "Ronda",
+    "area": "Serranía de Ronda",
+    "summary": "Small wineries in the hills around town offer tastings.",
+    "expect": "Book ahead; drive or taxi.",
+    "tip": "Descalzos Viejos sits in an old convent below the gorge.",
+    "why": "Local wine.",
+    "flow": [
+     "Book a tasting.",
+     "Taste in the cellar."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Serranía red"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area",
+    "book": "Book ahead"
+   }
+  ]
+ },
+ {
+  "country": "Netherlands",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Cards are used everywhere; some places are card only.",
+  "id": "the-hague",
+  "name": "The Hague",
+  "at": [
+   52.0705,
+   4.3007
+  ],
+  "wiki": "The Hague",
+  "cover": "Mauritshuis",
+  "dailyBudget": [
+   90,
+   200
+  ],
+  "cashPerDay": [
+   0,
+   10
+  ],
+  "seasons": "LLSSHHHHSSLL",
+  "tagline": "Girl with a Pearl Earring, parliament and the beach",
+  "summary": "The Hague is the Netherlands' seat of government and a city of courts, palaces and a long North Sea beach. See Vermeer's Girl with a Pearl Earring in the Mauritshuis, walk the medieval Binnenhof, visit the Escher museum and the Peace Palace, then ride the tram to Scheveningen's pier and dunes. Delft's canals are ten minutes away.",
+  "days": 2,
+  "bestMonths": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer for the beach; April for tulips at nearby Keukenhof.",
+  "arrival": "Trains from Amsterdam take 50 minutes and from Schiphol 30 minutes; Rotterdam is 25 minutes away.",
+  "gettingAround": "Trams cover the city and run to Scheveningen and Delft; bikes everywhere.",
+  "foodTip": "Raw herring at Scheveningen, Indonesian rijsttafel (the city has a big Indo community) and poffertjes.",
+  "buyTip": "Delft blue pottery in nearby Delft.",
+  "baseArea": "City centre near the Binnenhof",
+  "hotel": [
+   110,
+   250
+  ],
+  "connections": [
+   {
+    "to": "amsterdam",
+    "mode": "Train",
+    "minutes": 50,
+    "note": "Frequent intercity trains."
+   },
+   {
+    "to": "rotterdam",
+    "mode": "Train",
+    "minutes": 25,
+    "note": "Trains and metro line E."
+   }
+  ],
+  "items": [
+   {
+    "name": "Mauritshuis",
+    "kind": "see",
+    "id": "hag-mauritshuis",
+    "at": [
+     52.0804,
+     4.3143
+    ],
+    "wiki": "Mauritshuis",
+    "area": "Binnenhof",
+    "summary": "Small, perfect gallery with Vermeer's Girl with a Pearl Earring and Rembrandt's Anatomy Lesson.",
+    "expect": "Paid; busy midday.",
+    "tip": "Book a time slot online.",
+    "why": "Dutch Golden Age at its best.",
+    "flow": [
+     "Girl with a Pearl Earring.",
+     "Rembrandt room."
+    ],
+    "hours": 2,
+    "price": [
+     19,
+     20
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "History"
+    ],
+    "book": "Timed tickets"
+   },
+   {
+    "name": "Binnenhof and Hofvijver",
+    "kind": "see",
+    "id": "hag-binnenhof",
+    "at": [
+     52.0799,
+     4.3131
+    ],
+    "wiki": "Binnenhof",
+    "area": "Centre",
+    "summary": "Parliament complex around the medieval Knights' Hall beside a pond.",
+    "expect": "Under renovation for years; parts are fenced.",
+    "tip": "Photograph across the Hofvijver pond.",
+    "why": "Seat of Dutch politics.",
+    "flow": [
+     "Hofvijver view.",
+     "Inner courtyard."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Escher in Het Paleis",
+    "kind": "see",
+    "id": "hag-escher",
+    "at": [
+     52.0832,
+     4.311
+    ],
+    "wiki": "Escher in Het Paleis",
+    "area": "Lange Voorhout",
+    "summary": "M. C. Escher's mind-bending prints in a former royal palace.",
+    "expect": "Paid.",
+    "tip": "Try the optical-illusion room upstairs.",
+    "why": "Art for all ages.",
+    "flow": [
+     "Prints.",
+     "Illusion floor."
+    ],
+    "hours": 1.5,
+    "price": [
+     12,
+     13
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Peace Palace",
+    "kind": "see",
+    "id": "hag-peace",
+    "at": [
+     52.0866,
+     4.2955
+    ],
+    "wiki": "Peace Palace",
+    "area": "Zorgvliet",
+    "summary": "Home of the International Court of Justice; the visitor centre explains its work.",
+    "expect": "Inside only on rare guided tours.",
+    "tip": "The visitor centre is free.",
+    "why": "Centre of international law.",
+    "flow": [
+     "Visitor centre.",
+     "Garden gate view."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Scheveningen beach and pier",
+    "kind": "see",
+    "id": "hag-scheveningen",
+    "at": [
+     52.114,
+     4.279
+    ],
+    "wiki": "Scheveningen",
+    "area": "Scheveningen",
+    "summary": "Wide sandy beach with a pier, Ferris wheel and dune walks.",
+    "expect": "Windy; busy summer weekends.",
+    "tip": "Walk south over the dunes to quieter sand.",
+    "why": "City by the sea.",
+    "flow": [
+     "Pier and wheel.",
+     "Dune walk."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Madurodam",
+    "kind": "see",
+    "id": "hag-madurodam",
+    "at": [
+     52.0995,
+     4.2986
+    ],
+    "wiki": "Madurodam",
+    "area": "Scheveningen",
+    "summary": "The Netherlands in miniature: canals, windmills and Schiphol at 1:25 scale.",
+    "expect": "Paid; fun with kids.",
+    "tip": "Go late afternoon when it's calmer.",
+    "why": "The whole country in an hour.",
+    "flow": [
+     "Miniature city.",
+     "Interactive models."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     23
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Delft",
+    "kind": "see",
+    "id": "hag-delft",
+    "at": [
+     52.0116,
+     4.3571
+    ],
+    "wiki": "Delft",
+    "area": "Delft",
+    "summary": "Canal town of Vermeer and Delft blue, with leaning Oude Kerk and the Royal Delft factory.",
+    "expect": "Tram 1 from The Hague.",
+    "tip": "Climb the Nieuwe Kerk tower for the view.",
+    "why": "Perfect canal town.",
+    "flow": [
+     "Markt and Nieuwe Kerk.",
+     "Royal Delft."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History",
+     "Art",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Herring at Scheveningen",
+    "kind": "eat",
+    "id": "hag-herring",
+    "at": [
+     52.108,
+     4.27
+    ],
+    "wiki": "Soused herring",
+    "area": "Scheveningen harbour",
+    "summary": "Raw \"Hollandse Nieuwe\" herring with onions from a harbour stall.",
+    "expect": "New-season herring arrives in June.",
+    "tip": "Hold it by the tail and eat it in a few bites.",
+    "why": "Dutch tradition.",
+    "flow": [
+     "Find a harbour stall.",
+     "Herring with onions."
+    ],
+    "hours": 0.5,
+    "price": [
+     4,
+     6
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Dutch",
+    "order": [
+     "Hollandse Nieuwe"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Indonesian rijsttafel",
+    "kind": "eat",
+    "id": "hag-rijsttafel",
+    "at": [
+     52.08,
+     4.31
+    ],
+    "wiki": "Rijsttafel",
+    "area": "Centre",
+    "summary": "A spread of many small Indonesian dishes with rice, a colonial-era tradition.",
+    "expect": "Order for two or more.",
+    "tip": "Toko and restaurants around the centre and Chinatown.",
+    "why": "The Hague's signature meal.",
+    "flow": [
+     "Choose a restaurant.",
+     "Order rijsttafel."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     45
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Indonesian",
+    "order": [
+     "Rijsttafel",
+     "Sate"
+    ],
+    "veg": "some",
+    "halal": "some",
+    "venue": "food-area"
+   },
+   {
+    "name": "Haagse Markt",
+    "kind": "eat",
+    "id": "hag-markt",
+    "at": [
+     52.067,
+     4.301
+    ],
+    "wiki": "Haagse Markt",
+    "area": "Schilderswijk",
+    "summary": "One of Europe's largest open-air markets, with food from around the world.",
+    "expect": "Open Monday, Wednesday, Friday and Saturday.",
+    "tip": "Try Surinamese roti and fresh stroopwafels.",
+    "why": "Multicultural Hague.",
+    "flow": [
+     "Walk the stalls.",
+     "Street-food lunch."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "International",
+    "order": [
+     "Roti",
+     "Stroopwafel"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Carry some cash: many small restaurants and bakeries still prefer it. Round up or tip 5 to 10 percent.",
+  "id": "rothenburg",
+  "name": "Rothenburg ob der Tauber",
+  "at": [
+   49.3772,
+   10.1787
+  ],
+  "wiki": "Rothenburg ob der Tauber",
+  "cover": "Plönlein",
+  "dailyBudget": [
+   70,
+   150
+  ],
+  "cashPerDay": [
+   20,
+   40
+  ],
+  "seasons": "LLSSHHHHHSSP",
+  "tagline": "The medieval walled town of the Romantic Road",
+  "summary": "Rothenburg ob der Tauber is Germany's best-preserved medieval walled town. Walk the covered ramparts, photograph the half-timbered Plönlein corner, climb the town hall tower, join the Night Watchman's funny evening tour and visit the year-round Christmas shop.",
+  "days": 1,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10,
+   12
+  ],
+  "seasonNote": "Busy with day-trippers in summer; the December Christmas market is magical.",
+  "arrival": "Regional trains from Würzburg or Nuremberg with one or two changes, about 1h30 to 2h; on the Romantic Road by car.",
+  "gettingAround": "Walk everything; the walled town is small.",
+  "foodTip": "Schneeballen (snowball pastries), Franconian sausages and Franconian wine.",
+  "buyTip": "Christmas ornaments from Käthe Wohlfahrt.",
+  "baseArea": "Inside the walls",
+  "hotel": [
+   80,
+   180
+  ],
+  "connections": [
+   {
+    "to": "munich",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Via Treuchtlingen and Steinach."
+   },
+   {
+    "to": "frankfurt",
+    "mode": "Train",
+    "minutes": 180,
+    "note": "Via Würzburg and Steinach."
+   }
+  ],
+  "items": [
+   {
+    "name": "Plönlein",
+    "kind": "see",
+    "id": "rot-ploenlein",
+    "at": [
+     49.3746,
+     10.1798
+    ],
+    "wiki": "Plönlein",
+    "area": "Old town",
+    "summary": "Little fork in the road with a yellow half-timbered house between two towers.",
+    "expect": "Busy from 10.",
+    "tip": "Go early or after 5 pm.",
+    "why": "Germany's postcard.",
+    "flow": [
+     "Photo stop.",
+     "Walk down to Kobolzeller Tor."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "Architecture",
+     "History"
+    ]
+   },
+   {
+    "name": "Town walls walk",
+    "kind": "see",
+    "id": "rot-walls",
+    "at": [
+     49.3775,
+     10.183
+    ],
+    "wiki": "Rothenburg ob der Tauber",
+    "area": "Town walls",
+    "summary": "Covered wooden walkway along the ramparts with views over the roofs.",
+    "expect": "Free; low beams.",
+    "tip": "Walk from the Spitalbastei to the Klingentor.",
+    "why": "Medieval town from above.",
+    "flow": [
+     "Spitalbastei.",
+     "Rampart walk."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Town Hall Tower",
+    "kind": "see",
+    "id": "rot-rathaus",
+    "at": [
+     49.377,
+     10.179
+    ],
+    "wiki": "Rothenburg Town Hall",
+    "area": "Marktplatz",
+    "summary": "Climb 220 steps to a tiny platform with the best view in town.",
+    "expect": "Paid; narrow ladder at the top.",
+    "tip": "Go before 1 pm on a clear day.",
+    "why": "Rooftop view.",
+    "flow": [
+     "Climb up.",
+     "Panorama."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Night Watchman Tour",
+    "kind": "see",
+    "id": "rot-watchman",
+    "at": [
+     49.377,
+     10.179
+    ],
+    "wiki": "Rothenburg ob der Tauber",
+    "area": "Marktplatz",
+    "summary": "Funny hour-long walk with a costumed night watchman telling town history.",
+    "expect": "English tour at 8 pm most of the year.",
+    "tip": "Meet at the Marktplatz; pay at the end.",
+    "why": "Rothenburg's best evening.",
+    "flow": [
+     "Meet at the market.",
+     "Walk and stories."
+    ],
+    "hours": 1,
+    "price": [
+     9,
+     10
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "History",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Medieval Crime Museum",
+    "kind": "see",
+    "id": "rot-crime",
+    "at": [
+     49.3757,
+     10.1778
+    ],
+    "wiki": "Medieval Crime and Justice Museum",
+    "area": "Old town",
+    "summary": "Museum of medieval law and punishment, from shame masks to torture tools.",
+    "expect": "Paid.",
+    "tip": "Allow time; it's bigger than it looks.",
+    "why": "Dark history.",
+    "flow": [
+     "Exhibits.",
+     "Shame masks."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     9
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "St. Jakob's Church",
+    "kind": "see",
+    "id": "rot-jakob",
+    "at": [
+     49.378,
+     10.178
+    ],
+    "wiki": "St. Jakob, Rothenburg ob der Tauber",
+    "area": "Old town",
+    "summary": "Gothic church with Riemenschneider's carved Holy Blood Altar.",
+    "expect": "Paid.",
+    "tip": "Climb to the gallery behind the altar.",
+    "why": "Carved masterpiece.",
+    "flow": [
+     "Nave.",
+     "Holy Blood Altar."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Burggarten",
+    "kind": "see",
+    "id": "rot-burggarten",
+    "at": [
+     49.3765,
+     10.1745
+    ],
+    "wiki": "Rothenburg ob der Tauber",
+    "area": "Castle garden",
+    "summary": "Garden on the site of the old castle, overlooking the Tauber valley.",
+    "expect": "Free.",
+    "tip": "Walk down into the valley for the view back up.",
+    "why": "Quiet view.",
+    "flow": [
+     "Garden.",
+     "Valley view."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Käthe Wohlfahrt Christmas Village",
+    "kind": "see",
+    "id": "rot-xmas",
+    "at": [
+     49.3768,
+     10.1785
+    ],
+    "wiki": "Käthe Wohlfahrt",
+    "area": "Old town",
+    "summary": "Year-round Christmas shop with a German Christmas museum.",
+    "expect": "No photos inside.",
+    "tip": "Museum is upstairs.",
+    "why": "Christmas any day.",
+    "flow": [
+     "Shop.",
+     "Christmas Museum."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Schneeballen",
+    "kind": "eat",
+    "id": "rot-schneeball",
+    "at": [
+     49.3772,
+     10.1787
+    ],
+    "wiki": "Schneeball (pastry)",
+    "area": "Old town",
+    "summary": "Balls of fried pastry strips dusted with sugar or chocolate.",
+    "expect": "Dry and crumbly; better fresh.",
+    "tip": "Buy a small one from a bakery like Diller's.",
+    "why": "Town speciality.",
+    "flow": [
+     "Pick a bakery.",
+     "Try one fresh."
+    ],
+    "hours": 0.5,
+    "price": [
+     2,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "German",
+    "order": [
+     "Schneeball"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Franconian tavern dinner",
+    "kind": "eat",
+    "id": "rot-tavern",
+    "at": [
+     49.377,
+     10.1795
+    ],
+    "wiki": "Franconian cuisine",
+    "area": "Old town",
+    "summary": "Half-timbered taverns with sausages, roast pork and dumplings.",
+    "expect": "Heavy.",
+    "tip": "Pair with Franconian wine in a Bocksbeutel bottle.",
+    "why": "Hearty local food.",
+    "flow": [
+     "Choose a tavern.",
+     "Order Schäufele."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Franconian",
+    "order": [
+     "Schäufele",
+     "Bratwurst"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Franconian wine",
+    "kind": "eat",
+    "id": "rot-wine",
+    "at": [
+     49.377,
+     10.179
+    ],
+    "wiki": "Franconian wine",
+    "area": "Old town",
+    "summary": "Dry Silvaner from the Main valley in the round Bocksbeutel bottle.",
+    "expect": "Wine bars inside the walls.",
+    "tip": "Ask for a Silvaner.",
+    "why": "Local wine.",
+    "flow": [
+     "Find a wine bar.",
+     "Taste Silvaner."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Silvaner"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Germany",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Carry some cash: many small restaurants and bakeries still prefer it. Round up or tip 5 to 10 percent.",
+  "id": "nuremberg",
+  "name": "Nuremberg",
+  "at": [
+   49.4521,
+   11.0767
+  ],
+  "wiki": "Nuremberg",
+  "cover": "Nuremberg Castle",
+  "dailyBudget": [
+   80,
+   180
+  ],
+  "cashPerDay": [
+   20,
+   40
+  ],
+  "seasons": "LLSSHHHHHSSP",
+  "tagline": "Imperial castle, Christmas market and hard history",
+  "summary": "Nuremberg is a walled Franconian city with a great imperial castle, Albrecht Dürer's house and Germany's most famous Christmas market. It also confronts its past: see the Nazi Party Rally Grounds and the courtroom of the Nuremberg trials, then end the day with tiny Nürnberger bratwurst and a smoky Franconian beer.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10,
+   12
+  ],
+  "seasonNote": "The Christkindlesmarkt runs from late November to Christmas Eve; summer is warm and lively.",
+  "arrival": "ICE trains from Munich take 1h05 and from Berlin about 4h30; the airport is 12 minutes by U-Bahn.",
+  "gettingAround": "The old town is walkable; U-Bahn and trams for the Rally Grounds.",
+  "foodTip": "Nürnberger Rostbratwurst, Lebkuchen gingerbread and Franconian Rauchbier.",
+  "buyTip": "Lebkuchen and wooden toys.",
+  "baseArea": "Altstadt (old town)",
+  "hotel": [
+   90,
+   200
+  ],
+  "connections": [
+   {
+    "to": "munich",
+    "mode": "Train",
+    "minutes": 65,
+    "note": "ICE trains."
+   },
+   {
+    "to": "berlin",
+    "mode": "Train",
+    "minutes": 270,
+    "note": "ICE trains."
+   },
+   {
+    "to": "prague",
+    "mode": "Bus",
+    "minutes": 220,
+    "note": "Direct buses."
+   },
+   {
+    "to": "rothenburg",
+    "mode": "Train",
+    "minutes": 75,
+    "note": "Regional trains via Ansbach and Steinach."
+   }
+  ],
+  "items": [
+   {
+    "name": "Nuremberg Castle",
+    "kind": "see",
+    "id": "nue-castle",
+    "at": [
+     49.4579,
+     11.0757
+    ],
+    "wiki": "Nuremberg Castle",
+    "area": "Altstadt",
+    "summary": "Imperial castle above the old town, with a deep well and Sinwell Tower views.",
+    "expect": "Paid for the tower, well and palace.",
+    "tip": "Climb the Sinwell Tower for the rooftop view.",
+    "why": "Symbol of the city.",
+    "flow": [
+     "Courtyards.",
+     "Sinwell Tower."
+    ],
+    "hours": 2,
+    "price": [
+     7,
+     9
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Documentation Center Nazi Party Rally Grounds",
+    "kind": "see",
+    "id": "nue-rally",
+    "at": [
+     49.4304,
+     11.1146
+    ],
+    "wiki": "Nazi party rally grounds",
+    "area": "Dutzendteich",
+    "summary": "The unfinished Congress Hall and Zeppelin Field, with a museum on how the Nazis used them.",
+    "expect": "Museum reopened after renovation; check opening.",
+    "tip": "Walk around the lake to the Zeppelin tribune.",
+    "why": "Confronting history.",
+    "flow": [
+     "Museum.",
+     "Zeppelin Field."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Memorium Nuremberg Trials",
+    "kind": "see",
+    "id": "nue-trials",
+    "at": [
+     49.4553,
+     11.0498
+    ],
+    "wiki": "Nuremberg trials",
+    "area": "Fürth Street",
+    "summary": "Courtroom 600 where the Nazi leaders were tried, with an exhibition.",
+    "expect": "Courtroom closed when in use.",
+    "tip": "Audio guide is excellent.",
+    "why": "Where international law began.",
+    "flow": [
+     "Exhibition.",
+     "Courtroom 600."
+    ],
+    "hours": 1.5,
+    "price": [
+     6,
+     8
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Albrecht Dürer's House",
+    "kind": "see",
+    "id": "nue-durer",
+    "at": [
+     49.457,
+     11.0735
+    ],
+    "wiki": "Albrecht Dürer's House",
+    "area": "Altstadt",
+    "summary": "The painter's 15th-century home and workshop.",
+    "expect": "Paid; closed some Mondays.",
+    "tip": "Join the costumed Agnes tour at weekends.",
+    "why": "Renaissance genius.",
+    "flow": [
+     "Living rooms.",
+     "Printing workshop."
+    ],
+    "hours": 1,
+    "price": [
+     7,
+     8
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Art",
+     "History"
+    ]
+   },
+   {
+    "name": "Hauptmarkt and the Schöner Brunnen",
+    "kind": "see",
+    "id": "nue-hauptmarkt",
+    "at": [
+     49.454,
+     11.0775
+    ],
+    "wiki": "Hauptmarkt (Nuremberg)",
+    "area": "Altstadt",
+    "summary": "Market square with the Frauenkirche and the golden Beautiful Fountain.",
+    "expect": "Free.",
+    "tip": "Turn the brass ring in the fountain's grille for luck.",
+    "why": "Heart of the old town.",
+    "flow": [
+     "Fountain.",
+     "Frauenkirche clock at noon."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Noon",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Germanisches Nationalmuseum",
+    "kind": "see",
+    "id": "nue-gnm",
+    "at": [
+     49.4481,
+     11.0761
+    ],
+    "wiki": "Germanisches Nationalmuseum",
+    "area": "Altstadt",
+    "summary": "Germany's biggest museum of its art and culture, including Dürer paintings and the oldest globe.",
+    "expect": "Paid; closed Mondays.",
+    "tip": "Focus on two or three wings.",
+    "why": "Huge collection.",
+    "flow": [
+     "Medieval art.",
+     "Behaim Globe."
+    ],
+    "hours": 2.5,
+    "price": [
+     10,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Art"
+    ]
+   },
+   {
+    "name": "Christkindlesmarkt",
+    "kind": "see",
+    "id": "nue-xmas",
+    "at": [
+     49.454,
+     11.0775
+    ],
+    "wiki": "Nuremberg Christmas Market",
+    "area": "Hauptmarkt",
+    "summary": "Germany's most famous Christmas market with red-and-white striped stalls.",
+    "expect": "Late November to 24 December; very crowded.",
+    "tip": "Weekday afternoons are calmer.",
+    "why": "Christmas classic.",
+    "flow": [
+     "Stalls.",
+     "Glühwein and Lebkuchen."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Food"
+    ],
+    "optional": true
+   },
+   {
+    "name": "Bratwurst Röslein",
+    "kind": "eat",
+    "id": "nue-bratwurst",
+    "at": [
+     49.4515,
+     11.079
+    ],
+    "wiki": "Nürnberger Rostbratwurst",
+    "area": "Altstadt",
+    "summary": "Big traditional hall grilling Nuremberg's tiny finger-sized sausages over beechwood.",
+    "expect": "Ordered by the 6, 8 or 12.",
+    "tip": "Try \"drei im Weggla\", three in a bread roll, from a street stand.",
+    "why": "Nuremberg's own sausage.",
+    "flow": [
+     "Order six on sauerkraut.",
+     "Add potato salad."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     16
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Franconian",
+    "order": [
+     "Rostbratwurst",
+     "Drei im Weggla"
+    ],
+    "veg": "no",
+    "halal": "no"
+   },
+   {
+    "name": "Lebkuchen Schmidt",
+    "kind": "eat",
+    "id": "nue-lebkuchen",
+    "at": [
+     49.454,
+     11.078
+    ],
+    "wiki": "Lebkuchen",
+    "area": "Hauptmarkt",
+    "summary": "Soft spiced Nuremberg gingerbread sold in decorated tins.",
+    "expect": "Year round, best at Christmas.",
+    "tip": "Look for Elisenlebkuchen, the finest grade.",
+    "why": "Edible souvenir.",
+    "flow": [
+     "Shop.",
+     "Buy a tin."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "German",
+    "order": [
+     "Elisenlebkuchen"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Hausbrauerei Altstadthof",
+    "kind": "eat",
+    "id": "nue-altstadthof",
+    "at": [
+     49.4572,
+     11.0745
+    ],
+    "wiki": "Rauchbier",
+    "area": "Altstadt",
+    "summary": "Old-town brewpub with red beer and tours of the rock-cut beer cellars below.",
+    "expect": "Cellar tours paid.",
+    "tip": "Join the Felsengänge tunnel tour, then a beer.",
+    "why": "Beer and tunnels.",
+    "flow": [
+     "Rock cellars tour.",
+     "Brewpub."
+    ],
+    "hours": 2,
+    "price": [
+     8,
+     20
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Franconian",
+    "order": [
+     "Rotbier",
+     "Schäufele"
+    ],
+    "veg": "some",
+    "halal": "no"
+   }
+  ]
+ },
+ {
+  "country": "Bosnia and Herzegovina",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "The local money is the convertible mark (KM, about 2 to the euro); euros are often accepted but change comes in marks. Carry cash for small places. Prices here are shown in euros.",
+  "id": "mostar",
+  "name": "Mostar",
+  "at": [
+   43.3438,
+   17.8078
+  ],
+  "wiki": "Mostar",
+  "cover": "Stari Most",
+  "dailyBudget": [
+   40,
+   90
+  ],
+  "cashPerDay": [
+   20,
+   50
+  ],
+  "seasons": "LLSSHHPPHSLL",
+  "tagline": "The Old Bridge, divers and Ottoman lanes",
+  "summary": "Mostar's Old Bridge arcs high over the emerald Neretva, rebuilt after the 1990s war and now a symbol of reconciliation. Watch the bridge divers leap 21 m into the river, wander the Ottoman bazaar, climb a minaret for the view, and day-trip to the Kravice waterfalls, the dervish house at Blagaj and the hill village of Počitelj.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "July and August often reach 40°C; late spring and early autumn are best.",
+  "arrival": "Trains and buses from Sarajevo take about 2 hours on one of Europe's most scenic lines; buses from Dubrovnik and Split take 3 to 4 hours.",
+  "gettingAround": "Walk the old town; a car or tour for Kravice, Blagaj and Počitelj.",
+  "foodTip": "Ćevapi, Bosnian coffee, burek and Herzegovinian Žilavka wine.",
+  "buyTip": "Copperware and coffee sets from Kujundžiluk bazaar.",
+  "baseArea": "Old town near the bridge",
+  "hotel": [
+   40,
+   110
+  ],
+  "connections": [
+   {
+    "to": "sarajevo",
+    "mode": "Train",
+    "minutes": 120,
+    "note": "Scenic Neretva valley line."
+   },
+   {
+    "to": "dubrovnik",
+    "mode": "Bus",
+    "minutes": 180,
+    "note": "Daily buses; border check."
+   },
+   {
+    "to": "split",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Daily buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Stari Most (Old Bridge)",
+    "kind": "see",
+    "id": "mos-bridge",
+    "at": [
+     43.3373,
+     17.815
+    ],
+    "wiki": "Stari Most",
+    "area": "Old town",
+    "summary": "16th-century Ottoman bridge, destroyed in 1993 and rebuilt stone by stone.",
+    "expect": "Slippery stone steps.",
+    "tip": "Watch from the riverbank below at sunset.",
+    "why": "Symbol of Mostar.",
+    "flow": [
+     "Cross the bridge.",
+     "View from the river below."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Bridge divers",
+    "kind": "see",
+    "id": "mos-divers",
+    "at": [
+     43.3373,
+     17.815
+    ],
+    "wiki": "Stari Most",
+    "area": "Old bridge",
+    "summary": "Members of the diving club leap 21 m into the cold river once enough money is collected.",
+    "expect": "They dive when the crowd pays.",
+    "tip": "Watch from the west bank terrace cafés.",
+    "why": "Centuries-old tradition.",
+    "flow": [
+     "Find a spot.",
+     "Watch a dive."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Kujundžiluk bazaar",
+    "kind": "see",
+    "id": "mos-bazaar",
+    "at": [
+     43.338,
+     17.8155
+    ],
+    "wiki": "Kujundžiluk",
+    "area": "Old town",
+    "summary": "Cobbled Ottoman street of copper workshops and souvenir stalls.",
+    "expect": "Touristy but lively.",
+    "tip": "Look for real coppersmiths at work.",
+    "why": "Old Mostar shopping.",
+    "flow": [
+     "Walk the lane.",
+     "Copper workshops."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "History"
+    ]
+   },
+   {
+    "name": "Koski Mehmed Pasha Mosque",
+    "kind": "see",
+    "id": "mos-mosque",
+    "at": [
+     43.3388,
+     17.8143
+    ],
+    "wiki": "Koski Mehmed Pasha Mosque",
+    "area": "Old town",
+    "summary": "17th-century mosque whose minaret gives the classic bridge view.",
+    "expect": "Paid; minaret stairs are narrow.",
+    "tip": "Cover shoulders and knees inside.",
+    "why": "Best bridge photo.",
+    "flow": [
+     "Courtyard view.",
+     "Minaret climb."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Blagaj Tekke",
+    "kind": "see",
+    "id": "mos-blagaj",
+    "at": [
+     43.2566,
+     17.8869
+    ],
+    "wiki": "Blagaj Tekke",
+    "area": "Blagaj",
+    "summary": "Dervish house beneath a cliff at the spring of the Buna river.",
+    "expect": "Small fee; dress modestly.",
+    "tip": "Eat trout at the riverside restaurants.",
+    "why": "Magical setting.",
+    "flow": [
+     "Tekke.",
+     "River spring."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Nature",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kravice Falls",
+    "kind": "see",
+    "id": "mos-kravice",
+    "at": [
+     43.1564,
+     17.6083
+    ],
+    "wiki": "Kravice (waterfall)",
+    "area": "Ljubuški",
+    "summary": "Wide curtain of waterfalls into a swimming lagoon.",
+    "expect": "Paid; swimming in summer.",
+    "tip": "Go early on summer weekends.",
+    "why": "Swim under waterfalls.",
+    "flow": [
+     "Walk down.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Počitelj",
+    "kind": "see",
+    "id": "mos-pocitelj",
+    "at": [
+     43.134,
+     17.731
+    ],
+    "wiki": "Počitelj",
+    "area": "Počitelj",
+    "summary": "Ottoman hill village with a mosque and fortress tower above the Neretva.",
+    "expect": "Steep stone steps.",
+    "tip": "Climb to the tower.",
+    "why": "Fortress village.",
+    "flow": [
+     "Village.",
+     "Tower climb."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "War Photo Exhibition",
+    "kind": "see",
+    "id": "mos-warphoto",
+    "at": [
+     43.3378,
+     17.8146
+    ],
+    "wiki": "Bosnian War",
+    "area": "Old town",
+    "summary": "Photographs of the 1990s war in Mostar.",
+    "expect": "Paid; hard to see.",
+    "tip": "Give it time; it explains the bridge.",
+    "why": "Recent history.",
+    "flow": [
+     "Photos.",
+     "Reflection."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     6
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Ćevapi",
+    "kind": "eat",
+    "id": "mos-cevapi",
+    "at": [
+     43.3385,
+     17.814
+    ],
+    "wiki": "Ćevapi",
+    "area": "Old town",
+    "summary": "Grilled minced meat fingers in fluffy somun bread with onion and kajmak.",
+    "expect": "Order 5 or 10.",
+    "tip": "Tima-Irma is a well-known spot.",
+    "why": "National dish.",
+    "flow": [
+     "Find a ćevabdžinica.",
+     "Order ćevapi."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     8
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bosnian",
+    "order": [
+     "Ćevapi",
+     "Kajmak"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Bosnian coffee",
+    "kind": "eat",
+    "id": "mos-coffee",
+    "at": [
+     43.338,
+     17.815
+    ],
+    "wiki": "Bosnian coffee",
+    "area": "Old town",
+    "summary": "Coffee served in a copper džezva with a sugar cube and Turkish delight.",
+    "expect": "Sip slowly.",
+    "tip": "Dip the sugar cube, then sip.",
+    "why": "Coffee ritual.",
+    "flow": [
+     "Sit down.",
+     "Coffee and lokum."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bosnian",
+    "order": [
+     "Bosanska kafa"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Restaurant terraces by the Neretva",
+    "kind": "eat",
+    "id": "mos-terrace",
+    "at": [
+     43.3368,
+     17.8145
+    ],
+    "wiki": "Neretva",
+    "area": "West bank",
+    "summary": "Terraces facing the bridge serving trout, stuffed vegetables and grills.",
+    "expect": "Prices are higher here.",
+    "tip": "Book a terrace table for sunset.",
+    "why": "Dinner with the view.",
+    "flow": [
+     "Pick a terrace.",
+     "Trout or dolma."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bosnian",
+    "order": [
+     "Grilled trout",
+     "Japrak"
+    ],
+    "veg": "some",
+    "halal": "some",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "North Macedonia",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "The local money is the denar (about 62 to the euro); cards work in hotels and bigger restaurants, carry cash for small places. Prices here are shown in euros.",
+  "id": "ohrid",
+  "name": "Ohrid",
+  "at": [
+   41.1172,
+   20.8016
+  ],
+  "wiki": "Ohrid",
+  "cover": "Church of St. John at Kaneo",
+  "dailyBudget": [
+   35,
+   80
+  ],
+  "cashPerDay": [
+   15,
+   40
+  ],
+  "seasons": "LLSSSHPPHSLL",
+  "tagline": "An ancient lake of churches and clear water",
+  "summary": "Ohrid is a hillside old town on one of Europe's oldest and deepest lakes. See the little church of St. John at Kaneo on its cliff above the water, walk up to Samuel's Fortress and the Roman theatre, see world-class Byzantine frescoes, swim from rocky coves and visit the springs and monastery of St. Naum.",
+  "days": 3,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer is warm and busy with swimmers; spring and autumn are calm.",
+  "arrival": "Ohrid Airport has seasonal flights; buses from Skopje take 3 hours, from Tirana about 3.",
+  "gettingAround": "Walk the old town; boats and buses to St. Naum.",
+  "foodTip": "Ohrid trout (protected; order belvica or farmed trout instead), tavče gravče baked beans and ajvar.",
+  "buyTip": "Ohrid pearls made from fish-scale lacquer, a town craft.",
+  "baseArea": "Old town",
+  "hotel": [
+   35,
+   100
+  ],
+  "connections": [],
+  "items": [
+   {
+    "name": "Church of St. John at Kaneo",
+    "kind": "see",
+    "id": "ohr-kaneo",
+    "at": [
+     41.1111,
+     20.7884
+    ],
+    "wiki": "Church of St. John at Kaneo",
+    "area": "Kaneo",
+    "summary": "Small 13th-century church on a cliff above the lake, the classic Ohrid view.",
+    "expect": "Small fee inside.",
+    "tip": "Walk the boardwalk from the beach to reach it.",
+    "why": "Iconic lake view.",
+    "flow": [
+     "Kaneo beach.",
+     "Cliff church."
+    ],
+    "hours": 1,
+    "price": [
+     1,
+     2
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Samuel's Fortress",
+    "kind": "see",
+    "id": "ohr-fortress",
+    "at": [
+     41.116,
+     20.793
+    ],
+    "wiki": "Samuel's Fortress, Ohrid",
+    "area": "Old town hill",
+    "summary": "Walls of the 10th-century Bulgarian tsar's fortress with views over the lake.",
+    "expect": "Paid.",
+    "tip": "Walk the ramparts end to end.",
+    "why": "Lake panorama.",
+    "flow": [
+     "Climb up.",
+     "Wall walk."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     3
+    ],
+    "best": "Late afternoon",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Plaošnik and St. Panteleimon",
+    "kind": "see",
+    "id": "ohr-plaosnik",
+    "at": [
+     41.1135,
+     20.7905
+    ],
+    "wiki": "Plaošnik",
+    "area": "Old town",
+    "summary": "Site of St. Clement's school, cradle of the Cyrillic script, with a rebuilt church and mosaics.",
+    "expect": "Small fee.",
+    "tip": "Look for the early Christian floor mosaics.",
+    "why": "Slavic literacy began here.",
+    "flow": [
+     "Church.",
+     "Mosaics."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     3
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Church of St. Sophia",
+    "kind": "see",
+    "id": "ohr-sophia",
+    "at": [
+     41.1137,
+     20.7975
+    ],
+    "wiki": "Church of St. Sophia, Ohrid",
+    "area": "Old town",
+    "summary": "11th-century cathedral with some of the finest medieval frescoes in the Balkans.",
+    "expect": "Small fee.",
+    "tip": "Summer evening concerts are held here.",
+    "why": "Byzantine art.",
+    "flow": [
+     "Frescoes.",
+     "Courtyard."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     3
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Art",
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Ancient Theatre of Ohrid",
+    "kind": "see",
+    "id": "ohr-theatre",
+    "at": [
+     41.1161,
+     20.7973
+    ],
+    "wiki": "Ancient Theatre of Ohrid",
+    "area": "Old town",
+    "summary": "Hellenistic theatre still used for summer festival shows.",
+    "expect": "Free to view.",
+    "tip": "Check the Ohrid Summer Festival program.",
+    "why": "Ancient roots.",
+    "flow": [
+     "Theatre.",
+     "Old-town lanes."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Monastery of St. Naum",
+    "kind": "see",
+    "id": "ohr-naum",
+    "at": [
+     40.9139,
+     20.7408
+    ],
+    "wiki": "Monastery of Saint Naum",
+    "area": "St. Naum",
+    "summary": "Monastery at the lake's southern tip with springs you can boat through.",
+    "expect": "Boat or bus, 30 km south.",
+    "tip": "Take a rowing boat through the Black Drin springs.",
+    "why": "Springs and monastery.",
+    "flow": [
+     "Monastery.",
+     "Spring boat ride."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Bay of Bones",
+    "kind": "see",
+    "id": "ohr-bones",
+    "at": [
+     41.034,
+     20.831
+    ],
+    "wiki": "Bay of the Bones",
+    "area": "Gradište",
+    "summary": "Reconstructed prehistoric village on stilts over the lake.",
+    "expect": "Paid; on the road to St. Naum.",
+    "tip": "Combine with the St. Naum trip.",
+    "why": "Prehistory on water.",
+    "flow": [
+     "Stilt village.",
+     "Museum."
+    ],
+    "hours": 1,
+    "price": [
+     2,
+     3
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Old town lakefront and beaches",
+    "kind": "see",
+    "id": "ohr-beach",
+    "at": [
+     41.112,
+     20.792
+    ],
+    "wiki": "Lake Ohrid",
+    "area": "Kaneo",
+    "summary": "Rocky coves and swimming platforms beneath the old town.",
+    "expect": "Water is cold even in July.",
+    "tip": "Take a boat tour from the harbour at sunset.",
+    "why": "Swim in a 3-million-year-old lake.",
+    "flow": [
+     "Swim.",
+     "Sunset boat."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tavče gravče",
+    "kind": "eat",
+    "id": "ohr-tavce",
+    "at": [
+     41.115,
+     20.8
+    ],
+    "wiki": "Tavče gravče",
+    "area": "Old town",
+    "summary": "Baked beans with peppers and onions in a clay pot, the national dish.",
+    "expect": "Everywhere.",
+    "tip": "Order with shopska salad.",
+    "why": "Macedonian staple.",
+    "flow": [
+     "Find a taverna.",
+     "Order tavče gravče."
+    ],
+    "hours": 1,
+    "price": [
+     4,
+     7
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Macedonian",
+    "order": [
+     "Tavče gravče",
+     "Shopska salad"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Lake fish (belvica)",
+    "kind": "eat",
+    "id": "ohr-fish",
+    "at": [
+     41.113,
+     20.796
+    ],
+    "wiki": "Lake Ohrid",
+    "area": "Lakefront",
+    "summary": "Fish from the lake grilled simply; wild Ohrid trout is protected so pick belvica or farmed trout.",
+    "expect": "Ask where the fish comes from.",
+    "tip": "Eat at a lakeside terrace.",
+    "why": "Lake food.",
+    "flow": [
+     "Lakeside terrace.",
+     "Order grilled fish."
+    ],
+    "hours": 1.5,
+    "price": [
+     8,
+     15
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Macedonian",
+    "order": [
+     "Belvica",
+     "Grilled trout"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Old bazaar burek",
+    "kind": "eat",
+    "id": "ohr-burek",
+    "at": [
+     41.117,
+     20.801
+    ],
+    "wiki": "Burek",
+    "area": "Čaršija",
+    "summary": "Flaky pastry filled with cheese or meat, with yogurt, for breakfast.",
+    "expect": "Mornings.",
+    "tip": "Buy from a busy bakery near the plane tree.",
+    "why": "Local breakfast.",
+    "flow": [
+     "Find a bakery.",
+     "Burek and yogurt."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Balkan",
+    "order": [
+     "Burek",
+     "Yogurt"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Bulgaria",
+  "region": "Europe",
+  "currency": "EUR",
+  "cashTip": "Bulgaria uses the euro since 2026; cards are widely accepted. Tip about 10 percent.",
+  "id": "plovdiv",
+  "name": "Plovdiv",
+  "at": [
+   42.1354,
+   24.7453
+  ],
+  "wiki": "Plovdiv",
+  "cover": "Plovdiv Roman theatre",
+  "dailyBudget": [
+   40,
+   90
+  ],
+  "cashPerDay": [
+   10,
+   30
+  ],
+  "seasons": "LLSSHHHHHSLL",
+  "tagline": "Europe's oldest living city on seven hills",
+  "summary": "Plovdiv has been lived in for 8,000 years. Sit in a Roman theatre still used for concerts, walk the colourful Revival houses of the Old Town, explore the street-art district of Kapana, and climb a hill at sunset for the view over the Thracian plain. Bachkovo Monastery and the Rose Valley are short trips away.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Late May to early June for the Rose Valley harvest; summers are hot.",
+  "arrival": "Trains and buses from Sofia take 2 to 2.5 hours.",
+  "gettingAround": "Walk the old town and centre; cobbles are uneven.",
+  "foodTip": "Shopska salad, kavarma stew, banitsa pastry and Mavrud red wine.",
+  "buyTip": "Rose oil products and Mavrud wine.",
+  "baseArea": "Old Town or Kapana",
+  "hotel": [
+   40,
+   110
+  ],
+  "connections": [
+   {
+    "to": "sofia",
+    "mode": "Train",
+    "minutes": 140,
+    "note": "Trains and frequent buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Roman Theatre",
+    "kind": "see",
+    "id": "plo-theatre",
+    "at": [
+     42.1468,
+     24.751
+    ],
+    "wiki": "Ancient theatre of Philippopolis",
+    "area": "Old Town",
+    "summary": "2nd-century theatre on the hillside, still used for summer concerts and opera.",
+    "expect": "Paid.",
+    "tip": "See a summer show if you can.",
+    "why": "Roman Plovdiv.",
+    "flow": [
+     "Theatre seats.",
+     "View over the city."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     6
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Old Town",
+    "kind": "see",
+    "id": "plo-oldtown",
+    "at": [
+     42.1495,
+     24.7535
+    ],
+    "wiki": "Old Plovdiv",
+    "area": "Old Town",
+    "summary": "Cobbled hill of brightly painted 19th-century Revival houses and museums.",
+    "expect": "Steep cobbles.",
+    "tip": "Visit Balabanov House and the Ethnographic Museum.",
+    "why": "Bulgaria's prettiest old quarter.",
+    "flow": [
+     "Revival houses.",
+     "Ethnographic Museum."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Kapana district",
+    "kind": "see",
+    "id": "plo-kapana",
+    "at": [
+     42.1465,
+     24.7475
+    ],
+    "wiki": "Kapana",
+    "area": "Kapana",
+    "summary": "\"The Trap\", a maze of lanes full of street art, craft bars and galleries.",
+    "expect": "Liveliest at night.",
+    "tip": "Come for dinner and stay for drinks.",
+    "why": "Creative Plovdiv.",
+    "flow": [
+     "Street art.",
+     "Bars."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Art",
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Nebet Tepe",
+    "kind": "see",
+    "id": "plo-nebet",
+    "at": [
+     42.1515,
+     24.752
+    ],
+    "wiki": "Nebet Tepe",
+    "area": "Old Town",
+    "summary": "Hilltop with the ruins of the oldest Thracian settlement and a city view.",
+    "expect": "Free.",
+    "tip": "Come at sunset.",
+    "why": "Where Plovdiv began.",
+    "flow": [
+     "Ruins.",
+     "Sunset view."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Roman Stadium",
+    "kind": "see",
+    "id": "plo-stadium",
+    "at": [
+     42.1477,
+     24.748
+    ],
+    "wiki": "Roman Stadium of Philippopolis",
+    "area": "Centre",
+    "summary": "Part of a huge Roman stadium visible below the main pedestrian street.",
+    "expect": "Free to view; small 3D film paid.",
+    "tip": "Have a coffee at the Dzhumaya Mosque next door.",
+    "why": "Ancient under modern.",
+    "flow": [
+     "Stadium.",
+     "Dzhumaya Mosque."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Bachkovo Monastery",
+    "kind": "see",
+    "id": "plo-bachkovo",
+    "at": [
+     41.9425,
+     24.8495
+    ],
+    "wiki": "Bachkovo Monastery",
+    "area": "Rhodope foothills",
+    "summary": "Bulgaria's second-largest monastery, founded in 1083, with fine frescoes.",
+    "expect": "Free; 30 km south.",
+    "tip": "Combine with Asen's Fortress on the way.",
+    "why": "Rhodope monastery.",
+    "flow": [
+     "Church frescoes.",
+     "Refectory."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Rose Valley (Kazanlak)",
+    "kind": "see",
+    "id": "plo-rose",
+    "at": [
+     42.6194,
+     25.393
+    ],
+    "wiki": "Rose Valley, Bulgaria",
+    "area": "Kazanlak",
+    "summary": "Valley that produces much of the world's rose oil, with a Thracian tomb at Kazanlak.",
+    "expect": "Harvest is late May to early June.",
+    "tip": "Join a dawn rose-picking.",
+    "why": "Rose oil heartland.",
+    "flow": [
+     "Rose museum.",
+     "Thracian tomb."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     20
+    ],
+    "best": "Full day",
+    "p": 3,
+    "types": [
+     "Nature",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Shopska salad and grill",
+    "kind": "eat",
+    "id": "plo-shopska",
+    "at": [
+     42.146,
+     24.748
+    ],
+    "wiki": "Shopska salad",
+    "area": "Centre",
+    "summary": "Tomatoes, cucumber and grated white cheese, then kebapche and kyufte from the grill.",
+    "expect": "Everywhere.",
+    "tip": "Pair with a rakia.",
+    "why": "Bulgarian table.",
+    "flow": [
+     "Shopska first.",
+     "Grill plates."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     18
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bulgarian",
+    "order": [
+     "Shopska salad",
+     "Kebapche"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Banitsa breakfast",
+    "kind": "eat",
+    "id": "plo-banitsa",
+    "at": [
+     42.143,
+     24.75
+    ],
+    "wiki": "Banitsa",
+    "area": "Centre",
+    "summary": "Flaky filo pastry with egg and white cheese, eaten with boza or ayran.",
+    "expect": "Mornings at bakeries.",
+    "tip": "Buy fresh from a busy window.",
+    "why": "Bulgarian breakfast.",
+    "flow": [
+     "Find a bakery.",
+     "Banitsa and ayran."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     3
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bulgarian",
+    "order": [
+     "Banitsa",
+     "Ayran"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Mavrud wine in Kapana",
+    "kind": "eat",
+    "id": "plo-wine",
+    "at": [
+     42.1465,
+     24.7475
+    ],
+    "wiki": "Mavrud",
+    "area": "Kapana",
+    "summary": "Wine bars pouring Mavrud, the dark red grape of the Thracian valley.",
+    "expect": "Evenings.",
+    "tip": "Ask for a local tasting flight.",
+    "why": "Thracian wine.",
+    "flow": [
+     "Find a wine bar.",
+     "Taste Mavrud."
+    ],
+    "hours": 1.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Mavrud",
+     "Rubin"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]

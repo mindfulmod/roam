@@ -30,6 +30,10 @@ const onlyCity = process.argv.includes('--city')
 // The language a place's own name is written in, by country (Wikidata language codes),
 // with cities whose everyday language differs from the country's first one.
 const LANG = {
+  Albania: 'sq',
+  Cyprus: 'el',
+  'Faroe Islands': 'fo',
+  'North Macedonia': 'mk',
   Argentina: 'es',
   Armenia: 'hy',
   Australia: 'en',

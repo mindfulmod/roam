@@ -1,0 +1,656 @@
+{
+  "id": "nuremberg",
+  "name": "Nuremberg",
+  "country": "Germany",
+  "region": "Europe",
+  "lat": 49.4521,
+  "lon": 11.0767,
+  "wiki": "Nuremberg",
+  "tagline": "Imperial castle, Christmas market and hard history",
+  "summary": "Nuremberg is a walled Franconian city with a great imperial castle, Albrecht Dürer's house and Germany's most famous Christmas market. It also confronts its past: see the Nazi Party Rally Grounds and the courtroom of the Nuremberg trials, then end the day with tiny Nürnberger bratwurst and a smoky Franconian beer.",
+  "days": 2,
+  "bestMonths": [
+    5,
+    6,
+    9,
+    10,
+    12
+  ],
+  "seasonNote": "The Christkindlesmarkt runs from late November to Christmas Eve; summer is warm and lively.",
+  "arrival": "ICE trains from Munich take 1h05 and from Berlin about 4h30; the airport is 12 minutes by U-Bahn.",
+  "gettingAround": "The old town is walkable; U-Bahn and trams for the Rally Grounds.",
+  "cashTip": "Carry some cash: many small restaurants and bakeries still prefer it. Round up or tip 5 to 10 percent.",
+  "dailyBudget": [
+    80,
+    180
+  ],
+  "currency": "EUR",
+  "cashPerDay": [
+    20,
+    40
+  ],
+  "foodTip": "Nürnberger Rostbratwurst, Lebkuchen gingerbread and Franconian Rauchbier.",
+  "buyTip": "Lebkuchen and wooden toys.",
+  "baseArea": "Altstadt (old town)",
+  "connections": [
+    {
+      "to": "munich",
+      "mode": "Train",
+      "minutes": 65,
+      "note": "ICE trains."
+    },
+    {
+      "to": "berlin",
+      "mode": "Train",
+      "minutes": 270,
+      "note": "ICE trains."
+    },
+    {
+      "to": "prague",
+      "mode": "Bus",
+      "minutes": 220,
+      "note": "Direct buses."
+    },
+    {
+      "to": "rothenburg",
+      "mode": "Train",
+      "minutes": 75,
+      "note": "Regional trains via Ansbach and Steinach."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Nuremberg on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Nuremberg",
+      "type": "reference",
+      "checked": "2026-11-27"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Nuremberg%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-27"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Nuremberg%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Nuremberg Castle",
+  "added": "2026-11-27",
+  "items": [
+    {
+      "id": "nuremberg-nue-castle",
+      "name": "Nuremberg Castle",
+      "kind": "see",
+      "lat": 49.45778,
+      "lon": 11.07583,
+      "wiki": "Nuremberg Castle",
+      "summary": "Imperial castle above the old town, with a deep well and Sinwell Tower views.",
+      "expect": "Paid for the tower, well and palace.",
+      "tip": "Climb the Sinwell Tower for the rooftop view.",
+      "area": "Altstadt",
+      "duration": 2,
+      "price": [
+        7,
+        9
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Nuremberg%20Castle%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Nuremberg%20Castle%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Nuremberg%20Castle%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Viewpoint"
+      ],
+      "whyVisit": [
+        "Imperial castle above the old town, with a deep well and Sinwell Tower views.",
+        "Symbol of the city."
+      ],
+      "visitFlow": [
+        "Courtyards.",
+        "Sinwell Tower."
+      ],
+      "bestFor": "Visitors interested in history and context and big views",
+      "tradeoffs": [
+        "Paid for the tower, well and palace.",
+        "Climb the Sinwell Tower for the rooftop view."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 50162,
+          "period": "202511-202610",
+          "title": "Nuremberg Castle",
+          "url": "https://en.wikipedia.org/wiki/Nuremberg_Castle",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q707396",
+      "local": {
+        "name": "Nürnberger Burg",
+        "lang": "de"
+      }
+    },
+    {
+      "id": "nuremberg-nue-rally",
+      "name": "Documentation Center Nazi Party Rally Grounds",
+      "kind": "see",
+      "lat": 49.43384,
+      "lon": 11.11247,
+      "wiki": "Nazi party rally grounds",
+      "summary": "The unfinished Congress Hall and Zeppelin Field, with a museum on how the Nazis used them.",
+      "expect": "Museum reopened after renovation; check opening.",
+      "tip": "Walk around the lake to the Zeppelin tribune.",
+      "area": "Dutzendteich",
+      "duration": 3,
+      "price": [
+        0,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Documentation%20Center%20Nazi%20Party%20Rally%20Grounds%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Documentation%20Center%20Nazi%20Party%20Rally%20Grounds%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Documentation%20Center%20Nazi%20Party%20Rally%20Grounds%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "The unfinished Congress Hall and Zeppelin Field, with a museum on how the Nazis used them.",
+        "Confronting history."
+      ],
+      "visitFlow": [
+        "Museum.",
+        "Zeppelin Field."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Museum reopened after renovation; check opening.",
+        "Walk around the lake to the Zeppelin tribune."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 90072,
+          "period": "202511-202610",
+          "title": "Nazi Party rally grounds",
+          "url": "https://en.wikipedia.org/wiki/Nazi_Party_rally_grounds",
+          "checked": "2026-11-27"
+        }
+      }
+    },
+    {
+      "id": "nuremberg-nue-trials",
+      "name": "Memorium Nuremberg Trials",
+      "kind": "see",
+      "lat": 49.45444,
+      "lon": 11.04833,
+      "wiki": "Nuremberg trials",
+      "summary": "Courtroom 600 where the Nazi leaders were tried, with an exhibition.",
+      "expect": "Courtroom closed when in use.",
+      "tip": "Audio guide is excellent.",
+      "area": "Fürth Street",
+      "duration": 1.5,
+      "price": [
+        6,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Memorium%20Nuremberg%20Trials%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Memorium%20Nuremberg%20Trials%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Memorium%20Nuremberg%20Trials%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Courtroom 600 where the Nazi leaders were tried, with an exhibition.",
+        "Where international law began."
+      ],
+      "visitFlow": [
+        "Exhibition.",
+        "Courtroom 600."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Courtroom closed when in use.",
+        "Audio guide is excellent."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 2608173,
+          "period": "202511-202610",
+          "title": "Nuremberg trials",
+          "url": "https://en.wikipedia.org/wiki/Nuremberg_trials",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q80130",
+      "local": {
+        "name": "Nürnberger Prozesse",
+        "lang": "de"
+      }
+    },
+    {
+      "id": "nuremberg-nue-durer",
+      "name": "Albrecht Dürer's House",
+      "kind": "see",
+      "lat": 49.45722,
+      "lon": 11.07389,
+      "wiki": "Albrecht Dürer's House",
+      "summary": "The painter's 15th-century home and workshop.",
+      "expect": "Paid; closed some Mondays.",
+      "tip": "Join the costumed Agnes tour at weekends.",
+      "area": "Altstadt",
+      "duration": 1,
+      "price": [
+        7,
+        8
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Albrecht%20D%C3%BCrer's%20House%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Albrecht%20D%C3%BCrer's%20House%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Albrecht%20D%C3%BCrer's%20House%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art",
+        "History"
+      ],
+      "whyVisit": [
+        "The painter's 15th-century home and workshop.",
+        "Renaissance genius."
+      ],
+      "visitFlow": [
+        "Living rooms.",
+        "Printing workshop."
+      ],
+      "bestFor": "Visitors interested in art and craft and history and context",
+      "tradeoffs": [
+        "Paid; closed some Mondays.",
+        "Join the costumed Agnes tour at weekends."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 6756,
+          "period": "202511-202610",
+          "title": "Albrecht Dürer's House",
+          "url": "https://en.wikipedia.org/wiki/Albrecht_D%C3%BCrer's_House",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q523148",
+      "local": {
+        "name": "Albrecht-Dürer-Haus",
+        "lang": "de"
+      }
+    },
+    {
+      "id": "nuremberg-nue-hauptmarkt",
+      "name": "Hauptmarkt and the Schöner Brunnen",
+      "kind": "see",
+      "lat": 49.454,
+      "lon": 11.0775,
+      "wiki": "Hauptmarkt (Nuremberg)",
+      "summary": "Market square with the Frauenkirche and the golden Beautiful Fountain.",
+      "expect": "Free.",
+      "tip": "Turn the brass ring in the fountain's grille for luck.",
+      "area": "Altstadt",
+      "duration": 0.5,
+      "price": [
+        0,
+        0
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Noon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hauptmarkt%20and%20the%20Sch%C3%B6ner%20Brunnen%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Hauptmarkt%20and%20the%20Sch%C3%B6ner%20Brunnen%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hauptmarkt%20and%20the%20Sch%C3%B6ner%20Brunnen%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Market square with the Frauenkirche and the golden Beautiful Fountain.",
+        "Heart of the old town."
+      ],
+      "visitFlow": [
+        "Fountain.",
+        "Frauenkirche clock at noon."
+      ],
+      "bestFor": "Visitors interested in history and context and architecture and design",
+      "tradeoffs": [
+        "Free.",
+        "Turn the brass ring in the fountain's grille for luck."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "nuremberg-nue-gnm",
+      "name": "Germanisches Nationalmuseum",
+      "kind": "see",
+      "lat": 49.44833,
+      "lon": 11.07556,
+      "wiki": "Germanisches Nationalmuseum",
+      "summary": "Germany's biggest museum of its art and culture, including Dürer paintings and the oldest globe.",
+      "expect": "Paid; closed Mondays.",
+      "tip": "Focus on two or three wings.",
+      "area": "Altstadt",
+      "duration": 2.5,
+      "price": [
+        10,
+        12
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Germanisches%20Nationalmuseum%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Germanisches%20Nationalmuseum%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Germanisches%20Nationalmuseum%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History",
+        "Art"
+      ],
+      "whyVisit": [
+        "Germany's biggest museum of its art and culture, including Dürer paintings and the oldest globe.",
+        "Huge collection."
+      ],
+      "visitFlow": [
+        "Medieval art.",
+        "Behaim Globe."
+      ],
+      "bestFor": "Visitors interested in history and context and art and craft",
+      "tradeoffs": [
+        "Paid; closed Mondays.",
+        "Focus on two or three wings."
+      ],
+      "signals": {
+        "wikipedia": {
+          "views": 14161,
+          "period": "202511-202610",
+          "title": "Germanisches Nationalmuseum",
+          "url": "https://en.wikipedia.org/wiki/Germanisches_Nationalmuseum",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q478695"
+    },
+    {
+      "id": "nuremberg-nue-xmas",
+      "name": "Christkindlesmarkt",
+      "kind": "see",
+      "lat": 49.45389,
+      "lon": 11.07722,
+      "wiki": "Nuremberg Christmas Market",
+      "summary": "Germany's most famous Christmas market with red-and-white striped stalls.",
+      "expect": "Late November to 24 December; very crowded.",
+      "tip": "Weekday afternoons are calmer.",
+      "area": "Hauptmarkt",
+      "duration": 2,
+      "price": [
+        0,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Christkindlesmarkt%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Christkindlesmarkt%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Christkindlesmarkt%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Shopping",
+        "Food"
+      ],
+      "whyVisit": [
+        "Germany's most famous Christmas market with red-and-white striped stalls.",
+        "Christmas classic."
+      ],
+      "visitFlow": [
+        "Stalls.",
+        "Glühwein and Lebkuchen."
+      ],
+      "bestFor": "Visitors interested in local shopping and regional food",
+      "tradeoffs": [
+        "Late November to 24 December; very crowded.",
+        "Weekday afternoons are calmer."
+      ],
+      "optional": true,
+      "signals": {
+        "wikipedia": {
+          "views": 11601,
+          "period": "202511-202610",
+          "title": "Christkindlesmarkt, Nuremberg",
+          "url": "https://en.wikipedia.org/wiki/Christkindlesmarkt%2C_Nuremberg",
+          "checked": "2026-11-27"
+        }
+      },
+      "wikidata": "Q832700",
+      "local": {
+        "name": "Nürnberger Christkindlesmarkt",
+        "lang": "de"
+      }
+    },
+    {
+      "id": "nuremberg-nue-bratwurst",
+      "name": "Bratwurst Röslein",
+      "kind": "eat",
+      "lat": 49.45458,
+      "lon": 11.07786,
+      "wiki": "Nürnberger Rostbratwurst",
+      "summary": "Big traditional hall grilling Nuremberg's tiny finger-sized sausages over beechwood.",
+      "expect": "Ordered by the 6, 8 or 12.",
+      "tip": "Try \"drei im Weggla\", three in a bread roll, from a street stand.",
+      "area": "Altstadt",
+      "duration": 1,
+      "price": [
+        10,
+        16
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Bratwurst%20R%C3%B6slein%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Bratwurst%20R%C3%B6slein%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Bratwurst%20R%C3%B6slein%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Big traditional hall grilling Nuremberg's tiny finger-sized sausages over beechwood.",
+        "Nuremberg's own sausage."
+      ],
+      "visitFlow": [
+        "Order six on sauerkraut.",
+        "Add potato salad."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Ordered by the 6, 8 or 12.",
+        "Try \"drei im Weggla\", three in a bread roll, from a street stand."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Franconian",
+      "mustOrder": [
+        "Rostbratwurst",
+        "Drei im Weggla"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "nuremberg-nue-lebkuchen",
+      "name": "Lebkuchen Schmidt",
+      "kind": "eat",
+      "lat": 49.45358,
+      "lon": 11.07796,
+      "wiki": "Lebkuchen",
+      "summary": "Soft spiced Nuremberg gingerbread sold in decorated tins.",
+      "expect": "Year round, best at Christmas.",
+      "tip": "Look for Elisenlebkuchen, the finest grade.",
+      "area": "Hauptmarkt",
+      "duration": 0.5,
+      "price": [
+        5,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Lebkuchen%20Schmidt%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Lebkuchen%20Schmidt%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Lebkuchen%20Schmidt%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Soft spiced Nuremberg gingerbread sold in decorated tins.",
+        "Edible souvenir."
+      ],
+      "visitFlow": [
+        "Shop.",
+        "Buy a tin."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Year round, best at Christmas.",
+        "Look for Elisenlebkuchen, the finest grade."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "German",
+      "mustOrder": [
+        "Elisenlebkuchen"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    },
+    {
+      "id": "nuremberg-nue-altstadthof",
+      "name": "Hausbrauerei Altstadthof",
+      "kind": "eat",
+      "lat": 49.45702,
+      "lon": 11.07492,
+      "wiki": "Rauchbier",
+      "summary": "Old-town brewpub with red beer and tours of the rock-cut beer cellars below.",
+      "expect": "Cellar tours paid.",
+      "tip": "Join the Felsengänge tunnel tour, then a beer.",
+      "area": "Altstadt",
+      "duration": 2,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hausbrauerei%20Altstadthof%2C%20Nuremberg",
+        "https://www.google.com/maps/search/?api=1&query=Hausbrauerei%20Altstadthof%2C%20Nuremberg"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hausbrauerei%20Altstadthof%2C%20Nuremberg"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Old-town brewpub with red beer and tours of the rock-cut beer cellars below.",
+        "Beer and tunnels."
+      ],
+      "visitFlow": [
+        "Rock cellars tour.",
+        "Brewpub."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Cellar tours paid.",
+        "Join the Felsengänge tunnel tour, then a beer."
+      ],
+      "venueType": "restaurant",
+      "cuisine": "Franconian",
+      "mustOrder": [
+        "Rotbier",
+        "Schäufele"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
+      }
+    }
+  ],
+  "enriched": "2026-11-27",
+  "wikidata": "Q2090",
+  "local": {
+    "name": "Nürnberg",
+    "lang": "de"
+  }
+}
