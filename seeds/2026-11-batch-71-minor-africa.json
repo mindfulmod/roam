@@ -1,0 +1,2462 @@
+[
+ {
+  "country": "Kenya",
+  "region": "Africa",
+  "currency": "KES",
+  "cashTip": "Carry shillings; M-Pesa is used everywhere but needs a local SIM. Tip about 10 percent.",
+  "id": "lamu",
+  "name": "Lamu",
+  "at": [
+   -2.2717,
+   40.902
+  ],
+  "wiki": "Lamu",
+  "cover": "Lamu Old Town",
+  "dailyBudget": [
+   5000,
+   15000
+  ],
+  "cashPerDay": [
+   2000,
+   6000
+  ],
+  "seasons": "HHHSLLHHHHSH",
+  "tagline": "Swahili stone town of donkeys and dhows",
+  "summary": "Lamu Old Town is the oldest continuously lived-in Swahili town in East Africa, a car-free UNESCO maze of coral-stone houses, carved doors and donkeys. Sail at sunset on a dhow, walk the beach to Shela, see the Lamu Fort and museum, and let the island's slow pace take over.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Avoid the long rains of April to June; check current travel advice for the Lamu area before you go.",
+  "arrival": "Flights from Nairobi and Mombasa land on Manda Island, then a short boat ride.",
+  "gettingAround": "Walk, donkey or boat; there are almost no cars.",
+  "foodTip": "Swahili seafood curries, coconut rice, samaki wa kupaka and fresh juices.",
+  "buyTip": "Carved Lamu doors and furniture, and dhow models.",
+  "baseArea": "Lamu Old Town or Shela village",
+  "hotel": [
+   50,
+   300
+  ],
+  "connections": [
+   {
+    "to": "mombasa",
+    "mode": "Plane",
+    "minutes": 50,
+    "note": "Daily flights to Manda."
+   },
+   {
+    "to": "nairobi",
+    "mode": "Plane",
+    "minutes": 90,
+    "note": "Daily flights to Manda."
+   }
+  ],
+  "items": [
+   {
+    "name": "Lamu Old Town",
+    "kind": "see",
+    "id": "lam-oldtown",
+    "at": [
+     -2.2717,
+     40.902
+    ],
+    "wiki": "Lamu Old Town",
+    "area": "Old town",
+    "summary": "Car-free lanes of coral houses with carved doors and rooftop terraces.",
+    "expect": "Modest dress.",
+    "tip": "Get lost on purpose; the waterfront is your guide.",
+    "why": "UNESCO Swahili town.",
+    "flow": [
+     "Lanes.",
+     "Waterfront."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Dhow sunset sail",
+    "kind": "see",
+    "id": "lam-dhow",
+    "at": [
+     -2.27,
+     40.905
+    ],
+    "wiki": "Dhow",
+    "area": "Waterfront",
+    "summary": "Sail a traditional wooden dhow through the mangrove channels.",
+    "expect": "Agree the price; bring water.",
+    "tip": "Add fishing or snorkelling.",
+    "why": "Swahili sailing.",
+    "flow": [
+     "Board.",
+     "Sunset."
+    ],
+    "hours": 2.5,
+    "price": [
+     2000,
+     5000
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Adventure",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Lamu Museum and Fort",
+    "kind": "see",
+    "id": "lam-museum",
+    "at": [
+     -2.27,
+     40.903
+    ],
+    "wiki": "Lamu Fort",
+    "area": "Waterfront",
+    "summary": "Museum of Swahili culture and the 19th-century fort.",
+    "expect": "Small fees.",
+    "tip": "See the siwa ceremonial horns.",
+    "why": "Swahili history.",
+    "flow": [
+     "Museum.",
+     "Fort."
+    ],
+    "hours": 1.5,
+    "price": [
+     500,
+     1000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Shela Beach",
+    "kind": "see",
+    "id": "lam-shela",
+    "at": [
+     -2.296,
+     40.918
+    ],
+    "wiki": "Shela, Kenya",
+    "area": "Shela",
+    "summary": "Long empty dune beach next to the village of Shela.",
+    "expect": "Walk or boat from town.",
+    "tip": "Climb the dunes at sunset.",
+    "why": "Beach escape.",
+    "flow": [
+     "Walk to Shela.",
+     "Beach and dunes."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Swahili House Museum",
+    "kind": "see",
+    "id": "lam-house",
+    "at": [
+     -2.273,
+     40.901
+    ],
+    "wiki": "Lamu",
+    "area": "Old town",
+    "summary": "Restored traditional house showing Swahili family life.",
+    "expect": "Small fee.",
+    "tip": "Notice the plaster niches.",
+    "why": "Inside a Swahili home.",
+    "flow": [
+     "House.",
+     "Courtyard."
+    ],
+    "hours": 1,
+    "price": [
+     500,
+     500
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Takwa Ruins",
+    "kind": "see",
+    "id": "lam-takwa",
+    "at": [
+     -2.29,
+     40.95
+    ],
+    "wiki": "Takwa Ruins",
+    "area": "Manda Island",
+    "summary": "Ruins of a 15th-century Swahili town reached by boat.",
+    "expect": "Boat and tide dependent.",
+    "tip": "Combine with a dhow trip.",
+    "why": "Lost town.",
+    "flow": [
+     "Boat.",
+     "Ruins."
+    ],
+    "hours": 3,
+    "price": [
+     1000,
+     3000
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Swahili seafood curry",
+    "kind": "eat",
+    "id": "lam-curry",
+    "at": [
+     -2.271,
+     40.9025
+    ],
+    "wiki": "Swahili cuisine",
+    "area": "Waterfront",
+    "summary": "Fish or prawns in coconut curry with coconut rice.",
+    "expect": "Waterfront restaurants.",
+    "tip": "Try samaki wa kupaka.",
+    "why": "Coastal flavours.",
+    "flow": [
+     "Waterfront.",
+     "Curry."
+    ],
+    "hours": 1.5,
+    "price": [
+     800,
+     2000
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swahili",
+    "order": [
+     "Samaki wa kupaka",
+     "Coconut rice"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Street snacks",
+    "kind": "eat",
+    "id": "lam-snacks",
+    "at": [
+     -2.272,
+     40.902
+    ],
+    "wiki": "Swahili cuisine",
+    "area": "Old town",
+    "summary": "Samosas, mandazi doughnuts and grilled meat after dark.",
+    "expect": "Evenings.",
+    "tip": "Eat at the main square.",
+    "why": "Night bites.",
+    "flow": [
+     "Main square.",
+     "Snacks."
+    ],
+    "hours": 0.5,
+    "price": [
+     100,
+     400
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swahili",
+    "order": [
+     "Mandazi",
+     "Mishkaki"
+    ],
+    "veg": "some",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Fresh juices",
+    "kind": "eat",
+    "id": "lam-juice",
+    "at": [
+     -2.2715,
+     40.9022
+    ],
+    "wiki": "Juice",
+    "area": "Waterfront",
+    "summary": "Mango, passion fruit and tamarind juices.",
+    "expect": "Everywhere.",
+    "tip": "Try a tamarind juice.",
+    "why": "Cool down.",
+    "flow": [
+     "Juice bar.",
+     "Order."
+    ],
+    "hours": 0.5,
+    "price": [
+     100,
+     300
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Swahili",
+    "order": [
+     "Mango juice"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Namibia",
+  "region": "Africa",
+  "currency": "NAD",
+  "cashTip": "Cards work in towns; carry cash for fuel attendants and craft stalls. Tip about 10 percent.",
+  "id": "swakopmund",
+  "name": "Swakopmund",
+  "at": [
+   -22.6784,
+   14.5266
+  ],
+  "wiki": "Swakopmund",
+  "cover": "Sandwich Harbour",
+  "dailyBudget": [
+   800,
+   2000
+  ],
+  "cashPerDay": [
+   200,
+   600
+  ],
+  "seasons": "SHSSSSSSHHHH",
+  "tagline": "German seaside town where the desert meets the sea",
+  "summary": "Swakopmund is a German colonial town on Namibia's foggy Skeleton Coast and the country's adventure capital. Ride a 4x4 over the dunes to Sandwich Harbour, where sand drops straight into the ocean, kayak with seals at Walvis Bay, sandboard and quad bike in the Namib, and go on a Living Desert tour to find tiny desert creatures.",
+  "days": 3,
+  "bestMonths": [
+   9,
+   10,
+   11,
+   12,
+   1,
+   2
+  ],
+  "seasonNote": "Mild all year; fog is common on the coast in the mornings.",
+  "arrival": "Drive from Windhoek in about 4 hours; Walvis Bay airport is 30 minutes away.",
+  "gettingAround": "Rental car; tours pick you up.",
+  "foodTip": "Walvis Bay oysters, fresh fish, German bakeries and Namibian beer.",
+  "buyTip": "Crafts and kudu leather.",
+  "baseArea": "Town centre near the jetty",
+  "hotel": [
+   60,
+   200
+  ],
+  "connections": [
+   {
+    "to": "windhoek",
+    "mode": "Car",
+    "minutes": 240,
+    "note": "B2 road."
+   },
+   {
+    "to": "sossusvlei",
+    "mode": "Car",
+    "minutes": 300,
+    "note": "Gravel road via Walvis Bay."
+   }
+  ],
+  "items": [
+   {
+    "name": "Sandwich Harbour 4x4",
+    "kind": "see",
+    "id": "swa-sandwich",
+    "at": [
+     -23.37,
+     14.5
+    ],
+    "wiki": "Sandwich Harbour",
+    "area": "Namib-Naukluft",
+    "summary": "Dunes falling straight into the Atlantic, reached by guided 4x4.",
+    "expect": "Tide dependent; guided tours only.",
+    "tip": "Book a tour with lunch.",
+    "why": "Desert meets ocean.",
+    "flow": [
+     "4x4 over dunes.",
+     "Lagoon view."
+    ],
+    "hours": 6,
+    "price": [
+     1500,
+     2500
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Walvis Bay kayaking with seals",
+    "kind": "see",
+    "id": "swa-kayak",
+    "at": [
+     -22.88,
+     14.43
+    ],
+    "wiki": "Pelican Point",
+    "area": "Walvis Bay",
+    "summary": "Kayak among playful Cape fur seals, often with dolphins and flamingos.",
+    "expect": "Morning tours; cold water.",
+    "tip": "Book the Pelican Point tour.",
+    "why": "Seal encounters.",
+    "flow": [
+     "Kayak.",
+     "Seals."
+    ],
+    "hours": 4,
+    "price": [
+     1000,
+     1500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Living Desert tour",
+    "kind": "see",
+    "id": "swa-living",
+    "at": [
+     -22.72,
+     14.55
+    ],
+    "wiki": "Namib Desert",
+    "area": "Dorob",
+    "summary": "Guides find geckos, chameleons and snakes in the dunes.",
+    "expect": "Morning tours.",
+    "tip": "Great for photography.",
+    "why": "Tiny desert life.",
+    "flow": [
+     "Dunes.",
+     "Creature spotting."
+    ],
+    "hours": 4,
+    "price": [
+     800,
+     1200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Sandboarding and quad biking",
+    "kind": "see",
+    "id": "swa-dunes",
+    "at": [
+     -22.7,
+     14.55
+    ],
+    "wiki": "Namib Desert",
+    "area": "Dune 7 area",
+    "summary": "Lie-down or stand-up sandboarding and quad tours on huge dunes.",
+    "expect": "Physical.",
+    "tip": "Combine both.",
+    "why": "Adrenaline.",
+    "flow": [
+     "Sandboard.",
+     "Quads."
+    ],
+    "hours": 3,
+    "price": [
+     600,
+     1000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Swakopmund old town and jetty",
+    "kind": "see",
+    "id": "swa-town",
+    "at": [
+     -22.6784,
+     14.5266
+    ],
+    "wiki": "Swakopmund",
+    "area": "Town",
+    "summary": "German colonial buildings, the lighthouse and the long jetty.",
+    "expect": "Free.",
+    "tip": "Sunset on the jetty.",
+    "why": "Colonial seaside.",
+    "flow": [
+     "Old buildings.",
+     "Jetty."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Moon Landscape and Welwitschia Drive",
+    "kind": "see",
+    "id": "swa-moon",
+    "at": [
+     -22.63,
+     15.0
+    ],
+    "wiki": "Welwitschia mirabilis",
+    "area": "Namib-Naukluft",
+    "summary": "Eroded valleys and ancient welwitschia plants that live for over 1,000 years.",
+    "expect": "Permit from tourist office; car.",
+    "tip": "Self-drive with the permit map.",
+    "why": "Strange plants.",
+    "flow": [
+     "Moon Landscape.",
+     "Giant welwitschia."
+    ],
+    "hours": 4,
+    "price": [
+     50,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Cape Cross seal colony",
+    "kind": "see",
+    "id": "swa-capecross",
+    "at": [
+     -21.77,
+     13.95
+    ],
+    "wiki": "Cape Cross",
+    "area": "Skeleton Coast",
+    "summary": "Huge colony of tens of thousands of Cape fur seals.",
+    "expect": "Smelly; 1.5 hours north.",
+    "tip": "Visit with the Skeleton Coast drive.",
+    "why": "Wildlife spectacle.",
+    "flow": [
+     "Drive north.",
+     "Seal colony."
+    ],
+    "hours": 5,
+    "price": [
+     150,
+     250
+    ],
+    "best": "Full day",
+    "p": 3,
+    "types": [
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Walvis Bay oysters",
+    "kind": "eat",
+    "id": "swa-oysters",
+    "at": [
+     -22.95,
+     14.5
+    ],
+    "wiki": "Oyster",
+    "area": "Walvis Bay",
+    "summary": "Oysters farmed in the cold Atlantic, often included on boat tours.",
+    "expect": "Fresh and cheap.",
+    "tip": "Try them with bubbly on the seal cruise.",
+    "why": "Local delicacy.",
+    "flow": [
+     "Boat tour or restaurant.",
+     "Oysters."
+    ],
+    "hours": 1,
+    "price": [
+     150,
+     400
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Oysters"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "The Tug",
+    "kind": "eat",
+    "id": "swa-tug",
+    "at": [
+     -22.676,
+     14.523
+    ],
+    "wiki": "Swakopmund",
+    "area": "Jetty",
+    "summary": "Restaurant built around an old tugboat by the jetty, known for seafood.",
+    "expect": "Book for sunset.",
+    "tip": "Order the kingklip.",
+    "why": "Swakop institution.",
+    "flow": [
+     "Book.",
+     "Seafood dinner."
+    ],
+    "hours": 2,
+    "price": [
+     300,
+     600
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Kingklip",
+     "Kalahari truffles"
+    ],
+    "veg": "some",
+    "halal": "no"
+   },
+   {
+    "name": "German bakery",
+    "kind": "eat",
+    "id": "swa-bakery",
+    "at": [
+     -22.678,
+     14.527
+    ],
+    "wiki": "Swakopmund",
+    "area": "Town",
+    "summary": "Black Forest cake and apple strudel in Café Anton style.",
+    "expect": "Afternoons.",
+    "tip": "Have coffee and cake.",
+    "why": "German heritage.",
+    "flow": [
+     "Café.",
+     "Cake."
+    ],
+    "hours": 1,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "German",
+    "order": [
+     "Apfelstrudel"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "South Africa",
+  "region": "Africa",
+  "currency": "ZAR",
+  "cashTip": "Cards work almost everywhere. Tip 10 to 15 percent in restaurants and a few rand to car guards.",
+  "id": "franschhoek",
+  "name": "Franschhoek",
+  "at": [
+   -33.9133,
+   19.1169
+  ],
+  "wiki": "Franschhoek",
+  "cover": "Huguenot Monument",
+  "dailyBudget": [
+   1200,
+   3000
+  ],
+  "cashPerDay": [
+   200,
+   500
+  ],
+  "seasons": "HHHSSLLLSSHH",
+  "tagline": "Wine tram through the Cape's food valley",
+  "summary": "Franschhoek is a pretty valley town founded by French Huguenots, now the food and wine capital of the Cape Winelands. Hop between estates on the Wine Tram, eat at some of South Africa's best restaurants, see the Huguenot Monument and drive the mountain passes.",
+  "days": 2,
+  "bestMonths": [
+   2,
+   3,
+   4,
+   10,
+   11
+  ],
+  "seasonNote": "Harvest in February and March; winters are wet and cool but cosy.",
+  "arrival": "About 1 hour 15 minutes by car from Cape Town.",
+  "gettingAround": "The Wine Tram or a driver between estates; do not drink and drive.",
+  "foodTip": "Cape Malay flavours, trout and long tasting menus with Méthode Cap Classique sparkling wine.",
+  "buyTip": "Wine and olive oil.",
+  "baseArea": "Main road in the village",
+  "hotel": [
+   100,
+   400
+  ],
+  "connections": [
+   {
+    "to": "cape-town",
+    "mode": "Car",
+    "minutes": 75,
+    "note": "N1 and R45."
+   },
+   {
+    "to": "stellenbosch",
+    "mode": "Car",
+    "minutes": 35,
+    "note": "Helshoogte Pass."
+   }
+  ],
+  "items": [
+   {
+    "name": "Franschhoek Wine Tram",
+    "kind": "see",
+    "id": "fra-tram",
+    "at": [
+     -33.9133,
+     19.1169
+    ],
+    "wiki": "Franschhoek Wine Tram",
+    "area": "Valley",
+    "summary": "Hop-on hop-off tram and bus between wine estates.",
+    "expect": "Book ahead in summer.",
+    "tip": "Choose one line and four estates.",
+    "why": "Wine without driving.",
+    "flow": [
+     "Board.",
+     "Tastings."
+    ],
+    "hours": 6,
+    "price": [
+     300,
+     450
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ],
+    "book": "Book ahead"
+   },
+   {
+    "name": "Huguenot Monument",
+    "kind": "see",
+    "id": "fra-monument",
+    "at": [
+     -33.918,
+     19.124
+    ],
+    "wiki": "Huguenot Monument",
+    "area": "Village",
+    "summary": "Monument and museum to the French Protestant settlers.",
+    "expect": "Small fee.",
+    "tip": "Visit the museum opposite.",
+    "why": "Valley history.",
+    "flow": [
+     "Monument.",
+     "Museum."
+    ],
+    "hours": 1,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Franschhoek Pass",
+    "kind": "see",
+    "id": "fra-pass",
+    "at": [
+     -33.935,
+     19.17
+    ],
+    "wiki": "Franschhoek Pass",
+    "area": "Mountains",
+    "summary": "Mountain road with valley views from the top.",
+    "expect": "Winding road.",
+    "tip": "Stop at the lookout.",
+    "why": "Valley view.",
+    "flow": [
+     "Drive up.",
+     "Lookout."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Boschendal estate",
+    "kind": "see",
+    "id": "fra-boschendal",
+    "at": [
+     -33.872,
+     18.977
+    ],
+    "wiki": "Boschendal",
+    "area": "Groot Drakenstein",
+    "summary": "Historic Cape Dutch estate with picnics, farm shop and wine.",
+    "expect": "Busy weekends.",
+    "tip": "Book a picnic under the oaks.",
+    "why": "Classic estate.",
+    "flow": [
+     "Manor.",
+     "Picnic."
+    ],
+    "hours": 3,
+    "price": [
+     200,
+     600
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "History",
+     "Food"
+    ]
+   },
+   {
+    "name": "Babylonstoren",
+    "kind": "see",
+    "id": "fra-babylon",
+    "at": [
+     -33.823,
+     18.928
+    ],
+    "wiki": "Babylonstoren",
+    "area": "Simondium",
+    "summary": "Farm with a huge formal fruit and vegetable garden and restaurant.",
+    "expect": "Book garden tours and meals.",
+    "tip": "Do the garden tour.",
+    "why": "Garden estate.",
+    "flow": [
+     "Garden.",
+     "Lunch."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     600
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Food"
+    ]
+   },
+   {
+    "name": "Fine dining tasting menu",
+    "kind": "eat",
+    "id": "fra-fine",
+    "at": [
+     -33.913,
+     19.118
+    ],
+    "wiki": "Franschhoek",
+    "area": "Village",
+    "summary": "Franschhoek's chef-led restaurants serving tasting menus with wine pairings.",
+    "expect": "Book weeks ahead.",
+    "tip": "La Petite Colombe and similar spots.",
+    "why": "Food capital.",
+    "flow": [
+     "Book.",
+     "Tasting menu."
+    ],
+    "hours": 3,
+    "price": [
+     1500,
+     3500
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Tasting menu"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area",
+    "book": "Book ahead"
+   },
+   {
+    "name": "Cap Classique tasting",
+    "kind": "eat",
+    "id": "fra-mcc",
+    "at": [
+     -33.911,
+     19.115
+    ],
+    "wiki": "Méthode Cap Classique",
+    "area": "Village",
+    "summary": "South African sparkling wine made the Champagne way.",
+    "expect": "Tastings at the estates.",
+    "tip": "Try a cellar with a cave tour.",
+    "why": "Bubbles.",
+    "flow": [
+     "Cellar.",
+     "Tasting."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     250
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Cap Classique"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Trout and farm lunch",
+    "kind": "eat",
+    "id": "fra-trout",
+    "at": [
+     -33.91,
+     19.12
+    ],
+    "wiki": "Trout",
+    "area": "Valley",
+    "summary": "Local farmed trout and farm-style lunches.",
+    "expect": "Many estates.",
+    "tip": "Smoked trout on toast.",
+    "why": "Valley produce.",
+    "flow": [
+     "Estate restaurant.",
+     "Trout."
+    ],
+    "hours": 1.5,
+    "price": [
+     200,
+     400
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "South African",
+    "order": [
+     "Smoked trout"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "South Africa",
+  "region": "Africa",
+  "currency": "ZAR",
+  "cashTip": "Cards work almost everywhere. Tip 10 to 15 percent in restaurants and a few rand to car guards.",
+  "id": "hermanus",
+  "name": "Hermanus",
+  "at": [
+   -34.4092,
+   19.2504
+  ],
+  "wiki": "Hermanus",
+  "cover": "Southern right whale",
+  "dailyBudget": [
+   900,
+   2200
+  ],
+  "cashPerDay": [
+   200,
+   500
+  ],
+  "seasons": "HHSSSSHHHHSH",
+  "tagline": "Whales from the cliffs and Cape Agulhas",
+  "summary": "Hermanus is the world's best place to watch whales from land: southern right whales come into Walker Bay to calve from June to November. Walk the cliff path, take a boat trip, cage-dive with sharks at nearby Gansbaai, taste wine in the Hemel-en-Aarde valley and drive to Cape Agulhas, Africa's southernmost tip.",
+  "days": 2,
+  "bestMonths": [
+   7,
+   8,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Whale season is June to November, peaking September and October.",
+  "arrival": "About 1 hour 30 minutes by car from Cape Town along the coast.",
+  "gettingAround": "Car; walk the cliff path.",
+  "foodTip": "Seafood, Hemel-en-Aarde Pinot Noir and fish and chips.",
+  "buyTip": "Hemel-en-Aarde wines.",
+  "baseArea": "Village centre near the Old Harbour",
+  "hotel": [
+   80,
+   300
+  ],
+  "connections": [
+   {
+    "to": "cape-town",
+    "mode": "Car",
+    "minutes": 90,
+    "note": "R44 coastal road."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cliff Path whale watching",
+    "kind": "see",
+    "id": "her-cliff",
+    "at": [
+     -34.421,
+     19.238
+    ],
+    "wiki": "Hermanus",
+    "area": "Walker Bay",
+    "summary": "12 km cliff path with benches overlooking the bay where whales calve.",
+    "expect": "Season June to November.",
+    "tip": "Listen for the whale crier.",
+    "why": "Whales from land.",
+    "flow": [
+     "Old Harbour.",
+     "Cliff path."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Whale-watching boat trip",
+    "kind": "see",
+    "id": "her-boat",
+    "at": [
+     -34.421,
+     19.238
+    ],
+    "wiki": "Southern right whale",
+    "area": "New Harbour",
+    "summary": "Licensed boats approach whales in Walker Bay.",
+    "expect": "Season only.",
+    "tip": "Go in calm morning water.",
+    "why": "Up close.",
+    "flow": [
+     "Board.",
+     "Whales."
+    ],
+    "hours": 2,
+    "price": [
+     900,
+     1200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Shark cage diving at Gansbaai",
+    "kind": "see",
+    "id": "her-shark",
+    "at": [
+     -34.58,
+     19.35
+    ],
+    "wiki": "Gansbaai",
+    "area": "Gansbaai",
+    "summary": "Cage diving with sharks in \"Shark Alley\".",
+    "expect": "Seasonal sightings vary; seasickness possible.",
+    "tip": "Choose an operator with conservation focus.",
+    "why": "Thrill.",
+    "flow": [
+     "Boat.",
+     "Cage dive."
+    ],
+    "hours": 5,
+    "price": [
+     2500,
+     3500
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Hemel-en-Aarde valley",
+    "kind": "see",
+    "id": "her-wine",
+    "at": [
+     -34.38,
+     19.27
+    ],
+    "wiki": "Hemel-en-Aarde",
+    "area": "Hemel-en-Aarde",
+    "summary": "Cool-climate wine valley known for Pinot Noir and Chardonnay.",
+    "expect": "Book tastings.",
+    "tip": "Visit Bouchard Finlayson or Creation.",
+    "why": "Wine valley.",
+    "flow": [
+     "Tastings.",
+     "Lunch."
+    ],
+    "hours": 3,
+    "price": [
+     100,
+     300
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cape Agulhas",
+    "kind": "see",
+    "id": "her-agulhas",
+    "at": [
+     -34.829,
+     20.009
+    ],
+    "wiki": "Cape Agulhas",
+    "area": "Agulhas",
+    "summary": "Africa's southernmost point, where two oceans meet, with a lighthouse.",
+    "expect": "2 hours each way.",
+    "tip": "Climb the lighthouse.",
+    "why": "Tip of Africa.",
+    "flow": [
+     "Lighthouse.",
+     "Southernmost marker."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fernkloof Nature Reserve",
+    "kind": "see",
+    "id": "her-fernkloof",
+    "at": [
+     -34.395,
+     19.265
+    ],
+    "wiki": "Fernkloof Nature Reserve",
+    "area": "Hermanus",
+    "summary": "Fynbos trails above town with sea views.",
+    "expect": "Free.",
+    "tip": "Walk in spring for flowers.",
+    "why": "Fynbos.",
+    "flow": [
+     "Trail.",
+     "View."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Seafood by the harbour",
+    "kind": "eat",
+    "id": "her-seafood",
+    "at": [
+     -34.421,
+     19.239
+    ],
+    "wiki": "Hermanus",
+    "area": "Old Harbour",
+    "summary": "Fish, calamari and oysters with views over the bay.",
+    "expect": "Book whale season weekends.",
+    "tip": "Watch whales over lunch.",
+    "why": "Bay dining.",
+    "flow": [
+     "Restaurant.",
+     "Seafood."
+    ],
+    "hours": 1.5,
+    "price": [
+     200,
+     450
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Calamari",
+     "Line fish"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Fish and chips",
+    "kind": "eat",
+    "id": "her-fishchips",
+    "at": [
+     -34.42,
+     19.24
+    ],
+    "wiki": "Fish and chips",
+    "area": "Village",
+    "summary": "Hake and chips from takeaway shops.",
+    "expect": "Simple.",
+    "tip": "Eat on the cliffs.",
+    "why": "Seaside classic.",
+    "flow": [
+     "Takeaway.",
+     "Cliffs."
+    ],
+    "hours": 0.5,
+    "price": [
+     80,
+     150
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Hake and chips"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Hemel-en-Aarde Pinot",
+    "kind": "eat",
+    "id": "her-pinot",
+    "at": [
+     -34.38,
+     19.27
+    ],
+    "wiki": "Hemel-en-Aarde",
+    "area": "Hemel-en-Aarde",
+    "summary": "Elegant cool-climate Pinot Noir from the valley.",
+    "expect": "Estates.",
+    "tip": "Pair with a vineyard lunch.",
+    "why": "Local wine.",
+    "flow": [
+     "Estate.",
+     "Taste Pinot."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     250
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Pinot Noir"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Egypt",
+  "region": "Africa",
+  "currency": "EGP",
+  "cashTip": "Carry Egyptian pounds in small notes for taxis, tips and cafés; cards work in hotels. Tipping (baksheesh) is expected for small services.",
+  "id": "siwa",
+  "name": "Siwa Oasis",
+  "at": [
+   29.2032,
+   25.5195
+  ],
+  "wiki": "Siwa Oasis",
+  "cover": "Shali (fortress)",
+  "dailyBudget": [
+   1500,
+   4000
+  ],
+  "cashPerDay": [
+   800,
+   2500
+  ],
+  "seasons": "HHHSLLLLSHHH",
+  "tagline": "Remote desert oasis of salt lakes and mud-brick ruins",
+  "summary": "Siwa is a remote oasis deep in Egypt's Western Desert near the Libyan border, home to a Berber-speaking community. Climb the melting mud-brick fortress of Shali, see the Temple of the Oracle that Alexander the Great consulted, float in turquoise salt pools, bathe in Cleopatra's Spring and ride over the Great Sand Sea dunes at sunset.",
+  "days": 3,
+  "bestMonths": [
+   10,
+   11,
+   12,
+   1,
+   2,
+   3
+  ],
+  "seasonNote": "October to March; summer is extremely hot.",
+  "arrival": "About 9 hours by bus or car from Cairo via Marsa Matruh (4 hours from Matruh); check travel permits.",
+  "gettingAround": "Bicycles and donkey carts in town; 4x4 tours for the desert.",
+  "foodTip": "Dates, olives, Siwan flatbread and slow-cooked lamb under the sand.",
+  "buyTip": "Siwan dates, olive oil and embroidered textiles.",
+  "baseArea": "Siwa town or an eco-lodge",
+  "hotel": [
+   30,
+   300
+  ],
+  "connections": [
+   {
+    "to": "alexandria",
+    "mode": "Bus",
+    "minutes": 540,
+    "note": "Via Marsa Matruh."
+   },
+   {
+    "to": "cairo",
+    "mode": "Bus",
+    "minutes": 600,
+    "note": "Overnight buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Shali Fortress",
+    "kind": "see",
+    "id": "siw-shali",
+    "at": [
+     29.203,
+     25.519
+    ],
+    "wiki": "Shali (fortress)",
+    "area": "Siwa town",
+    "summary": "Ruins of a 13th-century salt-mud fortress town, melted by rare rains.",
+    "expect": "Free; uneven paths.",
+    "tip": "Climb at sunset.",
+    "why": "Heart of Siwa.",
+    "flow": [
+     "Climb.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Temple of the Oracle of Amun",
+    "kind": "see",
+    "id": "siw-oracle",
+    "at": [
+     29.2,
+     25.542
+    ],
+    "wiki": "Temple of the Oracle of Amun",
+    "area": "Aghurmi",
+    "summary": "Hilltop temple where Alexander the Great asked the oracle about his fate.",
+    "expect": "Small fee.",
+    "tip": "Combine with Cleopatra's Spring.",
+    "why": "Alexander's oracle.",
+    "flow": [
+     "Temple.",
+     "View."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Spiritual"
+    ]
+   },
+   {
+    "name": "Salt lakes",
+    "kind": "see",
+    "id": "siw-salt",
+    "at": [
+     29.19,
+     25.48
+    ],
+    "wiki": "Siwa Oasis",
+    "area": "Salt lakes",
+    "summary": "Turquoise salt pools where you float effortlessly.",
+    "expect": "Rinse after; bring water.",
+    "tip": "Go in the afternoon.",
+    "why": "Float in the desert.",
+    "flow": [
+     "Drive to the pools.",
+     "Float."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Cleopatra's Spring",
+    "kind": "see",
+    "id": "siw-cleopatra",
+    "at": [
+     29.193,
+     25.547
+    ],
+    "wiki": "Cleopatra's Spring",
+    "area": "Aghurmi",
+    "summary": "Natural spring pool for a swim among palms.",
+    "expect": "Modest swimwear.",
+    "tip": "Have tea at the café.",
+    "why": "Oasis swim.",
+    "flow": [
+     "Swim.",
+     "Tea."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     50
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Great Sand Sea safari",
+    "kind": "see",
+    "id": "siw-sandsea",
+    "at": [
+     29.05,
+     25.4
+    ],
+    "wiki": "Great Sand Sea",
+    "area": "Great Sand Sea",
+    "summary": "4x4 ride over golden dunes with sandboarding and hot springs.",
+    "expect": "Tours only.",
+    "tip": "Stay for sunset and stars.",
+    "why": "Endless dunes.",
+    "flow": [
+     "4x4.",
+     "Sunset dunes."
+    ],
+    "hours": 5,
+    "price": [
+     500,
+     1500
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Mountain of the Dead",
+    "kind": "see",
+    "id": "siw-dead",
+    "at": [
+     29.212,
+     25.52
+    ],
+    "wiki": "Gebel al-Mawta",
+    "area": "Siwa town",
+    "summary": "Hill of rock-cut tombs, some painted.",
+    "expect": "Small fee; some tombs locked.",
+    "tip": "Ask the guard to open painted tombs.",
+    "why": "Ancient tombs.",
+    "flow": [
+     "Tombs.",
+     "View."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Fatnas Island sunset",
+    "kind": "see",
+    "id": "siw-fatnas",
+    "at": [
+     29.188,
+     25.49
+    ],
+    "wiki": "Siwa Oasis",
+    "area": "Fatnas",
+    "summary": "Palm-fringed spot on a lake for sunset tea.",
+    "expect": "Small fee.",
+    "tip": "Arrive before sunset.",
+    "why": "Famous sunset.",
+    "flow": [
+     "Tea.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     50
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Siwan dates and olives",
+    "kind": "eat",
+    "id": "siw-dates",
+    "at": [
+     29.203,
+     25.52
+    ],
+    "wiki": "Siwa Oasis",
+    "area": "Market",
+    "summary": "Dozens of date varieties and local olives at the market.",
+    "expect": "Market.",
+    "tip": "Taste before buying.",
+    "why": "Oasis produce.",
+    "flow": [
+     "Market.",
+     "Taste."
+    ],
+    "hours": 0.5,
+    "price": [
+     50,
+     200
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Siwan",
+    "order": [
+     "Dates",
+     "Olives"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Lamb cooked in the sand",
+    "kind": "eat",
+    "id": "siw-lamb",
+    "at": [
+     29.203,
+     25.518
+    ],
+    "wiki": "Siwa Oasis",
+    "area": "Siwa town",
+    "summary": "Lamb slow-cooked buried in hot sand, often on desert tours.",
+    "expect": "Order ahead.",
+    "tip": "Ask your guide or lodge.",
+    "why": "Desert feast.",
+    "flow": [
+     "Order.",
+     "Feast."
+    ],
+    "hours": 2,
+    "price": [
+     300,
+     600
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Siwan",
+    "order": [
+     "Sand-baked lamb"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Market-square restaurants",
+    "kind": "eat",
+    "id": "siw-square",
+    "at": [
+     29.2035,
+     25.5195
+    ],
+    "wiki": "Siwa Oasis",
+    "area": "Main square",
+    "summary": "Simple places serving stews, flatbread and mint tea.",
+    "expect": "Cheap.",
+    "tip": "Try the Siwan pizza-like bread.",
+    "why": "Local meals.",
+    "flow": [
+     "Square.",
+     "Dinner."
+    ],
+    "hours": 1,
+    "price": [
+     100,
+     250
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Egyptian",
+    "order": [
+     "Stew",
+     "Mint tea"
+    ],
+    "veg": "some",
+    "halal": "yes",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Egypt",
+  "region": "Africa",
+  "currency": "EGP",
+  "cashTip": "Carry Egyptian pounds in small notes for taxis, tips and cafés; cards work in hotels. Tipping (baksheesh) is expected for small services.",
+  "id": "dahab",
+  "name": "Dahab",
+  "at": [
+   28.497,
+   34.513
+  ],
+  "wiki": "Dahab",
+  "cover": "Blue Hole (Red Sea)",
+  "dailyBudget": [
+   1000,
+   3000
+  ],
+  "cashPerDay": [
+   500,
+   1500
+  ],
+  "seasons": "HHHHSSSSSHHH",
+  "tagline": "Laid-back Red Sea diving and Sinai mountains",
+  "summary": "Dahab is a relaxed Bedouin fishing village turned diving town on the Sinai coast. Snorkel or dive the reefs from shore at the Lighthouse and the famous Blue Hole, climb Mount Sinai overnight for sunrise and St Catherine's Monastery, and ride into the desert canyons with Bedouin guides.",
+  "days": 4,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn; windy days suit kitesurfers.",
+  "arrival": "About 1 hour by road from Sharm El Sheikh airport.",
+  "gettingAround": "Walk the seafront; taxis and tours for the Blue Hole and Mount Sinai.",
+  "foodTip": "Fresh fish on the seafront, Bedouin bread and tea.",
+  "buyTip": "Bedouin crafts.",
+  "baseArea": "Masbat or Lighthouse area",
+  "hotel": [
+   20,
+   120
+  ],
+  "connections": [
+   {
+    "to": "sharm-el-sheikh",
+    "mode": "Car",
+    "minutes": 60,
+    "note": "Taxi or bus."
+   }
+  ],
+  "items": [
+   {
+    "name": "Blue Hole",
+    "kind": "see",
+    "id": "dah-bluehole",
+    "at": [
+     28.572,
+     34.537
+    ],
+    "wiki": "Blue Hole (Red Sea)",
+    "area": "North coast",
+    "summary": "Deep sinkhole in the reef with spectacular snorkelling at its rim.",
+    "expect": "Snorkel the edge; deep dives only with experts.",
+    "tip": "Snorkel the Bells and the rim.",
+    "why": "World-famous dive site.",
+    "flow": [
+     "Bells entry.",
+     "Rim snorkel."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     500
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Mount Sinai sunrise",
+    "kind": "see",
+    "id": "dah-sinai",
+    "at": [
+     28.539,
+     33.975
+    ],
+    "wiki": "Mount Sinai",
+    "area": "St Catherine",
+    "summary": "Night climb to the summit for sunrise over the mountains.",
+    "expect": "Leave at midnight; cold at the top.",
+    "tip": "Bring layers and a torch.",
+    "why": "Pilgrim sunrise.",
+    "flow": [
+     "Night climb.",
+     "Sunrise."
+    ],
+    "hours": 8,
+    "price": [
+     300,
+     800
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Adventure",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "St Catherine's Monastery",
+    "kind": "see",
+    "id": "dah-catherine",
+    "at": [
+     28.556,
+     33.976
+    ],
+    "wiki": "Saint Catherine's Monastery",
+    "area": "St Catherine",
+    "summary": "One of the oldest working Christian monasteries, with the Burning Bush.",
+    "expect": "Limited opening hours.",
+    "tip": "Visit after the Sinai climb.",
+    "why": "Ancient monastery.",
+    "flow": [
+     "Courtyard.",
+     "Burning Bush."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Lighthouse reef",
+    "kind": "see",
+    "id": "dah-lighthouse",
+    "at": [
+     28.501,
+     34.518
+    ],
+    "wiki": "Dahab",
+    "area": "Lighthouse",
+    "summary": "Easy shore snorkel and dive site in town.",
+    "expect": "Free from shore.",
+    "tip": "Great for beginners.",
+    "why": "Reef in town.",
+    "flow": [
+     "Enter from shore.",
+     "Snorkel."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Coloured Canyon",
+    "kind": "see",
+    "id": "dah-canyon",
+    "at": [
+     29.01,
+     34.63
+    ],
+    "wiki": "Coloured Canyon",
+    "area": "Nuweiba",
+    "summary": "Narrow sandstone canyon of swirling colours.",
+    "expect": "Tour needed; some scrambling.",
+    "tip": "Go with a Bedouin guide.",
+    "why": "Desert canyon.",
+    "flow": [
+     "Drive.",
+     "Canyon walk."
+    ],
+    "hours": 5,
+    "price": [
+     500,
+     1000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ras Abu Galum",
+    "kind": "see",
+    "id": "dah-abugalum",
+    "at": [
+     28.61,
+     34.55
+    ],
+    "wiki": "Ras Abu Galum",
+    "area": "North coast",
+    "summary": "Protected coast reached by camel or walking from the Blue Hole.",
+    "expect": "Day trip.",
+    "tip": "Snorkel and eat at Bedouin camps.",
+    "why": "Wild coast.",
+    "flow": [
+     "Camel or hike.",
+     "Snorkel."
+    ],
+    "hours": 5,
+    "price": [
+     300,
+     800
+    ],
+    "best": "Full day",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Seafront fish",
+    "kind": "eat",
+    "id": "dah-fish",
+    "at": [
+     28.498,
+     34.515
+    ],
+    "wiki": "Dahab",
+    "area": "Masbat",
+    "summary": "Choose fish at seafront restaurants and eat on cushions by the water.",
+    "expect": "Evening.",
+    "tip": "Agree price by weight.",
+    "why": "Red Sea dinner.",
+    "flow": [
+     "Choose fish.",
+     "Dinner by the sea."
+    ],
+    "hours": 1.5,
+    "price": [
+     300,
+     700
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Egyptian",
+    "order": [
+     "Grilled fish"
+    ],
+    "veg": "no",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Bedouin tea and bread",
+    "kind": "eat",
+    "id": "dah-bedouin",
+    "at": [
+     28.5,
+     34.51
+    ],
+    "wiki": "Bedouin",
+    "area": "Desert",
+    "summary": "Sweet sage tea and flatbread baked in embers at desert camps.",
+    "expect": "On tours.",
+    "tip": "Ask for maramiya tea.",
+    "why": "Desert hospitality.",
+    "flow": [
+     "Camp.",
+     "Tea."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Bedouin",
+    "order": [
+     "Bedouin tea",
+     "Flatbread"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Koshari",
+    "kind": "eat",
+    "id": "dah-koshari",
+    "at": [
+     28.496,
+     34.512
+    ],
+    "wiki": "Koshari",
+    "area": "Town",
+    "summary": "Egypt's rice, lentil and pasta dish with tomato sauce.",
+    "expect": "Cheap.",
+    "tip": "Add crispy onions.",
+    "why": "Egyptian staple.",
+    "flow": [
+     "Koshari shop.",
+     "Koshari."
+    ],
+    "hours": 0.5,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Egyptian",
+    "order": [
+     "Koshari"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Morocco",
+  "region": "Africa",
+  "currency": "MAD",
+  "cashTip": "Carry dirhams; cards work in larger hotels. Tip 10 percent in restaurants and small change to guides.",
+  "id": "ouarzazate",
+  "name": "Ouarzazate",
+  "at": [
+   30.9189,
+   -6.8934
+  ],
+  "wiki": "Ouarzazate",
+  "cover": "Aït Benhaddou",
+  "dailyBudget": [
+   400,
+   1000
+  ],
+  "cashPerDay": [
+   200,
+   600
+  ],
+  "seasons": "SSHHSLLLSHHS",
+  "tagline": "Gateway to the Sahara and the kasbah of Aït Benhaddou",
+  "summary": "Ouarzazate is the \"door of the desert\" south of the High Atlas, and Morocco's film capital. Explore the fortified earthen village of Aït Benhaddou, seen in countless films, tour the Atlas Film Studios and Taourirt Kasbah, then drive the Road of a Thousand Kasbahs to the Dades and Todra gorges on the way to the Sahara.",
+  "days": 2,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn; summers are hot and winter nights cold.",
+  "arrival": "About 4 hours by road from Marrakech over the Tizi n'Tichka pass; small airport.",
+  "gettingAround": "Car or tour.",
+  "foodTip": "Tagines, Berber omelette and mint tea.",
+  "buyTip": "Berber rugs and argan products.",
+  "baseArea": "Ouarzazate town or Aït Benhaddou",
+  "hotel": [
+   30,
+   150
+  ],
+  "connections": [
+   {
+    "to": "marrakech",
+    "mode": "Car",
+    "minutes": 240,
+    "note": "Tizi n'Tichka pass."
+   },
+   {
+    "to": "merzouga",
+    "mode": "Car",
+    "minutes": 330,
+    "note": "Via the Dades and Todra gorges."
+   }
+  ],
+  "items": [
+   {
+    "name": "Aït Benhaddou",
+    "kind": "see",
+    "id": "oua-ait",
+    "at": [
+     31.047,
+     -7.129
+    ],
+    "wiki": "Aït Benhaddou",
+    "area": "Aït Benhaddou",
+    "summary": "UNESCO fortified mud-brick village on a hill, a film set many times over.",
+    "expect": "Free to walk; small fees for houses.",
+    "tip": "Climb to the granary at sunset.",
+    "why": "Iconic kasbah.",
+    "flow": [
+     "Cross the river.",
+     "Climb to the top."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Taourirt Kasbah",
+    "kind": "see",
+    "id": "oua-taourirt",
+    "at": [
+     30.918,
+     -6.888
+    ],
+    "wiki": "Taourirt Kasbah",
+    "area": "Ouarzazate",
+    "summary": "Glaoui family kasbah with painted rooms.",
+    "expect": "Small fee.",
+    "tip": "Look at the cedar ceilings.",
+    "why": "Kasbah interiors.",
+    "flow": [
+     "Rooms.",
+     "Rooftops."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Atlas Film Studios",
+    "kind": "see",
+    "id": "oua-studios",
+    "at": [
+     30.93,
+     -6.865
+    ],
+    "wiki": "Atlas Studios",
+    "area": "Ouarzazate",
+    "summary": "Film studio with sets from Gladiator and Game of Thrones.",
+    "expect": "Paid; guided.",
+    "tip": "Combine with town sights.",
+    "why": "Movie magic.",
+    "flow": [
+     "Tour.",
+     "Sets."
+    ],
+    "hours": 1.5,
+    "price": [
+     80,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Dades Gorge",
+    "kind": "see",
+    "id": "oua-dades",
+    "at": [
+     31.53,
+     -5.93
+    ],
+    "wiki": "Dades Gorges",
+    "area": "Dades",
+    "summary": "Winding road through red rock formations and kasbahs.",
+    "expect": "About 2.5 hours away.",
+    "tip": "Stop at the switchback viewpoint.",
+    "why": "Gorge drive.",
+    "flow": [
+     "Monkey Fingers rocks.",
+     "Switchbacks."
+    ],
+    "hours": 6,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Todra Gorge",
+    "kind": "see",
+    "id": "oua-todra",
+    "at": [
+     31.59,
+     -5.59
+    ],
+    "wiki": "Todgha Gorge",
+    "area": "Tinghir",
+    "summary": "Narrow canyon with 300 m walls.",
+    "expect": "3.5 hours away.",
+    "tip": "Walk into the narrows.",
+    "why": "Canyon walls.",
+    "flow": [
+     "Narrows.",
+     "Walk."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Fint Oasis",
+    "kind": "see",
+    "id": "oua-fint",
+    "at": [
+     30.88,
+     -6.96
+    ],
+    "wiki": "Ouarzazate",
+    "area": "Fint",
+    "summary": "Palm oasis village close to town.",
+    "expect": "Rough track.",
+    "tip": "Have tea with a local family.",
+    "why": "Green oasis.",
+    "flow": [
+     "Drive.",
+     "Palm walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tagine",
+    "kind": "eat",
+    "id": "oua-tagine",
+    "at": [
+     30.919,
+     -6.893
+    ],
+    "wiki": "Tajine",
+    "area": "Town",
+    "summary": "Slow-cooked stew in a clay pot, with lamb, chicken or vegetables.",
+    "expect": "Everywhere.",
+    "tip": "Try Berber tagine with vegetables.",
+    "why": "Morocco on a plate.",
+    "flow": [
+     "Restaurant.",
+     "Tagine."
+    ],
+    "hours": 1,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Moroccan",
+    "order": [
+     "Tagine"
+    ],
+    "veg": "some",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Berber omelette",
+    "kind": "eat",
+    "id": "oua-omelette",
+    "at": [
+     30.918,
+     -6.894
+    ],
+    "wiki": "Moroccan cuisine",
+    "area": "Town",
+    "summary": "Eggs cooked in a tagine with tomato and spices.",
+    "expect": "Breakfast or lunch.",
+    "tip": "Eat with fresh bread.",
+    "why": "Simple and good.",
+    "flow": [
+     "Café.",
+     "Omelette."
+    ],
+    "hours": 0.5,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Moroccan",
+    "order": [
+     "Berber omelette"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   },
+   {
+    "name": "Mint tea",
+    "kind": "eat",
+    "id": "oua-tea",
+    "at": [
+     31.047,
+     -7.129
+    ],
+    "wiki": "Maghrebi mint tea",
+    "area": "Aït Benhaddou",
+    "summary": "Sweet green tea poured from a height.",
+    "expect": "Everywhere.",
+    "tip": "Have it on a kasbah roof.",
+    "why": "Hospitality.",
+    "flow": [
+     "Rooftop.",
+     "Tea."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Moroccan",
+    "order": [
+     "Mint tea"
+    ],
+    "veg": "yes",
+    "halal": "yes",
+    "venue": "food-area"
+   }
+  ]
+ }
+]
