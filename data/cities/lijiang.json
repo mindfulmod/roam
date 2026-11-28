@@ -72,8 +72,8 @@
       "id": "lijiang-lij-oldtown",
       "name": "Dayan Old Town",
       "kind": "see",
-      "lat": 26.8721,
-      "lon": 100.2299,
+      "lat": 26.86667,
+      "lon": 100.23333,
       "wiki": "Old Town of Lijiang",
       "summary": "UNESCO town of canals, stone bridges and Naxi wooden houses.",
       "expect": "Very commercial in the centre; old-town maintenance fee may apply.",
@@ -113,14 +113,22 @@
         "Very commercial in the centre; old-town maintenance fee may apply.",
         "Climb Lion Hill for the rooftop view; explore early morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21811,
+          "period": "202511-202610",
+          "title": "Old Town of Lijiang",
+          "url": "https://en.wikipedia.org/wiki/Old_Town_of_Lijiang",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lijiang-lij-blackdragon",
       "name": "Black Dragon Pool",
       "kind": "see",
-      "lat": 26.885,
-      "lon": 100.235,
+      "lat": 26.88761,
+      "lon": 100.23328,
       "wiki": "Black Dragon Pool",
       "summary": "Pool reflecting a marble bridge, a pavilion and the snow mountain.",
       "expect": "Clear mornings are best.",
@@ -160,14 +168,27 @@
         "Clear mornings are best.",
         "Go at sunrise for the mountain reflection."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10983,
+          "period": "202511-202610",
+          "title": "Black Dragon Pool",
+          "url": "https://en.wikipedia.org/wiki/Black_Dragon_Pool",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q4920688",
+      "local": {
+        "name": "丽江黑龙潭",
+        "lang": "zh-hans"
+      }
     },
     {
       "id": "lijiang-lij-yulong",
       "name": "Jade Dragon Snow Mountain",
       "kind": "see",
-      "lat": 27.1,
-      "lon": 100.2,
+      "lat": 27.09833,
+      "lon": 100.175,
       "wiki": "Jade Dragon Snow Mountain",
       "summary": "Glacier mountain with a cable car to 4,500 m and Blue Moon Valley lakes.",
       "expect": "Costly; altitude; limited tickets.",
@@ -208,15 +229,28 @@
         "Costly; altitude; limited tickets.",
         "Book cable car tickets ahead; carry oxygen."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 58546,
+          "period": "202511-202610",
+          "title": "Jade Dragon Snow Mountain",
+          "url": "https://en.wikipedia.org/wiki/Jade_Dragon_Snow_Mountain",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1465660",
+      "local": {
+        "name": "玉龙雪山",
+        "lang": "zh-hans"
+      }
     },
     {
       "id": "lijiang-lij-tlg",
       "name": "Tiger Leaping Gorge",
       "kind": "see",
-      "lat": 27.19,
-      "lon": 100.11,
+      "lat": 27.23,
+      "lon": 100.14,
       "wiki": "Tiger Leaping Gorge",
       "summary": "Deep gorge of the Jinsha River with a famous high trail.",
       "expect": "Two-day trek or day viewpoint; landslide risk in rain.",
@@ -256,15 +290,28 @@
         "Two-day trek or day viewpoint; landslide risk in rain.",
         "Walk the high trail with a night at a guesthouse."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 40287,
+          "period": "202511-202610",
+          "title": "Tiger Leaping Gorge",
+          "url": "https://en.wikipedia.org/wiki/Tiger_Leaping_Gorge",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1460797",
+      "local": {
+        "name": "虎跳峡",
+        "lang": "zh-hans"
+      }
     },
     {
       "id": "lijiang-lij-baisha",
       "name": "Baisha village",
       "kind": "see",
-      "lat": 26.96,
-      "lon": 100.22,
+      "lat": 26.95708,
+      "lon": 100.21495,
       "wiki": "Baisha, Lijiang",
       "summary": "Old Naxi village with Ming-dynasty murals and quiet lanes.",
       "expect": "Calmer than the old town.",
@@ -303,15 +350,14 @@
       "tradeoffs": [
         "Calmer than the old town.",
         "Cycle there from Shuhe."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "lijiang-lij-shuhe",
       "name": "Shuhe Old Town",
       "kind": "see",
-      "lat": 26.92,
-      "lon": 100.21,
+      "lat": 26.86667,
+      "lon": 100.23333,
       "wiki": "Shuhe",
       "summary": "Smaller old town with streams and a slower pace.",
       "expect": "Commercial but calmer.",
@@ -350,7 +396,15 @@
         "Commercial but calmer.",
         "Stay here for a quieter base."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21811,
+          "period": "202511-202610",
+          "title": "Old Town of Lijiang",
+          "url": "https://en.wikipedia.org/wiki/Old_Town_of_Lijiang",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lijiang-lij-mu",
@@ -571,5 +625,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q205914",
+  "local": {
+    "name": "丽江市",
+    "lang": "zh-hans"
+  }
 }

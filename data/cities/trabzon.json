@@ -66,7 +66,7 @@
       "name": "Sümela Monastery",
       "kind": "see",
       "lat": 40.69,
-      "lon": 39.6585,
+      "lon": 39.65833,
       "wiki": "Sümela Monastery",
       "summary": "Greek Orthodox monastery built into a sheer cliff high above a forested valley.",
       "expect": "Paid; steep path; often foggy.",
@@ -107,15 +107,28 @@
         "Paid; steep path; often foggy.",
         "Go early; a lift or path takes you up."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 75430,
+          "period": "202511-202610",
+          "title": "Sumela Monastery",
+          "url": "https://en.wikipedia.org/wiki/Sumela_Monastery",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1419157",
+      "local": {
+        "name": "Sümela Manastırı",
+        "lang": "tr"
+      }
     },
     {
       "id": "trabzon-tra-ayasofya",
       "name": "Hagia Sophia of Trabzon",
       "kind": "see",
-      "lat": 41.0055,
-      "lon": 39.693,
+      "lat": 41.00333,
+      "lon": 39.69611,
       "wiki": "Hagia Sophia, Trabzon",
       "summary": "13th-century Byzantine church with frescoes, now a mosque.",
       "expect": "Free; dress modestly.",
@@ -156,7 +169,20 @@
         "Free; dress modestly.",
         "Look at the carved Genesis frieze on the south porch."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 15859,
+          "period": "202511-202610",
+          "title": "Hagia Sophia, Trabzon",
+          "url": "https://en.wikipedia.org/wiki/Hagia_Sophia%2C_Trabzon",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1568666",
+      "local": {
+        "name": "Ayasofya Camii, Trabzon",
+        "lang": "tr"
+      }
     },
     {
       "id": "trabzon-tra-ataturk",
@@ -255,8 +281,8 @@
       "id": "trabzon-tra-uzungol",
       "name": "Uzungöl",
       "kind": "see",
-      "lat": 40.619,
-      "lon": 40.29,
+      "lat": 40.61917,
+      "lon": 40.295,
       "wiki": "Uzungöl",
       "summary": "Lake in a mountain valley with a mosque by the water and wooden chalets.",
       "expect": "2 hours each way; touristy.",
@@ -296,8 +322,17 @@
         "2 hours each way; touristy.",
         "Walk up to the viewpoints above the lake."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10834,
+          "period": "202511-202610",
+          "title": "Uzungöl",
+          "url": "https://en.wikipedia.org/wiki/Uzung%C3%B6l",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1095336"
     },
     {
       "id": "trabzon-tra-ayder",
@@ -345,14 +380,23 @@
         "Stay overnight; try the hot spring."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2414,
+          "period": "202511-202610",
+          "title": "Ayder",
+          "url": "https://en.wikipedia.org/wiki/Ayder",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "trabzon-tra-rize",
       "name": "Rize tea terraces",
       "kind": "see",
-      "lat": 41.025,
-      "lon": 40.517,
+      "lat": 41.02472,
+      "lon": 40.52222,
       "wiki": "Rize",
       "summary": "Tea plantations covering the hills, with a tea garden overlooking the town.",
       "expect": "1h15 by car.",
@@ -392,8 +436,17 @@
         "1h15 by car.",
         "Visit the Tea Research Institute garden."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 54552,
+          "period": "202511-202610",
+          "title": "Rize",
+          "url": "https://en.wikipedia.org/wiki/Rize",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q201101"
     },
     {
       "id": "trabzon-tra-hamsi",
@@ -567,5 +620,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q45301"
 }

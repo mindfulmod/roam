@@ -65,8 +65,8 @@
       "id": "paphos-pap-mosaics",
       "name": "Paphos Archaeological Park",
       "kind": "see",
-      "lat": 34.758,
-      "lon": 32.406,
+      "lat": 34.76,
+      "lon": 32.407,
       "wiki": "Paphos Archaeological Park",
       "summary": "Roman villas with some of the finest floor mosaics in the world.",
       "expect": "Paid; little shade.",
@@ -106,14 +106,23 @@
         "Paid; little shade.",
         "Start at the House of Dionysos."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1042,
+          "period": "202511-202610",
+          "title": "Nea Paphos (ancient city)",
+          "url": "https://en.wikipedia.org/wiki/Nea_Paphos_(ancient_city)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q12065255"
     },
     {
       "id": "paphos-pap-tombs",
       "name": "Tombs of the Kings",
       "kind": "see",
-      "lat": 34.774,
-      "lon": 32.405,
+      "lat": 34.775,
+      "lon": 32.40694,
       "wiki": "Tombs of the Kings (Paphos)",
       "summary": "Underground Hellenistic tombs carved from rock with Doric columns.",
       "expect": "Paid; hot.",
@@ -153,14 +162,27 @@
         "Paid; hot.",
         "Go early or late."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22674,
+          "period": "202511-202610",
+          "title": "Tombs of the Kings (Paphos)",
+          "url": "https://en.wikipedia.org/wiki/Tombs_of_the_Kings_(Paphos)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1796353",
+      "local": {
+        "name": "Τάφοι των Βασιλέων",
+        "lang": "el"
+      }
     },
     {
       "id": "paphos-pap-aphrodite",
       "name": "Aphrodite's Rock (Petra tou Romiou)",
       "kind": "see",
-      "lat": 34.664,
-      "lon": 32.627,
+      "lat": 34.66352,
+      "lon": 32.62697,
       "wiki": "Petra tou Romiou",
       "summary": "Sea stack where Aphrodite was said to rise from the waves.",
       "expect": "Pebble beach; 25 minutes by car.",
@@ -201,7 +223,20 @@
         "Pebble beach; 25 minutes by car.",
         "Swim around the rock for eternal youth (legend says)."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17625,
+          "period": "202511-202610",
+          "title": "Petra tou Romiou",
+          "url": "https://en.wikipedia.org/wiki/Petra_tou_Romiou",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2061165",
+      "local": {
+        "name": "Πέτρα του Ρωμιού",
+        "lang": "el"
+      }
     },
     {
       "id": "paphos-pap-harbour",
@@ -247,14 +282,23 @@
         "Fort fee.",
         "Walk the promenade at sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8208,
+          "period": "202511-202610",
+          "title": "Paphos Castle",
+          "url": "https://en.wikipedia.org/wiki/Paphos_Castle",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "paphos-pap-avakas",
       "name": "Avakas Gorge",
       "kind": "see",
-      "lat": 34.92,
-      "lon": 32.35,
+      "lat": 34.92307,
+      "lon": 32.34456,
       "wiki": "Avakas Gorge",
       "summary": "Narrow limestone gorge with a walk through towering walls.",
       "expect": "Rough track; 45 minutes by car.",
@@ -294,15 +338,14 @@
         "Rough track; 45 minutes by car.",
         "Wear proper shoes."
       ],
-      "pinApproximate": true,
       "excursion": true
     },
     {
       "id": "paphos-pap-akamas",
       "name": "Akamas and the Blue Lagoon",
       "kind": "see",
-      "lat": 35.088,
-      "lon": 32.307,
+      "lat": 35.04,
+      "lon": 32.32,
       "wiki": "Akamas",
       "summary": "Wild peninsula with turquoise Blue Lagoon reached by boat or jeep.",
       "expect": "Boats from Latchi.",
@@ -342,8 +385,21 @@
         "Boats from Latchi.",
         "Take the boat from Latchi."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5463,
+          "period": "202511-202610",
+          "title": "Akamas",
+          "url": "https://en.wikipedia.org/wiki/Akamas",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2087483",
+      "local": {
+        "name": "Ακάμας",
+        "lang": "el"
+      }
     },
     {
       "id": "paphos-pap-kykkos",
@@ -390,8 +446,21 @@
         "2 hours by car; dress modestly.",
         "Combine with Troodos villages."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 15146,
+          "period": "202511-202610",
+          "title": "Kykkos Monastery",
+          "url": "https://en.wikipedia.org/wiki/Kykkos_Monastery",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q225373",
+      "local": {
+        "name": "Ιερά Μονή Κύκκου",
+        "lang": "el"
+      }
     },
     {
       "id": "paphos-pap-meze",
@@ -566,5 +635,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q180918",
+  "local": {
+    "name": "Πάφος",
+    "lang": "el"
+  }
 }

@@ -77,8 +77,8 @@
       "id": "naoshima-nao-chichu",
       "name": "Chichu Art Museum",
       "kind": "see",
-      "lat": 34.452,
-      "lon": 133.99,
+      "lat": 34.44976,
+      "lon": 133.9858,
       "wiki": "Chichu Art Museum",
       "summary": "Tadao Ando's underground museum lit by daylight, with Monet, Turrell and De Maria.",
       "expect": "Timed tickets; closed Mondays; no photos.",
@@ -118,7 +118,20 @@
         "Timed tickets; closed Mondays; no photos.",
         "Book weeks ahead in high season."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11325,
+          "period": "202511-202610",
+          "title": "Chichu Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Chichu_Art_Museum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q4556499",
+      "local": {
+        "name": "地中美術館",
+        "lang": "ja"
+      }
     },
     {
       "id": "naoshima-nao-pumpkin",
@@ -170,8 +183,8 @@
       "id": "naoshima-nao-benesse",
       "name": "Benesse House Museum",
       "kind": "see",
-      "lat": 34.448,
-      "lon": 133.997,
+      "lat": 34.44524,
+      "lon": 133.99073,
       "wiki": "Benesse House",
       "summary": "Museum-hotel by the sea with works placed indoors and on the beach.",
       "expect": "Paid; closed some days.",
@@ -211,14 +224,22 @@
         "Paid; closed some days.",
         "Walk the outdoor art along the coast."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7455,
+          "period": "202511-202610",
+          "title": "Benesse House",
+          "url": "https://en.wikipedia.org/wiki/Benesse_House",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "naoshima-nao-arthouse",
       "name": "Art House Project",
       "kind": "see",
-      "lat": 34.463,
-      "lon": 134.012,
+      "lat": 34.46072,
+      "lon": 133.99842,
       "wiki": "Art House Project",
       "summary": "Old houses, a temple and a shrine in Honmura turned into art installations.",
       "expect": "Combined ticket; closed Mondays.",
@@ -257,15 +278,14 @@
       "tradeoffs": [
         "Combined ticket; closed Mondays.",
         "Minamidera by Turrell is unforgettable."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "naoshima-nao-leeufan",
       "name": "Lee Ufan Museum",
       "kind": "see",
-      "lat": 34.451,
-      "lon": 133.993,
+      "lat": 34.44909,
+      "lon": 133.9887,
       "wiki": "Lee Ufan Museum",
       "summary": "Quiet Ando building holding Lee Ufan's minimal stone and steel works.",
       "expect": "Paid; closed Mondays.",
@@ -305,7 +325,15 @@
         "Paid; closed Mondays.",
         "Visit before Chichu nearby."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1605,
+          "period": "202511-202610",
+          "title": "Lee Ufan Museum",
+          "url": "https://en.wikipedia.org/wiki/Lee_Ufan_Museum",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "naoshima-nao-bath",
@@ -352,14 +380,23 @@
         "Bring or buy a towel.",
         "End the day with a soak."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 15976,
+          "period": "202511-202610",
+          "title": "Naoshima",
+          "url": "https://en.wikipedia.org/wiki/Naoshima",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "naoshima-nao-teshima",
       "name": "Teshima Art Museum",
       "kind": "see",
-      "lat": 34.493,
-      "lon": 134.08,
+      "lat": 34.48972,
+      "lon": 134.09139,
       "wiki": "Teshima Art Museum",
       "summary": "A concrete shell like a water drop where water beads across the floor.",
       "expect": "Ferry from Naoshima; closed Tuesdays.",
@@ -400,8 +437,21 @@
         "Ferry from Naoshima; closed Tuesdays.",
         "Rent an e-bike on Teshima."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 6244,
+          "period": "202511-202610",
+          "title": "Teshima Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Teshima_Art_Museum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2379884",
+      "local": {
+        "name": "豊島美術館",
+        "lang": "ja"
+      }
     },
     {
       "id": "naoshima-nao-cafe",
@@ -575,5 +625,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1350060",
+  "local": {
+    "name": "直島町",
+    "lang": "ja"
+  }
 }

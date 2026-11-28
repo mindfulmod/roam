@@ -77,8 +77,8 @@
       "id": "matsumoto-mts-castle",
       "name": "Matsumoto Castle",
       "kind": "see",
-      "lat": 36.2386,
-      "lon": 137.9689,
+      "lat": 36.23889,
+      "lon": 137.96917,
       "wiki": "Matsumoto Castle",
       "summary": "Black wooden castle of 1594, one of Japan's 12 original keeps.",
       "expect": "Paid; very steep stairs inside.",
@@ -118,14 +118,27 @@
         "Paid; very steep stairs inside.",
         "Photograph it reflected in the moat with the Alps behind."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 63678,
+          "period": "202511-202610",
+          "title": "Matsumoto Castle",
+          "url": "https://en.wikipedia.org/wiki/Matsumoto_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q739612",
+      "local": {
+        "name": "松本城",
+        "lang": "ja"
+      }
     },
     {
       "id": "matsumoto-mts-nakamachi",
       "name": "Nakamachi Street",
       "kind": "see",
-      "lat": 36.232,
-      "lon": 137.971,
+      "lat": 36.2338,
+      "lon": 137.9715,
       "wiki": "Nakamachi Street",
       "summary": "Merchant street of white and black namako-walled storehouses.",
       "expect": "Free.",
@@ -164,15 +177,14 @@
       "tradeoffs": [
         "Free.",
         "Browse craft shops and cafés."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "matsumoto-mts-kusama",
       "name": "Matsumoto City Museum of Art",
       "kind": "see",
-      "lat": 36.232,
-      "lon": 137.978,
+      "lat": 36.23156,
+      "lon": 137.97665,
       "wiki": "Matsumoto City Museum of Art",
       "summary": "Museum with a large collection by hometown artist Yayoi Kusama.",
       "expect": "Paid; closed Mondays.",
@@ -210,8 +222,7 @@
       "tradeoffs": [
         "Paid; closed Mondays.",
         "See the dotted flowers outside."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "matsumoto-mts-nawate",
@@ -257,14 +268,23 @@
         "Small.",
         "Try taiyaki here."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 61082,
+          "period": "202511-202610",
+          "title": "Matsumoto, Nagano",
+          "url": "https://en.wikipedia.org/wiki/Matsumoto%2C_Nagano",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "matsumoto-mts-kaichi",
       "name": "Kaichi School",
       "kind": "see",
-      "lat": 36.242,
-      "lon": 137.969,
+      "lat": 36.24333,
+      "lon": 137.96833,
       "wiki": "Kaichi School",
       "summary": "Western-style 1876 schoolhouse, one of Japan's oldest.",
       "expect": "Check it is open after renovation.",
@@ -304,14 +324,27 @@
         "Check it is open after renovation.",
         "Combine with the castle."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2910,
+          "period": "202511-202610",
+          "title": "Kaichi School",
+          "url": "https://en.wikipedia.org/wiki/Kaichi_School",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q716411",
+      "local": {
+        "name": "旧開智学校",
+        "lang": "ja"
+      }
     },
     {
       "id": "matsumoto-mts-kamikochi",
       "name": "Kamikochi",
       "kind": "see",
-      "lat": 36.247,
-      "lon": 137.637,
+      "lat": 36.24697,
+      "lon": 137.63333,
       "wiki": "Kamikochi",
       "summary": "Car-free alpine valley of clear rivers, Kappa Bridge and jagged peaks.",
       "expect": "Mid-April to mid-November only; bus from Matsumoto.",
@@ -351,15 +384,28 @@
         "Mid-April to mid-November only; bus from Matsumoto.",
         "Walk from Taisho Pond to Kappa Bridge and Myojin."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 25015,
+          "period": "202511-202610",
+          "title": "Kamikōchi",
+          "url": "https://en.wikipedia.org/wiki/Kamik%C5%8Dchi",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1048234",
+      "local": {
+        "name": "上高地",
+        "lang": "ja"
+      }
     },
     {
       "id": "matsumoto-mts-wasabi",
       "name": "Daio Wasabi Farm",
       "kind": "see",
-      "lat": 36.338,
-      "lon": 137.904,
+      "lat": 36.3388,
+      "lon": 137.9091,
       "wiki": "Daio Wasabi Farm",
       "summary": "Huge wasabi farm with clear streams and water wheels.",
       "expect": "Free.",
@@ -399,8 +445,21 @@
         "Free.",
         "Try wasabi ice cream."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4460,
+          "period": "202511-202610",
+          "title": "Daio Wasabi Farm",
+          "url": "https://en.wikipedia.org/wiki/Daio_Wasabi_Farm",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5209528",
+      "local": {
+        "name": "大王わさび農場",
+        "lang": "ja"
+      }
     },
     {
       "id": "matsumoto-mts-soba",
@@ -573,5 +632,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q213324",
+  "local": {
+    "name": "松本市",
+    "lang": "ja"
+  }
 }

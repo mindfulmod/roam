@@ -65,8 +65,8 @@
       "id": "hualien-hua-taroko",
       "name": "Taroko Gorge",
       "kind": "see",
-      "lat": 24.16,
-      "lon": 121.62,
+      "lat": 24.16667,
+      "lon": 121.33333,
       "wiki": "Taroko National Park",
       "summary": "Marble canyon of sheer cliffs, temples and trails above a turquoise river.",
       "expect": "Some trails remain closed after the 2024 earthquake; check the park website.",
@@ -106,14 +106,27 @@
         "Some trails remain closed after the 2024 earthquake; check the park website.",
         "Start at the visitor centre and the Shakadang Trail if open."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 25773,
+          "period": "202511-202610",
+          "title": "Taroko National Park",
+          "url": "https://en.wikipedia.org/wiki/Taroko_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q707427",
+      "local": {
+        "name": "太魯閣國家公園",
+        "lang": "zh-hant"
+      }
     },
     {
       "id": "hualien-hua-qingshui",
       "name": "Qingshui Cliffs",
       "kind": "see",
-      "lat": 24.21,
-      "lon": 121.66,
+      "lat": 24.2188,
+      "lon": 121.6932,
       "wiki": "Qingshui Cliff",
       "summary": "Cliffs falling straight into the deep blue Pacific.",
       "expect": "Road access may be limited.",
@@ -153,14 +166,27 @@
         "Road access may be limited.",
         "View from the Chongde area."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3866,
+          "period": "202511-202610",
+          "title": "Qingshui Cliff",
+          "url": "https://en.wikipedia.org/wiki/Qingshui_Cliff",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5101041",
+      "local": {
+        "name": "清水斷崖",
+        "lang": "zh-hant"
+      }
     },
     {
       "id": "hualien-hua-qixingtan",
       "name": "Qixingtan Beach",
       "kind": "see",
-      "lat": 24.029,
-      "lon": 121.625,
+      "lat": 24.03289,
+      "lon": 121.62794,
       "wiki": "Qixingtan Beach",
       "summary": "Crescent pebble beach with a bike path and mountain backdrop.",
       "expect": "Pebbles, strong surf; not for swimming.",
@@ -199,14 +225,27 @@
         "Pebbles, strong surf; not for swimming.",
         "Cycle the coastal path from the city."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2566,
+          "period": "202511-202610",
+          "title": "Qixingtan Beach",
+          "url": "https://en.wikipedia.org/wiki/Qixingtan_Beach",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q16890300",
+      "local": {
+        "name": "七星潭海灘",
+        "lang": "zh-hant"
+      }
     },
     {
       "id": "hualien-hua-coast",
       "name": "East Rift Valley and coast",
       "kind": "see",
-      "lat": 23.6,
-      "lon": 121.52,
+      "lat": 23.97611,
+      "lon": 121.60472,
       "wiki": "Hualien County",
       "summary": "Coastal drive past Shitiping rocks and the Tropic of Cancer marker.",
       "expect": "Car or scooter.",
@@ -246,15 +285,23 @@
         "Car or scooter.",
         "Stop at Shitiping and the Baxian caves."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 23062,
+          "period": "202511-202610",
+          "title": "Hualien County",
+          "url": "https://en.wikipedia.org/wiki/Hualien_County",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "hualien-hua-pine",
       "name": "Pine Garden",
       "kind": "see",
-      "lat": 23.984,
-      "lon": 121.626,
+      "lat": 23.98261,
+      "lon": 121.61542,
       "wiki": "Pine Garden",
       "summary": "Japanese-era command post in pines overlooking the port, now an art space.",
       "expect": "Small fee.",
@@ -294,14 +341,27 @@
         "Small fee.",
         "Have tea on the veranda."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 814,
+          "period": "202511-202610",
+          "title": "Pine Garden",
+          "url": "https://en.wikipedia.org/wiki/Pine_Garden",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q21041622",
+      "local": {
+        "name": "松園別館",
+        "lang": "zh-hant"
+      }
     },
     {
       "id": "hualien-hua-dongdamen",
       "name": "Dongdamen Night Market",
       "kind": "eat",
-      "lat": 23.974,
-      "lon": 121.608,
+      "lat": 23.9737,
+      "lon": 121.6114,
       "wiki": "Dongdamen Night Market",
       "summary": "Big night market with Indigenous grilled meats, seafood and snacks.",
       "expect": "Evenings only.",
@@ -340,7 +400,6 @@
         "Evenings only.",
         "Try the Indigenous street section."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Taiwanese",
       "mustOrder": [
@@ -352,6 +411,11 @@
         "vegetarian": "some",
         "evidence": [],
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      },
+      "wikidata": "Q50410482",
+      "local": {
+        "name": "花蓮東大門國際觀光夜市",
+        "lang": "zh-hant"
       }
     },
     {
@@ -468,5 +532,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q713310",
+  "local": {
+    "name": "花蓮市",
+    "lang": "zh-hant"
+  }
 }
