@@ -1,0 +1,478 @@
+{
+  "id": "aqaba",
+  "name": "Aqaba",
+  "country": "Jordan",
+  "region": "Asia",
+  "lat": 29.5321,
+  "lon": 35.0063,
+  "wiki": "Aqaba",
+  "tagline": "Red Sea reefs at Jordan's only port",
+  "summary": "Aqaba is Jordan's Red Sea town, with coral reefs a short swim from the beach. Snorkel or dive the Japanese Garden and a sunken tank, see the fort Lawrence of Arabia captured, eat fish sayadieh by the sea and use it as an easy base for Wadi Rum and Petra.",
+  "days": 2,
+  "bestMonths": [
+    10,
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "Warm sea all year; summer is very hot.",
+  "arrival": "King Hussein airport has flights; buses from Amman take 4 hours; Wadi Rum is 1 hour away.",
+  "gettingAround": "Taxis; the South Beach is 10 to 15 km south of town.",
+  "cashTip": "Carry dinars for taxis and small shops; cards work in hotels. Tip about 10 percent.",
+  "dailyBudget": [
+    40,
+    100
+  ],
+  "currency": "JOD",
+  "cashPerDay": [
+    15,
+    40
+  ],
+  "foodTip": "Sayadieh (spiced fish and rice), fresh grilled fish and knafeh.",
+  "buyTip": "Dead Sea products tax-free (Aqaba is a special economic zone).",
+  "baseArea": "Town centre or South Beach for diving",
+  "connections": [
+    {
+      "to": "petra",
+      "mode": "Car",
+      "minutes": 120,
+      "note": "Desert Highway."
+    },
+    {
+      "to": "amman",
+      "mode": "Bus",
+      "minutes": 240,
+      "note": "JETT buses."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Aqaba on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Aqaba",
+      "type": "reference",
+      "checked": "2026-11-28"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Aqaba%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-28"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Aqaba%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Gulf of Aqaba",
+  "added": "2026-11-28",
+  "items": [
+    {
+      "id": "aqaba-aqa-reef",
+      "name": "Japanese Garden reef",
+      "kind": "see",
+      "lat": 29.41,
+      "lon": 34.97,
+      "wiki": "Gulf of Aqaba",
+      "summary": "Colourful coral garden reachable from the shore.",
+      "expect": "Water shoes; respect the reef.",
+      "tip": "Snorkel from a beach club.",
+      "area": "South Beach",
+      "duration": 2,
+      "price": [
+        5,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Japanese%20Garden%20reef%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Japanese%20Garden%20reef%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Japanese%20Garden%20reef%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Colourful coral garden reachable from the shore.",
+        "Easy reef snorkel."
+      ],
+      "visitFlow": [
+        "Beach club.",
+        "Snorkel."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Water shoes; respect the reef.",
+        "Snorkel from a beach club."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "aqaba-aqa-wreck",
+      "name": "Cedar Pride wreck",
+      "kind": "see",
+      "lat": 29.43,
+      "lon": 34.975,
+      "wiki": "Cedar Pride",
+      "summary": "Cargo ship scuttled as an artificial reef, famous with divers.",
+      "expect": "Dive centre needed.",
+      "tip": "Book with a licensed dive centre.",
+      "area": "South Beach",
+      "duration": 3,
+      "price": [
+        40,
+        80
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Cedar%20Pride%20wreck%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Cedar%20Pride%20wreck%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Cedar%20Pride%20wreck%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure",
+        "Nature"
+      ],
+      "whyVisit": [
+        "Cargo ship scuttled as an artificial reef, famous with divers.",
+        "Classic wreck dive."
+      ],
+      "visitFlow": [
+        "Dive boat.",
+        "Wreck."
+      ],
+      "bestFor": "Visitors interested in active exploration and landscapes and wildlife",
+      "tradeoffs": [
+        "Dive centre needed.",
+        "Book with a licensed dive centre."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "aqaba-aqa-fort",
+      "name": "Aqaba Fort",
+      "kind": "see",
+      "lat": 29.52,
+      "lon": 35.003,
+      "wiki": "Aqaba Fort",
+      "summary": "Mamluk fort taken by the Arab Revolt in 1917, beside the giant flagpole.",
+      "expect": "Small fee.",
+      "tip": "Walk to the flagpole after.",
+      "area": "Old town",
+      "duration": 1,
+      "price": [
+        1,
+        2
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Aqaba%20Fort%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Aqaba%20Fort%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Aqaba%20Fort%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "History"
+      ],
+      "whyVisit": [
+        "Mamluk fort taken by the Arab Revolt in 1917, beside the giant flagpole.",
+        "Lawrence of Arabia history."
+      ],
+      "visitFlow": [
+        "Fort.",
+        "Flagpole."
+      ],
+      "bestFor": "Visitors interested in history and context",
+      "tradeoffs": [
+        "Small fee.",
+        "Walk to the flagpole after."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "aqaba-aqa-boat",
+      "name": "Glass-bottom boat",
+      "kind": "see",
+      "lat": 29.528,
+      "lon": 35,
+      "wiki": "Gulf of Aqaba",
+      "summary": "Boat trip over the reefs for non-swimmers.",
+      "expect": "Agree the price first.",
+      "tip": "Combine with a snorkel stop.",
+      "area": "Marina",
+      "duration": 2,
+      "price": [
+        15,
+        30
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Glass-bottom%20boat%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Glass-bottom%20boat%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Glass-bottom%20boat%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Boat trip over the reefs for non-swimmers.",
+        "See coral without swimming."
+      ],
+      "visitFlow": [
+        "Board.",
+        "Reef views."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Agree the price first.",
+        "Combine with a snorkel stop."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "aqaba-aqa-rum",
+      "name": "Wadi Rum day trip",
+      "kind": "see",
+      "lat": 29.576,
+      "lon": 35.42,
+      "wiki": "Wadi Rum",
+      "summary": "Red desert valley of sandstone towers, by 4x4 from Aqaba.",
+      "expect": "1 hour by road.",
+      "tip": "Stay overnight in a camp if you can.",
+      "area": "Wadi Rum",
+      "duration": 8,
+      "price": [
+        40,
+        80
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Full day",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Wadi%20Rum%20day%20trip%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Wadi%20Rum%20day%20trip%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Wadi%20Rum%20day%20trip%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Red desert valley of sandstone towers, by 4x4 from Aqaba.",
+        "Lawrence's desert."
+      ],
+      "visitFlow": [
+        "4x4 tour.",
+        "Sunset."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "1 hour by road.",
+        "Stay overnight in a camp if you can."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "aqaba-aqa-sayadieh",
+      "name": "Sayadieh",
+      "kind": "eat",
+      "lat": 29.53,
+      "lon": 35.005,
+      "wiki": "Sayadieh",
+      "summary": "Spiced fish over caramelised-onion rice.",
+      "expect": "Seafood restaurants.",
+      "tip": "Ali Baba and Syrian Palace area restaurants.",
+      "area": "Town",
+      "duration": 1.5,
+      "price": [
+        8,
+        15
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Sayadieh%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Sayadieh%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Sayadieh%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Spiced fish over caramelised-onion rice.",
+        "Aqaba speciality."
+      ],
+      "visitFlow": [
+        "Seafood restaurant.",
+        "Sayadieh."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Seafood restaurants.",
+        "Ali Baba and Syrian Palace area restaurants."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Jordanian",
+      "mustOrder": [
+        "Sayadieh"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "aqaba-aqa-fish",
+      "name": "Grilled fish market",
+      "kind": "eat",
+      "lat": 29.531,
+      "lon": 35.004,
+      "wiki": "Aqaba",
+      "summary": "Pick fish from the market and have it grilled.",
+      "expect": "Prices by weight.",
+      "tip": "Ask for the catch of the day.",
+      "area": "Town",
+      "duration": 1.5,
+      "price": [
+        8,
+        20
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Grilled%20fish%20market%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Grilled%20fish%20market%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Grilled%20fish%20market%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Pick fish from the market and have it grilled.",
+        "Fresh from the Red Sea."
+      ],
+      "visitFlow": [
+        "Choose fish.",
+        "Grill."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Prices by weight.",
+        "Ask for the catch of the day."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Jordanian",
+      "mustOrder": [
+        "Grilled fish"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "no",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "aqaba-aqa-knafeh",
+      "name": "Knafeh",
+      "kind": "eat",
+      "lat": 29.532,
+      "lon": 35.006,
+      "wiki": "Knafeh",
+      "summary": "Warm sweet cheese pastry with syrup and pistachio.",
+      "expect": "Sweet shops.",
+      "tip": "Eat it hot.",
+      "area": "Town",
+      "duration": 0.5,
+      "price": [
+        1,
+        3
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Knafeh%2C%20Aqaba",
+        "https://www.google.com/maps/search/?api=1&query=Knafeh%2C%20Aqaba"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Knafeh%2C%20Aqaba"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Warm sweet cheese pastry with syrup and pistachio.",
+        "Levantine dessert."
+      ],
+      "visitFlow": [
+        "Sweet shop.",
+        "Knafeh."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Sweet shops.",
+        "Eat it hot."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Jordanian",
+      "mustOrder": [
+        "Knafeh"
+      ],
+      "dietary": {
+        "halal": "yes",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
