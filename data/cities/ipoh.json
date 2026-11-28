@@ -119,8 +119,8 @@
       "id": "ipoh-ipo-sampoh",
       "name": "Sam Poh Tong",
       "kind": "see",
-      "lat": 4.562,
-      "lon": 101.124,
+      "lat": 4.56373,
+      "lon": 101.11541,
       "wiki": "Sam Poh Tong",
       "summary": "Ipoh's oldest cave temple with a hidden Japanese garden and turtle pond.",
       "expect": "Free.",
@@ -159,7 +159,20 @@
         "Free.",
         "Walk through the cave to the hidden garden."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7089,
+          "period": "202511-202610",
+          "title": "Sam Poh Tong Temple",
+          "url": "https://en.wikipedia.org/wiki/Sam_Poh_Tong_Temple",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q19595617",
+      "local": {
+        "name": "Tokong Sam Poh Tong",
+        "lang": "ms"
+      }
     },
     {
       "id": "ipoh-ipo-murals",
@@ -206,14 +219,23 @@
         "Free.",
         "Follow the mural map."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 86058,
+          "period": "202511-202610",
+          "title": "Ipoh",
+          "url": "https://en.wikipedia.org/wiki/Ipoh",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "ipoh-ipo-concubine",
       "name": "Concubine Lane",
       "kind": "see",
-      "lat": 4.5975,
-      "lon": 101.078,
+      "lat": 4.59619,
+      "lon": 101.07846,
       "wiki": "Ipoh",
       "summary": "Narrow lane of restored shophouses with snacks and souvenirs.",
       "expect": "Busy weekends.",
@@ -253,14 +275,22 @@
         "Busy weekends.",
         "Try the tau fu fa here."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 86058,
+          "period": "202511-202610",
+          "title": "Ipoh",
+          "url": "https://en.wikipedia.org/wiki/Ipoh",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "ipoh-ipo-kellie",
       "name": "Kellie's Castle",
       "kind": "see",
-      "lat": 4.474,
-      "lon": 101.088,
+      "lat": 4.47436,
+      "lon": 101.08781,
       "wiki": "Kellie's Castle",
       "summary": "Unfinished mansion of a Scottish planter in the jungle.",
       "expect": "Small fee; 30 minutes away.",
@@ -300,15 +330,28 @@
         "Small fee; 30 minutes away.",
         "Look for the rumoured secret tunnels."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 30900,
+          "period": "202511-202610",
+          "title": "Kellie's Castle",
+          "url": "https://en.wikipedia.org/wiki/Kellie's_Castle",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q17052246",
+      "local": {
+        "name": "Istana Kellie",
+        "lang": "ms"
+      }
     },
     {
       "id": "ipoh-ipo-station",
       "name": "Ipoh Railway Station",
       "kind": "see",
-      "lat": 4.597,
-      "lon": 101.073,
+      "lat": 4.59722,
+      "lon": 101.07333,
       "wiki": "Ipoh railway station",
       "summary": "Grand white colonial station nicknamed the Taj Mahal of Ipoh.",
       "expect": "Free.",
@@ -348,14 +391,27 @@
         "Free.",
         "Photograph from the Birch Memorial side."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8107,
+          "period": "202511-202610",
+          "title": "Ipoh railway station",
+          "url": "https://en.wikipedia.org/wiki/Ipoh_railway_station",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1101067",
+      "local": {
+        "name": "Stesen keretapi Ipoh",
+        "lang": "ms"
+      }
     },
     {
       "id": "ipoh-ipo-cameron",
       "name": "Cameron Highlands",
       "kind": "see",
-      "lat": 4.47,
-      "lon": 101.38,
+      "lat": 4.5,
+      "lon": 101.5,
       "wiki": "Cameron Highlands",
       "summary": "Cool hills of tea plantations and mossy forest.",
       "expect": "About 2 hours by road.",
@@ -395,8 +451,21 @@
         "About 2 hours by road.",
         "Visit BOH Sungei Palas tea estate."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 74475,
+          "period": "202511-202610",
+          "title": "Cameron Highlands",
+          "url": "https://en.wikipedia.org/wiki/Cameron_Highlands",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1028741",
+      "local": {
+        "name": "Tanah Tinggi Cameron",
+        "lang": "ms"
+      }
     },
     {
       "id": "ipoh-ipo-coffee",
@@ -571,5 +640,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q271619"
 }

@@ -118,8 +118,8 @@
       "id": "hampi-ham-virupaksha",
       "name": "Virupaksha Temple",
       "kind": "see",
-      "lat": 15.335,
-      "lon": 76.459,
+      "lat": 15.33517,
+      "lon": 76.45872,
       "wiki": "Virupaksha Temple, Hampi",
       "summary": "Living temple with a tall gopuram and a temple elephant.",
       "expect": "Small fee; remove shoes.",
@@ -159,7 +159,16 @@
         "Small fee; remove shoes.",
         "See the inverted image of the tower in a dark chamber."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 73478,
+          "period": "202511-202610",
+          "title": "Virupaksha Temple, Hampi",
+          "url": "https://en.wikipedia.org/wiki/Virupaksha_Temple%2C_Hampi",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2502406"
     },
     {
       "id": "hampi-ham-matanga",
@@ -206,14 +215,23 @@
         "Rocky steps; go with company.",
         "Start 45 minutes before sunrise."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4273,
+          "period": "202511-202610",
+          "title": "Matanga Hill",
+          "url": "https://en.wikipedia.org/wiki/Matanga_Hill",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "hampi-ham-royal",
       "name": "Royal Enclosure and Lotus Mahal",
       "kind": "see",
-      "lat": 15.319,
-      "lon": 76.471,
+      "lat": 15.3203,
+      "lon": 76.4713,
       "wiki": "Lotus Mahal",
       "summary": "Palace platforms, stepped tank, Lotus Mahal and the Elephant Stables.",
       "expect": "Paid combined ticket.",
@@ -253,14 +271,23 @@
         "Paid combined ticket.",
         "Use a bike between sites."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10393,
+          "period": "202511-202610",
+          "title": "Lotus Mahal",
+          "url": "https://en.wikipedia.org/wiki/Lotus_Mahal",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q97440781"
     },
     {
       "id": "hampi-ham-hemakuta",
       "name": "Hemakuta Hill",
       "kind": "see",
-      "lat": 15.334,
-      "lon": 76.457,
+      "lat": 15.33293,
+      "lon": 76.45935,
       "wiki": "Hemakuta Hill",
       "summary": "Rock hill of small temples above the bazaar.",
       "expect": "Free.",
@@ -299,8 +326,7 @@
       "tradeoffs": [
         "Free.",
         "Sunset spot close to town."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "hampi-ham-coracle",
@@ -347,7 +373,16 @@
         "Seasonal water levels.",
         "Agree the price before."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 64404,
+          "period": "202511-202610",
+          "title": "Coracle",
+          "url": "https://en.wikipedia.org/wiki/Coracle",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "hampi-ham-achyuta",
@@ -568,5 +603,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q26732",
+  "local": {
+    "name": "हम्पी",
+    "lang": "hi"
+  }
 }

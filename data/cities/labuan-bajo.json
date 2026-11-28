@@ -107,14 +107,23 @@
         "Go in the morning when the dragons are active."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 52304,
+          "period": "202511-202610",
+          "title": "Komodo National Park",
+          "url": "https://en.wikipedia.org/wiki/Komodo_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "labuan-bajo-lab-padar",
       "name": "Padar Island viewpoint",
       "kind": "see",
-      "lat": -8.656,
-      "lon": 119.565,
+      "lat": -8.654,
+      "lon": 119.574,
       "wiki": "Padar Island",
       "summary": "Climb to a ridge above three bays of white, black and pink sand.",
       "expect": "Steep stairs; hot.",
@@ -155,8 +164,21 @@
         "Steep stairs; hot.",
         "Go at sunrise."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13105,
+          "period": "202511-202610",
+          "title": "Padar, Indonesia",
+          "url": "https://en.wikipedia.org/wiki/Padar%2C_Indonesia",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1134717",
+      "local": {
+        "name": "Pulau Padar Besar",
+        "lang": "id"
+      }
     },
     {
       "id": "labuan-bajo-lab-pink",
@@ -249,7 +271,16 @@
         "Currents are strong; for confident swimmers.",
         "Go with a dive shop or reputable boat."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 52304,
+          "period": "202511-202610",
+          "title": "Komodo National Park",
+          "url": "https://en.wikipedia.org/wiki/Komodo_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "labuan-bajo-lab-kanawa",
@@ -295,7 +326,16 @@
         "Day trip.",
         "Snorkel the drop-off."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 52304,
+          "period": "202511-202610",
+          "title": "Komodo National Park",
+          "url": "https://en.wikipedia.org/wiki/Komodo_National_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "labuan-bajo-lab-sylvia",
@@ -341,7 +381,16 @@
         "Short climb.",
         "Bring water."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 64837,
+          "period": "202511-202610",
+          "title": "Labuan Bajo",
+          "url": "https://en.wikipedia.org/wiki/Labuan_Bajo",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "labuan-bajo-lab-cunca",
@@ -389,7 +438,16 @@
         "Wear water shoes."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 140181,
+          "period": "202511-202610",
+          "title": "Flores",
+          "url": "https://en.wikipedia.org/wiki/Flores",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "labuan-bajo-lab-market",
@@ -562,5 +620,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q24881909"
 }

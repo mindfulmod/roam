@@ -107,14 +107,23 @@
         "Stay on estate paths.",
         "Hire a guide for estate trails."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 99808,
+          "period": "202511-202610",
+          "title": "Munnar",
+          "url": "https://en.wikipedia.org/wiki/Munnar",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "munnar-mun-eravikulam",
       "name": "Eravikulam National Park",
       "kind": "see",
-      "lat": 10.15,
-      "lon": 77.06,
+      "lat": 10.2,
+      "lon": 77.083,
       "wiki": "Eravikulam National Park",
       "summary": "Grasslands home to the Nilgiri tahr mountain goat.",
       "expect": "Paid; closed in calving season; bus only.",
@@ -153,14 +162,27 @@
         "Paid; closed in calving season; bus only.",
         "Go early for tahr sightings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21698,
+          "period": "202511-202610",
+          "title": "Eravikulam National Park",
+          "url": "https://en.wikipedia.org/wiki/Eravikulam_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1194252",
+      "local": {
+        "name": "एराविकुलम राष्ट्रीय उद्यान",
+        "lang": "hi"
+      }
     },
     {
       "id": "munnar-mun-museum",
       "name": "Tata Tea Museum",
       "kind": "see",
-      "lat": 10.096,
-      "lon": 77.061,
+      "lat": 10.08849,
+      "lon": 77.05662,
       "wiki": "Tata Tea",
       "summary": "Museum showing how tea is processed, with a working factory demo.",
       "expect": "Paid; closed Mondays.",
@@ -201,14 +223,22 @@
         "Paid; closed Mondays.",
         "Taste the teas at the end."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 51010,
+          "period": "202511-202610",
+          "title": "Tata Consumer Products",
+          "url": "https://en.wikipedia.org/wiki/Tata_Consumer_Products",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "munnar-mun-kolukkumalai",
       "name": "Kolukkumalai sunrise",
       "kind": "see",
-      "lat": 10.055,
-      "lon": 77.229,
+      "lat": 10.075,
+      "lon": 77.221,
       "wiki": "Kolukkumalai",
       "summary": "One of the world's highest tea estates, reached by jeep for sunrise above the clouds.",
       "expect": "Very bumpy jeep ride; early start.",
@@ -248,8 +278,17 @@
         "Very bumpy jeep ride; early start.",
         "Book the jeep the night before."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 90202,
+          "period": "202511-202610",
+          "title": "Kolukkumalai",
+          "url": "https://en.wikipedia.org/wiki/Kolukkumalai",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q16135307"
     },
     {
       "id": "munnar-mun-mattupetty",
@@ -518,5 +557,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1025124",
+  "local": {
+    "name": "मुन्नार",
+    "lang": "hi"
+  }
 }

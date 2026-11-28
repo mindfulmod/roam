@@ -65,8 +65,8 @@
       "id": "darjeeling-dar-tiger",
       "name": "Tiger Hill sunrise",
       "kind": "see",
-      "lat": 26.998,
-      "lon": 88.293,
+      "lat": 26.99484,
+      "lon": 88.28542,
       "wiki": "Tiger Hill, Darjeeling",
       "summary": "Sunrise over Kangchenjunga, with Everest visible on clear days.",
       "expect": "Leave around 4 am; crowded and cold.",
@@ -106,14 +106,27 @@
         "Leave around 4 am; crowded and cold.",
         "Go in October or November for clear skies."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 22446,
+          "period": "202511-202610",
+          "title": "Tiger Hill, Darjeeling",
+          "url": "https://en.wikipedia.org/wiki/Tiger_Hill%2C_Darjeeling",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q16901632",
+      "local": {
+        "name": "टाइगर हिल दार्जिलिंग",
+        "lang": "hi"
+      }
     },
     {
       "id": "darjeeling-dar-toytrain",
       "name": "Darjeeling Himalayan Railway",
       "kind": "see",
-      "lat": 27.036,
-      "lon": 88.263,
+      "lat": 27.03791,
+      "lon": 88.26294,
       "wiki": "Darjeeling Himalayan Railway",
       "summary": "UNESCO narrow-gauge \"toy train\", with a steam joy ride to Ghum and the Batasia Loop.",
       "expect": "Book ahead.",
@@ -152,15 +165,14 @@
       "tradeoffs": [
         "Book ahead.",
         "Take the steam joy ride."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "darjeeling-dar-tea",
       "name": "Happy Valley Tea Estate",
       "kind": "see",
-      "lat": 27.053,
-      "lon": 88.26,
+      "lat": 27.0521,
+      "lon": 88.25867,
       "wiki": "Happy Valley Tea Estate",
       "summary": "Old tea estate with tours of the factory and tastings.",
       "expect": "Closed Mondays; factory runs in season.",
@@ -200,7 +212,16 @@
         "Closed Mondays; factory runs in season.",
         "Visit March to November when leaves are processed."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4780,
+          "period": "202511-202610",
+          "title": "Happy Valley Tea Estate",
+          "url": "https://en.wikipedia.org/wiki/Happy_Valley_Tea_Estate",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5653142"
     },
     {
       "id": "darjeeling-dar-mall",
@@ -247,7 +268,16 @@
         "Free.",
         "Have tea at Keventer's or Glenary's."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 357053,
+          "period": "202511-202610",
+          "title": "Darjeeling",
+          "url": "https://en.wikipedia.org/wiki/Darjeeling",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "darjeeling-dar-hmi",
@@ -294,14 +324,23 @@
         "Paid; closed Thursdays.",
         "Combine both."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 7478,
+          "period": "202511-202610",
+          "title": "Himalayan Mountaineering Institute",
+          "url": "https://en.wikipedia.org/wiki/Himalayan_Mountaineering_Institute",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "darjeeling-dar-ghoom",
       "name": "Ghoom Monastery",
       "kind": "see",
-      "lat": 27.009,
-      "lon": 88.249,
+      "lat": 27.01167,
+      "lon": 88.25028,
       "wiki": "Ghum Monastery",
       "summary": "Tibetan Buddhist monastery with a large Maitreya Buddha.",
       "expect": "Free.",
@@ -341,7 +380,16 @@
         "Free.",
         "Combine with the toy train ride."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7648,
+          "period": "202511-202610",
+          "title": "Ghum Monastery",
+          "url": "https://en.wikipedia.org/wiki/Ghum_Monastery",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3320284"
     },
     {
       "id": "darjeeling-dar-pagoda",
@@ -452,8 +500,8 @@
       "id": "darjeeling-dar-glenarys",
       "name": "Glenary's",
       "kind": "eat",
-      "lat": 27.0425,
-      "lon": 88.265,
+      "lat": 27.04301,
+      "lon": 88.26693,
       "wiki": "Darjeeling",
       "summary": "Colonial bakery and tearoom on the Mall with valley views.",
       "expect": "Busy.",
@@ -492,7 +540,6 @@
         "Busy.",
         "Have tea and a pastry on the terrace."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Bakery",
       "mustOrder": [
@@ -564,5 +611,11 @@
         "note": "Dietary notes are editorial, from the style of menu, and are not checked with the venue. Ask the restaurant directly about halal, vegetarian and allergy needs."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q169997",
+  "local": {
+    "name": "दार्जिलिंग",
+    "lang": "hi"
+  }
 }
