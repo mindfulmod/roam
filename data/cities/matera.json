@@ -71,8 +71,8 @@
       "id": "matera-mat-sassi",
       "name": "Sassi di Matera",
       "kind": "see",
-      "lat": 40.666,
-      "lon": 16.611,
+      "lat": 40.66606,
+      "lon": 16.61156,
       "wiki": "Sassi di Matera",
       "summary": "Two cave districts of houses, churches and stairways cut into the rock.",
       "expect": "Many steep steps.",
@@ -112,14 +112,22 @@
         "Many steep steps.",
         "Walk them at dawn and again after dark when they are lit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 59710,
+          "period": "202511-202610",
+          "title": "Sassi di Matera",
+          "url": "https://en.wikipedia.org/wiki/Sassi_di_Matera",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "matera-mat-belvedere",
       "name": "Belvedere Luigi Guerricchio",
       "kind": "see",
-      "lat": 40.6655,
-      "lon": 16.6095,
+      "lat": 40.66681,
+      "lon": 16.6068,
       "wiki": "Sassi di Matera",
       "summary": "Viewpoint over the Sassi and the cathedral bell tower.",
       "expect": "Free.",
@@ -158,14 +166,22 @@
         "Free.",
         "Come at blue hour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 59710,
+          "period": "202511-202610",
+          "title": "Sassi di Matera",
+          "url": "https://en.wikipedia.org/wiki/Sassi_di_Matera",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "matera-mat-casagrotta",
       "name": "Casa Grotta di Vico Solitario",
       "kind": "see",
-      "lat": 40.663,
-      "lon": 16.612,
+      "lat": 40.66386,
+      "lon": 16.61231,
       "wiki": "Sassi di Matera",
       "summary": "Furnished cave house showing how families and animals lived together until the 1950s.",
       "expect": "Small fee.",
@@ -204,7 +220,15 @@
         "Small fee.",
         "Read the story of the 1950s evacuation."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 59710,
+          "period": "202511-202610",
+          "title": "Sassi di Matera",
+          "url": "https://en.wikipedia.org/wiki/Sassi_di_Matera",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "matera-mat-idris",
@@ -258,8 +282,8 @@
       "id": "matera-mat-palombaro",
       "name": "Palombaro Lungo",
       "kind": "see",
-      "lat": 40.6656,
-      "lon": 16.606,
+      "lat": 40.66689,
+      "lon": 16.60644,
       "wiki": "Palombaro Lungo",
       "summary": "Huge underground cistern beneath the main square.",
       "expect": "Guided visits only.",
@@ -298,8 +322,7 @@
       "tradeoffs": [
         "Guided visits only.",
         "Short tour; queue early."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "matera-mat-murgia",
@@ -354,7 +377,7 @@
       "name": "Matera Cathedral",
       "kind": "see",
       "lat": 40.6668,
-      "lon": 16.6107,
+      "lon": 16.6113,
       "wiki": "Matera Cathedral",
       "summary": "13th-century Apulian Romanesque cathedral on the ridge between the two Sassi.",
       "expect": "Small fee.",
@@ -394,7 +417,20 @@
         "Small fee.",
         "Look at the rose window outside."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5634,
+          "period": "202511-202610",
+          "title": "Matera Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Matera_Cathedral",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2942710",
+      "local": {
+        "name": "cattedrale di Matera",
+        "lang": "it"
+      }
     },
     {
       "id": "matera-mat-bread",
@@ -568,5 +604,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28"
 }

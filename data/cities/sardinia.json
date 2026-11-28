@@ -70,8 +70,8 @@
       "id": "sardinia-sar-castello",
       "name": "Cagliari Castello",
       "kind": "see",
-      "lat": 39.2188,
-      "lon": 9.1155,
+      "lat": 39.21929,
+      "lon": 9.11487,
       "wiki": "Castello (Cagliari)",
       "summary": "Walled hilltop quarter with the cathedral and the Bastione di Saint Remy terrace.",
       "expect": "Steep; lifts help.",
@@ -110,15 +110,14 @@
       "tradeoffs": [
         "Steep; lifts help.",
         "Sunset drink on the Bastione."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sardinia-sar-poetto",
       "name": "Poetto beach",
       "kind": "see",
-      "lat": 39.205,
-      "lon": 9.175,
+      "lat": 39.20779,
+      "lon": 9.1683,
       "wiki": "Poetto",
       "summary": "Long city beach under the Devil's Saddle headland, with flamingos in the lagoon behind.",
       "expect": "Busy summer weekends.",
@@ -157,14 +156,22 @@
         "Busy summer weekends.",
         "Look for flamingos in Molentargius park."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5718,
+          "period": "202511-202610",
+          "title": "Poetto",
+          "url": "https://en.wikipedia.org/wiki/Poetto",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "sardinia-sar-nuraxi",
       "name": "Su Nuraxi di Barumini",
       "kind": "see",
-      "lat": 39.706,
-      "lon": 8.9905,
+      "lat": 39.70583,
+      "lon": 8.99056,
       "wiki": "Su Nuraxi",
       "summary": "UNESCO Bronze Age fortress and village of stone towers.",
       "expect": "Guided tours only; 1 hour from Cagliari.",
@@ -204,15 +211,28 @@
         "Guided tours only; 1 hour from Cagliari.",
         "Hats in summer; there is no shade."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13868,
+          "period": "202511-202610",
+          "title": "Su Nuraxi (Barumini)",
+          "url": "https://en.wikipedia.org/wiki/Su_Nuraxi_(Barumini)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q253241",
+      "local": {
+        "name": "area archeologica di Su Nuraxi",
+        "lang": "it"
+      }
     },
     {
       "id": "sardinia-sar-pelosa",
       "name": "La Pelosa beach",
       "kind": "see",
-      "lat": 40.966,
-      "lon": 8.208,
+      "lat": 40.96528,
+      "lon": 8.20966,
       "wiki": "La Pelosa",
       "summary": "Shallow turquoise water with a watchtower on an islet.",
       "expect": "Limited numbers in summer; book a ticket and bring a mat (towels on sand are banned).",
@@ -251,7 +271,6 @@
         "Limited numbers in summer; book a ticket and bring a mat (towels on sand are banned).",
         "Go early or late."
       ],
-      "pinApproximate": true,
       "excursion": true
     },
     {
@@ -306,8 +325,8 @@
       "id": "sardinia-sar-smeralda",
       "name": "Costa Smeralda",
       "kind": "see",
-      "lat": 41.088,
-      "lon": 9.537,
+      "lat": 41.1,
+      "lon": 9.5,
       "wiki": "Costa Smeralda",
       "summary": "Granite coast of emerald water and the glossy harbour of Porto Cervo.",
       "expect": "Very pricey in August.",
@@ -346,15 +365,24 @@
         "Very pricey in August.",
         "Boat to the La Maddalena islands."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 30961,
+          "period": "202511-202610",
+          "title": "Costa Smeralda",
+          "url": "https://en.wikipedia.org/wiki/Costa_Smeralda",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1136383"
     },
     {
       "id": "sardinia-sar-alghero",
       "name": "Alghero old town",
       "kind": "see",
-      "lat": 40.558,
-      "lon": 8.319,
+      "lat": 40.56,
+      "lon": 8.315,
       "wiki": "Alghero",
       "summary": "Catalan-speaking walled port with sea ramparts and Neptune's Grotto nearby.",
       "expect": "Grotto by boat or 654 steps.",
@@ -394,8 +422,17 @@
         "Grotto by boat or 654 steps.",
         "Sunset on the ramparts."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 62170,
+          "period": "202511-202610",
+          "title": "Alghero",
+          "url": "https://en.wikipedia.org/wiki/Alghero",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q166282"
     },
     {
       "id": "sardinia-sar-porceddu",
@@ -570,5 +607,6 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28"
 }

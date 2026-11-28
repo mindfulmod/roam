@@ -171,8 +171,8 @@
       "id": "lake-garda-gar-baldo",
       "name": "Monte Baldo cable car",
       "kind": "see",
-      "lat": 45.7586,
-      "lon": 10.8061,
+      "lat": 45.72639,
+      "lon": 10.84389,
       "wiki": "Monte Baldo",
       "summary": "Rotating cable car from Malcesine to the ridge 1,760 m above the lake.",
       "expect": "Paid; queues in summer.",
@@ -213,14 +213,23 @@
         "Paid; queues in summer.",
         "Go first thing; paragliders launch at the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14798,
+          "period": "202511-202610",
+          "title": "Monte Baldo",
+          "url": "https://en.wikipedia.org/wiki/Monte_Baldo",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1945737"
     },
     {
       "id": "lake-garda-gar-malcesine",
       "name": "Malcesine",
       "kind": "see",
-      "lat": 45.764,
-      "lon": 10.809,
+      "lat": 45.76667,
+      "lon": 10.81667,
       "wiki": "Malcesine",
       "summary": "Lakeside village under a Scaliger castle.",
       "expect": "Busy in summer.",
@@ -259,14 +268,23 @@
         "Busy in summer.",
         "Climb the castle tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 14395,
+          "period": "202511-202610",
+          "title": "Malcesine",
+          "url": "https://en.wikipedia.org/wiki/Malcesine",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q47821"
     },
     {
       "id": "lake-garda-gar-limone",
       "name": "Limone sul Garda",
       "kind": "see",
-      "lat": 45.813,
-      "lon": 10.792,
+      "lat": 45.80833,
+      "lon": 10.7875,
       "wiki": "Limone sul Garda",
       "summary": "Village of terraced lemon houses under cliffs.",
       "expect": "Ferry or bus.",
@@ -306,14 +324,23 @@
         "Ferry or bus.",
         "Visit the Limonaia del Castèl."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 17467,
+          "period": "202511-202610",
+          "title": "Limone sul Garda",
+          "url": "https://en.wikipedia.org/wiki/Limone_sul_Garda",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q104973"
     },
     {
       "id": "lake-garda-gar-vittoriale",
       "name": "Il Vittoriale degli Italiani",
       "kind": "see",
-      "lat": 45.623,
-      "lon": 10.565,
+      "lat": 45.62396,
+      "lon": 10.56501,
       "wiki": "Il Vittoriale degli Italiani",
       "summary": "Poet D'Annunzio's eccentric estate with a warship in the garden.",
       "expect": "Paid; house by tour.",
@@ -354,14 +381,23 @@
         "Paid; house by tour.",
         "Book the house tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6831,
+          "period": "202511-202610",
+          "title": "Vittoriale degli Italiani",
+          "url": "https://en.wikipedia.org/wiki/Vittoriale_degli_Italiani",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1547160"
     },
     {
       "id": "lake-garda-gar-riva",
       "name": "Riva del Garda",
       "kind": "see",
-      "lat": 45.8857,
-      "lon": 10.8412,
+      "lat": 45.88333,
+      "lon": 10.85,
       "wiki": "Riva del Garda",
       "summary": "Mountain-walled town at the north end, a base for windsurfing and hiking.",
       "expect": "Windy afternoons.",
@@ -401,7 +437,16 @@
         "Windy afternoons.",
         "Hike the Ponale road."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 24827,
+          "period": "202511-202610",
+          "title": "Riva del Garda",
+          "url": "https://en.wikipedia.org/wiki/Riva_del_Garda",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q194136"
     },
     {
       "id": "lake-garda-gar-fish",
@@ -576,5 +621,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q6414",
+  "local": {
+    "name": "lago di Garda",
+    "lang": "it"
+  }
 }

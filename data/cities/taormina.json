@@ -71,8 +71,8 @@
       "id": "taormina-tao-theatre",
       "name": "Ancient Theatre of Taormina",
       "kind": "see",
-      "lat": 37.8526,
-      "lon": 15.292,
+      "lat": 37.85222,
+      "lon": 15.29222,
       "wiki": "Ancient theatre of Taormina",
       "summary": "Greek-Roman theatre framing the sea and Mount Etna.",
       "expect": "Paid; summer concerts.",
@@ -112,14 +112,27 @@
         "Paid; summer concerts.",
         "Go at opening or late afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27849,
+          "period": "202511-202610",
+          "title": "Ancient theatre of Taormina",
+          "url": "https://en.wikipedia.org/wiki/Ancient_theatre_of_Taormina",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q747484",
+      "local": {
+        "name": "Teatro antico di Taormina",
+        "lang": "it"
+      }
     },
     {
       "id": "taormina-tao-corso",
       "name": "Corso Umberto",
       "kind": "see",
-      "lat": 37.852,
-      "lon": 15.287,
+      "lat": 37.85122,
+      "lon": 15.28431,
       "wiki": "Taormina",
       "summary": "Main street between two medieval gates, with churches, palaces and shops.",
       "expect": "Crowded midday.",
@@ -159,14 +172,22 @@
         "Crowded midday.",
         "Walk it in the evening passeggiata."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 116047,
+          "period": "202511-202610",
+          "title": "Taormina",
+          "url": "https://en.wikipedia.org/wiki/Taormina",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "taormina-tao-isolabella",
       "name": "Isola Bella",
       "kind": "see",
-      "lat": 37.8507,
-      "lon": 15.3008,
+      "lat": 37.85028,
+      "lon": 15.30083,
       "wiki": "Isola Bella (Sicily)",
       "summary": "Tiny nature reserve island joined to the beach by a sandbar.",
       "expect": "Pebbly; reserve fee.",
@@ -205,14 +226,23 @@
         "Pebbly; reserve fee.",
         "Take the cable car down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27099,
+          "period": "202511-202610",
+          "title": "Isola Bella (Sicily)",
+          "url": "https://en.wikipedia.org/wiki/Isola_Bella_(Sicily)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q642924"
     },
     {
       "id": "taormina-tao-villa",
       "name": "Villa Comunale",
       "kind": "see",
-      "lat": 37.8505,
-      "lon": 15.2885,
+      "lat": 37.85095,
+      "lon": 15.28999,
       "wiki": "Taormina",
       "summary": "Gardens with follies and sea views, created by an English lady.",
       "expect": "Free.",
@@ -252,14 +282,22 @@
         "Free.",
         "Shady escape midday."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 116047,
+          "period": "202511-202610",
+          "title": "Taormina",
+          "url": "https://en.wikipedia.org/wiki/Taormina",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "taormina-tao-castelmola",
       "name": "Castelmola",
       "kind": "see",
-      "lat": 37.8584,
-      "lon": 15.2772,
+      "lat": 37.85972,
+      "lon": 15.27639,
       "wiki": "Castelmola",
       "summary": "Village above Taormina with castle ruins and almond wine.",
       "expect": "Steep walk or bus.",
@@ -299,14 +337,23 @@
         "Steep walk or bus.",
         "Try vino alla mandorla at Bar Turrisi."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10498,
+          "period": "202511-202610",
+          "title": "Castelmola",
+          "url": "https://en.wikipedia.org/wiki/Castelmola",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q492609"
     },
     {
       "id": "taormina-tao-etna",
       "name": "Mount Etna",
       "kind": "see",
-      "lat": 37.751,
-      "lon": 14.9934,
+      "lat": 37.755,
+      "lon": 14.995,
       "wiki": "Mount Etna",
       "summary": "Europe's most active volcano, with craters and lava fields to explore.",
       "expect": "Tour or car; cold at the top.",
@@ -346,15 +393,24 @@
         "Tour or car; cold at the top.",
         "Take the cable car from Rifugio Sapienza and a guided crater walk."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 502061,
+          "period": "202511-202610",
+          "title": "Mount Etna",
+          "url": "https://en.wikipedia.org/wiki/Mount_Etna",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q16990"
     },
     {
       "id": "taormina-tao-alcantara",
       "name": "Alcantara Gorges",
       "kind": "see",
-      "lat": 37.88,
-      "lon": 15.177,
+      "lat": 37.8076,
+      "lon": 15.2575,
       "wiki": "Alcantara (river)",
       "summary": "Basalt column gorge carved by a river, with icy water.",
       "expect": "Paid entry or free public access.",
@@ -394,8 +450,17 @@
         "Paid entry or free public access.",
         "Wear water shoes."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 4054,
+          "period": "202511-202610",
+          "title": "Alcantara (river)",
+          "url": "https://en.wikipedia.org/wiki/Alcantara_(river)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q387849"
     },
     {
       "id": "taormina-tao-granita",
@@ -570,5 +635,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q199952"
 }

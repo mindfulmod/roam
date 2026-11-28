@@ -64,8 +64,8 @@
       "id": "lecce-lec-santacroce",
       "name": "Basilica di Santa Croce",
       "kind": "see",
-      "lat": 40.3546,
-      "lon": 18.173,
+      "lat": 40.35468,
+      "lon": 18.17296,
       "wiki": "Basilica di Santa Croce (Lecce)",
       "summary": "Lecce's Baroque masterpiece, its façade crowded with carved animals and figures.",
       "expect": "Paid combined ticket for the churches.",
@@ -106,14 +106,23 @@
         "Paid combined ticket for the churches.",
         "Look for the creatures on the balcony."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7319,
+          "period": "202511-202610",
+          "title": "Basilica of Santa Croce, Lecce",
+          "url": "https://en.wikipedia.org/wiki/Basilica_of_Santa_Croce%2C_Lecce",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q844111"
     },
     {
       "id": "lecce-lec-duomo",
       "name": "Piazza del Duomo",
       "kind": "see",
       "lat": 40.35,
-      "lon": 18.1683,
+      "lon": 18.16667,
       "wiki": "Lecce Cathedral",
       "summary": "Enclosed square with the cathedral, bell tower and bishop's palace.",
       "expect": "Combined church ticket.",
@@ -153,7 +162,15 @@
         "Combined church ticket.",
         "Visit after dark when it glows."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7184,
+          "period": "202511-202610",
+          "title": "Lecce Cathedral",
+          "url": "https://en.wikipedia.org/wiki/Lecce_Cathedral",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lecce-lec-amphi",
@@ -205,8 +222,8 @@
       "id": "lecce-lec-faggiano",
       "name": "Museo Faggiano",
       "kind": "see",
-      "lat": 40.3488,
-      "lon": 18.1708,
+      "lat": 40.35011,
+      "lon": 18.17238,
       "wiki": "Museo Faggiano",
       "summary": "A house where a man fixing a pipe found 2,000 years of layers beneath the floor.",
       "expect": "Small fee.",
@@ -244,15 +261,14 @@
       "tradeoffs": [
         "Small fee.",
         "Climb the tower for the rooftops."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "lecce-lec-otranto",
       "name": "Otranto",
       "kind": "see",
-      "lat": 40.144,
-      "lon": 18.491,
+      "lat": 40.14567,
+      "lon": 18.49076,
       "wiki": "Otranto",
       "summary": "Walled seaside town with a cathedral floor mosaic of the Tree of Life.",
       "expect": "45 minutes; busy in August.",
@@ -293,15 +309,23 @@
         "45 minutes; busy in August.",
         "See the chapel of the martyrs, then swim."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 57042,
+          "period": "202511-202610",
+          "title": "Otranto",
+          "url": "https://en.wikipedia.org/wiki/Otranto",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lecce-lec-poesia",
       "name": "Grotta della Poesia",
       "kind": "see",
-      "lat": 40.2878,
-      "lon": 18.425,
+      "lat": 40.28576,
+      "lon": 18.42979,
       "wiki": "Grotta della Poesia",
       "summary": "Natural sea pool in the limestone where people jump into clear water.",
       "expect": "Very busy in summer.",
@@ -341,15 +365,14 @@
         "Very busy in summer.",
         "Go early morning."
       ],
-      "pinApproximate": true,
       "excursion": true
     },
     {
       "id": "lecce-lec-gallipoli",
       "name": "Gallipoli",
       "kind": "see",
-      "lat": 40.056,
-      "lon": 17.979,
+      "lat": 40.05556,
+      "lon": 17.99167,
       "wiki": "Gallipoli, Apulia",
       "summary": "Island old town on the Ionian Sea with sunsets and seafood.",
       "expect": "40 minutes.",
@@ -389,8 +412,17 @@
         "40 minutes.",
         "Eat raw sea urchins at the fish market."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 36804,
+          "period": "202511-202610",
+          "title": "Gallipoli, Apulia",
+          "url": "https://en.wikipedia.org/wiki/Gallipoli%2C_Apulia",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q52143"
     },
     {
       "id": "lecce-lec-pasticciotto",
@@ -565,5 +597,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q13386"
 }

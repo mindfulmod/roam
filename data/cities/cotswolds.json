@@ -77,8 +77,8 @@
       "id": "cotswolds-cot-bibury",
       "name": "Bibury and Arlington Row",
       "kind": "see",
-      "lat": 51.759,
-      "lon": -1.833,
+      "lat": 51.7582,
+      "lon": -1.8324,
       "wiki": "Bibury",
       "summary": "Row of 14th-century weavers' cottages by a stream.",
       "expect": "Very busy at midday.",
@@ -118,7 +118,16 @@
         "Very busy at midday.",
         "Come early morning."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 62702,
+          "period": "202511-202610",
+          "title": "Bibury",
+          "url": "https://en.wikipedia.org/wiki/Bibury",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q856722"
     },
     {
       "id": "cotswolds-cot-bourton",
@@ -165,14 +174,23 @@
         "Crowds and parking fees.",
         "Walk to the Slaughters from here."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 65882,
+          "period": "202511-202610",
+          "title": "Bourton-on-the-Water",
+          "url": "https://en.wikipedia.org/wiki/Bourton-on-the-Water",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q895264"
     },
     {
       "id": "cotswolds-cot-slaughter",
       "name": "Lower and Upper Slaughter",
       "kind": "see",
-      "lat": 51.905,
-      "lon": -1.77,
+      "lat": 51.906,
+      "lon": -1.777,
       "wiki": "Lower Slaughter",
       "summary": "Two tiny villages with a working mill, joined by a field path.",
       "expect": "Small; no shops.",
@@ -212,14 +230,23 @@
         "Small; no shops.",
         "Walk the path from Bourton."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11741,
+          "period": "202511-202610",
+          "title": "Lower Slaughter",
+          "url": "https://en.wikipedia.org/wiki/Lower_Slaughter",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6693825"
     },
     {
       "id": "cotswolds-cot-campden",
       "name": "Chipping Campden",
       "kind": "see",
-      "lat": 52.051,
-      "lon": -1.78,
+      "lat": 52.052,
+      "lon": -1.779,
       "wiki": "Chipping Campden",
       "summary": "Wool town with a curved high street and a 17th-century market hall.",
       "expect": "Free.",
@@ -259,14 +286,23 @@
         "Free.",
         "Start of the Cotswold Way."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 38035,
+          "period": "202511-202610",
+          "title": "Chipping Campden",
+          "url": "https://en.wikipedia.org/wiki/Chipping_Campden",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q767811"
     },
     {
       "id": "cotswolds-cot-blenheim",
       "name": "Blenheim Palace",
       "kind": "see",
-      "lat": 51.8414,
-      "lon": -1.3611,
+      "lat": 51.84136,
+      "lon": -1.36095,
       "wiki": "Blenheim Palace",
       "summary": "Baroque palace where Churchill was born, in Capability Brown parkland.",
       "expect": "Paid; big.",
@@ -306,14 +342,23 @@
         "Paid; big.",
         "Allow a whole day with the park."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 435162,
+          "period": "202511-202610",
+          "title": "Blenheim Palace",
+          "url": "https://en.wikipedia.org/wiki/Blenheim_Palace",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q208181"
     },
     {
       "id": "cotswolds-cot-combe",
       "name": "Castle Combe",
       "kind": "see",
-      "lat": 51.4935,
+      "lat": 51.493,
       "lon": -2.229,
       "wiki": "Castle Combe",
       "summary": "Village of stone cottages, often called England's prettiest.",
@@ -354,8 +399,17 @@
         "Small; park above.",
         "View from the bridge."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 123923,
+          "period": "202511-202610",
+          "title": "Castle Combe",
+          "url": "https://en.wikipedia.org/wiki/Castle_Combe",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1049415"
     },
     {
       "id": "cotswolds-cot-sudeley",
@@ -402,14 +456,23 @@
         "Paid; seasonal.",
         "See Katherine Parr's chapel."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 63935,
+          "period": "202511-202610",
+          "title": "Sudeley Castle",
+          "url": "https://en.wikipedia.org/wiki/Sudeley_Castle",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "cotswolds-cot-broadway",
       "name": "Broadway Tower",
       "kind": "see",
-      "lat": 52.0249,
-      "lon": -1.837,
+      "lat": 52.02417,
+      "lon": -1.83583,
       "wiki": "Broadway Tower, Worcestershire",
       "summary": "Folly tower on a hill with views across many counties.",
       "expect": "Paid to climb.",
@@ -449,7 +512,16 @@
         "Paid to climb.",
         "Walk up from Broadway village."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 31795,
+          "period": "202511-202610",
+          "title": "Broadway Tower, Worcestershire",
+          "url": "https://en.wikipedia.org/wiki/Broadway_Tower%2C_Worcestershire",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q208234"
     },
     {
       "id": "cotswolds-cot-roast",
@@ -622,5 +694,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q301833"
 }
