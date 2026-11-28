@@ -189,8 +189,10 @@ document.addEventListener('click', (e) => {
   else if (a === 'import') importTrip();
   else if (a === 'import-merge') doImport(true);
   else if (a === 'import-replace') doImport(false);
-  else if (a === 'print') window.print();
-  else if (a === 'budget-detail') budgetDetail();
+  else if (a === 'print') {
+    $$('details.daycard').forEach((d) => (d.open = true));
+    window.print();
+  } else if (a === 'budget-detail') budgetDetail();
   else if (a === 'saved-to-trip') {
     for (const pid of S.saved) {
       const cid = P[pid].cityId;

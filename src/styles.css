@@ -9825,3 +9825,69 @@ img.photo {
     font-size: 13px;
   }
 }
+
+/* Trip days fold to one line each: the day, its hours and where you'll be. */
+details.daycard > summary.daytitle {
+  display: grid;
+  grid-template-columns: 1fr auto 20px;
+  align-items: center;
+  gap: 4px 10px;
+  margin: 0;
+  list-style: none;
+  cursor: pointer;
+}
+details.daycard > summary::-webkit-details-marker {
+  display: none;
+}
+details.daycard > summary .day-peek {
+  grid-column: 1 / -1;
+  grid-row: 2;
+  font-size: 13px;
+  color: var(--muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+details.daycard > summary > .icon {
+  width: 18px;
+  height: 18px;
+  color: var(--muted);
+  transition: transform 0.15s;
+}
+details.daycard[open] > summary > .icon {
+  transform: rotate(180deg);
+}
+details.daycard[open] > summary {
+  margin-bottom: 15px;
+}
+details.daycard[open] > summary .day-peek {
+  display: none;
+}
+details.daycard:not([open]) {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+@media (prefers-reduced-motion: reduce) {
+  details.daycard > summary > .icon {
+    transition: none;
+  }
+}
+
+details.season-warning > summary {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  list-style: none;
+}
+details.season-warning > summary::-webkit-details-marker {
+  display: none;
+}
+details.season-warning > summary .icon {
+  width: 15px;
+  height: 15px;
+  flex: none;
+}
+details.season-warning > p {
+  margin: 6px 0 0;
+}

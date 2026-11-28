@@ -1145,3 +1145,22 @@ test('home stays light and keeps your place: capped rows, tabs and Back return w
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('trip days fold to one line each, day 1 open, and a tick keeps your open days', async () => {
+  const page = await openApp(browser, origin, {
+    hash: '#/trip',
+    state: { trip: ['tokyo', 'kyoto'], startDate: '2031-07-10' },
+  });
+  await page.waitForSelector('details.daycard');
+  assert.equal(await page.locator('details.daycard[open]').count(), 1);
+  assert.equal(await page.locator('details.daycard').first().getAttribute('open'), '');
+  const third = page.locator('details.daycard').nth(2);
+  await third.locator('summary').click();
+  await page.locator('details.daycard').first().locator('summary').click();
+  await third.locator('input[data-visited]').first().check();
+  await page.waitForTimeout(200);
+  assert.equal(await page.locator('details.daycard').nth(2).getAttribute('open'), '');
+  assert.equal(await page.locator('details.daycard').first().getAttribute('open'), null);
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
