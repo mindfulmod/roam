@@ -1,0 +1,2343 @@
+[
+ {
+  "country": "Colombia",
+  "region": "South America",
+  "currency": "COP",
+  "cashTip": "Carry pesos for small places and transport; cards work in hotels. A 10 percent service is often suggested on the bill.",
+  "id": "guatape",
+  "name": "Guatapé",
+  "at": [
+   6.2338,
+   -75.158
+  ],
+  "wiki": "Guatapé",
+  "cover": "El Peñol",
+  "dailyBudget": [
+   150000,
+   350000
+  ],
+  "cashPerDay": [
+   60000,
+   150000
+  ],
+  "seasons": "HSSSSSHHSSSH",
+  "tagline": "Painted town and the giant rock of El Peñol",
+  "summary": "Guatapé is a cheerful lakeside town whose houses are decorated with colourful relief panels called zócalos. Climb the 740 steps of the giant El Peñol rock for a view over the island-studded reservoir, take a boat around the lake, and wander the painted lanes.",
+  "days": 2,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   7,
+   8
+  ],
+  "seasonNote": "Drier December to February and July to August; weekends are busy with day-trippers from Medellín.",
+  "arrival": "About 2 hours by bus from Medellín's north terminal.",
+  "gettingAround": "Walk; tuk-tuks to El Peñol.",
+  "foodTip": "Bandeja paisa, lake trout and arepas.",
+  "buyTip": "Painted crafts.",
+  "baseArea": "Town centre",
+  "hotel": [
+   30,
+   150
+  ],
+  "connections": [
+   {
+    "to": "medellin",
+    "mode": "Bus",
+    "minutes": 120,
+    "note": "Frequent buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "El Peñol rock",
+    "kind": "see",
+    "id": "gua-penol",
+    "at": [
+     6.221,
+     -75.178
+    ],
+    "wiki": "El Peñol",
+    "area": "El Peñol",
+    "summary": "Climb 740 steps up a 200 m granite monolith.",
+    "expect": "Paid; busy weekends.",
+    "tip": "Go on a weekday morning.",
+    "why": "Famous view.",
+    "flow": [
+     "Climb.",
+     "Summit view."
+    ],
+    "hours": 2,
+    "price": [
+     25000,
+     30000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Zócalo streets",
+    "kind": "see",
+    "id": "gua-zocalos",
+    "at": [
+     6.2338,
+     -75.158
+    ],
+    "wiki": "Guatapé",
+    "area": "Centre",
+    "summary": "Houses decorated with colourful reliefs showing trades and stories.",
+    "expect": "Free.",
+    "tip": "Calle del Recuerdo is the prettiest.",
+    "why": "Painted town.",
+    "flow": [
+     "Lanes.",
+     "Plazoleta de los Zócalos."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Art",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Lake boat tour",
+    "kind": "see",
+    "id": "gua-boat",
+    "at": [
+     6.235,
+     -75.16
+    ],
+    "wiki": "Peñol-Guatapé Reservoir",
+    "area": "Malecón",
+    "summary": "Boat around the reservoir islands and the old town site.",
+    "expect": "Tours from the malecón.",
+    "tip": "Choose a shared boat.",
+    "why": "Lake views.",
+    "flow": [
+     "Board.",
+     "Islands."
+    ],
+    "hours": 1.5,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Malecón",
+    "kind": "see",
+    "id": "gua-malecon",
+    "at": [
+     6.235,
+     -75.159
+    ],
+    "wiki": "Guatapé",
+    "area": "Lakefront",
+    "summary": "Lakeside promenade with activities and food stalls.",
+    "expect": "Busy weekends.",
+    "tip": "Sunset stroll.",
+    "why": "Easy evening.",
+    "flow": [
+     "Walk.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Church of Our Lady of Carmen",
+    "kind": "see",
+    "id": "gua-church",
+    "at": [
+     6.234,
+     -75.1575
+    ],
+    "wiki": "Guatapé",
+    "area": "Main square",
+    "summary": "Neoclassical church on the main square.",
+    "expect": "Free.",
+    "tip": "Combine with the square.",
+    "why": "Town centre.",
+    "flow": [
+     "Square.",
+     "Church."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Bandeja paisa",
+    "kind": "eat",
+    "id": "gua-bandeja",
+    "at": [
+     6.234,
+     -75.158
+    ],
+    "wiki": "Bandeja paisa",
+    "area": "Centre",
+    "summary": "Platter of beans, rice, pork belly, egg and arepa.",
+    "expect": "Huge.",
+    "tip": "Share or skip dinner.",
+    "why": "Antioquia classic.",
+    "flow": [
+     "Restaurant.",
+     "Bandeja."
+    ],
+    "hours": 1,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Bandeja paisa"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Lake trout",
+    "kind": "eat",
+    "id": "gua-trout",
+    "at": [
+     6.235,
+     -75.16
+    ],
+    "wiki": "Rainbow trout",
+    "area": "Malecón",
+    "summary": "Trout from the region, fried or with garlic.",
+    "expect": "Lakeside restaurants.",
+    "tip": "Order trucha al ajillo.",
+    "why": "Lake dish.",
+    "flow": [
+     "Restaurant.",
+     "Trout."
+    ],
+    "hours": 1,
+    "price": [
+     25000,
+     40000
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Trucha al ajillo"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Arepas and coffee",
+    "kind": "eat",
+    "id": "gua-arepa",
+    "at": [
+     6.2338,
+     -75.1582
+    ],
+    "wiki": "Arepa",
+    "area": "Centre",
+    "summary": "Corn arepas with cheese and a tinto coffee.",
+    "expect": "Breakfast.",
+    "tip": "Try arepa de chócolo.",
+    "why": "Morning staple.",
+    "flow": [
+     "Café.",
+     "Arepa."
+    ],
+    "hours": 0.5,
+    "price": [
+     5000,
+     12000
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Arepa de chócolo",
+     "Tinto"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Colombia",
+  "region": "South America",
+  "currency": "COP",
+  "cashTip": "Carry pesos for small places and transport; cards work in hotels. A 10 percent service is often suggested on the bill.",
+  "id": "villa-de-leyva",
+  "name": "Villa de Leyva",
+  "at": [
+   5.6333,
+   -73.525
+  ],
+  "wiki": "Villa de Leyva",
+  "cover": "Villa de Leyva",
+  "dailyBudget": [
+   150000,
+   350000
+  ],
+  "cashPerDay": [
+   60000,
+   150000
+  ],
+  "seasons": "HSSSSSHHSSSH",
+  "tagline": "Colonial town with one of the largest plazas in the Americas",
+  "summary": "Villa de Leyva is a whitewashed colonial town in the dry hills of Boyacá with an enormous cobbled plaza. See giant fossils at the El Fósil museum, the ancient El Infiernito observatory, the strange clay Casa Terracota, and hike to the Pozos Azules pools.",
+  "days": 2,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   7,
+   8
+  ],
+  "seasonNote": "Mild and dry; festivals in August (kites) and December (lights).",
+  "arrival": "About 4 hours by bus from Bogotá via Tunja.",
+  "gettingAround": "Walk, bike or tuk-tuk.",
+  "foodTip": "Ajiaco, cuchuco soup and local wines from Boyacá.",
+  "buyTip": "Ceramics from Ráquira nearby.",
+  "baseArea": "Around the Plaza Mayor",
+  "hotel": [
+   40,
+   180
+  ],
+  "connections": [
+   {
+    "to": "bogota",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Via Tunja."
+   }
+  ],
+  "items": [
+   {
+    "name": "Plaza Mayor",
+    "kind": "see",
+    "id": "vdl-plaza",
+    "at": [
+     5.6333,
+     -73.525
+    ],
+    "wiki": "Villa de Leyva",
+    "area": "Centre",
+    "summary": "Huge cobbled colonial square surrounded by white buildings.",
+    "expect": "Free.",
+    "tip": "Sit at the church steps at sunset.",
+    "why": "Iconic square.",
+    "flow": [
+     "Plaza.",
+     "Church."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "El Fósil museum",
+    "kind": "see",
+    "id": "vdl-fosil",
+    "at": [
+     5.625,
+     -73.6
+    ],
+    "wiki": "Kronosaurus",
+    "area": "Outskirts",
+    "summary": "Museum built around a 120-million-year-old kronosaurus fossil.",
+    "expect": "Small fee.",
+    "tip": "Combine with El Infiernito.",
+    "why": "Giant marine reptile.",
+    "flow": [
+     "Fossil.",
+     "Exhibits."
+    ],
+    "hours": 1,
+    "price": [
+     10000,
+     15000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "El Infiernito",
+    "kind": "see",
+    "id": "vdl-infiernito",
+    "at": [
+     5.65,
+     -73.57
+    ],
+    "wiki": "El Infiernito",
+    "area": "Outskirts",
+    "summary": "Muisca stone-pillar observatory.",
+    "expect": "Small fee.",
+    "tip": "Go by bike.",
+    "why": "Ancient astronomy.",
+    "flow": [
+     "Pillars.",
+     "Guide."
+    ],
+    "hours": 1,
+    "price": [
+     10000,
+     15000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Casa Terracota",
+    "kind": "see",
+    "id": "vdl-terracota",
+    "at": [
+     5.627,
+     -73.53
+    ],
+    "wiki": "Casa Terracota",
+    "area": "Outskirts",
+    "summary": "A whole house made of baked clay.",
+    "expect": "Paid.",
+    "tip": "Walk from town.",
+    "why": "Quirky architecture.",
+    "flow": [
+     "Rooms.",
+     "Photos."
+    ],
+    "hours": 1,
+    "price": [
+     15000,
+     20000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Art"
+    ]
+   },
+   {
+    "name": "Pozos Azules",
+    "kind": "see",
+    "id": "vdl-pozos",
+    "at": [
+     5.64,
+     -73.56
+    ],
+    "wiki": "Villa de Leyva",
+    "area": "Desert",
+    "summary": "Turquoise ponds in the desert hills.",
+    "expect": "Small fee; no swimming.",
+    "tip": "Combine on a bike loop.",
+    "why": "Desert colours.",
+    "flow": [
+     "Walk.",
+     "Pools."
+    ],
+    "hours": 1.5,
+    "price": [
+     5000,
+     10000
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Ráquira",
+    "kind": "see",
+    "id": "vdl-raquira",
+    "at": [
+     5.538,
+     -73.632
+    ],
+    "wiki": "Ráquira",
+    "area": "Ráquira",
+    "summary": "Colourful pottery village.",
+    "expect": "30 minutes.",
+    "tip": "Buy ceramics.",
+    "why": "Craft village.",
+    "flow": [
+     "Shops.",
+     "Workshops."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Art"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Ajiaco",
+    "kind": "eat",
+    "id": "vdl-ajiaco",
+    "at": [
+     5.6335,
+     -73.525
+    ],
+    "wiki": "Ajiaco",
+    "area": "Centre",
+    "summary": "Chicken and three-potato soup with capers and cream.",
+    "expect": "Lunch.",
+    "tip": "Add avocado.",
+    "why": "Andean classic.",
+    "flow": [
+     "Restaurant.",
+     "Ajiaco."
+    ],
+    "hours": 1,
+    "price": [
+     25000,
+     35000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Ajiaco"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Market-day food",
+    "kind": "eat",
+    "id": "vdl-market",
+    "at": [
+     5.632,
+     -73.526
+    ],
+    "wiki": "Villa de Leyva",
+    "area": "Market",
+    "summary": "Saturday market with local food stalls.",
+    "expect": "Saturdays.",
+    "tip": "Try almojábanas.",
+    "why": "Local flavour.",
+    "flow": [
+     "Market.",
+     "Snacks."
+    ],
+    "hours": 1,
+    "price": [
+     5000,
+     20000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Colombian",
+    "order": [
+     "Almojábana"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Boyacá wine",
+    "kind": "eat",
+    "id": "vdl-wine",
+    "at": [
+     5.62,
+     -73.55
+    ],
+    "wiki": "Colombian wine",
+    "area": "Outskirts",
+    "summary": "High-altitude vineyards nearby with tastings.",
+    "expect": "Book.",
+    "tip": "Try Ain Karim vineyard.",
+    "why": "Colombian wine.",
+    "flow": [
+     "Vineyard.",
+     "Tasting."
+    ],
+    "hours": 1.5,
+    "price": [
+     30000,
+     60000
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Wine",
+    "order": [
+     "Local wine"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Ecuador",
+  "region": "South America",
+  "currency": "USD",
+  "cashTip": "Ecuador uses US dollars; carry small notes.",
+  "id": "mindo",
+  "name": "Mindo",
+  "at": [
+   -0.0516,
+   -78.775
+  ],
+  "wiki": "Mindo",
+  "cover": "Mindo-Nambillo Cloud Forest",
+  "dailyBudget": [
+   40,
+   120
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "seasons": "SSSSSHHHSSSS",
+  "tagline": "Cloud forest of hummingbirds and chocolate",
+  "summary": "Mindo is a little village in the cloud forest two hours from Quito, a paradise for birders with over 500 species. Watch dozens of hummingbirds at feeders, ride the tarabita cable car to waterfalls, zipline through the canopy, and tour a bean-to-bar chocolate maker.",
+  "days": 2,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Drier June to September; rain is common in the afternoons all year.",
+  "arrival": "About 2 hours by bus or car from Quito.",
+  "gettingAround": "Walk, bike or taxi-truck.",
+  "foodTip": "River trout, chocolate and empanadas.",
+  "buyTip": "Mindo chocolate.",
+  "baseArea": "Village",
+  "hotel": [
+   25,
+   150
+  ],
+  "connections": [
+   {
+    "to": "quito",
+    "mode": "Bus",
+    "minutes": 120,
+    "note": "Daily buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Hummingbird feeders and birding",
+    "kind": "see",
+    "id": "min-birds",
+    "at": [
+     -0.05,
+     -78.77
+    ],
+    "wiki": "Mindo",
+    "area": "Village",
+    "summary": "Gardens with feeders drawing dozens of hummingbird species.",
+    "expect": "Small fees; dawn tours.",
+    "tip": "Hire a birding guide at dawn.",
+    "why": "Birding paradise.",
+    "flow": [
+     "Feeders.",
+     "Dawn walk."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     60
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Tarabita and waterfalls",
+    "kind": "see",
+    "id": "min-tarabita",
+    "at": [
+     -0.07,
+     -78.79
+    ],
+    "wiki": "Mindo",
+    "area": "Nambillo",
+    "summary": "Open cable basket over a valley to a waterfall trail.",
+    "expect": "Small fee.",
+    "tip": "Swim at the falls.",
+    "why": "Cloud forest trail.",
+    "flow": [
+     "Tarabita.",
+     "Waterfalls."
+    ],
+    "hours": 3,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Canopy zipline",
+    "kind": "see",
+    "id": "min-zip",
+    "at": [
+     -0.065,
+     -78.78
+    ],
+    "wiki": "Mindo",
+    "area": "Forest",
+    "summary": "Ziplines through the canopy.",
+    "expect": "Paid.",
+    "tip": "Try the superman position.",
+    "why": "Adrenaline.",
+    "flow": [
+     "Harness.",
+     "Lines."
+    ],
+    "hours": 2,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Butterfly garden",
+    "kind": "see",
+    "id": "min-butterfly",
+    "at": [
+     -0.06,
+     -78.78
+    ],
+    "wiki": "Mindo",
+    "area": "Forest",
+    "summary": "Garden with many butterfly species and pupae.",
+    "expect": "Paid.",
+    "tip": "Morning for emergences.",
+    "why": "Colour.",
+    "flow": [
+     "Garden.",
+     "Pupae room."
+    ],
+    "hours": 1,
+    "price": [
+     5,
+     8
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "River tubing",
+    "kind": "see",
+    "id": "min-tubing",
+    "at": [
+     -0.055,
+     -78.775
+    ],
+    "wiki": "Mindo",
+    "area": "River",
+    "summary": "Tube down the Mindo river rapids.",
+    "expect": "Tours.",
+    "tip": "Dry season for safer levels.",
+    "why": "Fun float.",
+    "flow": [
+     "Tube.",
+     "Rapids."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Chocolate tour",
+    "kind": "eat",
+    "id": "min-choc",
+    "at": [
+     -0.051,
+     -78.775
+    ],
+    "wiki": "Mindo",
+    "area": "Village",
+    "summary": "Bean-to-bar tours with tastings.",
+    "expect": "Paid.",
+    "tip": "El Quetzal is well known.",
+    "why": "Chocolate at source.",
+    "flow": [
+     "Tour.",
+     "Tasting."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Chocolate",
+    "order": [
+     "Chocolate tasting"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "River trout",
+    "kind": "eat",
+    "id": "min-trout",
+    "at": [
+     -0.052,
+     -78.776
+    ],
+    "wiki": "Rainbow trout",
+    "area": "Village",
+    "summary": "Fresh trout from local ponds.",
+    "expect": "Restaurants.",
+    "tip": "Order with patacones.",
+    "why": "Local fish.",
+    "flow": [
+     "Restaurant.",
+     "Trout."
+    ],
+    "hours": 1,
+    "price": [
+     8,
+     12
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Trout",
+     "Patacones"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Empanadas and coffee",
+    "kind": "eat",
+    "id": "min-empanadas",
+    "at": [
+     -0.0515,
+     -78.7752
+    ],
+    "wiki": "Empanada",
+    "area": "Village",
+    "summary": "Cheese empanadas and local coffee.",
+    "expect": "Cafés.",
+    "tip": "Morning snack.",
+    "why": "Café break.",
+    "flow": [
+     "Café.",
+     "Empanada."
+    ],
+    "hours": 0.5,
+    "price": [
+     3,
+     6
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Ecuadorian",
+    "order": [
+     "Empanada"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Costa Rica",
+  "region": "North America",
+  "currency": "CRC",
+  "cashTip": "Cards and US dollars widely accepted; colones for small places. Restaurants add 10 percent service.",
+  "id": "monteverde",
+  "name": "Monteverde",
+  "at": [
+   10.301,
+   -84.812
+  ],
+  "wiki": "Monteverde",
+  "cover": "Monteverde Cloud Forest Reserve",
+  "dailyBudget": [
+   40000,
+   100000
+  ],
+  "cashPerDay": [
+   10000,
+   30000
+  ],
+  "seasons": "PPPPSLLHSLSP",
+  "tagline": "Cloud forest of hanging bridges and quetzals",
+  "summary": "Monteverde is a misty mountain region of cloud forest reserves founded by Quaker settlers. Walk the reserves looking for the resplendent quetzal, cross hanging bridges at canopy height, fly on some of the world's longest ziplines, join a night walk for tarantulas and sloths, and tour coffee and chocolate farms.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Dry season December to April; quetzals easiest to see March to June.",
+  "arrival": "About 3.5 hours by road from San José or La Fortuna (jeep-boat-jeep from Arenal).",
+  "gettingAround": "Buses and taxis; tours include pickups.",
+  "foodTip": "Casado, gallo pinto, and Monteverde cheese.",
+  "buyTip": "Coffee and Monteverde cheese.",
+  "baseArea": "Santa Elena village",
+  "hotel": [
+   50,
+   250
+  ],
+  "connections": [
+   {
+    "to": "la-fortuna",
+    "mode": "Car",
+    "minutes": 180,
+    "note": "Jeep-boat-jeep or road."
+   },
+   {
+    "to": "san-jose-cr",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Daily buses."
+   }
+  ],
+  "items": [
+   {
+    "name": "Monteverde Cloud Forest Reserve",
+    "kind": "see",
+    "id": "mon-reserve",
+    "at": [
+     10.302,
+     -84.793
+    ],
+    "wiki": "Monteverde Cloud Forest Reserve",
+    "area": "Reserve",
+    "summary": "Trails through mossy cloud forest with quetzals and hummingbirds.",
+    "expect": "Paid; limited numbers.",
+    "tip": "Go with a guide at opening.",
+    "why": "Famous cloud forest.",
+    "flow": [
+     "Guided walk.",
+     "Continental Divide view."
+    ],
+    "hours": 3,
+    "price": [
+     15000,
+     25000
+    ],
+    "best": "Early morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hanging bridges",
+    "kind": "see",
+    "id": "mon-bridges",
+    "at": [
+     10.33,
+     -84.8
+    ],
+    "wiki": "Selvatura Park",
+    "area": "Santa Elena",
+    "summary": "Suspension bridges through the canopy.",
+    "expect": "Paid.",
+    "tip": "Go in the morning for birds.",
+    "why": "Canopy walk.",
+    "flow": [
+     "Bridges.",
+     "Forest."
+    ],
+    "hours": 2.5,
+    "price": [
+     20000,
+     30000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Zipline",
+    "kind": "see",
+    "id": "mon-zip",
+    "at": [
+     10.32,
+     -84.81
+    ],
+    "wiki": "Zip-line",
+    "area": "Santa Elena",
+    "summary": "Long ziplines over the forest, including a Superman cable.",
+    "expect": "Paid.",
+    "tip": "Book a morning slot.",
+    "why": "Adrenaline.",
+    "flow": [
+     "Harness.",
+     "Lines."
+    ],
+    "hours": 3,
+    "price": [
+     30000,
+     45000
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Night walk",
+    "kind": "see",
+    "id": "mon-night",
+    "at": [
+     10.31,
+     -84.81
+    ],
+    "wiki": "Monteverde",
+    "area": "Santa Elena",
+    "summary": "Guided night walk for tarantulas, sloths and frogs.",
+    "expect": "Paid.",
+    "tip": "Bring a torch.",
+    "why": "Night creatures.",
+    "flow": [
+     "Walk.",
+     "Wildlife."
+    ],
+    "hours": 2,
+    "price": [
+     15000,
+     20000
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Santa Elena Reserve",
+    "kind": "see",
+    "id": "mon-santaelena",
+    "at": [
+     10.348,
+     -84.794
+    ],
+    "wiki": "Santa Elena Cloud Forest Reserve",
+    "area": "Santa Elena",
+    "summary": "Quieter community reserve.",
+    "expect": "Paid.",
+    "tip": "Good for fewer crowds.",
+    "why": "Peaceful forest.",
+    "flow": [
+     "Trails.",
+     "Viewpoint."
+    ],
+    "hours": 3,
+    "price": [
+     12000,
+     18000
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Coffee and chocolate tour",
+    "kind": "see",
+    "id": "mon-coffee",
+    "at": [
+     10.3,
+     -84.82
+    ],
+    "wiki": "Coffee production in Costa Rica",
+    "area": "Monteverde",
+    "summary": "Farm tours of coffee, cacao and sugar cane.",
+    "expect": "Paid.",
+    "tip": "Choose a tour with tastings.",
+    "why": "Farm life.",
+    "flow": [
+     "Farm.",
+     "Tasting."
+    ],
+    "hours": 2.5,
+    "price": [
+     25000,
+     35000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food",
+     "History"
+    ]
+   },
+   {
+    "name": "Casado",
+    "kind": "eat",
+    "id": "mon-casado",
+    "at": [
+     10.315,
+     -84.825
+    ],
+    "wiki": "Casado",
+    "area": "Santa Elena",
+    "summary": "Rice, beans, salad, plantain and meat or fish.",
+    "expect": "Sodas.",
+    "tip": "Find a local soda.",
+    "why": "Costa Rican plate.",
+    "flow": [
+     "Soda.",
+     "Casado."
+    ],
+    "hours": 1,
+    "price": [
+     4000,
+     7000
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Costa Rican",
+    "order": [
+     "Casado"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Gallo pinto breakfast",
+    "kind": "eat",
+    "id": "mon-gallo",
+    "at": [
+     10.315,
+     -84.824
+    ],
+    "wiki": "Gallo pinto",
+    "area": "Santa Elena",
+    "summary": "Rice and beans with eggs and natilla.",
+    "expect": "Breakfast.",
+    "tip": "Add Lizano sauce.",
+    "why": "Morning staple.",
+    "flow": [
+     "Soda.",
+     "Gallo pinto."
+    ],
+    "hours": 0.5,
+    "price": [
+     3000,
+     5000
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Costa Rican",
+    "order": [
+     "Gallo pinto"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Monteverde cheese and ice cream",
+    "kind": "eat",
+    "id": "mon-cheese",
+    "at": [
+     10.305,
+     -84.815
+    ],
+    "wiki": "Monteverde",
+    "area": "Monteverde",
+    "summary": "Cheese and ice cream from the Quaker-founded dairy.",
+    "expect": "Shop.",
+    "tip": "Try the ice cream.",
+    "why": "Local dairy.",
+    "flow": [
+     "Shop.",
+     "Taste."
+    ],
+    "hours": 0.5,
+    "price": [
+     2000,
+     5000
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Costa Rican",
+    "order": [
+     "Ice cream",
+     "Cheese"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Cuba",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Bring cash (euros or US dollars); foreign cards often fail. Prices here are in US dollars; tip 10 percent.",
+  "id": "trinidad-cuba",
+  "name": "Trinidad (Cuba)",
+  "at": [
+   21.8021,
+   -79.9843
+  ],
+  "wiki": "Trinidad, Cuba",
+  "cover": "Plaza Mayor, Trinidad",
+  "dailyBudget": [
+   40,
+   120
+  ],
+  "cashPerDay": [
+   30,
+   90
+  ],
+  "seasons": "PPPHSLLLLSHP",
+  "tagline": "Sugar-era colonial town of cobbles and salsa",
+  "summary": "Trinidad is a perfectly preserved colonial town built on 19th-century sugar wealth, with pastel houses on cobbled streets. Hear live son and salsa on the Casa de la Música steps, ride the steam train or horses through the Valle de los Ingenios sugar valley, swim at Playa Ancón and hike to waterfalls in Topes de Collantes.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Dry season December to April; hurricane season June to November.",
+  "arrival": "About 4 hours by Víazul bus or car from Havana or Cienfuegos (1.5 hours).",
+  "gettingAround": "Walk the old town; taxis, bikes or horses for the valley and beach.",
+  "foodTip": "Ropa vieja, lobster in casas particulares and canchánchara (rum, honey and lime).",
+  "buyTip": "Embroidered linen and cigars (from official shops).",
+  "baseArea": "A casa particular in the old town",
+  "hotel": [
+   25,
+   120
+  ],
+  "connections": [
+   {
+    "to": "havana",
+    "mode": "Bus",
+    "minutes": 240,
+    "note": "Víazul buses and shared taxis."
+   }
+  ],
+  "items": [
+   {
+    "name": "Plaza Mayor",
+    "kind": "see",
+    "id": "tri-plaza",
+    "at": [
+     21.804,
+     -79.984
+    ],
+    "wiki": "Plaza Mayor, Trinidad",
+    "area": "Old town",
+    "summary": "Colonial square with palm gardens, palaces and the church.",
+    "expect": "Free.",
+    "tip": "Climb the Museo Romántico tower view.",
+    "why": "Heart of Trinidad.",
+    "flow": [
+     "Square.",
+     "Bell tower view."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Casa de la Música steps",
+    "kind": "see",
+    "id": "tri-musica",
+    "at": [
+     21.8045,
+     -79.9835
+    ],
+    "wiki": "Trinidad, Cuba",
+    "area": "Old town",
+    "summary": "Outdoor stairs where bands play salsa every night.",
+    "expect": "Small cover after dark.",
+    "tip": "Dance or watch from the steps.",
+    "why": "Live music.",
+    "flow": [
+     "Steps.",
+     "Dance."
+    ],
+    "hours": 2,
+    "price": [
+     1,
+     5
+    ],
+    "best": "Evening",
+    "p": 1,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Valle de los Ingenios",
+    "kind": "see",
+    "id": "tri-valle",
+    "at": [
+     21.85,
+     -79.9
+    ],
+    "wiki": "Valle de los Ingenios",
+    "area": "Valley",
+    "summary": "Sugar valley with plantation ruins and the Manaca Iznaga tower.",
+    "expect": "Horse, bike or car.",
+    "tip": "Climb the Iznaga tower.",
+    "why": "UNESCO sugar landscape.",
+    "flow": [
+     "Iznaga tower.",
+     "Valley ride."
+    ],
+    "hours": 4,
+    "price": [
+     5,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Playa Ancón",
+    "kind": "see",
+    "id": "tri-ancon",
+    "at": [
+     21.74,
+     -79.998
+    ],
+    "wiki": "Playa Ancón",
+    "area": "Ancón",
+    "summary": "White-sand Caribbean beach 12 km away.",
+    "expect": "Taxi or bike.",
+    "tip": "Snorkel the reef offshore.",
+    "why": "Caribbean beach.",
+    "flow": [
+     "Ride.",
+     "Swim."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Topes de Collantes",
+    "kind": "see",
+    "id": "tri-topes",
+    "at": [
+     21.9,
+     -80.02
+    ],
+    "wiki": "Topes de Collantes",
+    "area": "Escambray",
+    "summary": "Mountain park with waterfalls like El Nicho and Salto del Caburní.",
+    "expect": "Steep road; tours.",
+    "tip": "Swim at El Nicho.",
+    "why": "Mountain waterfalls.",
+    "flow": [
+     "Trail.",
+     "Waterfall."
+    ],
+    "hours": 6,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Full day",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Museo de la Lucha Contra Bandidos",
+    "kind": "see",
+    "id": "tri-tower",
+    "at": [
+     21.805,
+     -79.985
+    ],
+    "wiki": "Convent of St. Francis of Assisi (Trinidad, Cuba)",
+    "area": "Old town",
+    "summary": "Yellow bell tower of the old convent with the best rooftop view.",
+    "expect": "Small fee.",
+    "tip": "Climb at sunset.",
+    "why": "Town icon.",
+    "flow": [
+     "Climb.",
+     "View."
+    ],
+    "hours": 0.5,
+    "price": [
+     1,
+     2
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "History",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Canchánchara at La Canchánchara",
+    "kind": "eat",
+    "id": "tri-canchanchara",
+    "at": [
+     21.8055,
+     -79.9845
+    ],
+    "wiki": "Canchánchara",
+    "area": "Old town",
+    "summary": "Rum, honey and lime served in clay cups with live music.",
+    "expect": "Touristy but fun.",
+    "tip": "Drink it in the courtyard.",
+    "why": "Local cocktail.",
+    "flow": [
+     "Bar.",
+     "Canchánchara."
+    ],
+    "hours": 1,
+    "price": [
+     3,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Drinks",
+    "order": [
+     "Canchánchara"
+    ],
+    "veg": "yes",
+    "halal": "no"
+   },
+   {
+    "name": "Casa particular dinner",
+    "kind": "eat",
+    "id": "tri-casa",
+    "at": [
+     21.803,
+     -79.985
+    ],
+    "wiki": "Cuban cuisine",
+    "area": "Old town",
+    "summary": "Home-cooked lobster, ropa vieja and rice and beans at your guesthouse.",
+    "expect": "Order in the morning.",
+    "tip": "Ask for lobster.",
+    "why": "Best food in Cuba.",
+    "flow": [
+     "Order ahead.",
+     "Dinner."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cuban",
+    "order": [
+     "Ropa vieja",
+     "Lobster"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Paladar restaurants",
+    "kind": "eat",
+    "id": "tri-paladar",
+    "at": [
+     21.8035,
+     -79.984
+    ],
+    "wiki": "Paladar",
+    "area": "Old town",
+    "summary": "Private restaurants in colonial homes.",
+    "expect": "Book in high season.",
+    "tip": "Look for rooftop paladares.",
+    "why": "Private dining.",
+    "flow": [
+     "Book.",
+     "Dinner."
+    ],
+    "hours": 1.5,
+    "price": [
+     10,
+     25
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cuban",
+    "order": [
+     "Cuban dishes"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Mexico",
+  "region": "North America",
+  "currency": "MXN",
+  "cashTip": "Carry pesos for markets and colectivos; cards work in larger places. Tip 10 to 15 percent.",
+  "id": "san-cristobal",
+  "name": "San Cristóbal de las Casas",
+  "at": [
+   16.737,
+   -92.6376
+  ],
+  "wiki": "San Cristóbal de las Casas",
+  "cover": "Sumidero Canyon",
+  "dailyBudget": [
+   600,
+   1500
+  ],
+  "cashPerDay": [
+   300,
+   800
+  ],
+  "seasons": "HHHHSSHSSSHH",
+  "tagline": "Highland colonial town and Maya villages of Chiapas",
+  "summary": "San Cristóbal is a cool highland colonial town in Chiapas, ringed by Tzotzil and Tzeltal Maya villages. Walk its pedestrian streets and markets, visit the church of San Juan Chamula where Maya rituals blend with Catholicism, take a boat through the towering Sumidero Canyon, and travel on to the jungle ruins of Palenque and the Agua Azul cascades.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Dry November to April; nights are cold at 2,200 m.",
+  "arrival": "Fly to Tuxtla Gutiérrez, then 1 hour by road.",
+  "gettingAround": "Walk; colectivos to villages; tours to Sumidero and Palenque.",
+  "foodTip": "Tamales chiapanecos, sopa de pan, local coffee and pox (corn liquor).",
+  "buyTip": "Maya textiles, amber and coffee.",
+  "baseArea": "Centro around Real de Guadalupe",
+  "hotel": [
+   30,
+   150
+  ],
+  "connections": [
+   {
+    "to": "mexico-city",
+    "mode": "Plane",
+    "minutes": 120,
+    "note": "Fly to Tuxtla Gutiérrez."
+   },
+   {
+    "to": "oaxaca",
+    "mode": "Bus",
+    "minutes": 660,
+    "note": "Overnight buses."
+   },
+   {
+    "to": "antigua-guatemala",
+    "mode": "Bus",
+    "minutes": 600,
+    "note": "Shuttles via the border."
+   }
+  ],
+  "items": [
+   {
+    "name": "San Juan Chamula church",
+    "kind": "see",
+    "id": "sc-chamula",
+    "at": [
+     16.788,
+     -92.689
+    ],
+    "wiki": "San Juan Chamula",
+    "area": "Chamula",
+    "summary": "Tzotzil church with pine needles, candles and healing rituals.",
+    "expect": "Strictly no photos inside; small fee.",
+    "tip": "Go with a local guide.",
+    "why": "Living Maya ritual.",
+    "flow": [
+     "Market.",
+     "Church."
+    ],
+    "hours": 2.5,
+    "price": [
+     30,
+     50
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "History"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Sumidero Canyon",
+    "kind": "see",
+    "id": "sc-sumidero",
+    "at": [
+     16.85,
+     -93.08
+    ],
+    "wiki": "Sumidero Canyon",
+    "area": "Chiapa de Corzo",
+    "summary": "Boat through a canyon with 1,000 m walls, crocodiles and monkeys.",
+    "expect": "Tours from San Cristóbal.",
+    "tip": "Visit the viewpoints from above too.",
+    "why": "Dramatic canyon.",
+    "flow": [
+     "Boat.",
+     "Viewpoints."
+    ],
+    "hours": 6,
+    "price": [
+     400,
+     700
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Templo de Santo Domingo and market",
+    "kind": "see",
+    "id": "sc-domingo",
+    "at": [
+     16.742,
+     -92.638
+    ],
+    "wiki": "Church of Santo Domingo (San Cristóbal de las Casas)",
+    "area": "Centro",
+    "summary": "Baroque church with a carved pink facade, ringed by a textile market.",
+    "expect": "Free.",
+    "tip": "Browse the textile stalls.",
+    "why": "Colonial Baroque.",
+    "flow": [
+     "Church.",
+     "Market."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Shopping",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Na Bolom",
+    "kind": "see",
+    "id": "sc-nabolom",
+    "at": [
+     16.744,
+     -92.631
+    ],
+    "wiki": "Na Bolom",
+    "area": "Centro",
+    "summary": "House-museum of the Lacandon Maya and those who studied them.",
+    "expect": "Small fee.",
+    "tip": "Take the guided tour.",
+    "why": "Maya culture.",
+    "flow": [
+     "House.",
+     "Garden."
+    ],
+    "hours": 1.5,
+    "price": [
+     60,
+     80
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Cerro de Guadalupe",
+    "kind": "see",
+    "id": "sc-guadalupe",
+    "at": [
+     16.738,
+     -92.629
+    ],
+    "wiki": "San Cristóbal de las Casas",
+    "area": "Centro",
+    "summary": "Church on a hill with a town view.",
+    "expect": "Steps.",
+    "tip": "Sunset.",
+    "why": "Town view.",
+    "flow": [
+     "Steps.",
+     "View."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Palenque",
+    "kind": "see",
+    "id": "sc-palenque",
+    "at": [
+     17.484,
+     -92.046
+    ],
+    "wiki": "Palenque",
+    "area": "Palenque",
+    "summary": "Jungle Maya city with temples and the Temple of the Inscriptions.",
+    "expect": "5 hours away; stay overnight.",
+    "tip": "Combine with Agua Azul waterfalls.",
+    "why": "Maya masterpiece.",
+    "flow": [
+     "Temples.",
+     "Museum."
+    ],
+    "hours": 6,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Full day",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Tamales chiapanecos",
+    "kind": "eat",
+    "id": "sc-tamales",
+    "at": [
+     16.737,
+     -92.638
+    ],
+    "wiki": "Tamale",
+    "area": "Centro",
+    "summary": "Tamales in banana leaves with mole or chipilín.",
+    "expect": "Markets and cafés.",
+    "tip": "Try tamal de chipilín.",
+    "why": "Chiapas taste.",
+    "flow": [
+     "Market.",
+     "Tamales."
+    ],
+    "hours": 0.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Breakfast",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Tamal de chipilín"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Chiapas coffee",
+    "kind": "eat",
+    "id": "sc-coffee",
+    "at": [
+     16.7365,
+     -92.6375
+    ],
+    "wiki": "Coffee production in Mexico",
+    "area": "Centro",
+    "summary": "Highland coffee in cafés everywhere.",
+    "expect": "Many cafés.",
+    "tip": "Buy beans to take home.",
+    "why": "Coffee country.",
+    "flow": [
+     "Café.",
+     "Coffee."
+    ],
+    "hours": 0.5,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Coffee",
+    "order": [
+     "Chiapas coffee"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Mercado Municipal",
+    "kind": "eat",
+    "id": "sc-mercado",
+    "at": [
+     16.743,
+     -92.637
+    ],
+    "wiki": "San Cristóbal de las Casas",
+    "area": "Mercado",
+    "summary": "Big local market with food stalls.",
+    "expect": "Busy mornings.",
+    "tip": "Eat at a comedor.",
+    "why": "Local life.",
+    "flow": [
+     "Market.",
+     "Comedor."
+    ],
+    "hours": 1,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Sopa de pan"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Guatemala",
+  "region": "North America",
+  "currency": "GTQ",
+  "cashTip": "Carry quetzales for boats and markets; cards work in some hotels. Tip about 10 percent.",
+  "id": "lake-atitlan",
+  "name": "Lake Atitlán",
+  "at": [
+   14.74,
+   -91.16
+  ],
+  "wiki": "Lake Atitlán",
+  "cover": "Lake Atitlán",
+  "dailyBudget": [
+   300,
+   800
+  ],
+  "cashPerDay": [
+   150,
+   400
+  ],
+  "seasons": "HHHHSLLHLSHH",
+  "tagline": "A volcano-ringed lake of Maya villages",
+  "summary": "Lake Atitlán is a deep blue lake surrounded by three volcanoes and Maya villages, each with its own character. Ride boats between villages: Panajachel, San Juan La Laguna for weaving co-ops, San Marcos for yoga, Santiago for the folk saint Maximón. Hike Indian Nose at sunrise and shop at the Chichicastenango market.",
+  "days": 4,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Dry November to April; afternoon winds make boats choppy.",
+  "arrival": "About 3 hours by shuttle from Antigua.",
+  "gettingAround": "Public boats (lanchas) between villages; tuk-tuks in villages.",
+  "foodTip": "Pepián stew, lake fish and Guatemalan coffee.",
+  "buyTip": "Handwoven textiles from village cooperatives.",
+  "baseArea": "Panajachel, San Juan or San Marcos",
+  "hotel": [
+   25,
+   200
+  ],
+  "connections": [
+   {
+    "to": "antigua-guatemala",
+    "mode": "Bus",
+    "minutes": 180,
+    "note": "Shuttles."
+   }
+  ],
+  "items": [
+   {
+    "name": "Indian Nose sunrise",
+    "kind": "see",
+    "id": "ati-nose",
+    "at": [
+     14.723,
+     -91.264
+    ],
+    "wiki": "Lake Atitlán",
+    "area": "San Juan",
+    "summary": "Hike to a ridge for sunrise over the lake and volcanoes.",
+    "expect": "Go with a local guide; small fee.",
+    "tip": "Start at 4 am.",
+    "why": "Best view.",
+    "flow": [
+     "Climb.",
+     "Sunrise."
+    ],
+    "hours": 3,
+    "price": [
+     50,
+     150
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "San Juan La Laguna",
+    "kind": "see",
+    "id": "ati-sanjuan",
+    "at": [
+     14.695,
+     -91.286
+    ],
+    "wiki": "San Juan La Laguna",
+    "area": "San Juan",
+    "summary": "Village of murals and women's weaving cooperatives using natural dyes.",
+    "expect": "Free.",
+    "tip": "Watch a natural-dye demonstration.",
+    "why": "Craft village.",
+    "flow": [
+     "Murals.",
+     "Weaving co-op."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     30
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Art",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Santiago Atitlán",
+    "kind": "see",
+    "id": "ati-santiago",
+    "at": [
+     14.638,
+     -91.23
+    ],
+    "wiki": "Santiago Atitlán",
+    "area": "Santiago",
+    "summary": "Tz'utujil town where the folk saint Maximón is honoured.",
+    "expect": "Small donation to see Maximón.",
+    "tip": "Ask a local to take you.",
+    "why": "Living tradition.",
+    "flow": [
+     "Church.",
+     "Maximón."
+    ],
+    "hours": 2.5,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Spiritual",
+     "History"
+    ]
+   },
+   {
+    "name": "Panajachel",
+    "kind": "see",
+    "id": "ati-pana",
+    "at": [
+     14.74,
+     -91.16
+    ],
+    "wiki": "Panajachel",
+    "area": "Panajachel",
+    "summary": "Main lake town with shops and boat dock.",
+    "expect": "Busy.",
+    "tip": "Sunset on the dock.",
+    "why": "Gateway town.",
+    "flow": [
+     "Calle Santander.",
+     "Dock."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Chichicastenango market",
+    "kind": "see",
+    "id": "ati-chichi",
+    "at": [
+     14.943,
+     -91.111
+    ],
+    "wiki": "Chichicastenango",
+    "area": "Chichicastenango",
+    "summary": "Huge Maya market on Thursdays and Sundays with incense-filled church steps.",
+    "expect": "1.5 hours away.",
+    "tip": "Go on Sunday morning.",
+    "why": "Famous market.",
+    "flow": [
+     "Market.",
+     "Santo Tomás church."
+    ],
+    "hours": 5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Shopping",
+     "Spiritual"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Kayak on the lake",
+    "kind": "see",
+    "id": "ati-kayak",
+    "at": [
+     14.695,
+     -91.27
+    ],
+    "wiki": "Lake Atitlán",
+    "area": "Lake",
+    "summary": "Paddle calm morning water.",
+    "expect": "Mornings; winds after noon.",
+    "tip": "Rent in San Marcos or San Pedro.",
+    "why": "Lake calm.",
+    "flow": [
+     "Rent.",
+     "Paddle."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Pepián",
+    "kind": "eat",
+    "id": "ati-pepian",
+    "at": [
+     14.74,
+     -91.16
+    ],
+    "wiki": "Pepián",
+    "area": "Panajachel",
+    "summary": "Spiced stew of roasted seeds and chillies with chicken.",
+    "expect": "Comedores.",
+    "tip": "Try it with tortillas.",
+    "why": "National dish.",
+    "flow": [
+     "Comedor.",
+     "Pepián."
+    ],
+    "hours": 1,
+    "price": [
+     40,
+     70
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Guatemalan",
+    "order": [
+     "Pepián"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Lake coffee farms",
+    "kind": "eat",
+    "id": "ati-coffee",
+    "at": [
+     14.7,
+     -91.27
+    ],
+    "wiki": "Coffee production in Guatemala",
+    "area": "San Juan",
+    "summary": "Coffee co-op tours and tastings.",
+    "expect": "Tours.",
+    "tip": "Buy beans from the co-op.",
+    "why": "Volcano coffee.",
+    "flow": [
+     "Tour.",
+     "Tasting."
+    ],
+    "hours": 1.5,
+    "price": [
+     50,
+     100
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Coffee",
+    "order": [
+     "Atitlán coffee"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Street food",
+    "kind": "eat",
+    "id": "ati-street",
+    "at": [
+     14.741,
+     -91.161
+    ],
+    "wiki": "Guatemalan cuisine",
+    "area": "Panajachel",
+    "summary": "Tostadas, chuchitos and fried plantains from stalls.",
+    "expect": "Evenings.",
+    "tip": "Try a chuchito.",
+    "why": "Cheap eats.",
+    "flow": [
+     "Stall.",
+     "Snacks."
+    ],
+    "hours": 0.5,
+    "price": [
+     10,
+     30
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Guatemalan",
+    "order": [
+     "Chuchito",
+     "Tostadas"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]
