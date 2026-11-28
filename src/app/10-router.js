@@ -1,4 +1,5 @@
-let routePath = '';
+let routePath = '',
+  prevRoutePath = null;
 // Where the city tabs sit in the page when not stuck (their sticky offset taken off), and the
 // current scroll. Used to keep your place when the tab changes.
 function cityTabsSpot() {
@@ -9,7 +10,39 @@ function cityTabsSpot() {
     stick = (parseFloat(css.top) || 0) - (parseFloat(css.marginTop) || 0);
   return { y: window.scrollY, top: before.getBoundingClientRect().bottom + window.scrollY - stick };
 }
+// Each page remembers how far down you were and where its sideways rows were scrolled.
+// Coming back by a tab puts you where you left off; tapping the tab you are on goes to the top.
+const scrollMemo = {};
+let tabJump = false;
+document.addEventListener(
+  'click',
+  (e) => {
+    const a = e.target.closest?.('.nav a[data-nav]');
+    if (!a) return;
+    const here = location.hash.replace(/^#\/?/, ''),
+      there = a.getAttribute('href').replace(/^#\/?/, '');
+    if (here === there) {
+      e.preventDefault();
+      const smooth = !matchMedia('(prefers-reduced-motion: reduce)').matches;
+      window.scrollTo({ top: 0, behavior: smooth ? 'smooth' : 'instant' });
+    } else tabJump = true;
+  },
+  true,
+);
+function rememberScroll() {
+  if (!$('#app')?.children.length) return;
+  scrollMemo[routePath] = { y: window.scrollY, rows: $$('#app .hrow').map((r) => r.scrollLeft) };
+}
+function restoreScroll(path, jump) {
+  const m = scrollMemo[path];
+  if (!m) return;
+  $$('#app .hrow').forEach((r, i) => m.rows[i] && (r.scrollLeft = m.rows[i]));
+  if (jump) window.scrollTo({ top: m.y, behavior: 'instant' });
+}
 function route() {
+  const jump = tabJump;
+  tabJump = false;
+  rememberScroll();
   closeModal();
   storyLeave();
   socLeave();
@@ -38,7 +71,10 @@ function route() {
     params = new URLSearchParams(query || '');
   // Switching Sights, Food or Shopping on the same city keeps your place: the page stays where
   // it was, or, if you had scrolled into the list, the new list starts just under the tabs.
-  const keep = parts[0] === 'city' && routePath === path ? cityTabsSpot() : null;
+  const keep = parts[0] === 'city' && routePath === path ? cityTabsSpot() : null,
+    // Going back to the page you just came from (Back, or its own back link) also keeps your place.
+    back = path !== routePath && path === prevRoutePath;
+  if (path !== routePath) prevRoutePath = routePath;
   routePath = path;
   if (!keep) window.scrollTo(0, 0);
   if (parts[0] === 'city') {
@@ -71,4 +107,5 @@ function route() {
   else if (parts[0] === 'people') renderProfile(parts[1] || '');
   else if (parts[0] === 'account') renderAccount();
   else renderExplore();
+  if (!keep) restoreScroll(path, jump || back);
 }

@@ -1106,3 +1106,36 @@ test('the world map list folds a country away, and switching city tabs keeps you
   assert.deepEqual(page.errors, []);
   await page.context().close();
 });
+
+test('home stays light and keeps your place: capped rows, tabs and Back return where you were', async () => {
+  const page = await openApp(browser, origin);
+  await page.waitForTimeout(300);
+  // Rows stop at a dozen cards and end on a See all card, so the home page stays small.
+  assert.ok((await page.locator('.home .citycard').count()) < 120, 'home draws too many cards');
+  assert.ok((await page.locator('.seeall-card').count()) > 0);
+  await page.evaluate(() => {
+    document.querySelectorAll('.hrow')[1].scrollLeft = 300;
+    scrollTo(0, 1500);
+  });
+  await page.locator('.nav a[data-nav="saved"]').click();
+  await page.waitForTimeout(300);
+  await page.locator('.nav a[data-nav="explore"]').click();
+  await page.waitForTimeout(400);
+  const y = await page.evaluate(() => scrollY);
+  assert.ok(Math.abs(y - 1500) < 60, `came back at ${y}, not near 1500`);
+  assert.ok((await page.evaluate(() => document.querySelectorAll('.hrow')[1].scrollLeft)) > 200);
+  // Tapping the tab you are on goes to the top.
+  await page.locator('.nav a[data-nav="explore"]').click();
+  await page.waitForFunction(() => scrollY === 0);
+  // See all opens the region's grid, which draws more cards as you scroll.
+  await page.locator('.seeall-card').first().click();
+  const first = await page.locator('.citygrid .citycard').count();
+  assert.ok(first <= 48, `grid drew ${first} cards at once`);
+  await page.evaluate(() => scrollTo(0, document.documentElement.scrollHeight));
+  await page.waitForFunction(
+    (n) => document.querySelectorAll('.citygrid .citycard').length > n,
+    first,
+  );
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
