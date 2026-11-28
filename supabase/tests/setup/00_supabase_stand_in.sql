@@ -7,6 +7,8 @@
 create role anon nologin;
 create role authenticated nologin;
 create role service_role nologin bypassrls;
+-- The role Supabase's sign-in service uses to run hooks such as "before user created".
+create role supabase_auth_admin nologin;
 
 create schema auth;
 create schema storage;
@@ -15,7 +17,10 @@ grant usage on schema public, auth, storage to anon, authenticated, service_role
 create table auth.users (
   id uuid primary key default gen_random_uuid(),
   email text unique,
-  raw_user_meta_data jsonb not null default '{}'
+  email_confirmed_at timestamptz,
+  encrypted_password varchar(255),
+  raw_user_meta_data jsonb not null default '{}',
+  created_at timestamptz not null default now()
 );
 
 -- Same logic as Supabase: the signed-in account comes from the request's token.
