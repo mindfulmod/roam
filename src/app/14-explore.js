@@ -146,10 +146,38 @@ function cityGlance(c) {
     ).join('');
   return `<section class="cityglance"><div class="glance"><div class="g-tile"><label>Days needed</label><div class="daydots">${dots}</div><strong>${c.days} days</strong></div>${f ? `<div class="g-tile"><label>From ${esc(o.name)}</label><div class="g-bar"><i style="width:${f.ground ? 6 : Math.min(100, Math.round((f.h / 24) * 100))}%"></i></div><strong>${f.label}${f.ground ? '' : f.hop ? ' with a connection' : ' in the air'}</strong></div>` : ''}<div class="g-tile"><label>Each day, per person</label><strong class="g-cost">${range(c.dailyBudget, c.currency)}</strong><small>food, transport and sights</small></div></div>${yearStrip(c)}</section>`;
 }
+// Rows stop after a dozen cards and end on a "See all" card: rendering every city on the
+// home page made it thousands of elements long and stuttered when scrolled on phones.
+const ROW_MAX = 12,
+  GRID_STEP = 24;
+let gridShown = GRID_STEP;
 function cityRow(title, list, region = '') {
-  return `<section class="cityrow"><div class="rowhead"><h2>${title}</h2>${region ? `<button class="inline-link" data-action="region" data-id="${region}">See all ${list.length} ${icon('arrow')}</button>` : ''}</div><div class="hrow">${list.map(cityCard).join('')}</div></section>`;
+  const more = region && list.length > ROW_MAX;
+  return `<section class="cityrow"><div class="rowhead"><h2>${title}</h2>${region ? `<button class="inline-link" data-action="region" data-id="${region}" data-jump>See all ${list.length} ${icon('arrow')}</button>` : ''}</div><div class="hrow">${list
+    .slice(0, region ? ROW_MAX : 20)
+    .map(cityCard)
+    .join(
+      '',
+    )}${more ? `<button class="seeall-card" data-action="region" data-id="${region}" data-jump><strong>${list.length - ROW_MAX} more</strong><span>See all of ${esc(region)} ${icon('arrow')}</span></button>` : ''}</div></section>`;
+}
+// The full grid draws a page of cards at a time and adds the next page as you near the end.
+let gridWatch = null;
+function moreGrid() {
+  const el = $('#browse-results .citygrid'),
+    list = el?._list;
+  if (!list) return;
+  const next = list.slice(gridShown, gridShown + GRID_STEP);
+  gridShown += next.length;
+  el.insertAdjacentHTML('beforeend', next.map(cityCard).join(''));
+  const btn = $('#grid-more');
+  if (btn && gridShown >= list.length) {
+    gridWatch?.disconnect();
+    btn.hidden = true;
+  } else if (btn) btn.textContent = `Show ${list.length - gridShown} more`;
 }
 function renderBrowse() {
+  gridShown = GRID_STEP;
+  gridWatch?.disconnect();
   const q = browseQuery.toLowerCase().trim();
   const list = browseOrder(
     CITIES.filter(
@@ -199,5 +227,13 @@ function renderBrowse() {
   }
   const m = budgetMonth();
   if (m) list.sort((a, b) => bestIn(b, m) - bestIn(a, m));
-  el.innerHTML = `<p class="muted result-count">${list.length} destination${list.length > 1 ? 's' : ''}${m ? ` · ${list.filter((c) => bestIn(c, m)).length} at their best in ${MONTHS_LONG[m - 1]}` : ''}${browseRegion !== 'All' ? ' in ' + esc(browseRegion) + ` · <button class="inline-link" data-action="region" data-id="All">Show everywhere</button>` : ''}</p><div class="citygrid">${list.map(cityCard).join('')}</div>`;
+  el.innerHTML = `<p class="muted result-count">${list.length} destination${list.length > 1 ? 's' : ''}${m ? ` · ${list.filter((c) => bestIn(c, m)).length} at their best in ${MONTHS_LONG[m - 1]}` : ''}${browseRegion !== 'All' ? ' in ' + esc(browseRegion) + ` · <button class="inline-link" data-action="region" data-id="All">Show everywhere</button>` : ''}</p><div class="citygrid">${list.slice(0, gridShown).map(cityCard).join('')}</div>${list.length > gridShown ? `<button class="btn light grid-more" id="grid-more" data-action="grid-more">Show ${list.length - gridShown} more</button>` : ''}`;
+  $('#browse-results .citygrid')._list = list;
+  const btn = $('#grid-more');
+  if (btn && 'IntersectionObserver' in window) {
+    gridWatch = new IntersectionObserver((es) => es.some((x) => x.isIntersecting) && moreGrid(), {
+      rootMargin: '600px 0px',
+    });
+    gridWatch.observe(btn);
+  }
 }

@@ -28,11 +28,15 @@ function renderMap(id = '') {
   }).setView([21, 40], 2);
   map.createPane('offline-outline');
   map.getPane('offline-outline').style.zIndex = '150';
+  // The outline and the city dots are drawn on canvas rather than as hundreds of separate page
+  // elements, so panning and pinching the world map stays smooth on phones.
   L.geoJSON(DATA.world, {
     pane: 'offline-outline',
+    renderer: L.canvas({ pane: 'offline-outline', padding: 0.5 }),
     style: outlineStyle(),
     interactive: false,
   }).addTo(map);
+  dotRenderer = L.canvas({ padding: 0.5, tolerance: isMobile() ? 10 : 4 });
   map.attributionControl.addAttribution(
     'Offline outline: <a href="https://www.naturalearthdata.com/">Natural Earth</a>',
   );
@@ -146,18 +150,23 @@ function renderMapPins(fit = false) {
   if (!map) return;
   markerLayer.clearLayers();
   mapMarkers = {};
+  dotInk = null;
   const items = mapItems(),
     isCity = !mapUsesPlaces();
-  items.forEach((p, i) => {
-    const m = L.marker([p.lat, p.lon], {
-      title: p.name,
-      icon: L.divIcon({
-        className: '',
-        html: `<div class="map-pin ${isCity ? 'city' : p.kind} ${saved(p.id) ? 'selected' : ''}">${isCity ? '' : popularityRank(p) || '•'}</div>`,
-        iconSize: isCity ? [13, 13] : [32, 32],
-        iconAnchor: isCity ? [6, 6] : [16, 16],
-      }),
-    });
+  // Numbered pins only while there are few enough to read; the world view and big searches get dots.
+  const dots = isCity || items.length > DOT_OVER;
+  items.forEach((p) => {
+    const m = dots
+      ? L.circleMarker([p.lat, p.lon], { renderer: dotRenderer, ...dotStyle(p, isCity) })
+      : L.marker([p.lat, p.lon], {
+          title: p.name,
+          icon: L.divIcon({
+            className: '',
+            html: `<div class="map-pin ${p.kind} ${saved(p.id) ? 'selected' : ''}">${popularityRank(p) || '•'}</div>`,
+            iconSize: [32, 32],
+            iconAnchor: [16, 16],
+          }),
+        });
     if (isMobile())
       m.on('click', (e) => {
         L.DomEvent.stopPropagation(e);
@@ -165,7 +174,7 @@ function renderMapPins(fit = false) {
       });
     else m.bindPopup(popupHtml(p, isCity));
     m.addTo(markerLayer);
-    if (isCity && !isMobile()) m.bindTooltip(p.name, { direction: 'top', offset: [0, -5] });
+    if (dots && !isMobile()) m.bindTooltip(p.name, { direction: 'top', offset: [0, -5] });
     mapMarkers[p.id] = m;
   });
   const row = (p) =>
@@ -178,7 +187,14 @@ function renderMapPins(fit = false) {
       if (groups.at(-1)?.country !== p.country) groups.push({ country: p.country, list: [] });
       groups.at(-1).list.push(p);
     }
-  $('#map-list').innerHTML = items.length
+  // On phones the list sits in a closed sheet: it is drawn when the sheet opens, not on every
+  // filter change, which kept hundreds of hidden rows in the page behind the map.
+  mapListDraw = () => {
+    mapListDraw = null;
+    const el = $('#map-list');
+    if (el) el.innerHTML = listHtml();
+  };
+  const listHtml = () => items.length
     ? isCity
       ? `<p class="maplist-order">Most-visited countries first, then each country’s most popular places. <button class="inline-link" data-action="ranking-method">How this is ranked</button>${groups.length > 1 ? ` · <button class="inline-link" data-action="map-fold-all">${groups.every((g) => mapFolded.has(g.country)) ? 'Open all countries' : 'Fold all countries'}</button>` : ''}</p>` +
         groups
@@ -189,6 +205,8 @@ function renderMapPins(fit = false) {
           .join('')
       : items.map(row).join('')
     : '<p class="muted">No matching places. Try another filter.</p>';
+  if (!isMobile() || $('#map-sheet')?.classList.contains('open')) mapListDraw();
+  else $('#map-list').innerHTML = '';
   if ($('#map-count'))
     $('#map-count').textContent =
       `${items.length} ${isCity ? 'destinations' : items.length === 1 ? 'place' : 'places'}` +
@@ -222,7 +240,43 @@ function renderMapPins(fit = false) {
     }
   }
 }
+// City dots and big result sets are canvas circles: their look lives here, not in CSS.
+const DOT_OVER = 250;
+let dotRenderer = null;
+let dotInk = null;
+function dotStyle(p, isCity, focused = false) {
+  // Theme colours are read once per drawing, not once per dot.
+  const k = (dotInk ||= {
+      on: themeColor('--orange', '#e7764b'),
+      eat: themeColor('--k-d88647-s', '#d88647'),
+      shop: themeColor('--k-84719a-s', '#84719a'),
+      see: themeColor('--teal-fill', '#c8501f'),
+      edge: themeColor('--k-fff-b', '#ffffff'),
+      phone: isMobile(),
+    }),
+    on = focused || saved(p.id),
+    fill = on ? k.on : !isCity && (p.kind === 'eat' || p.kind === 'shop') ? k[p.kind] : k.see;
+  return {
+    radius: (focused ? 9 : k.phone ? 7 : 6) + (on && !focused ? 1 : 0),
+    color: k.edge,
+    weight: 2,
+    fillColor: fill,
+    fillOpacity: 1,
+  };
+}
+// Marks one pin as saved or focused, whether it is a numbered pin or a canvas dot.
+function markPin(id, cls, on) {
+  const m = mapMarkers[id];
+  if (!m) return;
+  if (m.setStyle) {
+    const p = P[id] || C[id];
+    m.setStyle(dotStyle(p, !P[id] || !mapUsesPlaces(), cls === 'focused' && on));
+    if (cls === 'focused' && on) m.bringToFront();
+  } else m.getElement()?.querySelector('.map-pin')?.classList.toggle(cls, on);
+}
+let mapListDraw = null;
 function setMapSheet(open) {
+  if (open) mapListDraw?.();
   $('#map-sheet')?.classList.toggle('open', open);
   $('#map-list')?.classList.toggle('visible', open);
   $('.sheet-handle')?.setAttribute('aria-expanded', String(open));
@@ -237,9 +291,10 @@ function showMapCard(id) {
   card.hidden = false;
   setMapSheet(false);
   $('.mapaside')?.classList.add('has-card');
-  $$('.map-pin.focused').forEach((x) => x.classList.remove('focused'));
+  unfocusPins();
   const marker = mapMarkers[id];
-  marker?.getElement()?.querySelector('.map-pin')?.classList.add('focused');
+  markPin(id, 'focused', true);
+  focusedPin = id;
   if (map && marker) {
     const pt = map.latLngToContainerPoint(marker.getLatLng()),
       size = map.getSize(),
@@ -254,7 +309,13 @@ function hideMapCard() {
   card.hidden = true;
   card.innerHTML = '';
   $('.mapaside')?.classList.remove('has-card');
+  unfocusPins();
+}
+let focusedPin = '';
+function unfocusPins() {
   $$('.map-pin.focused').forEach((x) => x.classList.remove('focused'));
+  if (focusedPin) markPin(focusedPin, 'focused', false);
+  focusedPin = '';
 }
 function setMapCity(id) {
   if (!validCity(id)) return;

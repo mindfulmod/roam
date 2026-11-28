@@ -9438,3 +9438,66 @@ img.photo {
   outline: 2px solid var(--teal);
   outline-offset: 2px;
 }
+
+/* ==========================================================================
+   Smooth scrolling on phones: rows end on a "See all" card, long grids draw a
+   page at a time, rows far below the screen skip layout and paint until near,
+   and the floating tab bar no longer blurs what scrolls under it (a blur is
+   redrawn on every frame of a scroll and was the main cause of stutter).
+   ========================================================================== */
+.seeall-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 6px;
+  aspect-ratio: 4 / 3.4;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: var(--paper, transparent);
+  color: var(--ink);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.seeall-card strong {
+  font-size: 20px;
+}
+.seeall-card span {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--teal);
+  font-weight: 600;
+  font-size: 14px;
+}
+.seeall-card .icon {
+  width: 16px;
+  height: 16px;
+}
+.grid-more {
+  display: flex;
+  margin: 22px auto 0;
+}
+#region-chips {
+  scroll-margin-top: calc(var(--topbar-h) + 12px);
+}
+.home .cityrow {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 420px;
+}
+@media (max-width: 760px) {
+  .nav {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+    background: var(--k-fbfcf8f5-s);
+    box-shadow: 0 6px 18px #1d1a1724;
+  }
+  .modal-main-actions,
+  .sheet-actions,
+  .modal.scrolled .modal-bar {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
