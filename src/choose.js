@@ -435,6 +435,8 @@ function plain(t) {
 function buildSearchIndex() {
   const out = [];
   for (const c of CITIES) {
+    // Equal matches (every city in a country, say) come in the guide's own order.
+    const r = cityRanking(c)?.rank ?? 1e4;
     out.push({
       kind: 'city',
       id: c.id,
@@ -442,6 +444,7 @@ function buildSearchIndex() {
       sub: `City in ${c.country}`,
       t: plain(c.name),
       w: 3,
+      r,
     });
     out.push({
       kind: 'city',
@@ -451,6 +454,7 @@ function buildSearchIndex() {
       t: plain(c.country),
       w: 2,
       alt: true,
+      r,
     });
     if (c.local)
       out.push({
@@ -535,7 +539,7 @@ function searchSuggest(query) {
     if (s) out.push({ ...e, s: s + e.w, fuzzy: s < 60 });
   }
   return out
-    .sort((a, b) => b.s - a.s || a.label.length - b.label.length)
+    .sort((a, b) => b.s - a.s || (a.r ?? 1e4) - (b.r ?? 1e4) || a.label.length - b.label.length)
     .filter((e) => {
       const k = e.kind + e.id + (e.dish ? e.label : '');
       if (seen.has(k)) return false;
