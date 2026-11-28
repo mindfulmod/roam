@@ -307,8 +307,8 @@
       "id": "maldives-mle-maafushi",
       "name": "Maafushi local island",
       "kind": "see",
-      "lat": 3.9425,
-      "lon": 73.49,
+      "lat": 3.94028,
+      "lon": 73.48889,
       "wiki": "Maafushi (Kaafu Atoll)",
       "summary": "A local island with guesthouses, cheap excursions and a bikini beach.",
       "expect": "No alcohol on local islands.",
@@ -348,7 +348,20 @@
         "No alcohol on local islands.",
         "Book excursions on the island."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10279,
+          "period": "202511-202610",
+          "title": "Maafushi (Kaafu Atoll)",
+          "url": "https://en.wikipedia.org/wiki/Maafushi_(Kaafu_Atoll)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1875719",
+      "local": {
+        "name": "މާފުށި",
+        "lang": "dv"
+      }
     },
     {
       "id": "maldives-mle-mashuni",
@@ -523,7 +536,7 @@
       }
     }
   ],
-  "enriched": "2026-11-21",
+  "enriched": "2026-11-28",
   "wikidata": "Q826",
   "local": {
     "name": "ދިވެހިރާއްޖެ",

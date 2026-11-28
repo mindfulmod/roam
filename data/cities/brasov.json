@@ -169,8 +169,8 @@
       "id": "brasov-bra-tampa",
       "name": "Tâmpa Mountain",
       "kind": "see",
-      "lat": 45.637,
-      "lon": 25.593,
+      "lat": 45.63417,
+      "lon": 25.59278,
       "wiki": "Tâmpa (Brașov)",
       "summary": "Cable car or forest trail up to the Brașov sign and views over the town.",
       "expect": "Cable car closed some Mondays.",
@@ -210,7 +210,16 @@
         "Cable car closed some Mondays.",
         "Walk up, ride down."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 5031,
+          "period": "202511-202610",
+          "title": "Tâmpa (Brașov)",
+          "url": "https://en.wikipedia.org/wiki/T%C3%A2mpa_(Bra%C8%99ov)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q691448"
     },
     {
       "id": "brasov-bra-rope",

@@ -65,8 +65,8 @@
       "id": "gdansk-gdn-longmarket",
       "name": "Long Market and Neptune's Fountain",
       "kind": "see",
-      "lat": 54.3485,
-      "lon": 18.6533,
+      "lat": 54.34855,
+      "lon": 18.65323,
       "wiki": "Neptune's Fountain, Gdańsk",
       "summary": "The grand Royal Way of gabled merchant houses.",
       "expect": "Free.",
@@ -107,7 +107,20 @@
         "Free.",
         "Climb the Town Hall tower."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 10533,
+          "period": "202511-202610",
+          "title": "Neptune's Fountain, Gdańsk",
+          "url": "https://en.wikipedia.org/wiki/Neptune's_Fountain%2C_Gda%C5%84sk",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q783294",
+      "local": {
+        "name": "Fontanna Neptuna w Gdańsku",
+        "lang": "pl"
+      }
     },
     {
       "id": "gdansk-gdn-wwii",
@@ -159,7 +172,7 @@
           "period": "202511-202610",
           "title": "Museum of the Second World War",
           "url": "https://en.wikipedia.org/wiki/Museum_of_the_Second_World_War",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q11129717",
@@ -218,7 +231,7 @@
           "period": "202511-202610",
           "title": "European Solidarity Centre",
           "url": "https://en.wikipedia.org/wiki/European_Solidarity_Centre",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q534403",
@@ -278,7 +291,7 @@
           "period": "202511-202610",
           "title": "Gdańsk Crane",
           "url": "https://en.wikipedia.org/wiki/Gda%C5%84sk_Crane",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q253930",
@@ -339,7 +352,7 @@
           "period": "202511-202610",
           "title": "Malbork Castle",
           "url": "https://en.wikipedia.org/wiki/Malbork_Castle",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q71279",
@@ -399,7 +412,7 @@
           "period": "202511-202610",
           "title": "Sopot",
           "url": "https://en.wikipedia.org/wiki/Sopot",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q92689"
@@ -576,6 +589,6 @@
       }
     }
   ],
-  "enriched": "2026-11-21",
+  "enriched": "2026-11-28",
   "wikidata": "Q1792"
 }

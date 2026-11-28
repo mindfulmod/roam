@@ -112,7 +112,7 @@
           "period": "202511-202610",
           "title": "Kuwohi",
           "url": "https://en.wikipedia.org/wiki/Kuwohi",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       }
     },
@@ -167,7 +167,7 @@
           "period": "202511-202610",
           "title": "Cades Cove",
           "url": "https://en.wikipedia.org/wiki/Cades_Cove",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q5016395"
@@ -176,8 +176,8 @@
       "id": "gatlinburg-gsm-laurel",
       "name": "Laurel Falls",
       "kind": "see",
-      "lat": 35.678,
-      "lon": -83.594,
+      "lat": 35.672,
+      "lon": -83.5805,
       "wiki": "Laurel Falls Trail",
       "summary": "Paved trail to a two-tier waterfall.",
       "expect": "Busy.",
@@ -216,14 +216,23 @@
         "Busy.",
         "Early start."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1933,
+          "period": "202511-202610",
+          "title": "Laurel Falls Trail",
+          "url": "https://en.wikipedia.org/wiki/Laurel_Falls_Trail",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6499787"
     },
     {
       "id": "gatlinburg-gsm-roaring",
       "name": "Roaring Fork Motor Nature Trail",
       "kind": "see",
-      "lat": 35.699,
-      "lon": -83.48,
+      "lat": 35.69833,
+      "lon": -83.46778,
       "wiki": "Roaring Fork (Great Smoky Mountains)",
       "summary": "One-way forest drive with streams and cabins.",
       "expect": "Seasonal.",
@@ -262,7 +271,16 @@
         "Seasonal.",
         "Stop at Place of a Thousand Drips."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 2385,
+          "period": "202511-202610",
+          "title": "Roaring Fork (Great Smoky Mountains)",
+          "url": "https://en.wikipedia.org/wiki/Roaring_Fork_(Great_Smoky_Mountains)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q7339861"
     },
     {
       "id": "gatlinburg-gsm-skybridge",
@@ -361,7 +379,7 @@
           "period": "202511-202610",
           "title": "Dollywood",
           "url": "https://en.wikipedia.org/wiki/Dollywood",
-          "checked": "2026-11-23"
+          "checked": "2026-11-28"
         }
       },
       "wikidata": "Q530744"
@@ -539,6 +557,6 @@
       }
     }
   ],
-  "enriched": "2026-11-21",
+  "enriched": "2026-11-28",
   "wikidata": "Q464004"
 }

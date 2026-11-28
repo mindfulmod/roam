@@ -77,8 +77,8 @@
       "id": "lake-garda-gar-sirmione",
       "name": "Sirmione and Scaliger Castle",
       "kind": "see",
-      "lat": 45.492,
-      "lon": 10.6083,
+      "lat": 45.49194,
+      "lon": 10.60833,
       "wiki": "Scaligero Castle (Sirmione)",
       "summary": "Moated 13th-century castle at the entrance to Sirmione's peninsula old town.",
       "expect": "Paid; very busy midday.",
@@ -118,14 +118,27 @@
         "Paid; very busy midday.",
         "Walk to the Grottoes of Catullus at the tip."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18050,
+          "period": "202511-202610",
+          "title": "Scaligero Castle (Sirmione)",
+          "url": "https://en.wikipedia.org/wiki/Scaligero_Castle_(Sirmione)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3662370",
+      "local": {
+        "name": "castello scaligero di Sirmione",
+        "lang": "it"
+      }
     },
     {
       "id": "lake-garda-gar-catullus",
       "name": "Grottoes of Catullus",
       "kind": "see",
-      "lat": 45.503,
-      "lon": 10.605,
+      "lat": 45.50167,
+      "lon": 10.60611,
       "wiki": "Grottoes of Catullus",
       "summary": "Ruins of a huge Roman villa on the peninsula tip above the lake.",
       "expect": "Paid; closed Mondays.",
@@ -165,7 +178,20 @@
         "Paid; closed Mondays.",
         "Look down at the Jamaica beach rocks."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11600,
+          "period": "202511-202610",
+          "title": "Grottoes of Catullus",
+          "url": "https://en.wikipedia.org/wiki/Grottoes_of_Catullus",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3777121",
+      "local": {
+        "name": "Grotte di Catullo",
+        "lang": "it"
+      }
     },
     {
       "id": "lake-garda-gar-baldo",
