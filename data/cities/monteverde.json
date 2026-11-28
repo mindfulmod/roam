@@ -1,0 +1,520 @@
+{
+  "id": "monteverde",
+  "name": "Monteverde",
+  "country": "Costa Rica",
+  "region": "North America",
+  "lat": 10.301,
+  "lon": -84.812,
+  "wiki": "Monteverde",
+  "tagline": "Cloud forest of hanging bridges and quetzals",
+  "summary": "Monteverde is a misty mountain region of cloud forest reserves founded by Quaker settlers. Walk the reserves looking for the resplendent quetzal, cross hanging bridges at canopy height, fly on some of the world's longest ziplines, join a night walk for tarantulas and sloths, and tour coffee and chocolate farms.",
+  "days": 3,
+  "bestMonths": [
+    1,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "Dry season December to April; quetzals easiest to see March to June.",
+  "arrival": "About 3.5 hours by road from San José or La Fortuna (jeep-boat-jeep from Arenal).",
+  "gettingAround": "Buses and taxis; tours include pickups.",
+  "cashTip": "Cards and US dollars widely accepted; colones for small places. Restaurants add 10 percent service.",
+  "dailyBudget": [
+    40000,
+    100000
+  ],
+  "currency": "CRC",
+  "cashPerDay": [
+    10000,
+    30000
+  ],
+  "foodTip": "Casado, gallo pinto, and Monteverde cheese.",
+  "buyTip": "Coffee and Monteverde cheese.",
+  "baseArea": "Santa Elena village",
+  "connections": [
+    {
+      "to": "la-fortuna",
+      "mode": "Car",
+      "minutes": 180,
+      "note": "Jeep-boat-jeep or road."
+    },
+    {
+      "to": "san-jose-cr",
+      "mode": "Bus",
+      "minutes": 240,
+      "note": "Daily buses."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Monteverde on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Monteverde",
+      "type": "reference",
+      "checked": "2026-11-28"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Monteverde%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-28"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Monteverde%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Monteverde Cloud Forest Reserve",
+  "added": "2026-11-28",
+  "items": [
+    {
+      "id": "monteverde-mon-reserve",
+      "name": "Monteverde Cloud Forest Reserve",
+      "kind": "see",
+      "lat": 10.302,
+      "lon": -84.793,
+      "wiki": "Monteverde Cloud Forest Reserve",
+      "summary": "Trails through mossy cloud forest with quetzals and hummingbirds.",
+      "expect": "Paid; limited numbers.",
+      "tip": "Go with a guide at opening.",
+      "area": "Reserve",
+      "duration": 3,
+      "price": [
+        15000,
+        25000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Early morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Monteverde%20Cloud%20Forest%20Reserve%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Monteverde%20Cloud%20Forest%20Reserve%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Monteverde%20Cloud%20Forest%20Reserve%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Trails through mossy cloud forest with quetzals and hummingbirds.",
+        "Famous cloud forest."
+      ],
+      "visitFlow": [
+        "Guided walk.",
+        "Continental Divide view."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Paid; limited numbers.",
+        "Go with a guide at opening."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "monteverde-mon-bridges",
+      "name": "Hanging bridges",
+      "kind": "see",
+      "lat": 10.33,
+      "lon": -84.8,
+      "wiki": "Selvatura Park",
+      "summary": "Suspension bridges through the canopy.",
+      "expect": "Paid.",
+      "tip": "Go in the morning for birds.",
+      "area": "Santa Elena",
+      "duration": 2.5,
+      "price": [
+        20000,
+        30000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Hanging%20bridges%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Hanging%20bridges%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Hanging%20bridges%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Suspension bridges through the canopy.",
+        "Canopy walk."
+      ],
+      "visitFlow": [
+        "Bridges.",
+        "Forest."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Paid.",
+        "Go in the morning for birds."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "monteverde-mon-zip",
+      "name": "Zipline",
+      "kind": "see",
+      "lat": 10.32,
+      "lon": -84.81,
+      "wiki": "Zip-line",
+      "summary": "Long ziplines over the forest, including a Superman cable.",
+      "expect": "Paid.",
+      "tip": "Book a morning slot.",
+      "area": "Santa Elena",
+      "duration": 3,
+      "price": [
+        30000,
+        45000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Zipline%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Zipline%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Zipline%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Long ziplines over the forest, including a Superman cable.",
+        "Adrenaline."
+      ],
+      "visitFlow": [
+        "Harness.",
+        "Lines."
+      ],
+      "bestFor": "Visitors interested in active exploration",
+      "tradeoffs": [
+        "Paid.",
+        "Book a morning slot."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "monteverde-mon-night",
+      "name": "Night walk",
+      "kind": "see",
+      "lat": 10.31,
+      "lon": -84.81,
+      "wiki": "Monteverde",
+      "summary": "Guided night walk for tarantulas, sloths and frogs.",
+      "expect": "Paid.",
+      "tip": "Bring a torch.",
+      "area": "Santa Elena",
+      "duration": 2,
+      "price": [
+        15000,
+        20000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Evening",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Night%20walk%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Night%20walk%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Night%20walk%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Guided night walk for tarantulas, sloths and frogs.",
+        "Night creatures."
+      ],
+      "visitFlow": [
+        "Walk.",
+        "Wildlife."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Paid.",
+        "Bring a torch."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "monteverde-mon-santaelena",
+      "name": "Santa Elena Reserve",
+      "kind": "see",
+      "lat": 10.348,
+      "lon": -84.794,
+      "wiki": "Santa Elena Cloud Forest Reserve",
+      "summary": "Quieter community reserve.",
+      "expect": "Paid.",
+      "tip": "Good for fewer crowds.",
+      "area": "Santa Elena",
+      "duration": 3,
+      "price": [
+        12000,
+        18000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Santa%20Elena%20Reserve%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Santa%20Elena%20Reserve%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Santa%20Elena%20Reserve%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature"
+      ],
+      "whyVisit": [
+        "Quieter community reserve.",
+        "Peaceful forest."
+      ],
+      "visitFlow": [
+        "Trails.",
+        "Viewpoint."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife",
+      "tradeoffs": [
+        "Paid.",
+        "Good for fewer crowds."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "monteverde-mon-coffee",
+      "name": "Coffee and chocolate tour",
+      "kind": "see",
+      "lat": 10.3,
+      "lon": -84.82,
+      "wiki": "Coffee production in Costa Rica",
+      "summary": "Farm tours of coffee, cacao and sugar cane.",
+      "expect": "Paid.",
+      "tip": "Choose a tour with tastings.",
+      "area": "Monteverde",
+      "duration": 2.5,
+      "price": [
+        25000,
+        35000
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Coffee%20and%20chocolate%20tour%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Coffee%20and%20chocolate%20tour%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Coffee%20and%20chocolate%20tour%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food",
+        "History"
+      ],
+      "whyVisit": [
+        "Farm tours of coffee, cacao and sugar cane.",
+        "Farm life."
+      ],
+      "visitFlow": [
+        "Farm.",
+        "Tasting."
+      ],
+      "bestFor": "Visitors interested in regional food and history and context",
+      "tradeoffs": [
+        "Paid.",
+        "Choose a tour with tastings."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "monteverde-mon-casado",
+      "name": "Casado",
+      "kind": "eat",
+      "lat": 10.315,
+      "lon": -84.825,
+      "wiki": "Casado",
+      "summary": "Rice, beans, salad, plantain and meat or fish.",
+      "expect": "Sodas.",
+      "tip": "Find a local soda.",
+      "area": "Santa Elena",
+      "duration": 1,
+      "price": [
+        4000,
+        7000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Lunch",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Casado%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Casado%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Casado%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Rice, beans, salad, plantain and meat or fish.",
+        "Costa Rican plate."
+      ],
+      "visitFlow": [
+        "Soda.",
+        "Casado."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Sodas.",
+        "Find a local soda."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Costa Rican",
+      "mustOrder": [
+        "Casado"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "monteverde-mon-gallo",
+      "name": "Gallo pinto breakfast",
+      "kind": "eat",
+      "lat": 10.315,
+      "lon": -84.824,
+      "wiki": "Gallo pinto",
+      "summary": "Rice and beans with eggs and natilla.",
+      "expect": "Breakfast.",
+      "tip": "Add Lizano sauce.",
+      "area": "Santa Elena",
+      "duration": 0.5,
+      "price": [
+        3000,
+        5000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Breakfast",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Gallo%20pinto%20breakfast%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Gallo%20pinto%20breakfast%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Gallo%20pinto%20breakfast%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Rice and beans with eggs and natilla.",
+        "Morning staple."
+      ],
+      "visitFlow": [
+        "Soda.",
+        "Gallo pinto."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Breakfast.",
+        "Add Lizano sauce."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Costa Rican",
+      "mustOrder": [
+        "Gallo pinto"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "monteverde-mon-cheese",
+      "name": "Monteverde cheese and ice cream",
+      "kind": "eat",
+      "lat": 10.305,
+      "lon": -84.815,
+      "wiki": "Monteverde",
+      "summary": "Cheese and ice cream from the Quaker-founded dairy.",
+      "expect": "Shop.",
+      "tip": "Try the ice cream.",
+      "area": "Monteverde",
+      "duration": 0.5,
+      "price": [
+        2000,
+        5000
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Monteverde%20cheese%20and%20ice%20cream%2C%20Monteverde",
+        "https://www.google.com/maps/search/?api=1&query=Monteverde%20cheese%20and%20ice%20cream%2C%20Monteverde"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Monteverde%20cheese%20and%20ice%20cream%2C%20Monteverde"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Cheese and ice cream from the Quaker-founded dairy.",
+        "Local dairy."
+      ],
+      "visitFlow": [
+        "Shop.",
+        "Taste."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Shop.",
+        "Try the ice cream."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Costa Rican",
+      "mustOrder": [
+        "Ice cream",
+        "Cheese"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
