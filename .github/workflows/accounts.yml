@@ -1,0 +1,59 @@
+name: Accounts
+
+# Sign-in, invites and the privacy rules, checked on a real Supabase running inside the job (the
+# same software as the live project) rather than on the stand-in the "privacy" check uses. Runs
+# when the database, the sign-in settings or the account code change.
+on:
+  pull_request:
+    paths:
+      - 'supabase/**'
+      - 'scripts/supabase/**'
+      - 'scripts/db-test.sh'
+      - 'tests/e2e/**'
+      - 'src/backend.js'
+      - 'src/account.js'
+      - '.github/workflows/accounts.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: accounts-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  supabase:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - uses: supabase/setup-cli@v3
+        with:
+          version: ^2
+      - run: supabase --version
+      - name: Start Supabase (this applies supabase/migrations)
+        run: supabase start -x studio,imgproxy,edge-runtime,logflare,vector,realtime,supavisor,postgres-meta
+      - name: Privacy tests on real Supabase
+        env:
+          PGHOST: 127.0.0.1
+          PGPORT: 54322
+          PGUSER: postgres
+          PGPASSWORD: postgres
+          PGDATABASE: postgres
+        run: ./scripts/db-test.sh --supabase
+      - name: Sign-in and invites, end to end
+        run: |
+          eval "$(supabase status -o env)"
+          export SUPABASE_URL="$API_URL"
+          export SUPABASE_KEY="${PUBLISHABLE_KEY:-$ANON_KEY}"
+          export MAIL_URL="${MAILPIT_URL:-${INBUCKET_URL:-http://127.0.0.1:54324}}"
+          export DB_URL
+          node --test tests/e2e/backend.e2e.mjs
+      - name: Sign-in service log, if something failed
+        if: failure()
+        run: docker logs "$(docker ps -qf name=supabase_auth)" 2>&1 | tail -150 || true

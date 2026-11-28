@@ -1,6 +1,7 @@
 -- Small helpers for the privacy tests. Loaded after the migrations, into the test database only.
 --
---   t.person('alex')            make an account, returns its id
+--   t.person('alex')            make a member's account, returns its id
+--   t.account('kim')            make a sign-in account that has not joined yet
 --   t.id('alex')                that account's id
 --   t.as('alex')                act as that signed-in account, through row level security
 --   t.as_signed_out()           act as a visitor with no account
@@ -20,10 +21,20 @@ create function t.id(p_name text) returns uuid language sql immutable as $$
   select md5('tandem-roads-test:' || p_name)::uuid;
 $$;
 
+-- A sign-in account only: it has confirmed its email but has not joined (no profile yet).
+create function t.account(p_name text) returns uuid language plpgsql as $$
+begin
+  insert into auth.users (id, email, email_confirmed_at)
+  values (t.id(p_name), p_name || '@example.test', now());
+  return t.id(p_name);
+end;
+$$;
+
+-- A member: a sign-in account that has joined, as if through an invite.
 create function t.person(p_name text) returns uuid language plpgsql as $$
 begin
-  insert into auth.users (id, email, raw_user_meta_data)
-  values (t.id(p_name), p_name || '@example.test', jsonb_build_object('display_name', initcap(p_name)));
+  perform t.account(p_name);
+  perform private.make_member(t.id(p_name), initcap(p_name), '18+');
   return t.id(p_name);
 end;
 $$;
