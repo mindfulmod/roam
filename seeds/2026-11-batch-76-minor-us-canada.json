@@ -1,0 +1,2505 @@
+[
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards work almost everywhere. Tip 18 to 20 percent at restaurants.",
+  "id": "sedona",
+  "name": "Sedona",
+  "at": [
+   34.8697,
+   -111.761
+  ],
+  "wiki": "Sedona, Arizona",
+  "cover": "Cathedral Rock Sedona",
+  "dailyBudget": [
+   150,
+   400
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "seasons": "SSPPPHHHPPPS",
+  "tagline": "Red rock towers, trails and desert sunsets",
+  "summary": "Sedona sits among towering red sandstone buttes in the Arizona desert. Hike to Cathedral Rock and Devil's Bridge, drive the red rock scenic byway, see the Chapel of the Holy Cross built into the cliffs, wade in Oak Creek Canyon and watch the rocks glow at sunset under some of the darkest night skies in the US.",
+  "days": 3,
+  "bestMonths": [
+   3,
+   4,
+   5,
+   9,
+   10,
+   11
+  ],
+  "seasonNote": "Spring and autumn are ideal; summer is hot with afternoon storms.",
+  "arrival": "About 2 hours by car from Phoenix airport, or 45 minutes from Flagstaff.",
+  "gettingAround": "A car is needed; a free trail shuttle runs to the busiest trailheads.",
+  "foodTip": "Southwestern food with green chile, prickly pear margaritas.",
+  "buyTip": "Native American jewellery and art at Tlaquepaque.",
+  "baseArea": "West Sedona or Uptown",
+  "hotel": [
+   150,
+   500
+  ],
+  "connections": [
+   {
+    "to": "flagstaff",
+    "mode": "Car",
+    "minutes": 45,
+    "note": "Through Oak Creek Canyon."
+   },
+   {
+    "to": "las-vegas",
+    "mode": "Car",
+    "minutes": 270,
+    "note": "Via Flagstaff."
+   }
+  ],
+  "items": [
+   {
+    "name": "Cathedral Rock",
+    "kind": "see",
+    "id": "sed-cathedral",
+    "at": [
+     34.825,
+     -111.788
+    ],
+    "wiki": "Cathedral Rock",
+    "area": "Red Rock",
+    "summary": "Steep scramble up to a saddle between towering red spires.",
+    "expect": "Short but steep; Red Rock Pass needed.",
+    "tip": "Go at sunrise; use the shuttle.",
+    "why": "Sedona icon.",
+    "flow": [
+     "Shuttle.",
+     "Scramble."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Sunrise",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Devil's Bridge",
+    "kind": "see",
+    "id": "sed-devils",
+    "at": [
+     34.903,
+     -111.814
+    ],
+    "wiki": "Devil's Bridge (Arizona)",
+    "area": "West Sedona",
+    "summary": "Hike to a natural sandstone arch you can stand on.",
+    "expect": "About 6 km return.",
+    "tip": "Start early to avoid the photo queue.",
+    "why": "Big arch.",
+    "flow": [
+     "Trailhead.",
+     "Hike."
+    ],
+    "hours": 2.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Chapel of the Holy Cross",
+    "kind": "see",
+    "id": "sed-chapel",
+    "at": [
+     34.832,
+     -111.767
+    ],
+    "wiki": "Chapel of the Holy Cross (Sedona, Arizona)",
+    "area": "South",
+    "summary": "Modern chapel built into the red rock with huge views.",
+    "expect": "Free.",
+    "tip": "Go late afternoon.",
+    "why": "Architecture in rock.",
+    "flow": [
+     "Drive.",
+     "Chapel."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Spiritual",
+     "Architecture",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Red Rock Scenic Byway",
+    "kind": "see",
+    "id": "sed-byway",
+    "at": [
+     34.79,
+     -111.77
+    ],
+    "wiki": "Arizona State Route 179",
+    "area": "South",
+    "summary": "Scenic drive past Bell Rock and Courthouse Butte.",
+    "expect": "Pull-outs along the way.",
+    "tip": "Walk the Bell Rock loop.",
+    "why": "Easy views.",
+    "flow": [
+     "Drive.",
+     "Short walk."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Oak Creek Canyon and Slide Rock",
+    "kind": "see",
+    "id": "sed-slide",
+    "at": [
+     34.944,
+     -111.753
+    ],
+    "wiki": "Slide Rock State Park",
+    "area": "Oak Creek",
+    "summary": "Natural water slide in a creek in a forested canyon.",
+    "expect": "Paid park; busy in summer.",
+    "tip": "Bring water shoes.",
+    "why": "Summer fun.",
+    "flow": [
+     "Drive.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     20,
+     30
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Airport Mesa sunset",
+    "kind": "see",
+    "id": "sed-airport",
+    "at": [
+     34.853,
+     -111.788
+    ],
+    "wiki": "Sedona, Arizona",
+    "area": "West Sedona",
+    "summary": "Classic overlook for sunset over the whole red rock bowl.",
+    "expect": "Small lot; arrive early.",
+    "tip": "Walk the short loop.",
+    "why": "Sunset spot.",
+    "flow": [
+     "Drive.",
+     "Sunset."
+    ],
+    "hours": 1,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Tlaquepaque Arts Village",
+    "kind": "see",
+    "id": "sed-tlaq",
+    "at": [
+     34.864,
+     -111.762
+    ],
+    "wiki": "Tlaquepaque Arts and Shopping Village",
+    "area": "Uptown",
+    "summary": "Galleries and shops in a Mexican-style village.",
+    "expect": "Free.",
+    "tip": "Browse in the evening.",
+    "why": "Art shopping.",
+    "flow": [
+     "Walk.",
+     "Galleries."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Evening",
+    "p": 2,
+    "types": [
+     "Shopping",
+     "Art"
+    ]
+   },
+   {
+    "name": "Stargazing tour",
+    "kind": "see",
+    "id": "sed-stars",
+    "at": [
+     34.87,
+     -111.76
+    ],
+    "wiki": "Sedona, Arizona",
+    "area": "Outskirts",
+    "summary": "Sedona is an International Dark Sky Community.",
+    "expect": "Telescope tours nightly.",
+    "tip": "Check the moon phase.",
+    "why": "Dark skies.",
+    "flow": [
+     "Tour.",
+     "Stars."
+    ],
+    "hours": 2,
+    "price": [
+     80,
+     100
+    ],
+    "best": "Night",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Southwestern food",
+    "kind": "eat",
+    "id": "sed-sw",
+    "at": [
+     34.87,
+     -111.762
+    ],
+    "wiki": "New Mexican cuisine",
+    "area": "Uptown",
+    "summary": "Green chile, blue corn enchiladas and prickly pear margaritas.",
+    "expect": "Many places.",
+    "tip": "Try prickly pear anything.",
+    "why": "Local flavour.",
+    "flow": [
+     "Restaurant.",
+     "Southwestern."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     60
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Southwestern",
+    "order": [
+     "Green chile enchiladas",
+     "Prickly pear margarita"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Breakfast with a red rock view",
+    "kind": "eat",
+    "id": "sed-breakfast",
+    "at": [
+     34.8717,
+     -111.763
+    ],
+    "wiki": "Sedona, Arizona",
+    "area": "West Sedona",
+    "summary": "Diners and cafés with huevos rancheros and big views.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     30
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Huevos rancheros",
+     "Pancakes"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Pizza and craft beer",
+    "kind": "eat",
+    "id": "sed-pizza",
+    "at": [
+     34.8667,
+     -111.759
+    ],
+    "wiki": "Sedona, Arizona",
+    "area": "Uptown",
+    "summary": "Wood-fired pizza and Arizona craft beer after a hike.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Wood-fired pizza",
+     "Craft beer"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards work almost everywhere. Tip 18 to 20 percent at restaurants.",
+  "id": "lake-tahoe",
+  "name": "Lake Tahoe",
+  "at": [
+   38.9399,
+   -119.9772
+  ],
+  "wiki": "Lake Tahoe",
+  "cover": "Emerald Bay Lake Tahoe",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "seasons": "PPPSSHPPHSSP",
+  "tagline": "Alpine lake for summer beaches and winter skiing",
+  "summary": "Lake Tahoe is a huge, startlingly clear alpine lake on the California–Nevada border. In summer paddle and swim from sandy coves, hike to Emerald Bay and Vikingsholm, cycle the east shore trail and ride the Heavenly gondola; in winter ski Palisades, Heavenly and Northstar.",
+  "days": 3,
+  "bestMonths": [
+   1,
+   2,
+   3,
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Ski season December to April; summer for the lake; autumn is quiet and golden.",
+  "arrival": "About 1 hour from Reno airport, or 3.5 hours from San Francisco.",
+  "gettingAround": "A car is needed; chains in winter.",
+  "foodTip": "Lakeside grills and brewpubs.",
+  "buyTip": "Outdoor gear.",
+  "baseArea": "South Lake Tahoe or Tahoe City",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "san-francisco",
+    "mode": "Car",
+    "minutes": 210,
+    "note": "I-80 or US-50."
+   }
+  ],
+  "items": [
+   {
+    "name": "Emerald Bay and Vikingsholm",
+    "kind": "see",
+    "id": "tah-emerald",
+    "at": [
+     38.954,
+     -120.11
+    ],
+    "wiki": "Emerald Bay State Park",
+    "area": "West Shore",
+    "summary": "Turquoise bay with an island teahouse and a Scandinavian mansion below.",
+    "expect": "Steep 1.6 km walk down.",
+    "tip": "Go early for parking.",
+    "why": "Tahoe's best view.",
+    "flow": [
+     "Lookout.",
+     "Walk down."
+    ],
+    "hours": 2.5,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint",
+     "History"
+    ]
+   },
+   {
+    "name": "Sand Harbor",
+    "kind": "see",
+    "id": "tah-sand",
+    "at": [
+     39.198,
+     -119.93
+    ],
+    "wiki": "Lake Tahoe – Nevada State Park",
+    "area": "East Shore",
+    "summary": "Boulders and clear water in shallow coves.",
+    "expect": "Fills by mid-morning in summer.",
+    "tip": "Kayak or swim.",
+    "why": "Clear water.",
+    "flow": [
+     "Beach.",
+     "Swim."
+    ],
+    "hours": 3,
+    "price": [
+     10,
+     15
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "East Shore Trail",
+    "kind": "see",
+    "id": "tah-trail",
+    "at": [
+     39.23,
+     -119.93
+    ],
+    "wiki": "Lake Tahoe",
+    "area": "East Shore",
+    "summary": "Paved path above the lake from Incline Village toward Sand Harbor.",
+    "expect": "Bike or walk.",
+    "tip": "Rent a bike in Incline.",
+    "why": "Easy views.",
+    "flow": [
+     "Bike.",
+     "Coves."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     40
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Heavenly Gondola",
+    "kind": "see",
+    "id": "tah-gondola",
+    "at": [
+     38.955,
+     -119.94
+    ],
+    "wiki": "Heavenly Mountain Resort",
+    "area": "South Lake Tahoe",
+    "summary": "Gondola with views over the whole lake.",
+    "expect": "Paid; also the ski area in winter.",
+    "tip": "Clear days.",
+    "why": "Big view.",
+    "flow": [
+     "Ride.",
+     "View."
+    ],
+    "hours": 2,
+    "price": [
+     60,
+     90
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Viewpoint",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Skiing at Palisades Tahoe",
+    "kind": "see",
+    "id": "tah-ski",
+    "at": [
+     39.197,
+     -120.235
+    ],
+    "wiki": "Palisades Tahoe",
+    "area": "North Lake Tahoe",
+    "summary": "Former Olympic resort with big terrain.",
+    "expect": "Winter.",
+    "tip": "Buy lift tickets online.",
+    "why": "Winter sport.",
+    "flow": [
+     "Lift.",
+     "Ski."
+    ],
+    "hours": 6,
+    "price": [
+     150,
+     250
+    ],
+    "best": "Day",
+    "p": 1,
+    "types": [
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Paddle at sunrise",
+    "kind": "see",
+    "id": "tah-paddle",
+    "at": [
+     38.94,
+     -119.98
+    ],
+    "wiki": "Lake Tahoe",
+    "area": "South Shore",
+    "summary": "Kayak or paddleboard on glassy water.",
+    "expect": "Rentals at beaches.",
+    "tip": "Mornings are calmest.",
+    "why": "Calm lake.",
+    "flow": [
+     "Rent.",
+     "Paddle."
+    ],
+    "hours": 2,
+    "price": [
+     30,
+     60
+    ],
+    "best": "Sunrise",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Lakeside dinner",
+    "kind": "eat",
+    "id": "tah-dinner",
+    "at": [
+     38.945,
+     -119.97
+    ],
+    "wiki": "Lake Tahoe",
+    "area": "South Lake Tahoe",
+    "summary": "Grills and brewpubs with lake views.",
+    "expect": "Book in summer.",
+    "tip": "Sunset table.",
+    "why": "Lake views.",
+    "flow": [
+     "Restaurant.",
+     "Dinner."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     70
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Burgers",
+     "Trout"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Brewpub",
+    "kind": "eat",
+    "id": "tah-brew",
+    "at": [
+     38.9449,
+     -119.9732
+    ],
+    "wiki": "Lake Tahoe",
+    "area": "South Lake Tahoe",
+    "summary": "Local brewpubs with burgers and fish tacos.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Burger",
+     "IPA"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Breakfast diner",
+    "kind": "eat",
+    "id": "tah-diner",
+    "at": [
+     38.9439,
+     -119.9712
+    ],
+    "wiki": "Lake Tahoe",
+    "area": "South Lake Tahoe",
+    "summary": "Big mountain breakfasts before a ski or hike day.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Eggs Benedict",
+     "Pancakes"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards work almost everywhere. Tip 18 to 20 percent at restaurants.",
+  "id": "key-west",
+  "name": "Key West",
+  "at": [
+   24.5551,
+   -81.78
+  ],
+  "wiki": "Key West",
+  "cover": "Key West Duval Street",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   30,
+   80
+  ],
+  "seasons": "PPPPHSLLLSHP",
+  "tagline": "The end of the road, sunset and key lime pie",
+  "summary": "Key West is the last island of the Florida Keys, reached by the Overseas Highway over turquoise water. Watch the nightly sunset celebration at Mallory Square, visit Hemingway's house and its six-toed cats, take a boat to Dry Tortugas fort, snorkel the reef and eat key lime pie on Duval Street.",
+  "days": 3,
+  "bestMonths": [
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Winter is dry and warm; June to November is hurricane season.",
+  "arrival": "Fly into Key West, or drive about 3.5 hours from Miami on the Overseas Highway.",
+  "gettingAround": "Walk or bike; the old town is small.",
+  "foodTip": "Key lime pie, conch fritters, Cuban sandwiches and stone crab.",
+  "buyTip": "Cigars and island art.",
+  "baseArea": "Old Town",
+  "hotel": [
+   200,
+   600
+  ],
+  "connections": [
+   {
+    "to": "miami",
+    "mode": "Car",
+    "minutes": 210,
+    "note": "The Overseas Highway."
+   }
+  ],
+  "items": [
+   {
+    "name": "Mallory Square sunset",
+    "kind": "see",
+    "id": "kw-mallory",
+    "at": [
+     24.56,
+     -81.807
+    ],
+    "wiki": "Mallory Square",
+    "area": "Old Town",
+    "summary": "Nightly sunset gathering with street performers.",
+    "expect": "Free.",
+    "tip": "Arrive 30 minutes early.",
+    "why": "Island ritual.",
+    "flow": [
+     "Walk.",
+     "Sunset."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Sunset",
+    "p": 1,
+    "types": [
+     "Entertainment",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Ernest Hemingway Home and Museum",
+    "kind": "see",
+    "id": "kw-hemingway",
+    "at": [
+     24.551,
+     -81.801
+    ],
+    "wiki": "Ernest Hemingway House",
+    "area": "Old Town",
+    "summary": "Hemingway's house, studio and dozens of six-toed cats.",
+    "expect": "Paid; guided tours.",
+    "tip": "Join a tour for the stories.",
+    "why": "Literary home.",
+    "flow": [
+     "Tour.",
+     "Garden."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     25
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Dry Tortugas National Park",
+    "kind": "see",
+    "id": "kw-tortugas",
+    "at": [
+     24.628,
+     -82.873
+    ],
+    "wiki": "Dry Tortugas National Park",
+    "area": "Gulf of Mexico",
+    "summary": "Ferry or seaplane to a huge brick fort on a remote island, with snorkelling.",
+    "expect": "Book months ahead.",
+    "tip": "Bring snorkel gear.",
+    "why": "Remote fort.",
+    "flow": [
+     "Ferry.",
+     "Fort and snorkel."
+    ],
+    "hours": 10,
+    "price": [
+     200,
+     250
+    ],
+    "best": "Day",
+    "p": 1,
+    "types": [
+     "History",
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Southernmost Point and Duval Street",
+    "kind": "see",
+    "id": "kw-duval",
+    "at": [
+     24.547,
+     -81.798
+    ],
+    "wiki": "Southernmost point buoy",
+    "area": "Old Town",
+    "summary": "The famous buoy and the bar street of the old town.",
+    "expect": "Free.",
+    "tip": "Photo at the buoy early.",
+    "why": "Classic stroll.",
+    "flow": [
+     "Walk.",
+     "Bars."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Snorkel the reef",
+    "kind": "see",
+    "id": "kw-reef",
+    "at": [
+     24.46,
+     -81.8
+    ],
+    "wiki": "Florida Reef",
+    "area": "Offshore",
+    "summary": "Boat trips to the only living coral barrier reef in the continental US.",
+    "expect": "Half-day trips.",
+    "tip": "Choose a reef-safe operator.",
+    "why": "Reef.",
+    "flow": [
+     "Boat.",
+     "Snorkel."
+    ],
+    "hours": 4,
+    "price": [
+     60,
+     100
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Fort Zachary Taylor",
+    "kind": "see",
+    "id": "kw-fort",
+    "at": [
+     24.546,
+     -81.81
+    ],
+    "wiki": "Fort Zachary Taylor Historic State Park",
+    "area": "Old Town",
+    "summary": "Civil War fort with the best beach in town.",
+    "expect": "Paid entry.",
+    "tip": "Stay for sunset.",
+    "why": "History and beach.",
+    "flow": [
+     "Fort.",
+     "Beach."
+    ],
+    "hours": 2,
+    "price": [
+     5,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Key lime pie",
+    "kind": "eat",
+    "id": "kw-pie",
+    "at": [
+     24.559,
+     -81.805
+    ],
+    "wiki": "Key lime pie",
+    "area": "Old Town",
+    "summary": "Tart pie made with small Key limes.",
+    "expect": "Everywhere.",
+    "tip": "Try a frozen chocolate-dipped slice.",
+    "why": "Island dessert.",
+    "flow": [
+     "Shop.",
+     "Pie."
+    ],
+    "hours": 0.5,
+    "price": [
+     6,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Key lime pie"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Conch fritters and stone crab",
+    "kind": "eat",
+    "id": "kw-conch",
+    "at": [
+     24.56,
+     -81.804
+    ],
+    "wiki": "Conch fritter",
+    "area": "Old Town",
+    "summary": "Fried conch fritters and seasonal stone crab claws.",
+    "expect": "Stone crab October to May.",
+    "tip": "Eat by the harbour.",
+    "why": "Keys seafood.",
+    "flow": [
+     "Restaurant.",
+     "Seafood."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     60
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Conch fritters",
+     "Stone crab"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Cuban coffee and sandwich",
+    "kind": "eat",
+    "id": "kw-cuban",
+    "at": [
+     24.554,
+     -81.8
+    ],
+    "wiki": "Cuban sandwich",
+    "area": "Old Town",
+    "summary": "Cuban café con leche and pressed sandwiches.",
+    "expect": "Morning.",
+    "tip": "Order at the window.",
+    "why": "Cuban roots.",
+    "flow": [
+     "Window.",
+     "Coffee."
+    ],
+    "hours": 0.5,
+    "price": [
+     5,
+     15
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Cuban",
+    "order": [
+     "Cuban sandwich",
+     "Café con leche"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards work almost everywhere. Tip 18 to 20 percent at restaurants.",
+  "id": "napa",
+  "name": "Napa Valley",
+  "at": [
+   38.2975,
+   -122.2869
+  ],
+  "wiki": "Napa Valley AVA",
+  "cover": "Napa Valley vineyards",
+  "dailyBudget": [
+   250,
+   700
+  ],
+  "cashPerDay": [
+   30,
+   100
+  ],
+  "seasons": "SSSSPHHHPPSS",
+  "tagline": "Wine tasting among the vineyards",
+  "summary": "Napa Valley is California's most famous wine region, a long valley of vineyards and grand estates an hour north of San Francisco. Taste Cabernet at historic wineries, ride the Wine Train, soak in the mud baths of Calistoga, eat at world-class restaurants in Yountville and float over the vines in a sunrise balloon.",
+  "days": 2,
+  "bestMonths": [
+   5,
+   6,
+   9,
+   10
+  ],
+  "seasonNote": "Harvest (crush) is September and October; spring has green vines and fewer crowds.",
+  "arrival": "About 1 hour 15 minutes by car from San Francisco.",
+  "gettingAround": "Book a driver or tour if tasting; bike the Vine Trail.",
+  "foodTip": "Farm-to-table cooking and Oxbow market.",
+  "buyTip": "Wine shipped home.",
+  "baseArea": "Napa town, Yountville or St. Helena",
+  "hotel": [
+   250,
+   800
+  ],
+  "connections": [
+   {
+    "to": "san-francisco",
+    "mode": "Car",
+    "minutes": 75,
+    "note": "Or by ferry to Vallejo then bus."
+   }
+  ],
+  "items": [
+   {
+    "name": "Winery tasting",
+    "kind": "see",
+    "id": "nap-wineries",
+    "at": [
+     38.44,
+     -122.41
+    ],
+    "wiki": "Napa Valley AVA",
+    "area": "Oakville",
+    "summary": "Tastings at historic estates and small family wineries.",
+    "expect": "Reservations needed at most.",
+    "tip": "Do two or three a day, not more.",
+    "why": "The point of Napa.",
+    "flow": [
+     "Book.",
+     "Taste."
+    ],
+    "hours": 4,
+    "price": [
+     50,
+     150
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Hot-air balloon at sunrise",
+    "kind": "see",
+    "id": "nap-balloon",
+    "at": [
+     38.4,
+     -122.36
+    ],
+    "wiki": "Napa Valley AVA",
+    "area": "Yountville",
+    "summary": "Float over the vineyards at dawn.",
+    "expect": "Weather permitting.",
+    "tip": "Book ahead.",
+    "why": "Big splurge.",
+    "flow": [
+     "Early start.",
+     "Fly."
+    ],
+    "hours": 3,
+    "price": [
+     250,
+     350
+    ],
+    "best": "Sunrise",
+    "p": 2,
+    "types": [
+     "Adventure",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Napa Valley Wine Train",
+    "kind": "see",
+    "id": "nap-train",
+    "at": [
+     38.301,
+     -122.281
+    ],
+    "wiki": "Napa Valley Wine Train",
+    "area": "Napa",
+    "summary": "Vintage train with dining cars through the valley.",
+    "expect": "Paid; lunch or dinner.",
+    "tip": "Choose a winery-stop package.",
+    "why": "Old-school fun.",
+    "flow": [
+     "Board.",
+     "Dine."
+    ],
+    "hours": 3,
+    "price": [
+     200,
+     350
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food",
+     "History"
+    ]
+   },
+   {
+    "name": "Calistoga mud baths",
+    "kind": "see",
+    "id": "nap-mud",
+    "at": [
+     38.579,
+     -122.579
+    ],
+    "wiki": "Calistoga, California",
+    "area": "Calistoga",
+    "summary": "Volcanic ash mud baths and hot springs.",
+    "expect": "Book a spa.",
+    "tip": "End with a mineral pool.",
+    "why": "Spa town.",
+    "flow": [
+     "Drive.",
+     "Soak."
+    ],
+    "hours": 2,
+    "price": [
+     100,
+     200
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Castello di Amorosa",
+    "kind": "see",
+    "id": "nap-castello",
+    "at": [
+     38.559,
+     -122.543
+    ],
+    "wiki": "Castello di Amorosa",
+    "area": "Calistoga",
+    "summary": "Winery built as a medieval Tuscan castle.",
+    "expect": "Paid tours.",
+    "tip": "Book the tour.",
+    "why": "Over the top.",
+    "flow": [
+     "Tour.",
+     "Taste."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     90
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Architecture",
+     "Food"
+    ]
+   },
+   {
+    "name": "Oxbow Public Market",
+    "kind": "eat",
+    "id": "nap-oxbow",
+    "at": [
+     38.301,
+     -122.284
+    ],
+    "wiki": "Oxbow Public Market",
+    "area": "Napa",
+    "summary": "Food hall of local producers.",
+    "expect": "Daily.",
+    "tip": "Oysters and tacos.",
+    "why": "Easy lunch.",
+    "flow": [
+     "Hall.",
+     "Graze."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Californian",
+    "order": [
+     "Oysters",
+     "Tacos"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Yountville dining",
+    "kind": "eat",
+    "id": "nap-yountville",
+    "at": [
+     38.401,
+     -122.36
+    ],
+    "wiki": "Yountville, California",
+    "area": "Yountville",
+    "summary": "Small town of famous restaurants, from fine dining to bistros.",
+    "expect": "Book weeks ahead for the top tables.",
+    "tip": "Bouchon Bakery for something easier.",
+    "why": "Food town.",
+    "flow": [
+     "Restaurant.",
+     "Dinner."
+    ],
+    "hours": 2,
+    "price": [
+     80,
+     400
+    ],
+    "best": "Dinner",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Californian",
+    "order": [
+     "Tasting menu",
+     "Pastries"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Taqueria in Napa town",
+    "kind": "eat",
+    "id": "nap-taco",
+    "at": [
+     38.2995,
+     -122.2899
+    ],
+    "wiki": "Napa, California",
+    "area": "Napa",
+    "summary": "Cheap, excellent tacos where vineyard workers eat.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Tacos al pastor"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards work almost everywhere. Tip 18 to 20 percent at restaurants.",
+  "id": "monterey",
+  "name": "Monterey and Big Sur",
+  "at": [
+   36.6002,
+   -121.8947
+  ],
+  "wiki": "Monterey, California",
+  "cover": "Bixby Creek Bridge",
+  "dailyBudget": [
+   200,
+   500
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "seasons": "SSSSPHPPPPSS",
+  "tagline": "Sea otters, cypress cliffs and the Big Sur coast",
+  "summary": "Monterey is a historic bay town known for its world-class aquarium and sea otters, the gateway to the Big Sur coast. See kelp forests at the aquarium, kayak among otters, drive 17-Mile Drive past the Lone Cypress, wander fairytale Carmel-by-the-Sea and follow Highway 1 over Bixby Bridge to McWay Falls.",
+  "days": 3,
+  "bestMonths": [
+   4,
+   5,
+   9,
+   10
+  ],
+  "seasonNote": "September and October are sunniest; summer mornings are foggy.",
+  "arrival": "About 2 hours by car from San Jose, or 2.5 hours from San Francisco.",
+  "gettingAround": "A car is needed for Big Sur; check Highway 1 closures.",
+  "foodTip": "Clam chowder, Dungeness crab and artichokes from Castroville.",
+  "buyTip": "Carmel galleries.",
+  "baseArea": "Monterey or Carmel",
+  "hotel": [
+   180,
+   500
+  ],
+  "connections": [
+   {
+    "to": "san-francisco",
+    "mode": "Car",
+    "minutes": 150,
+    "note": "Via US-101 or Highway 1."
+   },
+   {
+    "to": "los-angeles",
+    "mode": "Car",
+    "minutes": 480,
+    "note": "The full Highway 1 coast drive."
+   }
+  ],
+  "items": [
+   {
+    "name": "Monterey Bay Aquarium",
+    "kind": "see",
+    "id": "mon-aquarium",
+    "at": [
+     36.618,
+     -121.902
+    ],
+    "wiki": "Monterey Bay Aquarium",
+    "area": "Cannery Row",
+    "summary": "Kelp forest tank, jellyfish and rescued sea otters.",
+    "expect": "Paid; book ahead.",
+    "tip": "Catch the otter feeding.",
+    "why": "World-class aquarium.",
+    "flow": [
+     "Enter.",
+     "Kelp forest."
+    ],
+    "hours": 3,
+    "price": [
+     60,
+     65
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Kayak with sea otters",
+    "kind": "see",
+    "id": "mon-kayak",
+    "at": [
+     36.605,
+     -121.89
+    ],
+    "wiki": "Monterey Bay",
+    "area": "Harbour",
+    "summary": "Paddle among otters and sea lions in the kelp.",
+    "expect": "Rentals at the wharf.",
+    "tip": "Keep your distance from otters.",
+    "why": "Wildlife up close.",
+    "flow": [
+     "Rent.",
+     "Paddle."
+    ],
+    "hours": 2,
+    "price": [
+     40,
+     60
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "17-Mile Drive",
+    "kind": "see",
+    "id": "mon-17mile",
+    "at": [
+     36.568,
+     -121.965
+    ],
+    "wiki": "17-Mile Drive",
+    "area": "Pebble Beach",
+    "summary": "Coastal toll road past the Lone Cypress and golf links.",
+    "expect": "Toll per car.",
+    "tip": "Stop at Bird Rock.",
+    "why": "Famous drive.",
+    "flow": [
+     "Drive.",
+     "Stops."
+    ],
+    "hours": 2,
+    "price": [
+     12,
+     12
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ]
+   },
+   {
+    "name": "Carmel-by-the-Sea",
+    "kind": "see",
+    "id": "mon-carmel",
+    "at": [
+     36.555,
+     -121.923
+    ],
+    "wiki": "Carmel-by-the-Sea, California",
+    "area": "Carmel",
+    "summary": "Storybook cottages, galleries and a white-sand beach.",
+    "expect": "Free.",
+    "tip": "Walk to the beach for sunset.",
+    "why": "Charming town.",
+    "flow": [
+     "Walk.",
+     "Beach."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Shopping",
+     "Nature"
+    ]
+   },
+   {
+    "name": "Point Lobos",
+    "kind": "see",
+    "id": "mon-lobos",
+    "at": [
+     36.516,
+     -121.94
+    ],
+    "wiki": "Point Lobos State Natural Reserve",
+    "area": "Carmel",
+    "summary": "Cypress headlands, coves and seals.",
+    "expect": "Paid parking; arrive early.",
+    "tip": "Walk the Cypress Grove trail.",
+    "why": "Wild coast.",
+    "flow": [
+     "Trail.",
+     "Coves."
+    ],
+    "hours": 2.5,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature"
+    ]
+   },
+   {
+    "name": "Bixby Bridge and Big Sur",
+    "kind": "see",
+    "id": "mon-bigsur",
+    "at": [
+     36.371,
+     -121.901
+    ],
+    "wiki": "Bixby Creek Bridge",
+    "area": "Big Sur",
+    "summary": "Highway 1 over the famous arched bridge along cliffs.",
+    "expect": "Check road closures.",
+    "tip": "Pull over safely.",
+    "why": "Iconic coast.",
+    "flow": [
+     "Drive.",
+     "Viewpoint."
+    ],
+    "hours": 4,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature"
+    ]
+   },
+   {
+    "name": "McWay Falls",
+    "kind": "see",
+    "id": "mon-mcway",
+    "at": [
+     36.158,
+     -121.672
+    ],
+    "wiki": "McWay Falls",
+    "area": "Big Sur",
+    "summary": "Waterfall dropping straight onto a beach.",
+    "expect": "Short walk from parking.",
+    "tip": "Late afternoon light.",
+    "why": "Big Sur postcard.",
+    "flow": [
+     "Drive.",
+     "Overlook."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Clam chowder on the wharf",
+    "kind": "eat",
+    "id": "mon-chowder",
+    "at": [
+     36.603,
+     -121.893
+    ],
+    "wiki": "Clam chowder",
+    "area": "Fisherman's Wharf",
+    "summary": "Chowder in a sourdough bowl.",
+    "expect": "Free samples on the wharf.",
+    "tip": "Taste a few before choosing.",
+    "why": "Wharf classic.",
+    "flow": [
+     "Wharf.",
+     "Chowder."
+    ],
+    "hours": 1,
+    "price": [
+     12,
+     25
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Clam chowder"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Seafood on Cannery Row",
+    "kind": "eat",
+    "id": "mon-seafood",
+    "at": [
+     36.615,
+     -121.899
+    ],
+    "wiki": "Cannery Row",
+    "area": "Cannery Row",
+    "summary": "Dungeness crab and local fish.",
+    "expect": "Dinner.",
+    "tip": "Book a bay-view table.",
+    "why": "Fresh catch.",
+    "flow": [
+     "Restaurant.",
+     "Seafood."
+    ],
+    "hours": 1.5,
+    "price": [
+     30,
+     80
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Dungeness crab",
+     "Calamari"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Artichokes in Castroville",
+    "kind": "eat",
+    "id": "mon-artichoke",
+    "at": [
+     36.7702,
+     -121.9747
+    ],
+    "wiki": "Castroville, California",
+    "area": "Castroville",
+    "summary": "Fried artichokes in the artichoke capital of the world.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Californian",
+    "order": [
+     "Fried artichokes"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "United States",
+  "region": "North America",
+  "currency": "USD",
+  "cashTip": "Cards work almost everywhere. Tip 18 to 20 percent at restaurants.",
+  "id": "palm-springs",
+  "name": "Palm Springs",
+  "at": [
+   33.8303,
+   -116.5453
+  ],
+  "wiki": "Palm Springs, California",
+  "cover": "Palm Springs Aerial Tramway",
+  "dailyBudget": [
+   180,
+   450
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "seasons": "PPPPSLLLLSPP",
+  "tagline": "Mid-century cool, pools and Joshua Tree",
+  "summary": "Palm Springs is a desert resort town of mid-century modern houses, palm-lined pools and mountain backdrops. Ride the rotating tram up Mount San Jacinto, tour modernist homes, hike palm oases in Indian Canyons, and drive to Joshua Tree National Park for strange trees, boulders and stars.",
+  "days": 3,
+  "bestMonths": [
+   11,
+   12,
+   1,
+   2,
+   3,
+   4
+  ],
+  "seasonNote": "Winter and spring are perfect; summer is extremely hot.",
+  "arrival": "Palm Springs airport, or about 2 hours by car from Los Angeles.",
+  "gettingAround": "A car is needed.",
+  "foodTip": "Date shakes and Mexican food.",
+  "buyTip": "Mid-century design and vintage shops.",
+  "baseArea": "Downtown or Uptown Design District",
+  "hotel": [
+   150,
+   450
+  ],
+  "connections": [
+   {
+    "to": "los-angeles",
+    "mode": "Car",
+    "minutes": 120,
+    "note": "I-10."
+   }
+  ],
+  "items": [
+   {
+    "name": "Palm Springs Aerial Tramway",
+    "kind": "see",
+    "id": "ps-tram",
+    "at": [
+     33.837,
+     -116.614
+    ],
+    "wiki": "Palm Springs Aerial Tramway",
+    "area": "Chino Canyon",
+    "summary": "Rotating tram car from desert to pine forest.",
+    "expect": "Paid; bring layers.",
+    "tip": "Hike at the top.",
+    "why": "Desert to alpine.",
+    "flow": [
+     "Ride.",
+     "Hike."
+    ],
+    "hours": 3,
+    "price": [
+     30,
+     35
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Viewpoint",
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Mid-century modern homes",
+    "kind": "see",
+    "id": "ps-modern",
+    "at": [
+     33.825,
+     -116.54
+    ],
+    "wiki": "Palm Springs, California",
+    "area": "Movie Colony",
+    "summary": "Tour of famous modernist houses.",
+    "expect": "Guided tours or self-drive maps.",
+    "tip": "Modernism Week is February.",
+    "why": "Design capital.",
+    "flow": [
+     "Tour.",
+     "Houses."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     100
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Indian Canyons",
+    "kind": "see",
+    "id": "ps-canyons",
+    "at": [
+     33.755,
+     -116.535
+    ],
+    "wiki": "Indian Canyons",
+    "area": "Agua Caliente",
+    "summary": "Hikes through palm oases on Agua Caliente Cahuilla land.",
+    "expect": "Paid entry; seasonal.",
+    "tip": "Palm Canyon trail.",
+    "why": "Desert oasis.",
+    "flow": [
+     "Drive.",
+     "Hike."
+    ],
+    "hours": 3,
+    "price": [
+     12,
+     15
+    ],
+    "best": "Morning",
+    "p": 2,
+    "types": [
+     "Nature",
+     "History"
+    ]
+   },
+   {
+    "name": "Joshua Tree National Park",
+    "kind": "see",
+    "id": "ps-joshua",
+    "at": [
+     34.014,
+     -116.166
+    ],
+    "wiki": "Joshua Tree National Park",
+    "area": "Joshua Tree",
+    "summary": "Boulder piles, Joshua trees and dark skies.",
+    "expect": "Park pass.",
+    "tip": "Stay for sunset and stars.",
+    "why": "Desert icon.",
+    "flow": [
+     "Drive.",
+     "Walks."
+    ],
+    "hours": 7,
+    "price": [
+     35,
+     35
+    ],
+    "best": "Day",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Adventure"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Palm Springs Art Museum",
+    "kind": "see",
+    "id": "ps-museum",
+    "at": [
+     33.824,
+     -116.549
+    ],
+    "wiki": "Palm Springs Art Museum",
+    "area": "Downtown",
+    "summary": "Modern art and architecture in the desert.",
+    "expect": "Paid; free Thursday evenings.",
+    "tip": "Check the architecture centre too.",
+    "why": "Desert art.",
+    "flow": [
+     "Museum.",
+     "Galleries."
+    ],
+    "hours": 1.5,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 3,
+    "types": [
+     "Art"
+    ]
+   },
+   {
+    "name": "Pool time",
+    "kind": "see",
+    "id": "ps-pool",
+    "at": [
+     33.82,
+     -116.545
+    ],
+    "wiki": "Palm Springs, California",
+    "area": "Downtown",
+    "summary": "Lounge by a palm-ringed pool with mountain views.",
+    "expect": "Hotels and day passes.",
+    "tip": "Cabana in spring.",
+    "why": "Palm Springs life.",
+    "flow": [
+     "Pool.",
+     "Relax."
+    ],
+    "hours": 3,
+    "price": [
+     0,
+     60
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Entertainment"
+    ]
+   },
+   {
+    "name": "Date shake",
+    "kind": "eat",
+    "id": "ps-date",
+    "at": [
+     33.83,
+     -116.545
+    ],
+    "wiki": "Date shake",
+    "area": "Coachella Valley",
+    "summary": "Thick shake made with local Medjool dates.",
+    "expect": "Farm stands and cafés.",
+    "tip": "Try one on the way to Joshua Tree.",
+    "why": "Desert treat.",
+    "flow": [
+     "Stand.",
+     "Shake."
+    ],
+    "hours": 0.5,
+    "price": [
+     7,
+     10
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "American",
+    "order": [
+     "Date shake"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Mexican food",
+    "kind": "eat",
+    "id": "ps-mex",
+    "at": [
+     33.825,
+     -116.545
+    ],
+    "wiki": "Mexican cuisine",
+    "area": "Downtown",
+    "summary": "Margaritas and tacos on patios.",
+    "expect": "Many places.",
+    "tip": "Happy hour patios.",
+    "why": "Desert dinner.",
+    "flow": [
+     "Patio.",
+     "Tacos."
+    ],
+    "hours": 1.5,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Dinner",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Mexican",
+    "order": [
+     "Tacos",
+     "Margarita"
+    ],
+    "veg": "some",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Brunch on Palm Canyon Drive",
+    "kind": "eat",
+    "id": "ps-brunch",
+    "at": [
+     33.8333,
+     -116.5453
+    ],
+    "wiki": "Palm Springs, California",
+    "area": "Downtown",
+    "summary": "Patio brunch with mimosas and mountain views.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     20,
+     40
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Californian",
+    "order": [
+     "Chilaquiles",
+     "Mimosa"
+    ],
+    "veg": "yes",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ },
+ {
+  "country": "Canada",
+  "region": "North America",
+  "currency": "CAD",
+  "cashTip": "Cards work almost everywhere. Tip 15 to 20 percent.",
+  "id": "lunenburg",
+  "name": "Lunenburg",
+  "at": [
+   44.377,
+   -64.3093
+  ],
+  "wiki": "Lunenburg, Nova Scotia",
+  "cover": "Lunenburg Nova Scotia waterfront",
+  "dailyBudget": [
+   150,
+   350
+  ],
+  "cashPerDay": [
+   20,
+   60
+  ],
+  "seasons": "LLLLSHPPHSLL",
+  "tagline": "Colourful UNESCO fishing town on Nova Scotia's coast",
+  "summary": "Lunenburg is a brightly painted harbour town and UNESCO World Heritage Site, one of the best-kept British colonial towns in North America. Walk its steep grid of red, yellow and blue houses, visit the Fisheries Museum and the Bluenose II schooner, sail the bay, eat lobster and drive the coast to Peggy's Cove lighthouse.",
+  "days": 2,
+  "bestMonths": [
+   6,
+   7,
+   8,
+   9
+  ],
+  "seasonNote": "Summer and early autumn; many places close in winter.",
+  "arrival": "About 1 hour 15 minutes by car from Halifax.",
+  "gettingAround": "Walk the town; a car for the coast.",
+  "foodTip": "Lobster rolls, fish chowder, scallops and Lunenburg pudding.",
+  "buyTip": "Local crafts and Ironworks distillery spirits.",
+  "baseArea": "Old Town",
+  "hotel": [
+   120,
+   300
+  ],
+  "connections": [
+   {
+    "to": "halifax",
+    "mode": "Car",
+    "minutes": 75,
+    "note": "Highway 103."
+   }
+  ],
+  "items": [
+   {
+    "name": "Old Town Lunenburg",
+    "kind": "see",
+    "id": "lun-oldtown",
+    "at": [
+     44.377,
+     -64.3093
+    ],
+    "wiki": "Old Town Lunenburg",
+    "area": "Old Town",
+    "summary": "UNESCO grid of colourful wooden houses on a steep hill.",
+    "expect": "Free.",
+    "tip": "Photograph from across the harbour at Bluenose Golf Club road.",
+    "why": "World Heritage.",
+    "flow": [
+     "Walk.",
+     "Harbour view."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "History",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Fisheries Museum of the Atlantic",
+    "kind": "see",
+    "id": "lun-museum",
+    "at": [
+     44.375,
+     -64.308
+    ],
+    "wiki": "Fisheries Museum of the Atlantic",
+    "area": "Waterfront",
+    "summary": "Museum of Atlantic fishing with boats to board.",
+    "expect": "Paid; seasonal.",
+    "tip": "Board the schooner and trawler.",
+    "why": "Sea heritage.",
+    "flow": [
+     "Museum.",
+     "Boats."
+    ],
+    "hours": 2,
+    "price": [
+     15,
+     20
+    ],
+    "best": "Afternoon",
+    "p": 1,
+    "types": [
+     "History"
+    ]
+   },
+   {
+    "name": "Bluenose II",
+    "kind": "see",
+    "id": "lun-bluenose",
+    "at": [
+     44.375,
+     -64.309
+    ],
+    "wiki": "Bluenose II",
+    "area": "Waterfront",
+    "summary": "Replica of the famous racing schooner on the Canadian dime.",
+    "expect": "Tours and sails when in port.",
+    "tip": "Check the sailing schedule.",
+    "why": "Canadian icon.",
+    "flow": [
+     "Dock.",
+     "Sail."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     80
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "History",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "Harbour sail",
+    "kind": "see",
+    "id": "lun-sail",
+    "at": [
+     44.374,
+     -64.31
+    ],
+    "wiki": "Lunenburg, Nova Scotia",
+    "area": "Waterfront",
+    "summary": "Sail out on a schooner or tall ship.",
+    "expect": "Summer.",
+    "tip": "Sunset sail.",
+    "why": "On the water.",
+    "flow": [
+     "Board.",
+     "Sail."
+    ],
+    "hours": 2,
+    "price": [
+     50,
+     80
+    ],
+    "best": "Sunset",
+    "p": 2,
+    "types": [
+     "Nature",
+     "Adventure"
+    ]
+   },
+   {
+    "name": "St. John's Anglican Church",
+    "kind": "see",
+    "id": "lun-church",
+    "at": [
+     44.379,
+     -64.311
+    ],
+    "wiki": "St. John's Anglican Church (Lunenburg)",
+    "area": "Old Town",
+    "summary": "Carpenter Gothic church rebuilt after a fire in 2001.",
+    "expect": "Donation.",
+    "tip": "Short visit.",
+    "why": "Wooden Gothic.",
+    "flow": [
+     "Church.",
+     "Tour."
+    ],
+    "hours": 0.5,
+    "price": [
+     0,
+     5
+    ],
+    "best": "Morning",
+    "p": 3,
+    "types": [
+     "Spiritual",
+     "Architecture"
+    ]
+   },
+   {
+    "name": "Peggy's Cove",
+    "kind": "see",
+    "id": "lun-peggys",
+    "at": [
+     44.492,
+     -63.918
+    ],
+    "wiki": "Peggy's Cove",
+    "area": "South Shore",
+    "summary": "Granite rocks and Canada's most photographed lighthouse.",
+    "expect": "Free.",
+    "tip": "Stay off the black rocks.",
+    "why": "Coastal icon.",
+    "flow": [
+     "Drive.",
+     "Lighthouse."
+    ],
+    "hours": 2,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Morning",
+    "p": 1,
+    "types": [
+     "Nature",
+     "Viewpoint"
+    ],
+    "excursion": true
+   },
+   {
+    "name": "Mahone Bay",
+    "kind": "see",
+    "id": "lun-mahone",
+    "at": [
+     44.447,
+     -64.383
+    ],
+    "wiki": "Mahone Bay, Nova Scotia",
+    "area": "South Shore",
+    "summary": "Village with three churches on the water.",
+    "expect": "Free.",
+    "tip": "Shops and cafés.",
+    "why": "Classic view.",
+    "flow": [
+     "Drive.",
+     "Walk."
+    ],
+    "hours": 1.5,
+    "price": [
+     0,
+     0
+    ],
+    "best": "Afternoon",
+    "p": 2,
+    "types": [
+     "Architecture",
+     "Shopping"
+    ]
+   },
+   {
+    "name": "Lobster and seafood",
+    "kind": "eat",
+    "id": "lun-lobster",
+    "at": [
+     44.3755,
+     -64.3085
+    ],
+    "wiki": "Lobster roll",
+    "area": "Waterfront",
+    "summary": "Lobster rolls, scallops and fish chowder.",
+    "expect": "Lunch and dinner.",
+    "tip": "Sit on the deck.",
+    "why": "Atlantic seafood.",
+    "flow": [
+     "Restaurant.",
+     "Lobster."
+    ],
+    "hours": 1.5,
+    "price": [
+     25,
+     60
+    ],
+    "best": "Lunch",
+    "p": 1,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Lobster roll",
+     "Fish chowder",
+     "Scallops"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Fish chowder",
+    "kind": "eat",
+    "id": "lun-chowder",
+    "at": [
+     44.3773,
+     -64.3088
+    ],
+    "wiki": "Seafood chowder",
+    "area": "Waterfront",
+    "summary": "Creamy Nova Scotia chowder with haddock and scallops.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     15,
+     25
+    ],
+    "best": "Lunch",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Seafood",
+    "order": [
+     "Seafood chowder"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   },
+   {
+    "name": "Lunenburg pudding and local bakery",
+    "kind": "eat",
+    "id": "lun-bakery",
+    "at": [
+     44.3785,
+     -64.3103
+    ],
+    "wiki": "Lunenburg pudding",
+    "area": "Old Town",
+    "summary": "Local pork sausage, plus fishcakes and baked goods.",
+    "expect": "Easy to find.",
+    "tip": "Ask locals for their favourite.",
+    "why": "Local flavour.",
+    "flow": [
+     "Find a table.",
+     "Order."
+    ],
+    "hours": 1,
+    "price": [
+     10,
+     20
+    ],
+    "best": "Breakfast",
+    "p": 2,
+    "types": [
+     "Food"
+    ],
+    "cuisine": "Canadian",
+    "order": [
+     "Fishcakes",
+     "Lunenburg pudding"
+    ],
+    "veg": "no",
+    "halal": "no",
+    "venue": "food-area"
+   }
+  ]
+ }
+]

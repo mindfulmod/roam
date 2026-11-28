@@ -1,0 +1,520 @@
+{
+  "id": "palm-springs",
+  "name": "Palm Springs",
+  "country": "United States",
+  "region": "North America",
+  "lat": 33.8303,
+  "lon": -116.5453,
+  "wiki": "Palm Springs, California",
+  "tagline": "Mid-century cool, pools and Joshua Tree",
+  "summary": "Palm Springs is a desert resort town of mid-century modern houses, palm-lined pools and mountain backdrops. Ride the rotating tram up Mount San Jacinto, tour modernist homes, hike palm oases in Indian Canyons, and drive to Joshua Tree National Park for strange trees, boulders and stars.",
+  "days": 3,
+  "bestMonths": [
+    11,
+    12,
+    1,
+    2,
+    3,
+    4
+  ],
+  "seasonNote": "Winter and spring are perfect; summer is extremely hot.",
+  "arrival": "Palm Springs airport, or about 2 hours by car from Los Angeles.",
+  "gettingAround": "A car is needed.",
+  "cashTip": "Cards work almost everywhere. Tip 18 to 20 percent at restaurants.",
+  "dailyBudget": [
+    180,
+    450
+  ],
+  "currency": "USD",
+  "cashPerDay": [
+    20,
+    60
+  ],
+  "foodTip": "Date shakes and Mexican food.",
+  "buyTip": "Mid-century design and vintage shops.",
+  "baseArea": "Downtown or Uptown Design District",
+  "connections": [
+    {
+      "to": "los-angeles",
+      "mode": "Car",
+      "minutes": 120,
+      "note": "I-10."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Palm Springs on Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Palm_Springs%2C_California",
+      "type": "reference",
+      "checked": "2026-11-28"
+    },
+    {
+      "title": "Tripadvisor visitor reviews",
+      "url": "https://www.tripadvisor.com/Search?q=Palm%20Springs%20things%20to%20do",
+      "type": "reviews",
+      "checked": "2026-11-28"
+    }
+  ],
+  "reviewSource": "https://www.tripadvisor.com/Search?q=Palm%20Springs%20things%20to%20do",
+  "popularity": {},
+  "dayClusters": null,
+  "budgetNote": null,
+  "coverWiki": "Palm Springs Aerial Tramway",
+  "added": "2026-11-28",
+  "items": [
+    {
+      "id": "palm-springs-ps-tram",
+      "name": "Palm Springs Aerial Tramway",
+      "kind": "see",
+      "lat": 33.837,
+      "lon": -116.614,
+      "wiki": "Palm Springs Aerial Tramway",
+      "summary": "Rotating tram car from desert to pine forest.",
+      "expect": "Paid; bring layers.",
+      "tip": "Hike at the top.",
+      "area": "Chino Canyon",
+      "duration": 3,
+      "price": [
+        30,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Palm%20Springs%20Aerial%20Tramway%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Palm%20Springs%20Aerial%20Tramway%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Palm%20Springs%20Aerial%20Tramway%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Viewpoint",
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Rotating tram car from desert to pine forest.",
+        "Desert to alpine."
+      ],
+      "visitFlow": [
+        "Ride.",
+        "Hike."
+      ],
+      "bestFor": "Visitors interested in big views and landscapes and wildlife",
+      "tradeoffs": [
+        "Paid; bring layers.",
+        "Hike at the top."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "palm-springs-ps-modern",
+      "name": "Mid-century modern homes",
+      "kind": "see",
+      "lat": 33.825,
+      "lon": -116.54,
+      "wiki": "Palm Springs, California",
+      "summary": "Tour of famous modernist houses.",
+      "expect": "Guided tours or self-drive maps.",
+      "tip": "Modernism Week is February.",
+      "area": "Movie Colony",
+      "duration": 2,
+      "price": [
+        0,
+        100
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mid-century%20modern%20homes%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Mid-century%20modern%20homes%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mid-century%20modern%20homes%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Architecture"
+      ],
+      "whyVisit": [
+        "Tour of famous modernist houses.",
+        "Design capital."
+      ],
+      "visitFlow": [
+        "Tour.",
+        "Houses."
+      ],
+      "bestFor": "Visitors interested in architecture and design",
+      "tradeoffs": [
+        "Guided tours or self-drive maps.",
+        "Modernism Week is February."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "palm-springs-ps-canyons",
+      "name": "Indian Canyons",
+      "kind": "see",
+      "lat": 33.755,
+      "lon": -116.535,
+      "wiki": "Indian Canyons",
+      "summary": "Hikes through palm oases on Agua Caliente Cahuilla land.",
+      "expect": "Paid entry; seasonal.",
+      "tip": "Palm Canyon trail.",
+      "area": "Agua Caliente",
+      "duration": 3,
+      "price": [
+        12,
+        15
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Morning",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Indian%20Canyons%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Indian%20Canyons%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Indian%20Canyons%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "History"
+      ],
+      "whyVisit": [
+        "Hikes through palm oases on Agua Caliente Cahuilla land.",
+        "Desert oasis."
+      ],
+      "visitFlow": [
+        "Drive.",
+        "Hike."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and history and context",
+      "tradeoffs": [
+        "Paid entry; seasonal.",
+        "Palm Canyon trail."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "palm-springs-ps-joshua",
+      "name": "Joshua Tree National Park",
+      "kind": "see",
+      "lat": 34.014,
+      "lon": -116.166,
+      "wiki": "Joshua Tree National Park",
+      "summary": "Boulder piles, Joshua trees and dark skies.",
+      "expect": "Park pass.",
+      "tip": "Stay for sunset and stars.",
+      "area": "Joshua Tree",
+      "duration": 7,
+      "price": [
+        35,
+        35
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Day",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Joshua%20Tree%20National%20Park%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Joshua%20Tree%20National%20Park%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Joshua%20Tree%20National%20Park%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Nature",
+        "Adventure"
+      ],
+      "whyVisit": [
+        "Boulder piles, Joshua trees and dark skies.",
+        "Desert icon."
+      ],
+      "visitFlow": [
+        "Drive.",
+        "Walks."
+      ],
+      "bestFor": "Visitors interested in landscapes and wildlife and active exploration",
+      "tradeoffs": [
+        "Park pass.",
+        "Stay for sunset and stars."
+      ],
+      "pinApproximate": true,
+      "excursion": true
+    },
+    {
+      "id": "palm-springs-ps-museum",
+      "name": "Palm Springs Art Museum",
+      "kind": "see",
+      "lat": 33.824,
+      "lon": -116.549,
+      "wiki": "Palm Springs Art Museum",
+      "summary": "Modern art and architecture in the desert.",
+      "expect": "Paid; free Thursday evenings.",
+      "tip": "Check the architecture centre too.",
+      "area": "Downtown",
+      "duration": 1.5,
+      "price": [
+        15,
+        20
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 3,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Palm%20Springs%20Art%20Museum%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Palm%20Springs%20Art%20Museum%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Palm%20Springs%20Art%20Museum%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Art"
+      ],
+      "whyVisit": [
+        "Modern art and architecture in the desert.",
+        "Desert art."
+      ],
+      "visitFlow": [
+        "Museum.",
+        "Galleries."
+      ],
+      "bestFor": "Visitors interested in art and craft",
+      "tradeoffs": [
+        "Paid; free Thursday evenings.",
+        "Check the architecture centre too."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "palm-springs-ps-pool",
+      "name": "Pool time",
+      "kind": "see",
+      "lat": 33.82,
+      "lon": -116.545,
+      "wiki": "Palm Springs, California",
+      "summary": "Lounge by a palm-ringed pool with mountain views.",
+      "expect": "Hotels and day passes.",
+      "tip": "Cabana in spring.",
+      "area": "Downtown",
+      "duration": 3,
+      "price": [
+        0,
+        60
+      ],
+      "priceNote": "Planning estimate per adult in local currency, not a live ticket quote; check current prices and what is included.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Pool%20time%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Pool%20time%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Pool%20time%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Entertainment"
+      ],
+      "whyVisit": [
+        "Lounge by a palm-ringed pool with mountain views.",
+        "Palm Springs life."
+      ],
+      "visitFlow": [
+        "Pool.",
+        "Relax."
+      ],
+      "bestFor": "Visitors interested in shows and nightlife",
+      "tradeoffs": [
+        "Hotels and day passes.",
+        "Cabana in spring."
+      ],
+      "pinApproximate": true
+    },
+    {
+      "id": "palm-springs-ps-date",
+      "name": "Date shake",
+      "kind": "eat",
+      "lat": 33.83,
+      "lon": -116.545,
+      "wiki": "Date shake",
+      "summary": "Thick shake made with local Medjool dates.",
+      "expect": "Farm stands and cafés.",
+      "tip": "Try one on the way to Joshua Tree.",
+      "area": "Coachella Valley",
+      "duration": 0.5,
+      "price": [
+        7,
+        10
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Afternoon",
+      "reservation": "Usually not needed",
+      "priority": 1,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Date%20shake%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Date%20shake%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Date%20shake%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Thick shake made with local Medjool dates.",
+        "Desert treat."
+      ],
+      "visitFlow": [
+        "Stand.",
+        "Shake."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Farm stands and cafés.",
+        "Try one on the way to Joshua Tree."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "American",
+      "mustOrder": [
+        "Date shake"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "palm-springs-ps-mex",
+      "name": "Mexican food",
+      "kind": "eat",
+      "lat": 33.825,
+      "lon": -116.545,
+      "wiki": "Mexican cuisine",
+      "summary": "Margaritas and tacos on patios.",
+      "expect": "Many places.",
+      "tip": "Happy hour patios.",
+      "area": "Downtown",
+      "duration": 1.5,
+      "price": [
+        20,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Dinner",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Mexican%20food%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Mexican%20food%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Mexican%20food%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Margaritas and tacos on patios.",
+        "Desert dinner."
+      ],
+      "visitFlow": [
+        "Patio.",
+        "Tacos."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Many places.",
+        "Happy hour patios."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Mexican",
+      "mustOrder": [
+        "Tacos",
+        "Margarita"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "some",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    },
+    {
+      "id": "palm-springs-ps-brunch",
+      "name": "Brunch on Palm Canyon Drive",
+      "kind": "eat",
+      "lat": 33.8333,
+      "lon": -116.5453,
+      "wiki": "Palm Springs, California",
+      "summary": "Patio brunch with mimosas and mountain views.",
+      "expect": "Easy to find.",
+      "tip": "Ask locals for their favourite.",
+      "area": "Downtown",
+      "duration": 1,
+      "price": [
+        20,
+        40
+      ],
+      "priceNote": "Per-person meal planning estimate in local currency, not a live menu quote; drinks, service and tax may add to the total.",
+      "bestTime": "Breakfast",
+      "reservation": "Usually not needed",
+      "priority": 2,
+      "sourceUrls": [
+        "https://www.tripadvisor.com/Search?q=Brunch%20on%20Palm%20Canyon%20Drive%2C%20Palm%20Springs",
+        "https://www.google.com/maps/search/?api=1&query=Brunch%20on%20Palm%20Canyon%20Drive%2C%20Palm%20Springs"
+      ],
+      "review": {
+        "url": "https://www.tripadvisor.com/Search?q=Brunch%20on%20Palm%20Canyon%20Drive%2C%20Palm%20Springs"
+      },
+      "sourceNote": "Editorial selection. Durations, spending allowances and itinerary advice are planning estimates; check opening days and prices with the venue before you go.",
+      "experienceTypes": [
+        "Food"
+      ],
+      "whyVisit": [
+        "Patio brunch with mimosas and mountain views.",
+        "Local flavour."
+      ],
+      "visitFlow": [
+        "Find a table.",
+        "Order."
+      ],
+      "bestFor": "Visitors interested in regional food",
+      "tradeoffs": [
+        "Easy to find.",
+        "Ask locals for their favourite."
+      ],
+      "pinApproximate": true,
+      "venueType": "food-area",
+      "cuisine": "Californian",
+      "mustOrder": [
+        "Chilaquiles",
+        "Mimosa"
+      ],
+      "dietary": {
+        "halal": "no",
+        "vegetarian": "yes",
+        "evidence": [],
+        "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
+      }
+    }
+  ]
+}
