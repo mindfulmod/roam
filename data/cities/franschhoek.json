@@ -71,8 +71,8 @@
       "id": "franschhoek-fra-tram",
       "name": "Franschhoek Wine Tram",
       "kind": "see",
-      "lat": -33.9133,
-      "lon": 19.1169,
+      "lat": -33.90187,
+      "lon": 19.10624,
       "wiki": "Franschhoek Wine Tram",
       "summary": "Hop-on hop-off tram and bus between wine estates.",
       "expect": "Book ahead in summer.",
@@ -111,15 +111,14 @@
       "tradeoffs": [
         "Book ahead in summer.",
         "Choose one line and four estates."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "franschhoek-fra-monument",
       "name": "Huguenot Monument",
       "kind": "see",
-      "lat": -33.918,
-      "lon": 19.124,
+      "lat": -33.91529,
+      "lon": 19.12348,
       "wiki": "Huguenot Monument",
       "summary": "Monument and museum to the French Protestant settlers.",
       "expect": "Small fee.",
@@ -158,14 +157,22 @@
         "Small fee.",
         "Visit the museum opposite."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6618,
+          "period": "202511-202610",
+          "title": "Huguenot Monument",
+          "url": "https://en.wikipedia.org/wiki/Huguenot_Monument",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "franschhoek-fra-pass",
       "name": "Franschhoek Pass",
       "kind": "see",
-      "lat": -33.935,
-      "lon": 19.17,
+      "lat": -33.91625,
+      "lon": 19.15836,
       "wiki": "Franschhoek Pass",
       "summary": "Mountain road with valley views from the top.",
       "expect": "Winding road.",
@@ -205,14 +212,23 @@
         "Winding road.",
         "Stop at the lookout."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1577,
+          "period": "202511-202610",
+          "title": "Franschhoek Pass",
+          "url": "https://en.wikipedia.org/wiki/Franschhoek_Pass",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5492432"
     },
     {
       "id": "franschhoek-fra-boschendal",
       "name": "Boschendal estate",
       "kind": "see",
-      "lat": -33.872,
-      "lon": 18.977,
+      "lat": -33.87417,
+      "lon": 18.97583,
       "wiki": "Boschendal",
       "summary": "Historic Cape Dutch estate with picnics, farm shop and wine.",
       "expect": "Busy weekends.",
@@ -252,7 +268,16 @@
         "Busy weekends.",
         "Book a picnic under the oaks."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 8111,
+          "period": "202511-202610",
+          "title": "Boschendal",
+          "url": "https://en.wikipedia.org/wiki/Boschendal",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q390505"
     },
     {
       "id": "franschhoek-fra-babylon",
@@ -299,7 +324,16 @@
         "Book garden tours and meals.",
         "Do the garden tour."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8634,
+          "period": "202511-202610",
+          "title": "Babylonstoren",
+          "url": "https://en.wikipedia.org/wiki/Babylonstoren",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "franschhoek-fra-fine",
@@ -472,5 +506,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1025086"
 }

@@ -65,8 +65,8 @@
       "id": "dahab-dah-bluehole",
       "name": "Blue Hole",
       "kind": "see",
-      "lat": 28.572,
-      "lon": 34.537,
+      "lat": 28.5723,
+      "lon": 34.53736,
       "wiki": "Blue Hole (Red Sea)",
       "summary": "Deep sinkhole in the reef with spectacular snorkelling at its rim.",
       "expect": "Snorkel the edge; deep dives only with experts.",
@@ -106,14 +106,22 @@
         "Snorkel the edge; deep dives only with experts.",
         "Snorkel the Bells and the rim."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 154843,
+          "period": "202511-202610",
+          "title": "Blue Hole (Red Sea)",
+          "url": "https://en.wikipedia.org/wiki/Blue_Hole_(Red_Sea)",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "dahab-dah-sinai",
       "name": "Mount Sinai sunrise",
       "kind": "see",
-      "lat": 28.539,
-      "lon": 33.975,
+      "lat": 28.53942,
+      "lon": 33.97542,
       "wiki": "Mount Sinai",
       "summary": "Night climb to the summit for sunrise over the mountains.",
       "expect": "Leave at midnight; cold at the top.",
@@ -154,15 +162,28 @@
         "Leave at midnight; cold at the top.",
         "Bring layers and a torch."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 365931,
+          "period": "202511-202610",
+          "title": "Mount Sinai",
+          "url": "https://en.wikipedia.org/wiki/Mount_Sinai",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q377485",
+      "local": {
+        "name": "طور سيناء",
+        "lang": "ar"
+      }
     },
     {
       "id": "dahab-dah-catherine",
       "name": "St Catherine's Monastery",
       "kind": "see",
-      "lat": 28.556,
-      "lon": 33.976,
+      "lat": 28.55556,
+      "lon": 33.97611,
       "wiki": "Saint Catherine's Monastery",
       "summary": "One of the oldest working Christian monasteries, with the Burning Bush.",
       "expect": "Limited opening hours.",
@@ -202,8 +223,21 @@
         "Limited opening hours.",
         "Visit after the Sinai climb."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 203413,
+          "period": "202511-202610",
+          "title": "Saint Catherine's Monastery",
+          "url": "https://en.wikipedia.org/wiki/Saint_Catherine's_Monastery",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q185362",
+      "local": {
+        "name": "دير سانت كاترين",
+        "lang": "ar"
+      }
     },
     {
       "id": "dahab-dah-lighthouse",
@@ -249,14 +283,23 @@
         "Free from shore.",
         "Great for beginners."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 43767,
+          "period": "202511-202610",
+          "title": "Dahab",
+          "url": "https://en.wikipedia.org/wiki/Dahab",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "dahab-dah-canyon",
       "name": "Coloured Canyon",
       "kind": "see",
-      "lat": 29.01,
-      "lon": 34.63,
+      "lat": 29.14611,
+      "lon": 34.59486,
       "wiki": "Coloured Canyon",
       "summary": "Narrow sandstone canyon of swirling colours.",
       "expect": "Tour needed; some scrambling.",
@@ -296,15 +339,28 @@
         "Tour needed; some scrambling.",
         "Go with a Bedouin guide."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2437,
+          "period": "202511-202610",
+          "title": "Coloured Canyon",
+          "url": "https://en.wikipedia.org/wiki/Coloured_Canyon",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5149228",
+      "local": {
+        "name": "الوادي الملون",
+        "lang": "ar"
+      }
     },
     {
       "id": "dahab-dah-abugalum",
       "name": "Ras Abu Galum",
       "kind": "see",
-      "lat": 28.61,
-      "lon": 34.55,
+      "lat": 28.61623,
+      "lon": 34.56071,
       "wiki": "Ras Abu Galum",
       "summary": "Protected coast reached by camel or walking from the Blue Hole.",
       "expect": "Day trip.",
@@ -344,7 +400,6 @@
         "Day trip.",
         "Snorkel and eat at Bedouin camps."
       ],
-      "pinApproximate": true,
       "excursion": true
     },
     {
@@ -519,5 +574,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q370495",
+  "local": {
+    "name": "دهب",
+    "lang": "ar"
+  }
 }

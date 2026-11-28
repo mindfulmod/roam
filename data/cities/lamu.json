@@ -74,8 +74,8 @@
       "id": "lamu-lam-oldtown",
       "name": "Lamu Old Town",
       "kind": "see",
-      "lat": -2.2717,
-      "lon": 40.902,
+      "lat": -2.26944,
+      "lon": 40.90222,
       "wiki": "Lamu Old Town",
       "summary": "Car-free lanes of coral houses with carved doors and rooftop terraces.",
       "expect": "Modest dress.",
@@ -115,7 +115,15 @@
         "Modest dress.",
         "Get lost on purpose; the waterfront is your guide."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 35606,
+          "period": "202511-202610",
+          "title": "Lamu",
+          "url": "https://en.wikipedia.org/wiki/Lamu",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lamu-lam-dhow",
@@ -162,14 +170,23 @@
         "Agree the price; bring water.",
         "Add fishing or snorkelling."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 115345,
+          "period": "202511-202610",
+          "title": "Dhow",
+          "url": "https://en.wikipedia.org/wiki/Dhow",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lamu-lam-museum",
       "name": "Lamu Museum and Fort",
       "kind": "see",
-      "lat": -2.27,
-      "lon": 40.903,
+      "lat": -2.26935,
+      "lon": 40.90218,
       "wiki": "Lamu Fort",
       "summary": "Museum of Swahili culture and the 19th-century fort.",
       "expect": "Small fees.",
@@ -208,7 +225,16 @@
         "Small fees.",
         "See the siwa ceremonial horns."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 1977,
+          "period": "202511-202610",
+          "title": "Lamu Fort",
+          "url": "https://en.wikipedia.org/wiki/Lamu_Fort",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q17068502"
     },
     {
       "id": "lamu-lam-shela",
@@ -301,14 +327,23 @@
         "Small fee.",
         "Notice the plaster niches."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 35606,
+          "period": "202511-202610",
+          "title": "Lamu",
+          "url": "https://en.wikipedia.org/wiki/Lamu",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lamu-lam-takwa",
       "name": "Takwa Ruins",
       "kind": "see",
-      "lat": -2.29,
-      "lon": 40.95,
+      "lat": -2.29765,
+      "lon": 40.95831,
       "wiki": "Takwa Ruins",
       "summary": "Ruins of a 15th-century Swahili town reached by boat.",
       "expect": "Boat and tide dependent.",
@@ -347,7 +382,6 @@
         "Boat and tide dependent.",
         "Combine with a dhow trip."
       ],
-      "pinApproximate": true,
       "excursion": true
     },
     {
@@ -523,5 +557,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q272799"
 }

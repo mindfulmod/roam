@@ -206,14 +206,23 @@
         "Rinse after; bring water.",
         "Go in the afternoon."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 157278,
+          "period": "202511-202610",
+          "title": "Siwa Oasis",
+          "url": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "siwa-siw-cleopatra",
       "name": "Cleopatra's Spring",
       "kind": "see",
-      "lat": 29.193,
-      "lon": 25.547,
+      "lat": 29.19696,
+      "lon": 25.5501,
       "wiki": "Cleopatra's Spring",
       "summary": "Natural spring pool for a swim among palms.",
       "expect": "Modest swimwear.",
@@ -251,8 +260,7 @@
       "tradeoffs": [
         "Modest swimwear.",
         "Have tea at the café."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "siwa-siw-sandsea",
@@ -299,14 +307,23 @@
         "Tours only.",
         "Stay for sunset and stars."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 18181,
+          "period": "202511-202610",
+          "title": "Great Sand Sea",
+          "url": "https://en.wikipedia.org/wiki/Great_Sand_Sea",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "siwa-siw-dead",
       "name": "Mountain of the Dead",
       "kind": "see",
-      "lat": 29.212,
-      "lon": 25.52,
+      "lat": 29.21129,
+      "lon": 25.52482,
       "wiki": "Gebel al-Mawta",
       "summary": "Hill of rock-cut tombs, some painted.",
       "expect": "Small fee; some tombs locked.",
@@ -344,8 +361,7 @@
       "tradeoffs": [
         "Small fee; some tombs locked.",
         "Ask the guard to open painted tombs."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "siwa-siw-fatnas",
@@ -392,7 +408,16 @@
         "Small fee.",
         "Arrive before sunset."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 157278,
+          "period": "202511-202610",
+          "title": "Siwa Oasis",
+          "url": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "siwa-siw-dates",
@@ -567,5 +592,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q2008735",
+  "local": {
+    "name": "سيوة",
+    "lang": "ar"
+  }
 }

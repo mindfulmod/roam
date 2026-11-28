@@ -72,8 +72,8 @@
       "id": "swakopmund-swa-sandwich",
       "name": "Sandwich Harbour 4x4",
       "kind": "see",
-      "lat": -23.37,
-      "lon": 14.5,
+      "lat": -23.36667,
+      "lon": 14.48333,
       "wiki": "Sandwich Harbour",
       "summary": "Dunes falling straight into the Atlantic, reached by guided 4x4.",
       "expect": "Tide dependent; guided tours only.",
@@ -113,8 +113,17 @@
         "Tide dependent; guided tours only.",
         "Book a tour with lunch."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 5430,
+          "period": "202511-202610",
+          "title": "Sandwich Harbour",
+          "url": "https://en.wikipedia.org/wiki/Sandwich_Harbour",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q491499"
     },
     {
       "id": "swakopmund-swa-kayak",
@@ -208,7 +217,16 @@
         "Morning tours.",
         "Great for photography."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 88588,
+          "period": "202511-202610",
+          "title": "Namib",
+          "url": "https://en.wikipedia.org/wiki/Namib",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "swakopmund-swa-dunes",
@@ -254,7 +272,16 @@
         "Physical.",
         "Combine both."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 88588,
+          "period": "202511-202610",
+          "title": "Namib",
+          "url": "https://en.wikipedia.org/wiki/Namib",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "swakopmund-swa-town",
@@ -301,7 +328,16 @@
         "Free.",
         "Sunset on the jetty."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 147365,
+          "period": "202511-202610",
+          "title": "Swakopmund",
+          "url": "https://en.wikipedia.org/wiki/Swakopmund",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "swakopmund-swa-moon",
@@ -348,14 +384,23 @@
         "Self-drive with the permit map."
       ],
       "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 93908,
+          "period": "202511-202610",
+          "title": "Welwitschia",
+          "url": "https://en.wikipedia.org/wiki/Welwitschia",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "swakopmund-swa-capecross",
       "name": "Cape Cross seal colony",
       "kind": "see",
-      "lat": -21.77,
-      "lon": 13.95,
+      "lat": -21.77278,
+      "lon": 13.95083,
       "wiki": "Cape Cross",
       "summary": "Huge colony of tens of thousands of Cape fur seals.",
       "expect": "Smelly; 1.5 hours north.",
@@ -394,8 +439,17 @@
         "Smelly; 1.5 hours north.",
         "Visit with the Skeleton Coast drive."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 8773,
+          "period": "202511-202610",
+          "title": "Cape Cross",
+          "url": "https://en.wikipedia.org/wiki/Cape_Cross",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q858128"
     },
     {
       "id": "swakopmund-swa-oysters",
@@ -458,8 +512,8 @@
       "id": "swakopmund-swa-tug",
       "name": "The Tug",
       "kind": "eat",
-      "lat": -22.676,
-      "lon": 14.523,
+      "lat": -22.68109,
+      "lon": 14.52192,
       "wiki": "Swakopmund",
       "summary": "Restaurant built around an old tugboat by the jetty, known for seafood.",
       "expect": "Book for sunset.",
@@ -498,7 +552,6 @@
         "Book for sunset.",
         "Order the kingklip."
       ],
-      "pinApproximate": true,
       "venueType": "restaurant",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -569,5 +622,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q59698"
 }

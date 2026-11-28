@@ -106,7 +106,16 @@
         "Season June to November.",
         "Listen for the whale crier."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 24549,
+          "period": "202511-202610",
+          "title": "Hermanus",
+          "url": "https://en.wikipedia.org/wiki/Hermanus",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "hermanus-her-boat",
@@ -153,14 +162,23 @@
         "Season only.",
         "Go in calm morning water."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 77025,
+          "period": "202511-202610",
+          "title": "Southern right whale",
+          "url": "https://en.wikipedia.org/wiki/Southern_right_whale",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "hermanus-her-shark",
       "name": "Shark cage diving at Gansbaai",
       "kind": "see",
-      "lat": -34.58,
-      "lon": 19.35,
+      "lat": -34.58278,
+      "lon": 19.35222,
       "wiki": "Gansbaai",
       "summary": "Cage diving with sharks in \"Shark Alley\".",
       "expect": "Seasonal sightings vary; seasickness possible.",
@@ -200,8 +218,17 @@
         "Seasonal sightings vary; seasickness possible.",
         "Choose an operator with conservation focus."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 16975,
+          "period": "202511-202610",
+          "title": "Gansbaai",
+          "url": "https://en.wikipedia.org/wiki/Gansbaai",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1493629"
     },
     {
       "id": "hermanus-her-wine",
@@ -254,8 +281,8 @@
       "id": "hermanus-her-agulhas",
       "name": "Cape Agulhas",
       "kind": "see",
-      "lat": -34.829,
-      "lon": 20.009,
+      "lat": -34.83322,
+      "lon": 20,
       "wiki": "Cape Agulhas",
       "summary": "Africa's southernmost point, where two oceans meet, with a lighthouse.",
       "expect": "2 hours each way.",
@@ -295,15 +322,24 @@
         "2 hours each way.",
         "Climb the lighthouse."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 80478,
+          "period": "202511-202610",
+          "title": "Cape Agulhas",
+          "url": "https://en.wikipedia.org/wiki/Cape_Agulhas",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q4085"
     },
     {
       "id": "hermanus-her-fernkloof",
       "name": "Fernkloof Nature Reserve",
       "kind": "see",
-      "lat": -34.395,
-      "lon": 19.265,
+      "lat": -34.38722,
+      "lon": 19.27728,
       "wiki": "Fernkloof Nature Reserve",
       "summary": "Fynbos trails above town with sea views.",
       "expect": "Free.",
@@ -342,7 +378,16 @@
         "Free.",
         "Walk in spring for flowers."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 570,
+          "period": "202511-202610",
+          "title": "Fernkloof Nature Reserve",
+          "url": "https://en.wikipedia.org/wiki/Fernkloof_Nature_Reserve",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5445118"
     },
     {
       "id": "hermanus-her-seafood",
@@ -516,5 +561,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1613480"
 }

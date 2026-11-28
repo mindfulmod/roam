@@ -71,8 +71,8 @@
       "id": "ouarzazate-oua-ait",
       "name": "Aït Benhaddou",
       "kind": "see",
-      "lat": 31.047,
-      "lon": -7.129,
+      "lat": 31.04722,
+      "lon": -7.12889,
       "wiki": "Aït Benhaddou",
       "summary": "UNESCO fortified mud-brick village on a hill, a film set many times over.",
       "expect": "Free to walk; small fees for houses.",
@@ -112,15 +112,28 @@
         "Free to walk; small fees for houses.",
         "Climb to the granary at sunset."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 120308,
+          "period": "202511-202610",
+          "title": "Aït Benhaddou",
+          "url": "https://en.wikipedia.org/wiki/A%C3%AFt_Benhaddou",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q309436",
+      "local": {
+        "name": "قصر أيت بن حدو",
+        "lang": "ar"
+      }
     },
     {
       "id": "ouarzazate-oua-taourirt",
       "name": "Taourirt Kasbah",
       "kind": "see",
-      "lat": 30.918,
-      "lon": -6.888,
+      "lat": 30.92,
+      "lon": -6.89933,
       "wiki": "Taourirt Kasbah",
       "summary": "Glaoui family kasbah with painted rooms.",
       "expect": "Small fee.",
@@ -160,14 +173,27 @@
         "Small fee.",
         "Look at the cedar ceilings."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 7364,
+          "period": "202511-202610",
+          "title": "Kasbah Taourirt",
+          "url": "https://en.wikipedia.org/wiki/Kasbah_Taourirt",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q16593169",
+      "local": {
+        "name": "قصر تاوريرت",
+        "lang": "ar"
+      }
     },
     {
       "id": "ouarzazate-oua-studios",
       "name": "Atlas Film Studios",
       "kind": "see",
-      "lat": 30.93,
-      "lon": -6.865,
+      "lat": 30.94167,
+      "lon": -6.96667,
       "wiki": "Atlas Studios",
       "summary": "Film studio with sets from Gladiator and Game of Thrones.",
       "expect": "Paid; guided.",
@@ -206,14 +232,27 @@
         "Paid; guided.",
         "Combine with town sights."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 11291,
+          "period": "202511-202610",
+          "title": "Atlas Corporation Studios",
+          "url": "https://en.wikipedia.org/wiki/Atlas_Corporation_Studios",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q757166",
+      "local": {
+        "name": "استوديوهات أطلس",
+        "lang": "ar"
+      }
     },
     {
       "id": "ouarzazate-oua-dades",
       "name": "Dades Gorge",
       "kind": "see",
-      "lat": 31.53,
-      "lon": -5.93,
+      "lat": 31.482,
+      "lon": -5.956,
       "wiki": "Dades Gorges",
       "summary": "Winding road through red rock formations and kasbahs.",
       "expect": "About 2.5 hours away.",
@@ -253,8 +292,21 @@
         "About 2.5 hours away.",
         "Stop at the switchback viewpoint."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 25,
+          "period": "202511-202610",
+          "title": "Dades Gorges",
+          "url": "https://en.wikipedia.org/wiki/Dades_Gorges",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q901124",
+      "local": {
+        "name": "مضايق دادس",
+        "lang": "ar"
+      }
     },
     {
       "id": "ouarzazate-oua-todra",
@@ -301,8 +353,21 @@
         "3.5 hours away.",
         "Walk into the narrows."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 9499,
+          "period": "202511-202610",
+          "title": "Todgha Gorge",
+          "url": "https://en.wikipedia.org/wiki/Todgha_Gorge",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q3111026",
+      "local": {
+        "name": "مضايق تودغى",
+        "lang": "ar"
+      }
     },
     {
       "id": "ouarzazate-oua-fint",
@@ -348,7 +413,16 @@
         "Rough track.",
         "Have tea with a local family."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 62580,
+          "period": "202511-202610",
+          "title": "Ouarzazate",
+          "url": "https://en.wikipedia.org/wiki/Ouarzazate",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "ouarzazate-oua-tagine",
@@ -521,5 +595,11 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q505208",
+  "local": {
+    "name": "ورزازات",
+    "lang": "ar"
+  }
 }
