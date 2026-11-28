@@ -42,9 +42,9 @@ GB a month ([pricing](https://supabase.com/pricing)). A hundred typical trips is
 
 | # | How it could go wrong | What stops it | Status |
 | --- | --- | --- | --- |
-| 1 | Someone without an account opens a photo address | The bucket is private and the signed-out role has no rights | Built, tested |
-| 2 | A member who is not on the trip guesses a trip or photo id | Row level security on the row and on the file; ids are random | Built, tested |
-| 3 | A viewer keeps a photo's address after it is hidden, or after they are removed | The file is checked against the same rule every time an address is issued | Built, tested |
+| 1 | Someone without an account opens a photo address | The bucket is private and the signed-out role has no rights | Built, tested (also on a real Supabase) |
+| 2 | A member who is not on the trip guesses a trip or photo id | Row level security on the row and on the file; ids are random | Built, tested (also on a real Supabase) |
+| 3 | A viewer keeps a photo's address after it is hidden, or after they are removed | The file is checked against the same rule on every fetch | Built, tested (also on a real Supabase) |
 | 4 | A photo address is forwarded to someone else | Only short-lived signed addresses are issued (see "To build") | To build |
 | 5 | One traveller widens the audience alone | Each person can change only their own choice; the most private wins | Built, tested |
 | 6 | One traveller ends the trip early by editing its date, opening it to viewers | A trip that has not ended cannot be back-dated | Built, tested |
@@ -57,7 +57,7 @@ GB a month ([pricing](https://supabase.com/pricing)). A hundred typical trips is
 | 13 | A viewer screenshots or saves a photo | Nothing technical can stop this. It is why every traveller approves each viewer | Accepted |
 | 14 | A viewer's or traveller's account is taken over | Emailed sign-in codes; a "sign out everywhere" button; short sessions | To build |
 | 15 | Backups keep photos after they are deleted | Say so in the privacy page; backups roll off within the provider's window | To write |
-| 16 | A deleted photo's file is left behind | Delete file and row together; a nightly sweep removes files with no row | To build |
+| 16 | A deleted photo's file is left behind | The app deletes file and row together; a daily sweep (`.github/workflows/sweep-photos.yml`) removes files more than a day old with no row, which covers leaving a trip, leaving Tandem Roads and deleted trips | Built, tested on a real Supabase |
 | 17 | Photos are cached by a shared computer or a CDN | Serve with `Cache-Control: private` and short-lived addresses | To build |
 | 18 | Someone uploads a huge or non-image file | The bucket accepts only JPEG and WebP up to 1.5 MB | Built (bucket settings) |
 | 19 | An illegal image is uploaded | Report button and the procedure in the privacy plan; no automatic scanning of private files yet | Open |
@@ -77,6 +77,8 @@ GB a month ([pricing](https://supabase.com/pricing)). A hundred typical trips is
 
 ## What this review did not cover
 
-The tests run against an imitation of Supabase's sign-in and file tables, because there is no
-project yet. Before real photos go in, run them once against a real Supabase and try routes
-1 to 3 by hand with two real accounts.
+The privacy tests run against an imitation of Supabase's sign-in and file tables, and again on
+a real local Supabase in every pull request that touches the database. Routes 1 to 3 are also
+tried there with real accounts and real files (`tests/e2e/triplog.e2e.mjs`): signed out, a
+friend who is not on the trip, and a viewer after a traveller hides the photo. Before real
+photos go in, try them once more by hand on the live project with two real accounts.

@@ -49,8 +49,8 @@ Resend, add a repository **variable** (not a secret) named `EMAIL_FROM`.
 
 **Actions** > **Connect accounts** > **Run workflow**
 ([direct link](https://github.com/mindfulmod/roam/actions/workflows/connect-accounts.yml)). It sets
-up the database, the sign-in emails and your founder account, then redeploys the site: about five
-minutes in all. If a step fails, its log says why in plain words.
+up the database, the sign-in emails and your founder account, copies the guide's places in (so
+any of them can be logged on a shared trip), then redeploys the site: about five minutes in all. If a step fails, its log says why in plain words.
 
 ## 5. Sign in
 
@@ -76,5 +76,8 @@ plan (100 emails a day) is plenty for friends and family.
 - `data/backend.json`: the project's address and publishable key, written by the workflow. Both
   are meant to be public; the database rules decide what anyone can read or change. An empty
   `{}` means accounts are off and the social pages show the sample.
-- The workflow runs again by itself whenever a merged change touches the database or the
-  sign-in settings, so the live project always matches the code.
+- The workflow runs again by itself whenever a merged change touches the database, the
+  sign-in settings or the guide's cities, so the live project always matches the code.
+- **Sweep trip photos** (`.github/workflows/sweep-photos.yml`) runs every day and removes photo
+  files that no photo points at any more, such as those of someone who left a trip. It uses the
+  same two Supabase secrets and does nothing until they are there.

@@ -9,10 +9,13 @@ select t.refused('select * from public.' || tbl, 'signed out: cannot read ' || t
 from unnest(array[
   'profiles', 'account_private', 'app_admins', 'friendships', 'trips', 'trip_travellers',
   'trip_traveller_settings', 'trip_traveller_approvals', 'trip_viewers', 'trip_viewer_approvals',
-  'trip_private_links', 'places', 'trip_stops', 'photos', 'photo_hides'
+  'trip_private_links', 'places', 'trip_stops', 'photos', 'photo_hides',
+  'trip_stop_corrections', 'trip_stop_absences'
 ]) tbl;
 select t.refused($$select public.create_trip('x')$$, 'signed out: cannot start a trip');
 select t.refused($$select * from public.my_trip_invites()$$, 'signed out: cannot list invites');
+select t.refused(format($$select public.trip_log(%L)$$, :'trip'), 'signed out: cannot fetch a trip''s log');
+select t.refused(format($$select public.close_stop(%L, '12:00')$$, t.id('stop-alex')), 'signed out: cannot close a stop');
 select t.sees($$select 1 from storage.objects$$, 0, 'signed out: cannot fetch any photo file');
 
 -- Knowing a trip's address is worth nothing: a signed-in stranger sees none of it.

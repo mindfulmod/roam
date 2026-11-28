@@ -10,7 +10,8 @@ owner: [accounts-setup.md](accounts-setup.md).
 - They run on every pull request against a stand-in for Supabase (the `privacy` job in
   `.github/workflows/check.yml`), and against a real local Supabase whenever the database or
   sign-in code changes (`.github/workflows/accounts.yml`, which also signs people in through
-  the real sign-in service: `tests/e2e/backend.e2e.mjs`)
+  the real sign-in service, `tests/e2e/backend.e2e.mjs`, and logs a trip together through the
+  same calls the phones make, photo files included, `tests/e2e/triplog.e2e.mjs`)
 
 ## The rules, and where each is enforced
 
@@ -25,7 +26,12 @@ owner: [accounts-setup.md](accounts-setup.md).
 | Viewers see a trip after it ends, unless all agree to live | `viewers_after` opens the trip once `ends_on` has passed; before that every traveller must be on `viewers_live` | `20_trip_sharing` |
 | Any traveller can hide a photo | A photo with any row in `photo_hides` is not sent to viewers, and neither is its file. Only the person who hid it can undo that | `40_photos` |
 | No single owner | `trips` has no owner column. Joining needs every traveller's approval, nobody can remove anyone else, and deleting the trip needs everyone | `30_travellers` |
-| Leaving takes your part with you | Your photos and notes are deleted, your name comes off the stops, the places stay | `30_travellers` |
+| Leaving takes your part with you | Your photos and notes are deleted, your name comes off the stops, the places stay. Your suggestions and "I wasn't there" marks go too | `30_travellers`, `95_trip_log` |
+| Any traveller can add to the trip log | Every traveller can log a stop. A stop is changed or removed only by whoever logged it; once they leave the trip it belongs to the whole group | `95_trip_log` |
+| Anyone can propose corrections | A suggestion goes in `trip_stop_corrections`. Only the person who logged the stop accepts or turns it down, through `answer_stop_correction()` (once they have left the trip, anyone on it can) | `95_trip_log` |
+| Anyone on the trip can say "we've left" | `close_stop()` sets the leaving time of a stop that is still open, for any traveller; the first time sent stands | `95_trip_log` |
+| You can say you were not there | One row in `trip_stop_absences`, yours alone to add or take back. Viewers never see it | `95_trip_log` |
+| Viewers see the story, not the workings | `trip_log()` hands a viewer the stops and the photos nobody hid. Suggestions and "I wasn't there" are for travellers only | `95_trip_log` |
 | The person who runs the app has no back door | Admins can read the place review queue and nothing of private trips | `10_accounts_required`, `50_places` |
 | Email is never shown | Email stays in Supabase's sign-in tables; no app table has an email column, and the data download leaves it out | `60_profiles_friends`, `90_blocks_reports_leaving` |
 | Joining is by invite only | Supabase asks `private.before_user_created` before it makes any sign-in account. It says yes only to the owner's email or to someone holding a valid invite link; everyone else is told it is invite-only, and no email is sent | `80_joining`, e2e |
@@ -36,8 +42,8 @@ owner: [accounts-setup.md](accounts-setup.md).
 | Reports reach the person who runs the app, and nothing more | The admin sees who reported whom and why, never the trips | `90_blocks_reports_leaving` |
 | Leaving is quick to start and slow to finish | You vanish from friends at once. Everything is deleted after 30 days unless you sign in and come back; once you have asked, "delete now" is there too | `90_blocks_reports_leaving` |
 | Your data is yours to take | `export_my_data()` returns everything the database holds that you made, and nobody else's notes | `90_blocks_reports_leaving` |
-| Names are plain text | Names, home city, one line and travel style refuse control characters and hidden direction marks | `80_joining` |
-| Nobody can flood anyone | At most 10 open invite links and 20 a day, 30 friend requests waiting, 20 reports a day | `80_joining`, `90_blocks_reports_leaving` |
+| Names are plain text | Names, home city, one line and travel style refuse control characters and hidden direction marks. So do stop notes (line breaks allowed), photo captions, suggestion reasons and the names of places members add | `80_joining`, `95_trip_log` |
+| Nobody can flood anyone | At most 10 open invite links and 20 a day, 30 friend requests waiting, 20 reports a day, 3,000 stops on a trip, 50 open suggestions per person on a trip | `80_joining`, `90_blocks_reports_leaving`, `95_trip_log` |
 | Members are 16 or over | Joining asks for an age band, `16-17` or `18+` | `80_joining` |
 
 `70_structure` also guards whatever is added later: it fails the pull request if a new table
@@ -64,7 +70,8 @@ could sidestep the rules.
 
 **Trips**
 
-- `trips`: title, dates, cover photo.
+- `trips`: title, dates, cover photo, and `log_version`, a counter that goes up whenever
+  anything in the trip's log changes (see `trip_log()` below).
 - `trip_travellers`: who is on the trip, `invited` or `active`.
 - `trip_traveller_settings`: each traveller's own sharing choice and their vote to delete.
   Kept apart so viewers can see who travelled without seeing who chose what.
@@ -73,12 +80,20 @@ could sidestep the rules.
   travellers have agreed.
 - `trip_private_links`: links only travellers see, such as the full album in Google Photos or
   iCloud.
-- `trip_stops`: a place on a day, with times and a note.
+- `trip_stops`: a place on a day, who logged it, the arrival and leaving times, whether those
+  times are a guess (`est`, for stops caught up afterwards), and a note. Times are clock times
+  at the place (`time`, with no time zone): 09:30 in Kyoto is stored as 09:30.
+- `trip_stop_corrections`: a traveller's suggested change to someone else's stop (another
+  place, day or times, or "remove it"), with a short reason, and whether it was accepted or
+  turned down.
+- `trip_stop_absences`: "I wasn't there", one row per traveller per stop.
 
 **Places**, in one table with a `kind`:
 
 - `guide`: a place in the Tandem Roads guide. Uses the same id as `data/cities` (for example
-  `tokyo-sensoji`) and is written only by the server.
+  `tokyo-sensoji`) and is written only by the server: the Connect accounts workflow copies every
+  guide place in (`scripts/supabase/guide-places.mjs`), and again after any change to
+  `data/cities`. Rows are added or updated, never removed.
 - `private`: added by a member. Seen by its maker, and by whoever can see a trip that stops
   there.
 - `submitted`: a member's place sent for review with `submit_place_for_review()`. The admin
@@ -92,6 +107,8 @@ could sidestep the rules.
 - `photo_hides`: one row per traveller hiding a photo from viewers.
 - Files sit in the private bucket `trip-photos` at `<trip_id>/<photo_id>.<ext>`, with the same
   rules as the `photos` row.
+- Removing a stop keeps the photos on it (they stay on the trip with no stop), so one person
+  tidying the log never deletes someone else's photos.
 
 ## How the app talks to it
 
@@ -113,6 +130,11 @@ than their answer:
 | `create_trip(title, starts_on, ends_on)` | Starts a trip with the caller as its first traveller |
 | `my_trip_invites()` | Invites waiting for the caller, with the trip title and who asked |
 | `accept_trip_invite(trip_id)` | Joins, once every traveller has approved |
+| `my_trips()` | The trips you travel on: title, dates, log version and how many travellers |
+| `trip_log(trip_id, version)` | The whole log of one trip in one answer: travellers, stops, the members' places they use, photos (with who hid them, for travellers), open and recent suggestions, and "I wasn't there" marks. Pass the version you already have and an unchanged log comes back as `{version, same: true}`. Nothing at all for someone who may not see the trip |
+| `trip_needs()` | What is waiting for you: trip invites (and whether they can be accepted yet), people waiting for your yes to travel or to view, and suggestions on stops you logged |
+| `close_stop(stop_id, left_at)` | "We've left": sets the leaving time of a stop still open, for any traveller. Returns false if someone already did |
+| `answer_stop_correction(id, accept)` | The person who logged the stop accepts or turns down a suggestion. Returns `accepted`, `removed` or `declined` |
 | `submit_place_for_review(place_id)` | Sends one of your places to the review queue |
 | `admin_review_place(place_id, approve, guide_place_id, note)` | The admin's answer |
 
@@ -132,6 +154,14 @@ Common moves as table calls:
 - Leave a trip, or turn down an invite: delete your row in `trip_travellers`.
 - Vote to delete a trip: set `agrees_delete` on your settings row.
 - Hide a photo: insert into `photo_hides`. Show it again: delete your row.
+- Log a stop: insert into `trip_stops` with an id the phone made, through
+  `?on_conflict=id` with `Prefer: resolution=ignore-duplicates`, so sending it again after a
+  lost answer changes nothing. Change or remove your own stops as usual.
+- Suggest a change to someone else's stop: insert into `trip_stop_corrections`. Take it back:
+  delete it while it is still open.
+- Say you were not at a stop: insert into `trip_stop_absences`. Take it back: delete it.
+- Add a photo: upload its file to `trip-photos/<trip_id>/<photo_id>.jpg` first, then insert the
+  `photos` row with the same id. A file whose row never arrives is removed by the sweep.
 
 ## Things to know before building on it
 
@@ -145,9 +175,17 @@ Common moves as table calls:
 - **Trip end dates.** A trip that has not ended cannot be given an end date in the past,
   because that would open it to viewers on one person's say. A traveller can still shorten a
   trip to end today; the others can answer by narrowing their own choice.
-- **Dates are UTC.** A trip is "over" from 00:00 UTC on the day after `ends_on`.
-- **Deleting a photo row does not delete its file.** The upload code must remove both, and a
-  scheduled sweep should clear files with no row.
+- **Dates are UTC.** A trip is "over" from 00:00 UTC on the day after `ends_on`. Stop days and
+  times are the exception: they are the date and clock at the place, as the phone there read
+  them.
+- **Ask for the log with your version.** `trip_log(trip, version)` costs a few bytes when
+  nothing changed, so a phone can ask often. The counter covers everything the answer holds,
+  including a member's place being renamed and a traveller joining or leaving.
+- **Deleting a photo row does not delete its file.** The app removes both when someone deletes
+  their own photo. Everything else (leaving a trip, leaving Tandem Roads, a deleted trip, a file
+  whose row never arrived) is caught by a daily sweep, `scripts/supabase/sweep-photos.mjs`, run by
+  `.github/workflows/sweep-photos.yml`, which removes files more than a day old that no photo row
+  points at.
 - **Someone leaving is invisible, not gone.** For 30 days their rows stay, their invite links
   stop working, and friends no longer see them. Their trips are untouched until the account is
   finally deleted, when "leaving takes your part with you" applies.
@@ -157,15 +195,15 @@ Common moves as table calls:
 
 ## Not in this pass
 
-Comments, hearts, "want to go", polls, bookings and costs, and the script that copies guide
-places from `data/cities` into `places`. Each needs its own tables with row level security and
-tests in the same style.
+Comments, hearts, "want to go", polls, bookings and costs. Each needs its own tables with row
+level security and tests in the same style.
 
 ## The live project
 
 [accounts-setup.md](accounts-setup.md) is the owner's checklist. The **Connect accounts**
 workflow then applies the migrations, sets the sign-in choices, records the owner's email (the
-owner becomes the first admin on first sign-in) and writes the project's address and
-publishable key to `data/backend.json`. It runs again by itself when a merged change touches
-the migrations or sign-in settings. The `service_role` and secret keys are never used by the app
+owner becomes the first admin on first sign-in), copies the guide's places into `places`, and
+writes the project's address and publishable key to `data/backend.json`. It runs again by itself
+when a merged change touches the migrations, the sign-in settings or `data/cities`. The photo
+sweep runs every day and does nothing until accounts are set up. The `service_role` and secret keys are never used by the app
 and never stored in the repository.

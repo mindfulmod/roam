@@ -70,3 +70,28 @@ test('the sign-up hook named in the settings exists in the migrations', async ()
     ),
   );
 });
+
+test('every place in the guide goes to the database, so any of them can be logged together', async () => {
+  const { guidePlaces, guideSql } = await import('../scripts/supabase/guide-places.mjs');
+  const { readdir } = await import('node:fs/promises');
+  const dir = path.join(root, 'data/cities');
+  let items = 0;
+  for (const f of await readdir(dir))
+    items += JSON.parse(await readFile(path.join(dir, f), 'utf8')).items.length;
+  const rows = await guidePlaces();
+  assert.equal(rows.length, items, 'a guide place was left out, so a shared trip could not log it');
+  for (const r of rows) {
+    assert.doesNotMatch(r.id, /^u-/, `${r.id}: "u-" ids are for places members add`);
+    assert.ok(r.name && r.name.length <= 120 && r.city_id, r.id);
+  }
+  const batches = guideSql(rows, 1000);
+  assert.equal(batches.length, Math.ceil(rows.length / 1000));
+  const back = batches.flatMap((q) =>
+    JSON.parse(Buffer.from(q.match(/decode\('([0-9a-f]+)'/)[1], 'hex').toString('utf8')),
+  );
+  assert.deepEqual(back, rows, 'the rows reach the database exactly as read');
+  // The only part of the SQL that changes from batch to batch is the hex, so no name can alter it.
+  const shape = new Set(batches.map((q) => q.replace(/decode\('[0-9a-f]+', 'hex'\)/, 'decode(…)')));
+  assert.equal(shape.size, 1);
+  assert.doesNotMatch([...shape][0], /[0-9a-f]{40}/);
+});

@@ -6,6 +6,8 @@
 //   2. The founder email, so the first sign-in (whoever runs the app) can join without an invite.
 //   3. The project's address and publishable key, written to data/backend.json for the app. Both
 //      are meant to be public: what anyone may read or change is decided by the database rules.
+//   4. The guide's places (scripts/supabase/guide-places.mjs), so a stop logged at a guide place
+//      on a shared trip has its place row. Added or updated, never removed.
 //
 // Needs SUPABASE_ACCESS_TOKEN, SUPABASE_PROJECT_REF, RESEND_API_KEY and ADMIN_EMAIL; EMAIL_FROM
 // is optional. Nothing secret is ever printed.
@@ -13,6 +15,7 @@ import { readFile, writeFile } from 'node:fs/promises';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { AUTH, SMTP, TEMPLATE, DEFAULT_FROM } from './auth-settings.mjs';
+import { guidePlaces, guideSql } from './guide-places.mjs';
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const env = (k) => (process.env[k] || '').trim();
@@ -100,3 +103,8 @@ if (!pick) {
 const backend = { url: `https://${ref}.supabase.co`, key: pick.api_key };
 await writeFile(path.join(root, 'data/backend.json'), JSON.stringify(backend, null, 2) + '\n');
 console.log(`ok      data/backend.json points at ${backend.url} (${pick.type} key)`);
+
+// 4. The guide's places, a few hundred at a time.
+const places = await guidePlaces();
+for (const query of guideSql(places, 300)) await api('POST', '/database/query', { query });
+console.log(`ok      ${places.length} guide places in the database`);
