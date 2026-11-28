@@ -70,8 +70,8 @@
       "id": "monterey-mon-aquarium",
       "name": "Monterey Bay Aquarium",
       "kind": "see",
-      "lat": 36.618,
-      "lon": -121.902,
+      "lat": 36.6181,
+      "lon": -121.9019,
       "wiki": "Monterey Bay Aquarium",
       "summary": "Kelp forest tank, jellyfish and rescued sea otters.",
       "expect": "Paid; book ahead.",
@@ -110,7 +110,16 @@
         "Paid; book ahead.",
         "Catch the otter feeding."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 68339,
+          "period": "202511-202610",
+          "title": "Monterey Bay Aquarium",
+          "url": "https://en.wikipedia.org/wiki/Monterey_Bay_Aquarium",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1754233"
     },
     {
       "id": "monterey-mon-kayak",
@@ -157,14 +166,23 @@
         "Rentals at the wharf.",
         "Keep your distance from otters."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 71985,
+          "period": "202511-202610",
+          "title": "Monterey Bay",
+          "url": "https://en.wikipedia.org/wiki/Monterey_Bay",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "monterey-mon-17mile",
       "name": "17-Mile Drive",
       "kind": "see",
-      "lat": 36.568,
-      "lon": -121.965,
+      "lat": 36.58484,
+      "lon": -121.9651,
       "wiki": "17-Mile Drive",
       "summary": "Coastal toll road past the Lone Cypress and golf links.",
       "expect": "Toll per car.",
@@ -204,14 +222,23 @@
         "Toll per car.",
         "Stop at Bird Rock."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 29152,
+          "period": "202511-202610",
+          "title": "17-Mile Drive",
+          "url": "https://en.wikipedia.org/wiki/17-Mile_Drive",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q197257"
     },
     {
       "id": "monterey-mon-carmel",
       "name": "Carmel-by-the-Sea",
       "kind": "see",
-      "lat": 36.555,
-      "lon": -121.923,
+      "lat": 36.55528,
+      "lon": -121.92333,
       "wiki": "Carmel-by-the-Sea, California",
       "summary": "Storybook cottages, galleries and a white-sand beach.",
       "expect": "Free.",
@@ -252,14 +279,23 @@
         "Free.",
         "Walk to the beach for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 280328,
+          "period": "202511-202610",
+          "title": "Carmel-by-the-Sea, California",
+          "url": "https://en.wikipedia.org/wiki/Carmel-by-the-Sea%2C_California",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q625458"
     },
     {
       "id": "monterey-mon-lobos",
       "name": "Point Lobos",
       "kind": "see",
-      "lat": 36.516,
-      "lon": -121.94,
+      "lat": 36.5171,
+      "lon": -121.9426,
       "wiki": "Point Lobos State Natural Reserve",
       "summary": "Cypress headlands, coves and seals.",
       "expect": "Paid parking; arrive early.",
@@ -298,14 +334,23 @@
         "Paid parking; arrive early.",
         "Walk the Cypress Grove trail."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20453,
+          "period": "202511-202610",
+          "title": "Point Lobos",
+          "url": "https://en.wikipedia.org/wiki/Point_Lobos",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q38055382"
     },
     {
       "id": "monterey-mon-bigsur",
       "name": "Bixby Bridge and Big Sur",
       "kind": "see",
-      "lat": 36.371,
-      "lon": -121.901,
+      "lat": 36.37139,
+      "lon": -121.90194,
       "wiki": "Bixby Creek Bridge",
       "summary": "Highway 1 over the famous arched bridge along cliffs.",
       "expect": "Check road closures.",
@@ -345,14 +390,23 @@
         "Check road closures.",
         "Pull over safely."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 39065,
+          "period": "202511-202610",
+          "title": "Bixby Bridge",
+          "url": "https://en.wikipedia.org/wiki/Bixby_Bridge",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q4919293"
     },
     {
       "id": "monterey-mon-mcway",
       "name": "McWay Falls",
       "kind": "see",
-      "lat": 36.158,
-      "lon": -121.672,
+      "lat": 36.15781,
+      "lon": -121.67214,
       "wiki": "McWay Falls",
       "summary": "Waterfall dropping straight onto a beach.",
       "expect": "Short walk from parking.",
@@ -392,8 +446,17 @@
         "Short walk from parking.",
         "Late afternoon light."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 21011,
+          "period": "202511-202610",
+          "title": "McWay Falls",
+          "url": "https://en.wikipedia.org/wiki/McWay_Falls",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q6802765"
     },
     {
       "id": "monterey-mon-chowder",
@@ -456,8 +519,8 @@
       "id": "monterey-mon-seafood",
       "name": "Seafood on Cannery Row",
       "kind": "eat",
-      "lat": 36.615,
-      "lon": -121.899,
+      "lat": 36.6165,
+      "lon": -121.9006,
       "wiki": "Cannery Row",
       "summary": "Dungeness crab and local fish.",
       "expect": "Dinner.",
@@ -496,7 +559,6 @@
         "Dinner.",
         "Book a bay-view table."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Seafood",
       "mustOrder": [
@@ -508,7 +570,8 @@
         "vegetarian": "no",
         "evidence": [],
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
-      }
+      },
+      "wikidata": "Q1033387"
     },
     {
       "id": "monterey-mon-artichoke",
@@ -567,5 +630,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q487315"
 }

@@ -105,7 +105,16 @@
         "Reservations needed at most.",
         "Do two or three a day, not more."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 34423,
+          "period": "202511-202610",
+          "title": "Napa Valley AVA",
+          "url": "https://en.wikipedia.org/wiki/Napa_Valley_AVA",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "napa-nap-balloon",
@@ -152,7 +161,16 @@
         "Weather permitting.",
         "Book ahead."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 34423,
+          "period": "202511-202610",
+          "title": "Napa Valley AVA",
+          "url": "https://en.wikipedia.org/wiki/Napa_Valley_AVA",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "napa-nap-train",
@@ -199,14 +217,23 @@
         "Paid; lunch or dinner.",
         "Choose a winery-stop package."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 10165,
+          "period": "202511-202610",
+          "title": "Napa Valley Wine Train",
+          "url": "https://en.wikipedia.org/wiki/Napa_Valley_Wine_Train",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "napa-nap-mud",
       "name": "Calistoga mud baths",
       "kind": "see",
-      "lat": 38.579,
-      "lon": -122.579,
+      "lat": 38.58139,
+      "lon": -122.58278,
       "wiki": "Calistoga, California",
       "summary": "Volcanic ash mud baths and hot springs.",
       "expect": "Book a spa.",
@@ -245,14 +272,23 @@
         "Book a spa.",
         "End with a mineral pool."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27233,
+          "period": "202511-202610",
+          "title": "Calistoga, California",
+          "url": "https://en.wikipedia.org/wiki/Calistoga%2C_California",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q983598"
     },
     {
       "id": "napa-nap-castello",
       "name": "Castello di Amorosa",
       "kind": "see",
-      "lat": 38.559,
-      "lon": -122.543,
+      "lat": 38.5584,
+      "lon": -122.5427,
       "wiki": "Castello di Amorosa",
       "summary": "Winery built as a medieval Tuscan castle.",
       "expect": "Paid tours.",
@@ -292,7 +328,16 @@
         "Paid tours.",
         "Book the tour."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16649,
+          "period": "202511-202610",
+          "title": "Castello di Amorosa",
+          "url": "https://en.wikipedia.org/wiki/Castello_di_Amorosa",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1913305"
     },
     {
       "id": "napa-nap-oxbow",
@@ -356,8 +401,8 @@
       "id": "napa-nap-yountville",
       "name": "Yountville dining",
       "kind": "eat",
-      "lat": 38.401,
-      "lon": -122.36,
+      "lat": 38.40306,
+      "lon": -122.36222,
       "wiki": "Yountville, California",
       "summary": "Small town of famous restaurants, from fine dining to bistros.",
       "expect": "Book weeks ahead for the top tables.",
@@ -396,7 +441,6 @@
         "Book weeks ahead for the top tables.",
         "Bouchon Bakery for something easier."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Californian",
       "mustOrder": [
@@ -408,14 +452,15 @@
         "vegetarian": "yes",
         "evidence": [],
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
-      }
+      },
+      "wikidata": "Q2781893"
     },
     {
       "id": "napa-nap-taco",
       "name": "Taqueria in Napa town",
       "kind": "eat",
-      "lat": 38.2995,
-      "lon": -122.2899,
+      "lat": 38.30472,
+      "lon": -122.29889,
       "wiki": "Napa, California",
       "summary": "Cheap, excellent tacos where vineyard workers eat.",
       "expect": "Easy to find.",
@@ -454,7 +499,6 @@
         "Easy to find.",
         "Ask locals for their favourite."
       ],
-      "pinApproximate": true,
       "venueType": "food-area",
       "cuisine": "Mexican",
       "mustOrder": [
@@ -465,7 +509,10 @@
         "vegetarian": "some",
         "evidence": [],
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
-      }
+      },
+      "wikidata": "Q60537"
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q1151105"
 }

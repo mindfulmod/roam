@@ -66,8 +66,8 @@
       "id": "palm-springs-ps-tram",
       "name": "Palm Springs Aerial Tramway",
       "kind": "see",
-      "lat": 33.837,
-      "lon": -116.614,
+      "lat": 33.83727,
+      "lon": -116.61422,
       "wiki": "Palm Springs Aerial Tramway",
       "summary": "Rotating tram car from desert to pine forest.",
       "expect": "Paid; bring layers.",
@@ -108,7 +108,15 @@
         "Paid; bring layers.",
         "Hike at the top."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 27630,
+          "period": "202511-202610",
+          "title": "Palm Springs Aerial Tramway",
+          "url": "https://en.wikipedia.org/wiki/Palm_Springs_Aerial_Tramway",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "palm-springs-ps-modern",
@@ -154,7 +162,16 @@
         "Guided tours or self-drive maps.",
         "Modernism Week is February."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 394273,
+          "period": "202511-202610",
+          "title": "Palm Springs, California",
+          "url": "https://en.wikipedia.org/wiki/Palm_Springs%2C_California",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "palm-springs-ps-canyons",
@@ -207,8 +224,8 @@
       "id": "palm-springs-ps-joshua",
       "name": "Joshua Tree National Park",
       "kind": "see",
-      "lat": 34.014,
-      "lon": -116.166,
+      "lat": 34.1,
+      "lon": -116.27,
       "wiki": "Joshua Tree National Park",
       "summary": "Boulder piles, Joshua trees and dark skies.",
       "expect": "Park pass.",
@@ -248,15 +265,24 @@
         "Park pass.",
         "Stay for sunset and stars."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 228360,
+          "period": "202511-202610",
+          "title": "Joshua Tree National Park",
+          "url": "https://en.wikipedia.org/wiki/Joshua_Tree_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q735202"
     },
     {
       "id": "palm-springs-ps-museum",
       "name": "Palm Springs Art Museum",
       "kind": "see",
-      "lat": 33.824,
-      "lon": -116.549,
+      "lat": 33.82417,
+      "lon": -116.55,
       "wiki": "Palm Springs Art Museum",
       "summary": "Modern art and architecture in the desert.",
       "expect": "Paid; free Thursday evenings.",
@@ -295,7 +321,16 @@
         "Paid; free Thursday evenings.",
         "Check the architecture centre too."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4012,
+          "period": "202511-202610",
+          "title": "Palm Springs Art Museum",
+          "url": "https://en.wikipedia.org/wiki/Palm_Springs_Art_Museum",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2048123"
     },
     {
       "id": "palm-springs-ps-pool",
@@ -341,7 +376,16 @@
         "Hotels and day passes.",
         "Cabana in spring."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 394273,
+          "period": "202511-202610",
+          "title": "Palm Springs, California",
+          "url": "https://en.wikipedia.org/wiki/Palm_Springs%2C_California",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "palm-springs-ps-date",
@@ -516,5 +560,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q488004"
 }

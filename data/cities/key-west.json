@@ -65,8 +65,8 @@
       "id": "key-west-kw-mallory",
       "name": "Mallory Square sunset",
       "kind": "see",
-      "lat": 24.56,
-      "lon": -81.807,
+      "lat": 24.55998,
+      "lon": -81.80743,
       "wiki": "Mallory Square",
       "summary": "Nightly sunset gathering with street performers.",
       "expect": "Free.",
@@ -106,14 +106,23 @@
         "Free.",
         "Arrive 30 minutes early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 4243,
+          "period": "202511-202610",
+          "title": "Mallory Square",
+          "url": "https://en.wikipedia.org/wiki/Mallory_Square",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1887609"
     },
     {
       "id": "key-west-kw-hemingway",
       "name": "Ernest Hemingway Home and Museum",
       "kind": "see",
-      "lat": 24.551,
-      "lon": -81.801,
+      "lat": 24.55119,
+      "lon": -81.8006,
       "wiki": "Ernest Hemingway House",
       "summary": "Hemingway's house, studio and dozens of six-toed cats.",
       "expect": "Paid; guided tours.",
@@ -152,14 +161,23 @@
         "Paid; guided tours.",
         "Join a tour for the stories."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 47969,
+          "period": "202511-202610",
+          "title": "Ernest Hemingway House",
+          "url": "https://en.wikipedia.org/wiki/Ernest_Hemingway_House",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q280171"
     },
     {
       "id": "key-west-kw-tortugas",
       "name": "Dry Tortugas National Park",
       "kind": "see",
-      "lat": 24.628,
-      "lon": -82.873,
+      "lat": 24.62861,
+      "lon": -82.87333,
       "wiki": "Dry Tortugas National Park",
       "summary": "Ferry or seaplane to a huge brick fort on a remote island, with snorkelling.",
       "expect": "Book months ahead.",
@@ -200,15 +218,24 @@
         "Book months ahead.",
         "Bring snorkel gear."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 97553,
+          "period": "202511-202610",
+          "title": "Dry Tortugas National Park",
+          "url": "https://en.wikipedia.org/wiki/Dry_Tortugas_National_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1143655"
     },
     {
       "id": "key-west-kw-duval",
       "name": "Southernmost Point and Duval Street",
       "kind": "see",
-      "lat": 24.547,
-      "lon": -81.798,
+      "lat": 24.54651,
+      "lon": -81.79748,
       "wiki": "Southernmost point buoy",
       "summary": "The famous buoy and the bar street of the old town.",
       "expect": "Free.",
@@ -247,7 +274,16 @@
         "Free.",
         "Photo at the buoy early."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 26407,
+          "period": "202511-202610",
+          "title": "Southernmost Point Buoy",
+          "url": "https://en.wikipedia.org/wiki/Southernmost_Point_Buoy",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2304747"
     },
     {
       "id": "key-west-kw-reef",
@@ -294,14 +330,23 @@
         "Half-day trips.",
         "Choose a reef-safe operator."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 13626,
+          "period": "202511-202610",
+          "title": "Florida Reef",
+          "url": "https://en.wikipedia.org/wiki/Florida_Reef",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "key-west-kw-fort",
       "name": "Fort Zachary Taylor",
       "kind": "see",
-      "lat": 24.546,
-      "lon": -81.81,
+      "lat": 24.54667,
+      "lon": -81.81056,
       "wiki": "Fort Zachary Taylor Historic State Park",
       "summary": "Civil War fort with the best beach in town.",
       "expect": "Paid entry.",
@@ -341,7 +386,16 @@
         "Paid entry.",
         "Stay for sunset."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 18893,
+          "period": "202511-202610",
+          "title": "Fort Zachary Taylor",
+          "url": "https://en.wikipedia.org/wiki/Fort_Zachary_Taylor",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1162281"
     },
     {
       "id": "key-west-kw-pie",
@@ -516,5 +570,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q485186"
 }

@@ -72,8 +72,8 @@
       "id": "sedona-sed-cathedral",
       "name": "Cathedral Rock",
       "kind": "see",
-      "lat": 34.825,
-      "lon": -111.788,
+      "lat": 34.82002,
+      "lon": -111.79321,
       "wiki": "Cathedral Rock",
       "summary": "Steep scramble up to a saddle between towering red spires.",
       "expect": "Short but steep; Red Rock Pass needed.",
@@ -114,14 +114,23 @@
         "Short but steep; Red Rock Pass needed.",
         "Go at sunrise; use the shuttle."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 20191,
+          "period": "202511-202610",
+          "title": "Cathedral Rock",
+          "url": "https://en.wikipedia.org/wiki/Cathedral_Rock",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q5052274"
     },
     {
       "id": "sedona-sed-devils",
       "name": "Devil's Bridge",
       "kind": "see",
-      "lat": 34.903,
-      "lon": -111.814,
+      "lat": 34.90265,
+      "lon": -111.8137,
       "wiki": "Devil's Bridge (Arizona)",
       "summary": "Hike to a natural sandstone arch you can stand on.",
       "expect": "About 6 km return.",
@@ -160,15 +169,14 @@
       "tradeoffs": [
         "About 6 km return.",
         "Start early to avoid the photo queue."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sedona-sed-chapel",
       "name": "Chapel of the Holy Cross",
       "kind": "see",
-      "lat": 34.832,
-      "lon": -111.767,
+      "lat": 34.83196,
+      "lon": -111.76654,
       "wiki": "Chapel of the Holy Cross (Sedona, Arizona)",
       "summary": "Modern chapel built into the red rock with huge views.",
       "expect": "Free.",
@@ -209,7 +217,16 @@
         "Free.",
         "Go late afternoon."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42076,
+          "period": "202511-202610",
+          "title": "Chapel of the Holy Cross (Sedona, Arizona)",
+          "url": "https://en.wikipedia.org/wiki/Chapel_of_the_Holy_Cross_(Sedona%2C_Arizona)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2426976"
     },
     {
       "id": "sedona-sed-byway",
@@ -256,14 +273,23 @@
         "Pull-outs along the way.",
         "Walk the Bell Rock loop."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 2223,
+          "period": "202511-202610",
+          "title": "Arizona State Route 179",
+          "url": "https://en.wikipedia.org/wiki/Arizona_State_Route_179",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "sedona-sed-slide",
       "name": "Oak Creek Canyon and Slide Rock",
       "kind": "see",
-      "lat": 34.944,
-      "lon": -111.753,
+      "lat": 34.94435,
+      "lon": -111.7528,
       "wiki": "Slide Rock State Park",
       "summary": "Natural water slide in a creek in a forested canyon.",
       "expect": "Paid park; busy in summer.",
@@ -303,7 +329,16 @@
         "Paid park; busy in summer.",
         "Bring water shoes."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 6124,
+          "period": "202511-202610",
+          "title": "Slide Rock State Park",
+          "url": "https://en.wikipedia.org/wiki/Slide_Rock_State_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1268346"
     },
     {
       "id": "sedona-sed-airport",
@@ -349,14 +384,23 @@
         "Small lot; arrive early.",
         "Walk the short loop."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 201502,
+          "period": "202511-202610",
+          "title": "Sedona, Arizona",
+          "url": "https://en.wikipedia.org/wiki/Sedona%2C_Arizona",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "sedona-sed-tlaq",
       "name": "Tlaquepaque Arts Village",
       "kind": "see",
-      "lat": 34.864,
-      "lon": -111.762,
+      "lat": 34.86195,
+      "lon": -111.76291,
       "wiki": "Tlaquepaque Arts and Shopping Village",
       "summary": "Galleries and shops in a Mexican-style village.",
       "expect": "Free.",
@@ -395,8 +439,7 @@
       "tradeoffs": [
         "Free.",
         "Browse in the evening."
-      ],
-      "pinApproximate": true
+      ]
     },
     {
       "id": "sedona-sed-stars",
@@ -442,7 +485,16 @@
         "Telescope tours nightly.",
         "Check the moon phase."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 201502,
+          "period": "202511-202610",
+          "title": "Sedona, Arizona",
+          "url": "https://en.wikipedia.org/wiki/Sedona%2C_Arizona",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "sedona-sed-sw",
@@ -618,5 +670,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q80041"
 }

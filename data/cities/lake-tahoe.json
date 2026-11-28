@@ -67,8 +67,8 @@
       "id": "lake-tahoe-tah-emerald",
       "name": "Emerald Bay and Vikingsholm",
       "kind": "see",
-      "lat": 38.954,
-      "lon": -120.11,
+      "lat": 38.95361,
+      "lon": -120.09389,
       "wiki": "Emerald Bay State Park",
       "summary": "Turquoise bay with an island teahouse and a Scandinavian mansion below.",
       "expect": "Steep 1.6 km walk down.",
@@ -109,7 +109,16 @@
         "Steep 1.6 km walk down.",
         "Go early for parking."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 9896,
+          "period": "202511-202610",
+          "title": "Emerald Bay State Park",
+          "url": "https://en.wikipedia.org/wiki/Emerald_Bay_State_Park",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1335376"
     },
     {
       "id": "lake-tahoe-tah-sand",
@@ -155,7 +164,16 @@
         "Fills by mid-morning in summer.",
         "Kayak or swim."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 1946,
+          "period": "202511-202610",
+          "title": "Lake Tahoe–Nevada State Park",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tahoe%E2%80%93Nevada_State_Park",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lake-tahoe-tah-trail",
@@ -202,13 +220,22 @@
         "Bike or walk.",
         "Rent a bike in Incline."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 533188,
+          "period": "202511-202610",
+          "title": "Lake Tahoe",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tahoe",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lake-tahoe-tah-gondola",
       "name": "Heavenly Gondola",
       "kind": "see",
-      "lat": 38.955,
+      "lat": 38.9353,
       "lon": -119.94,
       "wiki": "Heavenly Mountain Resort",
       "summary": "Gondola with views over the whole lake.",
@@ -249,13 +276,22 @@
         "Paid; also the ski area in winter.",
         "Clear days."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 21716,
+          "period": "202511-202610",
+          "title": "Heavenly Mountain Resort",
+          "url": "https://en.wikipedia.org/wiki/Heavenly_Mountain_Resort",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1548153"
     },
     {
       "id": "lake-tahoe-tah-ski",
       "name": "Skiing at Palisades Tahoe",
       "kind": "see",
-      "lat": 39.197,
+      "lat": 39.196,
       "lon": -120.235,
       "wiki": "Palisades Tahoe",
       "summary": "Former Olympic resort with big terrain.",
@@ -295,7 +331,16 @@
         "Winter.",
         "Buy lift tickets online."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 42018,
+          "period": "202511-202610",
+          "title": "Palisades Tahoe",
+          "url": "https://en.wikipedia.org/wiki/Palisades_Tahoe",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q2182804"
     },
     {
       "id": "lake-tahoe-tah-paddle",
@@ -342,7 +387,16 @@
         "Rentals at beaches.",
         "Mornings are calmest."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 533188,
+          "period": "202511-202610",
+          "title": "Lake Tahoe",
+          "url": "https://en.wikipedia.org/wiki/Lake_Tahoe",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lake-tahoe-tah-dinner",
@@ -518,5 +572,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q169962"
 }

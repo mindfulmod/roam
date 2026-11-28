@@ -64,8 +64,8 @@
       "id": "lunenburg-lun-oldtown",
       "name": "Old Town Lunenburg",
       "kind": "see",
-      "lat": 44.377,
-      "lon": -64.3093,
+      "lat": 44.3778,
+      "lon": -64.3094,
       "wiki": "Old Town Lunenburg",
       "summary": "UNESCO grid of colourful wooden houses on a steep hill.",
       "expect": "Free.",
@@ -105,14 +105,22 @@
         "Free.",
         "Photograph from across the harbour at Bluenose Golf Club road."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 69538,
+          "period": "202511-202610",
+          "title": "Lunenburg, Nova Scotia",
+          "url": "https://en.wikipedia.org/wiki/Lunenburg%2C_Nova_Scotia",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lunenburg-lun-museum",
       "name": "Fisheries Museum of the Atlantic",
       "kind": "see",
-      "lat": 44.375,
-      "lon": -64.308,
+      "lat": 44.3761,
+      "lon": -64.3122,
       "wiki": "Fisheries Museum of the Atlantic",
       "summary": "Museum of Atlantic fishing with boats to board.",
       "expect": "Paid; seasonal.",
@@ -151,14 +159,23 @@
         "Paid; seasonal.",
         "Board the schooner and trawler."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 664,
+          "period": "202511-202610",
+          "title": "Fisheries Museum of the Atlantic",
+          "url": "https://en.wikipedia.org/wiki/Fisheries_Museum_of_the_Atlantic",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q28456534"
     },
     {
       "id": "lunenburg-lun-bluenose",
       "name": "Bluenose II",
       "kind": "see",
-      "lat": 44.375,
-      "lon": -64.309,
+      "lat": 44.37613,
+      "lon": -64.31049,
       "wiki": "Bluenose II",
       "summary": "Replica of the famous racing schooner on the Canadian dime.",
       "expect": "Tours and sails when in port.",
@@ -198,7 +215,15 @@
         "Tours and sails when in port.",
         "Check the sailing schedule."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16630,
+          "period": "202511-202610",
+          "title": "Bluenose II",
+          "url": "https://en.wikipedia.org/wiki/Bluenose_II",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lunenburg-lun-sail",
@@ -245,14 +270,23 @@
         "Summer.",
         "Sunset sail."
       ],
-      "pinApproximate": true
+      "pinApproximate": true,
+      "signals": {
+        "wikipedia": {
+          "views": 69538,
+          "period": "202511-202610",
+          "title": "Lunenburg, Nova Scotia",
+          "url": "https://en.wikipedia.org/wiki/Lunenburg%2C_Nova_Scotia",
+          "checked": "2026-11-28"
+        }
+      }
     },
     {
       "id": "lunenburg-lun-church",
       "name": "St. John's Anglican Church",
       "kind": "see",
-      "lat": 44.379,
-      "lon": -64.311,
+      "lat": 44.3781,
+      "lon": -64.3112,
       "wiki": "St. John's Anglican Church (Lunenburg)",
       "summary": "Carpenter Gothic church rebuilt after a fire in 2001.",
       "expect": "Donation.",
@@ -292,14 +326,23 @@
         "Donation.",
         "Short visit."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 3338,
+          "period": "202511-202610",
+          "title": "St. John's Anglican Church (Lunenburg)",
+          "url": "https://en.wikipedia.org/wiki/St._John's_Anglican_Church_(Lunenburg)",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q23009312"
     },
     {
       "id": "lunenburg-lun-peggys",
       "name": "Peggy's Cove",
       "kind": "see",
-      "lat": 44.492,
-      "lon": -63.918,
+      "lat": 44.49278,
+      "lon": -63.9175,
       "wiki": "Peggy's Cove",
       "summary": "Granite rocks and Canada's most photographed lighthouse.",
       "expect": "Free.",
@@ -339,15 +382,24 @@
         "Free.",
         "Stay off the black rocks."
       ],
-      "pinApproximate": true,
-      "excursion": true
+      "excursion": true,
+      "signals": {
+        "wikipedia": {
+          "views": 41220,
+          "period": "202511-202610",
+          "title": "Peggys Cove, Nova Scotia",
+          "url": "https://en.wikipedia.org/wiki/Peggys_Cove%2C_Nova_Scotia",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1021695"
     },
     {
       "id": "lunenburg-lun-mahone",
       "name": "Mahone Bay",
       "kind": "see",
-      "lat": 44.447,
-      "lon": -64.383,
+      "lat": 44.44889,
+      "lon": -64.38194,
       "wiki": "Mahone Bay, Nova Scotia",
       "summary": "Village with three churches on the water.",
       "expect": "Free.",
@@ -387,7 +439,16 @@
         "Free.",
         "Shops and cafés."
       ],
-      "pinApproximate": true
+      "signals": {
+        "wikipedia": {
+          "views": 16758,
+          "period": "202511-202610",
+          "title": "Mahone Bay, Nova Scotia",
+          "url": "https://en.wikipedia.org/wiki/Mahone_Bay%2C_Nova_Scotia",
+          "checked": "2026-11-28"
+        }
+      },
+      "wikidata": "Q1885050"
     },
     {
       "id": "lunenburg-lun-lobster",
@@ -563,5 +624,7 @@
         "note": "This card describes a neighbourhood, market or flexible meal experience with independent operators. No area-wide dietary standard is implied. Confirm with the stall or venue you choose."
       }
     }
-  ]
+  ],
+  "enriched": "2026-11-28",
+  "wikidata": "Q105441"
 }
