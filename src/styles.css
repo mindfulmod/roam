@@ -9904,3 +9904,18 @@ details.unfit > p.muted {
   color: var(--muted);
   font-size: 13px;
 }
+
+/* Previous / next under the phone map preview card. */
+.map-card-pager {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+  margin-top: 8px;
+  font-size: 13px;
+  color: var(--muted);
+}
+.map-card-pager .iconbtn {
+  width: 36px;
+  height: 36px;
+}

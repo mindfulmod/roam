@@ -155,6 +155,7 @@ function renderMapPins(fit = false) {
     isCity = !mapUsesPlaces();
   // Numbered pins only while there are few enough to read; the world view and big searches get dots.
   const dots = isCity || items.length > DOT_OVER;
+  mapOrder = items.map((p) => p.id);
   items.forEach((p) => {
     const m = dots
       ? L.circleMarker([p.lat, p.lon], { renderer: dotRenderer, ...dotStyle(p, isCity) })
@@ -276,6 +277,36 @@ function markPin(id, cls, on) {
   } else m.getElement()?.querySelector('.map-pin')?.classList.toggle(cls, on);
 }
 let mapListDraw = null;
+// The phone preview card steps through the places in list order, by arrows or a sideways swipe,
+// so you can browse without hunting for small dots.
+let mapOrder = [];
+function mapCardStep(step) {
+  const n = mapOrder.length,
+    i = mapOrder.indexOf(focusedPin);
+  if (n < 2 || i < 0) return;
+  showMapCard(mapOrder[(i + step + n) % n]);
+}
+let cardTouch = null;
+document.addEventListener(
+  'touchstart',
+  (e) => {
+    const t = e.touches[0];
+    cardTouch = e.target.closest?.('#map-card') && t ? { x: t.clientX, y: t.clientY } : null;
+  },
+  { passive: true },
+);
+document.addEventListener(
+  'touchend',
+  (e) => {
+    const t = e.changedTouches[0];
+    if (!cardTouch || !t) return;
+    const dx = t.clientX - cardTouch.x,
+      dy = t.clientY - cardTouch.y;
+    cardTouch = null;
+    if (Math.abs(dx) > 50 && Math.abs(dx) > Math.abs(dy) * 1.5) mapCardStep(dx < 0 ? 1 : -1);
+  },
+  { passive: true },
+);
 function setMapSheet(open) {
   if (open) mapListDraw?.();
   $('#map-sheet')?.classList.toggle('open', open);
@@ -288,7 +319,12 @@ function showMapCard(id) {
   const card = $('#map-card');
   if (!card) return;
   const isCity = !P[id];
-  card.innerHTML = `<button class="iconbtn close" data-action="map-card-close" aria-label="Close preview">${icon('close')}</button>${popupHtml(P[id] || C[id], isCity)}`;
+  const at = mapOrder.indexOf(id),
+    pager =
+      mapOrder.length > 1 && at >= 0
+        ? `<div class="map-card-pager"><button class="iconbtn" data-action="map-card-step" data-id="-1" aria-label="Previous place">${icon('left')}</button><span>${at + 1} of ${mapOrder.length}</span><button class="iconbtn" data-action="map-card-step" data-id="1" aria-label="Next place">${icon('arrow')}</button></div>`
+        : '';
+  card.innerHTML = `<button class="iconbtn close" data-action="map-card-close" aria-label="Close preview">${icon('close')}</button>${popupHtml(P[id] || C[id], isCity)}${pager}`;
   card.hidden = false;
   setMapSheet(false);
   $('.mapaside')?.classList.add('has-card');

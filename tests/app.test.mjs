@@ -1183,3 +1183,29 @@ test('places that did not fit a short stay fold to one line', async () => {
   assert.deepEqual(trip.errors, []);
   await trip.context().close();
 });
+
+test('the phone map card steps to the next place by arrow or swipe', async () => {
+  const page = await openApp(browser, origin, { hash: '#/map/tokyo' });
+  await page.waitForFunction(() => typeof mapOrder !== 'undefined' && mapOrder.length > 1);
+  const first = await page.evaluate(() => {
+    showMapCard(mapOrder[0]);
+    return mapOrder.length;
+  });
+  const pager = page.locator('#map-card .map-card-pager span');
+  assert.equal(await pager.textContent(), `1 of ${first}`);
+  await page.locator('#map-card [data-action="map-card-step"][data-id="1"]').click();
+  assert.equal(await pager.textContent(), `2 of ${first}`);
+  await page.locator('#map-card [data-action="map-card-step"][data-id="-1"]').click();
+  await page.locator('#map-card [data-action="map-card-step"][data-id="-1"]').click();
+  assert.equal(await pager.textContent(), `${first} of ${first}`);
+  // A swipe to the left goes forward, wrapping round to the first place.
+  await page.evaluate(() => {
+    const el = document.querySelector('#map-card h3');
+    const touch = (x) => new Touch({ identifier: 1, target: el, clientX: x, clientY: 300 });
+    el.dispatchEvent(new TouchEvent('touchstart', { bubbles: true, touches: [touch(300)] }));
+    el.dispatchEvent(new TouchEvent('touchend', { bubbles: true, changedTouches: [touch(150)] }));
+  });
+  assert.equal(await pager.textContent(), `1 of ${first}`);
+  assert.deepEqual(page.errors, []);
+  await page.context().close();
+});
