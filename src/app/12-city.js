@@ -49,6 +49,12 @@ function refreshCityResults() {
   const d = $('#filter-done');
   if (d) d.textContent = 'Show ' + getCityPlaces(c).length + ' places';
 }
+// Trip cost and your stay sit side by side as two small buttons until either is set.
+function cityPrompts(c) {
+  if (!B().origin) B().origin = guessOrigin();
+  if (budgetReady() || S.stays[c.id]) return budgetPanel(c) + stayPanel(c, !S.stays[c.id]);
+  return `<div class="city-prompts" data-id="${c.id}"><button class="cp" data-action="bud-edit">${icon('wallet')}<span><strong>Trip cost</strong><small>From home, all in</small></span></button><button class="cp" data-action="edit-stay" data-id="${c.id}">${icon('pin')}<span><strong>Your stay</strong><small>What is nearby</small></span></button></div>`;
+}
 function stayPanel(c, compact = false) {
   const s = S.stays[c.id],
     near = s
@@ -242,7 +248,7 @@ function renderCity(id, tab = 'places') {
   } else if (cityFilter === 'shop') cityFilter = 'see';
   headerActive('explore');
   $('#app').innerHTML =
-    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1>${localName(c)}<p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}${cityTopFive(c)}${cityGlance(c)}${budgetPanel(c)}${stayPanel(c, !S.stays[id])}<div class="citytabs">${[
+    `<div class="wrap"><div class="backline"><a href="#/" aria-label="Compare destinations">${icon('left')}<span class="lbl-long"> Compare destinations</span><span class="lbl-short">Cities</span></a><div class="actions">${cityAdd(id)}<a class="btn ghost small" href="#/map/${id}">${icon('map')} City map</a></div></div><section class="cityhero">${photoTag(c.id, '', false)}<span class="hero-credit">${photoCredit(c.id)}</span><div class="cityherotext"><div class="eyebrow">${esc(c.country)} · ${esc(c.region)}</div><h1>${esc(c.name)}</h1>${localName(c)}<p>${esc(c.summary)}</p></div></section>${cityPhotos(c)}${cityTopFive(c)}${cityGlance(c)}${cityPrompts(c)}<div class="citytabs">${[
       ['places', 'Sights'],
       ['food', 'Food'],
       ['shop', 'Shopping'],
